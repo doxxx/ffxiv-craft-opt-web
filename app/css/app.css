@@ -20,10 +20,11 @@ body {
 .nav, .pagination, .carousel a { cursor: pointer; }
 
 .action-row {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .action {
+  border: solid white;
   padding: 2px;
 }
 

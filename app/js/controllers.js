@@ -20,6 +20,7 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
     cp: 234
   };
   $scope.allActions = _allActions;
+  $scope.selectedActions = [];
   $scope.recipeLevel = 12;
   $scope.recipe = {
     level: 12,
@@ -37,4 +38,19 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
 /wait 3\n\
 /cast Action7\n\
 ";
+  
+  $scope.isActionSelected = function(action) {
+    return $scope.selectedActions.indexOf(action) >= 0;
+  }
+
+  $scope.toggleAction = function(action) {
+    var i = $scope.selectedActions.indexOf(action);
+    if (i >= 0) {
+      $scope.selectedActions.splice(i, 1);
+    }
+    else {
+      $scope.selectedActions.push(action);
+    }
+  };
+  
 });
