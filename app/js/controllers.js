@@ -9,7 +9,11 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
   
   // variables to track which sections are open
   $scope.sections = {
-    crafterDetails: { open: true, title: 'Crafter Details' },
+    crafterDetails: {
+      open: true, title: 'Crafter Details',
+      stats: { open: true, title: 'Stats' },
+      actions: { open: true, title: 'Actions' },
+    },
     recipeDetails: { open: true, title: 'Recipe Details' },
     sequence: { open: true, title: 'Sequence'},
     macro: { open: false, title: 'Macro'},

@@ -32,16 +32,56 @@
         <accordion-heading>
             <my-section-header section="sections.crafterDetails"/>
         </accordion-heading>
-        <div class="row-fluid action-row" ng-repeat="actionGroup in allActions">
-          <div class="span2">
-            {{actionGroup.name}}:
-          </div>
-          <div class="span10">
-            <my-action-list actions="actionGroup.actions"
-                            action-class="{'selected-action': isActionSelected(action)}"
-                            action-click="toggleAction(action)"/>
-          </div>
-        </div>
+        <accordion close-others="false">
+          <accordion-group is-open="sections.crafterDetails.stats.open">
+            <accordion-heading>
+              <my-section-header section="sections.crafterDetails.stats"/>
+            </accordion-heading>
+            <form class="form-horizontal">
+              <fieldset>
+                <div class="control-group">
+                  <label class="control-label">Level</label>
+                  <div class="controls">
+                    <input type="number" ng-model="crafter.level"/>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label">Craftsmanship</label>
+                  <div class="controls">
+                    <input type="number" ng-model="crafter.craftsmanship"/>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label">Control</label>
+                  <div class="controls">
+                    <input type="number" ng-model="crafter.control"/>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label">CP</label>
+                  <div class="controls">
+                    <input type="number" ng-model="crafter.cp"/>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </accordion-group>
+          <accordion-group is-open="sections.crafterDetails.actions.open">
+            <accordion-heading>
+              <my-section-header section="sections.crafterDetails.actions"/>
+            </accordion-heading>
+            <div class="row-fluid action-row" ng-repeat="actionGroup in allActions">
+              <div class="span1">
+                {{actionGroup.name}}:
+              </div>
+              <div class="span11">
+                <my-action-list actions="actionGroup.actions"
+                                action-class="{'selected-action': isActionSelected(action)}"
+                                action-click="toggleAction(action)"/>
+              </div>
+            </div>
+          </accordion-group>
+        </accordion>
       </accordion-group>
       <accordion-group is-open="sections.recipeDetails.open">
         <accordion-heading>
