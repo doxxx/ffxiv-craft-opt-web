@@ -26,9 +26,12 @@
             <i class="pull-left" ng-class="{'icon-chevron-down': crafterDetailsOpen, 'icon-chevron-right': !crafterDetailsOpen}"></i>
             &nbsp;Crafter Details
         </accordion-heading>
-        <div class="row-fluid">
-          <div class="span1" ng-repeat="action in allActions">
-            <img class="img-rounded" ng-src="img/actions/{{action}}.png"/>
+        <div class="row" ng-repeat="actionGroup in allActions">
+          <div class="span2">
+            {{actionGroup.name}}:
+          </div>
+          <div class="span1" ng-repeat="action in actionGroup.actions">
+            <span tooltip="{{action}}" tooltip-placement="bottom" tooltip-append-to-body="true" tooltip-popup-delay="200"><img class="img-rounded" ng-src="img/actions/{{action}}.png"/></span>
           </div>
         </div>
       </accordion-group>
