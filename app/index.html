@@ -38,7 +38,14 @@
             {{actionGroup.name}}:
           </div>
           <div class="span10">
-            <img ng-repeat="action in actionGroup.actions" ng-class="{action: true, 'img-rounded': true, 'selected-action': isActionSelected(action)}" ng-src="img/actions/{{action}}.png" ng-click="toggleAction(action)" tooltip="{{action}}" tooltip-placement="bottom" tooltip-append-to-body="true" tooltip-popup-delay="200"/>
+            <img ng-repeat="action in actionGroup.actions"
+                 ng-class="{action: true, 'img-rounded': true, 'selected-action': isActionSelected(action)}"
+                 ng-src="img/actions/{{action}}.png"
+                 ng-click="toggleAction(action)"
+                 tooltip="{{action}}"
+                 tooltip-placement="bottom"
+                 tooltip-append-to-body="true"
+                 tooltip-popup-delay="200"/>
           </div>
         </div>
       </accordion-group>
