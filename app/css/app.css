@@ -20,15 +20,14 @@ body {
 .nav, .pagination, .carousel a { cursor: pointer; }
 
 .action-row {
-  margin-top: 5px;
 }
 
 .action {
   border: solid white;
-  padding: 2px;
+  padding: 0px;
+  margin: 2px;
 }
 
 .selected-action {
   border: solid blue;
-  padding: 2px;
 }
