@@ -11,8 +11,7 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
   $scope.sections = {
     crafterDetails: {
       open: true, title: 'Crafter Details',
-      stats: { open: true, title: 'Stats' },
-      actions: { open: true, title: 'Actions' },
+      actions: { open: true, title: 'Set Available Actions' },
     },
     recipeDetails: { open: true, title: 'Recipe Details' },
     sequence: { open: true, title: 'Sequence'},

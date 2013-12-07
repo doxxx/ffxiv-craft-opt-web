@@ -25,9 +25,21 @@ body {
 .action {
   border: solid white;
   padding: 0px;
-  margin: 2px;
+  margin-right: 4px;
 }
 
 .selected-action {
   border: solid blue;
+}
+
+.control-label {
+  font-weight: bold;
+}
+
+.accordion-group {
+  border: none;
+}
+
+.section-title {
+  font-weight: bold;
 }
