@@ -37,14 +37,9 @@
             {{actionGroup.name}}:
           </div>
           <div class="span10">
-            <img ng-repeat="action in actionGroup.actions"
-                 ng-class="{action: true, 'img-rounded': true, 'selected-action': isActionSelected(action)}"
-                 ng-src="img/actions/{{action}}.png"
-                 ng-click="toggleAction(action)"
-                 tooltip="{{action}}"
-                 tooltip-placement="bottom"
-                 tooltip-append-to-body="true"
-                 tooltip-popup-delay="200"/>
+            <my-action-list actions="actionGroup.actions"
+                            action-class="{'selected-action': isActionSelected(action)}"
+                            action-click="toggleAction(action)"/>
           </div>
         </div>
       </accordion-group>
@@ -94,8 +89,8 @@
             <my-section-header section="sections.sequence"/>
         </accordion-heading>
         <div class="row-fluid">
-          <div class="span1" ng-repeat="action in sequence">
-            <img class="img-rounded" ng-src="img/actions/{{action}}.png"/>
+          <div class="span12">
+            <my-action-list actions="sequence"/>
           </div>
         </div>
         <div class="row-fluid">

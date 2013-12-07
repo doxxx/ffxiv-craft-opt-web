@@ -18,3 +18,15 @@ module.directive('mySectionHeader', function() {
     templateUrl: 'partials/section-header.html'
   }
 });
+
+module.directive('myActionList', function() {
+  return {
+    restrict: 'E',
+    scope: {
+      actions: '=',
+      actionClass: '&',
+      actionClick: '&',
+    },
+    templateUrl: 'partials/action-list.html'
+  }
+});
