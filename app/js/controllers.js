@@ -27,7 +27,7 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
     startQuality: 0,
     maxQuality: 456
   };
-  $scope.sequence = [ "Inner Quiet", "Basic Touch", "Basic Synthesis" ];
+  $scope.sequence = [ "Inner Quiet", "Basic Touch", "Basic Synth" ];
   $scope.macroText = "/cast Action4\
 /wait 3\n\
 /cast Action2\n\

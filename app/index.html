@@ -80,12 +80,13 @@
             &nbsp;Sequence
         </accordion-heading>
         <div class="row-fluid">
-          <div class="span1">Action4</div>
-          <div class="span1">Action2</div>
-          <div class="span1">Action1</div>
-          <div class="span1">Action7</div>
+          <div class="span1" ng-repeat="action in sequence">
+            <img class="img-rounded" ng-src="img/actions/{{action}}.png"/>
+          </div>
         </div>
-        <button class="btn btn-primary">Simulate</button>
+        <div class="row-fluid">
+          <button class="btn btn-primary">Simulate</button>
+        </div>
       </accordion-group>
       <accordion-group is-open="macroOpen">
         <accordion-heading>
