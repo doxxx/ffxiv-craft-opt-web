@@ -19,7 +19,15 @@ body {
 
 .nav, .pagination, .carousel a { cursor: pointer; }
 
+.action-row {
+  margin-top: 8px;
+}
+
+.action {
+  padding: 2px;
+}
+
 .selected-action {
   border: solid blue;
-  padding: 2px
+  padding: 2px;
 }
