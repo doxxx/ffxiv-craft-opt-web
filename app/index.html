@@ -28,10 +28,9 @@
   </div>
   <div class="container-fluid">
     <accordion close-others="false">
-      <accordion-group is-open="crafterDetailsOpen">
+      <accordion-group is-open="sections.crafterDetails.open">
         <accordion-heading>
-            <i class="pull-left" ng-class="{'icon-chevron-down': crafterDetailsOpen, 'icon-chevron-right': !crafterDetailsOpen}"></i>
-            &nbsp;Crafter Details
+            <my-section-header section="sections.crafterDetails"/>
         </accordion-heading>
         <div class="row-fluid action-row" ng-repeat="actionGroup in allActions">
           <div class="span2">
@@ -49,10 +48,9 @@
           </div>
         </div>
       </accordion-group>
-      <accordion-group is-open="recipeDetailsOpen">
+      <accordion-group is-open="sections.recipeDetails.open">
         <accordion-heading>
-            <i class="pull-left" ng-class="{'icon-chevron-down': recipeDetailsOpen, 'icon-chevron-right': !recipeDetailsOpen}"></i>
-            &nbsp;Recipe Details
+            <my-section-header section="sections.recipeDetails"/>
         </accordion-heading>
         <div>
           <form class="form-horizontal">
@@ -91,10 +89,9 @@
           </form>
         </div>
       </accordion-group>
-      <accordion-group is-open="sequenceOpen">
+      <accordion-group is-open="sections.sequence.open">
         <accordion-heading>
-            <i class="pull-left" ng-class="{'icon-chevron-down': sequenceOpen, 'icon-chevron-right': !sequenceOpen}"></i>
-            &nbsp;Sequence
+            <my-section-header section="sections.sequence"/>
         </accordion-heading>
         <div class="row-fluid">
           <div class="span1" ng-repeat="action in sequence">
@@ -105,10 +102,9 @@
           <button class="btn btn-primary">Simulate</button>
         </div>
       </accordion-group>
-      <accordion-group is-open="macroOpen">
+      <accordion-group is-open="sections.macro.open">
         <accordion-heading>
-            <i class="pull-left" ng-class="{'icon-chevron-down': macroOpen, 'icon-chevron-right': !macroOpen}"></i>
-            &nbsp;Macro
+            <my-section-header section="sections.macro"/>
         </accordion-heading>
         <div>
           <pre>{{macroText}}</pre>

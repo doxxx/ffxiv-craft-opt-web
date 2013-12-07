@@ -5,12 +5,15 @@
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, _allActions) {
-  // variables to track which sections are open
   $scope.navBarCollapsed = true;
-  $scope.crafterDetailsOpen = true;
-  $scope.recipeDetailsOpen = true;
-  $scope.sequenceOpen = true;
-  $scope.macroOpen = false;
+  
+  // variables to track which sections are open
+  $scope.sections = {
+    crafterDetails: { open: true, title: 'Crafter Details' },
+    recipeDetails: { open: true, title: 'Recipe Details' },
+    sequence: { open: true, title: 'Sequence'},
+    macro: { open: false, title: 'Macro'},
+  };
   
   // fields
   $scope.crafter = {
