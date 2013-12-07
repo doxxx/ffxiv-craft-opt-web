@@ -27,127 +27,138 @@
     </div>
   </div>
   <div class="container-fluid">
-    <accordion close-others="false">
-      <accordion-group is-open="sections.crafterDetails.open">
-        <accordion-heading>
-            <my-section-header section="sections.crafterDetails"/>
-        </accordion-heading>
-        <div class="well">
-          <form class="form-horizontal">
-            <fieldset>
-              <div class="control-group">
-                <label class="control-label">Level</label>
-                <div class="controls">
-                  <input type="number" ng-model="crafter.level"/>
-                </div>
-              </div>
-              <div class="control-group">
-                <label class="control-label">Craftsmanship</label>
-                <div class="controls">
-                  <input type="number" ng-model="crafter.craftsmanship"/>
-                </div>
-              </div>
-              <div class="control-group">
-                <label class="control-label">Control</label>
-                <div class="controls">
-                  <input type="number" ng-model="crafter.control"/>
-                </div>
-              </div>
-              <div class="control-group">
-                <label class="control-label">CP</label>
-                <div class="controls">
-                  <input type="number" ng-model="crafter.cp"/>
-                </div>
-              </div>
-            </fieldset>
-          </form>
-          <accordion close-others="false">
-            <accordion-group is-open="sections.crafterDetails.actions.open">
-              <accordion-heading>
-                <my-section-header section="sections.crafterDetails.actions"/>
-              </accordion-heading>
-              <form class="form-horizontal">
-                <fieldset>
-                  <div class="control-group" ng-repeat="actionGroup in allActions">
-                    <label class="control-label">{{actionGroup.name}}</label>
-                    <div class="controls">
-                      <my-action-list actions="actionGroup.actions"
-                                      action-class="{'selected-action': isActionSelected(action)}"
-                                      action-click="toggleAction(action)"/>
+    <div class="span12">
+      <accordion close-others="false">
+        <accordion-group is-open="sections.synth.open">
+          <accordion-heading>
+              <my-section-header section="sections.synth"/>
+          </accordion-heading>
+          <div class="row-fluid">
+            <tabset>
+              <tab heading="Crafter">
+                <div class="well">
+                  <div class="row-fluid">
+                    <div class="span12 btn-group">
+                      <button type="button" class="btn btn-primary" btn-radio="'Leatherworker'" ng-model="crafterClass">Leatherworker</button>
+                      <button type="button" class="btn btn-primary" btn-radio="'Weaver'" ng-model="crafterClass">Weaver</button>
+                      <button type="button" class="btn btn-primary" btn-radio="'Carpenter'" ng-model="crafterClass">Carpenter</button>
                     </div>
                   </div>
-                </fieldset>
-              </form>
-            </accordion-group>
-          </accordion>
-        </div>
-      </accordion-group>
-      <accordion-group is-open="sections.recipeDetails.open">
-        <accordion-heading>
-            <my-section-header section="sections.recipeDetails"/>
-        </accordion-heading>
-        <div>
-          <form class="form-horizontal well">
-            <fieldset>
-              <div class="control-group">
-                <label class="control-label">Level</label>
-                <div class="controls">
-                  <input type="number" ng-model="recipe.level"/>
+                  <div class="row-fluid">
+                    <div class="span6">
+                      <h4>Stats</h4>
+                      <form class="form-horizontal">
+                        <fieldset>
+                          <div class="control-group">
+                            <label class="control-label">Level</label>
+                            <div class="controls">
+                              <input type="number" ng-model="crafter.level"/>
+                            </div>
+                          </div>
+                          <div class="control-group">
+                            <label class="control-label">Craftsmanship</label>
+                            <div class="controls">
+                              <input type="number" ng-model="crafter.craftsmanship"/>
+                            </div>
+                          </div>
+                          <div class="control-group">
+                            <label class="control-label">Control</label>
+                            <div class="controls">
+                              <input type="number" ng-model="crafter.control"/>
+                            </div>
+                          </div>
+                          <div class="control-group">
+                            <label class="control-label">CP</label>
+                            <div class="controls">
+                              <input type="number" ng-model="crafter.cp"/>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                    <div class="span6">
+                      <h4>Set Available Actions</h4>
+                      <form class="action-table">
+                        <fieldset>
+                          <div class="control-group" ng-repeat="actionGroup in allActions">
+                            <label class="control-label">{{actionGroup.name}}</label>
+                            <div class="controls">
+                              <my-action-list actions="actionGroup.actions"
+                                              action-class="{'selected-action': isActionSelected(action)}"
+                                              action-click="toggleAction(action)"/>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="control-group">
-                <label class="control-label">Difficulty</label>
-                <div class="controls">
-                  <input type="number" ng-model="recipe.difficulty"/>
-                </div>
-              </div>
-              <div class="control-group">
-                <label class="control-label">Durability</label>
-                <div class="controls">
-                  <input type="number" ng-model="recipe.durability"/>
-                </div>
-              </div>
-              <div class="control-group">
-                <label class="control-label">Start Quality</label>
-                <div class="controls">
-                  <input type="number" ng-model="recipe.startQuality"/>
-                </div>
-              </div>
-              <div class="control-group">
-                <label class="control-label">Max Quality</label>
-                <div class="controls">
-                  <input type="number" ng-model="recipe.maxQuality"/>
-                </div>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-      </accordion-group>
-      <accordion-group is-open="sections.sequence.open">
-        <accordion-heading>
-            <my-section-header section="sections.sequence"/>
-        </accordion-heading>
-        <div class="row-fluid">
-          <div class="span12">
-            <my-action-list actions="sequence"/>
+              </tab>
+              <tab heading="Recipe">
+                <form class="form-horizontal well">
+                  <fieldset>
+                    <div class="control-group">
+                      <label class="control-label">Level</label>
+                      <div class="controls">
+                        <input type="number" ng-model="recipe.level"/>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">Difficulty</label>
+                      <div class="controls">
+                        <input type="number" ng-model="recipe.difficulty"/>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">Durability</label>
+                      <div class="controls">
+                        <input type="number" ng-model="recipe.durability"/>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">Start Quality</label>
+                      <div class="controls">
+                        <input type="number" ng-model="recipe.startQuality"/>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">Max Quality</label>
+                      <div class="controls">
+                        <input type="number" ng-model="recipe.maxQuality"/>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </tab>
+            </tabset>
           </div>
-        </div>
-        <div class="row-fluid">
-          <button class="btn btn-primary">Simulate</button>
-        </div>
-      </accordion-group>
-      <accordion-group is-open="sections.macro.open">
-        <accordion-heading>
-            <my-section-header section="sections.macro"/>
-        </accordion-heading>
-        <div>
-          <pre>{{macroText}}</pre>
-        </div>
-        <div>
-          <a class="btn" href="#"><i class="icon-briefcase"></i> Copy to clipboard</a>
-        </div>
-      </accordion-group>
-    </accordion>
+        </accordion-group>
+        <accordion-group is-open="sections.simulator.open">
+          <accordion-heading>
+              <my-section-header section="sections.simulator"/>
+          </accordion-heading>
+          <div class="row-fluid">
+            <div class="span12">
+              <my-action-list actions="sequence"/>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <button class="btn btn-primary">Simulate</button>
+          </div>
+        </accordion-group>
+        <accordion-group is-open="sections.macro.open">
+          <accordion-heading>
+              <my-section-header section="sections.macro"/>
+          </accordion-heading>
+          <div>
+            <pre>{{macroText}}</pre>
+          </div>
+          <div>
+            <a class="btn" href="#"><i class="icon-briefcase"></i> Copy to clipboard</a>
+          </div>
+        </accordion-group>
+      </accordion>
+    </div>
   </div>
   
   <!-- In production use:

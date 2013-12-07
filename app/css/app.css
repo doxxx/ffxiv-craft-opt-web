@@ -19,21 +19,24 @@ body {
 
 .nav, .pagination, .carousel a { cursor: pointer; }
 
-.action-row {
-}
-
 .action {
   border: solid white;
   padding: 0px;
-  margin-right: 4px;
+  margin-right: 1px;
+  margin-bottom: 1px;
 }
 
 .selected-action {
-  border: solid blue;
+  border: solid #00aaff;
 }
 
-.control-label {
+.form-horizontal .control-label {
   font-weight: bold;
+  width: 120px;
+}
+
+.form-horizontal .controls {
+  margin-left: 140px;
 }
 
 .accordion-group {
@@ -42,4 +45,82 @@ body {
 
 .section-title {
   font-weight: bold;
+}
+
+
+/* Action Table */
+
+.action-table input,
+.action-table textarea,
+.action-table select,
+.action-table .help-inline,
+.action-table .uneditable-input,
+.action-table .input-prepend,
+.action-table .input-append {
+  display: inline-block;
+  *display: inline;
+  margin-bottom: 0;
+  vertical-align: middle;
+  *zoom: 1;
+}
+
+.action-table .hide {
+  display: none;
+}
+
+legend + .control-group {
+  margin-top: 20px;
+  -webkit-margin-top-collapse: separate;
+}
+
+.action-table .control-group {
+  margin-bottom: 1px;
+  *zoom: 1;
+}
+
+.action-table .control-group:before,
+.action-table .control-group:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.action-table .control-group:after {
+  clear: both;
+}
+
+.action-table .control-label {
+  float: left;
+  width: 100px;
+  padding-top: 5px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.action-table .controls {
+  *display: inline-block;
+  *padding-left: 20px;
+  margin-left: 120px;
+  *margin-left: 0;
+}
+
+.action-table .controls:first-child {
+  *padding-left: 120px;
+}
+
+.action-table .help-block {
+  margin-bottom: 0;
+}
+
+.action-table input + .help-block,
+.action-table select + .help-block,
+.action-table textarea + .help-block,
+.action-table .uneditable-input + .help-block,
+.action-table .input-prepend + .help-block,
+.action-table .input-append + .help-block {
+  margin-top: 10px;
+}
+
+.action-table .form-actions {
+  padding-left: 120px;
 }
