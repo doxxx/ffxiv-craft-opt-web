@@ -1,25 +1,113 @@
 <!doctype html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="ffxivCraftOptWeb">
 <head>
   <meta charset="utf-8">
-  <title>My AngularJS App</title>
+  <title>FFXIV Crafting Optimizer</title>
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" media="screen"/>
   <link rel="stylesheet" href="css/app.css"/>
 </head>
-<body>
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
-
-  <div ng-view></div>
-
-  <div>Angular seed app: v<span app-version></span></div>
-
+<body ng-controller="MainCtrl">
+  <!--<ul class="menu">-->
+  <!--  <li><a href="#/view1">view1</a></li>-->
+  <!--  <li><a href="#/view2">view2</a></li>-->
+  <!--</ul>-->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <a class="brand" href="#">lokyst.net</a>
+      <ul class="nav">
+        <li class="active"><a href="#">FFXIV Crafting Optimizer</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <accordion close-others="false">
+      <accordion-group is-open="crafterDetailsOpen">
+        <accordion-heading>
+            <i class="pull-left" ng-class="{'icon-chevron-down': crafterDetailsOpen, 'icon-chevron-right': !crafterDetailsOpen}"></i>
+            &nbsp;Crafter Details
+        </accordion-heading>
+        <div class="row-fluid">
+          <div class="span1" ng-repeat="action in allActions">
+            <img class="img-rounded" ng-src="img/actions/{{action}}.png"/>
+          </div>
+        </div>
+      </accordion-group>
+      <accordion-group is-open="recipeDetailsOpen">
+        <accordion-heading>
+            <i class="pull-left" ng-class="{'icon-chevron-down': recipeDetailsOpen, 'icon-chevron-right': !recipeDetailsOpen}"></i>
+            &nbsp;Recipe Details
+        </accordion-heading>
+        <div>
+          <form class="form-horizontal">
+            <fieldset>
+              <div class="control-group">
+                <label class="control-label">Level</label>
+                <div class="controls">
+                  <input type="number" ng-model="recipe.level"/>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Difficulty</label>
+                <div class="controls">
+                  <input type="number" ng-model="recipe.difficulty"/>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Durability</label>
+                <div class="controls">
+                  <input type="number" ng-model="recipe.durability"/>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Start Quality</label>
+                <div class="controls">
+                  <input type="number" ng-model="recipe.startQuality"/>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Max Quality</label>
+                <div class="controls">
+                  <input type="number" ng-model="recipe.maxQuality"/>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </accordion-group>
+      <accordion-group is-open="sequenceOpen">
+        <accordion-heading>
+            <i class="pull-left" ng-class="{'icon-chevron-down': sequenceOpen, 'icon-chevron-right': !sequenceOpen}"></i>
+            &nbsp;Sequence
+        </accordion-heading>
+        <div class="row-fluid">
+          <div class="span1">Action4</div>
+          <div class="span1">Action2</div>
+          <div class="span1">Action1</div>
+          <div class="span1">Action7</div>
+        </div>
+        <button class="btn btn-primary">Simulate</button>
+      </accordion-group>
+      <accordion-group is-open="macroOpen">
+        <accordion-heading>
+            <i class="pull-left" ng-class="{'icon-chevron-down': macroOpen, 'icon-chevron-right': !macroOpen}"></i>
+            &nbsp;Macro
+        </accordion-heading>
+        <div>
+          <pre>{{macroText}}</pre>
+        </div>
+        <div>
+          <a class="btn" href="#"><i class="icon-briefcase"></i> Copy to clipboard</a>
+        </div>
+      </accordion-group>
+    </accordion>
+  </div>
+  
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
   -->
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular/angular-route.js"></script>
+  <script src="js/ui-bootstrap-tpls-0.7.0.js"></script>
   <script src="js/app.js"></script>
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
