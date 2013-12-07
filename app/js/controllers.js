@@ -6,6 +6,7 @@ var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, _allActions) {
   // variables to track which sections are open
+  $scope.navBarCollapsed = true;
   $scope.crafterDetailsOpen = true;
   $scope.recipeDetailsOpen = true;
   $scope.sequenceOpen = true;
