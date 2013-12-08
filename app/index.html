@@ -37,15 +37,19 @@
             <tabset>
               <tab heading="Crafter">
                 <div class="well">
-                  <my-radio-buttons class="btn-group"
-                                    data-toggle="buttons-radio" 
-                                    model="crafterClass"
-                                    options="allClasses">
+                  <div class="btn-group">
+                    <button class="btn btn-primary"
+                            ng-model="$parent.crafterClass"
+                            btn-radio="class"
+                            ng-repeat="class in allClasses">
+                      <img ng-src="img/classes/{{class}}.png"/>
+                    </button>
+                  </div>
                   </my-radio-buttons>
                   <div class="row-fluid">
                     <div class="span6">
                       <form class="form-horizontal">
-                        <legend>Stats</legend>
+                        <legend>{{crafterClass}} Stats</legend>
                         <fieldset>
                           <div class="control-group">
                             <label class="control-label">Level</label>

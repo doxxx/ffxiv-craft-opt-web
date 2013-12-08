@@ -20,7 +20,7 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
   // fields
   $scope.allClasses = [
     "Alchemist",
-    "Armorsmith",
+    "Armorer",
     "Blacksmith",
     "Carpenter",
     "Culinarian",
@@ -28,6 +28,8 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
     "Leatherworker",
     "Weaver",
   ];
+  
+  $scope.crafterClass = $scope.allClasses[0];
   
   $scope.crafter = {
     level: 15,
