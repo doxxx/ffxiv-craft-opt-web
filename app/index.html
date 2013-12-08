@@ -39,9 +39,13 @@
                 <div class="well">
                   <div class="btn-group">
                     <button class="btn btn-primary"
-                            ng-model="$parent.crafterClass"
+                            ng-model="crafter.cls"
                             btn-radio="class"
-                            ng-repeat="class in allClasses">
+                            ng-repeat="class in allClasses"
+                            tooltip="{{crafter.cls}}"
+                            tooltip-placement="top"
+                            tooltip-append-to-body="true"
+                            tooltip-popup-delay="200">
                       <img ng-src="img/classes/{{class}}.png"/>
                     </button>
                   </div>
@@ -49,7 +53,7 @@
                   <div class="row-fluid">
                     <div class="span6">
                       <form class="form-horizontal">
-                        <legend>{{crafterClass}} Stats</legend>
+                        <legend>{{crafter.cls}} Stats</legend>
                         <fieldset>
                           <div class="control-group">
                             <label class="control-label">Level</label>

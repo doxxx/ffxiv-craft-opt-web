@@ -29,9 +29,8 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
     "Weaver",
   ];
   
-  $scope.crafterClass = $scope.allClasses[0];
-  
   $scope.crafter = {
+    cls: $scope.allClasses[0],
     level: 15,
     craftsmanship: 56,
     control: 67,
