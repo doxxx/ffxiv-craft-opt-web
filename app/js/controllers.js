@@ -18,15 +18,27 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
   };
   
   // fields
+  $scope.allClasses = [
+    "Alchemist",
+    "Armorsmith",
+    "Blacksmith",
+    "Carpenter",
+    "Culinarian",
+    "Goldsmith",
+    "Leatherworker",
+    "Weaver",
+  ];
+  
   $scope.crafter = {
     level: 15,
     craftsmanship: 56,
     control: 67,
     cp: 234
   };
+  
   $scope.allActions = _allActions;
   $scope.selectedActions = [];
-  $scope.recipeLevel = 12;
+
   $scope.recipe = {
     level: 12,
     difficulty: 123,
@@ -34,7 +46,21 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
     startQuality: 0,
     maxQuality: 456
   };
+
   $scope.sequence = [ "Inner Quiet", "Basic Touch", "Basic Synth" ];
+
+  $scope.simulation = {
+    maxTricks: 0,
+    maxMontecarloRuns: 500,
+  };
+  
+  $scope.solver = {
+    seed: 1337,
+    penaltyWeight: 10000,
+    population: 300,
+    generations: 200,
+  };
+
   $scope.macroText = "/cast Action4\
 /wait 3\n\
 /cast Action2\n\
