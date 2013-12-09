@@ -4,7 +4,7 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
-controllers.controller('MainCtrl', function($scope, $http, _allClasses, _actionGroups, _allActions) {
+controllers.controller('MainCtrl', function($scope, $http, $location, _allClasses, _actionGroups, _allActions) {
   $scope.navBarCollapsed = true;
   
   // variables to track which sections are open
@@ -49,6 +49,7 @@ controllers.controller('MainCtrl', function($scope, $http, _allClasses, _actionG
   $scope.simulation = {
     maxTricks: 0,
     maxMontecarloRuns: 500,
+    result: "",
   };
   
   $scope.solver = {
@@ -80,5 +81,20 @@ controllers.controller('MainCtrl', function($scope, $http, _allClasses, _actionG
       $scope.crafter.actions.push(action);
     }
   };
+  
+  // Web Service API
+  
+  $scope.runSimulation = function() {
+    var settings = {
+      crafter: $scope.crafter,
+      recipe: $scope.recipe,
+      sequence: $scope.sequence,
+      maxTricksUses: $scope.simulation.maxTricks,
+    };
+    $http.post('http://' + $location.host() + ':8080/simulation', settings).
+      success(function(data, status, headers, config) {
+        $scope.simulation.result = data.log;
+      });
+  }
   
 });
