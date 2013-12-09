@@ -4,7 +4,7 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
-controllers.controller('MainCtrl', function($scope, _allActions) {
+controllers.controller('MainCtrl', function($scope, $http, _allClasses, _actionGroups, _allActions) {
   $scope.navBarCollapsed = true;
   
   // variables to track which sections are open
@@ -18,27 +18,23 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
   };
   
   // fields
-  $scope.allClasses = [
-    "Alchemist",
-    "Armorer",
-    "Blacksmith",
-    "Carpenter",
-    "Culinarian",
-    "Goldsmith",
-    "Leatherworker",
-    "Weaver",
-  ];
+  $scope.allClasses = _allClasses;
   
   $scope.crafter = {
     cls: $scope.allClasses[0],
     level: 15,
     craftsmanship: 56,
     control: 67,
-    cp: 234
+    cp: 234,
+    actions: []
   };
   
-  $scope.allActions = _allActions;
-  $scope.selectedActions = [];
+  $scope.actionGroups = _actionGroups;
+  $scope.allActions = {};
+  for (var i = 0; i < _allActions.length; i++) {
+    var action = _allActions[i];
+    $scope.allActions[action.shortName] = action;
+  }
 
   $scope.recipe = {
     level: 12,
@@ -48,7 +44,7 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
     maxQuality: 456
   };
 
-  $scope.sequence = [ "Inner Quiet", "Basic Touch", "Basic Synth" ];
+  $scope.sequence = [ "innerQuiet", "basicTouch", "basicSynth", "basicSynth", "basicSynth", "basicSynth", "basicSynth" ];
 
   $scope.simulation = {
     maxTricks: 0,
@@ -72,16 +68,16 @@ controllers.controller('MainCtrl', function($scope, _allActions) {
 ";
   
   $scope.isActionSelected = function(action) {
-    return $scope.selectedActions.indexOf(action) >= 0;
+    return $scope.crafter.actions.indexOf(action) >= 0;
   }
 
   $scope.toggleAction = function(action) {
-    var i = $scope.selectedActions.indexOf(action);
+    var i = $scope.crafter.actions.indexOf(action);
     if (i >= 0) {
-      $scope.selectedActions.splice(i, 1);
+      $scope.crafter.actions.splice(i, 1);
     }
     else {
-      $scope.selectedActions.push(action);
+      $scope.crafter.actions.push(action);
     }
   };
   

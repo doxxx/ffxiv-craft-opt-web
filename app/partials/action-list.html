@@ -1,9 +1,9 @@
-<img ng-repeat="action in actions"
+<img ng-repeat="action in actions track by $index"
      class="action img-rounded"
      ng-class="actionClass({action: action})"
      ng-click="actionClick({action: action})"
      ng-src="img/actions/{{action}}.png"
-     tooltip="{{action}}"
+     tooltip="{{actionTooltip({action: action})}}"
      tooltip-placement="bottom"
      tooltip-append-to-body="true"
      tooltip-popup-delay="200"/>

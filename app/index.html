@@ -86,12 +86,13 @@
                       <form class="action-table">
                         <legend>Available Actions</legend>
                         <fieldset>
-                          <div class="control-group" ng-repeat="actionGroup in allActions">
+                          <div class="control-group" ng-repeat="actionGroup in actionGroups">
                             <label class="control-label">{{actionGroup.name}}</label>
                             <div class="controls">
                               <my-action-list actions="actionGroup.actions"
                                               action-class="{'selected-action': isActionSelected(action)}"
-                                              action-click="toggleAction(action)"/>
+                                              action-click="toggleAction(action)"
+                                              action-tooltip="allActions[action].name"/>
                             </div>
                           </div>
                         </fieldset>
@@ -145,7 +146,8 @@
           </accordion-heading>
           <div class="well">
             <div class="row-fluid">
-              <my-action-list actions="sequence"/>
+              <my-action-list actions="sequence"
+                              action-tooltip="allActions[action].name"/>
             </div>
             <div class="row-fluid">
               <form>
