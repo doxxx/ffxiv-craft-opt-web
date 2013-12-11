@@ -91,10 +91,16 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.maxTricks,
+      simulation: $scope.simulation,
     };
     $http.post('http://' + $location.host() + ':8080/simulation', settings).
       success(function(data, status, headers, config) {
-        $scope.simulation.result = data.log;
+        $scope.simulation.result = 'Probabilistic Result\n' +
+                                   '====================\n' +
+                                   data.probabilisticLog + '\n' +
+                                   'Monte Carlo Result\n' +
+                                   '==================\n' +
+                                   data.monteCarloLog;
       });
   }
   
