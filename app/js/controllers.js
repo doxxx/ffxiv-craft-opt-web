@@ -38,7 +38,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
 
   $scope.recipe = {
     level: 12,
-    difficulty: 123,
+    difficulty: 65,
     durability: 60,
     startQuality: 0,
     maxQuality: 456
