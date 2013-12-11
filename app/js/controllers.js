@@ -45,9 +45,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
   };
 
   $scope.sequence = [ "innerQuiet", "basicTouch", "basicSynth", "basicSynth", "basicSynth", "basicSynth", "basicSynth" ];
+  $scope.maxTricks = 0;
 
   $scope.simulation = {
-    maxTricks: 0,
     maxMontecarloRuns: 500,
     result: "",
   };
@@ -57,6 +57,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
     penaltyWeight: 10000,
     population: 300,
     generations: 200,
+    result: "",
   };
 
   $scope.macroText = "/cast Action4\
@@ -89,11 +90,25 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
       crafter: $scope.crafter,
       recipe: $scope.recipe,
       sequence: $scope.sequence,
-      maxTricksUses: $scope.simulation.maxTricks,
+      maxTricksUses: $scope.maxTricks,
     };
     $http.post('http://' + $location.host() + ':8080/simulation', settings).
       success(function(data, status, headers, config) {
         $scope.simulation.result = data.log;
+      });
+  }
+  
+  $scope.runSolver = function() {
+    var settings = {
+      crafter: $scope.crafter,
+      recipe: $scope.recipe,
+      sequence: $scope.sequence,
+      maxTricksUses: $scope.maxTricks,
+      solver: $scope.solver,
+    };
+    $http.post('http://' + $location.host() + ':8080/solver', settings).
+      success(function(data, status, headers, config) {
+        $scope.solver.result = data.log;
       });
   }
   

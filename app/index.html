@@ -152,7 +152,7 @@
             <div class="row-fluid">
               <form>
                 <label>Max Tricks</label>
-                <input class="input-small" type="number" ng-model="simulation.maxTricks"/>
+                <input class="input-small" type="number" ng-model="maxTricks"/>
               </form>
             </div>
           </div>
@@ -190,7 +190,10 @@
                   </form>
                 </div>
                 <div class="row-fluid">
-                  <button class="btn btn-primary">Solve</button>
+                  <button class="btn btn-primary" ng-click="runSolver()">Solve</button>
+                </div>
+                <div class="well">
+                  <pre>{{solver.result}}</pre>
                 </div>
               </div>
             </tab>
