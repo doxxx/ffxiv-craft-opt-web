@@ -49,16 +49,18 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
 
   $scope.simulation = {
     maxMontecarloRuns: 500,
-    result: "",
   };
+  
+  $scope.simulationResult = "";
   
   $scope.solver = {
     seed: 1337,
     penaltyWeight: 10000,
     population: 300,
     generations: 200,
-    result: "",
   };
+  
+  $scope.solverResult = "";
 
   $scope.macroText = "/cast Action4\
 /wait 3\n\
@@ -95,12 +97,12 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
     };
     $http.post('http://' + $location.host() + ':8080/simulation', settings).
       success(function(data, status, headers, config) {
-        $scope.simulation.result = 'Probabilistic Result\n' +
-                                   '====================\n' +
-                                   data.probabilisticLog + '\n' +
-                                   'Monte Carlo Result\n' +
-                                   '==================\n' +
-                                   data.monteCarloLog;
+        $scope.simulationResult = 'Probabilistic Result\n' +
+                                  '====================\n' +
+                                  data.probabilisticLog + '\n' +
+                                  'Monte Carlo Result\n' +
+                                  '==================\n' +
+                                  data.monteCarloLog;
       });
   }
   
@@ -114,7 +116,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
     };
     $http.post('http://' + $location.host() + ':8080/solver', settings).
       success(function(data, status, headers, config) {
-        $scope.solver.result = data.log;
+        $scope.solverResult = data.log;
       });
   }
   
