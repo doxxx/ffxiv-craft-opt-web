@@ -117,6 +117,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
     $http.post('http://' + $location.host() + ':8080/solver', settings).
       success(function(data, status, headers, config) {
         $scope.solverResult = data.log;
+        $scope.sequence = data.bestSequence;
       });
   }
   
