@@ -30,13 +30,13 @@ body {
   border: solid #00aaff;
 }
 
-.form-horizontal .control-label {
+.form-horizontal .control-label, form label {
   font-weight: bold;
-  width: 120px;
+  width: 130px;
 }
 
 .form-horizontal .controls {
-  margin-left: 140px;
+  margin-left: 150px;
 }
 
 .accordion-group {
