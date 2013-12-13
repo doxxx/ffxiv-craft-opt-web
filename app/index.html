@@ -31,7 +31,7 @@
       <accordion close-others="false">
         <accordion-group is-open="sections.synth.open">
           <accordion-heading>
-              <my-section-header section="sections.synth"/>
+            <my-section-header section="sections.synth"/>
           </accordion-heading>
           <div class="row-fluid">
             <tabset>
@@ -49,7 +49,6 @@
                       <img ng-src="img/classes/{{class}}.png"/>
                     </button>
                   </div>
-                  </my-radio-buttons>
                   <div class="row-fluid">
                     <div class="span6">
                       <form class="form-horizontal">
@@ -142,73 +141,97 @@
         </accordion-group>
         <accordion-group is-open="sections.simulator.open">
           <accordion-heading>
-              <my-section-header section="sections.simulator"/>
+            <my-section-header section="sections.simulator"/>
           </accordion-heading>
           <div class="well">
             <div class="row-fluid">
-              <my-action-list actions="sequence"
-                              action-tooltip="allActions[action].name"/>
-            </div>
-            <div class="row-fluid">
-              <form>
-                <label>Max Tricks</label>
-                <input class="input-small" type="number" ng-model="maxTricks"/>
+              <form class="form-horizontal">
+                <div class="control-group">
+                  <my-action-list actions="sequence"
+                                  action-tooltip="allActions[action].name"/>
+                </div>
+                <div class="control-group">
+                  <button class="btn btn-primary" ng-click="runSimulation()">Simulate</button>
+                  <button class="btn btn-primary" ng-click="runSolver()">Solve</button>
+                  <span ng-show="simulatorRunning">Running...</span>
+                </div>
+                <accordion>
+                  <accordion-group is-open="sections.simulator.options.open">
+                    <accordion-heading>
+                      <my-section-header section="sections.simulator.options"/>
+                    </accordion-heading>
+                    <div class="row-fluid">
+                      <div class="span6">
+                        <div class="control-group">
+                          <label class="control-label">Max Tricks</label>
+
+                          <div class="controls">
+                            <input class="input-small" type="number" ng-model="maxTricks"/>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <label class="control-label">Montecarlo Runs:</label>
+
+                          <div class="controls">
+                            <input class="input-small" type="number" ng-model="simulation.maxMontecarloRuns"/>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <label class="control-label">Penalty Weight:</label>
+
+                          <div class="controls">
+                            <input class="input-small" type="number" ng-model="solver.penaltyWeight"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="span6">
+                        <div class="control-group">
+                          <label class="control-label">Population:</label>
+                          <div class="controls">
+                            <input class="input-small" type="number" ng-model="solver.population"/>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <label class="control-label">Generations:</label>
+                          <div class="controls">
+                            <input class="input-small" type="number" ng-model="solver.generations"/>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <div class="controls">
+                            <label class="checkbox">
+                              <input type="checkbox" ng-model="solver.specifySeed"/>Specify Seed
+                            </label>
+                            <input class="input-small" type="number" ng-model="solver.seed"
+                                   ng-disabled="!solver.specifySeed"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </accordion-group>
+                  <accordion-group is-open="sections.macro.open">
+                    <accordion-heading>
+                      <my-section-header section="sections.macro"/>
+                    </accordion-heading>
+                    <div>
+                      <pre>{{macroText}}</pre>
+                    </div>
+                    <div>
+                      <a class="btn" href="#"><i class="icon-briefcase"></i> Copy to clipboard</a>
+                    </div>
+                  </accordion-group>
+                </accordion>
               </form>
             </div>
           </div>
           <tabset>
-            <tab heading="Simulation">
-              <div class="well">
-                <div class="row-fluid">
-                  <form>
-                    <label>Montecarlo Runs</label>
-                    <input class="input-small" type="number" ng-model="simulation.maxMontecarloRuns"/>
-                  </form>
-                </div>
-                <div class="row-fluid">
-                  <button class="btn btn-primary" ng-click="runSimulation()">Simulate</button>
-                </div>
-                <div class="well">
-                  <pre>{{simulationResult}}</pre>
-                </div>
-              </div>
+            <tab heading="Simulation Results" active="simulatorTabs.simulation.active">
+              <pre>{{simulationResult}}</pre>
             </tab>
-            <tab heading="Solver">
-              <div class="well">
-                <div class="row-fluid">
-                  <form>
-                    <label>Penalty Weight</label>
-                    <input class="input-small" type="number" ng-model="solver.penaltyWeight"/>
-                    <label>Population</label>
-                    <input class="input-small" type="number" ng-model="solver.population"/>
-                    <label>Generations</label>
-                    <input class="input-small" type="number" ng-model="solver.generations"/>
-                    <label class="checkbox">
-                      <input type="checkbox" ng-model="solver.specifySeed"/>Specify Seed
-                    </label>
-                    <input class="input-small" type="number" ng-model="solver.seed" ng-disabled="!solver.specifySeed"/>
-                  </form>
-                </div>
-                <div class="row-fluid">
-                  <button class="btn btn-primary" ng-click="runSolver()">Solve</button>
-                </div>
-                <div class="well">
-                  <pre>{{solverResult}}</pre>
-                </div>
-              </div>
+            <tab heading="Solver Results" active="simulatorTabs.solver.active">
+              <pre>{{solverResult}}</pre>
             </tab>
           </tabset>
-        </accordion-group>
-        <accordion-group is-open="sections.macro.open">
-          <accordion-heading>
-              <my-section-header section="sections.macro"/>
-          </accordion-heading>
-          <div>
-            <pre>{{macroText}}</pre>
-          </div>
-          <div>
-            <a class="btn" href="#"><i class="icon-briefcase"></i> Copy to clipboard</a>
-          </div>
         </accordion-group>
       </accordion>
     </div>

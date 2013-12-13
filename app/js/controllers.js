@@ -13,8 +13,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
       open: true, title: 'Synth Details',
       actions: { open: true, title: 'Available Actions' },
     },
-    simulator: { open: true, title: 'Simulator'},
-    macro: { open: false, title: 'Macro'},
+    simulator: {
+      open: true, title: 'Simulator',
+      options: { open: false, title: 'Options' }
+    },
+    macro: { open: false, title: 'Macro' },
   };
   
   // fields
@@ -50,6 +53,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
   $scope.simulation = {
     maxMontecarloRuns: 500,
   };
+
+  $scope.simulatorRunning = false;
   
   $scope.simulationResult = "";
   
@@ -59,7 +64,12 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
     population: 300,
     generations: 200,
   };
-  
+
+  $scope.simulatorTabs = {
+    simulation: { },
+    solver: { },
+  };
+
   $scope.solverResult = "";
 
   $scope.macroText = "/cast Action4\
@@ -88,6 +98,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
   // Web Service API
   
   $scope.runSimulation = function() {
+    $scope.simulatorRunning = true;
     var settings = {
       crafter: $scope.crafter,
       recipe: $scope.recipe,
@@ -103,10 +114,18 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
                                   'Monte Carlo Result\n' +
                                   '==================\n' +
                                   data.monteCarloLog;
+        $scope.simulatorTabs.simulation.active = true;
+        $scope.simulatorRunning = false;
+      }).
+      error(function(data, status, headers, config) {
+        $scope.simulationResult = "";
+        $scope.simulatorTabs.simulation.active = true;
+        $scope.simulatorRunning = false;
       });
   }
   
   $scope.runSolver = function() {
+    $scope.simulatorRunning = true;
     var settings = {
       crafter: $scope.crafter,
       recipe: $scope.recipe,
@@ -118,6 +137,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
       success(function(data, status, headers, config) {
         $scope.solverResult = data.log;
         $scope.sequence = data.bestSequence;
+        $scope.simulatorTabs.solver.active = true;
+        $scope.simulatorRunning = false;
+      }).
+      error(function(data, status, headers, config) {
+        $scope.solverResult = "";
+        $scope.simulatorTabs.solver.active = true;
+        $scope.simulatorRunning = false;
       });
   }
   
