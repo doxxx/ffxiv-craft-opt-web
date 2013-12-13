@@ -4,7 +4,7 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
-controllers.controller('MainCtrl', function($scope, $http, $location, _allClasses, _actionGroups, _allActions) {
+controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _allClasses, _actionGroups, _allActions) {
   $scope.navBarCollapsed = true;
   
   // variables to track which sections are open
@@ -94,6 +94,22 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
       $scope.crafter.actions.push(action);
     }
   };
+
+  $scope.editSequence = function() {
+    var modalInstance = $modal.open({
+      templateUrl: 'partials/sequence-editor.html',
+      controller: 'SequenceEditorCtrl',
+      resolve: {
+        origSequence: function() { return $scope.sequence; },
+        availableActions: function() { return $scope.crafter.actions; },
+      },
+    });
+    modalInstance.result.then(
+      function(result) {
+        $scope.sequence = angular.copy(result)
+      }
+    )
+  }
   
   // Web Service API
   
@@ -147,4 +163,35 @@ controllers.controller('MainCtrl', function($scope, $http, $location, _allClasse
       });
   }
   
+});
+
+var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, origSequence, availableActions) {
+  $scope.actionGroups = _actionGroups;
+  $scope.allActions = {};
+  for (var i = 0; i < _allActions.length; i++) {
+    var action = _allActions[i];
+    $scope.allActions[action.shortName] = action;
+  }
+  $scope.sequence = angular.copy(origSequence);
+  $scope.availableActions = availableActions;
+
+  $scope.isActionVisible = function(action) {
+    return $scope.availableActions.indexOf(action) >= 0;
+  }
+
+  $scope.addAction = function(action) {
+    $scope.sequence.push(action);
+  }
+
+  $scope.removeAction = function(index) {
+    $scope.sequence.splice(index, 1)
+  }
+
+  $scope.save = function() {
+    $modalInstance.close($scope.sequence);
+  }
+
+  $scope.cancel = function() {
+    $modalInstance.dismiss('cancel');
+  }
 });

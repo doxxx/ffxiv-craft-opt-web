@@ -1,0 +1,36 @@
+<div class="modal-header">
+  <h3>Sequence Editor</h3>
+</div>
+<div class="modal-body">
+  <div>
+    <img ng-repeat="action in sequence track by $index"
+         class="action img-rounded"
+         ng-src="img/actions/{{action}}.png"
+         ng-click="removeAction($index)"
+         tooltip="{{allActions[action].name}}"
+         tooltip-placement="bottom"
+         tooltip-popup-delay="200"/>
+  </div>
+  <form class="action-table">
+    <legend>Available Actions</legend>
+    <fieldset>
+      <div class="control-group" ng-repeat="actionGroup in actionGroups">
+        <label class="control-label">{{actionGroup.name}}</label>
+        <div class="controls">
+          <img ng-repeat="action in actionGroup.actions track by $index"
+               class="action img-rounded"
+               ng-src="img/actions/{{action}}.png"
+               ng-click="addAction(action)"
+               ng-show="isActionVisible(action)"
+               tooltip="{{allActions[action].name}}"
+               tooltip-placement="bottom"
+               tooltip-popup-delay="200"/>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-primary" ng-click="save()">Save</button>
+  <button class="btn btn-primary" ng-click="cancel()">Cancel</button>
+</div>

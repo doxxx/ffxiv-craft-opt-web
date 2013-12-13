@@ -24,6 +24,7 @@ body {
   padding: 0px;
   margin-right: 1px;
   margin-bottom: 1px;
+  cursor: pointer;
 }
 
 .selected-action {
