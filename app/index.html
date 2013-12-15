@@ -152,9 +152,9 @@
                                   action-tooltip="allActions[action].name"/>
                 </div>
                 <div class="control-group">
-                  <button class="btn btn-primary" ng-click="editSequence()">Edit Sequence...</button>
-                  <button class="btn btn-primary" ng-click="runSimulation()">Simulate</button>
-                  <button class="btn btn-primary" ng-click="runSolver()">Solve</button>
+                  <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
+                  <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorRunning">Simulate</button>
+                  <button class="btn btn-primary" ng-click="runSolver()" ng-disabled="simulatorRunning">Solve</button>
                   <span ng-show="simulatorRunning">Running...</span>
                 </div>
                 <accordion>
