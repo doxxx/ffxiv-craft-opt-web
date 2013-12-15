@@ -79,11 +79,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   };
 
   $scope.$watch('sequence', function(newValue, oldValue) {
-    $scope.macro.macros = createMacros(newValue, $scope.macro.waitTime)
+    $scope.macro.macros = createMacros($scope.allActions, newValue, $scope.macro.waitTime)
   });
 
   $scope.$watch('macro.waitTime', function(newValue, oldValue) {
-    $scope.macro.macros = createMacros($scope.sequence, newValue)
+    $scope.macro.macros = createMacros($scope.allActions, $scope.sequence, newValue)
   });
   
   $scope.isActionSelected = function(action) {
@@ -201,7 +201,7 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
   }
 });
 
-function createMacros(actions, waitTime, insertTricks) {
+function createMacros(allActions, actions, waitTime, insertTricks) {
   if (typeof actions == 'undefined') {
     return '';
   }
@@ -217,7 +217,7 @@ function createMacros(actions, waitTime, insertTricks) {
   for (var i = 0; i < actions.length; i++) {
     var action = actions[i];
     if (action !== 'tricksOfTheTrade') {
-      lines.push('/ac "' + action + '" <me>\n');
+      lines.push('/ac "' + allActions[action].name + '" <me>\n');
       lines.push(waitString);
       if (insertTricks) {
         lines.append('/ac "Tricks of the Trade" <me>=\n')
