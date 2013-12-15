@@ -60,10 +60,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   $scope.sequence = [ "innerQuiet", "basicTouch", "basicSynth", "basicSynth", "basicSynth", "basicSynth", "basicSynth" ];
   $scope.sequenceSettings = {
     maxTricksUses: 0,
+    maxMontecarloRuns: 500,
+    seed: 1337,
   }
 
   $scope.simulation = {
-    maxMontecarloRuns: 500,
   };
 
   $scope.simulatorRunning = false;
@@ -71,7 +72,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   $scope.simulationResult = "";
   
   $scope.solver = {
-    seed: 1337,
     penaltyWeight: 10000,
     population: 300,
     generations: 100,
@@ -162,7 +162,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-      simulation: $scope.simulation,
+      maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+      seed: $scope.sequenceSettings.seed,
     };
     $http.post($scope.solverServiceURL + 'simulation', settings).
       success(function(data, status, headers, config) {
@@ -189,6 +190,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
+      maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+      seed: $scope.sequenceSettings.seed,
       solver: $scope.solver,
     };
     $http.post($scope.solverServiceURL + 'solver', settings).

@@ -175,7 +175,7 @@
                           <label class="control-label">Montecarlo Runs:</label>
 
                           <div class="controls">
-                            <input class="input-small" type="number" ng-model="simulation.maxMontecarloRuns"/>
+                            <input class="input-small" type="number" ng-model="sequenceSettings.maxMontecarloRuns"/>
                           </div>
                         </div>
                         <div class="control-group">
@@ -202,10 +202,10 @@
                         <div class="control-group">
                           <div class="controls">
                             <label class="checkbox">
-                              <input type="checkbox" ng-model="solver.specifySeed"/>Specify Seed
+                              <input type="checkbox" ng-model="sequenceSettings.specifySeed"/>Specify Seed
                             </label>
-                            <input class="input-small" type="number" ng-model="solver.seed"
-                                   ng-disabled="!solver.specifySeed"/>
+                            <input class="input-small" type="number" ng-model="sequenceSettings.seed"
+                                   ng-disabled="!sequenceSettings.specifySeed"/>
                           </div>
                         </div>
                       </div>
