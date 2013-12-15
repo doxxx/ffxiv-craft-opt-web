@@ -26,12 +26,21 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   
   $scope.crafter = {
     cls: $scope.allClasses[0],
-    level: 15,
-    craftsmanship: 56,
-    control: 67,
-    cp: 234,
-    actions: []
+    stats: {},
   };
+
+  for (var i = 0; i < _allClasses.length; i++) {
+    var c = _allClasses[i];
+    $scope.crafter.stats[c] = {
+      level: 15,
+      craftsmanship: 56,
+      control: 67,
+      cp: 234,
+      actions: [],
+    }
+  }
+
+  $scope.clsStats = $scope.crafter.stats[$scope.crafter.cls];
   
   $scope.actionGroups = _actionGroups;
   $scope.allActions = {};
@@ -78,6 +87,12 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     waitTime: 3,
   };
 
+  loadSettings($scope)
+
+  $scope.$watch('crafter.cls', function(newValue, oldValue) {
+    $scope.currentClassStats = $scope.crafter.stats[newValue];
+  });
+
   $scope.$watch('sequence', function(newValue, oldValue) {
     $scope.macro.macros = createMacros($scope.allActions, newValue, $scope.macro.waitTime)
   });
@@ -85,18 +100,34 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   $scope.$watch('macro.waitTime', function(newValue, oldValue) {
     $scope.macro.macros = createMacros($scope.allActions, $scope.sequence, newValue)
   });
-  
+
+  $scope.$watchCollection('crafter', function() {
+    saveSettings($scope)
+  })
+  $scope.$watchCollection('recipe', function() {
+    saveSettings($scope)
+  })
+  $scope.$watchCollection('sequence', function() {
+    saveSettings($scope)
+  })
+  $scope.$watchCollection('simulation', function() {
+    saveSettings($scope)
+  })
+  $scope.$watchCollection('solver', function() {
+    saveSettings($scope)
+  })
+
   $scope.isActionSelected = function(action) {
-    return $scope.crafter.actions.indexOf(action) >= 0;
+    return $scope.currentClassStats.actions.indexOf(action) >= 0;
   }
 
   $scope.toggleAction = function(action) {
-    var i = $scope.crafter.actions.indexOf(action);
+    var i = $scope.currentClassStats.actions.indexOf(action);
     if (i >= 0) {
-      $scope.crafter.actions.splice(i, 1);
+      $scope.currentClassStats.actions.splice(i, 1);
     }
     else {
-      $scope.crafter.actions.push(action);
+      $scope.currentClassStats.actions.push(action);
     }
   };
 
@@ -107,7 +138,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
       windowClass: 'sequence-editor',
       resolve: {
         origSequence: function() { return $scope.sequence; },
-        availableActions: function() { return $scope.crafter.actions; },
+        availableActions: function() { return $scope.currentClassStats.actions; },
       },
     });
     modalInstance.result.then(
@@ -122,7 +153,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   $scope.runSimulation = function() {
     $scope.simulatorRunning = true;
     var settings = {
-      crafter: $scope.crafter,
+      crafter: $scope.currentClassStats,
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.maxTricks,
@@ -149,7 +180,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   $scope.runSolver = function() {
     $scope.simulatorRunning = true;
     var settings = {
-      crafter: $scope.crafter,
+      crafter: $scope.currentClassStats,
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.maxTricks,
@@ -251,4 +282,49 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
   }
 
   return macros;
+}
+
+function supports_html5_storage() {
+  try {
+    return 'localStorage' in window && window['localStorage'] !== null;
+  } catch (e) {
+    return false;
+  }
+}
+
+function saveSettings(scope) {
+  if (!supports_html5_storage()) {
+    return false;
+  }
+
+  localStorage['settings.crafter'] = JSON.stringify(scope.crafter);
+  localStorage['settings.recipe'] = JSON.stringify(scope.recipe);
+  localStorage['settings.sequence'] = JSON.stringify(scope.sequence);
+  localStorage['settings.simulation'] = JSON.stringify(scope.simulation);
+  localStorage['settings.solver'] = JSON.stringify(scope.solver);
+
+  return true;
+}
+
+function loadSettings(scope) {
+  if (!supports_html5_storage()) {
+    return false;
+  }
+
+  var crafter = localStorage['settings.crafter'];
+  if (crafter) scope.crafter = JSON.parse(crafter);
+
+  var recipe = localStorage['settings.recipe'];
+  if (recipe) scope.recipe = JSON.parse(recipe);
+
+  var sequence = localStorage['settings.sequence'];
+  if (sequence) scope.sequence = JSON.parse(sequence);
+
+  var simulation = localStorage['settings.simulation'];
+  if (simulation) scope.simulation = JSON.parse(simulation);
+
+  var solver = localStorage['settings.solver'];
+  if (solver) scope.solver = JSON.parse(solver);
+
+  return true;
 }
