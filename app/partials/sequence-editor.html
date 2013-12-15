@@ -14,7 +14,7 @@
                ng-click="addAction(action)"
                ng-show="isActionVisible(action)"
                tooltip="{{allActions[action].name}}"
-               tooltip-placement="bottom"
+               tooltip-placement="top"
                tooltip-popup-delay="200"/>
         </div>
       </div>
@@ -27,7 +27,7 @@
          ng-src="img/actions/{{action}}.png"
          ng-click="removeAction($index)"
          tooltip="{{allActions[action].name}}"
-         tooltip-placement="bottom"
+         tooltip-placement="top"
          tooltip-popup-delay="200"/>
   </form>
 </div>
