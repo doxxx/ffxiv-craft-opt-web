@@ -46,10 +46,10 @@ services.value('_allActions', [
   { shortName: "ingenuity2", name: "Ingenuity 2" },
   { shortName: "greatStrides", name: "Great Strides" },
   { shortName: "innovation", name: "Innovation" },
+  { shortName: "tricksOfTheTrade", name: "Tricks of the Trade" },
   
 //  "Observe",
 //  "Reclaim",
-//  "Tricks of the Trade",
 ]);
 services.value('_actionGroups', [
   { name: "Synthesis", actions: [
@@ -72,6 +72,7 @@ services.value('_actionGroups', [
   { name: "CP", actions: [
     "comfortZone",
     "rumination",
+    "tricksOfTheTrade",
   ]},
   { name: "Durability", actions: [
     "mastersMend",
