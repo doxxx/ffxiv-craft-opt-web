@@ -58,7 +58,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   };
 
   $scope.sequence = [ "innerQuiet", "basicTouch", "basicSynth", "basicSynth", "basicSynth", "basicSynth", "basicSynth" ];
-  $scope.maxTricks = 0;
+  $scope.sequenceSettings = {
+    maxTricksUses: 0,
+  }
 
   $scope.simulation = {
     maxMontecarloRuns: 500,
@@ -110,6 +112,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   $scope.$watchCollection('sequence', function() {
     saveSettings($scope)
   })
+  $scope.$watchCollection('sequenceSettings', function() {
+    saveSettings($scope)
+  })
   $scope.$watchCollection('simulation', function() {
     saveSettings($scope)
   })
@@ -156,7 +161,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
       crafter: $scope.currentClassStats,
       recipe: $scope.recipe,
       sequence: $scope.sequence,
-      maxTricksUses: $scope.maxTricks,
+      maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       simulation: $scope.simulation,
     };
     $http.post($scope.solverServiceURL + 'simulation', settings).
@@ -183,7 +188,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
       crafter: $scope.currentClassStats,
       recipe: $scope.recipe,
       sequence: $scope.sequence,
-      maxTricksUses: $scope.maxTricks,
+      maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       solver: $scope.solver,
     };
     $http.post($scope.solverServiceURL + 'solver', settings).
@@ -300,6 +305,7 @@ function saveSettings(scope) {
   localStorage['settings.crafter'] = JSON.stringify(scope.crafter);
   localStorage['settings.recipe'] = JSON.stringify(scope.recipe);
   localStorage['settings.sequence'] = JSON.stringify(scope.sequence);
+  localStorage['settings.sequenceSettings'] = JSON.stringify(scope.sequenceSettings);
   localStorage['settings.simulation'] = JSON.stringify(scope.simulation);
   localStorage['settings.solver'] = JSON.stringify(scope.solver);
 
@@ -319,6 +325,9 @@ function loadSettings(scope) {
 
   var sequence = localStorage['settings.sequence'];
   if (sequence) scope.sequence = JSON.parse(sequence);
+
+  var sequenceSettings = localStorage['settings.sequenceSettings'];
+  if (sequenceSettings) scope.sequenceSettings = JSON.parse(sequenceSettings);
 
   var simulation = localStorage['settings.simulation'];
   if (simulation) scope.simulation = JSON.parse(simulation);
