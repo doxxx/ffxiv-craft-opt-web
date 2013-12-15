@@ -150,7 +150,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
       maxTricksUses: $scope.maxTricks,
       solver: $scope.solver,
     };
-    $http.post($scope.solverServiceURL + '/solver', settings).
+    $http.post($scope.solverServiceURL + 'solver', settings).
       success(function(data, status, headers, config) {
         $scope.solverResult = data.log;
         $scope.sequence = data.bestSequence;
