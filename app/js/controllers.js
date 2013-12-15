@@ -104,6 +104,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     var modalInstance = $modal.open({
       templateUrl: 'partials/sequence-editor.html',
       controller: 'SequenceEditorCtrl',
+      windowClass: 'sequence-editor',
       resolve: {
         origSequence: function() { return $scope.sequence; },
         availableActions: function() { return $scope.crafter.actions; },

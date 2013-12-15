@@ -2,15 +2,6 @@
   <h3>Sequence Editor</h3>
 </div>
 <div class="modal-body">
-  <div>
-    <img ng-repeat="action in sequence track by $index"
-         class="action img-rounded"
-         ng-src="img/actions/{{action}}.png"
-         ng-click="removeAction($index)"
-         tooltip="{{allActions[action].name}}"
-         tooltip-placement="bottom"
-         tooltip-popup-delay="200"/>
-  </div>
   <form class="action-table">
     <legend>Available Actions</legend>
     <fieldset>
@@ -28,6 +19,16 @@
         </div>
       </div>
     </fieldset>
+  </form>
+  <form>
+    <legend>Sequence</legend>
+    <img ng-repeat="action in sequence track by $index"
+         class="action img-rounded"
+         ng-src="img/actions/{{action}}.png"
+         ng-click="removeAction($index)"
+         tooltip="{{allActions[action].name}}"
+         tooltip-placement="bottom"
+         tooltip-popup-delay="200"/>
   </form>
 </div>
 <div class="modal-footer">

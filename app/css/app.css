@@ -133,3 +133,10 @@ legend + .control-group {
 .action-table .form-actions {
   padding-left: 120px;
 }
+
+
+/* Sequence Editor */
+
+.sequence-editor .modal-body {
+  max-height: 600px;
+}
