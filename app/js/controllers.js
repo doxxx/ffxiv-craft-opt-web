@@ -73,14 +73,18 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
 
   $scope.solverResult = "";
 
-  $scope.macroText = "/cast Action4\
-/wait 3\n\
-/cast Action2\n\
-/wait 3\n\
-/cast Action1\n\
-/wait 3\n\
-/cast Action7\n\
-";
+  $scope.macro = {
+    macros: [],
+    waitTime: 3,
+  };
+
+  $scope.$watch('sequence', function(newValue, oldValue) {
+    $scope.macro.macros = createMacros(newValue, $scope.macro.waitTime)
+  });
+
+  $scope.$watch('macro.waitTime', function(newValue, oldValue) {
+    $scope.macro.macros = createMacros($scope.sequence, newValue)
+  });
   
   $scope.isActionSelected = function(action) {
     return $scope.crafter.actions.indexOf(action) >= 0;
@@ -111,7 +115,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
       }
     )
   }
-  
+
   // Web Service API
   
   $scope.runSimulation = function() {
@@ -196,3 +200,50 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
     $modalInstance.dismiss('cancel');
   }
 });
+
+function createMacros(actions, waitTime, insertTricks) {
+  if (typeof actions == 'undefined') {
+    return '';
+  }
+
+  waitTime = typeof waitTime !== 'undefined' ? waitTime : 3;
+  insertTricks = typeof insertTricks !== 'undefined' ? insertTricks : false;
+
+  var maxLines = 14
+
+  var waitString = '/wait ' + waitTime + '\n'
+  var lines = [];
+
+  for (var i = 0; i < actions.length; i++) {
+    var action = actions[i];
+    if (action !== 'tricksOfTheTrade') {
+      lines.push('/ac "' + action + '" <me>\n');
+      lines.push(waitString);
+      if (insertTricks) {
+        lines.append('/ac "Tricks of the Trade" <me>=\n')
+        lines.push(waitString);
+      }
+    }
+  }
+
+  var macros = []
+
+  var macroString = ''
+  for (var i = 0; i < lines.length; i++) {
+    var line = lines[i];
+    macroString += line;
+    var step = i + 1;
+    if (step % maxLines == 0) {
+      macroString += '/echo Macro step ' + step/maxLines + ' complete <se.1>\n';
+      macros.push(macroString);
+      macroString = '';
+    }
+  }
+
+  if (macroString !== '') {
+    macroString += '/echo Macro step ' + Math.ceil(lines.length/maxLines) + ' complete <se.1>\n';
+    macros.push(macroString)
+  }
+
+  return macros;
+}

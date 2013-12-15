@@ -48,6 +48,14 @@ body {
   font-weight: bold;
 }
 
+textarea {
+  width: 100%;
+}
+
+textarea[readonly] {
+  cursor: text;
+}
+
 
 /* Action Table */
 

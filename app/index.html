@@ -214,11 +214,17 @@
                     <accordion-heading>
                       <my-section-header section="sections.macro"/>
                     </accordion-heading>
-                    <div>
-                      <pre>{{macroText}}</pre>
+                    <div class="row-fluid">
+                      <form>
+                        <p>Click + Ctrl/Cmd-C on each block to copy to clipboard.</p>
+                        <label>Wait Time: <input class="input-small" type="number" ng-model="macro.waitTime"/></label>
+                      </form>
                     </div>
-                    <div>
-                      <a class="btn" href="#"><i class="icon-briefcase"></i> Copy to clipboard</a>
+                    <div class="row-fluid" ng-repeat="macroText in macro.macros">
+                      <form>
+                        <h6>Macro #{{$index+1}}</h6>
+                        <textarea rows="16" readonly select-on-click>{{macroText}}</textarea>
+                      </form>
                     </div>
                   </accordion-group>
                 </accordion>
