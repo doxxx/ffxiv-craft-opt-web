@@ -192,6 +192,10 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
     $scope.sequence.splice(index, 1)
   }
 
+  $scope.clear = function() {
+    $scope.sequence = [];
+  }
+
   $scope.save = function() {
     $modalInstance.close($scope.sequence);
   }
