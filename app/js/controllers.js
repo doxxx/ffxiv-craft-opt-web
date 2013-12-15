@@ -4,7 +4,8 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
-controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _allClasses, _actionGroups, _allActions) {
+controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _solverServiceURL, _allClasses, _actionGroups, _allActions) {
+  $scope.solverServiceURL = _solverServiceURL;
   $scope.navBarCollapsed = true;
   
   // variables to track which sections are open
@@ -62,7 +63,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _a
     seed: 1337,
     penaltyWeight: 10000,
     population: 300,
-    generations: 200,
+    generations: 100,
   };
 
   $scope.simulatorTabs = {
@@ -122,7 +123,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _a
       maxTricksUses: $scope.maxTricks,
       simulation: $scope.simulation,
     };
-    $http.post('http://' + $location.host() + ':8080/simulation', settings).
+    $http.post($scope.solverServiceURL + 'simulation', settings).
       success(function(data, status, headers, config) {
         $scope.simulationResult = 'Probabilistic Result\n' +
                                   '====================\n' +
@@ -149,7 +150,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _a
       maxTricksUses: $scope.maxTricks,
       solver: $scope.solver,
     };
-    $http.post('http://' + $location.host() + ':8080/solver', settings).
+    $http.post($scope.solverServiceURL + '/solver', settings).
       success(function(data, status, headers, config) {
         $scope.solverResult = data.log;
         $scope.sequence = data.bestSequence;

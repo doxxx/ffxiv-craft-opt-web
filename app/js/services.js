@@ -6,6 +6,7 @@
 var services = angular.module('ffxivCraftOptWeb.services', []);
 
 services.value('_version', '0.1');
+services.value('_solverServiceURL', 'http://ffxiv-craft-opt.appspot.com/');
 services.value('_allClasses', [
   "Alchemist",
   "Armorer",
