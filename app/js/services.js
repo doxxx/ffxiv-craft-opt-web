@@ -19,11 +19,11 @@ services.value('_allClasses', [
   "Weaver",
 ])
 services.value('_allActions', [
-  { shortName: "basicSynth", name: "Basic Synth" },
-  { shortName: "standardSynthesis", name: "Standard Synth" },
-  { shortName: "flawlessSynthesis", name: "Flawless Synth" },
-  { shortName: "carefulSynthesis", name: "Careful Synth" },
-  { shortName: "carefulSynthesis2", name: "Careful Synth 2" },
+  { shortName: "basicSynth", name: "Basic Synthesis" },
+  { shortName: "standardSynthesis", name: "Standard Synthesis" },
+  { shortName: "flawlessSynthesis", name: "Flawless Synthesis" },
+  { shortName: "carefulSynthesis", name: "Careful Synthesis" },
+  { shortName: "carefulSynthesis2", name: "Careful Synthesis 2" },
   { shortName: "pieceByPiece", name: "Piece by Piece" },
   { shortName: "rapidSynthesis", name: "Rapid Synthesis" },
   { shortName: "brandOfEarth", name: "Brand of Earth" },
