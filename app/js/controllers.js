@@ -61,6 +61,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   $scope.sequenceSettings = {
     maxTricksUses: 0,
     maxMontecarloRuns: 500,
+    specifySeed: false,
     seed: 1337,
   }
 
@@ -163,8 +164,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-      seed: $scope.sequenceSettings.seed,
     };
+    if ($scope.sequenceSettings.specifySeed) {
+        settings.seed = $scope.sequenceSettings.seed;
+    }
     $http.post($scope.solverServiceURL + 'simulation', settings).
       success(function(data, status, headers, config) {
         $scope.simulationResult = 'Probabilistic Result\n' +
@@ -191,9 +194,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-      seed: $scope.sequenceSettings.seed,
       solver: $scope.solver,
     };
+    if ($scope.sequenceSettings.specifySeed) {
+        settings.seed = $scope.sequenceSettings.seed;
+    }
     $http.post($scope.solverServiceURL + 'solver', settings).
       success(function(data, status, headers, config) {
         $scope.solverResult = data.log;
