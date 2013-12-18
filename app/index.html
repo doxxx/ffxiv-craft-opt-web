@@ -234,10 +234,11 @@
           </div>
           <tabset>
             <tab heading="Simulation Results" active="simulatorTabs.simulation.active">
-              <pre>{{simulationResult}}</pre>
+              <pre>{{simulationResult.logText}}</pre>
             </tab>
             <tab heading="Solver Results" active="simulatorTabs.solver.active">
-              <pre>{{solverResult}}</pre>
+              <pre>{{solverResult.logText}}</pre>
+              <button class="btn btn-warning" ng-show="solverResult.sequence.length > 0" ng-click="useSolverResult()">Use Solver Result</button>
             </tab>
           </tabset>
         </accordion-group>

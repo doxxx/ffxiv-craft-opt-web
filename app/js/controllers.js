@@ -70,7 +70,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
 
   $scope.simulatorRunning = false;
   
-  $scope.simulationResult = "";
+  $scope.simulationResult = {
+    logText: '',
+  };
   
   $scope.solver = {
     penaltyWeight: 10000,
@@ -83,7 +85,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     solver: { },
   };
 
-  $scope.solverResult = "";
+  $scope.solverResult = {
+    logText: '',
+    sequence: [],
+  };
 
   $scope.macro = {
     macros: [],
@@ -154,6 +159,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     )
   }
 
+  $scope.useSolverResult = function() {
+    $scope.sequence = $scope.solverResult.sequence;
+  }
+
   // Web Service API
   
   $scope.runSimulation = function() {
@@ -170,17 +179,18 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     }
     $http.post($scope.solverServiceURL + 'simulation', settings).
       success(function(data, status, headers, config) {
-        $scope.simulationResult = 'Probabilistic Result\n' +
-                                  '====================\n' +
-                                  data.probabilisticLog + '\n' +
-                                  'Monte Carlo Result\n' +
-                                  '==================\n' +
-                                  data.monteCarloLog;
+        $scope.simulationResult.logText =
+            'Probabilistic Result\n' +
+            '====================\n' +
+            data.probabilisticLog + '\n' +
+            'Monte Carlo Result\n' +
+            '==================\n' +
+            data.monteCarloLog;
         $scope.simulatorTabs.simulation.active = true;
         $scope.simulatorRunning = false;
       }).
       error(function(data, status, headers, config) {
-        $scope.simulationResult = "";
+        $scope.simulationResult.logText = data;
         $scope.simulatorTabs.simulation.active = true;
         $scope.simulatorRunning = false;
       });
@@ -201,8 +211,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     }
     $http.post($scope.solverServiceURL + 'solver', settings).
       success(function(data, status, headers, config) {
-        $scope.solverResult = data.log;
-        $scope.sequence = data.bestSequence;
+        $scope.solverResult.logText = data.log;
+        $scope.solverResult.sequence = data.bestSequence;
         $scope.simulatorTabs.solver.active = true;
         $scope.simulatorRunning = false;
       }).
