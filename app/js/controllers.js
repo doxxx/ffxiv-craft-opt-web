@@ -179,13 +179,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     }
     $http.post($scope.solverServiceURL + 'simulation', settings).
       success(function(data, status, headers, config) {
-        $scope.simulationResult.logText =
-            'Probabilistic Result\n' +
-            '====================\n' +
-            data.probabilisticLog + '\n' +
-            'Monte Carlo Result\n' +
-            '==================\n' +
-            data.monteCarloLog;
+        $scope.simulationResult.logText = data.log;
         $scope.simulatorTabs.simulation.active = true;
         $scope.simulatorRunning = false;
       }).
