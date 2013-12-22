@@ -166,8 +166,23 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _g
   }
 
   // Web Service API
+
+  $scope.simulationSuccess = function(data, status, headers, config) {
+    $scope.simulationResult.logText = data.log;
+    if (typeof data.error !== 'undefined') {
+      $scope.simulationResult.logText += '\n\nError: ' + data.error
+    }
+    $scope.simulatorTabs.simulation.active = true;
+    $scope.simulatorRunning = false;
+  }
+
+  $scope.simulationError = function(data, status, headers, config) {
+    $scope.simulationResult.logText = data;
+    $scope.simulatorTabs.simulation.active = true;
+    $scope.simulatorRunning = false;
+  }
   
-  $scope.runSimulation = function() {
+  $scope.runSimulation = function(success, error) {
     $scope.simulatorRunning = true;
     var settings = {
       crafter: $scope.currentClassStats,
@@ -177,25 +192,33 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _g
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
     };
     if ($scope.sequenceSettings.specifySeed) {
-        settings.seed = $scope.sequenceSettings.seed;
+      settings.seed = $scope.sequenceSettings.seed;
     }
     $http.post(_getSolverServiceURL() + 'simulation', settings).
-      success(function(data, status, headers, config) {
-        $scope.simulationResult.logText = data.log;
-        if (typeof data.error !== 'undefined') {
-          $scope.simulationResult.logText += '\n\nError: ' + data.error
-        }
-        $scope.simulatorTabs.simulation.active = true;
-        $scope.simulatorRunning = false;
-      }).
-      error(function(data, status, headers, config) {
-        $scope.simulationResult.logText = data;
-        $scope.simulatorTabs.simulation.active = true;
-        $scope.simulatorRunning = false;
-      });
+      success(success).
+      error(error);
+  }
+
+  $scope.solverSuccess = function(data, status, headers, config) {
+    $scope.solverResult.logText = data.log;
+    if (typeof data.error !== 'undefined') {
+      $scope.solverResult.logText += '\n\nError: ' + data.error
+      $scope.solverResult.sequence = []
+    }
+    else {
+      $scope.solverResult.sequence = data.bestSequence;
+    }
+    $scope.simulatorTabs.solver.active = true;
+    $scope.simulatorRunning = false;
+  }
+
+  $scope.solverError = function(data, status, headers, config) {
+    $scope.solverResult = "";
+    $scope.simulatorTabs.solver.active = true;
+    $scope.simulatorRunning = false;
   }
   
-  $scope.runSolver = function() {
+  $scope.runSolver = function(success, error) {
     $scope.simulatorRunning = true;
     $scope.solverResult.sequence = [];
     var settings = {
@@ -210,23 +233,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _g
         settings.seed = $scope.sequenceSettings.seed;
     }
     $http.post(_getSolverServiceURL() + 'solver', settings).
-      success(function(data, status, headers, config) {
-        $scope.solverResult.logText = data.log;
-        if (typeof data.error !== 'undefined') {
-          $scope.solverResult.logText += '\n\nError: ' + data.error
-          $scope.solverResult.sequence = []
-        }
-        else {
-          $scope.solverResult.sequence = data.bestSequence;
-        }
-        $scope.simulatorTabs.solver.active = true;
-        $scope.simulatorRunning = false;
-      }).
-      error(function(data, status, headers, config) {
-        $scope.solverResult = "";
-        $scope.simulatorTabs.solver.active = true;
-        $scope.simulatorRunning = false;
-      });
+      success(success).
+      error(error);
   }
   
 });

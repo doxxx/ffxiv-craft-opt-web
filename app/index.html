@@ -154,8 +154,8 @@
                 </div>
                 <div class="control-group">
                   <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
-                  <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorRunning">Simulate</button>
-                  <button class="btn btn-primary" ng-click="runSolver()" ng-disabled="simulatorRunning">Solve</button>
+                  <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning">Simulate</button>
+                  <button class="btn btn-primary" ng-click="runSolver(solverSuccess, solverError)" ng-disabled="simulatorRunning">Solve</button>
                 </div>
                 <div>
                   <h4>Solver Result</h4>
