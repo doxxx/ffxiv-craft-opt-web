@@ -4,7 +4,7 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
-controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _getSolverServiceURL, _allClasses, _actionGroups, _allActions) {
+controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, _getSolverServiceURL, _allClasses, _actionGroups, _allActions) {
   $scope.navBarCollapsed = true;
   
   // variables to track which sections are open
@@ -71,6 +71,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _g
   
   $scope.simulationResult = {
     logText: '',
+    quality: null,
   };
   
   $scope.solver = {
@@ -93,8 +94,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _g
     macros: [],
     waitTime: 3,
   };
-
-  loadSettings($scope)
 
   $scope.$watch('crafter.cls', function(newValue, oldValue) {
     $scope.currentClassStats = $scope.crafter.stats[newValue];
@@ -169,6 +168,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _g
 
   $scope.simulationSuccess = function(data, status, headers, config) {
     $scope.simulationResult.logText = data.log;
+    $scope.simulationResult.finalState = data.finalState;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorRunning = false;
   }
@@ -230,7 +230,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _g
       success(success).
       error(error);
   }
-  
+
+  loadSettings($scope)
+
+  $document.ready(function() {
+    $scope.runSimulation($scope.simulationSuccess, $scope.simulationError);
+  });
+
 });
 
 var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, origSequence, availableActions) {

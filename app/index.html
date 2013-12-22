@@ -147,7 +147,9 @@
           <div class="well">
             <div class="row-fluid">
               <form class="form-horizontal">
-                <h4>Initial Guess</h4>
+                <h4>Initial Guess
+                  <span ng-show="simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
+                </h4>
                 <div class="control-group">
                   <my-action-list actions="sequence"
                                   action-tooltip="allActions[action].name"/>
