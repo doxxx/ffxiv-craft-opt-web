@@ -198,6 +198,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   
   $scope.runSolver = function() {
     $scope.simulatorRunning = true;
+    $scope.solverResult.sequence = [];
     var settings = {
       crafter: $scope.currentClassStats,
       recipe: $scope.recipe,
