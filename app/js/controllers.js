@@ -4,8 +4,7 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
-controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _solverServiceURL, _allClasses, _actionGroups, _allActions) {
-  $scope.solverServiceURL = _solverServiceURL;
+controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _getSolverServiceURL, _allClasses, _actionGroups, _allActions) {
   $scope.navBarCollapsed = true;
   
   // variables to track which sections are open
@@ -180,7 +179,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
     }
-    $http.post($scope.solverServiceURL + 'simulation', settings).
+    $http.post(_getSolverServiceURL() + 'simulation', settings).
       success(function(data, status, headers, config) {
         $scope.simulationResult.logText = data.log;
         if (typeof data.error !== 'undefined') {
@@ -210,7 +209,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
     }
-    $http.post($scope.solverServiceURL + 'solver', settings).
+    $http.post(_getSolverServiceURL() + 'solver', settings).
       success(function(data, status, headers, config) {
         $scope.solverResult.logText = data.log;
         if (typeof data.error !== 'undefined') {
