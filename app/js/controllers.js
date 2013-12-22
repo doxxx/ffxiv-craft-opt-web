@@ -160,7 +160,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
   }
 
   $scope.useSolverResult = function() {
-    $scope.sequence = $scope.solverResult.sequence;
+    var seq = $scope.solverResult.sequence
+    if (seq instanceof Array && seq.length > 0) {
+      $scope.sequence = $scope.solverResult.sequence;
+    }
   }
 
   // Web Service API
@@ -180,6 +183,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     $http.post($scope.solverServiceURL + 'simulation', settings).
       success(function(data, status, headers, config) {
         $scope.simulationResult.logText = data.log;
+        if (typeof data.error !== 'undefined') {
+          $scope.simulationResult.logText += '\n\nError: ' + data.error
+        }
         $scope.simulatorTabs.simulation.active = true;
         $scope.simulatorRunning = false;
       }).
@@ -206,7 +212,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _s
     $http.post($scope.solverServiceURL + 'solver', settings).
       success(function(data, status, headers, config) {
         $scope.solverResult.logText = data.log;
-        $scope.solverResult.sequence = data.bestSequence;
+        if (typeof data.error !== 'undefined') {
+          $scope.solverResult.logText += '\n\nError: ' + data.error
+          $scope.solverResult.sequence = []
+        }
+        else {
+          $scope.solverResult.sequence = data.bestSequence;
+        }
         $scope.simulatorTabs.solver.active = true;
         $scope.simulatorRunning = false;
       }).
