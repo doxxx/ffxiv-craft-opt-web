@@ -341,23 +341,28 @@ function loadSettings(scope) {
     return false;
   }
 
-  var crafter = localStorage['settings.crafter'];
-  if (crafter) scope.crafter = JSON.parse(crafter);
+  try {
+    var crafter = localStorage['settings.crafter'];
+    if (crafter) scope.crafter = JSON.parse(crafter);
 
-  var recipe = localStorage['settings.recipe'];
-  if (recipe) scope.recipe = JSON.parse(recipe);
+    var recipe = localStorage['settings.recipe'];
+    if (recipe) scope.recipe = JSON.parse(recipe);
 
-  var sequence = localStorage['settings.sequence'];
-  if (sequence) scope.sequence = JSON.parse(sequence);
+    var sequence = localStorage['settings.sequence'];
+    if (sequence) scope.sequence = JSON.parse(sequence);
 
-  var sequenceSettings = localStorage['settings.sequenceSettings'];
-  if (sequenceSettings) scope.sequenceSettings = JSON.parse(sequenceSettings);
+    var sequenceSettings = localStorage['settings.sequenceSettings'];
+    if (sequenceSettings) scope.sequenceSettings = JSON.parse(sequenceSettings);
 
-  var simulation = localStorage['settings.simulation'];
-  if (simulation) scope.simulation = JSON.parse(simulation);
+    var simulation = localStorage['settings.simulation'];
+    if (simulation) scope.simulation = JSON.parse(simulation);
 
-  var solver = localStorage['settings.solver'];
-  if (solver) scope.solver = JSON.parse(solver);
+    var solver = localStorage['settings.solver'];
+    if (solver) scope.solver = JSON.parse(solver);
+  }
+  catch (e) {
+    console.log('Could not load settings from local storage', e)
+  }
 
   return true;
 }
