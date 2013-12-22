@@ -147,6 +147,7 @@
           <div class="well">
             <div class="row-fluid">
               <form class="form-horizontal">
+                <h4>Initial Guess</h4>
                 <div class="control-group">
                   <my-action-list actions="sequence"
                                   action-tooltip="allActions[action].name"/>
@@ -155,7 +156,25 @@
                   <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
                   <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorRunning">Simulate</button>
                   <button class="btn btn-primary" ng-click="runSolver()" ng-disabled="simulatorRunning">Solve</button>
-                  <span ng-show="simulatorRunning">Running...</span>
+                </div>
+                <div>
+                  <h4>Solver Result</h4>
+                  <div ng-show="simulatorRunning" class="empty-action-list">
+                    <p class="text-info">Solver Running...</p>
+                  </div>
+                  <div ng-show="!simulatorRunning"
+                       ng-class="{'empty-action-list': solverResult.sequence.length == 0}"
+                       class="control-group">
+                    <my-action-list ng-disabled="solverResult.sequence.equals(sequence)"
+                                    actions="solverResult.sequence"
+                                    action-tooltip="allActions[action].name"/>
+                  </div>
+                  <div class="control-group">
+                    <button class="btn btn-warning"
+                            ng-disabled="solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
+                            ng-click="useSolverResult()">Use Solver Result
+                    </button>
+                  </div>
                 </div>
                 <accordion>
                   <accordion-group is-open="sections.simulator.options.open">
@@ -233,12 +252,11 @@
             </div>
           </div>
           <tabset>
-            <tab heading="Simulation Results" active="simulatorTabs.simulation.active">
+            <tab heading="Simulation Log" active="simulatorTabs.simulation.active">
               <pre>{{simulationResult.logText}}</pre>
             </tab>
-            <tab heading="Solver Results" active="simulatorTabs.solver.active">
+            <tab heading="Solver Log" active="simulatorTabs.solver.active">
               <pre>{{solverResult.logText}}</pre>
-              <button class="btn btn-warning" ng-show="solverResult.sequence.length > 0" ng-click="useSolverResult()">Use Solver Result</button>
             </tab>
           </tabset>
         </accordion-group>
