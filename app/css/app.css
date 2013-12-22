@@ -36,6 +36,10 @@ body {
   margin-bottom: 20px;
 }
 
+.disabled-action-list {
+  opacity: 0.4;
+}
+
 .form-horizontal .control-label, form label {
   font-weight: bold;
   width: 130px;

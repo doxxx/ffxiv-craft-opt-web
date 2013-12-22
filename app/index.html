@@ -166,6 +166,7 @@
                        ng-class="{'empty-action-list': solverResult.sequence.length == 0}"
                        class="control-group">
                     <my-action-list ng-disabled="solverResult.sequence.equals(sequence)"
+                                    ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}"
                                     actions="solverResult.sequence"
                                     action-tooltip="allActions[action].name"/>
                   </div>
