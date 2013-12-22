@@ -169,15 +169,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _g
 
   $scope.simulationSuccess = function(data, status, headers, config) {
     $scope.simulationResult.logText = data.log;
-    if (typeof data.error !== 'undefined') {
-      $scope.simulationResult.logText += '\n\nError: ' + data.error
-    }
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorRunning = false;
   }
 
   $scope.simulationError = function(data, status, headers, config) {
-    $scope.simulationResult.logText = data;
+    $scope.simulationResult.logText = data.log;
+    $scope.simulationResult.logText += '\n\nError: ' + data.error
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorRunning = false;
   }
@@ -201,19 +199,15 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, _g
 
   $scope.solverSuccess = function(data, status, headers, config) {
     $scope.solverResult.logText = data.log;
-    if (typeof data.error !== 'undefined') {
-      $scope.solverResult.logText += '\n\nError: ' + data.error
-      $scope.solverResult.sequence = []
-    }
-    else {
-      $scope.solverResult.sequence = data.bestSequence;
-    }
+    $scope.solverResult.sequence = data.bestSequence;
     $scope.simulatorTabs.solver.active = true;
     $scope.simulatorRunning = false;
   }
 
   $scope.solverError = function(data, status, headers, config) {
-    $scope.solverResult = "";
+    $scope.solverResult.logText = data.log;
+    $scope.solverResult.logText += '\n\nError: ' + data.error
+    $scope.solverResult.sequence = []
     $scope.simulatorTabs.solver.active = true;
     $scope.simulatorRunning = false;
   }
