@@ -116,6 +116,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   })
   $scope.$watchCollection('sequence', function() {
     saveSettings($scope)
+    $scope.runSimulation($scope.simulationSuccess, $scope.simulationError)
   })
   $scope.$watchCollection('sequenceSettings', function() {
     saveSettings($scope)
@@ -234,11 +235,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 
   loadSettings($scope)
-
-  $document.ready(function() {
-    $scope.runSimulation($scope.simulationSuccess, $scope.simulationError);
-  });
-
 });
 
 var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, origSequence, availableActions) {
