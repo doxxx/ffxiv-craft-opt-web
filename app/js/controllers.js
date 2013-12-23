@@ -67,27 +67,27 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.simulation = {
   };
 
-  $scope.simulatorRunning = false;
-  
-  $scope.simulationResult = {
-    logText: '',
-    quality: null,
-  };
-  
   $scope.solver = {
     penaltyWeight: 10000,
     population: 300,
     generations: 100,
   };
 
-  $scope.simulatorTabs = {
-    simulation: { },
-    solver: { },
+  $scope.simulatorRunning = false;
+  
+  $scope.simulationResult = {
+    logText: '',
+    finalState: null,
   };
-
+  
   $scope.solverResult = {
     logText: '',
     sequence: [],
+  };
+
+  $scope.simulatorTabs = {
+    simulation: { },
+    solver: { },
   };
 
   $scope.macro = {
