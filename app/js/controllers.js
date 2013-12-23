@@ -83,6 +83,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.solverResult = {
     logText: '',
     sequence: [],
+    finalState: null,
   };
 
   $scope.simulatorTabs = {
@@ -199,6 +200,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.solverSuccess = function(data, status, headers, config) {
     $scope.solverResult.logText = data.log;
+    $scope.solverResult.finalState = data.finalState;
     $scope.solverResult.sequence = data.bestSequence;
     $scope.simulatorTabs.solver.active = true;
     $scope.simulatorRunning = false;

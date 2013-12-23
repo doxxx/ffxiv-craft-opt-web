@@ -160,9 +160,11 @@
                   <button class="btn btn-primary" ng-click="runSolver(solverSuccess, solverError)" ng-disabled="simulatorRunning">Solve</button>
                 </div>
                 <div>
-                  <h4>Solver Result</h4>
+                  <h4>Solver Result
+                    <span ng-show="solverResult.finalState != null">&nbsp;(Q:{{solverResult.finalState.quality | number:0}}<span ng-show="!solverResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.finalState.durability | number:0}}</span><span ng-show="!solverResult.finalState.cpOk" class="text-error">&nbsp;CP:{{solverResult.finalState.cp | number:0}}</span><span ng-show="!solverResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{solverResult.finalState.progress | number:0}}</span>)</span>
+                  </h4>
                   <div ng-show="simulatorRunning" class="empty-action-list">
-                    <p class="text-info">Solver Running...</p>
+                    <p class="text-info">Running...</p>
                   </div>
                   <div ng-show="!simulatorRunning"
                        ng-class="{'empty-action-list': solverResult.sequence.length == 0}"
