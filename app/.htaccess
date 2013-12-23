@@ -1,0 +1,6 @@
+FileETag All
+Header Set Cache-Control "no-cache"
+
+<FilesMatch "\.(png|gif|jpg)$">
+  Header Set Cache-Control "public, max-age=7200, must-revalidate"
+</FilesMatch>
