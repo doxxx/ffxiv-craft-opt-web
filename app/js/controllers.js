@@ -4,7 +4,7 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
-controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, _getSolverServiceURL, _allClasses, _actionGroups, _allActions) {
+controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout, _getSolverServiceURL, _allClasses, _actionGroups, _allActions) {
   $scope.navBarCollapsed = true;
   
   // variables to track which sections are open
@@ -199,7 +199,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       error(error);
   }
 
-  $scope.solverSuccess = function(data, status, headers, config) {
+  $scope.solverSuccess = function(data) {
     $scope.solverResult.logText = data.log;
     $scope.solverResult.finalState = data.finalState;
     $scope.solverResult.sequence = data.bestSequence;
@@ -207,12 +207,34 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorRunning = false;
   }
 
-  $scope.solverError = function(data, status, headers, config) {
+  $scope.solverError = function(data) {
     $scope.solverResult.logText = data.log;
     $scope.solverResult.logText += '\n\nError: ' + data.error
     $scope.solverResult.sequence = []
     $scope.simulatorTabs.solver.active = true;
     $scope.simulatorRunning = false;
+  }
+
+  $scope.checkSolverAsync = function(taskID, success, error) {
+    $timeout(function() {
+      $http.get(_getSolverServiceURL() + "async_solver", {params: {taskID: taskID}}).
+        success(function(data) {
+          if (data.done) {
+            if (data.error != null) {
+              error(data.result)
+            }
+            else {
+              success(data.result)
+            }
+          }
+          else {
+            $scope.checkSolverAsync(taskID, success, error)
+          }
+        }).
+        error(function(data) {
+          console.log("Error checking solver_async status: " + data)
+        })
+    }, 5000)
   }
   
   $scope.runSolver = function(success, error) {
@@ -229,8 +251,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
     }
-    $http.post(_getSolverServiceURL() + 'solver', settings).
-      success(success).
+    $http.post(_getSolverServiceURL() + 'async_solver', settings).
+      success(function(data) {
+        var taskID = data.taskID
+        $scope.checkSolverAsync(taskID, success, error)
+      }).
       error(error);
   }
 
