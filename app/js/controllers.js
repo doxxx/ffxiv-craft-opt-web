@@ -219,7 +219,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       $http.get(_getSolverServiceURL() + "async_solver", {params: {taskID: taskID}}).
         success(function(data) {
           if (data.done) {
-            if (data.error != null) {
+            if (data.result.error != null) {
               error(data.result)
             }
             else {
