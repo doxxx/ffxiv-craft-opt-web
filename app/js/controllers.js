@@ -69,9 +69,16 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.macro.macros = createMacros($scope.allActions, $scope.sequence, newValue)
   });
 
+  // watches for saving user settings
   $scope.$watchCollection('crafter', function() {
     saveSettings($scope)
   })
+
+  for (var cls in $scope.crafter.stats) {
+    $scope.$watchCollection('crafter.stats.' + cls, function() {
+      saveSettings($scope)
+    })
+  }
 
   $scope.$watchCollection('recipe', function() {
     saveSettings($scope)
