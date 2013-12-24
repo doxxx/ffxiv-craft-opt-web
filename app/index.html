@@ -116,6 +116,12 @@
                                 ng-class="{'disabled': recipe.current == null}">
                           <i class="icon-minus"></i>
                         </button>
+                        <button class="btn"
+                                ng-click="renameRecipe(recipe.current)"
+                                ng-disabled="recipe.current == null"
+                                ng-class="{'disabled': recipe.current == null}">
+                          <i class="icon-pencil"></i>
+                        </button>
                       </div>
                     </div>
                     <div class="control-group">

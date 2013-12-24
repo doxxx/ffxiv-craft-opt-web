@@ -150,6 +150,14 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.recipe.current = null;
   }
 
+  $scope.renameRecipe = function(name) {
+    var newName = prompt("Enter recipe name:", name);
+    if (newName == null || newName.length == 0) return;
+    $scope.allRecipes[newName] = $scope.allRecipes[name];
+    delete $scope.allRecipes[name];
+    $scope.recipe.current = newName;
+  }
+
   $scope.editSequence = function() {
     var modalInstance = $modal.open({
       templateUrl: 'partials/sequence-editor.html',
