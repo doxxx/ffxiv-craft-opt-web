@@ -318,19 +318,7 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
   return macros;
 }
 
-function supports_html5_storage() {
-  try {
-    return 'localStorage' in window && window['localStorage'] !== null;
-  } catch (e) {
-    return false;
-  }
-}
-
 function saveSettings($scope) {
-  if (!supports_html5_storage()) {
-    return false;
-  }
-
   localStorage['settings.crafter'] = JSON.stringify($scope.crafter);
   localStorage['settings.recipe'] = JSON.stringify($scope.recipe);
   localStorage['settings.sequence'] = JSON.stringify($scope.sequence);
@@ -342,10 +330,6 @@ function saveSettings($scope) {
 }
 
 function loadSettings($scope) {
-  if (!supports_html5_storage()) {
-    return false;
-  }
-
   var crafter = localStorage['settings.crafter'];
   if (crafter) {
     $scope.crafter = JSON.parse(crafter);
