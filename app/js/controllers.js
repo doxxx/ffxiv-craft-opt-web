@@ -128,13 +128,20 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.addRecipe = function() {
     var name = prompt("Enter recipe name:");
     if (name == null || name.length == 0) return;
-    $scope.allRecipes[name] = {
-      level: 1,
-      difficulty: 9,
-      durability: 40,
-      startQuality: 0,
-      maxQuality: 312,
+    var recipe;
+    if ($scope.recipe.current != null) {
+      recipe = angular.copy($scope.allRecipes[$scope.recipe.current]);
     }
+    else {
+      recipe = {
+        level: 1,
+        difficulty: 9,
+        durability: 40,
+        startQuality: 0,
+        maxQuality: 312,
+      }
+    }
+    $scope.allRecipes[name] = recipe;
     $scope.recipe.current = name;
   }
 
