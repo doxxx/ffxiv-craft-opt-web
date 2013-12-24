@@ -14,6 +14,7 @@ module.directive('mySectionHeader', function() {
     restrict: 'E',
     scope: {
       section: '=',
+      title: '@',
     },
     templateUrl: 'partials/section-header.html'
   }

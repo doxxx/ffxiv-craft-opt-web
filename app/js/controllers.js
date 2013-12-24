@@ -10,14 +10,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   // variables to track which sections are open
   $scope.sections = {
     synth: {
-      open: true, title: 'Synth Details',
-      actions: { open: true, title: 'Available Actions' },
+      open: true,
     },
     simulator: {
-      open: true, title: 'Simulator',
-      options: { open: false, title: 'Options' }
+      open: true,
+      options: { open: false, }
     },
-    macro: { open: false, title: 'Macro' },
+    macro: { open: false, },
   };
   
   // fields
