@@ -77,9 +77,14 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     saveSettings($scope)
   })
 
-  $scope.$watchCollection('sequence', function() {
+  $scope.$watchCollection('sequence', function(newValue) {
     saveSettings($scope)
-    $scope.runSimulation($scope.simulationSuccess, $scope.simulationError)
+    if (newValue.length > 0) {
+      $scope.runSimulation($scope.simulationSuccess, $scope.simulationError)
+    }
+    else {
+      $scope.simulationResult.finalState = null
+    }
   })
 
   $scope.$watchCollection('sequenceSettings', function() {
@@ -150,6 +155,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
   
   $scope.runSimulation = function(success, error) {
+    if ($scope.sequence.length <= 0) {
+      error({log: '', error: 'Must provide non-empty sequence'});
+      return;
+    }
     $scope.simulatorRunning = true;
     var settings = {
       crafter: $scope.currentClassStats,
@@ -337,75 +346,84 @@ function loadSettings($scope) {
     return false;
   }
 
-  try {
-    initSettings($scope);
-
-    var crafter = localStorage['settings.crafter'];
-    if (crafter) $scope.crafter = JSON.parse(crafter);
-
-    var recipe = localStorage['settings.recipe'];
-    if (recipe) $scope.recipe = JSON.parse(recipe);
-
-    var sequence = localStorage['settings.sequence'];
-    if (sequence) $scope.sequence = JSON.parse(sequence);
-
-    var sequenceSettings = localStorage['settings.sequenceSettings'];
-    if (sequenceSettings) $scope.sequenceSettings = JSON.parse(sequenceSettings);
-
-    var simulation = localStorage['settings.simulation'];
-    if (simulation) $scope.simulation = JSON.parse(simulation);
-
-    var solver = localStorage['settings.solver'];
-    if (solver) $scope.solver = JSON.parse(solver);
+  var crafter = localStorage['settings.crafter'];
+  if (crafter) {
+    $scope.crafter = JSON.parse(crafter);
   }
-  catch (e) {
-    console.log('Could not load settings from local storage', e)
-  }
+  else {
+    $scope.crafter = {
+      cls: $scope.allClasses[0],
+      stats: {},
+    };
 
-  return true;
-}
-
-function initSettings($scope) {
-  $scope.crafter = {
-    cls: $scope.allClasses[0],
-    stats: {},
-  };
-
-  for (var i = 0; i < $scope.allClasses.length; i++) {
-    var c = $scope.allClasses[i];
-    $scope.crafter.stats[c] = {
-      level: 15,
-      craftsmanship: 56,
-      control: 67,
-      cp: 234,
-      actions: [],
+    for (var i = 0; i < $scope.allClasses.length; i++) {
+      var c = $scope.allClasses[i];
+      $scope.crafter.stats[c] = {
+        level: 1,
+        craftsmanship: 24,
+        control: 0,
+        cp: 180,
+        actions: ['basicSynth'],
+      }
     }
   }
 
-  $scope.recipe = {
-    level: 12,
-    difficulty: 65,
-    durability: 60,
-    startQuality: 0,
-    maxQuality: 456
-  };
-
-  $scope.sequence = [ "innerQuiet", "basicTouch", "basicSynth", "basicSynth", "basicSynth", "basicSynth", "basicSynth" ];
-  $scope.sequenceSettings = {
-    maxTricksUses: 0,
-    maxMontecarloRuns: 500,
-    specifySeed: false,
-    seed: 1337,
+  var recipe = localStorage['settings.recipe'];
+  if (recipe) {
+    $scope.recipe = JSON.parse(recipe);
+  }
+  else {
+    $scope.recipe = {
+      level: 1,
+      difficulty: 9,
+      durability: 40,
+      startQuality: 0,
+      maxQuality: 312,
+    };
   }
 
-  $scope.simulation = {
-  };
+  var sequence = localStorage['settings.sequence'];
+  if (sequence) {
+    $scope.sequence = JSON.parse(sequence);
+  }
+  else {
+    $scope.sequence = [ ];
+  }
 
-  $scope.solver = {
-    penaltyWeight: 10000,
-    population: 300,
-    generations: 100,
-  };
+  var sequenceSettings = localStorage['settings.sequenceSettings'];
+  if (sequenceSettings) {
+    $scope.sequenceSettings = JSON.parse(sequenceSettings);
+  }
+  else {
+    $scope.sequenceSettings = {
+      maxTricksUses: 0,
+      maxMontecarloRuns: 500,
+      specifySeed: false,
+      seed: 1337,
+    }
+  }
+
+  var simulation = localStorage['settings.simulation'];
+  if (simulation) {
+    $scope.simulation = JSON.parse(simulation);
+  }
+  else {
+    $scope.simulation = {};
+  }
+
+  var solver = localStorage['settings.solver'];
+  if (solver) {
+    $scope.solver = JSON.parse(solver);
+  }
+  else {
+    $scope.solver = {
+      penaltyWeight: 10000,
+      population: 300,
+      generations: 100,
+    };
+  }
+
+  return true;
 }
 
 // attach the .equals method to Array's prototype to call it on any array
