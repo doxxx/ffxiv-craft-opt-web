@@ -19,70 +19,22 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     macro: { open: false, },
   };
   
-  // fields
+  // provide access to constants
   $scope.allClasses = _allClasses;
-  
-  $scope.crafter = {
-    cls: $scope.allClasses[0],
-    stats: {},
-  };
-
-  for (var i = 0; i < _allClasses.length; i++) {
-    var c = _allClasses[i];
-    $scope.crafter.stats[c] = {
-      level: 15,
-      craftsmanship: 56,
-      control: 67,
-      cp: 234,
-      actions: [],
-    }
-  }
-
-  $scope.clsStats = $scope.crafter.stats[$scope.crafter.cls];
-  
   $scope.actionGroups = _actionGroups;
+
   $scope.allActions = {};
   for (var i = 0; i < _allActions.length; i++) {
     var action = _allActions[i];
     $scope.allActions[action.shortName] = action;
   }
 
-  $scope.recipe = {
-    level: 12,
-    difficulty: 65,
-    durability: 60,
-    startQuality: 0,
-    maxQuality: 456
-  };
-
-  $scope.sequence = [ "innerQuiet", "basicTouch", "basicSynth", "basicSynth", "basicSynth", "basicSynth", "basicSynth" ];
-  $scope.sequenceSettings = {
-    maxTricksUses: 0,
-    maxMontecarloRuns: 500,
-    specifySeed: false,
-    seed: 1337,
-  }
-
-  $scope.simulation = {
-  };
-
-  $scope.solver = {
-    penaltyWeight: 10000,
-    population: 300,
-    generations: 100,
-  };
-
+  // non-persistent page states
   $scope.simulatorRunning = false;
-  
-  $scope.simulationResult = {
-    logText: '',
-    finalState: null,
-  };
-  
-  $scope.solverResult = {
-    logText: '',
-    sequence: [],
-    finalState: null,
+
+  $scope.macro = {
+    macros: [],
+    waitTime: 3,
   };
 
   $scope.simulatorTabs = {
@@ -90,11 +42,21 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     solver: { },
   };
 
-  $scope.macro = {
-    macros: [],
-    waitTime: 3,
+  $scope.simulationResult = {
+    logText: '',
+    finalState: null,
   };
 
+  $scope.solverResult = {
+    logText: '',
+    sequence: [],
+    finalState: null,
+  };
+
+  // load/initialize user settings
+  loadSettings($scope)
+
+  // watches for automatic updates
   $scope.$watch('crafter.cls', function(newValue, oldValue) {
     $scope.currentClassStats = $scope.crafter.stats[newValue];
   });
@@ -110,23 +72,29 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.$watchCollection('crafter', function() {
     saveSettings($scope)
   })
+
   $scope.$watchCollection('recipe', function() {
     saveSettings($scope)
   })
+
   $scope.$watchCollection('sequence', function() {
     saveSettings($scope)
     $scope.runSimulation($scope.simulationSuccess, $scope.simulationError)
   })
+
   $scope.$watchCollection('sequenceSettings', function() {
     saveSettings($scope)
   })
+
   $scope.$watchCollection('simulation', function() {
     saveSettings($scope)
   })
+
   $scope.$watchCollection('solver', function() {
     saveSettings($scope)
   })
 
+  // data model interaction functions
   $scope.isActionSelected = function(action) {
     return $scope.currentClassStats.actions.indexOf(action) >= 0;
   }
@@ -257,8 +225,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       }).
       error(error);
   }
-
-  loadSettings($scope)
 });
 
 var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, origSequence, availableActions) {
@@ -351,50 +317,95 @@ function supports_html5_storage() {
   }
 }
 
-function saveSettings(scope) {
+function saveSettings($scope) {
   if (!supports_html5_storage()) {
     return false;
   }
 
-  localStorage['settings.crafter'] = JSON.stringify(scope.crafter);
-  localStorage['settings.recipe'] = JSON.stringify(scope.recipe);
-  localStorage['settings.sequence'] = JSON.stringify(scope.sequence);
-  localStorage['settings.sequenceSettings'] = JSON.stringify(scope.sequenceSettings);
-  localStorage['settings.simulation'] = JSON.stringify(scope.simulation);
-  localStorage['settings.solver'] = JSON.stringify(scope.solver);
+  localStorage['settings.crafter'] = JSON.stringify($scope.crafter);
+  localStorage['settings.recipe'] = JSON.stringify($scope.recipe);
+  localStorage['settings.sequence'] = JSON.stringify($scope.sequence);
+  localStorage['settings.sequenceSettings'] = JSON.stringify($scope.sequenceSettings);
+  localStorage['settings.simulation'] = JSON.stringify($scope.simulation);
+  localStorage['settings.solver'] = JSON.stringify($scope.solver);
 
   return true;
 }
 
-function loadSettings(scope) {
+function loadSettings($scope) {
   if (!supports_html5_storage()) {
     return false;
   }
 
   try {
+    initSettings($scope);
+
     var crafter = localStorage['settings.crafter'];
-    if (crafter) scope.crafter = JSON.parse(crafter);
+    if (crafter) $scope.crafter = JSON.parse(crafter);
 
     var recipe = localStorage['settings.recipe'];
-    if (recipe) scope.recipe = JSON.parse(recipe);
+    if (recipe) $scope.recipe = JSON.parse(recipe);
 
     var sequence = localStorage['settings.sequence'];
-    if (sequence) scope.sequence = JSON.parse(sequence);
+    if (sequence) $scope.sequence = JSON.parse(sequence);
 
     var sequenceSettings = localStorage['settings.sequenceSettings'];
-    if (sequenceSettings) scope.sequenceSettings = JSON.parse(sequenceSettings);
+    if (sequenceSettings) $scope.sequenceSettings = JSON.parse(sequenceSettings);
 
     var simulation = localStorage['settings.simulation'];
-    if (simulation) scope.simulation = JSON.parse(simulation);
+    if (simulation) $scope.simulation = JSON.parse(simulation);
 
     var solver = localStorage['settings.solver'];
-    if (solver) scope.solver = JSON.parse(solver);
+    if (solver) $scope.solver = JSON.parse(solver);
   }
   catch (e) {
     console.log('Could not load settings from local storage', e)
   }
 
   return true;
+}
+
+function initSettings($scope) {
+  $scope.crafter = {
+    cls: $scope.allClasses[0],
+    stats: {},
+  };
+
+  for (var i = 0; i < $scope.allClasses.length; i++) {
+    var c = $scope.allClasses[i];
+    $scope.crafter.stats[c] = {
+      level: 15,
+      craftsmanship: 56,
+      control: 67,
+      cp: 234,
+      actions: [],
+    }
+  }
+
+  $scope.recipe = {
+    level: 12,
+    difficulty: 65,
+    durability: 60,
+    startQuality: 0,
+    maxQuality: 456
+  };
+
+  $scope.sequence = [ "innerQuiet", "basicTouch", "basicSynth", "basicSynth", "basicSynth", "basicSynth", "basicSynth" ];
+  $scope.sequenceSettings = {
+    maxTricksUses: 0,
+    maxMontecarloRuns: 500,
+    specifySeed: false,
+    seed: 1337,
+  }
+
+  $scope.simulation = {
+  };
+
+  $scope.solver = {
+    penaltyWeight: 10000,
+    population: 300,
+    generations: 100,
+  };
 }
 
 // attach the .equals method to Array's prototype to call it on any array
