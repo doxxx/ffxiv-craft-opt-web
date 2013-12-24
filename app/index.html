@@ -105,33 +105,47 @@
                 <form class="form-horizontal well">
                   <fieldset>
                     <div class="control-group">
+                      <label class="control-label">Name</label>
+                      <div class="controls">
+                        <select ng-model="recipe.current" ng-options="name as name for (name,stats) in allRecipes">
+                        </select>
+                        <button class="btn" ng-click="addRecipe()"><i class="icon-plus"></i></button>
+                        <button class="btn"
+                                ng-click="removeRecipe(recipe.current)"
+                                ng-disabled="recipe.current == null"
+                                ng-class="{'disabled': recipe.current == null}">
+                          <i class="icon-minus"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="control-group">
                       <label class="control-label">Level</label>
                       <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.level"/>
+                        <input class="input-small" type="number" ng-model="allRecipes[recipe.current].level" ng-disabled="recipe.current == null"/>
                       </div>
                     </div>
                     <div class="control-group">
                       <label class="control-label">Difficulty</label>
                       <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.difficulty"/>
+                        <input class="input-small" type="number" ng-model="allRecipes[recipe.current].difficulty" ng-disabled="recipe.current == null"/>
                       </div>
                     </div>
                     <div class="control-group">
                       <label class="control-label">Durability</label>
                       <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.durability"/>
+                        <input class="input-small" type="number" ng-model="allRecipes[recipe.current].durability" ng-disabled="recipe.current == null"/>
                       </div>
                     </div>
                     <div class="control-group">
                       <label class="control-label">Start Quality</label>
                       <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.startQuality"/>
+                        <input class="input-small" type="number" ng-model="allRecipes[recipe.current].startQuality" ng-disabled="recipe.current == null"/>
                       </div>
                     </div>
                     <div class="control-group">
                       <label class="control-label">Max Quality</label>
                       <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.maxQuality"/>
+                        <input class="input-small" type="number" ng-model="allRecipes[recipe.current].maxQuality" ng-disabled="recipe.current == null"/>
                       </div>
                     </div>
                   </fieldset>
