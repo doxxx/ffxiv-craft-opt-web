@@ -29,6 +29,39 @@
   </div>
   <div class="container-fluid">
     <div class="span12">
+      <div class="settings">
+        <span class="settings-heading">Settings: {{settings.name}}</span>
+        <form>
+          <div class="settings-buttons">
+            <div class="dropdown">
+              <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
+                  <a ng-click="loadSettings(name)">{{name}}</a>
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="btn" ng-click="saveSettings()" ng-disabled="settings.name == ''">Save</button>
+            <button type="button" class="btn" ng-click="saveSettingsAs()">Save As...</button>
+            <div class="dropdown">
+              <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
+                  <a ng-click="deleteSettings(name)">{{name}}</a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
+                  <a ng-click="renameSettings(name)">{{name}}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </div>
       <accordion close-others="false">
         <accordion-group is-open="sections.synth.open">
           <accordion-heading>
@@ -58,25 +91,25 @@
                           <div class="control-group">
                             <label class="control-label">Level</label>
                             <div class="controls">
-                              <input class="input-small" type="number" ng-model="currentClassStats.level"/>
+                              <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].level"/>
                             </div>
                           </div>
                           <div class="control-group">
                             <label class="control-label">Craftsmanship</label>
                             <div class="controls">
-                              <input class="input-small" type="number" ng-model="currentClassStats.craftsmanship"/>
+                              <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].craftsmanship"/>
                             </div>
                           </div>
                           <div class="control-group">
                             <label class="control-label">Control</label>
                             <div class="controls">
-                              <input class="input-small" type="number" ng-model="currentClassStats.control"/>
+                              <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].control"/>
                             </div>
                           </div>
                           <div class="control-group">
                             <label class="control-label">CP</label>
                             <div class="controls">
-                              <input class="input-small" type="number" ng-model="currentClassStats.cp"/>
+                              <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].cp"/>
                             </div>
                           </div>
                         </fieldset>

@@ -53,12 +53,12 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     finalState: null,
   };
 
-  // load/initialize user settings
-  loadSettings($scope)
+  // load/initialize persistent page state
+  loadPageState($scope)
 
-  // watches for automatic updates
-  $scope.$watch('crafter.cls', function(newValue, oldValue) {
-    $scope.currentClassStats = $scope.crafter.stats[newValue];
+  // watches for automatic updates and saving settings
+  $scope.$watch('settings.name', function() {
+    savePageState($scope);
   });
 
   $scope.$watch('sequence', function(newValue, oldValue) {
@@ -69,23 +69,22 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.macro.macros = createMacros($scope.allActions, $scope.sequence, newValue)
   });
 
-  // watches for saving user settings
   $scope.$watchCollection('crafter', function() {
-    saveSettings($scope)
+    savePageState($scope)
   })
 
   for (var cls in $scope.crafter.stats) {
     $scope.$watchCollection('crafter.stats.' + cls, function() {
-      saveSettings($scope)
+      savePageState($scope)
     })
   }
 
   $scope.$watchCollection('recipe', function() {
-    saveSettings($scope)
+    savePageState($scope)
   })
 
   $scope.$watchCollection('sequence', function(newValue) {
-    saveSettings($scope)
+    savePageState($scope)
     if (newValue.length > 0) {
       $scope.runSimulation($scope.simulationSuccess, $scope.simulationError)
     }
@@ -95,29 +94,102 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   })
 
   $scope.$watchCollection('sequenceSettings', function() {
-    saveSettings($scope)
+    savePageState($scope)
   })
 
   $scope.$watchCollection('simulation', function() {
-    saveSettings($scope)
+    savePageState($scope)
   })
 
   $scope.$watchCollection('solver', function() {
-    saveSettings($scope)
+    savePageState($scope)
   })
 
   // data model interaction functions
+  $scope.savedSettingsNames = function() {
+    var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
+    var names = [];
+    for (var name in savedSettings) {
+      names.push(name);
+    }
+    return names;
+  }
+
+  $scope.loadSettings = function(name) {
+    var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
+    var settings = savedSettings[name];
+
+    $scope.crafter = angular.copy(settings.crafter);
+    $scope.recipe = angular.copy(settings.recipe);
+    $scope.sequence = angular.copy(settings.sequence);
+    $scope.sequenceSettings = angular.copy(settings.sequenceSettings);
+    $scope.simulation = angular.copy(settings.simulation);
+    $scope.solver = angular.copy(settings.solver);
+    $scope.solverResult = angular.copy(settings.solverResult);
+
+    $scope.settings.name = name;
+  }
+
+  $scope.saveSettings = function() {
+    var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
+    var settings = savedSettings[$scope.settings.name];
+    if (typeof settings == 'undefined') {
+      settings = {}
+      savedSettings[$scope.settings.name] = settings;
+    }
+
+    settings.crafter = angular.copy($scope.crafter);
+    settings.recipe = angular.copy($scope.recipe);
+    settings.sequence = angular.copy($scope.sequence);
+    settings.sequenceSettings = angular.copy($scope.sequenceSettings);
+    settings.simulation = angular.copy($scope.simulation);
+    settings.solver = angular.copy($scope.solver);
+    settings.solverResult = angular.copy($scope.solverResult);
+
+    localStorage['savedSettings'] = JSON.stringify(savedSettings);
+  }
+
+  $scope.saveSettingsAs = function() {
+    var name = prompt('Enter recipe name:');
+    if (name == null || name.length == 0) return;
+    $scope.settings.name = name;
+    $scope.saveSettings(name);
+  }
+
+  $scope.deleteSettings = function(name) {
+    if (confirm('Are you sure you want to delete the "' + name + '" settings?')) {
+      var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
+      delete savedSettings[name];
+      localStorage['savedSettings'] = JSON.stringify(savedSettings);
+      if (name == $scope.settings.name) {
+        $scope.settings.name = '';
+      }
+    }
+  }
+
+  $scope.renameSettings = function(name) {
+    var newName = prompt('Enter new recipe name:');
+    if (newName == null || newName.length == 0) return;
+    var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
+    savedSettings[newName] = savedSettings[name];
+    delete savedSettings[name];
+    localStorage['savedSettings'] = JSON.stringify(savedSettings);
+    if (name == $scope.settings.name) {
+      $scope.settings.name = newName;
+    }
+  }
+
   $scope.isActionSelected = function(action) {
-    return $scope.currentClassStats.actions.indexOf(action) >= 0;
+    return $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action) >= 0;
   }
 
   $scope.toggleAction = function(action) {
-    var i = $scope.currentClassStats.actions.indexOf(action);
+    var i = $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action);
     if (i >= 0) {
-      $scope.currentClassStats.actions.splice(i, 1);
+      $scope.crafter.stats[$scope.crafter.cls].actions.splice(i, 1);
     }
     else {
-      $scope.currentClassStats.actions.push(action);
+      $scope.crafter.stats[$scope.crafter.cls].actions.push(action);
     }
   };
 
@@ -128,7 +200,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       windowClass: 'sequence-editor',
       resolve: {
         origSequence: function() { return $scope.sequence; },
-        availableActions: function() { return $scope.currentClassStats.actions; },
+        availableActions: function() { return $scope.crafter.stats[$scope.crafter.cls].actions; },
       },
     });
     modalInstance.result.then(
@@ -168,7 +240,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
     $scope.simulatorRunning = true;
     var settings = {
-      crafter: $scope.currentClassStats,
+      crafter: $scope.crafter.stats[$scope.crafter.cls],
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
@@ -224,7 +296,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorRunning = true;
     $scope.solverResult.sequence = [];
     var settings = {
-      crafter: $scope.currentClassStats,
+      crafter: $scope.crafter.stats[$scope.crafter.cls],
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
@@ -240,6 +312,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
         $scope.checkSolverAsync(taskID, success, error)
       }).
       error(error);
+  }
+
+  // Final setup
+  if ($scope.settings.name != '') {
+    $scope.loadSettings($scope.settings.name);
   }
 });
 
@@ -325,7 +402,8 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
   return macros;
 }
 
-function saveSettings($scope) {
+function savePageState($scope) {
+  localStorage['settingsName'] = $scope.settings.name;
   localStorage['settings.crafter'] = JSON.stringify($scope.crafter);
   localStorage['settings.recipe'] = JSON.stringify($scope.recipe);
   localStorage['settings.sequence'] = JSON.stringify($scope.sequence);
@@ -336,7 +414,15 @@ function saveSettings($scope) {
   return true;
 }
 
-function loadSettings($scope) {
+function loadPageState($scope) {
+  var settingsName = localStorage['settingsName'];
+  if (settingsName) {
+    $scope.settings = { name: settingsName };
+  }
+  else {
+    $scope.settings = { name: '' };
+  }
+
   var crafter = localStorage['settings.crafter'];
   if (crafter) {
     $scope.crafter = JSON.parse(crafter);
@@ -361,7 +447,15 @@ function loadSettings($scope) {
 
   var recipe = localStorage['settings.recipe'];
   if (recipe) {
-    $scope.recipe = JSON.parse(recipe);
+    recipe = JSON.parse(recipe);
+
+    // convert previously selected saved recipe
+    if (recipe.current) {
+      var allRecipes = JSON.parse(localStorage['settings.allRecipes'])
+      recipe = allRecipes[recipe.current];
+    }
+
+    $scope.recipe = recipe;
   }
   else {
     $scope.recipe = {
@@ -412,6 +506,11 @@ function loadSettings($scope) {
       population: 300,
       generations: 100,
     };
+  }
+
+  // cleanup old storage
+  if (localStorage['settings.allRecipes']) {
+    delete localStorage['settings.allRecipes'];
   }
 
   return true;

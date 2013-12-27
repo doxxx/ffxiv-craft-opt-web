@@ -57,6 +57,26 @@ body {
   font-weight: bold;
 }
 
+.settings {
+  margin-bottom: 20px;
+  display: block;
+  padding: 8px 15px;
+}
+
+.settings-heading {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.settings-buttons div {
+  display: inline;
+}
+
+.settings-buttons .dropdown-menu {
+  margin-top: 10px;
+}
+
 textarea {
   width: 100%;
 }
