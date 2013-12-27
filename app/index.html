@@ -53,7 +53,7 @@
                   <div class="row-fluid">
                     <div class="span6">
                       <form class="form-horizontal">
-                        <legend>{{crafter.cls}} Stats</legend>
+                        <legend><small>{{crafter.cls}} Stats</small></legend>
                         <fieldset>
                           <div class="control-group">
                             <label class="control-label">Level</label>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="span6">
                       <form class="action-table">
-                        <legend>Available Actions</legend>
+                        <legend><small>Available Actions</small></legend>
                         <fieldset>
                           <div class="control-group" ng-repeat="actionGroup in actionGroups">
                             <label class="control-label">{{actionGroup.name}}</label>
@@ -103,6 +103,7 @@
               </tab>
               <tab heading="Recipe">
                 <form class="form-horizontal well">
+                  <legend><small>Recipe Stats</small></legend>
                   <fieldset>
                     <div class="control-group">
                       <label class="control-label">Level</label>
