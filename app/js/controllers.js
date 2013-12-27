@@ -80,10 +80,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     })
   }
 
-  $scope.$watchCollection('allRecipes', function() {
-    saveSettings($scope)
-  })
-
   $scope.$watchCollection('recipe', function() {
     saveSettings($scope)
   })
@@ -124,39 +120,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       $scope.currentClassStats.actions.push(action);
     }
   };
-
-  $scope.addRecipe = function() {
-    var name = prompt("Enter recipe name:");
-    if (name == null || name.length == 0) return;
-    var recipe;
-    if ($scope.recipe.current != null) {
-      recipe = angular.copy($scope.allRecipes[$scope.recipe.current]);
-    }
-    else {
-      recipe = {
-        level: 1,
-        difficulty: 9,
-        durability: 40,
-        startQuality: 0,
-        maxQuality: 312,
-      }
-    }
-    $scope.allRecipes[name] = recipe;
-    $scope.recipe.current = name;
-  }
-
-  $scope.removeRecipe = function(name) {
-    delete $scope.allRecipes[name];
-    $scope.recipe.current = null;
-  }
-
-  $scope.renameRecipe = function(name) {
-    var newName = prompt("Enter recipe name:", name);
-    if (newName == null || newName.length == 0) return;
-    $scope.allRecipes[newName] = $scope.allRecipes[name];
-    delete $scope.allRecipes[name];
-    $scope.recipe.current = newName;
-  }
 
   $scope.editSequence = function() {
     var modalInstance = $modal.open({
@@ -206,7 +169,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorRunning = true;
     var settings = {
       crafter: $scope.currentClassStats,
-      recipe: $scope.allRecipes[$scope.recipe.current],
+      recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -262,7 +225,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.solverResult.sequence = [];
     var settings = {
       crafter: $scope.currentClassStats,
-      recipe: $scope.allRecipes[$scope.recipe.current],
+      recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -364,7 +327,6 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
 
 function saveSettings($scope) {
   localStorage['settings.crafter'] = JSON.stringify($scope.crafter);
-  localStorage['settings.allRecipes'] = JSON.stringify($scope.allRecipes);
   localStorage['settings.recipe'] = JSON.stringify($scope.recipe);
   localStorage['settings.sequence'] = JSON.stringify($scope.sequence);
   localStorage['settings.sequenceSettings'] = JSON.stringify($scope.sequenceSettings);
@@ -397,35 +359,18 @@ function loadSettings($scope) {
     }
   }
 
-  var allRecipes = localStorage['settings.allRecipes'];
-  if (allRecipes) {
-    $scope.allRecipes = JSON.parse(allRecipes);
-  }
-  else {
-    $scope.allRecipes = {};
-  }
-
   var recipe = localStorage['settings.recipe'];
   if (recipe) {
-    recipe = JSON.parse(recipe);
-    if (typeof recipe.current == 'undefined') {
-      $scope.allRecipes['Last Recipe'] = recipe;
-      $scope.recipe = { current: 'Last Recipe' }
-    }
-    else {
-      $scope.recipe = recipe;
-    }
+    $scope.recipe = JSON.parse(recipe);
   }
   else {
-    var name = 'Level 1 Recipe'
-    $scope.allRecipes[name] = {
+    $scope.recipe = {
       level: 1,
       difficulty: 9,
       durability: 40,
       startQuality: 0,
       maxQuality: 312,
-    }
-    $scope.recipe = { current: name };
+    };
   }
 
   var sequence = localStorage['settings.sequence'];
@@ -433,7 +378,7 @@ function loadSettings($scope) {
     $scope.sequence = JSON.parse(sequence);
   }
   else {
-    $scope.sequence = ['basicSynth', 'basicSynth'];
+    $scope.sequence = [ ];
   }
 
   var sequenceSettings = localStorage['settings.sequenceSettings'];
