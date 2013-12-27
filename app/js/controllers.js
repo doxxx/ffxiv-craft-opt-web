@@ -153,7 +153,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     var name = prompt('Enter recipe name:');
     if (name == null || name.length == 0) return;
     $scope.settings.name = name;
-    $scope.saveSettings(name);
+    $scope.saveSettings();
   }
 
   $scope.deleteSettings = function(name) {
