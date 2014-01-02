@@ -44,17 +44,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     solver: { },
   };
 
-  $scope.simulationResult = {
-    logText: '',
-    finalState: null,
-  };
-
-  $scope.solverResult = {
-    logText: '',
-    sequence: [],
-    finalState: null,
-  };
-
   // load/initialize persistent page state
   loadPageState($scope)
 
@@ -118,7 +107,15 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     savePageState($scope)
   })
 
+  $scope.$watchCollection('simulationResult', function() {
+    savePageState($scope)
+  })
+
   $scope.$watchCollection('solver', function() {
+    savePageState($scope)
+  })
+
+  $scope.$watchCollection('solverResult', function() {
     savePageState($scope)
   })
 
@@ -324,11 +321,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       }).
       error(error);
   }
-
-  // Final setup
-  if ($scope.settings.name != '') {
-    $scope.loadSettings($scope.settings.name);
-  }
 });
 
 var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, origSequence, availableActions) {
@@ -420,7 +412,9 @@ function savePageState($scope) {
   localStorage['settings.sequence'] = JSON.stringify($scope.sequence);
   localStorage['settings.sequenceSettings'] = JSON.stringify($scope.sequenceSettings);
   localStorage['settings.simulation'] = JSON.stringify($scope.simulation);
+  localStorage['settings.simulationResult'] = JSON.stringify($scope.simulationResult);
   localStorage['settings.solver'] = JSON.stringify($scope.solver);
+  localStorage['settings.solverResult'] = JSON.stringify($scope.solverResult);
 
   return true;
 }
@@ -508,6 +502,17 @@ function loadPageState($scope) {
     $scope.simulation = {};
   }
 
+  var simulationResult = localStorage['settings.simulationResult'];
+  if (simulationResult) {
+    $scope.simulationResult = JSON.parse(simulationResult);
+  }
+  else {
+    $scope.simulationResult = {
+      logText: '',
+      finalState: null,
+    };
+  }
+
   var solver = localStorage['settings.solver'];
   if (solver) {
     $scope.solver = JSON.parse(solver);
@@ -517,6 +522,18 @@ function loadPageState($scope) {
       penaltyWeight: 10000,
       population: 300,
       generations: 100,
+    };
+  }
+
+  var solverResult = localStorage['settings.solverResult'];
+  if (solverResult) {
+    $scope.solverResult = JSON.parse(solverResult);
+  }
+  else {
+    $scope.solverResult = {
+      logText: '',
+      sequence: [],
+      finalState: null,
     };
   }
 
