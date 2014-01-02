@@ -5,20 +5,6 @@
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout, _getSolverServiceURL, _allClasses, _actionGroups, _allActions) {
-  $scope.navBarCollapsed = true;
-  
-  // variables to track which sections are open
-  $scope.sections = {
-    synth: {
-      open: true,
-    },
-    simulator: {
-      open: true,
-      options: { open: false, }
-    },
-    macro: { open: false, },
-  };
-  
   // provide access to constants
   $scope.allClasses = _allClasses;
   $scope.actionGroups = _actionGroups;
@@ -30,6 +16,22 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 
   // non-persistent page states
+  $scope.navBarCollapsed = true;
+
+  $scope.sections = {
+    crafter: {
+      open: true,
+    },
+    synth: {
+      open: true,
+    },
+    simulator: {
+      open: true,
+      options: { open: false, }
+    },
+    macro: { open: false, },
+  };
+
   $scope.simulatorRunning = false;
 
   $scope.macro = {
@@ -235,7 +237,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
     $scope.simulatorRunning = true;
     var settings = {
-      crafter: $scope.crafter.stats[$scope.crafter.cls],
+      crafter: $scope.crafter.stats[$scope.recipe.cls],
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
@@ -291,7 +293,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorRunning = true;
     $scope.solverResult.sequence = [];
     var settings = {
-      crafter: $scope.crafter.stats[$scope.crafter.cls],
+      crafter: $scope.crafter.stats[$scope.recipe.cls],
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
@@ -454,6 +456,7 @@ function loadPageState($scope) {
   }
   else {
     $scope.recipe = {
+      cls: $scope.crafter.cls,
       level: 1,
       difficulty: 9,
       durability: 40,

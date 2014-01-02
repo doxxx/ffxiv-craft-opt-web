@@ -57,6 +57,14 @@ body {
   font-weight: bold;
 }
 
+.btn-group {
+  margin-bottom: 20px;
+}
+
+.settings-buttons {
+  margin-bottom: 20px;
+}
+
 .settings-buttons div {
   display: inline;
 }
@@ -75,6 +83,11 @@ textarea[readonly] {
 
 legend small {
   color: #444444;
+  font-weight: bold;
+}
+
+legend small > .light {
+  font-weight: normal;
 }
 
 /* Action Table */
