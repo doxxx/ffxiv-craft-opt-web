@@ -57,18 +57,6 @@ body {
   font-weight: bold;
 }
 
-.settings {
-  margin-bottom: 20px;
-  display: block;
-  padding: 8px 15px;
-}
-
-.settings-heading {
-  display: block;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
 .settings-buttons div {
   display: inline;
 }
@@ -85,6 +73,9 @@ textarea[readonly] {
   cursor: text;
 }
 
+legend small {
+  color: #444444;
+}
 
 /* Action Table */
 

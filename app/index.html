@@ -32,39 +32,6 @@
       <noscript>
         <h1>This site requires Javascript to function.</h1>
       </noscript>
-      <div class="settings">
-        <span class="settings-heading">Settings: {{settings.name}}</span>
-        <form>
-          <div class="settings-buttons">
-            <div class="dropdown">
-              <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
-              <ul class="dropdown-menu">
-                <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
-                  <a ng-click="loadSettings(name)">{{name}}</a>
-                </li>
-              </ul>
-            </div>
-            <button type="button" class="btn" ng-click="saveSettings()" ng-disabled="settings.name == ''">Save</button>
-            <button type="button" class="btn" ng-click="saveSettingsAs()">Save As...</button>
-            <div class="dropdown">
-              <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
-              <ul class="dropdown-menu">
-                <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
-                  <a ng-click="deleteSettings(name)">{{name}}</a>
-                </li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
-              <ul class="dropdown-menu">
-                <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
-                  <a ng-click="renameSettings(name)">{{name}}</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </form>
-      </div>
       <accordion close-others="false">
         <accordion-group is-open="sections.synth.open">
           <accordion-heading>
@@ -139,7 +106,35 @@
               </tab>
               <tab heading="Recipe">
                 <form class="form-horizontal well">
-                  <legend><small>Recipe Stats</small></legend>
+                  <div class="settings-buttons">
+                    <div class="dropdown">
+                      <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                        <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
+                          <a ng-click="loadSettings(name)">{{name}}</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <button type="button" class="btn" ng-click="saveSettings()" ng-disabled="settings.name == ''">Save</button>
+                    <button type="button" class="btn" ng-click="saveSettingsAs()">Save As...</button>
+                    <div class="dropdown">
+                      <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                        <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
+                          <a ng-click="deleteSettings(name)">{{name}}</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="dropdown">
+                      <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                        <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
+                          <a ng-click="renameSettings(name)">{{name}}</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <legend><small>Recipe: {{settings.name}}</small></legend>
                   <fieldset>
                     <div class="control-group">
                       <label class="control-label">Level</label>
