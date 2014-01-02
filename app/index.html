@@ -112,8 +112,8 @@
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
                 <ul class="dropdown-menu">
-                  <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
-                    <a ng-click="loadSettings(name)">{{name}}</a>
+                  <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
+                    <a ng-click="loadSettings(s.name)">{{s.name}}</a>
                   </li>
                 </ul>
               </div>
@@ -122,16 +122,16 @@
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
                 <ul class="dropdown-menu">
-                  <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
-                    <a ng-click="deleteSettings(name)">{{name}}</a>
+                  <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
+                    <a ng-click="deleteSettings(s.name)">{{s.name}}</a>
                   </li>
                 </ul>
               </div>
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
                 <ul class="dropdown-menu">
-                  <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
-                    <a ng-click="renameSettings(name)">{{name}}</a>
+                  <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
+                    <a ng-click="renameSettings(s.name)">{{s.name}}</a>
                   </li>
                 </ul>
               </div>
@@ -346,5 +346,6 @@
   <script src="js/services.js"></script>
   <script src="js/controllers.js"></script>
   <script src="js/directives.js"></script>
+  <script src="js/filters.js"></script>
 </body>
 </html>

@@ -6,5 +6,6 @@ var app = angular.module('ffxivCraftOptWeb', [
   'ui.bootstrap',
   'ffxivCraftOptWeb.services',
   'ffxivCraftOptWeb.directives',
+  'ffxivCraftOptWeb.filters',
   'ffxivCraftOptWeb.controllers',
 ]);

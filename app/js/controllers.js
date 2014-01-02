@@ -58,7 +58,22 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   // load/initialize persistent page state
   loadPageState($scope)
 
+  // load saved settings
+  $scope.savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
+
+  // Add missing name field to old settings
+  for (var name in $scope.savedSettings) {
+    var s = $scope.savedSettings[name];
+    if (s.name == null) {
+      s.name = name;
+    }
+  }
+
   // watches for automatic updates and saving settings
+  $scope.$watchCollection('savedSettings', function(newValue) {
+    localStorage['savedSettings'] = JSON.stringify(newValue);
+  });
+
   $scope.$watch('settings.name', function() {
     savePageState($scope);
   });
@@ -108,18 +123,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   })
 
   // data model interaction functions
-  $scope.savedSettingsNames = function() {
-    var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
-    var names = [];
-    for (var name in savedSettings) {
-      names.push(name);
-    }
-    return names;
-  }
-
   $scope.loadSettings = function(name) {
-    var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
-    var settings = savedSettings[name];
+    var settings = $scope.savedSettings[name];
 
     $scope.recipe = angular.copy(settings.recipe);
     $scope.sequence = angular.copy(settings.sequence);
@@ -132,9 +137,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 
   $scope.saveSettings = function() {
-    var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
     var settings = {}
 
+    settings.name = $scope.settings.name;
     settings.recipe = angular.copy($scope.recipe);
     settings.sequence = angular.copy($scope.sequence);
     settings.sequenceSettings = angular.copy($scope.sequenceSettings);
@@ -142,8 +147,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     settings.solver = angular.copy($scope.solver);
     settings.solverResult = angular.copy($scope.solverResult);
 
-    savedSettings[$scope.settings.name] = settings;
-    localStorage['savedSettings'] = JSON.stringify(savedSettings);
+    $scope.savedSettings[$scope.settings.name] = settings;
   }
 
   $scope.saveSettingsAs = function() {
@@ -155,9 +159,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.deleteSettings = function(name) {
     if (confirm('Are you sure you want to delete the "' + name + '" settings?')) {
-      var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
-      delete savedSettings[name];
-      localStorage['savedSettings'] = JSON.stringify(savedSettings);
+      delete $scope.savedSettings[name];
       if (name == $scope.settings.name) {
         $scope.settings.name = '';
       }
@@ -167,10 +169,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.renameSettings = function(name) {
     var newName = prompt('Enter new recipe name:');
     if (newName == null || newName.length == 0) return;
-    var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
-    savedSettings[newName] = savedSettings[name];
-    delete savedSettings[name];
-    localStorage['savedSettings'] = JSON.stringify(savedSettings);
+    $scope.savedSettings[newName] = savedSettings[name];
+    delete $scope.savedSettings[name];
     if (name == $scope.settings.name) {
       $scope.settings.name = newName;
     }
