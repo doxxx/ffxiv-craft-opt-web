@@ -119,7 +119,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
     var settings = savedSettings[name];
 
-    $scope.crafter = angular.copy(settings.crafter);
     $scope.recipe = angular.copy(settings.recipe);
     $scope.sequence = angular.copy(settings.sequence);
     $scope.sequenceSettings = angular.copy(settings.sequenceSettings);
@@ -132,13 +131,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.saveSettings = function() {
     var savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
-    var settings = savedSettings[$scope.settings.name];
-    if (typeof settings == 'undefined') {
-      settings = {}
-      savedSettings[$scope.settings.name] = settings;
-    }
+    var settings = {}
 
-    settings.crafter = angular.copy($scope.crafter);
     settings.recipe = angular.copy($scope.recipe);
     settings.sequence = angular.copy($scope.sequence);
     settings.sequenceSettings = angular.copy($scope.sequenceSettings);
@@ -146,6 +140,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     settings.solver = angular.copy($scope.solver);
     settings.solverResult = angular.copy($scope.solverResult);
 
+    savedSettings[$scope.settings.name] = settings;
     localStorage['savedSettings'] = JSON.stringify(savedSettings);
   }
 
