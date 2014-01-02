@@ -139,7 +139,7 @@
           </div>
           <div class="row-fluid">
             <form class="form-horizontal">
-              <legend><small>Recipe: <span class="light">{{settings.name}}</span></small></legend>
+              <legend><small>Recipe: <span class="light">{{settings.name}}<span ng-show="areSettingsDirty()">*</span></span></small></legend>
               <fieldset>
                 <div class="row-fluid">
                   <div class="btn-group">

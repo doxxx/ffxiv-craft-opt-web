@@ -176,6 +176,20 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
   }
 
+  $scope.areSettingsDirty = function() {
+    var settings = $scope.savedSettings[$scope.settings.name];
+    var clean = true;
+
+    clean = clean && angular.equals(settings.recipe, angular.copy($scope.recipe));
+    clean = clean && angular.equals(settings.sequence, angular.copy($scope.sequence));
+    clean = clean && angular.equals(settings.sequenceSettings, angular.copy($scope.sequenceSettings));
+    clean = clean && angular.equals(settings.simulation, angular.copy($scope.simulation));
+    clean = clean && angular.equals(settings.solver, angular.copy($scope.solver));
+    clean = clean && angular.equals(settings.solverResult, angular.copy($scope.solverResult));
+
+    return !clean;
+  }
+
   $scope.isActionSelected = function(action) {
     return $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action) >= 0;
   }
