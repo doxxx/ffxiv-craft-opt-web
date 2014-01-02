@@ -110,6 +110,7 @@
           <div class="row-fluid">
             <div class="settings-buttons">
               <div class="dropdown">
+                <button type="button" class="btn" ng-click="newSettings()">New</button>
                 <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
                 <ul class="dropdown-menu">
                   <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
@@ -139,7 +140,7 @@
           </div>
           <div class="row-fluid">
             <form class="form-horizontal">
-              <legend><small>Recipe: <span class="light">{{settings.name}}<span ng-show="areSettingsDirty()">*</span></span></small></legend>
+              <legend><small>Recipe: <span class="light">{{settingsNameForDisplay()}}<span ng-show="areSettingsDirty()">*</span></span></small></legend>
               <fieldset>
                 <div class="row-fluid">
                   <div class="btn-group">

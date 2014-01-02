@@ -120,6 +120,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   })
 
   // data model interaction functions
+  $scope.newSettings = function() {
+    $scope.settings.name = '';
+    var newRecipe = newRecipeStats($scope);
+    newRecipe.cls = $scope.recipe.cls;
+    $scope.recipe = newRecipe;
+  }
+
   $scope.loadSettings = function(name) {
     var settings = $scope.savedSettings[name];
 
@@ -174,6 +181,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 
   $scope.areSettingsDirty = function() {
+    if ($scope.settings.name == '') {
+      return false;
+    }
+
     var settings = $scope.savedSettings[$scope.settings.name];
     var clean = true;
 
@@ -185,6 +196,15 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     clean = clean && angular.equals(settings.solverResult, angular.copy($scope.solverResult));
 
     return !clean;
+  }
+
+  $scope.settingsNameForDisplay = function() {
+    if ($scope.settings.name == '') {
+      return '<unnamed>';
+    }
+    else {
+      return $scope.settings.name;
+    }
   }
 
   $scope.isActionSelected = function(action) {
@@ -463,14 +483,7 @@ function loadPageState($scope) {
     $scope.recipe = recipe;
   }
   else {
-    $scope.recipe = {
-      cls: $scope.crafter.cls,
-      level: 1,
-      difficulty: 9,
-      durability: 40,
-      startQuality: 0,
-      maxQuality: 312,
-    };
+    $scope.recipe = newRecipeStats($scope);
   }
 
   var sequence = localStorage['settings.sequence'];
@@ -568,4 +581,15 @@ Array.prototype.equals = function (array) {
         }
     }
     return true;
+}
+
+function newRecipeStats($scope) {
+  return {
+    cls: $scope.crafter.cls,
+    level: 1,
+    difficulty: 9,
+    durability: 40,
+    startQuality: 0,
+    maxQuality: 312,
+  }
 }
