@@ -108,77 +108,99 @@
             <my-section-header section="sections.synth" title="Synth Details"/>
           </accordion-heading>
           <div class="row-fluid">
-            <form class="form-horizontal">
-              <div class="settings-buttons">
-                <div class="dropdown">
-                  <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
-                  <ul class="dropdown-menu">
-                    <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
-                      <a ng-click="loadSettings(name)">{{name}}</a>
-                    </li>
-                  </ul>
-                </div>
-                <button type="button" class="btn" ng-click="saveSettings()" ng-disabled="settings.name == ''">Save</button>
-                <button type="button" class="btn" ng-click="saveSettingsAs()">Save As...</button>
-                <div class="dropdown">
-                  <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
-                  <ul class="dropdown-menu">
-                    <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
-                      <a ng-click="deleteSettings(name)">{{name}}</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="dropdown">
-                  <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
-                  <ul class="dropdown-menu">
-                    <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
-                      <a ng-click="renameSettings(name)">{{name}}</a>
-                    </li>
-                  </ul>
-                </div>
+            <div class="settings-buttons">
+              <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
+                    <a ng-click="loadSettings(name)">{{name}}</a>
+                  </li>
+                </ul>
               </div>
+              <button type="button" class="btn" ng-click="saveSettings()" ng-disabled="settings.name == ''">Save</button>
+              <button type="button" class="btn" ng-click="saveSettingsAs()">Save As...</button>
+              <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
+                    <a ng-click="deleteSettings(name)">{{name}}</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li ng-repeat="name in savedSettingsNames()" ng-click="console.log(name)">
+                    <a ng-click="renameSettings(name)">{{name}}</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <form class="form-horizontal">
               <legend><small>Recipe: <span class="light">{{settings.name}}</span></small></legend>
               <fieldset>
-                <div class="btn-group">
-                  <button class="btn btn-primary"
-                          ng-model="recipe.cls"
-                          btn-radio="class"
-                          ng-repeat="class in allClasses"
-                          tooltip="{{class}}"
-                          tooltip-placement="top"
-                          tooltip-append-to-body="true"
-                          tooltip-popup-delay="200">
-                    <img ng-src="img/classes/{{class}}.png"/>
-                  </button>
-                </div>
-                <div class="control-group">
-                  <label class="control-label">Level</label>
-                  <div class="controls">
-                    <input class="input-small" type="number" ng-model="recipe.level"/>
+                <div class="row-fluid">
+                  <div class="btn-group">
+                    <button class="btn btn-primary"
+                            ng-model="recipe.cls"
+                            btn-radio="class"
+                            ng-repeat="class in allClasses"
+                            tooltip="{{class}}"
+                            tooltip-placement="top"
+                            tooltip-append-to-body="true"
+                            tooltip-popup-delay="200">
+                      <img ng-src="img/classes/{{class}}.png"/>
+                    </button>
                   </div>
                 </div>
-                <div class="control-group">
-                  <label class="control-label">Difficulty</label>
-                  <div class="controls">
-                    <input class="input-small" type="number" ng-model="recipe.difficulty"/>
+                <div class="row-fluid">
+                  <div class="span6">
+                    <div class="control-group">
+                      <label class="control-label">Level</label>
+                      <div class="controls">
+                        <input class="input-small" type="number" ng-model="recipe.level"/>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">Difficulty</label>
+                      <div class="controls">
+                        <input class="input-small" type="number" ng-model="recipe.difficulty"/>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">Durability</label>
+                      <div class="controls">
+                        <input class="input-small" type="number" ng-model="recipe.durability"/>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">Start Quality</label>
+                      <div class="controls">
+                        <input class="input-small" type="number" ng-model="recipe.startQuality"/>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">Max Quality</label>
+                      <div class="controls">
+                        <input class="input-small" type="number" ng-model="recipe.maxQuality"/>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="control-group">
-                  <label class="control-label">Durability</label>
-                  <div class="controls">
-                    <input class="input-small" type="number" ng-model="recipe.durability"/>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <label class="control-label">Start Quality</label>
-                  <div class="controls">
-                    <input class="input-small" type="number" ng-model="recipe.startQuality"/>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <label class="control-label">Max Quality</label>
-                  <div class="controls">
-                    <input class="input-small" type="number" ng-model="recipe.maxQuality"/>
+                  <div class="span1"></div>
+                  <div class="span3">
+                    <div collapse="sections.crafter.open">
+                      <div class="well">
+                        <h5>{{recipe.cls}} Stats</h5>
+                        <ul>
+                          <li>Level: {{crafter.stats[recipe.cls].level}}</li>
+                          <li>Craftsmanship: {{crafter.stats[recipe.cls].craftsmanship}}</li>
+                          <li>Control: {{crafter.stats[recipe.cls].control}}</li>
+                          <li>CP: {{crafter.stats[recipe.cls].cp}}</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </fieldset>
