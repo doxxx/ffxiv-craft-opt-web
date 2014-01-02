@@ -31,7 +31,7 @@ services.value('_allActions', [
   { shortName: "standardSynthesis", name: "Standard Synthesis", cls: "All", level: 31 },
   { shortName: "flawlessSynthesis", name: "Flawless Synthesis", cls: "Goldsmith", level: 37 },
   { shortName: "carefulSynthesis", name: "Careful Synthesis", cls: "Weaver", level: 15 },
-  { shortName: "carefulSynthesis2", name: "Careful Synthesis 2", cls: "Culinarian", level: 15 },
+  { shortName: "carefulSynthesis2", name: "Careful Synthesis 2", cls: "Weaver", level: 50 },
   { shortName: "pieceByPiece", name: "Piece by Piece", cls: "Armorer", level: 50 },
   { shortName: "rapidSynthesis", name: "Rapid Synthesis", cls: "Armorer", level: 15 },
   { shortName: "brandOfEarth", name: "Brand of Earth", cls: "Leatherworker", level: 37 },
