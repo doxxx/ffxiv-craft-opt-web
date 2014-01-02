@@ -112,7 +112,7 @@
               <div class="dropdown">
                 <button type="button" class="btn" ng-click="newSettings()">New</button>
                 <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" isolate-scrolling>
                   <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
                     <a ng-click="loadSettings(s.name)">{{s.name}}</a>
                   </li>
@@ -122,7 +122,7 @@
               <button type="button" class="btn" ng-click="saveSettingsAs()">Save As...</button>
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" isolate-scrolling>
                   <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
                     <a ng-click="deleteSettings(s.name)">{{s.name}}</a>
                   </li>
@@ -130,7 +130,7 @@
               </div>
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" isolate-scrolling>
                   <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
                     <a ng-click="renameSettings(s.name)">{{s.name}}</a>
                   </li>

@@ -41,3 +41,22 @@ module.directive('selectOnClick', function () {
         });
     };
 });
+
+module.directive('isolateScrolling', function () {
+  return {
+    restrict: 'A',
+    link: function (scope, element, attr) {
+      element.bind('mousewheel', function (e) {
+        if ((e.deltaY > 0 && this.clientHeight + this.scrollTop == this.scrollHeight) ||
+            (e.deltaY < 0 && this.scrollTop == 0))
+        {
+          e.stopPropagation();
+          e.preventDefault();
+          return false;
+        }
+
+        return true;
+      });
+    }
+  };
+});
