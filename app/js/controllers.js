@@ -18,20 +18,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   // non-persistent page states
   $scope.navBarCollapsed = true;
 
-  $scope.sections = {
-    crafter: {
-      open: true,
-    },
-    synth: {
-      open: true,
-    },
-    simulator: {
-      open: true,
-      options: { open: false, }
-    },
-    macro: { open: false, },
-  };
-
   $scope.simulatorRunning = false;
 
   $scope.macro = {
@@ -59,6 +45,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 
   // watches for automatic updates and saving settings
+  $scope.$watchCollection('sections', function(newValue) {
+    savePageState($scope);
+  })
   $scope.$watchCollection('savedSettings', function(newValue) {
     localStorage['savedSettings'] = JSON.stringify(newValue);
   });
@@ -529,6 +518,7 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
 }
 
 function savePageState($scope) {
+  localStorage['sections'] = JSON.stringify($scope.sections);
   localStorage['settingsName'] = $scope.settings.name;
   localStorage['settings.crafter'] = JSON.stringify($scope.crafter);
   localStorage['settings.bonusStats'] = JSON.stringify($scope.bonusStats);
@@ -544,6 +534,20 @@ function savePageState($scope) {
 }
 
 function loadPageState($scope) {
+  var sections = localStorage['sections'];
+  if (sections) {
+    $scope.sections = JSON.parse(sections);
+  }
+  else {
+    $scope.sections = {
+      crafter: true,
+      synth: true,
+      simulator: true,
+      simulatorOptions: false,
+      macro: false,
+    };
+  }
+
   var settingsName = localStorage['settingsName'];
   if (settingsName) {
     $scope.settings = { name: settingsName };

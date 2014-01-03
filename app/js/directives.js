@@ -13,7 +13,7 @@ module.directive('mySectionHeader', function() {
   return {
     restrict: 'E',
     scope: {
-      section: '=',
+      isOpen: '=',
       title: '@',
     },
     templateUrl: 'partials/section-header.html'
