@@ -207,8 +207,35 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
   }
 
+  $scope.actionTableClasses = function(action, cls) {
+    return {
+      'selected-action': $scope.isActionSelected(action),
+      'action-cross-class': $scope.isActionCrossClass(action, cls)
+      }
+  }
+
+  $scope.sequenceActionClasses = function(action, cls) {
+    return {
+      'action-cross-class': $scope.isActionCrossClass(action, cls),
+    }
+  }
+
   $scope.isActionSelected = function(action) {
     return $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action) >= 0;
+  }
+
+  $scope.isActionCrossClass = function(action, cls) {
+    return $scope.allActions[action].cls != 'All' &&
+           $scope.allActions[action].cls != cls;
+  }
+
+  $scope.actionTooltip = function(action, cls) {
+    var info = $scope.allActions[action];
+    var tooltip = info.name;
+    if (info.cls != 'All' && info.cls != cls) {
+      tooltip += ' (' + info.cls + ')';
+    }
+    return tooltip;
   }
 
   $scope.toggleAction = function(action) {
@@ -229,6 +256,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       resolve: {
         origSequence: function() { return $scope.sequence; },
         availableActions: function() { return $scope.crafter.stats[$scope.crafter.cls].actions; },
+        recipe: function() { return $scope.recipe; },
       },
     });
     modalInstance.result.then(
@@ -343,7 +371,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 });
 
-var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, origSequence, availableActions) {
+var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, origSequence, availableActions, recipe) {
   $scope.actionGroups = _actionGroups;
   $scope.allActions = {};
   for (var i = 0; i < _allActions.length; i++) {
@@ -352,9 +380,28 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
   }
   $scope.sequence = angular.copy(origSequence);
   $scope.availableActions = availableActions;
+  $scope.recipe = recipe;
 
   $scope.isActionVisible = function(action) {
     return $scope.availableActions.indexOf(action) >= 0;
+  }
+
+  $scope.sequenceActionClasses = function(action) {
+    var crossClass = $scope.allActions[action].cls != 'All' &&
+                     $scope.allActions[action].cls != $scope.recipe.cls;
+
+    return {
+      'action-cross-class': crossClass,
+    }
+  }
+
+  $scope.actionTooltip = function(action, cls) {
+    var info = $scope.allActions[action];
+    var tooltip = info.name;
+    if (info.cls != 'All') {
+      tooltip += ' (' + info.cls + ')';
+    }
+    return tooltip;
   }
 
   $scope.addAction = function(action) {

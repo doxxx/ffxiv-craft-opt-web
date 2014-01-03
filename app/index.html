@@ -91,10 +91,15 @@
                     <div class="control-group" ng-repeat="actionGroup in actionGroups">
                       <label class="control-label">{{actionGroup.name}}</label>
                       <div class="controls">
-                        <my-action-list actions="actionGroup.actions"
-                                        action-class="{'selected-action': isActionSelected(action)}"
-                                        action-click="toggleAction(action)"
-                                        action-tooltip="allActions[action].name"/>
+                        <img ng-repeat="action in actionGroup.actions track by $index"
+                             class="action selectable-action img-rounded"
+                             ng-class="actionTableClasses(action, crafter.cls)"
+                             ng-click="toggleAction(action)"
+                             ng-src="img/actions/{{action}}.png"
+                             tooltip="{{actionTooltip(action)}}"
+                             tooltip-placement="top"
+                             tooltip-popup-delay="200"
+                             tooltip-append-to-body="true"/>
                       </div>
                     </div>
                   </fieldset>
@@ -216,9 +221,15 @@
                 <h4>Initial Guess
                   <span ng-show="simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
                 </h4>
-                <div class="control-group">
-                  <my-action-list actions="sequence"
-                                  action-tooltip="allActions[action].name"/>
+                <div class="control-group sequence">
+                  <img ng-repeat="action in sequence track by $index"
+                       class="action img-rounded"
+                       ng-class="sequenceActionClasses(action, recipe.cls)"
+                       ng-src="img/actions/{{action}}.png"
+                       tooltip="{{actionTooltip(action)}}"
+                       tooltip-placement="top"
+                       tooltip-popup-delay="200"
+                       tooltip-append-to-body="true"/>
                 </div>
                 <div class="control-group">
                   <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
@@ -233,12 +244,17 @@
                     <p class="text-info">Running...</p>
                   </div>
                   <div ng-show="!simulatorRunning"
-                       ng-class="{'empty-action-list': solverResult.sequence.length == 0}"
-                       class="control-group">
-                    <my-action-list ng-disabled="solverResult.sequence.equals(sequence)"
-                                    ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}"
-                                    actions="solverResult.sequence"
-                                    action-tooltip="allActions[action].name"/>
+                       ng-class="{'empty-action-list': solverResult.sequence.length == 0}">
+                    <div class="sequence" ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
+                      <img ng-repeat="action in solverResult.sequence track by $index"
+                           class="action img-rounded"
+                           ng-class="sequenceActionClasses(action, recipe.cls)"
+                           ng-src="img/actions/{{action}}.png"
+                           tooltip="{{actionTooltip(action)}}"
+                           tooltip-placement="top"
+                           tooltip-popup-delay="200"
+                           tooltip-append-to-body="true"/>
+                    </div>
                   </div>
                   <div class="control-group">
                     <button class="btn btn-warning"

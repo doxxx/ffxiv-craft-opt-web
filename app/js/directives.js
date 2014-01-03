@@ -20,19 +20,6 @@ module.directive('mySectionHeader', function() {
   }
 });
 
-module.directive('myActionList', function() {
-  return {
-    restrict: 'E',
-    scope: {
-      actions: '=',
-      actionClass: '&',
-      actionClick: '&',
-      actionTooltip: '&',
-    },
-    templateUrl: 'partials/action-list.html'
-  }
-});
-
 module.directive('selectOnClick', function () {
     // Linker function
     return function (scope, element, attrs) {

@@ -24,11 +24,22 @@ body {
   padding: 0px;
   margin-right: 1px;
   margin-bottom: 1px;
+}
+
+.selectable-action {
   cursor: pointer;
 }
 
-.selected-action {
+.action-table .selected-action {
   border: solid #00aaff;
+}
+
+.action-table .selected-action.action-cross-class, .sequence-editor .action-cross-class {
+  border: dotted #00aaff;
+}
+
+.sequence .action-cross-class {
+  border: dotted #00aaff;
 }
 
 .empty-action-list {
