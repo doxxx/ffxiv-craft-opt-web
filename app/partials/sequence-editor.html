@@ -22,13 +22,15 @@
   </form>
   <form>
     <legend>Sequence</legend>
-    <img ng-repeat="action in sequence track by $index"
-         class="action img-rounded"
-         ng-src="img/actions/{{action}}.png"
-         ng-click="removeAction($index)"
-         tooltip="{{allActions[action].name}}"
-         tooltip-placement="top"
-         tooltip-popup-delay="200"/>
+    <div class="sequence" id="sequenceEditorSequence" isolate-scrolling>
+      <img ng-repeat="action in sequence track by $index"
+           class="action img-rounded"
+           ng-src="img/actions/{{action}}.png"
+           ng-click="removeAction($index)"
+           tooltip="{{allActions[action].name}}"
+           tooltip-placement="top"
+           tooltip-popup-delay="200"/>
+    </div>
   </form>
 </div>
 <div class="modal-footer">

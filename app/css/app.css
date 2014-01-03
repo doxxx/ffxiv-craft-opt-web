@@ -172,6 +172,15 @@ legend + .control-group {
 
 /* Sequence Editor */
 
+.sequence-editor {
+  width: 565px;
+}
+
 .sequence-editor .modal-body {
   max-height: 600px;
+}
+
+.sequence-editor .modal-body .sequence {
+  max-height: 188px;
+  overflow-y: auto;
 }
