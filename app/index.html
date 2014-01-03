@@ -255,6 +255,18 @@
                            tooltip-popup-delay="200"
                            tooltip-append-to-body="true"/>
                     </div>
+                    <div ng-show="uniqueCrossClassActions(solverResult.sequence, recipe.cls).length > 0">
+                      <h5>Required Cross Class Actions</h5>
+                      <div class="sequence">
+                        <img ng-repeat="action in uniqueCrossClassActions(solverResult.sequence, recipe.cls) track by $index"
+                             class="action img-rounded"
+                             ng-src="img/actions/{{action}}.png"
+                             tooltip="{{actionTooltip(action)}}"
+                             tooltip-placement="top"
+                             tooltip-popup-delay="200"
+                             tooltip-append-to-body="true"/>
+                      </div>
+                    </div>
                   </div>
                   <div class="control-group">
                     <button class="btn btn-warning"

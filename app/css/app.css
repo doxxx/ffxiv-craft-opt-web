@@ -38,6 +38,10 @@ body {
   border: dotted #00aaff;
 }
 
+.sequence {
+  margin-bottom: 10px;
+}
+
 .sequence .action-cross-class {
   border: dotted #00aaff;
 }

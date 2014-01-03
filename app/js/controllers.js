@@ -238,6 +238,16 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     return tooltip;
   }
 
+  $scope.uniqueCrossClassActions = function(sequence, cls) {
+    if (typeof sequence == 'undefined') return [];
+    var crossClassActions = sequence.filter(function(action) {
+      var actionClass = $scope.allActions[action].cls;
+      return actionClass != 'All' && actionClass != cls;
+    });
+    var unique = crossClassActions.unique();
+    return unique;
+  }
+
   $scope.toggleAction = function(action) {
     var i = $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action);
     if (i >= 0) {
@@ -628,6 +638,12 @@ Array.prototype.equals = function (array) {
         }
     }
     return true;
+}
+
+Array.prototype.unique = function() {
+  return this.filter(function(value, index, self) {
+    return self.indexOf(value) === index;
+  })
 }
 
 function newRecipeStats($scope) {
