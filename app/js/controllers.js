@@ -79,6 +79,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     savePageState($scope)
   })
 
+  $scope.$watchCollection('bonusStats', function() {
+    savePageState($scope)
+  })
+
   for (var cls in $scope.crafter.stats) {
     $scope.$watchCollection('crafter.stats.' + cls, function() {
       savePageState($scope)
@@ -125,11 +129,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     var newRecipe = newRecipeStats($scope);
     newRecipe.cls = $scope.recipe.cls;
     $scope.recipe = newRecipe;
+    $scope.bonusStats = newBonusStats();
   }
 
   $scope.loadSettings = function(name) {
     var settings = $scope.savedSettings[name];
 
+    $scope.bonusStats = angular.copy(settings.bonusStats);
     $scope.recipe = angular.copy(settings.recipe);
     $scope.sequence = angular.copy(settings.sequence);
     $scope.sequenceSettings = angular.copy(settings.sequenceSettings);
@@ -144,6 +150,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     var settings = {}
 
     settings.name = $scope.settings.name;
+    settings.bonusStats = angular.copy($scope.bonusStats);
     settings.recipe = angular.copy($scope.recipe);
     settings.sequence = angular.copy($scope.sequence);
     settings.sequenceSettings = angular.copy($scope.sequenceSettings);
@@ -188,6 +195,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     var settings = $scope.savedSettings[$scope.settings.name];
     var clean = true;
 
+    clean = clean && angular.equals(settings.bonusStats, angular.copy($scope.bonusStats));
     clean = clean && angular.equals(settings.recipe, angular.copy($scope.recipe));
     clean = clean && angular.equals(settings.sequence, angular.copy($scope.sequence));
     clean = clean && angular.equals(settings.sequenceSettings, angular.copy($scope.sequenceSettings));
@@ -258,6 +266,22 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
   };
 
+  $scope.showStatBonusesModal = function() {
+    var modalInstance = $modal.open({
+      templateUrl: 'partials/stat-bonus-editor.html',
+      controller: 'StatBonusEditorCtrl',
+      windowClass: 'stat-bonus-editor',
+      resolve: {
+        crafter: function() { return $scope.crafter; },
+        bonusStats: function() { return $scope.bonusStats; },
+      },
+    });
+    modalInstance.result.then(function(result) {
+      $scope.bonusStats = angular.copy(result);
+    }
+    )
+  }
+
   $scope.editSequence = function() {
     var modalInstance = $modal.open({
       templateUrl: 'partials/sequence-editor.html',
@@ -306,7 +330,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
     $scope.simulatorRunning = true;
     var settings = {
-      crafter: $scope.crafter.stats[$scope.recipe.cls],
+      crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
@@ -362,7 +386,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorRunning = true;
     $scope.solverResult.sequence = [];
     var settings = {
-      crafter: $scope.crafter.stats[$scope.recipe.cls],
+      crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
@@ -435,6 +459,28 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
   }
 });
 
+var StatBonusEditorCtrl = controllers.controller('StatBonusEditorCtrl', function($scope, $modalInstance, crafter, bonusStats) {
+  $scope.crafter = crafter;
+  if (bonusStats) {
+    $scope.bonusStats = angular.copy(bonusStats);
+  }
+  else {
+    $scope.bonusStats = newBonusStats();
+  }
+
+  $scope.clear = function() {
+    $scope.bonusStats = newBonusStats();
+  }
+
+  $scope.save = function() {
+    $modalInstance.close($scope.bonusStats);
+  }
+
+  $scope.cancel = function() {
+    $modalInstance.dismiss('cancel');
+  }
+});
+
 function createMacros(allActions, actions, waitTime, insertTricks) {
   if (typeof actions == 'undefined') {
     return '';
@@ -485,6 +531,7 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
 function savePageState($scope) {
   localStorage['settingsName'] = $scope.settings.name;
   localStorage['settings.crafter'] = JSON.stringify($scope.crafter);
+  localStorage['settings.bonusStats'] = JSON.stringify($scope.bonusStats);
   localStorage['settings.recipe'] = JSON.stringify($scope.recipe);
   localStorage['settings.sequence'] = JSON.stringify($scope.sequence);
   localStorage['settings.sequenceSettings'] = JSON.stringify($scope.sequenceSettings);
@@ -525,6 +572,14 @@ function loadPageState($scope) {
         actions: ['basicSynth'],
       }
     }
+  }
+
+  var bonusStats = localStorage['settings.bonusStats'];
+  if (bonusStats) {
+    $scope.bonusStats = JSON.parse(bonusStats);
+  }
+  else {
+    $scope.bonusStats = newBonusStats();
   }
 
   var recipe = localStorage['settings.recipe'];
@@ -655,4 +710,20 @@ function newRecipeStats($scope) {
     startQuality: 0,
     maxQuality: 312,
   }
+}
+
+function newBonusStats() {
+  return {
+    craftsmanship: 0,
+    control: 0,
+    cp: 0,
+  }
+}
+
+function addBonusStats(crafter, bonusStats) {
+  var newStats = angular.copy(crafter);
+  newStats.craftsmanship += bonusStats.craftsmanship;
+  newStats.control += bonusStats.control;
+  newStats.cp += bonusStats.cp;
+  return newStats;
 }
