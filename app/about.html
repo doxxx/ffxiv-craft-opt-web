@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en" ng-app="ffxivCraftOptWeb">
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>FFXIV Crafting Optimizer</title>
@@ -9,35 +10,60 @@
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
 </head>
+
 <body>
 
-<h1>What is this?</h1>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <button type="button" class="btn btn-navbar" ng-click="navBarCollapsed = !navBarCollapsed">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="#">lokyst.net</a>
+      <div class="nav-collapse" collapse="navBarCollapsed">
+        <ul class="nav">
+          <li class="active"><a href="index.html">FFXIV Crafting Optimizer</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-<p>Given the crafter's details, a list of available actions and the details of the recipe, the FFXIV Crafting Optimizer uses a genetic algorithm to determine a sequence of actions that will maximize the expected value of the final quality of the synthesis. Because the solver is not deterministic and crafting itself has random elements, the solution provided is not guaranteed, especially if Tricks of the Trade is used. Use at your own risk!</p>
+<div class="container-fluid">
+  <h3>What is this?</h3>
 
-<h1>I understand the risks! How do I use it?</h1>
+  <p>Given the crafter's details, a list of available actions and the details of the recipe, the FFXIV Crafting Optimizer uses a genetic algorithm to determine a sequence of actions that will maximize the expected value of the final quality of the synthesis. Because the solver is not deterministic and crafting itself has random elements, the solution provided is not guaranteed, especially if Tricks of the Trade is used. Use at your own risk!</p>
 
-<ol>
-  <li>Enter your crafting stats and the list of available actions, including cross-class actions, in the Crafter Details section. Cross-class action icons are indicated with dotted borders.</li>
-  <li>Enter the recipe information in the Recipe Details section along with any bonuses to stats provided by food.</li>
-  <li>In the Simulator section, enter an initial action sequence by clicking the Edit Sequence button. Only actions that you have selected in the Crafter Details Available Actions will be displayed.</li>
-  <li>Click Simulate to see what the effect of the sequence will be on average. Two approaches are used to simulate the final result: an expected value model which weights the resulting quality or progress increase with the probability of success, and a Montecarlo simulation which runs through the sequence multiple times and tracks the success and failures.</li>
-  <li>Click Solve to run the genetic algorithm applied to the expected value model to provide a solution that will attempt to maximize the final quality while ensuring that the progress requirements are met. Depending on the parameters that have been provided in the Options section, this can take a significant amount of time. The initial guess is provided to the solver as a starting point.</li>
-  <li>If the solution returned is preferred, then click Use Solver Result to set the solution as the initial guess.</li>
-  <li>Open up the Macro section to display the macro text for the Initial Guess. This feature does not play well with Tricks of the Trade.</li>
-</ol>
+  <h3>I understand the risks! How do I use it?</h3>
 
-<h1>Where did you get your information?</h1>
+  <ol>
+    <li>Enter your crafting stats and the list of available actions, including cross-class actions, in the Crafter Details section. Cross-class action icons are indicated with dotted borders.</li>
+    <li>Enter the recipe information in the Recipe Details section along with any bonuses to stats provided by food.</li>
+    <li>In the Simulator section, enter an initial action sequence by clicking the Edit Sequence button. Only actions that you have selected in the Crafter Details Available Actions will be displayed.</li>
+    <li>Click Simulate to see what the effect of the sequence will be on average. Two approaches are used to simulate the final result: an expected value model which weights the resulting quality or progress increase with the probability of success, and a Montecarlo simulation which runs through the sequence multiple times and tracks the success and failures.</li>
+    <li>Click Solve to run the genetic algorithm applied to the expected value model to provide a solution that will attempt to maximize the final quality while ensuring that the progress requirements are met. Depending on the parameters that have been provided in the Options section, this can take a significant amount of time. The initial guess is provided to the solver as a starting point.</li>
+    <li>If the solution returned is preferred, then click Use Solver Result to set the solution as the initial guess.</li>
+    <li>Open up the Macro section to display the macro text for the Initial Guess. This feature does not play well with Tricks of the Trade.</li>
+  </ol>
 
-<ul>
-  <li><a href="http://na.finalfantasyxiv.com/">Final Fantasy XIV</a></li>
-  <li><a href="https://code.google.com/p/deap/">Distributed Evolutionary Algorithms in Python</a></li>
-  <li><a href="http://www.bluegartr.com/threads/117684-The-crafting-thread.">Bluegartr - The Crafting Thread</a></li>
-</ul>
+  <h3>Where did you get your information?</h3>
 
-<h1>Anything else I should know?</h1>
+  <ul>
+    <li><a href="http://na.finalfantasyxiv.com/">Final Fantasy XIV</a></li>
+    <li><a href="https://code.google.com/p/deap/">Distributed Evolutionary Algorithms in Python</a></li>
+    <li><a href="http://www.bluegartr.com/threads/117684-The-crafting-thread.">Bluegartr - The Crafting Thread</a></li>
+  </ul>
 
-<p>Any resemblance to <a href="http://craftingasaservice.com/">Crafting as a Service</a> is purely co-incidental. It is a nifty site though, and I highly recommend checking it out.</p>
+  <h3>Anything else I should know?</h3>
+
+  <p>Any resemblance to
+    <a href="http://craftingasaservice.com/">Crafting as a Service</a> is purely co-incidental. It is a nifty site though, and I highly recommend checking it out.
+  </p>
+</div>
 
 </body>
+
 </html>

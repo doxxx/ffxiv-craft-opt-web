@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en" ng-app="ffxivCraftOptWeb">
+
 <head>
   <meta charset="utf-8">
   <title>FFXIV Crafting Optimizer</title>
@@ -9,371 +10,374 @@
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
 </head>
+
 <body ng-controller="MainCtrl" ng-cloak>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container-fluid">
-        <button type="button" class="btn btn-navbar" ng-click="navBarCollapsed = !navBarCollapsed">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="brand" href="#">lokyst.net</a>
-        <div class="nav-collapse" collapse="navBarCollapsed">
-          <ul class="nav">
-            <li class="active"><a href="#">FFXIV Crafting Optimizer</a></li>
-          </ul>
-        </div>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <button type="button" class="btn btn-navbar" ng-click="navBarCollapsed = !navBarCollapsed">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="#">lokyst.net</a>
+      <div class="nav-collapse" collapse="navBarCollapsed">
+        <ul class="nav">
+          <li class="active"><a href="index.html">FFXIV Crafting Optimizer</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+        </ul>
       </div>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="span12">
-      <noscript>
-        <h1>This site requires Javascript to function.</h1>
-      </noscript>
-      <accordion close-others="false">
-        <accordion-group is-open="sections.crafter.open">
-          <accordion-heading>
-            <my-section-header section="sections.crafter" title="Crafter Details"/>
-          </accordion-heading>
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <noscript>
+      <h1>This site requires Javascript to function.</h1>
+    </noscript>
+    <accordion close-others="false">
+      <accordion-group is-open="sections.crafter.open">
+        <accordion-heading>
+          <my-section-header section="sections.crafter" title="Crafter Details"/>
+        </accordion-heading>
+        <div class="row-fluid">
           <div class="row-fluid">
-            <div class="row-fluid">
-              <div class="btn-group">
-                <button class="btn btn-primary"
-                        ng-model="crafter.cls"
-                        btn-radio="class"
-                        ng-repeat="class in allClasses"
-                        tooltip="{{class}}"
-                        tooltip-placement="top"
-                        tooltip-append-to-body="true"
-                        tooltip-popup-delay="200">
-                  <img ng-src="img/classes/{{class}}.png"/>
-                </button>
-              </div>
-            </div>
-            <div class="row-fluid">
-              <div class="span6">
-                <form class="form-horizontal">
-                  <legend><small>{{crafter.cls}} Stats</small></legend>
-                  <fieldset>
-                    <div class="control-group">
-                      <label class="control-label">Level</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].level"/>
-                      </div>
-                    </div>
-                    <div class="control-group">
-                      <label class="control-label">Craftsmanship</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].craftsmanship"/>
-                      </div>
-                    </div>
-                    <div class="control-group">
-                      <label class="control-label">Control</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].control"/>
-                      </div>
-                    </div>
-                    <div class="control-group">
-                      <label class="control-label">CP</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].cp"/>
-                      </div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-              <div class="span6">
-                <form class="action-table">
-                  <legend><small>Available Actions</small></legend>
-                  <fieldset>
-                    <div class="control-group" ng-repeat="actionGroup in actionGroups">
-                      <label class="control-label">{{actionGroup.name}}</label>
-                      <div class="controls">
-                        <img ng-repeat="action in actionGroup.actions track by $index"
-                             class="action selectable-action img-rounded"
-                             ng-class="actionTableClasses(action, crafter.cls)"
-                             ng-click="toggleAction(action)"
-                             ng-src="img/actions/{{action}}.png"
-                             tooltip="{{actionTooltip(action)}}"
-                             tooltip-placement="top"
-                             tooltip-popup-delay="200"
-                             tooltip-append-to-body="true"/>
-                      </div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-            </div>
-          </div>
-        </accordion-group>
-        <accordion-group is-open="sections.synth.open">
-          <accordion-heading>
-            <my-section-header section="sections.synth" title="Synth Details"/>
-          </accordion-heading>
-          <div class="row-fluid">
-            <div class="settings-buttons">
-              <div class="dropdown">
-                <button type="button" class="btn" ng-click="newSettings()">New</button>
-                <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
-                <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
-                    <a ng-click="loadSettings(s.name)">{{s.name}}</a>
-                  </li>
-                </ul>
-              </div>
-              <button type="button" class="btn" ng-click="saveSettings()" ng-disabled="settings.name == ''">Save</button>
-              <button type="button" class="btn" ng-click="saveSettingsAs()">Save As...</button>
-              <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
-                <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
-                    <a ng-click="deleteSettings(s.name)">{{s.name}}</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
-                <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
-                    <a ng-click="renameSettings(s.name)">{{s.name}}</a>
-                  </li>
-                </ul>
-              </div>
+            <div class="btn-group">
+              <button class="btn btn-primary"
+                      ng-model="crafter.cls"
+                      btn-radio="class"
+                      ng-repeat="class in allClasses"
+                      tooltip="{{class}}"
+                      tooltip-placement="top"
+                      tooltip-append-to-body="true"
+                      tooltip-popup-delay="200">
+                <img ng-src="img/classes/{{class}}.png"/>
+              </button>
             </div>
           </div>
           <div class="row-fluid">
-            <form class="form-horizontal">
-              <legend><small>Recipe: <span class="light">{{settingsNameForDisplay()}}<span ng-show="areSettingsDirty()">*</span></span></small></legend>
-              <fieldset>
-                <div class="row-fluid">
-                  <div class="btn-group">
-                    <button class="btn btn-primary"
-                            ng-model="recipe.cls"
-                            btn-radio="class"
-                            ng-repeat="class in allClasses"
-                            tooltip="{{class}}"
-                            tooltip-placement="top"
-                            tooltip-append-to-body="true"
-                            tooltip-popup-delay="200">
-                      <img ng-src="img/classes/{{class}}.png"/>
-                    </button>
-                  </div>
-                </div>
-                <div class="row-fluid">
-                  <div class="span6">
-                    <div class="control-group">
-                      <label class="control-label">Level</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.level"/>
-                      </div>
-                    </div>
-                    <div class="control-group">
-                      <label class="control-label">Difficulty</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.difficulty"/>
-                      </div>
-                    </div>
-                    <div class="control-group">
-                      <label class="control-label">Durability</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.durability"/>
-                      </div>
-                    </div>
-                    <div class="control-group">
-                      <label class="control-label">Start Quality</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.startQuality"/>
-                      </div>
-                    </div>
-                    <div class="control-group">
-                      <label class="control-label">Max Quality</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" ng-model="recipe.maxQuality"/>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="span1"></div>
-                  <div class="span3">
-                    <div class="well">
-                      <h5>{{recipe.cls}} Stats</h5>
-                      <ul>
-                        <li>Level: {{crafter.stats[recipe.cls].level}}</li>
-                        <li>Craftsmanship: {{crafter.stats[recipe.cls].craftsmanship}} + {{bonusStats.craftsmanship}}</li>
-                        <li>Control: {{crafter.stats[recipe.cls].control}} + {{bonusStats.control}}</li>
-                        <li>CP: {{crafter.stats[recipe.cls].cp}} + {{bonusStats.cp}}</li>
-                      </ul>
-                      <p><button class="btn" ng-click="showStatBonusesModal()">Stat Bonuses...</button></p>
-                    </div>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
-          </div>
-        </accordion-group>
-        <accordion-group is-open="sections.simulator.open">
-          <accordion-heading>
-            <my-section-header section="sections.simulator" title="Simulator"/>
-          </accordion-heading>
-          <div class="well">
-            <div class="row-fluid">
+            <div class="span6">
               <form class="form-horizontal">
-                <h4>Initial Guess
-                  <span ng-show="simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
-                </h4>
-                <div class="control-group sequence">
-                  <img ng-repeat="action in sequence track by $index"
-                       class="action img-rounded"
-                       ng-class="sequenceActionClasses(action, recipe.cls)"
-                       ng-src="img/actions/{{action}}.png"
-                       tooltip="{{actionTooltip(action)}}"
-                       tooltip-placement="top"
-                       tooltip-popup-delay="200"
-                       tooltip-append-to-body="true"/>
-                </div>
-                <div class="control-group">
-                  <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
-                  <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning">Simulate</button>
-                  <button class="btn btn-primary" ng-click="runSolver(solverSuccess, solverError)" ng-disabled="simulatorRunning">Solve</button>
-                </div>
-                <div>
-                  <h4>Solver Result
-                    <span ng-show="solverResult.finalState != null">&nbsp;(Q:{{solverResult.finalState.quality | number:0}}<span ng-show="!solverResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.finalState.durability | number:0}}</span><span ng-show="!solverResult.finalState.cpOk" class="text-error">&nbsp;CP:{{solverResult.finalState.cp | number:0}}</span><span ng-show="!solverResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{solverResult.finalState.progress | number:0}}</span>)</span>
-                  </h4>
-                  <div ng-show="simulatorRunning" class="empty-action-list">
-                    <p class="text-info">Running...</p>
+                <legend><small>{{crafter.cls}} Stats</small></legend>
+                <fieldset>
+                  <div class="control-group">
+                    <label class="control-label">Level</label>
+                    <div class="controls">
+                      <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].level"/>
+                    </div>
                   </div>
-                  <div ng-show="!simulatorRunning"
-                       ng-class="{'empty-action-list': solverResult.sequence.length == 0}">
-                    <div class="sequence" ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
-                      <img ng-repeat="action in solverResult.sequence track by $index"
-                           class="action img-rounded"
-                           ng-class="sequenceActionClasses(action, recipe.cls)"
+                  <div class="control-group">
+                    <label class="control-label">Craftsmanship</label>
+                    <div class="controls">
+                      <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].craftsmanship"/>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label">Control</label>
+                    <div class="controls">
+                      <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].control"/>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label">CP</label>
+                    <div class="controls">
+                      <input class="input-small" type="number" ng-model="crafter.stats[crafter.cls].cp"/>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+            <div class="span6">
+              <form class="action-table">
+                <legend><small>Available Actions</small></legend>
+                <fieldset>
+                  <div class="control-group" ng-repeat="actionGroup in actionGroups">
+                    <label class="control-label">{{actionGroup.name}}</label>
+                    <div class="controls">
+                      <img ng-repeat="action in actionGroup.actions track by $index"
+                           class="action selectable-action img-rounded"
+                           ng-class="actionTableClasses(action, crafter.cls)"
+                           ng-click="toggleAction(action)"
                            ng-src="img/actions/{{action}}.png"
                            tooltip="{{actionTooltip(action)}}"
                            tooltip-placement="top"
                            tooltip-popup-delay="200"
                            tooltip-append-to-body="true"/>
                     </div>
-                    <div ng-show="uniqueCrossClassActions(solverResult.sequence, recipe.cls).length > 0">
-                      <h5>Required Cross Class Actions</h5>
-                      <div class="sequence">
-                        <img ng-repeat="action in uniqueCrossClassActions(solverResult.sequence, recipe.cls) track by $index"
-                             class="action img-rounded"
-                             ng-src="img/actions/{{action}}.png"
-                             tooltip="{{actionTooltip(action)}}"
-                             tooltip-placement="top"
-                             tooltip-popup-delay="200"
-                             tooltip-append-to-body="true"/>
-                      </div>
-                    </div>
                   </div>
-                  <div class="control-group">
-                    <button class="btn btn-warning"
-                            ng-disabled="solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
-                            ng-click="useSolverResult()">Use Solver Result
-                    </button>
-                  </div>
-                </div>
-                <accordion>
-                  <accordion-group is-open="sections.simulator.options.open">
-                    <accordion-heading>
-                      <my-section-header section="sections.simulator.options" title="Options"/>
-                    </accordion-heading>
-                    <div class="row-fluid">
-                      <div class="span6">
-                        <div class="control-group">
-                          <label class="control-label">Max Tricks</label>
-
-                          <div class="controls">
-                            <input class="input-small" type="number" ng-model="sequenceSettings.maxTricksUses"/>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <label class="control-label">Montecarlo Runs:</label>
-
-                          <div class="controls">
-                            <input class="input-small" type="number" ng-model="sequenceSettings.maxMontecarloRuns"/>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <label class="control-label">Penalty Weight:</label>
-
-                          <div class="controls">
-                            <input class="input-small" type="number" ng-model="solver.penaltyWeight"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="span6">
-                        <div class="control-group">
-                          <label class="control-label">Population:</label>
-                          <div class="controls">
-                            <input class="input-small" type="number" ng-model="solver.population"/>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <label class="control-label">Generations:</label>
-                          <div class="controls">
-                            <input class="input-small" type="number" ng-model="solver.generations"/>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <div class="controls">
-                            <label class="checkbox">
-                              <input type="checkbox" ng-model="sequenceSettings.specifySeed"/>Specify Seed
-                            </label>
-                            <input class="input-small" type="number" ng-model="sequenceSettings.seed"
-                                   ng-disabled="!sequenceSettings.specifySeed"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </accordion-group>
-                  <accordion-group is-open="sections.macro.open">
-                    <accordion-heading>
-                      <my-section-header section="sections.macro" title="Macro"/>
-                    </accordion-heading>
-                    <div class="row-fluid">
-                      <form>
-                        <p>Click + Ctrl/Cmd-C on each block to copy to clipboard.</p>
-                        <label>Wait Time: <input class="input-small" type="number" ng-model="macro.waitTime"/></label>
-                      </form>
-                    </div>
-                    <div class="row-fluid" ng-repeat="macroText in macro.macros">
-                      <form>
-                        <h6>Macro #{{$index+1}}</h6>
-                        <textarea rows="16" readonly select-on-click>{{macroText}}</textarea>
-                      </form>
-                    </div>
-                  </accordion-group>
-                </accordion>
+                </fieldset>
               </form>
             </div>
           </div>
-          <tabset>
-            <tab heading="Simulation Log" active="simulatorTabs.simulation.active">
-              <pre>{{simulationResult.logText}}</pre>
-            </tab>
-            <tab heading="Solver Log" active="simulatorTabs.solver.active">
-              <pre>{{solverResult.logText}}</pre>
-            </tab>
-          </tabset>
-        </accordion-group>
-      </accordion>
-    </div>
+        </div>
+      </accordion-group>
+      <accordion-group is-open="sections.synth.open">
+        <accordion-heading>
+          <my-section-header section="sections.synth" title="Synth Details"/>
+        </accordion-heading>
+        <div class="row-fluid">
+          <div class="settings-buttons">
+            <div class="dropdown">
+              <button type="button" class="btn" ng-click="newSettings()">New</button>
+              <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
+              <ul class="dropdown-menu" isolate-scrolling>
+                <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
+                  <a ng-click="loadSettings(s.name)">{{s.name}}</a>
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="btn" ng-click="saveSettings()" ng-disabled="settings.name == ''">Save</button>
+            <button type="button" class="btn" ng-click="saveSettingsAs()">Save As...</button>
+            <div class="dropdown">
+              <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
+              <ul class="dropdown-menu" isolate-scrolling>
+                <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
+                  <a ng-click="deleteSettings(s.name)">{{s.name}}</a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
+              <ul class="dropdown-menu" isolate-scrolling>
+                <li ng-repeat="s in savedSettings | objectToArray | orderBy:'name' track by s.name">
+                  <a ng-click="renameSettings(s.name)">{{s.name}}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row-fluid">
+          <form class="form-horizontal">
+            <legend><small>Recipe: <span class="light">{{settingsNameForDisplay()}}<span ng-show="areSettingsDirty()">*</span></span></small></legend>
+            <fieldset>
+              <div class="row-fluid">
+                <div class="btn-group">
+                  <button class="btn btn-primary"
+                          ng-model="recipe.cls"
+                          btn-radio="class"
+                          ng-repeat="class in allClasses"
+                          tooltip="{{class}}"
+                          tooltip-placement="top"
+                          tooltip-append-to-body="true"
+                          tooltip-popup-delay="200">
+                    <img ng-src="img/classes/{{class}}.png"/>
+                  </button>
+                </div>
+              </div>
+              <div class="row-fluid">
+                <div class="span6">
+                  <div class="control-group">
+                    <label class="control-label">Level</label>
+                    <div class="controls">
+                      <input class="input-small" type="number" ng-model="recipe.level"/>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label">Difficulty</label>
+                    <div class="controls">
+                      <input class="input-small" type="number" ng-model="recipe.difficulty"/>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label">Durability</label>
+                    <div class="controls">
+                      <input class="input-small" type="number" ng-model="recipe.durability"/>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label">Start Quality</label>
+                    <div class="controls">
+                      <input class="input-small" type="number" ng-model="recipe.startQuality"/>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label">Max Quality</label>
+                    <div class="controls">
+                      <input class="input-small" type="number" ng-model="recipe.maxQuality"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="span1"></div>
+                <div class="span3">
+                  <div class="well">
+                    <h5>{{recipe.cls}} Stats</h5>
+                    <ul>
+                      <li>Level: {{crafter.stats[recipe.cls].level}}</li>
+                      <li>Craftsmanship: {{crafter.stats[recipe.cls].craftsmanship}} + {{bonusStats.craftsmanship}}</li>
+                      <li>Control: {{crafter.stats[recipe.cls].control}} + {{bonusStats.control}}</li>
+                      <li>CP: {{crafter.stats[recipe.cls].cp}} + {{bonusStats.cp}}</li>
+                    </ul>
+                    <p><button class="btn" ng-click="showStatBonusesModal()">Stat Bonuses...</button></p>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </accordion-group>
+      <accordion-group is-open="sections.simulator.open">
+        <accordion-heading>
+          <my-section-header section="sections.simulator" title="Simulator"/>
+        </accordion-heading>
+        <div class="well">
+          <div class="row-fluid">
+            <form class="form-horizontal">
+              <h4>Initial Guess
+                <span ng-show="simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
+              </h4>
+              <div class="control-group sequence">
+                <img ng-repeat="action in sequence track by $index"
+                     class="action img-rounded"
+                     ng-class="sequenceActionClasses(action, recipe.cls)"
+                     ng-src="img/actions/{{action}}.png"
+                     tooltip="{{actionTooltip(action)}}"
+                     tooltip-placement="top"
+                     tooltip-popup-delay="200"
+                     tooltip-append-to-body="true"/>
+              </div>
+              <div class="control-group">
+                <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
+                <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning">Simulate</button>
+                <button class="btn btn-primary" ng-click="runSolver(solverSuccess, solverError)" ng-disabled="simulatorRunning">Solve</button>
+              </div>
+              <div>
+                <h4>Solver Result
+                  <span ng-show="solverResult.finalState != null">&nbsp;(Q:{{solverResult.finalState.quality | number:0}}<span ng-show="!solverResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.finalState.durability | number:0}}</span><span ng-show="!solverResult.finalState.cpOk" class="text-error">&nbsp;CP:{{solverResult.finalState.cp | number:0}}</span><span ng-show="!solverResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{solverResult.finalState.progress | number:0}}</span>)</span>
+                </h4>
+                <div ng-show="simulatorRunning" class="empty-action-list">
+                  <p class="text-info">Running...</p>
+                </div>
+                <div ng-show="!simulatorRunning"
+                     ng-class="{'empty-action-list': solverResult.sequence.length == 0}">
+                  <div class="sequence" ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
+                    <img ng-repeat="action in solverResult.sequence track by $index"
+                         class="action img-rounded"
+                         ng-class="sequenceActionClasses(action, recipe.cls)"
+                         ng-src="img/actions/{{action}}.png"
+                         tooltip="{{actionTooltip(action)}}"
+                         tooltip-placement="top"
+                         tooltip-popup-delay="200"
+                         tooltip-append-to-body="true"/>
+                  </div>
+                  <div ng-show="uniqueCrossClassActions(solverResult.sequence, recipe.cls).length > 0">
+                    <h5>Required Cross Class Actions</h5>
+                    <div class="sequence">
+                      <img ng-repeat="action in uniqueCrossClassActions(solverResult.sequence, recipe.cls) track by $index"
+                           class="action img-rounded"
+                           ng-src="img/actions/{{action}}.png"
+                           tooltip="{{actionTooltip(action)}}"
+                           tooltip-placement="top"
+                           tooltip-popup-delay="200"
+                           tooltip-append-to-body="true"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <button class="btn btn-warning"
+                          ng-disabled="solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
+                          ng-click="useSolverResult()">Use Solver Result
+                  </button>
+                </div>
+              </div>
+              <accordion>
+                <accordion-group is-open="sections.simulator.options.open">
+                  <accordion-heading>
+                    <my-section-header section="sections.simulator.options" title="Options"/>
+                  </accordion-heading>
+                  <div class="row-fluid">
+                    <div class="span6">
+                      <div class="control-group">
+                        <label class="control-label">Max Tricks</label>
+                        <div class="controls">
+                          <input class="input-small" type="number" ng-model="sequenceSettings.maxTricksUses"/>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Montecarlo Runs:</label>
+                        <div class="controls">
+                          <input class="input-small" type="number" ng-model="sequenceSettings.maxMontecarloRuns"/>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Penalty Weight:</label>
+                        <div class="controls">
+                          <input class="input-small" type="number" ng-model="solver.penaltyWeight"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span6">
+                      <div class="control-group">
+                        <label class="control-label">Population:</label>
+                        <div class="controls">
+                          <input class="input-small" type="number" ng-model="solver.population"/>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label">Generations:</label>
+                        <div class="controls">
+                          <input class="input-small" type="number" ng-model="solver.generations"/>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <div class="controls">
+                          <label class="checkbox">
+                            <input type="checkbox" ng-model="sequenceSettings.specifySeed"/>Specify Seed
+                          </label>
+                          <input class="input-small" type="number" ng-model="sequenceSettings.seed"
+                                 ng-disabled="!sequenceSettings.specifySeed"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </accordion-group>
+                <accordion-group is-open="sections.macro.open">
+                  <accordion-heading>
+                    <my-section-header section="sections.macro" title="Macro"/>
+                  </accordion-heading>
+                  <div class="row-fluid">
+                    <form>
+                      <p>Click + Ctrl/Cmd-C on each block to copy to clipboard.</p>
+                      <label>Wait Time: <input class="input-small" type="number" ng-model="macro.waitTime"/></label>
+                    </form>
+                  </div>
+                  <div class="row-fluid" ng-repeat="macroText in macro.macros">
+                    <form>
+                      <h6>Macro #{{$index+1}}</h6>
+                      <textarea rows="16" readonly select-on-click>{{macroText}}</textarea>
+                    </form>
+                  </div>
+                </accordion-group>
+              </accordion>
+            </form>
+          </div>
+        </div>
+        <tabset>
+          <tab heading="Simulation Log" active="simulatorTabs.simulation.active">
+            <pre>{{simulationResult.logText}}</pre>
+          </tab>
+          <tab heading="Solver Log" active="simulatorTabs.solver.active">
+            <pre>{{solverResult.logText}}</pre>
+          </tab>
+        </tabset>
+      </accordion-group>
+    </accordion>
   </div>
-  
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-  -->
-  <script src="lib/angular/angular.min.js"></script>
-  <script src="lib/angular/angular-touch.min.js"></script>
-  <script src="js/ui-bootstrap-tpls-0.7.0.min.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/directives.js"></script>
-  <script src="js/filters.js"></script>
+</div>
+
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+-->
+<script src="lib/angular/angular.min.js"></script>
+<script src="lib/angular/angular-touch.min.js"></script>
+<script src="js/ui-bootstrap-tpls-0.7.0.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/directives.js"></script>
+<script src="js/filters.js"></script>
+
 </body>
+
 </html>
