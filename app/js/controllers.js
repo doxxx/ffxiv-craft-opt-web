@@ -20,6 +20,12 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.simulatorRunning = false;
 
+  $scope.solverStatus = {
+    running: false,
+    generationsCompleted: 0,
+    error: null,
+  }
+
   $scope.macro = {
     macros: [],
     waitTime: 3,
@@ -338,7 +344,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.solverResult.finalState = data.finalState;
     $scope.solverResult.sequence = data.bestSequence;
     $scope.simulatorTabs.solver.active = true;
-    $scope.simulatorRunning = false;
+    $scope.solverStatus.running = false;
   }
 
   $scope.solverError = function(data) {
@@ -346,33 +352,39 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.solverResult.logText += '\n\nError: ' + data.error
     $scope.solverResult.sequence = []
     $scope.simulatorTabs.solver.active = true;
-    $scope.simulatorRunning = false;
+    $scope.solverStatus.running = false;
   }
 
-  $scope.checkSolverAsync = function(taskID, success, error) {
+  $scope.checkSolverProgress = function(taskID, success, error) {
     $timeout(function() {
       $http.get(_getSolverServiceURL() + "async_solver", {params: {taskID: taskID}}).
         success(function(data) {
-          if (data.done) {
-            if (data.result.error != null) {
-              error(data.result)
-            }
-            else {
-              success(data.result)
-            }
+          $scope.solverStatus.generationsCompleted = data.generationsCompleted;
+
+          if (!data.done) {
+            $scope.checkSolverProgress(taskID, success, error);
           }
           else {
-            $scope.checkSolverAsync(taskID, success, error)
+            if (data.result.error) {
+              $scope.solverStatus.error = data.result.error;
+              error(data.result);
+            }
+            else {
+              success(data.result);
+            }
           }
         }).
         error(function(data) {
           console.log("Error checking solver_async status: " + data)
+          $scope.solverStatus.error = data;
+          $scope.solverStatus.running = false;
         })
-    }, 5000)
+    }, 2000)
   }
   
-  $scope.runSolver = function(success, error) {
-    $scope.simulatorRunning = true;
+  $scope.runSolver = function() {
+    $scope.solverStatus.running = true;
+    $scope.solverStatus.generationsCompleted = 0;
     $scope.solverResult.sequence = [];
     var settings = {
       crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
@@ -388,9 +400,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $http.post(_getSolverServiceURL() + 'async_solver', settings).
       success(function(data) {
         var taskID = data.taskID
-        $scope.checkSolverAsync(taskID, success, error)
+        $scope.checkSolverProgress(taskID, $scope.solverSuccess, $scope.solverError)
       }).
-      error(error);
+      error($scope.solverError);
   }
 });
 

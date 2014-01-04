@@ -225,9 +225,10 @@
           <div class="well">
             <div class="row-fluid">
               <h4>Initial Guess
-                <span ng-show="simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
+                <span ng-show="simulatorRunning">&nbsp;(Running...)</span>
+                <span ng-show="!simulatorRunning && simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
               </h4>
-              <div class="control-group sequence">
+              <div class="sequence well well-small">
                 <img ng-repeat="action in sequence track by $index"
                      class="action img-rounded"
                      ng-class="sequenceActionClasses(action, recipe.cls)"
@@ -240,26 +241,28 @@
               <div class="control-group">
                 <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
                 <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning || !allForms.$valid">Simulate</button>
-                <button class="btn btn-primary" ng-click="runSolver(solverSuccess, solverError)" ng-disabled="simulatorRunning || !allForms.$valid">Solve</button>
+                <button class="btn btn-primary" ng-click="runSolver()" ng-disabled="solverStatus.running || !allForms.$valid">Solve</button>
               </div>
               <div>
                 <h4>Solver Result
-                  <span ng-show="solverResult.finalState != null">&nbsp;(Q:{{solverResult.finalState.quality | number:0}}<span ng-show="!solverResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.finalState.durability | number:0}}</span><span ng-show="!solverResult.finalState.cpOk" class="text-error">&nbsp;CP:{{solverResult.finalState.cp | number:0}}</span><span ng-show="!solverResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{solverResult.finalState.progress | number:0}}</span>)</span>
+                  <span ng-show="solverStatus.running">&nbsp;(Gen:{{solverStatus.generationsCompleted}}/{{solver.generations}})</span>
+                  <span ng-show="!solverStatus.running && solverResult.finalState != null">&nbsp;(Q:{{solverResult.finalState.quality | number:0}}<span ng-show="!solverResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.finalState.durability | number:0}}</span><span ng-show="!solverResult.finalState.cpOk" class="text-error">&nbsp;CP:{{solverResult.finalState.cp | number:0}}</span><span ng-show="!solverResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{solverResult.finalState.progress | number:0}}</span>)</span>
                 </h4>
-                <div ng-show="simulatorRunning" class="empty-action-list">
-                  <p class="text-info">Running...</p>
+                <div ng-show="solverStatus.running">
+                  <progressbar class="progress-striped active" value="solverStatus.generationsCompleted" max="solver.generations"></progressbar>
                 </div>
-                <div ng-show="!simulatorRunning"
-                     ng-class="{'empty-action-list': solverResult.sequence.length == 0}">
-                  <div class="sequence" ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
-                    <img ng-repeat="action in solverResult.sequence track by $index"
-                         class="action img-rounded"
-                         ng-class="sequenceActionClasses(action, recipe.cls)"
-                         ng-src="img/actions/{{action}}.png"
-                         tooltip="{{actionTooltip(action)}}"
-                         tooltip-placement="top"
-                         tooltip-popup-delay="200"
-                         tooltip-append-to-body="true"/>
+                <div ng-show="!solverStatus.running">
+                  <div class="sequence well well-small" >
+                    <div ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
+                      <img ng-repeat="action in solverResult.sequence track by $index"
+                           class="action img-rounded"
+                           ng-class="sequenceActionClasses(action, recipe.cls)"
+                           ng-src="img/actions/{{action}}.png"
+                           tooltip="{{actionTooltip(action)}}"
+                           tooltip-placement="top"
+                           tooltip-popup-delay="200"
+                           tooltip-append-to-body="true"/>
+                    </div>
                   </div>
                   <div ng-show="uniqueCrossClassActions(solverResult.sequence, recipe.cls).length > 0">
                     <h5>Required Cross Class Actions</h5>
@@ -274,7 +277,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="control-group">
+                <div class="control-group" ng-show="solverResult.sequence.length > 0">
                   <button class="btn btn-warning"
                           ng-disabled="solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
                           ng-click="useSolverResult()">Use Solver Result
