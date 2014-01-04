@@ -26,11 +26,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     error: null,
   }
 
-  $scope.macro = {
-    macros: [],
-    waitTime: 3,
-  };
-
   $scope.simulatorTabs = {
     simulation: { },
     solver: { },
@@ -60,14 +55,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.$watch('settings.name', function() {
     savePageState($scope);
-  });
-
-  $scope.$watch('sequence', function(newValue, oldValue) {
-    $scope.macro.macros = createMacros($scope.allActions, newValue, $scope.macro.waitTime)
-  });
-
-  $scope.$watch('macro.waitTime', function(newValue, oldValue) {
-    $scope.macro.macros = createMacros($scope.allActions, $scope.sequence, newValue)
   });
 
   $scope.$watchCollection('crafter', function() {
@@ -295,6 +282,18 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     )
   }
 
+  $scope.showMacroModal = function() {
+    var modalInstance = $modal.open({
+      templateUrl: 'partials/macro.html',
+      controller: 'MacroCtrl',
+      windowClass: 'macro-modal',
+      resolve: {
+        allActions: function() { return $scope.allActions; },
+        sequence: function() { return $scope.sequence; },
+      },
+    });
+  }
+
   $scope.useSolverResult = function() {
     var seq = $scope.solverResult.sequence
     if (seq instanceof Array && seq.length > 0) {
@@ -515,6 +514,19 @@ var StatBonusEditorCtrl = controllers.controller('StatBonusEditorCtrl', function
   }
 });
 
+var MacroCtrl = controllers.controller('MacroCtrl', function($scope, $modalInstance, allActions, sequence) {
+  $scope.waitTime = 3;
+  $scope.macros = createMacros(allActions, sequence, $scope.waitTime);
+
+  $scope.$watch('waitTime', function() {
+    $scope.macros = createMacros(allActions, sequence, $scope.waitTime);
+  });
+
+  $scope.close = function() {
+    $modalInstance.dismiss('close');
+  }
+});
+
 function createMacros(allActions, actions, waitTime, insertTricks) {
   if (typeof actions == 'undefined') {
     return '';
@@ -589,7 +601,6 @@ function loadPageState($scope) {
       synth: true,
       simulator: true,
       simulatorOptions: false,
-      macro: false,
     };
   }
 

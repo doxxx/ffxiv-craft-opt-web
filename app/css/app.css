@@ -212,3 +212,18 @@ legend + .control-group {
   max-height: 188px;
   overflow-y: auto;
 }
+
+
+/* Macro Modal */
+
+.macro-modal .modal-footer {
+  text-align: left;
+}
+
+.macro-modal .modal-footer .align-right {
+  text-align: right;
+}
+
+.macro-modal .modal-body textarea {
+  width: 90%;
+}

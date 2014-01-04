@@ -242,6 +242,7 @@
                 <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
                 <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning || !allForms.$valid">Simulate</button>
                 <button class="btn btn-primary" ng-click="runSolver()" ng-disabled="solverStatus.running || !allForms.$valid">Solve</button>
+                <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
               </div>
               <div>
                 <h4>Solver Result
@@ -333,23 +334,6 @@
                           </div>
                         </div>
                       </div>
-                    </form>
-                  </div>
-                </accordion-group>
-                <accordion-group is-open="sections.macro">
-                  <accordion-heading>
-                    <my-section-header is-open="sections.macro" title="Macro"/>
-                  </accordion-heading>
-                  <div class="row-fluid">
-                    <form name="macroOptionsForm">
-                      <p>Click + Ctrl/Cmd-C on each block to copy to clipboard.</p>
-                      <label>Wait Time: <input class="input-small" type="number" ng-model="macro.waitTime"/></label>
-                    </form>
-                  </div>
-                  <div class="row-fluid" ng-repeat="macroText in macro.macros">
-                    <form name="macroTextForm">
-                      <h6>Macro #{{$index+1}}</h6>
-                      <textarea rows="16" readonly select-on-click>{{macroText}}</textarea>
                     </form>
                   </div>
                 </accordion-group>
