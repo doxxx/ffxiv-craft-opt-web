@@ -16,7 +16,9 @@
                ng-show="isActionVisible(action)"
                tooltip="{{actionTooltip(action)}}"
                tooltip-placement="top"
-               tooltip-popup-delay="200"/>
+               tooltip-popup-delay="200"
+               lvl-draggable="true"
+               data-new-action="{{action}}"/>
         </div>
       </div>
     </fieldset>
@@ -29,9 +31,13 @@
            ng-class="sequenceActionClasses(action)"
            ng-src="img/actions/{{action}}.png"
            ng-click="removeAction($index)"
-           tooltip="{{actionTooltip(action)}}"
-           tooltip-placement="top"
-           tooltip-popup-delay="200"/>
+           lvl-draggable="true"
+           lvl-drop-target="true"
+           data-index="{{$index}}"
+           on-drop="dropAction(dragEl, dropEl)"/>
+      <div class="action empty-action img-rounded" lvl-drop-target="true"
+           data-index="{{sequence.length}}"
+           on-drop="dropAction(dragEl, dropEl)"/>
     </div>
   </form>
 </div>

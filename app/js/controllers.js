@@ -439,6 +439,39 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
     return tooltip;
   }
 
+  $scope.dropAction = function(dragEl, dropEl) {
+    var drag = angular.element(dragEl);
+    var drop = angular.element(dropEl);
+    var newAction = drag.attr('data-new-action');
+
+    if (newAction) {
+      var dropIndex = parseInt(drop.attr('data-index'));
+
+      // insert new action into the drop position
+      $scope.sequence.splice(dropIndex, 0, newAction);
+    }
+    else {
+      var dragIndex = parseInt(drag.attr('data-index'));
+      var dropIndex = parseInt(drop.attr('data-index'));
+
+      // do nothing if dropped on itself
+      if (dragIndex == dropIndex) return;
+
+      // insert dragged action into the drop position
+      $scope.sequence.splice(dropIndex, 0, $scope.sequence[dragIndex]);
+
+      // remove dragged action from its original position
+      if (dropIndex > dragIndex) {
+        $scope.sequence.splice(dragIndex, 1);
+      }
+      else {
+        $scope.sequence.splice(dragIndex + 1, 1);
+      }
+    }
+
+    $scope.$apply();
+  };
+
   $scope.addAction = function(action) {
     $scope.sequence.push(action);
   }

@@ -4,6 +4,7 @@
 var app = angular.module('ffxivCraftOptWeb', [
   'ngTouch',
   'ui.bootstrap',
+  'lvl.directives.dragdrop',
   'ffxivCraftOptWeb.services',
   'ffxivCraftOptWeb.directives',
   'ffxivCraftOptWeb.filters',

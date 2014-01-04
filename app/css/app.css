@@ -26,6 +26,14 @@ body {
   margin-bottom: 1px;
 }
 
+.empty-action {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 .selectable-action {
   cursor: pointer;
 }
@@ -45,6 +53,15 @@ body {
 
 .sequence .action-cross-class {
   border: dotted #00aaff;
+}
+
+.empty-action.lvl-target {
+  border: dotted black;
+  background-color: #eeeeee;
+}
+
+.action.lvl-over {
+  border: dotted black;
 }
 
 .disabled-action-list {
