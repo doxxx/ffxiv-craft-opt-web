@@ -271,7 +271,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       windowClass: 'sequence-editor',
       resolve: {
         origSequence: function() { return $scope.sequence; },
-        availableActions: function() { return $scope.crafter.stats[$scope.crafter.cls].actions; },
+        availableActions: function() { return $scope.crafter.stats[$scope.recipe.cls].actions; },
         recipe: function() { return $scope.recipe; },
       },
     });
