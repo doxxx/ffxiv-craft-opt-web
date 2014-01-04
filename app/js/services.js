@@ -34,7 +34,7 @@ services.value('_allActions', [
   { shortName: "carefulSynthesis2", name: "Careful Synthesis 2", cls: "Weaver", level: 50 },
   { shortName: "pieceByPiece", name: "Piece by Piece", cls: "Armorer", level: 50 },
   { shortName: "rapidSynthesis", name: "Rapid Synthesis", cls: "Armorer", level: 15 },
-  { shortName: "brandOfEarth", name: "Brand of Earth", cls: "Leatherworker", level: 37 },
+//  { shortName: "brandOfEarth", name: "Brand of Earth", cls: "Leatherworker", level: 37 },
   { shortName: "basicTouch", name: "Basic Touch", cls: "All", level: 5 },
   { shortName: "standardTouch", name: "Standard Touch", cls: "All", level: 18 },
   { shortName: "advancedTouch", name: "Advanced Touch", cls: "All", level: 43 },
@@ -68,7 +68,7 @@ services.value('_actionGroups', [
     "carefulSynthesis2",
     "pieceByPiece",
     "rapidSynthesis",
-    "brandOfEarth",
+//    "brandOfEarth",
   ]},
   { name: "Quality", actions: [
     "basicTouch",
