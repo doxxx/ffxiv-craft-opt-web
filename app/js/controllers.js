@@ -356,7 +356,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.checkSolverProgress = function(taskID, success, error) {
     $timeout(function() {
-      $http.get(_getSolverServiceURL() + "async_solver", {params: {taskID: taskID}}).
+      $http.get(_getSolverServiceURL() + "solver", {params: {taskID: taskID}}).
         success(function(data) {
           $scope.solverStatus.generationsCompleted = data.generationsCompleted;
 
@@ -374,7 +374,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
           }
         }).
         error(function(data) {
-          console.log("Error checking solver_async status: " + data)
+          console.log("Error checking solver status: " + data)
           $scope.solverStatus.error = data;
           $scope.solverStatus.running = false;
         })
@@ -396,7 +396,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
     }
-    $http.post(_getSolverServiceURL() + 'async_solver', settings).
+    $http.post(_getSolverServiceURL() + 'solver', settings).
       success(function(data) {
         var taskID = data.taskID
         $scope.checkSolverProgress(taskID, $scope.solverSuccess, $scope.solverError)
