@@ -22,6 +22,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.solverStatus = {
     running: false,
+    taskID: null,
     generationsCompleted: 0,
     error: null,
   }
@@ -398,10 +399,22 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
     $http.post(_getSolverServiceURL() + 'solver', settings).
       success(function(data) {
-        var taskID = data.taskID
-        $scope.checkSolverProgress(taskID, $scope.solverSuccess, $scope.solverError)
+        $scope.solverStatus.taskID = data.taskID
+        $scope.checkSolverProgress($scope.solverStatus.taskID, $scope.solverSuccess, $scope.solverError)
       }).
       error($scope.solverError);
+  }
+
+  $scope.stopSolver = function() {
+    var taskID = $scope.solverStatus.taskID;
+    if (taskID != null) {
+      $http.delete(_getSolverServiceURL() + 'solver', {params: {taskID: taskID}}).
+        error(function(data) {
+          console.log("Error stopping solver: " + data)
+          $scope.solverStatus.error = data;
+          $scope.solverStatus.running = false;
+        });
+    }
   }
 });
 

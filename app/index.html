@@ -240,9 +240,10 @@
               </div>
               <div class="control-group">
                 <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
-                <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning || !allForms.$valid">Simulate</button>
-                <button class="btn btn-primary" ng-click="runSolver()" ng-disabled="solverStatus.running || !allForms.$valid">Solve</button>
                 <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
+                <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning || !allForms.$valid">Simulate</button>
+                <button class="btn btn-primary" ng-click="runSolver()" ng-hide="solverStatus.running" ng-disabled="!allForms.$valid">Solve</button>
+                <button class="btn btn-danger" ng-click="stopSolver()" ng-show="solverStatus.running">Stop Solve</button>
               </div>
               <div>
                 <h4>Solver Result
