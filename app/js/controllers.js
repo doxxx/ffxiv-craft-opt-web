@@ -4,10 +4,13 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
-controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout, _getSolverServiceURL, _allClasses, _actionGroups, _allActions) {
+controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout,
+                                            _getSolverServiceURL, _allClasses, _actionGroups, _allActions,
+                                            _getActionImagePath) {
   // provide access to constants
   $scope.allClasses = _allClasses;
   $scope.actionGroups = _actionGroups;
+  $scope.getActionImagePath = _getActionImagePath;
 
   $scope.allActions = {};
   for (var i = 0; i < _allActions.length; i++) {
@@ -418,13 +421,14 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 });
 
-var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, origSequence, availableActions, recipe) {
+var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, _getActionImagePath, origSequence, availableActions, recipe) {
   $scope.actionGroups = _actionGroups;
   $scope.allActions = {};
   for (var i = 0; i < _allActions.length; i++) {
     var action = _allActions[i];
     $scope.allActions[action.shortName] = action;
   }
+  $scope.getActionImagePath = _getActionImagePath;
   $scope.sequence = angular.copy(origSequence);
   $scope.availableActions = availableActions;
   $scope.recipe = recipe;

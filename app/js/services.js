@@ -27,32 +27,32 @@ services.value('_allClasses', [
   "Weaver",
 ])
 services.value('_allActions', [
-  { shortName: "basicSynth",        name: "Basic Synthesis",      cls: "All",           level: 1 },
-  { shortName: "standardSynthesis", name: "Standard Synthesis",   cls: "All",           level: 31 },
+  { shortName: "basicSynth",        name: "Basic Synthesis",      cls: "All",           level: 1,  common: false },
+  { shortName: "standardSynthesis", name: "Standard Synthesis",   cls: "All",           level: 31, common: false },
   { shortName: "flawlessSynthesis", name: "Flawless Synthesis",   cls: "Goldsmith",     level: 37 },
   { shortName: "carefulSynthesis",  name: "Careful Synthesis",    cls: "Weaver",        level: 15 },
   { shortName: "carefulSynthesis2", name: "Careful Synthesis 2",  cls: "Weaver",        level: 50 },
   { shortName: "pieceByPiece",      name: "Piece by Piece",       cls: "Armorer",       level: 50 },
   { shortName: "rapidSynthesis",    name: "Rapid Synthesis",      cls: "Armorer",       level: 15 },
 //  { shortName: "brandOfEarth",      name: "Brand of Earth",       cls: "Leatherworker", level: 37 },
-  { shortName: "basicTouch",        name: "Basic Touch",          cls: "All",           level: 5 },
-  { shortName: "standardTouch",     name: "Standard Touch",       cls: "All",           level: 18 },
-  { shortName: "advancedTouch",     name: "Advanced Touch",       cls: "All",           level: 43 },
+  { shortName: "basicTouch",        name: "Basic Touch",          cls: "All",           level: 5,  common: false },
+  { shortName: "standardTouch",     name: "Standard Touch",       cls: "All",           level: 18, common: false },
+  { shortName: "advancedTouch",     name: "Advanced Touch",       cls: "All",           level: 43, common: false },
   { shortName: "hastyTouch",        name: "Hasty Touch",          cls: "Culinarian",    level: 15 },
   { shortName: "byregotsBlessing",  name: "Byregot's Blessing",   cls: "Carpenter",     level: 50 },
   { shortName: "comfortZone",       name: "Comfort Zone",         cls: "Alchemist",     level: 50 },
   { shortName: "rumination",        name: "Rumination",           cls: "Carpenter",     level: 15 },
-  { shortName: "mastersMend",       name: "Master's Mend",        cls: "All",           level: 7 },
-  { shortName: "mastersMend2",      name: "Master's Mend 2",      cls: "All",           level: 25 },
+  { shortName: "mastersMend",       name: "Master's Mend",        cls: "All",           level: 7,  common: true },
+  { shortName: "mastersMend2",      name: "Master's Mend 2",      cls: "All",           level: 25, common: true },
   { shortName: "wasteNot",          name: "Waste Not",            cls: "Leatherworker", level: 15 },
   { shortName: "wasteNot2",         name: "Waste Not 2",          cls: "Leatherworker", level: 50 },
   { shortName: "manipulation",      name: "Manipulation",         cls: "Goldsmith",     level: 15 },
-  { shortName: "innerQuiet",        name: "Inner Quiet",          cls: "All",           level: 11 },
-  { shortName: "steadyHand",        name: "Steady Hand",          cls: "All",           level: 9 },
+  { shortName: "innerQuiet",        name: "Inner Quiet",          cls: "All",           level: 11, common: true },
+  { shortName: "steadyHand",        name: "Steady Hand",          cls: "All",           level: 9,  common: true },
   { shortName: "steadyHand2",       name: "Steady Hand 2",        cls: "Culinarian",    level: 37 },
   { shortName: "ingenuity",         name: "Ingenuity",            cls: "Blacksmith",    level: 15 },
   { shortName: "ingenuity2",        name: "Ingenuity 2",          cls: "Blacksmith",    level: 50 },
-  { shortName: "greatStrides",      name: "Great Strides",        cls: "All",           level: 21 },
+  { shortName: "greatStrides",      name: "Great Strides",        cls: "All",           level: 21, common: true },
   { shortName: "innovation",        name: "Innovation",           cls: "Goldsmith",     level: 50 },
   { shortName: "tricksOfTheTrade",  name: "Tricks of the Trade",  cls: "Alchemist",     level: 15 },
 
@@ -99,3 +99,25 @@ services.value('_actionGroups', [
     "innovation",
   ]}
 ]);
+services.factory('_getActionImagePath', function(_allActions) {
+  return function(actionName, cls) {
+    var actionInfo;
+    for (var i = 0; i < _allActions.length; i++) {
+      if (_allActions[i].shortName == actionName) {
+        actionInfo = _allActions[i];
+        break;
+      }
+    }
+    if (actionInfo.cls == 'All') {
+      if (actionInfo.common) {
+        return 'img/actions/' + actionName + '.png'
+      }
+      else {
+        return 'img/actions/' + cls + '/' + actionName + '.png'
+      }
+    }
+    else {
+      return 'img/actions/' + actionInfo.cls + '/' + actionName + '.png'
+    }
+  }
+});
