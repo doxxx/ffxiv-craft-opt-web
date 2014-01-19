@@ -99,10 +99,10 @@
                       <div class="controls">
                         <img ng-repeat="action in actionGroup.actions track by $index"
                              class="action selectable-action img-rounded"
-                             ng-class="actionTableClasses(action, crafter.cls)"
+                             ng-class="actionClasses(action, crafter.cls)"
                              ng-click="toggleAction(action)"
                              ng-src="{{getActionImagePath(action, crafter.cls)}}"
-                             tooltip="{{actionTooltip(action)}}"
+                             tooltip-html-unsafe="{{actionTooltip(action, crafter.cls)}}"
                              tooltip-placement="top"
                              tooltip-popup-delay="200"
                              tooltip-append-to-body="true"/>
@@ -226,14 +226,15 @@
             <div class="row-fluid">
               <h4>Initial Guess
                 <span ng-show="simulatorRunning">&nbsp;(Running...)</span>
-                <span ng-show="!simulatorRunning && simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
+                <span ng-show="!simulatorRunning && isValidSequence(sequence, recipe.cls) && simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
+                <span ng-show="!simulatorRunning && !isValidSequence(sequence, recipe.cls)">&nbsp;(<span class="text-error">sequence contains unavailable actions!</span>)</span>
               </h4>
               <div class="sequence well well-small">
                 <img ng-repeat="action in sequence track by $index"
                      class="action img-rounded"
-                     ng-class="sequenceActionClasses(action, recipe.cls)"
+                     ng-class="actionClasses(action, recipe.cls)"
                      ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                     tooltip="{{actionTooltip(action)}}"
+                     tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
                      tooltip-placement="top"
                      tooltip-popup-delay="200"
                      tooltip-append-to-body="true"/>
@@ -241,8 +242,8 @@
               <div class="control-group">
                 <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
                 <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
-                <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning || !allForms.$valid">Simulate</button>
-                <button class="btn btn-primary" ng-click="runSolver()" ng-hide="solverStatus.running" ng-disabled="!allForms.$valid">Solve</button>
+                <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
+                <button class="btn btn-primary" ng-click="runSolver()" ng-hide="solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Solve</button>
                 <button class="btn btn-danger" ng-click="stopSolver()" ng-show="solverStatus.running">Stop Solve</button>
               </div>
               <div>
@@ -258,9 +259,9 @@
                     <div ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
                       <img ng-repeat="action in solverResult.sequence track by $index"
                            class="action img-rounded"
-                           ng-class="sequenceActionClasses(action, recipe.cls)"
+                           ng-class="actionClasses(action, recipe.cls)"
                            ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                           tooltip="{{actionTooltip(action)}}"
+                           tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
                            tooltip-placement="top"
                            tooltip-popup-delay="200"
                            tooltip-append-to-body="true"/>
@@ -272,7 +273,7 @@
                       <img ng-repeat="action in uniqueCrossClassActions(solverResult.sequence, recipe.cls) track by $index"
                            class="action img-rounded"
                            ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                           tooltip="{{actionTooltip(action)}}"
+                           tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
                            tooltip-placement="top"
                            tooltip-popup-delay="200"
                            tooltip-append-to-body="true"/>

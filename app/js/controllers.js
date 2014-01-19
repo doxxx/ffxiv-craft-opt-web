@@ -81,7 +81,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.$watchCollection('sequence', function(newValue) {
     savePageState($scope)
-    if (newValue.length > 0) {
+    if (newValue.length > 0 && $scope.isValidSequence(newValue, $scope.recipe.cls)) {
       $scope.runSimulation($scope.simulationSuccess, $scope.simulationError)
     }
     else {
@@ -201,21 +201,16 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
   }
 
-  $scope.actionTableClasses = function(action, cls) {
+  $scope.actionClasses = function(action, cls) {
     return {
-      'selected-action': $scope.isActionSelected(action),
-      'action-cross-class': $scope.isActionCrossClass(action, cls)
-      }
-  }
-
-  $scope.sequenceActionClasses = function(action, cls) {
-    return {
+      'selected-action': $scope.isActionSelected(action, cls),
       'action-cross-class': $scope.isActionCrossClass(action, cls),
+      'invalid-action': !$scope.isActionSelected(action, cls)
     }
   }
 
-  $scope.isActionSelected = function(action) {
-    return $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action) >= 0;
+  $scope.isActionSelected = function(action, cls) {
+    return $scope.crafter.stats[cls].actions.indexOf(action) >= 0;
   }
 
   $scope.isActionCrossClass = function(action, cls) {
@@ -223,11 +218,25 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
            $scope.allActions[action].cls != cls;
   }
 
+  $scope.isValidSequence = function(sequence, cls) {
+    return sequence.every(function(action) {
+      return $scope.isActionSelected(action, cls);
+    });
+  }
+
   $scope.actionTooltip = function(action, cls) {
     var info = $scope.allActions[action];
     var tooltip = info.name;
     if (info.cls != 'All' && info.cls != cls) {
       tooltip += ' (' + info.cls + ')';
+    }
+    return tooltip;
+  }
+
+  $scope.sequenceActionTooltip = function(action, cls) {
+    var tooltip = $scope.actionTooltip(action, cls);
+    if (!$scope.isActionSelected(action, cls)) {
+      tooltip += '<br/><b>[Action Not Available]</b>';
     }
     return tooltip;
   }
@@ -433,24 +442,36 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
   $scope.availableActions = availableActions;
   $scope.recipe = recipe;
 
-  $scope.isActionVisible = function(action) {
+  $scope.isActionSelected = function(action) {
     return $scope.availableActions.indexOf(action) >= 0;
   }
 
-  $scope.sequenceActionClasses = function(action) {
-    var crossClass = $scope.allActions[action].cls != 'All' &&
-                     $scope.allActions[action].cls != $scope.recipe.cls;
-
+  $scope.actionClasses = function(action, cls) {
     return {
-      'action-cross-class': crossClass,
+      'selected-action': $scope.isActionSelected(action),
+      'action-cross-class': $scope.isActionCrossClass(action, cls),
+      'invalid-action': !$scope.isActionSelected(action)
     }
+  }
+
+  $scope.isActionCrossClass = function(action, cls) {
+    return $scope.allActions[action].cls != 'All' &&
+           $scope.allActions[action].cls != cls;
   }
 
   $scope.actionTooltip = function(action, cls) {
     var info = $scope.allActions[action];
     var tooltip = info.name;
-    if (info.cls != 'All') {
+    if (info.cls != 'All' && info.cls != cls) {
       tooltip += ' (' + info.cls + ')';
+    }
+    return tooltip;
+  }
+
+  $scope.sequenceActionTooltip = function(action, cls) {
+    var tooltip = $scope.actionTooltip(action, cls);
+    if (!$scope.isActionSelected(action, cls)) {
+      tooltip += '<br/><b>[Action Not Available]</b>';
     }
     return tooltip;
   }

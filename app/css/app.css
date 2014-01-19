@@ -54,6 +54,10 @@ body {
   border: dotted #00aaff;
 }
 
+.sequence .invalid-action {
+  border: solid red;
+}
+
 .empty-action.lvl-target {
   border: dotted black;
   background-color: #eeeeee;
@@ -212,6 +216,9 @@ legend + .control-group {
   overflow-y: auto;
 }
 
+.sequence-editor .action-table .selected-action {
+  border: none;
+}
 
 /* Macro Modal */
 

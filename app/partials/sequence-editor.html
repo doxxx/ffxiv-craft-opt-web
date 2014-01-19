@@ -10,11 +10,11 @@
         <div class="controls">
           <img ng-repeat="action in actionGroup.actions track by $index"
                class="action selectable-action img-rounded"
-               ng-class="sequenceActionClasses(action)"
+               ng-class="actionClasses(action, recipe.cls)"
                ng-src="{{getActionImagePath(action, recipe.cls)}}"
                ng-click="addAction(action)"
-               ng-show="isActionVisible(action)"
-               tooltip="{{actionTooltip(action)}}"
+               ng-show="isActionSelected(action)"
+               tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
                tooltip-placement="top"
                tooltip-popup-delay="200"
                lvl-draggable="true"
@@ -28,7 +28,7 @@
     <div class="sequence" id="sequenceEditorSequence" isolate-scrolling>
       <img ng-repeat="action in sequence track by $index"
            class="action selectable-action img-rounded"
-           ng-class="sequenceActionClasses(action)"
+           ng-class="actionClasses(action, recipe.cls)"
            ng-src="{{getActionImagePath(action, recipe.cls)}}"
            ng-click="removeAction($index)"
            lvl-draggable="true"
