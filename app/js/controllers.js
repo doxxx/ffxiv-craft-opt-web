@@ -135,7 +135,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.saveSettings = function() {
     var settings = {}
 
-    settings.name = $scope.settings.name;
     settings.bonusStats = angular.copy($scope.bonusStats);
     settings.recipe = angular.copy($scope.recipe);
     settings.sequence = angular.copy($scope.sequence);
@@ -166,7 +165,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.renameSettings = function(name) {
     var newName = prompt('Enter new recipe name:');
     if (newName == null || newName.length == 0) return;
-    $scope.savedSettings[newName] = savedSettings[name];
+    $scope.savedSettings[newName] = $scope.savedSettings[name];
     delete $scope.savedSettings[name];
     if (name == $scope.settings.name) {
       $scope.settings.name = newName;
