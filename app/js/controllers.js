@@ -283,8 +283,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       windowClass: 'sequence-editor',
       resolve: {
         origSequence: function() { return $scope.sequence; },
-        availableActions: function() { return $scope.crafter.stats[$scope.recipe.cls].actions; },
         recipe: function() { return $scope.recipe; },
+        crafterStats: function() { return $scope.crafter.stats[$scope.recipe.cls]; },
+        bonusStats: function() { return $scope.bonusStats; },
+        sequenceSettings: function() { return $scope.sequenceSettings; },
       },
     });
     modalInstance.result.then(
@@ -429,7 +431,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 });
 
-var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, _actionGroups, _allActions, _getActionImagePath, origSequence, availableActions, recipe) {
+var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $http,
+    _actionGroups, _allActions, _getActionImagePath, _getSolverServiceURL, origSequence, recipe, crafterStats,
+    bonusStats, sequenceSettings)
+{
   $scope.actionGroups = _actionGroups;
   $scope.allActions = {};
   for (var i = 0; i < _allActions.length; i++) {
@@ -438,8 +443,13 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
   }
   $scope.getActionImagePath = _getActionImagePath;
   $scope.sequence = angular.copy(origSequence);
-  $scope.availableActions = availableActions;
+  $scope.availableActions = crafterStats.actions;
   $scope.recipe = recipe;
+  $scope.simulationResult = {};
+
+  $scope.$watchCollection('sequence', function() {
+    $scope.simulate();
+  });
 
   $scope.isActionSelected = function(action) {
     return $scope.availableActions.indexOf(action) >= 0;
@@ -514,6 +524,48 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
 
   $scope.removeAction = function(index) {
     $scope.sequence.splice(index, 1)
+  }
+
+  $scope.isValidSequence = function(sequence, cls) {
+    return sequence.every(function(action) {
+      return $scope.isActionSelected(action, cls);
+    });
+  }
+
+  $scope.simulate = function() {
+    $scope.simulatorRunning = true;
+    $scope.runSimulation($scope.simulationSuccess, $scope.simulationError);
+  }
+
+  $scope.simulationSuccess = function(data, status, headers, config) {
+    $scope.simulationResult.finalState = data.finalState;
+    $scope.simulatorRunning = false;
+  }
+
+  $scope.simulationError = function(data, status, headers, config) {
+    $scope.simulationResult.error = data.error;
+    $scope.simulatorRunning = false;
+  }
+
+  $scope.runSimulation = function(success, error) {
+    if ($scope.sequence.length <= 0) {
+      error({log: '', error: 'Must provide non-empty sequence'});
+      return;
+    }
+    $scope.simulatorRunning = true;
+    var settings = {
+      crafter: addBonusStats(crafterStats, bonusStats),
+      recipe: recipe,
+      sequence: $scope.sequence,
+      maxTricksUses: sequenceSettings.maxTricksUses,
+      maxMontecarloRuns: sequenceSettings.maxMontecarloRuns,
+    };
+    if (sequenceSettings.specifySeed) {
+      settings.seed = sequenceSettings.seed;
+    }
+    $http.post(_getSolverServiceURL() + 'simulation', settings).
+      success(success).
+      error(error);
   }
 
   $scope.clear = function() {
