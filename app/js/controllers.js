@@ -35,6 +35,17 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     solver: { },
   };
 
+  $scope.simulationResult = {
+    logText: '',
+    finalState: null,
+  };
+
+  $scope.solverResult = {
+    logText: '',
+    sequence: [],
+    finalState: null,
+  };
+
   // load/initialize persistent page state
   loadPageState($scope)
 
@@ -97,15 +108,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     savePageState($scope)
   })
 
-  $scope.$watchCollection('simulationResult', function() {
-    savePageState($scope)
-  })
-
   $scope.$watchCollection('solver', function() {
-    savePageState($scope)
-  })
-
-  $scope.$watchCollection('solverResult', function() {
     savePageState($scope)
   })
 
@@ -127,7 +130,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.sequenceSettings = angular.copy(settings.sequenceSettings);
     $scope.simulation = angular.copy(settings.simulation);
     $scope.solver = angular.copy(settings.solver);
-    $scope.solverResult = angular.copy(settings.solverResult);
+    $scope.solverResult = {
+      logText: '',
+      sequence: [],
+      finalState: null,
+    };
 
     $scope.settings.name = name;
   }
@@ -141,7 +148,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     settings.sequenceSettings = angular.copy($scope.sequenceSettings);
     settings.simulation = angular.copy($scope.simulation);
     settings.solver = angular.copy($scope.solver);
-    settings.solverResult = angular.copy($scope.solverResult);
 
     $scope.savedSettings[$scope.settings.name] = settings;
   }
@@ -186,7 +192,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     clean = clean && angular.equals(settings.sequenceSettings, angular.copy($scope.sequenceSettings));
     clean = clean && angular.equals(settings.simulation, angular.copy($scope.simulation));
     clean = clean && angular.equals(settings.solver, angular.copy($scope.solver));
-    clean = clean && angular.equals(settings.solverResult, angular.copy($scope.solverResult));
 
     return !clean;
   }
@@ -672,9 +677,7 @@ function savePageState($scope) {
   localStorage['settings.sequence'] = JSON.stringify($scope.sequence);
   localStorage['settings.sequenceSettings'] = JSON.stringify($scope.sequenceSettings);
   localStorage['settings.simulation'] = JSON.stringify($scope.simulation);
-  localStorage['settings.simulationResult'] = JSON.stringify($scope.simulationResult);
   localStorage['settings.solver'] = JSON.stringify($scope.solver);
-  localStorage['settings.solverResult'] = JSON.stringify($scope.solverResult);
 
   return true;
 }
@@ -776,17 +779,6 @@ function loadPageState($scope) {
     $scope.simulation = {};
   }
 
-  var simulationResult = localStorage['settings.simulationResult'];
-  if (simulationResult) {
-    $scope.simulationResult = JSON.parse(simulationResult);
-  }
-  else {
-    $scope.simulationResult = {
-      logText: '',
-      finalState: null,
-    };
-  }
-
   var solver = localStorage['settings.solver'];
   if (solver) {
     $scope.solver = JSON.parse(solver);
@@ -796,18 +788,6 @@ function loadPageState($scope) {
       penaltyWeight: 10000,
       population: 300,
       generations: 100,
-    };
-  }
-
-  var solverResult = localStorage['settings.solverResult'];
-  if (solverResult) {
-    $scope.solverResult = JSON.parse(solverResult);
-  }
-  else {
-    $scope.solverResult = {
-      logText: '',
-      sequence: [],
-      finalState: null,
     };
   }
 
