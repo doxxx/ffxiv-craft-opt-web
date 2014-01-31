@@ -826,6 +826,9 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
 // Actions
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level
+var dummyAction = new Action(       'dummyAction',          '______________',       0,  0,      1, 0.0, 0.0, 'immediate',   1,  'All',          1);
+var observe = new Action(           'observe',              'Observe',              0, 14,      1, 0.0, 0.0, 'immediate',   1,  'All',          1);
+
 var basicSynth = new Action(        'basicSynth',           'Basic Synthesis',      10,  0,   0.9, 0.0, 1.0, 'immediate',   1,  'All',          1);
 var standardSynthesis = new Action( 'standardSynthesis',    'Standard Synthesis',   10,  15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31);
 var carefulSynthesis = new Action(  'carefulSynthesis',     'Careful Synthesis',    10,  0,   1.0, 0.0, 0.9, 'immediate',   1,  'Weaver',       15);
