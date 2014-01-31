@@ -826,36 +826,36 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
 // Actions
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level
-var basicSynth = new Action(        'basicSynth',           'Basic Synthesis',      durabilityCost=10,  cpCost=0,   successProbability=0.9, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=1.0, aType='immediate',   activeTurns=1,  cls='All',          level=1);
-var standardSynthesis = new Action( 'standardSynthesis',    'Standard Synthesis',   durabilityCost=10,  cpCost=15,  successProbability=0.9, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=1.5, aType='immediate',   activeTurns=1,  cls='All',          level=31);
-var carefulSynthesis = new Action(  'carefulSynthesis',     'Careful Synthesis',    durabilityCost=10,  cpCost=0,   successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.9, aType='immediate',   activeTurns=1,  cls='Weaver',       level=15);
-var carefulSynthesis2 = new Action( 'carefulSynthesis2',    'Careful Synthesis II', durabilityCost=10,  cpCost=0,   successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=1.2, aType='immediate',   activeTurns=1,  cls='Weaver',       level=50);
-var rapidSynthesis = new Action(    'rapidSynthesis',       'Rapid Synthesis',      durabilityCost=10,  cpCost=0,   successProbability=0.5, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=2.5, aType='immediate',   activeTurns=1,  cls='Armorer',      level=15);
-var flawlessSynthesis = new Action( 'flawlessSynthesis',    'Flawless Synthesis',   durabilityCost=10,  cpCost=15,  successProbability=0.9, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=1.0, aType='immediate',   activeTurns=1,  cls='Goldsmith',    level=37);
-var pieceByPiece = new Action(      'pieceByPiece',         'Piece By Piece',       durabilityCost=10,  cpCost=15,  successProbability=0.9, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=1.0, aType='immediate',   activeTurns=1,  cls='Armorer',      level=50);
+var basicSynth = new Action(        'basicSynth',           'Basic Synthesis',      10,  0,   0.9, 0.0, 1.0, 'immediate',   1,  'All',          1);
+var standardSynthesis = new Action( 'standardSynthesis',    'Standard Synthesis',   10,  15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31);
+var carefulSynthesis = new Action(  'carefulSynthesis',     'Careful Synthesis',    10,  0,   1.0, 0.0, 0.9, 'immediate',   1,  'Weaver',       15);
+var carefulSynthesis2 = new Action( 'carefulSynthesis2',    'Careful Synthesis II', 10,  0,   1.0, 0.0, 1.2, 'immediate',   1,  'Weaver',       50);
+var rapidSynthesis = new Action(    'rapidSynthesis',       'Rapid Synthesis',      10,  0,   0.5, 0.0, 2.5, 'immediate',   1,  'Armorer',      15);
+var flawlessSynthesis = new Action( 'flawlessSynthesis',    'Flawless Synthesis',   10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Goldsmith',    37);
+var pieceByPiece = new Action(      'pieceByPiece',         'Piece By Piece',       10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      50);
 
-var basicTouch = new Action(        'basicTouch',           'Basic Touch',          durabilityCost=10,  cpCost=18,  successProbability=0.7, qualityIncreaseMultiplier=1.0, progressIncreaseMultiplier=0.0, aType='immediate',   activeTurns=1,  cls='All',          level=5);
-var standardTouch = new Action(     'standardTouch',        'Standard Touch',       durabilityCost=10,  cpCost=32,  successProbability=0.8, qualityIncreaseMultiplier=1.25,progressIncreaseMultiplier=0.0, aType='immediate',   activeTurns=1,  cls='All',          level=18);
-var advancedTouch = new Action(     'advancedTouch',        'Advanced Touch',       durabilityCost=10,  cpCost=48,  successProbability=0.9, qualityIncreaseMultiplier=1.5, progressIncreaseMultiplier=0.0, aType='immediate',   activeTurns=1,  cls='All',          level=43);
-var hastyTouch = new Action(        'hastyTouch',           'Hasty Touch',          durabilityCost=10,  cpCost=0,   successProbability=0.5, qualityIncreaseMultiplier=1.0, progressIncreaseMultiplier=0.0, aType='immediate',   activeTurns=1,  cls='Culinarian',   level=15);
-var byregotsBlessing = new Action(  'byregotsBlessing',     'Byregot\'s Blessing',  durabilityCost=10,  cpCost=24,  successProbability=0.9, qualityIncreaseMultiplier=1.0, progressIncreaseMultiplier=0.0, aType='immediate',   activeTurns=1,  cls='Carpenter',    level=50);
+var basicTouch = new Action(        'basicTouch',           'Basic Touch',          10,  18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          5);
+var standardTouch = new Action(     'standardTouch',        'Standard Touch',       10,  32,  0.8, 1.25,0.0, 'immediate',   1,  'All',          18);
+var advancedTouch = new Action(     'advancedTouch',        'Advanced Touch',       10,  48,  0.9, 1.5, 0.0, 'immediate',   1,  'All',          43);
+var hastyTouch = new Action(        'hastyTouch',           'Hasty Touch',          10,  0,   0.5, 1.0, 0.0, 'immediate',   1,  'Culinarian',   15);
+var byregotsBlessing = new Action(  'byregotsBlessing',     'Byregot\'s Blessing',  10,  24,  0.9, 1.0, 0.0, 'immediate',   1,  'Carpenter',    50);
 
-var mastersMend = new Action(       'mastersMend',          'Master\'s Mend',       durabilityCost=0,   cpCost=92,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='immediate',   activeTurns=1,  cls='All',          level=7);
-var mastersMend2 = new Action(      'mastersMend2',         'Master\'s Mend II',    durabilityCost=0,   cpCost=160, successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='immediate',   activeTurns=1,  cls='All',          level=25);
-var rumination = new Action(        'rumination',           'Rumination',           durabilityCost=0,   cpCost=0,   successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='immediate',   activeTurns=1,  cls='Carpenter',    level=15);
-var tricksOfTheTrade = new Action(  'tricksOfTheTrade',     'Tricks Of The Trade',  durabilityCost=0,   cpCost=0,   successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='immediate',   activeTurns=1,  cls='Alchemist',    level=15);
+var mastersMend = new Action(       'mastersMend',          'Master\'s Mend',       0,   92,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          7);
+var mastersMend2 = new Action(      'mastersMend2',         'Master\'s Mend II',    0,   160, 1.0, 0.0, 0.0, 'immediate',   1,  'All',          25);
+var rumination = new Action(        'rumination',           'Rumination',           0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Carpenter',    15);
+var tricksOfTheTrade = new Action(  'tricksOfTheTrade',     'Tricks Of The Trade',  0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Alchemist',    15);
 
-var innerQuiet = new Action(        'innerQuiet',           'Inner Quiet',          durabilityCost=0,   cpCost=18,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countup',     activeTurns=1,  cls='All',          level=11);
-var manipulation = new Action(      'manipulation',         'Manipulation',         durabilityCost=0,   cpCost=88,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=3,  cls='Goldsmith',    level=15);
-var comfortZone = new Action(       'comfortZone',          'Comfort Zone',         durabilityCost=0,   cpCost=66,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=10, cls='Alchemist',    level=50);
-var steadyHand = new Action(        'steadyHand',           'Steady Hand',          durabilityCost=0,   cpCost=22,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=5,  cls='All',          level=9);
-var steadyHand2 = new Action(       'steadyHand2',          'Steady Hand II',       durabilityCost=0,   cpCost=25,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=5,  cls='Culinarian',   level=37);
-var wasteNot = new Action(          'wasteNot',             'Waste Not',            durabilityCost=0,   cpCost=56,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=4,  cls='Leatherworker',level=15);
-var wasteNot2 = new Action(         'wasteNot2',            'Waste Not II',         durabilityCost=0,   cpCost=98,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=8,  cls='Leatherworker',level=50);
-var innovation = new Action(        'innovation',           'Innovation',           durabilityCost=0,   cpCost=18,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=3,  cls='Goldsmith',    level=50);
-var greatStrides = new Action(      'greatStrides',         'Great Strides',        durabilityCost=0,   cpCost=32,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=3,  cls='All',          level=21);
-var ingenuity = new Action(         'ingenuity',            'Ingenuity',            durabilityCost=0,   cpCost=24,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=5,  cls='Blacksmith',   level=15);
-var ingenuity2 = new Action(        'ingenuity2',           'Ingenuity II',         durabilityCost=0,   cpCost=32,  successProbability=1.0, qualityIncreaseMultiplier=0.0, progressIncreaseMultiplier=0.0, aType='countdown',   activeTurns=5,  cls='Blacksmith',   level=50);
+var innerQuiet = new Action(        'innerQuiet',           'Inner Quiet',          0,   18,  1.0, 0.0, 0.0, 'countup',     1,  'All',          11);
+var manipulation = new Action(      'manipulation',         'Manipulation',         0,   88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15);
+var comfortZone = new Action(       'comfortZone',          'Comfort Zone',         0,   66,  1.0, 0.0, 0.0, 'countdown',   10, 'Alchemist',    50);
+var steadyHand = new Action(        'steadyHand',           'Steady Hand',          0,   22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          9);
+var steadyHand2 = new Action(       'steadyHand2',          'Steady Hand II',       0,   25,  1.0, 0.0, 0.0, 'countdown',   5,  'Culinarian',   37);
+var wasteNot = new Action(          'wasteNot',             'Waste Not',            0,   56,  1.0, 0.0, 0.0, 'countdown',   4,  'Leatherworker',15);
+var wasteNot2 = new Action(         'wasteNot2',            'Waste Not II',         0,   98,  1.0, 0.0, 0.0, 'countdown',   8,  'Leatherworker',50);
+var innovation = new Action(        'innovation',           'Innovation',           0,   18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50);
+var greatStrides = new Action(      'greatStrides',         'Great Strides',        0,   32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21);
+var ingenuity = new Action(         'ingenuity',            'Ingenuity',            0,   24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15);
+var ingenuity2 = new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50);
 
 
 // Test objects
