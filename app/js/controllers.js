@@ -21,7 +21,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   // non-persistent page states
   $scope.navBarCollapsed = true;
 
-  $scope.simulatorRunning = false;
+  $scope.simulatorStatus = {
+    running: false,
+    worker: new Worker('js/simulationworker.js')
+  };
 
   $scope.solverStatus = {
     running: false,
@@ -322,18 +325,18 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   // Web Service API
 
-  $scope.simulationSuccess = function(data, status, headers, config) {
+  $scope.simulationSuccess = function(data) {
     $scope.simulationResult.logText = data.log;
     $scope.simulationResult.finalState = data.finalState;
     $scope.simulatorTabs.simulation.active = true;
-    $scope.simulatorRunning = false;
+    $scope.simulatorStatus.running = false;
   }
 
-  $scope.simulationError = function(data, status, headers, config) {
+  $scope.simulationError = function(data) {
     $scope.simulationResult.logText = data.log;
     $scope.simulationResult.logText += '\n\nError: ' + data.error
     $scope.simulatorTabs.simulation.active = true;
-    $scope.simulatorRunning = false;
+    $scope.simulatorStatus.running = false;
   }
   
   $scope.runSimulation = function(success, error) {
@@ -341,7 +344,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       error({log: '', error: 'Must provide non-empty sequence'});
       return;
     }
-    $scope.simulatorRunning = true;
+    $scope.simulatorStatus.running = true;
     var settings = {
       crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
       recipe: $scope.recipe,
@@ -352,9 +355,20 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     if ($scope.sequenceSettings.specifySeed) {
       settings.seed = $scope.sequenceSettings.seed;
     }
-    $http.post(_getSolverServiceURL() + 'simulation', settings).
-      success(success).
-      error(error);
+    $scope.simulatorStatus.worker.onmessage = function(e) {
+      console.dir(e.data);
+      if (e.data.success) {
+        $scope.simulationSuccess(e.data.success);
+      }
+      else if (e.data.error) {
+        $scope.simulationError(e.data.error);
+      }
+      else {
+        console.error('unexpected message from simulation worker: %O', e.data);
+      }
+      $scope.$apply();
+    };
+    $scope.simulatorStatus.worker.postMessage(settings);
   }
 
   $scope.solverSuccess = function(data) {
@@ -538,18 +552,18 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
   }
 
   $scope.simulate = function() {
-    $scope.simulatorRunning = true;
+    $scope.simulatorStatus.running = true;
     $scope.runSimulation($scope.simulationSuccess, $scope.simulationError);
   }
 
   $scope.simulationSuccess = function(data, status, headers, config) {
     $scope.simulationResult.finalState = data.finalState;
-    $scope.simulatorRunning = false;
+    $scope.simulatorStatus.running = false;
   }
 
   $scope.simulationError = function(data, status, headers, config) {
     $scope.simulationResult.error = data.error;
-    $scope.simulatorRunning = false;
+    $scope.simulatorStatus.running = false;
   }
 
   $scope.runSimulation = function(success, error) {
@@ -557,7 +571,7 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
       error({log: '', error: 'Must provide non-empty sequence'});
       return;
     }
-    $scope.simulatorRunning = true;
+    $scope.simulatorStatus.running = true;
     var settings = {
       crafter: addBonusStats(crafterStats, bonusStats),
       recipe: recipe,

@@ -1,4 +1,4 @@
-require('./String.js');
+//require('./String.js');
 
 function Logger() {
     this.log = function(myString) {
@@ -204,27 +204,27 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         // Add effect modifiers
         var craftsmanship = synth.crafter.craftsmanship;
         var control = synth.crafter.control;
-        if (innerQuiet.name in effects.countUps) {
-            control *= (1 + 0.2 * effects.countUps[innerQuiet.name]);
+        if (AllActions.innerQuiet.name in effects.countUps) {
+            control *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
         }
 
-        if (innovation.name in effects.countDowns) {
+        if (AllActions.innovation.name in effects.countDowns) {
             control *= 1.5;
         }
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
-        if (ingenuity2.name in effects.countDowns) {
+        if (AllActions.ingenuity2.name in effects.countDowns) {
             levelDifference = 3;
         }
-        else if (ingenuity.name in effects.countDowns) {
+        else if (AllActions.ingenuity.name in effects.countDowns) {
             levelDifference = 0;
         }
 
         var successProbability = action.successProbability;
-        if (steadyHand2.name in effects.countDowns) {
+        if (AllActions.steadyHand2.name in effects.countDowns) {
             successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
         }
-        else if (steadyHand.name in effects.countDowns) {
+        else if (AllActions.steadyHand.name in effects.countDowns) {
             successProbability = action.successProbability + 0.2;
         }
         else {
@@ -233,7 +233,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         successProbability = Math.min(successProbability, 1);
 
         var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
-        if (greatStrides.name in effects.countDowns) {
+        if (AllActions.greatStrides.name in effects.countDowns) {
             qualityIncreaseMultiplier *= 2;
         }
 
@@ -244,28 +244,28 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
 
         // Calculate final gains / losses
         var bProgressGain = action.progressIncreaseMultiplier * synth.CalculateBaseProgressIncrease(levelDifference, craftsmanship);
-        if (isActionEq(action, flawlessSynthesis)) {
+        if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
         }
-        else if (isActionEq(action, pieceByPiece)) {
+        else if (isActionEq(action, AllActions.pieceByPiece)) {
             bProgressGain = (synth.recipe.difficulty - progressState)/3;
         }
         var progressGain = successProbability * bProgressGain;
 
         var bQualityGain = qualityIncreaseMultiplier * synth.CalculateBaseQualityIncrease(levelDifference, control);
         var qualityGain = successProbability * bQualityGain;
-        if (isActionEq(action, byregotsBlessing)) {
+        if (isActionEq(action, AllActions.byregotsBlessing)) {
             qualityGain *= (1 + 0.2 * effects.countUps[innerQuiet.name]);
         }
 
         var durabilityCost = action.durabilityCost;
-        if ((wasteNot.name in effects.countDowns) || (wasteNot2.name in effects.countDowns)) {
+        if ((AllActions.wasteNot.name in effects.countDowns) || (AllActions.wasteNot2.name in effects.countDowns)) {
             durabilityCost = 0.5 * action.durabilityCost;
         }
 
         // Occur if a wasted action
         //==================================
-        if (((progressState >= synth.recipe.difficulty) || (durabilityState <= 0)) && (action != dummyAction)) {
+        if (((progressState >= synth.recipe.difficulty) || (durabilityState <= 0)) && (action != AllActions.dummyAction)) {
             wastedActions += 1;
         }
 
@@ -281,46 +281,46 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             // Effect management
             //==================================
             // Special Effect Actions
-            if (isActionEq(action, mastersMend)) {
+            if (isActionEq(action, AllActions.mastersMend)) {
                 durabilityState += 30;
             }
 
-            if (isActionEq(action, mastersMend2)) {
+            if (isActionEq(action, AllActions.mastersMend2)) {
                 durabilityState += 60;
             }
 
-            if ((manipulation.name in effects.countDowns) && (durabilityState > 0)) {
+            if ((AllActions.manipulation.name in effects.countDowns) && (durabilityState > 0)) {
                 durabilityState += 10;
             }
 
-            if ((comfortZone.name in effects.countDowns) && (cpState > 0)) {
+            if ((AllActions.comfortZone.name in effects.countDowns) && (cpState > 0)) {
                 cpState += 8;
             }
 
-            if ((isActionEq(action, rumination)) && (cpState > 0)) {
-                if ((innerQuiet.name in effects.countUps) && (effects.countUps[innerQuiet.name] > 0)) {
-                    cpState += (21 * effects.countUps[innerQuiet.name] - Math.pow(effects.countUps[innerQuiet.name],2) + 10)/2;
-                    delete effects.countUps[innerQuiet.name];
+            if ((isActionEq(action, AllActions.rumination)) && (cpState > 0)) {
+                if ((AllActions.innerQuiet.name in effects.countUps) && (effects.countUps[AllActions.innerQuiet.name] > 0)) {
+                    cpState += (21 * effects.countUps[AllActions.innerQuiet.name] - Math.pow(effects.countUps[AllActions.innerQuiet.name],2) + 10)/2;
+                    delete effects.countUps[AllActions.innerQuiet.name];
                 }
                 else {
                     wastedActions += 1;
                 }
             }
 
-            if (isActionEq(action, byregotsBlessing)) {
-                if (innerQuiet.name in effects.countUps) {
-                    delete effects.countUps[innerQuiet.name];
+            if (isActionEq(action, AllActions.byregotsBlessing)) {
+                if (AllActions.innerQuiet.name in effects.countUps) {
+                    delete effects.countUps[AllActions.innerQuiet.name];
                 }
                 else {
                     wastedActions += 1;
                 }
             }
 
-            if ((action.qualityIncreaseMultiplier > 0) && (greatStrides.name in effects.countDowns)) {
-                delete effects.countDowns[greatStrides.name];
+            if ((action.qualityIncreaseMultiplier > 0) && (AllActions.greatStrides.name in effects.countDowns)) {
+                delete effects.countDowns[AllActions.greatStrides.name];
             }
 
-            if ((isActionEq(action, tricksOfTheTrade)) && (cpState > 0)) {
+            if ((isActionEq(action, AllActions.tricksOfTheTrade)) && (cpState > 0)) {
                 trickUses += 1;
                 cpState += 20;
             }
@@ -342,8 +342,8 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             }
 
             // Increment countups
-            if ((action.qualityIncreaseMultiplier > 0) && (innerQuiet.name in effects.countUps)) {
-                effects.countUps[innerQuiet.name] += 1 * successProbability;
+            if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in effects.countUps)) {
+                effects.countUps[AllActions.innerQuiet.name] += 1 * successProbability;
             }
 
             // Initialize new effects after countdowns are managed to reset them properly
@@ -372,8 +372,8 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
 
         if (debug) {
             var iqCnt = 0;
-            if (innerQuiet.name in effects.countUps) {
-                iqCnt = effects.countUps[innerQuiet.name];
+            if (AllActions.innerQuiet.name in effects.countUps) {
+                iqCnt = effects.countUps[AllActions.innerQuiet.name];
             }
             logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
         }
@@ -436,7 +436,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     // Strip Tricks of the Trade from individual
     var tempIndividual = [];
     for (var i=0; i < individual.length; i++) {
-        if (isActionNe(tricksOfTheTrade, individual[i])) {
+        if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
             tempIndividual[tempIndividual.length] = individual[i];
         }
     }
@@ -475,26 +475,26 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         // Add effect modifiers
         var craftsmanship = synth.crafter.craftsmanship;
         var control = synth.crafter.control;
-        if (innerQuiet.name in effects.countUps) {
-            control *= (1 + 0.2 * effects.countUps[innerQuiet.name]);
+        if (AllActions.innerQuiet.name in effects.countUps) {
+            control *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
         }
 
-        if (innovation.name in effects.countDowns) {
+        if (AllActions.innovation.name in effects.countDowns) {
             control *= 1.5;
         }
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
-        if (ingenuity2.name in effects.countDowns) {
+        if (AllActions.ingenuity2.name in effects.countDowns) {
             levelDifference = 3;
         }
-        else if (ingenuity.name in effects.countDowns) {
+        else if (AllActions.ingenuity.name in effects.countDowns) {
             levelDifference = 0;
         }
 
-        if (steadyHand2.name in effects.countDowns) {
+        if (AllActions.steadyHand2.name in effects.countDowns) {
             successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
         }
-        else if (steadyHand.name in effects.countDowns) {
+        else if (AllActions.steadyHand.name in effects.countDowns) {
             successProbability = action.successProbability + 0.2;
         }
         else {
@@ -503,7 +503,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         var successProbability = Math.min(successProbability, 1);
 
         var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
-        if (greatStrides.name in effects.countDowns) {
+        if (AllActions.greatStrides.name in effects.countDowns) {
             qualityIncreaseMultiplier *= 2;
         }
 
@@ -547,28 +547,28 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         var bProgressGain = action.progressIncreaseMultiplier * synth.CalculateBaseProgressIncrease(levelDifference, craftsmanship);
-        if (isActionEq(action, flawlessSynthesis)) {
+        if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
         }
-        else if (isActionEq(action, pieceByPiece)) {
+        else if (isActionEq(action, AllActions.pieceByPiece)) {
             bProgressGain = (synth.recipe.difficulty - progressState)/3;
         }
         var progressGain = success * bProgressGain;
 
         var bQualityGain = qualityIncreaseMultiplier * synth.CalculateBaseQualityIncrease(levelDifference, control);
         var qualityGain = success * bQualityGain;
-        if (isActionEq(action, byregotsBlessing)) {
-            qualityGain *= (1 + 0.2 * effects.countUps[innerQuiet.name]);
+        if (isActionEq(action, AllActions.byregotsBlessing)) {
+            qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
         }
 
         var durabilityCost = action.durabilityCost;
-        if (wasteNot.name in effects.countDowns || wasteNot2.name in effects.countDowns) {
+        if (AllActions.wasteNot.name in effects.countDowns || AllActions.wasteNot2.name in effects.countDowns) {
             durabilityCost = 0.5 * action.durabilityCost;
         }
 
         // Occur if a dummy action
         //==================================
-        if ((progressState >= synth.recipe.difficulty || durabilityState <= 0) && action != dummyAction) {
+        if ((progressState >= synth.recipe.difficulty || durabilityState <= 0) && action != AllActions.dummyAction) {
             wastedActions += 1;
         }
 
@@ -584,46 +584,46 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             // Effect management
             //==================================
             // Special Effect Actions
-            if (isActionEq(action, mastersMend)) {
+            if (isActionEq(action, AllActions.mastersMend)) {
                 durabilityState += 30;
             }
 
-            if (isActionEq(action, mastersMend2)) {
+            if (isActionEq(action, AllActions.mastersMend2)) {
                 durabilityState += 60;
             }
 
-            if (manipulation.name in effects.countDowns && durabilityState > 0) {
+            if (AllActions.manipulation.name in effects.countDowns && durabilityState > 0) {
                 durabilityState += 10;
             }
 
-            if (comfortZone.name in effects.countDowns && cpState > 0) {
+            if (AllActions.comfortZone.name in effects.countDowns && cpState > 0) {
                 cpState += 8;
             }
 
-            if (isActionEq(action, rumination) && cpState > 0) {
-                if (innerQuiet.name in effects.countUps && effects.countUps[innerQuiet.name] > 0) {
-                    cpState += (21 * effects.countUps[innerQuiet.name] - Math.pow(effects.countUps[innerQuiet.name],2) + 10)/2;
-                    delete effects.countUps[innerQuiet.name];
+            if (isActionEq(action, AllActions.rumination) && cpState > 0) {
+                if (AllActions.innerQuiet.name in effects.countUps && effects.countUps[AllActions.innerQuiet.name] > 0) {
+                    cpState += (21 * effects.countUps[AllActions.innerQuiet.name] - Math.pow(effects.countUps[AllActions.innerQuiet.name],2) + 10)/2;
+                    delete effects.countUps[AllActions.innerQuiet.name];
                 }
                 else {
                     wastedActions += 1;
                 }
             }
 
-            if (isActionEq(action, byregotsBlessing)) {
-                if (innerQuiet.name in effects.countUps) {
-                    delete effects.countUps[innerQuiet.name]
+            if (isActionEq(action, AllActions.byregotsBlessing)) {
+                if (AllActions.innerQuiet.name in effects.countUps) {
+                    delete effects.countUps[AllActions.innerQuiet.name]
                 }
                 else {
                     wastedActions += 1;
                 }
             }
 
-            if (action.qualityIncreaseMultiplier > 0 && greatStrides.name in effects.countDowns) {
-                delete effects.countDowns[greatStrides.name];
+            if (action.qualityIncreaseMultiplier > 0 && AllActions.greatStrides.name in effects.countDowns) {
+                delete effects.countDowns[AllActions.greatStrides.name];
             }
 
-            if (isActionEq(action, tricksOfTheTrade) && cpState > 0) {
+            if (isActionEq(action, AllActions.tricksOfTheTrade) && cpState > 0) {
                 trickUses += 1;
                 cpState += 20;
             }
@@ -637,8 +637,8 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             }
 
             // Increment countups
-            if (action.qualityIncreaseMultiplier > 0 && innerQuiet.name in effects.countUps) {
-                effects.countUps[innerQuiet.name] += 1 * success;
+            if (action.qualityIncreaseMultiplier > 0 && AllActions.innerQuiet.name in effects.countUps) {
+                effects.countUps[AllActions.innerQuiet.name] += 1 * success;
             }
 
             // Initialize new effects after countdowns are managed to reset them properly
@@ -667,8 +667,8 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
 
         if (debug) {
             var iqCnt = 0;
-            if (innerQuiet.name in effects.countUps) {
-                iqCnt = effects.countUps[innerQuiet.name];
+            if (AllActions.innerQuiet.name in effects.countUps) {
+                iqCnt = effects.countUps[AllActions.innerQuiet.name];
             }
             logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
         }
@@ -826,43 +826,45 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
 // Actions
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level
-var dummyAction = new Action(       'dummyAction',          '______________',       0,  0,      1, 0.0, 0.0, 'immediate',   1,  'All',          1);
-var observe = new Action(           'observe',              'Observe',              0, 14,      1, 0.0, 0.0, 'immediate',   1,  'All',          1);
+var AllActions = {
+  dummyAction: new Action(       'dummyAction',          '______________',       0,  0,      1, 0.0, 0.0, 'immediate',   1,  'All',          1),
+  observe: new Action(           'observe',              'Observe',              0, 14,      1, 0.0, 0.0, 'immediate',   1,  'All',          1),
 
-var basicSynth = new Action(        'basicSynth',           'Basic Synthesis',      10,  0,   0.9, 0.0, 1.0, 'immediate',   1,  'All',          1);
-var standardSynthesis = new Action( 'standardSynthesis',    'Standard Synthesis',   10,  15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31);
-var carefulSynthesis = new Action(  'carefulSynthesis',     'Careful Synthesis',    10,  0,   1.0, 0.0, 0.9, 'immediate',   1,  'Weaver',       15);
-var carefulSynthesis2 = new Action( 'carefulSynthesis2',    'Careful Synthesis II', 10,  0,   1.0, 0.0, 1.2, 'immediate',   1,  'Weaver',       50);
-var rapidSynthesis = new Action(    'rapidSynthesis',       'Rapid Synthesis',      10,  0,   0.5, 0.0, 2.5, 'immediate',   1,  'Armorer',      15);
-var flawlessSynthesis = new Action( 'flawlessSynthesis',    'Flawless Synthesis',   10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Goldsmith',    37);
-var pieceByPiece = new Action(      'pieceByPiece',         'Piece By Piece',       10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      50);
+  basicSynth: new Action(        'basicSynth',           'Basic Synthesis',      10,  0,   0.9, 0.0, 1.0, 'immediate',   1,  'All',          1),
+  standardSynthesis: new Action( 'standardSynthesis',    'Standard Synthesis',   10,  15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31),
+  carefulSynthesis: new Action(  'carefulSynthesis',     'Careful Synthesis',    10,  0,   1.0, 0.0, 0.9, 'immediate',   1,  'Weaver',       15),
+  carefulSynthesis2: new Action( 'carefulSynthesis2',    'Careful Synthesis II', 10,  0,   1.0, 0.0, 1.2, 'immediate',   1,  'Weaver',       50),
+  rapidSynthesis: new Action(    'rapidSynthesis',       'Rapid Synthesis',      10,  0,   0.5, 0.0, 2.5, 'immediate',   1,  'Armorer',      15),
+  flawlessSynthesis: new Action( 'flawlessSynthesis',    'Flawless Synthesis',   10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Goldsmith',    37),
+  pieceByPiece: new Action(      'pieceByPiece',         'Piece By Piece',       10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      50),
 
-var basicTouch = new Action(        'basicTouch',           'Basic Touch',          10,  18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          5);
-var standardTouch = new Action(     'standardTouch',        'Standard Touch',       10,  32,  0.8, 1.25,0.0, 'immediate',   1,  'All',          18);
-var advancedTouch = new Action(     'advancedTouch',        'Advanced Touch',       10,  48,  0.9, 1.5, 0.0, 'immediate',   1,  'All',          43);
-var hastyTouch = new Action(        'hastyTouch',           'Hasty Touch',          10,  0,   0.5, 1.0, 0.0, 'immediate',   1,  'Culinarian',   15);
-var byregotsBlessing = new Action(  'byregotsBlessing',     'Byregot\'s Blessing',  10,  24,  0.9, 1.0, 0.0, 'immediate',   1,  'Carpenter',    50);
+  basicTouch: new Action(        'basicTouch',           'Basic Touch',          10,  18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          5),
+  standardTouch: new Action(     'standardTouch',        'Standard Touch',       10,  32,  0.8, 1.25,0.0, 'immediate',   1,  'All',          18),
+  advancedTouch: new Action(     'advancedTouch',        'Advanced Touch',       10,  48,  0.9, 1.5, 0.0, 'immediate',   1,  'All',          43),
+  hastyTouch: new Action(        'hastyTouch',           'Hasty Touch',          10,  0,   0.5, 1.0, 0.0, 'immediate',   1,  'Culinarian',   15),
+  byregotsBlessing: new Action(  'byregotsBlessing',     'Byregot\'s Blessing',  10,  24,  0.9, 1.0, 0.0, 'immediate',   1,  'Carpenter',    50),
 
-var mastersMend = new Action(       'mastersMend',          'Master\'s Mend',       0,   92,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          7);
-var mastersMend2 = new Action(      'mastersMend2',         'Master\'s Mend II',    0,   160, 1.0, 0.0, 0.0, 'immediate',   1,  'All',          25);
-var rumination = new Action(        'rumination',           'Rumination',           0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Carpenter',    15);
-var tricksOfTheTrade = new Action(  'tricksOfTheTrade',     'Tricks Of The Trade',  0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Alchemist',    15);
+  mastersMend: new Action(       'mastersMend',          'Master\'s Mend',       0,   92,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          7),
+  mastersMend2: new Action(      'mastersMend2',         'Master\'s Mend II',    0,   160, 1.0, 0.0, 0.0, 'immediate',   1,  'All',          25),
+  rumination: new Action(        'rumination',           'Rumination',           0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Carpenter',    15),
+  tricksOfTheTrade: new Action(  'tricksOfTheTrade',     'Tricks Of The Trade',  0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Alchemist',    15),
 
-var innerQuiet = new Action(        'innerQuiet',           'Inner Quiet',          0,   18,  1.0, 0.0, 0.0, 'countup',     1,  'All',          11);
-var manipulation = new Action(      'manipulation',         'Manipulation',         0,   88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15);
-var comfortZone = new Action(       'comfortZone',          'Comfort Zone',         0,   66,  1.0, 0.0, 0.0, 'countdown',   10, 'Alchemist',    50);
-var steadyHand = new Action(        'steadyHand',           'Steady Hand',          0,   22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          9);
-var steadyHand2 = new Action(       'steadyHand2',          'Steady Hand II',       0,   25,  1.0, 0.0, 0.0, 'countdown',   5,  'Culinarian',   37);
-var wasteNot = new Action(          'wasteNot',             'Waste Not',            0,   56,  1.0, 0.0, 0.0, 'countdown',   4,  'Leatherworker',15);
-var wasteNot2 = new Action(         'wasteNot2',            'Waste Not II',         0,   98,  1.0, 0.0, 0.0, 'countdown',   8,  'Leatherworker',50);
-var innovation = new Action(        'innovation',           'Innovation',           0,   18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50);
-var greatStrides = new Action(      'greatStrides',         'Great Strides',        0,   32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21);
-var ingenuity = new Action(         'ingenuity',            'Ingenuity',            0,   24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15);
-var ingenuity2 = new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50);
-
+  innerQuiet: new Action(        'innerQuiet',           'Inner Quiet',          0,   18,  1.0, 0.0, 0.0, 'countup',     1,  'All',          11),
+  manipulation: new Action(      'manipulation',         'Manipulation',         0,   88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15),
+  comfortZone: new Action(       'comfortZone',          'Comfort Zone',         0,   66,  1.0, 0.0, 0.0, 'countdown',   10, 'Alchemist',    50),
+  steadyHand: new Action(        'steadyHand',           'Steady Hand',          0,   22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          9),
+  steadyHand2: new Action(       'steadyHand2',          'Steady Hand II',       0,   25,  1.0, 0.0, 0.0, 'countdown',   5,  'Culinarian',   37),
+  wasteNot: new Action(          'wasteNot',             'Waste Not',            0,   56,  1.0, 0.0, 0.0, 'countdown',   4,  'Leatherworker',15),
+  wasteNot2: new Action(         'wasteNot2',            'Waste Not II',         0,   98,  1.0, 0.0, 0.0, 'countdown',   8,  'Leatherworker',50),
+  innovation: new Action(        'innovation',           'Innovation',           0,   18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50),
+  greatStrides: new Action(      'greatStrides',         'Great Strides',        0,   32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
+  ingenuity: new Action(         'ingenuity',            'Ingenuity',            0,   24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15),
+  ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50),
+}
 
 // Test objects
 //cls, level, craftsmanship, control, craftPoints, actions
+/*
 var myWeaverActions = [basicSynth];
 var myWeaver = new Crafter('Weaver', 20, 119, 117, 243, myWeaverActions);
 var initiatesSlops = new Recipe(20,74,70,0,1053);
@@ -873,3 +875,4 @@ simSynth(actionSequence, mySynth, false, true);
 MonteCarloSynth(actionSequence, mySynth, false, true);
 MonteCarloSim(actionSequence, mySynth, 500);
 evalSeq(actionSequence, mySynth);
+*/
