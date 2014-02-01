@@ -29,11 +29,18 @@ this.onmessage = function(e) {
     sequence.push(AllActions[settings.sequence[j]]);
   }
 
-  var finalState = simSynth(sequence, synth, false, false);
+  var logOutput = {
+    log: '',
+    write: function(msg) {
+      logOutput.log += msg;
+    }
+  };
+
+  var finalState = simSynth(sequence, synth, true, false, logOutput);
 
   var result = {
     success: {
-      log: '',
+      log: logOutput.log,
       finalState: {
         quality: finalState.qualityState,
         durabilityOk: finalState.durabilityOk,

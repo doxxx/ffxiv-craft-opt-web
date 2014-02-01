@@ -62,8 +62,15 @@ this.onmessage = function(e) {
   console.debug("starting solver");
   yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
 
+  var logOutput = {
+    log: '',
+    write: function(msg) {
+      logOutput.log += msg;
+    }
+  };
+
   var best = hof.entries[0];
-  var finalState = simSynth(best, synth, false, false);
+  var finalState = simSynth(best, synth, true, false, logOutput);
 
   var bestSequence = [];
   for (var k = 0; k < best.length; k++) {
@@ -72,7 +79,7 @@ this.onmessage = function(e) {
 
   var result = {
     success: {
-      log: '',
+      log: logOutput.log,
       finalState: {
         quality: finalState.qualityState,
         durabilityOk: finalState.durabilityOk,

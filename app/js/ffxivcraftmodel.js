@@ -1,9 +1,16 @@
 //require('./String.js');
 
-function Logger() {
+function Logger(logOutput) {
+    this.logOutput = logOutput;
     this.log = function(myString) {
         var args = Array.prototype.slice.call(arguments, 1);
-        console.log(String.prototype.sprintf.apply(myString, args));
+        var msg = String.prototype.sprintf.apply(myString, args);
+        if (this.logOutput !== undefined) {
+          this.logOutput.write(msg + '\n');
+        }
+        else {
+          console.log(msg);
+        }
     };
 }
 
@@ -148,7 +155,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
 
-    var logger = new Logger();
+    var logger = new Logger(logOutput);
 
     // State tracking
     var durabilityState = synth.recipe.durability;
