@@ -629,7 +629,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             }
 
             // Decrement countdowns
-            for (countDown in effects.countDowns.keys) {
+            for (countDown in effects.countDowns) {
                 effects.countDowns[countDown] -= 1;
                 if (effects.countDowns[countDown] == 0) {
                     delete effects.countDowns[countDown];
