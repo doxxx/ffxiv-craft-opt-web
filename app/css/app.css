@@ -180,6 +180,7 @@ legend + .control-group {
 
 .action-table div.action.selected-action {
   border: 3px solid #00aaff;
+  box-shadow: #00aaff 1px 1px 5px 0px;
 }
 
 .action-table div.action.selected-action img {
