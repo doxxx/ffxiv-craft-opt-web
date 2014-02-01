@@ -31,7 +31,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     taskID: null,
     generationsCompleted: 0,
     error: null,
-  }
+    worker: new Worker('js/solverworker.js')
+  };
 
   $scope.simulatorTabs = {
     simulation: { },
@@ -338,7 +339,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
   }
-  
+
   $scope.runSimulation = function(success, error) {
     if ($scope.sequence.length <= 0) {
       error({log: '', error: 'Must provide non-empty sequence'});
@@ -356,7 +357,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       settings.seed = $scope.sequenceSettings.seed;
     }
     $scope.simulatorStatus.worker.onmessage = function(e) {
-      console.dir(e.data);
       if (e.data.success) {
         $scope.simulationSuccess(e.data.success);
       }
@@ -371,49 +371,29 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorStatus.worker.postMessage(settings);
   }
 
+  $scope.solverProgress = function(data) {
+    $scope.solverStatus.generationsCompleted = data.generationsCompleted;
+  };
+
   $scope.solverSuccess = function(data) {
     $scope.solverResult.logText = data.log;
     $scope.solverResult.finalState = data.finalState;
     $scope.solverResult.sequence = data.bestSequence;
     $scope.simulatorTabs.solver.active = true;
     $scope.solverStatus.running = false;
-  }
+    $scope.solverStatus.generationsCompleted = 0;
+  };
 
   $scope.solverError = function(data) {
+    $scope.solverStatus.error = data.error;
     $scope.solverResult.logText = data.log;
     $scope.solverResult.logText += '\n\nError: ' + data.error
     $scope.solverResult.sequence = []
     $scope.simulatorTabs.solver.active = true;
     $scope.solverStatus.running = false;
-  }
+    $scope.solverStatus.generationsCompleted = 0;
+  };
 
-  $scope.checkSolverProgress = function(taskID, success, error) {
-    $timeout(function() {
-      $http.get(_getSolverServiceURL() + "solver", {params: {taskID: taskID}}).
-        success(function(data) {
-          $scope.solverStatus.generationsCompleted = data.generationsCompleted;
-
-          if (!data.done) {
-            $scope.checkSolverProgress(taskID, success, error);
-          }
-          else {
-            if (data.result.error) {
-              $scope.solverStatus.error = data.result.error;
-              error(data.result);
-            }
-            else {
-              success(data.result);
-            }
-          }
-        }).
-        error(function(data) {
-          console.log("Error checking solver status: " + data)
-          $scope.solverStatus.error = data;
-          $scope.solverStatus.running = false;
-        })
-    }, 2000)
-  }
-  
   $scope.runSolver = function() {
     $scope.solverStatus.running = true;
     $scope.solverStatus.generationsCompleted = 0;
@@ -429,12 +409,24 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
     }
-    $http.post(_getSolverServiceURL() + 'solver', settings).
-      success(function(data) {
-        $scope.solverStatus.taskID = data.taskID
-        $scope.checkSolverProgress($scope.solverStatus.taskID, $scope.solverSuccess, $scope.solverError)
-      }).
-      error($scope.solverError);
+    $scope.solverStatus.worker.onmessage = function(e) {
+      if (e.data.progress) {
+        $scope.solverProgress(e.data.progress);
+      }
+      else if (e.data.success) {
+        $scope.solverStatus.worker.onmessage = null;
+        $scope.solverSuccess(e.data.success);
+      }
+      else if (e.data.error) {
+        $scope.solverStatus.worker.onmessage = null;
+        $scope.solverError(e.data.error);
+      }
+      else {
+        console.error("unexpected message from solver worker: %O", e.data);
+      }
+      $scope.$apply();
+    };
+    $scope.solverStatus.worker.postMessage(settings);
   }
 
   $scope.stopSolver = function() {
