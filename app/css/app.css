@@ -243,7 +243,6 @@ legend + .control-group {
 
 .empty-action {
   margin: 4px;
-  border-radius: 4px;
   width: 42px;
   height: 42px;
   display: inline-block;
@@ -252,8 +251,8 @@ legend + .control-group {
 }
 
 .sequence-editor .empty-action.lvl-target {
-  outline: dotted black 1px;
-  background-color: #eeeeee;
+  outline: inset #eeeeee 2px;
+  background-color: #dddddd;
 }
 
 .sequence-editor .lvl-over {
