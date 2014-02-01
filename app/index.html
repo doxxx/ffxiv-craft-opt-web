@@ -97,16 +97,15 @@
                     <div class="control-group" ng-repeat="actionGroup in actionGroups">
                       <label class="control-label">{{actionGroup.name}}</label>
                       <div class="controls">
-                        <div ng-repeat="action in actionGroup.actions track by $index"
+                        <img ng-repeat="action in actionGroup.actions track by $index"
                              class="action selectable-action"
-                             ng-class="actionClasses(action, crafter.cls)">
-                          <img ng-click="toggleAction(action)"
-                               ng-src="{{getActionImagePath(action, crafter.cls)}}"
-                               tooltip-html-unsafe="{{actionTooltip(action, crafter.cls)}}"
-                               tooltip-placement="top"
-                               tooltip-popup-delay="200"
-                               tooltip-append-to-body="true"/>
-                        </div>
+                             ng-class="actionClasses(action, crafter.cls)"
+                             ng-click="toggleAction(action)"
+                             ng-src="{{getActionImagePath(action, crafter.cls)}}"
+                             tooltip-html-unsafe="{{actionTooltip(action, crafter.cls)}}"
+                             tooltip-placement="top"
+                             tooltip-popup-delay="200"
+                             tooltip-append-to-body="true"/>
                       </div>
                     </div>
                   </fieldset>
@@ -231,27 +230,25 @@
                 <span ng-show="!simulatorRunning && !isValidSequence(sequence, recipe.cls)">&nbsp;(<span class="text-error">sequence contains unavailable actions!</span>)</span>
               </h4>
               <div class="sequence well well-small">
-                <div ng-repeat="action in sequence track by $index"
+                <img ng-repeat="action in sequence track by $index"
                      class="action"
-                     ng-class="actionClasses(action, recipe.cls)">
-                  <img ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                       tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
-                       tooltip-placement="top"
-                       tooltip-popup-delay="200"
-                       tooltip-append-to-body="true"/>
-                </div>
+                     ng-class="actionClasses(action, recipe.cls)"
+                     ng-src="{{getActionImagePath(action, recipe.cls)}}"
+                     tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
+                     tooltip-placement="top"
+                     tooltip-popup-delay="200"
+                     tooltip-append-to-body="true"/>
               </div>
               <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
                 <h5>Required Cross Class Actions</h5>
                 <div class="sequence well well-small">
-                  <div ng-repeat="action in uniqueCrossClassActions(sequence, recipe.cls) track by $index"
-                       class="action">
-                    <img ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                         tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-                         tooltip-placement="top"
-                         tooltip-popup-delay="200"
-                         tooltip-append-to-body="true"/>
-                  </div>
+                  <img ng-repeat="action in uniqueCrossClassActions(sequence, recipe.cls) track by $index"
+                       class="action"
+                       ng-src="{{getActionImagePath(action, recipe.cls)}}"
+                       tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
+                       tooltip-placement="top"
+                       tooltip-popup-delay="200"
+                       tooltip-append-to-body="true"/>
                 </div>
               </div>
               <div class="control-group">
@@ -272,15 +269,14 @@
                 <div ng-show="!solverStatus.running">
                   <div class="sequence well well-small" >
                     <div ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
-                      <div ng-repeat="action in solverResult.sequence track by $index"
+                      <img ng-repeat="action in solverResult.sequence track by $index"
                            class="action"
-                           ng-class="actionClasses(action, recipe.cls)">
-                        <img ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                             tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-                             tooltip-placement="top"
-                             tooltip-popup-delay="200"
-                             tooltip-append-to-body="true"/>
-                      </div>
+                           ng-class="actionClasses(action, recipe.cls)"
+                           ng-src="{{getActionImagePath(action, recipe.cls)}}"
+                           tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
+                           tooltip-placement="top"
+                           tooltip-popup-delay="200"
+                           tooltip-append-to-body="true"/>
                     </div>
                   </div>
                 </div>

@@ -74,7 +74,7 @@ legend small > .light {
 
 /* Actions */
 
-div.action {
+.action {
   display: inline-block;
   margin: 4px;
   display: inline-block;
@@ -82,14 +82,9 @@ div.action {
   box-shadow: black 1px 1px 6px 0px;
 }
 
-div.selectable-action {
+.selectable-action {
   cursor: pointer;
 }
-
-div.action img {
-  border-radius: 4px;
-}
-
 
 
 
@@ -135,25 +130,13 @@ legend + .control-group {
   *padding-left: 120px;
 }
 
-.action-table div.action img, .action-table div.action {
-  border: none;
-  overflow: hidden;
-  float: left;
-  max-height: none;
-  max-width: none;
+.action-table .action {
+  opacity: 0.4;
 }
 
-.action-table div.action.selected-action {
-  border: 3px solid #00aaff;
-  box-shadow: #00aaff 1px 1px 5px 0px;
-}
-
-.action-table div.action.selected-action img {
-  margin: -3px;
-}
-
-.action-table div.action.selected-action.action-cross-class {
-  border: 3px dotted #00aaff;
+.action-table .selected-action {
+  opacity: 1;
+  box-shadow: #00aaff 1px 1px 5px 1px;
 }
 
 
@@ -169,25 +152,8 @@ legend + .control-group {
   opacity: 0.4;
 }
 
-.sequence div.action img, .sequence div.action {
-  border: none;
-  overflow: hidden;
-  float: left;
-  max-height: none;
-  max-width: none;
-}
-
-.sequence div.action.action-cross-class img,
-.sequence div.action.invalid-action img {
-  margin: -3px;
-}
-
-.sequence div.action.action-cross-class {
-  border: 3px dotted #00aaff;
-}
-
-.sequence div.action.invalid-action {
-  border: 3px solid red;
+.sequence .invalid-action {
+  opacity: 0.4;
 }
 
 
@@ -205,6 +171,14 @@ legend + .control-group {
 .sequence-editor .modal-body .sequence {
   max-height: 150px;
   overflow-y: auto;
+}
+
+.sequence-editor .action {
+  opacity: 1;
+}
+
+.sequence-editor .invalid-action {
+  opacity: 0.4;
 }
 
 .empty-action {
