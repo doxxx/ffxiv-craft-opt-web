@@ -95,24 +95,6 @@ div.action img {
 
 /* Action Table */
 
-.action-table input,
-.action-table textarea,
-.action-table select,
-.action-table .help-inline,
-.action-table .uneditable-input,
-.action-table .input-prepend,
-.action-table .input-append {
-  display: inline-block;
-  *display: inline;
-  margin-bottom: 0;
-  vertical-align: middle;
-  *zoom: 1;
-}
-
-.action-table .hide {
-  display: none;
-}
-
 legend + .control-group {
   margin-top: 20px;
   -webkit-margin-top-collapse: separate;
@@ -151,23 +133,6 @@ legend + .control-group {
 
 .action-table .controls:first-child {
   *padding-left: 120px;
-}
-
-.action-table .help-block {
-  margin-bottom: 0;
-}
-
-.action-table input + .help-block,
-.action-table select + .help-block,
-.action-table textarea + .help-block,
-.action-table .uneditable-input + .help-block,
-.action-table .input-prepend + .help-block,
-.action-table .input-append + .help-block {
-  margin-top: 10px;
-}
-
-.action-table .form-actions {
-  padding-left: 120px;
 }
 
 .action-table div.action img, .action-table div.action {
