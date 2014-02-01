@@ -241,6 +241,19 @@
                        tooltip-append-to-body="true"/>
                 </div>
               </div>
+              <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
+                <h5>Required Cross Class Actions</h5>
+                <div class="sequence well well-small">
+                  <div ng-repeat="action in uniqueCrossClassActions(sequence, recipe.cls) track by $index"
+                       class="action">
+                    <img ng-src="{{getActionImagePath(action, recipe.cls)}}"
+                         tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
+                         tooltip-placement="top"
+                         tooltip-popup-delay="200"
+                         tooltip-append-to-body="true"/>
+                  </div>
+                </div>
+              </div>
               <div class="control-group">
                 <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
                 <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
@@ -262,19 +275,6 @@
                       <div ng-repeat="action in solverResult.sequence track by $index"
                            class="action"
                            ng-class="actionClasses(action, recipe.cls)">
-                        <img ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                             tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-                             tooltip-placement="top"
-                             tooltip-popup-delay="200"
-                             tooltip-append-to-body="true"/>
-                      </div>
-                    </div>
-                  </div>
-                  <div ng-show="uniqueCrossClassActions(solverResult.sequence, recipe.cls).length > 0">
-                    <h5>Required Cross Class Actions</h5>
-                    <div class="sequence">
-                      <div ng-repeat="action in uniqueCrossClassActions(solverResult.sequence, recipe.cls) track by $index"
-                           class="action">
                         <img ng-src="{{getActionImagePath(action, recipe.cls)}}"
                              tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
                              tooltip-placement="top"
