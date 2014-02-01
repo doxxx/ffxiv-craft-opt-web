@@ -8,17 +8,18 @@
       <div class="control-group" ng-repeat="actionGroup in actionGroups">
         <label class="control-label">{{actionGroup.name}}</label>
         <div class="controls">
-          <img ng-repeat="action in actionGroup.actions track by $index"
-               class="action selectable-action img-rounded"
+          <div ng-repeat="action in actionGroup.actions track by $index"
+               class="action selectable-action"
                ng-class="actionClasses(action, recipe.cls)"
-               ng-src="{{getActionImagePath(action, recipe.cls)}}"
-               ng-click="addAction(action)"
-               ng-show="isActionSelected(action)"
-               tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
-               tooltip-placement="top"
-               tooltip-popup-delay="200"
-               lvl-draggable="true"
-               data-new-action="{{action}}"/>
+               ng-show="isActionSelected(action)">
+            <img ng-src="{{getActionImagePath(action, recipe.cls)}}"
+                 ng-click="addAction(action)"
+                 tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
+                 tooltip-placement="top"
+                 tooltip-popup-delay="200"
+                 lvl-draggable="true"
+                 data-new-action="{{action}}"/>
+          </div>
         </div>
       </div>
     </fieldset>
@@ -26,16 +27,18 @@
   <form>
     <legend>Sequence</legend>
     <div class="sequence" id="sequenceEditorSequence" isolate-scrolling>
-      <img ng-repeat="action in sequence track by $index"
-           class="action selectable-action img-rounded"
-           ng-class="actionClasses(action, recipe.cls)"
-           ng-src="{{getActionImagePath(action, recipe.cls)}}"
-           ng-click="removeAction($index)"
-           lvl-draggable="true"
-           lvl-drop-target="true"
-           data-index="{{$index}}"
-           on-drop="dropAction(dragEl, dropEl)"/>
-      <div class="action empty-action img-rounded" lvl-drop-target="true"
+      <div ng-repeat="action in sequence track by $index"
+           class="action selectable-action"
+           ng-class="actionClasses(action, recipe.cls)">
+        <img ng-src="{{getActionImagePath(action, recipe.cls)}}"
+             ng-click="removeAction($index)"
+             lvl-draggable="true"
+             lvl-drop-target="true"
+             data-index="{{$index}}"
+             on-drop="dropAction(dragEl, dropEl)"/>
+      </div>
+
+      <div class="empty-action" lvl-drop-target="true"
            data-index="{{sequence.length}}"
            on-drop="dropAction(dragEl, dropEl)"/>
     </div>

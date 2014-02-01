@@ -462,7 +462,6 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
 
   $scope.actionClasses = function(action, cls) {
     return {
-      'selected-action': $scope.isActionSelected(action),
       'action-cross-class': $scope.isActionCrossClass(action, cls),
       'invalid-action': !$scope.isActionSelected(action)
     }
