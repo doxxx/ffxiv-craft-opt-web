@@ -4,7 +4,7 @@ function Logger() {
     this.log = function(myString) {
         var args = Array.prototype.slice.call(arguments, 1);
         console.log(String.prototype.sprintf.apply(myString, args));
-    }
+    };
 }
 
 function Crafter(cls, level, craftsmanship, control, craftPoints, actions) {
@@ -468,7 +468,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f %5.1f %5.0f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0);
     }
 
-    for (var i=0; i < individual.length; i++) {
+    for (i=0; i < individual.length; i++) {
         var action = individual[i];
         stepCount += 1;
 
@@ -612,7 +612,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
 
             if (isActionEq(action, AllActions.byregotsBlessing)) {
                 if (AllActions.innerQuiet.name in effects.countUps) {
-                    delete effects.countUps[AllActions.innerQuiet.name]
+                    delete effects.countUps[AllActions.innerQuiet.name];
                 }
                 else {
                     wastedActions += 1;
@@ -629,9 +629,9 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             }
 
             // Decrement countdowns
-            for (countDown in effects.countDowns) {
+            for (var countDown in effects.countDowns) {
                 effects.countDowns[countDown] -= 1;
-                if (effects.countDowns[countDown] == 0) {
+                if (effects.countDowns[countDown] === 0) {
                     delete effects.countDowns[countDown];
                 }
             }
@@ -703,7 +703,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s', progressOk, durabilityOk, cpOk);
     }
 
-    return finalState
+    return finalState;
 }
 
 function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput) {
@@ -714,10 +714,10 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
 
     var logger = new Logger();
 
-    var finalStateTracker = []
+    var finalStateTracker = [];
     for (var i=0; i < nRuns; i++) {
         var runSynth = MonteCarloSynth(individual, synth, false, debug, logOutput);
-        finalStateTracker[finalStateTracker.length] = runSynth
+        finalStateTracker[finalStateTracker.length] = runSynth;
 
         if (verbose) {
             logger.log('%2d %-20s %5d %5d %5.1f %5.1f %5d', i, 'MonteCarlo', runSynth.durabilityState, runSynth.cpState, runSynth.qualityState, runSynth.progressState, runSynth.wastedActions);
@@ -860,7 +860,7 @@ var AllActions = {
   greatStrides: new Action(      'greatStrides',         'Great Strides',        0,   32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
   ingenuity: new Action(         'ingenuity',            'Ingenuity',            0,   24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15),
   ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50),
-}
+};
 
 // Test objects
 //cls, level, craftsmanship, control, craftPoints, actions
