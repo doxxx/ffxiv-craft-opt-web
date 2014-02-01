@@ -49,6 +49,7 @@
   <span ng-show="!simulatorRunning && isValidSequence(sequence, recipe.cls) && simulationResult.finalState != null">(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
   <span ng-show="!simulatorRunning && isValidSequence(sequence, recipe.cls) && simulationResult.error != null">(Error: {{simulationResult.error}})</span>
   <button class="btn btn-warning" ng-click="clear()">Clear</button>
+  <button class="btn btn-warning" ng-click="revert()">Revert</button>
   <button class="btn btn-primary" ng-click="save()">Save</button>
   <button class="btn btn-primary" ng-click="cancel()">Cancel</button>
 </div>

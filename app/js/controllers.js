@@ -576,6 +576,10 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
     $scope.sequence = [];
   }
 
+  $scope.revert = function() {
+    $scope.sequence = angular.copy(origSequence);
+  }
+
   $scope.save = function() {
     $modalInstance.close($scope.sequence);
   }
