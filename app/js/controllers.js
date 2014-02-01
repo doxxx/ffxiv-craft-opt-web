@@ -430,15 +430,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 
   $scope.stopSolver = function() {
-    var taskID = $scope.solverStatus.taskID;
-    if (taskID != null) {
-      $http.delete(_getSolverServiceURL() + 'solver', {params: {taskID: taskID}}).
-        error(function(data) {
-          console.log("Error stopping solver: " + data)
-          $scope.solverStatus.error = data;
-          $scope.solverStatus.running = false;
-        });
-    }
+    $scope.solverStatus.worker.terminate();
+    $scope.solverError({error: "cancelled", log: ''});
+    $scope.solverStatus.worker = new Worker('js/solverworker.js');
   }
 });
 
