@@ -14,62 +14,13 @@ body {
     padding-left: 5px;
     padding-right: 5px;
   }
+
+  body {
+    padding-top: 0px;
+  }
 }
 
 .nav, .pagination, .carousel a { cursor: pointer; }
-
-.action {
-  border: solid white;
-  padding: 0px;
-  margin-right: 1px;
-  margin-bottom: 1px;
-}
-
-.empty-action {
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  overflow: hidden;
-  vertical-align: middle;
-}
-
-.selectable-action {
-  cursor: pointer;
-}
-
-.action-table .selected-action {
-  border: solid #00aaff;
-}
-
-.action-table .selected-action.action-cross-class, .sequence-editor .action-cross-class {
-  border: dotted #00aaff;
-}
-
-.sequence {
-  min-height: 47px;
-  margin-bottom: 10px;
-}
-
-.sequence .action-cross-class {
-  border: dotted #00aaff;
-}
-
-.sequence .invalid-action {
-  border: solid red;
-}
-
-.empty-action.lvl-target {
-  border: dotted black;
-  background-color: #eeeeee;
-}
-
-.action.lvl-over {
-  border: dotted black;
-}
-
-.disabled-action-list {
-  opacity: 0.4;
-}
 
 .form-horizontal .control-label, form label {
   font-weight: bold;
@@ -123,25 +74,25 @@ legend small > .light {
   font-weight: normal;
 }
 
-/* Action Table */
 
-.action-table input,
-.action-table textarea,
-.action-table select,
-.action-table .help-inline,
-.action-table .uneditable-input,
-.action-table .input-prepend,
-.action-table .input-append {
+
+/* Actions */
+
+.action {
   display: inline-block;
-  *display: inline;
-  margin-bottom: 0;
-  vertical-align: middle;
-  *zoom: 1;
+  margin: 4px;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: black 1px 1px 6px 0px;
 }
 
-.action-table .hide {
-  display: none;
+.selectable-action {
+  cursor: pointer;
 }
+
+
+
+/* Action Table */
 
 legend + .control-group {
   margin-top: 20px;
@@ -149,7 +100,7 @@ legend + .control-group {
 }
 
 .action-table .control-group {
-  margin-bottom: 1px;
+  margin-bottom: 5px;
   *zoom: 1;
 }
 
@@ -183,22 +134,32 @@ legend + .control-group {
   *padding-left: 120px;
 }
 
-.action-table .help-block {
-  margin-bottom: 0;
+.action-table .action {
+  opacity: 0.4;
 }
 
-.action-table input + .help-block,
-.action-table select + .help-block,
-.action-table textarea + .help-block,
-.action-table .uneditable-input + .help-block,
-.action-table .input-prepend + .help-block,
-.action-table .input-append + .help-block {
-  margin-top: 10px;
+.action-table .selected-action {
+  opacity: 1;
+  box-shadow: #00aaff 1px 1px 5px 1px;
 }
 
-.action-table .form-actions {
-  padding-left: 120px;
+
+
+/* Action Sequence */
+
+.sequence {
+  min-height: 49px;
+  margin-bottom: 10px;
 }
+
+.disabled-action-list {
+  opacity: 0.4;
+}
+
+.sequence .invalid-action {
+  opacity: 0.4;
+}
+
 
 
 /* Sequence Editor */
@@ -208,17 +169,41 @@ legend + .control-group {
 }
 
 .sequence-editor .modal-body {
-  max-height: 600px;
+  max-height: 650px;
 }
 
 .sequence-editor .modal-body .sequence {
-  max-height: 188px;
+  max-height: 150px;
   overflow-y: auto;
 }
 
-.sequence-editor .action-table .selected-action {
-  border: none;
+.sequence-editor .action {
+  opacity: 1;
 }
+
+.sequence-editor .invalid-action {
+  opacity: 0.4;
+}
+
+.empty-action {
+  margin: 4px;
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.sequence-editor .empty-action.lvl-target {
+  outline: inset #eeeeee 2px;
+  background-color: #dddddd;
+}
+
+.sequence-editor .lvl-over {
+  opacity: 0.4;
+}
+
+
 
 /* Macro Modal */
 

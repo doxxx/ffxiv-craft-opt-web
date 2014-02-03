@@ -9,11 +9,11 @@
         <label class="control-label">{{actionGroup.name}}</label>
         <div class="controls">
           <img ng-repeat="action in actionGroup.actions track by $index"
-               class="action selectable-action img-rounded"
+               class="action selectable-action"
                ng-class="actionClasses(action, recipe.cls)"
+               ng-show="isActionSelected(action)"
                ng-src="{{getActionImagePath(action, recipe.cls)}}"
                ng-click="addAction(action)"
-               ng-show="isActionSelected(action)"
                tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
                tooltip-placement="top"
                tooltip-popup-delay="200"
@@ -27,7 +27,7 @@
     <legend>Sequence</legend>
     <div class="sequence" id="sequenceEditorSequence" isolate-scrolling>
       <img ng-repeat="action in sequence track by $index"
-           class="action selectable-action img-rounded"
+           class="action selectable-action"
            ng-class="actionClasses(action, recipe.cls)"
            ng-src="{{getActionImagePath(action, recipe.cls)}}"
            ng-click="removeAction($index)"
@@ -35,7 +35,8 @@
            lvl-drop-target="true"
            data-index="{{$index}}"
            on-drop="dropAction(dragEl, dropEl)"/>
-      <div class="action empty-action img-rounded" lvl-drop-target="true"
+
+      <div class="empty-action" lvl-drop-target="true"
            data-index="{{sequence.length}}"
            on-drop="dropAction(dragEl, dropEl)"/>
     </div>
@@ -46,6 +47,7 @@
   <span ng-show="!simulatorRunning && isValidSequence(sequence, recipe.cls) && simulationResult.finalState != null">(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
   <span ng-show="!simulatorRunning && isValidSequence(sequence, recipe.cls) && simulationResult.error != null">(Error: {{simulationResult.error}})</span>
   <button class="btn btn-warning" ng-click="clear()">Clear</button>
+  <button class="btn btn-warning" ng-click="revert()">Revert</button>
   <button class="btn btn-primary" ng-click="save()">Save</button>
-  <button class="btn btn-primary" ng-click="cancel()">Cancel</button>
+  <button class="btn" ng-click="cancel()">Cancel</button>
 </div>

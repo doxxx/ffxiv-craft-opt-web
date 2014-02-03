@@ -14,7 +14,6 @@ module.directive('lvlDraggable', ['$rootScope', 'uuid', function($rootScope, uui
 	            
 	            el.bind("dragstart", function(e) {
 	                e.dataTransfer.setData('text', id);
-	                e.dataTransfer.setDragImage(e.target, e.target.width * 0.75, e.target.height * 0.75);
 
 	                $rootScope.$emit("LVL-DRAG-START");
 	            });

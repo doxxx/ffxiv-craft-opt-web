@@ -5,10 +5,9 @@
   <meta charset="utf-8">
   <title>FFXIV Crafting Optimizer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" media="screen"/>-->
-  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css"/>
   <link rel="stylesheet" href="css/app.css"/>
-  <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
 </head>
 
 <body ng-controller="MainCtrl" ng-cloak>
@@ -98,7 +97,7 @@
                       <label class="control-label">{{actionGroup.name}}</label>
                       <div class="controls">
                         <img ng-repeat="action in actionGroup.actions track by $index"
-                             class="action selectable-action img-rounded"
+                             class="action selectable-action"
                              ng-class="actionClasses(action, crafter.cls)"
                              ng-click="toggleAction(action)"
                              ng-src="{{getActionImagePath(action, crafter.cls)}}"
@@ -231,13 +230,25 @@
               </h4>
               <div class="sequence well well-small">
                 <img ng-repeat="action in sequence track by $index"
-                     class="action img-rounded"
+                     class="action"
                      ng-class="actionClasses(action, recipe.cls)"
                      ng-src="{{getActionImagePath(action, recipe.cls)}}"
                      tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
                      tooltip-placement="top"
                      tooltip-popup-delay="200"
                      tooltip-append-to-body="true"/>
+              </div>
+              <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
+                <h5>Required Cross Class Actions</h5>
+                <div class="sequence well well-small">
+                  <img ng-repeat="action in uniqueCrossClassActions(sequence, recipe.cls) track by $index"
+                       class="action"
+                       ng-src="{{getActionImagePath(action, recipe.cls)}}"
+                       tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
+                       tooltip-placement="top"
+                       tooltip-popup-delay="200"
+                       tooltip-append-to-body="true"/>
+                </div>
               </div>
               <div class="control-group">
                 <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorStatus.running">Edit Sequence...</button>
@@ -258,20 +269,8 @@
                   <div class="sequence well well-small" >
                     <div ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
                       <img ng-repeat="action in solverResult.sequence track by $index"
-                           class="action img-rounded"
+                           class="action"
                            ng-class="actionClasses(action, recipe.cls)"
-                           ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                           tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-                           tooltip-placement="top"
-                           tooltip-popup-delay="200"
-                           tooltip-append-to-body="true"/>
-                    </div>
-                  </div>
-                  <div ng-show="uniqueCrossClassActions(solverResult.sequence, recipe.cls).length > 0">
-                    <h5>Required Cross Class Actions</h5>
-                    <div class="sequence">
-                      <img ng-repeat="action in uniqueCrossClassActions(solverResult.sequence, recipe.cls) track by $index"
-                           class="action img-rounded"
                            ng-src="{{getActionImagePath(action, recipe.cls)}}"
                            tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
                            tooltip-placement="top"
@@ -362,12 +361,9 @@
   <p class="muted credit">FINAL FANTASY XIV &copy;2010 - 2013 SQUARE ENIX CO., LTD. FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. All material used under license.</p>
 </footer>
 
-<!-- In production use:
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
--->
-<script src="lib/angular/angular.min.js"></script>
-<script src="lib/angular/angular-touch.min.js"></script>
-<script src="lib/ui-bootstrap/ui-bootstrap-tpls-0.8.0.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.8.0/ui-bootstrap-tpls.min.js"></script>
 <script src="lib/lvl-drag-drop/lvl-uuid.js"></script>
 <script src="lib/lvl-drag-drop/lvl-drag-drop.js"></script>
 <script src="js/app.js"></script>
