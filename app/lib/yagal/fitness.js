@@ -52,8 +52,11 @@ var yagal_fitness = (function() {
   };
 
   Fitness.prototype.compare = function(other) {
-    if (this._weightedValues === undefined) {
-      return undefined;
+    if (!this.valid()) {
+      return -1;
+    }
+    else if (!other.valid()) {
+      return 1;
     }
 
     if (this._weightedValues.length !== other._weightedValues.length) {
@@ -93,7 +96,18 @@ var yagal_fitness = (function() {
   };
 
   Fitness.prototype.valid = function() {
-    return this._weightedValues !== undefined && this._weightedValues.length > 0;
+    if (this._weightedValues === undefined) {
+      return false;
+    }
+    if (this._weightedValues.length !== this._weights.length) {
+      return false;
+    }
+    for (var i = 0; i < this._weightedValues.length; i++) {
+      if (isNaN(this._weightedValues[i])) {
+        return false;
+      }
+    }
+    return true;
   };
 
   function defineFitnessClass(weights) {

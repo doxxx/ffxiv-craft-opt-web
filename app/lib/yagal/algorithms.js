@@ -40,7 +40,7 @@ var yagal_algorithms = (function() {
 
     for (var gen = 1; gen <= ngen; gen++) {
       if (feedback !== undefined) {
-        feedback(gen);
+        feedback(gen, hof.entries[0]);
       }
 
       var offspring = toolbox.select(population.length, population);
