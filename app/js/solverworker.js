@@ -59,6 +59,15 @@ this.onmessage = function(e) {
 
   var hof = new yagal_tools.HallOfFame(1);
 
+  function feedback(gen, best) {
+    postMessage({
+      progress: {
+        generationsCompleted: gen,
+        bestState: simSynth(best, synth, false, false)
+      }
+    });
+  }
+
   console.debug("starting solver");
   yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
 
@@ -98,12 +107,4 @@ this.onmessage = function(e) {
 
 function randomChoice(items) {
   return items[Math.floor(Math.random() * items.length)];
-}
-
-function feedback(gen) {
-  postMessage({
-    progress: {
-      generationsCompleted: gen
-    }
-  });
 }

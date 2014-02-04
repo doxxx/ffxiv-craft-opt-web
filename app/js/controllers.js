@@ -373,6 +373,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.solverProgress = function(data) {
     $scope.solverStatus.generationsCompleted = data.generationsCompleted;
+    $scope.solverStatus.bestState = data.bestState;
   };
 
   $scope.solverSuccess = function(data) {
