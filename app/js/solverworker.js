@@ -50,8 +50,8 @@ this.onmessage = function(e) {
 
   toolbox.register("evaluate", evalSeqWrapper, synth, settings.solver.penaltyWeight);
   toolbox.register("mate", yagal_tools.cxOnePoint);
-  toolbox.register("mutate", yagal_tools.mutShuffleIndexes, 0.05);
-  toolbox.register("select", yagal_tools.selTournament, 3);
+  toolbox.register("mutate", yagal_tools.mutRandomSub, 0.1, toolbox.attr_action);
+  toolbox.register("select", yagal_tools.selTournament, 7);
 
   var pop = toolbox.population(settings.solver.population-1);
   var iniGuess = creator.Individual.apply(null, sequence);

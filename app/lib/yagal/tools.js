@@ -70,6 +70,16 @@ var yagal_tools = (function() {
     return [individual];
   }
 
+  function mutRandomSub(probability, subFunc, individual) {
+    var size = individual.length;
+    for (var i = 0; i < size; i++) {
+      if (Math.random() < probability) {
+        individual[i] = subFunc();
+      }
+    }
+    return [individual];
+  }
+
   function indComp(a, b) {
     return b.fitness.compare(a.fitness);
   }
@@ -137,6 +147,7 @@ var yagal_tools = (function() {
     selTournament: selTournament,
     cxOnePoint: cxOnePoint,
     mutShuffleIndexes: mutShuffleIndexes,
+    mutRandomSub: mutRandomSub,
     HallOfFame: HallOfFame,
   };
 }());
