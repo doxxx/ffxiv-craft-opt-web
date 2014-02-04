@@ -261,8 +261,8 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
 
         var bQualityGain = qualityIncreaseMultiplier * synth.CalculateBaseQualityIncrease(levelDifference, control);
         var qualityGain = successProbability * bQualityGain;
-        if (isActionEq(action, AllActions.byregotsBlessing)) {
-            qualityGain *= (1 + 0.2 * effects.countUps[innerQuiet.name]);
+        if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
+            qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
         }
 
         var durabilityCost = action.durabilityCost;
