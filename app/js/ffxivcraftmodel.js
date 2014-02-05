@@ -564,7 +564,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
 
         var bQualityGain = qualityIncreaseMultiplier * synth.CalculateBaseQualityIncrease(levelDifference, control);
         var qualityGain = success * bQualityGain;
-        if (isActionEq(action, AllActions.byregotsBlessing)) {
+        if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
         }
 
