@@ -72,45 +72,36 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     localStorage['savedSettings'] = JSON.stringify(newValue);
   });
 
-  $scope.$watch('settings.name', function() {
-    savePageState($scope);
-  });
-
-  $scope.$watchCollection('crafter', function() {
+  function saveAndRerunSim(newValue) {
     savePageState($scope)
-  })
-
-  $scope.$watchCollection('bonusStats', function() {
-    savePageState($scope)
-  })
-
-  for (var cls in $scope.crafter.stats) {
-    $scope.$watchCollection('crafter.stats.' + cls, function() {
-      savePageState($scope)
-    })
-  }
-
-  $scope.$watchCollection('recipe', function() {
-    savePageState($scope)
-  })
-
-  $scope.$watchCollection('sequence', function(newValue) {
-    savePageState($scope)
-    if (newValue.length > 0 && $scope.isValidSequence(newValue, $scope.recipe.cls)) {
+    if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
       $scope.runSimulation($scope.simulationSuccess, $scope.simulationError)
     }
     else {
       $scope.simulationResult.finalState = null
     }
-  })
+  }
 
-  $scope.$watchCollection('sequenceSettings', function() {
-    savePageState($scope)
-  })
+  $scope.$watch('settings.name', function() {
+    savePageState($scope);
+  });
 
-  $scope.$watchCollection('simulation', function() {
-    savePageState($scope)
-  })
+  $scope.$watchCollection('crafter', saveAndRerunSim);
+
+  $scope.$watchCollection('bonusStats', saveAndRerunSim);
+
+  for (var cls in $scope.crafter.stats) {
+    $scope.$watchCollection('crafter.stats.' + cls, saveAndRerunSim);
+    $scope.$watchCollection('crafter.stats.' + cls + '.actions', saveAndRerunSim);
+  }
+
+  $scope.$watchCollection('recipe', saveAndRerunSim);
+
+  $scope.$watchCollection('sequence', saveAndRerunSim);
+
+  $scope.$watchCollection('sequenceSettings', saveAndRerunSim);
+
+  $scope.$watchCollection('simulation', saveAndRerunSim);
 
   $scope.$watchCollection('solver', function() {
     savePageState($scope)
