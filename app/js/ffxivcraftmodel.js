@@ -177,7 +177,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     var ppGood = 0;
     var ppExcellent = 0;
     var ppPoor = 0;
-    var ppNormal = 1 - (pGood + pExcellent + pPoor);
+    var ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
 
     // End state checks
     var progressOk = false;
