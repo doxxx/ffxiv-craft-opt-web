@@ -29,11 +29,12 @@ this.onmessage = function(e) {
   var synth = new Synth(crafter, recipe, settings.maxTricksUses, true);
 
   var sequence = [];
-  var seqMaxLength = Math.floor(settings.sequence.length * 1.5);
 
   for (var j = 0; j < settings.sequence.length; j++) {
     sequence.push(AllActions[settings.sequence[j]]);
   }
+
+  var seqMaxLength = Math.max(50, sequence.length);
 
   function evalSeqWrapper(synth, penaltyWeight, individual) {
     return [evalSeq(individual, synth, penaltyWeight)];
@@ -44,13 +45,15 @@ this.onmessage = function(e) {
   creator.create("Individual", Array, {fitness: creator.FitnessMax});
 
   var toolbox = new yagal_toolbox.Toolbox();
-  toolbox.register("attr_action", randomChoice, crafterActions);
-  toolbox.register("individual", yagal_tools.initRepeat, creator.Individual, toolbox.attr_action, seqMaxLength);
+  toolbox.register("randomAction", randomChoice, crafterActions);
+  toolbox.register("randomActionSeq", randomSeq, seqMaxLength, toolbox.randomAction);
+  toolbox.register("randomLength", randomInt, seqMaxLength);
+  toolbox.register("individual", yagal_tools.initRepeat, creator.Individual, toolbox.randomAction, toolbox.randomLength);
   toolbox.register("population", yagal_tools.initRepeat, Array, toolbox.individual);
 
   toolbox.register("evaluate", evalSeqWrapper, synth, settings.solver.penaltyWeight);
   toolbox.register("mate", yagal_tools.cxOnePoint);
-  toolbox.register("mutate", yagal_tools.mutRandomSub, 0.1, toolbox.attr_action);
+  toolbox.register("mutate", yagal_tools.mutRandomSubSeq, 0.1, 0.5, toolbox.randomActionSeq);
   toolbox.register("select", yagal_tools.selTournament, 7);
 
   var pop = toolbox.population(settings.solver.population-1);
@@ -105,6 +108,19 @@ this.onmessage = function(e) {
   postMessage(result);
 };
 
+function randomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 function randomChoice(items) {
-  return items[Math.floor(Math.random() * items.length)];
+  return items[randomInt(items.length)];
+}
+
+function randomSeq(maxLen, elementFunc) {
+  var len = Math.floor(Math.random() * maxLen);
+  var seq = [];
+  for (var i = 0; i < len; i++) {
+    seq.push(elementFunc());
+  }
+  return seq;
 }

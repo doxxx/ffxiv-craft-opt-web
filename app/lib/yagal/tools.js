@@ -7,7 +7,8 @@ var yagal_tools = (function() {
 
   function initRepeat(container, func, n) {
     var values = [];
-    for (var i = 0; i < n; i++) {
+    var len = Math.max(1, typeof n === 'function' ? n() : n);
+    for (var i = 0; i < len; i++) {
       values.push(func());
     }
     return _newContainerWithArgs(container, values);
@@ -75,6 +76,19 @@ var yagal_tools = (function() {
     for (var i = 0; i < size; i++) {
       if (Math.random() < probability) {
         individual[i] = subFunc();
+      }
+    }
+    return [individual];
+  }
+
+  function mutRandomSubSeq(probability, subSeqLengthFactor, subFunc, individual) {
+    var seqLength = Math.min(individual.length, Math.floor(Math.random() * individual.length * subSeqLengthFactor) + 1);
+    var end = individual.length - seqLength;
+    for (var i = 0; i < end; i++) {
+      if (Math.random() < probability) {
+        var args = [i, seqLength].concat(subFunc());
+        Array.prototype.splice.apply(individual, args);
+        break;
       }
     }
     return [individual];
@@ -148,6 +162,7 @@ var yagal_tools = (function() {
     cxOnePoint: cxOnePoint,
     mutShuffleIndexes: mutShuffleIndexes,
     mutRandomSub: mutRandomSub,
+    mutRandomSubSeq: mutRandomSubSeq,
     HallOfFame: HallOfFame,
   };
 }());
