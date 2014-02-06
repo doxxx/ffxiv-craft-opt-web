@@ -253,7 +253,7 @@
               <div class="control-group">
                 <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorStatus.running">Edit Sequence...</button>
                 <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
-                <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
+                <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
                 <button class="btn btn-primary" ng-click="runSolver()" ng-hide="solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Solve</button>
                 <button class="btn btn-danger" ng-click="stopSolver()" ng-show="solverStatus.running">Stop Solve</button>
               </div>
@@ -369,6 +369,7 @@
 <script src="js/app.js"></script>
 <script src="js/services.js"></script>
 <script src="js/services/actions.js"></script>
+<script src="js/services/simulator.js"></script>
 <script src="js/controllers.js"></script>
 <script src="js/directives.js"></script>
 <script src="js/filters.js"></script>

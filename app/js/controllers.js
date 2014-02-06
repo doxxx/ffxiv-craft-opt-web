@@ -6,7 +6,7 @@ var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout,
                                             _getSolverServiceURL, _allClasses, _actionGroups, _allActions,
-                                            _getActionImagePath) {
+                                            _getActionImagePath, _runSimulation) {
   // provide access to constants
   $scope.allClasses = _allClasses;
   $scope.actionGroups = _actionGroups;
@@ -322,6 +322,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulationResult.finalState = data.finalState;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
+    $scope.$apply();
   }
 
   $scope.simulationError = function(data) {
@@ -329,14 +330,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulationResult.logText += '\n\nError: ' + data.error
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
+    $scope.$apply();
   }
 
-  $scope.runSimulation = function(success, error) {
-    if ($scope.sequence.length <= 0) {
-      error({log: '', error: 'Must provide non-empty sequence'});
-      return;
-    }
-    $scope.simulatorStatus.running = true;
+  $scope.runSimulation = function() {
     var settings = {
       crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
       recipe: $scope.recipe,
@@ -347,19 +344,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     if ($scope.sequenceSettings.specifySeed) {
       settings.seed = $scope.sequenceSettings.seed;
     }
-    $scope.simulatorStatus.worker.onmessage = function(e) {
-      if (e.data.success) {
-        $scope.simulationSuccess(e.data.success);
-      }
-      else if (e.data.error) {
-        $scope.simulationError(e.data.error);
-      }
-      else {
-        console.error('unexpected message from simulation worker: %O', e.data);
-      }
-      $scope.$apply();
-    };
-    $scope.simulatorStatus.worker.postMessage(settings);
+
+    _runSimulation($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
+    $scope.simulatorStatus.running = true;
   }
 
   $scope.solverProgress = function(data) {
@@ -429,7 +416,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 });
 
 var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $http,
-    _actionGroups, _allActions, _getActionImagePath, _getSolverServiceURL, origSequence, recipe, crafterStats,
+    _actionGroups, _allActions, _getActionImagePath, _runSimulation, origSequence, recipe, crafterStats,
     bonusStats, sequenceSettings)
 {
   $scope.actionGroups = _actionGroups;
@@ -529,26 +516,6 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
   }
 
   $scope.simulate = function() {
-    $scope.simulatorStatus.running = true;
-    $scope.runSimulation($scope.simulationSuccess, $scope.simulationError);
-  }
-
-  $scope.simulationSuccess = function(data, status, headers, config) {
-    $scope.simulationResult.finalState = data.finalState;
-    $scope.simulatorStatus.running = false;
-  }
-
-  $scope.simulationError = function(data, status, headers, config) {
-    $scope.simulationResult.error = data.error;
-    $scope.simulatorStatus.running = false;
-  }
-
-  $scope.runSimulation = function(success, error) {
-    if ($scope.sequence.length <= 0) {
-      error({log: '', error: 'Must provide non-empty sequence'});
-      return;
-    }
-    $scope.simulatorStatus.running = true;
     var settings = {
       crafter: addBonusStats(crafterStats, bonusStats),
       recipe: recipe,
@@ -559,9 +526,21 @@ var SequenceEditorCtrl = controllers.controller('SequenceEditorCtrl', function($
     if (sequenceSettings.specifySeed) {
       settings.seed = sequenceSettings.seed;
     }
-    $http.post(_getSolverServiceURL() + 'simulation', settings).
-      success(success).
-      error(error);
+
+    _runSimulation($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
+    $scope.simulationResult.running = true;
+  }
+
+  $scope.simulationSuccess = function(data, status, headers, config) {
+    $scope.simulationResult.finalState = data.finalState;
+    $scope.simulationResult.running = false;
+    $scope.$apply();
+  }
+
+  $scope.simulationError = function(data, status, headers, config) {
+    $scope.simulationResult.error = data.error;
+    $scope.simulationResult.running = false;
+    $scope.$apply();
   }
 
   $scope.clear = function() {
