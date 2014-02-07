@@ -11,9 +11,11 @@ angular.module('ffxivCraftOptWeb.services.simulator', []).
       worker.onmessage = function(e) {
         if (e.data.success) {
           success(e.data.success);
+          worker.terminate();
         }
         else if (e.data.error) {
           error(e.data.error);
+          worker.terminate();
         }
         else {
           console.error('unexpected message from simulation worker: %O', e.data);

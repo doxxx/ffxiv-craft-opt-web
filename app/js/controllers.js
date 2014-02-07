@@ -23,7 +23,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.simulatorStatus = {
     running: false,
-    worker: new Worker('js/simulationworker.js')
   };
 
   $scope.solverStatus = {
