@@ -6,7 +6,7 @@ var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout,
                                             _getSolverServiceURL, _allClasses, _actionGroups, _allActions,
-                                            _getActionImagePath, _runSimulation) {
+                                            _getActionImagePath, _runSimulation, _solver) {
   // provide access to constants
   $scope.allClasses = _allClasses;
   $scope.actionGroups = _actionGroups;
@@ -30,7 +30,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     taskID: null,
     generationsCompleted: 0,
     error: null,
-    worker: new Worker('js/solverworker.js')
   };
 
   $scope.simulatorTabs = {
@@ -351,6 +350,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.solverProgress = function(data) {
     $scope.solverStatus.generationsCompleted = data.generationsCompleted;
     $scope.solverStatus.bestState = data.bestState;
+    $scope.$apply();
   };
 
   $scope.solverSuccess = function(data) {
@@ -360,6 +360,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorTabs.solver.active = true;
     $scope.solverStatus.running = false;
     $scope.solverStatus.generationsCompleted = 0;
+    $scope.$apply();
   };
 
   $scope.solverError = function(data) {
@@ -370,10 +371,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorTabs.solver.active = true;
     $scope.solverStatus.running = false;
     $scope.solverStatus.generationsCompleted = 0;
+    $scope.$apply();
   };
 
   $scope.runSolver = function() {
-    $scope.solverStatus.running = true;
     $scope.solverStatus.generationsCompleted = 0;
     $scope.solverResult.sequence = [];
     var settings = {
@@ -387,30 +388,17 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
     }
-    $scope.solverStatus.worker.onmessage = function(e) {
-      if (e.data.progress) {
-        $scope.solverProgress(e.data.progress);
-      }
-      else if (e.data.success) {
-        $scope.solverStatus.worker.onmessage = null;
-        $scope.solverSuccess(e.data.success);
-      }
-      else if (e.data.error) {
-        $scope.solverStatus.worker.onmessage = null;
-        $scope.solverError(e.data.error);
-      }
-      else {
-        console.error("unexpected message from solver worker: %O", e.data);
-      }
-      $scope.$apply();
-    };
-    $scope.solverStatus.worker.postMessage(settings);
+    _solver.start($scope.sequence, settings, $scope.solverProgress, $scope.solverSuccess, $scope.solverError);
+    $scope.solverStatus.running = true;
   }
 
   $scope.stopSolver = function() {
-    $scope.solverStatus.worker.terminate();
-    $scope.solverError({error: "cancelled", log: ''});
-    $scope.solverStatus.worker = new Worker('js/solverworker.js');
+    _solver.stop();
+    $scope.solverStatus.error = "cancelled";
+    $scope.solverResult.logText = "";
+    $scope.solverResult.sequence = []
+    $scope.solverStatus.running = false;
+    $scope.solverStatus.generationsCompleted = 0;
   }
 });
 

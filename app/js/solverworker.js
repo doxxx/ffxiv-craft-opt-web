@@ -71,7 +71,6 @@ this.onmessage = function(e) {
     });
   }
 
-  console.debug("starting solver");
   yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
 
   var logOutput = {
