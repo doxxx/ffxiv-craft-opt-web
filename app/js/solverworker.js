@@ -53,7 +53,7 @@ this.onmessage = function(e) {
 
   toolbox.register("evaluate", evalSeqWrapper, synth, settings.solver.penaltyWeight);
   toolbox.register("mate", yagal_tools.cxOnePoint);
-  toolbox.register("mutate", yagal_tools.mutRandomSubSeq, 0.1, 0.5, toolbox.randomActionSeq);
+  toolbox.register("mutate", yagal_tools.mutRandomSubSeq, 0.5, toolbox.randomActionSeq);
   toolbox.register("select", yagal_tools.selTournament, 7);
 
   var pop = toolbox.population(settings.solver.population-1);

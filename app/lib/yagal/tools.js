@@ -85,16 +85,12 @@ var yagal_tools = (function() {
     return [individual];
   }
 
-  function mutRandomSubSeq(probability, subSeqLengthFactor, subFunc, individual) {
+  function mutRandomSubSeq(subSeqLengthFactor, subFunc, individual) {
     var seqLength = Math.min(individual.length, randInt(individual.length * subSeqLengthFactor) + 1);
     var end = individual.length - seqLength;
-    for (var i = 0; i < end; i++) {
-      if (Math.random() < probability) {
-        var args = [i, seqLength].concat(subFunc());
-        Array.prototype.splice.apply(individual, args);
-        break;
-      }
-    }
+    var i = randInt(end);
+    var args = [i, seqLength].concat(subFunc());
+    Array.prototype.splice.apply(individual, args);
     return [individual];
   }
 
