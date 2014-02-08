@@ -28,11 +28,15 @@ var yagal_tools = (function() {
     }
     return r;
   }
+  
+  function randInt(maxExcl) {
+    return Math.floor(Math.random() * maxExcl);
+  }
 
   function selRandom(k, individuals) {
     var r = [];
     for (var i = 0; i < k; i++) {
-      r.push(individuals[Math.floor(Math.random() * individuals.length)]);
+      r.push(individuals[randInt(individuals.length)]);
     }
     return r;
   }
@@ -48,7 +52,7 @@ var yagal_tools = (function() {
 
   function cxOnePoint(ind1, ind2) {
     var size = Math.min(ind1.length, ind2.length);
-    var cxPoint = Math.floor(Math.random() * size);
+    var cxPoint = randInt(size);
     var ind1Gene = ind1[cxPoint];
     ind1[cxPoint] = ind2[cxPoint];
     ind2[cxPoint] = ind1Gene;
@@ -59,7 +63,7 @@ var yagal_tools = (function() {
     var size = individual.length;
     for (var i = 0; i < size; i++) {
       if (Math.random() < probability) {
-        var swapIndex = Math.floor(Math.random() * (size - 1));
+        var swapIndex = randInt(size - 1);
         if (swapIndex >= i) {
           swapIndex += 1;
           var gene = individual[i];
@@ -82,7 +86,7 @@ var yagal_tools = (function() {
   }
 
   function mutRandomSubSeq(probability, subSeqLengthFactor, subFunc, individual) {
-    var seqLength = Math.min(individual.length, Math.floor(Math.random() * individual.length * subSeqLengthFactor) + 1);
+    var seqLength = Math.min(individual.length, randInt(individual.length * subSeqLengthFactor) + 1);
     var end = individual.length - seqLength;
     for (var i = 0; i < end; i++) {
       if (Math.random() < probability) {
