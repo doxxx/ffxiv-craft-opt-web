@@ -32,6 +32,11 @@ var yagal_tools = (function() {
   function randInt(maxExcl) {
     return Math.floor(Math.random() * maxExcl);
   }
+  
+  function spliceArray(array, index, howMany, replacement) {
+    var args = [index, howMany].concat(replacement);
+    Array.prototype.splice.apply(array, args);    
+  }
 
   function selRandom(k, individuals) {
     var r = [];
@@ -56,6 +61,20 @@ var yagal_tools = (function() {
     var ind1Gene = ind1[cxPoint];
     ind1[cxPoint] = ind2[cxPoint];
     ind2[cxPoint] = ind1Gene;
+    return [ind1, ind2];
+  }
+  
+  function cxRandomSubSeq(subSeqLengthFactor, ind1, ind2) {
+    var seqLength1 = Math.min(ind1.length, randInt(ind1.length * subSeqLengthFactor + 1));
+    var seqLength2 = Math.min(ind2.length, randInt(ind2.length * subSeqLengthFactor + 1));
+    var end1 = ind1.length - seqLength1;
+    var end2 = ind2.length - seqLength2;
+    var i1 = randInt(end1);
+    var i2 = randInt(end2);
+    var slice1 = ind1.slice(i1, i1 + seqLength1);
+    var slice2 = ind2.slice(i2, i2 + seqLength2);
+    spliceArray(ind1, i1, seqLength1, slice2);
+    spliceArray(ind2, i2, seqLength2, slice1);
     return [ind1, ind2];
   }
 
@@ -160,6 +179,7 @@ var yagal_tools = (function() {
     selRandom: selRandom,
     selTournament: selTournament,
     cxOnePoint: cxOnePoint,
+    cxRandomSubSeq: cxRandomSubSeq,
     mutShuffleIndexes: mutShuffleIndexes,
     mutRandomSub: mutRandomSub,
     mutRandomSubSeq: mutRandomSubSeq,
