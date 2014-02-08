@@ -52,7 +52,7 @@ this.onmessage = function(e) {
   toolbox.register("population", yagal_tools.initRepeat, Array, toolbox.individual);
 
   toolbox.register("evaluate", evalSeqWrapper, synth, settings.solver.penaltyWeight);
-  toolbox.register("mate", yagal_tools.cxOnePoint);
+  toolbox.register("mate", yagal_tools.cxRandomSubSeq, 0.5);
   toolbox.register("mutate", yagal_tools.mutRandomSubSeq, 0.5, toolbox.randomActionSeq);
   toolbox.register("select", yagal_tools.selTournament, 7);
 
