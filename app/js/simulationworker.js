@@ -21,7 +21,7 @@ this.onmessage = function(e) {
                           settings.recipe.durability,
                           settings.recipe.startQuality,
                           settings.recipe.maxQuality);
-  var synth = new Synth(crafter, recipe, settings.maxTrickUses, true);
+  var synth = new Synth(crafter, recipe, settings.maxTricksUses, true);
 
   var sequence = [];
 
