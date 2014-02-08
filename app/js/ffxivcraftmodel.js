@@ -185,7 +185,8 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     var durabilityOk = false;
     var trickOk = false;
 
-    if (individual === null) {
+    // Check for null or empty individuals
+    if (individual === null || individual.length === 0) {
         return new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
                            wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
     }
@@ -404,9 +405,9 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         trickOk = true;
     }
 
-    var lastIndividual = individual[individual.length-1];
+    var lastAction = individual[individual.length-1];
 
-    var finalState = new State(stepCount, lastIndividual.name, durabilityState, cpState, qualityState, progressState,
+    var finalState = new State(stepCount, lastAction.name, durabilityState, cpState, qualityState, progressState,
                        wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
 
     if (verbose) {
@@ -440,15 +441,6 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     var crossClassActionList = [];
     var condition = 'Normal';
 
-    // Strip Tricks of the Trade from individual
-    var tempIndividual = [];
-    for (var i=0; i < individual.length; i++) {
-        if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
-            tempIndividual[tempIndividual.length] = individual[i];
-        }
-    }
-    individual = tempIndividual;
-
     // Conditions
     var pGood = 0.23;
     var pExcellent = 0.01;
@@ -459,10 +451,20 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     var durabilityOk = false;
     var trickOk = false;
 
-    if (individual === null) {
+    // Check for null or empty individuals
+    if (individual === null || individual.length === 0) {
         return new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
                            wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
     }
+
+    // Strip Tricks of the Trade from individual
+    var tempIndividual = [];
+    for (var i=0; i < individual.length; i++) {
+        if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
+            tempIndividual[tempIndividual.length] = individual[i];
+        }
+    }
+    individual = tempIndividual;
 
     if (verbose) {
         logger.log('%-2s %20s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
