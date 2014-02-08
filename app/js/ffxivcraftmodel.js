@@ -426,7 +426,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
 
-    var logger = new Logger();
+    var logger = new Logger(logOutput);
 
     // State Tracking
     var durabilityState = synth.recipe.durability;
@@ -721,7 +721,7 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
 
-    var logger = new Logger();
+    var logger = new Logger(logOutput);
 
     var finalStateTracker = [];
     for (var i=0; i < nRuns; i++) {

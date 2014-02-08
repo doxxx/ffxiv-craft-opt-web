@@ -71,14 +71,19 @@ this.onmessage = function(e) {
     });
   }
 
-  yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
-
   var logOutput = {
     log: '',
     write: function(msg) {
       logOutput.log += msg;
     }
   };
+
+  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(settings.seed, synth.useConditions))
+
+  logOutput.write("Genetic Algorithm Result\n")
+  logOutput.write("========================\n")
+
+  yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
 
   var best = hof.entries[0];
   var finalState = simSynth(best, synth, true, false, logOutput);
@@ -87,6 +92,11 @@ this.onmessage = function(e) {
   for (var k = 0; k < best.length; k++) {
     bestSequence.push(best[k].shortName);
   }
+
+  logOutput.write("\nMonte Carlo Result\n")
+  logOutput.write("==================\n")
+
+  MonteCarloSim(best, synth, settings.maxMontecarloRuns, settings.seed, false, false, logOutput)
 
   var result = {
     success: {

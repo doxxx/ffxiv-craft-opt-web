@@ -35,8 +35,18 @@ this.onmessage = function(e) {
       logOutput.log += msg;
     }
   };
+  
+  logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(settings.seed, synth.useConditions));
+  
+  logOutput.write("Probabilistic Result\n");
+  logOutput.write("====================\n");
 
   var finalState = simSynth(sequence, synth, true, false, logOutput);
+
+  logOutput.write("\nMonte Carlo Result\n");
+  logOutput.write("==================\n");
+
+  MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, settings.seed, false, false, logOutput)
 
   var result = {
     success: {
