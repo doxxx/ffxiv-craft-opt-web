@@ -1,28 +1,41 @@
 'use strict';
 
-angular.module('ffxivCraftOptWeb.services.simulator', []).
-  factory('_runSimulation', function() {
-    return function(sequence, settings, success, error) {
-      if (sequence.length <= 0) {
-        error({log: '', error: 'Must provide non-empty sequence'});
-        return;
-      }
-      var worker = new Worker('js/simulationworker.js');
-      worker.onmessage = function(e) {
-        if (e.data.success) {
-          success(e.data.success);
-          worker.terminate();
-        }
-        else if (e.data.error) {
-          error(e.data.error);
-          worker.terminate();
-        }
-        else {
-          console.error('unexpected message from simulation worker: %O', e.data);
-          worker.terminate();
-          error({log: '', error: 'unexpected message from simulation worker: ' + e.data});
-        }
-      };
-      worker.postMessage(settings);
+var SimulationService = function($timeout) {
+  this.$timeout = $timeout;
+};
+
+SimulationService.$inject = ['$timeout'];
+
+SimulationService.prototype.start = function(sequence, settings, success, error) {
+  if (sequence.length <= 0) {
+    error({log: '', error: 'empty sequence'});
+    return;
+  }
+  var worker = this.worker = new Worker('js/simulationworker.js');
+  var self = this;
+  worker.onmessage = function(e) {
+    if (e.data.success) {
+      worker.terminate();
+      self.$timeout(function() {
+        success(e.data.success);
+      });
     }
-  });
+    else if (e.data.error) {
+      worker.terminate();
+      self.$timeout(function() {
+        error(e.data.error);
+      });
+    }
+    else {
+      worker.terminate();
+      console.error('unexpected message from simulation worker: %O', e.data);
+      self.$timeout(function() {
+        error({log: '', error: 'unexpected message from simulation worker: ' + e.data});
+      });
+    }
+  };
+  worker.postMessage(settings);
+}
+
+angular.module('ffxivCraftOptWeb.services.simulator', []).
+  service('_simulator', SimulationService);

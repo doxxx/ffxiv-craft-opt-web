@@ -6,7 +6,7 @@ var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout,
                                             _getSolverServiceURL, _allClasses, _actionGroups, _allActions,
-                                            _getActionImagePath, _runSimulation, _solver) {
+                                            _getActionImagePath, _simulator, _solver) {
   // provide access to constants
   $scope.allClasses = _allClasses;
   $scope.actionGroups = _actionGroups;
@@ -320,7 +320,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulationResult.finalState = data.finalState;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
-    $scope.$apply();
   }
 
   $scope.simulationError = function(data) {
@@ -328,7 +327,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulationResult.logText += '\n\nError: ' + data.error
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
-    $scope.$apply();
   }
 
   $scope.runSimulation = function() {
@@ -343,14 +341,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       settings.seed = $scope.sequenceSettings.seed;
     }
 
-    _runSimulation($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
+    _simulator.start($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
     $scope.simulatorStatus.running = true;
   }
 
   $scope.solverProgress = function(data) {
     $scope.solverStatus.generationsCompleted = data.generationsCompleted;
     $scope.solverStatus.bestState = data.bestState;
-    $scope.$apply();
   };
 
   $scope.solverSuccess = function(data) {
@@ -360,7 +357,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorTabs.solver.active = true;
     $scope.solverStatus.running = false;
     $scope.solverStatus.generationsCompleted = 0;
-    $scope.$apply();
   };
 
   $scope.solverError = function(data) {
@@ -371,7 +367,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulatorTabs.solver.active = true;
     $scope.solverStatus.running = false;
     $scope.solverStatus.generationsCompleted = 0;
-    $scope.$apply();
   };
 
   $scope.runSolver = function() {

@@ -1,7 +1,7 @@
 var controllers = angular.module('ffxivCraftOptWeb.controllers');
 
 controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $http,
-    _actionGroups, _allActions, _getActionImagePath, _runSimulation, origSequence, recipe, crafterStats,
+    _actionGroups, _allActions, _getActionImagePath, _simulator, origSequence, recipe, crafterStats,
     bonusStats, sequenceSettings)
 {
   $scope.actionGroups = _actionGroups;
@@ -112,20 +112,19 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
       settings.seed = sequenceSettings.seed;
     }
 
-    _runSimulation($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
+    _simulator.start($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
     $scope.simulationResult.running = true;
   }
 
   $scope.simulationSuccess = function(data, status, headers, config) {
     $scope.simulationResult.finalState = data.finalState;
     $scope.simulationResult.running = false;
-    $scope.$apply();
   }
 
   $scope.simulationError = function(data, status, headers, config) {
+    $scope.simulationResult.finalState = {};
     $scope.simulationResult.error = data.error;
     $scope.simulationResult.running = false;
-    $scope.$apply();
   }
 
   $scope.clear = function() {
