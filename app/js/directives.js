@@ -29,6 +29,15 @@ module.directive('selectOnClick', function () {
     };
 });
 
+module.directive('selectOnFocus', function () {
+    // Linker function
+    return function (scope, element, attrs) {
+        element.bind('focus', function () {
+            this.select();
+        });
+    };
+});
+
 module.directive('isolateScrolling', function () {
   return {
     restrict: 'A',
@@ -47,3 +56,89 @@ module.directive('isolateScrolling', function () {
     }
   };
 });
+
+module.directive('stopClickPropogation', function () {
+  return {
+    restrict: 'A',
+    link: function (scope, element, attr) {
+      element.bind('click', function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        return false;
+      });
+    }
+  };
+});
+
+module.directive('myDropdownToggle', ['$document', '$location', function ($document, $location) {
+  var openElement = null,
+      closeMenu   = angular.noop,
+      focusElement = null,
+      hasFocusClass = function(e) { return e.hasClass('my-dropdown-focus'); },
+      searchFocusElement = function(root) {
+        var children = root.children();
+        for (var i = 0; i < children.length; i++) {
+          var e = angular.element(children[i]);
+          if (e.hasClass('my-dropdown-focus')) {
+            return e;
+          }
+        }
+        for (var i = 0; i < children.length; i++) {
+          var e = searchFocusElement(angular.element(children[i]));
+          if (e !== undefined) {
+            return e;
+          }
+        }
+        return undefined;
+      };
+  return {
+    restrict: 'CA',
+    link: function(scope, element, attrs) {
+      scope.$watch('$location.path', function() { closeMenu(); });
+      element.parent().bind('click', function() { closeMenu(); });
+      element.bind('click', function (event) {
+        var elementWasOpen = (element === openElement);
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        if (!!openElement) {
+          closeMenu();
+        }
+
+        if (!elementWasOpen && !element.hasClass('disabled') && !element.prop('disabled')) {
+          var parent = element.parent();
+          while (parent.length > 0 && !parent.hasClass('my-dropdown')) {
+            parent = parent.parent();
+          }
+          if (parent.length === 0) {
+            console.error('could not find parent element with my-dropdown class');
+            return;
+          }
+          parent.addClass('open');
+          openElement = element;
+          closeMenu = function (event) {
+            if (event) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            $document.unbind('click', closeMenu);
+            parent.removeClass('open');
+            closeMenu = angular.noop;
+            openElement = null;
+          };
+          $document.bind('click', closeMenu);
+          $document.bind('keyup', function(event) {
+            if (event.which === 27) {
+              closeMenu();
+            }
+          });
+          focusElement = searchFocusElement(parent);
+          if (focusElement !== undefined) {
+            focusElement[0].focus();
+          }
+        }
+      });
+    }
+  };
+}]);

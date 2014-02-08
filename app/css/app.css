@@ -22,6 +22,31 @@ body {
 
 .nav, .pagination, .carousel a { cursor: pointer; }
 
+.nowrap {
+  white-space: nowrap;
+}
+
+textarea {
+  width: 100%;
+}
+
+textarea[readonly] {
+  cursor: text;
+}
+
+legend small {
+  color: #444444;
+  font-weight: bold;
+}
+
+legend small > .light {
+  font-weight: normal;
+}
+
+.uneditable-input {
+  cursor: text;
+}
+
 .form-horizontal .control-label, form label {
   font-weight: bold;
   width: 130px;
@@ -57,21 +82,152 @@ body {
   overflow-y: auto;
 }
 
-textarea {
-  width: 100%;
+.recipe-search-control .my-dropdown-menu {
+  margin-top: 3px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  width: 335px;
 }
 
-textarea[readonly] {
-  cursor: text;
+.recipe-search-control .search,
+.recipe-search-control .search:focus {
+  margin: 5px;
+  border: none;
+  box-shadow: none;
+  width: 313px;
 }
 
-legend small {
-  color: #444444;
-  font-weight: bold;
+.recipe-search-control .recipe-menu-scrollable {
+  margin: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  max-height: 217px;
+  overflow-y: scroll;
+  border-top: solid 1px rgba(0, 0, 0, 0.2);
 }
 
-legend small > .light {
+
+
+/* Customized Dropdown Menu */
+
+.my-dropdown {
+  position: relative;
+}
+
+.my-dropdown-toggle {
+  *margin-bottom: -3px;
+}
+
+.my-dropdown-toggle:active,
+.open .my-dropdown-toggle {
+  outline: 0;
+}
+
+.my-dropdown .caret {
+  margin-top: 8px;
+  margin-left: 2px;
+}
+
+.my-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+}
+
+.my-dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+
+.my-dropdown-menu .divider {
+  *width: 100%;
+  height: 1px;
+  margin: 9px 1px;
+  *margin: -5px 0 5px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #ffffff;
+}
+
+.my-dropdown-menu li > a {
+  display: block;
+  padding: 3px 11px;
+  clear: both;
   font-weight: normal;
+  line-height: 20px;
+  color: #333333;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.my-dropdown-menu li > a:hover,
+.my-dropdown-menu li > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+
+.my-dropdown-menu .active > a,
+.my-dropdown-menu .active > a:hover,
+.my-dropdown-menu .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  outline: 0;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+
+.my-dropdown-menu .disabled > a,
+.my-dropdown-menu .disabled > a:hover,
+.my-dropdown-menu .disabled > a:focus {
+  color: #999999;
+}
+
+.my-dropdown-menu .disabled > a:hover,
+.my-dropdown-menu .disabled > a:focus {
+  text-decoration: none;
+  cursor: default;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.open > .my-dropdown-menu {
+  display: block;
 }
 
 
