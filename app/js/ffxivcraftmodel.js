@@ -438,7 +438,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     var stepCount = 0;
     var wastedActions = 0;
     var effects = new EffectTracker();
-    var maxTricksUses = synth.maxTrickUses;
+    var maxTricksUses = 0;
     var trickUses = 0;
     var crossClassActionList = {};
     var crossClassActionCounter = 0;
@@ -466,6 +466,9 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     for (var i=0; i < individual.length; i++) {
         if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
             tempIndividual[tempIndividual.length] = individual[i];
+        }
+        else {
+            maxTricksUses += 1;
         }
     }
     individual = tempIndividual;
