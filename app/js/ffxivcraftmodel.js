@@ -835,6 +835,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     var result = simSynth(individual, mySynth, false, false);
     var penalties = 0;
     var fitness = 0;
+    var fitnessProg = 0;
 
     // Sum the constraint violations
     penalties += result.wastedActions;
@@ -866,8 +867,9 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
     fitness += result.qualityState;
     fitness -= penaltyWeight * penalties;
+    fitnessProg += result.progressState;
 
-    return fitness;
+    return [fitness, fitnessProg];
 }
 
 // Actions

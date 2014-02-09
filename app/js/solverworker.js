@@ -37,11 +37,11 @@ this.onmessage = function(e) {
   var seqMaxLength = Math.max(50, sequence.length);
 
   function evalSeqWrapper(synth, penaltyWeight, individual) {
-    return [evalSeq(individual, synth, penaltyWeight)];
+    return evalSeq(individual, synth, penaltyWeight);
   }
 
   var creator = new yagal_creator.Creator();
-  creator.create('FitnessMax', yagal_fitness.defineFitnessClass([1.0]));
+  creator.create('FitnessMax', yagal_fitness.defineFitnessClass([1.0, 1.0]));
   creator.create("Individual", Array, {fitness: creator.FitnessMax});
 
   var toolbox = new yagal_toolbox.Toolbox();
