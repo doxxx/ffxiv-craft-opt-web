@@ -248,8 +248,8 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         // Condition Calculation
-        if (useConditions && i > 0) {
-            qualityIncreaseMultiplier *= (1*ppNormal + 1.5*ppGood + 4*ppExcellent + 0.5*ppPoor);
+        if (useConditions) {
+            qualityIncreaseMultiplier *= (1*ppNormal + 1.5*ppGood * Math.pow(1 - (ppGood+pGood)/2, synth.maxTrickUses) + 4*ppExcellent + 0.5*ppPoor);
         }
 
         // Calculate final gains / losses
