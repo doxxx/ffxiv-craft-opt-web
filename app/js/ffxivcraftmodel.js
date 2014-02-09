@@ -789,26 +789,45 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
 
 function getAverageProperty(stateArray, propName, nRuns) {
     var sumProperty = 0;
+    var nSuccesses = 0;
     for (var i=0; i < stateArray.length; i++) {
-        sumProperty += stateArray[i][propName];
+        var progressOk = stateArray[i]['progressOk'];
+        var durabilityOk = stateArray[i]['durabilityOk'];
+        var cpOk = stateArray[i]['cpOk'];
+
+        if (progressOk && durabilityOk && cpOk) {
+            nSuccesses += 1;
+            sumProperty += stateArray[i][propName];
+        }
+
     }
-    var avgProperty = sumProperty/nRuns;
+    var avgProperty = sumProperty/nSuccesses;
 
     return avgProperty;
 }
 
 function getAverageHqPercent(stateArray, synth) {
     var nHQ = 0;
+    var nSuccesses = 0;
     for (var i=0; i < stateArray.length; i++) {
-        var qualityPercent = stateArray[i]['qualityState'] / synth.recipe.maxQuality * 100;
-        var hqProbability = hqPercentFromQuality(qualityPercent) / 100;
-        var hqRand = Math.random();
-        if (hqRand <= hqProbability) {
-            nHQ += 1;
+        var progressOk = stateArray[i]['progressOk'];
+        var durabilityOk = stateArray[i]['durabilityOk'];
+        var cpOk = stateArray[i]['cpOk'];
+
+        if (progressOk && durabilityOk && cpOk) {
+            nSuccesses += 1;
+
+            var qualityPercent = stateArray[i]['qualityState'] / synth.recipe.maxQuality * 100;
+            var hqProbability = hqPercentFromQuality(qualityPercent) / 100;
+            var hqRand = Math.random();
+            if (hqRand <= hqProbability) {
+                nHQ += 1;
+            }
         }
+
     }
 
-    return nHQ / stateArray.length * 100;
+    return nHQ / nSuccesses * 100;
 }
 
 function getSuccessRate(stateArray) {
