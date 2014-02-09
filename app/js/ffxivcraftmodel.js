@@ -545,6 +545,14 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
                     condition = 'Normal';
                     qualityIncreaseMultiplier *= 1;
 
+                    if (verbose) {
+                        logger.log('%-2s %20s %5.0f %5.0f %8.1f %5.1f %5.0f', '-', 'Tricks of the Trade', durabilityState, cpState, qualityState, progressState, wastedActions);
+                    }
+
+                    if (debug) {
+                        logger.log('%-2s %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.0f', '-', 'Tricks of the Trade', durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
+                    }
+
                 }
                 else{
                     qualityIncreaseMultiplier *= 1.5;
