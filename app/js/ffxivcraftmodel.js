@@ -528,7 +528,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         else if (condition === 'Good' || condition === 'Poor') {
             condition = 'Normal';
         }
-        else if (condition === 'Normal') {
+        else if (condition === 'Normal' && i > 0) {
             var condRand = Math.random();
             if (0 <= condRand && condRand < pExcellent) {
                 condition = 'Excellent';
