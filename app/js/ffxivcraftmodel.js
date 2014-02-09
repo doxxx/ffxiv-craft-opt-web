@@ -782,7 +782,7 @@ function getAverageProperty(stateArray, propName, nRuns) {
     return avgProperty;
 }
 
-function getAverageHqPercent (stateArray, synth) {
+function getAverageHqPercent(stateArray, synth) {
     var nHQ = 0;
     for (var i=0; i < stateArray.length; i++) {
         var qualityPercent = stateArray[i]['qualityState'] / synth.recipe.maxQuality * 100;
@@ -796,7 +796,7 @@ function getAverageHqPercent (stateArray, synth) {
     return nHQ / stateArray.length * 100;
 }
 
-function getSuccessRate (stateArray) {
+function getSuccessRate(stateArray) {
     var nSuccesses = 0;
     for (var i=0; i < stateArray.length; i++) {
         // Check progressOk, durabilityOk, cpOk
