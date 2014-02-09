@@ -541,6 +541,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
                     // Assumes first N good actions will always be used for ToT
                     trickUses += 1;
                     cpState += 20;
+                    cpState = Math.min(cpState, synth.crafter.craftPoints);
                 }
                 else{
                     qualityIncreaseMultiplier *= 1.5;
