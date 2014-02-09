@@ -550,7 +550,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
 
         // Calculate final gains / losses
         var success = 0;
-        successRand = Math.random();
+        var successRand = Math.random();
         if (0 <= successRand && successRand <= successProbability) {
             success = 1;
         }
