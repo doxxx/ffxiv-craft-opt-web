@@ -755,9 +755,10 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
     var avgQuality = getAverageProperty(finalStateTracker, 'qualityState', nRuns);
     var avgProgress = getAverageProperty(finalStateTracker, 'progressState', nRuns);
     var avgHqPercent = getAverageHqPercent(finalStateTracker, synth);
+    var successRate = getSuccessRate(finalStateTracker);
 
-    logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s','', '', 'DUR', 'CP', 'QUA', 'PRG', 'HQ%');
-    logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f', '##', 'Expected Value: ', avgDurability, avgCp, avgQuality, avgProgress, avgHqPercent);
+    logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s','', '', 'DUR', 'CP', 'QUA', 'PRG', 'HQ%', 'SUC%');
+    logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f %5.1f', '##', 'Expected Value: ', avgDurability, avgCp, avgQuality, avgProgress, avgHqPercent, successRate);
 
     var minDurability = getMinProperty(finalStateTracker, 'durabilityState');
     var minCp = getMinProperty(finalStateTracker, 'cpState');
@@ -766,7 +767,7 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
     var minQualityPercent = Math.min(synth.recipe.maxQuality, minQuality)/synth.recipe.maxQuality * 100;
     var minHqPercent = hqPercentFromQuality(minQualityPercent);
 
-    logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5d', '##', 'Min Value: ', minDurability, minCp, minQuality, minProgress, minHqPercent);
+    logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f', '##', 'Min Value: ', minDurability, minCp, minQuality, minProgress, minHqPercent);
 }
 
 function getAverageProperty(stateArray, propName, nRuns) {
@@ -791,6 +792,22 @@ function getAverageHqPercent (stateArray, synth) {
     }
 
     return nHQ / stateArray.length * 100;
+}
+
+function getSuccessRate (stateArray) {
+    var nSuccesses = 0;
+    for (var i=0; i < stateArray.length; i++) {
+        // Check progressOk, durabilityOk, cpOk
+        var progressOk = stateArray[i]['progressOk'];
+        var durabilityOk = stateArray[i]['durabilityOk'];
+        var cpOk = stateArray[i]['cpOk'];
+
+        if (progressOk && durabilityOk && cpOk) {
+            nSuccesses += 1;
+        }
+    }
+
+    return nSuccesses / stateArray.length * 100;
 }
 
 function getMinProperty(stateArray, propName) {
