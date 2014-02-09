@@ -757,8 +757,8 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
     var avgHqPercent = getAverageHqPercent(finalStateTracker, synth);
     var successRate = getSuccessRate(finalStateTracker);
 
-    logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s','', '', 'DUR', 'CP', 'QUA', 'PRG', 'HQ%', 'SUC%');
-    logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f %5.1f', '##', 'Expected Value: ', avgDurability, avgCp, avgQuality, avgProgress, avgHqPercent, successRate);
+    logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s','', '', 'DUR', 'CP', 'QUA', 'PRG', 'HQ%');
+    logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f', '##', 'Expected Value: ', avgDurability, avgCp, avgQuality, avgProgress, avgHqPercent);
 
     var minDurability = getMinProperty(finalStateTracker, 'durabilityState');
     var minCp = getMinProperty(finalStateTracker, 'cpState');
@@ -768,6 +768,8 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
     var minHqPercent = hqPercentFromQuality(minQualityPercent);
 
     logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f', '##', 'Min Value: ', minDurability, minCp, minQuality, minProgress, minHqPercent);
+
+    logger.log('\n%2s %-20s %5.1f \%', '##', 'Success Rate: ', successRate);
 }
 
 function getAverageProperty(stateArray, propName, nRuns) {
