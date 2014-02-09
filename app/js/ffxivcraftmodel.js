@@ -814,6 +814,16 @@ function hqPercentFromQuality(qualityPercent) {
     return hqPercent;
 }
 
+function maxCrossClassActions(level) {
+    var maxActions = 1;             // level 1
+    if (level >= 10) {
+        maxActions += 1;            // level 10
+        maxActions += Math.floor((level - 10)/5);
+    }
+
+    return maxActions;
+}
+
 function evalSeq(individual, mySynth, penaltyWeight) {
     penaltyWeight = penaltyWeight!== undefined ? penaltyWeight : 10000;
 
