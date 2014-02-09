@@ -537,7 +537,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             else if (pExcellent <= condRand && condRand < (pExcellent + pGood)) {
                 condition = 'Good';
 
-                if (trickUses < maxTricksUses) {
+                if (trickUses < maxTricksUses && cpState >= 0) {
                     // Assumes first N good actions will always be used for ToT
                     trickUses += 1;
                     cpState += 20;
