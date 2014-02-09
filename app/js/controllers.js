@@ -6,7 +6,7 @@ var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout,
                                             _getSolverServiceURL, _allClasses, _actionGroups, _allActions,
-                                            _getActionImagePath, _simulator, _solver) {
+                                            _getActionImagePath, _recipeLibrary, _simulator, _solver) {
   // provide access to constants
   $scope.allClasses = _allClasses;
   $scope.actionGroups = _actionGroups;
@@ -106,6 +106,20 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   })
 
   // data model interaction functions
+  $scope.recipesForClass = function(cls) {
+    /*var recipes = angular.copy(_recipeLibrary.recipesForClass(cls));
+    recipes.sort(function(a,b) { return a.name.localeCompare(b.name); });
+    return recipes;*/
+    return _recipeLibrary.recipesForClass(cls);
+  }
+  
+  $scope.importRecipe = function(name) {
+    var cls = $scope.recipe.cls;
+    $scope.recipe = angular.copy(_recipeLibrary.recipeForClassByName(cls, name));
+    $scope.recipe.cls = cls;
+    $scope.recipe.startQuality = 0;
+  }
+  
   $scope.newSettings = function() {
     $scope.settings.name = '';
     var newRecipe = newRecipeStats($scope);
