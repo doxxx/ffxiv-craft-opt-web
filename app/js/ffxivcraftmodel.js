@@ -142,7 +142,7 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
     this.durabilityOk = durabilityOk;
     this.trickOk = trickOk;
     if (crossClassActionList === null) {
-        this.crossClassActionList = [];
+        this.crossClassActionList = {};
     }
     else {
         this.crossClassActionList = crossClassActionList;
@@ -166,7 +166,8 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     var wastedActions = 0;
     var effects = new EffectTracker();
     var trickUses = 0;
-    var crossClassActionList = [];
+    var crossClassActionList = {};
+    var crossClassActionCounter = 0;
 
     // Conditions
     var pGood = 0.23;
@@ -368,8 +369,9 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             cpState = Math.min(cpState, synth.crafter.craftPoints);
 
             // Count cross class actions
-            if (!((action.cls === 'All') || (action.cls === synth.crafter.cls) || (action in crossClassActionList))) {
-                crossClassActionList[crossClassActionList.length] = action;
+            if (!(action.cls === 'All' || action.cls === synth.crafter.cls || action.shortName in crossClassActionList)) {
+                crossClassActionList[action.shortName] = true;
+                crossClassActionCounter += 1;
             }
 
         }
@@ -411,7 +413,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
                        wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
 
     if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionList.length);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter);
     }
 
     if (debug) {
@@ -438,7 +440,9 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     var effects = new EffectTracker();
     var maxTricksUses = synth.maxTrickUses;
     var trickUses = 0;
-    var crossClassActionList = [];
+    var crossClassActionList = {};
+    var crossClassActionCounter = 0;
+
     var condition = 'Normal';
 
     // Conditions
@@ -664,8 +668,9 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             cpState = Math.min(cpState, synth.crafter.craftPoints);
 
             // Count cross class actions
-            if (!((action.cls === 'All') || (action.cls === synth.crafter.cls) || (action in crossClassActionList))) {
-                crossClassActionList[crossClassActionList.length] = action;
+            if (!((action.cls === 'All') || (action.cls === synth.crafter.cls) || (action.shortName in crossClassActionList))) {
+                crossClassActionList[action.shortName] = true;
+                crossClassActionCounter += 0;
             }
 
         }
@@ -705,7 +710,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
                        wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
 
     if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionList.length);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter);
     }
 
     if (debug) {
