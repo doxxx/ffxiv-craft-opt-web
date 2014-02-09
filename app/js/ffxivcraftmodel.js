@@ -670,7 +670,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             // Count cross class actions
             if (!((action.cls === 'All') || (action.cls === synth.crafter.cls) || (action.shortName in crossClassActionList))) {
                 crossClassActionList[action.shortName] = true;
-                crossClassActionCounter += 0;
+                crossClassActionCounter += 1;
             }
 
         }
