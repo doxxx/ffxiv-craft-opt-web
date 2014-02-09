@@ -855,6 +855,15 @@ function evalSeq(individual, mySynth, penaltyWeight) {
         penalties += 1;
     }
 
+    var crossClassActionCounter = 0;
+    for (var action in result.crossClassActionList) {
+        crossClassActionCounter += 1;
+    }
+    var maxCrossClassActionsExceeded = crossClassActionCounter - maxCrossClassActions(mySynth.crafter.level);
+    if (maxCrossClassActionsExceeded > 0) {
+        penalties += maxCrossClassActionsExceeded;
+    }
+
     fitness += result.qualityState;
     fitness -= penaltyWeight * penalties;
 
