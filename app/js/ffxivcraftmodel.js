@@ -413,11 +413,11 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
                        wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
 
     if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter, wastedActions);
     }
 
     if (debug) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s', progressOk, durabilityOk, cpOk, trickOk);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter, wastedActions);
     }
 
     return finalState;
@@ -676,7 +676,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         if (verbose) {
-            logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions);
+            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions);
         }
 
         if (debug) {
@@ -710,11 +710,11 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
                        wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
 
     if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter, wastedActions);
     }
 
     if (debug) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s', progressOk, durabilityOk, cpOk);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter, wastedActions);
     }
 
     return finalState;
