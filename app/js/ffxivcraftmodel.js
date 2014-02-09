@@ -192,14 +192,14 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     }
 
     if (verbose) {
-        logger.log('%-2s %20s %-5s %-5s %-5s %-5s %-5s' , '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
-        logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions);
+        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s' , '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions);
 
     }
 
     if (debug) {
-        logger.log('%-2s %20s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
-        logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f %5.1f %5.0f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0);
+        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0);
     }
 
     for (var i = 0; i < individual.length; i++) {
@@ -375,7 +375,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         if (verbose) {
-            logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions);
+            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions);
         }
 
         if (debug) {
@@ -383,7 +383,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             if (AllActions.innerQuiet.name in effects.countUps) {
                 iqCnt = effects.countUps[AllActions.innerQuiet.name];
             }
-            logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
+            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
         }
 
     }
@@ -467,14 +467,14 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     individual = tempIndividual;
 
     if (verbose) {
-        logger.log('%-2s %20s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
-        logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions);
+        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions);
 
     }
 
     if (debug) {
-        logger.log('%-2s %20s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
-        logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f %5.1f %5.0f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0);
+        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0);
     }
 
     for (i=0; i < individual.length; i++) {
@@ -679,7 +679,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             if (AllActions.innerQuiet.name in effects.countUps) {
                 iqCnt = effects.countUps[AllActions.innerQuiet.name];
             }
-            logger.log('%2d %20s %5.0f %5.0f %5.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
+            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
         }
 
     }
@@ -729,7 +729,7 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
         finalStateTracker[finalStateTracker.length] = runSynth;
 
         if (verbose) {
-            logger.log('%2d %-20s %5d %5d %5.1f %5.1f %5d', i, 'MonteCarlo', runSynth.durabilityState, runSynth.cpState, runSynth.qualityState, runSynth.progressState, runSynth.wastedActions);
+            logger.log('%2d %-20s %5d %5d %8.1f %5.1f %5d', i, 'MonteCarlo', runSynth.durabilityState, runSynth.cpState, runSynth.qualityState, runSynth.progressState, runSynth.wastedActions);
         }
     }
 
@@ -739,8 +739,8 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
     var avgProgress = getAverageProperty(finalStateTracker, 'progressState', nRuns);
     var avgHqPercent = getAverageHqPercent(finalStateTracker, synth);
 
-    logger.log('%-2s %20s %-5s %-5s %-5s %-5s %-5s','', '', 'DUR', 'CP', 'QUA', 'PRG', 'HQ%');
-    logger.log('%2s %-20s %5.0f %5.0f %5.1f %5.1f %5.1f', '##', 'Expected Value: ', avgDurability, avgCp, avgQuality, avgProgress, avgHqPercent);
+    logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s','', '', 'DUR', 'CP', 'QUA', 'PRG', 'HQ%');
+    logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f', '##', 'Expected Value: ', avgDurability, avgCp, avgQuality, avgProgress, avgHqPercent);
 
     var minDurability = getMinProperty(finalStateTracker, 'durabilityState');
     var minCp = getMinProperty(finalStateTracker, 'cpState');
@@ -749,7 +749,7 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
     var minQualityPercent = Math.min(synth.recipe.maxQuality, minQuality)/synth.recipe.maxQuality * 100;
     var minHqPercent = hqPercentFromQuality(minQualityPercent);
 
-    logger.log('%2s %-20s %5.0f %5.0f %5.1f %5.1f %5d', '##', 'Min Value: ', minDurability, minCp, minQuality, minProgress, minHqPercent);
+    logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5d', '##', 'Min Value: ', minDurability, minCp, minQuality, minProgress, minHqPercent);
 }
 
 function getAverageProperty(stateArray, propName, nRuns) {
