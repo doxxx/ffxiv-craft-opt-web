@@ -542,6 +542,9 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
                     trickUses += 1;
                     cpState += 20;
                     cpState = Math.min(cpState, synth.crafter.craftPoints);
+                    condition = 'Normal';
+                    qualityIncreaseMultiplier *= 1;
+
                 }
                 else{
                     qualityIncreaseMultiplier *= 1.5;
