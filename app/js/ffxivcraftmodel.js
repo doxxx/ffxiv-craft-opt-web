@@ -737,17 +737,16 @@ function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput
     var avgCp = getAverageProperty(finalStateTracker, 'cpState', nRuns);
     var avgQuality = getAverageProperty(finalStateTracker, 'qualityState', nRuns);
     var avgProgress = getAverageProperty(finalStateTracker, 'progressState', nRuns);
-    var avgQualityPercent = avgQuality/synth.recipe.maxQuality * 100;
-    var avgHqPercent = hqPercentFromQuality(avgQualityPercent);
+    var avgHqPercent = getAverageHqPercent(finalStateTracker, synth);
 
     logger.log('%-2s %20s %-5s %-5s %-5s %-5s %-5s','', '', 'DUR', 'CP', 'QUA', 'PRG', 'HQ%');
-    logger.log('%2s %-20s %5.0f %5.0f %5.1f %5.1f %5d', '##', 'Expected Value: ', avgDurability, avgCp, avgQuality, avgProgress, avgHqPercent);
+    logger.log('%2s %-20s %5.0f %5.0f %5.1f %5.1f %5.1f', '##', 'Expected Value: ', avgDurability, avgCp, avgQuality, avgProgress, avgHqPercent);
 
     var minDurability = getMinProperty(finalStateTracker, 'durabilityState');
     var minCp = getMinProperty(finalStateTracker, 'cpState');
     var minQuality = getMinProperty(finalStateTracker, 'qualityState');
     var minProgress = getMinProperty(finalStateTracker, 'progressState');
-    var minQualityPercent = minQuality/synth.recipe.maxQuality * 100;
+    var minQualityPercent = Math.min(synth.recipe.maxQuality, minQuality)/synth.recipe.maxQuality * 100;
     var minHqPercent = hqPercentFromQuality(minQualityPercent);
 
     logger.log('%2s %-20s %5.0f %5.0f %5.1f %5.1f %5d', '##', 'Min Value: ', minDurability, minCp, minQuality, minProgress, minHqPercent);
@@ -761,6 +760,20 @@ function getAverageProperty(stateArray, propName, nRuns) {
     var avgProperty = sumProperty/nRuns;
 
     return avgProperty;
+}
+
+function getAverageHqPercent (stateArray, synth) {
+    var nHQ = 0;
+    for (var i=0; i < stateArray.length; i++) {
+        var qualityPercent = stateArray[i]['qualityState'] / synth.recipe.maxQuality * 100;
+        var hqProbability = hqPercentFromQuality(qualityPercent) / 100;
+        var hqRand = Math.random();
+        if (hqRand <= hqProbability) {
+            nHQ += 1;
+        }
+    }
+
+    return nHQ / stateArray.length * 100;
 }
 
 function getMinProperty(stateArray, propName) {
