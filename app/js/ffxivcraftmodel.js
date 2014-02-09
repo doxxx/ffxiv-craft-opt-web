@@ -168,6 +168,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     var trickUses = 0;
     var crossClassActionList = {};
     var crossClassActionCounter = 0;
+    var useConditions = synth.useConditions;
 
     // Conditions
     var pGood = 0.23;
@@ -247,7 +248,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         // Condition Calculation
-        if (synth.useConditions) {
+        if (useConditions && i > 0) {
             qualityIncreaseMultiplier *= (1*ppNormal + 1.5*ppGood + 4*ppExcellent + 0.5*ppPoor);
         }
 
@@ -335,7 +336,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             }
 
             // Conditions
-            if (synth.useConditions) {
+            if (useConditions) {
                 ppPoor = ppExcellent;
                 ppGood = pGood * ppNormal;
                 ppExcellent = pExcellent * ppNormal;
@@ -442,6 +443,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     var trickUses = 0;
     var crossClassActionList = {};
     var crossClassActionCounter = 0;
+    var useConditions = synth.useConditions;
 
     var condition = 'Normal';
 
@@ -526,7 +528,9 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         // Condition Calculation
         if (condition === 'Excellent') {
             condition = 'Poor';
-            qualityIncreaseMultiplier *= 0.5;
+            if (useConditions) {
+                qualityIncreaseMultiplier *= 0.5;
+            }
         }
         else if (condition === 'Good' || condition === 'Poor') {
             condition = 'Normal';
@@ -535,7 +539,9 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             var condRand = Math.random();
             if (0 <= condRand && condRand < pExcellent) {
                 condition = 'Excellent';
-                qualityIncreaseMultiplier *= 4;
+                if (useConditions) {
+                    qualityIncreaseMultiplier *= 4;
+                }
             }
             else if (pExcellent <= condRand && condRand < (pExcellent + pGood)) {
                 condition = 'Good';
@@ -546,7 +552,9 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
                     cpState += 20;
                     cpState = Math.min(cpState, synth.crafter.craftPoints);
                     condition = 'Normal';
-                    qualityIncreaseMultiplier *= 1;
+                    if (useConditions) {
+                        qualityIncreaseMultiplier *= 1;
+                    }
 
                     if (verbose) {
                         logger.log('%-2s %20s %5.0f %5.0f %8.1f %5.1f %5.0f', '-', 'Tricks of the Trade', durabilityState, cpState, qualityState, progressState, wastedActions);
@@ -558,12 +566,16 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
 
                 }
                 else{
-                    qualityIncreaseMultiplier *= 1.5;
+                    if (useConditions) {
+                        qualityIncreaseMultiplier *= 1.5;
+                    }
                 }
             }
             else {
                 condition = 'Normal';
-                qualityIncreaseMultiplier *= 1;
+                if (useConditions) {
+                    qualityIncreaseMultiplier *= 1;
+                }
             }
         }
 
