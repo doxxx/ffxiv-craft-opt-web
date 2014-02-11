@@ -1,7 +1,7 @@
 importScripts('../lib/string/String.js');
 importScripts('ffxivcraftmodel.js');
 
-this.onmessage = function(e) {
+self.onmessage = function(e) {
   var settings = e.data;
 
   var crafterActions = [];
@@ -46,7 +46,7 @@ this.onmessage = function(e) {
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
 
-  MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, settings.seed, false, false, logOutput)
+  MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, settings.seed, false, false, logOutput);
 
   var result = {
     success: {
@@ -63,5 +63,5 @@ this.onmessage = function(e) {
     }
   };
 
-  postMessage(result);
+  self.postMessage(result);
 };

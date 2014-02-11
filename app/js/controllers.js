@@ -22,34 +22,34 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.navBarCollapsed = true;
 
   $scope.simulatorStatus = {
-    running: false,
+    running: false
   };
 
   $scope.solverStatus = {
     running: false,
     taskID: null,
     generationsCompleted: 0,
-    error: null,
+    error: null
   };
 
   $scope.simulatorTabs = {
     simulation: { },
-    solver: { },
+    solver: { }
   };
 
   $scope.simulationResult = {
     logText: '',
-    finalState: null,
+    finalState: null
   };
 
   $scope.solverResult = {
     logText: '',
     sequence: [],
-    finalState: null,
+    finalState: null
   };
 
   // load/initialize persistent page state
-  loadPageState($scope)
+  loadPageState($scope);
 
   // load saved settings
   $scope.savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
@@ -63,17 +63,17 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 
   // watches for automatic updates and saving settings
-  $scope.$watchCollection('sections', function(newValue) {
+  $scope.$watchCollection('sections', function() {
     savePageState($scope);
-  })
+  });
   $scope.$watchCollection('savedSettings', function(newValue) {
     localStorage['savedSettings'] = JSON.stringify(newValue);
   });
 
-  function saveAndRerunSim(newValue) {
-    savePageState($scope)
+  function saveAndRerunSim() {
+    savePageState($scope);
     if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
-      $scope.runSimulation($scope.simulationSuccess, $scope.simulationError)
+      $scope.runSimulation();
     }
     else {
       $scope.simulationResult.finalState = null
@@ -102,8 +102,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.$watchCollection('simulation', saveAndRerunSim);
 
   $scope.$watchCollection('solver', function() {
-    savePageState($scope)
-  })
+    savePageState($scope);
+  });
 
   // data model interaction functions
   $scope.recipesForClass = function(cls) {
@@ -111,22 +111,22 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     recipes.sort(function(a,b) { return a.name.localeCompare(b.name); });
     return recipes;*/
     return _recipeLibrary.recipesForClass(cls);
-  }
-  
+  };
+
   $scope.importRecipe = function(name) {
     var cls = $scope.recipe.cls;
     $scope.recipe = angular.copy(_recipeLibrary.recipeForClassByName(cls, name));
     $scope.recipe.cls = cls;
     $scope.recipe.startQuality = 0;
-  }
-  
+  };
+
   $scope.newSettings = function() {
     $scope.settings.name = '';
     var newRecipe = newRecipeStats($scope);
     newRecipe.cls = $scope.recipe.cls;
     $scope.recipe = newRecipe;
     $scope.bonusStats = newBonusStats();
-  }
+  };
 
   $scope.loadSettings = function(name) {
     var settings = $scope.savedSettings[name];
@@ -140,14 +140,14 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.solverResult = {
       logText: '',
       sequence: [],
-      finalState: null,
+      finalState: null
     };
 
     $scope.settings.name = name;
-  }
+  };
 
   $scope.saveSettings = function() {
-    var settings = {}
+    var settings = {};
 
     settings.bonusStats = angular.copy($scope.bonusStats);
     settings.recipe = angular.copy($scope.recipe);
@@ -157,14 +157,14 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     settings.solver = angular.copy($scope.solver);
 
     $scope.savedSettings[$scope.settings.name] = settings;
-  }
+  };
 
   $scope.saveSettingsAs = function() {
     var name = prompt('Enter recipe name:');
     if (name == null || name.length == 0) return;
     $scope.settings.name = name;
     $scope.saveSettings();
-  }
+  };
 
   $scope.deleteSettings = function(name) {
     if (confirm('Are you sure you want to delete the "' + name + '" settings?')) {
@@ -173,7 +173,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
         $scope.settings.name = '';
       }
     }
-  }
+  };
 
   $scope.renameSettings = function(name) {
     var newName = prompt('Enter new recipe name:');
@@ -183,7 +183,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     if (name == $scope.settings.name) {
       $scope.settings.name = newName;
     }
-  }
+  };
 
   $scope.areSettingsDirty = function() {
     if ($scope.settings.name == '') {
@@ -201,7 +201,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     clean = clean && angular.equals(settings.solver, angular.copy($scope.solver));
 
     return !clean;
-  }
+  };
 
   $scope.settingsNameForDisplay = function() {
     if ($scope.settings.name == '') {
@@ -210,7 +210,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     else {
       return $scope.settings.name;
     }
-  }
+  };
 
   $scope.actionClasses = function(action, cls) {
     return {
@@ -218,22 +218,22 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       'action-cross-class': $scope.isActionCrossClass(action, cls),
       'invalid-action': !$scope.isActionSelected(action, cls)
     }
-  }
+  };
 
   $scope.isActionSelected = function(action, cls) {
     return $scope.crafter.stats[cls].actions.indexOf(action) >= 0;
-  }
+  };
 
   $scope.isActionCrossClass = function(action, cls) {
     return $scope.allActions[action].cls != 'All' &&
            $scope.allActions[action].cls != cls;
-  }
+  };
 
   $scope.isValidSequence = function(sequence, cls) {
     return sequence.every(function(action) {
       return $scope.isActionSelected(action, cls);
     });
-  }
+  };
 
   $scope.actionTooltip = function(action, cls) {
     var info = $scope.allActions[action];
@@ -242,7 +242,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       tooltip += ' (' + info.cls + ')';
     }
     return tooltip;
-  }
+  };
 
   $scope.sequenceActionTooltip = function(action, cls) {
     var tooltip = $scope.actionTooltip(action, cls);
@@ -250,7 +250,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       tooltip += '<br/><b>[Action Not Available]</b>';
     }
     return tooltip;
-  }
+  };
 
   $scope.uniqueCrossClassActions = function(sequence, cls) {
     if (typeof sequence == 'undefined') return [];
@@ -258,9 +258,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       var actionClass = $scope.allActions[action].cls;
       return actionClass != 'All' && actionClass != cls;
     });
-    var unique = crossClassActions.unique();
-    return unique;
-  }
+    return crossClassActions.unique();
+  };
 
   $scope.toggleAction = function(action) {
     var i = $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action);
@@ -279,14 +278,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       windowClass: 'stat-bonus-editor',
       resolve: {
         crafter: function() { return $scope.crafter; },
-        bonusStats: function() { return $scope.bonusStats; },
-      },
+        bonusStats: function() { return $scope.bonusStats; }
+      }
     });
     modalInstance.result.then(function(result) {
       $scope.bonusStats = angular.copy(result);
-    }
-    )
-  }
+    });
+  };
 
   $scope.editSequence = function() {
     var modalInstance = $modal.open({
@@ -298,34 +296,32 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
         recipe: function() { return $scope.recipe; },
         crafterStats: function() { return $scope.crafter.stats[$scope.recipe.cls]; },
         bonusStats: function() { return $scope.bonusStats; },
-        sequenceSettings: function() { return $scope.sequenceSettings; },
-      },
-    });
-    modalInstance.result.then(
-      function(result) {
-        $scope.sequence = angular.copy(result)
+        sequenceSettings: function() { return $scope.sequenceSettings; }
       }
-    )
-  }
+    });
+    modalInstance.result.then(function(result) {
+      $scope.sequence = angular.copy(result)
+    });
+  };
 
   $scope.showMacroModal = function() {
-    var modalInstance = $modal.open({
+    $modal.open({
       templateUrl: 'partials/macro.html',
       controller: 'MacroCtrl',
       windowClass: 'macro-modal',
       resolve: {
         allActions: function() { return $scope.allActions; },
-        sequence: function() { return $scope.sequence; },
-      },
+        sequence: function() { return $scope.sequence; }
+      }
     });
-  }
+  };
 
   $scope.useSolverResult = function() {
-    var seq = $scope.solverResult.sequence
+    var seq = $scope.solverResult.sequence;
     if (seq instanceof Array && seq.length > 0) {
       $scope.sequence = $scope.solverResult.sequence;
     }
-  }
+  };
 
   // Web Service API
 
@@ -334,14 +330,14 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.simulationResult.finalState = data.finalState;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
-  }
+  };
 
   $scope.simulationError = function(data) {
     $scope.simulationResult.logText = data.log;
-    $scope.simulationResult.logText += '\n\nError: ' + data.error
+    $scope.simulationResult.logText += '\n\nError: ' + data.error;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
-  }
+  };
 
   $scope.runSimulation = function() {
     var settings = {
@@ -349,7 +345,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-      maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+      maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns
     };
     if ($scope.sequenceSettings.specifySeed) {
       settings.seed = $scope.sequenceSettings.seed;
@@ -357,7 +353,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
     _simulator.start($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
     $scope.simulatorStatus.running = true;
-  }
+  };
 
   $scope.solverProgress = function(data) {
     $scope.solverStatus.generationsCompleted = data.generationsCompleted;
@@ -376,8 +372,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.solverError = function(data) {
     $scope.solverStatus.error = data.error;
     $scope.solverResult.logText = data.log;
-    $scope.solverResult.logText += '\n\nError: ' + data.error
-    $scope.solverResult.sequence = []
+    $scope.solverResult.logText += '\n\nError: ' + data.error;
+    $scope.solverResult.sequence = [];
     $scope.simulatorTabs.solver.active = true;
     $scope.solverStatus.running = false;
     $scope.solverStatus.generationsCompleted = 0;
@@ -392,20 +388,20 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-      solver: $scope.solver,
+      solver: $scope.solver
     };
     if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
     }
     _solver.start($scope.sequence, settings, $scope.solverProgress, $scope.solverSuccess, $scope.solverError);
     $scope.solverStatus.running = true;
-  }
+  };
 
   $scope.stopSolver = function() {
     _solver.stop();
     $scope.solverStatus.error = "cancelled";
     $scope.solverResult.logText = "";
-    $scope.solverResult.sequence = []
+    $scope.solverResult.sequence = [];
     $scope.solverStatus.running = false;
     $scope.solverStatus.generationsCompleted = 0;
   }
@@ -435,7 +431,7 @@ function loadPageState($scope) {
       crafter: true,
       synth: true,
       simulator: true,
-      simulatorOptions: false,
+      simulatorOptions: false
     };
   }
 
@@ -454,7 +450,7 @@ function loadPageState($scope) {
   else {
     $scope.crafter = {
       cls: $scope.allClasses[0],
-      stats: {},
+      stats: {}
     };
 
     for (var i = 0; i < $scope.allClasses.length; i++) {
@@ -464,7 +460,7 @@ function loadPageState($scope) {
         craftsmanship: 24,
         control: 0,
         cp: 180,
-        actions: ['basicSynth'],
+        actions: ['basicSynth']
       }
     }
   }
@@ -483,7 +479,7 @@ function loadPageState($scope) {
 
     // convert previously selected saved recipe
     if (recipe.current) {
-      var allRecipes = JSON.parse(localStorage['settings.allRecipes'])
+      var allRecipes = JSON.parse(localStorage['settings.allRecipes']);
       recipe = allRecipes[recipe.current];
     }
 
@@ -510,7 +506,7 @@ function loadPageState($scope) {
       maxTricksUses: 0,
       maxMontecarloRuns: 500,
       specifySeed: false,
-      seed: 1337,
+      seed: 1337
     }
   }
 
@@ -530,7 +526,7 @@ function loadPageState($scope) {
     $scope.solver = {
       penaltyWeight: 10000,
       population: 300,
-      generations: 100,
+      generations: 100
     };
   }
 
@@ -565,13 +561,13 @@ Array.prototype.equals = function (array) {
         }
     }
     return true;
-}
+};
 
 Array.prototype.unique = function() {
   return this.filter(function(value, index, self) {
     return self.indexOf(value) === index;
   })
-}
+};
 
 function newRecipeStats($scope) {
   return {
@@ -580,7 +576,7 @@ function newRecipeStats($scope) {
     difficulty: 9,
     durability: 40,
     startQuality: 0,
-    maxQuality: 312,
+    maxQuality: 312
   }
 }
 
@@ -588,7 +584,7 @@ function newBonusStats() {
   return {
     craftsmanship: 0,
     control: 0,
-    cp: 0,
+    cp: 0
   }
 }
 

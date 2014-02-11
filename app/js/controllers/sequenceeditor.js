@@ -22,19 +22,19 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
 
   $scope.isActionSelected = function(action) {
     return $scope.availableActions.indexOf(action) >= 0;
-  }
+  };
 
   $scope.actionClasses = function(action, cls) {
     return {
       'action-cross-class': $scope.isActionCrossClass(action, cls),
       'invalid-action': !$scope.isActionSelected(action)
     }
-  }
+  };
 
   $scope.isActionCrossClass = function(action, cls) {
     return $scope.allActions[action].cls != 'All' &&
            $scope.allActions[action].cls != cls;
-  }
+  };
 
   $scope.actionTooltip = function(action, cls) {
     var info = $scope.allActions[action];
@@ -43,7 +43,7 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
       tooltip += ' (' + info.cls + ')';
     }
     return tooltip;
-  }
+  };
 
   $scope.sequenceActionTooltip = function(action, cls) {
     var tooltip = $scope.actionTooltip(action, cls);
@@ -51,7 +51,7 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
       tooltip += '<br/><b>[Action Not Available]</b>';
     }
     return tooltip;
-  }
+  };
 
   $scope.dropAction = function(dragEl, dropEl) {
     var drag = angular.element(dragEl);
@@ -88,17 +88,17 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
 
   $scope.addAction = function(action) {
     $scope.sequence.push(action);
-  }
+  };
 
   $scope.removeAction = function(index) {
     $scope.sequence.splice(index, 1)
-  }
+  };
 
   $scope.isValidSequence = function(sequence, cls) {
     return sequence.every(function(action) {
       return $scope.isActionSelected(action, cls);
     });
-  }
+  };
 
   $scope.simulate = function() {
     var settings = {
@@ -106,7 +106,7 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
       recipe: recipe,
       sequence: $scope.sequence,
       maxTricksUses: sequenceSettings.maxTricksUses,
-      maxMontecarloRuns: sequenceSettings.maxMontecarloRuns,
+      maxMontecarloRuns: sequenceSettings.maxMontecarloRuns
     };
     if (sequenceSettings.specifySeed) {
       settings.seed = sequenceSettings.seed;
@@ -114,30 +114,30 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
 
     _simulator.start($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
     $scope.simulationResult.running = true;
-  }
+  };
 
   $scope.simulationSuccess = function(data, status, headers, config) {
     $scope.simulationResult.finalState = data.finalState;
     $scope.simulationResult.running = false;
-  }
+  };
 
   $scope.simulationError = function(data, status, headers, config) {
     $scope.simulationResult.finalState = {};
     $scope.simulationResult.error = data.error;
     $scope.simulationResult.running = false;
-  }
+  };
 
   $scope.clear = function() {
     $scope.sequence = [];
-  }
+  };
 
   $scope.revert = function() {
     $scope.sequence = angular.copy(origSequence);
-  }
+  };
 
   $scope.save = function() {
     $modalInstance.close($scope.sequence);
-  }
+  };
 
   $scope.cancel = function() {
     $modalInstance.dismiss('cancel');
@@ -155,11 +155,11 @@ var StatBonusEditorCtrl = controllers.controller('StatBonusEditorCtrl', function
 
   $scope.clear = function() {
     $scope.bonusStats = newBonusStats();
-  }
+  };
 
   $scope.save = function() {
     $modalInstance.close($scope.bonusStats);
-  }
+  };
 
   $scope.cancel = function() {
     $modalInstance.dismiss('cancel');
