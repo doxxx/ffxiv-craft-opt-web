@@ -3,8 +3,8 @@
 </div>
 <div class="modal-body">
   <form class="action-table">
-    <legend>Available Actions</legend>
     <fieldset>
+      <legend>Available Actions</legend>
       <div class="control-group" ng-repeat="actionGroup in actionGroups">
         <label class="control-label">{{actionGroup.name}}</label>
         <div class="controls">
@@ -24,22 +24,24 @@
     </fieldset>
   </form>
   <form>
-    <legend>Sequence</legend>
-    <div class="sequence" id="sequenceEditorSequence" isolate-scrolling>
-      <img ng-repeat="action in sequence track by $index"
-           class="action selectable-action"
-           ng-class="actionClasses(action, recipe.cls)"
-           ng-src="{{getActionImagePath(action, recipe.cls)}}"
-           ng-click="removeAction($index)"
-           lvl-draggable="true"
-           lvl-drop-target="true"
-           data-index="{{$index}}"
-           on-drop="dropAction(dragEl, dropEl)"/>
+    <fieldset>
+      <legend>Sequence</legend>
+      <div class="sequence" id="sequenceEditorSequence" isolate-scrolling>
+        <img ng-repeat="action in sequence track by $index"
+             class="action selectable-action"
+             ng-class="actionClasses(action, recipe.cls)"
+             ng-src="{{getActionImagePath(action, recipe.cls)}}"
+             ng-click="removeAction($index)"
+             lvl-draggable="true"
+             lvl-drop-target="true"
+             data-index="{{$index}}"
+             on-drop="dropAction(dragEl, dropEl)"/>
 
-      <div class="empty-action" lvl-drop-target="true"
-           data-index="{{sequence.length}}"
-           on-drop="dropAction(dragEl, dropEl)"/>
-    </div>
+        <div class="empty-action" lvl-drop-target="true"
+             data-index="{{sequence.length}}"
+             on-drop="dropAction(dragEl, dropEl)"/>
+      </div>
+    </fieldset>
   </form>
 </div>
 <div class="modal-footer">
