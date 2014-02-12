@@ -178,7 +178,7 @@
                           </div>
                           <div class="my-dropdown-menu" ng-scope="$searchText = ''">
                             <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="$searchText"
-                                   placeholder="Search..." select-on-focus stop-click-propogation/>
+                                   placeholder="Search..." select-on-focus stop-click-propogation ng-keypress="onSearchKeyPress($event)"/>
                             <ul class="recipe-menu-scrollable" isolate-scrolling>
                               <li ng-repeat="r in recipesForClass(recipe.cls) | filter:{name:$searchText}">
                                 <a ng-click="importRecipe(r.name)">[{{r.level}}] {{r.name}}</a>

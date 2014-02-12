@@ -120,6 +120,12 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.recipe.startQuality = 0;
   };
 
+  $scope.onSearchKeyPress = function($event) {
+    if ($event.which == 13) {
+      $event.preventDefault();
+    }
+  };
+
   $scope.newSettings = function() {
     $scope.settings.name = '';
     var newRecipe = newRecipeStats($scope);
