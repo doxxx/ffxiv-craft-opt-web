@@ -124,14 +124,16 @@ module.directive('myDropdownToggle', ['$document', '$location', function ($docum
             $document.unbind('click', closeMenu);
             parent.removeClass('open');
             closeMenu = angular.noop;
+            delete parent[0].closeMenu;
             openElement = null;
           };
           $document.bind('click', closeMenu);
           $document.bind('keyup', function(event) {
             if (event.which === 27) {
-              closeMenu();
+              closeMenu(event);
             }
           });
+          parent[0].closeMenu = closeMenu;
           focusElement = searchFocusElement(parent);
           if (focusElement !== undefined) {
             focusElement[0].focus();

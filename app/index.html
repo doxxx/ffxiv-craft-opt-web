@@ -173,15 +173,16 @@
                       <div class="controls">
                         <div class="my-dropdown">
                           <div class="nowrap">
-                            <span class="uneditable-input span4">{{recipe.name}}</span>
+                            <span class="uneditable-input span4 my-dropdown-toggle">{{recipe.name}}</span>
                             <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
                           </div>
-                          <div class="my-dropdown-menu" ng-scope="$searchText = ''">
-                            <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="$searchText"
-                                   placeholder="Search..." select-on-focus stop-click-propogation ng-keypress="onSearchKeyPress($event)"/>
+                          <div class="my-dropdown-menu">
+                            <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="recipeSearch.text"
+                                   placeholder="Search..." select-on-focus stop-click-propogation
+                                   ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"/>
                             <ul class="recipe-menu-scrollable" isolate-scrolling>
-                              <li ng-repeat="r in recipesForClass(recipe.cls) | filter:{name:$searchText}">
-                                <a ng-click="importRecipe(r.name)">[{{r.level}}] {{r.name}}</a>
+                              <li ng-repeat="r in recipeSearch.list" ng-class="{active: $index === recipeSearch.selected}" id="recipeSearchElement{{$index}}">
+                                <a ng-click="importRecipe(r.name)" ng-mouseover="recipeSearch.selected=$index">[{{r.level}}] {{r.name}}</a>
                               </li>
                             </ul>
                           </div>

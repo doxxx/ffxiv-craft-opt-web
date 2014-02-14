@@ -4,7 +4,7 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
-controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout,
+controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout, $filter,
                                             _getSolverServiceURL, _allClasses, _actionGroups, _allActions,
                                             _getActionImagePath, _recipeLibrary, _simulator, _solver) {
   // provide access to constants
@@ -20,6 +20,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   // non-persistent page states
   $scope.navBarCollapsed = true;
+  $scope.recipeSearch = {
+    list: [],
+    selected: 0,
+    text: ''
+  };
 
   $scope.simulatorStatus = {
     running: false
@@ -66,6 +71,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.$watchCollection('sections', function() {
     savePageState($scope);
   });
+
+  $scope.$watch('recipeSearch.text', function() {
+    var recipesForClass = $scope.recipesForClass($scope.recipe.cls) || [];
+    $scope.recipeSearch.list = $filter('filter')(recipesForClass, {name:$scope.recipeSearch.text});
+    $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length-1);
+  });
+
   $scope.$watchCollection('savedSettings', function(newValue) {
     localStorage['savedSettings'] = JSON.stringify(newValue);
   });
@@ -120,9 +132,24 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.recipe.startQuality = 0;
   };
 
-  $scope.onSearchKeyPress = function($event) {
-    if ($event.which == 13) {
-      $event.preventDefault();
+  $scope.onSearchKeyPress = function(event) {
+    if (event.which == 13) {
+      event.preventDefault();
+      $scope.importRecipe($scope.recipeSearch.list[$scope.recipeSearch.selected].name);
+      event.target.parentNode.parentNode.closeMenu();
+    }
+  };
+
+  $scope.onSearchKeyDown = function(event) {
+    if (event.which === 40) {
+      // down
+      $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected+1, $scope.recipeSearch.list.length-1);
+      document.getElementById('recipeSearchElement' + $scope.recipeSearch.selected).scrollIntoViewIfNeeded(false);
+    }
+    else if (event.which === 38) {
+      // up
+      $scope.recipeSearch.selected = Math.max($scope.recipeSearch.selected-1, 0);
+      document.getElementById('recipeSearchElement' + $scope.recipeSearch.selected).scrollIntoViewIfNeeded(false);
     }
   };
 
@@ -481,7 +508,7 @@ function loadPageState($scope) {
 
   var recipe = localStorage['settings.recipe'];
   if (recipe) {
-    recipe = JSON.parse(recipe);
+    recipe = JSON.parse(recipe) || {};
 
     // convert previously selected saved recipe
     if (recipe.current) {
@@ -600,4 +627,48 @@ function addBonusStats(crafter, bonusStats) {
   newStats.control += bonusStats.control;
   newStats.cp += bonusStats.cp;
   return newStats;
+}
+
+// scrollIntoViewIfNeeded polyfill for Firefox and IE
+// Based on https://gist.github.com/hsablonniere/2581101
+if (!Element.prototype.scrollIntoViewIfNeeded) {
+  Element.prototype.scrollIntoViewIfNeeded = function (centerIfNeeded) {
+    centerIfNeeded = arguments.length === 0 ? true : !!centerIfNeeded;
+
+    var parent = this.parentNode,
+      parentComputedStyle = window.getComputedStyle(parent, null),
+      parentBorderTopWidth = parseInt(parentComputedStyle.getPropertyValue('border-top-width')),
+      parentBorderLeftWidth = parseInt(parentComputedStyle.getPropertyValue('border-left-width')),
+      overTop = this.offsetTop - parent.offsetTop < parent.scrollTop,
+      overBottom = (this.offsetTop - parent.offsetTop + this.clientHeight - parentBorderTopWidth) > (parent.scrollTop + parent.clientHeight),
+      overLeft = this.offsetLeft - parent.offsetLeft < parent.scrollLeft,
+      overRight = (this.offsetLeft - parent.offsetLeft + this.clientWidth - parentBorderLeftWidth) > (parent.scrollLeft + parent.clientWidth);
+
+    if (centerIfNeeded) {
+      if (overTop || overBottom) {
+        parent.scrollTop = this.offsetTop - parent.offsetTop - parent.clientHeight / 2 - parentBorderTopWidth + this.clientHeight / 2;
+      }
+
+      if (overLeft || overRight) {
+        parent.scrollLeft = this.offsetLeft - parent.offsetLeft - parent.clientWidth / 2 - parentBorderLeftWidth + this.clientWidth / 2;
+      }
+    }
+    else {
+      if (overTop) {
+        parent.scrollTop = this.offsetTop - parent.offsetTop - parentBorderTopWidth;
+      }
+
+      if (overBottom) {
+        parent.scrollTop = this.offsetTop - parent.offsetTop - parentBorderTopWidth - parent.clientHeight + this.clientHeight;
+      }
+
+      if (overLeft) {
+        parent.scrollLeft = this.offsetLeft - parent.offsetLeft - parentBorderLeftWidth;
+      }
+
+      if (overRight) {
+        parent.scrollLeft = this.offsetLeft - parent.offsetLeft - parentBorderLeftWidth - parent.clientWidth + this.clientWidth;
+      }
+    }
+  };
 }
