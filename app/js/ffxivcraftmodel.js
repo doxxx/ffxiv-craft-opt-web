@@ -2,17 +2,18 @@
 
 function Logger(logOutput) {
     this.logOutput = logOutput;
-    this.log = function(myString) {
-        var args = Array.prototype.slice.call(arguments, 1);
-        var msg = String.prototype.sprintf.apply(myString, args);
-        if (this.logOutput !== undefined && this.logOutput !== null) {
-          this.logOutput.write(msg + '\n');
-        }
-        else {
-          console.log(msg);
-        }
-    };
 }
+
+Logger.prototype.log = function(myString) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    var msg = String.prototype.sprintf.apply(myString, args);
+    if (this.logOutput !== undefined && this.logOutput !== null) {
+        this.logOutput.write(msg + '\n');
+    }
+    else {
+        console.log(msg);
+    }
+};
 
 function Crafter(cls, level, craftsmanship, control, craftPoints, actions) {
     this.cls = cls;
@@ -41,48 +42,45 @@ function Synth(crafter, recipe, maxTrickUses, useConditions) {
     this.recipe = recipe;
     this.maxTrickUses = maxTrickUses;
     this.useConditions = useConditions;
-    this.CalculateBaseProgressIncrease = function(levelDifference, craftsmanship) {
-        var levelCorrectionFactor = 0;
-
-        if ((-5 <= levelDifference) && (levelDifference <= 0)) {
-            levelCorrectionFactor = 0.10 * levelDifference;
-        }
-        else if ((0 < levelDifference) && (levelDifference <= 5)) {
-            levelCorrectionFactor = 0.05 * levelDifference;
-        }
-        else if ((5 < levelDifference) && (levelDifference <= 15)) {
-            levelCorrectionFactor = 0.022 * levelDifference + 0.15;
-        }
-        else {
-            levelCorrectionFactor = 0.0033 * levelDifference + 0.43;
-        }
-
-        var baseProgress = 0.21 * craftsmanship + 1.6;
-        var levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor);
-
-        return Math.round(levelCorrectedProgress, 0);
-
-    };
-
-    this.CalculateBaseQualityIncrease = function(levelDifference, control) {
-        var levelCorrectionFactor = 0;
-
-        if ((-5 <= levelDifference) && (levelDifference <= 0)) {
-            levelCorrectionFactor = 0.05 * levelDifference;
-        }
-        else {
-            levelCorrectionFactor = 0;
-        }
-
-        var baseQuality = 0.36 * control + 34;
-        var levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
-
-        return Math.round(levelCorrectedQuality, 0);
-
-    };
-
 }
 
+Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship) {
+    var levelCorrectionFactor = 0;
+
+    if ((-5 <= levelDifference) && (levelDifference <= 0)) {
+        levelCorrectionFactor = 0.10 * levelDifference;
+    }
+    else if ((0 < levelDifference) && (levelDifference <= 5)) {
+        levelCorrectionFactor = 0.05 * levelDifference;
+    }
+    else if ((5 < levelDifference) && (levelDifference <= 15)) {
+        levelCorrectionFactor = 0.022 * levelDifference + 0.15;
+    }
+    else {
+        levelCorrectionFactor = 0.0033 * levelDifference + 0.43;
+    }
+
+    var baseProgress = 0.21 * craftsmanship + 1.6;
+    var levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor);
+
+    return Math.round(levelCorrectedProgress);
+};
+
+Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control) {
+    var levelCorrectionFactor = 0;
+
+    if ((-5 <= levelDifference) && (levelDifference <= 0)) {
+        levelCorrectionFactor = 0.05 * levelDifference;
+    }
+    else {
+        levelCorrectionFactor = 0;
+    }
+
+    var baseQuality = 0.36 * control + 34;
+    var levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
+
+    return Math.round(levelCorrectedQuality);
+};
 
 function Action(shortName, name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level) {
     this.shortName = shortName;
@@ -103,25 +101,14 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
 
     this.cls = cls;
     this.level = level;
-
 }
 
 function isActionEq(action1, action2) {
-    if (action1.name === action2.name) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    return action1.name === action2.name;
 }
 
 function isActionNe(action1, action2) {
-    if (action1.name !== action2.name) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    return action1.name !== action2.name;
 }
 
 function EffectTracker() {
@@ -173,7 +160,6 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     // Conditions
     var pGood = 0.23;
     var pExcellent = 0.01;
-    var pPoor = pExcellent;
 
     // Step 1 is always normal
     var ppGood = 0;
@@ -253,7 +239,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         // Calculate final gains / losses
-        var bProgressGain = action.progressIncreaseMultiplier * synth.CalculateBaseProgressIncrease(levelDifference, craftsmanship);
+        var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
         if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
         }
@@ -262,7 +248,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
         var progressGain = successProbability * bProgressGain;
 
-        var bQualityGain = qualityIncreaseMultiplier * synth.CalculateBaseQualityIncrease(levelDifference, control);
+        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control);
         var qualityGain = successProbability * bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
@@ -586,7 +572,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             success = 1;
         }
 
-        var bProgressGain = action.progressIncreaseMultiplier * synth.CalculateBaseProgressIncrease(levelDifference, craftsmanship);
+        var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
         if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
         }
@@ -595,7 +581,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         }
         var progressGain = success * bProgressGain;
 
-        var bQualityGain = qualityIncreaseMultiplier * synth.CalculateBaseQualityIncrease(levelDifference, control);
+        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control);
         var qualityGain = success * bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
@@ -799,11 +785,9 @@ function getAverageProperty(stateArray, propName, nRuns) {
             nSuccesses += 1;
             sumProperty += stateArray[i][propName];
         }
-
     }
-    var avgProperty = sumProperty/nSuccesses;
 
-    return avgProperty;
+    return sumProperty / nSuccesses;
 }
 
 function getAverageHqPercent(stateArray, synth) {
@@ -824,7 +808,6 @@ function getAverageHqPercent(stateArray, synth) {
                 nHQ += 1;
             }
         }
-
     }
 
     return nHQ / nSuccesses * 100;
@@ -863,9 +846,7 @@ function getMinProperty(stateArray, propName) {
 
 function qualityFromHqPercent(hqPercent) {
     var x = hqPercent;
-    var qualityPercent = -5.6604E-6 * Math.pow(x, 4) + 0.0015369705 * Math.pow(x, 3) - 0.1426469573 * Math.pow(x, 2) + 5.6122722959 * x - 5.5950384565;
-
-    return qualityPercent;
+    return -5.6604E-6 * Math.pow(x, 4) + 0.0015369705 * Math.pow(x, 3) - 0.1426469573 * Math.pow(x, 2) + 5.6122722959 * x - 5.5950384565;
 }
 
 function hqPercentFromQuality(qualityPercent) {
@@ -972,7 +953,7 @@ var AllActions = {
   innovation: new Action(        'innovation',           'Innovation',           0,   18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50),
   greatStrides: new Action(      'greatStrides',         'Great Strides',        0,   32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
   ingenuity: new Action(         'ingenuity',            'Ingenuity',            0,   24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15),
-  ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50),
+  ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50)
 };
 
 // Test objects

@@ -12,5 +12,5 @@ var app = angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.services.solver',
   'ffxivCraftOptWeb.directives',
   'ffxivCraftOptWeb.filters',
-  'ffxivCraftOptWeb.controllers',
+  'ffxivCraftOptWeb.controllers'
 ]);

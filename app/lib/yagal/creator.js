@@ -8,13 +8,15 @@ var yagal_creator = (function() {
 
       obj = typeof obj === 'object' ? obj : this;
 
-      for (var attr in attrs) {
-        var x = attrs[attr];
-        if (typeof x === 'function') {
-          /* jshint -W055 */
-          x = new x();
+      if (attrs !== undefined) {
+        for (var attr in attrs) {
+          var x = attrs[attr];
+          if (typeof x === 'function') {
+            /* jshint -W055 */
+            x = new x();
+          }
+          obj[attr] = x;
         }
-        obj[attr] = x;
       }
 
       return obj;

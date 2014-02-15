@@ -21,9 +21,9 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
   waitTime = typeof waitTime !== 'undefined' ? waitTime : 3;
   insertTricks = typeof insertTricks !== 'undefined' ? insertTricks : false;
 
-  var maxLines = 14
+  var maxLines = 14;
 
-  var waitString = '/wait ' + waitTime + '\n'
+  var waitString = '/wait ' + waitTime + '\n';
   var lines = [];
 
   for (var i = 0; i < actions.length; i++) {
@@ -32,19 +32,18 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
       lines.push('/ac "' + allActions[action].name + '" <me>\n');
       lines.push(waitString);
       if (insertTricks) {
-        lines.append('/ac "Tricks of the Trade" <me>=\n')
+        lines.append('/ac "Tricks of the Trade" <me>=\n');
         lines.push(waitString);
       }
     }
   }
 
-  var macros = []
+  var macros = [];
 
-  var macroString = ''
-  for (var i = 0; i < lines.length; i++) {
-    var line = lines[i];
-    macroString += line;
-    var step = i + 1;
+  var macroString = '';
+  for (var j = 0; j < lines.length; j++) {
+    macroString += lines[j];
+    var step = j + 1;
     if (step % maxLines == 0) {
       macroString += '/echo Macro step ' + step/maxLines + ' complete <se.1>\n';
       macros.push(macroString);

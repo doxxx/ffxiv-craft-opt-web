@@ -6,7 +6,7 @@ importScripts('../lib/yagal/fitness.js');
 importScripts('../lib/yagal/toolbox.js');
 importScripts('../lib/yagal/algorithms.js');
 
-this.onmessage = function(e) {
+self.onmessage = function(e) {
   var settings = e.data;
 
   var crafterActions = [];
@@ -63,7 +63,7 @@ this.onmessage = function(e) {
   var hof = new yagal_tools.HallOfFame(1);
 
   function feedback(gen, best) {
-    postMessage({
+    self.postMessage({
       progress: {
         generationsCompleted: gen,
         bestState: simSynth(best, synth, false, false)
@@ -78,10 +78,10 @@ this.onmessage = function(e) {
     }
   };
 
-  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(settings.seed, synth.useConditions))
+  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(settings.seed, synth.useConditions));
 
-  logOutput.write("Genetic Algorithm Result\n")
-  logOutput.write("========================\n")
+  logOutput.write("Genetic Algorithm Result\n");
+  logOutput.write("========================\n");
 
   yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
 
@@ -93,10 +93,10 @@ this.onmessage = function(e) {
     bestSequence.push(best[k].shortName);
   }
 
-  logOutput.write("\nMonte Carlo Result\n")
-  logOutput.write("==================\n")
+  logOutput.write("\nMonte Carlo Result\n");
+  logOutput.write("==================\n");
 
-  MonteCarloSim(best, synth, settings.maxMontecarloRuns, settings.seed, false, false, logOutput)
+  MonteCarloSim(best, synth, settings.maxMontecarloRuns, settings.seed, false, false, logOutput);
 
   var result = {
     success: {
@@ -114,7 +114,7 @@ this.onmessage = function(e) {
     }
   };
 
-  postMessage(result);
+  self.postMessage(result);
 };
 
 function randomInt(max) {

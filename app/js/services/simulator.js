@@ -35,7 +35,7 @@ SimulationService.prototype.start = function(sequence, settings, success, error)
     }
   };
   worker.postMessage(settings);
-}
+};
 
 angular.module('ffxivCraftOptWeb.services.simulator', []).
   service('_simulator', SimulationService);
