@@ -10,7 +10,7 @@ this.onmessage = function(e) {
     crafterActions.push(AllActions[settings.crafter.actions[i]]);
   }
 
-  var crafter = new Crafter(settings.crafter.cls,
+  var crafter = new Crafter(settings.recipe.cls,
                             settings.crafter.level,
                             settings.crafter.craftsmanship,
                             settings.crafter.control,
@@ -35,9 +35,9 @@ this.onmessage = function(e) {
       logOutput.log += msg;
     }
   };
-  
+
   logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(settings.seed, synth.useConditions));
-  
+
   logOutput.write("Probabilistic Result\n");
   logOutput.write("====================\n");
 
