@@ -23,16 +23,15 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
 
   var maxLines = 14;
 
-  var waitString = '/wait ' + waitTime + '\n';
+  var waitString = '<wait.' + waitTime + '>';
   var lines = [];
 
   for (var i = 0; i < actions.length; i++) {
     var action = actions[i];
     if (action !== 'tricksOfTheTrade') {
-      lines.push('/ac "' + allActions[action].name + '" <me>\n');
-      lines.push(waitString);
+      lines.push('/ac "' + allActions[action].name + '" <me> ' + waitString + '\n');
       if (insertTricks) {
-        lines.append('/ac "Tricks of the Trade" <me>=\n');
+        lines.append('/ac "Tricks of the Trade" <me> ' + waitString + '\n');
         lines.push(waitString);
       }
     }
