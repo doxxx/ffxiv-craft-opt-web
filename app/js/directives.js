@@ -14,7 +14,7 @@ module.directive('mySectionHeader', function() {
     restrict: 'E',
     scope: {
       isOpen: '=',
-      title: '@',
+      title: '@'
     },
     templateUrl: 'partials/section-header.html'
   }
@@ -74,7 +74,6 @@ module.directive('myDropdownToggle', ['$document', '$location', function ($docum
   var openElement = null,
       closeMenu   = angular.noop,
       focusElement = null,
-      hasFocusClass = function(e) { return e.hasClass('my-dropdown-focus'); },
       searchFocusElement = function(root) {
         var children = root.children();
         for (var i = 0; i < children.length; i++) {
@@ -125,14 +124,16 @@ module.directive('myDropdownToggle', ['$document', '$location', function ($docum
             $document.unbind('click', closeMenu);
             parent.removeClass('open');
             closeMenu = angular.noop;
+            delete parent[0].closeMenu;
             openElement = null;
           };
           $document.bind('click', closeMenu);
           $document.bind('keyup', function(event) {
             if (event.which === 27) {
-              closeMenu();
+              closeMenu(event);
             }
           });
+          parent[0].closeMenu = closeMenu;
           focusElement = searchFocusElement(parent);
           if (focusElement !== undefined) {
             focusElement[0].focus();

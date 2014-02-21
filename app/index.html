@@ -61,8 +61,8 @@
             <div class="row-fluid">
               <div class="span6">
                 <form class="form-horizontal" name="crafterForm">
-                  <legend><small>{{crafter.cls}} Stats</small></legend>
                   <fieldset>
+                    <legend><small>{{crafter.cls}} Stats</small></legend>
                     <div class="control-group" ng-class="{error: !crafterForm.level.$valid}">
                       <label class="control-label">Level</label>
                       <div class="controls">
@@ -92,8 +92,8 @@
               </div>
               <div class="span6">
                 <form class="action-table">
-                  <legend><small>Available Actions</small></legend>
                   <fieldset>
+                    <legend><small>Available Actions</small></legend>
                     <div class="control-group" ng-repeat="actionGroup in actionGroups">
                       <label class="control-label">{{actionGroup.name}}</label>
                       <div class="controls">
@@ -151,8 +151,8 @@
           </div>
           <div class="row-fluid">
             <form class="form-horizontal" name="recipeForm">
-              <legend><small>Synth: <span class="light">{{settingsNameForDisplay()}}<span ng-show="areSettingsDirty()">*</span></span></small></legend>
               <fieldset>
+                <legend><small>Synth: <span class="light">{{settingsNameForDisplay()}}<span ng-show="areSettingsDirty()">*</span></span></small></legend>
                 <div class="row-fluid">
                   <div class="btn-group">
                     <button class="btn btn-primary"
@@ -174,15 +174,16 @@
                       <div class="controls">
                         <div class="my-dropdown">
                           <div class="nowrap">
-                            <span class="uneditable-input span4">{{recipe.name}}</span>
+                            <span class="uneditable-input span4 my-dropdown-toggle">{{recipe.name}}</span>
                             <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
                           </div>
-                          <div class="my-dropdown-menu" ng-scope="$searchText = ''">
-                            <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="$searchText"
-                                   placeholder="Search..." select-on-focus stop-click-propogation/>
+                          <div class="my-dropdown-menu">
+                            <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="recipeSearch.text"
+                                   placeholder="Search..." select-on-focus stop-click-propogation
+                                   ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"/>
                             <ul class="recipe-menu-scrollable" isolate-scrolling>
-                              <li ng-repeat="r in recipesForClass(recipe.cls) | filter:{name:$searchText}">
-                                <a ng-click="importRecipe(r.name)">[{{r.level}}] {{r.name}}</a>
+                              <li ng-repeat="r in recipeSearch.list" ng-class="{active: $index === recipeSearch.selected}" id="recipeSearchElement{{$index}}">
+                                <a ng-click="importRecipe(r.name)" ng-mouseover="recipeSearch.selected=$index">[{{r.level}}] {{r.name}}</a>
                               </li>
                             </ul>
                           </div>
@@ -245,9 +246,9 @@
           <div class="well">
             <div class="row-fluid">
               <h4>Initial Guess
-                <span ng-show="simulatorRunning">&nbsp;(Running...)</span>
-                <span ng-show="!simulatorRunning && isValidSequence(sequence, recipe.cls) && simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
-                <span ng-show="!simulatorRunning && !isValidSequence(sequence, recipe.cls)">&nbsp;(<span class="text-error">sequence contains unavailable actions!</span>)</span>
+                <span ng-show="simulatorStatus.running">&nbsp;(Running...)</span>
+                <span ng-show="!simulatorStatus.running && isValidSequence(sequence, recipe.cls) && simulationResult.finalState != null">&nbsp;(Q:{{simulationResult.finalState.quality | number:0}}<span ng-show="!simulationResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{simulationResult.finalState.durability | number:0}}</span><span ng-show="!simulationResult.finalState.cpOk" class="text-error">&nbsp;CP:{{simulationResult.finalState.cp | number:0}}</span><span ng-show="!simulationResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{simulationResult.finalState.progress | number:0}}</span>)</span>
+                <span ng-show="!simulatorStatus.running && !isValidSequence(sequence, recipe.cls)">&nbsp;(<span class="text-error">sequence contains unavailable actions!</span>)</span>
               </h4>
               <div class="sequence well well-small">
                 <img ng-repeat="action in sequence track by $index"
@@ -272,15 +273,15 @@
                 </div>
               </div>
               <div class="control-group">
-                <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorRunning">Edit Sequence...</button>
+                <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorStatus.running">Edit Sequence...</button>
                 <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
-                <button class="btn btn-primary" ng-click="runSimulation(simulationSuccess, simulationError)" ng-disabled="simulatorRunning || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
+                <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
                 <button class="btn btn-primary" ng-click="runSolver()" ng-hide="solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Solve</button>
                 <button class="btn btn-danger" ng-click="stopSolver()" ng-show="solverStatus.running">Stop Solve</button>
               </div>
               <div>
                 <h4>Solver Result
-                  <span ng-show="solverStatus.running">&nbsp;(Gen:{{solverStatus.generationsCompleted}}/{{solver.generations}})</span>
+                  <span ng-show="solverStatus.running">&nbsp;(Gen:{{solverStatus.generationsCompleted}}/{{solver.generations}})<span ng-show="solverStatus.bestState !== undefined">&nbsp;(Q:{{solverStatus.bestState.qualityState | number:0}})</span></span>
                   <span ng-show="!solverStatus.running && solverResult.finalState != null">&nbsp;(Q:{{solverResult.finalState.quality | number:0}}<span ng-show="!solverResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.finalState.durability | number:0}}</span><span ng-show="!solverResult.finalState.cpOk" class="text-error">&nbsp;CP:{{solverResult.finalState.cp | number:0}}</span><span ng-show="!solverResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{solverResult.finalState.progress | number:0}}</span>)</span>
                 </h4>
                 <div ng-show="solverStatus.running">
@@ -391,7 +392,11 @@
 <script src="js/services/actions.js"></script>
 <script src="js/services/recipedb.js"></script>
 <script src="js/services/recipelibrary.js"></script>
+<script src="js/services/simulator.js"></script>
+<script src="js/services/solver.js"></script>
 <script src="js/controllers.js"></script>
+<script src="js/controllers/sequenceeditor.js"></script>
+<script src="js/controllers/macro.js"></script>
 <script src="js/directives.js"></script>
 <script src="js/filters.js"></script>
 

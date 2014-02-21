@@ -8,7 +8,9 @@ var app = angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.services',
   'ffxivCraftOptWeb.services.actions',
   'ffxivCraftOptWeb.services.recipelibrary',
+  'ffxivCraftOptWeb.services.simulator',
+  'ffxivCraftOptWeb.services.solver',
   'ffxivCraftOptWeb.directives',
   'ffxivCraftOptWeb.filters',
-  'ffxivCraftOptWeb.controllers',
+  'ffxivCraftOptWeb.controllers'
 ]);

@@ -9,7 +9,7 @@ angular.module('ffxivCraftOptWeb.services.actions', []).
     "Culinarian",
     "Goldsmith",
     "Leatherworker",
-    "Weaver",
+    "Weaver"
   ]).
   value('_allActions', [
     { shortName: "basicSynth",        name: "Basic Synthesis",      cls: "All",           level: 1,  common: false },
@@ -39,10 +39,10 @@ angular.module('ffxivCraftOptWeb.services.actions', []).
     { shortName: "ingenuity2",        name: "Ingenuity II",         cls: "Blacksmith",    level: 50 },
     { shortName: "greatStrides",      name: "Great Strides",        cls: "All",           level: 21, common: true },
     { shortName: "innovation",        name: "Innovation",           cls: "Goldsmith",     level: 50 },
-    { shortName: "tricksOfTheTrade",  name: "Tricks of the Trade",  cls: "Alchemist",     level: 15 },
+    { shortName: "tricksOfTheTrade",  name: "Tricks of the Trade",  cls: "Alchemist",     level: 15 }
 
-  //  "Observe",
-  //  "Reclaim",
+    // "Observe",
+    // "Reclaim",
   ]).
   value('_actionGroups', [
     { name: "Synthesis", actions: [
@@ -52,27 +52,27 @@ angular.module('ffxivCraftOptWeb.services.actions', []).
       "carefulSynthesis",
       "carefulSynthesis2",
       "pieceByPiece",
-      "rapidSynthesis",
-  //    "brandOfEarth",
+      "rapidSynthesis"
+      // "brandOfEarth",
     ]},
     { name: "Quality", actions: [
       "basicTouch",
       "standardTouch",
       "advancedTouch",
       "hastyTouch",
-      "byregotsBlessing",
+      "byregotsBlessing"
     ]},
     { name: "CP", actions: [
       "comfortZone",
       "rumination",
-      "tricksOfTheTrade",
+      "tricksOfTheTrade"
     ]},
     { name: "Durability", actions: [
       "mastersMend",
       "mastersMend2",
       "wasteNot",
       "wasteNot2",
-      "manipulation",
+      "manipulation"
     ]},
     { name: "Buffs", actions: [
       "innerQuiet",
@@ -81,7 +81,7 @@ angular.module('ffxivCraftOptWeb.services.actions', []).
       "ingenuity",
       "ingenuity2",
       "greatStrides",
-      "innovation",
+      "innovation"
     ]}
   ]).
   factory('_getActionImagePath', function(_allActions) {
