@@ -4,9 +4,6 @@ This project contains the source for the [FFXIV Crafting Optimizer Website](http
 It uses [AngularJS](http://angularjs.org/), [AngularUI Bootstrap](http://angular-ui.github.io/bootstrap/), 
 and [Bootstrap](http://getbootstrap.com/).
 
-It also relies on the [FFXIV Crafting Optimizer](https://github.com/lokyst/ffxivcraftopt) web service to perform
-the Simulate and Solve operations.
-
 
 ### Running the app during development
 
