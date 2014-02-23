@@ -54,7 +54,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   };
 
   // load/initialize persistent page state
-  loadPageState($scope);
+  loadPageState($scope, _profile);
 
   // watches for automatic updates and saving settings
   $scope.$watchCollection('sections', function() {
@@ -85,7 +85,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     savePageState($scope);
   });
 
-  $scope.$watchCollection('crafter', saveAndRerunSim);
+  $scope.$watch('crafter.cls', function() {
+    savePageState($scope);
+  });
 
   $scope.$watchCollection('bonusStats', saveAndRerunSim);
 
@@ -439,7 +441,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 function savePageState($scope) {
   localStorage['sections'] = JSON.stringify($scope.sections);
   localStorage['settingsName'] = $scope.settings.name;
-  localStorage['settings.crafter'] = JSON.stringify($scope.crafter);
+  localStorage['crafterClass'] = $scope.crafter.cls;
   localStorage['settings.bonusStats'] = JSON.stringify($scope.bonusStats);
   localStorage['settings.recipe'] = JSON.stringify($scope.recipe);
   localStorage['settings.sequence'] = JSON.stringify($scope.sequence);
@@ -450,7 +452,7 @@ function savePageState($scope) {
   return true;
 }
 
-function loadPageState($scope) {
+function loadPageState($scope, _profile) {
   var sections = localStorage['sections'];
   if (sections) {
     $scope.sections = JSON.parse(sections);
@@ -472,27 +474,12 @@ function loadPageState($scope) {
     $scope.settings = { name: '' };
   }
 
-  var crafter = localStorage['settings.crafter'];
-  if (crafter) {
-    $scope.crafter = JSON.parse(crafter);
-  }
-  else {
-    $scope.crafter = {
-      cls: $scope.allClasses[0],
-      stats: {}
-    };
+  $scope.crafter = {
+    cls: localStorage['crafterClass'] || $scope.allClasses[0],
+    stats: {}
+  };
 
-    for (var i = 0; i < $scope.allClasses.length; i++) {
-      var c = $scope.allClasses[i];
-      $scope.crafter.stats[c] = {
-        level: 1,
-        craftsmanship: 24,
-        control: 0,
-        cp: 180,
-        actions: ['basicSynth']
-      }
-    }
-  }
+  _profile.bindCrafterStats($scope, 'crafter.stats');
 
   var bonusStats = localStorage['settings.bonusStats'];
   if (bonusStats) {

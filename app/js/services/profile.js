@@ -1,6 +1,6 @@
 'use strict';
 
-var ProfileService = function() {
+var ProfileService = function(_allClasses) {
   this.synths = JSON.parse(localStorage['synths'] || '{}');
 
   // Move old saved settings into the new synths.
@@ -13,7 +13,29 @@ var ProfileService = function() {
     }
     this.persist();
   }
+
+  if (localStorage['crafterStats']) {
+    this.crafterStats = JSON.parse(localStorage['crafterStats']);
+  }
+  else {
+    var crafterStats = {};
+
+    for (var i = 0; i < _allClasses.length; i++) {
+      var c = _allClasses[i];
+      crafterStats[c] = {
+        level: 1,
+        craftsmanship: 24,
+        control: 0,
+        cp: 180,
+        actions: ['basicSynth']
+      }
+    }
+
+    this.crafterStats = crafterStats;
+  }
 };
+
+ProfileService.$inject = ['_allClasses'];
 
 ProfileService.prototype.synthNames = function () {
   return Object.keys(this.synths);
@@ -39,8 +61,23 @@ ProfileService.prototype.renameSynth = function (oldName, newName) {
   this.persist();
 };
 
+ProfileService.prototype.bindCrafterStats = function ($scope, expr) {
+  var self = this;
+  var stats = $scope.$eval(expr);
+  for (var cls in this.crafterStats) {
+    stats[cls] = this.crafterStats[cls];
+    $scope.$watchCollection(expr + '.' + cls, function() {
+      self.persist();
+    });
+    $scope.$watchCollection(expr + '.' + cls + '.actions', function() {
+      self.persist();
+    });
+  }
+};
+
 ProfileService.prototype.persist = function() {
   localStorage['synths'] = JSON.stringify(this.synths);
+  localStorage['crafterStats'] = JSON.stringify(this.crafterStats);
 };
 
 angular.module('ffxivCraftOptWeb.services.profile', []).
