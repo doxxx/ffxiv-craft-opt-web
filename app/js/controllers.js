@@ -504,15 +504,7 @@ function loadPageState($scope) {
 
   var recipe = localStorage['settings.recipe'];
   if (recipe) {
-    recipe = JSON.parse(recipe) || {};
-
-    // convert previously selected saved recipe
-    if (recipe.current) {
-      var allRecipes = JSON.parse(localStorage['settings.allRecipes']);
-      recipe = allRecipes[recipe.current];
-    }
-
-    $scope.recipe = recipe;
+    $scope.recipe = JSON.parse(recipe);
   }
   else {
     $scope.recipe = newRecipeStats($scope);
@@ -557,11 +549,6 @@ function loadPageState($scope) {
       population: 300,
       generations: 100
     };
-  }
-
-  // cleanup old storage
-  if (localStorage['settings.allRecipes']) {
-    delete localStorage['settings.allRecipes'];
   }
 
   return true;
