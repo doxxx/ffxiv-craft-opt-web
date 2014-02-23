@@ -6,7 +6,7 @@ var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout, $filter,
                                             _getSolverServiceURL, _allClasses, _actionGroups, _allActions,
-                                            _getActionImagePath, _recipeLibrary, _simulator, _solver) {
+                                            _getActionImagePath, _recipeLibrary, _profile, _simulator, _solver) {
   // provide access to constants
   $scope.allClasses = _allClasses;
   $scope.actionGroups = _actionGroups;
@@ -56,17 +56,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   // load/initialize persistent page state
   loadPageState($scope);
 
-  // load saved settings
-  $scope.savedSettings = JSON.parse(localStorage['savedSettings'] || '{}');
-
-  // Add missing name field to old settings
-  for (var name in $scope.savedSettings) {
-    var s = $scope.savedSettings[name];
-    if (s.name == null) {
-      s.name = name;
-    }
-  }
-
   // watches for automatic updates and saving settings
   $scope.$watchCollection('sections', function() {
     savePageState($scope);
@@ -80,10 +69,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.$watch('recipeSearch.text', function() {
     updateRecipeSearchList();
-  });
-
-  $scope.$watchCollection('savedSettings', function(newValue) {
-    localStorage['savedSettings'] = JSON.stringify(newValue);
   });
 
   function saveAndRerunSim() {
@@ -161,6 +146,10 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
   };
 
+  $scope.savedSettingsNames = function() {
+    return _profile.settingsNames();
+  };
+
   $scope.newSettings = function() {
     $scope.settings.name = '';
     var newRecipe = newRecipeStats($scope);
@@ -170,14 +159,14 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   };
 
   $scope.loadSettings = function(name) {
-    var settings = $scope.savedSettings[name];
+    var settings = _profile.loadSettings(name);
 
-    $scope.bonusStats = angular.copy(settings.bonusStats);
-    $scope.recipe = angular.copy(settings.recipe);
-    $scope.sequence = angular.copy(settings.sequence);
-    $scope.sequenceSettings = angular.copy(settings.sequenceSettings);
-    $scope.simulation = angular.copy(settings.simulation);
-    $scope.solver = angular.copy(settings.solver);
+    $scope.bonusStats = settings.bonusStats;
+    $scope.recipe = settings.recipe;
+    $scope.sequence = settings.sequence;
+    $scope.sequenceSettings = settings.sequenceSettings;
+    $scope.simulation = settings.simulation;
+    $scope.solver = settings.solver;
     $scope.solverResult = {
       logText: '',
       sequence: [],
@@ -190,14 +179,14 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.saveSettings = function() {
     var settings = {};
 
-    settings.bonusStats = angular.copy($scope.bonusStats);
-    settings.recipe = angular.copy($scope.recipe);
-    settings.sequence = angular.copy($scope.sequence);
-    settings.sequenceSettings = angular.copy($scope.sequenceSettings);
-    settings.simulation = angular.copy($scope.simulation);
-    settings.solver = angular.copy($scope.solver);
+    settings.bonusStats = $scope.bonusStats;
+    settings.recipe = $scope.recipe;
+    settings.sequence = $scope.sequence;
+    settings.sequenceSettings = $scope.sequenceSettings;
+    settings.simulation = $scope.simulation;
+    settings.solver = $scope.solver;
 
-    $scope.savedSettings[$scope.settings.name] = settings;
+    _profile.saveSettings($scope.settings.name, settings);
   };
 
   $scope.saveSettingsAs = function() {
@@ -209,7 +198,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.deleteSettings = function(name) {
     if (confirm('Are you sure you want to delete the "' + name + '" settings?')) {
-      delete $scope.savedSettings[name];
+      _profile.deleteSettings(name);
       if (name == $scope.settings.name) {
         $scope.settings.name = '';
       }
@@ -219,8 +208,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.renameSettings = function(name) {
     var newName = prompt('Enter new recipe name:');
     if (newName == null || newName.length == 0) return;
-    $scope.savedSettings[newName] = $scope.savedSettings[name];
-    delete $scope.savedSettings[name];
+    _profile.renameSettings(name, newName);
     if (name == $scope.settings.name) {
       $scope.settings.name = newName;
     }
@@ -231,15 +219,15 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       return false;
     }
 
-    var settings = $scope.savedSettings[$scope.settings.name];
+    var settings = _profile.loadSettings($scope.settings.name);
     var clean = true;
 
-    clean = clean && angular.equals(settings.bonusStats, angular.copy($scope.bonusStats));
-    clean = clean && angular.equals(settings.recipe, angular.copy($scope.recipe));
-    clean = clean && angular.equals(settings.sequence, angular.copy($scope.sequence));
-    clean = clean && angular.equals(settings.sequenceSettings, angular.copy($scope.sequenceSettings));
-    clean = clean && angular.equals(settings.simulation, angular.copy($scope.simulation));
-    clean = clean && angular.equals(settings.solver, angular.copy($scope.solver));
+    clean = clean && angular.equals(settings.bonusStats, $scope.bonusStats);
+    clean = clean && angular.equals(settings.recipe, $scope.recipe);
+    clean = clean && angular.equals(settings.sequence, $scope.sequence);
+    clean = clean && angular.equals(settings.sequenceSettings, $scope.sequenceSettings);
+    clean = clean && angular.equals(settings.simulation, $scope.simulation);
+    clean = clean && angular.equals(settings.solver, $scope.solver);
 
     return !clean;
   };

@@ -7,6 +7,7 @@ var app = angular.module('ffxivCraftOptWeb', [
   'lvl.directives.dragdrop',
   'ffxivCraftOptWeb.services',
   'ffxivCraftOptWeb.services.actions',
+  'ffxivCraftOptWeb.services.profile',
   'ffxivCraftOptWeb.services.recipelibrary',
   'ffxivCraftOptWeb.services.simulator',
   'ffxivCraftOptWeb.services.solver',
