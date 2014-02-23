@@ -120,29 +120,29 @@
           <div class="row-fluid">
             <div class="settings-buttons">
               <div class="dropdown">
-                <button type="button" class="btn" ng-click="newSettings()">New</button>
+                <button type="button" class="btn" ng-click="newSynth()">New</button>
                 <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
                 <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="name in savedSettingsNames()">
-                    <a ng-click="loadSettings(name)">{{name}}</a>
+                  <li ng-repeat="name in savedSynthNames()">
+                    <a ng-click="loadSynth(name)">{{name}}</a>
                   </li>
                 </ul>
               </div>
-              <button type="button" class="btn" ng-click="saveSettings()" ng-disabled="settings.name == '' || !recipeForm.$valid">Save</button>
-              <button type="button" class="btn" ng-click="saveSettingsAs()" ng-disabled="!recipeForm.$valid">Save As...</button>
+              <button type="button" class="btn" ng-click="saveSynth()" ng-disabled="settings.name == '' || !recipeForm.$valid">Save</button>
+              <button type="button" class="btn" ng-click="saveSynthAs()" ng-disabled="!recipeForm.$valid">Save As...</button>
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
                 <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="name in savedSettingsNames()">
-                    <a ng-click="deleteSettings(name)">{{name}}</a>
+                  <li ng-repeat="name in savedSynthNames()">
+                    <a ng-click="deleteSynth(name)">{{name}}</a>
                   </li>
                 </ul>
               </div>
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
                 <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="name in savedSettingsNames()">
-                    <a ng-click="renameSettings(name)">{{name}}</a>
+                  <li ng-repeat="name in savedSynthNames()">
+                    <a ng-click="renameSynth(name)">{{name}}</a>
                   </li>
                 </ul>
               </div>
@@ -151,7 +151,7 @@
           <div class="row-fluid">
             <form class="form-horizontal" name="recipeForm">
               <fieldset>
-                <legend><small>Synth: <span class="light">{{settingsNameForDisplay()}}<span ng-show="areSettingsDirty()">*</span></span></small></legend>
+                <legend><small>Synth: <span class="light">{{synthNameForDisplay()}}<span ng-show="isSynthDirty()">*</span></span></small></legend>
                 <div class="row-fluid">
                   <div class="btn-group">
                     <button class="btn btn-primary"

@@ -146,11 +146,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     }
   };
 
-  $scope.savedSettingsNames = function() {
-    return _profile.settingsNames();
+  $scope.savedSynthNames = function() {
+    return _profile.synthNames();
   };
 
-  $scope.newSettings = function() {
+  $scope.newSynth = function() {
     $scope.settings.name = '';
     var newRecipe = newRecipeStats($scope);
     newRecipe.cls = $scope.recipe.cls;
@@ -158,8 +158,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.bonusStats = newBonusStats();
   };
 
-  $scope.loadSettings = function(name) {
-    var settings = _profile.loadSettings(name);
+  $scope.loadSynth = function(name) {
+    var settings = _profile.loadSynth(name);
 
     $scope.bonusStats = settings.bonusStats;
     $scope.recipe = settings.recipe;
@@ -176,7 +176,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.settings.name = name;
   };
 
-  $scope.saveSettings = function() {
+  $scope.saveSynth = function() {
     var settings = {};
 
     settings.bonusStats = $scope.bonusStats;
@@ -186,40 +186,40 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     settings.simulation = $scope.simulation;
     settings.solver = $scope.solver;
 
-    _profile.saveSettings($scope.settings.name, settings);
+    _profile.saveSynth($scope.settings.name, settings);
   };
 
-  $scope.saveSettingsAs = function() {
-    var name = prompt('Enter recipe name:');
+  $scope.saveSynthAs = function() {
+    var name = prompt('Enter synth name:');
     if (name == null || name.length == 0) return;
     $scope.settings.name = name;
-    $scope.saveSettings();
+    $scope.saveSynth();
   };
 
-  $scope.deleteSettings = function(name) {
-    if (confirm('Are you sure you want to delete the "' + name + '" settings?')) {
-      _profile.deleteSettings(name);
+  $scope.deleteSynth = function(name) {
+    if (confirm('Are you sure you want to delete the "' + name + '" synth?')) {
+      _profile.deleteSynth(name);
       if (name == $scope.settings.name) {
         $scope.settings.name = '';
       }
     }
   };
 
-  $scope.renameSettings = function(name) {
-    var newName = prompt('Enter new recipe name:');
+  $scope.renameSynth = function(name) {
+    var newName = prompt('Enter new synth name:');
     if (newName == null || newName.length == 0) return;
-    _profile.renameSettings(name, newName);
+    _profile.renameSynth(name, newName);
     if (name == $scope.settings.name) {
       $scope.settings.name = newName;
     }
   };
 
-  $scope.areSettingsDirty = function() {
+  $scope.isSynthDirty = function() {
     if ($scope.settings.name == '') {
       return false;
     }
 
-    var settings = _profile.loadSettings($scope.settings.name);
+    var settings = _profile.loadSynth($scope.settings.name);
     var clean = true;
 
     clean = clean && angular.equals(settings.bonusStats, $scope.bonusStats);
@@ -232,7 +232,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     return !clean;
   };
 
-  $scope.settingsNameForDisplay = function() {
+  $scope.synthNameForDisplay = function() {
     if ($scope.settings.name == '') {
       return '<unnamed>';
     }
