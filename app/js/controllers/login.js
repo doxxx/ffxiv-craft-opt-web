@@ -4,7 +4,11 @@ var controllers = angular.module('ffxivCraftOptWeb.controllers');
 
 controllers.controller('LoginCtrl', function($scope, $modalInstance, _firebaseProfile) {
 
-  $scope.info = {};
+  $scope.info = {
+    email: '',
+    password: '',
+    rememberMe: true
+  };
   $scope.error = null;
   $scope.loginInProgress = false;
   $scope.createInProgress = false;
