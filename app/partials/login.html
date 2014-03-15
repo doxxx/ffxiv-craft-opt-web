@@ -5,7 +5,7 @@
 </div>
 <div class="modal-body container-fluid" isolate-scrolling>
   <div class="row-fluid">
-    <form name="loginForm">
+    <form name="loginForm" on-enter="login()">
       <input type="email" name="email" placeholder="Email" ng-model="info.email" auto-focus/>
       <input type="password" name="password" placeholder="Password" ng-model="info.password"/>
       <label class="checkbox">
