@@ -17,12 +17,11 @@
     </div>
   </div>
 </div>
-<div class="modal-footer container-fluid">
-  <div class="row-fluid">
-    <div class="align-right">
-      <button class="btn" ng-click="createAccount()" ng-disabled="loginInProgress || createInProgress"><span ng-if="!createInProgress">Create Account</span><span ng-if="createInProgress">Creating Account...</span></button>
-      <button class="btn btn-primary" ng-click="login()" ng-disabled="loginInProgress || createInProgress"><span ng-if="!loginInProgress">Login</span><span ng-if="loginInProgress">Logging in...</span></button>
-      <button class="btn" ng-click="cancel()" ng-disabled="loginInProgress || createInProgress">Cancel</button>
-    </div>
+<div class="modal-footer">
+  <div class="align-right">
+    <button class="btn" ng-click="createAccount()" ng-disabled="loginInProgress || createInProgress"><span ng-if="!createInProgress">Create Account</span><span ng-if="createInProgress">Creating Account...</span></button>
+    <button class="btn btn-primary" ng-click="login()" ng-disabled="loginInProgress || createInProgress"><span ng-if="!loginInProgress">Login</span><span ng-if="loginInProgress">Logging in...</span></button>
+    <button class="btn" ng-click="cancel()" ng-disabled="loginInProgress || createInProgress">Cancel</button>
   </div>
 </div>
+
