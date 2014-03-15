@@ -34,7 +34,7 @@ controllers.controller('LoginCtrl', function($scope, $modalInstance, _firebasePr
             $scope.tabs.register.error = 'The specified email address is already in use.';
             break;
           default:
-            $scope.tabs.register.error = 'An unknown error occurred (' + $error.code + '). Please contact support@lokyst.net.';
+            $scope.tabs.register.error = 'An unknown error occurred (' + error.code + '). Please contact support@lokyst.net.';
         }
       }
     )
@@ -56,7 +56,7 @@ controllers.controller('LoginCtrl', function($scope, $modalInstance, _firebasePr
             $scope.tabs.login.error = 'The specified email address or password is incorrect.';
             break;
           default:
-            $scope.tabs.login.error = 'An unknown error occurred (' + $error.code + '). Please contact support@lokyst.net.';
+            $scope.tabs.login.error = 'An unknown error occurred (' + error.code + '). Please contact support@lokyst.net.';
         }
       }
     )
