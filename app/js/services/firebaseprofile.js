@@ -48,8 +48,6 @@ FirebaseProfileService.prototype.login = function (info) {
     }.bind(this),
     function(error) {
       // an error occurred while attempting login
-      console.log(error);
-
       // reject promise to notify application
       deferred.reject(error);
     }.bind(this)
@@ -69,7 +67,6 @@ FirebaseProfileService.prototype.userInfo = function () {
 
 FirebaseProfileService.prototype.onLogin = function (user) {
   // user authenticated with Firebase
-  console.log('User ID: ' + user.id + ', Provider: ' + user.provider);
   this.synths = this._userRoot().$child('synths');
 };
 

@@ -75,8 +75,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   };
 
   $scope.onProfileLoaded = function () {
-    console.log('onProfileLoaded');
-
     $scope.userInfo = $scope.profile.userInfo();
 
     $scope.profile.bindCrafterStats($scope, 'crafter.stats');
@@ -475,7 +473,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.onProfileLoaded();
 
   _firebaseProfile.check().then(function() {
-    console.log("user logged in");
     $scope.profile = _firebaseProfile;
     $scope.onProfileLoaded();
   });
