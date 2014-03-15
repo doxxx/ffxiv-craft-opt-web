@@ -15,7 +15,21 @@ var FirebaseProfileService = function(_allClasses, $q, $parse, $firebase, $fireb
 FirebaseProfileService.$inject = ['_allClasses', '$q', '$parse', '$firebase', '$firebaseSimpleLogin'];
 
 FirebaseProfileService.prototype.check = function () {
-  return this.fbAuth.$getCurrentUser().then(this.onLogin.bind(this));
+  var deferred = this.$q.defer();
+
+  this.fbAuth.$getCurrentUser().then(
+    function(user) {
+      if (user != null) {
+        this.onLogin(user);
+        deferred.resolve();
+      }
+      else {
+        deferred.reject();
+      }
+    }.bind(this)
+  );
+
+  return deferred.promise;
 };
 
 FirebaseProfileService.prototype.create = function (info) {
@@ -54,11 +68,9 @@ FirebaseProfileService.prototype.userInfo = function () {
 };
 
 FirebaseProfileService.prototype.onLogin = function (user) {
-  if (user !== null) {
-    // user authenticated with Firebase
-    console.log('User ID: ' + user.id + ', Provider: ' + user.provider);
-    this.synths = this._userRoot().$child('synths');
-  }
+  // user authenticated with Firebase
+  console.log('User ID: ' + user.id + ', Provider: ' + user.provider);
+  this.synths = this._userRoot().$child('synths');
 };
 
 FirebaseProfileService.prototype.initCrafterStats = function (stats) {
