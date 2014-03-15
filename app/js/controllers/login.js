@@ -2,33 +2,46 @@
 
 var controllers = angular.module('ffxivCraftOptWeb.controllers');
 
-controllers.controller('LoginCtrl', function($scope, $modalInstance, _firebaseProfile) {
+controllers.controller('LoginCtrl', function($scope, $modalInstance, $q, _firebaseProfile) {
   $scope.tabs = {
-    login: { active: true, error: null },
-    register: { active: false, error: null }
+    login: {
+      active: true,
+      error: null,
+      inProgress: false,
+      info: {
+        email: '',
+        password: '',
+        rememberMe: true
+      }
+    },
+    register: {
+      active: false,
+      error: null,
+      inProgress: false,
+      info: {
+        email: '',
+        password: '',
+        rememberMe: true,
+        importLocal: true
+      }
+    }
   };
-  $scope.info = {
-    email: '',
-    password: '',
-    rememberMe: true
-  };
-  $scope.loginInProgress = false;
-  $scope.registerInProgress = false;
 
   $scope.cancel = function() {
     $modalInstance.dismiss('cancel');
   };
 
-  $scope.register = function() {
-    $scope.registerInProgress = true;
+  $scope.register = function(info) {
+    $scope.tabs.register.inProgress = true;
     $scope.tabs.register.error = null;
-    _firebaseProfile.create($scope.info).then(
+    _firebaseProfile.create(info).then(
       function() {
-        $scope.registerInProgress = false;
-        $scope.login();
+        $scope.tabs.register.inProgress = false;
+        $scope.tabs.login.active = true;
+        $scope.login(info);
       },
       function(error) {
-        $scope.registerInProgress = false;
+        $scope.tabs.register.inProgress = false;
         switch (error.code) {
           case 'EMAIL_TAKEN':
             $scope.tabs.register.error = 'The specified email address is already in use.';
@@ -43,16 +56,16 @@ controllers.controller('LoginCtrl', function($scope, $modalInstance, _firebasePr
     )
   };
 
-  $scope.login = function() {
-    $scope.loginInProgress = true;
+  $scope.login = function(info) {
+    $scope.tabs.login.inProgress = true;
     $scope.tabs.login.error = null;
-    _firebaseProfile.login($scope.info).then(
+    _firebaseProfile.login(info).then(
       function() {
-        $scope.loginInProgress = false;
-        $modalInstance.close();
+        $scope.tabs.login.inProgress = false;
+        $modalInstance.close(info);
       },
       function(error) {
-        $scope.loginInProgress = false;
+        $scope.tabs.login.inProgress = false;
         switch (error.code) {
           case 'INVALID_EMAIL':
           case 'INVALID_PASSWORD':

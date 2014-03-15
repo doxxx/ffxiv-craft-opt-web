@@ -58,12 +58,13 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     var modalInstance = $modal.open({
       templateUrl: 'partials/login.html',
       controller: 'LoginCtrl',
-      windowClass: 'login-modal',
-      resolve: {
-      }
+      windowClass: 'login-modal'
     });
-    modalInstance.result.then(function() {
+    modalInstance.result.then(function(userInfo) {
       $scope.profile = _firebaseProfile;
+      if (userInfo.importLocal) {
+        $scope.profile.importFromProfile(_localProfile);
+      }
       $scope.onProfileLoaded();
     });
   };

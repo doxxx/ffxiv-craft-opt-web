@@ -116,6 +116,16 @@ FirebaseProfileService.prototype.bindCrafterStats = function ($scope, expr) {
   }.bind(this));
 };
 
+FirebaseProfileService.prototype.importFromProfile = function (profile) {
+  var fbCrafterStats = this._userRoot().$child('crafterStats');
+  fbCrafterStats.$set(profile.getCrafterStats());
+  var names = profile.synthNames();
+  names.forEach(function(name) {
+    var synth = profile.loadSynth(name);
+    this.saveSynth(name, synth);
+  }.bind(this));
+};
+
 FirebaseProfileService.prototype._userRoot = function () {
   return this.fb.$child('users').$child(this.fbAuth.user.uid);
 };

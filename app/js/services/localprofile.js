@@ -79,6 +79,10 @@ LocalProfileService.prototype.bindCrafterStats = function ($scope, expr) {
   }
 };
 
+LocalProfileService.prototype.getCrafterStats = function () {
+  return angular.copy(this.crafterStats);
+};
+
 LocalProfileService.prototype.persist = function() {
   localStorage['synths'] = JSON.stringify(this.synths);
   localStorage['crafterStats'] = JSON.stringify(this.crafterStats);
