@@ -3,35 +3,54 @@
 var LocalProfileService = function(_allClasses) {
   this.synths = JSON.parse(localStorage['synths'] || '{}');
 
-  // Move old saved settings into the new synths.
-  var oldSavedSettings = localStorage['savedSettings'];
-  if (oldSavedSettings) {
-    oldSavedSettings = JSON.parse(oldSavedSettings);
-    localStorage.removeItem('savedSettings');
-    for (var name in oldSavedSettings) {
-      this.synths[name] = oldSavedSettings[name];
+  var importedOldSettings = false;
+
+  if (Object.keys(this.synths).length == 0) {
+    var oldSavedSettings = localStorage['savedSettings'];
+    if (oldSavedSettings) {
+      // Import old saved settings as synths
+      oldSavedSettings = JSON.parse(oldSavedSettings);
+      for (var name in oldSavedSettings) {
+        this.synths[name] = oldSavedSettings[name];
+      }
+      importedOldSettings = true;
     }
-    this.persist();
   }
 
   if (localStorage['crafterStats']) {
     this.crafterStats = JSON.parse(localStorage['crafterStats']);
   }
   else {
-    var crafterStats = {};
-
-    for (var i = 0; i < _allClasses.length; i++) {
-      var c = _allClasses[i];
-      crafterStats[c] = {
-        level: 1,
-        craftsmanship: 24,
-        control: 0,
-        cp: 180,
-        actions: ['basicSynth']
-      }
+    var oldCrafterSettings = localStorage['settings.crafter'];
+    if (oldCrafterSettings) {
+      // Import old crafter stats
+      oldCrafterSettings = JSON.parse(oldCrafterSettings);
+      this.crafterStats = oldCrafterSettings.stats;
+      importedOldSettings = true;
     }
+    else {
+      // Initialize default stats
+      var crafterStats = {};
 
-    this.crafterStats = crafterStats;
+      for (var i = 0; i < _allClasses.length; i++) {
+        var c = _allClasses[i];
+        crafterStats[c] = {
+          level: 1,
+          craftsmanship: 24,
+          control: 0,
+          cp: 180,
+          actions: ['basicSynth']
+        }
+      }
+
+      this.crafterStats = crafterStats;
+    }
+  }
+
+  if (importedOldSettings) {
+    this.persist();
+    localStorage.removeItem('savedSettings');
+    localStorage.removeItem('settings.crafter');
   }
 };
 
