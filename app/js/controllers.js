@@ -72,10 +72,14 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     savePageState($scope);
   });
 
-  $scope.$watch('recipeSearch.text', function() {
+  function updateRecipeSearchList() {
     var recipesForClass = $scope.recipesForClass($scope.recipe.cls) || [];
     $scope.recipeSearch.list = $filter('filter')(recipesForClass, {name:$scope.recipeSearch.text});
     $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length-1);
+  }
+
+  $scope.$watch('recipeSearch.text', function() {
+    updateRecipeSearchList();
   });
 
   $scope.$watchCollection('savedSettings', function(newValue) {
@@ -107,10 +111,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.$watchCollection('recipe', saveAndRerunSim);
   $scope.$watch('recipe.cls', function() {
-    // Clear the recipe search text when switching classes.
-    // In addition to being useful itself, this also serves
-    // to refresh the recipe list in the dropdown.
     $scope.recipeSearch.text = '';
+    updateRecipeSearchList();
   });
 
   $scope.$watchCollection('sequence', saveAndRerunSim);
