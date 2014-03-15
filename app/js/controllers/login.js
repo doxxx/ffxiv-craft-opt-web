@@ -33,6 +33,9 @@ controllers.controller('LoginCtrl', function($scope, $modalInstance, _firebasePr
           case 'EMAIL_TAKEN':
             $scope.tabs.register.error = 'The specified email address is already in use.';
             break;
+          case 'INVALID_EMAIL':
+            $scope.tabs.register.error = 'The specified email address is invalid.';
+            break;
           default:
             $scope.tabs.register.error = 'An unknown error occurred (' + error.code + '). Please contact support@lokyst.net.';
         }
