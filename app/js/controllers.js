@@ -106,6 +106,12 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   }
 
   $scope.$watchCollection('recipe', saveAndRerunSim);
+  $scope.$watch('recipe.cls', function() {
+    // Clear the recipe search text when switching classes.
+    // In addition to being useful itself, this also serves
+    // to refresh the recipe list in the dropdown.
+    $scope.recipeSearch.text = '';
+  });
 
   $scope.$watchCollection('sequence', saveAndRerunSim);
 
