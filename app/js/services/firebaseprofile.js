@@ -15,21 +15,17 @@ var FirebaseProfileService = function(_allClasses, $q, $parse, $firebase, $fireb
 FirebaseProfileService.$inject = ['_allClasses', '$q', '$parse', '$firebase', '$firebaseSimpleLogin'];
 
 FirebaseProfileService.prototype.check = function () {
-  var deferred = this.$q.defer();
-
-  this.fbAuth.$getCurrentUser().then(
+  return this.fbAuth.$getCurrentUser().then(
     function(user) {
       if (user != null) {
         this.onLogin(user);
-        deferred.resolve();
+        return user;
       }
       else {
-        deferred.reject();
+        return this.$q.reject();
       }
     }.bind(this)
   );
-
-  return deferred.promise;
 };
 
 FirebaseProfileService.prototype.create = function (info) {
@@ -37,23 +33,13 @@ FirebaseProfileService.prototype.create = function (info) {
 };
 
 FirebaseProfileService.prototype.login = function (info) {
-  var deferred = this.$q.defer();
-
-  this.fbAuth.$login('password', info).then(
+  return this.fbAuth.$login('password', info).then(
     function(user) {
       this.onLogin(user);
-
       // resolve promise to notify application
-      deferred.resolve();
-    }.bind(this),
-    function(error) {
-      // an error occurred while attempting login
-      // reject promise to notify application
-      deferred.reject(error);
+      return user;
     }.bind(this)
   );
-
-  return deferred.promise;
 };
 
 FirebaseProfileService.prototype.logout = function () {
