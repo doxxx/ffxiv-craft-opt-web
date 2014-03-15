@@ -9,7 +9,7 @@
             <input type="checkbox" name="rememberMe" ng-model="info.rememberMe"/> Keep me logged in.
           </label>
         </ng-form>
-        <p ng-show="tabs.login.error" class="text-error">{{tabs.login.error}}</p>
+        <alert ng-show="tabs.login.error" type="'error'" close="tabs.login.error=null">{{tabs.login.error}}</alert>
       </tab>
       <tab heading="Register" active="tabs.register.active">
         <ng-form name="registerForm" on-enter="register()">
@@ -19,7 +19,7 @@
             <input type="checkbox" name="rememberMe" ng-model="info.rememberMe"/> Keep me logged in.
           </label>
         </ng-form>
-        <p ng-show="tabs.register.error" class="text-error">{{tabs.register.error}}</p>
+        <alert ng-show="tabs.register.error" type="'error'" close="tabs.register.error=null">{{tabs.register.error}}</alert>
       </tab>
     </tabset>
   </div>
