@@ -1,6 +1,6 @@
 'use strict';
 
-var ProfileService = function(_allClasses) {
+var LocalProfileService = function(_allClasses) {
   this.synths = JSON.parse(localStorage['synths'] || '{}');
 
   // Move old saved settings into the new synths.
@@ -35,33 +35,37 @@ var ProfileService = function(_allClasses) {
   }
 };
 
-ProfileService.$inject = ['_allClasses'];
+LocalProfileService.$inject = ['_allClasses'];
 
-ProfileService.prototype.synthNames = function () {
+LocalProfileService.prototype.userInfo = function () {
+  return null;
+};
+
+LocalProfileService.prototype.synthNames = function () {
   return Object.keys(this.synths);
 };
 
-ProfileService.prototype.loadSynth = function (name) {
+LocalProfileService.prototype.loadSynth = function (name) {
   return angular.copy(this.synths[name]);
 };
 
-ProfileService.prototype.saveSynth = function (name, synth) {
+LocalProfileService.prototype.saveSynth = function (name, synth) {
   this.synths[name] = angular.copy(synth);
   this.persist();
 };
 
-ProfileService.prototype.deleteSynth = function (name) {
+LocalProfileService.prototype.deleteSynth = function (name) {
   delete this.synths[name];
   this.persist();
 };
 
-ProfileService.prototype.renameSynth = function (oldName, newName) {
+LocalProfileService.prototype.renameSynth = function (oldName, newName) {
   this.synths[newName] = this.synths[oldName];
   delete this.synths[oldName];
   this.persist();
 };
 
-ProfileService.prototype.bindCrafterStats = function ($scope, expr) {
+LocalProfileService.prototype.bindCrafterStats = function ($scope, expr) {
   var self = this;
   var stats = $scope.$eval(expr);
   for (var cls in this.crafterStats) {
@@ -75,10 +79,10 @@ ProfileService.prototype.bindCrafterStats = function ($scope, expr) {
   }
 };
 
-ProfileService.prototype.persist = function() {
+LocalProfileService.prototype.persist = function() {
   localStorage['synths'] = JSON.stringify(this.synths);
   localStorage['crafterStats'] = JSON.stringify(this.crafterStats);
 };
 
-angular.module('ffxivCraftOptWeb.services.profile', []).
-  service('_profile', ProfileService);
+angular.module('ffxivCraftOptWeb.services.localprofile', []).
+  service('_localProfile', LocalProfileService);
