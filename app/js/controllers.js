@@ -6,8 +6,7 @@ var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout, $filter,
                                             _getSolverServiceURL, _allClasses, _actionGroups, _allActions,
-                                            _getActionImagePath, _recipeLibrary, _localProfile, _firebaseProfile,
-                                            _simulator, _solver) {
+                                            _getActionImagePath, _recipeLibrary, _localProfile, _simulator, _solver) {
   // provide access to constants
   $scope.allClasses = _allClasses;
   $scope.actionGroups = _actionGroups;
@@ -52,27 +51,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     logText: '',
     sequence: [],
     finalState: null
-  };
-
-  $scope.showLogin = function () {
-    var modalInstance = $modal.open({
-      templateUrl: 'partials/login.html',
-      controller: 'LoginCtrl',
-      windowClass: 'login-modal'
-    });
-    modalInstance.result.then(function(userInfo) {
-      $scope.profile = _firebaseProfile;
-      if (userInfo.importLocal) {
-        $scope.profile.importFromProfile(_localProfile);
-      }
-      $scope.onProfileLoaded();
-    });
-  };
-
-  $scope.logout = function () {
-    $scope.profile.logout();
-    $scope.profile = _localProfile;
-    $scope.onProfileLoaded();
   };
 
   $scope.onProfileLoaded = function () {
@@ -472,11 +450,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.profile = _localProfile;
   $scope.onProfileLoaded();
-
-  _firebaseProfile.check().then(function() {
-    $scope.profile = _firebaseProfile;
-    $scope.onProfileLoaded();
-  });
 });
 
 function loadLocalPageState($scope) {

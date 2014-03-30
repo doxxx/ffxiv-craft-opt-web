@@ -8,7 +8,6 @@ var app = angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.services',
   'ffxivCraftOptWeb.services.actions',
   'ffxivCraftOptWeb.services.localprofile',
-  'ffxivCraftOptWeb.services.firebaseprofile',
   'ffxivCraftOptWeb.services.recipelibrary',
   'ffxivCraftOptWeb.services.simulator',
   'ffxivCraftOptWeb.services.solver',
