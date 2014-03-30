@@ -167,3 +167,14 @@ module.directive('onEnter', function () {
     });
   };
 });
+
+module.directive('simulatorStatus', function() {
+  return {
+    restrict: 'E',
+    templateUrl: 'partials/simulator-status.html',
+    scope: {
+      statusVar: '=',
+      validator: '&'
+    }
+  }
+});

@@ -28,6 +28,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   };
 
   $scope.simulatorStatus = {
+    logText: '',
+    finalState: null,
+    error: null,
     running: false
   };
 
@@ -40,11 +43,6 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.simulatorTabs = {
     simulation: { active: true },
     solver: { actie: false }
-  };
-
-  $scope.simulationResult = {
-    logText: '',
-    finalState: null
   };
 
   $scope.solverResult = {
@@ -79,7 +77,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
         $scope.runSimulation();
       }
       else {
-        $scope.simulationResult.finalState = null
+        $scope.simulatorStatus.finalState = null
+        $scope.simulatorStatus.error = null
       }
     }
 
@@ -366,15 +365,17 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   // Web Service API
 
   $scope.simulationSuccess = function(data) {
-    $scope.simulationResult.logText = data.log;
-    $scope.simulationResult.finalState = data.finalState;
+    $scope.simulatorStatus.logText = data.log;
+    $scope.simulatorStatus.finalState = data.finalState;
+    $scope.simulatorStatus.error = null;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
   };
 
   $scope.simulationError = function(data) {
-    $scope.simulationResult.logText = data.log;
-    $scope.simulationResult.logText += '\n\nError: ' + data.error;
+    $scope.simulatorStatus.logText = data.log;
+    $scope.simulatorStatus.logText += '\n\nError: ' + data.error;
+    $scope.simulatorStatus.error = data.error;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
   };
@@ -391,8 +392,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       settings.seed = $scope.sequenceSettings.seed;
     }
 
-    _simulator.start($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
     $scope.simulatorStatus.running = true;
+    _simulator.start(settings, $scope.simulationSuccess, $scope.simulationError);
   };
 
   $scope.solverProgress = function(data) {

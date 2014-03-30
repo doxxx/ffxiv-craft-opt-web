@@ -6,8 +6,8 @@ var SimulationService = function($timeout) {
 
 SimulationService.$inject = ['$timeout'];
 
-SimulationService.prototype.start = function(sequence, settings, success, error) {
-  if (sequence.length <= 0) {
+SimulationService.prototype.start = function(settings, success, error) {
+  if (settings.sequence.length <= 0) {
     error({log: '', error: 'empty sequence'});
     return;
   }

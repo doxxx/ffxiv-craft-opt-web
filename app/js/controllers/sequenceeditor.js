@@ -117,17 +117,18 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
       settings.seed = sequenceSettings.seed;
     }
 
-    _simulator.start($scope.sequence, settings, $scope.simulationSuccess, $scope.simulationError);
     $scope.simulationResult.running = true;
+    _simulator.start(settings, $scope.simulationSuccess, $scope.simulationError);
   };
 
   $scope.simulationSuccess = function(data) {
     $scope.simulationResult.finalState = data.finalState;
+    $scope.simulationResult.error = null;
     $scope.simulationResult.running = false;
   };
 
   $scope.simulationError = function(data) {
-    $scope.simulationResult.finalState = {};
+    $scope.simulationResult.finalState = null;
     $scope.simulationResult.error = data.error;
     $scope.simulationResult.running = false;
   };
