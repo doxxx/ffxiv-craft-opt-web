@@ -20,11 +20,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="brand" href="#">lokyst.net</a>
+      <a class="brand" href="index.html">FFXIV Crafting Optimizer</a>
       <div class="nav-collapse" collapse="navBarCollapsed">
         <ul class="nav">
-          <li class="active"><a href="index.html">FFXIV Crafting Optimizer</a></li>
-          <li class="active"><a href="about.html">About</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </div>
     </div>
@@ -120,29 +119,29 @@
           <div class="row-fluid">
             <div class="settings-buttons">
               <div class="dropdown">
-                <button type="button" class="btn" ng-click="newSettings()">New</button>
+                <button type="button" class="btn" ng-click="newSynth()">New</button>
                 <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
                 <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="(k, s) in savedSettings">
-                    <a ng-click="loadSettings(k)">{{k}}</a>
+                  <li ng-repeat="name in savedSynthNames()">
+                    <a ng-click="loadSynth(name)">{{name}}</a>
                   </li>
                 </ul>
               </div>
-              <button type="button" class="btn" ng-click="saveSettings()" ng-disabled="settings.name == '' || !recipeForm.$valid">Save</button>
-              <button type="button" class="btn" ng-click="saveSettingsAs()" ng-disabled="!recipeForm.$valid">Save As...</button>
+              <button type="button" class="btn" ng-click="saveSynth()" ng-disabled="settings.name == '' || !recipeForm.$valid">Save</button>
+              <button type="button" class="btn" ng-click="saveSynthAs()" ng-disabled="!recipeForm.$valid">Save As...</button>
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
                 <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="(k, s) in savedSettings">
-                    <a ng-click="deleteSettings(k)">{{k}}</a>
+                  <li ng-repeat="name in savedSynthNames()">
+                    <a ng-click="deleteSynth(name)">{{name}}</a>
                   </li>
                 </ul>
               </div>
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
                 <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="(k, s) in savedSettings">
-                    <a ng-click="renameSettings(k)">{{k}}</a>
+                  <li ng-repeat="name in savedSynthNames()">
+                    <a ng-click="renameSynth(name)">{{name}}</a>
                   </li>
                 </ul>
               </div>
@@ -151,7 +150,7 @@
           <div class="row-fluid">
             <form class="form-horizontal" name="recipeForm">
               <fieldset>
-                <legend><small>Synth: <span class="light">{{settingsNameForDisplay()}}<span ng-show="areSettingsDirty()">*</span></span></small></legend>
+                <legend><small>Synth: <span class="light">{{synthNameForDisplay()}}<span ng-show="isSynthDirty()">*</span></span></small></legend>
                 <div class="row-fluid">
                   <div class="btn-group">
                     <button class="btn btn-primary"
@@ -391,6 +390,7 @@
 <script src="js/services/actions.js"></script>
 <script src="js/services/recipedb.js"></script>
 <script src="js/services/recipelibrary.js"></script>
+<script src="js/services/localprofile.js"></script>
 <script src="js/services/simulator.js"></script>
 <script src="js/services/solver.js"></script>
 <script src="js/controllers.js"></script>

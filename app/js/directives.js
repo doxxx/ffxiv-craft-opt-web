@@ -143,3 +143,27 @@ module.directive('myDropdownToggle', ['$document', '$location', function ($docum
     }
   };
 }]);
+
+module.directive('autoFocus', function($timeout) {
+  return {
+    restrict: 'AC',
+    link: function(_scope, _element) {
+      $timeout(function(){
+        _element[0].focus();
+      }, 0);
+    }
+  };
+});
+
+module.directive('onEnter', function () {
+  // Linker function
+  return function (scope, element, attrs) {
+    element.bind('keypress', function (event) {
+      if (event.keyCode == 13) {
+        scope.$apply(function() {
+          scope.$eval(attrs['onEnter']);
+        });
+      }
+    });
+  };
+});

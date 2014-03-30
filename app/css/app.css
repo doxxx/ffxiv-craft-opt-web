@@ -47,7 +47,7 @@ legend small > .light {
   cursor: text;
 }
 
-.form-horizontal .control-label, form label {
+.form-horizontal .control-label {
   font-weight: bold;
   width: 130px;
 }
