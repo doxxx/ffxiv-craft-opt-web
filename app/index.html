@@ -126,7 +126,7 @@
                 <button type="button" class="btn" ng-click="newSynth()">New</button>
                 <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
                 <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="name in savedSynthNames()">
+                  <li ng-repeat="name in savedSynthNames() | orderBy:'toString()'">
                     <a ng-click="loadSynth(name)">{{name}}</a>
                   </li>
                 </ul>
@@ -136,7 +136,7 @@
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
                 <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="name in savedSynthNames()">
+                  <li ng-repeat="name in savedSynthNames() | orderBy:'toString()'">
                     <a ng-click="deleteSynth(name)">{{name}}</a>
                   </li>
                 </ul>
@@ -144,7 +144,7 @@
               <div class="dropdown">
                 <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
                 <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="name in savedSynthNames()">
+                  <li ng-repeat="name in savedSynthNames() | orderBy:'toString()'">
                     <a ng-click="renameSynth(name)">{{name}}</a>
                   </li>
                 </ul>
