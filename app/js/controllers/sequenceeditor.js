@@ -101,6 +101,10 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
     });
   };
 
+  $scope.isSequenceDirty = function() {
+    return !angular.equals($scope.sequence, origSequence);
+  };
+
   $scope.simulate = function() {
     var settings = {
       crafter: addBonusStats(crafterStats, bonusStats),
