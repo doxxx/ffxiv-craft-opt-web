@@ -38,6 +38,10 @@ legend small > .light {
   border: none;
 }
 
+.accordion a {
+  text-decoration: none;
+}
+
 .section-title {
   font-weight: bold;
 }
