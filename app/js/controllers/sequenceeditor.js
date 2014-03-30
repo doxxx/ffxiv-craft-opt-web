@@ -1,3 +1,5 @@
+"use strict";
+
 var controllers = angular.module('ffxivCraftOptWeb.controllers');
 
 controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $http,
@@ -57,16 +59,15 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
     var drag = angular.element(dragEl);
     var drop = angular.element(dropEl);
     var newAction = drag.attr('data-new-action');
+    var dropIndex = parseInt(drop.attr('data-index'));
 
     if (newAction) {
-      var dropIndex = parseInt(drop.attr('data-index'));
 
       // insert new action into the drop position
       $scope.sequence.splice(dropIndex, 0, newAction);
     }
     else {
       var dragIndex = parseInt(drag.attr('data-index'));
-      var dropIndex = parseInt(drop.attr('data-index'));
 
       // do nothing if dropped on itself
       if (dragIndex == dropIndex) return;
@@ -116,12 +117,12 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
     $scope.simulationResult.running = true;
   };
 
-  $scope.simulationSuccess = function(data, status, headers, config) {
+  $scope.simulationSuccess = function(data) {
     $scope.simulationResult.finalState = data.finalState;
     $scope.simulationResult.running = false;
   };
 
-  $scope.simulationError = function(data, status, headers, config) {
+  $scope.simulationError = function(data) {
     $scope.simulationResult.finalState = {};
     $scope.simulationResult.error = data.error;
     $scope.simulationResult.running = false;
