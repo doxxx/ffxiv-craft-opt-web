@@ -381,6 +381,9 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   };
 
   $scope.runSimulation = function() {
+    if ($scope.simulatorStatus.running) {
+      return;
+    }
     var settings = {
       crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
       recipe: $scope.recipe,

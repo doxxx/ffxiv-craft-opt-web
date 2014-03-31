@@ -106,6 +106,9 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
   };
 
   $scope.simulate = function() {
+    if ($scope.simulationResult.running) {
+      return;
+    }
     var settings = {
       crafter: addBonusStats(crafterStats, bonusStats),
       recipe: recipe,
