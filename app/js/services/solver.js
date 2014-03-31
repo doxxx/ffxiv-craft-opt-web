@@ -7,10 +7,6 @@ var SolverService = function($timeout) {
 SolverService.$inject = ['$timeout'];
 
 SolverService.prototype.start = function(sequence, settings, progress, success, error) {
-  if (sequence.length <= 0) {
-    error({log: '', error: 'empty sequence'});
-    return;
-  }
   var worker = this.worker = new Worker('js/solverworker.js');
   var self = this;
   worker.onmessage = function(e) {
