@@ -434,8 +434,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
     }
-    _solver.start($scope.sequence, settings, $scope.solverProgress, $scope.solverSuccess, $scope.solverError);
     $scope.solverStatus.running = true;
+    _solver.start($scope.sequence, settings, $scope.solverProgress, $scope.solverSuccess, $scope.solverError);
   };
 
   $scope.stopSolver = function() {
