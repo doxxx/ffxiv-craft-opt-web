@@ -47,7 +47,10 @@ function Synth(crafter, recipe, maxTrickUses, useConditions) {
 Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship) {
     var levelCorrectionFactor = 0;
 
-    if ((-5 <= levelDifference) && (levelDifference <= 0)) {
+    if ((levelDifference < -5)) {
+        levelCorrectionFactor = 0.0152 * levelDifference;
+    }
+    else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
         levelCorrectionFactor = 0.10 * levelDifference;
     }
     else if ((0 < levelDifference) && (levelDifference <= 5)) {
@@ -69,7 +72,10 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
 Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control) {
     var levelCorrectionFactor = 0;
 
-    if ((-5 <= levelDifference) && (levelDifference <= 0)) {
+    if (levelDifference < -5) {
+        levelCorrectionFactor = 0.05 * levelDifference;
+    }
+    else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
         levelCorrectionFactor = 0.05 * levelDifference;
     }
     else {
@@ -209,8 +215,14 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
-        if (AllActions.ingenuity2.name in effects.countDowns) {
+        if ((AllActions.ingenuity2.name in effects.countDowns) && (levelDifference < -5) && (synth.crafter.level == 50)) {
+            levelDifference = levelDifference + 20;
+        }
+        else if (AllActions.ingenuity2.name in effects.countDowns) {
             levelDifference = 3;
+        }
+        else if ((AllActions.ingenuity.name in effects.countDowns) && (levelDifference < -5) && (synth.crafter.level == 50)) {
+            levelDifference = levelDifference + 10;
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
             levelDifference = 0;
@@ -488,8 +500,14 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
-        if (AllActions.ingenuity2.name in effects.countDowns) {
+        if ((AllActions.ingenuity2.name in effects.countDowns) && (levelDifference < -5) && (synth.crafter.level == 50)) {
+            levelDifference = levelDifference + 20;
+        }
+        else if (AllActions.ingenuity2.name in effects.countDowns) {
             levelDifference = 3;
+        }
+        else if ((AllActions.ingenuity.name in effects.countDowns) && (levelDifference < -5) && (synth.crafter.level == 50)) {
+            levelDifference = levelDifference + 10;
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
             levelDifference = 0;
