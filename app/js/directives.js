@@ -173,6 +173,7 @@ module.directive('simulatorStatus', function() {
     restrict: 'E',
     templateUrl: 'partials/simulator-status.html',
     scope: {
+      recipe: '=',
       statusVar: '=',
       validator: '&'
     }

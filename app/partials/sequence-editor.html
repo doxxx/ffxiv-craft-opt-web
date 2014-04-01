@@ -43,9 +43,11 @@
       </div>
     </fieldset>
   </form>
+  <div class="simulator-status" ng-class="{'simulator-status-ok': isSimulationResultOk(), 'simulator-status-error': !isSimulationResultOk()}">
+    <simulator-status recipe="recipe" status-var="simulationResult" validator="isValidSequence(sequence, recipe.cls)"></simulator-status>
+  </div>
 </div>
 <div class="modal-footer">
-  <simulator-status status-var="simulationResult" validator="isValidSequence(sequence, recipe.cls)"></simulator-status>
   <button class="btn btn-warning" ng-disabled="sequence.length == 0" ng-click="clear()">Clear</button>
   <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">Revert</button>
   <button class="btn btn-primary" ng-disabled="!isSequenceDirty()" ng-click="save()">Save</button>

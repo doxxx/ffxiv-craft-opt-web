@@ -105,6 +105,12 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
     return !angular.equals($scope.sequence, origSequence);
   };
 
+  $scope.isSimulationResultOk = function() {
+    var state = $scope.simulationResult.finalState;
+    if (!state) return false;
+    return state.cpOk && state.durabilityOk && state.progressOk;
+  };
+
   $scope.simulate = function() {
     if ($scope.simulationResult.running) {
       return;
