@@ -323,6 +323,12 @@
                             <input class="input-small" type="number" name="maxTricksUses" ng-model="sequenceSettings.maxTricksUses" min="0" required/>
                           </div>
                         </div>
+                        <div class="control-group" ng-class="{error: !simulatorOptionsForm.reliabilityPercent.$valid}">
+                          <label class="control-label">Reliability %:</label>
+                          <div class="controls">
+                            <input class="input-small" type="number" name="reliabilityPercent" ng-model="sequenceSettings.reliabilityPercent" min="1" max="100" required/>
+                          </div>
+                        </div>
                         <div class="control-group" ng-class="{error: !simulatorOptionsForm.maxMontecarloRuns.$valid}">
                           <label class="control-label">Montecarlo Runs:</label>
                           <div class="controls">

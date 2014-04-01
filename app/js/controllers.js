@@ -176,6 +176,11 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       finalState: null
     };
 
+    // Backwards compatibility with version 3
+    if (!$scope.sequenceSettings.reliabilityPercent) {
+      $scope.sequenceSettings.reliabilityPercent = 100;
+    }
+
     $scope.settings.name = name;
   };
 
@@ -389,7 +394,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       recipe: $scope.recipe,
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-      maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns
+      maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+      reliabilityPercent: $scope.sequenceSettings.reliabilityPercent
     };
     if ($scope.sequenceSettings.specifySeed) {
       settings.seed = $scope.sequenceSettings.seed;
@@ -432,6 +438,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+      reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
       solver: $scope.solver
     };
     if ($scope.sequenceSettings.specifySeed) {
@@ -504,11 +511,17 @@ function loadLocalPageState($scope) {
   var sequenceSettings = localStorage['settings.sequenceSettings'];
   if (sequenceSettings) {
     $scope.sequenceSettings = JSON.parse(sequenceSettings);
+
+    // Backwards compatibility with version 3
+    if (!$scope.sequenceSettings.reliabilityPercent) {
+      $scope.sequenceSettings.reliabilityPercent = 100;
+    }
   }
   else {
     $scope.sequenceSettings = {
       maxTricksUses: 0,
       maxMontecarloRuns: 500,
+      reliabilityPercent: 100,
       specifySeed: false,
       seed: 1337
     }

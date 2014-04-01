@@ -37,11 +37,12 @@ function Recipe(level, difficulty, durability, startQuality, maxQuality) {
     this.maxQuality = maxQuality;
 }
 
-function Synth(crafter, recipe, maxTrickUses, useConditions) {
+function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions) {
     this.crafter = crafter;
     this.recipe = recipe;
     this.maxTrickUses = maxTrickUses;
     this.useConditions = useConditions;
+    this.reliabilityIndex = reliabilityIndex;
 }
 
 Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship) {
@@ -122,7 +123,7 @@ function EffectTracker() {
     this.countDowns = {};
 }
 
-function State(step, action, durabilityState, cpState, qualityState, progressState, wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList) {
+function State(step, action, durabilityState, cpState, qualityState, progressState, wastedActions, progressOk, cpOk, durabilityOk, trickOk, reliabilityOk, crossClassActionList) {
     this.step = step;
     this.action = action;
     this.durabilityState = durabilityState;
@@ -134,6 +135,7 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
     this.cpOk = cpOk;
     this.durabilityOk = durabilityOk;
     this.trickOk = trickOk;
+    this.reliabilityOk = reliabilityOk;
     if (crossClassActionList === null) {
         this.crossClassActionList = {};
     }
@@ -159,6 +161,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     var wastedActions = 0;
     var effects = new EffectTracker();
     var trickUses = 0;
+    var reliability = 1;
     var crossClassActionList = {};
     var crossClassActionCounter = 0;
     var useConditions = synth.useConditions;
@@ -178,11 +181,12 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     var cpOk = false;
     var durabilityOk = false;
     var trickOk = false;
+    var reliabilityOk = false;
 
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
         return new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                           wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
+                           wastedActions, progressOk, cpOk, durabilityOk, trickOk, reliabilityOk, crossClassActionList);
     }
 
     if (verbose) {
@@ -269,6 +273,10 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         var durabilityCost = action.durabilityCost;
         if ((AllActions.wasteNot.name in effects.countDowns) || (AllActions.wasteNot2.name in effects.countDowns)) {
             durabilityCost = 0.5 * action.durabilityCost;
+        }
+
+        if (progressGain > 0) {
+            reliability = reliability * successProbability;
         }
 
         // Occur if a wasted action
@@ -409,17 +417,21 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         trickOk = true;
     }
 
+    if (reliability >= synth.reliabilityIndex) {
+        reliabilityOk = true;
+    }
+
     var lastAction = individual[individual.length-1];
 
     var finalState = new State(stepCount, lastAction.name, durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
+                       wastedActions, progressOk, cpOk, durabilityOk, trickOk, reliabilityOk, crossClassActionList);
 
     if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter, wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
     }
 
     if (debug) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter, wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
     }
 
     return finalState;
@@ -442,6 +454,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     var effects = new EffectTracker();
     var maxTricksUses = 0;
     var trickUses = 0;
+    var reliability = 1;
     var crossClassActionList = {};
     var crossClassActionCounter = 0;
     var useConditions = synth.useConditions;
@@ -457,11 +470,12 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     var cpOk = false;
     var durabilityOk = false;
     var trickOk = false;
+    var reliabilityOk = false;
 
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
         return new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                           wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
+                           wastedActions, progressOk, cpOk, durabilityOk, trickOk, reliabilityOk, crossClassActionList);
     }
 
     // Strip Tricks of the Trade from individual
@@ -613,6 +627,10 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             durabilityCost = 0.5 * action.durabilityCost;
         }
 
+        if (progressGain > 0) {
+            reliability = reliability * successProbability;
+        }
+
         // Occur if a dummy action
         //==================================
         if ((progressState >= synth.recipe.difficulty || durabilityState <= 0) && action != AllActions.dummyAction) {
@@ -743,15 +761,19 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         trickOk = true;
     }
 
+    if (reliability >= synth.reliabilityIndex) {
+        reliabilityOk = true;
+    }
+
     var finalState = new State(stepCount, individual[individual.length-1].name, durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickOk, crossClassActionList);
+                       wastedActions, progressOk, cpOk, durabilityOk, trickOk, reliabilityOk, crossClassActionList);
 
     if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter, wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
     }
 
     if (debug) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, crossClassActionCounter, wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
     }
 
     return finalState;
@@ -923,6 +945,10 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     }
 
     if (!result.trickOk) {
+        penalties += 1;
+    }
+
+    if (!result.reliabilityOk) {
         penalties += 1;
     }
 
