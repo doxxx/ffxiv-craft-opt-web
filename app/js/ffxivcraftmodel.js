@@ -364,6 +364,9 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             }
 
             // Sanity checks for state variables
+            if ((durabilityState >= -5) && (progressState >= synth.recipe.difficulty)) {
+                durabilityState = 0;
+            }
             durabilityState = Math.min(durabilityState, synth.recipe.durability);
             cpState = Math.min(cpState, synth.crafter.craftPoints);
 
@@ -695,6 +698,9 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             }
 
             // Sanity checks for state variables
+            if ((durabilityState >= -5) && (progressState >= synth.recipe.difficulty)) {
+                durabilityState = 0;
+            }
             durabilityState = Math.min(durabilityState, synth.recipe.durability);
             cpState = Math.min(cpState, synth.crafter.craftPoints);
 
