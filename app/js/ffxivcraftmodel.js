@@ -72,9 +72,11 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
 
 Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control) {
     var levelCorrectionFactor = 0;
-
-    if (levelDifference < -5) {
-        levelCorrectionFactor = 0.05 * levelDifference;
+    if (levelDifference < -20) {
+        levelCorrectionFactor = 0.02867 * levelDifference;
+    }
+    else if (-20 <= levelDifference && levelDifference < -5) {
+        levelCorrectionFactor = 0.02867 * levelDifference;
     }
     else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
         levelCorrectionFactor = 0.05 * levelDifference;
@@ -83,7 +85,16 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
         levelCorrectionFactor = 0;
     }
 
-    var baseQuality = 0.36 * control + 34;
+    var baseQuality = 0;
+    if (levelDifference < -20) {
+        baseQuality = 0.6642 * control + 41.80;
+    }
+    else if (-20 <= levelDifference && levelDifference < -5) {
+        baseQuality = 0.6642 * control + 41.80;
+    }
+    else {
+        baseQuality = 0.36 * control + 34;
+    }
     var levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
 
     return Math.round(levelCorrectedQuality);
@@ -219,13 +230,13 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
-        if ((AllActions.ingenuity2.name in effects.countDowns) && (levelDifference < -5) && (synth.crafter.level == 50)) {
+        if ((AllActions.ingenuity2.name in effects.countDowns) && (levelDifference < -20) && (synth.crafter.level == 50)) {
             levelDifference = levelDifference + 20;
         }
         else if (AllActions.ingenuity2.name in effects.countDowns) {
             levelDifference = 3;
         }
-        else if ((AllActions.ingenuity.name in effects.countDowns) && (levelDifference < -5) && (synth.crafter.level == 50)) {
+        else if ((AllActions.ingenuity.name in effects.countDowns) && (levelDifference < -20) && (synth.crafter.level == 50)) {
             levelDifference = levelDifference + 10;
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
@@ -517,13 +528,13 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
-        if ((AllActions.ingenuity2.name in effects.countDowns) && (levelDifference < -5) && (synth.crafter.level == 50)) {
+        if ((AllActions.ingenuity2.name in effects.countDowns) && (levelDifference < -20) && (synth.crafter.level == 50)) {
             levelDifference = levelDifference + 20;
         }
         else if (AllActions.ingenuity2.name in effects.countDowns) {
             levelDifference = 3;
         }
-        else if ((AllActions.ingenuity.name in effects.countDowns) && (levelDifference < -5) && (synth.crafter.level == 50)) {
+        else if ((AllActions.ingenuity.name in effects.countDowns) && (levelDifference < -20) && (synth.crafter.level == 50)) {
             levelDifference = levelDifference + 10;
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
