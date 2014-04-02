@@ -3,7 +3,7 @@
 var controllers = angular.module('ffxivCraftOptWeb.controllers');
 
 controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $http,
-    _actionGroups, _allActions, _getActionImagePath, _simulator, origSequence, recipe, crafterStats,
+    _actionGroups, _allActions, _getActionImagePath, _simulator, actionTooltips, origSequence, recipe, crafterStats,
     bonusStats, sequenceSettings)
 {
   $scope.actionGroups = _actionGroups;
@@ -13,6 +13,7 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
     $scope.allActions[action.shortName] = action;
   }
   $scope.getActionImagePath = _getActionImagePath;
+  $scope.actionTooltips = actionTooltips;
   $scope.sequence = angular.copy(origSequence);
   $scope.availableActions = crafterStats.actions;
   $scope.recipe = recipe;
@@ -40,18 +41,20 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
 
   $scope.actionTooltip = function(action, cls) {
     var info = $scope.allActions[action];
-    var tooltip = info.name;
-    if (info.cls != 'All' && info.cls != cls) {
-      tooltip += ' (' + info.cls + ')';
+    var tooltipClass = info.cls;
+    if (tooltipClass == 'All') {
+      tooltipClass = cls;
     }
-    return tooltip;
+    var tooltip = $scope.actionTooltips[tooltipClass+action];
+    if (tooltip) return tooltip;
   };
 
   $scope.sequenceActionTooltip = function(action, cls) {
     var tooltip = $scope.actionTooltip(action, cls);
-    if (!$scope.isActionSelected(action, cls)) {
-      tooltip += '<br/><b>[Action Not Available]</b>';
-    }
+    // TODO: Find some way to modify the tooltip to show it's unavailable
+    //if (!$scope.isActionSelected(action, cls)) {
+    //  tooltip += '<br/><b>[Action Not Available]</b>';
+    //}
     return tooltip;
   };
 

@@ -11,6 +11,7 @@ var app = angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.services.recipelibrary',
   'ffxivCraftOptWeb.services.simulator',
   'ffxivCraftOptWeb.services.solver',
+  'ffxivCraftOptWeb.services.xivdbtooltips',
   'ffxivCraftOptWeb.directives',
   'ffxivCraftOptWeb.filters',
   'ffxivCraftOptWeb.controllers'

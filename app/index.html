@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="css/base.css"/>
   <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="http://xivdb.com/css/tooltip.css"/>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
   <script src="js/version-footer.js"></script>
 </head>
@@ -106,7 +107,7 @@
                              ng-click="toggleAction(action)"
                              ng-src="{{getActionImagePath(action, crafter.cls)}}"
                              tooltip-html-unsafe="{{actionTooltip(action, crafter.cls)}}"
-                             tooltip-placement="top"
+                             tooltip-placement="left"
                              tooltip-popup-delay="200"
                              tooltip-append-to-body="true"/>
                       </div>
@@ -396,6 +397,7 @@
 <script src="js/services/localprofile.js"></script>
 <script src="js/services/simulator.js"></script>
 <script src="js/services/solver.js"></script>
+<script src="js/services/xivdbtooltips.js"></script>
 <script src="js/controllers.js"></script>
 <script src="js/controllers/sequenceeditor.js"></script>
 <script src="js/controllers/macro.js"></script>

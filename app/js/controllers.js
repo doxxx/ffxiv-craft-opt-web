@@ -6,16 +6,36 @@ var controllers = angular.module('ffxivCraftOptWeb.controllers', []);
 
 controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $document, $timeout, $filter,
                                             _getSolverServiceURL, _allClasses, _actionGroups, _allActions,
-                                            _getActionImagePath, _recipeLibrary, _localProfile, _simulator, _solver) {
+                                            _getActionImagePath, _recipeLibrary, _localProfile, _simulator, _solver,
+                                            _xivdbtooltips) {
   // provide access to constants
   $scope.allClasses = _allClasses;
   $scope.actionGroups = _actionGroups;
   $scope.getActionImagePath = _getActionImagePath;
 
   $scope.allActions = {};
+  $scope.actionTooltips = {};
+
+  function makeTooltipsFetchCallback(cls, actionShortName) {
+    return function(data) {
+      $scope.actionTooltips[cls+actionShortName] = data;
+    };
+  }
+
   for (var i = 0; i < _allActions.length; i++) {
     var action = _allActions[i];
     $scope.allActions[action.shortName] = action;
+    if (action.skillID) {
+      if (action.cls == 'All') {
+        for (var j = 0; j < _allClasses.length; j++) {
+          var cls = _allClasses[j];
+          _xivdbtooltips.fetch(action.skillID[cls]).then(makeTooltipsFetchCallback(cls, action.shortName));
+        }
+      }
+      else {
+        _xivdbtooltips.fetch(action.skillID[action.cls]).then(makeTooltipsFetchCallback(action.cls, action.shortName));
+      }
+    }
   }
 
   // non-persistent page states
@@ -281,18 +301,20 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.actionTooltip = function(action, cls) {
     var info = $scope.allActions[action];
-    var tooltip = info.name;
-    if (info.cls != 'All' && info.cls != cls) {
-      tooltip += ' (' + info.cls + ')';
+    var tooltipClass = info.cls;
+    if (tooltipClass == 'All') {
+      tooltipClass = cls;
     }
-    return tooltip;
+    var tooltip = $scope.actionTooltips[tooltipClass+action];
+    if (tooltip) return tooltip;
   };
 
   $scope.sequenceActionTooltip = function(action, cls) {
     var tooltip = $scope.actionTooltip(action, cls);
-    if (!$scope.isActionSelected(action, cls)) {
-      tooltip += '<br/><b>[Action Not Available]</b>';
-    }
+    // TODO: Find some way to modify the tooltip to show it's unavailable
+    //if (!$scope.isActionSelected(action, cls)) {
+    //  tooltip += '<br/><b>[Action Not Available]</b>';
+    //}
     return tooltip;
   };
 
@@ -336,6 +358,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
       controller: 'SequenceEditorCtrl',
       windowClass: 'sequence-editor',
       resolve: {
+        actionTooltips: function() { return $scope.actionTooltips; },
         origSequence: function() { return $scope.sequence; },
         recipe: function() { return $scope.recipe; },
         crafterStats: function() { return $scope.crafter.stats[$scope.recipe.cls]; },
