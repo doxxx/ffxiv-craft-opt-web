@@ -944,15 +944,15 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     penalties += result.wastedActions;
 
     if (!result.durabilityOk) {
-       penalties += 1;
+       penalties += Math.abs(result.durability);
     }
 
     if (!result.progressOk) {
-        penalties += 1;
+        penalties += Math.abs(result.progress);
     }
 
     if (!result.cpOk) {
-        penalties += 1;
+        penalties += Math.abs(result.cp);
     }
 
     if (!result.trickOk) {
