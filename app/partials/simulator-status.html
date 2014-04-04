@@ -1,24 +1,24 @@
-<span ng-show="statusVar.running">
+<span ng-show="status.running">
   Running <i class="fa fa-spinner fa-spin"></i>
 </span>
-<span ng-show="!statusVar.running">
-  <span ng-show="!validator()">
+<span ng-show="!status.running">
+  <span ng-show="!valid()">
     <span class="simulator-status-error"><i class="fa fa-warning"></i> invalid sequence</span>
   </span>
-  <span ng-show="validator()">
-    <span ng-show="statusVar.error">
-      <span class="simulator-status-error"><i class="fa fa-warning"></i> {{statusVar.error}}</span>
+  <span ng-show="valid()">
+    <span ng-show="status.error">
+      <span class="simulator-status-error"><i class="fa fa-warning"></i> {{status.error}}</span>
     </span>
-    <span ng-show="!statusVar.error && statusVar.finalState">
-      Q:{{statusVar.finalState.quality | number:0}}
-      <span ng-class="{'simulator-status-error': !statusVar.finalState.progressOk, 'simulator-status-ok': statusVar.finalState.progressOk}">
-        &nbsp;Prog:{{statusVar.finalState.progress | number:0}}/{{recipe.difficulty | number:0}} <i ng-show="!statusVar.finalState.progressOk" class="fa fa-warning"></i>
+    <span ng-show="!status.error && status.finalState">
+      Q:{{status.finalState.quality | number:0}}
+      <span ng-class="{'simulator-status-error': !status.finalState.progressOk, 'simulator-status-ok': status.finalState.progressOk}">
+        &nbsp;Prog:{{status.finalState.progress | number:0}}/{{recipe.difficulty | number:0}} <i ng-show="!status.finalState.progressOk" class="fa fa-warning"></i>
       </span>
-      <span ng-show="!statusVar.finalState.durabilityOk" class="simulator-status-error">
-        &nbsp;Dur:{{statusVar.finalState.durability | number:0}} <i class="fa fa-warning"></i>
+      <span ng-show="!status.finalState.durabilityOk" class="simulator-status-error">
+        &nbsp;Dur:{{status.finalState.durability | number:0}} <i class="fa fa-warning"></i>
       </span>
-      <span ng-class="{'simulator-status-error': !statusVar.finalState.progressOk, 'simulator-status-ok': statusVar.finalState.progressOk}">
-        &nbsp;CP:{{statusVar.finalState.cp | number:0}} <i ng-show="!statusVar.finalState.progressOk" class="fa fa-warning"></i>
+      <span ng-class="{'simulator-status-error': !status.finalState.progressOk, 'simulator-status-ok': status.finalState.progressOk}">
+        &nbsp;CP:{{status.finalState.cp | number:0}} <i ng-show="!status.finalState.progressOk" class="fa fa-warning"></i>
       </span>
     </span>
   </span>

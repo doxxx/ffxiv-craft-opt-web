@@ -249,7 +249,7 @@
           </accordion-heading>
           <div class="well">
             <div class="row-fluid">
-              <h4>Initial Guess [ <simulator-status class="initial-guess" recipe="recipe" status-var="simulatorStatus" validator="isValidSequence(sequence, recipe.cls)"></simulator-status> ]</h4>
+              <h4>Initial Guess [ <simulator-status class="initial-guess" recipe="recipe" status="simulatorStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status> ]</h4>
               <div class="sequence well well-small">
                 <img ng-repeat="action in sequence track by $index"
                      class="action"
