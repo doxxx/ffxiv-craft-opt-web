@@ -292,7 +292,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
 
         // Occur if a wasted action
         //==================================
-        if (((progressState >= synth.recipe.difficulty) || (durabilityState <= 0)) && (action != AllActions.dummyAction)) {
+        if (((progressState >= synth.recipe.difficulty) || (durabilityState <= 0) || (cpState < 0)) && (action != AllActions.dummyAction)) {
             wastedActions += 1;
         }
 
@@ -644,7 +644,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
 
         // Occur if a dummy action
         //==================================
-        if ((progressState >= synth.recipe.difficulty || durabilityState <= 0) && action != AllActions.dummyAction) {
+        if ((progressState >= synth.recipe.difficulty || durabilityState <= 0 || cpState < 0) && action != AllActions.dummyAction) {
             wastedActions += 1;
         }
 
