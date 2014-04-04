@@ -88,11 +88,11 @@ legend small > .light {
   border-top: solid 1px rgba(0, 0, 0, 0.2);
 }
 
-simulator-status.initial-guess .simulator-status-ok {
+.simulator-status-ok {
   color: forestgreen;
 }
 
-simulator-status.initial-guess .simulator-status-error {
+.simulator-status-error {
   color: crimson;
 }
 
@@ -335,6 +335,9 @@ legend + .control-group {
 
 .sequence-editor .modal-body .simulator-status {
   text-align: center;
+}
+
+.sequence-editor .modal-body simulator-status {
   color: white;
 }
 
@@ -344,6 +347,14 @@ legend + .control-group {
 
 .sequence-editor .modal-body .simulator-status.simulator-status-error {
   background-color: crimson;
+}
+
+.sequence-editor .modal-body .simulator-status .simulator-status-ok {
+  color: white;
+}
+
+.sequence-editor .modal-body .simulator-status .simulator-status-error {
+  color: white;
 }
 
 .sequence-editor .action {
@@ -394,4 +405,8 @@ legend + .control-group {
   -moz-animation: spin 1s infinite steps(8);
   -o-animation: spin 1s infinite steps(8);
   animation: spin 1s infinite steps(8);
+}
+
+.invisible {
+  visibility: hidden;
 }

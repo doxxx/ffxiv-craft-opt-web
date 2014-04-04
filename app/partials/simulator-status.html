@@ -1,4 +1,4 @@
-<span ng-show="status.running">
+<span ng-class="{'invisible': !status.running}">
   <i class="fa fa-spinner fa-spin"></i>
 </span>
 <span ng-show="!status.running">
