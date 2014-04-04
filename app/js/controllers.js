@@ -453,6 +453,8 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   };
 
   $scope.runSolver = function() {
+    $scope.solverStatus.error = null;
+    $scope.solverResult.logText = "";
     $scope.solverStatus.generationsCompleted = 0;
     $scope.solverResult.sequence = [];
     var settings = {
@@ -473,7 +475,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.stopSolver = function() {
     _solver.stop();
-    $scope.solverStatus.error = "cancelled";
+    $scope.solverStatus.error = null;
     $scope.solverResult.logText = "";
     $scope.solverResult.sequence = [];
     $scope.solverStatus.running = false;
