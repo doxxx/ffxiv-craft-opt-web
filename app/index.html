@@ -281,8 +281,8 @@
               </div>
               <div>
                 <h4>Solver Result
-                  <span ng-show="solverStatus.running">&nbsp;(Gen:{{solverStatus.generationsCompleted}}/{{solver.generations}})<span ng-show="solverStatus.bestState !== undefined">&nbsp;(Q:{{solverStatus.bestState.qualityState | number:0}})</span></span>
-                  <span ng-show="!solverStatus.running && solverResult.finalState != null">&nbsp;(Q:{{solverResult.finalState.quality | number:0}}<span ng-show="!solverResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.finalState.durability | number:0}}</span><span ng-show="!solverResult.finalState.cpOk" class="text-error">&nbsp;CP:{{solverResult.finalState.cp | number:0}}</span><span ng-show="!solverResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{solverResult.finalState.progress | number:0}}</span>)</span>
+                  <span ng-show="solverStatus.running">&nbsp;(Gen:{{solverStatus.generationsCompleted}}/{{solver.generations}})<span ng-show="solverStatus.state !== undefined">&nbsp;(Q:{{solverStatus.state.qualityState | number:0}})</span></span>
+                  <span ng-show="!solverStatus.running && solverResult.state != null">&nbsp;(Q:{{solverResult.state.quality | number:0}}<span ng-show="!solverResult.state.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.state.durability | number:0}}</span><span ng-show="!solverResult.state.cpOk" class="text-error">&nbsp;CP:{{solverResult.state.cp | number:0}}</span><span ng-show="!solverResult.state.progressOk" class="text-error">&nbsp;Prog:{{solverResult.state.progress | number:0}}</span>)</span>
                 </h4>
                 <div ng-show="solverStatus.running">
                   <progressbar class="progress-striped active" value="solverStatus.generationsCompleted" max="solver.generations"></progressbar>

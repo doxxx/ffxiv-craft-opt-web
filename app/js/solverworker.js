@@ -66,7 +66,7 @@ self.onmessage = function(e) {
     self.postMessage({
       progress: {
         generationsCompleted: gen,
-        bestState: simSynth(best, synth, false, false)
+        state: simSynth(best, synth, false, false)
       }
     });
   }
@@ -101,7 +101,7 @@ self.onmessage = function(e) {
   var result = {
     success: {
       log: logOutput.log,
-      finalState: {
+      state: {
         quality: finalState.qualityState,
         durabilityOk: finalState.durabilityOk,
         durability: finalState.durabilityState,
