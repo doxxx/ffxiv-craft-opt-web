@@ -1,5 +1,5 @@
 <span ng-show="status.running">
-  Running <i class="fa fa-spinner fa-spin"></i>
+  <i class="fa fa-spinner fa-spin"></i>
 </span>
 <span ng-show="!status.running">
   <span ng-show="!valid()">
@@ -9,17 +9,17 @@
     <span ng-show="status.error">
       <span class="simulator-status-error"><i class="fa fa-warning"></i> {{status.error}}</span>
     </span>
-    <span ng-show="!status.error && status.state">
-      Q:{{status.state.quality | number:0}}
-      <span ng-class="{'simulator-status-error': !status.state.progressOk, 'simulator-status-ok': status.state.progressOk}">
-        &nbsp;Prog:{{status.state.progress | number:0}}/{{recipe.difficulty | number:0}} <i ng-show="!status.state.progressOk" class="fa fa-warning"></i>
-      </span>
-      <span ng-show="!status.state.durabilityOk" class="simulator-status-error">
-        &nbsp;Dur:{{status.state.durability | number:0}} <i class="fa fa-warning"></i>
-      </span>
-      <span ng-class="{'simulator-status-error': !status.state.progressOk, 'simulator-status-ok': status.state.progressOk}">
-        &nbsp;CP:{{status.state.cp | number:0}} <i ng-show="!status.state.progressOk" class="fa fa-warning"></i>
-      </span>
-    </span>
+  </span>
+</span>
+<span ng-show="!status.error && status.state">
+  Q:{{status.state.quality | number:0}}
+  <span ng-class="{'simulator-status-error': !status.state.progressOk, 'simulator-status-ok': status.state.progressOk}">
+    &nbsp;Prog:{{status.state.progress | number:0}}/{{recipe.difficulty | number:0}} <i ng-show="!status.state.progressOk" class="fa fa-warning"></i>
+  </span>
+  <span ng-show="!status.state.durabilityOk" class="simulator-status-error">
+    &nbsp;Dur:{{status.state.durability | number:0}} <i class="fa fa-warning"></i>
+  </span>
+  <span ng-class="{'simulator-status-error': !status.state.progressOk, 'simulator-status-ok': status.state.progressOk}">
+    &nbsp;CP:{{status.state.cp | number:0}} <i ng-show="!status.state.progressOk" class="fa fa-warning"></i>
   </span>
 </span>

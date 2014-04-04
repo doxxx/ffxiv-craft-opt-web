@@ -281,8 +281,8 @@
               </div>
               <div>
                 <h4>Solver Result
-                  <span ng-show="solverStatus.running">&nbsp;(Gen:{{solverStatus.generationsCompleted}}/{{solver.generations}})<span ng-show="solverStatus.state !== undefined">&nbsp;(Q:{{solverStatus.state.qualityState | number:0}})</span></span>
-                  <span ng-show="!solverStatus.running && solverResult.state != null">&nbsp;(Q:{{solverResult.state.quality | number:0}}<span ng-show="!solverResult.state.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.state.durability | number:0}}</span><span ng-show="!solverResult.state.cpOk" class="text-error">&nbsp;CP:{{solverResult.state.cp | number:0}}</span><span ng-show="!solverResult.state.progressOk" class="text-error">&nbsp;Prog:{{solverResult.state.progress | number:0}}</span>)</span>
+                  <span ng-show="solverStatus.running">&nbsp;(Gen:{{solverStatus.generationsCompleted}}/{{solver.generations}}) [ <simulator-status class="initial-guess" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status> ]</span>
+                  <span ng-show="!solverStatus.running && solverResult.state != null">&nbsp; [ <simulator-status class="initial-guess" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status> ]</span>
                 </h4>
                 <div ng-show="solverStatus.running">
                   <progressbar class="progress-striped active" value="solverStatus.generationsCompleted" max="solver.generations"></progressbar>

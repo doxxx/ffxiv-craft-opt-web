@@ -63,10 +63,20 @@ self.onmessage = function(e) {
   var hof = new yagal_tools.HallOfFame(1);
 
   function feedback(gen, best) {
+    var currentState = simSynth(best, synth, false, false);
     self.postMessage({
       progress: {
         generationsCompleted: gen,
-        state: simSynth(best, synth, false, false)
+        state: {
+          quality: currentState.qualityState,
+          durabilityOk: currentState.durabilityOk,
+          durability: currentState.durabilityState,
+          cpOk: currentState.cpOk,
+          cp: currentState.cpState,
+          progressOk: currentState.progressOk,
+          progress: currentState.progressState
+        },
+        bestSequence: actionSequenceToShortNames(best)
       }
     });
   }
@@ -88,11 +98,6 @@ self.onmessage = function(e) {
   var best = hof.entries[0];
   var finalState = simSynth(best, synth, true, false, logOutput);
 
-  var bestSequence = [];
-  for (var k = 0; k < best.length; k++) {
-    bestSequence.push(best[k].shortName);
-  }
-
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
 
@@ -110,7 +115,7 @@ self.onmessage = function(e) {
         progressOk: finalState.progressOk,
         progress: finalState.progressState
       },
-      bestSequence: bestSequence
+      bestSequence: actionSequenceToShortNames(best)
     }
   };
 
@@ -132,4 +137,12 @@ function randomSeq(maxLen, elementFunc) {
     seq.push(elementFunc());
   }
   return seq;
+}
+
+function actionSequenceToShortNames(sequence) {
+  var nameSequence = [];
+  for (var k = 0; k < sequence.length; k++) {
+    nameSequence.push(sequence[k].shortName);
+  }
+  return nameSequence;
 }
