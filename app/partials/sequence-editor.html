@@ -44,7 +44,7 @@
     </fieldset>
   </form>
   <div class="simulator-status" ng-class="{'simulator-status-ok': isSimulationResultOk(), 'simulator-status-error': !isSimulationResultOk()}">
-    <simulator-status recipe="recipe" status-var="simulationResult" validator="isValidSequence(sequence, recipe.cls)"></simulator-status>
+    <simulator-status recipe="recipe" status="simulationResult" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
   </div>
 </div>
 <div class="modal-footer">

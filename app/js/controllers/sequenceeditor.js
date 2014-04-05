@@ -109,7 +109,7 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
   };
 
   $scope.isSimulationResultOk = function() {
-    var state = $scope.simulationResult.finalState;
+    var state = $scope.simulationResult.state;
     if (!state) return false;
     return state.cpOk && state.durabilityOk && state.progressOk;
   };
@@ -134,13 +134,13 @@ controllers.controller('SequenceEditorCtrl', function($scope, $modalInstance, $h
   };
 
   $scope.simulationSuccess = function(data) {
-    $scope.simulationResult.finalState = data.finalState;
+    $scope.simulationResult.state = data.state;
     $scope.simulationResult.error = null;
     $scope.simulationResult.running = false;
   };
 
   $scope.simulationError = function(data) {
-    $scope.simulationResult.finalState = null;
+    $scope.simulationResult.state = null;
     $scope.simulationResult.error = data.error;
     $scope.simulationResult.running = false;
   };

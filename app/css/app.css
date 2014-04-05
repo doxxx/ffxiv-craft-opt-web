@@ -387,3 +387,11 @@ legend + .control-group {
 .macro-modal .modal-body textarea {
   width: 90%;
 }
+
+/* Override spinner animation to make it look better */
+.fa-spinner.fa-spin {
+  -webkit-animation: spin 1s infinite steps(8);
+  -moz-animation: spin 1s infinite steps(8);
+  -o-animation: spin 1s infinite steps(8);
+  animation: spin 1s infinite steps(8);
+}

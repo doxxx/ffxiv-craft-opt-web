@@ -49,7 +49,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.simulatorStatus = {
     logText: '',
-    finalState: null,
+    state: null,
     error: null,
     running: false
   };
@@ -68,7 +68,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
   $scope.solverResult = {
     logText: '',
     sequence: [],
-    finalState: null
+    state: null
   };
 
   $scope.onProfileLoaded = function () {
@@ -97,7 +97,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
         $scope.runSimulation();
       }
       else {
-        $scope.simulatorStatus.finalState = null
+        $scope.simulatorStatus.state = null
         $scope.simulatorStatus.error = null
       }
     }
@@ -193,7 +193,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
     $scope.solverResult = {
       logText: '',
       sequence: [],
-      finalState: null
+      state: null
     };
 
     // Backwards compatibility with version 3
@@ -394,7 +394,7 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.simulationSuccess = function(data) {
     $scope.simulatorStatus.logText = data.log;
-    $scope.simulatorStatus.finalState = data.finalState;
+    $scope.simulatorStatus.state = data.state;
     $scope.simulatorStatus.error = null;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
@@ -430,12 +430,12 @@ controllers.controller('MainCtrl', function($scope, $http, $location, $modal, $d
 
   $scope.solverProgress = function(data) {
     $scope.solverStatus.generationsCompleted = data.generationsCompleted;
-    $scope.solverStatus.bestState = data.bestState;
+    $scope.solverStatus.state = data.state;
   };
 
   $scope.solverSuccess = function(data) {
     $scope.solverResult.logText = data.log;
-    $scope.solverResult.finalState = data.finalState;
+    $scope.solverResult.state = data.state;
     $scope.solverResult.sequence = data.bestSequence;
     $scope.simulatorTabs.solver.active = true;
     $scope.solverStatus.running = false;

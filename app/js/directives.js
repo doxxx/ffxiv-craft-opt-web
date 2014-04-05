@@ -174,8 +174,8 @@ module.directive('simulatorStatus', function() {
     templateUrl: 'partials/simulator-status.html',
     scope: {
       recipe: '=',
-      statusVar: '=',
-      validator: '&'
+      status: '=',
+      valid: '&'
     }
   }
 });

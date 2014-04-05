@@ -249,7 +249,7 @@
           </accordion-heading>
           <div class="well">
             <div class="row-fluid">
-              <h4>Initial Guess [ <simulator-status class="initial-guess" recipe="recipe" status-var="simulatorStatus" validator="isValidSequence(sequence, recipe.cls)"></simulator-status> ]</h4>
+              <h4>Initial Guess [ <simulator-status class="initial-guess" recipe="recipe" status="simulatorStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status> ]</h4>
               <div class="sequence well well-small">
                 <img ng-repeat="action in sequence track by $index"
                      class="action"
@@ -281,8 +281,8 @@
               </div>
               <div>
                 <h4>Solver Result
-                  <span ng-show="solverStatus.running">&nbsp;(Gen:{{solverStatus.generationsCompleted}}/{{solver.generations}})<span ng-show="solverStatus.bestState !== undefined">&nbsp;(Q:{{solverStatus.bestState.qualityState | number:0}})</span></span>
-                  <span ng-show="!solverStatus.running && solverResult.finalState != null">&nbsp;(Q:{{solverResult.finalState.quality | number:0}}<span ng-show="!solverResult.finalState.durabilityOk" class="text-error">&nbsp;Dur:{{solverResult.finalState.durability | number:0}}</span><span ng-show="!solverResult.finalState.cpOk" class="text-error">&nbsp;CP:{{solverResult.finalState.cp | number:0}}</span><span ng-show="!solverResult.finalState.progressOk" class="text-error">&nbsp;Prog:{{solverResult.finalState.progress | number:0}}</span>)</span>
+                  <span ng-show="solverStatus.running">&nbsp;(Gen:{{solverStatus.generationsCompleted}}/{{solver.generations}}) [ <simulator-status class="initial-guess" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status> ]</span>
+                  <span ng-show="!solverStatus.running && solverResult.state != null">&nbsp; [ <simulator-status class="initial-guess" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status> ]</span>
                 </h4>
                 <div ng-show="solverStatus.running">
                   <progressbar class="progress-striped active" value="solverStatus.generationsCompleted" max="solver.generations"></progressbar>

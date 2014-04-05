@@ -51,7 +51,7 @@ self.onmessage = function(e) {
   var result = {
     success: {
       log: logOutput.log,
-      finalState: {
+      state: {
         quality: finalState.qualityState,
         durabilityOk: finalState.durabilityOk,
         durability: finalState.durabilityState,
