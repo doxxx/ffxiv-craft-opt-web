@@ -541,6 +541,8 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         var control = synth.crafter.control;
         if (AllActions.innerQuiet.name in effects.countUps) {
             control *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
+            // Control is floored before display based on IQ incremental observations
+            control = Math.floor(control);
         }
 
         if (AllActions.innovation.name in effects.countDowns) {
@@ -695,7 +697,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         else {
             // State tracking
             progressState += Math.round(progressGain);
-            qualityState += Math.round(qualityGain);
+            qualityState += Math.floor(qualityGain); // Quality is floored at final stage
             durabilityState -= durabilityCost;
             cpState -= action.cpCost;
 
