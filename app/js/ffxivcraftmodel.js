@@ -48,35 +48,41 @@ function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions) {
 Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship) {
     var levelCorrectionFactor = 0;
 
+    if (levelDifference < -9) {
+        levelDifference = -9;
+    }
+
     if ((levelDifference < -5)) {
-        levelCorrectionFactor = 0.0152 * levelDifference;
+        levelCorrectionFactor = 0.0501 * levelDifference;
     }
     else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
         levelCorrectionFactor = 0.10 * levelDifference;
     }
     else if ((0 < levelDifference) && (levelDifference <= 5)) {
-        levelCorrectionFactor = 0.05 * levelDifference;
+        levelCorrectionFactor = 0.0501 * levelDifference;
     }
     else if ((5 < levelDifference) && (levelDifference <= 15)) {
         levelCorrectionFactor = 0.022 * levelDifference + 0.15;
     }
     else {
-        levelCorrectionFactor = 0.0033 * levelDifference + 0.43;
+        levelCorrectionFactor = 0.00134 * levelDifference + 0.466;
     }
 
-    var baseProgress = 0.21 * craftsmanship + 1.6;
+    var baseProgress = 0.209 * craftsmanship + 2.51;
     var levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor);
 
-    return Math.round(levelCorrectedProgress);
+    return Math.floor(levelCorrectedProgress);
 };
 
 Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control) {
     var levelCorrectionFactor = 0;
-    if (levelDifference < -20) {
-        levelCorrectionFactor = 0.02867 * levelDifference;
+
+    if (levelDifference < -9) {
+        levelDifference = -9;
     }
-    else if (-20 <= levelDifference && levelDifference < -5) {
-        levelCorrectionFactor = 0.02867 * levelDifference;
+
+    if (levelDifference < -5) {
+        levelCorrectionFactor = 0.0297 * levelDifference;
     }
     else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
         levelCorrectionFactor = 0.05 * levelDifference;
@@ -86,18 +92,10 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     }
 
     var baseQuality = 0;
-    if (levelDifference < -20) {
-        baseQuality = 0.6642 * control + 41.80;
-    }
-    else if (-20 <= levelDifference && levelDifference < -5) {
-        baseQuality = 0.6642 * control + 41.80;
-    }
-    else {
-        baseQuality = 0.36 * control + 34;
-    }
+    baseQuality = 0.374 * control + 31.2;
     var levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
 
-    return Math.round(levelCorrectedQuality);
+    return Math.floor(levelCorrectedQuality);
 };
 
 function Action(shortName, name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level) {
