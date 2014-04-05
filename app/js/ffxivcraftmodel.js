@@ -228,17 +228,39 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
-        if ((AllActions.ingenuity2.name in effects.countDowns) && (levelDifference < -20) && (synth.crafter.level == 50)) {
-            levelDifference = levelDifference + 20;
-        }
-        else if (AllActions.ingenuity2.name in effects.countDowns) {
-            levelDifference = 3;
-        }
-        else if ((AllActions.ingenuity.name in effects.countDowns) && (levelDifference < -20) && (synth.crafter.level == 50)) {
-            levelDifference = levelDifference + 10;
+        if (AllActions.ingenuity2.name in effects.countDowns) {
+            if (synth.crafter.level == 50) {
+                if (levelDifference < -20) {
+                    levelDifference = -6;
+                }
+                else if (-20 <= levelDifference && levelDifference <= -5) {
+                    levelDifference = 3;
+                }
+                else {
+                    levelDifference = levelDifference + 8; // Patch 2.2. This is a guess.
+                }
+            }
+            else if (synth.crafter.level < 50) {
+                levelDifference = levelDifference + 8; // Patch 2.2. This is a guess.
+                //levelDifference = 3;
+            }
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
-            levelDifference = 0;
+            if (synth.crafter.level == 50) {
+                if (levelDifference < -20) {
+                    levelDifference = -8;
+                }
+                else if (-20 <= levelDifference && levelDifference <= -5) {
+                    levelDifference = 0;
+                }
+                else {
+                    levelDifference = levelDifference + 5; // Patch 2.2. This is a guess.
+                }
+            }
+            else if (synth.crafter.level < 50) {
+                levelDifference = levelDifference + 5; // Patch 2.2. Confirmed.
+                //levelDifference = 0;
+            }
         }
 
         var successProbability = action.successProbability;
@@ -526,17 +548,39 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
-        if ((AllActions.ingenuity2.name in effects.countDowns) && (levelDifference < -20) && (synth.crafter.level == 50)) {
-            levelDifference = levelDifference + 20;
-        }
-        else if (AllActions.ingenuity2.name in effects.countDowns) {
-            levelDifference = 3;
-        }
-        else if ((AllActions.ingenuity.name in effects.countDowns) && (levelDifference < -20) && (synth.crafter.level == 50)) {
-            levelDifference = levelDifference + 10;
+        if (AllActions.ingenuity2.name in effects.countDowns) {
+            if (synth.crafter.level == 50) {
+                if (levelDifference < -20) {
+                    levelDifference = -6;
+                }
+                else if (-20 <= levelDifference && levelDifference <= -5) {
+                    levelDifference = 3;
+                }
+                else {
+                    levelDifference = levelDifference + 8; // Patch 2.2. This is a guess.
+                }
+            }
+            else if (synth.crafter.level < 50) {
+                levelDifference = levelDifference + 8; // Patch 2.2. This is a guess.
+                //levelDifference = 3;
+            }
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
-            levelDifference = 0;
+            if (synth.crafter.level == 50) {
+                if (levelDifference < -20) {
+                    levelDifference = -8;
+                }
+                else if (-20 <= levelDifference && levelDifference <= -5) {
+                    levelDifference = 0;
+                }
+                else {
+                    levelDifference = levelDifference + 5; // Patch 2.2. This is a guess.
+                }
+            }
+            else if (synth.crafter.level < 50) {
+                levelDifference = levelDifference + 5; // Patch 2.2. Confirmed.
+                //levelDifference = 0;
+            }
         }
 
         if (AllActions.steadyHand2.name in effects.countDowns) {
