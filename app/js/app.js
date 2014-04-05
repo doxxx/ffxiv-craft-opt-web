@@ -1,7 +1,7 @@
 'use strict';
 
 // Declare app level module which depends on filters, and services
-var app = angular.module('ffxivCraftOptWeb', [
+angular.module('ffxivCraftOptWeb', [
   'ngTouch',
   'ui.bootstrap',
   'lvl.directives.dragdrop',

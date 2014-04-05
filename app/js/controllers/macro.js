@@ -1,17 +1,16 @@
-var controllers = angular.module('ffxivCraftOptWeb.controllers');
-
-controllers.controller('MacroCtrl', function($scope, $modalInstance, allActions, sequence) {
-  $scope.waitTime = 3;
-  $scope.macros = createMacros(allActions, sequence, $scope.waitTime);
-
-  $scope.$watch('waitTime', function() {
+angular.module('ffxivCraftOptWeb.controllers')
+  .controller('MacroCtrl', function ($scope, $modalInstance, allActions, sequence) {
+    $scope.waitTime = 3;
     $scope.macros = createMacros(allActions, sequence, $scope.waitTime);
-  });
 
-  $scope.close = function() {
-    $modalInstance.dismiss('close');
-  }
-});
+    $scope.$watch('waitTime', function () {
+      $scope.macros = createMacros(allActions, sequence, $scope.waitTime);
+    });
+
+    $scope.close = function () {
+      $modalInstance.dismiss('close');
+    }
+  });
 
 function createMacros(allActions, actions, waitTime, insertTricks) {
   if (typeof actions == 'undefined') {
@@ -44,14 +43,14 @@ function createMacros(allActions, actions, waitTime, insertTricks) {
     macroString += lines[j];
     var step = j + 1;
     if (step % maxLines == 0) {
-      macroString += '/echo Macro step ' + step/maxLines + ' complete <se.1>\n';
+      macroString += '/echo Macro step ' + step / maxLines + ' complete <se.1>\n';
       macros.push(macroString);
       macroString = '';
     }
   }
 
   if (macroString !== '') {
-    macroString += '/echo Macro step ' + Math.ceil(lines.length/maxLines) + ' complete <se.1>\n';
+    macroString += '/echo Macro step ' + Math.ceil(lines.length / maxLines) + ' complete <se.1>\n';
     macros.push(macroString)
   }
 
