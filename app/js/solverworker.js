@@ -5,6 +5,7 @@ importScripts('../lib/yagal/tools.js');
 importScripts('../lib/yagal/fitness.js');
 importScripts('../lib/yagal/toolbox.js');
 importScripts('../lib/yagal/algorithms.js');
+importScripts('seededrandom.js');
 
 self.onmessage = function(e) {
   var settings = e.data;
@@ -88,9 +89,13 @@ self.onmessage = function(e) {
     }
   };
 
+  if (typeof settings.seed === 'number') {
+    Math.seed = settings.seed;
+  }
+
   var startTime = Date.now();
 
-  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(settings.seed, synth.useConditions));
+  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(Math.seed, synth.useConditions));
 
   logOutput.write("Genetic Algorithm Result\n");
   logOutput.write("========================\n");

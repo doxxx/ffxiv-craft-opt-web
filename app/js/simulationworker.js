@@ -1,5 +1,6 @@
 importScripts('../lib/string/String.js');
 importScripts('ffxivcraftmodel.js');
+importScripts('seededrandom.js');
 
 self.onmessage = function(e) {
   var settings = e.data;
@@ -36,7 +37,11 @@ self.onmessage = function(e) {
     }
   };
 
-  logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(settings.seed, synth.useConditions));
+  if (typeof settings.seed === 'number') {
+    Math.seed = settings.seed;
+  }
+
+  logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(Math.seed, synth.useConditions));
 
   logOutput.write("Probabilistic Result\n");
   logOutput.write("====================\n");
