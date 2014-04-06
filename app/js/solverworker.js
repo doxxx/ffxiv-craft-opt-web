@@ -88,6 +88,8 @@ self.onmessage = function(e) {
     }
   };
 
+  var startTime = Date.now();
+
   logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(settings.seed, synth.useConditions));
 
   logOutput.write("Genetic Algorithm Result\n");
@@ -102,6 +104,10 @@ self.onmessage = function(e) {
   logOutput.write("==================\n");
 
   MonteCarloSim(best, synth, settings.maxMontecarloRuns, settings.seed, false, false, logOutput);
+
+  var elapsedTime = Date.now() - startTime;
+
+  logOutput.write("\nElapsed time: %d ms".sprintf(elapsedTime));
 
   var result = {
     success: {
