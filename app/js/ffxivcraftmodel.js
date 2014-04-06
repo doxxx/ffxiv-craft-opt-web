@@ -236,12 +236,11 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
                     levelDifference = 3;
                 }
                 else {
-                    levelDifference = levelDifference + 8; // Patch 2.2. This is a guess.
+                    levelDifference = levelDifference + 7; // Patch 2.2. This is a guess.
                 }
             }
             else if (synth.crafter.level < 50) {
-                levelDifference = levelDifference + 8; // Patch 2.2. This is a guess.
-                //levelDifference = 3;
+                levelDifference = levelDifference + 7; // Patch 2.2. Confirmed.
             }
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
@@ -555,12 +554,11 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
                     levelDifference = 3;
                 }
                 else {
-                    levelDifference = levelDifference + 8; // Patch 2.2. This is a guess.
+                    levelDifference = levelDifference + 7; // Patch 2.2. This is a guess.
                 }
             }
             else if (synth.crafter.level < 50) {
-                levelDifference = levelDifference + 8; // Patch 2.2. This is a guess.
-                //levelDifference = 3;
+                levelDifference = levelDifference + 7; // Patch 2.2. Confirmed.
             }
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
