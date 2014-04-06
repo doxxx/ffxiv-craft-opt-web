@@ -361,6 +361,13 @@
                             <input class="input-small" type="number" name="seed" ng-model="sequenceSettings.seed" ng-disabled="!sequenceSettings.specifySeed" min="0" ng-required="sequenceSettings.specifySeed"/>
                           </div>
                         </div>
+                        <div class="control-group">
+                          <div class="controls">
+                            <label class="checkbox">
+                              <input type="checkbox" name="useConditions" ng-model="sequenceSettings.useConditions"/>Use Conditions
+                            </label>
+                          </div>
+                        </div>
                       </div>
                     </form>
                   </div>

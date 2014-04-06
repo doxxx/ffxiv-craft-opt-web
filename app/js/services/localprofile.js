@@ -4,17 +4,27 @@ var LocalProfileService = function(_allClasses) {
   this.synths = JSON.parse(localStorage['synths'] || '{}');
 
   var modified = false;
+  var name;
 
   if (Object.keys(this.synths).length == 0) {
     var oldSavedSettings = localStorage['savedSettings'];
     if (oldSavedSettings) {
       // Import old saved settings as synths
       oldSavedSettings = JSON.parse(oldSavedSettings);
-      for (var name in oldSavedSettings) {
+      for (name in oldSavedSettings) {
         this.synths[name] = oldSavedSettings[name];
       }
       modified = true;
       localStorage.removeItem('savedSettings');
+    }
+  }
+
+  // Upgrade existing synths with new settings
+  for (name in this.synths) {
+    var synth = this.synths[name];
+    if (synth.sequenceSettings.useConditions === undefined) {
+      synth.sequenceSettings.useConditions = true;
+      modified = true;
     }
   }
 

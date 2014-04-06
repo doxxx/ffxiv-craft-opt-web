@@ -422,7 +422,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         sequence: $scope.sequence,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent
+        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
+        useConditions: $scope.sequenceSettings.useConditions
       };
       if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
@@ -468,6 +469,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
+        useConditions: $scope.sequenceSettings.useConditions,
         solver: $scope.solver
       };
       if ($scope.sequenceSettings.specifySeed) {
@@ -545,6 +547,10 @@ function loadLocalPageState($scope) {
     if (!$scope.sequenceSettings.reliabilityPercent) {
       $scope.sequenceSettings.reliabilityPercent = 100;
     }
+
+    if ($scope.sequenceSettings.useConditions === undefined) {
+      $scope.sequenceSettings.useConditions = true;
+    }
   }
   else {
     $scope.sequenceSettings = {
@@ -552,7 +558,8 @@ function loadLocalPageState($scope) {
       maxMontecarloRuns: 500,
       reliabilityPercent: 100,
       specifySeed: false,
-      seed: 1337
+      seed: 1337,
+      useConditions: true
     }
   }
 
