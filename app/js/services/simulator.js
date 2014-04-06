@@ -11,6 +11,10 @@ SimulationService.prototype.start = function(settings, success, error) {
     error({log: '', error: 'empty sequence'});
     return;
   }
+  if (settings.crafter.level < 50 && settings.recipe.level - settings.crafter.level > 5) {
+    error({log: '', error: 'too low level'});
+    return;
+  }
   var worker = this.worker = new Worker('js/simulationworker.js');
   var self = this;
   worker.onmessage = function(e) {
