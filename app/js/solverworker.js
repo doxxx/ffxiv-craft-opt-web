@@ -63,8 +63,15 @@ self.onmessage = function(e) {
 
   var hof = new yagal_tools.HallOfFame(1);
 
+  var logOutput = {
+    log: '',
+    write: function(msg) {
+      logOutput.log += msg;
+    }
+  };
+
   function feedback(gen, best) {
-    var currentState = simSynth(best, synth, false, false);
+    var currentState = simSynth(best, synth, false, false, logOutput);
     self.postMessage({
       progress: {
         generationsCompleted: gen,
@@ -82,13 +89,6 @@ self.onmessage = function(e) {
     });
   }
 
-  var logOutput = {
-    log: '',
-    write: function(msg) {
-      logOutput.log += msg;
-    }
-  };
-
   if (typeof settings.seed === 'number') {
     Math.seed = settings.seed;
   }
@@ -103,12 +103,18 @@ self.onmessage = function(e) {
   yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
 
   var best = hof.entries[0];
-  var finalState = simSynth(best, synth, true, false, logOutput);
+  var finalState = simSynth(best, synth, true, settings.debug, logOutput);
 
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
 
-  MonteCarloSim(best, synth, settings.maxMontecarloRuns, settings.seed, false, false, logOutput);
+  MonteCarloSim(best, synth, settings.maxMontecarloRuns, settings.seed, false, settings.debug, logOutput);
+
+  if (settings.debug) {
+    logOutput.write("\nMonte Carlo Example");
+    logOutput.write("\n===================\n");
+    MonteCarloSynth(best, synth, false, true, logOutput);
+  }
 
   var elapsedTime = Date.now() - startTime;
 

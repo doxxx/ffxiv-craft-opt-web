@@ -46,12 +46,18 @@ self.onmessage = function(e) {
   logOutput.write("Probabilistic Result\n");
   logOutput.write("====================\n");
 
-  var finalState = simSynth(sequence, synth, true, false, logOutput);
+  var finalState = simSynth(sequence, synth, true, settings.debug, logOutput);
 
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
 
-  MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, settings.seed, false, false, logOutput);
+  MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, settings.seed, false, settings.debug, logOutput);
+
+  if (settings.debug) {
+    logOutput.write("\nMonte Carlo Example");
+    logOutput.write("\n===================\n");
+    MonteCarloSynth(sequence, synth, false, true, logOutput);
+  }
 
   var result = {
     success: {
