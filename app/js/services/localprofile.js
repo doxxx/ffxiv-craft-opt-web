@@ -3,7 +3,7 @@
 var LocalProfileService = function(_allClasses) {
   this.synths = JSON.parse(localStorage['synths'] || '{}');
 
-  var importedOldSettings = false;
+  var modified = false;
 
   if (Object.keys(this.synths).length == 0) {
     var oldSavedSettings = localStorage['savedSettings'];
@@ -13,7 +13,8 @@ var LocalProfileService = function(_allClasses) {
       for (var name in oldSavedSettings) {
         this.synths[name] = oldSavedSettings[name];
       }
-      importedOldSettings = true;
+      modified = true;
+      localStorage.removeItem('savedSettings');
     }
   }
 
@@ -26,7 +27,8 @@ var LocalProfileService = function(_allClasses) {
       // Import old crafter stats
       oldCrafterSettings = JSON.parse(oldCrafterSettings);
       this.crafterStats = oldCrafterSettings.stats;
-      importedOldSettings = true;
+      modified = true;
+      localStorage.removeItem('settings.crafter');
     }
     else {
       // Initialize default stats
@@ -47,10 +49,8 @@ var LocalProfileService = function(_allClasses) {
     }
   }
 
-  if (importedOldSettings) {
+  if (modified) {
     this.persist();
-    localStorage.removeItem('savedSettings');
-    localStorage.removeItem('settings.crafter');
   }
 };
 
