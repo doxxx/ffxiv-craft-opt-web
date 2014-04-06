@@ -1,0 +1,17 @@
+{
+  "author": "Gordon Tyler",
+  "name": "ffxiv-craft-opt-web",
+  "description": "FFXIV Crafting Optimizer Website",
+  "version": "0.0.1",
+  "homepage": "http://ffxiv.lokyst.net",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:doxxx/ffxiv-craft-opt-web.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "asset-cache": ">= 0.0.6"
+  }
+}

@@ -10,7 +10,9 @@ and [Bootstrap](http://getbootstrap.com/).
 You can pick one of these options:
 
 * serve this repository with your webserver
-* install node.js and run `scripts/web-server.js`
+* install node.js and run:
+  * `npm install`
+  * `node scripts/web-server.js`
 
 Then navigate your browser to `http://localhost:<port>/app/index.html` to see the app running in
 your browser.
