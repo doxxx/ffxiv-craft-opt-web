@@ -71,31 +71,41 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     var baseProgress = 0.209 * craftsmanship + 2.51;
     var levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor);
 
-    return Math.floor(levelCorrectedProgress);
+    return levelCorrectedProgress;
 };
 
-Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control) {
+Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, recipeLevel) {
     var levelCorrectionFactor = 0;
 
-    if (levelDifference < -9) {
-        levelDifference = -9;
+    // Max penalty still appears to be -5 in Patch 2.2
+    if (levelDifference < -5) {
+        levelDifference = -5;
     }
 
-    if (levelDifference < -5) {
-        levelCorrectionFactor = 0.0297 * levelDifference;
-    }
-    else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
-        levelCorrectionFactor = 0.05 * levelDifference;
+    if (recipeLevel > 50) {
+        if (levelDifference <= -5) {
+            levelCorrectionFactor = 0.05367 * levelDifference;
+        }
+        else {
+            //if levelDifference > -5
+            // Ingenuity does not quite reduce LDiff to 0
+            levelCorrectionFactor = 0.05022 * -0.48;
+        }
     }
     else {
-        levelCorrectionFactor = 0;
+        if (levelDifference < 0) {
+            levelCorrectionFactor = 0.05022 * levelDifference;
+        }
+        else {
+            levelCorrectionFactor = 0;
+        }
     }
 
     var baseQuality = 0;
-    baseQuality = 0.374 * control + 31.2;
+    baseQuality = 3.43e-5 * control * control + 0.3511 * control + 34.81;
     var levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
 
-    return Math.floor(levelCorrectedQuality);
+    return levelCorrectedQuality;
 };
 
 function Action(shortName, name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level) {
@@ -293,7 +303,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
         var progressGain = successProbability * bProgressGain;
 
-        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control);
+        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
         var qualityGain = successProbability * bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
@@ -542,7 +552,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             control += 0.5 * synth.crafter.control;
 
         }
-        
+
         // Control is floored before display based on IQ incremental observations
         control = Math.floor(control);
 
@@ -666,7 +676,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         }
         var progressGain = success * bProgressGain;
 
-        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control);
+        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
         var qualityGain = success * bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
@@ -681,6 +691,10 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             reliability = reliability * successProbability;
         }
 
+        // All gains are floored at final stage
+        progressGain = Math.floor(progressGain);
+        qualityGain = Math.floor(qualityGain);
+
         // Occur if a dummy action
         //==================================
         if ((progressState >= synth.recipe.difficulty || durabilityState <= 0 || cpState < 0) && action != AllActions.dummyAction) {
@@ -691,8 +705,8 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         //==================================
         else {
             // State tracking
-            progressState += Math.round(progressGain);
-            qualityState += Math.floor(qualityGain); // Quality is floored at final stage
+            progressState += progressGain;
+            qualityState += qualityGain;
             durabilityState -= durabilityCost;
             cpState -= action.cpCost;
 
@@ -785,7 +799,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             if (AllActions.innerQuiet.name in effects.countUps) {
                 iqCnt = effects.countUps[AllActions.innerQuiet.name];
             }
-            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
+            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.1f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
         }
         else if (verbose) {
             logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions);
