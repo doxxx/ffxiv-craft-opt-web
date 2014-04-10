@@ -219,11 +219,11 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         var craftsmanship = synth.crafter.craftsmanship;
         var control = synth.crafter.control;
         if (AllActions.innerQuiet.name in effects.countUps) {
-            control *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
+            control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
         }
 
         if (AllActions.innovation.name in effects.countDowns) {
-            control *= 1.5;
+            control += 0.5 * synth.crafter.control;
         }
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
@@ -535,14 +535,16 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
         var craftsmanship = synth.crafter.craftsmanship;
         var control = synth.crafter.control;
         if (AllActions.innerQuiet.name in effects.countUps) {
-            control *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
-            // Control is floored before display based on IQ incremental observations
-            control = Math.floor(control);
+            control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
         }
 
         if (AllActions.innovation.name in effects.countDowns) {
-            control *= 1.5;
+            control += 0.5 * synth.crafter.control;
+
         }
+        
+        // Control is floored before display based on IQ incremental observations
+        control = Math.floor(control);
 
         var levelDifference = synth.crafter.level - synth.recipe.level;
         if (AllActions.ingenuity2.name in effects.countDowns) {
