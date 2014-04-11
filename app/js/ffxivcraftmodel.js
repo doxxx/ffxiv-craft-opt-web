@@ -841,8 +841,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     return finalState;
 }
 
-function MonteCarloSim(individual, synth, nRuns, seed, verbose, debug, logOutput) {
-    seed = seed !== undefined ? seed : 0;
+function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : false;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;

@@ -5,6 +5,12 @@ importScripts('seededrandom.js');
 self.onmessage = function(e) {
   var settings = e.data;
 
+  var seed = Math.seed;
+  if (typeof settings.seed === 'number') {
+    seed = settings.seed;
+    Math.seed = seed;
+  }
+
   var crafterActions = [];
 
   for (var i = 0; i < settings.crafter.actions.length; i++) {
@@ -37,11 +43,7 @@ self.onmessage = function(e) {
     }
   };
 
-  if (typeof settings.seed === 'number') {
-    Math.seed = settings.seed;
-  }
-
-  logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(Math.seed, synth.useConditions));
+  logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(seed, synth.useConditions));
 
   logOutput.write("Probabilistic Result\n");
   logOutput.write("====================\n");
@@ -51,7 +53,7 @@ self.onmessage = function(e) {
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
 
-  MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, settings.seed, false, settings.debug, logOutput);
+  MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
 
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");

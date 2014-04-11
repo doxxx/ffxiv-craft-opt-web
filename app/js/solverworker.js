@@ -1,3 +1,4 @@
+importScripts('seededrandom.js');
 importScripts('../lib/string/String.js');
 importScripts('ffxivcraftmodel.js');
 importScripts('../lib/yagal/creator.js');
@@ -5,10 +6,15 @@ importScripts('../lib/yagal/tools.js');
 importScripts('../lib/yagal/fitness.js');
 importScripts('../lib/yagal/toolbox.js');
 importScripts('../lib/yagal/algorithms.js');
-importScripts('seededrandom.js');
 
 self.onmessage = function(e) {
   var settings = e.data;
+
+  var seed = Math.seed;
+  if (typeof settings.seed === 'number') {
+    seed = settings.seed;
+    Math.seed = seed;
+  }
 
   var crafterActions = [];
 
@@ -89,13 +95,9 @@ self.onmessage = function(e) {
     });
   }
 
-  if (typeof settings.seed === 'number') {
-    Math.seed = settings.seed;
-  }
-
   var startTime = Date.now();
 
-  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(Math.seed, synth.useConditions));
+  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(seed, synth.useConditions));
 
   logOutput.write("Genetic Algorithm Result\n");
   logOutput.write("========================\n");
@@ -108,7 +110,7 @@ self.onmessage = function(e) {
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
 
-  MonteCarloSim(best, synth, settings.maxMontecarloRuns, settings.seed, false, settings.debug, logOutput);
+  MonteCarloSim(best, synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
 
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");
