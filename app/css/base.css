@@ -38,3 +38,10 @@ footer p {
     padding-right: 20px;
   }
 }
+
+/* Disable tooltips for iPad/iPhone */
+@media (max-device-width: 768px) {
+  .tooltip {
+    visibility: hidden;
+  }
+}
