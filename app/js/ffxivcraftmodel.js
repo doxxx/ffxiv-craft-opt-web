@@ -84,17 +84,17 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
 
     if (recipeLevel > 50) {
         if (levelDifference <= -5) {
-            levelCorrectionFactor = 0.05367 * levelDifference;
+            levelCorrectionFactor = 0.05374 * levelDifference;
         }
         else {
             //if levelDifference > -5
             // Ingenuity does not quite reduce LDiff to 0
-            levelCorrectionFactor = 0.05022 * -0.48;
+            levelCorrectionFactor = 0.05 * -0.5;
         }
     }
     else {
         if (levelDifference < 0) {
-            levelCorrectionFactor = 0.05022 * levelDifference;
+            levelCorrectionFactor = 0.05 * levelDifference;
         }
         else {
             levelCorrectionFactor = 0;
@@ -102,7 +102,7 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     }
 
     var baseQuality = 0;
-    baseQuality = 3.43e-5 * control * control + 0.3511 * control + 34.81;
+    baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
     var levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
 
     return levelCorrectedQuality;
