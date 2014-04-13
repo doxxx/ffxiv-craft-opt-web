@@ -47,10 +47,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       text: ''
     };
 
-    $scope.otherSettings = {
-      simDebug: false
-    };
-
     $scope.simulatorStatus = {
       logText: '',
       state: null,
@@ -428,7 +424,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
-        debug: $scope.otherSettings.simDebug
+        debug: $scope.sequenceSettings.debug
       };
       if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
@@ -476,7 +472,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
         solver: $scope.solver,
-        debug: $scope.otherSettings.simDebug
+        debug: $scope.sequenceSettings.debug
       };
       if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
@@ -535,7 +531,8 @@ function initPageStateDefaults($scope) {
     reliabilityPercent: 100,
     specifySeed: false,
     seed: 1337,
-    useConditions: true
+    useConditions: true,
+    debug: false
   };
 
   $scope.solver = {
