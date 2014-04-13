@@ -301,10 +301,10 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         else if (isActionEq(action, AllActions.pieceByPiece)) {
             bProgressGain = (synth.recipe.difficulty - progressState)/3;
         }
-        var progressGain = successProbability * bProgressGain;
+        var progressGain = bProgressGain;
 
         var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
-        var qualityGain = successProbability * bQualityGain;
+        var qualityGain = bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
         }
@@ -317,6 +317,10 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         if (progressGain > 0) {
             reliability = reliability * successProbability;
         }
+
+        // Floor gains at final stage before calculating expected value
+        progressGain = successProbability * Math.floor(progressGain);
+        qualityGain = successProbability * Math.floor(qualityGain);
 
         // Occur if a wasted action
         //==================================
@@ -430,7 +434,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             if (AllActions.innerQuiet.name in effects.countUps) {
                 iqCnt = effects.countUps[AllActions.innerQuiet.name];
             }
-            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
+            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.1f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
         }
         else if (verbose) {
             logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions);
