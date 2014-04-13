@@ -501,8 +501,48 @@ angular.module('ffxivCraftOptWeb.controllers', [])
   });
 
 function loadLocalPageState($scope) {
+  initPageStateDefaults($scope);
   if (loadLocalPageState_v2($scope)) return;
   loadLocalPageState_v1($scope);
+}
+
+function initPageStateDefaults($scope) {
+  $scope.sections = {
+    crafter: true,
+    synth: true,
+    simulator: true,
+    simulatorOptions: false
+  };
+
+  $scope.settings = {
+    name: ''
+  };
+
+  $scope.crafter = {
+    cls: $scope.allClasses[0],
+    stats: {}
+  };
+
+  $scope.bonusStats = newBonusStats();
+
+  $scope.recipe = newRecipeStats($scope);
+
+  $scope.sequence = [];
+
+  $scope.sequenceSettings = {
+    maxTricksUses: 0,
+    maxMontecarloRuns: 500,
+    reliabilityPercent: 100,
+    specifySeed: false,
+    seed: 1337,
+    useConditions: true
+  };
+
+  $scope.solver = {
+    penaltyWeight: 10000,
+    population: 300,
+    generations: 100
+  };
 }
 
 function loadLocalPageState_v2($scope) {
@@ -510,18 +550,16 @@ function loadLocalPageState_v2($scope) {
 
   var state = JSON.parse(localStorage['pageStage_v2']);
 
-  $scope.sections = state.sections;
-  $scope.bonusStats = state.bonusStats;
-  $scope.recipe = state.recipe;
-  $scope.sequence = state.sequence;
-  $scope.sequenceSettings = state.sequenceSettings;
-  $scope.solver = state.solver;
+  extend($scope.sections, state.sections);
+  extend($scope.bonusStats, state.bonusStats);
+  extend($scope.recipe, state.recipe);
+  extend($scope.sequenceSettings, state.sequenceSettings);
+  extend($scope.solver, state.solver);
 
-  $scope.settings = { name: state.settingsName };
-  $scope.crafter = {
-    cls: state.crafterClass,
-    stats: {}
-  };
+  $scope.sequence = state.sequence;
+
+  $scope.settings.name = state.settingsName;
+  $scope.crafter.cls = state.crafterClass;
 
   return true;
 }
@@ -529,82 +567,40 @@ function loadLocalPageState_v2($scope) {
 function loadLocalPageState_v1($scope) {
   var sections = localStorage['sections'];
   if (sections) {
-    $scope.sections = JSON.parse(sections);
-  }
-  else {
-    $scope.sections = {
-      crafter: true,
-      synth: true,
-      simulator: true,
-      simulatorOptions: false
-    };
+    extend($scope.sections, JSON.parse(sections));
   }
 
-  $scope.settings = { name: localStorage['settingsName'] || '' };
+  if (localStorage['settingsName']) {
+    $scope.settings.name = localStorage['settingsName'];
+  }
 
-  $scope.crafter = {
-    cls: localStorage['crafterClass'] || $scope.allClasses[0],
-    stats: {}
-  };
+  if (localStorage['crafterClass']) {
+    $scope.crafter.cls = localStorage['crafterClass'];
+  }
 
   var bonusStats = localStorage['settings.bonusStats'];
   if (bonusStats) {
-    $scope.bonusStats = JSON.parse(bonusStats);
-  }
-  else {
-    $scope.bonusStats = newBonusStats();
+    extend($scope.bonusStats, JSON.parse(bonusStats));
   }
 
   var recipe = localStorage['settings.recipe'];
   if (recipe) {
-    $scope.recipe = JSON.parse(recipe);
-  }
-  else {
-    $scope.recipe = newRecipeStats($scope);
+    extend($scope.recipe, JSON.parse(recipe));
   }
 
   var sequence = localStorage['settings.sequence'];
   if (sequence) {
     $scope.sequence = JSON.parse(sequence);
   }
-  else {
-    $scope.sequence = [];
-  }
 
   var sequenceSettings = localStorage['settings.sequenceSettings'];
   if (sequenceSettings) {
-    $scope.sequenceSettings = JSON.parse(sequenceSettings);
-
-    // Backwards compatibility with version 3
-    if (!$scope.sequenceSettings.reliabilityPercent) {
-      $scope.sequenceSettings.reliabilityPercent = 100;
-    }
-
-    if ($scope.sequenceSettings.useConditions === undefined) {
-      $scope.sequenceSettings.useConditions = true;
-    }
-  }
-  else {
-    $scope.sequenceSettings = {
-      maxTricksUses: 0,
-      maxMontecarloRuns: 500,
-      reliabilityPercent: 100,
-      specifySeed: false,
-      seed: 1337,
-      useConditions: true
-    }
+    extend($scope.sequenceSettings, JSON.parse(sequenceSettings));
   }
 
   var solver = localStorage['settings.solver'];
   if (solver) {
-    $scope.solver = JSON.parse(solver);
-  }
-  else {
-    $scope.solver = {
-      penaltyWeight: 10000,
-      population: 300,
-      generations: 100
-    };
+    extend($scope.solver, JSON.parse(solver));
   }
 
   return true;
@@ -649,6 +645,30 @@ function saveToLocalStorage(name, value) {
   }
   else {
     localStorage[name] = JSON.stringify(value);
+  }
+}
+
+function extend(dest, src) {
+  if (dest === null || dest === undefined) {
+    throw 'cannot extend null or undefined object';
+  }
+  if (src === null || src === undefined) {
+    throw 'cannot extend object with null or undefined object';
+  }
+  for (var p in src) {
+    var v = src[p];
+    if (v !== undefined && v !== null) {
+      var o = dest[p];
+      if (o === null || o === undefined) {
+        dest[p] = v;
+      }
+      else if (typeof o == 'object' && typeof v == 'object') {
+        extend(dest[p], v);
+      }
+      else {
+        dest[p] = v;
+      }
+    }
   }
 }
 
