@@ -501,7 +501,29 @@ angular.module('ffxivCraftOptWeb.controllers', [])
   });
 
 function loadLocalPageState($scope) {
+  if (loadLocalPageState_v2($scope)) return;
   loadLocalPageState_v1($scope);
+}
+
+function loadLocalPageState_v2($scope) {
+  if (localStorage['pageStage_v2'] === undefined) return false;
+
+  var state = JSON.parse(localStorage['pageStage_v2']);
+
+  $scope.sections = state.sections;
+  $scope.bonusStats = state.bonusStats;
+  $scope.recipe = state.recipe;
+  $scope.sequence = state.sequence;
+  $scope.sequenceSettings = state.sequenceSettings;
+  $scope.solver = state.solver;
+
+  $scope.settings = { name: state.settingsName };
+  $scope.crafter = {
+    cls: state.crafterClass,
+    stats: {}
+  };
+
+  return true;
 }
 
 function loadLocalPageState_v1($scope) {
@@ -589,7 +611,22 @@ function loadLocalPageState_v1($scope) {
 }
 
 function saveLocalPageState($scope) {
-  saveLocalPageState_v1($scope);
+  saveLocalPageState_v2($scope);
+}
+
+function saveLocalPageState_v2($scope) {
+  var state = {
+    sections: $scope.sections,
+    bonusStats: $scope.bonusStats,
+    recipe: $scope.recipe,
+    sequence: $scope.sequence,
+    sequenceSettings: $scope.sequenceSettings,
+    solver: $scope.solver,
+    settingsName: $scope.settings.name,
+    crafterClass: $scope.crafter.cls
+  };
+
+  localStorage['pageStage_v2'] = JSON.stringify(state)
 }
 
 function saveLocalPageState_v1($scope) {
