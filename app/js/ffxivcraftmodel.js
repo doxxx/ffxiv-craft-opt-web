@@ -401,7 +401,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             }
 
             // Increment countups
-            if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in effects.countUps)) {
+            if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in effects.countUps) && effects.countUps[AllActions.innerQuiet.name] < 10) {
                 effects.countUps[AllActions.innerQuiet.name] += 1 * successProbability;
             }
 
@@ -770,7 +770,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             }
 
             // Increment countups
-            if (action.qualityIncreaseMultiplier > 0 && AllActions.innerQuiet.name in effects.countUps) {
+            if (action.qualityIncreaseMultiplier > 0 && AllActions.innerQuiet.name in effects.countUps && effects.countUps[AllActions.innerQuiet.name] < 10) {
                 effects.countUps[AllActions.innerQuiet.name] += 1 * success;
             }
 
