@@ -501,6 +501,10 @@ angular.module('ffxivCraftOptWeb.controllers', [])
   });
 
 function loadLocalPageState($scope) {
+  loadLocalPageState_v1($scope);
+}
+
+function loadLocalPageState_v1($scope) {
   var sections = localStorage['sections'];
   if (sections) {
     $scope.sections = JSON.parse(sections);
@@ -585,16 +589,30 @@ function loadLocalPageState($scope) {
 }
 
 function saveLocalPageState($scope) {
-  localStorage['sections'] = JSON.stringify($scope.sections);
+  saveLocalPageState_v1($scope);
+}
+
+function saveLocalPageState_v1($scope) {
+  saveToLocalStorage('sections', $scope.sections);
+  saveToLocalStorage('settings.bonusStats', $scope.bonusStats);
+  saveToLocalStorage('settings.recipe', $scope.recipe);
+  saveToLocalStorage('settings.sequence', $scope.sequence);
+  saveToLocalStorage('settings.sequenceSettings', $scope.sequenceSettings);
+  saveToLocalStorage('settings.solver', $scope.solver);
+
   localStorage['settingsName'] = $scope.settings.name;
   localStorage['crafterClass'] = $scope.crafter.cls;
-  localStorage['settings.bonusStats'] = JSON.stringify($scope.bonusStats);
-  localStorage['settings.recipe'] = JSON.stringify($scope.recipe);
-  localStorage['settings.sequence'] = JSON.stringify($scope.sequence);
-  localStorage['settings.sequenceSettings'] = JSON.stringify($scope.sequenceSettings);
-  localStorage['settings.solver'] = JSON.stringify($scope.solver);
 
   return true;
+}
+
+function saveToLocalStorage(name, value) {
+  if (value === undefined || value === null) {
+    console.error('Ignoring attempt to save an undefined or null value to local storage for setting: ' + name)
+  }
+  else {
+    localStorage[name] = JSON.stringify(value);
+  }
 }
 
 // attach the .equals method to Array's prototype to call it on any array
