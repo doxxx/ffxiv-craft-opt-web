@@ -142,7 +142,7 @@ function EffectTracker() {
     this.countDowns = {};
 }
 
-function State(step, action, durabilityState, cpState, qualityState, progressState, wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliabilityOk, crossClassActionList, effects, condition) {
+function State(step, action, durabilityState, cpState, qualityState, progressState, wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition) {
     this.step = step;
     this.action = action;
     this.durabilityState = durabilityState;
@@ -154,7 +154,7 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
     this.cpOk = cpOk;
     this.durabilityOk = durabilityOk;
     this.trickUses = trickUses;
-    this.reliabilityOk = reliabilityOk;
+    this.reliability = reliability;
     if (crossClassActionList === null) {
         this.crossClassActionList = {};
     }
@@ -207,7 +207,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
         return new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                           wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliabilityOk, crossClassActionList);
+                           wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList);
     }
 
     if (debug) {
@@ -468,7 +468,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     var lastAction = individual[individual.length-1];
 
     var finalState = new State(stepCount, lastAction.name, durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliabilityOk, crossClassActionList);
+                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList);
 
     if (debug) {
         logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
@@ -495,12 +495,10 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
     var stepCount = startState.step;
     var wastedActions = startState.wastedActions;
     var effects = startState.effects;
-    //var maxTricksUses = 0;
     var trickUses = startState.trickUses;
-    var reliability = 1; // *** REVIEW ***
+    var reliability = startState.reliability;
     var crossClassActionList = startState.crossClassActionList;
     var crossClassActionCounter = 0;
-    //var useConditions = synth.useConditions;
 
     var condition = startState.condition;
 
@@ -513,9 +511,7 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
     var cpOk = startState.cpOk;
     var durabilityOk = startState.durabilityOk;
     var trickOk = false;
-    var reliabilityOk = startState.reliabilityOk;
 
-    //var action = individual[i];
     stepCount += 1;
 
     // Add effect modifiers
@@ -758,10 +754,6 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
         durabilityOk = true;
     }
 
-    if (reliability >= synth.reliabilityIndex) {
-        reliabilityOk = true;
-    }
-
     // Ending condition
     if (condition === 'Excellent') {
         condition = 'Poor';
@@ -783,7 +775,7 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
     }
 
     var finalState = new State(stepCount, action.name, durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliabilityOk, crossClassActionList, effects, condition);
+                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
 
     return finalState;
 
@@ -823,10 +815,10 @@ function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
 
     // Initialize state variables
     var startState = new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliabilityOk, crossClassActionList, effects, condition);
+                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
 
     var finalState = new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliabilityOk, crossClassActionList, effects, condition);
+                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
 
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
@@ -872,6 +864,23 @@ function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
 
     for (var crossClassAction in finalState.crossClassActionList) {
         crossClassActionCounter += 1;
+    }
+
+    // Penalise failure outcomes *** REVIEW ***
+    if (finalState.progressState >= synth.recipe.difficulty) {
+        progressOk = true;
+    }
+
+    if (finalState.cpState >= 0) {
+        cpOk = true;
+    }
+
+    if (finalState.durabilityState >= -5 && finalState.progressState >= synth.recipe.difficulty) {
+        durabilityOk = true;
+    }
+
+    if (finalState.reliability >= synth.reliabilityIndex) {
+        reliabilityOk = true;
     }
 
     if (debug) {
@@ -923,7 +932,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
         return new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                           wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliabilityOk, crossClassActionList);
+                           wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList);
     }
 
     // Strip Tricks of the Trade from individual
@@ -1240,7 +1249,7 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
     }
 
     var finalState = new State(stepCount, individual[individual.length-1].name, durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliabilityOk, crossClassActionList);
+                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList);
 
     if (debug) {
         logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
@@ -1425,8 +1434,8 @@ function evalSeq(individual, mySynth, penaltyWeight) {
         penalties += Math.abs(result.trickUses - mySynth.maxTrickUses);
     }
 
-    if (!result.reliabilityOk) {
-        penalties += 1;
+    if (result.reliability < mySynth.reliabilityIndex) {
+        penalties += Math.abs(mySynth.reliabilityIndex - result.reliability);
     }
 
     var crossClassActionCounter = 0;
