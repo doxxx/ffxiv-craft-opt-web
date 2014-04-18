@@ -692,6 +692,9 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
             trickUses += 1;
             cpState += 20;
         }
+        else if (isActionEq(action, AllActions.tricksOfTheTrade) && cpState > 0) {
+            wastedActions += 1;
+        }
 
         // Decrement countdowns
         for (var countDown in effects.countDowns) {
@@ -781,14 +784,15 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
 
 }
 
-function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
+function MonteCarloSequence(individual, synth, overrideTotT, verbose, debug, logOutput) {
+    overrideTotT = overrideTotT !== undefined ? overrideTotT : true;
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
 
     var logger = new Logger(logOutput);
 
-    // State Tracking
+    // Initialize state values
     var durabilityState = synth.recipe.durability;
     var cpState = synth.crafter.craftPoints;
     var progressState = 0;
@@ -805,7 +809,7 @@ function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
 
     var condition = 'Normal';
 
-    // End state checks
+    // Intialize final state checks
     var progressOk = false;
     var cpOk = false;
     var durabilityOk = false;
@@ -826,16 +830,18 @@ function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
     }
 
     // Strip Tricks of the Trade from individual
-    var tempIndividual = [];
-    for (var i=0; i < individual.length; i++) {
-        if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
-            tempIndividual[tempIndividual.length] = individual[i];
+    if (overrideTotT) {
+        var tempIndividual = [];
+        for (var i=0; i < individual.length; i++) {
+            if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
+                tempIndividual[tempIndividual.length] = individual[i];
+            }
+            else {
+                maxTricksUses += 1;
+            }
         }
-        else {
-            maxTricksUses += 1;
-        }
+        individual = tempIndividual;
     }
-    individual = tempIndividual;
 
     if (debug) {
         logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
@@ -850,14 +856,18 @@ function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
     for (i=0; i < individual.length; i++) {
         var action = individual[i];
         startState = finalState;
-        // Manually re-add tricks of the trade when condition is good
-        if (finalState.condition == 'Good' && finalState.trickUses < maxTricksUses) {
-            finalState = MonteCarloStep(synth, startState, AllActions.tricksOfTheTrade, verbose, debug, logOutput);
-            startState = finalState;
+
+        if (overrideTotT) {
+            // Manually re-add tricks of the trade when condition is good
+            if (finalState.condition == 'Good' && finalState.trickUses < maxTricksUses) {
+                finalState = MonteCarloStep(synth, startState, AllActions.tricksOfTheTrade, verbose, debug, logOutput);
+                startState = finalState;
+            }
         }
         finalState = MonteCarloStep(synth, startState, action, verbose, debug, logOutput);
     }
 
+    // Penalise failure outcomes
     if (finalState.trickUses <= synth.maxTrickUses) {
         trickOk = true;
     }
@@ -866,7 +876,6 @@ function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
         crossClassActionCounter += 1;
     }
 
-    // Penalise failure outcomes *** REVIEW ***
     if (finalState.progressState >= synth.recipe.difficulty) {
         progressOk = true;
     }
@@ -884,10 +893,10 @@ function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
     }
 
     if (debug) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, finalState.wastedActions);
     }
     else if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, finalState.wastedActions);
     }
 
     return finalState;
@@ -1301,7 +1310,7 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
 
     logger.log('\nMonteCarloSequence');
 
-    MonteCarloSequence(individual, synth, false, true, logOutput);
+    MonteCarloSequence(individual, synth, true, false, true, logOutput);
 
 }
 
