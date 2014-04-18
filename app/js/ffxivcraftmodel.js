@@ -515,34 +515,6 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
     var trickOk = false;
     var reliabilityOk = startState.reliabilityOk;
 
-    // Check for null or empty individuals
-    //if (individual === null || individual.length === 0) {
-    //    return new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-    //                       wastedActions, progressOk, cpOk, durabilityOk, trickOk, reliabilityOk, crossClassActionList);
-    //}
-
-    // Strip Tricks of the Trade from individual
-    //var tempIndividual = [];
-    //for (var i=0; i < individual.length; i++) {
-    //    if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
-    //        tempIndividual[tempIndividual.length] = individual[i];
-    //    }
-    //    else {
-    //        maxTricksUses += 1;
-    //    }
-    //}
-    //individual = tempIndividual;
-
-    //if (debug) {
-    //    logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
-    //    logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0);
-    //}
-    //else if (verbose) {
-    //    logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
-    //    logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions);
-    //
-    //}
-
     //var action = individual[i];
     stepCount += 1;
 
@@ -720,7 +692,7 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
             delete effects.countDowns[AllActions.greatStrides.name];
         }
 
-        if (isActionEq(action, AllActions.tricksOfTheTrade) && cpState > 0) {
+        if (isActionEq(action, AllActions.tricksOfTheTrade) && cpState > 0 && condition == 'Good') {
             trickUses += 1;
             cpState += 20;
         }
@@ -817,13 +789,6 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
     var finalState = new State(stepCount, action.name, durabilityState, cpState, qualityState, progressState,
                        wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliabilityOk, crossClassActionList, effects, condition);
 
-    //if (debug) {
-    //    logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
-    //}
-    //else if (verbose) {
-    //    logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
-    //}
-
     return finalState;
 
 }
@@ -872,17 +837,17 @@ function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
         return startState;
     }
 
-    //// Strip Tricks of the Trade from individual
-    //var tempIndividual = [];
-    //for (var i=0; i < individual.length; i++) {
-    //    if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
-    //        tempIndividual[tempIndividual.length] = individual[i];
-    //    }
-    //    else {
-    //        maxTricksUses += 1;
-    //    }
-    //}
-    //individual = tempIndividual;
+    // Strip Tricks of the Trade from individual
+    var tempIndividual = [];
+    for (var i=0; i < individual.length; i++) {
+        if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
+            tempIndividual[tempIndividual.length] = individual[i];
+        }
+        else {
+            maxTricksUses += 1;
+        }
+    }
+    individual = tempIndividual;
 
     if (debug) {
         logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
@@ -897,11 +862,20 @@ function MonteCarloSequence(individual, synth, verbose, debug, logOutput) {
     for (i=0; i < individual.length; i++) {
         var action = individual[i];
         startState = finalState;
+        // Manually re-add tricks of the trade when condition is good
+        if (finalState.condition == 'Good' && finalState.trickUses < maxTricksUses) {
+            finalState = MonteCarloStep(synth, startState, AllActions.tricksOfTheTrade, verbose, debug, logOutput);
+            startState = finalState;
+        }
         finalState = MonteCarloStep(synth, startState, action, verbose, debug, logOutput);
     }
 
     if (finalState.trickUses <= synth.maxTrickUses) {
         trickOk = true;
+    }
+
+    for (var crossClassAction in finalState.crossClassActionList) {
+        crossClassActionCounter += 1;
     }
 
     if (debug) {
