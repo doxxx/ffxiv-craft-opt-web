@@ -612,7 +612,10 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
     }
 
     // Condition Evaluation
-    if (condition === 'Excellent') {
+    if (!synth.useConditions) {
+        qualityIncreaseMultiplier *= 1.0;
+    }
+    else if (condition === 'Excellent') {
         qualityIncreaseMultiplier *= 4.0;
     }
     else if (condition === 'Good' ) {
