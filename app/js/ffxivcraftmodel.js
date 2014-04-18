@@ -758,10 +758,6 @@ function MonteCarloStep(synth, startState, action, verbose, debug, logOutput) {
         durabilityOk = true;
     }
 
-    if (trickUses <= synth.maxTrickUses) {
-        trickOk = true;
-    }
-
     if (reliability >= synth.reliabilityIndex) {
         reliabilityOk = true;
     }
