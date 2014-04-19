@@ -326,6 +326,10 @@ QLearningAgent.prototype.getValue = function(state) {
     return this.computeValueFromQValues(state);
 }
 
+QLearningAgent.prototype.getPolicy = function(state) {
+    return this.computeActionFromQValues(state);
+}
+
 function getMaxOfArray(numArray) {
     return Math.max.apply(null, numArray);
 }
@@ -526,7 +530,23 @@ function ReinforcementLearningAlgorithm(synth, verbose, debug, logOutput) {
         logger.log('%20s: %5.3f', myProp, weights[myProp]);
     }
 
-    return 0
+    logger.log('\nPolicy', episodes)
+    logger.log('========', episodes)
+
+    // Follow the optimal policy
+    //==========================
+    myAgent.verbose = true;
+
+    var newState = myAgent.initialState(synth);
+    var state = newState;
+    var action = myAgent.getPolicy(state);
+
+    do {
+        var observation = myAgent.getObservation(state, action);
+        newState = observation.nextState;
+        state = newState;
+        action = myAgent.getAction(state)
+    } while (action != null);
 }
 
 function simSynth(individual, synth, verbose, debug, logOutput) {
