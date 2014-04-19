@@ -166,6 +166,369 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
 
 }
 
+function FeatureSet(myState, synth) {
+    this.durabilityState = myState.durabilityState / synth.recipe.durability;
+    this.cpState = myState.cpState / synth.crafter.craftPoints;
+    this.qualityState = myState.qualityState / synth.recipe.maxQuality;
+    this.progressState = myState.progressState / synth.recipe.difficulty;
+    //this.wastedActions = wastedActions;
+    //this.progressOk = progressOk;
+    //this.cpOk = cpOk;
+    //this.durabilityOk = durabilityOk;
+    this.trickUses = myState.trickUses / synth.maxTrickUses;
+    this.reliability = myState.reliability;
+    //this.conditionGood = myState.conditionGood;
+    //this.conditionPoor = myState.conditionPoor;
+    //this.conditionExcellent = myState.conditionExcellent;
+
+    //this.effects = effects;
+    this.innerQuiet = myState.effects.countUps[AllActions.innerQuiet.name] || 0;
+}
+
+function Reward(state, synth) {
+    var scalingFactor = 10;
+    var reward = 0;
+
+    // Penalize long sequences
+    reward -= 1;
+
+    // Termination state rewards
+    // Successful completion
+    if (state.progressState >= synth.recipe.difficulty) {
+        reward += state.progressState / synth.recipe.difficulty * scalingFactor;
+        reward += state.qualityState / synth.recipe.maxQuality * scalingFactor;
+    }
+
+    // Failure due to loss of durability
+    if (state.durabilityState <= 0 && state.progressState < synth.recipe.difficulty) {
+        reward -= (1 -  state.progressState / synth.recipe.difficulty) * scalingFactor ;
+    }
+
+    // Failure due to loss of CP
+    // Technically this is more of a case of illegal actions than a termination state
+    if (state.cpState < 0 && state.progressState < synth.recipe.difficulty) {
+        reward -= (1 - state.progressState / synth.recipe.difficulty) * scalingFactor;
+    }
+
+    return reward;
+}
+
+function IsTerminalState(state, synth, logger) {
+    var isTerminalState = false;
+
+    if (state.progressState >= synth.recipe.difficulty) {
+        isTerminalState = true;
+    }
+
+    if (state.durabilityState <= 0) {
+
+        isTerminalState = true;
+    }
+
+    //logger.log('Dur: %5.2f', state.durabilityState);
+
+    return isTerminalState;
+}
+
+function QLearningAgent(synth, verbose, debug, logOutput) {
+    verbose = verbose !== undefined ? verbose : true;
+    debug = debug !== undefined ? debug : false;
+    logOutput = logOutput !== undefined ? logOutput : null;
+
+    var logger = new Logger(logOutput);
+
+    this.epsilon = 0.05;
+    this.gamma = 0.8;
+    this.alpha = 0.2;
+    this.numTraining = 0;
+    this.synth = synth;
+    this.discount = this.gamma;
+
+    this.verbose = verbose;
+    this.debug = debug;
+
+    this.logOutput = logOutput;
+    this.logger = logger;
+
+    this.weights = {};
+}
+
+QLearningAgent.prototype.initialState = function(synth) {
+    var durabilityState = synth.recipe.durability;
+    var cpState = synth.crafter.craftPoints;
+    var progressState = 0;
+    var qualityState = synth.recipe.startQuality;
+    var stepCount = 0;
+    var wastedActions = 0;
+    var effects = new EffectTracker();
+    var maxTricksUses = 0;
+    var trickUses = 0;
+    var reliability = 1;
+    var crossClassActionList = {};
+    var crossClassActionCounter = 0;
+    var useConditions = synth.useConditions;
+
+    var condition = 'Normal';
+
+    // Intialize final state checks
+    var progressOk = false;
+    var cpOk = false;
+    var durabilityOk = false;
+    var trickOk = false;
+    var reliabilityOk = false;
+
+    // Initialize state variables
+    var startState = new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
+                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
+
+    if (this.debug) {
+        this.logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
+        this.logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0);
+    }
+    else if (this.verbose) {
+        this.logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
+        this.logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions);
+
+    }
+
+    return startState;
+}
+
+QLearningAgent.prototype.getWeights = function() {
+    return this.weights;
+}
+
+QLearningAgent.prototype.getFeatures = function(state, action) {
+    var features = new FeatureSet(state, this.synth);
+
+    return features;
+}
+
+QLearningAgent.prototype.getQValue = function(state, action) {
+    var features = this.getFeatures(state, action);
+    var weights = this.getWeights();
+
+    var dotProd = 0;
+    for (var feature in features) {
+        if (!(feature in weights)) {
+            weights[feature] = 1.0;
+        }
+        if (this.debug) {
+            //this.logger.log('GetQValue: [%s] Weight: %5.2f FVal: %5.2f', feature, weights[feature], features[feature])
+        }
+        dotProd += weights[feature] * features[feature];
+    }
+
+    return dotProd;
+}
+
+QLearningAgent.prototype.getValue = function(state) {
+    return this.computeValueFromQValues(state);
+}
+
+function getMaxOfArray(numArray) {
+    return Math.max.apply(null, numArray);
+}
+
+QLearningAgent.prototype.computeValueFromQValues = function(state) {
+    // Return max_action Q (state, action)
+    // where max is over all *legalActions*
+    // If there are no legal actions then return 0.0
+
+    var value = 0;
+    var actions = this.getLegalActions(state);
+    if (actions.length > 0) {
+        var self = this;
+        function fn(action) {
+            return self.getQValue(state, action);
+        }
+        var myArray = [];
+        for (action in actions) {
+            myArray.push(fn(action));
+        }
+        value = getMaxOfArray(myArray);
+    }
+
+    return value;
+}
+
+QLearningAgent.prototype.computeActionFromQValues = function(state) {
+    // Return the best action to take in a state.
+    // If there are no legal actions return null
+
+    var actionMax = null;
+    var actions = this.getLegalActions(state);
+    if (actions.length > 0) {
+        var self = this;
+        function fn(action) {
+            return self.getQValue(state, action);
+        }
+        var myArray = [];
+        var myDict = {};
+        for (var i = 0; i < actions.length; i++) {
+            var Q = fn(actions[i])
+            if (this.debug) {
+                //this.logger.log('ComputeActionFromQValues [DUR: %5.2f  CP: %5.2f  QUA: %5.2f  PRG: %5.2f] [%s]: %5.2f', state.durabilityState, state.cpState, state.qualityState, state.progressState, actions[i].name, Q)
+            }
+            myArray.push(Q);
+            // TIEBREAKER: if myDict Q currently exists, flip a coin to see if we replace the current action
+            if (myDict[Q]) {
+                if (getRandomInt(0, 2) > 0) {
+                    myDict[Q] = actions[i];
+                }
+            }
+            else {
+                myDict[Q] = actions[i];
+            }
+        }
+        var Qkey = getMaxOfArray(myArray);
+        actionMax = myDict[Qkey];
+    }
+
+    return actionMax;
+}
+
+QLearningAgent.prototype.getObservation = function(state, action) {
+    // Call exactly once per step through because it uses random and value will
+    // change from function call to function call
+
+    var newState = MonteCarloStep(this.synth, state, action, this.verbose, this.debug, this.logOutput);
+    var rewardDelta = Reward(newState, this.synth) - Reward(state, this.synth);
+
+    var observation = {};
+    observation.startState = state;
+    observation.action = action;
+    observation.nextState = newState;
+    observation.reward = rewardDelta;
+
+    return observation;
+}
+
+QLearningAgent.prototype.getLegalActions = function(state) {
+    // Hard coded for now
+    var legalActions = [];
+    if (!IsTerminalState(state, this.synth, this.logger)) {
+        legalActions[0] = AllActions.basicTouch;
+        legalActions[1] = AllActions.basicSynth;
+
+    }
+
+    return legalActions;
+}
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+QLearningAgent.prototype.getAction = function(state) {
+    // Compute the action to take in the current state.  With
+    // probability self.epsilon, we should take a random action and
+    // take the best policy action otherwise.  Note that if there are
+    // no legal actions, which is the case at the terminal state, you
+    // should choose None as the action.
+
+    var action = null;
+    var legalActions = this.getLegalActions(state);
+
+    if (this.debug) {
+        //this.logger.log('Number of legalActions available: %2d', legalActions.length);
+        //for (var i = 0; i < legalActions.length; i++) {
+        //    this.logger.log('[%d] %20s', i, legalActions[i].name);
+        //}
+        //this.logger.log('End of legalActions');
+    }
+
+    if (legalActions.length > 0) {
+        if (Math.random() < this.epsilon) {
+            var randomIndex = getRandomInt(0, legalActions.length - 1);
+            action = legalActions[randomIndex];
+        }
+        else {
+            action = this.computeActionFromQValues(state);
+        }
+    }
+
+    if (this.debug && action != null) {
+        //this.logger.log('GetAction: %20s', action.name || 'undefined')
+    }
+
+    return action;
+}
+
+QLearningAgent.prototype.update = function(state, action, nextState, reward) {
+
+    var feats = this.getFeatures(state, action);
+    var oldQ = this.getQValue(state, action);
+    var nextValue = this.getValue(nextState);
+    var diff = (reward + this.discount * nextValue) - oldQ;
+
+    var weights = this.getWeights();
+    if (this.debug) {
+        //this.logger.log('nextValue: %5.2f, oldQ: %5.2f, diff: %5.2f, reward: %5.2f, discount: %5.2f', nextValue, oldQ, diff, reward, this.discount);
+    }
+
+    for (feat in weights) {
+        weights[feat] += this.alpha * diff * feats[feat]
+    }
+
+}
+
+function ReinforcementLearningAlgorithm(synth, verbose, debug, logOutput) {
+    verbose = verbose !== undefined ? verbose : true;
+    debug = debug !== undefined ? debug : false;
+    logOutput = logOutput !== undefined ? logOutput : null;
+
+    var logger = new Logger(logOutput);
+
+    // Iterate for a given number of episodes (series of actions until termination)
+        // Initialize starting state
+        // repeat until no actions are available
+        // getAction(state) (random from legalActions)
+        // update(state, action, newstate, reward(state, action, newstate))
+        // state = newstate
+
+    var episodes = 0;
+    var n = 1000;
+
+    var myAgent = new QLearningAgent(synth, false, false, logOutput);
+
+    while (episodes < n) {
+
+        var newState = myAgent.initialState(synth);
+        var state = newState;
+
+        var action = myAgent.getAction(state);
+
+        do {
+            var observation = myAgent.getObservation(state, action);
+            newState = observation.nextState;
+            var reward = observation.reward;
+
+            myAgent.update(state, action, newState, reward);
+            state = newState;
+
+            action = myAgent.getAction(state)
+        } while (action != null);
+
+        if (debug) {
+            logger.log('Episode %d complete.', episodes)
+        }
+
+        episodes += 1;
+    }
+
+    logger.log('Episodes run: %d', episodes)
+
+    var weights = myAgent.getWeights()
+    logger.log('\nFinal Weights', episodes)
+    logger.log('=============', episodes)
+    for (var myProp in weights) {
+        logger.log('%20s: %5.3f', myProp, weights[myProp]);
+    }
+
+    return 0
+}
+
 function simSynth(individual, synth, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
@@ -1308,10 +1671,13 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
 
     logger.log('\n%2s %-20s %5.1f %%', '##', 'Success Rate: ', successRate);
 
-    logger.log('\nMonteCarloSequence');
+    //logger.log('\nMonteCarloSequence');
 
-    MonteCarloSequence(individual, synth, true, false, true, logOutput);
+    //MonteCarloSequence(individual, synth, true, false, true, logOutput);
 
+    logger.log('\nReinforcement Learning');
+    logger.log(  '======================');
+    ReinforcementLearningAlgorithm(synth, verbose, debug, logOutput);
 }
 
 function getAverageProperty(stateArray, propName, nRuns) {
