@@ -264,6 +264,7 @@ function QLearningAgent(synth, verbose, debug, logOutput) {
     this.logger = logger;
 
     this.Q = {};
+    this.stateCount = 0;
 
 }
 
@@ -317,6 +318,7 @@ QLearningAgent.prototype.getQValue = function(state, action) {
 
     if (Q[state][action.name] === undefined) {
         Q[state][action.name] = 0;
+        this.stateCount += 1;
     }
 
     //this.logger.log('Q[%s][%s]: %5.2f', state, action.name, Q[state][action.name])
@@ -586,11 +588,14 @@ function ReinforcementLearningAlgorithm(synth, verbose, debug, logOutput) {
         }
     }
     else {
-        var Q = myAgent.Q;
-        for (var aState in Q) {
-            for (var myAction in Q[aState]) {
-                //logger.log('Q[DUR: %5.2f  CP: %5.2f  QUA: %5.2f  PRG: %5.2f] [%s]: %5.2f', state.durabilityState, state.cpState, state.qualityState, state.progressState, myAction.name, Q[aState][myAction]);
-                logger.log('Q[%s][%s]: %5.2f', aState, myAction, Q[aState][myAction]);
+        logger.log('# of states: %d', myAgent.stateCount);
+        if (debug) {
+            var Q = myAgent.Q;
+            var stateCnt = 0;
+            for (var aState in Q) {
+                for (var myAction in Q[aState]) {
+                    logger.log('Q[%s][%s]: %5.2f', aState, myAction, Q[aState][myAction]);
+                }
             }
         }
     }
