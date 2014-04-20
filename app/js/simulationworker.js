@@ -58,7 +58,7 @@ self.onmessage = function(e) {
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSynth(sequence, synth, false, true, logOutput);
+    MonteCarloSequence(sequence, synth, true, false, true, logOutput);
   }
 
   var result = {
