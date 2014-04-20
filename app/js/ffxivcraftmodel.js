@@ -208,27 +208,27 @@ function Reward(state, synth) {
     reward -= 1;
 
     // Termination state rewards
-    // Successful completion
-    if (state.progressState >= synth.recipe.difficulty) {
-        reward += state.progressState / synth.recipe.difficulty * scalingFactor;
-        reward += state.qualityState / synth.recipe.maxQuality * scalingFactor;
-    }
+    if (IsTerminalState(state, synth)) {
+        // Successful completion
+        if (state.progressState >= synth.recipe.difficulty) {
+            reward += 500;
+        }
 
-    // Failure due to loss of durability
-    if (state.durabilityState <= 0 && state.progressState < synth.recipe.difficulty) {
-        reward -= (1 -  state.progressState / synth.recipe.difficulty) * scalingFactor ;
-    }
+        // Failure due to loss of durability
+        if (state.durabilityState <= 0 && state.progressState < synth.recipe.difficulty) {
+            reward -= 500;
+        }
 
-    // Failure due to loss of CP
-    // Technically this is more of a case of illegal actions than a termination state
-    if (state.cpState < 0 && state.progressState < synth.recipe.difficulty) {
-        reward -= (1 - state.progressState / synth.recipe.difficulty) * scalingFactor;
+    }
+    else {
+        reward += state.progressState / synth.recipe.difficulty;
+        reward += state.qualityState / synth.recipe.maxQuality;
     }
 
     return reward;
 }
 
-function IsTerminalState(state, synth, logger) {
+function IsTerminalState(state, synth) {
     var isTerminalState = false;
 
     if (state.progressState >= synth.recipe.difficulty) {
@@ -239,8 +239,6 @@ function IsTerminalState(state, synth, logger) {
 
         isTerminalState = true;
     }
-
-    //logger.log('Dur: %5.2f', state.durabilityState);
 
     return isTerminalState;
 }
