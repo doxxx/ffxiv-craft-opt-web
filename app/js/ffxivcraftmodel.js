@@ -478,7 +478,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     return finalState;
 }
 
-function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
+function MonteCarloSynth(individual, synth, assumeSuccess, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
@@ -671,6 +671,10 @@ function MonteCarloSynth(individual, synth, verbose, debug, logOutput) {
             success = 1;
         }
 
+        if (assumeSuccess) {
+            success = 1;
+        }
+
         var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
         if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
@@ -854,7 +858,7 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
 
     var finalStateTracker = [];
     for (var i=0; i < nRuns; i++) {
-        var runSynth = MonteCarloSynth(individual, synth, false, false, logOutput);
+        var runSynth = MonteCarloSynth(individual, synth, false, false, false, logOutput);
         finalStateTracker[finalStateTracker.length] = runSynth;
 
         if (verbose) {
