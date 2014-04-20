@@ -53,7 +53,7 @@ self.onmessage = function(e) {
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
 
-  MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
+  var mcSimResult = MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
 
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");
@@ -71,7 +71,8 @@ self.onmessage = function(e) {
         cpOk: finalState.cpOk,
         cp: finalState.cpState,
         progressOk: finalState.progressOk,
-        progress: finalState.progressState
+        progress: finalState.progressState,
+        successPercent: mcSimResult.successPercent
       }
     }
   };
