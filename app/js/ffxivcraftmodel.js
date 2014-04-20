@@ -886,6 +886,10 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
     logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f', '##', 'Min Value: ', minDurability, minCp, minQuality, minProgress, minHqPercent);
 
     logger.log('\n%2s %-20s %5.1f %%', '##', 'Success Rate: ', successRate);
+
+    return {
+      successPercent: successRate
+    }
 }
 
 function getAverageProperty(stateArray, propName, nRuns) {
