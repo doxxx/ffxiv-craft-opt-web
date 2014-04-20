@@ -413,9 +413,18 @@ QLearningAgent.prototype.getObservation = function(state, action) {
 QLearningAgent.prototype.getLegalActions = function(state) {
     // Hard coded for now
     var legalActions = [];
+
     if (!IsTerminalState(state, this.synth, this.logger)) {
-        legalActions[0] = AllActions.basicTouch;
-        legalActions[1] = AllActions.basicSynth;
+        var availableActions = [];
+        availableActions[0] = AllActions.basicTouch;
+        availableActions[1] = AllActions.basicSynth;
+
+        for (var i = 0; i < availableActions.length; i++) {
+            // Check that we have enough CP for this action
+            if (state.cpState - availableActions[i].cpCost >= 0) {
+                legalActions.push(availableActions[i])
+            }
+        }
 
     }
 
