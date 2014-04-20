@@ -22,4 +22,5 @@
   <span ng-class="{'simulator-status-error': !status.state.progressOk, 'simulator-status-ok': status.state.progressOk}">
     &nbsp;CP:{{status.state.cp | number:0}} <i ng-show="!status.state.progressOk" class="fa fa-warning"></i>
   </span>
+  &nbsp;Success: {{status.state.successPercent | number:0}}%
 </span>
