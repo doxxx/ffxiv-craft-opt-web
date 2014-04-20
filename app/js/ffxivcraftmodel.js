@@ -162,8 +162,23 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
         this.crossClassActionList = crossClassActionList;
     }
     this.effects = effects;
-    this.condition =  condition;
+    this.condition = condition;
 
+}
+
+State.prototype.toString = function() {
+    var iqCnt = 0;
+    if (AllActions.innerQuiet.name in this.effects.countUps) {
+        iqCnt = this.effects.countUps[AllActions.innerQuiet.name];
+    }
+
+    return this.durabilityState + ',' +
+            this.cpState + ',' +
+            this.qualityState + ',' +
+            this.progressState + ',' +
+            this.trickUses + ',' +
+            iqCnt + ',' +
+            this.condition;
 }
 
 function FeatureSet(myState, synth) {
@@ -250,7 +265,8 @@ function QLearningAgent(synth, verbose, debug, logOutput) {
     this.logOutput = logOutput;
     this.logger = logger;
 
-    this.weights = {};
+    this.Q = {};
+
 }
 
 QLearningAgent.prototype.initialState = function(synth) {
@@ -294,32 +310,20 @@ QLearningAgent.prototype.initialState = function(synth) {
     return startState;
 }
 
-QLearningAgent.prototype.getWeights = function() {
-    return this.weights;
-}
-
-QLearningAgent.prototype.getFeatures = function(state, action) {
-    var features = new FeatureSet(state, this.synth);
-
-    return features;
-}
-
 QLearningAgent.prototype.getQValue = function(state, action) {
-    var features = this.getFeatures(state, action);
-    var weights = this.getWeights();
+    var Q = this.Q;
 
-    var dotProd = 0;
-    for (var feature in features) {
-        if (!(feature in weights)) {
-            weights[feature] = 1.0;
-        }
-        if (this.debug) {
-            //this.logger.log('GetQValue: [%s] Weight: %5.2f FVal: %5.2f', feature, weights[feature], features[feature])
-        }
-        dotProd += weights[feature] * features[feature];
+    if (Q[state] === undefined) {
+        Q[state] = {};
     }
 
-    return dotProd;
+    if (Q[state][action.name] === undefined) {
+        Q[state][action.name] = 0;
+    }
+
+    //this.logger.log('Q[%s][%s]: %5.2f', state, action.name, Q[state][action.name])
+
+    return Q[state][action.name];
 }
 
 QLearningAgent.prototype.getValue = function(state) {
@@ -347,8 +351,8 @@ QLearningAgent.prototype.computeValueFromQValues = function(state) {
             return self.getQValue(state, action);
         }
         var myArray = [];
-        for (action in actions) {
-            myArray.push(fn(action));
+        for (var i = 0; i < actions.length; i++) {
+            myArray.push(fn(actions[i]));
         }
         value = getMaxOfArray(myArray);
     }
@@ -377,7 +381,7 @@ QLearningAgent.prototype.computeActionFromQValues = function(state) {
             myArray.push(Q);
             // TIEBREAKER: if myDict Q currently exists, flip a coin to see if we replace the current action
             if (myDict[Q]) {
-                if (getRandomInt(0, 2) > 0) {
+                if (getRandomInt(0, 1) > 0) {
                     myDict[Q] = actions[i];
                 }
             }
@@ -460,6 +464,48 @@ QLearningAgent.prototype.getAction = function(state) {
 }
 
 QLearningAgent.prototype.update = function(state, action, nextState, reward) {
+    //var stateString = getStateString(state);
+    var oldQ = this.getQValue(state, action);
+    this.Q[state][action.name] = (1 - this.alpha) * oldQ + this.alpha * (reward + this.discount * this.getValue(nextState))
+}
+
+function ApproximateAgent(synth, verbose, debug, logOutput) {
+    QLearningAgent.call(this, synth, verbose, debug, logOutput);
+
+    this.weights = {};
+}
+
+ApproximateAgent.prototype = new QLearningAgent();
+
+ApproximateAgent.prototype.getQValue = function(state, action) {
+    var features = this.getFeatures(state, action);
+    var weights = this.getWeights();
+
+    var dotProd = 0;
+    for (var feature in features) {
+        if (!(feature in weights)) {
+            weights[feature] = 1.0;
+        }
+        if (this.debug) {
+            //this.logger.log('GetQValue: [%s] Weight: %5.2f FVal: %5.2f', feature, weights[feature], features[feature])
+        }
+        dotProd += weights[feature] * features[feature];
+    }
+
+    return dotProd;
+}
+
+ApproximateAgent.prototype.getWeights = function() {
+    return this.weights;
+}
+
+ApproximateAgent.prototype.getFeatures = function(state, action) {
+    var features = new FeatureSet(state, this.synth);
+
+    return features;
+}
+
+ApproximateAgent.prototype.update = function(state, action, nextState, reward) {
 
     var feats = this.getFeatures(state, action);
     var oldQ = this.getQValue(state, action);
@@ -492,8 +538,9 @@ function ReinforcementLearningAlgorithm(synth, verbose, debug, logOutput) {
         // state = newstate
 
     var episodes = 0;
-    var n = 1000;
+    var n = 50;
 
+    //var myAgent = new ApproximateAgent(synth, false, false, logOutput);
     var myAgent = new QLearningAgent(synth, false, false, logOutput);
 
     while (episodes < n) {
@@ -523,11 +570,22 @@ function ReinforcementLearningAlgorithm(synth, verbose, debug, logOutput) {
 
     logger.log('Episodes run: %d', episodes)
 
-    var weights = myAgent.getWeights()
-    logger.log('\nFinal Weights', episodes)
-    logger.log('=============', episodes)
-    for (var myProp in weights) {
-        logger.log('%20s: %5.3f', myProp, weights[myProp]);
+    if (myAgent.weights) {
+        var weights = myAgent.getWeights()
+        logger.log('\nFinal Weights', episodes)
+        logger.log('=============', episodes)
+        for (var myProp in weights) {
+            logger.log('%20s: %5.3f', myProp, weights[myProp]);
+        }
+    }
+    else {
+        var Q = myAgent.Q;
+        for (var aState in Q) {
+            for (var myAction in Q[aState]) {
+                //logger.log('Q[DUR: %5.2f  CP: %5.2f  QUA: %5.2f  PRG: %5.2f] [%s]: %5.2f', state.durabilityState, state.cpState, state.qualityState, state.progressState, myAction.name, Q[aState][myAction]);
+                logger.log('Q[%s][%s]: %5.2f', aState, myAction, Q[aState][myAction]);
+            }
+        }
     }
 
     logger.log('\nPolicy', episodes)
