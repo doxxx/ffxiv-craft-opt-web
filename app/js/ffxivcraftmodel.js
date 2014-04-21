@@ -201,7 +201,7 @@ function FeatureSet(myState, synth) {
 }
 
 function Reward(state, synth) {
-    var scalingFactor = 10;
+    var scalingFactor = 500;
     var reward = 0;
 
     // Penalize long sequences
@@ -211,12 +211,12 @@ function Reward(state, synth) {
     if (IsTerminalState(state, synth)) {
         // Successful completion
         if (state.progressState >= synth.recipe.difficulty) {
-            reward += 500;
+            reward += state.qualityState / synth.recipe.maxQuality * scalingFactor;
         }
 
         // Failure due to loss of durability
         if (state.durabilityState <= 0 && state.progressState < synth.recipe.difficulty) {
-            reward -= 500;
+            reward -= scalingFactor;
         }
 
     }
