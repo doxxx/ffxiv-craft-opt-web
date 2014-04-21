@@ -478,6 +478,133 @@ QLearningAgent.prototype.update = function(state, action, nextState, reward) {
     this.Q[state][action.name] = (1 - this.alpha) * oldQ + this.alpha * (reward + this.discount * this.getValue(nextState));
 }
 
+function QExplorationAgent(synth, verbose, debug, logOutput) {
+    QLearningAgent.call(this, synth, verbose, debug, logOutput);
+}
+
+QExplorationAgent.prototype = new QLearningAgent();
+
+QExplorationAgent.prototype.getQValue = function(state, action) {
+    var Q = this.Q;
+
+    if (Q[state] === undefined) {
+        Q[state] = {};
+    }
+
+    if (Q[state][action.name] === undefined) {
+        Q[state][action.name] = {};
+        Q[state][action.name].value = 0;
+        Q[state][action.name].visits = 1; // 1-based to avoid NaN
+        this.stateCount += 1;
+    }
+
+    //this.logger.log('Q[%s][%s]: %5.2f', state, action.name, Q[state][action.name])
+
+    return Q[state][action.name].value;
+}
+
+QExplorationAgent.prototype.getQVisits = function(state, action) {
+    return this.Q[state][action.name].visits;
+}
+
+QExplorationAgent.prototype.computeValueFromQValues = function(state) {
+    // Return max_action Q (state, action)
+    // where max is over all *legalActions*
+    // If there are no legal actions then return 0.0
+
+    var explorationFactor = 1000;
+
+    var value = 0;
+    var actions = this.getLegalActions(state);
+
+    if (actions.length > 0) {
+        var self = this;
+        function fn(action) {
+            return self.getQValue(state, action) + explorationFactor / self.getQVisits(state, action);
+        }
+        var myArray = [];
+        for (var i = 0; i < actions.length; i++) {
+            myArray.push(fn(actions[i]));
+        }
+        value = getMaxOfArray(myArray);
+    }
+
+    return value;
+}
+
+QLearningAgent.prototype.computeActionFromQValues = function(state) {
+    // Return the best action to take in a state.
+    // If there are no legal actions return null
+
+    var explorationFactor = 1000;
+
+    var actionMax = null;
+    var actions = this.getLegalActions(state);
+    if (actions.length > 0) {
+        var self = this;
+        function fn(action) {
+            return self.getQValue(state, action) + explorationFactor / self.getQVisits(state, action);
+        }
+        var myArray = [];
+        var myDict = {};
+        for (var i = 0; i < actions.length; i++) {
+            var Q = fn(actions[i])
+            if (this.debug) {
+                //this.logger.log('ComputeActionFromQValues [DUR: %5.2f  CP: %5.2f  QUA: %5.2f  PRG: %5.2f] [%s]: %5.2f', state.durabilityState, state.cpState, state.qualityState, state.progressState, actions[i].name, Q)
+            }
+            myArray.push(Q);
+            // TIEBREAKER: if myDict Q currently exists, flip a coin to see if we replace the current action
+            if (myDict[Q]) {
+                if (getRandomInt(0, 1) > 0) {
+                    myDict[Q] = actions[i];
+                }
+            }
+            else {
+                myDict[Q] = actions[i];
+            }
+        }
+        var Qkey = getMaxOfArray(myArray);
+        actionMax = myDict[Qkey];
+    }
+
+    return actionMax;
+}
+
+QExplorationAgent.prototype.getAction = function(state) {
+    // Compute the action to take in the current state.  With
+    // probability self.epsilon, we should take a random action and
+    // take the best policy action otherwise.  Note that if there are
+    // no legal actions, which is the case at the terminal state, you
+    // should choose None as the action.
+
+    var action = null;
+    var legalActions = this.getLegalActions(state);
+
+    if (this.debug) {
+        //this.logger.log('Number of legalActions available: %2d', legalActions.length);
+        //for (var i = 0; i < legalActions.length; i++) {
+        //    this.logger.log('[%d] %20s', i, legalActions[i].name);
+        //}
+        //this.logger.log('End of legalActions');
+    }
+
+    if (legalActions.length > 0) {
+        action = this.computeActionFromQValues(state);
+    }
+
+    if (this.debug && action != null) {
+        //this.logger.log('GetAction: %20s', action.name || 'undefined')
+    }
+
+    return action;
+}
+
+QExplorationAgent.prototype.update = function(state, action, nextState, reward) {
+    //var stateString = getStateString(state);
+    this.Q[state][action.name].value = (1 - this.alpha) * this.getQValue(state, action) + this.alpha * (reward + this.discount * this.getValue(nextState))
+    this.Q[state][action.name].visits += 1;
+}
+
 function ApproximateAgent(synth, verbose, debug, logOutput) {
     QLearningAgent.call(this, synth, verbose, debug, logOutput);
 
@@ -549,7 +676,7 @@ function ReinforcementLearningAlgorithm(synth, learningRuns, verbose, debug, log
     var episodes = 0;
 
     //var myAgent = new ApproximateAgent(synth, false, false, logOutput);
-    var myAgent = new QLearningAgent(synth, false, false, logOutput);
+    var myAgent = new QExplorationAgent(synth, false, false, logOutput);
 
     while (episodes < learningRuns) {
 
