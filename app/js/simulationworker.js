@@ -61,7 +61,7 @@ self.onmessage = function(e) {
     MonteCarloSynth(sequence, synth, false, true, logOutput);
   }
 
-  var finalState = MonteCarloSynth(sequence, synth, true, false, true, logOutput);
+  var finalState = MonteCarloSynth(sequence, synth, true, false, false, logOutput);
 
   var result = {
     success: {
