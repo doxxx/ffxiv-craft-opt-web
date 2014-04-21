@@ -420,6 +420,7 @@ QLearningAgent.prototype.getLegalActions = function(state) {
         var availableActions = [];
         availableActions[0] = AllActions.basicTouch;
         availableActions[1] = AllActions.basicSynth;
+        availableActions[2] = AllActions.carefulSynthesis;
 
         for (var i = 0; i < availableActions.length; i++) {
             // Check that we have enough CP for this action
