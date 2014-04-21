@@ -533,7 +533,7 @@ ApproximateAgent.prototype.update = function(state, action, nextState, reward) {
 
 }
 
-function ReinforcementLearningAlgorithm(synth, verbose, debug, logOutput) {
+function ReinforcementLearningAlgorithm(synth, learningRuns, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
@@ -548,12 +548,11 @@ function ReinforcementLearningAlgorithm(synth, verbose, debug, logOutput) {
         // state = newstate
 
     var episodes = 0;
-    var n = 50;
 
     //var myAgent = new ApproximateAgent(synth, false, false, logOutput);
     var myAgent = new QLearningAgent(synth, false, false, logOutput);
 
-    while (episodes < n) {
+    while (episodes < learningRuns) {
 
         var newState = myAgent.initialState(synth);
         var state = newState;
@@ -1768,7 +1767,7 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
 
     logger.log('\nReinforcement Learning');
     logger.log(  '======================');
-    ReinforcementLearningAlgorithm(synth, verbose, debug, logOutput);
+    ReinforcementLearningAlgorithm(synth, nRuns, verbose, debug, logOutput);
 }
 
 function getAverageProperty(stateArray, propName, nRuns) {
