@@ -265,7 +265,6 @@ function QLearningAgent(synth, verbose, debug, logOutput) {
 
     this.Q = {};
     this.stateCount = 0;
-
 }
 
 QLearningAgent.prototype.initialState = function(synth) {
@@ -476,7 +475,7 @@ QLearningAgent.prototype.getAction = function(state) {
 QLearningAgent.prototype.update = function(state, action, nextState, reward) {
     //var stateString = getStateString(state);
     var oldQ = this.getQValue(state, action);
-    this.Q[state][action.name] = (1 - this.alpha) * oldQ + this.alpha * (reward + this.discount * this.getValue(nextState))
+    this.Q[state][action.name] = (1 - this.alpha) * oldQ + this.alpha * (reward + this.discount * this.getValue(nextState));
 }
 
 function ApproximateAgent(synth, verbose, debug, logOutput) {
