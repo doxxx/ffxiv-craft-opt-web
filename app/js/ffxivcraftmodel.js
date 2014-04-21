@@ -201,7 +201,7 @@ function FeatureSet(myState, synth) {
 }
 
 function Reward(state, synth) {
-    var scalingFactor = 500;
+    var scalingFactor = 10;
     var reward = 0;
 
     // Penalize long sequences
@@ -417,6 +417,7 @@ QLearningAgent.prototype.getLegalActions = function(state) {
 
     if (!IsTerminalState(state, this.synth, this.logger)) {
         var availableActions = [];
+        //var availableActions = this.synth.crafter.actions;
         availableActions[0] = AllActions.basicTouch;
         availableActions[1] = AllActions.basicSynth;
         availableActions[2] = AllActions.carefulSynthesis;
@@ -532,7 +533,7 @@ QExplorationAgent.prototype.computeValueFromQValues = function(state) {
     return value;
 }
 
-QLearningAgent.prototype.computeActionFromQValues = function(state) {
+QExplorationAgent.prototype.computeActionFromQValues = function(state) {
     // Return the best action to take in a state.
     // If there are no legal actions return null
 
@@ -601,6 +602,8 @@ QExplorationAgent.prototype.getAction = function(state) {
 
 QExplorationAgent.prototype.update = function(state, action, nextState, reward) {
     //var stateString = getStateString(state);
+    this.getQValue(state, action);
+    this.getQVisits(state, action);
     this.Q[state][action.name].value = (1 - this.alpha) * this.getQValue(state, action) + this.alpha * (reward + this.discount * this.getValue(nextState))
     this.Q[state][action.name].visits += 1;
 }
