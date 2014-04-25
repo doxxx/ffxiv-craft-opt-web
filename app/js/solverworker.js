@@ -34,6 +34,7 @@ self.onmessage = function(e) {
                           settings.recipe.startQuality,
                           settings.recipe.maxQuality);
   var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, settings.useConditions);
+  var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false);
 
   var sequence = [];
 
@@ -77,7 +78,7 @@ self.onmessage = function(e) {
   };
 
   function feedback(gen, best) {
-    var currentState = simSynth(best, synth, false, false, logOutput);
+    var currentState = MonteCarloSynth(best, synthNoConditions, true, false, false, logOutput);
     self.postMessage({
       progress: {
         generationsCompleted: gen,
@@ -99,24 +100,27 @@ self.onmessage = function(e) {
 
   logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(seed, synth.useConditions));
 
+  yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
+  var best = hof.entries[0];
+
   logOutput.write("Genetic Algorithm Result\n");
   logOutput.write("========================\n");
 
-  yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
-
-  var best = hof.entries[0];
-  var finalState = simSynth(best, synth, true, settings.debug, logOutput);
+  simSynth(best, synth, true, settings.debug, logOutput);
 
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
 
-  MonteCarloSim(best, synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
+  var mcSimResult = MonteCarloSim(best, synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
 
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
     MonteCarloSynth(best, synth, false, true, logOutput);
   }
+
+  // Don't use conditions for final state to avoid random results
+  var finalState = MonteCarloSynth(sequence, synthNoConditions, true, false, false, logOutput);
 
   var elapsedTime = Date.now() - startTime;
 
@@ -132,7 +136,8 @@ self.onmessage = function(e) {
         cpOk: finalState.cpOk,
         cp: finalState.cpState,
         progressOk: finalState.progressOk,
-        progress: finalState.progressState
+        progress: finalState.progressState,
+        successPercent: mcSimResult.successPercent
       },
       bestSequence: actionSequenceToShortNames(best)
     }
