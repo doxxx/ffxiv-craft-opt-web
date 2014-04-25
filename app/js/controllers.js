@@ -441,9 +441,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.solverSuccess = function (data) {
       $scope.solverResult.logText = data.log;
-      $scope.solverResult.state = data.state;
       $scope.solverResult.sequence = data.bestSequence;
       $scope.simulatorTabs.solver.active = true;
+      $scope.solverStatus.state = data.state;
       $scope.solverStatus.running = false;
       $scope.solverStatus.generationsCompleted = 0;
     };
