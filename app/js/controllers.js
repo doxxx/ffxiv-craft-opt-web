@@ -460,8 +460,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.runSolver = function () {
       $scope.solverStatus.error = null;
-      $scope.solverResult.logText = "";
       $scope.solverStatus.generationsCompleted = 0;
+      $scope.solverStatus.state = null;
+      $scope.solverResult.logText = "";
       $scope.solverResult.sequence = [];
       var settings = {
         crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
