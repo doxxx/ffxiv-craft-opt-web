@@ -285,7 +285,7 @@
                 <simulator-status class="solver-status" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
               </h4>
               <div ng-show="solverStatus.running">
-                <progressbar class="progress-striped active" value="solverStatus.generationsCompleted" max="solver.generations">{{solverStatus.generationsCompleted}}/{{solver.generations}}</progressbar>
+                <progressbar class="progress-striped active" value="solverStatus.generationsCompleted/solver.generations*100">{{solverStatus.generationsCompleted}}/{{solver.generations}}</progressbar>
               </div>
               <div ng-show="!solverStatus.running">
                 <div class="sequence well well-small" >
