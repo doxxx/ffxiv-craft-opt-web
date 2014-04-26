@@ -8,8 +8,20 @@ importScripts('../lib/yagal/toolbox.js');
 importScripts('../lib/yagal/algorithms.js');
 
 self.onmessage = function(e) {
-  var settings = e.data;
+  if (e.data.start) {
+    start(e.data.start);
+  }
+  else if (e.data == 'rungen') {
+    runOneGen();
+  }
+  else if (e.data == 'finish') {
+    finish();
+  }
+};
 
+var state = {};
+
+function start(settings) {
   var seed = Math.seed;
   if (typeof settings.seed === 'number') {
     seed = settings.seed;
@@ -77,56 +89,64 @@ self.onmessage = function(e) {
     }
   };
 
-  function feedback(gen, best) {
-    var currentState = MonteCarloSequence(best, synthNoConditions, true, false, false, false, logOutput);
-    self.postMessage({
-      progress: {
-        generationsCompleted: gen,
-        state: {
-          quality: currentState.qualityState,
-          durabilityOk: currentState.durabilityOk,
-          durability: currentState.durabilityState,
-          cpOk: currentState.cpOk,
-          cp: currentState.cpState,
-          progressOk: currentState.progressOk,
-          progress: currentState.progressState
-        },
-        bestSequence: actionSequenceToShortNames(best)
-      }
-    });
-  }
-
   var startTime = Date.now();
 
   logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(seed, synth.useConditions));
 
-  yagal_algorithms.eaSimple(pop, toolbox, 0.5, 0.2, settings.solver.generations, hof, feedback);
-  var best = hof.entries[0];
+  eaSimple_setup(pop, toolbox, hof);
+
+  state = {
+    settings: settings,
+    logOutput: logOutput,
+    startTime: startTime,
+    synth: synth,
+    synthNoConditions: synthNoConditions,
+    pop: pop,
+    toolbox: toolbox,
+    hof: hof,
+    maxGen: settings.solver.generations,
+    gen: 0
+  };
+
+  runOneGen();
+}
+
+function runOneGen() {
+  state.gen += 1;
+  state.pop = eaSimple_gen(state.pop, state.toolbox, 0.5, 0.2, state.hof);
+
+  postProgress(state.gen, state.hof.entries[0], state.synthNoConditions);
+}
+
+function finish() {
+  var logOutput = state.logOutput;
+  var best = state.hof.entries[0];
+  var debug = state.settings.debug;
 
   logOutput.write("Genetic Algorithm Result\n");
   logOutput.write("========================\n");
 
-  simSynth(best, synth, true, settings.debug, logOutput);
+  simSynth(best, state.synth, true, debug, logOutput);
 
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
 
-  var mcSimResult = MonteCarloSim(best, synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
+  var mcSimResult = MonteCarloSim(best, state.synth, state.settings.maxMontecarloRuns, false, debug, logOutput);
 
-  if (settings.debug) {
+  if (debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSequence(best, synth, false, true, false, true, logOutput);
+    MonteCarloSequence(best, state.synth, false, true, false, true, logOutput);
   }
 
   // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSequence(best, synthNoConditions, true, false, false, false, logOutput);
+  var finalState = MonteCarloSequence(best, state.synthNoConditions, true, false, false, false, logOutput);
 
-  var elapsedTime = Date.now() - startTime;
+  var elapsedTime = Date.now() - state.startTime;
 
   logOutput.write("\nElapsed time: %d ms".sprintf(elapsedTime));
 
-  var result = {
+  self.postMessage({
     success: {
       log: logOutput.log,
       state: {
@@ -141,10 +161,58 @@ self.onmessage = function(e) {
       },
       bestSequence: actionSequenceToShortNames(best)
     }
-  };
+  });
+}
 
-  self.postMessage(result);
-};
+function eaSimple_setup(population, toolbox, hof) {
+  // evaluate fitness of starting population
+  var fitnessesValues = toolbox.map(toolbox.evaluate, population);
+  for (var i = 0; i < population.length; i++) {
+    population[i].fitness.setValues(fitnessesValues[i]);
+  }
+
+  if (hof !== undefined) {
+    hof.update(population);
+  }
+}
+
+function eaSimple_gen(population, toolbox, cxpb, mutpb, hof) {
+  var offspring = toolbox.select(population.length, population);
+
+  offspring = yagal_algorithms.varAnd(offspring, toolbox, cxpb, mutpb);
+
+  // evaluate individuals with invalid fitness
+  var invalidInd = offspring.filter(isFitnessInvalid);
+  var fitnessesValues = toolbox.map(toolbox.evaluate, invalidInd);
+  for (var j = 0; j < invalidInd.length; j++) {
+    invalidInd[j].fitness.setValues(fitnessesValues[j]);
+  }
+
+  if (hof !== undefined) {
+    hof.update(offspring);
+  }
+
+  return offspring;
+}
+
+function postProgress(gen, best, synthNoConditions) {
+  var currentState = MonteCarloSequence(best, synthNoConditions, true, false, false, false);
+  self.postMessage({
+    progress: {
+      generationsCompleted: gen,
+      state: {
+        quality: currentState.qualityState,
+        durabilityOk: currentState.durabilityOk,
+        durability: currentState.durabilityState,
+        cpOk: currentState.cpOk,
+        cp: currentState.cpState,
+        progressOk: currentState.progressOk,
+        progress: currentState.progressState
+      },
+      bestSequence: actionSequenceToShortNames(best)
+    }
+  });
+}
 
 function randomInt(max) {
   return Math.floor(Math.random() * max);
@@ -169,4 +237,8 @@ function actionSequenceToShortNames(sequence) {
     nameSequence.push(sequence[k].shortName);
   }
   return nameSequence;
+}
+
+function isFitnessInvalid(ind) {
+  return !ind.fitness.valid();
 }

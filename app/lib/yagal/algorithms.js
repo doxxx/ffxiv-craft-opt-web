@@ -65,6 +65,7 @@ var yagal_algorithms = (function() {
   }
 
   return {
-    eaSimple: eaSimple
+    eaSimple: eaSimple,
+    varAnd: varAnd
   };
 }());

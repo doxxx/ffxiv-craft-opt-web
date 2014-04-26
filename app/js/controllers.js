@@ -485,9 +485,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.stopSolver = function () {
       _solver.stop();
-      $scope.solverResult.sequence = $scope.solverStatus.bestSequence;
-      $scope.solverStatus.running = false;
-      $scope.solverStatus.generationsCompleted = 0;
     };
 
     loadLocalPageState($scope);
