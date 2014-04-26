@@ -78,7 +78,7 @@ self.onmessage = function(e) {
   };
 
   function feedback(gen, best) {
-    var currentState = MonteCarloSynth(best, synthNoConditions, true, false, false, logOutput);
+    var currentState = MonteCarloSequence(best, synthNoConditions, true, false, false, false, logOutput);
     self.postMessage({
       progress: {
         generationsCompleted: gen,
@@ -116,11 +116,11 @@ self.onmessage = function(e) {
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSynth(best, synth, false, true, logOutput);
+    MonteCarloSequence(best, synth, false, true, false, true, logOutput);
   }
 
   // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSynth(sequence, synthNoConditions, true, false, false, logOutput);
+  var finalState = MonteCarloSequence(best, synthNoConditions, true, false, false, false, logOutput);
 
   var elapsedTime = Date.now() - startTime;
 
