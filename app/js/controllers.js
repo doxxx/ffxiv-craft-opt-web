@@ -97,8 +97,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
           $scope.runSimulation();
         }
         else {
-          $scope.simulatorStatus.state = null
-          $scope.simulatorStatus.error = null
+          $scope.simulatorStatus.state = null;
+          $scope.simulatorStatus.error = null;
         }
       }
 
@@ -219,7 +219,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.saveSynthAs = function () {
       var name = prompt('Enter synth name:');
-      if (name == null || name.length == 0) return;
+      if (name === null || name.length === 0) return;
       $scope.settings.name = name;
       $scope.saveSynth();
     };
@@ -235,7 +235,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.renameSynth = function (name) {
       var newName = prompt('Enter new synth name:');
-      if (newName == null || newName.length == 0) return;
+      if (newName === null || newName.length === 0) return;
       $scope.profile.renameSynth(name, newName);
       if (name == $scope.settings.name) {
         $scope.settings.name = newName;
@@ -243,7 +243,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.isSynthDirty = function () {
-      if (!$scope.settings || $scope.settings.name == '') {
+      if (!$scope.settings || $scope.settings.name === '') {
         return false;
       }
 
@@ -264,7 +264,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.synthNameForDisplay = function () {
       if (!$scope.settings) return '';
 
-      if ($scope.settings.name == '') {
+      if ($scope.settings.name === '') {
         return '<unnamed>';
       }
       else {
@@ -306,16 +306,11 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         tooltipClass = cls;
       }
       var tooltip = $scope.actionTooltips[tooltipClass + action];
-      if (tooltip) return tooltip;
+      return tooltip ? tooltip : '';
     };
 
     $scope.sequenceActionTooltip = function (action, cls) {
-      var tooltip = $scope.actionTooltip(action, cls);
-      // TODO: Find some way to modify the tooltip to show it's unavailable
-      //if (!$scope.isActionSelected(action, cls)) {
-      //  tooltip += '<br/><b>[Action Not Available]</b>';
-      //}
-      return tooltip;
+      return $scope.actionTooltip(action, cls);
     };
 
     $scope.uniqueCrossClassActions = function (sequence, cls) {
@@ -650,17 +645,19 @@ function extend(dest, src) {
     throw 'cannot extend object with null or undefined object';
   }
   for (var p in src) {
-    var v = src[p];
-    if (v !== undefined && v !== null) {
-      var o = dest[p];
-      if (o === null || o === undefined) {
-        dest[p] = v;
-      }
-      else if (typeof o == 'object' && typeof v == 'object') {
-        extend(dest[p], v);
-      }
-      else {
-        dest[p] = v;
+    if (src.hasOwnProperty(p)) {
+      var v = src[p];
+      if (v !== undefined && v !== null) {
+        var o = dest[p];
+        if (o === null || o === undefined) {
+          dest[p] = v;
+        }
+        else if (typeof o == 'object' && typeof v == 'object') {
+          extend(dest[p], v);
+        }
+        else {
+          dest[p] = v;
+        }
       }
     }
   }
