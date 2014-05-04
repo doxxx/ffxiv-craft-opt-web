@@ -75,6 +75,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.userInfo = $scope.profile.userInfo();
 
       $scope.profile.bindCrafterStats($scope, 'crafter.stats');
+      $scope.savedSynthNames = $scope.profile.synthNames();
 
       // watches for automatic updates and saving settings
       $scope.$watchCollection('sections', function () {
@@ -170,10 +171,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
     };
 
-    $scope.savedSynthNames = function () {
-      return $scope.profile.synthNames();
-    };
-
     $scope.newSynth = function () {
       $scope.settings.name = '';
       var newRecipe = newRecipeStats($scope);
@@ -215,6 +212,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       settings.solver = $scope.solver;
 
       $scope.profile.saveSynth($scope.settings.name, settings);
+      
+      $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
     $scope.saveSynthAs = function () {
@@ -230,6 +229,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         if (name == $scope.settings.name) {
           $scope.settings.name = '';
         }
+        $scope.savedSynthNames = $scope.profile.synthNames();
       }
     };
 
@@ -240,6 +240,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       if (name == $scope.settings.name) {
         $scope.settings.name = newName;
       }
+      $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
     $scope.isSynthDirty = function () {
