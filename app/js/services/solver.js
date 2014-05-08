@@ -7,6 +7,9 @@ var SolverService = function($timeout) {
 SolverService.$inject = ['$timeout'];
 
 SolverService.prototype.start = function(sequence, settings, progress, success, error) {
+  if (this.worker) {
+    this.worker.terminate();
+  }
   this.stopRequested = false;
   var worker = this.worker = new Worker('js/solverworker.js');
   var self = this;
@@ -15,7 +18,7 @@ SolverService.prototype.start = function(sequence, settings, progress, success, 
       self.$timeout(function() {
         progress(e.data.progress);
       });
-      if (!self.stopRequested && e.data.progress.generationsCompleted < settings.solver.generations) {
+      if (!self.stopRequested && e.data.progress.generationsCompleted < e.data.progress.maxGenerations) {
         worker.postMessage('rungen');
       }
       else {
@@ -23,7 +26,6 @@ SolverService.prototype.start = function(sequence, settings, progress, success, 
       }
     }
     else if (e.data.success) {
-      worker.terminate();
       self.$timeout(function() {
         success(e.data.success);
       });
@@ -47,6 +49,17 @@ SolverService.prototype.start = function(sequence, settings, progress, success, 
 
 SolverService.prototype.stop = function() {
   this.stopRequested = true;
+};
+
+SolverService.prototype.resume = function() {
+  if (this.worker) {
+    this.stopRequested = false;
+    this.worker.postMessage('resume');
+  }
+};
+
+SolverService.prototype.reset = function() {
+  this.worker.terminate();
 };
 
 angular.module('ffxivCraftOptWeb.services.solver', []).

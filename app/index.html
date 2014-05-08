@@ -278,14 +278,16 @@
                 <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorStatus.running">Edit Sequence...</button>
                 <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
                 <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
-                <button class="btn btn-primary" ng-click="runSolver()" ng-hide="solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Solve</button>
+                <button class="btn btn-primary" ng-click="runSolver()" ng-show="solverStatus.generationsCompleted == 0 && !solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Solve</button>
+                <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="solverStatus.state && !solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls) || solverStatus.error">Resume Solver</button>
+                <button class="btn btn-primary" ng-click="runSolver()" ng-show="solverStatus.state && !solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Restart Solver</button>
                 <button class="btn btn-danger" ng-click="stopSolver()" ng-show="solverStatus.running">Stop Solve</button>
               </div>
               <h4>Solver Result
                 <simulator-status class="solver-status" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
               </h4>
               <div ng-show="solverStatus.running">
-                <progressbar class="progress-striped active" value="solverStatus.generationsCompleted/solver.generations*100">{{solverStatus.generationsCompleted}}/{{solver.generations}}</progressbar>
+                <progressbar class="progress-striped active" value="solverStatus.generationsCompleted/solverStatus.maxGenerations*100">{{solverStatus.generationsCompleted}}/{{solverStatus.maxGenerations}}</progressbar>
               </div>
               <div ng-show="!solverStatus.running">
                 <div class="sequence well well-small" >

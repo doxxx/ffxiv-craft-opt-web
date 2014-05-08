@@ -7,9 +7,18 @@ importScripts('../lib/yagal/fitness.js');
 importScripts('../lib/yagal/toolbox.js');
 importScripts('../lib/yagal/algorithms.js');
 
+var state = {};
+
 self.onmessage = function(e) {
   if (e.data.start) {
     start(e.data.start);
+  }
+  else if (e.data == 'resume') {
+    if (state.gen >= state.maxGen) {
+      state.maxGen += state.settings.solver.generations;
+    }
+    state.logOutput.clear();
+    runOneGen();
   }
   else if (e.data == 'rungen') {
     runOneGen();
@@ -18,8 +27,6 @@ self.onmessage = function(e) {
     finish();
   }
 };
-
-var state = {};
 
 function start(settings) {
   var seed = Math.seed;
@@ -86,6 +93,9 @@ function start(settings) {
     log: '',
     write: function(msg) {
       logOutput.log += msg;
+    },
+    clear: function() {
+      logOutput.log = '';
     }
   };
 
@@ -115,7 +125,7 @@ function runOneGen() {
   state.gen += 1;
   state.pop = eaSimple_gen(state.pop, state.toolbox, 0.5, 0.2, state.hof);
 
-  postProgress(state.gen, state.hof.entries[0], state.synthNoConditions);
+  postProgress(state.gen, state.maxGen, state.hof.entries[0], state.synthNoConditions);
 }
 
 function finish() {
@@ -195,11 +205,12 @@ function eaSimple_gen(population, toolbox, cxpb, mutpb, hof) {
   return offspring;
 }
 
-function postProgress(gen, best, synthNoConditions) {
+function postProgress(gen, maxGen, best, synthNoConditions) {
   var currentState = MonteCarloSequence(best, synthNoConditions, true, false, false, false);
   self.postMessage({
     progress: {
       generationsCompleted: gen,
+      maxGenerations: maxGen,
       state: {
         quality: currentState.qualityState,
         durabilityOk: currentState.durabilityOk,

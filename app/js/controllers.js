@@ -432,6 +432,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.solverProgress = function (data) {
       $scope.solverStatus.generationsCompleted = data.generationsCompleted;
+      $scope.solverStatus.maxGenerations = data.maxGenerations;
       $scope.solverStatus.state = data.state;
       $scope.solverStatus.bestSequence = data.bestSequence;
     };
@@ -442,7 +443,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.simulatorTabs.solver.active = true;
       $scope.solverStatus.state = data.state;
       $scope.solverStatus.running = false;
-      $scope.solverStatus.generationsCompleted = 0;
     };
 
     $scope.solverError = function (data) {
@@ -458,6 +458,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.runSolver = function () {
       $scope.solverStatus.error = null;
       $scope.solverStatus.generationsCompleted = 0;
+      $scope.solverStatus.maxGenerations = $scope.solver.generations;
       $scope.solverStatus.state = null;
       $scope.solverResult.logText = "";
       $scope.solverResult.sequence = [];
@@ -477,6 +478,11 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
       $scope.solverStatus.running = true;
       _solver.start($scope.sequence, settings, $scope.solverProgress, $scope.solverSuccess, $scope.solverError);
+    };
+
+    $scope.resumeSolver = function() {
+      $scope.solverStatus.running = true;
+      _solver.resume();
     };
 
     $scope.stopSolver = function () {
