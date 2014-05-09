@@ -4,7 +4,7 @@
 
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
-  function ($scope, $http, $location, $modal, $document, $timeout, $filter, _getSolverServiceURL, _allClasses,
+  function ($scope, $http, $location, $modal, $document, $timeout, $filter, $state, _getSolverServiceURL, _allClasses,
     _actionGroups, _allActions, _getActionImagePath, _recipeLibrary, _localProfile, _simulator, _solver, _xivdbtooltips)
   {
     // provide access to constants

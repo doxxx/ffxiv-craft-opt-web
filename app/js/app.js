@@ -4,6 +4,7 @@
 angular.module('ffxivCraftOptWeb', [
   'ngTouch',
   'ui.bootstrap',
+  'ui.router',
   'lvl.directives.dragdrop',
   'ffxivCraftOptWeb.services',
   'ffxivCraftOptWeb.services.actions',
@@ -15,4 +16,28 @@ angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.directives',
   'ffxivCraftOptWeb.filters',
   'ffxivCraftOptWeb.controllers'
-]);
+], function($stateProvider, $urlRouterProvider) {
+  $urlRouterProvider.otherwise('/crafter');
+  $stateProvider
+    .state('crafter', {
+      url: '/crafter',
+      templateUrl: 'partials/crafter.html'
+    })
+    .state('synth', {
+      url: '/synth',
+      templateUrl: 'partials/synth.html'
+    })
+    .state('solver', {
+      url: '/solver',
+      templateUrl: 'partials/solver.html'
+    })
+    .state('instructions', {
+      url: '/instructions',
+      templateUrl: 'partials/instructions.html'
+    })
+    .state('about', {
+      url: '/about',
+      templateUrl: 'partials/about.html'
+    })
+});
+

@@ -1,0 +1,72 @@
+<h3>Crafter Details</h3>
+<hr/>
+<div class="row-fluid">
+  <div class="row-fluid">
+    <div class="btn-group">
+      <button class="btn btn-primary"
+              ng-model="crafter.cls"
+              btn-radio="class"
+              ng-repeat="class in allClasses"
+              tooltip="{{class}}"
+              tooltip-placement="top"
+              tooltip-append-to-body="true"
+              tooltip-popup-delay="200">
+        <img ng-src="img/classes/{{class}}.png"/>
+      </button>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="span6">
+      <form class="form-horizontal" name="crafterForm">
+        <fieldset>
+          <legend><small>{{crafter.cls}} Stats</small></legend>
+          <div class="control-group" ng-class="{error: !crafterForm.level.$valid}">
+            <label class="control-label">Level</label>
+            <div class="controls">
+              <input class="input-small" type="number" name="level" ng-model="crafter.stats[crafter.cls].level" min="1" max="50" required/>
+            </div>
+          </div>
+          <div class="control-group" ng-class="{error: !crafterForm.craftsmanship.$valid}">
+            <label class="control-label">Craftsmanship</label>
+            <div class="controls">
+              <input class="input-small" type="number" name="craftsmanship" ng-model="crafter.stats[crafter.cls].craftsmanship" min="0" required/>
+            </div>
+          </div>
+          <div class="control-group" ng-class="{error: !crafterForm.control.$valid}">
+            <label class="control-label">Control</label>
+            <div class="controls">
+              <input class="input-small" type="number" name="control" ng-model="crafter.stats[crafter.cls].control" min="0" required/>
+            </div>
+          </div>
+          <div class="control-group" ng-class="{error: !crafterForm.cp.$valid}">
+            <label class="control-label">CP</label>
+            <div class="controls">
+              <input class="input-small" type="number" name="cp" ng-model="crafter.stats[crafter.cls].cp" min="0" required/>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <div class="span6">
+      <form class="action-table">
+        <fieldset>
+          <legend><small>Available Actions</small></legend>
+          <div class="control-group" ng-repeat="actionGroup in actionGroups">
+            <label class="control-label">{{actionGroup.name}}</label>
+            <div class="controls">
+              <img ng-repeat="action in actionGroup.actions track by $index"
+                   class="action selectable-action"
+                   ng-class="actionClasses(action, crafter.cls)"
+                   ng-click="toggleAction(action)"
+                   ng-src="{{getActionImagePath(action, crafter.cls)}}"
+                   tooltip-html-unsafe="{{actionTooltip(action, crafter.cls)}}"
+                   tooltip-placement="left"
+                   tooltip-popup-delay="200"
+                   tooltip-append-to-body="true"/>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
