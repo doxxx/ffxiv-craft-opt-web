@@ -1,20 +1,14 @@
 <h3>Crafter Details</h3>
 <hr/>
-<div class="row-fluid">
-  <div class="row-fluid">
-    <div class="btn-group">
-      <button class="btn btn-primary"
-              ng-model="crafter.cls"
-              btn-radio="class"
-              ng-repeat="class in allClasses"
-              tooltip="{{class}}"
-              tooltip-placement="top"
-              tooltip-append-to-body="true"
-              tooltip-popup-delay="200">
-        <img ng-src="img/classes/{{class}}.png"/>
-      </button>
-    </div>
+<div class="sidebar">
+  <div class="tabbable tabs-left">
+    <ul class="nav nav-tabs">
+      <li ng-repeat="class in allClasses" ng-class="{active: crafter.cls===class}"><a
+        ng-click="crafter.cls = class"><img ng-src="img/classes/{{class}}.png"/> {{class}}</a></li>
+    </ul>
   </div>
+</div>
+<div class="well">
   <div class="row-fluid">
     <div class="span6">
       <form class="form-horizontal" name="crafterForm">
@@ -23,25 +17,25 @@
           <div class="control-group" ng-class="{error: !crafterForm.level.$valid}">
             <label class="control-label">Level</label>
             <div class="controls">
-              <input class="input-small" type="number" name="level" ng-model="crafter.stats[crafter.cls].level" min="1" max="50" required/>
+              <input class="input-mini" type="number" name="level" ng-model="crafter.stats[crafter.cls].level" min="1" max="50" required/>
             </div>
           </div>
           <div class="control-group" ng-class="{error: !crafterForm.craftsmanship.$valid}">
             <label class="control-label">Craftsmanship</label>
             <div class="controls">
-              <input class="input-small" type="number" name="craftsmanship" ng-model="crafter.stats[crafter.cls].craftsmanship" min="0" required/>
+              <input class="input-mini" type="number" name="craftsmanship" ng-model="crafter.stats[crafter.cls].craftsmanship" min="0" required/>
             </div>
           </div>
           <div class="control-group" ng-class="{error: !crafterForm.control.$valid}">
             <label class="control-label">Control</label>
             <div class="controls">
-              <input class="input-small" type="number" name="control" ng-model="crafter.stats[crafter.cls].control" min="0" required/>
+              <input class="input-mini" type="number" name="control" ng-model="crafter.stats[crafter.cls].control" min="0" required/>
             </div>
           </div>
           <div class="control-group" ng-class="{error: !crafterForm.cp.$valid}">
             <label class="control-label">CP</label>
             <div class="controls">
-              <input class="input-small" type="number" name="cp" ng-model="crafter.stats[crafter.cls].cp" min="0" required/>
+              <input class="input-mini" type="number" name="cp" ng-model="crafter.stats[crafter.cls].cp" min="0" required/>
             </div>
           </div>
         </fieldset>

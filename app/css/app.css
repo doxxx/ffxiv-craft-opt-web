@@ -410,3 +410,32 @@ legend + .control-group {
 .invisible {
   visibility: hidden;
 }
+
+.sidebar {
+  width: 160px;
+  float: left;
+  margin-top: 3px;
+}
+
+.sidebar .tabs-left>.nav-tabs {
+  margin-right: 0px;
+  border-right: none;
+}
+
+.sidebar .tabs-left>.nav-tabs>.active>a {
+  background-color: #eeeeee;
+  font-weight: bold;
+}
+
+.sidebar .tabs-left>.nav-tabs>li {
+  width: 160px;
+}
+
+.sidebar .tabs-left>.nav-tabs>li>a:hover {
+  border-right-color: transparent;
+}
+
+.sidebar + div {
+  overflow: hidden;
+  background-color: #eeeeee;
+}
