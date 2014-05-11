@@ -18,7 +18,6 @@ angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.controllers'
 ], function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/crafter');
-  $urlRouterProvider.when('/solver', '/solver/sequence');
   $stateProvider
     .state('crafter', {
       url: '/crafter',
@@ -32,13 +31,9 @@ angular.module('ffxivCraftOptWeb', [
       url: '/solver',
       templateUrl: 'partials/solver.html'
     })
-    .state('solver.solver-sequence', {
-      url: '/sequence',
-      templateUrl: 'partials/solver_sequence.html'
-    })
-    .state('solver.solver-options', {
+    .state('options', {
       url: '/options',
-      templateUrl: 'partials/solver_options.html'
+      templateUrl: 'partials/options.html'
     })
     .state('instructions', {
       url: '/instructions',
