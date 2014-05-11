@@ -1,13 +1,17 @@
-importScripts('seededrandom.js');
-importScripts('../lib/string/String.js');
-importScripts('ffxivcraftmodel.js');
-importScripts('../lib/yagal/creator.js');
-importScripts('../lib/yagal/tools.js');
-importScripts('../lib/yagal/fitness.js');
-importScripts('../lib/yagal/toolbox.js');
-importScripts('../lib/yagal/algorithms.js');
+importScripts('../../lib/string/String.js');
 
-var state = {};
+importScripts('../../lib/yagal/creator.js');
+importScripts('../../lib/yagal/tools.js');
+importScripts('../../lib/yagal/fitness.js');
+importScripts('../../lib/yagal/toolbox.js');
+importScripts('../../lib/yagal/algorithms.js');
+
+importScripts('../seededrandom.js');
+importScripts('../ffxivcraftmodel.js');
+
+importScripts('easimple.js');
+
+var state;
 
 self.onmessage = function(e) {
   if (e.data.start) {
@@ -77,11 +81,7 @@ function start(settings) {
   toolbox.register("randomLength", randomInt, seqMaxLength);
   toolbox.register("individual", yagal_tools.initRepeat, creator.Individual, toolbox.randomAction, toolbox.randomLength);
   toolbox.register("population", yagal_tools.initRepeat, Array, toolbox.individual);
-
   toolbox.register("evaluate", evalSeqWrapper, synth, settings.solver.penaltyWeight);
-  toolbox.register("mate", yagal_tools.cxRandomSubSeq, 0.5);
-  toolbox.register("mutate", yagal_tools.mutRandomSubSeq, 0.5, toolbox.randomActionSeq);
-  toolbox.register("select", yagal_tools.selTournament, 7);
 
   var pop = toolbox.population(settings.solver.population-1);
   var iniGuess = creator.Individual.apply(null, sequence);
@@ -103,11 +103,22 @@ function start(settings) {
 
   logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(seed, synth.useConditions));
 
-  eaSimple_setup(pop, toolbox, hof);
+  var algorithm = ALGORITHMS[settings.algorithm];
+  if (algorithm === undefined) {
+    self.postMessage({
+      error: {
+        error: 'No such algorithm: ' + settings.algorithm,
+        log: logOutput.log
+      }
+    });
+  }
+
+  algorithm.setup(pop, toolbox, hof);
 
   state = {
     settings: settings,
     logOutput: logOutput,
+    algorithm: algorithm,
     startTime: startTime,
     synth: synth,
     synthNoConditions: synthNoConditions,
@@ -123,7 +134,7 @@ function start(settings) {
 
 function runOneGen() {
   state.gen += 1;
-  state.pop = eaSimple_gen(state.pop, state.toolbox, 0.5, 0.2, state.hof);
+  state.pop = state.algorithm.gen(state.pop, state.toolbox, 0.5, 0.2, state.hof);
 
   postProgress(state.gen, state.maxGen, state.hof.entries[0], state.synthNoConditions);
 }
@@ -172,37 +183,6 @@ function finish() {
       bestSequence: actionSequenceToShortNames(best)
     }
   });
-}
-
-function eaSimple_setup(population, toolbox, hof) {
-  // evaluate fitness of starting population
-  var fitnessesValues = toolbox.map(toolbox.evaluate, population);
-  for (var i = 0; i < population.length; i++) {
-    population[i].fitness.setValues(fitnessesValues[i]);
-  }
-
-  if (hof !== undefined) {
-    hof.update(population);
-  }
-}
-
-function eaSimple_gen(population, toolbox, cxpb, mutpb, hof) {
-  var offspring = toolbox.select(population.length, population);
-
-  offspring = yagal_algorithms.varAnd(offspring, toolbox, cxpb, mutpb);
-
-  // evaluate individuals with invalid fitness
-  var invalidInd = offspring.filter(isFitnessInvalid);
-  var fitnessesValues = toolbox.map(toolbox.evaluate, invalidInd);
-  for (var j = 0; j < invalidInd.length; j++) {
-    invalidInd[j].fitness.setValues(fitnessesValues[j]);
-  }
-
-  if (hof !== undefined) {
-    hof.update(offspring);
-  }
-
-  return offspring;
 }
 
 function postProgress(gen, maxGen, best, synthNoConditions) {
