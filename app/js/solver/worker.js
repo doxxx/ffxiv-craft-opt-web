@@ -1,11 +1,15 @@
-importScripts('seededrandom.js');
-importScripts('../lib/string/String.js');
-importScripts('ffxivcraftmodel.js');
-importScripts('../lib/yagal/creator.js');
-importScripts('../lib/yagal/tools.js');
-importScripts('../lib/yagal/fitness.js');
-importScripts('../lib/yagal/toolbox.js');
-importScripts('../lib/yagal/algorithms.js');
+importScripts('../../lib/string/String.js');
+
+importScripts('../../lib/yagal/creator.js');
+importScripts('../../lib/yagal/tools.js');
+importScripts('../../lib/yagal/fitness.js');
+importScripts('../../lib/yagal/toolbox.js');
+importScripts('../../lib/yagal/algorithms.js');
+
+importScripts('../seededrandom.js');
+importScripts('../ffxivcraftmodel.js');
+
+importScripts('easimple.js');
 
 var state;
 
@@ -180,47 +184,6 @@ function finish() {
     }
   });
 }
-
-var ALGORITHMS = {
-  eaSimple: {
-    setup: function eaSimple_setup(population, toolbox, hof) {
-      // initialize functions
-      toolbox.register("mate", yagal_tools.cxRandomSubSeq, 0.5);
-      toolbox.register("mutate", yagal_tools.mutRandomSubSeq, 0.5, toolbox.randomActionSeq);
-      toolbox.register("select", yagal_tools.selTournament, 7);
-
-      // evaluate fitness of starting population
-      var fitnessesValues = toolbox.map(toolbox.evaluate, population);
-      for (var i = 0; i < population.length; i++) {
-        population[i].fitness.setValues(fitnessesValues[i]);
-      }
-
-      if (hof !== undefined) {
-        hof.update(population);
-      }
-    },
-    gen: function eaSimple_gen(population, toolbox, cxpb, mutpb, hof) {
-      var offspring = toolbox.select(population.length, population);
-
-      offspring = yagal_algorithms.varAnd(offspring, toolbox, cxpb, mutpb);
-
-      // evaluate individuals with invalid fitness
-      var invalidInd = offspring.filter(isFitnessInvalid);
-      var fitnessesValues = toolbox.map(toolbox.evaluate, invalidInd);
-      for (var j = 0; j < invalidInd.length; j++) {
-        invalidInd[j].fitness.setValues(fitnessesValues[j]);
-      }
-
-      if (hof !== undefined) {
-        hof.update(offspring);
-      }
-
-      return offspring;
-    }
-  }
-};
-
-
 
 function postProgress(gen, maxGen, best, synthNoConditions) {
   var currentState = MonteCarloSequence(best, synthNoConditions, true, false, false, false);

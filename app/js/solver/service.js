@@ -3,7 +3,7 @@
 var SolverService = function($timeout) {
   this.$timeout = $timeout;
 
-  this.worker = new Worker('js/solverworker.js');
+  this.worker = new Worker('js/solver/worker.js');
 
   var self = this,
     worker = this.worker;
