@@ -466,6 +466,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: $scope.recipe,
         sequence: $scope.sequence,
+        algorithm: 'eaSimple',
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
