@@ -7,7 +7,7 @@ importScripts('../lib/yagal/fitness.js');
 importScripts('../lib/yagal/toolbox.js');
 importScripts('../lib/yagal/algorithms.js');
 
-var state = {};
+var state;
 
 self.onmessage = function(e) {
   if (e.data.start) {
