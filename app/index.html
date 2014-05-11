@@ -343,6 +343,14 @@
                         </div>
                       </div>
                       <div class="span6">
+                        <div class="control-group" ng-class="{error: !simulatorOptionsForm.algorithm.$valid}">
+                          <label class="control-label">Algorithm:</label>
+                          <div class="controls">
+                            <select class="input-medium" name="algorithm" ng-model="solver.algorithm" required>
+                              <option>eaSimple</option>
+                            </select>
+                          </div>
+                        </div>
                         <div class="control-group" ng-class="{error: !simulatorOptionsForm.population.$valid}">
                           <label class="control-label">Population:</label>
                           <div class="controls">

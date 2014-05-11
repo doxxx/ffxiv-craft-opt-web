@@ -466,7 +466,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: $scope.recipe,
         sequence: $scope.sequence,
-        algorithm: 'eaSimple',
+        algorithm: $scope.solver.algorithm,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
@@ -536,6 +536,7 @@ function initPageStateDefaults($scope) {
   };
 
   $scope.solver = {
+    algorithm: 'eaSimple',
     penaltyWeight: 10000,
     population: 300,
     generations: 100
