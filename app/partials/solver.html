@@ -39,11 +39,14 @@
     <h4>Solver Result
       <simulator-status class="solver-status" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
     </h4>
-    <div ng-show="solverStatus.running">
-      <progressbar class="progress-striped active" value="solverStatus.generationsCompleted/solverStatus.maxGenerations*100">{{solverStatus.generationsCompleted}}/{{solverStatus.maxGenerations}}</progressbar>
-    </div>
-    <div ng-show="!solverStatus.running">
-      <div class="sequence well well-small" >
+    <div class="sequence well well-small">
+      <div ng-show="solverStatus.running">
+        <progressbar class="progress-striped active"
+                     value="solverStatus.generationsCompleted/solverStatus.maxGenerations*100">
+          {{solverStatus.generationsCompleted}}/{{solverStatus.maxGenerations}}
+        </progressbar>
+      </div>
+      <div ng-show="!solverStatus.running">
         <div ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
           <img ng-repeat="action in solverResult.sequence track by $index"
                class="action"
@@ -56,7 +59,7 @@
         </div>
       </div>
     </div>
-    <div class="control-group" ng-show="solverResult.sequence.length > 0">
+    <div class="control-group" ng-disabled="!solverResult.sequence || solverResult.sequence.length == 0">
       <button class="btn btn-warning"
               ng-disabled="solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
               ng-click="useSolverResult()">Use Solver Result

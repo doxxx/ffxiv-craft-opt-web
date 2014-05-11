@@ -303,7 +303,7 @@ legend + .control-group {
 /* Action Sequence */
 
 .sequence {
-  min-height: 49px;
+  min-height: 50px;
   margin-bottom: 10px;
 }
 
@@ -315,7 +315,10 @@ legend + .control-group {
   opacity: 0.4;
 }
 
-
+.sequence .progress {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 /* Sequence Editor */
 
