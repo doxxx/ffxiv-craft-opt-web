@@ -352,7 +352,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
                 durabilityState += 10;
             }
 
-            if ((AllActions.comfortZone.name in effects.countDowns) && (cpState > 0)) {
+            if (isActionNe(action, AllActions.comfortZone) && (AllActions.comfortZone.name in effects.countDowns) && (cpState > 0)) {
                 cpState += 8;
             }
 
@@ -733,7 +733,7 @@ function MonteCarloSynth(individual, synth, assumeSuccess, verbose, debug, logOu
                 durabilityState += 10;
             }
 
-            if (AllActions.comfortZone.name in effects.countDowns && cpState > 0) {
+            if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.name in effects.countDowns && cpState > 0) {
                 cpState += 8;
             }
 
