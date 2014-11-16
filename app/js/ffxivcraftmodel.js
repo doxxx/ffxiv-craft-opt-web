@@ -299,7 +299,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             bProgressGain = 40;
         }
         else if (isActionEq(action, AllActions.pieceByPiece)) {
-            bProgressGain = (synth.recipe.difficulty - progressState)/3;
+            bProgressGain = (synth.recipe.difficulty - progressState)*0.33;
         }
         var progressGain = bProgressGain;
 
@@ -680,7 +680,7 @@ function MonteCarloSynth(individual, synth, assumeSuccess, verbose, debug, logOu
             bProgressGain = 40;
         }
         else if (isActionEq(action, AllActions.pieceByPiece)) {
-            bProgressGain = (synth.recipe.difficulty - progressState)/3;
+            bProgressGain = (synth.recipe.difficulty - progressState)*0.33;
         }
         var progressGain = success * bProgressGain;
 
