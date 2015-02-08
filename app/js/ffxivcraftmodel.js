@@ -356,7 +356,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
                 cpState += 8;
             }
 
-            if ((isActionEq(action, AllActions.rumination)) && (cpState > 0)) {
+            if ((isActionEq(action, AllActions.rumination)) && (cpState >= 0)) {
                 if ((AllActions.innerQuiet.name in effects.countUps) && (effects.countUps[AllActions.innerQuiet.name] > 0)) {
                     cpState += (21 * effects.countUps[AllActions.innerQuiet.name] - Math.pow(effects.countUps[AllActions.innerQuiet.name],2) + 10)/2;
                     delete effects.countUps[AllActions.innerQuiet.name];
@@ -737,7 +737,7 @@ function MonteCarloSynth(individual, synth, assumeSuccess, verbose, debug, logOu
                 cpState += 8;
             }
 
-            if (isActionEq(action, AllActions.rumination) && cpState > 0) {
+            if (isActionEq(action, AllActions.rumination) && cpState >= 0) {
                 if (AllActions.innerQuiet.name in effects.countUps && effects.countUps[AllActions.innerQuiet.name] > 0) {
                     cpState += (21 * effects.countUps[AllActions.innerQuiet.name] - Math.pow(effects.countUps[AllActions.innerQuiet.name],2) + 10)/2;
                     delete effects.countUps[AllActions.innerQuiet.name];
