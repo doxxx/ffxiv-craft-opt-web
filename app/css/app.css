@@ -322,42 +322,16 @@ legend + .control-group {
 
 /* Sequence Editor */
 
-.sequence-editor {
-  width: 565px;
+.edit-mode {
+  background-color: mistyrose;
 }
 
-.sequence-editor .modal-body {
-  max-height: 650px;
-  overflow: visible;
+.edit-mode .sequence.well {
+  border: 1px solid #f3c8c8;
 }
 
-.sequence-editor .modal-body .sequence {
-  max-height: 150px;
-  overflow-y: auto;
-}
-
-.sequence-editor .modal-body .simulator-status {
-  text-align: center;
-}
-
-.sequence-editor .modal-body simulator-status {
-  color: white;
-}
-
-.sequence-editor .modal-body .simulator-status.simulator-status-ok {
-  background-color: forestgreen;
-}
-
-.sequence-editor .modal-body .simulator-status.simulator-status-error {
-  background-color: crimson;
-}
-
-.sequence-editor .modal-body .simulator-status .simulator-status-ok {
-  color: white;
-}
-
-.sequence-editor .modal-body .simulator-status .simulator-status-error {
-  color: white;
+.edit-mode .sequence-editor .sequence {
+  background-color: mistyrose;
 }
 
 .sequence-editor .action {

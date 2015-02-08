@@ -2,8 +2,7 @@
 
 angular.module('ffxivCraftOptWeb.controllers')
   .controller('SequenceEditorCtrl',
-  function ($scope, $modalInstance, $http, _actionGroups, _allActions, _getActionImagePath, _simulator, actionTooltips,
-    origSequence, recipe, crafterStats, bonusStats, sequenceSettings)
+  function ($scope, $http, _actionGroups, _allActions, _getActionImagePath, _simulator)
   {
     $scope.actionGroups = _actionGroups;
     $scope.allActions = {};
@@ -12,14 +11,30 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.allActions[action.shortName] = action;
     }
     $scope.getActionImagePath = _getActionImagePath;
-    $scope.actionTooltips = actionTooltips;
-    $scope.sequence = angular.copy(origSequence);
-    $scope.availableActions = crafterStats.actions;
-    $scope.recipe = recipe;
+
+    $scope.origSequence = [];
+    $scope.sequence = [];
+    $scope.availableActions = [];
+    $scope.recipe = {};
+    $scope.bonusStats = {};
+    $scope.crafterStats = {};
+    $scope.sequenceSettings = {};
     $scope.simulationResult = {};
 
-    $scope.$watchCollection('sequence', function () {
-      $scope.simulate();
+
+    $scope.$on('sequence.editor.init', function (event, origSequence, recipe, crafterStats, bonusStats, sequenceSettings) {
+      $scope.origSequence = origSequence;
+      $scope.sequence = angular.copy(origSequence);
+      $scope.availableActions = crafterStats.actions;
+      $scope.recipe = recipe;
+      $scope.bonusStats = bonusStats;
+      $scope.crafterStats = crafterStats;
+      $scope.sequenceSettings = sequenceSettings;
+      $scope.simulationResult = {};
+
+      $scope.unwatchSequence = $scope.$watchCollection('sequence', function () {
+        $scope.simulate();
+      });
     });
 
     $scope.isActionSelected = function (action) {
@@ -104,7 +119,7 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.isSequenceDirty = function () {
-      return !angular.equals($scope.sequence, origSequence);
+      return !angular.equals($scope.sequence, $scope.origSequence);
     };
 
     $scope.isSimulationResultOk = function () {
@@ -118,30 +133,35 @@ angular.module('ffxivCraftOptWeb.controllers')
         return;
       }
       var settings = {
-        crafter: addBonusStats(crafterStats, bonusStats),
-        recipe: recipe,
+        crafter: addBonusStats($scope.crafterStats, $scope.bonusStats),
+        recipe: $scope.recipe,
         sequence: $scope.sequence,
-        maxTricksUses: sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: sequenceSettings.maxMontecarloRuns
+        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
+        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns
       };
-      if (sequenceSettings.specifySeed) {
-        settings.seed = sequenceSettings.seed;
+      if ($scope.sequenceSettings.specifySeed) {
+        settings.seed = $scope.sequenceSettings.seed;
       }
 
       $scope.simulationResult.running = true;
       _simulator.start(settings, $scope.simulationSuccess, $scope.simulationError);
+      $scope.$emit('sequence.editor.simulation.start', $scope.sequence)
     };
 
     $scope.simulationSuccess = function (data) {
       $scope.simulationResult.state = data.state;
-      $scope.simulationResult.error = null;
+      $scope.simulationResult.error = undefined;
       $scope.simulationResult.running = false;
+
+      $scope.$emit('sequence.editor.simulation.success', data.state);
     };
 
     $scope.simulationError = function (data) {
-      $scope.simulationResult.state = null;
+      $scope.simulationResult.state = undefined;
       $scope.simulationResult.error = data.error;
       $scope.simulationResult.running = false;
+
+      $scope.$emit('sequence.editor.simulation.error', data.error);
     };
 
     $scope.clear = function () {
@@ -149,15 +169,19 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.revert = function () {
-      $scope.sequence = angular.copy(origSequence);
+      $scope.sequence = angular.copy($scope.origSequence);
     };
 
     $scope.save = function () {
-      $modalInstance.close($scope.sequence);
+      $scope.$emit('sequence.editor.save', $scope.sequence);
+
+      $scope.unwatchSequence();
     };
 
     $scope.cancel = function () {
-      $modalInstance.dismiss('cancel');
+      $scope.$emit('sequence.editor.cancel');
+
+      $scope.unwatchSequence();
     }
   });
 

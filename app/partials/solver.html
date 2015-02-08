@@ -1,77 +1,143 @@
 <h3>Solver</h3>
 <hr/>
-<div class="well">
+<h4>Sequence
+  <simulator-status class="initial-guess" recipe="recipe" status="simulatorStatus" valid="isValidSequence(simulatorStatus.sequence, recipe.cls)"></simulator-status>
+</h4>
+<div class="well" ng-class="{'edit-mode': editingSequence}">
   <div class="row-fluid">
-    <h4>Initial Guess
-      <simulator-status class="initial-guess" recipe="recipe" status="simulatorStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
-    </h4>
-    <div class="sequence well well-small">
-      <img ng-repeat="action in sequence track by $index"
-           class="action"
-           ng-class="actionClasses(action, recipe.cls)"
-           ng-src="{{getActionImagePath(action, recipe.cls)}}"
-           tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
-           tooltip-placement="right"
-           tooltip-popup-delay="200"
-           tooltip-append-to-body="true"/>
-    </div>
-    <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
-      <h5>Required Cross Class Actions</h5>
+    <div class="sequence-editor" ng-show="editingSequence" ng-controller="SequenceEditorCtrl">
       <div class="sequence well well-small">
-        <img ng-repeat="action in uniqueCrossClassActions(sequence, recipe.cls) track by $index"
-             class="action"
+<!--
+        <div class="simulator-status" ng-class="{'simulator-status-ok': isSimulationResultOk(), 'simulator-status-error': !isSimulationResultOk()}">
+          <simulator-status recipe="recipe" status="simulationResult" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
+        </div>
+-->
+        <img ng-repeat="action in sequence track by $index"
+             class="action selectable-action"
+             ng-class="actionClasses(action, recipe.cls)"
              ng-src="{{getActionImagePath(action, recipe.cls)}}"
-             tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
+             ng-click="removeAction($index)"
+             lvl-draggable="true"
+             lvl-drop-target="true"
+             data-index="{{$index}}"
+             on-drop="dropAction(dragEl, dropEl)"/>
+
+<!--
+        <div class="empty-action" lvl-drop-target="true"
+             data-index="{{sequence.length}}"
+             on-drop="dropAction(dragEl, dropEl)"/>
+-->
+      </div>
+      <div class="control-group">
+        <button class="btn btn-warning" ng-disabled="sequence.length == 0" ng-click="clear()">Clear</button>
+        <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">Revert</button>
+        <button class="btn btn-primary" ng-disabled="!isSequenceDirty()" ng-click="save()">Save</button>
+        <button class="btn" ng-click="cancel()">Cancel</button>
+      </div>
+      <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
+        <h5>Required Cross Class Actions</h5>
+        <div class="sequence well well-small">
+          <img ng-repeat="action in uniqueCrossClassActions(sequence, recipe.cls) track by $index"
+               class="action"
+               ng-src="{{getActionImagePath(action, recipe.cls)}}"
+               tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
+               tooltip-placement="right"
+               tooltip-popup-delay="200"
+               tooltip-append-to-body="true"/>
+        </div>
+      </div>
+      <h5>Available Actions</h5>
+      <div class="action-table">
+        <div class="control-group" ng-repeat="actionGroup in actionGroups">
+          <label class="control-label">{{actionGroup.name}}</label>
+          <div class="controls">
+            <img ng-repeat="action in actionGroup.actions track by $index"
+                 class="action selectable-action"
+                 ng-class="actionClasses(action, recipe.cls)"
+                 ng-show="isActionSelected(action)"
+                 ng-src="{{getActionImagePath(action, recipe.cls)}}"
+                 ng-click="addAction(action)"
+                 tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
+                 tooltip-placement="right"
+                 tooltip-popup-delay="200"
+                 lvl-draggable="true"
+                 data-new-action="{{action}}"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div ng-show="!editingSequence">
+      <div class="sequence well well-small">
+        <img ng-repeat="action in sequence track by $index"
+             class="action"
+             ng-class="actionClasses(action, recipe.cls)"
+             ng-src="{{getActionImagePath(action, recipe.cls)}}"
+             tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
              tooltip-placement="right"
              tooltip-popup-delay="200"
              tooltip-append-to-body="true"/>
       </div>
-    </div>
-    <div class="control-group">
-      <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorStatus.running">Edit Sequence...</button>
-      <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
-      <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
-      <button class="btn btn-primary" ng-click="runSolver()" ng-show="solverStatus.generationsCompleted == 0 && !solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Solve</button>
-      <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="solverStatus.state && !solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls) || solverStatus.error">Resume Solver</button>
-      <button class="btn btn-primary" ng-click="runSolver()" ng-show="solverStatus.state && !solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Restart Solver</button>
-      <button class="btn btn-danger" ng-click="stopSolver()" ng-show="solverStatus.running">Stop Solve</button>
-    </div>
-    <h4>Solver Result
-      <simulator-status class="solver-status" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
-    </h4>
-    <div class="sequence well well-small">
-      <div ng-show="solverStatus.running">
-        <progressbar class="progress-striped active"
-                     value="solverStatus.generationsCompleted/solverStatus.maxGenerations*100">
-          {{solverStatus.generationsCompleted}}/{{solverStatus.maxGenerations}}
-        </progressbar>
+      <div class="control-group">
+        <button class="btn btn-primary" ng-click="editSequenceInline()" ng-disabled="simulatorStatus.running">Edit...</button>
+        <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
+        <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
       </div>
-      <div ng-show="!solverStatus.running">
-        <div ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
-          <img ng-repeat="action in solverResult.sequence track by $index"
+      <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
+        <h5>Required Cross Class Actions</h5>
+        <div class="sequence well well-small">
+          <img ng-repeat="action in uniqueCrossClassActions(sequence, recipe.cls) track by $index"
                class="action"
-               ng-class="actionClasses(action, recipe.cls)"
                ng-src="{{getActionImagePath(action, recipe.cls)}}"
                tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-               tooltip-placement="top"
+               tooltip-placement="right"
                tooltip-popup-delay="200"
                tooltip-append-to-body="true"/>
         </div>
       </div>
     </div>
-    <div class="control-group" ng-disabled="!solverResult.sequence || solverResult.sequence.length == 0">
-      <button class="btn btn-warning"
-              ng-disabled="solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
-              ng-click="useSolverResult()">Use Solver Result
-      </button>
-    </div>
   </div>
 </div>
-<tabset>
-  <tab heading="Simulation Log" active="simulatorTabs.simulation.active">
-    <pre>{{simulatorStatus.logText}}</pre>
-  </tab>
-  <tab heading="Solver Log" active="simulatorTabs.solver.active">
-    <pre>{{solverResult.logText}}</pre>
-  </tab>
-</tabset>
+<div class="row-fluid">
+  <h4>Solver Result
+    <simulator-status class="solver-status" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
+  </h4>
+  <div class="control-group">
+    <button class="btn btn-primary" ng-click="startSolver()" ng-show="solverStatus.generationsCompleted == 0 && !solverStatus.running" ng-disabled="!allForms.$valid || editingSequence || !isValidSequence(sequence, recipe.cls)">Start/Stop Solver</button>
+    <button class="btn btn-primary" ng-click="stopSolver()" ng-show="solverStatus.running" ng-disabled="editingSequence">Start/Stop Solver</button>
+    <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="solverStatus.state && !solverStatus.running" ng-disabled="!allForms.$valid || editingSequence || !isValidSequence(sequence, recipe.cls) || solverStatus.error">Start/Stop Solver</button>
+    <button class="btn btn-danger" ng-click="resetSolver()" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls) || editingSequence || !(solverStatus.state && !solverStatus.running)">Reset Solver</button>
+    <button class="btn btn-warning"
+            ng-disabled="!solverResult.sequence || solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
+            ng-click="useSolverResult()">Use Solver Result
+    </button>
+  </div>
+  <div class="sequence well well-small">
+    <div ng-show="solverStatus.running">
+      <progressbar class="progress-striped active"
+                   value="solverStatus.generationsCompleted/solverStatus.maxGenerations*100">
+        {{solverStatus.generationsCompleted}}/{{solverStatus.maxGenerations}}
+      </progressbar>
+    </div>
+    <div ng-show="!solverStatus.running">
+      <div ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
+        <img ng-repeat="action in solverResult.sequence track by $index"
+             class="action"
+             ng-class="actionClasses(action, recipe.cls)"
+             ng-src="{{getActionImagePath(action, recipe.cls)}}"
+             tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
+             tooltip-placement="top"
+             tooltip-popup-delay="200"
+             tooltip-append-to-body="true"/>
+      </div>
+    </div>
+  </div>
+  <tabset>
+    <tab heading="Simulation Log" active="simulatorTabs.simulation.active">
+      <pre>{{simulatorStatus.logText}}</pre>
+    </tab>
+    <tab heading="Solver Log" active="simulatorTabs.solver.active">
+      <pre>{{solverResult.logText}}</pre>
+    </tab>
+  </tabset>
+</div>
+

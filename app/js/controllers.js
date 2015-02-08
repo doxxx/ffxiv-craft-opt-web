@@ -40,6 +40,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     // non-persistent page states
     $scope.navBarCollapsed = true;
+    $scope.editingSequence = false;
 
     $scope.recipeSearch = {
       list: [],
@@ -49,14 +50,16 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.simulatorStatus = {
       logText: '',
-      state: null,
-      error: null,
       running: false
     };
 
     $scope.solverStatus = {
       running: false,
       generationsCompleted: 0,
+      maxGenerations: 0,
+      state: null,
+      logText: '',
+      sequence: [],
       error: null
     };
 
@@ -134,6 +137,34 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         saveLocalPageState($scope);
       });
     };
+
+    $scope.$on('sequence.editor.save', function (event, newSequence) {
+      $scope.editingSequence = false;
+      $scope.sequence = angular.copy(newSequence);
+      $scope.runSimulation();
+    });
+
+    $scope.$on('sequence.editor.cancel', function () {
+      $scope.editingSequence = false;
+      $scope.runSimulation();
+    });
+
+    $scope.$on('sequence.editor.simulation.start', function (event, sequence) {
+      $scope.simulatorStatus.sequence = sequence;
+      $scope.simulatorStatus.running = true;
+    });
+
+    $scope.$on('sequence.editor.simulation.success', function (event, state) {
+      $scope.simulatorStatus.state = state;
+      $scope.simulatorStatus.error = undefined;
+      $scope.simulatorStatus.running = false;
+    });
+
+    $scope.$on('sequence.editor.simulation.error', function (event, error) {
+      $scope.simulatorStatus.state = undefined;
+      $scope.simulatorStatus.error = error;
+      $scope.simulatorStatus.running = false;
+    });
 
     // data model interaction functions
     $scope.recipesForClass = function (cls) {
@@ -348,23 +379,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       });
     };
 
-    $scope.editSequence = function () {
-      var modalInstance = $modal.open({
-        templateUrl: 'partials/sequence-editor.html',
-        controller: 'SequenceEditorCtrl',
-        windowClass: 'sequence-editor',
-        resolve: {
-          actionTooltips: function () { return $scope.actionTooltips; },
-          origSequence: function () { return $scope.sequence; },
-          recipe: function () { return $scope.recipe; },
-          crafterStats: function () { return $scope.crafter.stats[$scope.recipe.cls]; },
-          bonusStats: function () { return $scope.bonusStats; },
-          sequenceSettings: function () { return $scope.sequenceSettings; }
-        }
-      });
-      modalInstance.result.then(function (result) {
-        $scope.sequence = angular.copy(result)
-      });
+    $scope.editSequenceInline = function () {
+      $scope.editingSequence = true;
+      $scope.$broadcast('sequence.editor.init', $scope.sequence,  $scope.recipe, $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings)
     };
 
     $scope.showMacroModal = function () {
@@ -393,16 +410,19 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     // Web Service API
 
     $scope.simulationSuccess = function (data) {
+      $scope.simulatorStatus.sequence = $scope.sequence;
       $scope.simulatorStatus.logText = data.log;
       $scope.simulatorStatus.state = data.state;
-      $scope.simulatorStatus.error = null;
+      $scope.simulatorStatus.error = undefined;
       $scope.simulatorTabs.simulation.active = true;
       $scope.simulatorStatus.running = false;
     };
 
     $scope.simulationError = function (data) {
+      $scope.simulatorStatus.sequence = $scope.sequence;
       $scope.simulatorStatus.logText = data.log;
       $scope.simulatorStatus.logText += '\n\nError: ' + data.error;
+      $scope.simulatorStatus.state = undefined;
       $scope.simulatorStatus.error = data.error;
       $scope.simulatorTabs.simulation.active = true;
       $scope.simulatorStatus.running = false;
@@ -455,13 +475,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.solverStatus.generationsCompleted = 0;
     };
 
-    $scope.runSolver = function () {
-      $scope.solverStatus.error = null;
-      $scope.solverStatus.generationsCompleted = 0;
-      $scope.solverStatus.maxGenerations = $scope.solver.generations;
-      $scope.solverStatus.state = null;
-      $scope.solverResult.logText = "";
-      $scope.solverResult.sequence = [];
+    $scope.startSolver = function () {
       var settings = {
         crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: $scope.recipe,
@@ -479,6 +493,15 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
       $scope.solverStatus.running = true;
       _solver.start($scope.sequence, settings, $scope.solverProgress, $scope.solverSuccess, $scope.solverError);
+    };
+
+    $scope.resetSolver = function() {
+      $scope.solverStatus.error = null;
+      $scope.solverStatus.generationsCompleted = 0;
+      $scope.solverStatus.maxGenerations = $scope.solver.generations;
+      $scope.solverStatus.state = null;
+      $scope.solverResult.logText = "";
+      $scope.solverResult.sequence = [];
     };
 
     $scope.resumeSolver = function() {
