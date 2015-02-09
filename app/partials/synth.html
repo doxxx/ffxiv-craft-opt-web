@@ -55,9 +55,11 @@
             <label class="control-label">Recipe</label>
             <div class="controls">
               <div class="my-dropdown">
-                <div class="nowrap">
-                  <span class="uneditable-input span4 my-dropdown-toggle">{{recipe.name}}</span>
-                  <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
+                <div class="input-append">
+                  <span class="uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
+                  <div class="btn-group">
+                    <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
+                  </div>
                 </div>
                 <div class="my-dropdown-menu">
                   <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="recipeSearch.text"
