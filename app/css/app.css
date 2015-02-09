@@ -1,5 +1,11 @@
 /* app css stylesheet */
 
+.page-title {
+  margin-top: 0;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+}
+
 .nowrap {
   white-space: nowrap;
 }
