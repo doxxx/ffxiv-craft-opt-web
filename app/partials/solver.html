@@ -28,10 +28,10 @@
 -->
       </div>
       <div class="control-group">
-        <button class="btn btn-warning" ng-disabled="sequence.length == 0" ng-click="clear()">Clear</button>
-        <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">Revert</button>
-        <button class="btn btn-primary" ng-disabled="!isSequenceDirty()" ng-click="save()">Save</button>
         <button class="btn" ng-click="cancel()">Cancel</button>
+        <button class="btn btn-primary" ng-disabled="!isSequenceDirty()" ng-click="save()">Save</button>
+        <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">Revert</button>
+        <button class="btn btn-warning" ng-disabled="sequence.length == 0" ng-click="clear()">Clear</button>
       </div>
       <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
         <h5>Required Cross Class Actions</h5>
