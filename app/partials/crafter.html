@@ -1,10 +1,32 @@
 <h3 class="page-title">Crafter Details</h3>
-<div class="sidebar">
-  <div class="tabbable tabs-left">
-    <ul class="nav nav-tabs">
-      <li ng-repeat="class in allClasses" ng-class="{active: crafter.cls===class}"><a
-        ng-click="crafter.cls = class"><img ng-src="img/classes/{{class}}.png"/> {{class}}</a></li>
-    </ul>
+<div class="row-fluid class-selector-group">
+  <div class="class-selector-group-left">
+    <div class="btn-group">
+      <button class="btn btn-primary"
+              ng-model="crafter.cls"
+              btn-radio="class"
+              ng-repeat="class in splitClasses[0]"
+              tooltip="{{class}}"
+              tooltip-class="class-selector"
+              tooltip-placement="top"
+              tooltip-popup-delay="200">
+        <img ng-src="img/classes/{{class}}.png"/>
+      </button>
+    </div>
+  </div>
+  <div class="class-selector-group-right">
+    <div class="btn-group">
+      <button class="btn btn-primary"
+              ng-model="crafter.cls"
+              btn-radio="class"
+              ng-repeat="class in splitClasses[1]"
+              tooltip="{{class}}"
+              tooltip-class="class-selector"
+              tooltip-placement="top"
+              tooltip-popup-delay="200">
+        <img ng-src="img/classes/{{class}}.png"/>
+      </button>
+    </div>
   </div>
 </div>
 <div class="well">

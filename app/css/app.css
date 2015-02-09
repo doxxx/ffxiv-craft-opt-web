@@ -52,12 +52,9 @@ legend small > .light {
   font-weight: bold;
 }
 
-.btn-group {
-  margin-bottom: 20px;
-}
-
 .settings-buttons {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .settings-buttons div {
@@ -233,6 +230,63 @@ legend small > .light {
 
 .open > .my-dropdown-menu {
   display: block;
+}
+
+
+/* Class Selector */
+
+.class-selector-group {
+  margin-bottom: 10px;
+}
+
+.class-selector-group-left {
+  width: 49%;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  text-align: right;
+  display: inline-block;
+}
+
+.class-selector-group-right {
+  width: 49%;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  text-align: left;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .class-selector-group-left {
+    width: 100%;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .class-selector-group-right {
+    width: 100%;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+  }
+}
+
+.class-selector .btn-group {
+  margin-bottom: 5px;
+}
+
+.class-selector .tooltip-inner {
+  max-width: 200px;
+  padding: 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.class-selector .tooltip-arrow {
+  display: inline;
 }
 
 

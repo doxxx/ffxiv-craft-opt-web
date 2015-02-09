@@ -12,6 +12,10 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.actionGroups = _actionGroups;
     $scope.getActionImagePath = _getActionImagePath;
 
+    // split class list into two groups
+    $scope.splitClasses = [_allClasses.slice(0, _allClasses.length/2),
+                           _allClasses.slice(_allClasses.length/2, _allClasses.length)];
+
     $scope.allActions = {};
     $scope.actionTooltips = {};
 
