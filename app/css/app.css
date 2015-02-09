@@ -255,6 +255,26 @@ legend small > .light {
 
 /* Action Table */
 
+.action-table .action-group {
+  margin-bottom: 5px;
+}
+
+.action-table .action-group-label {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.action-table .action {
+  opacity: 0.4;
+}
+
+.action-table .selected-action {
+  opacity: 1;
+  box-shadow: #00aaff 1px 1px 5px 1px;
+}
+
+
+
 legend + .control-group {
   margin-top: 20px;
   -webkit-margin-top-collapse: separate;
@@ -295,14 +315,6 @@ legend + .control-group {
   *padding-left: 120px;
 }
 
-.action-table .action {
-  opacity: 0.4;
-}
-
-.action-table .selected-action {
-  opacity: 1;
-  box-shadow: #00aaff 1px 1px 5px 1px;
-}
 
 
 

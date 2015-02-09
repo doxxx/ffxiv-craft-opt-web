@@ -47,9 +47,9 @@
       </div>
       <h5>Available Actions</h5>
       <div class="action-table">
-        <div class="control-group" ng-repeat="actionGroup in actionGroups">
-          <label class="control-label">{{actionGroup.name}}</label>
-          <div class="controls">
+        <div class="action-group" ng-repeat="actionGroup in actionGroups">
+          <label class="action-group-label">{{actionGroup.name}}</label>
+          <div class="action-group-actions">
             <img ng-repeat="action in actionGroup.actions track by $index"
                  class="action selectable-action"
                  ng-class="actionClasses(action, recipe.cls)"
