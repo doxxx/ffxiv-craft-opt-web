@@ -6,11 +6,6 @@
   <div class="row-fluid">
     <div class="sequence-editor" ng-show="editingSequence" ng-controller="SequenceEditorCtrl">
       <div class="sequence well well-small">
-<!--
-        <div class="simulator-status" ng-class="{'simulator-status-ok': isSimulationResultOk(), 'simulator-status-error': !isSimulationResultOk()}">
-          <simulator-status recipe="recipe" status="simulationResult" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
-        </div>
--->
         <img ng-repeat="action in sequence track by $index"
              class="action selectable-action"
              ng-class="actionClasses(action, recipe.cls)"
