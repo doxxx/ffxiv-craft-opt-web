@@ -432,7 +432,37 @@ legend + .control-group {
   opacity: 0.4;
 }
 
+/* Modals */
 
+@media (max-height: 533px) { /* Samsung Galaxy S portrait */
+  .modal-body {
+    max-height: 353px;
+  }
+}
+
+@media (max-height: 480px) { /* iPhone 4 portrait */
+  .modal-body {
+    max-height: 300px;
+  }
+}
+
+@media (max-height: 414px) { /* iPhone 6+ landscape */
+  .modal-body {
+    max-height: 234px;
+  }
+}
+
+@media (max-height: 375px) { /* iPhone 6 landscape */
+  .modal-body {
+    max-height: 195px;
+  }
+}
+
+@media (max-height: 320px) { /* iPhone 4 / Samsung Galaxy S landscape */
+  .modal-body {
+    max-height: 140px;
+  }
+}
 
 /* Macro Modal */
 
