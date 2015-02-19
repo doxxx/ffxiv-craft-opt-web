@@ -99,14 +99,14 @@ legend small > .light {
   color: crimson;
 }
 
-body div.tooltip-inner {
+div[content*="xivdb"] div.tooltip-inner {
   max-width: 320px;
   background: none;
   text-align: inherit;
   padding: 0;
 }
 
-body div.tooltip-arrow {
+div[content*="xivdb"] div.tooltip-arrow {
   display: none;
 }
 
@@ -274,21 +274,6 @@ body div.tooltip-arrow {
 .class-selector .btn-group {
   margin-bottom: 5px;
 }
-
-.class-selector .tooltip-inner {
-  max-width: 200px;
-  padding: 8px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  background-color: #000000;
-  border-radius: 4px;
-}
-
-.class-selector .tooltip-arrow {
-  display: inline;
-}
-
 
 
 /* Actions */
