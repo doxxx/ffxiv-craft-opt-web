@@ -65,6 +65,7 @@ legend small > .light {
   margin-top: 10px;
   max-height: 210px;
   overflow-y: auto;
+  text-align: left;
 }
 
 .recipe-search-control .my-dropdown-menu {
