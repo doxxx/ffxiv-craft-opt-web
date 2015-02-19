@@ -342,7 +342,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         tooltipClass = cls;
       }
       var tooltip = $scope.actionTooltips[tooltipClass + action];
-      return tooltip ? tooltip : '';
+      return tooltip ? tooltip : action.name;
     };
 
     $scope.sequenceActionTooltip = function (action, cls) {
