@@ -1,4 +1,4 @@
-<h3 class="page-title">Solver</h3>
+<h3 class="page-title">Solver<span ng-show="synthNameForDisplay()"><small> [{{synthNameForDisplay()}}]</small></span></h3>
 <div class="row-fluid class-selector-group">
   <div class="class-selector-group-left">
     <div class="btn-group">
@@ -40,8 +40,7 @@
         </li>
       </ul>
     </div>
-    <button type="button" class="btn" ng-click="saveSynth()" ng-disabled="!isSynthDirty() || settings.name == ''"
-        tooltip="{{synthNameForDisplay()}}" tooltip-placement="top" tooltip-popup-delay="200">Save</button>
+    <button type="button" class="btn" ng-click="saveSynth()" ng-disabled="!isSynthDirty() || settings.name == ''">Save</button>
     <button type="button" class="btn" ng-click="saveSynthAs()">Save As...</button>
     <div class="dropdown">
       <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
