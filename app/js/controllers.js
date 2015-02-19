@@ -252,14 +252,15 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.saveSynthAs = function () {
-      var name = prompt('Enter synth name:');
+      var defaultName = $scope.settings.name || $scope.recipe.name || '';
+      var name = window.prompt('Enter synth name:', defaultName);
       if (name === null || name.length === 0) return;
       $scope.settings.name = name;
       $scope.saveSynth();
     };
 
     $scope.deleteSynth = function (name) {
-      if (confirm('Are you sure you want to delete the "' + name + '" synth?')) {
+      if (window.confirm('Are you sure you want to delete the "' + name + '" synth?')) {
         $scope.profile.deleteSynth(name);
         if (name == $scope.settings.name) {
           $scope.settings.name = '';
@@ -269,7 +270,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.renameSynth = function (name) {
-      var newName = prompt('Enter new synth name:');
+      var newName = window.prompt('Enter new synth name:');
       if (newName === null || newName.length === 0) return;
       $scope.profile.renameSynth(name, newName);
       if (name == $scope.settings.name) {
