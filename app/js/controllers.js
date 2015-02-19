@@ -251,12 +251,20 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
-    $scope.saveSynthAs = function () {
-      var defaultName = $scope.settings.name || $scope.recipe.name || '';
-      var name = window.prompt('Enter synth name:', defaultName);
-      if (name === null || name.length === 0) return;
-      $scope.settings.name = name;
-      $scope.saveSynth();
+    $scope.saveAsSetup = function () {
+      $scope.settings.saveAsName = $scope.settings.name || $scope.recipe.name || '';
+    };
+
+    $scope.saveAsKeyPress = function (event) {
+      if (event.which == 13) {
+        event.preventDefault();
+        var name = $scope.settings.saveAsName;
+        if (name && name.length > 0) {
+          $scope.settings.name = name;
+          $scope.saveSynth();
+          event.target.parentNode.parentNode.closeMenu();
+        }
+      }
     };
 
     $scope.deleteSynth = function (name) {

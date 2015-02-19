@@ -57,7 +57,7 @@ legend small > .light {
   text-align: center;
 }
 
-.settings-buttons div {
+.settings-buttons>div {
   display: inline;
 }
 
@@ -66,6 +66,15 @@ legend small > .light {
   max-height: 210px;
   overflow-y: auto;
   text-align: left;
+}
+
+.save-as-control .my-dropdown-menu {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.save-as-control input {
+  margin-bottom: 0;
 }
 
 .recipe-search-control {
