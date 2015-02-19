@@ -68,6 +68,10 @@ legend small > .light {
   text-align: left;
 }
 
+.recipe-search-control {
+  text-align: center;
+}
+
 .recipe-search-control .my-dropdown-menu {
   margin-top: 3px;
   padding-bottom: 0px;
@@ -156,6 +160,7 @@ div[content*="xivdb"] div.tooltip-arrow {
   -webkit-background-clip: padding-box;
      -moz-background-clip: padding;
           background-clip: padding-box;
+  text-align: left;
 }
 
 .my-dropdown-menu.pull-right {
