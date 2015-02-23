@@ -49,7 +49,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.recipeSearch = {
       list: [],
       selected: 0,
-      text: ''
+      text: '',
+      order: ['level','name']
     };
 
     $scope.simulatorStatus = {
@@ -184,6 +185,11 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       recipe.cls = cls;
       recipe.startQuality = 0;
       $scope.recipe = recipe;
+    };
+
+    $scope.deleteUserRecipe = function (name) {
+      _recipeLibrary.deleteUserRecipe($scope.recipe.cls, name);
+      $scope.updateRecipeSearchList();
     };
 
     $scope.onSearchKeyPress = function (event) {
@@ -376,6 +382,22 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       else {
         $scope.crafter.stats[$scope.crafter.cls].actions.push(action);
       }
+    };
+
+    $scope.showAddRecipeModal = function () {
+      var modalInstance = $modal.open({
+        templateUrl: 'partials/add-recipe.html',
+        controller: 'AddRecipeController',
+        windowClass: 'add-recipe-modal',
+        resolve: {
+          cls: function() { return $scope.recipe.cls; },
+          level: function () { return $scope.crafter.stats[$scope.recipe.cls].level; }
+        }
+      });
+      modalInstance.result.then(function (result) {
+        _recipeLibrary.saveUserRecipe(result);
+        $scope.updateRecipeSearchList();
+      });
     };
 
     $scope.showStatBonusesModal = function () {

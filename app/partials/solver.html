@@ -73,6 +73,7 @@
         <span class="span3 uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
         <div class="btn-group">
           <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
+          <button class="btn" ng-click="showAddRecipeModal()"><i class="fa fa-plus"></i></button>
         </div>
       </div>
       <div class="my-dropdown-menu">
@@ -80,8 +81,13 @@
                placeholder="Search..." select-on-focus stop-click-propogation
                ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"/>
         <ul class="recipe-menu-scrollable" isolate-scrolling>
-          <li ng-repeat="r in recipeSearch.list" ng-class="{active: $index === recipeSearch.selected}" id="recipeSearchElement{{$index}}">
-            <a ng-click="importRecipe(r.name)" ng-mouseover="recipeSearch.selected=$index">[{{r.level}}] {{r.name}}</a>
+          <li ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
+              ng-class="{active: $index === recipeSearch.selected}"
+              id="recipeSearchElement{{$index}}"
+              ng-mouseover="recipeSearch.selected=$index"
+              ng-click="importRecipe(r.name)">
+            <a ng-click="importRecipe(r.name)">[{{r.level}}] {{r.name}}</a>
+            <a ng-show="r.user" class="pull-right" ng-click="deleteUserRecipe(r.name)"><i class="fa fa-minus-circle"></i></a>
           </li>
         </ul>
       </div>
