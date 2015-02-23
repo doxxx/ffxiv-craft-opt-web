@@ -180,9 +180,10 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.importRecipe = function (name) {
       var cls = $scope.recipe.cls;
-      $scope.recipe = angular.copy(_recipeLibrary.recipeForClassByName(cls, name));
-      $scope.recipe.cls = cls;
-      $scope.recipe.startQuality = 0;
+      var recipe = angular.copy(_recipeLibrary.recipeForClassByName(cls, name));
+      recipe.cls = cls;
+      recipe.startQuality = 0;
+      $scope.recipe = recipe;
     };
 
     $scope.onSearchKeyPress = function (event) {
