@@ -89,14 +89,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         saveLocalPageState($scope);
       });
 
-      function updateRecipeSearchList() {
-        var recipesForClass = $scope.recipesForClass($scope.recipe.cls) || [];
-        $scope.recipeSearch.list = $filter('filter')(recipesForClass, {name: $scope.recipeSearch.text});
-        $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
-      }
-
       $scope.$watch('recipeSearch.text', function () {
-        updateRecipeSearchList();
+        $scope.updateRecipeSearchList();
       });
 
       function saveAndRerunSim() {
@@ -128,7 +122,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.$watchCollection('recipe', saveAndRerunSim);
       $scope.$watch('recipe.cls', function () {
         $scope.recipeSearch.text = '';
-        updateRecipeSearchList();
+        $scope.updateRecipeSearchList();
       });
 
       $scope.$watchCollection('sequence', saveAndRerunSim);
@@ -171,6 +165,12 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     });
 
     // data model interaction functions
+    $scope.updateRecipeSearchList = function() {
+      var recipesForClass = $scope.recipesForClass($scope.recipe.cls) || [];
+      $scope.recipeSearch.list = $filter('filter')(recipesForClass, {name: $scope.recipeSearch.text});
+      $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
+    };
+
     $scope.recipesForClass = function (cls) {
       /*var recipes = angular.copy(_recipeLibrary.recipesForClass(cls));
        recipes.sort(function(a,b) { return a.name.localeCompare(b.name); });
