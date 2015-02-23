@@ -31,15 +31,6 @@ legend small > .light {
   cursor: text;
 }
 
-.form-horizontal .control-label {
-  font-weight: bold;
-  width: 130px;
-}
-
-.form-horizontal .controls {
-  margin-left: 150px;
-}
-
 .accordion-group {
   border: none;
 }
