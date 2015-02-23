@@ -59,6 +59,21 @@ var LocalProfileService = function(_allClasses) {
     }
   }
 
+  if (localStorage['userRecipes']) {
+    this.userRecipes = JSON.parse(localStorage['userRecipes']);
+  }
+  else {
+    // Initialize defaults
+    var userRecipes = {};
+
+    for (var i = 0; i < _allClasses.length; i++) {
+      var c = _allClasses[i];
+      userRecipes[c] = {};
+    }
+
+    this.userRecipes = userRecipes;
+  }
+
   if (modified) {
     this.persist();
   }
@@ -112,9 +127,32 @@ LocalProfileService.prototype.getCrafterStats = function () {
   return angular.copy(this.crafterStats);
 };
 
+LocalProfileService.prototype.getUserRecipes = function (cls) {
+  return this.userRecipes[cls];
+};
+
+LocalProfileService.prototype.saveUserRecipe = function (recipe) {
+  var cls = recipe.cls;
+  recipe = angular.copy(recipe);
+  delete recipe.cls;
+  if (!this.userRecipes[cls]) {
+    this.userRecipes[cls] = {};
+  }
+  this.userRecipes[cls][recipe.name] = angular.copy(recipe);
+  this.persist();
+};
+
+LocalProfileService.prototype.deleteUserRecipe = function (cls, name) {
+  if (this.userRecipes[cls] && this.userRecipes[cls][name]) {
+    delete this.userRecipes[cls][name];
+    this.persist();
+  }
+};
+
 LocalProfileService.prototype.persist = function() {
   localStorage['synths'] = JSON.stringify(this.synths);
   localStorage['crafterStats'] = JSON.stringify(this.crafterStats);
+  localStorage['userRecipes'] = JSON.stringify(this.userRecipes);
 };
 
 angular.module('ffxivCraftOptWeb.services.localprofile', []).
