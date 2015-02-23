@@ -23,10 +23,6 @@ angular.module('ffxivCraftOptWeb', [
       url: '/crafter',
       templateUrl: 'partials/crafter.html'
     })
-    .state('synth', {
-      url: '/synth',
-      templateUrl: 'partials/synth.html'
-    })
     .state('solver', {
       url: '/solver',
       templateUrl: 'partials/solver.html'
