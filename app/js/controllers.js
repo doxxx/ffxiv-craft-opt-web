@@ -215,7 +215,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.newSynth = function () {
       $scope.settings.name = '';
-      var newRecipe = newRecipeStats($scope);
+      var newRecipe = newRecipeStats($scope.crafter.cls);
       newRecipe.cls = $scope.recipe.cls;
       $scope.recipe = newRecipe;
       $scope.bonusStats = newBonusStats();
@@ -464,13 +464,21 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.simulatorStatus.running = false;
     };
 
+    $scope.makeRecipeForSolver = function () {
+      var recipe = $scope.recipeSearch.list[$scope.recipeSearch.selected];
+      recipe = angular.copy(recipe);
+      recipe.cls = $scope.recipe.cls;
+      recipe.startQuality = 0;
+      return recipe;
+    };
+
     $scope.runSimulation = function () {
       if ($scope.simulatorStatus.running) {
         return;
       }
       var settings = {
         crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-        recipe: $scope.recipe,
+        recipe: $scope.makeRecipeForSolver(),
         sequence: $scope.sequence,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -514,7 +522,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.startSolver = function () {
       var settings = {
         crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-        recipe: $scope.recipe,
+        recipe: $scope.makeRecipeForSolver(),
         sequence: $scope.sequence,
         algorithm: $scope.solver.algorithm,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
@@ -580,7 +588,7 @@ function initPageStateDefaults($scope) {
 
   $scope.bonusStats = newBonusStats();
 
-  $scope.recipe = newRecipeStats($scope);
+  $scope.recipe = newRecipeStats($scope.crafter.cls);
 
   $scope.sequence = [];
 
@@ -762,9 +770,9 @@ Array.prototype.unique = function () {
   })
 };
 
-function newRecipeStats($scope) {
+function newRecipeStats(cls) {
   return {
-    cls: $scope.crafter.cls,
+    cls: cls,
     level: 1,
     difficulty: 9,
     durability: 40,
