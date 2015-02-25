@@ -171,6 +171,10 @@
           <button class="btn btn-primary" ng-click="editSequenceInline()" ng-disabled="simulatorStatus.running">Edit...</button>
           <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
           <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
+          <button class="btn btn-warning"
+                  ng-disabled="!solverResult.sequence || solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
+                  ng-click="useSolverResult()">Use Solver Result
+          </button>
         </div>
         <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
           <h5>Required Cross Class Actions</h5>
@@ -209,10 +213,6 @@
     <button class="btn btn-primary" ng-click="stopSolver()" ng-show="solverStatus.running" ng-disabled="editingSequence">Start/Stop Solver</button>
     <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="solverStatus.state && !solverStatus.running" ng-disabled="!allForms.$valid || editingSequence || !isValidSequence(sequence, recipe.cls) || solverStatus.error">Start/Stop Solver</button>
     <button class="btn btn-danger" ng-click="resetSolver()" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls) || editingSequence || !(solverStatus.state && !solverStatus.running)">Reset Solver</button>
-    <button class="btn btn-warning"
-            ng-disabled="!solverResult.sequence || solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
-            ng-click="useSolverResult()">Use Solver Result
-    </button>
   </div>
   <div class="sequence well well-small">
     <div ng-show="solverStatus.running">
