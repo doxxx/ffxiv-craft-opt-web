@@ -21,11 +21,13 @@ angular.module('ffxivCraftOptWeb', [
   $stateProvider
     .state('crafter', {
       url: '/crafter',
-      templateUrl: 'partials/crafter.html'
+      templateUrl: 'partials/crafter.html',
+      controller: 'CrafterStatsController'
     })
     .state('solver', {
       url: '/solver',
-      templateUrl: 'partials/solver.html'
+      templateUrl: 'partials/solver.html',
+      controller: 'SolverController'
     })
     .state('options', {
       url: '/options',
