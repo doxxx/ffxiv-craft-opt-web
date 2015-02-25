@@ -5,7 +5,7 @@
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
   function ($scope, $log, $modal, $timeout, _allClasses, _actionGroups, _allActions, _getActionImagePath,
-            _recipeLibrary, _localProfile, _solver, _xivdbtooltips)
+            _recipeLibrary, _localProfile, _xivdbtooltips)
   {
     // provide access to constants
     $scope.allClasses = _allClasses;
@@ -44,27 +44,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     // non-persistent page states
     $scope.navBarCollapsed = true;
-
-    $scope.solverStatus = {
-      running: false,
-      generationsCompleted: 0,
-      maxGenerations: 0,
-      state: null,
-      logText: '',
-      sequence: [],
-      error: null
-    };
-
-    $scope.simulatorTabs = {
-      simulation: { active: true },
-      solver: { actie: false }
-    };
-
-    $scope.solverResult = {
-      logText: '',
-      sequence: [],
-      state: null
-    };
 
     $scope.onProfileLoaded = function () {
       $scope.userInfo = $scope.profile.userInfo();
@@ -154,6 +133,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       newRecipe.cls = $scope.recipe.cls;
       $scope.recipe = newRecipe;
       $scope.bonusStats = newBonusStats();
+
+      $scope.$broadcast('synth.changed');
     };
 
     $scope.loadSynth = function (name) {
@@ -164,11 +145,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.sequence = settings.sequence;
       $scope.sequenceSettings = settings.sequenceSettings;
       $scope.solver = settings.solver;
-      $scope.solverResult = {
-        logText: '',
-        sequence: [],
-        state: null
-      };
 
       // Backwards compatibility with version 3
       if (!$scope.sequenceSettings.reliabilityPercent) {
@@ -176,6 +152,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
 
       $scope.settings.name = name;
+
+      $scope.$broadcast('synth.changed');
     };
 
     $scope.saveSynth = function () {
@@ -213,7 +191,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       if (window.confirm('Are you sure you want to delete the "' + name + '" synth?')) {
         $scope.profile.deleteSynth(name);
         if (name == $scope.settings.name) {
-          $scope.settings.name = '';
+          $scope.newSynth();
         }
         $scope.savedSynthNames = $scope.profile.synthNames();
       }
@@ -340,78 +318,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       });
     };
 
-    $scope.useSolverResult = function () {
-      var seq = $scope.solverResult.sequence;
-      if (seq instanceof Array && seq.length > 0) {
-        $scope.sequence = $scope.solverResult.sequence;
-      }
-    };
-
-    // Web Service API
-
-    $scope.solverProgress = function (data) {
-      $scope.solverStatus.generationsCompleted = data.generationsCompleted;
-      $scope.solverStatus.maxGenerations = data.maxGenerations;
-      $scope.solverStatus.state = data.state;
-      $scope.solverStatus.bestSequence = data.bestSequence;
-    };
-
-    $scope.solverSuccess = function (data) {
-      $scope.solverResult.logText = data.log;
-      $scope.solverResult.sequence = data.bestSequence;
-      $scope.simulatorTabs.solver.active = true;
-      $scope.solverStatus.state = data.state;
-      $scope.solverStatus.running = false;
-    };
-
-    $scope.solverError = function (data) {
-      $scope.solverStatus.error = data.error;
-      $scope.solverResult.logText = data.log;
-      $scope.solverResult.logText += '\n\nError: ' + data.error;
-      $scope.solverResult.sequence = [];
-      $scope.simulatorTabs.solver.active = true;
-      $scope.solverStatus.running = false;
-      $scope.solverStatus.generationsCompleted = 0;
-    };
-
-    $scope.startSolver = function () {
-      var settings = {
-        crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-        recipe: $scope.recipe,
-        sequence: $scope.sequence,
-        algorithm: $scope.solver.algorithm,
-        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
-        useConditions: $scope.sequenceSettings.useConditions,
-        solver: $scope.solver,
-        debug: $scope.sequenceSettings.debug
-      };
-      if ($scope.sequenceSettings.specifySeed) {
-        settings.seed = $scope.sequenceSettings.seed;
-      }
-      $scope.solverStatus.running = true;
-      _solver.start($scope.sequence, settings, $scope.solverProgress, $scope.solverSuccess, $scope.solverError);
-    };
-
-    $scope.resetSolver = function() {
-      $scope.solverStatus.error = null;
-      $scope.solverStatus.generationsCompleted = 0;
-      $scope.solverStatus.maxGenerations = $scope.solver.generations;
-      $scope.solverStatus.state = null;
-      $scope.solverResult.logText = "";
-      $scope.solverResult.sequence = [];
-    };
-
-    $scope.resumeSolver = function() {
-      $scope.solverStatus.running = true;
-      _solver.resume();
-    };
-
-    $scope.stopSolver = function () {
-      _solver.stop();
-    };
-
+    // Final initialization
     loadLocalPageState($scope);
 
     $scope.profile = _localProfile;
