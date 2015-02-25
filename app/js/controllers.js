@@ -44,7 +44,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     // non-persistent page states
     $scope.navBarCollapsed = true;
-    $scope.editingSequence = false;
 
     $scope.recipeSearch = {
       list: [],
@@ -138,31 +137,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.$on('sequence.editor.save', function (event, newSequence) {
-      $scope.editingSequence = false;
       $scope.sequence = angular.copy(newSequence);
-      $scope.runSimulation();
-    });
-
-    $scope.$on('sequence.editor.cancel', function () {
-      $scope.editingSequence = false;
-      $scope.runSimulation();
-    });
-
-    $scope.$on('sequence.editor.simulation.start', function (event, sequence) {
-      $scope.simulatorStatus.sequence = sequence;
-      $scope.simulatorStatus.running = true;
-    });
-
-    $scope.$on('sequence.editor.simulation.success', function (event, state) {
-      $scope.simulatorStatus.state = state;
-      $scope.simulatorStatus.error = undefined;
-      $scope.simulatorStatus.running = false;
-    });
-
-    $scope.$on('sequence.editor.simulation.error', function (event, error) {
-      $scope.simulatorStatus.state = undefined;
-      $scope.simulatorStatus.error = error;
-      $scope.simulatorStatus.running = false;
     });
 
     // data model interaction functions
@@ -403,11 +378,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       modalInstance.result.then(function (result) {
         $scope.bonusStats = angular.copy(result);
       });
-    };
-
-    $scope.editSequenceInline = function () {
-      $scope.editingSequence = true;
-      $scope.$broadcast('sequence.editor.init', $scope.sequence,  $scope.recipe, $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings)
     };
 
     $scope.showMacroModal = function () {
