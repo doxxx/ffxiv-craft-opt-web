@@ -690,29 +690,6 @@ function saveLocalPageState_v2($scope) {
   localStorage['pageStage_v2'] = JSON.stringify(state)
 }
 
-function saveLocalPageState_v1($scope) {
-  saveToLocalStorage('sections', $scope.sections);
-  saveToLocalStorage('settings.bonusStats', $scope.bonusStats);
-  saveToLocalStorage('settings.recipe', $scope.recipe);
-  saveToLocalStorage('settings.sequence', $scope.sequence);
-  saveToLocalStorage('settings.sequenceSettings', $scope.sequenceSettings);
-  saveToLocalStorage('settings.solver', $scope.solver);
-
-  localStorage['settingsName'] = $scope.settings.name;
-  localStorage['crafterClass'] = $scope.crafter.cls;
-
-  return true;
-}
-
-function saveToLocalStorage(name, value) {
-  if (value === undefined || value === null) {
-    console.error('Ignoring attempt to save an undefined or null value to local storage for setting: ' + name)
-  }
-  else {
-    localStorage[name] = JSON.stringify(value);
-  }
-}
-
 function extend(dest, src) {
   if (dest === null || dest === undefined) {
     throw 'cannot extend null or undefined object';
