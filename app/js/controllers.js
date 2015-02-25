@@ -45,13 +45,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     // non-persistent page states
     $scope.navBarCollapsed = true;
 
-    $scope.recipeSearch = {
-      list: [],
-      selected: 0,
-      text: '',
-      order: ['level','name']
-    };
-
     $scope.simulatorStatus = {
       logText: '',
       running: false
@@ -89,10 +82,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         saveLocalPageState($scope);
       });
 
-      $scope.$watch('recipeSearch.text', function () {
-        $scope.updateRecipeSearchList();
-      });
-
       function saveAndRerunSim() {
         saveLocalPageState($scope);
         if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
@@ -121,8 +110,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
       $scope.$watchCollection('recipe', saveAndRerunSim);
       $scope.$watch('recipe.cls', function () {
-        $scope.recipeSearch.text = '';
-        $scope.updateRecipeSearchList();
+        $scope.$broadcast('recipe.cls.changed', $scope.recipe.cls);
       });
 
       $scope.$watchCollection('sequence', saveAndRerunSim);
@@ -141,52 +129,11 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     });
 
     // data model interaction functions
-    $scope.updateRecipeSearchList = function() {
-      var recipesForClass = $scope.recipesForClass($scope.recipe.cls) || [];
-      $scope.recipeSearch.list = $filter('filter')(recipesForClass, {name: $scope.recipeSearch.text});
-      $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
-    };
 
-    $scope.recipesForClass = function (cls) {
-      /*var recipes = angular.copy(_recipeLibrary.recipesForClass(cls));
-       recipes.sort(function(a,b) { return a.name.localeCompare(b.name); });
-       return recipes;*/
-      return _recipeLibrary.recipesForClass(cls);
-    };
-
-    $scope.importRecipe = function (name) {
-      var cls = $scope.recipe.cls;
-      var recipe = angular.copy(_recipeLibrary.recipeForClassByName(cls, name));
-      recipe.cls = cls;
-      recipe.startQuality = 0;
+    $scope.$on('recipe.selected', function (event, recipe) {
       $scope.recipe = recipe;
-    };
+    });
 
-    $scope.deleteUserRecipe = function (name) {
-      _recipeLibrary.deleteUserRecipe($scope.recipe.cls, name);
-      $scope.updateRecipeSearchList();
-    };
-
-    $scope.onSearchKeyPress = function (event) {
-      if (event.which == 13) {
-        event.preventDefault();
-        $scope.importRecipe($scope.recipeSearch.list[$scope.recipeSearch.selected].name);
-        event.target.parentNode.parentNode.closeMenu();
-      }
-    };
-
-    $scope.onSearchKeyDown = function (event) {
-      if (event.which === 40) {
-        // down
-        $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected + 1, $scope.recipeSearch.list.length - 1);
-        document.getElementById('recipeSearchElement' + $scope.recipeSearch.selected).scrollIntoViewIfNeeded(false);
-      }
-      else if (event.which === 38) {
-        // up
-        $scope.recipeSearch.selected = Math.max($scope.recipeSearch.selected - 1, 0);
-        document.getElementById('recipeSearchElement' + $scope.recipeSearch.selected).scrollIntoViewIfNeeded(false);
-      }
-    };
 
     $scope.newSynth = function () {
       $scope.settings.name = '';
@@ -349,22 +296,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       return crossClassActions.unique();
     };
 
-    $scope.showAddRecipeModal = function () {
-      var modalInstance = $modal.open({
-        templateUrl: 'partials/add-recipe.html',
-        controller: 'AddRecipeController',
-        windowClass: 'add-recipe-modal',
-        resolve: {
-          cls: function() { return $scope.recipe.cls; },
-          level: function () { return $scope.crafter.stats[$scope.recipe.cls].level; }
-        }
-      });
-      modalInstance.result.then(function (result) {
-        _recipeLibrary.saveUserRecipe(result);
-        $scope.updateRecipeSearchList();
-      });
-    };
-
     $scope.showStatBonusesModal = function () {
       var modalInstance = $modal.open({
         templateUrl: 'partials/stat-bonus-editor.html',
@@ -425,9 +356,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.makeRecipeForSolver = function () {
-      var recipe = $scope.recipeSearch.list[$scope.recipeSearch.selected];
-      recipe = angular.copy(recipe);
-      recipe.cls = $scope.recipe.cls;
+      var recipe = angular.copy($scope.recipe);
       recipe.startQuality = 0;
       return recipe;
     };
