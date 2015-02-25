@@ -15,6 +15,11 @@ SimulationService.prototype.start = function(settings, success, error) {
     error({log: '', error: 'too low level'});
     return;
   }
+  if (settings.recipe.startQuality === undefined) {
+    settings.recipe = angular.copy(settings.recipe);
+    settings.recipe.startQuality = 0;
+  }
+
   var worker = this.worker = new Worker('js/simulationworker.js');
   var self = this;
   worker.onmessage = function(e) {

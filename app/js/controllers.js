@@ -380,19 +380,13 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.simulatorStatus.running = false;
     };
 
-    $scope.makeRecipeForSolver = function () {
-      var recipe = angular.copy($scope.recipe);
-      recipe.startQuality = 0;
-      return recipe;
-    };
-
     $scope.runSimulation = function () {
       if ($scope.simulatorStatus.running) {
         return;
       }
       var settings = {
         crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-        recipe: $scope.makeRecipeForSolver(),
+        recipe: $scope.recipe,
         sequence: $scope.sequence,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -436,7 +430,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.startSolver = function () {
       var settings = {
         crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-        recipe: $scope.makeRecipeForSolver(),
+        recipe: $scope.recipe,
         sequence: $scope.sequence,
         algorithm: $scope.solver.algorithm,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
