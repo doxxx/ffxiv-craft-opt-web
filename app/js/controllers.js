@@ -82,17 +82,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         saveLocalPageState($scope);
       });
 
-      function saveAndRerunSim() {
-        saveLocalPageState($scope);
-        if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
-          $scope.runSimulation();
-        }
-        else {
-          $scope.simulatorStatus.state = null;
-          $scope.simulatorStatus.error = null;
-        }
-      }
-
       $scope.$watch('settings.name', function () {
         saveLocalPageState($scope);
       });
@@ -101,31 +90,67 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         saveLocalPageState($scope);
       });
 
-      $scope.$watchCollection('bonusStats', saveAndRerunSim);
+      $scope.$watchCollection('bonusStats', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('bonusStats.changed', $scope.bonusStats);
+        $scope.$broadcast('simulation.needs.update');
+      });
 
+      var crafterStatsChangedHandler = function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('crafter.stats.changed');
+        $scope.$broadcast('simulation.needs.update');
+      };
+      var crafterActionsChangedHandler = function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('crafter.actions.changed');
+        $scope.$broadcast('simulation.needs.update');
+      };
       for (var cls in $scope.crafter.stats) {
-        $scope.$watchCollection('crafter.stats.' + cls, saveAndRerunSim);
-        $scope.$watchCollection('crafter.stats.' + cls + '.actions', saveAndRerunSim);
+        $scope.$watchCollection('crafter.stats.' + cls, crafterStatsChangedHandler);
+        $scope.$watchCollection('crafter.stats.' + cls + '.actions', crafterActionsChangedHandler);
       }
 
-      $scope.$watchCollection('recipe', saveAndRerunSim);
+      $scope.$watchCollection('recipe', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('recipe.changed', $scope.recipe);
+        $scope.$broadcast('simulation.needs.update');
+      });
+
       $scope.$watch('recipe.cls', function () {
         $scope.$broadcast('recipe.cls.changed', $scope.recipe.cls);
       });
 
-      $scope.$watchCollection('sequence', saveAndRerunSim);
+      $scope.$watchCollection('sequence', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('sequence.changed', $scope.sequence);
+        $scope.$broadcast('simulation.needs.update');
+      });
 
-      $scope.$watchCollection('sequenceSettings', saveAndRerunSim);
-
-      $scope.$watchCollection('simulation', saveAndRerunSim);
+      $scope.$watchCollection('sequenceSettings', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('sequenceSettings.changed', $scope.sequenceSettings);
+        $scope.$broadcast('simulation.needs.update');
+      });
 
       $scope.$watchCollection('solver', function () {
         saveLocalPageState($scope);
+        $scope.$broadcast('solver.changed', $scope.solver);
       });
     };
 
     $scope.$on('sequence.editor.save', function (event, newSequence) {
       $scope.sequence = angular.copy(newSequence);
+    });
+
+    $scope.$on('simulation.needs.update', function () {
+      if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
+        $scope.runSimulation();
+      }
+      else {
+        $scope.simulatorStatus.state = null;
+        $scope.simulatorStatus.error = null;
+      }
     });
 
     // data model interaction functions
