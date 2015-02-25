@@ -374,16 +374,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       return crossClassActions.unique();
     };
 
-    $scope.toggleAction = function (action) {
-      var i = $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action);
-      if (i >= 0) {
-        $scope.crafter.stats[$scope.crafter.cls].actions.splice(i, 1);
-      }
-      else {
-        $scope.crafter.stats[$scope.crafter.cls].actions.push(action);
-      }
-    };
-
     $scope.showAddRecipeModal = function () {
       var modalInstance = $modal.open({
         templateUrl: 'partials/add-recipe.html',
