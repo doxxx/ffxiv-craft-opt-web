@@ -1,7 +1,7 @@
 "use strict";
 
-angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $filter, $modal,
-    _recipeLibrary) {
+angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $filter, $modal, $log,
+    _recipeLibrary, _simulator) {
 
   //
   // RECIPE SEARCH
@@ -87,6 +87,68 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   };
 
   //
+  // SIMULATION
+  //
+
+  $scope.simulatorStatus = {
+    logText: '',
+    running: false
+  };
+
+  $scope.$on('simulation.needs.update', function () {
+    if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
+      $scope.runSimulation();
+    }
+    else {
+      $scope.simulatorStatus.state = null;
+      $scope.simulatorStatus.error = null;
+    }
+  });
+
+  function simulationSuccess(data) {
+    $scope.simulatorStatus.sequence = $scope.sequence;
+    $scope.simulatorStatus.logText = data.log;
+    $scope.simulatorStatus.state = data.state;
+    $scope.simulatorStatus.error = undefined;
+    $scope.simulatorTabs.simulation.active = true;
+    $scope.simulatorStatus.running = false;
+  }
+
+  function simulationError(data) {
+    $scope.simulatorStatus.sequence = $scope.sequence;
+    $scope.simulatorStatus.logText = data.log;
+    $scope.simulatorStatus.logText += '\n\nError: ' + data.error;
+    $scope.simulatorStatus.state = undefined;
+    $scope.simulatorStatus.error = data.error;
+    $scope.simulatorTabs.simulation.active = true;
+    $scope.simulatorStatus.running = false;
+  }
+
+  $scope.runSimulation = function () {
+    if ($scope.simulatorStatus.running) {
+      return;
+    }
+
+    var settings = {
+      crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: $scope.recipe,
+      sequence: $scope.sequence,
+      maxTricksUses: $scope.sequenceSettings.maxTricksUses,
+      maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+      reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
+      useConditions: $scope.sequenceSettings.useConditions,
+      debug: $scope.sequenceSettings.debug
+    };
+
+    if ($scope.sequenceSettings.specifySeed) {
+      settings.seed = $scope.sequenceSettings.seed;
+    }
+
+    $scope.simulatorStatus.running = true;
+    _simulator.start(settings, simulationSuccess, simulationError);
+  };
+
+  //
   // SEQUENCE EDITOR
   //
 
@@ -104,5 +166,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     $scope.editingSequence = true;
     $scope.$broadcast('sequence.editor.init', $scope.sequence,  $scope.recipe, $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings)
   };
+
+  // Trigger simulation update
+  $scope.$broadcast('simulation.needs.update');
 
 });

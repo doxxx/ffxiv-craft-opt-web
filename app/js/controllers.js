@@ -5,7 +5,7 @@
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
   function ($scope, $log, $modal, $timeout, _allClasses, _actionGroups, _allActions, _getActionImagePath,
-            _recipeLibrary, _localProfile, _simulator, _solver, _xivdbtooltips)
+            _recipeLibrary, _localProfile, _solver, _xivdbtooltips)
   {
     // provide access to constants
     $scope.allClasses = _allClasses;
@@ -44,11 +44,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     // non-persistent page states
     $scope.navBarCollapsed = true;
-
-    $scope.simulatorStatus = {
-      logText: '',
-      running: false
-    };
 
     $scope.solverStatus = {
       running: false,
@@ -137,20 +132,13 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         saveLocalPageState($scope);
         $scope.$broadcast('solver.changed', $scope.solver);
       });
+
+      // Trigger initial simulation using newly loaded profile
+      $scope.$broadcast('simulation.needs.update');
     };
 
     $scope.$on('sequence.editor.save', function (event, newSequence) {
       $scope.sequence = angular.copy(newSequence);
-    });
-
-    $scope.$on('simulation.needs.update', function () {
-      if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
-        $scope.runSimulation();
-      }
-      else {
-        $scope.simulatorStatus.state = null;
-        $scope.simulatorStatus.error = null;
-      }
     });
 
     // data model interaction functions
@@ -360,47 +348,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     // Web Service API
-
-    $scope.simulationSuccess = function (data) {
-      $scope.simulatorStatus.sequence = $scope.sequence;
-      $scope.simulatorStatus.logText = data.log;
-      $scope.simulatorStatus.state = data.state;
-      $scope.simulatorStatus.error = undefined;
-      $scope.simulatorTabs.simulation.active = true;
-      $scope.simulatorStatus.running = false;
-    };
-
-    $scope.simulationError = function (data) {
-      $scope.simulatorStatus.sequence = $scope.sequence;
-      $scope.simulatorStatus.logText = data.log;
-      $scope.simulatorStatus.logText += '\n\nError: ' + data.error;
-      $scope.simulatorStatus.state = undefined;
-      $scope.simulatorStatus.error = data.error;
-      $scope.simulatorTabs.simulation.active = true;
-      $scope.simulatorStatus.running = false;
-    };
-
-    $scope.runSimulation = function () {
-      if ($scope.simulatorStatus.running) {
-        return;
-      }
-      var settings = {
-        crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-        recipe: $scope.recipe,
-        sequence: $scope.sequence,
-        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
-        useConditions: $scope.sequenceSettings.useConditions,
-        debug: $scope.sequenceSettings.debug
-      };
-      if ($scope.sequenceSettings.specifySeed) {
-        settings.seed = $scope.sequenceSettings.seed;
-      }
-
-      $scope.simulatorStatus.running = true;
-      _simulator.start(settings, $scope.simulationSuccess, $scope.simulationError);
-    };
 
     $scope.solverProgress = function (data) {
       $scope.solverStatus.generationsCompleted = data.generationsCompleted;
