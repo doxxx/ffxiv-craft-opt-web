@@ -4,7 +4,7 @@
 
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
-  function ($scope, $http, $location, $modal, $document, $timeout, $filter, _getSolverServiceURL, _allClasses,
+  function ($scope, $http, $location, $modal, $document, $timeout, $filter, $translate, _getSolverServiceURL, _allClasses,
     _actionGroups, _allActions, _actionsByName, _recipeLibrary, _localProfile, _simulator, _solver, _xivdbtooltips)
   {
     // provide access to constants
@@ -24,21 +24,42 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       };
     }
 
-    for (var i = 0; i < _allActions.length; i++) {
-      var action = _allActions[i];
-      if (action.skillID) {
-        if (action.cls == 'All') {
-          for (var j = 0; j < _allClasses.length; j++) {
-            var cls = _allClasses[j];
-            _xivdbtooltips.fetch(action.skillID[cls]).then(makeTooltipsFetchCallback(cls, action.shortName));
+    function buildTooltipsCache(lang) {
+      for (var i = 0; i < _allActions.length; i++) {
+        var action = _allActions[i];
+        if (action.skillID) {
+          if (action.cls == 'All') {
+            for (var j = 0; j < _allClasses.length; j++) {
+              var cls = _allClasses[j];
+              _xivdbtooltips.fetch(lang, action.skillID[cls]).then(makeTooltipsFetchCallback(cls, action.shortName));
+            }
           }
-        }
-        else {
-          _xivdbtooltips.fetch(action.skillID[action.cls])
-            .then(makeTooltipsFetchCallback(action.cls, action.shortName));
+          else {
+            _xivdbtooltips.fetch(lang, action.skillID[action.cls])
+              .then(makeTooltipsFetchCallback(action.cls, action.shortName));
+          }
         }
       }
     }
+
+    buildTooltipsCache(localStorage.lang);
+
+    $scope.languages = {
+      en: 'English',
+      de: 'Deutsch',
+      fr: 'Français'
+    };
+
+    $scope.changeLang = function (lang) {
+      $translate.use(lang);
+      localStorage.lang = lang;
+      buildTooltipsCache(lang);
+    };
+
+    $scope.currentLang = function () {
+      return $translate.use();
+    };
+
 
     // non-persistent page states
     $scope.navBarCollapsed = true;
