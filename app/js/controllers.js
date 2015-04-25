@@ -4,7 +4,7 @@
 
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
-  function ($scope, $http, $location, $modal, $document, $timeout, $filter, _getSolverServiceURL, _allClasses,
+  function ($scope, $http, $location, $modal, $document, $timeout, $filter, $translate, _getSolverServiceURL, _allClasses,
     _actionGroups, _allActions, _actionsByName, _recipeLibrary, _localProfile, _simulator, _solver, _xivdbtooltips)
   {
     // provide access to constants
@@ -23,6 +23,21 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         $scope.actionTooltips[cls + actionShortName] = data;
       };
     }
+
+    $scope.languages = {
+      en: 'English',
+      de: 'Deutsch',
+      fr: 'Français'
+    };
+
+    $scope.changeLang = function (lang) {
+      $translate.use(lang);
+      localStorage.lang = lang;
+    };
+
+    $scope.currentLang = function () {
+      return $translate.use();
+    };
 
     for (var i = 0; i < _allActions.length; i++) {
       var action = _allActions[i];

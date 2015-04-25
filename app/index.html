@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="http://xivdb.com/css/tooltip.css"/>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+  <script src="lib/angular-translate/angular-translate.min.js"></script>
   <script src="js/version-footer.js"></script>
 </head>
 
@@ -30,6 +31,12 @@
           <li><a href="instructions.html">Instructions</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="blog">Blog</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Language: {{languages[currentLang()]}} <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li ng-repeat="(langCode, langName) in languages"><a ng-click="changeLang(langCode)">{{langName}}</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
