@@ -29,6 +29,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     }
 
     function buildTooltipsCache(lang) {
+      if (!lang) return;
       for (var i = 0; i < _allActions.length; i++) {
         var action = _allActions[i];
         if (action.skillID) {
@@ -64,6 +65,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $rootScope.$on('$translateChangeSuccess', function (event, data) {
       buildTooltipsCache(data.language);
     });
+    buildTooltipsCache($translate.use());
 
 
     // non-persistent page states
