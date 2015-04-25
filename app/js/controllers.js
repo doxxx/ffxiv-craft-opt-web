@@ -5,14 +5,17 @@
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
   function ($scope, $http, $location, $modal, $document, $timeout, $filter, _getSolverServiceURL, _allClasses,
-    _actionGroups, _allActions, _getActionImagePath, _recipeLibrary, _localProfile, _simulator, _solver, _xivdbtooltips)
+    _actionGroups, _allActions, _actionsByName, _recipeLibrary, _localProfile, _simulator, _solver, _xivdbtooltips)
   {
     // provide access to constants
     $scope.allClasses = _allClasses;
     $scope.actionGroups = _actionGroups;
-    $scope.getActionImagePath = _getActionImagePath;
 
-    $scope.allActions = {};
+    $scope.getActionImagePath = function(actionName, cls) {
+      return _actionsByName[actionName].imagePaths[cls];
+    };
+
+    $scope.allActions = _actionsByName;
     $scope.actionTooltips = {};
 
     function makeTooltipsFetchCallback(cls, actionShortName) {
@@ -23,7 +26,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     for (var i = 0; i < _allActions.length; i++) {
       var action = _allActions[i];
-      $scope.allActions[action.shortName] = action;
       if (action.skillID) {
         if (action.cls == 'All') {
           for (var j = 0; j < _allClasses.length; j++) {
@@ -289,8 +291,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.isActionCrossClass = function (action, cls) {
-      return $scope.allActions[action].cls != 'All' &&
-             $scope.allActions[action].cls != cls;
+      return _actionsByName[action].cls != 'All' &&
+             _actionsByName[action].cls != cls;
     };
 
     $scope.isValidSequence = function (sequence, cls) {
@@ -300,7 +302,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.actionTooltip = function (action, cls) {
-      var info = $scope.allActions[action];
+      var info = _actionsByName[action];
       var tooltipClass = info.cls;
       if (tooltipClass == 'All') {
         tooltipClass = cls;
@@ -321,7 +323,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.uniqueCrossClassActions = function (sequence, cls) {
       if (typeof sequence == 'undefined') return [];
       var crossClassActions = sequence.filter(function (action) {
-        var actionClass = $scope.allActions[action].cls;
+        var actionClass = _actionsByName[action].cls;
         return actionClass != 'All' && actionClass != cls;
       });
       return crossClassActions.unique();
@@ -378,7 +380,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         windowClass: 'macro-modal',
         resolve: {
           allActions: function () {
-            return $scope.allActions;
+            return _actionsByName;
           },
           sequence: function () {
             return $scope.sequence;
