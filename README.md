@@ -20,7 +20,7 @@ your browser.
 
 ### Translations
 
-Localization files can be found in `app/local`. The `app/local/en.json` file is purposefully 
+Localization files can be found in `app/locale`. The `app/locale/en.json` file is purposefully 
 missing because the English strings are used as the translation keys. Strings which require
 interpolation are defined in app.js so that they can be displayed immediately as a fallback until 
 the actual locale json file finishes loading.
