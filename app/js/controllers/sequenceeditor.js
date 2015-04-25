@@ -2,15 +2,15 @@
 
 angular.module('ffxivCraftOptWeb.controllers')
   .controller('SequenceEditorCtrl',
-  function ($scope, $http, _actionGroups, _allActions, _getActionImagePath, _simulator)
+  function ($scope, $http, _actionGroups, _actionsByName, _simulator)
   {
     $scope.actionGroups = _actionGroups;
-    $scope.allActions = {};
-    for (var i = 0; i < _allActions.length; i++) {
-      var action = _allActions[i];
-      $scope.allActions[action.shortName] = action;
-    }
-    $scope.getActionImagePath = _getActionImagePath;
+    $scope.allActions = _actionsByName;
+
+    $scope.getActionImagePath = function(actionName, cls) {
+      return _actionsByName[actionName].imagePaths[cls];
+    };
+
 
     $scope.origSequence = [];
     $scope.sequence = [];

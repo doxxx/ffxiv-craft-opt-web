@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="http://xivdb.com/css/tooltip.css"/>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
   <script src="lib/angular-ui-router/angular-ui-router.js"></script>
+  <script src="lib/angular-translate/angular-translate.min.js"></script>
 </head>
 
 <body ng-controller="MainCtrl" ng-cloak>
@@ -35,6 +36,12 @@
           <li ui-sref-active="active"><a ui-sref="instructions">Instructions</a></li>
           <li ui-sref-active="active"><a ui-sref="about">About</a></li>
           <li><a href="blog">Blog</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Language: {{languages[currentLang()]}} <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li ng-repeat="(langCode, langName) in languages"><a ng-click="changeLang(langCode)">{{langName}}</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -54,8 +61,8 @@
 
 <footer>
   <div class="container-fluid">
-    <p class="muted">Version: 12 (BETA). Sourcecode on <a href="http://github.com/doxxx/ffxiv-craft-opt-web">Github</a>. Copyright &copy; 2014 by Rhoda Baker and Gordon Tyler.</p>
-    <p class="muted">FINAL FANTASY XIV &copy;2010 - 2013 SQUARE ENIX CO., LTD. FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. All material used under license.</p>
+    <p class="muted">Version: 13 (BETA). Sourcecode on <a href="http://github.com/doxxx/ffxiv-craft-opt-web">Github</a>. Copyright &copy; 2014 - 2015 by Rhoda Baker and Gordon Tyler.</p>
+    <p class="muted">FINAL FANTASY XIV &copy;2010 - 2015 SQUARE ENIX CO., LTD. FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. All material used under license.</p>
   </div>
 </footer>
 
