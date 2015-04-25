@@ -24,6 +24,26 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       };
     }
 
+    function buildTooltipsCache(lang) {
+      for (var i = 0; i < _allActions.length; i++) {
+        var action = _allActions[i];
+        if (action.skillID) {
+          if (action.cls == 'All') {
+            for (var j = 0; j < _allClasses.length; j++) {
+              var cls = _allClasses[j];
+              _xivdbtooltips.fetch(lang, action.skillID[cls]).then(makeTooltipsFetchCallback(cls, action.shortName));
+            }
+          }
+          else {
+            _xivdbtooltips.fetch(lang, action.skillID[action.cls])
+              .then(makeTooltipsFetchCallback(action.cls, action.shortName));
+          }
+        }
+      }
+    }
+
+    buildTooltipsCache(localStorage.lang);
+
     $scope.languages = {
       en: 'English',
       de: 'Deutsch',
@@ -33,27 +53,13 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.changeLang = function (lang) {
       $translate.use(lang);
       localStorage.lang = lang;
+      buildTooltipsCache(lang);
     };
 
     $scope.currentLang = function () {
       return $translate.use();
     };
 
-    for (var i = 0; i < _allActions.length; i++) {
-      var action = _allActions[i];
-      if (action.skillID) {
-        if (action.cls == 'All') {
-          for (var j = 0; j < _allClasses.length; j++) {
-            var cls = _allClasses[j];
-            _xivdbtooltips.fetch(action.skillID[cls]).then(makeTooltipsFetchCallback(cls, action.shortName));
-          }
-        }
-        else {
-          _xivdbtooltips.fetch(action.skillID[action.cls])
-            .then(makeTooltipsFetchCallback(action.cls, action.shortName));
-        }
-      }
-    }
 
     // non-persistent page states
     $scope.navBarCollapsed = true;
