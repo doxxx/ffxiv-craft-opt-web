@@ -45,6 +45,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     buildTooltipsCache(localStorage.lang);
 
     $scope.languages = {
+      ja: '日本語',
       en: 'English',
       de: 'Deutsch',
       fr: 'Français'
