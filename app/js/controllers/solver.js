@@ -1,7 +1,7 @@
 "use strict";
 
-angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $filter, $modal, $log,
-    _recipeLibrary, _simulator, _solver) {
+angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $filter, $modal,
+  $rootScope, $translate, _recipeLibrary, _simulator, _solver) {
 
   // Non-persistent page state
   $scope.simulatorTabs = {
@@ -30,21 +30,18 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   });
 
   $scope.updateRecipeSearchList = function() {
-    var recipesForClass = $scope.recipesForClass($scope.recipe.cls) || [];
-    $scope.recipeSearch.list = $filter('filter')(recipesForClass, {name: $scope.recipeSearch.text});
+    var recipes = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls) || [];
+    $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text});
     $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
   };
 
-  $scope.recipesForClass = function (cls) {
-    /*var recipes = angular.copy(_recipeLibrary.recipesForClass(cls));
-     recipes.sort(function(a,b) { return a.name.localeCompare(b.name); });
-     return recipes;*/
-    return _recipeLibrary.recipesForClass(cls);
-  };
+  $rootScope.$on('$translateChangeSuccess', function () {
+    $scope.updateRecipeSearchList();
+  });
 
   $scope.recipeSelected = function (name) {
     var cls = $scope.recipe.cls;
-    var recipe = angular.copy(_recipeLibrary.recipeForClassByName(cls, name));
+    var recipe = angular.copy(_recipeLibrary.recipeForClassByName($translate.use(), cls, name));
     recipe.cls = cls;
     recipe.startQuality = 0;
     $scope.$emit('recipe.selected', recipe);

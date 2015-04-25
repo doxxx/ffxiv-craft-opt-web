@@ -4,8 +4,8 @@
 
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
-  function ($scope, $log, $modal, $timeout, $translate, _allClasses, _actionGroups, _allActions, _actionsByName,
-            _recipeLibrary, _localProfile, _xivdbtooltips)
+  function ($scope, $rootScope, $modal, $translate, _allClasses, _actionGroups, _allActions, _actionsByName,
+    _localProfile, _xivdbtooltips)
   {
     // provide access to constants
     $scope.allClasses = _allClasses;
@@ -46,9 +46,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
     }
 
-    buildTooltipsCache(localStorage.lang);
-
     $scope.languages = {
+      ja: '日本語',
       en: 'English',
       de: 'Deutsch',
       fr: 'Français'
@@ -56,13 +55,15 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.changeLang = function (lang) {
       $translate.use(lang);
-      localStorage.lang = lang;
-      buildTooltipsCache(lang);
     };
 
     $scope.currentLang = function () {
       return $translate.use();
     };
+    
+    $rootScope.$on('$translateChangeSuccess', function (event, data) {
+      buildTooltipsCache(data.language);
+    });
 
 
     // non-persistent page states
