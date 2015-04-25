@@ -14,3 +14,15 @@ angular.module('ffxivCraftOptWeb.services', [])
       }
     }
   });
+
+angular.module('ffxivCraftOptWeb.services.translateLocalStorage', [])
+  .factory('_translateLocalStorage', function () {
+    return {
+      put: function (name, value) {
+        localStorage[name] = value;
+      },
+      get: function (name) {
+        return localStorage[name];
+      }
+    };
+  });

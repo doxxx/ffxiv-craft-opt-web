@@ -12,6 +12,7 @@ angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.services.recipelibrary',
   'ffxivCraftOptWeb.services.simulator',
   'ffxivCraftOptWeb.services.solver',
+  'ffxivCraftOptWeb.services.translateLocalStorage',
   'ffxivCraftOptWeb.services.xivdbtooltips',
   'ffxivCraftOptWeb.directives',
   'ffxivCraftOptWeb.filters',
@@ -156,9 +157,13 @@ angular.module('ffxivCraftOptWeb', [
       "Hasty Touch": "Ouvrage Hâtif"
     });
 
-    if (!localStorage.lang) {
-      localStorage.lang = 'en';
+    if (localStorage['lang']) {
+      $translateProvider.preferredLanguage(localStorage['lang']);
+      localStorage.removeItem('lang');
+    }
+    else {
+      $translateProvider.preferredLanguage('en');
     }
 
-    $translateProvider.use(localStorage.lang);
+    $translateProvider.useStorage('_translateLocalStorage');
   });

@@ -52,7 +52,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.changeLang = function (lang) {
       $translate.use(lang);
-      localStorage.lang = lang;
       buildTooltipsCache(lang);
     };
 
