@@ -301,7 +301,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             bProgressGain = 40;
         }
         else if (isActionEq(action, AllActions.pieceByPiece)) {
-            bProgressGain = (synth.recipe.difficulty - progressState)/3;
+            bProgressGain = (synth.recipe.difficulty - progressState)*0.33;
         }
         var progressGain = bProgressGain;
 
@@ -354,7 +354,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
                 durabilityState += 10;
             }
 
-            if ((AllActions.comfortZone.name in effects.countDowns) && (cpState > 0)) {
+            if (isActionNe(action, AllActions.comfortZone) && (AllActions.comfortZone.name in effects.countDowns) && (cpState > 0)) {
                 cpState += 8;
             }
 
@@ -612,7 +612,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         bProgressGain = 40;
     }
     else if (isActionEq(action, AllActions.pieceByPiece)) {
-        bProgressGain = (synth.recipe.difficulty - progressState)/3;
+        bProgressGain = (synth.recipe.difficulty - progressState)*0.33;
     }
     var progressGain = success * bProgressGain;
 
@@ -665,7 +665,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
             durabilityState += 10;
         }
 
-        if (AllActions.comfortZone.name in effects.countDowns && cpState > 0) {
+        if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.name in effects.countDowns && cpState > 0) {
             cpState += 8;
         }
 
