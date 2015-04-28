@@ -1,21 +1,34 @@
 'use strict';
 
-var LocalProfileService = function(_allClasses) {
-  this.synths = JSON.parse(localStorage['synths'] || '{}');
+var ProfileService = function(_allClasses) {
+  this._allClasses = _allClasses;
+  return this;
+};
+
+ProfileService.$inject = ['_allClasses'];
+
+ProfileService.prototype.useStorage = function (storage) {
+  if (storage === undefined || storage === null) {
+    throw new TypeError('storage may not be undefined or null');
+  }
+  this.storage = storage;
+};
+
+ProfileService.prototype.load = function () {
+  this.synths = this.storage.get('synths');
 
   var modified = false;
   var name;
 
-  if (Object.keys(this.synths).length == 0) {
-    var oldSavedSettings = localStorage['savedSettings'];
+  if (Object.keys(this.synths).length === 0) {
+    var oldSavedSettings = this.storage.get('savedSettings');
     if (oldSavedSettings) {
       // Import old saved settings as synths
-      oldSavedSettings = JSON.parse(oldSavedSettings);
       for (name in oldSavedSettings) {
         this.synths[name] = oldSavedSettings[name];
       }
       modified = true;
-      localStorage.removeItem('savedSettings');
+      this.storage.remove('savedSettings');
     }
   }
 
@@ -28,24 +41,23 @@ var LocalProfileService = function(_allClasses) {
     }
   }
 
-  if (localStorage['crafterStats']) {
-    this.crafterStats = JSON.parse(localStorage['crafterStats']);
+  if (this.storage.hasKey('crafterStats')) {
+    this.crafterStats = this.storage.get('crafterStats');
   }
   else {
-    var oldCrafterSettings = localStorage['settings.crafter'];
+    var oldCrafterSettings = this.storage.get('settings.crafter');
     if (oldCrafterSettings) {
       // Import old crafter stats
-      oldCrafterSettings = JSON.parse(oldCrafterSettings);
       this.crafterStats = oldCrafterSettings.stats;
       modified = true;
-      localStorage.removeItem('settings.crafter');
+      this.storage.remove('settings.crafter');
     }
     else {
       // Initialize default stats
       var crafterStats = {};
 
-      for (var i = 0; i < _allClasses.length; i++) {
-        var c = _allClasses[i];
+      for (var i = 0; i < this._allClasses.length; i++) {
+        var c = this._allClasses[i];
         crafterStats[c] = {
           level: 1,
           craftsmanship: 24,
@@ -64,37 +76,35 @@ var LocalProfileService = function(_allClasses) {
   }
 };
 
-LocalProfileService.$inject = ['_allClasses'];
-
-LocalProfileService.prototype.userInfo = function () {
+ProfileService.prototype.userInfo = function () {
   return null;
 };
 
-LocalProfileService.prototype.synthNames = function () {
+ProfileService.prototype.synthNames = function () {
   return Object.keys(this.synths);
 };
 
-LocalProfileService.prototype.loadSynth = function (name) {
+ProfileService.prototype.loadSynth = function (name) {
   return angular.copy(this.synths[name]);
 };
 
-LocalProfileService.prototype.saveSynth = function (name, synth) {
+ProfileService.prototype.saveSynth = function (name, synth) {
   this.synths[name] = angular.copy(synth);
   this.persist();
 };
 
-LocalProfileService.prototype.deleteSynth = function (name) {
+ProfileService.prototype.deleteSynth = function (name) {
   delete this.synths[name];
   this.persist();
 };
 
-LocalProfileService.prototype.renameSynth = function (oldName, newName) {
+ProfileService.prototype.renameSynth = function (oldName, newName) {
   this.synths[newName] = this.synths[oldName];
   delete this.synths[oldName];
   this.persist();
 };
 
-LocalProfileService.prototype.bindCrafterStats = function ($scope, expr) {
+ProfileService.prototype.bindCrafterStats = function ($scope, expr) {
   var self = this;
   var stats = $scope.$eval(expr);
   for (var cls in this.crafterStats) {
@@ -108,14 +118,14 @@ LocalProfileService.prototype.bindCrafterStats = function ($scope, expr) {
   }
 };
 
-LocalProfileService.prototype.getCrafterStats = function () {
+ProfileService.prototype.getCrafterStats = function () {
   return angular.copy(this.crafterStats);
 };
 
-LocalProfileService.prototype.persist = function() {
-  localStorage['synths'] = JSON.stringify(this.synths);
-  localStorage['crafterStats'] = JSON.stringify(this.crafterStats);
+ProfileService.prototype.persist = function() {
+  this.storage.put('synths', this.synths);
+  this.storage.put('crafterStats', this.crafterStats);
 };
 
-angular.module('ffxivCraftOptWeb.services.localprofile', []).
-  service('_localProfile', LocalProfileService);
+angular.module('ffxivCraftOptWeb.services.profile', []).
+  service('_profile', ProfileService);

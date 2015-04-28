@@ -5,7 +5,7 @@
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
   function ($scope, $rootScope, $http, $location, $modal, $document, $timeout, $filter, $translate, _getSolverServiceURL, _allClasses,
-    _actionGroups, _allActions, _actionsByName, _recipeLibrary, _localProfile, _simulator, _solver, _xivdbtooltips)
+    _actionGroups, _allActions, _actionsByName, _recipeLibrary, _profile, _simulator, _solver, _xivdbtooltips, _localStorage)
   {
     // provide access to constants
     $scope.allClasses = _allClasses;
@@ -513,7 +513,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     loadLocalPageState($scope);
 
-    $scope.profile = _localProfile;
+    _profile.useStorage(_localStorage);
+    _profile.load();
+    $scope.profile = _profile;
     $scope.onProfileLoaded();
   });
 
