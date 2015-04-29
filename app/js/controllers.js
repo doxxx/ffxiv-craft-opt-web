@@ -5,7 +5,7 @@
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
   function ($scope, $rootScope, $http, $location, $modal, $document, $timeout, $filter, $translate, _getSolverServiceURL, _allClasses,
-    _actionGroups, _allActions, _actionsByName, _recipeLibrary, _profile, _simulator, _solver, _xivdbtooltips, _localStorage)
+    _actionGroups, _allActions, _actionsByName, _recipeLibrary, _profile, _simulator, _solver, _xivdbtooltips, _localStorage, _cloudStorage)
   {
     // provide access to constants
     $scope.allClasses = _allClasses;
@@ -96,8 +96,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.onProfileLoaded = function () {
-      $scope.userInfo = $scope.profile.userInfo();
-
       $scope.profile.bindCrafterStats($scope, 'crafter.stats');
 
       // watches for automatic updates and saving settings
@@ -513,10 +511,17 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     loadLocalPageState($scope);
 
-    _profile.useStorage(_localStorage);
-    _profile.load();
     $scope.profile = _profile;
     $scope.onProfileLoaded();
+
+    _profile.init(
+      function () {
+        $scope.onProfileLoaded();
+      },
+      function () {
+        console.error('cloud load failed')
+      }
+    );
   });
 
 function loadLocalPageState($scope) {
