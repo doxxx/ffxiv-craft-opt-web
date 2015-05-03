@@ -28,17 +28,22 @@ var ProfileService = function(_allClasses, _localStorage, _cloudStorage) {
 
 ProfileService.$inject = ['_allClasses', '_localStorage', '_cloudStorage'];
 
-ProfileService.prototype.init = function (success, failure) {
+ProfileService.prototype.init = function (successFn, failureFn) {
   if (this._localStorage.hasKey('synths')) {
     this.loadFromLocal();
   }
 
   var cloudKey = localStorage.getItem('cloudKey');
   if (cloudKey) {
-    this.importFromCloud(cloudKey, success, failure);
+    this.importFromCloud(cloudKey,
+      function () {
+        if (successFn) successFn(cloudKey);
+      },
+      failureFn
+    );
   }
   else {
-    if (success) success();
+    if (successFn) successFn();
   }
 };
 
@@ -87,26 +92,36 @@ ProfileService.prototype.loadFromLocal = function () {
   }
 };
 
-ProfileService.prototype.importFromCloud = function (cloudKey, success, failure) {
+ProfileService.prototype.importFromCloud = function (cloudKey, successFn, failureFn) {
   var self = this;
   this._cloudStorage.load(cloudKey,
     function () {
       self.synths = self._cloudStorage.get('synths');
       self.crafterStats = self._cloudStorage.get('crafterStats');
-      if (success) success();
+      localStorage.setItem('cloudKey', cloudKey);
+      if (successFn) successFn();
     },
     function () {
-      if (failure) failure();
+      if (failureFn) failureFn();
     }
   );
 };
 
-ProfileService.prototype.createInCloud = function (cloudKey, success, failure) {
+ProfileService.prototype.createInCloud = function (cloudKey, successFn, failureFn) {
   var data = {
     synths: this.synths,
     crafterStats: this.crafterStats
   };
-  this._cloudStorage.create(cloudKey, data, success, failure);
+  this._cloudStorage.create(cloudKey, data,
+    function () {
+      localStorage.setItem('cloudKey', cloudKey);
+      if (successFn) successFn();
+    },
+    failureFn);
+};
+
+ProfileService.prototype.cloudSaveEnabled = function () {
+  return this._cloudStorage.loaded();
 };
 
 ProfileService.prototype.synthNames = function () {
