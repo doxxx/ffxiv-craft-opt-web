@@ -33,8 +33,8 @@ storageModule.service('_localStorage', LocalStorageService);
 
 
 
-var CloudStorageService = function ($resource) {
-  this.db = $resource('http://localhost:8080/api/storage/:key', {}, {
+var CloudStorageService = function ($resource, $location) {
+  this.db = $resource('//' + $location.host() + ':8080/api/storage/:key', {}, {
     create: {
       method: 'PUT'
     }
@@ -43,7 +43,7 @@ var CloudStorageService = function ($resource) {
   return this;
 };
 
-CloudStorageService.$inject = ['$resource'];
+CloudStorageService.$inject = ['$resource', '$location'];
 
 CloudStorageService.prototype.loaded = function () {
   return this.data !== null;
