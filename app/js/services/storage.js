@@ -78,6 +78,11 @@ CloudStorageService.prototype.load = function (key, successFn, failureFn) {
   });
 };
 
+CloudStorageService.prototype.disable = function () {
+  this.key = null;
+  this.data = null;
+};
+
 CloudStorageService.prototype.get = function (key) {
   if (this.data === null) {
     throw new Error('No data loaded from cloud storage');

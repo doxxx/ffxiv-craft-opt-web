@@ -120,6 +120,11 @@ ProfileService.prototype.createInCloud = function (cloudKey, successFn, failureF
     failureFn);
 };
 
+ProfileService.prototype.disableCloudSave = function () {
+  this._cloudStorage.disable();
+  localStorage.removeItem('cloudKey');
+}
+
 ProfileService.prototype.cloudSaveEnabled = function () {
   return this._cloudStorage.loaded();
 };
