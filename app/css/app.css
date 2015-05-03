@@ -229,7 +229,19 @@ legend small > .light {
   display: block;
 }
 
+.cloud-save-dropdown {
+  padding: 5px;
+  min-width: 300px;
+  text-align: center;
+}
 
+.cloud-save-dropdown form {
+  margin-bottom: 0;
+}
+
+.cloud-save-dropdown form .btn {
+  margin-top: 0;
+}
 
 /* Actions */
 

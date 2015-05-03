@@ -65,6 +65,19 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     // non-persistent page states
     $scope.navBarCollapsed = true;
 
+    $scope.cloudSaveStatus = {
+      dropdownState: 'choose',
+      passphrase: null,
+      stateString: function () {
+        if (_profile.cloudSaveEnabled()) {
+          return 'Enabled';
+        }
+        else {
+          return 'Disabled';
+        }
+      }
+    };
+
     $scope.recipeSearch = {
       list: [],
       selected: 0,
@@ -509,17 +522,57 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.solverStatus.generationsCompleted = 0;
     };
 
+    $scope.cloudSaveDropdownSwitch = function (state) {
+      $scope.cloudSaveStatus.passphrase = null;
+      $scope.cloudSaveStatus.dropdownState = state;
+    }
+
+    $scope.saveToCloud = function () {
+      //noinspection JSPotentiallyInvalidConstructorUsage
+      var sha = new jsSHA($scope.cloudSaveStatus.passphrase, 'TEXT');
+      _profile.createInCloud(sha.getHash('SHA-512', 'HEX'),
+        function () {
+          console.info('cloud save succeeded');
+          $scope.cloudSaveDropdownSwitch('enabled');
+        },
+        function () {
+          console.error('cloud save failed');
+        });
+    };
+
+    $scope.loadFromCloud = function () {
+      //noinspection JSPotentiallyInvalidConstructorUsage
+      var sha = new jsSHA($scope.cloudSaveStatus.passphrase, 'TEXT');
+      _profile.importFromCloud(sha.getHash('SHA-512', 'HEX'),
+        function () {
+          console.info('cloud load succeeded');
+          $scope.cloudSaveDropdownSwitch('enabled');
+          $scope.onProfileLoaded();
+        },
+        function () {
+          console.error('cloud load failed');
+        });
+    };
+
+    $scope.disableCloudSave = function () {
+      _profile.disableCloudSave();
+      $scope.cloudSaveDropdownSwitch('choose');
+    };
+
     loadLocalPageState($scope);
 
     $scope.profile = _profile;
     $scope.onProfileLoaded();
 
     _profile.init(
-      function () {
+      function (cloudKey) {
+        if (cloudKey) {
+          $scope.cloudSaveDropdownSwitch('enabled');
+        }
         $scope.onProfileLoaded();
       },
       function () {
-        console.error('cloud load failed')
+        console.error('cloud load failed');
       }
     );
   });

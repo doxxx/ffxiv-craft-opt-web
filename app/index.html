@@ -14,6 +14,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-resource.min.js"></script>
   <script src="lib/angular-translate/angular-translate.min.js"></script>
   <script src="lib/angular-translate/angular-translate-loader-static-files.min.js"></script>
+  <script src="lib/jssha/sha512.js"></script>
   <script src="js/version-footer.js"></script>
 </head>
 
@@ -37,6 +38,38 @@
             <a href="#" class="dropdown-toggle">Language: {{languages[currentLang()]}} <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li ng-repeat="(langCode, langName) in languages"><a ng-click="changeLang(langCode)">{{langName}}</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Cloud Save: {{cloudSaveStatus.stateString()}} <span class="caret"></span></a>
+            <ul class="dropdown-menu cloud-save-dropdown" ng-switch on="cloudSaveStatus.dropdownState">
+              <div ng-switch-when="choose" class="cloud-save-choose">
+                <form class="form-inline">
+                  <button class="btn" ng-click="cloudSaveDropdownSwitch('save')" stop-click-propogation>Save
+                  </button>
+                  <button class="btn" ng-click="cloudSaveDropdownSwitch('load')" stop-click-propogation>Load
+                  </button>
+                </form>
+              </div>
+              <div ng-switch-when="save">
+                <form class="form-inline">
+                  <input class="input-medium" type="text" ng-model="cloudSaveStatus.passphrase" placeholder="Enter passphrase..." stop-click-propogation/>
+                  <button class="btn" ng-click="saveToCloud()" type="submit">Save</button>
+                  <button class="btn" ng-click="cloudSaveDropdownSwitch('choose')" stop-click-propogation>Cancel</button>
+                </form>
+              </div>
+              <div ng-switch-when="load">
+                <form class="form-inline">
+                  <input class="input-medium" type="text" ng-model="cloudSaveStatus.passphrase" placeholder="Enter passphrase..." stop-click-propogation/>
+                  <button class="btn" ng-click="loadFromCloud()">Load</button>
+                  <button class="btn" ng-click="cloudSaveDropdownSwitch('choose')" stop-click-propogation>Cancel</button>
+                </form>
+              </div>
+              <div ng-switch-when="enabled" class="cloud-save-enabled">
+                <form class="form-inline">
+                  <button class="btn" ng-click="disableCloudSave()" stop-click-propogation>Disable</button>
+                </form>
+              </div>
             </ul>
           </li>
         </ul>
