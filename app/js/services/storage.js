@@ -39,6 +39,7 @@ var CloudStorageService = function ($resource, $location) {
       method: 'PUT'
     }
   });
+  this.key = null;
   this.data = null;
   return this;
 };
@@ -68,8 +69,8 @@ CloudStorageService.prototype.load = function (key, successFn, failureFn) {
     throw new TypeError('key may not be undefined or null');
   }
   var self = this;
-  this.key = key;
   this.db.get({key: key}, function (data) {
+    self.key = key;
     self.data = data;
     if (successFn) successFn();
   }, function () {
