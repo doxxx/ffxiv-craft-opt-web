@@ -1,5 +1,11 @@
 /* app css stylesheet */
 
+.important {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .nowrap {
   white-space: nowrap;
 }
