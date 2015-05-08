@@ -1,6 +1,6 @@
 'use strict';
 
-const languageIndex = {
+var languageIndex = {
   ja: 0,
   en: 1,
   de: 2,

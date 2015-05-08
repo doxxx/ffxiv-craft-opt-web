@@ -1,6 +1,6 @@
 'use strict';
 
-const allClasses = [
+var allClasses = [
   "Alchemist",
   "Armorer",
   "Blacksmith",
@@ -11,7 +11,7 @@ const allClasses = [
   "Weaver"
 ];
 
-const allActions = [
+var allActions = [
   {"shortName": "basicSynth", "name": "Basic Synthesis", "cls": "All", "level": 1, "common": false, "skillID": {"Alchemist": 100090, "Armorer": 100030, "Blacksmith": 100015, "Carpenter": 100001, "Culinarian": 100105, "Goldsmith": 100075, "Leatherworker": 100045, "Weaver": 100060}},
   {"shortName": "standardSynthesis", "name": "Standard Synthesis", "cls": "All", "level": 31, "common": false, "skillID": {"Alchemist": 100096, "Armorer": 100037, "Blacksmith": 100021, "Carpenter": 100007, "Culinarian": 100111, "Goldsmith": 100080, "Leatherworker": 100051, "Weaver": 100067}},
   {"shortName": "flawlessSynthesis", "name": "Flawless Synthesis", "cls": "Goldsmith", "level": 37, "skillID": {"Goldsmith": 100083}},
@@ -45,7 +45,7 @@ const allActions = [
   // "Reclaim",
 ];
 
-const actionsByName = {};
+var actionsByName = {};
 for (var i = 0; i < allActions.length; i++) {
   var action = allActions[i];
 
@@ -69,7 +69,7 @@ for (var i = 0; i < allActions.length; i++) {
   actionsByName[action.shortName] = action;
 }
 
-const actionGroups = [
+var actionGroups = [
   {
     name: "Synthesis", actions: [
     "basicSynth",
