@@ -1,4 +1,9 @@
 //require('./String.js');
+/* Adding new actions search for STEP_##
+    * Add action to AllActions object STEP_01
+    * Add action effect to SimSynth function STEP_02
+    * Add action effect to MonteCarloSynth function STEP_03
+*/
 
 function Logger(logOutput) {
     this.logOutput = logOutput;
@@ -227,8 +232,12 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         //==================================
         stepCount += 1;
 
-        // Add effect modifiers
+        // STEP_02.a
+        // Effect Modifiers
+        //=================
         var craftsmanship = synth.crafter.craftsmanship;
+
+        // Effects modifying control
         var control = synth.crafter.control;
         if (AllActions.innerQuiet.name in effects.countUps) {
             control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
@@ -238,6 +247,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             control += 0.5 * synth.crafter.control;
         }
 
+        // Effects modifying level difference
         var levelDifference = synth.crafter.level - synth.recipe.level;
         if (AllActions.ingenuity2.name in effects.countDowns) {
             if (synth.crafter.level == 50) {
@@ -273,6 +283,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             }
         }
 
+        // Effects modfiying probability
         var successProbability = action.successProbability;
         if (AllActions.steadyHand2.name in effects.countDowns) {
             successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
@@ -285,6 +296,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
         successProbability = Math.min(successProbability, 1);
 
+        // Effects modifying quality increase multiplier
         var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
         if (AllActions.greatStrides.name in effects.countDowns) {
             qualityIncreaseMultiplier *= 2;
@@ -296,6 +308,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         // Calculate final gains / losses
+        // Effects modifying progress
         var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
         if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
@@ -305,12 +318,14 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
         var progressGain = bProgressGain;
 
+        // Effects modifying quality
         var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
         var qualityGain = bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
         }
 
+        // Effects modifying durability cost
         var durabilityCost = action.durabilityCost;
         if ((AllActions.wasteNot.name in effects.countDowns) || (AllActions.wasteNot2.name in effects.countDowns)) {
             durabilityCost = 0.5 * action.durabilityCost;
@@ -339,6 +354,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             durabilityState -= durabilityCost;
             cpState -= action.cpCost;
 
+            // STEP_02.b
             // Effect management
             //==================================
             // Special Effect Actions
@@ -394,6 +410,9 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
                 ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
             }
 
+            // STEP_02.c
+            // Countdown / Countup Management
+            //===============================
             // Decrement countdowns
             for (var countDown in effects.countDowns) {
                 effects.countDowns[countDown] -= 1;
@@ -514,8 +533,12 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
 
     stepCount += 1;
 
-    // Add effect modifiers
+    // STEP_03.a
+    // Effect modifiers
+    //=================
     var craftsmanship = synth.crafter.craftsmanship;
+
+    // Effects modifying control
     var control = synth.crafter.control;
     if (AllActions.innerQuiet.name in effects.countUps) {
         control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
@@ -528,6 +551,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     // Control is floored before display based on IQ incremental observations
     control = Math.floor(control);
 
+    // Effects modifying level difference
     var levelDifference = synth.crafter.level - synth.recipe.level;
     if (AllActions.ingenuity2.name in effects.countDowns) {
         if (synth.crafter.level == 50) {
@@ -563,6 +587,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
     }
 
+    // Effects modifying probability
     if (AllActions.steadyHand2.name in effects.countDowns) {
         successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
     }
@@ -574,6 +599,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     }
     var successProbability = Math.min(successProbability, 1);
 
+    // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
     if (AllActions.greatStrides.name in effects.countDowns) {
         qualityIncreaseMultiplier *= 2;
@@ -607,6 +633,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
             success = 1;
         }
 
+    // Effects modifying progress
     var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
@@ -616,12 +643,14 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     }
     var progressGain = success * bProgressGain;
 
+    // Effects modifying quality
     var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
     var qualityGain = success * bQualityGain;
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
         qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
     }
 
+    // Effects modifying durability cost
     var durabilityCost = action.durabilityCost;
     if (AllActions.wasteNot.name in effects.countDowns || AllActions.wasteNot2.name in effects.countDowns) {
         durabilityCost = 0.5 * action.durabilityCost;
@@ -650,6 +679,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         durabilityState -= durabilityCost;
         cpState -= action.cpCost;
 
+        // STEP_03.b
         // Effect management
         //==================================
         // Special Effect Actions
@@ -708,6 +738,9 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
             }
         }
 
+        // STEP_03.c
+        // Countdown / Countup management
+        //===============================
         // Increment countups
         if (action.qualityIncreaseMultiplier > 0 && AllActions.innerQuiet.name in effects.countUps && effects.countUps[AllActions.innerQuiet.name] < 10) {
             effects.countUps[AllActions.innerQuiet.name] += 1 * success;
@@ -1095,7 +1128,9 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     return [fitness, fitnessProg];
 }
 
-// Actions
+// STEP_01
+// Actions Table
+//==============
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level
 var AllActions = {
   dummyAction: new Action(       'dummyAction',          '______________',       0,  0,      1, 0.0, 0.0, 'immediate',   1,  'All',          1),
