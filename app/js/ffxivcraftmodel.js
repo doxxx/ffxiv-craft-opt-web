@@ -1126,6 +1126,26 @@ var AllActions = {
     ingenuity: new Action(         'ingenuity',            'Ingenuity',            0,   24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15),
     ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50),
 
+    // Heavensward actions
+    //                            shortName,              fullName,              dur,   cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,
+    byregotsBrow: new Action(     'byregotsBrow',         'Byregot\'s Brow',      10,   18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51),
+    preciseTouch: new Action(     'preciseTouch',         'Precise Touch',        10,   18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53),
+    makersMark: new Action(       'makersMark',           'Maker\'s Mark',         0,   20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54),
+    muscleMemory: new Action(     'muscleMemory',         'Muscle Memory',        10,    6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
+
+    /* TODO
+    nameofElement: new Action(    'nameofElement',        'Name of Element',       0,   15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
+    heartOfTheClass: new Action(  'heartOfTheClass',      'Heart of the Class',    0,   45,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          60),
+
+    // Specialist Actions
+    satisfaction: new Action(     'satisfaction',         'Satisfaction',          0,    0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
+    whistleWhileYouWork: new Action(     'whistleWhileYouWork',         'Whistle While You Work',          0,    36,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
+    innovativeTouch: new Action(  'innovativeTouch',      'Innovative Touch',     10,    8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
+    nymeiasWheel: new Action(     'nymeiasWheel',         'Nymeia\'s Wheel',       0,   18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
+    byregotsMiracle: new Action(  'byregotsMiracle',      'Byregot\'s Miracle',   10,   16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
+    trainedHand: new Action(      'trainedHand',          'Trained Hand',         10,   32,  0.8, 1.0, 0.0, 'immediate',   1,  'All',          58),
+    */
+
     dummyAction: new Action(       'dummyAction',          '______________',       0,  0,    1.0, 0.0, 0.0, 'immediate',   1,  'All',          1)
 };
 
