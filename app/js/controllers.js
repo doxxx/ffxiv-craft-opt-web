@@ -106,9 +106,15 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       });
 
       function updateRecipeSearchList() {
-        var recipes = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls) || [];
-        $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text});
-        $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
+        var p = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls);
+        p.then(function (recipes) {
+          $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text});
+          $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
+        }, function (err) {
+          console.error("Failed to retrieve recipes:", err);
+          $scope.recipeSearch.list = [];
+          $scope.recipeSearch.selected = -1;
+        });
       }
 
       $rootScope.$on('$translateChangeSuccess', function (event, data) {
@@ -165,9 +171,19 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     // data model interaction functions
     $scope.importRecipe = function (name) {
       var cls = $scope.recipe.cls;
-      $scope.recipe = angular.copy(_recipeLibrary.recipeForClassByName($translate.use(), cls, name));
-      $scope.recipe.cls = cls;
-      $scope.recipe.startQuality = 0;
+      var p = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls);
+      p.then(function (recipes) {
+        for (var i = 0; i < recipes.length; i++) {
+          var recipe = recipes[i];
+          if (recipe.name == name) {
+            $scope.recipe = angular.copy(recipe);
+            $scope.recipe.cls = cls;
+            $scope.recipe.startQuality = 0;
+          }
+        }
+      }, function (err) {
+        console.error("Failed to retrieve recipes:", err);
+      });
     };
 
     $scope.onSearchKeyPress = function (event) {
