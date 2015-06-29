@@ -1,0 +1,7286 @@
+[
+  {
+    "maxQuality": 312,
+    "durability": 40,
+    "name": {
+      "fr": "Fil de chanvre",
+      "de": "Hanfgarn",
+      "ja": "\u8349\u7cf8",
+      "en": "Hempen Yarn"
+    },
+    "level": 1,
+    "difficulty": 9
+  },
+  {
+    "maxQuality": 325,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe de chanvre",
+      "de": "Naturbelassener Hanf",
+      "ja": "\u8349\u5e03",
+      "en": "Undyed Hempen Cloth"
+    },
+    "level": 2,
+    "difficulty": 10
+  },
+  {
+    "maxQuality": 325,
+    "durability": 60,
+    "name": {
+      "fr": "Mitaines",
+      "de": "Hanf-Kurzfingerhandschuhe",
+      "ja": "\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6",
+      "en": "Hempen Halfgloves"
+    },
+    "level": 2,
+    "difficulty": 20
+  },
+  {
+    "maxQuality": 325,
+    "durability": 60,
+    "name": {
+      "fr": "Haut-de-chausses",
+      "de": "Hanfhalbstrumpfhose",
+      "ja": "\u30a2\u30f3\u30c0\u30fc\u30d1\u30f3\u30c4",
+      "en": "Hempen Underpants"
+    },
+    "level": 2,
+    "difficulty": 20
+  },
+  {
+    "maxQuality": 325,
+    "durability": 60,
+    "name": {
+      "fr": "Pantalettes",
+      "de": "Hanfschlupfhose",
+      "ja": "\u30d1\u30f3\u30bf\u30ec\u30c3\u30c8",
+      "en": "Hempen Pantalettes"
+    },
+    "level": 2,
+    "difficulty": 20
+  },
+  {
+    "maxQuality": 339,
+    "durability": 60,
+    "name": {
+      "fr": "Coiffe",
+      "de": "Hanfbundhaube",
+      "ja": "\u30b3\u30a4\u30d5",
+      "en": "Hempen Coif"
+    },
+    "level": 3,
+    "difficulty": 20
+  },
+  {
+    "maxQuality": 339,
+    "durability": 60,
+    "name": {
+      "fr": "Maillot",
+      "de": "Hanfmuskelshirt",
+      "ja": "\u30a2\u30f3\u30c0\u30fc\u30b7\u30e3\u30c4",
+      "en": "Hempen Undershirt"
+    },
+    "level": 3,
+    "difficulty": 20
+  },
+  {
+    "maxQuality": 339,
+    "durability": 60,
+    "name": {
+      "fr": "Dos-nu",
+      "de": "Hanfunterhemd",
+      "ja": "\u30ab\u30df\u30fc\u30ba",
+      "en": "Hempen Camise"
+    },
+    "level": 3,
+    "difficulty": 20
+  },
+  {
+    "maxQuality": 339,
+    "durability": 60,
+    "name": {
+      "fr": "Braies des cr\u00e9ations",
+      "de": "Hanfreiterhose des Eifers",
+      "ja": "\u30af\u30e9\u30d5\u30bf\u30fc\u30d6\u30ea\u30fc\u30c1",
+      "en": "Hempen Breeches of Crafting"
+    },
+    "level": 3,
+    "difficulty": 20
+  },
+  {
+    "maxQuality": 352,
+    "durability": 60,
+    "name": {
+      "fr": "Coiffe des ressources",
+      "de": "Hanfbundhaube des Eifers",
+      "ja": "\u30ae\u30e3\u30b6\u30e9\u30fc\u30b3\u30a4\u30d5",
+      "en": "Hempen Coif of Gathering"
+    },
+    "level": 4,
+    "difficulty": 21
+  },
+  {
+    "maxQuality": 352,
+    "durability": 60,
+    "name": {
+      "fr": "Dalmatique",
+      "de": "Hanf-Dalmatika",
+      "ja": "\u30c0\u30eb\u30de\u30c6\u30a3\u30ab",
+      "en": "Hempen Dalmatica"
+    },
+    "level": 4,
+    "difficulty": 21
+  },
+  {
+    "maxQuality": 352,
+    "durability": 60,
+    "name": {
+      "fr": "Gonelle",
+      "de": "Hanf-Kurta",
+      "ja": "\u30af\u30eb\u30bf",
+      "en": "Hempen Kurta"
+    },
+    "level": 4,
+    "difficulty": 21
+  },
+  {
+    "maxQuality": 352,
+    "durability": 60,
+    "name": {
+      "fr": "Braies",
+      "de": "Hanfreiterhose",
+      "ja": "\u30d6\u30ea\u30fc\u30c1",
+      "en": "Hempen Breeches"
+    },
+    "level": 4,
+    "difficulty": 21
+  },
+  {
+    "maxQuality": 352,
+    "durability": 60,
+    "name": {
+      "fr": "Trousses de berger",
+      "de": "Hanf-Sch\u00e4ferbeinlinge",
+      "ja": "\u30b7\u30a7\u30d1\u30fc\u30c9\u30b9\u30ed\u30c3\u30d7",
+      "en": "Hempen Shepherd's Slops"
+    },
+    "level": 4,
+    "difficulty": 21
+  },
+  {
+    "maxQuality": 451,
+    "durability": 60,
+    "name": {
+      "fr": "Bandana",
+      "de": "Hanfbandana",
+      "ja": "\u30d0\u30f3\u30c0\u30ca",
+      "en": "Hempen Bandana"
+    },
+    "level": 5,
+    "difficulty": 33
+  },
+  {
+    "maxQuality": 451,
+    "durability": 60,
+    "name": {
+      "fr": "Coule",
+      "de": "Hanfkukulle",
+      "ja": "\u30ab\u30a6\u30eb",
+      "en": "Hempen Cowl"
+    },
+    "level": 5,
+    "difficulty": 33
+  },
+  {
+    "maxQuality": 451,
+    "durability": 60,
+    "name": {
+      "fr": "Dalmatique des ressources",
+      "de": "Hanf-Dalmatika des Eifers",
+      "ja": "\u30ae\u30e3\u30b6\u30e9\u30fc\u30c0\u30eb\u30de\u30c6\u30a3\u30ab",
+      "en": "Hempen Dalmatica of Gathering"
+    },
+    "level": 5,
+    "difficulty": 33
+  },
+  {
+    "maxQuality": 451,
+    "durability": 60,
+    "name": {
+      "fr": "Tunique",
+      "de": "Hanftunika",
+      "ja": "\u30c1\u30e5\u30cb\u30c3\u30af",
+      "en": "Hempen Tunic"
+    },
+    "level": 5,
+    "difficulty": 33
+  },
+  {
+    "maxQuality": 451,
+    "durability": 60,
+    "name": {
+      "fr": "Chausses",
+      "de": "Hanf-Chausses",
+      "ja": "\u30b7\u30e7\u30fc\u30b9",
+      "en": "Hempen Chausses"
+    },
+    "level": 5,
+    "difficulty": 33
+  },
+  {
+    "maxQuality": 451,
+    "durability": 60,
+    "name": {
+      "fr": "Saroual",
+      "de": "Hanf-Sarouel",
+      "ja": "\u30b5\u30eb\u30a8\u30eb",
+      "en": "Hempen Sarouel"
+    },
+    "level": 5,
+    "difficulty": 33
+  },
+  {
+    "maxQuality": 451,
+    "durability": 60,
+    "name": {
+      "fr": "Collants",
+      "de": "Hanf-Strumpfhose",
+      "ja": "\u30bf\u30a4\u30c4",
+      "en": "Hempen Tights"
+    },
+    "level": 5,
+    "difficulty": 33
+  },
+  {
+    "maxQuality": 312,
+    "durability": 60,
+    "name": {
+      "fr": "Composant de coque",
+      "de": "Kanzelinnenraum-Bauteil",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u8239\u4f53\u90e8\u6750",
+      "en": "Hull Interior Component"
+    },
+    "level": 1,
+    "difficulty": 19
+  },
+  {
+    "maxQuality": 312,
+    "durability": 60,
+    "name": {
+      "fr": "Composant de ballon",
+      "de": "Ballonh\u00fcllen-Bauteil",
+      "ja": "\u6c17\u56a2\u90e8\u6750",
+      "en": "Bladder Component"
+    },
+    "level": 1,
+    "difficulty": 19
+  },
+  {
+    "maxQuality": 234,
+    "durability": 60,
+    "name": {
+      "fr": "Composant de finition de ballon",
+      "de": "H\u00fcllenverst\u00e4rkungs-Bauteil",
+      "ja": "\u6c17\u56a2\u88dc\u5f37\u6750",
+      "en": "Bladder Lining Component"
+    },
+    "level": 1,
+    "difficulty": 28
+  },
+  {
+    "maxQuality": 312,
+    "durability": 60,
+    "name": {
+      "fr": "Comp. de partie droite de nacelle",
+      "de": "Steuerbordrumpf-Bauteil",
+      "ja": "\u53f3\u8237\u8239\u4f53\u90e8\u6750",
+      "en": "Starboard Hull Component"
+    },
+    "level": 1,
+    "difficulty": 19
+  },
+  {
+    "maxQuality": 312,
+    "durability": 40,
+    "name": {
+      "fr": "Comp. de partie gauche de nacelle",
+      "de": "Backbordrumpf-Bauteil",
+      "ja": "\u5de6\u8237\u8239\u4f53\u90e8\u6750",
+      "en": "Larboard Hull Component"
+    },
+    "level": 1,
+    "difficulty": 9
+  },
+  {
+    "maxQuality": 254,
+    "durability": 60,
+    "name": {
+      "fr": "Composant de moteur",
+      "de": "Erdseim-Motor-Bauteil",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u6750",
+      "en": "Propulsion Engine Component"
+    },
+    "level": 3,
+    "difficulty": 30
+  },
+  {
+    "maxQuality": 339,
+    "durability": 60,
+    "name": {
+      "fr": "Composant d'unit\u00e9 motrice",
+      "de": "Gyroantriebs-Bauteil",
+      "ja": "\u52d5\u529b\u8f2a\u90e8\u6750",
+      "en": "Gyrodrive Component"
+    },
+    "level": 3,
+    "difficulty": 20
+  },
+  {
+    "maxQuality": 169,
+    "durability": 60,
+    "name": {
+      "fr": "Composant d'attache",
+      "de": "Takelagen-Bauteil",
+      "ja": "\u7d22\u5177\u90e8\u6750",
+      "en": "Rigging Component"
+    },
+    "level": 3,
+    "difficulty": 36
+  },
+  {
+    "maxQuality": 254,
+    "durability": 60,
+    "name": {
+      "fr": "Composant de pont",
+      "de": "Deck-Bauteil",
+      "ja": "\u7532\u677f\u90e8\u6750",
+      "en": "Deck Component"
+    },
+    "level": 3,
+    "difficulty": 30
+  },
+  {
+    "maxQuality": 339,
+    "durability": 40,
+    "name": {
+      "fr": "Composant de protection de moteur",
+      "de": "Motorgeh\u00e4use-Bauteil",
+      "ja": "\u6a5f\u95a2\u5916\u88c5\u90e8\u6750",
+      "en": "Engine Casing Component"
+    },
+    "level": 3,
+    "difficulty": 10
+  },
+  {
+    "maxQuality": 254,
+    "durability": 60,
+    "name": {
+      "fr": "N\u00e9cessaire de fabrication",
+      "de": "Werkzeug-Bauteil",
+      "ja": "\u52a0\u5de5\u9053\u5177",
+      "en": "Crafting Tool Component"
+    },
+    "level": 3,
+    "difficulty": 30
+  },
+  {
+    "maxQuality": 474,
+    "durability": 60,
+    "name": {
+      "fr": "Chapeau",
+      "de": "Hanfhut",
+      "ja": "\u30cf\u30c3\u30c8",
+      "en": "Hempen Hat"
+    },
+    "level": 6,
+    "difficulty": 36
+  },
+  {
+    "maxQuality": 474,
+    "durability": 60,
+    "name": {
+      "fr": "Tunique de berger",
+      "de": "Hanf-Sch\u00e4fertunika",
+      "ja": "\u30b7\u30a7\u30d1\u30fc\u30c9\u30c1\u30e5\u30cb\u30c3\u30af",
+      "en": "Hempen Shepherd's Tunic"
+    },
+    "level": 6,
+    "difficulty": 36
+  },
+  {
+    "maxQuality": 474,
+    "durability": 60,
+    "name": {
+      "fr": "Tabard",
+      "de": "Hanfwappenrock",
+      "ja": "\u30bf\u30d0\u30fc\u30c9",
+      "en": "Hempen Tabard"
+    },
+    "level": 6,
+    "difficulty": 36
+  },
+  {
+    "maxQuality": 474,
+    "durability": 60,
+    "name": {
+      "fr": "Gants courts",
+      "de": "Hanf-Minihandschuhe",
+      "ja": "\u30b7\u30e7\u30fc\u30c6\u30a3",
+      "en": "Hempen Shortgloves"
+    },
+    "level": 6,
+    "difficulty": 36
+  },
+  {
+    "maxQuality": 492,
+    "durability": 60,
+    "name": {
+      "fr": "Robe courte",
+      "de": "Hanfhalbrobe",
+      "ja": "\u30cf\u30fc\u30d5\u30ed\u30fc\u30d6",
+      "en": "Hempen Halfrobe"
+    },
+    "level": 7,
+    "difficulty": 37
+  },
+  {
+    "maxQuality": 492,
+    "durability": 60,
+    "name": {
+      "fr": "Gants de travail",
+      "de": "Hanf-Arbeitshandschuhe",
+      "ja": "\u30ef\u30fc\u30af\u30b0\u30ed\u30fc\u30d6",
+      "en": "Hempen Work Gloves"
+    },
+    "level": 7,
+    "difficulty": 37
+  },
+  {
+    "maxQuality": 492,
+    "durability": 60,
+    "name": {
+      "fr": "\u00c9charpe",
+      "de": "Sch\u00e4rpe",
+      "ja": "\u30b5\u30c3\u30b7\u30e5",
+      "en": "Hempen Sash"
+    },
+    "level": 7,
+    "difficulty": 37
+  },
+  {
+    "maxQuality": 526,
+    "durability": 60,
+    "name": {
+      "fr": "Doublet armant",
+      "de": "Hanf-Gambeson",
+      "ja": "\u30a2\u30af\u30c8\u30f3",
+      "en": "Hempen Acton"
+    },
+    "level": 8,
+    "difficulty": 41
+  },
+  {
+    "maxQuality": 526,
+    "durability": 60,
+    "name": {
+      "fr": "B\u00e9nard",
+      "de": "Hanf-Kecks",
+      "ja": "\u30b1\u30af\u30b9",
+      "en": "Hempen Kecks"
+    },
+    "level": 8,
+    "difficulty": 41
+  },
+  {
+    "maxQuality": 526,
+    "durability": 60,
+    "name": {
+      "fr": "Gr\u00e8gues",
+      "de": "Hanf-Gaskin",
+      "ja": "\u30ac\u30b9\u30ad\u30f3",
+      "en": "Hempen Gaskins"
+    },
+    "level": 8,
+    "difficulty": 41
+  },
+  {
+    "maxQuality": 545,
+    "durability": 60,
+    "name": {
+      "fr": "Gilet doublet d'amateur",
+      "de": "Laienweste",
+      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30c0\u30d6\u30ec\u30c3\u30c8\u30d9\u30b9\u30c8",
+      "en": "Amateur's Doublet Vest"
+    },
+    "level": 9,
+    "difficulty": 42
+  },
+  {
+    "maxQuality": 545,
+    "durability": 60,
+    "name": {
+      "fr": "Gonelle d'amateur",
+      "de": "Laien-Kurta",
+      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30af\u30eb\u30bf",
+      "en": "Amateur's Kurta"
+    },
+    "level": 9,
+    "difficulty": 42
+  },
+  {
+    "maxQuality": 545,
+    "durability": 60,
+    "name": {
+      "fr": "Trousses d'amateur",
+      "de": "Laienbeinlinge",
+      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30b9\u30ed\u30c3\u30d7",
+      "en": "Amateur's Slops"
+    },
+    "level": 9,
+    "difficulty": 42
+  },
+  {
+    "maxQuality": 545,
+    "durability": 60,
+    "name": {
+      "fr": "Bas-de-corps",
+      "de": "Jute-Miederhose",
+      "ja": "\u30dc\u30c8\u30e0",
+      "en": "Hempen Bottoms"
+    },
+    "level": 9,
+    "difficulty": 42
+  },
+  {
+    "maxQuality": 629,
+    "durability": 60,
+    "name": {
+      "fr": "Coiffe d'amateur",
+      "de": "Laien-Hanfbundhaube",
+      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30b3\u30a4\u30d5",
+      "en": "Amateur's Hempen Coif"
+    },
+    "level": 10,
+    "difficulty": 45
+  },
+  {
+    "maxQuality": 629,
+    "durability": 60,
+    "name": {
+      "fr": "Dalmatique d'amateur",
+      "de": "Laien-Dalmatika",
+      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30c0\u30eb\u30de\u30c6\u30a3\u30ab",
+      "en": "Amateur's Dalmatica"
+    },
+    "level": 10,
+    "difficulty": 45
+  },
+  {
+    "maxQuality": 629,
+    "durability": 60,
+    "name": {
+      "fr": "Braies d'amateur",
+      "de": "Laienreiterhose",
+      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30d6\u30ea\u30fc\u30c1",
+      "en": "Amateur's Breeches"
+    },
+    "level": 10,
+    "difficulty": 45
+  },
+  {
+    "maxQuality": 629,
+    "durability": 60,
+    "name": {
+      "fr": "Pantalon",
+      "de": "Hanfhose",
+      "ja": "\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Hempen Trousers"
+    },
+    "level": 10,
+    "difficulty": 45
+  },
+  {
+    "maxQuality": 474,
+    "durability": 40,
+    "name": {
+      "fr": "Composant de jonction de moteur",
+      "de": "Motorverstrebungs-Bauteil",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u63a5\u5408\u6750",
+      "en": "Engine Jointing Component"
+    },
+    "level": 6,
+    "difficulty": 18
+  },
+  {
+    "maxQuality": 474,
+    "durability": 40,
+    "name": {
+      "fr": "Composant ext\u00e9rieur de cockpit",
+      "de": "Kanzelau\u00dfenwand-Bauteil",
+      "ja": "\u64cd\u7e26\u5e2d\u5916\u88c5\u6750",
+      "en": "Cockpit Exterior Component"
+    },
+    "level": 6,
+    "difficulty": 18
+  },
+  {
+    "maxQuality": 474,
+    "durability": 40,
+    "name": {
+      "fr": "Composant int\u00e9rieur de cockpit",
+      "de": "Kanzelinnenwand-Bauteil",
+      "ja": "\u64cd\u7e26\u5e2d\u5185\u88c5\u6750",
+      "en": "Cockpit Interior Component"
+    },
+    "level": 6,
+    "difficulty": 18
+  },
+  {
+    "maxQuality": 474,
+    "durability": 60,
+    "name": {
+      "fr": "Composant de lest",
+      "de": "Ballast-Bauteil",
+      "ja": "\u30d0\u30e9\u30b9\u30c8\u90e8\u6750",
+      "en": "Ballast Component"
+    },
+    "level": 6,
+    "difficulty": 36
+  },
+  {
+    "maxQuality": 237,
+    "durability": 60,
+    "name": {
+      "fr": "Composant d'instrumentation",
+      "de": "Steuerpult-Bauteil",
+      "ja": "\u8a08\u5668\u90e8\u6750",
+      "en": "Instrument Panel Component"
+    },
+    "level": 6,
+    "difficulty": 115
+  },
+  {
+    "maxQuality": 474,
+    "durability": 60,
+    "name": {
+      "fr": "Composant de nez profil\u00e9",
+      "de": "Aerodynamo-Bauteil",
+      "ja": "\u7a7a\u529b\u90e8\u6750",
+      "en": "Aerodynamo Component"
+    },
+    "level": 6,
+    "difficulty": 36
+  },
+  {
+    "maxQuality": 629,
+    "durability": 40,
+    "name": {
+      "fr": "Composant d'aile droite",
+      "de": "Steuerbordtragfl\u00e4chen-Bauteil",
+      "ja": "\u53f3\u7ffc\u90e8\u6750",
+      "en": "Starboard Wing Component"
+    },
+    "level": 10,
+    "difficulty": 22
+  },
+  {
+    "maxQuality": 629,
+    "durability": 40,
+    "name": {
+      "fr": "Composant d'aile gauche",
+      "de": "Backbordtragfl\u00e4chen-Bauteil",
+      "ja": "\u5de6\u7ffc\u90e8\u6750",
+      "en": "Larboard Wing Component"
+    },
+    "level": 10,
+    "difficulty": 22
+  },
+  {
+    "maxQuality": 471,
+    "durability": 60,
+    "name": {
+      "fr": "Comp. d'articulation d'aile droite",
+      "de": "Steuerbord-Tragfl\u00e4chengelenk-Bauteil",
+      "ja": "\u53f3\u7ffc\u53ef\u52d5\u90e8\u6750",
+      "en": "Starboard Wing Control Component"
+    },
+    "level": 10,
+    "difficulty": 67
+  },
+  {
+    "maxQuality": 471,
+    "durability": 60,
+    "name": {
+      "fr": "Comp. d'articulation d'aile gauche",
+      "de": "Backbord-Tragfl\u00e4chengelenk-Bauteil",
+      "ja": "\u5de6\u7ffc\u53ef\u52d5\u90e8\u6750",
+      "en": "Larboard Wing Control Component"
+    },
+    "level": 10,
+    "difficulty": 67
+  },
+  {
+    "maxQuality": 314,
+    "durability": 60,
+    "name": {
+      "fr": "Composant de transmission",
+      "de": "Sprechanlagen-Bauteil",
+      "ja": "\u4f1d\u9054\u7cfb\u90e8\u6750",
+      "en": "Transmission Component"
+    },
+    "level": 10,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 314,
+    "durability": 60,
+    "name": {
+      "fr": "Composant de ventilation",
+      "de": "K\u00fchler-Bauteil",
+      "ja": "\u6392\u71b1\u90e8\u6750",
+      "en": "Heat Vent Component"
+    },
+    "level": 10,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 665,
+    "durability": 60,
+    "name": {
+      "fr": "Chapeau de paille",
+      "de": "Strohhut",
+      "ja": "\u30b9\u30c8\u30ed\u30fc\u30cf\u30c3\u30c8",
+      "en": "Straw Hat"
+    },
+    "level": 11,
+    "difficulty": 48
+  },
+  {
+    "maxQuality": 665,
+    "durability": 60,
+    "name": {
+      "fr": "Gants d'apparat",
+      "de": "Hanf-Galahandschuhe",
+      "ja": "\u30c9\u30ec\u30b9\u30b0\u30ed\u30fc\u30d6",
+      "en": "Hempen Dress Gloves"
+    },
+    "level": 11,
+    "difficulty": 48
+  },
+  {
+    "maxQuality": 665,
+    "durability": 60,
+    "name": {
+      "fr": "Brassi\u00e8res",
+      "de": "Hanf-Armschienen",
+      "ja": "\u30d6\u30ec\u30fc\u30b5\u30fc",
+      "en": "Hempen Bracers"
+    },
+    "level": 11,
+    "difficulty": 48
+  },
+  {
+    "maxQuality": 702,
+    "durability": 40,
+    "name": {
+      "fr": "Fil de coton",
+      "de": "Baumwollgarn",
+      "ja": "\u7dbf\u7cf8",
+      "en": "Cotton Yarn"
+    },
+    "level": 12,
+    "difficulty": 26
+  },
+  {
+    "maxQuality": 702,
+    "durability": 60,
+    "name": {
+      "fr": "Chapeau de fille d'\u00e9table",
+      "de": "Hofmagd-Hut",
+      "ja": "\u30b9\u30c6\u30fc\u30d6\u30eb\u30e1\u30a4\u30c9\u30cf\u30c3\u30c8",
+      "en": "Stablemaid's Hat"
+    },
+    "level": 12,
+    "difficulty": 53
+  },
+  {
+    "maxQuality": 702,
+    "durability": 60,
+    "name": {
+      "fr": "Robe",
+      "de": "Hanf-Robe",
+      "ja": "\u30ed\u30fc\u30d6",
+      "en": "Hempen Robe"
+    },
+    "level": 12,
+    "difficulty": 53
+  },
+  {
+    "maxQuality": 702,
+    "durability": 60,
+    "name": {
+      "fr": "Gilet doublet des cr\u00e9ations",
+      "de": "Hanfweste des Handwerks",
+      "ja": "\u30af\u30e9\u30d5\u30bf\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8\u30d9\u30b9\u30c8",
+      "en": "Hempen Doublet Vest of Crafting"
+    },
+    "level": 12,
+    "difficulty": 53
+  },
+  {
+    "maxQuality": 702,
+    "durability": 60,
+    "name": {
+      "fr": "Gilet doublet des ressources",
+      "de": "Hanfweste der Ernte",
+      "ja": "\u30ae\u30e3\u30b6\u30e9\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8\u30d9\u30b9\u30c8",
+      "en": "Hempen Doublet Vest of Gathering"
+    },
+    "level": 12,
+    "difficulty": 53
+  },
+  {
+    "maxQuality": 726,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe de coton",
+      "de": "Naturbelassene Baumwolle",
+      "ja": "\u7dbf\u5e03",
+      "en": "Undyed Cotton Cloth"
+    },
+    "level": 13,
+    "difficulty": 27
+  },
+  {
+    "maxQuality": 726,
+    "durability": 60,
+    "name": {
+      "fr": "Chapeau de gar\u00e7on d'\u00e9table",
+      "de": "Stallburschen-Hut",
+      "ja": "\u30b9\u30c6\u30fc\u30d6\u30eb\u30cf\u30f3\u30c9\u30cf\u30c3\u30c8",
+      "en": "Stablehand's Hat"
+    },
+    "level": 13,
+    "difficulty": 54
+  },
+  {
+    "maxQuality": 726,
+    "durability": 60,
+    "name": {
+      "fr": "Turban en coton",
+      "de": "Baumwollturban",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30bf\u30fc\u30d0\u30f3",
+      "en": "Cotton Turban"
+    },
+    "level": 13,
+    "difficulty": 54
+  },
+  {
+    "maxQuality": 726,
+    "durability": 60,
+    "name": {
+      "fr": "Trousses en coton ray\u00e9es",
+      "de": "Gestreifte Baumwoll-Beinlinge",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b9\u30c8\u30e9\u30a4\u30d7\u30b9\u30ed\u30c3\u30d7",
+      "en": "Striped Cotton Slops"
+    },
+    "level": 13,
+    "difficulty": 54
+  },
+  {
+    "maxQuality": 751,
+    "durability": 60,
+    "name": {
+      "fr": "Coule en coton",
+      "de": "Baumwollkukulle",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30ab\u30a6\u30eb",
+      "en": "Cotton Cowl"
+    },
+    "level": 14,
+    "difficulty": 54
+  },
+  {
+    "maxQuality": 751,
+    "durability": 60,
+    "name": {
+      "fr": "Chemise en coton",
+      "de": "Baumwollhemd",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b7\u30e3\u30c4",
+      "en": "Cotton Shirt"
+    },
+    "level": 14,
+    "difficulty": 54
+  },
+  {
+    "maxQuality": 751,
+    "durability": 60,
+    "name": {
+      "fr": "\u00c9charpe longue en coton",
+      "de": "Baumwoll-Langsch\u00e4rpe",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30ed\u30f3\u30b0\u30b5\u30c3\u30b7\u30e5",
+      "en": "Cotton Longsash"
+    },
+    "level": 14,
+    "difficulty": 54
+  },
+  {
+    "maxQuality": 751,
+    "durability": 60,
+    "name": {
+      "fr": "Chausses en coton",
+      "de": "Baumwoll-Chausses",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b7\u30e7\u30fc\u30b9",
+      "en": "Cotton Chausses"
+    },
+    "level": 14,
+    "difficulty": 54
+  },
+  {
+    "maxQuality": 751,
+    "durability": 60,
+    "name": {
+      "fr": "Collants en coton",
+      "de": "Baumwollstrumpfhose",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30bf\u30a4\u30c4",
+      "en": "Cotton Tights"
+    },
+    "level": 14,
+    "difficulty": 54
+  },
+  {
+    "maxQuality": 751,
+    "durability": 60,
+    "name": {
+      "fr": "Saroual en coton",
+      "de": "Baumwoll-Sarouel",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b5\u30eb\u30a8\u30eb",
+      "en": "Cotton Sarouel"
+    },
+    "level": 14,
+    "difficulty": 54
+  },
+  {
+    "maxQuality": 807,
+    "durability": 70,
+    "name": {
+      "fr": "Foulard en coton",
+      "de": "Baumwollschal",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b9\u30ab\u30fc\u30d5",
+      "en": "Cotton Scarf"
+    },
+    "level": 15,
+    "difficulty": 55
+  },
+  {
+    "maxQuality": 807,
+    "durability": 70,
+    "name": {
+      "fr": "Mitaines en coton",
+      "de": "Baumwoll-Kurzfingerhandschuhe",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6",
+      "en": "Cotton Halfgloves"
+    },
+    "level": 15,
+    "difficulty": 55
+  },
+  {
+    "maxQuality": 807,
+    "durability": 70,
+    "name": {
+      "fr": "Trousses de berger en coton",
+      "de": "Baumwoll-Sch\u00e4ferbeinlinge",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b7\u30a7\u30d1\u30fc\u30c9\u30b9\u30ed\u30c3\u30d7",
+      "en": "Cotton Shepherd's Slops"
+    },
+    "level": 15,
+    "difficulty": 55
+  },
+  {
+    "maxQuality": 1452,
+    "durability": 70,
+    "name": {
+      "fr": "Composant de gouvernail",
+      "de": "Steuereinheits-Bauteil",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u64cd\u8235\u88c5\u7f6e\u90e8\u6750",
+      "en": "Helm Component"
+    },
+    "level": 15,
+    "difficulty": 99
+  },
+  {
+    "maxQuality": 605,
+    "durability": 70,
+    "name": {
+      "fr": "Composant de tuyau acoustique",
+      "de": "Kommunikationsrohr-Bauteil",
+      "ja": "\u4f1d\u58f0\u7cfb\u90e8\u6750",
+      "en": "Speaking Tube Component"
+    },
+    "level": 15,
+    "difficulty": 82
+  },
+  {
+    "maxQuality": 807,
+    "durability": 40,
+    "name": {
+      "fr": "Composant d'\u00e9clairage",
+      "de": "Beleuchtungs-Bauteil",
+      "ja": "\u30e9\u30f3\u30d7\u90e8\u6750",
+      "en": "Lamp Component"
+    },
+    "level": 15,
+    "difficulty": 27
+  },
+  {
+    "maxQuality": 1452,
+    "durability": 70,
+    "name": {
+      "fr": "Composant d'\u00e9chappement",
+      "de": "Schornstein-Bauteil",
+      "ja": "\u6392\u6c17\u7cfb\u90e8\u6750",
+      "en": "Exhaust Outlet Component"
+    },
+    "level": 15,
+    "difficulty": 99
+  },
+  {
+    "maxQuality": 403,
+    "durability": 70,
+    "name": {
+      "fr": "Composant de syst\u00e8me d'\u00e9vacuation",
+      "de": "Entsorgungssystem-Bauteil",
+      "ja": "\u7dca\u6025\u5ec3\u68c4\u90e8\u6750",
+      "en": "Disposal Unit Component"
+    },
+    "level": 15,
+    "difficulty": 176
+  },
+  {
+    "maxQuality": 403,
+    "durability": 70,
+    "name": {
+      "fr": "Composant de r\u00e9servoir",
+      "de": "Erdseim-Tank-Bauteil",
+      "ja": "\u9752\u71d0\u30bf\u30f3\u30af\u90e8\u6750",
+      "en": "Ceruleum Tank Component"
+    },
+    "level": 15,
+    "difficulty": 176
+  },
+  {
+    "maxQuality": 605,
+    "durability": 70,
+    "name": {
+      "fr": "Composant de module de pilotage",
+      "de": "Steuermechanismus-Bauteil",
+      "ja": "\u64cd\u7e26\u6a5f\u5177\u90e8\u6750",
+      "en": "Steering Mechanism Component"
+    },
+    "level": 15,
+    "difficulty": 82
+  },
+  {
+    "maxQuality": 866,
+    "durability": 70,
+    "name": {
+      "fr": "Chapeau de chasse",
+      "de": "J\u00e4gerhut",
+      "ja": "\u30cf\u30f3\u30c6\u30a3\u30f3\u30b0\u30cf\u30c3\u30c8",
+      "en": "Hunting Hat"
+    },
+    "level": 16,
+    "difficulty": 63
+  },
+  {
+    "maxQuality": 866,
+    "durability": 70,
+    "name": {
+      "fr": "Tabard en coton",
+      "de": "Baumwoll-Wappenrock",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30bf\u30d0\u30fc\u30c9",
+      "en": "Cotton Tabard"
+    },
+    "level": 16,
+    "difficulty": 63
+  },
+  {
+    "maxQuality": 866,
+    "durability": 70,
+    "name": {
+      "fr": "Tunique de berger en coton",
+      "de": "Baumwoll-Sch\u00e4fertunika",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b7\u30a7\u30d1\u30fc\u30c9\u30c1\u30e5\u30cb\u30c3\u30af",
+      "en": "Cotton Shepherd's Tunic"
+    },
+    "level": 16,
+    "difficulty": 63
+  },
+  {
+    "maxQuality": 866,
+    "durability": 70,
+    "name": {
+      "fr": "Ceinture en corde",
+      "de": "Bindeg\u00fcrtel",
+      "ja": "\u30ed\u30fc\u30d7\u30d9\u30eb\u30c8",
+      "en": "Rope Belt"
+    },
+    "level": 16,
+    "difficulty": 63
+  },
+  {
+    "maxQuality": 866,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon renforc\u00e9",
+      "de": "Gef\u00fctterte Hanfhose",
+      "ja": "\u30c8\u30e9\u30a6\u30b6\u30fcDX",
+      "en": "Padded Hempen Trousers"
+    },
+    "level": 16,
+    "difficulty": 63
+  },
+  {
+    "maxQuality": 898,
+    "durability": 70,
+    "name": {
+      "fr": "Dalmatique en coton",
+      "de": "Baumwoll-Dalmatika",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30c0\u30eb\u30de\u30c6\u30a3\u30ab",
+      "en": "Cotton Dalmatica"
+    },
+    "level": 17,
+    "difficulty": 66
+  },
+  {
+    "maxQuality": 898,
+    "durability": 70,
+    "name": {
+      "fr": "Dalmatique des ressources en coton",
+      "de": "Baumwoll-Dalmatika des Eifers",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30ae\u30e3\u30b6\u30e9\u30fc\u30c0\u30eb\u30de\u30c6\u30a3\u30ab",
+      "en": "Cotton Dalmatica of Gathering"
+    },
+    "level": 17,
+    "difficulty": 66
+  },
+  {
+    "maxQuality": 898,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon en coton",
+      "de": "Baumwollhose",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Cotton Trousers"
+    },
+    "level": 17,
+    "difficulty": 66
+  },
+  {
+    "maxQuality": 939,
+    "durability": 40,
+    "name": {
+      "fr": "Canevas de coton",
+      "de": "Baumwolltuch",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30ab\u30f3\u30d0\u30b9",
+      "en": "Cotton Canvas"
+    },
+    "level": 18,
+    "difficulty": 33
+  },
+  {
+    "maxQuality": 939,
+    "durability": 70,
+    "name": {
+      "fr": "Gonelle en coton",
+      "de": "Baumwoll-Kurta",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30af\u30eb\u30bf",
+      "en": "Cotton Kurta"
+    },
+    "level": 18,
+    "difficulty": 67
+  },
+  {
+    "maxQuality": 982,
+    "durability": 70,
+    "name": {
+      "fr": "Coiffe en coton",
+      "de": "Baumwollbundhaube",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b3\u30a4\u30d5",
+      "en": "Cotton Coif"
+    },
+    "level": 19,
+    "difficulty": 68
+  },
+  {
+    "maxQuality": 982,
+    "durability": 70,
+    "name": {
+      "fr": "Coiffe des ressources en coton",
+      "de": "Baumwollbundhaube des Eifers",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30ae\u30e3\u30b6\u30e9\u30fc\u30b3\u30a4\u30d5",
+      "en": "Cotton Coif of Gathering"
+    },
+    "level": 19,
+    "difficulty": 68
+  },
+  {
+    "maxQuality": 982,
+    "durability": 70,
+    "name": {
+      "fr": "Doublet armant en coton",
+      "de": "Baumwoll-Gambeson",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30a2\u30af\u30c8\u30f3",
+      "en": "Cotton Acton"
+    },
+    "level": 19,
+    "difficulty": 68
+  },
+  {
+    "maxQuality": 982,
+    "durability": 70,
+    "name": {
+      "fr": "Braies en coton",
+      "de": "Baumwoll-Reiterhose",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30d6\u30ea\u30fc\u30c1",
+      "en": "Cotton Breeches"
+    },
+    "level": 19,
+    "difficulty": 68
+  },
+  {
+    "maxQuality": 982,
+    "durability": 70,
+    "name": {
+      "fr": "Braies des cr\u00e9ations en coton",
+      "de": "Baumwoll-Reiterhose des Eifers",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30af\u30e9\u30d5\u30bf\u30fc\u30d6\u30ea\u30fc\u30c1",
+      "en": "Cotton Breeches of Crafting"
+    },
+    "level": 19,
+    "difficulty": 68
+  },
+  {
+    "maxQuality": 1053,
+    "durability": 70,
+    "name": {
+      "fr": "Gilet doublet d'initi\u00e9",
+      "de": "Anf\u00e4ngerweste",
+      "ja": "\u30a4\u30cb\u30b7\u30a8\u30fc\u30c8\u30c0\u30d6\u30ec\u30c3\u30c8\u30d9\u30b9\u30c8",
+      "en": "Initiate's Doublet Vest"
+    },
+    "level": 20,
+    "difficulty": 74
+  },
+  {
+    "maxQuality": 1053,
+    "durability": 70,
+    "name": {
+      "fr": "Gants de travail en coton",
+      "de": "Baumwoll-Arbeitshandschuhe",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30ef\u30fc\u30af\u30b0\u30ed\u30fc\u30d6",
+      "en": "Cotton Work Gloves"
+    },
+    "level": 20,
+    "difficulty": 74
+  },
+  {
+    "maxQuality": 1053,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon en coton renforc\u00e9",
+      "de": "Gef\u00fctterte Baumwollhose",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30c8\u30e9\u30a6\u30b6\u30fcDX",
+      "en": "Padded Cotton Trousers"
+    },
+    "level": 20,
+    "difficulty": 74
+  },
+  {
+    "maxQuality": 1053,
+    "durability": 70,
+    "name": {
+      "fr": "Trousses d'initi\u00e9",
+      "de": "Initiaten-Beinlinge",
+      "ja": "\u30a4\u30cb\u30b7\u30a8\u30fc\u30c8\u30b9\u30ed\u30c3\u30d7",
+      "en": "Initiate's Slops"
+    },
+    "level": 20,
+    "difficulty": 74
+  },
+  {
+    "maxQuality": 433,
+    "durability": 70,
+    "name": {
+      "fr": "Lit nosc\u00e9en",
+      "de": "Riviera-Bett",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30d9\u30c3\u30c9",
+      "en": "Riviera Bed"
+    },
+    "level": 16,
+    "difficulty": 201
+  },
+  {
+    "maxQuality": 449,
+    "durability": 70,
+    "name": {
+      "fr": "Toit de maisonnette en bois sombrelin\u00e7oise",
+      "de": "Wald-Holzh\u00fcttendach",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a6\u30c3\u30c9\u30b3\u30c6\u30fc\u30b8\u30fb\u30eb\u30fc\u30d5",
+      "en": "Glade Cottage Roof (Wood)"
+    },
+    "level": 17,
+    "difficulty": 211
+  },
+  {
+    "maxQuality": 1558,
+    "durability": 70,
+    "name": {
+      "fr": "Composant de syst\u00e8me d'\u00e9jection",
+      "de": "Rettungsboots-Bauteil",
+      "ja": "\u7dca\u6025\u8131\u51fa\u7528\u5177",
+      "en": "Escape Flyer Component"
+    },
+    "level": 16,
+    "difficulty": 113
+  },
+  {
+    "maxQuality": 433,
+    "durability": 70,
+    "name": {
+      "fr": "Composant de r\u00e9servoir de secours",
+      "de": "Reservetank-Bauteil",
+      "ja": "\u4e88\u5099\u30bf\u30f3\u30af\u90e8\u6750",
+      "en": "Spare Tank Component"
+    },
+    "level": 16,
+    "difficulty": 201
+  },
+  {
+    "maxQuality": 866,
+    "durability": 40,
+    "name": {
+      "fr": "Composant d'all\u00e9gement",
+      "de": "Gewichtsreduktions-Bauteil",
+      "ja": "\u8efd\u91cf\u5316\u90e8\u6750",
+      "en": "Refabrication Component"
+    },
+    "level": 16,
+    "difficulty": 31
+  },
+  {
+    "maxQuality": 866,
+    "durability": 70,
+    "name": {
+      "fr": "Composant de syst\u00e8me antivibration",
+      "de": "Isolations-Bauteil",
+      "ja": "\u514d\u9707\u90e8\u6750",
+      "en": "Isolator Component"
+    },
+    "level": 16,
+    "difficulty": 63
+  },
+  {
+    "maxQuality": 433,
+    "durability": 70,
+    "name": {
+      "fr": "Composant d'hyperconducteur",
+      "de": "Hyperleiter-Bauteil",
+      "ja": "\u9ad8\u4f1d\u5c0e\u7387\u90e8\u6750",
+      "en": "Hyperconductor Component"
+    },
+    "level": 16,
+    "difficulty": 201
+  },
+  {
+    "maxQuality": 866,
+    "durability": 70,
+    "name": {
+      "fr": "Composant d'aileron",
+      "de": "Aerodynamik-Verbesserer-Bauteil",
+      "ja": "\u88dc\u52a9\u7a7a\u529b\u90e8\u6750",
+      "en": "Auxiliary Aerodynamo Component"
+    },
+    "level": 16,
+    "difficulty": 63
+  },
+  {
+    "maxQuality": 433,
+    "durability": 70,
+    "name": {
+      "fr": "Composant d'ornementation",
+      "de": "Zierplatten-Bauteil",
+      "ja": "\u88c5\u98fe\u90e8\u6750",
+      "en": "Decorative Plating Component"
+    },
+    "level": 16,
+    "difficulty": 201
+  },
+  {
+    "maxQuality": 1690,
+    "durability": 70,
+    "name": {
+      "fr": "Composant final",
+      "de": "Endst\u00fcck-Bauteil",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u91cd\u8981\u90e8\u6750",
+      "en": "Finishing Component"
+    },
+    "level": 18,
+    "difficulty": 120
+  },
+  {
+    "maxQuality": 469,
+    "durability": 70,
+    "name": {
+      "fr": "Aile d'Ehcatl",
+      "de": "Bugschmuck-Bauteil",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u7fbd\u6839\u98fe\u308a",
+      "en": "Figurehead Component"
+    },
+    "level": 18,
+    "difficulty": 214
+  },
+  {
+    "maxQuality": 1090,
+    "durability": 70,
+    "name": {
+      "fr": "Gants d'apparat en coton",
+      "de": "Baumwoll-Galahandschuhe",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30c9\u30ec\u30b9\u30b0\u30ed\u30fc\u30d6",
+      "en": "Cotton Dress Gloves"
+    },
+    "level": 21,
+    "difficulty": 75
+  },
+  {
+    "maxQuality": 1090,
+    "durability": 70,
+    "name": {
+      "fr": "\u00c9charpe en coton",
+      "de": "Baumwollsch\u00e4rpe",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b5\u30c3\u30b7\u30e5",
+      "en": "Cotton Sash"
+    },
+    "level": 21,
+    "difficulty": 75
+  },
+  {
+    "maxQuality": 1122,
+    "durability": 70,
+    "name": {
+      "fr": "Robe courte en coton",
+      "de": "Baumwollhalbrobe",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30cf\u30fc\u30d5\u30ed\u30fc\u30d6",
+      "en": "Cotton Halfrobe"
+    },
+    "level": 22,
+    "difficulty": 75
+  },
+  {
+    "maxQuality": 1122,
+    "durability": 70,
+    "name": {
+      "fr": "Gr\u00e8gues en coton",
+      "de": "Baumwoll-Gaskin",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30ac\u30b9\u30ad\u30f3",
+      "en": "Cotton Gaskins"
+    },
+    "level": 22,
+    "difficulty": 75
+  },
+  {
+    "maxQuality": 1122,
+    "durability": 70,
+    "name": {
+      "fr": "Chaussures d'apparat en coton",
+      "de": "Baumwoll-Galaschuhe",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30c9\u30ec\u30b9\u30b7\u30e5\u30fc\u30ba",
+      "en": "Cotton Dress Shoes"
+    },
+    "level": 22,
+    "difficulty": 75
+  },
+  {
+    "maxQuality": 1169,
+    "durability": 40,
+    "name": {
+      "fr": "Fil de la ros\u00e9e",
+      "de": "Perlenf\u00e4den",
+      "ja": "\u9732\u7cf8",
+      "en": "Dew Thread"
+    },
+    "level": 23,
+    "difficulty": 39
+  },
+  {
+    "maxQuality": 1169,
+    "durability": 70,
+    "name": {
+      "fr": "Casque pain de sucre en coton",
+      "de": "Baumwollspitzhut",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b7\u30e5\u30ac\u30fc\u30ed\u30fc\u30d5",
+      "en": "Cotton Sugarloaf Hat"
+    },
+    "level": 23,
+    "difficulty": 79
+  },
+  {
+    "maxQuality": 1169,
+    "durability": 70,
+    "name": {
+      "fr": "Tunique de tir en coton",
+      "de": "Baumwoll-Sch\u00fctzentunika",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30c8\u30e9\u30c3\u30d1\u30fc\u30c1\u30e5\u30cb\u30c3\u30af",
+      "en": "Cotton Trapper's Tunic"
+    },
+    "level": 23,
+    "difficulty": 79
+  },
+  {
+    "maxQuality": 1169,
+    "durability": 70,
+    "name": {
+      "fr": "Gilet doublet des cr\u00e9ations en coton",
+      "de": "Baumwollweste des Handwerks",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8\u30d9\u30b9\u30c8",
+      "en": "Cotton Doublet Vest of Crafting"
+    },
+    "level": 23,
+    "difficulty": 79
+  },
+  {
+    "maxQuality": 1169,
+    "durability": 70,
+    "name": {
+      "fr": "Gilet doublet des ressources en coton",
+      "de": "Baumwollweste der Ernte",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8\u30d9\u30b9\u30c8",
+      "en": "Cotton Doublet Vest of Gathering"
+    },
+    "level": 23,
+    "difficulty": 79
+  },
+  {
+    "maxQuality": 1169,
+    "durability": 70,
+    "name": {
+      "fr": "Brassi\u00e8res en coton",
+      "de": "Baumwoll-Armschienen",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30d6\u30ec\u30fc\u30b5\u30fc",
+      "en": "Cotton Bracers"
+    },
+    "level": 23,
+    "difficulty": 79
+  },
+  {
+    "maxQuality": 1239,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe de veloutine",
+      "de": "Naturbelassener Samt",
+      "ja": "\u5225\u73cd",
+      "en": "Undyed Velveteen"
+    },
+    "level": 24,
+    "difficulty": 42
+  },
+  {
+    "maxQuality": 1239,
+    "durability": 70,
+    "name": {
+      "fr": "Robe en coton",
+      "de": "Baumwoll-Robe",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30ed\u30fc\u30d6",
+      "en": "Cotton Robe"
+    },
+    "level": 24,
+    "difficulty": 85
+  },
+  {
+    "maxQuality": 1239,
+    "durability": 70,
+    "name": {
+      "fr": "Peignoir d'initi\u00e9",
+      "de": "Anf\u00e4ngertalar",
+      "ja": "\u30a4\u30cb\u30b7\u30a8\u30fc\u30c8\u30ac\u30a6\u30f3",
+      "en": "Initiate's Gown"
+    },
+    "level": 24,
+    "difficulty": 85
+  },
+  {
+    "maxQuality": 1239,
+    "durability": 70,
+    "name": {
+      "fr": "Mitaines en veloutine",
+      "de": "Samt-Kurzfingerhandschuhe",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6",
+      "en": "Velveteen Halfgloves"
+    },
+    "level": 24,
+    "difficulty": 85
+  },
+  {
+    "maxQuality": 1239,
+    "durability": 70,
+    "name": {
+      "fr": "Chausses en veloutine",
+      "de": "Samt-Chausses",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30b7\u30e7\u30fc\u30b9",
+      "en": "Velveteen Chausses"
+    },
+    "level": 24,
+    "difficulty": 85
+  },
+  {
+    "maxQuality": 1239,
+    "durability": 70,
+    "name": {
+      "fr": "B\u00e9nard en coton",
+      "de": "Baumwoll-Kecks",
+      "ja": "\u30b3\u30c3\u30c8\u30f3\u30b1\u30af\u30b9",
+      "en": "Cotton Kecks"
+    },
+    "level": 24,
+    "difficulty": 85
+  },
+  {
+    "maxQuality": 1296,
+    "durability": 70,
+    "name": {
+      "fr": "Bandana en veloutine",
+      "de": "Samtbandana",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30d0\u30f3\u30c0\u30ca",
+      "en": "Velveteen Bandana"
+    },
+    "level": 25,
+    "difficulty": 89
+  },
+  {
+    "maxQuality": 1296,
+    "durability": 70,
+    "name": {
+      "fr": "Saroual en veloutine",
+      "de": "Samt-Sarouel",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30b5\u30eb\u30a8\u30eb",
+      "en": "Velveteen Sarouel"
+    },
+    "level": 25,
+    "difficulty": 89
+  },
+  {
+    "maxQuality": 1296,
+    "durability": 70,
+    "name": {
+      "fr": "Saroual des ressources en veloutine",
+      "de": "Samt-Sarouel des Eifers",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30ae\u30e3\u30b6\u30e9\u30fc\u30b5\u30eb\u30a8\u30eb",
+      "en": "Velveteen Sarouel of Gathering"
+    },
+    "level": 25,
+    "difficulty": 89
+  },
+  {
+    "maxQuality": 1296,
+    "durability": 70,
+    "name": {
+      "fr": "Trousses en veloutine ray\u00e9es",
+      "de": "Gestreifte Samt-Beinlinge",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30b9\u30c8\u30e9\u30a4\u30d7\u30b9\u30ed\u30c3\u30d7",
+      "en": "Striped Velveteen Slops"
+    },
+    "level": 25,
+    "difficulty": 89
+  },
+  {
+    "maxQuality": 545,
+    "durability": 70,
+    "name": {
+      "fr": "Toit de maisonnette en pierre sombrelin\u00e7oise",
+      "de": "Wald-Steinh\u00fcttendach",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b9\u30c8\u30fc\u30f3\u30b3\u30c6\u30fc\u30b8\u30fb\u30eb\u30fc\u30d5",
+      "en": "Glade Cottage Roof (Stone)"
+    },
+    "level": 21,
+    "difficulty": 240
+  },
+  {
+    "maxQuality": 1332,
+    "durability": 70,
+    "name": {
+      "fr": "Turban en veloutine",
+      "de": "Samtturban",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30bf\u30fc\u30d0\u30f3",
+      "en": "Velveteen Turban"
+    },
+    "level": 26,
+    "difficulty": 90
+  },
+  {
+    "maxQuality": 1332,
+    "durability": 70,
+    "name": {
+      "fr": "Chemise en veloutine",
+      "de": "Samthemd",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30b7\u30e3\u30c4",
+      "en": "Velveteen Shirt"
+    },
+    "level": 26,
+    "difficulty": 90
+  },
+  {
+    "maxQuality": 1332,
+    "durability": 70,
+    "name": {
+      "fr": "\u00c9charpe longue en veloutine",
+      "de": "Samt-Langsch\u00e4rpe",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30ed\u30f3\u30b0\u30b5\u30c3\u30b7\u30e5",
+      "en": "Tarred Velveteen Longsash"
+    },
+    "level": 26,
+    "difficulty": 90
+  },
+  {
+    "maxQuality": 1368,
+    "durability": 70,
+    "name": {
+      "fr": "Calot des cr\u00e9ations en veloutine",
+      "de": "Samt-Schiffchen des Handwerks",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30a6\u30a7\u30c3\u30b8\u30ad\u30e3\u30c3\u30d7",
+      "en": "Velveteen Wedge Cap of Crafting"
+    },
+    "level": 27,
+    "difficulty": 91
+  },
+  {
+    "maxQuality": 1368,
+    "durability": 70,
+    "name": {
+      "fr": "Coule en veloutine",
+      "de": "Samtkukulle",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30ab\u30a6\u30eb",
+      "en": "Velveteen Cowl"
+    },
+    "level": 27,
+    "difficulty": 91
+  },
+  {
+    "maxQuality": 1368,
+    "durability": 70,
+    "name": {
+      "fr": "Ceinture en corde en veloutine",
+      "de": "Samt-Bindeg\u00fcrtel",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30ed\u30fc\u30d7\u30d9\u30eb\u30c8",
+      "en": "Velveteen Rope Belt"
+    },
+    "level": 27,
+    "difficulty": 91
+  },
+  {
+    "maxQuality": 1368,
+    "durability": 70,
+    "name": {
+      "fr": "Collants en veloutine",
+      "de": "Samtstrumpfhose",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30bf\u30a4\u30c4",
+      "en": "Velveteen Tights"
+    },
+    "level": 27,
+    "difficulty": 91
+  },
+  {
+    "maxQuality": 1498,
+    "durability": 70,
+    "name": {
+      "fr": "Calot des ressources en veloutine",
+      "de": "Samt-Schiffchen der Ernte",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30a6\u30a7\u30c3\u30b8\u30ad\u30e3\u30c3\u30d7",
+      "en": "Velveteen Wedge Cap of Gathering"
+    },
+    "level": 28,
+    "difficulty": 100
+  },
+  {
+    "maxQuality": 1498,
+    "durability": 70,
+    "name": {
+      "fr": "Bol\u00e9ro des ressources en veloutine",
+      "de": "Samt-Spenzer der Ernte",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30ae\u30e3\u30b6\u30e9\u30fc\u30b3\u30fc\u30c6\u30a3\u30fc",
+      "en": "Velveteen Coatee of Gathering"
+    },
+    "level": 28,
+    "difficulty": 100
+  },
+  {
+    "maxQuality": 1498,
+    "durability": 70,
+    "name": {
+      "fr": "Demi-tablier en veloutine",
+      "de": "Samt-Halbsch\u00fcrze",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30a8\u30d7\u30ed\u30f3",
+      "en": "Velveteen Half Apron"
+    },
+    "level": 28,
+    "difficulty": 100
+  },
+  {
+    "maxQuality": 1498,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon en veloutine",
+      "de": "Samthose",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Velveteen Trousers"
+    },
+    "level": 28,
+    "difficulty": 100
+  },
+  {
+    "maxQuality": 1498,
+    "durability": 70,
+    "name": {
+      "fr": "Gu\u00eatres en veloutine",
+      "de": "Samt-Spangenschuhe",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30b2\u30a4\u30bf\u30fc",
+      "en": "Velveteen Gaiters"
+    },
+    "level": 28,
+    "difficulty": 100
+  },
+  {
+    "maxQuality": 1544,
+    "durability": 70,
+    "name": {
+      "fr": "B\u00e9ret en veloutine",
+      "de": "Samtbarett",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30d9\u30ec\u30fc",
+      "en": "Velveteen Beret"
+    },
+    "level": 29,
+    "difficulty": 101
+  },
+  {
+    "maxQuality": 1544,
+    "durability": 70,
+    "name": {
+      "fr": "Bol\u00e9ro des cr\u00e9ations en veloutine",
+      "de": "Samt-Spenzer des Handwerks",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30af\u30e9\u30d5\u30bf\u30fc\u30b3\u30fc\u30c6\u30a3\u30fc",
+      "en": "Velveteen Coatee of Crafting"
+    },
+    "level": 29,
+    "difficulty": 101
+  },
+  {
+    "maxQuality": 1544,
+    "durability": 70,
+    "name": {
+      "fr": "Gants courts en veloutine",
+      "de": "Samt-Minihandschuhe",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30b7\u30e7\u30fc\u30c6\u30a3",
+      "en": "Velveteen Shortgloves"
+    },
+    "level": 29,
+    "difficulty": 101
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Peignoir en veloutine",
+      "de": "Samttalar",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30ac\u30a6\u30f3",
+      "en": "Velveteen Gown"
+    },
+    "level": 30,
+    "difficulty": 102
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Gants de travail en veloutine",
+      "de": "Samt-Arbeitshandschuhe",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30ef\u30fc\u30af\u30b0\u30ed\u30fc\u30d6",
+      "en": "Velveteen Work Gloves"
+    },
+    "level": 30,
+    "difficulty": 102
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon en veloutine renforc\u00e9",
+      "de": "Gef\u00fctterte Samthose",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30c8\u30e9\u30a6\u30b6\u30fcDX",
+      "en": "Padded Velveteen Trousers"
+    },
+    "level": 30,
+    "difficulty": 102
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Bas-de-corps en veloutine",
+      "de": "Samt-Miederhose",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30dc\u30c8\u30e0",
+      "en": "Velveteen Bottom"
+    },
+    "level": 30,
+    "difficulty": 102
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Chaussures d'apparat en veloutine",
+      "de": "Samt-Galaschuhe",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30c9\u30ec\u30b9\u30b7\u30e5\u30fc\u30ba",
+      "en": "Velveteen Dress Shoes"
+    },
+    "level": 30,
+    "difficulty": 102
+  },
+  {
+    "maxQuality": 749,
+    "durability": 70,
+    "name": {
+      "fr": "Lit sombrelin\u00e7ois",
+      "de": "Wald-Bett",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d9\u30c3\u30c9",
+      "en": "Glade Bed"
+    },
+    "level": 28,
+    "difficulty": 320
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture blanc neige",
+      "de": "Schneewei\u00dfer Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30ce\u30a6\u30db\u30ef\u30a4\u30c8",
+      "en": "Snow White Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture noir suie",
+      "de": "Ru\u00dfschwarzer Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30fc\u30c8\u30d6\u30e9\u30c3\u30af",
+      "en": "Soot Black Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture rouge Dalamud",
+      "de": "Dalamudroter Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c0\u30e9\u30ac\u30d6\u30ec\u30c3\u30c9",
+      "en": "Dalamud Red Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture lie-de-vin",
+      "de": "Weinroter Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ef\u30a4\u30f3\u30ec\u30c3\u30c9",
+      "en": "Wine Red Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture orange couchant",
+      "de": "Abendroter Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b5\u30f3\u30bb\u30c3\u30c8\u30aa\u30ec\u30f3\u30b8",
+      "en": "Sunset Orange Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture brun kobold",
+      "de": "Koboldbrauner Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30dc\u30eb\u30c9\u30d6\u30e9\u30a6\u30f3",
+      "en": "Kobold Brown Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture orange citrouille",
+      "de": "K\u00fcrbisorangener Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d1\u30f3\u30d7\u30ad\u30f3\u30aa\u30ec\u30f3\u30b8",
+      "en": "Pumpkin Orange Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture brun argile",
+      "de": "Lehmbrauner Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30e0\u30d6\u30e9\u30a6\u30f3",
+      "en": "Loam Brown Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture jaune miel",
+      "de": "Honiggelber Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30cb\u30fc\u30a4\u30a8\u30ed\u30fc",
+      "en": "Honey Yellow Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture jaune milli-ma\u00efs",
+      "de": "Maisgelber Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30df\u30ea\u30aa\u30f3\u30b3\u30fc\u30f3\u30a4\u30a8\u30ed\u30fc",
+      "en": "Millioncorn Yellow Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture vert chasseur",
+      "de": "J\u00e4gergr\u00fcner Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30f3\u30bf\u30fc\u30b0\u30ea\u30fc\u30f3",
+      "en": "Hunter Green Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture vert otyugh",
+      "de": "Ochugr\u00fcner Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30c1\u30e5\u30fc\u30b0\u30ea\u30fc\u30f3",
+      "en": "Ochu Green Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture vert sapin",
+      "de": "Waldgr\u00fcner Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c7\u30a3\u30fc\u30d7\u30a6\u30c3\u30c9\u30b0\u30ea\u30fc\u30f3",
+      "en": "Deepwood Green Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture vert c\u00e9leste",
+      "de": "Jadegr\u00fcnder Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3",
+      "en": "Celeste Green Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture vert morbol",
+      "de": "Morbolgr\u00fcner Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30e2\u30eb\u30dc\u30eb\u30b0\u30ea\u30fc\u30f3",
+      "en": "Morbol Green Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture bleu gu\u00e8de",
+      "de": "Indigoblauer Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a6\u30a9\u30fc\u30c9\u30d6\u30eb\u30fc",
+      "en": "Woad Blue Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture bleu d'Othard",
+      "de": "Othardblauer Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30b5\u30fc\u30c9\u30d6\u30eb\u30fc",
+      "en": "Othard Blue Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture bleu temp\u00eate",
+      "de": "Sturmblauer Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30c8\u30fc\u30e0\u30d6\u30eb\u30fc",
+      "en": "Storm Blue Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture bleu du n\u00e9ant",
+      "de": "Nichtsblauer Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30f4\u30a9\u30a4\u30c9\u30d6\u30eb\u30fc",
+      "en": "Void Blue Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture bleu royal",
+      "de": "K\u00f6nigsblauer Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30a4\u30e4\u30eb\u30d6\u30eb\u30fc",
+      "en": "Royal Blue Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture bleu marine",
+      "de": "Tiefblauer Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a2\u30d3\u30b5\u30eb\u30d6\u30eb\u30fc",
+      "en": "Abyssal Blue Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture mauve lotus",
+      "de": "Lotusrosa Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30bf\u30b9\u30d4\u30f3\u30af",
+      "en": "Lotus Pink Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture mauve colibri",
+      "de": "Kolibrirosa Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30ea\u30d6\u30ea\u30d4\u30f3\u30af",
+      "en": "Colibri Pink Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture prune",
+      "de": "Pflaumenvioletter Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d7\u30e9\u30e0\u30d1\u30fc\u30d7\u30eb",
+      "en": "Plum Purple Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Teinture byzantium",
+      "de": "K\u00f6nigsvioletter Farbstoff",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ea\u30fc\u30ac\u30eb\u30d1\u30fc\u30d7\u30eb",
+      "en": "Regal Purple Dye"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Prisme mirage I (couture)",
+      "de": "Weber-Projektionsprisma I",
+      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G1:\u30cb\u30fc\u30c9\u30eb\u30ef\u30fc\u30af",
+      "en": "Grade 1 Glamour Prism (Clothcraft)"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Prisme mirage II (couture)",
+      "de": "Weber-Projektionsprisma II",
+      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G2:\u30cb\u30fc\u30c9\u30eb\u30ef\u30fc\u30af",
+      "en": "Grade 2 Glamour Prism (Clothcraft)"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Prisme mirage III (couture)",
+      "de": "Weber-Projektionsprisma III",
+      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G3:\u30cb\u30fc\u30c9\u30eb\u30ef\u30fc\u30af",
+      "en": "Grade 3 Glamour Prism (Clothcraft)"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Prisme mirage IV (couture)",
+      "de": "Weber-Projektionsprisma IV",
+      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G4:\u30cb\u30fc\u30c9\u30eb\u30ef\u30fc\u30af",
+      "en": "Grade 4 Glamour Prism (Clothcraft)"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1584,
+    "durability": 70,
+    "name": {
+      "fr": "Prisme mirage V (couture)",
+      "de": "Weber-Projektionsprisma V",
+      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G5:\u30cb\u30fc\u30c9\u30eb\u30ef\u30fc\u30af",
+      "en": "Grade 5 Glamour Prism (Clothcraft)"
+    },
+    "level": 30,
+    "difficulty": 51
+  },
+  {
+    "maxQuality": 1670,
+    "durability": 80,
+    "name": {
+      "fr": "Robe en veloutine",
+      "de": "Samthalbrobe",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30cf\u30fc\u30d5\u30ed\u30fc\u30d6",
+      "en": "Velveteen Robe"
+    },
+    "level": 31,
+    "difficulty": 106
+  },
+  {
+    "maxQuality": 1670,
+    "durability": 80,
+    "name": {
+      "fr": "Gants d'apparat en veloutine",
+      "de": "Samt-Galahandschuhe",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30c9\u30ec\u30b9\u30b0\u30ed\u30fc\u30d6",
+      "en": "Velveteen Dress Gloves"
+    },
+    "level": 31,
+    "difficulty": 106
+  },
+  {
+    "maxQuality": 1670,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe en veloutine",
+      "de": "Samtsch\u00e4rpe",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30b5\u30c3\u30b7\u30e5",
+      "en": "Velveteen Sash"
+    },
+    "level": 31,
+    "difficulty": 106
+  },
+  {
+    "maxQuality": 1670,
+    "durability": 80,
+    "name": {
+      "fr": "Gr\u00e8gues en veloutine",
+      "de": "Samt-Gaskin",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30ac\u30b9\u30ad\u30f3",
+      "en": "Velveteen Gaskins"
+    },
+    "level": 31,
+    "difficulty": 106
+  },
+  {
+    "maxQuality": 1697,
+    "durability": 40,
+    "name": {
+      "fr": "Fil de lin",
+      "de": "Leinengarn",
+      "ja": "\u4e9c\u9ebb\u7cf8",
+      "en": "Linen Yarn"
+    },
+    "level": 32,
+    "difficulty": 55
+  },
+  {
+    "maxQuality": 1697,
+    "durability": 80,
+    "name": {
+      "fr": "Casque pain de sucre en veloutine",
+      "de": "Samtspitzhut",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30b7\u30e5\u30ac\u30fc\u30ed\u30fc\u30d5",
+      "en": "Velveteen Sugarloaf Hat"
+    },
+    "level": 32,
+    "difficulty": 110
+  },
+  {
+    "maxQuality": 1697,
+    "durability": 80,
+    "name": {
+      "fr": "Gilet doublet des cr\u00e9ations en veloutine",
+      "de": "Samtweste des Handwerks",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8\u30d9\u30b9\u30c8",
+      "en": "Velveteen Doublet Vest of Crafting"
+    },
+    "level": 32,
+    "difficulty": 110
+  },
+  {
+    "maxQuality": 1757,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe de lin",
+      "de": "Naturbelassenes Leinen",
+      "ja": "\u4e9c\u9ebb\u5e03",
+      "en": "Undyed Linen"
+    },
+    "level": 33,
+    "difficulty": 55
+  },
+  {
+    "maxQuality": 1757,
+    "durability": 80,
+    "name": {
+      "fr": "Gilet doublet des ressources en veloutine",
+      "de": "Samtweste der Ernte",
+      "ja": "\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8\u30d9\u30b9\u30c8",
+      "en": "Velveteen Doublet Vest of Gathering"
+    },
+    "level": 33,
+    "difficulty": 111
+  },
+  {
+    "maxQuality": 1757,
+    "durability": 80,
+    "name": {
+      "fr": "Mitaines en lin",
+      "de": "Leinen-Kurzfingerhandschuhe",
+      "ja": "\u30ea\u30cd\u30f3\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6",
+      "en": "Linen Halfgloves"
+    },
+    "level": 33,
+    "difficulty": 111
+  },
+  {
+    "maxQuality": 1757,
+    "durability": 80,
+    "name": {
+      "fr": "Chausses en lin",
+      "de": "Leinen-Chausses",
+      "ja": "\u30ea\u30cd\u30f3\u30b7\u30e7\u30fc\u30b9",
+      "en": "Linen Chausses"
+    },
+    "level": 33,
+    "difficulty": 111
+  },
+  {
+    "maxQuality": 1811,
+    "durability": 80,
+    "name": {
+      "fr": "Turban en lin",
+      "de": "Leinenturban",
+      "ja": "\u30ea\u30cd\u30f3\u30bf\u30fc\u30d0\u30f3",
+      "en": "Linen Turban"
+    },
+    "level": 34,
+    "difficulty": 115
+  },
+  {
+    "maxQuality": 1811,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise en lin",
+      "de": "Leinenhemd",
+      "ja": "\u30ea\u30cd\u30f3\u30b7\u30e3\u30c4",
+      "en": "Linen Shirt"
+    },
+    "level": 34,
+    "difficulty": 115
+  },
+  {
+    "maxQuality": 1811,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual des ressources en lin",
+      "de": "Leinen-Sarouel des Eifers",
+      "ja": "\u30ea\u30cd\u30f3\u30ae\u30e3\u30b6\u30e9\u30fc\u30b5\u30eb\u30a8\u30eb",
+      "en": "Linen Sarouel of Gathering"
+    },
+    "level": 34,
+    "difficulty": 115
+  },
+  {
+    "maxQuality": 1811,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual en lin",
+      "de": "Leinen-Sarouel",
+      "ja": "\u30ea\u30cd\u30f3\u30b5\u30eb\u30a8\u30eb",
+      "en": "Linen Sarouel"
+    },
+    "level": 34,
+    "difficulty": 115
+  },
+  {
+    "maxQuality": 1853,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau en lin",
+      "de": "Leinenhut",
+      "ja": "\u30ea\u30cd\u30f3\u30cf\u30c3\u30c8",
+      "en": "Linen Hat"
+    },
+    "level": 35,
+    "difficulty": 123
+  },
+  {
+    "maxQuality": 1853,
+    "durability": 80,
+    "name": {
+      "fr": "Robe en lin",
+      "de": "Leinenrobe",
+      "ja": "\u30ea\u30cd\u30f3\u30ed\u30fc\u30d6",
+      "en": "Linen Robe"
+    },
+    "level": 35,
+    "difficulty": 123
+  },
+  {
+    "maxQuality": 1853,
+    "durability": 80,
+    "name": {
+      "fr": "Collants en lin",
+      "de": "Leinenstrumpfhose",
+      "ja": "\u30ea\u30cd\u30f3\u30bf\u30a4\u30c4",
+      "en": "Linen Tights"
+    },
+    "level": 35,
+    "difficulty": 123
+  },
+  {
+    "maxQuality": 1853,
+    "durability": 80,
+    "name": {
+      "fr": "Demi-tablier de collection",
+      "de": "Restaurierte Halbsch\u00fcrze",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30a8\u30d7\u30ed\u30f3",
+      "en": "Vintage Half Apron"
+    },
+    "level": 35,
+    "difficulty": 123
+  },
+  {
+    "maxQuality": 848,
+    "durability": 80,
+    "name": {
+      "fr": "Auvent nosc\u00e9en",
+      "de": "Riviera-Segelvordach",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30aa\u30fc\u30cb\u30f3\u30b0",
+      "en": "Riviera Awning"
+    },
+    "level": 32,
+    "difficulty": 352
+  },
+  {
+    "maxQuality": 848,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis feuillu thanalanais",
+      "de": "Oasen-Vierblattteppich",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30ea\u30fc\u30d5\u30e9\u30b0",
+      "en": "Oasis Leaf Rug"
+    },
+    "level": 32,
+    "difficulty": 352
+  },
+  {
+    "maxQuality": 905,
+    "durability": 80,
+    "name": {
+      "fr": "Lit thanalanais",
+      "de": "Oasen-Bett",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30d9\u30c3\u30c9",
+      "en": "Oasis Bed"
+    },
+    "level": 34,
+    "difficulty": 368
+  },
+  {
+    "maxQuality": 905,
+    "durability": 80,
+    "name": {
+      "fr": "Toit de pavillon en bois sombrelin\u00e7ois",
+      "de": "Wald-Holzhausdach",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a6\u30c3\u30c9\u30cf\u30a6\u30b9\u30fb\u30eb\u30fc\u30d5",
+      "en": "Glade House Roof (Wood)"
+    },
+    "level": 34,
+    "difficulty": 368
+  },
+  {
+    "maxQuality": 926,
+    "durability": 80,
+    "name": {
+      "fr": "Papier peint pastel \u00e0 motifs ronds",
+      "de": "Gefleckte Tapete",
+      "ja": "\u30dd\u30eb\u30ab\u30c9\u30c3\u30c8\u30fb\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
+      "en": "Spotted Interior Wall"
+    },
+    "level": 35,
+    "difficulty": 393
+  },
+  {
+    "maxQuality": 1882,
+    "durability": 40,
+    "name": {
+      "fr": "Canevas de lin",
+      "de": "Leinentuch",
+      "ja": "\u30ea\u30cd\u30f3\u30ab\u30f3\u30d0\u30b9",
+      "en": "Linen Canvas"
+    },
+    "level": 36,
+    "difficulty": 62
+  },
+  {
+    "maxQuality": 1882,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de p\u00eacheur",
+      "de": "Fischerhut",
+      "ja": "\u30a2\u30f3\u30b0\u30e9\u30fc\u30cf\u30c3\u30c8",
+      "en": "Angler's Hat"
+    },
+    "level": 36,
+    "difficulty": 124
+  },
+  {
+    "maxQuality": 1882,
+    "durability": 80,
+    "name": {
+      "fr": "Coule en lin",
+      "de": "Leinenkukulle",
+      "ja": "\u30ea\u30cd\u30f3\u30ab\u30a6\u30eb",
+      "en": "Linen Cowl"
+    },
+    "level": 36,
+    "difficulty": 124
+  },
+  {
+    "maxQuality": 1882,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe longue en lin",
+      "de": "Leinen-Langsch\u00e4rpe",
+      "ja": "\u30ea\u30cd\u30f3\u30ed\u30f3\u30b0\u30b5\u30c3\u30b7\u30e5",
+      "en": "Linen Longsash"
+    },
+    "level": 36,
+    "difficulty": 124
+  },
+  {
+    "maxQuality": 1882,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon en lin",
+      "de": "Leinenhose",
+      "ja": "\u30ea\u30cd\u30f3\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Linen Trousers"
+    },
+    "level": 36,
+    "difficulty": 124
+  },
+  {
+    "maxQuality": 1905,
+    "durability": 80,
+    "name": {
+      "fr": "Calot des cr\u00e9ations en lin",
+      "de": "Leinen-Schiffchen des Handwerks",
+      "ja": "\u30ea\u30cd\u30f3\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30a6\u30a7\u30c3\u30b8\u30ad\u30e3\u30c3\u30d7",
+      "en": "Linen Wedge Cap of Crafting"
+    },
+    "level": 37,
+    "difficulty": 128
+  },
+  {
+    "maxQuality": 1905,
+    "durability": 80,
+    "name": {
+      "fr": "Demi-tablier en lin",
+      "de": "Leinen-Halbsch\u00fcrze",
+      "ja": "\u30ea\u30cd\u30f3\u30a8\u30d7\u30ed\u30f3",
+      "en": "Linen Half Apron"
+    },
+    "level": 37,
+    "difficulty": 128
+  },
+  {
+    "maxQuality": 1905,
+    "durability": 80,
+    "name": {
+      "fr": "Bas-de-corps en lin",
+      "de": "Leinen-Miederhose",
+      "ja": "\u30ea\u30cd\u30f3\u30dc\u30c8\u30e0",
+      "en": "Linen Bottom"
+    },
+    "level": 37,
+    "difficulty": 128
+  },
+  {
+    "maxQuality": 1905,
+    "durability": 80,
+    "name": {
+      "fr": "Gu\u00eatres en lin",
+      "de": "Leinen-Spangenschuhe",
+      "ja": "\u30ea\u30cd\u30f3\u30b2\u30a4\u30bf\u30fc",
+      "en": "Linen Gaiters"
+    },
+    "level": 37,
+    "difficulty": 128
+  },
+  {
+    "maxQuality": 1905,
+    "durability": 80,
+    "name": {
+      "fr": "Bol\u00e9ro de collection",
+      "de": "Restaurierter Spenzer",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30b3\u30fc\u30c6\u30a3\u30fc",
+      "en": "Vintage Coatee"
+    },
+    "level": 37,
+    "difficulty": 128
+  },
+  {
+    "maxQuality": 1961,
+    "durability": 40,
+    "name": {
+      "fr": "Fil de laine",
+      "de": "Wollgarn",
+      "ja": "\u6bdb\u7cf8",
+      "en": "Woolen Yarn"
+    },
+    "level": 38,
+    "difficulty": 64
+  },
+  {
+    "maxQuality": 1961,
+    "durability": 80,
+    "name": {
+      "fr": "Calot des ressources en lin",
+      "de": "Leinen-Schiffchen der Ernte",
+      "ja": "\u30ea\u30cd\u30f3\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30a6\u30a7\u30c3\u30b8\u30ad\u30e3\u30c3\u30d7",
+      "en": "Linen Wedge Cap of Gathering"
+    },
+    "level": 38,
+    "difficulty": 129
+  },
+  {
+    "maxQuality": 1961,
+    "durability": 80,
+    "name": {
+      "fr": "Bol\u00e9ro des cr\u00e9ations en lin",
+      "de": "Leinen-Spenzer des Handwerks",
+      "ja": "\u30ea\u30cd\u30f3\u30af\u30e9\u30d5\u30bf\u30fc\u30b3\u30fc\u30c6\u30a3\u30fc",
+      "en": "Linen Coatee of Crafting"
+    },
+    "level": 38,
+    "difficulty": 129
+  },
+  {
+    "maxQuality": 1961,
+    "durability": 80,
+    "name": {
+      "fr": "Bol\u00e9ro des ressources en lin",
+      "de": "Leinen-Spenzer der Ernte",
+      "ja": "\u30ea\u30cd\u30f3\u30ae\u30e3\u30b6\u30e9\u30fc\u30b3\u30fc\u30c6\u30a3\u30fc",
+      "en": "Linen Coatee of Gathering"
+    },
+    "level": 38,
+    "difficulty": 129
+  },
+  {
+    "maxQuality": 1961,
+    "durability": 80,
+    "name": {
+      "fr": "Gants courts en lin",
+      "de": "Leinen-Minihandschuhe",
+      "ja": "\u30ea\u30cd\u30f3\u30b7\u30e7\u30fc\u30c6\u30a3",
+      "en": "Linen Shortgloves"
+    },
+    "level": 38,
+    "difficulty": 129
+  },
+  {
+    "maxQuality": 1961,
+    "durability": 80,
+    "name": {
+      "fr": "Gilet doublet de collection",
+      "de": "Restaurierte Baumwollweste",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30c0\u30d6\u30ec\u30c3\u30c8\u30d9\u30b9\u30c8",
+      "en": "Vintage Doublet Vest"
+    },
+    "level": 38,
+    "difficulty": 129
+  },
+  {
+    "maxQuality": 2026,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe de laine",
+      "de": "Naturbelassene Wolle",
+      "ja": "\u7f85\u7d17",
+      "en": "Undyed Woolen Cloth"
+    },
+    "level": 39,
+    "difficulty": 68
+  },
+  {
+    "maxQuality": 2026,
+    "durability": 80,
+    "name": {
+      "fr": "Coiffe en laine",
+      "de": "Wollbundhaube",
+      "ja": "\u30a6\u30fc\u30eb\u30b3\u30a4\u30d5",
+      "en": "Woolen Coif"
+    },
+    "level": 39,
+    "difficulty": 137
+  },
+  {
+    "maxQuality": 2026,
+    "durability": 80,
+    "name": {
+      "fr": "Turban en laine",
+      "de": "Wollturban",
+      "ja": "\u30a6\u30fc\u30eb\u30bf\u30fc\u30d0\u30f3",
+      "en": "Woolen Turban"
+    },
+    "level": 39,
+    "difficulty": 137
+  },
+  {
+    "maxQuality": 2026,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise en laine",
+      "de": "Wollhemd",
+      "ja": "\u30a6\u30fc\u30eb\u30b7\u30e3\u30c4",
+      "en": "Woolen Shirt"
+    },
+    "level": 39,
+    "difficulty": 137
+  },
+  {
+    "maxQuality": 2026,
+    "durability": 80,
+    "name": {
+      "fr": "Bliaud en lin",
+      "de": "Leinen-Bliaud",
+      "ja": "\u30ea\u30cd\u30f3\u30d6\u30ea\u30aa\u30fc",
+      "en": "Linen Bliaud"
+    },
+    "level": 39,
+    "difficulty": 137
+  },
+  {
+    "maxQuality": 2026,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe en laine",
+      "de": "Wollsch\u00e4rpe",
+      "ja": "\u30a6\u30fc\u30eb\u30b5\u30c3\u30b7\u30e5",
+      "en": "Woolen Sash"
+    },
+    "level": 39,
+    "difficulty": 137
+  },
+  {
+    "maxQuality": 2026,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon en lin renforc\u00e9",
+      "de": "Gef\u00fctterte Leinenhose",
+      "ja": "\u30ea\u30cd\u30f3\u30c8\u30e9\u30a6\u30b6\u30fcDX",
+      "en": "Padded Linen Trousers"
+    },
+    "level": 39,
+    "difficulty": 137
+  },
+  {
+    "maxQuality": 2026,
+    "durability": 80,
+    "name": {
+      "fr": "Gr\u00e8gues en lin",
+      "de": "Leinen-Gaskin",
+      "ja": "\u30ea\u30cd\u30f3\u30ac\u30b9\u30ad\u30f3",
+      "en": "Linen Gaskins"
+    },
+    "level": 39,
+    "difficulty": 137
+  },
+  {
+    "maxQuality": 2050,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau en laine",
+      "de": "Wollhut",
+      "ja": "\u30a6\u30fc\u30eb\u30cf\u30c3\u30c8",
+      "en": "Woolen Hat"
+    },
+    "level": 40,
+    "difficulty": 138
+  },
+  {
+    "maxQuality": 2050,
+    "durability": 80,
+    "name": {
+      "fr": "Toque",
+      "de": "Leinen-Gesellenhut",
+      "ja": "\u30c7\u30a3\u30a2\u30b9\u30c8\u30fc\u30ab\u30fc\u30cf\u30c3\u30c8",
+      "en": "Linen Deerstalker"
+    },
+    "level": 40,
+    "difficulty": 138
+  },
+  {
+    "maxQuality": 2050,
+    "durability": 80,
+    "name": {
+      "fr": "Coiffe des ressources en laine",
+      "de": "Wollbundhaube des Eifers",
+      "ja": "\u30a6\u30fc\u30eb\u30ae\u30e3\u30b6\u30e9\u30fc\u30b3\u30a4\u30d5",
+      "en": "Woolen Coif of Gathering"
+    },
+    "level": 40,
+    "difficulty": 138
+  },
+  {
+    "maxQuality": 2050,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual en laine",
+      "de": "Woll-Sarouel",
+      "ja": "\u30a6\u30fc\u30eb\u30b5\u30eb\u30a8\u30eb",
+      "en": "Woolen Sarouel"
+    },
+    "level": 40,
+    "difficulty": 138
+  },
+  {
+    "maxQuality": 2050,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual des ressources en laine",
+      "de": "Woll-Sarouel des Eifers",
+      "ja": "\u30a6\u30fc\u30eb\u30ae\u30e3\u30b6\u30e9\u30fc\u30b5\u30eb\u30a8\u30eb",
+      "en": "Woolen Sarouel of Gathering"
+    },
+    "level": 40,
+    "difficulty": 138
+  },
+  {
+    "maxQuality": 2050,
+    "durability": 80,
+    "name": {
+      "fr": "Tablier de chef de collection",
+      "de": "Restaurierte Kochtunika",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30b7\u30a7\u30d5\u30ba\u30a8\u30d7\u30ed\u30f3",
+      "en": "Vintage Chef's Apron"
+    },
+    "level": 40,
+    "difficulty": 138
+  },
+  {
+    "maxQuality": 952,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis nosc\u00e9en",
+      "de": "Riviera-Teppich",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30e9\u30b0",
+      "en": "Riviera Rug"
+    },
+    "level": 37,
+    "difficulty": 409
+  },
+  {
+    "maxQuality": 952,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis \u00e0 franges sombrelin\u00e7ois",
+      "de": "Wald-Fransenteppich",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d5\u30ea\u30f3\u30b8\u30c9\u30e9\u30b0",
+      "en": "Glade Fringed Rug"
+    },
+    "level": 37,
+    "difficulty": 409
+  },
+  {
+    "maxQuality": 952,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis thanalanais",
+      "de": "Oasen-Teppich",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30e9\u30b0",
+      "en": "Oasis Rug"
+    },
+    "level": 37,
+    "difficulty": 409
+  },
+  {
+    "maxQuality": 980,
+    "durability": 80,
+    "name": {
+      "fr": "Toit de pavillon en pierre sombrelin\u00e7ois",
+      "de": "Wald-Steinhausdach",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b9\u30c8\u30fc\u30f3\u30cf\u30a6\u30b9\u30fb\u30eb\u30fc\u30d5",
+      "en": "Glade House Roof (Stone)"
+    },
+    "level": 38,
+    "difficulty": 412
+  },
+  {
+    "maxQuality": 1013,
+    "durability": 80,
+    "name": {
+      "fr": "Parasol de jardin",
+      "de": "Gartenschirm",
+      "ja": "\u30ac\u30fc\u30c7\u30f3\u30d1\u30e9\u30bd\u30eb",
+      "en": "Linen Parasol"
+    },
+    "level": 39,
+    "difficulty": 438
+  },
+  {
+    "maxQuality": 1025,
+    "durability": 80,
+    "name": {
+      "fr": "Ahriman en peluche",
+      "de": "Stoff-Ahriman",
+      "ja": "\u30a2\u30fc\u30ea\u30de\u30f3\u306e\u306c\u3044\u3050\u308b\u307f",
+      "en": "Stuffed Ahriman"
+    },
+    "level": 40,
+    "difficulty": 441
+  },
+  {
+    "maxQuality": 1025,
+    "durability": 80,
+    "name": {
+      "fr": "Auvent sombrelin\u00e7ois",
+      "de": "Wald-Baldachinvordach",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30aa\u30fc\u30cb\u30f3\u30b0",
+      "en": "Glade Awning"
+    },
+    "level": 40,
+    "difficulty": 441
+  },
+  {
+    "maxQuality": 1025,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis sombrelin\u00e7ois",
+      "de": "Wald-Teppich",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30e9\u30b0",
+      "en": "Glade Rug"
+    },
+    "level": 40,
+    "difficulty": 441
+  },
+  {
+    "maxQuality": 1025,
+    "durability": 80,
+    "name": {
+      "fr": "Paillasson nosc\u00e9en",
+      "de": "Riviera-Fu\u00dfmatte",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30c9\u30a2\u30de\u30c3\u30c8",
+      "en": "Riviera Doormat"
+    },
+    "level": 40,
+    "difficulty": 441
+  },
+  {
+    "maxQuality": 2109,
+    "durability": 80,
+    "name": {
+      "fr": "Robe en laine",
+      "de": "Wollrobe",
+      "ja": "\u30a6\u30fc\u30eb\u30ed\u30fc\u30d6",
+      "en": "Woolen Robe"
+    },
+    "level": 41,
+    "difficulty": 143
+  },
+  {
+    "maxQuality": 2109,
+    "durability": 80,
+    "name": {
+      "fr": "Sarrau",
+      "de": "Leinenkittel",
+      "ja": "\u30b9\u30e2\u30c3\u30af",
+      "en": "Linen Smock"
+    },
+    "level": 41,
+    "difficulty": 143
+  },
+  {
+    "maxQuality": 2109,
+    "durability": 80,
+    "name": {
+      "fr": "Gants d'apparat en laine",
+      "de": "Woll-Galahandschuhe",
+      "ja": "\u30a6\u30fc\u30eb\u30c9\u30ec\u30b9\u30b0\u30ed\u30fc\u30d6",
+      "en": "Woolen Dress Gloves"
+    },
+    "level": 41,
+    "difficulty": 143
+  },
+  {
+    "maxQuality": 2109,
+    "durability": 80,
+    "name": {
+      "fr": "Collants en laine",
+      "de": "Wollstrumpfhose",
+      "ja": "\u30a6\u30fc\u30eb\u30bf\u30a4\u30c4",
+      "en": "Woolen Tights"
+    },
+    "level": 41,
+    "difficulty": 143
+  },
+  {
+    "maxQuality": 2109,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de chef de collection",
+      "de": "Restaurierte Kochm\u00fctze",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30b7\u30a7\u30d5\u30ba\u30cf\u30c3\u30c8",
+      "en": "Vintage Chef's Hat"
+    },
+    "level": 41,
+    "difficulty": 143
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 40,
+    "name": {
+      "fr": "Isolant en feutre",
+      "de": "Filzd\u00e4mmmaterial",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30b7\u30fc\u30c8",
+      "en": "Felt Lining"
+    },
+    "level": 42,
+    "difficulty": 72
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de cavalier",
+      "de": "Woll-Kavaliershut",
+      "ja": "\u30ad\u30e3\u30d0\u30ea\u30a8\u30cf\u30c3\u30c8",
+      "en": "Woolen Cavalier's Hat"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de chasseur",
+      "de": "F\u00f6rsterhut",
+      "ja": "\u30ec\u30f3\u30b8\u30e3\u30fc\u30cf\u30c3\u30c8",
+      "en": "Ranger's Hat"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "B\u00e9ret en laine",
+      "de": "Wollbarett",
+      "ja": "\u30a6\u30fc\u30eb\u30d9\u30ec\u30fc",
+      "en": "Woolen Beret"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Tunique de chasseur",
+      "de": "F\u00f6rstertunika",
+      "ja": "\u30ec\u30f3\u30b8\u30e3\u30fc\u30c1\u30e5\u30cb\u30c3\u30af",
+      "en": "Ranger's Tunic"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Peignoir en laine",
+      "de": "Wolltalar",
+      "ja": "\u30a6\u30fc\u30eb\u30ac\u30a6\u30f3",
+      "en": "Woolen Gown"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Doublet en lin",
+      "de": "Leinenwams",
+      "ja": "\u30ea\u30cd\u30f3\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Linen Doublet"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Brassi\u00e8res en laine",
+      "de": "Wollarmschienen",
+      "ja": "\u30a6\u30fc\u30eb\u30d6\u30ec\u30fc\u30b5\u30fc",
+      "en": "Woolen Bracers"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Gr\u00e8gues en laine",
+      "de": "Woll-Gaskin",
+      "ja": "\u30a6\u30fc\u30eb\u30ac\u30b9\u30ad\u30f3",
+      "en": "Woolen Gaskins"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "B\u00e9nard en laine",
+      "de": "Woll-Kecks",
+      "ja": "\u30a6\u30fc\u30eb\u30b1\u30af\u30b9",
+      "en": "Woolen Kecks"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Chausses en laine",
+      "de": "Woll-Chausses",
+      "ja": "\u30a6\u30fc\u30eb\u30b7\u30e7\u30fc\u30b9",
+      "en": "Woolen Chausses"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Trousses en lin",
+      "de": "Leinenbeinlinge",
+      "ja": "\u30ea\u30cd\u30f3\u30b9\u30ed\u30c3\u30d7",
+      "en": "Linen Slops"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2147,
+    "durability": 80,
+    "name": {
+      "fr": "Chaussures d'apparat en laine",
+      "de": "Woll-Galaschuhe",
+      "ja": "\u30a6\u30fc\u30eb\u30c9\u30ec\u30b9\u30b7\u30e5\u30fc\u30ba",
+      "en": "Woolen Dress Shoes"
+    },
+    "level": 42,
+    "difficulty": 144
+  },
+  {
+    "maxQuality": 2251,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe de feutre",
+      "de": "Filzstoff",
+      "ja": "\u4e0d\u7e54\u5e03",
+      "en": "Undyed Felt"
+    },
+    "level": 43,
+    "difficulty": 77
+  },
+  {
+    "maxQuality": 2251,
+    "durability": 80,
+    "name": {
+      "fr": "Coiffe en feutre",
+      "de": "Filzbundhaube",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30b3\u30a4\u30d5",
+      "en": "Felt Coif"
+    },
+    "level": 43,
+    "difficulty": 155
+  },
+  {
+    "maxQuality": 2251,
+    "durability": 80,
+    "name": {
+      "fr": "Bliaud",
+      "de": "Woll-Bliaud",
+      "ja": "\u30d6\u30ea\u30aa\u30fc",
+      "en": "Woolen Bliaud"
+    },
+    "level": 43,
+    "difficulty": 155
+  },
+  {
+    "maxQuality": 2251,
+    "durability": 80,
+    "name": {
+      "fr": "Mitaines en laine",
+      "de": "Woll-Kurzfingerhandschuhe",
+      "ja": "\u30a6\u30fc\u30eb\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6",
+      "en": "Woolen Halfgloves"
+    },
+    "level": 43,
+    "difficulty": 155
+  },
+  {
+    "maxQuality": 2251,
+    "durability": 80,
+    "name": {
+      "fr": "Gants de travail en laine",
+      "de": "Woll-Arbeitshandschuhe",
+      "ja": "\u30a6\u30fc\u30eb\u30ef\u30fc\u30af\u30b0\u30ed\u30fc\u30d6",
+      "en": "Woolen Work Gloves"
+    },
+    "level": 43,
+    "difficulty": 155
+  },
+  {
+    "maxQuality": 2251,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon en laine",
+      "de": "Wollhose",
+      "ja": "\u30a6\u30fc\u30eb\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Woolen Trousers"
+    },
+    "level": 43,
+    "difficulty": 155
+  },
+  {
+    "maxQuality": 2251,
+    "durability": 80,
+    "name": {
+      "fr": "Fuseau de collection",
+      "de": "Restauriertes Beinkleid",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30db\u30fc\u30ba",
+      "en": "Vintage Hose"
+    },
+    "level": 43,
+    "difficulty": 155
+  },
+  {
+    "maxQuality": 2277,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau en feutre",
+      "de": "Filzhut",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30cf\u30c3\u30c8",
+      "en": "Felt Hat"
+    },
+    "level": 44,
+    "difficulty": 156
+  },
+  {
+    "maxQuality": 2277,
+    "durability": 80,
+    "name": {
+      "fr": "Toque en laine",
+      "de": "Woll-Gesellenhut",
+      "ja": "\u30a6\u30fc\u30eb\u30c7\u30a3\u30a2\u30b9\u30c8\u30fc\u30ab\u30fc\u30cf\u30c3\u30c8",
+      "en": "Woolen Deerstalker"
+    },
+    "level": 44,
+    "difficulty": 156
+  },
+  {
+    "maxQuality": 2277,
+    "durability": 80,
+    "name": {
+      "fr": "Coiffe des ressources en feutre",
+      "de": "Filzbundhaube des Eifers",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30ae\u30e3\u30b6\u30e9\u30fc\u30b3\u30a4\u30d5",
+      "en": "Felt Coif of Gathering"
+    },
+    "level": 44,
+    "difficulty": 156
+  },
+  {
+    "maxQuality": 2277,
+    "durability": 80,
+    "name": {
+      "fr": "Robe en feutre",
+      "de": "Filzrobe",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30ed\u30fc\u30d6",
+      "en": "Felt Robe"
+    },
+    "level": 44,
+    "difficulty": 156
+  },
+  {
+    "maxQuality": 2277,
+    "durability": 80,
+    "name": {
+      "fr": "Sarrau en laine",
+      "de": "Wollkittel",
+      "ja": "\u30a6\u30fc\u30eb\u30b9\u30e2\u30c3\u30af",
+      "en": "Woolen Smock"
+    },
+    "level": 44,
+    "difficulty": 156
+  },
+  {
+    "maxQuality": 2277,
+    "durability": 80,
+    "name": {
+      "fr": "Doublet en laine",
+      "de": "Wollwams",
+      "ja": "\u30a6\u30fc\u30eb\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Woolen Doublet"
+    },
+    "level": 44,
+    "difficulty": 156
+  },
+  {
+    "maxQuality": 2277,
+    "durability": 80,
+    "name": {
+      "fr": "Trousses en laine",
+      "de": "Wollbeinlinge",
+      "ja": "\u30a6\u30fc\u30eb\u30b9\u30ed\u30c3\u30d7",
+      "en": "Woolen Slops"
+    },
+    "level": 44,
+    "difficulty": 156
+  },
+  {
+    "maxQuality": 2277,
+    "durability": 80,
+    "name": {
+      "fr": "Bol\u00e9ro de s\u00e9n\u00e9chal de collection",
+      "de": "Restaurierter Seneschall-Spenzer",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30bb\u30cd\u30b7\u30e3\u30eb\u30b3\u30fc\u30c6\u30a3\u30fc",
+      "en": "Vintage Seneschal Coatee"
+    },
+    "level": 44,
+    "difficulty": 156
+  },
+  {
+    "maxQuality": 2309,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de faiseur de pluie",
+      "de": "Regenmacherhut",
+      "ja": "\u30ec\u30a4\u30f3\u30e1\u30a4\u30ab\u30fc\u30cf\u30c3\u30c8",
+      "en": "Rainmaker's Hat"
+    },
+    "level": 45,
+    "difficulty": 158
+  },
+  {
+    "maxQuality": 2309,
+    "durability": 80,
+    "name": {
+      "fr": "Tunique de faiseur de pluie",
+      "de": "Regenmachertunika",
+      "ja": "\u30ec\u30a4\u30f3\u30e1\u30a4\u30ab\u30fc\u30c1\u30e5\u30cb\u30c3\u30af",
+      "en": "Rainmaker's Tunic"
+    },
+    "level": 45,
+    "difficulty": 158
+  },
+  {
+    "maxQuality": 2309,
+    "durability": 80,
+    "name": {
+      "fr": "Peignoir en feutre",
+      "de": "Filztalar",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30ac\u30a6\u30f3",
+      "en": "Felt Gown"
+    },
+    "level": 45,
+    "difficulty": 158
+  },
+  {
+    "maxQuality": 2309,
+    "durability": 80,
+    "name": {
+      "fr": "Coule en laine",
+      "de": "Wollkukulle",
+      "ja": "\u30a6\u30fc\u30eb\u30ab\u30a6\u30eb",
+      "en": "Woolen Cowl"
+    },
+    "level": 45,
+    "difficulty": 158
+  },
+  {
+    "maxQuality": 2309,
+    "durability": 80,
+    "name": {
+      "fr": "Mitaines en feutre",
+      "de": "Filz-Kurzfingerhandschuhe",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6",
+      "en": "Felt Halfgloves"
+    },
+    "level": 45,
+    "difficulty": 158
+  },
+  {
+    "maxQuality": 2309,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe en feutre",
+      "de": "Filz-Sch\u00e4rpe",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30b5\u30c3\u30b7\u30e5",
+      "en": "Felt Sash"
+    },
+    "level": 45,
+    "difficulty": 158
+  },
+  {
+    "maxQuality": 2309,
+    "durability": 80,
+    "name": {
+      "fr": "B\u00e9nard en feutre",
+      "de": "Filz-Kecks",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30b1\u30af\u30b9",
+      "en": "Felt Kecks"
+    },
+    "level": 45,
+    "difficulty": 158
+  },
+  {
+    "maxQuality": 2309,
+    "durability": 80,
+    "name": {
+      "fr": "Chausses en feutre",
+      "de": "Filz-Chausses",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30b7\u30e7\u30fc\u30b9",
+      "en": "Felt Chausses"
+    },
+    "level": 45,
+    "difficulty": 158
+  },
+  {
+    "maxQuality": 2309,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de bouffon de collection",
+      "de": "Restaurierte Narrenkappe",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30b8\u30a7\u30b9\u30bf\u30fc\u30ad\u30e3\u30c3\u30d7",
+      "en": "Vintage Jester's Cap"
+    },
+    "level": 45,
+    "difficulty": 158
+  },
+  {
+    "maxQuality": 1054,
+    "durability": 80,
+    "name": {
+      "fr": "Rev\u00eatement mural floral nosc\u00e9en",
+      "de": "Riviera-Bl\u00e4ttertapete",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30ea\u30fc\u30d5\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
+      "en": "Riviera Flora Interior Wall"
+    },
+    "level": 41,
+    "difficulty": 457
+  },
+  {
+    "maxQuality": 1054,
+    "durability": 80,
+    "name": {
+      "fr": "Rev\u00eatement mural floral sombrelin\u00e7ois",
+      "de": "Wald-Bl\u00e4ttertapete",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30ea\u30fc\u30d5\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
+      "en": "Glade Flora Interior Wall"
+    },
+    "level": 41,
+    "difficulty": 457
+  },
+  {
+    "maxQuality": 1054,
+    "durability": 80,
+    "name": {
+      "fr": "Rev\u00eatement mural floral thanalanais",
+      "de": "Oasen-Bl\u00e4ttertapete",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30ea\u30fc\u30d5\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
+      "en": "Oasis Flora Interior Wall"
+    },
+    "level": 41,
+    "difficulty": 457
+  },
+  {
+    "maxQuality": 1073,
+    "durability": 80,
+    "name": {
+      "fr": "Fauteuil nosc\u00e9en",
+      "de": "Riviera-Polstersessel",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30bd\u30d5\u30a1\u30fc",
+      "en": "Riviera Armchair"
+    },
+    "level": 42,
+    "difficulty": 460
+  },
+  {
+    "maxQuality": 1073,
+    "durability": 80,
+    "name": {
+      "fr": "Banc thanalanais",
+      "de": "Oasen-Bank",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30d9\u30f3\u30c1",
+      "en": "Oasis Bench"
+    },
+    "level": 42,
+    "difficulty": 460
+  },
+  {
+    "maxQuality": 1073,
+    "durability": 80,
+    "name": {
+      "fr": "Paillasson sombrelin\u00e7ois",
+      "de": "Wald-Fu\u00dfmatte",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30c9\u30a2\u30de\u30c3\u30c8",
+      "en": "Glade Doormat"
+    },
+    "level": 42,
+    "difficulty": 460
+  },
+  {
+    "maxQuality": 1138,
+    "durability": 80,
+    "name": {
+      "fr": "Auvent thanalanais",
+      "de": "Oasen-Baldachinvordach",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30aa\u30fc\u30cb\u30f3\u30b0",
+      "en": "Oasis Awning"
+    },
+    "level": 44,
+    "difficulty": 499
+  },
+  {
+    "maxQuality": 1138,
+    "durability": 80,
+    "name": {
+      "fr": "Canap\u00e9 nosc\u00e9en",
+      "de": "Riviera-Couch",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30ab\u30a6\u30c1",
+      "en": "Riviera Couch"
+    },
+    "level": 44,
+    "difficulty": 499
+  },
+  {
+    "maxQuality": 1138,
+    "durability": 80,
+    "name": {
+      "fr": "Muret en chaume sombrelin\u00e7ois",
+      "de": "Wald-Schilfdachmauer",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30bf\u30c3\u30c1\u30a6\u30a9\u30fc\u30eb",
+      "en": "Glade Thatch Wall"
+    },
+    "level": 44,
+    "difficulty": 499
+  },
+  {
+    "maxQuality": 1154,
+    "durability": 80,
+    "name": {
+      "fr": "Fauteuil thanalanais",
+      "de": "Oasen-Polstersessel",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30bd\u30d5\u30a1\u30fc",
+      "en": "Oasis Armchair"
+    },
+    "level": 45,
+    "difficulty": 505
+  },
+  {
+    "maxQuality": 1154,
+    "durability": 80,
+    "name": {
+      "fr": "Rev\u00eatement mural \u00e0 rayures",
+      "de": "Gestreifte Innenwand",
+      "ja": "\u30b9\u30c8\u30e9\u30a4\u30d7\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
+      "en": "Striped Interior Wall"
+    },
+    "level": 45,
+    "difficulty": 505
+  },
+  {
+    "maxQuality": 1154,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis goobbue",
+      "de": "Goobbue-Teppich",
+      "ja": "\u30b0\u30a5\u30fc\u30d6\u30fc\u30e9\u30b0",
+      "en": "Goobbue Rug"
+    },
+    "level": 45,
+    "difficulty": 505
+  },
+  {
+    "maxQuality": 1154,
+    "durability": 80,
+    "name": {
+      "fr": "Paillasson thanalanais",
+      "de": "Oasen-Fu\u00dfmatte",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30c9\u30a2\u30de\u30c3\u30c8",
+      "en": "Oasis Doormat"
+    },
+    "level": 45,
+    "difficulty": 505
+  },
+  {
+    "maxQuality": 2372,
+    "durability": 80,
+    "name": {
+      "fr": "B\u00e9ret en feutre",
+      "de": "Filzbarett",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30d9\u30ec\u30fc",
+      "en": "Felt Beret"
+    },
+    "level": 46,
+    "difficulty": 159
+  },
+  {
+    "maxQuality": 2372,
+    "durability": 80,
+    "name": {
+      "fr": "Brassi\u00e8res en feutre",
+      "de": "Filzarmschienen",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30d6\u30ec\u30fc\u30b5\u30fc",
+      "en": "Felt Bracers"
+    },
+    "level": 46,
+    "difficulty": 159
+  },
+  {
+    "maxQuality": 2372,
+    "durability": 80,
+    "name": {
+      "fr": "Gants de travail en feutre",
+      "de": "Filz-Arbeitshandschuhe",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30ef\u30fc\u30af\u30b0\u30ed\u30fc\u30d6",
+      "en": "Felt Work Gloves"
+    },
+    "level": 46,
+    "difficulty": 159
+  },
+  {
+    "maxQuality": 2372,
+    "durability": 80,
+    "name": {
+      "fr": "Chaussures d'apparat en feutre",
+      "de": "Filz-Galaschuhe",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30c9\u30ec\u30b9\u30b7\u30e5\u30fc\u30ba",
+      "en": "Felt Dress Shoes"
+    },
+    "level": 46,
+    "difficulty": 159
+  },
+  {
+    "maxQuality": 2372,
+    "durability": 80,
+    "name": {
+      "fr": "Coiffe de collection",
+      "de": "Restaurierte Bundhaube",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30b3\u30a4\u30d5",
+      "en": "Vintage Coif"
+    },
+    "level": 46,
+    "difficulty": 159
+  },
+  {
+    "maxQuality": 2421,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de cavalier en feutre",
+      "de": "Filz-Kavaliershut",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30ad\u30e3\u30d0\u30ea\u30a8\u30cf\u30c3\u30c8",
+      "en": "Felt Cavalier's Hat"
+    },
+    "level": 47,
+    "difficulty": 167
+  },
+  {
+    "maxQuality": 2421,
+    "durability": 80,
+    "name": {
+      "fr": "Gr\u00e8gues en feutre",
+      "de": "Filz-Gaskin",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30ac\u30b9\u30ad\u30f3",
+      "en": "Felt Gaskins"
+    },
+    "level": 47,
+    "difficulty": 167
+  },
+  {
+    "maxQuality": 2421,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon en laine renforc\u00e9",
+      "de": "Gef\u00fctterte Wollhose",
+      "ja": "\u30a6\u30fc\u30eb\u30c8\u30e9\u30a6\u30b6\u30fcDX",
+      "en": "Padded Woolen Trousers"
+    },
+    "level": 47,
+    "difficulty": 167
+  },
+  {
+    "maxQuality": 2421,
+    "durability": 80,
+    "name": {
+      "fr": "Robe de collection",
+      "de": "Restaurierte Robe",
+      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30ed\u30fc\u30d6",
+      "en": "Vintage Robe"
+    },
+    "level": 47,
+    "difficulty": 167
+  },
+  {
+    "maxQuality": 2524,
+    "durability": 80,
+    "name": {
+      "fr": "Bliaud en feutre",
+      "de": "Filz-Bliaud",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30d6\u30ea\u30aa\u30fc",
+      "en": "Felt Bliaud"
+    },
+    "level": 48,
+    "difficulty": 172
+  },
+  {
+    "maxQuality": 2524,
+    "durability": 80,
+    "name": {
+      "fr": "Gants d'apparat en feutre",
+      "de": "Filz-Galahandschuhe",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30c9\u30ec\u30b9\u30b0\u30ed\u30fc\u30d6",
+      "en": "Felt Dress Gloves"
+    },
+    "level": 48,
+    "difficulty": 172
+  },
+  {
+    "maxQuality": 2524,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon en feutre",
+      "de": "Filzhose",
+      "ja": "\u30d5\u30a7\u30eb\u30c8\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Felt Trousers"
+    },
+    "level": 48,
+    "difficulty": 172
+  },
+  {
+    "maxQuality": 2641,
+    "durability": 80,
+    "name": {
+      "fr": "Calot de patricien",
+      "de": "Patrizier-Schiffchen",
+      "ja": "\u30d1\u30c8\u30ea\u30b7\u30a2\u30f3\u30a6\u30a7\u30c3\u30b8\u30ad\u30e3\u30c3\u30d7",
+      "en": "Patrician's Wedge Cap"
+    },
+    "level": 50,
+    "difficulty": 186
+  },
+  {
+    "maxQuality": 2641,
+    "durability": 80,
+    "name": {
+      "fr": "Bol\u00e9ro de patricien",
+      "de": "Patrizier-Spenzer",
+      "ja": "\u30d1\u30c8\u30ea\u30b7\u30a2\u30f3\u30b3\u30fc\u30c6\u30a3\u30fc",
+      "en": "Patrician's Coatee"
+    },
+    "level": 50,
+    "difficulty": 186
+  },
+  {
+    "maxQuality": 2641,
+    "durability": 80,
+    "name": {
+      "fr": "Gants de patricien",
+      "de": "Patrizier-Handschuhe",
+      "ja": "\u30d1\u30c8\u30ea\u30b7\u30a2\u30f3\u30b0\u30ed\u30fc\u30d6",
+      "en": "Patrician's Gloves"
+    },
+    "level": 50,
+    "difficulty": 186
+  },
+  {
+    "maxQuality": 2641,
+    "durability": 80,
+    "name": {
+      "fr": "Bas-de-corps de patricien",
+      "de": "Patrizier-Miederhose",
+      "ja": "\u30d1\u30c8\u30ea\u30b7\u30a2\u30f3\u30dc\u30c8\u30e0",
+      "en": "Patrician's Bottoms"
+    },
+    "level": 50,
+    "difficulty": 186
+  },
+  {
+    "maxQuality": 2641,
+    "durability": 80,
+    "name": {
+      "fr": "Gu\u00eatres de patricien",
+      "de": "Patrizier-Spangenschuhe",
+      "ja": "\u30d1\u30c8\u30ea\u30b7\u30a2\u30f3\u30b2\u30a4\u30bf\u30fc",
+      "en": "Patrician's Gaiters"
+    },
+    "level": 50,
+    "difficulty": 186
+  },
+  {
+    "maxQuality": 2641,
+    "durability": 80,
+    "name": {
+      "fr": "Mini bouquetin",
+      "de": "Steinbock-Stofftier",
+      "ja": "\u30de\u30e1\u30c3\u30c8\u30fb\u30b4\u30fc\u30c8",
+      "en": "Wind-up Aldgoat"
+    },
+    "level": 50,
+    "difficulty": 93
+  },
+  {
+    "maxQuality": 2641,
+    "durability": 80,
+    "name": {
+      "fr": "Qiqirn m\u00e9canique",
+      "de": "Qiqirn-Stofftier",
+      "ja": "\u30de\u30e1\u30c3\u30c8\u30fb\u30ad\u30ad\u30eb\u30f3",
+      "en": "Wind-up Qiqirn"
+    },
+    "level": 50,
+    "difficulty": 93
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 40,
+    "name": {
+      "fr": "Fil de saturnie",
+      "de": "Vanya-Seidenf\u00e4den",
+      "ja": "\u5c71\u7e6d\u7cf8",
+      "en": "Twinthread"
+    },
+    "level": 50,
+    "difficulty": 97
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 40,
+    "name": {
+      "fr": "Toile de jute",
+      "de": "Jutegarn",
+      "ja": "\u30b8\u30e5\u30fc\u30c8\u7e4a\u7dad",
+      "en": "Jute Yarn"
+    },
+    "level": 50,
+    "difficulty": 97
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de milicien",
+      "de": "Miliz-Hut",
+      "ja": "\u30df\u30ea\u30b7\u30a2\u30cf\u30c3\u30c8",
+      "en": "Militia Hat"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau d'agent imp\u00e9rial",
+      "de": "Agenten-Hut",
+      "ja": "\u30aa\u30da\u30ec\u30fc\u30c6\u30a3\u30d6\u30ad\u30e3\u30c3\u30d7",
+      "en": "Imperial Operative Hat"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de paille coronaire",
+      "de": "Koronal-Strohhut",
+      "ja": "\u30b3\u30ed\u30ca\u30eb\u30b9\u30c8\u30ed\u30fc\u30cf\u30c3\u30c8",
+      "en": "Coronal Straw Hat"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Robe de milicien",
+      "de": "Milizrobe",
+      "ja": "\u30df\u30ea\u30b7\u30a2\u30ed\u30fc\u30d6",
+      "en": "Militia Robe"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Dalmatique d'agent imp\u00e9rial",
+      "de": "Agenten-Dalmatika",
+      "ja": "\u30aa\u30da\u30ec\u30fc\u30c6\u30a3\u30d6\u30c0\u30eb\u30de\u30c6\u30a3\u30ab",
+      "en": "Imperial Operative Dalmatica"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Vareuse de marin",
+      "de": "Seemanns-Hemd",
+      "ja": "\u30bb\u30fc\u30e9\u30fc\u30b7\u30e3\u30c4",
+      "en": "Sailor Shirt"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon de milicien",
+      "de": "Miliz-Strumpfhose",
+      "ja": "\u30df\u30ea\u30b7\u30a2\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Militia Trousers"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Collants de milicien",
+      "de": "Miliz-Hose",
+      "ja": "\u30df\u30ea\u30b7\u30a2\u30bf\u30a4\u30c4",
+      "en": "Militia Tights"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Brailles de marin",
+      "de": "Seemanns-Braies",
+      "ja": "\u30bb\u30fc\u30e9\u30fc\u30d6\u30ec\u30fc",
+      "en": "Sailor Brais"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Faluche de menuisier",
+      "de": "Zimmerer-Hut",
+      "ja": "\u30ab\u30fc\u30da\u30f3\u30bf\u30fc\u30d5\u30fc\u30c9",
+      "en": "Carpenter's Hood"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Haut-de-forme de couturier",
+      "de": "Weber-Zylinder",
+      "ja": "\u30a6\u30a3\u30fc\u30d0\u30fc\u30ae\u30d6\u30b9",
+      "en": "Weaver's Gibus"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de cuisinier",
+      "de": "Gourmet-Hut",
+      "ja": "\u30af\u30ea\u30ca\u30ea\u30a2\u30f3\u30cf\u30c3\u30c8",
+      "en": "Culinarian's Hat"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau d'horticulteur des hameaux",
+      "de": "Weiler-G\u00e4rtnerhut",
+      "ja": "\u30ab\u30c3\u30bf\u30fc\u30cf\u30c3\u30c8",
+      "en": "Hamlet Cutter's Hat"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Doublet de menuisier",
+      "de": "Zimmerer-Talar",
+      "ja": "\u30ab\u30fc\u30da\u30f3\u30bf\u30fc\u30ac\u30a6\u30f3",
+      "en": "Carpenter's Gown"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Robe d'armurier",
+      "de": "Plattner-Talar",
+      "ja": "\u30a2\u30fc\u30e2\u30e9\u30fc\u30ac\u30a6\u30f3",
+      "en": "Armorer's Gown"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Doublet d'orf\u00e8vre",
+      "de": "Goldschmied-Wams",
+      "ja": "\u30b4\u30fc\u30eb\u30c9\u30b9\u30df\u30b9\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Goldsmith's Doublet"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Queue-de-pie de couturier",
+      "de": "Weber-Frack",
+      "ja": "\u30a6\u30a3\u30fc\u30d0\u30fc\u30b9\u30ef\u30ed\u30fc\u30c6\u30a4\u30eb",
+      "en": "Weaver's Swallowtail"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Manteau d'alchimiste",
+      "de": "Alchemisten-Mantel",
+      "ja": "\u30a2\u30eb\u30b1\u30df\u30b9\u30c8\u30b3\u30fc\u30c8",
+      "en": "Alchemist's Coat"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Tablier de cuisinier",
+      "de": "Gourmet-Sch\u00fcrze",
+      "ja": "\u30af\u30ea\u30ca\u30ea\u30a2\u30f3\u30a8\u30d7\u30ed\u30f3",
+      "en": "Culinarian's Apron"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Gants d'alchimiste",
+      "de": "Alchemisten-Handschuhe",
+      "ja": "\u30a2\u30eb\u30b1\u30df\u30b9\u30c8\u30b0\u30ed\u30fc\u30d6",
+      "en": "Alchemist's Gloves"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Mitons de cuisinier",
+      "de": "Gourmet-F\u00e4ustlinge",
+      "ja": "\u30af\u30ea\u30ca\u30ea\u30a2\u30f3\u30df\u30c8\u30f3",
+      "en": "Culinarian's Mitts"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Gants de botaniste",
+      "de": "G\u00e4rtner-Handschuhe",
+      "ja": "\u30ab\u30c3\u30bf\u30fc\u30b0\u30ed\u30fc\u30d6",
+      "en": "Botanist's Gloves"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Trousses de forgeron",
+      "de": "Grobschmied-Beinlinge",
+      "ja": "\u30d6\u30e9\u30c3\u30af\u30b9\u30df\u30b9\u30b9\u30ed\u30c3\u30d7",
+      "en": "Blacksmith's Slops"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Trousses d'armurier",
+      "de": "Plattner-Beinlinge",
+      "ja": "\u30a2\u30fc\u30e2\u30e9\u30fc\u30b9\u30ed\u30c3\u30d7",
+      "en": "Armorer's Slops"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon d'orf\u00e8vre",
+      "de": "Goldschmied-Strumpfhose",
+      "ja": "\u30b4\u30fc\u30eb\u30c9\u30b9\u30df\u30b9\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Goldsmith's Trousers"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon de tanneur",
+      "de": "Gerber-Strumpfhose",
+      "ja": "\u30ec\u30b6\u30fc\u30ef\u30fc\u30ab\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Leatherworker's Trousers"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon de couturier",
+      "de": "Weber-Strumpfhose",
+      "ja": "\u30a6\u30a3\u30fc\u30d0\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Weaver's Trousers"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon d'alchimiste",
+      "de": "Alchemisten-Strumpfhose",
+      "ja": "\u30a2\u30eb\u30b1\u30df\u30b9\u30c8\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Alchemist's Trousers"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon de cuisinier",
+      "de": "Gourmet-Strumpfhose",
+      "ja": "\u30af\u30ea\u30ca\u30ea\u30a2\u30f3\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Culinarian's Trousers"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Trousses de botaniste",
+      "de": "G\u00e4rtner-Beinlinge",
+      "ja": "\u30ab\u30c3\u30bf\u30fc\u30b9\u30ed\u30c3\u30d7",
+      "en": "Botanist's Slops"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Gr\u00e8gues de p\u00eacheur",
+      "de": "Fischer-Gaskin",
+      "ja": "\u30d5\u30a3\u30c3\u30b7\u30e3\u30fc\u30ac\u30b9\u30ad\u30f3",
+      "en": "Fisher's Gaskins"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe de soie vanya",
+      "de": "Vanya-Seidenstoff",
+      "ja": "\u5c71\u7e6d\u7d79\u5e03",
+      "en": "Vanya Silk"
+    },
+    "level": 50,
+    "difficulty": 116
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "D\u00e9coupe de chapeau en soie vanya",
+      "de": "Vanya-Seiden-Hutfutter",
+      "ja": "\u5e3d\u5b50\u7d79\u5e03(\u30f4\u30a1\u30f3\u30e4)",
+      "en": "Vanya Silk Hat Lining"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "D\u00e9coupe de robe en soie vanya",
+      "de": "Vanya-Seiden-Robenfutter",
+      "ja": "\u5916\u5957\u7d79\u5e03(\u30f4\u30a1\u30f3\u30e4)",
+      "en": "Vanya Silk Robe Lining"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "D\u00e9coupe de gants en soie vanya",
+      "de": "Vanya-Seiden-Handschuhfutter",
+      "ja": "\u624b\u888b\u7d79\u5e03(\u30f4\u30a1\u30f3\u30e4)",
+      "en": "Vanya Silk Glove Lining"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "D\u00e9coupe de souliers en soie vanya",
+      "de": "Vanya-Seiden-Schuhfutter",
+      "ja": "\u7d79\u5e03\u9774\u4e0b(\u30f4\u30a1\u30f3\u30e4)",
+      "en": "Vanya Silk Crakow Lining"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau d'incantateur en soie vanya",
+      "de": "Vanya-Hut der Magie",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30ad\u30e3\u30b9\u30bf\u30fc\u30cf\u30c3\u30c8",
+      "en": "Vanya Hat of Casting"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de soigneur en soie vanya",
+      "de": "Vanya-Hut der Heilung",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30d2\u30fc\u30e9\u30fc\u30cf\u30c3\u30c8",
+      "en": "Vanya Hat of Healing"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Robe d'incantateur en soie vanya",
+      "de": "Vanya-Robe der Magie",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30ad\u30e3\u30b9\u30bf\u30fc\u30ed\u30fc\u30d6",
+      "en": "Vanya Robe of Casting"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Robe de soigneur en soie vanya",
+      "de": "Vanya-Robe der Heilung",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30d2\u30fc\u30e9\u30fc\u30ed\u30fc\u30d6",
+      "en": "Vanya Robe of Healing"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Pelisse en taffetas",
+      "de": "Taft-Stola",
+      "ja": "\u30bf\u30d5\u30bf\u30b7\u30e7\u30fc\u30eb",
+      "en": "Taffeta Shawl"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Gants d'incantateur en soie vanya",
+      "de": "Vanya-Handschuhe der Magie",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30ad\u30e3\u30b9\u30bf\u30fc\u30b0\u30ed\u30fc\u30d6",
+      "en": "Vanya Gloves of Casting"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Gants de soigneur en soie vanya",
+      "de": "Vanya-Handschuhe der Heilung",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30d2\u30fc\u30e9\u30fc\u30b0\u30ed\u30fc\u30d6",
+      "en": "Vanya Gloves of Healing"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe de soigneur en soie vanya",
+      "de": "Vanya-Sch\u00e4rpe der Heilung",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30d2\u30fc\u30e9\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Vanya Sash of Healing"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe d'incantateur en soie vanya",
+      "de": "Vanya-Sch\u00e4rpe der Magie",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Vanya Sash of Casting"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon en soie vanya",
+      "de": "Vanya-Strumpfhose",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Vanya Trousers"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Braies d'incantateur en soie vanya",
+      "de": "Vanya-Reiterhose der Magie",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ea\u30fc\u30c1",
+      "en": "Vanya Breeches of Casting"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Braies de soigneur en soie vanya",
+      "de": "Vanya-Reiterhose der Heilung",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30d2\u30fc\u30e9\u30fc\u30d6\u30ea\u30fc\u30c1",
+      "en": "Vanya Breeches of Healing"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Pagne en taffetas",
+      "de": "Taft-Schurz",
+      "ja": "\u30bf\u30d5\u30bf\u30ed\u30a4\u30f3\u30af\u30ed\u30b9",
+      "en": "Taffeta Loincloth"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Souliers \u00e0 poulaine en soie vanya",
+      "de": "Vanya-Poulaines",
+      "ja": "\u30f4\u30a1\u30f3\u30e4\u30af\u30e9\u30b3\u30fc",
+      "en": "Vanya Crakows"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de paille printanier",
+      "de": "Fr\u00fchlings-Strohhut",
+      "ja": "\u30b9\u30d7\u30ea\u30f3\u30b0\u30b9\u30c8\u30ed\u30fc\u30cf\u30c3\u30c8",
+      "en": "Spring Straw Hat"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau cloche",
+      "de": "Eleganter Strohhut",
+      "ja": "\u30af\u30ed\u30fc\u30b7\u30e5",
+      "en": "Cloche"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Robe printani\u00e8re",
+      "de": "Fr\u00fchlings-Kleid",
+      "ja": "\u30b9\u30d7\u30ea\u30f3\u30b0\u30c9\u30ec\u30b9",
+      "en": "Spring Dress"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Poignets coronaires",
+      "de": "Koronal-Armb\u00e4nder",
+      "ja": "\u30b3\u30ed\u30ca\u30eb\u30ea\u30b9\u30c8\u30d0\u30f3\u30c9",
+      "en": "Coronal Wristbands"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Jupe printani\u00e8re",
+      "de": "Fr\u00fchlings-Rock",
+      "ja": "\u30b9\u30d7\u30ea\u30f3\u30b0\u30b9\u30ab\u30fc\u30c8",
+      "en": "Spring Skirt"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Jupe longue",
+      "de": "Langer Rock",
+      "ja": "\u30ed\u30f3\u30b0\u30b9\u30ab\u30fc\u30c8",
+      "en": "Plain Long Skirt"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Chaussures d'apparat printani\u00e8res",
+      "de": "Fr\u00fchlings-Gamaschenschuhe",
+      "ja": "\u30b9\u30d7\u30ea\u30f3\u30b0\u30c9\u30ec\u30b9\u30b7\u30e5\u30fc\u30ba",
+      "en": "Spring Dress Shoes"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Coussin moelleux",
+      "de": "Sitzkissen",
+      "ja": "\u3075\u304b\u3075\u304b\u30af\u30c3\u30b7\u30e7\u30f3",
+      "en": "Plush Cushion"
+    },
+    "level": 50,
+    "difficulty": 222
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Ourson de Nanakko",
+      "de": "Nana-Stoffb\u00e4r",
+      "ja": "\u30ca\u30ca\u30c3\u30b3\u30fb\u30d9\u30a2\u30fc",
+      "en": "Nana Bear"
+    },
+    "level": 50,
+    "difficulty": 293
+  },
+  {
+    "maxQuality": 1186,
+    "durability": 80,
+    "name": {
+      "fr": "Rev\u00eatement mural \u00e0 vagues",
+      "de": "Wellen-Tapete",
+      "ja": "\u30a6\u30a7\u30fc\u30d6\u30d1\u30bf\u30fc\u30f3\u30fb\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
+      "en": "Wavy Interior Wall"
+    },
+    "level": 46,
+    "difficulty": 508
+  },
+  {
+    "maxQuality": 1186,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis compos\u00e9 thanalanais",
+      "de": "Oasen-Argyle-Teppich",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a2\u30fc\u30ac\u30a4\u30eb\u30e9\u30b0",
+      "en": "Oasis Argyle Rug"
+    },
+    "level": 46,
+    "difficulty": 508
+  },
+  {
+    "maxQuality": 1210,
+    "durability": 80,
+    "name": {
+      "fr": "Canap\u00e9 thanalanais",
+      "de": "Oasen-Couch",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30ab\u30a6\u30c1",
+      "en": "Oasis Couch"
+    },
+    "level": 47,
+    "difficulty": 534
+  },
+  {
+    "maxQuality": 1262,
+    "durability": 80,
+    "name": {
+      "fr": "Rev\u00eatement mural chocobo",
+      "de": "Chocobo-Tapete",
+      "ja": "\u30c1\u30e7\u30b3\u30dc\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
+      "en": "Chocobo Interior Wall"
+    },
+    "level": 48,
+    "difficulty": 550
+  },
+  {
+    "maxQuality": 1262,
+    "durability": 80,
+    "name": {
+      "fr": "Parquet chocobo",
+      "de": "Chocobo-Boden",
+      "ja": "\u30c1\u30e7\u30b3\u30dc\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0",
+      "en": "Chocobo Flooring"
+    },
+    "level": 48,
+    "difficulty": 550
+  },
+  {
+    "maxQuality": 1275,
+    "durability": 80,
+    "name": {
+      "fr": "Chocobo en peluche",
+      "de": "Stoff-Chocobo",
+      "ja": "\u30c1\u30e7\u30b3\u30dc\u306e\u306c\u3044\u3050\u308b\u307f",
+      "en": "Stuffed Chocobo"
+    },
+    "level": 49,
+    "difficulty": 556
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Lampe tomberry",
+      "de": "Tomberry-Stehlampe",
+      "ja": "\u30c8\u30f3\u30d9\u30ea\u30d5\u30ed\u30a2\u30e9\u30f3\u30d7",
+      "en": "Tonberry Floor Lamp"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Table ronde tomberry",
+      "de": "Tomberry-Rundtisch",
+      "ja": "\u30c8\u30f3\u30d9\u30ea\u30e9\u30a6\u30f3\u30c9\u30c6\u30fc\u30d6\u30eb",
+      "en": "Tonberry Round Table"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Rev\u00eatement mural classique",
+      "de": "Klassische Innenwand",
+      "ja": "\u30af\u30e9\u30b7\u30c3\u30af\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
+      "en": "Classic Interior Wall"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Lit tomberry",
+      "de": "Tomberry-Bett",
+      "ja": "\u30c8\u30f3\u30d9\u30ea\u30d9\u30c3\u30c9",
+      "en": "Tonberry Bed"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Table \u00e0 manger tomberry",
+      "de": "Tomberry-Esstisch",
+      "ja": "\u30c8\u30f3\u30d9\u30ea\u30c0\u30a4\u30cb\u30f3\u30b0\u30c6\u30fc\u30d6\u30eb",
+      "en": "Tonberry Dining Table"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Tatami",
+      "de": "Tatami-Matte",
+      "ja": "\u30bf\u30bf\u30df\u30de\u30c3\u30c8",
+      "en": "Tatami Mat"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis ovale tomberry",
+      "de": "Tomberry-Ovalteppich",
+      "ja": "\u30c8\u30f3\u30d9\u30ea\u30aa\u30fc\u30d0\u30eb\u30e9\u30b0",
+      "en": "Tonberry Oval Rug"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis carr\u00e9 tomberry",
+      "de": "Quadratischer Tomberry-Teppich",
+      "ja": "\u30c8\u30f3\u30d9\u30ea\u30b9\u30af\u30a8\u30a2\u30e9\u30b0",
+      "en": "Tonberry Square Rug"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Toit de villa en bois sombrelin\u00e7oise",
+      "de": "Wald-Holzresidenzdach",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a6\u30c3\u30c9\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30eb\u30fc\u30d5",
+      "en": "Glade Mansion Roof (Wood)"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1323,
+    "durability": 80,
+    "name": {
+      "fr": "Toit de villa en pierre sombrelin\u00e7oise",
+      "de": "Wald-Steinresidenzdach",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b9\u30c8\u30fc\u30f3\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30eb\u30fc\u30d5",
+      "en": "Glade Mansion Roof (Stone)"
+    },
+    "level": 50,
+    "difficulty": 624
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Fauteuil des mers du sud",
+      "de": "S\u00fcdsee-Sofa",
+      "ja": "\u30b5\u30b6\u30f3\u30bd\u30d5\u30a1",
+      "en": "South Seas Armchair"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Coussin nosc\u00e9en",
+      "de": "Riviera-Kissen",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30af\u30c3\u30b7\u30e7\u30f3",
+      "en": "Riviera Cushion"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Coussin sombrelin\u00e7ois",
+      "de": "Wald-Kissen",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30af\u30c3\u30b7\u30e7\u30f3",
+      "en": "Glade Cushion"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Coussin thanalanais",
+      "de": "Oasen-Kissen",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30af\u30c3\u30b7\u30e7\u30f3",
+      "en": "Oasis Cushion"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Mog en peluche",
+      "de": "Stoff-Mogry",
+      "ja": "\u30e2\u30fc\u30b0\u30ea\u306e\u306c\u3044\u3050\u308b\u307f",
+      "en": "Stuffed Moogle"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Rev\u00eatement mural mog",
+      "de": "Mogry-Tapete",
+      "ja": "\u30e2\u30fc\u30b0\u30ea\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
+      "en": "Moogle Interior Wall"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Parquet mog",
+      "de": "Mogry-Boden",
+      "ja": "\u30e2\u30fc\u30b0\u30ea\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0",
+      "en": "Moogle Flooring"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Sol en tatami",
+      "de": "Tatami-Fu\u00dfboden",
+      "ja": "\u30bf\u30bf\u30df\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0",
+      "en": "Tatami Flooring"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Canap\u00e9 des mers du sud",
+      "de": "S\u00fcdsee-Couch",
+      "ja": "\u30b5\u30b6\u30f3\u30ab\u30a6\u30c1",
+      "en": "South Seas Couch"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Lit de plume double",
+      "de": "Doppelfederbett",
+      "ja": "\u30c0\u30d6\u30eb\u30d5\u30a7\u30b6\u30fc\u30d9\u30c3\u30c9",
+      "en": "Double Feather Bed"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 1460,
+    "durability": 80,
+    "name": {
+      "fr": "Tapis mog moelleux",
+      "de": "Mogry-Teppich",
+      "ja": "\u30e2\u30b0\u30e2\u30b0\u30e9\u30b0",
+      "en": "Moogle Rug"
+    },
+    "level": 50,
+    "difficulty": 745
+  },
+  {
+    "maxQuality": 2490,
+    "durability": 80,
+    "name": {
+      "fr": "Table ronde Carbuncle",
+      "de": "Karfunkel-Rundtisch",
+      "ja": "\u30ab\u30fc\u30d0\u30f3\u30af\u30eb\u30e9\u30a6\u30f3\u30c9\u30c6\u30fc\u30d6\u30eb",
+      "en": "Carbuncle Round Table"
+    },
+    "level": 50,
+    "difficulty": 1424
+  },
+  {
+    "maxQuality": 2490,
+    "durability": 80,
+    "name": {
+      "fr": "Grand paillasson",
+      "de": "Gro\u00dfe Fu\u00dfmatte",
+      "ja": "\u30e9\u30fc\u30b8\u30de\u30c3\u30c8",
+      "en": "Large Woven Rug"
+    },
+    "level": 50,
+    "difficulty": 1424
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de chasseur de loup",
+      "de": "Wolf-F\u00f6rsterhut",
+      "ja": "\u30a6\u30eb\u30d5\u30ec\u30f3\u30b8\u30e3\u30fc\u30cf\u30c3\u30c8",
+      "en": "Wolf Ranger's Hat"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de cavalier de loup",
+      "de": "Wolf-Kavaliershut",
+      "ja": "\u30a6\u30eb\u30d5\u30ad\u30e3\u30d0\u30ea\u30a8\u30cf\u30c3\u30c8",
+      "en": "Wolf Cavalier's Hat"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de loup",
+      "de": "Wolf-Hut",
+      "ja": "\u30a6\u30eb\u30d5\u30cf\u30c3\u30c8",
+      "en": "Wolf Hat"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Tunique de loup",
+      "de": "Wolf-Tunika",
+      "ja": "\u30a6\u30eb\u30d5\u30c1\u30e5\u30cb\u30c3\u30af",
+      "en": "Wolf Tunic"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Bliaud de loup",
+      "de": "Wolf-Bliaud",
+      "ja": "\u30a6\u30eb\u30d5\u30d6\u30ea\u30aa\u30fc",
+      "en": "Wolf Bliaud"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Robe de loup",
+      "de": "Wolf-Robe",
+      "ja": "\u30a6\u30eb\u30d5\u30ed\u30fc\u30d6",
+      "en": "Wolf Robe"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Brassi\u00e8res de loup",
+      "de": "Wolf-Armschienen",
+      "ja": "\u30a6\u30eb\u30d5\u30d6\u30ec\u30fc\u30b5\u30fc",
+      "en": "Wolf Bracers"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Gants d'apparat de loup",
+      "de": "Wolf-Galahandschuhe",
+      "ja": "\u30a6\u30eb\u30d5\u30c9\u30ec\u30b9\u30b0\u30ed\u30fc\u30d6",
+      "en": "Wolf Dress Gloves"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe de loup",
+      "de": "Wolf-Sch\u00e4rpe",
+      "ja": "\u30a6\u30eb\u30d5\u30b5\u30c3\u30b7\u30e5",
+      "en": "Wolf Sash"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon de loup",
+      "de": "Wolf-Hose",
+      "ja": "\u30a6\u30eb\u30d5\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Wolf Trousers"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "B\u00e9nard de loup",
+      "de": "Wolf-Kecks",
+      "ja": "\u30a6\u30eb\u30d5\u30b1\u30af\u30b9",
+      "en": "Wolf Kecks"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Gr\u00e8gues de loup",
+      "de": "Wolf-Gaskin",
+      "ja": "\u30a6\u30eb\u30d5\u30ac\u30b9\u30ad\u30f3",
+      "en": "Wolf Gaskins"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Collants de loup",
+      "de": "Wolf-Strumpfhose",
+      "ja": "\u30a6\u30eb\u30d5\u30bf\u30a4\u30c4",
+      "en": "Wolf Tights"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Chaussures d'apparat de loup",
+      "de": "Wolf-Galaschuhe",
+      "ja": "\u30a6\u30eb\u30d5\u30c9\u30ec\u30b9\u30b7\u30e5\u30fc\u30ba",
+      "en": "Wolf Dress Shoes"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Capeline \u00e0 hibiscus perle",
+      "de": "Perlen-Rosellen-Sommerhut",
+      "ja": "\u30d1\u30fc\u30eb\u30ed\u30fc\u30bc\u30eb\u30fb\u30b9\u30c8\u30ed\u30fc\u30ad\u30e3\u30da\u30ea\u30f3",
+      "en": "Pearl Roselle Capeline"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 2646,
+    "durability": 80,
+    "name": {
+      "fr": "Capeline",
+      "de": "Stroh-Sommerhut",
+      "ja": "\u30b9\u30c8\u30ed\u30fc\u30ad\u30e3\u30da\u30ea\u30f3",
+      "en": "Straw Capeline"
+    },
+    "level": 50,
+    "difficulty": 195
+  },
+  {
+    "maxQuality": 5257,
+    "durability": 80,
+    "name": {
+      "fr": "Brocart en argent",
+      "de": "Silberbrokat",
+      "ja": "\u30b7\u30eb\u30d0\u30fc\u30d6\u30ed\u30b1\u30fc\u30c9",
+      "en": "Silver Brocade"
+    },
+    "level": 50,
+    "difficulty": 419
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Kit de r\u00e9paration d'a\u00e9ronef",
+      "de": "Luftschiff-Reparaturkit",
+      "ja": "\u98db\u7a7a\u8247\u4fee\u7406\u6750",
+      "en": "Airship Repair Materials"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Bonnet \u00e0 pompon du croissant de lune",
+      "de": "Mondsichel-Spitzkappe",
+      "ja": "\u30af\u30ec\u30bb\u30f3\u30c8\u30b3\u30fc\u30f3\u30ad\u30e3\u30c3\u30d7",
+      "en": "Crescent Moon Cone"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Bonnet de nuit du croissant de lune",
+      "de": "Mondsichel-Nachtkappe",
+      "ja": "\u30af\u30ec\u30bb\u30f3\u30c8\u30ca\u30a4\u30c8\u30ad\u30e3\u30c3\u30d7",
+      "en": "Crescent Moon Nightcap"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise de nuit du croissant de lune",
+      "de": "Mondsichel-Nachttalar",
+      "ja": "\u30af\u30ec\u30bb\u30f3\u30c8\u30ac\u30a6\u30f3",
+      "en": "Crescent Moon Nightgown"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Veste de t\u00e9moin",
+      "de": "Trauzeugen-Jacke",
+      "ja": "\u30d9\u30b9\u30c8\u30de\u30f3\u30b8\u30e3\u30b1\u30c3\u30c8",
+      "en": "Best Man's Jacket"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Robe de demoiselle d'honneur",
+      "de": "Trauzeugin-Kleid",
+      "ja": "\u30d6\u30e9\u30a4\u30ba\u30e1\u30a4\u30c9\u30c9\u30ec\u30b9",
+      "en": "Bridesmaid's Dress"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon de nuit du croissant de lune",
+      "de": "Mondsichel-Kniebundhose",
+      "ja": "\u30af\u30ec\u30bb\u30f3\u30c8\u30ad\u30e5\u30ed\u30c3\u30c8",
+      "en": "Crescent Moon Bottoms"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Pantalon de t\u00e9moin",
+      "de": "Trauzeugen-Hose",
+      "ja": "\u30d9\u30b9\u30c8\u30de\u30f3\u30b9\u30e9\u30c3\u30af\u30b9",
+      "en": "Best Man's Slacks"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Collants de demoiselle d'honneur",
+      "de": "Trauzeugin-Strumpfhose",
+      "ja": "\u30d6\u30e9\u30a4\u30ba\u30e1\u30a4\u30c9\u30bf\u30a4\u30c4",
+      "en": "Bridesmaid's Tights"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 2921,
+    "durability": 80,
+    "name": {
+      "fr": "Pantoufles du croissant de lune",
+      "de": "Mondsichel-Latschen",
+      "ja": "\u30af\u30ec\u30bb\u30f3\u30c8\u30b9\u30ea\u30c3\u30d1",
+      "en": "Crescent Moon Slippers"
+    },
+    "level": 50,
+    "difficulty": 233
+  },
+  {
+    "maxQuality": 8964,
+    "durability": 80,
+    "name": {
+      "fr": "Brocart fin en argent",
+      "de": "Edelsilberbrokat",
+      "ja": "\u9ad8\u7d1a\u30b7\u30eb\u30d0\u30fc\u30d6\u30ed\u30b1\u30fc\u30c9",
+      "en": "Intricate Silver Brocade"
+    },
+    "level": 50,
+    "difficulty": 801
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 40,
+    "name": {
+      "fr": "Camelot",
+      "de": "Camlet-Stoff",
+      "ja": "\u30ad\u30e3\u30e0\u30ec\u30c3\u30c8",
+      "en": "Camlet"
+    },
+    "level": 50,
+    "difficulty": 222
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9toffe de cachemire",
+      "de": "Kaschmir",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u7e54\u7269",
+      "en": "Cashmere Cloth"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9toffe antique parfaite",
+      "de": "Hochwertiger Antikstoff",
+      "ja": "\u4e0a\u8cea\u306a\u53e4\u5e03",
+      "en": "Perfect Cloth"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de chasseur en cachemire",
+      "de": "Kaschmir-Hut des Zielens",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30ec\u30f3\u30b8\u30e3\u30fc\u30cf\u30c3\u30c8",
+      "en": "Cashmere Hat of Aiming"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau d'incantateur en cachemire",
+      "de": "Kaschmir-Hut der Magie",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30ad\u30e3\u30b9\u30bf\u30fc\u30cf\u30c3\u30c8",
+      "en": "Cashmere Hat of Casting"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Robe d'incantateur en cachemire",
+      "de": "Kaschmir-Robe der Magie",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30ad\u30e3\u30b9\u30bf\u30fc\u30ed\u30fc\u30d6",
+      "en": "Cashmere Robe of Casting"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Robe de soigneur en cachemire",
+      "de": "Kaschmir-Robe der Heilung",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30d2\u30fc\u30e9\u30fc\u30ed\u30fc\u30d6",
+      "en": "Cashmere Robe of Healing"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Jupe d'agresseur en cachemire",
+      "de": "Kaschmir-Rock des Schlagens",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b9\u30ab\u30fc\u30c8",
+      "en": "Cashmere Skirt of Striking"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Jupe de pisteur en cachemire",
+      "de": "Kaschmir-Rock des Zielens",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30ec\u30f3\u30b8\u30e3\u30fc\u30b9\u30ab\u30fc\u30c8",
+      "en": "Cashmere Skirt of Aiming"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Braies d'incantateur en cachemire",
+      "de": "Kaschmir-Reiterhose der Magie",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ea\u30fc\u30c1",
+      "en": "Cashmere Breeches of Casting"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 4980,
+    "durability": 80,
+    "name": {
+      "fr": "Jupe de soigneur en cachemire",
+      "de": "Kaschmir-Rock der Heilung",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30d2\u30fc\u30e9\u30fc\u30b9\u30ab\u30fc\u30c8",
+      "en": "Cashmere Skirt of Healing"
+    },
+    "level": 50,
+    "difficulty": 445
+  },
+  {
+    "maxQuality": 3735,
+    "durability": 80,
+    "name": {
+      "fr": "Robe d'incantateur en cachemire modifi\u00e9e",
+      "de": "Modifizierte Kaschmir-Robe der Magie",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30ad\u30e3\u30b9\u30bf\u30fc\u30ed\u30fc\u30d6RE",
+      "en": "Augmented Cashmere Robe of Casting"
+    },
+    "level": 50,
+    "difficulty": 667
+  },
+  {
+    "maxQuality": 3735,
+    "durability": 80,
+    "name": {
+      "fr": "Robe de soigneur en cachemire modifi\u00e9e",
+      "de": "Modifizierte Kaschmir-Robe der Heilung",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30d2\u30fc\u30e9\u30fc\u30ed\u30fc\u30d6RE",
+      "en": "Augmented Cashmere Robe of Healing"
+    },
+    "level": 50,
+    "difficulty": 667
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Veloutine d'Arachne",
+      "de": "Arachne-Samt",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30d9\u30eb\u30d9\u30c6\u30a3\u30fc\u30f3",
+      "en": "Arachne Velveteen"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Bandana Arachne d'agresseur",
+      "de": "Arachne-Bandana des Schlagens",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d0\u30f3\u30c0\u30ca",
+      "en": "Arachne Bandana of Striking"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Bandana Arachne d'\u00e9claireur",
+      "de": "Arachne-Bandana des Sp\u00e4hens",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30b9\u30ab\u30a6\u30c8\u30d0\u30f3\u30c0\u30ca",
+      "en": "Arachne Bandana of Scouting"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise Arachne d'agresseur",
+      "de": "Arachne-Hemd des Schlagens",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b7\u30e3\u30c4",
+      "en": "Arachne Shirt of Striking"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise Arachne d'\u00e9claireur",
+      "de": "Arachne-Hemd des Sp\u00e4hens",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30b9\u30ab\u30a6\u30c8\u30b7\u30e3\u30c4",
+      "en": "Arachne Shirt of Scouting"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Bol\u00e9ro Arachne",
+      "de": "Arachne-Bolero",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30dc\u30ec\u30ed",
+      "en": "Arachne Bolero"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Robe Arachne",
+      "de": "Arachne-Robe",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30ed\u30fc\u30d6",
+      "en": "Arachne Robe"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Tablier de fa\u00e7onnier",
+      "de": "Kunsthandwerker-Sch\u00fcrze",
+      "ja": "\u30a2\u30fc\u30c6\u30a3\u30b6\u30f3\u30a8\u30d7\u30ed\u30f3",
+      "en": "Artisan's Apron"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Gilet de glaneur",
+      "de": "Furier-Weste",
+      "ja": "\u30d5\u30a9\u30ea\u30b8\u30e3\u30fc\u30d9\u30b9\u30c8",
+      "en": "Forager's Vest"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Bandages de mains Arachne d'agresseur",
+      "de": "Arachne-Handwickel des Schlagens",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d0\u30f3\u30c7\u30fc\u30b8",
+      "en": "Arachne Field Dressing of Striking"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Bandages de mains Arachne d'\u00e9claireur",
+      "de": "Arachne-Handwickel des Sp\u00e4hens",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30b9\u30ab\u30a6\u30c8\u30d0\u30f3\u30c7\u30fc\u30b8",
+      "en": "Arachne Field Dressing of Scouting"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe Arachne",
+      "de": "Arachne-Sch\u00e4rpe",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30b5\u30c3\u30b7\u30e5",
+      "en": "Arachne Sash"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Gr\u00e8gues Arachne d'agresseur",
+      "de": "Arachne-Gaskin des Schlagens",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ac\u30b9\u30ad\u30f3",
+      "en": "Arachne Gaskins of Striking"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Gr\u00e8gues Arachne d'\u00e9claireur",
+      "de": "Arachne-Gaskin des Sp\u00e4hens",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30b9\u30ab\u30a6\u30c8\u30ac\u30b9\u30ad\u30f3",
+      "en": "Arachne Gaskins of Scouting"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Culotte Arachne d'incantateur",
+      "de": "Arachne-Kniebundhose der Magie",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30ad\u30e3\u30b9\u30bf\u30fc\u30ad\u30e5\u30ed\u30c3\u30c8",
+      "en": "Arachne Culottes of Casting"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Culotte Arachne de soigneur",
+      "de": "Arachne-Kniebundhose der Heilung",
+      "ja": "\u30a2\u30e9\u30af\u30cd\u30d2\u30fc\u30e9\u30fc\u30ad\u30e5\u30ed\u30c3\u30c8",
+      "en": "Arachne Culottes of Healing"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Culotte de fa\u00e7onnier",
+      "de": "Kunsthandwerker-Kniebundhose",
+      "ja": "\u30a2\u30fc\u30c6\u30a3\u30b6\u30f3\u30ad\u30e5\u30ed\u30c3\u30c8",
+      "en": "Artisan's Culottes"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Trousses de glaneur",
+      "de": "Furier-Beinlinge",
+      "ja": "\u30d5\u30a9\u30ea\u30b8\u30e3\u30fc\u30b9\u30ed\u30c3\u30d7",
+      "en": "Forager's Slops"
+    },
+    "level": 50,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe arc-en-ciel",
+      "de": "Regenbogenstoff",
+      "ja": "\u8679\u5e03",
+      "en": "Rainbow Cloth"
+    },
+    "level": 51,
+    "difficulty": 169
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 40,
+    "name": {
+      "fr": "Fil arc-en-ciel",
+      "de": "Regenbogenfaden",
+      "ja": "\u8679\u7cf8",
+      "en": "Rainbow Thread"
+    },
+    "level": 51,
+    "difficulty": 169
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 80,
+    "name": {
+      "fr": "Bonnet-tricorne de pisteur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Kappe des Zielens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ad\u30e3\u30c3\u30d7",
+      "en": "Rainbow Cap of Aiming"
+    },
+    "level": 51,
+    "difficulty": 339
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 80,
+    "name": {
+      "fr": "Coiffe d'\u00e9claireur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Bundhaube des Sp\u00e4hens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30b3\u30a4\u30d5",
+      "en": "Rainbow Coif of Scouting"
+    },
+    "level": 51,
+    "difficulty": 339
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 80,
+    "name": {
+      "fr": "Bonnet-tricorne d'incantateur en \u00e9toffe arc-en-ciel",
+      "de": "Heilige Regenbogen-Kappe der Magie",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30ad\u30e3\u30c3\u30d7",
+      "en": "Holy Rainbow Cap of Casting"
+    },
+    "level": 51,
+    "difficulty": 339
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 80,
+    "name": {
+      "fr": "Bonnet-tricorne de soigneur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Kappe der Heilung",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30ad\u30e3\u30c3\u30d7",
+      "en": "Rainbow Cap of Healing"
+    },
+    "level": 51,
+    "difficulty": 339
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 80,
+    "name": {
+      "fr": "Mitaines d'\u00e9claireur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Kurzfingerhandschuhe des Sp\u00e4hens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6",
+      "en": "Rainbow Halfgloves of Scouting"
+    },
+    "level": 51,
+    "difficulty": 339
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe de pisteur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Sch\u00e4rpe des Zielens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Rainbow Sash of Aiming"
+    },
+    "level": 51,
+    "difficulty": 339
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe d'\u00e9claireur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Sch\u00e4rpe des Sp\u00e4hens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30b5\u30c3\u30b7\u30e5",
+      "en": "Rainbow Sash of Scouting"
+    },
+    "level": 51,
+    "difficulty": 339
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe d'incantateur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Sch\u00e4rpe der Magie",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Rainbow Sash of Casting"
+    },
+    "level": 51,
+    "difficulty": 339
+  },
+  {
+    "maxQuality": 3951,
+    "durability": 80,
+    "name": {
+      "fr": "\u00c9charpe de soigneur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Sch\u00e4rpe der Heilung",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Rainbow Sash of Healing"
+    },
+    "level": 51,
+    "difficulty": 339
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Bol\u00e9ro d'agresseur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Bolero des Schlagens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30dc\u30ec\u30ed",
+      "en": "Rainbow Bolero of Striking"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Robe de pisteur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Robe des Zielens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ed\u30fc\u30d6",
+      "en": "Rainbow Robe of Aiming"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise d'\u00e9claireur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Hemd des Sp\u00e4hens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30b7\u30e3\u30c4",
+      "en": "Rainbow Shirt of Scouting"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Robe d'incantateur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Robe der Magie",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30ed\u30fc\u30d6",
+      "en": "Rainbow Robe of Casting"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Robe de soigneur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Robe der Heilung",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30ed\u30fc\u30d6",
+      "en": "Rainbow Robe of Healing"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Culotte d'agresseur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Kniebundhose des Schlagens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ad\u30e5\u30ed\u30c3\u30c8",
+      "en": "Rainbow Culottes of Striking"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Trousses de pisteur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Beinlinge des Zielens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b9\u30ed\u30c3\u30d7",
+      "en": "Rainbow Slops of Aiming"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual d'\u00e9claireur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Sarouel des Sp\u00e4hens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30b5\u30eb\u30a8\u30eb",
+      "en": "Rainbow Sarouel of Scouting"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Trousses d'incantateur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Beinlinge der Magie",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b9\u30ed\u30c3\u30d7",
+      "en": "Rainbow Slops of Casting"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Trousses de soigneur en \u00e9toffe arc-en-ciel ",
+      "de": "Regenbogen-Beinlinge der Heilung",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30b9\u30ed\u30c3\u30d7",
+      "en": "Rainbow Slops of Healing"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban d'attaquant en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Schleife des Schlachtens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30a2\u30bf\u30c3\u30af",
+      "en": "Rainbow Ribbon of Slaying"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban de pisteur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Schleife des Zielens",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30ec\u30f3\u30b8",
+      "en": "Rainbow Ribbon of Aiming"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban d'incantateur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Schleife der Magie",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30ad\u30e3\u30b9\u30c8",
+      "en": "Rainbow Ribbon of Casting"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban de soigneur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Schleife der Heilung",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30d2\u30fc\u30eb",
+      "en": "Rainbow Ribbon of Healing"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 4561,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban de protecteur en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Schleife der Verteidigung",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30b9",
+      "en": "Rainbow Ribbon of Fending"
+    },
+    "level": 51,
+    "difficulty": 421
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliger Regenbogenstoff",
+      "ja": "\u8056\u8679\u5e03",
+      "en": "Holy Rainbow Cloth"
+    },
+    "level": 52,
+    "difficulty": 251
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de pisteur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliger Regenbogen-Hut des Zielens",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30cf\u30c3\u30c8",
+      "en": "Holy Rainbow Hat of Aiming"
+    },
+    "level": 52,
+    "difficulty": 503
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 80,
+    "name": {
+      "fr": "Foulard d'\u00e9claireur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliger Regenbogen-Schal des Sp\u00e4hens",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30b9\u30ab\u30a6\u30c8\u30b9\u30ab\u30fc\u30d5",
+      "en": "Holy Rainbow Scarf of Scouting"
+    },
+    "level": 52,
+    "difficulty": 503
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual d'abatteur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heilige Regenbogen-Sarouel des Verst\u00fcmmelns",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b5\u30eb\u30a8\u30eb",
+      "en": "Holy Rainbow Sarouel of Maiming"
+    },
+    "level": 52,
+    "difficulty": 503
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual d'agresseur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heilige Regenbogen-Sarouel des Schlagens",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b5\u30eb\u30a8\u30eb",
+      "en": "Holy Rainbow Sarouel of Striking"
+    },
+    "level": 52,
+    "difficulty": 503
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual de pisteur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heilige Regenbogen-Sarouel des Zielens",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b5\u30eb\u30a8\u30eb",
+      "en": "Holy Rainbow Sarouel of Aiming"
+    },
+    "level": 52,
+    "difficulty": 503
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual d'\u00e9claireur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heilige Regenbogen-Sarouel des Sp\u00e4hens",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30b9\u30ab\u30a6\u30c8\u30b5\u30eb\u30a8\u30eb",
+      "en": "Holy Rainbow Sarouel of Scouting"
+    },
+    "level": 52,
+    "difficulty": 503
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual d'incantateur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heilige Regenbogen-Sarouel der Magie",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30eb\u30a8\u30eb",
+      "en": "Holy Rainbow Sarouel of Casting"
+    },
+    "level": 52,
+    "difficulty": 503
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual de soigneur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heilige Regenbogen-Sarouel der Heilung",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30d2\u30fc\u30e9\u30fc\u30b5\u30eb\u30a8\u30eb",
+      "en": "Holy Rainbow Sarouel of Healing"
+    },
+    "level": 52,
+    "difficulty": 503
+  },
+  {
+    "maxQuality": 5172,
+    "durability": 80,
+    "name": {
+      "fr": "Saroual de protecteur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heilige Regenbogen-Sarouel der Verteidigung",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30eb\u30a8\u30eb",
+      "en": "Holy Rainbow Sarouel of Fending"
+    },
+    "level": 52,
+    "difficulty": 503
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Calot en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Schiffchen",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30a6\u30a7\u30c3\u30b8\u30ad\u30e3\u30c3\u30d7",
+      "en": "Rainbow Wedge Cap"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de paille en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Strohhut",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30c8\u30ed\u30fc\u30cf\u30c3\u30c8",
+      "en": "Rainbow Hat"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise d'abatteur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliges Regenbogen-Hemd des Verst\u00fcmmelns",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b7\u30e3\u30c4",
+      "en": "Holy Rainbow Shirt of Maiming"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise d'agresseur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliges Regenbogen-Hemd des Schlagens",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b7\u30e3\u30c4",
+      "en": "Holy Rainbow Shirt of Striking"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise de pisteur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliges Regenbogen-Hemd des Zielens",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b7\u30e3\u30c4",
+      "en": "Holy Rainbow Shirt of Aiming"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise d'\u00e9claireur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliges Regenbogen-Hemd des Sp\u00e4hens",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30b9\u30ab\u30a6\u30c8\u30b7\u30e3\u30c4",
+      "en": "Holy Rainbow Shirt of Scouting"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise d'incantateur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliges Regenbogen-Hemd der Magie",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b7\u30e3\u30c4",
+      "en": "Holy Rainbow Shirt of Casting"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise de soigneur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliges Regenbogen-Hemd der Heilung",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30d2\u30fc\u30e9\u30fc\u30b7\u30e3\u30c4",
+      "en": "Holy Rainbow Shirt of Healing"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Chemise de protecteur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliges Regenbogen-Hemd der Verteidigung",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b7\u30e3\u30c4",
+      "en": "Holy Rainbow Shirt of Fending"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Gants d'apparat en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Handschuhe",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30c9\u30ec\u30b9\u30b0\u30ed\u30fc\u30d6",
+      "en": "Rainbow Gloves"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Gants de travail en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Arbeitshandschuhe",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ef\u30fc\u30af\u30b0\u30ed\u30fc\u30d6",
+      "en": "Rainbow Work Gloves"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 40,
+    "name": {
+      "fr": "\u00c9toffe de ramie",
+      "de": "Ramienstoff",
+      "ja": "\u9752\u9ebb\u5e03",
+      "en": "Ramie Cloth"
+    },
+    "level": 54,
+    "difficulty": 320
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 40,
+    "name": {
+      "fr": "Fil de ramie",
+      "de": "Ramienfaden",
+      "ja": "\u9752\u9ebb\u7cf8",
+      "en": "Ramie Thread"
+    },
+    "level": 54,
+    "difficulty": 320
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Chapeau de soigneur en \u00e9toffe arc-en-ciel sacr\u00e9e",
+      "de": "Heiliger Regenbogen-Hut der Heilung",
+      "ja": "\u30db\u30fc\u30ea\u30fc\u30ec\u30a4\u30f3\u30dc\u30fc\u30fb\u30d2\u30fc\u30e9\u30fc\u30cf\u30c3\u30c8",
+      "en": "Holy Rainbow Hat of Healing"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Bol\u00e9ro en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Spenzer",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30b3\u30fc\u30c6\u30a3\u30fc",
+      "en": "Rainbow Coatee"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Mitaines d'incantateur en ramie",
+      "de": "Ramien-Kurzfingerhandschuhe der Magie",
+      "ja": "\u30e9\u30df\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6",
+      "en": "Ramie Halfgloves of Casting"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Mitaines de soigneur en ramie",
+      "de": "Ramien-Kurzfingerhandschuhe der Heilung",
+      "ja": "\u30e9\u30df\u30fc\u30fb\u30d2\u30fc\u30e9\u30fc\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6",
+      "en": "Ramie Halfgloves of Healing"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Tablier en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Sch\u00fcrze",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30a8\u30d7\u30ed\u30f3",
+      "en": "Rainbow Apron"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Bas-de-corps en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Hose",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30dc\u30c8\u30e0",
+      "en": "Rainbow Bottoms"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Chaussures d'apparat des cr\u00e9ations en \u00e9toffe arc-en-ciel",
+      "de": "Regenbogen-Schuhe",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30c9\u30ec\u30b9\u30b7\u30e5\u30fc\u30ba",
+      "en": "Rainbow Shoes"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban d'attaquant en ramie",
+      "de": "Ramien-Schleife des Schlachtens",
+      "ja": "\u30e9\u30df\u30fc\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30a2\u30bf\u30c3\u30af",
+      "en": "Ramie Ribbon of Slaying"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban de pisteur en ramie",
+      "de": "Ramien-Schleife des Zielens",
+      "ja": "\u30e9\u30df\u30fc\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30ec\u30f3\u30b8",
+      "en": "Ramie Ribbon of Aiming"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban d'incantateur en ramie",
+      "de": "Ramien-Schleife der Magie",
+      "ja": "\u30e9\u30df\u30fc\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30ad\u30e3\u30b9\u30c8",
+      "en": "Ramie Ribbon of Casting"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban de soigneur en ramie",
+      "de": "Ramien-Schleife der Heilung",
+      "ja": "\u30e9\u30df\u30fc\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30d2\u30fc\u30eb",
+      "en": "Ramie Ribbon of Healing"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6042,
+    "durability": 80,
+    "name": {
+      "fr": "Ruban de protecteur en ramie",
+      "de": "Ramien-Schleife der Verteidigung",
+      "ja": "\u30e9\u30df\u30fc\u30ea\u30dc\u30f3\u30fb\u30aa\u30d6\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30b9",
+      "en": "Ramie Ribbon of Fending"
+    },
+    "level": 54,
+    "difficulty": 641
+  },
+  {
+    "maxQuality": 6301,
+    "durability": 70,
+    "name": {
+      "fr": "Turban des cr\u00e9ations en ramie",
+      "de": "Ramien-Turban des Handwerks",
+      "ja": "\u30e9\u30df\u30fc\u30af\u30e9\u30d5\u30bf\u30fc\u30bf\u30fc\u30d0\u30f3",
+      "en": "Ramie Turban of Crafting"
+    },
+    "level": 55,
+    "difficulty": 697
+  },
+  {
+    "maxQuality": 6301,
+    "durability": 70,
+    "name": {
+      "fr": "Robe d'incantateur en ramie",
+      "de": "Ramien-Robe der Magie",
+      "ja": "\u30e9\u30df\u30fc\u30ad\u30e3\u30b9\u30bf\u30fc\u30ed\u30fc\u30d6",
+      "en": "Ramie Robe of Casting"
+    },
+    "level": 55,
+    "difficulty": 697
+  },
+  {
+    "maxQuality": 6301,
+    "durability": 70,
+    "name": {
+      "fr": "Robe de soigneur en ramie",
+      "de": "Ramien-Robe der Heilung",
+      "ja": "\u30e9\u30df\u30fc\u30d2\u30fc\u30e9\u30fc\u30ed\u30fc\u30d6",
+      "en": "Ramie Robe of Healing"
+    },
+    "level": 55,
+    "difficulty": 697
+  },
+  {
+    "maxQuality": 6301,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon d'agresseur en ramie",
+      "de": "Ramien-Reiterhose des Schlagens",
+      "ja": "\u30e9\u30df\u30fc\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Ramie Trousers of Striking"
+    },
+    "level": 55,
+    "difficulty": 697
+  },
+  {
+    "maxQuality": 6301,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon de pisteur en ramie",
+      "de": "Ramien-Hose des Zielens",
+      "ja": "\u30e9\u30df\u30fc\u30ec\u30f3\u30b8\u30e3\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Ramie Trousers of Aiming"
+    },
+    "level": 55,
+    "difficulty": 697
+  },
+  {
+    "maxQuality": 6301,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon d'\u00e9claireur en ramie",
+      "de": "Ramien-Hose des Sp\u00e4hens",
+      "ja": "\u30e9\u30df\u30fc\u30b9\u30ab\u30a6\u30c8\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Ramie Trousers of Scouting"
+    },
+    "level": 55,
+    "difficulty": 697
+  },
+  {
+    "maxQuality": 6301,
+    "durability": 70,
+    "name": {
+      "fr": "Tomban d'incantateur en ramie",
+      "de": "Ramien-Tonban der Magie",
+      "ja": "\u30e9\u30df\u30fc\u30ad\u30e3\u30b9\u30bf\u30fc\u30c8\u30f3\u30d0\u30f3",
+      "en": "Ramie Tonban of Casting"
+    },
+    "level": 55,
+    "difficulty": 697
+  },
+  {
+    "maxQuality": 6301,
+    "durability": 70,
+    "name": {
+      "fr": "Tomban de soigneur en ramie",
+      "de": "Ramien-Tonban der Heilung",
+      "ja": "\u30e9\u30df\u30fc\u30d2\u30fc\u30e9\u30fc\u30c8\u30f3\u30d0\u30f3",
+      "en": "Ramie Tonban of Healing"
+    },
+    "level": 55,
+    "difficulty": 697
+  },
+  {
+    "maxQuality": 5783,
+    "durability": 80,
+    "name": {
+      "fr": "Canevas de la c\u00f4te des Adieux",
+      "de": "Farreach-Tuch",
+      "ja": "\u30d5\u30a1\u30fc\u30ea\u30fc\u30c1\u30ab\u30f3\u30d0\u30b9",
+      "en": "Farreach Canvas"
+    },
+    "level": 53,
+    "difficulty": 586
+  },
+  {
+    "maxQuality": 6301,
+    "durability": 70,
+    "name": {
+      "fr": "Tabard de compagnie libre",
+      "de": "Gesellschaftswappenrock",
+      "ja": "\u30ab\u30f3\u30d1\u30cb\u30fc\u30bf\u30d0\u30fc\u30c9",
+      "en": "Company Tabard"
+    },
+    "level": 55,
+    "difficulty": 697
+  },
+  {
+    "maxQuality": 6561,
+    "durability": 35,
+    "name": {
+      "fr": "\u00c9toffe de ramie sacr\u00e9e",
+      "de": "Heiliger Ramienstoff",
+      "ja": "\u8056\u9ebb\u5e03",
+      "en": "Holy Ramie Cloth"
+    },
+    "level": 56,
+    "difficulty": 376
+  },
+  {
+    "maxQuality": 6561,
+    "durability": 70,
+    "name": {
+      "fr": "Doublet des cr\u00e9ations en ramie",
+      "de": "Ramien-Wams des Handwerks",
+      "ja": "\u30e9\u30df\u30fc\u30af\u30e9\u30d5\u30bf\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Ramie Doublet of Crafting"
+    },
+    "level": 56,
+    "difficulty": 752
+  },
+  {
+    "maxQuality": 6561,
+    "durability": 70,
+    "name": {
+      "fr": "\u00c9charpe de pisteur en ramie sanctifi\u00e9",
+      "de": "Geheiligte Ramien-Sch\u00e4rpe des Zielens",
+      "ja": "\u30cf\u30ed\u30fc\u30c9\u30e9\u30df\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Hallowed Ramie Sash of Aiming"
+    },
+    "level": 56,
+    "difficulty": 752
+  },
+  {
+    "maxQuality": 6561,
+    "durability": 70,
+    "name": {
+      "fr": "\u00c9charpe d'incantateur en ramie sanctifi\u00e9",
+      "de": "Geheiligte Ramien-Sch\u00e4rpe der Magie",
+      "ja": "\u30cf\u30ed\u30fc\u30c9\u30e9\u30df\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Hallowed Ramie Sash of Casting"
+    },
+    "level": 56,
+    "difficulty": 752
+  },
+  {
+    "maxQuality": 6561,
+    "durability": 70,
+    "name": {
+      "fr": "\u00c9charpe de soigneur en ramie sanctifi\u00e9",
+      "de": "Geheiligte Ramien-Sch\u00e4rpe der Heilung",
+      "ja": "\u30cf\u30ed\u30fc\u30c9\u30e9\u30df\u30fc\u30fb\u30d2\u30fc\u30e9\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Hallowed Ramie Sash of Healing"
+    },
+    "level": 56,
+    "difficulty": 752
+  },
+  {
+    "maxQuality": 6561,
+    "durability": 70,
+    "name": {
+      "fr": "Jupe en ramie",
+      "de": "Ramien-Rock",
+      "ja": "\u30e9\u30df\u30fc\u30b9\u30ab\u30fc\u30c8",
+      "en": "Ramie Skirt"
+    },
+    "level": 56,
+    "difficulty": 752
+  },
+  {
+    "maxQuality": 6561,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon des ressources en ramie",
+      "de": "Ramien-Hose des Eifers",
+      "ja": "\u30e9\u30df\u30fc\u30ae\u30e3\u30b6\u30e9\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Ramie Trousers of Gathering"
+    },
+    "level": 56,
+    "difficulty": 752
+  },
+  {
+    "maxQuality": 6561,
+    "durability": 70,
+    "name": {
+      "fr": "Barde orthodoxe",
+      "de": "Orthodoxer Rossharnisch",
+      "ja": "\u30aa\u30fc\u30bd\u30c9\u30c3\u30af\u30b9\u30d0\u30fc\u30c9",
+      "en": "Orthodox Barding"
+    },
+    "level": 56,
+    "difficulty": 376
+  },
+  {
+    "maxQuality": 6820,
+    "durability": 35,
+    "name": {
+      "fr": "Fil de soie de rampeur",
+      "de": "Kriecher-Seidengarn",
+      "ja": "\u30af\u30ed\u30a6\u30e9\u30fc\u306e\u7d79\u7cf8",
+      "en": "Crawler Silk"
+    },
+    "level": 57,
+    "difficulty": 404
+  },
+  {
+    "maxQuality": 6820,
+    "durability": 70,
+    "name": {
+      "fr": "Doublet de pisteur en ramie sanctifi\u00e9",
+      "de": "Geheiligte Ramien-Weste des Zielens",
+      "ja": "\u30cf\u30ed\u30fc\u30c9\u30e9\u30df\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Hallowed Ramie Doublet of Aiming"
+    },
+    "level": 57,
+    "difficulty": 808
+  },
+  {
+    "maxQuality": 6820,
+    "durability": 70,
+    "name": {
+      "fr": "Doublet d'incantateur en ramie sanctifi\u00e9",
+      "de": "Geheiligte Ramien-Weste der Magie",
+      "ja": "\u30cf\u30ed\u30fc\u30c9\u30e9\u30df\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Hallowed Ramie Doublet of Casting"
+    },
+    "level": 57,
+    "difficulty": 808
+  },
+  {
+    "maxQuality": 6820,
+    "durability": 70,
+    "name": {
+      "fr": "Doublet de soigneur en ramie sanctifi\u00e9",
+      "de": "Geheiligte Ramien-Weste der Heilung",
+      "ja": "\u30cf\u30ed\u30fc\u30c9\u30e9\u30df\u30fc\u30fb\u30d2\u30fc\u30e9\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Hallowed Ramie Doublet of Healing"
+    },
+    "level": 57,
+    "difficulty": 808
+  },
+  {
+    "maxQuality": 6820,
+    "durability": 70,
+    "name": {
+      "fr": "Gr\u00e8gues de pisteur en ramie sanctifi\u00e9",
+      "de": "Geheiligter Ramien-Gaskin des Zielens",
+      "ja": "\u30cf\u30ed\u30fc\u30c9\u30e9\u30df\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ac\u30b9\u30ad\u30f3",
+      "en": "Hallowed Ramie Gaskins of Aiming"
+    },
+    "level": 57,
+    "difficulty": 808
+  },
+  {
+    "maxQuality": 6820,
+    "durability": 70,
+    "name": {
+      "fr": "Gr\u00e8gues d'incantateur en ramie sanctifi\u00e9",
+      "de": "Geheiligter Ramien-Gaskin der Magie",
+      "ja": "\u30cf\u30ed\u30fc\u30c9\u30e9\u30df\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30ac\u30b9\u30ad\u30f3",
+      "en": "Hallowed Ramie Gaskins of Casting"
+    },
+    "level": 57,
+    "difficulty": 808
+  },
+  {
+    "maxQuality": 6820,
+    "durability": 70,
+    "name": {
+      "fr": "Gr\u00e8gues de soigneur en ramie sanctifi\u00e9",
+      "de": "Geheiligter Ramien-Gaskin der Heilung",
+      "ja": "\u30cf\u30ed\u30fc\u30c9\u30e9\u30df\u30fc\u30fb\u30d2\u30fc\u30e9\u30fc\u30ac\u30b9\u30ad\u30f3",
+      "en": "Hallowed Ramie Gaskins of Healing"
+    },
+    "level": 57,
+    "difficulty": 808
+  },
+  {
+    "maxQuality": 7080,
+    "durability": 35,
+    "name": {
+      "fr": "\u00c9toffe de feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8",
+      "en": "Chimerical Felt"
+    },
+    "level": 58,
+    "difficulty": 431
+  },
+  {
+    "maxQuality": 7080,
+    "durability": 70,
+    "name": {
+      "fr": "Bonnet d'agresseur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Kappe des Schlagens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ad\u30e3\u30c3\u30d7",
+      "en": "Chimerical Felt Cap of Striking"
+    },
+    "level": 58,
+    "difficulty": 863
+  },
+  {
+    "maxQuality": 7080,
+    "durability": 70,
+    "name": {
+      "fr": "Bonnet de pisteur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Kappe des Zielens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ad\u30e3\u30c3\u30d7",
+      "en": "Chimerical Felt Cap of Aiming"
+    },
+    "level": 58,
+    "difficulty": 863
+  },
+  {
+    "maxQuality": 7080,
+    "durability": 70,
+    "name": {
+      "fr": "Bonnet d'\u00e9claireur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Kappe des Sp\u00e4hens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30ab\u30a6\u30c8\u30ad\u30e3\u30c3\u30d7",
+      "en": "Chimerical Felt Cap of Scouting"
+    },
+    "level": 58,
+    "difficulty": 863
+  },
+  {
+    "maxQuality": 7080,
+    "durability": 70,
+    "name": {
+      "fr": "Klobouk de soigneur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Kaplanshaube der Heilung",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30d2\u30fc\u30e9\u30fc\u30af\u30ed\u30d6\u30fc\u30af",
+      "en": "Chimerical Felt Klobuk of Healing"
+    },
+    "level": 58,
+    "difficulty": 863
+  },
+  {
+    "maxQuality": 7080,
+    "durability": 70,
+    "name": {
+      "fr": "Gants de soigneur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Handschuhe der Heilung",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30d2\u30fc\u30e9\u30fc\u30b0\u30ed\u30fc\u30d6",
+      "en": "Chimerical Felt Gloves of Healing"
+    },
+    "level": 58,
+    "difficulty": 863
+  },
+  {
+    "maxQuality": 7080,
+    "durability": 70,
+    "name": {
+      "fr": "Corset d'incantateur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Korsett der Magie",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b3\u30eb\u30bb\u30c3\u30c8",
+      "en": "Chimerical Felt Corset of Casting"
+    },
+    "level": 58,
+    "difficulty": 863
+  },
+  {
+    "maxQuality": 7080,
+    "durability": 70,
+    "name": {
+      "fr": "Corset de soigneur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Korsett der Heilung",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30d2\u30fc\u30e9\u30fc\u30b3\u30eb\u30bb\u30c3\u30c8",
+      "en": "Chimerical Felt Corset of Healing"
+    },
+    "level": 58,
+    "difficulty": 863
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Cyclas d'agresseur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Cyclas des Schlagens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b7\u30af\u30e9\u30b9",
+      "en": "Chimerical Felt Cyclas of Striking"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Cyclas de pisteur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Cyclas des Zielens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b7\u30af\u30e9\u30b9",
+      "en": "Chimerical Felt Cyclas of Aiming"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Cyclas d'\u00e9claireur en feutre chim\u00e9rique",
+      "de": "Dhalmelleder-Cyclas des Sp\u00e4hens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30ab\u30a6\u30c8\u30b7\u30af\u30e9\u30b9",
+      "en": "Dhalmelskin Cyclas of Scouting"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Robe d'incantateur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Robe der Magie",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30ed\u30fc\u30d6",
+      "en": "Chimerical Felt Robe of Casting"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Aube de soigneur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Gewand der Heilung",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30d2\u30fc\u30e9\u30fc\u30a2\u30eb\u30d0",
+      "en": "Chimerical Felt Alb of Healing"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Fuseau d'agresseur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Beinkleid des Schlagens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30db\u30fc\u30ba",
+      "en": "Chimerical Felt Hose of Striking"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Fuseau de pisteur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Beinkleid des Zielens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30db\u30fc\u30ba",
+      "en": "Chimerical Felt Hose of Aiming"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Fuseau d'\u00e9claireur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Beinkleid des Sp\u00e4hens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30ab\u30a6\u30c8\u30db\u30fc\u30ba",
+      "en": "Chimerical Felt Hose of Scouting"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Braies d'incantateur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Reiterhose der Magie",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ea\u30fc\u30c1",
+      "en": "Chimerical Felt Breeches of Casting"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "Chausses de soigneur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Chausses der Heilung",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30d2\u30fc\u30e9\u30fc\u30b7\u30e7\u30fc\u30b9",
+      "en": "Chimerical Felt Chausses of Healing"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "\u00c9charpe de pisteur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Sch\u00e4rpe des Zielens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Chimerical Felt Sash of Aiming"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7339,
+    "durability": 70,
+    "name": {
+      "fr": "\u00c9charpe d'incantateur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Sch\u00e4rpe der Magie",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30c3\u30b7\u30e5",
+      "en": "Chimerical Felt Sash of Casting"
+    },
+    "level": 59,
+    "difficulty": 919
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Coiffe d'agresseur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Bundhaube des Schlagens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b3\u30a4\u30d5",
+      "en": "Chimerical Felt Coif of Striking"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Coiffe de pisteur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Bundhaube des Zielens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b3\u30a4\u30d5",
+      "en": "Chimerical Felt Coif of Aiming"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Coiffe d'\u00e9claireur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Bundhaube des Sp\u00e4hens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30ab\u30a6\u30c8\u30b3\u30a4\u30d5",
+      "en": "Chimerical Felt Coif of Scouting"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Chapeau d'incantateur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Hut der Magie",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30cf\u30c3\u30c8",
+      "en": "Chimerical Felt Hat of Casting"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Turban des cr\u00e9ations en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Turban des Handwerks",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30bf\u30fc\u30d0\u30f3",
+      "en": "Chimerical Felt Turban of Crafting"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Tabard d'agresseur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Waffenrock des Schlagens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30bf\u30d0\u30fc\u30c9",
+      "en": "Chimerical Felt Tabard of Striking"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Tabard de pisteur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Waffenrock des Zielens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30bf\u30d0\u30fc\u30c9",
+      "en": "Chimerical Felt Tabard of Aiming"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Tabard d'\u00e9claireur en feutre chim\u00e9rique",
+      "de": "Dhalmelleder-Waffenrock des Sp\u00e4hens",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30ab\u30a6\u30c8\u30bf\u30d0\u30fc\u30c9",
+      "en": "Dhalmelskin Tabard of Scouting"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Manteau d'incantateur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Mantel der Magie",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b3\u30fc\u30c8",
+      "en": "Chimerical Felt Coat of Casting"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Robe de soigneur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Robe der Heilung",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30d2\u30fc\u30e9\u30fc\u30ed\u30fc\u30d6",
+      "en": "Chimerical Felt Robe of Healing"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Doublet des cr\u00e9ations en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Wams des Handwerks",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Chimerical Felt Doublet of Crafting"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Braies de soigneur en feutre chim\u00e9rique",
+      "de": "Schlangenleder-Reiterhose der Heilung",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30d2\u30fc\u30e9\u30fc\u30d6\u30ea\u30fc\u30c1",
+      "en": "Chimerical Felt Breeches of Healing"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Braies de protecteur en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Reiterhose der Verteidigung",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d6\u30ea\u30fc\u30c1",
+      "en": "Chimerical Felt Breeches of Fending"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Jupe en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Rock",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30b9\u30ab\u30fc\u30c8",
+      "en": "Chimerical Felt Skirt"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 7851,
+    "durability": 70,
+    "name": {
+      "fr": "Pantalon en feutre chim\u00e9rique",
+      "de": "Chim\u00e4renfilz-Hose",
+      "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30c8\u30e9\u30a6\u30b6\u30fc",
+      "en": "Chimerical Felt Trousers"
+    },
+    "level": 60,
+    "difficulty": 956
+  },
+  {
+    "maxQuality": 8377,
+    "durability": 70,
+    "name": {
+      "fr": "Turban thavnairois",
+      "de": "Thavnair-Turban",
+      "ja": "\u30b5\u30d9\u30cd\u30a2\u30f3\u30bf\u30fc\u30d0\u30f3",
+      "en": "Thavnairian Turban"
+    },
+    "level": 60,
+    "difficulty": 1116
+  },
+  {
+    "maxQuality": 8377,
+    "durability": 70,
+    "name": {
+      "fr": "Coiffe thavnairoise",
+      "de": "Thavnair-Federschmuck",
+      "ja": "\u30b5\u30d9\u30cd\u30a2\u30f3\u30d8\u30c3\u30c9\u30c9\u30ec\u30b9",
+      "en": "Thavnairian Headdress"
+    },
+    "level": 60,
+    "difficulty": 1116
+  },
+  {
+    "maxQuality": 8377,
+    "durability": 70,
+    "name": {
+      "fr": "Doublet d'incantateur chevaleresque",
+      "de": "Ritterwams der Magie",
+      "ja": "\u30b7\u30d0\u30eb\u30ea\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Chivalric Doublet of Casting"
+    },
+    "level": 60,
+    "difficulty": 1116
+  },
+  {
+    "maxQuality": 8377,
+    "durability": 70,
+    "name": {
+      "fr": "Doublet de soigneur chevaleresque",
+      "de": "Ritterwams der Heilung",
+      "ja": "\u30b7\u30d0\u30eb\u30ea\u30fc\u30fb\u30d2\u30fc\u30e9\u30fc\u30c0\u30d6\u30ec\u30c3\u30c8",
+      "en": "Chivalric Doublet of Healing"
+    },
+    "level": 60,
+    "difficulty": 1116
+  },
+  {
+    "maxQuality": 8377,
+    "durability": 70,
+    "name": {
+      "fr": "Robe thavnairoise",
+      "de": "Thavnair-Bustier",
+      "ja": "\u30b5\u30d9\u30cd\u30a2\u30f3\u30d3\u30b9\u30c1\u30a7",
+      "en": "Thavnairian Bustier"
+    },
+    "level": 60,
+    "difficulty": 1116
+  },
+  {
+    "maxQuality": 8377,
+    "durability": 70,
+    "name": {
+      "fr": "Brassards thavnairois",
+      "de": "Thavnair-Armreif",
+      "ja": "\u30b5\u30d9\u30cd\u30a2\u30f3\u30a2\u30fc\u30e0\u30ec\u30c3\u30c8",
+      "en": "Thavnairian Armlets"
+    },
+    "level": 60,
+    "difficulty": 1116
+  },
+  {
+    "maxQuality": 8377,
+    "durability": 70,
+    "name": {
+      "fr": "Saroual thavnairois",
+      "de": "Thavnair-Sarouel",
+      "ja": "\u30b5\u30d9\u30cd\u30a2\u30f3\u30b5\u30eb\u30a8\u30eb",
+      "en": "Thavnairian Sarouel"
+    },
+    "level": 60,
+    "difficulty": 1116
+  }
+]

@@ -30,9 +30,15 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   });
 
   $scope.updateRecipeSearchList = function() {
-    var recipes = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls) || [];
-    $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text});
-    $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
+    var p = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls);
+    p.then(function (recipes) {
+      $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text});
+      $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
+    }, function (err) {
+      console.error("Failed to retrieve recipes:", err);
+      $scope.recipeSearch.list = [];
+      $scope.recipeSearch.selected = -1;
+    });
   };
 
   $rootScope.$on('$translateChangeSuccess', function () {
@@ -41,10 +47,15 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
   $scope.recipeSelected = function (name) {
     var cls = $scope.recipe.cls;
-    var recipe = angular.copy(_recipeLibrary.recipeForClassByName($translate.use(), cls, name));
-    recipe.cls = cls;
-    recipe.startQuality = 0;
-    $scope.$emit('recipe.selected', recipe);
+    var p = angular.copy(_recipeLibrary.recipeForClassByName($translate.use(), cls, name));
+    p.then(function (recipe) {
+      recipe = angular.copy(recipe);
+      recipe.cls = cls;
+      recipe.startQuality = 0;
+      $scope.$emit('recipe.selected', recipe);
+    }, function (err) {
+      console.error("Failed to load recipe:", err);
+    });
   };
 
   $scope.deleteUserRecipe = function (name) {

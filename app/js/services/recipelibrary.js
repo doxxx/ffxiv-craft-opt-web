@@ -10,49 +10,62 @@ function recipeForLang(lang, recipe) {
   }
 }
 
-function RecipeLibrary(_localProfile) {
+var cache = {};
+
+function RecipeLibrary($http, $q, _localProfile) {
+  this.$http = $http;
+  this.$q = $q;
   this._localProfile = _localProfile;
 }
 
-RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
-  var result = [];
-  var recipe;
+RecipeLibrary.$inject = ['$http', '$q', '_localProfile'];
 
-  var userRecipes = this._localProfile.getUserRecipes(cls);
-  for (var name in userRecipes) {
-    if (userRecipes.hasOwnProperty(name)) {
-      recipe = angular.copy(userRecipes[name]);
-      recipe.user = true;
-      result.push(recipe);
-    }
-  }
-
-  if (!angular.isDefined(lang)) lang = 'en';
-  var recipes = FFXIV_Recipe_DB[cls];
-  if (!angular.isDefined(recipes)) return null;
-  for (var i = 0; i < recipes.length; i++) {
-    recipe = recipes[i];
-    result.push(recipeForLang(lang, recipe));
-  }
-  return result;
+var cache_key = function (lang, cls) {
+  return lang + ":" + cls
 };
 
-RecipeLibrary.prototype.recipeForClassByName = function(lang, cls, name) {
+RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
   var userRecipes = this._localProfile.getUserRecipes(cls);
-  if (userRecipes.hasOwnProperty(name)) {
-    return userRecipes[name];
+  var userRecipesArray = [];
+  for (var name in userRecipes) {
+    if (userRecipes.hasOwnProperty(name)) {
+      var recipe = angular.copy(userRecipes[name]);
+      recipe.user = true;
+      userRecipesArray.push(recipe);
+    }
   }
 
   if (!angular.isDefined(lang)) lang = 'en';
-  var recipes = FFXIV_Recipe_DB[cls];
-  if (!angular.isDefined(recipes)) return null;
-  for (var i = 0; i < recipes.length; i++) {
-    var recipe = recipes[i];
-    if (recipe.name[lang] == name) {
-      return recipeForLang(lang, recipe);
-    }
+  var key = cache_key(lang, cls);
+  var promise = cache[key];
+  if (!promise) {
+    promise = this.$http.get('../../data/recipedb/' + cls + '.json').then(
+      function (r) {
+        return r.data.map(recipeForLang.bind(this, lang));
+      }
+    );
+    cache[key] = promise;
   }
-  return null;
+
+  return promise.then(
+    function (recipes) {
+      return userRecipesArray.concat(recipes);
+    }
+  );
+};
+RecipeLibrary.prototype.recipeForClassByName = function (lang, cls, name) {
+  if (!angular.isDefined(lang)) lang = 'en';
+  return this.recipesForClass(lang, cls).then(
+    function (recipes) {
+      for (var i = 0; i < recipes.length; i++) {
+        var recipe = recipes[i];
+        if (recipe.name == name) {
+          return recipe;
+        }
+      }
+      return this.$q.reject();
+    }.bind(this)
+  );
 };
 
 RecipeLibrary.prototype.saveUserRecipe = function (recipe) {
