@@ -588,16 +588,14 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     }
 
     // Effects modifying probability
+    var successProbability = action.successProbability;
     if (AllActions.steadyHand2.name in effects.countDowns) {
         successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
     }
     else if (AllActions.steadyHand.name in effects.countDowns) {
         successProbability = action.successProbability + 0.2;
     }
-    else {
-        successProbability = action.successProbability;
-    }
-    var successProbability = Math.min(successProbability, 1);
+    successProbability = Math.min(successProbability, 1);
 
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
