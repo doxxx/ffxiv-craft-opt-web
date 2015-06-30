@@ -171,6 +171,26 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
 
 }
 
+function NewStateFromSynth(synth) {
+    var step = 0;
+    var durabilityState = synth.recipe.durability;
+    var cpState = synth.crafter.craftPoints;
+    var qualityState = synth.recipe.startQuality;
+    var progressState = 0;
+    var wastedActions = 0;
+    var progressOk = false;
+    var cpOk = false;
+    var durabilityOk = false;
+    var trickUses = 0;
+    var reliability = 1;
+    var crossClassActionList = {};
+    var effects = new EffectTracker();
+    var condition = 'Normal';
+
+    return new State(step, '', durabilityState, cpState, qualityState, progressState,
+        wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
+}
+
 function simSynth(individual, synth, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
