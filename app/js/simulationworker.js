@@ -51,7 +51,7 @@ self.onmessage = function(e) {
   logOutput.write("Probabilistic Result\n");
   logOutput.write("====================\n");
 
-  simSynth(sequence, synth, true, settings.debug, logOutput);
+  simSynth(sequence, synth, startState, true, settings.debug, logOutput);
 
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");

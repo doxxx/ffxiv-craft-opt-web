@@ -191,28 +191,31 @@ function NewStateFromSynth(synth) {
         wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
 }
 
-function simSynth(individual, synth, verbose, debug, logOutput) {
+function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
 
     var logger = new Logger(logOutput);
 
-    // State tracking
-    var durabilityState = synth.recipe.durability;
-    var cpState = synth.crafter.craftPoints;
-    var progressState = 0;
-    var qualityState = synth.recipe.startQuality;
-    var stepCount = 0;
-    var wastedActions = 0;
-    var effects = new EffectTracker();
-    var trickUses = 0;
-    var reliability = 1;
-    var crossClassActionList = {};
-    var crossClassActionCounter = 0;
-    var useConditions = synth.useConditions;
+    // Unpack state
+    var stepCount = startState.step;
+    var durabilityState = startState.durabilityState;
+    var cpState = startState.cpState;
+    var qualityState = startState.qualityState;
+    var progressState = startState.progressState;
+    var wastedActions = startState.wastedActions;
+    var progressOk = startState.progressOk;
+    var cpOk = startState.cpOk;
+    var durabilityOk = startState.durabilityOk;
+    var trickUses = startState.trickUses;
+    var reliability = startState.reliability;
+    var crossClassActionList = startState.crossClassActionList;
+    var effects = startState.effects;
+    var condition = startState.condition;
 
     // Conditions
+    var useConditions = synth.useConditions;
     var pGood = 0.23;
     var pExcellent = 0.01;
 
@@ -223,11 +226,11 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     var ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
 
     // End state checks
-    var progressOk = false;
-    var cpOk = false;
-    var durabilityOk = false;
     var trickOk = false;
     var reliabilityOk = false;
+
+    // Initialize counters
+    var crossClassActionCounter = 0;
 
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
@@ -1098,7 +1101,9 @@ function maxCrossClassActions(level) {
 function evalSeq(individual, mySynth, penaltyWeight) {
     penaltyWeight = penaltyWeight!== undefined ? penaltyWeight : 10000;
 
-    var result = simSynth(individual, mySynth, false, false);
+    var startState = NewStateFromSynth(mySynth);
+
+    var result = simSynth(individual, mySynth, startState, false, false);
     var penalties = 0;
     var fitness = 0;
     var fitnessProg = 0;

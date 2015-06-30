@@ -138,7 +138,7 @@ function finish() {
   logOutput.write("Genetic Algorithm Result\n");
   logOutput.write("========================\n");
 
-  simSynth(best, state.synth, true, debug, logOutput);
+  simSynth(best, state.synth, startState, true, debug, logOutput);
 
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
