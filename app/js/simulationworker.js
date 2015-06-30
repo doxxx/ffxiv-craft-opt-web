@@ -59,11 +59,11 @@ self.onmessage = function(e) {
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSynth(sequence, synth, false, true, logOutput);
+    MonteCarloSequence(sequence, synth, false, true, false, true, logOutput);
   }
 
   // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSynth(sequence, synthNoConditions, true, false, false, logOutput);
+  var finalState = MonteCarloSequence(sequence, synthNoConditions, true, false, false, false, logOutput);
 
   var result = {
     success: {

@@ -99,6 +99,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.userInfo = $scope.profile.userInfo();
 
       $scope.profile.bindCrafterStats($scope, 'crafter.stats');
+      $scope.savedSynthNames = $scope.profile.synthNames();
 
       // watches for automatic updates and saving settings
       $scope.$watchCollection('sections', function () {
@@ -131,8 +132,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
           $scope.runSimulation();
         }
         else {
-          $scope.simulatorStatus.state = null
-          $scope.simulatorStatus.error = null
+          $scope.simulatorStatus.state = null;
+          $scope.simulatorStatus.error = null;
         }
       }
 
@@ -207,10 +208,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
     };
 
-    $scope.savedSynthNames = function () {
-      return $scope.profile.synthNames();
-    };
-
     $scope.newSynth = function () {
       $scope.settings.name = '';
       var newRecipe = newRecipeStats($scope);
@@ -252,11 +249,13 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       settings.solver = $scope.solver;
 
       $scope.profile.saveSynth($scope.settings.name, settings);
+      
+      $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
     $scope.saveSynthAs = function () {
       var name = prompt('Enter synth name:');
-      if (name == null || name.length == 0) return;
+      if (name === null || name.length === 0) return;
       $scope.settings.name = name;
       $scope.saveSynth();
     };
@@ -267,20 +266,22 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         if (name == $scope.settings.name) {
           $scope.settings.name = '';
         }
+        $scope.savedSynthNames = $scope.profile.synthNames();
       }
     };
 
     $scope.renameSynth = function (name) {
       var newName = prompt('Enter new synth name:');
-      if (newName == null || newName.length == 0) return;
+      if (newName === null || newName.length === 0) return;
       $scope.profile.renameSynth(name, newName);
       if (name == $scope.settings.name) {
         $scope.settings.name = newName;
       }
+      $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
     $scope.isSynthDirty = function () {
-      if (!$scope.settings || $scope.settings.name == '') {
+      if (!$scope.settings || $scope.settings.name === '') {
         return false;
       }
 
@@ -301,7 +302,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.synthNameForDisplay = function () {
       if (!$scope.settings) return '';
 
-      if ($scope.settings.name == '') {
+      if ($scope.settings.name === '') {
         return '<unnamed>';
       }
       else {
@@ -343,16 +344,11 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         tooltipClass = cls;
       }
       var tooltip = $scope.actionTooltips[tooltipClass + action];
-      if (tooltip) return tooltip;
+      return tooltip ? tooltip : '';
     };
 
     $scope.sequenceActionTooltip = function (action, cls) {
-      var tooltip = $scope.actionTooltip(action, cls);
-      // TODO: Find some way to modify the tooltip to show it's unavailable
-      //if (!$scope.isActionSelected(action, cls)) {
-      //  tooltip += '<br/><b>[Action Not Available]</b>';
-      //}
-      return tooltip;
+      return $scope.actionTooltip(action, cls);
     };
 
     $scope.uniqueCrossClassActions = function (sequence, cls) {
@@ -473,7 +469,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.solverProgress = function (data) {
       $scope.solverStatus.generationsCompleted = data.generationsCompleted;
+      $scope.solverStatus.maxGenerations = data.maxGenerations;
       $scope.solverStatus.state = data.state;
+      $scope.solverStatus.bestSequence = data.bestSequence;
     };
 
     $scope.solverSuccess = function (data) {
@@ -482,7 +480,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.simulatorTabs.solver.active = true;
       $scope.solverStatus.state = data.state;
       $scope.solverStatus.running = false;
-      $scope.solverStatus.generationsCompleted = 0;
     };
 
     $scope.solverError = function (data) {
@@ -497,8 +494,10 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.runSolver = function () {
       $scope.solverStatus.error = null;
-      $scope.solverResult.logText = "";
       $scope.solverStatus.generationsCompleted = 0;
+      $scope.solverStatus.maxGenerations = $scope.solver.generations;
+      $scope.solverStatus.state = null;
+      $scope.solverResult.logText = "";
       $scope.solverResult.sequence = [];
       var settings = {
         crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
@@ -518,13 +517,13 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       _solver.start($scope.sequence, settings, $scope.solverProgress, $scope.solverSuccess, $scope.solverError);
     };
 
+    $scope.resumeSolver = function() {
+      $scope.solverStatus.running = true;
+      _solver.resume();
+    };
+
     $scope.stopSolver = function () {
       _solver.stop();
-      $scope.solverStatus.error = null;
-      $scope.solverResult.logText = "";
-      $scope.solverResult.sequence = [];
-      $scope.solverStatus.running = false;
-      $scope.solverStatus.generationsCompleted = 0;
     };
 
     loadLocalPageState($scope);
@@ -690,17 +689,19 @@ function extend(dest, src) {
     throw 'cannot extend object with null or undefined object';
   }
   for (var p in src) {
-    var v = src[p];
-    if (v !== undefined && v !== null) {
-      var o = dest[p];
-      if (o === null || o === undefined) {
-        dest[p] = v;
-      }
-      else if (typeof o == 'object' && typeof v == 'object') {
-        extend(dest[p], v);
-      }
-      else {
-        dest[p] = v;
+    if (src.hasOwnProperty(p)) {
+      var v = src[p];
+      if (v !== undefined && v !== null) {
+        var o = dest[p];
+        if (o === null || o === undefined) {
+          dest[p] = v;
+        }
+        else if (typeof o == 'object' && typeof v == 'object') {
+          extend(dest[p], v);
+        }
+        else {
+          dest[p] = v;
+        }
       }
     }
   }
