@@ -526,30 +526,28 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
 
     var logger = new Logger(logOutput);
 
-    // State Tracking
-    var durabilityState = startState.durabilityState
-    var cpState = startState.cpState;
-    var progressState = startState.progressState;
-    var qualityState = startState.qualityState;
+    // Unpack state
     var stepCount = startState.step;
+    var durabilityState = startState.durabilityState;
+    var cpState = startState.cpState;
+    var qualityState = startState.qualityState;
+    var progressState = startState.progressState;
     var wastedActions = startState.wastedActions;
-    var effects = startState.effects;
+    var progressOk = startState.progressOk;
+    var cpOk = startState.cpOk;
+    var durabilityOk = startState.durabilityOk;
     var trickUses = startState.trickUses;
     var reliability = startState.reliability;
     var crossClassActionList = startState.crossClassActionList;
-
+    var effects = startState.effects;
     var condition = startState.condition;
 
     // Conditions
     var pGood = 0.23;
     var pExcellent = 0.01;
 
-    // End state checks
-    var progressOk = startState.progressOk;
-    var cpOk = startState.cpOk;
-    var durabilityOk = startState.durabilityOk;
-    var trickOk = false;
-    var reliabilityOk = false;
+    // Initialize counters
+    var crossClassActionCounter = 0; // *** REVIEW ***
 
     stepCount += 1;
 
