@@ -769,17 +769,6 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
 
     }
 
-    if (debug) {
-        var iqCnt = 0;
-        if (AllActions.innerQuiet.name in effects.countUps) {
-            iqCnt = effects.countUps[AllActions.innerQuiet.name];
-        }
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.1f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
-    }
-    else if (verbose) {
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions);
-    }
-
     // Penalise failure outcomes
     if (progressState >= synth.recipe.difficulty) {
         progressOk = true;
@@ -811,6 +800,17 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         else {
             condition = 'Normal';
         }
+    }
+
+    if (debug) {
+        var iqCnt = 0;
+        if (AllActions.innerQuiet.name in effects.countUps) {
+            iqCnt = effects.countUps[AllActions.innerQuiet.name];
+        }
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %7.1f %-10s %-5s', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain, condition, success);
+    }
+    else if (verbose) {
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, condition, success);
     }
 
     var finalState = new State(stepCount, action.name, durabilityState, cpState, qualityState, progressState,
@@ -878,12 +878,12 @@ function MonteCarloSequence(individual, synth, assumeSuccess, overrideTotT, verb
     }
 
     if (debug) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0);
+        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-7s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA', 'Cond', 'S/F');
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %-5s %-7s %-10s %-5s', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0, '', '', 'Normal', '-');
     }
     else if (verbose) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions);
+        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'Cond', 'S/F');
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 'Normal', '');
 
     }
 
