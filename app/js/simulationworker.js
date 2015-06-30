@@ -31,6 +31,8 @@ self.onmessage = function(e) {
   var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, settings.useConditions);
   var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false);
 
+  var startState = NewStateFromSynth(synth);
+
   var sequence = [];
 
   for (var j = 0; j < settings.sequence.length; j++) {
@@ -59,11 +61,11 @@ self.onmessage = function(e) {
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSequence(sequence, synth, false, true, false, true, logOutput);
+    MonteCarloSequence(sequence, synth, startState, false, true, false, true, logOutput);
   }
 
   // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSequence(sequence, synthNoConditions, true, false, false, false, logOutput);
+  var finalState = MonteCarloSequence(sequence, synthNoConditions, startState, true, false, false, false, logOutput);
 
   var result = {
     success: {

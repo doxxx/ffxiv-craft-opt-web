@@ -835,7 +835,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     return finalState;
 }
 
-function MonteCarloSequence(individual, synth, assumeSuccess, overrideTotT, verbose, debug, logOutput) {
+function MonteCarloSequence(individual, synth, startState, assumeSuccess, overrideTotT, verbose, debug, logOutput) {
     overrideTotT = overrideTotT !== undefined ? overrideTotT : true;
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
@@ -843,35 +843,32 @@ function MonteCarloSequence(individual, synth, assumeSuccess, overrideTotT, verb
 
     var logger = new Logger(logOutput);
 
-    // Initialize state values
-    var durabilityState = synth.recipe.durability;
-    var cpState = synth.crafter.craftPoints;
-    var progressState = 0;
-    var qualityState = synth.recipe.startQuality;
-    var stepCount = 0;
-    var wastedActions = 0;
-    var effects = new EffectTracker();
-    var maxTricksUses = 0;
-    var trickUses = 0;
-    var reliability = 1;
-    var crossClassActionList = {};
-    var crossClassActionCounter = 0;
-    var useConditions = synth.useConditions;
-
-    var condition = 'Normal';
+    // Unpack state
+    var stepCount = startState.step;
+    var durabilityState = startState.durabilityState;
+    var cpState = startState.cpState;
+    var qualityState = startState.qualityState;
+    var progressState = startState.progressState;
+    var wastedActions = startState.wastedActions;
+    var progressOk = startState.progressOk;
+    var cpOk = startState.cpOk;
+    var durabilityOk = startState.durabilityOk;
+    var trickUses = startState.trickUses;
+    var reliability = startState.reliability;
+    var crossClassActionList = startState.crossClassActionList;
+    var effects = startState.effects;
+    var condition = startState.condition;
 
     // Intialize final state checks
-    var progressOk = false;
-    var cpOk = false;
-    var durabilityOk = false;
     var trickOk = false;
     var reliabilityOk = false;
 
+    // Initialize counters
+    var maxTricksUses = 0;
+    var crossClassActionCounter = 0;
+    var useConditions = synth.useConditions
 
     // Initialize state variables
-    var startState = new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
-
     var finalState = startState;
 
     // Check for null or empty individuals
@@ -959,9 +956,11 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
 
     var logger = new Logger(logOutput);
 
+    var startState = NewStateFromSynth(synth);
+
     var finalStateTracker = [];
     for (var i=0; i < nRuns; i++) {
-        var runSynth = MonteCarloSequence(individual, synth, false, true, false, false, logOutput);
+        var runSynth = MonteCarloSequence(individual, synth, startState, false, true, false, false, logOutput);
         finalStateTracker[finalStateTracker.length] = runSynth;
 
         if (verbose) {
