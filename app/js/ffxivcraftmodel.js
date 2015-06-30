@@ -231,8 +231,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
 
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
-        return new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                           wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList);
+        return NewStateFromSynth(synth);
     }
 
     if (debug) {
