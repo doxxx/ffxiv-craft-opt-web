@@ -107,14 +107,17 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       });
 
       function updateRecipeSearchList() {
+        $scope.recipeSearch.loading = true;
         var p = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls);
         p.then(function (recipes) {
           $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text});
           $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
+          $scope.recipeSearch.loading = false;
         }, function (err) {
           console.error("Failed to retrieve recipes:", err);
           $scope.recipeSearch.list = [];
           $scope.recipeSearch.selected = -1;
+          $scope.recipeSearch.loading = false;
         });
       }
 
