@@ -1,4826 +1,4826 @@
 [
   {
-    "maxQuality": 312,
-    "durability": 40,
     "name": {
-      "fr": "Eau distill\u00e9e",
       "de": "Destilliertes Wasser",
+      "en": "Distilled Water",
       "ja": "\u84b8\u7559\u6c34",
-      "en": "Distilled Water"
+      "fr": "Eau distill\u00e9e"
     },
     "level": 1,
-    "difficulty": 9
+    "difficulty": 9,
+    "durability": 40,
+    "maxQuality": 312
   },
   {
-    "maxQuality": 312,
-    "durability": 40,
     "name": {
-      "fr": "Mercure",
       "de": "Quecksilber",
+      "en": "Quicksilver",
       "ja": "\u6c34\u9280",
-      "en": "Quicksilver"
+      "fr": "Mercure"
     },
     "level": 1,
-    "difficulty": 9
+    "difficulty": 9,
+    "durability": 40,
+    "maxQuality": 312
   },
   {
-    "maxQuality": 325,
-    "durability": 40,
     "name": {
-      "fr": "Glu animale",
       "de": "Tierleim",
+      "en": "Animal Glue",
       "ja": "\u306b\u304b\u308f",
-      "en": "Animal Glue"
+      "fr": "Glu animale"
     },
     "level": 2,
-    "difficulty": 10
+    "difficulty": 10,
+    "durability": 40,
+    "maxQuality": 325
   },
   {
-    "maxQuality": 339,
-    "durability": 40,
     "name": {
-      "fr": "Formule de croissance alpha",
       "de": "Wachstumsformel Alpha",
+      "en": "Growth Formula Alpha",
       "ja": "\u30b0\u30ed\u30fc\u30b9\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30a2\u30eb\u30d5\u30a1",
-      "en": "Growth Formula Alpha"
+      "fr": "Formule de croissance alpha"
     },
     "level": 3,
-    "difficulty": 10
+    "difficulty": 10,
+    "durability": 40,
+    "maxQuality": 339
   },
   {
-    "maxQuality": 352,
-    "durability": 40,
     "name": {
-      "fr": "Encre de cuivre enchant\u00e9e",
       "de": "Magische Kupfertinte",
+      "en": "Enchanted Copper Ink",
       "ja": "\u30ab\u30c3\u30d1\u30fc\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Copper Ink"
+      "fr": "Encre de cuivre enchant\u00e9e"
     },
     "level": 4,
-    "difficulty": 10
+    "difficulty": 10,
+    "durability": 40,
+    "maxQuality": 352
   },
   {
-    "maxQuality": 352,
-    "durability": 60,
     "name": {
-      "fr": "Baguette",
       "de": "Ahornzweig",
+      "en": "Maple Wand",
       "ja": "\u30ef\u30f3\u30c9",
-      "en": "Maple Wand"
+      "fr": "Baguette"
     },
     "level": 4,
-    "difficulty": 21
+    "difficulty": 21,
+    "durability": 60,
+    "maxQuality": 352
   },
   {
-    "maxQuality": 451,
-    "durability": 60,
     "name": {
-      "fr": "Grimoire",
       "de": "Leder-Grimoire",
+      "en": "Leather Grimoire",
       "ja": "\u30b0\u30ea\u30e2\u30a2",
-      "en": "Leather Grimoire"
+      "fr": "Grimoire"
     },
     "level": 5,
-    "difficulty": 33
+    "difficulty": 33,
+    "durability": 60,
+    "maxQuality": 451
   },
   {
-    "maxQuality": 451,
-    "durability": 60,
     "name": {
-      "fr": "Antidote",
       "de": "Gegengift",
+      "en": "Antidote",
       "ja": "\u6bd2\u6d88\u3057",
-      "en": "Antidote"
+      "fr": "Antidote"
     },
     "level": 5,
-    "difficulty": 33
+    "difficulty": 33,
+    "durability": 60,
+    "maxQuality": 451
   },
   {
-    "maxQuality": 312,
-    "durability": 60,
     "name": {
-      "fr": "Composant de coque",
       "de": "Kanzelinnenraum-Bauteil",
+      "en": "Hull Interior Component",
       "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u8239\u4f53\u90e8\u6750",
-      "en": "Hull Interior Component"
+      "fr": "Composant de coque"
     },
     "level": 1,
-    "difficulty": 19
+    "difficulty": 19,
+    "durability": 60,
+    "maxQuality": 312
   },
   {
-    "maxQuality": 312,
-    "durability": 60,
     "name": {
-      "fr": "Composant de ballon",
       "de": "Ballonh\u00fcllen-Bauteil",
+      "en": "Bladder Component",
       "ja": "\u6c17\u56a2\u90e8\u6750",
-      "en": "Bladder Component"
+      "fr": "Composant de ballon"
     },
     "level": 1,
-    "difficulty": 19
+    "difficulty": 19,
+    "durability": 60,
+    "maxQuality": 312
   },
   {
-    "maxQuality": 234,
-    "durability": 60,
     "name": {
-      "fr": "Composant de finition de ballon",
       "de": "H\u00fcllenverst\u00e4rkungs-Bauteil",
+      "en": "Bladder Lining Component",
       "ja": "\u6c17\u56a2\u88dc\u5f37\u6750",
-      "en": "Bladder Lining Component"
+      "fr": "Composant de finition de ballon"
     },
     "level": 1,
-    "difficulty": 28
+    "difficulty": 28,
+    "durability": 60,
+    "maxQuality": 234
   },
   {
-    "maxQuality": 312,
-    "durability": 60,
     "name": {
-      "fr": "Comp. de partie droite de nacelle",
       "de": "Steuerbordrumpf-Bauteil",
+      "en": "Starboard Hull Component",
       "ja": "\u53f3\u8237\u8239\u4f53\u90e8\u6750",
-      "en": "Starboard Hull Component"
+      "fr": "Comp. de partie droite de nacelle"
     },
     "level": 1,
-    "difficulty": 19
+    "difficulty": 19,
+    "durability": 60,
+    "maxQuality": 312
   },
   {
-    "maxQuality": 312,
-    "durability": 40,
     "name": {
-      "fr": "Comp. de partie gauche de nacelle",
       "de": "Backbordrumpf-Bauteil",
+      "en": "Larboard Hull Component",
       "ja": "\u5de6\u8237\u8239\u4f53\u90e8\u6750",
-      "en": "Larboard Hull Component"
+      "fr": "Comp. de partie gauche de nacelle"
     },
     "level": 1,
-    "difficulty": 9
-  },
-  {
-    "maxQuality": 254,
-    "durability": 60,
-    "name": {
-      "fr": "Composant de moteur",
-      "de": "Erdseim-Motor-Bauteil",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u6750",
-      "en": "Propulsion Engine Component"
-    },
-    "level": 3,
-    "difficulty": 30
-  },
-  {
-    "maxQuality": 339,
-    "durability": 60,
-    "name": {
-      "fr": "Composant d'unit\u00e9 motrice",
-      "de": "Gyroantriebs-Bauteil",
-      "ja": "\u52d5\u529b\u8f2a\u90e8\u6750",
-      "en": "Gyrodrive Component"
-    },
-    "level": 3,
-    "difficulty": 20
-  },
-  {
-    "maxQuality": 169,
-    "durability": 60,
-    "name": {
-      "fr": "Composant d'attache",
-      "de": "Takelagen-Bauteil",
-      "ja": "\u7d22\u5177\u90e8\u6750",
-      "en": "Rigging Component"
-    },
-    "level": 3,
-    "difficulty": 36
-  },
-  {
-    "maxQuality": 254,
-    "durability": 60,
-    "name": {
-      "fr": "Composant de pont",
-      "de": "Deck-Bauteil",
-      "ja": "\u7532\u677f\u90e8\u6750",
-      "en": "Deck Component"
-    },
-    "level": 3,
-    "difficulty": 30
-  },
-  {
-    "maxQuality": 339,
+    "difficulty": 9,
     "durability": 40,
+    "maxQuality": 312
+  },
+  {
     "name": {
-      "fr": "Composant de protection de moteur",
+      "de": "Erdseim-Motor-Bauteil",
+      "en": "Propulsion Engine Component",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u6750",
+      "fr": "Composant de moteur"
+    },
+    "level": 3,
+    "difficulty": 30,
+    "durability": 60,
+    "maxQuality": 254
+  },
+  {
+    "name": {
+      "de": "Gyroantriebs-Bauteil",
+      "en": "Gyrodrive Component",
+      "ja": "\u52d5\u529b\u8f2a\u90e8\u6750",
+      "fr": "Composant d'unit\u00e9 motrice"
+    },
+    "level": 3,
+    "difficulty": 20,
+    "durability": 60,
+    "maxQuality": 339
+  },
+  {
+    "name": {
+      "de": "Takelagen-Bauteil",
+      "en": "Rigging Component",
+      "ja": "\u7d22\u5177\u90e8\u6750",
+      "fr": "Composant d'attache"
+    },
+    "level": 3,
+    "difficulty": 36,
+    "durability": 60,
+    "maxQuality": 169
+  },
+  {
+    "name": {
+      "de": "Deck-Bauteil",
+      "en": "Deck Component",
+      "ja": "\u7532\u677f\u90e8\u6750",
+      "fr": "Composant de pont"
+    },
+    "level": 3,
+    "difficulty": 30,
+    "durability": 60,
+    "maxQuality": 254
+  },
+  {
+    "name": {
       "de": "Motorgeh\u00e4use-Bauteil",
+      "en": "Engine Casing Component",
       "ja": "\u6a5f\u95a2\u5916\u88c5\u90e8\u6750",
-      "en": "Engine Casing Component"
+      "fr": "Composant de protection de moteur"
     },
     "level": 3,
-    "difficulty": 10
+    "difficulty": 10,
+    "durability": 40,
+    "maxQuality": 339
   },
   {
-    "maxQuality": 254,
-    "durability": 60,
     "name": {
-      "fr": "N\u00e9cessaire de fabrication",
       "de": "Werkzeug-Bauteil",
+      "en": "Crafting Tool Component",
       "ja": "\u52a0\u5de5\u9053\u5177",
-      "en": "Crafting Tool Component"
+      "fr": "N\u00e9cessaire de fabrication"
     },
     "level": 3,
-    "difficulty": 30
+    "difficulty": 30,
+    "durability": 60,
+    "maxQuality": 254
   },
   {
-    "maxQuality": 474,
-    "durability": 60,
     "name": {
-      "fr": "Potion de lumi\u00e8re",
       "de": "Augentropfen",
+      "en": "Eye Drops",
       "ja": "\u76ee\u85ac",
-      "en": "Eye Drops"
+      "fr": "Potion de lumi\u00e8re"
     },
     "level": 6,
-    "difficulty": 36
+    "difficulty": 36,
+    "durability": 60,
+    "maxQuality": 474
   },
   {
-    "maxQuality": 492,
-    "durability": 40,
     "name": {
-      "fr": "Caoutchouc",
       "de": "Gummi",
+      "en": "Rubber",
       "ja": "\u30e9\u30d0\u30fc",
-      "en": "Rubber"
+      "fr": "Caoutchouc"
     },
     "level": 7,
-    "difficulty": 18
+    "difficulty": 18,
+    "durability": 40,
+    "maxQuality": 492
   },
   {
-    "maxQuality": 394,
-    "durability": 60,
     "name": {
-      "fr": "Baguette orn\u00e9e",
       "de": "Fl\u00fcsternder Ahornzweig",
+      "en": "Whispering Maple Wand",
       "ja": "\u30ef\u30f3\u30c9DX",
-      "en": "Whispering Maple Wand"
+      "fr": "Baguette orn\u00e9e"
     },
     "level": 8,
-    "difficulty": 61
+    "difficulty": 61,
+    "durability": 60,
+    "maxQuality": 394
   },
   {
-    "maxQuality": 526,
-    "durability": 60,
     "name": {
-      "fr": "Picatrix",
       "de": "Ahorn-Picatrix",
+      "en": "Maple Picatrix",
       "ja": "\u30d4\u30ab\u30c8\u30ea\u30af\u30b9",
-      "en": "Maple Picatrix"
+      "fr": "Picatrix"
     },
     "level": 8,
-    "difficulty": 41
+    "difficulty": 41,
+    "durability": 60,
+    "maxQuality": 526
   },
   {
-    "maxQuality": 629,
-    "durability": 40,
     "name": {
-      "fr": "Huile de poisson",
       "de": "Fischtran",
+      "en": "Fish Oil",
       "ja": "\u30d5\u30a3\u30c3\u30b7\u30e5\u30aa\u30a4\u30eb",
-      "en": "Fish Oil"
+      "fr": "Huile de poisson"
     },
     "level": 10,
-    "difficulty": 22
+    "difficulty": 22,
+    "durability": 40,
+    "maxQuality": 629
   },
   {
-    "maxQuality": 629,
-    "durability": 40,
     "name": {
-      "fr": "Glu de poisson",
       "de": "Fischleim",
+      "en": "Fish Glue",
       "ja": "\u9b5a\u306b\u304b\u308f",
-      "en": "Fish Glue"
+      "fr": "Glu de poisson"
     },
     "level": 10,
-    "difficulty": 22
+    "difficulty": 22,
+    "durability": 40,
+    "maxQuality": 629
   },
   {
-    "maxQuality": 629,
-    "durability": 40,
     "name": {
-      "fr": "Cire d'abeille",
       "de": "Bienenwachs",
+      "en": "Beeswax",
       "ja": "\u871c\u874b",
-      "en": "Beeswax"
+      "fr": "Cire d'abeille"
     },
     "level": 10,
-    "difficulty": 22
+    "difficulty": 22,
+    "durability": 40,
+    "maxQuality": 629
   },
   {
-    "maxQuality": 471,
-    "durability": 60,
     "name": {
-      "fr": "Grimoire renforc\u00e9",
       "de": "Verziertes Leder-Grimoire",
+      "en": "Engraved Leather Grimoire",
       "ja": "\u30b0\u30ea\u30e2\u30a2DX",
-      "en": "Engraved Leather Grimoire"
+      "fr": "Grimoire renforc\u00e9"
     },
     "level": 10,
-    "difficulty": 67
+    "difficulty": 67,
+    "durability": 60,
+    "maxQuality": 471
   },
   {
-    "maxQuality": 474,
-    "durability": 40,
     "name": {
-      "fr": "Composant de jonction de moteur",
       "de": "Motorverstrebungs-Bauteil",
+      "en": "Engine Jointing Component",
       "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u63a5\u5408\u6750",
-      "en": "Engine Jointing Component"
+      "fr": "Composant de jonction de moteur"
     },
     "level": 6,
-    "difficulty": 18
+    "difficulty": 18,
+    "durability": 40,
+    "maxQuality": 474
   },
   {
-    "maxQuality": 474,
-    "durability": 40,
     "name": {
-      "fr": "Composant ext\u00e9rieur de cockpit",
       "de": "Kanzelau\u00dfenwand-Bauteil",
+      "en": "Cockpit Exterior Component",
       "ja": "\u64cd\u7e26\u5e2d\u5916\u88c5\u6750",
-      "en": "Cockpit Exterior Component"
+      "fr": "Composant ext\u00e9rieur de cockpit"
     },
     "level": 6,
-    "difficulty": 18
+    "difficulty": 18,
+    "durability": 40,
+    "maxQuality": 474
   },
   {
-    "maxQuality": 474,
-    "durability": 40,
     "name": {
-      "fr": "Composant int\u00e9rieur de cockpit",
       "de": "Kanzelinnenwand-Bauteil",
+      "en": "Cockpit Interior Component",
       "ja": "\u64cd\u7e26\u5e2d\u5185\u88c5\u6750",
-      "en": "Cockpit Interior Component"
+      "fr": "Composant int\u00e9rieur de cockpit"
     },
     "level": 6,
-    "difficulty": 18
+    "difficulty": 18,
+    "durability": 40,
+    "maxQuality": 474
   },
   {
-    "maxQuality": 474,
-    "durability": 60,
     "name": {
-      "fr": "Composant de lest",
       "de": "Ballast-Bauteil",
+      "en": "Ballast Component",
       "ja": "\u30d0\u30e9\u30b9\u30c8\u90e8\u6750",
-      "en": "Ballast Component"
+      "fr": "Composant de lest"
     },
     "level": 6,
-    "difficulty": 36
+    "difficulty": 36,
+    "durability": 60,
+    "maxQuality": 474
   },
   {
-    "maxQuality": 237,
-    "durability": 60,
     "name": {
-      "fr": "Composant d'instrumentation",
       "de": "Steuerpult-Bauteil",
+      "en": "Instrument Panel Component",
       "ja": "\u8a08\u5668\u90e8\u6750",
-      "en": "Instrument Panel Component"
+      "fr": "Composant d'instrumentation"
     },
     "level": 6,
-    "difficulty": 115
+    "difficulty": 115,
+    "durability": 60,
+    "maxQuality": 237
   },
   {
-    "maxQuality": 474,
-    "durability": 60,
     "name": {
-      "fr": "Composant de nez profil\u00e9",
       "de": "Aerodynamo-Bauteil",
+      "en": "Aerodynamo Component",
       "ja": "\u7a7a\u529b\u90e8\u6750",
-      "en": "Aerodynamo Component"
+      "fr": "Composant de nez profil\u00e9"
     },
     "level": 6,
-    "difficulty": 36
+    "difficulty": 36,
+    "durability": 60,
+    "maxQuality": 474
   },
   {
-    "maxQuality": 629,
-    "durability": 40,
     "name": {
-      "fr": "Composant d'aile droite",
       "de": "Steuerbordtragfl\u00e4chen-Bauteil",
+      "en": "Starboard Wing Component",
       "ja": "\u53f3\u7ffc\u90e8\u6750",
-      "en": "Starboard Wing Component"
+      "fr": "Composant d'aile droite"
     },
     "level": 10,
-    "difficulty": 22
+    "difficulty": 22,
+    "durability": 40,
+    "maxQuality": 629
   },
   {
-    "maxQuality": 629,
-    "durability": 40,
     "name": {
-      "fr": "Composant d'aile gauche",
       "de": "Backbordtragfl\u00e4chen-Bauteil",
+      "en": "Larboard Wing Component",
       "ja": "\u5de6\u7ffc\u90e8\u6750",
-      "en": "Larboard Wing Component"
+      "fr": "Composant d'aile gauche"
     },
     "level": 10,
-    "difficulty": 22
-  },
-  {
-    "maxQuality": 471,
-    "durability": 60,
-    "name": {
-      "fr": "Comp. d'articulation d'aile droite",
-      "de": "Steuerbord-Tragfl\u00e4chengelenk-Bauteil",
-      "ja": "\u53f3\u7ffc\u53ef\u52d5\u90e8\u6750",
-      "en": "Starboard Wing Control Component"
-    },
-    "level": 10,
-    "difficulty": 67
-  },
-  {
-    "maxQuality": 471,
-    "durability": 60,
-    "name": {
-      "fr": "Comp. d'articulation d'aile gauche",
-      "de": "Backbord-Tragfl\u00e4chengelenk-Bauteil",
-      "ja": "\u5de6\u7ffc\u53ef\u52d5\u90e8\u6750",
-      "en": "Larboard Wing Control Component"
-    },
-    "level": 10,
-    "difficulty": 67
-  },
-  {
-    "maxQuality": 314,
-    "durability": 60,
-    "name": {
-      "fr": "Composant de transmission",
-      "de": "Sprechanlagen-Bauteil",
-      "ja": "\u4f1d\u9054\u7cfb\u90e8\u6750",
-      "en": "Transmission Component"
-    },
-    "level": 10,
-    "difficulty": 144
-  },
-  {
-    "maxQuality": 314,
-    "durability": 60,
-    "name": {
-      "fr": "Composant de ventilation",
-      "de": "K\u00fchler-Bauteil",
-      "ja": "\u6392\u71b1\u90e8\u6750",
-      "en": "Heat Vent Component"
-    },
-    "level": 10,
-    "difficulty": 144
-  },
-  {
-    "maxQuality": 665,
+    "difficulty": 22,
     "durability": 40,
+    "maxQuality": 629
+  },
+  {
     "name": {
-      "fr": "Tuile",
+      "de": "Steuerbord-Tragfl\u00e4chengelenk-Bauteil",
+      "en": "Starboard Wing Control Component",
+      "ja": "\u53f3\u7ffc\u53ef\u52d5\u90e8\u6750",
+      "fr": "Comp. d'articulation d'aile droite"
+    },
+    "level": 10,
+    "difficulty": 67,
+    "durability": 60,
+    "maxQuality": 471
+  },
+  {
+    "name": {
+      "de": "Backbord-Tragfl\u00e4chengelenk-Bauteil",
+      "en": "Larboard Wing Control Component",
+      "ja": "\u5de6\u7ffc\u53ef\u52d5\u90e8\u6750",
+      "fr": "Comp. d'articulation d'aile gauche"
+    },
+    "level": 10,
+    "difficulty": 67,
+    "durability": 60,
+    "maxQuality": 471
+  },
+  {
+    "name": {
+      "de": "Sprechanlagen-Bauteil",
+      "en": "Transmission Component",
+      "ja": "\u4f1d\u9054\u7cfb\u90e8\u6750",
+      "fr": "Composant de transmission"
+    },
+    "level": 10,
+    "difficulty": 144,
+    "durability": 60,
+    "maxQuality": 314
+  },
+  {
+    "name": {
+      "de": "K\u00fchler-Bauteil",
+      "en": "Heat Vent Component",
+      "ja": "\u6392\u71b1\u90e8\u6750",
+      "fr": "Composant de ventilation"
+    },
+    "level": 10,
+    "difficulty": 144,
+    "durability": 60,
+    "maxQuality": 314
+  },
+  {
+    "name": {
       "de": "Dachziegel",
+      "en": "Roof Tile",
       "ja": "\u30eb\u30fc\u30d5\u30bf\u30a4\u30eb",
-      "en": "Roof Tile"
+      "fr": "Tuile"
     },
     "level": 11,
-    "difficulty": 24
+    "difficulty": 24,
+    "durability": 40,
+    "maxQuality": 665
   },
   {
-    "maxQuality": 498,
-    "durability": 60,
     "name": {
-      "fr": "Baguette bourgeonnante",
       "de": "F\u00fcnfbl\u00e4ttriger Ahornzweig",
+      "en": "Budding Maple Wand",
       "ja": "\u30d0\u30c3\u30c7\u30c3\u30c9\u30ef\u30f3\u30c9",
-      "en": "Budding Maple Wand"
+      "fr": "Baguette bourgeonnante"
     },
     "level": 11,
-    "difficulty": 72
+    "difficulty": 72,
+    "durability": 60,
+    "maxQuality": 498
   },
   {
-    "maxQuality": 702,
-    "durability": 60,
     "name": {
-      "fr": "Potion",
       "de": "Heiltrank",
+      "en": "Potion",
       "ja": "\u30dd\u30fc\u30b7\u30e7\u30f3",
-      "en": "Potion"
+      "fr": "Potion"
     },
     "level": 12,
-    "difficulty": 53
+    "difficulty": 53,
+    "durability": 60,
+    "maxQuality": 702
   },
   {
-    "maxQuality": 726,
-    "durability": 60,
     "name": {
-      "fr": "Picatrix en fr\u00eane",
       "de": "Eschen-Picatrix",
+      "en": "Ash Picatrix",
       "ja": "\u30a2\u30c3\u30b7\u30e5\u30d4\u30ab\u30c8\u30ea\u30af\u30b9",
-      "en": "Ash Picatrix"
+      "fr": "Picatrix en fr\u00eane"
     },
     "level": 13,
-    "difficulty": 54
-  },
-  {
-    "maxQuality": 751,
-    "durability": 40,
-    "name": {
-      "fr": "Essence de girofle",
-      "de": "Nelken\u00f6l",
-      "ja": "\u30af\u30ed\u30fc\u30f4\u30aa\u30a4\u30eb",
-      "en": "Clove Oil"
-    },
-    "level": 14,
-    "difficulty": 27
-  },
-  {
-    "maxQuality": 751,
-    "durability": 40,
-    "name": {
-      "fr": "Encre de fer enchant\u00e9e",
-      "de": "Magische Eisentinte",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Iron Ink"
-    },
-    "level": 14,
-    "difficulty": 27
-  },
-  {
-    "maxQuality": 807,
-    "durability": 40,
-    "name": {
-      "fr": "Formule de croissance b\u00eata",
-      "de": "Wachstumsformel Beta",
-      "ja": "\u30b0\u30ed\u30fc\u30b9\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30d9\u30fc\u30bf",
-      "en": "Growth Formula Beta"
-    },
-    "level": 15,
-    "difficulty": 27
-  },
-  {
-    "maxQuality": 807,
-    "durability": 70,
-    "name": {
-      "fr": "\u00c9ther",
-      "de": "\u00c4ther",
-      "ja": "\u30a8\u30fc\u30c6\u30eb",
-      "en": "Ether"
-    },
-    "level": 15,
-    "difficulty": 55
-  },
-  {
-    "maxQuality": 363,
+    "difficulty": 54,
     "durability": 60,
+    "maxQuality": 726
+  },
+  {
     "name": {
-      "fr": "Pot en terre cuite",
+      "de": "Nelken\u00f6l",
+      "en": "Clove Oil",
+      "ja": "\u30af\u30ed\u30fc\u30f4\u30aa\u30a4\u30eb",
+      "fr": "Essence de girofle"
+    },
+    "level": 14,
+    "difficulty": 27,
+    "durability": 40,
+    "maxQuality": 751
+  },
+  {
+    "name": {
+      "de": "Magische Eisentinte",
+      "en": "Enchanted Iron Ink",
+      "ja": "\u30a2\u30a4\u30a2\u30f3\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
+      "fr": "Encre de fer enchant\u00e9e"
+    },
+    "level": 14,
+    "difficulty": 27,
+    "durability": 40,
+    "maxQuality": 751
+  },
+  {
+    "name": {
+      "de": "Wachstumsformel Beta",
+      "en": "Growth Formula Beta",
+      "ja": "\u30b0\u30ed\u30fc\u30b9\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30d9\u30fc\u30bf",
+      "fr": "Formule de croissance b\u00eata"
+    },
+    "level": 15,
+    "difficulty": 27,
+    "durability": 40,
+    "maxQuality": 807
+  },
+  {
+    "name": {
+      "de": "\u00c4ther",
+      "en": "Ether",
+      "ja": "\u30a8\u30fc\u30c6\u30eb",
+      "fr": "\u00c9ther"
+    },
+    "level": 15,
+    "difficulty": 55,
+    "durability": 70,
+    "maxQuality": 807
+  },
+  {
+    "name": {
       "de": "Terrakotta-Topf",
+      "en": "Terracotta Pot",
       "ja": "\u7d20\u713c\u304d\u306e\u58fa",
-      "en": "Terracotta Pot"
+      "fr": "Pot en terre cuite"
     },
     "level": 13,
-    "difficulty": 172
+    "difficulty": 172,
+    "durability": 60,
+    "maxQuality": 363
   },
   {
-    "maxQuality": 403,
-    "durability": 70,
     "name": {
-      "fr": "N\u00e9cessaire de bureau",
       "de": "Schreibset",
+      "en": "Ink & Quill",
       "ja": "\u6587\u623f\u5177\u4e00\u5f0f",
-      "en": "Ink & Quill"
+      "fr": "N\u00e9cessaire de bureau"
     },
     "level": 15,
-    "difficulty": 176
+    "difficulty": 176,
+    "durability": 70,
+    "maxQuality": 403
   },
   {
-    "maxQuality": 1452,
-    "durability": 70,
     "name": {
-      "fr": "Composant de gouvernail",
       "de": "Steuereinheits-Bauteil",
+      "en": "Helm Component",
       "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u64cd\u8235\u88c5\u7f6e\u90e8\u6750",
-      "en": "Helm Component"
+      "fr": "Composant de gouvernail"
     },
     "level": 15,
-    "difficulty": 99
+    "difficulty": 99,
+    "durability": 70,
+    "maxQuality": 1452
   },
   {
-    "maxQuality": 605,
-    "durability": 70,
     "name": {
-      "fr": "Composant de tuyau acoustique",
       "de": "Kommunikationsrohr-Bauteil",
+      "en": "Speaking Tube Component",
       "ja": "\u4f1d\u58f0\u7cfb\u90e8\u6750",
-      "en": "Speaking Tube Component"
+      "fr": "Composant de tuyau acoustique"
     },
     "level": 15,
-    "difficulty": 82
+    "difficulty": 82,
+    "durability": 70,
+    "maxQuality": 605
   },
   {
-    "maxQuality": 807,
-    "durability": 40,
     "name": {
-      "fr": "Composant d'\u00e9clairage",
       "de": "Beleuchtungs-Bauteil",
+      "en": "Lamp Component",
       "ja": "\u30e9\u30f3\u30d7\u90e8\u6750",
-      "en": "Lamp Component"
+      "fr": "Composant d'\u00e9clairage"
     },
     "level": 15,
-    "difficulty": 27
+    "difficulty": 27,
+    "durability": 40,
+    "maxQuality": 807
   },
   {
-    "maxQuality": 1452,
-    "durability": 70,
     "name": {
-      "fr": "Composant d'\u00e9chappement",
       "de": "Schornstein-Bauteil",
+      "en": "Exhaust Outlet Component",
       "ja": "\u6392\u6c17\u7cfb\u90e8\u6750",
-      "en": "Exhaust Outlet Component"
+      "fr": "Composant d'\u00e9chappement"
     },
     "level": 15,
-    "difficulty": 99
+    "difficulty": 99,
+    "durability": 70,
+    "maxQuality": 1452
   },
   {
-    "maxQuality": 403,
-    "durability": 70,
     "name": {
-      "fr": "Composant de syst\u00e8me d'\u00e9vacuation",
       "de": "Entsorgungssystem-Bauteil",
+      "en": "Disposal Unit Component",
       "ja": "\u7dca\u6025\u5ec3\u68c4\u90e8\u6750",
-      "en": "Disposal Unit Component"
+      "fr": "Composant de syst\u00e8me d'\u00e9vacuation"
     },
     "level": 15,
-    "difficulty": 176
+    "difficulty": 176,
+    "durability": 70,
+    "maxQuality": 403
   },
   {
-    "maxQuality": 403,
-    "durability": 70,
     "name": {
-      "fr": "Composant de r\u00e9servoir",
       "de": "Erdseim-Tank-Bauteil",
+      "en": "Ceruleum Tank Component",
       "ja": "\u9752\u71d0\u30bf\u30f3\u30af\u90e8\u6750",
-      "en": "Ceruleum Tank Component"
+      "fr": "Composant de r\u00e9servoir"
     },
     "level": 15,
-    "difficulty": 176
+    "difficulty": 176,
+    "durability": 70,
+    "maxQuality": 403
   },
   {
-    "maxQuality": 605,
-    "durability": 70,
     "name": {
-      "fr": "Composant de module de pilotage",
       "de": "Steuermechanismus-Bauteil",
+      "en": "Steering Mechanism Component",
       "ja": "\u64cd\u7e26\u6a5f\u5177\u90e8\u6750",
-      "en": "Steering Mechanism Component"
+      "fr": "Composant de module de pilotage"
     },
     "level": 15,
-    "difficulty": 82
+    "difficulty": 82,
+    "durability": 70,
+    "maxQuality": 605
   },
   {
-    "maxQuality": 866,
-    "durability": 70,
     "name": {
-      "fr": "Baguette en fr\u00eane",
       "de": "Eschenzweig",
+      "en": "Ash Wand",
       "ja": "\u30a2\u30c3\u30b7\u30e5\u30ef\u30f3\u30c9",
-      "en": "Ash Wand"
+      "fr": "Baguette en fr\u00eane"
     },
     "level": 16,
-    "difficulty": 63
+    "difficulty": 63,
+    "durability": 70,
+    "maxQuality": 866
   },
   {
-    "maxQuality": 866,
-    "durability": 70,
     "name": {
-      "fr": "Grimoire en cuir rigide",
       "de": "Juchleder-Grimoire",
+      "en": "Hard Leather Grimoire",
       "ja": "\u30cf\u30fc\u30c9\u30ec\u30b6\u30fc\u30b0\u30ea\u30e2\u30a2",
-      "en": "Hard Leather Grimoire"
+      "fr": "Grimoire en cuir rigide"
     },
     "level": 16,
-    "difficulty": 63
+    "difficulty": 63,
+    "durability": 70,
+    "maxQuality": 866
   },
   {
-    "maxQuality": 866,
-    "durability": 70,
     "name": {
-      "fr": "Solution d'intelligence",
       "de": "Trank der Intelligenz",
+      "en": "Potion of Intelligence",
       "ja": "\u77e5\u529b\u306e\u85ac",
-      "en": "Potion of Intelligence"
+      "fr": "Solution d'intelligence"
     },
     "level": 16,
-    "difficulty": 63
+    "difficulty": 63,
+    "durability": 70,
+    "maxQuality": 866
   },
   {
-    "maxQuality": 898,
-    "durability": 70,
     "name": {
-      "fr": "Solution de dext\u00e9rit\u00e9",
       "de": "Trank der Geschicklichkeit",
+      "en": "Potion of Dexterity",
       "ja": "\u773c\u529b\u306e\u85ac",
-      "en": "Potion of Dexterity"
+      "fr": "Solution de dext\u00e9rit\u00e9"
     },
     "level": 17,
-    "difficulty": 66
+    "difficulty": 66,
+    "durability": 70,
+    "maxQuality": 898
   },
   {
-    "maxQuality": 939,
-    "durability": 40,
     "name": {
-      "fr": "Brique",
       "de": "Ziegelstein",
+      "en": "Firebricks",
       "ja": "\u7149\u74e6",
-      "en": "Firebricks"
+      "fr": "Brique"
     },
     "level": 18,
-    "difficulty": 33
+    "difficulty": 33,
+    "durability": 40,
+    "maxQuality": 939
   },
   {
-    "maxQuality": 939,
-    "durability": 70,
     "name": {
-      "fr": "Solution de vitalit\u00e9",
       "de": "Trank der Konstitution",
+      "en": "Potion of Vitality",
       "ja": "\u6d3b\u529b\u306e\u85ac",
-      "en": "Potion of Vitality"
+      "fr": "Solution de vitalit\u00e9"
     },
     "level": 18,
-    "difficulty": 67
+    "difficulty": 67,
+    "durability": 70,
+    "maxQuality": 939
   },
   {
-    "maxQuality": 982,
-    "durability": 40,
     "name": {
-      "fr": "Fluide de m\u00e9duse",
       "de": "Quallen-K\u00f6rpersaft",
+      "en": "Jellyfish Humours",
       "ja": "\u30b8\u30a7\u30ea\u30fc\u30aa\u30a4\u30eb",
-      "en": "Jellyfish Humours"
+      "fr": "Fluide de m\u00e9duse"
     },
     "level": 19,
-    "difficulty": 34
-  },
-  {
-    "maxQuality": 982,
-    "durability": 70,
-    "name": {
-      "fr": "Solution de force",
-      "de": "Trank der St\u00e4rke",
-      "ja": "\u525b\u529b\u306e\u85ac",
-      "en": "Potion of Strength"
-    },
-    "level": 19,
-    "difficulty": 68
-  },
-  {
-    "maxQuality": 1053,
+    "difficulty": 34,
     "durability": 40,
+    "maxQuality": 982
+  },
+  {
     "name": {
-      "fr": "Pot de mortier",
+      "de": "Trank der St\u00e4rke",
+      "en": "Potion of Strength",
+      "ja": "\u525b\u529b\u306e\u85ac",
+      "fr": "Solution de force"
+    },
+    "level": 19,
+    "difficulty": 68,
+    "durability": 70,
+    "maxQuality": 982
+  },
+  {
+    "name": {
       "de": "M\u00f6rtel",
+      "en": "Mortar",
       "ja": "\u6f06\u55b0",
-      "en": "Mortar"
+      "fr": "Pot de mortier"
     },
     "level": 20,
-    "difficulty": 37
+    "difficulty": 37,
+    "durability": 40,
+    "maxQuality": 1053
   },
   {
-    "maxQuality": 789,
-    "durability": 70,
     "name": {
-      "fr": "Grimoire en cuir rigide renforc\u00e9",
       "de": "Verziertes Juchleder-Grimoire",
+      "en": "Engraved Hard Leather Grimoire",
       "ja": "\u30cf\u30fc\u30c9\u30ec\u30b6\u30fc\u30b0\u30ea\u30e2\u30a2DX",
-      "en": "Engraved Hard Leather Grimoire"
+      "fr": "Grimoire en cuir rigide renforc\u00e9"
     },
     "level": 20,
-    "difficulty": 111
+    "difficulty": 111,
+    "durability": 70,
+    "maxQuality": 789
   },
   {
-    "maxQuality": 1053,
-    "durability": 70,
     "name": {
-      "fr": "Solution d'esprit",
       "de": "Trank der Willenskraft",
+      "en": "Potion of Mind",
       "ja": "\u5fc3\u529b\u306e\u85ac",
-      "en": "Potion of Mind"
+      "fr": "Solution d'esprit"
     },
     "level": 20,
-    "difficulty": 74
+    "difficulty": 74,
+    "durability": 70,
+    "maxQuality": 1053
   },
   {
-    "maxQuality": 449,
-    "durability": 70,
     "name": {
-      "fr": "Jardini\u00e8re bas-tonneau",
       "de": "Blumenk\u00fcbel",
+      "en": "Low Barrel Planter",
       "ja": "\u30ed\u30a6\u30d0\u30ec\u30eb\u30d7\u30e9\u30f3\u30bf\u30fc",
-      "en": "Low Barrel Planter"
+      "fr": "Jardini\u00e8re bas-tonneau"
     },
     "level": 17,
-    "difficulty": 211
+    "difficulty": 211,
+    "durability": 70,
+    "maxQuality": 449
   },
   {
-    "maxQuality": 526,
-    "durability": 70,
     "name": {
-      "fr": "Auvent en tuiles sombrelin\u00e7ois",
       "de": "Wald-Ziegelvordach",
+      "en": "Glade Tiled Awning",
       "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30bf\u30a4\u30eb\u30aa\u30fc\u30cb\u30f3\u30b0",
-      "en": "Glade Tiled Awning"
+      "fr": "Auvent en tuiles sombrelin\u00e7ois"
     },
     "level": 20,
-    "difficulty": 236
+    "difficulty": 236,
+    "durability": 70,
+    "maxQuality": 526
   },
   {
-    "maxQuality": 526,
-    "durability": 70,
     "name": {
-      "fr": "Palmier insulaire nosc\u00e9en",
       "de": "Vylbrand-Palme",
+      "en": "Island Palm",
       "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a2\u30a4\u30e9\u30f3\u30c9\u30d1\u30fc\u30e0",
-      "en": "Island Palm"
+      "fr": "Palmier insulaire nosc\u00e9en"
     },
     "level": 20,
-    "difficulty": 236
+    "difficulty": 236,
+    "durability": 70,
+    "maxQuality": 526
   },
   {
-    "maxQuality": 526,
-    "durability": 70,
     "name": {
-      "fr": "Philodendron sombrelin\u00e7ois",
       "de": "Wald-Laubbaum",
+      "en": "Shroud Broadleaf",
       "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d6\u30ed\u30fc\u30c9\u30ea\u30fc\u30d5",
-      "en": "Shroud Broadleaf"
+      "fr": "Philodendron sombrelin\u00e7ois"
     },
     "level": 20,
-    "difficulty": 236
+    "difficulty": 236,
+    "durability": 70,
+    "maxQuality": 526
   },
   {
-    "maxQuality": 526,
-    "durability": 70,
     "name": {
-      "fr": "Bois de fer thanalanais",
       "de": "W\u00fcsteneisenholz-Baum",
+      "en": "Desert Ironwood",
       "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a2\u30a4\u30a2\u30f3\u30a6\u30c3\u30c9",
-      "en": "Desert Ironwood"
+      "fr": "Bois de fer thanalanais"
     },
     "level": 20,
-    "difficulty": 236
+    "difficulty": 236,
+    "durability": 70,
+    "maxQuality": 526
   },
   {
-    "maxQuality": 526,
-    "durability": 70,
     "name": {
-      "fr": "Toit de maisonnette en bois nosc\u00e9enne",
       "de": "Riviera-Holzh\u00fcttendach",
+      "en": "Riviera Cottage Roof (Wood)",
       "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a6\u30c3\u30c9\u30b3\u30c6\u30fc\u30b8\u30fb\u30eb\u30fc\u30d5",
-      "en": "Riviera Cottage Roof (Wood)"
+      "fr": "Toit de maisonnette en bois nosc\u00e9enne"
     },
     "level": 20,
-    "difficulty": 236
+    "difficulty": 236,
+    "durability": 70,
+    "maxQuality": 526
   },
   {
-    "maxQuality": 1558,
-    "durability": 70,
     "name": {
-      "fr": "Composant de syst\u00e8me d'\u00e9jection",
       "de": "Rettungsboots-Bauteil",
+      "en": "Escape Flyer Component",
       "ja": "\u7dca\u6025\u8131\u51fa\u7528\u5177",
-      "en": "Escape Flyer Component"
+      "fr": "Composant de syst\u00e8me d'\u00e9jection"
     },
     "level": 16,
-    "difficulty": 113
+    "difficulty": 113,
+    "durability": 70,
+    "maxQuality": 1558
   },
   {
-    "maxQuality": 433,
-    "durability": 70,
     "name": {
-      "fr": "Composant de r\u00e9servoir de secours",
       "de": "Reservetank-Bauteil",
+      "en": "Spare Tank Component",
       "ja": "\u4e88\u5099\u30bf\u30f3\u30af\u90e8\u6750",
-      "en": "Spare Tank Component"
+      "fr": "Composant de r\u00e9servoir de secours"
     },
     "level": 16,
-    "difficulty": 201
+    "difficulty": 201,
+    "durability": 70,
+    "maxQuality": 433
   },
   {
-    "maxQuality": 866,
-    "durability": 40,
     "name": {
-      "fr": "Composant d'all\u00e9gement",
       "de": "Gewichtsreduktions-Bauteil",
+      "en": "Refabrication Component",
       "ja": "\u8efd\u91cf\u5316\u90e8\u6750",
-      "en": "Refabrication Component"
+      "fr": "Composant d'all\u00e9gement"
     },
     "level": 16,
-    "difficulty": 31
+    "difficulty": 31,
+    "durability": 40,
+    "maxQuality": 866
   },
   {
-    "maxQuality": 866,
-    "durability": 70,
     "name": {
-      "fr": "Composant de syst\u00e8me antivibration",
       "de": "Isolations-Bauteil",
+      "en": "Isolator Component",
       "ja": "\u514d\u9707\u90e8\u6750",
-      "en": "Isolator Component"
+      "fr": "Composant de syst\u00e8me antivibration"
     },
     "level": 16,
-    "difficulty": 63
+    "difficulty": 63,
+    "durability": 70,
+    "maxQuality": 866
   },
   {
-    "maxQuality": 433,
-    "durability": 70,
     "name": {
-      "fr": "Composant d'hyperconducteur",
       "de": "Hyperleiter-Bauteil",
+      "en": "Hyperconductor Component",
       "ja": "\u9ad8\u4f1d\u5c0e\u7387\u90e8\u6750",
-      "en": "Hyperconductor Component"
+      "fr": "Composant d'hyperconducteur"
     },
     "level": 16,
-    "difficulty": 201
+    "difficulty": 201,
+    "durability": 70,
+    "maxQuality": 433
   },
   {
-    "maxQuality": 866,
-    "durability": 70,
     "name": {
-      "fr": "Composant d'aileron",
       "de": "Aerodynamik-Verbesserer-Bauteil",
+      "en": "Auxiliary Aerodynamo Component",
       "ja": "\u88dc\u52a9\u7a7a\u529b\u90e8\u6750",
-      "en": "Auxiliary Aerodynamo Component"
+      "fr": "Composant d'aileron"
     },
     "level": 16,
-    "difficulty": 63
+    "difficulty": 63,
+    "durability": 70,
+    "maxQuality": 866
   },
   {
-    "maxQuality": 433,
-    "durability": 70,
     "name": {
-      "fr": "Composant d'ornementation",
       "de": "Zierplatten-Bauteil",
+      "en": "Decorative Plating Component",
       "ja": "\u88c5\u98fe\u90e8\u6750",
-      "en": "Decorative Plating Component"
+      "fr": "Composant d'ornementation"
     },
     "level": 16,
-    "difficulty": 201
+    "difficulty": 201,
+    "durability": 70,
+    "maxQuality": 433
   },
   {
-    "maxQuality": 1690,
-    "durability": 70,
     "name": {
-      "fr": "Composant final",
       "de": "Endst\u00fcck-Bauteil",
+      "en": "Finishing Component",
       "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u91cd\u8981\u90e8\u6750",
-      "en": "Finishing Component"
+      "fr": "Composant final"
     },
     "level": 18,
-    "difficulty": 120
+    "difficulty": 120,
+    "durability": 70,
+    "maxQuality": 1690
   },
   {
-    "maxQuality": 469,
-    "durability": 70,
     "name": {
-      "fr": "Aile d'Ehcatl",
       "de": "Bugschmuck-Bauteil",
+      "en": "Figurehead Component",
       "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u7fbd\u6839\u98fe\u308a",
-      "en": "Figurehead Component"
+      "fr": "Aile d'Ehcatl"
     },
     "level": 18,
-    "difficulty": 214
+    "difficulty": 214,
+    "durability": 70,
+    "maxQuality": 469
   },
   {
-    "maxQuality": 817,
-    "durability": 70,
     "name": {
-      "fr": "Baguette en fr\u00eane bourgeonnant",
       "de": "F\u00fcnfbl\u00e4ttriger Eschenzweig",
+      "en": "Budding Ash Wand",
       "ja": "\u30d0\u30c3\u30c7\u30c3\u30c9\u30a2\u30c3\u30b7\u30e5\u30ef\u30f3\u30c9",
-      "en": "Budding Ash Wand"
+      "fr": "Baguette en fr\u00eane bourgeonnant"
     },
     "level": 21,
-    "difficulty": 112
+    "difficulty": 112,
+    "durability": 70,
+    "maxQuality": 817
   },
   {
-    "maxQuality": 1090,
-    "durability": 70,
     "name": {
-      "fr": "Potion toxique",
       "de": "Schwach vergifteter Trunk",
+      "en": "Weak Poisoning Potion",
       "ja": "\u6bd2\u85ac",
-      "en": "Weak Poisoning Potion"
+      "fr": "Potion toxique"
     },
     "level": 21,
-    "difficulty": 75
+    "difficulty": 75,
+    "durability": 70,
+    "maxQuality": 1090
   },
   {
-    "maxQuality": 1090,
-    "durability": 70,
     "name": {
-      "fr": "Potion aveuglante",
       "de": "Schwach blendender Trunk",
+      "en": "Weak Blinding Potion",
       "ja": "\u6697\u95c7\u306e\u6bd2\u85ac",
-      "en": "Weak Blinding Potion"
+      "fr": "Potion aveuglante"
     },
     "level": 21,
-    "difficulty": 75
+    "difficulty": 75,
+    "durability": 70,
+    "maxQuality": 1090
   },
   {
-    "maxQuality": 1090,
-    "durability": 70,
     "name": {
-      "fr": "Potion soporifique",
       "de": "Schwach einschl\u00e4fernder Trunk",
+      "en": "Weak Sleeping Potion",
       "ja": "\u7761\u7720\u306e\u6bd2\u85ac",
-      "en": "Weak Sleeping Potion"
+      "fr": "Potion soporifique"
     },
     "level": 21,
-    "difficulty": 75
+    "difficulty": 75,
+    "durability": 70,
+    "maxQuality": 1090
   },
   {
-    "maxQuality": 1090,
-    "durability": 70,
     "name": {
-      "fr": "Potion paralysante",
       "de": "Schwach paralysierender Trunk",
+      "en": "Weak Paralyzing Potion",
       "ja": "\u9ebb\u75fa\u306e\u6bd2\u85ac",
-      "en": "Weak Paralyzing Potion"
+      "fr": "Potion paralysante"
     },
     "level": 21,
-    "difficulty": 75
+    "difficulty": 75,
+    "durability": 70,
+    "maxQuality": 1090
   },
   {
-    "maxQuality": 1122,
-    "durability": 70,
     "name": {
-      "fr": "Picatrix en if",
       "de": "Eiben-Picatrix",
+      "en": "Yew Picatrix",
       "ja": "\u30e6\u30fc\u30d4\u30ab\u30c8\u30ea\u30af\u30b9",
-      "en": "Yew Picatrix"
+      "fr": "Picatrix en if"
     },
     "level": 22,
-    "difficulty": 75
+    "difficulty": 75,
+    "durability": 70,
+    "maxQuality": 1122
   },
   {
-    "maxQuality": 1122,
-    "durability": 70,
     "name": {
-      "fr": "Potion d'\u00e9cho",
       "de": "Quasselwasser",
+      "en": "Echo Drops",
       "ja": "\u3084\u307e\u3073\u3053\u85ac",
-      "en": "Echo Drops"
+      "fr": "Potion d'\u00e9cho"
     },
     "level": 22,
-    "difficulty": 75
+    "difficulty": 75,
+    "durability": 70,
+    "maxQuality": 1122
   },
   {
-    "maxQuality": 1122,
-    "durability": 70,
     "name": {
-      "fr": "Potion aphonisante",
       "de": "Schwach verstummender Trunk",
+      "en": "Weak Silencing Potion",
       "ja": "\u6c88\u9ed9\u306e\u6bd2\u85ac",
-      "en": "Weak Silencing Potion"
+      "fr": "Potion aphonisante"
     },
     "level": 22,
-    "difficulty": 75
+    "difficulty": 75,
+    "durability": 70,
+    "maxQuality": 1122
   },
   {
-    "maxQuality": 1169,
-    "durability": 40,
     "name": {
-      "fr": "Encre d'argent enchant\u00e9e",
       "de": "Magische Silbertinte",
+      "en": "Enchanted Silver Ink",
       "ja": "\u30b7\u30eb\u30d0\u30fc\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Silver Ink"
+      "fr": "Encre d'argent enchant\u00e9e"
     },
     "level": 23,
-    "difficulty": 39
+    "difficulty": 39,
+    "durability": 40,
+    "maxQuality": 1169
   },
   {
-    "maxQuality": 1239,
-    "durability": 70,
     "name": {
-      "fr": "Grimoire en cuir de bouquetin",
       "de": "Steinbockleder-Grimoire",
+      "en": "Goatskin Grimoire",
       "ja": "\u30a2\u30eb\u30c9\u30b4\u30fc\u30c8\u30b0\u30ea\u30e2\u30a2",
-      "en": "Goatskin Grimoire"
+      "fr": "Grimoire en cuir de bouquetin"
     },
     "level": 24,
-    "difficulty": 85
+    "difficulty": 85,
+    "durability": 70,
+    "maxQuality": 1239
   },
   {
-    "maxQuality": 1296,
-    "durability": 40,
     "name": {
-      "fr": "Natron",
       "de": "Natron",
+      "en": "Natron",
       "ja": "\u91cd\u66f9",
-      "en": "Natron"
+      "fr": "Natron"
     },
     "level": 25,
-    "difficulty": 44
+    "difficulty": 44,
+    "durability": 40,
+    "maxQuality": 1296
   },
   {
-    "maxQuality": 1296,
-    "durability": 70,
     "name": {
-      "fr": "Super potion",
       "de": "Supertrank",
+      "en": "Hi-Potion",
       "ja": "\u30cf\u30a4\u30dd\u30fc\u30b7\u30e7\u30f3",
-      "en": "Hi-Potion"
+      "fr": "Super potion"
     },
     "level": 25,
-    "difficulty": 89
+    "difficulty": 89,
+    "durability": 70,
+    "maxQuality": 1296
   },
   {
-    "maxQuality": 561,
-    "durability": 70,
     "name": {
-      "fr": "Pot de maguey",
       "de": "Agave",
+      "en": "Potted Maguey",
       "ja": "\u30de\u30b2\u30a4\u306e\u9262\u690d",
-      "en": "Potted Maguey"
+      "fr": "Pot de maguey"
     },
     "level": 22,
-    "difficulty": 240
+    "difficulty": 240,
+    "durability": 70,
+    "maxQuality": 561
   },
   {
-    "maxQuality": 584,
-    "durability": 70,
     "name": {
-      "fr": "Vase de fleurs nosc\u00e9en",
       "de": "Riviera-Blumenvase",
+      "en": "Riviera Flower Vase",
       "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30d5\u30e9\u30ef\u30fc\u30d9\u30fc\u30b9",
-      "en": "Riviera Flower Vase"
+      "fr": "Vase de fleurs nosc\u00e9en"
     },
     "level": 23,
-    "difficulty": 252
+    "difficulty": 252,
+    "durability": 70,
+    "maxQuality": 584
   },
   {
-    "maxQuality": 584,
-    "durability": 70,
     "name": {
-      "fr": "Vase de fleurs sombrelin\u00e7ois",
       "de": "Wald-Blumenvase",
+      "en": "Glade Flower Vase",
       "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d5\u30e9\u30ef\u30fc\u30d9\u30fc\u30b9",
-      "en": "Glade Flower Vase"
+      "fr": "Vase de fleurs sombrelin\u00e7ois"
     },
     "level": 23,
-    "difficulty": 252
+    "difficulty": 252,
+    "durability": 70,
+    "maxQuality": 584
   },
   {
-    "maxQuality": 584,
-    "durability": 70,
     "name": {
-      "fr": "Vase de fleurs thanalanais",
       "de": "Oasen-Blumenvase",
+      "en": "Oasis Flower Vase",
       "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30d5\u30e9\u30ef\u30fc\u30d9\u30fc\u30b9",
-      "en": "Oasis Flower Vase"
+      "fr": "Vase de fleurs thanalanais"
     },
     "level": 23,
-    "difficulty": 252
+    "difficulty": 252,
+    "durability": 70,
+    "maxQuality": 584
   },
   {
-    "maxQuality": 584,
-    "durability": 70,
     "name": {
-      "fr": "Necrang\u00e9e de Toto-Rak",
       "de": "Tausendschl\u00fcndekraut",
+      "en": "Ghostmaws",
       "ja": "\u5343\u7344\u306e\u4ea1\u8005\u8349",
-      "en": "Ghostmaws"
+      "fr": "Necrang\u00e9e de Toto-Rak"
     },
     "level": 23,
-    "difficulty": 252
+    "difficulty": 252,
+    "durability": 70,
+    "maxQuality": 584
   },
   {
-    "maxQuality": 584,
-    "durability": 70,
     "name": {
-      "fr": "Toit de maisonnette composite sombrelin\u00e7oise",
       "de": "Wald-Komposith\u00fcttendach",
+      "en": "Glade Cottage Roof (Composite)",
       "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30b3\u30c6\u30fc\u30b8\u30fb\u30eb\u30fc\u30d5",
-      "en": "Glade Cottage Roof (Composite)"
+      "fr": "Toit de maisonnette composite sombrelin\u00e7oise"
     },
     "level": 23,
-    "difficulty": 252
+    "difficulty": 252,
+    "durability": 70,
+    "maxQuality": 584
   },
   {
-    "maxQuality": 619,
-    "durability": 70,
     "name": {
-      "fr": "Pierre indestructible",
       "de": "Zierfelsen",
+      "en": "Unbreakable Rock",
       "ja": "\u53e9\u304d\u5272\u308c\u306c\u5ead\u77f3",
-      "en": "Unbreakable Rock"
+      "fr": "Pierre indestructible"
     },
     "level": 24,
-    "difficulty": 272
+    "difficulty": 272,
+    "durability": 70,
+    "maxQuality": 619
   },
   {
-    "maxQuality": 619,
-    "durability": 70,
     "name": {
-      "fr": "Faucheuse de Toto-Rak",
       "de": "H\u00f6llentau-Gras",
+      "en": "Pyrepods",
       "ja": "\u5343\u7344\u306e\u706b\u846c\u82b1",
-      "en": "Pyrepods"
+      "fr": "Faucheuse de Toto-Rak"
     },
     "level": 24,
-    "difficulty": 272
+    "difficulty": 272,
+    "durability": 70,
+    "maxQuality": 619
   },
   {
-    "maxQuality": 648,
-    "durability": 70,
     "name": {
-      "fr": "Jardini\u00e8re demi-tonneau",
       "de": "Fass-Pflanzkasten",
+      "en": "Half Barrel Planter",
       "ja": "\u30cf\u30fc\u30d5\u30d0\u30ec\u30eb\u30d7\u30e9\u30f3\u30bf\u30fc",
-      "en": "Half Barrel Planter"
+      "fr": "Jardini\u00e8re demi-tonneau"
     },
     "level": 25,
-    "difficulty": 284
+    "difficulty": 284,
+    "durability": 70,
+    "maxQuality": 648
   },
   {
-    "maxQuality": 648,
-    "durability": 70,
     "name": {
-      "fr": "Corail bleu sastashien",
       "de": "Blaues Korallen-Gebilde",
+      "en": "Blue Coral Formation",
       "ja": "\u6d78\u98df\u6d1e\u306e\u9752\u73ca\u745a",
-      "en": "Blue Coral Formation"
+      "fr": "Corail bleu sastashien"
     },
     "level": 25,
-    "difficulty": 284
+    "difficulty": 284,
+    "durability": 70,
+    "maxQuality": 648
   },
   {
-    "maxQuality": 648,
-    "durability": 70,
     "name": {
-      "fr": "An\u00e9mone gardienne de Toto-Rak",
       "de": "Kerker-Kelchblume",
+      "en": "Turnkey's Cups",
       "ja": "\u5343\u7344\u306e\u770b\u5b88\u8349",
-      "en": "Turnkey's Cups"
+      "fr": "An\u00e9mone gardienne de Toto-Rak"
     },
     "level": 25,
-    "difficulty": 284
+    "difficulty": 284,
+    "durability": 70,
+    "maxQuality": 648
   },
   {
-    "maxQuality": 1332,
-    "durability": 40,
     "name": {
-      "fr": "Huile de crabe",
       "de": "Krabbentran",
+      "en": "Crab Oil",
       "ja": "\u30af\u30e9\u30d6\u30aa\u30a4\u30eb",
-      "en": "Crab Oil"
+      "fr": "Huile de crabe"
     },
     "level": 26,
-    "difficulty": 45
+    "difficulty": 45,
+    "durability": 40,
+    "maxQuality": 1332
   },
   {
-    "maxQuality": 1026,
-    "durability": 70,
     "name": {
-      "fr": "Baguette en fr\u00eane orn\u00e9e",
       "de": "Fl\u00fcsternder Eschenzweig",
+      "en": "Whispering Ash Wand",
       "ja": "\u30a2\u30c3\u30b7\u30e5\u30ef\u30f3\u30c9DX",
-      "en": "Whispering Ash Wand"
+      "fr": "Baguette en fr\u00eane orn\u00e9e"
     },
     "level": 27,
-    "difficulty": 136
+    "difficulty": 136,
+    "durability": 70,
+    "maxQuality": 1026
   },
   {
-    "maxQuality": 1498,
-    "durability": 40,
     "name": {
-      "fr": "Plaque de verre incolore",
       "de": "Klarglasscheibe",
+      "en": "Clear Glass Lens",
       "ja": "\u30ac\u30e9\u30b9\u677f",
-      "en": "Clear Glass Lens"
+      "fr": "Plaque de verre incolore"
     },
     "level": 28,
-    "difficulty": 50
+    "difficulty": 50,
+    "durability": 40,
+    "maxQuality": 1498
   },
   {
-    "maxQuality": 1498,
-    "durability": 70,
     "name": {
-      "fr": "Baguette en if",
       "de": "Eibenzweig",
+      "en": "Yew Wand",
       "ja": "\u30e6\u30fc\u30ef\u30f3\u30c9",
-      "en": "Yew Wand"
+      "fr": "Baguette en if"
     },
     "level": 28,
-    "difficulty": 100
+    "difficulty": 100,
+    "durability": 70,
+    "maxQuality": 1498
   },
   {
-    "maxQuality": 1544,
-    "durability": 40,
     "name": {
-      "fr": "Huile de lin",
       "de": "Leinsamen\u00f6l",
+      "en": "Linseed Oil",
       "ja": "\u30ea\u30f3\u30b7\u30fc\u30c9\u30aa\u30a4\u30eb",
-      "en": "Linseed Oil"
+      "fr": "Huile de lin"
     },
     "level": 29,
-    "difficulty": 50
+    "difficulty": 50,
+    "durability": 40,
+    "maxQuality": 1544
   },
   {
-    "maxQuality": 1158,
-    "durability": 70,
     "name": {
-      "fr": "Grimoire en cuir de bouquetin renforc\u00e9",
       "de": "Verziertes Steinbockleder-Grimoire",
+      "en": "Engraved Goatskin Grimoire",
       "ja": "\u30a2\u30eb\u30c9\u30b4\u30fc\u30c8\u30b0\u30ea\u30e2\u30a2DX",
-      "en": "Engraved Goatskin Grimoire"
+      "fr": "Grimoire en cuir de bouquetin renforc\u00e9"
     },
     "level": 29,
-    "difficulty": 151
+    "difficulty": 151,
+    "durability": 70,
+    "maxQuality": 1158
   },
   {
-    "maxQuality": 1584,
-    "durability": 40,
     "name": {
-      "fr": "Formule de croissance gamma",
       "de": "Wachstumsformel Gamma",
+      "en": "Growth Formula Gamma",
       "ja": "\u30b0\u30ed\u30fc\u30b9\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30ac\u30f3\u30de",
-      "en": "Growth Formula Gamma"
+      "fr": "Formule de croissance gamma"
     },
     "level": 30,
-    "difficulty": 51
-  },
-  {
-    "maxQuality": 1584,
+    "difficulty": 51,
     "durability": 40,
+    "maxQuality": 1584
+  },
+  {
     "name": {
-      "fr": "Glu de d\u00e9mon",
       "de": "Ogerleim",
+      "en": "Horn Glue",
       "ja": "\u9b3c\u306b\u304b\u308f",
-      "en": "Horn Glue"
+      "fr": "Glu de d\u00e9mon"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 40,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Potion d'animation",
       "de": "Revitali EX",
+      "en": "Spine Drops",
       "ja": "\u5143\u6c17\u85ac",
-      "en": "Spine Drops"
+      "fr": "Potion d'animation"
     },
     "level": 30,
-    "difficulty": 102
+    "difficulty": 102,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 666,
-    "durability": 70,
     "name": {
-      "fr": "Carrelage rose-orang\u00e9",
       "de": "Biskuit-Boden",
+      "en": "Bisque Flooring",
       "ja": "\u30d3\u30b9\u30af\u30bf\u30a4\u30eb\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0",
-      "en": "Bisque Flooring"
+      "fr": "Carrelage rose-orang\u00e9"
     },
     "level": 26,
-    "difficulty": 288
+    "difficulty": 288,
+    "durability": 70,
+    "maxQuality": 666
   },
   {
-    "maxQuality": 684,
-    "durability": 70,
     "name": {
-      "fr": "Jardini\u00e8re murale",
       "de": "Wandblumentopf",
+      "en": "Wall Planter",
       "ja": "\u30a6\u30a9\u30fc\u30eb\u30d7\u30e9\u30f3\u30bf\u30fc",
-      "en": "Wall Planter"
+      "fr": "Jardini\u00e8re murale"
     },
     "level": 27,
-    "difficulty": 291
+    "difficulty": 291,
+    "durability": 70,
+    "maxQuality": 684
   },
   {
-    "maxQuality": 749,
-    "durability": 70,
     "name": {
-      "fr": "Feu de camp d'aventurier",
       "de": "Feuerstelle",
+      "en": "Campfire",
       "ja": "\u5192\u967a\u8005\u306e\u711a\u706b\u7089",
-      "en": "Campfire"
+      "fr": "Feu de camp d'aventurier"
     },
     "level": 28,
-    "difficulty": 320
+    "difficulty": 320,
+    "durability": 70,
+    "maxQuality": 749
   },
   {
-    "maxQuality": 792,
-    "durability": 70,
     "name": {
-      "fr": "Rev\u00eatement mural en pierre",
       "de": "Stein-Innenwand",
+      "en": "Stone Interior Wall",
       "ja": "\u30b9\u30c8\u30fc\u30f3\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
-      "en": "Stone Interior Wall"
+      "fr": "Rev\u00eatement mural en pierre"
     },
     "level": 30,
-    "difficulty": 326
+    "difficulty": 326,
+    "durability": 70,
+    "maxQuality": 792
   },
   {
-    "maxQuality": 792,
-    "durability": 70,
     "name": {
-      "fr": "Parquet en pierre",
       "de": "Steinboden",
+      "en": "Stone Flooring",
       "ja": "\u30b9\u30c8\u30fc\u30f3\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0",
-      "en": "Stone Flooring"
+      "fr": "Parquet en pierre"
     },
     "level": 30,
-    "difficulty": 326
+    "difficulty": 326,
+    "durability": 70,
+    "maxQuality": 792
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture blanc neige",
       "de": "Schneewei\u00dfer Farbstoff",
+      "en": "Snow White Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30ce\u30a6\u30db\u30ef\u30a4\u30c8",
-      "en": "Snow White Dye"
+      "fr": "Teinture blanc neige"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture noir suie",
       "de": "Ru\u00dfschwarzer Farbstoff",
+      "en": "Soot Black Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30fc\u30c8\u30d6\u30e9\u30c3\u30af",
-      "en": "Soot Black Dye"
+      "fr": "Teinture noir suie"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture rouge Dalamud",
       "de": "Dalamudroter Farbstoff",
+      "en": "Dalamud Red Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c0\u30e9\u30ac\u30d6\u30ec\u30c3\u30c9",
-      "en": "Dalamud Red Dye"
+      "fr": "Teinture rouge Dalamud"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture lie-de-vin",
       "de": "Weinroter Farbstoff",
+      "en": "Wine Red Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ef\u30a4\u30f3\u30ec\u30c3\u30c9",
-      "en": "Wine Red Dye"
+      "fr": "Teinture lie-de-vin"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture orange couchant",
       "de": "Abendroter Farbstoff",
+      "en": "Sunset Orange Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b5\u30f3\u30bb\u30c3\u30c8\u30aa\u30ec\u30f3\u30b8",
-      "en": "Sunset Orange Dye"
+      "fr": "Teinture orange couchant"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture brun kobold",
       "de": "Koboldbrauner Farbstoff",
+      "en": "Kobold Brown Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30dc\u30eb\u30c9\u30d6\u30e9\u30a6\u30f3",
-      "en": "Kobold Brown Dye"
+      "fr": "Teinture brun kobold"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture orange citrouille",
       "de": "K\u00fcrbisorangener Farbstoff",
+      "en": "Pumpkin Orange Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d1\u30f3\u30d7\u30ad\u30f3\u30aa\u30ec\u30f3\u30b8",
-      "en": "Pumpkin Orange Dye"
+      "fr": "Teinture orange citrouille"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture brun argile",
       "de": "Lehmbrauner Farbstoff",
+      "en": "Loam Brown Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30e0\u30d6\u30e9\u30a6\u30f3",
-      "en": "Loam Brown Dye"
+      "fr": "Teinture brun argile"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture jaune miel",
       "de": "Honiggelber Farbstoff",
+      "en": "Honey Yellow Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30cb\u30fc\u30a4\u30a8\u30ed\u30fc",
-      "en": "Honey Yellow Dye"
+      "fr": "Teinture jaune miel"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture jaune milli-ma\u00efs",
       "de": "Maisgelber Farbstoff",
+      "en": "Millioncorn Yellow Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30df\u30ea\u30aa\u30f3\u30b3\u30fc\u30f3\u30a4\u30a8\u30ed\u30fc",
-      "en": "Millioncorn Yellow Dye"
+      "fr": "Teinture jaune milli-ma\u00efs"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture vert chasseur",
       "de": "J\u00e4gergr\u00fcner Farbstoff",
+      "en": "Hunter Green Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30f3\u30bf\u30fc\u30b0\u30ea\u30fc\u30f3",
-      "en": "Hunter Green Dye"
+      "fr": "Teinture vert chasseur"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture vert otyugh",
       "de": "Ochugr\u00fcner Farbstoff",
+      "en": "Ochu Green Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30c1\u30e5\u30fc\u30b0\u30ea\u30fc\u30f3",
-      "en": "Ochu Green Dye"
+      "fr": "Teinture vert otyugh"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture vert sapin",
       "de": "Waldgr\u00fcner Farbstoff",
+      "en": "Deepwood Green Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c7\u30a3\u30fc\u30d7\u30a6\u30c3\u30c9\u30b0\u30ea\u30fc\u30f3",
-      "en": "Deepwood Green Dye"
+      "fr": "Teinture vert sapin"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture vert c\u00e9leste",
       "de": "Jadegr\u00fcnder Farbstoff",
+      "en": "Celeste Green Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3",
-      "en": "Celeste Green Dye"
+      "fr": "Teinture vert c\u00e9leste"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture vert morbol",
       "de": "Morbolgr\u00fcner Farbstoff",
+      "en": "Morbol Green Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30e2\u30eb\u30dc\u30eb\u30b0\u30ea\u30fc\u30f3",
-      "en": "Morbol Green Dye"
+      "fr": "Teinture vert morbol"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture bleu gu\u00e8de",
       "de": "Indigoblauer Farbstoff",
+      "en": "Woad Blue Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a6\u30a9\u30fc\u30c9\u30d6\u30eb\u30fc",
-      "en": "Woad Blue Dye"
+      "fr": "Teinture bleu gu\u00e8de"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture bleu d'Othard",
       "de": "Othardblauer Farbstoff",
+      "en": "Othard Blue Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30b5\u30fc\u30c9\u30d6\u30eb\u30fc",
-      "en": "Othard Blue Dye"
+      "fr": "Teinture bleu d'Othard"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture bleu temp\u00eate",
       "de": "Sturmblauer Farbstoff",
+      "en": "Storm Blue Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30c8\u30fc\u30e0\u30d6\u30eb\u30fc",
-      "en": "Storm Blue Dye"
+      "fr": "Teinture bleu temp\u00eate"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture bleu du n\u00e9ant",
       "de": "Nichtsblauer Farbstoff",
+      "en": "Void Blue Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30f4\u30a9\u30a4\u30c9\u30d6\u30eb\u30fc",
-      "en": "Void Blue Dye"
+      "fr": "Teinture bleu du n\u00e9ant"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture bleu royal",
       "de": "K\u00f6nigsblauer Farbstoff",
+      "en": "Royal Blue Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30a4\u30e4\u30eb\u30d6\u30eb\u30fc",
-      "en": "Royal Blue Dye"
+      "fr": "Teinture bleu royal"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture bleu marine",
       "de": "Tiefblauer Farbstoff",
+      "en": "Abyssal Blue Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a2\u30d3\u30b5\u30eb\u30d6\u30eb\u30fc",
-      "en": "Abyssal Blue Dye"
+      "fr": "Teinture bleu marine"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture mauve lotus",
       "de": "Lotusrosa Farbstoff",
+      "en": "Lotus Pink Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30bf\u30b9\u30d4\u30f3\u30af",
-      "en": "Lotus Pink Dye"
+      "fr": "Teinture mauve lotus"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture mauve colibri",
       "de": "Kolibrirosa Farbstoff",
+      "en": "Colibri Pink Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30ea\u30d6\u30ea\u30d4\u30f3\u30af",
-      "en": "Colibri Pink Dye"
+      "fr": "Teinture mauve colibri"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture prune",
       "de": "Pflaumenvioletter Farbstoff",
+      "en": "Plum Purple Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d7\u30e9\u30e0\u30d1\u30fc\u30d7\u30eb",
-      "en": "Plum Purple Dye"
+      "fr": "Teinture prune"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Teinture byzantium",
       "de": "K\u00f6nigsvioletter Farbstoff",
+      "en": "Regal Purple Dye",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ea\u30fc\u30ac\u30eb\u30d1\u30fc\u30d7\u30eb",
-      "en": "Regal Purple Dye"
+      "fr": "Teinture byzantium"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Prisme mirage I (alchimie)",
       "de": "Alchemie-Projektionsprisma I",
+      "en": "Grade 1 Glamour Prism (Alchemy)",
       "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G1:\u30a2\u30eb\u30b1\u30df\u30fc",
-      "en": "Grade 1 Glamour Prism (Alchemy)"
+      "fr": "Prisme mirage I (alchimie)"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Prisme mirage II (alchimie)",
       "de": "Alchemie-Projektionsprisma II",
+      "en": "Grade 2 Glamour Prism (Alchemy)",
       "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G2:\u30a2\u30eb\u30b1\u30df\u30fc",
-      "en": "Grade 2 Glamour Prism (Alchemy)"
+      "fr": "Prisme mirage II (alchimie)"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Prisme mirage III (alchimie)",
       "de": "Alchemie-Projektionsprisma III",
+      "en": "Grade 3 Glamour Prism (Alchemy)",
       "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G3:\u30a2\u30eb\u30b1\u30df\u30fc",
-      "en": "Grade 3 Glamour Prism (Alchemy)"
+      "fr": "Prisme mirage III (alchimie)"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1584,
-    "durability": 70,
     "name": {
-      "fr": "Prisme mirage IV (alchimie)",
       "de": "Alchemie-Projektionsprisma IV",
+      "en": "Grade 4 Glamour Prism (Alchemy)",
       "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G4:\u30a2\u30eb\u30b1\u30df\u30fc",
-      "en": "Grade 4 Glamour Prism (Alchemy)"
+      "fr": "Prisme mirage IV (alchimie)"
     },
     "level": 30,
-    "difficulty": 51
-  },
-  {
-    "maxQuality": 1584,
+    "difficulty": 51,
     "durability": 70,
+    "maxQuality": 1584
+  },
+  {
     "name": {
-      "fr": "Prisme mirage V (alchimie)",
       "de": "Alchemie-Projektionsprisma V",
+      "en": "Grade 5 Glamour Prism (Alchemy)",
       "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G5:\u30a2\u30eb\u30b1\u30df\u30fc",
-      "en": "Grade 5 Glamour Prism (Alchemy)"
+      "fr": "Prisme mirage V (alchimie)"
     },
     "level": 30,
-    "difficulty": 51
+    "difficulty": 51,
+    "durability": 70,
+    "maxQuality": 1584
   },
   {
-    "maxQuality": 1670,
-    "durability": 80,
     "name": {
-      "fr": "D\u00e9coction de dext\u00e9rit\u00e9",
       "de": "Supertrank der Geschicklichkeit",
+      "en": "Hi-Potion of Dexterity",
       "ja": "\u773c\u529b\u306e\u5999\u85ac",
-      "en": "Hi-Potion of Dexterity"
+      "fr": "D\u00e9coction de dext\u00e9rit\u00e9"
     },
     "level": 31,
-    "difficulty": 106
+    "difficulty": 106,
+    "durability": 80,
+    "maxQuality": 1670
   },
   {
-    "maxQuality": 1670,
-    "durability": 80,
     "name": {
-      "fr": "D\u00e9coction d'esprit",
       "de": "Supertrank der Willenskraft",
+      "en": "Hi-Potion of Mind",
       "ja": "\u5fc3\u529b\u306e\u5999\u85ac",
-      "en": "Hi-Potion of Mind"
+      "fr": "D\u00e9coction d'esprit"
     },
     "level": 31,
-    "difficulty": 106
+    "difficulty": 106,
+    "durability": 80,
+    "maxQuality": 1670
   },
   {
-    "maxQuality": 1697,
-    "durability": 40,
     "name": {
-      "fr": "Sable noir incandescent",
       "de": "Schwarzer Feuersand",
+      "en": "Black Firesand",
       "ja": "\u9ed2\u8272\u706b\u85ac",
-      "en": "Black Firesand"
+      "fr": "Sable noir incandescent"
     },
     "level": 32,
-    "difficulty": 55
-  },
-  {
-    "maxQuality": 1697,
-    "durability": 80,
-    "name": {
-      "fr": "D\u00e9coction de vitalit\u00e9",
-      "de": "Supertrank der Konstitution",
-      "ja": "\u6d3b\u529b\u306e\u5999\u85ac",
-      "en": "Hi-Potion of Vitality"
-    },
-    "level": 32,
-    "difficulty": 110
-  },
-  {
-    "maxQuality": 1697,
-    "durability": 80,
-    "name": {
-      "fr": "D\u00e9coction d'intelligence",
-      "de": "Supertrank der Intelligenz",
-      "ja": "\u77e5\u529b\u306e\u5999\u85ac",
-      "en": "Hi-Potion of Intelligence"
-    },
-    "level": 32,
-    "difficulty": 110
-  },
-  {
-    "maxQuality": 1757,
+    "difficulty": 55,
     "durability": 40,
+    "maxQuality": 1697
+  },
+  {
     "name": {
-      "fr": "Encre de mithril enchant\u00e9e",
+      "de": "Supertrank der Konstitution",
+      "en": "Hi-Potion of Vitality",
+      "ja": "\u6d3b\u529b\u306e\u5999\u85ac",
+      "fr": "D\u00e9coction de vitalit\u00e9"
+    },
+    "level": 32,
+    "difficulty": 110,
+    "durability": 80,
+    "maxQuality": 1697
+  },
+  {
+    "name": {
+      "de": "Supertrank der Intelligenz",
+      "en": "Hi-Potion of Intelligence",
+      "ja": "\u77e5\u529b\u306e\u5999\u85ac",
+      "fr": "D\u00e9coction d'intelligence"
+    },
+    "level": 32,
+    "difficulty": 110,
+    "durability": 80,
+    "maxQuality": 1697
+  },
+  {
+    "name": {
       "de": "Magische Mithriltinte",
+      "en": "Enchanted Mythril Ink",
       "ja": "\u30df\u30b9\u30ea\u30eb\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Mythril Ink"
+      "fr": "Encre de mithril enchant\u00e9e"
     },
     "level": 33,
-    "difficulty": 55
+    "difficulty": 55,
+    "durability": 40,
+    "maxQuality": 1757
   },
   {
-    "maxQuality": 1757,
-    "durability": 80,
     "name": {
-      "fr": "D\u00e9coction de force",
       "de": "Supertrank der St\u00e4rke",
+      "en": "Hi-Potion of Strength",
       "ja": "\u525b\u529b\u306e\u5999\u85ac",
-      "en": "Hi-Potion of Strength"
+      "fr": "D\u00e9coction de force"
     },
     "level": 33,
-    "difficulty": 111
+    "difficulty": 111,
+    "durability": 80,
+    "maxQuality": 1757
   },
   {
-    "maxQuality": 1358,
-    "durability": 80,
     "name": {
-      "fr": "Baguette en if bourgeonnant",
       "de": "F\u00fcnfbl\u00e4ttriger Eibenzweig",
+      "en": "Budding Yew Wand",
       "ja": "\u30d0\u30c3\u30c7\u30c3\u30c9\u30e6\u30fc\u30ef\u30f3\u30c9",
-      "en": "Budding Yew Wand"
+      "fr": "Baguette en if bourgeonnant"
     },
     "level": 34,
-    "difficulty": 172
+    "difficulty": 172,
+    "durability": 80,
+    "maxQuality": 1358
   },
   {
-    "maxQuality": 1811,
-    "durability": 80,
     "name": {
-      "fr": "Livre en argent",
       "de": "Buch des Silbers",
+      "en": "Book of Silver",
       "ja": "\u30d6\u30c3\u30af\u30fb\u30aa\u30d6\u30fb\u30b7\u30eb\u30d0\u30fc",
-      "en": "Book of Silver"
+      "fr": "Livre en argent"
     },
     "level": 34,
-    "difficulty": 115
+    "difficulty": 115,
+    "durability": 80,
+    "maxQuality": 1811
   },
   {
-    "maxQuality": 1811,
-    "durability": 80,
     "name": {
-      "fr": "Potion ignifuge",
       "de": "Feuertrank",
+      "en": "Fire Ward Potion",
       "ja": "\u9632\u706b\u306e\u85ac",
-      "en": "Fire Ward Potion"
+      "fr": "Potion ignifuge"
     },
     "level": 34,
-    "difficulty": 115
+    "difficulty": 115,
+    "durability": 80,
+    "maxQuality": 1811
   },
   {
-    "maxQuality": 1811,
-    "durability": 80,
     "name": {
-      "fr": "Potion frigifuge",
       "de": "Eistrank",
+      "en": "Ice Ward Potion",
       "ja": "\u9632\u6c37\u306e\u85ac",
-      "en": "Ice Ward Potion"
+      "fr": "Potion frigifuge"
     },
     "level": 34,
-    "difficulty": 115
+    "difficulty": 115,
+    "durability": 80,
+    "maxQuality": 1811
   },
   {
-    "maxQuality": 1811,
-    "durability": 80,
     "name": {
-      "fr": "Potion a\u00e9rofuge",
       "de": "Windtrank",
+      "en": "Wind Ward Potion",
       "ja": "\u9632\u98a8\u306e\u85ac",
-      "en": "Wind Ward Potion"
+      "fr": "Potion a\u00e9rofuge"
     },
     "level": 34,
-    "difficulty": 115
+    "difficulty": 115,
+    "durability": 80,
+    "maxQuality": 1811
   },
   {
-    "maxQuality": 1811,
-    "durability": 80,
     "name": {
-      "fr": "Potion g\u00e9ofuge",
       "de": "Erdtrank",
+      "en": "Earth Ward Potion",
       "ja": "\u9632\u571f\u306e\u85ac",
-      "en": "Earth Ward Potion"
+      "fr": "Potion g\u00e9ofuge"
     },
     "level": 34,
-    "difficulty": 115
+    "difficulty": 115,
+    "durability": 80,
+    "maxQuality": 1811
   },
   {
-    "maxQuality": 1811,
-    "durability": 80,
     "name": {
-      "fr": "Potion \u00e9lectrofuge",
       "de": "Blitztrank",
+      "en": "Lightning Ward Potion",
       "ja": "\u9632\u96f7\u306e\u85ac",
-      "en": "Lightning Ward Potion"
+      "fr": "Potion \u00e9lectrofuge"
     },
     "level": 34,
-    "difficulty": 115
+    "difficulty": 115,
+    "durability": 80,
+    "maxQuality": 1811
   },
   {
-    "maxQuality": 1811,
-    "durability": 80,
     "name": {
-      "fr": "Potion hydrofuge",
       "de": "Wassertrank",
+      "en": "Water Ward Potion",
       "ja": "\u9632\u6c34\u306e\u85ac",
-      "en": "Water Ward Potion"
+      "fr": "Potion hydrofuge"
     },
     "level": 34,
-    "difficulty": 115
+    "difficulty": 115,
+    "durability": 80,
+    "maxQuality": 1811
   },
   {
-    "maxQuality": 1853,
-    "durability": 80,
     "name": {
-      "fr": "Dagues enrageantes",
       "de": "Wahndolche",
+      "en": "Maddening Daggers",
       "ja": "\u30d5\u30ec\u30f3\u30b8\u30fc\u30c0\u30ac\u30fc",
-      "en": "Maddening Daggers"
+      "fr": "Dagues enrageantes"
     },
     "level": 35,
-    "difficulty": 123
+    "difficulty": 123,
+    "durability": 80,
+    "maxQuality": 1853
   },
   {
-    "maxQuality": 1853,
-    "durability": 80,
     "name": {
-      "fr": "Picatrix de collection",
       "de": "Restauriertes Picatrix",
+      "en": "Vintage Picatrix",
       "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30d4\u30ab\u30c8\u30ea\u30af\u30b9",
-      "en": "Vintage Picatrix"
+      "fr": "Picatrix de collection"
     },
     "level": 35,
-    "difficulty": 123
+    "difficulty": 123,
+    "durability": 80,
+    "maxQuality": 1853
   },
   {
-    "maxQuality": 1853,
-    "durability": 80,
     "name": {
-      "fr": "Super \u00e9ther",
       "de": "Super-\u00c4ther",
+      "en": "Hi-Ether",
       "ja": "\u30cf\u30a4\u30a8\u30fc\u30c6\u30eb",
-      "en": "Hi-Ether"
+      "fr": "Super \u00e9ther"
     },
     "level": 35,
-    "difficulty": 123
+    "difficulty": 123,
+    "durability": 80,
+    "maxQuality": 1853
   },
   {
-    "maxQuality": 1853,
-    "durability": 80,
     "name": {
-      "fr": "Potion toxique forte",
       "de": "Vergifteter Trunk",
+      "en": "Poisoning Potion",
       "ja": "\u731b\u6bd2\u85ac",
-      "en": "Poisoning Potion"
+      "fr": "Potion toxique forte"
     },
     "level": 35,
-    "difficulty": 123
+    "difficulty": 123,
+    "durability": 80,
+    "maxQuality": 1853
   },
   {
-    "maxQuality": 1853,
-    "durability": 80,
     "name": {
-      "fr": "Potion paralysante forte",
       "de": "Paralysierender Trunk",
+      "en": "Paralyzing Potion",
       "ja": "\u9ebb\u75fa\u306e\u731b\u6bd2\u85ac",
-      "en": "Paralyzing Potion"
+      "fr": "Potion paralysante forte"
     },
     "level": 35,
-    "difficulty": 123
+    "difficulty": 123,
+    "durability": 80,
+    "maxQuality": 1853
   },
   {
-    "maxQuality": 835,
-    "durability": 80,
     "name": {
-      "fr": "Rev\u00eatement mural thanalanais",
       "de": "Oasen-Wandverkleidung",
+      "en": "Oasis Interior Wall",
       "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
-      "en": "Oasis Interior Wall"
+      "fr": "Rev\u00eatement mural thanalanais"
     },
     "level": 31,
-    "difficulty": 339
+    "difficulty": 339,
+    "durability": 80,
+    "maxQuality": 835
   },
   {
-    "maxQuality": 878,
-    "durability": 80,
     "name": {
-      "fr": "Vasque de mercadonies",
       "de": "Mecardonia-Stock",
+      "en": "Potted Axilflower",
       "ja": "\u30a2\u30af\u30b7\u30eb\u30d5\u30e9\u30ef\u30fc\u306e\u9262\u690d",
-      "en": "Potted Axilflower"
+      "fr": "Vasque de mercadonies"
     },
     "level": 33,
-    "difficulty": 355
+    "difficulty": 355,
+    "durability": 80,
+    "maxQuality": 878
   },
   {
-    "maxQuality": 878,
-    "durability": 80,
     "name": {
-      "fr": "Pot d'azal\u00e9es",
       "de": "Azalee",
+      "en": "Potted Azalea",
       "ja": "\u30a2\u30b6\u30ec\u30a2\u306e\u9262\u690d",
-      "en": "Potted Azalea"
+      "fr": "Pot d'azal\u00e9es"
     },
     "level": 33,
-    "difficulty": 355
+    "difficulty": 355,
+    "durability": 80,
+    "maxQuality": 878
   },
   {
-    "maxQuality": 878,
-    "durability": 80,
     "name": {
-      "fr": "Pot de phalang\u00e8re",
       "de": "Gr\u00fcnlilie",
+      "en": "Potted Spider Plant",
       "ja": "\u30b9\u30d1\u30a4\u30c0\u30fc\u30d7\u30e9\u30f3\u30c8\u306e\u9262\u690d",
-      "en": "Potted Spider Plant"
+      "fr": "Pot de phalang\u00e8re"
     },
     "level": 33,
-    "difficulty": 355
+    "difficulty": 355,
+    "durability": 80,
+    "maxQuality": 878
   },
   {
-    "maxQuality": 878,
-    "durability": 80,
     "name": {
-      "fr": "Pierre moussue",
       "de": "Moosiger Konglomeratbrocken",
+      "en": "Mossy Rock",
       "ja": "\u82d4\u3080\u3057\u305f\u5ead\u77f3",
-      "en": "Mossy Rock"
+      "fr": "Pierre moussue"
     },
     "level": 33,
-    "difficulty": 355
+    "difficulty": 355,
+    "durability": 80,
+    "maxQuality": 878
   },
   {
-    "maxQuality": 905,
-    "durability": 80,
     "name": {
-      "fr": "Jardini\u00e8re bas-tonneau en ch\u00eane",
       "de": "Eichen-Blumenk\u00fcbel",
+      "en": "Oak Low Barrel Planter",
       "ja": "\u30aa\u30fc\u30af\u30fb\u30ed\u30a6\u30d0\u30ec\u30eb\u30d7\u30e9\u30f3\u30bf\u30fc",
-      "en": "Oak Low Barrel Planter"
+      "fr": "Jardini\u00e8re bas-tonneau en ch\u00eane"
     },
     "level": 34,
-    "difficulty": 368
+    "difficulty": 368,
+    "durability": 80,
+    "maxQuality": 905
   },
   {
-    "maxQuality": 926,
-    "durability": 80,
     "name": {
-      "fr": "Arbuste rond",
       "de": "Runder Busch",
+      "en": "Rounded Shrub",
       "ja": "\u7389\u5208\u751f\u57a3",
-      "en": "Rounded Shrub"
+      "fr": "Arbuste rond"
     },
     "level": 35,
-    "difficulty": 393
+    "difficulty": 393,
+    "durability": 80,
+    "maxQuality": 926
   },
   {
-    "maxQuality": 1882,
-    "durability": 80,
     "name": {
-      "fr": "Potion aveuglante forte",
       "de": "Blendender Trunk",
+      "en": "Blinding Potion",
       "ja": "\u6697\u95c7\u306e\u731b\u6bd2\u85ac",
-      "en": "Blinding Potion"
+      "fr": "Potion aveuglante forte"
     },
     "level": 36,
-    "difficulty": 124
+    "difficulty": 124,
+    "durability": 80,
+    "maxQuality": 1882
   },
   {
-    "maxQuality": 1882,
-    "durability": 80,
     "name": {
-      "fr": "Potion soporifique forte",
       "de": "Einschl\u00e4fernder Trunk",
+      "en": "Sleeping Potion",
       "ja": "\u7761\u7720\u306e\u731b\u6bd2\u85ac",
-      "en": "Sleeping Potion"
+      "fr": "Potion soporifique forte"
     },
     "level": 36,
-    "difficulty": 124
+    "difficulty": 124,
+    "durability": 80,
+    "maxQuality": 1882
   },
   {
-    "maxQuality": 1905,
-    "durability": 80,
     "name": {
-      "fr": "Potion aphonisante forte",
       "de": "Verstummender Trunk",
+      "en": "Silencing Potion",
       "ja": "\u6c88\u9ed9\u306e\u731b\u6bd2\u85ac",
-      "en": "Silencing Potion"
+      "fr": "Potion aphonisante forte"
     },
     "level": 37,
-    "difficulty": 128
+    "difficulty": 128,
+    "durability": 80,
+    "maxQuality": 1905
   },
   {
-    "maxQuality": 1961,
-    "durability": 80,
     "name": {
-      "fr": "Baguette en ch\u00eane bourgeonnant",
       "de": "F\u00fcnfbl\u00e4ttriger Eichenzweig",
+      "en": "Budding Oak Wand",
       "ja": "\u30d0\u30c3\u30c7\u30c3\u30c9\u30aa\u30fc\u30af\u30ef\u30f3\u30c9",
-      "en": "Budding Oak Wand"
+      "fr": "Baguette en ch\u00eane bourgeonnant"
     },
     "level": 38,
-    "difficulty": 129
+    "difficulty": 129,
+    "durability": 80,
+    "maxQuality": 1961
   },
   {
-    "maxQuality": 1470,
-    "durability": 80,
     "name": {
-      "fr": "Livre en argent renforc\u00e9",
       "de": "Gepr\u00e4gtes Buch des Silbers",
+      "en": "Embossed Book of Silver",
       "ja": "\u30d6\u30c3\u30af\u30fb\u30aa\u30d6\u30fb\u30b7\u30eb\u30d0\u30fcDX",
-      "en": "Embossed Book of Silver"
+      "fr": "Livre en argent renforc\u00e9"
     },
     "level": 38,
-    "difficulty": 193
+    "difficulty": 193,
+    "durability": 80,
+    "maxQuality": 1470
   },
   {
-    "maxQuality": 2026,
-    "durability": 40,
     "name": {
-      "fr": "Brique klinker",
       "de": "Glasierter Ziegelstein",
+      "en": "Clinker Bricks",
       "ja": "\u713c\u904e\u7149\u74e6",
-      "en": "Clinker Bricks"
+      "fr": "Brique klinker"
     },
     "level": 39,
-    "difficulty": 68
-  },
-  {
-    "maxQuality": 2026,
-    "durability": 80,
-    "name": {
-      "fr": "Baguette de la glace",
-      "de": "Frostzweig",
-      "ja": "\u30a2\u30a4\u30b9\u30ef\u30f3\u30c9",
-      "en": "Wand of Frost"
-    },
-    "level": 39,
-    "difficulty": 137
-  },
-  {
-    "maxQuality": 2026,
-    "durability": 80,
-    "name": {
-      "fr": "Baguette de la terre",
-      "de": "Bebenzweig",
-      "ja": "\u30a2\u30fc\u30b9\u30ef\u30f3\u30c9",
-      "en": "Wand of Tremors"
-    },
-    "level": 39,
-    "difficulty": 137
-  },
-  {
-    "maxQuality": 2026,
-    "durability": 80,
-    "name": {
-      "fr": "Baguette de l'eau",
-      "de": "Wellenzweig",
-      "ja": "\u30a6\u30a9\u30fc\u30bf\u30fc\u30ef\u30f3\u30c9",
-      "en": "Wand of Tides"
-    },
-    "level": 39,
-    "difficulty": 137
-  },
-  {
-    "maxQuality": 2050,
+    "difficulty": 68,
     "durability": 40,
+    "maxQuality": 2026
+  },
+  {
     "name": {
-      "fr": "Lanoline",
+      "de": "Frostzweig",
+      "en": "Wand of Frost",
+      "ja": "\u30a2\u30a4\u30b9\u30ef\u30f3\u30c9",
+      "fr": "Baguette de la glace"
+    },
+    "level": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "maxQuality": 2026
+  },
+  {
+    "name": {
+      "de": "Bebenzweig",
+      "en": "Wand of Tremors",
+      "ja": "\u30a2\u30fc\u30b9\u30ef\u30f3\u30c9",
+      "fr": "Baguette de la terre"
+    },
+    "level": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "maxQuality": 2026
+  },
+  {
+    "name": {
+      "de": "Wellenzweig",
+      "en": "Wand of Tides",
+      "ja": "\u30a6\u30a9\u30fc\u30bf\u30fc\u30ef\u30f3\u30c9",
+      "fr": "Baguette de l'eau"
+    },
+    "level": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "maxQuality": 2026
+  },
+  {
+    "name": {
       "de": "Lanolin",
+      "en": "Lanolin",
       "ja": "\u30e9\u30ce\u30ea\u30f3",
-      "en": "Lanolin"
+      "fr": "Lanoline"
     },
     "level": 40,
-    "difficulty": 69
+    "difficulty": 69,
+    "durability": 40,
+    "maxQuality": 2050
   },
   {
-    "maxQuality": 2050,
-    "durability": 80,
     "name": {
-      "fr": "Potion de r\u00e9veil",
       "de": "Muntermacher",
+      "en": "Smelling Salts",
       "ja": "\u304d\u3064\u3051\u85ac",
-      "en": "Smelling Salts"
+      "fr": "Potion de r\u00e9veil"
     },
     "level": 40,
-    "difficulty": 138
+    "difficulty": 138,
+    "durability": 80,
+    "maxQuality": 2050
   },
   {
-    "maxQuality": 941,
-    "durability": 80,
     "name": {
-      "fr": "Toit de pavillon en bois nosc\u00e9en",
       "de": "Riviera-Holzhausdach",
+      "en": "Riviera House Roof (Wood)",
       "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a6\u30c3\u30c9\u30cf\u30a6\u30b9\u30fb\u30eb\u30fc\u30d5",
-      "en": "Riviera House Roof (Wood)"
+      "fr": "Toit de pavillon en bois nosc\u00e9en"
     },
     "level": 36,
-    "difficulty": 396
+    "difficulty": 396,
+    "durability": 80,
+    "maxQuality": 941
   },
   {
-    "maxQuality": 952,
-    "durability": 80,
     "name": {
-      "fr": "Parasol lotus",
       "de": "Lotos-Schirm",
+      "en": "Lotus Parasol",
       "ja": "\u30ed\u30fc\u30bf\u30b9\u30d1\u30e9\u30bd\u30eb",
-      "en": "Lotus Parasol"
+      "fr": "Parasol lotus"
     },
     "level": 37,
-    "difficulty": 409
+    "difficulty": 409,
+    "durability": 80,
+    "maxQuality": 952
   },
   {
-    "maxQuality": 1013,
-    "durability": 80,
     "name": {
-      "fr": "Cloison verdoyante",
       "de": "Pflanzen-Raumteiler",
+      "en": "Planter Partition",
       "ja": "\u30d7\u30e9\u30f3\u30bf\u30fc\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3",
-      "en": "Planter Partition"
+      "fr": "Cloison verdoyante"
     },
     "level": 39,
-    "difficulty": 438
+    "difficulty": 438,
+    "durability": 80,
+    "maxQuality": 1013
   },
   {
-    "maxQuality": 1025,
-    "durability": 80,
     "name": {
-      "fr": "Toit de pavillon composite sombrelin\u00e7ois",
       "de": "Wald-Komposithausdach",
+      "en": "Glade House Roof (Composite)",
       "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30cf\u30a6\u30b9\u30fb\u30eb\u30fc\u30d5",
-      "en": "Glade House Roof (Composite)"
+      "fr": "Toit de pavillon composite sombrelin\u00e7ois"
     },
     "level": 40,
-    "difficulty": 441
-  },
-  {
-    "maxQuality": 2109,
-    "durability": 40,
-    "name": {
-      "fr": "Huile de requin",
-      "de": "Haifischtran",
-      "ja": "\u30b7\u30e3\u30fc\u30af\u30aa\u30a4\u30eb",
-      "en": "Shark Oil"
-    },
-    "level": 41,
-    "difficulty": 71
-  },
-  {
-    "maxQuality": 2109,
-    "durability": 40,
-    "name": {
-      "fr": "Vernis",
-      "de": "Lack",
-      "ja": "\u30ef\u30cb\u30b9",
-      "en": "Varnish"
-    },
-    "level": 41,
-    "difficulty": 71
-  },
-  {
-    "maxQuality": 2147,
+    "difficulty": 441,
     "durability": 80,
+    "maxQuality": 1025
+  },
+  {
     "name": {
-      "fr": "Livre en mithril",
+      "de": "Haifischtran",
+      "en": "Shark Oil",
+      "ja": "\u30b7\u30e3\u30fc\u30af\u30aa\u30a4\u30eb",
+      "fr": "Huile de requin"
+    },
+    "level": 41,
+    "difficulty": 71,
+    "durability": 40,
+    "maxQuality": 2109
+  },
+  {
+    "name": {
+      "de": "Lack",
+      "en": "Varnish",
+      "ja": "\u30ef\u30cb\u30b9",
+      "fr": "Vernis"
+    },
+    "level": 41,
+    "difficulty": 71,
+    "durability": 40,
+    "maxQuality": 2109
+  },
+  {
+    "name": {
       "de": "Mithrilbuch",
+      "en": "Book of Mythril",
       "ja": "\u30d6\u30c3\u30af\u30fb\u30aa\u30d6\u30fb\u30df\u30b9\u30ea\u30eb",
-      "en": "Book of Mythril"
+      "fr": "Livre en mithril"
     },
     "level": 42,
-    "difficulty": 144
+    "difficulty": 144,
+    "durability": 80,
+    "maxQuality": 2147
   },
   {
-    "maxQuality": 2251,
-    "durability": 40,
     "name": {
-      "fr": "Encre d'\u00e9lectrum enchant\u00e9e",
       "de": "Magische Elektrumtinte",
+      "en": "Enchanted Electrum Ink",
       "ja": "\u30a8\u30ec\u30af\u30c8\u30e9\u30e0\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Electrum Ink"
+      "fr": "Encre d'\u00e9lectrum enchant\u00e9e"
     },
     "level": 43,
-    "difficulty": 77
+    "difficulty": 77,
+    "durability": 40,
+    "maxQuality": 2251
   },
   {
-    "maxQuality": 2251,
-    "durability": 80,
     "name": {
-      "fr": "M\u00e9ga potion",
       "de": "Megatrank",
+      "en": "Mega-Potion",
       "ja": "\u30e1\u30ac\u30dd\u30fc\u30b7\u30e7\u30f3",
-      "en": "Mega-Potion"
+      "fr": "M\u00e9ga potion"
     },
     "level": 43,
-    "difficulty": 155
+    "difficulty": 155,
+    "durability": 80,
+    "maxQuality": 2251
   },
   {
-    "maxQuality": 2277,
-    "durability": 80,
     "name": {
-      "fr": "Essence d'esprit",
       "de": "Megatrank der Willenskraft",
+      "en": "Mega-Potion of Mind",
       "ja": "\u5fc3\u529b\u306e\u79d8\u85ac",
-      "en": "Mega-Potion of Mind"
+      "fr": "Essence d'esprit"
     },
     "level": 44,
-    "difficulty": 156
+    "difficulty": 156,
+    "durability": 80,
+    "maxQuality": 2277
   },
   {
-    "maxQuality": 2309,
-    "durability": 80,
     "name": {
-      "fr": "Baguette du feu",
       "de": "Flammenzweig",
+      "en": "Wand of Flames",
       "ja": "\u30d5\u30a1\u30a4\u30a2\u30ef\u30f3\u30c9",
-      "en": "Wand of Flames"
+      "fr": "Baguette du feu"
     },
     "level": 45,
-    "difficulty": 158
+    "difficulty": 158,
+    "durability": 80,
+    "maxQuality": 2309
   },
   {
-    "maxQuality": 2309,
-    "durability": 80,
     "name": {
-      "fr": "Baguette du vent",
       "de": "Orkanzweig",
+      "en": "Wand of Gales",
       "ja": "\u30a6\u30a3\u30f3\u30c9\u30ef\u30f3\u30c9",
-      "en": "Wand of Gales"
+      "fr": "Baguette du vent"
     },
     "level": 45,
-    "difficulty": 158
+    "difficulty": 158,
+    "durability": 80,
+    "maxQuality": 2309
   },
   {
-    "maxQuality": 2309,
-    "durability": 80,
     "name": {
-      "fr": "Baguette de la foudre",
       "de": "Gewitterzweig",
+      "en": "Wand of Storms",
       "ja": "\u30b5\u30f3\u30c0\u30fc\u30ef\u30f3\u30c9",
-      "en": "Wand of Storms"
+      "fr": "Baguette de la foudre"
     },
     "level": 45,
-    "difficulty": 158
+    "difficulty": 158,
+    "durability": 80,
+    "maxQuality": 2309
   },
   {
-    "maxQuality": 2309,
-    "durability": 80,
     "name": {
-      "fr": "Livre en \u00e9lectrum",
       "de": "Buch des Elektrums",
+      "en": "Book of Electrum",
       "ja": "\u30d6\u30c3\u30af\u30fb\u30aa\u30d6\u30fb\u30a8\u30ec\u30af\u30c8\u30e9\u30e0",
-      "en": "Book of Electrum"
+      "fr": "Livre en \u00e9lectrum"
     },
     "level": 45,
-    "difficulty": 158
+    "difficulty": 158,
+    "durability": 80,
+    "maxQuality": 2309
   },
   {
-    "maxQuality": 2309,
-    "durability": 80,
     "name": {
-      "fr": "Essence de force",
       "de": "Megatrank der St\u00e4rke",
+      "en": "Mega-Potion of Strength",
       "ja": "\u525b\u529b\u306e\u79d8\u85ac",
-      "en": "Mega-Potion of Strength"
+      "fr": "Essence de force"
     },
     "level": 45,
-    "difficulty": 158
+    "difficulty": 158,
+    "durability": 80,
+    "maxQuality": 2309
   },
   {
-    "maxQuality": 2309,
-    "durability": 80,
     "name": {
-      "fr": "Essence d'intelligence",
       "de": "Megatrank der Intelligenz",
+      "en": "Mega-Potion of Intelligence",
       "ja": "\u77e5\u529b\u306e\u79d8\u85ac",
-      "en": "Mega-Potion of Intelligence"
+      "fr": "Essence d'intelligence"
     },
     "level": 45,
-    "difficulty": 158
+    "difficulty": 158,
+    "durability": 80,
+    "maxQuality": 2309
   },
   {
-    "maxQuality": 1054,
-    "durability": 80,
     "name": {
-      "fr": "N\u00e9nuphar en pot",
       "de": "Eingetopfte Wasserlilie",
+      "en": "Water Lilies",
       "ja": "\u7761\u84ee\u306e\u6c34\u9262",
-      "en": "Water Lilies"
+      "fr": "N\u00e9nuphar en pot"
     },
     "level": 41,
-    "difficulty": 457
+    "difficulty": 457,
+    "durability": 80,
+    "maxQuality": 1054
   },
   {
-    "maxQuality": 1125,
-    "durability": 80,
     "name": {
-      "fr": "Vase de fleurs sylphe",
       "de": "Sylphen-Blumenvase",
+      "en": "Sylphic Flower Vase",
       "ja": "\u30b7\u30eb\u30d5\u30d5\u30e9\u30ef\u30fc\u30d9\u30fc\u30b9",
-      "en": "Sylphic Flower Vase"
+      "fr": "Vase de fleurs sylphe"
     },
     "level": 43,
-    "difficulty": 496
+    "difficulty": 496,
+    "durability": 80,
+    "maxQuality": 1125
   },
   {
-    "maxQuality": 1154,
-    "durability": 80,
     "name": {
-      "fr": "Bac \u00e0 fleurs",
       "de": "Pflanzkiste",
+      "en": "Planter Box",
       "ja": "\u30dc\u30c3\u30af\u30b9\u30d7\u30e9\u30f3\u30bf\u30fc",
-      "en": "Planter Box"
+      "fr": "Bac \u00e0 fleurs"
     },
     "level": 45,
-    "difficulty": 505
+    "difficulty": 505,
+    "durability": 80,
+    "maxQuality": 1154
   },
   {
-    "maxQuality": 2372,
-    "durability": 80,
     "name": {
-      "fr": "\u00c9pingle d'or",
       "de": "Goldnadel",
+      "en": "Gold Needle",
       "ja": "\u91d1\u306e\u91dd",
-      "en": "Gold Needle"
+      "fr": "\u00c9pingle d'or"
     },
     "level": 46,
-    "difficulty": 159
+    "difficulty": 159,
+    "durability": 80,
+    "maxQuality": 2372
   },
   {
-    "maxQuality": 2372,
-    "durability": 80,
     "name": {
-      "fr": "Essence de dext\u00e9rit\u00e9",
       "de": "Megatrank der Geschicklichkeit",
+      "en": "Mega-Potion of Dexterity",
       "ja": "\u773c\u529b\u306e\u79d8\u85ac",
-      "en": "Mega-Potion of Dexterity"
+      "fr": "Essence de dext\u00e9rit\u00e9"
     },
     "level": 46,
-    "difficulty": 159
+    "difficulty": 159,
+    "durability": 80,
+    "maxQuality": 2372
   },
   {
-    "maxQuality": 2372,
-    "durability": 80,
     "name": {
-      "fr": "Essence de vitalit\u00e9",
       "de": "Megatrank der Konstitution",
+      "en": "Mega-Potion of Vitality",
       "ja": "\u6d3b\u529b\u306e\u79d8\u85ac",
-      "en": "Mega-Potion of Vitality"
+      "fr": "Essence de vitalit\u00e9"
     },
     "level": 46,
-    "difficulty": 159
+    "difficulty": 159,
+    "durability": 80,
+    "maxQuality": 2372
   },
   {
-    "maxQuality": 2421,
-    "durability": 80,
     "name": {
-      "fr": "Potion toxique ultra-puissante",
       "de": "Stark vergifteter Trunk",
+      "en": "Potent Poisoning Potion",
       "ja": "\u5287\u6bd2\u85ac",
-      "en": "Potent Poisoning Potion"
+      "fr": "Potion toxique ultra-puissante"
     },
     "level": 47,
-    "difficulty": 167
+    "difficulty": 167,
+    "durability": 80,
+    "maxQuality": 2421
   },
   {
-    "maxQuality": 2421,
-    "durability": 80,
     "name": {
-      "fr": "Potion paralysante ultra-puissante",
       "de": "Stark paralysierender Trunk",
+      "en": "Potent Paralyzing Potion",
       "ja": "\u9ebb\u75fa\u306e\u5287\u6bd2\u85ac",
-      "en": "Potent Paralyzing Potion"
+      "fr": "Potion paralysante ultra-puissante"
     },
     "level": 47,
-    "difficulty": 167
+    "difficulty": 167,
+    "durability": 80,
+    "maxQuality": 2421
   },
   {
-    "maxQuality": 2524,
-    "durability": 80,
     "name": {
-      "fr": "Potion aphonisante ultra-puissante",
       "de": "Stark verstummender Trunk",
+      "en": "Potent Silencing Potion",
       "ja": "\u6c88\u9ed9\u306e\u5287\u6bd2\u85ac",
-      "en": "Potent Silencing Potion"
+      "fr": "Potion aphonisante ultra-puissante"
     },
     "level": 48,
-    "difficulty": 172
+    "difficulty": 172,
+    "durability": 80,
+    "maxQuality": 2524
   },
   {
-    "maxQuality": 2524,
-    "durability": 80,
     "name": {
-      "fr": "Potion soporifique ultra-puissante",
       "de": "Stark einschl\u00e4fernder Trunk",
+      "en": "Potent Sleeping Potion",
       "ja": "\u7761\u7720\u306e\u5287\u6bd2\u85ac",
-      "en": "Potent Sleeping Potion"
+      "fr": "Potion soporifique ultra-puissante"
     },
     "level": 48,
-    "difficulty": 172
+    "difficulty": 172,
+    "durability": 80,
+    "maxQuality": 2524
   },
   {
-    "maxQuality": 2551,
-    "durability": 80,
     "name": {
-      "fr": "Baguette en palissandre bourgeonnant",
       "de": "F\u00fcnfbl\u00e4ttriger Palisanderzweig",
+      "en": "Budding Rosewood Wand",
       "ja": "\u30d0\u30c3\u30c7\u30c3\u30c9\u30ed\u30fc\u30ba\u30ef\u30f3\u30c9",
-      "en": "Budding Rosewood Wand"
+      "fr": "Baguette en palissandre bourgeonnant"
     },
     "level": 49,
-    "difficulty": 174
+    "difficulty": 174,
+    "durability": 80,
+    "maxQuality": 2551
   },
   {
-    "maxQuality": 1913,
-    "durability": 80,
     "name": {
-      "fr": "Livre en \u00e9lectrum renforc\u00e9",
       "de": "Gepr\u00e4gtes Buch des Elektrums",
+      "en": "Embossed Book of Electrum",
       "ja": "\u30d6\u30c3\u30af\u30fb\u30aa\u30d6\u30fb\u30a8\u30ec\u30af\u30c8\u30e9\u30e0DX",
-      "en": "Embossed Book of Electrum"
+      "fr": "Livre en \u00e9lectrum renforc\u00e9"
     },
     "level": 49,
-    "difficulty": 261
+    "difficulty": 261,
+    "durability": 80,
+    "maxQuality": 1913
   },
   {
-    "maxQuality": 2551,
-    "durability": 80,
     "name": {
-      "fr": "Potion aveuglante ultra-puissante",
       "de": "Stark blendender Trunk",
+      "en": "Potent Blinding Potion",
       "ja": "\u6697\u95c7\u306e\u5287\u6bd2\u85ac",
-      "en": "Potent Blinding Potion"
+      "fr": "Potion aveuglante ultra-puissante"
     },
     "level": 49,
-    "difficulty": 174
+    "difficulty": 174,
+    "durability": 80,
+    "maxQuality": 2551
   },
   {
-    "maxQuality": 2641,
-    "durability": 80,
     "name": {
-      "fr": "Tane Mahuta",
       "de": "Tane Mahuta",
+      "en": "Tane Mahuta",
       "ja": "\u30bf\u30cd\u30fb\u30de\u30d5\u30bf",
-      "en": "Tane Mahuta"
+      "fr": "Tane Mahuta"
     },
     "level": 50,
-    "difficulty": 186
+    "difficulty": 186,
+    "durability": 80,
+    "maxQuality": 2641
   },
   {
-    "maxQuality": 2641,
-    "durability": 80,
     "name": {
-      "fr": "M\u00e9ga \u00e9ther",
       "de": "Mega-\u00c4ther",
+      "en": "Mega-Ether",
       "ja": "\u30e1\u30ac\u30a8\u30fc\u30c6\u30eb",
-      "en": "Mega-Ether"
+      "fr": "M\u00e9ga \u00e9ther"
     },
     "level": 50,
-    "difficulty": 186
+    "difficulty": 186,
+    "durability": 80,
+    "maxQuality": 2641
   },
   {
-    "maxQuality": 2641,
-    "durability": 80,
     "name": {
-      "fr": "\u00c9lixir",
       "de": "Elixier",
+      "en": "Elixir",
       "ja": "\u30a8\u30ea\u30af\u30b5\u30fc",
-      "en": "Elixir"
+      "fr": "\u00c9lixir"
     },
     "level": 50,
-    "difficulty": 186
+    "difficulty": 186,
+    "durability": 80,
+    "maxQuality": 2641
   },
   {
-    "maxQuality": 2641,
-    "durability": 80,
     "name": {
-      "fr": "D\u00e9coction ignifuge",
       "de": "Feuer-Supertrank",
+      "en": "Fire Ward Hi-Potion",
       "ja": "\u9632\u706b\u306e\u5999\u85ac",
-      "en": "Fire Ward Hi-Potion"
+      "fr": "D\u00e9coction ignifuge"
     },
     "level": 50,
-    "difficulty": 186
+    "difficulty": 186,
+    "durability": 80,
+    "maxQuality": 2641
   },
   {
-    "maxQuality": 2641,
-    "durability": 80,
     "name": {
-      "fr": "D\u00e9coction frigifuge",
       "de": "Eis-Supertrank",
+      "en": "Ice Ward Hi-Potion",
       "ja": "\u9632\u6c37\u306e\u5999\u85ac",
-      "en": "Ice Ward Hi-Potion"
+      "fr": "D\u00e9coction frigifuge"
     },
     "level": 50,
-    "difficulty": 186
+    "difficulty": 186,
+    "durability": 80,
+    "maxQuality": 2641
   },
   {
-    "maxQuality": 2641,
-    "durability": 80,
     "name": {
-      "fr": "D\u00e9coction a\u00e9rofuge",
       "de": "Wind-Supertrank",
+      "en": "Wind Ward Hi-Potion",
       "ja": "\u9632\u98a8\u306e\u5999\u85ac",
-      "en": "Wind Ward Hi-Potion"
+      "fr": "D\u00e9coction a\u00e9rofuge"
     },
     "level": 50,
-    "difficulty": 186
+    "difficulty": 186,
+    "durability": 80,
+    "maxQuality": 2641
   },
   {
-    "maxQuality": 2641,
-    "durability": 80,
     "name": {
-      "fr": "D\u00e9coction g\u00e9ofuge",
       "de": "Erd-Supertrank",
+      "en": "Earth Ward Hi-Potion",
       "ja": "\u9632\u571f\u306e\u5999\u85ac",
-      "en": "Earth Ward Hi-Potion"
+      "fr": "D\u00e9coction g\u00e9ofuge"
     },
     "level": 50,
-    "difficulty": 186
+    "difficulty": 186,
+    "durability": 80,
+    "maxQuality": 2641
   },
   {
-    "maxQuality": 2641,
-    "durability": 80,
     "name": {
-      "fr": "D\u00e9coction \u00e9lectrofuge",
       "de": "Blitz-Supertrank",
+      "en": "Lightning Ward Hi-Potion",
       "ja": "\u9632\u96f7\u306e\u5999\u85ac",
-      "en": "Lightning Ward Hi-Potion"
+      "fr": "D\u00e9coction \u00e9lectrofuge"
     },
     "level": 50,
-    "difficulty": 186
+    "difficulty": 186,
+    "durability": 80,
+    "maxQuality": 2641
   },
   {
-    "maxQuality": 2641,
-    "durability": 80,
     "name": {
-      "fr": "D\u00e9coction hydrofuge",
       "de": "Wasser-Supertrank",
+      "en": "Water Ward Hi-Potion",
       "ja": "\u9632\u6c34\u306e\u5999\u85ac",
-      "en": "Water Ward Hi-Potion"
+      "fr": "D\u00e9coction hydrofuge"
     },
     "level": 50,
-    "difficulty": 186
+    "difficulty": 186,
+    "durability": 80,
+    "maxQuality": 2641
   },
   {
-    "maxQuality": 2646,
-    "durability": 40,
     "name": {
-      "fr": "Formule de croissance delta",
       "de": "Wachstumsformel Delta",
+      "en": "Growth Formula Delta",
       "ja": "\u30b0\u30ed\u30fc\u30b9\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30c7\u30eb\u30bf",
-      "en": "Growth Formula Delta"
+      "fr": "Formule de croissance delta"
     },
-    "level": 50,
-    "difficulty": 97
+    "level": 55,
+    "difficulty": 97,
+    "durability": 40,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 40,
     "name": {
-      "fr": "Encre d'or enchant\u00e9e",
       "de": "Magische Goldtinte",
+      "en": "Enchanted Gold Ink",
       "ja": "\u30b4\u30fc\u30eb\u30c9\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Gold Ink"
+      "fr": "Encre d'or enchant\u00e9e"
     },
-    "level": 50,
-    "difficulty": 97
+    "level": 55,
+    "difficulty": 97,
+    "durability": 40,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "Couteaux de spoliateur",
       "de": "Flickermesser",
+      "en": "Vamper's Knives",
       "ja": "\u30f4\u30a1\u30f3\u30d1\u30fc\u30ca\u30a4\u30d5",
-      "en": "Vamper's Knives"
+      "fr": "Couteaux de spoliateur"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "B\u00e2ton vivant du d\u00e9ment",
       "de": "Fl\u00fcsternder Stab des Verr\u00fcckten",
+      "en": "Madman's Whispering Rod",
       "ja": "\u30de\u30c3\u30c9\u30de\u30f3\u30ea\u30d3\u30f3\u30b0\u30ed\u30c3\u30c9",
-      "en": "Madman's Whispering Rod"
+      "fr": "B\u00e2ton vivant du d\u00e9ment"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "Picatrix d'incantateur de lettr\u00e9",
       "de": "Gelehrten-Grimoire der Magie",
+      "en": "Erudite's Picatrix of Casting",
       "ja": "\u30a8\u30eb\u30c0\u30a4\u30c8\u30ad\u30e3\u30b9\u30bf\u30fc\u30d4\u30ab\u30c8\u30ea\u30af\u30b9",
-      "en": "Erudite's Picatrix of Casting"
+      "fr": "Picatrix d'incantateur de lettr\u00e9"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "Picatrix de soigneur de lettr\u00e9",
       "de": "Gelehrten-Grimoire der Heilung",
+      "en": "Erudite's Picatrix of Healing",
       "ja": "\u30a8\u30eb\u30c0\u30a4\u30c8\u30d2\u30fc\u30e9\u30fc\u30d4\u30ab\u30c8\u30ea\u30af\u30b9",
-      "en": "Erudite's Picatrix of Healing"
+      "fr": "Picatrix de soigneur de lettr\u00e9"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2921,
-    "durability": 40,
     "name": {
-      "fr": "Formule de croissance delta concentr\u00e9e",
       "de": "Wachstumsformel Delta-Konzentrat",
+      "en": "Growth Formula Delta Concentrate",
       "ja": "\u30b0\u30ed\u30fc\u30b9\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30c7\u30eb\u30bf\u30d7\u30e9\u30b9",
-      "en": "Growth Formula Delta Concentrate"
+      "fr": "Formule de croissance delta concentr\u00e9e"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 40,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 40,
     "name": {
-      "fr": "Encre d'or rose enchant\u00e9e",
       "de": "Magische Rosengoldtinte",
+      "en": "Enchanted Rose Gold Ink",
       "ja": "\u30ed\u30fc\u30ba\u30b4\u30fc\u30eb\u30c9\u30fb\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Rose Gold Ink"
+      "fr": "Encre d'or rose enchant\u00e9e"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 40,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 40,
     "name": {
-      "fr": "Vitriol dilu\u00e9",
       "de": "Verd\u00fcnnte Schwefels\u00e4ure",
+      "en": "Diluted Vitriol",
       "ja": "\u5e0c\u786b\u9178",
-      "en": "Diluted Vitriol"
+      "fr": "Vitriol dilu\u00e9"
     },
-    "level": 50,
-    "difficulty": 116
-  },
-  {
-    "maxQuality": 2921,
+    "level": 70,
+    "difficulty": 116,
     "durability": 40,
+    "maxQuality": 2921
+  },
+  {
     "name": {
-      "fr": "Verre en cristal",
       "de": "Kristallglas",
+      "en": "Crystal Glass",
       "ja": "\u30af\u30ea\u30b9\u30bf\u30eb\u30ac\u30e9\u30b9",
-      "en": "Crystal Glass"
+      "fr": "Verre en cristal"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 40,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Trille d'Alkalurops",
       "de": "Waldlilienbl\u00fcte",
+      "en": "Suspended Trillium Flower",
       "ja": "\u30a2\u30eb\u30ab\u30eb\u30ed\u30d7\u30b9\u30d5\u30e9\u30ef\u30fc",
-      "en": "Suspended Trillium Flower"
+      "fr": "Trille d'Alkalurops"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Alkalurops",
       "de": "Alkalurops",
+      "en": "Alkalurops",
       "ja": "\u30a2\u30eb\u30ab\u30eb\u30ed\u30d7\u30b9",
-      "en": "Alkalurops"
+      "fr": "Alkalurops"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Deus ex verbis",
       "de": "Deus Ex Verbis",
+      "en": "Deus Ex Verbis",
       "ja": "\u30c7\u30a6\u30b9\u30fb\u30a8\u30af\u30b9\u30fb\u30d0\u30fc\u30d3\u30b9",
-      "en": "Deus Ex Verbis"
+      "fr": "Deus ex verbis"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Deus ex gratia",
       "de": "Deus Ex Gratia",
+      "en": "Deus Ex Gratia",
       "ja": "\u30c7\u30a6\u30b9\u30fb\u30a8\u30af\u30b9\u30fb\u30b0\u30e9\u30c6\u30a3\u30a2",
-      "en": "Deus Ex Gratia"
+      "fr": "Deus ex gratia"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Potion X",
       "de": "Gigatrank",
+      "en": "X-Potion",
       "ja": "\u30a8\u30af\u30b9\u30dd\u30fc\u30b7\u30e7\u30f3",
-      "en": "X-Potion"
+      "fr": "Potion X"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "\u00c9ther X",
       "de": "Giga-\u00c4ther",
+      "en": "X-Ether",
       "ja": "\u30a8\u30af\u30b9\u30a8\u30fc\u30c6\u30eb",
-      "en": "X-Ether"
+      "fr": "\u00c9ther X"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Super \u00e9lixir",
       "de": "Super-Elixier",
+      "en": "Hi-Elixir",
       "ja": "\u30cf\u30a4\u30a8\u30ea\u30af\u30b5\u30fc",
-      "en": "Hi-Elixir"
+      "fr": "Super \u00e9lixir"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Concentr\u00e9 de force",
       "de": "Gigatrank der St\u00e4rke",
+      "en": "X-Potion of Strength",
       "ja": "\u525b\u529b\u306e\u970a\u85ac",
-      "en": "X-Potion of Strength"
+      "fr": "Concentr\u00e9 de force"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Concentr\u00e9 de dext\u00e9rit\u00e9",
       "de": "Gigatrank der Geschicklichkeit",
+      "en": "X-Potion of Dexterity",
       "ja": "\u773c\u529b\u306e\u970a\u85ac",
-      "en": "X-Potion of Dexterity"
+      "fr": "Concentr\u00e9 de dext\u00e9rit\u00e9"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Concentr\u00e9 de vitalit\u00e9",
       "de": "Gigatrank der Konstitution",
+      "en": "X-Potion of Vitality",
       "ja": "\u6d3b\u529b\u306e\u970a\u85ac",
-      "en": "X-Potion of Vitality"
+      "fr": "Concentr\u00e9 de vitalit\u00e9"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Concentr\u00e9 d'intelligence",
       "de": "Gigatrank der Intelligenz",
+      "en": "X-Potion of Intelligence",
       "ja": "\u77e5\u529b\u306e\u970a\u85ac",
-      "en": "X-Potion of Intelligence"
+      "fr": "Concentr\u00e9 d'intelligence"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Concentr\u00e9 d'esprit",
       "de": "Gigatrank der Willenskraft",
+      "en": "X-Potion of Mind",
       "ja": "\u5fc3\u529b\u306e\u970a\u85ac",
-      "en": "X-Potion of Mind"
+      "fr": "Concentr\u00e9 d'esprit"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Essence ignifuge",
       "de": "Feuer-Megatrank",
+      "en": "Fire Ward Mega-Potion",
       "ja": "\u9632\u706b\u306e\u79d8\u85ac",
-      "en": "Fire Ward Mega-Potion"
+      "fr": "Essence ignifuge"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Essence frigifuge",
       "de": "Eis-Megatrank",
+      "en": "Ice Ward Mega-Potion",
       "ja": "\u9632\u6c37\u306e\u79d8\u85ac",
-      "en": "Ice Ward Mega-Potion"
+      "fr": "Essence frigifuge"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Essence a\u00e9rofuge",
       "de": "Wind-Megatrank",
+      "en": "Wind Ward Mega-Potion",
       "ja": "\u9632\u98a8\u306e\u79d8\u85ac",
-      "en": "Wind Ward Mega-Potion"
+      "fr": "Essence a\u00e9rofuge"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Essence g\u00e9ofuge",
       "de": "Erd-Megatrank",
+      "en": "Earth Ward Mega-Potion",
       "ja": "\u9632\u571f\u306e\u79d8\u85ac",
-      "en": "Earth Ward Mega-Potion"
+      "fr": "Essence g\u00e9ofuge"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Essence \u00e9lectrofuge",
       "de": "Blitz-Megatrank",
+      "en": "Lightning Ward Mega-Potion",
       "ja": "\u9632\u96f7\u306e\u79d8\u85ac",
-      "en": "Lightning Ward Mega-Potion"
+      "fr": "Essence \u00e9lectrofuge"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Essence hydrofuge",
       "de": "Wasser-Megatrank",
+      "en": "Water Ward Mega-Potion",
       "ja": "\u9632\u6c34\u306e\u79d8\u85ac",
-      "en": "Water Ward Mega-Potion"
+      "fr": "Essence hydrofuge"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de l'entra\u00eenement I",
       "de": "Rad der Konfrontation I",
+      "en": "Grade 1 Wheel of Confrontation",
       "ja": "\u6559\u7df4\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Confrontation"
+      "fr": "Tour de l'entra\u00eenement I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour du perfectionnement I",
       "de": "Rad der Produktivit\u00e4t I",
+      "en": "Grade 1 Wheel of Productivity",
       "ja": "\u4fee\u7df4\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Productivity"
+      "fr": "Tour du perfectionnement I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de l'apprentissage I",
       "de": "Rad der Industrie I",
+      "en": "Grade 1 Wheel of Industry",
       "ja": "\u935b\u932c\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Industry"
+      "fr": "Tour de l'apprentissage I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de la complicit\u00e9 I",
       "de": "Rad des Longierens I",
+      "en": "Grade 1 Wheel of Longeing",
       "ja": "\u7279\u8a13\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Longeing"
+      "fr": "Tour de la complicit\u00e9 I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de l'altercation I",
       "de": "Rad der Rivalit\u00e4t I",
+      "en": "Grade 1 Wheel of Rivalry",
       "ja": "\u6226\u7e3e\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Rivalry"
+      "fr": "Tour de l'altercation I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour du m\u00e9rite I",
       "de": "Rad der Gesellschaft I",
+      "en": "Grade 1 Wheel of Company",
       "ja": "\u8ecd\u529f\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Company"
+      "fr": "Tour du m\u00e9rite I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de l'initiation I",
       "de": "Rad der Einf\u00fchrung I",
+      "en": "Grade 1 Wheel of Initiation",
       "ja": "\u65b0\u5175\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Initiation"
+      "fr": "Tour de l'initiation I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de l'adresse I",
       "de": "Rad der Kapazit\u00e4t I",
+      "en": "Grade 1 Wheel of Capacity",
       "ja": "\u9054\u8b58\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Capacity"
+      "fr": "Tour de l'adresse I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de la clairvoyance I",
       "de": "Rad der Beobachtung I",
+      "en": "Grade 1 Wheel of Observation",
       "ja": "\u535a\u8b58\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Observation"
+      "fr": "Tour de la clairvoyance I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de l'efficacit\u00e9 I",
       "de": "Rad der Effizienz I",
+      "en": "Grade 1 Wheel of Efficiency",
       "ja": "\u540d\u5320\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Efficiency"
+      "fr": "Tour de l'efficacit\u00e9 I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de l'expertise I",
       "de": "Rad der Pr\u00e4zision I",
+      "en": "Grade 1 Wheel of Precision",
       "ja": "\u5de8\u5320\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Precision"
+      "fr": "Tour de l'expertise I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de l'attachement I",
       "de": "Rad der Hingabe I",
+      "en": "Grade 1 Wheel of Dedication",
       "ja": "\u932c\u7cbe\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Dedication"
+      "fr": "Tour de l'attachement I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de la sati\u00e9t\u00e9 I",
       "de": "Rad der N\u00e4hrmittel I",
+      "en": "Grade 1 Wheel of Nutriment",
       "ja": "\u98df\u901a\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Nutriment"
+      "fr": "Tour de la sati\u00e9t\u00e9 I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de la r\u00e9manence I",
       "de": "Rad der Best\u00e4ndigkeit I",
+      "en": "Grade 1 Wheel of Permanence",
       "ja": "\u8010\u4e45\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Permanence"
+      "fr": "Tour de la r\u00e9manence I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour du r\u00e9tablissement I",
       "de": "Rad der Wiederbelebung I",
+      "en": "Grade 1 Wheel of Revival",
       "ja": "\u4e0d\u5c48\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Revival"
+      "fr": "Tour du r\u00e9tablissement I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour de la mobilit\u00e9 I",
       "de": "Rad der Pilgerfahrt I",
+      "en": "Grade 1 Wheel of Pilgrimage",
       "ja": "\u65c5\u4eba\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Pilgrimage"
+      "fr": "Tour de la mobilit\u00e9 I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Tour du divertissement I",
       "de": "Rad der Erholung I",
+      "en": "Grade 1 Wheel of Recreation",
       "ja": "\u904a\u622f\u306e\u30a8\u30fc\u30c6\u30ea\u30a2\u30eb\u30db\u30a4\u30fc\u30ebG1",
-      "en": "Grade 1 Wheel of Recreation"
+      "fr": "Tour du divertissement I"
     },
-    "level": 50,
-    "difficulty": 116
+    "level": 70,
+    "difficulty": 116,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 1186,
-    "durability": 80,
     "name": {
-      "fr": "Parterre de boutons-de-sang du Val",
       "de": "Goldklamm-Blutbl\u00fcten",
+      "en": "Bloodblossoms",
       "ja": "\u30aa\u30fc\u30e9\u30e0\u30f4\u30a7\u30a4\u30eb\u306e\u9bae\u8840\u8349",
-      "en": "Bloodblossoms"
+      "fr": "Parterre de boutons-de-sang du Val"
     },
     "level": 46,
-    "difficulty": 508
+    "difficulty": 508,
+    "durability": 80,
+    "maxQuality": 1186
   },
   {
-    "maxQuality": 1275,
-    "durability": 80,
     "name": {
-      "fr": "Massif de cornouiller squelette du Val",
       "de": "Todfinger-Strauch",
+      "en": "Death's Fingers",
       "ja": "\u30aa\u30fc\u30e9\u30e0\u30f4\u30a7\u30a4\u30eb\u306e\u767d\u9aa8\u6a39",
-      "en": "Death's Fingers"
+      "fr": "Massif de cornouiller squelette du Val"
     },
     "level": 49,
-    "difficulty": 556
+    "difficulty": 556,
+    "durability": 80,
+    "maxQuality": 1275
   },
   {
-    "maxQuality": 1320,
-    "durability": 80,
     "name": {
-      "fr": "Rev\u00eatement mural rustique",
       "de": "Landhaus-Innenwand",
+      "en": "Country Interior Wall",
       "ja": "\u30ab\u30f3\u30c8\u30ea\u30fc\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb",
-      "en": "Country Interior Wall"
+      "fr": "Rev\u00eatement mural rustique"
     },
     "level": 50,
-    "difficulty": 595
+    "difficulty": 595,
+    "durability": 80,
+    "maxQuality": 1320
   },
   {
-    "maxQuality": 1320,
-    "durability": 80,
     "name": {
-      "fr": "Parquet rustique",
       "de": "Landhaus-Holzboden",
+      "en": "Country Flooring",
       "ja": "\u30ab\u30f3\u30c8\u30ea\u30fc\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0",
-      "en": "Country Flooring"
+      "fr": "Parquet rustique"
     },
     "level": 50,
-    "difficulty": 595
+    "difficulty": 595,
+    "durability": 80,
+    "maxQuality": 1320
   },
   {
-    "maxQuality": 1320,
-    "durability": 80,
     "name": {
-      "fr": "Grand bac \u00e0 fleurs",
       "de": "Gro\u00dfe Pflanzkiste",
+      "en": "Large Planter Box",
       "ja": "\u30e9\u30fc\u30b8\u30dc\u30c3\u30af\u30b9\u30d7\u30e9\u30f3\u30bf\u30fc",
-      "en": "Large Planter Box"
+      "fr": "Grand bac \u00e0 fleurs"
     },
     "level": 50,
-    "difficulty": 595
+    "difficulty": 595,
+    "durability": 80,
+    "maxQuality": 1320
   },
   {
-    "maxQuality": 1323,
-    "durability": 80,
     "name": {
-      "fr": "Pot de dragonnier",
       "de": "Eingetopfter Drachenbaum",
+      "en": "Potted Dragon Tree",
       "ja": "\u30c9\u30e9\u30bb\u30ca\u306e\u9262\u690d",
-      "en": "Potted Dragon Tree"
+      "fr": "Pot de dragonnier"
     },
-    "level": 50,
-    "difficulty": 624
+    "level": 55,
+    "difficulty": 624,
+    "durability": 80,
+    "maxQuality": 1323
   },
   {
-    "maxQuality": 1323,
-    "durability": 80,
     "name": {
-      "fr": "Pot d'alocasias",
       "de": "Topf-Alokasie",
+      "en": "Potted Oliphaunt's Ear",
       "ja": "\u30a2\u30ed\u30ab\u30b7\u30a2\u306e\u9262\u690d",
-      "en": "Potted Oliphaunt's Ear"
+      "fr": "Pot d'alocasias"
     },
-    "level": 50,
-    "difficulty": 624
+    "level": 55,
+    "difficulty": 624,
+    "durability": 80,
+    "maxQuality": 1323
   },
   {
-    "maxQuality": 1323,
-    "durability": 80,
     "name": {
-      "fr": "Marlin de Mazlaya empaill\u00e9",
       "de": "Pr\u00e4parierter Mazlaya-Marlin",
+      "en": "Stuffed Mazlaya Marlin",
       "ja": "\u30de\u30ba\u30e9\u30e4\u30de\u30fc\u30ea\u30f3\u306e\u5265\u88fd",
-      "en": "Stuffed Mazlaya Marlin"
+      "fr": "Marlin de Mazlaya empaill\u00e9"
     },
-    "level": 50,
-    "difficulty": 624
+    "level": 55,
+    "difficulty": 624,
+    "durability": 80,
+    "maxQuality": 1323
   },
   {
-    "maxQuality": 1323,
-    "durability": 80,
     "name": {
-      "fr": "Toit de villa en bois nosc\u00e9enne",
       "de": "Riviera-Holzresidenzdach",
+      "en": "Riviera Mansion Roof (Wood)",
       "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a6\u30c3\u30c9\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30eb\u30fc\u30d5",
-      "en": "Riviera Mansion Roof (Wood)"
+      "fr": "Toit de villa en bois nosc\u00e9enne"
     },
-    "level": 50,
-    "difficulty": 624
+    "level": 55,
+    "difficulty": 624,
+    "durability": 80,
+    "maxQuality": 1323
   },
   {
-    "maxQuality": 1323,
-    "durability": 80,
     "name": {
-      "fr": "Toit de villa composite sombrelin\u00e7oise",
       "de": "Wald-Kompositresidenzdach",
+      "en": "Glade Mansion Roof (Composite)",
       "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30eb\u30fc\u30d5",
-      "en": "Glade Mansion Roof (Composite)"
+      "fr": "Toit de villa composite sombrelin\u00e7oise"
     },
-    "level": 50,
-    "difficulty": 624
+    "level": 55,
+    "difficulty": 624,
+    "durability": 80,
+    "maxQuality": 1323
   },
   {
-    "maxQuality": 1323,
-    "durability": 80,
     "name": {
-      "fr": "Haie sombrelin\u00e7oise",
       "de": "Waldpflanzenzaun",
+      "en": "Glade Hedgewall",
       "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d8\u30c3\u30b8\u30a6\u30a9\u30fc\u30eb",
-      "en": "Glade Hedgewall"
+      "fr": "Haie sombrelin\u00e7oise"
     },
-    "level": 50,
-    "difficulty": 624
+    "level": 55,
+    "difficulty": 624,
+    "durability": 80,
+    "maxQuality": 1323
   },
   {
-    "maxQuality": 1460,
-    "durability": 80,
     "name": {
-      "fr": "Pot de figuier parasol",
       "de": "Eingetopfte Schirmfeige",
+      "en": "Potted Umbrella Fig",
       "ja": "\u30a2\u30f3\u30d6\u30ec\u30e9\u30d5\u30a3\u30b0\u306e\u9262\u690d",
-      "en": "Potted Umbrella Fig"
+      "fr": "Pot de figuier parasol"
     },
-    "level": 50,
-    "difficulty": 745
+    "level": 70,
+    "difficulty": 745,
+    "durability": 80,
+    "maxQuality": 1460
   },
   {
-    "maxQuality": 1460,
-    "durability": 80,
     "name": {
-      "fr": "Bananier sauvage",
       "de": "Wilder Bananenbaum",
+      "en": "Wild Banana Tree",
       "ja": "\u30ef\u30a4\u30eb\u30c9\u30d0\u30ca\u30ca\u30c4\u30ea\u30fc",
-      "en": "Wild Banana Tree"
+      "fr": "Bananier sauvage"
     },
-    "level": 50,
-    "difficulty": 745
+    "level": 70,
+    "difficulty": 745,
+    "durability": 80,
+    "maxQuality": 1460
   },
   {
-    "maxQuality": 1460,
-    "durability": 80,
     "name": {
-      "fr": "Takitaro empaill\u00e9",
       "de": "Pr\u00e4parierter Takitaro",
+      "en": "Stuffed Takitaro",
       "ja": "\u30bf\u30ad\u30bf\u30ed\u306e\u5265\u88fd",
-      "en": "Stuffed Takitaro"
+      "fr": "Takitaro empaill\u00e9"
     },
-    "level": 50,
-    "difficulty": 745
+    "level": 70,
+    "difficulty": 745,
+    "durability": 80,
+    "maxQuality": 1460
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "Grimoire d'incantateur de loup",
       "de": "Wolf-Grimoire der Magie",
+      "en": "Wolf Grimoire of Casting",
       "ja": "\u30a6\u30eb\u30d5\u30b0\u30ea\u30e2\u30a2\u30fb\u30aa\u30d6\u30fb\u30ad\u30e3\u30b9\u30c8",
-      "en": "Wolf Grimoire of Casting"
+      "fr": "Grimoire d'incantateur de loup"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "Grimoire de soigneur de loup",
       "de": "Wolf-Grimoire der Heilung",
+      "en": "Wolf Grimoire of Healing",
       "ja": "\u30a6\u30eb\u30d5\u30b0\u30ea\u30e2\u30a2\u30fb\u30aa\u30d6\u30fb\u30d2\u30fc\u30eb",
-      "en": "Wolf Grimoire of Healing"
+      "fr": "Grimoire de soigneur de loup"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "Aile d'Icare",
       "de": "Ikarus-Schwinge",
+      "en": "Icarus Wing",
       "ja": "\u30a4\u30ab\u30ed\u30b9\u30a6\u30a3\u30f3\u30b0",
-      "en": "Icarus Wing"
+      "fr": "Aile d'Icare"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "Plume de regain",
       "de": "Wiedererlangen-Feder",
+      "en": "Regain Feather",
       "ja": "\u30ea\u30b2\u30a4\u30f3\u30d5\u30a7\u30b6\u30fc",
-      "en": "Regain Feather"
+      "fr": "Plume de regain"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "S\u00e9rum anti lenteur",
       "de": "Trank gegen Gemach",
+      "en": "Slow Ward Potion",
       "ja": "\u6297\u9045\u5ef6\u5264",
-      "en": "Slow Ward Potion"
+      "fr": "S\u00e9rum anti lenteur"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "S\u00e9rum anti silence",
       "de": "Trank gegen Stumm",
+      "en": "Silence Ward Potion",
       "ja": "\u6297\u6c88\u9ed9\u5264",
-      "en": "Silence Ward Potion"
+      "fr": "S\u00e9rum anti silence"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "S\u00e9rum anti c\u00e9cit\u00e9",
       "de": "Trank gegen Blind",
+      "en": "Blind Ward Potion",
       "ja": "\u6297\u6697\u95c7\u5264",
-      "en": "Blind Ward Potion"
+      "fr": "S\u00e9rum anti c\u00e9cit\u00e9"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "S\u00e9rum anti poison",
       "de": "Trank gegen Gift",
+      "en": "Poison Ward Potion",
       "ja": "\u6297\u6bd2\u5264",
-      "en": "Poison Ward Potion"
+      "fr": "S\u00e9rum anti poison"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "S\u00e9rum anti \u00e9tourdissement",
       "de": "Trank gegen Bet\u00e4ubung",
+      "en": "Stun Ward Potion",
       "ja": "\u6297\u885d\u6483\u5264",
-      "en": "Stun Ward Potion"
+      "fr": "S\u00e9rum anti \u00e9tourdissement"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "S\u00e9rum anti sommeil",
       "de": "Trank gegen Schlaf",
+      "en": "Sleep Ward Potion",
       "ja": "\u6297\u7761\u7720\u5264",
-      "en": "Sleep Ward Potion"
+      "fr": "S\u00e9rum anti sommeil"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "S\u00e9rum anti entrave",
       "de": "Trank gegen Fessel",
+      "en": "Bind Ward Potion",
       "ja": "\u6297\u546a\u7e1b\u5264",
-      "en": "Bind Ward Potion"
+      "fr": "S\u00e9rum anti entrave"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "S\u00e9rum anti pesanteur",
       "de": "Trank gegen Gewicht",
+      "en": "Heavy Ward Potion",
       "ja": "\u6297\u91cd\u529b\u5264",
-      "en": "Heavy Ward Potion"
+      "fr": "S\u00e9rum anti pesanteur"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 2646,
-    "durability": 80,
     "name": {
-      "fr": "Essence de symbiose",
       "de": "Trank der Bindung",
+      "en": "Spiritbond Potion",
       "ja": "\u932c\u7cbe\u85ac",
-      "en": "Spiritbond Potion"
+      "fr": "Essence de symbiose"
     },
-    "level": 50,
-    "difficulty": 195
+    "level": 55,
+    "difficulty": 195,
+    "durability": 80,
+    "maxQuality": 2646
   },
   {
-    "maxQuality": 5257,
-    "durability": 80,
     "name": {
-      "fr": "Esprit de sel",
       "de": "Salzs\u00e4ure",
+      "en": "Spirits of Salt",
       "ja": "\u5869\u9178",
-      "en": "Spirits of Salt"
+      "fr": "Esprit de sel"
     },
-    "level": 50,
-    "difficulty": 419
+    "level": 70,
+    "difficulty": 419,
+    "durability": 80,
+    "maxQuality": 5257
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Kit de r\u00e9paration d'a\u00e9ronef",
       "de": "Luftschiff-Reparaturkit",
+      "en": "Airship Repair Materials",
       "ja": "\u98db\u7a7a\u8247\u4fee\u7406\u6750",
-      "en": "Airship Repair Materials"
+      "fr": "Kit de r\u00e9paration d'a\u00e9ronef"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "\u00c9p\u00e9e longue fiel-de-g\u00e9ant",
       "de": "Gallenerz-Langschwert",
+      "en": "Giantsgall Longsword",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30ed\u30f3\u30b0\u30bd\u30fc\u30c9",
-      "en": "Giantsgall Longsword"
+      "fr": "\u00c9p\u00e9e longue fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Griffes fiel-de-g\u00e9ant",
       "de": "Gallenerz-Klauen",
+      "en": "Giantsgall Claws",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30af\u30ed\u30fc",
-      "en": "Giantsgall Claws"
+      "fr": "Griffes fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Hache de guerre fiel-de-g\u00e9ant",
       "de": "Gallenerz-Kriegsaxt",
+      "en": "Giantsgall War Axe",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30a6\u30a9\u30fc\u30a2\u30af\u30b9",
-      "en": "Giantsgall War Axe"
+      "fr": "Hache de guerre fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Trident fiel-de-g\u00e9ant",
       "de": "Gallenerz-Dreizack",
+      "en": "Giantsgall Trident",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30c8\u30e9\u30a4\u30c7\u30f3\u30c8",
-      "en": "Giantsgall Trident"
+      "fr": "Trident fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Arc long fiel-de-g\u00e9ant",
       "de": "Gallenerz-Langbogen",
+      "en": "Giantsgall Longbow",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30ed\u30f3\u30b0\u30dc\u30a6",
-      "en": "Giantsgall Longbow"
+      "fr": "Arc long fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Couperets fiel-de-g\u00e9ant",
       "de": "Gallenerz-Spalter",
+      "en": "Giantsgall Cleavers",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30af\u30ea\u30fc\u30d0\u30fc",
-      "en": "Giantsgall Cleavers"
+      "fr": "Couperets fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Fendoir fiel-de-g\u00e9ant",
       "de": "Gallenerz-Guillotine",
+      "en": "Giantsgall Guillotine",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30c7\u30a3\u30d0\u30a4\u30c0\u30fc",
-      "en": "Giantsgall Guillotine"
+      "fr": "Fendoir fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "\u00c9ventreur fiel-de-g\u00e9ant",
       "de": "Gallenerz-Flinte",
+      "en": "Giantsgall Knifelock",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30ca\u30a4\u30d5\u30ed\u30c3\u30af",
-      "en": "Giantsgall Knifelock"
+      "fr": "\u00c9ventreur fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Canne fiel-de-g\u00e9ant",
       "de": "Gallenerz-Stock",
+      "en": "Giantsgall Cane",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30b1\u30fc\u30f3",
-      "en": "Giantsgall Cane"
+      "fr": "Canne fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "B\u00e2ton fiel-de-g\u00e9ant",
       "de": "Gallenerz-Langstab",
+      "en": "Giantsgall Longstaff",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30ed\u30f3\u30b0\u30b9\u30bf\u30c3\u30d5",
-      "en": "Giantsgall Longstaff"
+      "fr": "B\u00e2ton fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Cantamina Thavnaria",
       "de": "Magica Thavnaria",
+      "en": "Cantamina Thavnaria",
       "ja": "\u30de\u30b8\u30ab\u30fb\u30b5\u30d9\u30cd\u30a2",
-      "en": "Cantamina Thavnaria"
+      "fr": "Cantamina Thavnaria"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Medica Thavnaria",
       "de": "Medica Thavnaria",
+      "en": "Medica Thavnaria",
       "ja": "\u30e1\u30c7\u30a3\u30ab\u30fb\u30b5\u30d9\u30cd\u30a2",
-      "en": "Medica Thavnaria"
+      "fr": "Medica Thavnaria"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 2921,
-    "durability": 80,
     "name": {
-      "fr": "Globe c\u00e9leste fiel-de-g\u00e9ant",
       "de": "Gallenerz-Sternenglobus",
+      "en": "Giantsgall Star Globe",
       "ja": "\u30ae\u30ac\u30f3\u30c8\u30ac\u30eb\u30b9\u30bf\u30fc\u30b0\u30ed\u30fc\u30d6",
-      "en": "Giantsgall Star Globe"
+      "fr": "Globe c\u00e9leste fiel-de-g\u00e9ant"
     },
-    "level": 50,
-    "difficulty": 233
+    "level": 70,
+    "difficulty": 233,
+    "durability": 80,
+    "maxQuality": 2921
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Encre de platine enchant\u00e9e",
       "de": "Platin-Zaubertinte",
+      "en": "Enchanted Platinum Ink",
       "ja": "\u30d7\u30e9\u30c1\u30ca\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Platinum Ink"
+      "fr": "Encre de platine enchant\u00e9e"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 8964,
-    "durability": 80,
     "name": {
-      "fr": "Esprit de sel concentr\u00e9",
       "de": "Konzentrierte Salzs\u00e4ure",
+      "en": "Concentrated Spirits of Salt",
       "ja": "\u6fc3\u5869\u9178",
-      "en": "Concentrated Spirits of Salt"
+      "fr": "Esprit de sel concentr\u00e9"
     },
-    "level": 50,
-    "difficulty": 801
+    "level": 90,
+    "difficulty": 801,
+    "durability": 80,
+    "maxQuality": 8964
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "Mercure enchant\u00e9",
       "de": "Magisches Quecksilber",
+      "en": "Enchanted Quicksilver",
       "ja": "\u9b54\u5316\u6c34\u9280",
-      "en": "Enchanted Quicksilver"
+      "fr": "Mercure enchant\u00e9"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Mastic terminus",
       "de": "Terminus-Kitt",
+      "en": "Terminus Putty",
       "ja": "\u30c6\u30eb\u30df\u30cc\u30b9\u30d1\u30c6",
-      "en": "Terminus Putty"
+      "fr": "Mastic terminus"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Fixateur parfait",
       "de": "Hochwertiges Fixiermittel",
+      "en": "Perfect Pounce",
       "ja": "\u4e0a\u8cea\u306a\u5b9a\u7740\u5264",
-      "en": "Perfect Pounce"
+      "fr": "Fixateur parfait"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour armure du preux",
       "de": "Edel-R\u00fcstungsmaterial",
+      "en": "Gallant Armor Augmentation",
       "ja": "\u30ac\u30e9\u30f3\u30c8\u30a2\u30fc\u30de\u30fc\u306e\u88dc\u6750",
-      "en": "Gallant Armor Augmentation"
+      "fr": "\u00c9l\u00e9ments pour armure du preux"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour tenue du temple",
       "de": "Tempel-R\u00fcstungsmaterial",
+      "en": "Temple Attire Augmentation",
       "ja": "\u30c6\u30f3\u30d7\u30eb\u30a2\u30bf\u30a4\u30a2\u306e\u88dc\u6750",
-      "en": "Temple Attire Augmentation"
+      "fr": "\u00c9l\u00e9ments pour tenue du temple"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour armure du combattant",
       "de": "K\u00e4mpfer-R\u00fcstungsmaterial",
+      "en": "Fighter's Armor Augmentation",
       "ja": "\u30d5\u30a1\u30a4\u30bf\u30fc\u30a2\u30fc\u30de\u30fc\u306e\u88dc\u6750",
-      "en": "Fighter's Armor Augmentation"
+      "fr": "\u00c9l\u00e9ments pour armure du combattant"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour armure Drachen",
       "de": "Drachenreiter-R\u00fcstungsmaterial",
+      "en": "Drachen Armor Augmentation",
       "ja": "\u30c9\u30e9\u30b1\u30f3\u30a2\u30fc\u30de\u30fc\u306e\u88dc\u6750",
-      "en": "Drachen Armor Augmentation"
+      "fr": "\u00c9l\u00e9ments pour armure Drachen"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour tenue du chantre",
       "de": "Choral-Kleidungsmaterial",
+      "en": "Choral Attire Augmentation",
       "ja": "\u30b3\u30e9\u30eb\u30a2\u30bf\u30a4\u30a2\u306e\u88dc\u6750",
-      "en": "Choral Attire Augmentation"
+      "fr": "\u00c9l\u00e9ments pour tenue du chantre"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour tenue de ninja",
       "de": "Ninja-Kleidungsmaterial",
+      "en": "Ninja Garb Augmentation",
       "ja": "\u4e71\u6ce2\u88c5\u675f\u306e\u88dc\u6750",
-      "en": "Ninja Garb Augmentation"
+      "fr": "\u00c9l\u00e9ments pour tenue de ninja"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour tenue du sorcier",
       "de": "Zauberer-Kleidungsmaterial",
+      "en": "Wizard's Attire Augmentation",
       "ja": "\u30a6\u30a3\u30b6\u30fc\u30c9\u30a2\u30bf\u30a4\u30a2\u306e\u88dc\u6750",
-      "en": "Wizard's Attire Augmentation"
+      "fr": "\u00c9l\u00e9ments pour tenue du sorcier"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour tenue du gu\u00e9risseur",
       "de": "Heiler-Kleidungsmaterial",
+      "en": "Healer's Attire Augmentation",
       "ja": "\u30d2\u30fc\u30e9\u30fc\u30a2\u30bf\u30a4\u30a2\u306e\u88dc\u6750",
-      "en": "Healer's Attire Augmentation"
+      "fr": "\u00c9l\u00e9ments pour tenue du gu\u00e9risseur"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour tenue de l'adjurateur",
       "de": "Rufer-Kleidungsmaterial",
+      "en": "Evoker's Attire Augmentation",
       "ja": "\u30a8\u30dc\u30ab\u30fc\u30a2\u30bf\u30a4\u30a2\u306e\u88dc\u6750",
-      "en": "Evoker's Attire Augmentation"
+      "fr": "\u00c9l\u00e9ments pour tenue de l'adjurateur"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 40,
     "name": {
-      "fr": "\u00c9l\u00e9ments pour tenue de l'\u00e9rudit",
       "de": "Gelehrten-Kleidungsmaterial",
+      "en": "Scholar's Attire Augmentation",
       "ja": "\u30b9\u30ab\u30e9\u30fc\u30a2\u30bf\u30a4\u30a2\u306e\u88dc\u6750",
-      "en": "Scholar's Attire Augmentation"
+      "fr": "\u00c9l\u00e9ments pour tenue de l'\u00e9rudit"
     },
-    "level": 50,
-    "difficulty": 222
+    "level": 90,
+    "difficulty": 222,
+    "durability": 40,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Rocs des s\u00e9ismes",
       "de": "Erdsto\u00df-Schlagringe",
+      "en": "Tremor Knuckles",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30ca\u30c3\u30af\u30eb",
-      "en": "Tremor Knuckles"
+      "fr": "Rocs des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Hachereau des s\u00e9ismes",
       "de": "Erdsto\u00df-Axt",
+      "en": "Tremor Axe",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30a2\u30af\u30b9",
-      "en": "Tremor Axe"
+      "fr": "Hachereau des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "\u00c9pieu des s\u00e9ismes",
       "de": "Erdsto\u00df-Speer",
+      "en": "Tremor Spear",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30b9\u30d4\u30a2",
-      "en": "Tremor Spear"
+      "fr": "\u00c9pieu des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Arche des s\u00e9ismes",
       "de": "Erdsto\u00df-Bogen",
+      "en": "Tremor Bow",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30dc\u30a6",
-      "en": "Tremor Bow"
+      "fr": "Arche des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Couperets des s\u00e9ismes",
       "de": "Erdsto\u00dfspalter",
+      "en": "Tremor Cleavers",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30af\u30ea\u30fc\u30d0\u30fc",
-      "en": "Tremor Cleavers"
+      "fr": "Couperets des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Fendoir des s\u00e9ismes",
       "de": "Erdsto\u00df-Guillotine",
+      "en": "Tremor Guillotine",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30c7\u30a3\u30d0\u30a4\u30c0\u30fc",
-      "en": "Tremor Guillotine"
+      "fr": "Fendoir des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Couleuvrine des s\u00e9ismes",
       "de": "Erdsto\u00df-Kalverine",
+      "en": "Tremor Culverin",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30ab\u30eb\u30d0\u30ea\u30f3",
-      "en": "Tremor Culverin"
+      "fr": "Couleuvrine des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Lys Moggle Mog mortifiant",
       "de": "Misset\u00e4ter-Mogul-Mogzweig",
+      "en": "Malevolent Moggle Mogwand",
       "ja": "\u30e2\u30b0\u30eb\u30e2\u30b0\u30ea\u30ea\u30fc",
-      "en": "Malevolent Moggle Mogwand"
+      "fr": "Lys Moggle Mog mortifiant"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Rameau des s\u00e9ismes",
       "de": "Erdsto\u00df-Stock",
+      "en": "Tremor Cane",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30b1\u30fc\u30f3",
-      "en": "Tremor Cane"
+      "fr": "Rameau des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Matraque des s\u00e9ismes",
       "de": "Erdsto\u00df-Schl\u00e4gel",
+      "en": "Tremor Cudgel",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30ab\u30b8\u30a7\u30eb",
-      "en": "Tremor Cudgel"
+      "fr": "Matraque des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Grimoire des flammes",
       "de": "Inferno-Grimoire",
+      "en": "Inferno Grimoire",
       "ja": "\u30a4\u30f3\u30d5\u30a7\u30eb\u30ce\u30b0\u30ea\u30e2\u30a2",
-      "en": "Inferno Grimoire"
+      "fr": "Grimoire des flammes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Codex des flammes",
       "de": "Inferno-Kodex",
+      "en": "Inferno Codex",
       "ja": "\u30a4\u30f3\u30d5\u30a7\u30eb\u30ce\u30b3\u30fc\u30c7\u30c3\u30af\u30b9",
-      "en": "Inferno Codex"
+      "fr": "Codex des flammes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Volont\u00e9 des rafales",
       "de": "Windgewalten-Wille",
+      "en": "Will of the Vortex",
       "ja": "\u30f4\u30a9\u30fc\u30c6\u30c3\u30af\u30b9\u30a6\u30a3\u30eb",
-      "en": "Will of the Vortex"
+      "fr": "Volont\u00e9 des rafales"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Conviction des rafales",
       "de": "Windgewalten-Umklammerung",
+      "en": "Embrace of the Vortex",
       "ja": "\u30f4\u30a9\u30fc\u30c6\u30c3\u30af\u30b9\u30a8\u30f3\u30d6\u30ec\u30a4\u30b9",
-      "en": "Embrace of the Vortex"
+      "fr": "Conviction des rafales"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Clavicule majeure des s\u00e9ismes",
       "de": "Der gro\u00dfe Erdsto\u00df-Schl\u00fcssel",
+      "en": "The Greater Key of Tremors",
       "ja": "\u30b0\u30ec\u30fc\u30bf\u30fc\u30ad\u30fc\u30fb\u30aa\u30d6\u30fb\u30c8\u30ec\u30de\u30fc",
-      "en": "The Greater Key of Tremors"
+      "fr": "Clavicule majeure des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Clavicule sainte des s\u00e9ismes",
       "de": "Der heilige Erdsto\u00df-Schl\u00fcssel",
+      "en": "The Holy Key of Tremors",
       "ja": "\u30db\u30fc\u30ea\u30fc\u30ad\u30fc\u30fb\u30aa\u30d6\u30fb\u30c8\u30ec\u30de\u30fc",
-      "en": "The Holy Key of Tremors"
+      "fr": "Clavicule sainte des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Grimoire Moggle Mog mortif\u00e8re",
       "de": "Majest\u00e4tisches Mogul-Mogrimoire",
+      "en": "Majestic Moggle Mogtome",
       "ja": "\u30e2\u30b0\u30eb\u30e2\u30b0\u30ea\u30e2\u30a2\u30fb\u30e2\u30b0",
-      "en": "Majestic Moggle Mogtome"
+      "fr": "Grimoire Moggle Mog mortif\u00e8re"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Grimoire Moggle Mog mod\u00e9rateur",
       "de": "Munifizentes Mogul-Mogrimoire",
+      "en": "Munificent Moggle Mogtome",
       "ja": "\u30e2\u30b0\u30eb\u30e2\u30b0\u30ea\u30e2\u30a2\u30fb\u30af\u30dd",
-      "en": "Munificent Moggle Mogtome"
+      "fr": "Grimoire Moggle Mog mod\u00e9rateur"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Globe c\u00e9leste des s\u00e9ismes",
       "de": "Erdsto\u00df-Sternenglobus",
+      "en": "Tremor Star Globe",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30b9\u30bf\u30fc\u30b0\u30ed\u30fc\u30d6",
-      "en": "Tremor Star Globe"
+      "fr": "Globe c\u00e9leste des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 4980,
-    "durability": 80,
     "name": {
-      "fr": "Rempart des s\u00e9ismes",
       "de": "Erdsto\u00df-Schild",
+      "en": "Tremor Shield",
       "ja": "\u30c8\u30ec\u30de\u30fc\u30b7\u30fc\u30eb\u30c9",
-      "en": "Tremor Shield"
+      "fr": "Rempart des s\u00e9ismes"
     },
-    "level": 50,
-    "difficulty": 445
+    "level": 90,
+    "difficulty": 445,
+    "durability": 80,
+    "maxQuality": 4980
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Grimoire Kirimu",
       "de": "Kirimu-Grimoire",
+      "en": "Kirimu Grimoire",
       "ja": "\u30ad\u30ea\u30e0\u30b0\u30ea\u30e2\u30a2",
-      "en": "Kirimu Grimoire"
+      "fr": "Grimoire Kirimu"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Codex Kirimu",
       "de": "Kirimu-Kodex",
+      "en": "Kirimu Codex",
       "ja": "\u30ad\u30ea\u30e0\u30b3\u30fc\u30c7\u30c3\u30af\u30b9",
-      "en": "Kirimu Codex"
+      "fr": "Codex Kirimu"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Potion de minutie",
       "de": "Bastlertrank",
+      "en": "Tinker's Calm",
       "ja": "\u7cbe\u5bc6\u85ac",
-      "en": "Tinker's Calm"
+      "fr": "Potion de minutie"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Initiation \u00e0 la menuiserie",
       "de": "Zimmern f\u00fcr Anf\u00e4nger",
+      "en": "Carpentry for Beginners",
       "ja": "\u6728\u5de5\u5165\u9580\u66f8",
-      "en": "Carpentry for Beginners"
+      "fr": "Initiation \u00e0 la menuiserie"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Initiation \u00e0 la m\u00e9tallurgie",
       "de": "Grobschmiedekunst f\u00fcr Anf\u00e4nger",
+      "en": "Blacksmithing for Beginners",
       "ja": "\u935b\u51b6\u5165\u9580\u66f8",
-      "en": "Blacksmithing for Beginners"
+      "fr": "Initiation \u00e0 la m\u00e9tallurgie"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Initiation \u00e0 l'armurerie",
       "de": "Plattnerkunst f\u00fcr Anf\u00e4nger",
+      "en": "Armoring for Beginners",
       "ja": "\u677f\u91d1\u5165\u9580\u66f8",
-      "en": "Armoring for Beginners"
+      "fr": "Initiation \u00e0 l'armurerie"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Initiation \u00e0 l'orf\u00e8vrerie",
       "de": "Goldschmiedekunst f\u00fcr Anf\u00e4nger",
+      "en": "Goldsmithing for Beginners",
       "ja": "\u5f6b\u91d1\u5165\u9580\u66f8",
-      "en": "Goldsmithing for Beginners"
+      "fr": "Initiation \u00e0 l'orf\u00e8vrerie"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Initiation \u00e0 la tannerie",
       "de": "Gerben f\u00fcr Anf\u00e4nger",
+      "en": "Leatherworking for Beginners",
       "ja": "\u9769\u7d30\u5de5\u5165\u9580\u66f8",
-      "en": "Leatherworking for Beginners"
+      "fr": "Initiation \u00e0 la tannerie"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Initiation \u00e0 la couture",
       "de": "Weben f\u00fcr Anf\u00e4nger",
+      "en": "Weaving for Beginners",
       "ja": "\u88c1\u7e2b\u5165\u9580\u66f8",
-      "en": "Weaving for Beginners"
+      "fr": "Initiation \u00e0 la couture"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Initiation \u00e0 l'alchimie",
       "de": "Alchemie f\u00fcr Anf\u00e4nger",
+      "en": "Alchemy for Beginners",
       "ja": "\u932c\u6210\u5165\u9580\u66f8",
-      "en": "Alchemy for Beginners"
+      "fr": "Initiation \u00e0 l'alchimie"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 80,
     "name": {
-      "fr": "Initiation \u00e0 la cuisine",
       "de": "Kochen f\u00fcr Anf\u00e4nger",
+      "en": "Cooking for Beginners",
       "ja": "\u8abf\u7406\u5165\u9580\u66f8",
-      "en": "Cooking for Beginners"
+      "fr": "Initiation \u00e0 la cuisine"
     },
-    "level": 50,
-    "difficulty": 586
+    "level": 110,
+    "difficulty": 586,
+    "durability": 80,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 3951,
-    "durability": 40,
     "name": {
-      "fr": "Encre de mithrite enchant\u00e9e",
       "de": "Mythrit-Zaubertinte",
+      "en": "Enchanted Mythrite Ink",
       "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Mythrite Ink"
+      "fr": "Encre de mithrite enchant\u00e9e"
     },
-    "level": 51,
-    "difficulty": 169
+    "level": 120,
+    "difficulty": 169,
+    "durability": 40,
+    "maxQuality": 3951
   },
   {
-    "maxQuality": 3951,
-    "durability": 80,
     "name": {
-      "fr": "Grimoire en cuir d'arch\u00e9ornis",
       "de": "Archaeoleder-Grimoire",
+      "en": "Archaeoskin Grimoire",
       "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30b0\u30ea\u30e2\u30a2",
-      "en": "Archaeoskin Grimoire"
+      "fr": "Grimoire en cuir d'arch\u00e9ornis"
     },
-    "level": 51,
-    "difficulty": 339
+    "level": 120,
+    "difficulty": 339,
+    "durability": 80,
+    "maxQuality": 3951
   },
   {
-    "maxQuality": 3951,
-    "durability": 80,
     "name": {
-      "fr": "Codex en cuir d'arch\u00e9ornis",
       "de": "Archaeoleder-Kodex",
+      "en": "Archaeoskin Codex",
       "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30b3\u30fc\u30c7\u30c3\u30af\u30b9",
-      "en": "Archaeoskin Codex"
+      "fr": "Codex en cuir d'arch\u00e9ornis"
     },
-    "level": 51,
-    "difficulty": 339
+    "level": 120,
+    "difficulty": 339,
+    "durability": 80,
+    "maxQuality": 3951
   },
   {
-    "maxQuality": 4561,
-    "durability": 40,
     "name": {
-      "fr": "Formule de croissance epsilon",
       "de": "Wachstumsformel Epsilon",
+      "en": "Growth Formula Epsilon",
       "ja": "\u30b0\u30ed\u30fc\u30b9\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30a4\u30d7\u30b7\u30ed\u30f3",
-      "en": "Growth Formula Epsilon"
+      "fr": "Formule de croissance epsilon"
     },
-    "level": 51,
-    "difficulty": 210
+    "level": 120,
+    "difficulty": 210,
+    "durability": 40,
+    "maxQuality": 4561
   },
   {
-    "maxQuality": 4561,
-    "durability": 40,
     "name": {
-      "fr": "Glu d'entit\u00e9",
       "de": "Schwarzleim",
+      "en": "Void Glue",
       "ja": "\u9ed2\u306b\u304b\u308f",
-      "en": "Void Glue"
+      "fr": "Glu d'entit\u00e9"
     },
-    "level": 51,
-    "difficulty": 210
+    "level": 120,
+    "difficulty": 210,
+    "durability": 40,
+    "maxQuality": 4561
   },
   {
-    "maxQuality": 5172,
-    "durability": 40,
     "name": {
-      "fr": "Eau sacr\u00e9e",
       "de": "Heiliges Wasser",
+      "en": "Holy Water",
       "ja": "\u8056\u6c34",
-      "en": "Holy Water"
+      "fr": "Eau sacr\u00e9e"
     },
-    "level": 52,
-    "difficulty": 251
+    "level": 126,
+    "difficulty": 251,
+    "durability": 40,
+    "maxQuality": 5172
   },
   {
-    "maxQuality": 5172,
-    "durability": 80,
     "name": {
-      "fr": "Baguette en c\u00e8dre sacr\u00e9",
       "de": "Heiliger Zedernzweig",
+      "en": "Holy Cedar Wand",
       "ja": "\u30db\u30fc\u30ea\u30fc\u30b7\u30fc\u30c0\u30fc\u30ef\u30f3\u30c9",
-      "en": "Holy Cedar Wand"
+      "fr": "Baguette en c\u00e8dre sacr\u00e9"
     },
-    "level": 52,
-    "difficulty": 503
+    "level": 126,
+    "difficulty": 503,
+    "durability": 80,
+    "maxQuality": 5172
   },
   {
-    "maxQuality": 5172,
-    "durability": 80,
     "name": {
-      "fr": "Grimoire en cuir de wyverne",
       "de": "Wyvernleder-Grimoire",
+      "en": "Wyvernskin Grimoire",
       "ja": "\u30ef\u30a4\u30d0\u30fc\u30f3\u30b0\u30ea\u30e2\u30a2",
-      "en": "Wyvernskin Grimoire"
+      "fr": "Grimoire en cuir de wyverne"
     },
-    "level": 52,
-    "difficulty": 503
+    "level": 126,
+    "difficulty": 503,
+    "durability": 80,
+    "maxQuality": 5172
   },
   {
-    "maxQuality": 5172,
-    "durability": 80,
     "name": {
-      "fr": "Codex en cuir de wyverne",
       "de": "Wyvernleder-Kodex",
+      "en": "Wyvernskin Codex",
       "ja": "\u30ef\u30a4\u30d0\u30fc\u30f3\u30b3\u30fc\u30c7\u30c3\u30af\u30b9",
-      "en": "Wyvernskin Codex"
+      "fr": "Codex en cuir de wyverne"
     },
-    "level": 52,
-    "difficulty": 503
+    "level": 126,
+    "difficulty": 503,
+    "durability": 80,
+    "maxQuality": 5172
   },
   {
-    "maxQuality": 5783,
-    "durability": 40,
     "name": {
-      "fr": "Dissolvant de force I",
       "de": "St\u00e4rke-L\u00f6sungsmittel I",
+      "en": "Grade 1 Strength Dissolvent",
       "ja": "\u525b\u529b\u306e\u932c\u91d1\u6eb6\u5264G1",
-      "en": "Grade 1 Strength Dissolvent"
+      "fr": "Dissolvant de force I"
     },
-    "level": 53,
-    "difficulty": 293
+    "level": 130,
+    "difficulty": 293,
+    "durability": 40,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 5783,
-    "durability": 40,
     "name": {
-      "fr": "Dissolvant de dext\u00e9rit\u00e9 I",
       "de": "Geschicklichkeit-L\u00f6sungsmittel I",
+      "en": "Grade 1 Dexterity Dissolvent",
       "ja": "\u773c\u529b\u306e\u932c\u91d1\u6eb6\u5264G1",
-      "en": "Grade 1 Dexterity Dissolvent"
+      "fr": "Dissolvant de dext\u00e9rit\u00e9 I"
     },
-    "level": 53,
-    "difficulty": 293
+    "level": 130,
+    "difficulty": 293,
+    "durability": 40,
+    "maxQuality": 5783
   },
   {
-    "maxQuality": 6042,
-    "durability": 40,
     "name": {
-      "fr": "Encre de durargent enchant\u00e9e",
       "de": "Hartsilber-Zaubertinte",
+      "en": "Enchanted Hardsilver Ink",
       "ja": "\u30cf\u30fc\u30c9\u30b7\u30eb\u30d0\u30fc\u30fb\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Hardsilver Ink"
+      "fr": "Encre de durargent enchant\u00e9e"
     },
-    "level": 54,
-    "difficulty": 320
+    "level": 133,
+    "difficulty": 320,
+    "durability": 40,
+    "maxQuality": 6042
   },
   {
-    "maxQuality": 6042,
-    "durability": 40,
     "name": {
-      "fr": "Dissolvant de vitalit\u00e9 I",
       "de": "Konstitution-L\u00f6sungsmittel I",
+      "en": "Grade 1 Vitality Dissolvent",
       "ja": "\u6d3b\u529b\u306e\u932c\u91d1\u6eb6\u5264G1",
-      "en": "Grade 1 Vitality Dissolvent"
+      "fr": "Dissolvant de vitalit\u00e9 I"
     },
-    "level": 54,
-    "difficulty": 320
+    "level": 133,
+    "difficulty": 320,
+    "durability": 40,
+    "maxQuality": 6042
   },
   {
-    "maxQuality": 6042,
-    "durability": 40,
     "name": {
-      "fr": "Dissolvant d'intelligence I",
       "de": "Intelligenz-L\u00f6sungsmittel I",
+      "en": "Grade 1 Intelligence Dissolvent",
       "ja": "\u77e5\u529b\u306e\u932c\u91d1\u6eb6\u5264G1",
-      "en": "Grade 1 Intelligence Dissolvent"
+      "fr": "Dissolvant d'intelligence I"
     },
-    "level": 54,
-    "difficulty": 320
-  },
-  {
-    "maxQuality": 6042,
+    "level": 133,
+    "difficulty": 320,
     "durability": 40,
+    "maxQuality": 6042
+  },
+  {
     "name": {
-      "fr": "Dissolvant d'esprit I",
       "de": "Willenskraft-L\u00f6sungsmittel I",
+      "en": "Grade 1 Mind Dissolvent",
       "ja": "\u5fc3\u529b\u306e\u932c\u91d1\u6eb6\u5264G1",
-      "en": "Grade 1 Mind Dissolvent"
+      "fr": "Dissolvant d'esprit I"
     },
-    "level": 54,
-    "difficulty": 320
+    "level": 133,
+    "difficulty": 320,
+    "durability": 40,
+    "maxQuality": 6042
   },
   {
-    "maxQuality": 6301,
-    "durability": 35,
     "name": {
-      "fr": "Super glu",
       "de": "Sekundenleim",
+      "en": "Wing Glue",
       "ja": "\u77ac\u9593\u306b\u304b\u308f",
-      "en": "Wing Glue"
+      "fr": "Super glu"
     },
-    "level": 55,
-    "difficulty": 348
+    "level": 136,
+    "difficulty": 348,
+    "durability": 35,
+    "maxQuality": 6301
   },
   {
-    "maxQuality": 6301,
-    "durability": 70,
     "name": {
-      "fr": "Grimoire en cuir de dhalmel",
       "de": "Dhalmelleder-Grimoire",
+      "en": "Dhalmelskin Grimoire",
       "ja": "\u30c0\u30eb\u30e1\u30eb\u30b0\u30ea\u30e2\u30a2",
-      "en": "Dhalmelskin Grimoire"
+      "fr": "Grimoire en cuir de dhalmel"
     },
-    "level": 55,
-    "difficulty": 697
+    "level": 136,
+    "difficulty": 697,
+    "durability": 70,
+    "maxQuality": 6301
   },
   {
-    "maxQuality": 6301,
-    "durability": 70,
     "name": {
-      "fr": "Codex en cuir de dhalmel",
       "de": "Dhalmelleder-Kodex",
+      "en": "Dhalmelskin Codex",
       "ja": "\u30c0\u30eb\u30e1\u30eb\u30b3\u30fc\u30c7\u30c3\u30af\u30b9",
-      "en": "Dhalmelskin Codex"
+      "fr": "Codex en cuir de dhalmel"
     },
-    "level": 55,
-    "difficulty": 697
+    "level": 136,
+    "difficulty": 697,
+    "durability": 70,
+    "maxQuality": 6301
   },
   {
-    "maxQuality": 3150,
-    "durability": 70,
     "name": {
-      "fr": "Topiaire de Mog",
       "de": "Mogry-Busch",
+      "en": "Topiary Moogle",
       "ja": "\u30e2\u30fc\u30b0\u30ea\u30c8\u30d4\u30a2\u30ea\u30fc",
-      "en": "Topiary Moogle"
+      "fr": "Topiaire de Mog"
     },
-    "level": 55,
-    "difficulty": 1254
+    "level": 136,
+    "difficulty": 1254,
+    "durability": 70,
+    "maxQuality": 3150
   },
   {
-    "maxQuality": 3150,
-    "durability": 70,
     "name": {
-      "fr": "Carr\u00e9 de lupins",
       "de": "Lupinen-Beet",
+      "en": "Lupin Plot",
       "ja": "\u30eb\u30d4\u30ca\u30b9\u30ac\u30fc\u30c7\u30f3",
-      "en": "Lupin Plot"
+      "fr": "Carr\u00e9 de lupins"
     },
-    "level": 55,
-    "difficulty": 1254
+    "level": 136,
+    "difficulty": 1254,
+    "durability": 70,
+    "maxQuality": 3150
   },
   {
-    "maxQuality": 4561,
-    "durability": 80,
     "name": {
-      "fr": "Encre \u00e9carlate enchant\u00e9e",
       "de": "Scharlachrote Zaubertinte",
+      "en": "Deep Red Enchanted Ink",
       "ja": "\u6df1\u7dcb\u306e\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Deep Red Enchanted Ink"
+      "fr": "Encre \u00e9carlate enchant\u00e9e"
     },
-    "level": 51,
-    "difficulty": 421
+    "level": 120,
+    "difficulty": 421,
+    "durability": 80,
+    "maxQuality": 4561
   },
   {
-    "maxQuality": 4561,
-    "durability": 80,
     "name": {
-      "fr": "Encre viride enchant\u00e9e",
       "de": "Moosgr\u00fcne Zaubertinte",
+      "en": "Deep Green Enchanted Ink",
       "ja": "\u7fe0\u7dd1\u306e\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Deep Green Enchanted Ink"
+      "fr": "Encre viride enchant\u00e9e"
     },
-    "level": 51,
-    "difficulty": 421
-  },
-  {
-    "maxQuality": 4561,
+    "level": 120,
+    "difficulty": 421,
     "durability": 80,
+    "maxQuality": 4561
+  },
+  {
     "name": {
-      "fr": "Encre azur enchant\u00e9e",
       "de": "Azurblaue Zaubertinte",
+      "en": "Deep Blue Enchanted Ink",
       "ja": "\u7d3a\u78a7\u306e\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Deep Blue Enchanted Ink"
+      "fr": "Encre azur enchant\u00e9e"
     },
-    "level": 51,
-    "difficulty": 421
+    "level": 120,
+    "difficulty": 421,
+    "durability": 80,
+    "maxQuality": 4561
   },
   {
-    "maxQuality": 6561,
-    "durability": 35,
     "name": {
-      "fr": "Eau sanctifi\u00e9e",
       "de": "Geheiligtes Wasser",
+      "en": "Hallowed Water",
       "ja": "\u795d\u8056\u6c34",
-      "en": "Hallowed Water"
+      "fr": "Eau sanctifi\u00e9e"
     },
-    "level": 56,
-    "difficulty": 376
+    "level": 139,
+    "difficulty": 376,
+    "durability": 35,
+    "maxQuality": 6561
   },
   {
-    "maxQuality": 6561,
-    "durability": 70,
     "name": {
-      "fr": "Baguette en ch\u00e2taignier sanctifi\u00e9",
       "de": "Kastanienzweig",
+      "en": "Hallowed Chestnut Wand",
       "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30ef\u30f3\u30c9",
-      "en": "Hallowed Chestnut Wand"
+      "fr": "Baguette en ch\u00e2taignier sanctifi\u00e9"
     },
-    "level": 56,
-    "difficulty": 752
+    "level": 139,
+    "difficulty": 752,
+    "durability": 70,
+    "maxQuality": 6561
   },
   {
-    "maxQuality": 6820,
-    "durability": 70,
     "name": {
-      "fr": "Grimoire en cuir de dragon",
       "de": "Drachenleder-Grimoire",
+      "en": "Dragonskin Grimoire",
       "ja": "\u30c9\u30e9\u30b4\u30f3\u30ec\u30b6\u30fc\u30b0\u30ea\u30e2\u30a2",
-      "en": "Dragonskin Grimoire"
+      "fr": "Grimoire en cuir de dragon"
     },
-    "level": 57,
-    "difficulty": 808
+    "level": 142,
+    "difficulty": 808,
+    "durability": 70,
+    "maxQuality": 6820
   },
   {
-    "maxQuality": 6820,
-    "durability": 70,
     "name": {
-      "fr": "Codex en cuir de dragon",
       "de": "Drachenleder-Kodex",
+      "en": "Dragonskin Codex",
       "ja": "\u30c9\u30e9\u30b4\u30f3\u30ec\u30b6\u30fc\u30b3\u30fc\u30c7\u30c3\u30af\u30b9",
-      "en": "Dragonskin Codex"
+      "fr": "Codex en cuir de dragon"
     },
-    "level": 57,
-    "difficulty": 808
+    "level": 142,
+    "difficulty": 808,
+    "durability": 70,
+    "maxQuality": 6820
   },
   {
-    "maxQuality": 7080,
-    "durability": 35,
     "name": {
-      "fr": "Formule de croissance th\u00eata",
       "de": "Wachstumsformel Theta",
+      "en": "Growth Formula Theta",
       "ja": "\u30b0\u30ed\u30fc\u30b9\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30bc\u30fc\u30bf",
-      "en": "Growth Formula Theta"
+      "fr": "Formule de croissance th\u00eata"
     },
-    "level": 58,
-    "difficulty": 431
+    "level": 145,
+    "difficulty": 431,
+    "durability": 35,
+    "maxQuality": 7080
   },
   {
-    "maxQuality": 7080,
-    "durability": 35,
     "name": {
-      "fr": "Encre d'aurum regis enchant\u00e9e",
       "de": "K\u00f6nigsgold-Zaubertinte",
+      "en": "Enchanted Aurum Regis Ink",
       "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Enchanted Aurum Regis Ink"
+      "fr": "Encre d'aurum regis enchant\u00e9e"
     },
-    "level": 58,
-    "difficulty": 431
-  },
-  {
-    "maxQuality": 7080,
-    "durability": 70,
-    "name": {
-      "fr": "Livre en aurum regis",
-      "de": "K\u00f6nigsgold-Grimoire",
-      "ja": "\u30d6\u30c3\u30af\u30fb\u30aa\u30d6\u30fb\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9",
-      "en": "Book of Aurum Regis"
-    },
-    "level": 58,
-    "difficulty": 863
-  },
-  {
-    "maxQuality": 7080,
-    "durability": 70,
-    "name": {
-      "fr": "Picatrix en aurum regis",
-      "de": "K\u00f6nigsgold-Picatrix",
-      "ja": "\u30d4\u30ab\u30c8\u30ea\u30af\u30b9\u30fb\u30aa\u30d6\u30fb\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9",
-      "en": "Noble's Picatrix"
-    },
-    "level": 58,
-    "difficulty": 863
-  },
-  {
-    "maxQuality": 7339,
+    "level": 145,
+    "difficulty": 431,
     "durability": 35,
+    "maxQuality": 7080
+  },
+  {
     "name": {
-      "fr": "Ultra glu",
+      "de": "K\u00f6nigsgold-Grimoire",
+      "en": "Book of Aurum Regis",
+      "ja": "\u30d6\u30c3\u30af\u30fb\u30aa\u30d6\u30fb\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9",
+      "fr": "Livre en aurum regis"
+    },
+    "level": 145,
+    "difficulty": 863,
+    "durability": 70,
+    "maxQuality": 7080
+  },
+  {
+    "name": {
+      "de": "K\u00f6nigsgold-Picatrix",
+      "en": "Noble's Picatrix",
+      "ja": "\u30d4\u30ab\u30c8\u30ea\u30af\u30b9\u30fb\u30aa\u30d6\u30fb\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9",
+      "fr": "Picatrix en aurum regis"
+    },
+    "level": 145,
+    "difficulty": 863,
+    "durability": 70,
+    "maxQuality": 7080
+  },
+  {
+    "name": {
       "de": "Supersekundenleim",
+      "en": "Scale Glue",
       "ja": "\u77ac\u9593\u5f37\u529b\u306b\u304b\u308f",
-      "en": "Scale Glue"
+      "fr": "Ultra glu"
     },
-    "level": 59,
-    "difficulty": 459
+    "level": 148,
+    "difficulty": 459,
+    "durability": 35,
+    "maxQuality": 7339
   },
   {
-    "maxQuality": 7080,
-    "durability": 70,
     "name": {
-      "fr": "Potion draconique de force",
       "de": "Drachentrank der St\u00e4rke",
+      "en": "Draconian Potion of Strength",
       "ja": "\u525b\u529b\u306e\u7adc\u85ac",
-      "en": "Draconian Potion of Strength"
+      "fr": "Potion draconique de force"
     },
-    "level": 58,
-    "difficulty": 863
+    "level": 145,
+    "difficulty": 863,
+    "durability": 70,
+    "maxQuality": 7080
   },
   {
-    "maxQuality": 7080,
-    "durability": 70,
     "name": {
-      "fr": "Potion draconique de dext\u00e9rit\u00e9",
       "de": "Drachentrank der Geschicklichkeit",
+      "en": "Draconian Potion of Dexterity",
       "ja": "\u773c\u529b\u306e\u7adc\u85ac",
-      "en": "Draconian Potion of Dexterity"
+      "fr": "Potion draconique de dext\u00e9rit\u00e9"
     },
-    "level": 58,
-    "difficulty": 863
+    "level": 145,
+    "difficulty": 863,
+    "durability": 70,
+    "maxQuality": 7080
   },
   {
-    "maxQuality": 7339,
-    "durability": 70,
     "name": {
-      "fr": "Potion draconique de vitalit\u00e9",
       "de": "Drachentrank der Konstitution",
+      "en": "Draconian Potion of Vitality",
       "ja": "\u6d3b\u529b\u306e\u7adc\u85ac",
-      "en": "Draconian Potion of Vitality"
+      "fr": "Potion draconique de vitalit\u00e9"
     },
-    "level": 59,
-    "difficulty": 919
+    "level": 148,
+    "difficulty": 919,
+    "durability": 70,
+    "maxQuality": 7339
   },
   {
-    "maxQuality": 7339,
-    "durability": 70,
     "name": {
-      "fr": "Potion draconique d'intelligence",
       "de": "Drachentrank der Intelligenz",
+      "en": "Draconian Potion of Intelligence",
       "ja": "\u77e5\u529b\u306e\u7adc\u85ac",
-      "en": "Draconian Potion of Intelligence"
+      "fr": "Potion draconique d'intelligence"
     },
-    "level": 59,
-    "difficulty": 919
+    "level": 148,
+    "difficulty": 919,
+    "durability": 70,
+    "maxQuality": 7339
   },
   {
-    "maxQuality": 7339,
-    "durability": 70,
     "name": {
-      "fr": "Potion draconique d'esprit",
       "de": "Drachentrank der Willenskraft",
+      "en": "Draconian Potion of Mind",
       "ja": "\u5fc3\u529b\u306e\u7adc\u85ac",
-      "en": "Draconian Potion of Mind"
+      "fr": "Potion draconique d'esprit"
     },
-    "level": 59,
-    "difficulty": 919
+    "level": 148,
+    "difficulty": 919,
+    "durability": 70,
+    "maxQuality": 7339
   },
   {
-    "maxQuality": 7851,
-    "durability": 70,
     "name": {
-      "fr": "Aurum regis",
       "de": "Aurum Regis",
+      "en": "Noble Gold",
       "ja": "\u30a4\u30f3\u30c7\u30c3\u30af\u30b9\u30fb\u30aa\u30d6\u30fb\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9",
-      "en": "Noble Gold"
+      "fr": "Aurum regis"
     },
-    "level": 60,
-    "difficulty": 956
+    "level": 150,
+    "difficulty": 956,
+    "durability": 70,
+    "maxQuality": 7851
   },
   {
-    "maxQuality": 7851,
-    "durability": 70,
     "name": {
-      "fr": "Codex en aurum regis",
       "de": "K\u00f6nigsgold-Kodex",
+      "en": "Noble's Codex",
       "ja": "\u30b3\u30fc\u30c7\u30c3\u30af\u30b9\u30fb\u30aa\u30d6\u30fb\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9",
-      "en": "Noble's Codex"
+      "fr": "Codex en aurum regis"
     },
-    "level": 60,
-    "difficulty": 956
+    "level": 150,
+    "difficulty": 956,
+    "durability": 70,
+    "maxQuality": 7851
   },
   {
-    "maxQuality": 8377,
-    "durability": 70,
     "name": {
-      "fr": "Huile astrale",
       "de": "Astral\u00f6l",
+      "en": "Astral Oil",
       "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30aa\u30a4\u30eb",
-      "en": "Astral Oil"
+      "fr": "Huile astrale"
     },
-    "level": 60,
-    "difficulty": 1116
+    "level": 160,
+    "difficulty": 1116,
+    "durability": 70,
+    "maxQuality": 8377
   },
   {
-    "maxQuality": 8377,
-    "durability": 70,
     "name": {
-      "fr": "Encre \u00e9carlate enchant\u00e9e de haute qualit\u00e9",
       "de": "Scharlachrote Starkzauber-Tinte",
+      "en": "Superior Deep Red Enchanted Ink",
       "ja": "\u6df1\u7dcb\u306e\u30cf\u30a4\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Superior Deep Red Enchanted Ink"
+      "fr": "Encre \u00e9carlate enchant\u00e9e de haute qualit\u00e9"
     },
-    "level": 60,
-    "difficulty": 1116
+    "level": 160,
+    "difficulty": 1116,
+    "durability": 70,
+    "maxQuality": 8377
   },
   {
-    "maxQuality": 8377,
-    "durability": 70,
     "name": {
-      "fr": "Encre viride enchant\u00e9e de haute qualit\u00e9",
       "de": "Moosgr\u00fcne Starkzauber-Tinte",
+      "en": "Superior Deep Green Enchanted Ink",
       "ja": "\u7fe0\u7dd1\u306e\u30cf\u30a4\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Superior Deep Green Enchanted Ink"
+      "fr": "Encre viride enchant\u00e9e de haute qualit\u00e9"
     },
-    "level": 60,
-    "difficulty": 1116
+    "level": 160,
+    "difficulty": 1116,
+    "durability": 70,
+    "maxQuality": 8377
   },
   {
-    "maxQuality": 8377,
-    "durability": 70,
     "name": {
-      "fr": "Encre azur enchant\u00e9e de haute qualit\u00e9",
       "de": "Azurblaue Starkzauber-Tinte",
+      "en": "Superior Deep Blue Enchanted Ink",
       "ja": "\u7d3a\u78a7\u306e\u30cf\u30a4\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af",
-      "en": "Superior Deep Blue Enchanted Ink"
+      "fr": "Encre azur enchant\u00e9e de haute qualit\u00e9"
     },
-    "level": 60,
-    "difficulty": 1116
+    "level": 160,
+    "difficulty": 1116,
+    "durability": 70,
+    "maxQuality": 8377
   },
   {
-    "maxQuality": 8377,
-    "durability": 70,
     "name": {
-      "fr": "Atomos atrophi\u00e9",
       "de": "Mini-Atomos",
+      "en": "Atrophied Atomos",
       "ja": "\u30df\u30cb\u30de\u30e0\u30a2\u30c8\u30e2\u30b9",
-      "en": "Atrophied Atomos"
+      "fr": "Atomos atrophi\u00e9"
     },
-    "level": 60,
-    "difficulty": 558
+    "level": 160,
+    "difficulty": 558,
+    "durability": 70,
+    "maxQuality": 8377
   }
 ]
