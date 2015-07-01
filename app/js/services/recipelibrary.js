@@ -35,6 +35,13 @@ RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
           var recipe = r.data[i];
           result.push(recipeForLang(lang, recipe));
         }
+        result.sort(function (a, b) {
+          var diff = a.level - b.level;
+          if (diff !== 0) return diff;
+          if (a.name < b.name) return -1;
+          else if (a.name > b.name) return 1;
+          return 0;
+        });
         return result;
       }
     );
