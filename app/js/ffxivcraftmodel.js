@@ -270,7 +270,11 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         }
 
         // Effects modifying level difference
-        var levelDifference = synth.crafter.level - synth.recipe.level;
+        var cAdjFactor = 0;
+        if (LevelTable[synth.crafter.level]) {
+            cAdjFactor = LevelTable[synth.crafter.level];
+        }
+        var levelDifference = (synth.crafter.level + cAdjFactor) - synth.recipe.level;
         if (AllActions.ingenuity2.name in effects.countDowns) {
             if (synth.crafter.level == 50) {
                 if (levelDifference < -20) {
@@ -572,7 +576,11 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     control = Math.floor(control);
 
     // Effects modifying level difference
-    var levelDifference = synth.crafter.level - synth.recipe.level;
+    var cAdjFactor = 0;
+    if (LevelTable[synth.crafter.level]) {
+        cAdjFactor = LevelTable[synth.crafter.level];
+    }
+    var levelDifference = (synth.crafter.level + cAdjFactor) - synth.recipe.level;
     if (AllActions.ingenuity2.name in effects.countDowns) {
         if (synth.crafter.level == 50) {
             if (levelDifference < -20) {
@@ -1187,6 +1195,19 @@ var AllActions = {
     ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50),
 
     dummyAction: new Action(       'dummyAction',          '______________',       0,  0,    1.0, 0.0, 0.0, 'immediate',   1,  'All',          1)
+};
+
+var LevelTable = {
+    51: 69, // 120
+    52: 74, // 125
+    53: 77, // 130
+    54: 79, // 133
+    55: 81, // 136
+    56: 83, // 139
+    57: 85, // 142
+    58: 87, // 145
+    59: 89, // 148
+    60: 90  // 150
 };
 
 // Test objects
