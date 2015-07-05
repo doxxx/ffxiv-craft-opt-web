@@ -83,11 +83,14 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     var levelCorrectionFactor = 0;
 
     // Max penalty still appears to be -5 in Patch 2.2
-    if (levelDifference < -5) {
-        levelDifference = -5;
-    }
+    levelDifference = Math.max(levelDifference, -5);
 
-    if (recipeLevel > 50) {
+    if (recipeLevel >= 120) {
+        if (levelDifference < 0) {
+            levelCorrectionFactor = 0.04103 * levelDifference;
+        }
+    }
+    else if (recipeLevel > 50) {
         if (levelDifference <= -5) {
             levelCorrectionFactor = 0.05374 * levelDifference;
         }
@@ -101,13 +104,16 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
         if (levelDifference < 0) {
             levelCorrectionFactor = 0.05 * levelDifference;
         }
-        else {
-            levelCorrectionFactor = 0;
-        }
     }
 
     var baseQuality = 0;
-    baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
+
+    if (recipeLevel >= 120) {
+        baseQuality = 3.84e-5 * control * control + 0.3301 * control + 36.38;
+    }
+    else if (recipeLevel < 120) {
+        baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
+    }
     var levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
 
     return levelCorrectedQuality;
