@@ -276,7 +276,16 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         }
         var levelDifference = (synth.crafter.level + cAdjFactor) - synth.recipe.level;
         if (AllActions.ingenuity2.name in effects.countDowns) {
-            if (synth.crafter.level == 50) {
+            if (synth.crafter.level > 50) {
+                if (levelDifference < 0) {
+                    levelDifference = levelDifference + 20; // This is a guess.
+                }
+                else if (levelDifference >= 0) {
+                    levelDifference = levelDifference + 20; // This is a guess.
+                }
+                levelDifference = min(levelDifference, 10); // Seems to be capped at 10.
+            }
+            else if (synth.crafter.level == 50) {
                 if (levelDifference < -20) {
                     levelDifference = -6;
                 }
@@ -292,7 +301,16 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
             }
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
-            if (synth.crafter.level == 50) {
+            if (synth.crafter.level > 50) {
+                if (levelDifference < 0) {
+                    levelDifference = levelDifference + 5; // This is a guess.
+                }
+                else if (levelDifference >= 0) {
+                    levelDifference = levelDifference + 5; // This is a guess.
+                }
+                levelDifference = min(levelDifference, 10); // This is a guess
+            }
+            else if (synth.crafter.level == 50) {
                 if (levelDifference < -20) {
                     levelDifference = -8;
                 }
@@ -582,7 +600,16 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     }
     var levelDifference = (synth.crafter.level + cAdjFactor) - synth.recipe.level;
     if (AllActions.ingenuity2.name in effects.countDowns) {
-        if (synth.crafter.level == 50) {
+        if (synth.crafter.level > 50) {
+            if (levelDifference < 0) {
+                levelDifference = levelDifference + 20; // This is a guess.
+            }
+            else if (levelDifference >= 0) {
+                levelDifference = levelDifference + 20; // This is a guess.
+            }
+            levelDifference = min(levelDifference, 10); // Seems to be capped at 10.
+        }
+        else if (synth.crafter.level == 50) {
             if (levelDifference < -20) {
                 levelDifference = -6;
             }
@@ -598,7 +625,16 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
     }
     else if (AllActions.ingenuity.name in effects.countDowns) {
-        if (synth.crafter.level == 50) {
+        if (synth.crafter.level > 50) {
+            if (levelDifference < 0) {
+                levelDifference = levelDifference + 5; // This is a guess.
+            }
+            else if (levelDifference >= 0) {
+                levelDifference = levelDifference + 5; // This is a guess.
+            }
+            levelDifference = min(levelDifference, 10); // This is a guess
+        }
+        else if (synth.crafter.level == 50) {
             if (levelDifference < -20) {
                 levelDifference = -8;
             }
