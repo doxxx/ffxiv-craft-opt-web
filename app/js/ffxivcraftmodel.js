@@ -50,27 +50,30 @@ function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions) {
     this.reliabilityIndex = reliabilityIndex;
 }
 
-Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship) {
+Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, recipeLevel) {
     var levelCorrectionFactor = 0;
 
-    if (levelDifference < -9) {
-        levelDifference = -9;
-    }
+    levelDifference = Math.max(levelDifference, -9);
 
-    if ((levelDifference < -5)) {
+    if (recipeLevel >= 120){
         levelCorrectionFactor = 0.0501 * levelDifference;
     }
-    else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
-        levelCorrectionFactor = 0.10 * levelDifference;
-    }
-    else if ((0 < levelDifference) && (levelDifference <= 5)) {
-        levelCorrectionFactor = 0.0501 * levelDifference;
-    }
-    else if ((5 < levelDifference) && (levelDifference <= 15)) {
-        levelCorrectionFactor = 0.022 * levelDifference + 0.15;
-    }
-    else {
-        levelCorrectionFactor = 0.00134 * levelDifference + 0.466;
+    else if (recipeLevel < 120) {
+        if ((levelDifference < -5)) {
+            levelCorrectionFactor = 0.0501 * levelDifference;
+        }
+        else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
+            levelCorrectionFactor = 0.10 * levelDifference;
+        }
+        else if ((0 < levelDifference) && (levelDifference <= 5)) {
+            levelCorrectionFactor = 0.0501 * levelDifference;
+        }
+        else if ((5 < levelDifference) && (levelDifference <= 15)) {
+            levelCorrectionFactor = 0.022 * levelDifference + 0.15;
+        }
+        else {
+            levelCorrectionFactor = 0.00134 * levelDifference + 0.466;
+        }
     }
 
     var baseProgress = 0.209 * craftsmanship + 2.51;
@@ -359,7 +362,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
 
         // Calculate final gains / losses
         // Effects modifying progress
-        var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
+        var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, synth.recipe.level);
         if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
         }
@@ -702,7 +705,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
 
     // Effects modifying progress
-    var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
+    var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, synth.recipe.level);
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
