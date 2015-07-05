@@ -1,3386 +1,3386 @@
 [
   {
-    "name": {
-      "de": "Speisesalz",
-      "en": "Table Salt",
-      "ja": "\u98df\u5869",
-      "fr": "Sel de table"
-    },
-    "level": 1,
-    "difficulty": 9,
-    "durability": 40,
-    "maxQuality": 312
-  },
-  {
-    "name": {
-      "de": "Ahornsirup",
-      "en": "Maple Syrup",
-      "ja": "\u30e1\u30fc\u30d7\u30eb\u30b7\u30ed\u30c3\u30d7",
-      "fr": "Sirop d'\u00e9rable"
-    },
-    "level": 1,
-    "difficulty": 9,
-    "durability": 40,
-    "maxQuality": 312
-  },
-  {
-    "name": {
-      "de": "Ahornzucker",
-      "en": "Maple Sugar",
-      "ja": "\u30e1\u30fc\u30d7\u30eb\u30b7\u30e5\u30ac\u30fc",
-      "fr": "Sucre d'\u00e9rable"
-    },
-    "level": 2,
-    "difficulty": 10,
-    "durability": 40,
-    "maxQuality": 325
-  },
-  {
-    "name": {
-      "de": "Rosinen",
-      "en": "Raisins",
-      "ja": "\u30ec\u30fc\u30ba\u30f3",
-      "fr": "Raisins secs"
-    },
-    "level": 3,
-    "difficulty": 10,
-    "durability": 40,
-    "maxQuality": 339
-  },
-  {
-    "name": {
-      "de": "Gekochtes Ei",
-      "en": "Boiled Egg",
-      "ja": "\u30dc\u30a4\u30eb\u30c9\u30a8\u30c3\u30b0",
-      "fr": "\u0152uf \u00e0 la coque"
-    },
-    "level": 3,
-    "difficulty": 20,
-    "durability": 60,
-    "maxQuality": 339
-  },
-  {
-    "name": {
-      "de": "Roggenmehl",
-      "en": "Rye Flour",
-      "ja": "\u30e9\u30a4\u9ea6\u7c89",
-      "fr": "Farine de seigle"
-    },
-    "level": 4,
-    "difficulty": 10,
-    "durability": 40,
-    "maxQuality": 352
-  },
-  {
-    "name": {
-      "de": "Honig",
-      "en": "Honey",
-      "ja": "\u8702\u871c",
-      "fr": "Miel"
-    },
-    "level": 4,
-    "difficulty": 10,
-    "durability": 40,
-    "maxQuality": 352
-  },
-  {
-    "name": {
-      "de": "Frumenty",
-      "en": "Frumenty",
-      "ja": "\u30d5\u30eb\u30e1\u30f3\u30c6\u30a3",
-      "fr": "Froment\u00e9e"
-    },
-    "level": 4,
-    "difficulty": 21,
-    "durability": 60,
-    "maxQuality": 352
-  },
-  {
-    "name": {
-      "de": "Fischmehl",
-      "en": "Fishmeal",
-      "ja": "\u9b5a\u7c89",
-      "fr": "Farine de poisson"
-    },
-    "level": 5,
-    "difficulty": 16,
-    "durability": 40,
-    "maxQuality": 451
-  },
-  {
-    "name": {
-      "de": "Krebsfleischball",
-      "en": "Crayfish Ball",
-      "ja": "\u30b6\u30ea\u30ac\u30cb\u30dc\u30fc\u30eb",
-      "fr": "Boulette d'\u00e9crevisse"
-    },
-    "level": 5,
-    "difficulty": 33,
-    "durability": 60,
-    "maxQuality": 451
-  },
-  {
-    "name": {
-      "de": "Murmelh\u00f6rnchen-Steak",
-      "en": "Marmot Steak",
-      "ja": "\u30de\u30fc\u30e2\u30c3\u30c8\u30b9\u30c6\u30fc\u30ad",
-      "fr": "Steak de marmotte"
-    },
-    "level": 5,
-    "difficulty": 33,
-    "durability": 60,
-    "maxQuality": 451
-  },
-  {
-    "name": {
-      "de": "Gebratene Forelle",
-      "en": "Grilled Trout",
-      "ja": "\u30b0\u30ea\u30eb\u30c9\u30c8\u30e9\u30a6\u30c8",
-      "fr": "Truite grill\u00e9e"
-    },
-    "level": 5,
-    "difficulty": 33,
-    "durability": 60,
-    "maxQuality": 451
-  },
-  {
-    "name": {
-      "de": "Fladenbrot",
-      "en": "Flatbread",
-      "ja": "\u30d5\u30e9\u30c3\u30c8\u30d6\u30ec\u30c3\u30c9",
-      "fr": "Pain plat"
-    },
-    "level": 5,
-    "difficulty": 33,
-    "durability": 60,
-    "maxQuality": 451
-  },
-  {
-    "name": {
-      "de": "Kanzelinnenraum-Bauteil",
-      "en": "Hull Interior Component",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u8239\u4f53\u90e8\u6750",
-      "fr": "Composant de coque"
-    },
-    "level": 1,
     "difficulty": 19,
     "durability": 60,
-    "maxQuality": 312
-  },
-  {
+    "level": 1,
+    "maxQuality": 312,
     "name": {
       "de": "Ballonh\u00fcllen-Bauteil",
       "en": "Bladder Component",
-      "ja": "\u6c17\u56a2\u90e8\u6750",
-      "fr": "Composant de ballon"
-    },
-    "level": 1,
-    "difficulty": 19,
-    "durability": 60,
-    "maxQuality": 312
+      "fr": "Composant de ballon",
+      "ja": "\u6c17\u56a2\u90e8\u6750"
+    }
   },
   {
+    "difficulty": 28,
+    "durability": 60,
+    "level": 1,
+    "maxQuality": 234,
     "name": {
       "de": "H\u00fcllenverst\u00e4rkungs-Bauteil",
       "en": "Bladder Lining Component",
-      "ja": "\u6c17\u56a2\u88dc\u5f37\u6750",
-      "fr": "Composant de finition de ballon"
-    },
-    "level": 1,
-    "difficulty": 28,
-    "durability": 60,
-    "maxQuality": 234
+      "fr": "Composant de finition de ballon",
+      "ja": "\u6c17\u56a2\u88dc\u5f37\u6750"
+    }
   },
   {
-    "name": {
-      "de": "Steuerbordrumpf-Bauteil",
-      "en": "Starboard Hull Component",
-      "ja": "\u53f3\u8237\u8239\u4f53\u90e8\u6750",
-      "fr": "Comp. de partie droite de nacelle"
-    },
-    "level": 1,
     "difficulty": 19,
     "durability": 60,
-    "maxQuality": 312
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Kanzelinnenraum-Bauteil",
+      "en": "Hull Interior Component",
+      "fr": "Composant de coque",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u8239\u4f53\u90e8\u6750"
+    }
   },
   {
+    "difficulty": 9,
+    "durability": 40,
+    "level": 1,
+    "maxQuality": 312,
     "name": {
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "ja": "\u5de6\u8237\u8239\u4f53\u90e8\u6750",
-      "fr": "Comp. de partie gauche de nacelle"
-    },
-    "level": 1,
+      "fr": "Comp. de partie gauche de nacelle",
+      "ja": "\u5de6\u8237\u8239\u4f53\u90e8\u6750"
+    }
+  },
+  {
     "difficulty": 9,
     "durability": 40,
-    "maxQuality": 312
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Ahornsirup",
+      "en": "Maple Syrup",
+      "fr": "Sirop d'\u00e9rable",
+      "ja": "\u30e1\u30fc\u30d7\u30eb\u30b7\u30ed\u30c3\u30d7"
+    }
   },
   {
-    "name": {
-      "de": "Erdseim-Motor-Bauteil",
-      "en": "Propulsion Engine Component",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u6750",
-      "fr": "Composant de moteur"
-    },
-    "level": 3,
-    "difficulty": 30,
+    "difficulty": 19,
     "durability": 60,
-    "maxQuality": 254
+    "level": 1,
+    "maxQuality": 312,
+    "name": {
+      "de": "Steuerbordrumpf-Bauteil",
+      "en": "Starboard Hull Component",
+      "fr": "Comp. de partie droite de nacelle",
+      "ja": "\u53f3\u8237\u8239\u4f53\u90e8\u6750"
+    }
   },
   {
+    "difficulty": 9,
+    "durability": 40,
+    "level": 1,
+    "maxQuality": 312,
     "name": {
-      "de": "Gyroantriebs-Bauteil",
-      "en": "Gyrodrive Component",
-      "ja": "\u52d5\u529b\u8f2a\u90e8\u6750",
-      "fr": "Composant d'unit\u00e9 motrice"
-    },
-    "level": 3,
-    "difficulty": 20,
-    "durability": 60,
-    "maxQuality": 339
+      "de": "Speisesalz",
+      "en": "Table Salt",
+      "fr": "Sel de table",
+      "ja": "\u98df\u5869"
+    }
   },
   {
-    "name": {
-      "de": "Takelagen-Bauteil",
-      "en": "Rigging Component",
-      "ja": "\u7d22\u5177\u90e8\u6750",
-      "fr": "Composant d'attache"
-    },
-    "level": 3,
-    "difficulty": 36,
-    "durability": 60,
-    "maxQuality": 169
-  },
-  {
-    "name": {
-      "de": "Deck-Bauteil",
-      "en": "Deck Component",
-      "ja": "\u7532\u677f\u90e8\u6750",
-      "fr": "Composant de pont"
-    },
-    "level": 3,
-    "difficulty": 30,
-    "durability": 60,
-    "maxQuality": 254
-  },
-  {
-    "name": {
-      "de": "Motorgeh\u00e4use-Bauteil",
-      "en": "Engine Casing Component",
-      "ja": "\u6a5f\u95a2\u5916\u88c5\u90e8\u6750",
-      "fr": "Composant de protection de moteur"
-    },
-    "level": 3,
     "difficulty": 10,
     "durability": 40,
-    "maxQuality": 339
+    "level": 2,
+    "maxQuality": 325,
+    "name": {
+      "de": "Ahornzucker",
+      "en": "Maple Sugar",
+      "fr": "Sucre d'\u00e9rable",
+      "ja": "\u30e1\u30fc\u30d7\u30eb\u30b7\u30e5\u30ac\u30fc"
+    }
   },
   {
+    "difficulty": 20,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Gekochtes Ei",
+      "en": "Boiled Egg",
+      "fr": "\u0152uf \u00e0 la coque",
+      "ja": "\u30dc\u30a4\u30eb\u30c9\u30a8\u30c3\u30b0"
+    }
+  },
+  {
+    "difficulty": 30,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 254,
     "name": {
       "de": "Werkzeug-Bauteil",
       "en": "Crafting Tool Component",
-      "ja": "\u52a0\u5de5\u9053\u5177",
-      "fr": "N\u00e9cessaire de fabrication"
-    },
-    "level": 3,
+      "fr": "N\u00e9cessaire de fabrication",
+      "ja": "\u52a0\u5de5\u9053\u5177"
+    }
+  },
+  {
     "difficulty": 30,
     "durability": 60,
-    "maxQuality": 254
+    "level": 3,
+    "maxQuality": 254,
+    "name": {
+      "de": "Deck-Bauteil",
+      "en": "Deck Component",
+      "fr": "Composant de pont",
+      "ja": "\u7532\u677f\u90e8\u6750"
+    }
   },
   {
-    "name": {
-      "de": "Schlagsahne",
-      "en": "Sweet Cream",
-      "ja": "\u30af\u30ea\u30fc\u30e0",
-      "fr": "Cr\u00e8me grumeleuse"
-    },
-    "level": 6,
-    "difficulty": 18,
+    "difficulty": 10,
     "durability": 40,
-    "maxQuality": 474
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Motorgeh\u00e4use-Bauteil",
+      "en": "Engine Casing Component",
+      "fr": "Composant de protection de moteur",
+      "ja": "\u6a5f\u95a2\u5916\u88c5\u90e8\u6750"
+    }
   },
   {
+    "difficulty": 20,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 339,
     "name": {
-      "de": "Orangensaft",
-      "en": "Orange Juice",
-      "ja": "\u30aa\u30ec\u30f3\u30b8\u30b8\u30e5\u30fc\u30b9",
-      "fr": "Jus d'orange"
-    },
-    "level": 6,
+      "de": "Gyroantriebs-Bauteil",
+      "en": "Gyrodrive Component",
+      "fr": "Composant d'unit\u00e9 motrice",
+      "ja": "\u52d5\u529b\u8f2a\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 30,
+    "durability": 60,
+    "level": 3,
+    "maxQuality": 254,
+    "name": {
+      "de": "Erdseim-Motor-Bauteil",
+      "en": "Propulsion Engine Component",
+      "fr": "Composant de moteur",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 10,
+    "durability": 40,
+    "level": 3,
+    "maxQuality": 339,
+    "name": {
+      "de": "Rosinen",
+      "en": "Raisins",
+      "fr": "Raisins secs",
+      "ja": "\u30ec\u30fc\u30ba\u30f3"
+    }
+  },
+  {
     "difficulty": 36,
     "durability": 60,
-    "maxQuality": 474
+    "level": 3,
+    "maxQuality": 169,
+    "name": {
+      "de": "Takelagen-Bauteil",
+      "en": "Rigging Component",
+      "fr": "Composant d'attache",
+      "ja": "\u7d22\u5177\u90e8\u6750"
+    }
   },
   {
+    "difficulty": 21,
+    "durability": 60,
+    "level": 4,
+    "maxQuality": 352,
     "name": {
-      "de": "Sonnenweizenmehl",
-      "en": "Sunset Wheat Flour",
-      "ja": "\u5c0f\u9ea6\u7c89",
-      "fr": "Farine"
-    },
-    "level": 7,
-    "difficulty": 18,
+      "de": "Frumenty",
+      "en": "Frumenty",
+      "fr": "Froment\u00e9e",
+      "ja": "\u30d5\u30eb\u30e1\u30f3\u30c6\u30a3"
+    }
+  },
+  {
+    "difficulty": 10,
     "durability": 40,
-    "maxQuality": 492
+    "level": 4,
+    "maxQuality": 352,
+    "name": {
+      "de": "Honig",
+      "en": "Honey",
+      "fr": "Miel",
+      "ja": "\u8702\u871c"
+    }
   },
   {
-    "name": {
-      "de": "Gesalzene Butter",
-      "en": "Smooth Butter",
-      "ja": "\u30d0\u30bf\u30fc",
-      "fr": "Beurre"
-    },
-    "level": 7,
-    "difficulty": 18,
+    "difficulty": 10,
     "durability": 40,
-    "maxQuality": 492
+    "level": 4,
+    "maxQuality": 352,
+    "name": {
+      "de": "Roggenmehl",
+      "en": "Rye Flour",
+      "fr": "Farine de seigle",
+      "ja": "\u30e9\u30a4\u9ea6\u7c89"
+    }
   },
   {
-    "name": {
-      "de": "Baumkr\u00f6tenschenkel",
-      "en": "Tree Toad Legs",
-      "ja": "\u30c4\u30ea\u30fc\u30c8\u30fc\u30c9\u30ec\u30c3\u30b0\u30ba",
-      "fr": "Cuisses de crapaud arboricole"
-    },
-    "level": 7,
-    "difficulty": 37,
+    "difficulty": 33,
     "durability": 60,
-    "maxQuality": 492
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Krebsfleischball",
+      "en": "Crayfish Ball",
+      "fr": "Boulette d'\u00e9crevisse",
+      "ja": "\u30b6\u30ea\u30ac\u30cb\u30dc\u30fc\u30eb"
+    }
   },
   {
-    "name": {
-      "de": "Gebratener Pipira",
-      "en": "Braised Pipira",
-      "ja": "\u30d9\u30a4\u30af\u30c9\u30d4\u30d4\u30e9",
-      "fr": "Pipira \u00e0 l'\u00e9tuv\u00e9e"
-    },
-    "level": 8,
-    "difficulty": 41,
-    "durability": 60,
-    "maxQuality": 526
-  },
-  {
-    "name": {
-      "de": "Sautierte Pfifferlinge",
-      "en": "Chanterelle Saute",
-      "ja": "\u30ad\u30ce\u30b3\u306e\u30bd\u30c6\u30fc",
-      "fr": "Saut\u00e9 de chanterelles"
-    },
-    "level": 8,
-    "difficulty": 41,
-    "durability": 60,
-    "maxQuality": 526
-  },
-  {
-    "name": {
-      "de": "Gekochter Krebs",
-      "en": "Boiled Crayfish",
-      "ja": "\u30dc\u30a4\u30eb\u30c9\u30af\u30ec\u30a4\u30d5\u30a3\u30c3\u30b7\u30e5",
-      "fr": "\u00c9crevisse bouillie"
-    },
-    "level": 9,
-    "difficulty": 42,
-    "durability": 60,
-    "maxQuality": 545
-  },
-  {
-    "name": {
-      "de": "Lammtopf",
-      "en": "Mutton Stew",
-      "ja": "\u30de\u30c8\u30f3\u30b7\u30c1\u30e5\u30fc",
-      "fr": "Rago\u00fbt de mouton"
-    },
-    "level": 9,
-    "difficulty": 42,
-    "durability": 60,
-    "maxQuality": 545
-  },
-  {
-    "name": {
-      "de": "Kukuru-Butter",
-      "en": "Kukuru Butter",
-      "ja": "\u30af\u30af\u30eb\u30d0\u30bf\u30fc",
-      "fr": "Beurre kukuru"
-    },
-    "level": 10,
-    "difficulty": 22,
+    "difficulty": 16,
     "durability": 40,
-    "maxQuality": 629
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Fischmehl",
+      "en": "Fishmeal",
+      "fr": "Farine de poisson",
+      "ja": "\u9b5a\u7c89"
+    }
   },
   {
-    "name": {
-      "de": "Grundelball",
-      "en": "Goby Ball",
-      "ja": "\u30b4\u30d3\u30fc\u30dc\u30fc\u30eb",
-      "fr": "Boulette de gobie"
-    },
-    "level": 10,
-    "difficulty": 45,
+    "difficulty": 33,
     "durability": 60,
-    "maxQuality": 629
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Fladenbrot",
+      "en": "Flatbread",
+      "fr": "Pain plat",
+      "ja": "\u30d5\u30e9\u30c3\u30c8\u30d6\u30ec\u30c3\u30c9"
+    }
   },
   {
-    "name": {
-      "de": "Halloween-K\u00fcrbis",
-      "en": "Jack-o'-lantern",
-      "ja": "\u30b8\u30e3\u30c3\u30af\u30fb\u30aa\u30fb\u30e9\u30f3\u30bf\u30f3",
-      "fr": "Jack-la-citrouille"
-    },
-    "level": 10,
-    "difficulty": 45,
+    "difficulty": 33,
     "durability": 60,
-    "maxQuality": 629
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Gebratene Forelle",
+      "en": "Grilled Trout",
+      "fr": "Truite grill\u00e9e",
+      "ja": "\u30b0\u30ea\u30eb\u30c9\u30c8\u30e9\u30a6\u30c8"
+    }
   },
   {
-    "name": {
-      "de": "Minz-Lassi",
-      "en": "Mint Lassi",
-      "ja": "\u30df\u30f3\u30c8\u30e9\u30c3\u30b7\u30fc",
-      "fr": "Lassi \u00e0 la menthe"
-    },
-    "level": 10,
-    "difficulty": 45,
+    "difficulty": 33,
     "durability": 60,
-    "maxQuality": 629
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Murmelh\u00f6rnchen-Steak",
+      "en": "Marmot Steak",
+      "fr": "Steak de marmotte",
+      "ja": "\u30de\u30fc\u30e2\u30c3\u30c8\u30b9\u30c6\u30fc\u30ad"
+    }
   },
   {
-    "name": {
-      "de": "Motorverstrebungs-Bauteil",
-      "en": "Engine Jointing Component",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u63a5\u5408\u6750",
-      "fr": "Composant de jonction de moteur"
-    },
-    "level": 6,
-    "difficulty": 18,
-    "durability": 40,
-    "maxQuality": 474
-  },
-  {
-    "name": {
-      "de": "Kanzelau\u00dfenwand-Bauteil",
-      "en": "Cockpit Exterior Component",
-      "ja": "\u64cd\u7e26\u5e2d\u5916\u88c5\u6750",
-      "fr": "Composant ext\u00e9rieur de cockpit"
-    },
-    "level": 6,
-    "difficulty": 18,
-    "durability": 40,
-    "maxQuality": 474
-  },
-  {
-    "name": {
-      "de": "Kanzelinnenwand-Bauteil",
-      "en": "Cockpit Interior Component",
-      "ja": "\u64cd\u7e26\u5e2d\u5185\u88c5\u6750",
-      "fr": "Composant int\u00e9rieur de cockpit"
-    },
-    "level": 6,
-    "difficulty": 18,
-    "durability": 40,
-    "maxQuality": 474
-  },
-  {
-    "name": {
-      "de": "Ballast-Bauteil",
-      "en": "Ballast Component",
-      "ja": "\u30d0\u30e9\u30b9\u30c8\u90e8\u6750",
-      "fr": "Composant de lest"
-    },
-    "level": 6,
     "difficulty": 36,
     "durability": 60,
-    "maxQuality": 474
-  },
-  {
-    "name": {
-      "de": "Steuerpult-Bauteil",
-      "en": "Instrument Panel Component",
-      "ja": "\u8a08\u5668\u90e8\u6750",
-      "fr": "Composant d'instrumentation"
-    },
     "level": 6,
-    "difficulty": 115,
-    "durability": 60,
-    "maxQuality": 237
-  },
-  {
+    "maxQuality": 474,
     "name": {
       "de": "Aerodynamo-Bauteil",
       "en": "Aerodynamo Component",
-      "ja": "\u7a7a\u529b\u90e8\u6750",
-      "fr": "Composant de nez profil\u00e9"
-    },
-    "level": 6,
+      "fr": "Composant de nez profil\u00e9",
+      "ja": "\u7a7a\u529b\u90e8\u6750"
+    }
+  },
+  {
     "difficulty": 36,
     "durability": 60,
-    "maxQuality": 474
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Ballast-Bauteil",
+      "en": "Ballast Component",
+      "fr": "Composant de lest",
+      "ja": "\u30d0\u30e9\u30b9\u30c8\u90e8\u6750"
+    }
   },
   {
-    "name": {
-      "de": "Steuerbordtragfl\u00e4chen-Bauteil",
-      "en": "Starboard Wing Component",
-      "ja": "\u53f3\u7ffc\u90e8\u6750",
-      "fr": "Composant d'aile droite"
-    },
-    "level": 10,
-    "difficulty": 22,
+    "difficulty": 18,
     "durability": 40,
-    "maxQuality": 629
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Kanzelau\u00dfenwand-Bauteil",
+      "en": "Cockpit Exterior Component",
+      "fr": "Composant ext\u00e9rieur de cockpit",
+      "ja": "\u64cd\u7e26\u5e2d\u5916\u88c5\u6750"
+    }
   },
   {
-    "name": {
-      "de": "Backbordtragfl\u00e4chen-Bauteil",
-      "en": "Larboard Wing Component",
-      "ja": "\u5de6\u7ffc\u90e8\u6750",
-      "fr": "Composant d'aile gauche"
-    },
-    "level": 10,
-    "difficulty": 22,
+    "difficulty": 18,
     "durability": 40,
-    "maxQuality": 629
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Kanzelinnenwand-Bauteil",
+      "en": "Cockpit Interior Component",
+      "fr": "Composant int\u00e9rieur de cockpit",
+      "ja": "\u64cd\u7e26\u5e2d\u5185\u88c5\u6750"
+    }
   },
   {
+    "difficulty": 18,
+    "durability": 40,
+    "level": 6,
+    "maxQuality": 474,
     "name": {
-      "de": "Steuerbord-Tragfl\u00e4chengelenk-Bauteil",
-      "en": "Starboard Wing Control Component",
-      "ja": "\u53f3\u7ffc\u53ef\u52d5\u90e8\u6750",
-      "fr": "Comp. d'articulation d'aile droite"
-    },
-    "level": 10,
-    "difficulty": 67,
+      "de": "Motorverstrebungs-Bauteil",
+      "en": "Engine Jointing Component",
+      "fr": "Composant de jonction de moteur",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u63a5\u5408\u6750"
+    }
+  },
+  {
+    "difficulty": 115,
     "durability": 60,
-    "maxQuality": 471
+    "level": 6,
+    "maxQuality": 237,
+    "name": {
+      "de": "Steuerpult-Bauteil",
+      "en": "Instrument Panel Component",
+      "fr": "Composant d'instrumentation",
+      "ja": "\u8a08\u5668\u90e8\u6750"
+    }
   },
   {
-    "name": {
-      "de": "Backbord-Tragfl\u00e4chengelenk-Bauteil",
-      "en": "Larboard Wing Control Component",
-      "ja": "\u5de6\u7ffc\u53ef\u52d5\u90e8\u6750",
-      "fr": "Comp. d'articulation d'aile gauche"
-    },
-    "level": 10,
-    "difficulty": 67,
+    "difficulty": 36,
     "durability": 60,
-    "maxQuality": 471
+    "level": 6,
+    "maxQuality": 474,
+    "name": {
+      "de": "Orangensaft",
+      "en": "Orange Juice",
+      "fr": "Jus d'orange",
+      "ja": "\u30aa\u30ec\u30f3\u30b8\u30b8\u30e5\u30fc\u30b9"
+    }
   },
   {
+    "difficulty": 18,
+    "durability": 40,
+    "level": 6,
+    "maxQuality": 474,
     "name": {
-      "de": "Sprechanlagen-Bauteil",
-      "en": "Transmission Component",
-      "ja": "\u4f1d\u9054\u7cfb\u90e8\u6750",
-      "fr": "Composant de transmission"
-    },
+      "de": "Schlagsahne",
+      "en": "Sweet Cream",
+      "fr": "Cr\u00e8me grumeleuse",
+      "ja": "\u30af\u30ea\u30fc\u30e0"
+    }
+  },
+  {
+    "difficulty": 18,
+    "durability": 40,
+    "level": 7,
+    "maxQuality": 492,
+    "name": {
+      "de": "Gesalzene Butter",
+      "en": "Smooth Butter",
+      "fr": "Beurre",
+      "ja": "\u30d0\u30bf\u30fc"
+    }
+  },
+  {
+    "difficulty": 18,
+    "durability": 40,
+    "level": 7,
+    "maxQuality": 492,
+    "name": {
+      "de": "Sonnenweizenmehl",
+      "en": "Sunset Wheat Flour",
+      "fr": "Farine",
+      "ja": "\u5c0f\u9ea6\u7c89"
+    }
+  },
+  {
+    "difficulty": 37,
+    "durability": 60,
+    "level": 7,
+    "maxQuality": 492,
+    "name": {
+      "de": "Baumkr\u00f6tenschenkel",
+      "en": "Tree Toad Legs",
+      "fr": "Cuisses de crapaud arboricole",
+      "ja": "\u30c4\u30ea\u30fc\u30c8\u30fc\u30c9\u30ec\u30c3\u30b0\u30ba"
+    }
+  },
+  {
+    "difficulty": 41,
+    "durability": 60,
+    "level": 8,
+    "maxQuality": 526,
+    "name": {
+      "de": "Gebratener Pipira",
+      "en": "Braised Pipira",
+      "fr": "Pipira \u00e0 l'\u00e9tuv\u00e9e",
+      "ja": "\u30d9\u30a4\u30af\u30c9\u30d4\u30d4\u30e9"
+    }
+  },
+  {
+    "difficulty": 41,
+    "durability": 60,
+    "level": 8,
+    "maxQuality": 526,
+    "name": {
+      "de": "Sautierte Pfifferlinge",
+      "en": "Chanterelle Saute",
+      "fr": "Saut\u00e9 de chanterelles",
+      "ja": "\u30ad\u30ce\u30b3\u306e\u30bd\u30c6\u30fc"
+    }
+  },
+  {
+    "difficulty": 42,
+    "durability": 60,
+    "level": 9,
+    "maxQuality": 545,
+    "name": {
+      "de": "Gekochter Krebs",
+      "en": "Boiled Crayfish",
+      "fr": "\u00c9crevisse bouillie",
+      "ja": "\u30dc\u30a4\u30eb\u30c9\u30af\u30ec\u30a4\u30d5\u30a3\u30c3\u30b7\u30e5"
+    }
+  },
+  {
+    "difficulty": 42,
+    "durability": 60,
+    "level": 9,
+    "maxQuality": 545,
+    "name": {
+      "de": "Lammtopf",
+      "en": "Mutton Stew",
+      "fr": "Rago\u00fbt de mouton",
+      "ja": "\u30de\u30c8\u30f3\u30b7\u30c1\u30e5\u30fc"
+    }
+  },
+  {
+    "difficulty": 45,
+    "durability": 60,
     "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Grundelball",
+      "en": "Goby Ball",
+      "fr": "Boulette de gobie",
+      "ja": "\u30b4\u30d3\u30fc\u30dc\u30fc\u30eb"
+    }
+  },
+  {
     "difficulty": 144,
     "durability": 60,
-    "maxQuality": 314
-  },
-  {
+    "level": 10,
+    "maxQuality": 314,
     "name": {
       "de": "K\u00fchler-Bauteil",
       "en": "Heat Vent Component",
-      "ja": "\u6392\u71b1\u90e8\u6750",
-      "fr": "Composant de ventilation"
-    },
+      "fr": "Composant de ventilation",
+      "ja": "\u6392\u71b1\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 45,
+    "durability": 60,
     "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Halloween-K\u00fcrbis",
+      "en": "Jack-o'-lantern",
+      "fr": "Jack-la-citrouille",
+      "ja": "\u30b8\u30e3\u30c3\u30af\u30fb\u30aa\u30fb\u30e9\u30f3\u30bf\u30f3"
+    }
+  },
+  {
+    "difficulty": 22,
+    "durability": 40,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Kukuru-Butter",
+      "en": "Kukuru Butter",
+      "fr": "Beurre kukuru",
+      "ja": "\u30af\u30af\u30eb\u30d0\u30bf\u30fc"
+    }
+  },
+  {
+    "difficulty": 22,
+    "durability": 40,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Backbordtragfl\u00e4chen-Bauteil",
+      "en": "Larboard Wing Component",
+      "fr": "Composant d'aile gauche",
+      "ja": "\u5de6\u7ffc\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 67,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 471,
+    "name": {
+      "de": "Backbord-Tragfl\u00e4chengelenk-Bauteil",
+      "en": "Larboard Wing Control Component",
+      "fr": "Comp. d'articulation d'aile gauche",
+      "ja": "\u5de6\u7ffc\u53ef\u52d5\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 45,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Minz-Lassi",
+      "en": "Mint Lassi",
+      "fr": "Lassi \u00e0 la menthe",
+      "ja": "\u30df\u30f3\u30c8\u30e9\u30c3\u30b7\u30fc"
+    }
+  },
+  {
+    "difficulty": 22,
+    "durability": 40,
+    "level": 10,
+    "maxQuality": 629,
+    "name": {
+      "de": "Steuerbordtragfl\u00e4chen-Bauteil",
+      "en": "Starboard Wing Component",
+      "fr": "Composant d'aile droite",
+      "ja": "\u53f3\u7ffc\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 67,
+    "durability": 60,
+    "level": 10,
+    "maxQuality": 471,
+    "name": {
+      "de": "Steuerbord-Tragfl\u00e4chengelenk-Bauteil",
+      "en": "Starboard Wing Control Component",
+      "fr": "Comp. d'articulation d'aile droite",
+      "ja": "\u53f3\u7ffc\u53ef\u52d5\u90e8\u6750"
+    }
+  },
+  {
     "difficulty": 144,
     "durability": 60,
-    "maxQuality": 314
-  },
-  {
+    "level": 10,
+    "maxQuality": 314,
     "name": {
-      "de": "Kukuru-Pulver",
-      "en": "Kukuru Powder",
-      "ja": "\u30af\u30af\u30eb\u30de\u30b9",
-      "fr": "Poudre kukuru"
-    },
-    "level": 11,
-    "difficulty": 24,
-    "durability": 40,
-    "maxQuality": 665
+      "de": "Sprechanlagen-Bauteil",
+      "en": "Transmission Component",
+      "fr": "Composant de transmission",
+      "ja": "\u4f1d\u9054\u7cfb\u90e8\u6750"
+    }
   },
   {
-    "name": {
-      "de": "Oliven\u00f6l",
-      "en": "Olive Oil",
-      "ja": "\u30aa\u30ea\u30fc\u30f4\u30aa\u30a4\u30eb",
-      "fr": "Huile d'olive"
-    },
+    "difficulty": 48,
+    "durability": 60,
     "level": 11,
-    "difficulty": 24,
-    "durability": 40,
-    "maxQuality": 665
-  },
-  {
+    "maxQuality": 665,
     "name": {
       "de": "Grill-Dodo",
       "en": "Grilled Dodo",
-      "ja": "\u30c9\u30fc\u30c9\u30fc\u306e\u30b0\u30ea\u30eb",
-      "fr": "Tranche de dodo grill\u00e9e"
-    },
-    "level": 11,
-    "difficulty": 48,
-    "durability": 60,
-    "maxQuality": 665
+      "fr": "Tranche de dodo grill\u00e9e",
+      "ja": "\u30c9\u30fc\u30c9\u30fc\u306e\u30b0\u30ea\u30eb"
+    }
   },
   {
-    "name": {
-      "de": "Tomatenso\u00dfe",
-      "en": "Tomato Sauce",
-      "ja": "\u30dd\u30e2\u30c9\u30fc\u30ed\u30bd\u30fc\u30b9",
-      "fr": "Sauce tomate"
-    },
-    "level": 12,
-    "difficulty": 26,
+    "difficulty": 24,
     "durability": 40,
-    "maxQuality": 702
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Kukuru-Pulver",
+      "en": "Kukuru Powder",
+      "fr": "Poudre kukuru",
+      "ja": "\u30af\u30af\u30eb\u30de\u30b9"
+    }
   },
   {
+    "difficulty": 24,
+    "durability": 40,
+    "level": 11,
+    "maxQuality": 665,
+    "name": {
+      "de": "Oliven\u00f6l",
+      "en": "Olive Oil",
+      "fr": "Huile d'olive",
+      "ja": "\u30aa\u30ea\u30fc\u30f4\u30aa\u30a4\u30eb"
+    }
+  },
+  {
+    "difficulty": 53,
+    "durability": 60,
+    "level": 12,
+    "maxQuality": 702,
     "name": {
       "de": "Luftschokolade",
       "en": "Bubble Chocolate",
-      "ja": "\u30d0\u30d6\u30eb\u30c1\u30e7\u30b3",
-      "fr": "Choco-bulle"
-    },
-    "level": 12,
-    "difficulty": 53,
-    "durability": 60,
-    "maxQuality": 702
+      "fr": "Choco-bulle",
+      "ja": "\u30d0\u30d6\u30eb\u30c1\u30e7\u30b3"
+    }
   },
   {
+    "difficulty": 53,
+    "durability": 60,
+    "level": 12,
+    "maxQuality": 702,
     "name": {
       "de": "Perlenschokolade",
       "en": "Pearl Chocolate",
-      "ja": "\u30d1\u30fc\u30eb\u30c1\u30e7\u30b3",
-      "fr": "Choco-perle"
-    },
-    "level": 12,
-    "difficulty": 53,
-    "durability": 60,
-    "maxQuality": 702
+      "fr": "Choco-perle",
+      "ja": "\u30d1\u30fc\u30eb\u30c1\u30e7\u30b3"
+    }
   },
   {
+    "difficulty": 26,
+    "durability": 40,
+    "level": 12,
+    "maxQuality": 702,
+    "name": {
+      "de": "Tomatenso\u00dfe",
+      "en": "Tomato Sauce",
+      "fr": "Sauce tomate",
+      "ja": "\u30dd\u30e2\u30c9\u30fc\u30ed\u30bd\u30fc\u30b9"
+    }
+  },
+  {
+    "difficulty": 54,
+    "durability": 60,
+    "level": 13,
+    "maxQuality": 726,
     "name": {
       "de": "Mullpastete",
       "en": "Mole Loaf",
-      "ja": "\u30e2\u30fc\u30eb\u30ed\u30fc\u30d5",
-      "fr": "Pain de taupe"
-    },
-    "level": 13,
-    "difficulty": 54,
-    "durability": 60,
-    "maxQuality": 726
+      "fr": "Pain de taupe",
+      "ja": "\u30e2\u30fc\u30eb\u30ed\u30fc\u30d5"
+    }
   },
   {
+    "difficulty": 54,
+    "durability": 60,
+    "level": 13,
+    "maxQuality": 726,
     "name": {
       "de": "Pastinaksalat",
       "en": "Parsnip Salad",
-      "ja": "\u30d1\u30fc\u30b9\u30cb\u30c3\u30d7\u30b5\u30e9\u30c0",
-      "fr": "Salade de panais"
-    },
-    "level": 13,
-    "difficulty": 54,
-    "durability": 60,
-    "maxQuality": 726
+      "fr": "Salade de panais",
+      "ja": "\u30d1\u30fc\u30b9\u30cb\u30c3\u30d7\u30b5\u30e9\u30c0"
+    }
   },
   {
-    "name": {
-      "de": "Bl\u00e4tterteig",
-      "en": "Pie Dough",
-      "ja": "\u30d1\u30a4\u751f\u5730",
-      "fr": "P\u00e2te \u00e0 tarte"
-    },
-    "level": 14,
     "difficulty": 27,
     "durability": 40,
-    "maxQuality": 751
-  },
-  {
+    "level": 14,
+    "maxQuality": 751,
     "name": {
       "de": "Gelatine",
       "en": "Gelatin",
-      "ja": "\u30bc\u30e9\u30c1\u30f3",
-      "fr": "G\u00e9latine"
-    },
-    "level": 14,
-    "difficulty": 27,
-    "durability": 40,
-    "maxQuality": 751
+      "fr": "G\u00e9latine",
+      "ja": "\u30bc\u30e9\u30c1\u30f3"
+    }
   },
   {
+    "difficulty": 27,
+    "durability": 40,
+    "level": 14,
+    "maxQuality": 751,
+    "name": {
+      "de": "Bl\u00e4tterteig",
+      "en": "Pie Dough",
+      "fr": "P\u00e2te \u00e0 tarte",
+      "ja": "\u30d1\u30a4\u751f\u5730"
+    }
+  },
+  {
+    "difficulty": 54,
+    "durability": 60,
+    "level": 14,
+    "maxQuality": 751,
     "name": {
       "de": "Hasenpastete",
       "en": "Rabbit Pie",
-      "ja": "\u30e9\u30d3\u30c3\u30c8\u30d1\u30a4",
-      "fr": "Tourte lapin"
-    },
-    "level": 14,
-    "difficulty": 54,
-    "durability": 60,
-    "maxQuality": 751
+      "fr": "Tourte lapin",
+      "ja": "\u30e9\u30d3\u30c3\u30c8\u30d1\u30a4"
+    }
   },
   {
-    "name": {
-      "de": "Gegrillter Karpfen",
-      "en": "Grilled Carp",
-      "ja": "\u30b0\u30ea\u30eb\u30c9\u30ab\u30fc\u30d7",
-      "fr": "Carpe grill\u00e9e"
-    },
-    "level": 15,
-    "difficulty": 55,
-    "durability": 70,
-    "maxQuality": 807
-  },
-  {
-    "name": {
-      "de": "Salzdorsch",
-      "en": "Salt Cod",
-      "ja": "\u30bd\u30eb\u30c8\u30b3\u30c3\u30c9",
-      "fr": "Morue sal\u00e9e"
-    },
-    "level": 15,
-    "difficulty": 55,
-    "durability": 70,
-    "maxQuality": 807
-  },
-  {
-    "name": {
-      "de": "Wachsgem\u00fcse",
-      "en": "Wax Vegetables",
-      "ja": "\u30d9\u30b8\u30bf\u30d6\u30eb\u30a2\u30bd\u30fc\u30c8",
-      "fr": "Caisse de l\u00e9gumes"
-    },
-    "level": 15,
     "difficulty": 176,
     "durability": 70,
-    "maxQuality": 403
-  },
-  {
-    "name": {
-      "de": "Steuereinheits-Bauteil",
-      "en": "Helm Component",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u64cd\u8235\u88c5\u7f6e\u90e8\u6750",
-      "fr": "Composant de gouvernail"
-    },
     "level": 15,
-    "difficulty": 99,
-    "durability": 70,
-    "maxQuality": 1452
-  },
-  {
-    "name": {
-      "de": "Kommunikationsrohr-Bauteil",
-      "en": "Speaking Tube Component",
-      "ja": "\u4f1d\u58f0\u7cfb\u90e8\u6750",
-      "fr": "Composant de tuyau acoustique"
-    },
-    "level": 15,
-    "difficulty": 82,
-    "durability": 70,
-    "maxQuality": 605
-  },
-  {
-    "name": {
-      "de": "Beleuchtungs-Bauteil",
-      "en": "Lamp Component",
-      "ja": "\u30e9\u30f3\u30d7\u90e8\u6750",
-      "fr": "Composant d'\u00e9clairage"
-    },
-    "level": 15,
-    "difficulty": 27,
-    "durability": 40,
-    "maxQuality": 807
-  },
-  {
-    "name": {
-      "de": "Schornstein-Bauteil",
-      "en": "Exhaust Outlet Component",
-      "ja": "\u6392\u6c17\u7cfb\u90e8\u6750",
-      "fr": "Composant d'\u00e9chappement"
-    },
-    "level": 15,
-    "difficulty": 99,
-    "durability": 70,
-    "maxQuality": 1452
-  },
-  {
-    "name": {
-      "de": "Entsorgungssystem-Bauteil",
-      "en": "Disposal Unit Component",
-      "ja": "\u7dca\u6025\u5ec3\u68c4\u90e8\u6750",
-      "fr": "Composant de syst\u00e8me d'\u00e9vacuation"
-    },
-    "level": 15,
-    "difficulty": 176,
-    "durability": 70,
-    "maxQuality": 403
-  },
-  {
+    "maxQuality": 403,
     "name": {
       "de": "Erdseim-Tank-Bauteil",
       "en": "Ceruleum Tank Component",
-      "ja": "\u9752\u71d0\u30bf\u30f3\u30af\u90e8\u6750",
-      "fr": "Composant de r\u00e9servoir"
-    },
-    "level": 15,
-    "difficulty": 176,
-    "durability": 70,
-    "maxQuality": 403
+      "fr": "Composant de r\u00e9servoir",
+      "ja": "\u9752\u71d0\u30bf\u30f3\u30af\u90e8\u6750"
+    }
   },
   {
+    "difficulty": 176,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 403,
+    "name": {
+      "de": "Entsorgungssystem-Bauteil",
+      "en": "Disposal Unit Component",
+      "fr": "Composant de syst\u00e8me d'\u00e9vacuation",
+      "ja": "\u7dca\u6025\u5ec3\u68c4\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 99,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 1452,
+    "name": {
+      "de": "Schornstein-Bauteil",
+      "en": "Exhaust Outlet Component",
+      "fr": "Composant d'\u00e9chappement",
+      "ja": "\u6392\u6c17\u7cfb\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 55,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Gegrillter Karpfen",
+      "en": "Grilled Carp",
+      "fr": "Carpe grill\u00e9e",
+      "ja": "\u30b0\u30ea\u30eb\u30c9\u30ab\u30fc\u30d7"
+    }
+  },
+  {
+    "difficulty": 99,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 1452,
+    "name": {
+      "de": "Steuereinheits-Bauteil",
+      "en": "Helm Component",
+      "fr": "Composant de gouvernail",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u64cd\u8235\u88c5\u7f6e\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 27,
+    "durability": 40,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Beleuchtungs-Bauteil",
+      "en": "Lamp Component",
+      "fr": "Composant d'\u00e9clairage",
+      "ja": "\u30e9\u30f3\u30d7\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 55,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "de": "Salzdorsch",
+      "en": "Salt Cod",
+      "fr": "Morue sal\u00e9e",
+      "ja": "\u30bd\u30eb\u30c8\u30b3\u30c3\u30c9"
+    }
+  },
+  {
+    "difficulty": 82,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 605,
+    "name": {
+      "de": "Kommunikationsrohr-Bauteil",
+      "en": "Speaking Tube Component",
+      "fr": "Composant de tuyau acoustique",
+      "ja": "\u4f1d\u58f0\u7cfb\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 82,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 605,
     "name": {
       "de": "Steuermechanismus-Bauteil",
       "en": "Steering Mechanism Component",
-      "ja": "\u64cd\u7e26\u6a5f\u5177\u90e8\u6750",
-      "fr": "Composant de module de pilotage"
-    },
+      "fr": "Composant de module de pilotage",
+      "ja": "\u64cd\u7e26\u6a5f\u5177\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 176,
+    "durability": 70,
     "level": 15,
-    "difficulty": 82,
-    "durability": 70,
-    "maxQuality": 605
+    "maxQuality": 403,
+    "name": {
+      "de": "Wachsgem\u00fcse",
+      "en": "Wax Vegetables",
+      "fr": "Caisse de l\u00e9gumes",
+      "ja": "\u30d9\u30b8\u30bf\u30d6\u30eb\u30a2\u30bd\u30fc\u30c8"
+    }
   },
   {
-    "name": {
-      "de": "Lavendel\u00f6l",
-      "en": "Lavender Oil",
-      "ja": "\u30e9\u30d9\u30f3\u30c0\u30fc\u30aa\u30a4\u30eb",
-      "fr": "Essence de lavande"
-    },
-    "level": 16,
-    "difficulty": 31,
-    "durability": 40,
-    "maxQuality": 866
-  },
-  {
-    "name": {
-      "de": "Apfelessig",
-      "en": "Cider Vinegar",
-      "ja": "\u30b5\u30a4\u30c0\u30fc\u30d3\u30cd\u30ac\u30fc",
-      "fr": "Vinaigre de cidre"
-    },
-    "level": 16,
-    "difficulty": 31,
-    "durability": 40,
-    "maxQuality": 866
-  },
-  {
-    "name": {
-      "de": "Fleisch-Miqo'Kebab",
-      "en": "Meat Miq'abob",
-      "ja": "\u30df\u30b3\u30c3\u30c6\u98a8\u5c71\u306e\u5e78\u4e32\u713c",
-      "fr": "Miqo-brochette de viande"
-    },
-    "level": 16,
     "difficulty": 63,
     "durability": 70,
-    "maxQuality": 866
-  },
-  {
-    "name": {
-      "de": "Dodo-Omelett",
-      "en": "Dodo Omelette",
-      "ja": "\u30c9\u30fc\u30c9\u30fc\u30aa\u30e0\u30ec\u30c4",
-      "fr": "Omelette aux \u0153ufs de dodo"
-    },
     "level": 16,
-    "difficulty": 63,
-    "durability": 70,
-    "maxQuality": 866
-  },
-  {
-    "name": {
-      "de": "H\u00fcttenk\u00e4se",
-      "en": "Cottage Cheese",
-      "ja": "\u30b3\u30c6\u30fc\u30b8\u30c1\u30fc\u30ba",
-      "fr": "Fromage blanc"
-    },
-    "level": 17,
-    "difficulty": 33,
-    "durability": 40,
-    "maxQuality": 898
-  },
-  {
-    "name": {
-      "de": "Linsen-Maronen-Eintopf",
-      "en": "Lentils and Chestnuts",
-      "ja": "\u30ec\u30f3\u30c6\u30a3\u30eb&\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8",
-      "fr": "Lentilles aux ch\u00e2taignes"
-    },
-    "level": 17,
-    "difficulty": 66,
-    "durability": 70,
-    "maxQuality": 898
-  },
-  {
-    "name": {
-      "de": "Kaktus-Steak",
-      "en": "Roasted Nopales",
-      "ja": "\u30ed\u30fc\u30b9\u30c8\u30ce\u30d1\u30eb",
-      "fr": "Figues de barbarie grill\u00e9es"
-    },
-    "level": 17,
-    "difficulty": 66,
-    "durability": 70,
-    "maxQuality": 898
-  },
-  {
-    "name": {
-      "de": "Steinsuppe",
-      "en": "Stone Soup",
-      "ja": "\u30b9\u30c8\u30fc\u30f3\u30b9\u30fc\u30d7",
-      "fr": "Soupe de pierre"
-    },
-    "level": 17,
-    "difficulty": 66,
-    "durability": 70,
-    "maxQuality": 898
-  },
-  {
-    "name": {
-      "de": "Walnussbrot",
-      "en": "Walnut Bread",
-      "ja": "\u30a6\u30a9\u30eb\u30ca\u30c3\u30c8\u30d6\u30ec\u30c3\u30c9",
-      "fr": "Pain aux noix"
-    },
-    "level": 18,
-    "difficulty": 67,
-    "durability": 70,
-    "maxQuality": 939
-  },
-  {
-    "name": {
-      "de": "Apfelt\u00f6rtchen",
-      "en": "Apple Tart",
-      "ja": "\u30a2\u30c3\u30d7\u30eb\u30bf\u30eb\u30c8",
-      "fr": "Tarte aux pommes"
-    },
-    "level": 18,
-    "difficulty": 67,
-    "durability": 70,
-    "maxQuality": 939
-  },
-  {
-    "name": {
-      "de": "Rohe Auster",
-      "en": "Raw Oyster",
-      "ja": "\u30ed\u30fc\u30aa\u30a4\u30b9\u30bf\u30fc",
-      "fr": "Hu\u00eetre crue"
-    },
-    "level": 19,
-    "difficulty": 68,
-    "durability": 70,
-    "maxQuality": 982
-  },
-  {
-    "name": {
-      "de": "Krabbenfleischball",
-      "en": "Crab Ball",
-      "ja": "\u30af\u30e9\u30d6\u30dc\u30fc\u30eb",
-      "fr": "Boulette de crabe"
-    },
-    "level": 20,
-    "difficulty": 74,
-    "durability": 70,
-    "maxQuality": 1053
-  },
-  {
-    "name": {
-      "de": "Gegrillte Warmblut-Forelle",
-      "en": "Grilled Warmwater Trout",
-      "ja": "\u30b0\u30ea\u30eb\u30c9\u30a6\u30a9\u30fc\u30e0\u30c8\u30e9\u30a6\u30c8",
-      "fr": "Truite thermophile grill\u00e9e"
-    },
-    "level": 20,
-    "difficulty": 74,
-    "durability": 70,
-    "maxQuality": 1053
-  },
-  {
-    "name": {
-      "de": "Antilopen-Gulasch",
-      "en": "Antelope Stew",
-      "ja": "\u30a2\u30f3\u30c6\u30ed\u30fc\u30d7\u30b7\u30c1\u30e5\u30fc",
-      "fr": "Rago\u00fbt de cerf"
-    },
-    "level": 20,
-    "difficulty": 74,
-    "durability": 70,
-    "maxQuality": 1053
-  },
-  {
-    "name": {
-      "de": "H\u00e4hnchen-Pilzpfanne",
-      "en": "Chicken and Mushrooms",
-      "ja": "\u9d8f\u8089\u30ad\u30ce\u30b3\u7092\u3081",
-      "fr": "Fricass\u00e9e de poulet aux champignons"
-    },
-    "level": 20,
-    "difficulty": 74,
-    "durability": 70,
-    "maxQuality": 1053
-  },
-  {
-    "name": {
-      "de": "Sternenlichtdodo",
-      "en": "Starlight Dodo",
-      "ja": "\u30b9\u30bf\u30fc\u30e9\u30a4\u30c8\u30fb\u30ed\u30fc\u30b9\u30c8\u30c9\u30fc\u30c9\u30fc",
-      "fr": "Dodo de la f\u00eate des \u00e9toiles"
-    },
-    "level": 20,
-    "difficulty": 236,
-    "durability": 70,
-    "maxQuality": 526
-  },
-  {
-    "name": {
-      "de": "Rettungsboots-Bauteil",
-      "en": "Escape Flyer Component",
-      "ja": "\u7dca\u6025\u8131\u51fa\u7528\u5177",
-      "fr": "Composant de syst\u00e8me d'\u00e9jection"
-    },
-    "level": 16,
-    "difficulty": 113,
-    "durability": 70,
-    "maxQuality": 1558
-  },
-  {
-    "name": {
-      "de": "Reservetank-Bauteil",
-      "en": "Spare Tank Component",
-      "ja": "\u4e88\u5099\u30bf\u30f3\u30af\u90e8\u6750",
-      "fr": "Composant de r\u00e9servoir de secours"
-    },
-    "level": 16,
-    "difficulty": 201,
-    "durability": 70,
-    "maxQuality": 433
-  },
-  {
-    "name": {
-      "de": "Gewichtsreduktions-Bauteil",
-      "en": "Refabrication Component",
-      "ja": "\u8efd\u91cf\u5316\u90e8\u6750",
-      "fr": "Composant d'all\u00e9gement"
-    },
-    "level": 16,
-    "difficulty": 31,
-    "durability": 40,
-    "maxQuality": 866
-  },
-  {
-    "name": {
-      "de": "Isolations-Bauteil",
-      "en": "Isolator Component",
-      "ja": "\u514d\u9707\u90e8\u6750",
-      "fr": "Composant de syst\u00e8me antivibration"
-    },
-    "level": 16,
-    "difficulty": 63,
-    "durability": 70,
-    "maxQuality": 866
-  },
-  {
-    "name": {
-      "de": "Hyperleiter-Bauteil",
-      "en": "Hyperconductor Component",
-      "ja": "\u9ad8\u4f1d\u5c0e\u7387\u90e8\u6750",
-      "fr": "Composant d'hyperconducteur"
-    },
-    "level": 16,
-    "difficulty": 201,
-    "durability": 70,
-    "maxQuality": 433
-  },
-  {
+    "maxQuality": 866,
     "name": {
       "de": "Aerodynamik-Verbesserer-Bauteil",
       "en": "Auxiliary Aerodynamo Component",
-      "ja": "\u88dc\u52a9\u7a7a\u529b\u90e8\u6750",
-      "fr": "Composant d'aileron"
-    },
-    "level": 16,
-    "difficulty": 63,
-    "durability": 70,
-    "maxQuality": 866
+      "fr": "Composant d'aileron",
+      "ja": "\u88dc\u52a9\u7a7a\u529b\u90e8\u6750"
+    }
   },
   {
+    "difficulty": 31,
+    "durability": 40,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Apfelessig",
+      "en": "Cider Vinegar",
+      "fr": "Vinaigre de cidre",
+      "ja": "\u30b5\u30a4\u30c0\u30fc\u30d3\u30cd\u30ac\u30fc"
+    }
+  },
+  {
+    "difficulty": 201,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 433,
     "name": {
       "de": "Zierplatten-Bauteil",
       "en": "Decorative Plating Component",
-      "ja": "\u88c5\u98fe\u90e8\u6750",
-      "fr": "Composant d'ornementation"
-    },
+      "fr": "Composant d'ornementation",
+      "ja": "\u88c5\u98fe\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 63,
+    "durability": 70,
     "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Dodo-Omelett",
+      "en": "Dodo Omelette",
+      "fr": "Omelette aux \u0153ufs de dodo",
+      "ja": "\u30c9\u30fc\u30c9\u30fc\u30aa\u30e0\u30ec\u30c4"
+    }
+  },
+  {
+    "difficulty": 113,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 1558,
+    "name": {
+      "de": "Rettungsboots-Bauteil",
+      "en": "Escape Flyer Component",
+      "fr": "Composant de syst\u00e8me d'\u00e9jection",
+      "ja": "\u7dca\u6025\u8131\u51fa\u7528\u5177"
+    }
+  },
+  {
     "difficulty": 201,
     "durability": 70,
-    "maxQuality": 433
-  },
-  {
+    "level": 16,
+    "maxQuality": 433,
     "name": {
-      "de": "Endst\u00fcck-Bauteil",
-      "en": "Finishing Component",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u91cd\u8981\u90e8\u6750",
-      "fr": "Composant final"
-    },
-    "level": 18,
-    "difficulty": 120,
-    "durability": 70,
-    "maxQuality": 1690
+      "de": "Hyperleiter-Bauteil",
+      "en": "Hyperconductor Component",
+      "fr": "Composant d'hyperconducteur",
+      "ja": "\u9ad8\u4f1d\u5c0e\u7387\u90e8\u6750"
+    }
   },
   {
+    "difficulty": 63,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Isolations-Bauteil",
+      "en": "Isolator Component",
+      "fr": "Composant de syst\u00e8me antivibration",
+      "ja": "\u514d\u9707\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 31,
+    "durability": 40,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Lavendel\u00f6l",
+      "en": "Lavender Oil",
+      "fr": "Essence de lavande",
+      "ja": "\u30e9\u30d9\u30f3\u30c0\u30fc\u30aa\u30a4\u30eb"
+    }
+  },
+  {
+    "difficulty": 63,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Fleisch-Miqo'Kebab",
+      "en": "Meat Miq'abob",
+      "fr": "Miqo-brochette de viande",
+      "ja": "\u30df\u30b3\u30c3\u30c6\u98a8\u5c71\u306e\u5e78\u4e32\u713c"
+    }
+  },
+  {
+    "difficulty": 31,
+    "durability": 40,
+    "level": 16,
+    "maxQuality": 866,
+    "name": {
+      "de": "Gewichtsreduktions-Bauteil",
+      "en": "Refabrication Component",
+      "fr": "Composant d'all\u00e9gement",
+      "ja": "\u8efd\u91cf\u5316\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 201,
+    "durability": 70,
+    "level": 16,
+    "maxQuality": 433,
+    "name": {
+      "de": "Reservetank-Bauteil",
+      "en": "Spare Tank Component",
+      "fr": "Composant de r\u00e9servoir de secours",
+      "ja": "\u4e88\u5099\u30bf\u30f3\u30af\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 33,
+    "durability": 40,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "H\u00fcttenk\u00e4se",
+      "en": "Cottage Cheese",
+      "fr": "Fromage blanc",
+      "ja": "\u30b3\u30c6\u30fc\u30b8\u30c1\u30fc\u30ba"
+    }
+  },
+  {
+    "difficulty": 66,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Linsen-Maronen-Eintopf",
+      "en": "Lentils and Chestnuts",
+      "fr": "Lentilles aux ch\u00e2taignes",
+      "ja": "\u30ec\u30f3\u30c6\u30a3\u30eb&\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8"
+    }
+  },
+  {
+    "difficulty": 66,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Kaktus-Steak",
+      "en": "Roasted Nopales",
+      "fr": "Figues de barbarie grill\u00e9es",
+      "ja": "\u30ed\u30fc\u30b9\u30c8\u30ce\u30d1\u30eb"
+    }
+  },
+  {
+    "difficulty": 66,
+    "durability": 70,
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "de": "Steinsuppe",
+      "en": "Stone Soup",
+      "fr": "Soupe de pierre",
+      "ja": "\u30b9\u30c8\u30fc\u30f3\u30b9\u30fc\u30d7"
+    }
+  },
+  {
+    "difficulty": 67,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 939,
+    "name": {
+      "de": "Apfelt\u00f6rtchen",
+      "en": "Apple Tart",
+      "fr": "Tarte aux pommes",
+      "ja": "\u30a2\u30c3\u30d7\u30eb\u30bf\u30eb\u30c8"
+    }
+  },
+  {
+    "difficulty": 214,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 469,
     "name": {
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u7fbd\u6839\u98fe\u308a",
-      "fr": "Aile d'Ehcatl"
-    },
-    "level": 18,
-    "difficulty": 214,
-    "durability": 70,
-    "maxQuality": 469
+      "fr": "Aile d'Ehcatl",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u7fbd\u6839\u98fe\u308a"
+    }
   },
   {
+    "difficulty": 120,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 1690,
+    "name": {
+      "de": "Endst\u00fcck-Bauteil",
+      "en": "Finishing Component",
+      "fr": "Composant final",
+      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u91cd\u8981\u90e8\u6750"
+    }
+  },
+  {
+    "difficulty": 67,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 939,
+    "name": {
+      "de": "Walnussbrot",
+      "en": "Walnut Bread",
+      "fr": "Pain aux noix",
+      "ja": "\u30a6\u30a9\u30eb\u30ca\u30c3\u30c8\u30d6\u30ec\u30c3\u30c9"
+    }
+  },
+  {
+    "difficulty": 68,
+    "durability": 70,
+    "level": 19,
+    "maxQuality": 982,
+    "name": {
+      "de": "Rohe Auster",
+      "en": "Raw Oyster",
+      "fr": "Hu\u00eetre crue",
+      "ja": "\u30ed\u30fc\u30aa\u30a4\u30b9\u30bf\u30fc"
+    }
+  },
+  {
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Antilopen-Gulasch",
+      "en": "Antelope Stew",
+      "fr": "Rago\u00fbt de cerf",
+      "ja": "\u30a2\u30f3\u30c6\u30ed\u30fc\u30d7\u30b7\u30c1\u30e5\u30fc"
+    }
+  },
+  {
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "H\u00e4hnchen-Pilzpfanne",
+      "en": "Chicken and Mushrooms",
+      "fr": "Fricass\u00e9e de poulet aux champignons",
+      "ja": "\u9d8f\u8089\u30ad\u30ce\u30b3\u7092\u3081"
+    }
+  },
+  {
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Krabbenfleischball",
+      "en": "Crab Ball",
+      "fr": "Boulette de crabe",
+      "ja": "\u30af\u30e9\u30d6\u30dc\u30fc\u30eb"
+    }
+  },
+  {
+    "difficulty": 74,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Gegrillte Warmblut-Forelle",
+      "en": "Grilled Warmwater Trout",
+      "fr": "Truite thermophile grill\u00e9e",
+      "ja": "\u30b0\u30ea\u30eb\u30c9\u30a6\u30a9\u30fc\u30e0\u30c8\u30e9\u30a6\u30c8"
+    }
+  },
+  {
+    "difficulty": 236,
+    "durability": 70,
+    "level": 20,
+    "maxQuality": 526,
+    "name": {
+      "de": "Sternenlichtdodo",
+      "en": "Starlight Dodo",
+      "fr": "Dodo de la f\u00eate des \u00e9toiles",
+      "ja": "\u30b9\u30bf\u30fc\u30e9\u30a4\u30c8\u30fb\u30ed\u30fc\u30b9\u30c8\u30c9\u30fc\u30c9\u30fc"
+    }
+  },
+  {
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
     "name": {
       "de": "Grill-Antilope",
       "en": "Antelope Steak",
-      "ja": "\u30a2\u30f3\u30c6\u30ed\u30fc\u30d7\u30b9\u30c6\u30fc\u30ad",
-      "fr": "Steak de cerf"
-    },
-    "level": 21,
-    "difficulty": 75,
-    "durability": 70,
-    "maxQuality": 1090
+      "fr": "Steak de cerf",
+      "ja": "\u30a2\u30f3\u30c6\u30ed\u30fc\u30d7\u30b9\u30c6\u30fc\u30ad"
+    }
   },
   {
-    "name": {
-      "de": "Honigmuffin",
-      "en": "Honey Muffin",
-      "ja": "\u30cf\u30cb\u30fc\u30de\u30d5\u30a3\u30f3",
-      "fr": "Muffin au miel"
-    },
-    "level": 21,
     "difficulty": 75,
     "durability": 70,
-    "maxQuality": 1090
-  },
-  {
-    "name": {
-      "de": "Toffelbrei",
-      "en": "Mashed Popotoes",
-      "ja": "\u30de\u30c3\u30b7\u30e5\u30dd\u30dd\u30c8",
-      "fr": "Pur\u00e9e de popotos"
-    },
     "level": 21,
-    "difficulty": 75,
-    "durability": 70,
-    "maxQuality": 1090
-  },
-  {
+    "maxQuality": 1090,
     "name": {
       "de": "Traubensaft",
       "en": "Grape Juice",
-      "ja": "\u30b0\u30ec\u30fc\u30d7\u30b8\u30e5\u30fc\u30b9",
-      "fr": "Jus de raisin"
-    },
+      "fr": "Jus de raisin",
+      "ja": "\u30b0\u30ec\u30fc\u30d7\u30b8\u30e5\u30fc\u30b9"
+    }
+  },
+  {
+    "difficulty": 75,
+    "durability": 70,
     "level": 21,
-    "difficulty": 75,
-    "durability": 70,
-    "maxQuality": 1090
-  },
-  {
+    "maxQuality": 1090,
     "name": {
-      "de": "Saure Eier",
-      "en": "Mustard Eggs",
-      "ja": "\u30de\u30b9\u30bf\u30fc\u30c9\u30a8\u30c3\u30b0\u30ba",
-      "fr": "\u0152ufs \u00e0 la moutarde"
-    },
-    "level": 22,
-    "difficulty": 75,
-    "durability": 70,
-    "maxQuality": 1122
+      "de": "Honigmuffin",
+      "en": "Honey Muffin",
+      "fr": "Muffin au miel",
+      "ja": "\u30cf\u30cb\u30fc\u30de\u30d5\u30a3\u30f3"
+    }
   },
   {
+    "difficulty": 75,
+    "durability": 70,
+    "level": 21,
+    "maxQuality": 1090,
     "name": {
-      "de": "Sautierter Spinat",
-      "en": "Spinach Saute",
-      "ja": "\u30b9\u30d4\u30ca\u30c3\u30c1\u30bd\u30c6\u30fc",
-      "fr": "Saut\u00e9 d'\u00e9pinards"
-    },
-    "level": 22,
-    "difficulty": 75,
-    "durability": 70,
-    "maxQuality": 1122
+      "de": "Toffelbrei",
+      "en": "Mashed Popotoes",
+      "fr": "Pur\u00e9e de popotos",
+      "ja": "\u30de\u30c3\u30b7\u30e5\u30dd\u30dd\u30c8"
+    }
   },
   {
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
     "name": {
       "de": "Getrocknete Pflaumen",
       "en": "Dried Prunes",
-      "ja": "\u30c9\u30e9\u30a4\u30d7\u30eb\u30fc\u30f3",
-      "fr": "Pruneaux"
-    },
-    "level": 22,
+      "fr": "Pruneaux",
+      "ja": "\u30c9\u30e9\u30a4\u30d7\u30eb\u30fc\u30f3"
+    }
+  },
+  {
     "difficulty": 75,
     "durability": 70,
-    "maxQuality": 1122
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "de": "Saure Eier",
+      "en": "Mustard Eggs",
+      "fr": "\u0152ufs \u00e0 la moutarde",
+      "ja": "\u30de\u30b9\u30bf\u30fc\u30c9\u30a8\u30c3\u30b0\u30ba"
+    }
   },
   {
+    "difficulty": 75,
+    "durability": 70,
+    "level": 22,
+    "maxQuality": 1122,
     "name": {
-      "de": "Lachs nach M\u00fcllerinart",
-      "en": "Salmon Meuniere",
-      "ja": "\u30b5\u30fc\u30e2\u30f3\u30e0\u30cb\u30a8\u30eb",
-      "fr": "Saumon meuni\u00e8re"
-    },
-    "level": 23,
+      "de": "Sautierter Spinat",
+      "en": "Spinach Saute",
+      "fr": "Saut\u00e9 d'\u00e9pinards",
+      "ja": "\u30b9\u30d4\u30ca\u30c3\u30c1\u30bd\u30c6\u30fc"
+    }
+  },
+  {
     "difficulty": 79,
     "durability": 70,
-    "maxQuality": 1169
-  },
-  {
+    "level": 23,
+    "maxQuality": 1169,
     "name": {
       "de": "Brezel",
       "en": "Dark Pretzel",
-      "ja": "\u30d7\u30ec\u30c3\u30c4\u30a7\u30eb",
-      "fr": "Bretzel noir"
-    },
-    "level": 23,
-    "difficulty": 79,
-    "durability": 70,
-    "maxQuality": 1169
+      "fr": "Bretzel noir",
+      "ja": "\u30d7\u30ec\u30c3\u30c4\u30a7\u30eb"
+    }
   },
   {
+    "difficulty": 79,
+    "durability": 70,
+    "level": 23,
+    "maxQuality": 1169,
+    "name": {
+      "de": "Lachs nach M\u00fcllerinart",
+      "en": "Salmon Meuniere",
+      "fr": "Saumon meuni\u00e8re",
+      "ja": "\u30b5\u30fc\u30e2\u30f3\u30e0\u30cb\u30a8\u30eb"
+    }
+  },
+  {
+    "difficulty": 79,
+    "durability": 70,
+    "level": 23,
+    "maxQuality": 1169,
     "name": {
       "de": "Shepherd's Pie",
       "en": "Shepherd's Pie",
-      "ja": "\u30b7\u30a7\u30d1\u30fc\u30c9\u30d1\u30a4",
-      "fr": "Hachis parmentier"
-    },
-    "level": 23,
-    "difficulty": 79,
-    "durability": 70,
-    "maxQuality": 1169
+      "fr": "Hachis parmentier",
+      "ja": "\u30b7\u30a7\u30d1\u30fc\u30c9\u30d1\u30a4"
+    }
   },
   {
+    "difficulty": 85,
+    "durability": 70,
+    "level": 24,
+    "maxQuality": 1239,
     "name": {
       "de": "Kamillentee",
       "en": "Chamomile Tea",
-      "ja": "\u30ab\u30e2\u30df\u30fc\u30eb\u30c6\u30a3\u30fc",
-      "fr": "Th\u00e9 \u00e0 la camomille"
-    },
-    "level": 24,
-    "difficulty": 85,
-    "durability": 70,
-    "maxQuality": 1239
+      "fr": "Th\u00e9 \u00e0 la camomille",
+      "ja": "\u30ab\u30e2\u30df\u30fc\u30eb\u30c6\u30a3\u30fc"
+    }
   },
   {
+    "difficulty": 89,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 1296,
     "name": {
       "de": "Barschball",
       "en": "Bass Ball",
-      "ja": "\u30d0\u30b9\u30dc\u30fc\u30eb",
-      "fr": "Boulette de bar"
-    },
-    "level": 25,
-    "difficulty": 89,
-    "durability": 70,
-    "maxQuality": 1296
+      "fr": "Boulette de bar",
+      "ja": "\u30d0\u30b9\u30dc\u30fc\u30eb"
+    }
   },
   {
+    "difficulty": 89,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 1296,
     "name": {
       "de": "Aalpastete",
       "en": "Eel Pie",
-      "ja": "\u30a4\u30fc\u30eb\u30d1\u30a4",
-      "fr": "Tarte \u00e0 l'anguille"
-    },
-    "level": 25,
-    "difficulty": 89,
-    "durability": 70,
-    "maxQuality": 1296
+      "fr": "Tarte \u00e0 l'anguille",
+      "ja": "\u30a4\u30fc\u30eb\u30d1\u30a4"
+    }
   },
   {
+    "difficulty": 284,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 648,
     "name": {
       "de": "Riviera-Abendmahl-Set",
       "en": "Riviera Supper",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8",
-      "fr": "D\u00eener nosc\u00e9en"
-    },
-    "level": 25,
-    "difficulty": 284,
-    "durability": 70,
-    "maxQuality": 648
+      "fr": "D\u00eener nosc\u00e9en",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8"
+    }
   },
   {
+    "difficulty": 90,
+    "durability": 70,
+    "level": 26,
+    "maxQuality": 1332,
     "name": {
       "de": "Grill-Bock",
       "en": "Aldgoat Steak",
-      "ja": "\u5927\u5c71\u7f8a\u30b9\u30c6\u30fc\u30ad",
-      "fr": "Steak de bouquetin"
-    },
-    "level": 26,
-    "difficulty": 90,
-    "durability": 70,
-    "maxQuality": 1332
+      "fr": "Steak de bouquetin",
+      "ja": "\u5927\u5c71\u7f8a\u30b9\u30c6\u30fc\u30ad"
+    }
   },
   {
-    "name": {
-      "de": "Erbsensuppe",
-      "en": "Pea Soup",
-      "ja": "\u30d4\u30fc\u30b9\u30fc\u30d7",
-      "fr": "Soupe de pois"
-    },
-    "level": 26,
     "difficulty": 90,
     "durability": 70,
-    "maxQuality": 1332
-  },
-  {
+    "level": 26,
+    "maxQuality": 1332,
     "name": {
       "de": "Ingwerkeks",
       "en": "Ginger Cookie",
-      "ja": "\u30b8\u30f3\u30b8\u30e3\u30fc\u30af\u30c3\u30ad\u30fc",
-      "fr": "Biscuit au gingembre"
-    },
-    "level": 26,
+      "fr": "Biscuit au gingembre",
+      "ja": "\u30b8\u30f3\u30b8\u30e3\u30fc\u30af\u30c3\u30ad\u30fc"
+    }
+  },
+  {
     "difficulty": 90,
     "durability": 70,
-    "maxQuality": 1332
+    "level": 26,
+    "maxQuality": 1332,
+    "name": {
+      "de": "Erbsensuppe",
+      "en": "Pea Soup",
+      "fr": "Soupe de pois",
+      "ja": "\u30d4\u30fc\u30b9\u30fc\u30d7"
+    }
   },
   {
-    "name": {
-      "de": "Spiegelei",
-      "en": "Fried Egg",
-      "ja": "\u30d5\u30e9\u30a4\u30c9\u30a8\u30c3\u30b0",
-      "fr": "\u0152uf au plat"
-    },
-    "level": 27,
     "difficulty": 91,
     "durability": 70,
-    "maxQuality": 1368
-  },
-  {
+    "level": 27,
+    "maxQuality": 1368,
     "name": {
       "de": "Gekochte Brasse",
       "en": "Boiled Bream",
-      "ja": "\u30dc\u30a4\u30eb\u30c9\u30d6\u30ea\u30fc\u30e0",
-      "fr": "Br\u00e8me bouillie"
-    },
-    "level": 27,
-    "difficulty": 91,
-    "durability": 70,
-    "maxQuality": 1368
+      "fr": "Br\u00e8me bouillie",
+      "ja": "\u30dc\u30a4\u30eb\u30c9\u30d6\u30ea\u30fc\u30e0"
+    }
   },
   {
+    "difficulty": 91,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 1368,
     "name": {
       "de": "K\u00e4serisotto",
       "en": "Cheese Risotto",
-      "ja": "\u30c1\u30fc\u30ba\u30ea\u30be\u30c3\u30c8",
-      "fr": "Risotto au fromage"
-    },
-    "level": 27,
-    "difficulty": 91,
-    "durability": 70,
-    "maxQuality": 1368
+      "fr": "Risotto au fromage",
+      "ja": "\u30c1\u30fc\u30ba\u30ea\u30be\u30c3\u30c8"
+    }
   },
   {
+    "difficulty": 91,
+    "durability": 70,
+    "level": 27,
+    "maxQuality": 1368,
+    "name": {
+      "de": "Spiegelei",
+      "en": "Fried Egg",
+      "fr": "\u0152uf au plat",
+      "ja": "\u30d5\u30e9\u30a4\u30c9\u30a8\u30c3\u30b0"
+    }
+  },
+  {
+    "difficulty": 50,
+    "durability": 40,
+    "level": 28,
+    "maxQuality": 1498,
     "name": {
       "de": "H\u00fchnerbr\u00fche",
       "en": "Chicken Stock",
-      "ja": "\u30c1\u30ad\u30f3\u30b9\u30c8\u30c3\u30af",
-      "fr": "Bouillon de poulet"
-    },
-    "level": 28,
-    "difficulty": 50,
-    "durability": 40,
-    "maxQuality": 1498
+      "fr": "Bouillon de poulet",
+      "ja": "\u30c1\u30ad\u30f3\u30b9\u30c8\u30c3\u30af"
+    }
   },
   {
-    "name": {
-      "de": "Orobon-Gulasch",
-      "en": "Orobon Stew",
-      "ja": "\u30aa\u30ed\u30dc\u30f3\u30b7\u30c1\u30e5\u30fc",
-      "fr": "Rago\u00fbt d'orobon"
-    },
-    "level": 28,
     "difficulty": 100,
     "durability": 70,
-    "maxQuality": 1498
-  },
-  {
+    "level": 28,
+    "maxQuality": 1498,
     "name": {
       "de": "Crumpet",
       "en": "Crumpet",
-      "ja": "\u30af\u30e9\u30f3\u30da\u30c3\u30c8",
-      "fr": "Crumpet"
-    },
-    "level": 28,
-    "difficulty": 100,
-    "durability": 70,
-    "maxQuality": 1498
+      "fr": "Crumpet",
+      "ja": "\u30af\u30e9\u30f3\u30da\u30c3\u30c8"
+    }
   },
   {
+    "difficulty": 100,
+    "durability": 70,
+    "level": 28,
+    "maxQuality": 1498,
+    "name": {
+      "de": "Orobon-Gulasch",
+      "en": "Orobon Stew",
+      "fr": "Rago\u00fbt d'orobon",
+      "ja": "\u30aa\u30ed\u30dc\u30f3\u30b7\u30c1\u30e5\u30fc"
+    }
+  },
+  {
+    "difficulty": 50,
+    "durability": 40,
+    "level": 29,
+    "maxQuality": 1544,
     "name": {
       "de": "Maismehl",
       "en": "Cornmeal",
-      "ja": "\u30b3\u30fc\u30f3\u30b0\u30ea\u30c3\u30c4",
-      "fr": "Farine de ma\u00efs"
-    },
-    "level": 29,
-    "difficulty": 50,
-    "durability": 40,
-    "maxQuality": 1544
+      "fr": "Farine de ma\u00efs",
+      "ja": "\u30b3\u30fc\u30f3\u30b0\u30ea\u30c3\u30c4"
+    }
   },
   {
-    "name": {
-      "de": "Gebratene Seezunge",
-      "en": "Baked Sole",
-      "ja": "\u30d9\u30a4\u30af\u30c9\u30bd\u30fc\u30eb",
-      "fr": "Sole au four"
-    },
-    "level": 30,
-    "difficulty": 102,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Futter: Geschwindigkeit I",
-      "en": "Grade 1 Feed - Speed Blend",
-      "ja": "\u30b9\u30d4\u30fc\u30c9\u30d5\u30a9\u30c0\u30fcG1",
-      "fr": "Fourrage sp\u00e9cial vitesse I"
-    },
-    "level": 30,
     "difficulty": 51,
     "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Futter: Antritt I",
-      "en": "Grade 1 Feed - Acceleration Blend",
-      "ja": "\u30a2\u30af\u30bb\u30eb\u30d5\u30a9\u30c0\u30fcG1",
-      "fr": "Fourrage sp\u00e9cial acc\u00e9l\u00e9ration I"
-    },
     "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Futter: Puste I",
-      "en": "Grade 1 Feed - Endurance Blend",
-      "ja": "\u30a8\u30f3\u30c7\u30e5\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG1",
-      "fr": "Fourrage sp\u00e9cial vitalit\u00e9 I"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Futter: Ausdauer I",
-      "en": "Grade 1 Feed - Stamina Blend",
-      "ja": "\u30b9\u30bf\u30df\u30ca\u30d5\u30a9\u30c0\u30fcG1",
-      "fr": "Fourrage sp\u00e9cial endurance I"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Futter: K\u00f6pfchen I",
-      "en": "Grade 1 Feed - Balance Blend",
-      "ja": "\u30d0\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG1",
-      "fr": "Fourrage sp\u00e9cial agilit\u00e9 I"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Flaschenk\u00fchler mit Rotwein",
-      "en": "Chilled Red",
-      "ja": "\u30d5\u30eb\u30fc\u30c4\u30d5\u30ec\u30fc\u30d0\u30fc\u30fb\u30c9\u30ea\u30f3\u30af\u30bb\u30c3\u30c8",
-      "fr": "Boissons festives"
-    },
-    "level": 30,
-    "difficulty": 183,
-    "durability": 70,
-    "maxQuality": 792
-  },
-  {
-    "name": {
-      "de": "Schneewei\u00dfer Farbstoff",
-      "en": "Snow White Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30ce\u30a6\u30db\u30ef\u30a4\u30c8",
-      "fr": "Teinture blanc neige"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Ru\u00dfschwarzer Farbstoff",
-      "en": "Soot Black Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30fc\u30c8\u30d6\u30e9\u30c3\u30af",
-      "fr": "Teinture noir suie"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Dalamudroter Farbstoff",
-      "en": "Dalamud Red Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c0\u30e9\u30ac\u30d6\u30ec\u30c3\u30c9",
-      "fr": "Teinture rouge Dalamud"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Weinroter Farbstoff",
-      "en": "Wine Red Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ef\u30a4\u30f3\u30ec\u30c3\u30c9",
-      "fr": "Teinture lie-de-vin"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Abendroter Farbstoff",
-      "en": "Sunset Orange Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b5\u30f3\u30bb\u30c3\u30c8\u30aa\u30ec\u30f3\u30b8",
-      "fr": "Teinture orange couchant"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Koboldbrauner Farbstoff",
-      "en": "Kobold Brown Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30dc\u30eb\u30c9\u30d6\u30e9\u30a6\u30f3",
-      "fr": "Teinture brun kobold"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "K\u00fcrbisorangener Farbstoff",
-      "en": "Pumpkin Orange Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d1\u30f3\u30d7\u30ad\u30f3\u30aa\u30ec\u30f3\u30b8",
-      "fr": "Teinture orange citrouille"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Lehmbrauner Farbstoff",
-      "en": "Loam Brown Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30e0\u30d6\u30e9\u30a6\u30f3",
-      "fr": "Teinture brun argile"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Honiggelber Farbstoff",
-      "en": "Honey Yellow Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30cb\u30fc\u30a4\u30a8\u30ed\u30fc",
-      "fr": "Teinture jaune miel"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Maisgelber Farbstoff",
-      "en": "Millioncorn Yellow Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30df\u30ea\u30aa\u30f3\u30b3\u30fc\u30f3\u30a4\u30a8\u30ed\u30fc",
-      "fr": "Teinture jaune milli-ma\u00efs"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "J\u00e4gergr\u00fcner Farbstoff",
-      "en": "Hunter Green Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30f3\u30bf\u30fc\u30b0\u30ea\u30fc\u30f3",
-      "fr": "Teinture vert chasseur"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Ochugr\u00fcner Farbstoff",
-      "en": "Ochu Green Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30c1\u30e5\u30fc\u30b0\u30ea\u30fc\u30f3",
-      "fr": "Teinture vert otyugh"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Waldgr\u00fcner Farbstoff",
-      "en": "Deepwood Green Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c7\u30a3\u30fc\u30d7\u30a6\u30c3\u30c9\u30b0\u30ea\u30fc\u30f3",
-      "fr": "Teinture vert sapin"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Jadegr\u00fcnder Farbstoff",
-      "en": "Celeste Green Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3",
-      "fr": "Teinture vert c\u00e9leste"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Morbolgr\u00fcner Farbstoff",
-      "en": "Morbol Green Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30e2\u30eb\u30dc\u30eb\u30b0\u30ea\u30fc\u30f3",
-      "fr": "Teinture vert morbol"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Indigoblauer Farbstoff",
-      "en": "Woad Blue Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a6\u30a9\u30fc\u30c9\u30d6\u30eb\u30fc",
-      "fr": "Teinture bleu gu\u00e8de"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Othardblauer Farbstoff",
-      "en": "Othard Blue Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30b5\u30fc\u30c9\u30d6\u30eb\u30fc",
-      "fr": "Teinture bleu d'Othard"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Sturmblauer Farbstoff",
-      "en": "Storm Blue Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30c8\u30fc\u30e0\u30d6\u30eb\u30fc",
-      "fr": "Teinture bleu temp\u00eate"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "Nichtsblauer Farbstoff",
-      "en": "Void Blue Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30f4\u30a9\u30a4\u30c9\u30d6\u30eb\u30fc",
-      "fr": "Teinture bleu du n\u00e9ant"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
-    "name": {
-      "de": "K\u00f6nigsblauer Farbstoff",
-      "en": "Royal Blue Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30a4\u30e4\u30eb\u30d6\u30eb\u30fc",
-      "fr": "Teinture bleu royal"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
-  },
-  {
+    "maxQuality": 1584,
     "name": {
       "de": "Tiefblauer Farbstoff",
       "en": "Abyssal Blue Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a2\u30d3\u30b5\u30eb\u30d6\u30eb\u30fc",
-      "fr": "Teinture bleu marine"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
+      "fr": "Teinture bleu marine",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a2\u30d3\u30b5\u30eb\u30d6\u30eb\u30fc"
+    }
   },
   {
+    "difficulty": 102,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
     "name": {
-      "de": "Lotusrosa Farbstoff",
-      "en": "Lotus Pink Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30bf\u30b9\u30d4\u30f3\u30af",
-      "fr": "Teinture mauve lotus"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
+      "de": "Gebratene Seezunge",
+      "en": "Baked Sole",
+      "fr": "Sole au four",
+      "ja": "\u30d9\u30a4\u30af\u30c9\u30bd\u30fc\u30eb"
+    }
   },
   {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Jadegr\u00fcnder Farbstoff",
+      "en": "Celeste Green Dye",
+      "fr": "Teinture vert c\u00e9leste",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3"
+    }
+  },
+  {
+    "difficulty": 183,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 792,
+    "name": {
+      "de": "Flaschenk\u00fchler mit Rotwein",
+      "en": "Chilled Red",
+      "fr": "Boissons festives",
+      "ja": "\u30d5\u30eb\u30fc\u30c4\u30d5\u30ec\u30fc\u30d0\u30fc\u30fb\u30c9\u30ea\u30f3\u30af\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
     "name": {
       "de": "Kolibrirosa Farbstoff",
       "en": "Colibri Pink Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30ea\u30d6\u30ea\u30d4\u30f3\u30af",
-      "fr": "Teinture mauve colibri"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
+      "fr": "Teinture mauve colibri",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30ea\u30d6\u30ea\u30d4\u30f3\u30af"
+    }
   },
   {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Dalamudroter Farbstoff",
+      "en": "Dalamud Red Dye",
+      "fr": "Teinture rouge Dalamud",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c0\u30e9\u30ac\u30d6\u30ec\u30c3\u30c9"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Waldgr\u00fcner Farbstoff",
+      "en": "Deepwood Green Dye",
+      "fr": "Teinture vert sapin",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c7\u30a3\u30fc\u30d7\u30a6\u30c3\u30c9\u30b0\u30ea\u30fc\u30f3"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: Antritt I",
+      "en": "Grade 1 Feed - Acceleration Blend",
+      "fr": "Fourrage sp\u00e9cial acc\u00e9l\u00e9ration I",
+      "ja": "\u30a2\u30af\u30bb\u30eb\u30d5\u30a9\u30c0\u30fcG1"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: K\u00f6pfchen I",
+      "en": "Grade 1 Feed - Balance Blend",
+      "fr": "Fourrage sp\u00e9cial agilit\u00e9 I",
+      "ja": "\u30d0\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG1"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: Puste I",
+      "en": "Grade 1 Feed - Endurance Blend",
+      "fr": "Fourrage sp\u00e9cial vitalit\u00e9 I",
+      "ja": "\u30a8\u30f3\u30c7\u30e5\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG1"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: Geschwindigkeit I",
+      "en": "Grade 1 Feed - Speed Blend",
+      "fr": "Fourrage sp\u00e9cial vitesse I",
+      "ja": "\u30b9\u30d4\u30fc\u30c9\u30d5\u30a9\u30c0\u30fcG1"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Futter: Ausdauer I",
+      "en": "Grade 1 Feed - Stamina Blend",
+      "fr": "Fourrage sp\u00e9cial endurance I",
+      "ja": "\u30b9\u30bf\u30df\u30ca\u30d5\u30a9\u30c0\u30fcG1"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Honiggelber Farbstoff",
+      "en": "Honey Yellow Dye",
+      "fr": "Teinture jaune miel",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30cb\u30fc\u30a4\u30a8\u30ed\u30fc"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "J\u00e4gergr\u00fcner Farbstoff",
+      "en": "Hunter Green Dye",
+      "fr": "Teinture vert chasseur",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30f3\u30bf\u30fc\u30b0\u30ea\u30fc\u30f3"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Koboldbrauner Farbstoff",
+      "en": "Kobold Brown Dye",
+      "fr": "Teinture brun kobold",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30dc\u30eb\u30c9\u30d6\u30e9\u30a6\u30f3"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Lehmbrauner Farbstoff",
+      "en": "Loam Brown Dye",
+      "fr": "Teinture brun argile",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30e0\u30d6\u30e9\u30a6\u30f3"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Lotusrosa Farbstoff",
+      "en": "Lotus Pink Dye",
+      "fr": "Teinture mauve lotus",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30bf\u30b9\u30d4\u30f3\u30af"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Maisgelber Farbstoff",
+      "en": "Millioncorn Yellow Dye",
+      "fr": "Teinture jaune milli-ma\u00efs",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30df\u30ea\u30aa\u30f3\u30b3\u30fc\u30f3\u30a4\u30a8\u30ed\u30fc"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Morbolgr\u00fcner Farbstoff",
+      "en": "Morbol Green Dye",
+      "fr": "Teinture vert morbol",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30e2\u30eb\u30dc\u30eb\u30b0\u30ea\u30fc\u30f3"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Ochugr\u00fcner Farbstoff",
+      "en": "Ochu Green Dye",
+      "fr": "Teinture vert otyugh",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30c1\u30e5\u30fc\u30b0\u30ea\u30fc\u30f3"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Othardblauer Farbstoff",
+      "en": "Othard Blue Dye",
+      "fr": "Teinture bleu d'Othard",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30b5\u30fc\u30c9\u30d6\u30eb\u30fc"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
     "name": {
       "de": "Pflaumenvioletter Farbstoff",
       "en": "Plum Purple Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d7\u30e9\u30e0\u30d1\u30fc\u30d7\u30eb",
-      "fr": "Teinture prune"
-    },
-    "level": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "maxQuality": 1584
+      "fr": "Teinture prune",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d7\u30e9\u30e0\u30d1\u30fc\u30d7\u30eb"
+    }
   },
   {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "K\u00fcrbisorangener Farbstoff",
+      "en": "Pumpkin Orange Dye",
+      "fr": "Teinture orange citrouille",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d1\u30f3\u30d7\u30ad\u30f3\u30aa\u30ec\u30f3\u30b8"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
     "name": {
       "de": "K\u00f6nigsvioletter Farbstoff",
       "en": "Regal Purple Dye",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ea\u30fc\u30ac\u30eb\u30d1\u30fc\u30d7\u30eb",
-      "fr": "Teinture byzantium"
-    },
-    "level": 30,
+      "fr": "Teinture byzantium",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ea\u30fc\u30ac\u30eb\u30d1\u30fc\u30d7\u30eb"
+    }
+  },
+  {
     "difficulty": 51,
     "durability": 70,
-    "maxQuality": 1584
-  },
-  {
+    "level": 30,
+    "maxQuality": 1584,
     "name": {
-      "de": "Balsamessig",
-      "en": "Dark Vinegar",
-      "ja": "\u30d0\u30eb\u30b5\u30df\u30b3\u30d3\u30cd\u30ac\u30fc",
-      "fr": "Vinaigre balsamique"
-    },
-    "level": 31,
-    "difficulty": 53,
-    "durability": 40,
-    "maxQuality": 1670
+      "de": "K\u00f6nigsblauer Farbstoff",
+      "en": "Royal Blue Dye",
+      "fr": "Teinture bleu royal",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30a4\u30e4\u30eb\u30d6\u30eb\u30fc"
+    }
   },
   {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Schneewei\u00dfer Farbstoff",
+      "en": "Snow White Dye",
+      "fr": "Teinture blanc neige",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30ce\u30a6\u30db\u30ef\u30a4\u30c8"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Ru\u00dfschwarzer Farbstoff",
+      "en": "Soot Black Dye",
+      "fr": "Teinture noir suie",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30fc\u30c8\u30d6\u30e9\u30c3\u30af"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Sturmblauer Farbstoff",
+      "en": "Storm Blue Dye",
+      "fr": "Teinture bleu temp\u00eate",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30c8\u30fc\u30e0\u30d6\u30eb\u30fc"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Abendroter Farbstoff",
+      "en": "Sunset Orange Dye",
+      "fr": "Teinture orange couchant",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b5\u30f3\u30bb\u30c3\u30c8\u30aa\u30ec\u30f3\u30b8"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Nichtsblauer Farbstoff",
+      "en": "Void Blue Dye",
+      "fr": "Teinture bleu du n\u00e9ant",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30f4\u30a9\u30a4\u30c9\u30d6\u30eb\u30fc"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Weinroter Farbstoff",
+      "en": "Wine Red Dye",
+      "fr": "Teinture lie-de-vin",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ef\u30a4\u30f3\u30ec\u30c3\u30c9"
+    }
+  },
+  {
+    "difficulty": 51,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 1584,
+    "name": {
+      "de": "Indigoblauer Farbstoff",
+      "en": "Woad Blue Dye",
+      "fr": "Teinture bleu gu\u00e8de",
+      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a6\u30a9\u30fc\u30c9\u30d6\u30eb\u30fc"
+    }
+  },
+  {
+    "difficulty": 106,
+    "durability": 80,
+    "level": 31,
+    "maxQuality": 1670,
     "name": {
       "de": "Krokosalat",
       "en": "Alligator Salad",
-      "ja": "\u30a2\u30ea\u30b2\u30fc\u30bf\u30fc\u30b5\u30e9\u30c0",
-      "fr": "Salade alligator"
-    },
-    "level": 31,
-    "difficulty": 106,
-    "durability": 80,
-    "maxQuality": 1670
+      "fr": "Salade alligator",
+      "ja": "\u30a2\u30ea\u30b2\u30fc\u30bf\u30fc\u30b5\u30e9\u30c0"
+    }
   },
   {
+    "difficulty": 106,
+    "durability": 80,
+    "level": 31,
+    "maxQuality": 1670,
     "name": {
       "de": "Maisbrot",
       "en": "Cornbread",
-      "ja": "\u30b3\u30fc\u30f3\u30d6\u30ec\u30c3\u30c9",
-      "fr": "Pain de ma\u00efs"
-    },
-    "level": 31,
-    "difficulty": 106,
-    "durability": 80,
-    "maxQuality": 1670
+      "fr": "Pain de ma\u00efs",
+      "ja": "\u30b3\u30fc\u30f3\u30d6\u30ec\u30c3\u30c9"
+    }
   },
   {
+    "difficulty": 53,
+    "durability": 40,
+    "level": 31,
+    "maxQuality": 1670,
     "name": {
-      "de": "R\u00e4ucher-Raptor",
-      "en": "Smoked Raptor",
-      "ja": "\u30b9\u30e2\u30fc\u30af\u30c9\u30e9\u30d7\u30c8\u30eb",
-      "fr": "Tranche de raptor fum\u00e9"
-    },
-    "level": 32,
+      "de": "Balsamessig",
+      "en": "Dark Vinegar",
+      "fr": "Vinaigre balsamique",
+      "ja": "\u30d0\u30eb\u30b5\u30df\u30b3\u30d3\u30cd\u30ac\u30fc"
+    }
+  },
+  {
     "difficulty": 110,
     "durability": 80,
-    "maxQuality": 1697
-  },
-  {
+    "level": 32,
+    "maxQuality": 1697,
     "name": {
       "de": "Pilz-Miqo'Kebab",
       "en": "Forest Miq'abob",
-      "ja": "\u30df\u30b3\u30c3\u30c6\u98a8\u68ee\u306e\u5e78\u4e32\u713c",
-      "fr": "Miqo-brochette foresti\u00e8re"
-    },
-    "level": 32,
+      "fr": "Miqo-brochette foresti\u00e8re",
+      "ja": "\u30df\u30b3\u30c3\u30c6\u98a8\u68ee\u306e\u5e78\u4e32\u713c"
+    }
+  },
+  {
     "difficulty": 110,
     "durability": 80,
-    "maxQuality": 1697
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "de": "R\u00e4ucher-Raptor",
+      "en": "Smoked Raptor",
+      "fr": "Tranche de raptor fum\u00e9",
+      "ja": "\u30b9\u30e2\u30fc\u30af\u30c9\u30e9\u30d7\u30c8\u30eb"
+    }
   },
   {
-    "name": {
-      "de": "Thunfisch-Miqo'Kebab",
-      "en": "Tuna Miq'abob",
-      "ja": "\u30df\u30b3\u30c3\u30c6\u98a8\u6d77\u306e\u5e78\u4e32\u713c",
-      "fr": "Miqo-brochette de thon"
-    },
-    "level": 33,
     "difficulty": 111,
     "durability": 80,
-    "maxQuality": 1757
-  },
-  {
+    "level": 33,
+    "maxQuality": 1757,
     "name": {
       "de": "Blutbeertorte",
       "en": "Blood Currant Tart",
-      "ja": "\u30d6\u30e9\u30c3\u30c9\u30ab\u30fc\u30e9\u30f3\u30c8\u30bf\u30eb\u30c8",
-      "fr": "Tarte aux groseilles sanguines"
-    },
-    "level": 33,
+      "fr": "Tarte aux groseilles sanguines",
+      "ja": "\u30d6\u30e9\u30c3\u30c9\u30ab\u30fc\u30e9\u30f3\u30c8\u30bf\u30eb\u30c8"
+    }
+  },
+  {
     "difficulty": 111,
     "durability": 80,
-    "maxQuality": 1757
+    "level": 33,
+    "maxQuality": 1757,
+    "name": {
+      "de": "Thunfisch-Miqo'Kebab",
+      "en": "Tuna Miq'abob",
+      "fr": "Miqo-brochette de thon",
+      "ja": "\u30df\u30b3\u30c3\u30c6\u98a8\u6d77\u306e\u5e78\u4e32\u713c"
+    }
   },
   {
-    "name": {
-      "de": "R\u00fchrei",
-      "en": "Scrambled Eggs",
-      "ja": "\u30b9\u30af\u30e9\u30f3\u30d6\u30eb\u30a8\u30c3\u30b0",
-      "fr": "\u0152uf brouill\u00e9"
-    },
-    "level": 34,
     "difficulty": 115,
     "durability": 80,
-    "maxQuality": 1811
-  },
-  {
+    "level": 34,
+    "maxQuality": 1811,
     "name": {
       "de": "Eichelkeks",
       "en": "Acorn Cookie",
-      "ja": "\u30a8\u30fc\u30b3\u30f3\u30af\u30c3\u30ad\u30fc",
-      "fr": "Biscuit aux glands"
-    },
-    "level": 34,
+      "fr": "Biscuit aux glands",
+      "ja": "\u30a8\u30fc\u30b3\u30f3\u30af\u30c3\u30ad\u30fc"
+    }
+  },
+  {
     "difficulty": 115,
     "durability": 80,
-    "maxQuality": 1811
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "de": "R\u00fchrei",
+      "en": "Scrambled Eggs",
+      "fr": "\u0152uf brouill\u00e9",
+      "ja": "\u30b9\u30af\u30e9\u30f3\u30d6\u30eb\u30a8\u30c3\u30b0"
+    }
   },
   {
-    "name": {
-      "de": "Heringball",
-      "en": "Herring Ball",
-      "ja": "\u30d8\u30ea\u30f3\u30b0\u30dc\u30fc\u30eb",
-      "fr": "Boulette de hareng"
-    },
-    "level": 35,
     "difficulty": 123,
     "durability": 80,
-    "maxQuality": 1853
-  },
-  {
+    "level": 35,
+    "maxQuality": 1853,
     "name": {
       "de": "Cawl Cennin",
       "en": "Cawl Cennin",
-      "ja": "\u30ab\u30a6\u30eb\u30b1\u30cb\u30f3",
-      "fr": "Bouillon de poireaux"
-    },
-    "level": 35,
-    "difficulty": 123,
-    "durability": 80,
-    "maxQuality": 1853
+      "fr": "Bouillon de poireaux",
+      "ja": "\u30ab\u30a6\u30eb\u30b1\u30cb\u30f3"
+    }
   },
   {
+    "difficulty": 393,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 926,
     "name": {
       "de": "Waldtee-Set",
       "en": "Glade Tea Set",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8",
-      "fr": "Go\u00fbter sombrelin\u00e7ois"
-    },
-    "level": 35,
-    "difficulty": 393,
-    "durability": 80,
-    "maxQuality": 926
+      "fr": "Go\u00fbter sombrelin\u00e7ois",
+      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+    }
   },
   {
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Heringball",
+      "en": "Herring Ball",
+      "fr": "Boulette de hareng",
+      "ja": "\u30d8\u30ea\u30f3\u30b0\u30dc\u30fc\u30eb"
+    }
+  },
+  {
+    "difficulty": 62,
+    "durability": 40,
+    "level": 36,
+    "maxQuality": 1882,
     "name": {
       "de": "Frischk\u00e4se",
       "en": "Cream Cheese",
-      "ja": "\u30af\u30ea\u30fc\u30e0\u30c1\u30fc\u30ba",
-      "fr": "Fromage \u00e0 la cr\u00e8me"
-    },
-    "level": 36,
-    "difficulty": 62,
-    "durability": 40,
-    "maxQuality": 1882
+      "fr": "Fromage \u00e0 la cr\u00e8me",
+      "ja": "\u30af\u30ea\u30fc\u30e0\u30c1\u30fc\u30ba"
+    }
   },
   {
+    "difficulty": 124,
+    "durability": 80,
+    "level": 36,
+    "maxQuality": 1882,
     "name": {
       "de": "Sauerkraut",
       "en": "Sauerkraut",
-      "ja": "\u30b6\u30ef\u30fc\u30af\u30e9\u30a6\u30c8",
-      "fr": "Choucroute"
-    },
-    "level": 36,
-    "difficulty": 124,
-    "durability": 80,
-    "maxQuality": 1882
+      "fr": "Choucroute",
+      "ja": "\u30b6\u30ef\u30fc\u30af\u30e9\u30a6\u30c8"
+    }
   },
   {
-    "name": {
-      "de": "Ratatouille",
-      "en": "Ratatouille",
-      "ja": "\u30e9\u30bf\u30c8\u30a5\u30a4\u30e6",
-      "fr": "Ratatouille"
-    },
-    "level": 37,
     "difficulty": 128,
     "durability": 80,
-    "maxQuality": 1905
-  },
-  {
+    "level": 37,
+    "maxQuality": 1905,
     "name": {
       "de": "K\u00e4seauflauf",
       "en": "Cheese Souffle",
-      "ja": "\u30c1\u30fc\u30ba\u30b9\u30d5\u30ec",
-      "fr": "Souffl\u00e9 au fromage"
-    },
-    "level": 37,
+      "fr": "Souffl\u00e9 au fromage",
+      "ja": "\u30c1\u30fc\u30ba\u30b9\u30d5\u30ec"
+    }
+  },
+  {
     "difficulty": 128,
     "durability": 80,
-    "maxQuality": 1905
+    "level": 37,
+    "maxQuality": 1905,
+    "name": {
+      "de": "Ratatouille",
+      "en": "Ratatouille",
+      "fr": "Ratatouille",
+      "ja": "\u30e9\u30bf\u30c8\u30a5\u30a4\u30e6"
+    }
   },
   {
-    "name": {
-      "de": "Karpfen Rot",
-      "en": "Mugwort Carp",
-      "ja": "\u30ab\u30fc\u30d7&\u30de\u30b0\u30ef\u30fc\u30c8",
-      "fr": "Carpe \u00e0 l'armoise"
-    },
-    "level": 38,
     "difficulty": 129,
     "durability": 80,
-    "maxQuality": 1961
-  },
-  {
+    "level": 38,
+    "maxQuality": 1961,
     "name": {
       "de": "Ritterbrot",
       "en": "Knight's Bread",
-      "ja": "\u30ca\u30a4\u30c4\u30d6\u30ec\u30c3\u30c9",
-      "fr": "Pain de chevalier"
-    },
-    "level": 38,
+      "fr": "Pain de chevalier",
+      "ja": "\u30ca\u30a4\u30c4\u30d6\u30ec\u30c3\u30c9"
+    }
+  },
+  {
     "difficulty": 129,
     "durability": 80,
-    "maxQuality": 1961
+    "level": 38,
+    "maxQuality": 1961,
+    "name": {
+      "de": "Karpfen Rot",
+      "en": "Mugwort Carp",
+      "fr": "Carpe \u00e0 l'armoise",
+      "ja": "\u30ab\u30fc\u30d7&\u30de\u30b0\u30ef\u30fc\u30c8"
+    }
   },
   {
-    "name": {
-      "de": "Gef\u00fcllte Artischocke",
-      "en": "Stuffed Artichoke",
-      "ja": "\u30b9\u30bf\u30c3\u30d5\u30c9\u30a2\u30fc\u30c6\u30a3\u30c1\u30e7\u30fc\u30af",
-      "fr": "Artichaut farci"
-    },
-    "level": 39,
     "difficulty": 137,
     "durability": 80,
-    "maxQuality": 2026
-  },
-  {
+    "level": 39,
+    "maxQuality": 2026,
     "name": {
       "de": "Raptoren-Gulasch",
       "en": "Raptor Stew",
-      "ja": "\u30e9\u30d7\u30c8\u30eb\u30b7\u30c1\u30e5\u30fc",
-      "fr": "Rago\u00fbt de raptor"
-    },
-    "level": 39,
+      "fr": "Rago\u00fbt de raptor",
+      "ja": "\u30e9\u30d7\u30c8\u30eb\u30b7\u30c1\u30e5\u30fc"
+    }
+  },
+  {
     "difficulty": 137,
     "durability": 80,
-    "maxQuality": 2026
+    "level": 39,
+    "maxQuality": 2026,
+    "name": {
+      "de": "Gef\u00fcllte Artischocke",
+      "en": "Stuffed Artichoke",
+      "fr": "Artichaut farci",
+      "ja": "\u30b9\u30bf\u30c3\u30d5\u30c9\u30a2\u30fc\u30c6\u30a3\u30c1\u30e7\u30fc\u30af"
+    }
   },
   {
-    "name": {
-      "de": "Gegrillter Regenrufer",
-      "en": "Grilled Raincaller",
-      "ja": "\u96e8\u4e5e\u9b5a\u306e\u30b0\u30ea\u30eb",
-      "fr": "Grillade de cherche-pluie"
-    },
-    "level": 40,
     "difficulty": 138,
     "durability": 80,
-    "maxQuality": 2050
-  },
-  {
-    "name": {
-      "de": "Fischgeb\u00e4ck",
-      "en": "Pastry Fish",
-      "ja": "\u30da\u30b9\u30c8\u30ea\u30fc\u30d5\u30a3\u30c3\u30b7\u30e5",
-      "fr": "P\u00e2tisserie poisson"
-    },
     "level": 40,
-    "difficulty": 138,
-    "durability": 80,
-    "maxQuality": 2050
-  },
-  {
+    "maxQuality": 2050,
     "name": {
       "de": "Apfelsaft",
       "en": "Apple Juice",
-      "ja": "\u30a2\u30c3\u30d7\u30eb\u30b8\u30e5\u30fc\u30b9",
-      "fr": "Jus de pomme"
-    },
-    "level": 40,
-    "difficulty": 138,
-    "durability": 80,
-    "maxQuality": 2050
+      "fr": "Jus de pomme",
+      "ja": "\u30a2\u30c3\u30d7\u30eb\u30b8\u30e5\u30fc\u30b9"
+    }
   },
   {
+    "difficulty": 441,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 1025,
     "name": {
       "de": "Gourmet-Fr\u00fchst\u00fcck",
       "en": "Gourmet Lunch",
-      "ja": "\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8",
-      "fr": "Petit d\u00e9jeuner complet"
-    },
-    "level": 40,
-    "difficulty": 441,
-    "durability": 80,
-    "maxQuality": 1025
+      "fr": "Petit d\u00e9jeuner complet",
+      "ja": "\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8"
+    }
   },
   {
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Gegrillter Regenrufer",
+      "en": "Grilled Raincaller",
+      "fr": "Grillade de cherche-pluie",
+      "ja": "\u96e8\u4e5e\u9b5a\u306e\u30b0\u30ea\u30eb"
+    }
+  },
+  {
+    "difficulty": 138,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "de": "Fischgeb\u00e4ck",
+      "en": "Pastry Fish",
+      "fr": "P\u00e2tisserie poisson",
+      "ja": "\u30da\u30b9\u30c8\u30ea\u30fc\u30d5\u30a3\u30c3\u30b7\u30e5"
+    }
+  },
+  {
+    "difficulty": 143,
+    "durability": 80,
+    "level": 41,
+    "maxQuality": 2109,
     "name": {
       "de": "Trockenfleisch",
       "en": "Jerked Beef",
-      "ja": "\u30d3\u30fc\u30d5\u30b8\u30e3\u30fc\u30ad\u30fc",
-      "fr": "Tranche de buffle s\u00e9ch\u00e9"
-    },
-    "level": 41,
-    "difficulty": 143,
-    "durability": 80,
-    "maxQuality": 2109
+      "fr": "Tranche de buffle s\u00e9ch\u00e9",
+      "ja": "\u30d3\u30fc\u30d5\u30b8\u30e3\u30fc\u30ad\u30fc"
+    }
   },
   {
+    "difficulty": 144,
+    "durability": 80,
+    "level": 42,
+    "maxQuality": 2147,
     "name": {
       "de": "Dorsch im Schlafrock",
       "en": "Salt Cod Puffs",
-      "ja": "\u30bd\u30eb\u30c8\u30b3\u30c3\u30c9\u30d1\u30d5",
-      "fr": "Choux \u00e0 la morue sal\u00e9e"
-    },
-    "level": 42,
-    "difficulty": 144,
+      "fr": "Choux \u00e0 la morue sal\u00e9e",
+      "ja": "\u30bd\u30eb\u30c8\u30b3\u30c3\u30c9\u30d1\u30d5"
+    }
+  },
+  {
+    "difficulty": 155,
     "durability": 80,
-    "maxQuality": 2147
-  },
-  {
-    "name": {
-      "de": "Rolanbeeren-K\u00e4se",
-      "en": "Rolanberry Cheese",
-      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30c1\u30fc\u30ba",
-      "fr": "Fromage sauce rolanberry"
-    },
     "level": 43,
-    "difficulty": 77,
-    "durability": 40,
-    "maxQuality": 2251
-  },
-  {
+    "maxQuality": 2251,
     "name": {
       "de": "Fischsuppe",
       "en": "Fish Soup",
-      "ja": "\u30d5\u30a3\u30c3\u30b7\u30e5\u30b9\u30fc\u30d7",
-      "fr": "Soupe de poisson"
-    },
-    "level": 43,
-    "difficulty": 155,
-    "durability": 80,
-    "maxQuality": 2251
+      "fr": "Soupe de poisson",
+      "ja": "\u30d5\u30a3\u30c3\u30b7\u30e5\u30b9\u30fc\u30d7"
+    }
   },
   {
+    "difficulty": 77,
+    "durability": 40,
+    "level": 43,
+    "maxQuality": 2251,
     "name": {
-      "de": "Dzemael-Gratin",
-      "en": "Dzemael Gratin",
-      "ja": "\u30bc\u30fc\u30e1\u30eb\u5bb6\u98a8\u30b0\u30e9\u30bf\u30f3",
-      "fr": "Gratin Dzemael"
-    },
-    "level": 44,
+      "de": "Rolanbeeren-K\u00e4se",
+      "en": "Rolanberry Cheese",
+      "fr": "Fromage sauce rolanberry",
+      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30c1\u30fc\u30ba"
+    }
+  },
+  {
     "difficulty": 156,
     "durability": 80,
-    "maxQuality": 2277
-  },
-  {
+    "level": 44,
+    "maxQuality": 2277,
     "name": {
       "de": "Knofi-Pilzpfanne",
       "en": "Button Mushroom Saute",
-      "ja": "\u30ad\u30ce\u30b3\u306e\u30ac\u30fc\u30ea\u30c3\u30af\u30bd\u30c6\u30fc",
-      "fr": "Saut\u00e9 de champignons \u00e0 l'ail"
-    },
-    "level": 44,
+      "fr": "Saut\u00e9 de champignons \u00e0 l'ail",
+      "ja": "\u30ad\u30ce\u30b3\u306e\u30ac\u30fc\u30ea\u30c3\u30af\u30bd\u30c6\u30fc"
+    }
+  },
+  {
     "difficulty": 156,
     "durability": 80,
-    "maxQuality": 2277
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "de": "Dzemael-Gratin",
+      "en": "Dzemael Gratin",
+      "fr": "Gratin Dzemael",
+      "ja": "\u30bc\u30fc\u30e1\u30eb\u5bb6\u98a8\u30b0\u30e9\u30bf\u30f3"
+    }
   },
   {
-    "name": {
-      "de": "Kohlroulade",
-      "en": "Stuffed Cabbage",
-      "ja": "\u30d1\u30a4\u30af\u306e\u30ad\u30e3\u30d9\u30c4\u5dfb\u304d",
-      "fr": "Choux farcis"
-    },
-    "level": 45,
     "difficulty": 158,
     "durability": 80,
-    "maxQuality": 2309
-  },
-  {
+    "level": 45,
+    "maxQuality": 2309,
     "name": {
       "de": "La Noscea-Toast",
       "en": "La Noscean Toast",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30c8\u30fc\u30b9\u30c8",
-      "fr": "Toast nosc\u00e9en"
-    },
-    "level": 45,
-    "difficulty": 158,
-    "durability": 80,
-    "maxQuality": 2309
+      "fr": "Toast nosc\u00e9en",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30c8\u30fc\u30b9\u30c8"
+    }
   },
   {
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
     "name": {
       "de": "Rolanbeeren-Lassi",
       "en": "Rolanberry Lassi",
-      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30e9\u30c3\u30b7\u30fc",
-      "fr": "Lassi \u00e0 la rolanberry"
-    },
-    "level": 45,
-    "difficulty": 158,
-    "durability": 80,
-    "maxQuality": 2309
+      "fr": "Lassi \u00e0 la rolanberry",
+      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30e9\u30c3\u30b7\u30fc"
+    }
   },
   {
+    "difficulty": 505,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 1154,
     "name": {
       "de": "Sternenlichtkuchen",
       "en": "Starlight Cake",
-      "ja": "\u30b9\u30bf\u30fc\u30e9\u30a4\u30c8\u30fb\u30ec\u30a4\u30e4\u30fc\u30b1\u30fc\u30ad",
-      "fr": "G\u00e2teau de la f\u00eate des \u00e9toiles"
-    },
-    "level": 45,
-    "difficulty": 505,
-    "durability": 80,
-    "maxQuality": 1154
+      "fr": "G\u00e2teau de la f\u00eate des \u00e9toiles",
+      "ja": "\u30b9\u30bf\u30fc\u30e9\u30a4\u30c8\u30fb\u30ec\u30a4\u30e4\u30fc\u30b1\u30fc\u30ad"
+    }
   },
   {
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Kohlroulade",
+      "en": "Stuffed Cabbage",
+      "fr": "Choux farcis",
+      "ja": "\u30d1\u30a4\u30af\u306e\u30ad\u30e3\u30d9\u30c4\u5dfb\u304d"
+    }
+  },
+  {
+    "difficulty": 159,
+    "durability": 80,
+    "level": 46,
+    "maxQuality": 2372,
     "name": {
       "de": "Verteufelte Eier",
       "en": "Deviled Eggs",
-      "ja": "\u30c7\u30d3\u30eb\u30c9\u30a8\u30c3\u30b0\u30ba",
-      "fr": "\u0152ufs mimosa"
-    },
-    "level": 46,
-    "difficulty": 159,
-    "durability": 80,
-    "maxQuality": 2372
+      "fr": "\u0152ufs mimosa",
+      "ja": "\u30c7\u30d3\u30eb\u30c9\u30a8\u30c3\u30b0\u30ba"
+    }
   },
   {
+    "difficulty": 167,
+    "durability": 80,
+    "level": 47,
+    "maxQuality": 2421,
     "name": {
       "de": "Gl\u00fchtee",
       "en": "Mulled Tea",
-      "ja": "\u30de\u30eb\u30c9\u30c6\u30a3\u30fc",
-      "fr": "Th\u00e9 \u00e9pic\u00e9"
-    },
-    "level": 47,
-    "difficulty": 167,
-    "durability": 80,
-    "maxQuality": 2421
+      "fr": "Th\u00e9 \u00e9pic\u00e9",
+      "ja": "\u30de\u30eb\u30c9\u30c6\u30a3\u30fc"
+    }
   },
   {
+    "difficulty": 172,
+    "durability": 80,
+    "level": 48,
+    "maxQuality": 2524,
     "name": {
       "de": "Gekr\u00f6nter Kuchen",
       "en": "Crowned Pie",
-      "ja": "\u30ac\u30ec\u30c3\u30c8\u30fb\u30c7\u30fb\u30ed\u30ef",
-      "fr": "Galette des rois"
-    },
-    "level": 48,
-    "difficulty": 172,
-    "durability": 80,
-    "maxQuality": 2524
+      "fr": "Galette des rois",
+      "ja": "\u30ac\u30ec\u30c3\u30c8\u30fb\u30c7\u30fb\u30ed\u30ef"
+    }
   },
   {
+    "difficulty": 174,
+    "durability": 80,
+    "level": 49,
+    "maxQuality": 2551,
     "name": {
       "de": "Pilz-Kohlrouladen",
       "en": "Buttons in a Blanket",
-      "ja": "\u30ad\u30ce\u30b3\u306e\u30ad\u30e3\u30d9\u30c4\u5dfb\u304d",
-      "fr": "Choux farcis aux champignons"
-    },
-    "level": 49,
-    "difficulty": 174,
-    "durability": 80,
-    "maxQuality": 2551
+      "fr": "Choux farcis aux champignons",
+      "ja": "\u30ad\u30ce\u30b3\u306e\u30ad\u30e3\u30d9\u30c4\u5dfb\u304d"
+    }
   },
   {
-    "name": {
-      "de": "Molchsteak",
-      "en": "Eft Steak",
-      "ja": "\u30a8\u30d5\u30c8\u30b9\u30c6\u30fc\u30ad",
-      "fr": "Steak de jeune triton"
-    },
+    "difficulty": 595,
+    "durability": 80,
     "level": 50,
-    "difficulty": 186,
-    "durability": 80,
-    "maxQuality": 2641
-  },
-  {
-    "name": {
-      "de": "Dolchfisch-Suppe",
-      "en": "Dagger Soup",
-      "ja": "\u30c0\u30ac\u30fc\u30b9\u30fc\u30d7",
-      "fr": "Soupe de dagues"
-    },
-    "level": 50,
-    "difficulty": 186,
-    "durability": 80,
-    "maxQuality": 2641
-  },
-  {
-    "name": {
-      "de": "Gulasch",
-      "en": "Beef Stew",
-      "ja": "\u30d3\u30fc\u30d5\u30b7\u30c1\u30e5\u30fc",
-      "fr": "Rago\u00fbt de buffle"
-    },
-    "level": 50,
-    "difficulty": 186,
-    "durability": 80,
-    "maxQuality": 2641
-  },
-  {
-    "name": {
-      "de": "Fallensteller-Quiche",
-      "en": "Trapper's Quiche",
-      "ja": "\u731f\u5e2b\u98a8\u30a8\u30d5\u30c8\u30ad\u30c3\u30b7\u30e5",
-      "fr": "Quiche au triton fa\u00e7on chasseur"
-    },
-    "level": 50,
-    "difficulty": 186,
-    "durability": 80,
-    "maxQuality": 2641
-  },
-  {
-    "name": {
-      "de": "Gebratener Mahi-Mahi",
-      "en": "Pan-fried Mahi-Mahi",
-      "ja": "\u30de\u30d2\u30de\u30d2\u306e\u63da\u3052\u713c\u304d",
-      "fr": "Mahi-mahi frit"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
-  },
-  {
-    "name": {
-      "de": "Karnivorenblattsalat",
-      "en": "Landtrap Salad",
-      "ja": "\u30e9\u30f3\u30c9\u30c8\u30e9\u30c3\u30d7\u30b5\u30e9\u30c0",
-      "fr": "Salade fr\u00e9missante"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
-  },
-  {
-    "name": {
-      "de": "Tomatenpastete",
-      "en": "Tomato Pie",
-      "ja": "\u30c8\u30de\u30c8\u30d1\u30a4",
-      "fr": "Tarte \u00e0 la tomate"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
-  },
-  {
-    "name": {
-      "de": "Bouillabaisse",
-      "en": "Bouillabaisse",
-      "ja": "\u30d6\u30a4\u30e4\u30d9\u30fc\u30b9",
-      "fr": "Bouillabaisse"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
-  },
-  {
-    "name": {
-      "de": "Rolanbeeren-K\u00e4sekuchen",
-      "en": "Rolanberry Cheesecake",
-      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30c1\u30fc\u30ba\u30b1\u30fc\u30ad",
-      "fr": "Cheesecake \u00e0 la rolanberry"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
-  },
-  {
-    "name": {
-      "de": "Coeurlfleisch",
-      "en": "Sauteed Coeurl",
-      "ja": "\u30af\u30a1\u30fc\u30eb\u306e\u30ef\u30a4\u30f3\u30bd\u30c6\u30fc",
-      "fr": "Coeurl au vin"
-    },
-    "level": 70,
-    "difficulty": 233,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Apkallu-Omelett",
-      "en": "Apkallu Omelette",
-      "ja": "\u30a2\u30d7\u30ab\u30eb\u30aa\u30e0\u30ec\u30c4",
-      "fr": "Omelette aux \u0153ufs d'apkallu"
-    },
-    "level": 70,
-    "difficulty": 233,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Lavakr\u00f6tenschenkel",
-      "en": "Lava Toad Legs",
-      "ja": "\u30e9\u30fc\u30f4\u30a1\u30c8\u30fc\u30c9\u30ec\u30c3\u30b0\u30ba",
-      "fr": "Cuisses de crapaud lavique"
-    },
-    "level": 70,
-    "difficulty": 233,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Risotto mit schwarzen Tr\u00fcffeln",
-      "en": "Black Truffle Risotto",
-      "ja": "\u30d6\u30e9\u30c3\u30af\u30c8\u30ea\u30e5\u30d5\u30ea\u30be\u30c3\u30c8",
-      "fr": "Risotto aux truffes noires"
-    },
-    "level": 70,
-    "difficulty": 233,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Eiersandwich \u00e0 la Bismarck",
-      "en": "Finger Sandwich",
-      "ja": "\u30d3\u30b9\u30de\u30eb\u30af\u98a8\u30a8\u30c3\u30b0\u30b5\u30f3\u30c9",
-      "fr": "Sandwich \u00e0 la Bismarck"
-    },
-    "level": 70,
-    "difficulty": 233,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Spinat-Quiche",
-      "en": "Spinach Quiche",
-      "ja": "\u30b9\u30d4\u30ca\u30c3\u30c1\u30ad\u30c3\u30b7\u30e5",
-      "fr": "Quiche aux \u00e9pinards"
-    },
-    "level": 70,
-    "difficulty": 233,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Kalte Toffelsuppe",
-      "en": "Chilled Popoto Soup",
-      "ja": "\u51b7\u88fd\u30dd\u30dd\u30c8\u30b9\u30fc\u30d7",
-      "fr": "Soupe de popotos glac\u00e9e"
-    },
-    "level": 70,
-    "difficulty": 233,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Ananas-Ponzenkuchen",
-      "en": "Pineapple Ponzecake",
-      "ja": "\u30d1\u30a4\u30ca\u30c3\u30d7\u30eb\u30b1\u30fc\u30ad",
-      "fr": "Quatre-quarts \u00e0 l'ananas"
-    },
-    "level": 70,
-    "difficulty": 233,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Ananassaft",
-      "en": "Pineapple Juice",
-      "ja": "\u30d1\u30a4\u30f3\u30b8\u30e5\u30fc\u30b9",
-      "fr": "Jus d'ananas"
-    },
-    "level": 70,
-    "difficulty": 233,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Futter: Geschwindigkeit II",
-      "en": "Grade 2 Feed - Speed Blend",
-      "ja": "\u30b9\u30d4\u30fc\u30c9\u30d5\u30a9\u30c0\u30fcG2",
-      "fr": "Fourrage sp\u00e9cial vitesse II"
-    },
-    "level": 70,
-    "difficulty": 116,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Futter: Antritt II",
-      "en": "Grade 2 Feed - Acceleration Blend",
-      "ja": "\u30a2\u30af\u30bb\u30eb\u30d5\u30a9\u30c0\u30fcG2",
-      "fr": "Fourrage sp\u00e9cial acc\u00e9l\u00e9ration II"
-    },
-    "level": 70,
-    "difficulty": 116,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Futter: Puste II",
-      "en": "Grade 2 Feed - Endurance Blend",
-      "ja": "\u30a8\u30f3\u30c7\u30e5\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG2",
-      "fr": "Fourrage sp\u00e9cial vitalit\u00e9 II"
-    },
-    "level": 70,
-    "difficulty": 116,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Futter: Ausdauer II",
-      "en": "Grade 2 Feed - Stamina Blend",
-      "ja": "\u30b9\u30bf\u30df\u30ca\u30d5\u30a9\u30c0\u30fcG2",
-      "fr": "Fourrage sp\u00e9cial endurance II"
-    },
-    "level": 70,
-    "difficulty": 116,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
-    "name": {
-      "de": "Futter: K\u00f6pfchen II",
-      "en": "Grade 2 Feed - Balance Blend",
-      "ja": "\u30d0\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG2",
-      "fr": "Fourrage sp\u00e9cial agilit\u00e9 II"
-    },
-    "level": 70,
-    "difficulty": 116,
-    "durability": 80,
-    "maxQuality": 2921
-  },
-  {
+    "maxQuality": 1320,
     "name": {
       "de": "Obstteller",
       "en": "Assorted Fruit",
-      "ja": "\u30d5\u30eb\u30fc\u30c4\u30a2\u30bd\u30fc\u30c8",
-      "fr": "Panier de fruits"
-    },
+      "fr": "Panier de fruits",
+      "ja": "\u30d5\u30eb\u30fc\u30c4\u30a2\u30bd\u30fc\u30c8"
+    }
+  },
+  {
+    "difficulty": 186,
+    "durability": 80,
     "level": 50,
-    "difficulty": 595,
-    "durability": 80,
-    "maxQuality": 1320
+    "maxQuality": 2641,
+    "name": {
+      "de": "Gulasch",
+      "en": "Beef Stew",
+      "fr": "Rago\u00fbt de buffle",
+      "ja": "\u30d3\u30fc\u30d5\u30b7\u30c1\u30e5\u30fc"
+    }
   },
   {
-    "name": {
-      "de": "Oasen-Fr\u00fchst\u00fccks-Set",
-      "en": "Oasis Breakfast",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8",
-      "fr": "Petit d\u00e9jeuner thanalanais"
-    },
-    "level": 55,
-    "difficulty": 624,
+    "difficulty": 186,
     "durability": 80,
-    "maxQuality": 1323
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "Dolchfisch-Suppe",
+      "en": "Dagger Soup",
+      "fr": "Soupe de dagues",
+      "ja": "\u30c0\u30ac\u30fc\u30b9\u30fc\u30d7"
+    }
   },
   {
-    "name": {
-      "de": "Gr\u00fcntee-Set",
-      "en": "Green Tea Set",
-      "ja": "\u30b0\u30ea\u30fc\u30f3\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8",
-      "fr": "Set de th\u00e9 vert"
-    },
-    "level": 55,
-    "difficulty": 624,
+    "difficulty": 186,
     "durability": 80,
-    "maxQuality": 1323
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "Molchsteak",
+      "en": "Eft Steak",
+      "fr": "Steak de jeune triton",
+      "ja": "\u30a8\u30d5\u30c8\u30b9\u30c6\u30fc\u30ad"
+    }
   },
   {
-    "name": {
-      "de": "Gourmet-Abendessen",
-      "en": "Gourmet Supper",
-      "ja": "\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8",
-      "fr": "D\u00eener de gourmet"
-    },
-    "level": 70,
-    "difficulty": 745,
+    "difficulty": 186,
     "durability": 80,
-    "maxQuality": 1460
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "Fallensteller-Quiche",
+      "en": "Trapper's Quiche",
+      "fr": "Quiche au triton fa\u00e7on chasseur",
+      "ja": "\u731f\u5e2b\u98a8\u30a8\u30d5\u30c8\u30ad\u30c3\u30b7\u30e5"
+    }
   },
   {
-    "name": {
-      "de": "Nachmittagstee-Set",
-      "en": "Afternoon Tea Set",
-      "ja": "\u30a2\u30d5\u30bf\u30cc\u30fc\u30f3\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8",
-      "fr": "Go\u00fbter de gourmand"
-    },
-    "level": 70,
-    "difficulty": 745,
-    "durability": 80,
-    "maxQuality": 1460
-  },
-  {
-    "name": {
-      "de": "Valentionskuchen",
-      "en": "Valentione's Cake",
-      "ja": "\u30f4\u30a1\u30ec\u30f3\u30c6\u30a3\u30aa\u30f3\u30b1\u30fc\u30ad",
-      "fr": "G\u00e2teau des Valention"
-    },
-    "level": 90,
-    "difficulty": 1424,
-    "durability": 80,
-    "maxQuality": 2490
-  },
-  {
-    "name": {
-      "de": "Roter Drops",
-      "en": "Red Drop",
-      "ja": "\u30ec\u30c3\u30c9\u30c9\u30ed\u30c3\u30d7",
-      "fr": "Bonbon rouge"
-    },
-    "level": 55,
     "difficulty": 195,
     "durability": 80,
-    "maxQuality": 2646
-  },
-  {
-    "name": {
-      "de": "Blauer Drops",
-      "en": "Blue Drop",
-      "ja": "\u30d6\u30eb\u30fc\u30c9\u30ed\u30c3\u30d7",
-      "fr": "Bonbon bleu"
-    },
     "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
-  },
-  {
-    "name": {
-      "de": "Transparenter Drops",
-      "en": "Clear Drop",
-      "ja": "\u30af\u30ea\u30a2\u30c9\u30ed\u30c3\u30d7",
-      "fr": "Bonbon transparent"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
-  },
-  {
-    "name": {
-      "de": "Violetter Drops",
-      "en": "Purple Drop",
-      "ja": "\u30d1\u30fc\u30d7\u30eb\u30c9\u30ed\u30c3\u30d7",
-      "fr": "Bonbon violet"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
-  },
-  {
-    "name": {
-      "de": "Wei\u00dfer Drops",
-      "en": "White Drop",
-      "ja": "\u30db\u30ef\u30a4\u30c8\u30c9\u30ed\u30c3\u30d7",
-      "fr": "Bonbon blanc"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
-  },
-  {
+    "maxQuality": 2646,
     "name": {
       "de": "Schwarzer Drops",
       "en": "Black Drop",
-      "ja": "\u30d6\u30e9\u30c3\u30af\u30c9\u30ed\u30c3\u30d7",
-      "fr": "Bonbon noir"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
+      "fr": "Bonbon noir",
+      "ja": "\u30d6\u30e9\u30c3\u30af\u30c9\u30ed\u30c3\u30d7"
+    }
   },
   {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
     "name": {
-      "de": "Gelber Drops",
-      "en": "Yellow Drop",
-      "ja": "\u30a4\u30a8\u30ed\u30fc\u30c9\u30ed\u30c3\u30d7",
-      "fr": "Bonbon jaune"
-    },
-    "level": 55,
-    "difficulty": 195,
-    "durability": 80,
-    "maxQuality": 2646
+      "de": "Blauer Drops",
+      "en": "Blue Drop",
+      "fr": "Bonbon bleu",
+      "ja": "\u30d6\u30eb\u30fc\u30c9\u30ed\u30c3\u30d7"
+    }
   },
   {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Bouillabaisse",
+      "en": "Bouillabaisse",
+      "fr": "Bouillabaisse",
+      "ja": "\u30d6\u30a4\u30e4\u30d9\u30fc\u30b9"
+    }
+  },
+  {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Transparenter Drops",
+      "en": "Clear Drop",
+      "fr": "Bonbon transparent",
+      "ja": "\u30af\u30ea\u30a2\u30c9\u30ed\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
     "name": {
       "de": "Gr\u00fcner Drops",
       "en": "Green Drop",
-      "ja": "\u30b0\u30ea\u30fc\u30f3\u30c9\u30ed\u30c3\u30d7",
-      "fr": "Bonbon vert"
-    },
+      "fr": "Bonbon vert",
+      "ja": "\u30b0\u30ea\u30fc\u30f3\u30c9\u30ed\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 624,
+    "durability": 80,
     "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Gr\u00fcntee-Set",
+      "en": "Green Tea Set",
+      "fr": "Set de th\u00e9 vert",
+      "ja": "\u30b0\u30ea\u30fc\u30f3\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+    }
+  },
+  {
     "difficulty": 195,
     "durability": 80,
-    "maxQuality": 2646
-  },
-  {
+    "level": 55,
+    "maxQuality": 2646,
     "name": {
-      "de": "Tomatenw\u00fcrze",
-      "en": "Spicy Tomato Relish",
-      "ja": "\u30c8\u30de\u30c8\u30b1\u30c1\u30e3\u30c3\u30d7",
-      "fr": "Condiment \u00e9pic\u00e9 \u00e0 la tomate"
-    },
-    "level": 70,
-    "difficulty": 419,
-    "durability": 80,
-    "maxQuality": 5257
+      "de": "Karnivorenblattsalat",
+      "en": "Landtrap Salad",
+      "fr": "Salade fr\u00e9missante",
+      "ja": "\u30e9\u30f3\u30c9\u30c8\u30e9\u30c3\u30d7\u30b5\u30e9\u30c0"
+    }
   },
   {
+    "difficulty": 624,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Oasen-Fr\u00fchst\u00fccks-Set",
+      "en": "Oasis Breakfast",
+      "fr": "Petit d\u00e9jeuner thanalanais",
+      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Gebratener Mahi-Mahi",
+      "en": "Pan-fried Mahi-Mahi",
+      "fr": "Mahi-mahi frit",
+      "ja": "\u30de\u30d2\u30de\u30d2\u306e\u63da\u3052\u713c\u304d"
+    }
+  },
+  {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Violetter Drops",
+      "en": "Purple Drop",
+      "fr": "Bonbon violet",
+      "ja": "\u30d1\u30fc\u30d7\u30eb\u30c9\u30ed\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Roter Drops",
+      "en": "Red Drop",
+      "fr": "Bonbon rouge",
+      "ja": "\u30ec\u30c3\u30c9\u30c9\u30ed\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Rolanbeeren-K\u00e4sekuchen",
+      "en": "Rolanberry Cheesecake",
+      "fr": "Cheesecake \u00e0 la rolanberry",
+      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30c1\u30fc\u30ba\u30b1\u30fc\u30ad"
+    }
+  },
+  {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Tomatenpastete",
+      "en": "Tomato Pie",
+      "fr": "Tarte \u00e0 la tomate",
+      "ja": "\u30c8\u30de\u30c8\u30d1\u30a4"
+    }
+  },
+  {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Wei\u00dfer Drops",
+      "en": "White Drop",
+      "fr": "Bonbon blanc",
+      "ja": "\u30db\u30ef\u30a4\u30c8\u30c9\u30ed\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Gelber Drops",
+      "en": "Yellow Drop",
+      "fr": "Bonbon jaune",
+      "ja": "\u30a4\u30a8\u30ed\u30fc\u30c9\u30ed\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Nachmittagstee-Set",
+      "en": "Afternoon Tea Set",
+      "fr": "Go\u00fbter de gourmand",
+      "ja": "\u30a2\u30d5\u30bf\u30cc\u30fc\u30f3\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
     "name": {
       "de": "Luftschiff-Reparaturkit",
       "en": "Airship Repair Materials",
-      "ja": "\u98db\u7a7a\u8247\u4fee\u7406\u6750",
-      "fr": "Kit de r\u00e9paration d'a\u00e9ronef"
-    },
-    "level": 70,
+      "fr": "Kit de r\u00e9paration d'a\u00e9ronef",
+      "ja": "\u98db\u7a7a\u8247\u4fee\u7406\u6750"
+    }
+  },
+  {
     "difficulty": 233,
     "durability": 80,
-    "maxQuality": 2921
-  },
-  {
+    "level": 70,
+    "maxQuality": 2921,
     "name": {
-      "de": "Fleischtomatenw\u00fcrze",
-      "en": "Rich Tomato Relish",
-      "ja": "\u6fc3\u539a\u30c8\u30de\u30c8\u30b1\u30c1\u30e3\u30c3\u30d7",
-      "fr": "Condiment piquant \u00e0 la tomate"
-    },
-    "level": 90,
-    "difficulty": 801,
-    "durability": 80,
-    "maxQuality": 8964
+      "de": "Apkallu-Omelett",
+      "en": "Apkallu Omelette",
+      "fr": "Omelette aux \u0153ufs d'apkallu",
+      "ja": "\u30a2\u30d7\u30ab\u30eb\u30aa\u30e0\u30ec\u30c4"
+    }
   },
   {
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Risotto mit schwarzen Tr\u00fcffeln",
+      "en": "Black Truffle Risotto",
+      "fr": "Risotto aux truffes noires",
+      "ja": "\u30d6\u30e9\u30c3\u30af\u30c8\u30ea\u30e5\u30d5\u30ea\u30be\u30c3\u30c8"
+    }
+  },
+  {
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Kalte Toffelsuppe",
+      "en": "Chilled Popoto Soup",
+      "fr": "Soupe de popotos glac\u00e9e",
+      "ja": "\u51b7\u88fd\u30dd\u30dd\u30c8\u30b9\u30fc\u30d7"
+    }
+  },
+  {
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Eiersandwich \u00e0 la Bismarck",
+      "en": "Finger Sandwich",
+      "fr": "Sandwich \u00e0 la Bismarck",
+      "ja": "\u30d3\u30b9\u30de\u30eb\u30af\u98a8\u30a8\u30c3\u30b0\u30b5\u30f3\u30c9"
+    }
+  },
+  {
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Gourmet-Abendessen",
+      "en": "Gourmet Supper",
+      "fr": "D\u00eener de gourmet",
+      "ja": "\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: Antritt II",
+      "en": "Grade 2 Feed - Acceleration Blend",
+      "fr": "Fourrage sp\u00e9cial acc\u00e9l\u00e9ration II",
+      "ja": "\u30a2\u30af\u30bb\u30eb\u30d5\u30a9\u30c0\u30fcG2"
+    }
+  },
+  {
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: K\u00f6pfchen II",
+      "en": "Grade 2 Feed - Balance Blend",
+      "fr": "Fourrage sp\u00e9cial agilit\u00e9 II",
+      "ja": "\u30d0\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG2"
+    }
+  },
+  {
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: Puste II",
+      "en": "Grade 2 Feed - Endurance Blend",
+      "fr": "Fourrage sp\u00e9cial vitalit\u00e9 II",
+      "ja": "\u30a8\u30f3\u30c7\u30e5\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG2"
+    }
+  },
+  {
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: Geschwindigkeit II",
+      "en": "Grade 2 Feed - Speed Blend",
+      "fr": "Fourrage sp\u00e9cial vitesse II",
+      "ja": "\u30b9\u30d4\u30fc\u30c9\u30d5\u30a9\u30c0\u30fcG2"
+    }
+  },
+  {
+    "difficulty": 116,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Futter: Ausdauer II",
+      "en": "Grade 2 Feed - Stamina Blend",
+      "fr": "Fourrage sp\u00e9cial endurance II",
+      "ja": "\u30b9\u30bf\u30df\u30ca\u30d5\u30a9\u30c0\u30fcG2"
+    }
+  },
+  {
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Lavakr\u00f6tenschenkel",
+      "en": "Lava Toad Legs",
+      "fr": "Cuisses de crapaud lavique",
+      "ja": "\u30e9\u30fc\u30f4\u30a1\u30c8\u30fc\u30c9\u30ec\u30c3\u30b0\u30ba"
+    }
+  },
+  {
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Ananassaft",
+      "en": "Pineapple Juice",
+      "fr": "Jus d'ananas",
+      "ja": "\u30d1\u30a4\u30f3\u30b8\u30e5\u30fc\u30b9"
+    }
+  },
+  {
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Ananas-Ponzenkuchen",
+      "en": "Pineapple Ponzecake",
+      "fr": "Quatre-quarts \u00e0 l'ananas",
+      "ja": "\u30d1\u30a4\u30ca\u30c3\u30d7\u30eb\u30b1\u30fc\u30ad"
+    }
+  },
+  {
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Coeurlfleisch",
+      "en": "Sauteed Coeurl",
+      "fr": "Coeurl au vin",
+      "ja": "\u30af\u30a1\u30fc\u30eb\u306e\u30ef\u30a4\u30f3\u30bd\u30c6\u30fc"
+    }
+  },
+  {
+    "difficulty": 419,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 5257,
+    "name": {
+      "de": "Tomatenw\u00fcrze",
+      "en": "Spicy Tomato Relish",
+      "fr": "Condiment \u00e9pic\u00e9 \u00e0 la tomate",
+      "ja": "\u30c8\u30de\u30c8\u30b1\u30c1\u30e3\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Spinat-Quiche",
+      "en": "Spinach Quiche",
+      "fr": "Quiche aux \u00e9pinards",
+      "ja": "\u30b9\u30d4\u30ca\u30c3\u30c1\u30ad\u30c3\u30b7\u30e5"
+    }
+  },
+  {
+    "difficulty": 222,
+    "durability": 40,
+    "level": 90,
+    "maxQuality": 4980,
     "name": {
       "de": "Entenbr\u00fche",
       "en": "Duck Broth",
-      "ja": "\u30d5\u30a9\u30f3\u30fb\u30c9\u30fb\u30ab\u30ca\u30fc\u30eb",
-      "fr": "Fond de canard"
-    },
-    "level": 90,
-    "difficulty": 222,
-    "durability": 40,
-    "maxQuality": 4980
+      "fr": "Fond de canard",
+      "ja": "\u30d5\u30a9\u30f3\u30fb\u30c9\u30fb\u30ab\u30ca\u30fc\u30eb"
+    }
   },
   {
-    "name": {
-      "de": "Aalpastete Spezial",
-      "en": "Tailor-made Eel Pie",
-      "ja": "\u79d8\u88fd\u30a4\u30fc\u30eb\u30d1\u30a4",
-      "fr": "Tarte \u00e0 l'anguille tr\u00e8s sp\u00e9ciale"
-    },
-    "level": 90,
     "difficulty": 445,
     "durability": 80,
-    "maxQuality": 4980
-  },
-  {
-    "name": {
-      "de": "R\u00f6stente",
-      "en": "Roast Canard",
-      "ja": "\u30ed\u30fc\u30b9\u30c8\u30ab\u30ca\u30fc\u30eb",
-      "fr": "Canard \u00e0 l'orange"
-    },
     "level": 90,
-    "difficulty": 445,
-    "durability": 80,
-    "maxQuality": 4980
-  },
-  {
-    "name": {
-      "de": "Ged\u00fcnsteter Katfisch",
-      "en": "Steamed Catfish",
-      "ja": "\u30ca\u30de\u30ba\u306e\u30ef\u30a4\u30f3\u84b8",
-      "fr": "Poisson-chat vapeur"
-    },
-    "level": 90,
-    "difficulty": 445,
-    "durability": 80,
-    "maxQuality": 4980
-  },
-  {
+    "maxQuality": 4980,
     "name": {
       "de": "Taramosalata",
       "en": "Haddock Dip",
-      "ja": "\u30bf\u30e9\u30e2\u30b5\u30e9\u30fc\u30bf",
-      "fr": "Tarama"
-    },
-    "level": 90,
-    "difficulty": 445,
-    "durability": 80,
-    "maxQuality": 4980
+      "fr": "Tarama",
+      "ja": "\u30bf\u30e9\u30e2\u30b5\u30e9\u30fc\u30bf"
+    }
   },
   {
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
     "name": {
       "de": "Toffelpuffer",
       "en": "Popoto Pancakes",
-      "ja": "\u30dd\u30dd\u30c8\u30d1\u30f3\u30b1\u30fc\u30ad",
-      "fr": "Crique"
-    },
-    "level": 90,
-    "difficulty": 445,
-    "durability": 80,
-    "maxQuality": 4980
+      "fr": "Crique",
+      "ja": "\u30dd\u30dd\u30c8\u30d1\u30f3\u30b1\u30fc\u30ad"
+    }
   },
   {
+    "difficulty": 801,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 8964,
     "name": {
-      "de": "Haifischflossensuppe",
-      "en": "Shark Fin Soup",
-      "ja": "\u30d5\u30ab\u30d2\u30ec\u30b9\u30fc\u30d7",
-      "fr": "Soupe d'aileron"
-    },
-    "level": 90,
-    "difficulty": 445,
-    "durability": 80,
-    "maxQuality": 4980
+      "de": "Fleischtomatenw\u00fcrze",
+      "en": "Rich Tomato Relish",
+      "fr": "Condiment piquant \u00e0 la tomate",
+      "ja": "\u6fc3\u539a\u30c8\u30de\u30c8\u30b1\u30c1\u30e3\u30c3\u30d7"
+    }
   },
   {
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "R\u00f6stente",
+      "en": "Roast Canard",
+      "fr": "Canard \u00e0 l'orange",
+      "ja": "\u30ed\u30fc\u30b9\u30c8\u30ab\u30ca\u30fc\u30eb"
+    }
+  },
+  {
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
     "name": {
       "de": "Sachertorte",
       "en": "Sachertorte",
-      "ja": "\u30b6\u30c3\u30cf\u30c8\u30eb\u30c6",
-      "fr": "Sachertorte"
-    },
-    "level": 90,
+      "fr": "Sachertorte",
+      "ja": "\u30b6\u30c3\u30cf\u30c8\u30eb\u30c6"
+    }
+  },
+  {
     "difficulty": 445,
     "durability": 80,
-    "maxQuality": 4980
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Haifischflossensuppe",
+      "en": "Shark Fin Soup",
+      "fr": "Soupe d'aileron",
+      "ja": "\u30d5\u30ab\u30d2\u30ec\u30b9\u30fc\u30d7"
+    }
   },
   {
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
     "name": {
-      "de": "Feuerstein-Kaviar",
-      "en": "Flint Caviar",
-      "ja": "\u30d5\u30ea\u30f3\u30c8\u30ad\u30e3\u30d3\u30a2",
-      "fr": "Caviar imp\u00e9rial"
-    },
-    "level": 110,
+      "de": "Ged\u00fcnsteter Katfisch",
+      "en": "Steamed Catfish",
+      "fr": "Poisson-chat vapeur",
+      "ja": "\u30ca\u30de\u30ba\u306e\u30ef\u30a4\u30f3\u84b8"
+    }
+  },
+  {
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Aalpastete Spezial",
+      "en": "Tailor-made Eel Pie",
+      "fr": "Tarte \u00e0 l'anguille tr\u00e8s sp\u00e9ciale",
+      "ja": "\u79d8\u88fd\u30a4\u30fc\u30eb\u30d1\u30a4"
+    }
+  },
+  {
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Valentionskuchen",
+      "en": "Valentione's Cake",
+      "fr": "G\u00e2teau des Valention",
+      "ja": "\u30f4\u30a1\u30ec\u30f3\u30c6\u30a3\u30aa\u30f3\u30b1\u30fc\u30ad"
+    }
+  },
+  {
     "difficulty": 586,
     "durability": 80,
-    "maxQuality": 5783
-  },
-  {
+    "level": 110,
+    "maxQuality": 5783,
     "name": {
       "de": "Speckzopf",
       "en": "Bacon Bread",
-      "ja": "\u30d9\u30fc\u30b3\u30f3\u30a8\u30d4",
-      "fr": "Pain en \u00e9pi au lard"
-    },
-    "level": 110,
-    "difficulty": 586,
-    "durability": 80,
-    "maxQuality": 5783
+      "fr": "Pain en \u00e9pi au lard",
+      "ja": "\u30d9\u30fc\u30b3\u30f3\u30a8\u30d4"
+    }
   },
   {
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
     "name": {
       "de": "Specksuppe",
       "en": "Bacon Broth",
-      "ja": "\u30d9\u30fc\u30b3\u30f3\u30b9\u30fc\u30d7",
-      "fr": "Bouillon au lard"
-    },
-    "level": 110,
-    "difficulty": 586,
-    "durability": 80,
-    "maxQuality": 5783
+      "fr": "Bouillon au lard",
+      "ja": "\u30d9\u30fc\u30b3\u30f3\u30b9\u30fc\u30d7"
+    }
   },
   {
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Feuerstein-Kaviar",
+      "en": "Flint Caviar",
+      "fr": "Caviar imp\u00e9rial",
+      "ja": "\u30d5\u30ea\u30f3\u30c8\u30ad\u30e3\u30d3\u30a2"
+    }
+  },
+  {
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
     "name": {
       "de": "Einsp\u00e4nner",
       "en": "Triple Cream Coffee",
-      "ja": "\u30a2\u30a4\u30f3\u30b7\u30e5\u30da\u30ca\u30fc",
-      "fr": "Caf\u00e9 triple cr\u00e8me"
-    },
-    "level": 110,
-    "difficulty": 586,
+      "fr": "Caf\u00e9 triple cr\u00e8me",
+      "ja": "\u30a2\u30a4\u30f3\u30b7\u30e5\u30da\u30ca\u30fc"
+    }
+  },
+  {
+    "difficulty": 421,
     "durability": 80,
-    "maxQuality": 5783
-  },
-  {
-    "name": {
-      "de": "Sauerrahm",
-      "en": "Sour Cream",
-      "ja": "\u30b5\u30ef\u30fc\u30af\u30ea\u30fc\u30e0",
-      "fr": "Cr\u00e8me aigre"
-    },
     "level": 120,
-    "difficulty": 210,
-    "durability": 40,
-    "maxQuality": 4561
-  },
-  {
+    "maxQuality": 4561,
     "name": {
       "de": "Feigen \u00e0 la Barvarois",
       "en": "Fig Bavarois",
-      "ja": "\u30d0\u30d0\u30ed\u30a2\u30fb\u30aa\u30fb\u30d5\u30a3\u30b0",
-      "fr": "Flan aux figues"
-    },
-    "level": 120,
-    "difficulty": 421,
-    "durability": 80,
-    "maxQuality": 4561
+      "fr": "Flan aux figues",
+      "ja": "\u30d0\u30d0\u30ed\u30a2\u30fb\u30aa\u30fb\u30d5\u30a3\u30b0"
+    }
   },
   {
-    "name": {
-      "de": "Hochlandmehl",
-      "en": "Highland Flour",
-      "ja": "\u30cf\u30a4\u30e9\u30f3\u30c9\u5c0f\u9ea6\u7c89",
-      "fr": "Farine des hautes terres"
-    },
-    "level": 126,
-    "difficulty": 251,
+    "difficulty": 210,
     "durability": 40,
-    "maxQuality": 5172
+    "level": 120,
+    "maxQuality": 4561,
+    "name": {
+      "de": "Sauerrahm",
+      "en": "Sour Cream",
+      "fr": "Cr\u00e8me aigre",
+      "ja": "\u30b5\u30ef\u30fc\u30af\u30ea\u30fc\u30e0"
+    }
   },
   {
-    "name": {
-      "de": "Gef\u00fcllte Kohlroulade",
-      "en": "Stuffed Cabbage Rolls",
-      "ja": "\u633d\u8089\u306e\u30ad\u30e3\u30d9\u30c4\u5dfb\u304d",
-      "fr": "Paupiettes de chou"
-    },
-    "level": 126,
     "difficulty": 503,
     "durability": 80,
-    "maxQuality": 5172
-  },
-  {
+    "level": 125,
+    "maxQuality": 5172,
     "name": {
       "de": "\u00dcberbackene Zwiebelsuppe",
       "en": "Baked Onion Soup",
-      "ja": "\u30aa\u30cb\u30aa\u30f3\u30b0\u30e9\u30bf\u30f3\u30b9\u30fc\u30d7",
-      "fr": "Soupe \u00e0 l'oignon"
-    },
-    "level": 126,
-    "difficulty": 503,
+      "fr": "Soupe \u00e0 l'oignon",
+      "ja": "\u30aa\u30cb\u30aa\u30f3\u30b0\u30e9\u30bf\u30f3\u30b9\u30fc\u30d7"
+    }
+  },
+  {
+    "difficulty": 905,
     "durability": 80,
-    "maxQuality": 5172
-  },
-  {
-    "name": {
-      "de": "Fermentierte Butter",
-      "en": "Fermented Butter",
-      "ja": "\u767a\u9175\u30d0\u30bf\u30fc",
-      "fr": "Beurre ferment\u00e9"
-    },
-    "level": 130,
-    "difficulty": 293,
-    "durability": 40,
-    "maxQuality": 5783
-  },
-  {
-    "name": {
-      "de": "Porciniragout",
-      "en": "Sauteed Porcini",
-      "ja": "\u30dd\u30eb\u30c1\u30fc\u30cb\u30bd\u30c6\u30fc",
-      "fr": "Bolets saut\u00e9s"
-    },
-    "level": 130,
-    "difficulty": 586,
-    "durability": 80,
-    "maxQuality": 5783
-  },
-  {
-    "name": {
-      "de": "Quiche Ishgarder Art",
-      "en": "Ishgardian Muffin",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c9\u30de\u30d5\u30a3\u30f3",
-      "fr": "Pain ishgardais"
-    },
-    "level": 130,
-    "difficulty": 586,
-    "durability": 80,
-    "maxQuality": 5783
-  },
-  {
-    "name": {
-      "de": "Ishgarder Tee",
-      "en": "Ishgardian Tea",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c9\u30c6\u30a3\u30fc",
-      "fr": "Th\u00e9 ishgardais"
-    },
-    "level": 130,
-    "difficulty": 586,
-    "durability": 80,
-    "maxQuality": 5783
-  },
-  {
-    "name": {
-      "de": "Gegrillte Purpur-Forelle",
-      "en": "Grilled Sweetfish",
-      "ja": "\u30b0\u30ea\u30eb\u30c9\u30b9\u30a4\u30fc\u30c8\u30d5\u30a3\u30c3\u30b7\u30e5",
-      "fr": "Poisson-sucre grill\u00e9"
-    },
-    "level": 133,
-    "difficulty": 641,
-    "durability": 80,
-    "maxQuality": 6042
-  },
-  {
-    "name": {
-      "de": "Dhalmel-Gratin",
-      "en": "Dhalmel Gratin",
-      "ja": "\u30a2\u30a6\u30d5\u30e9\u30a6\u30d5",
-      "fr": "Gratin de dhalmel"
-    },
-    "level": 133,
-    "difficulty": 641,
-    "durability": 80,
-    "maxQuality": 6042
-  },
-  {
-    "name": {
-      "de": "Purpurrote Beete-Suppe",
-      "en": "Beet Soup",
-      "ja": "\u30af\u30ea\u30e0\u30be\u30f3\u30b9\u30fc\u30d7",
-      "fr": "Soupe pourpre"
-    },
-    "level": 133,
-    "difficulty": 641,
-    "durability": 80,
-    "maxQuality": 6042
-  },
-  {
-    "name": {
-      "de": "Mont Sohm Al",
-      "en": "Sohm Al Tart",
-      "ja": "\u30bd\u30fc\u30e0\u30fb\u30a2\u30eb\u30fb\u30aa\u30fb\u30de\u30ed\u30f3",
-      "fr": "Sohm Al aux marrons"
-    },
-    "level": 133,
-    "difficulty": 641,
-    "durability": 80,
-    "maxQuality": 6042
-  },
-  {
-    "name": {
-      "de": "Sauce ishgardaise",
-      "en": "Hollandaise Sauce",
-      "ja": "\u30aa\u30e9\u30f3\u30c7\u30fc\u30ba\u30bd\u30fc\u30b9",
-      "fr": "Sauce ishgardaise"
-    },
-    "level": 136,
-    "difficulty": 348,
-    "durability": 35,
-    "maxQuality": 6301
-  },
-  {
-    "name": {
-      "de": "Kaisersemmel",
-      "en": "Kaiser Roll",
-      "ja": "\u30ab\u30a4\u30b6\u30fc\u30bc\u30f3\u30e1\u30eb",
-      "fr": "Pain empereur"
-    },
-    "level": 136,
-    "difficulty": 697,
-    "durability": 70,
-    "maxQuality": 6301
-  },
-  {
+    "level": 125,
+    "maxQuality": 2586,
     "name": {
       "de": "Etagere",
       "en": "Cake Tray",
-      "ja": "\u30b1\u30fc\u30ad\u30b9\u30bf\u30f3\u30c9",
-      "fr": "Assortiment de gourmandises"
-    },
-    "level": 126,
-    "difficulty": 905,
-    "durability": 80,
-    "maxQuality": 2586
+      "fr": "Assortiment de gourmandises",
+      "ja": "\u30b1\u30fc\u30ad\u30b9\u30bf\u30f3\u30c9"
+    }
   },
   {
+    "difficulty": 251,
+    "durability": 40,
+    "level": 125,
+    "maxQuality": 5172,
     "name": {
-      "de": "Vermicelli",
-      "en": "Vermicelli",
-      "ja": "\u30f4\u30a1\u30fc\u30df\u30bb\u30ea",
-      "fr": "Vermicelles"
-    },
-    "level": 139,
-    "difficulty": 376,
-    "durability": 35,
-    "maxQuality": 6561
+      "de": "Hochlandmehl",
+      "en": "Highland Flour",
+      "fr": "Farine des hautes terres",
+      "ja": "\u30cf\u30a4\u30e9\u30f3\u30c9\u5c0f\u9ea6\u7c89"
+    }
   },
   {
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "de": "Gef\u00fcllte Kohlroulade",
+      "en": "Stuffed Cabbage Rolls",
+      "fr": "Paupiettes de chou",
+      "ja": "\u633d\u8089\u306e\u30ad\u30e3\u30d9\u30c4\u5dfb\u304d"
+    }
+  },
+  {
+    "difficulty": 293,
+    "durability": 40,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Fermentierte Butter",
+      "en": "Fermented Butter",
+      "fr": "Beurre ferment\u00e9",
+      "ja": "\u767a\u9175\u30d0\u30bf\u30fc"
+    }
+  },
+  {
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Quiche Ishgarder Art",
+      "en": "Ishgardian Muffin",
+      "fr": "Pain ishgardais",
+      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c9\u30de\u30d5\u30a3\u30f3"
+    }
+  },
+  {
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Ishgarder Tee",
+      "en": "Ishgardian Tea",
+      "fr": "Th\u00e9 ishgardais",
+      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c9\u30c6\u30a3\u30fc"
+    }
+  },
+  {
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Porciniragout",
+      "en": "Sauteed Porcini",
+      "fr": "Bolets saut\u00e9s",
+      "ja": "\u30dd\u30eb\u30c1\u30fc\u30cb\u30bd\u30c6\u30fc"
+    }
+  },
+  {
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Purpurrote Beete-Suppe",
+      "en": "Beet Soup",
+      "fr": "Soupe pourpre",
+      "ja": "\u30af\u30ea\u30e0\u30be\u30f3\u30b9\u30fc\u30d7"
+    }
+  },
+  {
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Dhalmel-Gratin",
+      "en": "Dhalmel Gratin",
+      "fr": "Gratin de dhalmel",
+      "ja": "\u30a2\u30a6\u30d5\u30e9\u30a6\u30d5"
+    }
+  },
+  {
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Gegrillte Purpur-Forelle",
+      "en": "Grilled Sweetfish",
+      "fr": "Poisson-sucre grill\u00e9",
+      "ja": "\u30b0\u30ea\u30eb\u30c9\u30b9\u30a4\u30fc\u30c8\u30d5\u30a3\u30c3\u30b7\u30e5"
+    }
+  },
+  {
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Mont Sohm Al",
+      "en": "Sohm Al Tart",
+      "fr": "Sohm Al aux marrons",
+      "ja": "\u30bd\u30fc\u30e0\u30fb\u30a2\u30eb\u30fb\u30aa\u30fb\u30de\u30ed\u30f3"
+    }
+  },
+  {
+    "difficulty": 348,
+    "durability": 35,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Sauce ishgardaise",
+      "en": "Hollandaise Sauce",
+      "fr": "Sauce ishgardaise",
+      "ja": "\u30aa\u30e9\u30f3\u30c7\u30fc\u30ba\u30bd\u30fc\u30b9"
+    }
+  },
+  {
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Kaisersemmel",
+      "en": "Kaiser Roll",
+      "fr": "Pain empereur",
+      "ja": "\u30ab\u30a4\u30b6\u30fc\u30bc\u30f3\u30e1\u30eb"
+    }
+  },
+  {
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
     "name": {
       "de": "Emeraldgr\u00fcne Bohnensuppe",
       "en": "Emerald Soup",
-      "ja": "\u30a8\u30e1\u30e9\u30eb\u30c9\u30b9\u30fc\u30d7",
-      "fr": "Soupe \u00e9meraude"
-    },
-    "level": 139,
-    "difficulty": 752,
-    "durability": 70,
-    "maxQuality": 6561
+      "fr": "Soupe \u00e9meraude",
+      "ja": "\u30a8\u30e1\u30e9\u30eb\u30c9\u30b9\u30fc\u30d7"
+    }
   },
   {
-    "name": {
-      "de": "Eier Royal",
-      "en": "Royal Eggs",
-      "ja": "\u30a8\u30c3\u30b0\u30ed\u30ef\u30a4\u30e4\u30eb",
-      "fr": "\u0152ufs royaux"
-    },
-    "level": 142,
-    "difficulty": 808,
-    "durability": 70,
-    "maxQuality": 6820
-  },
-  {
-    "name": {
-      "de": "Dhalmel-Frikassee",
-      "en": "Dhalmel Fricassee",
-      "ja": "\u30c0\u30eb\u30e1\u30eb\u30d5\u30ea\u30ab\u30c3\u30bb",
-      "fr": "Fricass\u00e9e de dhalmel"
-    },
-    "level": 142,
-    "difficulty": 808,
-    "durability": 70,
-    "maxQuality": 6820
-  },
-  {
-    "name": {
-      "de": "Cockatrice-Frikadelle",
-      "en": "Cockatrice Meatballs",
-      "ja": "\u30d5\u30ea\u30ab\u30c7\u30ec",
-      "fr": "Fricadelle de cocatrix"
-    },
-    "level": 145,
-    "difficulty": 863,
-    "durability": 70,
-    "maxQuality": 7080
-  },
-  {
-    "name": {
-      "de": "Gebackener Pipira Pira",
-      "en": "Baked Pipira Pira",
-      "ja": "\u30d9\u30a4\u30af\u30c9\u30d4\u30d4\u30e9\u30fb\u30d4\u30e9",
-      "fr": "Pipira pira au four"
-    },
-    "level": 145,
-    "difficulty": 863,
-    "durability": 70,
-    "maxQuality": 7080
-  },
-  {
-    "name": {
-      "de": "Eiskalter Fruchtcocktail",
-      "en": "Frozen Spirits",
-      "ja": "\u30d5\u30ed\u30fc\u30ba\u30f3\u30ab\u30af\u30c6\u30eb",
-      "fr": "M\u00e9lange glac\u00e9"
-    },
-    "level": 145,
-    "difficulty": 863,
-    "durability": 70,
-    "maxQuality": 7080
-  },
-  {
-    "name": {
-      "de": "Birkensirup",
-      "en": "Birch Syrup",
-      "ja": "\u30d0\u30fc\u30c1\u30b7\u30ed\u30c3\u30d7",
-      "fr": "Sirop de bouleau"
-    },
-    "level": 148,
-    "difficulty": 459,
-    "durability": 35,
-    "maxQuality": 7339
-  },
-  {
-    "name": {
-      "de": "Leberk\u00e4sesemmel",
-      "en": "Liver-Cheese Sandwich",
-      "ja": "\u30ec\u30d0\u30fc\u30b1\u30fc\u30b9\u30bc\u30f3\u30e1\u30eb",
-      "fr": "Sandwich au fromage de foie"
-    },
-    "level": 148,
-    "difficulty": 919,
-    "durability": 70,
-    "maxQuality": 7339
-  },
-  {
-    "name": {
-      "de": "Glasierte Glanzn\u00fcsse",
-      "en": "Marron Glace",
-      "ja": "\u30de\u30ed\u30f3\u30b0\u30e9\u30c3\u30bb",
-      "fr": "Marrons glac\u00e9s"
-    },
-    "level": 148,
-    "difficulty": 919,
-    "durability": 70,
-    "maxQuality": 7339
-  },
-  {
-    "name": {
-      "de": "Okeanis-Schnitzel",
-      "en": "Deep-Fried Okeanis",
-      "ja": "\u30aa\u30fc\u30b1\u30a2\u30cb\u30b9\u30b7\u30e5\u30cb\u30c3\u30c4\u30a7\u30eb",
-      "fr": "Oc\u00e9anide pan\u00e9e"
-    },
-    "level": 150,
-    "difficulty": 956,
-    "durability": 70,
-    "maxQuality": 7851
-  },
-  {
-    "name": {
-      "de": "M\u00f6rchel-Salat",
-      "en": "Morel Salad",
-      "ja": "\u30e2\u30ea\u30fc\u30e6\u30b5\u30e9\u30c0",
-      "fr": "Salade verte aux morilles"
-    },
-    "level": 150,
-    "difficulty": 956,
-    "durability": 70,
-    "maxQuality": 7851
-  },
-  {
-    "name": {
-      "de": "Muschelsuppe",
-      "en": "Clam Chowder",
-      "ja": "\u30af\u30e9\u30e0\u30c1\u30e3\u30a6\u30c0\u30fc",
-      "fr": "Chaudr\u00e9e de palourdes"
-    },
-    "level": 150,
-    "difficulty": 956,
-    "durability": 70,
-    "maxQuality": 7851
-  },
-  {
-    "name": {
-      "de": "Gef\u00fcllter Kohlkraut-Kopf",
-      "en": "Stuffed Chysahl",
-      "ja": "\u30b9\u30bf\u30c3\u30d5\u30c9\u30ad\u30e3\u30d9\u30a4\u30b8",
-      "fr": "Cabus farci"
-    },
-    "level": 150,
-    "difficulty": 956,
-    "durability": 70,
-    "maxQuality": 7851
-  },
-  {
-    "name": {
-      "de": "Riviera-Lunch",
-      "en": "Riviera Lunch",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30e9\u30f3\u30c1\u30bb\u30c3\u30c8",
-      "fr": "D\u00e9jeuner nosc\u00e9en"
-    },
-    "level": 139,
     "difficulty": 1353,
     "durability": 70,
-    "maxQuality": 3280
-  },
-  {
-    "name": {
-      "de": "Ishgarder Teeservice",
-      "en": "Alpine Tea Set",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8",
-      "fr": "Go\u00fbter ishgardais"
-    },
-    "level": 142,
-    "difficulty": 1454,
-    "durability": 70,
-    "maxQuality": 3410
-  },
-  {
+    "level": 139,
+    "maxQuality": 3280,
     "name": {
       "de": "Fern\u00f6stliches Morgenessen",
       "en": "Oriental Breakfast",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8",
-      "fr": "Petit d\u00e9jeuner oriental"
-    },
-    "level": 139,
-    "difficulty": 1353,
-    "durability": 70,
-    "maxQuality": 3280
+      "fr": "Petit d\u00e9jeuner oriental",
+      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8"
+    }
   },
   {
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "de": "Riviera-Lunch",
+      "en": "Riviera Lunch",
+      "fr": "D\u00e9jeuner nosc\u00e9en",
+      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30e9\u30f3\u30c1\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "difficulty": 376,
+    "durability": 35,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Vermicelli",
+      "en": "Vermicelli",
+      "fr": "Vermicelles",
+      "ja": "\u30f4\u30a1\u30fc\u30df\u30bb\u30ea"
+    }
+  },
+  {
+    "difficulty": 1454,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 3410,
+    "name": {
+      "de": "Ishgarder Teeservice",
+      "en": "Alpine Tea Set",
+      "fr": "Go\u00fbter ishgardais",
+      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "difficulty": 808,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 6820,
+    "name": {
+      "de": "Dhalmel-Frikassee",
+      "en": "Dhalmel Fricassee",
+      "fr": "Fricass\u00e9e de dhalmel",
+      "ja": "\u30c0\u30eb\u30e1\u30eb\u30d5\u30ea\u30ab\u30c3\u30bb"
+    }
+  },
+  {
+    "difficulty": 1454,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 3410,
     "name": {
       "de": "Fern\u00f6stliches Abendessen",
       "en": "Oriental Supper",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8",
-      "fr": "D\u00eener oriental"
-    },
+      "fr": "D\u00eener oriental",
+      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "difficulty": 808,
+    "durability": 70,
     "level": 142,
-    "difficulty": 1454,
-    "durability": 70,
-    "maxQuality": 3410
+    "maxQuality": 6820,
+    "name": {
+      "de": "Eier Royal",
+      "en": "Royal Eggs",
+      "fr": "\u0152ufs royaux",
+      "ja": "\u30a8\u30c3\u30b0\u30ed\u30ef\u30a4\u30e4\u30eb"
+    }
   },
   {
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
     "name": {
-      "de": "Seeigel-Pastete",
-      "en": "Urchin Loaf",
-      "ja": "\u30a2\u30fc\u30c1\u30f3\u30c6\u30ea\u30fc\u30cc",
-      "fr": "Terrine d'oursins"
-    },
-    "level": 160,
+      "de": "Gebackener Pipira Pira",
+      "en": "Baked Pipira Pira",
+      "fr": "Pipira pira au four",
+      "ja": "\u30d9\u30a4\u30af\u30c9\u30d4\u30d4\u30e9\u30fb\u30d4\u30e9"
+    }
+  },
+  {
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Cockatrice-Frikadelle",
+      "en": "Cockatrice Meatballs",
+      "fr": "Fricadelle de cocatrix",
+      "ja": "\u30d5\u30ea\u30ab\u30c7\u30ec"
+    }
+  },
+  {
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "de": "Eiskalter Fruchtcocktail",
+      "en": "Frozen Spirits",
+      "fr": "M\u00e9lange glac\u00e9",
+      "ja": "\u30d5\u30ed\u30fc\u30ba\u30f3\u30ab\u30af\u30c6\u30eb"
+    }
+  },
+  {
+    "difficulty": 459,
+    "durability": 35,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Birkensirup",
+      "en": "Birch Syrup",
+      "fr": "Sirop de bouleau",
+      "ja": "\u30d0\u30fc\u30c1\u30b7\u30ed\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Leberk\u00e4sesemmel",
+      "en": "Liver-Cheese Sandwich",
+      "fr": "Sandwich au fromage de foie",
+      "ja": "\u30ec\u30d0\u30fc\u30b1\u30fc\u30b9\u30bc\u30f3\u30e1\u30eb"
+    }
+  },
+  {
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Glasierte Glanzn\u00fcsse",
+      "en": "Marron Glace",
+      "fr": "Marrons glac\u00e9s",
+      "ja": "\u30de\u30ed\u30f3\u30b0\u30e9\u30c3\u30bb"
+    }
+  },
+  {
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Muschelsuppe",
+      "en": "Clam Chowder",
+      "fr": "Chaudr\u00e9e de palourdes",
+      "ja": "\u30af\u30e9\u30e0\u30c1\u30e3\u30a6\u30c0\u30fc"
+    }
+  },
+  {
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Okeanis-Schnitzel",
+      "en": "Deep-Fried Okeanis",
+      "fr": "Oc\u00e9anide pan\u00e9e",
+      "ja": "\u30aa\u30fc\u30b1\u30a2\u30cb\u30b9\u30b7\u30e5\u30cb\u30c3\u30c4\u30a7\u30eb"
+    }
+  },
+  {
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "M\u00f6rchel-Salat",
+      "en": "Morel Salad",
+      "fr": "Salade verte aux morilles",
+      "ja": "\u30e2\u30ea\u30fc\u30e6\u30b5\u30e9\u30c0"
+    }
+  },
+  {
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Gef\u00fcllter Kohlkraut-Kopf",
+      "en": "Stuffed Chysahl",
+      "fr": "Cabus farci",
+      "ja": "\u30b9\u30bf\u30c3\u30d5\u30c9\u30ad\u30e3\u30d9\u30a4\u30b8"
+    }
+  },
+  {
     "difficulty": 1116,
     "durability": 70,
-    "maxQuality": 8377
-  },
-  {
-    "name": {
-      "de": "Ishgarder Fischtopf",
-      "en": "Seafood Stew",
-      "ja": "\u30c8\u30de\u30c8\u30b7\u30c1\u30e5\u30fc",
-      "fr": "Rago\u00fbt du p\u00eacheur"
-    },
     "level": 160,
-    "difficulty": 1116,
-    "durability": 70,
-    "maxQuality": 8377
-  },
-  {
+    "maxQuality": 8377,
     "name": {
       "de": "Mandelcroissant",
       "en": "Almond Cream Croissant",
-      "ja": "\u30af\u30ed\u30ef\u30c3\u30b5\u30f3\u30a2\u30de\u30f3\u30c9",
-      "fr": "Croissant amand\u00e9"
-    },
-    "level": 160,
-    "difficulty": 1116,
-    "durability": 70,
-    "maxQuality": 8377
+      "fr": "Croissant amand\u00e9",
+      "ja": "\u30af\u30ed\u30ef\u30c3\u30b5\u30f3\u30a2\u30de\u30f3\u30c9"
+    }
   },
   {
-    "name": {
-      "de": "Flockenbeerentorte",
-      "en": "Snurbleberry Tart",
-      "ja": "\u30b9\u30ca\u30fc\u30d6\u30eb\u30d9\u30ea\u30fc\u30bf\u30eb\u30c8",
-      "fr": "Tarte aux lainuchairelles"
-    },
-    "level": 160,
     "difficulty": 1116,
     "durability": 70,
-    "maxQuality": 8377
-  },
-  {
+    "level": 160,
+    "maxQuality": 8377,
     "name": {
       "de": "Cr\u00e8me brul\u00e9e",
       "en": "Creme Brulee",
-      "ja": "\u30af\u30ec\u30fc\u30e0\u30d6\u30ea\u30e5\u30ec",
-      "fr": "Cr\u00e8me br\u00fbl\u00e9e"
-    },
-    "level": 160,
-    "difficulty": 1116,
-    "durability": 70,
-    "maxQuality": 8377
+      "fr": "Cr\u00e8me br\u00fbl\u00e9e",
+      "ja": "\u30af\u30ec\u30fc\u30e0\u30d6\u30ea\u30e5\u30ec"
+    }
   },
   {
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
     "name": {
       "de": "Hei\u00dfe Schokolade",
       "en": "Hot Chocolate",
-      "ja": "\u30db\u30c3\u30c8\u30b3\u30b3\u30a2",
-      "fr": "Chocolat chaud"
-    },
-    "level": 160,
-    "difficulty": 1116,
-    "durability": 70,
-    "maxQuality": 8377
+      "fr": "Chocolat chaud",
+      "ja": "\u30db\u30c3\u30c8\u30b3\u30b3\u30a2"
+    }
   },
   {
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
     "name": {
       "de": "Geburtstagskuchen",
       "en": "Nameday Cake",
-      "ja": "\u30d0\u30fc\u30b9\u30c7\u30fc\u30b1\u30fc\u30ad",
-      "fr": "G\u00e2teau d'anniversaire"
-    },
-    "level": 160,
-    "difficulty": 2008,
+      "fr": "G\u00e2teau d'anniversaire",
+      "ja": "\u30d0\u30fc\u30b9\u30c7\u30fc\u30b1\u30fc\u30ad"
+    }
+  },
+  {
+    "difficulty": 1116,
     "durability": 70,
-    "maxQuality": 4188
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Ishgarder Fischtopf",
+      "en": "Seafood Stew",
+      "fr": "Rago\u00fbt du p\u00eacheur",
+      "ja": "\u30c8\u30de\u30c8\u30b7\u30c1\u30e5\u30fc"
+    }
+  },
+  {
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Flockenbeerentorte",
+      "en": "Snurbleberry Tart",
+      "fr": "Tarte aux lainuchairelles",
+      "ja": "\u30b9\u30ca\u30fc\u30d6\u30eb\u30d9\u30ea\u30fc\u30bf\u30eb\u30c8"
+    }
+  },
+  {
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Seeigel-Pastete",
+      "en": "Urchin Loaf",
+      "fr": "Terrine d'oursins",
+      "ja": "\u30a2\u30fc\u30c1\u30f3\u30c6\u30ea\u30fc\u30cc"
+    }
   }
 ]
