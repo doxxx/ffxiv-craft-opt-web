@@ -28,7 +28,7 @@ RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
   var key = cache_key(lang, cls);
   var promise = cache[key];
   if (!promise) {
-    promise = this.$http.get('/data/recipedb/' + cls + '.json').then(
+    promise = this.$http.get('data/recipedb/' + cls + '.json').then(
       function (r) {
         var result = [];
         for (var i = 0; i < r.data.length; i++) {
