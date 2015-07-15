@@ -7070,7 +7070,7 @@
   {
     "difficulty": 169,
     "durability": 40,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Achat",
@@ -7082,7 +7082,7 @@
   {
     "difficulty": 339,
     "durability": 80,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Achat-Ring des Zielens",
@@ -7094,7 +7094,7 @@
   {
     "difficulty": 339,
     "durability": 80,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Achat-Ring der Magie",
@@ -7106,7 +7106,7 @@
   {
     "difficulty": 339,
     "durability": 80,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Achat-Ring der Verteidigung",
@@ -7118,7 +7118,7 @@
   {
     "difficulty": 339,
     "durability": 80,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Achat-Ring der Heilung",
@@ -7130,13 +7130,25 @@
   {
     "difficulty": 339,
     "durability": 80,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Achat-Ring des Schlachtens",
       "en": "Agate Ring of Slaying",
       "fr": "Bague d'attaquant en agate",
       "ja": "\u30a2\u30b2\u30fc\u30c8\u30a2\u30bf\u30c3\u30ab\u30fc\u30ea\u30f3\u30b0"
+    }
+  },
+  {
+    "difficulty": 169,
+    "durability": 40,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Mythrit-Nugget",
+      "en": "Mythrite Nugget",
+      "fr": "P\u00e9pite de mithrite",
+      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ca\u30b2\u30c3\u30c8"
     }
   },
   {
@@ -7293,18 +7305,6 @@
       "en": "Mythrite Goggles of Gathering",
       "fr": "Lunettes des ressources en mithrite",
       "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ae\u30e3\u30b6\u30e9\u30fc\u30b4\u30fc\u30b0\u30eb"
-    }
-  },
-  {
-    "difficulty": 169,
-    "durability": 40,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Mythrit-Nugget",
-      "en": "Mythrite Nugget",
-      "fr": "P\u00e9pite de mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ca\u30b2\u30c3\u30c8"
     }
   },
   {

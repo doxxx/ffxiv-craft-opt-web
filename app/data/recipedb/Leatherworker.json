@@ -5114,7 +5114,7 @@
   {
     "difficulty": 169,
     "durability": 40,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Archaeoleder",
@@ -5126,13 +5126,61 @@
   {
     "difficulty": 339,
     "durability": 80,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Archaeoleder-G\u00fcrtel des Schlagens",
       "en": "Archaeoskin Belt of Striking",
       "fr": "Ceinture d'agresseur en cuir d'arch\u00e9ornis",
       "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d9\u30eb\u30c8"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Archaeoleder-Handschuhe des Zielens",
+      "en": "Archaeoskin Gloves of Aiming",
+      "fr": "Gants de pisteur en cuir d'arch\u00e9ornis",
+      "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30ec\u30f3\u30b8\u30e3\u30fc\u30b0\u30ed\u30fc\u30d6"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Archaeoleder-Handschuhe der Magie",
+      "en": "Archaeoskin Gloves of Casting",
+      "fr": "Gants d'incantateur en cuir d'arch\u00e9ornis",
+      "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30ad\u30e3\u30b9\u30bf\u30fc\u30b0\u30ed\u30fc\u30d6"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Archaeoleder-Handschuhe der Heilung",
+      "en": "Archaeoskin Gloves of Healing",
+      "fr": "Gants de soigneur en cuir d'arch\u00e9ornis",
+      "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30d2\u30fc\u30e9\u30fc\u30b0\u30ed\u30fc\u30d6"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Archaeoleder-Handschuhe des Schlagens",
+      "en": "Archaeoskin Gloves of Striking",
+      "fr": "Gants d'agresseur en cuir d'arch\u00e9ornis",
+      "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b0\u30ed\u30fc\u30d6"
     }
   },
   {
@@ -5184,30 +5232,6 @@
     }
   },
   {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Archaeoleder-Handschuhe des Zielens",
-      "en": "Archaeoskin Gloves of Aiming",
-      "fr": "Gants de pisteur en cuir d'arch\u00e9ornis",
-      "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30ec\u30f3\u30b8\u30e3\u30fc\u30b0\u30ed\u30fc\u30d6"
-    }
-  },
-  {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Archaeoleder-Handschuhe der Magie",
-      "en": "Archaeoskin Gloves of Casting",
-      "fr": "Gants d'incantateur en cuir d'arch\u00e9ornis",
-      "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30ad\u30e3\u30b9\u30bf\u30fc\u30b0\u30ed\u30fc\u30d6"
-    }
-  },
-  {
     "difficulty": 421,
     "durability": 80,
     "level": 120,
@@ -5229,30 +5253,6 @@
       "en": "Archaeoskin Gloves of Gathering",
       "fr": "Gants des ressources en cuir d'arch\u00e9ornis",
       "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30ae\u30e3\u30b6\u30e9\u30fc\u30b0\u30ed\u30fc\u30d6"
-    }
-  },
-  {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Archaeoleder-Handschuhe der Heilung",
-      "en": "Archaeoskin Gloves of Healing",
-      "fr": "Gants de soigneur en cuir d'arch\u00e9ornis",
-      "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30d2\u30fc\u30e9\u30fc\u30b0\u30ed\u30fc\u30d6"
-    }
-  },
-  {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Archaeoleder-Handschuhe des Schlagens",
-      "en": "Archaeoskin Gloves of Striking",
-      "fr": "Gants d'agresseur en cuir d'arch\u00e9ornis",
-      "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b0\u30ed\u30fc\u30d6"
     }
   },
   {

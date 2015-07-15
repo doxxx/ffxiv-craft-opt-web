@@ -4298,7 +4298,7 @@
   {
     "difficulty": 339,
     "durability": 80,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Archaeoleder-Kodex",
@@ -4310,13 +4310,25 @@
   {
     "difficulty": 339,
     "durability": 80,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Archaeoleder-Grimoire",
       "en": "Archaeoskin Grimoire",
       "fr": "Grimoire en cuir d'arch\u00e9ornis",
       "ja": "\u30a2\u30eb\u30b1\u30aa\u30fc\u30cb\u30b9\u30b0\u30ea\u30e2\u30a2"
+    }
+  },
+  {
+    "difficulty": 169,
+    "durability": 40,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Mythrit-Zaubertinte",
+      "en": "Enchanted Mythrite Ink",
+      "fr": "Encre de mithrite enchant\u00e9e",
+      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     }
   },
   {
@@ -4353,18 +4365,6 @@
       "en": "Deep Red Enchanted Ink",
       "fr": "Encre \u00e9carlate enchant\u00e9e",
       "ja": "\u6df1\u7dcb\u306e\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
-    }
-  },
-  {
-    "difficulty": 169,
-    "durability": 40,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Mythrit-Zaubertinte",
-      "en": "Enchanted Mythrite Ink",
-      "fr": "Encre de mithrite enchant\u00e9e",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     }
   },
   {

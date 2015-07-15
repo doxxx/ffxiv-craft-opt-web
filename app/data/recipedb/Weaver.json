@@ -5750,13 +5750,133 @@
   {
     "difficulty": 339,
     "durability": 80,
-    "level": 120,
+    "level": 115,
     "maxQuality": 3951,
     "name": {
       "de": "Heilige Regenbogen-Kappe der Magie",
       "en": "Holy Rainbow Cap of Casting",
       "fr": "Bonnet-tricorne d'incantateur en \u00e9toffe arc-en-ciel",
       "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30ad\u30e3\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogen-Kappe des Zielens",
+      "en": "Rainbow Cap of Aiming",
+      "fr": "Bonnet-tricorne de pisteur en \u00e9toffe arc-en-ciel",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ad\u30e3\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogen-Kappe der Heilung",
+      "en": "Rainbow Cap of Healing",
+      "fr": "Bonnet-tricorne de soigneur en \u00e9toffe arc-en-ciel",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30ad\u30e3\u30c3\u30d7"
+    }
+  },
+  {
+    "difficulty": 169,
+    "durability": 40,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogenstoff",
+      "en": "Rainbow Cloth",
+      "fr": "\u00c9toffe arc-en-ciel",
+      "ja": "\u8679\u5e03"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogen-Bundhaube des Sp\u00e4hens",
+      "en": "Rainbow Coif of Scouting",
+      "fr": "Coiffe d'\u00e9claireur en \u00e9toffe arc-en-ciel",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30b3\u30a4\u30d5"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogen-Kurzfingerhandschuhe des Sp\u00e4hens",
+      "en": "Rainbow Halfgloves of Scouting",
+      "fr": "Mitaines d'\u00e9claireur en \u00e9toffe arc-en-ciel",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogen-Sch\u00e4rpe des Zielens",
+      "en": "Rainbow Sash of Aiming",
+      "fr": "\u00c9charpe de pisteur en \u00e9toffe arc-en-ciel",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b5\u30c3\u30b7\u30e5"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogen-Sch\u00e4rpe der Magie",
+      "en": "Rainbow Sash of Casting",
+      "fr": "\u00c9charpe d'incantateur en \u00e9toffe arc-en-ciel",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30c3\u30b7\u30e5"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogen-Sch\u00e4rpe der Heilung",
+      "en": "Rainbow Sash of Healing",
+      "fr": "\u00c9charpe de soigneur en \u00e9toffe arc-en-ciel",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30b5\u30c3\u30b7\u30e5"
+    }
+  },
+  {
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogen-Sch\u00e4rpe des Sp\u00e4hens",
+      "en": "Rainbow Sash of Scouting",
+      "fr": "\u00c9charpe d'\u00e9claireur en \u00e9toffe arc-en-ciel",
+      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30b5\u30c3\u30b7\u30e5"
+    }
+  },
+  {
+    "difficulty": 169,
+    "durability": 40,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "de": "Regenbogenfaden",
+      "en": "Rainbow Thread",
+      "fr": "Fil arc-en-ciel",
+      "ja": "\u8679\u7cf8"
     }
   },
   {
@@ -5772,54 +5892,6 @@
     }
   },
   {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogen-Kappe des Zielens",
-      "en": "Rainbow Cap of Aiming",
-      "fr": "Bonnet-tricorne de pisteur en \u00e9toffe arc-en-ciel",
-      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ad\u30e3\u30c3\u30d7"
-    }
-  },
-  {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogen-Kappe der Heilung",
-      "en": "Rainbow Cap of Healing",
-      "fr": "Bonnet-tricorne de soigneur en \u00e9toffe arc-en-ciel",
-      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30ad\u30e3\u30c3\u30d7"
-    }
-  },
-  {
-    "difficulty": 169,
-    "durability": 40,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogenstoff",
-      "en": "Rainbow Cloth",
-      "fr": "\u00c9toffe arc-en-ciel",
-      "ja": "\u8679\u5e03"
-    }
-  },
-  {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogen-Bundhaube des Sp\u00e4hens",
-      "en": "Rainbow Coif of Scouting",
-      "fr": "Coiffe d'\u00e9claireur en \u00e9toffe arc-en-ciel",
-      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30b3\u30a4\u30d5"
-    }
-  },
-  {
     "difficulty": 421,
     "durability": 80,
     "level": 120,
@@ -5829,18 +5901,6 @@
       "en": "Rainbow Culottes of Striking",
       "fr": "Culotte d'agresseur en \u00e9toffe arc-en-ciel",
       "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ad\u30e5\u30ed\u30c3\u30c8"
-    }
-  },
-  {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogen-Kurzfingerhandschuhe des Sp\u00e4hens",
-      "en": "Rainbow Halfgloves of Scouting",
-      "fr": "Mitaines d'\u00e9claireur en \u00e9toffe arc-en-ciel",
-      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30cf\u30fc\u30d5\u30b0\u30ed\u30fc\u30d6"
     }
   },
   {
@@ -5952,54 +6012,6 @@
     }
   },
   {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogen-Sch\u00e4rpe des Zielens",
-      "en": "Rainbow Sash of Aiming",
-      "fr": "\u00c9charpe de pisteur en \u00e9toffe arc-en-ciel",
-      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b5\u30c3\u30b7\u30e5"
-    }
-  },
-  {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogen-Sch\u00e4rpe der Magie",
-      "en": "Rainbow Sash of Casting",
-      "fr": "\u00c9charpe d'incantateur en \u00e9toffe arc-en-ciel",
-      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30c3\u30b7\u30e5"
-    }
-  },
-  {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogen-Sch\u00e4rpe der Heilung",
-      "en": "Rainbow Sash of Healing",
-      "fr": "\u00c9charpe de soigneur en \u00e9toffe arc-en-ciel",
-      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30b5\u30c3\u30b7\u30e5"
-    }
-  },
-  {
-    "difficulty": 339,
-    "durability": 80,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogen-Sch\u00e4rpe des Sp\u00e4hens",
-      "en": "Rainbow Sash of Scouting",
-      "fr": "\u00c9charpe d'\u00e9claireur en \u00e9toffe arc-en-ciel",
-      "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30b5\u30c3\u30b7\u30e5"
-    }
-  },
-  {
     "difficulty": 421,
     "durability": 80,
     "level": 120,
@@ -6045,18 +6057,6 @@
       "en": "Rainbow Slops of Healing",
       "fr": "Trousses de soigneur en \u00e9toffe arc-en-ciel ",
       "ja": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30b9\u30ed\u30c3\u30d7"
-    }
-  },
-  {
-    "difficulty": 169,
-    "durability": 40,
-    "level": 120,
-    "maxQuality": 3951,
-    "name": {
-      "de": "Regenbogenfaden",
-      "en": "Rainbow Thread",
-      "fr": "Fil arc-en-ciel",
-      "ja": "\u8679\u7cf8"
     }
   },
   {
