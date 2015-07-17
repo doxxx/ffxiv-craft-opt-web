@@ -68,7 +68,7 @@
 </div>
 <div class="row-fluid">
   <div class="span12 recipe-search-control">
-    <span class="my-dropdown">
+    <span class="my-dropdown" id="recipe-menu-root">
       <div class="input-append">
         <span class="span3 uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
         <div class="btn-group">
@@ -79,7 +79,8 @@
       <div class="my-dropdown-menu">
         <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="recipeSearch.text"
                placeholder="Search..." select-on-focus stop-click-propogation
-               ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"/>
+               ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"
+               id="recipe-search-text"/>
         <ul class="recipe-menu-scrollable" isolate-scrolling>
           <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...</li>
           <li ng-hide="recipeSearch.loading"

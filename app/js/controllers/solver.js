@@ -49,6 +49,11 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   });
 
   $scope.recipeSelected = function (name) {
+    // force menu to close and search field to lose focus
+    // improves behaviour on touch devices
+    document.getElementById('recipe-menu-root').closeMenu();
+    document.getElementById('recipe-search-text').blur();
+
     var cls = $scope.recipe.cls;
     var p = angular.copy(_recipeLibrary.recipeForClassByName($translate.use(), cls, name));
     p.then(function (recipe) {
