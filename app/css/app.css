@@ -302,7 +302,6 @@ div[content*="xivdb"] div.tooltip-arrow {
 
 .class-selector-group-left {
   width: 49%;
-  margin-bottom: 5px;
   margin-right: 2px;
   text-align: right;
   display: inline-block;
@@ -310,7 +309,6 @@ div[content*="xivdb"] div.tooltip-arrow {
 
 .class-selector-group-right {
   width: 49%;
-  margin-bottom: 5px;
   margin-left: 2px;
   text-align: left;
   display: inline-block;
@@ -560,6 +558,6 @@ legend + .control-group {
   background-color: #eeeeee;
 }
 
-.btn {
+.btn-group .btn, .settings-buttons .btn, .control-group .btn {
   margin-bottom: 5px;
 }
