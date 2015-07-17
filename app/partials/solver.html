@@ -81,7 +81,9 @@
                placeholder="Search..." select-on-focus stop-click-propogation
                ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"/>
         <ul class="recipe-menu-scrollable" isolate-scrolling>
-          <li ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
+          <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...</li>
+          <li ng-hide="recipeSearch.loading"
+              ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
               ng-class="{active: $index === recipeSearch.selected}"
               id="recipeSearchElement{{$index}}"
               ng-mouseover="recipeSearch.selected=$index"

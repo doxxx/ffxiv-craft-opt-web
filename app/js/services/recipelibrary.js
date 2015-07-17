@@ -39,9 +39,17 @@ RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
   var key = cache_key(lang, cls);
   var promise = cache[key];
   if (!promise) {
-    promise = this.$http.get('../../data/recipedb/' + cls + '.json').then(
+    promise = this.$http.get('data/recipedb/' + cls + '.json').then(
       function (r) {
-        return r.data.map(recipeForLang.bind(this, lang));
+        var result = r.data.map(recipeForLang.bind(this, lang));
+        result.sort(function (a, b) {
+          var diff = a.level - b.level;
+          if (diff !== 0) return diff;
+          if (a.name < b.name) return -1;
+          else if (a.name > b.name) return 1;
+          return 0;
+        });
+        return result;
       }
     );
     cache[key] = promise;

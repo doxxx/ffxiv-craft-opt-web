@@ -1,4 +1,9 @@
 //require('./String.js');
+/* Adding new actions search for STEP_##
+    * Add action to AllActions object STEP_01
+    * Add action effect to SimSynth function STEP_02
+    * Add action effect to MonteCarloSynth function STEP_03
+*/
 
 function Logger(logOutput) {
     this.logOutput = logOutput;
@@ -166,28 +171,51 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
 
 }
 
-function simSynth(individual, synth, verbose, debug, logOutput) {
+function NewStateFromSynth(synth) {
+    var step = 0;
+    var durabilityState = synth.recipe.durability;
+    var cpState = synth.crafter.craftPoints;
+    var qualityState = synth.recipe.startQuality;
+    var progressState = 0;
+    var wastedActions = 0;
+    var progressOk = false;
+    var cpOk = false;
+    var durabilityOk = false;
+    var trickUses = 0;
+    var reliability = 1;
+    var crossClassActionList = {};
+    var effects = new EffectTracker();
+    var condition = 'Normal';
+
+    return new State(step, '', durabilityState, cpState, qualityState, progressState,
+        wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
+}
+
+function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
 
     var logger = new Logger(logOutput);
 
-    // State tracking
-    var durabilityState = synth.recipe.durability;
-    var cpState = synth.crafter.craftPoints;
-    var progressState = 0;
-    var qualityState = synth.recipe.startQuality;
-    var stepCount = 0;
-    var wastedActions = 0;
-    var effects = new EffectTracker();
-    var trickUses = 0;
-    var reliability = 1;
-    var crossClassActionList = {};
-    var crossClassActionCounter = 0;
-    var useConditions = synth.useConditions;
+    // Unpack state
+    var stepCount = startState.step;
+    var durabilityState = startState.durabilityState;
+    var cpState = startState.cpState;
+    var qualityState = startState.qualityState;
+    var progressState = startState.progressState;
+    var wastedActions = startState.wastedActions;
+    var progressOk = startState.progressOk;
+    var cpOk = startState.cpOk;
+    var durabilityOk = startState.durabilityOk;
+    var trickUses = startState.trickUses;
+    var reliability = startState.reliability;
+    var crossClassActionList = startState.crossClassActionList;
+    var effects = startState.effects;
+    var condition = startState.condition;
 
     // Conditions
+    var useConditions = synth.useConditions;
     var pGood = 0.23;
     var pExcellent = 0.01;
 
@@ -198,16 +226,15 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
     var ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
 
     // End state checks
-    var progressOk = false;
-    var cpOk = false;
-    var durabilityOk = false;
     var trickOk = false;
     var reliabilityOk = false;
 
+    // Initialize counters
+    var crossClassActionCounter = 0;
+
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
-        return new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                           wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList);
+        return NewStateFromSynth(synth);
     }
 
     if (debug) {
@@ -227,8 +254,12 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         //==================================
         stepCount += 1;
 
-        // Add effect modifiers
+        // STEP_02.a
+        // Effect Modifiers
+        //=================
         var craftsmanship = synth.crafter.craftsmanship;
+
+        // Effects modifying control
         var control = synth.crafter.control;
         if (AllActions.innerQuiet.name in effects.countUps) {
             control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
@@ -238,6 +269,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             control += 0.5 * synth.crafter.control;
         }
 
+        // Effects modifying level difference
         var levelDifference = synth.crafter.level - synth.recipe.level;
         if (AllActions.ingenuity2.name in effects.countDowns) {
             if (synth.crafter.level == 50) {
@@ -273,6 +305,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             }
         }
 
+        // Effects modfiying probability
         var successProbability = action.successProbability;
         if (AllActions.steadyHand2.name in effects.countDowns) {
             successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
@@ -285,6 +318,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
         successProbability = Math.min(successProbability, 1);
 
+        // Effects modifying quality increase multiplier
         var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
         if (AllActions.greatStrides.name in effects.countDowns) {
             qualityIncreaseMultiplier *= 2;
@@ -296,6 +330,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
 
         // Calculate final gains / losses
+        // Effects modifying progress
         var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
         if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
@@ -305,12 +340,14 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
         }
         var progressGain = bProgressGain;
 
+        // Effects modifying quality
         var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
         var qualityGain = bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
         }
 
+        // Effects modifying durability cost
         var durabilityCost = action.durabilityCost;
         if ((AllActions.wasteNot.name in effects.countDowns) || (AllActions.wasteNot2.name in effects.countDowns)) {
             durabilityCost = 0.5 * action.durabilityCost;
@@ -339,6 +376,7 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
             durabilityState -= durabilityCost;
             cpState -= action.cpCost;
 
+            // STEP_02.b
             // Effect management
             //==================================
             // Special Effect Actions
@@ -354,12 +392,12 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
                 durabilityState += 10;
             }
 
-            if (isActionNe(action, AllActions.comfortZone) && (AllActions.comfortZone.name in effects.countDowns) && (cpState > 0)) {
+            if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.name in effects.countDowns && cpState > 0) {
                 cpState += 8;
             }
 
-            if ((isActionEq(action, AllActions.rumination)) && (cpState >= 0)) {
-                if ((AllActions.innerQuiet.name in effects.countUps) && (effects.countUps[AllActions.innerQuiet.name] > 0)) {
+            if (isActionEq(action, AllActions.rumination) && cpState >= 0) {
+                if (AllActions.innerQuiet.name in effects.countUps && effects.countUps[AllActions.innerQuiet.name] > 0) {
                     cpState += (21 * effects.countUps[AllActions.innerQuiet.name] - Math.pow(effects.countUps[AllActions.innerQuiet.name],2) + 10)/2;
                     delete effects.countUps[AllActions.innerQuiet.name];
                 }
@@ -394,6 +432,9 @@ function simSynth(individual, synth, verbose, debug, logOutput) {
                 ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
             }
 
+            // STEP_02.c
+            // Countdown / Countup Management
+            //===============================
             // Decrement countdowns
             for (var countDown in effects.countDowns) {
                 effects.countDowns[countDown] -= 1;
@@ -487,35 +528,37 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
 
     var logger = new Logger(logOutput);
 
-    // State Tracking
-    var durabilityState = startState.durabilityState
-    var cpState = startState.cpState;
-    var progressState = startState.progressState;
-    var qualityState = startState.qualityState;
+    // Unpack state
     var stepCount = startState.step;
+    var durabilityState = startState.durabilityState;
+    var cpState = startState.cpState;
+    var qualityState = startState.qualityState;
+    var progressState = startState.progressState;
     var wastedActions = startState.wastedActions;
-    var effects = startState.effects;
+    var progressOk = startState.progressOk;
+    var cpOk = startState.cpOk;
+    var durabilityOk = startState.durabilityOk;
     var trickUses = startState.trickUses;
     var reliability = startState.reliability;
     var crossClassActionList = startState.crossClassActionList;
-
+    var effects = startState.effects;
     var condition = startState.condition;
 
     // Conditions
     var pGood = 0.23;
     var pExcellent = 0.01;
 
-    // End state checks
-    var progressOk = startState.progressOk;
-    var cpOk = startState.cpOk;
-    var durabilityOk = startState.durabilityOk;
-    var trickOk = false;
-    var reliabilityOk = false;
+    // Initialize counters
+    var crossClassActionCounter = 0; // *** REVIEW ***
 
     stepCount += 1;
 
-    // Add effect modifiers
+    // STEP_03.a
+    // Effect modifiers
+    //=================
     var craftsmanship = synth.crafter.craftsmanship;
+
+    // Effects modifying control
     var control = synth.crafter.control;
     if (AllActions.innerQuiet.name in effects.countUps) {
         control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
@@ -528,6 +571,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     // Control is floored before display based on IQ incremental observations
     control = Math.floor(control);
 
+    // Effects modifying level difference
     var levelDifference = synth.crafter.level - synth.recipe.level;
     if (AllActions.ingenuity2.name in effects.countDowns) {
         if (synth.crafter.level == 50) {
@@ -563,17 +607,17 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
     }
 
+    // Effects modifying probability
+    var successProbability = action.successProbability;
     if (AllActions.steadyHand2.name in effects.countDowns) {
         successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
     }
     else if (AllActions.steadyHand.name in effects.countDowns) {
         successProbability = action.successProbability + 0.2;
     }
-    else {
-        successProbability = action.successProbability;
-    }
-    var successProbability = Math.min(successProbability, 1);
+    successProbability = Math.min(successProbability, 1);
 
+    // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
     if (AllActions.greatStrides.name in effects.countDowns) {
         qualityIncreaseMultiplier *= 2;
@@ -607,6 +651,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
             success = 1;
         }
 
+    // Effects modifying progress
     var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
@@ -616,12 +661,14 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     }
     var progressGain = success * bProgressGain;
 
+    // Effects modifying quality
     var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
     var qualityGain = success * bQualityGain;
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
         qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
     }
 
+    // Effects modifying durability cost
     var durabilityCost = action.durabilityCost;
     if (AllActions.wasteNot.name in effects.countDowns || AllActions.wasteNot2.name in effects.countDowns) {
         durabilityCost = 0.5 * action.durabilityCost;
@@ -650,6 +697,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         durabilityState -= durabilityCost;
         cpState -= action.cpCost;
 
+        // STEP_03.b
         // Effect management
         //==================================
         // Special Effect Actions
@@ -708,6 +756,9 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
             }
         }
 
+        // STEP_03.c
+        // Countdown / Countup management
+        //===============================
         // Increment countups
         if (action.qualityIncreaseMultiplier > 0 && AllActions.innerQuiet.name in effects.countUps && effects.countUps[AllActions.innerQuiet.name] < 10) {
             effects.countUps[AllActions.innerQuiet.name] += 1 * success;
@@ -734,17 +785,6 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
             crossClassActionList[action.shortName] = true;
         }
 
-    }
-
-    if (debug) {
-        var iqCnt = 0;
-        if (AllActions.innerQuiet.name in effects.countUps) {
-            iqCnt = effects.countUps[AllActions.innerQuiet.name];
-        }
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.1f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
-    }
-    else if (verbose) {
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions);
     }
 
     // Penalise failure outcomes
@@ -780,13 +820,24 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
     }
 
+    if (debug) {
+        var iqCnt = 0;
+        if (AllActions.innerQuiet.name in effects.countUps) {
+            iqCnt = effects.countUps[AllActions.innerQuiet.name];
+        }
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %7.1f %-10s %-5s', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain, condition, success);
+    }
+    else if (verbose) {
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, condition, success);
+    }
+
     var finalState = new State(stepCount, action.name, durabilityState, cpState, qualityState, progressState,
                        wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
 
     return finalState;
 }
 
-function MonteCarloSequence(individual, synth, assumeSuccess, overrideTotT, verbose, debug, logOutput) {
+function MonteCarloSequence(individual, synth, startState, assumeSuccess, overrideTotT, verbose, debug, logOutput) {
     overrideTotT = overrideTotT !== undefined ? overrideTotT : true;
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
@@ -794,35 +845,32 @@ function MonteCarloSequence(individual, synth, assumeSuccess, overrideTotT, verb
 
     var logger = new Logger(logOutput);
 
-    // Initialize state values
-    var durabilityState = synth.recipe.durability;
-    var cpState = synth.crafter.craftPoints;
-    var progressState = 0;
-    var qualityState = synth.recipe.startQuality;
-    var stepCount = 0;
-    var wastedActions = 0;
-    var effects = new EffectTracker();
-    var maxTricksUses = 0;
-    var trickUses = 0;
-    var reliability = 1;
-    var crossClassActionList = {};
-    var crossClassActionCounter = 0;
-    var useConditions = synth.useConditions;
-
-    var condition = 'Normal';
+    // Unpack state
+    var stepCount = startState.step;
+    var durabilityState = startState.durabilityState;
+    var cpState = startState.cpState;
+    var qualityState = startState.qualityState;
+    var progressState = startState.progressState;
+    var wastedActions = startState.wastedActions;
+    var progressOk = startState.progressOk;
+    var cpOk = startState.cpOk;
+    var durabilityOk = startState.durabilityOk;
+    var trickUses = startState.trickUses;
+    var reliability = startState.reliability;
+    var crossClassActionList = startState.crossClassActionList;
+    var effects = startState.effects;
+    var condition = startState.condition;
 
     // Intialize final state checks
-    var progressOk = false;
-    var cpOk = false;
-    var durabilityOk = false;
     var trickOk = false;
     var reliabilityOk = false;
 
+    // Initialize counters
+    var maxTricksUses = 0;
+    var crossClassActionCounter = 0;
+    var useConditions = synth.useConditions
 
     // Initialize state variables
-    var startState = new State(stepCount, '', durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
-
     var finalState = startState;
 
     // Check for null or empty individuals
@@ -845,12 +893,12 @@ function MonteCarloSequence(individual, synth, assumeSuccess, overrideTotT, verb
     }
 
     if (debug) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0);
+        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-7s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA', 'Cond', 'S/F');
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %-5s %-7s %-10s %-5s', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 0, synth.crafter.control, 0, '', '', 'Normal', '-');
     }
     else if (verbose) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions);
+        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'Cond', 'S/F');
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', stepCount, '', durabilityState, cpState, qualityState, progressState, wastedActions, 'Normal', '');
 
     }
 
@@ -910,9 +958,11 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
 
     var logger = new Logger(logOutput);
 
+    var startState = NewStateFromSynth(synth);
+
     var finalStateTracker = [];
     for (var i=0; i < nRuns; i++) {
-        var runSynth = MonteCarloSequence(individual, synth, false, true, false, false, logOutput);
+        var runSynth = MonteCarloSequence(individual, synth, startState, false, true, false, false, logOutput);
         finalStateTracker[finalStateTracker.length] = runSynth;
 
         if (verbose) {
@@ -1051,7 +1101,9 @@ function maxCrossClassActions(level) {
 function evalSeq(individual, mySynth, penaltyWeight) {
     penaltyWeight = penaltyWeight!== undefined ? penaltyWeight : 10000;
 
-    var result = simSynth(individual, mySynth, false, false);
+    var startState = NewStateFromSynth(mySynth);
+
+    var result = simSynth(individual, mySynth, startState, false, false);
     var penalties = 0;
     var fitness = 0;
     var fitnessProg = 0;
@@ -1095,42 +1147,46 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     return [fitness, fitnessProg];
 }
 
-// Actions
+// STEP_01
+// Actions Table
+//==============
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level
 var AllActions = {
-  dummyAction: new Action(       'dummyAction',          '______________',       0,  0,      1, 0.0, 0.0, 'immediate',   1,  'All',          1),
-  observe: new Action(           'observe',              'Observe',              0, 14,      1, 0.0, 0.0, 'immediate',   1,  'All',          1),
+    //                            shortName,              fullName,              dur,   cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,
+    observe: new Action(           'observe',              'Observe',              0,  14,   1.0, 0.0, 0.0, 'immediate',   1,  'All',          1),
 
-  basicSynth: new Action(        'basicSynth',           'Basic Synthesis',      10,  0,   0.9, 0.0, 1.0, 'immediate',   1,  'All',          1),
-  standardSynthesis: new Action( 'standardSynthesis',    'Standard Synthesis',   10,  15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31),
-  carefulSynthesis: new Action(  'carefulSynthesis',     'Careful Synthesis',    10,  0,   1.0, 0.0, 0.9, 'immediate',   1,  'Weaver',       15),
-  carefulSynthesis2: new Action( 'carefulSynthesis2',    'Careful Synthesis II', 10,  0,   1.0, 0.0, 1.2, 'immediate',   1,  'Weaver',       50),
-  rapidSynthesis: new Action(    'rapidSynthesis',       'Rapid Synthesis',      10,  0,   0.5, 0.0, 2.5, 'immediate',   1,  'Armorer',      15),
-  flawlessSynthesis: new Action( 'flawlessSynthesis',    'Flawless Synthesis',   10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Goldsmith',    37),
-  pieceByPiece: new Action(      'pieceByPiece',         'Piece By Piece',       10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      50),
+    basicSynth: new Action(        'basicSynth',           'Basic Synthesis',      10,  0,   0.9, 0.0, 1.0, 'immediate',   1,  'All',          1),
+    standardSynthesis: new Action( 'standardSynthesis',    'Standard Synthesis',   10,  15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31),
+    carefulSynthesis: new Action(  'carefulSynthesis',     'Careful Synthesis',    10,  0,   1.0, 0.0, 0.9, 'immediate',   1,  'Weaver',       15),
+    carefulSynthesis2: new Action( 'carefulSynthesis2',    'Careful Synthesis II', 10,  0,   1.0, 0.0, 1.2, 'immediate',   1,  'Weaver',       50),
+    rapidSynthesis: new Action(    'rapidSynthesis',       'Rapid Synthesis',      10,  0,   0.5, 0.0, 2.5, 'immediate',   1,  'Armorer',      15),
+    flawlessSynthesis: new Action( 'flawlessSynthesis',    'Flawless Synthesis',   10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Goldsmith',    37),
+    pieceByPiece: new Action(      'pieceByPiece',         'Piece By Piece',       10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      50),
 
-  basicTouch: new Action(        'basicTouch',           'Basic Touch',          10,  18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          5),
-  standardTouch: new Action(     'standardTouch',        'Standard Touch',       10,  32,  0.8, 1.25,0.0, 'immediate',   1,  'All',          18),
-  advancedTouch: new Action(     'advancedTouch',        'Advanced Touch',       10,  48,  0.9, 1.5, 0.0, 'immediate',   1,  'All',          43),
-  hastyTouch: new Action(        'hastyTouch',           'Hasty Touch',          10,  0,   0.5, 1.0, 0.0, 'immediate',   1,  'Culinarian',   15),
-  byregotsBlessing: new Action(  'byregotsBlessing',     'Byregot\'s Blessing',  10,  24,  0.9, 1.0, 0.0, 'immediate',   1,  'Carpenter',    50),
+    basicTouch: new Action(        'basicTouch',           'Basic Touch',          10,  18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          5),
+    standardTouch: new Action(     'standardTouch',        'Standard Touch',       10,  32,  0.8, 1.25,0.0, 'immediate',   1,  'All',          18),
+    advancedTouch: new Action(     'advancedTouch',        'Advanced Touch',       10,  48,  0.9, 1.5, 0.0, 'immediate',   1,  'All',          43),
+    hastyTouch: new Action(        'hastyTouch',           'Hasty Touch',          10,  0,   0.5, 1.0, 0.0, 'immediate',   1,  'Culinarian',   15),
+    byregotsBlessing: new Action(  'byregotsBlessing',     'Byregot\'s Blessing',  10,  24,  0.9, 1.0, 0.0, 'immediate',   1,  'Carpenter',    50),
 
-  mastersMend: new Action(       'mastersMend',          'Master\'s Mend',       0,   92,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          7),
-  mastersMend2: new Action(      'mastersMend2',         'Master\'s Mend II',    0,   160, 1.0, 0.0, 0.0, 'immediate',   1,  'All',          25),
-  rumination: new Action(        'rumination',           'Rumination',           0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Carpenter',    15),
-  tricksOfTheTrade: new Action(  'tricksOfTheTrade',     'Tricks Of The Trade',  0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Alchemist',    15),
+    mastersMend: new Action(       'mastersMend',          'Master\'s Mend',       0,   92,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          7),
+    mastersMend2: new Action(      'mastersMend2',         'Master\'s Mend II',    0,   160, 1.0, 0.0, 0.0, 'immediate',   1,  'All',          25),
+    rumination: new Action(        'rumination',           'Rumination',           0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Carpenter',    15),
+    tricksOfTheTrade: new Action(  'tricksOfTheTrade',     'Tricks Of The Trade',  0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Alchemist',    15),
 
-  innerQuiet: new Action(        'innerQuiet',           'Inner Quiet',          0,   18,  1.0, 0.0, 0.0, 'countup',     1,  'All',          11),
-  manipulation: new Action(      'manipulation',         'Manipulation',         0,   88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15),
-  comfortZone: new Action(       'comfortZone',          'Comfort Zone',         0,   66,  1.0, 0.0, 0.0, 'countdown',   10, 'Alchemist',    50),
-  steadyHand: new Action(        'steadyHand',           'Steady Hand',          0,   22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          9),
-  steadyHand2: new Action(       'steadyHand2',          'Steady Hand II',       0,   25,  1.0, 0.0, 0.0, 'countdown',   5,  'Culinarian',   37),
-  wasteNot: new Action(          'wasteNot',             'Waste Not',            0,   56,  1.0, 0.0, 0.0, 'countdown',   4,  'Leatherworker',15),
-  wasteNot2: new Action(         'wasteNot2',            'Waste Not II',         0,   98,  1.0, 0.0, 0.0, 'countdown',   8,  'Leatherworker',50),
-  innovation: new Action(        'innovation',           'Innovation',           0,   18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50),
-  greatStrides: new Action(      'greatStrides',         'Great Strides',        0,   32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
-  ingenuity: new Action(         'ingenuity',            'Ingenuity',            0,   24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15),
-  ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50)
+    innerQuiet: new Action(        'innerQuiet',           'Inner Quiet',          0,   18,  1.0, 0.0, 0.0, 'countup',     1,  'All',          11),
+    manipulation: new Action(      'manipulation',         'Manipulation',         0,   88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15),
+    comfortZone: new Action(       'comfortZone',          'Comfort Zone',         0,   66,  1.0, 0.0, 0.0, 'countdown',   10, 'Alchemist',    50),
+    steadyHand: new Action(        'steadyHand',           'Steady Hand',          0,   22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          9),
+    steadyHand2: new Action(       'steadyHand2',          'Steady Hand II',       0,   25,  1.0, 0.0, 0.0, 'countdown',   5,  'Culinarian',   37),
+    wasteNot: new Action(          'wasteNot',             'Waste Not',            0,   56,  1.0, 0.0, 0.0, 'countdown',   4,  'Leatherworker',15),
+    wasteNot2: new Action(         'wasteNot2',            'Waste Not II',         0,   98,  1.0, 0.0, 0.0, 'countdown',   8,  'Leatherworker',50),
+    innovation: new Action(        'innovation',           'Innovation',           0,   18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50),
+    greatStrides: new Action(      'greatStrides',         'Great Strides',        0,   32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
+    ingenuity: new Action(         'ingenuity',            'Ingenuity',            0,   24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15),
+    ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50),
+
+    dummyAction: new Action(       'dummyAction',          '______________',       0,  0,    1.0, 0.0, 0.0, 'immediate',   1,  'All',          1)
 };
 
 // Test objects

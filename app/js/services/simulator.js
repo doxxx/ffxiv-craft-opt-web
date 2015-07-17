@@ -11,10 +11,6 @@ SimulationService.prototype.start = function(settings, success, error) {
     error({log: '', error: 'empty sequence'});
     return;
   }
-  if (settings.crafter.level < 50 && settings.recipe.level - settings.crafter.level > 5) {
-    error({log: '', error: 'too low level'});
-    return;
-  }
   if (settings.recipe.startQuality === undefined) {
     settings.recipe = angular.copy(settings.recipe);
     settings.recipe.startQuality = 0;
