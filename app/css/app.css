@@ -294,10 +294,6 @@ div[content*="xivdb"] div.tooltip-arrow {
   }
 }
 
-.class-selector .btn-group {
-  margin-bottom: 5px;
-}
-
 
 /* Actions */
 
@@ -524,4 +520,8 @@ legend + .control-group {
 .sidebar + div {
   overflow: hidden;
   background-color: #eeeeee;
+}
+
+.btn {
+  margin-bottom: 5px;
 }
