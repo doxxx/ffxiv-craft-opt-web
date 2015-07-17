@@ -304,7 +304,6 @@ div[content*="xivdb"] div.tooltip-arrow {
 .action {
   display: inline-block;
   margin: 4px;
-  display: inline-block;
   border-radius: 4px;
   box-shadow: black 1px 1px 6px 0px;
 }
@@ -423,17 +422,17 @@ legend + .control-group {
 }
 
 .empty-action {
-  margin: 4px;
-  width: 42px;
-  height: 42px;
-  display: inline-block;
-  overflow: hidden;
-  vertical-align: middle;
+  border: none;
+  box-shadow: none;
+  margin-top: -1px;
+  margin-bottom: -1px;
 }
 
 .sequence-editor .empty-action.lvl-target {
-  outline: inset #eeeeee 2px;
-  background-color: #dddddd;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,0.4) 1px 1px 6px inset;
+  margin-top: -1px;
+  margin-bottom: -1px;
 }
 
 .sequence-editor .lvl-over {
