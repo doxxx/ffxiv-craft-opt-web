@@ -19,7 +19,7 @@ angular.module('ffxivCraftOptWeb.controllers')
     $scope.bonusStats = {};
     $scope.crafterStats = {};
     $scope.sequenceSettings = {};
-    $scope.simulationResult = {};
+    $scope.simulatorStatus = {};
 
 
     $scope.$on('sequence.editor.init', function (event, origSequence, recipe, crafterStats, bonusStats, sequenceSettings) {
@@ -30,7 +30,7 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.bonusStats = bonusStats;
       $scope.crafterStats = crafterStats;
       $scope.sequenceSettings = sequenceSettings;
-      $scope.simulationResult = {};
+      $scope.simulatorStatus = {};
 
       $scope.unwatchSequence = $scope.$watchCollection('sequence', function () {
         $scope.simulate();
@@ -122,14 +122,8 @@ angular.module('ffxivCraftOptWeb.controllers')
       return !angular.equals($scope.sequence, $scope.origSequence);
     };
 
-    $scope.isSimulationResultOk = function () {
-      var state = $scope.simulationResult.state;
-      if (!state) return false;
-      return state.cpOk && state.durabilityOk && state.progressOk;
-    };
-
     $scope.simulate = function () {
-      if ($scope.simulationResult.running) {
+      if ($scope.simulatorStatus.running) {
         return;
       }
       var settings = {
@@ -143,23 +137,19 @@ angular.module('ffxivCraftOptWeb.controllers')
         settings.seed = $scope.sequenceSettings.seed;
       }
 
-      $scope.simulationResult.running = true;
+      $scope.simulatorStatus.running = true;
       _simulator.start(settings, $scope.simulationSuccess, $scope.simulationError);
       $scope.$emit('sequence.editor.simulation.start', $scope.sequence)
     };
 
     $scope.simulationSuccess = function (data) {
-      $scope.simulationResult.state = data.state;
-      $scope.simulationResult.error = undefined;
-      $scope.simulationResult.running = false;
+      $scope.simulatorStatus.running = false;
 
       $scope.$emit('sequence.editor.simulation.success', data);
     };
 
     $scope.simulationError = function (data) {
-      $scope.simulationResult.state = undefined;
-      $scope.simulationResult.error = data.error;
-      $scope.simulationResult.running = false;
+      $scope.simulatorStatus.running = false;
 
       $scope.$emit('sequence.editor.simulation.error', data);
     };
