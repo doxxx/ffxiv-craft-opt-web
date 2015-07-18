@@ -219,6 +219,7 @@
   <div class="sequence well well-small">
     <div ng-show="solverStatus.running">
       <progressbar class="progress-striped active"
+                   animate="false"
                    value="solverStatus.generationsCompleted/solverStatus.maxGenerations*100">
         {{solverStatus.generationsCompleted}}/{{solverStatus.maxGenerations}}
       </progressbar>
