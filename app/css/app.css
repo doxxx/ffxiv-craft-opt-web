@@ -569,3 +569,22 @@ legend + .control-group {
 .btn-group .btn, .settings-buttons .btn, .control-group .btn {
   margin-bottom: 5px;
 }
+
+
+/* Flat Icon Button */
+
+.flat-button {
+  cursor: pointer;
+  padding: 2px;
+  border: 1px solid transparent;
+}
+
+.flat-button:hover {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-color: #eeeeee;
+}
+
+.flat-button:active {
+  background-color: #dddddd;
+}

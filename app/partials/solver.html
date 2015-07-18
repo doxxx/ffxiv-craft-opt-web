@@ -244,7 +244,8 @@
     </div>
   </div>
   <tabset>
-    <tab heading="Simulation Log" active="simulatorTabs.simulation.active">
+    <tab active="simulatorTabs.simulation.active">
+      <tab-heading>Simulation Log &nbsp; <i class="fa fa-refresh flat-button" ng-click="runSimulation()"></i></tab-heading>
       <pre>{{simulatorStatus.logText}}</pre>
     </tab>
     <tab heading="Solver Log" active="simulatorTabs.solver.active">
