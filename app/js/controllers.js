@@ -204,13 +204,23 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.saveAsKeyPress = function (event) {
       if (event.which == 13) {
         event.preventDefault();
-        var name = $scope.settings.saveAsName;
-        if (name && name.length > 0) {
-          $scope.settings.name = name;
-          $scope.saveSynth();
-          event.target.parentNode.parentNode.closeMenu();
-        }
+        $scope.saveAsAccept();
       }
+    };
+
+    $scope.saveAsAccept = function () {
+      var name = $scope.settings.saveAsName;
+      if (name && name.length > 0) {
+        $scope.settings.name = name;
+        $scope.saveSynth();
+      }
+      document.getElementById('save-as-input').blur();
+      document.getElementById('save-as-menu').closeMenu();
+    };
+
+    $scope.saveAsCancel = function () {
+      document.getElementById('save-as-input').blur();
+      document.getElementById('save-as-menu').closeMenu();
     };
 
     $scope.deleteSynth = function (name) {

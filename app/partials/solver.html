@@ -41,11 +41,17 @@
       </ul>
     </div>
     <button type="button" class="btn" ng-click="saveSynth()" ng-disabled="!isSynthDirty() || settings.name == ''">Save</button>
-    <div class="my-dropdown save-as-control">
+    <div id="save-as-menu" class="my-dropdown save-as-control">
       <button type="button" class="btn my-dropdown-toggle" ng-click="saveAsSetup()">Save As...</button>
       <div class="my-dropdown-menu">
-        <input class="input-medium my-dropdown-focus" type="text" ng-model="settings.saveAsName"
-               select-on-focus stop-click-propogation ng-keypress="saveAsKeyPress($event)"/>
+        <div class="input-append">
+          <input id="save-as-input" class="input-medium my-dropdown-focus" type="text" ng-model="settings.saveAsName"
+                 select-on-focus stop-click-propogation ng-keypress="saveAsKeyPress($event)"/>
+          <div class="btn-group">
+            <button type="button" class="btn btn-success" ng-click="saveAsAccept()"><i class="fa fa-check"></i></button>
+            <button type="button" class="btn" ng-click="saveAsCancel()"><i class="fa fa-times"></i></button>
+          </div>
+        </div>
       </div>
     </div>
     <div class="dropdown">

@@ -293,6 +293,14 @@ div[content*="xivdb"] div.tooltip-arrow {
   display: block;
 }
 
+.my-dropdown-menu .input-append {
+  margin: 0;
+}
+
+.my-dropdown-menu .btn {
+  margin: 0 !important;
+}
+
 
 /* Class Selector */
 
