@@ -184,6 +184,18 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     $scope.editingSequence = false;
   });
 
+  $scope.$on('sequence.editor.simulation.start', function (event) {
+    $scope.simulatorStatus.running = true;
+  });
+
+  $scope.$on('sequence.editor.simulation.success', function (event, data) {
+    simulationSuccess(data);
+  });
+
+  $scope.$on('sequence.editor.simulation.error', function (event, data) {
+    simulationError(data);
+  });
+
   $scope.editSequenceInline = function () {
     $scope.editingSequence = true;
     $scope.$broadcast('sequence.editor.init', $scope.sequence,  $scope.recipe, $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings)

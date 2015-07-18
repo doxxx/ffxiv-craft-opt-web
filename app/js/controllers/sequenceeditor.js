@@ -153,7 +153,7 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.simulationResult.error = undefined;
       $scope.simulationResult.running = false;
 
-      $scope.$emit('sequence.editor.simulation.success', data.state);
+      $scope.$emit('sequence.editor.simulation.success', data);
     };
 
     $scope.simulationError = function (data) {
@@ -161,7 +161,7 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.simulationResult.error = data.error;
       $scope.simulationResult.running = false;
 
-      $scope.$emit('sequence.editor.simulation.error', data.error);
+      $scope.$emit('sequence.editor.simulation.error', data);
     };
 
     $scope.clear = function () {
