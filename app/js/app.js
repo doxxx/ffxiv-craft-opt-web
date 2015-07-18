@@ -2,7 +2,6 @@
 
 // Declare app level module which depends on filters, and services
 angular.module('ffxivCraftOptWeb', [
-  'ngTouch',
   'ui.bootstrap',
   'ui.router',
   'pascalprecht.translate',
