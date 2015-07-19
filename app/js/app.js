@@ -18,11 +18,11 @@ angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.filters',
   'ffxivCraftOptWeb.controllers'
 ], function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/crafter');
+  $urlRouterProvider.otherwise('/solver');
   $stateProvider
-    .state('crafter', {
-      url: '/crafter',
-      templateUrl: 'partials/crafter.html',
+    .state('crafter-attributes', {
+      url: '/crafter-attributes',
+      templateUrl: '../partials/crafter-attributes.html',
       controller: 'CrafterStatsController'
     })
     .state('solver', {
@@ -32,7 +32,7 @@ angular.module('ffxivCraftOptWeb', [
     })
     .state('options', {
       url: '/options',
-      templateUrl: 'partials/options.html'
+      templateUrl: '../partials/options.html'
     })
     .state('instructions', {
       url: '/instructions',
