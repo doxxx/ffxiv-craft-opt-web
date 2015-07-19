@@ -426,6 +426,7 @@ function loadLocalPageState_v2($scope) {
   extend($scope.recipe, state.recipe);
   extend($scope.sequenceSettings, state.sequenceSettings);
   extend($scope.solver, state.solver);
+  extend($scope.macroOptions, state.macroOptions || {});
 
   $scope.sequence = state.sequence;
 
@@ -490,7 +491,8 @@ function saveLocalPageState_v2($scope) {
     sequenceSettings: $scope.sequenceSettings,
     solver: $scope.solver,
     settingsName: $scope.settings.name,
-    crafterClass: $scope.crafter.cls
+    crafterClass: $scope.crafter.cls,
+    macroOptions: $scope.macroOptions
   };
 
   localStorage['pageStage_v2'] = JSON.stringify(state)
