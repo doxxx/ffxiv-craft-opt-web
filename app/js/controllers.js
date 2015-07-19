@@ -338,22 +338,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       });
     };
 
-    $scope.showMacroModal = function () {
-      $modal.open({
-        templateUrl: 'partials/macro.html',
-        controller: 'MacroCtrl',
-        windowClass: 'macro-modal',
-        resolve: {
-          allActions: function () {
-            return _actionsByName;
-          },
-          sequence: function () {
-            return $scope.sequence;
-          }
-        }
-      });
-    };
-
     // Final initialization
     loadLocalPageState($scope);
 

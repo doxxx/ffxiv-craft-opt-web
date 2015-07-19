@@ -1,10 +1,10 @@
 angular.module('ffxivCraftOptWeb.controllers')
-  .controller('MacroCtrl', function ($scope, $modalInstance, $translate, allActions, sequence) {
+  .controller('MacroCtrl', function ($scope, $translate, _actionsByName) {
     $scope.waitTime = 3;
     $scope.insertTricks = false;
 
     function createMacros() {
-      if (typeof sequence == 'undefined') {
+      if (typeof $scope.sequence == 'undefined') {
         return '';
       }
 
@@ -18,10 +18,10 @@ angular.module('ffxivCraftOptWeb.controllers')
       var waitString = '<wait.' + waitTime + '>';
       var lines = [];
 
-      for (var i = 0; i < sequence.length; i++) {
-        var action = sequence[i];
+      for (var i = 0; i < $scope.sequence.length; i++) {
+        var action = $scope.sequence[i];
         if (action !== 'tricksOfTheTrade') {
-          var actionName = $translate.instant(allActions[action].name);
+          var actionName = $translate.instant(_actionsByName[action].name);
           lines.push('/ac "' + actionName + '" <me> ' + waitString + '\n');
           if (insertTricks) {
             lines.append('/ac "' + totName + '" <me> ' + waitString + '\n');
@@ -51,7 +51,9 @@ angular.module('ffxivCraftOptWeb.controllers')
       return macros;
     }
 
-    $scope.macros = createMacros();
+    $scope.$watch('sequence', function () {
+      $scope.macros = createMacros();
+    });
 
     $scope.$watch('waitTime', function () {
       $scope.macros = createMacros();
@@ -61,7 +63,4 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.macros = createMacros();
     });
 
-    $scope.close = function () {
-      $modalInstance.dismiss('close');
-    }
   });

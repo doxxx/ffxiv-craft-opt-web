@@ -41,10 +41,6 @@ legend small > .light {
   cursor: text;
 }
 
-.accordion-group {
-  border: none;
-}
-
 .accordion a {
   text-decoration: none;
 }
