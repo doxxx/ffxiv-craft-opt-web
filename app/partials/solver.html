@@ -1,34 +1,4 @@
-<h3 class="page-title">Solver<span ng-show="synthNameForDisplay()"><small> [{{synthNameForDisplay()}}]</small></span></h3>
-<div class="row-fluid class-selector-group">
-  <div class="class-selector-group-left">
-    <div class="btn-group">
-      <button class="btn btn-primary"
-              ng-model="recipe.cls"
-              btn-radio="class"
-              ng-repeat="class in splitClasses[0]"
-              tooltip="{{class}}"
-              tooltip-class="class-selector"
-              tooltip-placement="top"
-              tooltip-popup-delay="200">
-        <img ng-src="img/classes/{{class}}.png"/>
-      </button>
-    </div>
-  </div>
-  <div class="class-selector-group-right">
-    <div class="btn-group">
-      <button class="btn btn-primary"
-              ng-model="recipe.cls"
-              btn-radio="class"
-              ng-repeat="class in splitClasses[1]"
-              tooltip="{{class}}"
-              tooltip-class="class-selector"
-              tooltip-placement="top"
-              tooltip-popup-delay="200">
-        <img ng-src="img/classes/{{class}}.png"/>
-      </button>
-    </div>
-  </div>
-</div>
+<h3 class="page-title">Solver</h3>
 <div class="row-fluid">
   <div class="settings-buttons">
     <div class="dropdown">
@@ -74,33 +44,36 @@
 </div>
 <div class="row-fluid">
   <div class="span12 recipe-search-control">
-    <span class="my-dropdown" id="recipe-menu-root">
-      <div class="input-append">
-        <span class="span3 uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
-        <div class="btn-group">
-          <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
-          <button class="btn" ng-click="showAddRecipeModal()"><i class="fa fa-plus"></i></button>
+    <form class="form-inline">
+      <select class="input-medium" ng-model="recipe.cls" ng-options="cls for cls in allClasses" required></select>
+      <span class="my-dropdown" id="recipe-menu-root">
+        <div class="input-append">
+          <span class="span3 uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
+          <div class="btn-group">
+            <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
+            <button class="btn" ng-click="showAddRecipeModal()"><i class="fa fa-plus"></i></button>
+          </div>
         </div>
-      </div>
-      <div class="my-dropdown-menu">
-        <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="recipeSearch.text"
-               placeholder="Search..." select-on-focus stop-click-propogation
-               ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"
-               id="recipe-search-text"/>
-        <ul class="recipe-menu-scrollable" isolate-scrolling>
-          <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...</li>
-          <li ng-hide="recipeSearch.loading"
-              ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
-              ng-class="{active: $index === recipeSearch.selected}"
-              id="recipeSearchElement{{$index}}"
-              ng-mouseover="recipeSearch.selected=$index"
-              ng-click="recipeSelected(r.name)">
-            <a ng-click="recipeSelected(r.name)">[{{r.level}}] {{r.name}}</a>
-            <a ng-show="r.user" class="pull-right" ng-click="deleteUserRecipe(r.name)"><i class="fa fa-minus-circle"></i></a>
-          </li>
-        </ul>
-      </div>
-    </span>
+        <div class="my-dropdown-menu">
+          <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="recipeSearch.text"
+                 placeholder="Search..." select-on-focus stop-click-propogation
+                 ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"
+                 id="recipe-search-text"/>
+          <ul class="recipe-menu-scrollable" isolate-scrolling>
+            <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...</li>
+            <li ng-hide="recipeSearch.loading"
+                ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
+                ng-class="{active: $index === recipeSearch.selected}"
+                id="recipeSearchElement{{$index}}"
+                ng-mouseover="recipeSearch.selected=$index"
+                ng-click="recipeSelected(r.name)">
+              <a ng-click="recipeSelected(r.name)">[{{r.level}}] {{r.name}}</a>
+              <a ng-show="r.user" class="pull-right" ng-click="deleteUserRecipe(r.name)"><i class="fa fa-minus-circle"></i></a>
+            </li>
+          </ul>
+        </div>
+      </span>
+    </form>
   </div>
 </div>
 <h4>Sequence

@@ -79,7 +79,7 @@ legend small > .light {
 }
 
 .recipe-search-control .my-dropdown-menu {
-  margin-top: 3px;
+  margin-top: 12px;
   padding-bottom: 0px;
   padding-top: 0px;
   width: 335px;
@@ -566,7 +566,7 @@ legend + .control-group {
   background-color: #eeeeee;
 }
 
-.btn-group .btn, .settings-buttons .btn, .control-group .btn {
+.settings-buttons .btn, .control-group .btn {
   margin-bottom: 5px;
 }
 
