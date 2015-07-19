@@ -68,8 +68,23 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     buildTooltipsCache($translate.use());
 
 
-    // non-persistent page states
-    $scope.navBarCollapsed = true;
+    // non-persistent page state
+    $scope.pageState = {
+      navBarCollapsed: true,
+      solver: {
+        macrosVisible: false
+      },
+      options: {
+        tabs: {
+          solver: {
+            active: true
+          },
+          macro: {
+            active: false
+          }
+        }
+      }
+    };
 
     $scope.onProfileLoaded = function () {
       $scope.userInfo = $scope.profile.userInfo();
@@ -136,6 +151,11 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.$watchCollection('solver', function () {
         saveLocalPageState($scope);
         $scope.$broadcast('solver.changed', $scope.solver);
+      });
+
+      $scope.$watchCollection('macroOptions', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('macro.options.changed', $scope.macroOptions);
       });
 
       // Trigger initial simulation using newly loaded profile
@@ -389,6 +409,10 @@ function initPageStateDefaults($scope) {
     penaltyWeight: 10000,
     population: 300,
     generations: 100
+  };
+
+  $scope.macroOptions = {
+    waitTime: 3
   };
 }
 
