@@ -215,30 +215,14 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
-    $scope.saveAsSetup = function () {
-      $scope.settings.saveAsName = $scope.settings.name || $scope.recipe.name || '';
-    };
-
-    $scope.saveAsKeyPress = function (event) {
-      if (event.which == 13) {
-        event.preventDefault();
-        $scope.saveAsAccept();
+    $scope.saveSynthAs = function (name) {
+      if (name === undefined || name === '') {
+        name = $scope.recipe.name;
       }
-    };
-
-    $scope.saveAsAccept = function () {
-      var name = $scope.settings.saveAsName;
-      if (name && name.length > 0) {
-        $scope.settings.name = name;
-        $scope.saveSynth();
-      }
-      document.getElementById('save-as-input').blur();
-      document.getElementById('save-as-menu').closeMenu();
-    };
-
-    $scope.saveAsCancel = function () {
-      document.getElementById('save-as-input').blur();
-      document.getElementById('save-as-menu').closeMenu();
+      var newName = window.prompt('Enter new synth name:', name);
+      if (newName === null || newName.length === 0) return;
+      $scope.settings.name = newName;
+      $scope.saveSynth();
     };
 
     $scope.deleteSynth = function (name) {
@@ -252,7 +236,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.renameSynth = function (name) {
-      var newName = window.prompt('Enter new synth name:');
+      var newName = window.prompt('Enter new synth name:', name);
       if (newName === null || newName.length === 0) return;
       $scope.profile.renameSynth(name, newName);
       if (name == $scope.settings.name) {
