@@ -175,9 +175,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.newSynth = function () {
       $scope.settings.name = '';
-      var newRecipe = newRecipeStats($scope.crafter.cls);
-      newRecipe.cls = $scope.recipe.cls;
-      $scope.recipe = newRecipe;
+      $scope.recipe = newRecipeStats($scope.recipe.cls);
       $scope.bonusStats = newBonusStats();
 
       $scope.$broadcast('synth.changed');
