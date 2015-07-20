@@ -274,7 +274,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
       settings.seed = $scope.sequenceSettings.seed;
     }
     $scope.solverStatus.running = true;
-    _solver.start($scope.sequence, settings, solverProgress, solverSuccess, solverError);
+    _solver.start(settings, solverProgress, solverSuccess, solverError);
   };
 
   $scope.resetSolver = function() {
