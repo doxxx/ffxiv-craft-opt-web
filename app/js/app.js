@@ -16,7 +16,8 @@ angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.services.xivdbtooltips',
   'ffxivCraftOptWeb.directives',
   'ffxivCraftOptWeb.filters',
-  'ffxivCraftOptWeb.controllers'
+  'ffxivCraftOptWeb.controllers',
+  'ffxivCraftOptWeb.components'
 ], function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/solver');
   $stateProvider
