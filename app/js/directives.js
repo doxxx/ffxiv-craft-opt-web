@@ -17,7 +17,7 @@ angular.module('ffxivCraftOptWeb.directives', [])
         isOpen: '=',
         title: '@'
       },
-      templateUrl: 'partials/section-header.html'
+      templateUrl: 'components/section-header.html'
     }
   })
 
@@ -177,7 +177,7 @@ angular.module('ffxivCraftOptWeb.directives', [])
   .directive('simulatorStatus', function () {
     return {
       restrict: 'E',
-      templateUrl: 'partials/simulator-status.html',
+      templateUrl: 'components/simulator-status.html',
       scope: {
         recipe: '=',
         status: '=',
