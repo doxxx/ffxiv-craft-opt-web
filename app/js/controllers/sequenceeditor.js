@@ -13,7 +13,7 @@ angular.module('ffxivCraftOptWeb.controllers')
 
 
     $scope.origSequence = [];
-    $scope.sequence = [];
+    $scope.editSequence = [];
     $scope.availableActions = [];
     $scope.recipe = {};
     $scope.bonusStats = {};
@@ -24,7 +24,7 @@ angular.module('ffxivCraftOptWeb.controllers')
 
     $scope.$on('sequence.editor.init', function (event, origSequence, recipe, crafterStats, bonusStats, sequenceSettings) {
       $scope.origSequence = origSequence;
-      $scope.sequence = angular.copy(origSequence);
+      $scope.editSequence = angular.copy(origSequence);
       $scope.availableActions = crafterStats.actions;
       $scope.recipe = recipe;
       $scope.bonusStats = bonusStats;
@@ -32,7 +32,7 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.sequenceSettings = sequenceSettings;
       $scope.simulatorStatus = {};
 
-      $scope.unwatchSequence = $scope.$watchCollection('sequence', function () {
+      $scope.unwatchSequence = $scope.$watchCollection('editSequence', function () {
         $scope.simulate();
       });
     });
@@ -81,7 +81,7 @@ angular.module('ffxivCraftOptWeb.controllers')
       if (newAction) {
 
         // insert new action into the drop position
-        $scope.sequence.splice(dropIndex, 0, newAction);
+        $scope.editSequence.splice(dropIndex, 0, newAction);
       }
       else {
         var dragIndex = parseInt(drag.attr('data-index'));
@@ -90,14 +90,14 @@ angular.module('ffxivCraftOptWeb.controllers')
         if (dragIndex == dropIndex) return;
 
         // insert dragged action into the drop position
-        $scope.sequence.splice(dropIndex, 0, $scope.sequence[dragIndex]);
+        $scope.editSequence.splice(dropIndex, 0, $scope.editSequence[dragIndex]);
 
         // remove dragged action from its original position
         if (dropIndex > dragIndex) {
-          $scope.sequence.splice(dragIndex, 1);
+          $scope.editSequence.splice(dragIndex, 1);
         }
         else {
-          $scope.sequence.splice(dragIndex + 1, 1);
+          $scope.editSequence.splice(dragIndex + 1, 1);
         }
       }
 
@@ -105,11 +105,11 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.addAction = function (action) {
-      $scope.sequence.push(action);
+      $scope.editSequence.push(action);
     };
 
     $scope.removeAction = function (index) {
-      $scope.sequence.splice(index, 1)
+      $scope.editSequence.splice(index, 1)
     };
 
     $scope.isValidSequence = function (sequence, cls) {
@@ -119,7 +119,7 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.isSequenceDirty = function () {
-      return !angular.equals($scope.sequence, $scope.origSequence);
+      return !angular.equals($scope.editSequence, $scope.origSequence);
     };
 
     $scope.simulate = function () {
@@ -129,7 +129,7 @@ angular.module('ffxivCraftOptWeb.controllers')
       var settings = {
         crafter: addBonusStats($scope.crafterStats, $scope.bonusStats),
         recipe: $scope.recipe,
-        sequence: $scope.sequence,
+        sequence: $scope.editSequence,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns
       };
@@ -138,32 +138,34 @@ angular.module('ffxivCraftOptWeb.controllers')
       }
 
       $scope.simulatorStatus.running = true;
+      $scope.$emit('sequence.editor.simulation.start', $scope.editSequence);
       _simulator.start(settings, $scope.simulationSuccess, $scope.simulationError);
-      $scope.$emit('sequence.editor.simulation.start', $scope.sequence)
     };
 
     $scope.simulationSuccess = function (data) {
       $scope.simulatorStatus.running = false;
 
+      data.sequence = $scope.editSequence;
       $scope.$emit('sequence.editor.simulation.success', data);
     };
 
     $scope.simulationError = function (data) {
       $scope.simulatorStatus.running = false;
 
+      data.sequence = $scope.editSequence;
       $scope.$emit('sequence.editor.simulation.error', data);
     };
 
     $scope.clear = function () {
-      $scope.sequence = [];
+      $scope.editSequence = [];
     };
 
     $scope.revert = function () {
-      $scope.sequence = angular.copy($scope.origSequence);
+      $scope.editSequence = angular.copy($scope.origSequence);
     };
 
     $scope.save = function () {
-      $scope.$emit('sequence.editor.save', $scope.sequence);
+      $scope.$emit('sequence.editor.save', $scope.editSequence);
 
       $scope.unwatchSequence();
     };
