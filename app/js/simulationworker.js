@@ -69,6 +69,7 @@ self.onmessage = function(e) {
 
   var result = {
     success: {
+      sequence: settings.sequence,
       log: logOutput.log,
       state: {
         quality: finalState.qualityState,
