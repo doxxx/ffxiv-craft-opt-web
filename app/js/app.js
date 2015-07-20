@@ -22,25 +22,25 @@ angular.module('ffxivCraftOptWeb', [
   $stateProvider
     .state('crafter-attributes', {
       url: '/crafter-attributes',
-      templateUrl: '../partials/crafter-attributes.html',
+      templateUrl: 'views/crafter-attributes.html',
       controller: 'CrafterStatsController'
     })
     .state('solver', {
       url: '/solver',
-      templateUrl: 'partials/solver.html',
+      templateUrl: 'views/solver.html',
       controller: 'SolverController'
     })
     .state('options', {
       url: '/options',
-      templateUrl: '../partials/options.html'
+      templateUrl: 'views/options.html'
     })
     .state('instructions', {
       url: '/instructions',
-      templateUrl: 'partials/instructions.html'
+      templateUrl: 'views/instructions.html'
     })
     .state('about', {
       url: '/about',
-      templateUrl: 'partials/about.html'
+      templateUrl: 'views/about.html'
     })
 })
   .config(function($translateProvider) {
