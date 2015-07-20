@@ -128,7 +128,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   });
 
   function simulationSuccess(data) {
-    $scope.simulatorStatus.sequence = $scope.sequence;
+    $scope.simulatorStatus.sequence = data.sequence;
     $scope.simulatorStatus.logText = data.log;
     $scope.simulatorStatus.state = data.state;
     $scope.simulatorStatus.error = undefined;
@@ -137,7 +137,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   }
 
   function simulationError(data) {
-    $scope.simulatorStatus.sequence = $scope.sequence;
+    $scope.simulatorStatus.sequence = data.sequence;
     $scope.simulatorStatus.logText = data.log;
     $scope.simulatorStatus.logText += '\n\nError: ' + data.error;
     $scope.simulatorStatus.state = undefined;
