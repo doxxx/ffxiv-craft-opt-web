@@ -126,13 +126,18 @@ angular.module('ffxivCraftOptWeb.controllers')
       if ($scope.simulatorStatus.running) {
         return;
       }
+
       var settings = {
         crafter: addBonusStats($scope.crafterStats, $scope.bonusStats),
         recipe: $scope.recipe,
         sequence: $scope.editSequence,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns
+        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
+        useConditions: $scope.sequenceSettings.useConditions,
+        debug: $scope.sequenceSettings.debug
       };
+
       if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
       }
