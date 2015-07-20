@@ -61,7 +61,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.currentLang = function () {
       return $translate.use();
     };
-    
+
     $rootScope.$on('$translateChangeSuccess', function (event, data) {
       buildTooltipsCache(data.language);
     });
@@ -211,7 +211,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       settings.solver = $scope.solver;
 
       $scope.profile.saveSynth($scope.settings.name, settings);
-      
+
       $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
