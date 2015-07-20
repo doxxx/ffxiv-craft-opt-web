@@ -327,7 +327,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.showStatBonusesModal = function () {
       var modalInstance = $modal.open({
-        templateUrl: 'partials/stat-bonus-editor.html',
+        templateUrl: 'modals/stat-bonus-editor.html',
         controller: 'StatBonusEditorCtrl',
         windowClass: 'stat-bonus-editor',
         resolve: {

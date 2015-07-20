@@ -94,7 +94,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
   $scope.showAddRecipeModal = function () {
     var modalInstance = $modal.open({
-      templateUrl: 'partials/add-recipe.html',
+      templateUrl: 'modals/add-recipe.html',
       controller: 'AddRecipeController',
       windowClass: 'add-recipe-modal',
       resolve: {
