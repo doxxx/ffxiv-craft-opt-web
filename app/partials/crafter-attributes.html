@@ -46,7 +46,7 @@
                     <img ng-repeat="action in actionGroup.actions track by $index"
                          class="action selectable-action"
                          ng-class="actionClasses(action, tab.name)"
-                         ng-click="toggleAction(action)"
+                         ng-click="toggleAction(action, tab.name)"
                          ng-src="{{getActionImagePath(action, tab.name)}}"
                          tooltip-html-unsafe="{{actionTooltip(action, tab.name)}}"
                          tooltip-placement="left"

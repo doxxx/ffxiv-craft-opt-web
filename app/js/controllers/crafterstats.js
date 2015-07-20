@@ -8,13 +8,13 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsControlle
     $scope.tabs.push({ name: cls, active: cls === $scope.recipe.cls });
   }
 
-  $scope.toggleAction = function (action) {
-    var i = $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action);
+  $scope.toggleAction = function (action, cls) {
+    var i = $scope.crafter.stats[cls].actions.indexOf(action);
     if (i >= 0) {
-      $scope.crafter.stats[$scope.crafter.cls].actions.splice(i, 1);
+      $scope.crafter.stats[cls].actions.splice(i, 1);
     }
     else {
-      $scope.crafter.stats[$scope.crafter.cls].actions.push(action);
+      $scope.crafter.stats[cls].actions.push(action);
     }
   };
 
