@@ -1,0 +1,13 @@
+<div class="action-group" ng-repeat="actionGroup in actionGroups">
+  <label class="action-group-label">{{actionGroup.name}}</label>
+  <div class="action-group-actions">
+    <img ng-repeat="action in actionGroup.actions track by $index"
+         ng-class="_actionClasses(action, cls)"
+         ng-click="onClick(action, cls)"
+         ng-src="{{getActionImagePath(action, cls)}}"
+         tooltip-html-unsafe="{{actionTooltip(action, cls)}}"
+         tooltip-placement="left"
+         tooltip-popup-delay="1000"
+         tooltip-append-to-body="true"/>
+  </div>
+</div>

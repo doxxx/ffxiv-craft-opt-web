@@ -40,20 +40,7 @@
             <form class="action-table">
               <fieldset>
                 <legend>Available Actions</legend>
-                <div class="action-group" ng-repeat="actionGroup in actionGroups">
-                  <label class="action-group-label">{{actionGroup.name}}</label>
-                  <div class="action-group-actions">
-                    <img ng-repeat="action in actionGroup.actions track by $index"
-                         class="action selectable-action"
-                         ng-class="actionClasses(action, tab.name)"
-                         ng-click="toggleAction(action, tab.name)"
-                         ng-src="{{getActionImagePath(action, tab.name)}}"
-                         tooltip-html-unsafe="{{actionTooltip(action, tab.name)}}"
-                         tooltip-placement="left"
-                         tooltip-popup-delay="1000"
-                         tooltip-append-to-body="true"/>
-                  </div>
-                </div>
+                <action-table cls="tab.name" on-click="toggleAction" action-classes="actionClasses" selectable="true"/>
               </fieldset>
             </form>
           </div>
