@@ -18,4 +18,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsControlle
     }
   };
 
+  $scope.onTabSelect = function (tab) {
+    $scope.currentClass = tab.name;
+  }
+
 });

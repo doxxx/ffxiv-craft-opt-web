@@ -2,50 +2,50 @@
 <div class="row-fluid">
   <div class="span12">
     <tabset>
-      <tab ng-repeat="tab in tabs" active="tab.active">
+      <tab ng-repeat="tab in tabs" active="tab.active" select="onTabSelect(tab)">
         <tab-heading><img ng-src="img/classes/{{tab.name}}.png"/> &nbsp; {{tab.name}}</tab-heading>
-        <div class="row-fluid">
-          <div class="span6">
-            <form class="form-horizontal" name="crafterForm">
-              <fieldset>
-                <legend>Attributes</legend>
-                <div class="control-group" ng-class="{error: !crafterForm.level.$valid}">
-                  <label class="control-label">Level</label>
-                  <div class="controls">
-                    <input class="input-mini" type="number" name="level" ng-model="crafter.stats[tab.name].level" min="1" max="60" required/>
-                  </div>
-                </div>
-                <div class="control-group" ng-class="{error: !crafterForm.craftsmanship.$valid}">
-                  <label class="control-label">Craftsmanship</label>
-                  <div class="controls">
-                    <input class="input-mini" type="number" name="craftsmanship" ng-model="crafter.stats[tab.name].craftsmanship" min="0" required/>
-                  </div>
-                </div>
-                <div class="control-group" ng-class="{error: !crafterForm.control.$valid}">
-                  <label class="control-label">Control</label>
-                  <div class="controls">
-                    <input class="input-mini" type="number" name="control" ng-model="crafter.stats[tab.name].control" min="0" required/>
-                  </div>
-                </div>
-                <div class="control-group" ng-class="{error: !crafterForm.cp.$valid}">
-                  <label class="control-label">CP</label>
-                  <div class="controls">
-                    <input class="input-mini" type="number" name="cp" ng-model="crafter.stats[tab.name].cp" min="0" required/>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
-          </div>
-          <div class="span6">
-            <form class="action-table">
-              <fieldset>
-                <legend>Available Actions</legend>
-                <action-table cls="tab.name" on-click="toggleAction" action-classes="actionClasses" selectable="true"/>
-              </fieldset>
-            </form>
-          </div>
-        </div>
       </tab>
     </tabset>
+    <div class="row-fluid">
+      <div class="span6">
+        <form class="form-horizontal" name="crafterForm">
+          <fieldset>
+            <legend>Attributes</legend>
+            <div class="control-group" ng-class="{error: !crafterForm.level.$valid}">
+              <label class="control-label">Level</label>
+              <div class="controls">
+                <input class="input-mini" type="number" name="level" ng-model="crafter.stats[currentClass].level" min="1" max="60" required/>
+              </div>
+            </div>
+            <div class="control-group" ng-class="{error: !crafterForm.craftsmanship.$valid}">
+              <label class="control-label">Craftsmanship</label>
+              <div class="controls">
+                <input class="input-mini" type="number" name="craftsmanship" ng-model="crafter.stats[currentClass].craftsmanship" min="0" required/>
+              </div>
+            </div>
+            <div class="control-group" ng-class="{error: !crafterForm.control.$valid}">
+              <label class="control-label">Control</label>
+              <div class="controls">
+                <input class="input-mini" type="number" name="control" ng-model="crafter.stats[currentClass].control" min="0" required/>
+              </div>
+            </div>
+            <div class="control-group" ng-class="{error: !crafterForm.cp.$valid}">
+              <label class="control-label">CP</label>
+              <div class="controls">
+                <input class="input-mini" type="number" name="cp" ng-model="crafter.stats[currentClass].cp" min="0" required/>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="span6">
+        <form class="action-table">
+          <fieldset>
+            <legend>Available Actions</legend>
+            <action-table cls="currentClass" on-click="toggleAction" action-classes="actionClasses" selectable="true"/>
+          </fieldset>
+        </form>
+      </div>
+    </div>
   </div>
 </div>
