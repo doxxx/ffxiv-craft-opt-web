@@ -9,7 +9,9 @@ angular.module('ffxivCraftOptWeb.components')
         cls: '=',
         onClick: '=',
         actionClasses: '=',
-        selectable: '='
+        selectable: '=',
+        draggable: '=',
+        tooltipPlacement: '@'
       },
       controller: function ($scope, $rootScope, $translate, _allActions, _allClasses, _actionGroups, _actionsByName, _xivdbtooltips) {
         $scope.actionGroups = _actionGroups;

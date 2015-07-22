@@ -6,8 +6,10 @@
          ng-click="onClick(action, cls)"
          ng-src="{{getActionImagePath(action, cls)}}"
          tooltip-html-unsafe="{{actionTooltip(action, cls)}}"
-         tooltip-placement="left"
+         tooltip-placement="{{tooltipPlacement}}"
          tooltip-popup-delay="1000"
-         tooltip-append-to-body="true"/>
+         tooltip-append-to-body="true"
+         lvl-draggable="draggable"
+         data-new-action="{{action}}"/>
   </div>
 </div>

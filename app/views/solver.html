@@ -107,22 +107,7 @@
         </div>
         <h5>Available Actions</h5>
         <div class="action-table">
-          <div class="action-group" ng-repeat="actionGroup in actionGroups">
-            <label class="action-group-label">{{actionGroup.name}}</label>
-            <div class="action-group-actions">
-              <img ng-repeat="action in actionGroup.actions track by $index"
-                   class="action selectable-action"
-                   ng-class="actionClasses(action, recipe.cls)"
-                   ng-show="isActionSelected(action)"
-                   ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                   ng-click="addAction(action)"
-                   tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
-                   tooltip-placement="right"
-                   tooltip-popup-delay="1000"
-                   lvl-draggable="true"
-                   data-new-action="{{action}}"/>
-            </div>
-          </div>
+          <action-table cls="recipe.cls" action-classes="actionClasses" selectable="true" draggable="true" on-click="addAction" tooltip-placement="right"/>
         </div>
       </div>
       <div ng-show="!editingSequence">
