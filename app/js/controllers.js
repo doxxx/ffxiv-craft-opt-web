@@ -275,14 +275,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
     };
 
-    $scope.actionClasses = function (action, cls) {
-      return {
-        'selected-action': $scope.isActionSelected(action, cls),
-        'action-cross-class': $scope.isActionCrossClass(action, cls),
-        'invalid-action': !$scope.isActionSelected(action, cls)
-      }
-    };
-
     $scope.isActionSelected = function (action, cls) {
       return $scope.crafter &&
              $scope.crafter.stats &&
@@ -314,15 +306,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.sequenceActionTooltip = function (action, cls) {
       return $scope.actionTooltip(action, cls);
-    };
-
-    $scope.uniqueCrossClassActions = function (sequence, cls) {
-      if (typeof sequence == 'undefined') return [];
-      var crossClassActions = sequence.filter(function (action) {
-        var actionClass = _actionsByName[action].cls;
-        return actionClass != 'All' && actionClass != cls;
-      });
-      return crossClassActions.unique();
     };
 
     $scope.showStatBonusesModal = function () {

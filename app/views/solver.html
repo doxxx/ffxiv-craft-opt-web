@@ -93,17 +93,9 @@
           <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">Revert</button>
           <button class="btn btn-warning" ng-disabled="editSequence.length == 0" ng-click="clear()">Clear</button>
         </div>
-        <div ng-show="uniqueCrossClassActions(editSequence, recipe.cls).length > 0">
+        <div ng-show="uniqueCrossClassActions.length > 0">
           <h5>Required Cross Class Actions</h5>
-          <div class="sequence well well-small">
-            <img ng-repeat="action in uniqueCrossClassActions(editSequence, recipe.cls) track by $index"
-                 class="action"
-                 ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                 tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-                 tooltip-placement="right"
-                 tooltip-popup-delay="1000"
-                 tooltip-append-to-body="true"/>
-          </div>
+          <action-sequence actions="uniqueCrossClassActions" cls="recipe.cls" tooltip-placement="right" action-classes="seqeunceActionClasses"></action-sequence>
         </div>
         <h5>Available Actions</h5>
         <div class="action-table">
@@ -111,16 +103,7 @@
         </div>
       </div>
       <div ng-show="!editingSequence">
-        <div class="sequence well well-small">
-          <img ng-repeat="action in sequence track by $index"
-               class="action"
-               ng-class="actionClasses(action, recipe.cls)"
-               ng-src="{{getActionImagePath(action, recipe.cls)}}"
-               tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
-               tooltip-placement="right"
-               tooltip-popup-delay="1000"
-               tooltip-append-to-body="true"/>
-        </div>
+        <action-sequence actions="sequence" cls="recipe.cls" tooltip-placement="right" action-classes="seqeunceActionClasses"></action-sequence>
         <div class="control-group">
           <button class="btn btn-primary" ng-click="editSequenceInline()" ng-disabled="simulatorStatus.running">Edit...</button>
           <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
@@ -129,17 +112,9 @@
                   ng-click="useSolverResult()">Use Solver Result
           </button>
         </div>
-        <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
+        <div ng-show="uniqueCrossClassActions.length > 0">
           <h5>Required Cross Class Actions</h5>
-          <div class="sequence well well-small">
-            <img ng-repeat="action in uniqueCrossClassActions(sequence, recipe.cls) track by $index"
-                 class="action"
-                 ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                 tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-                 tooltip-placement="right"
-                 tooltip-popup-delay="1000"
-                 tooltip-append-to-body="true"/>
-          </div>
+          <action-sequence actions="uniqueCrossClassActions" cls="recipe.cls" tooltip-placement="right" action-classes="seqeunceActionClasses"></action-sequence>
         </div>
       </div>
     </div>

@@ -1,13 +1,33 @@
 "use strict";
 
 angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $filter, $modal,
-  $rootScope, $translate, _recipeLibrary, _simulator, _solver) {
+  $rootScope, $translate, $timeout, _recipeLibrary, _simulator, _solver, _actionsByName) {
 
   // Non-persistent page state
   $scope.simulatorTabs = {
     simulation: { active: true },
     solver: { actie: false }
   };
+
+  //
+  // Unique Cross-Class Actions
+  //
+
+  function uniqueCrossClassActions(sequence) {
+    var cls = $scope.recipe.cls;
+    if (typeof sequence == 'undefined') return [];
+    var crossClassActions = sequence.filter(function (action) {
+      var actionClass = _actionsByName[action].cls;
+      return actionClass != 'All' && actionClass != cls;
+    });
+    return crossClassActions.unique();
+  }
+
+  $scope.$on('sequence.changed', function (event, sequence) {
+    $scope.uniqueCrossClassActions = uniqueCrossClassActions(sequence);
+  });
+
+  $scope.uniqueCrossClassActions = uniqueCrossClassActions($scope.sequence);
 
   //
   // RECIPE SEARCH
@@ -131,7 +151,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     $scope.simulatorStatus.sequence = data.sequence;
     $scope.simulatorStatus.logText = data.log;
     $scope.simulatorStatus.state = data.state;
-    $scope.simulatorStatus.error = undefined;
+    $scope.simulatorStatus.error = null;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
   }
@@ -140,7 +160,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     $scope.simulatorStatus.sequence = data.sequence;
     $scope.simulatorStatus.logText = data.log;
     $scope.simulatorStatus.logText += '\n\nError: ' + data.error;
-    $scope.simulatorStatus.state = undefined;
+    $scope.simulatorStatus.state = null;
     $scope.simulatorStatus.error = data.error;
     $scope.simulatorTabs.simulation.active = true;
     $scope.simulatorStatus.running = false;
@@ -174,6 +194,14 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   // SEQUENCE EDITOR
   //
 
+  $scope.seqeunceActionClasses = function (action, cls) {
+    return {
+      'selected-action': $scope.isActionSelected(action, cls),
+      'action-cross-class': $scope.isActionCrossClass(action, cls),
+      'invalid-action': !$scope.isActionSelected(action, cls)
+    }
+  };
+
   $scope.editingSequence = false;
 
   $scope.$on('sequence.editor.save', function () {
@@ -198,7 +226,9 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
   $scope.editSequenceInline = function () {
     $scope.editingSequence = true;
-    $scope.$broadcast('sequence.editor.init', $scope.sequence,  $scope.recipe, $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings)
+    $timeout(function () {
+      $scope.$broadcast('sequence.editor.init', $scope.sequence,  $scope.recipe, $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings);
+    });
   };
 
   $scope.useSolverResult = function () {
