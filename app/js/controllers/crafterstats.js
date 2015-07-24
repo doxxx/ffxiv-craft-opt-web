@@ -8,6 +8,13 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsControlle
     $scope.tabs.push({ name: cls, active: cls === $scope.recipe.cls });
   }
 
+  $scope.crafterActionClasses = function (action, cls) {
+    return {
+      'selected-action': $scope.isActionSelected(action, cls),
+      'action-cross-class': $scope.isActionCrossClass(action, cls)
+    }
+  };
+
   $scope.toggleAction = function (action, cls) {
     var i = $scope.crafter.stats[cls].actions.indexOf(action);
     if (i >= 0) {
