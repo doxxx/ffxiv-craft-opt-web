@@ -34,6 +34,7 @@ angular.module('ffxivCraftOptWeb.controllers')
 
       $scope.unwatchSequence = $scope.$watchCollection('editSequence', function () {
         $scope.simulate();
+        $scope.$emit('sequence.changed', $scope.editSequence);
       });
     });
 
@@ -176,9 +177,9 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.cancel = function () {
+      $scope.$emit('sequence.changed', $scope.origSequence);
       $scope.$emit('sequence.editor.cancel');
 
       $scope.unwatchSequence();
     }
   });
-
