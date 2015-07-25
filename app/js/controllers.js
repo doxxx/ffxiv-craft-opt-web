@@ -20,32 +20,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.allActions = _actionsByName;
-    $scope.actionTooltips = {};
-
-    function makeTooltipsFetchCallback(cls, actionShortName) {
-      return function (data) {
-        $scope.actionTooltips[cls + actionShortName] = data;
-      };
-    }
-
-    function buildTooltipsCache(lang) {
-      if (!lang) return;
-      for (var i = 0; i < _allActions.length; i++) {
-        var action = _allActions[i];
-        if (action.skillID) {
-          if (action.cls == 'All') {
-            for (var j = 0; j < _allClasses.length; j++) {
-              var cls = _allClasses[j];
-              _xivdbtooltips.fetch(lang, action.skillID[cls]).then(makeTooltipsFetchCallback(cls, action.shortName));
-            }
-          }
-          else {
-            _xivdbtooltips.fetch(lang, action.skillID[action.cls])
-              .then(makeTooltipsFetchCallback(action.cls, action.shortName));
-          }
-        }
-      }
-    }
 
     $scope.languages = {
       ja: '日本語',
@@ -63,10 +37,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $rootScope.$on('$translateChangeSuccess', function (event, data) {
-      buildTooltipsCache(data.language);
+      _xivdbtooltips.onLanguageChange(data.language);
     });
-    buildTooltipsCache($translate.use());
-
+    _xivdbtooltips.onLanguageChange($translate.use());
 
     // non-persistent page state
     $scope.pageState = {
@@ -292,20 +265,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       return sequence !== undefined && sequence.every(function (action) {
         return $scope.isActionSelected(action, cls);
       });
-    };
-
-    $scope.actionTooltip = function (action, cls) {
-      var info = _actionsByName[action];
-      var tooltipClass = info.cls;
-      if (tooltipClass == 'All') {
-        tooltipClass = cls;
-      }
-      var tooltip = $scope.actionTooltips[tooltipClass + action];
-      return tooltip ? tooltip : action.name;
-    };
-
-    $scope.sequenceActionTooltip = function (action, cls) {
-      return $scope.actionTooltip(action, cls);
     };
 
     $scope.showStatBonusesModal = function () {

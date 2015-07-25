@@ -2,7 +2,7 @@
 
 angular.module('ffxivCraftOptWeb.controllers')
   .controller('SequenceEditorCtrl',
-  function ($scope, $http, _actionGroups, _actionsByName, _simulator)
+  function ($scope, $http, _actionGroups, _actionsByName, _simulator, _xivdbtooltips)
   {
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
@@ -55,22 +55,7 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.actionTooltip = function (action, cls) {
-      var info = $scope.allActions[action];
-      var tooltipClass = info.cls;
-      if (tooltipClass == 'All') {
-        tooltipClass = cls;
-      }
-      var tooltip = $scope.actionTooltips[tooltipClass + action];
-      if (tooltip) return tooltip;
-    };
-
-    $scope.sequenceActionTooltip = function (action, cls) {
-      var tooltip = $scope.actionTooltip(action, cls);
-      // TODO: Find some way to modify the tooltip to show it's unavailable
-      //if (!$scope.isActionSelected(action, cls)) {
-      //  tooltip += '<br/><b>[Action Not Available]</b>';
-      //}
-      return tooltip;
+      return _xivdbtooltips.actionTooltip(action, cls);
     };
 
     $scope.dropAction = function (dragEl, dropEl) {
