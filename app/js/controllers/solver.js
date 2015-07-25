@@ -210,6 +210,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
   $scope.$on('sequence.editor.cancel', function () {
     $scope.editingSequence = false;
+    $scope.runSimulation();
   });
 
   $scope.$on('sequence.editor.simulation.start', function (event) {

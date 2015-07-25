@@ -162,7 +162,6 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.cancel = function () {
-      $scope.$emit('sequence.changed', $scope.origSequence);
       $scope.$emit('sequence.editor.cancel');
 
       $scope.unwatchSequence();
