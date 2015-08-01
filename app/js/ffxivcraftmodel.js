@@ -384,7 +384,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     var ppPoor = 0;
     var ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
 
-    // End state checks
+    // Initialize end state checks
     var trickOk = false;
     var reliabilityOk = false;
 
@@ -424,7 +424,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         // Condition Calculation
         var condQualityIncreaseMultiplier = 1;
         if (useConditions) {
-            condQualityIncreaseMultiplier *= (1*ppNormal + 1.5*ppGood * Math.pow(1 - (ppGood+pGood)/2, synth.maxTrickUses) + 4*ppExcellent + 0.5*ppPoor);
+            condQualityIncreaseMultiplier *= (1 * ppNormal + 1.5 * ppGood * Math.pow(1 - (ppGood + pGood) / 2, synth.maxTrickUses) + 4 * ppExcellent + 0.5 * ppPoor);
         }
 
         // Calculate final gains / losses
@@ -476,7 +476,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
 
             if (isActionEq(action, AllActions.rumination) && cpState >= 0) {
                 if (AllActions.innerQuiet.name in effects.countUps && effects.countUps[AllActions.innerQuiet.name] > 0) {
-                    cpState += (21 * effects.countUps[AllActions.innerQuiet.name] - Math.pow(effects.countUps[AllActions.innerQuiet.name],2) + 10)/2;
+                    cpState += (21 * effects.countUps[AllActions.innerQuiet.name] - Math.pow(effects.countUps[AllActions.innerQuiet.name], 2) + 10) / 2;
                     delete effects.countUps[AllActions.innerQuiet.name];
                 }
                 else {
@@ -497,17 +497,10 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
                 delete effects.countDowns[AllActions.greatStrides.name];
             }
 
+            // Manage effects with random component
             if ((isActionEq(action, AllActions.tricksOfTheTrade)) && (cpState > 0)) {
                 trickUses += 1;
                 cpState += 20;
-            }
-
-            // Conditions
-            if (useConditions) {
-                ppPoor = ppExcellent;
-                ppGood = pGood * ppNormal;
-                ppExcellent = pExcellent * ppNormal;
-                ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
             }
 
             // STEP_02.c
@@ -521,7 +514,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
                 }
             }
 
-            // Increment countups
+            // Increment countups that depend on random component
             if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in effects.countUps) && effects.countUps[AllActions.innerQuiet.name] < 10) {
                 effects.countUps[AllActions.innerQuiet.name] += 1 * successProbability;
             }
@@ -548,6 +541,14 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
                 crossClassActionCounter += 1;
             }
 
+            // Ending condition update
+            if (useConditions) {
+                ppPoor = ppExcellent;
+                ppGood = pGood * ppNormal;
+                ppExcellent = pExcellent * ppNormal;
+                ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
+            }
+
         }
 
         if (debug) {
@@ -563,7 +564,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
 
     }
 
-    // Penalise failure outcomes
+    // Check for failure outcomes
     if (progressState >= synth.recipe.difficulty) {
         progressOk = true;
     }
@@ -584,11 +585,6 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         reliabilityOk = true;
     }
 
-    var lastAction = individual[individual.length-1];
-
-    var finalState = new State(stepCount, lastAction.name, durabilityState, cpState, qualityState, progressState,
-                       wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList);
-
     if (debug) {
         logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
     }
@@ -596,7 +592,10 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', progressOk, durabilityOk, cpOk, trickOk, reliabilityOk, crossClassActionCounter, wastedActions);
     }
 
-    return finalState;
+    // Return final state
+    return new State(stepCount, individual[individual.length-1].name, durabilityState, cpState, qualityState, progressState,
+        wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList);
+
 }
 
 function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug, logOutput) {
@@ -625,6 +624,10 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     // Conditions
     var pGood = 0.23;
     var pExcellent = 0.01;
+
+    // Initialize end state checks
+    var trickOk = false;
+    var reliabilityOk = false;
 
     // Initialize counters
     var crossClassActionCounter = 0; // *** REVIEW ***
@@ -738,6 +741,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
             delete effects.countDowns[AllActions.greatStrides.name];
         }
 
+        // Manage effects with random component
         if (isActionEq(action, AllActions.tricksOfTheTrade) && cpState > 0 && (condition == 'Good' || assumeSuccess)) {
             trickUses += 1;
             cpState += 20;
@@ -746,6 +750,9 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
             wastedActions += 1;
         }
 
+        // STEP_03.c
+        // Countdown / Countup management
+        //===============================
         // Decrement countdowns
         for (var countDown in effects.countDowns) {
             effects.countDowns[countDown] -= 1;
@@ -754,10 +761,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
             }
         }
 
-        // STEP_03.c
-        // Countdown / Countup management
-        //===============================
-        // Increment countups
+        // Increment countups that depend on random component
         if (action.qualityIncreaseMultiplier > 0 && AllActions.innerQuiet.name in effects.countUps && effects.countUps[AllActions.innerQuiet.name] < 10) {
             effects.countUps[AllActions.innerQuiet.name] += 1 * success;
         }
@@ -781,21 +785,9 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         // Count cross class actions
         if (!((action.cls === 'All') || (action.cls === synth.crafter.cls) || (action.shortName in crossClassActionList))) {
             crossClassActionList[action.shortName] = true;
+            crossClassActionCounter += 1;
         }
 
-    }
-
-    // Penalise failure outcomes
-    if (progressState >= synth.recipe.difficulty) {
-        progressOk = true;
-    }
-
-    if (cpState >= 0) {
-        cpOk = true;
-    }
-
-    if (durabilityState >= 0 && progressState >= synth.recipe.difficulty) {
-        durabilityOk = true;
     }
 
     // Ending condition update
@@ -818,6 +810,27 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
     }
 
+    // Check for failure outcomes
+    if (progressState >= synth.recipe.difficulty) {
+        progressOk = true;
+    }
+
+    if (cpState >= 0) {
+        cpOk = true;
+    }
+
+    if (durabilityState >= 0 && progressState >= synth.recipe.difficulty) {
+        durabilityOk = true;
+    }
+
+    if (trickUses <= synth.maxTrickUses) {
+        trickOk = true;
+    }
+
+    if (reliability >= synth.reliabilityIndex) {
+        reliabilityOk = true;
+    }
+
     if (debug) {
         var iqCnt = 0;
         if (AllActions.innerQuiet.name in effects.countUps) {
@@ -829,10 +842,10 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', stepCount, action.name, durabilityState, cpState, qualityState, progressState, wastedActions, condition, success);
     }
 
-    var finalState = new State(stepCount, action.name, durabilityState, cpState, qualityState, progressState,
+    // Return final state
+    return new State(stepCount, action.name, durabilityState, cpState, qualityState, progressState,
                        wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
 
-    return finalState;
 }
 
 function MonteCarloSequence(individual, synth, startState, assumeSuccess, overrideTotT, verbose, debug, logOutput) {
