@@ -238,6 +238,118 @@ function NewStateFromSynth(synth) {
         wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
 }
 
+function CalculateGainsWithEffectModifiers(synth, effects, action, progressState) {
+
+    // Effect Modifiers
+    //=================
+    var craftsmanship = synth.crafter.craftsmanship;
+    var control = synth.crafter.control;
+
+    // Effects modifying control
+    if (AllActions.innerQuiet.name in effects.countUps) {
+        control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
+    }
+
+    if (AllActions.innovation.name in effects.countDowns) {
+        control += 0.5 * synth.crafter.control;
+    }
+
+    // Effects modifying level difference
+    var effCrafterLevel = synth.crafter.level;
+    if (LevelTable[synth.crafter.level]) {
+        effCrafterLevel += LevelTable[synth.crafter.level];
+    }
+    var effRecipeLevel = synth.recipe.level;
+    var levelDifference = effCrafterLevel - effRecipeLevel;
+
+    if (AllActions.ingenuity2.name in effects.countDowns) {
+        if (synth.recipe.level > 50) {
+            effRecipeLevel = Ing2RecipeLevelTable[synth.recipe.level];
+            levelDifference = effCrafterLevel - effRecipeLevel;
+        }
+        else {
+            levelDifference = effCrafterLevel - (effRecipeLevel - 7);
+        }
+
+        if (levelDifference > 0) {
+            levelDifference = Math.min(levelDifference, 20);
+        }
+
+        if (levelDifference < 0) {
+            levelDifference = Math.max(levelDifference, -5);
+        }
+
+    }
+    else if (AllActions.ingenuity.name in effects.countDowns) {
+        if (synth.recipe.level > 50) {
+            effRecipeLevel = Ing1RecipeLevelTable[synth.recipe.level];
+            levelDifference = effCrafterLevel - effRecipeLevel;
+        }
+        else {
+            levelDifference = effCrafterLevel - (effRecipeLevel - 5);
+        }
+
+        if (levelDifference > 0) {
+            levelDifference = Math.min(levelDifference, 20);
+        }
+
+        if (levelDifference < 0) {
+            levelDifference = Math.max(levelDifference, -5);
+        }
+
+    }
+
+    // Effects modfiying probability
+    var successProbability = action.successProbability;
+    if (AllActions.steadyHand2.name in effects.countDowns) {
+        successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
+    }
+    else if (AllActions.steadyHand.name in effects.countDowns) {
+        successProbability = action.successProbability + 0.2;
+    }
+    successProbability = Math.min(successProbability, 1);
+
+    // Effects modifying quality increase multiplier
+    var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
+    if (AllActions.greatStrides.name in effects.countDowns) {
+        qualityIncreaseMultiplier *= 2;
+    }
+
+    // Effects modifying progress
+    var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
+    if (isActionEq(action, AllActions.flawlessSynthesis)) {
+        bProgressGain = 40;
+    }
+    else if (isActionEq(action, AllActions.pieceByPiece)) {
+        bProgressGain = (synth.recipe.difficulty - progressState) * 0.33;
+    }
+
+    // Effects modifying quality
+    var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
+    if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
+        bQualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
+    }
+
+    // Effects modifying durability cost
+    var durabilityCost = action.durabilityCost;
+    if ((AllActions.wasteNot.name in effects.countDowns) || (AllActions.wasteNot2.name in effects.countDowns)) {
+        durabilityCost = 0.5 * action.durabilityCost;
+    }
+    return {
+        craftsmanship: craftsmanship,
+        control: control,
+        effCrafterLevel: effCrafterLevel,
+        effRecipeLevel: effRecipeLevel,
+        levelDifference: levelDifference,
+        successProbability: successProbability,
+        qualityIncreaseMultiplier: qualityIncreaseMultiplier,
+        bProgressGain: bProgressGain,
+        bQualityGain: bQualityGain,
+        durabilityCost: durabilityCost
+    };
+
+}
+
 function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
@@ -301,102 +413,13 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         //==================================
         stepCount += 1;
 
-        // STEP_02.a
-        // Effect Modifiers
-        //=================
-        var craftsmanship = synth.crafter.craftsmanship;
-
-        // Effects modifying control
-        var control = synth.crafter.control;
-        if (AllActions.innerQuiet.name in effects.countUps) {
-            control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
-        }
-
-        if (AllActions.innovation.name in effects.countDowns) {
-            control += 0.5 * synth.crafter.control;
-        }
-
-        // Effects modifying level difference
-        var effCrafterLevel = synth.crafter.level;
-        if (LevelTable[synth.crafter.level]) {
-            effCrafterLevel += LevelTable[synth.crafter.level];
-        }
-        var effRecipeLevel = synth.recipe.level;
-        var levelDifference =  effCrafterLevel - effRecipeLevel;
-
-        if (AllActions.ingenuity2.name in effects.countDowns) {
-            if (synth.recipe.level > 50) {
-                effRecipeLevel = Ing2RecipeLevelTable[synth.recipe.level];
-                levelDifference =  effCrafterLevel - effRecipeLevel;
-            }
-            else {
-                levelDifference = effCrafterLevel - (effRecipeLevel - 7);
-            }
-
-            if (levelDifference > 0) {
-                levelDifference = Math.min(levelDifference, 20);
-            }
-
-            if (levelDifference < 0) {
-                levelDifference = Math.max(levelDifference, -5);
-            }
-
-        }
-        else if (AllActions.ingenuity.name in effects.countDowns) {
-            if (synth.recipe.level > 50) {
-                effRecipeLevel = Ing1RecipeLevelTable[synth.recipe.level];
-                levelDifference =  effCrafterLevel - effRecipeLevel;
-            }
-            else {
-                levelDifference = effCrafterLevel - (effRecipeLevel - 5);
-            }
-
-            if (levelDifference > 0) {
-                levelDifference = Math.min(levelDifference, 20);
-            }
-
-            if (levelDifference < 0) {
-                levelDifference = Math.max(levelDifference, -5);
-            }
-
-        }
-
-        // Effects modfiying probability
-        var successProbability = action.successProbability;
-        if (AllActions.steadyHand2.name in effects.countDowns) {
-            successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
-        }
-        else if (AllActions.steadyHand.name in effects.countDowns) {
-            successProbability = action.successProbability + 0.2;
-        }
-        successProbability = Math.min(successProbability, 1);
-
-        // Effects modifying quality increase multiplier
-        var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
-        if (AllActions.greatStrides.name in effects.countDowns) {
-            qualityIncreaseMultiplier *= 2;
-        }
-
-        // Effects modifying progress
-        var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
-        if (isActionEq(action, AllActions.flawlessSynthesis)) {
-            bProgressGain = 40;
-        }
-        else if (isActionEq(action, AllActions.pieceByPiece)) {
-            bProgressGain = (synth.recipe.difficulty - progressState)*0.33;
-        }
-
-        // Effects modifying quality
-        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
-        if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
-            bQualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
-        }
-
-        // Effects modifying durability cost
-        var durabilityCost = action.durabilityCost;
-        if ((AllActions.wasteNot.name in effects.countDowns) || (AllActions.wasteNot2.name in effects.countDowns)) {
-            durabilityCost = 0.5 * action.durabilityCost;
-        }
+        // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
+        var __ret = CalculateGainsWithEffectModifiers(synth, effects, action, progressState);
+        var control = __ret.control;
+        var successProbability = __ret.successProbability;
+        var bProgressGain = __ret.bProgressGain;
+        var bQualityGain = __ret.bQualityGain;
+        var durabilityCost = __ret.durabilityCost;
 
         // Condition Calculation
         var condQualityIncreaseMultiplier = 1;
@@ -608,102 +631,13 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
 
     stepCount += 1;
 
-    // STEP_03.a
-    // Effect modifiers
-    //=================
-    var craftsmanship = synth.crafter.craftsmanship;
-
-    // Effects modifying control
-    var control = synth.crafter.control;
-    if (AllActions.innerQuiet.name in effects.countUps) {
-        control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
-    }
-
-    if (AllActions.innovation.name in effects.countDowns) {
-        control += 0.5 * synth.crafter.control;
-    }
-
-    // Effects modifying level difference
-    var effCrafterLevel = synth.crafter.level;
-    if (LevelTable[synth.crafter.level]) {
-        effCrafterLevel += LevelTable[synth.crafter.level];
-    }
-    var effRecipeLevel = synth.recipe.level;
-    var levelDifference =  effCrafterLevel - effRecipeLevel;
-
-    if (AllActions.ingenuity2.name in effects.countDowns) {
-        if (synth.recipe.level > 50) {
-            effRecipeLevel = Ing2RecipeLevelTable[synth.recipe.level];
-            levelDifference =  effCrafterLevel - effRecipeLevel;
-        }
-        else {
-            levelDifference = effCrafterLevel - (effRecipeLevel - 7);
-        }
-
-        if (levelDifference > 0) {
-            levelDifference = Math.min(levelDifference, 20);
-        }
-
-        if (levelDifference < 0) {
-            levelDifference = Math.max(levelDifference, -5);
-        }
-
-    }
-    else if (AllActions.ingenuity.name in effects.countDowns) {
-        if (synth.recipe.level > 50) {
-            effRecipeLevel = Ing1RecipeLevelTable[synth.recipe.level];
-            levelDifference =  effCrafterLevel - effRecipeLevel;
-        }
-        else {
-            levelDifference = effCrafterLevel - (effRecipeLevel - 5);
-        }
-
-        if (levelDifference > 0) {
-            levelDifference = Math.min(levelDifference, 20);
-        }
-
-        if (levelDifference < 0) {
-            levelDifference = Math.max(levelDifference, -5);
-        }
-
-    }
-
-    // Effects modifying probability
-    var successProbability = action.successProbability;
-    if (AllActions.steadyHand2.name in effects.countDowns) {
-        successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
-    }
-    else if (AllActions.steadyHand.name in effects.countDowns) {
-        successProbability = action.successProbability + 0.2;
-    }
-    successProbability = Math.min(successProbability, 1);
-
-    // Effects modifying quality increase multiplier
-    var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
-    if (AllActions.greatStrides.name in effects.countDowns) {
-        qualityIncreaseMultiplier *= 2;
-    }
-
-    // Effects modifying progress
-    var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
-    if (isActionEq(action, AllActions.flawlessSynthesis)) {
-        bProgressGain = 40;
-    }
-    else if (isActionEq(action, AllActions.pieceByPiece)) {
-        bProgressGain = (synth.recipe.difficulty - progressState)*0.33;
-    }
-
-    // Effects modifying quality
-    var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
-    if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
-        bQualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
-    }
-
-    // Effects modifying durability cost
-    var durabilityCost = action.durabilityCost;
-    if (AllActions.wasteNot.name in effects.countDowns || AllActions.wasteNot2.name in effects.countDowns) {
-        durabilityCost = 0.5 * action.durabilityCost;
-    }
+    // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
+    var __ret = CalculateGainsWithEffectModifiers(synth, effects, action, progressState);
+    var control = __ret.control;
+    var successProbability = __ret.successProbability;
+    var bProgressGain = __ret.bProgressGain;
+    var bQualityGain = __ret.bQualityGain;
+    var durabilityCost = __ret.durabilityCost;
 
     // Condition Evaluation
     var condQualityIncreaseMultiplier = 1;
