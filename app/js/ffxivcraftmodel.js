@@ -279,61 +279,48 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         }
 
         // Effects modifying level difference
-        var cAdjFactor = 0;
+        var effCrafterLevel = synth.crafter.level;
         if (LevelTable[synth.crafter.level]) {
-            cAdjFactor = LevelTable[synth.crafter.level];
+            effCrafterLevel += LevelTable[synth.crafter.level];
         }
-        var levelDifference = (synth.crafter.level + cAdjFactor) - synth.recipe.level;
+        var effRecipeLevel = synth.recipe.level;
+        var levelDifference =  effCrafterLevel - effRecipeLevel;
+
         if (AllActions.ingenuity2.name in effects.countDowns) {
-            if (synth.crafter.level > 50) {
-                if (levelDifference < 0) {
-                    levelDifference = levelDifference + 20; // This is a guess.
-                }
-                else if (levelDifference >= 0) {
-                    levelDifference = levelDifference + 20; // This is a guess.
-                }
-                levelDifference = min(levelDifference, 10); // Seems to be capped at 10.
+            if (synth.recipe.level > 50) {
+                effRecipeLevel = Ing2RecipeLevelTable[synth.recipe.level];
+                levelDifference =  effCrafterLevel - effRecipeLevel;
             }
-            else if (synth.crafter.level == 50) {
-                if (levelDifference < -20) {
-                    levelDifference = -6;
-                }
-                else if (-20 <= levelDifference && levelDifference <= -5) {
-                    levelDifference = 3;
-                }
-                else {
-                    levelDifference = levelDifference + 7; // Patch 2.2. This is a guess.
-                }
+            else {
+                levelDifference = effCrafterLevel - (effRecipeLevel - 7);
             }
-            else if (synth.crafter.level < 50) {
-                levelDifference = levelDifference + 7; // Patch 2.2. Confirmed.
+
+            if (levelDifference > 0) {
+                levelDifference = Math.min(levelDifference, 20);
             }
+
+            if (levelDifference < 0) {
+                levelDifference = Math.max(levelDifference, -5);
+            }
+
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
-            if (synth.crafter.level > 50) {
-                if (levelDifference < 0) {
-                    levelDifference = levelDifference + 5; // This is a guess.
-                }
-                else if (levelDifference >= 0) {
-                    levelDifference = levelDifference + 5; // This is a guess.
-                }
-                levelDifference = min(levelDifference, 10); // This is a guess
+            if (synth.recipe.level > 50) {
+                effRecipeLevel = Ing1RecipeLevelTable[synth.recipe.level];
+                levelDifference =  effCrafterLevel - effRecipeLevel;
             }
-            else if (synth.crafter.level == 50) {
-                if (levelDifference < -20) {
-                    levelDifference = -8;
-                }
-                else if (-20 <= levelDifference && levelDifference <= -5) {
-                    levelDifference = 0;
-                }
-                else {
-                    levelDifference = levelDifference + 5; // Patch 2.2. This is a guess.
-                }
+            else {
+                levelDifference = effCrafterLevel - (effRecipeLevel - 5);
             }
-            else if (synth.crafter.level < 50) {
-                levelDifference = levelDifference + 5; // Patch 2.2. Confirmed.
-                //levelDifference = 0;
+
+            if (levelDifference > 0) {
+                levelDifference = Math.min(levelDifference, 20);
             }
+
+            if (levelDifference < 0) {
+                levelDifference = Math.max(levelDifference, -5);
+            }
+
         }
 
         // Effects modfiying probability
@@ -603,61 +590,48 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     control = Math.floor(control);
 
     // Effects modifying level difference
-    var cAdjFactor = 0;
+    var effCrafterLevel = synth.crafter.level;
     if (LevelTable[synth.crafter.level]) {
-        cAdjFactor = LevelTable[synth.crafter.level];
+        effCrafterLevel += LevelTable[synth.crafter.level];
     }
-    var levelDifference = (synth.crafter.level + cAdjFactor) - synth.recipe.level;
+    var effRecipeLevel = synth.recipe.level;
+    var levelDifference =  effCrafterLevel - effRecipeLevel;
+
     if (AllActions.ingenuity2.name in effects.countDowns) {
-        if (synth.crafter.level > 50) {
-            if (levelDifference < 0) {
-                levelDifference = levelDifference + 20; // This is a guess.
-            }
-            else if (levelDifference >= 0) {
-                levelDifference = levelDifference + 20; // This is a guess.
-            }
-            levelDifference = min(levelDifference, 10); // Seems to be capped at 10.
+        if (synth.recipe.level > 50) {
+            effRecipeLevel = Ing2RecipeLevelTable[synth.recipe.level];
+            levelDifference =  effCrafterLevel - effRecipeLevel;
         }
-        else if (synth.crafter.level == 50) {
-            if (levelDifference < -20) {
-                levelDifference = -6;
-            }
-            else if (-20 <= levelDifference && levelDifference <= -5) {
-                levelDifference = 3;
-            }
-            else {
-                levelDifference = levelDifference + 7; // Patch 2.2. This is a guess.
-            }
+        else {
+            levelDifference = effCrafterLevel - (effRecipeLevel - 7);
         }
-        else if (synth.crafter.level < 50) {
-            levelDifference = levelDifference + 7; // Patch 2.2. Confirmed.
+
+        if (levelDifference > 0) {
+            levelDifference = Math.min(levelDifference, 20);
         }
+
+        if (levelDifference < 0) {
+            levelDifference = Math.max(levelDifference, -5);
+        }
+
     }
     else if (AllActions.ingenuity.name in effects.countDowns) {
-        if (synth.crafter.level > 50) {
-            if (levelDifference < 0) {
-                levelDifference = levelDifference + 5; // This is a guess.
-            }
-            else if (levelDifference >= 0) {
-                levelDifference = levelDifference + 5; // This is a guess.
-            }
-            levelDifference = min(levelDifference, 10); // This is a guess
+        if (synth.recipe.level > 50) {
+            effRecipeLevel = Ing1RecipeLevelTable[synth.recipe.level];
+            levelDifference =  effCrafterLevel - effRecipeLevel;
         }
-        else if (synth.crafter.level == 50) {
-            if (levelDifference < -20) {
-                levelDifference = -8;
-            }
-            else if (-20 <= levelDifference && levelDifference <= -5) {
-                levelDifference = 0;
-            }
-            else {
-                levelDifference = levelDifference + 5; // Patch 2.2. This is a guess.
-            }
+        else {
+            levelDifference = effCrafterLevel - (effRecipeLevel - 5);
         }
-        else if (synth.crafter.level < 50) {
-            levelDifference = levelDifference + 5; // Patch 2.2. Confirmed.
-            //levelDifference = 0;
+
+        if (levelDifference > 0) {
+            levelDifference = Math.min(levelDifference, 20);
         }
+
+        if (levelDifference < 0) {
+            levelDifference = Math.max(levelDifference, -5);
+        }
+
     }
 
     // Effects modifying probability
