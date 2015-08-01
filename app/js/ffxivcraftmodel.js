@@ -111,18 +111,30 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     return levelCorrectedProgress;
 };
 
-Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, recipeLevel) {
+Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, crafterLevel, recipeLevel) {
+    var baseQuality = 0;
+    var recipeLevelFactor = 0;
     var levelCorrectionFactor = 0;
+    var levelCorrectedQuality = 0;
 
-    // Max penalty still appears to be -5 in Patch 2.2
-    levelDifference = Math.max(levelDifference, -5);
+    if (recipeLevel >= 115) {
+        baseQuality = 3.38494e-5 * control * control + 0.338692 * control + 33.2217;
 
-    if (recipeLevel >= 120) {
+        recipeLevelFactor = 3.42807e-4 * (115 - recipeLevel);
+
+        // Level penalty for recipes above crafter level
+        // Level difference penalty appears to be capped at -6
+        levelDifference = Math.max(levelDifference, -6);
         if (levelDifference < 0) {
-            levelCorrectionFactor = 0.04103 * levelDifference;
+            levelCorrectionFactor = 0.0407512 * levelDifference;
         }
+
+        levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor) * (1 + recipeLevelFactor);
     }
     else if (recipeLevel > 50) {
+        baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
+
+        levelDifference = Math.max(levelDifference, -5);
         if (levelDifference <= -5) {
             levelCorrectionFactor = 0.05374 * levelDifference;
         }
@@ -131,22 +143,19 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
             // Ingenuity does not quite reduce LDiff to 0
             levelCorrectionFactor = 0.05 * -0.5;
         }
+
+        levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
     }
     else {
+        baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
+
+        levelDifference = Math.max(levelDifference, -5);
         if (levelDifference < 0) {
             levelCorrectionFactor = 0.05 * levelDifference;
         }
-    }
 
-    var baseQuality = 0;
-
-    if (recipeLevel >= 120) {
-        baseQuality = 3.84e-5 * control * control + 0.3301 * control + 36.38;
+        levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
     }
-    else if (recipeLevel < 120) {
-        baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
-    }
-    var levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
 
     return levelCorrectedQuality;
 };
@@ -388,7 +397,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         var progressGain = bProgressGain;
 
         // Effects modifying quality
-        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
+        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
         var qualityGain = bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
@@ -718,7 +727,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     var progressGain = success * bProgressGain;
 
     // Effects modifying quality
-    var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
+    var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
     var qualityGain = success * bQualityGain;
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
         qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
