@@ -174,7 +174,7 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
         this.activeTurns = activeTurns;      // Save some space
     }
     else {
-        this.activeturns = 1;
+        this.activeTurns = 1;
     }
 
     this.cls = cls;
