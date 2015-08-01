@@ -384,6 +384,10 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     var ppPoor = 0;
     var ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
 
+    var checkConditions = function () {
+        return true;
+    };
+
     // Initialize end state checks
     var trickOk = false;
     var reliabilityOk = false;
@@ -498,9 +502,12 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
             }
 
             // Manage effects with random component
-            if ((isActionEq(action, AllActions.tricksOfTheTrade)) && (cpState > 0)) {
+            if (isActionEq(action, AllActions.tricksOfTheTrade) && cpState > 0 && checkConditions()) {
                 trickUses += 1;
                 cpState += 20;
+            }
+            else if (isActionEq(action, AllActions.tricksOfTheTrade) && cpState > 0) {
+                wastedActions += 1;
             }
 
             // STEP_02.c
@@ -625,6 +632,10 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     var pGood = 0.23;
     var pExcellent = 0.01;
 
+    var checkConditions = function () {
+        return (condition == 'Good' || condition == 'Excellent' || assumeSuccess);
+    };
+
     // Initialize end state checks
     var trickOk = false;
     var reliabilityOk = false;
@@ -742,7 +753,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
 
         // Manage effects with random component
-        if (isActionEq(action, AllActions.tricksOfTheTrade) && cpState > 0 && (condition == 'Good' || assumeSuccess)) {
+        if (isActionEq(action, AllActions.tricksOfTheTrade) && cpState > 0 && checkConditions()) {
             trickUses += 1;
             cpState += 20;
         }
