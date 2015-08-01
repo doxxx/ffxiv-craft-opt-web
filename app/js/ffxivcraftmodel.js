@@ -218,6 +218,16 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
 
 }
 
+State.prototype.checkViolations = function () {
+    return {
+        progressOk: false,
+        cpOk: false,
+        durabilityOk: false,
+        trickOk: false,
+        reliabilityOk: false
+    };
+};
+
 function NewStateFromSynth(synth) {
     var step = 0;
     var durabilityState = synth.recipe.durability;
