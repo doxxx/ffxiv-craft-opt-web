@@ -2,6 +2,7 @@
 /* Adding new actions search for STEP_##
     * Add action to AllActions object STEP_01
     * Add action effect to ApplySpecialActionEffects STEP_02
+    * Add action counter to UpdateEffectCounters STEP_03
 */
 
 function Logger(logOutput) {
@@ -403,6 +404,33 @@ function ApplySpecialActionEffects(s, action, checkConditions) {
     }
 }
 
+function UpdateEffectCounters(s, action, successProbability) {
+    // STEP_03
+    // Countdown / Countup Management
+    //===============================
+    // Decrement countdowns
+    for (var countDown in s.effects.countDowns) {
+        s.effects.countDowns[countDown] -= 1;
+        if (s.effects.countDowns[countDown] === 0) {
+            delete s.effects.countDowns[countDown];
+        }
+    }
+
+    // Increment countups that depend on random component
+    if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.name] < 10) {
+        s.effects.countUps[AllActions.innerQuiet.name] += 1 * successProbability;
+    }
+
+    // Initialize new effects after countdowns are managed to reset them properly
+    if (action.type === 'countup') {
+        s.effects.countUps[action.name] = 0;
+    }
+
+    if (action.type === 'countdown') {
+        s.effects.countDowns[action.name] = action.activeTurns;
+    }
+}
+
 function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
@@ -499,31 +527,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
             s.cpState -= action.cpCost;
 
             ApplySpecialActionEffects(s, action, checkConditions);
-
-            // STEP_02.c
-            // Countdown / Countup Management
-            //===============================
-            // Decrement countdowns
-            for (var countDown in s.effects.countDowns) {
-                s.effects.countDowns[countDown] -= 1;
-                if (s.effects.countDowns[countDown] === 0) {
-                    delete s.effects.countDowns[countDown];
-                }
-            }
-
-            // Increment countups that depend on random component
-            if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.name] < 10) {
-                s.effects.countUps[AllActions.innerQuiet.name] += 1 * successProbability;
-            }
-
-            // Initialize new effects after countdowns are managed to reset them properly
-            if (action.type === 'countup') {
-                s.effects.countUps[action.name] = 0;
-            }
-
-            if (action.type === 'countdown') {
-                s.effects.countDowns[action.name] = action.activeTurns;
-            }
+            UpdateEffectCounters(s, action, successProbability);
 
             // Sanity checks for state variables
             if ((s.durabilityState >= -5) && (s.progressState >= synth.recipe.difficulty)) {
@@ -687,31 +691,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         s.cpState -= action.cpCost;
 
         ApplySpecialActionEffects(s, action, checkConditions);
-
-        // STEP_03.c
-        // Countdown / Countup management
-        //===============================
-        // Decrement countdowns
-        for (var countDown in s.effects.countDowns) {
-            s.effects.countDowns[countDown] -= 1;
-            if (s.effects.countDowns[countDown] === 0) {
-                delete s.effects.countDowns[countDown];
-            }
-        }
-
-        // Increment countups that depend on random component
-        if (action.qualityIncreaseMultiplier > 0 && AllActions.innerQuiet.name in s.effects.countUps && s.effects.countUps[AllActions.innerQuiet.name] < 10) {
-            s.effects.countUps[AllActions.innerQuiet.name] += 1 * success;
-        }
-
-        // Initialize new effects after countdowns are managed to reset them properly
-        if (action.type === 'countup') {
-            s.effects.countUps[action.name] = 0;
-        }
-
-        if (action.type == 'countdown') {
-            s.effects.countDowns[action.name] = action.activeTurns;
-        }
+        UpdateEffectCounters(s, action, success);
 
         // Sanity checks for state variables
         if ((s.durabilityState >= -5) && (s.progressState >= synth.recipe.difficulty)) {
