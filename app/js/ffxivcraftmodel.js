@@ -50,15 +50,44 @@ function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions) {
     this.reliabilityIndex = reliabilityIndex;
 }
 
-Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, recipeLevel) {
+Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, crafterLevel, recipeLevel) {
+    var baseProgress = 0;
     var levelCorrectionFactor = 0;
+    var levelCorrectedProgress = 0;
 
-    levelDifference = Math.max(levelDifference, -9);
+    if (crafterLevel >= 120){
+        baseProgress = 0.216733 * craftsmanship - 2.12243;
 
-    if (recipeLevel >= 120){
-        levelCorrectionFactor = 0.0501 * levelDifference;
+        // Level boost for recipes below crafter level
+        // Level boost arbitrarily capped at 100 levels for now because of limited data
+        if (levelDifference > 0) {
+            levelCorrectionFactor += 0.0511341 * Math.min(levelDifference, 5);
+        }
+        if (levelDifference > 5) {
+            levelCorrectionFactor += 0.0200853 * Math.min(levelDifference - 5, 10);
+        }
+        if (levelDifference > 15) {
+            levelCorrectionFactor += 0.0104176 * Math.min(levelDifference - 15, 5);
+        }
+        if (levelDifference > 20) {
+            levelCorrectionFactor += 6.68438e-4 * Math.min(levelDifference - 20, 100);
+        }
+
+        // Level penalty for recipes above crafter level
+        // Level difference penalty appears to be capped at -6
+        levelDifference = Math.max(levelDifference, -6);
+        if (levelDifference < 0){
+            levelCorrectionFactor += 0.080554 * Math.max(levelDifference, -5);
+        }
+        if (levelDifference < -5){
+            levelCorrectionFactor += 0.0487896 * Math.max(levelDifference - (-5), -1);
+        }
+
+        levelCorrectedProgress = (1 + levelCorrectionFactor) * baseProgress;
     }
-    else if (recipeLevel < 120) {
+    else if (crafterLevel < 120) {
+        levelDifference = Math.max(levelDifference, -9);
+
         if ((levelDifference < -5)) {
             levelCorrectionFactor = 0.0501 * levelDifference;
         }
@@ -74,10 +103,10 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
         else {
             levelCorrectionFactor = 0.00134 * levelDifference + 0.466;
         }
-    }
 
-    var baseProgress = 0.209 * craftsmanship + 2.51;
-    var levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor);
+        baseProgress = 0.209 * craftsmanship + 2.51;
+        levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor);
+    }
 
     return levelCorrectedProgress;
 };
@@ -349,7 +378,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
 
         // Calculate final gains / losses
         // Effects modifying progress
-        var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, synth.recipe.level);
+        var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
         if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
         }
@@ -679,7 +708,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
 
     // Effects modifying progress
-    var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, synth.recipe.level);
+    var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
