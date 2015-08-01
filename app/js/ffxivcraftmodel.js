@@ -1,8 +1,7 @@
 //require('./String.js');
 /* Adding new actions search for STEP_##
     * Add action to AllActions object STEP_01
-    * Add action effect to SimSynth function STEP_02
-    * Add action effect to MonteCarloSynth function STEP_03
+    * Add action effect to ApplySpecialActionEffects STEP_02
 */
 
 function Logger(logOutput) {
@@ -350,6 +349,60 @@ function CalculateGainsWithEffectModifiers(synth, effects, action, progressState
 
 }
 
+function ApplySpecialActionEffects(s, action, checkConditions) {
+    // STEP_02
+    // Effect management
+    //==================================
+    // Special Effect Actions
+    if (isActionEq(action, AllActions.mastersMend)) {
+        s.durabilityState += 30;
+    }
+
+    if (isActionEq(action, AllActions.mastersMend2)) {
+        s.durabilityState += 60;
+    }
+
+    if ((AllActions.manipulation.name in s.effects.countDowns) && (s.durabilityState > 0)) {
+        s.durabilityState += 10;
+    }
+
+    if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.name in s.effects.countDowns && s.cpState > 0) {
+        s.cpState += 8;
+    }
+
+    if (isActionEq(action, AllActions.rumination) && s.cpState >= 0) {
+        if (AllActions.innerQuiet.name in s.effects.countUps && s.effects.countUps[AllActions.innerQuiet.name] > 0) {
+            s.cpState += (21 * s.effects.countUps[AllActions.innerQuiet.name] - Math.pow(s.effects.countUps[AllActions.innerQuiet.name], 2) + 10) / 2;
+            delete s.effects.countUps[AllActions.innerQuiet.name];
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
+
+    if (isActionEq(action, AllActions.byregotsBlessing)) {
+        if (AllActions.innerQuiet.name in s.effects.countUps) {
+            delete s.effects.countUps[AllActions.innerQuiet.name];
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
+
+    if ((action.qualityIncreaseMultiplier > 0) && (AllActions.greatStrides.name in s.effects.countDowns)) {
+        delete s.effects.countDowns[AllActions.greatStrides.name];
+    }
+
+    // Manage effects with random component
+    if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && checkConditions()) {
+        s.trickUses += 1;
+        s.cpState += 20;
+    }
+    else if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0) {
+        s.wastedActions += 1;
+    }
+}
+
 function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
@@ -445,57 +498,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
             s.durabilityState -= durabilityCost;
             s.cpState -= action.cpCost;
 
-            // STEP_02.b
-            // Effect management
-            //==================================
-            // Special Effect Actions
-            if (isActionEq(action, AllActions.mastersMend)) {
-                s.durabilityState += 30;
-            }
-
-            if (isActionEq(action, AllActions.mastersMend2)) {
-                s.durabilityState += 60;
-            }
-
-            if ((AllActions.manipulation.name in s.effects.countDowns) && (s.durabilityState > 0)) {
-                s.durabilityState += 10;
-            }
-
-            if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.name in s.effects.countDowns && s.cpState > 0) {
-                s.cpState += 8;
-            }
-
-            if (isActionEq(action, AllActions.rumination) && s.cpState >= 0) {
-                if (AllActions.innerQuiet.name in s.effects.countUps && s.effects.countUps[AllActions.innerQuiet.name] > 0) {
-                    s.cpState += (21 * s.effects.countUps[AllActions.innerQuiet.name] - Math.pow(s.effects.countUps[AllActions.innerQuiet.name], 2) + 10) / 2;
-                    delete s.effects.countUps[AllActions.innerQuiet.name];
-                }
-                else {
-                    s.wastedActions += 1;
-                }
-            }
-
-            if (isActionEq(action, AllActions.byregotsBlessing)) {
-                if (AllActions.innerQuiet.name in s.effects.countUps) {
-                    delete s.effects.countUps[AllActions.innerQuiet.name];
-                }
-                else {
-                    s.wastedActions += 1;
-                }
-            }
-
-            if ((action.qualityIncreaseMultiplier > 0) && (AllActions.greatStrides.name in s.effects.countDowns)) {
-                delete s.effects.countDowns[AllActions.greatStrides.name];
-            }
-
-            // Manage effects with random component
-            if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && checkConditions()) {
-                s.trickUses += 1;
-                s.cpState += 20;
-            }
-            else if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0) {
-                s.wastedActions += 1;
-            }
+            ApplySpecialActionEffects(s, action, checkConditions);
 
             // STEP_02.c
             // Countdown / Countup Management
@@ -683,57 +686,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         s.durabilityState -= durabilityCost;
         s.cpState -= action.cpCost;
 
-        // STEP_03.b
-        // Effect management
-        //==================================
-        // Special Effect Actions
-        if (isActionEq(action, AllActions.mastersMend)) {
-            s.durabilityState += 30;
-        }
-
-        if (isActionEq(action, AllActions.mastersMend2)) {
-            s.durabilityState += 60;
-        }
-
-        if (AllActions.manipulation.name in s.effects.countDowns && s.durabilityState > 0) {
-            s.durabilityState += 10;
-        }
-
-        if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.name in s.effects.countDowns && s.cpState > 0) {
-            s.cpState += 8;
-        }
-
-        if (isActionEq(action, AllActions.rumination) && s.cpState >= 0) {
-            if (AllActions.innerQuiet.name in s.effects.countUps && s.effects.countUps[AllActions.innerQuiet.name] > 0) {
-                s.cpState += (21 * s.effects.countUps[AllActions.innerQuiet.name] - Math.pow(s.effects.countUps[AllActions.innerQuiet.name],2) + 10)/2;
-                delete s.effects.countUps[AllActions.innerQuiet.name];
-            }
-            else {
-                s.wastedActions += 1;
-            }
-        }
-
-        if (isActionEq(action, AllActions.byregotsBlessing)) {
-            if (AllActions.innerQuiet.name in s.effects.countUps) {
-                delete s.effects.countUps[AllActions.innerQuiet.name];
-            }
-            else {
-                s.wastedActions += 1;
-            }
-        }
-
-        if (action.qualityIncreaseMultiplier > 0 && AllActions.greatStrides.name in s.effects.countDowns) {
-            delete s.effects.countDowns[AllActions.greatStrides.name];
-        }
-
-        // Manage effects with random component
-        if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && checkConditions()) {
-            s.trickUses += 1;
-            s.cpState += 20;
-        }
-        else if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0) {
-            s.wastedActions += 1;
-        }
+        ApplySpecialActionEffects(s, action, checkConditions);
 
         // STEP_03.c
         // Countdown / Countup management
