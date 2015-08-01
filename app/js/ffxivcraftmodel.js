@@ -238,7 +238,7 @@ function NewStateFromSynth(synth) {
         wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
 }
 
-function CalculateGainsWithEffectModifiers(synth, effects, action, progressState) {
+function ApplyModifiers(s, action, synth) {
 
     // Effect Modifiers
     //=================
@@ -246,11 +246,11 @@ function CalculateGainsWithEffectModifiers(synth, effects, action, progressState
     var control = synth.crafter.control;
 
     // Effects modifying control
-    if (AllActions.innerQuiet.name in effects.countUps) {
-        control += (0.2 * effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
+    if (AllActions.innerQuiet.name in s.effects.countUps) {
+        control += (0.2 * s.effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
     }
 
-    if (AllActions.innovation.name in effects.countDowns) {
+    if (AllActions.innovation.name in s.effects.countDowns) {
         control += 0.5 * synth.crafter.control;
     }
 
@@ -262,7 +262,7 @@ function CalculateGainsWithEffectModifiers(synth, effects, action, progressState
     var effRecipeLevel = synth.recipe.level;
     var levelDifference = effCrafterLevel - effRecipeLevel;
 
-    if (AllActions.ingenuity2.name in effects.countDowns) {
+    if (AllActions.ingenuity2.name in s.effects.countDowns) {
         if (synth.recipe.level > 50) {
             effRecipeLevel = Ing2RecipeLevelTable[synth.recipe.level];
             levelDifference = effCrafterLevel - effRecipeLevel;
@@ -280,7 +280,7 @@ function CalculateGainsWithEffectModifiers(synth, effects, action, progressState
         }
 
     }
-    else if (AllActions.ingenuity.name in effects.countDowns) {
+    else if (AllActions.ingenuity.name in s.effects.countDowns) {
         if (synth.recipe.level > 50) {
             effRecipeLevel = Ing1RecipeLevelTable[synth.recipe.level];
             levelDifference = effCrafterLevel - effRecipeLevel;
@@ -301,17 +301,17 @@ function CalculateGainsWithEffectModifiers(synth, effects, action, progressState
 
     // Effects modfiying probability
     var successProbability = action.successProbability;
-    if (AllActions.steadyHand2.name in effects.countDowns) {
+    if (AllActions.steadyHand2.name in s.effects.countDowns) {
         successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
     }
-    else if (AllActions.steadyHand.name in effects.countDowns) {
+    else if (AllActions.steadyHand.name in s.effects.countDowns) {
         successProbability = action.successProbability + 0.2;
     }
     successProbability = Math.min(successProbability, 1);
 
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
-    if (AllActions.greatStrides.name in effects.countDowns) {
+    if (AllActions.greatStrides.name in s.effects.countDowns) {
         qualityIncreaseMultiplier *= 2;
     }
 
@@ -321,18 +321,18 @@ function CalculateGainsWithEffectModifiers(synth, effects, action, progressState
         bProgressGain = 40;
     }
     else if (isActionEq(action, AllActions.pieceByPiece)) {
-        bProgressGain = (synth.recipe.difficulty - progressState) * 0.33;
+        bProgressGain = (synth.recipe.difficulty - s.progressState) * 0.33;
     }
 
     // Effects modifying quality
     var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
-    if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
-        bQualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
+    if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in s.effects.countUps) {
+        bQualityGain *= (1 + 0.2 * s.effects.countUps[AllActions.innerQuiet.name]);
     }
 
     // Effects modifying durability cost
     var durabilityCost = action.durabilityCost;
-    if ((AllActions.wasteNot.name in effects.countDowns) || (AllActions.wasteNot2.name in effects.countDowns)) {
+    if ((AllActions.wasteNot.name in s.effects.countDowns) || (AllActions.wasteNot2.name in s.effects.countDowns)) {
         durabilityCost = 0.5 * action.durabilityCost;
     }
     return {
@@ -504,12 +504,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         s.step += 1;
 
         // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
-        var __ret = CalculateGainsWithEffectModifiers(synth, s.effects, action, s.progressState);
-        var control = __ret.control;
-        var successProbability = __ret.successProbability;
-        var bProgressGain = __ret.bProgressGain;
-        var bQualityGain = __ret.bQualityGain;
-        var durabilityCost = __ret.durabilityCost;
+        var r = ApplyModifiers(s, action, synth);
 
         // Condition Calculation
         var condQualityIncreaseMultiplier = 1;
@@ -518,16 +513,16 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         }
 
         // Calculate final gains / losses
-        var progressGain = bProgressGain;
+        var progressGain = r.bProgressGain;
         if (progressGain > 0) {
-            s.reliability = s.reliability * successProbability;
+            s.reliability = s.reliability * r.successProbability;
         }
 
-        var qualityGain = condQualityIncreaseMultiplier * bQualityGain;
+        var qualityGain = condQualityIncreaseMultiplier * r.bQualityGain;
 
         // Floor gains at final stage before calculating expected value
-        progressGain = successProbability * Math.floor(progressGain);
-        qualityGain = successProbability * Math.floor(qualityGain);
+        progressGain = r.successProbability * Math.floor(progressGain);
+        qualityGain = r.successProbability * Math.floor(qualityGain);
 
         // Occur if a wasted action
         //==================================
@@ -539,7 +534,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         //==================================
         else {
 
-            UpdateState(s, action, synth, progressGain, qualityGain, durabilityCost, checkConditions, successProbability);
+            UpdateState(s, action, synth, progressGain, qualityGain, r.durabilityCost, checkConditions, r.successProbability);
 
             // Count cross class actions
             if (!(action.cls === 'All' || action.cls === synth.crafter.cls || action.shortName in s.crossClassActionList)) {
@@ -562,7 +557,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
             if (AllActions.innerQuiet.name in s.effects.countUps) {
                 iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
             }
-            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.1f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain);
+            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.1f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, iqCnt, r.control, qualityGain, r.bProgressGain, r.bQualityGain);
         }
         else if (verbose) {
             logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions);
@@ -630,12 +625,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     s.step += 1;
 
     // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
-    var __ret = CalculateGainsWithEffectModifiers(synth, s.effects, action, s.progressState);
-    var control = __ret.control;
-    var successProbability = __ret.successProbability;
-    var bProgressGain = __ret.bProgressGain;
-    var bQualityGain = __ret.bQualityGain;
-    var durabilityCost = __ret.durabilityCost;
+    var r = ApplyModifiers(s, action, synth);
 
     // Condition Evaluation
     var condQualityIncreaseMultiplier = 1;
@@ -658,7 +648,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     // Success or Failure
     var success = 0;
     var successRand = Math.random();
-    if (0 <= successRand && successRand <= successProbability) {
+    if (0 <= successRand && successRand <= r.successProbability) {
         success = 1;
     }
 
@@ -667,12 +657,12 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     }
 
     // Calculate final gains / losses
-    var progressGain = success * bProgressGain;
+    var progressGain = success * r.bProgressGain;
     if (progressGain > 0) {
-        s.reliability = s.reliability * successProbability;
+        s.reliability = s.reliability * r.successProbability;
     }
 
-    var qualityGain = success * condQualityIncreaseMultiplier * bQualityGain;
+    var qualityGain = success * condQualityIncreaseMultiplier * r.bQualityGain;
 
     // Floor gains at final stage before calculating expected value
     progressGain = Math.floor(progressGain);
@@ -688,7 +678,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     //==================================
     else {
 
-        UpdateState(s, action, synth, progressGain, qualityGain, durabilityCost, checkConditions, success);
+        UpdateState(s, action, synth, progressGain, qualityGain, r.durabilityCost, checkConditions, success);
 
         // Count cross class actions
         if (!((action.cls === 'All') || (action.cls === synth.crafter.cls) || (action.shortName in s.crossClassActionList))) {
@@ -743,7 +733,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         if (AllActions.innerQuiet.name in s.effects.countUps) {
             iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
         }
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %7.1f %-10s %-5s', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, iqCnt, control, qualityGain, bProgressGain, bQualityGain, s.condition, success);
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %7.1f %-10s %-5s', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, iqCnt, r.control, qualityGain, r.bProgressGain, r.bQualityGain, s.condition, success);
     }
     else if (verbose) {
         logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, s.condition, success);
