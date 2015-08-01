@@ -50,44 +50,91 @@ function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions) {
     this.reliabilityIndex = reliabilityIndex;
 }
 
-Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship) {
+Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, crafterLevel, recipeLevel) {
+    var baseProgress = 0;
     var levelCorrectionFactor = 0;
+    var levelCorrectedProgress = 0;
 
-    if (levelDifference < -9) {
-        levelDifference = -9;
-    }
+    if (crafterLevel >= 120){
+        baseProgress = 0.216733 * craftsmanship - 2.12243;
 
-    if ((levelDifference < -5)) {
-        levelCorrectionFactor = 0.0501 * levelDifference;
-    }
-    else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
-        levelCorrectionFactor = 0.10 * levelDifference;
-    }
-    else if ((0 < levelDifference) && (levelDifference <= 5)) {
-        levelCorrectionFactor = 0.0501 * levelDifference;
-    }
-    else if ((5 < levelDifference) && (levelDifference <= 15)) {
-        levelCorrectionFactor = 0.022 * levelDifference + 0.15;
-    }
-    else {
-        levelCorrectionFactor = 0.00134 * levelDifference + 0.466;
-    }
+        // Level boost for recipes below crafter level
+        // Level boost arbitrarily capped at 100 levels for now because of limited data
+        if (levelDifference > 0) {
+            levelCorrectionFactor += 0.0511341 * Math.min(levelDifference, 5);
+        }
+        if (levelDifference > 5) {
+            levelCorrectionFactor += 0.0200853 * Math.min(levelDifference - 5, 10);
+        }
+        if (levelDifference > 15) {
+            levelCorrectionFactor += 0.0104176 * Math.min(levelDifference - 15, 5);
+        }
+        if (levelDifference > 20) {
+            levelCorrectionFactor += 6.68438e-4 * Math.min(levelDifference - 20, 100);
+        }
 
-    var baseProgress = 0.209 * craftsmanship + 2.51;
-    var levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor);
+        // Level penalty for recipes above crafter level
+        // Level difference penalty appears to be capped at -6
+        levelDifference = Math.max(levelDifference, -6);
+        if (levelDifference < 0){
+            levelCorrectionFactor += 0.080554 * Math.max(levelDifference, -5);
+        }
+        if (levelDifference < -5){
+            levelCorrectionFactor += 0.0487896 * Math.max(levelDifference - (-5), -1);
+        }
+
+        levelCorrectedProgress = (1 + levelCorrectionFactor) * baseProgress;
+    }
+    else if (crafterLevel < 120) {
+        levelDifference = Math.max(levelDifference, -9);
+
+        if ((levelDifference < -5)) {
+            levelCorrectionFactor = 0.0501 * levelDifference;
+        }
+        else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
+            levelCorrectionFactor = 0.10 * levelDifference;
+        }
+        else if ((0 < levelDifference) && (levelDifference <= 5)) {
+            levelCorrectionFactor = 0.0501 * levelDifference;
+        }
+        else if ((5 < levelDifference) && (levelDifference <= 15)) {
+            levelCorrectionFactor = 0.022 * levelDifference + 0.15;
+        }
+        else {
+            levelCorrectionFactor = 0.00134 * levelDifference + 0.466;
+        }
+
+        baseProgress = 0.209 * craftsmanship + 2.51;
+        levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor);
+    }
 
     return levelCorrectedProgress;
 };
 
-Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, recipeLevel) {
+Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, crafterLevel, recipeLevel) {
+    var baseQuality = 0;
+    var recipeLevelFactor = 0;
     var levelCorrectionFactor = 0;
+    var levelCorrectedQuality = 0;
 
-    // Max penalty still appears to be -5 in Patch 2.2
-    if (levelDifference < -5) {
-        levelDifference = -5;
+    if (recipeLevel >= 115) {
+        baseQuality = 3.38494e-5 * control * control + 0.338692 * control + 33.2217;
+
+        recipeLevelFactor = 3.42807e-4 * (115 - recipeLevel);
+
+        // Level penalty for recipes above crafter level
+        // Level difference penalty appears to be capped at -6
+        levelDifference = Math.max(levelDifference, -6);
+        if (levelDifference < 0) {
+            levelCorrectionFactor = 0.0407512 * levelDifference;
+        }
+
+        levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor) * (1 + recipeLevelFactor);
     }
+    else if (recipeLevel > 50) {
+        baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
 
-    if (recipeLevel > 50) {
+        levelDifference = Math.max(levelDifference, -5);
         if (levelDifference <= -5) {
             levelCorrectionFactor = 0.05374 * levelDifference;
         }
@@ -96,19 +143,19 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
             // Ingenuity does not quite reduce LDiff to 0
             levelCorrectionFactor = 0.05 * -0.5;
         }
+
+        levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
     }
     else {
+        baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
+
+        levelDifference = Math.max(levelDifference, -5);
         if (levelDifference < 0) {
             levelCorrectionFactor = 0.05 * levelDifference;
         }
-        else {
-            levelCorrectionFactor = 0;
-        }
-    }
 
-    var baseQuality = 0;
-    baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
-    var levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
+        levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor);
+    }
 
     return levelCorrectedQuality;
 };
@@ -127,7 +174,7 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
         this.activeTurns = activeTurns;      // Save some space
     }
     else {
-        this.activeturns = 1;
+        this.activeTurns = 1;
     }
 
     this.cls = cls;
@@ -270,39 +317,48 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         }
 
         // Effects modifying level difference
-        var levelDifference = synth.crafter.level - synth.recipe.level;
+        var effCrafterLevel = synth.crafter.level;
+        if (LevelTable[synth.crafter.level]) {
+            effCrafterLevel += LevelTable[synth.crafter.level];
+        }
+        var effRecipeLevel = synth.recipe.level;
+        var levelDifference =  effCrafterLevel - effRecipeLevel;
+
         if (AllActions.ingenuity2.name in effects.countDowns) {
-            if (synth.crafter.level == 50) {
-                if (levelDifference < -20) {
-                    levelDifference = -6;
-                }
-                else if (-20 <= levelDifference && levelDifference <= -5) {
-                    levelDifference = 3;
-                }
-                else {
-                    levelDifference = levelDifference + 7; // Patch 2.2. This is a guess.
-                }
+            if (synth.recipe.level > 50) {
+                effRecipeLevel = Ing2RecipeLevelTable[synth.recipe.level];
+                levelDifference =  effCrafterLevel - effRecipeLevel;
             }
-            else if (synth.crafter.level < 50) {
-                levelDifference = levelDifference + 7; // Patch 2.2. Confirmed.
+            else {
+                levelDifference = effCrafterLevel - (effRecipeLevel - 7);
             }
+
+            if (levelDifference > 0) {
+                levelDifference = Math.min(levelDifference, 20);
+            }
+
+            if (levelDifference < 0) {
+                levelDifference = Math.max(levelDifference, -5);
+            }
+
         }
         else if (AllActions.ingenuity.name in effects.countDowns) {
-            if (synth.crafter.level == 50) {
-                if (levelDifference < -20) {
-                    levelDifference = -8;
-                }
-                else if (-20 <= levelDifference && levelDifference <= -5) {
-                    levelDifference = 0;
-                }
-                else {
-                    levelDifference = levelDifference + 5; // Patch 2.2. This is a guess.
-                }
+            if (synth.recipe.level > 50) {
+                effRecipeLevel = Ing1RecipeLevelTable[synth.recipe.level];
+                levelDifference =  effCrafterLevel - effRecipeLevel;
             }
-            else if (synth.crafter.level < 50) {
-                levelDifference = levelDifference + 5; // Patch 2.2. Confirmed.
-                //levelDifference = 0;
+            else {
+                levelDifference = effCrafterLevel - (effRecipeLevel - 5);
             }
+
+            if (levelDifference > 0) {
+                levelDifference = Math.min(levelDifference, 20);
+            }
+
+            if (levelDifference < 0) {
+                levelDifference = Math.max(levelDifference, -5);
+            }
+
         }
 
         // Effects modfiying probability
@@ -331,7 +387,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
 
         // Calculate final gains / losses
         // Effects modifying progress
-        var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
+        var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
         if (isActionEq(action, AllActions.flawlessSynthesis)) {
             bProgressGain = 40;
         }
@@ -341,7 +397,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         var progressGain = bProgressGain;
 
         // Effects modifying quality
-        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
+        var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
         var qualityGain = bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
             qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
@@ -572,39 +628,48 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     control = Math.floor(control);
 
     // Effects modifying level difference
-    var levelDifference = synth.crafter.level - synth.recipe.level;
+    var effCrafterLevel = synth.crafter.level;
+    if (LevelTable[synth.crafter.level]) {
+        effCrafterLevel += LevelTable[synth.crafter.level];
+    }
+    var effRecipeLevel = synth.recipe.level;
+    var levelDifference =  effCrafterLevel - effRecipeLevel;
+
     if (AllActions.ingenuity2.name in effects.countDowns) {
-        if (synth.crafter.level == 50) {
-            if (levelDifference < -20) {
-                levelDifference = -6;
-            }
-            else if (-20 <= levelDifference && levelDifference <= -5) {
-                levelDifference = 3;
-            }
-            else {
-                levelDifference = levelDifference + 7; // Patch 2.2. This is a guess.
-            }
+        if (synth.recipe.level > 50) {
+            effRecipeLevel = Ing2RecipeLevelTable[synth.recipe.level];
+            levelDifference =  effCrafterLevel - effRecipeLevel;
         }
-        else if (synth.crafter.level < 50) {
-            levelDifference = levelDifference + 7; // Patch 2.2. Confirmed.
+        else {
+            levelDifference = effCrafterLevel - (effRecipeLevel - 7);
         }
+
+        if (levelDifference > 0) {
+            levelDifference = Math.min(levelDifference, 20);
+        }
+
+        if (levelDifference < 0) {
+            levelDifference = Math.max(levelDifference, -5);
+        }
+
     }
     else if (AllActions.ingenuity.name in effects.countDowns) {
-        if (synth.crafter.level == 50) {
-            if (levelDifference < -20) {
-                levelDifference = -8;
-            }
-            else if (-20 <= levelDifference && levelDifference <= -5) {
-                levelDifference = 0;
-            }
-            else {
-                levelDifference = levelDifference + 5; // Patch 2.2. This is a guess.
-            }
+        if (synth.recipe.level > 50) {
+            effRecipeLevel = Ing1RecipeLevelTable[synth.recipe.level];
+            levelDifference =  effCrafterLevel - effRecipeLevel;
         }
-        else if (synth.crafter.level < 50) {
-            levelDifference = levelDifference + 5; // Patch 2.2. Confirmed.
-            //levelDifference = 0;
+        else {
+            levelDifference = effCrafterLevel - (effRecipeLevel - 5);
         }
+
+        if (levelDifference > 0) {
+            levelDifference = Math.min(levelDifference, 20);
+        }
+
+        if (levelDifference < 0) {
+            levelDifference = Math.max(levelDifference, -5);
+        }
+
     }
 
     // Effects modifying probability
@@ -652,7 +717,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
 
     // Effects modifying progress
-    var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship);
+    var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
@@ -662,7 +727,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     var progressGain = success * bProgressGain;
 
     // Effects modifying quality
-    var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, synth.recipe.level);
+    var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
     var qualityGain = success * bQualityGain;
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
         qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
@@ -1187,6 +1252,57 @@ var AllActions = {
     ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50),
 
     dummyAction: new Action(       'dummyAction',          '______________',       0,  0,    1.0, 0.0, 0.0, 'immediate',   1,  'All',          1)
+};
+
+var LevelTable = {
+    51: 69, // 120
+    52: 74, // 125
+    53: 77, // 130
+    54: 79, // 133
+    55: 81, // 136
+    56: 83, // 139
+    57: 85, // 142
+    58: 87, // 145
+    59: 89, // 148
+    60: 90  // 150
+};
+
+var Ing1RecipeLevelTable = {
+    55: 50,     // 50_1star     *** unverified
+    70: 50,     // 50_2star     *** unverified
+    90: 58,     // 50_3star     *** unverified
+    110: 58,    // 50_4star     *** unverified
+    115: 100,   // 51 @ 169/339 difficulty
+    120: 100,   // 51 @ 210/410 difficulty
+    125: 100,   // 52
+    130: 110,   // 53
+    133: 110,   // 54
+    136: 110,   // 55
+    139: 124,   // 56
+    142: 129.5, // 57
+    145: 134.5, // 58
+    148: 139,   // 59
+    150: 140,   // 60
+    160: 151    // 60_1star
+};
+
+var Ing2RecipeLevelTable = {
+    55: 47,     // 50_1star     *** unverified
+    70: 47,     // 50_2star     *** unverified
+    90: 56,     // 50_3star     *** unverified
+    110: 56,    // 50_4star     *** unverified
+    115: 100,   // 51 @ 169/339 difficulty
+    120: 100,   // 51 @ 210/410 difficulty
+    125: 100,   // 52
+    130: 110,   // 53
+    133: 110,   // 54
+    136: 110,   // 55
+    139: 124,   // 56
+    142: 129.5, // 57
+    145: 133,   // 58
+    148: 136,   // 59
+    150: 139,   // 60
+    160: 150    // 60_1star
 };
 
 // Test objects
