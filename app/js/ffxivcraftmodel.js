@@ -431,6 +431,24 @@ function UpdateEffectCounters(s, action, successProbability) {
     }
 }
 
+function UpdateState(s, action, synth, progressGain, qualityGain, durabilityCost, checkConditions, successProbability) {
+    // State tracking
+    s.progressState += progressGain;
+    s.qualityState += qualityGain;
+    s.durabilityState -= durabilityCost;
+    s.cpState -= action.cpCost;
+
+    ApplySpecialActionEffects(s, action, checkConditions);
+    UpdateEffectCounters(s, action, successProbability);
+
+    // Sanity checks for state variables
+    if ((s.durabilityState >= -5) && (s.progressState >= synth.recipe.difficulty)) {
+        s.durabilityState = 0;
+    }
+    s.durabilityState = Math.min(s.durabilityState, synth.recipe.durability);
+    s.cpState = Math.min(s.cpState, synth.crafter.craftPoints);
+}
+
 function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
@@ -520,21 +538,8 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         // Occur if not a wasted action
         //==================================
         else {
-            // State tracking
-            s.progressState += progressGain;
-            s.qualityState += qualityGain;
-            s.durabilityState -= durabilityCost;
-            s.cpState -= action.cpCost;
 
-            ApplySpecialActionEffects(s, action, checkConditions);
-            UpdateEffectCounters(s, action, successProbability);
-
-            // Sanity checks for state variables
-            if ((s.durabilityState >= -5) && (s.progressState >= synth.recipe.difficulty)) {
-                s.durabilityState = 0;
-            }
-            s.durabilityState = Math.min(s.durabilityState, synth.recipe.durability);
-            s.cpState = Math.min(s.cpState, synth.crafter.craftPoints);
+            UpdateState(s, action, synth, progressGain, qualityGain, durabilityCost, checkConditions, successProbability);
 
             // Count cross class actions
             if (!(action.cls === 'All' || action.cls === synth.crafter.cls || action.shortName in s.crossClassActionList)) {
@@ -622,8 +627,6 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     var reliabilityOk = false;
 
     // Initialize counters
-    var crossClassActionCounter = 0; // *** REVIEW ***
-
     s.step += 1;
 
     // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
@@ -684,26 +687,12 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     // Occur if not a dummy action
     //==================================
     else {
-        // State tracking
-        s.progressState += progressGain;
-        s.qualityState += qualityGain;
-        s.durabilityState -= durabilityCost;
-        s.cpState -= action.cpCost;
 
-        ApplySpecialActionEffects(s, action, checkConditions);
-        UpdateEffectCounters(s, action, success);
-
-        // Sanity checks for state variables
-        if ((s.durabilityState >= -5) && (s.progressState >= synth.recipe.difficulty)) {
-            s.durabilityState = 0;
-        }
-        s.durabilityState = Math.min(s.durabilityState, synth.recipe.durability);
-        s.cpState = Math.min(s.cpState, synth.crafter.craftPoints);
+        UpdateState(s, action, synth, progressGain, qualityGain, durabilityCost, checkConditions, success);
 
         // Count cross class actions
         if (!((action.cls === 'All') || (action.cls === synth.crafter.cls) || (action.shortName in s.crossClassActionList))) {
             s.crossClassActionList[action.shortName] = true;
-            crossClassActionCounter += 1;
         }
 
     }
