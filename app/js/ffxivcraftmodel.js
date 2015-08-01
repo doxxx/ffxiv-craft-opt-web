@@ -369,9 +369,6 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         else if (AllActions.steadyHand.name in effects.countDowns) {
             successProbability = action.successProbability + 0.2;
         }
-        else {
-            successProbability = action.successProbability;
-        }
         successProbability = Math.min(successProbability, 1);
 
         // Effects modifying quality increase multiplier
@@ -380,12 +377,6 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
             qualityIncreaseMultiplier *= 2;
         }
 
-        // Condition Calculation
-        if (useConditions) {
-            qualityIncreaseMultiplier *= (1*ppNormal + 1.5*ppGood * Math.pow(1 - (ppGood+pGood)/2, synth.maxTrickUses) + 4*ppExcellent + 0.5*ppPoor);
-        }
-
-        // Calculate final gains / losses
         // Effects modifying progress
         var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
         if (isActionEq(action, AllActions.flawlessSynthesis)) {
@@ -394,13 +385,11 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         else if (isActionEq(action, AllActions.pieceByPiece)) {
             bProgressGain = (synth.recipe.difficulty - progressState)*0.33;
         }
-        var progressGain = bProgressGain;
 
         // Effects modifying quality
         var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
-        var qualityGain = bQualityGain;
         if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
-            qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
+            bQualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
         }
 
         // Effects modifying durability cost
@@ -409,9 +398,19 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
             durabilityCost = 0.5 * action.durabilityCost;
         }
 
+        // Condition Calculation
+        var condQualityIncreaseMultiplier = 1;
+        if (useConditions) {
+            condQualityIncreaseMultiplier *= (1*ppNormal + 1.5*ppGood * Math.pow(1 - (ppGood+pGood)/2, synth.maxTrickUses) + 4*ppExcellent + 0.5*ppPoor);
+        }
+
+        // Calculate final gains / losses
+        var progressGain = bProgressGain;
         if (progressGain > 0) {
             reliability = reliability * successProbability;
         }
+
+        var qualityGain = condQualityIncreaseMultiplier * bQualityGain;
 
         // Floor gains at final stage before calculating expected value
         progressGain = successProbability * Math.floor(progressGain);
@@ -624,9 +623,6 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         control += 0.5 * synth.crafter.control;
     }
 
-    // Control is floored before display based on IQ incremental observations
-    control = Math.floor(control);
-
     // Effects modifying level difference
     var effCrafterLevel = synth.crafter.level;
     if (LevelTable[synth.crafter.level]) {
@@ -688,34 +684,6 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         qualityIncreaseMultiplier *= 2;
     }
 
-    // Condition Evaluation
-    if (!synth.useConditions) {
-        qualityIncreaseMultiplier *= 1.0;
-    }
-    else if (condition === 'Excellent') {
-        qualityIncreaseMultiplier *= 4.0;
-    }
-    else if (condition === 'Good' ) {
-        qualityIncreaseMultiplier *= 1.5;
-    }
-    else if (condition === 'Poor' ) {
-        qualityIncreaseMultiplier *= 0.5;
-    }
-    else {
-        qualityIncreaseMultiplier *= 1.0;
-    }
-
-    // Calculate final gains / losses
-    var success = 0;
-    var successRand = Math.random();
-    if (0 <= successRand && successRand <= successProbability) {
-        success = 1;
-    }
-
-        if (assumeSuccess) {
-            success = 1;
-        }
-
     // Effects modifying progress
     var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
@@ -724,13 +692,11 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     else if (isActionEq(action, AllActions.pieceByPiece)) {
         bProgressGain = (synth.recipe.difficulty - progressState)*0.33;
     }
-    var progressGain = success * bProgressGain;
 
     // Effects modifying quality
     var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
-    var qualityGain = success * bQualityGain;
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in effects.countUps) {
-        qualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
+        bQualityGain *= (1 + 0.2 * effects.countUps[AllActions.innerQuiet.name]);
     }
 
     // Effects modifying durability cost
@@ -739,11 +705,44 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         durabilityCost = 0.5 * action.durabilityCost;
     }
 
+    // Condition Evaluation
+    var condQualityIncreaseMultiplier = 1;
+    if (!synth.useConditions) {
+        condQualityIncreaseMultiplier *= 1.0;
+    }
+    else if (condition === 'Excellent') {
+        condQualityIncreaseMultiplier *= 4.0;
+    }
+    else if (condition === 'Good' ) {
+        condQualityIncreaseMultiplier *= 1.5;
+    }
+    else if (condition === 'Poor' ) {
+        condQualityIncreaseMultiplier *= 0.5;
+    }
+    else {
+        condQualityIncreaseMultiplier *= 1.0;
+    }
+
+    // Success or Failure
+    var success = 0;
+    var successRand = Math.random();
+    if (0 <= successRand && successRand <= successProbability) {
+        success = 1;
+    }
+
+    if (assumeSuccess) {
+        success = 1;
+    }
+
+    // Calculate final gains / losses
+    var progressGain = success * bProgressGain;
     if (progressGain > 0) {
         reliability = reliability * successProbability;
     }
 
-    // All gains are floored at final stage
+    var qualityGain = success * condQualityIncreaseMultiplier * bQualityGain;
+
+    // Floor gains at final stage before calculating expected value
     progressGain = Math.floor(progressGain);
     qualityGain = Math.floor(qualityGain);
 
