@@ -1255,6 +1255,44 @@ var LevelTable = {
     60: 90  // 150
 };
 
+var Ing1RecipeLevelTable = {
+    55: 50,     // 50_1star     *** unverified
+    70: 50,     // 50_2star     *** unverified
+    90: 58,     // 50_3star     *** unverified
+    110: 58,    // 50_4star     *** unverified
+    115: 100,   // 51 @ 169/339 difficulty
+    120: 100,   // 51 @ 210/410 difficulty
+    125: 100,   // 52
+    130: 110,   // 53
+    133: 110,   // 54
+    136: 110,   // 55
+    139: 124,   // 56
+    142: 129.5, // 57
+    145: 134.5, // 58
+    148: 139,   // 59
+    150: 140,   // 60
+    160: 151    // 60_1star
+};
+
+var Ing2RecipeLevelTable = {
+    55: 47,     // 50_1star     *** unverified
+    70: 47,     // 50_2star     *** unverified
+    90: 56,     // 50_3star     *** unverified
+    110: 56,    // 50_4star     *** unverified
+    115: 100,   // 51 @ 169/339 difficulty
+    120: 100,   // 51 @ 210/410 difficulty
+    125: 100,   // 52
+    130: 110,   // 53
+    133: 110,   // 54
+    136: 110,   // 55
+    139: 124,   // 56
+    142: 129.5, // 57
+    145: 133,   // 58
+    148: 136,   // 59
+    150: 139,   // 60
+    160: 150    // 60_1star
+};
+
 // Test objects
 //cls, level, craftsmanship, control, craftPoints, actions
 /*
