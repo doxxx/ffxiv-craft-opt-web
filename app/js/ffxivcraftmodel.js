@@ -859,9 +859,10 @@ function getAverageProperty(stateArray, propName, nRuns) {
     var sumProperty = 0;
     var nSuccesses = 0;
     for (var i=0; i < stateArray.length; i++) {
-        var progressOk = stateArray[i]['progressOk'];
-        var durabilityOk = stateArray[i]['durabilityOk'];
-        var cpOk = stateArray[i]['cpOk'];
+        var chk = stateArray[i].checkViolations();
+        var progressOk = chk.progressOk;
+        var durabilityOk = chk.durabilityOk;
+        var cpOk = chk.cpOk;
 
         if (progressOk && durabilityOk && cpOk) {
             nSuccesses += 1;
@@ -876,9 +877,10 @@ function getAverageHqPercent(stateArray) {
     var nHQ = 0;
     var nSuccesses = 0;
     for (var i=0; i < stateArray.length; i++) {
-        var progressOk = stateArray[i]['progressOk'];
-        var durabilityOk = stateArray[i]['durabilityOk'];
-        var cpOk = stateArray[i]['cpOk'];
+        var chk = stateArray[i].checkViolations();
+        var progressOk = chk.progressOk;
+        var durabilityOk = chk.durabilityOk;
+        var cpOk = chk.cpOk;
 
         if (progressOk && durabilityOk && cpOk) {
             nSuccesses += 1;
@@ -898,10 +900,10 @@ function getAverageHqPercent(stateArray) {
 function getSuccessRate(stateArray) {
     var nSuccesses = 0;
     for (var i=0; i < stateArray.length; i++) {
-        // Check progressOk, durabilityOk, cpOk
-        var progressOk = stateArray[i]['progressOk'];
-        var durabilityOk = stateArray[i]['durabilityOk'];
-        var cpOk = stateArray[i]['cpOk'];
+        var chk = stateArray[i].checkViolations();
+        var progressOk = chk.progressOk;
+        var durabilityOk = chk.durabilityOk;
+        var cpOk = chk.cpOk;
 
         if (progressOk && durabilityOk && cpOk) {
             nSuccesses += 1;
