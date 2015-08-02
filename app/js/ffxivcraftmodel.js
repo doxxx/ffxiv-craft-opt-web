@@ -5,6 +5,11 @@
     * Add action counter to UpdateEffectCounters STEP_03
 */
 
+/* ToDo
+    * Remove remaining references to cpOk on state.
+    * Implement Heavensward actions
+ */
+
 function Logger(logOutput) {
     this.logOutput = logOutput;
 }
@@ -86,26 +91,43 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
         levelCorrectedProgress = (1 + levelCorrectionFactor) * baseProgress;
     }
     else if (crafterLevel < 120) {
+        baseProgress = 0.214959 * craftsmanship + 1.6;
+
+        // Level boost for recipes below crafter level
+        // Level boost arbitrarily capped at 100 levels for now because of limited data
+        if (levelDifference > 0) {
+            levelCorrectionFactor += 0.0495218 * Math.min(levelDifference, 5);
+        }
+        if (levelDifference > 5) {
+            levelCorrectionFactor += 0.0221127 * Math.min(levelDifference - 5, 10);
+        }
+        if (levelDifference > 15) {
+            levelCorrectionFactor += 0.0103120 * Math.min(levelDifference - 15, 5);
+        }
+        if (levelDifference > 20) {
+            levelCorrectionFactor += 6.68438e-4 * Math.min(levelDifference - 20, 100);
+        }
+
+        // Level penalty for recipes above crafter level
+        // Level difference penalty was capped at -9 in 2.2
         levelDifference = Math.max(levelDifference, -9);
+        /*
+        if (levelDifference < 0){
+            levelCorrectionFactor += 0.080554 * Math.max(levelDifference, -5);
+        }
+        if (levelDifference < -5){
+            levelCorrectionFactor += 0.0487896 * Math.max(levelDifference - (-5), -1);
+        }
+        */
 
         if ((levelDifference < -5)) {
             levelCorrectionFactor = 0.0501 * levelDifference;
         }
-        else if ((-5 <= levelDifference) && (levelDifference <= 0)) {
+        else if ((-5 <= levelDifference) && (levelDifference < 0)) {
             levelCorrectionFactor = 0.10 * levelDifference;
         }
-        else if ((0 < levelDifference) && (levelDifference <= 5)) {
-            levelCorrectionFactor = 0.0501 * levelDifference;
-        }
-        else if ((5 < levelDifference) && (levelDifference <= 15)) {
-            levelCorrectionFactor = 0.022 * levelDifference + 0.15;
-        }
-        else {
-            levelCorrectionFactor = 0.00134 * levelDifference + 0.466;
-        }
 
-        baseProgress = 0.209 * craftsmanship + 2.51;
-        levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor);
+        levelCorrectedProgress = (1 + levelCorrectionFactor) * baseProgress;
     }
 
     return levelCorrectedProgress;
@@ -301,12 +323,12 @@ function ApplyModifiers(s, action) {
     var levelDifference = effCrafterLevel - effRecipeLevel;
 
     if (AllActions.ingenuity2.name in s.effects.countDowns) {
-        if (s.synth.recipe.level > 50) {
+        if (Ing2RecipeLevelTable[s.synth.recipe.level]) {
             effRecipeLevel = Ing2RecipeLevelTable[s.synth.recipe.level];
             levelDifference = effCrafterLevel - effRecipeLevel;
         }
         else {
-            levelDifference = effCrafterLevel - (effRecipeLevel - 7);
+            levelDifference = effCrafterLevel - (effRecipeLevel - 7); // fall back on 2.2 estimate
         }
 
         if (levelDifference > 0) {
@@ -319,12 +341,12 @@ function ApplyModifiers(s, action) {
 
     }
     else if (AllActions.ingenuity.name in s.effects.countDowns) {
-        if (s.synth.recipe.level > 50) {
+        if (Ing1RecipeLevelTable[s.synth.recipe.level]) {
             effRecipeLevel = Ing1RecipeLevelTable[s.synth.recipe.level];
             levelDifference = effCrafterLevel - effRecipeLevel;
         }
         else {
-            levelDifference = effCrafterLevel - (effRecipeLevel - 5);
+            levelDifference = effCrafterLevel - (effRecipeLevel - 5); // fall back on 2.2 estimate
         }
 
         if (levelDifference > 0) {
@@ -1139,6 +1161,17 @@ var LevelTable = {
 };
 
 var Ing1RecipeLevelTable = {
+    40: 36,
+    41: 36,
+    42: 37,
+    43: 38,
+    44: 39,
+    45: 40,
+    46: 41,
+    47: 42,
+    48: 43,
+    49: 44,
+    50: 45,
     55: 50,     // 50_1star     *** unverified
     70: 50,     // 50_2star     *** unverified
     90: 58,     // 50_3star     *** unverified
@@ -1158,6 +1191,17 @@ var Ing1RecipeLevelTable = {
 };
 
 var Ing2RecipeLevelTable = {
+    40: 33,
+    41: 34,
+    42: 35,
+    43: 36,
+    44: 37,
+    45: 38,
+    46: 39,
+    47: 40,
+    48: 40,
+    49: 41,
+    40: 42,
     55: 47,     // 50_1star     *** unverified
     70: 47,     // 50_2star     *** unverified
     90: 56,     // 50_3star     *** unverified
