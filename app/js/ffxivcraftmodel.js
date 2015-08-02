@@ -403,7 +403,7 @@ function ApplyModifiers(s, action) {
 
 }
 
-function ApplySpecialActionEffects(s, action, checkConditions) {
+function ApplySpecialActionEffects(s, action, condition) {
     // STEP_02
     // Effect management
     //==================================
@@ -448,9 +448,9 @@ function ApplySpecialActionEffects(s, action, checkConditions) {
     }
 
     // Manage effects with random component
-    if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && checkConditions()) {
+    if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && condition.checkGoodOrExcellent()) {
         s.trickUses += 1;
-        s.cpState += 20;
+        s.cpState += 20 * condition.pGoodOrExcellent();
     }
     else if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0) {
         s.wastedActions += 1;
@@ -484,14 +484,14 @@ function UpdateEffectCounters(s, action, successProbability) {
     }
 }
 
-function UpdateState(s, action, progressGain, qualityGain, durabilityCost, checkConditions, successProbability) {
+function UpdateState(s, action, progressGain, qualityGain, durabilityCost, condition, successProbability) {
     // State tracking
     s.progressState += progressGain;
     s.qualityState += qualityGain;
     s.durabilityState -= durabilityCost;
     s.cpState -= action.cpCost;
 
-    ApplySpecialActionEffects(s, action, checkConditions);
+    ApplySpecialActionEffects(s, action, condition);
     UpdateEffectCounters(s, action, successProbability);
 
     // Sanity checks for state variables
@@ -523,8 +523,19 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
     var ppPoor = 0;
     var ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
 
-    var checkConditions = function () {
-        return true;
+    var SimCondition = {
+        checkGoodOrExcellent: function () {
+            return true;
+        },
+        checkPoor: function () {
+            return true;
+        },
+        pGoodOrExcellent: function () {
+            return ppGood + ppExcellent;
+        },
+        pPoor: function () {
+            return ppPoor;
+        }
     };
 
     // Initialize counters
@@ -583,7 +594,7 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
         //==================================
         else {
 
-            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, checkConditions, r.successProbability);
+            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, SimCondition, r.successProbability);
 
             // Count cross class actions
             if (!(action.cls === 'All' || action.cls === s.synth.crafter.cls || action.shortName in s.crossClassActionList)) {
@@ -644,8 +655,19 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     var pGood = 0.23;
     var pExcellent = 0.01;
 
-    var checkConditions = function () {
-        return (s.condition == 'Good' || s.condition == 'Excellent' || assumeSuccess);
+    var MonteCarloCondition = {
+        checkGoodOrExcellent: function () {
+            return (s.condition == 'Good' || s.condition == 'Excellent' || assumeSuccess);
+        },
+        checkPoor: function () {
+            return (s.condition == 'Poor' || assumeSuccess);
+        },
+        pGoodOrExcellent: function () {
+            return 1;
+        },
+        pGood: function () {
+            return 1;
+        }
     };
 
     // Initialize counters
@@ -705,7 +727,7 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     //==================================
     else {
 
-        UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, checkConditions, success);
+        UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, MonteCarloCondition, success);
 
         // Count cross class actions
         if (!((action.cls === 'All') || (action.cls === s.synth.crafter.cls) || (action.shortName in s.crossClassActionList))) {
