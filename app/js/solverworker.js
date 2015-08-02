@@ -41,6 +41,12 @@ function start(settings) {
     crafterActions.push(AllActions[settings.crafter.actions[i]]);
   }
 
+  crafterActions.sort(function (a1, a2) {
+    if (a1.shortName < a2.shortName) return -1;
+    else if (a1.shortName > a2.shortName) return 1;
+    else return 0;
+  });
+
   var crafter = new Crafter(settings.recipe.cls,
                             settings.crafter.level,
                             settings.crafter.craftsmanship,
