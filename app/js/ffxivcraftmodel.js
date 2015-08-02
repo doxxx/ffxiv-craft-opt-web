@@ -218,13 +218,41 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
 
 }
 
-State.prototype.checkViolations = function () {
+State.prototype.checkViolations = function (synth) {
+    // Check for feasibility violations
+    var progressOk = false;
+    var cpOk = false;
+    var durabilityOk = false;
+    var trickOk = false;
+    var reliabilityOk = false;
+
+    if (this.progressState >= synth.recipe.difficulty) {
+        progressOk = true;
+    }
+
+    if (this.cpState >= 0) {
+        cpOk = true;
+    }
+
+    // Consider removing sanity check in UpdateState
+    if ((this.durabilityState >= 0) && (this.progressState >= synth.recipe.difficulty)) {
+        durabilityOk = true;
+    }
+
+    if (this.trickUses <= synth.maxTrickUses) {
+        trickOk = true;
+    }
+
+    if (this.reliability >= synth.reliabilityIndex) {
+        reliabilityOk = true;
+    }
+    
     return {
-        progressOk: false,
-        cpOk: false,
-        durabilityOk: false,
-        trickOk: false,
-        reliabilityOk: false
+        progressOk: progressOk,
+        cpOk: cpOk,
+        durabilityOk: durabilityOk,
+        trickOk: trickOk,
+        reliabilityOk: reliabilityOk
     };
 };
 
@@ -484,10 +512,6 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         return true;
     };
 
-    // Initialize end state checks
-    var trickOk = false;
-    var reliabilityOk = false;
-
     // Initialize counters
     var crossClassActionCounter = 0;
 
@@ -575,37 +599,19 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
 
     }
 
-    // Check for failure outcomes
-    if (s.progressState >= synth.recipe.difficulty) {
-        s.progressOk = true;
-    }
-
-    if (s.cpState >= 0) {
-        s.cpOk = true;
-    }
-
-    if ((s.durabilityState >= 0) && (s.progressState >= synth.recipe.difficulty)) {
-        s.durabilityOk = true;
-    }
-
-    if (s.trickUses <= synth.maxTrickUses) {
-        trickOk = true;
-    }
-
-    if (s.reliability >= synth.reliabilityIndex) {
-        reliabilityOk = true;
-    }
+    // Check for feasibility violations
+    var chk = s.checkViolations(synth);
 
     if (debug) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', s.progressOk, s.durabilityOk, s.cpOk, trickOk, reliabilityOk, crossClassActionCounter, s.wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, crossClassActionCounter, s.wastedActions);
     }
     else if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', s.progressOk, s.durabilityOk, s.cpOk, trickOk, reliabilityOk, crossClassActionCounter, s.wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, crossClassActionCounter, s.wastedActions);
     }
 
     // Return final state
     return new State(s.step, individual[individual.length-1].name, s.durabilityState, s.cpState, s.qualityState, s.progressState,
-        s.wastedActions, s.progressOk, s.cpOk, s.durabilityOk, s.trickUses, s.reliability, s.crossClassActionList);
+        s.wastedActions, chk.progressOk, chk.cpOk, chk.durabilityOk, s.trickUses, s.reliability, s.crossClassActionList);
 
 }
 
@@ -626,10 +632,6 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     var checkConditions = function () {
         return (s.condition == 'Good' || s.condition == 'Excellent' || assumeSuccess);
     };
-
-    // Initialize end state checks
-    var trickOk = false;
-    var reliabilityOk = false;
 
     // Initialize counters
     s.step += 1;
@@ -717,26 +719,8 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
         }
     }
 
-    // Check for failure outcomes
-    if (s.progressState >= synth.recipe.difficulty) {
-        s.progressOk = true;
-    }
-
-    if (s.cpState >= 0) {
-        s.cpOk = true;
-    }
-
-    if (s.durabilityState >= 0 && s.progressState >= synth.recipe.difficulty) {
-        s.durabilityOk = true;
-    }
-
-    if (s.trickUses <= synth.maxTrickUses) {
-        trickOk = true;
-    }
-
-    if (s.reliability >= synth.reliabilityIndex) {
-        reliabilityOk = true;
-    }
+    // Check for feasibility violations
+    var chk = s.checkViolations(synth);
 
     if (debug) {
         var iqCnt = 0;
@@ -751,7 +735,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
 
     // Return final state
     return new State(s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState,
-                       s.wastedActions, s.progressOk, s.cpOk, s.durabilityOk, s.trickUses, s.reliability, s.crossClassActionList, s.effects, s.condition);
+                       s.wastedActions, chk.progressOk, chk.cpOk, chk.durabilityOk, s.trickUses, s.reliability, s.crossClassActionList, s.effects, s.condition);
 
 }
 
@@ -764,10 +748,6 @@ function MonteCarloSequence(individual, synth, startState, assumeSuccess, overri
     var logger = new Logger(logOutput);
 
     var s = clone(startState);
-
-    // Intialize final state checks
-    var trickOk = false;
-    var reliabilityOk = false;
 
     // Initialize counters
     var maxTricksUses = 0;
@@ -814,36 +794,18 @@ function MonteCarloSequence(individual, synth, startState, assumeSuccess, overri
         s = MonteCarloStep(synth, s, action, assumeSuccess, verbose, debug, logOutput);
     }
 
-    // Check for failure outcomes
-    if (s.progressState >= synth.recipe.difficulty) {
-        s.progressOk = true;
-    }
-
-    if (s.cpState >= 0) {
-        s.cpOk = true;
-    }
-
-    if (s.durabilityState >= -5 && s.progressState >= synth.recipe.difficulty) {
-        s.durabilityOk = true;
-    }
-
-    if (s.trickUses <= synth.maxTrickUses) {
-        trickOk = true;
-    }
-
-    if (s.reliability >= synth.reliabilityIndex) {
-        reliabilityOk = true;
-    }
+    // Check for feasibility violations
+    var chk = s.checkViolations(synth);
 
     for (var crossClassAction in s.crossClassActionList) {
         crossClassActionCounter += 1;
     }
 
     if (debug) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', s.progressOk, s.durabilityOk, s.cpOk, trickOk, reliabilityOk, crossClassActionCounter, s.wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, crossClassActionCounter, s.wastedActions);
     }
     else if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', s.progressOk, s.durabilityOk, s.cpOk, trickOk, reliabilityOk, crossClassActionCounter, s.wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, crossClassActionCounter, s.wastedActions);
     }
 
     return s;
