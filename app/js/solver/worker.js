@@ -45,6 +45,12 @@ function start(settings) {
     crafterActions.push(AllActions[settings.crafter.actions[i]]);
   }
 
+  crafterActions.sort(function (a1, a2) {
+    if (a1.shortName < a2.shortName) return -1;
+    else if (a1.shortName > a2.shortName) return 1;
+    else return 0;
+  });
+
   var crafter = new Crafter(settings.recipe.cls,
                             settings.crafter.level,
                             settings.crafter.craftsmanship,
@@ -145,11 +151,12 @@ function finish() {
   var debug = state.settings.debug;
 
   var startState = NewStateFromSynth(state.synth);
+  var startStateNoConditions = NewStateFromSynth(state.synthNoConditions);
 
   logOutput.write("Genetic Algorithm Result\n");
   logOutput.write("========================\n");
 
-  simSynth(best, state.synth, startState, true, debug, logOutput);
+  simSynth(best, startState, true, debug, logOutput);
 
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
@@ -159,11 +166,11 @@ function finish() {
   if (debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSequence(best, state.synth, startState, false, true, false, true, logOutput);
+    MonteCarloSequence(best, startState, false, true, false, true, logOutput);
   }
 
   // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSequence(best, state.synthNoConditions, startState, true, false, false, false, logOutput);
+  var finalState = MonteCarloSequence(best, startStateNoConditions, true, false, false, false, logOutput);
 
   var elapsedTime = Date.now() - state.startTime;
 
@@ -190,7 +197,7 @@ function finish() {
 function postProgress(gen, maxGen, best, synthNoConditions) {
   var startState = NewStateFromSynth(synthNoConditions);
 
-  var currentState = MonteCarloSequence(best, synthNoConditions, startState, true, false, false, false);
+  var currentState = MonteCarloSequence(best, startState, true, false, false, false);
   self.postMessage({
     progress: {
       generationsCompleted: gen,

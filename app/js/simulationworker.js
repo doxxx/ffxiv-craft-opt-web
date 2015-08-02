@@ -32,6 +32,7 @@ self.onmessage = function(e) {
   var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false);
 
   var startState = NewStateFromSynth(synth);
+  var startStateNoConditions = NewStateFromSynth(synthNoConditions);
 
   var sequence = [];
 
@@ -51,7 +52,7 @@ self.onmessage = function(e) {
   logOutput.write("Probabilistic Result\n");
   logOutput.write("====================\n");
 
-  simSynth(sequence, synth, startState, true, settings.debug, logOutput);
+  simSynth(sequence, startState, true, settings.debug, logOutput);
 
   logOutput.write("\nMonte Carlo Result\n");
   logOutput.write("==================\n");
@@ -61,11 +62,11 @@ self.onmessage = function(e) {
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSequence(sequence, synth, startState, false, true, false, true, logOutput);
+    MonteCarloSequence(sequence, startState, false, true, false, true, logOutput);
   }
 
   // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSequence(sequence, synthNoConditions, startState, true, false, false, false, logOutput);
+  var finalState = MonteCarloSequence(sequence, startStateNoConditions, true, false, false, false, logOutput);
 
   var result = {
     success: {
