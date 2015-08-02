@@ -971,15 +971,18 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     // Sum the constraint violations
     penalties += result.wastedActions;
 
-    if (!result.durabilityOk) {
+    // Check for feasibility violations
+    var chk = result.checkViolations(mySynth);
+
+    if (!chk.durabilityOk) {
        penalties += Math.abs(result.durabilityState);
     }
 
-    if (!result.progressOk) {
+    if (!chk.progressOk) {
         penalties += Math.abs(result.progressState);
     }
 
-    if (!result.cpOk) {
+    if (!chk.cpOk) {
         penalties += Math.abs(result.cpState);
     }
 
