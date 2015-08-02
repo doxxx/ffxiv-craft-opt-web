@@ -6,7 +6,6 @@
 */
 
 /* ToDo
-    * Remove remaining references to cpOk on state.
     * Implement Heavensward actions
  */
 
@@ -216,7 +215,7 @@ function EffectTracker() {
     this.countDowns = {};
 }
 
-function State(synth, step, action, durabilityState, cpState, qualityState, progressState, wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition) {
+function State(synth, step, action, durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition) {
     this.synth = synth;
     this.step = step;
     this.action = action;
@@ -225,9 +224,6 @@ function State(synth, step, action, durabilityState, cpState, qualityState, prog
     this.qualityState = qualityState;
     this.progressState = progressState;
     this.wastedActions = wastedActions;
-    this.progressOk = progressOk;
-    this.cpOk = cpOk;
-    this.durabilityOk = durabilityOk;
     this.trickUses = trickUses;
     this.reliability = reliability;
     if (crossClassActionList === null) {
@@ -286,16 +282,13 @@ function NewStateFromSynth(synth) {
     var qualityState = synth.recipe.startQuality;
     var progressState = 0;
     var wastedActions = 0;
-    var progressOk = false;
-    var cpOk = false;
-    var durabilityOk = false;
     var trickUses = 0;
     var reliability = 1;
     var crossClassActionList = {};
     var effects = new EffectTracker();
     var condition = 'Normal';
 
-    return new State(synth, step, '', durabilityState, cpState, qualityState, progressState, wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
+    return new State(synth, step, '', durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition);
 }
 
 function ApplyModifiers(s, action) {
@@ -633,7 +626,7 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
 
     // Return final state
     return new State(s.synth, s.step, individual[individual.length-1].name, s.durabilityState, s.cpState, s.qualityState, s.progressState,
-        s.wastedActions, chk.progressOk, chk.cpOk, chk.durabilityOk, s.trickUses, s.reliability, s.crossClassActionList);
+        s.wastedActions, s.trickUses, s.reliability, s.crossClassActionList);
 
 }
 
@@ -756,7 +749,7 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     }
 
     // Return final state
-    return new State(s.synth, s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, chk.progressOk, chk.cpOk, chk.durabilityOk, s.trickUses, s.reliability, s.crossClassActionList, s.effects, s.condition);
+    return new State(s.synth, s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, s.trickUses, s.reliability, s.crossClassActionList, s.effects, s.condition);
 
 }
 
