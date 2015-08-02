@@ -110,7 +110,7 @@ angular.module('ffxivCraftOptWeb.controllers')
     $scope.isSimulationResultOk = function () {
       var state = $scope.simulationResult.state;
       if (!state) return false;
-      return state.cpOk && state.durabilityOk && state.progressOk;
+      return state.violations.cpOk && state.violations.durabilityOk && state.violations.progressOk;
     };
 
     $scope.simulate = function () {

@@ -73,13 +73,11 @@ self.onmessage = function(e) {
       log: logOutput.log,
       state: {
         quality: finalState.qualityState,
-        durabilityOk: finalState.durabilityOk,
         durability: finalState.durabilityState,
-        cpOk: finalState.cpOk,
         cp: finalState.cpState,
-        progressOk: finalState.progressOk,
         progress: finalState.progressState,
-        successPercent: mcSimResult.successPercent
+        successPercent: mcSimResult.successPercent,
+        violations: finalState.checkViolations()
       }
     }
   };

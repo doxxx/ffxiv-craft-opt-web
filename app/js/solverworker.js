@@ -170,13 +170,11 @@ function finish() {
       log: logOutput.log,
       state: {
         quality: finalState.qualityState,
-        durabilityOk: finalState.durabilityOk,
         durability: finalState.durabilityState,
-        cpOk: finalState.cpOk,
         cp: finalState.cpState,
-        progressOk: finalState.progressOk,
         progress: finalState.progressState,
-        successPercent: mcSimResult.successPercent
+        successPercent: mcSimResult.successPercent,
+        violations: finalState.checkViolations()
       },
       bestSequence: actionSequenceToShortNames(best)
     }
@@ -224,12 +222,10 @@ function postProgress(gen, maxGen, best, synthNoConditions) {
       maxGenerations: maxGen,
       state: {
         quality: currentState.qualityState,
-        durabilityOk: currentState.durabilityOk,
         durability: currentState.durabilityState,
-        cpOk: currentState.cpOk,
         cp: currentState.cpState,
-        progressOk: currentState.progressOk,
-        progress: currentState.progressState
+        progress: currentState.progressState,
+        violations: currentState.checkViolations()
       },
       bestSequence: actionSequenceToShortNames(best)
     }
