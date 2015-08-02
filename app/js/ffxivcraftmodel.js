@@ -194,7 +194,8 @@ function EffectTracker() {
     this.countDowns = {};
 }
 
-function State(step, action, durabilityState, cpState, qualityState, progressState, wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition) {
+function State(synth, step, action, durabilityState, cpState, qualityState, progressState, wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition) {
+    this.synth = synth;
     this.step = step;
     this.action = action;
     this.durabilityState = durabilityState;
@@ -218,7 +219,7 @@ function State(step, action, durabilityState, cpState, qualityState, progressSta
 
 }
 
-State.prototype.checkViolations = function (synth) {
+State.prototype.checkViolations = function () {
     // Check for feasibility violations
     var progressOk = false;
     var cpOk = false;
@@ -226,7 +227,7 @@ State.prototype.checkViolations = function (synth) {
     var trickOk = false;
     var reliabilityOk = false;
 
-    if (this.progressState >= synth.recipe.difficulty) {
+    if (this.progressState >= this.synth.recipe.difficulty) {
         progressOk = true;
     }
 
@@ -235,15 +236,15 @@ State.prototype.checkViolations = function (synth) {
     }
 
     // Consider removing sanity check in UpdateState
-    if ((this.durabilityState >= 0) && (this.progressState >= synth.recipe.difficulty)) {
+    if ((this.durabilityState >= 0) && (this.progressState >= this.synth.recipe.difficulty)) {
         durabilityOk = true;
     }
 
-    if (this.trickUses <= synth.maxTrickUses) {
+    if (this.trickUses <= this.synth.maxTrickUses) {
         trickOk = true;
     }
 
-    if (this.reliability >= synth.reliabilityIndex) {
+    if (this.reliability >= this.synth.reliabilityIndex) {
         reliabilityOk = true;
     }
     
@@ -272,37 +273,36 @@ function NewStateFromSynth(synth) {
     var effects = new EffectTracker();
     var condition = 'Normal';
 
-    return new State(step, '', durabilityState, cpState, qualityState, progressState,
-        wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
+    return new State(synth, step, '', durabilityState, cpState, qualityState, progressState, wastedActions, progressOk, cpOk, durabilityOk, trickUses, reliability, crossClassActionList, effects, condition);
 }
 
-function ApplyModifiers(s, action, synth) {
+function ApplyModifiers(s, action) {
 
     // Effect Modifiers
     //=================
-    var craftsmanship = synth.crafter.craftsmanship;
-    var control = synth.crafter.control;
+    var craftsmanship = s.synth.crafter.craftsmanship;
+    var control = s.synth.crafter.control;
 
     // Effects modifying control
     if (AllActions.innerQuiet.name in s.effects.countUps) {
-        control += (0.2 * s.effects.countUps[AllActions.innerQuiet.name]) * synth.crafter.control;
+        control += (0.2 * s.effects.countUps[AllActions.innerQuiet.name]) * s.synth.crafter.control;
     }
 
     if (AllActions.innovation.name in s.effects.countDowns) {
-        control += 0.5 * synth.crafter.control;
+        control += 0.5 * s.synth.crafter.control;
     }
 
     // Effects modifying level difference
-    var effCrafterLevel = synth.crafter.level;
-    if (LevelTable[synth.crafter.level]) {
-        effCrafterLevel += LevelTable[synth.crafter.level];
+    var effCrafterLevel = s.synth.crafter.level;
+    if (LevelTable[s.synth.crafter.level]) {
+        effCrafterLevel += LevelTable[s.synth.crafter.level];
     }
-    var effRecipeLevel = synth.recipe.level;
+    var effRecipeLevel = s.synth.recipe.level;
     var levelDifference = effCrafterLevel - effRecipeLevel;
 
     if (AllActions.ingenuity2.name in s.effects.countDowns) {
-        if (synth.recipe.level > 50) {
-            effRecipeLevel = Ing2RecipeLevelTable[synth.recipe.level];
+        if (s.synth.recipe.level > 50) {
+            effRecipeLevel = Ing2RecipeLevelTable[s.synth.recipe.level];
             levelDifference = effCrafterLevel - effRecipeLevel;
         }
         else {
@@ -319,8 +319,8 @@ function ApplyModifiers(s, action, synth) {
 
     }
     else if (AllActions.ingenuity.name in s.effects.countDowns) {
-        if (synth.recipe.level > 50) {
-            effRecipeLevel = Ing1RecipeLevelTable[synth.recipe.level];
+        if (s.synth.recipe.level > 50) {
+            effRecipeLevel = Ing1RecipeLevelTable[s.synth.recipe.level];
             levelDifference = effCrafterLevel - effRecipeLevel;
         }
         else {
@@ -354,16 +354,16 @@ function ApplyModifiers(s, action, synth) {
     }
 
     // Effects modifying progress
-    var bProgressGain = action.progressIncreaseMultiplier * synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, synth.recipe.level);
+    var bProgressGain = action.progressIncreaseMultiplier * s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
     else if (isActionEq(action, AllActions.pieceByPiece)) {
-        bProgressGain = (synth.recipe.difficulty - s.progressState) * 0.33;
+        bProgressGain = (s.synth.recipe.difficulty - s.progressState) * 0.33;
     }
 
     // Effects modifying quality
-    var bQualityGain = qualityIncreaseMultiplier * synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, synth.recipe.level);
+    var bQualityGain = qualityIncreaseMultiplier * s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in s.effects.countUps) {
         bQualityGain *= (1 + 0.2 * s.effects.countUps[AllActions.innerQuiet.name]);
     }
@@ -469,7 +469,7 @@ function UpdateEffectCounters(s, action, successProbability) {
     }
 }
 
-function UpdateState(s, action, synth, progressGain, qualityGain, durabilityCost, checkConditions, successProbability) {
+function UpdateState(s, action, progressGain, qualityGain, durabilityCost, checkConditions, successProbability) {
     // State tracking
     s.progressState += progressGain;
     s.qualityState += qualityGain;
@@ -480,14 +480,14 @@ function UpdateState(s, action, synth, progressGain, qualityGain, durabilityCost
     UpdateEffectCounters(s, action, successProbability);
 
     // Sanity checks for state variables
-    if ((s.durabilityState >= -5) && (s.progressState >= synth.recipe.difficulty)) {
+    if ((s.durabilityState >= -5) && (s.progressState >= s.synth.recipe.difficulty)) {
         s.durabilityState = 0;
     }
-    s.durabilityState = Math.min(s.durabilityState, synth.recipe.durability);
-    s.cpState = Math.min(s.cpState, synth.crafter.craftPoints);
+    s.durabilityState = Math.min(s.durabilityState, s.synth.recipe.durability);
+    s.cpState = Math.min(s.cpState, s.synth.crafter.craftPoints);
 }
 
-function simSynth(individual, synth, startState, verbose, debug, logOutput) {
+function simSynth(individual, startState, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
@@ -498,7 +498,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     var s = clone(startState);
 
     // Conditions
-    var useConditions = synth.useConditions;
+    var useConditions = s.synth.useConditions;
     var pGood = 0.23;
     var pExcellent = 0.01;
 
@@ -517,12 +517,12 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
 
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
-        return NewStateFromSynth(synth);
+        return NewStateFromSynth(s.synth);
     }
 
     if (debug) {
         logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 0, synth.crafter.control, 0);
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 0, s.synth.crafter.control, 0);
     }
     else if (verbose) {
         logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s' , '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
@@ -538,12 +538,12 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         s.step += 1;
 
         // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
-        var r = ApplyModifiers(s, action, synth);
+        var r = ApplyModifiers(s, action);
 
         // Condition Calculation
         var condQualityIncreaseMultiplier = 1;
         if (useConditions) {
-            condQualityIncreaseMultiplier *= (1 * ppNormal + 1.5 * ppGood * Math.pow(1 - (ppGood + pGood) / 2, synth.maxTrickUses) + 4 * ppExcellent + 0.5 * ppPoor);
+            condQualityIncreaseMultiplier *= (1 * ppNormal + 1.5 * ppGood * Math.pow(1 - (ppGood + pGood) / 2, s.synth.maxTrickUses) + 4 * ppExcellent + 0.5 * ppPoor);
         }
 
         // Calculate final gains / losses
@@ -560,7 +560,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
 
         // Occur if a wasted action
         //==================================
-        if (((s.progressState >= synth.recipe.difficulty) || (s.durabilityState <= 0) || (s.cpState < 0)) && (action != AllActions.dummyAction)) {
+        if (((s.progressState >= s.synth.recipe.difficulty) || (s.durabilityState <= 0) || (s.cpState < 0)) && (action != AllActions.dummyAction)) {
             s.wastedActions += 1;
         }
 
@@ -568,10 +568,10 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
         //==================================
         else {
 
-            UpdateState(s, action, synth, progressGain, qualityGain, r.durabilityCost, checkConditions, r.successProbability);
+            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, checkConditions, r.successProbability);
 
             // Count cross class actions
-            if (!(action.cls === 'All' || action.cls === synth.crafter.cls || action.shortName in s.crossClassActionList)) {
+            if (!(action.cls === 'All' || action.cls === s.synth.crafter.cls || action.shortName in s.crossClassActionList)) {
                 s.crossClassActionList[action.shortName] = true;
                 crossClassActionCounter += 1;
             }
@@ -600,7 +600,7 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     }
 
     // Check for feasibility violations
-    var chk = s.checkViolations(synth);
+    var chk = s.checkViolations();
 
     if (debug) {
         logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, crossClassActionCounter, s.wastedActions);
@@ -610,12 +610,12 @@ function simSynth(individual, synth, startState, verbose, debug, logOutput) {
     }
 
     // Return final state
-    return new State(s.step, individual[individual.length-1].name, s.durabilityState, s.cpState, s.qualityState, s.progressState,
+    return new State(s.synth, s.step, individual[individual.length-1].name, s.durabilityState, s.cpState, s.qualityState, s.progressState,
         s.wastedActions, chk.progressOk, chk.cpOk, chk.durabilityOk, s.trickUses, s.reliability, s.crossClassActionList);
 
 }
 
-function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug, logOutput) {
+function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
@@ -637,11 +637,11 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     s.step += 1;
 
     // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
-    var r = ApplyModifiers(s, action, synth);
+    var r = ApplyModifiers(s, action);
 
     // Condition Evaluation
     var condQualityIncreaseMultiplier = 1;
-    if (!synth.useConditions) {
+    if (!s.synth.useConditions) {
         condQualityIncreaseMultiplier *= 1.0;
     }
     else if (s.condition === 'Excellent') {
@@ -682,7 +682,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
 
     // Occur if a dummy action
     //==================================
-    if ((s.progressState >= synth.recipe.difficulty || s.durabilityState <= 0 || s.cpState < 0) && action != AllActions.dummyAction) {
+    if ((s.progressState >= s.synth.recipe.difficulty || s.durabilityState <= 0 || s.cpState < 0) && action != AllActions.dummyAction) {
         s.wastedActions += 1;
     }
 
@@ -690,10 +690,10 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     //==================================
     else {
 
-        UpdateState(s, action, synth, progressGain, qualityGain, r.durabilityCost, checkConditions, success);
+        UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, checkConditions, success);
 
         // Count cross class actions
-        if (!((action.cls === 'All') || (action.cls === synth.crafter.cls) || (action.shortName in s.crossClassActionList))) {
+        if (!((action.cls === 'All') || (action.cls === s.synth.crafter.cls) || (action.shortName in s.crossClassActionList))) {
             s.crossClassActionList[action.shortName] = true;
         }
 
@@ -720,7 +720,7 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     }
 
     // Check for feasibility violations
-    var chk = s.checkViolations(synth);
+    var chk = s.checkViolations();
 
     if (debug) {
         var iqCnt = 0;
@@ -734,12 +734,11 @@ function MonteCarloStep(synth, startState, action, assumeSuccess, verbose, debug
     }
 
     // Return final state
-    return new State(s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState,
-                       s.wastedActions, chk.progressOk, chk.cpOk, chk.durabilityOk, s.trickUses, s.reliability, s.crossClassActionList, s.effects, s.condition);
+    return new State(s.synth, s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, chk.progressOk, chk.cpOk, chk.durabilityOk, s.trickUses, s.reliability, s.crossClassActionList, s.effects, s.condition);
 
 }
 
-function MonteCarloSequence(individual, synth, startState, assumeSuccess, overrideTotT, verbose, debug, logOutput) {
+function MonteCarloSequence(individual, startState, assumeSuccess, overrideTotT, verbose, debug, logOutput) {
     overrideTotT = overrideTotT !== undefined ? overrideTotT : true;
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
@@ -774,7 +773,7 @@ function MonteCarloSequence(individual, synth, startState, assumeSuccess, overri
 
     if (debug) {
         logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-7s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA', 'Cond', 'S/F');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %-5s %-7s %-10s %-5s', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 0, synth.crafter.control, 0, '', '', 'Normal', '-');
+        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %-5s %-7s %-10s %-5s', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 0, s.synth.crafter.control, 0, '', '', 'Normal', '-');
     }
     else if (verbose) {
         logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'Cond', 'S/F');
@@ -788,14 +787,14 @@ function MonteCarloSequence(individual, synth, startState, assumeSuccess, overri
         if (overrideTotT) {
             // Manually re-add tricks of the trade when condition is good
             if (s.condition == 'Good' && s.trickUses < maxTricksUses) {
-                s = MonteCarloStep(synth, s, AllActions.tricksOfTheTrade, assumeSuccess, verbose, debug, logOutput);
+                s = MonteCarloStep(s, AllActions.tricksOfTheTrade, assumeSuccess, verbose, debug, logOutput);
             }
         }
-        s = MonteCarloStep(synth, s, action, assumeSuccess, verbose, debug, logOutput);
+        s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
     }
 
     // Check for feasibility violations
-    var chk = s.checkViolations(synth);
+    var chk = s.checkViolations();
 
     for (var crossClassAction in s.crossClassActionList) {
         crossClassActionCounter += 1;
@@ -822,7 +821,7 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
 
     var finalStateTracker = [];
     for (var i=0; i < nRuns; i++) {
-        var runSynth = MonteCarloSequence(individual, synth, startState, false, true, false, false, logOutput);
+        var runSynth = MonteCarloSequence(individual, startState, false, true, false, false, logOutput);
         finalStateTracker[finalStateTracker.length] = runSynth;
 
         if (verbose) {
@@ -834,7 +833,7 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
     var avgCp = getAverageProperty(finalStateTracker, 'cpState', nRuns);
     var avgQuality = getAverageProperty(finalStateTracker, 'qualityState', nRuns);
     var avgProgress = getAverageProperty(finalStateTracker, 'progressState', nRuns);
-    var avgHqPercent = getAverageHqPercent(finalStateTracker, synth);
+    var avgHqPercent = getAverageHqPercent(finalStateTracker);
     var successRate = getSuccessRate(finalStateTracker);
 
     logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s','', '', 'DUR', 'CP', 'QUA', 'PRG', 'HQ%');
@@ -873,7 +872,7 @@ function getAverageProperty(stateArray, propName, nRuns) {
     return sumProperty / nSuccesses;
 }
 
-function getAverageHqPercent(stateArray, synth) {
+function getAverageHqPercent(stateArray) {
     var nHQ = 0;
     var nSuccesses = 0;
     for (var i=0; i < stateArray.length; i++) {
@@ -884,7 +883,7 @@ function getAverageHqPercent(stateArray, synth) {
         if (progressOk && durabilityOk && cpOk) {
             nSuccesses += 1;
 
-            var qualityPercent = stateArray[i]['qualityState'] / synth.recipe.maxQuality * 100;
+            var qualityPercent = stateArray[i]['qualityState'] / stateArray[i].synth.recipe.maxQuality * 100;
             var hqProbability = hqPercentFromQuality(qualityPercent) / 100;
             var hqRand = Math.random();
             if (hqRand <= hqProbability) {
@@ -963,7 +962,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
     var startState = NewStateFromSynth(mySynth);
 
-    var result = simSynth(individual, mySynth, startState, false, false);
+    var result = simSynth(individual, startState, false, false);
     var penalties = 0;
     var fitness = 0;
     var fitnessProg = 0;
@@ -972,7 +971,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     penalties += result.wastedActions;
 
     // Check for feasibility violations
-    var chk = result.checkViolations(mySynth);
+    var chk = result.checkViolations();
 
     if (!chk.durabilityOk) {
        penalties += Math.abs(result.durabilityState);
