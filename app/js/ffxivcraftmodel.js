@@ -1010,15 +1010,15 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     penalties += result.wastedActions;
 
     if (!result.durabilityOk) {
-       penalties += Math.abs(result.durability);
+       penalties += Math.abs(result.durabilityState);
     }
 
     if (!result.progressOk) {
-        penalties += Math.abs(result.progress);
+        penalties += Math.abs(result.progressState);
     }
 
     if (!result.cpOk) {
-        penalties += Math.abs(result.cp);
+        penalties += Math.abs(result.cpState);
     }
 
     if (result.trickUses > mySynth.maxTrickUses) {
