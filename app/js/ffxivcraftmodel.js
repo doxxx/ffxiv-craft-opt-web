@@ -384,6 +384,9 @@ function ApplyModifiers(s, action, condition) {
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in s.effects.countUps) {
         bQualityGain *= (1 + 0.2 * s.effects.countUps[AllActions.innerQuiet.name]);
     }
+    if ((isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.name in s.effects.countUps) && condition.checkGoodOrExcellent()) {
+        bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.name]) * condition.pGoodOrExcellent();
+    }
 
     // Effects modifying durability cost
     var durabilityCost = action.durabilityCost;
@@ -456,6 +459,16 @@ function ApplySpecialActionEffects(s, action, condition) {
     }
     else if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0) {
         s.wastedActions += 1;
+    }
+
+    if (isActionEq(action, AllActions.byregotsBrow) && condition.checkGoodOrExcellent()) {
+        if (AllActions.innerQuiet.name in s.effects.countUps) {
+            s.trickUses += 1;
+            s.effects.countUps[AllActions.innerQuiet.name] *= (1 - condition.pGoodOrExcellent());
+        }
+        else {
+            s.wastedActions += 1;
+        }
     }
 }
 
