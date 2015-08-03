@@ -181,7 +181,7 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     return levelCorrectedQuality;
 };
 
-function Action(shortName, name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level) {
+function Action(shortName, name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level, onGood, onExcellent, onPoor) {
     this.shortName = shortName;
     this.name = name;
     this.durabilityCost = durabilityCost;
@@ -200,6 +200,9 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
 
     this.cls = cls;
     this.level = level;
+    this.onGood = onGood;
+    this.onExcellent = onExcellent;
+    this.onPoor = onPoor;
 }
 
 function isActionEq(action1, action2) {
@@ -775,8 +778,8 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
 
 }
 
-function MonteCarloSequence(individual, startState, assumeSuccess, overrideTotT, verbose, debug, logOutput) {
-    overrideTotT = overrideTotT !== undefined ? overrideTotT : true;
+function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCondition, verbose, debug, logOutput) {
+    overrideOnCondition = overrideOnCondition !== undefined ? overrideOnCondition : true;
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
@@ -786,7 +789,7 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideTotT,
     var s = clone(startState);
 
     // Initialize counters
-    var maxTricksUses = 0;
+    var maxConditionUses = 0;
     var crossClassActionCounter = 0;
 
     // Check for null or empty individuals
@@ -795,14 +798,31 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideTotT,
     }
 
     // Strip Tricks of the Trade from individual
-    if (overrideTotT) {
+    if (overrideOnCondition) {
+        var onExcellentOnlyActions = [];
+        var onGoodOnlyActions = [];
+        var onGoodOrExcellentActions = [];
+        var onPoorOnlyActions = [];
         var tempIndividual = [];
         for (var i=0; i < individual.length; i++) {
-            if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
-                tempIndividual[tempIndividual.length] = individual[i];
+            if (individual[i].onExcellent && !individual[i].onGood) {
+                onExcellentOnlyActions.push(individual[i]);
+                maxConditionUses += 1;
+            }
+            else if ((individual[i].onGood && !individual[i].onExcellent) && !individual[i].onPoor) {
+                onGoodOnlyActions.push(individual[i]);
+                maxConditionUses += 1;
+            }
+            else if (individual[i].onGood || individual[i].onExcellent) {
+                onGoodOrExcellentActions.push(individual[i]);
+                maxConditionUses += 1;
+            }
+            else if (individual[i].onPoor && !(individual[i].onExcellent || individual[i].onGood)) {
+                onPoorOnlyActions.push(individual[i]);
+                maxConditionUses += 1;
             }
             else {
-                maxTricksUses += 1;
+                tempIndividual.push(individual[i]);
             }
         }
         individual = tempIndividual;
@@ -821,10 +841,31 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideTotT,
     for (i=0; i < individual.length; i++) {
         var action = individual[i];
 
-        if (overrideTotT) {
-            // Manually re-add tricks of the trade when condition is good
-            if (s.condition == 'Good' && s.trickUses < maxTricksUses) {
-                s = MonteCarloStep(s, AllActions.tricksOfTheTrade, assumeSuccess, verbose, debug, logOutput);
+        if (overrideOnCondition) {
+            // Manually re-add condition dependent action when conditions are met
+            if (s.condition == 'Excellent' && s.trickUses < maxConditionUses) {
+                if (onExcellentOnlyActions.length > 0) {
+                    s = MonteCarloStep(s, onExcellentOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
+
+                }
+                else if (onGoodOrExcellentActions.length > 0) {
+                    s = MonteCarloStep(s, onGoodOrExcellentActions.shift(), assumeSuccess, verbose, debug, logOutput);
+                }
+            }
+            if (s.condition == 'Good' && s.trickUses < maxConditionUses) {
+                if (onGoodOnlyActions.length > 0) {
+                    s = MonteCarloStep(s, onGoodOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
+
+                }
+                else if (onGoodOrExcellentActions.length > 0) {
+                    s = MonteCarloStep(s, onGoodOrExcellentActions.shift(), assumeSuccess, verbose, debug, logOutput);
+                }
+            }
+            if (s.condition == 'Poor' && s.trickUses < maxConditionUses) {
+                if (onPoorOnlyActions.length > 0) {
+                    s = MonteCarloStep(s, onPoorOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
+
+                }
             }
         }
         s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
@@ -1105,7 +1146,7 @@ function clone(x) {
 //==============
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level
 var AllActions = {
-    //                            shortName,              fullName,              dur,   cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,
+    //                            shortName,              fullName,              dur,   cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
     observe: new Action(           'observe',              'Observe',              0,  14,   1.0, 0.0, 0.0, 'immediate',   1,  'All',          1),
 
     basicSynth: new Action(        'basicSynth',           'Basic Synthesis',      10,  0,   0.9, 0.0, 1.0, 'immediate',   1,  'All',          1),
@@ -1125,7 +1166,7 @@ var AllActions = {
     mastersMend: new Action(       'mastersMend',          'Master\'s Mend',       0,   92,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          7),
     mastersMend2: new Action(      'mastersMend2',         'Master\'s Mend II',    0,   160, 1.0, 0.0, 0.0, 'immediate',   1,  'All',          25),
     rumination: new Action(        'rumination',           'Rumination',           0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Carpenter',    15),
-    tricksOfTheTrade: new Action(  'tricksOfTheTrade',     'Tricks Of The Trade',  0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Alchemist',    15),
+    tricksOfTheTrade: new Action(  'tricksOfTheTrade',     'Tricks Of The Trade',  0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Alchemist',    15,  true,       true),
 
     innerQuiet: new Action(        'innerQuiet',           'Inner Quiet',          0,   18,  1.0, 0.0, 0.0, 'countup',     1,  'All',          11),
     manipulation: new Action(      'manipulation',         'Manipulation',         0,   88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15),
@@ -1141,8 +1182,8 @@ var AllActions = {
 
     // Heavensward actions
     //                            shortName,              fullName,              dur,   cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,
-    byregotsBrow: new Action(     'byregotsBrow',         'Byregot\'s Brow',      10,   18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51),
-    preciseTouch: new Action(     'preciseTouch',         'Precise Touch',        10,   18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53),
+    byregotsBrow: new Action(     'byregotsBrow',         'Byregot\'s Brow',      10,   18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51,  true,       true),
+    preciseTouch: new Action(     'preciseTouch',         'Precise Touch',        10,   18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
     makersMark: new Action(       'makersMark',           'Maker\'s Mark',         0,   20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54),
     muscleMemory: new Action(     'muscleMemory',         'Muscle Memory',        10,    6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
 
