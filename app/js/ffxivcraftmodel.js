@@ -361,13 +361,25 @@ function ApplyModifiers(s, action, condition) {
 
     // Effects modfiying probability
     var successProbability = action.successProbability;
+    var ftSuccessProbability = AllActions.finishingTouches.successProbability;
     if (AllActions.steadyHand2.name in s.effects.countDowns) {
-        successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
+        successProbability += 0.3;        // Assume 2 always overrides 1
+        ftSuccessProbability += 0.3;
     }
     else if (AllActions.steadyHand.name in s.effects.countDowns) {
-        successProbability = action.successProbability + 0.2;
+        successProbability += 0.2;
+        ftSuccessProbability += 0.2;
     }
     successProbability = Math.min(successProbability, 1);
+    ftSuccessProbability = Math.min(ftSuccessProbability, 1);
+
+    // Effects modifying progress increase multiplier
+    var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
+
+    // Effects modified by Whistle While You Work
+    if (AllActions.whistle.name in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.name] % 3 == 0)) {
+        progressIncreaseMultiplier += 0.5;
+    }
 
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
@@ -376,7 +388,7 @@ function ApplyModifiers(s, action, condition) {
     }
 
     // Effects modifying progress
-    var bProgressGain = action.progressIncreaseMultiplier * s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+    var bProgressGain = progressIncreaseMultiplier * s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
@@ -398,9 +410,33 @@ function ApplyModifiers(s, action, condition) {
 
     // Effects modifying durability cost
     var durabilityCost = action.durabilityCost;
+    var ftDurabilityCost = AllActions.finishingTouches.durabilityCost;
     if ((AllActions.wasteNot.name in s.effects.countDowns) || (AllActions.wasteNot2.name in s.effects.countDowns)) {
-        durabilityCost = 0.5 * action.durabilityCost;
+        durabilityCost *= 0.5;
+        ftDurabilityCost *= 0.5;
     }
+
+    /*
+    If Whistle is at 1 and a good/excellent occurs, at the end of the action, whistle will decrement and Finishing Touches will occur
+    Finishing Touches is 200% efficiency, 50% success (?) and 10 (?) durability
+    */
+    if ((AllActions.whistle.name in s.effects.countDowns && s.effects.countDowns[AllActions.whistle.name] == 1) && condition.checkGoodOrExcellent()) {
+        // Cheat to see if we are dealing with MontecarloStep
+        if (condition.pGoodOrExcellent() == 1) {
+            // Success or Failure
+            var successRand = Math.random();
+            if (0 <= successRand && successRand <= ftSuccessProbability) {
+                ftSuccessProbability = 1;
+            }
+            else {
+                ftSuccessProbability = 0;
+            }
+        }
+        bProgressGain += 2 * condition.pGoodOrExcellent() * ftSuccessProbability *
+            s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+        durabilityCost += 10 * condition.pGoodOrExcellent();
+    }
+
     return {
         craftsmanship: craftsmanship,
         control: control,
@@ -485,7 +521,13 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
     //===============================
     // Decrement countdowns
     for (var countDown in s.effects.countDowns) {
-        s.effects.countDowns[countDown] -= 1;
+        if (countDown == AllActions.whistle.name && condition.checkGoodOrExcellent()) {
+            s.effects.countDowns[AllActions.whistle.name] -= 1 * condition.pGoodOrExcellent();
+        }
+        else {
+            s.effects.countDowns[countDown] -= 1;
+        }
+
         if (s.effects.countDowns[countDown] === 0) {
             delete s.effects.countDowns[countDown];
         }
@@ -1210,6 +1252,7 @@ var AllActions = {
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
     makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54),
     muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
+    whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
 
     /* TODO
     nameofElement: new Action(      'nameofElement',        'Name of Element',       0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
@@ -1217,14 +1260,15 @@ var AllActions = {
 
     // Specialist Actions
     satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
-    whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
     innovativeTouch: new Action(    'innovativeTouch',      'Innovative Touch',     10,      8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
     nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
     byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
     trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.0, 0.0, 'immediate',   1,  'All',          58),
     */
 
-    dummyAction: new Action(        'dummyAction',          '______________',        0,     0,   1.0, 0.0, 0.0, 'immediate',   1,  'All',           1)
+    // Special Actions - not selectable
+    finishingTouches: new Action(   'finishingTouches',     'Finishing Touches',    10,      0,  0.5, 0.0, 2.0, 'immediate',   1,  'All',          55),
+    dummyAction: new Action(        'dummyAction',          '______________',        0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           1)
 };
 
 var LevelTable = {
