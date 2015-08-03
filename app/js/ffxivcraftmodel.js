@@ -294,7 +294,7 @@ function NewStateFromSynth(synth) {
     return new State(synth, step, '', durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition);
 }
 
-function ApplyModifiers(s, action) {
+function ApplyModifiers(s, action, condition) {
 
     // Effect Modifiers
     //=================
@@ -352,7 +352,6 @@ function ApplyModifiers(s, action) {
         if (levelDifference < 0) {
             levelDifference = Math.max(levelDifference, -5);
         }
-
     }
 
     // Effects modfiying probability
@@ -566,14 +565,14 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
         //==================================
         s.step += 1;
 
-        // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
-        var r = ApplyModifiers(s, action);
-
         // Condition Calculation
         var condQualityIncreaseMultiplier = 1;
         if (useConditions) {
             condQualityIncreaseMultiplier *= (1 * ppNormal + 1.5 * ppGood * Math.pow(1 - (ppGood + pGood) / 2, s.synth.maxTrickUses) + 4 * ppExcellent + 0.5 * ppPoor);
         }
+
+        // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
+        var r = ApplyModifiers(s, action, SimCondition);
 
         // Calculate final gains / losses
         var progressGain = r.bProgressGain;
@@ -676,9 +675,6 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     // Initialize counters
     s.step += 1;
 
-    // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
-    var r = ApplyModifiers(s, action);
-
     // Condition Evaluation
     var condQualityIncreaseMultiplier = 1;
     if (!s.synth.useConditions) {
@@ -696,6 +692,9 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     else {
         condQualityIncreaseMultiplier *= 1.0;
     }
+
+    // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
+    var r = ApplyModifiers(s, action, MonteCarloCondition);
 
     // Success or Failure
     var success = 0;
