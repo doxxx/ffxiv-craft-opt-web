@@ -389,11 +389,11 @@ function ApplyModifiers(s, action, condition) {
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in s.effects.countUps) {
         bQualityGain *= (1 + 0.2 * s.effects.countUps[AllActions.innerQuiet.name]);
     }
-    if ((isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.name in s.effects.countUps) && condition.checkGoodOrExcellent()) {
-        bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.name]) * condition.pGoodOrExcellent();
+    if ((isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.name in s.effects.countUps) && condition.checkGoodOrExcellent) {
+        bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.name]) * condition.pGoodOrExcellent;
     }
-    if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
-        bQualityGain *= condition.pGoodOrExcellent();
+    if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent) {
+        bQualityGain *= condition.pGoodOrExcellent;
     }
 
     // Effects modifying durability cost
@@ -460,18 +460,18 @@ function ApplySpecialActionEffects(s, action, condition) {
     }
 
     // Manage effects with random component
-    if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && condition.checkGoodOrExcellent()) {
+    if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && condition.checkGoodOrExcellent) {
         s.trickUses += 1;
-        s.cpState += 20 * condition.pGoodOrExcellent();
+        s.cpState += 20 * condition.pGoodOrExcellent;
     }
     else if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0) {
         s.wastedActions += 1;
     }
 
-    if (isActionEq(action, AllActions.byregotsBrow) && condition.checkGoodOrExcellent()) {
+    if (isActionEq(action, AllActions.byregotsBrow) && condition.checkGoodOrExcellent) {
         if (AllActions.innerQuiet.name in s.effects.countUps) {
             s.trickUses += 1;
-            s.effects.countUps[AllActions.innerQuiet.name] *= (1 - condition.pGoodOrExcellent());
+            s.effects.countUps[AllActions.innerQuiet.name] *= (1 - condition.pGoodOrExcellent);
         }
         else {
             s.wastedActions += 1;
@@ -492,8 +492,8 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
     }
 
     // Increment inner quiet countups that depend on random component
-    if ((isActionEq(action, AllActions.preciseTouch) && (AllActions.innerQuiet.name in s.effects.countUps && s.effects.countUps[AllActions.innerQuiet.name] < 10)) && condition.checkGoodOrExcellent()) {
-        s.effects.countUps[AllActions.innerQuiet.name] += 2 * successProbability * condition.pGoodOrExcellent();
+    if ((isActionEq(action, AllActions.preciseTouch) && (AllActions.innerQuiet.name in s.effects.countUps && s.effects.countUps[AllActions.innerQuiet.name] < 10)) && condition.checkGoodOrExcellent) {
+        s.effects.countUps[AllActions.innerQuiet.name] += 2 * successProbability * condition.pGoodOrExcellent;
     }
     // Increment all other inner quiet count ups
     else if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.name] < 10) {
@@ -549,19 +549,12 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
     var ppPoor = 0;
     var ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
 
+    // Since condition doesn't change until after UpdateState, we don't need to use functions.
     var SimCondition = {
-        checkGoodOrExcellent: function () {
-            return true;
-        },
-        checkPoor: function () {
-            return true;
-        },
-        pGoodOrExcellent: function () {
-            return ppGood + ppExcellent;
-        },
-        pPoor: function () {
-            return ppPoor;
-        }
+        checkGoodOrExcellent: true,
+        checkPoor: true,
+        pGoodOrExcellent: ppGood + ppExcellent,
+        pPoor: ppPoor
     };
 
     // Initialize counters
@@ -681,19 +674,12 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     var pGood = 0.23;
     var pExcellent = 0.01;
 
+    // Since condition doesn't change until after UpdateState, we don't need to use functions.
     var MonteCarloCondition = {
-        checkGoodOrExcellent: function () {
-            return (s.condition == 'Good' || s.condition == 'Excellent' || assumeSuccess);
-        },
-        checkPoor: function () {
-            return (s.condition == 'Poor' || assumeSuccess);
-        },
-        pGoodOrExcellent: function () {
-            return 1;
-        },
-        pGood: function () {
-            return 1;
-        }
+        checkGoodOrExcellent: (s.condition == 'Good' || s.condition == 'Excellent' || assumeSuccess),
+        checkPoor: (s.condition == 'Poor' || assumeSuccess),
+        pGoodOrExcellent: 1,
+        pGood: 1
     };
 
     // Initialize counters
