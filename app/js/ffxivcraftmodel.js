@@ -387,6 +387,9 @@ function ApplyModifiers(s, action, condition) {
     if ((isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.name in s.effects.countUps) && condition.checkGoodOrExcellent()) {
         bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.name]) * condition.pGoodOrExcellent();
     }
+    if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
+        bQualityGain *= condition.pGoodOrExcellent();
+    }
 
     // Effects modifying durability cost
     var durabilityCost = action.durabilityCost;
@@ -472,7 +475,7 @@ function ApplySpecialActionEffects(s, action, condition) {
     }
 }
 
-function UpdateEffectCounters(s, action, successProbability) {
+function UpdateEffectCounters(s, action, condition, successProbability) {
     // STEP_03
     // Countdown / Countup Management
     //===============================
@@ -484,8 +487,12 @@ function UpdateEffectCounters(s, action, successProbability) {
         }
     }
 
-    // Increment countups that depend on random component
-    if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.name] < 10) {
+    // Increment inner quiet countups that depend on random component
+    if ((isActionEq(action, AllActions.preciseTouch) && (AllActions.innerQuiet.name in s.effects.countUps && s.effects.countUps[AllActions.innerQuiet.name] < 10)) && condition.checkGoodOrExcellent()) {
+        s.effects.countUps[AllActions.innerQuiet.name] += 2 * successProbability * condition.pGoodOrExcellent();
+    }
+    // Increment all other inner quiet count ups
+    else if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.name] < 10) {
         s.effects.countUps[AllActions.innerQuiet.name] += 1 * successProbability;
     }
 
@@ -507,7 +514,7 @@ function UpdateState(s, action, progressGain, qualityGain, durabilityCost, condi
     s.cpState -= action.cpCost;
 
     ApplySpecialActionEffects(s, action, condition);
-    UpdateEffectCounters(s, action, successProbability);
+    UpdateEffectCounters(s, action, condition, successProbability);
 
     // Sanity checks for state variables
     if ((s.durabilityState >= -5) && (s.progressState >= s.synth.recipe.difficulty)) {
