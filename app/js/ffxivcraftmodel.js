@@ -1276,7 +1276,7 @@ var Ing2RecipeLevelTable = {
     47: 40,
     48: 40,
     49: 41,
-    40: 42,
+    50: 42,
     55: 47,     // 50_1star     *** unverified
     70: 47,     // 50_2star     *** unverified
     90: 56,     // 50_3star     *** unverified
