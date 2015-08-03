@@ -60,7 +60,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $rootScope.$on('$translateChangeSuccess', function (event, data) {
       buildTooltipsCache(data.language);
     });
-
+    buildTooltipsCache($translate.use());
 
     // non-persistent page states
     $scope.navBarCollapsed = true;
