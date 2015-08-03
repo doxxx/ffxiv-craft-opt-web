@@ -13,14 +13,14 @@
 </span>
 <span ng-show="valid() &amp;&amp; !status.error &amp;&amp; status.state">
   Q:{{status.state.quality | number:0}}
-  <span ng-class="{'simulator-status-error': !status.state.progressOk, 'simulator-status-ok': status.state.progressOk}">
-    &nbsp;Prog:{{status.state.progress | number:0}}/{{recipe.difficulty | number:0}} <i ng-show="!status.state.progressOk" class="fa fa-warning"></i>
+  <span ng-class="{'simulator-status-error': !status.state.violations.progressOk, 'simulator-status-ok': status.state.violations.progressOk}">
+    &nbsp;Prog:{{status.state.progress | number:0}}/{{recipe.difficulty | number:0}} <i ng-show="!status.state.violations.progressOk" class="fa fa-warning"></i>
   </span>
-  <span ng-show="!status.state.durabilityOk" class="simulator-status-error">
+  <span ng-show="!status.state.violations.durabilityOk" class="simulator-status-error">
     &nbsp;Dur:{{status.state.durability | number:0}} <i class="fa fa-warning"></i>
   </span>
-  <span ng-class="{'simulator-status-error': !status.state.progressOk, 'simulator-status-ok': status.state.progressOk}">
-    &nbsp;CP:{{status.state.cp | number:0}} <i ng-show="!status.state.progressOk" class="fa fa-warning"></i>
+  <span ng-class="{'simulator-status-error': !status.state.violations.cpOk, 'simulator-status-ok': status.state.violations.progressOk}">
+    &nbsp;CP:{{status.state.cp | number:0}} <i ng-show="!status.state.violations.cpOk" class="fa fa-warning"></i>
   </span>
   <span ng-show="status.state.successPercent">
     &nbsp;Success: {{status.state.successPercent | number:0}}%
