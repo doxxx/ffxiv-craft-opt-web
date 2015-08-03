@@ -240,6 +240,11 @@ function State(synth, step, action, durabilityState, cpState, qualityState, prog
 
 }
 
+State.prototype.clone = function () {
+    return new State(this.synth, this.step, this.action, this.durabilityState, this.cpState, this.qualityState, this.progressState, this.wastedActions, this.trickUses,
+                     this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition);
+};
+
 State.prototype.checkViolations = function () {
     // Check for feasibility violations
     var progressOk = false;
@@ -531,7 +536,7 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
     var logger = new Logger(logOutput);
 
     // Clone startState to keep startState immutable
-    var s = clone(startState);
+    var s = startState.clone();
 
     // Conditions
     var useConditions = s.synth.useConditions;
@@ -657,8 +662,8 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
     }
 
     // Return final state
-    return new State(s.synth, s.step, individual[individual.length-1].name, s.durabilityState, s.cpState, s.qualityState, s.progressState,
-        s.wastedActions, s.trickUses, s.reliability, s.crossClassActionList);
+    s.action = individual[individual.length-1].name;
+    return s;
 
 }
 
@@ -670,7 +675,7 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     var logger = new Logger(logOutput);
 
     // Clone startState to keep startState immutable
-    var s = clone(startState);
+    var s = startState.clone();
 
     // Conditions
     var pGood = 0.23;
@@ -792,7 +797,8 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     }
 
     // Return final state
-    return new State(s.synth, s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, s.trickUses, s.reliability, s.crossClassActionList, s.effects, s.condition);
+    s.action = action.name;
+    return s;
 
 }
 
@@ -804,7 +810,7 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCon
 
     var logger = new Logger(logOutput);
 
-    var s = clone(startState);
+    var s = startState.clone();
 
     // Initialize counters
     var maxConditionUses = 0;
