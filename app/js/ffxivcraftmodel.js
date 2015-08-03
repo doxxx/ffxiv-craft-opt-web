@@ -796,7 +796,7 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCon
 
     var logger = new Logger(logOutput);
 
-    var s = startState.clone();
+    var s = startState;
 
     // Initialize counters
     var maxConditionUses = 0;
@@ -804,7 +804,7 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCon
 
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
-        return s;
+        return startState;
     }
 
     // Strip Tricks of the Trade from individual
