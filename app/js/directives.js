@@ -43,9 +43,29 @@ angular.module('ffxivCraftOptWeb.directives', [])
     return {
       restrict: 'A',
       link: function (scope, element, attr) {
+        element.bind('DOMMouseScroll', function (e) {
+          if (e.detail > 0 && this.clientHeight + this.scrollTop == this.scrollHeight) {
+            this.scrollTop = this.scrollHeight - this.clientHeight;
+            e.stopPropagation();
+            e.preventDefault();
+            return false;
+          }
+          else if (e.detail < 0 && this.scrollTop <= 0) {
+            this.scrollTop = 0;
+            e.stopPropagation();
+            e.preventDefault();
+            return false;
+          }
+        });
         element.bind('mousewheel', function (e) {
-          if ((e.deltaY > 0 && this.clientHeight + this.scrollTop == this.scrollHeight) ||
-              (e.deltaY < 0 && this.scrollTop == 0)) {
+          if (e.deltaY > 0 && this.clientHeight + this.scrollTop >= this.scrollHeight) {
+            this.scrollTop = this.scrollHeight - this.clientHeight;
+            e.stopPropagation();
+            e.preventDefault();
+            return false;
+          }
+          else if (e.deltaY < 0 && this.scrollTop <= 0) {
+            this.scrollTop = 0;
             e.stopPropagation();
             e.preventDefault();
             return false;
