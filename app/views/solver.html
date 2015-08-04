@@ -72,15 +72,16 @@
     <div class="span9">
       <div class="sequence-editor" ng-show="editingSequence" ng-controller="SequenceEditorCtrl">
         <div class="sequence well well-small">
-          <img ng-repeat="action in editSequence track by $index"
-               class="action selectable-action"
-               ng-class="actionClasses(action, recipe.cls)"
-               ng-src="{{getActionImagePath(action, recipe.cls)}}"
-               ng-click="removeAction($index)"
-               lvl-draggable="true"
-               lvl-drop-target="true"
-               data-index="{{$index}}"
-               on-drop="dropAction(dragEl, dropEl)"/>
+          <span ng-repeat="action in editSequence track by $index"
+                class="image-wrap glossy action selectable"
+                ng-class="actionClasses(action, recipe.cls)"
+                ng-click="removeAction($index)"
+                lvl-draggable="true"
+                lvl-drop-target="true"
+                data-index="{{$index}}"
+                on-drop="dropAction(dragEl, dropEl)">
+            <img ng-src="{{getActionImagePath(action, recipe.cls)}}"/>
+          </span>
 
           <img class="action empty-action" lvl-drop-target="true"
                src="img/actions/empty.png"

@@ -1,15 +1,17 @@
 <div class="action-group" ng-repeat="actionGroup in actionGroups">
   <label class="action-group-label">{{actionGroup.name}}</label>
   <div class="action-group-actions">
-    <img ng-repeat="action in actionGroup.actions track by $index"
-         ng-class="_actionClasses(action, cls)"
-         ng-click="onClick(action, cls)"
-         ng-src="{{getActionImagePath(action, cls)}}"
-         tooltip-html-unsafe="{{actionTooltip(action, cls)}}"
-         tooltip-placement="{{tooltipPlacement}}"
-         tooltip-popup-delay="1000"
-         tooltip-append-to-body="true"
-         lvl-draggable="draggable"
-         data-new-action="{{action}}"/>
+    <span ng-repeat="action in actionGroup.actions track by $index"
+          ng-click="onClick(action, cls)"
+          class="image-wrap glossy action"
+          ng-class="_actionClasses(action, cls)"
+          lvl-draggable="{{draggable}}"
+          data-new-action="{{action}}"
+          tooltip-html-unsafe="{{actionTooltip(action, cls)}}"
+          tooltip-placement="{{tooltipPlacement}}"
+          tooltip-popup-delay="1000"
+          tooltip-append-to-body="true">
+      <img ng-src="{{getActionImagePath(action, cls)}}"/>
+    </span>
   </div>
 </div>

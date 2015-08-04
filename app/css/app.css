@@ -332,18 +332,68 @@ div[content*="xivdb"] div.tooltip-arrow {
 
 /* Actions */
 
-.action {
-  display: inline-block;
-  margin: 4px;
-  border-radius: 4px;
-  box-shadow: black 1px 1px 6px 0px;
-}
-
-.selectable-action {
+.selectable {
   cursor: pointer;
 }
 
+.image-wrap {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: bottom;
+}
 
+/* image-wrap:after pseudo element (overlaying container) */
+.image-wrap:after {
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border: solid 1px #303030;
+  box-shadow: inset 0 0 1px rgba(255,255,255,.4), inset 0 1px 0 rgba(255,255,255,.4), 0 1px 2px rgba(0,0,0,.3);
+  border-radius: 5px;
+}
+
+.image-wrap.faded:after {
+  border: solid 1px #707070;
+  opacity: 0.4;
+}
+
+.image-wrap img {
+  vertical-align: bottom;
+  box-shadow: black 2px 2px 6px 0;
+  border-radius: 4px;
+}
+
+.image-wrap.faded img {
+  opacity: 0.4;
+}
+
+/* glossy */
+.glossy.image-wrap:before {
+  position: absolute;
+  content: ' ';
+  width: 100%;
+  height: 20%;
+  top: 0;
+  left: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: -moz-linear-gradient(top, rgba(255,255,255,0.6) 0%, rgba(255,255,255,.15) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,.15)));
+  background: linear-gradient(top, rgba(255,255,255,0.6) 0%,rgba(255,255,255,.15) 100%);
+}
+
+.glossy.image-wrap.faded:before {
+  opacity: 0.4
+}
+
+.image-wrap.action {
+  margin: 4px;
+}
 
 /* Action Table */
 
@@ -356,14 +406,18 @@ div[content*="xivdb"] div.tooltip-arrow {
   margin-bottom: 0px;
 }
 
+/*
 .action-table .action {
   opacity: 0.4;
 }
+*/
 
+/*
 .action-table .selected-action {
   opacity: 1;
   box-shadow: #00aaff 1px 1px 5px 1px;
 }
+*/
 
 
 

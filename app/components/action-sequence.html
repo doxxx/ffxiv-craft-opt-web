@@ -1,9 +1,11 @@
 <div class="sequence well well-small">
-  <img ng-repeat="action in actions track by $index"
-       ng-class="_actionClasses(action, cls)"
-       ng-src="{{getActionImagePath(action, cls)}}"
-       tooltip-html-unsafe="{{actionTooltip(action, cls)}}"
-       tooltip-placement="tooltipPlacement"
-       tooltip-popup-delay="1000"
-       tooltip-append-to-body="true"/>
+  <span ng-repeat="action in actions track by $index"
+        class="image-wrap glossy action"
+        ng-class="_actionClasses(action, cls)"
+        tooltip-html-unsafe="{{actionTooltip(action, cls)}}"
+        tooltip-placement="{{tooltipPlacement}}"
+        tooltip-popup-delay="1000"
+        tooltip-append-to-body="true">
+    <img ng-src="{{getActionImagePath(action, cls)}}"/>
+  </span>
 </div>

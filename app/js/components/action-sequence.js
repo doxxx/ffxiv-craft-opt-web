@@ -29,7 +29,6 @@ angular.module('ffxivCraftOptWeb.components')
           if ($scope.actionClasses) {
             classes = $scope.actionClasses(action, cls);
           }
-          classes['action'] = true;
           return classes;
         }
       }
