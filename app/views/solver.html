@@ -94,10 +94,6 @@
           <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">Revert</button>
           <button class="btn btn-warning" ng-disabled="editSequence.length == 0" ng-click="clear()">Clear</button>
         </div>
-        <div ng-show="uniqueCrossClassActions.length > 0">
-          <h5>Required Cross Class Actions</h5>
-          <action-sequence actions="uniqueCrossClassActions" cls="recipe.cls" tooltip-placement="right" action-classes="seqeunceActionClasses"></action-sequence>
-        </div>
         <h5>Available Actions</h5>
         <div class="action-table">
           <action-table cls="recipe.cls" action-classes="actionClasses" selectable="true" draggable="true" on-click="addAction" tooltip-placement="right"/>
@@ -113,10 +109,6 @@
                   ng-click="useSolverResult()">Use Solver Result
           </button>
         </div>
-        <div ng-show="uniqueCrossClassActions.length > 0">
-          <h5>Required Cross Class Actions</h5>
-          <action-sequence actions="uniqueCrossClassActions" cls="recipe.cls" tooltip-placement="right" action-classes="seqeunceActionClasses"></action-sequence>
-        </div>
       </div>
     </div>
     <div class="span3">
@@ -129,6 +121,10 @@
           <li>CP: {{crafter.stats[recipe.cls].cp}} + {{bonusStats.cp}}</li>
         </ul>
         <p><button class="btn" ng-click="showStatBonusesModal()">Stat Bonuses...</button></p>
+      </div>
+      <div ng-show="uniqueCrossClassActions.length > 0">
+        <h5>Required Cross Class Actions</h5>
+        <action-sequence actions="uniqueCrossClassActions" cls="recipe.cls" tooltip-placement="right" action-classes="seqeunceActionClasses"></action-sequence>
       </div>
     </div>
   </div>
