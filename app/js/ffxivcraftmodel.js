@@ -432,9 +432,9 @@ function ApplyModifiers(s, action, condition) {
                 ftSuccessProbability = 0;
             }
         }
-        bProgressGain += 2 * condition.pGoodOrExcellent() * ftSuccessProbability *
+        bProgressGain += AllActions.finishingTouches.progressIncreaseMultiplier * condition.pGoodOrExcellent() * ftSuccessProbability *
             s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
-        durabilityCost += 10 * condition.pGoodOrExcellent();
+        durabilityCost += ftDurabilityCost * condition.pGoodOrExcellent();
     }
 
     return {
@@ -521,8 +521,10 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
     //===============================
     // Decrement countdowns
     for (var countDown in s.effects.countDowns) {
-        if (countDown == AllActions.whistle.name && condition.checkGoodOrExcellent()) {
-            s.effects.countDowns[AllActions.whistle.name] -= 1 * condition.pGoodOrExcellent();
+        if (countDown == AllActions.whistle.name) {
+            if (condition.checkGoodOrExcellent()) {
+                s.effects.countDowns[AllActions.whistle.name] -= 1 * condition.pGoodOrExcellent();
+            }
         }
         else {
             s.effects.countDowns[countDown] -= 1;
@@ -634,7 +636,7 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
         // Condition Calculation
         var condQualityIncreaseMultiplier = 1;
         if (useConditions) {
-            condQualityIncreaseMultiplier *= (1 * ppNormal + 1.5 * ppGood * Math.pow(1 - (ppGood + pGood) / 2, s.synth.maxTrickUses) + 4 * ppExcellent + 0.5 * ppPoor);
+            condQualityIncreaseMultiplier *= (ppNormal + 1.5 * ppGood * Math.pow(1 - (ppGood + pGood) / 2, s.synth.maxTrickUses) + 4 * ppExcellent + 0.5 * ppPoor);
         }
 
         // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
@@ -1262,11 +1264,7 @@ var AllActions = {
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
     makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54),
     muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
-    whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
-
-    /* TODO
-    nameofElement: new Action(      'nameofElement',        'Name of Element',       0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
-    heartOfTheClass: new Action(    'heartOfTheClass',      'Heart of the Class',    0,     45,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          60),
+    whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'countdown',  11,  'All',          55),
 
     // Specialist Actions
     satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
@@ -1274,6 +1272,10 @@ var AllActions = {
     nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
     byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
     trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.0, 0.0, 'immediate',   1,  'All',          58),
+
+    /* TODO
+    nameofElement: new Action(      'nameofElement',        'Name of Element',       0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
+    heartOfTheClass: new Action(    'heartOfTheClass',      'Heart of the Class',    0,     45,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          60),
     */
 
     // Special Actions - not selectable
