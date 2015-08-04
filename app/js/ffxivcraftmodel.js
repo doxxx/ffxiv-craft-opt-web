@@ -615,12 +615,12 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
     }
 
     if (debug) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 0, s.synth.crafter.control, 0);
+        logger.log('%-2s %30s %-5s %-5s %-8s %-8s %-5s %-5s %-8s %-8s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'IQ', 'WWYW', 'CTL', 'QINC', 'BPRG', 'BQUA', 'WAC');
+        logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f %8.1f %8.1f %5.0f %5.0f %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, 0, 0, s.synth.crafter.control, 0, 0, 0, 0);
     }
     else if (verbose) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s' , '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions);
+        logger.log('%-2s %30s %-5s %-5s %-8s %-8s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'IQ', 'WWYW');
+        logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, 0, 0);
 
     }
 
@@ -680,15 +680,20 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
 
         }
 
+        var iqCnt = 0;
+        var wwywCnt = 0;
+        if (AllActions.innerQuiet.name in s.effects.countUps) {
+            iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
+        }
+        if (AllActions.whistle.name in s.effects.countDowns) {
+            wwywCnt = s.effects.countDowns[AllActions.whistle.name];
+        }
+
         if (debug) {
-            var iqCnt = 0;
-            if (AllActions.innerQuiet.name in s.effects.countUps) {
-                iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
-            }
-            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.1f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, iqCnt, r.control, qualityGain, r.bProgressGain, r.bQualityGain);
+            logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f %8.1f %8.1f %5.0f %5.0f %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt, r.control, qualityGain, Math.floor(r.bProgressGain), Math.floor(r.bQualityGain), s.wastedActions);
         }
         else if (verbose) {
-            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions);
+            logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt);
         }
 
     }
@@ -827,15 +832,20 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     // Check for feasibility violations
     var chk = s.checkViolations();
 
+    var iqCnt = 0;
+    var wwywCnt = 0;
+    if (AllActions.innerQuiet.name in s.effects.countUps) {
+        iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
+    }
+    if (AllActions.whistle.name in s.effects.countDowns) {
+        wwywCnt = s.effects.countDowns[AllActions.whistle.name];
+    }
+
     if (debug) {
-        var iqCnt = 0;
-        if (AllActions.innerQuiet.name in s.effects.countUps) {
-            iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
-        }
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %7.1f %-10s %-5s', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, iqCnt, r.control, qualityGain, r.bProgressGain, r.bQualityGain, s.condition, success);
+        logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %-10s %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt, r.control, qualityGain, Math.floor(r.bProgressGain), Math.floor(r.bQualityGain), s.wastedActions, s.condition, success);
     }
     else if (verbose) {
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, s.condition, success);
+        logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %-10s %-5s', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt, s.condition, success);
     }
 
     // Return final state
@@ -895,12 +905,12 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCon
     }
 
     if (debug) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-7s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA', 'Cond', 'S/F');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %-5s %-7s %-10s %-5s', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 0, s.synth.crafter.control, 0, '', '', 'Normal', '-');
+        logger.log('%-2s %30s %-5s %-5s %-8s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'IQ', 'WWYW', 'CTL', 'QINC', 'BPRG', 'BQUA', 'WAC', 'Cond', 'S/F');
+        logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %-10s %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, 0, 0, s.synth.crafter.control, 0, 0, 0, 0, 'Normal', '');
     }
     else if (verbose) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'Cond', 'S/F');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 'Normal', '');
+        logger.log('%-2s %30s %-5s %-5s %-8s %-8s %-5s %-5s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'IQ', 'WWYW', 'Cond', 'S/F');
+        logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %-10s %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, 0, 0, 'Normal', 0);
 
     }
 
