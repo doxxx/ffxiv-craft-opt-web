@@ -198,7 +198,7 @@
                             <ul class="recipe-menu-scrollable" isolate-scrolling>
                               <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...</li>
                               <li ng-hide="recipeSearch.loading" ng-repeat="r in recipeSearch.list" ng-class="{active: $index === recipeSearch.selected}" id="recipeSearchElement{{$index}}">
-                                <a ng-click="importRecipe(r.name)" ng-mouseover="recipeSearch.selected=$index">[{{r.level}}] {{r.name}}</a>
+                                <a ng-click="importRecipe(r.name)" ng-mouseover="recipeSearch.selected=$index">[{{r.baseLevel}}] {{r.name}}</a>
                               </li>
                             </ul>
                           </div>
