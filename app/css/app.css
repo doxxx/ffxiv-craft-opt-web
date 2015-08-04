@@ -486,18 +486,6 @@ legend + .control-group {
 
 /* Sequence Editor */
 
-.edit-mode {
-  background-color: mistyrose;
-}
-
-.edit-mode .sequence.well {
-  border: 1px solid #f3c8c8;
-}
-
-.edit-mode .sequence-editor .sequence {
-  background-color: mistyrose;
-}
-
 .sequence-editor .action {
   opacity: 1;
 }
