@@ -5,14 +5,17 @@ importScripts('seededrandom.js');
 self.onmessage = function(e) {
   switch (e.data.type) {
     case 'prob':
-      runSim(e.data.settings);
+      runProbablisticSim(e.data.settings);
+      break;
+    case 'montecarlo':
+      runMonteCarloSim(e.data.settings);
       break;
     default:
       console.error("unexpected message: %O", e.data);
   }
 };
 
-function runSim(settings) {
+function setupSim(settings) {
   var seed = Math.seed;
   if (typeof settings.seed === 'number') {
     seed = settings.seed;
@@ -49,6 +52,17 @@ function runSim(settings) {
   for (var j = 0; j < settings.sequence.length; j++) {
     sequence.push(AllActions[settings.sequence[j]]);
   }
+  return {
+    seed: seed,
+    synth: synth,
+    startState: startState,
+    startStateNoConditions: startStateNoConditions,
+    sequence: sequence
+  };
+}
+
+function runProbablisticSim(settings) {
+  var sim = setupSim(settings);
 
   var logOutput = {
     log: '',
@@ -57,29 +71,55 @@ function runSim(settings) {
     }
   };
 
-  logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(seed, synth.useConditions));
+  logOutput.write('Use Conditions: %s\n\n'.sprintf(sim.synth.useConditions));
 
   logOutput.write("Probabilistic Result\n");
   logOutput.write("====================\n");
 
-  simSynth(sequence, startState, true, settings.debug, logOutput);
+  simSynth(sim.sequence, sim.startState, true, settings.debug, logOutput);
 
-  logOutput.write("\nMonte Carlo Result\n");
-  logOutput.write("==================\n");
+  self.postMessage({
+    success: {
+      seed: sim.seed,
+      sequence: settings.sequence,
+      log: logOutput.log
+    }
+  });
+}
 
-  var mcSimResult = MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
+function runMonteCarloSim(settings) {
+  var sim = setupSim(settings);
+
+  var logOutput = {
+    log: '',
+    write: function (msg) {
+      logOutput.log += msg;
+    }
+  };
+
+  logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(sim.seed, sim.synth.useConditions));
 
   if (settings.debug) {
-    logOutput.write("\nMonte Carlo Example");
-    logOutput.write("\n===================\n");
-    MonteCarloSequence(sequence, startState, false, true, false, true, logOutput);
+    logOutput.write("Monte Carlo Example\n");
+    logOutput.write("===================\n");
+    MonteCarloSequence(sim.sequence, sim.startState, false, true, false, true, logOutput);
   }
 
+  logOutput.write("\n");
+
+  var monteCarloSimHeader = "Monte Carlo Result of " + settings.maxMontecarloRuns + " runs";
+  logOutput.write(monteCarloSimHeader + "\n");
+  logOutput.write("=".repeat(monteCarloSimHeader.length));
+  logOutput.write("\n");
+
+  var mcSimResult = MonteCarloSim(sim.sequence, sim.synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
+
   // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSequence(sequence, startStateNoConditions, true, false, false, false, logOutput);
+  var finalState = MonteCarloSequence(sim.sequence, sim.startStateNoConditions, true, false, false, false, logOutput);
 
   var result = {
     success: {
+      seed: sim.seed,
       sequence: settings.sequence,
       log: logOutput.log,
       state: {

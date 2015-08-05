@@ -30,7 +30,28 @@ var SimulationService = function($timeout) {
 
 SimulationService.$inject = ['$timeout'];
 
-SimulationService.prototype.start = function(settings, success, error) {
+SimulationService.prototype.runMonteCarloSim = function(settings, success, error) {
+  if (settings.sequence.length <= 0) {
+    error({log: '', error: 'empty sequence'});
+    return;
+  }
+  if (settings.recipe.startQuality === undefined) {
+    settings.recipe = angular.copy(settings.recipe);
+    settings.recipe.startQuality = 0;
+  }
+
+  this.callbacks = {
+    success: success,
+    error: error
+  };
+
+  this.worker.postMessage({
+    type: 'montecarlo',
+    settings: settings
+  });
+};
+
+SimulationService.prototype.runProbabilisticSim = function (settings, success, error) {
   if (settings.sequence.length <= 0) {
     error({log: '', error: 'empty sequence'});
     return;

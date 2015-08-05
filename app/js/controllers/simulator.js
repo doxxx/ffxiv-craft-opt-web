@@ -10,7 +10,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
 
   // Local page state
   $scope.logTabs = {
-    simulation: {active: true}
+    monteCarlo: {active: true},
+    probabilistic: {active: true}
   };
 
   //
@@ -117,13 +118,18 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   //
 
   $scope.simulatorStatus = {
-    logText: '',
+    monteCarlo: {
+      logText: ''
+    },
+    probabilistic: {
+      logText: ''
+    },
     running: false
   };
 
   $scope.$on('simulation.needs.update', function () {
     if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
-      $scope.runSimulation();
+      $scope.runMonteCarloSim();
     }
     else {
       $scope.simulatorStatus.state = null;
@@ -131,26 +137,27 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     }
   });
 
-  function simulationSuccess(data) {
+  function monteCarloSimSuccess(data) {
     $scope.simulatorStatus.sequence = data.sequence;
-    $scope.simulatorStatus.logText = data.log;
+    $scope.simulatorStatus.monteCarlo.logText = data.log;
     $scope.simulatorStatus.state = data.state;
     $scope.simulatorStatus.error = null;
-    $scope.logTabs.simulation.active = true;
-    $scope.simulatorStatus.running = false;
+    $scope.logTabs.monteCarlo.active = true;
+
+    $scope.runProbabilisticSim();
   }
 
-  function simulationError(data) {
+  function monteCarloSimError(data) {
     $scope.simulatorStatus.sequence = data.sequence;
-    $scope.simulatorStatus.logText = data.log;
-    $scope.simulatorStatus.logText += '\n\nError: ' + data.error;
+    $scope.simulatorStatus.monteCarlo.logText = data.log;
+    $scope.simulatorStatus.monteCarlo.logText += '\n\nError: ' + data.error;
     $scope.simulatorStatus.state = null;
     $scope.simulatorStatus.error = data.error;
-    $scope.logTabs.simulation.active = true;
+    $scope.logTabs.monteCarlo.active = true;
     $scope.simulatorStatus.running = false;
   }
 
-  $scope.runSimulation = function () {
+  $scope.runMonteCarloSim = function () {
     if ($scope.simulatorStatus.running) {
       return;
     }
@@ -171,7 +178,34 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     }
 
     $scope.simulatorStatus.running = true;
-    _simulator.start(settings, simulationSuccess, simulationError);
+    _simulator.runMonteCarloSim(settings, monteCarloSimSuccess, monteCarloSimError);
+  };
+
+  function probabilisticSimSuccess(data) {
+    $scope.simulatorStatus.probabilistic.logText = data.log;
+    $scope.simulatorStatus.running = false;
+  }
+
+  function probabilisticSimError(data) {
+    $scope.simulatorStatus.probabilistic.logText = data.log;
+    $scope.simulatorStatus.probabilistic.logText += '\n\nError: ' + data.error;
+    $scope.simulatorStatus.running = false;
+  }
+
+  $scope.runProbabilisticSim = function () {
+    var settings = {
+      crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: $scope.recipe,
+      sequence: $scope.sequence,
+      maxTricksUses: $scope.sequenceSettings.maxTricksUses,
+      maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+      reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
+      useConditions: $scope.sequenceSettings.useConditions,
+      debug: $scope.sequenceSettings.debug,
+    };
+
+    $scope.simulatorStatus.running = true;
+    _simulator.runProbabilisticSim(settings, probabilisticSimSuccess, probabilisticSimError);
   };
 
   //
@@ -194,7 +228,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
 
   $scope.$on('sequence.editor.cancel', function () {
     $scope.editingSequence = false;
-    $scope.runSimulation();
+    $scope.runMonteCarloSim();
   });
 
   $scope.$on('sequence.editor.simulation.start', function (event) {
@@ -202,11 +236,11 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   });
 
   $scope.$on('sequence.editor.simulation.success', function (event, data) {
-    simulationSuccess(data);
+    monteCarloSimSuccess(data);
   });
 
   $scope.$on('sequence.editor.simulation.error', function (event, data) {
-    simulationError(data);
+    monteCarloSimError(data);
   });
 
   $scope.editSequenceInline = function () {
