@@ -176,6 +176,8 @@ function finish() {
 
   logOutput.write("\nElapsed time: %d ms".sprintf(elapsedTime));
 
+  var violations = finalState.checkViolations();
+
   self.postMessage({
     success: {
       log: logOutput.log,
@@ -185,7 +187,8 @@ function finish() {
         cp: finalState.cpState,
         progress: finalState.progressState,
         successPercent: mcSimResult.successPercent,
-        violations: finalState.checkViolations()
+        feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
+        violations: violations
       },
       bestSequence: actionSequenceToShortNames(best)
     }
@@ -196,6 +199,8 @@ function postProgress(gen, maxGen, best, synthNoConditions) {
   var startState = NewStateFromSynth(synthNoConditions);
 
   var currentState = MonteCarloSequence(best, startState, true, false, false, false);
+  var violations = currentState.checkViolations();
+
   self.postMessage({
     progress: {
       generationsCompleted: gen,
@@ -205,7 +210,8 @@ function postProgress(gen, maxGen, best, synthNoConditions) {
         durability: currentState.durabilityState,
         cp: currentState.cpState,
         progress: currentState.progressState,
-        violations: currentState.checkViolations()
+        feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
+        violations: violations
       },
       bestSequence: actionSequenceToShortNames(best)
     }

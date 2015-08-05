@@ -11,7 +11,10 @@
     </span>
   </span>
 </span>
-<span ng-show="valid() &amp;&amp; !status.error &amp;&amp; status.state">
+<span ng-show="status.running && !status.state.feasible">
+  Calculating...
+</span>
+<span ng-show="(!status.running && valid() && !status.error && status.state) || (status.running && status.state.feasible)">
   Q:{{status.state.quality | number:0}}
   <span ng-class="{'simulator-status-error': !status.state.violations.progressOk, 'simulator-status-ok': status.state.violations.progressOk}">
     &nbsp;Prog:{{status.state.progress | number:0}}/{{recipe.difficulty | number:0}} <i ng-show="!status.state.violations.progressOk" class="fa fa-warning"></i>
