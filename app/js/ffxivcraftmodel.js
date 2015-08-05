@@ -1032,6 +1032,158 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     return [fitness, fitnessProg];
 }
 
+function heuristicSequenceBuilder(synth) {
+    var sequence = [];
+    var subSeq = [];
+    var aa = AllActions;
+
+    var cp = synth.crafter.craftPoints;
+    var dur = synth.recipe.durability;
+    var progress = 0;
+
+    // Build a list of actions by short name so that we can easily perform lookups
+    var actionsByName = {};
+    for (var i = 0; i < synth.crafter.actions.length; i++) {
+        var action = synth.crafter.actions[i];
+        if (action) {
+            actionsByName[action.shortName] = true;
+        }
+    }
+
+    var hasAction = function(actionName) {
+        return (actionName in actionsByName);
+    };
+
+    var tryAction = function(actionName) {
+        return (hasAction(actionName) && cp >= aa[actionName].cpCost && dur >= 5);
+    };
+
+    var useAction = function(actionName) {
+        cp -= aa[actionName].cpCost;
+        dur -= aa[actionName].durabilityCost;
+    };
+
+    var pushAction = function(seq, actionName) {
+        seq.push(aa[actionName]);
+        useAction(actionName);
+    };
+
+    var unshiftAction = function(seq, actionName) {
+        seq.unshift(aa[actionName]);
+        useAction(actionName);
+    };
+
+    /* Progress to completion
+        -- Use ingenuity if available and if recipe is higher level
+        -- Determine base progress
+        -- Determine best action to use from available list
+        -- Steady hand if CS is not available
+        -- Master's mend if more steps are needed
+    */
+
+    // If crafter level < recipe level and ingenuity 1/2 is available, use it.
+    var effCrafterLevel = synth.crafter.level;
+    if (LevelTable[synth.crafter.level]) {
+        effCrafterLevel = LevelTable[synth.crafter.level];
+    }
+    var effRecipeLevel = synth.recipe.level;
+    if ((effCrafterLevel < effRecipeLevel) && tryAction('ingenuity2')) {
+        pushAction(subSeq, 'ingenuity2');
+        if (Ing2RecipeLevelTable[effRecipeLevel]) {
+            effRecipeLevel = Ing2RecipeLevelTable[effRecipeLevel];
+        }
+    }
+    else if ((effCrafterLevel < effRecipeLevel) && tryAction('ingenuity')) {
+        pushAction(subSeq, 'ingenuity')
+        if (Ing1RecipeLevelTable[synth.recipe.level]) {
+            effRecipeLevel = Ing1RecipeLevelTable[effRecipeLevel];
+        }
+    }
+    var levelDifference = effCrafterLevel - effRecipeLevel;
+
+    // Determine base progress
+    var bProgressGain = synth.calculateBaseProgressIncrease(levelDifference, synth.crafter.craftsmanship, effCrafterLevel, effRecipeLevel);
+    // If Careful Synthesis 1/2 is available, use it
+    var preferredAction = 'basicSynth';
+    if (hasAction('carefulSynthesis2')) {
+        preferredAction = 'carefulSynthesis2';
+    }
+    else if (hasAction('carefulSynthesis')) {
+        preferredAction = 'carefulSynthesis';
+    }
+    else if (tryAction('steadyHand')) {
+        pushAction(sequence,'steadyHand');
+    }
+
+    debugger;
+    var progressGain =  bProgressGain;
+    progressGain *=aa[preferredAction].progressIncreaseMultiplier;
+    while (progress < synth.recipe.difficulty && cp >= 0) {
+        if (tryAction(preferredAction)) {
+            pushAction(subSeq, preferredAction);
+            progress += progressGain;
+        }
+        else if (synth.recipe.durability > 40 && tryAction('mastersMend2')) {
+            pushAction(subSeq, 'mastersMend2');
+            dur += 60;
+        }
+        else if (tryAction('Manipulation')) {
+            unshiftAction(subSeq, 'manipulation');
+            dur += 30;
+        }
+        else if (tryAction('mastersMend')) {
+            pushAction(subSeq, 'mastersMend2');
+            dur += 30;
+        }
+        else {
+            // No feasible sequence available, force durability loss so we can end the synth
+            //dur -= 10;
+        }
+    }
+    sequence = sequence.concat(subSeq);
+
+    /* Improve Quality
+     -- Inner quiet at start
+     -- Byregot's at end or other Inner Quiet consumer
+    */
+    subSeq = [];
+    // If we have inner quiet put it next
+    if (tryAction('innerQuiet')) {
+        pushAction(subSeq, 'innerQuiet');
+    }
+
+    preferredAction = 'basicTouch';
+    // If we have steady hand 2 and hasty touch use that combo
+    if (hasAction('hastyTouch') && tryAction('steadyHand2')) {
+        pushAction(subSeq, 'steadyHand2')
+        preferredAction = 'hastyTouch';
+    }
+    // else use steady hand + basic touch
+    else if (tryAction('steadyHand') && cp >= aa.steadyHand.cpCost + aa.basicTouch.cpCost) {
+        pushAction(subSeq, 'steadyHand')
+    }
+    // ... and put in at least one quality improving action
+    pushAction(subSeq, preferredAction);
+
+    // Now add in Byregot's Blessing at the end of the quality improving stage if we can
+    if (tryAction('byregotsBlessing')) {
+        unshiftAction(sequence, 'byregotsBlessing');
+    }
+
+    // ... and what the hell, throw in a great strides just before it
+    if (tryAction('greatStrides')) {
+        unshiftAction(sequence, 'greatStrides');
+    }
+    sequence = subSeq.concat(sequence);
+
+    // If we have comfortzone and we have the cp for it, put it at the start
+    if (tryAction('comfortZone')) {
+        unshiftAction(sequence, 'comfortZone');
+    }
+
+    return sequence;
+}
+
 
 // Helper Functions
 //=================
