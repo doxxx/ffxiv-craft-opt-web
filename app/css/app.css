@@ -7,7 +7,6 @@
 .page-title {
   margin-top: 0;
   border-bottom: 1px solid lightgray;
-  text-align: center;
 }
 
 .important {
@@ -51,7 +50,6 @@ legend small > .light {
 
 .settings-buttons {
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .settings-buttons>div {
@@ -66,7 +64,6 @@ legend small > .light {
 }
 
 .recipe-search-control {
-  text-align: center;
 }
 
 .recipe-search-control .my-dropdown-menu {

@@ -19,12 +19,17 @@ angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.controllers',
   'ffxivCraftOptWeb.components'
 ], function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/solver');
+  $urlRouterProvider.otherwise('/simulator');
   $stateProvider
     .state('crafter-attributes', {
       url: '/crafter-attributes',
       templateUrl: 'views/crafter-attributes.html',
       controller: 'CrafterStatsController'
+    })
+    .state('simulator', {
+      url: '/simulator',
+      templateUrl: 'views/simulator.html',
+      controller: 'SimulatorController'
     })
     .state('solver', {
       url: '/solver',

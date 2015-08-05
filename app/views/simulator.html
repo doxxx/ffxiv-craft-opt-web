@@ -1,0 +1,151 @@
+<h3 class="page-title">Simulator</h3>
+<div class="row-fluid">
+  <div class="settings-buttons">
+    <div class="dropdown">
+      <button type="button" class="btn" ng-click="newSynth()">New</button>
+      <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
+      <ul class="dropdown-menu" isolate-scrolling>
+        <li ng-repeat="name in savedSynthNames | orderBy:'toString()'">
+          <a ng-click="loadSynth(name)">{{name}}</a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="btn" ng-click="saveSynth()" ng-disabled="!isSynthDirty() || settings.name == ''">Save</button>
+    <button type="button" class="btn" ng-click="saveSynthAs(settings.name)">Save As...</button>
+    <div class="dropdown">
+      <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
+      <ul class="dropdown-menu" isolate-scrolling>
+        <li ng-repeat="name in savedSynthNames | orderBy:'toString()'">
+          <a ng-click="deleteSynth(name)">{{name}}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
+      <ul class="dropdown-menu" isolate-scrolling>
+        <li ng-repeat="name in savedSynthNames | orderBy:'toString()'">
+          <a ng-click="renameSynth(name)">{{name}}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="row-fluid">
+  <div class="span12 recipe-search-control">
+    <form class="form-inline">
+      <select class="input-medium" ng-model="recipe.cls" ng-options="cls for cls in allClasses" required></select>
+      <span class="my-dropdown" id="recipe-menu-root">
+        <div class="input-append">
+          <span class="span3 uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
+          <div class="btn-group">
+            <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
+            <button class="btn" ng-click="showAddRecipeModal()"><i class="fa fa-plus"></i></button>
+          </div>
+        </div>
+        <div class="my-dropdown-menu">
+          <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="recipeSearch.text"
+                 placeholder="Search..." select-on-focus stop-click-propogation
+                 ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"
+                 id="recipe-search-text"/>
+          <ul class="recipe-menu-scrollable" isolate-scrolling>
+            <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...</li>
+            <li ng-hide="recipeSearch.loading"
+                ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
+                ng-class="{active: $index === recipeSearch.selected}"
+                id="recipeSearchElement{{$index}}"
+                ng-mouseover="recipeSearch.selected=$index"
+                ng-click="recipeSelected(r.name)">
+              <a ng-click="recipeSelected(r.name)">[{{r.level}}] {{r.name}}</a>
+              <a ng-show="r.user" class="pull-right" ng-click="deleteUserRecipe(r.name)"><i class="fa fa-minus-circle"></i></a>
+            </li>
+          </ul>
+        </div>
+      </span>
+    </form>
+  </div>
+</div>
+<h4>Sequence
+  <simulator-status class="initial-guess" recipe="recipe" status="simulatorStatus" valid="isValidSequence(simulatorStatus.sequence, recipe.cls)"></simulator-status>
+</h4>
+<div class="well" ng-class="{'edit-mode': editingSequence}">
+  <div class="row-fluid">
+    <div class="span9">
+      <div class="sequence-editor" ng-show="editingSequence" ng-controller="SequenceEditorCtrl">
+        <div class="sequence well well-small">
+          <span ng-repeat="action in editSequence track by $index"
+                class="image-wrap glossy action selectable"
+                ng-class="actionClasses(action, recipe.cls)"
+                ng-click="removeAction($index)"
+                lvl-draggable="true"
+                lvl-drop-target="true"
+                data-index="{{$index}}"
+                on-drop="dropAction(dragEl, dropEl)">
+            <img ng-src="{{getActionImagePath(action, recipe.cls)}}"/>
+          </span>
+
+          <img class="action empty-action" lvl-drop-target="true"
+               src="img/actions/empty.png"
+               data-index="{{editSequence.length}}"
+               on-drop="dropAction(dragEl, dropEl)"/>
+        </div>
+        <div class="control-group">
+          <button class="btn" ng-click="cancel()">Cancel</button>
+          <button class="btn btn-primary" ng-disabled="!isSequenceDirty()" ng-click="save()">Save</button>
+          <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">Revert</button>
+          <button class="btn btn-warning" ng-disabled="editSequence.length == 0" ng-click="clear()">Clear</button>
+        </div>
+        <h5>Available Actions</h5>
+        <div class="action-table">
+          <action-table cls="recipe.cls" action-classes="actionClasses" selectable="true" draggable="true" on-click="addAction" tooltip-placement="right"/>
+        </div>
+      </div>
+      <div ng-show="!editingSequence">
+        <action-sequence actions="sequence" cls="recipe.cls" tooltip-placement="right" action-classes="seqeunceActionClasses"></action-sequence>
+        <div class="control-group">
+          <button class="btn btn-primary" ng-click="editSequenceInline()" ng-disabled="simulatorStatus.running">Edit...</button>
+          <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
+        </div>
+      </div>
+    </div>
+    <div class="span3">
+      <div class="well">
+        <h5>{{recipe.cls}} Stats</h5>
+        <ul>
+          <li>Level: {{crafter.stats[recipe.cls].level}}</li>
+          <li>Craftsmanship: {{crafter.stats[recipe.cls].craftsmanship}} + {{bonusStats.craftsmanship}}</li>
+          <li>Control: {{crafter.stats[recipe.cls].control}} + {{bonusStats.control}}</li>
+          <li>CP: {{crafter.stats[recipe.cls].cp}} + {{bonusStats.cp}}</li>
+        </ul>
+        <p><button class="btn" ng-click="showStatBonusesModal()">Stat Bonuses...</button></p>
+      </div>
+      <div ng-show="uniqueCrossClassActions.length > 0">
+        <h5>Required Cross Class Actions</h5>
+        <action-sequence actions="uniqueCrossClassActions" cls="recipe.cls" tooltip-placement="right" action-classes="seqeunceActionClasses"></action-sequence>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row-fluid">
+  <accordion>
+    <accordion-group is-open="pageState.solver.macrosVisible">
+      <accordion-heading>
+        <my-section-header title="Macro" is-open="pageState.solver.macrosVisible"/>
+      </accordion-heading>
+      <div ng-controller="MacroCtrl">
+        <p>Click + Ctrl/Cmd-C on each block to copy to clipboard.</p>
+        <div ng-repeat="macroText in macros track by $index">
+          <h6>Macro #{{$index+1}}</h6>
+          <textarea style="width:auto" cols="60" rows="16" readonly select-on-click>{{macroText}}</textarea>
+        </div>
+      </div>
+    </accordion-group>
+  </accordion>
+</div>
+<div class="row-fluid">
+  <tabset>
+    <tab active="simulatorTabs.simulation.active">
+      <tab-heading>Simulation Log &nbsp; <i class="fa fa-refresh flat-button" ng-click="runSimulation()"></i></tab-heading>
+      <pre>{{simulatorStatus.logText}}</pre>
+    </tab>
+  </tabset>
+</div>
