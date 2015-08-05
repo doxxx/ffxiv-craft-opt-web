@@ -130,7 +130,7 @@ angular.module('ffxivCraftOptWeb.controllers')
 
       $scope.simulatorStatus.running = true;
       $scope.$emit('sequence.editor.simulation.start', $scope.editSequence);
-      _simulator.start(settings, $scope.simulationSuccess, $scope.simulationError);
+      _simulator.runMonteCarloSim(settings, $scope.simulationSuccess, $scope.simulationError);
     };
 
     $scope.simulationSuccess = function (data) {
