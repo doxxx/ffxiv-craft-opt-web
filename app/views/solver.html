@@ -165,14 +165,7 @@
     </div>
     <div ng-show="!solverStatus.running">
       <div ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
-        <img ng-repeat="action in solverResult.sequence track by $index"
-             class="action"
-             ng-class="actionClasses(action, recipe.cls)"
-             ng-src="{{getActionImagePath(action, recipe.cls)}}"
-             tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-             tooltip-placement="top"
-             tooltip-popup-delay="1000"
-             tooltip-append-to-body="true"/>
+        <action-sequence cls="recipe.cls" actions="solverResult.sequence" action-classes="seqeunceActionClasses" tooltip-placement="top"></action-sequence>
       </div>
     </div>
   </div>
