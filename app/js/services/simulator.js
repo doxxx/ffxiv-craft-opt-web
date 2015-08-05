@@ -2,6 +2,30 @@
 
 var SimulationService = function($timeout) {
   this.$timeout = $timeout;
+
+  var worker = new Worker('js/simulationworker.js');
+
+  var self = this;
+  worker.onmessage = function(e) {
+    if (e.data.success) {
+      self.$timeout(function() {
+        self.callbacks.success(e.data.success);
+      });
+    }
+    else if (e.data.error) {
+      self.$timeout(function() {
+        self.callbacks.error(e.data.error);
+      });
+    }
+    else {
+      console.error('unexpected message from simulation worker: %O', e.data);
+      self.$timeout(function() {
+        self.callbacks.error({log: '', error: 'unexpected message from simulation worker: ' + e.data});
+      });
+    }
+  };
+
+  this.worker = worker;
 };
 
 SimulationService.$inject = ['$timeout'];
@@ -16,30 +40,12 @@ SimulationService.prototype.start = function(settings, success, error) {
     settings.recipe.startQuality = 0;
   }
 
-  var worker = this.worker = new Worker('js/simulationworker.js');
-  var self = this;
-  worker.onmessage = function(e) {
-    if (e.data.success) {
-      worker.terminate();
-      self.$timeout(function() {
-        success(e.data.success);
-      });
-    }
-    else if (e.data.error) {
-      worker.terminate();
-      self.$timeout(function() {
-        error(e.data.error);
-      });
-    }
-    else {
-      worker.terminate();
-      console.error('unexpected message from simulation worker: %O', e.data);
-      self.$timeout(function() {
-        error({log: '', error: 'unexpected message from simulation worker: ' + e.data});
-      });
-    }
+  this.callbacks = {
+    success: success,
+    error: error
   };
-  worker.postMessage(settings);
+
+  this.worker.postMessage(settings);
 };
 
 angular.module('ffxivCraftOptWeb.services.simulator', []).
