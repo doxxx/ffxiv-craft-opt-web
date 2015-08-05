@@ -45,7 +45,10 @@ SimulationService.prototype.start = function(settings, success, error) {
     error: error
   };
 
-  this.worker.postMessage(settings);
+  this.worker.postMessage({
+    type: 'prob',
+    settings: settings
+  });
 };
 
 angular.module('ffxivCraftOptWeb.services.simulator', []).

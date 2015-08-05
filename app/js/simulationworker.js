@@ -3,8 +3,16 @@ importScripts('ffxivcraftmodel.js');
 importScripts('seededrandom.js');
 
 self.onmessage = function(e) {
-  var settings = e.data;
+  switch (e.data.type) {
+    case 'prob':
+      runSim(e.data.settings);
+      break;
+    default:
+      console.error("unexpected message: %O", e.data);
+  }
+};
 
+function runSim(settings) {
   var seed = Math.seed;
   if (typeof settings.seed === 'number') {
     seed = settings.seed;
@@ -18,18 +26,20 @@ self.onmessage = function(e) {
   }
 
   var crafter = new Crafter(settings.recipe.cls,
-                            settings.crafter.level,
-                            settings.crafter.craftsmanship,
-                            settings.crafter.control,
-                            settings.crafter.cp,
-                            crafterActions);
+    settings.crafter.level,
+    settings.crafter.craftsmanship,
+    settings.crafter.control,
+    settings.crafter.cp,
+    crafterActions);
   var recipe = new Recipe(settings.recipe.level,
-                          settings.recipe.difficulty,
-                          settings.recipe.durability,
-                          settings.recipe.startQuality,
-                          settings.recipe.maxQuality);
-  var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, settings.useConditions);
-  var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false);
+    settings.recipe.difficulty,
+    settings.recipe.durability,
+    settings.recipe.startQuality,
+    settings.recipe.maxQuality);
+  var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent / 100.0,
+    settings.useConditions);
+  var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent / 100.0,
+    false);
 
   var startState = NewStateFromSynth(synth);
   var startStateNoConditions = NewStateFromSynth(synthNoConditions);
@@ -42,7 +52,7 @@ self.onmessage = function(e) {
 
   var logOutput = {
     log: '',
-    write: function(msg) {
+    write: function (msg) {
       logOutput.log += msg;
     }
   };
@@ -84,4 +94,5 @@ self.onmessage = function(e) {
   };
 
   self.postMessage(result);
-};
+}
+
