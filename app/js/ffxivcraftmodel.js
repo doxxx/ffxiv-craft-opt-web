@@ -315,7 +315,7 @@ function ApplyModifiers(s, action) {
     // Effects modifying level difference
     var effCrafterLevel = s.synth.crafter.level;
     if (LevelTable[s.synth.crafter.level]) {
-        effCrafterLevel += LevelTable[s.synth.crafter.level];
+        effCrafterLevel = LevelTable[s.synth.crafter.level];
     }
     var effRecipeLevel = s.synth.recipe.level;
     var levelDifference = effCrafterLevel - effRecipeLevel;
@@ -1147,16 +1147,16 @@ var AllActions = {
 };
 
 var LevelTable = {
-    51: 69, // 120
-    52: 74, // 125
-    53: 77, // 130
-    54: 79, // 133
-    55: 81, // 136
-    56: 83, // 139
-    57: 85, // 142
-    58: 87, // 145
-    59: 89, // 148
-    60: 90  // 150
+    51: 120, // 120
+    52: 125, // 125
+    53: 130, // 130
+    54: 133, // 133
+    55: 136, // 136
+    56: 139, // 139
+    57: 142, // 142
+    58: 145, // 145
+    59: 148, // 148
+    60: 150  // 150
 };
 
 var Ing1RecipeLevelTable = {
