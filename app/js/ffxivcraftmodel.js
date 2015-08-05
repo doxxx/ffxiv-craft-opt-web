@@ -1055,7 +1055,7 @@ function heuristicSequenceBuilder(synth) {
     };
 
     var tryAction = function(actionName) {
-        return (hasAction(actionName) && cp >= aa[actionName].cpCost && dur >= 5);
+        return (hasAction(actionName) && cp >= aa[actionName].cpCost && dur + aa[actionName].durabilityCost >= 0);
     };
 
     var useAction = function(actionName) {
@@ -1115,32 +1115,54 @@ function heuristicSequenceBuilder(synth) {
         pushAction(sequence,'steadyHand');
     }
 
-    debugger;
     var progressGain =  bProgressGain;
-    progressGain *=aa[preferredAction].progressIncreaseMultiplier;
-    while (progress < synth.recipe.difficulty && cp >= 0) {
-        if (tryAction(preferredAction)) {
-            pushAction(subSeq, preferredAction);
+    progressGain *= aa[preferredAction].progressIncreaseMultiplier;
+    progressGain = Math.floor(progressGain);
+    var nProgSteps = Math.ceil(synth.recipe.difficulty / progressGain);
+    var steps = 0
+    // Final step first
+    if (tryAction(preferredAction)) {
+        unshiftAction(subSeq, preferredAction);
+        progress += progressGain;
+        steps += 1;
+    }
+
+    while (progress < synth.recipe.difficulty && steps < nProgSteps) {
+        // Don't want to increase progress at 5 durability unless we are able to complete the synth
+        if (tryAction(preferredAction) && (dur >= 10)) {
+            unshiftAction(subSeq, preferredAction);
             progress += progressGain;
+            steps += 1;
         }
         else if (synth.recipe.durability > 40 && tryAction('mastersMend2')) {
-            pushAction(subSeq, 'mastersMend2');
+            unshiftAction(subSeq, 'mastersMend2');
             dur += 60;
         }
-        else if (tryAction('Manipulation')) {
+        else if (tryAction('manipulation')) {
             unshiftAction(subSeq, 'manipulation');
             dur += 30;
         }
         else if (tryAction('mastersMend')) {
-            pushAction(subSeq, 'mastersMend2');
+            unshiftAction(subSeq, 'mastersMend');
             dur += 30;
-        }
-        else {
-            // No feasible sequence available, force durability loss so we can end the synth
-            //dur -= 10;
         }
     }
     sequence = sequence.concat(subSeq);
+
+    if (dur < 20) {
+        if (synth.recipe.durability > 40 && tryAction('mastersMend2')) {
+            unshiftAction(sequence, 'mastersMend2');
+            dur += 60;
+        }
+        else if (tryAction('manipulation')) {
+            unshiftAction(sequence, 'manipulation');
+            dur += 30;
+        }
+        else if (tryAction('mastersMend')) {
+            unshiftAction(sequence, 'mastersMend');
+            dur += 30;
+        }
+    }
 
     /* Improve Quality
      -- Inner quiet at start
@@ -1176,9 +1198,11 @@ function heuristicSequenceBuilder(synth) {
     }
     sequence = subSeq.concat(sequence);
 
-    // If we have comfortzone and we have the cp for it, put it at the start
-    if (tryAction('comfortZone')) {
+    // If we have comfortzone and sequence is >= 10 actions put it at the start
+    // No need to check cp since it is a net positive if there are more than 10 steps
+    if (hasAction('comfortZone') && sequence.length >= 10) {
         unshiftAction(sequence, 'comfortZone');
+        cp += 14;
     }
 
     return sequence;
