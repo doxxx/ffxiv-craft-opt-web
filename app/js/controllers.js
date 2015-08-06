@@ -325,6 +325,7 @@ function initPageStateDefaults($scope) {
     specifySeed: false,
     seed: 1337,
     useConditions: true,
+    overrideOnCondition: false,
     debug: false
   };
 

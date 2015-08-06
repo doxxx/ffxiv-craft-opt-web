@@ -166,7 +166,7 @@ function finish() {
   if (debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSequence(best, startState, false, true, false, true, logOutput);
+    MonteCarloSequence(best, startState, false, state.settings.overrideOnCondition, false, true, logOutput);
   }
 
   // Don't use conditions for final state to avoid random results

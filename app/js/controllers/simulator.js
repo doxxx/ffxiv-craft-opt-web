@@ -170,6 +170,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
       reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
       useConditions: $scope.sequenceSettings.useConditions,
+      overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
       debug: $scope.sequenceSettings.debug
     };
 
@@ -201,6 +202,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
       reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
       useConditions: $scope.sequenceSettings.useConditions,
+      overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
       debug: $scope.sequenceSettings.debug,
     };
 

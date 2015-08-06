@@ -102,7 +102,7 @@ function runMonteCarloSim(settings) {
   if (settings.debug) {
     logOutput.write("Monte Carlo Example\n");
     logOutput.write("===================\n");
-    MonteCarloSequence(sim.sequence, sim.startState, false, true, false, true, logOutput);
+    MonteCarloSequence(sim.sequence, sim.startState, false, settings.overrideOnCondition, false, true, logOutput);
   }
 
   logOutput.write("\n");

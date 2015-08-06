@@ -1,13 +1,14 @@
 'use strict';
 
 function recipeForLang(lang, recipe) {
-  return {
-    name: recipe.name[lang],
-    level: recipe.level,
-    durability: recipe.durability,
-    difficulty: recipe.difficulty,
-    maxQuality: recipe.maxQuality
+  var r = {};
+  for (var p in recipe) {
+    if (recipe.hasOwnProperty(p) && p != "name") {
+      r[p] = recipe[p];
+    }
   }
+  r.name = recipe.name[lang];
+  return r;
 }
 
 var cache = {};
@@ -61,6 +62,7 @@ RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
     }
   );
 };
+
 RecipeLibrary.prototype.recipeForClassByName = function (lang, cls, name) {
   if (!angular.isDefined(lang)) lang = 'en';
   return this.recipesForClass(lang, cls).then(
