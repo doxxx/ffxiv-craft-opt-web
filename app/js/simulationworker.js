@@ -62,7 +62,7 @@ self.onmessage = function(e) {
   if (settings.debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSequence(sequence, startState, false, true, false, true, logOutput);
+    MonteCarloSequence(sequence, startState, false, settings.overrideOnCondition, false, true, logOutput);
   }
 
   // Don't use conditions for final state to avoid random results

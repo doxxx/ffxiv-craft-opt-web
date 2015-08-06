@@ -181,7 +181,7 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     return levelCorrectedQuality;
 };
 
-function Action(shortName, name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level) {
+function Action(shortName, name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level, onGood, onExcellent, onPoor) {
     this.shortName = shortName;
     this.name = name;
     this.durabilityCost = durabilityCost;
@@ -200,6 +200,9 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
 
     this.cls = cls;
     this.level = level;
+    this.onGood = onGood;
+    this.onExcellent = onExcellent;
+    this.onPoor = onPoor;
 }
 
 function isActionEq(action1, action2) {
@@ -296,7 +299,7 @@ function NewStateFromSynth(synth) {
     return new State(synth, step, '', durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition);
 }
 
-function ApplyModifiers(s, action) {
+function ApplyModifiers(s, action, condition) {
 
     // Effect Modifiers
     //=================
@@ -354,18 +357,29 @@ function ApplyModifiers(s, action) {
         if (levelDifference < 0) {
             levelDifference = Math.max(levelDifference, -5);
         }
-
     }
 
     // Effects modfiying probability
     var successProbability = action.successProbability;
+    var ftSuccessProbability = AllActions.finishingTouches.successProbability;
     if (AllActions.steadyHand2.name in s.effects.countDowns) {
-        successProbability = action.successProbability + 0.3;        // Assume 2 always overrides 1
+        successProbability += 0.3;        // Assume 2 always overrides 1
+        ftSuccessProbability += 0.3;
     }
     else if (AllActions.steadyHand.name in s.effects.countDowns) {
-        successProbability = action.successProbability + 0.2;
+        successProbability += 0.2;
+        ftSuccessProbability += 0.2;
     }
     successProbability = Math.min(successProbability, 1);
+    ftSuccessProbability = Math.min(ftSuccessProbability, 1);
+
+    // Effects modifying progress increase multiplier
+    var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
+
+    // Effects modified by Whistle While You Work
+    if (AllActions.whistle.name in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.name] % 3 == 0)) {
+        progressIncreaseMultiplier += 0.5;
+    }
 
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
@@ -374,7 +388,7 @@ function ApplyModifiers(s, action) {
     }
 
     // Effects modifying progress
-    var bProgressGain = action.progressIncreaseMultiplier * s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+    var bProgressGain = progressIncreaseMultiplier * s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
@@ -387,12 +401,42 @@ function ApplyModifiers(s, action) {
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.name in s.effects.countUps) {
         bQualityGain *= (1 + 0.2 * s.effects.countUps[AllActions.innerQuiet.name]);
     }
+    if ((isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.name in s.effects.countUps) && condition.checkGoodOrExcellent()) {
+        bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.name]) * condition.pGoodOrExcellent();
+    }
+    if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
+        bQualityGain *= condition.pGoodOrExcellent();
+    }
 
     // Effects modifying durability cost
     var durabilityCost = action.durabilityCost;
+    var ftDurabilityCost = AllActions.finishingTouches.durabilityCost;
     if ((AllActions.wasteNot.name in s.effects.countDowns) || (AllActions.wasteNot2.name in s.effects.countDowns)) {
-        durabilityCost = 0.5 * action.durabilityCost;
+        durabilityCost *= 0.5;
+        ftDurabilityCost *= 0.5;
     }
+
+    /*
+    If Whistle is at 1 and a good/excellent occurs, at the end of the action, whistle will decrement and Finishing Touches will occur
+    Finishing Touches is 200% efficiency, 50% success (?) and 10 (?) durability
+    */
+    if ((AllActions.whistle.name in s.effects.countDowns && s.effects.countDowns[AllActions.whistle.name] == 1) && condition.checkGoodOrExcellent()) {
+        // Cheat to see if we are dealing with MontecarloStep
+        if (condition.pGoodOrExcellent() == 1) {
+            // Success or Failure
+            var successRand = Math.random();
+            if (0 <= successRand && successRand <= ftSuccessProbability) {
+                ftSuccessProbability = 1;
+            }
+            else {
+                ftSuccessProbability = 0;
+            }
+        }
+        bProgressGain += AllActions.finishingTouches.progressIncreaseMultiplier * condition.pGoodOrExcellent() * ftSuccessProbability *
+            s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+        durabilityCost += ftDurabilityCost * condition.pGoodOrExcellent();
+    }
+
     return {
         craftsmanship: craftsmanship,
         control: control,
@@ -405,10 +449,9 @@ function ApplyModifiers(s, action) {
         bQualityGain: bQualityGain,
         durabilityCost: durabilityCost
     };
-
 }
 
-function ApplySpecialActionEffects(s, action, checkConditions) {
+function ApplySpecialActionEffects(s, action, condition) {
     // STEP_02
     // Effect management
     //==================================
@@ -453,29 +496,51 @@ function ApplySpecialActionEffects(s, action, checkConditions) {
     }
 
     // Manage effects with random component
-    if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && checkConditions()) {
+    if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && condition.checkGoodOrExcellent()) {
         s.trickUses += 1;
-        s.cpState += 20;
+        s.cpState += 20 * condition.pGoodOrExcellent();
     }
     else if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0) {
         s.wastedActions += 1;
     }
+
+    if (isActionEq(action, AllActions.byregotsBrow) && condition.checkGoodOrExcellent()) {
+        if (AllActions.innerQuiet.name in s.effects.countUps) {
+            s.trickUses += 1;
+            s.effects.countUps[AllActions.innerQuiet.name] *= (1 - condition.pGoodOrExcellent());
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
 }
 
-function UpdateEffectCounters(s, action, successProbability) {
+function UpdateEffectCounters(s, action, condition, successProbability) {
     // STEP_03
     // Countdown / Countup Management
     //===============================
     // Decrement countdowns
     for (var countDown in s.effects.countDowns) {
-        s.effects.countDowns[countDown] -= 1;
+        if (countDown == AllActions.whistle.name) {
+            if (condition.checkGoodOrExcellent()) {
+                s.effects.countDowns[AllActions.whistle.name] -= 1 * condition.pGoodOrExcellent();
+            }
+        }
+        else {
+            s.effects.countDowns[countDown] -= 1;
+        }
+
         if (s.effects.countDowns[countDown] === 0) {
             delete s.effects.countDowns[countDown];
         }
     }
 
-    // Increment countups that depend on random component
-    if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.name] < 10) {
+    // Increment inner quiet countups that depend on random component
+    if ((isActionEq(action, AllActions.preciseTouch) && (AllActions.innerQuiet.name in s.effects.countUps && s.effects.countUps[AllActions.innerQuiet.name] < 10)) && condition.checkGoodOrExcellent()) {
+        s.effects.countUps[AllActions.innerQuiet.name] += 2 * successProbability * condition.pGoodOrExcellent();
+    }
+    // Increment all other inner quiet count ups
+    else if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.name in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.name] < 10) {
         s.effects.countUps[AllActions.innerQuiet.name] += 1 * successProbability;
     }
 
@@ -489,15 +554,15 @@ function UpdateEffectCounters(s, action, successProbability) {
     }
 }
 
-function UpdateState(s, action, progressGain, qualityGain, durabilityCost, checkConditions, successProbability) {
+function UpdateState(s, action, progressGain, qualityGain, durabilityCost, condition, successProbability) {
     // State tracking
     s.progressState += progressGain;
     s.qualityState += qualityGain;
     s.durabilityState -= durabilityCost;
     s.cpState -= action.cpCost;
 
-    ApplySpecialActionEffects(s, action, checkConditions);
-    UpdateEffectCounters(s, action, successProbability);
+    ApplySpecialActionEffects(s, action, condition);
+    UpdateEffectCounters(s, action, condition, successProbability);
 
     // Sanity checks for state variables
     if ((s.durabilityState >= -5) && (s.progressState >= s.synth.recipe.difficulty)) {
@@ -528,8 +593,19 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
     var ppPoor = 0;
     var ppNormal = 1 - (ppGood + ppExcellent + ppPoor);
 
-    var checkConditions = function () {
-        return true;
+    var SimCondition = {
+        checkGoodOrExcellent: function () {
+            return true;
+        },
+        checkPoor: function () {
+            return true;
+        },
+        pGoodOrExcellent: function () {
+            return ppGood + ppExcellent;
+        },
+        pPoor: function () {
+            return ppPoor;
+        }
     };
 
     // Initialize counters
@@ -541,12 +617,12 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
     }
 
     if (debug) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 0, s.synth.crafter.control, 0);
+        logger.log('%-2s %30s %-5s %-5s %-8s %-8s %-5s %-5s %-8s %-8s %-5s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'IQ', 'WWYW', 'CTL', 'QINC', 'BPRG', 'BQUA', 'WAC');
+        logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f %8.1f %8.1f %5.0f %5.0f %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, 0, 0, s.synth.crafter.control, 0, 0, 0, 0);
     }
     else if (verbose) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s' , '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'WAC');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions);
+        logger.log('%-2s %30s %-5s %-5s %-8s %-8s %-5s %-5s', '#', 'Action', 'DUR', 'CP', 'EQUA', 'EPRG', 'IQ', 'WWYW');
+        logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, 0, 0);
 
     }
 
@@ -557,14 +633,14 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
         //==================================
         s.step += 1;
 
-        // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
-        var r = ApplyModifiers(s, action);
-
         // Condition Calculation
         var condQualityIncreaseMultiplier = 1;
         if (useConditions) {
-            condQualityIncreaseMultiplier *= (1 * ppNormal + 1.5 * ppGood * Math.pow(1 - (ppGood + pGood) / 2, s.synth.maxTrickUses) + 4 * ppExcellent + 0.5 * ppPoor);
+            condQualityIncreaseMultiplier *= (ppNormal + 1.5 * ppGood * Math.pow(1 - (ppGood + pGood) / 2, s.synth.maxTrickUses) + 4 * ppExcellent + 0.5 * ppPoor);
         }
+
+        // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
+        var r = ApplyModifiers(s, action, SimCondition);
 
         // Calculate final gains / losses
         var progressGain = r.bProgressGain;
@@ -588,7 +664,7 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
         //==================================
         else {
 
-            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, checkConditions, r.successProbability);
+            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, SimCondition, r.successProbability);
 
             // Count cross class actions
             if (!(action.cls === 'All' || action.cls === s.synth.crafter.cls || action.shortName in s.crossClassActionList)) {
@@ -606,15 +682,20 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
 
         }
 
+        var iqCnt = 0;
+        var wwywCnt = 0;
+        if (AllActions.innerQuiet.name in s.effects.countUps) {
+            iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
+        }
+        if (AllActions.whistle.name in s.effects.countDowns) {
+            wwywCnt = s.effects.countDowns[AllActions.whistle.name];
+        }
+
         if (debug) {
-            var iqCnt = 0;
-            if (AllActions.innerQuiet.name in s.effects.countUps) {
-                iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
-            }
-            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %5.1f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, iqCnt, r.control, qualityGain, r.bProgressGain, r.bQualityGain);
+            logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f %8.1f %8.1f %5.0f %5.0f %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt, r.control, qualityGain, Math.floor(r.bProgressGain), Math.floor(r.bQualityGain), s.wastedActions);
         }
         else if (verbose) {
-            logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions);
+            logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt);
         }
 
     }
@@ -649,15 +730,23 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     var pGood = 0.23;
     var pExcellent = 0.01;
 
-    var checkConditions = function () {
-        return (s.condition == 'Good' || s.condition == 'Excellent' || assumeSuccess);
+    var MonteCarloCondition = {
+        checkGoodOrExcellent: function () {
+            return (s.condition == 'Good' || s.condition == 'Excellent' || assumeSuccess);
+        },
+        checkPoor: function () {
+            return (s.condition == 'Poor' || assumeSuccess);
+        },
+        pGoodOrExcellent: function () {
+            return 1;
+        },
+        pGood: function () {
+            return 1;
+        }
     };
 
     // Initialize counters
     s.step += 1;
-
-    // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
-    var r = ApplyModifiers(s, action);
 
     // Condition Evaluation
     var condQualityIncreaseMultiplier = 1;
@@ -676,6 +765,9 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     else {
         condQualityIncreaseMultiplier *= 1.0;
     }
+
+    // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
+    var r = ApplyModifiers(s, action, MonteCarloCondition);
 
     // Success or Failure
     var success = 0;
@@ -710,7 +802,7 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     //==================================
     else {
 
-        UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, checkConditions, success);
+        UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, MonteCarloCondition, success);
 
         // Count cross class actions
         if (!((action.cls === 'All') || (action.cls === s.synth.crafter.cls) || (action.shortName in s.crossClassActionList))) {
@@ -742,15 +834,20 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     // Check for feasibility violations
     var chk = s.checkViolations();
 
+    var iqCnt = 0;
+    var wwywCnt = 0;
+    if (AllActions.innerQuiet.name in s.effects.countUps) {
+        iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
+    }
+    if (AllActions.whistle.name in s.effects.countDowns) {
+        wwywCnt = s.effects.countDowns[AllActions.whistle.name];
+    }
+
     if (debug) {
-        var iqCnt = 0;
-        if (AllActions.innerQuiet.name in s.effects.countUps) {
-            iqCnt = s.effects.countUps[AllActions.innerQuiet.name];
-        }
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %5.0f %7.1f %-10s %-5s', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, iqCnt, r.control, qualityGain, r.bProgressGain, r.bQualityGain, s.condition, success);
+        logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %-10s %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt, r.control, qualityGain, Math.floor(r.bProgressGain), Math.floor(r.bQualityGain), s.wastedActions, s.condition, success);
     }
     else if (verbose) {
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, s.condition, success);
+        logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %-10s %-5s', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt, s.condition, success);
     }
 
     // Return final state
@@ -759,56 +856,94 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
 
 }
 
-function MonteCarloSequence(individual, startState, assumeSuccess, overrideTotT, verbose, debug, logOutput) {
-    overrideTotT = overrideTotT !== undefined ? overrideTotT : true;
+function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCondition, verbose, debug, logOutput) {
+    overrideOnCondition = overrideOnCondition !== undefined ? overrideOnCondition : true;
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
 
     var logger = new Logger(logOutput);
 
-    var s = startState.clone();
+    var s = startState;
 
     // Initialize counters
-    var maxTricksUses = 0;
+    var maxConditionUses = 0;
     var crossClassActionCounter = 0;
 
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
-        return s;
+        return startState;
     }
 
     // Strip Tricks of the Trade from individual
-    if (overrideTotT) {
+    if (overrideOnCondition) {
+        var onExcellentOnlyActions = [];
+        var onGoodOnlyActions = [];
+        var onGoodOrExcellentActions = [];
+        var onPoorOnlyActions = [];
         var tempIndividual = [];
         for (var i=0; i < individual.length; i++) {
-            if (isActionNe(AllActions.tricksOfTheTrade, individual[i])) {
-                tempIndividual[tempIndividual.length] = individual[i];
+            if (individual[i].onExcellent && !individual[i].onGood) {
+                onExcellentOnlyActions.push(individual[i]);
+                maxConditionUses += 1;
+            }
+            else if ((individual[i].onGood && !individual[i].onExcellent) && !individual[i].onPoor) {
+                onGoodOnlyActions.push(individual[i]);
+                maxConditionUses += 1;
+            }
+            else if (individual[i].onGood || individual[i].onExcellent) {
+                onGoodOrExcellentActions.push(individual[i]);
+                maxConditionUses += 1;
+            }
+            else if (individual[i].onPoor && !(individual[i].onExcellent || individual[i].onGood)) {
+                onPoorOnlyActions.push(individual[i]);
+                maxConditionUses += 1;
             }
             else {
-                maxTricksUses += 1;
+                tempIndividual.push(individual[i]);
             }
         }
         individual = tempIndividual;
     }
 
     if (debug) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-7s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'IQ', 'CTL', 'QINC', 'BPRG', 'BQUA', 'Cond', 'S/F');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %5.1f %5.0f %5.0f %-5s %-7s %-10s %-5s', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 0, s.synth.crafter.control, 0, '', '', 'Normal', '-');
+        logger.log('%-2s %30s %-5s %-5s %-8s %-8s %-5s %-5s %-5s %-5s %-5s %-5s %-5s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'IQ', 'WWYW', 'CTL', 'QINC', 'BPRG', 'BQUA', 'WAC', 'Cond', 'S/F');
+        logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %-10s %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, 0, 0, s.synth.crafter.control, 0, 0, 0, 0, 'Normal', '');
     }
     else if (verbose) {
-        logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'WAC', 'Cond', 'S/F');
-        logger.log('%2d %20s %5.0f %5.0f %8.1f %5.1f %5.0f %-10s %-5s', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, s.wastedActions, 'Normal', '');
+        logger.log('%-2s %30s %-5s %-5s %-8s %-8s %-5s %-5s %-10s %-5s', '#', 'Action', 'DUR', 'CP', 'QUA', 'PRG', 'IQ', 'WWYW', 'Cond', 'S/F');
+        logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %-10s %5.0f', s.step, '', s.durabilityState, s.cpState, s.qualityState, s.progressState, 0, 0, 'Normal', 0);
 
     }
 
     for (i=0; i < individual.length; i++) {
         var action = individual[i];
 
-        if (overrideTotT) {
-            // Manually re-add tricks of the trade when condition is good
-            if (s.condition == 'Good' && s.trickUses < maxTricksUses) {
-                s = MonteCarloStep(s, AllActions.tricksOfTheTrade, assumeSuccess, verbose, debug, logOutput);
+        if (overrideOnCondition) {
+            // Manually re-add condition dependent action when conditions are met
+            if (s.condition == 'Excellent' && s.trickUses < maxConditionUses) {
+                if (onExcellentOnlyActions.length > 0) {
+                    s = MonteCarloStep(s, onExcellentOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
+
+                }
+                else if (onGoodOrExcellentActions.length > 0) {
+                    s = MonteCarloStep(s, onGoodOrExcellentActions.shift(), assumeSuccess, verbose, debug, logOutput);
+                }
+            }
+            if (s.condition == 'Good' && s.trickUses < maxConditionUses) {
+                if (onGoodOnlyActions.length > 0) {
+                    s = MonteCarloStep(s, onGoodOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
+
+                }
+                else if (onGoodOrExcellentActions.length > 0) {
+                    s = MonteCarloStep(s, onGoodOrExcellentActions.shift(), assumeSuccess, verbose, debug, logOutput);
+                }
+            }
+            if (s.condition == 'Poor' && s.trickUses < maxConditionUses) {
+                if (onPoorOnlyActions.length > 0) {
+                    s = MonteCarloStep(s, onPoorOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
+
+                }
             }
         }
         s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
@@ -1297,63 +1432,65 @@ function clone(x) {
 // STEP_01
 // Actions Table
 //==============
-//parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level
+//parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level,onGood, onExcl, onPoor
 var AllActions = {
-    //                            shortName,              fullName,              dur,   cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,
-    observe: new Action(           'observe',              'Observe',              0,  14,   1.0, 0.0, 0.0, 'immediate',   1,  'All',          1),
+    //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
+    observe: new Action(            'observe',              'Observe',               0,     14,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           1),
 
-    basicSynth: new Action(        'basicSynth',           'Basic Synthesis',      10,  0,   0.9, 0.0, 1.0, 'immediate',   1,  'All',          1),
-    standardSynthesis: new Action( 'standardSynthesis',    'Standard Synthesis',   10,  15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31),
-    carefulSynthesis: new Action(  'carefulSynthesis',     'Careful Synthesis',    10,  0,   1.0, 0.0, 0.9, 'immediate',   1,  'Weaver',       15),
-    carefulSynthesis2: new Action( 'carefulSynthesis2',    'Careful Synthesis II', 10,  0,   1.0, 0.0, 1.2, 'immediate',   1,  'Weaver',       50),
-    rapidSynthesis: new Action(    'rapidSynthesis',       'Rapid Synthesis',      10,  0,   0.5, 0.0, 2.5, 'immediate',   1,  'Armorer',      15),
-    flawlessSynthesis: new Action( 'flawlessSynthesis',    'Flawless Synthesis',   10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Goldsmith',    37),
-    pieceByPiece: new Action(      'pieceByPiece',         'Piece By Piece',       10,  15,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      50),
+    basicSynth: new Action(         'basicSynth',           'Basic Synthesis',      10,      0,  0.9, 0.0, 1.0, 'immediate',   1,  'All',           1),
+    standardSynthesis: new Action(  'standardSynthesis',    'Standard Synthesis',   10,     15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31),
+    carefulSynthesis: new Action(   'carefulSynthesis',     'Careful Synthesis',    10,      0,  1.0, 0.0, 0.9, 'immediate',   1,  'Weaver',       15),
+    carefulSynthesis2: new Action(  'carefulSynthesis2',    'Careful Synthesis II', 10,      0,  1.0, 0.0, 1.2, 'immediate',   1,  'Weaver',       50),
+    rapidSynthesis: new Action(     'rapidSynthesis',       'Rapid Synthesis',      10,      0,  0.5, 0.0, 2.5, 'immediate',   1,  'Armorer',      15),
+    flawlessSynthesis: new Action(  'flawlessSynthesis',    'Flawless Synthesis',   10,     15,  0.9, 0.0, 1.0, 'immediate',   1,  'Goldsmith',    37),
+    pieceByPiece: new Action(       'pieceByPiece',         'Piece By Piece',       10,     15,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      50),
 
-    basicTouch: new Action(        'basicTouch',           'Basic Touch',          10,  18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          5),
-    standardTouch: new Action(     'standardTouch',        'Standard Touch',       10,  32,  0.8, 1.25,0.0, 'immediate',   1,  'All',          18),
-    advancedTouch: new Action(     'advancedTouch',        'Advanced Touch',       10,  48,  0.9, 1.5, 0.0, 'immediate',   1,  'All',          43),
-    hastyTouch: new Action(        'hastyTouch',           'Hasty Touch',          10,  0,   0.5, 1.0, 0.0, 'immediate',   1,  'Culinarian',   15),
-    byregotsBlessing: new Action(  'byregotsBlessing',     'Byregot\'s Blessing',  10,  24,  0.9, 1.0, 0.0, 'immediate',   1,  'Carpenter',    50),
+    basicTouch: new Action(         'basicTouch',           'Basic Touch',          10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',           5),
+    standardTouch: new Action(      'standardTouch',        'Standard Touch',       10,     32,  0.8, 1.25,0.0, 'immediate',   1,  'All',          18),
+    advancedTouch: new Action(      'advancedTouch',        'Advanced Touch',       10,     48,  0.9, 1.5, 0.0, 'immediate',   1,  'All',          43),
+    hastyTouch: new Action(         'hastyTouch',           'Hasty Touch',          10,      0,  0.5, 1.0, 0.0, 'immediate',   1,  'Culinarian',   15),
+    byregotsBlessing: new Action(   'byregotsBlessing',     'Byregot\'s Blessing',  10,     24,  0.9, 1.0, 0.0, 'immediate',   1,  'Carpenter',    50),
 
-    mastersMend: new Action(       'mastersMend',          'Master\'s Mend',       0,   92,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          7),
-    mastersMend2: new Action(      'mastersMend2',         'Master\'s Mend II',    0,   160, 1.0, 0.0, 0.0, 'immediate',   1,  'All',          25),
-    rumination: new Action(        'rumination',           'Rumination',           0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Carpenter',    15),
-    tricksOfTheTrade: new Action(  'tricksOfTheTrade',     'Tricks Of The Trade',  0,   0,   1.0, 0.0, 0.0, 'immediate',   1,  'Alchemist',    15),
+    mastersMend: new Action(        'mastersMend',          'Master\'s Mend',        0,     92,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           7),
+    mastersMend2: new Action(       'mastersMend2',         'Master\'s Mend II',     0,    160,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          25),
+    rumination: new Action(         'rumination',           'Rumination',            0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'Carpenter',    15),
+    tricksOfTheTrade: new Action(   'tricksOfTheTrade',     'Tricks Of The Trade',   0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'Alchemist',    15,  true,       true),
 
-    innerQuiet: new Action(        'innerQuiet',           'Inner Quiet',          0,   18,  1.0, 0.0, 0.0, 'countup',     1,  'All',          11),
-    manipulation: new Action(      'manipulation',         'Manipulation',         0,   88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15),
-    comfortZone: new Action(       'comfortZone',          'Comfort Zone',         0,   66,  1.0, 0.0, 0.0, 'countdown',   10, 'Alchemist',    50),
-    steadyHand: new Action(        'steadyHand',           'Steady Hand',          0,   22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          9),
-    steadyHand2: new Action(       'steadyHand2',          'Steady Hand II',       0,   25,  1.0, 0.0, 0.0, 'countdown',   5,  'Culinarian',   37),
-    wasteNot: new Action(          'wasteNot',             'Waste Not',            0,   56,  1.0, 0.0, 0.0, 'countdown',   4,  'Leatherworker',15),
-    wasteNot2: new Action(         'wasteNot2',            'Waste Not II',         0,   98,  1.0, 0.0, 0.0, 'countdown',   8,  'Leatherworker',50),
-    innovation: new Action(        'innovation',           'Innovation',           0,   18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50),
-    greatStrides: new Action(      'greatStrides',         'Great Strides',        0,   32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
-    ingenuity: new Action(         'ingenuity',            'Ingenuity',            0,   24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15),
-    ingenuity2: new Action(        'ingenuity2',           'Ingenuity II',         0,   32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50),
+    innerQuiet: new Action(         'innerQuiet',           'Inner Quiet',           0,     18,  1.0, 0.0, 0.0, 'countup',     1,  'All',          11),
+    manipulation: new Action(       'manipulation',         'Manipulation',          0,     88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15),
+    comfortZone: new Action(        'comfortZone',          'Comfort Zone',          0,     66,  1.0, 0.0, 0.0, 'countdown',   10, 'Alchemist',    50),
+    steadyHand: new Action(         'steadyHand',           'Steady Hand',           0,     22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',           9),
+    steadyHand2: new Action(        'steadyHand2',          'Steady Hand II',        0,     25,  1.0, 0.0, 0.0, 'countdown',   5,  'Culinarian',   37),
+    wasteNot: new Action(           'wasteNot',             'Waste Not',             0,     56,  1.0, 0.0, 0.0, 'countdown',   4,  'Leatherworker',15),
+    wasteNot2: new Action(          'wasteNot2',            'Waste Not II',          0,     98,  1.0, 0.0, 0.0, 'countdown',   8,  'Leatherworker',50),
+    innovation: new Action(         'innovation',           'Innovation',            0,     18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50),
+    greatStrides: new Action(       'greatStrides',         'Great Strides',         0,     32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
+    ingenuity: new Action(          'ingenuity',            'Ingenuity',             0,     24,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   15),
+    ingenuity2: new Action(         'ingenuity2',           'Ingenuity II',          0,     32,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   50),
 
     // Heavensward actions
-    //                            shortName,              fullName,              dur,   cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,
-    byregotsBrow: new Action(     'byregotsBrow',         'Byregot\'s Brow',      10,   18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51),
-    preciseTouch: new Action(     'preciseTouch',         'Precise Touch',        10,   18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53),
-    makersMark: new Action(       'makersMark',           'Maker\'s Mark',         0,   20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54),
-    muscleMemory: new Action(     'muscleMemory',         'Muscle Memory',        10,    6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
-
-    /* TODO
-    nameofElement: new Action(    'nameofElement',        'Name of Element',       0,   15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
-    heartOfTheClass: new Action(  'heartOfTheClass',      'Heart of the Class',    0,   45,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          60),
+    //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
+    byregotsBrow: new Action(       'byregotsBrow',         'Byregot\'s Brow',      10,     18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51,  true,       true),
+    preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
+    makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54),
+    muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
+    whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'countdown',  11,  'All',          55),
 
     // Specialist Actions
-    satisfaction: new Action(     'satisfaction',         'Satisfaction',          0,    0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
-    whistleWhileYouWork: new Action(     'whistleWhileYouWork',         'Whistle While You Work',          0,    36,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
-    innovativeTouch: new Action(  'innovativeTouch',      'Innovative Touch',     10,    8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
-    nymeiasWheel: new Action(     'nymeiasWheel',         'Nymeia\'s Wheel',       0,   18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
-    byregotsMiracle: new Action(  'byregotsMiracle',      'Byregot\'s Miracle',   10,   16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
-    trainedHand: new Action(      'trainedHand',          'Trained Hand',         10,   32,  0.8, 1.0, 0.0, 'immediate',   1,  'All',          58),
+    satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
+    innovativeTouch: new Action(    'innovativeTouch',      'Innovative Touch',     10,      8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
+    nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
+    byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
+    trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.0, 0.0, 'immediate',   1,  'All',          58),
+
+    /* TODO
+    nameofElement: new Action(      'nameofElement',        'Name of Element',       0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
+    heartOfTheClass: new Action(    'heartOfTheClass',      'Heart of the Class',    0,     45,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          60),
     */
 
-    dummyAction: new Action(       'dummyAction',          '______________',       0,  0,    1.0, 0.0, 0.0, 'immediate',   1,  'All',          1)
+    // Special Actions - not selectable
+    finishingTouches: new Action(   'finishingTouches',     'Finishing Touches',    10,      0,  0.5, 0.0, 2.0, 'immediate',   1,  'All',          55),
+    dummyAction: new Action(        'dummyAction',          '______________',        0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           1)
 };
 
 var LevelTable = {
@@ -1410,7 +1547,7 @@ var Ing2RecipeLevelTable = {
     47: 40,
     48: 40,
     49: 41,
-    40: 42,
+    50: 42,
     55: 47,     // 50_1star     *** unverified
     70: 47,     // 50_2star     *** unverified
     90: 56,     // 50_3star     *** unverified

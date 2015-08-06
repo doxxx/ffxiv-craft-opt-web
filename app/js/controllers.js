@@ -460,6 +460,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
+        overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
         debug: $scope.sequenceSettings.debug
       };
       if ($scope.sequenceSettings.specifySeed) {
@@ -510,6 +511,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
+        overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
         solver: $scope.solver,
         debug: $scope.sequenceSettings.debug
       };
@@ -571,6 +573,7 @@ function initPageStateDefaults($scope) {
     specifySeed: false,
     seed: 1337,
     useConditions: true,
+    overrideOnCondition: false,
     debug: false
   };
 
