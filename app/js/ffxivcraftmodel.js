@@ -1035,6 +1035,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 function heuristicSequenceBuilder(synth) {
     var sequence = [];
     var subSeq = [];
+    var subSeq2 = [];
     var aa = AllActions;
 
     var cp = synth.crafter.craftPoints;
@@ -1146,6 +1147,9 @@ function heuristicSequenceBuilder(synth) {
             unshiftAction(subSeq, 'mastersMend');
             dur += 30;
         }
+        else {
+            break;
+        }
     }
     sequence = sequence.concat(subSeq);
 
@@ -1185,7 +1189,9 @@ function heuristicSequenceBuilder(synth) {
         pushAction(subSeq, 'steadyHand')
     }
     // ... and put in at least one quality improving action
-    pushAction(subSeq, preferredAction);
+    if (hasAction(preferredAction)) {
+        pushAction(subSeq, preferredAction);
+    }
 
     // Now add in Byregot's Blessing at the end of the quality improving stage if we can
     if (tryAction('byregotsBlessing')) {
@@ -1196,6 +1202,33 @@ function heuristicSequenceBuilder(synth) {
     if (tryAction('greatStrides')) {
         unshiftAction(sequence, 'greatStrides');
     }
+
+    subSeq2 = [];
+    // Use up any remaining durability and cp with quality / durability improving actions
+    while (cp > 0 && dur > 0) {
+        if (tryAction(preferredAction) && dur > 10) {
+            pushAction(subSeq2, preferredAction);
+        }
+        else if (dur < 20) {
+            if (synth.recipe.durability > 40 && tryAction('mastersMend2')) {
+                pushAction(subSeq2, 'mastersMend2');
+                dur += 60;
+            }
+            else if (tryAction('manipulation')) {
+                unshiftAction(subSeq2, 'manipulation');
+                dur += 30;
+            }
+            else if (tryAction('mastersMend')) {
+                pushAction(subSeq2, 'mastersMend');
+                dur += 30;
+            }
+            else {
+                break;
+            }
+        }
+    }
+
+    sequence = subSeq2.concat(sequence);
     sequence = subSeq.concat(sequence);
 
     // If we have comfortzone and sequence is >= 10 actions put it at the start
@@ -1205,6 +1238,7 @@ function heuristicSequenceBuilder(synth) {
         cp += 14;
     }
 
+    // Pray
     return sequence;
 }
 
