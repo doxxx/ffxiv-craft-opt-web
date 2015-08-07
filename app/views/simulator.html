@@ -112,14 +112,14 @@
     </div>
     <div class="span3">
       <div class="well">
-        <h5>{{recipe.cls}} Stats</h5>
+        <h5>{{recipe.cls}} Attributes</h5>
         <ul>
           <li>Level: {{crafter.stats[recipe.cls].level}}</li>
           <li>Craftsmanship: {{crafter.stats[recipe.cls].craftsmanship}} + {{bonusStats.craftsmanship}}</li>
           <li>Control: {{crafter.stats[recipe.cls].control}} + {{bonusStats.control}}</li>
           <li>CP: {{crafter.stats[recipe.cls].cp}} + {{bonusStats.cp}}</li>
         </ul>
-        <p><button class="btn" ng-click="showStatBonusesModal()">Stat Bonuses...</button></p>
+        <p><button class="btn" ng-click="showStatBonusesModal()">Temporary Bonuses...</button></p>
       </div>
       <div ng-show="uniqueCrossClassActions.length > 0">
         <h5>Required Cross Class Actions</h5>
