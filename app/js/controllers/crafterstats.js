@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsController', function ($scope, _allClasses) {
+angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsController', function ($scope, _allClasses, _allActions) {
   // Initialize tab names and initial active state
   $scope.tabs = [];
   for (var i = 0; i < _allClasses.length; i++) {
@@ -27,6 +27,15 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsControlle
 
   $scope.onTabSelect = function (tab) {
     $scope.currentClass = tab.name;
-  }
+  };
+
+  $scope.selectAllActions = function (cls) {
+    var clsActions = $scope.crafter.stats[cls].actions;
+    clsActions.splice(0, clsActions.length);
+    for (var i = 0; i < _allActions.length; i++) {
+      var action = _allActions[i];
+      clsActions.push(action.shortName);
+    }
+  };
 
 });
