@@ -1,7 +1,7 @@
 "use strict";
 
 angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController', function ($scope, $filter, $modal,
-  $rootScope, $translate, $timeout, _recipeLibrary, _simulator, _actionsByName)
+  $rootScope, $translate, $timeout, $state, _recipeLibrary, _simulator, _actionsByName)
 {
 
   // Global page state
@@ -285,5 +285,13 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   // Trigger simulation update
   $scope.$broadcast('simulation.needs.update');
 
+  //
+  // State Transitions
+  //
+
+  $scope.goToSolver = function () {
+    $state.go('solver');
+
+  };
 
 });
