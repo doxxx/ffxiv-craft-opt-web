@@ -291,8 +291,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   //
 
   $scope.goToSolver = function () {
-    $state.go('solver');
-
+    $state.go('solver', { autoStart: true });
   };
 
 });

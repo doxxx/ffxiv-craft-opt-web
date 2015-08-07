@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $state, _solver) {
+angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $state, $stateParams, _solver) {
 
   // Global page state
   if (!$scope.pageState.solverStatus) {
@@ -107,5 +107,13 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
       $state.go('simulator');
     }
   };
+
+  //
+  // State Parameter Handling
+  //
+
+  if ($stateParams.autoStart) {
+    $scope.startSolver();
+  }
 
 });

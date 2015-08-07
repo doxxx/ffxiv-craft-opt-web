@@ -34,7 +34,10 @@ angular.module('ffxivCraftOptWeb', [
     .state('solver', {
       url: '/solver',
       templateUrl: 'views/solver.html',
-      controller: 'SolverController'
+      controller: 'SolverController',
+      params: {
+        autoStart: null
+      }
     })
     .state('instructions', {
       url: '/instructions',
