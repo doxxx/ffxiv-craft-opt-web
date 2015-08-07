@@ -113,6 +113,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   //
 
   if ($stateParams.autoStart) {
+    $scope.resetSolver();
     $scope.startSolver();
   }
 
