@@ -57,4 +57,8 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.macros = createMacros();
     });
 
+    $scope.$on('$translateChangeSuccess', function () {
+      $scope.macros = createMacros();
+    });
+
   });

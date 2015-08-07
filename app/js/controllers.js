@@ -38,6 +38,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $rootScope.$on('$translateChangeSuccess', function (event, data) {
       _xivdbtooltips.onLanguageChange(data.language);
+      $scope.$broadcast('$translateChangeSuccess', data);
     });
     _xivdbtooltips.onLanguageChange($translate.use());
 
