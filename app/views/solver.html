@@ -31,5 +31,9 @@
     <tab heading="Solver Log" active="simulatorTabs.solver.active">
       <pre>{{pageState.solverStatus.logText}}</pre>
     </tab>
+    <tab active="logTabs.macro.active">
+      <tab-heading>Macro</tab-heading>
+      <macros sequence="pageState.solverStatus.sequence" options="macroOptions"></macros>
+    </tab>
   </tabset>
 </div>
