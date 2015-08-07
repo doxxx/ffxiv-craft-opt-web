@@ -104,7 +104,7 @@
         <action-sequence actions="sequence" cls="recipe.cls" tooltip-placement="right" action-classes="seqeunceActionClasses"></action-sequence>
         <div class="control-group">
           <button class="btn btn-primary" ng-click="editSequenceInline()" ng-disabled="simulatorStatus.running">Edit...</button>
-          <button class="btn btn-primary" ng-click="runMonteCarloSim()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
+          <button class="btn btn-primary" ng-click="$emit('simulation.needs.update')" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
           <button class="btn" ng-click="showOptionsModal()">Options...</button>
         </div>
       </div>
@@ -146,7 +146,7 @@
 <div class="row-fluid">
   <tabset>
     <tab active="simulatorTabs.monteCarlo.active">
-      <tab-heading>Monte Carlo Sim &nbsp; <i class="fa fa-refresh flat-button" ng-click="runMonteCarloSim()"></i></tab-heading>
+      <tab-heading>Monte Carlo Sim &nbsp; <i class="fa fa-refresh flat-button" ng-click="$emit('simulation.needs.update')"></i></tab-heading>
       <pre>{{simulatorStatus.monteCarlo.logText}}</pre>
     </tab>
     <tab active="simulatorTabs.probabilistic.active">

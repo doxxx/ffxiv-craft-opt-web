@@ -113,6 +113,11 @@ angular.module('ffxivCraftOptWeb.controllers')
         return;
       }
 
+      if ($scope.editSequence.length === 0) {
+        $scope.$emit('sequence.editor.simulation.empty');
+        return;
+      }
+
       var settings = {
         crafter: addBonusStats($scope.crafterStats, $scope.bonusStats),
         recipe: $scope.recipe,

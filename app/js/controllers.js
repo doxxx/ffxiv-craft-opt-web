@@ -143,6 +143,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.$on('sequence.editor.save', function (event, newSequence) {
       $scope.sequence = angular.copy(newSequence);
+      $scope.$broadcast('simulation.needs.update');
     });
 
     // data model interaction functions
@@ -268,7 +269,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.isValidSequence = function (sequence, cls) {
-      return sequence !== undefined && sequence.every(function (action) {
+      return !sequence || sequence.every(function (action) {
         return $scope.isActionSelected(action, cls);
       });
     };
