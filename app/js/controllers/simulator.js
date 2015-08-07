@@ -275,4 +275,5 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   // Trigger simulation update
   $scope.$broadcast('simulation.needs.update');
 
+
 });

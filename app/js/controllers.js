@@ -49,8 +49,14 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       },
       options: {
         tabs: {
-          solver: {
+          general: {
             active: true
+          },
+          simulator: {
+            active: false
+          },
+          solver: {
+            active: false
           },
           macro: {
             active: false
@@ -279,6 +285,23 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       });
       modalInstance.result.then(function (result) {
         $scope.bonusStats = angular.copy(result);
+      });
+    };
+
+    $scope.showOptionsModal = function () {
+      var modalInstance = $modal.open({
+        templateUrl: 'modals/options.html',
+        controller: 'OptionsController',
+        windowClass: 'options-modal',
+        resolve: {
+          pageState: function () { return $scope.pageState; },
+          sequenceSettings: function () { return $scope.sequenceSettings; },
+          solver: function () { return $scope.solver; },
+          macroOptions: function () { return $scope.macroOptions; }
+        }
+      });
+      modalInstance.result.then(function (result) {
+        extend($scope, result);
       });
     };
 

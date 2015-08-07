@@ -9,6 +9,7 @@
             ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.sequence || pageState.solverStatus.sequence.length == 0 || pageState.solverStatus.sequence.equals(sequence)"
             ng-click="useSolverResult()">Use Solver Result
     </button>
+    <button class="btn" ng-click="showOptionsModal()">Options...</button>
   </div>
   <div class="sequence well well-small">
     <div ng-show="pageState.solverStatus.running">
