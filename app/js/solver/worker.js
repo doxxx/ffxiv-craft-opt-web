@@ -52,7 +52,14 @@ function start(settings) {
   var crafterActions = [];
 
   for (var i = 0; i < settings.crafter.actions.length; i++) {
-    crafterActions.push(AllActions[settings.crafter.actions[i]]);
+    var actionName = settings.crafter.actions[i];
+    var action = AllActions[actionName];
+    if (action === undefined) {
+      logOutput.write('Error: Action is unsupported: %s\n'.sprintf(actionName));
+    }
+    else {
+      crafterActions.push(AllActions[actionName]);
+    }
   }
 
   crafterActions.sort(function (a1, a2) {
@@ -78,7 +85,11 @@ function start(settings) {
   var sequence = [];
 
   for (var j = 0; j < settings.sequence.length; j++) {
-    sequence.push(AllActions[settings.sequence[j]]);
+    var actionName = settings.sequence[j];
+    var action = AllActions[actionName];
+    if (action !== undefined) {
+      sequence.push(action);
+    }
   }
 
   if (sequence.length === 0) {
