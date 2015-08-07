@@ -44,9 +44,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     // non-persistent page state
     $scope.pageState = {
       navBarCollapsed: true,
-      solver: {
-        macrosVisible: false
-      },
       options: {
         tabs: {
           general: {

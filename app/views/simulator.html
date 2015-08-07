@@ -129,11 +129,17 @@
   </div>
 </div>
 <div class="row-fluid">
-  <accordion>
-    <accordion-group is-open="pageState.solver.macrosVisible">
-      <accordion-heading>
-        <my-section-header title="Macro" is-open="pageState.solver.macrosVisible"/>
-      </accordion-heading>
+  <tabset>
+    <tab active="logTabs.monteCarlo.active">
+      <tab-heading>Monte Carlo Sim &nbsp; <i class="fa fa-refresh flat-button" ng-click="$emit('simulation.needs.update')"></i></tab-heading>
+      <pre>{{simulatorStatus.monteCarlo.logText}}</pre>
+    </tab>
+    <tab active="logTabs.probabilistic.active">
+      <tab-heading>Probabilistic Sim</tab-heading>
+      <pre>{{simulatorStatus.probabilistic.logText}}</pre>
+    </tab>
+    <tab active="logTabs.macro.active">
+      <tab-heading>Macro</tab-heading>
       <div ng-controller="MacroCtrl">
         <p>Click + Ctrl/Cmd-C on each block to copy to clipboard.</p>
         <div ng-repeat="macroText in macros track by $index">
@@ -141,18 +147,6 @@
           <textarea style="width:auto" cols="60" rows="16" readonly select-on-click>{{macroText}}</textarea>
         </div>
       </div>
-    </accordion-group>
-  </accordion>
-</div>
-<div class="row-fluid">
-  <tabset>
-    <tab active="simulatorTabs.monteCarlo.active">
-      <tab-heading>Monte Carlo Sim &nbsp; <i class="fa fa-refresh flat-button" ng-click="$emit('simulation.needs.update')"></i></tab-heading>
-      <pre>{{simulatorStatus.monteCarlo.logText}}</pre>
-    </tab>
-    <tab active="simulatorTabs.probabilistic.active">
-      <tab-heading>Probabilistic Sim</tab-heading>
-      <pre>{{simulatorStatus.probabilistic.logText}}</pre>
     </tab>
   </tabset>
 </div>

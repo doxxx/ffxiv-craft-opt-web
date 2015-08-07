@@ -11,7 +11,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   // Local page state
   $scope.logTabs = {
     monteCarlo: {active: true},
-    probabilistic: {active: true}
+    probabilistic: {active: false},
+    macro: {active: false}
   };
 
   //
