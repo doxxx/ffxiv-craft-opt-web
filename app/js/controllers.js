@@ -47,9 +47,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       navBarCollapsed: true,
       options: {
         tabs: {
-          general: {
-            active: true
-          },
           simulator: {
             active: false
           },
@@ -58,6 +55,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
           },
           macro: {
             active: false
+          },
+          debugging: {
+            active: true
           }
         }
       }
