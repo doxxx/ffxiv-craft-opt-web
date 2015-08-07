@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, _solver) {
+angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $state, _solver) {
 
   // Global page state
   if (!$scope.pageState.solverStatus) {
@@ -104,6 +104,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     var newSeq = $scope.pageState.solverStatus.sequence;
     if (newSeq instanceof Array && newSeq.length > 0) {
       Array.prototype.splice.apply($scope.sequence, [0, newSeq.length].concat(newSeq));
+      $state.go('simulator');
     }
   };
 
