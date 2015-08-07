@@ -1,13 +1,13 @@
 <h3 class="page-title">Solver</h3>
 <div class="row-fluid">
   <div class="control-group">
-    <button class="btn btn-primary" ng-click="startSolver()" ng-show="!pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Start Solver</button>
-    <button class="btn btn-primary" ng-click="stopSolver()" ng-show="pageState.solverStatus.running">Stop Solver</button>
-    <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !pageState.solverStatus.state || !isValidSequence(pageState.solverStatus.sequence, recipe.cls) || pageState.solverStatus.error">Resume Solver</button>
-    <button class="btn btn-danger" ng-click="resetSolver()" ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.state">Reset Solver</button>
+    <button class="btn btn-primary" ng-click="startSolver()" ng-show="!pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Start</button>
+    <button class="btn btn-primary" ng-click="stopSolver()" ng-show="pageState.solverStatus.running">Stop</button>
+    <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !pageState.solverStatus.state || !isValidSequence(pageState.solverStatus.sequence, recipe.cls) || pageState.solverStatus.error">Continue</button>
+    <button class="btn btn-danger" ng-click="resetSolver()" ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.state">Reset</button>
     <button class="btn btn-warning"
             ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.sequence || pageState.solverStatus.sequence.length == 0 || pageState.solverStatus.sequence.equals(sequence)"
-            ng-click="useSolverResult()">Use Solver Result
+            ng-click="useSolverResult()">Edit Result in Simulator
     </button>
     <button class="btn" ng-click="showOptionsModal()">Options...</button>
   </div>
