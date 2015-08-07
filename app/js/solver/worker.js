@@ -33,6 +33,16 @@ self.onmessage = function(e) {
 };
 
 function start(settings) {
+  var logOutput = {
+    log: '',
+    write: function(msg) {
+      logOutput.log += msg;
+    },
+    clear: function() {
+      logOutput.log = '';
+    }
+  };
+
   var seed = Math.seed;
   if (typeof settings.seed === 'number') {
     seed = settings.seed;
@@ -71,6 +81,30 @@ function start(settings) {
     sequence.push(AllActions[settings.sequence[j]]);
   }
 
+  if (sequence.length === 0) {
+    sequence = heuristicSequenceBuilder(synth);
+
+    logOutput.write('No initial sequence provided; seeding with the following heuristic sequence:\n\n');
+
+    for (var i = 0; i < sequence.length; i++) {
+      var action = sequence[i];
+      logOutput.write(action.name);
+      if (i < sequence.length - 1) {
+        logOutput.write(' | ');
+      }
+    }
+
+    logOutput.write('\n\n');
+
+    var heuristcState = MonteCarloSequence(sequence, NewStateFromSynth(synth), true, false, false, false, logOutput);
+
+    var chk = heuristcState.checkViolations();
+    var feasibility = chk.progressOk && chk.durabilityOk && chk.cpOk && chk.trickOk && chk.reliabilityOk;
+
+    logOutput.write("Heuristic sequence feasibility:\n");
+    logOutput.write('Progress: %s, Durability: %s, CP: %s, Tricks: %s, Reliability: %s\n\n'.sprintf(chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk));
+  }
+
   var seqMaxLength = Math.max(50, sequence.length);
 
   function evalSeqWrapper(synth, penaltyWeight, individual) {
@@ -94,16 +128,6 @@ function start(settings) {
   pop.push(iniGuess);
 
   var hof = new yagal_tools.HallOfFame(1);
-
-  var logOutput = {
-    log: '',
-    write: function(msg) {
-      logOutput.log += msg;
-    },
-    clear: function() {
-      logOutput.log = '';
-    }
-  };
 
   var startTime = Date.now();
 
