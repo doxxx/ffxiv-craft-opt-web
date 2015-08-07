@@ -143,7 +143,19 @@ function start(settings) {
     });
   }
 
-  algorithm.setup(pop, toolbox, hof);
+  try {
+    algorithm.setup(pop, toolbox, hof);
+  } catch (e) {
+    logOutput.write('\n\n');
+    logOutput.write(e);
+    self.postMessage({
+      error: {
+        error: 'Solver setup failed',
+        log: logOutput.log
+      }
+    });
+    return;
+  }
 
   state = {
     settings: settings,
