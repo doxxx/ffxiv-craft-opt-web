@@ -26,16 +26,6 @@ var cache_key = function (lang, cls) {
 };
 
 RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
-  var userRecipes = this._localProfile.getUserRecipes(cls);
-  var userRecipesArray = [];
-  for (var name in userRecipes) {
-    if (userRecipes.hasOwnProperty(name)) {
-      var recipe = angular.copy(userRecipes[name]);
-      recipe.user = true;
-      userRecipesArray.push(recipe);
-    }
-  }
-
   if (!angular.isDefined(lang)) lang = 'en';
   var key = cache_key(lang, cls);
   var promise = cache[key];
@@ -55,12 +45,7 @@ RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
     );
     cache[key] = promise;
   }
-
-  return promise.then(
-    function (recipes) {
-      return userRecipesArray.concat(recipes);
-    }
-  );
+  return promise;
 };
 
 RecipeLibrary.prototype.recipeForClassByName = function (lang, cls, name) {
@@ -76,14 +61,6 @@ RecipeLibrary.prototype.recipeForClassByName = function (lang, cls, name) {
       return this.$q.reject();
     }.bind(this)
   );
-};
-
-RecipeLibrary.prototype.saveUserRecipe = function (recipe) {
-  this._localProfile.saveUserRecipe(recipe);
-};
-
-RecipeLibrary.prototype.deleteUserRecipe = function (cls, name) {
-  this._localProfile.deleteUserRecipe(cls, name);
 };
 
 angular.module('ffxivCraftOptWeb.services.recipelibrary', ['ffxivCraftOptWeb.services.localprofile']).
