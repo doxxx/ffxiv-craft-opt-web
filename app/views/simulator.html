@@ -34,8 +34,6 @@
                         ng-mouseover="recipeSearch.selected=$index"
                         ng-click="recipeSelected(r.name)">
                       <a ng-click="recipeSelected(r.name)">[{{r.baseLevel}}] {{r.name}}</a>
-                      <a ng-show="r.user" class="pull-right" ng-click="deleteUserRecipe(r.name)"><i
-                          class="fa fa-minus-circle"></i></a>
                     </li>
                   </ul>
                 </div>

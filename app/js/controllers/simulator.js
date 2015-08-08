@@ -72,11 +72,6 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     });
   };
 
-  $scope.deleteUserRecipe = function (name) {
-    _recipeLibrary.deleteUserRecipe($scope.recipe.cls, name);
-    $scope.updateRecipeSearchList();
-  };
-
   $scope.onSearchKeyPress = function (event) {
     if (event.which == 13) {
       event.preventDefault();
