@@ -7,8 +7,18 @@
         <div class="row-fluid">
           <div class="recipe-search-control">
             <form class="form-inline">
-              <select class="input-medium" ng-model="recipe.cls" ng-options="cls for cls in allClasses"
-                      required></select>
+              <div class="dropdown" style="display: inline-block">
+                <div class="input-append">
+                  <span class="span3 uneditable-input">{{recipe.cls}}</span>
+
+                  <div class="btn-group">
+                    <button class="btn dropdown-toggle"><span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right">
+                      <li ng-repeat="cls in allClasses"><a ng-click="recipe.cls=cls">{{cls}}</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
               <div class="my-dropdown" id="recipe-menu-root" style="display: inline-block">
                 <div class="input-append">
