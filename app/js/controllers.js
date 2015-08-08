@@ -171,7 +171,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
       var settings = $scope.profile.loadSynth(name);
 
-      $scope.bonusStats = settings.bonusStats;
+      $scope.bonusStats = extend(newBonusStats(), settings.bonusStats);
       $scope.recipe = settings.recipe;
       $scope.sequence = settings.sequence;
       $scope.sequenceSettings = settings.sequenceSettings;
@@ -198,7 +198,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       var settings = {};
 
       settings.name = $scope.settings.name;
-      settings.bonusStats = $scope.bonusStats;
+      settings.bonusStats = extend(newBonusStats(), $scope.bonusStats);
       settings.recipe = $scope.recipe;
       settings.sequence = $scope.sequence;
       settings.sequenceSettings = $scope.sequenceSettings;
@@ -462,10 +462,10 @@ function saveLocalPageState_v2($scope) {
 
 function extend(dest, src) {
   if (dest === null || dest === undefined) {
-    throw 'cannot extend null or undefined object';
+    dest = {};
   }
   if (src === null || src === undefined) {
-    throw 'cannot extend object with null or undefined object';
+    src = {};
   }
   for (var p in src) {
     if (src.hasOwnProperty(p)) {
@@ -484,6 +484,7 @@ function extend(dest, src) {
       }
     }
   }
+  return dest;
 }
 
 // attach the .equals method to Array's prototype to call it on any array
