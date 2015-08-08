@@ -41,7 +41,12 @@
       <div class="span6">
         <form class="action-table">
           <fieldset>
-            <legend>Available Actions <button class="btn pull-right" ng-click="selectAllActions(currentClass)">Select All</button></legend>
+            <legend>Available Actions
+              <span class="pull-right btn-group">
+                <button class="btn" ng-click="selectAllActions(currentClass)">All</button>
+                <button class="btn" ng-click="selectNoActions(currentClass)">None</button>
+              </span>
+            </legend>
             <action-table cls="currentClass" on-click="toggleAction" action-classes="crafterActionClasses" selectable="true" tooltip-placement="left"/>
           </fieldset>
         </form>

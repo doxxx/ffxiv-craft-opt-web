@@ -29,6 +29,11 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsControlle
     $scope.currentClass = tab.name;
   };
 
+  $scope.selectNoActions = function (cls) {
+    var clsActions = $scope.crafter.stats[cls].actions;
+    clsActions.splice(0, clsActions.length);
+  };
+
   $scope.selectAllActions = function (cls) {
     var clsActions = $scope.crafter.stats[cls].actions;
     clsActions.splice(0, clsActions.length);
