@@ -242,26 +242,6 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     });
   };
 
-  //
-  // Unique Cross-Class Actions
-  //
-
-  function uniqueCrossClassActions(sequence) {
-    var cls = $scope.recipe.cls;
-    if (typeof sequence == 'undefined') return [];
-    var crossClassActions = sequence.filter(function (action) {
-      var actionClass = _actionsByName[action].cls;
-      return actionClass != 'All' && actionClass != cls;
-    });
-    return crossClassActions.unique();
-  }
-
-  $scope.$on('sequence.changed', function (event, sequence) {
-    $scope.uniqueCrossClassActions = uniqueCrossClassActions(sequence);
-  });
-
-  $scope.uniqueCrossClassActions = uniqueCrossClassActions($scope.sequence);
-
   // Trigger simulation update
   $scope.$broadcast('simulation.needs.update');
 
