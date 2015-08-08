@@ -67,7 +67,7 @@ legend small > .light {
 }
 
 .recipe-search-control .my-dropdown-menu {
-  margin-top: 12px;
+  margin-top: 2px;
   padding-bottom: 0px;
   padding-top: 0px;
   width: 335px;
@@ -130,6 +130,15 @@ legend small > .light {
   .recipe-search-control .search {
     display: none;
   }
+}
+
+.bonus-stats td {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.bonus-stats td.value {
+  text-align: right;
 }
 
 .simulator-status-ok {
