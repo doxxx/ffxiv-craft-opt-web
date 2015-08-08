@@ -119,8 +119,8 @@ angular.module('ffxivCraftOptWeb.controllers')
       }
 
       var settings = {
-        crafter: addBonusStats($scope.crafterStats, $scope.bonusStats),
-        recipe: $scope.recipe,
+        crafter: addCrafterBonusStats($scope.crafterStats, $scope.bonusStats),
+        recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: $scope.editSequence,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,

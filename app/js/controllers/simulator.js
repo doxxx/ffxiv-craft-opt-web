@@ -167,8 +167,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     }
 
     var settings = {
-      crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: $scope.recipe,
+      crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -199,8 +199,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
 
   $scope.runProbabilisticSim = function () {
     var settings = {
-      crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: $scope.recipe,
+      crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,

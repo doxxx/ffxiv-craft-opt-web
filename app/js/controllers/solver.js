@@ -63,8 +63,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     if (sequence.length === 0) sequence = $scope.sequence;
 
     var settings = {
-      crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: $scope.recipe,
+      crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
       sequence: sequence,
       algorithm: $scope.solver.algorithm,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
