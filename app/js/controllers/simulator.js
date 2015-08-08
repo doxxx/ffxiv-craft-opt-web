@@ -242,9 +242,6 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     });
   };
 
-  // Trigger simulation update
-  $scope.$broadcast('simulation.needs.update');
-
   //
   // State Transitions
   //
@@ -252,5 +249,13 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   $scope.goToSolver = function () {
     $state.go('solver', { autoStart: true });
   };
+
+
+  //
+  // Final Initialization
+  //
+
+  // Trigger simulation update
+  $scope.$broadcast('simulation.needs.update');
 
 });
