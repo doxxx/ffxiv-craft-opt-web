@@ -150,6 +150,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.recipe = recipe;
     });
 
+    //
+    // Saved Synth Management
+    //
 
     $scope.newSynth = function () {
       $scope.settings.name = '';
@@ -160,6 +163,12 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.loadSynth = function (name) {
+      if ($scope.isSynthDirty()) {
+        if (!window.confirm('You have not saved the changes to your current sequence. Are you sure?')) {
+          return;
+        }
+      }
+
       var settings = $scope.profile.loadSynth(name);
 
       $scope.bonusStats = settings.bonusStats;
@@ -179,6 +188,13 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.saveSynth = function () {
+      // Hack for bug in angular-ui-bootstrap
+      // ng-disabled elements don't close their tooltip
+      if (!$scope.isSynthDirty()) {
+        return;
+      }
+
+      console.log("saveSynth");
       var settings = {};
 
       settings.name = $scope.settings.name;
@@ -193,7 +209,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
-    $scope.saveSynthAs = function (name) {
+    $scope.saveSynthAs = function () {
+      var name = $scope.settings.name;
       if (name === undefined || name === '') {
         name = $scope.recipe.name;
       }
@@ -203,23 +220,21 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.saveSynth();
     };
 
-    $scope.deleteSynth = function (name) {
+    $scope.deleteSynth = function () {
+      var name = $scope.settings.name;
       if (window.confirm('Are you sure you want to delete the "' + name + '" synth?')) {
         $scope.profile.deleteSynth(name);
-        if (name == $scope.settings.name) {
-          $scope.newSynth();
-        }
+        $scope.newSynth();
         $scope.savedSynthNames = $scope.profile.synthNames();
       }
     };
 
-    $scope.renameSynth = function (name) {
+    $scope.renameSynth = function () {
+      var name = $scope.settings.name;
       var newName = window.prompt('Enter new synth name:', name);
       if (newName === null || newName.length === 0) return;
+      $scope.settings.name = newName;
       $scope.profile.renameSynth(name, newName);
-      if (name == $scope.settings.name) {
-        $scope.settings.name = newName;
-      }
       $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
