@@ -180,14 +180,13 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.$broadcast('synth.changed');
     };
 
-    $scope.saveSynth = function () {
+    $scope.saveSynth = function (noDirtyCheck) {
       // Hack for bug in angular-ui-bootstrap
       // ng-disabled elements don't close their tooltip
-      if (!$scope.isSynthDirty()) {
+      if (!noDirtyCheck && !$scope.isSynthDirty()) {
         return;
       }
 
-      console.log("saveSynth");
       var settings = {};
 
       settings.name = $scope.settings.name;
@@ -208,7 +207,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       var newName = window.prompt('Enter new synth name:', name);
       if (newName === null || newName.length === 0) return;
       $scope.settings.name = newName;
-      $scope.saveSynth();
+      $scope.saveSynth(true);
     };
 
     $scope.deleteSynth = function () {
