@@ -2151,7 +2151,7 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Jadegr\u00fcnder Farbstoff",
+      "de": "Jadegr\u00fcner Farbstoff",
       "en": "Celeste Green Dye",
       "fr": "Teinture vert c\u00e9leste",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3"
@@ -5616,7 +5616,7 @@
     "name": {
       "de": "Mythrit-Schl\u00e4gel",
       "en": "Mythrite Lump Hammer",
-      "fr": "Massette en mithril",
+      "fr": "Massette en mithrite",
       "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30e9\u30f3\u30d7\u30cf\u30f3\u30de\u30fc"
     }
   },
@@ -6698,5 +6698,201 @@
       "fr": "Marteau d'orf\u00e8vre en aurum regis",
       "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30b4\u30fc\u30eb\u30c9\u30b9\u30df\u30b9\u30cf\u30f3\u30de\u30fc"
     }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Barren",
+      "en": "Adamantite Ingot",
+      "fr": "Lingot d'adamant",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30a4\u30f3\u30b4\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Ausbalancierte Adamantium-Sense",
+      "en": "Balanced Adamantite Scythe",
+      "fr": "Faux en adamantium renforc\u00e9e",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30b5\u30a4\u30baDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Verst\u00e4rkte Adamantiumzange",
+      "en": "Double-jointed Adamantite Pliers",
+      "fr": "Tenailles en adamantium renforc\u00e9es",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30d7\u30e9\u30a4\u30e4\u30fcDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Waffenschmiedemeister-Hammer",
+      "en": "Forgemaster's Hammer",
+      "fr": "Marteau d'expert de la forge",
+      "ja": "\u30d5\u30a9\u30fc\u30b8\u30de\u30b9\u30bf\u30fc\u30cf\u30f3\u30de\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Verst\u00e4rkter Klauenhammer",
+      "en": "Fortified Claw Hammer",
+      "fr": "Marteau arrache-clou en adamantium renforc\u00e9",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30af\u30ed\u30fc\u30cf\u30f3\u30de\u30fcDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Kunstschmiedemeister-F\u00e4ustel",
+      "en": "Gemmaster's Mallet",
+      "fr": "Massette d'expert des gemmes",
+      "ja": "\u30b8\u30a7\u30e0\u30de\u30b9\u30bf\u30fc\u30de\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "R\u00fcstungsschmiedemeister-Treibhammer",
+      "en": "Hammermaster's Beetle",
+      "fr": "Mailloche d'expert de la fonderie",
+      "ja": "\u30cf\u30f3\u30de\u30fc\u30de\u30b9\u30bf\u30fc\u30cf\u30f3\u30de\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwerer Adamantium-M\u00f6rser",
+      "en": "Heavy Adamantite Mortar",
+      "fr": "Mortier en adamantium renforc\u00e9",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30e2\u30fc\u30bf\u30fcDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Lederermeister-Messer",
+      "en": "Hidemaster's Knife",
+      "fr": "Couteau d'expert de la peausserie",
+      "ja": "\u30cf\u30a4\u30c9\u30de\u30b9\u30bf\u30fc\u30ca\u30a4\u30d5"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schreinermeister-S\u00e4ge",
+      "en": "Millmaster's Saw",
+      "fr": "Scie d'expert de l'\u00e9tabli",
+      "ja": "\u30df\u30eb\u30de\u30b9\u30bf\u30fc\u30bd\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Polierte Adamantium-Feile",
+      "en": "Polished Adamantite File",
+      "fr": "Lime en adamantium renforc\u00e9e",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30d5\u30a1\u30a4\u30ebDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Spitze Adamantium-Ahle",
+      "en": "Sharpened Adamantite Awl",
+      "fr": "Al\u00eane en adamantium renforc\u00e9e",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30a2\u30a6\u30ebDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwerer Adamantium-Vorschlaghammer",
+      "en": "Weighted Adamantite Sledgehammer",
+      "fr": "Maillet en adamantium renforc\u00e9",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30e2\u30fc\u30ebDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Umwickeltes Adamantium-K\u00fcchenmesser",
+      "en": "Wrapped Adamantite Culinary Knife",
+      "fr": "Couteau de cuisine en adamantium renforc\u00e9",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30af\u30ea\u30ca\u30ea\u30fc\u30ca\u30a4\u30d5DX"
+    },
+    "stars": 2
   }
 ]

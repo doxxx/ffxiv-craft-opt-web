@@ -1904,7 +1904,7 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Jadegr\u00fcnder Farbstoff",
+      "de": "Jadegr\u00fcner Farbstoff",
       "en": "Celeste Green Dye",
       "fr": "Teinture vert c\u00e9leste",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3"
@@ -2684,7 +2684,7 @@
     "level": 35,
     "maxQuality": 926,
     "name": {
-      "de": "Wald-Raumteiler",
+      "de": "Halbhoher Wald-Raumteiler",
       "en": "Glade Half Partition",
       "fr": "Demi-cloison sombrelin\u00e7oise",
       "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30cf\u30fc\u30d5\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3"
@@ -3024,7 +3024,7 @@
     "level": 40,
     "maxQuality": 1025,
     "name": {
-      "de": "Oasen-Raumteiler",
+      "de": "Halbhoher Oasen-Raumteiler",
       "en": "Oasis Half Partition",
       "fr": "Demi-cloison thanalanaise",
       "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30cf\u30fc\u30d5\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3"
@@ -5405,6 +5405,20 @@
     "level": 160,
     "maxQuality": 4188,
     "name": {
+      "de": "Gordischer Schreibtisch",
+      "en": "Gordian Bureau",
+      "fr": "Secr\u00e9taire gordien",
+      "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u66f8\u673a"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
       "de": "Mogry-Kronleuchter",
       "en": "Magnificent Mogdelier",
       "fr": "Lustre mog",
@@ -5425,5 +5439,103 @@
       "ja": "\u62db\u304d\u30ab\u30fc\u30d0\u30f3\u30af\u30eb"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Astralbirken-Armilla",
+      "en": "Astral Birch Armillae",
+      "fr": "Armilles en bouleau astral",
+      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30a2\u30eb\u30df\u30e9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Astralbirken-Bauholz",
+      "en": "Astral Birch Lumber",
+      "fr": "Madrier de bouleau astral",
+      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u6750"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Astralbirken-Halskette",
+      "en": "Astral Birch Necklace",
+      "fr": "Collier en bouleau astral",
+      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30cd\u30c3\u30af\u30ec\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Astralbirken-Ring",
+      "en": "Astral Birch Ring",
+      "fr": "Bague en bouleau astral",
+      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30ea\u30f3\u30b0"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Astralbirken-Spinnrad",
+      "en": "Astral Birch Spinning Wheel",
+      "fr": "Rouet en bouleau astral",
+      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30fb\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Epischer gordischer Schreibtisch",
+      "en": "Savage Gordian Bureau",
+      "fr": "Secr\u00e9taire gordien ornement\u00e9",
+      "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u66f8\u673a\u3010\u96f6\u5f0f\u3011"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Sonnenglimmer-Schleifrad",
+      "en": "Sun Mica Grinding Wheel",
+      "fr": "Meule en mica dor\u00e9",
+      "ja": "\u30b5\u30f3\u30de\u30a4\u30ab\u30fb\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+    },
+    "stars": 2
   }
 ]

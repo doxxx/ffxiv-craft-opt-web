@@ -2125,7 +2125,7 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Jadegr\u00fcnder Farbstoff",
+      "de": "Jadegr\u00fcner Farbstoff",
       "en": "Celeste Green Dye",
       "fr": "Teinture vert c\u00e9leste",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3"
@@ -8572,58 +8572,6 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "de": "Morion-Ring des Zielens",
-      "en": "Hardsilver Ring of Aiming",
-      "fr": "Bague de chasseur en mormorion",
-      "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
-    }
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 641,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 6042,
-    "name": {
-      "de": "Morion-Ring der Magie",
-      "en": "Hardsilver Ring of Casting",
-      "fr": "Bague d'incantateur en mormorion",
-      "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3\u30ad\u30e3\u30b9\u30bf\u30fc\u30ea\u30f3\u30b0"
-    }
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 641,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 6042,
-    "name": {
-      "de": "Morion-Ring der Verteidigung",
-      "en": "Hardsilver Ring of Fending",
-      "fr": "Bague de protecteur en mormorion",
-      "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ea\u30f3\u30b0"
-    }
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 641,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 6042,
-    "name": {
-      "de": "Morion-Ring der Heilung",
-      "en": "Hardsilver Ring of Healing",
-      "fr": "Bague de soigneur en mormorion",
-      "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3\u30d2\u30fc\u30e9\u30fc\u30ea\u30f3\u30b0"
-    }
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 641,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 6042,
-    "name": {
       "de": "Hartsilber-Stab",
       "en": "Hardsilver Staff",
       "fr": "B\u00e2ton en durargent",
@@ -8641,6 +8589,58 @@
       "en": "Mormorion",
       "fr": "Mormorion",
       "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Morion-Ring des Zielens",
+      "en": "Mormorion Ring of Aiming",
+      "fr": "Bague de chasseur en mormorion",
+      "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Morion-Ring der Magie",
+      "en": "Mormorion Ring of Casting",
+      "fr": "Bague d'incantateur en mormorion",
+      "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3\u30ad\u30e3\u30b9\u30bf\u30fc\u30ea\u30f3\u30b0"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Morion-Ring der Verteidigung",
+      "en": "Mormorion Ring of Fending",
+      "fr": "Bague de protecteur en mormorion",
+      "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ea\u30f3\u30b0"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "de": "Morion-Ring der Heilung",
+      "en": "Mormorion Ring of Healing",
+      "fr": "Bague de soigneur en mormorion",
+      "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3\u30d2\u30fc\u30e9\u30fc\u30ea\u30f3\u30b0"
     }
   },
   {
@@ -9930,5 +9930,145 @@
       "ja": "\u96f2\u795e\u30d3\u30b9\u30de\u30eb\u30af\u306e\u970a\u6cc9"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "K\u00f6nigsgold-Stirnreif der Magie",
+      "en": "Aurum Regis Circlet of Casting",
+      "fr": "Diad\u00e8me d'incantateur en aurum regis",
+      "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30fc\u30af\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "K\u00f6nigsgold-Krone der Heilung",
+      "en": "Aurum Regis Crown of Healing",
+      "fr": "Couronne de soigneur en aurum regis",
+      "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30af\u30e9\u30a6\u30f3"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "K\u00f6nigsgold-Ohrringe des Handwerks",
+      "en": "Aurum Regis Earrings of Crafting",
+      "fr": "Pendants d'oreilles des cr\u00e9ations en aurum regis",
+      "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30d4\u30a2\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "K\u00f6nigsgold-Ohrringe des Eifers",
+      "en": "Aurum Regis Earrings of Gathering",
+      "fr": "Boucles d'oreilles des ressources en aurum regis",
+      "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30d4\u30a2\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "K\u00f6nigsgold-Barren",
+      "en": "Aurum Regis Ingot",
+      "fr": "Lingot d'aurum regis",
+      "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30a4\u30f3\u30b4\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schneidermeister-Nadel",
+      "en": "Boltmaster's Needle",
+      "fr": "Aiguille d'expert des \u00e9toffes",
+      "ja": "\u30dc\u30eb\u30c8\u30de\u30b9\u30bf\u30fc\u30cb\u30fc\u30c9\u30eb"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Labormeister-Brille",
+      "en": "Cauldronmaster's Spectacles",
+      "fr": "Lunettes d'expert des mixtures",
+      "ja": "\u30b3\u30eb\u30c9\u30ed\u30f3\u30de\u30b9\u30bf\u30fc\u30e2\u30ce\u30af\u30eb"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Waffenschmiedemeister-Brille",
+      "en": "Forgemaster's Goggles",
+      "fr": "Lunettes d'expert de la forge",
+      "ja": "\u30d5\u30a9\u30fc\u30b8\u30de\u30b9\u30bf\u30fc\u30b4\u30fc\u30b0\u30eb"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Kunstschmiedemeister-Ringb\u00e4nder",
+      "en": "Gemmaster's Chaplets",
+      "fr": "Chapelets d'expert des gemmes",
+      "ja": "\u30b8\u30a7\u30e0\u30de\u30b9\u30bf\u30fc\u30c1\u30e3\u30d7\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Kunstschmiedemeister-Diadem",
+      "en": "Gemmaster's Coronal",
+      "fr": "Parure de front d'expert des gemmes",
+      "ja": "\u30b8\u30a7\u30e0\u30de\u30b9\u30bf\u30fc\u30b3\u30ed\u30ca"
+    },
+    "stars": 2
   }
 ]

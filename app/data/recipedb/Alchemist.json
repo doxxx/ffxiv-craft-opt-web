@@ -1501,7 +1501,7 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Jadegr\u00fcnder Farbstoff",
+      "de": "Jadegr\u00fcner Farbstoff",
       "en": "Celeste Green Dye",
       "fr": "Teinture vert c\u00e9leste",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3"
@@ -4847,7 +4847,7 @@
     "maxQuality": 4561,
     "name": {
       "de": "Azurblaue Zaubertinte",
-      "en": "Deep Blue Enchanted Ink",
+      "en": "Deep-blue Enchanted Ink",
       "fr": "Encre azur enchant\u00e9e",
       "ja": "\u7d3a\u78a7\u306e\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     }
@@ -4860,7 +4860,7 @@
     "maxQuality": 4561,
     "name": {
       "de": "Moosgr\u00fcne Zaubertinte",
-      "en": "Deep Green Enchanted Ink",
+      "en": "Deep-green Enchanted Ink",
       "fr": "Encre viride enchant\u00e9e",
       "ja": "\u7fe0\u7dd1\u306e\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     }
@@ -4873,7 +4873,7 @@
     "maxQuality": 4561,
     "name": {
       "de": "Scharlachrote Zaubertinte",
-      "en": "Deep Red Enchanted Ink",
+      "en": "Deep-red Enchanted Ink",
       "fr": "Encre \u00e9carlate enchant\u00e9e",
       "ja": "\u6df1\u7dcb\u306e\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     }
@@ -5343,7 +5343,7 @@
     "maxQuality": 8377,
     "name": {
       "de": "Azurblaue Starkzauber-Tinte",
-      "en": "Superior Deep Blue Enchanted Ink",
+      "en": "Superior Deep-blue Enchanted Ink",
       "fr": "Encre azur enchant\u00e9e de haute qualit\u00e9",
       "ja": "\u7d3a\u78a7\u306e\u30cf\u30a4\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     },
@@ -5357,7 +5357,7 @@
     "maxQuality": 8377,
     "name": {
       "de": "Moosgr\u00fcne Starkzauber-Tinte",
-      "en": "Superior Deep Green Enchanted Ink",
+      "en": "Superior Deep-green Enchanted Ink",
       "fr": "Encre viride enchant\u00e9e de haute qualit\u00e9",
       "ja": "\u7fe0\u7dd1\u306e\u30cf\u30a4\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     },
@@ -5371,10 +5371,80 @@
     "maxQuality": 8377,
     "name": {
       "de": "Scharlachrote Starkzauber-Tinte",
-      "en": "Superior Deep Red Enchanted Ink",
+      "en": "Superior Deep-red Enchanted Ink",
       "fr": "Encre \u00e9carlate enchant\u00e9e de haute qualit\u00e9",
       "ja": "\u6df1\u7dcb\u306e\u30cf\u30a4\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Geschicklichkeit-L\u00f6sungsmittel II",
+      "en": "Grade 2 Dexterity Dissolvent",
+      "fr": "Dissolvant de dext\u00e9rit\u00e9 II",
+      "ja": "\u773c\u529b\u306e\u932c\u91d1\u6eb6\u5264G2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Intelligenz-L\u00f6sungsmittel II",
+      "en": "Grade 2 Intelligence Dissolvent",
+      "fr": "Dissolvant d'intelligence II",
+      "ja": "\u77e5\u529b\u306e\u932c\u91d1\u6eb6\u5264G2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Willenskraft-L\u00f6sungsmittel II",
+      "en": "Grade 2 Mind Dissolvent",
+      "fr": "Dissolvant d'esprit II",
+      "ja": "\u5fc3\u529b\u306e\u932c\u91d1\u6eb6\u5264G2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "St\u00e4rke-L\u00f6sungsmittel II",
+      "en": "Grade 2 Strength Dissolvent",
+      "fr": "Dissolvant de force II",
+      "ja": "\u525b\u529b\u306e\u932c\u91d1\u6eb6\u5264G2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Konstitution-L\u00f6sungsmittel II",
+      "en": "Grade 2 Vitality Dissolvent",
+      "fr": "Dissolvant de vitalit\u00e9 II",
+      "ja": "\u6d3b\u529b\u306e\u932c\u91d1\u6eb6\u5264G2"
+    },
+    "stars": 2
   }
 ]

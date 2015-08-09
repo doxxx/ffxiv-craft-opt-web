@@ -1592,7 +1592,7 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Jadegr\u00fcnder Farbstoff",
+      "de": "Jadegr\u00fcner Farbstoff",
       "en": "Celeste Green Dye",
       "fr": "Teinture vert c\u00e9leste",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3"
@@ -5436,6 +5436,32 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
+      "de": "Adamantium-K\u00f6rperpanzer der Verteidigung",
+      "en": "Adamantite Armor of Fending",
+      "fr": "Armure de protecteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30a2\u30fc\u30de\u30fc"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "de": "Adamantium-K\u00f6rperpanzer des Verst\u00fcmmelns",
+      "en": "Adamantite Armor of Maiming",
+      "fr": "Armure d'abatteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30a2\u30fc\u30de\u30fc"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
       "de": "Adamantium-Beinkleid der Verteidigung",
       "en": "Adamantite Chain Hose of Fending",
       "fr": "Fuseau de mailles de protecteur en adamantium",
@@ -5492,32 +5518,6 @@
       "en": "Adamantite Scutum",
       "fr": "Scutum en adamantium",
       "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30af\u30c8\u30a5\u30e0"
-    }
-  },
-  {
-    "baseLevel": 59,
-    "difficulty": 919,
-    "durability": 70,
-    "level": 148,
-    "maxQuality": 7339,
-    "name": {
-      "de": "Titan-K\u00f6rperpanzer der Verteidigung",
-      "en": "Titanium Armor of Fending",
-      "fr": "Armure de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30a2\u30fc\u30de\u30fc"
-    }
-  },
-  {
-    "baseLevel": 59,
-    "difficulty": 919,
-    "durability": 70,
-    "level": 148,
-    "maxQuality": 7339,
-    "name": {
-      "de": "Titan-K\u00f6rperpanzer des Verst\u00fcmmelns",
-      "en": "Titanium Armor of Maiming",
-      "fr": "Armure d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30a2\u30fc\u30de\u30fc"
     }
   },
   {
@@ -5644,7 +5644,7 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
-      "de": "Rittermantel[p] der Verteidigung",
+      "de": "Rittermantel der Verteidigung",
       "en": "Chivalric Coat of Fending",
       "fr": "Manteau de protecteur chevaleresque",
       "ja": "\u30b7\u30d0\u30eb\u30ea\u30fc\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b3\u30fc\u30c8"
@@ -5658,7 +5658,7 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
-      "de": "Rittermantel[p] des Verst\u00fcmmelns",
+      "de": "Rittermantel des Verst\u00fcmmelns",
       "en": "Chivalric Coat of Maiming",
       "fr": "Manteau d'abatteur chevaleresque",
       "ja": "\u30b7\u30d0\u30eb\u30ea\u30fc\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b3\u30fc\u30c8"
@@ -5676,6 +5676,20 @@
       "en": "Expanse Barding",
       "fr": "Barde de Bismarck",
       "ja": "\u30d3\u30b9\u30de\u30eb\u30af\u30fb\u30d0\u30fc\u30c9"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "de": "Gordischer Stuhl",
+      "en": "Gordian Chair",
+      "fr": "Assise gordienne",
+      "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u6905\u5b50"
     },
     "stars": 1
   },
@@ -5706,5 +5720,201 @@
       "ja": "\u9244\u5c0f\u4eba"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Dampf-Stampfer",
+      "en": "Steam-powered Gobwalker G-VII",
+      "fr": "Gobblind\u00e9 G-VII \u00e0 vapeur",
+      "ja": "VII\u53f7\u30b9\u30c1\u30fc\u30e0\u30a6\u30a9\u30fc\u30ab\u30fc"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Barbuta der Verteidigung",
+      "en": "Adamantite Barbut of Fending",
+      "fr": "Barbute de protecteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Barbuta des Verst\u00fcmmelns",
+      "en": "Adamantite Barbut of Maiming",
+      "fr": "Barbute d'abatteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Barren",
+      "en": "Adamantite Ingot",
+      "fr": "Lingot d'adamant",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30a4\u30f3\u30b4\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Plattenr\u00fcstung der Verteidigung",
+      "en": "Adamantite Pauldroncoat of Fending",
+      "fr": "Manteau de protecteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b3\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Plattenr\u00fcstung des Verst\u00fcmmelns",
+      "en": "Adamantite Pauldroncoat of Maiming",
+      "fr": "Manteau d'abatteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30b3\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Sollerets der Verteidigung",
+      "en": "Adamantite Sollerets of Fending",
+      "fr": "Solerets de protecteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Sollerets des Verst\u00fcmmelns",
+      "en": "Adamantite Sollerets of Maiming",
+      "fr": "Solerets d'abatteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Unterarmschienen der Verteidigung",
+      "en": "Adamantite Vambraces of Fending",
+      "fr": "Canons d'avant-bras de protecteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Adamantium-Unterarmschienen des Verst\u00fcmmelns",
+      "en": "Adamantite Vambraces of Maiming",
+      "fr": "Canons d'avant-bras d'abatteur en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Labormeister-Destillierkolben",
+      "en": "Cauldronmaster's Alembic",
+      "fr": "Alambic d'expert des mixtures",
+      "ja": "\u30b3\u30eb\u30c9\u30ed\u30f3\u30de\u30b9\u30bf\u30fc\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Feinschmeckermeister-Bratpfanne",
+      "en": "Galleymaster's Frypan",
+      "fr": "Po\u00eale d'expert des fourneaux",
+      "ja": "\u30ac\u30ea\u30fc\u30de\u30b9\u30bf\u30fc\u30d5\u30e9\u30a4\u30d1\u30f3"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "R\u00fcstungsschmiedemeister-Visier",
+      "en": "Hammermaster's Visor",
+      "fr": "Visi\u00e8re d'expert de la fonderie",
+      "ja": "\u30cf\u30f3\u30de\u30fc\u30de\u30b9\u30bf\u30fc\u30d0\u30a4\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Epischer gordischer Stuhl",
+      "en": "Savage Gordian Chair",
+      "fr": "Assise gordienne ornement\u00e9e",
+      "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u6905\u5b50\u3010\u96f6\u5f0f\u3011"
+    },
+    "stars": 2
   }
 ]
