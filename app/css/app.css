@@ -170,6 +170,7 @@ legend small > .light {
 }
 
 .simulator-status td.bar {
+  width: 70%;
 }
 
 .simulator-status td.bar .progress {
@@ -180,11 +181,8 @@ legend small > .light {
 }
 
 .simulator-status td.value {
+  width: 30%;
   text-align: right;
-  /*
-  min-width: 100px;
-  width: 100px;
-  */
   font-size: larger;
 }
 

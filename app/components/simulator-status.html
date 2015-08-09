@@ -2,10 +2,10 @@
   <div class="span3">
     <table>
       <tr><td>Durability</td></tr>
-      <tr><td class="value">{{status.state.durability}}/{{recipe.durability}}</td></tr>
+      <tr><td class="value">{{durability}}/{{recipe.durability}}</td></tr>
       <tr><td>&nbsp;</td></tr>
       <tr><td>Condition</td></tr>
-      <tr><td class="value">&nbsp;{{status.state.condition}}</td></tr>
+      <tr><td class="value">&nbsp;{{condition}}</td></tr>
       <tr><td>&nbsp;</td></tr>
       <tr><td>&nbsp;</td></tr>
     </table>
@@ -14,25 +14,25 @@
     <table>
       <tr><td>Progress</td></tr>
       <tr>
-        <td class="bar" colspan="5"><progressbar value="status.state.progress / recipe.difficulty * 100"></progressbar></td>
-        <td class="value">{{status.state.progress}} / {{recipe.difficulty}}</td>
+        <td class="bar" colspan="5"><progressbar value="progressPercent"></progressbar></td>
+        <td class="value">{{progress}} / {{recipe.difficulty}}</td>
       </tr>
       <tr><td>Quality</td></tr>
       <tr>
-        <td class="bar" colspan="5"><progressbar value="status.state.quality / recipe.maxQuality * 100"></progressbar></td>
-        <td class="value">{{status.state.quality}} / {{recipe.maxQuality}}</td>
+        <td class="bar" colspan="5"><progressbar value="qualityPercent"></progressbar></td>
+        <td class="value">{{quality}} / {{recipe.maxQuality}}</td>
       </tr>
       <tr><td>CP</td></tr>
       <tr>
-        <td class="bar" colspan="5"><progressbar value="status.state.cp / crafter.cp * 100"></progressbar></td>
-        <td class="value">{{status.state.cp}} / {{crafter.cp}}</td>
+        <td class="bar" colspan="5"><progressbar value="cpPercent"></progressbar></td>
+        <td class="value">{{cp}} / {{crafter.cp}}</td>
       </tr>
       <tr>
         <td>HQ</td>
-        <td class="value">{{status.state.hqPercent}}%</td>
+        <td class="value">{{hqPercent}}%</td>
         <td>&nbsp;</td>
         <td>Reliability</td>
-        <td class="value">{{status.state.successPercent}}%</td>
+        <td class="value">{{successPercent | number: 0}}%</td>
         <td>&nbsp;</td>
       </tr>
     </table>
