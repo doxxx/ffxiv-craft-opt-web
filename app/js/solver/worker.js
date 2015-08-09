@@ -14,21 +14,30 @@ importScripts('easimple.js');
 var state;
 
 self.onmessage = function(e) {
-  if (e.data.start) {
-    start(e.data.start);
-  }
-  else if (e.data == 'resume') {
-    if (state.gen >= state.maxGen) {
-      state.maxGen += state.settings.solver.generations;
+  try {
+    if (e.data.start) {
+      start(e.data.start);
     }
-    state.logOutput.clear();
-    runOneGen();
-  }
-  else if (e.data == 'rungen') {
-    runOneGen();
-  }
-  else if (e.data == 'finish') {
-    finish();
+    else if (e.data == 'resume') {
+      if (state.gen >= state.maxGen) {
+        state.maxGen += state.settings.solver.generations;
+      }
+      state.logOutput.clear();
+      runOneGen();
+    }
+    else if (e.data == 'rungen') {
+      runOneGen();
+    }
+    else if (e.data == 'finish') {
+      finish();
+    }
+  } catch (ex) {
+    console.error(ex);
+    self.postMessage({
+      error: {
+        error: ex.toString()
+      }
+    })
   }
 };
 
