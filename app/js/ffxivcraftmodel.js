@@ -750,10 +750,7 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
 
     // Condition Evaluation
     var condQualityIncreaseMultiplier = 1;
-    if (!s.synth.useConditions) {
-        condQualityIncreaseMultiplier *= 1.0;
-    }
-    else if (s.condition === 'Excellent') {
+    if (s.condition === 'Excellent') {
         condQualityIncreaseMultiplier *= 4.0;
     }
     else if (s.condition === 'Good' ) {
@@ -819,12 +816,17 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
         s.condition = 'Normal';
     }
     else if (s.condition === 'Normal') {
-        var condRand = Math.random();
-        if (0 <= condRand && condRand < pExcellent) {
-            s.condition = 'Excellent';
-        }
-        else if (pExcellent <= condRand && condRand < (pExcellent + pGood)) {
-            s.condition = 'Good';
+        if (s.synth.useConditions) {
+            var condRand = Math.random();
+            if (0 <= condRand && condRand < pExcellent) {
+                s.condition = 'Excellent';
+            }
+            else if (pExcellent <= condRand && condRand < (pExcellent + pGood)) {
+                s.condition = 'Good';
+            }
+            else {
+                s.condition = 'Normal';
+            }
         }
         else {
             s.condition = 'Normal';
