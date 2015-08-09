@@ -601,10 +601,21 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
             return true;
         },
         pGoodOrExcellent: function () {
-            return ppGood + ppExcellent;
+            if (useConditions) {
+                return ppGood + ppExcellent;
+            }
+            else {
+                return 1;
+            }
+
         },
         pPoor: function () {
-            return ppPoor;
+            if (useConditions) {
+                return ppPoor;
+            }
+            else {
+                return 1;
+            }
         }
     };
 
