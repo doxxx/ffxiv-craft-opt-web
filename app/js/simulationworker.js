@@ -3,15 +3,25 @@ importScripts('ffxivcraftmodel.js');
 importScripts('seededrandom.js');
 
 self.onmessage = function(e) {
-  switch (e.data.type) {
-    case 'prob':
-      runProbablisticSim(e.data.settings);
-      break;
-    case 'montecarlo':
-      runMonteCarloSim(e.data.settings);
-      break;
-    default:
-      console.error("unexpected message: %O", e.data);
+  try {
+    switch (e.data.type) {
+      case 'prob':
+        runProbablisticSim(e.data.id, e.data.settings);
+        break;
+      case 'montecarlo':
+        runMonteCarloSim(e.data.id, e.data.settings);
+        break;
+      default:
+        console.error("unexpected message: %O", e.data);
+    }
+  } catch (ex) {
+    console.error(ex);
+    self.postMessage({
+      id: e.data.id,
+      error: {
+        error: ex.toString()
+      }
+    })
   }
 };
 
@@ -61,7 +71,7 @@ function setupSim(settings) {
   };
 }
 
-function runProbablisticSim(settings) {
+function runProbablisticSim(id, settings) {
   var sim = setupSim(settings);
 
   var logOutput = {
@@ -79,6 +89,7 @@ function runProbablisticSim(settings) {
   simSynth(sim.sequence, sim.startState, true, settings.debug, logOutput);
 
   self.postMessage({
+    id: id,
     success: {
       seed: sim.seed,
       sequence: settings.sequence,
@@ -87,7 +98,7 @@ function runProbablisticSim(settings) {
   });
 }
 
-function runMonteCarloSim(settings) {
+function runMonteCarloSim(id, settings) {
   var sim = setupSim(settings);
 
   var logOutput = {
@@ -121,6 +132,7 @@ function runMonteCarloSim(settings) {
   var violations = finalState.checkViolations();
 
   var result = {
+    id: id,
     success: {
       seed: sim.seed,
       sequence: settings.sequence,

@@ -9,23 +9,28 @@ var SimulationService = function($timeout) {
   worker.onmessage = function(e) {
     if (e.data.success) {
       self.$timeout(function() {
-        self.callbacks.success(e.data.success);
+        self.callbacks[e.data.id].success(e.data.success);
       });
     }
     else if (e.data.error) {
       self.$timeout(function() {
-        self.callbacks.error(e.data.error);
+        self.callbacks[e.data.id].error(e.data.error);
       });
     }
     else {
       console.error('unexpected message from simulation worker: %O', e.data);
-      self.$timeout(function() {
-        self.callbacks.error({log: '', error: 'unexpected message from simulation worker: ' + e.data});
-      });
+      if (e.data && e.data.id) {
+        self.$timeout(function() {
+          self.callbacks[e.data.id].error({log: '', error: 'unexpected message from simulation worker: ' + e.data});
+        });
+      }
     }
   };
 
   this.worker = worker;
+
+  this.currentId = 0;
+  this.callbacks = {};
 };
 
 SimulationService.$inject = ['$timeout'];
@@ -40,12 +45,15 @@ SimulationService.prototype.runMonteCarloSim = function(settings, success, error
     settings.recipe.startQuality = 0;
   }
 
-  this.callbacks = {
+  var id = this.nextId();
+
+  this.callbacks[id] = {
     success: success,
     error: error
   };
 
   this.worker.postMessage({
+    id: id,
     type: 'montecarlo',
     settings: settings
   });
@@ -61,15 +69,23 @@ SimulationService.prototype.runProbabilisticSim = function (settings, success, e
     settings.recipe.startQuality = 0;
   }
 
-  this.callbacks = {
+  var id = this.nextId();
+
+  this.callbacks[id] = {
     success: success,
     error: error
   };
 
   this.worker.postMessage({
+    id: id,
     type: 'prob',
     settings: settings
   });
+};
+
+SimulationService.prototype.nextId = function () {
+  this.currentId += 1;
+  return this.currentId;
 };
 
 angular.module('ffxivCraftOptWeb.services.simulator', []).

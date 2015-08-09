@@ -104,7 +104,10 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     probabilistic: {
       logText: ''
     },
-    running: false
+    running: false,
+    state: null,
+    error: null,
+    sequence: null
   };
 
   $scope.$on('simulation.needs.update', function () {
