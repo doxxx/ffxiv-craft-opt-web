@@ -13,7 +13,7 @@
   </div>
   <div class="sequence well well-small">
     <div ng-show="pageState.solverStatus.running">
-      <p>Status: <simulator-status class="solver-status" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status></p>
+      <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
       <progressbar class="progress-striped active"
                    animate="false"
                    value="pageState.solverStatus.generationsCompleted/pageState.solverStatus.maxGenerations*100">
@@ -21,7 +21,7 @@
       </progressbar>
     </div>
     <div ng-show="!pageState.solverStatus.running">
-      <p>Status: <simulator-status class="solver-status" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status></p>
+      <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
       <div ng-class="{'disabled-action-list': pageState.solverStatus.sequence.equals(sequence)}">
         <action-sequence cls="recipe.cls" actions="pageState.solverStatus.sequence" action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
       </div>

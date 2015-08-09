@@ -6,6 +6,7 @@ angular.module('ffxivCraftOptWeb.components')
       restrict: 'E',
       templateUrl: 'components/simulator-status.html',
       scope: {
+        crafter: '=',
         recipe: '=',
         status: '=',
         valid: '&'

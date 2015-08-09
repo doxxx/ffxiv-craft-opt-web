@@ -234,8 +234,10 @@ function finish() {
         cp: finalState.cpState,
         progress: finalState.progressState,
         successPercent: mcSimResult.successPercent,
+        hqPercent: hqPercentFromQuality(finalState.qualityState / state.settings.recipe.maxQuality * 100),
         feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
-        violations: violations
+        violations: violations,
+        condition: finalState.condition
       },
       bestSequence: actionSequenceToShortNames(best)
     }
@@ -257,8 +259,10 @@ function postProgress(gen, maxGen, best, synthNoConditions) {
         durability: currentState.durabilityState,
         cp: currentState.cpState,
         progress: currentState.progressState,
+        hqPercent: hqPercentFromQuality(currentState.qualityState / synthNoConditions.recipe.maxQuality * 100),
         feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
-        violations: violations
+        violations: violations,
+        condition: currentState.condition
       },
       bestSequence: actionSequenceToShortNames(best)
     }

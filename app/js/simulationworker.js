@@ -117,6 +117,9 @@ function runMonteCarloSim(settings) {
   // Don't use conditions for final state to avoid random results
   var finalState = MonteCarloSequence(sim.sequence, sim.startStateNoConditions, true, false, false, false, logOutput);
 
+
+  var violations = finalState.checkViolations();
+
   var result = {
     success: {
       seed: sim.seed,
@@ -128,7 +131,10 @@ function runMonteCarloSim(settings) {
         cp: finalState.cpState,
         progress: finalState.progressState,
         successPercent: mcSimResult.successPercent,
-        violations: finalState.checkViolations()
+        hqPercent: hqPercentFromQuality(finalState.qualityState / settings.recipe.maxQuality * 100),
+        feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
+        violations: violations,
+        condition: finalState.condition
       }
     }
   };
