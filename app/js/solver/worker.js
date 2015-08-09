@@ -58,6 +58,8 @@ function start(settings) {
     Math.seed = seed;
   }
 
+  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(seed, settings.useConditions));
+
   var crafterActions = [];
 
   for (var i = 0; i < settings.crafter.actions.length; i++) {
@@ -76,6 +78,19 @@ function start(settings) {
     else if (a1.shortName > a2.shortName) return 1;
     else return 0;
   });
+
+  if (settings.debug) {
+    logOutput.write('Crafter Actions:\n');
+    for (var i = 0; i < crafterActions.length; i++) {
+      var action = crafterActions[i];
+      logOutput.write('  ');
+      logOutput.write(i);
+      logOutput.write(': ');
+      logOutput.write(action.shortName);
+      logOutput.write('\n');
+    }
+    logOutput.write('\n');
+  }
 
   var crafter = new Crafter(settings.recipe.cls,
                             settings.crafter.level,
@@ -150,8 +165,6 @@ function start(settings) {
   var hof = new yagal_tools.HallOfFame(1);
 
   var startTime = Date.now();
-
-  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(seed, synth.useConditions));
 
   var algorithm = ALGORITHMS[settings.algorithm];
   if (algorithm === undefined) {
