@@ -1005,10 +1005,33 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
     var avgQuality = getAverageProperty(finalStateTracker, 'qualityState', nRuns);
     var avgProgress = getAverageProperty(finalStateTracker, 'progressState', nRuns);
     var avgHqPercent = getAverageHqPercent(finalStateTracker);
+    var avgStats = {
+        durability: avgDurability,
+        cp: avgCp,
+        quality: avgQuality,
+        progress: avgProgress,
+        hqPercent: avgHqPercent
+    };
+
     var successRate = getSuccessRate(finalStateTracker);
 
     logger.log('%-2s %20s %-5s %-5s %-8s %-5s %-5s','', '', 'DUR', 'CP', 'QUA', 'PRG', 'HQ%');
     logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f', '##', 'Expected Value: ', avgDurability, avgCp, avgQuality, avgProgress, avgHqPercent);
+
+    var mdnDurability = getMedianProperty(finalStateTracker, 'durabilityState', nRuns);
+    var mdnCp = getMedianProperty(finalStateTracker, 'cpState', nRuns);
+    var mdnQuality = getMedianProperty(finalStateTracker, 'qualityState', nRuns);
+    var mdnProgress = getMedianProperty(finalStateTracker, 'progressState', nRuns);
+    var mdnHqPercent = getMedianHqPercent(finalStateTracker);
+    var mdnStats = {
+        durability: mdnDurability,
+        cp: mdnCp,
+        quality: mdnQuality,
+        progress: mdnProgress,
+        hqPercent: mdnHqPercent
+    };
+
+    logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f', '##', 'Median Value: ', mdnDurability, mdnCp, mdnQuality, mdnProgress, mdnHqPercent   );
 
     var minDurability = getMinProperty(finalStateTracker, 'durabilityState');
     var minCp = getMinProperty(finalStateTracker, 'cpState');
@@ -1016,13 +1039,23 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
     var minProgress = getMinProperty(finalStateTracker, 'progressState');
     var minQualityPercent = Math.min(synth.recipe.maxQuality, minQuality)/synth.recipe.maxQuality * 100;
     var minHqPercent = hqPercentFromQuality(minQualityPercent);
+    var minStats = {
+        durability: minDurability,
+        cp: minCp,
+        quality: minQuality,
+        progress: minProgress,
+        hqPercent: minHqPercent
+    };
 
     logger.log('%2s %-20s %5.0f %5.0f %8.1f %5.1f %5.1f', '##', 'Min Value: ', minDurability, minCp, minQuality, minProgress, minHqPercent);
 
     logger.log('\n%2s %-20s %5.1f %%', '##', 'Success Rate: ', successRate);
 
     return {
-      successPercent: successRate
+      successPercent: successRate,
+      average: avgStats,
+      median: mdnStats,
+      min: minStats
     }
 }
 
@@ -1044,7 +1077,27 @@ function getAverageProperty(stateArray, propName, nRuns) {
     return sumProperty / nSuccesses;
 }
 
+function getMedianProperty(stateArray, propName, nRuns) {
+    var listProperty = [];
+    for (var i=0; i < stateArray.length; i++) {
+        var chk = stateArray[i].checkViolations();
+        var progressOk = chk.progressOk;
+        var durabilityOk = chk.durabilityOk;
+        var cpOk = chk.cpOk;
+
+        if (progressOk && durabilityOk && cpOk) {
+            listProperty.push(stateArray[i][propName]);
+        }
+    }
+
+    listProperty.sort(function(a, b){return a-b});
+    var medianPropIdx = Math.ceil(listProperty.length/2);
+
+    return listProperty[medianPropIdx];
+}
+
 function getAverageHqPercent(stateArray) {
+    // Because quality can exceed maxQuality, the average will be skewed high and we cannot use average quality as the input to the hqPercentFromQuality function
     var nHQ = 0;
     var nSuccesses = 0;
     for (var i=0; i < stateArray.length; i++) {
@@ -1066,6 +1119,28 @@ function getAverageHqPercent(stateArray) {
     }
 
     return nHQ / nSuccesses * 100;
+}
+
+function getMedianHqPercent(stateArray) {
+    // Because quality can exceed maxQuality, the median will be skewed high and we cannot use median quality as the input to the hqPercentFromQuality function
+    var hqPercents = [];
+    for (var i=0; i < stateArray.length; i++) {
+        var chk = stateArray[i].checkViolations();
+        var progressOk = chk.progressOk;
+        var durabilityOk = chk.durabilityOk;
+        var cpOk = chk.cpOk;
+
+        if (progressOk && durabilityOk && cpOk) {
+            var qualityPercent = Math.min(stateArray[i].synth.recipe.maxQuality, stateArray[i]['qualityState']) / stateArray[i].synth.recipe.maxQuality * 100;
+            var hqProbability = hqPercentFromQuality(qualityPercent);
+            hqPercents.push(hqProbability);
+        }
+    }
+
+    hqPercents.sort(function(a, b){return a-b});
+    var medianPropIdx = Math.ceil(hqPercents.length/2);
+
+    return hqPercents[medianPropIdx];
 }
 
 function getSuccessRate(stateArray) {
