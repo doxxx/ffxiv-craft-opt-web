@@ -4,43 +4,22 @@
 
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
-  function ($scope, $rootScope, $http, $location, $modal, $document, $timeout, $filter, $translate, _getSolverServiceURL, _allClasses,
-    _actionGroups, _allActions, _actionsByName, _recipeLibrary, _localProfile, _simulator, _solver, _xivdbtooltips)
+  function ($scope, $rootScope, $modal, $translate, _allClasses, _actionGroups, _allActions, _actionsByName,
+    _localProfile, _xivdbtooltips)
   {
     // provide access to constants
     $scope.allClasses = _allClasses;
     $scope.actionGroups = _actionGroups;
+
+    // split class list into two groups
+    $scope.splitClasses = [_allClasses.slice(0, _allClasses.length/2),
+                           _allClasses.slice(_allClasses.length/2, _allClasses.length)];
 
     $scope.getActionImagePath = function(actionName, cls) {
       return _actionsByName[actionName].imagePaths[cls];
     };
 
     $scope.allActions = _actionsByName;
-    $scope.actionTooltips = {};
-
-    function makeTooltipsFetchCallback(cls, actionShortName) {
-      return function (data) {
-        $scope.actionTooltips[cls + actionShortName] = data;
-      };
-    }
-
-    function buildTooltipsCache(lang) {
-      for (var i = 0; i < _allActions.length; i++) {
-        var action = _allActions[i];
-        if (action.skillID) {
-          if (action.cls == 'All') {
-            for (var j = 0; j < _allClasses.length; j++) {
-              var cls = _allClasses[j];
-              _xivdbtooltips.fetch(lang, action.skillID[cls]).then(makeTooltipsFetchCallback(cls, action.shortName));
-            }
-          }
-          else {
-            _xivdbtooltips.fetch(lang, action.skillID[action.cls])
-              .then(makeTooltipsFetchCallback(action.cls, action.shortName));
-          }
-        }
-      }
-    }
 
     $scope.languages = {
       ja: '日本語',
@@ -56,43 +35,32 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.currentLang = function () {
       return $translate.use();
     };
-    
+
     $rootScope.$on('$translateChangeSuccess', function (event, data) {
-      buildTooltipsCache(data.language);
+      _xivdbtooltips.onLanguageChange(data.language);
+      $scope.$broadcast('$translateChangeSuccess', data);
     });
-    buildTooltipsCache($translate.use());
+    _xivdbtooltips.onLanguageChange($translate.use());
 
-    // non-persistent page states
-    $scope.navBarCollapsed = true;
-
-    $scope.recipeSearch = {
-      list: [],
-      selected: 0,
-      text: ''
-    };
-
-    $scope.simulatorStatus = {
-      logText: '',
-      state: null,
-      error: null,
-      running: false
-    };
-
-    $scope.solverStatus = {
-      running: false,
-      generationsCompleted: 0,
-      error: null
-    };
-
-    $scope.simulatorTabs = {
-      simulation: { active: true },
-      solver: { actie: false }
-    };
-
-    $scope.solverResult = {
-      logText: '',
-      sequence: [],
-      state: null
+    // non-persistent page state
+    $scope.pageState = {
+      navBarCollapsed: true,
+      options: {
+        tabs: {
+          simulator: {
+            active: false
+          },
+          solver: {
+            active: false
+          },
+          macro: {
+            active: false
+          },
+          debugging: {
+            active: true
+          }
+        }
+      }
     };
 
     $scope.onProfileLoaded = function () {
@@ -106,40 +74,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         saveLocalPageState($scope);
       });
 
-      function updateRecipeSearchList() {
-        $scope.recipeSearch.loading = true;
-        var p = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls);
-        p.then(function (recipes) {
-          $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text});
-          $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
-          $scope.recipeSearch.loading = false;
-        }, function (err) {
-          console.error("Failed to retrieve recipes:", err);
-          $scope.recipeSearch.list = [];
-          $scope.recipeSearch.selected = -1;
-          $scope.recipeSearch.loading = false;
-        });
-      }
-
-      $rootScope.$on('$translateChangeSuccess', function (event, data) {
-        updateRecipeSearchList();
-      });
-
-      $scope.$watch('recipeSearch.text', function () {
-        updateRecipeSearchList();
-      });
-
-      function saveAndRerunSim() {
-        saveLocalPageState($scope);
-        if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
-          $scope.runSimulation();
-        }
-        else {
-          $scope.simulatorStatus.state = null;
-          $scope.simulatorStatus.error = null;
-        }
-      }
-
       $scope.$watch('settings.name', function () {
         saveLocalPageState($scope);
       });
@@ -148,90 +82,100 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         saveLocalPageState($scope);
       });
 
-      $scope.$watchCollection('bonusStats', saveAndRerunSim);
-
-      for (var cls in $scope.crafter.stats) {
-        $scope.$watchCollection('crafter.stats.' + cls, saveAndRerunSim);
-        $scope.$watchCollection('crafter.stats.' + cls + '.actions', saveAndRerunSim);
-      }
-
-      $scope.$watchCollection('recipe', saveAndRerunSim);
-      $scope.$watch('recipe.cls', function () {
-        $scope.recipeSearch.text = '';
-        updateRecipeSearchList();
+      $scope.$watchCollection('bonusStats', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('bonusStats.changed', $scope.bonusStats);
+        $scope.$broadcast('simulation.needs.update');
       });
 
-      $scope.$watchCollection('sequence', saveAndRerunSim);
+      var crafterStatsChangedHandler = function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('crafter.stats.changed');
+        $scope.$broadcast('simulation.needs.update');
+      };
+      var crafterActionsChangedHandler = function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('crafter.actions.changed');
+        $scope.$broadcast('simulation.needs.update');
+      };
+      for (var cls in $scope.crafter.stats) {
+        $scope.$watchCollection('crafter.stats.' + cls, crafterStatsChangedHandler);
+        $scope.$watchCollection('crafter.stats.' + cls + '.actions', crafterActionsChangedHandler);
+      }
 
-      $scope.$watchCollection('sequenceSettings', saveAndRerunSim);
+      $scope.$watchCollection('recipe', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('recipe.changed', $scope.recipe);
+        $scope.$broadcast('simulation.needs.update');
+      });
 
-      $scope.$watchCollection('simulation', saveAndRerunSim);
+      $scope.$watch('recipe.cls', function () {
+        $scope.$broadcast('recipe.cls.changed', $scope.recipe.cls);
+      });
+
+      $scope.$watchCollection('sequence', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('sequence.changed', $scope.sequence);
+        $scope.$broadcast('simulation.needs.update');
+      });
+
+      $scope.$watchCollection('sequenceSettings', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('sequenceSettings.changed', $scope.sequenceSettings);
+        $scope.$broadcast('simulation.needs.update');
+      });
 
       $scope.$watchCollection('solver', function () {
         saveLocalPageState($scope);
+        $scope.$broadcast('solver.changed', $scope.solver);
       });
+
+      $scope.$watchCollection('macroOptions', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('macro.options.changed', $scope.macroOptions);
+      });
+
+      // Trigger initial simulation using newly loaded profile
+      $scope.$broadcast('simulation.needs.update');
     };
+
+    $scope.$on('sequence.editor.save', function (event, newSequence) {
+      $scope.sequence = angular.copy(newSequence);
+      $scope.$broadcast('simulation.needs.update');
+    });
 
     // data model interaction functions
-    $scope.importRecipe = function (name) {
-      var cls = $scope.recipe.cls;
-      var p = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls);
-      p.then(function (recipes) {
-        for (var i = 0; i < recipes.length; i++) {
-          var recipe = recipes[i];
-          if (recipe.name == name) {
-            $scope.recipe = angular.copy(recipe);
-            $scope.recipe.cls = cls;
-            $scope.recipe.startQuality = 0;
-          }
-        }
-      }, function (err) {
-        console.error("Failed to retrieve recipes:", err);
-      });
-    };
 
-    $scope.onSearchKeyPress = function (event) {
-      if (event.which == 13) {
-        event.preventDefault();
-        $scope.importRecipe($scope.recipeSearch.list[$scope.recipeSearch.selected].name);
-        event.target.parentNode.parentNode.closeMenu();
-      }
-    };
+    $scope.$on('recipe.selected', function (event, recipe) {
+      $scope.recipe = recipe;
+    });
 
-    $scope.onSearchKeyDown = function (event) {
-      if (event.which === 40) {
-        // down
-        $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected + 1, $scope.recipeSearch.list.length - 1);
-        document.getElementById('recipeSearchElement' + $scope.recipeSearch.selected).scrollIntoViewIfNeeded(false);
-      }
-      else if (event.which === 38) {
-        // up
-        $scope.recipeSearch.selected = Math.max($scope.recipeSearch.selected - 1, 0);
-        document.getElementById('recipeSearchElement' + $scope.recipeSearch.selected).scrollIntoViewIfNeeded(false);
-      }
-    };
+    //
+    // Saved Synth Management
+    //
 
     $scope.newSynth = function () {
       $scope.settings.name = '';
-      var newRecipe = newRecipeStats($scope);
-      newRecipe.cls = $scope.recipe.cls;
-      $scope.recipe = newRecipe;
+      $scope.recipe = newRecipeStats($scope.recipe.cls);
       $scope.bonusStats = newBonusStats();
+
+      $scope.$broadcast('synth.changed');
     };
 
     $scope.loadSynth = function (name) {
+      if ($scope.isSynthDirty()) {
+        if (!window.confirm('You have not saved the changes to your current sequence. Are you sure?')) {
+          return;
+        }
+      }
+
       var settings = $scope.profile.loadSynth(name);
 
-      $scope.bonusStats = settings.bonusStats;
+      $scope.bonusStats = extend(newBonusStats(), settings.bonusStats);
       $scope.recipe = settings.recipe;
       $scope.sequence = settings.sequence;
       $scope.sequenceSettings = settings.sequenceSettings;
       $scope.solver = settings.solver;
-      $scope.solverResult = {
-        logText: '',
-        sequence: [],
-        state: null
-      };
 
       // Backwards compatibility with version 3
       if (!$scope.sequenceSettings.reliabilityPercent) {
@@ -239,47 +183,58 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
 
       $scope.settings.name = name;
+
+      $scope.$broadcast('synth.changed');
     };
 
     $scope.saveSynth = function () {
+      // Hack for bug in angular-ui-bootstrap
+      // ng-disabled elements don't close their tooltip
+      if (!$scope.isSynthDirty()) {
+        return;
+      }
+
+      console.log("saveSynth");
       var settings = {};
 
       settings.name = $scope.settings.name;
-      settings.bonusStats = $scope.bonusStats;
+      settings.bonusStats = extend(newBonusStats(), $scope.bonusStats);
       settings.recipe = $scope.recipe;
       settings.sequence = $scope.sequence;
       settings.sequenceSettings = $scope.sequenceSettings;
       settings.solver = $scope.solver;
 
       $scope.profile.saveSynth($scope.settings.name, settings);
-      
+
       $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
     $scope.saveSynthAs = function () {
-      var name = prompt('Enter synth name:');
-      if (name === null || name.length === 0) return;
-      $scope.settings.name = name;
+      var name = $scope.settings.name;
+      if (name === undefined || name === '') {
+        name = $scope.recipe.name;
+      }
+      var newName = window.prompt('Enter new synth name:', name);
+      if (newName === null || newName.length === 0) return;
+      $scope.settings.name = newName;
       $scope.saveSynth();
     };
 
-    $scope.deleteSynth = function (name) {
-      if (confirm('Are you sure you want to delete the "' + name + '" synth?')) {
+    $scope.deleteSynth = function () {
+      var name = $scope.settings.name;
+      if (window.confirm('Are you sure you want to delete the "' + name + '" synth?')) {
         $scope.profile.deleteSynth(name);
-        if (name == $scope.settings.name) {
-          $scope.settings.name = '';
-        }
+        $scope.newSynth();
         $scope.savedSynthNames = $scope.profile.synthNames();
       }
     };
 
-    $scope.renameSynth = function (name) {
-      var newName = prompt('Enter new synth name:');
+    $scope.renameSynth = function () {
+      var name = $scope.settings.name;
+      var newName = window.prompt('Enter new synth name:', name);
       if (newName === null || newName.length === 0) return;
+      $scope.settings.name = newName;
       $scope.profile.renameSynth(name, newName);
-      if (name == $scope.settings.name) {
-        $scope.settings.name = newName;
-      }
       $scope.savedSynthNames = $scope.profile.synthNames();
     };
 
@@ -313,14 +268,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
     };
 
-    $scope.actionClasses = function (action, cls) {
-      return {
-        'selected-action': $scope.isActionSelected(action, cls),
-        'action-cross-class': $scope.isActionCrossClass(action, cls),
-        'invalid-action': !$scope.isActionSelected(action, cls)
-      }
-    };
-
     $scope.isActionSelected = function (action, cls) {
       return $scope.crafter &&
              $scope.crafter.stats &&
@@ -335,47 +282,14 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.isValidSequence = function (sequence, cls) {
-      return sequence !== undefined && sequence.every(function (action) {
+      return !sequence || sequence.every(function (action) {
         return $scope.isActionSelected(action, cls);
       });
     };
 
-    $scope.actionTooltip = function (action, cls) {
-      var info = _actionsByName[action];
-      var tooltipClass = info.cls;
-      if (tooltipClass == 'All') {
-        tooltipClass = cls;
-      }
-      var tooltip = $scope.actionTooltips[tooltipClass + action];
-      return tooltip ? tooltip : '';
-    };
-
-    $scope.sequenceActionTooltip = function (action, cls) {
-      return $scope.actionTooltip(action, cls);
-    };
-
-    $scope.uniqueCrossClassActions = function (sequence, cls) {
-      if (typeof sequence == 'undefined') return [];
-      var crossClassActions = sequence.filter(function (action) {
-        var actionClass = _actionsByName[action].cls;
-        return actionClass != 'All' && actionClass != cls;
-      });
-      return crossClassActions.unique();
-    };
-
-    $scope.toggleAction = function (action) {
-      var i = $scope.crafter.stats[$scope.crafter.cls].actions.indexOf(action);
-      if (i >= 0) {
-        $scope.crafter.stats[$scope.crafter.cls].actions.splice(i, 1);
-      }
-      else {
-        $scope.crafter.stats[$scope.crafter.cls].actions.push(action);
-      }
-    };
-
     $scope.showStatBonusesModal = function () {
       var modalInstance = $modal.open({
-        templateUrl: 'partials/stat-bonus-editor.html',
+        templateUrl: 'modals/stat-bonus-editor.html',
         controller: 'StatBonusEditorCtrl',
         windowClass: 'stat-bonus-editor',
         resolve: {
@@ -388,149 +302,24 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       });
     };
 
-    $scope.editSequence = function () {
+    $scope.showOptionsModal = function () {
       var modalInstance = $modal.open({
-        templateUrl: 'partials/sequence-editor.html',
-        controller: 'SequenceEditorCtrl',
-        windowClass: 'sequence-editor',
+        templateUrl: 'modals/options.html',
+        controller: 'OptionsController',
+        windowClass: 'options-modal',
         resolve: {
-          actionTooltips: function () { return $scope.actionTooltips; },
-          origSequence: function () { return $scope.sequence; },
-          recipe: function () { return $scope.recipe; },
-          crafterStats: function () { return $scope.crafter.stats[$scope.recipe.cls]; },
-          bonusStats: function () { return $scope.bonusStats; },
-          sequenceSettings: function () { return $scope.sequenceSettings; }
+          pageState: function () { return $scope.pageState; },
+          sequenceSettings: function () { return $scope.sequenceSettings; },
+          solver: function () { return $scope.solver; },
+          macroOptions: function () { return $scope.macroOptions; }
         }
       });
       modalInstance.result.then(function (result) {
-        $scope.sequence = angular.copy(result)
+        extend($scope, result);
       });
     };
 
-    $scope.showMacroModal = function () {
-      $modal.open({
-        templateUrl: 'partials/macro.html',
-        controller: 'MacroCtrl',
-        windowClass: 'macro-modal',
-        resolve: {
-          allActions: function () {
-            return _actionsByName;
-          },
-          sequence: function () {
-            return $scope.sequence;
-          }
-        }
-      });
-    };
-
-    $scope.useSolverResult = function () {
-      var seq = $scope.solverResult.sequence;
-      if (seq instanceof Array && seq.length > 0) {
-        $scope.sequence = $scope.solverResult.sequence;
-      }
-    };
-
-    // Web Service API
-
-    $scope.simulationSuccess = function (data) {
-      $scope.simulatorStatus.logText = data.log;
-      $scope.simulatorStatus.state = data.state;
-      $scope.simulatorStatus.error = null;
-      $scope.simulatorTabs.simulation.active = true;
-      $scope.simulatorStatus.running = false;
-    };
-
-    $scope.simulationError = function (data) {
-      $scope.simulatorStatus.logText = data.log;
-      $scope.simulatorStatus.logText += '\n\nError: ' + data.error;
-      $scope.simulatorStatus.error = data.error;
-      $scope.simulatorTabs.simulation.active = true;
-      $scope.simulatorStatus.running = false;
-    };
-
-    $scope.runSimulation = function () {
-      if ($scope.simulatorStatus.running) {
-        return;
-      }
-      var settings = {
-        crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-        recipe: $scope.recipe,
-        sequence: $scope.sequence,
-        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
-        useConditions: $scope.sequenceSettings.useConditions,
-        overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
-        debug: $scope.sequenceSettings.debug
-      };
-      if ($scope.sequenceSettings.specifySeed) {
-        settings.seed = $scope.sequenceSettings.seed;
-      }
-
-      $scope.simulatorStatus.running = true;
-      _simulator.start(settings, $scope.simulationSuccess, $scope.simulationError);
-    };
-
-    $scope.solverProgress = function (data) {
-      $scope.solverStatus.generationsCompleted = data.generationsCompleted;
-      $scope.solverStatus.maxGenerations = data.maxGenerations;
-      $scope.solverStatus.state = data.state;
-      $scope.solverStatus.bestSequence = data.bestSequence;
-    };
-
-    $scope.solverSuccess = function (data) {
-      $scope.solverResult.logText = data.log;
-      $scope.solverResult.sequence = data.bestSequence;
-      $scope.simulatorTabs.solver.active = true;
-      $scope.solverStatus.state = data.state;
-      $scope.solverStatus.running = false;
-    };
-
-    $scope.solverError = function (data) {
-      $scope.solverStatus.error = data.error;
-      $scope.solverResult.logText = data.log;
-      $scope.solverResult.logText += '\n\nError: ' + data.error;
-      $scope.solverResult.sequence = [];
-      $scope.simulatorTabs.solver.active = true;
-      $scope.solverStatus.running = false;
-      $scope.solverStatus.generationsCompleted = 0;
-    };
-
-    $scope.runSolver = function () {
-      $scope.solverStatus.error = null;
-      $scope.solverStatus.generationsCompleted = 0;
-      $scope.solverStatus.maxGenerations = $scope.solver.generations;
-      $scope.solverStatus.state = null;
-      $scope.solverResult.logText = "";
-      $scope.solverResult.sequence = [];
-      var settings = {
-        crafter: addBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-        recipe: $scope.recipe,
-        sequence: $scope.sequence,
-        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
-        useConditions: $scope.sequenceSettings.useConditions,
-        overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
-        solver: $scope.solver,
-        debug: $scope.sequenceSettings.debug
-      };
-      if ($scope.sequenceSettings.specifySeed) {
-        settings.seed = $scope.sequenceSettings.seed;
-      }
-      $scope.solverStatus.running = true;
-      _solver.start($scope.sequence, settings, $scope.solverProgress, $scope.solverSuccess, $scope.solverError);
-    };
-
-    $scope.resumeSolver = function() {
-      $scope.solverStatus.running = true;
-      _solver.resume();
-    };
-
-    $scope.stopSolver = function () {
-      _solver.stop();
-    };
-
+    // Final initialization
     loadLocalPageState($scope);
 
     $scope.profile = _localProfile;
@@ -562,7 +351,7 @@ function initPageStateDefaults($scope) {
 
   $scope.bonusStats = newBonusStats();
 
-  $scope.recipe = newRecipeStats($scope);
+  $scope.recipe = newRecipeStats($scope.crafter.cls);
 
   $scope.sequence = [];
 
@@ -578,9 +367,14 @@ function initPageStateDefaults($scope) {
   };
 
   $scope.solver = {
+    algorithm: 'eaSimple',
     penaltyWeight: 10000,
     population: 300,
     generations: 100
+  };
+
+  $scope.macroOptions = {
+    waitTime: 3
   };
 }
 
@@ -594,6 +388,7 @@ function loadLocalPageState_v2($scope) {
   extend($scope.recipe, state.recipe);
   extend($scope.sequenceSettings, state.sequenceSettings);
   extend($scope.solver, state.solver);
+  extend($scope.macroOptions, state.macroOptions || {});
 
   $scope.sequence = state.sequence;
 
@@ -658,41 +453,19 @@ function saveLocalPageState_v2($scope) {
     sequenceSettings: $scope.sequenceSettings,
     solver: $scope.solver,
     settingsName: $scope.settings.name,
-    crafterClass: $scope.crafter.cls
+    crafterClass: $scope.crafter.cls,
+    macroOptions: $scope.macroOptions
   };
 
   localStorage['pageStage_v2'] = JSON.stringify(state)
 }
 
-function saveLocalPageState_v1($scope) {
-  saveToLocalStorage('sections', $scope.sections);
-  saveToLocalStorage('settings.bonusStats', $scope.bonusStats);
-  saveToLocalStorage('settings.recipe', $scope.recipe);
-  saveToLocalStorage('settings.sequence', $scope.sequence);
-  saveToLocalStorage('settings.sequenceSettings', $scope.sequenceSettings);
-  saveToLocalStorage('settings.solver', $scope.solver);
-
-  localStorage['settingsName'] = $scope.settings.name;
-  localStorage['crafterClass'] = $scope.crafter.cls;
-
-  return true;
-}
-
-function saveToLocalStorage(name, value) {
-  if (value === undefined || value === null) {
-    console.error('Ignoring attempt to save an undefined or null value to local storage for setting: ' + name)
-  }
-  else {
-    localStorage[name] = JSON.stringify(value);
-  }
-}
-
 function extend(dest, src) {
   if (dest === null || dest === undefined) {
-    throw 'cannot extend null or undefined object';
+    dest = {};
   }
   if (src === null || src === undefined) {
-    throw 'cannot extend object with null or undefined object';
+    src = {};
   }
   for (var p in src) {
     if (src.hasOwnProperty(p)) {
@@ -711,6 +484,7 @@ function extend(dest, src) {
       }
     }
   }
+  return dest;
 }
 
 // attach the .equals method to Array's prototype to call it on any array
@@ -744,9 +518,9 @@ Array.prototype.unique = function () {
   })
 };
 
-function newRecipeStats($scope) {
+function newRecipeStats(cls) {
   return {
-    cls: $scope.crafter.cls,
+    cls: cls,
     level: 1,
     difficulty: 9,
     durability: 40,
@@ -759,15 +533,22 @@ function newBonusStats() {
   return {
     craftsmanship: 0,
     control: 0,
-    cp: 0
+    cp: 0,
+    startQuality: 0
   }
 }
 
-function addBonusStats(crafter, bonusStats) {
+function addCrafterBonusStats(crafter, bonusStats) {
   var newStats = angular.copy(crafter);
   newStats.craftsmanship += bonusStats.craftsmanship;
   newStats.control += bonusStats.control;
   newStats.cp += bonusStats.cp;
+  return newStats;
+}
+
+function addRecipeBonusStats(recipe, bonusStats) {
+  var newStats = angular.copy(recipe);
+  newStats.startQuality += bonusStats.startQuality;
   return newStats;
 }
 

@@ -13,12 +13,13 @@ function recipeForLang(lang, recipe) {
 
 var cache = {};
 
-function RecipeLibrary($http, $q) {
+function RecipeLibrary($http, $q, _localProfile) {
   this.$http = $http;
   this.$q = $q;
+  this._localProfile = _localProfile;
 }
 
-RecipeLibrary.$inject = ['$http', '$q'];
+RecipeLibrary.$inject = ['$http', '$q', '_localProfile'];
 
 var cache_key = function (lang, cls) {
   return lang + ":" + cls
@@ -31,11 +32,7 @@ RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
   if (!promise) {
     promise = this.$http.get('data/recipedb/' + cls + '.json').then(
       function (r) {
-        var result = [];
-        for (var i = 0; i < r.data.length; i++) {
-          var recipe = r.data[i];
-          result.push(recipeForLang(lang, recipe));
-        }
+        var result = r.data.map(recipeForLang.bind(this, lang));
         result.sort(function (a, b) {
           var diff = a.level - b.level;
           if (diff !== 0) return diff;
@@ -48,7 +45,6 @@ RecipeLibrary.prototype.recipesForClass = function(lang, cls) {
     );
     cache[key] = promise;
   }
-
   return promise;
 };
 
@@ -67,5 +63,5 @@ RecipeLibrary.prototype.recipeForClassByName = function (lang, cls, name) {
   );
 };
 
-angular.module('ffxivCraftOptWeb.services.recipelibrary', []).
+angular.module('ffxivCraftOptWeb.services.recipelibrary', ['ffxivCraftOptWeb.services.localprofile']).
   service('_recipeLibrary', RecipeLibrary);

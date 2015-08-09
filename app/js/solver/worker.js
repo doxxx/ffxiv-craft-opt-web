@@ -1,13 +1,17 @@
-importScripts('seededrandom.js');
-importScripts('../lib/string/String.js');
-importScripts('ffxivcraftmodel.js');
-importScripts('../lib/yagal/creator.js');
-importScripts('../lib/yagal/tools.js');
-importScripts('../lib/yagal/fitness.js');
-importScripts('../lib/yagal/toolbox.js');
-importScripts('../lib/yagal/algorithms.js');
+importScripts('../../lib/string/String.js');
 
-var state = {};
+importScripts('../../lib/yagal/creator.js');
+importScripts('../../lib/yagal/tools.js');
+importScripts('../../lib/yagal/fitness.js');
+importScripts('../../lib/yagal/toolbox.js');
+importScripts('../../lib/yagal/algorithms.js');
+
+importScripts('../seededrandom.js');
+importScripts('../ffxivcraftmodel.js');
+
+importScripts('easimple.js');
+
+var state;
 
 self.onmessage = function(e) {
   if (e.data.start) {
@@ -29,6 +33,16 @@ self.onmessage = function(e) {
 };
 
 function start(settings) {
+  var logOutput = {
+    log: '',
+    write: function(msg) {
+      logOutput.log += msg;
+    },
+    clear: function() {
+      logOutput.log = '';
+    }
+  };
+
   var seed = Math.seed;
   if (typeof settings.seed === 'number') {
     seed = settings.seed;
@@ -38,7 +52,14 @@ function start(settings) {
   var crafterActions = [];
 
   for (var i = 0; i < settings.crafter.actions.length; i++) {
-    crafterActions.push(AllActions[settings.crafter.actions[i]]);
+    var actionName = settings.crafter.actions[i];
+    var action = AllActions[actionName];
+    if (action === undefined) {
+      logOutput.write('Error: Action is unsupported: %s\n'.sprintf(actionName));
+    }
+    else {
+      crafterActions.push(AllActions[actionName]);
+    }
   }
 
   crafterActions.sort(function (a1, a2) {
@@ -64,7 +85,35 @@ function start(settings) {
   var sequence = [];
 
   for (var j = 0; j < settings.sequence.length; j++) {
-    sequence.push(AllActions[settings.sequence[j]]);
+    var actionName = settings.sequence[j];
+    var action = AllActions[actionName];
+    if (action !== undefined) {
+      sequence.push(action);
+    }
+  }
+
+  if (sequence.length === 0) {
+    sequence = heuristicSequenceBuilder(synth);
+
+    logOutput.write('No initial sequence provided; seeding with the following heuristic sequence:\n\n');
+
+    for (var i = 0; i < sequence.length; i++) {
+      var action = sequence[i];
+      logOutput.write(action.name);
+      if (i < sequence.length - 1) {
+        logOutput.write(' | ');
+      }
+    }
+
+    logOutput.write('\n\n');
+
+    var heuristcState = MonteCarloSequence(sequence, NewStateFromSynth(synth), true, false, false, false, logOutput);
+
+    var chk = heuristcState.checkViolations();
+    var feasibility = chk.progressOk && chk.durabilityOk && chk.cpOk && chk.trickOk && chk.reliabilityOk;
+
+    logOutput.write("Heuristic sequence feasibility:\n");
+    logOutput.write('Progress: %s, Durability: %s, CP: %s, Tricks: %s, Reliability: %s\n\n'.sprintf(chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk));
   }
 
   var seqMaxLength = Math.max(50, sequence.length);
@@ -83,11 +132,7 @@ function start(settings) {
   toolbox.register("randomLength", randomInt, seqMaxLength);
   toolbox.register("individual", yagal_tools.initRepeat, creator.Individual, toolbox.randomAction, toolbox.randomLength);
   toolbox.register("population", yagal_tools.initRepeat, Array, toolbox.individual);
-
   toolbox.register("evaluate", evalSeqWrapper, synth, settings.solver.penaltyWeight);
-  toolbox.register("mate", yagal_tools.cxRandomSubSeq, 0.5);
-  toolbox.register("mutate", yagal_tools.mutRandomSubSeq, 0.5, toolbox.randomActionSeq);
-  toolbox.register("select", yagal_tools.selTournament, 7);
 
   var pop = toolbox.population(settings.solver.population-1);
   var iniGuess = creator.Individual.apply(null, sequence);
@@ -95,25 +140,38 @@ function start(settings) {
 
   var hof = new yagal_tools.HallOfFame(1);
 
-  var logOutput = {
-    log: '',
-    write: function(msg) {
-      logOutput.log += msg;
-    },
-    clear: function() {
-      logOutput.log = '';
-    }
-  };
-
   var startTime = Date.now();
 
   logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(seed, synth.useConditions));
 
-  eaSimple_setup(pop, toolbox, hof);
+  var algorithm = ALGORITHMS[settings.algorithm];
+  if (algorithm === undefined) {
+    self.postMessage({
+      error: {
+        error: 'No such algorithm: ' + settings.algorithm,
+        log: logOutput.log
+      }
+    });
+  }
+
+  try {
+    algorithm.setup(pop, toolbox, hof);
+  } catch (e) {
+    logOutput.write('\n\n');
+    logOutput.write(e);
+    self.postMessage({
+      error: {
+        error: 'Solver setup failed',
+        log: logOutput.log
+      }
+    });
+    return;
+  }
 
   state = {
     settings: settings,
     logOutput: logOutput,
+    algorithm: algorithm,
     startTime: startTime,
     synth: synth,
     synthNoConditions: synthNoConditions,
@@ -129,7 +187,7 @@ function start(settings) {
 
 function runOneGen() {
   state.gen += 1;
-  state.pop = eaSimple_gen(state.pop, state.toolbox, 0.5, 0.2, state.hof);
+  state.pop = state.algorithm.gen(state.pop, state.toolbox, 0.5, 0.2, state.hof);
 
   postProgress(state.gen, state.maxGen, state.hof.entries[0], state.synthNoConditions);
 }
@@ -155,7 +213,7 @@ function finish() {
   if (debug) {
     logOutput.write("\nMonte Carlo Example");
     logOutput.write("\n===================\n");
-    MonteCarloSequence(best, startState, false, settings.overrideOnCondition, false, true, logOutput);
+    MonteCarloSequence(best, startState, false, state.settings.overrideOnCondition, false, true, logOutput);
   }
 
   // Don't use conditions for final state to avoid random results
@@ -164,6 +222,8 @@ function finish() {
   var elapsedTime = Date.now() - state.startTime;
 
   logOutput.write("\nElapsed time: %d ms".sprintf(elapsedTime));
+
+  var violations = finalState.checkViolations();
 
   self.postMessage({
     success: {
@@ -174,48 +234,22 @@ function finish() {
         cp: finalState.cpState,
         progress: finalState.progressState,
         successPercent: mcSimResult.successPercent,
-        violations: finalState.checkViolations()
+        hqPercent: hqPercentFromQuality(finalState.qualityState / state.settings.recipe.maxQuality * 100),
+        feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
+        violations: violations,
+        condition: finalState.condition
       },
       bestSequence: actionSequenceToShortNames(best)
     }
   });
 }
 
-function eaSimple_setup(population, toolbox, hof) {
-  // evaluate fitness of starting population
-  var fitnessesValues = toolbox.map(toolbox.evaluate, population);
-  for (var i = 0; i < population.length; i++) {
-    population[i].fitness.setValues(fitnessesValues[i]);
-  }
-
-  if (hof !== undefined) {
-    hof.update(population);
-  }
-}
-
-function eaSimple_gen(population, toolbox, cxpb, mutpb, hof) {
-  var offspring = toolbox.select(population.length, population);
-
-  offspring = yagal_algorithms.varAnd(offspring, toolbox, cxpb, mutpb);
-
-  // evaluate individuals with invalid fitness
-  var invalidInd = offspring.filter(isFitnessInvalid);
-  var fitnessesValues = toolbox.map(toolbox.evaluate, invalidInd);
-  for (var j = 0; j < invalidInd.length; j++) {
-    invalidInd[j].fitness.setValues(fitnessesValues[j]);
-  }
-
-  if (hof !== undefined) {
-    hof.update(offspring);
-  }
-
-  return offspring;
-}
-
 function postProgress(gen, maxGen, best, synthNoConditions) {
   var startState = NewStateFromSynth(synthNoConditions);
 
   var currentState = MonteCarloSequence(best, startState, true, false, false, false);
+  var violations = currentState.checkViolations();
+
   self.postMessage({
     progress: {
       generationsCompleted: gen,
@@ -225,7 +259,10 @@ function postProgress(gen, maxGen, best, synthNoConditions) {
         durability: currentState.durabilityState,
         cp: currentState.cpState,
         progress: currentState.progressState,
-        violations: currentState.checkViolations()
+        hqPercent: hqPercentFromQuality(currentState.qualityState / synthNoConditions.recipe.maxQuality * 100),
+        feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
+        violations: violations,
+        condition: currentState.condition
       },
       bestSequence: actionSequenceToShortNames(best)
     }

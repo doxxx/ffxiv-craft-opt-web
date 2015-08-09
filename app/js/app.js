@@ -2,8 +2,8 @@
 
 // Declare app level module which depends on filters, and services
 angular.module('ffxivCraftOptWeb', [
-  'ngTouch',
   'ui.bootstrap',
+  'ui.router',
   'pascalprecht.translate',
   'lvl.directives.dragdrop',
   'ffxivCraftOptWeb.services',
@@ -16,8 +16,38 @@ angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.services.xivdbtooltips',
   'ffxivCraftOptWeb.directives',
   'ffxivCraftOptWeb.filters',
-  'ffxivCraftOptWeb.controllers'
-])
+  'ffxivCraftOptWeb.controllers',
+  'ffxivCraftOptWeb.components'
+], function($stateProvider, $urlRouterProvider) {
+  $urlRouterProvider.otherwise('/simulator');
+  $stateProvider
+    .state('crafter-attributes', {
+      url: '/crafter-attributes',
+      templateUrl: 'views/crafter-attributes.html',
+      controller: 'CrafterStatsController'
+    })
+    .state('simulator', {
+      url: '/simulator',
+      templateUrl: 'views/simulator.html',
+      controller: 'SimulatorController'
+    })
+    .state('solver', {
+      url: '/solver',
+      templateUrl: 'views/solver.html',
+      controller: 'SolverController',
+      params: {
+        autoStart: null
+      }
+    })
+    .state('instructions', {
+      url: '/instructions',
+      templateUrl: 'views/instructions.html'
+    })
+    .state('about', {
+      url: '/about',
+      templateUrl: 'views/about.html'
+    })
+})
   .config(function($translateProvider) {
     // Define the English translations here so that they are immediately
     // available without requiring a network round-trip.

@@ -1,0 +1,50 @@
+<section>
+  <div class="page-header"><h1>Using the Simulator</h1></div>
+
+      <ol>
+        <li>Go to the <b>Crafter Details</b> section. <br/> <img src="img/instructions/CrafterDetails.png"/></li>
+
+        <li>Select a class whose details you want to update.</li>
+        <li>Enter your class' stats excluding food.</li>
+        <li>Go to the <b>Available Actions</b> section. <br/> <img src="img/instructions/AvailableActions.png"/></li>
+        <li>Select the (cross class) actions available to the class you selected in the previous step.</li>
+        <li>Repeat steps 2 to 5 as necessary.</li>
+        <li>Go to the <b>Synth Details</b> section. <br/> <img src="img/instructions/SynthDetails.png"/></li>
+        <li>Select the class of the recipe you want to simulate.</li>
+        <li>Select the recipe name from the <b>Recipe</b> dropdown to automatically fill out the recipe information.</li>
+        <li>If the recipe is not available from the dropdown, the information can be entered into the fields manually.</li>
+        <li>Go to the <b>Class Stats</b> section. <br/> <img src="img/instructions/StatBonuses.png"/></li>
+        <li>Click on the <b>Stat Bonuses</b> button to enter additional information about food boosts.</li>
+        <li>Go to the <b>Simulator</b> section. <br/> <img src="img/instructions/Simulator.png"/></li>
+        <li>Click the <b>Edit Sequence</b> button to change the action sequence. Only actions selected for this class in step 5 will be available. <br/> <img src="img/instructions/SequenceEditor.png"/></li>
+        <li>Click or drag and drop actions into the Sequence section and then click <b>Save</b>.</li>
+        <li>Click the <b>Simulate</b> button.</li>
+        <li>(Optional) The simulator settings can be edited by clicking on the <b>Options</b> section.</li>
+        <li>After the simulation is complete, go to the <b>Simulation Log</b> section. <br/> <img src="img/instructions/SimulationLog.png"/></li>
+        <li>Details of the simulation results will be displayed in the Simulation Log. <br/> Abbreviations:
+          <ul>
+            <li>DUR - remaining durability</li>
+            <li>CP - remaining control points</li>
+            <li>(E)QUA - the (expected) average quality</li>
+            <li>(E)PRG - the (expected) average progress</li>
+            <li>WAC - actions attemped after the synthesis has reached maximum progress or minimum durability (wasted actions)</li>
+          </ul>
+        </li>
+        <li>If you are happy with the results you can click on the <b>Macro</b> button in the <b>Simulator</b> section. This feature does not play well with Tricks of the Trade.</li>
+        <li>You can also save the recipe and sequence for later use by clicking the <b>Save</b> button in the <b>Synth Details</b> section.</li>
+      </ol>
+</section>
+
+<section>
+  <div class="page-header"><h1>Using the Solver</h1></div>
+
+      <p>You can also try using the solver to see if the sequence can be improved.
+
+      <ol>
+        <li>After running the simulator, go to the <b>Simulator</b> section.</li>
+        <li>Click on the <b>Solve</b> button. The computer will try random variations of your initial guess to see if it can improve on the sequence. This step is not guaranteed to return the same result every time, so try clicking a few times if no improvement can be found in the first try.</li>
+        <li>The best result will be displayed in the <b>Solver Result</b> section.</li>
+        <li>If the new result is preferred, click the <b>Use Solver Result</b> to replace your initial guess with the solver's result.</li>
+        <li>Go to the <b>Solver Log</b> to see a simulation of the result returned by the solver.</li>
+      </ol>
+</section>

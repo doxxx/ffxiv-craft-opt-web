@@ -1,0 +1,37 @@
+<h3 class="page-title">Solver</h3>
+<div class="row-fluid">
+  <div class="control-group">
+    <button class="btn btn-primary" ng-click="startSolver()" ng-show="!pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Start</button>
+    <button class="btn btn-primary" ng-click="stopSolver()" ng-show="pageState.solverStatus.running">Stop</button>
+    <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !pageState.solverStatus.state || !isValidSequence(pageState.solverStatus.sequence, recipe.cls) || pageState.solverStatus.error">Continue</button>
+    <button class="btn btn-danger" ng-click="resetSolver()" ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.state">Reset</button>
+    <button class="btn btn-warning"
+            ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.sequence || pageState.solverStatus.sequence.length == 0 || pageState.solverStatus.sequence.equals(sequence)"
+            ng-click="useSolverResult()">Edit Result in Simulator
+    </button>
+    <button class="btn" ng-click="showOptionsModal()">Options...</button>
+  </div>
+  <div ng-show="pageState.solverStatus.running">
+    <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
+    <progressbar class="progress-striped active"
+                 animate="false"
+                 value="pageState.solverStatus.generationsCompleted/pageState.solverStatus.maxGenerations*100">
+      {{pageState.solverStatus.generationsCompleted}}/{{pageState.solverStatus.maxGenerations}}
+    </progressbar>
+  </div>
+  <div ng-show="!pageState.solverStatus.running">
+    <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
+    <div ng-class="{'disabled-action-list': pageState.solverStatus.sequence.equals(sequence)}">
+      <action-sequence cls="recipe.cls" actions="pageState.solverStatus.sequence" action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
+    </div>
+  </div>
+  <tabset>
+    <tab heading="Solver Log" active="simulatorTabs.solver.active">
+      <pre>{{pageState.solverStatus.logText}}</pre>
+    </tab>
+    <tab active="logTabs.macro.active">
+      <tab-heading>Macro</tab-heading>
+      <macros sequence="pageState.solverStatus.sequence" options="macroOptions"></macros>
+    </tab>
+  </tabset>
+</div>

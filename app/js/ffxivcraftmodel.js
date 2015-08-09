@@ -1361,6 +1361,9 @@ function heuristicSequenceBuilder(synth) {
                 break;
             }
         }
+        else {
+            break;
+        }
     }
 
     sequence = subSeq2.concat(sequence);

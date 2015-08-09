@@ -10,17 +10,6 @@ angular.module('ffxivCraftOptWeb.directives', [])
     }
   ])
 
-  .directive('mySectionHeader', function () {
-    return {
-      restrict: 'E',
-      scope: {
-        isOpen: '=',
-        title: '@'
-      },
-      templateUrl: 'partials/section-header.html'
-    }
-  })
-
   .directive('selectOnClick', function () {
     // Linker function
     return function (scope, element, attrs) {
@@ -192,16 +181,7 @@ angular.module('ffxivCraftOptWeb.directives', [])
         }
       });
     };
-  })
-
-  .directive('simulatorStatus', function () {
-    return {
-      restrict: 'E',
-      templateUrl: 'partials/simulator-status.html',
-      scope: {
-        recipe: '=',
-        status: '=',
-        valid: '&'
-      }
-    }
   });
+
+// create this here for referencing by individual component js files
+angular.module('ffxivCraftOptWeb.components', []);

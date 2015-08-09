@@ -2,8 +2,7 @@
 
 angular.module('ffxivCraftOptWeb.controllers')
   .controller('SequenceEditorCtrl',
-  function ($scope, $modalInstance, $http, _actionGroups, _actionsByName, _simulator, actionTooltips,
-    origSequence, recipe, crafterStats, bonusStats, sequenceSettings)
+  function ($scope, $http, _actionGroups, _actionsByName, _simulator, _xivdbtooltips)
   {
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
@@ -12,14 +11,31 @@ angular.module('ffxivCraftOptWeb.controllers')
       return _actionsByName[actionName].imagePaths[cls];
     };
 
-    $scope.actionTooltips = actionTooltips;
-    $scope.sequence = angular.copy(origSequence);
-    $scope.availableActions = crafterStats.actions;
-    $scope.recipe = recipe;
-    $scope.simulationResult = {};
 
-    $scope.$watchCollection('sequence', function () {
-      $scope.simulate();
+    $scope.origSequence = [];
+    $scope.editSequence = [];
+    $scope.availableActions = [];
+    $scope.recipe = {};
+    $scope.bonusStats = {};
+    $scope.crafterStats = {};
+    $scope.sequenceSettings = {};
+    $scope.simulatorStatus = {};
+
+
+    $scope.$on('sequence.editor.init', function (event, origSequence, recipe, crafterStats, bonusStats, sequenceSettings) {
+      $scope.origSequence = origSequence;
+      $scope.editSequence = angular.copy(origSequence);
+      $scope.availableActions = crafterStats.actions;
+      $scope.recipe = recipe;
+      $scope.bonusStats = bonusStats;
+      $scope.crafterStats = crafterStats;
+      $scope.sequenceSettings = sequenceSettings;
+      $scope.simulatorStatus = {};
+
+      $scope.unwatchSequence = $scope.$watchCollection('editSequence', function () {
+        $scope.simulate();
+        $scope.$emit('sequence.changed', $scope.editSequence);
+      });
     });
 
     $scope.isActionSelected = function (action) {
@@ -39,22 +55,7 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.actionTooltip = function (action, cls) {
-      var info = $scope.allActions[action];
-      var tooltipClass = info.cls;
-      if (tooltipClass == 'All') {
-        tooltipClass = cls;
-      }
-      var tooltip = $scope.actionTooltips[tooltipClass + action];
-      if (tooltip) return tooltip;
-    };
-
-    $scope.sequenceActionTooltip = function (action, cls) {
-      var tooltip = $scope.actionTooltip(action, cls);
-      // TODO: Find some way to modify the tooltip to show it's unavailable
-      //if (!$scope.isActionSelected(action, cls)) {
-      //  tooltip += '<br/><b>[Action Not Available]</b>';
-      //}
-      return tooltip;
+      return _xivdbtooltips.actionTooltip(action, cls);
     };
 
     $scope.dropAction = function (dragEl, dropEl) {
@@ -66,7 +67,7 @@ angular.module('ffxivCraftOptWeb.controllers')
       if (newAction) {
 
         // insert new action into the drop position
-        $scope.sequence.splice(dropIndex, 0, newAction);
+        $scope.editSequence.splice(dropIndex, 0, newAction);
       }
       else {
         var dragIndex = parseInt(drag.attr('data-index'));
@@ -75,14 +76,14 @@ angular.module('ffxivCraftOptWeb.controllers')
         if (dragIndex == dropIndex) return;
 
         // insert dragged action into the drop position
-        $scope.sequence.splice(dropIndex, 0, $scope.sequence[dragIndex]);
+        $scope.editSequence.splice(dropIndex, 0, $scope.editSequence[dragIndex]);
 
         // remove dragged action from its original position
         if (dropIndex > dragIndex) {
-          $scope.sequence.splice(dragIndex, 1);
+          $scope.editSequence.splice(dragIndex, 1);
         }
         else {
-          $scope.sequence.splice(dragIndex + 1, 1);
+          $scope.editSequence.splice(dragIndex + 1, 1);
         }
       }
 
@@ -90,11 +91,11 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.addAction = function (action) {
-      $scope.sequence.push(action);
+      $scope.editSequence.push(action);
     };
 
     $scope.removeAction = function (index) {
-      $scope.sequence.splice(index, 1)
+      $scope.editSequence.splice(index, 1)
     };
 
     $scope.isValidSequence = function (sequence, cls) {
@@ -104,60 +105,70 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.isSequenceDirty = function () {
-      return !angular.equals($scope.sequence, origSequence);
-    };
-
-    $scope.isSimulationResultOk = function () {
-      var state = $scope.simulationResult.state;
-      if (!state) return false;
-      return state.violations.cpOk && state.violations.durabilityOk && state.violations.progressOk;
+      return !angular.equals($scope.editSequence, $scope.origSequence);
     };
 
     $scope.simulate = function () {
-      if ($scope.simulationResult.running) {
+      if ($scope.simulatorStatus.running) {
         return;
       }
-      var settings = {
-        crafter: addBonusStats(crafterStats, bonusStats),
-        recipe: recipe,
-        sequence: $scope.sequence,
-        maxTricksUses: sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: sequenceSettings.maxMontecarloRuns
-      };
-      if (sequenceSettings.specifySeed) {
-        settings.seed = sequenceSettings.seed;
+
+      if ($scope.editSequence.length === 0) {
+        $scope.$emit('sequence.editor.simulation.empty');
+        return;
       }
 
-      $scope.simulationResult.running = true;
-      _simulator.start(settings, $scope.simulationSuccess, $scope.simulationError);
+      var settings = {
+        crafter: addCrafterBonusStats($scope.crafterStats, $scope.bonusStats),
+        recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+        sequence: $scope.editSequence,
+        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
+        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
+        useConditions: $scope.sequenceSettings.useConditions,
+        debug: $scope.sequenceSettings.debug
+      };
+
+      if ($scope.sequenceSettings.specifySeed) {
+        settings.seed = $scope.sequenceSettings.seed;
+      }
+
+      $scope.simulatorStatus.running = true;
+      $scope.$emit('sequence.editor.simulation.start', $scope.editSequence);
+      _simulator.runMonteCarloSim(settings, $scope.simulationSuccess, $scope.simulationError);
     };
 
     $scope.simulationSuccess = function (data) {
-      $scope.simulationResult.state = data.state;
-      $scope.simulationResult.error = null;
-      $scope.simulationResult.running = false;
+      $scope.simulatorStatus.running = false;
+
+      data.sequence = $scope.editSequence;
+      $scope.$emit('sequence.editor.simulation.success', data);
     };
 
     $scope.simulationError = function (data) {
-      $scope.simulationResult.state = null;
-      $scope.simulationResult.error = data.error;
-      $scope.simulationResult.running = false;
+      $scope.simulatorStatus.running = false;
+
+      data.sequence = $scope.editSequence;
+      $scope.$emit('sequence.editor.simulation.error', data);
     };
 
     $scope.clear = function () {
-      $scope.sequence = [];
+      $scope.editSequence = [];
     };
 
     $scope.revert = function () {
-      $scope.sequence = angular.copy(origSequence);
+      $scope.editSequence = angular.copy($scope.origSequence);
     };
 
     $scope.save = function () {
-      $modalInstance.close($scope.sequence);
+      $scope.$emit('sequence.editor.save', $scope.editSequence);
+
+      $scope.unwatchSequence();
     };
 
     $scope.cancel = function () {
-      $modalInstance.dismiss('cancel');
+      $scope.$emit('sequence.editor.cancel');
+
+      $scope.unwatchSequence();
     }
   });
-

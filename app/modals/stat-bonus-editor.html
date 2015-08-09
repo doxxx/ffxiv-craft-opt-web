@@ -1,5 +1,5 @@
 <div class="modal-header">
-  <h3>Stat Bonuses</h3>
+  <h3>Temporary Bonuses</h3>
 </div>
 <div class="modal-body">
   <form class="form-horizontal" name="statsForm">
@@ -20,6 +20,12 @@
         <label class="control-label">CP</label>
         <div class="controls">
           <input class="input-small" type="number" name="cp" ng-model="bonusStats.cp" min="0" required/>
+        </div>
+      </div>
+      <div class="control-group" ng-class="{error: !statsForm.startQuality.$valid}">
+        <label class="control-label">Start Quality</label>
+        <div class="controls">
+          <input class="input-small" type="number" name="startQuality" ng-model="bonusStats.startQuality" min="0" required/>
         </div>
       </div>
     </fieldset>
