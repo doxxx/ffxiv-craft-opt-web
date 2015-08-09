@@ -121,7 +121,7 @@
               <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">Revert</button>
               <button class="btn btn-warning" ng-disabled="editSequence.length == 0" ng-click="clear()">Clear</button>
             </div>
-            <h5>Available Actions <small>(<a ui-sref="crafter-attributes">edit</a>)</small></h5>
+            <h5>Available Actions <small>(<a href="#" ng-click="goToCrafterAttributes()">edit</a>)</small></h5>
 
             <div class="action-table">
               <action-table cls="recipe.cls" action-classes="actionClasses" selectable="true" draggable="true"

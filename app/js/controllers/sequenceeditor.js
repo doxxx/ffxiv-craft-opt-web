@@ -2,7 +2,7 @@
 
 angular.module('ffxivCraftOptWeb.controllers')
   .controller('SequenceEditorCtrl',
-  function ($scope, $http, _actionGroups, _actionsByName, _simulator, _xivdbtooltips)
+  function ($scope, $http, $state, _actionGroups, _actionsByName, _simulator, _xivdbtooltips)
   {
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
@@ -170,5 +170,14 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.$emit('sequence.editor.cancel');
 
       $scope.unwatchSequence();
-    }
+    };
+
+    $scope.goToCrafterAttributes = function () {
+      if ($scope.isSequenceDirty()) {
+        if (!window.confirm("Abandon changes to sequence?")) {
+          return;
+        }
+      }
+      $state.go('crafter-attributes');
+    };
   });
