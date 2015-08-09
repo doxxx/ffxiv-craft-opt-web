@@ -22,10 +22,7 @@ var LocalProfileService = function(_allClasses) {
   // Upgrade existing synths with new settings
   for (name in this.synths) {
     var synth = this.synths[name];
-    if (synth.sequenceSettings.useConditions === undefined) {
-      synth.sequenceSettings.useConditions = true;
-      modified = true;
-    }
+    // Nothing to do here
   }
 
   if (localStorage['crafterStats']) {

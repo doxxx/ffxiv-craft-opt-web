@@ -174,13 +174,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.bonusStats = extend(newBonusStats(), settings.bonusStats);
       $scope.recipe = settings.recipe;
       $scope.sequence = settings.sequence;
-      $scope.sequenceSettings = settings.sequenceSettings;
-      $scope.solver = settings.solver;
-
-      // Backwards compatibility with version 3
-      if (!$scope.sequenceSettings.reliabilityPercent) {
-        $scope.sequenceSettings.reliabilityPercent = 100;
-      }
 
       $scope.settings.name = name;
 
@@ -201,8 +194,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       settings.bonusStats = extend(newBonusStats(), $scope.bonusStats);
       settings.recipe = $scope.recipe;
       settings.sequence = $scope.sequence;
-      settings.sequenceSettings = $scope.sequenceSettings;
-      settings.solver = $scope.solver;
 
       $scope.profile.saveSynth($scope.settings.name, settings);
 
@@ -251,8 +242,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       clean = clean && angular.equals(settings.bonusStats, $scope.bonusStats);
       clean = clean && angular.equals(settings.recipe, $scope.recipe);
       clean = clean && angular.equals(settings.sequence, $scope.sequence);
-      clean = clean && angular.equals(settings.sequenceSettings, $scope.sequenceSettings);
-      clean = clean && angular.equals(settings.solver, $scope.solver);
 
       return !clean;
     };
