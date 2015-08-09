@@ -36,6 +36,9 @@ angular.module('ffxivCraftOptWeb.components')
           $scope.successPercent = newState && newState.successPercent || 0;
         };
 
+        $scope.$watchCollection("crafter", update);
+        $scope.$watchCollection("recipe", update);
+        $scope.$watchCollection("status", update);
         $scope.$watchCollection("status.state", update);
 
         update();
