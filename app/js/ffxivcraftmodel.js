@@ -218,10 +218,11 @@ function EffectTracker() {
     this.countDowns = {};
 }
 
-function State(synth, step, action, durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition) {
+function State(synth, step, lastStep, action, durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition) {
     this.synth = synth;
     this.step = step;
-    this.action = action;
+    this.lastStep = lastStep;
+    this.action = action;   // the action leading to this State
     this.durabilityState = durabilityState;
     this.cpState = cpState;
     this.qualityState = qualityState;
@@ -241,8 +242,7 @@ function State(synth, step, action, durabilityState, cpState, qualityState, prog
 }
 
 State.prototype.clone = function () {
-    return new State(this.synth, this.step, this.action, this.durabilityState, this.cpState, this.qualityState, this.progressState, this.wastedActions, this.trickUses,
-                     this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition);
+    return new State(this.synth, this.step, this.lastStep, this.action, this.durabilityState, this.cpState, this.qualityState, this.progressState, this.wastedActions, this.trickUses, this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition);
 };
 
 State.prototype.checkViolations = function () {
@@ -285,6 +285,7 @@ State.prototype.checkViolations = function () {
 
 function NewStateFromSynth(synth) {
     var step = 0;
+    var lastStep = 0;
     var durabilityState = synth.recipe.durability;
     var cpState = synth.crafter.craftPoints;
     var qualityState = synth.recipe.startQuality;
@@ -296,7 +297,7 @@ function NewStateFromSynth(synth) {
     var effects = new EffectTracker();
     var condition = 'Normal';
 
-    return new State(synth, step, '', durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition);
+    return new State(synth, step, lastStep, '', durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition);
 }
 
 function ApplyModifiers(s, action, condition) {
@@ -560,6 +561,7 @@ function UpdateState(s, action, progressGain, qualityGain, durabilityCost, condi
     s.qualityState += qualityGain;
     s.durabilityState -= durabilityCost;
     s.cpState -= action.cpCost;
+    s.lastStep += 1;
 
     ApplySpecialActionEffects(s, action, condition);
     UpdateEffectCounters(s, action, condition, successProbability);
