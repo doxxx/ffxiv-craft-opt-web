@@ -1259,8 +1259,9 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
 function heuristicSequenceBuilder(synth) {
     var sequence = [];
-    var subSeq = [];
+    var subSeq1 = [];
     var subSeq2 = [];
+    var subSeq3 = [];
     var aa = AllActions;
 
     var cp = synth.crafter.craftPoints;
@@ -1281,7 +1282,7 @@ function heuristicSequenceBuilder(synth) {
     };
 
     var tryAction = function(actionName) {
-        return (hasAction(actionName) && cp >= aa[actionName].cpCost && dur + aa[actionName].durabilityCost >= 0);
+        return (hasAction(actionName) && cp >= aa[actionName].cpCost && dur - aa[actionName].durabilityCost >= 0);
     };
 
     var useAction = function(actionName) {
@@ -1313,22 +1314,20 @@ function heuristicSequenceBuilder(synth) {
         effCrafterLevel = LevelTable[synth.crafter.level];
     }
     var effRecipeLevel = synth.recipe.level;
+
     if ((effCrafterLevel < effRecipeLevel) && tryAction('ingenuity2')) {
-        pushAction(subSeq, 'ingenuity2');
+        pushAction(subSeq1, 'ingenuity2');
         if (Ing2RecipeLevelTable[effRecipeLevel]) {
-            effRecipeLevel = Ing2RecipeLevelTable[effRecipeLevel];
+            //effRecipeLevel = Ing2RecipeLevelTable[effRecipeLevel];
         }
     }
     else if ((effCrafterLevel < effRecipeLevel) && tryAction('ingenuity')) {
-        pushAction(subSeq, 'ingenuity')
+        pushAction(subSeq1, 'ingenuity')
         if (Ing1RecipeLevelTable[synth.recipe.level]) {
-            effRecipeLevel = Ing1RecipeLevelTable[effRecipeLevel];
+            //effRecipeLevel = Ing1RecipeLevelTable[effRecipeLevel];
         }
     }
-    var levelDifference = effCrafterLevel - effRecipeLevel;
 
-    // Determine base progress
-    var bProgressGain = synth.calculateBaseProgressIncrease(levelDifference, synth.crafter.craftsmanship, effCrafterLevel, effRecipeLevel);
     // If Careful Synthesis 1/2 is available, use it
     var preferredAction = 'basicSynth';
     if (hasAction('carefulSynthesis2')) {
@@ -1338,47 +1337,54 @@ function heuristicSequenceBuilder(synth) {
         preferredAction = 'carefulSynthesis';
     }
     else if (tryAction('steadyHand')) {
-        pushAction(sequence,'steadyHand');
+        pushAction(subSeq1,'steadyHand');
     }
 
+    // Determine base progress
+    var levelDifference = effCrafterLevel - effRecipeLevel;
+    var bProgressGain = synth.calculateBaseProgressIncrease(levelDifference, synth.crafter.craftsmanship, effCrafterLevel, effRecipeLevel);
     var progressGain =  bProgressGain;
     progressGain *= aa[preferredAction].progressIncreaseMultiplier;
     progressGain = Math.floor(progressGain);
+
     var nProgSteps = Math.ceil(synth.recipe.difficulty / progressGain);
-    var steps = 0
+    var steps = 0;
     // Final step first
     if (tryAction(preferredAction)) {
-        unshiftAction(subSeq, preferredAction);
+        pushAction(subSeq3, preferredAction);
         progress += progressGain;
         steps += 1;
     }
 
+    subSeq2 = [];
     while (progress < synth.recipe.difficulty && steps < nProgSteps) {
         // Don't want to increase progress at 5 durability unless we are able to complete the synth
         if (tryAction(preferredAction) && (dur >= 10)) {
-            unshiftAction(subSeq, preferredAction);
+            unshiftAction(subSeq2, preferredAction);
             progress += progressGain;
             steps += 1;
         }
         else if (synth.recipe.durability > 40 && tryAction('mastersMend2')) {
-            unshiftAction(subSeq, 'mastersMend2');
+            unshiftAction(subSeq2, 'mastersMend2');
             dur += 60;
         }
         else if (tryAction('manipulation')) {
-            unshiftAction(subSeq, 'manipulation');
+            unshiftAction(subSeq2, 'manipulation');
             dur += 30;
         }
         else if (tryAction('mastersMend')) {
-            unshiftAction(subSeq, 'mastersMend');
+            unshiftAction(subSeq2, 'mastersMend');
             dur += 30;
         }
         else {
             break;
         }
     }
-    sequence = sequence.concat(subSeq);
 
-    if (dur < 20) {
+    sequence = subSeq2.concat(subSeq3);
+    sequence = subSeq1.concat(sequence);
+
+    if (dur <= 20) {
         if (synth.recipe.durability > 40 && tryAction('mastersMend2')) {
             unshiftAction(sequence, 'mastersMend2');
             dur += 60;
@@ -1393,30 +1399,37 @@ function heuristicSequenceBuilder(synth) {
         }
     }
 
+    subSeq1 = [];
+    subSeq2 = [];
+    subSeq3 = [];
     /* Improve Quality
      -- Inner quiet at start
      -- Byregot's at end or other Inner Quiet consumer
     */
-    subSeq = [];
+
     // If we have inner quiet put it next
     if (tryAction('innerQuiet')) {
-        pushAction(subSeq, 'innerQuiet');
+        pushAction(subSeq1, 'innerQuiet');
     }
 
     preferredAction = 'basicTouch';
     // If we have steady hand 2 and hasty touch use that combo
     if (hasAction('hastyTouch') && tryAction('steadyHand2')) {
-        pushAction(subSeq, 'steadyHand2')
+        pushAction(subSeq1, 'steadyHand2')
         preferredAction = 'hastyTouch';
     }
+
     // else use steady hand + basic touch
     else if (tryAction('steadyHand') && cp >= aa.steadyHand.cpCost + aa.basicTouch.cpCost) {
-        pushAction(subSeq, 'steadyHand')
+        pushAction(subSeq1, 'steadyHand')
     }
+
     // ... and put in at least one quality improving action
-    if (hasAction(preferredAction)) {
-        pushAction(subSeq, preferredAction);
+    if (tryAction(preferredAction)) {
+        pushAction(subSeq2, preferredAction);
     }
+
+    subSeq1 = subSeq1.concat(subSeq2);
 
     // Now add in Byregot's Blessing at the end of the quality improving stage if we can
     if (tryAction('byregotsBlessing')) {
@@ -1457,7 +1470,7 @@ function heuristicSequenceBuilder(synth) {
     }
 
     sequence = subSeq2.concat(sequence);
-    sequence = subSeq.concat(sequence);
+    sequence = subSeq1.concat(sequence);
 
     // If we have comfortzone and sequence is >= 10 actions put it at the start
     // No need to check cp since it is a net positive if there are more than 10 steps
