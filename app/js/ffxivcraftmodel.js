@@ -93,10 +93,10 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
         // Level difference penalty appears to be capped at -6
         levelDifference = Math.max(levelDifference, -6);
         if (levelDifference < 0){
-            levelCorrectionFactor += 0.080554 * Math.max(levelDifference, -5);
+                levelCorrectionFactor += 0.0804561 * Math.max(levelDifference, -5);
         }
         if (levelDifference < -5){
-            levelCorrectionFactor += 0.0487896 * Math.max(levelDifference - (-5), -1);
+            levelCorrectionFactor += 0.0505185 * Math.max(levelDifference - (-5), -1);
         }
 
         levelCorrectedProgress = (1 + levelCorrectionFactor) * baseProgress;
@@ -159,7 +159,10 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
         // Level difference penalty appears to be capped at -6
         levelDifference = Math.max(levelDifference, -6);
         if (levelDifference < 0) {
-            levelCorrectionFactor = 0.0407512 * levelDifference;
+            levelCorrectionFactor = 0.0400267 * Math.max(levelDifference, -3);
+        }
+        if (levelDifference < -3){
+            levelCorrectionFactor += 0.0451309 * Math.max(levelDifference - (-3), -3);
         }
 
         levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor) * (1 + recipeLevelFactor);
@@ -1651,7 +1654,8 @@ var Ing1RecipeLevelTable = {
     145: 134.5, // 58
     148: 139,   // 59
     150: 140,   // 60
-    160: 151    // 60_1star
+    160: 151,   // 60_1star
+    170: 151.15 // 60_2star (no data)
 };
 
 var Ing2RecipeLevelTable = {
@@ -1681,7 +1685,8 @@ var Ing2RecipeLevelTable = {
     145: 133,   // 58
     148: 136,   // 59
     150: 139,   // 60
-    160: 150    // 60_1star
+    160: 150,   // 60_1star
+    170: 151.15 // 60_2star
 };
 
 // Test objects
