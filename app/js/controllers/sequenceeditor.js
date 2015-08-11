@@ -178,7 +178,7 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.$on('$stateChangeStart', function (event) {
-      if ($scope.isSequenceDirty()) {
+      if ($scope.editingSequence && $scope.isSequenceDirty()) {
         if (!window.confirm('Abandon changes to sequence?')) {
           event.preventDefault();
         }
