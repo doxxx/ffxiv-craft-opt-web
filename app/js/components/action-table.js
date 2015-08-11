@@ -18,9 +18,7 @@ angular.module('ffxivCraftOptWeb.components')
 
         $scope.getActionImagePath = _getActionImagePath;
 
-        $scope.actionTooltip = function (action, cls) {
-          return _xivdbtooltips.actionTooltip(action, cls);
-        };
+        $scope.actionTooltip = _xivdbtooltips.actionTooltip.bind(_xivdbtooltips);
 
         $scope._actionClasses = function (action, cls) {
           var classes = $scope.actionClasses(action, cls);

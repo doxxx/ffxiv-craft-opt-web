@@ -61,9 +61,7 @@ angular.module('ffxivCraftOptWeb.controllers')
              info.cls != cls;
     };
 
-    $scope.actionTooltip = function (action, cls) {
-      return _xivdbtooltips.actionTooltip(action, cls);
-    };
+    $scope.actionTooltip = _xivdbtooltips.actionTooltip.bind(_xivdbtooltips);
 
     $scope.dropAction = function (dragEl, dropEl) {
       var drag = angular.element(dragEl);
