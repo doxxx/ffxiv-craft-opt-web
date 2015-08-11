@@ -75,7 +75,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     $scope.pageState.solverStatus.logs.mc = data.log;
   }
 
-  function runMonteCarloSim(sequence) {
+  $scope.runMonteCarloSim = function (sequence) {
     var settings = {
       crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
       recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
@@ -109,7 +109,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     $scope.pageState.solverStatus.logs.execution = data.executionLog;
     $scope.pageState.solverStatus.sequence = data.bestSequence;
 
-    runMonteCarloSim(data.bestSequence);
+    $scope.runMonteCarloSim(data.bestSequence);
   }
 
   function solverError(data) {

@@ -29,7 +29,9 @@
     <tab heading="Probalistic Sim" active="logTabs.ga.active">
       <pre>{{pageState.solverStatus.logs.ga}}</pre>
     </tab>
-    <tab heading="Monte Carlo Sim" active="logTabs.mc.active">
+    <tab active="logTabs.mc.active">
+      <tab-heading>Monte Carlo Sim &nbsp; <i class="fa fa-refresh flat-button"
+                                             ng-click="runMonteCarloSim(pageState.solverStatus.sequence)"></i></tab-heading>
       <pre>{{pageState.solverStatus.logs.mc}}</pre>
     </tab>
     <tab active="logTabs.macro.active">
