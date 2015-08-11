@@ -202,6 +202,19 @@ function runOneGen() {
   state.gen += 1;
   state.pop = state.algorithm.gen(state.pop, state.toolbox, 0.5, 0.2, state.hof);
 
+  if (state.settings.debug) {
+    var fitness = evalSeq(state.hof.entries[0], state.synth, state.settings.penaltyWeight);
+    var fitnessStr = '';
+    for (var i = 0; i < fitness.length; i++) {
+      var val = fitness[i];
+      fitnessStr += '%.1f'.sprintf(val);
+      if (i < fitness.length-1) {
+        fitnessStr += ', ';
+      }
+    }
+    state.logOutput.write('%d: best fitness=[%s]\n'.sprintf(state.gen, fitnessStr));
+  }
+
   postProgress(state.gen, state.maxGen, state.hof.entries[0], state.synthNoConditions);
 }
 
