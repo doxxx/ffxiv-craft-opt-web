@@ -175,14 +175,5 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.$emit('sequence.editor.cancel');
 
       $scope.unwatchSequence();
-    };
-
-    $scope.goToCrafterAttributes = function () {
-      if ($scope.isSequenceDirty()) {
-        if (!window.confirm("Abandon changes to sequence?")) {
-          return;
-        }
-      }
-      $state.go('crafter-attributes');
-    };
+    }
   });
