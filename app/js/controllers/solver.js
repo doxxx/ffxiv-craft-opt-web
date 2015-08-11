@@ -170,7 +170,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   $scope.useSolverResult = function () {
     var newSeq = $scope.pageState.solverStatus.sequence;
     if (newSeq instanceof Array && newSeq.length > 0) {
-      Array.prototype.splice.apply($scope.sequence, [0, newSeq.length].concat(newSeq));
+      $scope.$emit('update.sequence', newSeq);
       $state.go('simulator');
     }
   };

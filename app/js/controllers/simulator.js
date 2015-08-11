@@ -208,8 +208,9 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
 
   $scope.editingSequence = false;
 
-  $scope.$on('sequence.editor.save', function () {
+  $scope.$on('sequence.editor.save', function (event, newSequence) {
     $scope.editingSequence = false;
+    $scope.$emit('update.sequence', newSequence);
   });
 
   $scope.$on('sequence.editor.cancel', function () {

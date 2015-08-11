@@ -137,15 +137,15 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.$broadcast('simulation.needs.update');
     };
 
-    $scope.$on('sequence.editor.save', function (event, newSequence) {
-      $scope.sequence = angular.copy(newSequence);
-      $scope.$broadcast('simulation.needs.update');
-    });
-
     // data model interaction functions
 
     $scope.$on('recipe.selected', function (event, recipe) {
       $scope.recipe = recipe;
+    });
+
+    $scope.$on('update.sequence', function (event, newSequence) {
+      $scope.sequence = angular.copy(newSequence);
+      $scope.$broadcast('simulation.needs.update');
     });
 
     //
