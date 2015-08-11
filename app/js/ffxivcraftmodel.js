@@ -1241,7 +1241,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     }
 
     if (!chk.progressOk) {
-        penalties += Math.abs(result.progressState);
+        penalties += Math.abs(mySynth.recipe.difficulty - Math.min(result.progressState, mySynth.recipe.difficulty));
     }
 
     if (!chk.cpOk) {
