@@ -190,8 +190,23 @@ var actionGroups = [
   }
 ];
 
+function getActionImagePath(action, cls) {
+  if (!angular.isDefined(action)) {
+    console.error('undefined action param');
+    return 'img/actions/empty.png';
+  }
+  var info = actionsByName[action];
+  if (!angular.isDefined(info)) {
+    console.error('unknown action: %s', action);
+    return 'img/actions/empty.png';
+  }
+  return info.imagePaths[cls];
+}
+
+
 angular.module('ffxivCraftOptWeb.services.actions', []).
   value('_allClasses', allClasses).
   value('_allActions', allActions).
   value('_actionsByName', actionsByName).
-  value('_actionGroups', actionGroups);
+  value('_actionGroups', actionGroups).
+  value('_getActionImagePath', getActionImagePath);

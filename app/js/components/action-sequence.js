@@ -13,21 +13,10 @@ angular.module('ffxivCraftOptWeb.components')
         draggable: '=',
         tooltipPlacement: '@'
       },
-      controller: function ($scope, $rootScope, $translate, _allActions, _allClasses, _actionGroups, _actionsByName, _xivdbtooltips) {
+      controller: function ($scope, $rootScope, $translate, _allActions, _allClasses, _actionGroups, _actionsByName, _xivdbtooltips, _getActionImagePath) {
         $scope.actionGroups = _actionGroups;
 
-        $scope.getActionImagePath = function(action, cls) {
-          if (!angular.isDefined(action)) {
-            console.error('undefined action param');
-            return undefined;
-          }
-          var info = _actionsByName[action];
-          if (!angular.isDefined(info)) {
-            console.error('unknown action: %s', action);
-            return undefined;
-          }
-          return info.imagePaths[cls];
-        };
+        $scope.getActionImagePath = _getActionImagePath;
 
         $scope.actionTooltip = function (action, cls) {
           return _xivdbtooltips.actionTooltip(action, cls);

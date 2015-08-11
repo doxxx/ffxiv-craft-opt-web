@@ -5,7 +5,7 @@
 angular.module('ffxivCraftOptWeb.controllers', [])
   .controller('MainCtrl',
   function ($scope, $rootScope, $modal, $translate, _allClasses, _actionGroups, _allActions, _actionsByName,
-    _localProfile, _xivdbtooltips)
+    _localProfile, _xivdbtooltips, _getActionImagePath)
   {
     // provide access to constants
     $scope.allClasses = _allClasses;
@@ -15,18 +15,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.splitClasses = [_allClasses.slice(0, _allClasses.length/2),
                            _allClasses.slice(_allClasses.length/2, _allClasses.length)];
 
-    $scope.getActionImagePath = function(action, cls) {
-      if (!angular.isDefined(action)) {
-        console.error('undefined action param');
-        return undefined;
-      }
-      var info = _actionsByName[action];
-      if (!angular.isDefined(info)) {
-        console.error('unknown action: %s', action);
-        return undefined;
-      }
-      return info.imagePaths[cls];
-    };
+    $scope.getActionImagePath = _getActionImagePath;
 
     $scope.allActions = _actionsByName;
 
