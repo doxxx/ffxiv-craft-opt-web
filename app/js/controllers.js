@@ -152,14 +152,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     // Saved Synth Management
     //
 
-    $scope.newSynth = function () {
-      $scope.settings.name = '';
-      $scope.recipe = newRecipeStats($scope.recipe.cls);
-      $scope.bonusStats = newBonusStats();
-
-      $scope.$broadcast('synth.changed');
-    };
-
     $scope.loadSynth = function (name) {
       if ($scope.isSynthDirty()) {
         if (!window.confirm('You have not saved the changes to your current sequence. Are you sure?')) {
@@ -212,8 +204,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       var name = $scope.settings.name;
       if (window.confirm('Are you sure you want to delete the "' + name + '" synth?')) {
         $scope.profile.deleteSynth(name);
-        $scope.newSynth();
+        $scope.settings.name = '';
         $scope.savedSynthNames = $scope.profile.synthNames();
+        $scope.$broadcast('synth.changed');
       }
     };
 
