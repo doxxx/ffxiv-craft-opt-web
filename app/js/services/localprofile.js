@@ -1,6 +1,6 @@
 'use strict';
 
-var LocalProfileService = function(_allClasses) {
+var LocalProfileService = function(_allClasses, _actionsByName) {
   this.synths = JSON.parse(localStorage['synths'] || '{}');
 
   var modified = false;
@@ -56,12 +56,29 @@ var LocalProfileService = function(_allClasses) {
     }
   }
 
+  for (var i = 0; i < _allClasses.length; i++) {
+    var c = _allClasses[i];
+    var sanitizedActions = [];
+    for (var j = 0; j < this.crafterStats[c].actions.length; j++) {
+      var action = this.crafterStats[c].actions[j];
+      if (!angular.isDefined(action)) continue;
+      var info = _actionsByName[action];
+      if (!angular.isDefined(info)) continue;
+      sanitizedActions.push(action);
+    }
+
+    if (!angular.equals(sanitizedActions, this.crafterStats[c].actions)) {
+      this.crafterStats[c].actions = sanitizedActions;
+      modified = true;
+    }
+  }
+
   if (modified) {
     this.persist();
   }
 };
 
-LocalProfileService.$inject = ['_allClasses'];
+LocalProfileService.$inject = ['_allClasses', '_actionsByName'];
 
 LocalProfileService.prototype.userInfo = function () {
   return null;
