@@ -74,12 +74,7 @@ function setupSim(settings) {
 function runProbablisticSim(id, settings) {
   var sim = setupSim(settings);
 
-  var logOutput = {
-    log: '',
-    write: function (msg) {
-      logOutput.log += msg;
-    }
-  };
+  var logOutput = new LogOutput();
 
   logOutput.write('Use Conditions: %s\n\n'.sprintf(sim.synth.useConditions));
 
@@ -101,12 +96,7 @@ function runProbablisticSim(id, settings) {
 function runMonteCarloSim(id, settings) {
   var sim = setupSim(settings);
 
-  var logOutput = {
-    log: '',
-    write: function (msg) {
-      logOutput.log += msg;
-    }
-  };
+  var logOutput = new LogOutput();
 
   logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(sim.seed, sim.synth.useConditions));
 

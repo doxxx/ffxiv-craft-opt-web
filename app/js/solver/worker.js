@@ -321,15 +321,3 @@ function actionSequenceToShortNames(sequence) {
 function isFitnessInvalid(ind) {
   return !ind.fitness.valid();
 }
-
-function LogOutput() {
-  this.log = '';
-}
-
-LogOutput.prototype.write = function (s) {
-  this.log += s;
-};
-
-LogOutput.prototype.clear = function () {
-  this.log = '';
-};
