@@ -24,7 +24,15 @@ XIVDBTooltips.prototype.onLanguageChange = function (lang) {
 };
 
 XIVDBTooltips.prototype.actionTooltip = function (action, cls) {
+  if (!angular.isDefined(action)) {
+    console.error('undefined action param');
+    return undefined;
+  }
   var info = this._actionsByName[action];
+  if (!angular.isDefined(info)) {
+    console.error('unknown action: %s', action);
+    return undefined;
+  }
   var tooltipClass = info.cls;
   if (tooltipClass == 'All') {
     tooltipClass = cls;

@@ -16,8 +16,17 @@ angular.module('ffxivCraftOptWeb.components')
       controller: function ($scope, $rootScope, $translate, _allActions, _allClasses, _actionGroups, _actionsByName, _xivdbtooltips) {
         $scope.actionGroups = _actionGroups;
 
-        $scope.getActionImagePath = function(actionName, cls) {
-          return _actionsByName[actionName].imagePaths[cls];
+        $scope.getActionImagePath = function(action, cls) {
+          if (!angular.isDefined(action)) {
+            console.error('undefined action param');
+            return undefined;
+          }
+          var info = _actionsByName[action];
+          if (!angular.isDefined(info)) {
+            console.error('unknown action: %s', action);
+            return undefined;
+          }
+          return info.imagePaths[cls];
         };
 
         $scope.actionTooltip = function (action, cls) {

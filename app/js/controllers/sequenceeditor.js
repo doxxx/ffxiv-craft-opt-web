@@ -7,8 +7,17 @@ angular.module('ffxivCraftOptWeb.controllers')
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
 
-    $scope.getActionImagePath = function(actionName, cls) {
-      return _actionsByName[actionName].imagePaths[cls];
+    $scope.getActionImagePath = function(action, cls) {
+      if (!angular.isDefined(action)) {
+        console.error('undefined action param');
+        return undefined;
+      }
+      var info = _actionsByName[action];
+      if (!angular.isDefined(info)) {
+        console.error('unknown action: %s', action);
+        return undefined;
+      }
+      return info.imagePaths[cls];
     };
 
 
@@ -50,8 +59,17 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.isActionCrossClass = function (action, cls) {
-      return $scope.allActions[action].cls != 'All' &&
-             $scope.allActions[action].cls != cls;
+      if (!angular.isDefined(action)) {
+        console.error('undefined actionName');
+        return undefined;
+      }
+      var info = _actionsByName[action];
+      if (!angular.isDefined(info)) {
+        console.error('unknown action: %s', action);
+        return undefined;
+      }
+      return info.cls != 'All' &&
+             info.cls != cls;
     };
 
     $scope.actionTooltip = function (action, cls) {

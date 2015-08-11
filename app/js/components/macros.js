@@ -22,8 +22,14 @@ angular.module('ffxivCraftOptWeb.components')
 
           for (var i = 0; i < $scope.sequence.length; i++) {
             var action = $scope.sequence[i];
-            var actionName = $translate.instant(_actionsByName[action].name);
-            lines.push('/ac "' + actionName + '" <me> ' + waitString + '\n');
+            var info = _actionsByName[action];
+            if (info) {
+              var actionName = $translate.instant(info.name);
+              lines.push('/ac "' + actionName + '" <me> ' + waitString + '\n');
+            }
+            else {
+              lines.push('/echo Error: Unknown action ' + action);
+            }
           }
 
           var macroList = [];

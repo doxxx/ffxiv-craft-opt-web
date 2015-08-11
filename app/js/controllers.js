@@ -15,8 +15,17 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     $scope.splitClasses = [_allClasses.slice(0, _allClasses.length/2),
                            _allClasses.slice(_allClasses.length/2, _allClasses.length)];
 
-    $scope.getActionImagePath = function(actionName, cls) {
-      return _actionsByName[actionName].imagePaths[cls];
+    $scope.getActionImagePath = function(action, cls) {
+      if (!angular.isDefined(action)) {
+        console.error('undefined action param');
+        return undefined;
+      }
+      var info = _actionsByName[action];
+      if (!angular.isDefined(info)) {
+        console.error('unknown action: %s', action);
+        return undefined;
+      }
+      return info.imagePaths[cls];
     };
 
     $scope.allActions = _actionsByName;
@@ -265,8 +274,17 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     };
 
     $scope.isActionCrossClass = function (action, cls) {
-      return _actionsByName[action].cls != 'All' &&
-             _actionsByName[action].cls != cls;
+      if (!angular.isDefined(action)) {
+        console.error('undefined actionName');
+        return undefined;
+      }
+      var info = _actionsByName[action];
+      if (!angular.isDefined(info)) {
+        console.error('unknown action: %s', action);
+        return undefined;
+      }
+      return info.cls != 'All' &&
+             info.cls != cls;
     };
 
     $scope.isValidSequence = function (sequence, cls) {
