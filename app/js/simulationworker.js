@@ -100,11 +100,9 @@ function runMonteCarloSim(id, settings) {
 
   logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(sim.seed, sim.synth.useConditions));
 
-  if (settings.debug) {
-    logOutput.write("Monte Carlo Example\n");
-    logOutput.write("===================\n");
-    MonteCarloSequence(sim.sequence, sim.startState, false, settings.overrideOnCondition, false, true, logOutput);
-  }
+  logOutput.write("Monte Carlo Example\n");
+  logOutput.write("===================\n");
+  MonteCarloSequence(sim.sequence, sim.startState, false, settings.overrideOnCondition, false, true, logOutput);
 
   logOutput.write("\n");
 
