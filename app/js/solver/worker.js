@@ -22,7 +22,6 @@ self.onmessage = function(e) {
       if (state.gen >= state.maxGen) {
         state.maxGen += state.settings.solver.generations;
       }
-      state.logOutput.clear();
       runOneGen();
     }
     else if (e.data == 'rungen') {
@@ -42,15 +41,7 @@ self.onmessage = function(e) {
 };
 
 function start(settings) {
-  var logOutput = {
-    log: '',
-    write: function(msg) {
-      logOutput.log += msg;
-    },
-    clear: function() {
-      logOutput.log = '';
-    }
-  };
+  var logOutput = new LogOutput();
 
   var seed = Math.seed;
   if (typeof settings.seed === 'number') {
@@ -215,41 +206,52 @@ function runOneGen() {
 }
 
 function finish() {
-  var logOutput = state.logOutput;
+  var setupLogOutput = state.logOutput;
   var best = state.hof.entries[0];
   var debug = state.settings.debug;
 
   var startState = NewStateFromSynth(state.synth);
   var startStateNoConditions = NewStateFromSynth(state.synthNoConditions);
 
-  logOutput.write("Genetic Algorithm Result\n");
-  logOutput.write("========================\n");
+  var gaLog = new LogOutput();
+  gaLog.write("Proabilistic Result\n");
+  gaLog.write("===================\n");
 
-  simSynth(best, startState, true, debug, logOutput);
-
-  logOutput.write("\nMonte Carlo Result\n");
-  logOutput.write("==================\n");
-
-  var mcSimResult = MonteCarloSim(best, state.synth, state.settings.maxMontecarloRuns, false, debug, logOutput);
-
-  if (debug) {
-    logOutput.write("\nMonte Carlo Example");
-    logOutput.write("\n===================\n");
-    MonteCarloSequence(best, startState, false, state.settings.overrideOnCondition, false, true, logOutput);
-  }
-
-  // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSequence(best, startStateNoConditions, true, false, false, false, logOutput);
+  simSynth(best, startState, true, debug, gaLog);
 
   var elapsedTime = Date.now() - state.startTime;
+  gaLog.write("\nElapsed time: %d ms".sprintf(elapsedTime));
 
-  logOutput.write("\nElapsed time: %d ms".sprintf(elapsedTime));
+  var mcStartTime = Date.now();
+
+  var mcLog = new LogOutput();
+
+  mcLog.write("Monte Carlo Example\n");
+  mcLog.write("===================\n");
+  MonteCarloSequence(best, startState, false, state.settings.overrideOnCondition, false, true, mcLog);
+
+  var monteCarloSimHeader = "Monte Carlo Result of " + state.settings.maxMontecarloRuns + " runs";
+  mcLog.write("\n" + monteCarloSimHeader + "\n");
+  mcLog.write("=".repeat(monteCarloSimHeader.length));
+  mcLog.write("\n");
+
+  var mcSimResult = MonteCarloSim(best, state.synth, state.settings.maxMontecarloRuns, false, debug, mcLog);
+
+  var mcElapsedTime = Date.now() - mcStartTime;
+  mcLog.write("\nElapsed time: %d ms".sprintf(mcElapsedTime));
+
+  // Don't use conditions for final state to avoid random results
+  var finalState = MonteCarloSequence(best, startStateNoConditions, true, false, false, false, mcLog);
 
   var violations = finalState.checkViolations();
 
   self.postMessage({
     success: {
-      log: logOutput.log,
+      logs: {
+        setup: setupLogOutput.log,
+        ga: gaLog.log,
+        mc: mcLog.log
+      },
       state: {
         quality: finalState.qualityState,
         durability: finalState.durabilityState,
@@ -319,3 +321,15 @@ function actionSequenceToShortNames(sequence) {
 function isFitnessInvalid(ind) {
   return !ind.fitness.valid();
 }
+
+function LogOutput() {
+  this.log = '';
+}
+
+LogOutput.prototype.write = function (s) {
+  this.log += s;
+};
+
+LogOutput.prototype.clear = function () {
+  this.log = '';
+};

@@ -26,12 +26,18 @@
     </div>
   </div>
   <tabset>
-    <tab heading="Solver Log" active="simulatorTabs.solver.active">
-      <pre>{{pageState.solverStatus.logText}}</pre>
+    <tab heading="Probalistic Sim" active="logTabs.ga.active">
+      <pre>{{pageState.solverStatus.logs.ga}}</pre>
+    </tab>
+    <tab heading="Monte Carlo Sim" active="logTabs.mc.active">
+      <pre>{{pageState.solverStatus.logs.mc}}</pre>
     </tab>
     <tab active="logTabs.macro.active">
       <tab-heading>Macro</tab-heading>
       <macros sequence="pageState.solverStatus.sequence" options="macroOptions"></macros>
+    </tab>
+    <tab heading="Setup Log" active="logTabs.setup.active">
+      <pre>{{pageState.solverStatus.logs.setup}}</pre>
     </tab>
   </tabset>
 </div>

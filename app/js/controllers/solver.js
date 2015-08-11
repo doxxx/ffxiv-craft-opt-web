@@ -10,7 +10,11 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
         generationsCompleted: 0,
         maxGenerations: 0,
         state: null,
-        logText: '',
+        logs: {
+          setup: '',
+          ga: '',
+          mc: ''
+        },
         sequence: [],
         error: null
       }
@@ -19,7 +23,10 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
   // Local page state
   $scope.logTabs = {
-    solver: { active: true }
+    setup: { active: false },
+    ga: { active: false },
+    mc: { active: true },
+    macro: { active: false }
   };
 
   //
@@ -41,9 +48,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     $scope.pageState.solverStatus.running = false;
     $scope.pageState.solverStatus.state = data.state;
     $scope.pageState.solverStatus.sequence = data.bestSequence;
-    $scope.pageState.solverStatus.logText = data.log;
-
-    $scope.logTabs.solver.active = true;
+    $scope.pageState.solverStatus.logs = data.logs;
   }
 
   function solverError(data) {
@@ -51,11 +56,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
     $scope.pageState.solverStatus.error = data.error;
     $scope.pageState.solverStatus.state = data.state;
-    $scope.pageState.solverStatus.logText = data.log;
-    $scope.pageState.solverStatus.logText += '\n\nError: ' + data.error;
+    $scope.pageState.solverStatus.logs = data.logs;
     $scope.pageState.solverStatus.sequence = [];
-
-    $scope.logTabs.solver.active = true;
   }
 
   $scope.startSolver = function () {
@@ -87,7 +89,11 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     $scope.pageState.solverStatus.maxGenerations = $scope.solver.generations;
     $scope.pageState.solverStatus.state = null;
 
-    $scope.pageState.solverStatus.logText = "";
+    $scope.pageState.solverStatus.logs = {
+      setup: '',
+      ga: '',
+      mc: ''
+    };
     $scope.pageState.solverStatus.sequence = [];
   };
 
