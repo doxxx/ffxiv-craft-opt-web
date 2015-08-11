@@ -175,5 +175,13 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.$emit('sequence.editor.cancel');
 
       $scope.unwatchSequence();
-    }
+    };
+
+    $scope.$on('$stateChangeStart', function (event) {
+      if ($scope.isSequenceDirty()) {
+        if (!window.confirm('Abandon changes to sequence?')) {
+          event.preventDefault();
+        }
+      }
+    });
   });
