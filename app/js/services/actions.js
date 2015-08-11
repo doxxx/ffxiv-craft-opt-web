@@ -75,7 +75,7 @@ var allActions = [
   //{"shortName": "heartOfTheLeatherworker", "name": "Heart of the Leatherworker", "cls": "Leatherworker", "level": 60, "common": true, "skillID": {"Leatherworker": 100183}},
   //{"shortName": "heartOfTheWeaver", "name": "Heart of the Weaver", "cls": "Weaver", "level": 60, "common": true, "skillID": {"Weaver": 100184}},
 
-  //{"shortName": "observe", "name": "Observe", "cls": "All", "level": 13, "common": true, "skillID": {"Alchemist": 100099, "Armorer": 100040, "Blacksmith": 100023, "Carpenter": 100010, "Culinarian": 100113, "Goldsmith": 100082, "Leatherworker": 100053, "Weaver": 100070}}
+  {"shortName": "observe", "name": "Observe", "cls": "All", "level": 13, "common": true, "skillID": {"Alchemist": 100099, "Armorer": 100040, "Blacksmith": 100023, "Carpenter": 100010, "Culinarian": 100113, "Goldsmith": 100082, "Leatherworker": 100053, "Weaver": 100070}}
 
   // Reclaim is omitted because it has no bearing on the success of the result of the synthesis, as far as we care.
 ];
@@ -185,7 +185,7 @@ var actionGroups = [
   },
   {
     name: "Other", actions: [
-    //"observe"
+    "observe"
   ]
   }
 ];
