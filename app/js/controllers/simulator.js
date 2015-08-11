@@ -128,7 +128,6 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     $scope.simulatorStatus.monteCarlo.logText = data.log;
     $scope.simulatorStatus.state = data.state;
     $scope.simulatorStatus.error = null;
-    $scope.logTabs.monteCarlo.active = true;
 
     $scope.runProbabilisticSim();
   }
@@ -139,7 +138,6 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     $scope.simulatorStatus.monteCarlo.logText += '\n\nError: ' + data.error;
     $scope.simulatorStatus.state = null;
     $scope.simulatorStatus.error = data.error;
-    $scope.logTabs.monteCarlo.active = true;
     $scope.simulatorStatus.running = false;
   }
 
