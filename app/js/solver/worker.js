@@ -206,63 +206,15 @@ function runOneGen() {
 }
 
 function finish() {
-  var setupLogOutput = state.logOutput;
-  var best = state.hof.entries[0];
-  var debug = state.settings.debug;
-
-  var startState = NewStateFromSynth(state.synth);
-  var startStateNoConditions = NewStateFromSynth(state.synthNoConditions);
-
-  var gaLog = new LogOutput();
-  gaLog.write("Proabilistic Result\n");
-  gaLog.write("===================\n");
-
-  simSynth(best, startState, true, debug, gaLog);
-
   var elapsedTime = Date.now() - state.startTime;
-  gaLog.write("\nElapsed time: %d ms".sprintf(elapsedTime));
 
-  var mcStartTime = Date.now();
-
-  var mcLog = new LogOutput();
-
-  mcLog.write("Monte Carlo Example\n");
-  mcLog.write("===================\n");
-  MonteCarloSequence(best, startState, false, state.settings.overrideOnCondition, false, true, mcLog);
-
-  var monteCarloSimHeader = "Monte Carlo Result of " + state.settings.maxMontecarloRuns + " runs";
-  mcLog.write("\n" + monteCarloSimHeader + "\n");
-  mcLog.write("=".repeat(monteCarloSimHeader.length));
-  mcLog.write("\n");
-
-  var mcSimResult = MonteCarloSim(best, state.synth, state.settings.maxMontecarloRuns, false, debug, mcLog);
-
-  var mcElapsedTime = Date.now() - mcStartTime;
-  mcLog.write("\nElapsed time: %d ms".sprintf(mcElapsedTime));
-
-  // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSequence(best, startStateNoConditions, true, false, false, false, mcLog);
-
-  var violations = finalState.checkViolations();
+  var executionLog = state.logOutput;
+  var best = state.hof.entries[0];
 
   self.postMessage({
     success: {
-      logs: {
-        setup: setupLogOutput.log,
-        ga: gaLog.log,
-        mc: mcLog.log
-      },
-      state: {
-        quality: finalState.qualityState,
-        durability: finalState.durabilityState,
-        cp: finalState.cpState,
-        progress: finalState.progressState,
-        successPercent: mcSimResult.successPercent,
-        hqPercent: hqPercentFromQuality(finalState.qualityState / state.settings.recipe.maxQuality * 100),
-        feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
-        violations: violations,
-        condition: finalState.condition
-      },
+      executionLog: executionLog.log,
+      elapsedTime: elapsedTime,
       bestSequence: actionSequenceToShortNames(best)
     }
   });
