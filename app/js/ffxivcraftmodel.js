@@ -600,9 +600,9 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
     var s = startState.clone();
 
     // Conditions
-    var useConditions = s.synth.useConditions;
     var pGood = 0.23;
     var pExcellent = 0.01;
+    var ignoreConditionReq = !s.synth.useConditions;
 
     // Step 1 is always normal
     var ppGood = 0;
@@ -614,24 +614,12 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
         checkGoodOrExcellent: function () {
             return true;
         },
-        checkPoor: function () {
-            return true;
-        },
         pGoodOrExcellent: function () {
-            if (useConditions) {
+            if (ignoreConditionReq) {
+                return 1;
+            }
+            else {
                 return ppGood + ppExcellent;
-            }
-            else {
-                return 1;
-            }
-
-        },
-        pPoor: function () {
-            if (useConditions) {
-                return ppPoor;
-            }
-            else {
-                return 1;
             }
         }
     };
@@ -663,7 +651,7 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
 
         // Condition Calculation
         var condQualityIncreaseMultiplier = 1;
-        if (useConditions) {
+        if (!ignoreConditionReq) {
             condQualityIncreaseMultiplier *= (ppNormal + 1.5 * ppGood * Math.pow(1 - (ppGood + pGood) / 2, s.synth.maxTrickUses) + 4 * ppExcellent + 0.5 * ppPoor);
         }
 
@@ -701,7 +689,7 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
             }
 
             // Ending condition update
-            if (useConditions) {
+            if (!ignoreConditionReq) {
                 ppPoor = ppExcellent;
                 ppGood = pGood * ppNormal;
                 ppExcellent = pExcellent * ppNormal;
