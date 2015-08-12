@@ -41,7 +41,7 @@ var allActions = [
   {"shortName": "tricksOfTheTrade", "name": "Tricks of the Trade", "cls": "Alchemist", "level": 15, "skillID": {"Alchemist": 100098}},
 
   // Heavensward
-  //{"shortName": "byregotsBrow", "name": "Byregot's Brow", "cls": "All", "level": 51, "common": true, "skillID": {"Alchemist": 100126, "Armorer": 100122, "Blacksmith": 100121, "Carpenter": 100120, "Culinarian": 100127, "Goldsmith": 100123, "Leatherworker": 100124, "Weaver": 100125}},
+  {"shortName": "byregotsBrow", "name": "Byregot's Brow", "cls": "All", "level": 51, "common": true, "skillID": {"Alchemist": 100126, "Armorer": 100122, "Blacksmith": 100121, "Carpenter": 100120, "Culinarian": 100127, "Goldsmith": 100123, "Leatherworker": 100124, "Weaver": 100125}},
   {"shortName": "preciseTouch", "name": "Precise Touch", "cls": "All", "level": 53, "skillID": {"Alchemist": 100134, "Armorer": 100130, "Blacksmith": 100129, "Carpenter": 100128, "Culinarian": 100135, "Goldsmith": 100131, "Leatherworker": 100132, "Weaver": 100133}},
   //{"shortName": "makersMark", "name": "Maker's Mark", "cls": "Goldsmith", "level": 54, "skillID": {"Goldsmith": 100178}},
   {"shortName": "muscleMemory", "name": "Muscle Memory", "cls": "Culinarian", "level": 54, "skillID": {"Culinarian": 100136}},
@@ -137,7 +137,7 @@ var actionGroups = [
     "advancedTouch",
     "hastyTouch",
     "byregotsBlessing",
-    //"byregotsBrow",
+    "byregotsBrow",
     "preciseTouch",
     //"innovativeTouch",
     //"byregotsMiracle",

@@ -532,7 +532,8 @@ function ApplySpecialActionEffects(s, action, condition) {
     if (isActionEq(action, AllActions.byregotsBrow) && condition.checkGoodOrExcellent()) {
         if (AllActions.innerQuiet.shortName in s.effects.countUps) {
             s.trickUses += 1;
-            s.effects.countUps[AllActions.innerQuiet.shortName] *= (1 - condition.pGoodOrExcellent());
+            //s.effects.countUps[AllActions.innerQuiet.shortName] *= (1 - condition.pGoodOrExcellent());
+            delete s.effects.countUps[AllActions.innerQuiet.shortName];
         }
         else {
             s.wastedActions += 1;
