@@ -119,6 +119,7 @@ angular.module('ffxivCraftOptWeb.controllers')
       }
 
       if ($scope.editSequence.length === 0) {
+        $scope.buffs = [];
         $scope.$emit('sequence.editor.simulation.empty');
         return;
       }
@@ -145,6 +146,13 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.simulationSuccess = function (data) {
+      $scope.buffs = [];
+      for (var name in data.state.effects.countUps) {
+        $scope.buffs.push({ name: name, count: data.state.effects.countUps[name] });
+      }
+      for (var name in data.state.effects.countDowns) {
+        $scope.buffs.push({ name: name, count: data.state.effects.countDowns[name] });
+      }
       $scope.simulatorStatus.running = false;
 
       data.sequence = $scope.editSequence;

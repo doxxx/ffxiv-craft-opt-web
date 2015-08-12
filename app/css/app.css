@@ -186,6 +186,19 @@ legend small > .light {
   font-size: larger;
 }
 
+.buffs {
+  min-height: 55px;
+}
+
+.buffs .buff {
+  display: inline-block;
+  text-align: center;
+}
+
+.buff .action {
+  width: 50%;
+}
+
 div[content*="xivdb"] div.tooltip-inner {
   max-width: 320px;
   background: none;

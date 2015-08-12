@@ -98,17 +98,26 @@
       <div class="row-fluid">
         <div ng-class="{'edit-mode': editingSequence}">
           <div class="sequence-editor" ng-show="editingSequence" ng-controller="SequenceEditorCtrl">
+            <div class="buffs well well-small">
+              <div class="buff" ng-repeat="buff in buffs track by $index">
+                <span class="image-wrap glossy action">
+                  <img ng-src="{{getActionImagePath(buff.name, recipe.cls)}}"/>
+                </span>
+                <br/>
+                <small>{{buff.count}}</small>
+              </div>
+            </div>
             <div class="sequence well well-small">
-          <span ng-repeat="action in editSequence track by $index"
-                class="image-wrap glossy action selectable"
-                ng-class="actionClasses(action, recipe.cls)"
-                ng-click="removeAction($index)"
-                lvl-draggable="true"
-                lvl-drop-target="true"
-                data-index="{{$index}}"
-                on-drop="dropAction(dragEl, dropEl)">
-            <img ng-src="{{getActionImagePath(action, recipe.cls)}}"/>
-          </span>
+              <span ng-repeat="action in editSequence track by $index"
+                    class="image-wrap glossy action selectable"
+                    ng-class="actionClasses(action, recipe.cls)"
+                    ng-click="removeAction($index)"
+                    lvl-draggable="true"
+                    lvl-drop-target="true"
+                    data-index="{{$index}}"
+                    on-drop="dropAction(dragEl, dropEl)">
+                <img ng-src="{{getActionImagePath(action, recipe.cls)}}"/>
+              </span>
 
               <img class="action empty-action" lvl-drop-target="true"
                    src="img/actions/empty.png"
