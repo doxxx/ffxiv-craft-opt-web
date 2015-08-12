@@ -44,7 +44,7 @@ var allActions = [
   //{"shortName": "byregotsBrow", "name": "Byregot's Brow", "cls": "All", "level": 51, "common": true, "skillID": {"Alchemist": 100126, "Armorer": 100122, "Blacksmith": 100121, "Carpenter": 100120, "Culinarian": 100127, "Goldsmith": 100123, "Leatherworker": 100124, "Weaver": 100125}},
   {"shortName": "preciseTouch", "name": "Precise Touch", "cls": "All", "level": 53, "skillID": {"Alchemist": 100134, "Armorer": 100130, "Blacksmith": 100129, "Carpenter": 100128, "Culinarian": 100135, "Goldsmith": 100131, "Leatherworker": 100132, "Weaver": 100133}},
   //{"shortName": "makersMark", "name": "Maker's Mark", "cls": "Goldsmith", "level": 54, "skillID": {"Goldsmith": 100178}},
-  //{"shortName": "muscleMemory", "name": "Muscle Memory", "cls": "Culinarian", "level": 54, "skillID": {"Culinarian": 100136}},
+  {"shortName": "muscleMemory", "name": "Muscle Memory", "cls": "Culinarian", "level": 54, "skillID": {"Culinarian": 100136}},
   //{"shortName": "satisfaction", "name": "Satisfaction", "cls": "All", "level": 55, "common": true, "skillID": {"Alchemist": 100175, "Armorer": 100171, "Blacksmith": 100170, "Carpenter": 100169, "Culinarian": 100176, "Goldsmith": 100172, "Leatherworker": 100173, "Weaver": 100174}},
   //{"shortName": "whistle", "name": "Whistle While You Work", "cls": "All", "level": 55, "common": true, "skillID": {"Alchemist": 100193, "Armorer": 100189, "Blacksmith": 100188, "Carpenter": 100187, "Culinarian": 100194, "Goldsmith": 100190, "Leatherworker": 100191, "Weaver": 100192}},
   //{"shortName": "innovativeTouch", "name": "Innovative Touch", "cls": "All", "level": 56, "common": true, "skillID": {"Alchemist": 100143, "Armorer": 100139, "Blacksmith": 100138, "Carpenter": 100137, "Culinarian": 100144, "Goldsmith": 100140, "Leatherworker": 100141, "Weaver": 100142}},
@@ -114,7 +114,7 @@ var actionGroups = [
     "carefulSynthesis2",
     "pieceByPiece",
     "rapidSynthesis",
-    //"muscleMemory",
+    "muscleMemory",
     //"trainedHand"
     //"brandOfEarth",
     //"brandOfFire",

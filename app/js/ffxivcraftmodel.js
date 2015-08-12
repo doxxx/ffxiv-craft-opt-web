@@ -412,6 +412,15 @@ function ApplyModifiers(s, action, condition) {
         bProgressGain = (s.synth.recipe.difficulty - s.progressState) * 0.33;
     }
 
+    if (isActionEq(action, AllActions.muscleMemory)) {
+        if (s.step == 1) {
+            bProgressGain = (s.synth.recipe.difficulty - s.progressState) * 0.33;
+        }
+        else {
+            bProgressGain = 0;
+        }
+    }
+
     // Effects modifying quality
     var bQualityGain = qualityIncreaseMultiplier * s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.shortName in s.effects.countUps) {
