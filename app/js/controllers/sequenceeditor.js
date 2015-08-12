@@ -131,6 +131,7 @@ angular.module('ffxivCraftOptWeb.controllers')
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
+        overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
         debug: $scope.sequenceSettings.debug
       };
 
