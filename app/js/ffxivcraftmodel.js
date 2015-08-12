@@ -589,7 +589,7 @@ function UpdateState(s, action, progressGain, qualityGain, durabilityCost, condi
     s.cpState = Math.min(s.cpState, s.synth.crafter.craftPoints);
 }
 
-function simSynth(individual, startState, verbose, debug, logOutput) {
+function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
@@ -659,16 +659,20 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
         var r = ApplyModifiers(s, action, SimCondition);
 
         // Calculate final gains / losses
+        var successProbability = r.successProbability;
+        if (assumeSuccess) {
+            successProbability = 1;
+        }
         var progressGain = r.bProgressGain;
         if (progressGain > 0) {
-            s.reliability = s.reliability * r.successProbability;
+            s.reliability = s.reliability * successProbability;
         }
 
         var qualityGain = condQualityIncreaseMultiplier * r.bQualityGain;
 
         // Floor gains at final stage before calculating expected value
-        progressGain = r.successProbability * Math.floor(progressGain);
-        qualityGain = r.successProbability * Math.floor(qualityGain);
+        progressGain = successProbability * Math.floor(progressGain);
+        qualityGain = successProbability * Math.floor(qualityGain);
 
         // Occur if a wasted action
         //==================================
@@ -680,7 +684,7 @@ function simSynth(individual, startState, verbose, debug, logOutput) {
         //==================================
         else {
 
-            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, SimCondition, r.successProbability);
+            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, SimCondition, successProbability);
 
             // Count cross class actions
             if (!(action.cls === 'All' || action.cls === s.synth.crafter.cls || action.shortName in s.crossClassActionList)) {
@@ -1214,7 +1218,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
     var startState = NewStateFromSynth(mySynth);
 
-    var result = simSynth(individual, startState, false, false);
+    var result = simSynth(individual, startState, false, false, false);
     var penalties = 0;
     var fitness = 0;
     var fitnessProg = 0;

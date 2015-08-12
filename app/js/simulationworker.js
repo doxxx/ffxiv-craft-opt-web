@@ -81,7 +81,7 @@ function runProbablisticSim(id, settings) {
   logOutput.write("Probabilistic Result\n");
   logOutput.write("====================\n");
 
-  simSynth(sim.sequence, sim.startState, true, settings.debug, logOutput);
+  simSynth(sim.sequence, sim.startState, false, true, settings.debug, logOutput);
 
   self.postMessage({
     id: id,
