@@ -757,18 +757,19 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     // Conditions
     var pGood = 0.23;
     var pExcellent = 0.01;
+    var ignoreConditionReq = !s.useConditions;
+    var randomizeConditions = !ignoreConditionReq;
 
     var MonteCarloCondition = {
         checkGoodOrExcellent: function () {
-            return (s.condition == 'Good' || s.condition == 'Excellent' || assumeSuccess);
-        },
-        checkPoor: function () {
-            return (s.condition == 'Poor' || assumeSuccess);
+            if (ignoreConditionReq) {
+                return true;
+            }
+            else {
+                return (s.condition == 'Good' || s.condition == 'Excellent');
+            }
         },
         pGoodOrExcellent: function () {
-            return 1;
-        },
-        pGood: function () {
             return 1;
         }
     };
@@ -844,7 +845,7 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
         s.condition = 'Normal';
     }
     else if (s.condition === 'Normal') {
-        if (s.synth.useConditions) {
+        if (randomizeConditions) {
             var condRand = Math.random();
             if (0 <= condRand && condRand < pExcellent) {
                 s.condition = 'Excellent';
