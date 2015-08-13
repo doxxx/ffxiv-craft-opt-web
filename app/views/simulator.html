@@ -60,34 +60,43 @@
         <div class="bonus-stats">
           <h5>L{{crafter.stats[recipe.cls].level}} {{recipe.cls}} Attributes <a ui-sref="crafter-attributes"><i class="fa fa-edit"></i></a></h5>
           <div class="well well-small">
-            <table>
-              <tr>
-                <td>Craftsmanship</td>
-                <td class="value">{{crafter.stats[recipe.cls].craftsmanship}}</td>
-                <td>+</td>
-                <td class="value">{{bonusStats.craftsmanship}}</td>
-              </tr>
-              <tr>
-                <td>Control</td>
-                <td class="value">{{crafter.stats[recipe.cls].control}}</td>
-                <td>+</td>
-                <td class="value">{{bonusStats.control}}</td>
-              </tr>
-              <tr>
-                <td>CP</td>
-                <td class="value">{{crafter.stats[recipe.cls].cp}}</td>
-                <td>+</td>
-                <td class="value">{{bonusStats.cp}}</td>
-              </tr>
-              <tr>
-                <td>Start Quality</td>
-                <td class="value"></td>
-                <td>+</td>
-                <td class="value">{{bonusStats.startQuality}}</td>
-              </tr>
-            </table>
+            <form name="bonusStatsForm">
+              <table>
+                <tr>
+                  <td>Craftsmanship</td>
+                  <td class="value">{{crafter.stats[recipe.cls].craftsmanship}}</td>
+                  <td>+</td>
+                  <td class="value">
+                    <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.craftsmanship"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Control</td>
+                  <td class="value">{{crafter.stats[recipe.cls].control}}</td>
+                  <td>+</td>
+                  <td class="value">
+                    <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.control"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>CP</td>
+                  <td class="value">{{crafter.stats[recipe.cls].cp}}</td>
+                  <td>+</td>
+                  <td class="value">
+                    <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.cp"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Start Quality</td>
+                  <td class="value"></td>
+                  <td>+</td>
+                  <td class="value">
+                    <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.startQuality"/>
+                  </td>
+                </tr>
+              </table>
+            </form>
           </div>
-          <button class="btn" ng-click="showStatBonusesModal()">Temporary Bonuses...</button>
         </div>
       </div>
     </div>

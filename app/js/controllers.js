@@ -275,21 +275,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       });
     };
 
-    $scope.showStatBonusesModal = function () {
-      var modalInstance = $modal.open({
-        templateUrl: 'modals/stat-bonus-editor.html',
-        controller: 'StatBonusEditorCtrl',
-        windowClass: 'stat-bonus-editor',
-        resolve: {
-          crafter: function () { return $scope.crafter; },
-          bonusStats: function () { return $scope.bonusStats; }
-        }
-      });
-      modalInstance.result.then(function (result) {
-        $scope.bonusStats = angular.copy(result);
-      });
-    };
-
     $scope.showOptionsModal = function () {
       var modalInstance = $modal.open({
         templateUrl: 'modals/options.html',

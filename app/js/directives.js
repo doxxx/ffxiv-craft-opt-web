@@ -181,6 +181,32 @@ angular.module('ffxivCraftOptWeb.directives', [])
         }
       });
     };
+  })
+
+  .directive('forceNumeric', function () {
+      return {
+          require: 'ngModel',
+          link: function (scope, elem, attrs, ngModel) {
+            var forceNumeric = function (value) {
+              var num = ngModel.$isEmpty(value) ? 0 : value;
+
+              if (num !== value) {
+                ngModel.$setViewValue(num);
+                ngModel.$render();
+              }
+
+              return num;
+            };
+
+            ngModel.$parsers.push(forceNumeric);
+
+            elem.bind('keypress', function (event) {
+              if (event.target.value === '0') {
+                event.target.value = '';
+              }
+            });
+          }
+      };
   });
 
 // create this here for referencing by individual component js files

@@ -133,13 +133,22 @@ legend small > .light {
   }
 }
 
+.bonus-stats {
+  margin-bottom: 10px;
+}
+
 .bonus-stats td {
-  padding-right: 3px;
-  padding-left: 3px;
+  vertical-align: middle;
+  padding-right: 10px;
 }
 
 .bonus-stats td.value {
   text-align: right;
+}
+
+.bonus-stats input {
+  text-align: right;
+  margin-bottom: 0;
 }
 
 .simulator-status-ok {
