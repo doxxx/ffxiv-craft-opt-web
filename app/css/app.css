@@ -157,7 +157,7 @@ legend small > .light {
 
 .bonus-stats input {
   text-align: right;
-  margin-bottom: 0;
+  margin-bottom: 4px;
   padding: 2px;
 }
 
