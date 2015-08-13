@@ -142,10 +142,6 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   }
 
   $scope.runMonteCarloSim = function () {
-    if ($scope.simulatorStatus.running) {
-      return;
-    }
-
     var settings = {
       crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
       recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
