@@ -2,71 +2,67 @@
   <h3 class="page-title">Simulator</h3>
 
   <div class="row-fluid ">
-    <div class="span12">
-      <div class="span8">
-        <div class="row-fluid">
-          <div class="recipe-search-control">
-            <form class="form-inline">
-              <div class="dropdown">
-                <div class="input-append">
-                  <span class="input-small uneditable-input">{{recipe.cls}}</span>
+    <div class="recipe-search-control">
+      <form class="form-inline">
+        <div class="dropdown">
+          <div class="input-append">
+            <span class="input-small uneditable-input">{{recipe.cls}}</span>
 
-                  <div class="btn-group">
-                    <button class="btn dropdown-toggle"><span class="caret"></span></button>
-                    <ul class="dropdown-menu pull-right">
-                      <li ng-repeat="cls in allClasses"><a ng-click="recipe.cls=cls">{{cls}}</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="my-dropdown" id="recipe-menu-root" >
-                <div class="input-append">
-                  <span class="input-medium uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
-
-                  <div class="btn-group">
-                    <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
-                  </div>
-                </div>
-                <div class="my-dropdown-menu">
-                  <input class="input-medium search my-dropdown-focus" type="text" name="name"
-                         ng-model="recipeSearch.text"
-                         placeholder="Search..." select-on-focus stop-click-propogation
-                         ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"
-                         id="recipe-search-text"/>
-                  <ul class="recipe-menu-scrollable" isolate-scrolling>
-                    <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...
-                    </li>
-                    <li ng-hide="recipeSearch.loading"
-                        ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
-                        ng-class="{active: $index === recipeSearch.selected}"
-                        id="recipeSearchElement{{$index}}"
-                        ng-mouseover="recipeSearch.selected=$index"
-                        ng-click="recipeSelected(r.name)">
-                      <a ng-click="recipeSelected(r.name)">[{{r.baseLevel}}{{'*'.repeat(r.stars)}}] {{r.name}}</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </form>
+            <div class="btn-group">
+              <button class="btn dropdown-toggle"><span class="caret"></span></button>
+              <ul class="dropdown-menu pull-right">
+                <li ng-repeat="cls in allClasses"><a ng-click="recipe.cls=cls">{{cls}}</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="row-fluid">
-          <simulator-status class="initial-guess" crafter="crafter.stats[recipe.cls]" recipe="recipe" status="simulatorStatus"
-                            valid="isValidSequence(simulatorStatus.sequence, recipe.cls)"></simulator-status>
+
+        <div class="my-dropdown" id="recipe-menu-root" >
+          <div class="input-append">
+            <span class="input-medium uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
+
+            <div class="btn-group">
+              <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
+            </div>
+          </div>
+          <div class="my-dropdown-menu">
+            <input class="input-medium search my-dropdown-focus" type="text" name="name"
+                   ng-model="recipeSearch.text"
+                   placeholder="Search..." select-on-focus stop-click-propogation
+                   ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"
+                   id="recipe-search-text"/>
+            <ul class="recipe-menu-scrollable" isolate-scrolling>
+              <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...
+              </li>
+              <li ng-hide="recipeSearch.loading"
+                  ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
+                  ng-class="{active: $index === recipeSearch.selected}"
+                  id="recipeSearchElement{{$index}}"
+                  ng-mouseover="recipeSearch.selected=$index"
+                  ng-click="recipeSelected(r.name)">
+                <a ng-click="recipeSelected(r.name)">[{{r.baseLevel}}{{'*'.repeat(r.stars)}}] {{r.name}}</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </form>
+    </div>
+    <div class="row-fluid">
+      <div class="span8">
+        <simulator-status class="initial-guess" crafter="crafter.stats[recipe.cls]" recipe="recipe" status="simulatorStatus"
+                          valid="isValidSequence(simulatorStatus.sequence, recipe.cls)"></simulator-status>
       </div>
       <div class="span4">
         <div class="bonus-stats">
-          <h5>L{{crafter.stats[recipe.cls].level}} {{recipe.cls}} Attributes <a ui-sref="crafter-attributes"><i class="fa fa-edit"></i></a></h5>
           <div class="well well-small">
+            <h5>L{{crafter.stats[recipe.cls].level}} {{recipe.cls}} Attributes <a ui-sref="crafter-attributes"><i class="fa fa-edit"></i></a></h5>
             <form name="bonusStatsForm">
               <table>
                 <tr>
                   <td>Craftsmanship</td>
                   <td class="value">{{crafter.stats[recipe.cls].craftsmanship}}</td>
                   <td>+</td>
-                  <td class="value">
+                  <td>
                     <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.craftsmanship"/>
                   </td>
                 </tr>
@@ -74,7 +70,7 @@
                   <td>Control</td>
                   <td class="value">{{crafter.stats[recipe.cls].control}}</td>
                   <td>+</td>
-                  <td class="value">
+                  <td>
                     <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.control"/>
                   </td>
                 </tr>
@@ -82,7 +78,7 @@
                   <td>CP</td>
                   <td class="value">{{crafter.stats[recipe.cls].cp}}</td>
                   <td>+</td>
-                  <td class="value">
+                  <td>
                     <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.cp"/>
                   </td>
                 </tr>
@@ -90,7 +86,7 @@
                   <td>Start Quality</td>
                   <td class="value"></td>
                   <td>+</td>
-                  <td class="value">
+                  <td>
                     <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.startQuality"/>
                   </td>
                 </tr>

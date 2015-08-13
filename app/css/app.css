@@ -135,6 +135,15 @@ legend small > .light {
 
 .bonus-stats {
   margin-bottom: 10px;
+  display: inline-block;
+}
+
+.bonus-stats h5 {
+  margin-top: 0;
+}
+
+.bonus-stats form {
+  margin: 0;
 }
 
 .bonus-stats td {
@@ -149,6 +158,13 @@ legend small > .light {
 .bonus-stats input {
   text-align: right;
   margin-bottom: 0;
+  padding: 2px;
+}
+
+@media (max-width: 768px) {
+  .bonus-stats input.input-mini {
+    width: 50px;
+  }
 }
 
 .simulator-status-ok {
