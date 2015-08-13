@@ -57,7 +57,10 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   $scope.recipeSelected = function (name) {
     // force menu to close and search field to lose focus
     // improves behaviour on touch devices
-    document.getElementById('recipe-menu-root').closeMenu();
+    var root = document.getElementById('recipe-menu-root');
+    if (root.closeMenu) { // sometimes it's undefined? why???
+      root.closeMenu();
+    }
     document.getElementById('recipe-search-text').blur();
 
     var cls = $scope.recipe.cls;
@@ -76,7 +79,6 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     if (event.which == 13) {
       event.preventDefault();
       $scope.recipeSelected($scope.recipeSearch.list[$scope.recipeSearch.selected].name);
-      event.target.parentNode.parentNode.closeMenu();
     }
   };
 
