@@ -440,9 +440,15 @@ function ApplyModifiers(s, action, condition) {
         durabilityCost *= 0.5;
         ftDurabilityCost *= 0.5;
     }
+    if ((AllActions.makersMark.shortName in s.effects.countDowns) && (isActionEq(action, AllActions.flawlessSynthesis))) {
+        durabilityCost *= 0;
+    }
 
     // Effects modifying cp cost
     var cpCost = action.cpCost;
+    if ((AllActions.makersMark.shortName in s.effects.countDowns) && (isActionEq(action, AllActions.flawlessSynthesis))) {
+        cpCost *= 0;
+    }
 
     /*
     If Whistle is at 1 and a good/excellent occurs, at the end of the action, whistle will decrement and Finishing Touches will occur
@@ -581,6 +587,15 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
 
     if (action.type === 'countdown') {
         s.effects.countDowns[action.shortName] = action.activeTurns;
+    }
+
+    // Maker's Mark has stacks equal to Progress divided by 100 rounded up
+    if (isActionEq(action, AllActions.makersMark)) {
+        var makersMarkStacks = Math.ceil(s.progressState / 100);
+        if (makersMarkStacks == 0) {
+            makersMarkStacks = 1;
+        }
+        s.effects.countDowns[action.shortName] = makersMarkStacks;
     }
 }
 
@@ -1600,7 +1615,7 @@ var AllActions = {
     //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
     byregotsBrow: new Action(       'byregotsBrow',         'Byregot\'s Brow',      10,     18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51,  true,       true),
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
-    makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54),
+    makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54), // based on description of behaviour here: http://redd.it/3ckrmk
     muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
     whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'countdown',  11,  'All',          55),
 
