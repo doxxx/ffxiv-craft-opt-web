@@ -441,6 +441,9 @@ function ApplyModifiers(s, action, condition) {
         ftDurabilityCost *= 0.5;
     }
 
+    // Effects modifying cp cost
+    var cpCost = action.cpCost;
+
     /*
     If Whistle is at 1 and a good/excellent occurs, at the end of the action, whistle will decrement and Finishing Touches will occur
     Finishing Touches is 200% efficiency, 50% success (?) and 10 (?) durability
@@ -472,7 +475,8 @@ function ApplyModifiers(s, action, condition) {
         qualityIncreaseMultiplier: qualityIncreaseMultiplier,
         bProgressGain: bProgressGain,
         bQualityGain: bQualityGain,
-        durabilityCost: durabilityCost
+        durabilityCost: durabilityCost,
+        cpCost: cpCost
     };
 }
 
@@ -580,12 +584,12 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
     }
 }
 
-function UpdateState(s, action, progressGain, qualityGain, durabilityCost, condition, successProbability) {
+function UpdateState(s, action, progressGain, qualityGain, durabilityCost, cpCost, condition, successProbability) {
     // State tracking
     s.progressState += progressGain;
     s.qualityState += qualityGain;
     s.durabilityState -= durabilityCost;
-    s.cpState -= action.cpCost;
+    s.cpState -= cpCost;
     s.lastStep += 1;
 
     ApplySpecialActionEffects(s, action, condition);
@@ -694,7 +698,7 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
         //==================================
         else {
 
-            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, SimCondition, successProbability);
+            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, r.cpCost, SimCondition, successProbability);
 
             // Count cross class actions
             if (!(action.cls === 'All' || action.cls === s.synth.crafter.cls || action.shortName in s.crossClassActionList)) {
@@ -830,7 +834,7 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     //==================================
     else {
 
-        UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, MonteCarloCondition, success);
+        UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, r.cpCost, MonteCarloCondition, success);
 
         // Count cross class actions
         if (!((action.cls === 'All') || (action.cls === s.synth.crafter.cls) || (action.shortName in s.crossClassActionList))) {
