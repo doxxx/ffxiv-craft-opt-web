@@ -597,6 +597,11 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
         }
         s.effects.countDowns[action.shortName] = makersMarkStacks;
     }
+
+    // Innovative Touch activates innovation
+    if (isActionEq(action, AllActions.innovativeTouch)) {
+        s.effects.countDowns[AllActions.innovation.shortName] = AllActions.innovation.activeTurns;
+    }
 }
 
 function UpdateState(s, action, progressGain, qualityGain, durabilityCost, cpCost, condition, successProbability) {
@@ -1617,9 +1622,9 @@ var AllActions = {
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
     makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54), // based on description of behaviour here: http://redd.it/3ckrmk
     muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
-    whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'countdown',  11,  'All',          55),
 
     // Specialist Actions
+    whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'countdown',  11,  'All',          55),
     satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
     innovativeTouch: new Action(    'innovativeTouch',      'Innovative Touch',     10,      8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
     nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
