@@ -123,7 +123,7 @@ function start(settings) {
 
     logOutput.write('\n\n');
 
-    var heuristcState = MonteCarloSequence(sequence, NewStateFromSynth(synth), true, false, false, false, logOutput);
+    var heuristcState = MonteCarloSequence(sequence, NewStateFromSynth(synth), true, false, false, settings.debug, logOutput);
 
     var chk = heuristcState.checkViolations();
     var feasibility = chk.progressOk && chk.durabilityOk && chk.cpOk && chk.trickOk && chk.reliabilityOk;
