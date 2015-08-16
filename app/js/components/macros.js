@@ -18,6 +18,9 @@ angular.module('ffxivCraftOptWeb.components')
           var maxLines = 14;
 
           var waitString = '<wait.' + $scope.options.waitTime + '>';
+          var stepSoundEffect = '<se.' + $scope.options.stepSoundEffect + '>';
+          var finishSoundEffect = '<se.' + $scope.options.finishSoundEffect + '>';
+
           var lines = [];
 
           for (var i = 0; i < $scope.sequence.length; i++) {
@@ -38,15 +41,15 @@ angular.module('ffxivCraftOptWeb.components')
           for (var j = 0; j < lines.length; j++) {
             macroString += lines[j];
             var step = j + 1;
-            if (step % maxLines == 0) {
-              macroString += '/echo Macro step ' + step / maxLines + ' complete <se.1>\n';
+            if (step % maxLines === 0) {
+              macroString += '/echo Macro #' + step / maxLines + ' complete ' + stepSoundEffect + '\n';
               macroList.push(macroString);
               macroString = '';
             }
           }
 
           if (macroString !== '') {
-            macroString += '/echo Macro step ' + Math.ceil(lines.length / maxLines) + ' complete <se.1>\n';
+            macroString += '/echo Macro #' + Math.ceil(lines.length / maxLines) + ' complete ' + finishSoundEffect + '\n';
             macroList.push(macroString)
           }
 

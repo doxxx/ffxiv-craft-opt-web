@@ -345,7 +345,9 @@ function initPageStateDefaults($scope) {
   };
 
   $scope.macroOptions = {
-    waitTime: 3
+    waitTime: 3,
+    stepSoundEffect: 1,
+    finishSoundEffect: 14
   };
 }
 
