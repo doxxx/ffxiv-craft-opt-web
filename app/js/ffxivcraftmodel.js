@@ -576,7 +576,7 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
         s.effects.countUps[AllActions.innerQuiet.shortName] += 2 * successProbability * condition.pGoodOrExcellent();
     }
     // Increment all other inner quiet count ups
-    else if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] < 10) {
+    else if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] <= 10) {
         s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
     }
 
