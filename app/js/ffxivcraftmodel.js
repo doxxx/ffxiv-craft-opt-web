@@ -426,6 +426,9 @@ function ApplyModifiers(s, action, condition) {
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.shortName in s.effects.countUps) {
         bQualityGain *= (1 + 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName]);
     }
+    if ((isActionEq(action, AllActions.byregotsMiracle) && AllActions.innerQuiet.shortName in s.effects.countUps)) {
+        bQualityGain *= (1.0 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]);
+    }
     if ((isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.shortName in s.effects.countUps) && condition.checkGoodOrExcellent()) {
         bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]) * condition.pGoodOrExcellent();
     }
@@ -520,6 +523,15 @@ function ApplySpecialActionEffects(s, action, condition) {
     if (isActionEq(action, AllActions.byregotsBlessing)) {
         if (AllActions.innerQuiet.shortName in s.effects.countUps) {
             delete s.effects.countUps[AllActions.innerQuiet.shortName];
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
+
+    if (isActionEq(action, AllActions.byregotsMiracle)) {
+        if (AllActions.innerQuiet.shortName in s.effects.countUps) {
+            s.effects.countUps[AllActions.innerQuiet.shortName] = Math.floor(s.effects.countUps[AllActions.innerQuiet.shortName] / 2);
         }
         else {
             s.wastedActions += 1;
