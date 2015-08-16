@@ -622,13 +622,18 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
         }
     }
 
-    // Increment inner quiet countups that depend on random component
-    if ((isActionEq(action, AllActions.preciseTouch) && (AllActions.innerQuiet.shortName in s.effects.countUps && s.effects.countUps[AllActions.innerQuiet.shortName] < 10)) && condition.checkGoodOrExcellent()) {
-        s.effects.countUps[AllActions.innerQuiet.shortName] += 2 * successProbability * condition.pGoodOrExcellent();
-    }
-    // Increment all other inner quiet count ups
-    else if ((action.qualityIncreaseMultiplier > 0) && (AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] <= 10) {
-        s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
+    if (AllActions.innerQuiet.shortName in s.effects.countUps) {
+        // Increment inner quiet countups that have conditional requirements
+        if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
+            s.effects.countUps[AllActions.innerQuiet.shortName] += 2 * successProbability * condition.pGoodOrExcellent();
+        }
+        // Increment all other inner quiet count ups
+        else if (action.qualityIncreaseMultiplier > 0) {
+            s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
+        }
+
+        // Cap inner quiet stacks at 10 (11)
+        s.effects.countUps[AllActions.innerQuiet.shortName] = Math.min(s.effects.countUps[AllActions.innerQuiet.shortName], 10);
     }
 
     // Initialize new effects after countdowns are managed to reset them properly
