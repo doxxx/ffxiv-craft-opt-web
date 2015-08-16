@@ -14,10 +14,6 @@ angular.module('ffxivCraftOptWeb.controllers')
     $scope.editSequence = [];
     $scope.availableActions = [];
     $scope.recipe = {};
-    $scope.bonusStats = {};
-    $scope.crafterStats = {};
-    $scope.sequenceSettings = {};
-    $scope.simulatorStatus = {};
 
 
     $scope.$on('sequence.editor.init', function (event, origSequence, recipe, crafterStats, bonusStats, sequenceSettings) {
@@ -25,14 +21,9 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.editSequence = angular.copy(origSequence);
       $scope.availableActions = crafterStats.actions;
       $scope.recipe = recipe;
-      $scope.bonusStats = bonusStats;
-      $scope.crafterStats = crafterStats;
-      $scope.sequenceSettings = sequenceSettings;
-      $scope.simulatorStatus = {};
 
       $scope.unwatchSequence = $scope.$watchCollection('editSequence', function () {
-        $scope.simulate();
-        $scope.$emit('sequence.changed', $scope.editSequence);
+        $scope.$emit('update.sequence', $scope.editSequence);
       });
     });
 
@@ -113,59 +104,6 @@ angular.module('ffxivCraftOptWeb.controllers')
       return !angular.equals($scope.editSequence, $scope.origSequence);
     };
 
-    $scope.simulate = function () {
-      if ($scope.simulatorStatus.running) {
-        return;
-      }
-
-      if ($scope.editSequence.length === 0) {
-        $scope.buffs = [];
-        $scope.$emit('sequence.editor.simulation.empty');
-        return;
-      }
-
-      var settings = {
-        crafter: addCrafterBonusStats($scope.crafterStats, $scope.bonusStats),
-        recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
-        sequence: $scope.editSequence,
-        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
-        useConditions: $scope.sequenceSettings.useConditions,
-        overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
-        debug: $scope.sequenceSettings.debug
-      };
-
-      if ($scope.sequenceSettings.specifySeed) {
-        settings.seed = $scope.sequenceSettings.seed;
-      }
-
-      $scope.simulatorStatus.running = true;
-      $scope.$emit('sequence.editor.simulation.start', $scope.editSequence);
-      _simulator.runMonteCarloSim(settings, $scope.simulationSuccess, $scope.simulationError);
-    };
-
-    $scope.simulationSuccess = function (data) {
-      $scope.buffs = [];
-      for (var name in data.state.effects.countUps) {
-        $scope.buffs.push({ name: name, count: data.state.effects.countUps[name] });
-      }
-      for (var name in data.state.effects.countDowns) {
-        $scope.buffs.push({ name: name, count: data.state.effects.countDowns[name] });
-      }
-      $scope.simulatorStatus.running = false;
-
-      data.sequence = $scope.editSequence;
-      $scope.$emit('sequence.editor.simulation.success', data);
-    };
-
-    $scope.simulationError = function (data) {
-      $scope.simulatorStatus.running = false;
-
-      data.sequence = $scope.editSequence;
-      $scope.$emit('sequence.editor.simulation.error', data);
-    };
-
     $scope.clear = function () {
       $scope.editSequence = [];
     };
@@ -175,15 +113,15 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.save = function () {
-      $scope.$emit('sequence.editor.save', $scope.editSequence);
-
       $scope.unwatchSequence();
+      $scope.$emit('sequence.editor.close');
     };
 
     $scope.cancel = function () {
-      $scope.$emit('sequence.editor.cancel');
+      $scope.$emit('update.sequence', $scope.origSequence);
 
       $scope.unwatchSequence();
+      $scope.$emit('sequence.editor.close');
     };
 
     $scope.$on('$stateChangeStart', function (event) {

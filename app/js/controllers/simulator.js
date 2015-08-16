@@ -206,34 +206,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
 
   $scope.editingSequence = false;
 
-  $scope.$on('sequence.editor.save', function (event, newSequence) {
+  $scope.$on('sequence.editor.close', function () {
     $scope.editingSequence = false;
-    $scope.$emit('update.sequence', newSequence);
-  });
-
-  $scope.$on('sequence.editor.cancel', function () {
-    $scope.editingSequence = false;
-    $scope.$broadcast('simulation.needs.update');
-  });
-
-  $scope.$on('sequence.editor.simulation.start', function (event) {
-    $scope.simulatorStatus.running = true;
-  });
-
-  $scope.$on('sequence.editor.simulation.success', function (event, data) {
-    monteCarloSimSuccess(data);
-  });
-
-  $scope.$on('sequence.editor.simulation.error', function (event, data) {
-    monteCarloSimError(data);
-  });
-
-  $scope.$on('sequence.editor.simulation.empty', function () {
-    $scope.simulatorStatus.sequence = null;
-    $scope.simulatorStatus.monteCarlo.logText = '';
-    $scope.simulatorStatus.probabilistic.logText = '';
-    $scope.simulatorStatus.state = null;
-    $scope.simulatorStatus.error = null;
   });
 
   $scope.editSequenceInline = function () {

@@ -113,7 +113,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
       $scope.$watchCollection('sequence', function () {
         saveLocalPageState($scope);
-        $scope.$broadcast('sequence.changed', $scope.sequence);
         $scope.$broadcast('simulation.needs.update');
       });
 
@@ -145,7 +144,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.$on('update.sequence', function (event, newSequence) {
       $scope.sequence = angular.copy(newSequence);
-      $scope.$broadcast('simulation.needs.update');
     });
 
     //
