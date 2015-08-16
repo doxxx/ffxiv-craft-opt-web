@@ -422,7 +422,9 @@ function ApplyModifiers(s, action, condition) {
 
     // Effects modified by Whistle While You Work
     if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
-        progressIncreaseMultiplier += 0.5;
+        if (progressIncreaseMultiplier > 0) {
+            progressIncreaseMultiplier += 0.5;
+        }
     }
 
     // Effects modifying quality increase multiplier
