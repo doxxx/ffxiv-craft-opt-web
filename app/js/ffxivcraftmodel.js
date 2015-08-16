@@ -391,6 +391,15 @@ function ApplyModifiers(s, action, condition) {
 
     // Effects modifying progress increase multiplier
     var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
+    // Brand actions
+    if (action.shortName.startsWith('brandOf') && s.synth.recipe.hasOwnProperty('aspect')) {
+        if (action.shortName.indexOf(s.recipe.aspect) >= 0) {
+            progressIncreaseMultiplier *= 2;
+        }
+    }
+    else {
+        progressIncreaseMultiplier *= 1;
+    }
 
     // Effects modified by Whistle While You Work
     if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
@@ -1637,11 +1646,19 @@ var AllActions = {
 
     // Specialist Actions
     whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'countdown',  11,  'All',          55),
-    satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
+    //satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
     innovativeTouch: new Action(    'innovativeTouch',      'Innovative Touch',     10,      8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
-    nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
+    //nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
     byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
-    trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.0, 0.0, 'immediate',   1,  'All',          58),
+    //trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.0, 0.0, 'immediate',   1,  'All',          58),
+
+    // Elemental Aspect Actions
+    brandOfEarth: new Action(       'brandOfEarth',         'Brand of Earth',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Leatherworker',37),
+    brandOfFire: new Action(        'brandOfFire',          'Brand of Fire',        10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Blacksmith',   37),
+    brandOfIce: new Action(         'brandOfIce',           'Brand of Ice',         10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      37),
+    brandOfLightning: new Action(   'brandOfLightning',     'Brand of Lightning',   10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Weaver',       37),
+    brandOfWater: new Action(       'brandOfWater',         'Brand of Water',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Alchemist',    37),
+    brandOfWind: new Action(        'brandOfWind',          'Brand of Wind',        10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Carpenter',    37),
 
     /* TODO
     nameofElement: new Action(      'nameofElement',        'Name of Element',       0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
