@@ -101,17 +101,9 @@
   <div class="row-fluid">
     <div class="span12">
       <div class="row-fluid">
-        <div ng-class="{'edit-mode': editingSequence}">
-          <div class="sequence-editor" ng-show="editingSequence" ng-controller="SequenceEditorCtrl">
-            <div class="buffs well well-small">
-              <div class="buff" ng-repeat="buff in buffs track by $index">
-                <span class="image-wrap glossy action">
-                  <img ng-src="{{getActionImagePath(buff.name, recipe.cls)}}"/>
-                </span>
-                <br/>
-                <small>{{buff.count}}</small>
-              </div>
-            </div>
+        <div ng-class="{'edit-mode': editingSequence}" ng-show="editingSequence">
+          <buffs effects="simulatorStatus.state.effects" recipe="recipe"></buffs>
+          <div class="sequence-editor" ng-controller="SequenceEditorCtrl">
             <div class="sequence well well-small">
               <span ng-repeat="action in editSequence track by $index"
                     class="image-wrap glossy action selectable"
@@ -142,44 +134,44 @@
                             on-click="addAction" tooltip-placement="right"/>
             </div>
           </div>
-          <div ng-show="!editingSequence">
-            <action-sequence actions="sequence" cls="recipe.cls" tooltip-placement="right"
-                             action-classes="seqeunceActionClasses"></action-sequence>
+        </div>
+        <div ng-show="!editingSequence">
+          <action-sequence actions="sequence" cls="recipe.cls" tooltip-placement="right"
+                           action-classes="seqeunceActionClasses"></action-sequence>
 
-            <div class="btn-toolbar pull-left">
-              <div class="input-prepend input-append" dropdown>
-                <div class="btn-group">
-                  <button class="btn" dropdown-toggle><span class="caret"></span></button>
-                  <ul class="dropdown-menu left">
-                    <li ng-repeat="name in savedSynthNames | orderBy:'toString()'">
-                      <a ng-click="loadSynth(name)">{{name}}</a>
-                    </li>
-                  </ul>
-                </div>
+          <div class="btn-toolbar pull-left">
+            <div class="input-prepend input-append" dropdown>
+              <div class="btn-group">
+                <button class="btn" dropdown-toggle><span class="caret"></span></button>
+                <ul class="dropdown-menu left">
+                  <li ng-repeat="name in savedSynthNames | orderBy:'toString()'">
+                    <a ng-click="loadSynth(name)">{{name}}</a>
+                  </li>
+                </ul>
+              </div>
                 <span class="uneditable-input span4">
                   <span ng-class="{'invisible': !isSynthDirty()}"><i class="fa fa-asterisk"></i></span>
                   {{synthNameForDisplay()}}
                 </span>
 
-                <div class="btn-group">
-                  <!--
-                    -- Hack for bug in angular-ui-bootstrap (fixed in 0.13)
-                    -- ng-disabled elements don't close their tooltip
-                    -->
-                  <button class="btn" ng-click="saveSynth()" ng-class="{'disabled': !isSynthDirty()}" tooltip="Save"><i class="fa fa-floppy-o"></i></button>
-                  <button class="btn" ng-click="saveSynthAs()" tooltip="Save As"><i class="fa fa-plus"></i></button>
-                  <button class="btn" ng-click="renameSynth()" tooltip="Rename"><i class="fa fa-pencil"></i></button>
-                  <button class="btn" ng-click="deleteSynth()" tooltip="Delete"><i class="fa fa-trash"></i></button>
-                </div>
+              <div class="btn-group">
+                <!--
+                  -- Hack for bug in angular-ui-bootstrap (fixed in 0.13)
+                  -- ng-disabled elements don't close their tooltip
+                  -->
+                <button class="btn" ng-click="saveSynth()" ng-class="{'disabled': !isSynthDirty()}" tooltip="Save"><i class="fa fa-floppy-o"></i></button>
+                <button class="btn" ng-click="saveSynthAs()" tooltip="Save As"><i class="fa fa-plus"></i></button>
+                <button class="btn" ng-click="renameSynth()" tooltip="Rename"><i class="fa fa-pencil"></i></button>
+                <button class="btn" ng-click="deleteSynth()" tooltip="Delete"><i class="fa fa-trash"></i></button>
               </div>
             </div>
+          </div>
 
-            <div class="btn-toolbar pull-right">
-                <button class="btn btn-primary" ng-click="editSequenceInline()" ng-disabled="simulatorStatus.running">
-                  Edit...
-                </button>
-                <button class="btn btn-primary" ng-click="goToSolver()">Solve...</button>
-              </div>
+          <div class="btn-toolbar pull-right">
+            <button class="btn btn-primary" ng-click="editSequenceInline()" ng-disabled="simulatorStatus.running">
+              Edit...
+            </button>
+            <button class="btn btn-primary" ng-click="goToSolver()">Solve...</button>
           </div>
         </div>
       </div>
