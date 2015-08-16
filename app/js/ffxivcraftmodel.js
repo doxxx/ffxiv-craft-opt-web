@@ -835,7 +835,7 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     // Conditions
     var pGood = 0.23;
     var pExcellent = 0.01;
-    var ignoreConditionReq = !s.useConditions;
+    var ignoreConditionReq = !s.synth.useConditions;
     var randomizeConditions = !ignoreConditionReq;
 
     var MonteCarloCondition = {
