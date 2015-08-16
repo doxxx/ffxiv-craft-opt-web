@@ -234,7 +234,7 @@ function EffectTracker() {
     this.countDowns = {};
 }
 
-function State(synth, step, lastStep, action, durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition) {
+function State(synth, step, lastStep, action, durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition) {
     this.synth = synth;
     this.step = step;
     this.lastStep = lastStep;
@@ -245,6 +245,7 @@ function State(synth, step, lastStep, action, durabilityState, cpState, qualityS
     this.progressState = progressState;
     this.wastedActions = wastedActions;
     this.trickUses = trickUses;
+    this.nameOfElementUses = nameOfElementUses;
     this.reliability = reliability;
     if (crossClassActionList === null) {
         this.crossClassActionList = {};
@@ -258,7 +259,7 @@ function State(synth, step, lastStep, action, durabilityState, cpState, qualityS
 }
 
 State.prototype.clone = function () {
-    return new State(this.synth, this.step, this.lastStep, this.action, this.durabilityState, this.cpState, this.qualityState, this.progressState, this.wastedActions, this.trickUses, this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition);
+    return new State(this.synth, this.step, this.lastStep, this.action, this.durabilityState, this.cpState, this.qualityState, this.progressState, this.wastedActions, this.trickUses, this.nameOfElementUses, this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition);
 };
 
 State.prototype.checkViolations = function () {
@@ -308,12 +309,23 @@ function NewStateFromSynth(synth) {
     var progressState = 0;
     var wastedActions = 0;
     var trickUses = 0;
+    var nameOfElementUses = 0;
     var reliability = 1;
     var crossClassActionList = {};
     var effects = new EffectTracker();
     var condition = 'Normal';
 
-    return new State(synth, step, lastStep, '', durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, reliability, crossClassActionList, effects, condition);
+    return new State(synth, step, lastStep, '', durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition);
+}
+
+function calcNameOfMultiplier(s) {
+    /* From http://redd.it/3ejmp2 and http://redd.it/3d3meb
+     Assume for now that the function is linear, but capped with a minimum of 110%
+     */
+    var nameOfMultiplier = -2 * (s.progressState / s.synth.recipe.difficulty) + 3;
+    nameOfMultiplier = Math.max(nameOfMultiplier, 1.1);
+
+    return nameOfMultiplier;
 }
 
 function ApplyModifiers(s, action, condition) {
@@ -392,14 +404,20 @@ function ApplyModifiers(s, action, condition) {
 
     // Effects modifying progress increase multiplier
     var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
+
     // Brand actions
-    if (action.shortName.startsWith('brandOf') && s.synth.recipe.hasOwnProperty('aspect')) {
-        if (action.shortName.indexOf(s.recipe.aspect) >= 0) {
+    if (action.shortName.startsWith('brandOf')) {
+        var nameOfMultiplier = 1;
+        var element = action.shortName.substring('brandOf'.length);
+        var nameOfElement = 'nameOf' + element;
+        if (s.effects.countDowns.hasOwnProperty(nameOfElement)) {
+            nameOfMultiplier = calcNameOfMultiplier(s);
+        }
+
+        progressIncreaseMultiplier *= nameOfMultiplier;
+        if (s.synth.recipe.aspect !== undefined && s.synth.recipe.aspect == element) {
             progressIncreaseMultiplier *= 2;
         }
-    }
-    else {
-        progressIncreaseMultiplier *= 1;
     }
 
     // Effects modified by Whistle While You Work
@@ -608,7 +626,15 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
     }
 
     if (action.type === 'countdown') {
-        s.effects.countDowns[action.shortName] = action.activeTurns;
+        if (action.shortName.indexOf('nameOf') >= 0) {
+            if (s.nameOfElementUses == 0) {
+                s.effects.countDowns[action.shortName] = action.activeTurns;
+                s.nameOfElementUses += 1;
+            }
+        }
+        else {
+            s.effects.countDowns[action.shortName] = action.activeTurns;
+        }
     }
 
     // Maker's Mark has stacks equal to Progress divided by 100 rounded up
@@ -1661,8 +1687,14 @@ var AllActions = {
     brandOfWater: new Action(       'brandOfWater',         'Brand of Water',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Alchemist',    37),
     brandOfWind: new Action(        'brandOfWind',          'Brand of Wind',        10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Carpenter',    37),
 
+    nameOfEarth: new Action(        'nameOfEarth',          'Name of Earth',         0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Leatherworker',54),
+    nameOfFire: new Action(         'nameOfFire',           'Name of Fire',          0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   54),
+    nameOfIce: new Action(          'nameOfIce',            'Name of Ice',           0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
+    nameOfLightning: new Action(    'nameOfLightning',      'Name of Lightning',     0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Weaver',       54),
+    nameOfWater: new Action(        'nameOfWater',          'Name of Water',         0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Alchemist',    54),
+    nameOfWind: new Action(         'nameOfWind',           'Name of Wind',          0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Carpenter',    54),
+
     /* TODO
-    nameofElement: new Action(      'nameofElement',        'Name of Element',       0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
     heartOfTheClass: new Action(    'heartOfTheClass',      'Heart of the Class',    0,     45,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          60),
     */
 

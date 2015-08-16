@@ -59,12 +59,12 @@ var allActions = [
   {"shortName": "brandOfWater", "name": "Brand of Water", "cls": "Alchemist", "level": 37, "skillID": {"Alchemist": 100095}},
   {"shortName": "brandOfWind", "name": "Brand Of the Wind", "cls": "Carpenter", "level": 37, "skillID": {"Carpenter": 100006}},
 
-  //{"shortName": "nameOfEarth", "name": "Name Of Earth", "cls": "Leatherworker", "level": 54, "skillID": {"Leatherworker": 4571}},
-  //{"shortName": "nameOfFire", "name": "Name Of Fire", "cls": "Blacksmith", "level": 54, "skillID": {"Blacksmith": 4569}},
-  //{"shortName": "nameOfIce", "name": "Name Of Ice", "cls": "Armorer", "level": 54, "skillID": {"Armorer": 4570}},
-  //{"shortName": "nameOfLightning", "name": "Name Of Lightning", "cls": "Weaver", "level": 54, "skillID": {"Weaver": 4572}},
-  //{"shortName": "nameOfWater", "name": "Name of Water", "cls": "Alchemist", "level": 54, "skillID": {"Alchemist": 4573}},
-  //{"shortName": "nameOfWind", "name": "Name Of the Wind", "cls": "Carpenter", "level": 54, "skillID": {"Carpenter": 4568}},
+  {"shortName": "nameOfEarth", "name": "Name Of Earth", "cls": "Leatherworker", "level": 54, "skillID": {"Leatherworker": 4571}},
+  {"shortName": "nameOfFire", "name": "Name Of Fire", "cls": "Blacksmith", "level": 54, "skillID": {"Blacksmith": 4569}},
+  {"shortName": "nameOfIce", "name": "Name Of Ice", "cls": "Armorer", "level": 54, "skillID": {"Armorer": 4570}},
+  {"shortName": "nameOfLightning", "name": "Name Of Lightning", "cls": "Weaver", "level": 54, "skillID": {"Weaver": 4572}},
+  {"shortName": "nameOfWater", "name": "Name of Water", "cls": "Alchemist", "level": 54, "skillID": {"Alchemist": 4573}},
+  {"shortName": "nameOfWind", "name": "Name Of the Wind", "cls": "Carpenter", "level": 54, "skillID": {"Carpenter": 4568}},
 
   //{"shortName": "heartOfTheAlchemist", "name": "Heart of the Alchemist", "cls": "Alchemist", "level": 60, "common": true, "skillID": {"Alchemist": 100185}},
   //{"shortName": "heartOfTheArmorer", "name": "Heart of the Armorer", "cls": "Armorer", "level": 60, "common": true, "skillID": {"Armorer": 100181}},
@@ -122,12 +122,6 @@ var actionGroups = [
     "brandOfLightning",
     "brandOfWater",
     "brandOfWind",
-    //"nameOfEarth",
-    //"nameOfFire",
-    //"nameOfIce",
-    //"nameOfLightning",
-    //"nameOfWater",
-    //"nameOfWind",
   ]
   },
   {
@@ -181,6 +175,12 @@ var actionGroups = [
     //"heartOfTheGoldsmith",
     //"heartOfTheLeatherworker",
     //"heartOfTheWeaver"
+    "nameOfEarth",
+    "nameOfFire",
+    "nameOfIce",
+    "nameOfLightning",
+    "nameOfWater",
+    "nameOfWind",
   ]
   },
   {
