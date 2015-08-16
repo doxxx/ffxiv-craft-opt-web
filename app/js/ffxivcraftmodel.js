@@ -519,6 +519,17 @@ function ApplyModifiers(s, action, condition) {
     };
 }
 
+function useConditionalAction (s, condition) {
+    if (s.cpState > 0 && condition.checkGoodOrExcellent()) {
+        s.trickUses += 1;
+        return true;
+    }
+    else {
+        s.wastedActions += 1;
+        return false;
+    }
+}
+
 function ApplySpecialActionEffects(s, action, condition) {
     // STEP_02
     // Effect management
@@ -572,23 +583,21 @@ function ApplySpecialActionEffects(s, action, condition) {
         delete s.effects.countDowns[AllActions.greatStrides.shortName];
     }
 
-    // Manage effects with random component
-    if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0 && condition.checkGoodOrExcellent()) {
-        s.trickUses += 1;
-        s.cpState += 20 * condition.pGoodOrExcellent();
-    }
-    else if (isActionEq(action, AllActions.tricksOfTheTrade) && s.cpState > 0) {
-        s.wastedActions += 1;
-    }
+    // Manage effects with conditional requirements
+    if (action.onExcellent || action.onGood) {
+        if (useConditionalAction(s, condition)) {
+            if (isActionEq(action, AllActions.tricksOfTheTrade)) {
+                s.cpState += 20 * condition.pGoodOrExcellent();
+            }
 
-    if (isActionEq(action, AllActions.byregotsBrow) && condition.checkGoodOrExcellent()) {
-        if (AllActions.innerQuiet.shortName in s.effects.countUps) {
-            s.trickUses += 1;
-            //s.effects.countUps[AllActions.innerQuiet.shortName] *= (1 - condition.pGoodOrExcellent());
-            delete s.effects.countUps[AllActions.innerQuiet.shortName];
-        }
-        else {
-            s.wastedActions += 1;
+            if (isActionEq(action, AllActions.byregotsBrow)) {
+                if (AllActions.innerQuiet.shortName in s.effects.countUps) {
+                    delete s.effects.countUps[AllActions.innerQuiet.shortName];
+                }
+                else {
+                    s.wastedActions += 1;
+                }
+            }
         }
     }
 }
