@@ -9,15 +9,24 @@ angular.module('ffxivCraftOptWeb.components')
         sequence: '=',
         options: '='
       },
-      controller: function ($scope, $translate, _actionsByName) {
+      controller: function ($scope, $translate, _actionsByName, _allActions) {
         var update = function() {
           if (typeof $scope.sequence == 'undefined') {
             return '';
           }
 
+          var buffs = {};
+          for (var i = 0; i < _allActions.length; i++) {
+            var action = _allActions[i];
+            if (action.buff) {
+              buffs[action.shortName] = true;
+            }
+          }
+
           var maxLines = 14;
 
           var waitString = '<wait.' + $scope.options.waitTime + '>';
+          var buffWaitString = '<wait.' + $scope.options.buffWaitTime + '>';
           var stepSoundEffect = '<se.' + $scope.options.stepSoundEffect + '>';
           var finishSoundEffect = '<se.' + $scope.options.finishSoundEffect + '>';
 
@@ -28,7 +37,15 @@ angular.module('ffxivCraftOptWeb.components')
             var info = _actionsByName[action];
             if (info) {
               var actionName = $translate.instant(info.name);
-              lines.push('/ac "' + actionName + '" <me> ' + waitString + '\n');
+              var line = '/ac "' + actionName + '" <me> ';
+              if (buffs[action]) {
+                line += buffWaitString;
+              }
+              else {
+                line += waitString;
+              }
+              line += '\n';
+              lines.push(line);
             }
             else {
               lines.push('/echo Error: Unknown action ' + action);

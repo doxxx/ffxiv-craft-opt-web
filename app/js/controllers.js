@@ -346,6 +346,7 @@ function initPageStateDefaults($scope) {
 
   $scope.macroOptions = {
     waitTime: 3,
+    buffWaitTime: 2,
     stepSoundEffect: 1,
     finishSoundEffect: 14
   };
