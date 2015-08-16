@@ -632,18 +632,22 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
                 s.nameOfElementUses += 1;
             }
         }
+        else if (isActionEq(action, AllActions.makersMark)) {
+            if (s.step == 1 ) {
+                // Maker's Mark has stacks equal to difficulty divided by 100 rounded up http://redd.it/3ckrmk
+                var makersMarkStacks = Math.ceil(s.synth.recipe.difficulty / 100);
+                if (makersMarkStacks == 0) {
+                    makersMarkStacks = 1;
+                }
+                s.effects.countDowns[action.shortName] = makersMarkStacks;
+            }
+            else {
+                s.wastedActions += 1;
+            }
+        }
         else {
             s.effects.countDowns[action.shortName] = action.activeTurns;
         }
-    }
-
-    // Maker's Mark has stacks equal to Progress divided by 100 rounded up
-    if (isActionEq(action, AllActions.makersMark)) {
-        var makersMarkStacks = Math.ceil(s.progressState / 100);
-        if (makersMarkStacks == 0) {
-            makersMarkStacks = 1;
-        }
-        s.effects.countDowns[action.shortName] = makersMarkStacks;
     }
 
     // Innovative Touch activates innovation
@@ -1668,7 +1672,7 @@ var AllActions = {
     //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
     byregotsBrow: new Action(       'byregotsBrow',         'Byregot\'s Brow',      10,     18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51,  true,       true),
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
-    makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 1.0, 0.0, 'countdown',   1,  'Goldsmith',    54), // based on description of behaviour here: http://redd.it/3ckrmk
+    makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 0.0, 0.0, 'countdown',   1,  'Goldsmith',    54), // based on description of behaviour here: http://redd.it/3ckrmk
     muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
 
     // Specialist Actions
