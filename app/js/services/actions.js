@@ -50,7 +50,7 @@ var allActions = [
   {"shortName": "innovativeTouch", "name": "Innovative Touch", "cls": "All", "level": 56, "common": true, "skillID": {"Alchemist": 100143, "Armorer": 100139, "Blacksmith": 100138, "Carpenter": 100137, "Culinarian": 100144, "Goldsmith": 100140, "Leatherworker": 100141, "Weaver": 100142}},
   {"shortName": "nymeiasWheel", "name": "Nymeia's Wheel", "cls": "All", "level": 57, "common": true, "skillID": {"Alchemist": 100159, "Armorer": 100155, "Blacksmith": 100154, "Carpenter": 100153, "Culinarian": 100160, "Goldsmith": 100156, "Leatherworker": 100157, "Weaver": 100158}},
   {"shortName": "byregotsMiracle", "name": "Byregot's Miracle", "cls": "All", "level": 58, "common": true, "skillID": {"Alchemist": 100151, "Armorer": 100147, "Blacksmith": 100146, "Carpenter": 100145, "Culinarian": 100152, "Goldsmith": 100148, "Leatherworker": 100149, "Weaver": 100150}},
-  //{"shortName": "trainedHand", "name": "Trained Hand", "cls": "All", "level": 59, "common": true, "skillID": {"Alchemist": 100167, "Armorer": 100163, "Blacksmith": 100162, "Carpenter": 100161, "Culinarian": 100168, "Goldsmith": 100164, "Leatherworker": 100165, "Weaver": 100166}},
+  {"shortName": "trainedHand", "name": "Trained Hand", "cls": "All", "level": 59, "common": true, "skillID": {"Alchemist": 100167, "Armorer": 100163, "Blacksmith": 100162, "Carpenter": 100161, "Culinarian": 100168, "Goldsmith": 100164, "Leatherworker": 100165, "Weaver": 100166}},
 
   {"shortName": "brandOfEarth", "name": "Brand Of Earth", "cls": "Leatherworker", "level": 37, "skillID": {"Leatherworker": 100050}},
   {"shortName": "brandOfFire", "name": "Brand Of Fire", "cls": "Blacksmith", "level": 37, "skillID": {"Blacksmith": 100020}},
@@ -115,13 +115,13 @@ var actionGroups = [
     "pieceByPiece",
     "rapidSynthesis",
     "muscleMemory",
-    //"trainedHand"
+    "trainedHand",
     "brandOfEarth",
     "brandOfFire",
     "brandOfIce",
     "brandOfLightning",
     "brandOfWater",
-    "brandOfWind",
+    "brandOfWind"
   ]
   },
   {
@@ -135,7 +135,7 @@ var actionGroups = [
     "preciseTouch",
     "innovativeTouch",
     "byregotsMiracle",
-    //"trainedHand"
+    "trainedHand"
   ]
   },
   {
@@ -174,13 +174,13 @@ var actionGroups = [
     //"heartOfTheCulinarian",
     //"heartOfTheGoldsmith",
     //"heartOfTheLeatherworker",
-    //"heartOfTheWeaver"
+    //"heartOfTheWeaver",
     "nameOfEarth",
     "nameOfFire",
     "nameOfIce",
     "nameOfLightning",
     "nameOfWater",
-    "nameOfWind",
+    "nameOfWind"
   ]
   },
   {

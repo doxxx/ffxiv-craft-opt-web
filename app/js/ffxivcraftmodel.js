@@ -451,6 +451,10 @@ function ApplyModifiers(s, action, condition) {
         }
     }
 
+    if (isActionEq(action, AllActions.trainedHand) && !condition.checkInnerQuietEqWhistle()) {
+        bProgressGain = 0;
+    }
+
     // Effects modifying quality
     var bQualityGain = qualityIncreaseMultiplier * s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.shortName in s.effects.countUps) {
@@ -464,6 +468,9 @@ function ApplyModifiers(s, action, condition) {
     }
     if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
         bQualityGain *= condition.pGoodOrExcellent();
+    }
+    if (isActionEq(action, AllActions.trainedHand) && !condition.checkInnerQuietEqWhistle()) {
+        bQualityGain = 0;
     }
 
     // Effects modifying durability cost
@@ -732,6 +739,18 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
             else {
                 return ppGood + ppExcellent;
             }
+        },
+        checkInnerQuietEqWhistle: function () {
+            if (ignoreConditionReq) {
+                return true;
+            }
+            else if (s.effects.countUps[AllActions.innerQuiet.shortName] + 1 == s.effects.countDowns[AllActions.whistle.shortName]) {
+                // Until we figure out how to model this
+                return true;
+            }
+            else {
+                return false;
+            }
         }
     };
 
@@ -874,6 +893,15 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
         },
         pGoodOrExcellent: function () {
             return 1;
+        },
+        checkInnerQuietEqWhistle: function () {
+            if (s.effects.countUps[AllActions.innerQuiet.shortName] + 1 == s.effects.countDowns[AllActions.whistle.shortName]) {
+                // Until we figure out how to model this
+                return true;
+            }
+            else {
+                return false;
+            }
         }
     };
 
@@ -1706,7 +1734,7 @@ var AllActions = {
     innovativeTouch: new Action(    'innovativeTouch',      'Innovative Touch',     10,      8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
     nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
     byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
-    //trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.5, 1.5, 'immediate',   1,  'All',          58),
+    trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.5, 1.5, 'immediate',   1,  'All',          58),
 
     // Elemental Aspect Actions
     brandOfEarth: new Action(       'brandOfEarth',         'Brand of Earth',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Leatherworker',37),
