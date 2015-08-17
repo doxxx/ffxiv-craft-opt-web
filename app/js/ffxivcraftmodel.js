@@ -547,6 +547,15 @@ function ApplySpecialActionEffects(s, action, condition) {
         s.durabilityState += 10;
     }
 
+    if (isActionEq(action, AllActions.nymeiasWheel)) {
+        if (AllActions.whistle.shortName in s.effects.countDowns) {
+            s.durabilityState += NymeaisWheelTable[s.effects.countDowns[AllActions.whistle.shortName]];
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
+
     if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.shortName in s.effects.countDowns && s.cpState > 0) {
         s.cpState += 8;
     }
@@ -1695,7 +1704,7 @@ var AllActions = {
     whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'countdown',  11,  'All',          55),
     //satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
     innovativeTouch: new Action(    'innovativeTouch',      'Innovative Touch',     10,      8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
-    //nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
+    nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
     byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
     //trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.5, 1.5, 'immediate',   1,  'All',          58),
 
@@ -1797,6 +1806,20 @@ var Ing2RecipeLevelTable = {
     160: 150,   // 60_1star
     170: 151.15 // 60_2star
 };
+
+var NymeaisWheelTable = {
+    1: 30,
+    2: 30,
+    3: 30,
+    4: 20,
+    5: 20,
+    6: 20,
+    7: 10,
+    8: 10,
+    9: 10,
+    10: 10,
+    11: 10
+}
 
 // Test objects
 //cls, level, craftsmanship, control, craftPoints, actions
