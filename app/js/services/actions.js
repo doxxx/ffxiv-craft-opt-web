@@ -46,7 +46,7 @@ var allActions = [
   {"shortName": "makersMark", "name": "Maker's Mark", "cls": "Goldsmith", "level": 54, buff: true, "skillID": {"Goldsmith": 100178}},
   {"shortName": "muscleMemory", "name": "Muscle Memory", "cls": "Culinarian", "level": 54, "skillID": {"Culinarian": 100136}},
   //{"shortName": "satisfaction", "name": "Satisfaction", "cls": "All", "level": 55, "common": true, "skillID": {"Alchemist": 100175, "Armorer": 100171, "Blacksmith": 100170, "Carpenter": 100169, "Culinarian": 100176, "Goldsmith": 100172, "Leatherworker": 100173, "Weaver": 100174}},
-  //{"shortName": "whistle", "name": "Whistle While You Work", "cls": "All", "level": 55, "common": true, buff: true, "skillID": {"Alchemist": 100193, "Armorer": 100189, "Blacksmith": 100188, "Carpenter": 100187, "Culinarian": 100194, "Goldsmith": 100190, "Leatherworker": 100191, "Weaver": 100192}},
+  {"shortName": "whistle", "name": "Whistle While You Work", "cls": "All", "level": 55, "common": true, buff: true, "skillID": {"Alchemist": 100193, "Armorer": 100189, "Blacksmith": 100188, "Carpenter": 100187, "Culinarian": 100194, "Goldsmith": 100190, "Leatherworker": 100191, "Weaver": 100192}},
   {"shortName": "innovativeTouch", "name": "Innovative Touch", "cls": "All", "level": 56, "common": true, "skillID": {"Alchemist": 100143, "Armorer": 100139, "Blacksmith": 100138, "Carpenter": 100137, "Culinarian": 100144, "Goldsmith": 100140, "Leatherworker": 100141, "Weaver": 100142}},
   //{"shortName": "nymeiasWheel", "name": "Nymeia's Wheel", "cls": "All", "level": 57, "common": true, "skillID": {"Alchemist": 100159, "Armorer": 100155, "Blacksmith": 100154, "Carpenter": 100153, "Culinarian": 100160, "Goldsmith": 100156, "Leatherworker": 100157, "Weaver": 100158}},
   {"shortName": "byregotsMiracle", "name": "Byregot's Miracle", "cls": "All", "level": 58, "common": true, "skillID": {"Alchemist": 100151, "Armorer": 100147, "Blacksmith": 100146, "Carpenter": 100145, "Culinarian": 100152, "Goldsmith": 100148, "Leatherworker": 100149, "Weaver": 100150}},
@@ -166,7 +166,7 @@ var actionGroups = [
     "greatStrides",
     "innovation",
     "makersMark",
-    //"whistle"
+    "whistle",
     //"heartOfTheAlchemist"
     //"heartOfTheArmorer",
     //"heartOfTheBlacksmith",
