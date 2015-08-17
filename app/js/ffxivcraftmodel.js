@@ -617,6 +617,16 @@ function ApplySpecialActionEffects(s, action, condition) {
             }
         }
     }
+
+    // Effects modified by Whistle While You Work
+    if (isActionEq(action, AllActions.satisfaction) && s.cpState > 0) {
+        if (condition.checkWhistleThrees()) {
+            s.cpState += 15;
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
 }
 
 function UpdateEffectCounters(s, action, condition, successProbability) {
@@ -746,6 +756,18 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
                 return true;
             }
             else if (s.effects.countUps[AllActions.innerQuiet.shortName] + 1 == s.effects.countDowns[AllActions.whistle.shortName]) {
+                // Until we figure out how to model this
+                return true;
+            }
+            else {
+                return false;
+            }
+        },
+        checkWhistleThrees: function () {
+            if (ignoreConditionReq) {
+                return true;
+            }
+            else if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
                 // Until we figure out how to model this
                 return true;
             }
@@ -896,7 +918,22 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
             return 1;
         },
         checkInnerQuietEqWhistle: function () {
-            if (s.effects.countUps[AllActions.innerQuiet.shortName] + 1 == s.effects.countDowns[AllActions.whistle.shortName]) {
+            if (ignoreConditionReq) {
+                return true;
+            }
+            else if (s.effects.countUps[AllActions.innerQuiet.shortName] + 1 == s.effects.countDowns[AllActions.whistle.shortName]) {
+                // Until we figure out how to model this
+                return true;
+            }
+            else {
+                return false;
+            }
+        },
+        checkWhistleThrees: function () {
+            if (ignoreConditionReq) {
+                return true;
+            }
+            else if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
                 // Until we figure out how to model this
                 return true;
             }
@@ -1731,7 +1768,7 @@ var AllActions = {
 
     // Specialist Actions
     whistle: new Action(            'whistle',           'Whistle While You Work',   0,     36,  1.0, 0.0, 0.0, 'countdown',  11,  'All',          55),
-    //satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
+    satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
     innovativeTouch: new Action(    'innovativeTouch',      'Innovative Touch',     10,      8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
     nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
     byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
