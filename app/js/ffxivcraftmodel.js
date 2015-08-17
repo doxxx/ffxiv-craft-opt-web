@@ -557,6 +557,7 @@ function ApplySpecialActionEffects(s, action, condition) {
     if (isActionEq(action, AllActions.nymeiasWheel)) {
         if (AllActions.whistle.shortName in s.effects.countDowns) {
             s.durabilityState += NymeaisWheelTable[s.effects.countDowns[AllActions.whistle.shortName]];
+            delete s.effects.countDowns[AllActions.whistle.shortName];
         }
         else {
             s.wastedActions += 1;
