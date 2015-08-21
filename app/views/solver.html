@@ -13,11 +13,13 @@
   </div>
   <div ng-show="pageState.solverStatus.running">
     <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
-    <progressbar class="progress-striped active"
-                 animate="false"
-                 value="pageState.solverStatus.generationsCompleted/pageState.solverStatus.maxGenerations*100">
-      {{pageState.solverStatus.generationsCompleted}}/{{pageState.solverStatus.maxGenerations}}
-    </progressbar>
+    <div class="sequence well well-small">
+      <progressbar class="progress-striped active"
+                   animate="false"
+                   value="pageState.solverStatus.generationsCompleted/pageState.solverStatus.maxGenerations*100">
+        {{pageState.solverStatus.generationsCompleted}}/{{pageState.solverStatus.maxGenerations}}
+      </progressbar>
+    </div>
   </div>
   <div ng-show="!pageState.solverStatus.running">
     <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
