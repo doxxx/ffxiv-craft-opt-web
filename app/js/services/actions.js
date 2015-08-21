@@ -115,7 +115,6 @@ var actionGroups = [
     "pieceByPiece",
     "rapidSynthesis",
     "muscleMemory",
-    "trainedHand",
     "brandOfEarth",
     "brandOfFire",
     "brandOfIce",
@@ -132,18 +131,14 @@ var actionGroups = [
     "hastyTouch",
     "byregotsBlessing",
     "byregotsBrow",
-    "preciseTouch",
-    "innovativeTouch",
-    "byregotsMiracle",
-    "trainedHand"
+    "preciseTouch"
   ]
   },
   {
     name: "CP", actions: [
     "comfortZone",
     "rumination",
-    "tricksOfTheTrade",
-    "satisfaction"
+    "tricksOfTheTrade"
   ]
   },
   {
@@ -152,8 +147,7 @@ var actionGroups = [
     "mastersMend2",
     "wasteNot",
     "wasteNot2",
-    "manipulation",
-    "nymeiasWheel"
+    "manipulation"
   ]
   },
   {
@@ -166,7 +160,22 @@ var actionGroups = [
     "greatStrides",
     "innovation",
     "makersMark",
+    "nameOfEarth",
+    "nameOfFire",
+    "nameOfIce",
+    "nameOfLightning",
+    "nameOfWater",
+    "nameOfWind"
+  ]
+  },
+  {
+    name: "Specialist", actions: [
     "whistle",
+    "satisfaction",
+    "innovativeTouch",
+    "nymeiasWheel",
+    "byregotsMiracle",
+    "trainedHand"
     //"heartOfTheAlchemist"
     //"heartOfTheArmorer",
     //"heartOfTheBlacksmith",
@@ -175,12 +184,6 @@ var actionGroups = [
     //"heartOfTheGoldsmith",
     //"heartOfTheLeatherworker",
     //"heartOfTheWeaver",
-    "nameOfEarth",
-    "nameOfFire",
-    "nameOfIce",
-    "nameOfLightning",
-    "nameOfWater",
-    "nameOfWind"
   ]
   },
   {
