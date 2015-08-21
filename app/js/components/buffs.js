@@ -19,7 +19,7 @@ angular.module('ffxivCraftOptWeb.components')
           var effects = $scope.effects;
           if (effects) {
             for (var name in effects.countUps) {
-              $scope.buffs.push({name: name, count: effects.countUps[name]});
+              $scope.buffs.push({name: name, count: effects.countUps[name] + 1});
             }
             for (var name in effects.countDowns) {
               $scope.buffs.push({name: name, count: effects.countDowns[name]});
