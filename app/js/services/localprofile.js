@@ -73,6 +73,10 @@ var LocalProfileService = function(_allClasses, _actionsByName) {
     }
   }
 
+  if (localStorage['lodestoneID']) {
+    this.lodestoneID = JSON.parse(localStorage['lodestoneID']);
+  }
+
   if (modified) {
     this.persist();
   }
@@ -126,9 +130,19 @@ LocalProfileService.prototype.getCrafterStats = function () {
   return angular.copy(this.crafterStats);
 };
 
+LocalProfileService.prototype.getLodestoneID = function () {
+  return this.lodestoneID;
+};
+
+LocalProfileService.prototype.setLodestoneID = function (id) {
+  this.lodestoneID = id;
+  this.persist();
+};
+
 LocalProfileService.prototype.persist = function() {
   localStorage['synths'] = JSON.stringify(this.synths);
   localStorage['crafterStats'] = JSON.stringify(this.crafterStats);
+  if (this.lodestoneID) localStorage['lodestoneID'] = JSON.stringify(this.lodestoneID);
 };
 
 angular.module('ffxivCraftOptWeb.services.localprofile', []).

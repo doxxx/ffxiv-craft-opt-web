@@ -701,3 +701,40 @@ legend + .control-group {
 .flat-button:active {
   background-color: #dddddd;
 }
+
+/* Character Import */
+
+.charimport-result {
+  padding: 5px;
+  border: solid 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.charimport-result-name {
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.charimport-result .text-error {
+  text-align: center;
+  vertical-align: middle;
+  font-size: large;
+}
+
+.charimport-result.selected {
+  border: solid 1px rgba(0, 0, 255, 0.3);
+  background: rgba(0, 0, 255, 0.1);
+}
+
+.charimport-result:hover {
+  background: rgba(0, 0, 255, 0.2);
+}
+
+.charimport-result td {
+  padding: 3px;
+}
+
+.charimport-result td.number {
+  text-align: right;
+}

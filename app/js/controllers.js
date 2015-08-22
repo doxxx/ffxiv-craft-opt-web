@@ -134,6 +134,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
       // Trigger initial simulation using newly loaded profile
       $scope.$broadcast('simulation.needs.update');
+
+      $scope.$broadcast('profile.loaded');
     };
 
     // data model interaction functions
