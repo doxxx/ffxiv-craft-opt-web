@@ -11,8 +11,11 @@
     </button>
     <button class="btn" ng-click="showOptionsModal()">Options...</button>
   </div>
+  <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
+  <h5>Initial Guess</h5>
+  <action-sequence class="sequence-small" cls="recipe.cls" actions="sequence" action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
   <div ng-show="pageState.solverStatus.running">
-    <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
+    <h5>Working...</h5>
     <div class="sequence well well-small">
       <progressbar class="progress-striped active"
                    animate="false"
@@ -22,7 +25,7 @@
     </div>
   </div>
   <div ng-show="!pageState.solverStatus.running">
-    <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
+    <h5>Solver Result</h5>
     <div ng-class="{'disabled-action-list': pageState.solverStatus.sequence.equals(sequence)}">
       <action-sequence cls="recipe.cls" actions="pageState.solverStatus.sequence" action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
     </div>

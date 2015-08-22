@@ -187,7 +187,6 @@ legend small > .light {
   border-radius: 10px;
   padding: 10px;
   border-collapse: separate;
-  margin-bottom: 20px;
 }
 
 .simulator-status td {
@@ -220,7 +219,7 @@ legend small > .light {
   text-align: center;
 }
 
-.buff .action {
+.buff .icon {
   width: 50%;
 }
 
@@ -473,7 +472,7 @@ div[content*="xivdb"] div.tooltip-arrow {
   opacity: 0.4
 }
 
-.image-wrap.action {
+.image-wrap.icon {
   margin: 4px;
 }
 
@@ -487,19 +486,6 @@ div[content*="xivdb"] div.tooltip-arrow {
   font-weight: bold;
   margin-bottom: 0px;
 }
-
-/*
-.action-table .action {
-  opacity: 0.4;
-}
-*/
-
-/*
-.action-table .selected-action {
-  opacity: 1;
-  box-shadow: #00aaff 1px 1px 5px 1px;
-}
-*/
 
 
 
@@ -553,11 +539,23 @@ legend + .control-group {
   margin-bottom: 10px;
 }
 
+.sequence .action {
+  display: inline-block;
+}
+
+.sequence-small {
+  min-height: 30px;
+}
+
+.sequence-small .action {
+  max-width: 36px;
+}
+
 .disabled-action-list {
   opacity: 0.4;
 }
 
-.sequence .invalid-action {
+.sequence .faded-icon {
   opacity: 0.4;
 }
 
@@ -568,11 +566,11 @@ legend + .control-group {
 
 /* Sequence Editor */
 
-.sequence-editor .action {
+.sequence-editor .icon {
   opacity: 1;
 }
 
-.sequence-editor .invalid-action {
+.sequence-editor .faded-icon {
   opacity: 0.4;
 }
 

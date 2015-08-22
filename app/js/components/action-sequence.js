@@ -6,6 +6,7 @@ angular.module('ffxivCraftOptWeb.components')
       restrict: 'E',
       templateUrl: 'components/action-sequence.html',
       scope: {
+        class: '@',
         actions: '=',
         cls: '=',
         onClick: '=',

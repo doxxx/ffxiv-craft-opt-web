@@ -198,9 +198,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
 
   $scope.seqeunceActionClasses = function (action, cls) {
     return {
-      'selected-action': $scope.isActionSelected(action, cls),
       'action-cross-class': $scope.isActionCrossClass(action, cls),
-      'invalid-action': !$scope.isActionSelected(action, cls)
+      'faded-icon': !$scope.isActionSelected(action, cls)
     }
   };
 
