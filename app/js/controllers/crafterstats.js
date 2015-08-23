@@ -43,4 +43,19 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsControlle
     }
   };
 
+  $scope.selectActionsByLevel = function (cls) {
+    var stats = $scope.crafter.stats[cls];
+    var actions = [];
+
+    for (var i = 0; i < _allActions.length; i++) {
+      var action = _allActions[i];
+      var actionClass = action.cls === "All" ? cls : action.cls;
+      if (action.level <= $scope.crafter.stats[actionClass].level) {
+        actions.push(action.shortName);
+      }
+    }
+
+    stats.actions = actions;
+  };
+
 });
