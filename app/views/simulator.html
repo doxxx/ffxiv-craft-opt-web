@@ -107,7 +107,7 @@
             <div class="sequence well well-small">
               <div ng-repeat="action in editSequence track by $index"
                     class="image-wrap glossy icon selectable"
-                    ng-class="actionClasses(action, recipe.cls)"
+                    ng-class="actionClasses(action, recipe.cls, $index)"
                     ng-click="removeAction($index)"
                     lvl-draggable="true"
                     lvl-drop-target="true"

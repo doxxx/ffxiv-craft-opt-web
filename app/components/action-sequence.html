@@ -1,7 +1,7 @@
 <div class="sequence well well-small" ng-class="class">
   <div class="action" ng-repeat="action in actions track by $index">
     <div class="image-wrap glossy icon"
-          ng-class="_actionClasses(action, cls)"
+          ng-class="_actionClasses(action, cls, $index)"
           tooltip-html-unsafe="{{actionTooltip(action, cls)}}"
           tooltip-placement="{{tooltipPlacement}}"
           tooltip-popup-delay="1000"

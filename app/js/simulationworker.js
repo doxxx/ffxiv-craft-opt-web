@@ -136,7 +136,8 @@ function runMonteCarloSim(id, settings) {
         feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
         violations: violations,
         condition: finalState.condition,
-        effects: finalState.effects
+        effects: finalState.effects,
+        lastStep: finalState.lastStep
       }
     }
   };

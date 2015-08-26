@@ -196,10 +196,14 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   // SEQUENCE EDITOR
   //
 
-  $scope.seqeunceActionClasses = function (action, cls) {
+  $scope.seqeunceActionClasses = function (action, cls, index) {
+    var wastedAction = $scope.simulatorStatus.state && (index + 1 > $scope.simulatorStatus.state.lastStep);
+    var cpExceeded = _actionsByName[action].cpCost > $scope.simulatorStatus.state.cp;
     return {
-      'faded-icon': !$scope.isActionSelected(action, cls)
-    }
+      'faded-icon': !$scope.isActionSelected(action, cls),
+      'wasted-action': wastedAction,
+      'action-no-cp': wastedAction && cpExceeded
+    };
   };
 
   $scope.editingSequence = false;

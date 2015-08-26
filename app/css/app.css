@@ -456,6 +456,10 @@ div[content*="xivdb"] div.tooltip-arrow {
   line-height: 10px;
 }
 
+.icon.wasted-action .cp {
+  opacity: 0.4;
+}
+
 .icon.faded .cp {
   opacity: 0.4;
 }
@@ -484,6 +488,10 @@ div[content*="xivdb"] div.tooltip-arrow {
   border-radius: 5px;
 }
 
+.image-wrap.wasted-action:after {
+  opacity: 0.4;
+}
+
 .image-wrap.faded:after {
   border: solid 1px #707070;
   opacity: 0.4;
@@ -493,6 +501,11 @@ div[content*="xivdb"] div.tooltip-arrow {
   vertical-align: bottom;
   box-shadow: black 2px 2px 6px 0;
   border-radius: 4px;
+}
+
+.image-wrap.wasted-action img {
+  box-shadow: red 2px 2px 6px 0;
+  opacity: 0.4;
 }
 
 .image-wrap.faded img {

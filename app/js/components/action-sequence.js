@@ -21,10 +21,10 @@ angular.module('ffxivCraftOptWeb.components')
 
         $scope.actionTooltip = _xivdbtooltips.actionTooltip.bind(_xivdbtooltips);
 
-        $scope._actionClasses = function (action, cls) {
+        $scope._actionClasses = function (action, cls, index) {
           var classes = {};
           if ($scope.actionClasses) {
-            classes = $scope.actionClasses(action, cls);
+            classes = $scope.actionClasses(action, cls, index);
           }
           return classes;
         };
