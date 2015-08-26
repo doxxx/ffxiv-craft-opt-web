@@ -210,19 +210,6 @@ legend small > .light {
   font-size: larger;
 }
 
-.buffs {
-  min-height: 55px;
-}
-
-.buffs .buff {
-  display: inline-block;
-  text-align: center;
-}
-
-.buff .icon {
-  width: 50%;
-}
-
 div[content*="xivdb"] div.tooltip-inner {
   max-width: 320px;
   background: none;
@@ -417,6 +404,36 @@ div[content*="xivdb"] div.tooltip-arrow {
   display: inline-block;
 }
 
+.icon img {
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.buffs {
+  min-height: 55px;
+}
+
+.buffs .buff {
+  display: inline-block;
+  text-align: center;
+}
+
+.buff .icon {
+  width: 50%;
+}
+
+.buff .icon img {
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.sequence-small .icon img {
+  min-width: 36px;
+  min-height: 36px;
+  max-width: 36px;
+  max-height: 36px;
+}
+
 .selectable {
   cursor: pointer;
 }
@@ -549,10 +566,6 @@ legend + .control-group {
 
 .sequence-small {
   min-height: 30px;
-}
-
-.sequence-small .action {
-  max-width: 36px;
 }
 
 .disabled-action-list {
