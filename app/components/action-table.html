@@ -1,7 +1,7 @@
 <div class="action-group" ng-repeat="actionGroup in actionGroups">
   <label class="action-group-label">{{actionGroup.name}}</label>
   <div class="action-group-actions">
-    <span ng-repeat="action in actionGroup.actions track by $index"
+    <div ng-repeat="action in actionGroup.actions track by $index"
           ng-click="onClick(action, cls)"
           class="image-wrap glossy icon"
           ng-class="_actionClasses(action, cls)"
@@ -12,6 +12,6 @@
           tooltip-popup-delay="1000"
           tooltip-append-to-body="true">
       <img ng-src="{{getActionImagePath(action, cls)}}"/>
-    </span>
+    </div>
   </div>
 </div>

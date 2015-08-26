@@ -413,6 +413,10 @@ div[content*="xivdb"] div.tooltip-arrow {
 
 /* Actions */
 
+.icon {
+  display: inline-block;
+}
+
 .selectable {
   cursor: pointer;
 }

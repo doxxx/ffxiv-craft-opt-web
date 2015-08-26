@@ -105,7 +105,7 @@
           <buffs effects="simulatorStatus.state.effects" recipe="recipe"></buffs>
           <div class="sequence-editor" ng-controller="SequenceEditorCtrl">
             <div class="sequence well well-small">
-              <span ng-repeat="action in editSequence track by $index"
+              <div ng-repeat="action in editSequence track by $index"
                     class="image-wrap glossy icon selectable"
                     ng-class="actionClasses(action, recipe.cls)"
                     ng-click="removeAction($index)"
@@ -114,7 +114,7 @@
                     data-index="{{$index}}"
                     on-drop="dropAction(dragEl, dropEl)">
                 <img ng-src="{{getActionImagePath(action, recipe.cls)}}"/>
-              </span>
+              </div>
 
               <img class="action empty-action" lvl-drop-target="true"
                    src="img/actions/empty.png"
