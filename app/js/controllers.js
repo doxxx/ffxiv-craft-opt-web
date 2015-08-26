@@ -247,6 +247,10 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
     };
 
+    $scope.actionForName = function (name) {
+      return _actionsByName[name];
+    };
+
     $scope.isActionSelected = function (action, cls) {
       return $scope.crafter &&
              $scope.crafter.stats &&

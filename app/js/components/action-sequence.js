@@ -27,7 +27,11 @@ angular.module('ffxivCraftOptWeb.components')
             classes = $scope.actionClasses(action, cls);
           }
           return classes;
-        }
+        };
+
+        $scope.actionForName = function (name) {
+          return _actionsByName[name];
+        };
       }
     }
   });

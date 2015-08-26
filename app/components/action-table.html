@@ -12,6 +12,7 @@
           tooltip-popup-delay="1000"
           tooltip-append-to-body="true">
       <img ng-src="{{getActionImagePath(action, cls)}}"/>
+      <span ng-if="actionForName(action).cpCost" class="cp">{{actionForName(action).cpCost}}</span>
     </div>
   </div>
 </div>

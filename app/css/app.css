@@ -434,6 +434,26 @@ div[content*="xivdb"] div.tooltip-arrow {
   max-height: 36px;
 }
 
+.icon .cp {
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+  font-size: 12px;
+  line-height: 12px;
+  color: white;
+  text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px;
+}
+
+.sequence-small .icon .cp {
+  left: 1px;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.icon.faded .cp {
+  opacity: 0.4;
+}
+
 .selectable {
   cursor: pointer;
 }

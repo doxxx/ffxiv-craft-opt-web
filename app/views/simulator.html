@@ -114,6 +114,7 @@
                     data-index="{{$index}}"
                     on-drop="dropAction(dragEl, dropEl)">
                 <img ng-src="{{getActionImagePath(action, recipe.cls)}}"/>
+                <span ng-if="actionForName(action).cpCost" class="cp">{{actionForName(action).cpCost}}</span>
               </div>
 
               <img class="action empty-action" lvl-drop-target="true"
