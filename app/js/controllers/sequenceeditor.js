@@ -40,7 +40,6 @@ angular.module('ffxivCraftOptWeb.controllers')
 
     $scope.actionClasses = function (action, cls) {
       return {
-        'action-cross-class': $scope.isActionCrossClass(action, cls),
         'faded-icon': !$scope.isActionSelected(action)
       }
     };

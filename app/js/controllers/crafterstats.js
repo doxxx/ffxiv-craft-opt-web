@@ -11,7 +11,6 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsControlle
   $scope.crafterActionClasses = function (action, cls) {
     return {
       'faded': !$scope.isActionSelected(action, cls),
-      'action-cross-class': $scope.isActionCrossClass(action, cls)
     }
   };
 
