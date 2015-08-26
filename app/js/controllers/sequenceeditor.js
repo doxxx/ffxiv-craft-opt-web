@@ -31,6 +31,13 @@ angular.module('ffxivCraftOptWeb.controllers')
       return $scope.availableActions.indexOf(action) >= 0;
     };
 
+    $scope.actionTableClasses = function (action, cls) {
+      return {
+        'action-no-cp': $scope.simulatorStatus.state && (_actionsByName[action].cpCost > $scope.simulatorStatus.state.cp),
+        'faded-icon': !$scope.isActionSelected(action)
+      };
+    };
+
     $scope.actionClasses = function (action, cls) {
       return {
         'action-cross-class': $scope.isActionCrossClass(action, cls),

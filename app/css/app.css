@@ -444,6 +444,12 @@ div[content*="xivdb"] div.tooltip-arrow {
   text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px;
 }
 
+.icon.action-no-cp .cp {
+  color: black;
+  text-shadow: red 0 0 2px, red 0 0 2px, red 0 0 2px, red 0 0 2px, red 0 0 2px, red 0 0 2px;
+  font-weight: bolder;
+}
+
 .sequence-small .icon .cp {
   left: 1px;
   font-size: 10px;
