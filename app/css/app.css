@@ -404,7 +404,7 @@ div[content*="xivdb"] div.tooltip-arrow {
   display: inline-block;
 }
 
-.icon img {
+.icon>img {
   min-width: 40px;
   min-height: 40px;
 }
@@ -422,12 +422,12 @@ div[content*="xivdb"] div.tooltip-arrow {
   width: 50%;
 }
 
-.buff .icon img {
+.buff .icon>img {
   min-width: 20px;
   min-height: 20px;
 }
 
-.sequence-small .icon img {
+.sequence-small .icon>img {
   min-width: 36px;
   min-height: 36px;
   max-width: 36px;
@@ -464,6 +464,22 @@ div[content*="xivdb"] div.tooltip-arrow {
   opacity: 0.4;
 }
 
+.icon .cross-class {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.icon .cross-class>img {
+  width: 16px;
+}
+
+.sequence-small .icon .cross-class>img {
+  width: 12px;
+}
+
 .selectable {
   cursor: pointer;
 }
@@ -497,13 +513,13 @@ div[content*="xivdb"] div.tooltip-arrow {
   opacity: 0.4;
 }
 
-.image-wrap img {
+.image-wrap>img {
   vertical-align: bottom;
   box-shadow: black 2px 2px 6px 0;
   border-radius: 4px;
 }
 
-.image-wrap.wasted-action img {
+.image-wrap.wasted-action>img {
   box-shadow: red 2px 2px 6px 0;
   opacity: 0.4;
 }

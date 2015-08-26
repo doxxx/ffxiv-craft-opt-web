@@ -29,6 +29,20 @@ angular.module('ffxivCraftOptWeb.components')
         $scope.actionForName = function (name) {
           return _actionsByName[name];
         };
+
+        $scope.isActionCrossClass = function (action, cls) {
+          if (!angular.isDefined(action)) {
+            console.error('undefined actionName');
+            return undefined;
+          }
+          var info = _actionsByName[action];
+          if (!angular.isDefined(info)) {
+            console.error('unknown action: %s', action);
+            return undefined;
+          }
+          return info.cls != 'All' &&
+                 info.cls != cls;
+        };
       }
     }
   });
