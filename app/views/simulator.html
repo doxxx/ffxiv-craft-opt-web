@@ -163,6 +163,7 @@
                   -- Hack for bug in angular-ui-bootstrap (fixed in 0.13)
                   -- ng-disabled elements don't close their tooltip
                   -->
+                <button class="btn" ng-click="revertSynth()" ng-class="{'disabled': !isSynthDirty()}" tooltip="Revert"><i class="fa fa-undo"></i></button>
                 <button class="btn" ng-click="saveSynth()" ng-class="{'disabled': !isSynthDirty()}" tooltip="Save"><i class="fa fa-floppy-o"></i></button>
                 <button class="btn" ng-click="saveSynthAs()" tooltip="Save As"><i class="fa fa-plus"></i></button>
                 <button class="btn" ng-click="renameSynth()" tooltip="Rename"><i class="fa fa-pencil"></i></button>

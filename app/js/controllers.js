@@ -152,8 +152,8 @@ angular.module('ffxivCraftOptWeb.controllers', [])
     // Saved Synth Management
     //
 
-    $scope.loadSynth = function (name) {
-      if ($scope.isSynthDirty()) {
+    $scope.loadSynth = function (name, noDirtyCheck) {
+      if (!noDirtyCheck && $scope.isSynthDirty()) {
         if (!window.confirm('You have not saved the changes to your current sequence. Are you sure?')) {
           return;
         }
@@ -168,6 +168,10 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.settings.name = name;
 
       $scope.$broadcast('synth.changed');
+    };
+
+    $scope.revertSynth = function () {
+      $scope.loadSynth($scope.settings.name, true);
     };
 
     $scope.saveSynth = function (noDirtyCheck) {
