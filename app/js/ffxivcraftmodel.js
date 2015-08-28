@@ -1415,7 +1415,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     fitness -= penaltyWeight * penalties;
     fitnessProg += result.progressState;
 
-    return [fitness, fitnessProg, result.cpState];
+    return [fitness, fitnessProg, result.cpState, individual.length];
 }
 
 function heuristicSequenceBuilder(synth) {

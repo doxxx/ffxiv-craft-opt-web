@@ -140,7 +140,7 @@ function start(settings) {
   }
 
   var creator = new yagal_creator.Creator();
-  creator.create('FitnessMax', yagal_fitness.defineFitnessClass([1.0, 1.0, 1.0]));
+  creator.create('FitnessMax', yagal_fitness.defineFitnessClass([1.0, 1.0, 1.0, -1.0]));
   creator.create("Individual", Array, {fitness: creator.FitnessMax});
 
   var toolbox = new yagal_toolbox.Toolbox();
