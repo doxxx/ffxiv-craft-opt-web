@@ -206,15 +206,8 @@ function runOneGen() {
 
   if (state.settings.debug) {
     var fitness = evalSeq(state.hof.entries[0], state.synth, state.settings.penaltyWeight);
-    var fitnessStr = '';
-    for (var i = 0; i < fitness.length; i++) {
-      var val = fitness[i];
-      fitnessStr += '%.1f'.sprintf(val);
-      if (i < fitness.length-1) {
-        fitnessStr += ', ';
-      }
-    }
-    state.logOutput.write('%d: best fitness=[%s]\n'.sprintf(state.gen, fitnessStr));
+    var popDiversity = calcPopDiversity(state.pop);
+    state.logOutput.write('%d: best fitness=[%s]  pop diversity=[%s]\n'.sprintf(state.gen, numArrayToString(fitness), numArrayToString(popDiversity)));
   }
 
   postProgress(state.gen, state.maxGen, state.hof.entries[0], state.synthNoConditions);
@@ -287,4 +280,57 @@ function actionSequenceToShortNames(sequence) {
 
 function isFitnessInvalid(ind) {
   return !ind.fitness.valid();
+}
+
+function calcPopDiversity(pop) {
+  var sum = [];
+
+  for (var i = 0; i < pop.length; i++) {
+    var individual = pop[i];
+    if (individual.fitness.valid()) {
+      var values = individual.fitness.weightedValues();
+      for (var j = 0; j < values.length; j++) {
+        var value = values[j];
+        sum[j] = (sum[j] || 0) + value;
+      }
+    }
+  }
+
+  var avg = [];
+  for (var i = 0; i < sum.length; i++) {
+    var value = sum[i];
+    avg[i] = value / pop.length;
+  }
+
+  var variance = [];
+  for (var i = 0; i < pop.length; i++) {
+    var individual = pop[i];
+    if (individual.fitness.valid()) {
+      var values = individual.fitness.weightedValues();
+      for (var j = 0; j < values.length; j++) {
+        var value = values[j];
+        variance[j] = (variance[j] || 0) + Math.pow(value - avg[j], 2);
+      }
+    }
+  }
+
+  var stdDev = [];
+  for (var i = 0; i < variance.length; i++) {
+    stdDev[i] = Math.sqrt(variance[i] / pop.length);
+  }
+
+
+  return stdDev;
+}
+
+function numArrayToString(numArray) {
+  var fitnessStr = '';
+  for (var i = 0; i < numArray.length; i++) {
+    var val = numArray[i];
+    fitnessStr += '%.1f'.sprintf(val);
+    if (i < numArray.length - 1) {
+      fitnessStr += ', ';
+    }
+  }
+  return fitnessStr;
 }
