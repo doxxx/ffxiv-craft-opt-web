@@ -69,8 +69,8 @@ var yagal_tools = (function() {
     var seqLength2 = Math.min(ind2.length, randInt(ind2.length * subSeqLengthFactor + 1));
     var end1 = ind1.length - seqLength1;
     var end2 = ind2.length - seqLength2;
-    var i1 = randInt(end1);
-    var i2 = randInt(end2);
+    var i1 = randInt(end1 + 1);
+    var i2 = randInt(end2 + 1);
     var slice1 = ind1.slice(i1, i1 + seqLength1);
     var slice2 = ind2.slice(i2, i2 + seqLength2);
     spliceArray(ind1, i1, seqLength1, slice2);
@@ -107,7 +107,7 @@ var yagal_tools = (function() {
   function mutRandomSubSeq(subSeqLengthFactor, subFunc, individual) {
     var seqLength = Math.min(individual.length, randInt(individual.length * subSeqLengthFactor) + 1);
     var end = individual.length - seqLength;
-    var i = randInt(end);
+    var i = randInt(end + 1);
     var args = [i, seqLength].concat(subFunc());
     Array.prototype.splice.apply(individual, args);
     return [individual];
