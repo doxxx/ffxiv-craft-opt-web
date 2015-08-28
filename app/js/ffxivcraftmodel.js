@@ -1377,7 +1377,6 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     var fitnessProg = 0;
 
     // Sum the constraint violations
-    penalties += result.wastedActions;
 
     // Check for feasibility violations
     var chk = result.checkViolations();
