@@ -4,8 +4,8 @@ if (this.ALGORITHMS === undefined) ALGORITHMS = {};
 ALGORITHMS['eaSimple'] = {
   setup: function eaSimple_setup(population, toolbox, hof) {
     // initialize functions
-    toolbox.register("mate", yagal_tools.cxRandomSubSeq, 0.5);
-    toolbox.register("mutate", yagal_tools.mutRandomSubSeq, 0.5, toolbox.randomActionSeq);
+    toolbox.register("mate", yagal_tools.cxRandomSubSeq, 3);
+    toolbox.register("mutate", yagal_tools.mutRandomSubSeq, 3, toolbox.randomActionSeq);
     toolbox.register("select", yagal_tools.selTournament, 7);
 
     // evaluate fitness of starting population

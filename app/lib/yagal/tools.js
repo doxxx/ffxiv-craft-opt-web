@@ -64,9 +64,9 @@ var yagal_tools = (function() {
     return [ind1, ind2];
   }
   
-  function cxRandomSubSeq(subSeqLengthFactor, ind1, ind2) {
-    var seqLength1 = Math.min(ind1.length, randInt(ind1.length * subSeqLengthFactor + 1));
-    var seqLength2 = Math.min(ind2.length, randInt(ind2.length * subSeqLengthFactor + 1));
+  function cxRandomSubSeq(maxSubSeqLength, ind1, ind2) {
+    var seqLength1 = Math.min(ind1.length, randInt(maxSubSeqLength + 1));
+    var seqLength2 = Math.min(ind2.length, randInt(maxSubSeqLength + 1));
     var end1 = ind1.length - seqLength1;
     var end2 = ind2.length - seqLength2;
     var i1 = randInt(end1 + 1);
@@ -104,8 +104,8 @@ var yagal_tools = (function() {
     return [individual];
   }
 
-  function mutRandomSubSeq(subSeqLengthFactor, subFunc, individual) {
-    var seqLength = Math.min(individual.length, randInt(individual.length * subSeqLengthFactor) + 1);
+  function mutRandomSubSeq(maxSubSeqLength, subFunc, individual) {
+    var seqLength = Math.min(individual.length, Math.max(1, randInt(maxSubSeqLength + 1)));
     var end = individual.length - seqLength;
     var i = randInt(end + 1);
     var args = [i, seqLength].concat(subFunc());
