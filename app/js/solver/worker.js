@@ -145,7 +145,7 @@ function start(settings) {
 
   var toolbox = new yagal_toolbox.Toolbox();
   toolbox.register("randomAction", randomChoice, crafterActions);
-  toolbox.register("randomActionSeq", randomSeq, seqMaxLength, toolbox.randomAction);
+  toolbox.register("randomActionSeq", randomSeq, 3, toolbox.randomAction);
   toolbox.register("randomLength", randomInt, seqMaxLength);
   toolbox.register("individual", yagal_tools.initRepeat, creator.Individual, toolbox.randomAction, toolbox.randomLength);
   toolbox.register("population", yagal_tools.initRepeat, Array, toolbox.individual);
