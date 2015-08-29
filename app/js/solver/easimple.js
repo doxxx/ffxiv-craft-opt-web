@@ -18,10 +18,10 @@ ALGORITHMS['eaSimple'] = {
       hof.update(population);
     }
   },
-  gen: function eaSimple_gen(population, toolbox, cxpb, mutpb, hof) {
+  gen: function eaSimple_gen(population, toolbox, hof) {
     var offspring = toolbox.select(population.length, population);
 
-    offspring = yagal_algorithms.varAnd(offspring, toolbox, cxpb, mutpb);
+    offspring = yagal_algorithms.varAnd(offspring, toolbox, 0.5, 0.2);
 
     // evaluate individuals with invalid fitness
     var invalidInd = offspring.filter(isFitnessInvalid);

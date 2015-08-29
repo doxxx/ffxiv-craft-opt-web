@@ -202,7 +202,7 @@ function start(settings) {
 
 function runOneGen() {
   state.gen += 1;
-  state.pop = state.algorithm.gen(state.pop, state.toolbox, 0.5, 0.2, state.hof);
+  state.pop = state.algorithm.gen(state.pop, state.toolbox, state.hof);
 
   if (state.settings.debug) {
     var fitness = evalSeq(state.hof.entries[0], state.synth, state.settings.penaltyWeight);
