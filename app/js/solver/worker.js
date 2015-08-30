@@ -11,6 +11,7 @@ importScripts('../actions.js');
 importScripts('../ffxivcraftmodel.js');
 
 importScripts('easimple.js');
+importScripts('eacomplex.js');
 
 var state;
 
