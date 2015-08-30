@@ -23,6 +23,10 @@ ALGORITHMS['eaSimple'] = {
 
     offspring = yagal_algorithms.varAnd(offspring, toolbox, 0.5, 0.2);
 
+    function isFitnessInvalid(ind) {
+      return !ind.fitness.valid();
+    }
+
     // evaluate individuals with invalid fitness
     var invalidInd = offspring.filter(isFitnessInvalid);
     var fitnessesValues = toolbox.map(toolbox.evaluate, invalidInd);

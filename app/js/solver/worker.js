@@ -278,10 +278,6 @@ function actionSequenceToShortNames(sequence) {
   return nameSequence;
 }
 
-function isFitnessInvalid(ind) {
-  return !ind.fitness.valid();
-}
-
 function calcPopDiversity(pop) {
   var sum = [];
 
