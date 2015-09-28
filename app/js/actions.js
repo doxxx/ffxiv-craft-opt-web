@@ -88,7 +88,7 @@ var AllActions = {
     nameOfIce: new Action(          'nameOfIce',            'Name of Ice',           0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
     nameOfLightning: new Action(    'nameOfLightning',      'Name of Lightning',     0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Weaver',       54),
     nameOfWater: new Action(        'nameOfWater',          'Name of Water',         0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Alchemist',    54),
-    nameOfWind: new Action(         'nameOfWind',           'Name of Wind',          0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Carpenter',    54),
+    nameOfWind: new Action(         'nameOfWind',           'Name of the Wind',      0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Carpenter',    54),
 
     /* TODO
     heartOfTheClass: new Action(    'heartOfTheClass',      'Heart of the Class',    0,     45,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          60),
