@@ -67,6 +67,8 @@ var yagal_tools = (function() {
     var ind1Gene = ind1[cxPoint];
     ind1[cxPoint] = ind2[cxPoint];
     ind2[cxPoint] = ind1Gene;
+    sanityCheck(ind1);
+    sanityCheck(ind2);
     return [ind1, ind2];
   }
   
@@ -81,6 +83,8 @@ var yagal_tools = (function() {
     var slice2 = ind2.slice(i2, i2 + seqLength2);
     spliceArray(ind1, i1, seqLength1, slice2);
     spliceArray(ind2, i2, seqLength2, slice1);
+    sanityCheck(ind1);
+    sanityCheck(ind2);
     return [ind1, ind2];
   }
 
@@ -97,6 +101,7 @@ var yagal_tools = (function() {
         }
       }
     }
+    sanityCheck(individual);
     return [individual];
   }
 
@@ -107,6 +112,7 @@ var yagal_tools = (function() {
         individual[i] = subFunc();
       }
     }
+    sanityCheck(individual);
     return [individual];
   }
 
@@ -116,6 +122,7 @@ var yagal_tools = (function() {
     var i = randInt(end + 1);
     var args = [i, seqLength].concat(subFunc());
     Array.prototype.splice.apply(individual, args);
+    sanityCheck(individual);
     return [individual];
   }
 
@@ -124,6 +131,7 @@ var yagal_tools = (function() {
     var first = individual[i];
     individual[i] = individual[i + 1];
     individual[i + 1] = first;
+    sanityCheck(individual);
     return [individual];
   }
 
@@ -148,6 +156,12 @@ var yagal_tools = (function() {
       }
     }
     return lo;
+  }
+
+  function sanityCheck(individual) {
+    for (var i = 0; i < individual.length; i++) {
+      console.assert(individual[i] !== undefined);
+    }
   }
 
   function HallOfFame(maxSize) {
@@ -204,6 +218,7 @@ var yagal_tools = (function() {
     mutRandomSubSeq: mutRandomSubSeq,
     randomMutation: randomMutation,
     mutSwap: mutSwap,
+    sanityCheck: sanityCheck,
     HallOfFame: HallOfFame,
   };
 }());
