@@ -36,7 +36,8 @@ self.onmessage = function(e) {
     console.error(ex);
     self.postMessage({
       error: {
-        error: ex.toString()
+        error: ex.toString(),
+        executionLog: state.logOutput && state.logOutput.log
       }
     })
   }
@@ -165,7 +166,7 @@ function start(settings) {
     self.postMessage({
       error: {
         error: 'No such algorithm: ' + settings.algorithm,
-        log: logOutput.log
+        executionLog: logOutput.log
       }
     });
   }
@@ -178,7 +179,7 @@ function start(settings) {
     self.postMessage({
       error: {
         error: 'Solver setup failed',
-        log: logOutput.log
+        executionLog: logOutput.log
       }
     });
     return;

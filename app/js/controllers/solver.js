@@ -117,7 +117,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
     $scope.pageState.solverStatus.error = data.error;
     $scope.pageState.solverStatus.state = data.state;
-    $scope.pageState.solverStatus.logs = data.logs;
+    $scope.pageState.solverStatus.logs.execution = data.executionLog;
     $scope.pageState.solverStatus.sequence = [];
   }
 
