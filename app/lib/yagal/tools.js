@@ -127,11 +127,13 @@ var yagal_tools = (function() {
   }
 
   function mutSwap(individual) {
-    var i = randInt(individual.length - 1);
-    var first = individual[i];
-    individual[i] = individual[i + 1];
-    individual[i + 1] = first;
-    sanityCheck(individual);
+    if (individual.length >= 2) {
+      var i = randInt(individual.length - 1);
+      var first = individual[i];
+      individual[i] = individual[i + 1];
+      individual[i + 1] = first;
+      sanityCheck(individual);
+    }
     return [individual];
   }
 
