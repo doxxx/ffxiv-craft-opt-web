@@ -1418,6 +1418,8 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     return [fitness, fitnessProg, result.cpState, individual.length];
 }
 
+evalSeq.weights = [1.0, 1.0, 1.0, -1.0];
+
 function heuristicSequenceBuilder(synth) {
     var sequence = [];
     var subSeq1 = [];
