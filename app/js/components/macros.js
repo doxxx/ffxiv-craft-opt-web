@@ -23,7 +23,7 @@ angular.module('ffxivCraftOptWeb.components')
             }
           }
 
-          var maxLines = 14;
+          var maxLines = 19;
 
           var waitString = '<wait.' + $scope.options.waitTime + '>';
           var buffWaitString = '<wait.' + $scope.options.buffWaitTime + '>';
