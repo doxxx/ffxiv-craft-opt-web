@@ -35,7 +35,7 @@ var AllActions = {
     carefulSynthesis2: new Action(  'carefulSynthesis2',    'Careful Synthesis II', 10,      0,  1.0, 0.0, 1.2, 'immediate',   1,  'Weaver',       50),
     rapidSynthesis: new Action(     'rapidSynthesis',       'Rapid Synthesis',      10,      0,  0.5, 0.0, 2.5, 'immediate',   1,  'Armorer',      15),
     flawlessSynthesis: new Action(  'flawlessSynthesis',    'Flawless Synthesis',   10,     15,  0.9, 0.0, 1.0, 'immediate',   1,  'Goldsmith',    37),
-    pieceByPiece: new Action(       'pieceByPiece',         'Piece By Piece',       10,     15,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      50),
+    pieceByPiece: new Action(       'pieceByPiece',         'Piece by Piece',       10,     15,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      50),
 
     basicTouch: new Action(         'basicTouch',           'Basic Touch',          10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',           5),
     standardTouch: new Action(      'standardTouch',        'Standard Touch',       10,     32,  0.8, 1.25,0.0, 'immediate',   1,  'All',          18),
