@@ -1118,6 +1118,19 @@
     }
   },
   {
+    "baseLevel": 18,
+    "difficulty": 214,
+    "durability": 70,
+    "level": 18,
+    "maxQuality": 469,
+    "name": {
+      "de": "Fern\u00f6stlicher Rundtisch",
+      "en": "Oriental Round Table",
+      "fr": "Table ronde orientale",
+      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30e9\u30a6\u30f3\u30c9\u30c6\u30fc\u30d6\u30eb"
+    }
+  },
+  {
     "baseLevel": 19,
     "difficulty": 68,
     "durability": 70,
@@ -1267,7 +1280,7 @@
     "level": 20,
     "maxQuality": 526,
     "name": {
-      "de": "Niedriger Riviera-Raumteiler",
+      "de": "Halbhoher Riviera-Raumteiler",
       "en": "Riviera Half Partition",
       "fr": "Demi-cloison nosc\u00e9enne",
       "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30cf\u30fc\u30d5\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3"
@@ -1505,6 +1518,19 @@
       "en": "Yew Crook",
       "fr": "Crosse en if",
       "ja": "\u30e6\u30fc\u30af\u30eb\u30fc\u30af"
+    }
+  },
+  {
+    "baseLevel": 25,
+    "difficulty": 284,
+    "durability": 70,
+    "level": 25,
+    "maxQuality": 648,
+    "name": {
+      "de": "Fungus-Stuhl",
+      "en": "Funguar Chair",
+      "fr": "Tabouret fungus",
+      "ja": "\u30d5\u30a1\u30f3\u30ac\u30fc\u30c1\u30a7\u30a2"
     }
   },
   {
@@ -2993,6 +3019,19 @@
   },
   {
     "baseLevel": 40,
+    "difficulty": 441,
+    "durability": 80,
+    "level": 40,
+    "maxQuality": 1025,
+    "name": {
+      "de": "Mahagoni-Raumteiler",
+      "en": "Mahogany Partition Door",
+      "fr": "Porte de partition en acajou",
+      "ja": "\u30de\u30db\u30ac\u30cb\u30fc\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3\u30c9\u30a2"
+    }
+  },
+  {
+    "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
     "level": 40,
@@ -3923,6 +3962,20 @@
     "level": 70,
     "maxQuality": 1460,
     "name": {
+      "de": "Lehm-Innenwand",
+      "en": "Cob Inner Wall",
+      "fr": "Rev\u00eatement mural en torchis",
+      "ja": "\u30de\u30c3\u30c9\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
       "de": "Gebogenes Trittbrett",
       "en": "Curved Stepping Stumps",
       "fr": "Dalles en bois en angle",
@@ -3941,6 +3994,34 @@
       "en": "Magicked Stable Broom",
       "fr": "Balai magique",
       "ja": "\u30de\u30b8\u30c3\u30af\u30d6\u30eb\u30fc\u30e0"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Herrenhaus-Tresen",
+      "en": "Manor Counter",
+      "fr": "Plan de travail du manoir",
+      "ja": "\u5fa1\u7528\u90b8\u306e\u8abf\u7406\u53f0"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Herrenhaus-Fu\u00dfboden",
+      "en": "Manor Flooring",
+      "fr": "Parquet du manoir",
+      "ja": "\u5fa1\u7528\u90b8\u306e\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
     },
     "stars": 2
   },
@@ -4896,7 +4977,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "de": "Heilige Zedern-Armilla",
+      "de": "Heilige Zedern-Armillae",
       "en": "Holy Cedar Armillae",
       "fr": "Armilles en c\u00e8dre sacr\u00e9",
       "ja": "\u30db\u30fc\u30ea\u30fc\u30b7\u30fc\u30c0\u30fc\u30a2\u30eb\u30df\u30e9"
@@ -5260,10 +5341,23 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "de": "Geheiligte Kastanien-Armilla",
+      "de": "Geheiligte Kastanien-Armillae",
       "en": "Hallowed Chestnut Armillae",
       "fr": "Armilles en ch\u00e2taignier sanctifi\u00e9",
       "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30a2\u30eb\u30df\u30e9"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 1553,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 3540,
+    "name": {
+      "de": "Die Unendliche Reise",
+      "en": "The Unending Journey",
+      "fr": "Carnet de voyage",
+      "ja": "\u611b\u7528\u306e\u7d00\u884c\u9332"
     }
   },
   {
@@ -5373,6 +5467,20 @@
   {
     "baseLevel": 60,
     "difficulty": 558,
+    "durability": 35,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Kassia-Block",
+      "en": "Cassia Block",
+      "fr": "Bloc de cassier",
+      "ja": "\u30bf\u30ac\u30e4\u30b5\u30f3\u89d2\u6750"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
     "durability": 70,
     "level": 160,
     "maxQuality": 8377,
@@ -5447,7 +5555,7 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Astralbirken-Armilla",
+      "de": "Astralbirken-Armillae",
       "en": "Astral Birch Armillae",
       "fr": "Armilles en bouleau astral",
       "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30a2\u30eb\u30df\u30e9"
@@ -5507,6 +5615,20 @@
       "en": "Astral Birch Spinning Wheel",
       "fr": "Rouet en bouleau astral",
       "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30fb\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Mhach-Sarg",
+      "en": "Mhachi Coffin",
+      "fr": "Cercueil mhachois",
+      "ja": "\u30de\u30cf\u306e\u68fa"
     },
     "stars": 2
   },

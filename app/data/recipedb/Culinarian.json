@@ -3434,10 +3434,36 @@
     "level": 139,
     "maxQuality": 3280,
     "name": {
+      "de": "Fern\u00f6stliches Teeservice",
+      "en": "Oriental Tea Set",
+      "fr": "Set de th\u00e9 oriental",
+      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
       "de": "Riviera-Lunch",
       "en": "Riviera Lunch",
       "fr": "D\u00e9jeuner nosc\u00e9en",
       "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30e9\u30f3\u30c1\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Sesamkeks",
+      "en": "Sesame Cookie",
+      "fr": "Biscuit au s\u00e9same",
+      "ja": "\u30bb\u30b5\u30df\u30af\u30c3\u30ad\u30fc"
     }
   },
   {
@@ -3716,6 +3742,20 @@
       "en": "Snurbleberry Tart",
       "fr": "Tarte aux lainuchairelles",
       "ja": "\u30b9\u30ca\u30fc\u30d6\u30eb\u30d9\u30ea\u30fc\u30bf\u30eb\u30c8"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Ged\u00fcnsteter Vergelter",
+      "en": "Steamed Staff",
+      "fr": "B\u00e2ton \u00e0 l'\u00e9touff\u00e9e",
+      "ja": "\u5d50\u795e\u9b5a\u306e\u59ff\u84b8\u3057"
     },
     "stars": 1
   },

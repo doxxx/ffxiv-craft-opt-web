@@ -955,6 +955,19 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
+      "de": "Eisenkl\u00f6ppel",
+      "en": "Iron Clapper",
+      "fr": "Battant en fer",
+      "ja": "\u30a2\u30a4\u30a2\u30f3\u30af\u30e9\u30c3\u30d1\u30fc"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 40,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
       "de": "Beleuchtungs-Bauteil",
       "en": "Lamp Component",
       "fr": "Composant d'\u00e9clairage",
@@ -1918,7 +1931,7 @@
     "maxQuality": 684,
     "name": {
       "de": "Galeassen-Steuerrad",
-      "en": "Galleas Wheel",
+      "en": "Galleass Wheel",
       "fr": "Roue de gal\u00e9asse",
       "ja": "\u30ac\u30ec\u30a2\u30b9\u8239\u306e\u64cd\u8235\u8f2a"
     }
@@ -2073,7 +2086,7 @@
     "level": 29,
     "maxQuality": 1544,
     "name": {
-      "de": "Gefiedertes Bronzehandbeil",
+      "de": "Gefiedertes Eisenhandbeil",
       "en": "Plumed Iron Hatchet",
       "fr": "Hachette \u00e0 plumet",
       "ja": "\u30c1\u30e7\u30b3\u30dc\u30cf\u30c1\u30a7\u30c3\u30c8"
@@ -4612,6 +4625,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Herrenhaus-Ofen",
+      "en": "Manor Oven",
+      "fr": "Fourneau du manoir",
+      "ja": "\u5fa1\u7528\u90b8\u306e\u711c\u7089"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 233,
     "durability": 80,
     "level": 70,
@@ -5135,7 +5162,7 @@
     "name": {
       "de": "Mordsmogry-Mogmesser",
       "en": "Mortal Moggle Mogknives",
-      "fr": "Couteaux Moggle Mog molestants",
+      "fr": "Couteaux Moggle Mog molestateurts",
       "ja": "\u30e2\u30b0\u30eb\u30e2\u30b0\u30ca\u30a4\u30d5"
     },
     "stars": 3
@@ -5942,7 +5969,7 @@
       "de": "Titan-Hakenb\u00fcchse",
       "en": "Titanium-barreled Arquebus",
       "fr": "Arquebuse en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30a2\u30fc\u30af\u30a3\u30d0\u30b9"
+      "ja": "\u30c1\u30bf\u30f3\u30a2\u30fc\u30af\u30a6\u30a3\u30d0\u30b9"
     }
   },
   {
@@ -6698,6 +6725,20 @@
       "fr": "Marteau d'orf\u00e8vre en aurum regis",
       "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30b4\u30fc\u30eb\u30c9\u30b9\u30df\u30b9\u30cf\u30f3\u30de\u30fc"
     }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 35,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Titanlegierungs-Barren",
+      "en": "Titanium Alloy Ingot",
+      "fr": "Lingot d'alliage de titane",
+      "ja": "\u30c1\u30bf\u30f3\u30a2\u30ed\u30a4\u30a4\u30f3\u30b4\u30c3\u30c8"
+    },
+    "stars": 1
   },
   {
     "baseLevel": 60,

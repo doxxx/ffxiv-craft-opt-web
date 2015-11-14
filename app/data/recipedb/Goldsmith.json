@@ -422,7 +422,7 @@
     "level": 10,
     "maxQuality": 629,
     "name": {
-      "de": "Knochen-Armilla",
+      "de": "Knochen-Armillae",
       "en": "Bone Armillae",
       "fr": "Armilles en os",
       "ja": "\u30dc\u30fc\u30f3\u30a2\u30eb\u30df\u30e9"
@@ -1124,7 +1124,7 @@
     "level": 19,
     "maxQuality": 982,
     "name": {
-      "de": "Wei\u00dfkorallen-Armilla",
+      "de": "Wei\u00dfkorallen-Armillae",
       "en": "Coral Armillae",
       "fr": "Armilles en corail blanc",
       "ja": "\u30db\u30ef\u30a4\u30c8\u30b3\u30fc\u30e9\u30eb\u30a2\u30eb\u30df\u30e9"
@@ -2632,7 +2632,7 @@
     "level": 31,
     "maxQuality": 1670,
     "name": {
-      "de": "Horn-Armilla",
+      "de": "Horn-Armillae",
       "en": "Horn Armillae",
       "fr": "Armilles en corne",
       "ja": "\u30db\u30fc\u30f3\u30a2\u30eb\u30df\u30e9"
@@ -3933,7 +3933,7 @@
     "level": 40,
     "maxQuality": 2050,
     "name": {
-      "de": "Rotkorallen-Armilla",
+      "de": "Rotkorallen-Armillae",
       "en": "Red Coral Armillae",
       "fr": "Armilles en corail rouge",
       "ja": "\u30ec\u30c3\u30c9\u30b3\u30fc\u30e9\u30eb\u30a2\u30eb\u30df\u30e9"
@@ -5208,7 +5208,7 @@
     "level": 49,
     "maxQuality": 2551,
     "name": {
-      "de": "Schildpatt-Armilla",
+      "de": "Schildpatt-Armillae",
       "en": "Tortoiseshell Armillae",
       "fr": "Armilles tortue",
       "ja": "\u30c8\u30fc\u30bf\u30b9\u30a2\u30eb\u30df\u30e9"
@@ -6457,6 +6457,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Elegante rahmenlose Brille",
+      "en": "Elegant Rimless Glasses",
+      "fr": "Lunettes \u00e9l\u00e9gantes \u00e0 monture perc\u00e9e",
+      "ja": "\u30a8\u30ec\u30ac\u30f3\u30c8\u30fb\u30ea\u30e0\u30ec\u30b9\u30b0\u30e9\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 745,
     "durability": 80,
     "level": 70,
@@ -6551,6 +6565,20 @@
       "en": "Raging Vortex Couch",
       "fr": "Sofa de la Souffleuse de rafales",
       "ja": "\u5d50\u795e\u30ac\u30eb\u30fc\u30c0\u306e\u9577\u6905\u5b50"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "de": "Lesebrille",
+      "en": "Reading Glasses",
+      "fr": "Lunettes de lecture",
+      "ja": "\u30ea\u30fc\u30c7\u30a3\u30f3\u30b0\u30b0\u30e9\u30b9"
     },
     "stars": 2
   },
@@ -9354,7 +9382,7 @@
     "name": {
       "de": "Goblink\u00f6der",
       "en": "Goblin Jig",
-      "fr": "Leurre de gobelin",
+      "fr": "Leurre de Gobelin",
       "ja": "\u30b4\u30d6\u30ea\u30f3\u30b8\u30b0"
     }
   },
@@ -10031,6 +10059,20 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Feen-Kronleuchter",
+      "en": "Faerie Chandelier",
+      "fr": "Lustre des f\u00e9es",
+      "ja": "\u30d5\u30a7\u30a2\u30ea\u30fc\u30b7\u30e3\u30f3\u30c7\u30ea\u30a2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
     "level": 170,
@@ -10068,6 +10110,62 @@
       "en": "Gemmaster's Coronal",
       "fr": "Parure de front d'expert des gemmes",
       "ja": "\u30b8\u30a7\u30e0\u30de\u30b9\u30bf\u30fc\u30b3\u30ed\u30ca"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Kappe der Magie",
+      "en": "Sky Pirate's Cap of Casting",
+      "fr": "Chapeau d'incantateur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30ad\u30e3\u30c3\u30d7"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Kappe der Heilung",
+      "en": "Sky Pirate's Cap of Healing",
+      "fr": "Chapeau de soigneur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30d2\u30fc\u30e9\u30fc\u30ad\u30e3\u30c3\u30d7"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Maske des Sp\u00e4hens",
+      "en": "Sky Pirate's Mask of Scouting",
+      "fr": "Masque d'\u00e9claireur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30ab\u30a6\u30c8\u30de\u30b9\u30af"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Maske des Schlagens",
+      "en": "Sky Pirate's Mask of Striking",
+      "fr": "Masque d'agresseur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30de\u30b9\u30af"
     },
     "stars": 2
   }

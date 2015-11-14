@@ -5217,7 +5217,7 @@
     "name": {
       "de": "Titan-R\u00fcstung des Verst\u00fcmmelns",
       "en": "Titanium Mail of Maiming",
-      "fr": "Cotte d'armure d'abatteur en titane",
+      "fr": "Cotte de mailles d'abatteur en titane",
       "ja": "\u30c1\u30bf\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30e1\u30a4\u30eb"
     }
   },
@@ -5230,7 +5230,7 @@
     "name": {
       "de": "Titan-R\u00fcstung des Sp\u00e4hens",
       "en": "Titanium Mail of Scouting",
-      "fr": "Cotte d'armure d'\u00e9claireur en titane",
+      "fr": "Cotte de mailles d'\u00e9claireur en titane",
       "ja": "\u30c1\u30bf\u30f3\u30b9\u30ab\u30a6\u30c8\u30e1\u30a4\u30eb"
     }
   },
@@ -5243,7 +5243,7 @@
     "name": {
       "de": "Titan-R\u00fcstung des Schlagens",
       "en": "Titanium Mail of Striking",
-      "fr": "Cotte d'armure d'agresseur en titane",
+      "fr": "Cotte de mailles d'agresseur en titane",
       "ja": "\u30c1\u30bf\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30e1\u30a4\u30eb"
     }
   },
@@ -5607,7 +5607,7 @@
     "name": {
       "de": "Adamantium-R\u00fcstung des Verst\u00fcmmelns",
       "en": "Adamantite Mail of Maiming",
-      "fr": "Cotte d'armure d'abatteur en adamantium",
+      "fr": "Cotte de mailles d'abatteur en adamantium",
       "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30e1\u30a4\u30eb"
     }
   },
@@ -5914,6 +5914,90 @@
       "en": "Savage Gordian Chair",
       "fr": "Assise gordienne ornement\u00e9e",
       "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u6905\u5b50\u3010\u96f6\u5f0f\u3011"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Mantel der Verteidigung",
+      "en": "Sky Pirate's Coat of Fending",
+      "fr": "Manteau de protecteur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b3\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Mantel des Verst\u00fcmmelns",
+      "en": "Sky Pirate's Coat of Maiming",
+      "fr": "Manteau d'abatteur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b3\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Panzerhandschuhe der Verteidigung",
+      "en": "Sky Pirate's Gauntlets of Fending",
+      "fr": "Gantelets de protecteur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Panzerhandschuhe des Verst\u00fcmmelns",
+      "en": "Sky Pirate's Gauntlets of Maiming",
+      "fr": "Gantelets d'abatteur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Helm der Verteidigung",
+      "en": "Sky Pirate's Helm of Fending",
+      "fr": "Casque de protecteur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d8\u30eb\u30e0"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Luftpiraten-Helm des Verst\u00fcmmelns",
+      "en": "Sky Pirate's Helm of Maiming",
+      "fr": "Casque d'abatteur de pirate des cieux",
+      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d8\u30eb\u30e0"
     },
     "stars": 2
   }

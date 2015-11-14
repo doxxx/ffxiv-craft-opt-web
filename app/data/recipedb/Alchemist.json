@@ -2842,7 +2842,7 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "Landhaus-Holzboden",
+      "de": "Landhaus-Marmorboden",
       "en": "Country Flooring",
       "fr": "Parquet rustique",
       "ja": "\u30ab\u30f3\u30c8\u30ea\u30fc\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
@@ -5069,8 +5069,21 @@
     "name": {
       "de": "Lupinen-Beet",
       "en": "Lupin Plot",
-      "fr": "Carr\u00e9 de lupins",
+      "fr": "Lupins",
       "ja": "\u30eb\u30d4\u30ca\u30b9\u30ac\u30fc\u30c7\u30f3"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 1254,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 3150,
+    "name": {
+      "de": "Chocobo-Busch",
+      "en": "Topiary Chocobo",
+      "fr": "Topiaire de b\u00e9b\u00e9 chocobo",
+      "ja": "\u30c1\u30e7\u30b3\u30dc\u30c8\u30d4\u30a2\u30ea\u30fc"
     }
   },
   {
@@ -5270,6 +5283,19 @@
   },
   {
     "baseLevel": 59,
+    "difficulty": 1654,
+    "durability": 70,
+    "level": 148,
+    "maxQuality": 3669,
+    "name": {
+      "de": "Fern\u00f6stliches Gras",
+      "en": "Oriental Grass",
+      "fr": "Roseaux de Domia",
+      "ja": "\u30c9\u30de\u30b0\u30e9\u30b9\u30ac\u30fc\u30c7\u30f3"
+    }
+  },
+  {
+    "baseLevel": 59,
     "difficulty": 459,
     "durability": 35,
     "level": 148,
@@ -5279,6 +5305,32 @@
       "en": "Scale Glue",
       "fr": "Ultra glu",
       "ja": "\u77ac\u9593\u5f37\u529b\u306b\u304b\u308f"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Max-\u00c4ther",
+      "en": "Max-Ether",
+      "fr": "Maxi \u00e9ther",
+      "ja": "\u30de\u30ad\u30b7\u30a8\u30fc\u30c6\u30eb"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Maxtrank",
+      "en": "Max-Potion",
+      "fr": "Maxi potion",
+      "ja": "\u30de\u30ad\u30b7\u30dd\u30fc\u30b7\u30e7\u30f3"
     }
   },
   {
@@ -5376,6 +5428,20 @@
       "ja": "\u6df1\u7dcb\u306e\u30cf\u30a4\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Dravanischer Baum",
+      "en": "Dravanian Down Tree",
+      "fr": "Arbre duveteux dravanien",
+      "ja": "\u30c9\u30e9\u30f4\u30a1\u30cb\u30a2\u30f3\u30fb\u30c0\u30a6\u30f3\u30c4\u30ea\u30fc"
+    },
+    "stars": 2
   },
   {
     "baseLevel": 60,
