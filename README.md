@@ -12,7 +12,10 @@ You can pick one of these options:
 * serve this repository with your webserver
 * install node.js and run:
   * `npm install`
-  * `node scripts/web-server.js`
+  * `npm start`
+* install Docker and run:
+  * `docker build -t ffxiv-craft-opt-web .`
+  * `docker run --rm -it -p 8001:8001 ffxiv-craft-opt-web`
 
 Then navigate your browser to `http://localhost:<port>/app/index.html` to see the app running in
 your browser.

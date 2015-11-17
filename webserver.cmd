@@ -1,1 +1,1 @@
-node scripts\web-server.js 8001 app
+npm start
