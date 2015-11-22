@@ -7,6 +7,8 @@ var languageIndex = {
   fr: 3
 };
 
+var hostnameRE = /\/\/xivdb\.com/;
+
 var XIVDBTooltips = function($http, _allActions, _allClasses, _actionsByName) {
   this.$http = $http;
   this._allActions = _allActions;
@@ -42,7 +44,7 @@ XIVDBTooltips.prototype.actionTooltip = function (action, cls) {
 };
 
 XIVDBTooltips.prototype._fetch = function (lang, cls, action) {
-  var url = 'http://xivdb.com/modules/fpop/fpop.php?version=1.6';
+  var url = 'http://legacy.xivdb.com/modules/fpop/fpop.php?version=1.6';
   var config = {
     params: {
       lang: languageIndex[lang],
@@ -58,7 +60,9 @@ XIVDBTooltips.prototype._fetch = function (lang, cls, action) {
 XIVDBTooltips.prototype._updateCache = function (data) {
   var cls = data.config.cls;
   var action = data.config.action;
-  this.actionTooltips[cls + action.shortName] = data.data.html;
+  var html = data.data.html;
+  html = html.replace(hostnameRE, '//legacy.xivdb.com');
+  this.actionTooltips[cls + action.shortName] = html;
 };
 
 XIVDBTooltips.prototype._buildTooltipsCache = function (lang) {
