@@ -1,19 +1,16 @@
-<h3 class="page-title">
-  Crafter Attributes
-  <span class="pull-right btn-group">
-    <button class="btn" ng-click="refreshChar()" ng-if="lodestoneID" ng-disabled="refreshing">
-      <i class="fa fa-spinner fa-pulse" ng-if="refreshing"></i>
-      Refresh
-    </button>
-    <button class="btn" ng-click="showCharImportModal()">Import...</button>
-  </span>
-</h3>
 <div class="row-fluid">
   <div class="span12">
     <tabset>
       <tab ng-repeat="tab in tabs" active="tab.active" select="onTabSelect(tab)">
         <tab-heading><img ng-src="img/classes/{{tab.name}}.png"/> &nbsp; {{tab.name}}</tab-heading>
       </tab>
+      <span class="pull-right btn-group">
+        <button class="btn" ng-click="refreshChar()" ng-if="lodestoneID" ng-disabled="refreshing">
+          <i class="fa fa-spinner fa-pulse" ng-if="refreshing"></i>
+          Refresh
+        </button>
+        <button class="btn" ng-click="showCharImportModal()">Import...</button>
+      </span>
     </tabset>
     <div class="row-fluid">
       <div class="span6">
