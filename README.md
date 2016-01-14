@@ -14,12 +14,13 @@ You can pick one of these options:
   * `npm install`
   * `npm start`
 * install Docker and run:
-  * `docker build -t ffxiv-craft-opt-web .`
-  * `docker run --rm -it -p 8001:8001 ffxiv-craft-opt-web`
+  * `docker build -f Dockerfile.dev -t ffxiv-craft-opt-web-dev .`
+  * `docker run --rm -it -p 8001:8001 ffxiv-craft-opt-web-dev`
 
 The last two options will serve the website on port 8001. Note that if you're using Docker on 
 Windows or OS X via VirtualBox, you'll have to use the IP address of the Linux VM (usually 
-192.168.99.100) that is hosting Docker, instead of `localhost`.
+192.168.99.100) that is hosting Docker, instead of `localhost`. The Dockerfile.dev method will 
+mount the app source as a volume so chnages will be reflected when the browser is refreshed.
 
 ### Translations
 
