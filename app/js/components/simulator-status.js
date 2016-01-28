@@ -8,6 +8,7 @@ angular.module('ffxivCraftOptWeb.components')
       scope: {
         crafter: '=',
         bonusStats: '=',
+        recipeStartWith : "=startWith",
         recipe: '=',
         status: '=',
         valid: '&'
@@ -29,11 +30,11 @@ angular.module('ffxivCraftOptWeb.components')
             $scope.cp = $scope.status.state.cp;
           }
           else {
-            $scope.durability = $scope.recipe.durability;
-            $scope.condition = '';
-            $scope.progress = 0;
-            $scope.quality =  0;
-            $scope.cp = $scope.stats.cp;
+            $scope.durability = $scope.recipeStartWith.durability || $scope.recipe.durability;
+            $scope.condition = $scope.recipeStartWith.condition || '';
+            $scope.progress = $scope.recipeStartWith.difficulty || 0;
+            $scope.quality =  $scope.recipeStartWith.quality || 0;
+            $scope.cp = $scope.recipeStartWith.cp || $scope.stats.cp;
           }
 
           $scope.progressPercent = Math.min(100, $scope.progress / $scope.recipe.difficulty * 100);
@@ -47,6 +48,7 @@ angular.module('ffxivCraftOptWeb.components')
 
         $scope.$watchCollection("crafter", update);
         $scope.$watchCollection("bonusStats", update);
+        $scope.$watchCollection("recipeStartWith", update);
         $scope.$watchCollection("recipe", update);
         $scope.$watchCollection("status", update);
 

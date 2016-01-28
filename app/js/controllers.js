@@ -86,6 +86,12 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         $scope.$broadcast('simulation.needs.update');
       });
 
+      $scope.$watchCollection('recipeStartWith', function () {
+        saveLocalPageState($scope);
+        $scope.$broadcast('recipeStartwith.changed', $scope.recipeStartWith);
+        $scope.$broadcast('simulation.needs.update');
+      });
+
       var crafterStatsChangedHandler = function () {
         saveLocalPageState($scope);
         $scope.$broadcast('crafter.stats.changed');
@@ -142,6 +148,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
     $scope.$on('recipe.selected', function (event, recipe) {
       $scope.recipe = recipe;
+      $scope.recipeStartWith = newRecipeStartWith();
     });
 
     $scope.$on('update.sequence', function (event, newSequence) {
@@ -162,6 +169,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       var settings = $scope.profile.loadSynth(name);
 
       $scope.bonusStats = extend(newBonusStats(), settings.bonusStats);
+      $scope.recipeStartWith = extend(newRecipeStartWith(), settings.recipeStartWith);
       $scope.recipe = settings.recipe;
       $scope.sequence = settings.sequence;
 
@@ -185,6 +193,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
       settings.name = $scope.settings.name;
       settings.bonusStats = extend(newBonusStats(), $scope.bonusStats);
+      settings.recipeStartWith = extend(newRecipeStartWith(), $scope.recipeStartWith);
       settings.recipe = $scope.recipe;
       settings.sequence = $scope.sequence;
 
@@ -234,6 +243,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       var clean = true;
 
       clean = clean && angular.equals(settings.bonusStats, $scope.bonusStats);
+      clean = clean && angular.equals(settings.recipeStartWith, $scope.recipeStartWith);
       clean = clean && angular.equals(settings.recipe, $scope.recipe);
       clean = clean && angular.equals(settings.sequence, $scope.sequence);
 
@@ -300,10 +310,28 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       });
     };
 
+    $scope.showRecipeStartWithModal = function () {
+      var modalInstance = $modal.open({
+        templateUrl: 'modals/recipeStartWith.html',
+        controller: 'RecipeStartWithController',
+        windowClass: 'options-modal',
+        resolve: {
+          crafter : function () { return $scope.crafter.stats[$scope.recipe.cls]; },
+          recipe : function () { return $scope.recipe; },
+          recipeStartWith : function () { return $scope.recipeStartWith; },
+          bonusStats : function () { return $scope.bonusStats; }
+        }
+      });
+      modalInstance.result.then(function (result) {
+        $scope.recipeStartWith = result.recipeStartWith;
+      });
+    };
+
+    $scope.profile = _localProfile;
+
     // Final initialization
     loadLocalPageState($scope);
 
-    $scope.profile = _localProfile;
     $scope.onProfileLoaded();
   });
 
@@ -333,6 +361,7 @@ function initPageStateDefaults($scope) {
   $scope.bonusStats = newBonusStats();
 
   $scope.recipe = newRecipeStats($scope.crafter.cls);
+  $scope.recipeStartWith = newRecipeStartWith();
 
   $scope.sequence = [];
 
@@ -369,6 +398,7 @@ function loadLocalPageState_v2($scope) {
 
   extend($scope.sections, state.sections);
   extend($scope.bonusStats, state.bonusStats);
+  extend($scope.recipeStartWith, state.recipeStartWith);
   extend($scope.recipe, state.recipe);
   extend($scope.sequenceSettings, state.sequenceSettings);
   extend($scope.solver, state.solver);
@@ -432,6 +462,7 @@ function saveLocalPageState_v2($scope) {
   var state = {
     sections: $scope.sections,
     bonusStats: $scope.bonusStats,
+    recipeStartWith: $scope.recipeStartWith,
     recipe: $scope.recipe,
     sequence: $scope.sequence,
     sequenceSettings: $scope.sequenceSettings,
@@ -508,7 +539,6 @@ function newRecipeStats(cls) {
     level: 1,
     difficulty: 9,
     durability: 40,
-    startQuality: 0,
     maxQuality: 312
   }
 }
@@ -517,8 +547,16 @@ function newBonusStats() {
   return {
     craftsmanship: 0,
     control: 0,
-    cp: 0,
-    startQuality: 0
+    cp: 0
+  }
+}
+
+function newRecipeStartWith(){
+  return {
+    durability: null,
+    difficulty : null,
+    quality : null,
+    cp : null
   }
 }
 
@@ -530,14 +568,14 @@ function addCrafterBonusStats(crafter, bonusStats) {
   return newStats;
 }
 
-function addRecipeBonusStats(recipe, bonusStats) {
-  var newStats = angular.copy(recipe);
-  newStats.startQuality += bonusStats.startQuality;
-  return newStats;
-}
-
 // scrollIntoViewIfNeeded polyfill for Firefox and IE
 // Based on https://gist.github.com/hsablonniere/2581101
+
+function setRecipeSartWith(recipe, recipeStartWith) {
+  var newStats = angular.copy(recipe);
+  newStats.recipeStartWith = recipeStartWith;
+  return newStats;
+}
 if (!Element.prototype.scrollIntoViewIfNeeded) {
   Element.prototype.scrollIntoViewIfNeeded = function (centerIfNeeded) {
     centerIfNeeded = arguments.length === 0 ? true : !!centerIfNeeded;

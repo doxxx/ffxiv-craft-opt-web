@@ -48,20 +48,75 @@
     </div>
     <div class="row-fluid">
       <div class="span8">
-        <simulator-status class="initial-guess" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" recipe="recipe" status="simulatorStatus"
+        <simulator-status class="initial-guess" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" start-with="recipeStartWith" recipe="recipe" status="simulatorStatus"
                           valid="isValidSequence(simulatorStatus.sequence, recipe.cls)"></simulator-status>
       </div>
-      <div class="span4">
-        <div class="bonus-stats">
-          <div class="well well-small">
-            <h5>L{{crafter.stats[recipe.cls].level}} {{recipe.cls}} Attributes <a ui-sref="crafter-attributes"><i class="fa fa-edit"></i></a></h5>
-            <form name="bonusStatsForm">
-              <table>
+
+      <!-- Starting with -->
+      <div class="span2">
+        <div class="simulator-status">
+          <form name="recipeStartWithForm">
+            <table>
+              <thead>
+                <th colspan="4" class="text-left"><h5>Start with&nbsp;<a href data-ng-click="showRecipeStartWithModal()"><i class="fa fa-edit"></i></a></h5></th>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Durability</td>
+                <td>=</td>
+                <td class="value">
+                  <input class="input-mini" type="number" min="0" force-numeric placeholder="{{recipe.durability}}" ng-model="recipeStartWith.durability" max="{{recipe.durability}}" step="5"/>
+                </td>
+                <td class="min-width">&nbsp;/&nbsp;</td>
+                <td class="min-width text-right">{{recipe.durability}}</td>
+              </tr>
+              <tr>
+                <td>Progress</td>
+                <td>=</td>
+                <td class="value">
+                  <input class="input-mini" type="number" min="0" force-numeric placeholder="0" ng-model="recipeStartWith.difficulty" max="{{recipe.difficulty}}" step="1"/>
+                </td>
+                <td>&nbsp;/&nbsp;</td>
+                <td class="text-right">{{recipe.difficulty}}</td>
+              </tr>
+              <tr>
+                <td>Quality</td>
+                <td>=</td>
+                <td class="value">
+                  <input class="input-mini" type="number" min="0" force-numeric placeholder="0" ng-model="recipeStartWith.quality" max="{{recipe.maxQuality}}" step="1"/>
+                </td>
+                <td>&nbsp;/&nbsp;</td>
+                <td class="text-right">{{recipe.maxQuality}}</td>
+              </tr>
+              <tr>
+                <td>CP</td>
+                <td>=</td>
+                <td class="value">
+                  <input class="input-mini" type="number" min="0" force-numeric placeholder="{{crafter.stats[recipe.cls].cp + bonusStats.cp}}" ng-model="recipeStartWith.cp" max="{{crafter.stats[recipe.cls].cp + bonusStats.cp}}" step="1"/>
+                </td>
+                <td>&nbsp;/&nbsp;</td>
+                <td class="text-right">{{crafter.stats[recipe.cls].cp + bonusStats.cp}}</td>
+              </tr>
+              </tbody>
+            </table>
+          </form>
+        </div>
+      </div>
+
+      <!-- Crafter bonus stats -->
+      <div class="span2">
+        <div class="simulator-status bonus-stats">
+          <form name="bonusStatsForm">
+            <table>
+              <thead>
+                <th colspan="4" class="text-left"><h5>L{{crafter.stats[recipe.cls].level}} {{recipe.cls}} Attributes&nbsp;<a ui-sref="crafter-attributes"><i class="fa fa-edit"></i></a></h5></th>
+              </thead>
+              <tbody>
                 <tr>
                   <td>Craftsmanship</td>
                   <td class="value">{{crafter.stats[recipe.cls].craftsmanship}}</td>
                   <td>+</td>
-                  <td>
+                  <td class="value">
                     <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.craftsmanship"/>
                   </td>
                 </tr>
@@ -69,7 +124,7 @@
                   <td>Control</td>
                   <td class="value">{{crafter.stats[recipe.cls].control}}</td>
                   <td>+</td>
-                  <td>
+                  <td class="value">
                     <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.control"/>
                   </td>
                 </tr>
@@ -77,27 +132,23 @@
                   <td>CP</td>
                   <td class="value">{{crafter.stats[recipe.cls].cp}}</td>
                   <td>+</td>
-                  <td>
+                  <td class="value">
                     <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.cp"/>
                   </td>
                 </tr>
                 <tr>
-                  <td>Start Quality</td>
-                  <td class="value"></td>
-                  <td>+</td>
-                  <td>
-                    <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.startQuality"/>
-                  </td>
+                  <td colspan="4">&nbsp;</td>
                 </tr>
-              </table>
+              </tbody>
+            </table>
             </form>
-          </div>
         </div>
       </div>
+
     </div>
   </div>
 
-  <div class="row-fluid">
+  <div class="row-fluid margin-top-10">
     <div class="span12">
       <div class="row-fluid">
         <div ng-class="{'edit-mode': editingSequence}" ng-show="editingSequence">

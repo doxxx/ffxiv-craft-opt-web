@@ -95,7 +95,7 @@ function start(settings) {
   var recipe = new Recipe(settings.recipe.level,
                           settings.recipe.difficulty,
                           settings.recipe.durability,
-                          settings.recipe.startQuality,
+                          settings.recipe.recipeStartWith,
                           settings.recipe.maxQuality,
                           settings.recipe.aspect);
   var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, settings.useConditions);

@@ -50,11 +50,11 @@ function Crafter(cls, level, craftsmanship, control, craftPoints, actions) {
     }
 }
 
-function Recipe(level, difficulty, durability, startQuality, maxQuality, aspect) {
+function Recipe(level, difficulty, durability, recipeStartWith, maxQuality, aspect) {
     this.level = level;
     this.difficulty = difficulty;
     this.durability = durability;
-    this.startQuality = startQuality;
+    this.recipeStartWith = recipeStartWith;
     this.maxQuality = maxQuality;
     this.aspect = aspect;
 }
@@ -281,7 +281,7 @@ function NewStateFromSynth(synth) {
     var lastStep = 0;
     var durabilityState = synth.recipe.durability;
     var cpState = synth.crafter.craftPoints;
-    var qualityState = synth.recipe.startQuality;
+    var qualityState = 0;
     var progressState = 0;
     var wastedActions = 0;
     var trickUses = 0;
@@ -290,6 +290,45 @@ function NewStateFromSynth(synth) {
     var crossClassActionList = {};
     var effects = new EffectTracker();
     var condition = 'Normal';
+
+    if (synth.recipe.recipeStartWith){
+        if (synth.recipe.recipeStartWith.durability) {
+            durabilityState = synth.recipe.recipeStartWith.durability;
+            step = 1;
+        }
+
+        if (synth.recipe.recipeStartWith.difficulty){
+            progressState = synth.recipe.recipeStartWith.difficulty;
+            step = 1;
+        }
+
+        if (synth.recipe.recipeStartWith.quality){
+            qualityState = synth.recipe.recipeStartWith.quality;
+            step = 1;
+        }
+
+        if (synth.recipe.recipeStartWith.cp){
+            cpState = synth.recipe.recipeStartWith.cp;
+            step = 1;
+        }
+
+        if (synth.recipe.recipeStartWith.condition){
+            condition = synth.recipe.recipeStartWith.condition;
+            step = 1;
+        }
+
+        if (synth.recipe.recipeStartWith.effects){
+            effects = synth.recipe.recipeStartWith.effects;
+            step = 1;
+
+            // Set nameOfElementUses
+            if (effects.countDowns)
+                for (var effect in effects.countDowns) {
+                    if (effect.indexOf('nameOf') >= 0)
+                        nameOfElementUses++;
+                }
+        }
+    }
 
     return new State(synth, step, lastStep, '', durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition);
 }

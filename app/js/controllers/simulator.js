@@ -1,5 +1,29 @@
 "use strict";
 
+// Remove Accent from source (ex: ï¿½ï¿½ï¿½ï¿½ï¿½ will be returned as ueeua).
+// Use to compare string without accents
+// ---------------------------------------------------
+String.prototype.removeAccent = function(){
+    var accent = [
+            /[\300-\306]/g, /[\340-\346]/g, // A, a
+            /[\310-\313]/g, /[\350-\353]/g, // E, e
+            /[\314-\317]/g, /[\354-\357]/g, // I, i
+            /[\322-\330]/g, /[\362-\370]/g, // O, o
+            /[\331-\334]/g, /[\371-\374]/g, // U, u
+            /[\321]/g, /[\361]/g, // N, n
+            /[\307]/g, /[\347]/g, // C, c
+        ],
+        noaccent = ['A','a','E','e','I','i','O','o','U','u','N','n','C','c'];
+
+    var str = this;
+    for (var i = 0; i < accent.length; i++){
+        str = str.replace(accent[i], noaccent[i]);
+    }
+
+    return str;
+};
+
+
 angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController', function ($scope, $filter, $modal,
   $rootScope, $translate, $timeout, $state, _recipeLibrary, _simulator, _actionsByName)
 {
@@ -39,7 +63,20 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     $scope.recipeSearch.loading = true;
     var p = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls);
     p.then(function (recipes) {
-      $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text});
+        // Restrict recipes to crafter level
+        recipes  = $filter('filter')(recipes, {baseLevel: $scope.crafter.stats[$scope.recipe.cls].level}, function(recipeLevel, crafterLevel){
+            if (!crafterLevel || crafterLevel >= recipeLevel - 5)
+                return true;
+            return false;
+        });
+
+        // Then filter on text search
+        $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text}, function(recipeName, recipeSearch){
+          if (recipeName == undefined || recipeSearch == undefined)
+            return true;
+
+          return recipeName.removeAccent().toUpperCase().indexOf(recipeSearch.removeAccent().toUpperCase()) >= 0;
+      });
       $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
       $scope.recipeSearch.loading = false;
     }, function (err) {
@@ -68,7 +105,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     p.then(function (recipe) {
       recipe = angular.copy(recipe);
       recipe.cls = cls;
-      recipe.startQuality = 0;
+      recipe.recipeStartWith = null;
       $scope.$emit('recipe.selected', recipe);
     }, function (err) {
       console.error("Failed to load recipe:", err);
@@ -116,6 +153,9 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
       $scope.runMonteCarloSim();
     }
+    else if ($scope.sequence.length < 1 && $scope.recipeStartWith.effects) {
+      $scope.runMonteCarloSim();
+    }
     else {
       $scope.simulatorStatus.sequence = null;
       $scope.simulatorStatus.monteCarlo.logText = '';
@@ -146,7 +186,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   $scope.runMonteCarloSim = function () {
     var settings = {
       crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      recipe: setRecipeSartWith($scope.recipe, $scope.recipeStartWith),
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -178,7 +218,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   $scope.runProbabilisticSim = function () {
     var settings = {
       crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      recipe: setRecipeSartWith($scope.recipe, $scope.recipeStartWith),
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -215,7 +255,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
   $scope.editSequenceInline = function () {
     $scope.editingSequence = true;
     $timeout(function () {
-      $scope.$broadcast('sequence.editor.init', $scope.sequence,  $scope.recipe, $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings);
+      $scope.$broadcast('sequence.editor.init', $scope.sequence,  $scope.recipe, $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings, $scope.recipeStartWith);
     });
   };
 

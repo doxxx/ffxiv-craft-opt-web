@@ -42,9 +42,8 @@ var SolverService = function($timeout) {
 SolverService.$inject = ['$timeout'];
 
 SolverService.prototype.start = function(settings, progress, success, error) {
-  if (settings.recipe.startQuality === undefined) {
+  if (settings.recipe.recipeStartWith === undefined) {
     settings.recipe = angular.copy(settings.recipe);
-    settings.recipe.startQuality = 0;
   }
 
   this.stopRequested = false;
