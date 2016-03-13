@@ -1236,6 +1236,19 @@
   },
   {
     "baseLevel": 20,
+    "difficulty": 37,
+    "durability": 40,
+    "level": 20,
+    "maxQuality": 1053,
+    "name": {
+      "de": "Unbeschriebene Notenrolle",
+      "en": "Blank Grade 1 Orchestrion Roll",
+      "fr": "Rouleau d'orchestrion vierge I",
+      "ja": "\u7121\u5730\u306e\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5cG1"
+    }
+  },
+  {
+    "baseLevel": 20,
     "difficulty": 74,
     "durability": 70,
     "level": 20,
@@ -4224,6 +4237,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 222,
+    "durability": 40,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Unbeschriebene Notenrolle II",
+      "en": "Blank Grade 2 Orchestrion Roll",
+      "fr": "Rouleau d'orchestrion vierge II",
+      "ja": "\u7121\u5730\u306e\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5cG2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 1424,
     "durability": 80,
     "level": 90,
@@ -5453,6 +5480,19 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 35,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Unbeschriebene Notenrolle III",
+      "en": "Blank Grade 3 Orchestrion Roll",
+      "fr": "Rouleau d'orchestrion vierge III",
+      "ja": "\u7121\u5730\u306e\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5cG3"
+    }
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1720,
     "durability": 70,
     "level": 150,
@@ -5503,6 +5543,20 @@
       "en": "Deep Hive Ceiling Fan",
       "fr": "Ventilateur de plafond du Ma\u00eetre des lames",
       "ja": "\u6b66\u795e\u30e9\u30fc\u30f4\u30a1\u30ca\u306e\u6247\u98a8\u706f"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "D\u00e4monenbann-Pfeil",
+      "en": "Dispelling Arrow",
+      "fr": "Fl\u00e8che-amulette",
+      "ja": "\u7834\u9b54\u77e2"
     },
     "stars": 1
   },
@@ -5620,6 +5674,20 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Kampferholz",
+      "en": "Camphorwood Lumber",
+      "fr": "Madrier de camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u6750"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
     "level": 170,
@@ -5639,10 +5707,52 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
+      "de": "Orchestrion",
+      "en": "Orchestrion",
+      "fr": "Orchestrion",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Pudding-Tisch",
+      "en": "Pudding Desk",
+      "fr": "Bureau pudding",
+      "ja": "\u30d7\u30ea\u30f3\u30c7\u30b9\u30af"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
       "de": "Epischer gordischer Schreibtisch",
       "en": "Savage Gordian Bureau",
       "fr": "Secr\u00e9taire gordien ornement\u00e9",
       "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u66f8\u673a\u3010\u96f6\u5f0f\u3011"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Rehscheuche",
+      "en": "Shishi-odoshi",
+      "fr": "Shishi-odoshi",
+      "ja": "\u9e7f\u5a01\u3057"
     },
     "stars": 2
   },
@@ -5659,5 +5769,159 @@
       "ja": "\u30b5\u30f3\u30de\u30a4\u30ab\u30fb\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Armillae des Zielens",
+      "en": "Camphorwood Armillae of Aiming",
+      "fr": "Armilles de pisteur en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30ec\u30f3\u30b8\u30e3\u30fc\u30a2\u30eb\u30df\u30e9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Armillae der Magie",
+      "en": "Camphorwood Armillae of Casting",
+      "fr": "Armilles d'incantateur en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30ad\u30e3\u30b9\u30bf\u30fc\u30a2\u30eb\u30df\u30e9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Armillae der Verteidigung",
+      "en": "Camphorwood Armillae of Fending",
+      "fr": "Armilles de protecteur en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30a2\u30eb\u30df\u30e9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Armillae der Heilung",
+      "en": "Camphorwood Armillae of Healing",
+      "fr": "Armilles de soigneur en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30d2\u30fc\u30e9\u30fc\u30a2\u30eb\u30df\u30e9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Armillae des Schlachtens",
+      "en": "Camphorwood Armillae of Slaying",
+      "fr": "Armilles d'attaquant en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30a2\u30bf\u30c3\u30ab\u30fc\u30a2\u30eb\u30df\u30e9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Halsband des Zielens",
+      "en": "Camphorwood Necklace of Aiming",
+      "fr": "Collier de pisteur en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30ec\u30f3\u30b8\u30e3\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Halsband der Magie",
+      "en": "Camphorwood Necklace of Casting",
+      "fr": "Collier d'incantateur en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30ad\u30e3\u30b9\u30bf\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Halsband der Verteidigung",
+      "en": "Camphorwood Necklace of Fending",
+      "fr": "Collier de protecteur en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Halsband der Heilung",
+      "en": "Camphorwood Necklace of Healing",
+      "fr": "Collier de soigneur en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30d2\u30fc\u30e9\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Kampferholz-Halsband des Schlachtens",
+      "en": "Camphorwood Necklace of Slaying",
+      "fr": "Collier d'attaquant en camphrier",
+      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30a2\u30bf\u30c3\u30ab\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Behandeltes Kampferholz",
+      "en": "Treated Camphorwood Lumber",
+      "fr": "Madrier de camphrier trait\u00e9",
+      "ja": "\u786c\u5316\u30ab\u30f3\u30d5\u30a1\u30fc\u6750"
+    },
+    "stars": 3
   }
 ]

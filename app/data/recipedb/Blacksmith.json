@@ -6182,6 +6182,19 @@
   },
   {
     "baseLevel": 57,
+    "difficulty": 1454,
+    "durability": 70,
+    "level": 142,
+    "maxQuality": 3410,
+    "name": {
+      "de": "Ishgarder Kronleuchter",
+      "en": "Alpine Chandelier",
+      "fr": "Lustre ishgardais",
+      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30b7\u30e3\u30f3\u30c7\u30ea\u30a2"
+    }
+  },
+  {
+    "baseLevel": 57,
     "difficulty": 808,
     "durability": 70,
     "level": 142,
@@ -6728,6 +6741,34 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Adamantium-Franziska",
+      "en": "Adamantite Francesca",
+      "fr": "Francisque en adamantium",
+      "ja": "\u30a2\u30c0\u30de\u30f3\u30d5\u30e9\u30f3\u30b7\u30b9\u30ab"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "de": "Kristallglocke",
+      "en": "Crystal Bell",
+      "fr": "Sonnette de l'esth\u00e9ticien",
+      "ja": "\u7f8e\u5bb9\u5e2b\u306e\u547c\u3073\u9234"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 558,
     "durability": 35,
     "level": 160,
@@ -6817,6 +6858,20 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
+      "de": "Verzinkter Garlond-Stahl",
+      "en": "Galvanized Garlond Steel",
+      "fr": "Acier de Garlond galvanis\u00e9",
+      "ja": "\u8d85\u786c\u30ac\u30fc\u30ed\u30f3\u30c9\u92fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
       "de": "Kunstschmiedemeister-F\u00e4ustel",
       "en": "Gemmaster's Mallet",
       "fr": "Massette d'expert des gemmes",
@@ -6873,6 +6928,20 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
+      "de": "Edelmythrit-Nugget",
+      "en": "High Mythrite Nugget",
+      "fr": "P\u00e9pite de mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30ca\u30b2\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
       "de": "Schreinermeister-S\u00e4ge",
       "en": "Millmaster's Saw",
       "fr": "Scie d'expert de l'\u00e9tabli",
@@ -6891,6 +6960,20 @@
       "en": "Polished Adamantite File",
       "fr": "Lime en adamantium renforc\u00e9e",
       "ja": "\u30a2\u30c0\u30de\u30f3\u30d5\u30a1\u30a4\u30ebDX"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Pudding-Lampe",
+      "en": "Pudding Floor Lamp",
+      "fr": "Lampe pudding",
+      "ja": "\u30d7\u30ea\u30f3\u30d5\u30ed\u30a2\u30e9\u30f3\u30d7"
     },
     "stars": 2
   },
@@ -6935,5 +7018,243 @@
       "ja": "\u30a2\u30c0\u30de\u30f3\u30af\u30ea\u30ca\u30ea\u30fc\u30ca\u30a4\u30d5DX"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythritbarren",
+      "en": "High Mythrite Ingot",
+      "fr": "Lingot de mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30a4\u30f3\u30b4\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Baghnakhs (Replik)",
+      "en": "Replica Allagan Baghnakhs",
+      "fr": "R\u00e9pliques de baghnakhs allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d0\u30b0\u30ca\u30a6"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Kriegsaxt (Replik)",
+      "en": "Replica Allagan Battleaxe",
+      "fr": "R\u00e9plique de hache de combat allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d0\u30c8\u30eb\u30a2\u30af\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Klinge (Replik)",
+      "en": "Replica Allagan Blade",
+      "fr": "R\u00e9plique de lame allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d6\u30ec\u30fc\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagischer Kompositbogen (Replik)",
+      "en": "Replica Allagan Composite Bow",
+      "fr": "R\u00e9plique d'arc composite allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30dc\u30a6"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Dolche (Replik)",
+      "en": "Replica Allagan Daggers",
+      "fr": "R\u00e9pliques de dagues allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30c0\u30ac\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Guillotine (Replik)",
+      "en": "Replica Allagan Guillotine",
+      "fr": "R\u00e9plique de fendoir allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30fb\u30c7\u30a3\u30d0\u30a4\u30c0\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagische Pistole (Replik)",
+      "en": "Replica Allagan Pistol",
+      "fr": "R\u00e9plique de pistolet allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30cf\u30f3\u30c9\u30ac\u30f3"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagischer Speer (Replik)",
+      "en": "Replica Allagan Spear",
+      "fr": "R\u00e9plique d'hast allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30d4\u30a2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Baghnakhs (Replik)",
+      "en": "Replica High Allagan Baghnakhs",
+      "fr": "R\u00e9pliques de baghnakhs haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30d0\u30b0\u30ca\u30a6"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Kriegsaxt (Replik)",
+      "en": "Replica High Allagan Battleaxe",
+      "fr": "R\u00e9plique de hache de combat haut-allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30d0\u30c8\u30eb\u30a2\u30af\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Klinge (Replik)",
+      "en": "Replica High Allagan Blade",
+      "fr": "R\u00e9plique de lame haut-allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30d6\u30ec\u30fc\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Spalter (Replik)",
+      "en": "Replica High Allagan Cleavers",
+      "fr": "R\u00e9pliques de couperets haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30af\u30ea\u30fc\u30d0\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagischer Kompositbogen (Replik)",
+      "en": "Replica High Allagan Composite Bow",
+      "fr": "R\u00e9plique d'arc composite haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30dc\u30a6"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Guillotine (Replik)",
+      "en": "Replica High Allagan Guillotine",
+      "fr": "R\u00e9plique de fendoir haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30c7\u30a3\u30d0\u30a4\u30c0\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagische Pistole (Replik)",
+      "en": "Replica High Allagan Pistol",
+      "fr": "R\u00e9plique de pistolet haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30cf\u30f3\u30c9\u30ac\u30f3"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagischer Speer (Replik)",
+      "en": "Replica High Allagan Spear",
+      "fr": "R\u00e9plique d'hast haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30b9\u30d4\u30a2"
+    },
+    "stars": 3
   }
 ]

@@ -3364,7 +3364,7 @@
     "level": 41,
     "maxQuality": 2109,
     "name": {
-      "de": "Gr\u00fcn Barett",
+      "de": "Gr\u00fcnes Barett",
       "en": "Green Beret",
       "fr": "B\u00e9ret vert",
       "ja": "\u30b0\u30ea\u30fc\u30f3\u30d9\u30ec\u30fc"
@@ -4412,7 +4412,7 @@
     "name": {
       "de": "Steinbock-Stofftier",
       "en": "Wind-up Aldgoat",
-      "fr": "Mini bouquetin",
+      "fr": "Mini-bouquetin",
       "ja": "\u30de\u30e1\u30c3\u30c8\u30fb\u30b4\u30fc\u30c8"
     }
   },
@@ -5012,7 +5012,7 @@
     "name": {
       "de": "Vanya-Seidenf\u00e4den",
       "en": "Twinthread",
-      "fr": "Fil de saturnie",
+      "fr": "Fil de soie",
       "ja": "\u5c71\u7e6d\u7cf8"
     },
     "stars": 1
@@ -5922,7 +5922,7 @@
     "name": {
       "de": "Kaschmir-Hut des Zielens",
       "en": "Cashmere Hat of Aiming",
-      "fr": "Chapeau de chasseur en cachemire",
+      "fr": "Chapeau de pisteur en cachemire",
       "ja": "\u30ab\u30b7\u30df\u30e4\u30ec\u30f3\u30b8\u30e3\u30fc\u30cf\u30c3\u30c8"
     },
     "stars": 3
@@ -7296,6 +7296,32 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
+      "de": "Ramien-Kecks",
+      "en": "Ramie Kecks",
+      "fr": "B\u00e9nard en ramie",
+      "ja": "\u30e9\u30df\u30fc\u30b1\u30af\u30b9"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Ramien-Schlupfhose",
+      "en": "Ramie Pantalettes",
+      "fr": "Pantalettes en ramie",
+      "ja": "\u30e9\u30df\u30fc\u30d1\u30f3\u30bf\u30ec\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
       "de": "Ramien-Robe der Magie",
       "en": "Ramie Robe of Casting",
       "fr": "Robe d'incantateur en ramie",
@@ -7313,6 +7339,19 @@
       "en": "Ramie Robe of Healing",
       "fr": "Robe de soigneur en ramie",
       "ja": "\u30e9\u30df\u30fc\u30d2\u30fc\u30e9\u30fc\u30ed\u30fc\u30d6"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Ramien-Waffenrock",
+      "en": "Ramie Tabard",
+      "fr": "Tabard en ramie",
+      "ja": "\u30e9\u30df\u30fc\u30bf\u30d0\u30fc\u30c9"
     }
   },
   {
@@ -7764,7 +7803,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "de": "Dhalmelleder-Cyclas des Sp\u00e4hens",
+      "de": "Chim\u00e4renfilz-Cyclas des Sp\u00e4hens",
       "en": "Chimerical Felt Cyclas of Scouting",
       "fr": "Cyclas d'\u00e9claireur en feutre chim\u00e9rique",
       "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30ab\u30a6\u30c8\u30b7\u30af\u30e9\u30b9"
@@ -8011,7 +8050,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "de": "Dhalmelleder-Waffenrock des Sp\u00e4hens",
+      "de": "Chim\u00e4renfilz-Waffenrock des Sp\u00e4hens",
       "en": "Chimerical Felt Tabard of Scouting",
       "fr": "Tabard d'\u00e9claireur en feutre chim\u00e9rique",
       "ja": "\u30ad\u30de\u30a4\u30e9\u30d5\u30a7\u30eb\u30c8\u30fb\u30b9\u30ab\u30a6\u30c8\u30bf\u30d0\u30fc\u30c9"
@@ -8063,6 +8102,20 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
+      "de": "Geweihte Befiederung",
+      "en": "Blessed Fletchings",
+      "fr": "Penne b\u00e9nie",
+      "ja": "\u795d\u798f\u3055\u308c\u305f\u77e2\u7fbd"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
       "de": "Ritterwams der Magie",
       "en": "Chivalric Doublet of Casting",
       "fr": "Doublet d'incantateur chevaleresque",
@@ -8106,7 +8159,7 @@
     "maxQuality": 8377,
     "name": {
       "de": "Falknerhemd",
-      "en": "Falconer Shirt",
+      "en": "Falconer's Shirt",
       "fr": "Chemise de fauconnier",
       "ja": "\u30d5\u30a1\u30eb\u30b3\u30ca\u30fc\u30b7\u30e3\u30c4"
     },
@@ -8226,6 +8279,62 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Windseiden-Miederhose",
+      "en": "Wind Silk Bottoms",
+      "fr": "Bas-de-corps en soie des vents",
+      "ja": "\u30a6\u30a3\u30f3\u30c9\u30b7\u30eb\u30af\u30dc\u30c8\u30e0"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Windseiden-Spenzer",
+      "en": "Wind Silk Coatee",
+      "fr": "Bol\u00e9ro en soie des vents",
+      "ja": "\u30a6\u30a3\u30f3\u30c9\u30b7\u30eb\u30af\u30b3\u30fc\u30c6\u30a3"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Windseiden-Schiffchen",
+      "en": "Wind Silk Wedge Cap",
+      "fr": "Calot en soie des vents",
+      "ja": "\u30a6\u30a3\u30f3\u30c9\u30b7\u30eb\u30af\u30fb\u30a6\u30a7\u30c3\u30b8\u30ad\u30e3\u30c3\u30d7"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Mini-Garuda",
+      "en": "Wind-up Garuda",
+      "fr": "Petite Garuda",
+      "ja": "\u30de\u30e1\u30c3\u30c8\u30fb\u30ac\u30eb\u30fc\u30c0"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 558,
     "durability": 70,
     "level": 160,
@@ -8249,6 +8358,34 @@
       "en": "Wind-up Illuminatus",
       "fr": "Gobelin de la Mimine bleue",
       "ja": "\u30de\u30e1\u30c3\u30c8\u30fb\u30d6\u30eb\u30fc\u30cf\u30f3\u30c9"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Mini-Leviathan",
+      "en": "Wind-up Leviathan",
+      "fr": "Petit L\u00e9viathan",
+      "ja": "\u30de\u30e1\u30c3\u30c8\u30fb\u30ea\u30f4\u30a1\u30a4\u30a2\u30b5\u30f3"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Mini-Titan",
+      "en": "Wind-up Titan",
+      "fr": "Petit Titan",
+      "ja": "\u30de\u30e1\u30c3\u30c8\u30fb\u30bf\u30a4\u30bf\u30f3"
     },
     "stars": 1
   },
@@ -8660,6 +8797,188 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Pudding-Teppich",
+      "en": "Pudding Throw Rug",
+      "fr": "Tapis pudding",
+      "ja": "\u30d7\u30ea\u30f3\u30e9\u30b0"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Reiterhose der Magie (Replik)",
+      "en": "Replica Allagan Breeches of Casting",
+      "fr": "R\u00e9pliques de braies d'incantateur allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ea\u30fc\u30c1"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Reiterhose der Heilung (Replik)",
+      "en": "Replica Allagan Breeches of Healing",
+      "fr": "R\u00e9pliques de braies de soigneur allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d2\u30fc\u30e9\u30fc\u30d6\u30ea\u30fc\u30c1"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Strumpfhose des Zielens (Replik)",
+      "en": "Replica Allagan Trousers of Aiming",
+      "fr": "R\u00e9plique de pantalon de pisteur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Strumpfhose des Verst\u00fcmmelns (Replik)",
+      "en": "Replica Allagan Trousers of Maiming",
+      "fr": "R\u00e9plique de pantalon d'abatteur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Strumpfhose des Schlagens (Replik)",
+      "en": "Replica Allagan Trousers of Striking",
+      "fr": "R\u00e9plique de pantalon d'agresseur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Tunika der Magie (Replik)",
+      "en": "Replica Allagan Tunic of Casting",
+      "fr": "R\u00e9plique de tunique d'incantateur allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ad\u30e3\u30b9\u30bf\u30fc\u30c1\u30e5\u30cb\u30c3\u30af"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Tunika der Heilung (Replik)",
+      "en": "Replica Allagan Tunic of Healing",
+      "fr": "R\u00e9plique de tunique de soigneur allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d2\u30fc\u30e9\u30fc\u30c1\u30e5\u30cb\u30c3\u30af"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagischer Mantel des Zielens (Replik)",
+      "en": "Replica High Allagan Coat of Aiming",
+      "fr": "R\u00e9plique de manteau de pisteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b3\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagischer Mantel der Magie (Replik)",
+      "en": "Replica High Allagan Coat of Casting",
+      "fr": "R\u00e9plique de manteau d'incantateur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b3\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagischer Mantel der Heilung (Replik)",
+      "en": "Replica High Allagan Coat of Healing",
+      "fr": "R\u00e9plique de manteau de soigneur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30d2\u30fc\u30e9\u30fc\u30b3\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Pantalons der Heilung (Replik)",
+      "en": "Replica High Allagan Pantaloons of Healing",
+      "fr": "R\u00e9plique de treillis de soigneur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30d2\u30fc\u30e9\u30fc\u30d1\u30f3\u30bf\u30ed\u30f3"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "N\u00e4hfaden",
+      "en": "Sewing Thread",
+      "fr": "Fil \u00e0 coudre",
+      "ja": "\u523a\u7e4d\u7cf8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
     "level": 170,
@@ -8751,7 +9070,7 @@
     "name": {
       "de": "Luftpiraten-Beinlinge des Zielens",
       "en": "Sky Pirate's Halfslops of Aiming",
-      "fr": "Demi-trousses de chasseur de pirate des cieux",
+      "fr": "Demi-trousses de pisteur de pirate des cieux",
       "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30cf\u30fc\u30d5\u30d1\u30f3\u30c4"
     },
     "stars": 2
@@ -8793,9 +9112,373 @@
     "name": {
       "de": "Luftpiraten-Weste des Zielens",
       "en": "Sky Pirate's Vest of Aiming",
-      "fr": "Gilet de chasseur de pirate des cieux",
+      "fr": "Gilet de pisteur de pirate des cieux",
       "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d9\u30b9\u30c8"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Ritter Aubergine-Puppe",
+      "en": "Stuffed Eggplant Knight",
+      "fr": "Chevalier aubergine en peluche",
+      "ja": "\u30a8\u30c3\u30b0\u30ca\u30a4\u30c8\u306e\u306c\u3044\u3050\u308b\u307f"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Sir Knoblauch-Puppe",
+      "en": "Stuffed Garlic Jester",
+      "fr": "Baron ail en peluche",
+      "ja": "\u30ac\u30fc\u30ea\u30c3\u30af\u30b9\u30bf\u30fc\u306e\u306c\u3044\u3050\u308b\u307f"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "K\u00f6nigin Madragora-Puppe",
+      "en": "Stuffed Mandragora Queen",
+      "fr": "Reine mandragore en peluche",
+      "ja": "\u30de\u30f3\u30c9\u30e9\u30af\u30a4\u30fc\u30f3\u306e\u306c\u3044\u3050\u308b\u307f"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Prinz Zwiebel-Puppe",
+      "en": "Stuffed Onion Prince",
+      "fr": "Prince oignon en peluche",
+      "ja": "\u30aa\u30cb\u30aa\u30f3\u30d7\u30ea\u30f3\u30b9\u306e\u306c\u3044\u3050\u308b\u307f"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "K\u00f6nig Tomate-Puppe",
+      "en": "Stuffed Tomato King",
+      "fr": "Roi tomate en peluche",
+      "ja": "\u30ad\u30f3\u30b0\u30c8\u30de\u30c8\u306e\u306c\u3044\u3050\u308b\u307f"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff",
+      "en": "Eikon Cloth",
+      "fr": "\u00c9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Gambeson des Zielens",
+      "en": "Eikon Cloth Acton of Aiming",
+      "fr": "Doublet armant de pisteur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30a2\u30af\u30c8\u30f3"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Gambeson der Heilung",
+      "en": "Eikon Cloth Acton of Healing",
+      "fr": "Doublet armant de soigneur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30a2\u30af\u30c8\u30f3"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Gambeson des Sp\u00e4hens",
+      "en": "Eikon Cloth Acton of Scouting",
+      "fr": "Doublet armant d'\u00e9claireur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30a2\u30af\u30c8\u30f3"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Braies der Magie",
+      "en": "Eikon Cloth Brais of Casting",
+      "fr": "Jupe d'incantateur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b9\u30ab\u30fc\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Braies des Verst\u00fcmmelns",
+      "en": "Eikon Cloth Brais of Maiming",
+      "fr": "Brailles d'abatteur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d6\u30ec\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Braies des Schlagens",
+      "en": "Eikon Cloth Brais of Striking",
+      "fr": "Brailles d'agresseur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d6\u30ec\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Korsett der Magie",
+      "en": "Eikon Cloth Corset of Casting",
+      "fr": "Corset d'incantateur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b3\u30eb\u30bb\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Korsett der Heilung",
+      "en": "Eikon Cloth Corset of Healing",
+      "fr": "Corset de soigneur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30b3\u30eb\u30bb\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Kniebundhose des Zielens",
+      "en": "Eikon Cloth Culottes of Aiming",
+      "fr": "Culotte de pisteur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ad\u30e5\u30ed\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Kniebundhose der Heilung",
+      "en": "Eikon Cloth Culottes of Healing",
+      "fr": "Culotte de soigneur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30b9\u30ab\u30fc\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Kniebundhose des Sp\u00e4hens",
+      "en": "Eikon Cloth Culottes of Scouting",
+      "fr": "Culotte d'\u00e9claireur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30ad\u30e5\u30ed\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Hut des Zielens",
+      "en": "Eikon Cloth Hat of Aiming",
+      "fr": "Chapeau de pisteur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30cf\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Hut der Heilung",
+      "en": "Eikon Cloth Hat of Healing",
+      "fr": "Chapeau de soigneur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30cf\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Hut des Sp\u00e4hens",
+      "en": "Eikon Cloth Hat of Scouting",
+      "fr": "Chapeau d'\u00e9claireur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30cf\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Handschuhe des Zielens",
+      "en": "Eikon Cloth Sleeves of Aiming",
+      "fr": "Gants longs de pisteur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b9\u30ea\u30fc\u30f4"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Handschuhe der Heilung",
+      "en": "Eikon Cloth Sleeves of Healing",
+      "fr": "Gants longs de soigneur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30b9\u30ea\u30fc\u30f4"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenstoff-Handschuhe des Sp\u00e4hens",
+      "en": "Eikon Cloth Sleeves of Scouting",
+      "fr": "Gants longs d'\u00e9claireur en \u00e9toffe primordiale",
+      "ja": "\u30a4\u30b3\u30f3\u30af\u30ed\u30b9\u30fb\u30b9\u30ab\u30a6\u30c8\u30b9\u30ea\u30fc\u30f4"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Forscher-Kecks",
+      "en": "Expeditioner's Kecks",
+      "fr": "B\u00e9nard d'exp\u00e9dition",
+      "ja": "\u30a8\u30af\u30b9\u30da\u30c7\u30a3\u30b7\u30e7\u30f3\u30b1\u30af\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Forscher-Schlupfhose",
+      "en": "Expeditioner's Pantalettes",
+      "fr": "Pantalettes d'exp\u00e9dition",
+      "ja": "\u30a8\u30af\u30b9\u30da\u30c7\u30a3\u30b7\u30e7\u30f3\u30d1\u30f3\u30bf\u30ec\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Forscher-Waffenrock",
+      "en": "Expeditioner's Tabard",
+      "fr": "Tabard d'exp\u00e9dition",
+      "ja": "\u30a8\u30af\u30b9\u30da\u30c7\u30a3\u30b7\u30e7\u30f3\u30bf\u30d0\u30fc\u30c9"
+    },
+    "stars": 3
   }
 ]

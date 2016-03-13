@@ -5737,6 +5737,20 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Titanlegierungs-Pl\u00e4ttchen",
+      "en": "Titanium Alloy Square",
+      "fr": "Plaquette en alliage de titane",
+      "ja": "\u30c1\u30bf\u30f3\u30a2\u30ed\u30a4\u30d7\u30ec\u30fc\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
     "level": 170,
@@ -5896,10 +5910,430 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
+      "de": "Verzinkter Garlond-Stahl",
+      "en": "Galvanized Garlond Steel",
+      "fr": "Acier de Garlond galvanis\u00e9",
+      "ja": "\u8d85\u786c\u30ac\u30fc\u30ed\u30f3\u30c9\u92fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
       "de": "R\u00fcstungsschmiedemeister-Visier",
       "en": "Hammermaster's Visor",
       "fr": "Visi\u00e8re d'expert de la fonderie",
       "ja": "\u30cf\u30f3\u30de\u30fc\u30de\u30b9\u30bf\u30fc\u30d0\u30a4\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Edelmythrit-Nugget",
+      "en": "High Mythrite Nugget",
+      "fr": "P\u00e9pite de mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30ca\u30b2\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagischer K\u00fcrass des Zielens (Replik)",
+      "en": "Replica Allagan Cuirass of Aiming",
+      "fr": "R\u00e9plique de cuirasse de pisteur allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagischer K\u00fcrass des Verst\u00fcmmelns (Replik)",
+      "en": "Replica Allagan Cuirass of Maiming",
+      "fr": "R\u00e9plique de cuirasse d'abatteur allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagischer K\u00fcrass des Schlagens (Replik)",
+      "en": "Replica Allagan Cuirass of Striking",
+      "fr": "R\u00e9plique de cuirasse d'agresseur allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Armschienen des Zielens (Replik)",
+      "en": "Replica Allagan Gauntlets of Aiming",
+      "fr": "R\u00e9pliques de gantelets de pisteur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Armschienen des Verst\u00fcmmelns (Replik)",
+      "en": "Replica Allagan Gauntlets of Maiming",
+      "fr": "R\u00e9pliques de gantelets d'abatteur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Armschienen des Schlagens (Replik)",
+      "en": "Replica Allagan Gauntlets of Striking",
+      "fr": "R\u00e9pliques de gantelets d'agresseur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagischer Helm (Replik)",
+      "en": "Replica Allagan Helm",
+      "fr": "R\u00e9plique de heaume allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d8\u30eb\u30e0"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Sollerets des Zielens (Replik)",
+      "en": "Replica Allagan Sollerets of Aiming",
+      "fr": "R\u00e9pliques de solerets de pisteur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Sollerets des Verst\u00fcmmelns (Replik)",
+      "en": "Replica Allagan Sollerets of Maiming",
+      "fr": "R\u00e9pliques de solerets d'abatteur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Sollerets des Schlagens (Replik)",
+      "en": "Replica Allagan Sollerets of Striking",
+      "fr": "R\u00e9pliques de solerets d'agresseur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagisches Visier des Zielens (Replik)",
+      "en": "Replica Allagan Visor of Aiming",
+      "fr": "R\u00e9plique de visi\u00e8re de pisteur allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30d0\u30a4\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagisches Visier des Verst\u00fcmmelns (Replik)",
+      "en": "Replica Allagan Visor of Maiming",
+      "fr": "R\u00e9plique de visi\u00e8re d'abatteur allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30d0\u30a4\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagisches Visier des Schlagens (Replik)",
+      "en": "Replica Allagan Visor of Striking",
+      "fr": "R\u00e9plique de visi\u00e8re d'agresseur allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d0\u30a4\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwerer allagischer K\u00f6rperpanzer (Replik)",
+      "en": "Replica Heavy Allagan Armor",
+      "fr": "R\u00e9plique d'armure lourde allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d8\u30f4\u30a3\u30a2\u30e9\u30ac\u30f3\u30a2\u30fc\u30de\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwere allagische Schenkelsch\u00fctzer (Replik)",
+      "en": "Replica Heavy Allagan Cuisses",
+      "fr": "R\u00e9pliques de cuissots lourds allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d8\u30f4\u30a3\u30a2\u30e9\u30ac\u30f3\u30af\u30a6\u30a3\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwerer allagischer Flankensch\u00fctzer (Replik)",
+      "en": "Replica Heavy Allagan Flanchard",
+      "fr": "R\u00e9pliques de cuissi\u00e8res lourdes allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d8\u30f4\u30a3\u30a2\u30e9\u30ac\u30f3\u30d5\u30e9\u30f3\u30c1\u30e3\u30fc\u30c9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwere allagische Panzerhandschuhe (Replik)",
+      "en": "Replica Heavy Allagan Gauntlets",
+      "fr": "R\u00e9pliques de gantelets lourds allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d8\u30f4\u30a3\u30a2\u30e9\u30ac\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Schwerer hochallagischer Mantel (Replik)",
+      "en": "Replica Heavy High Allagan Coat",
+      "fr": "R\u00e9plique de paletot haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30d8\u30f4\u30a3\u30b3\u30fc\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagischer K\u00fcrass des Verst\u00fcmmelns (Replik)",
+      "en": "Replica High Allagan Cuirass of Maiming",
+      "fr": "R\u00e9plique de cuirasse d'abatteur haut-allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagischer K\u00fcrass des Schlagens (Replik)",
+      "en": "Replica High Allagan Cuirass of Striking",
+      "fr": "R\u00e9plique de cuirasse d'agresseur haut-allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Panzerhandschuhe der Verteidigung (Replik)",
+      "en": "Replica High Allagan Gauntlets of Fending",
+      "fr": "R\u00e9pliques de gantelets de protecteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Panzerhandschuhe des Verst\u00fcmmelns (Replik)",
+      "en": "Replica High Allagan Gauntlets of Maiming",
+      "fr": "R\u00e9pliques de gantelets d'abatteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Panzerhandschuhe des Schlagens (Replik)",
+      "en": "Replica High Allagan Gauntlets of Striking",
+      "fr": "R\u00e9pliques de gantelets d'agresseur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Kopfbedeckung des Verst\u00fcmmelns (Replik)",
+      "en": "Replica High Allagan Headgear of Maiming",
+      "fr": "R\u00e9plique de prot\u00e8ge-t\u00eate d'abatteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d8\u30c3\u30c9\u30ae\u30a2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Kopfbedeckung des Schlagens (Replik)",
+      "en": "Replica High Allagan Headgear of Striking",
+      "fr": "R\u00e9plique de prot\u00e8ge-t\u00eate d'agresseur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d8\u30c3\u30c9\u30ae\u30a2"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische B\u00e4rlatschen der Verteidigung (Replik)",
+      "en": "Replica High Allagan Sabatons of Fending",
+      "fr": "R\u00e9pliques de sabatons de protecteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30d0\u30c8\u30f3"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische B\u00e4rlatschen des Verst\u00fcmmelns (Replik)",
+      "en": "Replica High Allagan Sabatons of Maiming",
+      "fr": "R\u00e9pliques de sabatons d'abatteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b5\u30d0\u30c8\u30f3"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische B\u00e4rlatschen des Schlagens (Replik)",
+      "en": "Replica High Allagan Sabatons of Striking",
+      "fr": "R\u00e9pliques de sabatons d'agresseur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b5\u30d0\u30c8\u30f3"
     },
     "stars": 2
   },
@@ -6000,5 +6434,159 @@
       "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d8\u30eb\u30e0"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2971,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 5186,
+    "name": {
+      "de": "Faust-Trainingspuppe",
+      "en": "Faust Striking Dummy",
+      "fr": "Mannequin d'entra\u00eenement faust",
+      "ja": "\u30d5\u30a1\u30a6\u30b9\u30c8\u30c0\u30df\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythrit-K\u00fcrass der Verteidigung",
+      "en": "High Mythrite Cuirass of Fending",
+      "fr": "Cuirasse de protecteur en mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythrit-Panzerhandschuhe der Verteidigung",
+      "en": "High Mythrite Gauntlets of Fending",
+      "fr": "Gantelets de protecteur en mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythrit-Helm der Verteidigung",
+      "en": "High Mythrite Helm of Fending",
+      "fr": "Casque de protecteur en mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d8\u30eb\u30e0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythritbarren",
+      "en": "High Mythrite Ingot",
+      "fr": "Lingot de mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30a4\u30f3\u30b4\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythrit-Platteng\u00fcrtel der Verteidigung",
+      "en": "High Mythrite Plate Belt of Fending",
+      "fr": "Ceinture de plaques en mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythrit-B\u00e4rlatschen der Verteidigung",
+      "en": "High Mythrite Sabatons of Fending",
+      "fr": "Sabatons en mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30d0\u30c8\u30f3"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythrit-Platteng\u00fcrtel des Verst\u00fcmmelns",
+      "en": "High Mythrite Tassets of Maiming",
+      "fr": "Tassette d'abatteur en mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30bf\u30bb\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Edelmythrit-Platteng\u00fcrtel des Schlagens",
+      "en": "High Mythrite Tassets of Striking",
+      "fr": "Tassette d'agresseur en mithrite noble",
+      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30bf\u30bb\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagischer Rundschild (Replik)",
+      "en": "Replica Allagan Round Shield",
+      "fr": "R\u00e9plique de bouclier rond allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30e9\u30a6\u30f3\u30c9\u30b7\u30fc\u30eb\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagischer Drachenschild (Replik)",
+      "en": "Replica High Allagan Kite Shield",
+      "fr": "R\u00e9plique d'\u00e9cu mandorle haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ab\u30a4\u30c8\u30b7\u30fc\u30eb\u30c9"
+    },
+    "stars": 3
   }
 ]

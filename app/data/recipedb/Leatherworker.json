@@ -3997,6 +3997,20 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
+      "de": "Dodore-Stiefel",
+      "en": "Dodore Boots",
+      "fr": "Bottes de Dodore",
+      "ja": "\u30c9\u30c9\u30ec\u30d6\u30fc\u30c4"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
       "de": "Dodore-Halsberge",
       "en": "Dodore Choker",
       "fr": "Ras de cou de Dodore",
@@ -4141,6 +4155,34 @@
       "en": "Goldsmith's Gloves",
       "fr": "Gants d'orf\u00e8vre",
       "ja": "\u30b4\u30fc\u30eb\u30c9\u30b9\u30df\u30b9\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Gryphenleder-Brustschutz",
+      "en": "Gryphonskin Breastguard",
+      "fr": "Prot\u00e8ge-poitrine en cuir d'hippogriffe",
+      "ja": "\u30d2\u30c3\u30dd\u30b0\u30ea\u30d5\u30d6\u30ec\u30b9\u30c8\u30ac\u30fc\u30c9"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Gryphenleder-Schlupfhose",
+      "en": "Gryphonskin Pantalettes",
+      "fr": "Pantalettes en cuir d'hippogriffe",
+      "ja": "\u30d2\u30c3\u30dd\u30b0\u30ea\u30d5\u30d1\u30f3\u30bf\u30ec\u30c3\u30c8"
     },
     "stars": 1
   },
@@ -4463,6 +4505,62 @@
       "en": "Tonberry Couch",
       "fr": "Canap\u00e9 tomberry",
       "ja": "\u30c8\u30f3\u30d9\u30ea\u30ab\u30a6\u30c1"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Ur\u00e4us-K\u00f6rperpanzerung",
+      "en": "Uraeus Body Armor",
+      "fr": "Plastron d'Uraeus",
+      "ja": "\u30a6\u30e9\u30a8\u30a6\u30b9\u30dc\u30c7\u30a3\u30a2\u30fc\u30de\u30fc"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Ur\u00e4us-Reiterhose",
+      "en": "Uraeus Breeches",
+      "fr": "Braies d'Uraeus",
+      "ja": "\u30a6\u30e9\u30a8\u30a6\u30b9\u30d6\u30ea\u30fc\u30c1"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Ur\u00e4usmantel",
+      "en": "Uraeus Coat",
+      "fr": "Manteau d'Uraeus",
+      "ja": "\u30a6\u30e9\u30a8\u30a6\u30b9\u30b3\u30fc\u30c8"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 195,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "de": "Ur\u00e4usrock",
+      "en": "Uraeus Skirt",
+      "fr": "Jupe d'Uraeus",
+      "ja": "\u30a6\u30e9\u30a8\u30a6\u30b9\u30b9\u30ab\u30fc\u30c8"
     },
     "stars": 1
   },
@@ -6576,6 +6674,19 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
+      "de": "Dunkle Dhalmelleder-Handschuhe",
+      "en": "Dark Dhalmelskin Gloves",
+      "fr": "Gants en cuir de dhalmel sombre",
+      "ja": "\u30c0\u30eb\u30e1\u30eb\u30c0\u30fc\u30af\u30b0\u30ed\u30fc\u30d6"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
       "de": "Dhalmelleder-Reiterhose der Verteidigung",
       "en": "Dhalmelskin Breeches of Fending",
       "fr": "Braies de protecteur en cuir de dhalmel",
@@ -6606,6 +6717,19 @@
       "en": "Dhalmelskin Bush Hat",
       "fr": "Chapeau mou en cuir de dhalmel",
       "ja": "\u30c0\u30eb\u30e1\u30eb\u30d6\u30c3\u30b7\u30e5\u30cf\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Dhalmelleder-Mantel",
+      "en": "Dhalmelskin Coat",
+      "fr": "Manteau en cuir de dhalmel",
+      "ja": "\u30c0\u30eb\u30e1\u30eb\u30b3\u30fc\u30c8"
     }
   },
   {
@@ -6736,6 +6860,32 @@
       "en": "Dhalmelskin Leggings of Striking",
       "fr": "Jambi\u00e8res d'agresseur en cuir de dhalmel",
       "ja": "\u30c0\u30eb\u30e1\u30eb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ec\u30ae\u30f3\u30b9"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Dhalmelleder-Mokassins",
+      "en": "Dhalmelskin Moccasins",
+      "fr": "Mocassins en cuir de dhalmel",
+      "ja": "\u30c0\u30eb\u30e1\u30eb\u30e2\u30ab\u30b7\u30f3"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Dhalmelleder-Kniestiefel",
+      "en": "Dhalmelskin Thighboots",
+      "fr": "Cuissardes en cuir de dhalmel",
+      "ja": "\u30c0\u30eb\u30e1\u30eb\u30b5\u30a4\u30d6\u30fc\u30c4"
     }
   },
   {
@@ -7646,6 +7796,34 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
+      "de": "Dinosaurierleder-Handschuhe",
+      "en": "Dinosaur Leather Gloves",
+      "fr": "Gants en cuir de dinosaure",
+      "ja": "\u30c0\u30a4\u30ce\u30ec\u30b6\u30fc\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Dinosaurierleder-Schuhe",
+      "en": "Dinosaur Leather Shoes",
+      "fr": "Chaussures en cuir de dinosaure",
+      "ja": "\u30c0\u30a4\u30ce\u30ec\u30b6\u30fc\u30b7\u30e5\u30fc\u30ba"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
       "de": "Falknerstiefel",
       "en": "Falconer's Boots",
       "fr": "Bottes de fauconnier",
@@ -7703,7 +7881,7 @@
     "maxQuality": 8377,
     "name": {
       "de": "Adels-Schuhe",
-      "en": "High House Halfoots",
+      "en": "High House Halfboots",
       "fr": "Bottines de maison noble",
       "ja": "\u30cf\u30a4\u30cf\u30a6\u30b9\u30fb\u30b7\u30e7\u30fc\u30c8\u30d6\u30fc\u30c4"
     },
@@ -7720,6 +7898,20 @@
       "en": "Pterodactyl Leather",
       "fr": "Cuir de pt\u00e9rodactyle",
       "ja": "\u30d7\u30c6\u30ed\u30c0\u30af\u30c6\u30a3\u30eb\u30b9\u30ec\u30b6\u30fc"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Pterodaktylus-Lederriemen",
+      "en": "Pterodactyl Strap",
+      "fr": "Lani\u00e8re en cuir de pt\u00e9rodactyle",
+      "ja": "\u30d7\u30c6\u30ed\u30c0\u30af\u30c6\u30a3\u30eb\u30b9\u30b9\u30c8\u30e9\u30c3\u30d7"
     },
     "stars": 1
   },
@@ -8192,6 +8384,20 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
+      "de": "Greifenleder-Riemen",
+      "en": "Griffin Leather Strap",
+      "fr": "Lani\u00e8re en cuir de griffon",
+      "ja": "\u30b0\u30ea\u30d5\u30a3\u30f3\u30b9\u30c8\u30e9\u30c3\u30d7"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
       "de": "Greifenleder-\u00dcberlebensg\u00fcrtel",
       "en": "Griffin Leather Survival Belt",
       "fr": "Ceinture de survie en cuir de griffon",
@@ -8425,6 +8631,272 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Pudding-Sofa",
+      "en": "Pudding Settee",
+      "fr": "Sofa pudding",
+      "ja": "\u30d7\u30ea\u30f3\u30bd\u30d5\u30a1\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Stiefel der Magie (Replik)",
+      "en": "Replica Allagan Boots of Casting",
+      "fr": "R\u00e9pliques de bottes d'incantateur allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30fc\u30c4"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Stiefel der Heilung (Replik)",
+      "en": "Replica Allagan Boots of Healing",
+      "fr": "R\u00e9pliques de bottes de soigneur allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d2\u30fc\u30e9\u30fc\u30d6\u30fc\u30c4"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Handschuhe der Magie (Replik)",
+      "en": "Replica Allagan Gloves of Casting",
+      "fr": "R\u00e9pliques de gants d'incantateur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ad\u30e3\u30b9\u30bf\u30fc\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagische Handschuhe der Heilung (Replik)",
+      "en": "Replica Allagan Gloves of Healing",
+      "fr": "R\u00e9pliques de gants de soigneur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d2\u30fc\u30e9\u30fc\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Stiefel des Zielens (Replik)",
+      "en": "Replica High Allagan Boots of Aiming",
+      "fr": "R\u00e9pliques de bottes de pisteur haut-allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30fc\u30c4"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Stiefel der Magie (Replik)",
+      "en": "Replica High Allagan Boots of Casting",
+      "fr": "R\u00e9pliques de bottes d'incantateur haut-allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30fc\u30c4"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Reiterhose des Zielens (Replik)",
+      "en": "Replica High Allagan Breeches of Aiming",
+      "fr": "R\u00e9pliques de braies de pisteur haut-allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ea\u30fc\u30c1"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Reiterhose der Magie (Replik)",
+      "en": "Replica High Allagan Breeches of Casting",
+      "fr": "R\u00e9pliques de braies d'incantateur haut-allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ea\u30fc\u30c1"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Handschuhe des Zielens (Replik)",
+      "en": "Replica High Allagan Gloves of Aiming",
+      "fr": "R\u00e9pliques de gants de pisteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Handschuhe der Magie (Replik)",
+      "en": "Replica High Allagan Gloves of Casting",
+      "fr": "R\u00e9pliques de gants d'incantateur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Handschuhe der Heilung (Replik)",
+      "en": "Replica High Allagan Gloves of Healing",
+      "fr": "R\u00e9pliques de gants de soigneur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30d2\u30fc\u30e9\u30fc\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Maske des Zielens (Replik)",
+      "en": "Replica High Allagan Mask of Aiming",
+      "fr": "R\u00e9plique de masque de pisteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30de\u30b9\u30af"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Maske der Magie (Replik)",
+      "en": "Replica High Allagan Mask of Casting",
+      "fr": "R\u00e9plique de masque d'incantateur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30de\u30b9\u30af"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Kniestiefel der Heilung (Replik)",
+      "en": "Replica High Allagan Thighboots of Healing",
+      "fr": "R\u00e9pliques de cuissardes de soigneur haut-allagoises",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30d2\u30fc\u30e9\u30fc\u30b5\u30a4\u30d6\u30fc\u30c4"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Hose der Verteidigung (Replik)",
+      "en": "Replica High Allagan Trousers of Fending",
+      "fr": "R\u00e9plique de pantalon de protecteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Hose des Verst\u00fcmmelns (Replik)",
+      "en": "Replica High Allagan Trousers of Maiming",
+      "fr": "R\u00e9plique de pantalon d'abatteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagische Hose des Schlagens (Replik)",
+      "en": "Replica High Allagan Trousers of Striking",
+      "fr": "R\u00e9plique de pantalon d'agresseur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 718,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Sephirot-Rossharnisch",
+      "en": "Sephirotic Barding",
+      "fr": "Barde de Sephirot",
+      "ja": "\u30bb\u30d5\u30a3\u30ed\u30c8\u30fb\u30d0\u30fc\u30c9"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
     "level": 170,
@@ -8432,7 +8904,7 @@
     "name": {
       "de": "Luftpiraten-Barett des Zielens",
       "en": "Sky Pirate's Beret of Aiming",
-      "fr": "B\u00e9ret de chasseur de pirate des cieux",
+      "fr": "B\u00e9ret de pisteur de pirate des cieux",
       "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d9\u30ec\u30fc"
     },
     "stars": 2
@@ -8446,7 +8918,7 @@
     "name": {
       "de": "Luftpiraten-Stiefel des Zielens",
       "en": "Sky Pirate's Boots of Aiming",
-      "fr": "Bottes de chasseur de pirate des cieux",
+      "fr": "Bottes de pisteur de pirate des cieux",
       "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30fc\u30c4"
     },
     "stars": 2
@@ -8516,7 +8988,7 @@
     "name": {
       "de": "Luftpiraten-Handschuhe des Zielens",
       "en": "Sky Pirate's Gloves of Aiming",
-      "fr": "Gants de chasseur de pirate des cieux",
+      "fr": "Gants de pisteur de pirate des cieux",
       "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b0\u30ed\u30fc\u30d6"
     },
     "stars": 2
@@ -8632,5 +9104,327 @@
       "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30d2\u30fc\u30e9\u30fc\u30b7\u30e5\u30fc\u30ba"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder",
+      "en": "Eikon Leather",
+      "fr": "Cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Armsch\u00fctzer der Magie",
+      "en": "Eikon Leather Armguards of Casting",
+      "fr": "Prot\u00e8ge-bras d'incantateur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30a2\u30fc\u30e0\u30ac\u30fc\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Armsch\u00fctzer des Verst\u00fcmmelns",
+      "en": "Eikon Leather Armguards of Maiming",
+      "fr": "Garde-bras d'abatteur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30a2\u30fc\u30e0\u30ac\u30fc\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Armsch\u00fctzer des Schlagens",
+      "en": "Eikon Leather Armguards of Striking",
+      "fr": "Garde-bras d'agresseur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30a2\u30fc\u30e0\u30ac\u30fc\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Reiterhose der Verteidigung",
+      "en": "Eikon Leather Breeches of Fending",
+      "fr": "Braies de protecteur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d6\u30ea\u30fc\u30c1"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Brustpanzer der Magie",
+      "en": "Eikon Leather Corselet of Casting",
+      "fr": "Jaseran d'incantateur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b3\u30fc\u30b9\u30ea\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Brustpanzer des Verst\u00fcmmelns",
+      "en": "Eikon Leather Corselet of Maiming",
+      "fr": "Jaseran d'abatteur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b3\u30fc\u30b9\u30ea\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Brustpanzer des Schlagens",
+      "en": "Eikon Leather Corselet of Striking",
+      "fr": "Jaseran d'agresseur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b3\u30fc\u30b9\u30ea\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Kopfbedeckung der Magie",
+      "en": "Eikon Leather Headgear of Casting",
+      "fr": "Prot\u00e8ge-t\u00eate d'incantateur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30d8\u30c3\u30c9\u30ae\u30a2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Kopfbedeckung des Verst\u00fcmmelns",
+      "en": "Eikon Leather Headgear of Maiming",
+      "fr": "Prot\u00e8ge-t\u00eate d'abatteur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d8\u30c3\u30c9\u30ae\u30a2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Kopfbedeckung des Schlagens",
+      "en": "Eikon Leather Headgear of Striking",
+      "fr": "Prot\u00e8ge-t\u00eate d'agresseur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d8\u30c3\u30c9\u30ae\u30a2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Beinsch\u00fctzer der Magie",
+      "en": "Eikon Leather Leg Guards of Casting",
+      "fr": "Bottes d'incantateur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30fc\u30c4"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Beinsch\u00fctzer des Verst\u00fcmmelns",
+      "en": "Eikon Leather Leg Guards of Maiming",
+      "fr": "Prot\u00e8ge-jambes d'abatteur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ec\u30c3\u30b0\u30ac\u30fc\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Beinsch\u00fctzer des Schlagens",
+      "en": "Eikon Leather Leg Guards of Striking",
+      "fr": "Prot\u00e8ge-jambes d'agresseur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ec\u30c3\u30b0\u30ac\u30fc\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Ringg\u00fcrtel des Zielens",
+      "en": "Eikon Leather Ringbelt of Aiming",
+      "fr": "Ceinture annel\u00e9e de pisteur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0\u30d9\u30eb\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Ringg\u00fcrtel des Sp\u00e4hens",
+      "en": "Eikon Leather Ringbelt of Scouting",
+      "fr": "Ceinture annel\u00e9e d'\u00e9claireur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30ab\u30a6\u30c8\u30ea\u30f3\u30b0\u30d9\u30eb\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Kniestiefel des Zielens",
+      "en": "Eikon Leather Thighboots of Aiming",
+      "fr": "Cuissardes de pisteur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b5\u30a4\u30d6\u30fc\u30c4"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Kniestiefel der Heilung",
+      "en": "Eikon Leather Thighboots of Healing",
+      "fr": "Cuissardes de soigneur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30d2\u30fc\u30e9\u30fc\u30d6\u30fc\u30c4"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikonenleder-Kniestiefel des Sp\u00e4hens",
+      "en": "Eikon Leather Thighboots of Scouting",
+      "fr": "Cuissardes d'\u00e9claireur en cuir primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30ec\u30b6\u30fc\u30fb\u30b9\u30ab\u30a6\u30c8\u30b5\u30a4\u30d6\u30fc\u30c4"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Forschermantel",
+      "en": "Expeditioner's Coat",
+      "fr": "Manteau d'exp\u00e9dition",
+      "ja": "\u30a8\u30af\u30b9\u30da\u30c7\u30a3\u30b7\u30e7\u30f3\u30b3\u30fc\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Forscher-Handschuhe",
+      "en": "Expeditioner's Gloves",
+      "fr": "Gants d'exp\u00e9dition",
+      "ja": "\u30a8\u30af\u30b9\u30da\u30c7\u30a3\u30b7\u30e7\u30f3\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Forscher-Mokassins",
+      "en": "Expeditioner's Moccasins",
+      "fr": "Mocassins d'exp\u00e9dition",
+      "ja": "\u30a8\u30af\u30b9\u30da\u30c7\u30a3\u30b7\u30e7\u30f3\u30e2\u30ab\u30b7\u30f3"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Forscher-Kniestiefel",
+      "en": "Expeditioner's Thighboots",
+      "fr": "Cuissardes d'exp\u00e9dition",
+      "ja": "\u30a8\u30af\u30b9\u30da\u30c7\u30a3\u30b7\u30e7\u30f3\u30fb\u30b5\u30a4\u30d6\u30fc\u30c4"
+    },
+    "stars": 3
   }
 ]

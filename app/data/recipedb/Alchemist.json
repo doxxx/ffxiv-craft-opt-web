@@ -1535,6 +1535,19 @@
   },
   {
     "baseLevel": 30,
+    "difficulty": 183,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 792,
+    "name": {
+      "de": "Notenrolle von \u201eDark Vows\u201c",
+      "en": "Dark Vows Orchestrion Roll",
+      "fr": "Rouleau \"Dark Vows\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u6f06\u9ed2\u306e\u8a93\u3044"
+    }
+  },
+  {
+    "baseLevel": 30,
     "difficulty": 51,
     "durability": 70,
     "level": 30,
@@ -1795,6 +1808,19 @@
   },
   {
     "baseLevel": 30,
+    "difficulty": 183,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 792,
+    "name": {
+      "de": "Notenrolle von \u201eRiptide\u201c",
+      "en": "Riptide Orchestrion Roll",
+      "fr": "Rouleau \"Riptide\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u6f6e\u885d"
+    }
+  },
+  {
+    "baseLevel": 30,
     "difficulty": 51,
     "durability": 70,
     "level": 30,
@@ -1895,6 +1921,19 @@
       "en": "Sunset Orange Dye",
       "fr": "Teinture orange couchant",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b5\u30f3\u30bb\u30c3\u30c8\u30aa\u30ec\u30f3\u30b8"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 183,
+    "durability": 70,
+    "level": 30,
+    "maxQuality": 792,
+    "name": {
+      "de": "Notenrolle von \u201eThe Dark's Embrace\u201c",
+      "en": "The Dark's Embrace Orchestrion Roll",
+      "fr": "Rouleau \"The Dark's Embrace\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u95c7\u306e\u62b1\u64c1"
     }
   },
   {
@@ -2837,6 +2876,32 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Notenrolle von \u201eA World Apart\u201c",
+      "en": "A World Apart Orchestrion Roll",
+      "fr": "Rouleau \"A World Apart\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u305d\u3057\u3066\u4e16\u754c\u3078"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Notenrolle von \u201eAnother Round\u201c",
+      "en": "Another Round Orchestrion Roll",
+      "fr": "Rouleau \"Another Round\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u3082\u3046\u4e00\u676f\uff01"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 595,
     "durability": 80,
     "level": 50,
@@ -2963,6 +3028,19 @@
       "en": "Tane Mahuta",
       "fr": "Tane Mahuta",
       "ja": "\u30bf\u30cd\u30fb\u30de\u30d5\u30bf"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Notenrolle von \u201eThe Only Path\u201c",
+      "en": "The Only Path Orchestrion Roll",
+      "fr": "Rouleau \"The Only Path\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u305f\u3060\u3072\u3068\u3064\u306e\u9053"
     }
   },
   {
@@ -3181,7 +3259,7 @@
     "maxQuality": 1323,
     "name": {
       "de": "Topf-Alokasie",
-      "en": "Potted Oliphaunt's Ear",
+      "en": "Potted Oliphant's Ear",
       "fr": "Pot d'alocasias",
       "ja": "\u30a2\u30ed\u30ab\u30b7\u30a2\u306e\u9262\u690d"
     },
@@ -3340,6 +3418,20 @@
       "ja": "\u30a6\u30eb\u30d5\u30b0\u30ea\u30e2\u30a2\u30fb\u30aa\u30d6\u30fb\u30d2\u30fc\u30eb"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 419,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Notenrolle von \u201eA Light In the Storm\u201c",
+      "en": "A Light in the Storm Orchestrion Roll",
+      "fr": "Rouleau \"A Light in the Storm\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u5d50\u306e\u4e2d\u306e\u706f\u706b"
+    },
+    "stars": 2
   },
   {
     "baseLevel": 50,
@@ -4001,6 +4093,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 419,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Notenrolle von \u201eThe Scars of Battle\u201c",
+      "en": "The Scars of Battle Orchestrion Roll",
+      "fr": "Rouleau \"The Scars of Battle\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u9b54\u5927\u6226\u306e\u50b7\u8de1"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 233,
     "durability": 80,
     "level": 70,
@@ -4240,6 +4346,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 801,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Notenrolle von \u201eFallen Angel\u201c",
+      "en": "Fallen Angel Orchestrion Roll",
+      "fr": "Rouleau \"Fallen Angel\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u5815\u5929\u305b\u3057\u8005"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 222,
     "durability": 40,
     "level": 90,
@@ -4382,6 +4502,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 801,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Notenrolle von \u201ePrimal Judgment\u201c",
+      "en": "Primal Judgment Orchestrion Roll",
+      "fr": "Rouleau \"Primal Judgment\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u539f\u59cb\u306e\u5be9\u5224"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 222,
     "durability": 40,
     "level": 90,
@@ -4449,6 +4583,20 @@
       "en": "The Holy Key of Tremors",
       "fr": "Clavicule sainte des s\u00e9ismes",
       "ja": "\u30db\u30fc\u30ea\u30fc\u30ad\u30fc\u30fb\u30aa\u30d6\u30fb\u30c8\u30ec\u30de\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 801,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Notenrolle von \u201eThe Maker's Ruin\u201c",
+      "en": "The Maker's Ruin Orchestrion Roll",
+      "fr": "Rouleau \"The Maker's Ruin\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u795e\u306a\u304d\u4e16\u754c"
     },
     "stars": 3
   },
@@ -4618,6 +4766,20 @@
     "stars": 3
   },
   {
+    "baseLevel": 50,
+    "difficulty": 801,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Notenrolle von \u201eUnder the Weight\u201c",
+      "en": "Under the Weight Orchestrion Roll",
+      "fr": "Rouleau \"Under the Weight\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u904e\u91cd\u5727\u6bba\uff01"
+    },
+    "stars": 3
+  },
+  {
     "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
@@ -4690,6 +4852,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 1054,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Notenrolle von \u201eBlind To the Dark\u201c",
+      "en": "Blind to the Dark Orchestrion Roll",
+      "fr": "Rouleau \"Blind to the Dark\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u8584\u95c7"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
     "level": 110,
@@ -4718,6 +4894,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 1054,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Notenrolle von \u201eFrom the Ashes\u201c",
+      "en": "From the Ashes Orchestrion Roll",
+      "fr": "Rouleau \"From the Ashes\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u7070\u3088\u308a\u751f\u307e\u308c\u3057\u8005"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
     "level": 110,
@@ -4727,6 +4917,34 @@
       "en": "Goldsmithing for Beginners",
       "fr": "Initiation \u00e0 l'orf\u00e8vrerie",
       "ja": "\u5f6b\u91d1\u5165\u9580\u66f8"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1054,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Notenrolle von \u201eHubris\u201c",
+      "en": "Hubris Orchestrion Roll",
+      "fr": "Rouleau \"Hubris\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u50b2\u6162"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1054,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Notenrolle von \u201eHunger\u201c",
+      "en": "Hunger Orchestrion Roll",
+      "fr": "Rouleau \"Hunger\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u6700\u5f8c\u306e\u6b7b\u95d8"
     },
     "stars": 4
   },
@@ -4774,6 +4992,62 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 1054,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Notenrolle von \u201eNow I Know the Truth\u201c",
+      "en": "Now I Know the Truth Orchestrion Roll",
+      "fr": "Rouleau \"Now I Know the Truth\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u30c9\u30fc\u30ac\u3068\u30a6\u30cd\u306e\u5fc3"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1054,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Notenrolle von \u201eOut of the Labyrinth\u201c",
+      "en": "Out of the Labyrinth Orchestrion Roll",
+      "fr": "Rouleau \"Out of the Labyrinth\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u7d62\u721b"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1054,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Notenrolle von \u201eRise of the White Raven\u201c",
+      "en": "Rise of the White Raven Orchestrion Roll",
+      "fr": "Rouleau \"Rise of the White Raven\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u767d\u9280\u306e\u51f6\u9ce5\u3001\u98db\u7fd4\u305b\u308a"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1054,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Notenrolle von \u201eThunderer\u201c",
+      "en": "Thunderer Orchestrion Roll",
+      "fr": "Rouleau \"Thunderer\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u96f7\u9cf4"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
     "level": 110,
@@ -4783,6 +5057,20 @@
       "en": "Tinker's Calm",
       "fr": "Potion de minutie",
       "ja": "\u7cbe\u5bc6\u85ac"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1054,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 2891,
+    "name": {
+      "de": "Notenrolle von \u201eTumbling Down\u201c",
+      "en": "Tumbling Down Orchestrion Roll",
+      "fr": "Rouleau \"Tumbling Down\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u5948\u843d\u3078"
     },
     "stars": 4
   },
@@ -5101,6 +5389,19 @@
   },
   {
     "baseLevel": 55,
+    "difficulty": 1254,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 3150,
+    "name": {
+      "de": "Sabotender-Busch",
+      "en": "Topiary Sabotender",
+      "fr": "Topiaire de pampa",
+      "ja": "\u30b5\u30dc\u30c6\u30f3\u30c0\u30fc\u30c8\u30d4\u30a2\u30ea\u30fc"
+    }
+  },
+  {
+    "baseLevel": 55,
     "difficulty": 348,
     "durability": 35,
     "level": 136,
@@ -5223,9 +5524,9 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "de": "Wachstumsformel Theta",
-      "en": "Growth Formula Theta",
-      "fr": "Formule de croissance th\u00eata",
+      "de": "Wachstumsformel Zeta",
+      "en": "Growth Formula Zeta",
+      "fr": "Formule de croissance z\u00eata",
       "ja": "\u30b0\u30ed\u30fc\u30b9\u30d5\u30a9\u30fc\u30df\u30e5\u30e9\u30fb\u30bc\u30fc\u30bf"
     }
   },
@@ -5290,7 +5591,7 @@
     "name": {
       "de": "Fern\u00f6stliches Gras",
       "en": "Oriental Grass",
-      "fr": "Roseaux de Domia",
+      "fr": "Roseaux de Doma",
       "ja": "\u30c9\u30de\u30b0\u30e9\u30b9\u30ac\u30fc\u30c7\u30f3"
     }
   },
@@ -5305,6 +5606,45 @@
       "en": "Scale Glue",
       "fr": "Ultra glu",
       "ja": "\u77ac\u9593\u5f37\u529b\u306b\u304b\u308f"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "de": "Notenrolle \u201eBlood For Blood\u201c",
+      "en": "Blood for Blood Orchestrion Roll",
+      "fr": "Rouleau \"Blood for Blood\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u8840\u3067\u8840\u3092\u6d17\u3063\u3066"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "de": "Notenrolle von \u201eImagination\u201c",
+      "en": "Imagination Orchestrion Roll",
+      "fr": "Rouleau \"Imagination\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u30a4\u30de\u30b8\u30cd\u30fc\u30b7\u30e7\u30f3"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "de": "Notenrolle von \u201eLost In the Clouds\u201c",
+      "en": "Lost in the Clouds Orchestrion Roll",
+      "fr": "Rouleau \"Lost in the Clouds\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u96f2\u306b\u96a0\u308c\u3066"
     }
   },
   {
@@ -5361,6 +5701,32 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "de": "Notenrolle von \u201ePainted Foothills\u201c",
+      "en": "Painted Foothills Orchestrion Roll",
+      "fr": "Rouleau \"Painted Foothills\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u5f69\u3089\u308c\u3057\u5c71\u9e93"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "de": "Notenrolle von \u201eStarved\u201c",
+      "en": "Starved Orchestrion Roll",
+      "fr": "Rouleau \"Starved\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u9913\u3048\u305f\u72fc"
+    }
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1116,
     "durability": 70,
     "level": 160,
@@ -5384,6 +5750,62 @@
       "en": "Atrophied Atomos",
       "fr": "Atomos atrophi\u00e9",
       "ja": "\u30df\u30cb\u30de\u30e0\u30a2\u30c8\u30e2\u30b9"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "de": "Notenrolle von \u201eDown the Up Staircase\u201c",
+      "en": "Down the Up Staircase Orchestrion Roll",
+      "fr": "Rouleau \"Down the Up Staircase\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u4e0a\u308a\u968e\u6bb5\u3092\u304f\u3060\u308c"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "de": "Notenrolle von \u201eEternal Wind\u201c",
+      "en": "Eternal Wind Orchestrion Roll",
+      "fr": "Rouleau \"Eternal Wind\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u60a0\u4e45\u306e\u98a8"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "de": "Notenrolle von \u201eFiend\u201c",
+      "en": "Fiend Orchestrion Roll",
+      "fr": "Rouleau \"Fiend\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u9b54\u795e"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "de": "Notenrolle von \u201eHeroes\u201c",
+      "en": "Heroes Orchestrion Roll",
+      "fr": "Rouleau \"Heroes\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:\u82f1\u5091"
     },
     "stars": 1
   },
@@ -5428,6 +5850,48 @@
       "ja": "\u6df1\u7dcb\u306e\u30cf\u30a4\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8\u30a4\u30f3\u30af"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Titanlegierungs-Spiegel",
+      "en": "Titanium Alloy Mirror",
+      "fr": "Miroir en alliage de titane",
+      "ja": "\u30c1\u30bf\u30f3\u30a2\u30ed\u30a4\u30df\u30e9\u30fc"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Notenrolle von \u201eAnswers\u201c",
+      "en": "Answers Orchestrion Roll",
+      "fr": "Rouleau \"Answers\"",
+      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5c:Answers"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Kampfer",
+      "en": "Camphor",
+      "fr": "Camphre",
+      "ja": "\u6a1f\u8133"
+    },
+    "stars": 2
   },
   {
     "baseLevel": 60,
@@ -5512,5 +5976,173 @@
       "ja": "\u6d3b\u529b\u306e\u932c\u91d1\u6eb6\u5264G2"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Pulverisiertes Horn",
+      "en": "Powdered Horn",
+      "fr": "Poudre de corne",
+      "ja": "\u89d2\u7c89"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Sephirot-Wurzel",
+      "en": "Sephirot Root",
+      "fr": "Racine s\u00e9phirotique",
+      "ja": "\u30bb\u30d5\u30a3\u30ed\u30c8\u306e\u6839"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Maxtrank der Geschicklichkeit",
+      "en": "Max-Potion of Dexterity",
+      "fr": "Th\u00e9riaque de dext\u00e9rit\u00e9",
+      "ja": "\u773c\u529b\u306e\u4ed9\u85ac"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Maxtrank der Intelligenz",
+      "en": "Max-Potion of Intelligence",
+      "fr": "Th\u00e9riaque d'intelligence",
+      "ja": "\u77e5\u529b\u306e\u4ed9\u85ac"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Maxtrank der Willenskraft",
+      "en": "Max-Potion of Mind",
+      "fr": "Th\u00e9riaque d'esprit",
+      "ja": "\u5fc3\u529b\u306e\u4ed9\u85ac"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Maxtrank der St\u00e4rke",
+      "en": "Max-Potion of Strength",
+      "fr": "Th\u00e9riaque de force",
+      "ja": "\u525b\u529b\u306e\u4ed9\u85ac"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Maxtrank der Konstitution",
+      "en": "Max-Potion of Vitality",
+      "fr": "Th\u00e9riaque de vitalit\u00e9",
+      "ja": "\u6d3b\u529b\u306e\u4ed9\u85ac"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagisches Grimoire der Magie (Replik)",
+      "en": "Replica Allagan Grimoire of Casting",
+      "fr": "R\u00e9plique de grimoire d'incantateur d'officier allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ad\u30e3\u30b9\u30bf\u30fc\u30b0\u30ea\u30e2\u30a2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagisches Grimoire der Heilung (Replik)",
+      "en": "Replica Allagan Grimoire of Healing",
+      "fr": "R\u00e9plique de grimoire de soigneur d'officier allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d2\u30fc\u30e9\u30fc\u30b0\u30ea\u30e2\u30a2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagisches Grimoire der Magie (Replik)",
+      "en": "Replica High Allagan Grimoire of Casting",
+      "fr": "R\u00e9plique de grimoire d'incantateur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b0\u30ea\u30e2\u30a2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagisches Grimoire der Heilung (Replik)",
+      "en": "Replica High Allagan Grimoire of Healing",
+      "fr": "R\u00e9plique de grimoire de soigneur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30d2\u30fc\u30e9\u30fc\u30b0\u30ea\u30e2\u30a2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2971,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 5186,
+    "name": {
+      "de": "Sephirot-Baum",
+      "en": "Sephirot Tree",
+      "fr": "Arbre s\u00e9phirotique",
+      "ja": "\u30bb\u30d5\u30a3\u30ed\u30c8\u306e\u6a39"
+    },
+    "stars": 3
   }
 ]

@@ -7887,7 +7887,7 @@
     "name": {
       "de": "Achat-Ring des Zielens",
       "en": "Agate Ring of Aiming",
-      "fr": "Bague de chasseur en agate",
+      "fr": "Bague de pisteur en agate",
       "ja": "\u30a2\u30b2\u30fc\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
     }
   },
@@ -7965,7 +7965,7 @@
     "name": {
       "de": "Mythrit-Armringe des Zielens",
       "en": "Mythrite Bangle of Aiming",
-      "fr": "Joncs de chasseur en mithrite",
+      "fr": "Joncs de pisteur en mithrite",
       "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30d0\u30f3\u30b0\u30eb"
     }
   },
@@ -8043,7 +8043,7 @@
     "name": {
       "de": "Mythrit-Ohrringe des Zielens",
       "en": "Mythrite Earrings of Aiming",
-      "fr": "Boucles d'oreilles de chasseur en mithrite",
+      "fr": "Boucles d'oreilles de pisteur en mithrite",
       "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
     }
   },
@@ -8173,7 +8173,7 @@
     "name": {
       "de": "Mythrit-Armreife des Zielens",
       "en": "Mythrite Bracelet of Aiming",
-      "fr": "Bracelet de chasseur en mithrite",
+      "fr": "Bracelet de pisteur en mithrite",
       "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
     }
   },
@@ -8238,7 +8238,7 @@
     "name": {
       "de": "Mythrit-Ohrstecker des Zielens",
       "en": "Mythrite Earblades of Aiming",
-      "fr": "Pendants d'oreilles de chasseur en mithrite",
+      "fr": "Pendants d'oreilles de pisteur en mithrite",
       "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30d4\u30a2\u30b9"
     }
   },
@@ -8368,7 +8368,7 @@
     "name": {
       "de": "Mythrit-Halsband des Zielens",
       "en": "Mythrite Necklace of Aiming",
-      "fr": "Collier de chasseur en mithrite",
+      "fr": "Collier de pisteur en mithrite",
       "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
     }
   },
@@ -8472,7 +8472,7 @@
     "name": {
       "de": "Yetihauer-Ring des Zielens",
       "en": "Yeti Fang Ring of Aiming",
-      "fr": "Bague de chasseur en croc de y\u00e9ti",
+      "fr": "Bague de pisteur en croc de y\u00e9ti",
       "ja": "\u30a4\u30a8\u30c6\u30a3\u30d5\u30a1\u30f3\u30b0\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
     }
   },
@@ -8628,7 +8628,7 @@
     "name": {
       "de": "Morion-Ring des Zielens",
       "en": "Mormorion Ring of Aiming",
-      "fr": "Bague de chasseur en mormorion",
+      "fr": "Bague de pisteur en mormorion",
       "ja": "\u30e2\u30eb\u30e2\u30ea\u30aa\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
     }
   },
@@ -8693,7 +8693,7 @@
     "name": {
       "de": "Hartsilber-Armringe des Zielens",
       "en": "Hardsilver Bangle of Aiming",
-      "fr": "Joncs de chasseur en durargent",
+      "fr": "Joncs de pisteur en durargent",
       "ja": "\u30cf\u30fc\u30c9\u30b7\u30eb\u30d0\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d0\u30f3\u30b0\u30eb"
     }
   },
@@ -8758,7 +8758,7 @@
     "name": {
       "de": "Hartsilber-Ohrringe des Zielens",
       "en": "Hardsilver Earrings of Aiming",
-      "fr": "Boucles d'oreilles de chasseur en durargent",
+      "fr": "Boucles d'oreilles de pisteur en durargent",
       "ja": "\u30cf\u30fc\u30c9\u30b7\u30eb\u30d0\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
     }
   },
@@ -8851,6 +8851,32 @@
       "en": "Star Sapphire",
       "fr": "Saphir \u00e9toil\u00e9",
       "ja": "\u30b9\u30bf\u30fc\u30b5\u30d5\u30a1\u30a4\u30a2"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "de": "Ishgarder Fu\u00dfboden",
+      "en": "Alpine Flooring",
+      "fr": "Carrelage ishgardais",
+      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "de": "Ishgarder Innenwand",
+      "en": "Alpine Inner Wall",
+      "fr": "Rev\u00eatement mural ishgardais",
+      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb"
     }
   },
   {
@@ -8953,7 +8979,7 @@
     "name": {
       "de": "Opal-Armreife des Zielens",
       "en": "Opal Bracelets of Aiming",
-      "fr": "Bracelet de chasseur en opale",
+      "fr": "Bracelet de pisteur en opale",
       "ja": "\u30aa\u30d1\u30fc\u30eb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
     }
   },
@@ -8992,7 +9018,7 @@
     "name": {
       "de": "Opal-Ring des Zielens",
       "en": "Opal Ring of Aiming",
-      "fr": "Bague de chasseur en opale",
+      "fr": "Bague de pisteur en opale",
       "ja": "\u30aa\u30d1\u30fc\u30eb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
     }
   },
@@ -9109,7 +9135,7 @@
     "name": {
       "de": "Opal-Halsberge des Zielens",
       "en": "Opal Choker of Aiming",
-      "fr": "Ras de cou de chasseur en opale",
+      "fr": "Ras de cou de pisteur en opale",
       "ja": "\u30aa\u30d1\u30fc\u30eb\u30ec\u30f3\u30b8\u30e3\u30fc\u30c1\u30e7\u30fc\u30ab\u30fc"
     }
   },
@@ -9174,7 +9200,7 @@
     "name": {
       "de": "Opal-Ohrringe des Zielens",
       "en": "Opal Earrings of Aiming",
-      "fr": "Boucles d'oreilles de chasseur en opale",
+      "fr": "Boucles d'oreilles de pisteur en opale",
       "ja": "\u30aa\u30d1\u30fc\u30eb\u30ec\u30f3\u30b8\u30e3\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
     }
   },
@@ -9239,7 +9265,7 @@
     "name": {
       "de": "K\u00f6nigsgold-Armreife des Zielens",
       "en": "Aurum Regis Bracelet of Aiming",
-      "fr": "Bracelet de chasseur en aurum regis",
+      "fr": "Bracelet de pisteur en aurum regis",
       "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
     }
   },
@@ -9304,7 +9330,7 @@
     "name": {
       "de": "K\u00f6nigsgold-Ohrringe des Zielens",
       "en": "Aurum Regis Earrings of Aiming",
-      "fr": "Pendants d'oreilles de chasseur en aurum regis",
+      "fr": "Pendants d'oreilles de pisteur en aurum regis",
       "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d4\u30a2\u30b9"
     }
   },
@@ -9421,7 +9447,7 @@
     "name": {
       "de": "K\u00f6nigsgold-Halsband des Zielens",
       "en": "Aurum Regis Necklace of Aiming",
-      "fr": "Collier de chasseur en aurum regis",
+      "fr": "Collier de pisteur en aurum regis",
       "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
     }
   },
@@ -9512,7 +9538,7 @@
     "name": {
       "de": "Zitrin-Halsberge des Zielens",
       "en": "Citrine Choker of Aiming",
-      "fr": "Ras de cou de chasseur en citrine",
+      "fr": "Ras de cou de pisteur en citrine",
       "ja": "\u30b7\u30c8\u30ea\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30c1\u30e7\u30fc\u30ab\u30fc"
     }
   },
@@ -9577,7 +9603,7 @@
     "name": {
       "de": "Greifenklauen-Ring des Zielens",
       "en": "Griffin Talon Ring of Aiming",
-      "fr": "Bague de chasseur en serre de griffon",
+      "fr": "Bague de pisteur en serre de griffon",
       "ja": "\u30b0\u30ea\u30d5\u30a3\u30f3\u30af\u30ed\u30fc\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
     }
   },
@@ -9720,7 +9746,7 @@
     "name": {
       "de": "Chrysolith-Armreife des Zielens",
       "en": "Chrysolite Bracelets of Aiming",
-      "fr": "Bracelet de chasseur en chrysolite",
+      "fr": "Bracelet de pisteur en chrysolite",
       "ja": "\u30af\u30ea\u30bd\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
     }
   },
@@ -9772,7 +9798,7 @@
     "name": {
       "de": "Chrysolith-Ohrringe des Zielens",
       "en": "Chrysolite Earrings of Aiming",
-      "fr": "Boucles d'oreilles de chasseur en chrysolite",
+      "fr": "Boucles d'oreilles de pisteur en chrysolite",
       "ja": "\u30af\u30ea\u30bd\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
     }
   },
@@ -9837,7 +9863,7 @@
     "name": {
       "de": "Chrysolith-Ring des Zielens",
       "en": "Chrysolite Ring of Aiming",
-      "fr": "Bague de chasseur en chrysolite",
+      "fr": "Bague de pisteur en chrysolite",
       "ja": "\u30af\u30ea\u30bd\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
     }
   },
@@ -9961,6 +9987,20 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Porzellan-Mogry",
+      "en": "Moogle Miniature",
+      "fr": "F\u00e8ve mog",
+      "ja": "\u30e2\u30b0\u30e2\u30b0\u30d5\u30a7\u30fc\u30f4"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
     "level": 170,
@@ -10064,6 +10104,48 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
+      "de": "Dinosaurier-Skelett",
+      "en": "Dinosaur Skeleton",
+      "fr": "Squelette de dinosaure",
+      "ja": "\u53e4\u4ee3\u7363\u306e\u9aa8\u683c\u6a19\u672c"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Dinosaurier-Sch\u00e4del",
+      "en": "Dinosaur Skull",
+      "fr": "Cr\u00e2ne de dinosaure",
+      "ja": "\u53e4\u4ee3\u7363\u306e\u982d\u9aa8\u6a19\u672c"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Dinosaurier-Stei\u00dfbein",
+      "en": "Dinosaur Tailbone",
+      "fr": "Coccyx de dinosaure",
+      "ja": "\u53e4\u4ee3\u7363\u306e\u5c3e\u9aa8\u6a19\u672c"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
       "de": "Feen-Kronleuchter",
       "en": "Faerie Chandelier",
       "fr": "Lustre des f\u00e9es",
@@ -10110,6 +10192,90 @@
       "en": "Gemmaster's Coronal",
       "fr": "Parure de front d'expert des gemmes",
       "ja": "\u30b8\u30a7\u30e0\u30de\u30b9\u30bf\u30fc\u30b3\u30ed\u30ca"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Gartenbogen",
+      "en": "Living Arch",
+      "fr": "Pont fleuri",
+      "ja": "\u30b0\u30ea\u30fc\u30f3\u30a2\u30fc\u30c1"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagischer Stirnreif der Magie (Replik)",
+      "en": "Replica Allagan Circlet of Casting",
+      "fr": "R\u00e9plique de diad\u00e8me d'incantateur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30fc\u30af\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Allagischer Stirnreif der Heilung (Replik)",
+      "en": "Replica Allagan Circlet of Healing",
+      "fr": "R\u00e9plique de diad\u00e8me de soigneur allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d2\u30fc\u30e9\u30fc\u30b5\u30fc\u30af\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagischer Stirnreif der Verteidigung (Replik)",
+      "en": "Replica High Allagan Circlet of Fending",
+      "fr": "R\u00e9plique de diad\u00e8me de protecteur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30fc\u30af\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Hochallagischer Stirnreif der Heilung (Replik)",
+      "en": "Replica High Allagan Circlet of Healing",
+      "fr": "R\u00e9plique de diad\u00e8me de soigneur haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30d2\u30fc\u30e9\u30fc\u30b5\u30fc\u30af\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "N\u00e4hnadel",
+      "en": "Sewing Needle",
+      "fr": "Aiguille \u00e0 coudre",
+      "ja": "\u523a\u7e4d\u91dd"
     },
     "stars": 2
   },
@@ -10168,5 +10334,257 @@
       "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30de\u30b9\u30af"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ohrringe des Zielens",
+      "en": "Eikon Iron Earring of Aiming",
+      "fr": "Boucle d'oreille primordiale de pisteur",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ohrringe der Magie",
+      "en": "Eikon Iron Earring of Casting",
+      "fr": "Boucle d'oreille primordiale d'incantateur",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ohrringe der Verteidigung",
+      "en": "Eikon Iron Earring of Fending",
+      "fr": "Boucle d'oreille primordiale de protecteur",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ohrringe der Heilung",
+      "en": "Eikon Iron Earring of Healing",
+      "fr": "Boucle d'oreille primordiale de soigneur",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30d2\u30fc\u30e9\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ohrringe des Schlachtens",
+      "en": "Eikon Iron Earring of Slaying",
+      "fr": "Boucle d'oreille primordiale d'attaquant",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30a2\u30bf\u30c3\u30ab\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Ikoneneisenbarren",
+      "en": "Eikon Iron Ingot",
+      "fr": "Lingot de fer primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30a4\u30f3\u30b4\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ring des Zielens",
+      "en": "Eikon Iron Ring of Aiming",
+      "fr": "Bague primordiale de pisteur",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ring der Magie",
+      "en": "Eikon Iron Ring of Casting",
+      "fr": "Bague primordiale d'incantateur",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ring der Verteidigung",
+      "en": "Eikon Iron Ring of Fending",
+      "fr": "Bague primordiale de protecteur",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ring der Heilung",
+      "en": "Eikon Iron Ring of Healing",
+      "fr": "Bague primordiale de soigneur",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30d2\u30fc\u30e9\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Indigoeisen-Ring des Schlachtens",
+      "en": "Eikon Iron Ring of Slaying",
+      "fr": "Bague primordiale d'attaquant",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30a2\u30bf\u30c3\u30ab\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagischer Stock (Replik)",
+      "en": "Replica Allagan Cane",
+      "fr": "R\u00e9plique de canne allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b1\u30fc\u30f3"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Replik der allagischen Rute",
+      "en": "Replica Allagan Rod",
+      "fr": "R\u00e9plique de grand sceptre allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ed\u30c3\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagisches Zepter (Replik)",
+      "en": "Replica Allagan Scepter",
+      "fr": "R\u00e9plique de sceptre allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30bb\u30d7\u30bf\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Allagischer Sternenglobus (Replik)",
+      "en": "Replica Allagan Star Globe",
+      "fr": "R\u00e9plique de globe c\u00e9leste allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30bf\u30fc\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagischer Hirtenstock (Replik)",
+      "en": "Replica High Allagan Crook",
+      "fr": "R\u00e9plique de crosse haut-allagoise",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30af\u30eb\u30fc\u30af"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagischer Stab (Replik)",
+      "en": "Replica High Allagan Staff",
+      "fr": "R\u00e9plique de b\u00e2ton haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30b9\u30bf\u30c3\u30d5"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Hochallagischer Sternenglobus (Replik)",
+      "en": "Replica High Allagan Star Globe",
+      "fr": "R\u00e9plique de globe c\u00e9leste haut-allagois",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30a2\u30b9\u30c8\u30ed\u30e1\u30fc\u30bf\u30fc"
+    },
+    "stars": 3
   }
 ]
