@@ -16,10 +16,8 @@ def makeRecipe(id):
 	r_url = "http://api.xivdb.com/recipe/" + id_str
 	r = requests.get(r_url)
 	data = r.json()
-	sys.stdout.flush()
-	sys.stdout.write("\r" + id_str)
 	name =  {
-	    'de': data['name_de'],
+		'de': data['name_de'],
 		'en': data['name_en'],
 		'fr': data['name_fr'],
 		'ja': data['name_ja'],
@@ -34,13 +32,26 @@ def makeRecipe(id):
 		'name': name,		
 		'stars': int(data['stars']),
 	}
-    
 	return r
+			
+		
 maxId = data['recipes']['results'][0]['id']
-allRecipeIds = range(1,maxId)
-recipes = [makeRecipe(id)
-           for id
-           in allRecipeIds]
+allRecipeIds = range(1,maxId+1)
+
+recipes = list()
+for id in allRecipeIds:
+	id_str = str(id)
+	try:
+		recipe = makeRecipe(id)
+		recipes.append(recipe)
+		sys.stdout.flush()
+		sys.stdout.write("\r" + id_str + " - DONE ")
+	except ValueError:
+		sys.stdout.flush()
+		sys.stdout.write("\r" + id_str+ " - FALSE")
+		
+#recipes = [makeRecipe(id) for id in allRecipeIds]
+
 recipeClassName = operator.itemgetter('cls')
 recipes.sort(key=recipeClassName)
 recipesByClass = {k:list(v) for k,v in itertools.groupby(recipes, recipeClassName)}
