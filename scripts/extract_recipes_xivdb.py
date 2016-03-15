@@ -6,10 +6,19 @@ import operator
 import urllib.request 
 import requests
 import sys
+import threading
 
 url = "http://api.xivdb.com/search?one=recipes"
 r = requests.get(url)
 data = r.json()
+
+global recipes
+recipes = list()
+
+def chunks(l, n):
+    """Yield successive n-sized chunks from l."""
+    for i in range(0, len(l), n):
+        yield l[i:i+n]
 
 def makeRecipe(id):
 	id_str = str(id)
@@ -33,22 +42,35 @@ def makeRecipe(id):
 		'stars': int(data['stars']),
 	}
 	return r
-			
+
+def scanChunk(range):
+	for id in range:
+		id_str = str(id)
+		try:
+			recipe = makeRecipe(id)
+			recipes.append(recipe)
+			sys.stdout.flush()
+			sys.stdout.write("\r" + id_str + " - DONE ")
+		except ValueError:
+			sys.stdout.flush()
+			sys.stdout.write("\r" + id_str+ " - FALSE")
 		
 maxId = data['recipes']['results'][0]['id']
 allRecipeIds = range(1,maxId+1)
 
-recipes = list()
-for id in allRecipeIds:
-	id_str = str(id)
-	try:
-		recipe = makeRecipe(id)
-		recipes.append(recipe)
-		sys.stdout.flush()
-		sys.stdout.write("\r" + id_str + " - DONE ")
-	except ValueError:
-		sys.stdout.flush()
-		sys.stdout.write("\r" + id_str+ " - FALSE")
+threads = []
+
+for c in chunks(allRecipeIds, 500):
+	print ("Start thread - " + str(c))
+	thread = threading.Thread(target=scanChunk,args=(c,))
+	thread.daemon = True
+	thread.start()
+	threads.append(thread)
+	
+# Wait for all threads to complete
+for t in threads:
+    t.join()
+
 		
 #recipes = [makeRecipe(id) for id in allRecipeIds]
 
