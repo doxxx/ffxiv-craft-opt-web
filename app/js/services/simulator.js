@@ -36,14 +36,10 @@ var SimulationService = function($timeout) {
 SimulationService.$inject = ['$timeout'];
 
 SimulationService.prototype.runMonteCarloSim = function(settings, success, error) {
-  if (settings.sequence.length <= 0) {
+  /*if (settings.sequence.length <= 0) {
     error({log: '', error: 'empty sequence'});
     return;
-  }
-  if (settings.recipe.startQuality === undefined) {
-    settings.recipe = angular.copy(settings.recipe);
-    settings.recipe.startQuality = 0;
-  }
+  }*/
 
   var id = this.nextId();
 
@@ -63,10 +59,6 @@ SimulationService.prototype.runProbabilisticSim = function (settings, success, e
   if (settings.sequence.length <= 0) {
     error({log: '', error: 'empty sequence'});
     return;
-  }
-  if (settings.recipe.startQuality === undefined) {
-    settings.recipe = angular.copy(settings.recipe);
-    settings.recipe.startQuality = 0;
   }
 
   var id = this.nextId();

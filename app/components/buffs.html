@@ -1,6 +1,6 @@
 <div class="buffs well well-small">
   <div class="buff" ng-repeat="buff in buffs track by $index">
-    <div class="image-wrap glossy icon">
+    <div class="image-wrap glossy icon" data-ng-class="{'selectable' : actionable == true}" data-ng-click="execute(buff)">
       <img ng-src="{{getActionImagePath(buff.name, recipe.cls)}}"/>
     </div>
     <br/>

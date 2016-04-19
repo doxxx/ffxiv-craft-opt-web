@@ -11,4 +11,5 @@ angular.module('ffxivCraftOptWeb.filters', [])
       }
       return output;
     }
-  });
+  })
+;

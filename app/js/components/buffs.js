@@ -7,12 +7,13 @@ angular.module('ffxivCraftOptWeb.components')
       templateUrl: 'components/buffs.html',
       scope: {
         effects: '=',
-        recipe: '='
+        recipe: '=',
+        action : "&?"
       },
       controller: function ($scope, _getActionImagePath) {
         $scope.getActionImagePath = _getActionImagePath;
-        
-        var update = function () {
+
+          var update = function () {
           $scope.buffs = [];
 
 
@@ -27,9 +28,26 @@ angular.module('ffxivCraftOptWeb.components')
           }
         };
 
-        $scope.$watchCollection('effects', update);
+        $scope.$watchCollection('effects.countDowns', update);
+        $scope.$watchCollection('effects.countUps', update);
+
+        // Execute on click action
+        $scope.execute = function(buff){
+          if (angular.isFunction($scope.action))
+            $scope.action({buff: buff});
+        }
+
 
         update();
+      },
+
+      link: function (scope, element, attrs) {
+        // One-way method bindind bind a noop() function even if no attributes was set. So force value to be undefined if no callback was set
+        if (!attrs.action) {
+          scope.action = undefined;
+        }
+        scope.actionable = angular.isFunction(scope.action);
       }
+
     }
   });

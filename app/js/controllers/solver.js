@@ -48,7 +48,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   function runProbabilisticSim(sequence) {
     var settings = {
       crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      recipe: setRecipeSartWith($scope.recipe, $scope.recipeStartWith),
       sequence: sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -78,7 +78,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
   $scope.runMonteCarloSim = function (sequence) {
     var settings = {
       crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      recipe: setRecipeSartWith($scope.recipe, $scope.recipeStartWith),
       sequence: sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -127,7 +127,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
     var settings = {
       crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      recipe: setRecipeSartWith($scope.recipe, $scope.recipeStartWith),
       sequence: sequence,
       algorithm: $scope.solver.algorithm,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
