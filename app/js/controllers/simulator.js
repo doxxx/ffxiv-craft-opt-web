@@ -63,20 +63,23 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
     $scope.recipeSearch.loading = true;
     var p = _recipeLibrary.recipesForClass($translate.use(), $scope.recipe.cls);
     p.then(function (recipes) {
-        // Restrict recipes to crafter level
-        recipes  = $filter('filter')(recipes, {baseLevel: $scope.crafter.stats[$scope.recipe.cls].level}, function(recipeLevel, crafterLevel){
-            if (!crafterLevel || crafterLevel >= recipeLevel - 5)
-                return true;
-            return false;
+      // Restrict recipes to crafter level
+      recipes = $filter('filter')(recipes, {baseLevel: $scope.crafter.stats[$scope.recipe.cls].level},
+        function (recipeLevel, crafterLevel) {
+          if (!crafterLevel || crafterLevel >= recipeLevel - 5)
+            return true;
+          return false;
         });
 
-        // Then filter on text search
-        $scope.recipeSearch.list = $filter('filter')(recipes, {name: $scope.recipeSearch.text}, function(recipeName, recipeSearch){
-          if (recipeName == undefined || recipeSearch == undefined)
+      // Then filter on text search, ignoring case and accents
+      $scope.recipeSearch.list =
+        $filter('filter')(recipes, {name: $scope.recipeSearch.text}, function (recipeName, recipeSearch) {
+          if (recipeName === undefined || recipeSearch === undefined)
             return true;
 
           return recipeName.removeAccent().toUpperCase().indexOf(recipeSearch.removeAccent().toUpperCase()) >= 0;
-      });
+        });
+
       $scope.recipeSearch.selected = Math.min($scope.recipeSearch.selected, $scope.recipeSearch.list.length - 1);
       $scope.recipeSearch.loading = false;
     }, function (err) {
