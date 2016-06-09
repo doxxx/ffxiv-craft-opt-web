@@ -1633,7 +1633,7 @@
     "name": {
       "de": "Tadelloser Ring",
       "en": "Flawless Band",
-      "fr": "Anneau parfait",
+      "fr": "Bague de vertu",
       "ja": "\u6e05\u7d14\u306e\u6307\u8f2a"
     }
   },
@@ -2463,7 +2463,7 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00fcrbisorangener Farbstoff",
+      "de": "K\u00fcrbisoranger Farbstoff",
       "en": "Pumpkin Orange Dye",
       "fr": "Teinture orange citrouille",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d1\u30f3\u30d7\u30ad\u30f3\u30aa\u30ec\u30f3\u30b8"
@@ -5255,6 +5255,19 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "\u00c4therd\u00e4mmendes Gef\u00e4\u00df",
+      "en": "Aetheric Shielding",
+      "fr": "R\u00e9cipient \u00e9th\u00e9roscell\u00e9",
+      "ja": "\u7d76\u970a\u4f53\u5bb9\u5668"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 186,
     "durability": 80,
     "level": 50,
@@ -5294,6 +5307,32 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Drachengabe",
+      "en": "Austere Offering",
+      "fr": "Cadeau pour dragons",
+      "ja": "\u7adc\u65cf\u5831\u916c\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 279,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1980,
+    "name": {
+      "de": "Korbkomponente",
+      "en": "Basket Component",
+      "fr": "Mat\u00e9riel de vannerie",
+      "ja": "\u7de8\u307f\u30ab\u30b4\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 186,
     "durability": 80,
     "level": 50,
@@ -5320,6 +5359,84 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Wolkenmeer-K\u00f6der",
+      "en": "Cloudfish Lure",
+      "fr": "Leurre sp\u00e9cial",
+      "ja": "\u96f2\u6d77\u91e3\u990c"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Schuppenfeile",
+      "en": "Dragonscale Rasp",
+      "fr": "Racloir en \u00e9caille de dragon",
+      "ja": "\u7adc\u9c57\u30e4\u30b9\u30ea"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Rauchbombe",
+      "en": "Exploding Kupo Nut",
+      "fr": "Noix de kupo fumig\u00e8ne",
+      "ja": "\u7159\u5e55\u306e\u5b9f"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 95,
+    "durability": 40,
+    "level": 50,
+    "maxQuality": 2692,
+    "name": {
+      "de": "Falsche Kupo-Nuss",
+      "en": "Fake Kupo Nut",
+      "fr": "Fausse noix de kupo",
+      "ja": "\u30cb\u30bb\u306e\u5b9f"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Fundamentmaterial",
+      "en": "Foundation Component",
+      "fr": "Mat\u00e9riel pour les fondations",
+      "ja": "\u57fa\u790e\u5de5\u4e8b\u8cc7\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Komponente f\u00fcr die Werkzeugreparatur",
+      "en": "Gathering Tool Component",
+      "fr": "Mat\u00e9riel de r\u00e9paration",
+      "ja": "\u63a1\u96c6\u9053\u5177\u88dc\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 93,
     "durability": 80,
     "level": 50,
@@ -5333,6 +5450,32 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 273,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 673,
+    "name": {
+      "de": "Tr\u00f6tenkomponente",
+      "en": "Horn Component",
+      "fr": "Composant de clairon",
+      "ja": "\u3059\u3093\u3054\u3044\u30e9\u30c3\u30d1\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Bestandteil einer Mahlzeit",
+      "en": "Ishgardian Cuisine Miscellany",
+      "fr": "\u00c9l\u00e9ment de plateau-repas",
+      "ja": "\u6669\u9910\u4e0d\u8db3\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 186,
     "durability": 80,
     "level": 50,
@@ -5342,6 +5485,19 @@
       "en": "Ivory Staff",
       "fr": "B\u00e2ton en ivoire",
       "ja": "\u30a2\u30a4\u30dc\u30ea\u30fc\u30b9\u30bf\u30c3\u30d5"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Miniatur-Luftschiff",
+      "en": "Makeshift Toy Airship",
+      "fr": "Maquette d'a\u00e9ronef",
+      "ja": "\u98db\u7a7a\u8247\u6a21\u578b"
     }
   },
   {
@@ -5372,6 +5528,58 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "K\u00fcchenartikel",
+      "en": "Mogstew Miscellany",
+      "fr": "Mat\u00e9riaux gastronomiques",
+      "ja": "\u8abf\u7406\u4e0d\u8db3\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 223,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 977,
+    "name": {
+      "de": "Kleine Belohnung",
+      "en": "Moogle Mollifier",
+      "fr": "Cadeau personnalis\u00e9",
+      "ja": "\u7279\u88fd\u3054\u8912\u7f8e"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Mogry-Figur",
+      "en": "Moogle Statuette",
+      "fr": "Statuette de Mog",
+      "ja": "\u5f6b\u50cf\u898b\u672c\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 364,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 538,
+    "name": {
+      "de": "Mogry-Werkzeugkomponente",
+      "en": "Moogle Tool Component",
+      "fr": "Composant de marteau sp\u00e9cial Mog",
+      "ja": "\u30e2\u30fc\u30b0\u30ea\u7528\u9053\u5177\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 595,
     "durability": 80,
     "level": 50,
@@ -5394,6 +5602,19 @@
       "en": "Oasis Ornate Fence",
       "fr": "Muret ornement\u00e9 thanalanais",
       "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30aa\u30fc\u30cd\u30a4\u30c8\u30a6\u30a9\u30fc\u30eb"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Verwendbares Baumaterial",
+      "en": "Repurposed Construction Component",
+      "fr": "Mat\u00e9riel de construction",
+      "ja": "\u518d\u751f\u6e08\u307f\u5efa\u7bc9\u8cc7\u6750"
     }
   },
   {
@@ -5437,6 +5658,19 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 279,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1980,
+    "name": {
+      "de": "Einzelteil f\u00fcr die Schneidemaschine",
+      "en": "Shearing Machine Component",
+      "fr": "Composant de machine \u00e0 inciser",
+      "ja": "\u88c1\u65ad\u6a5f\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 186,
     "durability": 80,
     "level": 50,
@@ -5446,6 +5680,45 @@
       "en": "Spinel Earrings",
       "fr": "Boucles d'oreilles de spinelles",
       "ja": "\u30b9\u30d4\u30cd\u30eb\u30a4\u30e4\u30ea\u30f3\u30b0"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 228,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 996,
+    "name": {
+      "de": "Steinstatuenkomponente",
+      "en": "Statue Supplies",
+      "fr": "Composant de statue",
+      "ja": "\u77f3\u50cf\u4fee\u5fa9\u7528\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 223,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 977,
+    "name": {
+      "de": "Formvollendete Steinblock-Vorlage",
+      "en": "Stonemasonry Supplies",
+      "fr": "Pierre de r\u00e9f\u00e9rence",
+      "ja": "\u8abf\u6574\u3055\u308c\u305f\u77f3\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 486,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 673,
+    "name": {
+      "de": "Gedenktafelkomponente",
+      "en": "Tablet Supplies",
+      "fr": "Composant de plaque comm\u00e9morative",
+      "ja": "\u9298\u677f\u4ed5\u4e0a\u3052\u90e8\u6750"
     }
   },
   {
@@ -5494,10 +5767,75 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
+      "de": "\u00dcbungsmaterial",
+      "en": "Training Supplies",
+      "fr": "Mat\u00e9riel d'entra\u00eenement",
+      "ja": "\u8a13\u7df4\u7528\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Flaschenzug-Ersatzteil",
+      "en": "Treadwheel Crane Components",
+      "fr": "Mat\u00e9riel de r\u00e9paration de treuil",
+      "ja": "\u5dfb\u304d\u4e0a\u3052\u6a5f\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
       "de": "T\u00fcrkis-Ohrringe",
       "en": "Turquoise Earrings",
       "fr": "Boucles d'oreilles de turquoises",
       "ja": "\u30bf\u30fc\u30b3\u30a4\u30ba\u30a4\u30e4\u30ea\u30f3\u30b0"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Werkzeug zur Bodenplattenf\u00e4rbung",
+      "en": "Veneer Component",
+      "fr": "Mat\u00e9riel de finition",
+      "ja": "\u5e8a\u6750\u52a0\u5de5\u7528\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Werkzeug zur Mauergl\u00e4ttung",
+      "en": "Wall Repair Supplies",
+      "fr": "Mat\u00e9riel de r\u00e9novation de fa\u00e7ade",
+      "ja": "\u58c1\u306e\u88dc\u4fee\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Abdichtungskomponente",
+      "en": "Water Filter Component",
+      "fr": "Composant de fontaine",
+      "ja": "\u6cc9\u6c34\u88dc\u4fee\u6750"
     }
   },
   {
@@ -6752,6 +7090,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Sharlayan-Holzboden",
+      "en": "Sharlayan Flooring",
+      "fr": "Carrelage sharlayanais",
+      "ja": "\u30b7\u30e3\u30fc\u30ec\u30a2\u30f3\u30fb\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 233,
     "durability": 80,
     "level": 70,
@@ -7074,6 +7426,21 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Windgewalten-Stock",
+      "en": "Heart of the Vortex",
+      "fr": "Canne des rafales",
+      "ja": "\u30f4\u30a9\u30fc\u30c6\u30c3\u30af\u30b9\u30b1\u30fc\u30f3"
+    },
+    "stars": 3
+  },
+  {
     "aspect": "Ice",
     "baseLevel": 50,
     "difficulty": 801,
@@ -7100,6 +7467,21 @@
       "en": "Inferno Cudgel",
       "fr": "Masse des flammes",
       "ja": "\u30a4\u30f3\u30d5\u30a7\u30eb\u30ce\u30ab\u30b8\u30a7\u30eb"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Inferno-Rute",
+      "en": "Inferno Rod",
+      "fr": "Sceptre des flammes",
+      "ja": "\u30a4\u30f3\u30d5\u30a7\u30eb\u30ce\u30ed\u30c3\u30c9"
     },
     "stars": 3
   },
@@ -7185,6 +7567,20 @@
       "en": "Iolite Ring",
       "fr": "Bague en cordi\u00e9rite",
       "ja": "\u30a2\u30a4\u30aa\u30e9\u30a4\u30c8\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "de": "Gro\u00dfer Gartenteich",
+      "en": "Large Garden Pond",
+      "fr": "Grand bassin de jardin",
+      "ja": "\u30e9\u30fc\u30b8\u30ac\u30fc\u30c7\u30f3\u30dd\u30f3\u30c9"
     },
     "stars": 3
   },
@@ -7512,6 +7908,36 @@
       "en": "Diamond Chandelier",
       "fr": "Lustre de la Furie des neiges",
       "ja": "\u6c37\u795e\u30b7\u30f4\u30a1\u306e\u30b7\u30e3\u30f3\u30c7\u30ea\u30a2"
+    },
+    "stars": 4
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Langstab des m\u00e4chtigen Donners",
+      "en": "High Adjudicator's Staff",
+      "fr": "Tonnerre du Patriarche",
+      "ja": "\u30ec\u30f4\u30a3\u30f3\u30fb\u30b5\u30f3\u30c0\u30fc\u30b9\u30bf\u30c3\u30d5"
+    },
+    "stars": 4
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "de": "Astrometer des m\u00e4chtigen Donners",
+      "en": "Mighty Thunderdome",
+      "fr": "N\u00e9buleuse du Patriarche",
+      "ja": "\u30ec\u30f4\u30a3\u30f3\u30fb\u30b5\u30f3\u30c0\u30fc\u30b9\u30d5\u30a3\u30a2"
     },
     "stars": 4
   },
@@ -10140,6 +10566,36 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Astrometer der endlosen Weiten",
+      "en": "Endless Expanse Astrometer",
+      "fr": "Planisph\u00e8re du Migrateur",
+      "ja": "\u30a8\u30af\u30b9\u30d1\u30f3\u30b9\u30a2\u30b9\u30c8\u30ed\u30e1\u30fc\u30bf\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Langstab der endlosen Weiten",
+      "en": "Endless Expanse Longpole",
+      "fr": "\u00c9chalas du Migrateur",
+      "ja": "\u30a8\u30af\u30b9\u30d1\u30f3\u30b9\u30af\u30ed\u30f3\u30b0\u30dd\u30fc\u30eb"
+    },
+    "stars": 2
+  },
+  {
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
@@ -10234,6 +10690,48 @@
       "en": "Replica Allagan Circlet of Healing",
       "fr": "R\u00e9plique de diad\u00e8me de soigneur allagois",
       "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d2\u30fc\u30e9\u30fc\u30b5\u30fc\u30af\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Drachengott-Diadem des Sp\u00e4hens (Replik)",
+      "en": "Replica Dreadwyrm Circlet of Scouting",
+      "fr": "R\u00e9plique de diad\u00e8me d'\u00e9claireur du Dragon-dieu",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30b9\u30ab\u30a6\u30c8\u30b5\u30fc\u30af\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Drachengott-Stirnreif des Schlagens (Replik)",
+      "en": "Replica Dreadwyrm Circlet of Striking",
+      "fr": "R\u00e9plique de diad\u00e8me d'agresseur du Dragon-dieu",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b5\u30fc\u30af\u30ec\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Drachengott-Diadem der Verteidigung (Replik)",
+      "en": "Replica Dreadwyrm Coronet of Fending",
+      "fr": "R\u00e9plique de couronnette de protecteur du Dragon-dieu",
+      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b3\u30ed\u30cd\u30c3\u30c8"
     },
     "stars": 2
   },
@@ -10342,7 +10840,7 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ohrringe des Zielens",
+      "de": "Ikoneneisen-Ohrringe des Zielens",
       "en": "Eikon Iron Earring of Aiming",
       "fr": "Boucle d'oreille primordiale de pisteur",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
@@ -10356,7 +10854,7 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ohrringe der Magie",
+      "de": "Ikoneneisen-Ohrringe der Magie",
       "en": "Eikon Iron Earring of Casting",
       "fr": "Boucle d'oreille primordiale d'incantateur",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
@@ -10370,7 +10868,7 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ohrringe der Verteidigung",
+      "de": "Ikoneneisen-Ohrringe der Verteidigung",
       "en": "Eikon Iron Earring of Fending",
       "fr": "Boucle d'oreille primordiale de protecteur",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
@@ -10384,7 +10882,7 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ohrringe der Heilung",
+      "de": "Ikoneneisen-Ohrringe der Heilung",
       "en": "Eikon Iron Earring of Healing",
       "fr": "Boucle d'oreille primordiale de soigneur",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30d2\u30fc\u30e9\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
@@ -10398,7 +10896,7 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ohrringe des Schlachtens",
+      "de": "Ikoneneisen-Ohrringe des Schlachtens",
       "en": "Eikon Iron Earring of Slaying",
       "fr": "Boucle d'oreille primordiale d'attaquant",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30a2\u30bf\u30c3\u30ab\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
@@ -10421,12 +10919,26 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Ikoneneisen-Nadel",
+      "en": "Eikon Iron Needle",
+      "fr": "Aiguille en fer primordial",
+      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30cb\u30fc\u30c9\u30eb"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ring des Zielens",
+      "de": "Ikoneneisen-Ring des Zielens",
       "en": "Eikon Iron Ring of Aiming",
       "fr": "Bague primordiale de pisteur",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ea\u30f3\u30b0"
@@ -10440,7 +10952,7 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ring der Magie",
+      "de": "Ikoneneisen-Ring der Magie",
       "en": "Eikon Iron Ring of Casting",
       "fr": "Bague primordiale d'incantateur",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30ea\u30f3\u30b0"
@@ -10454,7 +10966,7 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ring der Verteidigung",
+      "de": "Ikoneneisen-Ring der Verteidigung",
       "en": "Eikon Iron Ring of Fending",
       "fr": "Bague primordiale de protecteur",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ea\u30f3\u30b0"
@@ -10468,7 +10980,7 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ring der Heilung",
+      "de": "Ikoneneisen-Ring der Heilung",
       "en": "Eikon Iron Ring of Healing",
       "fr": "Bague primordiale de soigneur",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30d2\u30fc\u30e9\u30fc\u30ea\u30f3\u30b0"
@@ -10482,10 +10994,80 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Indigoeisen-Ring des Schlachtens",
+      "de": "Ikoneneisen-Ring des Schlachtens",
       "en": "Eikon Iron Ring of Slaying",
       "fr": "Bague primordiale d'attaquant",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30a2\u30bf\u30c3\u30ab\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Garlond-Ohrringe des Handwerks",
+      "en": "Ironworks Earrings of Crafting",
+      "fr": "Boucles d'oreilles des cr\u00e9ations des Forges",
+      "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Garlond-Ohrringe des Eifers",
+      "en": "Ironworks Earrings of Gathering",
+      "fr": "Boucles d'oreilles des ressources des Forges",
+      "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Garlond-Ring des Handwerks",
+      "en": "Ironworks Ring of Crafting",
+      "fr": "Bague des cr\u00e9ations des Forges",
+      "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Garlond-Ring des Eifers",
+      "en": "Ironworks Ring of Gathering",
+      "fr": "Bague des ressources des Forges",
+      "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 3175,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 5907,
+    "name": {
+      "de": "Nidhogg-Modell",
+      "en": "Miniature Nidhogg",
+      "fr": "Figurine magitek de Nidhogg",
+      "ja": "MG\u30cb\u30fc\u30ba\u30d8\u30c3\u30b0"
     },
     "stars": 3
   },

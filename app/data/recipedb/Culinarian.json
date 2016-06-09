@@ -1853,7 +1853,7 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00fcrbisorangener Farbstoff",
+      "de": "K\u00fcrbisoranger Farbstoff",
       "en": "Pumpkin Orange Dye",
       "fr": "Teinture orange citrouille",
       "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d1\u30f3\u30d7\u30ad\u30f3\u30aa\u30ec\u30f3\u30b8"
@@ -2336,7 +2336,7 @@
     "name": {
       "de": "Rolanbeeren-K\u00e4se",
       "en": "Rolanberry Cheese",
-      "fr": "Fromage sauce rolanberry",
+      "fr": "Fromage sauce rolanbaie",
       "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30c1\u30fc\u30ba"
     }
   },
@@ -2368,6 +2368,19 @@
   },
   {
     "baseLevel": 45,
+    "difficulty": 505,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "de": "Ishgarder Fr\u00fchst\u00fcck",
+      "en": "Alpine Breakfast",
+      "fr": "Petit d\u00e9jeuner ishgardais",
+      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
     "level": 45,
@@ -2388,7 +2401,7 @@
     "name": {
       "de": "Rolanbeeren-Lassi",
       "en": "Rolanberry Lassi",
-      "fr": "Lassi \u00e0 la rolanberry",
+      "fr": "Lassi \u00e0 la rolanbaie",
       "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30e9\u30c3\u30b7\u30fc"
     }
   },
@@ -2477,10 +2490,49 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
+      "de": "\u00c4therd\u00e4mmendes Gef\u00e4\u00df",
+      "en": "Aetheric Shielding",
+      "fr": "R\u00e9cipient \u00e9th\u00e9roscell\u00e9",
+      "ja": "\u7d76\u970a\u4f53\u5bb9\u5668"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
       "de": "Obstteller",
       "en": "Assorted Fruit",
       "fr": "Panier de fruits",
       "ja": "\u30d5\u30eb\u30fc\u30c4\u30a2\u30bd\u30fc\u30c8"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Drachengabe",
+      "en": "Austere Offering",
+      "fr": "Cadeau pour dragons",
+      "ja": "\u7adc\u65cf\u5831\u916c\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 279,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1980,
+    "name": {
+      "de": "Korbkomponente",
+      "en": "Basket Component",
+      "fr": "Mat\u00e9riel de vannerie",
+      "ja": "\u7de8\u307f\u30ab\u30b4\u90e8\u6750"
     }
   },
   {
@@ -2498,6 +2550,19 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Wolkenmeer-K\u00f6der",
+      "en": "Cloudfish Lure",
+      "fr": "Leurre sp\u00e9cial",
+      "ja": "\u96f2\u6d77\u91e3\u990c"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 186,
     "durability": 80,
     "level": 50,
@@ -2507,6 +2572,19 @@
       "en": "Dagger Soup",
       "fr": "Soupe de dagues",
       "ja": "\u30c0\u30ac\u30fc\u30b9\u30fc\u30d7"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Schuppenfeile",
+      "en": "Dragonscale Rasp",
+      "fr": "Racloir en \u00e9caille de dragon",
+      "ja": "\u7adc\u9c57\u30e4\u30b9\u30ea"
     }
   },
   {
@@ -2524,6 +2602,227 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Rauchbombe",
+      "en": "Exploding Kupo Nut",
+      "fr": "Noix de kupo fumig\u00e8ne",
+      "ja": "\u7159\u5e55\u306e\u5b9f"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 95,
+    "durability": 40,
+    "level": 50,
+    "maxQuality": 2692,
+    "name": {
+      "de": "Falsche Kupo-Nuss",
+      "en": "Fake Kupo Nut",
+      "fr": "Fausse noix de kupo",
+      "ja": "\u30cb\u30bb\u306e\u5b9f"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Fundamentmaterial",
+      "en": "Foundation Component",
+      "fr": "Mat\u00e9riel pour les fondations",
+      "ja": "\u57fa\u790e\u5de5\u4e8b\u8cc7\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Komponente f\u00fcr die Werkzeugreparatur",
+      "en": "Gathering Tool Component",
+      "fr": "Mat\u00e9riel de r\u00e9paration",
+      "ja": "\u63a1\u96c6\u9053\u5177\u88dc\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 273,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 673,
+    "name": {
+      "de": "Tr\u00f6tenkomponente",
+      "en": "Horn Component",
+      "fr": "Composant de clairon",
+      "ja": "\u3059\u3093\u3054\u3044\u30e9\u30c3\u30d1\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Bestandteil einer Mahlzeit",
+      "en": "Ishgardian Cuisine Miscellany",
+      "fr": "\u00c9l\u00e9ment de plateau-repas",
+      "ja": "\u6669\u9910\u4e0d\u8db3\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Miniatur-Luftschiff",
+      "en": "Makeshift Toy Airship",
+      "fr": "Maquette d'a\u00e9ronef",
+      "ja": "\u98db\u7a7a\u8247\u6a21\u578b"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "K\u00fcchenartikel",
+      "en": "Mogstew Miscellany",
+      "fr": "Mat\u00e9riaux gastronomiques",
+      "ja": "\u8abf\u7406\u4e0d\u8db3\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 223,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 977,
+    "name": {
+      "de": "Kleine Belohnung",
+      "en": "Moogle Mollifier",
+      "fr": "Cadeau personnalis\u00e9",
+      "ja": "\u7279\u88fd\u3054\u8912\u7f8e"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 357,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 528,
+    "name": {
+      "de": "Mogry-Figur",
+      "en": "Moogle Statuette",
+      "fr": "Statuette de Mog",
+      "ja": "\u5f6b\u50cf\u898b\u672c\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 364,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 538,
+    "name": {
+      "de": "Mogry-Werkzeugkomponente",
+      "en": "Moogle Tool Component",
+      "fr": "Composant de marteau sp\u00e9cial Mog",
+      "ja": "\u30e2\u30fc\u30b0\u30ea\u7528\u9053\u5177\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 334,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Verwendbares Baumaterial",
+      "en": "Repurposed Construction Component",
+      "fr": "Mat\u00e9riel de construction",
+      "ja": "\u518d\u751f\u6e08\u307f\u5efa\u7bc9\u8cc7\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 279,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1980,
+    "name": {
+      "de": "Einzelteil f\u00fcr die Schneidemaschine",
+      "en": "Shearing Machine Component",
+      "fr": "Composant de machine \u00e0 inciser",
+      "ja": "\u88c1\u65ad\u6a5f\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 228,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 996,
+    "name": {
+      "de": "Steinstatuenkomponente",
+      "en": "Statue Supplies",
+      "fr": "Composant de statue",
+      "ja": "\u77f3\u50cf\u4fee\u5fa9\u7528\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 223,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 977,
+    "name": {
+      "de": "Formvollendete Steinblock-Vorlage",
+      "en": "Stonemasonry Supplies",
+      "fr": "Pierre de r\u00e9f\u00e9rence",
+      "ja": "\u8abf\u6574\u3055\u308c\u305f\u77f3\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 486,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 673,
+    "name": {
+      "de": "Gedenktafelkomponente",
+      "en": "Tablet Supplies",
+      "fr": "Composant de plaque comm\u00e9morative",
+      "ja": "\u9298\u677f\u4ed5\u4e0a\u3052\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "de": "\u00dcbungsmaterial",
+      "en": "Training Supplies",
+      "fr": "Mat\u00e9riel d'entra\u00eenement",
+      "ja": "\u8a13\u7df4\u7528\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 186,
     "durability": 80,
     "level": 50,
@@ -2533,6 +2832,58 @@
       "en": "Trapper's Quiche",
       "fr": "Quiche au triton fa\u00e7on chasseur",
       "ja": "\u731f\u5e2b\u98a8\u30a8\u30d5\u30c8\u30ad\u30c3\u30b7\u30e5"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 595,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1320,
+    "name": {
+      "de": "Flaschenzug-Ersatzteil",
+      "en": "Treadwheel Crane Components",
+      "fr": "Mat\u00e9riel de r\u00e9paration de treuil",
+      "ja": "\u5dfb\u304d\u4e0a\u3052\u6a5f\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Werkzeug zur Bodenplattenf\u00e4rbung",
+      "en": "Veneer Component",
+      "fr": "Mat\u00e9riel de finition",
+      "ja": "\u5e8a\u6750\u52a0\u5de5\u7528\u54c1"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 446,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 1056,
+    "name": {
+      "de": "Werkzeug zur Mauergl\u00e4ttung",
+      "en": "Wall Repair Supplies",
+      "fr": "Mat\u00e9riel de r\u00e9novation de fa\u00e7ade",
+      "ja": "\u58c1\u306e\u88dc\u4fee\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 267,
+    "durability": 80,
+    "level": 50,
+    "maxQuality": 660,
+    "name": {
+      "de": "Abdichtungskomponente",
+      "en": "Water Filter Component",
+      "fr": "Composant de fontaine",
+      "ja": "\u6cc9\u6c34\u88dc\u4fee\u6750"
     }
   },
   {
@@ -2698,7 +3049,7 @@
     "name": {
       "de": "Rolanbeeren-K\u00e4sekuchen",
       "en": "Rolanberry Cheesecake",
-      "fr": "G\u00e2teau au fromage \u00e0 la rolanberry",
+      "fr": "G\u00e2teau au fromage \u00e0 la rolanbaie",
       "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30c1\u30fc\u30ba\u30b1\u30fc\u30ad"
     },
     "stars": 1
@@ -3878,8 +4229,22 @@
     "name": {
       "de": "Boscaiola",
       "en": "Boscaiola",
-      "fr": "P\u00e2tes boscaiola",
+      "fr": "P\u00e2tes \u00e0 la foresti\u00e8re",
       "ja": "\u30dc\u30b9\u30ab\u30a4\u30aa\u30fc\u30e9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Himmelseier-Suppe",
+      "en": "Heavensegg Soup",
+      "fr": "Soupe aux c\u00e9lest\u0153ufs",
+      "ja": "\u30d8\u30f4\u30f3\u30b9\u30a8\u30c3\u30b0\u30b9\u30fc\u30d7"
     },
     "stars": 3
   },
@@ -3899,6 +4264,20 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Pasta Ortolano",
+      "en": "Pasta Ortolano",
+      "fr": "P\u00e2tes \u00e0 la mara\u00eech\u00e8re",
+      "ja": "\u30aa\u30eb\u30c8\u30e9\u30fc\u30ca"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
     "level": 180,
@@ -3906,7 +4285,7 @@
     "name": {
       "de": "Peperoncino",
       "en": "Peperoncino",
-      "fr": "P\u00e2tes peperoncino",
+      "fr": "P\u00e2tes aux piments",
       "ja": "\u30da\u30da\u30ed\u30f3\u30c1\u30fc\u30ce"
     },
     "stars": 3
