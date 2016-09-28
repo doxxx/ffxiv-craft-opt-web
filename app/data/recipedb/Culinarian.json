@@ -325,6 +325,19 @@
     }
   },
   {
+    "baseLevel": 5,
+    "difficulty": 33,
+    "durability": 60,
+    "level": 5,
+    "maxQuality": 451,
+    "name": {
+      "de": "Rolanbeeren-Wassereis",
+      "en": "Rolanberry Shaved Ice",
+      "fr": "Glace pil\u00e9e \u00e0 la rolanbaie",
+      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30b7\u30a7\u30a4\u30d6\u30c9\u30a2\u30a4\u30b9"
+    }
+  },
+  {
     "baseLevel": 6,
     "difficulty": 36,
     "durability": 60,
@@ -4303,5 +4316,103 @@
       "ja": "\u30b9\u30d1\u30a4\u30b9\u30b5\u30a4\u30c0\u30fc"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Apfel-Flaugnarde",
+      "en": "Flaugnarde",
+      "fr": "Flaugnarde aux pommes",
+      "ja": "\u30a2\u30c3\u30d7\u30eb\u30d5\u30ed\u30cb\u30e3\u30eb\u30c9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmlischer Eierflip",
+      "en": "Heavenly Eggnog",
+      "fr": "Lait de poule c\u00e9leste",
+      "ja": "\u30d8\u30f4\u30f3\u30b9\u30a8\u30c3\u30b0\u30ce\u30c3\u30b0"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Cordon Bleu",
+      "en": "Loaghtan Cordon Bleu",
+      "fr": "Cordon bleu",
+      "ja": "\u30b3\u30eb\u30c9\u30f3\u30d6\u30eb\u30fc"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Priester-Omelett",
+      "en": "Priestly Omelette",
+      "fr": "Omelette sacerdotale",
+      "ja": "\u30d7\u30ea\u30fc\u30b9\u30c8\u30aa\u30e0\u30ec\u30c4"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Carbonara",
+      "en": "Spaghetti Carbonara",
+      "fr": "Spaghettis \u00e0 la carbonara",
+      "ja": "\u30ab\u30eb\u30dc\u30ca\u30fc\u30e9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Pescatole",
+      "en": "Spaghetti Pescatore",
+      "fr": "Spaghetti pescatore",
+      "ja": "\u30da\u30b9\u30ab\u30c8\u30fc\u30ec"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Pilzomelett",
+      "en": "Wildwood Scrambled Eggs",
+      "fr": "\u0152ufs brouill\u00e9s",
+      "ja": "\u30a6\u30fc\u30fb\u30d6\u30eb\u30a4\u30a8"
+    },
+    "stars": 4
   }
 ]

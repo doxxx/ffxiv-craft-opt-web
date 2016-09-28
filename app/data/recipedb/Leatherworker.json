@@ -1904,10 +1904,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Gerber-Projektionsprisma I",
-      "en": "Grade 1 Glamour Prism (Leatherworking)",
-      "fr": "Prisme mirage I (tannerie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G1:\u30ec\u30b6\u30fc\u30ef\u30fc\u30af"
+      "de": "Gerber-Projektionsprisma",
+      "en": "Glamour Prism (Leatherworking)",
+      "fr": "Prisme mirage (tannerie)",
+      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0:\u30ec\u30b6\u30fc\u30ef\u30fc\u30af"
     }
   },
   {
@@ -5588,6 +5588,34 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Armbinden der Neuen Welt",
+      "en": "New World Armlets",
+      "fr": "Prot\u00e8ge-poignets du Nouveau Monde",
+      "ja": "\u30cb\u30e5\u30fc\u30ef\u30fc\u30eb\u30c9\u30fb\u30a2\u30fc\u30e0\u30ec\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Sandalen der Neuen Welt",
+      "en": "New World Moccasins",
+      "fr": "Mocassins du Nouveau Monde",
+      "ja": "\u30cb\u30e5\u30fc\u30ef\u30fc\u30eb\u30c9\u30fb\u30e2\u30ab\u30b7\u30f3"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 222,
     "durability": 40,
     "level": 90,
@@ -7294,6 +7322,19 @@
     }
   },
   {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Dhalmelleder-Stiefel",
+      "en": "Raime Boots",
+      "fr": "Bottes en fourrure de dhalmel",
+      "ja": "\u30c0\u30eb\u30e1\u30eb\u30d5\u30a1\u30fc\u30d6\u30fc\u30c4"
+    }
+  },
+  {
     "baseLevel": 56,
     "difficulty": 752,
     "durability": 70,
@@ -8172,6 +8213,20 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
+      "de": "Echsen-Stiefel",
+      "en": "Cashmere Boots",
+      "fr": "Bottes en fourrure de saurien",
+      "ja": "\u30bd\u30fc\u30ea\u30a2\u30f3\u30d5\u30a1\u30fc\u30d6\u30fc\u30c4"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
       "de": "Ritterkampfanzug des Zielens",
       "en": "Chivalric Battledress of Aiming",
       "fr": "Broigne de pisteur chevaleresque",
@@ -8792,6 +8847,20 @@
       "en": "Griffin Leather Corset of Healing",
       "fr": "Corset de soigneur en cuir de griffon",
       "ja": "\u30b0\u30ea\u30d5\u30a3\u30f3\u30d2\u30fc\u30e9\u30fc\u30b3\u30eb\u30bb\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Greifenleder-Handschuhe",
+      "en": "Griffin Leather Gloves",
+      "fr": "Manchettes en cuir de griffon",
+      "ja": "\u30b0\u30ea\u30d5\u30a3\u30f3\u30ab\u30d5\u30b9"
     },
     "stars": 2
   },
@@ -10264,5 +10333,201 @@
       "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30d9\u30b9\u30c8"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder",
+      "en": "Hemicyon Leather",
+      "fr": "Cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30ec\u30b6\u30fc"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Braies der Verteidigung",
+      "en": "Hemiskin Brais of Fending",
+      "fr": "Brailles de protecteur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d6\u30ec\u30fc"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Braies des Verst\u00fcmmelns",
+      "en": "Hemiskin Brais of Maiming",
+      "fr": "Brailles d'abatteur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d6\u30ec\u30fc"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Handschuhe des Zielens",
+      "en": "Hemiskin Gloves of Aiming",
+      "fr": "Gants de pisteur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Handschuhe des Sp\u00e4hens",
+      "en": "Hemiskin Gloves of Scouting",
+      "fr": "Gants d'\u00e9claireur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30b9\u30ab\u30a6\u30c8\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Handschuhe des Schlagens",
+      "en": "Hemiskin Gloves of Striking",
+      "fr": "Gants d'agresseur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Leggins des Zielens",
+      "en": "Hemiskin Leggings of Aiming",
+      "fr": "Jambi\u00e8res de pisteur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30ec\u30ae\u30f3\u30b9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Leggins des Sp\u00e4hens",
+      "en": "Hemiskin Leggings of Scouting",
+      "fr": "Jambi\u00e8res d'\u00e9claireur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30b9\u30ab\u30a6\u30c8\u30ec\u30ae\u30f3\u30b9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Leggins des Schlagens",
+      "en": "Hemiskin Leggings of Striking",
+      "fr": "Jambi\u00e8res d'agresseur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ec\u30ae\u30f3\u30b9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Stiefel der Magie",
+      "en": "Hemiskin Open-toe Boots of Casting",
+      "fr": "Cuissardes \u00e0 bout ouvert d'incantateur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30aa\u30fc\u30d7\u30f3\u30d6\u30fc\u30c4"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Stiefel der Heilung",
+      "en": "Hemiskin Open-toe Boots of Healing",
+      "fr": "Cuissardes \u00e0 bout ouvert de soigneur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30d2\u30fc\u30e9\u30fc\u30aa\u30fc\u30d7\u30f3\u30d6\u30fc\u30c4"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Hose des Zielens",
+      "en": "Hemiskin Trousers of Aiming",
+      "fr": "Pantalon de pisteur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Hose des Sp\u00e4hens",
+      "en": "Hemiskin Trousers of Scouting",
+      "fr": "Pantalon d'\u00e9claireur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30b9\u30ab\u30a6\u30c8\u30c8\u30e9\u30a6\u30b6\u30fc"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Hemicyonleder-Hose des Schlagens",
+      "en": "Hemiskin Trousers of Striking",
+      "fr": "Pantalon d'agresseur en cuir d'hemicyon",
+      "ja": "\u30d8\u30df\u30ad\u30aa\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30c8\u30e9\u30a6\u30b6\u30fc"
+    },
+    "stars": 4
   }
 ]

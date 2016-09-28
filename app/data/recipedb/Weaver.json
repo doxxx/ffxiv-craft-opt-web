@@ -2125,10 +2125,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Weber-Projektionsprisma I",
-      "en": "Grade 1 Glamour Prism (Clothcraft)",
-      "fr": "Prisme mirage I (couture)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G1:\u30cb\u30fc\u30c9\u30eb\u30ef\u30fc\u30af"
+      "de": "Weber-Projektionsprisma",
+      "en": "Glamour Prism (Clothcraft)",
+      "fr": "Prisme mirage (couture)",
+      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0:\u30cb\u30fc\u30c9\u30eb\u30ef\u30fc\u30af"
     }
   },
   {
@@ -2766,6 +2766,32 @@
       "en": "Chirurgeon's Curtain",
       "fr": "Paravent m\u00e9dical",
       "ja": "\u30bb\u30e9\u30d4\u30fc\u30ab\u30fc\u30c6\u30f3"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Jungpfadfinder-Hemd",
+      "en": "Extreme Survival Shirt",
+      "fr": "Chemise de baroudeur de l'extr\u00eame",
+      "ja": "\u30a8\u30af\u30b9\u30c8\u30ea\u30fc\u30e0\u30fb\u30b5\u30d0\u30a4\u30d0\u30fc\u30b7\u30e3\u30c4"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "de": "Jungpfadfinder-Beinlinge",
+      "en": "Extreme Survival Slops",
+      "fr": "Demi-trousses de baroudeur de l'extr\u00eame",
+      "ja": "\u30a8\u30af\u30b9\u30c8\u30ea\u30fc\u30e0\u30fb\u30b5\u30d0\u30a4\u30d0\u30fc\u30b9\u30ed\u30c3\u30d7"
     }
   },
   {
@@ -4962,6 +4988,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 624,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Kammgarnteppich",
+      "en": "Combed Wool Rug",
+      "fr": "Tapis de laine peign\u00e9e",
+      "ja": "\u30b3\u30fc\u30e0\u30c9\u30a6\u30fc\u30eb\u30e9\u30b0"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 195,
     "durability": 80,
     "level": 55,
@@ -6521,6 +6561,48 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
+      "de": "Federschmuck der Neuen Welt",
+      "en": "New World Headdress",
+      "fr": "Coiffe du Nouveau Monde",
+      "ja": "\u30cb\u30e5\u30fc\u30ef\u30fc\u30eb\u30c9\u30fb\u30d8\u30c3\u30c9\u30c9\u30ec\u30b9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Hose der Neuen Welt",
+      "en": "New World Hose",
+      "fr": "Fuseau du Nouveau Monde",
+      "ja": "\u30cb\u30e5\u30fc\u30ef\u30fc\u30eb\u30c9\u30fb\u30db\u30fc\u30ba"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "de": "Tunika der Neuen Welt",
+      "en": "New World Jacket",
+      "fr": "Tunique du Nouveau Monde",
+      "ja": "\u30cb\u30e5\u30fc\u30ef\u30fc\u30eb\u30c9\u30fb\u30b8\u30e3\u30b1\u30c3\u30c8"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
       "de": "Hochwertiger Antikstoff",
       "en": "Perfect Cloth",
       "fr": "\u00c9toffe antique parfaite",
@@ -7756,6 +7838,19 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
+      "de": "Ramien-Haube",
+      "en": "Ramie Hood",
+      "fr": "Capuche en ramie",
+      "ja": "\u30e9\u30df\u30fc\u30d5\u30fc\u30c9"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
       "de": "Ramien-Kecks",
       "en": "Ramie Kecks",
       "fr": "B\u00e9nard en ramie",
@@ -7782,6 +7877,19 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
+      "de": "Ramien-Poncho",
+      "en": "Ramie Poncho",
+      "fr": "Poncho en ramie",
+      "ja": "\u30e9\u30df\u30fc\u30dd\u30f3\u30c1\u30e7"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
       "de": "Ramien-Robe der Magie",
       "en": "Ramie Robe of Casting",
       "fr": "Robe d'incantateur en ramie",
@@ -7799,6 +7907,19 @@
       "en": "Ramie Robe of Healing",
       "fr": "Robe de soigneur en ramie",
       "ja": "\u30e9\u30df\u30fc\u30d2\u30fc\u30e9\u30fc\u30ed\u30fc\u30d6"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 697,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 6301,
+    "name": {
+      "de": "Ramien-Beinlinge",
+      "en": "Ramie Slops",
+      "fr": "Trousses en ramie",
+      "ja": "\u30e9\u30df\u30fc\u30b9\u30ed\u30c3\u30d7"
     }
   },
   {
@@ -8602,6 +8723,48 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
+      "de": "Kaschmir-Haube",
+      "en": "Cashmere Hood",
+      "fr": "Capuche en cachemire",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30d5\u30fc\u30c9"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Kaschmir-Poncho",
+      "en": "Cashmere Poncho",
+      "fr": "Poncho en cachemire",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30dd\u30f3\u30c1\u30e7"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Kaschmir-Beinlinge",
+      "en": "Cashmere Slops",
+      "fr": "Trousses en cachemire",
+      "ja": "\u30ab\u30b7\u30df\u30e4\u30b9\u30ed\u30c3\u30d7"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
       "de": "Ritterwams der Magie",
       "en": "Chivalric Doublet of Casting",
       "fr": "Doublet d'incantateur chevaleresque",
@@ -9012,6 +9175,20 @@
       "en": "Astral Silk Gloves of Healing",
       "fr": "Gants de soigneur en soie astrale",
       "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30b7\u30eb\u30af\u30fb\u30d2\u30fc\u30e9\u30fc\u30c9\u30ec\u30b9\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Astralseiden-Robe",
+      "en": "Astral Silk Robe",
+      "fr": "Robe en soie astrale",
+      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30b7\u30eb\u30af\u30ed\u30fc\u30d6"
     },
     "stars": 2
   },
@@ -9820,6 +9997,34 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
+      "de": "Brina-Stoffpuppe",
+      "en": "Stuffed Brina",
+      "fr": "Peluche de Brina",
+      "ja": "\u30d6\u30ea\u30fc\u30ca\u306e\u306c\u3044\u3050\u308b\u307f"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Calco-Stoffpuppe",
+      "en": "Stuffed Calca",
+      "fr": "Peluche de Calca",
+      "ja": "\u30ab\u30eb\u30b3\u306e\u306c\u3044\u3050\u308b\u307f"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
       "de": "Ritter Aubergine-Puppe",
       "en": "Stuffed Eggplant Knight",
       "fr": "Chevalier aubergine en peluche",
@@ -10246,5 +10451,201 @@
       "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30b9\u30ed\u30c3\u30d7"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt",
+      "en": "Star Velvet",
+      "fr": "Velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Hose der Magie",
+      "en": "Star Velvet Bottoms of Casting",
+      "fr": "Bas-de-corps d'incantateur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30dc\u30c8\u30e0"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Hose der Heilung",
+      "en": "Star Velvet Bottoms of Healing",
+      "fr": "Bas-de-corps de soigneur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30d2\u30fc\u30e9\u30fc\u30dc\u30c8\u30e0"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Himation der Magie",
+      "en": "Star Velvet Himation of Casting",
+      "fr": "Himation d'incantateur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30d2\u30de\u30c6\u30a3\u30aa\u30f3"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Himation der Heilung",
+      "en": "Star Velvet Himation of Healing",
+      "fr": "Himation de soigneur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30d2\u30fc\u30e9\u30fc\u30d2\u30de\u30c6\u30a3\u30aa\u30f3"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Haube der Magie",
+      "en": "Star Velvet Hood of Casting",
+      "fr": "Capuche d'incantateur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30d5\u30fc\u30c9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Haube der Heilung",
+      "en": "Star Velvet Hood of Healing",
+      "fr": "Capuche de soigneur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30d2\u30fc\u30e9\u30fc\u30d5\u30fc\u30c9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Armstulpen der Magie",
+      "en": "Star Velvet Long Gloves of Casting",
+      "fr": "Passe-coudes d'incantateur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30ed\u30f3\u30b0\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Armstulpen der Heilung",
+      "en": "Star Velvet Long Gloves of Healing",
+      "fr": "Passe-coudes de soigneur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30d2\u30fc\u30e9\u30fc\u30ed\u30f3\u30b0\u30b0\u30ed\u30fc\u30d6"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Sch\u00e4rpe der Magie",
+      "en": "Star Velvet Sash of Casting",
+      "fr": "\u00c9charpe d'incantateur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30b5\u30c3\u30b7\u30e5"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Sch\u00e4rpe der Heilung",
+      "en": "Star Velvet Sash of Healing",
+      "fr": "\u00c9charpe de soigneur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30d2\u30fc\u30e9\u30fc\u30b5\u30c3\u30b7\u30e5"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Waffenrock des Zielens",
+      "en": "Star Velvet Tabard of Aiming",
+      "fr": "Tabard de pisteur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30bf\u30d0\u30fc\u30c9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Waffenrock des Sp\u00e4hens",
+      "en": "Star Velvet Tabard of Scouting",
+      "fr": "Tabard d'\u00e9claireur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30b9\u30ab\u30a6\u30c8\u30bf\u30d0\u30fc\u30c9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Sternensamt-Waffenrock des Schlagens",
+      "en": "Star Velvet Tabard of Striking",
+      "fr": "Tabard d'agresseur en velours \u00e9toil\u00e9",
+      "ja": "\u30b9\u30bf\u30fc\u30d3\u30ed\u30fc\u30c9\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30bf\u30d0\u30fc\u30c9"
+    },
+    "stars": 4
   }
 ]

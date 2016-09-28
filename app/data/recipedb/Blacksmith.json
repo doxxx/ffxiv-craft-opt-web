@@ -2216,10 +2216,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Grobschmiede-Projektionsprisma I",
-      "en": "Grade 1 Glamour Prism (Smithing)",
-      "fr": "Prisme mirage I (m\u00e9tallurgie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G1:\u30b9\u30df\u30b7\u30f3\u30b0"
+      "de": "Grobschmiede-Projektionsprisma",
+      "en": "Glamour Prism (Smithing)",
+      "fr": "Prisme mirage (m\u00e9tallurgie)",
+      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0:\u30b9\u30df\u30b7\u30f3\u30b0"
     }
   },
   {
@@ -7238,6 +7238,96 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Kriegsaxt der Kolonie",
+      "en": "Dead Hive Battleaxe",
+      "fr": "Hache de combat du Ma\u00eetre des lames",
+      "ja": "\u30cf\u30a4\u30f4\u30d0\u30c8\u30eb\u30a2\u30af\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Klauen der Kolonie",
+      "en": "Dead Hive Claws",
+      "fr": "Griffes du Ma\u00eetre des lames",
+      "ja": "\u30cf\u30a4\u30f4\u30af\u30ed\u30fc"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Claymore der Kolonie",
+      "en": "Dead Hive Claymore",
+      "fr": "Claymore du Ma\u00eetre des lames",
+      "ja": "\u30cf\u30a4\u30f4\u30af\u30ec\u30a4\u30e2\u30a2"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Krise der Kolonie",
+      "en": "Dead Hive Kris",
+      "fr": "Kriss du Ma\u00eetre des lames",
+      "ja": "\u30cf\u30a4\u30f4\u30af\u30ea\u30b9"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Muskete der Kolonie",
+      "en": "Dead Hive Musketoon",
+      "fr": "Mousqueton du Ma\u00eetre des lames",
+      "ja": "\u30cf\u30a4\u30f4\u30de\u30b9\u30b1\u30c8\u30f3"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "de": "Shamshir der Kolonie",
+      "en": "Dead Hive Shamshir",
+      "fr": "Shamshir du Ma\u00eetre des lames",
+      "ja": "\u30cf\u30a4\u30f4\u30b7\u30e3\u30e0\u30b7\u30fc\u30eb"
+    },
+    "stars": 2
+  },
+  {
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -7399,6 +7489,20 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Gubal-Standleuchte",
+      "en": "Great Gubal Floor Lamp",
+      "fr": "Lampadaire de Gubal",
+      "ja": "\u30b0\u30d6\u30e9\u30d5\u30ed\u30a2\u30e9\u30f3\u30d7"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
     "level": 170,
@@ -7450,6 +7554,20 @@
       "en": "High Mythrite Nugget",
       "fr": "P\u00e9pite de mithrite noble",
       "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30ca\u30b2\u30c3\u30c8"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Marionettenlampe",
+      "en": "Mammet Lantern",
+      "fr": "Lanterne pantin",
+      "ja": "\u30de\u30e1\u30c3\u30c8\u30e9\u30f3\u30bf\u30f3"
     },
     "stars": 2
   },
@@ -7539,6 +7657,48 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Axt der Runde",
+      "en": "Axe of the Round",
+      "fr": "Hache de la Table ronde",
+      "ja": "\u30a2\u30af\u30b9\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Claymore der Runde",
+      "en": "Claymore of the Round",
+      "fr": "Claymore de la Table ronde",
+      "ja": "\u30af\u30ec\u30a4\u30e2\u30a2\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Dolche der Runde",
+      "en": "Daggers of the Round",
+      "fr": "Dagues de la Table ronde",
+      "ja": "\u30c0\u30ac\u30fc\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
     "level": 180,
@@ -7548,6 +7708,20 @@
       "en": "Eikon Iron Lapidary Hammer",
       "fr": "Marteau de lapidaire en fer primordial",
       "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30e9\u30d4\u30c0\u30ea\u30fc\u30cf\u30f3\u30de\u30fc"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Muskete der Runde",
+      "en": "Fire of the Round",
+      "fr": "Feu de la Table ronde",
+      "ja": "\u30d5\u30a1\u30a4\u30a2\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
     },
     "stars": 3
   },
@@ -7758,6 +7932,20 @@
       "en": "High Mythrite Sledgehammer",
       "fr": "Maillet en mithrite noble",
       "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30e2\u30fc\u30eb"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Schlagringe der Runde",
+      "en": "Knuckles of the Round",
+      "fr": "Poings de la Table ronde",
+      "ja": "\u30ca\u30c3\u30af\u30eb\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
     },
     "stars": 3
   },
@@ -7984,5 +8172,117 @@
       "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30b9\u30d4\u30a2"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "de": "Schwert der Runde",
+      "en": "Sword of the Round",
+      "fr": "\u00c9p\u00e9e de la Table ronde",
+      "ja": "\u30bd\u30fc\u30c9\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Klauen",
+      "en": "Heavy Metal Claws",
+      "fr": "Griffes en alliage de tungst\u00e8ne",
+      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30af\u30ed\u30fc"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Kalverine",
+      "en": "Heavy Metal Culverin",
+      "fr": "Couleuvrine en alliage de tungst\u00e8ne",
+      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30ab\u30eb\u30d0\u30ea\u30f3"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Dolche",
+      "en": "Heavy Metal Daggers",
+      "fr": "Dagues en alliage de tungst\u00e8ne",
+      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30c0\u30ac\u30fc"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Gro\u00dfschwert",
+      "en": "Heavy Metal Greatsword",
+      "fr": "Grande \u00e9p\u00e9e en alliage de tungst\u00e8ne",
+      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30b0\u30ec\u30fc\u30c8\u30bd\u30fc\u30c9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Barren",
+      "en": "Heavy Metal Ingot",
+      "fr": "Lingot d'alliage de tungst\u00e8ne",
+      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30a4\u30f3\u30b4\u30c3\u30c8"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Langschwert",
+      "en": "Heavy Metal Longsword",
+      "fr": "\u00c9p\u00e9e en alliage de tungst\u00e8ne",
+      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30ed\u30f3\u30b0\u30bd\u30fc\u30c9"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Schwermetall-Kriegsaxt",
+      "en": "Heavy Metal War Axe",
+      "fr": "Hache de guerre en alliage de tungst\u00e8ne",
+      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30a6\u30a9\u30fc\u30a2\u30af\u30b9"
+    },
+    "stars": 4
   }
 ]
