@@ -1773,7 +1773,7 @@ var Ing2RecipeLevelTable = {
     160: 150,   // 60_1star
     170: 151.15, // 60_2star
     180: 152.225, // 60_3star
-    190: 153.335 // 60_4star
+    190: 153.315 // 60_4star
 };
 
 var NymeaisWheelTable = {
