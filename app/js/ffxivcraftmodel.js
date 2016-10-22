@@ -298,7 +298,7 @@ function calcNameOfMultiplier(s) {
     /* From http://redd.it/3ejmp2 and http://redd.it/3d3meb
      Assume for now that the function is linear, but capped with a minimum of 110%
      */
-    var nameOfMultiplier = -2 * (s.progressState / s.synth.recipe.difficulty) + 3;
+    var nameOfMultiplier = -2 * (s.progressState / s.synth.recipe.difficulty) + 3.02;
     nameOfMultiplier = Math.max(nameOfMultiplier, 1.1);
 
     return nameOfMultiplier;
@@ -1739,7 +1739,8 @@ var Ing1RecipeLevelTable = {
     148: 139,   // 59
     150: 140,   // 60
     160: 151,   // 60_1star
-    170: 151.15 // 60_2star (no data)
+    170: 151.15, // 60_2star (no data)
+    180: 152.7  // 60_3star
 };
 
 var Ing2RecipeLevelTable = {
@@ -1770,7 +1771,9 @@ var Ing2RecipeLevelTable = {
     148: 136,   // 59
     150: 139,   // 60
     160: 150,   // 60_1star
-    170: 151.15 // 60_2star
+    170: 151.15, // 60_2star
+    180: 152.235, // 60_3star
+    190: 153.31 // 60_4star
 };
 
 var NymeaisWheelTable = {
