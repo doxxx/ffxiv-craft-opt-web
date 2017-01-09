@@ -1739,7 +1739,9 @@ var Ing1RecipeLevelTable = {
     148: 139,   // 59
     150: 140,   // 60
     160: 151,   // 60_1star
-    170: 151.15 // 60_2star (no data)
+    170: 152.085, // 60_2star
+    180: 153.185, // 60_3star
+    190: 154.275 // 60_4star
 };
 
 var Ing2RecipeLevelTable = {
@@ -1770,7 +1772,9 @@ var Ing2RecipeLevelTable = {
     148: 136,   // 59
     150: 139,   // 60
     160: 150,   // 60_1star
-    170: 151.15 // 60_2star
+    170: 151.115, // 60_2star
+    180: 152.215, // 60_3star
+    190: 153.305 // 60_4star
 };
 
 var NymeaisWheelTable = {
