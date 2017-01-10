@@ -2,7 +2,7 @@
   <h3>Character Import</h3>
 </div>
 
-<div class="modal-body" isolate-scrolling>
+<div class="modal-body">
 
   <form class="form-inline" name="searchForm">
     <select class="input-medium" ng-model="searchVars.server" ng-options="server for server in servers"></select>
@@ -13,52 +13,54 @@
 
   <alert ng-repeat="error in searchErrors track by $index" type="error" close="dismissSearchError($index)">{{error}}</alert>
 
-  <div class="row-fluid charimport-results" ng-show="results">
-    <div class="row-fluid charimport-result"
-         ng-class="{'selected': $index===selected}"
-         ng-click="selectResult($index)"
-         ng-repeat="result in results | orderBy:'name' track by $index">
-      <div class="span9">
-        <div>
-          <span class="span12 charimport-result-name">{{result.name}}</span>
+  <div class="row-fluid" ng-show="results">
+    <div class="container-fluid charimport-results" isolate-scrolling>
+      <div class="row-fluid charimport-result"
+          ng-class="{'selected': $index===selected}"
+          ng-click="selectResult($index)"
+          ng-repeat="result in results | orderBy:'name' track by $index">
+        <div class="span9">
+          <div>
+            <span class="span12 charimport-result-name">{{result.name}}</span>
+          </div>
+          <div>
+            <div ng-if="chars[result.id].loading">
+              <i class="fa fa-spinner fa-pulse"></i>
+            </div>
+            <div class="text-error" ng-if="chars[result.id].error">
+              <p><i class="fa fa-warning"></i> No data available!</p>
+            </div>
+            <div ng-if="!chars[result.id].loading && !chars[result.id].error">
+              <table>
+                <tr>
+                  <th></th>
+                  <th ng-repeat="classInfo in chars[result.id].classes">
+                    <img ng-src="img/classes/{{classInfo.name}}.png" tooltip="Last updated {{classInfo.lastUpdated}}"/>
+                  </th>
+                </tr>
+                <tr>
+                  <td>Level</td>
+                  <td ng-repeat="classInfo in chars[result.id].classes" class="number">{{classInfo.level}}</td>
+                </tr>
+                <tr>
+                  <td>Craftsmanship</td>
+                  <td ng-repeat="classInfo in chars[result.id].classes" class="number" ng-class="{'text-warning':classInfo.craftsmanship === 0}">{{classInfo.craftsmanship}}</td>
+                </tr>
+                <tr>
+                  <td>Control</td>
+                  <td ng-repeat="classInfo in chars[result.id].classes" class="number" ng-class="{'text-warning':classInfo.control === 0}">{{classInfo.control}}</td>
+                </tr>
+                <tr>
+                  <td>CP</td>
+                  <td ng-repeat="classInfo in chars[result.id].classes" class="number" ng-class="{'text-warning':classInfo.cp === 0}">{{classInfo.cp}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
-        <div>
-          <div ng-if="chars[result.id].loading">
-            <i class="fa fa-spinner fa-pulse"></i>
-          </div>
-          <div class="text-error" ng-if="chars[result.id].error">
-            <p><i class="fa fa-warning"></i> No data available!</p>
-          </div>
-          <div ng-if="!chars[result.id].loading && !chars[result.id].error">
-            <table>
-              <tr>
-                <th></th>
-                <th ng-repeat="classInfo in chars[result.id].classes">
-                  <img ng-src="img/classes/{{classInfo.name}}.png" tooltip="Last updated {{classInfo.lastUpdated}}"/>
-                </th>
-              </tr>
-              <tr>
-                <td>Level</td>
-                <td ng-repeat="classInfo in chars[result.id].classes" class="number">{{classInfo.level}}</td>
-              </tr>
-              <tr>
-                <td>Craftsmanship</td>
-                <td ng-repeat="classInfo in chars[result.id].classes" class="number" ng-class="{'text-warning':classInfo.craftsmanship === 0}">{{classInfo.craftsmanship}}</td>
-              </tr>
-              <tr>
-                <td>Control</td>
-                <td ng-repeat="classInfo in chars[result.id].classes" class="number" ng-class="{'text-warning':classInfo.control === 0}">{{classInfo.control}}</td>
-              </tr>
-              <tr>
-                <td>CP</td>
-                <td ng-repeat="classInfo in chars[result.id].classes" class="number" ng-class="{'text-warning':classInfo.cp === 0}">{{classInfo.cp}}</td>
-              </tr>
-            </table>
-          </div>
+        <div class="span3">
+          <img ng-src="{{result.icon}}"/>
         </div>
-      </div>
-      <div class="span3">
-        <img ng-src="{{result.icon}}"/>
       </div>
     </div>
   </div>
