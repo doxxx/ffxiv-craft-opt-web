@@ -17,7 +17,7 @@
     <div class="row-fluid charimport-result"
          ng-class="{'selected': $index===selected}"
          ng-click="selectResult($index)"
-         ng-repeat="result in results track by $index">
+         ng-repeat="result in results | orderBy:'name' track by $index">
       <div class="span9">
         <div>
           <span class="span12 charimport-result-name">{{result.name}}</span>
