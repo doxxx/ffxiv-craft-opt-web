@@ -31,9 +31,9 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CharImportController'
     });
   };
 
-  $scope.selectResult = function (index) {
-    $scope.selected = index;
-    $scope.selectedChar = $scope.chars[$scope.results[index].id];
+  $scope.selectResult = function (id) {
+    $scope.selected = id;
+    $scope.selectedChar = $scope.chars[id];
   };
 
   $scope.dismissSearchError = function (index) {

@@ -16,8 +16,8 @@
   <div class="row-fluid" ng-show="results">
     <div class="container-fluid charimport-results" isolate-scrolling>
       <div class="row-fluid charimport-result"
-          ng-class="{'selected': $index===selected}"
-          ng-click="selectResult($index)"
+          ng-class="{'selected': result.id===selected}"
+          ng-click="selectResult(result.id)"
           ng-repeat="result in results | orderBy:'name' track by $index">
         <div class="span9">
           <div>
