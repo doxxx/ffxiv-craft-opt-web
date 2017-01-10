@@ -29,7 +29,7 @@
           <div class="text-error" ng-if="chars[result.id].error">
             <p><i class="fa fa-warning"></i> No data available!</p>
           </div>
-          <div ng-if="!chars[result.id].error">
+          <div ng-if="!chars[result.id].loading && !chars[result.id].error">
             <table>
               <tr>
                 <th></th>
