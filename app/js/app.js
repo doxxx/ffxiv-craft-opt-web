@@ -14,7 +14,7 @@ angular.module('ffxivCraftOptWeb', [
   'ffxivCraftOptWeb.services.solver',
   'ffxivCraftOptWeb.services.translateLocalStorage',
   'ffxivCraftOptWeb.services.xivdbtooltips',
-  'ffxivCraftOptWeb.services.xivsync',
+  'ffxivCraftOptWeb.services.xivdb',
   'ffxivCraftOptWeb.directives',
   'ffxivCraftOptWeb.filters',
   'ffxivCraftOptWeb.controllers',

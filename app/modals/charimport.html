@@ -29,12 +29,12 @@
           <div class="text-error" ng-if="chars[result.id].error">
             <p><i class="fa fa-warning"></i> No data available!</p>
           </div>
-          <div ng-if="chars[result.id].id">
+          <div ng-if="!chars[result.id].error">
             <table>
               <tr>
                 <th></th>
                 <th ng-repeat="classInfo in chars[result.id].classes">
-                  <img ng-src="img/classes/{{classInfo.name}}.png"/>
+                  <img ng-src="img/classes/{{classInfo.name}}.png" tooltip="Last updated {{classInfo.lastUpdated}}"/>
                 </th>
               </tr>
               <tr>
@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="span3">
-        <img ng-src="{{result.avatar}}"/>
+        <img ng-src="{{result.icon}}"/>
       </div>
     </div>
   </div>
@@ -66,6 +66,6 @@
 </div>
 
 <div class="modal-footer">
-  <button class="btn btn-primary" ng-click="import()" ng-disabled="!selectedChar.ok">Import</button>
+  <button class="btn btn-primary" ng-click="import()" ng-disabled="!selectedChar || selectedChar.error">Import</button>
   <button class="btn" ng-click="cancel()">Cancel</button>
 </div>

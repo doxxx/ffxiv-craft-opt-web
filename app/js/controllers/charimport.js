@@ -1,7 +1,7 @@
 "use strict";
 
-angular.module('ffxivCraftOptWeb.controllers').controller('CharImportController', function ($scope, $modalInstance, $timeout, _xivsync) {
-  $scope.servers = _xivsync.getServers();
+angular.module('ffxivCraftOptWeb.controllers').controller('CharImportController', function ($scope, $modalInstance, $timeout, _xivdb) {
+  $scope.servers = _xivdb.getServers();
   $scope.searchVars = {
     server: $scope.servers[0],
     name: ""
@@ -14,7 +14,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CharImportController'
     delete $scope.results;
     delete $scope.selected;
 
-    _xivsync.search($scope.searchVars.name, $scope.searchVars.server).then(function (results) {
+    _xivdb.search($scope.searchVars.name, $scope.searchVars.server).then(function (results) {
       console.log(results);
 
       $scope.results = results;
@@ -55,9 +55,11 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CharImportController'
   };
 
   function loadCharacter(id) {
-    var promise = _xivsync.getCharacter(id).then(function (char) {
+    var promise = _xivdb.getCharacter(id).then(function (char) {
       console.log("Found character data:", char);
-      char.ok = true;
+      if (Object.keys(char.classes).length == 0) {
+        char.error = "No data"
+      }
       $scope.chars[id] = char;
     }, function (err) {
       console.log("No data available for character ID ", id);

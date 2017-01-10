@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsController', function ($scope, $modal, _allClasses, _allActions, _xivsync) {
+angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsController', function ($scope, $modal, _allClasses, _allActions, _xivdb) {
   // Initialize tab names and initial active state
   $scope.tabs = [];
   for (var i = 0; i < _allClasses.length; i++) {
@@ -80,7 +80,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('CrafterStatsControlle
 
     $scope.refreshing = true;
 
-    _xivsync.getCharacter($scope.lodestoneID).then(function (result) {
+    _xivdb.getCharacter($scope.lodestoneID).then(function (result) {
       $scope.importCharacter(result);
     }, function (err) {
       console.error(err);
