@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var MAX_LINES = 14;
+  var MAX_LINES = 15;
 
   angular
     .module('ffxivCraftOptWeb.components')
@@ -84,20 +84,31 @@
       var macroList = [];
 
       var macroString = '';
+      var macroLineCount = 0;
+      var macroIndex = 1;
+
       for (var j = 0; j < lines.length; j++) {
         macroString += lines[j];
-        var step = j + 1;
-        if (step % MAX_LINES === 0) {
-          macroString += '/echo Macro #' + step / MAX_LINES + ' complete ' + stepSoundEffect + '\n';
-          macroList.push(macroString);
-          macroString = '';
+        macroLineCount += 1;
+
+        if (macroLineCount == MAX_LINES-1) {
+          if (lines.length - (j + 1) > 1) {
+            macroString += '/echo Macro #' + macroIndex + ' complete ' + stepSoundEffect + '\n';
+            macroList.push(macroString);
+            macroString = '';
+            macroLineCount = 0;
+            macroIndex += 1;
+          }
         }
       }
 
-      if (macroString !== '') {
-        macroString += '/echo Macro #' + Math.ceil(lines.length / MAX_LINES) + ' complete ' + finishSoundEffect + '\n';
+      if (macroLineCount > 0) {
+        if (macroLineCount < MAX_LINES) {
+          macroString += '/echo Macro #' + macroIndex + ' complete ' + finishSoundEffect + '\n';
+        }
         macroList.push(macroString)
       }
+
       return macroList;
     }
   }
