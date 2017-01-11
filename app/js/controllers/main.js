@@ -161,7 +161,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
       var settings = $scope.profile.loadSynth(name);
 
-      $scope.bonusStats = extend(newBonusStats(), settings.bonusStats);
+      $scope.bonusStats = angular.extend(newBonusStats(), settings.bonusStats);
       $scope.recipe = settings.recipe;
       $scope.sequence = settings.sequence;
 
@@ -184,7 +184,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       var settings = {};
 
       settings.name = $scope.settings.name;
-      settings.bonusStats = extend(newBonusStats(), $scope.bonusStats);
+      settings.bonusStats = angular.extend(newBonusStats(), $scope.bonusStats);
       settings.recipe = $scope.recipe;
       settings.sequence = $scope.sequence;
 
@@ -296,7 +296,7 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         }
       });
       modalInstance.result.then(function (result) {
-        extend($scope, result);
+        angular.extend($scope, result);
       });
     };
 
@@ -367,12 +367,12 @@ function loadLocalPageState_v2($scope) {
 
   var state = JSON.parse(localStorage['pageStage_v2']);
 
-  extend($scope.sections, state.sections);
-  extend($scope.bonusStats, state.bonusStats);
-  extend($scope.recipe, state.recipe);
-  extend($scope.sequenceSettings, state.sequenceSettings);
-  extend($scope.solver, state.solver);
-  extend($scope.macroOptions, state.macroOptions || {});
+  angular.extend($scope.sections, state.sections);
+  angular.extend($scope.bonusStats, state.bonusStats);
+  angular.extend($scope.recipe, state.recipe);
+  angular.extend($scope.sequenceSettings, state.sequenceSettings);
+  angular.extend($scope.solver, state.solver);
+  angular.extend($scope.macroOptions, state.macroOptions || {});
 
   $scope.sequence = state.sequence;
 
@@ -385,7 +385,7 @@ function loadLocalPageState_v2($scope) {
 function loadLocalPageState_v1($scope) {
   var sections = localStorage['sections'];
   if (sections) {
-    extend($scope.sections, JSON.parse(sections));
+    angular.extend($scope.sections, JSON.parse(sections));
   }
 
   if (localStorage['settingsName']) {
@@ -398,12 +398,12 @@ function loadLocalPageState_v1($scope) {
 
   var bonusStats = localStorage['settings.bonusStats'];
   if (bonusStats) {
-    extend($scope.bonusStats, JSON.parse(bonusStats));
+    angular.extend($scope.bonusStats, JSON.parse(bonusStats));
   }
 
   var recipe = localStorage['settings.recipe'];
   if (recipe) {
-    extend($scope.recipe, JSON.parse(recipe));
+    angular.extend($scope.recipe, JSON.parse(recipe));
   }
 
   var sequence = localStorage['settings.sequence'];
@@ -413,12 +413,12 @@ function loadLocalPageState_v1($scope) {
 
   var sequenceSettings = localStorage['settings.sequenceSettings'];
   if (sequenceSettings) {
-    extend($scope.sequenceSettings, JSON.parse(sequenceSettings));
+    angular.extend($scope.sequenceSettings, JSON.parse(sequenceSettings));
   }
 
   var solver = localStorage['settings.solver'];
   if (solver) {
-    extend($scope.solver, JSON.parse(solver));
+    angular.extend($scope.solver, JSON.parse(solver));
   }
 
   return true;
@@ -443,64 +443,6 @@ function saveLocalPageState_v2($scope) {
 
   localStorage['pageStage_v2'] = JSON.stringify(state)
 }
-
-function extend(dest, src) {
-  if (dest === null || dest === undefined) {
-    dest = {};
-  }
-  if (src === null || src === undefined) {
-    src = {};
-  }
-  for (var p in src) {
-    if (src.hasOwnProperty(p)) {
-      var v = src[p];
-      if (v !== undefined && v !== null) {
-        var o = dest[p];
-        if (o === null || o === undefined) {
-          dest[p] = v;
-        }
-        else if (typeof o == 'object' && typeof v == 'object') {
-          extend(dest[p], v);
-        }
-        else {
-          dest[p] = v;
-        }
-      }
-    }
-  }
-  return dest;
-}
-
-// attach the .equals method to Array's prototype to call it on any array
-Array.prototype.equals = function (array) {
-  // if the other array is a falsy value, return
-  if (!array)
-    return false;
-
-  // compare lengths - can save a lot of time
-  if (this.length != array.length)
-    return false;
-
-  for (var i = 0, l = this.length; i < l; i++) {
-    // Check if we have nested arrays
-    if (this[i] instanceof Array && array[i] instanceof Array) {
-      // recurse into the nested arrays
-      if (!this[i].compare(array[i]))
-        return false;
-    }
-    else if (this[i] != array[i]) {
-      // Warning - two different object instances will never be equal: {x:20} != {x:20}
-      return false;
-    }
-  }
-  return true;
-};
-
-Array.prototype.unique = function () {
-  return this.filter(function (value, index, self) {
-    return self.indexOf(value) === index;
-  })
-};
 
 function newRecipeStats(cls) {
   return {
@@ -536,46 +478,3 @@ function addRecipeBonusStats(recipe, bonusStats) {
   return newStats;
 }
 
-// scrollIntoViewIfNeeded polyfill for Firefox and IE
-// Based on https://gist.github.com/hsablonniere/2581101
-if (!Element.prototype.scrollIntoViewIfNeeded) {
-  Element.prototype.scrollIntoViewIfNeeded = function (centerIfNeeded) {
-    centerIfNeeded = arguments.length === 0 ? true : !!centerIfNeeded;
-
-    var parent = this.parentNode,
-      parentComputedStyle = window.getComputedStyle(parent, null),
-      parentBorderTopWidth = parseInt(parentComputedStyle.getPropertyValue('border-top-width')),
-      parentBorderLeftWidth = parseInt(parentComputedStyle.getPropertyValue('border-left-width')),
-      overTop = this.offsetTop - parent.offsetTop < parent.scrollTop,
-      overBottom = (this.offsetTop - parent.offsetTop + this.clientHeight - parentBorderTopWidth) > (parent.scrollTop + parent.clientHeight),
-      overLeft = this.offsetLeft - parent.offsetLeft < parent.scrollLeft,
-      overRight = (this.offsetLeft - parent.offsetLeft + this.clientWidth - parentBorderLeftWidth) > (parent.scrollLeft + parent.clientWidth);
-
-    if (centerIfNeeded) {
-      if (overTop || overBottom) {
-        parent.scrollTop = this.offsetTop - parent.offsetTop - parent.clientHeight / 2 - parentBorderTopWidth + this.clientHeight / 2;
-      }
-
-      if (overLeft || overRight) {
-        parent.scrollLeft = this.offsetLeft - parent.offsetLeft - parent.clientWidth / 2 - parentBorderLeftWidth + this.clientWidth / 2;
-      }
-    }
-    else {
-      if (overTop) {
-        parent.scrollTop = this.offsetTop - parent.offsetTop - parentBorderTopWidth;
-      }
-
-      if (overBottom) {
-        parent.scrollTop = this.offsetTop - parent.offsetTop - parentBorderTopWidth - parent.clientHeight + this.clientHeight;
-      }
-
-      if (overLeft) {
-        parent.scrollLeft = this.offsetLeft - parent.offsetLeft - parentBorderLeftWidth;
-      }
-
-      if (overRight) {
-        parent.scrollLeft = this.offsetLeft - parent.offsetLeft - parentBorderLeftWidth - parent.clientWidth + this.clientWidth;
-      }
-    }
-  };
-}

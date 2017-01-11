@@ -29,7 +29,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
 {
 
   // Global page state
-  extend($scope.pageState, {
+  angular.extend($scope.pageState, {
   });
 
   // Local page state

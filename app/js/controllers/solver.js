@@ -4,7 +4,7 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
   // Global page state
   if (!$scope.pageState.solverStatus) {
-    extend($scope.pageState, {
+    angular.extend($scope.pageState, {
       solverStatus: {
         running: false,
         generationsCompleted: 0,
