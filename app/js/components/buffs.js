@@ -1,7 +1,11 @@
-'use strict';
+(function () {
+  'use strict';
 
-angular.module('ffxivCraftOptWeb.components')
-  .directive('buffs', function () {
+  angular
+    .module('ffxivCraftOptWeb.components')
+    .directive('buffs', factory);
+
+  function factory() {
     return {
       restrict: 'E',
       templateUrl: 'components/buffs.html',
@@ -9,27 +13,31 @@ angular.module('ffxivCraftOptWeb.components')
         effects: '=',
         recipe: '='
       },
-      controller: function ($scope, _getActionImagePath) {
-        $scope.getActionImagePath = _getActionImagePath;
-        
-        var update = function () {
-          $scope.buffs = [];
+      controller: controller
+    };
+  }
 
+  function controller($scope, _getActionImagePath) {
+    $scope.getActionImagePath = _getActionImagePath;
 
-          var effects = $scope.effects;
-          if (effects) {
-            for (var name in effects.countUps) {
-              $scope.buffs.push({name: name, count: effects.countUps[name] + 1});
-            }
-            for (var name in effects.countDowns) {
-              $scope.buffs.push({name: name, count: effects.countDowns[name]});
-            }
-          }
-        };
+    $scope.$watchCollection('effects', update);
 
-        $scope.$watchCollection('effects', update);
+    update();
 
-        update();
+    //////////////////////////////////////////////////////////////////////////
+
+    function update() {
+      $scope.buffs = [];
+
+      var effects = $scope.effects;
+      if (effects) {
+        for (var name in effects.countUps) {
+          $scope.buffs.push({name: name, count: effects.countUps[name] + 1});
+        }
+        for (var name in effects.countDowns) {
+          $scope.buffs.push({name: name, count: effects.countDowns[name]});
+        }
       }
     }
-  });
+  }
+})();
