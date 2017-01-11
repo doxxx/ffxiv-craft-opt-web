@@ -9,8 +9,9 @@ var languageIndex = {
 
 var hostnameRE = /\/\/xivdb\.com/;
 
-var XIVDBTooltips = function($http, _allActions, _allClasses, _actionsByName) {
-  this.$http = $http;
+var XIVDBTooltips = function($rootScope, $q, _allActions, _allClasses, _actionsByName) {
+  this.$rootScope = $rootScope;
+  this.$q = $q;
   this._allActions = _allActions;
   this._allClasses = _allClasses;
   this._actionsByName = _actionsByName;
@@ -18,55 +19,40 @@ var XIVDBTooltips = function($http, _allActions, _allClasses, _actionsByName) {
   this.actionTooltips = {};
 };
 
-XIVDBTooltips.$inject = ['$http', '_allActions', '_allClasses', '_actionsByName'];
+XIVDBTooltips.$inject = ['$rootScope', '$q', '_allActions', '_allClasses', '_actionsByName'];
 
 XIVDBTooltips.prototype.onLanguageChange = function (lang) {
-  console.log("XIVDBTooltips language -> ", lang);
-  this._buildTooltipsCache(lang);
+  this.langIndex = languageIndex[lang];
+  this._buildTooltipsCache();
 };
 
-XIVDBTooltips.prototype.actionTooltip = function (action, cls) {
-  if (!angular.isDefined(action)) {
-    console.error('undefined action param');
-    return 'Undefined!';
-  }
-  var info = this._actionsByName[action];
-  if (!angular.isDefined(info)) {
-    console.error('unknown action: %s', action);
-    return action;
-  }
-  var tooltipClass = info.cls;
-  if (tooltipClass == 'All') {
-    tooltipClass = cls;
-  }
-  var tooltip = this.actionTooltips[tooltipClass + action];
-  return tooltip ? tooltip : action.name;
-};
+XIVDBTooltips.prototype._fetch = function (cls, action) {
+  var baseURL = 'http://legacy.xivdb.com/modules/fpop/fpop.php?version=1.6';
 
-XIVDBTooltips.prototype._fetch = function (lang, cls, action) {
-  var url = 'http://legacy.xivdb.com/modules/fpop/fpop.php?version=1.6';
-  var config = {
-    params: {
-      lang: languageIndex[lang],
-      type: 'skill',
-      id: action.skillID[cls]
-    },
-    cls: cls,
-    action: action
+  // We can't use the $http module because each HTTP response triggers a digest update, which 
+  // causes significant lag when the app is loading because we're caching a couple hundred tooltips.
+  var deferred = this.$q.defer();
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+      deferred.resolve({
+        config: {
+          cls: cls,
+          action: action
+        },
+        data: xhr.response
+      });
+    }
   };
-  return this.$http.get(url, config);
+  xhr.responseType = "json";
+  xhr.open("GET", baseURL + '&lang=' + this.langIndex + '&type=skill&id=' + action.skillID[cls], true);
+  xhr.send();
+
+  return deferred.promise;
 };
 
-XIVDBTooltips.prototype._updateCache = function (data) {
-  var cls = data.config.cls;
-  var action = data.config.action;
-  var html = data.data.html;
-  html = html.replace(hostnameRE, '//legacy.xivdb.com');
-  this.actionTooltips[cls + action.shortName] = html;
-};
-
-XIVDBTooltips.prototype._buildTooltipsCache = function (lang) {
-  if (!lang) return;
+XIVDBTooltips.prototype._buildTooltipsCache = function () {
+  var fetches = [];
 
   for (var i = 0; i < this._allActions.length; i++) {
     var action = this._allActions[i];
@@ -74,14 +60,31 @@ XIVDBTooltips.prototype._buildTooltipsCache = function (lang) {
       if (action.cls == 'All') {
         for (var j = 0; j < this._allClasses.length; j++) {
           var cls = this._allClasses[j];
-          this._fetch(lang, cls, action).then(this._updateCache.bind(this));
+          fetches.push(this._fetch(cls, action));
         }
       }
       else {
-        this._fetch(lang, action.cls, action).then(this._updateCache.bind(this));
+        fetches.push(this._fetch(action.cls, action));
       }
     }
   }
+
+  this.$q.all(fetches).then(function(responses) {
+    var newTooltips = {};
+
+    for (var i = 0; i < responses.length; i++) {
+      var response = responses[i];
+      var cls = response.config.cls;
+      var action = response.config.action;
+      var html = response.data.html;
+      html = html.replace(hostnameRE, '//legacy.xivdb.com');
+      newTooltips[cls + action.shortName] = html;
+    }
+
+    this.actionTooltips = newTooltips;
+
+    this.$rootScope.$broadcast("tooltipCacheUpdated");
+  }.bind(this));
 }
 
 angular.module('ffxivCraftOptWeb.services.xivdbtooltips', []).

@@ -19,7 +19,28 @@ angular.module('ffxivCraftOptWeb.components')
 
         $scope.getActionImagePath = _getActionImagePath;
 
-        $scope.actionTooltip = _xivdbtooltips.actionTooltip.bind(_xivdbtooltips);
+        $scope.actionTooltips = {};
+        $scope.updateActionTooltips = function() {
+          var newTooltips = {};
+          angular.forEach(_actionsByName, function(actionInfo) {
+            var key;
+            if (actionInfo.cls != 'All') {
+              key = actionInfo.cls + actionInfo.shortName;
+            }
+            else {
+              key = $scope.cls + actionInfo.shortName;
+            }
+            newTooltips[actionInfo.shortName] = _xivdbtooltips.actionTooltips[key];
+          });
+          $scope.actionTooltips = newTooltips;
+        };
+        $scope.updateActionTooltips();
+        $scope.$on("tooltipCacheUpdated", function (event) {
+          $scope.updateActionTooltips();
+        });
+        $scope.$watch("cls", function (event) {
+          $scope.updateActionTooltips();
+        });
 
         $scope._actionClasses = function (action, cls, index) {
           var classes = {};

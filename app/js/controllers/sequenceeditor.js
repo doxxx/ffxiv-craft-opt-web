@@ -2,7 +2,7 @@
 
 angular.module('ffxivCraftOptWeb.controllers')
   .controller('SequenceEditorCtrl',
-  function ($scope, $http, $state, _actionGroups, _actionsByName, _simulator, _xivdbtooltips, _getActionImagePath)
+  function ($scope, $http, $state, _actionGroups, _actionsByName, _simulator, _getActionImagePath)
   {
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
@@ -61,8 +61,6 @@ angular.module('ffxivCraftOptWeb.controllers')
       return info.cls != 'All' &&
              info.cls != cls;
     };
-
-    $scope.actionTooltip = _xivdbtooltips.actionTooltip.bind(_xivdbtooltips);
 
     $scope.dropAction = function (dragEl, dropEl) {
       var drag = angular.element(dragEl);
