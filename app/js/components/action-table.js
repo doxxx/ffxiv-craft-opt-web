@@ -1,7 +1,11 @@
-'use strict';
+(function () {
+  'use strict';
 
-angular.module('ffxivCraftOptWeb.components')
-  .directive('actionTable', function () {
+  angular
+    .module('ffxivCraftOptWeb.components')
+    .directive('actionTable', factory);
+
+  function factory() {
     return {
       restrict: 'E',
       templateUrl: 'components/action-table.html',
@@ -13,57 +17,62 @@ angular.module('ffxivCraftOptWeb.components')
         draggable: '=',
         tooltipPlacement: '@'
       },
-      controller: function ($scope, $rootScope, $translate, _allActions, _allClasses, _actionGroups, _actionsByName, _xivdbtooltips, _getActionImagePath) {
-        $scope.actionGroups = _actionGroups;
-
-        $scope.getActionImagePath = _getActionImagePath;
-
-        $scope.actionTooltips = {};
-        $scope.updateActionTooltips = function() {
-          var newTooltips = {};
-          angular.forEach(_actionsByName, function(actionInfo) {
-            var key;
-            if (actionInfo.cls != 'All') {
-              key = actionInfo.cls + actionInfo.shortName;
-            }
-            else {
-              key = $scope.cls + actionInfo.shortName;
-            }
-            newTooltips[actionInfo.shortName] = _xivdbtooltips.actionTooltips[key];
-          });
-          $scope.actionTooltips = newTooltips;
-        };
-        $scope.updateActionTooltips();
-        $scope.$on("tooltipCacheUpdated", function (event) {
-          $scope.updateActionTooltips();
-        });
-        $scope.$watch("cls", function (event) {
-          $scope.updateActionTooltips();
-        });
-
-        $scope._actionClasses = function (action, cls) {
-          var classes = $scope.actionClasses(action, cls);
-          classes['selectable'] = $scope.selectable;
-          return classes;
-        };
-
-        $scope.actionForName = function (name) {
-          return _actionsByName[name];
-        };
-
-        $scope.isActionCrossClass = function (action, cls) {
-          if (!angular.isDefined(action)) {
-            console.error('undefined actionName');
-            return undefined;
-          }
-          var info = _actionsByName[action];
-          if (!angular.isDefined(info)) {
-            console.error('unknown action: %s', action);
-            return undefined;
-          }
-          return info.cls != 'All' &&
-                 info.cls != cls;
-        };
-      }
+      controller: controller
     }
-  });
+  }
+
+  function controller($scope, _actionGroups, _actionsByName, _xivdbtooltips, _getActionImagePath) {
+    $scope.actionGroups = _actionGroups;
+    $scope.getActionImagePath = _getActionImagePath;
+    $scope.cssClassesForAction = cssClassesForAction;
+    $scope.actionForName = actionForName;
+    $scope.isActionCrossClass = isActionCrossClass;
+
+    $scope.actionTooltips = {};
+
+    $scope.$on("tooltipCacheUpdated", updateActionTooltips);
+    $scope.$watch("cls", updateActionTooltips);
+
+    updateActionTooltips();
+
+    //////////////////////////////////////////////////////////////////////////
+
+    function updateActionTooltips() {
+      var newTooltips = {};
+      angular.forEach(_actionsByName, function (action) {
+        var key;
+        if (action.cls != 'All') {
+          key = action.cls + action.shortName;
+        }
+        else {
+          key = $scope.cls + action.shortName;
+        }
+        newTooltips[action.shortName] = _xivdbtooltips.actionTooltips[key];
+      });
+      $scope.actionTooltips = newTooltips;
+    }
+
+    function cssClassesForAction(name) {
+      var classes = $scope.actionClasses(name, $scope.cls);
+      classes['selectable'] = $scope.selectable;
+      return classes;
+    }
+
+    function actionForName(name) {
+      return _actionsByName[name];
+    }
+
+    function isActionCrossClass(name) {
+      if (!angular.isDefined(name)) {
+        console.error('undefined actionName');
+        return undefined;
+      }
+      var info = _actionsByName[name];
+      if (!angular.isDefined(info)) {
+        console.error('unknown action: %s', name);
+        return undefined;
+      }
+      return info.cls != 'All' && info.cls != $scope.cls;
+    }
+  }
+})();

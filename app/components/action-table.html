@@ -4,7 +4,7 @@
     <div ng-repeat="action in actionGroup.actions track by $index"
           ng-click="onClick(action, cls)"
           class="image-wrap glossy icon"
-          ng-class="_actionClasses(action, cls)"
+          ng-class="cssClassesForAction(action)"
           lvl-draggable="{{draggable}}"
           data-new-action="{{action}}"
           tooltip-html-unsafe="{{actionTooltips[action]}}"
@@ -13,7 +13,7 @@
           tooltip-append-to-body="true">
       <img ng-src="{{getActionImagePath(action, cls)}}"/>
       <span ng-if="actionForName(action).cpCost" class="cp">{{actionForName(action).cpCost}}</span>
-      <span ng-if="isActionCrossClass(action, cls)" class="cross-class">
+      <span ng-if="isActionCrossClass(action)" class="cross-class">
         <img ng-src="img/classes/{{actionForName(action).cls}}.png"/>
       </span>
     </div>
