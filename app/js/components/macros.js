@@ -10,7 +10,7 @@
   function factory() {
     return {
       restrict: 'E',
-      templateUrl: '../../components/macros.html',
+      templateUrl: 'components/macros.html',
       scope: {
         sequence: '=',
         options: '='
