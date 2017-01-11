@@ -16,7 +16,6 @@
       'ffxivCraftOptWeb.services.xivdbtooltips',
       'ffxivCraftOptWeb.services.xivdb',
       'ffxivCraftOptWeb.directives',
-      'ffxivCraftOptWeb.filters',
       'ffxivCraftOptWeb.controllers',
       'ffxivCraftOptWeb.components'
     ], config);
