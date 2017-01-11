@@ -7,7 +7,6 @@
       'ui.router',
       'pascalprecht.translate',
       'lvl.directives.dragdrop',
-      'ffxivCraftOptWeb.services',
       'ffxivCraftOptWeb.services.actions',
       'ffxivCraftOptWeb.services.localprofile',
       'ffxivCraftOptWeb.services.recipelibrary',
