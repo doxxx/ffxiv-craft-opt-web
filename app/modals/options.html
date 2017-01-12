@@ -5,7 +5,7 @@
 <div class="modal-body" isolate-scrolling>
   <form name="allOptionsForm">
     <tabset>
-      <tab heading="Simulator" active="pageState.options.tab.simulator.active">
+      <tab heading="Simulator" active="pageState.options.tabs.simulator.active">
         <form name="simulatorOptionsForm">
 
           <div class="control-group" ng-class="{error: simulatorOptionsForm.maxMontecarloRuns.$invalid}">
@@ -140,7 +140,7 @@
         </form>
       </tab>
 
-      <tab heading="Debugging" active="pageState.options.tab.debugging.active">
+      <tab heading="Debugging" active="pageState.options.tabs.debugging.active">
         <form name="generalOptionsForm">
 
           <div class="control-group"
