@@ -63,8 +63,8 @@ angular.module('ffxivCraftOptWeb.controllers')
     };
 
     $scope.dropAction = function (dragEl, dropEl) {
-      var drag = angular.element(dragEl);
-      var drop = angular.element(dropEl);
+      var drag = angular.element(document.getElementById(dragEl));
+      var drop = angular.element(document.getElementById(dropEl));
       var newAction = drag.attr('data-new-action');
       var dropIndex = parseInt(drop.attr('data-index'));
 

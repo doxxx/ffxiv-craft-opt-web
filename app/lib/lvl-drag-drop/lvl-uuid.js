@@ -1,6 +1,15 @@
-angular.module('lvl.services', [])
+(function () {
+  'use strict';
 
-  .factory('uuid', function () {
+  var module;
+
+  try {
+    module = angular.module('lvl.services');
+  } catch (e) {
+    module = angular.module('lvl.services', []);
+  }
+
+  module.factory('uuid', function () {
     var svc = {
       new: function () {
         function _p8(s) {
@@ -18,3 +27,4 @@ angular.module('lvl.services', [])
 
     return svc;
   });
+})();
