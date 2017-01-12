@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $state, $stateParams, _solver, _simulator) {
+angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', function ($scope, $state, $stateParams, _solver, _simulator, _bonusStats) {
 
   // Global page state
   if (!$scope.pageState.solverStatus) {
@@ -47,8 +47,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
   function runProbabilisticSim(sequence) {
     var settings = {
-      crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
       sequence: sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -77,8 +77,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
 
   $scope.runMonteCarloSim = function (sequence) {
     var settings = {
-      crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
       sequence: sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -126,8 +126,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SolverController', fu
     if (sequence.length === 0) sequence = $scope.sequence;
 
     var settings = {
-      crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
       sequence: sequence,
       algorithm: $scope.solver.algorithm,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,

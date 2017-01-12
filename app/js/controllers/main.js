@@ -1,23 +1,33 @@
-'use strict';
+(function () {
+  'use strict';
 
-/* Controllers */
+  angular
+    .module('ffxivCraftOptWeb.controllers', [])
+    .controller('MainController', controller);
 
-angular.module('ffxivCraftOptWeb.controllers', [])
-  .controller('MainCtrl',
-  function ($scope, $rootScope, $modal, $translate, _allClasses, _actionGroups, _allActions, _actionsByName,
-    _localProfile, _xivdbtooltips, _getActionImagePath)
+  function controller($scope, $rootScope, $modal, $translate, _allClasses, _actionGroups, _actionsByName,
+    _localProfile, _xivdbtooltips, _getActionImagePath, _bonusStats)
   {
-    // provide access to constants
     $scope.allClasses = _allClasses;
     $scope.actionGroups = _actionGroups;
-
-    // split class list into two groups
-    $scope.splitClasses = [_allClasses.slice(0, _allClasses.length/2),
-                           _allClasses.slice(_allClasses.length/2, _allClasses.length)];
-
+    $scope.allActions = _actionsByName;
     $scope.getActionImagePath = _getActionImagePath;
 
-    $scope.allActions = _actionsByName;
+    $scope.changeLang = changeLang;
+    $scope.currentLang = currentLang;
+    $scope.loadSynth = loadSynth;
+    $scope.revertSynth = revertSynth;
+    $scope.saveSynth = saveSynth;
+    $scope.isSynthDirty = isSynthDirty;
+    $scope.saveSynthAs = saveSynthAs;
+    $scope.deleteSynth = deleteSynth;
+    $scope.renameSynth = renameSynth;
+    $scope.synthNameForDisplay = synthNameForDisplay;
+    $scope.actionForName = actionForName;
+    $scope.isActionSelected = isActionSelected;
+    $scope.isActionCrossClass = isActionCrossClass;
+    $scope.isValidSequence = isValidSequence;
+    $scope.showOptionsModal = showOptionsModal;
 
     $scope.languages = {
       ja: '日本語',
@@ -25,20 +35,6 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       de: 'Deutsch',
       fr: 'Français'
     };
-
-    $scope.changeLang = function (lang) {
-      $translate.use(lang);
-    };
-
-    $scope.currentLang = function () {
-      return $translate.use();
-    };
-
-    $rootScope.$on('$translateChangeSuccess', function (event, data) {
-      _xivdbtooltips.onLanguageChange(data.language);
-      $scope.$broadcast('$translateChangeSuccess', data);
-    });
-    _xivdbtooltips.onLanguageChange($translate.use());
 
     // non-persistent page state
     $scope.pageState = {
@@ -61,7 +57,42 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
     };
 
-    $scope.onProfileLoaded = function () {
+    $rootScope.$on('$translateChangeSuccess', onTranslateChangeSuccess);
+    $scope.$on('recipe.selected', onRecipeSelected);
+    $scope.$on('update.sequence', onUpdateSequence);
+
+    // Final initialization
+    _xivdbtooltips.onLanguageChange($translate.use());
+    loadLocalPageState($scope);
+
+    $scope.profile = _localProfile;
+    onProfileLoaded();
+
+
+    //////////////////////////////////////////////////////////////////////////
+
+    function onTranslateChangeSuccess(event, data) {
+      _xivdbtooltips.onLanguageChange(data.language);
+      $scope.$broadcast('$translateChangeSuccess', data);
+    }
+
+    function onRecipeSelected(event, recipe) {
+      $scope.recipe = recipe;
+    }
+
+    function onUpdateSequence(event, newSequence) {
+      $scope.sequence = angular.copy(newSequence);
+    }
+
+    function changeLang(lang) {
+      $translate.use(lang);
+    }
+
+    function currentLang() {
+      return $translate.use();
+    }
+
+    function onProfileLoaded() {
       $scope.userInfo = $scope.profile.userInfo();
 
       $scope.profile.bindCrafterStats($scope, 'crafter.stats');
@@ -136,24 +167,14 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       $scope.$broadcast('simulation.needs.update');
 
       $scope.$broadcast('profile.loaded');
-    };
-
-    // data model interaction functions
-
-    $scope.$on('recipe.selected', function (event, recipe) {
-      $scope.recipe = recipe;
-    });
-
-    $scope.$on('update.sequence', function (event, newSequence) {
-      $scope.sequence = angular.copy(newSequence);
-    });
+    }
 
     //
     // Saved Synth Management
     //
 
-    $scope.loadSynth = function (name, noDirtyCheck) {
-      if (!noDirtyCheck && $scope.isSynthDirty()) {
+    function loadSynth(name, noDirtyCheck) {
+      if (!noDirtyCheck && isSynthDirty()) {
         if (!window.confirm('You have not saved the changes to your current sequence. Are you sure?')) {
           return;
         }
@@ -161,39 +182,39 @@ angular.module('ffxivCraftOptWeb.controllers', [])
 
       var settings = $scope.profile.loadSynth(name);
 
-      $scope.bonusStats = angular.extend(newBonusStats(), settings.bonusStats);
+      $scope.bonusStats = angular.extend(_bonusStats.newBonusStats(), settings.bonusStats);
       $scope.recipe = settings.recipe;
       $scope.sequence = settings.sequence;
 
       $scope.settings.name = name;
 
       $scope.$broadcast('synth.changed');
-    };
+    }
 
-    $scope.revertSynth = function () {
-      $scope.loadSynth($scope.settings.name, true);
-    };
+    function revertSynth() {
+      loadSynth($scope.settings.name, true);
+    }
 
-    $scope.saveSynth = function (noDirtyCheck) {
+    function saveSynth(noDirtyCheck) {
       // Hack for bug in angular-ui-bootstrap
       // ng-disabled elements don't close their tooltip
-      if (!noDirtyCheck && !$scope.isSynthDirty()) {
+      if (!noDirtyCheck && !isSynthDirty()) {
         return;
       }
 
       var settings = {};
 
       settings.name = $scope.settings.name;
-      settings.bonusStats = angular.extend(newBonusStats(), $scope.bonusStats);
+      settings.bonusStats = angular.extend(_bonusStats.newBonusStats(), $scope.bonusStats);
       settings.recipe = $scope.recipe;
       settings.sequence = $scope.sequence;
 
       $scope.profile.saveSynth($scope.settings.name, settings);
 
       $scope.savedSynthNames = $scope.profile.synthNames();
-    };
+    }
 
-    $scope.saveSynthAs = function () {
+    function saveSynthAs() {
       var name = $scope.settings.name;
       if (name === undefined || name === '') {
         name = $scope.recipe.name;
@@ -201,10 +222,10 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       var newName = window.prompt('Enter new synth name:', name);
       if (newName === null || newName.length === 0) return;
       $scope.settings.name = newName;
-      $scope.saveSynth(true);
-    };
+      saveSynth(true);
+    }
 
-    $scope.deleteSynth = function () {
+    function deleteSynth() {
       var name = $scope.settings.name;
       if (window.confirm('Are you sure you want to delete the "' + name + '" synth?')) {
         $scope.profile.deleteSynth(name);
@@ -212,18 +233,18 @@ angular.module('ffxivCraftOptWeb.controllers', [])
         $scope.savedSynthNames = $scope.profile.synthNames();
         $scope.$broadcast('synth.changed');
       }
-    };
+    }
 
-    $scope.renameSynth = function () {
+    function renameSynth() {
       var name = $scope.settings.name;
       var newName = window.prompt('Enter new synth name:', name);
       if (newName === null || newName.length === 0) return;
       $scope.settings.name = newName;
       $scope.profile.renameSynth(name, newName);
       $scope.savedSynthNames = $scope.profile.synthNames();
-    };
+    }
 
-    $scope.isSynthDirty = function () {
+    function isSynthDirty() {
       if (!$scope.settings || $scope.settings.name === '') {
         return false;
       }
@@ -238,9 +259,9 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       clean = clean && angular.equals(settings.sequence, $scope.sequence);
 
       return !clean;
-    };
+    }
 
-    $scope.synthNameForDisplay = function () {
+    function synthNameForDisplay() {
       if (!$scope.settings) return '';
 
       if ($scope.settings.name === '') {
@@ -249,21 +270,21 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       else {
         return $scope.settings.name;
       }
-    };
+    }
 
-    $scope.actionForName = function (name) {
+    function actionForName(name) {
       return _actionsByName[name];
-    };
+    }
 
-    $scope.isActionSelected = function (action, cls) {
+    function isActionSelected(action, cls) {
       return $scope.crafter &&
              $scope.crafter.stats &&
              $scope.crafter.stats[cls] &&
              $scope.crafter.stats[cls].actions &&
              $scope.crafter.stats[cls].actions.indexOf(action) >= 0;
-    };
+    }
 
-    $scope.isActionCrossClass = function (action, cls) {
+    function isActionCrossClass(action, cls) {
       if (!angular.isDefined(action)) {
         console.error('undefined actionName');
         return undefined;
@@ -275,206 +296,188 @@ angular.module('ffxivCraftOptWeb.controllers', [])
       }
       return info.cls != 'All' &&
              info.cls != cls;
-    };
+    }
 
-    $scope.isValidSequence = function (sequence, cls) {
+    function isValidSequence(sequence, cls) {
       return !sequence || sequence.every(function (action) {
-        return $scope.isActionSelected(action, cls);
-      });
-    };
+          return isActionSelected(action, cls);
+        });
+    }
 
-    $scope.showOptionsModal = function () {
+    function showOptionsModal() {
       var modalInstance = $modal.open({
         templateUrl: 'modals/options.html',
         controller: 'OptionsController',
         windowClass: 'options-modal',
         resolve: {
-          pageState: function () { return $scope.pageState; },
-          sequenceSettings: function () { return $scope.sequenceSettings; },
-          solver: function () { return $scope.solver; },
-          macroOptions: function () { return $scope.macroOptions; }
+          pageState: function () {
+            return $scope.pageState;
+          },
+          sequenceSettings: function () {
+            return $scope.sequenceSettings;
+          },
+          solver: function () {
+            return $scope.solver;
+          },
+          macroOptions: function () {
+            return $scope.macroOptions;
+          }
         }
       });
       modalInstance.result.then(function (result) {
         angular.extend($scope, result);
       });
-    };
+    }
 
-    // Final initialization
-    loadLocalPageState($scope);
+    function loadLocalPageState($scope) {
+      initPageStateDefaults($scope);
+      if (loadLocalPageState_v2($scope)) return;
+      loadLocalPageState_v1($scope);
+    }
 
-    $scope.profile = _localProfile;
-    $scope.onProfileLoaded();
-  });
+    function initPageStateDefaults($scope) {
+      $scope.sections = {
+        crafter: true,
+        synth: true,
+        simulator: true,
+        simulatorOptions: false
+      };
 
-function loadLocalPageState($scope) {
-  initPageStateDefaults($scope);
-  if (loadLocalPageState_v2($scope)) return;
-  loadLocalPageState_v1($scope);
-}
+      $scope.settings = {
+        name: ''
+      };
 
-function initPageStateDefaults($scope) {
-  $scope.sections = {
-    crafter: true,
-    synth: true,
-    simulator: true,
-    simulatorOptions: false
-  };
+      $scope.crafter = {
+        cls: $scope.allClasses[0],
+        stats: {}
+      };
 
-  $scope.settings = {
-    name: ''
-  };
+      $scope.bonusStats = _bonusStats.newBonusStats();
 
-  $scope.crafter = {
-    cls: $scope.allClasses[0],
-    stats: {}
-  };
+      $scope.recipe = newRecipeStats($scope.crafter.cls);
 
-  $scope.bonusStats = newBonusStats();
+      $scope.sequence = [];
 
-  $scope.recipe = newRecipeStats($scope.crafter.cls);
+      $scope.sequenceSettings = {
+        maxTricksUses: 0,
+        maxMontecarloRuns: 500,
+        reliabilityPercent: 100,
+        specifySeed: false,
+        seed: 1337,
+        useConditions: true,
+        overrideOnCondition: false,
+        debug: false
+      };
 
-  $scope.sequence = [];
+      $scope.solver = {
+        algorithm: 'eaSimple',
+        penaltyWeight: 10000,
+        population: 300,
+        generations: 100
+      };
 
-  $scope.sequenceSettings = {
-    maxTricksUses: 0,
-    maxMontecarloRuns: 500,
-    reliabilityPercent: 100,
-    specifySeed: false,
-    seed: 1337,
-    useConditions: true,
-    overrideOnCondition: false,
-    debug: false
-  };
+      $scope.macroOptions = {
+        waitTime: 3,
+        buffWaitTime: 2,
+        stepSoundEffect: 1,
+        finishSoundEffect: 14
+      };
+    }
 
-  $scope.solver = {
-    algorithm: 'eaSimple',
-    penaltyWeight: 10000,
-    population: 300,
-    generations: 100
-  };
+    function loadLocalPageState_v2($scope) {
+      if (localStorage['pageStage_v2'] === undefined) return false;
 
-  $scope.macroOptions = {
-    waitTime: 3,
-    buffWaitTime: 2,
-    stepSoundEffect: 1,
-    finishSoundEffect: 14
-  };
-}
+      var state = JSON.parse(localStorage['pageStage_v2']);
 
-function loadLocalPageState_v2($scope) {
-  if (localStorage['pageStage_v2'] === undefined) return false;
+      angular.extend($scope.sections, state.sections);
+      angular.extend($scope.bonusStats, state.bonusStats);
+      angular.extend($scope.recipe, state.recipe);
+      angular.extend($scope.sequenceSettings, state.sequenceSettings);
+      angular.extend($scope.solver, state.solver);
+      angular.extend($scope.macroOptions, state.macroOptions || {});
 
-  var state = JSON.parse(localStorage['pageStage_v2']);
+      $scope.sequence = state.sequence;
 
-  angular.extend($scope.sections, state.sections);
-  angular.extend($scope.bonusStats, state.bonusStats);
-  angular.extend($scope.recipe, state.recipe);
-  angular.extend($scope.sequenceSettings, state.sequenceSettings);
-  angular.extend($scope.solver, state.solver);
-  angular.extend($scope.macroOptions, state.macroOptions || {});
+      $scope.settings.name = state.settingsName;
+      $scope.crafter.cls = state.crafterClass;
 
-  $scope.sequence = state.sequence;
+      return true;
+    }
 
-  $scope.settings.name = state.settingsName;
-  $scope.crafter.cls = state.crafterClass;
+    function loadLocalPageState_v1($scope) {
+      var sections = localStorage['sections'];
+      if (sections) {
+        angular.extend($scope.sections, JSON.parse(sections));
+      }
 
-  return true;
-}
+      if (localStorage['settingsName']) {
+        $scope.settings.name = localStorage['settingsName'];
+      }
 
-function loadLocalPageState_v1($scope) {
-  var sections = localStorage['sections'];
-  if (sections) {
-    angular.extend($scope.sections, JSON.parse(sections));
+      if (localStorage['crafterClass']) {
+        $scope.crafter.cls = localStorage['crafterClass'];
+      }
+
+      var bonusStats = localStorage['settings.bonusStats'];
+      if (bonusStats) {
+        angular.extend($scope.bonusStats, JSON.parse(bonusStats));
+      }
+
+      var recipe = localStorage['settings.recipe'];
+      if (recipe) {
+        angular.extend($scope.recipe, JSON.parse(recipe));
+      }
+
+      var sequence = localStorage['settings.sequence'];
+      if (sequence) {
+        $scope.sequence = JSON.parse(sequence);
+      }
+
+      var sequenceSettings = localStorage['settings.sequenceSettings'];
+      if (sequenceSettings) {
+        angular.extend($scope.sequenceSettings, JSON.parse(sequenceSettings));
+      }
+
+      var solver = localStorage['settings.solver'];
+      if (solver) {
+        angular.extend($scope.solver, JSON.parse(solver));
+      }
+
+      return true;
+    }
+
+    function saveLocalPageState($scope) {
+      saveLocalPageState_v2($scope);
+    }
+
+    function saveLocalPageState_v2($scope) {
+      var state = {
+        sections: $scope.sections,
+        bonusStats: $scope.bonusStats,
+        recipe: $scope.recipe,
+        sequence: $scope.sequence,
+        sequenceSettings: $scope.sequenceSettings,
+        solver: $scope.solver,
+        settingsName: $scope.settings.name,
+        crafterClass: $scope.crafter.cls,
+        macroOptions: $scope.macroOptions
+      };
+
+      localStorage['pageStage_v2'] = JSON.stringify(state)
+    }
+
+    function newRecipeStats(cls) {
+      return {
+        cls: cls,
+        level: 1,
+        difficulty: 9,
+        durability: 40,
+        startQuality: 0,
+        maxQuality: 312
+      }
+    }
+
+
   }
-
-  if (localStorage['settingsName']) {
-    $scope.settings.name = localStorage['settingsName'];
-  }
-
-  if (localStorage['crafterClass']) {
-    $scope.crafter.cls = localStorage['crafterClass'];
-  }
-
-  var bonusStats = localStorage['settings.bonusStats'];
-  if (bonusStats) {
-    angular.extend($scope.bonusStats, JSON.parse(bonusStats));
-  }
-
-  var recipe = localStorage['settings.recipe'];
-  if (recipe) {
-    angular.extend($scope.recipe, JSON.parse(recipe));
-  }
-
-  var sequence = localStorage['settings.sequence'];
-  if (sequence) {
-    $scope.sequence = JSON.parse(sequence);
-  }
-
-  var sequenceSettings = localStorage['settings.sequenceSettings'];
-  if (sequenceSettings) {
-    angular.extend($scope.sequenceSettings, JSON.parse(sequenceSettings));
-  }
-
-  var solver = localStorage['settings.solver'];
-  if (solver) {
-    angular.extend($scope.solver, JSON.parse(solver));
-  }
-
-  return true;
-}
-
-function saveLocalPageState($scope) {
-  saveLocalPageState_v2($scope);
-}
-
-function saveLocalPageState_v2($scope) {
-  var state = {
-    sections: $scope.sections,
-    bonusStats: $scope.bonusStats,
-    recipe: $scope.recipe,
-    sequence: $scope.sequence,
-    sequenceSettings: $scope.sequenceSettings,
-    solver: $scope.solver,
-    settingsName: $scope.settings.name,
-    crafterClass: $scope.crafter.cls,
-    macroOptions: $scope.macroOptions
-  };
-
-  localStorage['pageStage_v2'] = JSON.stringify(state)
-}
-
-function newRecipeStats(cls) {
-  return {
-    cls: cls,
-    level: 1,
-    difficulty: 9,
-    durability: 40,
-    startQuality: 0,
-    maxQuality: 312
-  }
-}
-
-function newBonusStats() {
-  return {
-    craftsmanship: 0,
-    control: 0,
-    cp: 0,
-    startQuality: 0
-  }
-}
-
-function addCrafterBonusStats(crafter, bonusStats) {
-  var newStats = angular.copy(crafter);
-  newStats.craftsmanship += bonusStats.craftsmanship;
-  newStats.control += bonusStats.control;
-  newStats.cp += bonusStats.cp;
-  return newStats;
-}
-
-function addRecipeBonusStats(recipe, bonusStats) {
-  var newStats = angular.copy(recipe);
-  newStats.startQuality += bonusStats.startQuality;
-  return newStats;
-}
+})();
 

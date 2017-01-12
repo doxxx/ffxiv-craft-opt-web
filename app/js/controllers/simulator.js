@@ -25,7 +25,7 @@ String.prototype.removeAccent = function(){
 
 
 angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController', function ($scope, $filter, $modal,
-  $rootScope, $translate, $timeout, $state, _recipeLibrary, _simulator, _actionsByName)
+  $rootScope, $translate, $timeout, $state, _recipeLibrary, _simulator, _actionsByName, _bonusStats)
 {
 
   // Global page state
@@ -185,8 +185,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
 
   $scope.runMonteCarloSim = function () {
     var settings = {
-      crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
@@ -217,8 +217,8 @@ angular.module('ffxivCraftOptWeb.controllers').controller('SimulatorController',
 
   $scope.runProbabilisticSim = function () {
     var settings = {
-      crafter: addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
-      recipe: addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+      crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+      recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
       sequence: $scope.sequence,
       maxTricksUses: $scope.sequenceSettings.maxTricksUses,
       maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,

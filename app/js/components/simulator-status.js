@@ -20,7 +20,7 @@
     }
   }
 
-  function controller($scope) {
+  function controller($scope, _bonusStats) {
     $scope.$watchCollection("crafter", update);
     $scope.$watchCollection("bonusStats", update);
     $scope.$watchCollection("recipe", update);
@@ -32,7 +32,7 @@
 
     function update() {
       if ($scope.bonusStats) {
-        $scope.stats = addCrafterBonusStats($scope.crafter, $scope.bonusStats)
+        $scope.stats = _bonusStats.addCrafterBonusStats($scope.crafter, $scope.bonusStats)
       }
       else {
         $scope.stats = $scope.crafter;

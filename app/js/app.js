@@ -8,6 +8,7 @@
       'pascalprecht.translate',
       'lvl.directives.dragdrop',
       'ffxivCraftOptWeb.services.actions',
+      'ffxivCraftOptWeb.services.bonusStats',
       'ffxivCraftOptWeb.services.localprofile',
       'ffxivCraftOptWeb.services.recipelibrary',
       'ffxivCraftOptWeb.services.simulator',
