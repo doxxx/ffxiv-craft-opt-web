@@ -102,7 +102,7 @@
       <div class="row-fluid">
         <div ng-class="{'edit-mode': editingSequence}" ng-show="editingSequence">
           <buffs effects="simulatorStatus.state.effects" recipe="recipe"></buffs>
-          <div class="sequence-editor" ng-controller="SequenceEditorCtrl">
+          <div class="sequence-editor" ng-controller="SequenceEditorController">
             <div class="sequence well well-small">
               <div ng-repeat="action in editSequence track by $index"
                     class="image-wrap glossy icon selectable"

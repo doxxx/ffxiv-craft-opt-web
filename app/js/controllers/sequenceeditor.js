@@ -1,22 +1,40 @@
-"use strict";
+(function () {
+  'use strict';
 
-angular.module('ffxivCraftOptWeb.controllers')
-  .controller('SequenceEditorCtrl',
-  function ($scope, $http, $state, _actionGroups, _actionsByName, _simulator, _getActionImagePath)
-  {
+  angular
+    .module('ffxivCraftOptWeb.controllers')
+    .controller('SequenceEditorController', controller);
+
+  function controller($scope, $http, $state, _actionGroups, _actionsByName, _simulator, _getActionImagePath) {
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
-
     $scope.getActionImagePath = _getActionImagePath;
-
 
     $scope.origSequence = [];
     $scope.editSequence = [];
     $scope.availableActions = [];
     $scope.recipe = {};
 
+    $scope.isActionSelected = isActionSelected;
+    $scope.actionTableClasses = actionTableClasses;
+    $scope.actionClasses = actionClasses;
+    $scope.isActionCrossClass = isActionCrossClass;
+    $scope.dropAction = dropAction;
+    $scope.addAction = addAction;
+    $scope.removeAction = removeAction;
+    $scope.isValidSequence = isValidSequence;
+    $scope.isSequenceDirty = isSequenceDirty;
+    $scope.clear = clear;
+    $scope.revert = revert;
+    $scope.save = save;
+    $scope.cancel = cancel;
 
-    $scope.$on('sequence.editor.init', function (event, origSequence, recipe, crafterStats, bonusStats, sequenceSettings) {
+    $scope.$on('sequence.editor.init', onSequenceEditorInit);
+    $scope.$on('$stateChangeStart', onStateChangeStart);
+
+    //////////////////////////////////////////////////////////////////////////
+
+    function onSequenceEditorInit(event, origSequence, recipe, crafterStats, bonusStats, sequenceSettings) {
       $scope.origSequence = origSequence;
       $scope.editSequence = angular.copy(origSequence);
       $scope.availableActions = crafterStats.actions;
@@ -25,30 +43,39 @@ angular.module('ffxivCraftOptWeb.controllers')
       $scope.unwatchSequence = $scope.$watchCollection('editSequence', function () {
         $scope.$emit('update.sequence', $scope.editSequence);
       });
-    });
+    }
 
-    $scope.isActionSelected = function (action) {
+    function onStateChangeStart(event) {
+      if ($scope.editingSequence && $scope.isSequenceDirty()) {
+        if (!window.confirm('Abandon changes to sequence?')) {
+          event.preventDefault();
+        }
+      }
+    }
+
+    function isActionSelected(action) {
       return $scope.availableActions.indexOf(action) >= 0;
-    };
+    }
 
-    $scope.actionTableClasses = function (action, cls) {
+    function actionTableClasses(action, cls) {
       return {
-        'action-no-cp': $scope.simulatorStatus.state && (_actionsByName[action].cpCost > $scope.simulatorStatus.state.cp),
-        'faded-icon': !$scope.isActionSelected(action)
+        'action-no-cp': $scope.simulatorStatus.state &&
+                        (_actionsByName[action].cpCost > $scope.simulatorStatus.state.cp),
+        'faded-icon': !isActionSelected(action)
       };
-    };
+    }
 
-    $scope.actionClasses = function (action, cls, index) {
+    function actionClasses(action, cls, index) {
       var wastedAction = $scope.simulatorStatus.state && (index + 1 > $scope.simulatorStatus.state.lastStep);
       var cpExceeded = $scope.simulatorStatus.state && _actionsByName[action].cpCost > $scope.simulatorStatus.state.cp;
       return {
-        'faded-icon': !$scope.isActionSelected(action, cls),
+        'faded-icon': !isActionSelected(action, cls),
         'wasted-action': wastedAction,
         'action-no-cp': wastedAction && cpExceeded
       };
-    };
+    }
 
-    $scope.isActionCrossClass = function (action, cls) {
+    function isActionCrossClass(action, cls) {
       if (!angular.isDefined(action)) {
         console.error('undefined actionName');
         return undefined;
@@ -58,11 +85,10 @@ angular.module('ffxivCraftOptWeb.controllers')
         console.error('unknown action: %s', action);
         return undefined;
       }
-      return info.cls != 'All' &&
-             info.cls != cls;
-    };
+      return info.cls != 'All' && info.cls != cls;
+    }
 
-    $scope.dropAction = function (dragEl, dropEl) {
+    function dropAction(dragEl, dropEl) {
       var drag = angular.element(document.getElementById(dragEl));
       var drop = angular.element(document.getElementById(dropEl));
       var newAction = drag.attr('data-new-action');
@@ -92,51 +118,51 @@ angular.module('ffxivCraftOptWeb.controllers')
       }
 
       $scope.$apply();
-    };
+    }
 
-    $scope.addAction = function (action) {
+    function addAction(action) {
       $scope.editSequence.push(action);
-    };
+    }
 
-    $scope.removeAction = function (index) {
+    function removeAction(index) {
       $scope.editSequence.splice(index, 1)
-    };
+    }
 
-    $scope.isValidSequence = function (sequence, cls) {
+    function isValidSequence(sequence, cls) {
       return sequence.every(function (action) {
-        return $scope.isActionSelected(action, cls);
+        return isActionSelected(action, cls);
       });
-    };
+    }
 
-    $scope.isSequenceDirty = function () {
+    function isSequenceDirty() {
       return !angular.equals($scope.editSequence, $scope.origSequence);
-    };
+    }
 
-    $scope.clear = function () {
+    function clear() {
       $scope.editSequence = [];
-    };
+    }
 
-    $scope.revert = function () {
+    function revert() {
       $scope.editSequence = angular.copy($scope.origSequence);
-    };
+    }
 
-    $scope.save = function () {
-      $scope.unwatchSequence();
+    function save() {
+      if ($scope.unwatchSequence) {
+        $scope.unwatchSequence();
+      }
+
       $scope.$emit('sequence.editor.close');
-    };
+    }
 
-    $scope.cancel = function () {
+    function cancel() {
       $scope.$emit('update.sequence', $scope.origSequence);
 
-      $scope.unwatchSequence();
-      $scope.$emit('sequence.editor.close');
-    };
-
-    $scope.$on('$stateChangeStart', function (event) {
-      if ($scope.editingSequence && $scope.isSequenceDirty()) {
-        if (!window.confirm('Abandon changes to sequence?')) {
-          event.preventDefault();
-        }
+      if ($scope.unwatchSequence) {
+        $scope.unwatchSequence();
       }
-    });
-  });
+
+      $scope.$emit('sequence.editor.close');
+    }
+  }
+
+})();
