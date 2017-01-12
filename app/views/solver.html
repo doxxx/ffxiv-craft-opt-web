@@ -5,7 +5,7 @@
     <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !pageState.solverStatus.state || !isValidSequence(pageState.solverStatus.sequence, recipe.cls) || pageState.solverStatus.error">Continue</button>
     <button class="btn btn-danger" ng-click="resetSolver()" ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.state">Reset</button>
     <button class="btn btn-warning"
-            ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.sequence || pageState.solverStatus.sequence.length == 0 || pageState.solverStatus.sequence.equals(sequence)"
+            ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.sequence || pageState.solverStatus.sequence.length === 0 || equivalentSequence()"
             ng-click="useSolverResult()">Edit Result in Simulator
     </button>
     <button class="btn" ng-click="showOptionsModal()">Options...</button>
@@ -24,8 +24,8 @@
     </div>
   </div>
   <div ng-show="!pageState.solverStatus.running">
-    <h5>Solver Result</h5>
-    <div ng-class="{'disabled-action-list': pageState.solverStatus.sequence.equals(sequence)}">
+    <h5>Solver Result <small ng-show="equivalentSequence()">no change</small></h5>
+    <div ng-class="{'disabled-action-list': equivalentSequence()}">
       <action-sequence cls="recipe.cls" actions="pageState.solverStatus.sequence" action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
     </div>
   </div>
@@ -34,8 +34,7 @@
       <pre>{{pageState.solverStatus.logs.ga}}</pre>
     </tab>
     <tab active="logTabs.mc.active">
-      <tab-heading>Monte Carlo Sim &nbsp; <i class="fa fa-refresh flat-button"
-                                             ng-click="runMonteCarloSim(pageState.solverStatus.sequence)"></i></tab-heading>
+      <tab-heading>Monte Carlo Sim &nbsp; <i class="fa fa-refresh flat-button" ng-click="runMonteCarloSim(pageState.solverStatus.sequence)"></i></tab-heading>
       <pre>{{pageState.solverStatus.logs.mc}}</pre>
     </tab>
     <tab active="logTabs.macro.active">
