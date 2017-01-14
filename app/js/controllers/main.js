@@ -6,7 +6,7 @@
     .controller('MainController', controller);
 
   function controller($scope, $rootScope, $modal, $translate, _allClasses, _actionGroups, _actionsByName,
-    _localProfile, _xivdbtooltips, _getActionImagePath, _bonusStats)
+    _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats)
   {
     $scope.allClasses = _allClasses;
     $scope.actionGroups = _actionGroups;
@@ -65,9 +65,8 @@
     _xivdbtooltips.onLanguageChange($translate.use());
     loadLocalPageState($scope);
 
-    $scope.profile = _localProfile;
-    onProfileLoaded();
-
+    _profile.useStorage(_localStorage);
+    _profile.load().then(onProfileLoaded);
 
     //////////////////////////////////////////////////////////////////////////
 
@@ -92,7 +91,9 @@
       return $translate.use();
     }
 
-    function onProfileLoaded() {
+    function onProfileLoaded(profile) {
+      $scope.profile = profile;
+
       $scope.userInfo = $scope.profile.userInfo();
 
       $scope.profile.bindCrafterStats($scope, 'crafter.stats');
@@ -174,6 +175,8 @@
     //
 
     function loadSynth(name, noDirtyCheck) {
+      if (!$scope.profile) return;
+
       if (!noDirtyCheck && isSynthDirty()) {
         if (!window.confirm('You have not saved the changes to your current sequence. Are you sure?')) {
           return;
@@ -196,6 +199,8 @@
     }
 
     function saveSynth(noDirtyCheck) {
+      if (!$scope.profile) return;
+
       // Hack for bug in angular-ui-bootstrap
       // ng-disabled elements don't close their tooltip
       if (!noDirtyCheck && !isSynthDirty()) {
@@ -226,6 +231,8 @@
     }
 
     function deleteSynth() {
+      if (!$scope.profile) return;
+
       var name = $scope.settings.name;
       if (window.confirm('Are you sure you want to delete the "' + name + '" synth?')) {
         $scope.profile.deleteSynth(name);
@@ -236,6 +243,8 @@
     }
 
     function renameSynth() {
+      if (!$scope.profile) return;
+
       var name = $scope.settings.name;
       var newName = window.prompt('Enter new synth name:', name);
       if (newName === null || newName.length === 0) return;
@@ -245,6 +254,8 @@
     }
 
     function isSynthDirty() {
+      if (!$scope.profile) return false;
+
       if (!$scope.settings || $scope.settings.name === '') {
         return false;
       }

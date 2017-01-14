@@ -2,17 +2,16 @@
   'use strict';
 
   angular
-    .module('ffxivCraftOptWeb.services.recipelibrary', ['ffxivCraftOptWeb.services.localprofile'])
+    .module('ffxivCraftOptWeb.services.recipelibrary', [])
     .service('_recipeLibrary', RecipeLibraryService);
 
-  function RecipeLibraryService($http, $q, _localProfile) {
+  function RecipeLibraryService($http, $q) {
     this.$http = $http;
     this.$q = $q;
-    this._localProfile = _localProfile;
     this.cache = {}
   }
 
-  RecipeLibraryService.$inject = ['$http', '$q', '_localProfile'];
+  RecipeLibraryService.$inject = ['$http', '$q'];
 
   RecipeLibraryService.prototype.recipesForClass = function(lang, cls) {
     if (!angular.isDefined(lang)) lang = 'en';

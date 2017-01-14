@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('CrafterStatsController', controller);
 
-  function controller($scope, $modal, _allClasses, _allActions, _xivdb) {
+  function controller($scope, $modal, _allClasses, _allActions, _profile, _xivdb) {
     $scope.crafterActionClasses = crafterActionClasses;
     $scope.toggleAction = toggleAction;
     $scope.onTabSelect = onTabSelect;
@@ -29,7 +29,7 @@
     //////////////////////////////////////////////////////////////////////////
 
     function onProfileLoaded() {
-      $scope.lodestoneID = $scope.profile.getLodestoneID();
+      $scope.lodestoneID = _profile.getLodestoneID();
     }
 
     function crafterActionClasses(action, cls) {
@@ -96,7 +96,7 @@
       }
 
       $scope.lodestoneID = Number(char.id);
-      $scope.profile.setLodestoneID($scope.lodestoneID);
+      _profile.setLodestoneID($scope.lodestoneID);
     }
 
     function refreshChar() {
