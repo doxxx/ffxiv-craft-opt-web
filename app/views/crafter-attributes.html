@@ -5,7 +5,7 @@
         <tab-heading><img ng-src="img/classes/{{tab.name}}.png"/> &nbsp; {{tab.name}}</tab-heading>
       </tab>
       <span class="pull-right btn-group">
-        <button class="btn" ng-click="refreshChar()" ng-if="lodestoneID" ng-disabled="refreshing">
+        <button class="btn" ng-click="refreshChar()" ng-if="character" ng-disabled="character.refreshing" tooltip="{{character.name}} on {{character.server}}" tooltip-popup-delay="500">
           <i class="fa fa-spinner fa-pulse" ng-if="refreshing"></i>
           Refresh
         </button>

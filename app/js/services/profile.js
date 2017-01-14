@@ -5,14 +5,15 @@
     .module('ffxivCraftOptWeb.services.profile', [])
     .service('_profile', ProfileService);
 
-  function ProfileService($timeout, _allClasses, _actionsByName) {
+  function ProfileService($timeout, _allClasses, _actionsByName, _xivdb) {
     this.$timeout = $timeout;
     this._allClasses = _allClasses;
     this._actionsByName = _actionsByName;
+    this._xivdb = _xivdb;
     return this;
   }
 
-  ProfileService.$inject = ['$timeout', '_allClasses', '_actionsByName'];
+  ProfileService.$inject = ['$timeout', '_allClasses', '_actionsByName', '_xivdb'];
 
   ProfileService.prototype.useStorage = function (storage) {
     if (storage === undefined || storage === null) {
@@ -93,15 +94,28 @@
         }
       }
 
-      if (localStorage['lodestoneID']) {
-        this.lodestoneID = JSON.parse(localStorage['lodestoneID']);
-      }
-
       if (modified) {
         this.persist();
       }
 
-      return this;
+      if (localStorage['lodestoneID'] && !localStorage['character']) {
+        // Read lodestoneID from localStorage, fetch details from XIVDB,
+        // and store all necessary details in local storage.
+        var id = JSON.parse(localStorage['lodestoneID']);
+        return this._xivdb.getCharacter(id).then(function (char) {
+          var character = {
+            id: char.id,
+            name: char.name,
+            server: char.server
+          };
+          this.setCharacter(character);
+          localStorage.removeItem('lodestoneID');
+          return this;
+        }.bind(this));
+      }
+      else {
+        return this;
+      }
     }.bind(this));
   };
 
@@ -151,19 +165,21 @@
     return angular.copy(this.crafterStats);
   };
 
-  ProfileService.prototype.getLodestoneID = function () {
-    return this.lodestoneID;
-  };
-
-  ProfileService.prototype.setLodestoneID = function (id) {
-    this.lodestoneID = id;
-    this.persist();
-  };
-
   ProfileService.prototype.persist = function() {
     this.storage.put('synths', this.synths);
     this.storage.put('crafterStats', this.crafterStats);
-    if (this.lodestoneID) this.storage.put('lodestoneID', this.lodestoneID);
+  };
+
+  ProfileService.prototype.setCharacter = function (obj) {
+    this.storage.put('character', obj);
+  };
+
+  ProfileService.prototype.getCharacter = function () {
+    return this.storage.get('character');
+  };
+
+  ProfileService.prototype.isLoaded = function () {
+    return this.synths || this.crafterStats;
   };
 
 })();

@@ -23,13 +23,14 @@
     }
 
     $scope.$on('profile.loaded', onProfileLoaded);
-
-    onProfileLoaded();
+    if (_profile.isLoaded()) {
+      onProfileLoaded();
+    }
 
     //////////////////////////////////////////////////////////////////////////
 
     function onProfileLoaded() {
-      $scope.lodestoneID = _profile.getLodestoneID();
+      $scope.character = _profile.getCharacter();
     }
 
     function crafterActionClasses(action, cls) {
@@ -70,7 +71,12 @@
       var modalInstance = $modal.open({
         templateUrl: 'modals/charimport.html',
         controller: 'CharImportController',
-        windowClass: 'charimport-modal'
+        windowClass: 'charimport-modal',
+        resolve: {
+          server: function () {
+            return $scope.character && $scope.character.server || undefined;
+          }
+        }
       });
       modalInstance.result.then(function (result) {
         console.log("import character:", result);
@@ -95,21 +101,26 @@
         selectActionsByLevel(cls);
       }
 
-      $scope.lodestoneID = Number(char.id);
-      _profile.setLodestoneID($scope.lodestoneID);
+      $scope.character = {
+        id: char.id,
+        name: char.name,
+        server: char.server
+      };
+
+      $scope.profile.setCharacter($scope.character);
     }
 
     function refreshChar() {
-      if (!$scope.lodestoneID) return;
+      if (!$scope.character) return;
 
-      $scope.refreshing = true;
+      $scope.character.refreshing = true;
 
-      _xivdb.getCharacter($scope.lodestoneID).then(function (result) {
+      _xivdb.getCharacter($scope.character.id).then(function (result) {
         importCharacter(result);
       }, function (err) {
         console.error(err);
       }).finally(function () {
-        $scope.refreshing = false;
+        $scope.character.refreshing = false;
       });
     }
 

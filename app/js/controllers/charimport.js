@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('CharImportController', controller);
 
-  function controller($scope, $modalInstance, _xivdb) {
+  function controller($scope, $modalInstance, _xivdb, server) {
     $scope.search = search;
     $scope.selectResult = selectResult;
     $scope.dismissSearchError = dismissSearchError;
@@ -14,7 +14,7 @@
 
     $scope.servers = _xivdb.getServers();
     $scope.searchVars = {
-      server: $scope.servers[0],
+      server: server || $scope.servers[0],
       name: ""
     };
     $scope.searchErrors = [];
