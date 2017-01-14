@@ -9,7 +9,7 @@
     $scope.save = save;
     $scope.cancel = cancel;
 
-    $scope.pageState = angular.copy(pageState);
+    $scope.pageState = pageState;
     $scope.sequenceSettings = angular.copy(sequenceSettings);
     $scope.solver = angular.copy(solver);
     $scope.macroOptions = angular.copy(macroOptions);
@@ -18,7 +18,6 @@
 
     function save() {
       $modalInstance.close({
-        pageState: $scope.pageState,
         sequenceSettings: $scope.sequenceSettings,
         solver: $scope.solver,
         macroOptions: $scope.macroOptions

@@ -346,7 +346,9 @@
         }
       });
       modalInstance.result.then(function (result) {
-        angular.extend($scope, result);
+        $scope.sequenceSettings = result.sequenceSettings;
+        $scope.solver = result.solver;
+        $scope.macroOptions = result.macroOptions;
       });
     }
 
