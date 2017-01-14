@@ -10,69 +10,73 @@
   <link rel="stylesheet" href="css/base.css"/>
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="http://legacy.xivdb.com/css/tooltip.css"/>
+  <link rel="stylesheet" href="lib/angular-busy/angular-busy.min.css"/>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
   <script src="lib/angular-ui-router/angular-ui-router.js"></script>
   <script src="lib/angular-translate/angular-translate.min.js"></script>
   <script src="lib/angular-translate/angular-translate-loader-static-files.min.js"></script>
+  <script src="lib/angular-busy/angular-busy.js"></script>
 </head>
 
 <body ng-controller="MainController" ng-cloak>
 
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container-fluid">
-      <button type="button" class="btn btn-navbar" ng-click="pageState.navBarCollapsed = !pageState.navBarCollapsed">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="brand" href="index.html">FFXIV Crafting Optimizer</a>
-      <div class="nav-collapse" collapse="pageState.navBarCollapsed">
-        <ul class="nav">
-          <li ui-sref-active="active"><a ui-sref="simulator">Simulator</a></li>
-          <li ui-sref-active="active"><a ui-sref="solver">Solver</a></li>
-        </ul>
-        <ul class="nav pull-right">
-          <li><a ng-click="showOptionsModal()"><i class="fa fa-cog fa-lg"></i></a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle"><i class="fa fa-user fa-lg"></i> Profile <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li ui-sref-active="active"><a ui-sref="crafter-attributes">Crafter Attributes</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-submenu">
-                <a href="#" tabindex="-1">Language: {{languages[currentLang()]}}</a>
-                <ul class="dropdown-menu">
-                  <li ng-repeat="(langCode, langName) in languages"><a ng-click="changeLang(langCode)">{{langName}}</a></li>
-                </ul>
-              </li>
-              <li ui-sref-active="active"><a ui-sref="about">About</a></li>
-              <li ui-sref-active="active"><a ui-sref="instructions">Instructions</a></li>
-              <li><a href="blog">Blog</a></li>
-            </ul>
-          </li>
-        </ul>
+<div cg-busy="cgBusyConfig">
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container-fluid">
+        <button type="button" class="btn btn-navbar" ng-click="pageState.navBarCollapsed = !pageState.navBarCollapsed">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">FFXIV Crafting Optimizer</a>
+        <div class="nav-collapse" collapse="pageState.navBarCollapsed">
+          <ul class="nav">
+            <li ui-sref-active="active"><a ui-sref="simulator">Simulator</a></li>
+            <li ui-sref-active="active"><a ui-sref="solver">Solver</a></li>
+          </ul>
+          <ul class="nav pull-right">
+            <li><a ng-click="showOptionsModal()"><i class="fa fa-cog fa-lg"></i></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle"><i class="fa fa-user fa-lg"></i> Profile <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li ui-sref-active="active"><a ui-sref="crafter-attributes">Crafter Attributes</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-submenu">
+                  <a href="#" tabindex="-1">Language: {{languages[currentLang()]}}</a>
+                  <ul class="dropdown-menu">
+                    <li ng-repeat="(langCode, langName) in languages"><a ng-click="changeLang(langCode)">{{langName}}</a></li>
+                  </ul>
+                </li>
+                <li ui-sref-active="active"><a ui-sref="about">About</a></li>
+                <li ui-sref-active="active"><a ui-sref="instructions">Instructions</a></li>
+                <li><a href="blog">Blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="container-fluid">
-  <div class="row-fluid">
-    <noscript>
-      <h1>This site requires Javascript to function.</h1>
-    </noscript>
-    <ng-form name="allForms">
-      <div ui-view></div>
-    </ng-form>
-  </div>
-</div>
-
-<footer>
   <div class="container-fluid">
-    <p class="muted">Version: Beta. Sourcecode on <a href="http://github.com/doxxx/ffxiv-craft-opt-web">Github</a>. Copyright &copy; 2014 - 2017 by Rhoda Baker and Gordon Tyler.</p>
-    <p class="muted">FINAL FANTASY XIV &copy;2010 - 2017 SQUARE ENIX CO., LTD. FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. All material used under license.</p>
+    <div class="row-fluid">
+      <noscript>
+        <h1>This site requires Javascript to function.</h1>
+      </noscript>
+      <ng-form name="allForms">
+        <div ui-view></div>
+      </ng-form>
+    </div>
   </div>
-</footer>
+
+  <footer>
+    <div class="container-fluid">
+      <p class="muted">Version: Beta. Sourcecode on <a href="http://github.com/doxxx/ffxiv-craft-opt-web">Github</a>. Copyright &copy; 2014 - 2017 by Rhoda Baker and Gordon Tyler.</p>
+      <p class="muted">FINAL FANTASY XIV &copy;2010 - 2017 SQUARE ENIX CO., LTD. FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. All material used under license.</p>
+    </div>
+  </footer>
+</div>
 
 <script src="lib/angular-ui-bootstrap/ui-bootstrap-tpls-0.8.0.min.js"></script>
 <script src="lib/lvl-drag-drop/lvl-uuid.js"></script>

@@ -817,3 +817,9 @@ legend + .control-group {
 .charimport-result td.number {
   text-align: right;
 }
+
+/* Busy animation overlay */
+
+.cg-busy {
+  margin-top: -20px;
+}

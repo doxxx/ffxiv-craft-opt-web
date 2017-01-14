@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers', [])
     .controller('MainController', controller);
 
-  function controller($scope, $rootScope, $modal, $translate, _allClasses, _actionGroups, _actionsByName,
+  function controller($scope, $rootScope, $q, $modal, $translate, _allClasses, _actionGroups, _actionsByName,
     _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats)
   {
     $scope.allClasses = _allClasses;
@@ -57,21 +57,31 @@
       }
     };
 
+
+    $scope.cgBusyConfig = {
+      promise: undefined,
+      message: "Loading...",
+      delay: 0,
+      minDuration: 1000
+    };
+
     $rootScope.$on('$translateChangeSuccess', onTranslateChangeSuccess);
     $scope.$on('recipe.selected', onRecipeSelected);
     $scope.$on('update.sequence', onUpdateSequence);
 
     // Final initialization
-    _xivdbtooltips.onLanguageChange($translate.use());
     loadLocalPageState($scope);
-
     _profile.useStorage(_localStorage);
-    _profile.load().then(onProfileLoaded);
+
+    $scope.cgBusyConfig.promise = $q.all([
+      _xivdbtooltips.loadTooltips($translate.use()),
+      _profile.load().then(onProfileLoaded)
+    ]);
 
     //////////////////////////////////////////////////////////////////////////
 
     function onTranslateChangeSuccess(event, data) {
-      _xivdbtooltips.onLanguageChange(data.language);
+      $scope.cgBusyConfig.promise = _xivdbtooltips.loadTooltips(data.language);
       $scope.$broadcast('$translateChangeSuccess', data);
     }
 

@@ -7,6 +7,7 @@
       'ui.router',
       'pascalprecht.translate',
       'lvl.directives.dragdrop',
+      'cgBusy',
       'ffxivCraftOptWeb.services.actions',
       'ffxivCraftOptWeb.services.bonusStats',
       'ffxivCraftOptWeb.services.storage',
