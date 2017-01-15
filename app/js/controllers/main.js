@@ -110,10 +110,6 @@
       $scope.savedSynthNames = $scope.profile.synthNames();
 
       // watches for automatic updates and saving settings
-      $scope.$watchCollection('sections', function () {
-        saveLocalPageState($scope);
-      });
-
       $scope.$watch('settings.name', function () {
         saveLocalPageState($scope);
       });
@@ -359,13 +355,6 @@
     }
 
     function initPageStateDefaults($scope) {
-      $scope.sections = {
-        crafter: true,
-        synth: true,
-        simulator: true,
-        simulatorOptions: false
-      };
-
       $scope.settings = {
         name: ''
       };
@@ -412,7 +401,6 @@
 
       var state = JSON.parse(localStorage['pageStage_v2']);
 
-      angular.extend($scope.sections, state.sections);
       angular.extend($scope.bonusStats, state.bonusStats);
       angular.extend($scope.recipe, state.recipe);
       angular.extend($scope.sequenceSettings, state.sequenceSettings);
@@ -428,11 +416,6 @@
     }
 
     function loadLocalPageState_v1($scope) {
-      var sections = localStorage['sections'];
-      if (sections) {
-        angular.extend($scope.sections, JSON.parse(sections));
-      }
-
       if (localStorage['settingsName']) {
         $scope.settings.name = localStorage['settingsName'];
       }
@@ -475,7 +458,6 @@
 
     function saveLocalPageState_v2($scope) {
       var state = {
-        sections: $scope.sections,
         bonusStats: $scope.bonusStats,
         recipe: $scope.recipe,
         sequence: $scope.sequence,
