@@ -3991,6 +3991,19 @@
     "level": 45,
     "maxQuality": 2309,
     "name": {
+      "de": "Gek\u00fcrzte Woll-Beinlinge",
+      "en": "Cropped Wool Slops",
+      "fr": "Pantalon court en laine",
+      "ja": "\u30a6\u30fc\u30eb\u30af\u30ed\u30c3\u30d7\u30c9\u30d1\u30f3\u30c4"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
       "de": "Filz-Chausses",
       "en": "Felt Chausses",
       "fr": "Chausses en feutre",
@@ -4152,6 +4165,32 @@
       "en": "Vintage Jester's Cap",
       "fr": "Chapeau de bouffon de collection",
       "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30b8\u30a7\u30b9\u30bf\u30fc\u30ad\u30e3\u30c3\u30d7"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Woll-Strickm\u00fctze",
+      "en": "Wool Knit Cap",
+      "fr": "Bonnet tricot\u00e9 en laine",
+      "ja": "\u30a6\u30fc\u30eb\u30cb\u30c3\u30c8\u30ad\u30e3\u30c3\u30d7"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "de": "Wollrock mit Hosentr\u00e4gern",
+      "en": "Wool Suspenders",
+      "fr": "Chemise \u00e0 bretelles en laine",
+      "ja": "\u30a6\u30fc\u30eb\u30b5\u30b9\u30da\u30f3\u30c0\u30fc\u30b7\u30e3\u30c4"
     }
   },
   {
@@ -8807,10 +8846,52 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
+      "de": "Gek\u00fcrzte Flanell-Beinlinge",
+      "en": "Cropped Flannel Slops",
+      "fr": "Pantalon court en flanelle",
+      "ja": "\u30d5\u30e9\u30f3\u30cd\u30eb\u30af\u30ed\u30c3\u30d7\u30c9\u30d1\u30f3\u30c4"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
       "de": "Falknerhemd",
       "en": "Falconer's Shirt",
       "fr": "Chemise de fauconnier",
       "ja": "\u30d5\u30a1\u30eb\u30b3\u30ca\u30fc\u30b7\u30e3\u30c4"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Flanell-Strickm\u00fctze",
+      "en": "Flannel Knit Cap",
+      "fr": "Bonnet en flanelle",
+      "ja": "\u30d5\u30e9\u30f3\u30cd\u30eb\u30cb\u30c3\u30c8\u30ad\u30e3\u30c3\u30d7"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "de": "Flanellrock mit Hosentr\u00e4gern",
+      "en": "Flannel Suspenders",
+      "fr": "Chemise \u00e0 bretelles en flanelle",
+      "ja": "\u30d5\u30e9\u30f3\u30cd\u30eb\u30b5\u30b9\u30da\u30f3\u30c0\u30fc\u30b7\u30e3\u30c4"
     },
     "stars": 1
   },
@@ -9427,6 +9508,20 @@
       "en": "Forgemaster's Slops",
       "fr": "Trousses d'expert de la forge",
       "ja": "\u30d5\u30a9\u30fc\u30b8\u30de\u30b9\u30bf\u30fc\u30b9\u30ed\u30c3\u30d7"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Fortemps-Innenwand",
+      "en": "Fortemps Manor Interior Wall",
+      "fr": "Rev\u00eatement mural du manoir des Fortemps",
+      "ja": "\u30d5\u30a9\u30eb\u30bf\u30f3\u30de\u30ca\u30fc\u30fb\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb"
     },
     "stars": 2
   },
@@ -10053,7 +10148,7 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
-      "de": "K\u00f6nigin Madragora-Puppe",
+      "de": "K\u00f6nigin Mandragora-Puppe",
       "en": "Stuffed Mandragora Queen",
       "fr": "Reine mandragore en peluche",
       "ja": "\u30de\u30f3\u30c9\u30e9\u30af\u30a4\u30fc\u30f3\u306e\u306c\u3044\u3050\u308b\u307f"

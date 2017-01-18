@@ -4401,7 +4401,7 @@
     "maxQuality": 1460,
     "name": {
       "de": "Miniatur-Magitek-Schnitter",
-      "en": "Miniature Magitek Reaper",
+      "en": "Magitek Reaper Miniature",
       "fr": "Mod\u00e8le r\u00e9duit magitek",
       "ja": "MG\u9b54\u5c0e\u30ea\u30fc\u30d1\u30fc"
     },
@@ -7389,6 +7389,34 @@
       "en": "Heavy Metal Tassets of Striking",
       "fr": "Tassette d'agresseur en alliage de tungst\u00e8ne",
       "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30bf\u30bb\u30c3\u30c8"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 3542,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 6593,
+    "name": {
+      "de": "Zurvan-Modell",
+      "en": "Zurvan Miniature",
+      "fr": "Figurine magitek de Zurvan",
+      "ja": "MG\u30ba\u30eb\u30ef\u30fc\u30f3"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 984,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Zurvan-Rossharnisch",
+      "en": "Zurvanite Barding",
+      "fr": "Barde de Zurvan",
+      "ja": "\u30ba\u30eb\u30ef\u30fc\u30f3\u30fb\u30d0\u30fc\u30c9"
     },
     "stars": 4
   }

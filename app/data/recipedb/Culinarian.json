@@ -305,7 +305,7 @@
     "level": 5,
     "maxQuality": 451,
     "name": {
-      "de": "Gebratene Forelle",
+      "de": "Gegrillte Forelle",
       "en": "Grilled Trout",
       "fr": "Truite grill\u00e9e",
       "ja": "\u30b0\u30ea\u30eb\u30c9\u30c8\u30e9\u30a6\u30c8"
@@ -1320,7 +1320,7 @@
     "maxQuality": 1122,
     "name": {
       "de": "Getrocknete Pflaumen",
-      "en": "Dried Prunes",
+      "en": "Dried Plums",
       "fr": "Pruneaux",
       "ja": "\u30c9\u30e9\u30a4\u30d7\u30eb\u30fc\u30f3"
     }
@@ -2978,7 +2978,7 @@
     "name": {
       "de": "Gr\u00fcntee-Set",
       "en": "Green Tea Set",
-      "fr": "Set de th\u00e9 vert",
+      "fr": "Collation de th\u00e9 vert",
       "ja": "\u30b0\u30ea\u30fc\u30f3\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
     },
     "stars": 1
@@ -3813,8 +3813,21 @@
     "name": {
       "de": "Fern\u00f6stliches Teeservice",
       "en": "Oriental Tea Set",
-      "fr": "Set de th\u00e9 oriental",
+      "fr": "Collation de th\u00e9 oriental",
       "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "de": "Riviera-Fr\u00fchst\u00fccks-Set",
+      "en": "Riviera Breakfast",
+      "fr": "Omelette",
+      "ja": "\u30aa\u30e0\u30ec\u30c4\u30d7\u30ec\u30fc\u30c8"
     }
   },
   {

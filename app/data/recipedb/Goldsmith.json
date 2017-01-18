@@ -5995,6 +5995,20 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 624,
+    "durability": 80,
+    "level": 55,
+    "maxQuality": 1323,
+    "name": {
+      "de": "Efeu-S\u00e4ule",
+      "en": "Ivy Pillar",
+      "fr": "Colonne habill\u00e9e de lierre",
+      "ja": "\u30a2\u30a4\u30d3\u30fc\u30d4\u30e9\u30fc"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 195,
     "durability": 80,
     "level": 55,
@@ -6874,6 +6888,20 @@
       "en": "Monochrome Flooring",
       "fr": "Carrelage noir et blanc",
       "ja": "\u30e2\u30ce\u30af\u30ed\u30fc\u30e0\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "de": "Blumentopf-Deckenleuchte",
+      "en": "Pendant Lamp Planter",
+      "fr": "Plafonnier \u00e0 fleurs",
+      "ja": "\u30da\u30f3\u30c0\u30f3\u30c8\u30e9\u30f3\u30d7\u30d7\u30e9\u30f3\u30bf\u30fc"
     },
     "stars": 2
   },
@@ -9391,6 +9419,32 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
+      "de": "Opal-Armreife des Zielens",
+      "en": "Opal Bracelet of Aiming",
+      "fr": "Bracelet de pisteur en opale",
+      "ja": "\u30aa\u30d1\u30fc\u30eb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "de": "Opal-Armreife der Magie",
+      "en": "Opal Bracelet of Casting",
+      "fr": "Bracelet d'incantateur en opale",
+      "ja": "\u30aa\u30d1\u30fc\u30eb\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
       "de": "Opal-Armreife der Verteidigung",
       "en": "Opal Bracelet of Fending",
       "fr": "Bracelet de protecteur en opale",
@@ -9404,49 +9458,23 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
+      "de": "Opal-Armreife der Heilung",
+      "en": "Opal Bracelet of Healing",
+      "fr": "Bracelet de soigneur en opale",
+      "ja": "\u30aa\u30d1\u30fc\u30eb\u30d2\u30fc\u30e9\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
       "de": "Opal-Armreife des Schlachtens",
       "en": "Opal Bracelet of Slaying",
       "fr": "Bracelet d'attaquant en opale",
       "ja": "\u30aa\u30d1\u30fc\u30eb\u30a2\u30bf\u30c3\u30ab\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
-    }
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 752,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 6561,
-    "name": {
-      "de": "Opal-Armreife des Zielens",
-      "en": "Opal Bracelets of Aiming",
-      "fr": "Bracelet de pisteur en opale",
-      "ja": "\u30aa\u30d1\u30fc\u30eb\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
-    }
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 752,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 6561,
-    "name": {
-      "de": "Opal-Armreife der Magie",
-      "en": "Opal Bracelets of Casting",
-      "fr": "Bracelet d'incantateur en opale",
-      "ja": "\u30aa\u30d1\u30fc\u30eb\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
-    }
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 752,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 6561,
-    "name": {
-      "de": "Opal-Armreife der Heilung",
-      "en": "Opal Bracelets of Healing",
-      "fr": "Bracelet de soigneur en opale",
-      "ja": "\u30aa\u30d1\u30fc\u30eb\u30d2\u30fc\u30e9\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
     }
   },
   {
@@ -10879,6 +10907,20 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "de": "Tribunal-Fu\u00dfboden",
+      "en": "Tribunal Flooring",
+      "fr": "Carrelage du tribunal",
+      "ja": "\u30c8\u30ea\u30d3\u30e5\u30ca\u30eb\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
     "level": 180,
@@ -10902,6 +10944,20 @@
       "en": "Crystal Chandelier",
       "fr": "Lustre en cristal",
       "ja": "\u30af\u30ea\u30b9\u30bf\u30eb\u30b7\u30e3\u30f3\u30c7\u30ea\u30a2"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2971,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 5186,
+    "name": {
+      "de": "Diabolos-Modell",
+      "en": "Diabolos Miniature",
+      "fr": "Figurine magitek de Diabolos",
+      "ja": "MG\u30c7\u30a3\u30a2\u30dc\u30ed\u30b9"
     },
     "stars": 3
   },
@@ -11081,7 +11137,7 @@
     "maxQuality": 11814,
     "name": {
       "de": "Garlond-Ohrringe des Handwerks",
-      "en": "Ironworks Earrings of Crafting",
+      "en": "Ironworks Earring of Crafting",
       "fr": "Boucles d'oreilles des cr\u00e9ations des Forges",
       "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
     },
@@ -11095,7 +11151,7 @@
     "maxQuality": 11814,
     "name": {
       "de": "Garlond-Ohrringe des Eifers",
-      "en": "Ironworks Earrings of Gathering",
+      "en": "Ironworks Earring of Gathering",
       "fr": "Boucles d'oreilles des ressources des Forges",
       "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30a4\u30e4\u30ea\u30f3\u30b0"
     },
@@ -11137,7 +11193,7 @@
     "maxQuality": 5907,
     "name": {
       "de": "Nidhogg-Modell",
-      "en": "Miniature Nidhogg",
+      "en": "Nidhogg Miniature",
       "fr": "Figurine magitek de Nidhogg",
       "ja": "MG\u30cb\u30fc\u30ba\u30d8\u30c3\u30b0"
     },
@@ -11243,6 +11299,20 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 2971,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 5186,
+    "name": {
+      "de": "Scathach-Modell",
+      "en": "Scathach Miniature",
+      "fr": "Figurine magitek de Sc\u00e1thach",
+      "ja": "MG\u30b9\u30ab\u30a2\u30cf"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
     "level": 180,
@@ -11254,20 +11324,6 @@
       "ja": "\u30b9\u30bf\u30c3\u30d5\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
     },
     "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 3542,
-    "durability": 70,
-    "level": 190,
-    "maxQuality": 6593,
-    "name": {
-      "de": "Miniatur-Sophia",
-      "en": "Miniature Sophia",
-      "fr": "Figurine magitek de Sophia",
-      "ja": "MG\u30bd\u30d5\u30a3\u30a2"
-    },
-    "stars": 4
   },
   {
     "baseLevel": 60,
@@ -11490,6 +11546,20 @@
       "en": "Scintillant Staff",
       "fr": "B\u00e2ton en scintillant",
       "ja": "\u30b7\u30f3\u30c1\u30ec\u30fc\u30bf\u30fc\u30b9\u30bf\u30c3\u30d5"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 3542,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 6593,
+    "name": {
+      "de": "Miniatur-Sophia",
+      "en": "Sophia Miniature",
+      "fr": "Figurine magitek de Sophia",
+      "ja": "MG\u30bd\u30d5\u30a3\u30a2"
     },
     "stars": 4
   },
