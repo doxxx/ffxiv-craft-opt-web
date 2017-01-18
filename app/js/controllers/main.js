@@ -6,7 +6,7 @@
     .controller('MainController', controller);
 
   function controller($scope, $rootScope, $q, $modal, $translate, _allClasses, _actionGroups, _actionsByName,
-    _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats)
+    _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats, _languages)
   {
     $scope.allClasses = _allClasses;
     $scope.actionGroups = _actionGroups;
@@ -29,12 +29,7 @@
     $scope.isValidSequence = isValidSequence;
     $scope.showOptionsModal = showOptionsModal;
 
-    $scope.languages = {
-      ja: '日本語',
-      en: 'English',
-      de: 'Deutsch',
-      fr: 'Français'
-    };
+    $scope.languages = _languages;
 
     // non-persistent page state
     $scope.pageState = {

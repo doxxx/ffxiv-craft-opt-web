@@ -2,19 +2,27 @@
   'use strict';
 
   angular
-    .module('ffxivCraftOptWeb.services.recipelibrary', [])
+    .module('ffxivCraftOptWeb.services.recipelibrary', ['ffxivCraftOptWeb.services.actions', 'ffxivCraftOptWeb.services.locale'])
     .service('_recipeLibrary', RecipeLibraryService);
 
-  function RecipeLibraryService($http, $q) {
+  function RecipeLibraryService($http, $q, _allClasses, _languages) {
     this.$http = $http;
     this.$q = $q;
+    this._allClasses = _allClasses;
+    this._languages = _languages;
     this.cache = {}
   }
 
-  RecipeLibraryService.$inject = ['$http', '$q'];
+  RecipeLibraryService.$inject = ['$http', '$q', '_allClasses', '_languages'];
 
   RecipeLibraryService.prototype.recipesForClass = function(lang, cls) {
     if (!angular.isDefined(lang)) lang = 'en';
+    if (!this._languages[lang]) {
+      return this.$q.reject(new Error('invalid language: ' + lang));
+    }
+    if (this._allClasses.indexOf(cls) < 0) {
+      return this.$q.reject(new Error('invalid class: ' + cls));
+    }
     var key = cache_key(lang, cls);
     var promise = this.cache[key];
     if (!promise) {
@@ -46,7 +54,7 @@
             return recipe;
           }
         }
-        return this.$q.reject();
+        return this.$q.reject(new Error("could not find recipe"));
       }.bind(this)
     );
   };

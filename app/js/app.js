@@ -8,6 +8,7 @@
       'pascalprecht.translate',
       'lvl.directives.dragdrop',
       'cgBusy',
+      'ffxivCraftOptWeb.services.locale',
       'ffxivCraftOptWeb.services.actions',
       'ffxivCraftOptWeb.services.bonusStats',
       'ffxivCraftOptWeb.services.storage',
