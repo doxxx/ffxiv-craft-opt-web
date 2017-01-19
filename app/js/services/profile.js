@@ -24,7 +24,7 @@
 
   ProfileService.prototype.load = function () {
     return this.$timeout(function () {
-      this.synths = this.storage.get('synths');
+      this.synths = this.storage.get('synths') || {};
 
       var modified = false;
       var name;
