@@ -1,45 +1,95 @@
-'use strict';
+(function () {
+  'use strict';
 
-var SimulationService = function($timeout) {
-  this.$timeout = $timeout;
-};
+  angular
+    .module('ffxivCraftOptWeb.services.simulator', [])
+    .service('_simulator', SimulatorService);
 
-SimulationService.$inject = ['$timeout'];
+  function SimulatorService($timeout) {
+    this.$timeout = $timeout;
 
-SimulationService.prototype.start = function(settings, success, error) {
-  if (settings.sequence.length <= 0) {
-    error({log: '', error: 'empty sequence'});
-    return;
+    var worker = new Worker('js/simulationworker.js');
+
+    var self = this;
+    worker.onmessage = function (e) {
+      if (e.data.success) {
+        self.$timeout(function () {
+          self.callbacks[e.data.id].success(e.data.success);
+        });
+      }
+      else if (e.data.error) {
+        self.$timeout(function () {
+          self.callbacks[e.data.id].error(e.data.error);
+        });
+      }
+      else {
+        console.error('unexpected message from simulation worker: %O', e.data);
+        if (e.data && e.data.id) {
+          self.$timeout(function () {
+            self.callbacks[e.data.id].error({log: '', error: 'unexpected message from simulation worker: ' + e.data});
+          });
+        }
+      }
+    };
+
+    this.worker = worker;
+
+    this.currentId = 0;
+    this.callbacks = {};
   }
-  if (settings.crafter.level < 50 && settings.recipe.level - settings.crafter.level > 5) {
-    error({log: '', error: 'too low level'});
-    return;
-  }
-  var worker = this.worker = new Worker('js/simulationworker.js');
-  var self = this;
-  worker.onmessage = function(e) {
-    if (e.data.success) {
-      worker.terminate();
-      self.$timeout(function() {
-        success(e.data.success);
-      });
+
+  SimulatorService.$inject = ['$timeout'];
+
+  SimulatorService.prototype.runMonteCarloSim = function(settings, success, error) {
+    if (settings.sequence.length <= 0) {
+      error({log: '', error: 'empty sequence'});
+      return;
     }
-    else if (e.data.error) {
-      worker.terminate();
-      self.$timeout(function() {
-        error(e.data.error);
-      });
+    if (settings.recipe.startQuality === undefined) {
+      settings.recipe = angular.copy(settings.recipe);
+      settings.recipe.startQuality = 0;
     }
-    else {
-      worker.terminate();
-      console.error('unexpected message from simulation worker: %O', e.data);
-      self.$timeout(function() {
-        error({log: '', error: 'unexpected message from simulation worker: ' + e.data});
-      });
-    }
+
+    var id = this.nextId();
+
+    this.callbacks[id] = {
+      success: success,
+      error: error
+    };
+
+    this.worker.postMessage({
+      id: id,
+      type: 'montecarlo',
+      settings: settings
+    });
   };
-  worker.postMessage(settings);
-};
 
-angular.module('ffxivCraftOptWeb.services.simulator', []).
-  service('_simulator', SimulationService);
+  SimulatorService.prototype.runProbabilisticSim = function (settings, success, error) {
+    if (settings.sequence.length <= 0) {
+      error({log: '', error: 'empty sequence'});
+      return;
+    }
+    if (settings.recipe.startQuality === undefined) {
+      settings.recipe = angular.copy(settings.recipe);
+      settings.recipe.startQuality = 0;
+    }
+
+    var id = this.nextId();
+
+    this.callbacks[id] = {
+      success: success,
+      error: error
+    };
+
+    this.worker.postMessage({
+      id: id,
+      type: 'prob',
+      settings: settings
+    });
+  };
+
+  SimulatorService.prototype.nextId = function () {
+    this.currentId += 1;
+    return this.currentId;
+  };
+})();

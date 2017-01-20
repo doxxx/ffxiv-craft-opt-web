@@ -1,0 +1,73 @@
+<div class="modal-header">
+  <h3>Character Import</h3>
+</div>
+
+<div class="modal-body">
+
+  <form class="form-inline" name="searchForm">
+    <select class="input-medium" ng-model="searchVars.server" ng-options="server for server in servers"></select>
+    <input class="input-medium" type="text" required ng-model="searchVars.name" placeholder="Name"/>
+    <button type="submit" class="btn" ng-click="search()" ng-disabled="searchForm.$invalid">Search</button>
+    <span ng-show="searching"><i class="fa fa-spinner fa-pulse"></i></span>
+  </form>
+
+  <alert ng-repeat="error in searchErrors track by $index" type="error" close="dismissSearchError($index)">{{error}}</alert>
+
+  <div class="row-fluid" ng-show="results">
+    <div class="container-fluid charimport-results" isolate-scrolling>
+      <div class="row-fluid charimport-result"
+          ng-class="{'selected': result.id===selected}"
+          ng-click="selectResult(result.id)"
+          ng-repeat="result in results | orderBy:'name' track by $index">
+        <div class="span9">
+          <div>
+            <span class="span12 charimport-result-name">{{result.name}}</span>
+          </div>
+          <div>
+            <div ng-if="chars[result.id].loading">
+              <i class="fa fa-spinner fa-pulse"></i>
+            </div>
+            <div class="text-error" ng-if="chars[result.id].error">
+              <p><i class="fa fa-warning"></i> No data available!</p>
+            </div>
+            <div ng-if="!chars[result.id].loading && !chars[result.id].error">
+              <table>
+                <tr>
+                  <th></th>
+                  <th ng-repeat="classInfo in chars[result.id].classes">
+                    <img ng-src="img/classes/{{classInfo.name}}.png" tooltip="Last updated {{classInfo.lastUpdated}}"/>
+                  </th>
+                </tr>
+                <tr>
+                  <td>Level</td>
+                  <td ng-repeat="classInfo in chars[result.id].classes" class="number">{{classInfo.level}}</td>
+                </tr>
+                <tr>
+                  <td>Craftsmanship</td>
+                  <td ng-repeat="classInfo in chars[result.id].classes" class="number" ng-class="{'text-warning':classInfo.craftsmanship === 0}">{{classInfo.craftsmanship}}</td>
+                </tr>
+                <tr>
+                  <td>Control</td>
+                  <td ng-repeat="classInfo in chars[result.id].classes" class="number" ng-class="{'text-warning':classInfo.control === 0}">{{classInfo.control}}</td>
+                </tr>
+                <tr>
+                  <td>CP</td>
+                  <td ng-repeat="classInfo in chars[result.id].classes" class="number" ng-class="{'text-warning':classInfo.cp === 0}">{{classInfo.cp}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="span3">
+          <img ng-src="{{result.icon}}"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="modal-footer">
+  <button class="btn btn-primary" ng-click="importCharacter()" ng-disabled="!selectedChar || selectedChar.error">Import</button>
+  <button class="btn" ng-click="cancel()">Cancel</button>
+</div>

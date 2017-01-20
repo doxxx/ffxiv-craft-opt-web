@@ -1,0 +1,174 @@
+<div class="modal-header">
+  <h3>Options</h3>
+</div>
+
+<div class="modal-body" isolate-scrolling>
+  <form name="allOptionsForm">
+    <tabset>
+      <tab heading="Simulator" active="pageState.options.tabs.simulator.active">
+        <form name="simulatorOptionsForm">
+
+          <div class="control-group" ng-class="{error: simulatorOptionsForm.maxMontecarloRuns.$invalid}">
+            <label class="control-label">Montecarlo Runs:</label>
+
+            <div class="controls">
+              <input class="input-small" type="number" name="maxMontecarloRuns"
+                     ng-model="sequenceSettings.maxMontecarloRuns" min="1" max="10000" required/>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <div class="controls">
+              <label class="checkbox">
+                <input type="checkbox" name="useConditions" ng-model="sequenceSettings.useConditions"/>Use Conditions
+              </label>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <div class="controls">
+              <label class="checkbox">
+                <input type="checkbox" name="overrideOnCondition" ng-model="sequenceSettings.overrideOnCondition"/>Override
+                On Condition
+              </label>
+            </div>
+          </div>
+        </form>
+      </tab>
+
+      <tab heading="Solver" active="pageState.options.tabs.solver.active">
+        <form name="solverOptionsForm">
+
+          <div class="control-group" ng-class="{error: solverOptionsForm.maxTricksUses.$invalid}">
+            <label class="control-label">Max Tricks</label>
+
+            <div class="controls">
+              <input class="input-small" type="number" name="maxTricksUses" ng-model="sequenceSettings.maxTricksUses"
+                     min="0" required/>
+            </div>
+          </div>
+
+          <div class="control-group" ng-class="{error: solverOptionsForm.reliabilityPercent.$invalid}">
+            <label class="control-label">Reliability %:</label>
+
+            <div class="controls">
+              <input class="input-small" type="number" name="reliabilityPercent"
+                     ng-model="sequenceSettings.reliabilityPercent" min="1" max="100" required/>
+            </div>
+          </div>
+
+          <div class="control-group" ng-class="{error: solverOptionsForm.penaltyWeight.$invalid}">
+            <label class="control-label">Penalty Weight:</label>
+
+            <div class="controls">
+              <input class="input-small" type="number" name="penaltyWeight" ng-model="solver.penaltyWeight" min="1"
+                     required/>
+            </div>
+          </div>
+
+          <div class="control-group" ng-class="{error: solverOptionsForm.algorithm.$invalid}">
+            <label class="control-label">Algorithm:</label>
+
+            <div class="controls">
+              <select class="input-medium" name="algorithm" ng-model="solver.algorithm" required>
+                <option>eaSimple</option>
+                <option>eaComplex</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="control-group" ng-class="{error: solverOptionsForm.population.$invalid}">
+            <label class="control-label">Population:</label>
+
+            <div class="controls">
+              <input class="input-small" type="number" name="population" ng-model="solver.population" min="1"
+                     required/>
+            </div>
+          </div>
+
+          <div class="control-group" ng-class="{error: solverOptionsForm.generations.$invalid}">
+            <label class="control-label">Generations:</label>
+
+            <div class="controls">
+              <input class="input-small" type="number" name="generations" ng-model="solver.generations" min="1"
+                     required/>
+            </div>
+          </div>
+
+        </form>
+      </tab>
+
+      <tab heading="Macro" active="pageState.options.tabs.macro.active">
+        <form name="macroOptionsForm">
+
+          <div class="control-group">
+            <label for="macros.waitTime" class="control-label">Wait Time</label>
+
+            <div class="controls">
+              <input id="macros.waitTime" class="input-mini" type="number" ng-model="macroOptions.waitTime" min="1"
+                     required/>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label for="macros.buffWaitTime" class="control-label">Buff Wait Time</label>
+
+            <div class="controls">
+              <input id="macros.buffWaitTime" class="input-mini" type="number" ng-model="macroOptions.buffWaitTime" min="1"
+                     required/>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label for="macros.stepSoundEffect" class="control-label">Step Sound Effect</label>
+
+            <div class="controls">
+              <input id="macros.stepSoundEffect" class="input-mini" type="number" ng-model="macroOptions.stepSoundEffect"
+                     min="1" max="16" required/>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label for="macros.finishSoundEffect" class="control-label">Finish Sound Effect</label>
+
+            <div class="controls">
+              <input id="macros.finishSoundEffect" class="input-mini" type="number" ng-model="macroOptions.finishSoundEffect"
+                     min="1" max="16" required/>
+            </div>
+          </div>
+
+        </form>
+      </tab>
+
+      <tab heading="Debugging" active="pageState.options.tabs.debugging.active">
+        <form name="generalOptionsForm">
+
+          <div class="control-group"
+               ng-class="{error: sequenceSettings.specifySeed && generalOptionsForm.seed.$invalid}">
+            <div class="controls">
+              <label class="checkbox">
+                <input type="checkbox" ng-model="sequenceSettings.specifySeed"/>Specify Seed
+              </label>
+              <input class="input-small" type="number" name="seed" ng-model="sequenceSettings.seed"
+                     ng-disabled="!sequenceSettings.specifySeed" min="0" ng-required="sequenceSettings.specifySeed"/>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <div class="controls">
+              <label class="checkbox">
+                <input type="checkbox" name="debug" ng-model="sequenceSettings.debug"/>Debug
+              </label>
+            </div>
+          </div>
+
+        </form>
+      </tab>
+    </tabset>
+  </form>
+</div>
+
+<div class="modal-footer">
+  <button class="btn btn-primary" ng-click="save()" ng-disabled="allOptionsForm.$pristine || allOptionsForm.$invalid">Save</button>
+  <button class="btn" ng-click="cancel()">Cancel</button>
+</div>

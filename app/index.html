@@ -6,429 +6,113 @@
   <title>FFXIV Crafting Optimizer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"/>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css">
   <link rel="stylesheet" href="css/base.css"/>
   <link rel="stylesheet" href="css/app.css"/>
-  <link rel="stylesheet" href="http://xivdb.com/css/tooltip.css"/>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+  <link rel="stylesheet" href="http://legacy.xivdb.com/css/tooltip.css"/>
+  <link rel="stylesheet" href="lib/angular-busy/angular-busy.min.css"/>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-rc.1/angular-ui-router.js"></script>
   <script src="lib/angular-translate/angular-translate.min.js"></script>
   <script src="lib/angular-translate/angular-translate-loader-static-files.min.js"></script>
-  <script src="js/version-footer.js"></script>
+  <script src="lib/angular-busy/angular-busy.js"></script>
 </head>
 
-<body ng-controller="MainCtrl" ng-cloak>
+<body ng-controller="MainController" ng-cloak>
 
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container-fluid">
-      <button type="button" class="btn btn-navbar" ng-click="navBarCollapsed = !navBarCollapsed">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="brand" href="index.html">FFXIV Crafting Optimizer</a>
-      <div class="nav-collapse" collapse="navBarCollapsed">
-        <ul class="nav">
-          <li><a href="instructions.html">Instructions</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="blog">Blog</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle">Language: {{languages[currentLang()]}} <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li ng-repeat="(langCode, langName) in languages"><a ng-click="changeLang(langCode)">{{langName}}</a></li>
-            </ul>
-          </li>
-          <li class="divider-vertical"></li>
-          <li><a href="http://ffxiv-beta.lokyst.net/"><span class="important">New Beta Layout!</span></a></li>
-        </ul>
+<div cg-busy="cgBusyConfig">
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container-fluid">
+        <button type="button" class="btn btn-navbar" ng-click="pageState.navBarCollapsed = !pageState.navBarCollapsed">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">FFXIV Crafting Optimizer</a>
+        <div class="nav-collapse" collapse="pageState.navBarCollapsed">
+          <ul class="nav">
+            <li ui-sref-active="active"><a ui-sref="simulator">Simulator</a></li>
+            <li ui-sref-active="active"><a ui-sref="solver">Solver</a></li>
+            <li ui-sref-active="active"><a ui-sref="crafter-attributes">Crafter Attributes</a></li>
+          </ul>
+          <ul class="nav pull-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle">More...</a>
+              <ul class="dropdown-menu">
+                <li ui-sref-active="active"><a ui-sref="about">About</a></li>
+                <li ui-sref-active="active"><a ui-sref="instructions">Instructions</a></li>
+                <li><a href="blog">Blog</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle">Language: {{languages[currentLang()]}}</a>
+              <ul class="dropdown-menu">
+                <li ng-repeat="(langCode, langName) in languages"><a ng-click="changeLang(langCode)">{{langName}}</a></li>
+              </ul>
+            </li>
+            <li><a ng-click="showOptionsModal()">
+              <i ng-if="pageState.navBarCollapsed" class="fa fa-cog fa-lg"></i>
+              <span ng-if="!pageState.navBarCollapsed">Options...</span>
+            </a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="container-fluid">
-  <div class="row-fluid">
-    <noscript>
-      <h1>This site requires Javascript to function.</h1>
-    </noscript>
-    <ng-form name="allForms">
-      <accordion close-others="false">
-        <accordion-group is-open="sections.crafter">
-          <accordion-heading>
-            <my-section-header is-open="sections.crafter" title="Crafter Details"/>
-          </accordion-heading>
-          <div class="row-fluid">
-            <div class="row-fluid">
-              <div class="btn-group">
-                <button class="btn btn-primary"
-                        ng-model="crafter.cls"
-                        btn-radio="class"
-                        ng-repeat="class in allClasses"
-                        tooltip="{{class}}"
-                        tooltip-placement="top"
-                        tooltip-append-to-body="true"
-                        tooltip-popup-delay="200">
-                  <img ng-src="img/classes/{{class}}.png"/>
-                </button>
-              </div>
-            </div>
-            <div class="row-fluid">
-              <div class="span6">
-                <form class="form-horizontal" name="crafterForm">
-                  <fieldset>
-                    <legend><small>{{crafter.cls}} Stats</small></legend>
-                    <div class="control-group" ng-class="{error: !crafterForm.level.$valid}">
-                      <label class="control-label">Level</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" name="level" ng-model="crafter.stats[crafter.cls].level" min="1" max="50" required/>
-                      </div>
-                    </div>
-                    <div class="control-group" ng-class="{error: !crafterForm.craftsmanship.$valid}">
-                      <label class="control-label">Craftsmanship</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" name="craftsmanship" ng-model="crafter.stats[crafter.cls].craftsmanship" min="0" required/>
-                      </div>
-                    </div>
-                    <div class="control-group" ng-class="{error: !crafterForm.control.$valid}">
-                      <label class="control-label">Control</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" name="control" ng-model="crafter.stats[crafter.cls].control" min="0" required/>
-                      </div>
-                    </div>
-                    <div class="control-group" ng-class="{error: !crafterForm.cp.$valid}">
-                      <label class="control-label">CP</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" name="cp" ng-model="crafter.stats[crafter.cls].cp" min="0" required/>
-                      </div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-              <div class="span6">
-                <form class="action-table">
-                  <fieldset>
-                    <legend><small>Available Actions</small></legend>
-                    <div class="control-group" ng-repeat="actionGroup in actionGroups">
-                      <label class="control-label">{{actionGroup.name}}</label>
-                      <div class="controls">
-                        <img ng-repeat="action in actionGroup.actions track by $index"
-                             class="action selectable-action"
-                             ng-class="actionClasses(action, crafter.cls)"
-                             ng-click="toggleAction(action)"
-                             ng-src="{{getActionImagePath(action, crafter.cls)}}"
-                             tooltip-html-unsafe="{{actionTooltip(action, crafter.cls)}}"
-                             tooltip-placement="left"
-                             tooltip-popup-delay="200"
-                             tooltip-append-to-body="true"/>
-                      </div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-            </div>
-          </div>
-        </accordion-group>
-        <accordion-group is-open="sections.synth">
-          <accordion-heading>
-            <my-section-header is-open="sections.synth" title="Synth Details"/>
-          </accordion-heading>
-          <div class="row-fluid">
-            <div class="settings-buttons">
-              <div class="dropdown">
-                <button type="button" class="btn" ng-click="newSynth()">New</button>
-                <button type="button" class="btn dropdown-toggle">Load <span class="caret"></span></button>
-                <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="name in savedSynthNames | orderBy:'toString()'">
-                    <a ng-click="loadSynth(name)">{{name}}</a>
-                  </li>
-                </ul>
-              </div>
-              <button type="button" class="btn" ng-click="saveSynth()" ng-disabled="settings.name == '' || !recipeForm.$valid">Save</button>
-              <button type="button" class="btn" ng-click="saveSynthAs()" ng-disabled="!recipeForm.$valid">Save As...</button>
-              <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle">Delete <span class="caret"></span></button>
-                <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="name in savedSynthNames | orderBy:'toString()'">
-                    <a ng-click="deleteSynth(name)">{{name}}</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle">Rename <span class="caret"></span></button>
-                <ul class="dropdown-menu" isolate-scrolling>
-                  <li ng-repeat="name in savedSynthNames | orderBy:'toString()'">
-                    <a ng-click="renameSynth(name)">{{name}}</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="row-fluid">
-            <form class="form-horizontal" name="recipeForm">
-              <fieldset>
-                <legend><small>Synth: <span class="light">{{synthNameForDisplay()}}<span ng-show="isSynthDirty()">*</span></span></small></legend>
-                <div class="row-fluid">
-                  <div class="btn-group">
-                    <button class="btn btn-primary"
-                            ng-model="recipe.cls"
-                            btn-radio="class"
-                            ng-repeat="class in allClasses"
-                            tooltip="{{class}}"
-                            tooltip-placement="top"
-                            tooltip-append-to-body="true"
-                            tooltip-popup-delay="200">
-                      <img ng-src="img/classes/{{class}}.png"/>
-                    </button>
-                  </div>
-                </div>
-                <div class="row-fluid">
-                  <div class="span6">
-                    <div class="control-group recipe-search-control">
-                      <label class="control-label">Recipe</label>
-                      <div class="controls">
-                        <div class="my-dropdown">
-                          <div class="nowrap">
-                            <span class="uneditable-input span4 my-dropdown-toggle">{{recipe.name}}</span>
-                            <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
-                          </div>
-                          <div class="my-dropdown-menu">
-                            <input class="input-medium search my-dropdown-focus" type="text" name="name" ng-model="recipeSearch.text"
-                                   placeholder="Search..." select-on-focus stop-click-propogation
-                                   ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"/>
-                            <ul class="recipe-menu-scrollable" isolate-scrolling>
-                              <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...</li>
-                              <li ng-hide="recipeSearch.loading" ng-repeat="r in recipeSearch.list" ng-class="{active: $index === recipeSearch.selected}" id="recipeSearchElement{{$index}}">
-                                <a ng-click="importRecipe(r.name)" ng-mouseover="recipeSearch.selected=$index">[{{r.level}}] {{r.name}}</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="control-group" ng-class="{error: !recipeForm.level.$valid}">
-                      <label class="control-label">Level</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" name="level" ng-model="recipe.level" min="1" required/>
-                      </div>
-                    </div>
-                    <div class="control-group" ng-class="{error: !recipeForm.difficulty.$valid}">
-                      <label class="control-label">Difficulty</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" name="difficulty" ng-model="recipe.difficulty" min="0" required/>
-                      </div>
-                    </div>
-                    <div class="control-group" ng-class="{error: !recipeForm.durability.$valid}">
-                      <label class="control-label">Durability</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" name="durability" ng-model="recipe.durability" min="0" required/>
-                      </div>
-                    </div>
-                    <div class="control-group" ng-class="{error: !recipeForm.startQuality.$valid}">
-                      <label class="control-label">Start Quality</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" name="startQuality" ng-model="recipe.startQuality" min="0" required/>
-                      </div>
-                    </div>
-                    <div class="control-group" ng-class="{error: !recipeForm.maxQuality.$valid}">
-                      <label class="control-label">Max Quality</label>
-                      <div class="controls">
-                        <input class="input-small" type="number" name="maxQuality" ng-model="recipe.maxQuality" min="0" required/>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="span1"></div>
-                  <div class="span3">
-                    <div class="well">
-                      <h5>{{recipe.cls}} Stats</h5>
-                      <ul>
-                        <li>Level: {{crafter.stats[recipe.cls].level}}</li>
-                        <li>Craftsmanship: {{crafter.stats[recipe.cls].craftsmanship}} + {{bonusStats.craftsmanship}}</li>
-                        <li>Control: {{crafter.stats[recipe.cls].control}} + {{bonusStats.control}}</li>
-                        <li>CP: {{crafter.stats[recipe.cls].cp}} + {{bonusStats.cp}}</li>
-                      </ul>
-                      <p><button class="btn" ng-click="showStatBonusesModal()">Stat Bonuses...</button></p>
-                    </div>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
-          </div>
-        </accordion-group>
-        <accordion-group is-open="sections.simulator">
-          <accordion-heading>
-            <my-section-header is-open="sections.simulator" title="Simulator"/>
-          </accordion-heading>
-          <div class="well">
-            <div class="row-fluid">
-              <h4>Initial Guess
-                <simulator-status class="initial-guess" recipe="recipe" status="simulatorStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
-              </h4>
-              <div class="sequence well well-small">
-                <img ng-repeat="action in sequence track by $index"
-                     class="action"
-                     ng-class="actionClasses(action, recipe.cls)"
-                     ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                     tooltip-html-unsafe="{{sequenceActionTooltip(action, recipe.cls)}}"
-                     tooltip-placement="top"
-                     tooltip-popup-delay="200"
-                     tooltip-append-to-body="true"/>
-              </div>
-              <div ng-show="uniqueCrossClassActions(sequence, recipe.cls).length > 0">
-                <h5>Required Cross Class Actions</h5>
-                <div class="sequence well well-small">
-                  <img ng-repeat="action in uniqueCrossClassActions(sequence, recipe.cls) track by $index"
-                       class="action"
-                       ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                       tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-                       tooltip-placement="top"
-                       tooltip-popup-delay="200"
-                       tooltip-append-to-body="true"/>
-                </div>
-              </div>
-              <div class="control-group">
-                <button class="btn btn-primary" ng-click="editSequence()" ng-disabled="simulatorStatus.running">Edit Sequence...</button>
-                <button class="btn btn-primary" ng-click="showMacroModal()" ng-disabled="sequence.length == 0">Macro...</button>
-                <button class="btn btn-primary" ng-click="runSimulation()" ng-disabled="simulatorStatus.running || !allForms.$valid || !isValidSequence(sequence, recipe.cls)">Simulate</button>
-                <button class="btn btn-primary" ng-click="runSolver()" ng-show="solverStatus.generationsCompleted == 0 && !solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Solve</button>
-                <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="solverStatus.state && !solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls) || solverStatus.error">Resume Solver</button>
-                <button class="btn btn-primary" ng-click="runSolver()" ng-show="solverStatus.state && !solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Restart Solver</button>
-                <button class="btn btn-danger" ng-click="stopSolver()" ng-show="solverStatus.running">Stop Solve</button>
-              </div>
-              <h4>Solver Result
-                <simulator-status class="solver-status" recipe="recipe" status="solverStatus" valid="isValidSequence(sequence, recipe.cls)"></simulator-status>
-              </h4>
-              <div ng-show="solverStatus.running">
-                <progressbar class="progress-striped active" value="solverStatus.generationsCompleted/solverStatus.maxGenerations*100">{{solverStatus.generationsCompleted}}/{{solverStatus.maxGenerations}}</progressbar>
-              </div>
-              <div ng-show="!solverStatus.running">
-                <div class="sequence well well-small" >
-                  <div ng-class="{'disabled-action-list': solverResult.sequence.equals(sequence)}">
-                    <img ng-repeat="action in solverResult.sequence track by $index"
-                         class="action"
-                         ng-class="actionClasses(action, recipe.cls)"
-                         ng-src="{{getActionImagePath(action, recipe.cls)}}"
-                         tooltip-html-unsafe="{{actionTooltip(action, recipe.cls)}}"
-                         tooltip-placement="top"
-                         tooltip-popup-delay="200"
-                         tooltip-append-to-body="true"/>
-                  </div>
-                </div>
-              </div>
-              <div class="control-group" ng-show="solverResult.sequence.length > 0">
-                <button class="btn btn-warning"
-                        ng-disabled="solverResult.sequence.length == 0 || solverResult.sequence.equals(sequence)"
-                        ng-click="useSolverResult()">Use Solver Result
-                </button>
-              </div>
-              <accordion>
-                <accordion-group is-open="sections.simulatorOptions">
-                  <accordion-heading>
-                    <my-section-header is-open="sections.simulatorOptions" title="Options"/>
-                  </accordion-heading>
-                  <div class="row-fluid">
-                    <form class="form-horizontal" name="simulatorOptionsForm">
-                      <div class="span6">
-                        <div class="control-group" ng-class="{error: !simulatorOptionsForm.maxTricksUses.$valid}">
-                          <label class="control-label">Max Tricks</label>
-                          <div class="controls">
-                            <input class="input-small" type="number" name="maxTricksUses" ng-model="sequenceSettings.maxTricksUses" min="0" required/>
-                          </div>
-                        </div>
-                        <div class="control-group" ng-class="{error: !simulatorOptionsForm.reliabilityPercent.$valid}">
-                          <label class="control-label">Reliability %:</label>
-                          <div class="controls">
-                            <input class="input-small" type="number" name="reliabilityPercent" ng-model="sequenceSettings.reliabilityPercent" min="1" max="100" required/>
-                          </div>
-                        </div>
-                        <div class="control-group" ng-class="{error: !simulatorOptionsForm.maxMontecarloRuns.$valid}">
-                          <label class="control-label">Montecarlo Runs:</label>
-                          <div class="controls">
-                            <input class="input-small" type="number" name="maxMontecarloRuns" ng-model="sequenceSettings.maxMontecarloRuns" min="1" max="10000" required/>
-                          </div>
-                        </div>
-                        <div class="control-group" ng-class="{error: !simulatorOptionsForm.penaltyWeight.$valid}">
-                          <label class="control-label">Penalty Weight:</label>
-                          <div class="controls">
-                            <input class="input-small" type="number" name="penaltyWeight" ng-model="solver.penaltyWeight" min="1" required/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="span6">
-                        <div class="control-group" ng-class="{error: !simulatorOptionsForm.population.$valid}">
-                          <label class="control-label">Population:</label>
-                          <div class="controls">
-                            <input class="input-small" type="number" name="population" ng-model="solver.population" min="1" max="500" required/>
-                          </div>
-                        </div>
-                        <div class="control-group" ng-class="{error: !simulatorOptionsForm.generations.$valid}">
-                          <label class="control-label">Generations:</label>
-                          <div class="controls">
-                            <input class="input-small" type="number" name="generations" ng-model="solver.generations" min="1" max="200" required/>
-                          </div>
-                        </div>
-                        <div class="control-group" ng-class="{error: sequenceSettings.specifySeed && !simulatorOptionsForm.seed.$valid}">
-                          <div class="controls">
-                            <label class="checkbox">
-                              <input type="checkbox" ng-model="sequenceSettings.specifySeed"/>Specify Seed
-                            </label>
-                            <input class="input-small" type="number" name="seed" ng-model="sequenceSettings.seed" ng-disabled="!sequenceSettings.specifySeed" min="0" ng-required="sequenceSettings.specifySeed"/>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <div class="controls">
-                            <label class="checkbox">
-                              <input type="checkbox" name="useConditions" ng-model="sequenceSettings.useConditions"/>Use Conditions
-                            </label>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <div class="controls">
-                            <label class="checkbox">
-                              <input type="checkbox" name="debug" ng-model="sequenceSettings.debug"/>Debug
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </accordion-group>
-              </accordion>
-            </div>
-          </div>
-          <tabset>
-            <tab heading="Simulation Log" active="simulatorTabs.simulation.active">
-              <pre>{{simulatorStatus.logText}}</pre>
-            </tab>
-            <tab heading="Solver Log" active="simulatorTabs.solver.active">
-              <pre>{{solverResult.logText}}</pre>
-            </tab>
-          </tabset>
-        </accordion-group>
-      </accordion>
-    </ng-form>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <noscript>
+        <h1>This site requires Javascript to function.</h1>
+      </noscript>
+      <ng-form name="allForms">
+        <div ui-view></div>
+      </ng-form>
+    </div>
   </div>
+
+  <footer>
+    <div class="container-fluid">
+      <p class="muted">Copyright &copy; 2014 - 2017 by Rhoda Baker and Gordon Tyler. Sourcecode on <a href="http://github.com/doxxx/ffxiv-craft-opt-web">Github</a>. {{version}}</p>
+      <p class="muted">FINAL FANTASY XIV &copy;2010 - 2017 SQUARE ENIX CO., LTD. FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. All material used under license.</p>
+    </div>
+  </footer>
 </div>
 
-<div id="version-footer"/>
-
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-touch.min.js"></script>
 <script src="lib/angular-ui-bootstrap/ui-bootstrap-tpls-0.8.0.min.js"></script>
 <script src="lib/lvl-drag-drop/lvl-uuid.js"></script>
 <script src="lib/lvl-drag-drop/lvl-drag-drop.js"></script>
+<script src="lib/string/String.js"></script>
+<script src="js/polyfills.js"></script>
 <script src="js/app.js"></script>
-<script src="js/services.js"></script>
+<script src="js/routes.js"></script>
+<script src="js/actions.js"></script>
 <script src="js/services/actions.js"></script>
+<script src="js/services/bonusstats.js"></script>
+<script src="js/services/locale.js"></script>
 <script src="js/services/recipelibrary.js"></script>
-<script src="js/services/localprofile.js"></script>
+<script src="js/services/profile.js"></script>
 <script src="js/services/simulator.js"></script>
-<script src="js/services/solver.js"></script>
+<script src="js/services/translatelocalstorage.js"></script>
+<script src="js/services/xivdb.js"></script>
+<script src="js/solver/service.js"></script>
 <script src="js/services/xivdbtooltips.js"></script>
-<script src="js/controllers.js"></script>
+<script src="js/services/localstorage.js"></script>
+<script src="js/controllers/main.js"></script>
+<script src="js/controllers/crafterstats.js"></script>
+<script src="js/controllers/recipesearch.js"></script>
+<script src="js/controllers/simulator.js"></script>
+<script src="js/controllers/solver.js"></script>
 <script src="js/controllers/sequenceeditor.js"></script>
-<script src="js/controllers/statbonuseditor.js"></script>
-<script src="js/controllers/macro.js"></script>
+<script src="js/controllers/options.js"></script>
+<script src="js/controllers/charimport.js"></script>
 <script src="js/directives.js"></script>
-<script src="js/filters.js"></script>
+<script src="js/components/simulator-status.js"></script>
+<script src="js/components/action-table.js"></script>
+<script src="js/components/action-sequence.js"></script>
+<script src="js/components/macros.js"></script>
+<script src="js/components/buffs.js"></script>
 
 </body>
 

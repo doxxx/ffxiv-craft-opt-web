@@ -1,6 +1,9 @@
-angular.module("lvl.directives.dragdrop", ['lvl.services'])
+(function () {
+  'use strict';
 
-  .directive('lvlDraggable', [
+  var module = angular.module("lvl.directives.dragdrop", ['lvl.services']);
+
+  module.directive('lvlDraggable', [
     '$rootScope', 'uuid', function ($rootScope, uuid) {
       return {
         restrict: 'A',
@@ -8,13 +11,14 @@ angular.module("lvl.directives.dragdrop", ['lvl.services'])
           angular.element(el).attr("draggable", "true");
 
           var id = angular.element(el).attr("id");
+
           if (!id) {
             id = uuid.new()
             angular.element(el).attr("id", id);
           }
-
           el.bind("dragstart", function (e) {
-            e.dataTransfer.setData('text', id);
+            var oe = e.originalEvent || e;
+            oe.dataTransfer.setData('text', id);
             $rootScope.$emit("LVL-DRAG-START");
           });
 
@@ -22,11 +26,11 @@ angular.module("lvl.directives.dragdrop", ['lvl.services'])
             $rootScope.$emit("LVL-DRAG-END");
           });
         }
-      }
+      };
     }
-  ])
+  ]);
 
-  .directive('lvlDropTarget', [
+  module.directive('lvlDropTarget', [
     '$rootScope', 'uuid', function ($rootScope, uuid) {
       return {
         restrict: 'A',
@@ -36,7 +40,7 @@ angular.module("lvl.directives.dragdrop", ['lvl.services'])
         link: function (scope, el, attrs, controller) {
           var id = angular.element(el).attr("id");
           if (!id) {
-            id = uuid.new()
+            id = uuid.new();
             angular.element(el).attr("id", id);
           }
 
@@ -45,7 +49,8 @@ angular.module("lvl.directives.dragdrop", ['lvl.services'])
               e.preventDefault(); // Necessary. Allows us to drop.
             }
 
-            e.dataTransfer.dropEffect = 'move';  // See the section on the DataTransfer object.
+            var oe = e.originalEvent || e;
+            oe.dataTransfer.dropEffect = 'move';  // See the section on the DataTransfer object.
             return false;
           });
 
@@ -63,14 +68,15 @@ angular.module("lvl.directives.dragdrop", ['lvl.services'])
               e.preventDefault(); // Necessary. Allows us to drop.
             }
 
-            if (e.stopPropogation) {
-              e.stopPropogation(); // Necessary. Allows us to drop.
+            if (e.stopPropagation) {
+              e.stopPropagation(); // Necessary. Allows us to drop.
             }
-            var data = e.dataTransfer.getData("text");
+            var oe = e.originalEvent || e;
+            var data = oe.dataTransfer.getData("text");
             var dest = document.getElementById(id);
             var src = document.getElementById(data);
 
-            scope.onDrop({dragEl: src, dropEl: dest});
+            scope.onDrop({dragEl: data, dropEl: id});
           });
 
           $rootScope.$on("LVL-DRAG-START", function () {
@@ -84,6 +90,8 @@ angular.module("lvl.directives.dragdrop", ['lvl.services'])
             angular.element(el).removeClass("lvl-over");
           });
         }
-      }
+      };
     }
   ]);
+
+})();

@@ -1,0 +1,48 @@
+<div class="row-fluid">
+  <div class="control-group">
+    <button class="btn btn-primary" ng-click="startSolver()" ng-show="!pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Start</button>
+    <button class="btn btn-primary" ng-click="stopSolver()" ng-show="pageState.solverStatus.running">Stop</button>
+    <button class="btn btn-primary" ng-click="resumeSolver()" ng-show="pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !pageState.solverStatus.state || !isValidSequence(pageState.solverStatus.sequence, recipe.cls) || pageState.solverStatus.error">Continue</button>
+    <button class="btn btn-danger" ng-click="resetSolver()" ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.state">Reset</button>
+    <button class="btn btn-warning"
+            ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.sequence || pageState.solverStatus.sequence.length === 0 || equivalentSequence()"
+            ng-click="useSolverResult()">Edit Result in Simulator
+    </button>
+    <button class="btn" ng-click="showOptionsModal()">Options...</button>
+  </div>
+  <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
+  <h5>Initial Guess</h5>
+  <action-sequence class="sequence-small" cls="recipe.cls" actions="sequence" action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
+  <div ng-show="pageState.solverStatus.running">
+    <h5>Working...</h5>
+    <div class="sequence well well-small">
+      <progressbar class="progress-striped active"
+                   animate="false"
+                   value="pageState.solverStatus.generationsCompleted/pageState.solverStatus.maxGenerations*100">
+        {{pageState.solverStatus.generationsCompleted}}/{{pageState.solverStatus.maxGenerations}}
+      </progressbar>
+    </div>
+  </div>
+  <div ng-show="!pageState.solverStatus.running">
+    <h5>Solver Result <small ng-show="equivalentSequence()">no change</small></h5>
+    <div ng-class="{'disabled-action-list': equivalentSequence()}">
+      <action-sequence cls="recipe.cls" actions="pageState.solverStatus.sequence" action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
+    </div>
+  </div>
+  <tabset>
+    <tab heading="Probalistic Sim" active="logTabs.ga.active">
+      <pre>{{pageState.solverStatus.logs.ga}}</pre>
+    </tab>
+    <tab active="logTabs.mc.active">
+      <tab-heading>Monte Carlo Sim &nbsp; <i class="fa fa-refresh flat-button" ng-click="runMonteCarloSim(pageState.solverStatus.sequence)"></i></tab-heading>
+      <pre>{{pageState.solverStatus.logs.mc}}</pre>
+    </tab>
+    <tab active="logTabs.macro.active">
+      <tab-heading>Macro</tab-heading>
+      <macros sequence="pageState.solverStatus.sequence" options="macroOptions"></macros>
+    </tab>
+    <tab heading="Execution Log" active="logTabs.execution.active">
+      <pre>{{pageState.solverStatus.logs.execution}}</pre>
+    </tab>
+  </tabset>
+</div>

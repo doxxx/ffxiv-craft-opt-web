@@ -10,17 +10,6 @@ angular.module('ffxivCraftOptWeb.directives', [])
     }
   ])
 
-  .directive('mySectionHeader', function () {
-    return {
-      restrict: 'E',
-      scope: {
-        isOpen: '=',
-        title: '@'
-      },
-      templateUrl: 'partials/section-header.html'
-    }
-  })
-
   .directive('selectOnClick', function () {
     // Linker function
     return function (scope, element, attrs) {
@@ -43,9 +32,29 @@ angular.module('ffxivCraftOptWeb.directives', [])
     return {
       restrict: 'A',
       link: function (scope, element, attr) {
+        element.bind('DOMMouseScroll', function (e) {
+          if (e.detail > 0 && this.clientHeight + this.scrollTop == this.scrollHeight) {
+            this.scrollTop = this.scrollHeight - this.clientHeight;
+            e.stopPropagation();
+            e.preventDefault();
+            return false;
+          }
+          else if (e.detail < 0 && this.scrollTop <= 0) {
+            this.scrollTop = 0;
+            e.stopPropagation();
+            e.preventDefault();
+            return false;
+          }
+        });
         element.bind('mousewheel', function (e) {
-          if ((e.deltaY > 0 && this.clientHeight + this.scrollTop == this.scrollHeight) ||
-              (e.deltaY < 0 && this.scrollTop == 0)) {
+          if (e.deltaY > 0 && this.clientHeight + this.scrollTop >= this.scrollHeight) {
+            this.scrollTop = this.scrollHeight - this.clientHeight;
+            e.stopPropagation();
+            e.preventDefault();
+            return false;
+          }
+          else if (e.deltaY < 0 && this.scrollTop <= 0) {
+            this.scrollTop = 0;
             e.stopPropagation();
             e.preventDefault();
             return false;
@@ -174,14 +183,31 @@ angular.module('ffxivCraftOptWeb.directives', [])
     };
   })
 
-  .directive('simulatorStatus', function () {
-    return {
-      restrict: 'E',
-      templateUrl: 'partials/simulator-status.html',
-      scope: {
-        recipe: '=',
-        status: '=',
-        valid: '&'
-      }
-    }
+  .directive('forceNumeric', function () {
+      return {
+          require: 'ngModel',
+          link: function (scope, elem, attrs, ngModel) {
+            var forceNumeric = function (value) {
+              var num = ngModel.$isEmpty(value) ? 0 : value;
+
+              if (num !== value) {
+                ngModel.$setViewValue(num);
+                ngModel.$render();
+              }
+
+              return num;
+            };
+
+            ngModel.$parsers.push(forceNumeric);
+
+            elem.bind('keypress', function (event) {
+              if (event.target.value === '0') {
+                event.target.value = '';
+              }
+            });
+          }
+      };
   });
+
+// create this here for referencing by individual component js files
+angular.module('ffxivCraftOptWeb.components', []);

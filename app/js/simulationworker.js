@@ -1,10 +1,32 @@
 importScripts('../lib/string/String.js');
+importScripts('actions.js');
 importScripts('ffxivcraftmodel.js');
 importScripts('seededrandom.js');
 
 self.onmessage = function(e) {
-  var settings = e.data;
+  try {
+    switch (e.data.type) {
+      case 'prob':
+        runProbablisticSim(e.data.id, e.data.settings);
+        break;
+      case 'montecarlo':
+        runMonteCarloSim(e.data.id, e.data.settings);
+        break;
+      default:
+        console.error("unexpected message: %O", e.data);
+    }
+  } catch (ex) {
+    console.error(ex);
+    self.postMessage({
+      id: e.data.id,
+      error: {
+        error: ex.toString()
+      }
+    })
+  }
+};
 
+function setupSim(settings) {
   var seed = Math.seed;
   if (typeof settings.seed === 'number') {
     seed = settings.seed;
@@ -18,70 +40,108 @@ self.onmessage = function(e) {
   }
 
   var crafter = new Crafter(settings.recipe.cls,
-                            settings.crafter.level,
-                            settings.crafter.craftsmanship,
-                            settings.crafter.control,
-                            settings.crafter.cp,
-                            crafterActions);
+    settings.crafter.level,
+    settings.crafter.craftsmanship,
+    settings.crafter.control,
+    settings.crafter.cp,
+    crafterActions);
   var recipe = new Recipe(settings.recipe.level,
-                          settings.recipe.difficulty,
-                          settings.recipe.durability,
-                          settings.recipe.startQuality,
-                          settings.recipe.maxQuality);
-  var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, settings.useConditions);
-  var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false);
+    settings.recipe.difficulty,
+    settings.recipe.durability,
+    settings.recipe.startQuality,
+    settings.recipe.maxQuality,
+    settings.recipe.aspect);
+  var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent / 100.0,
+    settings.useConditions);
+  var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent / 100.0,
+    false);
 
   var startState = NewStateFromSynth(synth);
+  var startStateNoConditions = NewStateFromSynth(synthNoConditions);
 
   var sequence = [];
 
   for (var j = 0; j < settings.sequence.length; j++) {
     sequence.push(AllActions[settings.sequence[j]]);
   }
-
-  var logOutput = {
-    log: '',
-    write: function(msg) {
-      logOutput.log += msg;
-    }
+  return {
+    seed: seed,
+    synth: synth,
+    startState: startState,
+    startStateNoConditions: startStateNoConditions,
+    sequence: sequence
   };
+}
 
-  logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(seed, synth.useConditions));
+function runProbablisticSim(id, settings) {
+  var sim = setupSim(settings);
+
+  var logOutput = new LogOutput();
+
+  logOutput.write('Use Conditions: %s\n\n'.sprintf(sim.synth.useConditions));
 
   logOutput.write("Probabilistic Result\n");
   logOutput.write("====================\n");
 
-  simSynth(sequence, synth, startState, true, settings.debug, logOutput);
+  simSynth(sim.sequence, sim.startState, false, true, settings.debug, logOutput);
 
-  logOutput.write("\nMonte Carlo Result\n");
-  logOutput.write("==================\n");
+  self.postMessage({
+    id: id,
+    success: {
+      seed: sim.seed,
+      sequence: settings.sequence,
+      log: logOutput.log
+    }
+  });
+}
 
-  var mcSimResult = MonteCarloSim(sequence, synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
+function runMonteCarloSim(id, settings) {
+  var sim = setupSim(settings);
 
-  if (settings.debug) {
-    logOutput.write("\nMonte Carlo Example");
-    logOutput.write("\n===================\n");
-    MonteCarloSequence(sequence, synth, startState, false, true, false, true, logOutput);
-  }
+  var logOutput = new LogOutput();
+
+  logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(sim.seed, sim.synth.useConditions));
+
+  logOutput.write("Monte Carlo Example\n");
+  logOutput.write("===================\n");
+  MonteCarloSequence(sim.sequence, sim.startState, false, settings.overrideOnCondition, false, true, logOutput);
+
+  logOutput.write("\n");
+
+  var monteCarloSimHeader = "Monte Carlo Result of " + settings.maxMontecarloRuns + " runs";
+  logOutput.write(monteCarloSimHeader + "\n");
+  logOutput.write("=".repeat(monteCarloSimHeader.length));
+  logOutput.write("\n");
+
+  var mcSimResult = MonteCarloSim(sim.sequence, sim.synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
 
   // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSequence(sequence, synthNoConditions, startState, true, false, false, false, logOutput);
+  var finalState = MonteCarloSequence(sim.sequence, sim.startStateNoConditions, true, false, false, false, logOutput);
+
+  var violations = finalState.checkViolations();
 
   var result = {
+    id: id,
     success: {
+      seed: sim.seed,
+      sequence: settings.sequence,
       log: logOutput.log,
       state: {
         quality: finalState.qualityState,
-        durabilityOk: finalState.durabilityOk,
         durability: finalState.durabilityState,
-        cpOk: finalState.cpOk,
         cp: finalState.cpState,
-        progressOk: finalState.progressOk,
         progress: finalState.progressState,
-        successPercent: mcSimResult.successPercent
+        successPercent: mcSimResult.successPercent,
+        hqPercent: hqPercentFromQuality(finalState.qualityState / settings.recipe.maxQuality * 100),
+        feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
+        violations: violations,
+        condition: finalState.condition,
+        effects: finalState.effects,
+        lastStep: finalState.lastStep
       }
     }
   };
 
   self.postMessage(result);
-};
+}
+

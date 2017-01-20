@@ -1,0 +1,77 @@
+<div class="row-fluid simulator-status">
+  <div class="span3">
+    <table>
+      <tr><td>Durability</td></tr>
+      <tr><td class="value">{{durability}}/{{recipe.durability}}</td></tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr><td>Condition</td></tr>
+      <tr><td class="value">&nbsp;{{condition}}</td></tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr><td>&nbsp;</td></tr>
+    </table>
+  </div>
+  <div class="span9">
+    <table>
+      <tr><td>Progress</td></tr>
+      <tr>
+        <td class="bar" colspan="5"><progressbar value="progressPercent"></progressbar></td>
+        <td class="value">{{progress}} / {{recipe.difficulty}}</td>
+      </tr>
+      <tr><td>Quality</td></tr>
+      <tr>
+        <td class="bar" colspan="5"><progressbar value="qualityPercent"></progressbar></td>
+        <td class="value">{{quality}} / {{recipe.maxQuality}}</td>
+      </tr>
+      <tr><td>CP</td></tr>
+      <tr>
+        <td class="bar" colspan="5"><progressbar value="cpPercent"></progressbar></td>
+        <td class="value">{{cp}} / {{stats.cp}}</td>
+      </tr>
+      <tr>
+        <td>HQ</td>
+        <td class="value">{{hqPercent}}%</td>
+        <td>&nbsp;</td>
+        <td>Reliability</td>
+        <td class="value">{{successPercent | number: 0}}%</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<!--
+
+
+<span ng-class="{'invisible': !status.running}">
+  <i class="fa fa-spinner fa-spin"></i>
+</span>
+<span ng-show="!status.running">
+  <span ng-show="!valid()">
+    <span class="simulator-status-error"><i class="fa fa-warning"></i> invalid sequence</span>
+  </span>
+  <span ng-show="valid()">
+    <span ng-show="status.error">
+      <span class="simulator-status-error"><i class="fa fa-warning"></i> {{status.error}}</span>
+    </span>
+  </span>
+</span>
+<span ng-show="status.running && !status.state.feasible">
+  Calculating...
+</span>
+<span ng-show="(!status.running && valid() && !status.error && status.state) || (status.running && status.state.feasible)">
+  Q:{{status.state.quality | number:0}}
+  <span ng-class="{'simulator-status-error': !status.state.violations.progressOk, 'simulator-status-ok': status.state.violations.progressOk}">
+    &nbsp;Prog:{{status.state.progress | number:0}}/{{recipe.difficulty | number:0}} <i ng-show="!status.state.violations.progressOk" class="fa fa-warning"></i>
+  </span>
+  <span ng-show="!status.state.violations.durabilityOk" class="simulator-status-error">
+    &nbsp;Dur:{{status.state.durability | number:0}} <i class="fa fa-warning"></i>
+  </span>
+  <span ng-class="{'simulator-status-error': !status.state.violations.cpOk, 'simulator-status-ok': status.state.violations.progressOk}">
+    &nbsp;CP:{{status.state.cp | number:0}} <i ng-show="!status.state.violations.cpOk" class="fa fa-warning"></i>
+  </span>
+  <span ng-show="status.state.successPercent">
+    &nbsp;Success: {{status.state.successPercent | number:0}}%
+  </span>
+</span>
+-->

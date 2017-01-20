@@ -55,26 +55,36 @@ var yagal_tools = (function() {
     return r;
   }
 
+  function selBest(k, individuals) {
+    var r = individuals.slice();
+    r.sort(indComp);
+    return r.slice(0, k);
+  }
+
   function cxOnePoint(ind1, ind2) {
     var size = Math.min(ind1.length, ind2.length);
     var cxPoint = randInt(size);
     var ind1Gene = ind1[cxPoint];
     ind1[cxPoint] = ind2[cxPoint];
     ind2[cxPoint] = ind1Gene;
+    sanityCheck(ind1);
+    sanityCheck(ind2);
     return [ind1, ind2];
   }
   
-  function cxRandomSubSeq(subSeqLengthFactor, ind1, ind2) {
-    var seqLength1 = Math.min(ind1.length, randInt(ind1.length * subSeqLengthFactor + 1));
-    var seqLength2 = Math.min(ind2.length, randInt(ind2.length * subSeqLengthFactor + 1));
+  function cxRandomSubSeq(maxSubSeqLength, ind1, ind2) {
+    var seqLength1 = Math.min(ind1.length, randInt(maxSubSeqLength + 1));
+    var seqLength2 = Math.min(ind2.length, randInt(maxSubSeqLength + 1));
     var end1 = ind1.length - seqLength1;
     var end2 = ind2.length - seqLength2;
-    var i1 = randInt(end1);
-    var i2 = randInt(end2);
+    var i1 = randInt(end1 + 1);
+    var i2 = randInt(end2 + 1);
     var slice1 = ind1.slice(i1, i1 + seqLength1);
     var slice2 = ind2.slice(i2, i2 + seqLength2);
     spliceArray(ind1, i1, seqLength1, slice2);
     spliceArray(ind2, i2, seqLength2, slice1);
+    sanityCheck(ind1);
+    sanityCheck(ind2);
     return [ind1, ind2];
   }
 
@@ -91,6 +101,7 @@ var yagal_tools = (function() {
         }
       }
     }
+    sanityCheck(individual);
     return [individual];
   }
 
@@ -101,16 +112,33 @@ var yagal_tools = (function() {
         individual[i] = subFunc();
       }
     }
+    sanityCheck(individual);
     return [individual];
   }
 
-  function mutRandomSubSeq(subSeqLengthFactor, subFunc, individual) {
-    var seqLength = Math.min(individual.length, randInt(individual.length * subSeqLengthFactor) + 1);
+  function mutRandomSubSeq(maxSubSeqLength, subFunc, individual) {
+    var seqLength = Math.min(individual.length, Math.max(1, randInt(maxSubSeqLength + 1)));
     var end = individual.length - seqLength;
-    var i = randInt(end);
+    var i = randInt(end + 1);
     var args = [i, seqLength].concat(subFunc());
     Array.prototype.splice.apply(individual, args);
+    sanityCheck(individual);
     return [individual];
+  }
+
+  function mutSwap(individual) {
+    if (individual.length >= 2) {
+      var i = randInt(individual.length - 1);
+      var first = individual[i];
+      individual[i] = individual[i + 1];
+      individual[i + 1] = first;
+      sanityCheck(individual);
+    }
+    return [individual];
+  }
+
+  function randomMutation(mutations, individual) {
+    return mutations[randInt(mutations.length)].call(undefined, individual);
   }
 
   function indComp(a, b) {
@@ -130,6 +158,12 @@ var yagal_tools = (function() {
       }
     }
     return lo;
+  }
+
+  function sanityCheck(individual) {
+    for (var i = 0; i < individual.length; i++) {
+      console.assert(individual[i] !== undefined);
+    }
   }
 
   function HallOfFame(maxSize) {
@@ -176,6 +210,7 @@ var yagal_tools = (function() {
     initRepeat: initRepeat,
     initIterate: initIterate,
     maxByFitness: maxByFitness,
+    selBest: selBest,
     selRandom: selRandom,
     selTournament: selTournament,
     cxOnePoint: cxOnePoint,
@@ -183,6 +218,9 @@ var yagal_tools = (function() {
     mutShuffleIndexes: mutShuffleIndexes,
     mutRandomSub: mutRandomSub,
     mutRandomSubSeq: mutRandomSubSeq,
+    randomMutation: randomMutation,
+    mutSwap: mutSwap,
+    sanityCheck: sanityCheck,
     HallOfFame: HallOfFame,
   };
 }());

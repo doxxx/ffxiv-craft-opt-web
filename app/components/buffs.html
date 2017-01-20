@@ -1,0 +1,9 @@
+<div class="buffs well well-small">
+  <div class="buff" ng-repeat="buff in buffs track by $index">
+    <div class="image-wrap glossy icon">
+      <img ng-src="{{getActionImagePath(buff.name, recipe.cls)}}"/>
+    </div>
+    <br/>
+    <small>{{buff.count}}</small>
+  </div>
+</div>
