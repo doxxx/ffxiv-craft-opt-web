@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers', [])
     .controller('MainController', controller);
 
-  function controller($scope, $rootScope, $q, $modal, $translate, _allClasses, _actionGroups, _actionsByName,
+  function controller($scope, $rootScope, $q, $modal, $translate, $location, _allClasses, _actionGroups, _actionsByName,
     _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats, _languages)
   {
     $scope.allClasses = _allClasses;
@@ -28,6 +28,8 @@
     $scope.isActionCrossClass = isActionCrossClass;
     $scope.isValidSequence = isValidSequence;
     $scope.showOptionsModal = showOptionsModal;
+
+    $scope.version = getApplicationVersion();
 
     $scope.languages = _languages;
 
@@ -477,6 +479,18 @@
       }
     }
 
+    function getApplicationVersion() {
+      switch ($location.host()) {
+        case 'localhost':
+          return 'Local development version.';
+        case 'ffxiv-beta.lokyst.net':
+          return 'Official beta version.';
+        case 'ffxiv.lokyst.net':
+          return '';
+        default:
+          return 'Unofficial version.'
+      }
+    }
 
   }
 })();
