@@ -19,10 +19,6 @@
   white-space: nowrap;
 }
 
-textarea {
-  width: 100%;
-}
-
 textarea[readonly] {
   cursor: text;
 }
@@ -834,3 +830,29 @@ legend + .control-group {
   }
 }
 
+/* Settings Import/Export Modal */
+
+.settings-import-modal .btn.download {
+  font: 20pt bold;
+  padding: 25px 55px 25px 55px;
+}
+
+.settings-import-modal .centered {
+  text-align: center;
+}
+
+/* Dropzone */
+
+div[my-dropzone] {
+    border: 2px dashed #bbb;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    font: 20pt bold;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+div[my-dropzone]:-moz-drag-over {
+  border: 2px solid #bbb
+}

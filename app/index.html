@@ -40,6 +40,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle">More...</a>
               <ul class="dropdown-menu">
+                <li><a ng-click="showSettingsImportModal()">Import/Export Settings...</a></li>
                 <li ui-sref-active="active"><a ui-sref="about">About</a></li>
                 <li ui-sref-active="active"><a ui-sref="instructions">Instructions</a></li>
                 <li><a href="blog">Blog</a></li>
@@ -84,6 +85,8 @@
 <script src="lib/lvl-drag-drop/lvl-uuid.js"></script>
 <script src="lib/lvl-drag-drop/lvl-drag-drop.js"></script>
 <script src="lib/string/String.js"></script>
+<script src="lib/jszip/jszip.js"></script>
+<script src="lib/filesaver/FileSaver.js"></script>
 <script src="js/polyfills.js"></script>
 <script src="js/app.js"></script>
 <script src="js/routes.js"></script>
@@ -107,12 +110,14 @@
 <script src="js/controllers/sequenceeditor.js"></script>
 <script src="js/controllers/options.js"></script>
 <script src="js/controllers/charimport.js"></script>
+<script src="js/controllers/settingsimport.js"></script>
 <script src="js/directives.js"></script>
 <script src="js/components/simulator-status.js"></script>
 <script src="js/components/action-table.js"></script>
 <script src="js/components/action-sequence.js"></script>
 <script src="js/components/macros.js"></script>
 <script src="js/components/buffs.js"></script>
+<script src="js/components/dropzone.js"></script>
 
 </body>
 

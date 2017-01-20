@@ -28,6 +28,7 @@
     $scope.isActionCrossClass = isActionCrossClass;
     $scope.isValidSequence = isValidSequence;
     $scope.showOptionsModal = showOptionsModal;
+    $scope.showSettingsImportModal = showSettingsImportModal;
 
     $scope.version = getApplicationVersion();
 
@@ -342,6 +343,14 @@
         $scope.sequenceSettings = result.sequenceSettings;
         $scope.solver = result.solver;
         $scope.macroOptions = result.macroOptions;
+      });
+    }
+
+    function showSettingsImportModal() {
+      $modal.open({
+        templateUrl: 'modals/settingsimport.html',
+        controller: 'SettingsImportController',
+        windowClass: 'settings-import-modal'
       });
     }
 
