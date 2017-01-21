@@ -34,7 +34,7 @@
                   content: reader.result
                 };
 
-                var handler = scope.$eval(attrs['dzDropHandler']);
+                var handler = scope.$eval(attrs['dropHandler']);
                 scope.$apply(function () { handler(data); });
               };
             })(f, reader);
