@@ -54,6 +54,9 @@
     function importSettings(text) {
       var data;
       data = JSON.parse(text);
+      if (!$window.confirm('Are you sure you want to import this settings file? All your existing settings will be overwritten.')) {
+        return;
+      }
       console.log('Importing settings into local storage:', data);
       for (var key in data) {
         if (data.hasOwnProperty(key)) {
