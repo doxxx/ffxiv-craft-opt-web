@@ -437,22 +437,29 @@ function ApplyModifiers(s, action, condition) {
         bQualityGain *= (1 + 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName]);
     }
     // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
-    if ((isActionEq(action, AllActions.byregotsMiracle) && AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 2) {
-        bQualityGain *= (1.0 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]);
-    } else {
-        bQualityGain = 0;
+    if (isActionEq(action, AllActions.byregotsMiracle)) {
+        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 2) {
+            bQualityGain *= (1.0 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]);
+        } else {
+            bQualityGain = 0;
+        }
     }
+
     // We can only use Byregot's Brow when state material condition is Good or Excellent. Default is true for probabilistic method.
-    if ((isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.shortName in s.effects.countUps) && condition.checkGoodOrExcellent()) {
-        bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]) * condition.pGoodOrExcellent();
-    } else {
-        bQualityGain = 0;
+    if (isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.shortName in s.effects.countUps) {
+        if (condition.checkGoodOrExcellent()) {
+            bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]) * condition.pGoodOrExcellent();
+        } else {
+            bQualityGain = 0;
+        }
     }
     // We can only use Precise Touch when state material condition is Good or Excellent. Default is true for probabilistic method.
-    if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
-        bQualityGain *= condition.pGoodOrExcellent();
-    } else {
-        bQualityGain = 0;
+    if (isActionEq(action, AllActions.preciseTouch)) {
+        if (condition.checkGoodOrExcellent()) {
+            bQualityGain *= condition.pGoodOrExcellent();
+        } else {
+            bQualityGain = 0;
+        }
     }
     if (isActionEq(action, AllActions.trainedHand) && !condition.checkInnerQuietEqWhistle()) {
         bQualityGain = 0;
