@@ -438,7 +438,7 @@ function ApplyModifiers(s, action, condition) {
     }
     // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
     if (isActionEq(action, AllActions.byregotsMiracle)) {
-        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 2) {
+        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
             bQualityGain *= (1.0 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]);
         } else {
             bQualityGain = 0;
@@ -581,8 +581,8 @@ function ApplySpecialActionEffects(s, action, condition) {
 
     if (isActionEq(action, AllActions.byregotsMiracle)) {
         // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
-        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 2) {
-            s.effects.countUps[AllActions.innerQuiet.shortName] = Math.floor(s.effects.countUps[AllActions.innerQuiet.shortName] / 2);
+        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
+            s.effects.countUps[AllActions.innerQuiet.shortName] = Math.ceil((s.effects.countUps[AllActions.innerQuiet.shortName]+1) / 2) - 1;
         }
         else {
             s.wastedActions += 1;
