@@ -647,6 +647,12 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
         if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
             s.effects.countUps[AllActions.innerQuiet.shortName] += 2 * successProbability * condition.pGoodOrExcellent();
         }
+        else if (isActionEq(action, AllActions.byregotsMiracle)) {
+            // Do nothing in the event that the conditions fo Byregot's Miracle are not met
+        }
+        else if (isActionEq(action, AllActions.trainedHand) && condition.checkInnerQuietEqWhistle()) {
+            s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
+        }
         // Increment all other inner quiet count ups
         else if (action.qualityIncreaseMultiplier > 0) {
             s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
