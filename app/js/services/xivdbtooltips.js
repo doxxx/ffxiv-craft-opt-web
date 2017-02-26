@@ -1,14 +1,7 @@
 (function () {
   'use strict';
 
-  var languageIndex = {
-    ja: 0,
-    en: 1,
-    de: 2,
-    fr: 3
-  };
-
-  var hostnameRE = /\/\/xivdb\.com/;
+  var baseURL = 'https://secure.xivdb.com/tooltip';
 
   angular
     .module('ffxivCraftOptWeb.services.xivdbtooltips', [])
@@ -27,41 +20,38 @@
   XIVDBTooltipsService.$inject = ['$rootScope', '$q', '_allActions', '_allClasses', '_actionsByName'];
 
   XIVDBTooltipsService.prototype.loadTooltips = function (lang) {
-    var langIndex = languageIndex[lang];
-
-    var fetches = [];
+    var actions = [];
     for (var i = 0; i < this._allActions.length; i++) {
       var action = this._allActions[i];
       if (action.skillID) {
         if (action.cls == 'All') {
           for (var j = 0; j < this._allClasses.length; j++) {
             var cls = this._allClasses[j];
-            fetches.push(this._fetch(cls, action, langIndex));
+            actions.push({shortName: action.shortName, cls: cls, skillID: action.skillID[cls]});
           }
         }
         else {
-          fetches.push(this._fetch(action.cls, action, langIndex));
+          actions.push({shortName: action.shortName, cls: action.cls, skillID: action.skillID[action.cls]});
         }
       }
     }
 
-    return this.$q.all(fetches).then(function (responses) {
+    return this._fetch(actions, lang).then(function (response) {
       var newTooltips = {};
-      for (var i = 0; i < responses.length; i++) {
-        var response = responses[i];
-        var cls = response.config.cls;
-        var action = response.config.action;
-        var html = response.data.html;
-        html = html.replace(hostnameRE, '//legacy.xivdb.com');
-        newTooltips[cls + action.shortName] = html;
+      var actions = response.config.actions;
+      for (var i = 0; i < actions.length; i++) {
+        var action = actions[i];
+        newTooltips[action.cls + action.shortName] = response.data.action[i].html;
       }
       this.actionTooltips = newTooltips;
       this.$rootScope.$broadcast("tooltipCacheUpdated");
     }.bind(this));
   };
 
-  XIVDBTooltipsService.prototype._fetch = function (cls, action, langIndex) {
-    var baseURL = 'http://legacy.xivdb.com/modules/fpop/fpop.php?version=1.6';
+  XIVDBTooltipsService.prototype._fetch = function (actions, lang) {
+    var url = baseURL + '?language=' + lang;
+    var ids = actions.map(function (action) { return action.skillID });
+    url += '&list[action]:=' + ids.join(',');
 
     // We can't use the $http module because each HTTP response triggers a digest update, which
     // causes significant lag when the app is loading because we're caching a couple hundred tooltips.
@@ -71,15 +61,14 @@
       if (xhr.readyState == XMLHttpRequest.DONE) {
         deferred.resolve({
           config: {
-            cls: cls,
-            action: action
+            actions: actions
           },
           data: xhr.response
         });
       }
     };
     xhr.responseType = "json";
-    xhr.open("GET", baseURL + '&lang=' + langIndex + '&type=skill&id=' + action.skillID[cls], true);
+    xhr.open("GET", url, true);
     xhr.send();
 
     return deferred.promise;
