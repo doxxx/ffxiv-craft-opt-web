@@ -5,17 +5,17 @@
   <meta charset="utf-8">
   <title>FFXIV Crafting Optimizer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"/>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"/>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-busy/4.1.0/angular-busy.min.css"/>
   <link rel="stylesheet" href="css/base.css"/>
   <link rel="stylesheet" href="css/app.css"/>
-  <link rel="stylesheet" href="http://legacy.xivdb.com/css/tooltip.css"/>
-  <link rel="stylesheet" href="lib/angular-busy/angular-busy.min.css"/>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-rc.1/angular-ui-router.js"></script>
-  <script src="lib/angular-translate/angular-translate.min.js"></script>
-  <script src="lib/angular-translate/angular-translate-loader-static-files.min.js"></script>
-  <script src="lib/angular-busy/angular-busy.js"></script>
+  <link rel="stylesheet" href="https://secure.xivdb.com/tooltips.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-rc.1/angular-ui-router.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-busy/4.1.0/angular-busy.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.6.1/angular-translate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.6.1/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
 </head>
 
 <body ng-controller="MainController" ng-cloak>
@@ -40,6 +40,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle">More...</a>
               <ul class="dropdown-menu">
+                <li><a ng-click="showSettingsImportModal()">Import/Export Settings...</a></li>
                 <li ui-sref-active="active"><a ui-sref="about">About</a></li>
                 <li ui-sref-active="active"><a ui-sref="instructions">Instructions</a></li>
                 <li><a href="blog">Blog</a></li>
@@ -80,10 +81,12 @@
   </footer>
 </div>
 
-<script src="lib/angular-ui-bootstrap/ui-bootstrap-tpls-0.8.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.8.0/ui-bootstrap-tpls.min.js"></script>
 <script src="lib/lvl-drag-drop/lvl-uuid.js"></script>
 <script src="lib/lvl-drag-drop/lvl-drag-drop.js"></script>
 <script src="lib/string/String.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.min.js"></script>
 <script src="js/polyfills.js"></script>
 <script src="js/app.js"></script>
 <script src="js/routes.js"></script>
@@ -107,12 +110,14 @@
 <script src="js/controllers/sequenceeditor.js"></script>
 <script src="js/controllers/options.js"></script>
 <script src="js/controllers/charimport.js"></script>
+<script src="js/controllers/settingsimport.js"></script>
 <script src="js/directives.js"></script>
 <script src="js/components/simulator-status.js"></script>
 <script src="js/components/action-table.js"></script>
 <script src="js/components/action-sequence.js"></script>
 <script src="js/components/macros.js"></script>
 <script src="js/components/buffs.js"></script>
+<script src="js/components/dropzone.js"></script>
 
 </body>
 

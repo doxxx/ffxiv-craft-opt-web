@@ -1,0 +1,25 @@
+<div class="modal-header">
+  <h3 style="text-align: center">Settings</h3>
+</div>
+
+<div class="modal-body">
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span6 centered">
+        <h3>Export</h3>
+        <form>
+          <button class="btn btn-primary download" ng-click="vm.generateFile()">Download</button>
+        </form>
+        <p>This downloads a ZIP file containing all your settings for this site.</p>
+      </div>
+      <div class="span6 centered">
+        <h3>Import</h3>
+        <div my-dropzone data-drop-handler="vm.handleDrop">Drop Files Here</div>
+        <p>Drag & drop a settings.zip file to import your settings into this site.</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>

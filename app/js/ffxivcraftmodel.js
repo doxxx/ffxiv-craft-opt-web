@@ -436,14 +436,30 @@ function ApplyModifiers(s, action, condition) {
     if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.shortName in s.effects.countUps) {
         bQualityGain *= (1 + 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName]);
     }
-    if ((isActionEq(action, AllActions.byregotsMiracle) && AllActions.innerQuiet.shortName in s.effects.countUps)) {
-        bQualityGain *= (1.0 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]);
+    // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
+    if (isActionEq(action, AllActions.byregotsMiracle)) {
+        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
+            bQualityGain *= (1.0 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]);
+        } else {
+            bQualityGain = 0;
+        }
     }
-    if ((isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.shortName in s.effects.countUps) && condition.checkGoodOrExcellent()) {
-        bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]) * condition.pGoodOrExcellent();
+
+    // We can only use Byregot's Brow when state material condition is Good or Excellent. Default is true for probabilistic method.
+    if (isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.shortName in s.effects.countUps) {
+        if (condition.checkGoodOrExcellent()) {
+            bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]) * condition.pGoodOrExcellent();
+        } else {
+            bQualityGain = 0;
+        }
     }
-    if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
-        bQualityGain *= condition.pGoodOrExcellent();
+    // We can only use Precise Touch when state material condition is Good or Excellent. Default is true for probabilistic method.
+    if (isActionEq(action, AllActions.preciseTouch)) {
+        if (condition.checkGoodOrExcellent()) {
+            bQualityGain *= condition.pGoodOrExcellent();
+        } else {
+            bQualityGain = 0;
+        }
     }
     if (isActionEq(action, AllActions.trainedHand) && !condition.checkInnerQuietEqWhistle()) {
         bQualityGain = 0;
@@ -564,8 +580,9 @@ function ApplySpecialActionEffects(s, action, condition) {
     }
 
     if (isActionEq(action, AllActions.byregotsMiracle)) {
-        if (AllActions.innerQuiet.shortName in s.effects.countUps) {
-            s.effects.countUps[AllActions.innerQuiet.shortName] = Math.floor(s.effects.countUps[AllActions.innerQuiet.shortName] / 2);
+        // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
+        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
+            s.effects.countUps[AllActions.innerQuiet.shortName] = Math.ceil((s.effects.countUps[AllActions.innerQuiet.shortName]+1) / 2) - 1;
         }
         else {
             s.wastedActions += 1;
@@ -629,6 +646,12 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
         // Increment inner quiet countups that have conditional requirements
         if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
             s.effects.countUps[AllActions.innerQuiet.shortName] += 2 * successProbability * condition.pGoodOrExcellent();
+        }
+        else if (isActionEq(action, AllActions.byregotsMiracle)) {
+            // Do nothing in the event that the conditions fo Byregot's Miracle are not met
+        }
+        else if (isActionEq(action, AllActions.trainedHand) && condition.checkInnerQuietEqWhistle()) {
+            s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
         }
         // Increment all other inner quiet count ups
         else if (action.qualityIncreaseMultiplier > 0) {
