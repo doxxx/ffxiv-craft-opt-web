@@ -9597,6 +9597,32 @@
   {
     "baseLevel": 57,
     "difficulty": 808,
+    "durability": 60,
+    "level": 142,
+    "maxQuality": 5456,
+    "name": {
+      "de": "Nah\u00f6stliche Antiquit\u00e4t",
+      "en": "Near Eastern Antique",
+      "fr": "Antiquit\u00e9 proche-orientale",
+      "ja": "\u8fd1\u6771\u98a8\u306e\u8490\u96c6\u54c1"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 404,
+    "durability": 60,
+    "level": 142,
+    "maxQuality": 2728,
+    "name": {
+      "de": "Komponente einer nah\u00f6stlichen Antiquit\u00e4t",
+      "en": "Near Eastern Antique Component",
+      "fr": "Composant d'antiquit\u00e9 proche-orientale",
+      "ja": "\u8fd1\u6771\u98a8\u306e\u8490\u96c6\u54c1\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 808,
     "durability": 70,
     "level": 142,
     "maxQuality": 6820,
@@ -9870,6 +9896,32 @@
   {
     "baseLevel": 58,
     "difficulty": 863,
+    "durability": 60,
+    "level": 145,
+    "maxQuality": 5664,
+    "name": {
+      "de": "Coerthisches Souvenir",
+      "en": "Coerthan Souvenir",
+      "fr": "Souvenir du Coerthas",
+      "ja": "\u5bd2\u51b7\u5730\u306e\u540d\u7523\u54c1"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 431,
+    "durability": 60,
+    "level": 145,
+    "maxQuality": 2832,
+    "name": {
+      "de": "Komponente eines coerthischen Souvenirs",
+      "en": "Coerthan Souvenir Component",
+      "fr": "Composant de souvenir du Coerthas",
+      "ja": "\u5bd2\u51b7\u5730\u306e\u540d\u7523\u54c1\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
     "durability": 70,
     "level": 145,
     "maxQuality": 7080,
@@ -10128,6 +10180,32 @@
     }
   },
   {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 60,
+    "level": 148,
+    "maxQuality": 5871,
+    "name": {
+      "de": "Mahlstrom-Ausr\u00fcstung",
+      "en": "Maelstrom Materiel",
+      "fr": "\u00c9quipement militaire du Maelstrom",
+      "ja": "\u9ed2\u6e26\u56e3\u306e\u8ecd\u9700\u54c1"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 459,
+    "durability": 60,
+    "level": 148,
+    "maxQuality": 2935,
+    "name": {
+      "de": "Komponente eines St\u00fccks Mahlstrom-Ausr\u00fcstung",
+      "en": "Maelstrom Materiel Component",
+      "fr": "Composant d'\u00e9quipement militaire du Maelstrom",
+      "ja": "\u9ed2\u6e26\u56e3\u306e\u8ecd\u9700\u54c1\u90e8\u6750"
+    }
+  },
+  {
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 70,
@@ -10199,6 +10277,32 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
+      "de": "Chrysolith-Armreife des Zielens",
+      "en": "Chrysolite Bracelet of Aiming",
+      "fr": "Bracelet de pisteur en chrysolite",
+      "ja": "\u30af\u30ea\u30bd\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "de": "Chrysolith-Armreife der Magie",
+      "en": "Chrysolite Bracelet of Casting",
+      "fr": "Bracelet d'incantateur en chrysolite",
+      "ja": "\u30af\u30ea\u30bd\u30e9\u30a4\u30c8\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
       "de": "Chrysolith-Armreife der Verteidigung",
       "en": "Chrysolite Bracelet of Fending",
       "fr": "Bracelet de protecteur en chrysolite",
@@ -10212,34 +10316,8 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "de": "Chrysolith-Armreife des Zielens",
-      "en": "Chrysolite Bracelets of Aiming",
-      "fr": "Bracelet de pisteur en chrysolite",
-      "ja": "\u30af\u30ea\u30bd\u30e9\u30a4\u30c8\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
-    }
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 956,
-    "durability": 70,
-    "level": 150,
-    "maxQuality": 7851,
-    "name": {
-      "de": "Chrysolith-Armreife der Magie",
-      "en": "Chrysolite Bracelets of Casting",
-      "fr": "Bracelet d'incantateur en chrysolite",
-      "ja": "\u30af\u30ea\u30bd\u30e9\u30a4\u30c8\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
-    }
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 956,
-    "durability": 70,
-    "level": 150,
-    "maxQuality": 7851,
-    "name": {
       "de": "Chrysolith-Armreife der Heilung",
-      "en": "Chrysolite Bracelets of Healing",
+      "en": "Chrysolite Bracelet of Healing",
       "fr": "Bracelet de soigneur en chrysolite",
       "ja": "\u30af\u30ea\u30bd\u30e9\u30a4\u30c8\u30d2\u30fc\u30e9\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
     }
@@ -10252,7 +10330,7 @@
     "maxQuality": 7851,
     "name": {
       "de": "Chrysolith-Armreife des Schlachtens",
-      "en": "Chrysolite Bracelets of Slaying",
+      "en": "Chrysolite Bracelet of Slaying",
       "fr": "Bracelet d'attaquant en chrysolite",
       "ja": "\u30af\u30ea\u30bd\u30e9\u30a4\u30c8\u30a2\u30bf\u30c3\u30ab\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
     }
@@ -10415,6 +10493,32 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 6280,
+    "name": {
+      "de": "Inniges Geschenk",
+      "en": "Heartfelt Gift",
+      "fr": "Cadeau attentionn\u00e9",
+      "ja": "\u5fc3\u5c3d\u304f\u3057\u306e\u8d08\u7b54\u54c1"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 3140,
+    "name": {
+      "de": "Komponente eines innigen Geschenks",
+      "en": "Heartfelt Gift Component",
+      "fr": "Composant de cadeau attentionn\u00e9",
+      "ja": "\u5fc3\u5c3d\u304f\u3057\u306e\u8d08\u7b54\u54c1\u90e8\u6750"
+    }
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1720,
     "durability": 70,
     "level": 150,
@@ -10464,6 +10568,34 @@
       "en": "Moogle Miniature",
       "fr": "F\u00e8ve mog",
       "ja": "\u30e2\u30b0\u30e2\u30b0\u30d5\u30a7\u30fc\u30f4"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 6701,
+    "name": {
+      "de": "Waisenhaus-Spende",
+      "en": "Orphanage Donation",
+      "fr": "Article quotidien d'orphelinat",
+      "ja": "\u5b64\u5150\u9662\u306e\u65e5\u7528\u54c1"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 3350,
+    "name": {
+      "de": "Komponente einer Waisenhaus-Spende",
+      "en": "Orphanage Donation Component",
+      "fr": "Composant d'article pour orphelinat",
+      "ja": "\u5b64\u5150\u9662\u306e\u65e5\u7528\u54c1\u90e8\u6750"
     },
     "stars": 1
   },
