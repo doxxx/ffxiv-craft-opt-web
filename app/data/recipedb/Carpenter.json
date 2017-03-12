@@ -6,10 +6,10 @@
     "level": 1,
     "maxQuality": 312,
     "name": {
-      "de": "Ballonh\u00fcllen-Bauteil",
+      "de": "Ballonhüllen-Bauteil",
       "en": "Bladder Component",
       "fr": "Composant de ballon",
-      "ja": "\u6c17\u56a2\u90e8\u6750"
+      "ja": "気嚢部材"
     }
   },
   {
@@ -19,10 +19,10 @@
     "level": 1,
     "maxQuality": 234,
     "name": {
-      "de": "H\u00fcllenverst\u00e4rkungs-Bauteil",
+      "de": "Hüllenverstärkungs-Bauteil",
       "en": "Bladder Lining Component",
       "fr": "Composant de finition de ballon",
-      "ja": "\u6c17\u56a2\u88dc\u5f37\u6750"
+      "ja": "気嚢補強材"
     }
   },
   {
@@ -35,7 +35,7 @@
       "de": "Kanzelinnenraum-Bauteil",
       "en": "Hull Interior Component",
       "fr": "Composant de coque",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u8239\u4f53\u90e8\u6750"
+      "ja": "エカトルの船体部材"
     }
   },
   {
@@ -48,7 +48,7 @@
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
       "fr": "Comp. de partie gauche de nacelle",
-      "ja": "\u5de6\u8237\u8239\u4f53\u90e8\u6750"
+      "ja": "左舷船体部材"
     }
   },
   {
@@ -61,7 +61,7 @@
       "de": "Ahornholzklumpen",
       "en": "Maple Clogs",
       "fr": "Galoches",
-      "ja": "\u30af\u30ed\u30c3\u30b0"
+      "ja": "クロッグ"
     }
   },
   {
@@ -73,8 +73,8 @@
     "name": {
       "de": "Ahorn-Bauholz",
       "en": "Maple Lumber",
-      "fr": "Madrier d'\u00e9rable",
-      "ja": "\u30e1\u30fc\u30d7\u30eb\u6750"
+      "fr": "Madrier d'érable",
+      "ja": "メープル材"
     }
   },
   {
@@ -87,7 +87,7 @@
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
       "fr": "Comp. de partie droite de nacelle",
-      "ja": "\u53f3\u8237\u8239\u4f53\u90e8\u6750"
+      "ja": "右舷船体部材"
     }
   },
   {
@@ -100,7 +100,7 @@
       "de": "Weidenkurzbogen",
       "en": "Maple Shortbow",
       "fr": "Arc court",
-      "ja": "\u30b7\u30e7\u30fc\u30c8\u30dc\u30a6"
+      "ja": "ショートボウ"
     }
   },
   {
@@ -113,7 +113,7 @@
       "de": "Knochenharpune",
       "en": "Bone Harpoon",
       "fr": "Harpon",
-      "ja": "\u30cf\u30fc\u30d7\u30fc\u30f3"
+      "ja": "ハープーン"
     }
   },
   {
@@ -125,8 +125,8 @@
     "name": {
       "de": "Werkzeug-Bauteil",
       "en": "Crafting Tool Component",
-      "fr": "N\u00e9cessaire de fabrication",
-      "ja": "\u52a0\u5de5\u9053\u5177"
+      "fr": "Nécessaire de fabrication",
+      "ja": "加工道具"
     }
   },
   {
@@ -139,7 +139,7 @@
       "de": "Deck-Bauteil",
       "en": "Deck Component",
       "fr": "Composant de pont",
-      "ja": "\u7532\u677f\u90e8\u6750"
+      "ja": "甲板部材"
     }
   },
   {
@@ -149,10 +149,10 @@
     "level": 3,
     "maxQuality": 339,
     "name": {
-      "de": "Motorgeh\u00e4use-Bauteil",
+      "de": "Motorgehäuse-Bauteil",
       "en": "Engine Casing Component",
       "fr": "Composant de protection de moteur",
-      "ja": "\u6a5f\u95a2\u5916\u88c5\u90e8\u6750"
+      "ja": "機関外装部材"
     }
   },
   {
@@ -164,8 +164,8 @@
     "name": {
       "de": "Gyroantriebs-Bauteil",
       "en": "Gyrodrive Component",
-      "fr": "Composant d'unit\u00e9 motrice",
-      "ja": "\u52d5\u529b\u8f2a\u90e8\u6750"
+      "fr": "Composant d'unité motrice",
+      "ja": "動力輪部材"
     }
   },
   {
@@ -178,7 +178,7 @@
       "de": "Erdseim-Motor-Bauteil",
       "en": "Propulsion Engine Component",
       "fr": "Composant de moteur",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u6750"
+      "ja": "エカトルの機関部材"
     }
   },
   {
@@ -191,7 +191,7 @@
       "de": "Takelagen-Bauteil",
       "en": "Rigging Component",
       "fr": "Composant d'attache",
-      "ja": "\u7d22\u5177\u90e8\u6750"
+      "ja": "索具部材"
     }
   },
   {
@@ -204,7 +204,7 @@
       "de": "Laien-Schleifrad",
       "en": "Amateur's Grinding Wheel",
       "fr": "Meule d'amateur",
-      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "アマチュアグラインディングホイール"
     }
   },
   {
@@ -217,7 +217,7 @@
       "de": "Ahorn-Trippen",
       "en": "Maple Pattens",
       "fr": "Patins",
-      "ja": "\u30d1\u30c3\u30c6\u30f3"
+      "ja": "パッテン"
     }
   },
   {
@@ -230,7 +230,7 @@
       "de": "Laien-Spinnrad",
       "en": "Amateur's Spinning Wheel",
       "fr": "Rouet d'amateur",
-      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "アマチュアスピニングホイール"
     }
   },
   {
@@ -242,8 +242,8 @@
     "name": {
       "de": "Ahorn-Plankenschild",
       "en": "Square Maple Shield",
-      "fr": "Bouclier carr\u00e9",
-      "ja": "\u30a8\u30ad\u30e5"
+      "fr": "Bouclier carré",
+      "ja": "エキュ"
     }
   },
   {
@@ -255,8 +255,8 @@
     "name": {
       "de": "Aerodynamo-Bauteil",
       "en": "Aerodynamo Component",
-      "fr": "Composant de nez profil\u00e9",
-      "ja": "\u7a7a\u529b\u90e8\u6750"
+      "fr": "Composant de nez profilé",
+      "ja": "空力部材"
     }
   },
   {
@@ -269,7 +269,7 @@
       "de": "Ballast-Bauteil",
       "en": "Ballast Component",
       "fr": "Composant de lest",
-      "ja": "\u30d0\u30e9\u30b9\u30c8\u90e8\u6750"
+      "ja": "バラスト部材"
     }
   },
   {
@@ -282,7 +282,7 @@
       "de": "Bronzespeer",
       "en": "Bronze Spear",
       "fr": "Hast",
-      "ja": "\u30b9\u30d4\u30a2"
+      "ja": "スピア"
     }
   },
   {
@@ -292,10 +292,10 @@
     "level": 6,
     "maxQuality": 474,
     "name": {
-      "de": "Kanzelau\u00dfenwand-Bauteil",
+      "de": "Kanzelaußenwand-Bauteil",
       "en": "Cockpit Exterior Component",
-      "fr": "Composant ext\u00e9rieur de cockpit",
-      "ja": "\u64cd\u7e26\u5e2d\u5916\u88c5\u6750"
+      "fr": "Composant extérieur de cockpit",
+      "ja": "操縦席外装材"
     }
   },
   {
@@ -307,8 +307,8 @@
     "name": {
       "de": "Kanzelinnenwand-Bauteil",
       "en": "Cockpit Interior Component",
-      "fr": "Composant int\u00e9rieur de cockpit",
-      "ja": "\u64cd\u7e26\u5e2d\u5185\u88c5\u6750"
+      "fr": "Composant intérieur de cockpit",
+      "ja": "操縦席内装材"
     }
   },
   {
@@ -321,7 +321,7 @@
       "de": "Motorverstrebungs-Bauteil",
       "en": "Engine Jointing Component",
       "fr": "Composant de jonction de moteur",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u63a5\u5408\u6750"
+      "ja": "エカトルの機関部接合材"
     }
   },
   {
@@ -334,7 +334,7 @@
       "de": "Steuerpult-Bauteil",
       "en": "Instrument Panel Component",
       "fr": "Composant d'instrumentation",
-      "ja": "\u8a08\u5668\u90e8\u6750"
+      "ja": "計器部材"
     }
   },
   {
@@ -347,7 +347,7 @@
       "de": "Ahornstock",
       "en": "Maple Cane",
       "fr": "Canne",
-      "ja": "\u30b1\u30fc\u30f3"
+      "ja": "ケーン"
     }
   },
   {
@@ -360,7 +360,7 @@
       "de": "Ahornlangbogen",
       "en": "Maple Longbow",
       "fr": "Arc long",
-      "ja": "\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "ja": "ロングボウ"
     }
   },
   {
@@ -373,7 +373,7 @@
       "de": "Ahornhirtenstock",
       "en": "Maple Crook",
       "fr": "Crosse",
-      "ja": "\u30af\u30eb\u30fc\u30af"
+      "ja": "クルーク"
     }
   },
   {
@@ -385,8 +385,8 @@
     "name": {
       "de": "Weidenangelrute",
       "en": "Maple Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache",
-      "ja": "\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche",
+      "ja": "フィッシングロッド"
     }
   },
   {
@@ -398,8 +398,8 @@
     "name": {
       "de": "Prunk-Weidenkurzbogen",
       "en": "Plumed Maple Shortbow",
-      "fr": "Arc court orn\u00e9",
-      "ja": "\u30b7\u30e7\u30fc\u30c8\u30dc\u30a6DX"
+      "fr": "Arc court orné",
+      "ja": "ショートボウDX"
     }
   },
   {
@@ -412,7 +412,7 @@
       "de": "Rundschild",
       "en": "Round Shield",
       "fr": "Bouclier rond",
-      "ja": "\u30e9\u30a6\u30f3\u30c9\u30b7\u30fc\u30eb\u30c9"
+      "ja": "ラウンドシールド"
     }
   },
   {
@@ -424,8 +424,8 @@
     "name": {
       "de": "Eschen-Bauholz",
       "en": "Ash Lumber",
-      "fr": "Madrier de fr\u00eane",
-      "ja": "\u30a2\u30c3\u30b7\u30e5\u6750"
+      "fr": "Madrier de frêne",
+      "ja": "アッシュ材"
     }
   },
   {
@@ -438,7 +438,7 @@
       "de": "Eschen-Macuahuitl",
       "en": "Ash Macuahuitl",
       "fr": "Macuahuitl",
-      "ja": "\u30de\u30af\u30a2\u30d5\u30c6\u30a3\u30eb"
+      "ja": "マクアフティル"
     }
   },
   {
@@ -448,10 +448,10 @@
     "level": 10,
     "maxQuality": 314,
     "name": {
-      "de": "K\u00fchler-Bauteil",
+      "de": "Kühler-Bauteil",
       "en": "Heat Vent Component",
       "fr": "Composant de ventilation",
-      "ja": "\u6392\u71b1\u90e8\u6750"
+      "ja": "排熱部材"
     }
   },
   {
@@ -461,10 +461,10 @@
     "level": 10,
     "maxQuality": 629,
     "name": {
-      "de": "Backbordtragfl\u00e4chen-Bauteil",
+      "de": "Backbordtragflächen-Bauteil",
       "en": "Larboard Wing Component",
       "fr": "Composant d'aile gauche",
-      "ja": "\u5de6\u7ffc\u90e8\u6750"
+      "ja": "左翼部材"
     }
   },
   {
@@ -474,10 +474,10 @@
     "level": 10,
     "maxQuality": 471,
     "name": {
-      "de": "Backbord-Tragfl\u00e4chengelenk-Bauteil",
+      "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile gauche",
-      "ja": "\u5de6\u7ffc\u53ef\u52d5\u90e8\u6750"
+      "ja": "左翼可動部材"
     }
   },
   {
@@ -489,8 +489,8 @@
     "name": {
       "de": "Schafshornharpune",
       "en": "Ramhorn Harpoon",
-      "fr": "Harpon en corne de b\u00e9lier",
-      "ja": "\u30e9\u30e0\u30db\u30fc\u30f3\u30cf\u30fc\u30d7\u30fc\u30f3"
+      "fr": "Harpon en corne de bélier",
+      "ja": "ラムホーンハープーン"
     }
   },
   {
@@ -500,10 +500,10 @@
     "level": 10,
     "maxQuality": 629,
     "name": {
-      "de": "Steuerbordtragfl\u00e4chen-Bauteil",
+      "de": "Steuerbordtragflächen-Bauteil",
       "en": "Starboard Wing Component",
       "fr": "Composant d'aile droite",
-      "ja": "\u53f3\u7ffc\u90e8\u6750"
+      "ja": "右翼部材"
     }
   },
   {
@@ -513,10 +513,10 @@
     "level": 10,
     "maxQuality": 471,
     "name": {
-      "de": "Steuerbord-Tragfl\u00e4chengelenk-Bauteil",
+      "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile droite",
-      "ja": "\u53f3\u7ffc\u53ef\u52d5\u90e8\u6750"
+      "ja": "右翼可動部材"
     }
   },
   {
@@ -529,7 +529,7 @@
       "de": "Sprechanlagen-Bauteil",
       "en": "Transmission Component",
       "fr": "Composant de transmission",
-      "ja": "\u4f1d\u9054\u7cfb\u90e8\u6750"
+      "ja": "伝達系部材"
     }
   },
   {
@@ -541,8 +541,8 @@
     "name": {
       "de": "Sandstein-Schleifrad",
       "en": "Ragstone Grinding Wheel",
-      "fr": "Meule en gr\u00e8s",
-      "ja": "\u30e9\u30b0\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "fr": "Meule en grès",
+      "ja": "ラググラインディングホイール"
     }
   },
   {
@@ -554,8 +554,8 @@
     "name": {
       "de": "Laien-Angelrute",
       "en": "Amateur's Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache d'amateur",
-      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche d'amateur",
+      "ja": "アマチュアフィッシングロッド"
     }
   },
   {
@@ -568,7 +568,7 @@
       "de": "Eschen-Spinnrad",
       "en": "Ash Spinning Wheel",
       "fr": "Rouet",
-      "ja": "\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "スピニングホイール"
     }
   },
   {
@@ -580,8 +580,8 @@
     "name": {
       "de": "Feuerholz",
       "en": "Firewood",
-      "fr": "B\u00fbches de bois",
-      "ja": "\u5207\u308a\u51fa\u3055\u308c\u305f\u85aa"
+      "fr": "Bûches de bois",
+      "ja": "切り出された薪"
     }
   },
   {
@@ -593,8 +593,8 @@
     "name": {
       "de": "Wald-Rundtisch",
       "en": "Glade Round Table",
-      "fr": "Table ronde sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30e9\u30a6\u30f3\u30c9\u30c6\u30fc\u30d6\u30eb"
+      "fr": "Table ronde sombrelinçoise",
+      "ja": "シュラウド・ラウンドテーブル"
     }
   },
   {
@@ -607,7 +607,7 @@
       "de": "Eschen-Stenz",
       "en": "Ash Radical",
       "fr": "Radicelle",
-      "ja": "\u30e9\u30c7\u30a3\u30ab\u30eb"
+      "ja": "ラディカル"
     }
   },
   {
@@ -619,8 +619,8 @@
     "name": {
       "de": "Gefiederte Harpune",
       "en": "Feathered Harpoon",
-      "fr": "Harpon \u00e0 plumet",
-      "ja": "\u30d5\u30a7\u30b6\u30fc\u30cf\u30fc\u30d7\u30fc\u30f3"
+      "fr": "Harpon à plumet",
+      "ja": "フェザーハープーン"
     }
   },
   {
@@ -632,8 +632,8 @@
     "name": {
       "de": "Wald-Langfenster",
       "en": "Glade Classical Window",
-      "fr": "Fen\u00eatre classique sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30af\u30e9\u30b7\u30c3\u30af\u30a6\u30a3\u30f3\u30c9\u30a6"
+      "fr": "Fenêtre classique sombrelinçoise",
+      "ja": "シュラウド・クラシックウィンドウ"
     }
   },
   {
@@ -646,7 +646,7 @@
       "de": "Baumstumpf-Stuhl",
       "en": "Stump Stool",
       "fr": "Souche tabouret",
-      "ja": "\u5207\u308a\u682a\u306e\u8170\u639b\u3051"
+      "ja": "切り株の腰掛け"
     }
   },
   {
@@ -658,8 +658,8 @@
     "name": {
       "de": "Eschenmaske",
       "en": "Ash Mask",
-      "fr": "Masque en fr\u00eane",
-      "ja": "\u30a2\u30c3\u30b7\u30e5\u30de\u30b9\u30af"
+      "fr": "Masque en frêne",
+      "ja": "アッシュマスク"
     }
   },
   {
@@ -671,8 +671,8 @@
     "name": {
       "de": "Eschen-Trippen",
       "en": "Ash Pattens",
-      "fr": "Patins en fr\u00eane",
-      "ja": "\u30a2\u30c3\u30b7\u30e5\u30d1\u30c3\u30c6\u30f3"
+      "fr": "Patins en frêne",
+      "ja": "アッシュパッテン"
     }
   },
   {
@@ -685,7 +685,7 @@
       "de": "Messingspeer",
       "en": "Brass Spear",
       "fr": "Hast en laiton",
-      "ja": "\u30d6\u30e9\u30b9\u30b9\u30d4\u30a2"
+      "ja": "ブラススピア"
     }
   },
   {
@@ -698,7 +698,7 @@
       "de": "Robuster Karren",
       "en": "Crofter's Wain",
       "fr": "Chariot de fermier",
-      "ja": "\u8fb2\u592b\u306e\u8377\u8eca"
+      "ja": "農夫の荷車"
     }
   },
   {
@@ -710,8 +710,8 @@
     "name": {
       "de": "Wald-Stuhl",
       "en": "Glade Chair",
-      "fr": "Chaise en bois sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a6\u30c3\u30c9\u30c1\u30a7\u30a2"
+      "fr": "Chaise en bois sombrelinçoise",
+      "ja": "シュラウド・ウッドチェア"
     }
   },
   {
@@ -723,8 +723,8 @@
     "name": {
       "de": "Riviera-Bogenfenster",
       "en": "Riviera Arched Window",
-      "fr": "Fen\u00eatre en plein cintre nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a2\u30fc\u30c1\u30a6\u30a3\u30f3\u30c9\u30a6"
+      "fr": "Fenêtre en plein cintre noscéenne",
+      "ja": "ラノシアン・アーチウィンドウ"
     }
   },
   {
@@ -736,8 +736,8 @@
     "name": {
       "de": "Eschenkurzbogen",
       "en": "Ash Shortbow",
-      "fr": "Arc court en fr\u00eane",
-      "ja": "\u30a2\u30c3\u30b7\u30e5\u30b7\u30e7\u30fc\u30c8\u30dc\u30a6"
+      "fr": "Arc court en frêne",
+      "ja": "アッシュショートボウ"
     }
   },
   {
@@ -749,8 +749,8 @@
     "name": {
       "de": "Erdseim-Tank-Bauteil",
       "en": "Ceruleum Tank Component",
-      "fr": "Composant de r\u00e9servoir",
-      "ja": "\u9752\u71d0\u30bf\u30f3\u30af\u90e8\u6750"
+      "fr": "Composant de réservoir",
+      "ja": "青燐タンク部材"
     }
   },
   {
@@ -762,8 +762,8 @@
     "name": {
       "de": "Entsorgungssystem-Bauteil",
       "en": "Disposal Unit Component",
-      "fr": "Composant de syst\u00e8me d'\u00e9vacuation",
-      "ja": "\u7dca\u6025\u5ec3\u68c4\u90e8\u6750"
+      "fr": "Composant de système d'évacuation",
+      "ja": "緊急廃棄部材"
     }
   },
   {
@@ -775,8 +775,8 @@
     "name": {
       "de": "Schornstein-Bauteil",
       "en": "Exhaust Outlet Component",
-      "fr": "Composant d'\u00e9chappement",
-      "ja": "\u6392\u6c17\u7cfb\u90e8\u6750"
+      "fr": "Composant d'échappement",
+      "ja": "排気系部材"
     }
   },
   {
@@ -786,10 +786,10 @@
     "level": 15,
     "maxQuality": 403,
     "name": {
-      "de": "Wald-Sekret\u00e4r",
+      "de": "Wald-Sekretär",
       "en": "Glade Drawer Table",
-      "fr": "Table \u00e0 tiroirs sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30c9\u30ed\u30ef\u30fc\u30c6\u30fc\u30d6\u30eb"
+      "fr": "Table à tiroirs sombrelinçoise",
+      "ja": "シュラウド・ドロワーテーブル"
     }
   },
   {
@@ -802,7 +802,7 @@
       "de": "Steuereinheits-Bauteil",
       "en": "Helm Component",
       "fr": "Composant de gouvernail",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u64cd\u8235\u88c5\u7f6e\u90e8\u6750"
+      "ja": "エカトルの操舵装置部材"
     }
   },
   {
@@ -814,8 +814,8 @@
     "name": {
       "de": "Beleuchtungs-Bauteil",
       "en": "Lamp Component",
-      "fr": "Composant d'\u00e9clairage",
-      "ja": "\u30e9\u30f3\u30d7\u90e8\u6750"
+      "fr": "Composant d'éclairage",
+      "ja": "ランプ部材"
     }
   },
   {
@@ -828,7 +828,7 @@
       "de": "Kommunikationsrohr-Bauteil",
       "en": "Speaking Tube Component",
       "fr": "Composant de tuyau acoustique",
-      "ja": "\u4f1d\u58f0\u7cfb\u90e8\u6750"
+      "ja": "伝声系部材"
     }
   },
   {
@@ -840,8 +840,8 @@
     "name": {
       "de": "Eschen-Plankenschild",
       "en": "Square Ash Shield",
-      "fr": "Bouclier carr\u00e9 en fr\u00eane",
-      "ja": "\u30a2\u30c3\u30b7\u30e5\u30a8\u30ad\u30e5"
+      "fr": "Bouclier carré en frêne",
+      "ja": "アッシュエキュ"
     }
   },
   {
@@ -854,7 +854,7 @@
       "de": "Steuermechanismus-Bauteil",
       "en": "Steering Mechanism Component",
       "fr": "Composant de module de pilotage",
-      "ja": "\u64cd\u7e26\u6a5f\u5177\u90e8\u6750"
+      "ja": "操縦機具部材"
     }
   },
   {
@@ -866,8 +866,8 @@
     "name": {
       "de": "Umwickelter Ahornlangbogen",
       "en": "Wrapped Maple Longbow",
-      "fr": "Arc long gain\u00e9",
-      "ja": "\u30e9\u30c3\u30d7\u30c9\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "fr": "Arc long gainé",
+      "ja": "ラップドロングボウ"
     }
   },
   {
@@ -880,7 +880,7 @@
       "de": "Aerodynamik-Verbesserer-Bauteil",
       "en": "Auxiliary Aerodynamo Component",
       "fr": "Composant d'aileron",
-      "ja": "\u88dc\u52a9\u7a7a\u529b\u90e8\u6750"
+      "ja": "補助空力部材"
     }
   },
   {
@@ -893,7 +893,7 @@
       "de": "Zierplatten-Bauteil",
       "en": "Decorative Plating Component",
       "fr": "Composant d'ornementation",
-      "ja": "\u88c5\u98fe\u90e8\u6750"
+      "ja": "装飾部材"
     }
   },
   {
@@ -905,8 +905,8 @@
     "name": {
       "de": "Ulmenangelrute",
       "en": "Elm Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en orme",
-      "ja": "\u30a8\u30eb\u30e0\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en orme",
+      "ja": "エルムフィッシングロッド"
     }
   },
   {
@@ -919,7 +919,7 @@
       "de": "Ulmen-Bauholz",
       "en": "Elm Lumber",
       "fr": "Madrier d'orme",
-      "ja": "\u30a8\u30eb\u30e0\u6750"
+      "ja": "エルム材"
     }
   },
   {
@@ -931,8 +931,8 @@
     "name": {
       "de": "Rettungsboots-Bauteil",
       "en": "Escape Flyer Component",
-      "fr": "Composant de syst\u00e8me d'\u00e9jection",
-      "ja": "\u7dca\u6025\u8131\u51fa\u7528\u5177"
+      "fr": "Composant de système d'éjection",
+      "ja": "緊急脱出用具"
     }
   },
   {
@@ -944,8 +944,8 @@
     "name": {
       "de": "Wald-Bogenfenster",
       "en": "Glade Lancet Window",
-      "fr": "Fen\u00eatre \u00e0 lancette sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30e9\u30f3\u30bb\u30c3\u30c8\u30a6\u30a3\u30f3\u30c9\u30a6"
+      "fr": "Fenêtre à lancette sombrelinçoise",
+      "ja": "シュラウド・ランセットウィンドウ"
     }
   },
   {
@@ -958,7 +958,7 @@
       "de": "Hyperleiter-Bauteil",
       "en": "Hyperconductor Component",
       "fr": "Composant d'hyperconducteur",
-      "ja": "\u9ad8\u4f1d\u5c0e\u7387\u90e8\u6750"
+      "ja": "高伝導率部材"
     }
   },
   {
@@ -970,8 +970,8 @@
     "name": {
       "de": "Isolations-Bauteil",
       "en": "Isolator Component",
-      "fr": "Composant de syst\u00e8me antivibration",
-      "ja": "\u514d\u9707\u90e8\u6750"
+      "fr": "Composant de système antivibration",
+      "ja": "免震部材"
     }
   },
   {
@@ -983,8 +983,8 @@
     "name": {
       "de": "Oasen-Langfenster",
       "en": "Oasis Oblong Window",
-      "fr": "Fen\u00eatre \u00e0 crois\u00e9e thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30aa\u30d6\u30ed\u30f3\u30b0\u30a6\u30a3\u30f3\u30c9\u30a6"
+      "fr": "Fenêtre à croisée thanalanaise",
+      "ja": "ザナラーン・オブロングウィンドウ"
     }
   },
   {
@@ -996,8 +996,8 @@
     "name": {
       "de": "Oasen-Holzvordach",
       "en": "Oasis Wooden Awning",
-      "fr": "Auvent bois\u00e9 thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a6\u30c3\u30c9\u30aa\u30fc\u30cb\u30f3\u30b0"
+      "fr": "Auvent boisé thanalanais",
+      "ja": "ザナラーン・ウッドオーニング"
     }
   },
   {
@@ -1009,8 +1009,8 @@
     "name": {
       "de": "Gewichtsreduktions-Bauteil",
       "en": "Refabrication Component",
-      "fr": "Composant d'all\u00e9gement",
-      "ja": "\u8efd\u91cf\u5316\u90e8\u6750"
+      "fr": "Composant d'allégement",
+      "ja": "軽量化部材"
     }
   },
   {
@@ -1022,8 +1022,8 @@
     "name": {
       "de": "Reservetank-Bauteil",
       "en": "Spare Tank Component",
-      "fr": "Composant de r\u00e9servoir de secours",
-      "ja": "\u4e88\u5099\u30bf\u30f3\u30af\u90e8\u6750"
+      "fr": "Composant de réservoir de secours",
+      "ja": "予備タンク部材"
     }
   },
   {
@@ -1036,7 +1036,7 @@
       "de": "Eisenspeer",
       "en": "Iron Spear",
       "fr": "Hast en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b9\u30d4\u30a2"
+      "ja": "アイアンスピア"
     }
   },
   {
@@ -1048,8 +1048,8 @@
     "name": {
       "de": "Riviera-Erkerfenster",
       "en": "Riviera Bay Window",
-      "fr": "Fen\u00eatre arqu\u00e9e nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30d9\u30a4\u30a6\u30a3\u30f3\u30c9\u30a6"
+      "fr": "Fenêtre arquée noscéenne",
+      "ja": "ラノシアン・ベイウィンドウ"
     }
   },
   {
@@ -1062,7 +1062,7 @@
       "de": "Ulmenstock",
       "en": "Elm Cane",
       "fr": "Canne en orme",
-      "ja": "\u30a8\u30eb\u30e0\u30b1\u30fc\u30f3"
+      "ja": "エルムケーン"
     }
   },
   {
@@ -1075,7 +1075,7 @@
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
       "fr": "Aile d'Ehcatl",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u7fbd\u6839\u98fe\u308a"
+      "ja": "エカトルの羽根飾り"
     }
   },
   {
@@ -1085,10 +1085,10 @@
     "level": 18,
     "maxQuality": 1690,
     "name": {
-      "de": "Endst\u00fcck-Bauteil",
+      "de": "Endstück-Bauteil",
       "en": "Finishing Component",
       "fr": "Composant final",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u91cd\u8981\u90e8\u6750"
+      "ja": "エカトルの重要部材"
     }
   },
   {
@@ -1098,10 +1098,10 @@
     "level": 18,
     "maxQuality": 469,
     "name": {
-      "de": "Wald-Holzh\u00fcttenmauer",
+      "de": "Wald-Holzhüttenmauer",
       "en": "Glade Cottage Wall (Wood)",
-      "fr": "Mur de maisonnette en bois sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a6\u30c3\u30c9\u30b3\u30c6\u30fc\u30b8\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Mur de maisonnette en bois sombrelinçoise",
+      "ja": "シュラウド・ウッドコテージ・ウォール"
     }
   },
   {
@@ -1114,7 +1114,7 @@
       "de": "Lalafell-Podest",
       "en": "Lalafellin Step Stool",
       "fr": "Marchepied lalafell",
-      "ja": "\u30e9\u30e9\u30d5\u30a7\u30eb\u30b9\u30c6\u30c3\u30d7"
+      "ja": "ララフェルステップ"
     }
   },
   {
@@ -1124,10 +1124,10 @@
     "level": 18,
     "maxQuality": 469,
     "name": {
-      "de": "Fern\u00f6stlicher Rundtisch",
+      "de": "Fernöstlicher Rundtisch",
       "en": "Oriental Round Table",
       "fr": "Table ronde orientale",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30e9\u30a6\u30f3\u30c9\u30c6\u30fc\u30d6\u30eb"
+      "ja": "オリエンタル・ラウンドテーブル"
     }
   },
   {
@@ -1140,7 +1140,7 @@
       "de": "Ulmenhirtenstock",
       "en": "Elm Crook",
       "fr": "Crosse en orme",
-      "ja": "\u30a8\u30eb\u30e0\u30af\u30eb\u30fc\u30af"
+      "ja": "エルムクルーク"
     }
   },
   {
@@ -1153,7 +1153,7 @@
       "de": "Ulmenlangbogen",
       "en": "Elm Longbow",
       "fr": "Arc long en orme",
-      "ja": "\u30a8\u30eb\u30e0\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "ja": "エルムロングボウ"
     }
   },
   {
@@ -1165,8 +1165,8 @@
     "name": {
       "de": "Wald-Geschirrschrank",
       "en": "Glade Cupboard",
-      "fr": "Buffet sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30ab\u30c3\u30d7\u30dc\u30fc\u30c9"
+      "fr": "Buffet sombrelinçois",
+      "ja": "シュラウド・カップボード"
     }
   },
   {
@@ -1178,8 +1178,8 @@
     "name": {
       "de": "Wald-Deckenleuchte",
       "en": "Glade Pendant Lamp",
-      "fr": "Suspension sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30da\u30f3\u30c0\u30f3\u30c8\u30e9\u30f3\u30d7"
+      "fr": "Suspension sombrelinçoise",
+      "ja": "シュラウド・ペンダントランプ"
     }
   },
   {
@@ -1189,10 +1189,10 @@
     "level": 19,
     "maxQuality": 982,
     "name": {
-      "de": "Anf\u00e4nger-Spinnrad",
+      "de": "Anfänger-Spinnrad",
       "en": "Initiate's Spinning Wheel",
-      "fr": "Rouet d'initi\u00e9",
-      "ja": "\u30a4\u30cb\u30b7\u30a8\u30fc\u30c8\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "fr": "Rouet d'initié",
+      "ja": "イニシエートスピニングホイール"
     }
   },
   {
@@ -1202,10 +1202,10 @@
     "level": 19,
     "maxQuality": 491,
     "name": {
-      "de": "Riviera-Komposith\u00fcttendach",
+      "de": "Riviera-Komposithüttendach",
       "en": "Riviera Cottage Roof (Composite)",
-      "fr": "Toit de maisonnette composite nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30b3\u30c6\u30fc\u30b8\u30fb\u30eb\u30fc\u30d5"
+      "fr": "Toit de maisonnette composite noscéenne",
+      "ja": "ラノシアン・コンポジットコテージ・ルーフ"
     }
   },
   {
@@ -1218,7 +1218,7 @@
       "de": "Eschenholz-Schrank",
       "en": "Ash Cabinet",
       "fr": "Cabinet en bois",
-      "ja": "\u30a6\u30c3\u30c9\u30ad\u30e3\u30d3\u30cd\u30c3\u30c8"
+      "ja": "ウッドキャビネット"
     }
   },
   {
@@ -1230,8 +1230,8 @@
     "name": {
       "de": "Lapislazuli-Eschenmaske",
       "en": "Ash Mask (Lapis Lazuli)",
-      "fr": "Masque en fr\u00eane (lapis-lazuli)",
-      "ja": "\u30a2\u30c3\u30b7\u30e5\u30de\u30b9\u30af(\u30e9\u30d4\u30b9\u30e9\u30ba\u30ea)"
+      "fr": "Masque en frêne (lapis-lazuli)",
+      "ja": "アッシュマスク(ラピスラズリ)"
     }
   },
   {
@@ -1244,7 +1244,7 @@
       "de": "Unbeschriebene Notenrolle",
       "en": "Blank Grade 1 Orchestrion Roll",
       "fr": "Rouleau d'orchestrion vierge I",
-      "ja": "\u7121\u5730\u306e\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5cG1"
+      "ja": "無地のオーケストリオン譜G1"
     }
   },
   {
@@ -1254,10 +1254,10 @@
     "level": 20,
     "maxQuality": 1053,
     "name": {
-      "de": "Anf\u00e4nger-Angelrute",
+      "de": "Anfänger-Angelrute",
       "en": "Initiate's Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache d'initi\u00e9",
-      "ja": "\u30a4\u30cb\u30b7\u30a8\u30fc\u30c8\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche d'initié",
+      "ja": "イニシエートフィッシングロッド"
     }
   },
   {
@@ -1270,7 +1270,7 @@
       "de": "Eisenlanze",
       "en": "Iron Lance",
       "fr": "Lance",
-      "ja": "\u30e9\u30f3\u30b9"
+      "ja": "ランス"
     }
   },
   {
@@ -1280,10 +1280,10 @@
     "level": 20,
     "maxQuality": 526,
     "name": {
-      "de": "W\u00e4scheger\u00fcst",
+      "de": "Wäschegerüst",
       "en": "Laundry Pole",
-      "fr": "\u00c9tendoir \u00e0 linge de jardin",
-      "ja": "\u30cf\u30f3\u30ae\u30f3\u30b0\u30c9\u30e9\u30a4\u30e4\u30fc"
+      "fr": "Étendoir à linge de jardin",
+      "ja": "ハンギングドライヤー"
     }
   },
   {
@@ -1295,8 +1295,8 @@
     "name": {
       "de": "Halbhoher Riviera-Raumteiler",
       "en": "Riviera Half Partition",
-      "fr": "Demi-cloison nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30cf\u30fc\u30d5\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3"
+      "fr": "Demi-cloison noscéenne",
+      "ja": "ラノシアン・ハーフパーティション"
     }
   },
   {
@@ -1308,8 +1308,8 @@
     "name": {
       "de": "Ulmenschnellbogen",
       "en": "Elm Velocity Bow",
-      "fr": "Arc de v\u00e9locit\u00e9 en orme",
-      "ja": "\u30a8\u30eb\u30e0\u30d9\u30ed\u30b7\u30c6\u30a3\u30dc\u30a6"
+      "fr": "Arc de vélocité en orme",
+      "ja": "エルムベロシティボウ"
     }
   },
   {
@@ -1321,8 +1321,8 @@
     "name": {
       "de": "Wald-Rundfenster",
       "en": "Glade Rounded Window",
-      "fr": "Fen\u00eatre ovale sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30e9\u30a6\u30f3\u30c9\u30a6\u30a3\u30f3\u30c9\u30a6"
+      "fr": "Fenêtre ovale sombrelinçoise",
+      "ja": "シュラウド・ラウンドウィンドウ"
     }
   },
   {
@@ -1332,10 +1332,10 @@
     "level": 21,
     "maxQuality": 545,
     "name": {
-      "de": "Riviera-Holzh\u00fcttenmauer",
+      "de": "Riviera-Holzhüttenmauer",
       "en": "Riviera Cottage Wall (Wood)",
-      "fr": "Mur de maisonnette en bois nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a6\u30c3\u30c9\u30b3\u30c6\u30fc\u30b8\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Mur de maisonnette en bois noscéenne",
+      "ja": "ラノシアン・ウッドコテージ・ウォール"
     }
   },
   {
@@ -1347,8 +1347,8 @@
     "name": {
       "de": "Riviera-Raumteiler",
       "en": "Riviera Partition",
-      "fr": "Cloison nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3"
+      "fr": "Cloison noscéenne",
+      "ja": "ラノシアン・パーティション"
     }
   },
   {
@@ -1361,7 +1361,7 @@
       "de": "Eiben-Bauholz",
       "en": "Yew Lumber",
       "fr": "Madrier d'if",
-      "ja": "\u30e6\u30fc\u6750"
+      "ja": "ユー材"
     }
   },
   {
@@ -1374,7 +1374,7 @@
       "de": "Eiben-Stenz",
       "en": "Yew Radical",
       "fr": "Radicelle en if",
-      "ja": "\u30e6\u30fc\u30e9\u30c7\u30a3\u30ab\u30eb"
+      "ja": "ユーラディカル"
     }
   },
   {
@@ -1386,8 +1386,8 @@
     "name": {
       "de": "Wald-Tischlampe",
       "en": "Glade Lantern",
-      "fr": "Lanterne sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30e9\u30f3\u30bf\u30f3"
+      "fr": "Lanterne sombrelinçoise",
+      "ja": "シュラウド・ランタン"
     }
   },
   {
@@ -1400,7 +1400,7 @@
       "de": "Eisen-Guisarme",
       "en": "Iron Guisarme",
       "fr": "Guisarme",
-      "ja": "\u30ae\u30b6\u30eb\u30e1"
+      "ja": "ギザルメ"
     }
   },
   {
@@ -1413,7 +1413,7 @@
       "de": "Tonstein-Schleifrad",
       "en": "Mudstone Grinding Wheel",
       "fr": "Meule en mudstone",
-      "ja": "\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "グラインディングホイール"
     }
   },
   {
@@ -1423,10 +1423,10 @@
     "level": 22,
     "maxQuality": 561,
     "name": {
-      "de": "Oasen-Holzh\u00fcttendach",
+      "de": "Oasen-Holzhüttendach",
       "en": "Oasis Cottage Roof (Wood)",
       "fr": "Toit de maisonnette en bois thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a6\u30c3\u30c9\u30b3\u30c6\u30fc\u30b8\u30fb\u30eb\u30fc\u30d5"
+      "ja": "ザナラーン・ウッドコテージ・ルーフ"
     }
   },
   {
@@ -1436,10 +1436,10 @@
     "level": 22,
     "maxQuality": 561,
     "name": {
-      "de": "Oasen-Holzh\u00fcttenmauer",
+      "de": "Oasen-Holzhüttenmauer",
       "en": "Oasis Cottage Wall (Wood)",
       "fr": "Mur de maisonnette en bois thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a6\u30c3\u30c9\u30b3\u30c6\u30fc\u30b8\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "ja": "ザナラーン・ウッドコテージ・ウォール"
     }
   },
   {
@@ -1452,7 +1452,7 @@
       "de": "Ulmen-Spinnrad",
       "en": "Elm Spinning Wheel",
       "fr": "Rouet en orme",
-      "ja": "\u30a8\u30eb\u30e0\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "エルムスピニングホイール"
     }
   },
   {
@@ -1464,8 +1464,8 @@
     "name": {
       "de": "Wald-Kommode",
       "en": "Glade Cartonnier",
-      "fr": "Cartonnier sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30ab\u30eb\u30c8\u30cb\u30a8"
+      "fr": "Cartonnier sombrelinçois",
+      "ja": "シュラウド・カルトニエ"
     }
   },
   {
@@ -1475,10 +1475,10 @@
     "level": 23,
     "maxQuality": 584,
     "name": {
-      "de": "Wald-Komposith\u00fcttenmauer",
+      "de": "Wald-Komposithüttenmauer",
       "en": "Glade Cottage Wall (Composite)",
-      "fr": "Mur de maisonnette composite sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30b3\u30c6\u30fc\u30b8\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Mur de maisonnette composite sombrelinçoise",
+      "ja": "シュラウド・コンポジットコテージ・ウォール"
     }
   },
   {
@@ -1491,7 +1491,7 @@
       "de": "Ulmen-Trippen",
       "en": "Elm Pattens",
       "fr": "Patins en orme",
-      "ja": "\u30a8\u30eb\u30e0\u30d1\u30c3\u30c6\u30f3"
+      "ja": "エルムパッテン"
     }
   },
   {
@@ -1501,10 +1501,10 @@
     "level": 24,
     "maxQuality": 619,
     "name": {
-      "de": "Riviera-Steinh\u00fcttendach",
+      "de": "Riviera-Steinhüttendach",
       "en": "Riviera Cottage Roof (Stone)",
-      "fr": "Toit de maisonnette en pierre nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30b9\u30c8\u30fc\u30f3\u30b3\u30c6\u30fc\u30b8\u30fb\u30eb\u30fc\u30d5"
+      "fr": "Toit de maisonnette en pierre noscéenne",
+      "ja": "ラノシアン・ストーンコテージ・ルーフ"
     }
   },
   {
@@ -1516,8 +1516,8 @@
     "name": {
       "de": "Umwickelter Ulmenlangbogen",
       "en": "Wrapped Elm Longbow",
-      "fr": "Arc long en orme gain\u00e9",
-      "ja": "\u30e9\u30c3\u30d7\u30c9\u30fb\u30a8\u30eb\u30e0\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "fr": "Arc long en orme gainé",
+      "ja": "ラップド・エルムロングボウ"
     }
   },
   {
@@ -1530,7 +1530,7 @@
       "de": "Eibenhirtenstock",
       "en": "Yew Crook",
       "fr": "Crosse en if",
-      "ja": "\u30e6\u30fc\u30af\u30eb\u30fc\u30af"
+      "ja": "ユークルーク"
     }
   },
   {
@@ -1543,7 +1543,7 @@
       "de": "Fungus-Stuhl",
       "en": "Funguar Chair",
       "fr": "Tabouret fungus",
-      "ja": "\u30d5\u30a1\u30f3\u30ac\u30fc\u30c1\u30a7\u30a2"
+      "ja": "ファンガーチェア"
     }
   },
   {
@@ -1553,10 +1553,10 @@
     "level": 25,
     "maxQuality": 1296,
     "name": {
-      "de": "Anf\u00e4nger-Schleifrad",
+      "de": "Anfänger-Schleifrad",
       "en": "Initiate's Grinding Wheel",
-      "fr": "Meule d'initi\u00e9",
-      "ja": "\u30a4\u30cb\u30b7\u30a8\u30fc\u30c8\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "fr": "Meule d'initié",
+      "ja": "イニシエートグラインディングホイール"
     }
   },
   {
@@ -1569,7 +1569,7 @@
       "de": "Oasen-Geschirrschrank",
       "en": "Oasis Cupboard",
       "fr": "Buffet thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30ab\u30c3\u30d7\u30dc\u30fc\u30c9"
+      "ja": "ザナラーン・カップボード"
     }
   },
   {
@@ -1582,7 +1582,7 @@
       "de": "Walnuss-Bauholz",
       "en": "Walnut Lumber",
       "fr": "Madrier de noyer",
-      "ja": "\u30a6\u30a9\u30eb\u30ca\u30c3\u30c8\u6750"
+      "ja": "ウォルナット材"
     }
   },
   {
@@ -1594,8 +1594,8 @@
     "name": {
       "de": "Eibenangelrute",
       "en": "Yew Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en if",
-      "ja": "\u30e6\u30fc\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en if",
+      "ja": "ユーフィッシングロッド"
     }
   },
   {
@@ -1608,7 +1608,7 @@
       "de": "Eschenkompositbogen",
       "en": "Ash Composite Bow",
       "fr": "Arc composite",
-      "ja": "\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30dc\u30a6"
+      "ja": "コンポジットボウ"
     }
   },
   {
@@ -1618,10 +1618,10 @@
     "level": 26,
     "maxQuality": 666,
     "name": {
-      "de": "Wald-Fu\u00dfboden",
+      "de": "Wald-Fußboden",
       "en": "Glade Flooring",
-      "fr": "Parquet sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+      "fr": "Parquet sombrelinçois",
+      "ja": "シュラウド・フローリング"
     }
   },
   {
@@ -1631,10 +1631,10 @@
     "level": 26,
     "maxQuality": 666,
     "name": {
-      "de": "Wald-Spitzbogent\u00fcr",
+      "de": "Wald-Spitzbogentür",
       "en": "Glade Lancet Door",
-      "fr": "Porte \u00e0 lancette sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30e9\u30f3\u30bb\u30c3\u30c8\u30c9\u30a2"
+      "fr": "Porte à lancette sombrelinçoise",
+      "ja": "シュラウド・ランセットドア"
     }
   },
   {
@@ -1646,8 +1646,8 @@
     "name": {
       "de": "Wald-Reetschornstein",
       "en": "Glade Thatch Chimney",
-      "fr": "Chemin\u00e9e en chaume sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30bf\u30c3\u30c1\u30f3\u30b0\u30c1\u30e0\u30cb\u30fc"
+      "fr": "Cheminée en chaume sombrelinçoise",
+      "ja": "シュラウド・タッチングチムニー"
     }
   },
   {
@@ -1660,7 +1660,7 @@
       "de": "Oasen-Parkettboden",
       "en": "Oasis Flooring",
       "fr": "Parquet thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+      "ja": "ザナラーン・フローリング"
     }
   },
   {
@@ -1673,7 +1673,7 @@
       "de": "Pastoral-Eibenstock",
       "en": "Pastoral Yew Cane",
       "fr": "Canne pastorale en if",
-      "ja": "\u30d1\u30b9\u30c8\u30e9\u30eb\u30e6\u30fc\u30b1\u30fc\u30f3"
+      "ja": "パストラルユーケーン"
     }
   },
   {
@@ -1685,8 +1685,8 @@
     "name": {
       "de": "Riviera-Holzboden",
       "en": "Riviera Flooring",
-      "fr": "Parquet nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+      "fr": "Parquet noscéen",
+      "ja": "ラノシアン・フローリング"
     }
   },
   {
@@ -1698,8 +1698,8 @@
     "name": {
       "de": "Viper-Rundschild",
       "en": "Viper-crested Round Shield",
-      "fr": "Bouclier rond aux vip\u00e8res crois\u00e9es",
-      "ja": "\u30d0\u30a4\u30d1\u30fc\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Bouclier rond aux vipères croisées",
+      "ja": "バイパーシールド"
     }
   },
   {
@@ -1711,8 +1711,8 @@
     "name": {
       "de": "Walnuss-Esstisch",
       "en": "Walnut Dining Table",
-      "fr": "Table \u00e0 manger",
-      "ja": "\u30c0\u30a4\u30cb\u30f3\u30b0\u30c6\u30fc\u30d6\u30eb"
+      "fr": "Table à manger",
+      "ja": "ダイニングテーブル"
     }
   },
   {
@@ -1725,7 +1725,7 @@
       "de": "Haukke-Lehnstuhl",
       "en": "Manor Highback Chair",
       "fr": "Chaise du Manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u6905\u5b50"
+      "ja": "御用邸の椅子"
     }
   },
   {
@@ -1737,8 +1737,8 @@
     "name": {
       "de": "Oasen-Kronentor",
       "en": "Oasis Crowned Door",
-      "fr": "Porte \u00e0 imposte thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30af\u30e9\u30a6\u30f3\u30c9\u30a2"
+      "fr": "Porte à imposte thanalanaise",
+      "ja": "ザナラーン・クラウンドア"
     }
   },
   {
@@ -1751,7 +1751,7 @@
       "de": "Transportkiste",
       "en": "Shipping Crate",
       "fr": "Caisse de transport maritime",
-      "ja": "\u4ea4\u6613\u5546\u4eba\u306e\u6728\u7bb1"
+      "ja": "交易商人の木箱"
     }
   },
   {
@@ -1764,7 +1764,7 @@
       "de": "Silberne Kriegsgabel",
       "en": "Silver Battle Fork",
       "fr": "Fourche de combat en argent",
-      "ja": "\u30b7\u30eb\u30d0\u30fc\u30d5\u30a9\u30fc\u30af"
+      "ja": "シルバーフォーク"
     }
   },
   {
@@ -1777,7 +1777,7 @@
       "de": "Ulmen-Macuahuitl",
       "en": "Elm Macuahuitl",
       "fr": "Macuahuitl en orme",
-      "ja": "\u30a8\u30eb\u30e0\u30de\u30af\u30a2\u30d5\u30c6\u30a3\u30eb"
+      "ja": "エルムマクアフティル"
     }
   },
   {
@@ -1787,10 +1787,10 @@
     "level": 28,
     "maxQuality": 749,
     "name": {
-      "de": "Herrenhaus-B\u00fccherregal",
+      "de": "Herrenhaus-Bücherregal",
       "en": "Manor Bookshelf",
-      "fr": "Biblioth\u00e8que du Manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u672c\u68da"
+      "fr": "Bibliothèque du Manoir",
+      "ja": "御用邸の本棚"
     }
   },
   {
@@ -1803,7 +1803,7 @@
       "de": "Herrenhaus-Geschirrschrank",
       "en": "Manor Cupboard",
       "fr": "Vaisselier du Manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u98df\u5668\u68da"
+      "ja": "御用邸の食器棚"
     }
   },
   {
@@ -1816,7 +1816,7 @@
       "de": "Herrenhaus-Kleiderschrank",
       "en": "Manor Wardrobe",
       "fr": "Garde-robe du Manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u8863\u88c5\u7baa\u7b25"
+      "ja": "御用邸の衣装箪笥"
     }
   },
   {
@@ -1828,8 +1828,8 @@
     "name": {
       "de": "Riviera-Geschirrschrank",
       "en": "Riviera Cupboard",
-      "fr": "Buffet nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30ab\u30c3\u30d7\u30dc\u30fc\u30c9"
+      "fr": "Buffet noscéen",
+      "ja": "ラノシアン・カップボード"
     }
   },
   {
@@ -1841,8 +1841,8 @@
     "name": {
       "de": "Riviera-Holzvordach",
       "en": "Riviera Wooden Awning",
-      "fr": "Auvent bois\u00e9 nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a6\u30c3\u30c9\u30aa\u30fc\u30cb\u30f3\u30b0"
+      "fr": "Auvent boisé noscéen",
+      "ja": "ラノシアン・ウッドオーニング"
     }
   },
   {
@@ -1852,10 +1852,10 @@
     "level": 28,
     "maxQuality": 749,
     "name": {
-      "de": "Mythrilverst\u00e4rkter Gartentisch",
+      "de": "Mythrilverstärkter Gartentisch",
       "en": "Walnut Table",
       "fr": "Table de jardin",
-      "ja": "\u30ac\u30fc\u30c7\u30f3\u30c6\u30fc\u30d6\u30eb"
+      "ja": "ガーデンテーブル"
     }
   },
   {
@@ -1868,7 +1868,7 @@
       "de": "Herrenhaus-Tisch",
       "en": "Manor Table",
       "fr": "Table basse du Manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u5353\u5b50"
+      "ja": "御用邸の卓子"
     }
   },
   {
@@ -1880,8 +1880,8 @@
     "name": {
       "de": "Antilopenhorn-Angelrute",
       "en": "Staghorn Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en bois de cerf",
-      "ja": "\u30b9\u30bf\u30c3\u30b0\u30db\u30fc\u30f3\u30fb\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en bois de cerf",
+      "ja": "スタッグホーン・フィッシングロッド"
     }
   },
   {
@@ -1894,7 +1894,7 @@
       "de": "Eisenhellebarde",
       "en": "Steel Halberd",
       "fr": "Hallebarde",
-      "ja": "\u30cf\u30eb\u30d0\u30fc\u30c9"
+      "ja": "ハルバード"
     }
   },
   {
@@ -1907,7 +1907,7 @@
       "de": "Walnuss-Stock",
       "en": "Walnut Cane",
       "fr": "Canne en noyer",
-      "ja": "\u30a6\u30a9\u30eb\u30ca\u30c3\u30c8\u30b1\u30fc\u30f3"
+      "ja": "ウォルナットケーン"
     }
   },
   {
@@ -1920,7 +1920,7 @@
       "de": "Tiefblauer Farbstoff",
       "en": "Abyssal Blue Dye",
       "fr": "Teinture bleu marine",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a2\u30d3\u30b5\u30eb\u30d6\u30eb\u30fc"
+      "ja": "カララント:アビサルブルー"
     }
   },
   {
@@ -1930,10 +1930,10 @@
     "level": 30,
     "maxQuality": 792,
     "name": {
-      "de": "Bl\u00e4tterranken-Wandvert\u00e4felung",
+      "de": "Blätterranken-Wandvertäfelung",
       "en": "Arbor Interior Wall",
-      "fr": "Rev\u00eatement mural sylvestre",
-      "ja": "\u30d5\u30a9\u30ec\u30b9\u30c8\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Revêtement mural sylvestre",
+      "ja": "フォレストインナーウォール"
     }
   },
   {
@@ -1943,10 +1943,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Jadegr\u00fcner Farbstoff",
+      "de": "Jadegrüner Farbstoff",
       "en": "Celeste Green Dye",
-      "fr": "Teinture vert c\u00e9leste",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3"
+      "fr": "Teinture vert céleste",
+      "ja": "カララント:セレストグリーン"
     }
   },
   {
@@ -1959,7 +1959,7 @@
       "de": "Kolibrirosa Farbstoff",
       "en": "Colibri Pink Dye",
       "fr": "Teinture mauve colibri",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30ea\u30d6\u30ea\u30d4\u30f3\u30af"
+      "ja": "カララント:コリブリピンク"
     }
   },
   {
@@ -1972,7 +1972,7 @@
       "de": "Dalamudroter Farbstoff",
       "en": "Dalamud Red Dye",
       "fr": "Teinture rouge Dalamud",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c0\u30e9\u30ac\u30d6\u30ec\u30c3\u30c9"
+      "ja": "カララント:ダラガブレッド"
     }
   },
   {
@@ -1982,10 +1982,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Waldgr\u00fcner Farbstoff",
+      "de": "Waldgrüner Farbstoff",
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c7\u30a3\u30fc\u30d7\u30a6\u30c3\u30c9\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:ディープウッドグリーン"
     }
   },
   {
@@ -1997,8 +1997,8 @@
     "name": {
       "de": "Postament",
       "en": "Display Stand",
-      "fr": "Pr\u00e9sentoir ornement\u00e9",
-      "ja": "\u30c7\u30a3\u30b9\u30d7\u30ec\u30a4\u30b9\u30bf\u30f3\u30c9"
+      "fr": "Présentoir ornementé",
+      "ja": "ディスプレイスタンド"
     }
   },
   {
@@ -2010,8 +2010,8 @@
     "name": {
       "de": "Wald-Kleiderschrank",
       "en": "Glade Wardrobe",
-      "fr": "Penderie sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30ef\u30fc\u30c9\u30ed\u30fc\u30d6"
+      "fr": "Penderie sombrelinçoise",
+      "ja": "シュラウド・ワードローブ"
     }
   },
   {
@@ -2024,7 +2024,7 @@
       "de": "Zimmerer-Projektionsprisma",
       "en": "Glamour Prism (Woodworking)",
       "fr": "Prisme mirage (menuiserie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0:\u30a6\u30c3\u30c9\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズム:ウッドワーク"
     }
   },
   {
@@ -2037,7 +2037,7 @@
       "de": "Zimmerer-Projektionsprisma II",
       "en": "Grade 2 Glamour Prism (Woodworking)",
       "fr": "Prisme mirage II (menuiserie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G2:\u30a6\u30c3\u30c9\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズムG2:ウッドワーク"
     }
   },
   {
@@ -2050,7 +2050,7 @@
       "de": "Zimmerer-Projektionsprisma III",
       "en": "Grade 3 Glamour Prism (Woodworking)",
       "fr": "Prisme mirage III (menuiserie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G3:\u30a6\u30c3\u30c9\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズムG3:ウッドワーク"
     }
   },
   {
@@ -2063,7 +2063,7 @@
       "de": "Zimmerer-Projektionsprisma IV",
       "en": "Grade 4 Glamour Prism (Woodworking)",
       "fr": "Prisme mirage IV (menuiserie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G4:\u30a6\u30c3\u30c9\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズムG4:ウッドワーク"
     }
   },
   {
@@ -2076,7 +2076,7 @@
       "de": "Zimmerer-Projektionsprisma V",
       "en": "Grade 5 Glamour Prism (Woodworking)",
       "fr": "Prisme mirage V (menuiserie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G5:\u30a6\u30c3\u30c9\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズムG5:ウッドワーク"
     }
   },
   {
@@ -2089,7 +2089,7 @@
       "de": "Honiggelber Farbstoff",
       "en": "Honey Yellow Dye",
       "fr": "Teinture jaune miel",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30cb\u30fc\u30a4\u30a8\u30ed\u30fc"
+      "ja": "カララント:ハニーイエロー"
     }
   },
   {
@@ -2099,10 +2099,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "J\u00e4gergr\u00fcner Farbstoff",
+      "de": "Jägergrüner Farbstoff",
       "en": "Hunter Green Dye",
       "fr": "Teinture vert chasseur",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30f3\u30bf\u30fc\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:ハンターグリーン"
     }
   },
   {
@@ -2115,7 +2115,7 @@
       "de": "Koboldbrauner Farbstoff",
       "en": "Kobold Brown Dye",
       "fr": "Teinture brun kobold",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30dc\u30eb\u30c9\u30d6\u30e9\u30a6\u30f3"
+      "ja": "カララント:コボルドブラウン"
     }
   },
   {
@@ -2128,7 +2128,7 @@
       "de": "Lehmbrauner Farbstoff",
       "en": "Loam Brown Dye",
       "fr": "Teinture brun argile",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30e0\u30d6\u30e9\u30a6\u30f3"
+      "ja": "カララント:ロームブラウン"
     }
   },
   {
@@ -2141,7 +2141,7 @@
       "de": "Lotusrosa Farbstoff",
       "en": "Lotus Pink Dye",
       "fr": "Teinture mauve lotus",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30bf\u30b9\u30d4\u30f3\u30af"
+      "ja": "カララント:ロータスピンク"
     }
   },
   {
@@ -2151,10 +2151,10 @@
     "level": 30,
     "maxQuality": 792,
     "name": {
-      "de": "Notenst\u00e4nder",
+      "de": "Notenständer",
       "en": "Manor Music Stand",
       "fr": "Pupitre du manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u8b5c\u9762\u53f0"
+      "ja": "御用邸の譜面台"
     }
   },
   {
@@ -2167,7 +2167,7 @@
       "de": "Klavierhocker",
       "en": "Manor Music Stool",
       "fr": "Banc musical du manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u6f14\u594f\u6905\u5b50"
+      "ja": "御用邸の演奏椅子"
     }
   },
   {
@@ -2179,8 +2179,8 @@
     "name": {
       "de": "Maisgelber Farbstoff",
       "en": "Millioncorn Yellow Dye",
-      "fr": "Teinture jaune milli-ma\u00efs",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30df\u30ea\u30aa\u30f3\u30b3\u30fc\u30f3\u30a4\u30a8\u30ed\u30fc"
+      "fr": "Teinture jaune milli-maïs",
+      "ja": "カララント:ミリオンコーンイエロー"
     }
   },
   {
@@ -2190,10 +2190,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Morbolgr\u00fcner Farbstoff",
+      "de": "Morbolgrüner Farbstoff",
       "en": "Morbol Green Dye",
       "fr": "Teinture vert morbol",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30e2\u30eb\u30dc\u30eb\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:モルボルグリーン"
     }
   },
   {
@@ -2203,10 +2203,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Ochugr\u00fcner Farbstoff",
+      "de": "Ochugrüner Farbstoff",
       "en": "Ochu Green Dye",
       "fr": "Teinture vert otyugh",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30c1\u30e5\u30fc\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:オチューグリーン"
     }
   },
   {
@@ -2219,7 +2219,7 @@
       "de": "Othardblauer Farbstoff",
       "en": "Othard Blue Dye",
       "fr": "Teinture bleu d'Othard",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30b5\u30fc\u30c9\u30d6\u30eb\u30fc"
+      "ja": "カララント:オサードブルー"
     }
   },
   {
@@ -2232,7 +2232,7 @@
       "de": "Pflaumenvioletter Farbstoff",
       "en": "Plum Purple Dye",
       "fr": "Teinture prune",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d7\u30e9\u30e0\u30d1\u30fc\u30d7\u30eb"
+      "ja": "カララント:プラムパープル"
     }
   },
   {
@@ -2245,7 +2245,7 @@
       "de": "Gefiederter Eibenhirtenstock",
       "en": "Plumed Yew Crook",
       "fr": "Crosse corbeau",
-      "ja": "\u30af\u30ed\u30a6\u30af\u30eb\u30fc\u30af"
+      "ja": "クロウクルーク"
     }
   },
   {
@@ -2255,10 +2255,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00fcrbisoranger Farbstoff",
+      "de": "Kürbisoranger Farbstoff",
       "en": "Pumpkin Orange Dye",
       "fr": "Teinture orange citrouille",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d1\u30f3\u30d7\u30ad\u30f3\u30aa\u30ec\u30f3\u30b8"
+      "ja": "カララント:パンプキンオレンジ"
     }
   },
   {
@@ -2268,10 +2268,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00f6nigsvioletter Farbstoff",
+      "de": "Königsvioletter Farbstoff",
       "en": "Regal Purple Dye",
       "fr": "Teinture byzantium",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ea\u30fc\u30ac\u30eb\u30d1\u30fc\u30d7\u30eb"
+      "ja": "カララント:リーガルパープル"
     }
   },
   {
@@ -2281,10 +2281,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00f6nigsblauer Farbstoff",
+      "de": "Königsblauer Farbstoff",
       "en": "Royal Blue Dye",
       "fr": "Teinture bleu royal",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30a4\u30e4\u30eb\u30d6\u30eb\u30fc"
+      "ja": "カララント:ロイヤルブルー"
     }
   },
   {
@@ -2294,10 +2294,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Schneewei\u00dfer Farbstoff",
+      "de": "Schneeweißer Farbstoff",
       "en": "Snow White Dye",
       "fr": "Teinture blanc neige",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30ce\u30a6\u30db\u30ef\u30a4\u30c8"
+      "ja": "カララント:スノウホワイト"
     }
   },
   {
@@ -2307,10 +2307,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Ru\u00dfschwarzer Farbstoff",
+      "de": "Rußschwarzer Farbstoff",
       "en": "Soot Black Dye",
       "fr": "Teinture noir suie",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30fc\u30c8\u30d6\u30e9\u30c3\u30af"
+      "ja": "カララント:スートブラック"
     }
   },
   {
@@ -2323,7 +2323,7 @@
       "de": "Klapptafel",
       "en": "Standing Signboard",
       "fr": "Tableau d'informations",
-      "ja": "\u30b9\u30bf\u30f3\u30c7\u30a3\u30f3\u30b0\u30b5\u30a4\u30f3\u30dc\u30fc\u30c9"
+      "ja": "スタンディングサインボード"
     }
   },
   {
@@ -2336,7 +2336,7 @@
       "de": "Stahlspeer",
       "en": "Steel Spear",
       "fr": "Hast en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30b9\u30d4\u30a2"
+      "ja": "スチールスピア"
     }
   },
   {
@@ -2349,7 +2349,7 @@
       "de": "Stehleiter",
       "en": "Stepladder",
       "fr": "Escabeau",
-      "ja": "\u30b9\u30c6\u30c3\u30d7\u30e9\u30c0\u30fc"
+      "ja": "ステップラダー"
     }
   },
   {
@@ -2361,8 +2361,8 @@
     "name": {
       "de": "Sturmblauer Farbstoff",
       "en": "Storm Blue Dye",
-      "fr": "Teinture bleu temp\u00eate",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30c8\u30fc\u30e0\u30d6\u30eb\u30fc"
+      "fr": "Teinture bleu tempête",
+      "ja": "カララント:ストームブルー"
     }
   },
   {
@@ -2375,7 +2375,7 @@
       "de": "Abendroter Farbstoff",
       "en": "Sunset Orange Dye",
       "fr": "Teinture orange couchant",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b5\u30f3\u30bb\u30c3\u30c8\u30aa\u30ec\u30f3\u30b8"
+      "ja": "カララント:サンセットオレンジ"
     }
   },
   {
@@ -2387,8 +2387,8 @@
     "name": {
       "de": "Nichtsblauer Farbstoff",
       "en": "Void Blue Dye",
-      "fr": "Teinture bleu du n\u00e9ant",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30f4\u30a9\u30a4\u30c9\u30d6\u30eb\u30fc"
+      "fr": "Teinture bleu du néant",
+      "ja": "カララント:ヴォイドブルー"
     }
   },
   {
@@ -2401,7 +2401,7 @@
       "de": "Walnuss-Kommode",
       "en": "Walnut Cartonnier",
       "fr": "Cartonnier",
-      "ja": "\u30ab\u30eb\u30c8\u30cb\u30a8"
+      "ja": "カルトニエ"
     }
   },
   {
@@ -2414,7 +2414,7 @@
       "de": "Weinroter Farbstoff",
       "en": "Wine Red Dye",
       "fr": "Teinture lie-de-vin",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ef\u30a4\u30f3\u30ec\u30c3\u30c9"
+      "ja": "カララント:ワインレッド"
     }
   },
   {
@@ -2426,8 +2426,8 @@
     "name": {
       "de": "Indigoblauer Farbstoff",
       "en": "Woad Blue Dye",
-      "fr": "Teinture bleu gu\u00e8de",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a6\u30a9\u30fc\u30c9\u30d6\u30eb\u30fc"
+      "fr": "Teinture bleu guède",
+      "ja": "カララント:ウォードブルー"
     }
   },
   {
@@ -2439,8 +2439,8 @@
     "name": {
       "de": "Eschen-Kavalleriebogen",
       "en": "Ash Cavalry Bow",
-      "fr": "Arc de cavalerie en fr\u00eane",
-      "ja": "\u30a2\u30c3\u30b7\u30e5\u30ad\u30e3\u30d0\u30eb\u30ea\u30fc\u30dc\u30a6"
+      "fr": "Arc de cavalerie en frêne",
+      "ja": "アッシュキャバルリーボウ"
     }
   },
   {
@@ -2450,10 +2450,10 @@
     "level": 31,
     "maxQuality": 835,
     "name": {
-      "de": "Wald-Wandvert\u00e4felung",
+      "de": "Wald-Wandvertäfelung",
       "en": "Glade Interior Wall",
-      "fr": "Rev\u00eatement mural sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Revêtement mural sombrelinçois",
+      "ja": "シュラウド・インナーウォール"
     }
   },
   {
@@ -2465,8 +2465,8 @@
     "name": {
       "de": "Wald-Raumteiler",
       "en": "Glade Partition",
-      "fr": "Cloison sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3"
+      "fr": "Cloison sombrelinçoise",
+      "ja": "シュラウド・パーティション"
     }
   },
   {
@@ -2479,7 +2479,7 @@
       "de": "Oasen-Stuhl",
       "en": "Oasis Chair",
       "fr": "Chaise en bois thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a6\u30c3\u30c9\u30c1\u30a7\u30a2"
+      "ja": "ザナラーン・ウッドチェア"
     }
   },
   {
@@ -2492,7 +2492,7 @@
       "de": "Gehilfen-Kommode",
       "en": "Retainer Cartonnier",
       "fr": "Cartonnier de servant",
-      "ja": "\u30ea\u30c6\u30a4\u30ca\u30fc\u30ab\u30eb\u30c8\u30cb\u30a8"
+      "ja": "リテイナーカルトニエ"
     }
   },
   {
@@ -2502,10 +2502,10 @@
     "level": 31,
     "maxQuality": 835,
     "name": {
-      "de": "Riviera-Wandvert\u00e4felung",
+      "de": "Riviera-Wandvertäfelung",
       "en": "Riviera Interior Wall",
-      "fr": "Rev\u00eatement mural nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Revêtement mural noscéen",
+      "ja": "ラノシアン・インナーウォール"
     }
   },
   {
@@ -2517,8 +2517,8 @@
     "name": {
       "de": "Wald-Prachtdeckenleuchte",
       "en": "Deluxe Glade Pendant Lamp",
-      "fr": "Plafonnier sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30c7\u30e9\u30c3\u30af\u30b9\u30da\u30f3\u30c0\u30f3\u30c8\u30e9\u30f3\u30d7"
+      "fr": "Plafonnier sombrelinçois",
+      "ja": "シュラウド・デラックスペンダントランプ"
     }
   },
   {
@@ -2528,10 +2528,10 @@
     "level": 32,
     "maxQuality": 848,
     "name": {
-      "de": "Wald-F\u00e4cherbogenpforte",
+      "de": "Wald-Fächerbogenpforte",
       "en": "Glade Arched Door",
-      "fr": "Porte arqu\u00e9e sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a2\u30fc\u30c1\u30c9\u30a2"
+      "fr": "Porte arquée sombrelinçoise",
+      "ja": "シュラウド・アーチドア"
     }
   },
   {
@@ -2543,8 +2543,8 @@
     "name": {
       "de": "Eichen-Bauholz",
       "en": "Oak Lumber",
-      "fr": "Madrier de ch\u00eane",
-      "ja": "\u30aa\u30fc\u30af\u6750"
+      "fr": "Madrier de chêne",
+      "ja": "オーク材"
     }
   },
   {
@@ -2556,8 +2556,8 @@
     "name": {
       "de": "Riviera-Theke",
       "en": "Riviera Stall",
-      "fr": "Bar nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30b9\u30c8\u30fc\u30eb"
+      "fr": "Bar noscéen",
+      "ja": "ラノシアン・ストール"
     }
   },
   {
@@ -2567,10 +2567,10 @@
     "level": 32,
     "maxQuality": 848,
     "name": {
-      "de": "Riviera-Holzt\u00fcr",
+      "de": "Riviera-Holztür",
       "en": "Riviera Wooden Door",
-      "fr": "Porte bois\u00e9e nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a6\u30c3\u30c9\u30c9\u30a2"
+      "fr": "Porte boisée noscéenne",
+      "ja": "ラノシアン・ウッドドア"
     }
   },
   {
@@ -2582,8 +2582,8 @@
     "name": {
       "de": "Walnussangelrute",
       "en": "Walnut Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en noyer",
-      "ja": "\u30a6\u30a9\u30eb\u30ca\u30c3\u30c8\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en noyer",
+      "ja": "ウォルナットフィッシングロッド"
     }
   },
   {
@@ -2595,8 +2595,8 @@
     "name": {
       "de": "Wald-Kommodentisch",
       "en": "Glade Sideboard",
-      "fr": "Dressoir sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b5\u30a4\u30c9\u30dc\u30fc\u30c9"
+      "fr": "Dressoir sombrelinçois",
+      "ja": "シュラウド・サイドボード"
     }
   },
   {
@@ -2606,10 +2606,10 @@
     "level": 33,
     "maxQuality": 878,
     "name": {
-      "de": "Wandb\u00fccherkiste",
+      "de": "Wandbücherkiste",
       "en": "Mounted Box Shelf",
-      "fr": "\u00c9tag\u00e8re murale en bois",
-      "ja": "\u30a6\u30a9\u30fc\u30eb\u30dc\u30c3\u30af\u30b9\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Étagère murale en bois",
+      "ja": "ウォールボックスシェルフ"
     }
   },
   {
@@ -2622,7 +2622,7 @@
       "de": "Oasen-Kleiderschrank",
       "en": "Oasis Wardrobe",
       "fr": "Penderie thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30ef\u30fc\u30c9\u30ed\u30fc\u30d6"
+      "ja": "ザナラーン・ワードローブ"
     }
   },
   {
@@ -2634,8 +2634,8 @@
     "name": {
       "de": "Oasen-Holzlattenzaun",
       "en": "Oasis Wooden Wall",
-      "fr": "Muret bois\u00e9 thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a6\u30c3\u30c9\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Muret boisé thanalanais",
+      "ja": "ザナラーン・ウッドウォール"
     }
   },
   {
@@ -2648,7 +2648,7 @@
       "de": "Walnuss-Trippen",
       "en": "Walnut Pattens",
       "fr": "Patins en noyer",
-      "ja": "\u30a6\u30a9\u30eb\u30ca\u30c3\u30c8\u30d1\u30c3\u30c6\u30f3"
+      "ja": "ウォルナットパッテン"
     }
   },
   {
@@ -2661,7 +2661,7 @@
       "de": "Walnuss-Spinnrad",
       "en": "Walnut Spinning Wheel",
       "fr": "Rouet en noyer",
-      "ja": "\u30a6\u30a9\u30eb\u30ca\u30c3\u30c8\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "ウォルナットスピニングホイール"
     }
   },
   {
@@ -2673,8 +2673,8 @@
     "name": {
       "de": "Wald-Laternenmast",
       "en": "Glade Lamppost",
-      "fr": "Lampadaire sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30e9\u30f3\u30d7\u30dd\u30b9\u30c8"
+      "fr": "Lampadaire sombrelinçois",
+      "ja": "シュラウド・ランプポスト"
     }
   },
   {
@@ -2686,8 +2686,8 @@
     "name": {
       "de": "Wald-Theke",
       "en": "Glade Stall",
-      "fr": "Bar sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b9\u30c8\u30fc\u30eb"
+      "fr": "Bar sombrelinçois",
+      "ja": "シュラウド・ストール"
     }
   },
   {
@@ -2700,7 +2700,7 @@
       "de": "Schluffstein-Schleifrad",
       "en": "Siltstone Grinding Wheel",
       "fr": "Meule en siltstone",
-      "ja": "\u30b7\u30eb\u30c8\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "シルトグラインディングホイール"
     }
   },
   {
@@ -2713,7 +2713,7 @@
       "de": "Walnuss-Macuahuitl",
       "en": "Walnut Macuahuitl",
       "fr": "Macuahuitl en noyer",
-      "ja": "\u30a6\u30a9\u30eb\u30ca\u30c3\u30c8\u30de\u30af\u30a2\u30d5\u30c6\u30a3\u30eb"
+      "ja": "ウォルナットマクアフティル"
     }
   },
   {
@@ -2725,8 +2725,8 @@
     "name": {
       "de": "Trockener Brunnen",
       "en": "Dried Well",
-      "fr": "Puits sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30aa\u30fc\u30eb\u30c9\u30a6\u30a7\u30eb"
+      "fr": "Puits sombrelinçois",
+      "ja": "シュラウド・オールドウェル"
     }
   },
   {
@@ -2738,8 +2738,8 @@
     "name": {
       "de": "Halbhoher Wald-Raumteiler",
       "en": "Glade Half Partition",
-      "fr": "Demi-cloison sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30cf\u30fc\u30d5\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3"
+      "fr": "Demi-cloison sombrelinçoise",
+      "ja": "シュラウド・ハーフパーティション"
     }
   },
   {
@@ -2751,8 +2751,8 @@
     "name": {
       "de": "Wald-Holzhausmauer",
       "en": "Glade House Wall (Wood)",
-      "fr": "Mur de pavillon en bois sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a6\u30c3\u30c9\u30cf\u30a6\u30b9\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Mur de pavillon en bois sombrelinçois",
+      "ja": "シュラウド・ウッドハウス・ウォール"
     }
   },
   {
@@ -2765,7 +2765,7 @@
       "de": "Schwere Stahllanze",
       "en": "Heavy Steel Lance",
       "fr": "Lance lourde en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30d8\u30f4\u30a3\u30e9\u30f3\u30b9"
+      "ja": "スチールヘヴィランス"
     }
   },
   {
@@ -2777,8 +2777,8 @@
     "name": {
       "de": "Eichenlangbogen",
       "en": "Oak Longbow",
-      "fr": "Arc long en ch\u00eane",
-      "ja": "\u30aa\u30fc\u30af\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "fr": "Arc long en chêne",
+      "ja": "オークロングボウ"
     }
   },
   {
@@ -2790,8 +2790,8 @@
     "name": {
       "de": "Eichen-Stenz",
       "en": "Oak Radical",
-      "fr": "Radicelle en ch\u00eane",
-      "ja": "\u30aa\u30fc\u30af\u30e9\u30c7\u30a3\u30ab\u30eb"
+      "fr": "Radicelle en chêne",
+      "ja": "オークラディカル"
     }
   },
   {
@@ -2803,12 +2803,11 @@
     "name": {
       "de": "Riviera-Komposithausdach",
       "en": "Riviera House Roof (Composite)",
-      "fr": "Toit de pavillon composite nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30cf\u30a6\u30b9\u30fb\u30eb\u30fc\u30d5"
+      "fr": "Toit de pavillon composite noscéen",
+      "ja": "ラノシアン・コンポジットハウス・ルーフ"
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2817,8 +2816,8 @@
     "name": {
       "de": "Restaurierter Plankenschild",
       "en": "Vintage Square Shield",
-      "fr": "Bouclier carr\u00e9 de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30a8\u30ad\u30e5"
+      "fr": "Bouclier carré de collection",
+      "ja": "ヴィンテージエキュ"
     }
   },
   {
@@ -2831,7 +2830,7 @@
       "de": "Weinfass",
       "en": "Wine Barrel",
       "fr": "Tonneau en bois",
-      "ja": "\u30ef\u30a4\u30f3\u30d0\u30ec\u30eb"
+      "ja": "ワインバレル"
     }
   },
   {
@@ -2844,7 +2843,7 @@
       "de": "Mithril-Kavalleriebogen",
       "en": "Mythril Cavalry Bow",
       "fr": "Arc de cavalerie en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30ad\u30e3\u30d0\u30eb\u30ea\u30fc\u30dc\u30a6"
+      "ja": "ミスリルキャバルリーボウ"
     }
   },
   {
@@ -2857,7 +2856,7 @@
       "de": "Yarzon-Panzer-Harpune",
       "en": "Yarzonshell Harpoon",
       "fr": "Harpon yarzon",
-      "ja": "\u30e4\u30fc\u30be\u30f3\u30cf\u30fc\u30d7\u30fc\u30f3"
+      "ja": "ヤーゾンハープーン"
     }
   },
   {
@@ -2869,8 +2868,8 @@
     "name": {
       "de": "Wald-Tisch",
       "en": "Glade Table",
-      "fr": "Table sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30c6\u30fc\u30d6\u30eb"
+      "fr": "Table sombrelinçoise",
+      "ja": "シュラウド・テーブル"
     }
   },
   {
@@ -2882,8 +2881,8 @@
     "name": {
       "de": "Hornangelrute",
       "en": "Horn Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en corne",
-      "ja": "\u30db\u30fc\u30f3\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en corne",
+      "ja": "ホーンフィッシングロッド"
     }
   },
   {
@@ -2895,8 +2894,8 @@
     "name": {
       "de": "Pastoral-Eichenstock",
       "en": "Pastoral Oak Cane",
-      "fr": "Canne pastorale en ch\u00eane",
-      "ja": "\u30d1\u30b9\u30c8\u30e9\u30eb\u30aa\u30fc\u30af\u30b1\u30fc\u30f3"
+      "fr": "Canne pastorale en chêne",
+      "ja": "パストラルオークケーン"
     }
   },
   {
@@ -2908,8 +2907,8 @@
     "name": {
       "de": "Wald-Schreibtisch",
       "en": "Glade Desk",
-      "fr": "Bureau sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30c7\u30b9\u30af"
+      "fr": "Bureau sombrelinçois",
+      "ja": "シュラウド・デスク"
     }
   },
   {
@@ -2922,7 +2921,7 @@
       "de": "Mithrillanze",
       "en": "Mythril Lance",
       "fr": "Lance en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30e9\u30f3\u30b9"
+      "ja": "ミスリルランス"
     }
   },
   {
@@ -2934,12 +2933,11 @@
     "name": {
       "de": "Riviera-Holzhausmauer",
       "en": "Riviera House Wall (Wood)",
-      "fr": "Mur de pavillon en bois nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a6\u30c3\u30c9\u30cf\u30a6\u30b9\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Mur de pavillon en bois noscéen",
+      "ja": "ラノシアン・ウッドハウス・ウォール"
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -2949,7 +2947,7 @@
       "de": "Restaurierter Stock",
       "en": "Vintage Cane",
       "fr": "Canne de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30b1\u30fc\u30f3"
+      "ja": "ヴィンテージケーン"
     }
   },
   {
@@ -2962,7 +2960,7 @@
       "de": "Mahagoni-Bauholz",
       "en": "Mahogany Lumber",
       "fr": "Madrier d'acajou",
-      "ja": "\u30de\u30db\u30ac\u30cb\u30fc\u6750"
+      "ja": "マホガニー材"
     }
   },
   {
@@ -2974,8 +2972,8 @@
     "name": {
       "de": "Eichen-Trippen",
       "en": "Oak Pattens",
-      "fr": "Patins en ch\u00eane",
-      "ja": "\u30aa\u30fc\u30af\u30d1\u30c3\u30c6\u30f3"
+      "fr": "Patins en chêne",
+      "ja": "オークパッテン"
     }
   },
   {
@@ -2988,7 +2986,7 @@
       "de": "Oasen-Holzhausdach",
       "en": "Oasis House Roof (Wood)",
       "fr": "Toit de pavillon en bois thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a6\u30c3\u30c9\u30cf\u30a6\u30b9\u30fb\u30eb\u30fc\u30d5"
+      "ja": "ザナラーン・ウッドハウス・ルーフ"
     }
   },
   {
@@ -3001,7 +2999,7 @@
       "de": "Oasen-Holzhausmauer",
       "en": "Oasis House Wall (Wood)",
       "fr": "Mur de pavillon en bois thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a6\u30c3\u30c9\u30cf\u30a6\u30b9\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "ja": "ザナラーン・ウッドハウス・ウォール"
     }
   },
   {
@@ -3013,8 +3011,8 @@
     "name": {
       "de": "Wald-Komposithausmauer",
       "en": "Glade House Wall (Composite)",
-      "fr": "Mur de pavillon composite sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30cf\u30a6\u30b9\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Mur de pavillon composite sombrelinçois",
+      "ja": "シュラウド・コンポジットハウス・ウォール"
     }
   },
   {
@@ -3024,10 +3022,10 @@
     "level": 40,
     "maxQuality": 1025,
     "name": {
-      "de": "Wald-S\u00e4ule",
+      "de": "Wald-Säule",
       "en": "Glade Pillar",
-      "fr": "Colonne sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d4\u30e9\u30fc"
+      "fr": "Colonne sombrelinçoise",
+      "ja": "シュラウド・ピラー"
     }
   },
   {
@@ -3040,7 +3038,7 @@
       "de": "Bilderrahmen S",
       "en": "Grade 1 Picture Frame",
       "fr": "Cadre de petite taille",
-      "ja": "\u30d4\u30af\u30c1\u30e3\u30fc\u30d5\u30ec\u30fc\u30e0G1"
+      "ja": "ピクチャーフレームG1"
     }
   },
   {
@@ -3052,8 +3050,8 @@
     "name": {
       "de": "Mahagoni-Angelrute",
       "en": "Mahogany Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en acajou",
-      "ja": "\u30de\u30db\u30ac\u30cb\u30fc\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en acajou",
+      "ja": "マホガニーフィッシングロッド"
     }
   },
   {
@@ -3066,7 +3064,7 @@
       "de": "Mahagoni-Raumteiler",
       "en": "Mahogany Partition Door",
       "fr": "Porte de partition en acajou",
-      "ja": "\u30de\u30db\u30ac\u30cb\u30fc\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3\u30c9\u30a2"
+      "ja": "マホガニーパーティションドア"
     }
   },
   {
@@ -3079,7 +3077,7 @@
       "de": "Mahagoni-Spinnrad",
       "en": "Mahogany Spinning Wheel",
       "fr": "Rouet en acajou",
-      "ja": "\u30de\u30db\u30ac\u30cb\u30fc\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "マホガニースピニングホイール"
     }
   },
   {
@@ -3091,8 +3089,8 @@
     "name": {
       "de": "Eichenkompositbogen",
       "en": "Oak Composite Bow",
-      "fr": "Arc composite en ch\u00eane",
-      "ja": "\u30aa\u30fc\u30af\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30dc\u30a6"
+      "fr": "Arc composite en chêne",
+      "ja": "オークコンポジットボウ"
     }
   },
   {
@@ -3105,7 +3103,7 @@
       "de": "Halbhoher Oasen-Raumteiler",
       "en": "Oasis Half Partition",
       "fr": "Demi-cloison thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30cf\u30fc\u30d5\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3"
+      "ja": "ザナラーン・ハーフパーティション"
     }
   },
   {
@@ -3118,7 +3116,7 @@
       "de": "Oasen-Schreibtisch",
       "en": "Oasis Desk",
       "fr": "Bureau thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30c7\u30b9\u30af"
+      "ja": "ザナラーン・デスク"
     }
   },
   {
@@ -3131,7 +3129,7 @@
       "de": "Oasen-Theke",
       "en": "Oasis Stall",
       "fr": "Bar thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30b9\u30c8\u30fc\u30eb"
+      "ja": "ザナラーン・ストール"
     }
   },
   {
@@ -3143,8 +3141,8 @@
     "name": {
       "de": "Gefiedertes Macuahuitl",
       "en": "Plumed Oak Macuahuitl",
-      "fr": "Macuahuitl \u00e0 plumet",
-      "ja": "\u30b3\u30f3\u30c9\u30eb\u30de\u30af\u30a2\u30d5\u30c6\u30a3\u30eb"
+      "fr": "Macuahuitl à plumet",
+      "ja": "コンドルマクアフティル"
     }
   },
   {
@@ -3156,8 +3154,8 @@
     "name": {
       "de": "Riviera-Steinhausdach",
       "en": "Riviera House Roof (Stone)",
-      "fr": "Toit de pavillon en pierre nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30b9\u30c8\u30fc\u30f3\u30cf\u30a6\u30b9\u30fb\u30eb\u30fc\u30d5"
+      "fr": "Toit de pavillon en pierre noscéen",
+      "ja": "ラノシアン・ストーンハウス・ルーフ"
     }
   },
   {
@@ -3170,7 +3168,7 @@
       "de": "Belaubter Palisander-Stenz",
       "en": "Sprouting Rosewood Radical",
       "fr": "Radicelle feuillue en palissandre",
-      "ja": "\u30ea\u30fc\u30f4\u30c9\u30ed\u30fc\u30ba\u30e9\u30c7\u30a3\u30ab\u30eb"
+      "ja": "リーヴドローズラディカル"
     }
   },
   {
@@ -3183,7 +3181,7 @@
       "de": "Granat-Schleifrad",
       "en": "Garnet Grinding Wheel",
       "fr": "Meule en grenat",
-      "ja": "\u30ac\u30fc\u30cd\u30c3\u30c8\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "ガーネットグラインディングホイール"
     }
   },
   {
@@ -3195,8 +3193,8 @@
     "name": {
       "de": "Sternenglobus-Modell",
       "en": "Model Star Globe",
-      "fr": "Sph\u00e8re c\u00e9leste",
-      "ja": "\u5929\u7403\u5100"
+      "fr": "Sphère céleste",
+      "ja": "天球儀"
     }
   },
   {
@@ -3206,14 +3204,13 @@
     "level": 43,
     "maxQuality": 1125,
     "name": {
-      "de": "K\u00f6niglicher Raumteiler",
+      "de": "Königlicher Raumteiler",
       "en": "Royal Partition",
       "fr": "Cloison royale",
-      "ja": "\u30ed\u30a4\u30e4\u30eb\u30d1\u30fc\u30c6\u30a3\u30b7\u30e7\u30f3"
+      "ja": "ロイヤルパーティション"
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -3223,7 +3220,7 @@
       "de": "Restaurierter Rundschild",
       "en": "Vintage Round Shield",
       "fr": "Bouclier rond de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30e9\u30a6\u30f3\u30c9\u30b7\u30fc\u30eb\u30c9"
+      "ja": "ヴィンテージラウンドシールド"
     }
   },
   {
@@ -3236,7 +3233,7 @@
       "de": "Koboldeisen-Hellebarde",
       "en": "Cobalt Halberd",
       "fr": "Hallebarde en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30cf\u30eb\u30d0\u30fc\u30c9"
+      "ja": "コバルトハルバード"
     }
   },
   {
@@ -3246,10 +3243,10 @@
     "level": 44,
     "maxQuality": 1138,
     "name": {
-      "de": "Wald-B\u00fccherregal",
+      "de": "Wald-Bücherregal",
       "en": "Glade Bookshelf",
-      "fr": "Biblioth\u00e8que sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d6\u30c3\u30af\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Bibliothèque sombrelinçoise",
+      "ja": "シュラウド・ブックシェルフ"
     }
   },
   {
@@ -3262,7 +3259,7 @@
       "de": "Jade-Hirtenstock",
       "en": "Jade Crook",
       "fr": "Crosse en jade",
-      "ja": "\u30b8\u30a7\u30a4\u30c9\u30af\u30eb\u30fc\u30af"
+      "ja": "ジェイドクルーク"
     }
   },
   {
@@ -3274,8 +3271,8 @@
     "name": {
       "de": "Riviera-Hocker",
       "en": "Riviera Stool",
-      "fr": "Tabouret nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30b9\u30c4\u30fc\u30eb"
+      "fr": "Tabouret noscéen",
+      "ja": "ラノシアン・スツール"
     }
   },
   {
@@ -3287,8 +3284,8 @@
     "name": {
       "de": "Koboldeisen-Kavalleriebogen",
       "en": "Cobalt Cavalry Bow",
-      "fr": "Arc rev\u00eatu de cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30af\u30e9\u30c3\u30c9\u30dc\u30a6"
+      "fr": "Arc revêtu de cobalt",
+      "ja": "コバルトクラッドボウ"
     }
   },
   {
@@ -3300,8 +3297,8 @@
     "name": {
       "de": "Adler-Rundschild",
       "en": "Eagle-crested Round Shield",
-      "fr": "Bouclier rond d'azur \u00e0 l'aigle d'or",
-      "ja": "\u30a4\u30fc\u30b0\u30eb\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Bouclier rond d'azur à l'aigle d'or",
+      "ja": "イーグルシールド"
     }
   },
   {
@@ -3313,8 +3310,8 @@
     "name": {
       "de": "Wald-Hocker",
       "en": "Glade Stool",
-      "fr": "Tabouret sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b9\u30c4\u30fc\u30eb"
+      "fr": "Tabouret sombrelinçois",
+      "ja": "シュラウド・スツール"
     }
   },
   {
@@ -3327,7 +3324,7 @@
       "de": "Ritter-Kommandostuhl",
       "en": "Knight Captain's Chair",
       "fr": "Fauteuil anti-dragon",
-      "ja": "\u5bfe\u7adc\u8981\u585e\u306e\u6307\u63ee\u6905\u5b50"
+      "ja": "対竜要塞の指揮椅子"
     }
   },
   {
@@ -3339,8 +3336,8 @@
     "name": {
       "de": "Pflanzgitter",
       "en": "Lattice Planter",
-      "fr": "Jardini\u00e8re \u00e0 treillage",
-      "ja": "\u30e9\u30c6\u30a3\u30b9\u30d7\u30e9\u30f3\u30bf\u30fc"
+      "fr": "Jardinière à treillage",
+      "ja": "ラティスプランター"
     }
   },
   {
@@ -3350,10 +3347,10 @@
     "level": 45,
     "maxQuality": 1154,
     "name": {
-      "de": "Wandb\u00fccherregal",
+      "de": "Wandbücherregal",
       "en": "Mounted Bookshelf",
-      "fr": "Grande biblioth\u00e8que",
-      "ja": "\u30a6\u30a9\u30fc\u30eb\u30d6\u30c3\u30af\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Grande bibliothèque",
+      "ja": "ウォールブックシェルフ"
     }
   },
   {
@@ -3363,10 +3360,10 @@
     "level": 45,
     "maxQuality": 1154,
     "name": {
-      "de": "Oasen-B\u00fccherregal",
+      "de": "Oasen-Bücherregal",
       "en": "Oasis Bookshelf",
-      "fr": "Biblioth\u00e8que thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30d6\u30c3\u30af\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Bibliothèque thanalanaise",
+      "ja": "ザナラーン・ブックシェルフ"
     }
   },
   {
@@ -3378,8 +3375,8 @@
     "name": {
       "de": "Palisanderangelrute",
       "en": "Rosewood Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en palissandre",
-      "ja": "\u30ed\u30fc\u30ba\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en palissandre",
+      "ja": "ローズフィッシングロッド"
     }
   },
   {
@@ -3392,7 +3389,7 @@
       "de": "Palisander-Bauholz",
       "en": "Rosewood Lumber",
       "fr": "Madrier de palissandre",
-      "ja": "\u30ed\u30fc\u30ba\u30a6\u30c3\u30c9\u6750"
+      "ja": "ローズウッド材"
     }
   },
   {
@@ -3405,11 +3402,10 @@
       "de": "Palisander-Spinnrad",
       "en": "Rosewood Spinning Wheel",
       "fr": "Rouet en palissandre",
-      "ja": "\u30ed\u30fc\u30ba\u30a6\u30c3\u30c9\u30fb\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "ローズウッド・スピニングホイール"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -3419,7 +3415,7 @@
       "de": "Restaurierte Guisarme",
       "en": "Vintage Guisarme",
       "fr": "Guisarme de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30ae\u30b6\u30eb\u30e1"
+      "ja": "ヴィンテージギザルメ"
     }
   },
   {
@@ -3432,7 +3428,7 @@
       "de": "Ecktresen",
       "en": "Corner Counter",
       "fr": "Comptoir d'angle",
-      "ja": "\u30b3\u30fc\u30ca\u30fc\u30ab\u30a6\u30f3\u30bf\u30fc"
+      "ja": "コーナーカウンター"
     }
   },
   {
@@ -3445,7 +3441,7 @@
       "de": "Oasen-Hocker",
       "en": "Oasis Stool",
       "fr": "Tabouret thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30b9\u30c4\u30fc\u30eb"
+      "ja": "ザナラーン・スツール"
     }
   },
   {
@@ -3457,8 +3453,8 @@
     "name": {
       "de": "Riviera-Gartentisch-Set",
       "en": "Riviera Garden Table Set",
-      "fr": "Ensemble de jardin nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30ac\u30fc\u30c7\u30f3\u30c6\u30fc\u30d6\u30eb\u30bb\u30c3\u30c8"
+      "fr": "Ensemble de jardin noscéen",
+      "ja": "ラノシアン・ガーデンテーブルセット"
     }
   },
   {
@@ -3470,8 +3466,8 @@
     "name": {
       "de": "Riviera-Wandregal",
       "en": "Riviera Wall Shelf",
-      "fr": "\u00c9tag\u00e8re murale nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a6\u30a9\u30fc\u30eb\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Étagère murale noscéenne",
+      "ja": "ラノシアン・ウォールシェルフ"
     }
   },
   {
@@ -3484,7 +3480,7 @@
       "de": "Eibenlangbogen",
       "en": "Yew Longbow",
       "fr": "Arc long en if",
-      "ja": "\u30e6\u30fc\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "ja": "ユーロングボウ"
     }
   },
   {
@@ -3497,7 +3493,7 @@
       "de": "Basilisk-Schleifrad",
       "en": "Basilisk Grinding Wheel",
       "fr": "Meule basilic",
-      "ja": "\u30d0\u30b8\u30ea\u30b9\u30af\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "バジリスクグラインディングホイール"
     }
   },
   {
@@ -3510,7 +3506,7 @@
       "de": "Stahldreizack",
       "en": "Cobalt Trident",
       "fr": "Trident",
-      "ja": "\u30c8\u30e9\u30a4\u30c7\u30f3\u30c8"
+      "ja": "トライデント"
     }
   },
   {
@@ -3522,8 +3518,8 @@
     "name": {
       "de": "Wald-Kronleuchter",
       "en": "Glade Chandelier",
-      "fr": "Lustre sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b7\u30e3\u30f3\u30c7\u30ea\u30a2"
+      "fr": "Lustre sombrelinçois",
+      "ja": "シュラウド・シャンデリア"
     }
   },
   {
@@ -3536,11 +3532,10 @@
       "de": "Oasen-Tisch",
       "en": "Oasis Table",
       "fr": "Table thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30c6\u30fc\u30d6\u30eb"
+      "ja": "ザナラーン・テーブル"
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -3550,7 +3545,7 @@
       "de": "Restaurierter Bogen",
       "en": "Vintage Bow",
       "fr": "Arc de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30dc\u30a6"
+      "ja": "ヴィンテージボウ"
     }
   },
   {
@@ -3562,8 +3557,8 @@
     "name": {
       "de": "Prunk-Palisanderangelrute",
       "en": "Gilded Rosewood Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en palissandre renforc\u00e9e",
-      "ja": "\u30ed\u30fc\u30ba\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9DX"
+      "fr": "Canne à pêche en palissandre renforcée",
+      "ja": "ローズフィッシングロッドDX"
     }
   },
   {
@@ -3576,7 +3571,7 @@
       "de": "Mahagoni-Trippen",
       "en": "Mahogany Pattens",
       "fr": "Patins en acajou",
-      "ja": "\u30de\u30db\u30ac\u30cb\u30fc\u30d1\u30c3\u30c6\u30f3"
+      "ja": "マホガニーパッテン"
     }
   },
   {
@@ -3589,7 +3584,7 @@
       "de": "Pastoral-Mahagonistock",
       "en": "Pastoral Mahogany Cane",
       "fr": "Canne pastorale en acajou",
-      "ja": "\u30d1\u30b9\u30c8\u30e9\u30eb\u30de\u30db\u30ac\u30cb\u30fc\u30b1\u30fc\u30f3"
+      "ja": "パストラルマホガニーケーン"
     }
   },
   {
@@ -3602,11 +3597,10 @@
       "de": "Krabbenbogen",
       "en": "Crab Bow",
       "fr": "Arc crabe",
-      "ja": "\u30af\u30e9\u30d6\u30dc\u30a6"
+      "ja": "クラブボウ"
     }
   },
   {
-    "aspect": "Fire",
     "baseLevel": 49,
     "difficulty": 313,
     "durability": 80,
@@ -3615,8 +3609,8 @@
     "name": {
       "de": "Luxus-Herrenhauskamin",
       "en": "Deluxe Manor Fireplace",
-      "fr": "\u00c2tre luxueux du Manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u8c6a\u5962\u306a\u6696\u7089"
+      "fr": "Âtre luxueux du Manoir",
+      "ja": "御用邸の豪奢な暖炉"
     }
   },
   {
@@ -3628,8 +3622,8 @@
     "name": {
       "de": "Wald-Stehlampe",
       "en": "Glade Floor Lamp",
-      "fr": "Lampe sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d5\u30ed\u30a2\u30e9\u30f3\u30d7"
+      "fr": "Lampe sombrelinçoise",
+      "ja": "シュラウド・フロアランプ"
     }
   },
   {
@@ -3642,7 +3636,7 @@
       "de": "Harte Guisarme",
       "en": "Hart Guisarme",
       "fr": "Guisarme de daguet",
-      "ja": "\u30cf\u30fc\u30c8\u30ae\u30b6\u30eb\u30e1"
+      "ja": "ハートギザルメ"
     }
   },
   {
@@ -3652,10 +3646,10 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "\u00c4therd\u00e4mmendes Gef\u00e4\u00df",
+      "de": "Ätherdämmendes Gefäß",
       "en": "Aetheric Shielding",
-      "fr": "R\u00e9cipient \u00e9th\u00e9roscell\u00e9",
-      "ja": "\u7d76\u970a\u4f53\u5bb9\u5668"
+      "fr": "Récipient éthéroscellé",
+      "ja": "絶霊体容器"
     }
   },
   {
@@ -3668,7 +3662,7 @@
       "de": "Drachengabe",
       "en": "Austere Offering",
       "fr": "Cadeau pour dragons",
-      "ja": "\u7adc\u65cf\u5831\u916c\u54c1"
+      "ja": "竜族報酬品"
     }
   },
   {
@@ -3680,8 +3674,8 @@
     "name": {
       "de": "Korbkomponente",
       "en": "Basket Component",
-      "fr": "Mat\u00e9riel de vannerie",
-      "ja": "\u7de8\u307f\u30ab\u30b4\u90e8\u6750"
+      "fr": "Matériel de vannerie",
+      "ja": "編みカゴ部材"
     }
   },
   {
@@ -3691,10 +3685,10 @@
     "level": 50,
     "maxQuality": 660,
     "name": {
-      "de": "Wolkenmeer-K\u00f6der",
+      "de": "Wolkenmeer-Köder",
       "en": "Cloudfish Lure",
-      "fr": "Leurre sp\u00e9cial",
-      "ja": "\u96f2\u6d77\u91e3\u990c"
+      "fr": "Leurre spécial",
+      "ja": "雲海釣餌"
     }
   },
   {
@@ -3706,8 +3700,8 @@
     "name": {
       "de": "Schuppenfeile",
       "en": "Dragonscale Rasp",
-      "fr": "Racloir en \u00e9caille de dragon",
-      "ja": "\u7adc\u9c57\u30e4\u30b9\u30ea"
+      "fr": "Racloir en écaille de dragon",
+      "ja": "竜鱗ヤスリ"
     }
   },
   {
@@ -3719,8 +3713,8 @@
     "name": {
       "de": "Rauchbombe",
       "en": "Exploding Kupo Nut",
-      "fr": "Noix de kupo fumig\u00e8ne",
-      "ja": "\u7159\u5e55\u306e\u5b9f"
+      "fr": "Noix de kupo fumigène",
+      "ja": "煙幕の実"
     }
   },
   {
@@ -3733,7 +3727,7 @@
       "de": "Falsche Kupo-Nuss",
       "en": "Fake Kupo Nut",
       "fr": "Fausse noix de kupo",
-      "ja": "\u30cb\u30bb\u306e\u5b9f"
+      "ja": "ニセの実"
     }
   },
   {
@@ -3745,8 +3739,8 @@
     "name": {
       "de": "Fundamentmaterial",
       "en": "Foundation Component",
-      "fr": "Mat\u00e9riel pour les fondations",
-      "ja": "\u57fa\u790e\u5de5\u4e8b\u8cc7\u6750"
+      "fr": "Matériel pour les fondations",
+      "ja": "基礎工事資材"
     }
   },
   {
@@ -3756,10 +3750,10 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "Komponente f\u00fcr die Werkzeugreparatur",
+      "de": "Komponente für die Werkzeugreparatur",
       "en": "Gathering Tool Component",
-      "fr": "Mat\u00e9riel de r\u00e9paration",
-      "ja": "\u63a1\u96c6\u9053\u5177\u88dc\u6750"
+      "fr": "Matériel de réparation",
+      "ja": "採集道具補材"
     }
   },
   {
@@ -3771,8 +3765,8 @@
     "name": {
       "de": "Wald-Badebecken",
       "en": "Glade Bathtub",
-      "fr": "Baignoire sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d0\u30b9\u30bf\u30d6"
+      "fr": "Baignoire sombrelinçoise",
+      "ja": "シュラウド・バスタブ"
     }
   },
   {
@@ -3784,8 +3778,8 @@
     "name": {
       "de": "Wald-Rundholzzaun",
       "en": "Glade Roundpole Fence",
-      "fr": "Muret en bois massif sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30e9\u30a6\u30f3\u30c9\u30dd\u30fc\u30eb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Muret en bois massif sombrelinçois",
+      "ja": "シュラウド・ラウンドポールウォール"
     }
   },
   {
@@ -3795,10 +3789,10 @@
     "level": 50,
     "maxQuality": 673,
     "name": {
-      "de": "Tr\u00f6tenkomponente",
+      "de": "Trötenkomponente",
       "en": "Horn Component",
       "fr": "Composant de clairon",
-      "ja": "\u3059\u3093\u3054\u3044\u30e9\u30c3\u30d1\u90e8\u6750"
+      "ja": "すんごいラッパ部材"
     }
   },
   {
@@ -3810,8 +3804,8 @@
     "name": {
       "de": "Bestandteil einer Mahlzeit",
       "en": "Ishgardian Cuisine Miscellany",
-      "fr": "\u00c9l\u00e9ment de plateau-repas",
-      "ja": "\u6669\u9910\u4e0d\u8db3\u54c1"
+      "fr": "Élément de plateau-repas",
+      "ja": "晩餐不足品"
     }
   },
   {
@@ -3823,8 +3817,8 @@
     "name": {
       "de": "Miniatur-Luftschiff",
       "en": "Makeshift Toy Airship",
-      "fr": "Maquette d'a\u00e9ronef",
-      "ja": "\u98db\u7a7a\u8247\u6a21\u578b"
+      "fr": "Maquette d'aéronef",
+      "ja": "飛空艇模型"
     }
   },
   {
@@ -3834,10 +3828,10 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "K\u00fcchenartikel",
+      "de": "Küchenartikel",
       "en": "Mogstew Miscellany",
-      "fr": "Mat\u00e9riaux gastronomiques",
-      "ja": "\u8abf\u7406\u4e0d\u8db3\u54c1"
+      "fr": "Matériaux gastronomiques",
+      "ja": "調理不足品"
     }
   },
   {
@@ -3849,8 +3843,8 @@
     "name": {
       "de": "Kleine Belohnung",
       "en": "Moogle Mollifier",
-      "fr": "Cadeau personnalis\u00e9",
-      "ja": "\u7279\u88fd\u3054\u8912\u7f8e"
+      "fr": "Cadeau personnalisé",
+      "ja": "特製ご褒美"
     }
   },
   {
@@ -3863,7 +3857,7 @@
       "de": "Mogry-Figur",
       "en": "Moogle Statuette",
       "fr": "Statuette de Mog",
-      "ja": "\u5f6b\u50cf\u898b\u672c\u54c1"
+      "ja": "彫像見本品"
     }
   },
   {
@@ -3875,8 +3869,8 @@
     "name": {
       "de": "Mogry-Werkzeugkomponente",
       "en": "Moogle Tool Component",
-      "fr": "Composant de marteau sp\u00e9cial Mog",
-      "ja": "\u30e2\u30fc\u30b0\u30ea\u7528\u9053\u5177\u90e8\u6750"
+      "fr": "Composant de marteau spécial Mog",
+      "ja": "モーグリ用道具部材"
     }
   },
   {
@@ -3888,8 +3882,8 @@
     "name": {
       "de": "Verwendbares Baumaterial",
       "en": "Repurposed Construction Component",
-      "fr": "Mat\u00e9riel de construction",
-      "ja": "\u518d\u751f\u6e08\u307f\u5efa\u7bc9\u8cc7\u6750"
+      "fr": "Matériel de construction",
+      "ja": "再生済み建築資材"
     }
   },
   {
@@ -3899,10 +3893,10 @@
     "level": 50,
     "maxQuality": 1980,
     "name": {
-      "de": "Einzelteil f\u00fcr die Schneidemaschine",
+      "de": "Einzelteil für die Schneidemaschine",
       "en": "Shearing Machine Component",
-      "fr": "Composant de machine \u00e0 inciser",
-      "ja": "\u88c1\u65ad\u6a5f\u90e8\u6750"
+      "fr": "Composant de machine à inciser",
+      "ja": "裁断機部材"
     }
   },
   {
@@ -3915,7 +3909,7 @@
       "de": "Steinstatuenkomponente",
       "en": "Statue Supplies",
       "fr": "Composant de statue",
-      "ja": "\u77f3\u50cf\u4fee\u5fa9\u7528\u90e8\u6750"
+      "ja": "石像修復用部材"
     }
   },
   {
@@ -3927,8 +3921,8 @@
     "name": {
       "de": "Formvollendete Steinblock-Vorlage",
       "en": "Stonemasonry Supplies",
-      "fr": "Pierre de r\u00e9f\u00e9rence",
-      "ja": "\u8abf\u6574\u3055\u308c\u305f\u77f3\u6750"
+      "fr": "Pierre de référence",
+      "ja": "調整された石材"
     }
   },
   {
@@ -3940,8 +3934,8 @@
     "name": {
       "de": "Gedenktafelkomponente",
       "en": "Tablet Supplies",
-      "fr": "Composant de plaque comm\u00e9morative",
-      "ja": "\u9298\u677f\u4ed5\u4e0a\u3052\u90e8\u6750"
+      "fr": "Composant de plaque commémorative",
+      "ja": "銘板仕上げ部材"
     }
   },
   {
@@ -3954,7 +3948,7 @@
       "de": "Aquarium S",
       "en": "Tier 1 Aquarium",
       "fr": "Aquarium de petite taille",
-      "ja": "\u30a2\u30af\u30a2\u30ea\u30a6\u30e0G1"
+      "ja": "アクアリウムG1"
     }
   },
   {
@@ -3964,10 +3958,10 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "de": "\u00dcbungsmaterial",
+      "de": "Übungsmaterial",
       "en": "Training Supplies",
-      "fr": "Mat\u00e9riel d'entra\u00eenement",
-      "ja": "\u8a13\u7df4\u7528\u90e8\u6750"
+      "fr": "Matériel d'entraînement",
+      "ja": "訓練用部材"
     }
   },
   {
@@ -3979,8 +3973,8 @@
     "name": {
       "de": "Flaschenzug-Ersatzteil",
       "en": "Treadwheel Crane Components",
-      "fr": "Mat\u00e9riel de r\u00e9paration de treuil",
-      "ja": "\u5dfb\u304d\u4e0a\u3052\u6a5f\u90e8\u6750"
+      "fr": "Matériel de réparation de treuil",
+      "ja": "巻き上げ機部材"
     }
   },
   {
@@ -3990,10 +3984,10 @@
     "level": 50,
     "maxQuality": 660,
     "name": {
-      "de": "Werkzeug zur Bodenplattenf\u00e4rbung",
+      "de": "Werkzeug zur Bodenplattenfärbung",
       "en": "Veneer Component",
-      "fr": "Mat\u00e9riel de finition",
-      "ja": "\u5e8a\u6750\u52a0\u5de5\u7528\u54c1"
+      "fr": "Matériel de finition",
+      "ja": "床材加工用品"
     }
   },
   {
@@ -4003,10 +3997,10 @@
     "level": 50,
     "maxQuality": 1056,
     "name": {
-      "de": "Werkzeug zur Mauergl\u00e4ttung",
+      "de": "Werkzeug zur Mauerglättung",
       "en": "Wall Repair Supplies",
-      "fr": "Mat\u00e9riel de r\u00e9novation de fa\u00e7ade",
-      "ja": "\u58c1\u306e\u88dc\u4fee\u90e8\u6750"
+      "fr": "Matériel de rénovation de façade",
+      "ja": "壁の補修部材"
     }
   },
   {
@@ -4019,7 +4013,7 @@
       "de": "Abdichtungskomponente",
       "en": "Water Filter Component",
       "fr": "Composant de fontaine",
-      "ja": "\u6cc9\u6c34\u88dc\u4fee\u6750"
+      "ja": "泉水補修材"
     }
   },
   {
@@ -4032,7 +4026,7 @@
       "de": "Mythische Lanze",
       "en": "Champion's Lance",
       "fr": "Lance de champion",
-      "ja": "\u30c1\u30e3\u30f3\u30d4\u30aa\u30f3\u30e9\u30f3\u30b9"
+      "ja": "チャンピオンランス"
     },
     "stars": 1
   },
@@ -4043,10 +4037,10 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "de": "Chocobo-S\u00e4ulen",
+      "de": "Chocobo-Säulen",
       "en": "Chocobo Pillar",
       "fr": "Pilier chocobo",
-      "ja": "\u30c1\u30e7\u30b3\u30dc\u30d4\u30e9\u30fc"
+      "ja": "チョコボピラー"
     },
     "stars": 1
   },
@@ -4059,8 +4053,8 @@
     "name": {
       "de": "Wald-Kompositresidenzmauer",
       "en": "Glade Mansion Wall (Composite)",
-      "fr": "Mur de villa composite sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Mur de villa composite sombrelinçoise",
+      "ja": "シュラウド・コンポジットレジデンス・ウォール"
     },
     "stars": 1
   },
@@ -4073,8 +4067,8 @@
     "name": {
       "de": "Wald-Holzresidenzmauer",
       "en": "Glade Mansion Wall (Wood)",
-      "fr": "Mur de villa en bois sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a6\u30c3\u30c9\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Mur de villa en bois sombrelinçoise",
+      "ja": "シュラウド・ウッドレジデンス・ウォール"
     },
     "stars": 1
   },
@@ -4085,10 +4079,10 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "de": "Offenes Wald-B\u00fccherregal",
+      "de": "Offenes Wald-Bücherregal",
       "en": "Glade Open-shelf Bookcase",
-      "fr": "\u00c9tag\u00e8re \u00e0 livres sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30aa\u30fc\u30d7\u30f3\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Étagère à livres sombrelinçoise",
+      "ja": "シュラウド・オープンシェルフ"
     },
     "stars": 1
   },
@@ -4102,7 +4096,7 @@
       "de": "Kotatsu-Tisch",
       "en": "Kotatsu Table",
       "fr": "Kotatsu",
-      "ja": "\u30b3\u30bf\u30c4\u30c6\u30fc\u30d6\u30eb"
+      "ja": "コタツテーブル"
     },
     "stars": 1
   },
@@ -4116,7 +4110,7 @@
       "de": "Langarm-Kompositbogen",
       "en": "Longarm's Composite Bow",
       "fr": "Arc composite double-allonge",
-      "ja": "\u30ed\u30f3\u30b0\u30a2\u30fc\u30e0\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30dc\u30a6"
+      "ja": "ロングアーム・コンポジットボウ"
     },
     "stars": 1
   },
@@ -4129,8 +4123,8 @@
     "name": {
       "de": "Tomberry-Stellschirm",
       "en": "Looming Tonberry Screen",
-      "fr": "Panneau tomberry inqui\u00e9tant",
-      "ja": "\u30c8\u30f3\u30d9\u30ea\u30d8\u30c3\u30c9\u30b9\u30af\u30ea\u30fc\u30f3"
+      "fr": "Panneau tomberry inquiétant",
+      "ja": "トンベリヘッドスクリーン"
     },
     "stars": 1
   },
@@ -4141,10 +4135,10 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "de": "Kr\u00e4mer-B\u00fccherregal",
+      "de": "Krämer-Bücherregal",
       "en": "Merchant's Shelf",
-      "fr": "\u00c9tag\u00e8re de marchand",
-      "ja": "\u30de\u30fc\u30c1\u30e3\u30f3\u30c8\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Étagère de marchand",
+      "ja": "マーチャントシェルフ"
     },
     "stars": 1
   },
@@ -4158,7 +4152,7 @@
       "de": "Miliz-Schleifrad",
       "en": "Militia Grinding Wheel",
       "fr": "Meule de milicien",
-      "ja": "\u30df\u30ea\u30b7\u30a2\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "ミリシアグラインディングホイール"
     },
     "stars": 1
   },
@@ -4172,7 +4166,7 @@
       "de": "Miliz-Spinnrad",
       "en": "Militia Spinning Wheel",
       "fr": "Rouet de milicien",
-      "ja": "\u30df\u30ea\u30b7\u30a2\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "ミリシアスピニングホイール"
     },
     "stars": 1
   },
@@ -4186,7 +4180,7 @@
       "de": "Oasen-Holzresidenzdach",
       "en": "Oasis Mansion Roof (Wood)",
       "fr": "Toit de villa en bois thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a6\u30c3\u30c9\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30eb\u30fc\u30d5"
+      "ja": "ザナラーン・ウッドレジデンス・ルーフ"
     },
     "stars": 1
   },
@@ -4200,7 +4194,7 @@
       "de": "Oasen-Holzresidenzmauer",
       "en": "Oasis Mansion Wall (Wood)",
       "fr": "Mur de villa en bois thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a6\u30c3\u30c9\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "ja": "ザナラーン・ウッドレジデンス・ウォール"
     },
     "stars": 1
   },
@@ -4211,10 +4205,10 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "de": "Offenes Oasen-B\u00fccherregal",
+      "de": "Offenes Oasen-Bücherregal",
       "en": "Oasis Open-shelf Bookcase",
-      "fr": "\u00c9tag\u00e8re \u00e0 livres thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30aa\u30fc\u30d7\u30f3\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Étagère à livres thanalanaise",
+      "ja": "ザナラーン・オープンシェルフ"
     },
     "stars": 1
   },
@@ -4227,8 +4221,8 @@
     "name": {
       "de": "Riviera-Kompositresidenzdach",
       "en": "Riviera Mansion Roof (Composite)",
-      "fr": "Toit de villa composite nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30eb\u30fc\u30d5"
+      "fr": "Toit de villa composite noscéenne",
+      "ja": "ラノシアン・コンポジットレジデンス・ルーフ"
     },
     "stars": 1
   },
@@ -4241,8 +4235,8 @@
     "name": {
       "de": "Riviera-Steinresidenzdach",
       "en": "Riviera Mansion Roof (Stone)",
-      "fr": "Toit de villa en pierre nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30b9\u30c8\u30fc\u30f3\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30eb\u30fc\u30d5"
+      "fr": "Toit de villa en pierre noscéenne",
+      "ja": "ラノシアン・ストーンレジデンス・ルーフ"
     },
     "stars": 1
   },
@@ -4255,8 +4249,8 @@
     "name": {
       "de": "Riviera-Holzresidenzmauer",
       "en": "Riviera Mansion Wall (Wood)",
-      "fr": "Mur de villa en bois nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30a6\u30c3\u30c9\u30ec\u30b8\u30c7\u30f3\u30b9\u30fb\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Mur de villa en bois noscéenne",
+      "ja": "ラノシアン・ウッドレジデンス・ウォール"
     },
     "stars": 1
   },
@@ -4267,10 +4261,10 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "de": "Offenes Riviera-B\u00fccherregal",
+      "de": "Offenes Riviera-Bücherregal",
       "en": "Riviera Open-shelf Bookcase",
-      "fr": "\u00c9tag\u00e8re \u00e0 livres nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30aa\u30fc\u30d7\u30f3\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Étagère à livres noscéenne",
+      "ja": "ラノシアン・オープンシェルフ"
     },
     "stars": 1
   },
@@ -4283,8 +4277,8 @@
     "name": {
       "de": "Fichten-Bauholz",
       "en": "Spruce Lumber",
-      "fr": "Madrier d'\u00e9pic\u00e9a",
-      "ja": "\u30b9\u30d7\u30eb\u30fc\u30b9\u6750"
+      "fr": "Madrier d'épicéa",
+      "ja": "スプルース材"
     },
     "stars": 1
   },
@@ -4295,10 +4289,10 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "de": "Tomberry-B\u00fccherregal",
+      "de": "Tomberry-Bücherregal",
       "en": "Tonberry Bookshelf",
-      "fr": "Biblioth\u00e8que tomberry",
-      "ja": "\u30c8\u30f3\u30d9\u30ea\u30d6\u30c3\u30af\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Bibliothèque tomberry",
+      "ja": "トンベリブックシェルフ"
     },
     "stars": 1
   },
@@ -4311,8 +4305,8 @@
     "name": {
       "de": "Tomberry-Wandschirm",
       "en": "Tonberry Screen",
-      "fr": "Cloison de s\u00e9paration tomberry",
-      "ja": "\u30c8\u30f3\u30d9\u30ea\u30b9\u30af\u30ea\u30fc\u30f3"
+      "fr": "Cloison de séparation tomberry",
+      "ja": "トンベリスクリーン"
     },
     "stars": 1
   },
@@ -4326,7 +4320,7 @@
       "de": "Wolf-Bogen",
       "en": "Wolf Bow",
       "fr": "Arc de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30dc\u30a6"
+      "ja": "ウルフボウ"
     },
     "stars": 1
   },
@@ -4340,7 +4334,7 @@
       "de": "Wolf-Stock",
       "en": "Wolf Cane",
       "fr": "Canne de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30b1\u30fc\u30f3"
+      "ja": "ウルフケーン"
     },
     "stars": 1
   },
@@ -4354,7 +4348,7 @@
       "de": "Wolf-Guisarme",
       "en": "Wolf Guisarme",
       "fr": "Guisarme de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30ae\u30b6\u30eb\u30e1"
+      "ja": "ウルフギザルメ"
     },
     "stars": 1
   },
@@ -4367,8 +4361,8 @@
     "name": {
       "de": "Luftschiff-Reparaturkit",
       "en": "Airship Repair Materials",
-      "fr": "Kit de r\u00e9paration d'a\u00e9ronef",
-      "ja": "\u98db\u7a7a\u8247\u4fee\u7406\u6750"
+      "fr": "Kit de réparation d'aéronef",
+      "ja": "飛空艇修理材"
     },
     "stars": 2
   },
@@ -4382,7 +4376,7 @@
       "de": "Strandliege",
       "en": "Beach Chair",
       "fr": "Lit de plage",
-      "ja": "\u30d3\u30fc\u30c1\u30c1\u30a7\u30a2"
+      "ja": "ビーチチェア"
     },
     "stars": 2
   },
@@ -4395,8 +4389,8 @@
     "name": {
       "de": "Lehm-Innenwand",
       "en": "Cob Inner Wall",
-      "fr": "Rev\u00eatement mural en torchis",
-      "ja": "\u30de\u30c3\u30c9\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Revêtement mural en torchis",
+      "ja": "マッドインナーウォール"
     },
     "stars": 2
   },
@@ -4410,7 +4404,7 @@
       "de": "Gebogenes Trittbrett",
       "en": "Curved Stepping Stumps",
       "fr": "Dalles en bois en angle",
-      "ja": "\u30ab\u30fc\u30d6\u30fb\u30b9\u30c6\u30c3\u30d7\u30a6\u30c3\u30c9"
+      "ja": "カーブ・ステップウッド"
     },
     "stars": 2
   },
@@ -4424,7 +4418,7 @@
       "de": "Zauberbesen",
       "en": "Magicked Stable Broom",
       "fr": "Balai magique",
-      "ja": "\u30de\u30b8\u30c3\u30af\u30d6\u30eb\u30fc\u30e0"
+      "ja": "マジックブルーム"
     },
     "stars": 2
   },
@@ -4438,7 +4432,7 @@
       "de": "Herrenhaus-Tresen",
       "en": "Manor Counter",
       "fr": "Plan de travail du manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u8abf\u7406\u53f0"
+      "ja": "御用邸の調理台"
     },
     "stars": 2
   },
@@ -4449,10 +4443,10 @@
     "level": 70,
     "maxQuality": 1460,
     "name": {
-      "de": "Herrenhaus-Fu\u00dfboden",
+      "de": "Herrenhaus-Fußboden",
       "en": "Manor Flooring",
       "fr": "Parquet du manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+      "ja": "御用邸のフローリング"
     },
     "stars": 2
   },
@@ -4466,7 +4460,7 @@
       "de": "Offene Feuerstelle",
       "en": "Open Hearth",
       "fr": "Foyer ouvert",
-      "ja": "\u30aa\u30fc\u30d7\u30f3\u30cf\u30fc\u30b9"
+      "ja": "オープンハース"
     },
     "stars": 2
   },
@@ -4477,10 +4471,10 @@
     "level": 70,
     "maxQuality": 1460,
     "name": {
-      "de": "Fern\u00f6stliches Badebecken",
+      "de": "Fernöstliches Badebecken",
       "en": "Oriental Bathtub",
       "fr": "Baignoire orientale",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30d0\u30b9\u30bf\u30d6"
+      "ja": "オリエンタル・バスタブ"
     },
     "stars": 2
   },
@@ -4491,10 +4485,10 @@
     "level": 70,
     "maxQuality": 1460,
     "name": {
-      "de": "Rundb\u00fchne",
+      "de": "Rundbühne",
       "en": "Round Stage",
       "fr": "Estrade circulaire",
-      "ja": "\u30e9\u30a6\u30f3\u30c9\u30b9\u30c6\u30fc\u30b8"
+      "ja": "ラウンドステージ"
     },
     "stars": 2
   },
@@ -4508,7 +4502,7 @@
       "de": "Sarnga",
       "en": "Sarnga",
       "fr": "Sarnga",
-      "ja": "\u30b5\u30eb\u30f3\u30ac"
+      "ja": "サルンガ"
     },
     "stars": 2
   },
@@ -4522,7 +4516,7 @@
       "de": "Sarnga-Ast",
       "en": "Sarnga Limb",
       "fr": "Branches de Sarnga",
-      "ja": "\u30b5\u30eb\u30f3\u30ac\u30ea\u30e0"
+      "ja": "サルンガリム"
     },
     "stars": 2
   },
@@ -4535,8 +4529,8 @@
     "name": {
       "de": "Fichten-Trippen",
       "en": "Spruce Pattens",
-      "fr": "Patins en \u00e9pic\u00e9a",
-      "ja": "\u30b9\u30d7\u30eb\u30fc\u30b9\u30d1\u30c3\u30c6\u30f3"
+      "fr": "Patins en épicéa",
+      "ja": "スプルースパッテン"
     },
     "stars": 2
   },
@@ -4549,8 +4543,8 @@
     "name": {
       "de": "Sperrholzplatte",
       "en": "Spruce Plywood",
-      "fr": "\u00c9pic\u00e9a contreplaqu\u00e9",
-      "ja": "\u30b9\u30d7\u30eb\u30fc\u30b9\u5408\u677f"
+      "fr": "Épicéa contreplaqué",
+      "ja": "スプルース合板"
     },
     "stars": 2
   },
@@ -4563,8 +4557,8 @@
     "name": {
       "de": "Fichten-Rundschild",
       "en": "Spruce Round Shield",
-      "fr": "Bouclier rond en \u00e9pic\u00e9a",
-      "ja": "\u30b9\u30d7\u30eb\u30fc\u30b9\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Bouclier rond en épicéa",
+      "ja": "スプルースシールド"
     },
     "stars": 2
   },
@@ -4578,7 +4572,7 @@
       "de": "Gerades Trittbrett",
       "en": "Straight Stepping Stumps",
       "fr": "Dalles en bois en ligne",
-      "ja": "\u30b9\u30c6\u30c3\u30d7\u30a6\u30c3\u30c9"
+      "ja": "ステップウッド"
     },
     "stars": 2
   },
@@ -4591,8 +4585,8 @@
     "name": {
       "de": "Behandeltes Fichten-Bauholz",
       "en": "Treated Spruce Lumber",
-      "fr": "Madrier d'\u00e9pic\u00e9a durci",
-      "ja": "\u786c\u5316\u30b9\u30d7\u30eb\u30fc\u30b9\u6750"
+      "fr": "Madrier d'épicéa durci",
+      "ja": "硬化スプルース材"
     },
     "stars": 2
   },
@@ -4606,7 +4600,7 @@
       "de": "Wollgarn-Korb",
       "en": "Yarn Basket",
       "fr": "Panier de pelotes de laine",
-      "ja": "\u30a6\u30fc\u30eb\u30dc\u30fc\u30eb\u30d0\u30b9\u30b1\u30c3\u30c8"
+      "ja": "ウールボールバスケット"
     },
     "stars": 2
   },
@@ -4619,8 +4613,8 @@
     "name": {
       "de": "Gebirgs-Holzpuppe",
       "en": "Alps Striking Dummy",
-      "fr": "Mannequin d'entra\u00eenement coerthien",
-      "ja": "\u30af\u30eb\u30b6\u30b9\u30c0\u30df\u30fc"
+      "fr": "Mannequin d'entraînement coerthien",
+      "ja": "クルザスダミー"
     },
     "stars": 3
   },
@@ -4631,10 +4625,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "G\u00f6tterholz",
+      "de": "Götterholz",
       "en": "Ancient Lumber",
       "fr": "Madrier de morta",
-      "ja": "\u795e\u4ee3\u6728"
+      "ja": "神代木"
     },
     "stars": 3
   },
@@ -4647,8 +4641,8 @@
     "name": {
       "de": "Kunsthandwerker-Schleifrad",
       "en": "Artisan's Grinding Wheel",
-      "fr": "Meule de fa\u00e7onnier",
-      "ja": "\u30a2\u30fc\u30c6\u30a3\u30b6\u30f3\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "fr": "Meule de façonnier",
+      "ja": "アーティザングラインディングホイール"
     },
     "stars": 3
   },
@@ -4661,13 +4655,12 @@
     "name": {
       "de": "Kunsthandwerker-Spinnrad",
       "en": "Artisan's Spinning Wheel",
-      "fr": "Rouet de fa\u00e7onnier",
-      "ja": "\u30a2\u30fc\u30c6\u30a3\u30b6\u30f3\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "fr": "Rouet de façonnier",
+      "ja": "アーティザンスピニングホイール"
     },
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -4677,7 +4670,7 @@
       "de": "Windgewalten-Schnabel",
       "en": "Beak of the Vortex",
       "fr": "Bec des rafales",
-      "ja": "\u30f4\u30a9\u30fc\u30c6\u30c3\u30af\u30b9\u30d3\u30fc\u30af"
+      "ja": "ヴォーテックスビーク"
     },
     "stars": 3
   },
@@ -4691,7 +4684,7 @@
       "de": "Unbeschriebene Notenrolle II",
       "en": "Blank Grade 2 Orchestrion Roll",
       "fr": "Rouleau d'orchestrion vierge II",
-      "ja": "\u7121\u5730\u306e\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5cG2"
+      "ja": "無地のオーケストリオン譜G2"
     },
     "stars": 3
   },
@@ -4705,7 +4698,7 @@
       "de": "Karfunkel-Stuhl",
       "en": "Carbuncle Chair",
       "fr": "Chaise Carbuncle",
-      "ja": "\u30ab\u30fc\u30d0\u30f3\u30af\u30eb\u30c1\u30a7\u30a2"
+      "ja": "カーバンクルチェア"
     },
     "stars": 3
   },
@@ -4719,7 +4712,7 @@
       "de": "Karfunkel-Tisch",
       "en": "Carbuncle Desk",
       "fr": "Bureau Carbuncle",
-      "ja": "\u30ab\u30fc\u30d0\u30f3\u30af\u30eb\u30c7\u30b9\u30af"
+      "ja": "カーバンクルデスク"
     },
     "stars": 3
   },
@@ -4733,7 +4726,7 @@
       "de": "Karfunkel-Gartentisch",
       "en": "Carbuncle Garden Table",
       "fr": "Table de jardin Carbuncle",
-      "ja": "\u30ab\u30fc\u30d0\u30f3\u30af\u30eb\u30ac\u30fc\u30c7\u30f3\u30c6\u30fc\u30d6\u30eb"
+      "ja": "カーバンクルガーデンテーブル"
     },
     "stars": 3
   },
@@ -4747,7 +4740,7 @@
       "de": "Karfunkel-Kleiderschrank",
       "en": "Carbuncle Wardrobe",
       "fr": "Penderie Carbuncle",
-      "ja": "\u30ab\u30fc\u30d0\u30f3\u30af\u30eb\u30ef\u30fc\u30c9\u30ed\u30fc\u30d6"
+      "ja": "カーバンクルワードローブ"
     },
     "stars": 3
   },
@@ -4760,8 +4753,8 @@
     "name": {
       "de": "Webstuhl",
       "en": "Clothcraft Loom",
-      "fr": "M\u00e9tier de couture",
-      "ja": "\u30af\u30ed\u30fc\u30b9\u30af\u30e9\u30d5\u30c8\u30eb\u30fc\u30e0"
+      "fr": "Métier de couture",
+      "ja": "クロースクラフトルーム"
     },
     "stars": 3
   },
@@ -4774,8 +4767,8 @@
     "name": {
       "de": "Drachen-Spielfigur",
       "en": "Dragon Piece",
-      "fr": "Pi\u00e8ce dragon",
-      "ja": "\u30c9\u30e9\u30b4\u30f3\u30d4\u30fc\u30b9"
+      "fr": "Pièce dragon",
+      "ja": "ドラゴンピース"
     },
     "stars": 3
   },
@@ -4788,8 +4781,8 @@
     "name": {
       "de": "Dragoon-Spielfigur",
       "en": "Dragoon Piece",
-      "fr": "Pi\u00e8ce chevalier dragon",
-      "ja": "\u30c9\u30e9\u30b0\u30fc\u30f3\u30d4\u30fc\u30b9"
+      "fr": "Pièce chevalier dragon",
+      "ja": "ドラグーンピース"
     },
     "stars": 3
   },
@@ -4803,7 +4796,7 @@
       "de": "Strategietisch mit Eorzea-Karte",
       "en": "Eorzean Map Table",
       "fr": "Table tactique anti-dragon",
-      "ja": "\u5bfe\u7adc\u8981\u585e\u306e\u4f5c\u6226\u5353"
+      "ja": "対竜要塞の作戦卓"
     },
     "stars": 3
   },
@@ -4814,10 +4807,10 @@
     "level": 90,
     "maxQuality": 2490,
     "name": {
-      "de": "Wald-Stra\u00dfenlaterne",
+      "de": "Wald-Straßenlaterne",
       "en": "Glade Path Light",
-      "fr": "\u00c9clairage au sol sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30d5\u30c3\u30c8\u30e9\u30f3\u30d7"
+      "fr": "Éclairage au sol sombrelinçois",
+      "ja": "シュラウド・フットランプ"
     },
     "stars": 3
   },
@@ -4830,13 +4823,12 @@
     "name": {
       "de": "Goldschmied-Werkbank",
       "en": "Goldsmithing Bench",
-      "fr": "\u00c9tabli d'orf\u00e8vrerie",
-      "ja": "\u30b4\u30fc\u30eb\u30c9\u30ef\u30fc\u30af\u30d9\u30f3\u30c1"
+      "fr": "Établi d'orfèvrerie",
+      "ja": "ゴールドワークベンチ"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -4846,12 +4838,11 @@
       "de": "Inferno-Bogen",
       "en": "Inferno Bow",
       "fr": "Arc des flammes",
-      "ja": "\u30a4\u30f3\u30d5\u30a7\u30eb\u30ce\u30dc\u30a6"
+      "ja": "インフェルノボウ"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -4861,7 +4852,7 @@
       "de": "Inferno-Stock",
       "en": "Inferno Cane",
       "fr": "Canne des flammes",
-      "ja": "\u30a4\u30f3\u30d5\u30a7\u30eb\u30ce\u30b1\u30fc\u30f3"
+      "ja": "インフェルノケーン"
     },
     "stars": 3
   },
@@ -4872,10 +4863,10 @@
     "level": 90,
     "maxQuality": 2490,
     "name": {
-      "de": "Gro\u00dfer Wand-Chronometer",
+      "de": "Großer Wand-Chronometer",
       "en": "Large Wall Chronometer",
       "fr": "Grande pendule",
-      "ja": "\u30e9\u30fc\u30b8\u30fb\u30a6\u30a9\u30fc\u30eb\u30af\u30ed\u30ce\u30e1\u30fc\u30bf\u30fc"
+      "ja": "ラージ・ウォールクロノメーター"
     },
     "stars": 3
   },
@@ -4888,8 +4879,8 @@
     "name": {
       "de": "Gerber-Werkbank",
       "en": "Leatherworking Bench",
-      "fr": "\u00c9tabli de tannerie",
-      "ja": "\u30ec\u30b6\u30fc\u30ef\u30fc\u30af\u30d9\u30f3\u30c1"
+      "fr": "Établi de tannerie",
+      "ja": "レザーワークベンチ"
     },
     "stars": 3
   },
@@ -4902,8 +4893,8 @@
     "name": {
       "de": "Emsiger Besen",
       "en": "Magic Broom",
-      "fr": "Balai enchant\u00e9",
-      "ja": "\u30de\u30e1\u30c3\u30c8\u30fb\u30d6\u30eb\u30fc\u30e0"
+      "fr": "Balai enchanté",
+      "ja": "マメット・ブルーム"
     },
     "stars": 3
   },
@@ -4916,8 +4907,8 @@
     "name": {
       "de": "Malefiz-Mogul-Mogstab",
       "en": "Maleficent Moggle Mogstaff",
-      "fr": "B\u00e2ton Moggle Mog mortel",
-      "ja": "\u30e2\u30b0\u30eb\u30e2\u30b0\u30b9\u30bf\u30c3\u30d5"
+      "fr": "Bâton Moggle Mog mortel",
+      "ja": "モグルモグスタッフ"
     },
     "stars": 3
   },
@@ -4931,7 +4922,7 @@
       "de": "Cello",
       "en": "Manor Cello",
       "fr": "Violoncelle du manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u30c1\u30a7\u30ed"
+      "ja": "御用邸のチェロ"
     },
     "stars": 3
   },
@@ -4945,7 +4936,7 @@
       "de": "Harfe",
       "en": "Manor Harp",
       "fr": "Harpe du manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u30cf\u30fc\u30d7"
+      "ja": "御用邸のハープ"
     },
     "stars": 3
   },
@@ -4959,7 +4950,7 @@
       "de": "Cembalo",
       "en": "Manor Harpsichord",
       "fr": "Clavecin du manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u30cf\u30fc\u30d7\u30b7\u30b3\u30fc\u30c9"
+      "ja": "御用邸のハープシコード"
     },
     "stars": 3
   },
@@ -4973,7 +4964,7 @@
       "de": "Kesselpauke",
       "en": "Manor Timpani",
       "fr": "Timbales du manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u30c6\u30a3\u30f3\u30d1\u30cb\u30fc"
+      "ja": "御用邸のティンパニー"
     },
     "stars": 3
   },
@@ -4987,7 +4978,7 @@
       "de": "Marternder Mogul-Mogbogen",
       "en": "Mischievous Moggle Mogbow",
       "fr": "Arc Moggle Mog moqueur",
-      "ja": "\u30e2\u30b0\u30eb\u30e2\u30b0\u30dc\u30a6"
+      "ja": "モグルモグボウ"
     },
     "stars": 3
   },
@@ -4998,10 +4989,10 @@
     "level": 90,
     "maxQuality": 2490,
     "name": {
-      "de": "Fern\u00f6stlicher Altar",
+      "de": "Fernöstlicher Altar",
       "en": "Oriental Altar",
       "fr": "Autel mural oriental",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30a2\u30eb\u30bf\u30fc"
+      "ja": "オリエンタルアルター"
     },
     "stars": 3
   },
@@ -5012,10 +5003,10 @@
     "level": 90,
     "maxQuality": 2490,
     "name": {
-      "de": "Fern\u00f6stliche Veranda",
+      "de": "Fernöstliche Veranda",
       "en": "Oriental Deck",
-      "fr": "V\u00e9randa de bois orientale",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30d9\u30e9\u30f3\u30c0"
+      "fr": "Véranda de bois orientale",
+      "ja": "オリエンタルベランダ"
     },
     "stars": 3
   },
@@ -5026,10 +5017,10 @@
     "level": 90,
     "maxQuality": 2490,
     "name": {
-      "de": "Fern\u00f6stliche Holzpuppe",
+      "de": "Fernöstliche Holzpuppe",
       "en": "Oriental Striking Dummy",
-      "fr": "Mannequin d'entra\u00eenement oriental",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30c0\u30df\u30fc"
+      "fr": "Mannequin d'entraînement oriental",
+      "ja": "オリエンタルダミー"
     },
     "stars": 3
   },
@@ -5042,8 +5033,8 @@
     "name": {
       "de": "Hochwertiges Holz",
       "en": "Perfect Firewood",
-      "fr": "B\u00fbches parfaites",
-      "ja": "\u4e0a\u8cea\u306a\u85aa"
+      "fr": "Bûches parfaites",
+      "ja": "上質な薪"
     },
     "stars": 3
   },
@@ -5054,10 +5045,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Versteinerte Sph\u00e4re",
+      "de": "Versteinerte Sphäre",
       "en": "Petrified Orb",
-      "fr": "Bille de bois p\u00e9trifi\u00e9",
-      "ja": "\u73ea\u5316\u6728\u4e38\u7389"
+      "fr": "Bille de bois pétrifié",
+      "ja": "珪化木丸玉"
     },
     "stars": 3
   },
@@ -5068,25 +5059,24 @@
     "level": 90,
     "maxQuality": 8964,
     "name": {
-      "de": "Verst\u00e4rkte Sperrholzplatte",
+      "de": "Verstärkte Sperrholzplatte",
       "en": "Reinforced Spruce Plywood",
-      "fr": "\u00c9pic\u00e9a contreplaqu\u00e9 double",
-      "ja": "\u5f37\u5316\u30b9\u30d7\u30eb\u30fc\u30b9\u5408\u677f"
+      "fr": "Épicéa contreplaqué double",
+      "ja": "強化スプルース合板"
     },
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Windgewalten-R\u00fcckgrat",
+      "de": "Windgewalten-Rückgrat",
       "en": "Spine of the Vortex",
-      "fr": "\u00c9chine des rafales",
-      "ja": "\u30f4\u30a9\u30fc\u30c6\u30c3\u30af\u30b9\u30b9\u30d1\u30a4\u30f3"
+      "fr": "Échine des rafales",
+      "ja": "ヴォーテックススパイン"
     },
     "stars": 3
   },
@@ -5099,8 +5089,8 @@
     "name": {
       "de": "Rundregal",
       "en": "Staggered Shelf",
-      "fr": "\u00c9tag\u00e8re domienne",
-      "ja": "\u9055\u3044\u68da"
+      "fr": "Étagère domienne",
+      "ja": "違い棚"
     },
     "stars": 3
   },
@@ -5113,8 +5103,8 @@
     "name": {
       "de": "Ishgard-Spielfigur",
       "en": "Temple Knight Piece",
-      "fr": "Pi\u00e8ce ishgardaise",
-      "ja": "\u30c6\u30f3\u30d7\u30eb\u30ca\u30a4\u30c8\u30d4\u30fc\u30b9"
+      "fr": "Pièce ishgardaise",
+      "ja": "テンプルナイトピース"
     },
     "stars": 3
   },
@@ -5127,8 +5117,8 @@
     "name": {
       "de": "Wacht-Spielfigur",
       "en": "Vigil Piece",
-      "fr": "Pi\u00e8ce vigile",
-      "ja": "\u30f4\u30a3\u30b8\u30eb\u30d4\u30fc\u30b9"
+      "fr": "Pièce vigile",
+      "ja": "ヴィジルピース"
     },
     "stars": 3
   },
@@ -5141,8 +5131,8 @@
     "name": {
       "de": "Zimmerer-Werkbank",
       "en": "Woodworking Bench",
-      "fr": "\u00c9tabli de menuiserie",
-      "ja": "\u30a6\u30c3\u30c9\u30ef\u30fc\u30af\u30d9\u30f3\u30c1"
+      "fr": "Établi de menuiserie",
+      "ja": "ウッドワークベンチ"
     },
     "stars": 3
   },
@@ -5155,8 +5145,8 @@
     "name": {
       "de": "Wyvern-Spielfigur",
       "en": "Wyvern Piece",
-      "fr": "Pi\u00e8ce wyverne",
-      "ja": "\u30ef\u30a4\u30d0\u30fc\u30f3\u30d4\u30fc\u30b9"
+      "fr": "Pièce wyverne",
+      "ja": "ワイバーンピース"
     },
     "stars": 3
   },
@@ -5170,7 +5160,7 @@
       "de": "Kostbarkeiten-Kabinett",
       "en": "Armoire",
       "fr": "Bahut personnel",
-      "ja": "\u611b\u8535\u54c1\u30ad\u30e3\u30d3\u30cd\u30c3\u30c8"
+      "ja": "愛蔵品キャビネット"
     },
     "stars": 4
   },
@@ -5183,8 +5173,8 @@
     "name": {
       "de": "Kunsthandwerker-Sandalen",
       "en": "Artisan's Sandals",
-      "fr": "Sandales de fa\u00e7onnier",
-      "ja": "\u30a2\u30fc\u30c6\u30a3\u30b6\u30f3\u30b5\u30f3\u30c0\u30eb"
+      "fr": "Sandales de façonnier",
+      "ja": "アーティザンサンダル"
     },
     "stars": 4
   },
@@ -5197,8 +5187,8 @@
     "name": {
       "de": "Ebenholzstock",
       "en": "Ebony Cane",
-      "fr": "Canne en \u00e9b\u00e8ne",
-      "ja": "\u30a8\u30dc\u30cb\u30fc\u30b1\u30fc\u30f3"
+      "fr": "Canne en ébène",
+      "ja": "エボニーケーン"
     },
     "stars": 4
   },
@@ -5211,8 +5201,8 @@
     "name": {
       "de": "Ebenholz-Langbogen",
       "en": "Ebony Longbow",
-      "fr": "Arc long en \u00e9b\u00e8ne",
-      "ja": "\u30a8\u30dc\u30cb\u30fc\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "fr": "Arc long en ébène",
+      "ja": "エボニーロングボウ"
     },
     "stars": 4
   },
@@ -5225,8 +5215,8 @@
     "name": {
       "de": "Ebenholz-Bauholz",
       "en": "Ebony Lumber",
-      "fr": "Madrier d'\u00e9b\u00e8ne",
-      "ja": "\u30a8\u30dc\u30cb\u30fc\u6750"
+      "fr": "Madrier d'ébène",
+      "ja": "エボニー材"
     },
     "stars": 4
   },
@@ -5239,8 +5229,8 @@
     "name": {
       "de": "Ebenholzstab",
       "en": "Ebony Staff",
-      "fr": "B\u00e2ton en \u00e9b\u00e8ne",
-      "ja": "\u30a8\u30dc\u30cb\u30fc\u30b9\u30bf\u30c3\u30d5"
+      "fr": "Bâton en ébène",
+      "ja": "エボニースタッフ"
     },
     "stars": 4
   },
@@ -5253,8 +5243,8 @@
     "name": {
       "de": "Wald-Himmelbett",
       "en": "Glade Canopy Bed",
-      "fr": "Lit \u00e0 baldaquin sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30ad\u30e3\u30ce\u30d4\u30fc\u30d9\u30c3\u30c9"
+      "fr": "Lit à baldaquin sombrelinçois",
+      "ja": "シュラウド・キャノピーベッド"
     },
     "stars": 4
   },
@@ -5268,52 +5258,49 @@
       "de": "Freibrieftresen",
       "en": "Guildleve Counter",
       "fr": "Comptoir de mandant",
-      "ja": "\u30ae\u30eb\u30c9\u30ea\u30fc\u30f4\u30ab\u30a6\u30f3\u30bf\u30fc"
+      "ja": "ギルドリーヴカウンター"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Stock des m\u00e4chtigen Donners",
+      "de": "Stock des mächtigen Donners",
       "en": "High Adjudicator's Gavel",
       "fr": "Grondement du Patriarche",
-      "ja": "\u30ec\u30f4\u30a3\u30f3\u30fb\u30b5\u30f3\u30c0\u30fc\u30ac\u30f4\u30a7\u30eb"
+      "ja": "レヴィン・サンダーガヴェル"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Partisane des m\u00e4chtigen Donners",
+      "de": "Partisane des mächtigen Donners",
       "en": "Mighty Thunderbolt",
-      "fr": "\u00c9clair du Patriarche",
-      "ja": "\u30ec\u30f4\u30a3\u30f3\u30fb\u30b5\u30f3\u30c0\u30fc\u30dc\u30eb\u30c8"
+      "fr": "Éclair du Patriarche",
+      "ja": "レヴィン・サンダーボルト"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Langbogen des m\u00e4chtigen Donners",
+      "de": "Langbogen des mächtigen Donners",
       "en": "Mighty Thunderdart",
-      "fr": "\u00c9tincelle du Patriarche",
-      "ja": "\u30ec\u30f4\u30a3\u30f3\u30fb\u30b5\u30f3\u30c0\u30fc\u30c0\u30fc\u30c4"
+      "fr": "Étincelle du Patriarche",
+      "ja": "レヴィン・サンダーダーツ"
     },
     "stars": 4
   },
@@ -5326,8 +5313,8 @@
     "name": {
       "de": "Oasen-Himmelbett",
       "en": "Oasis Canopy Bed",
-      "fr": "Lit \u00e0 baldaquin thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30ad\u30e3\u30ce\u30d4\u30fc\u30d9\u30c3\u30c9"
+      "fr": "Lit à baldaquin thanalanais",
+      "ja": "ザナラーン・キャノピーベッド"
     },
     "stars": 4
   },
@@ -5341,7 +5328,7 @@
       "de": "Rednerpult des Ordens von Nald'thal",
       "en": "Order of Nald'thal Lectern",
       "fr": "Tribune de Nald'thal",
-      "ja": "\u30ca\u30eb\u30b6\u30eb\u30aa\u30fc\u30c0\u30fc\u30fb\u30dd\u30c7\u30a3\u30a6\u30e0"
+      "ja": "ナルザルオーダー・ポディウム"
     },
     "stars": 4
   },
@@ -5354,8 +5341,8 @@
     "name": {
       "de": "Riviera-Himmelbett",
       "en": "Riviera Canopy Bed",
-      "fr": "Lit \u00e0 baldaquin nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30ad\u30e3\u30ce\u30d4\u30fc\u30d9\u30c3\u30c9"
+      "fr": "Lit à baldaquin noscéen",
+      "ja": "ラノシアン・キャノピーベッド"
     },
     "stars": 4
   },
@@ -5369,7 +5356,7 @@
       "de": "Wootz-Speer",
       "en": "Wootz Spear",
       "fr": "Hast en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30b9\u30d4\u30a2"
+      "ja": "ウーツスピア"
     },
     "stars": 4
   },
@@ -5382,8 +5369,8 @@
     "name": {
       "de": "Zedern-Bauholz",
       "en": "Cedar Lumber",
-      "fr": "Madrier de c\u00e8dre",
-      "ja": "\u30b7\u30fc\u30c0\u30fc\u6750"
+      "fr": "Madrier de cèdre",
+      "ja": "シーダー材"
     }
   },
   {
@@ -5395,8 +5382,8 @@
     "name": {
       "de": "Zedern-Hirtenstock",
       "en": "Cedar Crook",
-      "fr": "Crosse en c\u00e8dre",
-      "ja": "\u30b7\u30fc\u30c0\u30fc\u30af\u30eb\u30fc\u30af"
+      "fr": "Crosse en cèdre",
+      "ja": "シーダークルーク"
     }
   },
   {
@@ -5408,8 +5395,8 @@
     "name": {
       "de": "Zedern-Langbogen",
       "en": "Cedar Longbow",
-      "fr": "Arc long en c\u00e8dre",
-      "ja": "\u30b7\u30fc\u30c0\u30fc\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "fr": "Arc long en cèdre",
+      "ja": "シーダーロングボウ"
     }
   },
   {
@@ -5422,7 +5409,7 @@
       "de": "Mythrit-Dreizack",
       "en": "Mythrite Trident",
       "fr": "Trident en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30c8\u30e9\u30a4\u30c7\u30f3\u30c8"
+      "ja": "ミスライトトライデント"
     }
   },
   {
@@ -5435,7 +5422,7 @@
       "de": "Runder Banketttisch",
       "en": "Round Banquet Table",
       "fr": "Table de banquet ronde",
-      "ja": "\u30d0\u30f3\u30b1\u30c3\u30c8\u30e9\u30a6\u30f3\u30c9\u30c6\u30fc\u30d6\u30eb"
+      "ja": "バンケットラウンドテーブル"
     }
   },
   {
@@ -5447,8 +5434,8 @@
     "name": {
       "de": "Fassgestell",
       "en": "Cask Rack",
-      "fr": "\u00c9tag\u00e8re \u00e0 tonneaux",
-      "ja": "\u30ab\u30b9\u30af\u30e9\u30c3\u30af"
+      "fr": "Étagère à tonneaux",
+      "ja": "カスクラック"
     }
   },
   {
@@ -5460,8 +5447,8 @@
     "name": {
       "de": "Zedernangelrute",
       "en": "Cedar Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en c\u00e8dre",
-      "ja": "\u30b7\u30fc\u30c0\u30fc\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en cèdre",
+      "ja": "シーダーフィッシングロッド"
     }
   },
   {
@@ -5473,8 +5460,8 @@
     "name": {
       "de": "Heiliger Zedern-Kompositbogen",
       "en": "Holy Cedar Composite Bow",
-      "fr": "Arc composite en c\u00e8dre sacr\u00e9",
-      "ja": "\u30db\u30fc\u30ea\u30fc\u30b7\u30fc\u30c0\u30fc\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30dc\u30a6"
+      "fr": "Arc composite en cèdre sacré",
+      "ja": "ホーリーシーダー・コンポジットボウ"
     }
   },
   {
@@ -5486,8 +5473,8 @@
     "name": {
       "de": "Heiliges Zedern-Bauholz",
       "en": "Holy Cedar Lumber",
-      "fr": "Madrier de c\u00e8dre sacr\u00e9",
-      "ja": "\u30db\u30fc\u30ea\u30fc\u30b7\u30fc\u30c0\u30fc\u6750"
+      "fr": "Madrier de cèdre sacré",
+      "ja": "ホーリーシーダー材"
     }
   },
   {
@@ -5500,7 +5487,7 @@
       "de": "Mythrit-Kampfstab",
       "en": "Mythrite Pugil Stick",
       "fr": "Canne de combat en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30d1\u30b8\u30eb\u30b9\u30c6\u30a3\u30c3\u30af"
+      "ja": "ミスライトパジルスティック"
     }
   },
   {
@@ -5513,7 +5500,7 @@
       "de": "Astral-Schleifrad",
       "en": "Astral Grinding Wheel",
       "fr": "Meule astrale",
-      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "アストラルグラインディングホイール"
     }
   },
   {
@@ -5525,8 +5512,8 @@
     "name": {
       "de": "Heilige Zedern-Armillae",
       "en": "Holy Cedar Armillae",
-      "fr": "Armilles en c\u00e8dre sacr\u00e9",
-      "ja": "\u30db\u30fc\u30ea\u30fc\u30b7\u30fc\u30c0\u30fc\u30a2\u30eb\u30df\u30e9"
+      "fr": "Armilles en cèdre sacré",
+      "ja": "ホーリーシーダーアルミラ"
     }
   },
   {
@@ -5538,8 +5525,8 @@
     "name": {
       "de": "Heiliger Zedern-Ring",
       "en": "Holy Cedar Ring",
-      "fr": "Bague en c\u00e8dre sacr\u00e9",
-      "ja": "\u30db\u30fc\u30ea\u30fc\u30b7\u30fc\u30c0\u30fc\u30ea\u30f3\u30b0"
+      "fr": "Bague en cèdre sacré",
+      "ja": "ホーリーシーダーリング"
     }
   },
   {
@@ -5551,8 +5538,8 @@
     "name": {
       "de": "Heiliges Zedern-Spinnrad",
       "en": "Holy Cedar Spinning Wheel",
-      "fr": "Rouet en c\u00e8dre sacr\u00e9",
-      "ja": "\u30db\u30fc\u30ea\u30fc\u30b7\u30fc\u30c0\u30fc\u30fb\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "fr": "Rouet en cèdre sacré",
+      "ja": "ホーリーシーダー・スピニングホイール"
     }
   },
   {
@@ -5564,8 +5551,8 @@
     "name": {
       "de": "Kastanien-Langbogen",
       "en": "Dark Chestnut Longbow",
-      "fr": "Arc long en ch\u00e2taignier sombre",
-      "ja": "\u30c0\u30fc\u30af\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30fb\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "fr": "Arc long en châtaignier sombre",
+      "ja": "ダークチェスナット・ロングボウ"
     }
   },
   {
@@ -5577,8 +5564,8 @@
     "name": {
       "de": "Dunkles Kastanien-Bauholz",
       "en": "Dark Chestnut Lumber",
-      "fr": "Madrier de ch\u00e2taignier sombre",
-      "ja": "\u30c0\u30fc\u30af\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u6750"
+      "fr": "Madrier de châtaignier sombre",
+      "ja": "ダークチェスナット材"
     }
   },
   {
@@ -5590,8 +5577,8 @@
     "name": {
       "de": "Kastanienrute",
       "en": "Dark Chestnut Rod",
-      "fr": "Sceptre en ch\u00e2taignier sombre",
-      "ja": "\u30c0\u30fc\u30af\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30ed\u30c3\u30c9"
+      "fr": "Sceptre en châtaignier sombre",
+      "ja": "ダークチェスナットロッド"
     }
   },
   {
@@ -5603,8 +5590,8 @@
     "name": {
       "de": "Heilige Zedern-Halskette",
       "en": "Holy Cedar Necklace",
-      "fr": "Collier en c\u00e8dre sacr\u00e9",
-      "ja": "\u30db\u30fc\u30ea\u30fc\u30b7\u30fc\u30c0\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+      "fr": "Collier en cèdre sacré",
+      "ja": "ホーリーシーダーネックレス"
     }
   },
   {
@@ -5617,7 +5604,7 @@
       "de": "Titan-Lanze",
       "en": "Titanium Lance",
       "fr": "Lance en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30e9\u30f3\u30b9"
+      "ja": "チタンランス"
     }
   },
   {
@@ -5630,7 +5617,7 @@
       "de": "Ishgarder Holzstuhl",
       "en": "Alpine Chair",
       "fr": "Chaise en bois ishgardaise",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30a6\u30c3\u30c9\u30c1\u30a7\u30a2"
+      "ja": "イシュガルディアン・ウッドチェア"
     }
   },
   {
@@ -5643,7 +5630,7 @@
       "de": "Ishgarder Rundtisch",
       "en": "Alpine Round Table",
       "fr": "Table ronde ishgardaise",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30e9\u30a6\u30f3\u30c9\u30c6\u30fc\u30d6\u30eb"
+      "ja": "イシュガルディアン・ラウンドテーブル"
     }
   },
   {
@@ -5655,8 +5642,8 @@
     "name": {
       "de": "Kastanienangelrute",
       "en": "Dark Chestnut Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en ch\u00e2taignier sombre",
-      "ja": "\u30c0\u30fc\u30af\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30fb\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en châtaignier sombre",
+      "ja": "ダークチェスナット・フィッシングロッド"
     }
   },
   {
@@ -5669,7 +5656,7 @@
       "de": "Bilderrahmen M",
       "en": "Grade 2 Picture Frame",
       "fr": "Cadre de taille moyenne",
-      "ja": "\u30d4\u30af\u30c1\u30e3\u30fc\u30d5\u30ec\u30fc\u30e0G2"
+      "ja": "ピクチャーフレームG2"
     }
   },
   {
@@ -5679,10 +5666,10 @@
     "level": 136,
     "maxQuality": 3150,
     "name": {
-      "de": "Hutst\u00e4nder",
+      "de": "Hutständer",
       "en": "Hat Stand",
       "fr": "Porte-chapeau",
-      "ja": "\u30cf\u30c3\u30c8\u30b9\u30bf\u30f3\u30c9"
+      "ja": "ハットスタンド"
     }
   },
   {
@@ -5694,8 +5681,8 @@
     "name": {
       "de": "Spielzeugtruhe",
       "en": "Toy Box",
-      "fr": "Coffre \u00e0 jouets",
-      "ja": "\u7d61\u7e70\u308a\u73a9\u5177\u7bb1"
+      "fr": "Coffre à jouets",
+      "ja": "絡繰り玩具箱"
     }
   },
   {
@@ -5708,7 +5695,7 @@
       "de": "Kassia-Bauholz",
       "en": "Cassia Lumber",
       "fr": "Madrier de cassier",
-      "ja": "\u30bf\u30ac\u30e4\u30b5\u30f3\u6750"
+      "ja": "タガヤサン材"
     }
   },
   {
@@ -5721,7 +5708,7 @@
       "de": "Wolkenglimmer-Schleifrad",
       "en": "Cloud Mica Grinding Wheel",
       "fr": "Meule en mica blanc",
-      "ja": "\u30af\u30e9\u30a6\u30c9\u30de\u30a4\u30ab\u30fb\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "クラウドマイカ・グラインディングホイール"
     }
   },
   {
@@ -5733,8 +5720,8 @@
     "name": {
       "de": "Kastanien-Spinnrad",
       "en": "Dark Chestnut Spinning Wheel",
-      "fr": "Rouet en ch\u00e2taignier sombre",
-      "ja": "\u30c0\u30fc\u30af\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30fb\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "fr": "Rouet en châtaignier sombre",
+      "ja": "ダークチェスナット・スピニングホイール"
     }
   },
   {
@@ -5746,8 +5733,8 @@
     "name": {
       "de": "Geheiligter Kastanien-Kompositbogen",
       "en": "Hallowed Chestnut Composite Bow",
-      "fr": "Arc composite en ch\u00e2taignier sanctifi\u00e9",
-      "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30fb\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30dc\u30a6"
+      "fr": "Arc composite en châtaignier sanctifié",
+      "ja": "ハロードチェスナット・コンポジットボウ"
     }
   },
   {
@@ -5759,8 +5746,8 @@
     "name": {
       "de": "Geheiligtes Kastanien-Bauholz",
       "en": "Hallowed Chestnut Lumber",
-      "fr": "Madrier de ch\u00e2taignier sanctifi\u00e9",
-      "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u6750"
+      "fr": "Madrier de châtaignier sanctifié",
+      "ja": "ハロードチェスナット材"
     }
   },
   {
@@ -5772,8 +5759,8 @@
     "name": {
       "de": "Geheiligte Kastanienmaske des Zielens",
       "en": "Hallowed Chestnut Mask of Aiming",
-      "fr": "Masque de pisteur en ch\u00e2taignier sanctifi\u00e9",
-      "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30de\u30b9\u30af"
+      "fr": "Masque de pisteur en châtaignier sanctifié",
+      "ja": "ハロードチェスナット・レンジャーマスク"
     }
   },
   {
@@ -5785,8 +5772,8 @@
     "name": {
       "de": "Geheiligte Kastanienmaske der Magie",
       "en": "Hallowed Chestnut Mask of Casting",
-      "fr": "Masque d'incantateur en ch\u00e2taignier sanctifi\u00e9",
-      "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30fb\u30ad\u30e3\u30b9\u30bf\u30fc\u30de\u30b9\u30af"
+      "fr": "Masque d'incantateur en châtaignier sanctifié",
+      "ja": "ハロードチェスナット・キャスターマスク"
     }
   },
   {
@@ -5798,8 +5785,8 @@
     "name": {
       "de": "Geheiligte Kastanienmaske der Heilung",
       "en": "Hallowed Chestnut Mask of Healing",
-      "fr": "Masque de soigneur en ch\u00e2taignier sanctifi\u00e9",
-      "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30fb\u30d2\u30fc\u30e9\u30fc\u30de\u30b9\u30af"
+      "fr": "Masque de soigneur en châtaignier sanctifié",
+      "ja": "ハロードチェスナット・ヒーラーマスク"
     }
   },
   {
@@ -5812,7 +5799,7 @@
       "de": "Titan-Kriegsgabel",
       "en": "Titanium Fork",
       "fr": "Fourche en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30d5\u30a9\u30fc\u30af"
+      "ja": "チタンフォーク"
     }
   },
   {
@@ -5824,8 +5811,8 @@
     "name": {
       "de": "Geheiligte Kastanienangelrute",
       "en": "Hallowed Chestnut Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en ch\u00e2taignier sanctifi\u00e9",
-      "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30fb\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en châtaignier sanctifié",
+      "ja": "ハロードチェスナット・フィッシングロッド"
     }
   },
   {
@@ -5837,8 +5824,8 @@
     "name": {
       "de": "Geheiligter Kastanien-Ring",
       "en": "Hallowed Chestnut Ring",
-      "fr": "Bague en ch\u00e2taignier sanctifi\u00e9",
-      "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30ea\u30f3\u30b0"
+      "fr": "Bague en châtaignier sanctifié",
+      "ja": "ハロードチェスナットリング"
     }
   },
   {
@@ -5848,10 +5835,10 @@
     "level": 142,
     "maxQuality": 5456,
     "name": {
-      "de": "Nah\u00f6stliche Antiquit\u00e4t",
+      "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
-      "fr": "Antiquit\u00e9 proche-orientale",
-      "ja": "\u8fd1\u6771\u98a8\u306e\u8490\u96c6\u54c1"
+      "fr": "Antiquité proche-orientale",
+      "ja": "近東風の蒐集品"
     }
   },
   {
@@ -5861,10 +5848,10 @@
     "level": 142,
     "maxQuality": 2728,
     "name": {
-      "de": "Komponente einer nah\u00f6stlichen Antiquit\u00e4t",
+      "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
-      "fr": "Composant d'antiquit\u00e9 proche-orientale",
-      "ja": "\u8fd1\u6771\u98a8\u306e\u8490\u96c6\u54c1\u90e8\u6750"
+      "fr": "Composant d'antiquité proche-orientale",
+      "ja": "近東風の蒐集品部材"
     }
   },
   {
@@ -5874,10 +5861,10 @@
     "level": 142,
     "maxQuality": 3410,
     "name": {
-      "de": "K\u00f6niglicher Konferenztisch",
+      "de": "Königlicher Konferenztisch",
       "en": "Royal Plotting Table",
       "fr": "Grande table du Cartel",
-      "ja": "\u30ed\u30a4\u30e4\u30eb\u30bf\u30af\u30c6\u30a3\u30ab\u30eb\u30c6\u30fc\u30d6\u30eb"
+      "ja": "ロイヤルタクティカルテーブル"
     }
   },
   {
@@ -5890,7 +5877,7 @@
       "de": "Adamantium-Speer",
       "en": "Adamantite Spear",
       "fr": "Hast en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30d4\u30a2"
+      "ja": "アダマンスピア"
     }
   },
   {
@@ -5903,7 +5890,7 @@
       "de": "Birken-Langbogen",
       "en": "Birch Longbow",
       "fr": "Arc long en bouleau",
-      "ja": "\u30d0\u30fc\u30c1\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "ja": "バーチロングボウ"
     }
   },
   {
@@ -5916,7 +5903,7 @@
       "de": "Birken-Bauholz",
       "en": "Birch Lumber",
       "fr": "Madrier de bouleau",
-      "ja": "\u30d0\u30fc\u30c1\u6750"
+      "ja": "バーチ材"
     }
   },
   {
@@ -5929,7 +5916,7 @@
       "de": "Birken-Signum",
       "en": "Birch Signum",
       "fr": "Signum en bouleau",
-      "ja": "\u30d0\u30fc\u30c1\u30b7\u30b0\u30ca\u30e0"
+      "ja": "バーチシグナム"
     }
   },
   {
@@ -5942,7 +5929,7 @@
       "de": "Coerthisches Souvenir",
       "en": "Coerthan Souvenir",
       "fr": "Souvenir du Coerthas",
-      "ja": "\u5bd2\u51b7\u5730\u306e\u540d\u7523\u54c1"
+      "ja": "寒冷地の名産品"
     }
   },
   {
@@ -5955,7 +5942,7 @@
       "de": "Komponente eines coerthischen Souvenirs",
       "en": "Coerthan Souvenir Component",
       "fr": "Composant de souvenir du Coerthas",
-      "ja": "\u5bd2\u51b7\u5730\u306e\u540d\u7523\u54c1\u90e8\u6750"
+      "ja": "寒冷地の名産品部材"
     }
   },
   {
@@ -5967,8 +5954,8 @@
     "name": {
       "de": "Geheiligte Kastanien-Armillae",
       "en": "Hallowed Chestnut Armillae",
-      "fr": "Armilles en ch\u00e2taignier sanctifi\u00e9",
-      "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30a2\u30eb\u30df\u30e9"
+      "fr": "Armilles en châtaignier sanctifié",
+      "ja": "ハロードチェスナットアルミラ"
     }
   },
   {
@@ -5981,7 +5968,7 @@
       "de": "Die Unendliche Reise",
       "en": "The Unending Journey",
       "fr": "Carnet de voyage",
-      "ja": "\u611b\u7528\u306e\u7d00\u884c\u9332"
+      "ja": "愛用の紀行録"
     }
   },
   {
@@ -5994,7 +5981,7 @@
       "de": "Aquarium M",
       "en": "Tier 2 Aquarium",
       "fr": "Aquarium de taille moyenne",
-      "ja": "\u30a2\u30af\u30a2\u30ea\u30a6\u30e0G2"
+      "ja": "アクアリウムG2"
     }
   },
   {
@@ -6007,7 +5994,7 @@
       "de": "Birken-Spinnrad",
       "en": "Birch Spinning Wheel",
       "fr": "Rouet en bouleau",
-      "ja": "\u30d0\u30fc\u30c1\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "バーチスピニングホイール"
     }
   },
   {
@@ -6019,8 +6006,8 @@
     "name": {
       "de": "Drachenschuppen-Schleifrad",
       "en": "Dragonscale Grinding Wheel",
-      "fr": "Meule en \u00e9caille de dragon",
-      "ja": "\u30c9\u30e9\u30b4\u30f3\u30b9\u30b1\u30a4\u30eb\u30fb\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "fr": "Meule en écaille de dragon",
+      "ja": "ドラゴンスケイル・グラインディングホイール"
     }
   },
   {
@@ -6032,8 +6019,8 @@
     "name": {
       "de": "Geheiligte Kastanien-Halskette",
       "en": "Hallowed Chestnut Necklace",
-      "fr": "Collier en ch\u00e2taignier sanctifi\u00e9",
-      "ja": "\u30cf\u30ed\u30fc\u30c9\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8\u30cd\u30c3\u30af\u30ec\u30b9"
+      "fr": "Collier en châtaignier sanctifié",
+      "ja": "ハロードチェスナットネックレス"
     }
   },
   {
@@ -6043,10 +6030,10 @@
     "level": 148,
     "maxQuality": 5871,
     "name": {
-      "de": "Mahlstrom-Ausr\u00fcstung",
+      "de": "Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel",
-      "fr": "\u00c9quipement militaire du Maelstrom",
-      "ja": "\u9ed2\u6e26\u56e3\u306e\u8ecd\u9700\u54c1"
+      "fr": "Équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品"
     }
   },
   {
@@ -6056,10 +6043,10 @@
     "level": 148,
     "maxQuality": 2935,
     "name": {
-      "de": "Komponente eines St\u00fccks Mahlstrom-Ausr\u00fcstung",
+      "de": "Komponente eines Stücks Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel Component",
-      "fr": "Composant d'\u00e9quipement militaire du Maelstrom",
-      "ja": "\u9ed2\u6e26\u56e3\u306e\u8ecd\u9700\u54c1\u90e8\u6750"
+      "fr": "Composant d'équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品部材"
     }
   },
   {
@@ -6071,8 +6058,8 @@
     "name": {
       "de": "Paissa-Stehlampe",
       "en": "Paissa Floor Lamp",
-      "fr": "Lampe pa\u00efssa",
-      "ja": "\u30d1\u30a4\u30c3\u30b5\u30d5\u30ed\u30a2\u30e9\u30f3\u30d7"
+      "fr": "Lampe païssa",
+      "ja": "パイッサフロアランプ"
     }
   },
   {
@@ -6085,7 +6072,7 @@
       "de": "Adamantium-Dreizack",
       "en": "Adamantite Trident",
       "fr": "Trident en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c8\u30e9\u30a4\u30c7\u30f3\u30c8"
+      "ja": "アダマントライデント"
     }
   },
   {
@@ -6098,7 +6085,7 @@
       "de": "Birken-Kompositbogen",
       "en": "Birch Composite Bow",
       "fr": "Arc composite en bouleau",
-      "ja": "\u30d0\u30fc\u30c1\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30dc\u30a6"
+      "ja": "バーチコンポジットボウ"
     }
   },
   {
@@ -6110,8 +6097,8 @@
     "name": {
       "de": "Birkenangelrute",
       "en": "Birch Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en bouleau",
-      "ja": "\u30d0\u30fc\u30c1\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en bouleau",
+      "ja": "バーチフィッシングロッド"
     }
   },
   {
@@ -6124,7 +6111,7 @@
       "de": "Birkenrute",
       "en": "Birch Rod",
       "fr": "Sceptre en bouleau",
-      "ja": "\u30d0\u30fc\u30c1\u30ed\u30c3\u30c9"
+      "ja": "バーチロッド"
     }
   },
   {
@@ -6137,7 +6124,7 @@
       "de": "Unbeschriebene Notenrolle III",
       "en": "Blank Grade 3 Orchestrion Roll",
       "fr": "Rouleau d'orchestrion vierge III",
-      "ja": "\u7121\u5730\u306e\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3\u8b5cG3"
+      "ja": "無地のオーケストリオン譜G3"
     }
   },
   {
@@ -6149,8 +6136,8 @@
     "name": {
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
-      "fr": "Cadeau attentionn\u00e9",
-      "ja": "\u5fc3\u5c3d\u304f\u3057\u306e\u8d08\u7b54\u54c1"
+      "fr": "Cadeau attentionné",
+      "ja": "心尽くしの贈答品"
     }
   },
   {
@@ -6162,8 +6149,8 @@
     "name": {
       "de": "Komponente eines innigen Geschenks",
       "en": "Heartfelt Gift Component",
-      "fr": "Composant de cadeau attentionn\u00e9",
-      "ja": "\u5fc3\u5c3d\u304f\u3057\u306e\u8d08\u7b54\u54c1\u90e8\u6750"
+      "fr": "Composant de cadeau attentionné",
+      "ja": "心尽くしの贈答品部材"
     }
   },
   {
@@ -6176,7 +6163,7 @@
       "de": "Ravana-Ventilatorlampe",
       "en": "Hive Ceiling Fan",
       "fr": "Ventilateur de plafond de Ravana",
-      "ja": "\u30e9\u30fc\u30f4\u30a1\u30ca\u306e\u6247\u98a8\u706f"
+      "ja": "ラーヴァナの扇風灯"
     }
   },
   {
@@ -6189,7 +6176,7 @@
       "de": "Kassia-Block",
       "en": "Cassia Block",
       "fr": "Bloc de cassier",
-      "ja": "\u30bf\u30ac\u30e4\u30b5\u30f3\u89d2\u6750"
+      "ja": "タガヤサン角材"
     },
     "stars": 1
   },
@@ -6202,8 +6189,8 @@
     "name": {
       "de": "Aufzieh-Schubkarre",
       "en": "Clockwork Barrow",
-      "fr": "Brouette m\u00e9canique",
-      "ja": "\u30af\u30ed\u30c3\u30af\u30ef\u30fc\u30af\u30ab\u30fc\u30c8"
+      "fr": "Brouette mécanique",
+      "ja": "クロックワークカート"
     },
     "stars": 1
   },
@@ -6216,8 +6203,8 @@
     "name": {
       "de": "Psychedelische Ravana-Ventilatorenlampe",
       "en": "Deep Hive Ceiling Fan",
-      "fr": "Ventilateur de plafond du Ma\u00eetre des lames",
-      "ja": "\u6b66\u795e\u30e9\u30fc\u30f4\u30a1\u30ca\u306e\u6247\u98a8\u706f"
+      "fr": "Ventilateur de plafond du Maître des lames",
+      "ja": "武神ラーヴァナの扇風灯"
     },
     "stars": 1
   },
@@ -6228,10 +6215,10 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
-      "de": "D\u00e4monenbann-Pfeil",
+      "de": "Dämonenbann-Pfeil",
       "en": "Dispelling Arrow",
-      "fr": "Fl\u00e8che-amulette",
-      "ja": "\u7834\u9b54\u77e2"
+      "fr": "Flèche-amulette",
+      "ja": "破魔矢"
     },
     "stars": 1
   },
@@ -6244,8 +6231,8 @@
     "name": {
       "de": "Gordischer Schreibtisch",
       "en": "Gordian Bureau",
-      "fr": "Secr\u00e9taire gordien",
-      "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u66f8\u673a"
+      "fr": "Secrétaire gordien",
+      "ja": "ゴルディオンの書机"
     },
     "stars": 1
   },
@@ -6259,7 +6246,7 @@
       "de": "Mogry-Kronleuchter",
       "en": "Magnificent Mogdelier",
       "fr": "Lustre mog",
-      "ja": "\u30e2\u30b0\u30e2\u30b0\u30fb\u30b7\u30e3\u30f3\u30c7\u30ea\u30a2"
+      "ja": "モグモグ・シャンデリア"
     },
     "stars": 1
   },
@@ -6273,7 +6260,7 @@
       "de": "Waisenhaus-Spende",
       "en": "Orphanage Donation",
       "fr": "Article quotidien d'orphelinat",
-      "ja": "\u5b64\u5150\u9662\u306e\u65e5\u7528\u54c1"
+      "ja": "孤児院の日用品"
     },
     "stars": 1
   },
@@ -6287,7 +6274,7 @@
       "de": "Komponente einer Waisenhaus-Spende",
       "en": "Orphanage Donation Component",
       "fr": "Composant d'article pour orphelinat",
-      "ja": "\u5b64\u5150\u9662\u306e\u65e5\u7528\u54c1\u90e8\u6750"
+      "ja": "孤児院の日用品部材"
     },
     "stars": 1
   },
@@ -6301,7 +6288,7 @@
       "de": "Karfunkel-Maskottchen",
       "en": "Stuffed Carbuncle",
       "fr": "Maneki-Carbuncle",
-      "ja": "\u62db\u304d\u30ab\u30fc\u30d0\u30f3\u30af\u30eb"
+      "ja": "招きカーバンクル"
     },
     "stars": 1
   },
@@ -6315,7 +6302,7 @@
       "de": "Astralbirken-Armillae",
       "en": "Astral Birch Armillae",
       "fr": "Armilles en bouleau astral",
-      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30a2\u30eb\u30df\u30e9"
+      "ja": "アストラルバーチアルミラ"
     },
     "stars": 2
   },
@@ -6329,7 +6316,7 @@
       "de": "Astralbirken-Bauholz",
       "en": "Astral Birch Lumber",
       "fr": "Madrier de bouleau astral",
-      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u6750"
+      "ja": "アストラルバーチ材"
     },
     "stars": 2
   },
@@ -6343,7 +6330,7 @@
       "de": "Astralbirken-Halskette",
       "en": "Astral Birch Necklace",
       "fr": "Collier en bouleau astral",
-      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30cd\u30c3\u30af\u30ec\u30b9"
+      "ja": "アストラルバーチネックレス"
     },
     "stars": 2
   },
@@ -6357,7 +6344,7 @@
       "de": "Astralbirken-Ring",
       "en": "Astral Birch Ring",
       "fr": "Bague en bouleau astral",
-      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30ea\u30f3\u30b0"
+      "ja": "アストラルバーチリング"
     },
     "stars": 2
   },
@@ -6371,7 +6358,7 @@
       "de": "Astralbirken-Spinnrad",
       "en": "Astral Birch Spinning Wheel",
       "fr": "Rouet en bouleau astral",
-      "ja": "\u30a2\u30b9\u30c8\u30e9\u30eb\u30d0\u30fc\u30c1\u30fb\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "アストラルバーチ・スピニングホイール"
     },
     "stars": 2
   },
@@ -6385,12 +6372,11 @@
       "de": "Kampferholz",
       "en": "Camphorwood Lumber",
       "fr": "Madrier de camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u6750"
+      "ja": "カンファー材"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6399,13 +6385,12 @@
     "name": {
       "de": "Bogen der Kolonie",
       "en": "Dead Hive Bow",
-      "fr": "Arc du Ma\u00eetre des lames",
-      "ja": "\u30cf\u30a4\u30f4\u30dc\u30a6"
+      "fr": "Arc du Maître des lames",
+      "ja": "ハイヴボウ"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6414,13 +6399,12 @@
     "name": {
       "de": "Stock der Kolonie",
       "en": "Dead Hive Cane",
-      "fr": "Canne du Ma\u00eetre des lames",
-      "ja": "\u30cf\u30a4\u30f4\u30b1\u30fc\u30f3"
+      "fr": "Canne du Maître des lames",
+      "ja": "ハイヴケーン"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6429,13 +6413,12 @@
     "name": {
       "de": "Speer der Kolonie",
       "en": "Dead Hive Spear",
-      "fr": "Hast du Ma\u00eetre des lames",
-      "ja": "\u30cf\u30a4\u30f4\u30b9\u30d4\u30a2"
+      "fr": "Hast du Maître des lames",
+      "ja": "ハイヴスピア"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6445,12 +6428,11 @@
       "de": "Stock der endlosen Weiten",
       "en": "Endless Expanse Cane",
       "fr": "Canne du Migrateur",
-      "ja": "\u30a8\u30af\u30b9\u30d1\u30f3\u30b9\u30b1\u30fc\u30f3"
+      "ja": "エクスパンスケーン"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6460,12 +6442,11 @@
       "de": "Langbogen der endlosen Weiten",
       "en": "Endless Expanse Longbow",
       "fr": "Arc long du Migrateur",
-      "ja": "\u30a8\u30af\u30b9\u30d1\u30f3\u30b9\u30ed\u30f3\u30b0\u30dc\u30a6"
+      "ja": "エクスパンスロングボウ"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6475,7 +6456,7 @@
       "de": "Partisane der endlosen Weiten",
       "en": "Endless Expanse Partisan",
       "fr": "Pertuisane du Migrateur",
-      "ja": "\u30a8\u30af\u30b9\u30d1\u30f3\u30b9\u30d1\u30eb\u30c1\u30b6\u30f3"
+      "ja": "エクスパンスパルチザン"
     },
     "stars": 2
   },
@@ -6486,10 +6467,10 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
-      "de": "Luftschiff-Modell \u201eEnterprise\u201c",
+      "de": "Luftschiff-Modell „Enterprise“",
       "en": "Enterprise Miniature",
-      "fr": "Figurine magitek d'un a\u00e9ronef de type Entreprise",
-      "ja": "MG\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba\u7d1a\u98db\u7a7a\u8247"
+      "fr": "Figurine magitek d'un aéronef de type Entreprise",
+      "ja": "MGエンタープライズ級飛空艇"
     },
     "stars": 2
   },
@@ -6500,10 +6481,10 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
-      "de": "Luftschiff-Modell \u201eInvincible II\u201c",
+      "de": "Luftschiff-Modell „Invincible II“",
       "en": "Invincible II Miniature",
-      "fr": "Figurine magitek d'un a\u00e9ronef de type Invincible II",
-      "ja": "MG\u30a4\u30f3\u30d3\u30f3\u30b7\u30d6\u30eb\u6539\u7d1a\u98db\u7a7a\u8247"
+      "fr": "Figurine magitek d'un aéronef de type Invincible II",
+      "ja": "MGインビンシブル改級飛空艇"
     },
     "stars": 2
   },
@@ -6514,10 +6495,10 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
-      "de": "Luftschiff-Modell \u201eInvincible\u201c",
+      "de": "Luftschiff-Modell „Invincible“",
       "en": "Invincible Miniature",
-      "fr": "Figurine magitek d'un a\u00e9ronef de type Invincible",
-      "ja": "MG\u30a4\u30f3\u30d3\u30f3\u30b7\u30d6\u30eb\u7d1a\u98db\u7a7a\u8247"
+      "fr": "Figurine magitek d'un aéronef de type Invincible",
+      "ja": "MGインビンシブル級飛空艇"
     },
     "stars": 2
   },
@@ -6531,7 +6512,7 @@
       "de": "Mhach-Sarg",
       "en": "Mhachi Coffin",
       "fr": "Cercueil mhachois",
-      "ja": "\u30de\u30cf\u306e\u68fa"
+      "ja": "マハの棺"
     },
     "stars": 2
   },
@@ -6542,10 +6523,10 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
-      "de": "Luftschiff-Modell \u201eOdyssey\u201c",
+      "de": "Luftschiff-Modell „Odyssey“",
       "en": "Odyssey Miniature",
-      "fr": "Figurine magitek d'un a\u00e9ronef de type Odyss\u00e9e",
-      "ja": "MG\u30aa\u30c7\u30c3\u30bb\u30a4\u7d1a\u98db\u7a7a\u8247"
+      "fr": "Figurine magitek d'un aéronef de type Odyssée",
+      "ja": "MGオデッセイ級飛空艇"
     },
     "stars": 2
   },
@@ -6559,7 +6540,7 @@
       "de": "Orchestrion",
       "en": "Orchestrion",
       "fr": "Orchestrion",
-      "ja": "\u30aa\u30fc\u30b1\u30b9\u30c8\u30ea\u30aa\u30f3"
+      "ja": "オーケストリオン"
     },
     "stars": 2
   },
@@ -6573,7 +6554,7 @@
       "de": "Pudding-Tisch",
       "en": "Pudding Desk",
       "fr": "Bureau pudding",
-      "ja": "\u30d7\u30ea\u30f3\u30c7\u30b9\u30af"
+      "ja": "プリンデスク"
     },
     "stars": 2
   },
@@ -6586,8 +6567,8 @@
     "name": {
       "de": "Epischer gordischer Schreibtisch",
       "en": "Savage Gordian Bureau",
-      "fr": "Secr\u00e9taire gordien ornement\u00e9",
-      "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u66f8\u673a\u3010\u96f6\u5f0f\u3011"
+      "fr": "Secrétaire gordien ornementé",
+      "ja": "ゴルディオンの書机【零式】"
     },
     "stars": 2
   },
@@ -6601,7 +6582,7 @@
       "de": "Rehscheuche",
       "en": "Shishi-odoshi",
       "fr": "Shishi-odoshi",
-      "ja": "\u9e7f\u5a01\u3057"
+      "ja": "鹿威し"
     },
     "stars": 2
   },
@@ -6614,8 +6595,8 @@
     "name": {
       "de": "Sonnenglimmer-Schleifrad",
       "en": "Sun Mica Grinding Wheel",
-      "fr": "Meule en mica dor\u00e9",
-      "ja": "\u30b5\u30f3\u30de\u30a4\u30ab\u30fb\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "fr": "Meule en mica doré",
+      "ja": "サンマイカ・グラインディングホイール"
     },
     "stars": 2
   },
@@ -6626,10 +6607,10 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
-      "de": "Luftschiff-Modell \u201eTatanora\u201c",
+      "de": "Luftschiff-Modell „Tatanora“",
       "en": "Tatanora Miniature",
-      "fr": "Figurine magitek d'un a\u00e9ronef de type Tatanora",
-      "ja": "MG\u30bf\u30bf\u30ce\u30e9\u7d1a\u98db\u7a7a\u8247"
+      "fr": "Figurine magitek d'un aéronef de type Tatanora",
+      "ja": "MGタタノラ級飛空艇"
     },
     "stars": 2
   },
@@ -6643,7 +6624,7 @@
       "de": "Aquarium L",
       "en": "Tier 3 Aquarium",
       "fr": "Aquarium de grande taille",
-      "ja": "\u30a2\u30af\u30a2\u30ea\u30a6\u30e0G3"
+      "ja": "アクアリウムG3"
     },
     "stars": 2
   },
@@ -6654,10 +6635,10 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
-      "de": "Luftschiff-Modell \u201eTiny Bronco\u201c",
+      "de": "Luftschiff-Modell „Tiny Bronco“",
       "en": "Tiny Bronco Miniature",
-      "fr": "Figurine magitek d'un a\u00e9ronef de type Bronco",
-      "ja": "MG\u30d6\u30ed\u30f3\u30b3\u7d1a\u98db\u7a7a\u8247"
+      "fr": "Figurine magitek d'un aéronef de type Bronco",
+      "ja": "MGブロンコ級飛空艇"
     },
     "stars": 2
   },
@@ -6668,10 +6649,10 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
-      "de": "Luxusb\u00fchne",
+      "de": "Luxusbühne",
       "en": "Troupe Stage",
       "fr": "Estrade de luxe",
-      "ja": "\u30c7\u30e9\u30c3\u30af\u30b9\u30b9\u30c6\u30fc\u30b8"
+      "ja": "デラックスステージ"
     },
     "stars": 2
   },
@@ -6682,10 +6663,10 @@
     "level": 170,
     "maxQuality": 4715,
     "name": {
-      "de": "Luftschiff-Modell \u201eViltgance\u201c",
+      "de": "Luftschiff-Modell „Viltgance“",
       "en": "Viltgance Miniature",
-      "fr": "Figurine magitek d'un a\u00e9ronef de type Viltgance",
-      "ja": "MG\u30f4\u30a3\u30eb\u30c8\u30ac\u30f3\u30b9\u7d1a\u98db\u7a7a\u8247"
+      "fr": "Figurine magitek d'un aéronef de type Viltgance",
+      "ja": "MGヴィルトガンス級飛空艇"
     },
     "stars": 2
   },
@@ -6699,7 +6680,7 @@
       "de": "Bogen der Runde",
       "en": "Bow of the Round",
       "fr": "Arc de la Table ronde",
-      "ja": "\u30dc\u30a6\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
+      "ja": "ボウ・オブ・ラウンド"
     },
     "stars": 3
   },
@@ -6713,7 +6694,7 @@
       "de": "Kampferholz-Armillae des Zielens",
       "en": "Camphorwood Armillae of Aiming",
       "fr": "Armilles de pisteur en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30ec\u30f3\u30b8\u30e3\u30fc\u30a2\u30eb\u30df\u30e9"
+      "ja": "カンファーレンジャーアルミラ"
     },
     "stars": 3
   },
@@ -6727,7 +6708,7 @@
       "de": "Kampferholz-Armillae der Magie",
       "en": "Camphorwood Armillae of Casting",
       "fr": "Armilles d'incantateur en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30ad\u30e3\u30b9\u30bf\u30fc\u30a2\u30eb\u30df\u30e9"
+      "ja": "カンファーキャスターアルミラ"
     },
     "stars": 3
   },
@@ -6741,7 +6722,7 @@
       "de": "Kampferholz-Armillae der Verteidigung",
       "en": "Camphorwood Armillae of Fending",
       "fr": "Armilles de protecteur en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30a2\u30eb\u30df\u30e9"
+      "ja": "カンファーディフェンダーアルミラ"
     },
     "stars": 3
   },
@@ -6755,7 +6736,7 @@
       "de": "Kampferholz-Armillae der Heilung",
       "en": "Camphorwood Armillae of Healing",
       "fr": "Armilles de soigneur en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30d2\u30fc\u30e9\u30fc\u30a2\u30eb\u30df\u30e9"
+      "ja": "カンファーヒーラーアルミラ"
     },
     "stars": 3
   },
@@ -6769,7 +6750,7 @@
       "de": "Kampferholz-Armillae des Schlachtens",
       "en": "Camphorwood Armillae of Slaying",
       "fr": "Armilles d'attaquant en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30a2\u30bf\u30c3\u30ab\u30fc\u30a2\u30eb\u30df\u30e9"
+      "ja": "カンファーアタッカーアルミラ"
     },
     "stars": 3
   },
@@ -6783,7 +6764,7 @@
       "de": "Kampferholz-Halsband des Zielens",
       "en": "Camphorwood Necklace of Aiming",
       "fr": "Collier de pisteur en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30ec\u30f3\u30b8\u30e3\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+      "ja": "カンファーレンジャーネックレス"
     },
     "stars": 3
   },
@@ -6797,7 +6778,7 @@
       "de": "Kampferholz-Halsband der Magie",
       "en": "Camphorwood Necklace of Casting",
       "fr": "Collier d'incantateur en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30ad\u30e3\u30b9\u30bf\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+      "ja": "カンファーキャスターネックレス"
     },
     "stars": 3
   },
@@ -6811,7 +6792,7 @@
       "de": "Kampferholz-Halsband der Verteidigung",
       "en": "Camphorwood Necklace of Fending",
       "fr": "Collier de protecteur en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+      "ja": "カンファーディフェンダーネックレス"
     },
     "stars": 3
   },
@@ -6825,7 +6806,7 @@
       "de": "Kampferholz-Halsband der Heilung",
       "en": "Camphorwood Necklace of Healing",
       "fr": "Collier de soigneur en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30d2\u30fc\u30e9\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+      "ja": "カンファーヒーラーネックレス"
     },
     "stars": 3
   },
@@ -6839,7 +6820,7 @@
       "de": "Kampferholz-Halsband des Schlachtens",
       "en": "Camphorwood Necklace of Slaying",
       "fr": "Collier d'attaquant en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30a2\u30bf\u30c3\u30ab\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+      "ja": "カンファーアタッカーネックレス"
     },
     "stars": 3
   },
@@ -6853,7 +6834,7 @@
       "de": "Kampferholz-Spinnrad",
       "en": "Camphorwood Spinning Wheel",
       "fr": "Rouet en camphrier",
-      "ja": "\u30ab\u30f3\u30d5\u30a1\u30fc\u30b9\u30d4\u30cb\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "カンファースピニングホイール"
     },
     "stars": 3
   },
@@ -6867,7 +6848,7 @@
       "de": "Stock der Runde",
       "en": "Cane of the Round",
       "fr": "Canne de la Table ronde",
-      "ja": "\u30b1\u30fc\u30f3\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
+      "ja": "ケーン・オブ・ラウンド"
     },
     "stars": 3
   },
@@ -6881,7 +6862,7 @@
       "de": "Ikoneneisen-Schleifrad",
       "en": "Eikon Iron Grinding Wheel",
       "fr": "Meule en fer primordial",
-      "ja": "\u30a4\u30b3\u30f3\u30a2\u30ed\u30a4\u30fb\u30b0\u30e9\u30a4\u30f3\u30c7\u30a3\u30f3\u30b0\u30db\u30a4\u30fc\u30eb"
+      "ja": "イコンアロイ・グラインディングホイール"
     },
     "stars": 3
   },
@@ -6895,7 +6876,7 @@
       "de": "Bilderrahmen L",
       "en": "Grade 3 Picture Frame",
       "fr": "Cadre de grande taille",
-      "ja": "\u30d4\u30af\u30c1\u30e3\u30fc\u30d5\u30ec\u30fc\u30e0G3"
+      "ja": "ピクチャーフレームG3"
     },
     "stars": 3
   },
@@ -6909,7 +6890,7 @@
       "de": "Hellebarde der Runde",
       "en": "Halberd of the Round",
       "fr": "Hallebarde de la Table ronde",
-      "ja": "\u30cf\u30eb\u30d0\u30fc\u30c9\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
+      "ja": "ハルバード・オブ・ラウンド"
     },
     "stars": 3
   },
@@ -6922,8 +6903,8 @@
     "name": {
       "de": "Garlond-Armillae des Handwerks",
       "en": "Ironworks Armillae of Crafting",
-      "fr": "Armilles des cr\u00e9ations des Forges",
-      "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30a2\u30eb\u30df\u30e9"
+      "fr": "Armilles des créations des Forges",
+      "ja": "ガーロンド・クラフターアルミラ"
     },
     "stars": 3
   },
@@ -6937,7 +6918,7 @@
       "de": "Garlond-Armillae des Eifers",
       "en": "Ironworks Armillae of Gathering",
       "fr": "Armilles des ressources des Forges",
-      "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30a2\u30eb\u30df\u30e9"
+      "ja": "ガーロンド・ギャザラーアルミラ"
     },
     "stars": 3
   },
@@ -6950,8 +6931,8 @@
     "name": {
       "de": "Garlond-Halsband des Handwerks",
       "en": "Ironworks Necklace of Crafting",
-      "fr": "Collier des cr\u00e9ations des Forges",
-      "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30af\u30e9\u30d5\u30bf\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+      "fr": "Collier des créations des Forges",
+      "ja": "ガーロンド・クラフターネックレス"
     },
     "stars": 3
   },
@@ -6965,7 +6946,7 @@
       "de": "Garlond-Halsband des Eifers",
       "en": "Ironworks Necklace of Gathering",
       "fr": "Collier des ressources des Forges",
-      "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u30fb\u30ae\u30e3\u30b6\u30e9\u30fc\u30cd\u30c3\u30af\u30ec\u30b9"
+      "ja": "ガーロンド・ギャザラーネックレス"
     },
     "stars": 3
   },
@@ -6979,7 +6960,7 @@
       "de": "Rittertafel",
       "en": "Knightly Round Table",
       "fr": "Table ronde des chevaliers de l'Azur",
-      "ja": "\u84bc\u5929\u9a0e\u58eb\u56e3\u306e\u5186\u5353"
+      "ja": "蒼天騎士団の円卓"
     },
     "stars": 3
   },
@@ -6992,8 +6973,8 @@
     "name": {
       "de": "Leuchtfaser-Angelrute",
       "en": "Luminous Fiber Fishing Rod",
-      "fr": "Canne \u00e0 p\u00eache en fibre lumineuse",
-      "ja": "\u30eb\u30df\u30ca\u30b9\u30d5\u30a1\u30a4\u30d0\u30fc\u30fb\u30d5\u30a3\u30c3\u30b7\u30f3\u30b0\u30ed\u30c3\u30c9"
+      "fr": "Canne à pêche en fibre lumineuse",
+      "ja": "ルミナスファイバー・フィッシングロッド"
     },
     "stars": 3
   },
@@ -7004,10 +6985,10 @@
     "level": 180,
     "maxQuality": 5186,
     "name": {
-      "de": "Fern\u00f6stliche Br\u00fccke",
+      "de": "Fernöstliche Brücke",
       "en": "Oriental Wood Bridge",
       "fr": "Pont de bois oriental",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30a6\u30c3\u30c9\u30d6\u30ea\u30c3\u30b8"
+      "ja": "オリエンタルウッドブリッジ"
     },
     "stars": 3
   },
@@ -7020,8 +7001,8 @@
     "name": {
       "de": "Behandeltes Kampferholz",
       "en": "Treated Camphorwood Lumber",
-      "fr": "Madrier de camphrier trait\u00e9",
-      "ja": "\u786c\u5316\u30ab\u30f3\u30d5\u30a1\u30fc\u6750"
+      "fr": "Madrier de camphrier traité",
+      "ja": "硬化カンファー材"
     },
     "stars": 3
   },
@@ -7034,8 +7015,8 @@
     "name": {
       "de": "Schwermetall-Lanze",
       "en": "Heavy Metal Lance",
-      "fr": "Lance en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30e9\u30f3\u30b9"
+      "fr": "Lance en alliage de tungstène",
+      "ja": "ヘヴィアロイランス"
     },
     "stars": 4
   },
@@ -7049,7 +7030,7 @@
       "de": "Teakholz-Armreife des Zielens",
       "en": "Teak Bracelet of Aiming",
       "fr": "Bracelet de pisteur en teck",
-      "ja": "\u30c1\u30fc\u30af\u30ec\u30f3\u30b8\u30e3\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+      "ja": "チークレンジャーブレスレット"
     },
     "stars": 4
   },
@@ -7063,7 +7044,7 @@
       "de": "Teakholz-Armreife der Magie",
       "en": "Teak Bracelet of Casting",
       "fr": "Bracelet d'incantateur en teck",
-      "ja": "\u30c1\u30fc\u30af\u30ad\u30e3\u30b9\u30bf\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+      "ja": "チークキャスターブレスレット"
     },
     "stars": 4
   },
@@ -7077,7 +7058,7 @@
       "de": "Teakholz-Armreife der Verteidigung",
       "en": "Teak Bracelet of Fending",
       "fr": "Bracelet de protecteur en teck",
-      "ja": "\u30c1\u30fc\u30af\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+      "ja": "チークディフェンダーブレスレット"
     },
     "stars": 4
   },
@@ -7091,7 +7072,7 @@
       "de": "Teakholz-Armreife der Heilung",
       "en": "Teak Bracelet of Healing",
       "fr": "Bracelet de soigneur en teck",
-      "ja": "\u30c1\u30fc\u30af\u30d2\u30fc\u30e9\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+      "ja": "チークヒーラーブレスレット"
     },
     "stars": 4
   },
@@ -7105,7 +7086,7 @@
       "de": "Teakholz-Armreife des Schlachtens",
       "en": "Teak Bracelet of Slaying",
       "fr": "Bracelet d'attaquant en teck",
-      "ja": "\u30c1\u30fc\u30af\u30a2\u30bf\u30c3\u30ab\u30fc\u30d6\u30ec\u30b9\u30ec\u30c3\u30c8"
+      "ja": "チークアタッカーブレスレット"
     },
     "stars": 4
   },
@@ -7119,7 +7100,7 @@
       "de": "Teakholz-Stock",
       "en": "Teak Cane",
       "fr": "Canne en teck",
-      "ja": "\u30c1\u30fc\u30af\u30b1\u30fc\u30f3"
+      "ja": "チークケーン"
     },
     "stars": 4
   },
@@ -7133,7 +7114,7 @@
       "de": "Teakholz-Halsberge des Zielens",
       "en": "Teak Choker of Aiming",
       "fr": "Ras de cou de pisteur en teck",
-      "ja": "\u30c1\u30fc\u30af\u30ec\u30f3\u30b8\u30e3\u30fc\u30c1\u30e7\u30fc\u30ab\u30fc"
+      "ja": "チークレンジャーチョーカー"
     },
     "stars": 4
   },
@@ -7147,7 +7128,7 @@
       "de": "Teakholz-Halsberge der Magie",
       "en": "Teak Choker of Casting",
       "fr": "Ras de cou d'incantateur en teck",
-      "ja": "\u30c1\u30fc\u30af\u30ad\u30e3\u30b9\u30bf\u30fc\u30c1\u30e7\u30fc\u30ab\u30fc"
+      "ja": "チークキャスターチョーカー"
     },
     "stars": 4
   },
@@ -7161,7 +7142,7 @@
       "de": "Teakholz-Halsberge der Verteidigung",
       "en": "Teak Choker of Fending",
       "fr": "Ras de cou de protecteur en teck",
-      "ja": "\u30c1\u30fc\u30af\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30c1\u30e7\u30fc\u30ab\u30fc"
+      "ja": "チークディフェンダーチョーカー"
     },
     "stars": 4
   },
@@ -7175,7 +7156,7 @@
       "de": "Teakholz-Halsberge der Heilung",
       "en": "Teak Choker of Healing",
       "fr": "Ras de cou de soigneur en teck",
-      "ja": "\u30c1\u30fc\u30af\u30d2\u30fc\u30e9\u30fc\u30c1\u30e7\u30fc\u30ab\u30fc"
+      "ja": "チークヒーラーチョーカー"
     },
     "stars": 4
   },
@@ -7189,7 +7170,7 @@
       "de": "Teakholz-Halsberge des Schlachtens",
       "en": "Teak Choker of Slaying",
       "fr": "Ras de cou d'attaquant en teck",
-      "ja": "\u30c1\u30fc\u30af\u30a2\u30bf\u30c3\u30ab\u30fc\u30c1\u30e7\u30fc\u30ab\u30fc"
+      "ja": "チークアタッカーチョーカー"
     },
     "stars": 4
   },
@@ -7203,7 +7184,7 @@
       "de": "Teakholz-Kompositbogen",
       "en": "Teak Composite Bow",
       "fr": "Arc composite en teck",
-      "ja": "\u30c1\u30fc\u30af\u30b3\u30f3\u30dd\u30b8\u30c3\u30c8\u30dc\u30a6"
+      "ja": "チークコンポジットボウ"
     },
     "stars": 4
   },
@@ -7217,7 +7198,7 @@
       "de": "Teakbaum-Bauholz",
       "en": "Teak Lumber",
       "fr": "Madrier de teck",
-      "ja": "\u30c1\u30fc\u30af\u6750"
+      "ja": "チーク材"
     },
     "stars": 4
   },
@@ -7230,8 +7211,8 @@
     "name": {
       "de": "Aquarium XL",
       "en": "Tier 4 Aquarium",
-      "fr": "Aquarium de tr\u00e8s grande taille",
-      "ja": "\u30a2\u30af\u30a2\u30ea\u30a6\u30e0G4"
+      "fr": "Aquarium de très grande taille",
+      "ja": "アクアリウムG4"
     },
     "stars": 4
   }

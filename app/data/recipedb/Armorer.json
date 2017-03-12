@@ -6,10 +6,10 @@
     "level": 1,
     "maxQuality": 312,
     "name": {
-      "de": "Ballonh\u00fcllen-Bauteil",
+      "de": "Ballonhüllen-Bauteil",
       "en": "Bladder Component",
       "fr": "Composant de ballon",
-      "ja": "\u6c17\u56a2\u90e8\u6750"
+      "ja": "気嚢部材"
     }
   },
   {
@@ -19,10 +19,10 @@
     "level": 1,
     "maxQuality": 234,
     "name": {
-      "de": "H\u00fcllenverst\u00e4rkungs-Bauteil",
+      "de": "Hüllenverstärkungs-Bauteil",
       "en": "Bladder Lining Component",
       "fr": "Composant de finition de ballon",
-      "ja": "\u6c17\u56a2\u88dc\u5f37\u6750"
+      "ja": "気嚢補強材"
     }
   },
   {
@@ -35,7 +35,7 @@
       "de": "Bronzebarren",
       "en": "Bronze Ingot",
       "fr": "Lingot de bronze",
-      "ja": "\u30d6\u30ed\u30f3\u30ba\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "ブロンズインゴット"
     }
   },
   {
@@ -48,7 +48,7 @@
       "de": "Kanzelinnenraum-Bauteil",
       "en": "Hull Interior Component",
       "fr": "Composant de coque",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u8239\u4f53\u90e8\u6750"
+      "ja": "エカトルの船体部材"
     }
   },
   {
@@ -61,7 +61,7 @@
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
       "fr": "Comp. de partie gauche de nacelle",
-      "ja": "\u5de6\u8237\u8239\u4f53\u90e8\u6750"
+      "ja": "左舷船体部材"
     }
   },
   {
@@ -74,7 +74,7 @@
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
       "fr": "Comp. de partie droite de nacelle",
-      "ja": "\u53f3\u8237\u8239\u4f53\u90e8\u6750"
+      "ja": "右舷船体部材"
     }
   },
   {
@@ -87,7 +87,7 @@
       "de": "Bronzedrahtringe",
       "en": "Bronze Rings",
       "fr": "Anneaux en bronze",
-      "ja": "\u30d6\u30ed\u30f3\u30ba\u30ea\u30f3\u30b0\u30ba"
+      "ja": "ブロンズリングズ"
     }
   },
   {
@@ -100,7 +100,7 @@
       "de": "Bronzenieten",
       "en": "Bronze Rivets",
       "fr": "Rivets en bronze",
-      "ja": "\u30d6\u30ed\u30f3\u30ba\u30ea\u30d9\u30c3\u30c8"
+      "ja": "ブロンズリベット"
     }
   },
   {
@@ -113,7 +113,7 @@
       "de": "Kupfer-Destillierkolben",
       "en": "Bronze Alembic",
       "fr": "Alambic",
-      "ja": "\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "アレンビック"
     }
   },
   {
@@ -126,7 +126,7 @@
       "de": "Bronzeplatte",
       "en": "Bronze Plate",
       "fr": "Plaque de bronze",
-      "ja": "\u30d6\u30ed\u30f3\u30ba\u30d7\u30ec\u30fc\u30c8"
+      "ja": "ブロンズプレート"
     }
   },
   {
@@ -138,8 +138,8 @@
     "name": {
       "de": "Werkzeug-Bauteil",
       "en": "Crafting Tool Component",
-      "fr": "N\u00e9cessaire de fabrication",
-      "ja": "\u52a0\u5de5\u9053\u5177"
+      "fr": "Nécessaire de fabrication",
+      "ja": "加工道具"
     }
   },
   {
@@ -152,7 +152,7 @@
       "de": "Deck-Bauteil",
       "en": "Deck Component",
       "fr": "Composant de pont",
-      "ja": "\u7532\u677f\u90e8\u6750"
+      "ja": "甲板部材"
     }
   },
   {
@@ -162,10 +162,10 @@
     "level": 3,
     "maxQuality": 339,
     "name": {
-      "de": "Motorgeh\u00e4use-Bauteil",
+      "de": "Motorgehäuse-Bauteil",
       "en": "Engine Casing Component",
       "fr": "Composant de protection de moteur",
-      "ja": "\u6a5f\u95a2\u5916\u88c5\u90e8\u6750"
+      "ja": "機関外装部材"
     }
   },
   {
@@ -177,8 +177,8 @@
     "name": {
       "de": "Gyroantriebs-Bauteil",
       "en": "Gyrodrive Component",
-      "fr": "Composant d'unit\u00e9 motrice",
-      "ja": "\u52d5\u529b\u8f2a\u90e8\u6750"
+      "fr": "Composant d'unité motrice",
+      "ja": "動力輪部材"
     }
   },
   {
@@ -191,7 +191,7 @@
       "de": "Erdseim-Motor-Bauteil",
       "en": "Propulsion Engine Component",
       "fr": "Composant de moteur",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u6750"
+      "ja": "エカトルの機関部材"
     }
   },
   {
@@ -204,7 +204,7 @@
       "de": "Takelagen-Bauteil",
       "en": "Rigging Component",
       "fr": "Composant d'attache",
-      "ja": "\u7d22\u5177\u90e8\u6750"
+      "ja": "索具部材"
     }
   },
   {
@@ -216,8 +216,8 @@
     "name": {
       "de": "Bronze-Kasserolle",
       "en": "Bronze Skillet",
-      "fr": "Po\u00eale",
-      "ja": "\u30b9\u30ad\u30ec\u30c3\u30c8"
+      "fr": "Poêle",
+      "ja": "スキレット"
     }
   },
   {
@@ -230,7 +230,7 @@
       "de": "Bronze-Aspis",
       "en": "Bronze Hoplon",
       "fr": "Hoplon",
-      "ja": "\u30db\u30d7\u30ed\u30f3"
+      "ja": "ホプロン"
     }
   },
   {
@@ -242,8 +242,8 @@
     "name": {
       "de": "Aerodynamo-Bauteil",
       "en": "Aerodynamo Component",
-      "fr": "Composant de nez profil\u00e9",
-      "ja": "\u7a7a\u529b\u90e8\u6750"
+      "fr": "Composant de nez profilé",
+      "ja": "空力部材"
     }
   },
   {
@@ -256,7 +256,7 @@
       "de": "Ballast-Bauteil",
       "en": "Ballast Component",
       "fr": "Composant de lest",
-      "ja": "\u30d0\u30e9\u30b9\u30c8\u90e8\u6750"
+      "ja": "バラスト部材"
     }
   },
   {
@@ -269,7 +269,7 @@
       "de": "Bronze-Hauberk",
       "en": "Bronze Haubergeon",
       "fr": "Haubergeon",
-      "ja": "\u30db\u30fc\u30d0\u30fc\u30b8\u30e7\u30f3"
+      "ja": "ホーバージョン"
     }
   },
   {
@@ -279,10 +279,10 @@
     "level": 6,
     "maxQuality": 474,
     "name": {
-      "de": "Kanzelau\u00dfenwand-Bauteil",
+      "de": "Kanzelaußenwand-Bauteil",
       "en": "Cockpit Exterior Component",
-      "fr": "Composant ext\u00e9rieur de cockpit",
-      "ja": "\u64cd\u7e26\u5e2d\u5916\u88c5\u6750"
+      "fr": "Composant extérieur de cockpit",
+      "ja": "操縦席外装材"
     }
   },
   {
@@ -294,8 +294,8 @@
     "name": {
       "de": "Kanzelinnenwand-Bauteil",
       "en": "Cockpit Interior Component",
-      "fr": "Composant int\u00e9rieur de cockpit",
-      "ja": "\u64cd\u7e26\u5e2d\u5185\u88c5\u6750"
+      "fr": "Composant intérieur de cockpit",
+      "ja": "操縦席内装材"
     }
   },
   {
@@ -308,7 +308,7 @@
       "de": "Motorverstrebungs-Bauteil",
       "en": "Engine Jointing Component",
       "fr": "Composant de jonction de moteur",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u63a5\u5408\u6750"
+      "ja": "エカトルの機関部接合材"
     }
   },
   {
@@ -321,7 +321,7 @@
       "de": "Steuerpult-Bauteil",
       "en": "Instrument Panel Component",
       "fr": "Composant d'instrumentation",
-      "ja": "\u8a08\u5668\u90e8\u6750"
+      "ja": "計器部材"
     }
   },
   {
@@ -334,7 +334,7 @@
       "de": "Bronze-Sollerets",
       "en": "Bronze Sollerets",
       "fr": "Solerets",
-      "ja": "\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "ソルレット"
     }
   },
   {
@@ -347,7 +347,7 @@
       "de": "Bronzekettenhaube",
       "en": "Bronze Chain Coif",
       "fr": "Coiffe en mailles",
-      "ja": "\u30c1\u30a7\u30fc\u30f3\u30b3\u30a4\u30d5"
+      "ja": "チェーンコイフ"
     }
   },
   {
@@ -360,7 +360,7 @@
       "de": "Bronzeschaller",
       "en": "Bronze Sallet",
       "fr": "Sallet",
-      "ja": "\u30b5\u30ec\u30c3\u30c8"
+      "ja": "サレット"
     }
   },
   {
@@ -373,7 +373,7 @@
       "de": "Laien-Destillierkolben",
       "en": "Amateur's Alembic",
       "fr": "Alambic d'amateur",
-      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "アマチュアアレンビック"
     }
   },
   {
@@ -383,10 +383,10 @@
     "level": 9,
     "maxQuality": 545,
     "name": {
-      "de": "Bronze-Panzerf\u00e4ustlinge",
+      "de": "Bronze-Panzerfäustlinge",
       "en": "Bronze Mitt Gauntlets",
       "fr": "Gantelets-mitons",
-      "ja": "\u30df\u30c8\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ミトンガントレット"
     }
   },
   {
@@ -399,7 +399,7 @@
       "de": "Kupfer-Barbuta",
       "en": "Bronze Barbut",
       "fr": "Barbute",
-      "ja": "\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+      "ja": "バルビュート"
     }
   },
   {
@@ -412,7 +412,7 @@
       "de": "Bronzeturmschild",
       "en": "Bronze Scutum",
       "fr": "Scutum",
-      "ja": "\u30b9\u30af\u30c8\u30a5\u30e0"
+      "ja": "スクトゥム"
     }
   },
   {
@@ -422,10 +422,10 @@
     "level": 10,
     "maxQuality": 314,
     "name": {
-      "de": "K\u00fchler-Bauteil",
+      "de": "Kühler-Bauteil",
       "en": "Heat Vent Component",
       "fr": "Composant de ventilation",
-      "ja": "\u6392\u71b1\u90e8\u6750"
+      "ja": "排熱部材"
     }
   },
   {
@@ -435,10 +435,10 @@
     "level": 10,
     "maxQuality": 629,
     "name": {
-      "de": "Backbordtragfl\u00e4chen-Bauteil",
+      "de": "Backbordtragflächen-Bauteil",
       "en": "Larboard Wing Component",
       "fr": "Composant d'aile gauche",
-      "ja": "\u5de6\u7ffc\u90e8\u6750"
+      "ja": "左翼部材"
     }
   },
   {
@@ -448,10 +448,10 @@
     "level": 10,
     "maxQuality": 471,
     "name": {
-      "de": "Backbord-Tragfl\u00e4chengelenk-Bauteil",
+      "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile gauche",
-      "ja": "\u5de6\u7ffc\u53ef\u52d5\u90e8\u6750"
+      "ja": "左翼可動部材"
     }
   },
   {
@@ -461,10 +461,10 @@
     "level": 10,
     "maxQuality": 629,
     "name": {
-      "de": "Steuerbordtragfl\u00e4chen-Bauteil",
+      "de": "Steuerbordtragflächen-Bauteil",
       "en": "Starboard Wing Component",
       "fr": "Composant d'aile droite",
-      "ja": "\u53f3\u7ffc\u90e8\u6750"
+      "ja": "右翼部材"
     }
   },
   {
@@ -474,10 +474,10 @@
     "level": 10,
     "maxQuality": 471,
     "name": {
-      "de": "Steuerbord-Tragfl\u00e4chengelenk-Bauteil",
+      "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile droite",
-      "ja": "\u53f3\u7ffc\u53ef\u52d5\u90e8\u6750"
+      "ja": "右翼可動部材"
     }
   },
   {
@@ -490,7 +490,7 @@
       "de": "Sprechanlagen-Bauteil",
       "en": "Transmission Component",
       "fr": "Composant de transmission",
-      "ja": "\u4f1d\u9054\u7cfb\u90e8\u6750"
+      "ja": "伝達系部材"
     }
   },
   {
@@ -502,8 +502,8 @@
     "name": {
       "de": "Laien-Kasserolle",
       "en": "Amateur's Skillet",
-      "fr": "Po\u00eale d'amateur",
-      "ja": "\u30a2\u30de\u30c1\u30e5\u30a2\u30b9\u30ad\u30ec\u30c3\u30c8"
+      "fr": "Poêle d'amateur",
+      "ja": "アマチュアスキレット"
     }
   },
   {
@@ -513,10 +513,10 @@
     "level": 11,
     "maxQuality": 665,
     "name": {
-      "de": "Bronze-Platteng\u00fcrtel",
+      "de": "Bronze-Plattengürtel",
       "en": "Bronze Plate Belt",
       "fr": "Ceinture de plaques",
-      "ja": "\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "プレートベルト"
     }
   },
   {
@@ -529,7 +529,7 @@
       "de": "Sturmhaube",
       "en": "Bronze Celata",
       "fr": "Celata",
-      "ja": "\u30c1\u30a7\u30e9\u30fc\u30bf"
+      "ja": "チェラータ"
     }
   },
   {
@@ -539,10 +539,10 @@
     "level": 12,
     "maxQuality": 702,
     "name": {
-      "de": "Bronzek\u00fcrass",
+      "de": "Bronzekürass",
       "en": "Bronze Cuirass",
       "fr": "Cuirasse",
-      "ja": "\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "キュイラス"
     }
   },
   {
@@ -552,10 +552,10 @@
     "level": 13,
     "maxQuality": 726,
     "name": {
-      "de": "Bronze-B\u00e4rlatschen",
+      "de": "Bronze-Bärlatschen",
       "en": "Bronze Sabatons",
       "fr": "Sabatons",
-      "ja": "\u30b5\u30d0\u30c8\u30f3"
+      "ja": "サバトン"
     }
   },
   {
@@ -568,7 +568,7 @@
       "de": "Eisenbarren",
       "en": "Iron Ingot",
       "fr": "Lingot de fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "アイアンインゴット"
     }
   },
   {
@@ -581,7 +581,7 @@
       "de": "Bronze-Panzerhandschuhe",
       "en": "Bronze Gauntlets",
       "fr": "Gantelets",
-      "ja": "\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ガントレット"
     }
   },
   {
@@ -594,7 +594,7 @@
       "de": "Eisenplatte",
       "en": "Iron Plate",
       "fr": "Plaque de fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30d7\u30ec\u30fc\u30c8"
+      "ja": "アイアンプレート"
     }
   },
   {
@@ -607,7 +607,7 @@
       "de": "Eisennieten",
       "en": "Iron Rivets",
       "fr": "Rivets en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30ea\u30d9\u30c3\u30c8"
+      "ja": "アイアンリベット"
     }
   },
   {
@@ -619,8 +619,8 @@
     "name": {
       "de": "Riviera-Tischlampe",
       "en": "Riviera Lantern",
-      "fr": "Lanterne nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30e9\u30f3\u30bf\u30f3"
+      "fr": "Lanterne noscéenne",
+      "ja": "ラノシアン・ランタン"
     }
   },
   {
@@ -633,7 +633,7 @@
       "de": "Messing-Destillierkolben",
       "en": "Brass Alembic",
       "fr": "Alambic en laiton",
-      "ja": "\u30d6\u30e9\u30b9\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "ブラスアレンビック"
     }
   },
   {
@@ -646,7 +646,7 @@
       "de": "Bronzefaustschild",
       "en": "Bronze Buckler",
       "fr": "Rondache",
-      "ja": "\u30d0\u30c3\u30af\u30e9\u30fc"
+      "ja": "バックラー"
     }
   },
   {
@@ -658,8 +658,8 @@
     "name": {
       "de": "Erdseim-Tank-Bauteil",
       "en": "Ceruleum Tank Component",
-      "fr": "Composant de r\u00e9servoir",
-      "ja": "\u9752\u71d0\u30bf\u30f3\u30af\u90e8\u6750"
+      "fr": "Composant de réservoir",
+      "ja": "青燐タンク部材"
     }
   },
   {
@@ -671,8 +671,8 @@
     "name": {
       "de": "Entsorgungssystem-Bauteil",
       "en": "Disposal Unit Component",
-      "fr": "Composant de syst\u00e8me d'\u00e9vacuation",
-      "ja": "\u7dca\u6025\u5ec3\u68c4\u90e8\u6750"
+      "fr": "Composant de système d'évacuation",
+      "ja": "緊急廃棄部材"
     }
   },
   {
@@ -684,8 +684,8 @@
     "name": {
       "de": "Schornstein-Bauteil",
       "en": "Exhaust Outlet Component",
-      "fr": "Composant d'\u00e9chappement",
-      "ja": "\u6392\u6c17\u7cfb\u90e8\u6750"
+      "fr": "Composant d'échappement",
+      "ja": "排気系部材"
     }
   },
   {
@@ -698,7 +698,7 @@
       "de": "Steuereinheits-Bauteil",
       "en": "Helm Component",
       "fr": "Composant de gouvernail",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u64cd\u8235\u88c5\u7f6e\u90e8\u6750"
+      "ja": "エカトルの操舵装置部材"
     }
   },
   {
@@ -711,7 +711,7 @@
       "de": "Eisen-Winkeleisen",
       "en": "Iron Joint Plate",
       "fr": "Patte en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30d5\u30a3\u30c3\u30c6\u30a3\u30f3\u30b0"
+      "ja": "アイアンフィッティング"
     }
   },
   {
@@ -724,7 +724,7 @@
       "de": "Eisendrahtringe",
       "en": "Iron Rings",
       "fr": "Anneaux en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30ea\u30f3\u30b0\u30ba"
+      "ja": "アイアンリングズ"
     }
   },
   {
@@ -736,8 +736,8 @@
     "name": {
       "de": "Eisen-Kasserolle",
       "en": "Iron Skillet",
-      "fr": "Po\u00eale en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b9\u30ad\u30ec\u30c3\u30c8"
+      "fr": "Poêle en fer",
+      "ja": "アイアンスキレット"
     }
   },
   {
@@ -749,8 +749,8 @@
     "name": {
       "de": "Beleuchtungs-Bauteil",
       "en": "Lamp Component",
-      "fr": "Composant d'\u00e9clairage",
-      "ja": "\u30e9\u30f3\u30d7\u90e8\u6750"
+      "fr": "Composant d'éclairage",
+      "ja": "ランプ部材"
     }
   },
   {
@@ -763,7 +763,7 @@
       "de": "Kommunikationsrohr-Bauteil",
       "en": "Speaking Tube Component",
       "fr": "Composant de tuyau acoustique",
-      "ja": "\u4f1d\u58f0\u7cfb\u90e8\u6750"
+      "ja": "伝声系部材"
     }
   },
   {
@@ -776,7 +776,7 @@
       "de": "Steuermechanismus-Bauteil",
       "en": "Steering Mechanism Component",
       "fr": "Composant de module de pilotage",
-      "ja": "\u64cd\u7e26\u6a5f\u5177\u90e8\u6750"
+      "ja": "操縦機具部材"
     }
   },
   {
@@ -789,7 +789,7 @@
       "de": "Aerodynamik-Verbesserer-Bauteil",
       "en": "Auxiliary Aerodynamo Component",
       "fr": "Composant d'aileron",
-      "ja": "\u88dc\u52a9\u7a7a\u529b\u90e8\u6750"
+      "ja": "補助空力部材"
     }
   },
   {
@@ -802,7 +802,7 @@
       "de": "Messingbank",
       "en": "Brass Bench",
       "fr": "Banc en laiton",
-      "ja": "\u30d6\u30e9\u30b9\u30ac\u30fc\u30c7\u30f3\u30d9\u30f3\u30c1"
+      "ja": "ブラスガーデンベンチ"
     }
   },
   {
@@ -814,8 +814,8 @@
     "name": {
       "de": "Prunkvolle Kupfer-Barbuta",
       "en": "Decorated Bronze Barbut",
-      "fr": "Barbute orn\u00e9e",
-      "ja": "\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8DX"
+      "fr": "Barbute ornée",
+      "ja": "バルビュートDX"
     }
   },
   {
@@ -825,10 +825,10 @@
     "level": 16,
     "maxQuality": 649,
     "name": {
-      "de": "Verst\u00e4rkte Bronze-Panzerf\u00e4ustlinge",
+      "de": "Verstärkte Bronze-Panzerfäustlinge",
       "en": "Decorated Bronze Mitt Gauntlets",
-      "fr": "Gantelets-mitons renforc\u00e9s",
-      "ja": "\u30df\u30c8\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8DX"
+      "fr": "Gantelets-mitons renforcés",
+      "ja": "ミトンガントレットDX"
     }
   },
   {
@@ -841,7 +841,7 @@
       "de": "Zierplatten-Bauteil",
       "en": "Decorative Plating Component",
       "fr": "Composant d'ornementation",
-      "ja": "\u88c5\u98fe\u90e8\u6750"
+      "ja": "装飾部材"
     }
   },
   {
@@ -853,8 +853,8 @@
     "name": {
       "de": "Rettungsboots-Bauteil",
       "en": "Escape Flyer Component",
-      "fr": "Composant de syst\u00e8me d'\u00e9jection",
-      "ja": "\u7dca\u6025\u8131\u51fa\u7528\u5177"
+      "fr": "Composant de système d'éjection",
+      "ja": "緊急脱出用具"
     }
   },
   {
@@ -867,7 +867,7 @@
       "de": "Hyperleiter-Bauteil",
       "en": "Hyperconductor Component",
       "fr": "Composant d'hyperconducteur",
-      "ja": "\u9ad8\u4f1d\u5c0e\u7387\u90e8\u6750"
+      "ja": "高伝導率部材"
     }
   },
   {
@@ -879,8 +879,8 @@
     "name": {
       "de": "Isolations-Bauteil",
       "en": "Isolator Component",
-      "fr": "Composant de syst\u00e8me antivibration",
-      "ja": "\u514d\u9707\u90e8\u6750"
+      "fr": "Composant de système antivibration",
+      "ja": "免震部材"
     }
   },
   {
@@ -892,8 +892,8 @@
     "name": {
       "de": "Gewichtsreduktions-Bauteil",
       "en": "Refabrication Component",
-      "fr": "Composant d'all\u00e9gement",
-      "ja": "\u8efd\u91cf\u5316\u90e8\u6750"
+      "fr": "Composant d'allégement",
+      "ja": "軽量化部材"
     }
   },
   {
@@ -905,8 +905,8 @@
     "name": {
       "de": "Reservetank-Bauteil",
       "en": "Spare Tank Component",
-      "fr": "Composant de r\u00e9servoir de secours",
-      "ja": "\u4e88\u5099\u30bf\u30f3\u30af\u90e8\u6750"
+      "fr": "Composant de réservoir de secours",
+      "ja": "予備タンク部材"
     }
   },
   {
@@ -919,7 +919,7 @@
       "de": "Eisen-Aspis",
       "en": "Iron Hoplon",
       "fr": "Hoplon en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30db\u30d7\u30ed\u30f3"
+      "ja": "アイアンホプロン"
     }
   },
   {
@@ -932,7 +932,7 @@
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
       "fr": "Aile d'Ehcatl",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u7fbd\u6839\u98fe\u308a"
+      "ja": "エカトルの羽根飾り"
     }
   },
   {
@@ -942,10 +942,10 @@
     "level": 18,
     "maxQuality": 1690,
     "name": {
-      "de": "Endst\u00fcck-Bauteil",
+      "de": "Endstück-Bauteil",
       "en": "Finishing Component",
       "fr": "Composant final",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u91cd\u8981\u90e8\u6750"
+      "ja": "エカトルの重要部材"
     }
   },
   {
@@ -955,10 +955,10 @@
     "level": 18,
     "maxQuality": 939,
     "name": {
-      "de": "Anf\u00e4nger-Destillierkolben",
+      "de": "Anfänger-Destillierkolben",
       "en": "Initiate's Alembic",
-      "fr": "Alambic d'initi\u00e9",
-      "ja": "\u30a4\u30cb\u30b7\u30a8\u30fc\u30c8\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "fr": "Alambic d'initié",
+      "ja": "イニシエートアレンビック"
     }
   },
   {
@@ -968,10 +968,10 @@
     "level": 18,
     "maxQuality": 939,
     "name": {
-      "de": "Anf\u00e4nger-Kasserolle",
+      "de": "Anfänger-Kasserolle",
       "en": "Initiate's Skillet",
-      "fr": "Po\u00eale d'initi\u00e9",
-      "ja": "\u30a4\u30cb\u30b7\u30a8\u30fc\u30c8\u30b9\u30ad\u30ec\u30c3\u30c8"
+      "fr": "Poêle d'initié",
+      "ja": "イニシエートスキレット"
     }
   },
   {
@@ -981,10 +981,10 @@
     "level": 19,
     "maxQuality": 982,
     "name": {
-      "de": "Eisen-Platteng\u00fcrtel",
+      "de": "Eisen-Plattengürtel",
       "en": "Iron Plate Belt",
       "fr": "Ceinture de plaques en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "アイアンプレートベルト"
     }
   },
   {
@@ -994,10 +994,10 @@
     "level": 19,
     "maxQuality": 982,
     "name": {
-      "de": "Eisen-B\u00e4rlatschen",
+      "de": "Eisen-Bärlatschen",
       "en": "Iron Sabatons",
       "fr": "Sabatons en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b5\u30d0\u30c8\u30f3"
+      "ja": "アイアンサバトン"
     }
   },
   {
@@ -1010,7 +1010,7 @@
       "de": "Eisenschaller",
       "en": "Iron Sallet",
       "fr": "Sallet en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b5\u30ec\u30c3\u30c8"
+      "ja": "アイアンサレット"
     }
   },
   {
@@ -1022,8 +1022,8 @@
     "name": {
       "de": "Riviera-Wappenplakette",
       "en": "Riviera Placard",
-      "fr": "Enseigne murale nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30b5\u30a4\u30f3\u30dc\u30fc\u30c9"
+      "fr": "Enseigne murale noscéenne",
+      "ja": "ラノシアン・サインボード"
     }
   },
   {
@@ -1036,7 +1036,7 @@
       "de": "Eisensturmhaube",
       "en": "Iron Celata",
       "fr": "Celata en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30c1\u30a7\u30e9\u30fc\u30bf"
+      "ja": "アイアンチェラータ"
     }
   },
   {
@@ -1046,10 +1046,10 @@
     "level": 20,
     "maxQuality": 1053,
     "name": {
-      "de": "Eisenk\u00fcrass",
+      "de": "Eisenkürass",
       "en": "Iron Cuirass",
       "fr": "Cuirasse en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "アイアンキュイラス"
     }
   },
   {
@@ -1062,7 +1062,7 @@
       "de": "Eisen-Panzerhandschuhe",
       "en": "Iron Gauntlets",
       "fr": "Gantelets en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "アイアンガントレット"
     }
   },
   {
@@ -1072,10 +1072,10 @@
     "level": 20,
     "maxQuality": 789,
     "name": {
-      "de": "Verst\u00e4rkter Bronzefaustschild",
+      "de": "Verstärkter Bronzefaustschild",
       "en": "Ironclad Bronze Buckler",
-      "fr": "Rondache rev\u00eatue de fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30af\u30e9\u30c3\u30c9\u30d0\u30c3\u30af\u30e9\u30fc"
+      "fr": "Rondache revêtue de fer",
+      "ja": "アイアンクラッドバックラー"
     }
   },
   {
@@ -1087,8 +1087,8 @@
     "name": {
       "de": "Oasen-Esstisch",
       "en": "Oasis Dining Table",
-      "fr": "Table \u00e0 manger thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30c0\u30a4\u30cb\u30f3\u30b0\u30c6\u30fc\u30d6\u30eb"
+      "fr": "Table à manger thanalanaise",
+      "ja": "ザナラーン・ダイニングテーブル"
     }
   },
   {
@@ -1101,7 +1101,7 @@
       "de": "Laternenschild",
       "en": "Iron Lantern Shield",
       "fr": "Bouclier lanterne",
-      "ja": "\u30e9\u30f3\u30bf\u30f3\u30b7\u30fc\u30eb\u30c9"
+      "ja": "ランタンシールド"
     }
   },
   {
@@ -1114,7 +1114,7 @@
       "de": "Eisen-Unterarmschienen",
       "en": "Iron Vambraces",
       "fr": "Canons d'avant-bras en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "ja": "アイアンヴァンブレイス"
     }
   },
   {
@@ -1127,7 +1127,7 @@
       "de": "Elmo-Eisenhelm",
       "en": "Iron Elmo",
       "fr": "Elmo en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30a8\u30eb\u30e2"
+      "ja": "アイアンエルモ"
     }
   },
   {
@@ -1139,8 +1139,8 @@
     "name": {
       "de": "Eisenkappen-Kampfstiefel",
       "en": "Iron-plated Jackboots",
-      "fr": "Bottes militaires rev\u00eatues de fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30af\u30e9\u30c3\u30c9\u30d6\u30fc\u30c4"
+      "fr": "Bottes militaires revêtues de fer",
+      "ja": "アイアンクラッドブーツ"
     }
   },
   {
@@ -1153,7 +1153,7 @@
       "de": "Oasen-Deckenleuchte",
       "en": "Oasis Pendant Lamp",
       "fr": "Suspension thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30da\u30f3\u30c0\u30f3\u30c8\u30e9\u30f3\u30d7"
+      "ja": "ザナラーン・ペンダントランプ"
     }
   },
   {
@@ -1166,7 +1166,7 @@
       "de": "Eisen-Destillierkolben",
       "en": "Iron Alembic",
       "fr": "Alambic en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "アイアンアレンビック"
     }
   },
   {
@@ -1178,8 +1178,8 @@
     "name": {
       "de": "Eisenbratpfanne",
       "en": "Iron Frypan",
-      "fr": "Po\u00eale \u00e0 frire",
-      "ja": "\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "fr": "Poêle à frire",
+      "ja": "フライパン"
     }
   },
   {
@@ -1191,8 +1191,8 @@
     "name": {
       "de": "Eisenschuppen-Fingerhandschuhe",
       "en": "Iron Scale Fingers",
-      "fr": "Garde-doigts d'\u00e9cailles en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b9\u30b1\u30a4\u30eb\u30d5\u30a3\u30f3\u30ac\u30fc"
+      "fr": "Garde-doigts d'écailles en fer",
+      "ja": "アイアンスケイルフィンガー"
     }
   },
   {
@@ -1204,8 +1204,8 @@
     "name": {
       "de": "Eisenschuppen-Beinschienen",
       "en": "Iron Scale Greaves",
-      "fr": "Jambards d'\u00e9cailles en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b9\u30b1\u30a4\u30eb\u30b0\u30ea\u30fc\u30f4"
+      "fr": "Jambards d'écailles en fer",
+      "ja": "アイアンスケイルグリーヴ"
     }
   },
   {
@@ -1217,8 +1217,8 @@
     "name": {
       "de": "Eisen-Schuppenpanzer",
       "en": "Iron Scale Mail",
-      "fr": "Armure d'\u00e9cailles en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b9\u30b1\u30a4\u30eb\u30e1\u30a4\u30eb"
+      "fr": "Armure d'écailles en fer",
+      "ja": "アイアンスケイルメイル"
     }
   },
   {
@@ -1231,7 +1231,7 @@
       "de": "Eisenturmschild",
       "en": "Iron Scutum",
       "fr": "Scutum en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b9\u30af\u30c8\u30a5\u30e0"
+      "ja": "アイアンスクトゥム"
     }
   },
   {
@@ -1241,10 +1241,10 @@
     "level": 24,
     "maxQuality": 1239,
     "name": {
-      "de": "Verst\u00e4rkter Eisen-Platteng\u00fcrtel",
+      "de": "Verstärkter Eisen-Plattengürtel",
       "en": "Reinforced Iron Plate Belt",
-      "fr": "Ceinture de plaques en fer renforc\u00e9e",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8DX"
+      "fr": "Ceinture de plaques en fer renforcée",
+      "ja": "アイアンプレートベルトDX"
     }
   },
   {
@@ -1254,10 +1254,10 @@
     "level": 24,
     "maxQuality": 929,
     "name": {
-      "de": "Verst\u00e4rkter Eisenschaller",
+      "de": "Verstärkter Eisenschaller",
       "en": "Reinforced Iron Sallet",
-      "fr": "Sallet en fer renforc\u00e9",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b5\u30ec\u30c3\u30c8DX"
+      "fr": "Sallet en fer renforcé",
+      "ja": "アイアンサレットDX"
     }
   },
   {
@@ -1269,8 +1269,8 @@
     "name": {
       "de": "Wald-Esstisch",
       "en": "Glade Dining Table",
-      "fr": "Table \u00e0 manger sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30c0\u30a4\u30cb\u30f3\u30b0\u30c6\u30fc\u30d6\u30eb"
+      "fr": "Table à manger sombrelinçoise",
+      "ja": "シュラウド・ダイニングテーブル"
     }
   },
   {
@@ -1282,8 +1282,8 @@
     "name": {
       "de": "Wald-Wappenplakette",
       "en": "Glade Placard",
-      "fr": "Enseigne murale sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30b5\u30a4\u30f3\u30dc\u30fc\u30c9"
+      "fr": "Enseigne murale sombrelinçoise",
+      "ja": "シュラウド・サインボード"
     }
   },
   {
@@ -1293,10 +1293,10 @@
     "level": 25,
     "maxQuality": 1296,
     "name": {
-      "de": "Schwere Eisenr\u00fcstung",
+      "de": "Schwere Eisenrüstung",
       "en": "Heavy Iron Armor",
       "fr": "Armure lourde en fer",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30a4\u30a2\u30f3\u30a2\u30fc\u30de\u30fc"
+      "ja": "ヘヴィアイアンアーマー"
     }
   },
   {
@@ -1306,10 +1306,10 @@
     "level": 25,
     "maxQuality": 1296,
     "name": {
-      "de": "Schwerer Eisen-Flankensch\u00fctzer",
+      "de": "Schwerer Eisen-Flankenschützer",
       "en": "Heavy Iron Flanchard",
-      "fr": "Cuissi\u00e8res lourdes en fer",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30a4\u30a2\u30f3\u30d5\u30e9\u30f3\u30c1\u30e3\u30fc\u30c9"
+      "fr": "Cuissières lourdes en fer",
+      "ja": "ヘヴィアイアンフランチャード"
     }
   },
   {
@@ -1322,7 +1322,7 @@
       "de": "Schwere Eisen-Panzerhandschuhe",
       "en": "Heavy Iron Gauntlets",
       "fr": "Gantelets lourds en fer",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30a4\u30a2\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ヘヴィアイアンガントレット"
     }
   },
   {
@@ -1335,7 +1335,7 @@
       "de": "Konischer Destillierkolben",
       "en": "Conical Alembic",
       "fr": "Alambic conique",
-      "ja": "\u30b3\u30cb\u30ab\u30eb\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "コニカルアレンビック"
     }
   },
   {
@@ -1347,8 +1347,8 @@
     "name": {
       "de": "Stahl-Scharnier",
       "en": "Steel Hinge",
-      "fr": "Charni\u00e8re en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30d2\u30f3\u30b8"
+      "fr": "Charnière en acier",
+      "ja": "スチールヒンジ"
     }
   },
   {
@@ -1361,7 +1361,7 @@
       "de": "Stahlbarren",
       "en": "Steel Ingot",
       "fr": "Lingot d'acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "スチールインゴット"
     }
   },
   {
@@ -1373,8 +1373,8 @@
     "name": {
       "de": "Bomber-Bratpfanne",
       "en": "Bomb Frypan",
-      "fr": "Po\u00eale \u00e0 frire bombo",
-      "ja": "\u30dc\u30e0\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "fr": "Poêle à frire bombo",
+      "ja": "ボムフライパン"
     }
   },
   {
@@ -1387,7 +1387,7 @@
       "de": "Oasen-Prachtdeckenleuchte",
       "en": "Deluxe Oasis Pendant Lamp",
       "fr": "Plafonnier thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30c7\u30e9\u30c3\u30af\u30b9\u30da\u30f3\u30c0\u30f3\u30c8\u30e9\u30f3\u30d7"
+      "ja": "ザナラーン・デラックスペンダントランプ"
     }
   },
   {
@@ -1399,8 +1399,8 @@
     "name": {
       "de": "Eisen-Drachenschild",
       "en": "Iron Kite Shield",
-      "fr": "\u00c9cu mandorle en fer",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30ab\u30a4\u30c8\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Écu mandorle en fer",
+      "ja": "アイアンカイトシールド"
     }
   },
   {
@@ -1413,7 +1413,7 @@
       "de": "Stahl-Winkeleisen",
       "en": "Steel Joint Plate",
       "fr": "Patte en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30d5\u30a3\u30c3\u30c6\u30a3\u30f3\u30b0"
+      "ja": "スチールフィッティング"
     }
   },
   {
@@ -1426,7 +1426,7 @@
       "de": "Stahlplatte",
       "en": "Steel Plate",
       "fr": "Plaque d'acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30d7\u30ec\u30fc\u30c8"
+      "ja": "スチールプレート"
     }
   },
   {
@@ -1439,7 +1439,7 @@
       "de": "Stahlnieten",
       "en": "Steel Rivets",
       "fr": "Rivets en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30ea\u30d9\u30c3\u30c8"
+      "ja": "スチールリベット"
     }
   },
   {
@@ -1449,10 +1449,10 @@
     "level": 28,
     "maxQuality": 1498,
     "name": {
-      "de": "Stahlkettenr\u00fcstung",
+      "de": "Stahlkettenrüstung",
       "en": "Steel Chainmail",
       "fr": "Cotte de mailles en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30c1\u30a7\u30fc\u30f3\u30e1\u30a4\u30eb"
+      "ja": "スチールチェーンメイル"
     }
   },
   {
@@ -1465,7 +1465,7 @@
       "de": "Stahldrahtringe",
       "en": "Steel Rings",
       "fr": "Anneaux en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30ea\u30f3\u30b0\u30ba"
+      "ja": "スチールリングズ"
     }
   },
   {
@@ -1478,7 +1478,7 @@
       "de": "Stahl-Bauchreifen",
       "en": "Steel Tassets",
       "fr": "Tassette en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30bf\u30bb\u30c3\u30c8"
+      "ja": "スチールタセット"
     }
   },
   {
@@ -1491,7 +1491,7 @@
       "de": "Eisenboden",
       "en": "Iron Plate Flooring",
       "fr": "Carrelage en plaques d'acier",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30d7\u30ec\u30fc\u30c8\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+      "ja": "アイアンプレートフローリング"
     }
   },
   {
@@ -1503,8 +1503,8 @@
     "name": {
       "de": "Herrenhaus-Studiertisch",
       "en": "Manor Desk",
-      "fr": "\u00c9critoire du Manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u66f8\u658e\u673a"
+      "fr": "Écritoire du Manoir",
+      "ja": "御用邸の書斎机"
     }
   },
   {
@@ -1516,8 +1516,8 @@
     "name": {
       "de": "Oasen-Rundbogenpforte",
       "en": "Oasis Arched Door",
-      "fr": "Porte arqu\u00e9e thanalanaise",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30a2\u30fc\u30c1\u30c9\u30a2"
+      "fr": "Porte arquée thanalanaise",
+      "ja": "ザナラーン・アーチドア"
     }
   },
   {
@@ -1530,7 +1530,7 @@
       "de": "Stahl-Destillierkolben",
       "en": "Steel Alembic",
       "fr": "Alambic en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "スチールアレンビック"
     }
   },
   {
@@ -1543,7 +1543,7 @@
       "de": "Stahlschaller",
       "en": "Steel Sallet",
       "fr": "Sallet en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30b5\u30ec\u30c3\u30c8"
+      "ja": "スチールサレット"
     }
   },
   {
@@ -1555,8 +1555,8 @@
     "name": {
       "de": "Stahl-Kasserolle",
       "en": "Steel Skillet",
-      "fr": "Po\u00eale en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30b9\u30ad\u30ec\u30c3\u30c8"
+      "fr": "Poêle en acier",
+      "ja": "スチールスキレット"
     }
   },
   {
@@ -1569,7 +1569,7 @@
       "de": "Tiefblauer Farbstoff",
       "en": "Abyssal Blue Dye",
       "fr": "Teinture bleu marine",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a2\u30d3\u30b5\u30eb\u30d6\u30eb\u30fc"
+      "ja": "カララント:アビサルブルー"
     }
   },
   {
@@ -1582,7 +1582,7 @@
       "de": "Gusseiserner Kochtopf",
       "en": "Cast-iron Cookpot",
       "fr": "Marmite suspendue",
-      "ja": "\u30af\u30c3\u30ad\u30f3\u30b0\u30dd\u30c3\u30c8"
+      "ja": "クッキングポット"
     }
   },
   {
@@ -1592,10 +1592,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Jadegr\u00fcner Farbstoff",
+      "de": "Jadegrüner Farbstoff",
       "en": "Celeste Green Dye",
-      "fr": "Teinture vert c\u00e9leste",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3"
+      "fr": "Teinture vert céleste",
+      "ja": "カララント:セレストグリーン"
     }
   },
   {
@@ -1608,7 +1608,7 @@
       "de": "Kolibrirosa Farbstoff",
       "en": "Colibri Pink Dye",
       "fr": "Teinture mauve colibri",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30ea\u30d6\u30ea\u30d4\u30f3\u30af"
+      "ja": "カララント:コリブリピンク"
     }
   },
   {
@@ -1621,7 +1621,7 @@
       "de": "Dalamudroter Farbstoff",
       "en": "Dalamud Red Dye",
       "fr": "Teinture rouge Dalamud",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c0\u30e9\u30ac\u30d6\u30ec\u30c3\u30c9"
+      "ja": "カララント:ダラガブレッド"
     }
   },
   {
@@ -1631,10 +1631,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Waldgr\u00fcner Farbstoff",
+      "de": "Waldgrüner Farbstoff",
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c7\u30a3\u30fc\u30d7\u30a6\u30c3\u30c9\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:ディープウッドグリーン"
     }
   },
   {
@@ -1647,7 +1647,7 @@
       "de": "Plattner-Projektionsprisma",
       "en": "Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage (armurerie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0:\u30e1\u30bf\u30eb\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズム:メタルワーク"
     }
   },
   {
@@ -1660,7 +1660,7 @@
       "de": "Plattner-Projektionsprisma II",
       "en": "Grade 2 Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage II (armurerie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G2:\u30e1\u30bf\u30eb\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズムG2:メタルワーク"
     }
   },
   {
@@ -1673,7 +1673,7 @@
       "de": "Plattner-Projektionsprisma III",
       "en": "Grade 3 Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage III (armurerie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G3:\u30e1\u30bf\u30eb\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズムG3:メタルワーク"
     }
   },
   {
@@ -1686,7 +1686,7 @@
       "de": "Plattner-Projektionsprisma IV",
       "en": "Grade 4 Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage IV (armurerie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G4:\u30e1\u30bf\u30eb\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズムG4:メタルワーク"
     }
   },
   {
@@ -1699,7 +1699,7 @@
       "de": "Plattner-Projektionsprisma V",
       "en": "Grade 5 Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage V (armurerie)",
-      "ja": "\u30df\u30e9\u30fc\u30b8\u30e5\u30d7\u30ea\u30ba\u30e0G5:\u30e1\u30bf\u30eb\u30ef\u30fc\u30af"
+      "ja": "ミラージュプリズムG5:メタルワーク"
     }
   },
   {
@@ -1712,7 +1712,7 @@
       "de": "Honiggelber Farbstoff",
       "en": "Honey Yellow Dye",
       "fr": "Teinture jaune miel",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30cb\u30fc\u30a4\u30a8\u30ed\u30fc"
+      "ja": "カララント:ハニーイエロー"
     }
   },
   {
@@ -1722,10 +1722,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "J\u00e4gergr\u00fcner Farbstoff",
+      "de": "Jägergrüner Farbstoff",
       "en": "Hunter Green Dye",
       "fr": "Teinture vert chasseur",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30f3\u30bf\u30fc\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:ハンターグリーン"
     }
   },
   {
@@ -1738,7 +1738,7 @@
       "de": "Koboldbrauner Farbstoff",
       "en": "Kobold Brown Dye",
       "fr": "Teinture brun kobold",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30dc\u30eb\u30c9\u30d6\u30e9\u30a6\u30f3"
+      "ja": "カララント:コボルドブラウン"
     }
   },
   {
@@ -1751,7 +1751,7 @@
       "de": "Lehmbrauner Farbstoff",
       "en": "Loam Brown Dye",
       "fr": "Teinture brun argile",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30e0\u30d6\u30e9\u30a6\u30f3"
+      "ja": "カララント:ロームブラウン"
     }
   },
   {
@@ -1764,7 +1764,7 @@
       "de": "Lotusrosa Farbstoff",
       "en": "Lotus Pink Dye",
       "fr": "Teinture mauve lotus",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30bf\u30b9\u30d4\u30f3\u30af"
+      "ja": "カララント:ロータスピンク"
     }
   },
   {
@@ -1776,8 +1776,8 @@
     "name": {
       "de": "Maisgelber Farbstoff",
       "en": "Millioncorn Yellow Dye",
-      "fr": "Teinture jaune milli-ma\u00efs",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30df\u30ea\u30aa\u30f3\u30b3\u30fc\u30f3\u30a4\u30a8\u30ed\u30fc"
+      "fr": "Teinture jaune milli-maïs",
+      "ja": "カララント:ミリオンコーンイエロー"
     }
   },
   {
@@ -1787,10 +1787,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Morbolgr\u00fcner Farbstoff",
+      "de": "Morbolgrüner Farbstoff",
       "en": "Morbol Green Dye",
       "fr": "Teinture vert morbol",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30e2\u30eb\u30dc\u30eb\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:モルボルグリーン"
     }
   },
   {
@@ -1800,10 +1800,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Ochugr\u00fcner Farbstoff",
+      "de": "Ochugrüner Farbstoff",
       "en": "Ochu Green Dye",
       "fr": "Teinture vert otyugh",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30c1\u30e5\u30fc\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:オチューグリーン"
     }
   },
   {
@@ -1816,7 +1816,7 @@
       "de": "Othardblauer Farbstoff",
       "en": "Othard Blue Dye",
       "fr": "Teinture bleu d'Othard",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30b5\u30fc\u30c9\u30d6\u30eb\u30fc"
+      "ja": "カララント:オサードブルー"
     }
   },
   {
@@ -1829,7 +1829,7 @@
       "de": "Pflaumenvioletter Farbstoff",
       "en": "Plum Purple Dye",
       "fr": "Teinture prune",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d7\u30e9\u30e0\u30d1\u30fc\u30d7\u30eb"
+      "ja": "カララント:プラムパープル"
     }
   },
   {
@@ -1839,10 +1839,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00fcrbisoranger Farbstoff",
+      "de": "Kürbisoranger Farbstoff",
       "en": "Pumpkin Orange Dye",
       "fr": "Teinture orange citrouille",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d1\u30f3\u30d7\u30ad\u30f3\u30aa\u30ec\u30f3\u30b8"
+      "ja": "カララント:パンプキンオレンジ"
     }
   },
   {
@@ -1852,10 +1852,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00f6nigsvioletter Farbstoff",
+      "de": "Königsvioletter Farbstoff",
       "en": "Regal Purple Dye",
       "fr": "Teinture byzantium",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ea\u30fc\u30ac\u30eb\u30d1\u30fc\u30d7\u30eb"
+      "ja": "カララント:リーガルパープル"
     }
   },
   {
@@ -1865,10 +1865,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00f6nigsblauer Farbstoff",
+      "de": "Königsblauer Farbstoff",
       "en": "Royal Blue Dye",
       "fr": "Teinture bleu royal",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30a4\u30e4\u30eb\u30d6\u30eb\u30fc"
+      "ja": "カララント:ロイヤルブルー"
     }
   },
   {
@@ -1878,10 +1878,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Schneewei\u00dfer Farbstoff",
+      "de": "Schneeweißer Farbstoff",
       "en": "Snow White Dye",
       "fr": "Teinture blanc neige",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30ce\u30a6\u30db\u30ef\u30a4\u30c8"
+      "ja": "カララント:スノウホワイト"
     }
   },
   {
@@ -1891,10 +1891,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Ru\u00dfschwarzer Farbstoff",
+      "de": "Rußschwarzer Farbstoff",
       "en": "Soot Black Dye",
       "fr": "Teinture noir suie",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30fc\u30c8\u30d6\u30e9\u30c3\u30af"
+      "ja": "カララント:スートブラック"
     }
   },
   {
@@ -1907,7 +1907,7 @@
       "de": "Stahl-Sturmhaube",
       "en": "Steel Celata",
       "fr": "Celata en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30c1\u30a7\u30e9\u30fc\u30bf"
+      "ja": "スチールチェラータ"
     }
   },
   {
@@ -1917,10 +1917,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Stahlk\u00fcrass",
+      "de": "Stahlkürass",
       "en": "Steel Cuirass",
       "fr": "Cuirasse en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "スチールキュイラス"
     }
   },
   {
@@ -1933,7 +1933,7 @@
       "de": "Stahl-Panzerhandschuhe",
       "en": "Steel Gauntlets",
       "fr": "Gantelets en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "スチールガントレット"
     }
   },
   {
@@ -1943,10 +1943,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Stahl-B\u00e4rlatschen",
+      "de": "Stahl-Bärlatschen",
       "en": "Steel Sabatons",
       "fr": "Sabatons en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30b5\u30d0\u30c8\u30f3"
+      "ja": "スチールサバトン"
     }
   },
   {
@@ -1958,8 +1958,8 @@
     "name": {
       "de": "Stahlkappen-Kampfstiefel",
       "en": "Steel-plated Jackboots",
-      "fr": "Bottes militaires rev\u00eatues d'acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30af\u30e9\u30c3\u30c9\u30d6\u30fc\u30c4"
+      "fr": "Bottes militaires revêtues d'acier",
+      "ja": "スチールクラッドブーツ"
     }
   },
   {
@@ -1971,8 +1971,8 @@
     "name": {
       "de": "Sturmblauer Farbstoff",
       "en": "Storm Blue Dye",
-      "fr": "Teinture bleu temp\u00eate",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30c8\u30fc\u30e0\u30d6\u30eb\u30fc"
+      "fr": "Teinture bleu tempête",
+      "ja": "カララント:ストームブルー"
     }
   },
   {
@@ -1985,7 +1985,7 @@
       "de": "Abendroter Farbstoff",
       "en": "Sunset Orange Dye",
       "fr": "Teinture orange couchant",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b5\u30f3\u30bb\u30c3\u30c8\u30aa\u30ec\u30f3\u30b8"
+      "ja": "カララント:サンセットオレンジ"
     }
   },
   {
@@ -1997,8 +1997,8 @@
     "name": {
       "de": "Nichtsblauer Farbstoff",
       "en": "Void Blue Dye",
-      "fr": "Teinture bleu du n\u00e9ant",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30f4\u30a9\u30a4\u30c9\u30d6\u30eb\u30fc"
+      "fr": "Teinture bleu du néant",
+      "ja": "カララント:ヴォイドブルー"
     }
   },
   {
@@ -2011,7 +2011,7 @@
       "de": "Weinroter Farbstoff",
       "en": "Wine Red Dye",
       "fr": "Teinture lie-de-vin",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ef\u30a4\u30f3\u30ec\u30c3\u30c9"
+      "ja": "カララント:ワインレッド"
     }
   },
   {
@@ -2023,8 +2023,8 @@
     "name": {
       "de": "Indigoblauer Farbstoff",
       "en": "Woad Blue Dye",
-      "fr": "Teinture bleu gu\u00e8de",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a6\u30a9\u30fc\u30c9\u30d6\u30eb\u30fc"
+      "fr": "Teinture bleu guède",
+      "ja": "カララント:ウォードブルー"
     }
   },
   {
@@ -2037,7 +2037,7 @@
       "de": "Bullen-Aspis",
       "en": "Bull Hoplon",
       "fr": "Hoplon taureau",
-      "ja": "\u30d6\u30eb\u30db\u30d7\u30ed\u30f3"
+      "ja": "ブルホプロン"
     }
   },
   {
@@ -2050,7 +2050,7 @@
       "de": "Elmo-Stahlhelm",
       "en": "Steel Elmo",
       "fr": "Elmo en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30a8\u30eb\u30e2"
+      "ja": "スチールエルモ"
     }
   },
   {
@@ -2060,10 +2060,10 @@
     "level": 31,
     "maxQuality": 1670,
     "name": {
-      "de": "Stahl-Platteng\u00fcrtel",
+      "de": "Stahl-Plattengürtel",
       "en": "Steel Plate Belt",
       "fr": "Ceinture de plaques en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "スチールプレートベルト"
     }
   },
   {
@@ -2076,7 +2076,7 @@
       "de": "Stahl-Unterarmschienen",
       "en": "Steel Vambraces",
       "fr": "Canons d'avant-bras en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "ja": "スチールヴァンブレイス"
     }
   },
   {
@@ -2088,8 +2088,8 @@
     "name": {
       "de": "Riviera-Rundtisch",
       "en": "Riviera Round Table",
-      "fr": "Table ronde nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30e9\u30a6\u30f3\u30c9\u30c6\u30fc\u30d6\u30eb"
+      "fr": "Table ronde noscéenne",
+      "ja": "ラノシアン・ラウンドテーブル"
     }
   },
   {
@@ -2101,8 +2101,8 @@
     "name": {
       "de": "Riviera-Kleiderschrank",
       "en": "Riviera Wardrobe",
-      "fr": "Penderie nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30ef\u30fc\u30c9\u30ed\u30fc\u30d6"
+      "fr": "Penderie noscéenne",
+      "ja": "ラノシアン・ワードローブ"
     }
   },
   {
@@ -2114,8 +2114,8 @@
     "name": {
       "de": "Stahlschuppen-Fingerhandschuhe",
       "en": "Steel Scale Fingers",
-      "fr": "Garde-doigts d'\u00e9cailles en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30b9\u30b1\u30a4\u30eb\u30d5\u30a3\u30f3\u30ac\u30fc"
+      "fr": "Garde-doigts d'écailles en acier",
+      "ja": "スチールスケイルフィンガー"
     }
   },
   {
@@ -2127,8 +2127,8 @@
     "name": {
       "de": "Stahlschuppen-Beinschienen",
       "en": "Steel Scale Greaves",
-      "fr": "Jambards d'\u00e9cailles en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30b9\u30b1\u30a4\u30eb\u30b0\u30ea\u30fc\u30f4"
+      "fr": "Jambards d'écailles en acier",
+      "ja": "スチールスケイルグリーヴ"
     }
   },
   {
@@ -2140,8 +2140,8 @@
     "name": {
       "de": "Stahl-Schuppenpanzer",
       "en": "Steel Scale Mail",
-      "fr": "Armure d'\u00e9cailles en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30b9\u30b1\u30a4\u30eb\u30e1\u30a4\u30eb"
+      "fr": "Armure d'écailles en acier",
+      "ja": "スチールスケイルメイル"
     }
   },
   {
@@ -2153,8 +2153,8 @@
     "name": {
       "de": "Prunkfaustschild",
       "en": "Decorated Buckler",
-      "fr": "Rondache orn\u00e9e",
-      "ja": "\u30c7\u30b3\u30ec\u30fc\u30c6\u30c3\u30c9\u30d0\u30c3\u30af\u30e9\u30fc"
+      "fr": "Rondache ornée",
+      "ja": "デコレーテッドバックラー"
     }
   },
   {
@@ -2164,10 +2164,10 @@
     "level": 33,
     "maxQuality": 1757,
     "name": {
-      "de": "Wei\u00dfe Kasserolle",
+      "de": "Weiße Kasserolle",
       "en": "White Skillet",
-      "fr": "Po\u00eale blanche",
-      "ja": "\u30db\u30ef\u30a4\u30c8\u30b9\u30ad\u30ec\u30c3\u30c8"
+      "fr": "Poêle blanche",
+      "ja": "ホワイトスキレット"
     }
   },
   {
@@ -2180,7 +2180,7 @@
       "de": "Ahriman-Rundtisch",
       "en": "Ahriman Round Table",
       "fr": "Table ronde ahriman",
-      "ja": "\u30a2\u30fc\u30ea\u30de\u30f3\u30e9\u30a6\u30f3\u30c9\u30c6\u30fc\u30d6\u30eb"
+      "ja": "アーリマンラウンドテーブル"
     }
   },
   {
@@ -2192,8 +2192,8 @@
     "name": {
       "de": "Prunk-Eisenturmschild",
       "en": "Decorated Iron Scutum",
-      "fr": "Scutum en fer orn\u00e9",
-      "ja": "\u30a2\u30a4\u30a2\u30f3\u30b9\u30af\u30c8\u30a5\u30e0DX"
+      "fr": "Scutum en fer orné",
+      "ja": "アイアンスクトゥムDX"
     }
   },
   {
@@ -2203,10 +2203,10 @@
     "level": 34,
     "maxQuality": 1811,
     "name": {
-      "de": "Schwere Stahlr\u00fcstung",
+      "de": "Schwere Stahlrüstung",
       "en": "Heavy Steel Armor",
       "fr": "Armure lourde en acier",
-      "ja": "\u30d8\u30f4\u30a3\u30b9\u30c1\u30fc\u30eb\u30a2\u30fc\u30de\u30fc"
+      "ja": "ヘヴィスチールアーマー"
     }
   },
   {
@@ -2219,7 +2219,7 @@
       "de": "Schwere Stahl-Panzerhandschuhe",
       "en": "Heavy Steel Gauntlets",
       "fr": "Gantelets lourds en acier",
-      "ja": "\u30d8\u30f4\u30a3\u30b9\u30c1\u30fc\u30eb\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ヘヴィスチールガントレット"
     }
   },
   {
@@ -2229,10 +2229,10 @@
     "level": 34,
     "maxQuality": 1811,
     "name": {
-      "de": "Verst\u00e4rkter Stahl-Platteng\u00fcrtel",
+      "de": "Verstärkter Stahl-Plattengürtel",
       "en": "Reinforced Steel Plate Belt",
-      "fr": "Ceinture de plaques en acier renforc\u00e9e",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8DX"
+      "fr": "Ceinture de plaques en acier renforcée",
+      "ja": "スチールプレートベルトDX"
     }
   },
   {
@@ -2244,8 +2244,8 @@
     "name": {
       "de": "Riviera-Esstisch",
       "en": "Riviera Dining Table",
-      "fr": "Table \u00e0 manger nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30c0\u30a4\u30cb\u30f3\u30b0\u30c6\u30fc\u30d6\u30eb"
+      "fr": "Table à manger noscéenne",
+      "ja": "ラノシアン・ダイニングテーブル"
     }
   },
   {
@@ -2257,8 +2257,8 @@
     "name": {
       "de": "Riviera-Rundschornstein",
       "en": "Riviera Rounded Chimney",
-      "fr": "Chemin\u00e9e cylindrique nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30e9\u30a6\u30f3\u30c9\u30c1\u30e0\u30cb\u30fc"
+      "fr": "Cheminée cylindrique noscéenne",
+      "ja": "ラノシアン・ラウンドチムニー"
     }
   },
   {
@@ -2271,7 +2271,7 @@
       "de": "Silber-Destillierkolben",
       "en": "Silver Alembic",
       "fr": "Alambic en argent",
-      "ja": "\u30b7\u30eb\u30d0\u30fc\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "シルバーアレンビック"
     }
   },
   {
@@ -2284,7 +2284,7 @@
       "de": "Entdecker-Feuerstelle",
       "en": "Explorer's Campfire",
       "fr": "Feu de camp d'explorateur",
-      "ja": "\u63a2\u691c\u5bb6\u306e\u711a\u706b\u7089"
+      "ja": "探検家の焚火炉"
     }
   },
   {
@@ -2294,10 +2294,10 @@
     "level": 35,
     "maxQuality": 1853,
     "name": {
-      "de": "Schwerer Stahl-Flankensch\u00fctzer",
+      "de": "Schwerer Stahl-Flankenschützer",
       "en": "Heavy Steel Flanchard",
-      "fr": "Cuissi\u00e8res lourdes en acier",
-      "ja": "\u30d8\u30f4\u30a3\u30b9\u30c1\u30fc\u30eb\u30d5\u30e9\u30f3\u30c1\u30e3\u30fc\u30c9"
+      "fr": "Cuissières lourdes en acier",
+      "ja": "ヘヴィスチールフランチャード"
     }
   },
   {
@@ -2310,7 +2310,7 @@
       "de": "Stahl-Barbuta",
       "en": "Steel Barbut",
       "fr": "Barbute en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+      "ja": "スチールバルビュート"
     }
   },
   {
@@ -2320,10 +2320,10 @@
     "level": 35,
     "maxQuality": 1853,
     "name": {
-      "de": "Stahl-Panzerf\u00e4ustlinge",
+      "de": "Stahl-Panzerfäustlinge",
       "en": "Steel Mitt Gauntlets",
       "fr": "Gantelets-mitons en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30df\u30c8\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "スチールミトンガントレット"
     }
   },
   {
@@ -2333,14 +2333,13 @@
     "level": 35,
     "maxQuality": 1853,
     "name": {
-      "de": "Stahlverst\u00e4rkte Caligae",
+      "de": "Stahlverstärkte Caligae",
       "en": "Steel-plated Caligae",
-      "fr": "Caligae rev\u00eatues d'acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30a2\u30fc\u30de\u30fc\u30c9\u30ab\u30ea\u30ac"
+      "fr": "Caligae revêtues d'acier",
+      "ja": "スチールアーマードカリガ"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2350,7 +2349,7 @@
       "de": "Restaurierter Aspis",
       "en": "Vintage Hoplon",
       "fr": "Hoplon de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30db\u30d7\u30ed\u30f3"
+      "ja": "ヴィンテージホプロン"
     }
   },
   {
@@ -2362,8 +2361,8 @@
     "name": {
       "de": "Wald-Wandschornstein",
       "en": "Glade Wall Chimney",
-      "fr": "Chemin\u00e9e ext\u00e9rieure sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30a6\u30a9\u30fc\u30eb\u30c1\u30e0\u30cb\u30fc"
+      "fr": "Cheminée extérieure sombrelinçoise",
+      "ja": "シュラウド・ウォールチムニー"
     }
   },
   {
@@ -2376,7 +2375,7 @@
       "de": "Mithril-Barren",
       "en": "Mythril Ingot",
       "fr": "Lingot de mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "ミスリルインゴット"
     }
   },
   {
@@ -2388,8 +2387,8 @@
     "name": {
       "de": "Stahlbratpfanne",
       "en": "Steel Frypan",
-      "fr": "Po\u00eale \u00e0 frire en acier",
-      "ja": "\u30b9\u30c1\u30fc\u30eb\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "fr": "Poêle à frire en acier",
+      "ja": "スチールフライパン"
     }
   },
   {
@@ -2401,8 +2400,8 @@
     "name": {
       "de": "Klingenbewehrter Laternenschild",
       "en": "Bladed Lantern Shield",
-      "fr": "Bouclier lanterne \u00e0 lames",
-      "ja": "\u30c0\u30d6\u30eb\u30d6\u30ec\u30fc\u30c9\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Bouclier lanterne à lames",
+      "ja": "ダブルブレードシールド"
     }
   },
   {
@@ -2414,8 +2413,8 @@
     "name": {
       "de": "Hornschuppen-Beinschienen",
       "en": "Horn Scale Greaves",
-      "fr": "Jambards d'\u00e9cailles en corne",
-      "ja": "\u30db\u30fc\u30f3\u30b9\u30b1\u30a4\u30eb\u30b0\u30ea\u30fc\u30f4"
+      "fr": "Jambards d'écailles en corne",
+      "ja": "ホーンスケイルグリーヴ"
     }
   },
   {
@@ -2428,7 +2427,7 @@
       "de": "Mithrildraht-Ringe",
       "en": "Mythril Rings",
       "fr": "Anneaux en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30ea\u30f3\u30b0\u30ba"
+      "ja": "ミスリルリングズ"
     }
   },
   {
@@ -2441,7 +2440,7 @@
       "de": "Mithrilnieten",
       "en": "Mythril Rivets",
       "fr": "Rivets en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30ea\u30d9\u30c3\u30c8"
+      "ja": "ミスリルリベット"
     }
   },
   {
@@ -2454,7 +2453,7 @@
       "de": "Belah'dische Kristall-Laterne",
       "en": "Belah'dian Crystal Lantern",
       "fr": "Girandole belahdienne",
-      "ja": "\u30d9\u30e9\u30d5\u30c7\u30a3\u30a2\u30f3\u30fb\u30af\u30ea\u30b9\u30bf\u30eb\u30e9\u30f3\u30bf\u30f3"
+      "ja": "ベラフディアン・クリスタルランタン"
     }
   },
   {
@@ -2466,8 +2465,8 @@
     "name": {
       "de": "Knochen-Schuppen-Fingerhandschuhe",
       "en": "Horn Scale Fingers",
-      "fr": "Garde-doigts d'\u00e9cailles en os",
-      "ja": "\u30db\u30fc\u30f3\u30b9\u30b1\u30a4\u30eb\u30d5\u30a3\u30f3\u30ac\u30fc"
+      "fr": "Garde-doigts d'écailles en os",
+      "ja": "ホーンスケイルフィンガー"
     }
   },
   {
@@ -2480,7 +2479,7 @@
       "de": "Mithril-Sturmhaube",
       "en": "Mythril Celata",
       "fr": "Celata en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30c1\u30a7\u30e9\u30fc\u30bf"
+      "ja": "ミスリルチェラータ"
     }
   },
   {
@@ -2493,7 +2492,7 @@
       "de": "Mithril-Platte",
       "en": "Mythril Plate",
       "fr": "Plaque de mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30d7\u30ec\u30fc\u30c8"
+      "ja": "ミスリルプレート"
     }
   },
   {
@@ -2503,14 +2502,13 @@
     "level": 38,
     "maxQuality": 1961,
     "name": {
-      "de": "Mithril-Platteng\u00fcrtel",
+      "de": "Mithril-Plattengürtel",
       "en": "Mythril Plate Belt",
       "fr": "Ceinture de plaques en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "ミスリルプレートベルト"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -2520,7 +2518,7 @@
       "de": "Restaurierte Sturmhaube",
       "en": "Vintage Celata",
       "fr": "Celata de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30c1\u30a7\u30e9\u30fc\u30bf"
+      "ja": "ヴィンテージチェラータ"
     }
   },
   {
@@ -2530,10 +2528,10 @@
     "level": 39,
     "maxQuality": 2026,
     "name": {
-      "de": "Mithrilk\u00fcrass",
+      "de": "Mithrilkürass",
       "en": "Mythril Cuirass",
       "fr": "Cuirasse en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "ミスリルキュイラス"
     }
   },
   {
@@ -2546,7 +2544,7 @@
       "de": "Mithril-Panzerhandschuhe",
       "en": "Mythril Gauntlets",
       "fr": "Gantelets en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ミスリルガントレット"
     }
   },
   {
@@ -2556,10 +2554,10 @@
     "level": 39,
     "maxQuality": 2026,
     "name": {
-      "de": "Mithril-B\u00e4rlatschen",
+      "de": "Mithril-Bärlatschen",
       "en": "Mythril Sabatons",
       "fr": "Sabatons en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30b5\u30d0\u30c8\u30f3"
+      "ja": "ミスリルサバトン"
     }
   },
   {
@@ -2572,7 +2570,7 @@
       "de": "Ovaler Nussholztisch",
       "en": "Mythril Table",
       "fr": "Table de jardin en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30ac\u30fc\u30c7\u30f3\u30c6\u30fc\u30d6\u30eb"
+      "ja": "ミスリルガーデンテーブル"
     }
   },
   {
@@ -2584,8 +2582,8 @@
     "name": {
       "de": "Knochen-Schuppenpanzer",
       "en": "Horn Scale Mail",
-      "fr": "Armure d'\u00e9cailles en corne",
-      "ja": "\u30db\u30fc\u30f3\u30b9\u30b1\u30a4\u30eb\u30e1\u30a4\u30eb"
+      "fr": "Armure d'écailles en corne",
+      "ja": "ホーンスケイルメイル"
     }
   },
   {
@@ -2598,7 +2596,7 @@
       "de": "Mithril-Destillierkolben",
       "en": "Mythril Alembic",
       "fr": "Alambic en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "ミスリルアレンビック"
     }
   },
   {
@@ -2611,11 +2609,10 @@
       "de": "Elmo-Mithrilhelm",
       "en": "Mythril Elmo",
       "fr": "Elmo en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30a8\u30eb\u30e2"
+      "ja": "ミスリルエルモ"
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
@@ -2625,7 +2622,7 @@
       "de": "Restaurierter Turmschild",
       "en": "Vintage Scutum",
       "fr": "Scutum de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30b9\u30af\u30c8\u30a5\u30e0"
+      "ja": "ヴィンテージスクトゥム"
     }
   },
   {
@@ -2635,10 +2632,10 @@
     "level": 41,
     "maxQuality": 1054,
     "name": {
-      "de": "Wald-Aush\u00e4ngeschild",
+      "de": "Wald-Aushängeschild",
       "en": "Glade Hanging Placard",
-      "fr": "Enseigne \u00e0 potence sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30cf\u30f3\u30ae\u30f3\u30b0\u30dc\u30fc\u30c9"
+      "fr": "Enseigne à potence sombrelinçoise",
+      "ja": "シュラウド・ハンギングボード"
     }
   },
   {
@@ -2651,7 +2648,7 @@
       "de": "Mithril-Barbuta",
       "en": "Mythril Barbut",
       "fr": "Barbute en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+      "ja": "ミスリルバルビュート"
     }
   },
   {
@@ -2664,7 +2661,7 @@
       "de": "Mithril-Unterarmschienen",
       "en": "Mythril Vambraces",
       "fr": "Canons d'avant-bras en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "ja": "ミスリルヴァンブレイス"
     }
   },
   {
@@ -2676,12 +2673,11 @@
     "name": {
       "de": "Mithrilkappen-Kampfstiefel",
       "en": "Mythril-plated Jackboots",
-      "fr": "Bottes militaires rev\u00eatues de mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30af\u30e9\u30c3\u30c9\u30d6\u30fc\u30c4"
+      "fr": "Bottes militaires revêtues de mithril",
+      "ja": "ミスリルクラッドブーツ"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 41,
     "difficulty": 143,
     "durability": 80,
@@ -2690,8 +2686,8 @@
     "name": {
       "de": "Restaurierter Schuppenpanzer",
       "en": "Vintage Scale Mail",
-      "fr": "Armure d'\u00e9cailles de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30b9\u30b1\u30a4\u30eb\u30e1\u30a4\u30eb"
+      "fr": "Armure d'écailles de collection",
+      "ja": "ヴィンテージスケイルメイル"
     }
   },
   {
@@ -2704,7 +2700,7 @@
       "de": "Koboldeisenbarren",
       "en": "Cobalt Ingot",
       "fr": "Lingot de cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "コバルトインゴット"
     }
   },
   {
@@ -2716,8 +2712,8 @@
     "name": {
       "de": "Elektrum-Destillierkolben",
       "en": "Electrum Alembic",
-      "fr": "Alambic en \u00e9lectrum",
-      "ja": "\u30a8\u30ec\u30af\u30c8\u30e9\u30e0\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "fr": "Alambic en électrum",
+      "ja": "エレクトラムアレンビック"
     }
   },
   {
@@ -2730,7 +2726,7 @@
       "de": "Mithrilkettenhaube",
       "en": "Mythril Chain Coif",
       "fr": "Coiffe en mailles de mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30c1\u30a7\u30fc\u30f3\u30b3\u30a4\u30d5"
+      "ja": "ミスリルチェーンコイフ"
     }
   },
   {
@@ -2743,7 +2739,7 @@
       "de": "Mithril-Hauberk",
       "en": "Mythril Haubergeon",
       "fr": "Haubergeon en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30db\u30fc\u30d0\u30fc\u30b8\u30e7\u30f3"
+      "ja": "ミスリルホーバージョン"
     }
   },
   {
@@ -2755,8 +2751,8 @@
     "name": {
       "de": "Mithril-Mesailvisier",
       "en": "Mythril Mesail",
-      "fr": "M\u00e9sail",
-      "ja": "\u30e1\u30bb\u30a4\u30eb"
+      "fr": "Mésail",
+      "ja": "メセイル"
     }
   },
   {
@@ -2769,7 +2765,7 @@
       "de": "Mithril-Sollerets",
       "en": "Mythril Sollerets",
       "fr": "Solerets en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "ミスリルソルレット"
     }
   },
   {
@@ -2779,10 +2775,10 @@
     "level": 42,
     "maxQuality": 2147,
     "name": {
-      "de": "Mithrilverst\u00e4rkte Caligae",
+      "de": "Mithrilverstärkte Caligae",
       "en": "Mythril-plated Caligae",
-      "fr": "Caligae rev\u00eatues de mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30a2\u30fc\u30de\u30fc\u30c9\u30ab\u30ea\u30ac"
+      "fr": "Caligae revêtues de mithril",
+      "ja": "ミスリルアーマードカリガ"
     }
   },
   {
@@ -2795,7 +2791,7 @@
       "de": "Koboldeisenplatte",
       "en": "Cobalt Plate",
       "fr": "Plaque de cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30d7\u30ec\u30fc\u30c8"
+      "ja": "コバルトプレート"
     }
   },
   {
@@ -2808,7 +2804,7 @@
       "de": "Koboldeisendrahtringe",
       "en": "Cobalt Rings",
       "fr": "Anneaux en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30ea\u30f3\u30b0\u30ba"
+      "ja": "コバルトリングズ"
     }
   },
   {
@@ -2820,8 +2816,8 @@
     "name": {
       "de": "Koboldeisen-Kasserolle",
       "en": "Cobalt Skillet",
-      "fr": "Po\u00eale en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30b9\u30ad\u30ec\u30c3\u30c8"
+      "fr": "Poêle en cobalt",
+      "ja": "コバルトスキレット"
     }
   },
   {
@@ -2831,10 +2827,10 @@
     "level": 43,
     "maxQuality": 2251,
     "name": {
-      "de": "Mithril-Flankensch\u00fctzer",
+      "de": "Mithril-Flankenschützer",
       "en": "High Mythril Flanchard",
-      "fr": "Cuissi\u00e8res lourdes en mithril",
-      "ja": "\u30d8\u30f4\u30a3\u30df\u30b9\u30ea\u30eb\u30d5\u30e9\u30f3\u30c1\u30e3\u30fc\u30c9"
+      "fr": "Cuissières lourdes en mithril",
+      "ja": "ヘヴィミスリルフランチャード"
     }
   },
   {
@@ -2847,7 +2843,7 @@
       "de": "Edelmithril-Panzerhandschuhe",
       "en": "High Mythril Gauntlets",
       "fr": "Gantelets lourds en mithril",
-      "ja": "\u30d8\u30f4\u30a3\u30df\u30b9\u30ea\u30eb\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ヘヴィミスリルガントレット"
     }
   },
   {
@@ -2857,10 +2853,10 @@
     "level": 43,
     "maxQuality": 2251,
     "name": {
-      "de": "Edelmithril-Platteng\u00fcrtel",
+      "de": "Edelmithril-Plattengürtel",
       "en": "High Mythril Plate Belt",
       "fr": "Ceinture de plaques lourde en mithril",
-      "ja": "\u30d8\u30f4\u30a3\u30fb\u30df\u30b9\u30ea\u30eb\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "ヘヴィ・ミスリルプレートベルト"
     }
   },
   {
@@ -2870,10 +2866,10 @@
     "level": 43,
     "maxQuality": 2251,
     "name": {
-      "de": "Mithril-Panzerf\u00e4ustlinge",
+      "de": "Mithril-Panzerfäustlinge",
       "en": "Mythril Mitt Gauntlets",
       "fr": "Gantelets-mitons en mithril",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30df\u30c8\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ミスリルミトンガントレット"
     }
   },
   {
@@ -2883,14 +2879,13 @@
     "level": 43,
     "maxQuality": 1125,
     "name": {
-      "de": "Riviera-Aush\u00e4ngeschild",
+      "de": "Riviera-Aushängeschild",
       "en": "Riviera Hanging Placard",
-      "fr": "Enseigne \u00e0 potence nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30cf\u30f3\u30ae\u30f3\u30b0\u30dc\u30fc\u30c9"
+      "fr": "Enseigne à potence noscéenne",
+      "ja": "ラノシアン・ハンギングボード"
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -2900,7 +2895,7 @@
       "de": "Restaurierter Faustschild",
       "en": "Vintage Buckler",
       "fr": "Rondache de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30d0\u30c3\u30af\u30e9\u30fc"
+      "ja": "ヴィンテージバックラー"
     }
   },
   {
@@ -2913,7 +2908,7 @@
       "de": "Koboldeisen-Winkeleisen",
       "en": "Cobalt Joint Plate",
       "fr": "Patte en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30d5\u30a3\u30c3\u30c6\u30a3\u30f3\u30b0"
+      "ja": "コバルトフィッティング"
     }
   },
   {
@@ -2926,7 +2921,7 @@
       "de": "Koboldeisennieten",
       "en": "Cobalt Rivets",
       "fr": "Rivets en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30ea\u30d9\u30c3\u30c8"
+      "ja": "コバルトリベット"
     }
   },
   {
@@ -2939,7 +2934,7 @@
       "de": "Stahl-Turmschild",
       "en": "Cobalt Scutum",
       "fr": "Scutum en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30b9\u30af\u30c8\u30a5\u30e0"
+      "ja": "コバルトスクトゥム"
     }
   },
   {
@@ -2952,7 +2947,7 @@
       "de": "Koboldeisen-Unterarmschienen",
       "en": "Cobalt Vambraces",
       "fr": "Canons d'avant-bras en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "ja": "コバルトヴァンブレイス"
     }
   },
   {
@@ -2962,10 +2957,10 @@
     "level": 44,
     "maxQuality": 2277,
     "name": {
-      "de": "Mithril-K\u00f6rperpanzer",
+      "de": "Mithril-Körperpanzer",
       "en": "High Mythril Armor",
       "fr": "Armure lourde en mithril",
-      "ja": "\u30d8\u30f4\u30a3\u30df\u30b9\u30ea\u30eb\u30a2\u30fc\u30de\u30fc"
+      "ja": "ヘヴィミスリルアーマー"
     }
   },
   {
@@ -2975,10 +2970,10 @@
     "level": 44,
     "maxQuality": 1707,
     "name": {
-      "de": "Verst\u00e4rkter Elmo-Mithrilhelm",
+      "de": "Verstärkter Elmo-Mithrilhelm",
       "en": "Reinforced Mythril Elmo",
-      "fr": "Elmo en mithril renforc\u00e9",
-      "ja": "\u30df\u30b9\u30ea\u30eb\u30a8\u30eb\u30e2DX"
+      "fr": "Elmo en mithril renforcé",
+      "ja": "ミスリルエルモDX"
     }
   },
   {
@@ -2991,7 +2986,7 @@
       "de": "Elmo-Koboldeisenhelm",
       "en": "Cobalt Elmo",
       "fr": "Elmo en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30a8\u30eb\u30e2"
+      "ja": "コバルトエルモ"
     }
   },
   {
@@ -3003,8 +2998,8 @@
     "name": {
       "de": "Koboldeisenkappen-Kampfstiefel",
       "en": "Cobalt-plated Jackboots",
-      "fr": "Bottes militaires rev\u00eatues de cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30af\u30e9\u30c3\u30c9\u30d6\u30fc\u30c4"
+      "fr": "Bottes militaires revêtues de cobalt",
+      "ja": "コバルトクラッドブーツ"
     }
   },
   {
@@ -3016,8 +3011,8 @@
     "name": {
       "de": "Wald-Rundschornstein",
       "en": "Glade Rounded Chimney",
-      "fr": "Chemin\u00e9e cylindrique sombrelin\u00e7oise",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30e9\u30a6\u30f3\u30c9\u30c1\u30e0\u30cb\u30fc"
+      "fr": "Cheminée cylindrique sombrelinçoise",
+      "ja": "シュラウド・ラウンドチムニー"
     }
   },
   {
@@ -3029,8 +3024,8 @@
     "name": {
       "de": "Mogry-Briefkasten",
       "en": "Moogle Letter Box",
-      "fr": "Bo\u00eete \u00e0 lettres mog",
-      "ja": "\u30e2\u30b0\u30ec\u30bf\u30fc\u30dd\u30b9\u30c8"
+      "fr": "Boîte à lettres mog",
+      "ja": "モグレターポスト"
     }
   },
   {
@@ -3042,8 +3037,8 @@
     "name": {
       "de": "Schildpatt-Schuppen-Fingerhandschuhe",
       "en": "Tortoiseshell Scale Fingers",
-      "fr": "Garde-doigts d'\u00e9cailles de tortue",
-      "ja": "\u30c8\u30fc\u30bf\u30b9\u30b9\u30b1\u30a4\u30eb\u30d5\u30a3\u30f3\u30ac\u30fc"
+      "fr": "Garde-doigts d'écailles de tortue",
+      "ja": "トータススケイルフィンガー"
     }
   },
   {
@@ -3055,8 +3050,8 @@
     "name": {
       "de": "Schildpatt-Schuppen-Beinschienen",
       "en": "Tortoiseshell Scale Greaves",
-      "fr": "Jambards d'\u00e9cailles de tortue",
-      "ja": "\u30c8\u30fc\u30bf\u30b9\u30b9\u30b1\u30a4\u30eb\u30b0\u30ea\u30fc\u30f4"
+      "fr": "Jambards d'écailles de tortue",
+      "ja": "トータススケイルグリーヴ"
     }
   },
   {
@@ -3068,12 +3063,11 @@
     "name": {
       "de": "Schildpatt-Schuppenpanzer",
       "en": "Tortoiseshell Scale Mail",
-      "fr": "Armure d'\u00e9cailles de tortue",
-      "ja": "\u30c8\u30fc\u30bf\u30b9\u30b9\u30b1\u30a4\u30eb\u30e1\u30a4\u30eb"
+      "fr": "Armure d'écailles de tortue",
+      "ja": "トータススケイルメイル"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -3082,8 +3076,8 @@
     "name": {
       "de": "Restaurierter Drachenschild",
       "en": "Vintage Kite Shield",
-      "fr": "\u00c9cu mandorle de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30ab\u30a4\u30c8\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Écu mandorle de collection",
+      "ja": "ヴィンテージカイトシールド"
     }
   },
   {
@@ -3096,7 +3090,7 @@
       "de": "Koboldeisen-Barbuta",
       "en": "Cobalt Barbut",
       "fr": "Barbute en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+      "ja": "コバルトバルビュート"
     }
   },
   {
@@ -3106,10 +3100,10 @@
     "level": 46,
     "maxQuality": 2372,
     "name": {
-      "de": "Koboldeisenverst\u00e4rkte Caligae",
+      "de": "Koboldeisenverstärkte Caligae",
       "en": "Cobalt-plated Caligae",
-      "fr": "Caligae rev\u00eatues de cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30a2\u30fc\u30de\u30fc\u30c9\u30ab\u30ea\u30ac"
+      "fr": "Caligae revêtues de cobalt",
+      "ja": "コバルトアーマードカリガ"
     }
   },
   {
@@ -3121,8 +3115,8 @@
     "name": {
       "de": "Metallboden",
       "en": "Metal Flooring",
-      "fr": "Parquet m\u00e9tallique",
-      "ja": "\u30e1\u30bf\u30eb\u30d5\u30ed\u30fc\u30ea\u30f3\u30b0"
+      "fr": "Parquet métallique",
+      "ja": "メタルフローリング"
     }
   },
   {
@@ -3134,8 +3128,8 @@
     "name": {
       "de": "Metall-Wandverkleidung",
       "en": "Metal Interior Wall",
-      "fr": "Rev\u00eatement mural m\u00e9tallique",
-      "ja": "\u30e1\u30bf\u30eb\u30a4\u30f3\u30ca\u30fc\u30a6\u30a9\u30fc\u30eb"
+      "fr": "Revêtement mural métallique",
+      "ja": "メタルインナーウォール"
     }
   },
   {
@@ -3147,12 +3141,11 @@
     "name": {
       "de": "Riviera-Schreibtisch",
       "en": "Riviera Desk",
-      "fr": "Bureau nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30c7\u30b9\u30af"
+      "fr": "Bureau noscéen",
+      "ja": "ラノシアン・デスク"
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 46,
     "difficulty": 159,
     "durability": 80,
@@ -3162,7 +3155,7 @@
       "de": "Restauriertes Eisen-Hauberk",
       "en": "Vintage Haubergeon",
       "fr": "Haubergeon de collection",
-      "ja": "\u30f4\u30a3\u30f3\u30c6\u30fc\u30b8\u30db\u30fc\u30d0\u30fc\u30b8\u30e7\u30f3"
+      "ja": "ヴィンテージホーバージョン"
     }
   },
   {
@@ -3172,14 +3165,13 @@
     "level": 47,
     "maxQuality": 2421,
     "name": {
-      "de": "Teufels K\u00fcche",
+      "de": "Teufels Küche",
       "en": "Hells' Kitchen",
       "fr": "Chaudron d'Ifrit",
-      "ja": "\u30a4\u30d5\u30ea\u30fc\u30c8\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "ja": "イフリートフライパン"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -3188,8 +3180,8 @@
     "name": {
       "de": "Mooshorn-Schuppenpanzer",
       "en": "Mosshorn Scale Mail",
-      "fr": "Armure d'\u00e9cailles de cornemousse",
-      "ja": "\u30e2\u30b9\u30db\u30fc\u30f3\u30b9\u30b1\u30a4\u30eb\u30e1\u30a4\u30eb"
+      "fr": "Armure d'écailles de cornemousse",
+      "ja": "モスホーンスケイルメイル"
     }
   },
   {
@@ -3199,10 +3191,10 @@
     "level": 48,
     "maxQuality": 2524,
     "name": {
-      "de": "Koboldeisen-Panzerf\u00e4ustlinge",
+      "de": "Koboldeisen-Panzerfäustlinge",
       "en": "Cobalt Mitt Gauntlets",
       "fr": "Gantelets-mitons en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30df\u30c8\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "コバルトミトンガントレット"
     }
   },
   {
@@ -3215,7 +3207,7 @@
       "de": "Truhe der Gesellschaft",
       "en": "Company Chest",
       "fr": "Coffre de compagnie libre",
-      "ja": "\u30ab\u30f3\u30d1\u30cb\u30fc\u30c1\u30a7\u30b9\u30c8"
+      "ja": "カンパニーチェスト"
     }
   },
   {
@@ -3227,8 +3219,8 @@
     "name": {
       "de": "Herrenhaus-Kamin",
       "en": "Manor Fireplace",
-      "fr": "Chemin\u00e9e du Manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u6696\u7089"
+      "fr": "Cheminée du Manoir",
+      "ja": "御用邸の暖炉"
     }
   },
   {
@@ -3238,10 +3230,10 @@
     "level": 48,
     "maxQuality": 1262,
     "name": {
-      "de": "Riviera-B\u00fccherregal",
+      "de": "Riviera-Bücherregal",
       "en": "Riviera Bookshelf",
-      "fr": "Biblioth\u00e8que nosc\u00e9enne",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30d6\u30c3\u30af\u30b7\u30a7\u30eb\u30d5"
+      "fr": "Bibliothèque noscéenne",
+      "ja": "ラノシアン・ブックシェルフ"
     }
   },
   {
@@ -3253,8 +3245,8 @@
     "name": {
       "de": "Koboldeisen-Laternenschild",
       "en": "Cobalt Bladed Lantern Shield",
-      "fr": "Bouclier lanterne \u00e0 lames en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30fb\u30c0\u30d6\u30eb\u30d6\u30ec\u30fc\u30c9\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Bouclier lanterne à lames en cobalt",
+      "ja": "コバルト・ダブルブレードシールド"
     }
   },
   {
@@ -3266,8 +3258,8 @@
     "name": {
       "de": "Koboldeisen-Mesailvisier",
       "en": "Cobalt Mesail",
-      "fr": "M\u00e9sail en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30e1\u30bb\u30a4\u30eb"
+      "fr": "Mésail en cobalt",
+      "ja": "コバルトメセイル"
     }
   },
   {
@@ -3280,7 +3272,7 @@
       "de": "Koboldeisen-Schaller",
       "en": "Cobalt Sallet",
       "fr": "Sallet en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30b5\u30ec\u30c3\u30c8"
+      "ja": "コバルトサレット"
     }
   },
   {
@@ -3293,7 +3285,7 @@
       "de": "Oasen-Kronleuchter",
       "en": "Oasis Chandelier",
       "fr": "Lustre thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30b7\u30e3\u30f3\u30c7\u30ea\u30a2"
+      "ja": "ザナラーン・シャンデリア"
     }
   },
   {
@@ -3303,10 +3295,10 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "\u00c4therd\u00e4mmendes Gef\u00e4\u00df",
+      "de": "Ätherdämmendes Gefäß",
       "en": "Aetheric Shielding",
-      "fr": "R\u00e9cipient \u00e9th\u00e9roscell\u00e9",
-      "ja": "\u7d76\u970a\u4f53\u5bb9\u5668"
+      "fr": "Récipient éthéroscellé",
+      "ja": "絶霊体容器"
     }
   },
   {
@@ -3319,7 +3311,7 @@
       "de": "Drachengabe",
       "en": "Austere Offering",
       "fr": "Cadeau pour dragons",
-      "ja": "\u7adc\u65cf\u5831\u916c\u54c1"
+      "ja": "竜族報酬品"
     }
   },
   {
@@ -3331,8 +3323,8 @@
     "name": {
       "de": "Korbkomponente",
       "en": "Basket Component",
-      "fr": "Mat\u00e9riel de vannerie",
-      "ja": "\u7de8\u307f\u30ab\u30b4\u90e8\u6750"
+      "fr": "Matériel de vannerie",
+      "ja": "編みカゴ部材"
     }
   },
   {
@@ -3342,10 +3334,10 @@
     "level": 50,
     "maxQuality": 660,
     "name": {
-      "de": "Wolkenmeer-K\u00f6der",
+      "de": "Wolkenmeer-Köder",
       "en": "Cloudfish Lure",
-      "fr": "Leurre sp\u00e9cial",
-      "ja": "\u96f2\u6d77\u91e3\u990c"
+      "fr": "Leurre spécial",
+      "ja": "雲海釣餌"
     }
   },
   {
@@ -3358,7 +3350,7 @@
       "de": "Koboldeisen-Sturmhaube",
       "en": "Cobalt Celata",
       "fr": "Celata en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30c1\u30a7\u30e9\u30fc\u30bf"
+      "ja": "コバルトチェラータ"
     }
   },
   {
@@ -3371,7 +3363,7 @@
       "de": "Koboldeisen-Kettenhaube",
       "en": "Cobalt Chain Coif",
       "fr": "Coiffe en mailles de cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30c1\u30a7\u30fc\u30f3\u30b3\u30a4\u30d5"
+      "ja": "コバルトチェーンコイフ"
     }
   },
   {
@@ -3381,10 +3373,10 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "de": "Koboldeisenk\u00fcrass",
+      "de": "Koboldeisenkürass",
       "en": "Cobalt Cuirass",
       "fr": "Cuirasse en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "コバルトキュイラス"
     }
   },
   {
@@ -3397,7 +3389,7 @@
       "de": "Koboldeisen-Panzerhandschuhe",
       "en": "Cobalt Gauntlets",
       "fr": "Gantelets en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "コバルトガントレット"
     }
   },
   {
@@ -3410,7 +3402,7 @@
       "de": "Koboldeisen-Hauberk",
       "en": "Cobalt Haubergeon",
       "fr": "Haubergeon en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30db\u30fc\u30d0\u30fc\u30b8\u30e7\u30f3"
+      "ja": "コバルトホーバージョン"
     }
   },
   {
@@ -3420,10 +3412,10 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "de": "Koboldeisen-Platteng\u00fcrtel",
+      "de": "Koboldeisen-Plattengürtel",
       "en": "Cobalt Plate Belt",
       "fr": "Ceinture de plaques en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "コバルトプレートベルト"
     }
   },
   {
@@ -3433,10 +3425,10 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "de": "Koboldeisen-B\u00e4rlatschen",
+      "de": "Koboldeisen-Bärlatschen",
       "en": "Cobalt Sabatons",
       "fr": "Sabatons en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30b5\u30d0\u30c8\u30f3"
+      "ja": "コバルトサバトン"
     }
   },
   {
@@ -3449,7 +3441,7 @@
       "de": "Koboldeisen-Sollerets",
       "en": "Cobalt Sollerets",
       "fr": "Solerets en cobalt",
-      "ja": "\u30b3\u30d0\u30eb\u30c8\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "コバルトソルレット"
     }
   },
   {
@@ -3461,8 +3453,8 @@
     "name": {
       "de": "Schuppenfeile",
       "en": "Dragonscale Rasp",
-      "fr": "Racloir en \u00e9caille de dragon",
-      "ja": "\u7adc\u9c57\u30e4\u30b9\u30ea"
+      "fr": "Racloir en écaille de dragon",
+      "ja": "竜鱗ヤスリ"
     }
   },
   {
@@ -3474,8 +3466,8 @@
     "name": {
       "de": "Rauchbombe",
       "en": "Exploding Kupo Nut",
-      "fr": "Noix de kupo fumig\u00e8ne",
-      "ja": "\u7159\u5e55\u306e\u5b9f"
+      "fr": "Noix de kupo fumigène",
+      "ja": "煙幕の実"
     }
   },
   {
@@ -3488,7 +3480,7 @@
       "de": "Falsche Kupo-Nuss",
       "en": "Fake Kupo Nut",
       "fr": "Fausse noix de kupo",
-      "ja": "\u30cb\u30bb\u306e\u5b9f"
+      "ja": "ニセの実"
     }
   },
   {
@@ -3500,8 +3492,8 @@
     "name": {
       "de": "Fundamentmaterial",
       "en": "Foundation Component",
-      "fr": "Mat\u00e9riel pour les fondations",
-      "ja": "\u57fa\u790e\u5de5\u4e8b\u8cc7\u6750"
+      "fr": "Matériel pour les fondations",
+      "ja": "基礎工事資材"
     }
   },
   {
@@ -3511,10 +3503,10 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "Komponente f\u00fcr die Werkzeugreparatur",
+      "de": "Komponente für die Werkzeugreparatur",
       "en": "Gathering Tool Component",
-      "fr": "Mat\u00e9riel de r\u00e9paration",
-      "ja": "\u63a1\u96c6\u9053\u5177\u88dc\u6750"
+      "fr": "Matériel de réparation",
+      "ja": "採集道具補材"
     }
   },
   {
@@ -3524,10 +3516,10 @@
     "level": 50,
     "maxQuality": 673,
     "name": {
-      "de": "Tr\u00f6tenkomponente",
+      "de": "Trötenkomponente",
       "en": "Horn Component",
       "fr": "Composant de clairon",
-      "ja": "\u3059\u3093\u3054\u3044\u30e9\u30c3\u30d1\u90e8\u6750"
+      "ja": "すんごいラッパ部材"
     }
   },
   {
@@ -3539,8 +3531,8 @@
     "name": {
       "de": "Bestandteil einer Mahlzeit",
       "en": "Ishgardian Cuisine Miscellany",
-      "fr": "\u00c9l\u00e9ment de plateau-repas",
-      "ja": "\u6669\u9910\u4e0d\u8db3\u54c1"
+      "fr": "Élément de plateau-repas",
+      "ja": "晩餐不足品"
     }
   },
   {
@@ -3552,8 +3544,8 @@
     "name": {
       "de": "Drachenschild",
       "en": "Kite Shield",
-      "fr": "\u00c9cu mandorle",
-      "ja": "\u30ab\u30a4\u30c8\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Écu mandorle",
+      "ja": "カイトシールド"
     }
   },
   {
@@ -3565,8 +3557,8 @@
     "name": {
       "de": "Miniatur-Luftschiff",
       "en": "Makeshift Toy Airship",
-      "fr": "Maquette d'a\u00e9ronef",
-      "ja": "\u98db\u7a7a\u8247\u6a21\u578b"
+      "fr": "Maquette d'aéronef",
+      "ja": "飛空艇模型"
     }
   },
   {
@@ -3576,10 +3568,10 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "K\u00fcchenartikel",
+      "de": "Küchenartikel",
       "en": "Mogstew Miscellany",
-      "fr": "Mat\u00e9riaux gastronomiques",
-      "ja": "\u8abf\u7406\u4e0d\u8db3\u54c1"
+      "fr": "Matériaux gastronomiques",
+      "ja": "調理不足品"
     }
   },
   {
@@ -3591,8 +3583,8 @@
     "name": {
       "de": "Kleine Belohnung",
       "en": "Moogle Mollifier",
-      "fr": "Cadeau personnalis\u00e9",
-      "ja": "\u7279\u88fd\u3054\u8912\u7f8e"
+      "fr": "Cadeau personnalisé",
+      "ja": "特製ご褒美"
     }
   },
   {
@@ -3605,7 +3597,7 @@
       "de": "Mogry-Figur",
       "en": "Moogle Statuette",
       "fr": "Statuette de Mog",
-      "ja": "\u5f6b\u50cf\u898b\u672c\u54c1"
+      "ja": "彫像見本品"
     }
   },
   {
@@ -3617,8 +3609,8 @@
     "name": {
       "de": "Mogry-Werkzeugkomponente",
       "en": "Moogle Tool Component",
-      "fr": "Composant de marteau sp\u00e9cial Mog",
-      "ja": "\u30e2\u30fc\u30b0\u30ea\u7528\u9053\u5177\u90e8\u6750"
+      "fr": "Composant de marteau spécial Mog",
+      "ja": "モーグリ用道具部材"
     }
   },
   {
@@ -3630,8 +3622,8 @@
     "name": {
       "de": "Verwendbares Baumaterial",
       "en": "Repurposed Construction Component",
-      "fr": "Mat\u00e9riel de construction",
-      "ja": "\u518d\u751f\u6e08\u307f\u5efa\u7bc9\u8cc7\u6750"
+      "fr": "Matériel de construction",
+      "ja": "再生済み建築資材"
     }
   },
   {
@@ -3641,10 +3633,10 @@
     "level": 50,
     "maxQuality": 1980,
     "name": {
-      "de": "Einzelteil f\u00fcr die Schneidemaschine",
+      "de": "Einzelteil für die Schneidemaschine",
       "en": "Shearing Machine Component",
-      "fr": "Composant de machine \u00e0 inciser",
-      "ja": "\u88c1\u65ad\u6a5f\u90e8\u6750"
+      "fr": "Composant de machine à inciser",
+      "ja": "裁断機部材"
     }
   },
   {
@@ -3657,7 +3649,7 @@
       "de": "Steinstatuenkomponente",
       "en": "Statue Supplies",
       "fr": "Composant de statue",
-      "ja": "\u77f3\u50cf\u4fee\u5fa9\u7528\u90e8\u6750"
+      "ja": "石像修復用部材"
     }
   },
   {
@@ -3669,8 +3661,8 @@
     "name": {
       "de": "Formvollendete Steinblock-Vorlage",
       "en": "Stonemasonry Supplies",
-      "fr": "Pierre de r\u00e9f\u00e9rence",
-      "ja": "\u8abf\u6574\u3055\u308c\u305f\u77f3\u6750"
+      "fr": "Pierre de référence",
+      "ja": "調整された石材"
     }
   },
   {
@@ -3682,8 +3674,8 @@
     "name": {
       "de": "Gedenktafelkomponente",
       "en": "Tablet Supplies",
-      "fr": "Composant de plaque comm\u00e9morative",
-      "ja": "\u9298\u677f\u4ed5\u4e0a\u3052\u90e8\u6750"
+      "fr": "Composant de plaque commémorative",
+      "ja": "銘板仕上げ部材"
     }
   },
   {
@@ -3696,7 +3688,7 @@
       "de": "Thermo-Destillierkolben",
       "en": "Thermal Alembic",
       "fr": "Alambic thermique",
-      "ja": "\u30b5\u30fc\u30de\u30eb\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "サーマルアレンビック"
     }
   },
   {
@@ -3706,10 +3698,10 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "de": "\u00dcbungsmaterial",
+      "de": "Übungsmaterial",
       "en": "Training Supplies",
-      "fr": "Mat\u00e9riel d'entra\u00eenement",
-      "ja": "\u8a13\u7df4\u7528\u90e8\u6750"
+      "fr": "Matériel d'entraînement",
+      "ja": "訓練用部材"
     }
   },
   {
@@ -3721,8 +3713,8 @@
     "name": {
       "de": "Flaschenzug-Ersatzteil",
       "en": "Treadwheel Crane Components",
-      "fr": "Mat\u00e9riel de r\u00e9paration de treuil",
-      "ja": "\u5dfb\u304d\u4e0a\u3052\u6a5f\u90e8\u6750"
+      "fr": "Matériel de réparation de treuil",
+      "ja": "巻き上げ機部材"
     }
   },
   {
@@ -3732,10 +3724,10 @@
     "level": 50,
     "maxQuality": 660,
     "name": {
-      "de": "Werkzeug zur Bodenplattenf\u00e4rbung",
+      "de": "Werkzeug zur Bodenplattenfärbung",
       "en": "Veneer Component",
-      "fr": "Mat\u00e9riel de finition",
-      "ja": "\u5e8a\u6750\u52a0\u5de5\u7528\u54c1"
+      "fr": "Matériel de finition",
+      "ja": "床材加工用品"
     }
   },
   {
@@ -3745,10 +3737,10 @@
     "level": 50,
     "maxQuality": 1056,
     "name": {
-      "de": "Werkzeug zur Mauergl\u00e4ttung",
+      "de": "Werkzeug zur Mauerglättung",
       "en": "Wall Repair Supplies",
-      "fr": "Mat\u00e9riel de r\u00e9novation de fa\u00e7ade",
-      "ja": "\u58c1\u306e\u88dc\u4fee\u90e8\u6750"
+      "fr": "Matériel de rénovation de façade",
+      "ja": "壁の補修部材"
     }
   },
   {
@@ -3761,7 +3753,7 @@
       "de": "Abdichtungskomponente",
       "en": "Water Filter Component",
       "fr": "Composant de fontaine",
-      "ja": "\u6cc9\u6c34\u88dc\u4fee\u6750"
+      "ja": "泉水補修材"
     }
   },
   {
@@ -3774,7 +3766,7 @@
       "de": "Mechanischer Dullahan",
       "en": "Wind-up Dullahan",
       "fr": "Dullahan nain",
-      "ja": "\u30de\u30e1\u30c3\u30c8\u30fb\u30c7\u30e5\u30e9\u30cf\u30f3"
+      "ja": "マメット・デュラハン"
     }
   },
   {
@@ -3786,8 +3778,8 @@
     "name": {
       "de": "Plattner-Visier",
       "en": "Armorer's Visor",
-      "fr": "Visi\u00e8re d'armurier",
-      "ja": "\u30a2\u30fc\u30e2\u30e9\u30fc\u30d0\u30a4\u30b6\u30fc"
+      "fr": "Visière d'armurier",
+      "ja": "アーモラーバイザー"
     },
     "stars": 1
   },
@@ -3801,7 +3793,7 @@
       "de": "Grobschmied-Arbeitsschuhe",
       "en": "Blacksmith's Workboots",
       "fr": "Bottes de travail de forgeron",
-      "ja": "\u30d6\u30e9\u30c3\u30af\u30b9\u30df\u30b9\u30ef\u30fc\u30af\u30d6\u30fc\u30c4"
+      "ja": "ブラックスミスワークブーツ"
     },
     "stars": 1
   },
@@ -3814,8 +3806,8 @@
     "name": {
       "de": "Dunkelstahl-Nugget",
       "en": "Darksteel Nugget",
-      "fr": "P\u00e9pite de sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30ca\u30b2\u30c3\u30c8"
+      "fr": "Pépite de sombracier",
+      "ja": "ダークスチールナゲット"
     },
     "stars": 1
   },
@@ -3829,7 +3821,7 @@
       "de": "Dunkelstahlplatte",
       "en": "Darksteel Plate",
       "fr": "Plaque de sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30d7\u30ec\u30fc\u30c8"
+      "ja": "ダークスチールプレート"
     },
     "stars": 1
   },
@@ -3843,7 +3835,7 @@
       "de": "Dunkelstahldrahtringe",
       "en": "Darksteel Rings",
       "fr": "Anneaux en sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30ea\u30f3\u30b0\u30ba"
+      "ja": "ダークスチールリングズ"
     },
     "stars": 1
   },
@@ -3857,7 +3849,7 @@
       "de": "Dunkelstahlnieten",
       "en": "Darksteel Rivets",
       "fr": "Rivets en sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30ea\u30d9\u30c3\u30c8"
+      "ja": "ダークスチールリベット"
     },
     "stars": 1
   },
@@ -3871,7 +3863,7 @@
       "de": "Weiler-Minenarbeiterhut",
       "en": "Hamlet Digger's Helmet",
       "fr": "Casque de mineur des hameaux",
-      "ja": "\u30c7\u30a3\u30ac\u30fc\u30d8\u30eb\u30e1\u30c3\u30c8"
+      "ja": "ディガーヘルメット"
     },
     "stars": 1
   },
@@ -3885,7 +3877,7 @@
       "de": "Miliz-Armet",
       "en": "Militia Armet",
       "fr": "Casque de milicien",
-      "ja": "\u30df\u30ea\u30b7\u30a2\u30a2\u30fc\u30e1\u30c3\u30c8"
+      "ja": "ミリシアアーメット"
     },
     "stars": 1
   },
@@ -3899,7 +3891,7 @@
       "de": "Miliz-Barbuta",
       "en": "Militia Barbut",
       "fr": "Barbute de milicien",
-      "ja": "\u30df\u30ea\u30b7\u30a2\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+      "ja": "ミリシアバルビュート"
     },
     "stars": 1
   },
@@ -3910,10 +3902,10 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "de": "Miliz-K\u00fcrass",
+      "de": "Miliz-Kürass",
       "en": "Militia Cuirass",
       "fr": "Cuirasse de milicien",
-      "ja": "\u30df\u30ea\u30b7\u30a2\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "ミリシアキュイラス"
     },
     "stars": 1
   },
@@ -3927,7 +3919,7 @@
       "de": "Miliz-Panzerhandschuhe",
       "en": "Militia Gauntlets",
       "fr": "Gantelets de milicien",
-      "ja": "\u30df\u30ea\u30b7\u30a2\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ミリシアガントレット"
     },
     "stars": 1
   },
@@ -3938,10 +3930,10 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "de": "Miliz-Panzerf\u00e4ustlinge",
+      "de": "Miliz-Panzerfäustlinge",
       "en": "Militia Mitt Gauntlets",
       "fr": "Gantelets-mitons de milicien",
-      "ja": "\u30df\u30ea\u30b7\u30a2\u30df\u30c8\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ミリシアミトンガントレット"
     },
     "stars": 1
   },
@@ -3952,10 +3944,10 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "de": "Miliz-B\u00e4rlatschen",
+      "de": "Miliz-Bärlatschen",
       "en": "Militia Sabatons",
       "fr": "Sabatons de milicien",
-      "ja": "\u30df\u30ea\u30b7\u30a2\u30b5\u30d0\u30c8\u30f3"
+      "ja": "ミリシアサバトン"
     },
     "stars": 1
   },
@@ -3969,7 +3961,7 @@
       "de": "Wolf-Sturmhaube",
       "en": "Wolf Celata",
       "fr": "Celata de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30c1\u30a7\u30e9\u30fc\u30bf"
+      "ja": "ウルフチェラータ"
     },
     "stars": 1
   },
@@ -3980,10 +3972,10 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "de": "Wolf-K\u00fcrass",
+      "de": "Wolf-Kürass",
       "en": "Wolf Cuirass",
       "fr": "Cuirasse de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "ウルフキュイラス"
     },
     "stars": 1
   },
@@ -3997,7 +3989,7 @@
       "de": "Elmo-Wolfshelm",
       "en": "Wolf Elmo",
       "fr": "Elmo de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30a8\u30eb\u30e2"
+      "ja": "ウルフエルモ"
     },
     "stars": 1
   },
@@ -4011,7 +4003,7 @@
       "de": "Wolf-Panzerhandschuhe",
       "en": "Wolf Gauntlets",
       "fr": "Gantelets de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ウルフガントレット"
     },
     "stars": 1
   },
@@ -4024,8 +4016,8 @@
     "name": {
       "de": "Wolf-Drachenschild",
       "en": "Wolf Kite Shield",
-      "fr": "\u00c9cu mandorle de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30ab\u30a4\u30c8\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Écu mandorle de loup",
+      "ja": "ウルフカイトシールド"
     },
     "stars": 1
   },
@@ -4036,10 +4028,10 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "de": "Wolf-Platteng\u00fcrtel",
+      "de": "Wolf-Plattengürtel",
       "en": "Wolf Plate Belt",
       "fr": "Ceinture de plaques de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "ウルフプレートベルト"
     },
     "stars": 1
   },
@@ -4050,10 +4042,10 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "de": "Wolf-B\u00e4rlatschen",
+      "de": "Wolf-Bärlatschen",
       "en": "Wolf Sabatons",
       "fr": "Sabatons de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30b5\u30d0\u30c8\u30f3"
+      "ja": "ウルフサバトン"
     },
     "stars": 1
   },
@@ -4067,7 +4059,7 @@
       "de": "Wolf-Schaller",
       "en": "Wolf Sallet",
       "fr": "Sallet de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30b5\u30ec\u30c3\u30c8"
+      "ja": "ウルフサレット"
     },
     "stars": 1
   },
@@ -4080,8 +4072,8 @@
     "name": {
       "de": "Wolf-Fingerhandschuhe",
       "en": "Wolf Scale Fingers",
-      "fr": "Garde-doigts d'\u00e9cailles de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30b9\u30b1\u30a4\u30eb\u30d5\u30a3\u30f3\u30ac\u30fc"
+      "fr": "Garde-doigts d'écailles de loup",
+      "ja": "ウルフスケイルフィンガー"
     },
     "stars": 1
   },
@@ -4094,8 +4086,8 @@
     "name": {
       "de": "Wolf-Beinschienen",
       "en": "Wolf Scale Greaves",
-      "fr": "Jambards d'\u00e9cailles de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30b9\u30b1\u30a4\u30eb\u30b0\u30ea\u30fc\u30f4"
+      "fr": "Jambards d'écailles de loup",
+      "ja": "ウルフスケイルグリーヴ"
     },
     "stars": 1
   },
@@ -4108,8 +4100,8 @@
     "name": {
       "de": "Wolf-Schuppenpanzer",
       "en": "Wolf Scale Mail",
-      "fr": "Armure d'\u00e9cailles de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30b9\u30b1\u30a4\u30eb\u30e1\u30a4\u30eb"
+      "fr": "Armure d'écailles de loup",
+      "ja": "ウルフスケイルメイル"
     },
     "stars": 1
   },
@@ -4123,7 +4115,7 @@
       "de": "Wolf-Bauchreifen",
       "en": "Wolf Tassets",
       "fr": "Tassette de loup",
-      "ja": "\u30a6\u30eb\u30d5\u30bf\u30bb\u30c3\u30c8"
+      "ja": "ウルフタセット"
     },
     "stars": 1
   },
@@ -4136,8 +4128,8 @@
     "name": {
       "de": "Luftschiff-Reparaturkit",
       "en": "Airship Repair Materials",
-      "fr": "Kit de r\u00e9paration d'a\u00e9ronef",
-      "ja": "\u98db\u7a7a\u8247\u4fee\u7406\u6750"
+      "fr": "Kit de réparation d'aéronef",
+      "ja": "飛空艇修理材"
     },
     "stars": 2
   },
@@ -4151,7 +4143,7 @@
       "de": "Dunkelstahl-Brustplatte",
       "en": "Darksteel Breastplate",
       "fr": "Devant de cuirasse en sombracier",
-      "ja": "\u80f8\u7532\u90e8\u54c1(\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb)"
+      "ja": "胸甲部品(ダークスチール)"
     },
     "stars": 2
   },
@@ -4165,7 +4157,7 @@
       "de": "Dunkelstahl-Faustschild",
       "en": "Darksteel Buckler",
       "fr": "Rondache en sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30d0\u30c3\u30af\u30e9\u30fc"
+      "ja": "ダークスチールバックラー"
     },
     "stars": 2
   },
@@ -4179,7 +4171,7 @@
       "de": "Dunkelstahl-Kettenhaube",
       "en": "Darksteel Chain Coif",
       "fr": "Coiffe en mailles de sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30fb\u30c1\u30a7\u30fc\u30f3\u30b3\u30a4\u30d5"
+      "ja": "ダークスチール・チェーンコイフ"
     },
     "stars": 2
   },
@@ -4190,10 +4182,10 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "de": "Dunkelstahl-Ellbogensch\u00fctzer",
+      "de": "Dunkelstahl-Ellbogenschützer",
       "en": "Darksteel Couters",
-      "fr": "Genouill\u00e8res en sombracier",
-      "ja": "\u811a\u7532\u90e8\u54c1(\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb)"
+      "fr": "Genouillères en sombracier",
+      "ja": "脚甲部品(ダークスチール)"
     },
     "stars": 2
   },
@@ -4207,7 +4199,7 @@
       "de": "Dunkelstahl-Handschuhplatten",
       "en": "Darksteel Gauntlet Plates",
       "fr": "Plaques de canon d'avant-bras en sombracier",
-      "ja": "\u8155\u7532\u90e8\u54c1(\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb)"
+      "ja": "腕甲部品(ダークスチール)"
     },
     "stars": 2
   },
@@ -4221,7 +4213,7 @@
       "de": "Dunkelstahl-Hauberk",
       "en": "Darksteel Haubergeon",
       "fr": "Haubergeon en sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30db\u30fc\u30d0\u30fc\u30b8\u30e7\u30f3"
+      "ja": "ダークスチールホーバージョン"
     },
     "stars": 2
   },
@@ -4235,7 +4227,7 @@
       "de": "Dunkelstahlbarren",
       "en": "Darksteel Ingot",
       "fr": "Lingot de sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "ダークスチールインゴット"
     },
     "stars": 2
   },
@@ -4246,10 +4238,10 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "de": "Dunkelstahl-Panzerf\u00e4ustlinge",
+      "de": "Dunkelstahl-Panzerfäustlinge",
       "en": "Darksteel Mitt Gauntlets",
       "fr": "Gantelets-mitons en sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30fb\u30df\u30c8\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ダークスチール・ミトンガントレット"
     },
     "stars": 2
   },
@@ -4263,7 +4255,7 @@
       "de": "Dunkelstahl-Turmschild",
       "en": "Darksteel Scutum",
       "fr": "Scutum en sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30b9\u30af\u30c8\u30a5\u30e0"
+      "ja": "ダークスチールスクトゥム"
     },
     "stars": 2
   },
@@ -4277,7 +4269,7 @@
       "de": "Dunkelstahl-Sollerets",
       "en": "Darksteel Sollerets",
       "fr": "Solerets en sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "ダークスチールソルレット"
     },
     "stars": 2
   },
@@ -4291,7 +4283,7 @@
       "de": "Dunkelstahl-Bauchreifen",
       "en": "Darksteel Tassets",
       "fr": "Tassette en sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30bf\u30bb\u30c3\u30c8"
+      "ja": "ダークスチールタセット"
     },
     "stars": 2
   },
@@ -4305,7 +4297,7 @@
       "de": "Dunkelstahldraht",
       "en": "Darksteel Wire",
       "fr": "Fil de sombracier",
-      "ja": "\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30ef\u30a4\u30e4\u30fc"
+      "ja": "ダークスチールワイヤー"
     },
     "stars": 2
   },
@@ -4319,7 +4311,7 @@
       "de": "Analysemodul",
       "en": "Diagnostics Module",
       "fr": "Module analytique",
-      "ja": "\u5206\u6790\u30b7\u30b9\u30c6\u30e0"
+      "ja": "分析システム"
     },
     "stars": 2
   },
@@ -4330,10 +4322,10 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "de": "Schwere Dunkelstahlr\u00fcstung",
+      "de": "Schwere Dunkelstahlrüstung",
       "en": "Heavy Darksteel Armor",
       "fr": "Armure lourde en sombracier",
-      "ja": "\u30d8\u30f4\u30a3\u30fb\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30a2\u30fc\u30de\u30fc"
+      "ja": "ヘヴィ・ダークスチールアーマー"
     },
     "stars": 2
   },
@@ -4344,10 +4336,10 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "de": "Schwerer Dunkelstahl-Flankensch\u00fctzer",
+      "de": "Schwerer Dunkelstahl-Flankenschützer",
       "en": "Heavy Darksteel Flanchard",
-      "fr": "Cuissi\u00e8res lourdes en sombracier",
-      "ja": "\u30d8\u30f4\u30a3\u30fb\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30d5\u30e9\u30f3\u30c1\u30e3\u30fc\u30c9"
+      "fr": "Cuissières lourdes en sombracier",
+      "ja": "ヘヴィ・ダークスチールフランチャード"
     },
     "stars": 2
   },
@@ -4361,7 +4353,7 @@
       "de": "Schwere Dunkelstahl-Panzerhandschuhe",
       "en": "Heavy Darksteel Gauntlets",
       "fr": "Gantelets lourds en sombracier",
-      "ja": "\u30d8\u30f4\u30a3\u30fb\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ヘヴィ・ダークスチールガントレット"
     },
     "stars": 2
   },
@@ -4374,8 +4366,8 @@
     "name": {
       "de": "Leichtstahl-Galerus",
       "en": "Light Steel Galerus",
-      "fr": "\u00c9pauli\u00e8re en acier l\u00e9ger",
-      "ja": "\u30e9\u30a4\u30c8\u30b9\u30c1\u30fc\u30eb\u30ac\u30ec\u30eb\u30fc\u30b9"
+      "fr": "Épaulière en acier léger",
+      "ja": "ライトスチールガレルース"
     },
     "stars": 2
   },
@@ -4388,8 +4380,8 @@
     "name": {
       "de": "Leichtstahl-Lendenschurz",
       "en": "Light Steel Subligar",
-      "fr": "Subligar en acier l\u00e9ger",
-      "ja": "\u30e9\u30a4\u30c8\u30b9\u30c1\u30fc\u30eb\u30b5\u30d6\u30ea\u30ac"
+      "fr": "Subligar en acier léger",
+      "ja": "ライトスチールサブリガ"
     },
     "stars": 2
   },
@@ -4402,8 +4394,8 @@
     "name": {
       "de": "Miniatur-Magitek-Schnitter",
       "en": "Magitek Reaper Miniature",
-      "fr": "Mod\u00e8le r\u00e9duit magitek",
-      "ja": "MG\u9b54\u5c0e\u30ea\u30fc\u30d1\u30fc"
+      "fr": "Modèle réduit magitek",
+      "ja": "MG魔導リーパー"
     },
     "stars": 2
   },
@@ -4417,7 +4409,7 @@
       "de": "Alchemisten-Kessel",
       "en": "Alchemy Furnace",
       "fr": "Creuset d'alchimie",
-      "ja": "\u30a2\u30eb\u30b1\u30df\u30fc\u30d5\u30a1\u30fc\u30ca\u30b9"
+      "ja": "アルケミーファーナス"
     },
     "stars": 3
   },
@@ -4428,10 +4420,10 @@
     "level": 90,
     "maxQuality": 3735,
     "name": {
-      "de": "Modifizierter schwerer Wolfram-K\u00fcrass",
+      "de": "Modifizierter schwerer Wolfram-Kürass",
       "en": "Augmented Heavy Wolfram Cuirass",
-      "fr": "Cuirasse lourde en tungst\u00e8ne modifi\u00e9e",
-      "ja": "\u30d8\u30f4\u30a3\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30ad\u30e5\u30a4\u30e9\u30b9RE"
+      "fr": "Cuirasse lourde en tungstène modifiée",
+      "ja": "ヘヴィウォルフラムキュイラスRE"
     },
     "stars": 3
   },
@@ -4442,10 +4434,10 @@
     "level": 90,
     "maxQuality": 3735,
     "name": {
-      "de": "Modifizierter Wolfram-K\u00fcrass",
+      "de": "Modifizierter Wolfram-Kürass",
       "en": "Augmented Wolfram Cuirass",
-      "fr": "Cuirasse en tungst\u00e8ne modifi\u00e9e",
-      "ja": "\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30ad\u30e5\u30a4\u30e9\u30b9RE"
+      "fr": "Cuirasse en tungstène modifiée",
+      "ja": "ウォルフラムキュイラスRE"
     },
     "stars": 3
   },
@@ -4459,7 +4451,7 @@
       "de": "Truhe eines Toten",
       "en": "Dead Man's Chest",
       "fr": "Coffre du mort",
-      "ja": "\u30c7\u30c3\u30c9\u30de\u30f3\u30ba\u30c1\u30a7\u30b9\u30c8"
+      "ja": "デッドマンズチェスト"
     },
     "stars": 3
   },
@@ -4470,10 +4462,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Schwerer Wolfram-K\u00fcrass",
+      "de": "Schwerer Wolfram-Kürass",
       "en": "Heavy Wolfram Cuirass",
-      "fr": "Cuirasse lourde en tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "fr": "Cuirasse lourde en tungstène",
+      "ja": "ヘヴィウォルフラムキュイラス"
     },
     "stars": 3
   },
@@ -4484,10 +4476,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Schwere Wolfram-Schenkelsch\u00fctzer",
+      "de": "Schwere Wolfram-Schenkelschützer",
       "en": "Heavy Wolfram Cuisses",
-      "fr": "Cuissots lourds en tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30af\u30a6\u30a3\u30b9"
+      "fr": "Cuissots lourds en tungstène",
+      "ja": "ヘヴィウォルフラムクウィス"
     },
     "stars": 3
   },
@@ -4500,8 +4492,8 @@
     "name": {
       "de": "Schwere Wolfram-Panzerhandschuhe",
       "en": "Heavy Wolfram Gauntlets",
-      "fr": "Gantelets lourds en tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Gantelets lourds en tungstène",
+      "ja": "ヘヴィウォルフラムガントレット"
     },
     "stars": 3
   },
@@ -4514,8 +4506,8 @@
     "name": {
       "de": "Schwerer Wolfram-Helm",
       "en": "Heavy Wolfram Helm",
-      "fr": "Casque lourd en tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30d8\u30eb\u30e0"
+      "fr": "Casque lourd en tungstène",
+      "ja": "ヘヴィウォルフラムヘルム"
     },
     "stars": 3
   },
@@ -4526,10 +4518,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Schwerer Wolfram-Platteng\u00fcrtel",
+      "de": "Schwerer Wolfram-Plattengürtel",
       "en": "Heavy Wolfram Plate Belt",
-      "fr": "Ceinture de plaques lourde en tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30fb\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "fr": "Ceinture de plaques lourde en tungstène",
+      "ja": "ヘヴィ・ウォルフラムプレートベルト"
     },
     "stars": 3
   },
@@ -4540,10 +4532,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Schwere Wolfram-B\u00e4rlatschen",
+      "de": "Schwere Wolfram-Bärlatschen",
       "en": "Heavy Wolfram Sabatons",
-      "fr": "Sabatons lourds en tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30b5\u30d0\u30c8\u30f3"
+      "fr": "Sabatons lourds en tungstène",
+      "ja": "ヘヴィウォルフラムサバトン"
     },
     "stars": 3
   },
@@ -4557,7 +4549,7 @@
       "de": "Duftspender",
       "en": "Incensory",
       "fr": "Encensoir",
-      "ja": "\u30a2\u30ed\u30de\u30dd\u30c3\u30c8"
+      "ja": "アロマポット"
     },
     "stars": 3
   },
@@ -4568,10 +4560,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Hundehalsband-Gl\u00f6ckchen",
+      "de": "Hundehalsband-Glöckchen",
       "en": "Lapdog Collar Bell",
       "fr": "Cloche d'animal",
-      "ja": "\u30ab\u30e9\u30fc\u30d9\u30eb"
+      "ja": "カラーベル"
     },
     "stars": 3
   },
@@ -4585,7 +4577,7 @@
       "de": "Horn",
       "en": "Manor Marching Horn",
       "fr": "Cor du manoir",
-      "ja": "\u5fa1\u7528\u90b8\u306e\u30db\u30eb\u30f3"
+      "ja": "御用邸のホルン"
     },
     "stars": 3
   },
@@ -4596,10 +4588,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Hochwertiger M\u00f6rser",
+      "de": "Hochwertiger Mörser",
       "en": "Perfect Mortar",
       "fr": "Mortier parfait",
-      "ja": "\u4e0a\u8cea\u306a\u4e73\u9262"
+      "ja": "上質な乳鉢"
     },
     "stars": 3
   },
@@ -4613,7 +4605,7 @@
       "de": "Projektionsmodul",
       "en": "Projection Module",
       "fr": "Module de projection",
-      "ja": "\u6295\u5c04\u30b7\u30b9\u30c6\u30e0"
+      "ja": "投射システム"
     },
     "stars": 3
   },
@@ -4627,7 +4619,7 @@
       "de": "Purifikationsmodul",
       "en": "Purification Module",
       "fr": "Module de purification",
-      "ja": "\u6ec5\u83cc\u30b7\u30b9\u30c6\u30e0"
+      "ja": "滅菌システム"
     },
     "stars": 3
   },
@@ -4638,10 +4630,10 @@
     "level": 90,
     "maxQuality": 8964,
     "name": {
-      "de": "Verst\u00e4rkter Dunkelstahldraht",
+      "de": "Verstärkter Dunkelstahldraht",
       "en": "Reinforced Darksteel Wire",
-      "fr": "Fil de sombracier renforc\u00e9",
-      "ja": "\u5f37\u5316\u30c0\u30fc\u30af\u30b9\u30c1\u30fc\u30eb\u30ef\u30a4\u30e4\u30fc"
+      "fr": "Fil de sombracier renforcé",
+      "ja": "強化ダークスチールワイヤー"
     },
     "stars": 3
   },
@@ -4654,8 +4646,8 @@
     "name": {
       "de": "Wogen-Rossharnisch",
       "en": "Tidal Barding",
-      "fr": "Barde de L\u00e9viathan",
-      "ja": "\u30ea\u30f4\u30a1\u30a4\u30a2\u30b5\u30f3\u30fb\u30d0\u30fc\u30c9"
+      "fr": "Barde de Léviathan",
+      "ja": "リヴァイアサン・バード"
     },
     "stars": 3
   },
@@ -4666,10 +4658,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Wolfram-K\u00fcrass",
+      "de": "Wolfram-Kürass",
       "en": "Wolfram Cuirass",
-      "fr": "Cuirasse en tungst\u00e8ne",
-      "ja": "\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "fr": "Cuirasse en tungstène",
+      "ja": "ウォルフラムキュイラス"
     },
     "stars": 3
   },
@@ -4682,8 +4674,8 @@
     "name": {
       "de": "Wolfram-Panzerhandschuhe",
       "en": "Wolfram Gauntlets",
-      "fr": "Gantelets en tungst\u00e8ne",
-      "ja": "\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Gantelets en tungstène",
+      "ja": "ウォルフラムガントレット"
     },
     "stars": 3
   },
@@ -4696,8 +4688,8 @@
     "name": {
       "de": "Wolfram-Maske",
       "en": "Wolfram Mask",
-      "fr": "Masque en tungst\u00e8ne",
-      "ja": "\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30de\u30b9\u30af"
+      "fr": "Masque en tungstène",
+      "ja": "ウォルフラムマスク"
     },
     "stars": 3
   },
@@ -4708,10 +4700,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Wolfram-B\u00e4rlatschen",
+      "de": "Wolfram-Bärlatschen",
       "en": "Wolfram Sabatons",
-      "fr": "Sabatons en tungst\u00e8ne",
-      "ja": "\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30b5\u30d0\u30c8\u30f3"
+      "fr": "Sabatons en tungstène",
+      "ja": "ウォルフラムサバトン"
     },
     "stars": 3
   },
@@ -4722,10 +4714,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Wolframpl\u00e4ttchen",
+      "de": "Wolframplättchen",
       "en": "Wolfram Square",
-      "fr": "Plaquette de tungst\u00e8ne",
-      "ja": "\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30d7\u30ec\u30fc\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Plaquette de tungstène",
+      "ja": "ウォルフラムプレートレット"
     },
     "stars": 3
   },
@@ -4738,23 +4730,22 @@
     "name": {
       "de": "Wolfram-Bauchreifen",
       "en": "Wolfram Tassets",
-      "fr": "Tassette en tungst\u00e8ne",
-      "ja": "\u30a6\u30a9\u30eb\u30d5\u30e9\u30e0\u30bf\u30bb\u30c3\u30c8"
+      "fr": "Tassette en tungstène",
+      "ja": "ウォルフラムタセット"
     },
     "stars": 3
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Schild des m\u00e4chtigen Donners",
+      "de": "Schild des mächtigen Donners",
       "en": "Mighty Thunderhead",
       "fr": "Nuage du Patriarche",
-      "ja": "\u30ec\u30f4\u30a3\u30f3\u30fb\u30b5\u30f3\u30c0\u30fc\u30d8\u30c3\u30c9"
+      "ja": "レヴィン・サンダーヘッド"
     },
     "stars": 4
   },
@@ -4765,10 +4756,10 @@
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Wootz-K\u00fcrass",
+      "de": "Wootz-Kürass",
       "en": "Wootz Cuirass",
       "fr": "Cuirasse en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "ウーツキュイラス"
     },
     "stars": 4
   },
@@ -4782,7 +4773,7 @@
       "de": "Wootz-Panzerhandschuhe",
       "en": "Wootz Gauntlets",
       "fr": "Gantelets en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ウーツガントレット"
     },
     "stars": 4
   },
@@ -4793,10 +4784,10 @@
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Wootz-R\u00fcstung",
+      "de": "Wootz-Rüstung",
       "en": "Wootz Mail",
       "fr": "Maille en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30e1\u30a4\u30eb"
+      "ja": "ウーツメイル"
     },
     "stars": 4
   },
@@ -4810,7 +4801,7 @@
       "de": "Wootz-Maske",
       "en": "Wootz Mask",
       "fr": "Masque en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30de\u30b9\u30af"
+      "ja": "ウーツマスク"
     },
     "stars": 4
   },
@@ -4821,10 +4812,10 @@
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Wootz-Panzerf\u00e4ustlinge",
+      "de": "Wootz-Panzerfäustlinge",
       "en": "Wootz Mitten Gauntlets",
       "fr": "Gantelets-mitons en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30df\u30c8\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ウーツミトンガントレット"
     },
     "stars": 4
   },
@@ -4835,10 +4826,10 @@
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Wootz-Platteng\u00fcrtel",
+      "de": "Wootz-Plattengürtel",
       "en": "Wootz Plate Belt",
       "fr": "Ceinture de plaques en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "ウーツプレートベルト"
     },
     "stars": 4
   },
@@ -4849,10 +4840,10 @@
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Wootz-B\u00e4rlatschen",
+      "de": "Wootz-Bärlatschen",
       "en": "Wootz Sabatons",
       "fr": "Sabatons en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30b5\u30d0\u30c8\u30f3"
+      "ja": "ウーツサバトン"
     },
     "stars": 4
   },
@@ -4866,7 +4857,7 @@
       "de": "Wootz-Schaller",
       "en": "Wootz Sallet",
       "fr": "Sallet en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30b5\u30ec\u30c3\u30c8"
+      "ja": "ウーツサレット"
     },
     "stars": 4
   },
@@ -4880,7 +4871,7 @@
       "de": "Wootz-Schild",
       "en": "Wootz Shield",
       "fr": "Bouclier en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30b7\u30fc\u30eb\u30c9"
+      "ja": "ウーツシールド"
     },
     "stars": 4
   },
@@ -4894,7 +4885,7 @@
       "de": "Wootz- Sollerets",
       "en": "Wootz Sollerets",
       "fr": "Solerets en wootz",
-      "ja": "\u30a6\u30fc\u30c4\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "ウーツソルレット"
     },
     "stars": 4
   },
@@ -4907,8 +4898,8 @@
     "name": {
       "de": "Mythrit-Nugget",
       "en": "Mythrite Nugget",
-      "fr": "P\u00e9pite de mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ca\u30b2\u30c3\u30c8"
+      "fr": "Pépite de mithrite",
+      "ja": "ミスライトナゲット"
     }
   },
   {
@@ -4921,7 +4912,7 @@
       "de": "Mythrit-Schaller der Verteidigung",
       "en": "Mythrite Sallet of Fending",
       "fr": "Sallet de protecteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30ec\u30c3\u30c8"
+      "ja": "ミスライトディフェンダーサレット"
     }
   },
   {
@@ -4931,10 +4922,10 @@
     "level": 115,
     "maxQuality": 3951,
     "name": {
-      "de": "Mythrit-Schaller des Verst\u00fcmmelns",
+      "de": "Mythrit-Schaller des Verstümmelns",
       "en": "Mythrite Sallet of Maiming",
       "fr": "Sallet d'abatteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30b9\u30ec\u30a4\u30e4\u30fc\u30b5\u30ec\u30c3\u30c8"
+      "ja": "ミスライトスレイヤーサレット"
     }
   },
   {
@@ -4947,7 +4938,7 @@
       "de": "Mythrit-Bauchreifen der Verteidigung",
       "en": "Mythrite Tassets of Fending",
       "fr": "Tassette de protecteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30bf\u30bb\u30c3\u30c8"
+      "ja": "ミスライトディフェンダータセット"
     }
   },
   {
@@ -4957,10 +4948,10 @@
     "level": 115,
     "maxQuality": 3951,
     "name": {
-      "de": "Mythrit-Bauchreifen des Verst\u00fcmmelns",
+      "de": "Mythrit-Bauchreifen des Verstümmelns",
       "en": "Mythrite Tassets of Maiming",
       "fr": "Tassette d'abatteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30b9\u30ec\u30a4\u30e4\u30fc\u30bf\u30bb\u30c3\u30c8"
+      "ja": "ミスライトスレイヤータセット"
     }
   },
   {
@@ -4973,7 +4964,7 @@
       "de": "Mythrit-Panzerhandschuhe der Verteidigung",
       "en": "Mythrite Gauntlets of Fending",
       "fr": "Gantelets de protecteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ミスライトディフェンダーガントレット"
     }
   },
   {
@@ -4983,10 +4974,10 @@
     "level": 120,
     "maxQuality": 4561,
     "name": {
-      "de": "Mythrit-Panzerhandschuhe des Verst\u00fcmmelns",
+      "de": "Mythrit-Panzerhandschuhe des Verstümmelns",
       "en": "Mythrite Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30b9\u30ec\u30a4\u30e4\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ミスライトスレイヤーガントレット"
     }
   },
   {
@@ -4999,7 +4990,7 @@
       "de": "Mythrit-Kettenpanzer der Verteidigung",
       "en": "Mythrite Hauberk of Fending",
       "fr": "Haubert de protecteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30db\u30fc\u30d0\u30fc\u30af"
+      "ja": "ミスライトディフェンダーホーバーク"
     }
   },
   {
@@ -5009,10 +5000,10 @@
     "level": 120,
     "maxQuality": 4561,
     "name": {
-      "de": "Mythrit-Kettenpanzer des Verst\u00fcmmelns",
+      "de": "Mythrit-Kettenpanzer des Verstümmelns",
       "en": "Mythrite Hauberk of Maiming",
       "fr": "Haubert d'abatteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30b9\u30ec\u30a4\u30e4\u30fc\u30db\u30fc\u30d0\u30fc\u30af"
+      "ja": "ミスライトスレイヤーホーバーク"
     }
   },
   {
@@ -5025,7 +5016,7 @@
       "de": "Mythrit-Nieten",
       "en": "Mythrite Rivets",
       "fr": "Rivets en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30ea\u30d9\u30c3\u30c8"
+      "ja": "ミスライトリベット"
     }
   },
   {
@@ -5035,10 +5026,10 @@
     "level": 120,
     "maxQuality": 4561,
     "name": {
-      "de": "Mythrit-B\u00e4rlatschen der Verteidigung",
+      "de": "Mythrit-Bärlatschen der Verteidigung",
       "en": "Mythrite Sabatons of Fending",
       "fr": "Sabatons de protecteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "ja": "ミスライトディフェンダーサバトン"
     }
   },
   {
@@ -5048,10 +5039,10 @@
     "level": 120,
     "maxQuality": 4561,
     "name": {
-      "de": "Mythrit-B\u00e4rlatschen des Verst\u00fcmmelns",
+      "de": "Mythrit-Bärlatschen des Verstümmelns",
       "en": "Mythrite Sabatons of Maiming",
       "fr": "Sabatons d'abatteur en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30b9\u30ec\u30a4\u30e4\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "ja": "ミスライトスレイヤーサバトン"
     }
   },
   {
@@ -5064,7 +5055,7 @@
       "de": "Mythrit-Turmschild",
       "en": "Mythrite Scutum",
       "fr": "Scutum en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30b9\u30af\u30c8\u30a5\u30e0"
+      "ja": "ミスライトスクトゥム"
     }
   },
   {
@@ -5076,8 +5067,8 @@
     "name": {
       "de": "Kaktor-Bratpfanne",
       "en": "Frypan Caliente",
-      "fr": "Po\u00eale \u00e0 frire pampa",
-      "ja": "\u30b5\u30dc\u30c6\u30f3\u30c0\u30fc\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "fr": "Poêle à frire pampa",
+      "ja": "サボテンダーフライパン"
     }
   },
   {
@@ -5090,7 +5081,7 @@
       "de": "Garlond-Stahl",
       "en": "Garlond Steel",
       "fr": "Acier de Garlond",
-      "ja": "\u30ac\u30fc\u30ed\u30f3\u30c9\u92fc"
+      "ja": "ガーロンド鋼"
     }
   },
   {
@@ -5103,7 +5094,7 @@
       "de": "Mythrit-Destillierkolben",
       "en": "Mythrite Alembic",
       "fr": "Alambic en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "ミスライトアレンビック"
     }
   },
   {
@@ -5116,7 +5107,7 @@
       "de": "Mythrit-Barren",
       "en": "Mythrite Ingot",
       "fr": "Lingot de mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "ミスライトインゴット"
     }
   },
   {
@@ -5129,7 +5120,7 @@
       "de": "Mythrit-Laternenschild",
       "en": "Mythrite Bladed Lantern Shield",
       "fr": "Bouclier lanterne en mithrite",
-      "ja": "\u30df\u30b9\u30e9\u30a4\u30c8\u30d6\u30ec\u30fc\u30c9\u30b7\u30fc\u30eb\u30c9"
+      "ja": "ミスライトブレードシールド"
     }
   },
   {
@@ -5139,10 +5130,10 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "de": "Titan-Platteng\u00fcrtel der Verteidigung",
+      "de": "Titan-Plattengürtel der Verteidigung",
       "en": "Titanium Plate Belt of Fending",
       "fr": "Ceinture de plaques de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "チタン・ディフェンダープレートベルト"
     }
   },
   {
@@ -5152,10 +5143,10 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "de": "Titan-Platteng\u00fcrtel des Verst\u00fcmmelns",
+      "de": "Titan-Plattengürtel des Verstümmelns",
       "en": "Titanium Plate Belt of Maiming",
       "fr": "Ceinture de plaques d'abatteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "チタン・スレイヤープレートベルト"
     }
   },
   {
@@ -5168,7 +5159,7 @@
       "de": "Hartsilber-Destillierkolben",
       "en": "Hardsilver Alembic",
       "fr": "Alambic en durargent",
-      "ja": "\u30cf\u30fc\u30c9\u30b7\u30eb\u30d0\u30fc\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "ハードシルバーアレンビック"
     }
   },
   {
@@ -5180,8 +5171,8 @@
     "name": {
       "de": "Titan-Bratpfanne",
       "en": "Titanium Frypan",
-      "fr": "Po\u00eale \u00e0 frire en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "fr": "Poêle à frire en titane",
+      "ja": "チタンフライパン"
     }
   },
   {
@@ -5194,7 +5185,7 @@
       "de": "Titan-Maske des Zielens",
       "en": "Titanium Mask of Aiming",
       "fr": "Masque de pisteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30de\u30b9\u30af"
+      "ja": "チタンレンジャーマスク"
     }
   },
   {
@@ -5207,7 +5198,7 @@
       "de": "Titan-Maske der Verteidigung",
       "en": "Titanium Mask of Fending",
       "fr": "Masque de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30de\u30b9\u30af"
+      "ja": "チタンディフェンダーマスク"
     }
   },
   {
@@ -5217,10 +5208,10 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "de": "Titan-Maske des Sp\u00e4hens",
+      "de": "Titan-Maske des Spähens",
       "en": "Titanium Mask of Scouting",
-      "fr": "Masque d'\u00e9claireur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ab\u30a6\u30c8\u30de\u30b9\u30af"
+      "fr": "Masque d'éclaireur en titane",
+      "ja": "チタンスカウトマスク"
     }
   },
   {
@@ -5233,7 +5224,7 @@
       "de": "Titan-Maske des Schlagens",
       "en": "Titanium Mask of Striking",
       "fr": "Masque d'agresseur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30de\u30b9\u30af"
+      "ja": "チタンストライカーマスク"
     }
   },
   {
@@ -5245,8 +5236,8 @@
     "name": {
       "de": "Titan-Nugget",
       "en": "Titanium Nugget",
-      "fr": "P\u00e9pite de titane",
-      "ja": "\u30c1\u30bf\u30f3\u30ca\u30b2\u30c3\u30c8"
+      "fr": "Pépite de titane",
+      "ja": "チタンナゲット"
     }
   },
   {
@@ -5259,7 +5250,7 @@
       "de": "Titan-Nieten",
       "en": "Titanium Rivets",
       "fr": "Rivets en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30ea\u30d9\u30c3\u30c8"
+      "ja": "チタンリベット"
     }
   },
   {
@@ -5269,10 +5260,10 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "de": "Titan-Schaller des Verst\u00fcmmelns",
+      "de": "Titan-Schaller des Verstümmelns",
       "en": "Titanium Sallet of Maiming",
       "fr": "Sallet d'abatteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30b5\u30ec\u30c3\u30c8"
+      "ja": "チタンスレイヤーサレット"
     }
   },
   {
@@ -5285,7 +5276,7 @@
       "de": "Gesellschafts-Wappenschild",
       "en": "Company Escutcheon",
       "fr": "Escuchon de compagnie libre",
-      "ja": "\u30ab\u30f3\u30d1\u30cb\u30fc\u30a8\u30b9\u30ab\u30c3\u30b7\u30e3\u30f3"
+      "ja": "カンパニーエスカッシャン"
     }
   },
   {
@@ -5295,10 +5286,10 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
-      "de": "Titan-K\u00fcrass des Verst\u00fcmmelns",
+      "de": "Titan-Kürass des Verstümmelns",
       "en": "Titanium Cuirass of Maiming",
       "fr": "Cuirasse d'abatteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "チタンスレイヤーキュイラス"
     }
   },
   {
@@ -5311,7 +5302,7 @@
       "de": "Titan-Panzerhandschuhe der Verteidigung",
       "en": "Titanium Gauntlets of Fending",
       "fr": "Gantelets de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "チタンディフェンダーガントレット"
     }
   },
   {
@@ -5323,8 +5314,8 @@
     "name": {
       "de": "Titan-Drachenschild",
       "en": "Titanium Kite Shield",
-      "fr": "\u00c9cu mandorle en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30ab\u30a4\u30c8\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Écu mandorle en titane",
+      "ja": "チタンカイトシールド"
     }
   },
   {
@@ -5334,10 +5325,10 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
-      "de": "Titan-R\u00fcstung der Verteidigung",
+      "de": "Titan-Rüstung der Verteidigung",
       "en": "Titanium Mail of Fending",
       "fr": "Cotte de mailles de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30e1\u30a4\u30eb"
+      "ja": "チタンディフェンダーメイル"
     }
   },
   {
@@ -5347,10 +5338,10 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
-      "de": "Titan-Panzerf\u00e4ustlinge des Verst\u00fcmmelns",
+      "de": "Titan-Panzerfäustlinge des Verstümmelns",
       "en": "Titanium Mitt Gauntlets of Maiming",
       "fr": "Gantelets-mitons d'abatteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30df\u30c8\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "チタン・スレイヤーミトンガントレット"
     }
   },
   {
@@ -5360,10 +5351,10 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
-      "de": "Titan-B\u00e4rlatschen des Verst\u00fcmmelns",
+      "de": "Titan-Bärlatschen des Verstümmelns",
       "en": "Titanium Sabatons of Maiming",
       "fr": "Sabatons d'abatteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "ja": "チタンスレイヤーサバトン"
     }
   },
   {
@@ -5376,7 +5367,7 @@
       "de": "Titan-Sollerets der Verteidigung",
       "en": "Titanium Sollerets of Fending",
       "fr": "Solerets de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "チタンディフェンダーソルレット"
     }
   },
   {
@@ -5386,10 +5377,10 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "de": "Titan-Kopfbedeckung des Sp\u00e4hens",
+      "de": "Titan-Kopfbedeckung des Spähens",
       "en": "Titanium Headgear of Scouting",
-      "fr": "Prot\u00e8ge-t\u00eate d'\u00e9claireur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ab\u30a6\u30c8\u30d8\u30c3\u30c9\u30ae\u30a2"
+      "fr": "Protège-tête d'éclaireur en titane",
+      "ja": "チタンスカウトヘッドギア"
     }
   },
   {
@@ -5401,8 +5392,8 @@
     "name": {
       "de": "Titan-Kopfbedeckung des Schlagens",
       "en": "Titanium Headgear of Striking",
-      "fr": "Prot\u00e8ge-t\u00eate d'agresseur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d8\u30c3\u30c9\u30ae\u30a2"
+      "fr": "Protège-tête d'agresseur en titane",
+      "ja": "チタンストライカーヘッドギア"
     }
   },
   {
@@ -5415,7 +5406,7 @@
       "de": "Titan-Helm der Verteidigung",
       "en": "Titanium Helm of Fending",
       "fr": "Casque de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d8\u30eb\u30e0"
+      "ja": "チタンディフェンダーヘルム"
     }
   },
   {
@@ -5428,7 +5419,7 @@
       "de": "Titan-Barren",
       "en": "Titanium Ingot",
       "fr": "Lingot de titane",
-      "ja": "\u30c1\u30bf\u30f3\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "チタンインゴット"
     }
   },
   {
@@ -5438,10 +5429,10 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "de": "Titan-Maske des Verst\u00fcmmelns",
+      "de": "Titan-Maske des Verstümmelns",
       "en": "Titanium Mask of Maiming",
       "fr": "Masque d'abatteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30de\u30b9\u30af"
+      "ja": "チタンスレイヤーマスク"
     }
   },
   {
@@ -5454,7 +5445,7 @@
       "de": "Titan-Bauchreifen der Verteidigung",
       "en": "Titanium Tassets of Fending",
       "fr": "Tassette de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30bf\u30bb\u30c3\u30c8"
+      "ja": "チタンディフェンダータセット"
     }
   },
   {
@@ -5467,7 +5458,7 @@
       "de": "Titan-Unterarmschienen der Verteidigung",
       "en": "Titanium Vambraces of Fending",
       "fr": "Canons d'avant-bras de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "ja": "チタンディフェンダーヴァンブレイス"
     }
   },
   {
@@ -5477,10 +5468,10 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "de": "Titan-Unterarmschienen des Verst\u00fcmmelns",
+      "de": "Titan-Unterarmschienen des Verstümmelns",
       "en": "Titanium Vambraces of Maiming",
       "fr": "Canons d'avant-bras d'abatteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "ja": "チタンスレイヤーヴァンブレイス"
     }
   },
   {
@@ -5490,10 +5481,10 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "de": "Titan-Unterarmschienen des Sp\u00e4hens",
+      "de": "Titan-Unterarmschienen des Spähens",
       "en": "Titanium Vambraces of Scouting",
-      "fr": "Canons d'avant-bras d'\u00e9claireur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ab\u30a6\u30c8\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "fr": "Canons d'avant-bras d'éclaireur en titane",
+      "ja": "チタンスカウトヴァンブレイス"
     }
   },
   {
@@ -5506,7 +5497,7 @@
       "de": "Titan-Unterarmschienen des Schlagens",
       "en": "Titanium Vambraces of Striking",
       "fr": "Canons d'avant-bras d'agresseur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "ja": "チタンストライカーヴァンブレイス"
     }
   },
   {
@@ -5518,8 +5509,8 @@
     "name": {
       "de": "Mandragora-Bratpfanne",
       "en": "Mandragoras Frypan",
-      "fr": "Po\u00eale \u00e0 frire mandragores",
-      "ja": "\u30de\u30f3\u30c9\u30e9\u30fc\u30ba\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "fr": "Poêle à frire mandragores",
+      "ja": "マンドラーズフライパン"
     }
   },
   {
@@ -5529,10 +5520,10 @@
     "level": 142,
     "maxQuality": 5456,
     "name": {
-      "de": "Nah\u00f6stliche Antiquit\u00e4t",
+      "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
-      "fr": "Antiquit\u00e9 proche-orientale",
-      "ja": "\u8fd1\u6771\u98a8\u306e\u8490\u96c6\u54c1"
+      "fr": "Antiquité proche-orientale",
+      "ja": "近東風の蒐集品"
     }
   },
   {
@@ -5542,10 +5533,10 @@
     "level": 142,
     "maxQuality": 2728,
     "name": {
-      "de": "Komponente einer nah\u00f6stlichen Antiquit\u00e4t",
+      "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
-      "fr": "Composant d'antiquit\u00e9 proche-orientale",
-      "ja": "\u8fd1\u6771\u98a8\u306e\u8490\u96c6\u54c1\u90e8\u6750"
+      "fr": "Composant d'antiquité proche-orientale",
+      "ja": "近東風の蒐集品部材"
     }
   },
   {
@@ -5558,7 +5549,7 @@
       "de": "Titan-Destillierkolben",
       "en": "Titanium Alembic",
       "fr": "Alambic en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "チタンアレンビック"
     }
   },
   {
@@ -5568,10 +5559,10 @@
     "level": 142,
     "maxQuality": 6820,
     "name": {
-      "de": "Titan-K\u00fcrass der Verteidigung",
+      "de": "Titan-Kürass der Verteidigung",
       "en": "Titanium Cuirass of Fending",
       "fr": "Cuirasse de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "チタンディフェンダーキュイラス"
     }
   },
   {
@@ -5584,7 +5575,7 @@
       "de": "Titan-Aspis",
       "en": "Titanium Hoplon",
       "fr": "Hoplon en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30db\u30d7\u30ed\u30f3"
+      "ja": "チタンホプロン"
     }
   },
   {
@@ -5594,10 +5585,10 @@
     "level": 142,
     "maxQuality": 6820,
     "name": {
-      "de": "Titan-R\u00fcstung des Verst\u00fcmmelns",
+      "de": "Titan-Rüstung des Verstümmelns",
       "en": "Titanium Mail of Maiming",
       "fr": "Cotte de mailles d'abatteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30e1\u30a4\u30eb"
+      "ja": "チタンスレイヤーメイル"
     }
   },
   {
@@ -5607,10 +5598,10 @@
     "level": 142,
     "maxQuality": 6820,
     "name": {
-      "de": "Titan-R\u00fcstung des Sp\u00e4hens",
+      "de": "Titan-Rüstung des Spähens",
       "en": "Titanium Mail of Scouting",
-      "fr": "Cotte de mailles d'\u00e9claireur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ab\u30a6\u30c8\u30e1\u30a4\u30eb"
+      "fr": "Cotte de mailles d'éclaireur en titane",
+      "ja": "チタンスカウトメイル"
     }
   },
   {
@@ -5620,10 +5611,10 @@
     "level": 142,
     "maxQuality": 6820,
     "name": {
-      "de": "Titan-R\u00fcstung des Schlagens",
+      "de": "Titan-Rüstung des Schlagens",
       "en": "Titanium Mail of Striking",
       "fr": "Cotte de mailles d'agresseur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30e1\u30a4\u30eb"
+      "ja": "チタンストライカーメイル"
     }
   },
   {
@@ -5633,10 +5624,10 @@
     "level": 142,
     "maxQuality": 6820,
     "name": {
-      "de": "Titan-B\u00e4rlatschen der Verteidigung",
+      "de": "Titan-Bärlatschen der Verteidigung",
       "en": "Titanium Sabatons of Fending",
       "fr": "Sabatons de protecteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "ja": "チタンディフェンダーサバトン"
     }
   },
   {
@@ -5646,10 +5637,10 @@
     "level": 142,
     "maxQuality": 6820,
     "name": {
-      "de": "Titan-B\u00e4rlatschen des Sp\u00e4hens",
+      "de": "Titan-Bärlatschen des Spähens",
       "en": "Titanium Sabatons of Scouting",
-      "fr": "Sabatons d'\u00e9claireur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ab\u30a6\u30c8\u30b5\u30d0\u30c8\u30f3"
+      "fr": "Sabatons d'éclaireur en titane",
+      "ja": "チタンスカウトサバトン"
     }
   },
   {
@@ -5659,10 +5650,10 @@
     "level": 142,
     "maxQuality": 6820,
     "name": {
-      "de": "Titan-B\u00e4rlatschen des Schlagens",
+      "de": "Titan-Bärlatschen des Schlagens",
       "en": "Titanium Sabatons of Striking",
       "fr": "Sabatons d'agresseur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "ja": "チタンストライカーサバトン"
     }
   },
   {
@@ -5672,10 +5663,10 @@
     "level": 142,
     "maxQuality": 6820,
     "name": {
-      "de": "Titan-Sollerets des Verst\u00fcmmelns",
+      "de": "Titan-Sollerets des Verstümmelns",
       "en": "Titanium Sollerets of Maiming",
       "fr": "Solerets d'abatteur en titane",
-      "ja": "\u30c1\u30bf\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "チタンスレイヤーソルレット"
     }
   },
   {
@@ -5688,7 +5679,7 @@
       "de": "Adamantium-Panzerhandschuhe der Verteidigung",
       "en": "Adamantite Gauntlets of Fending",
       "fr": "Gantelets de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "アダマンディフェンダーガントレット"
     }
   },
   {
@@ -5698,10 +5689,10 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "de": "Adamantium-Panzerhandschuhe des Verst\u00fcmmelns",
+      "de": "Adamantium-Panzerhandschuhe des Verstümmelns",
       "en": "Adamantite Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "アダマンスレイヤーガントレット"
     }
   },
   {
@@ -5714,7 +5705,7 @@
       "de": "Adamantium-Helm der Verteidigung",
       "en": "Adamantite Helm of Fending",
       "fr": "Casque de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d8\u30eb\u30e0"
+      "ja": "アダマンディフェンダーヘルム"
     }
   },
   {
@@ -5724,10 +5715,10 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "de": "Adamantium-Helm des Verst\u00fcmmelns",
+      "de": "Adamantium-Helm des Verstümmelns",
       "en": "Adamantite Helm of Maiming",
       "fr": "Casque d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30d8\u30eb\u30e0"
+      "ja": "アダマンスレイヤーヘルム"
     }
   },
   {
@@ -5739,8 +5730,8 @@
     "name": {
       "de": "Adamantium-Nugget",
       "en": "Adamantite Nugget",
-      "fr": "P\u00e9pite d'adamant",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30ca\u30b2\u30c3\u30c8"
+      "fr": "Pépite d'adamant",
+      "ja": "アダマンナゲット"
     }
   },
   {
@@ -5753,7 +5744,7 @@
       "de": "Adamantium-Nieten",
       "en": "Adamantite Rivets",
       "fr": "Rivets en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30ea\u30d9\u30c3\u30c8"
+      "ja": "アダマンリベット"
     }
   },
   {
@@ -5763,10 +5754,10 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "de": "Adamantium-B\u00e4rlatschen der Verteidigung",
+      "de": "Adamantium-Bärlatschen der Verteidigung",
       "en": "Adamantite Sabatons of Fending",
       "fr": "Sabatons de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "ja": "アダマンディフェンダーサバトン"
     }
   },
   {
@@ -5776,10 +5767,10 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "de": "Adamantium-B\u00e4rlatschen des Verst\u00fcmmelns",
+      "de": "Adamantium-Bärlatschen des Verstümmelns",
       "en": "Adamantite Sabatons of Maiming",
       "fr": "Sabatons d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "ja": "アダマンスレイヤーサバトン"
     }
   },
   {
@@ -5792,7 +5783,7 @@
       "de": "Adamantium-Bauchreifen der Verteidigung",
       "en": "Adamantite Tassets of Fending",
       "fr": "Tassette de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30bf\u30bb\u30c3\u30c8"
+      "ja": "アダマンディフェンダータセット"
     }
   },
   {
@@ -5802,10 +5793,10 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "de": "Adamantium-Bauchreifen des Verst\u00fcmmelns",
+      "de": "Adamantium-Bauchreifen des Verstümmelns",
       "en": "Adamantite Tassets of Maiming",
       "fr": "Tassette d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30bf\u30bb\u30c3\u30c8"
+      "ja": "アダマンスレイヤータセット"
     }
   },
   {
@@ -5818,7 +5809,7 @@
       "de": "Coerthisches Souvenir",
       "en": "Coerthan Souvenir",
       "fr": "Souvenir du Coerthas",
-      "ja": "\u5bd2\u51b7\u5730\u306e\u540d\u7523\u54c1"
+      "ja": "寒冷地の名産品"
     }
   },
   {
@@ -5831,7 +5822,7 @@
       "de": "Komponente eines coerthischen Souvenirs",
       "en": "Coerthan Souvenir Component",
       "fr": "Composant de souvenir du Coerthas",
-      "ja": "\u5bd2\u51b7\u5730\u306e\u540d\u7523\u54c1\u90e8\u6750"
+      "ja": "寒冷地の名産品部材"
     }
   },
   {
@@ -5841,10 +5832,10 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "de": "Adamantium-K\u00f6rperpanzer der Verteidigung",
+      "de": "Adamantium-Körperpanzer der Verteidigung",
       "en": "Adamantite Armor of Fending",
       "fr": "Armure de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30a2\u30fc\u30de\u30fc"
+      "ja": "アダマンディフェンダーアーマー"
     }
   },
   {
@@ -5854,10 +5845,10 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "de": "Adamantium-K\u00f6rperpanzer des Verst\u00fcmmelns",
+      "de": "Adamantium-Körperpanzer des Verstümmelns",
       "en": "Adamantite Armor of Maiming",
       "fr": "Armure d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30a2\u30fc\u30de\u30fc"
+      "ja": "アダマンスレイヤーアーマー"
     }
   },
   {
@@ -5870,7 +5861,7 @@
       "de": "Adamantium-Beinkleid der Verteidigung",
       "en": "Adamantite Chain Hose of Fending",
       "fr": "Fuseau de mailles de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30c1\u30a7\u30fc\u30f3\u30db\u30fc\u30ba"
+      "ja": "アダマン・ディフェンダーチェーンホーズ"
     }
   },
   {
@@ -5880,10 +5871,10 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "de": "Adamantium-Beinkleid des Verst\u00fcmmelns",
+      "de": "Adamantium-Beinkleid des Verstümmelns",
       "en": "Adamantite Chain Hose of Maiming",
       "fr": "Fuseau de mailles d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30c1\u30a7\u30fc\u30f3\u30db\u30fc\u30ba"
+      "ja": "アダマン・スレイヤーチェーンホーズ"
     }
   },
   {
@@ -5895,8 +5886,8 @@
     "name": {
       "de": "Adamantium-Stirnreif der Verteidigung",
       "en": "Adamantite Circlet of Fending",
-      "fr": "Diad\u00e8me de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30fc\u30af\u30ec\u30c3\u30c8"
+      "fr": "Diadème de protecteur en adamantium",
+      "ja": "アダマンディフェンダーサークレット"
     }
   },
   {
@@ -5906,10 +5897,10 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "de": "Adamantium-Platteng\u00fcrtel der Verteidigung",
+      "de": "Adamantium-Plattengürtel der Verteidigung",
       "en": "Adamantite Plate Belt of Fending",
       "fr": "Ceinture de plaques de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "アダマン・ディフェンダープレートベルト"
     }
   },
   {
@@ -5922,7 +5913,7 @@
       "de": "Adamantium-Turmschild",
       "en": "Adamantite Scutum",
       "fr": "Scutum en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30af\u30c8\u30a5\u30e0"
+      "ja": "アダマンスクトゥム"
     }
   },
   {
@@ -5932,10 +5923,10 @@
     "level": 148,
     "maxQuality": 5871,
     "name": {
-      "de": "Mahlstrom-Ausr\u00fcstung",
+      "de": "Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel",
-      "fr": "\u00c9quipement militaire du Maelstrom",
-      "ja": "\u9ed2\u6e26\u56e3\u306e\u8ecd\u9700\u54c1"
+      "fr": "Équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品"
     }
   },
   {
@@ -5945,10 +5936,10 @@
     "level": 148,
     "maxQuality": 2935,
     "name": {
-      "de": "Komponente eines St\u00fccks Mahlstrom-Ausr\u00fcstung",
+      "de": "Komponente eines Stücks Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel Component",
-      "fr": "Composant d'\u00e9quipement militaire du Maelstrom",
-      "ja": "\u9ed2\u6e26\u56e3\u306e\u8ecd\u9700\u54c1\u90e8\u6750"
+      "fr": "Composant d'équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品部材"
     }
   },
   {
@@ -5961,7 +5952,7 @@
       "de": "Adamantium-Destillierkolben",
       "en": "Adamantite Alembic",
       "fr": "Alambic en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "アダマンアレンビック"
     }
   },
   {
@@ -5973,8 +5964,8 @@
     "name": {
       "de": "Adamantium-Bratpfanne",
       "en": "Adamantite Frypan",
-      "fr": "Po\u00eale \u00e0 frire en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "fr": "Poêle à frire en adamantium",
+      "ja": "アダマンフライパン"
     }
   },
   {
@@ -5987,7 +5978,7 @@
       "de": "Adamantium-Beinschienen der Verteidigung",
       "en": "Adamantite Greaves of Fending",
       "fr": "Jambards de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b0\u30ea\u30fc\u30f4"
+      "ja": "アダマンディフェンダーグリーヴ"
     }
   },
   {
@@ -6000,7 +5991,7 @@
       "de": "Adamantium-Aspis",
       "en": "Adamantite Hoplon",
       "fr": "Hoplon en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30db\u30d7\u30ed\u30f3"
+      "ja": "アダマンホプロン"
     }
   },
   {
@@ -6010,10 +6001,10 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "de": "Adamantium-Beinsch\u00fctzer des Verst\u00fcmmelns",
+      "de": "Adamantium-Beinschützer des Verstümmelns",
       "en": "Adamantite Leg Guards of Maiming",
-      "fr": "Prot\u00e8ge-jambes d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ec\u30c3\u30b0\u30ac\u30fc\u30c9"
+      "fr": "Protège-jambes d'abatteur en adamantium",
+      "ja": "アダマン・スレイヤーレッグガード"
     }
   },
   {
@@ -6026,7 +6017,7 @@
       "de": "Adamantium-Lorica der Verteidigung",
       "en": "Adamantite Lorica of Fending",
       "fr": "Lorica de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ed\u30ea\u30ab"
+      "ja": "アダマンディフェンダーロリカ"
     }
   },
   {
@@ -6036,10 +6027,10 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "de": "Adamantium-R\u00fcstung des Verst\u00fcmmelns",
+      "de": "Adamantium-Rüstung des Verstümmelns",
       "en": "Adamantite Mail of Maiming",
       "fr": "Cotte de mailles d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30e1\u30a4\u30eb"
+      "ja": "アダマンスレイヤーメイル"
     }
   },
   {
@@ -6049,10 +6040,10 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "de": "K\u00f6nigsgold-Sollerets der Heilung",
+      "de": "Königsgold-Sollerets der Heilung",
       "en": "Aurum Regis Sollerets of Healing",
       "fr": "Solerets de soigneur en aurum regis",
-      "ja": "\u30aa\u30fc\u30e9\u30e0\u30ec\u30ae\u30b9\u30fb\u30d2\u30fc\u30e9\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "オーラムレギス・ヒーラーソルレット"
     }
   },
   {
@@ -6064,8 +6055,8 @@
     "name": {
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
-      "fr": "Cadeau attentionn\u00e9",
-      "ja": "\u5fc3\u5c3d\u304f\u3057\u306e\u8d08\u7b54\u54c1"
+      "fr": "Cadeau attentionné",
+      "ja": "心尽くしの贈答品"
     }
   },
   {
@@ -6077,8 +6068,8 @@
     "name": {
       "de": "Komponente eines innigen Geschenks",
       "en": "Heartfelt Gift Component",
-      "fr": "Composant de cadeau attentionn\u00e9",
-      "ja": "\u5fc3\u5c3d\u304f\u3057\u306e\u8d08\u7b54\u54c1\u90e8\u6750"
+      "fr": "Composant de cadeau attentionné",
+      "ja": "心尽くしの贈答品部材"
     }
   },
   {
@@ -6091,7 +6082,7 @@
       "de": "Schwere Adamantium-Panzerhandschuhe der Verteidigung",
       "en": "Heavy Adamantite Gauntlets of Fending",
       "fr": "Gantelets de protecteur lourds en adamantium",
-      "ja": "\u30d8\u30f4\u30a3\u30fb\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ヘヴィ・アダマンディフェンダーガントレット"
     }
   },
   {
@@ -6104,7 +6095,7 @@
       "de": "Rittermantel der Verteidigung",
       "en": "Chivalric Coat of Fending",
       "fr": "Manteau de protecteur chevaleresque",
-      "ja": "\u30b7\u30d0\u30eb\u30ea\u30fc\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b3\u30fc\u30c8"
+      "ja": "シバルリー・ディフェンダーコート"
     },
     "stars": 1
   },
@@ -6115,10 +6106,10 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
-      "de": "Rittermantel des Verst\u00fcmmelns",
+      "de": "Rittermantel des Verstümmelns",
       "en": "Chivalric Coat of Maiming",
       "fr": "Manteau d'abatteur chevaleresque",
-      "ja": "\u30b7\u30d0\u30eb\u30ea\u30fc\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b3\u30fc\u30c8"
+      "ja": "シバルリー・スレイヤーコート"
     },
     "stars": 1
   },
@@ -6132,7 +6123,7 @@
       "de": "Bismarck-Rossharnisch",
       "en": "Expanse Barding",
       "fr": "Barde de Bismarck",
-      "ja": "\u30d3\u30b9\u30de\u30eb\u30af\u30fb\u30d0\u30fc\u30c9"
+      "ja": "ビスマルク・バード"
     },
     "stars": 1
   },
@@ -6146,7 +6137,7 @@
       "de": "Gordischer Stuhl",
       "en": "Gordian Chair",
       "fr": "Assise gordienne",
-      "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u6905\u5b50"
+      "ja": "ゴルディオンの椅子"
     },
     "stars": 1
   },
@@ -6160,7 +6151,7 @@
       "de": "Ravana-Rossharnisch",
       "en": "Hive Barding",
       "fr": "Barde de Ravana",
-      "ja": "\u30e9\u30fc\u30f4\u30a1\u30ca\u30fb\u30d0\u30fc\u30c9"
+      "ja": "ラーヴァナ・バード"
     },
     "stars": 1
   },
@@ -6174,7 +6165,7 @@
       "de": "Eisenzwerg",
       "en": "Iron Dwarf",
       "fr": "Nain d'acier",
-      "ja": "\u9244\u5c0f\u4eba"
+      "ja": "鉄小人"
     },
     "stars": 1
   },
@@ -6188,7 +6179,7 @@
       "de": "Waisenhaus-Spende",
       "en": "Orphanage Donation",
       "fr": "Article quotidien d'orphelinat",
-      "ja": "\u5b64\u5150\u9662\u306e\u65e5\u7528\u54c1"
+      "ja": "孤児院の日用品"
     },
     "stars": 1
   },
@@ -6202,7 +6193,7 @@
       "de": "Komponente einer Waisenhaus-Spende",
       "en": "Orphanage Donation Component",
       "fr": "Composant d'article pour orphelinat",
-      "ja": "\u5b64\u5150\u9662\u306e\u65e5\u7528\u54c1\u90e8\u6750"
+      "ja": "孤児院の日用品部材"
     },
     "stars": 1
   },
@@ -6215,8 +6206,8 @@
     "name": {
       "de": "Dampf-Stampfer",
       "en": "Steam-powered Gobwalker G-VII",
-      "fr": "Gobblind\u00e9 G-VII \u00e0 vapeur",
-      "ja": "VII\u53f7\u30b9\u30c1\u30fc\u30e0\u30a6\u30a9\u30fc\u30ab\u30fc"
+      "fr": "Gobblindé G-VII à vapeur",
+      "ja": "VII号スチームウォーカー"
     },
     "stars": 1
   },
@@ -6227,10 +6218,10 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
-      "de": "Titanlegierungs-Pl\u00e4ttchen",
+      "de": "Titanlegierungs-Plättchen",
       "en": "Titanium Alloy Square",
       "fr": "Plaquette en alliage de titane",
-      "ja": "\u30c1\u30bf\u30f3\u30a2\u30ed\u30a4\u30d7\u30ec\u30fc\u30c8\u30ec\u30c3\u30c8"
+      "ja": "チタンアロイプレートレット"
     },
     "stars": 1
   },
@@ -6244,7 +6235,7 @@
       "de": "Adamantium-Barbuta der Verteidigung",
       "en": "Adamantite Barbut of Fending",
       "fr": "Barbute de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+      "ja": "アダマンディフェンダーバルビュート"
     },
     "stars": 2
   },
@@ -6255,10 +6246,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Adamantium-Barbuta des Verst\u00fcmmelns",
+      "de": "Adamantium-Barbuta des Verstümmelns",
       "en": "Adamantite Barbut of Maiming",
       "fr": "Barbute d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+      "ja": "アダマンスレイヤーバルビュート"
     },
     "stars": 2
   },
@@ -6272,7 +6263,7 @@
       "de": "Adamantium-Barren",
       "en": "Adamantite Ingot",
       "fr": "Lingot d'adamant",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "アダマンインゴット"
     },
     "stars": 2
   },
@@ -6283,10 +6274,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Adamantium-Plattenr\u00fcstung der Verteidigung",
+      "de": "Adamantium-Plattenrüstung der Verteidigung",
       "en": "Adamantite Pauldroncoat of Fending",
       "fr": "Manteau de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b3\u30fc\u30c8"
+      "ja": "アダマンディフェンダーコート"
     },
     "stars": 2
   },
@@ -6297,10 +6288,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Adamantium-Plattenr\u00fcstung des Verst\u00fcmmelns",
+      "de": "Adamantium-Plattenrüstung des Verstümmelns",
       "en": "Adamantite Pauldroncoat of Maiming",
       "fr": "Manteau d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30b3\u30fc\u30c8"
+      "ja": "アダマンスレイヤーコート"
     },
     "stars": 2
   },
@@ -6314,7 +6305,7 @@
       "de": "Adamantium-Sollerets der Verteidigung",
       "en": "Adamantite Sollerets of Fending",
       "fr": "Solerets de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "アダマンディフェンダーソルレット"
     },
     "stars": 2
   },
@@ -6325,10 +6316,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Adamantium-Sollerets des Verst\u00fcmmelns",
+      "de": "Adamantium-Sollerets des Verstümmelns",
       "en": "Adamantite Sollerets of Maiming",
       "fr": "Solerets d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "ja": "アダマンスレイヤーソルレット"
     },
     "stars": 2
   },
@@ -6342,7 +6333,7 @@
       "de": "Adamantium-Unterarmschienen der Verteidigung",
       "en": "Adamantite Vambraces of Fending",
       "fr": "Canons d'avant-bras de protecteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "ja": "アダマンディフェンダーヴァンブレイス"
     },
     "stars": 2
   },
@@ -6353,10 +6344,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Adamantium-Unterarmschienen des Verst\u00fcmmelns",
+      "de": "Adamantium-Unterarmschienen des Verstümmelns",
       "en": "Adamantite Vambraces of Maiming",
       "fr": "Canons d'avant-bras d'abatteur en adamantium",
-      "ja": "\u30a2\u30c0\u30de\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "ja": "アダマンスレイヤーヴァンブレイス"
     },
     "stars": 2
   },
@@ -6370,12 +6361,11 @@
       "de": "Labormeister-Destillierkolben",
       "en": "Cauldronmaster's Alembic",
       "fr": "Alambic d'expert des mixtures",
-      "ja": "\u30b3\u30eb\u30c9\u30ed\u30f3\u30de\u30b9\u30bf\u30fc\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "コルドロンマスターアレンビック"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6384,13 +6374,12 @@
     "name": {
       "de": "Turmschild der Kolonie",
       "en": "Dead Hive Scutum",
-      "fr": "Scutum du Ma\u00eetre des lames",
-      "ja": "\u30cf\u30a4\u30f4\u30b9\u30af\u30c8\u30a5\u30e0"
+      "fr": "Scutum du Maître des lames",
+      "ja": "ハイヴスクトゥム"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6400,7 +6389,7 @@
       "de": "Schild der endlosen Weiten",
       "en": "Endless Expanse Shield",
       "fr": "Bouclier rond du Migrateur",
-      "ja": "\u30a8\u30af\u30b9\u30d1\u30f3\u30b9\u30b7\u30fc\u30eb\u30c9"
+      "ja": "エクスパンスシールド"
     },
     "stars": 2
   },
@@ -6413,8 +6402,8 @@
     "name": {
       "de": "Feinschmeckermeister-Bratpfanne",
       "en": "Galleymaster's Frypan",
-      "fr": "Po\u00eale d'expert des fourneaux",
-      "ja": "\u30ac\u30ea\u30fc\u30de\u30b9\u30bf\u30fc\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "fr": "Poêle d'expert des fourneaux",
+      "ja": "ガリーマスターフライパン"
     },
     "stars": 2
   },
@@ -6427,8 +6416,8 @@
     "name": {
       "de": "Verzinkter Garlond-Stahl",
       "en": "Galvanized Garlond Steel",
-      "fr": "Acier de Garlond galvanis\u00e9",
-      "ja": "\u8d85\u786c\u30ac\u30fc\u30ed\u30f3\u30c9\u92fc"
+      "fr": "Acier de Garlond galvanisé",
+      "ja": "超硬ガーロンド鋼"
     },
     "stars": 2
   },
@@ -6439,10 +6428,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "R\u00fcstungsschmiedemeister-Visier",
+      "de": "Rüstungsschmiedemeister-Visier",
       "en": "Hammermaster's Visor",
-      "fr": "Visi\u00e8re d'expert de la fonderie",
-      "ja": "\u30cf\u30f3\u30de\u30fc\u30de\u30b9\u30bf\u30fc\u30d0\u30a4\u30b6\u30fc"
+      "fr": "Visière d'expert de la fonderie",
+      "ja": "ハンマーマスターバイザー"
     },
     "stars": 2
   },
@@ -6455,8 +6444,8 @@
     "name": {
       "de": "Edelmythrit-Nugget",
       "en": "High Mythrite Nugget",
-      "fr": "P\u00e9pite de mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30ca\u30b2\u30c3\u30c8"
+      "fr": "Pépite de mithrite noble",
+      "ja": "ハイミスライトナゲット"
     },
     "stars": 2
   },
@@ -6467,10 +6456,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Allagischer K\u00fcrass des Zielens (Replik)",
+      "de": "Allagischer Kürass des Zielens (Replik)",
       "en": "Replica Allagan Cuirass of Aiming",
-      "fr": "R\u00e9plique de cuirasse de pisteur allagoise",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "fr": "Réplique de cuirasse de pisteur allagoise",
+      "ja": "レプリカ・アラガンレンジャーキュイラス"
     },
     "stars": 2
   },
@@ -6481,10 +6470,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Allagischer K\u00fcrass des Verst\u00fcmmelns (Replik)",
+      "de": "Allagischer Kürass des Verstümmelns (Replik)",
       "en": "Replica Allagan Cuirass of Maiming",
-      "fr": "R\u00e9plique de cuirasse d'abatteur allagoise",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "fr": "Réplique de cuirasse d'abatteur allagoise",
+      "ja": "レプリカ・アラガンスレイヤーキュイラス"
     },
     "stars": 2
   },
@@ -6495,10 +6484,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Allagischer K\u00fcrass des Schlagens (Replik)",
+      "de": "Allagischer Kürass des Schlagens (Replik)",
       "en": "Replica Allagan Cuirass of Striking",
-      "fr": "R\u00e9plique de cuirasse d'agresseur allagoise",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "fr": "Réplique de cuirasse d'agresseur allagoise",
+      "ja": "レプリカ・アラガンストライカーキュイラス"
     },
     "stars": 2
   },
@@ -6511,8 +6500,8 @@
     "name": {
       "de": "Allagische Armschienen des Zielens (Replik)",
       "en": "Replica Allagan Gauntlets of Aiming",
-      "fr": "R\u00e9pliques de gantelets de pisteur allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Répliques de gantelets de pisteur allagois",
+      "ja": "レプリカ・アラガンレンジャーガントレット"
     },
     "stars": 2
   },
@@ -6523,10 +6512,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Allagische Armschienen des Verst\u00fcmmelns (Replik)",
+      "de": "Allagische Armschienen des Verstümmelns (Replik)",
       "en": "Replica Allagan Gauntlets of Maiming",
-      "fr": "R\u00e9pliques de gantelets d'abatteur allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Répliques de gantelets d'abatteur allagois",
+      "ja": "レプリカ・アラガンスレイヤーガントレット"
     },
     "stars": 2
   },
@@ -6539,8 +6528,8 @@
     "name": {
       "de": "Allagische Armschienen des Schlagens (Replik)",
       "en": "Replica Allagan Gauntlets of Striking",
-      "fr": "R\u00e9pliques de gantelets d'agresseur allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Répliques de gantelets d'agresseur allagois",
+      "ja": "レプリカ・アラガンストライカーガントレット"
     },
     "stars": 2
   },
@@ -6553,8 +6542,8 @@
     "name": {
       "de": "Allagischer Helm (Replik)",
       "en": "Replica Allagan Helm",
-      "fr": "R\u00e9plique de heaume allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30d8\u30eb\u30e0"
+      "fr": "Réplique de heaume allagois",
+      "ja": "レプリカ・アラガンヘルム"
     },
     "stars": 2
   },
@@ -6567,8 +6556,8 @@
     "name": {
       "de": "Allagische Sollerets des Zielens (Replik)",
       "en": "Replica Allagan Sollerets of Aiming",
-      "fr": "R\u00e9pliques de solerets de pisteur allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "fr": "Répliques de solerets de pisteur allagois",
+      "ja": "レプリカ・アラガンレンジャーソルレット"
     },
     "stars": 2
   },
@@ -6579,10 +6568,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Allagische Sollerets des Verst\u00fcmmelns (Replik)",
+      "de": "Allagische Sollerets des Verstümmelns (Replik)",
       "en": "Replica Allagan Sollerets of Maiming",
-      "fr": "R\u00e9pliques de solerets d'abatteur allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "fr": "Répliques de solerets d'abatteur allagois",
+      "ja": "レプリカ・アラガンスレイヤーソルレット"
     },
     "stars": 2
   },
@@ -6595,8 +6584,8 @@
     "name": {
       "de": "Allagische Sollerets des Schlagens (Replik)",
       "en": "Replica Allagan Sollerets of Striking",
-      "fr": "R\u00e9pliques de solerets d'agresseur allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30bd\u30eb\u30ec\u30c3\u30c8"
+      "fr": "Répliques de solerets d'agresseur allagois",
+      "ja": "レプリカ・アラガンストライカーソルレット"
     },
     "stars": 2
   },
@@ -6609,8 +6598,8 @@
     "name": {
       "de": "Allagisches Visier des Zielens (Replik)",
       "en": "Replica Allagan Visor of Aiming",
-      "fr": "R\u00e9plique de visi\u00e8re de pisteur allagoise",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30ec\u30f3\u30b8\u30e3\u30fc\u30d0\u30a4\u30b6\u30fc"
+      "fr": "Réplique de visière de pisteur allagoise",
+      "ja": "レプリカ・アラガンレンジャーバイザー"
     },
     "stars": 2
   },
@@ -6621,10 +6610,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Allagisches Visier des Verst\u00fcmmelns (Replik)",
+      "de": "Allagisches Visier des Verstümmelns (Replik)",
       "en": "Replica Allagan Visor of Maiming",
-      "fr": "R\u00e9plique de visi\u00e8re d'abatteur allagoise",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30ec\u30a4\u30e4\u30fc\u30d0\u30a4\u30b6\u30fc"
+      "fr": "Réplique de visière d'abatteur allagoise",
+      "ja": "レプリカ・アラガンスレイヤーバイザー"
     },
     "stars": 2
   },
@@ -6637,8 +6626,8 @@
     "name": {
       "de": "Allagisches Visier des Schlagens (Replik)",
       "en": "Replica Allagan Visor of Striking",
-      "fr": "R\u00e9plique de visi\u00e8re d'agresseur allagoise",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d0\u30a4\u30b6\u30fc"
+      "fr": "Réplique de visière d'agresseur allagoise",
+      "ja": "レプリカ・アラガンストライカーバイザー"
     },
     "stars": 2
   },
@@ -6649,10 +6638,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Drachengott-K\u00f6rperpanzer der Verteidigung (Replik)",
+      "de": "Drachengott-Körperpanzer der Verteidigung (Replik)",
       "en": "Replica Dreadwyrm Armor of Fending",
-      "fr": "R\u00e9plique d'armure de protecteur du Dragon-dieu",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30a2\u30fc\u30de\u30fc"
+      "fr": "Réplique d'armure de protecteur du Dragon-dieu",
+      "ja": "レプリカ・バハムート・ディフェンダーアーマー"
     },
     "stars": 2
   },
@@ -6663,10 +6652,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Drachengott-Barbuta des Verst\u00fcmmelns (Replik)",
+      "de": "Drachengott-Barbuta des Verstümmelns (Replik)",
       "en": "Replica Dreadwyrm Barbut of Maiming",
-      "fr": "R\u00e9plique de barbute d'abatteur du Dragon-dieu",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d0\u30eb\u30d3\u30e5\u30fc\u30c8"
+      "fr": "Réplique de barbute d'abatteur du Dragon-dieu",
+      "ja": "レプリカ・バハムート・スレイヤーバルビュート"
     },
     "stars": 2
   },
@@ -6679,8 +6668,8 @@
     "name": {
       "de": "Drachengott-Panzerhandschuhe der Verteidigung (Replik)",
       "en": "Replica Dreadwyrm Gauntlets of Fending",
-      "fr": "R\u00e9pliques de gantelets de protecteur du Dragon-dieu",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Répliques de gantelets de protecteur du Dragon-dieu",
+      "ja": "レプリカ・バハムート・ディフェンダーガントレット"
     },
     "stars": 2
   },
@@ -6693,8 +6682,8 @@
     "name": {
       "de": "Drachengott-Beinschienen des Zielens (Replik)",
       "en": "Replica Dreadwyrm Greaves of Aiming",
-      "fr": "R\u00e9pliques de jambards de pisteur du Dragon-dieu",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30b0\u30ea\u30fc\u30f4"
+      "fr": "Répliques de jambards de pisteur du Dragon-dieu",
+      "ja": "レプリカ・バハムート・レンジャーグリーヴ"
     },
     "stars": 2
   },
@@ -6705,10 +6694,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Drachengott-Beinschienen des Verst\u00fcmmelns (Replik)",
+      "de": "Drachengott-Beinschienen des Verstümmelns (Replik)",
       "en": "Replica Dreadwyrm Greaves of Maiming",
-      "fr": "R\u00e9pliques de jambards d'abatteur du Dragon-dieu",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b0\u30ea\u30fc\u30f4"
+      "fr": "Répliques de jambards d'abatteur du Dragon-dieu",
+      "ja": "レプリカ・バハムート・スレイヤーグリーヴ"
     },
     "stars": 2
   },
@@ -6719,10 +6708,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Drachengott-R\u00fcstung des Verst\u00fcmmelns (Replik)",
+      "de": "Drachengott-Rüstung des Verstümmelns (Replik)",
       "en": "Replica Dreadwyrm Mail of Maiming",
-      "fr": "R\u00e9plique de maille d'abatteur du Dragon-dieu",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30e1\u30a4\u30eb"
+      "fr": "Réplique de maille d'abatteur du Dragon-dieu",
+      "ja": "レプリカ・バハムート・スレイヤーメイル"
     },
     "stars": 2
   },
@@ -6733,10 +6722,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Drachengott-B\u00e4rlatschen der Verteidigung (Replik)",
+      "de": "Drachengott-Bärlatschen der Verteidigung (Replik)",
       "en": "Replica Dreadwyrm Sabatons of Fending",
-      "fr": "R\u00e9pliques de sabatons de protecteur du Dragon-dieu",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "fr": "Répliques de sabatons de protecteur du Dragon-dieu",
+      "ja": "レプリカ・バハムート・ディフェンダーサバトン"
     },
     "stars": 2
   },
@@ -6747,10 +6736,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Drachengott-Unterarmschienen des Verst\u00fcmmelns (Replik)",
+      "de": "Drachengott-Unterarmschienen des Verstümmelns (Replik)",
       "en": "Replica Dreadwyrm Vambraces of Maiming",
-      "fr": "R\u00e9pliques de canons d'avant-bras d'abatteur du Dragon-dieu",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d0\u30cf\u30e0\u30fc\u30c8\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30f4\u30a1\u30f3\u30d6\u30ec\u30a4\u30b9"
+      "fr": "Répliques de canons d'avant-bras d'abatteur du Dragon-dieu",
+      "ja": "レプリカ・バハムート・スレイヤーヴァンブレイス"
     },
     "stars": 2
   },
@@ -6761,10 +6750,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Schwerer allagischer K\u00f6rperpanzer (Replik)",
+      "de": "Schwerer allagischer Körperpanzer (Replik)",
       "en": "Replica Heavy Allagan Armor",
-      "fr": "R\u00e9plique d'armure lourde allagoise",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d8\u30f4\u30a3\u30a2\u30e9\u30ac\u30f3\u30a2\u30fc\u30de\u30fc"
+      "fr": "Réplique d'armure lourde allagoise",
+      "ja": "レプリカ・ヘヴィアラガンアーマー"
     },
     "stars": 2
   },
@@ -6775,10 +6764,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Schwere allagische Schenkelsch\u00fctzer (Replik)",
+      "de": "Schwere allagische Schenkelschützer (Replik)",
       "en": "Replica Heavy Allagan Cuisses",
-      "fr": "R\u00e9pliques de cuissots lourds allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d8\u30f4\u30a3\u30a2\u30e9\u30ac\u30f3\u30af\u30a6\u30a3\u30b9"
+      "fr": "Répliques de cuissots lourds allagois",
+      "ja": "レプリカ・ヘヴィアラガンクウィス"
     },
     "stars": 2
   },
@@ -6789,10 +6778,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Schwerer allagischer Flankensch\u00fctzer (Replik)",
+      "de": "Schwerer allagischer Flankenschützer (Replik)",
       "en": "Replica Heavy Allagan Flanchard",
-      "fr": "R\u00e9pliques de cuissi\u00e8res lourdes allagoises",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d8\u30f4\u30a3\u30a2\u30e9\u30ac\u30f3\u30d5\u30e9\u30f3\u30c1\u30e3\u30fc\u30c9"
+      "fr": "Répliques de cuissières lourdes allagoises",
+      "ja": "レプリカ・ヘヴィアラガンフランチャード"
     },
     "stars": 2
   },
@@ -6805,8 +6794,8 @@
     "name": {
       "de": "Schwere allagische Panzerhandschuhe (Replik)",
       "en": "Replica Heavy Allagan Gauntlets",
-      "fr": "R\u00e9pliques de gantelets lourds allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30d8\u30f4\u30a3\u30a2\u30e9\u30ac\u30f3\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Répliques de gantelets lourds allagois",
+      "ja": "レプリカ・ヘヴィアラガンガントレット"
     },
     "stars": 2
   },
@@ -6819,8 +6808,8 @@
     "name": {
       "de": "Schwerer hochallagischer Mantel (Replik)",
       "en": "Replica Heavy High Allagan Coat",
-      "fr": "R\u00e9plique de paletot haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30d8\u30f4\u30a3\u30b3\u30fc\u30c8"
+      "fr": "Réplique de paletot haut-allagois",
+      "ja": "レプリカ・ハイアラガン・ヘヴィコート"
     },
     "stars": 2
   },
@@ -6831,10 +6820,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Hochallagischer K\u00fcrass des Verst\u00fcmmelns (Replik)",
+      "de": "Hochallagischer Kürass des Verstümmelns (Replik)",
       "en": "Replica High Allagan Cuirass of Maiming",
-      "fr": "R\u00e9plique de cuirasse d'abatteur haut-allagoise",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "fr": "Réplique de cuirasse d'abatteur haut-allagoise",
+      "ja": "レプリカ・ハイアラガン・スレイヤーキュイラス"
     },
     "stars": 2
   },
@@ -6845,10 +6834,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Hochallagischer K\u00fcrass des Schlagens (Replik)",
+      "de": "Hochallagischer Kürass des Schlagens (Replik)",
       "en": "Replica High Allagan Cuirass of Striking",
-      "fr": "R\u00e9plique de cuirasse d'agresseur haut-allagoise",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "fr": "Réplique de cuirasse d'agresseur haut-allagoise",
+      "ja": "レプリカ・ハイアラガン・ストライカーキュイラス"
     },
     "stars": 2
   },
@@ -6861,8 +6850,8 @@
     "name": {
       "de": "Hochallagische Panzerhandschuhe der Verteidigung (Replik)",
       "en": "Replica High Allagan Gauntlets of Fending",
-      "fr": "R\u00e9pliques de gantelets de protecteur haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Répliques de gantelets de protecteur haut-allagois",
+      "ja": "レプリカ・ハイアラガン・ディフェンダーガントレット"
     },
     "stars": 2
   },
@@ -6873,10 +6862,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Hochallagische Panzerhandschuhe des Verst\u00fcmmelns (Replik)",
+      "de": "Hochallagische Panzerhandschuhe des Verstümmelns (Replik)",
       "en": "Replica High Allagan Gauntlets of Maiming",
-      "fr": "R\u00e9pliques de gantelets d'abatteur haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Répliques de gantelets d'abatteur haut-allagois",
+      "ja": "レプリカ・ハイアラガン・スレイヤーガントレット"
     },
     "stars": 2
   },
@@ -6889,8 +6878,8 @@
     "name": {
       "de": "Hochallagische Panzerhandschuhe des Schlagens (Replik)",
       "en": "Replica High Allagan Gauntlets of Striking",
-      "fr": "R\u00e9pliques de gantelets d'agresseur haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Répliques de gantelets d'agresseur haut-allagois",
+      "ja": "レプリカ・ハイアラガン・ストライカーガントレット"
     },
     "stars": 2
   },
@@ -6901,10 +6890,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Hochallagische Kopfbedeckung des Verst\u00fcmmelns (Replik)",
+      "de": "Hochallagische Kopfbedeckung des Verstümmelns (Replik)",
       "en": "Replica High Allagan Headgear of Maiming",
-      "fr": "R\u00e9plique de prot\u00e8ge-t\u00eate d'abatteur haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d8\u30c3\u30c9\u30ae\u30a2"
+      "fr": "Réplique de protège-tête d'abatteur haut-allagois",
+      "ja": "レプリカ・ハイアラガン・スレイヤーヘッドギア"
     },
     "stars": 2
   },
@@ -6917,8 +6906,8 @@
     "name": {
       "de": "Hochallagische Kopfbedeckung des Schlagens (Replik)",
       "en": "Replica High Allagan Headgear of Striking",
-      "fr": "R\u00e9plique de prot\u00e8ge-t\u00eate d'agresseur haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30d8\u30c3\u30c9\u30ae\u30a2"
+      "fr": "Réplique de protège-tête d'agresseur haut-allagois",
+      "ja": "レプリカ・ハイアラガン・ストライカーヘッドギア"
     },
     "stars": 2
   },
@@ -6929,10 +6918,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Hochallagische B\u00e4rlatschen der Verteidigung (Replik)",
+      "de": "Hochallagische Bärlatschen der Verteidigung (Replik)",
       "en": "Replica High Allagan Sabatons of Fending",
-      "fr": "R\u00e9pliques de sabatons de protecteur haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "fr": "Répliques de sabatons de protecteur haut-allagois",
+      "ja": "レプリカ・ハイアラガン・ディフェンダーサバトン"
     },
     "stars": 2
   },
@@ -6943,10 +6932,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Hochallagische B\u00e4rlatschen des Verst\u00fcmmelns (Replik)",
+      "de": "Hochallagische Bärlatschen des Verstümmelns (Replik)",
       "en": "Replica High Allagan Sabatons of Maiming",
-      "fr": "R\u00e9pliques de sabatons d'abatteur haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "fr": "Répliques de sabatons d'abatteur haut-allagois",
+      "ja": "レプリカ・ハイアラガン・スレイヤーサバトン"
     },
     "stars": 2
   },
@@ -6957,10 +6946,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Hochallagische B\u00e4rlatschen des Schlagens (Replik)",
+      "de": "Hochallagische Bärlatschen des Schlagens (Replik)",
       "en": "Replica High Allagan Sabatons of Striking",
-      "fr": "R\u00e9pliques de sabatons d'agresseur haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "fr": "Répliques de sabatons d'agresseur haut-allagois",
+      "ja": "レプリカ・ハイアラガン・ストライカーサバトン"
     },
     "stars": 2
   },
@@ -6973,8 +6962,8 @@
     "name": {
       "de": "Epischer gordischer Stuhl",
       "en": "Savage Gordian Chair",
-      "fr": "Assise gordienne ornement\u00e9e",
-      "ja": "\u30b4\u30eb\u30c7\u30a3\u30aa\u30f3\u306e\u6905\u5b50\u3010\u96f6\u5f0f\u3011"
+      "fr": "Assise gordienne ornementée",
+      "ja": "ゴルディオンの椅子【零式】"
     },
     "stars": 2
   },
@@ -6988,7 +6977,7 @@
       "de": "Luftpiraten-Mantel der Verteidigung",
       "en": "Sky Pirate's Coat of Fending",
       "fr": "Manteau de protecteur de pirate des cieux",
-      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b3\u30fc\u30c8"
+      "ja": "スカイパイレーツ・ディフェンダーコート"
     },
     "stars": 2
   },
@@ -6999,10 +6988,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Luftpiraten-Mantel des Verst\u00fcmmelns",
+      "de": "Luftpiraten-Mantel des Verstümmelns",
       "en": "Sky Pirate's Coat of Maiming",
       "fr": "Manteau d'abatteur de pirate des cieux",
-      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b3\u30fc\u30c8"
+      "ja": "スカイパイレーツ・スレイヤーコート"
     },
     "stars": 2
   },
@@ -7016,7 +7005,7 @@
       "de": "Luftpiraten-Panzerhandschuhe der Verteidigung",
       "en": "Sky Pirate's Gauntlets of Fending",
       "fr": "Gantelets de protecteur de pirate des cieux",
-      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "スカイパイレーツ・ディフェンダーガントレット"
     },
     "stars": 2
   },
@@ -7027,10 +7016,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Luftpiraten-Panzerhandschuhe des Verst\u00fcmmelns",
+      "de": "Luftpiraten-Panzerhandschuhe des Verstümmelns",
       "en": "Sky Pirate's Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur de pirate des cieux",
-      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "スカイパイレーツ・スレイヤーガントレット"
     },
     "stars": 2
   },
@@ -7044,7 +7033,7 @@
       "de": "Luftpiraten-Helm der Verteidigung",
       "en": "Sky Pirate's Helm of Fending",
       "fr": "Casque de protecteur de pirate des cieux",
-      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d8\u30eb\u30e0"
+      "ja": "スカイパイレーツ・ディフェンダーヘルム"
     },
     "stars": 2
   },
@@ -7055,12 +7044,26 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "Luftpiraten-Helm des Verst\u00fcmmelns",
+      "de": "Luftpiraten-Helm des Verstümmelns",
       "en": "Sky Pirate's Helm of Maiming",
       "fr": "Casque d'abatteur de pirate des cieux",
-      "ja": "\u30b9\u30ab\u30a4\u30d1\u30a4\u30ec\u30fc\u30c4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d8\u30eb\u30e0"
+      "ja": "スカイパイレーツ・スレイヤーヘルム"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 11814,
+    "name": {
+      "de": "Wolken-Mithril-Barren",
+      "en": "Cloud Mythril Ingot",
+      "fr": "Lingot de mithril céleste",
+      "ja": "クラウドミスリルインゴット"
+    },
+    "stars": 3
   },
   {
     "baseLevel": 60,
@@ -7071,8 +7074,8 @@
     "name": {
       "de": "Faust-Trainingspuppe",
       "en": "Faust Striking Dummy",
-      "fr": "Mannequin d'entra\u00eenement faust",
-      "ja": "\u30d5\u30a1\u30a6\u30b9\u30c8\u30c0\u30df\u30fc"
+      "fr": "Mannequin d'entraînement faust",
+      "ja": "ファウストダミー"
     },
     "stars": 3
   },
@@ -7086,7 +7089,7 @@
       "de": "Edelmythrit-Destillierkolben",
       "en": "High Mythrite Alembic",
       "fr": "Alambic en mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30a2\u30ec\u30f3\u30d3\u30c3\u30af"
+      "ja": "ハイミスライトアレンビック"
     },
     "stars": 3
   },
@@ -7097,10 +7100,10 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Edelmythrit-K\u00fcrass der Verteidigung",
+      "de": "Edelmythrit-Kürass der Verteidigung",
       "en": "High Mythrite Cuirass of Fending",
       "fr": "Cuirasse de protecteur en mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "ja": "ハイミスライト・ディフェンダーキュイラス"
     },
     "stars": 3
   },
@@ -7113,8 +7116,8 @@
     "name": {
       "de": "Edelmythrit-Bratpfanne",
       "en": "High Mythrite Frypan",
-      "fr": "Po\u00eale \u00e0 frire en mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30d5\u30e9\u30a4\u30d1\u30f3"
+      "fr": "Poêle à frire en mithrite noble",
+      "ja": "ハイミスライトフライパン"
     },
     "stars": 3
   },
@@ -7128,7 +7131,7 @@
       "de": "Edelmythrit-Panzerhandschuhe der Verteidigung",
       "en": "High Mythrite Gauntlets of Fending",
       "fr": "Gantelets de protecteur en mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "ja": "ハイミスライト・ディフェンダーガントレット"
     },
     "stars": 3
   },
@@ -7142,7 +7145,7 @@
       "de": "Edelmythrit-Helm der Verteidigung",
       "en": "High Mythrite Helm of Fending",
       "fr": "Casque de protecteur en mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d8\u30eb\u30e0"
+      "ja": "ハイミスライト・ディフェンダーヘルム"
     },
     "stars": 3
   },
@@ -7156,7 +7159,7 @@
       "de": "Edelmythritbarren",
       "en": "High Mythrite Ingot",
       "fr": "Lingot de mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "ja": "ハイミスライトインゴット"
     },
     "stars": 3
   },
@@ -7167,10 +7170,10 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Edelmythrit-Platteng\u00fcrtel der Verteidigung",
+      "de": "Edelmythrit-Plattengürtel der Verteidigung",
       "en": "High Mythrite Plate Belt of Fending",
       "fr": "Ceinture de plaques en mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "ja": "ハイミスライト・ディフェンダープレートベルト"
     },
     "stars": 3
   },
@@ -7181,10 +7184,10 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Edelmythrit-B\u00e4rlatschen der Verteidigung",
+      "de": "Edelmythrit-Bärlatschen der Verteidigung",
       "en": "High Mythrite Sabatons of Fending",
       "fr": "Sabatons en mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "ja": "ハイミスライト・ディフェンダーサバトン"
     },
     "stars": 3
   },
@@ -7195,10 +7198,10 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Edelmythrit-Platteng\u00fcrtel des Verst\u00fcmmelns",
+      "de": "Edelmythrit-Plattengürtel des Verstümmelns",
       "en": "High Mythrite Tassets of Maiming",
       "fr": "Tassette d'abatteur en mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30bf\u30bb\u30c3\u30c8"
+      "ja": "ハイミスライト・スレイヤータセット"
     },
     "stars": 3
   },
@@ -7209,10 +7212,10 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "Edelmythrit-Platteng\u00fcrtel des Schlagens",
+      "de": "Edelmythrit-Plattengürtel des Schlagens",
       "en": "High Mythrite Tassets of Striking",
       "fr": "Tassette d'agresseur en mithrite noble",
-      "ja": "\u30cf\u30a4\u30df\u30b9\u30e9\u30a4\u30c8\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30bf\u30bb\u30c3\u30c8"
+      "ja": "ハイミスライト・ストライカータセット"
     },
     "stars": 3
   },
@@ -7225,8 +7228,8 @@
     "name": {
       "de": "Bodenscheinwerfer",
       "en": "Indirect Lighting",
-      "fr": "\u00c9clairage indirect",
-      "ja": "\u30a4\u30f3\u30c0\u30a4\u30ec\u30af\u30c8\u30e9\u30f3\u30d7"
+      "fr": "Éclairage indirect",
+      "ja": "インダイレクトランプ"
     },
     "stars": 3
   },
@@ -7239,8 +7242,8 @@
     "name": {
       "de": "Standscheinwerfer",
       "en": "Indirect Stand Lighting",
-      "fr": "\u00c9clairage indirect sur pied",
-      "ja": "\u30a4\u30f3\u30c0\u30a4\u30ec\u30af\u30c8\u30e9\u30f3\u30d7\u30fb\u30b9\u30bf\u30f3\u30c9"
+      "fr": "Éclairage indirect sur pied",
+      "ja": "インダイレクトランプ・スタンド"
     },
     "stars": 3
   },
@@ -7253,8 +7256,8 @@
     "name": {
       "de": "Wandscheinwerfer",
       "en": "Indirect Wall Lighting",
-      "fr": "\u00c9clairage indirect mural",
-      "ja": "\u30a4\u30f3\u30c0\u30a4\u30ec\u30af\u30c8\u30fb\u30a6\u30a9\u30fc\u30eb\u30e9\u30f3\u30d7"
+      "fr": "Éclairage indirect mural",
+      "ja": "インダイレクト・ウォールランプ"
     },
     "stars": 3
   },
@@ -7267,8 +7270,8 @@
     "name": {
       "de": "Allagischer Rundschild (Replik)",
       "en": "Replica Allagan Round Shield",
-      "fr": "R\u00e9plique de bouclier rond allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30a2\u30e9\u30ac\u30f3\u30e9\u30a6\u30f3\u30c9\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Réplique de bouclier rond allagois",
+      "ja": "レプリカ・アラガンラウンドシールド"
     },
     "stars": 3
   },
@@ -7281,8 +7284,8 @@
     "name": {
       "de": "Hochallagischer Drachenschild (Replik)",
       "en": "Replica High Allagan Kite Shield",
-      "fr": "R\u00e9plique d'\u00e9cu mandorle haut-allagois",
-      "ja": "\u30ec\u30d7\u30ea\u30ab\u30fb\u30cf\u30a4\u30a2\u30e9\u30ac\u30f3\u30fb\u30ab\u30a4\u30c8\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Réplique d'écu mandorle haut-allagois",
+      "ja": "レプリカ・ハイアラガン・カイトシールド"
     },
     "stars": 3
   },
@@ -7296,7 +7299,7 @@
       "de": "Schild der Runde",
       "en": "Shield of the Round",
       "fr": "Pavois de la Table ronde",
-      "ja": "\u30b7\u30fc\u30eb\u30c9\u30fb\u30aa\u30d6\u30fb\u30e9\u30a6\u30f3\u30c9"
+      "ja": "シールド・オブ・ラウンド"
     },
     "stars": 3
   },
@@ -7310,7 +7313,7 @@
       "de": "Miniatur-Alexander",
       "en": "Alexander Miniature",
       "fr": "Figurine magitek d'Alexander",
-      "ja": "MG\u30a2\u30ec\u30ad\u30b5\u30f3\u30c0\u30fc"
+      "ja": "MGアレキサンダー"
     },
     "stars": 4
   },
@@ -7323,8 +7326,8 @@
     "name": {
       "de": "Schwermetall-Bundhaube der Verteidigung",
       "en": "Heavy Metal Coif of Fending",
-      "fr": "Coiffe en mailles de protecteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30c1\u30a7\u30fc\u30f3\u30b3\u30a4\u30d5"
+      "fr": "Coiffe en mailles de protecteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・ディフェンダーチェーンコイフ"
     },
     "stars": 4
   },
@@ -7335,10 +7338,10 @@
     "level": 190,
     "maxQuality": 13187,
     "name": {
-      "de": "Schwermetall-Bundhaube des Verst\u00fcmmelns",
+      "de": "Schwermetall-Bundhaube des Verstümmelns",
       "en": "Heavy Metal Coif of Maiming",
-      "fr": "Coiffe en mailles d'abatteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30c1\u30a7\u30fc\u30f3\u30b3\u30a4\u30d5"
+      "fr": "Coiffe en mailles d'abatteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・スレイヤーチェーンコイフ"
     },
     "stars": 4
   },
@@ -7349,10 +7352,10 @@
     "level": 190,
     "maxQuality": 13187,
     "name": {
-      "de": "Schwermetall-K\u00fcrass der Verteidigung",
+      "de": "Schwermetall-Kürass der Verteidigung",
       "en": "Heavy Metal Cuirass of Fending",
-      "fr": "Cuirasse de protecteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "fr": "Cuirasse de protecteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・ディフェンダーキュイラス"
     },
     "stars": 4
   },
@@ -7363,10 +7366,10 @@
     "level": 190,
     "maxQuality": 13187,
     "name": {
-      "de": "Schwermetall-K\u00fcrass des Verst\u00fcmmelns",
+      "de": "Schwermetall-Kürass des Verstümmelns",
       "en": "Heavy Metal Cuirass of Maiming",
-      "fr": "Cuirasse d'abatteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ad\u30e5\u30a4\u30e9\u30b9"
+      "fr": "Cuirasse d'abatteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・スレイヤーキュイラス"
     },
     "stars": 4
   },
@@ -7379,8 +7382,8 @@
     "name": {
       "de": "Schwermetall-Panzerhandschuhe der Verteidigung",
       "en": "Heavy Metal Gauntlets of Fending",
-      "fr": "Gantelets de protecteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Gantelets de protecteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・ディフェンダーガントレット"
     },
     "stars": 4
   },
@@ -7391,10 +7394,10 @@
     "level": 190,
     "maxQuality": 13187,
     "name": {
-      "de": "Schwermetall-Panzerhandschuhe des Verst\u00fcmmelns",
+      "de": "Schwermetall-Panzerhandschuhe des Verstümmelns",
       "en": "Heavy Metal Gauntlets of Maiming",
-      "fr": "Gantelets d'abatteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30ac\u30f3\u30c8\u30ec\u30c3\u30c8"
+      "fr": "Gantelets d'abatteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・スレイヤーガントレット"
     },
     "stars": 4
   },
@@ -7407,8 +7410,8 @@
     "name": {
       "de": "Schwermetall-Barren",
       "en": "Heavy Metal Ingot",
-      "fr": "Lingot d'alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30a4\u30f3\u30b4\u30c3\u30c8"
+      "fr": "Lingot d'alliage de tungstène",
+      "ja": "ヘヴィアロイインゴット"
     },
     "stars": 4
   },
@@ -7421,8 +7424,8 @@
     "name": {
       "de": "Schwermetall-Drachenschild",
       "en": "Heavy Metal Kite Shield",
-      "fr": "\u00c9cu mandorle en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30ab\u30a4\u30c8\u30b7\u30fc\u30eb\u30c9"
+      "fr": "Écu mandorle en alliage de tungstène",
+      "ja": "ヘヴィアロイ・カイトシールド"
     },
     "stars": 4
   },
@@ -7433,10 +7436,10 @@
     "level": 190,
     "maxQuality": 13187,
     "name": {
-      "de": "Schwermetall-Platteng\u00fcrtel der Verteidigung",
+      "de": "Schwermetall-Plattengürtel der Verteidigung",
       "en": "Heavy Metal Plate Belt of Fending",
-      "fr": "Ceinture de plaques de protecteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "fr": "Ceinture de plaques de protecteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・ディフェンダープレートベルト"
     },
     "stars": 4
   },
@@ -7447,10 +7450,10 @@
     "level": 190,
     "maxQuality": 13187,
     "name": {
-      "de": "Schwermetall-Platteng\u00fcrtel des Verst\u00fcmmelns",
+      "de": "Schwermetall-Plattengürtel des Verstümmelns",
       "en": "Heavy Metal Plate Belt of Maiming",
-      "fr": "Ceinture de plaques d'abatteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30d7\u30ec\u30fc\u30c8\u30d9\u30eb\u30c8"
+      "fr": "Ceinture de plaques d'abatteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・スレイヤープレートベルト"
     },
     "stars": 4
   },
@@ -7461,10 +7464,10 @@
     "level": 190,
     "maxQuality": 13187,
     "name": {
-      "de": "Schwermetall-B\u00e4rlatschen der Verteidigung",
+      "de": "Schwermetall-Bärlatschen der Verteidigung",
       "en": "Heavy Metal Sabatons of Fending",
-      "fr": "Sabatons de protecteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30c7\u30a3\u30d5\u30a7\u30f3\u30c0\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "fr": "Sabatons de protecteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・ディフェンダーサバトン"
     },
     "stars": 4
   },
@@ -7475,10 +7478,10 @@
     "level": 190,
     "maxQuality": 13187,
     "name": {
-      "de": "Schwermetall-B\u00e4rlatschen des Verst\u00fcmmelns",
+      "de": "Schwermetall-Bärlatschen des Verstümmelns",
       "en": "Heavy Metal Sabatons of Maiming",
-      "fr": "Sabatons d'abatteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30b9\u30ec\u30a4\u30e4\u30fc\u30b5\u30d0\u30c8\u30f3"
+      "fr": "Sabatons d'abatteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・スレイヤーサバトン"
     },
     "stars": 4
   },
@@ -7491,8 +7494,8 @@
     "name": {
       "de": "Schwermetall-Bauchreifen des Zielens",
       "en": "Heavy Metal Tassets of Aiming",
-      "fr": "Tassette de pisteur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30ec\u30f3\u30b8\u30e3\u30fc\u30bf\u30bb\u30c3\u30c8"
+      "fr": "Tassette de pisteur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・レンジャータセット"
     },
     "stars": 4
   },
@@ -7503,10 +7506,10 @@
     "level": 190,
     "maxQuality": 13187,
     "name": {
-      "de": "Schwermetall-Bauchreifen des Sp\u00e4hens",
+      "de": "Schwermetall-Bauchreifen des Spähens",
       "en": "Heavy Metal Tassets of Scouting",
-      "fr": "Tassette d'\u00e9claireur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30b9\u30ab\u30a6\u30c8\u30bf\u30bb\u30c3\u30c8"
+      "fr": "Tassette d'éclaireur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・スカウトタセット"
     },
     "stars": 4
   },
@@ -7519,8 +7522,134 @@
     "name": {
       "de": "Schwermetall-Bauchreifen des Schlagens",
       "en": "Heavy Metal Tassets of Striking",
-      "fr": "Tassette d'agresseur en alliage de tungst\u00e8ne",
-      "ja": "\u30d8\u30f4\u30a3\u30a2\u30ed\u30a4\u30fb\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30bf\u30bb\u30c3\u30c8"
+      "fr": "Tassette d'agresseur en alliage de tungstène",
+      "ja": "ヘヴィアロイ・ストライカータセット"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmelsratten-Enterhaken der Verteidigung",
+      "en": "Sky Rat Hook of Fending",
+      "fr": "Gants à tranchant de protecteur de rat des cieux",
+      "ja": "スカイラット・ディフェンダーフック"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmelsratten-Enterhaken der Heilung",
+      "en": "Sky Rat Hook of Healing",
+      "fr": "Gants à tranchant de soigneur de rat des cieux",
+      "ja": "スカイラット・ヒーラーフック"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmelsratten-Enterhaken des Verstümmelns",
+      "en": "Sky Rat Hook of Maiming",
+      "fr": "Gants à tranchant d'abatteur de rat des cieux",
+      "ja": "スカイラット・スレイヤーフック"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmelsratten-Enterhaken des Spähens",
+      "en": "Sky Rat Hook of Scouting",
+      "fr": "Gants à tranchant d'éclaireur de rat des cieux",
+      "ja": "スカイラット・スカウトフック"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmelsratten-Kampfstiefel des Zielens",
+      "en": "Sky Rat Ironclad Boots of Aiming",
+      "fr": "Bottes militaires revêtues de fer de pisteur de rat des cieux",
+      "ja": "スカイラット・レンジャーアイアンクラッド"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmelsratten-Kampfstiefel der Magie",
+      "en": "Sky Rat Ironclad Boots of Casting",
+      "fr": "Bottes militaires revêtues de fer d'incantateur de rat des cieux",
+      "ja": "スカイラット・キャスターアイアンクラッド"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmelsratten-Kampfstiefel des Schlagens",
+      "en": "Sky Rat Ironclad Boots of Striking",
+      "fr": "Bottes militaires revêtues de fer d'abatteur de rat des cieux",
+      "ja": "スカイラット・ストライカーアイアンクラッド"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmelsratten-Maske des Spähens",
+      "en": "Sky Rat Mask of Scouting",
+      "fr": "Masque d'éclaireur de rat des cieux",
+      "ja": "スカイラット・スカウトマスク"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1968,
+    "durability": 70,
+    "level": 190,
+    "maxQuality": 13187,
+    "name": {
+      "de": "Himmelsratten-Maske des Schlagens",
+      "en": "Sky Rat Mask of Striking",
+      "fr": "Masque d'agresseur de rat des cieux",
+      "ja": "スカイラット・ストライカーマスク"
     },
     "stars": 4
   },
@@ -7534,7 +7663,7 @@
       "de": "Zurvan-Modell",
       "en": "Zurvan Miniature",
       "fr": "Figurine magitek de Zurvan",
-      "ja": "MG\u30ba\u30eb\u30ef\u30fc\u30f3"
+      "ja": "MGズルワーン"
     },
     "stars": 4
   },
@@ -7548,7 +7677,7 @@
       "de": "Zurvan-Rossharnisch",
       "en": "Zurvanite Barding",
       "fr": "Barde de Zurvan",
-      "ja": "\u30ba\u30eb\u30ef\u30fc\u30f3\u30fb\u30d0\u30fc\u30c9"
+      "ja": "ズルワーン・バード"
     },
     "stars": 4
   }
