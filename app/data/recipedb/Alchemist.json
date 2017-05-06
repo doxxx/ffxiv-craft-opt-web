@@ -683,7 +683,7 @@
     "maxQuality": 403,
     "name": {
       "de": "Schreibset",
-      "en": "Ink \u0026 Quill",
+      "en": "Ink & Quill",
       "fr": "Nécessaire de bureau",
       "ja": "文房具一式"
     }
@@ -2262,6 +2262,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2314,6 +2315,7 @@
     }
   },
   {
+    "aspect": "Water",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -4666,6 +4668,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -4792,6 +4795,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -4806,6 +4810,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -4960,6 +4965,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -4974,6 +4980,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5016,6 +5023,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5030,6 +5038,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5044,6 +5053,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5058,6 +5068,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5072,6 +5083,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5086,6 +5098,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5100,6 +5113,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5114,6 +5128,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5128,6 +5143,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5142,6 +5158,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5156,6 +5173,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5170,6 +5188,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5198,6 +5217,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5464,6 +5484,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -5520,6 +5541,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -7026,6 +7048,7 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -7040,6 +7063,7 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -7068,6 +7092,7 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -7082,6 +7107,7 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
