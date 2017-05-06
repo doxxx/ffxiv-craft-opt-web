@@ -174,9 +174,13 @@
             };
             if (gearset.stats) {
               if (gearset.stats.core) {
-                info.cp = gearset.stats.core.cp || 0;
+                info.cp = gearset.stats.core["CP"] || gearset.stats.core["cp"] || 0;
               }
-              if (gearset.stats.properties) {
+              if (gearset.stats.mental) {
+                info.craftsmanship = gearset.stats.mental["Craftsmanship"] || 0;
+                info.control = gearset.stats.mental["Control"] || 0;
+              }
+              else if (gearset.stats.properties) {
                 info.craftsmanship = gearset.stats.properties["Craftsmanship"] || 0;
                 info.control = gearset.stats.properties["Control"] || 0;
               }

@@ -6,10 +6,10 @@
     "level": 1,
     "maxQuality": 312,
     "name": {
-      "de": "Ballonh\u00fcllen-Bauteil",
+      "de": "Ballonhüllen-Bauteil",
       "en": "Bladder Component",
       "fr": "Composant de ballon",
-      "ja": "\u6c17\u56a2\u90e8\u6750"
+      "ja": "気嚢部材"
     }
   },
   {
@@ -19,10 +19,10 @@
     "level": 1,
     "maxQuality": 234,
     "name": {
-      "de": "H\u00fcllenverst\u00e4rkungs-Bauteil",
+      "de": "Hüllenverstärkungs-Bauteil",
       "en": "Bladder Lining Component",
       "fr": "Composant de finition de ballon",
-      "ja": "\u6c17\u56a2\u88dc\u5f37\u6750"
+      "ja": "気嚢補強材"
     }
   },
   {
@@ -35,7 +35,7 @@
       "de": "Kanzelinnenraum-Bauteil",
       "en": "Hull Interior Component",
       "fr": "Composant de coque",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u8239\u4f53\u90e8\u6750"
+      "ja": "エカトルの船体部材"
     }
   },
   {
@@ -48,7 +48,7 @@
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
       "fr": "Comp. de partie gauche de nacelle",
-      "ja": "\u5de6\u8237\u8239\u4f53\u90e8\u6750"
+      "ja": "左舷船体部材"
     }
   },
   {
@@ -60,8 +60,8 @@
     "name": {
       "de": "Ahornsirup",
       "en": "Maple Syrup",
-      "fr": "Sirop d'\u00e9rable",
-      "ja": "\u30e1\u30fc\u30d7\u30eb\u30b7\u30ed\u30c3\u30d7"
+      "fr": "Sirop d'érable",
+      "ja": "メープルシロップ"
     }
   },
   {
@@ -74,7 +74,7 @@
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
       "fr": "Comp. de partie droite de nacelle",
-      "ja": "\u53f3\u8237\u8239\u4f53\u90e8\u6750"
+      "ja": "右舷船体部材"
     }
   },
   {
@@ -87,7 +87,7 @@
       "de": "Speisesalz",
       "en": "Table Salt",
       "fr": "Sel de table",
-      "ja": "\u98df\u5869"
+      "ja": "食塩"
     }
   },
   {
@@ -99,8 +99,8 @@
     "name": {
       "de": "Ahornzucker",
       "en": "Maple Sugar",
-      "fr": "Sucre d'\u00e9rable",
-      "ja": "\u30e1\u30fc\u30d7\u30eb\u30b7\u30e5\u30ac\u30fc"
+      "fr": "Sucre d'érable",
+      "ja": "メープルシュガー"
     }
   },
   {
@@ -112,8 +112,8 @@
     "name": {
       "de": "Gekochtes Ei",
       "en": "Boiled Egg",
-      "fr": "\u0152uf \u00e0 la coque",
-      "ja": "\u30dc\u30a4\u30eb\u30c9\u30a8\u30c3\u30b0"
+      "fr": "Œuf à la coque",
+      "ja": "ボイルドエッグ"
     }
   },
   {
@@ -125,8 +125,8 @@
     "name": {
       "de": "Werkzeug-Bauteil",
       "en": "Crafting Tool Component",
-      "fr": "N\u00e9cessaire de fabrication",
-      "ja": "\u52a0\u5de5\u9053\u5177"
+      "fr": "Nécessaire de fabrication",
+      "ja": "加工道具"
     }
   },
   {
@@ -139,7 +139,7 @@
       "de": "Deck-Bauteil",
       "en": "Deck Component",
       "fr": "Composant de pont",
-      "ja": "\u7532\u677f\u90e8\u6750"
+      "ja": "甲板部材"
     }
   },
   {
@@ -149,10 +149,10 @@
     "level": 3,
     "maxQuality": 339,
     "name": {
-      "de": "Motorgeh\u00e4use-Bauteil",
+      "de": "Motorgehäuse-Bauteil",
       "en": "Engine Casing Component",
       "fr": "Composant de protection de moteur",
-      "ja": "\u6a5f\u95a2\u5916\u88c5\u90e8\u6750"
+      "ja": "機関外装部材"
     }
   },
   {
@@ -164,8 +164,8 @@
     "name": {
       "de": "Gyroantriebs-Bauteil",
       "en": "Gyrodrive Component",
-      "fr": "Composant d'unit\u00e9 motrice",
-      "ja": "\u52d5\u529b\u8f2a\u90e8\u6750"
+      "fr": "Composant d'unité motrice",
+      "ja": "動力輪部材"
     }
   },
   {
@@ -178,7 +178,7 @@
       "de": "Erdseim-Motor-Bauteil",
       "en": "Propulsion Engine Component",
       "fr": "Composant de moteur",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u6750"
+      "ja": "エカトルの機関部材"
     }
   },
   {
@@ -191,7 +191,7 @@
       "de": "Rosinen",
       "en": "Raisins",
       "fr": "Raisins secs",
-      "ja": "\u30ec\u30fc\u30ba\u30f3"
+      "ja": "レーズン"
     }
   },
   {
@@ -204,7 +204,7 @@
       "de": "Takelagen-Bauteil",
       "en": "Rigging Component",
       "fr": "Composant d'attache",
-      "ja": "\u7d22\u5177\u90e8\u6750"
+      "ja": "索具部材"
     }
   },
   {
@@ -216,8 +216,8 @@
     "name": {
       "de": "Frumenty",
       "en": "Frumenty",
-      "fr": "Froment\u00e9e",
-      "ja": "\u30d5\u30eb\u30e1\u30f3\u30c6\u30a3"
+      "fr": "Fromentée",
+      "ja": "フルメンティ"
     }
   },
   {
@@ -230,7 +230,7 @@
       "de": "Honig",
       "en": "Honey",
       "fr": "Miel",
-      "ja": "\u8702\u871c"
+      "ja": "蜂蜜"
     }
   },
   {
@@ -243,7 +243,7 @@
       "de": "Roggenmehl",
       "en": "Rye Flour",
       "fr": "Farine de seigle",
-      "ja": "\u30e9\u30a4\u9ea6\u7c89"
+      "ja": "ライ麦粉"
     }
   },
   {
@@ -255,8 +255,8 @@
     "name": {
       "de": "Fisch im Teigmantel",
       "en": "Battered Fish",
-      "fr": "Poisson pan\u00e9",
-      "ja": "\u30d0\u30bf\u30fc\u30c9\u30d5\u30a3\u30c3\u30b7\u30e5"
+      "fr": "Poisson pané",
+      "ja": "バタードフィッシュ"
     }
   },
   {
@@ -268,8 +268,8 @@
     "name": {
       "de": "Krebsfleischball",
       "en": "Crayfish Ball",
-      "fr": "Boulette d'\u00e9crevisse",
-      "ja": "\u30b6\u30ea\u30ac\u30cb\u30dc\u30fc\u30eb"
+      "fr": "Boulette d'écrevisse",
+      "ja": "ザリガニボール"
     }
   },
   {
@@ -282,7 +282,7 @@
       "de": "Fischmehl",
       "en": "Fishmeal",
       "fr": "Farine de poisson",
-      "ja": "\u9b5a\u7c89"
+      "ja": "魚粉"
     }
   },
   {
@@ -295,7 +295,7 @@
       "de": "Fladenbrot",
       "en": "Flatbread",
       "fr": "Pain plat",
-      "ja": "\u30d5\u30e9\u30c3\u30c8\u30d6\u30ec\u30c3\u30c9"
+      "ja": "フラットブレッド"
     }
   },
   {
@@ -307,8 +307,8 @@
     "name": {
       "de": "Gegrillte Forelle",
       "en": "Grilled Trout",
-      "fr": "Truite grill\u00e9e",
-      "ja": "\u30b0\u30ea\u30eb\u30c9\u30c8\u30e9\u30a6\u30c8"
+      "fr": "Truite grillée",
+      "ja": "グリルドトラウト"
     }
   },
   {
@@ -318,10 +318,10 @@
     "level": 5,
     "maxQuality": 451,
     "name": {
-      "de": "Murmelh\u00f6rnchen-Steak",
+      "de": "Murmelhörnchen-Steak",
       "en": "Marmot Steak",
       "fr": "Steak de marmotte",
-      "ja": "\u30de\u30fc\u30e2\u30c3\u30c8\u30b9\u30c6\u30fc\u30ad"
+      "ja": "マーモットステーキ"
     }
   },
   {
@@ -333,8 +333,8 @@
     "name": {
       "de": "Rolanbeeren-Wassereis",
       "en": "Rolanberry Shaved Ice",
-      "fr": "Glace pil\u00e9e \u00e0 la rolanbaie",
-      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30b7\u30a7\u30a4\u30d6\u30c9\u30a2\u30a4\u30b9"
+      "fr": "Glace pilée à la rolanbaie",
+      "ja": "ロランベリーシェイブドアイス"
     }
   },
   {
@@ -346,8 +346,8 @@
     "name": {
       "de": "Aerodynamo-Bauteil",
       "en": "Aerodynamo Component",
-      "fr": "Composant de nez profil\u00e9",
-      "ja": "\u7a7a\u529b\u90e8\u6750"
+      "fr": "Composant de nez profilé",
+      "ja": "空力部材"
     }
   },
   {
@@ -360,7 +360,7 @@
       "de": "Ballast-Bauteil",
       "en": "Ballast Component",
       "fr": "Composant de lest",
-      "ja": "\u30d0\u30e9\u30b9\u30c8\u90e8\u6750"
+      "ja": "バラスト部材"
     }
   },
   {
@@ -370,10 +370,10 @@
     "level": 6,
     "maxQuality": 474,
     "name": {
-      "de": "Kanzelau\u00dfenwand-Bauteil",
+      "de": "Kanzelaußenwand-Bauteil",
       "en": "Cockpit Exterior Component",
-      "fr": "Composant ext\u00e9rieur de cockpit",
-      "ja": "\u64cd\u7e26\u5e2d\u5916\u88c5\u6750"
+      "fr": "Composant extérieur de cockpit",
+      "ja": "操縦席外装材"
     }
   },
   {
@@ -385,8 +385,8 @@
     "name": {
       "de": "Kanzelinnenwand-Bauteil",
       "en": "Cockpit Interior Component",
-      "fr": "Composant int\u00e9rieur de cockpit",
-      "ja": "\u64cd\u7e26\u5e2d\u5185\u88c5\u6750"
+      "fr": "Composant intérieur de cockpit",
+      "ja": "操縦席内装材"
     }
   },
   {
@@ -399,7 +399,7 @@
       "de": "Motorverstrebungs-Bauteil",
       "en": "Engine Jointing Component",
       "fr": "Composant de jonction de moteur",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u6a5f\u95a2\u90e8\u63a5\u5408\u6750"
+      "ja": "エカトルの機関部接合材"
     }
   },
   {
@@ -412,7 +412,7 @@
       "de": "Steuerpult-Bauteil",
       "en": "Instrument Panel Component",
       "fr": "Composant d'instrumentation",
-      "ja": "\u8a08\u5668\u90e8\u6750"
+      "ja": "計器部材"
     }
   },
   {
@@ -425,7 +425,7 @@
       "de": "Orangensaft",
       "en": "Orange Juice",
       "fr": "Jus d'orange",
-      "ja": "\u30aa\u30ec\u30f3\u30b8\u30b8\u30e5\u30fc\u30b9"
+      "ja": "オレンジジュース"
     }
   },
   {
@@ -437,8 +437,8 @@
     "name": {
       "de": "Schlagsahne",
       "en": "Sweet Cream",
-      "fr": "Cr\u00e8me grumeleuse",
-      "ja": "\u30af\u30ea\u30fc\u30e0"
+      "fr": "Crème grumeleuse",
+      "ja": "クリーム"
     }
   },
   {
@@ -451,7 +451,7 @@
       "de": "Gesalzene Butter",
       "en": "Smooth Butter",
       "fr": "Beurre",
-      "ja": "\u30d0\u30bf\u30fc"
+      "ja": "バター"
     }
   },
   {
@@ -464,7 +464,7 @@
       "de": "Sonnenweizenmehl",
       "en": "Sunset Wheat Flour",
       "fr": "Farine",
-      "ja": "\u5c0f\u9ea6\u7c89"
+      "ja": "小麦粉"
     }
   },
   {
@@ -474,10 +474,10 @@
     "level": 7,
     "maxQuality": 492,
     "name": {
-      "de": "Baumkr\u00f6tenschenkel",
+      "de": "Baumkrötenschenkel",
       "en": "Tree Toad Legs",
       "fr": "Cuisses de crapaud arboricole",
-      "ja": "\u30c4\u30ea\u30fc\u30c8\u30fc\u30c9\u30ec\u30c3\u30b0\u30ba"
+      "ja": "ツリートードレッグズ"
     }
   },
   {
@@ -489,8 +489,8 @@
     "name": {
       "de": "Gebratener Pipira",
       "en": "Braised Pipira",
-      "fr": "Pipira \u00e0 l'\u00e9tuv\u00e9e",
-      "ja": "\u30d9\u30a4\u30af\u30c9\u30d4\u30d4\u30e9"
+      "fr": "Pipira à l'étuvée",
+      "ja": "ベイクドピピラ"
     }
   },
   {
@@ -502,8 +502,8 @@
     "name": {
       "de": "Sautierte Pfifferlinge",
       "en": "Chanterelle Saute",
-      "fr": "Saut\u00e9 de chanterelles",
-      "ja": "\u30ad\u30ce\u30b3\u306e\u30bd\u30c6\u30fc"
+      "fr": "Sauté de chanterelles",
+      "ja": "キノコのソテー"
     }
   },
   {
@@ -515,8 +515,8 @@
     "name": {
       "de": "Gekochter Krebs",
       "en": "Boiled Crayfish",
-      "fr": "\u00c9crevisse bouillie",
-      "ja": "\u30dc\u30a4\u30eb\u30c9\u30af\u30ec\u30a4\u30d5\u30a3\u30c3\u30b7\u30e5"
+      "fr": "Écrevisse bouillie",
+      "ja": "ボイルドクレイフィッシュ"
     }
   },
   {
@@ -528,8 +528,8 @@
     "name": {
       "de": "Lammtopf",
       "en": "Mutton Stew",
-      "fr": "Rago\u00fbt de mouton",
-      "ja": "\u30de\u30c8\u30f3\u30b7\u30c1\u30e5\u30fc"
+      "fr": "Ragoût de mouton",
+      "ja": "マトンシチュー"
     }
   },
   {
@@ -542,7 +542,7 @@
       "de": "Grundelball",
       "en": "Goby Ball",
       "fr": "Boulette de gobie",
-      "ja": "\u30b4\u30d3\u30fc\u30dc\u30fc\u30eb"
+      "ja": "ゴビーボール"
     }
   },
   {
@@ -552,10 +552,10 @@
     "level": 10,
     "maxQuality": 314,
     "name": {
-      "de": "K\u00fchler-Bauteil",
+      "de": "Kühler-Bauteil",
       "en": "Heat Vent Component",
       "fr": "Composant de ventilation",
-      "ja": "\u6392\u71b1\u90e8\u6750"
+      "ja": "排熱部材"
     }
   },
   {
@@ -565,10 +565,10 @@
     "level": 10,
     "maxQuality": 629,
     "name": {
-      "de": "Halloween-K\u00fcrbis",
+      "de": "Halloween-Kürbis",
       "en": "Jack-o'-lantern",
       "fr": "Jack-la-citrouille",
-      "ja": "\u30b8\u30e3\u30c3\u30af\u30fb\u30aa\u30fb\u30e9\u30f3\u30bf\u30f3"
+      "ja": "ジャック・オ・ランタン"
     }
   },
   {
@@ -581,7 +581,7 @@
       "de": "Kukuru-Butter",
       "en": "Kukuru Butter",
       "fr": "Beurre kukuru",
-      "ja": "\u30af\u30af\u30eb\u30d0\u30bf\u30fc"
+      "ja": "ククルバター"
     }
   },
   {
@@ -591,10 +591,10 @@
     "level": 10,
     "maxQuality": 629,
     "name": {
-      "de": "Backbordtragfl\u00e4chen-Bauteil",
+      "de": "Backbordtragflächen-Bauteil",
       "en": "Larboard Wing Component",
       "fr": "Composant d'aile gauche",
-      "ja": "\u5de6\u7ffc\u90e8\u6750"
+      "ja": "左翼部材"
     }
   },
   {
@@ -604,10 +604,10 @@
     "level": 10,
     "maxQuality": 471,
     "name": {
-      "de": "Backbord-Tragfl\u00e4chengelenk-Bauteil",
+      "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile gauche",
-      "ja": "\u5de6\u7ffc\u53ef\u52d5\u90e8\u6750"
+      "ja": "左翼可動部材"
     }
   },
   {
@@ -619,8 +619,8 @@
     "name": {
       "de": "Minz-Lassi",
       "en": "Mint Lassi",
-      "fr": "Lassi \u00e0 la menthe",
-      "ja": "\u30df\u30f3\u30c8\u30e9\u30c3\u30b7\u30fc"
+      "fr": "Lassi à la menthe",
+      "ja": "ミントラッシー"
     }
   },
   {
@@ -630,10 +630,10 @@
     "level": 10,
     "maxQuality": 629,
     "name": {
-      "de": "Steuerbordtragfl\u00e4chen-Bauteil",
+      "de": "Steuerbordtragflächen-Bauteil",
       "en": "Starboard Wing Component",
       "fr": "Composant d'aile droite",
-      "ja": "\u53f3\u7ffc\u90e8\u6750"
+      "ja": "右翼部材"
     }
   },
   {
@@ -643,10 +643,10 @@
     "level": 10,
     "maxQuality": 471,
     "name": {
-      "de": "Steuerbord-Tragfl\u00e4chengelenk-Bauteil",
+      "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile droite",
-      "ja": "\u53f3\u7ffc\u53ef\u52d5\u90e8\u6750"
+      "ja": "右翼可動部材"
     }
   },
   {
@@ -659,7 +659,7 @@
       "de": "Sprechanlagen-Bauteil",
       "en": "Transmission Component",
       "fr": "Composant de transmission",
-      "ja": "\u4f1d\u9054\u7cfb\u90e8\u6750"
+      "ja": "伝達系部材"
     }
   },
   {
@@ -671,8 +671,8 @@
     "name": {
       "de": "Grill-Dodo",
       "en": "Grilled Dodo",
-      "fr": "Tranche de dodo grill\u00e9e",
-      "ja": "\u30c9\u30fc\u30c9\u30fc\u306e\u30b0\u30ea\u30eb"
+      "fr": "Tranche de dodo grillée",
+      "ja": "ドードーのグリル"
     }
   },
   {
@@ -685,7 +685,7 @@
       "de": "Kukuru-Pulver",
       "en": "Kukuru Powder",
       "fr": "Poudre kukuru",
-      "ja": "\u30af\u30af\u30eb\u30de\u30b9"
+      "ja": "ククルマス"
     }
   },
   {
@@ -695,10 +695,10 @@
     "level": 11,
     "maxQuality": 665,
     "name": {
-      "de": "Oliven\u00f6l",
+      "de": "Olivenöl",
       "en": "Olive Oil",
       "fr": "Huile d'olive",
-      "ja": "\u30aa\u30ea\u30fc\u30f4\u30aa\u30a4\u30eb"
+      "ja": "オリーヴオイル"
     }
   },
   {
@@ -711,7 +711,7 @@
       "de": "Luftschokolade",
       "en": "Bubble Chocolate",
       "fr": "Choco-bulle",
-      "ja": "\u30d0\u30d6\u30eb\u30c1\u30e7\u30b3"
+      "ja": "バブルチョコ"
     }
   },
   {
@@ -724,7 +724,7 @@
       "de": "Perlenschokolade",
       "en": "Pearl Chocolate",
       "fr": "Choco-perle",
-      "ja": "\u30d1\u30fc\u30eb\u30c1\u30e7\u30b3"
+      "ja": "パールチョコ"
     }
   },
   {
@@ -734,10 +734,10 @@
     "level": 12,
     "maxQuality": 702,
     "name": {
-      "de": "Tomatenso\u00dfe",
+      "de": "Tomatensoße",
       "en": "Tomato Sauce",
       "fr": "Sauce tomate",
-      "ja": "\u30dd\u30e2\u30c9\u30fc\u30ed\u30bd\u30fc\u30b9"
+      "ja": "ポモドーロソース"
     }
   },
   {
@@ -750,7 +750,7 @@
       "de": "Mullpastete",
       "en": "Mole Loaf",
       "fr": "Pain de taupe",
-      "ja": "\u30e2\u30fc\u30eb\u30ed\u30fc\u30d5"
+      "ja": "モールローフ"
     }
   },
   {
@@ -763,7 +763,7 @@
       "de": "Pastinaksalat",
       "en": "Parsnip Salad",
       "fr": "Salade de panais",
-      "ja": "\u30d1\u30fc\u30b9\u30cb\u30c3\u30d7\u30b5\u30e9\u30c0"
+      "ja": "パースニップサラダ"
     }
   },
   {
@@ -775,8 +775,8 @@
     "name": {
       "de": "Gelatine",
       "en": "Gelatin",
-      "fr": "G\u00e9latine",
-      "ja": "\u30bc\u30e9\u30c1\u30f3"
+      "fr": "Gélatine",
+      "ja": "ゼラチン"
     }
   },
   {
@@ -786,10 +786,10 @@
     "level": 14,
     "maxQuality": 751,
     "name": {
-      "de": "Bl\u00e4tterteig",
+      "de": "Blätterteig",
       "en": "Pie Dough",
-      "fr": "P\u00e2te \u00e0 tarte",
-      "ja": "\u30d1\u30a4\u751f\u5730"
+      "fr": "Pâte à tarte",
+      "ja": "パイ生地"
     }
   },
   {
@@ -802,7 +802,7 @@
       "de": "Hasenpastete",
       "en": "Rabbit Pie",
       "fr": "Tourte lapin",
-      "ja": "\u30e9\u30d3\u30c3\u30c8\u30d1\u30a4"
+      "ja": "ラビットパイ"
     }
   },
   {
@@ -814,8 +814,8 @@
     "name": {
       "de": "Erdseim-Tank-Bauteil",
       "en": "Ceruleum Tank Component",
-      "fr": "Composant de r\u00e9servoir",
-      "ja": "\u9752\u71d0\u30bf\u30f3\u30af\u90e8\u6750"
+      "fr": "Composant de réservoir",
+      "ja": "青燐タンク部材"
     }
   },
   {
@@ -827,8 +827,8 @@
     "name": {
       "de": "Entsorgungssystem-Bauteil",
       "en": "Disposal Unit Component",
-      "fr": "Composant de syst\u00e8me d'\u00e9vacuation",
-      "ja": "\u7dca\u6025\u5ec3\u68c4\u90e8\u6750"
+      "fr": "Composant de système d'évacuation",
+      "ja": "緊急廃棄部材"
     }
   },
   {
@@ -840,8 +840,8 @@
     "name": {
       "de": "Schornstein-Bauteil",
       "en": "Exhaust Outlet Component",
-      "fr": "Composant d'\u00e9chappement",
-      "ja": "\u6392\u6c17\u7cfb\u90e8\u6750"
+      "fr": "Composant d'échappement",
+      "ja": "排気系部材"
     }
   },
   {
@@ -853,8 +853,8 @@
     "name": {
       "de": "Gegrillter Karpfen",
       "en": "Grilled Carp",
-      "fr": "Carpe grill\u00e9e",
-      "ja": "\u30b0\u30ea\u30eb\u30c9\u30ab\u30fc\u30d7"
+      "fr": "Carpe grillée",
+      "ja": "グリルドカープ"
     }
   },
   {
@@ -867,7 +867,7 @@
       "de": "Steuereinheits-Bauteil",
       "en": "Helm Component",
       "fr": "Composant de gouvernail",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u64cd\u8235\u88c5\u7f6e\u90e8\u6750"
+      "ja": "エカトルの操舵装置部材"
     }
   },
   {
@@ -879,8 +879,8 @@
     "name": {
       "de": "Beleuchtungs-Bauteil",
       "en": "Lamp Component",
-      "fr": "Composant d'\u00e9clairage",
-      "ja": "\u30e9\u30f3\u30d7\u90e8\u6750"
+      "fr": "Composant d'éclairage",
+      "ja": "ランプ部材"
     }
   },
   {
@@ -892,8 +892,8 @@
     "name": {
       "de": "Salzdorsch",
       "en": "Salt Cod",
-      "fr": "Morue sal\u00e9e",
-      "ja": "\u30bd\u30eb\u30c8\u30b3\u30c3\u30c9"
+      "fr": "Morue salée",
+      "ja": "ソルトコッド"
     }
   },
   {
@@ -906,7 +906,7 @@
       "de": "Kommunikationsrohr-Bauteil",
       "en": "Speaking Tube Component",
       "fr": "Composant de tuyau acoustique",
-      "ja": "\u4f1d\u58f0\u7cfb\u90e8\u6750"
+      "ja": "伝声系部材"
     }
   },
   {
@@ -919,7 +919,7 @@
       "de": "Steuermechanismus-Bauteil",
       "en": "Steering Mechanism Component",
       "fr": "Composant de module de pilotage",
-      "ja": "\u64cd\u7e26\u6a5f\u5177\u90e8\u6750"
+      "ja": "操縦機具部材"
     }
   },
   {
@@ -929,10 +929,10 @@
     "level": 15,
     "maxQuality": 403,
     "name": {
-      "de": "Wachsgem\u00fcse",
+      "de": "Wachsgemüse",
       "en": "Wax Vegetables",
-      "fr": "Caisse de l\u00e9gumes",
-      "ja": "\u30d9\u30b8\u30bf\u30d6\u30eb\u30a2\u30bd\u30fc\u30c8"
+      "fr": "Caisse de légumes",
+      "ja": "ベジタブルアソート"
     }
   },
   {
@@ -945,7 +945,7 @@
       "de": "Aerodynamik-Verbesserer-Bauteil",
       "en": "Auxiliary Aerodynamo Component",
       "fr": "Composant d'aileron",
-      "ja": "\u88dc\u52a9\u7a7a\u529b\u90e8\u6750"
+      "ja": "補助空力部材"
     }
   },
   {
@@ -958,7 +958,7 @@
       "de": "Apfelessig",
       "en": "Cider Vinegar",
       "fr": "Vinaigre de cidre",
-      "ja": "\u30b5\u30a4\u30c0\u30fc\u30d3\u30cd\u30ac\u30fc"
+      "ja": "サイダービネガー"
     }
   },
   {
@@ -971,7 +971,7 @@
       "de": "Zierplatten-Bauteil",
       "en": "Decorative Plating Component",
       "fr": "Composant d'ornementation",
-      "ja": "\u88c5\u98fe\u90e8\u6750"
+      "ja": "装飾部材"
     }
   },
   {
@@ -983,8 +983,8 @@
     "name": {
       "de": "Dodo-Omelett",
       "en": "Dodo Omelette",
-      "fr": "Omelette aux \u0153ufs de dodo",
-      "ja": "\u30c9\u30fc\u30c9\u30fc\u30aa\u30e0\u30ec\u30c4"
+      "fr": "Omelette aux œufs de dodo",
+      "ja": "ドードーオムレツ"
     }
   },
   {
@@ -996,8 +996,8 @@
     "name": {
       "de": "Rettungsboots-Bauteil",
       "en": "Escape Flyer Component",
-      "fr": "Composant de syst\u00e8me d'\u00e9jection",
-      "ja": "\u7dca\u6025\u8131\u51fa\u7528\u5177"
+      "fr": "Composant de système d'éjection",
+      "ja": "緊急脱出用具"
     }
   },
   {
@@ -1010,7 +1010,7 @@
       "de": "Hyperleiter-Bauteil",
       "en": "Hyperconductor Component",
       "fr": "Composant d'hyperconducteur",
-      "ja": "\u9ad8\u4f1d\u5c0e\u7387\u90e8\u6750"
+      "ja": "高伝導率部材"
     }
   },
   {
@@ -1022,8 +1022,8 @@
     "name": {
       "de": "Isolations-Bauteil",
       "en": "Isolator Component",
-      "fr": "Composant de syst\u00e8me antivibration",
-      "ja": "\u514d\u9707\u90e8\u6750"
+      "fr": "Composant de système antivibration",
+      "ja": "免震部材"
     }
   },
   {
@@ -1033,10 +1033,10 @@
     "level": 16,
     "maxQuality": 866,
     "name": {
-      "de": "Lavendel\u00f6l",
+      "de": "Lavendelöl",
       "en": "Lavender Oil",
       "fr": "Essence de lavande",
-      "ja": "\u30e9\u30d9\u30f3\u30c0\u30fc\u30aa\u30a4\u30eb"
+      "ja": "ラベンダーオイル"
     }
   },
   {
@@ -1049,7 +1049,7 @@
       "de": "Fleisch-Miqo'Kebab",
       "en": "Meat Miq'abob",
       "fr": "Miqo-brochette de viande",
-      "ja": "\u30df\u30b3\u30c3\u30c6\u98a8\u5c71\u306e\u5e78\u4e32\u713c"
+      "ja": "ミコッテ風山の幸串焼"
     }
   },
   {
@@ -1061,8 +1061,8 @@
     "name": {
       "de": "Gewichtsreduktions-Bauteil",
       "en": "Refabrication Component",
-      "fr": "Composant d'all\u00e9gement",
-      "ja": "\u8efd\u91cf\u5316\u90e8\u6750"
+      "fr": "Composant d'allégement",
+      "ja": "軽量化部材"
     }
   },
   {
@@ -1074,8 +1074,8 @@
     "name": {
       "de": "Reservetank-Bauteil",
       "en": "Spare Tank Component",
-      "fr": "Composant de r\u00e9servoir de secours",
-      "ja": "\u4e88\u5099\u30bf\u30f3\u30af\u90e8\u6750"
+      "fr": "Composant de réservoir de secours",
+      "ja": "予備タンク部材"
     }
   },
   {
@@ -1085,10 +1085,10 @@
     "level": 17,
     "maxQuality": 898,
     "name": {
-      "de": "H\u00fcttenk\u00e4se",
+      "de": "Hüttenkäse",
       "en": "Cottage Cheese",
       "fr": "Fromage blanc",
-      "ja": "\u30b3\u30c6\u30fc\u30b8\u30c1\u30fc\u30ba"
+      "ja": "コテージチーズ"
     }
   },
   {
@@ -1100,8 +1100,8 @@
     "name": {
       "de": "Linsen-Maronen-Eintopf",
       "en": "Lentils and Chestnuts",
-      "fr": "Lentilles aux ch\u00e2taignes",
-      "ja": "\u30ec\u30f3\u30c6\u30a3\u30eb&\u30c1\u30a7\u30b9\u30ca\u30c3\u30c8"
+      "fr": "Lentilles aux châtaignes",
+      "ja": "レンティル\u0026チェスナット"
     }
   },
   {
@@ -1113,8 +1113,8 @@
     "name": {
       "de": "Kaktus-Steak",
       "en": "Roasted Nopales",
-      "fr": "Figues de barbarie grill\u00e9es",
-      "ja": "\u30ed\u30fc\u30b9\u30c8\u30ce\u30d1\u30eb"
+      "fr": "Figues de barbarie grillées",
+      "ja": "ローストノパル"
     }
   },
   {
@@ -1127,7 +1127,7 @@
       "de": "Steinsuppe",
       "en": "Stone Soup",
       "fr": "Soupe de pierre",
-      "ja": "\u30b9\u30c8\u30fc\u30f3\u30b9\u30fc\u30d7"
+      "ja": "ストーンスープ"
     }
   },
   {
@@ -1137,10 +1137,10 @@
     "level": 18,
     "maxQuality": 939,
     "name": {
-      "de": "Apfelt\u00f6rtchen",
+      "de": "Apfeltörtchen",
       "en": "Apple Tart",
       "fr": "Tarte aux pommes",
-      "ja": "\u30a2\u30c3\u30d7\u30eb\u30bf\u30eb\u30c8"
+      "ja": "アップルタルト"
     }
   },
   {
@@ -1153,7 +1153,7 @@
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
       "fr": "Aile d'Ehcatl",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u7fbd\u6839\u98fe\u308a"
+      "ja": "エカトルの羽根飾り"
     }
   },
   {
@@ -1163,10 +1163,10 @@
     "level": 18,
     "maxQuality": 1690,
     "name": {
-      "de": "Endst\u00fcck-Bauteil",
+      "de": "Endstück-Bauteil",
       "en": "Finishing Component",
       "fr": "Composant final",
-      "ja": "\u30a8\u30ab\u30c8\u30eb\u306e\u91cd\u8981\u90e8\u6750"
+      "ja": "エカトルの重要部材"
     }
   },
   {
@@ -1179,7 +1179,7 @@
       "de": "Walnussbrot",
       "en": "Walnut Bread",
       "fr": "Pain aux noix",
-      "ja": "\u30a6\u30a9\u30eb\u30ca\u30c3\u30c8\u30d6\u30ec\u30c3\u30c9"
+      "ja": "ウォルナットブレッド"
     }
   },
   {
@@ -1191,8 +1191,8 @@
     "name": {
       "de": "Rohe Auster",
       "en": "Raw Oyster",
-      "fr": "Hu\u00eetre crue",
-      "ja": "\u30ed\u30fc\u30aa\u30a4\u30b9\u30bf\u30fc"
+      "fr": "Huître crue",
+      "ja": "ローオイスター"
     }
   },
   {
@@ -1204,8 +1204,8 @@
     "name": {
       "de": "Antilopen-Gulasch",
       "en": "Antelope Stew",
-      "fr": "Rago\u00fbt de cerf",
-      "ja": "\u30a2\u30f3\u30c6\u30ed\u30fc\u30d7\u30b7\u30c1\u30e5\u30fc"
+      "fr": "Ragoût de cerf",
+      "ja": "アンテロープシチュー"
     }
   },
   {
@@ -1215,10 +1215,10 @@
     "level": 20,
     "maxQuality": 1053,
     "name": {
-      "de": "H\u00e4hnchen-Pilzpfanne",
+      "de": "Hähnchen-Pilzpfanne",
       "en": "Chicken and Mushrooms",
-      "fr": "Fricass\u00e9e de poulet aux champignons",
-      "ja": "\u9d8f\u8089\u30ad\u30ce\u30b3\u7092\u3081"
+      "fr": "Fricassée de poulet aux champignons",
+      "ja": "鶏肉キノコ炒め"
     }
   },
   {
@@ -1231,7 +1231,7 @@
       "de": "Krabbenfleischball",
       "en": "Crab Ball",
       "fr": "Boulette de crabe",
-      "ja": "\u30af\u30e9\u30d6\u30dc\u30fc\u30eb"
+      "ja": "クラブボール"
     }
   },
   {
@@ -1243,8 +1243,8 @@
     "name": {
       "de": "Gegrillte Warmblut-Forelle",
       "en": "Grilled Warmwater Trout",
-      "fr": "Truite thermophile grill\u00e9e",
-      "ja": "\u30b0\u30ea\u30eb\u30c9\u30a6\u30a9\u30fc\u30e0\u30c8\u30e9\u30a6\u30c8"
+      "fr": "Truite thermophile grillée",
+      "ja": "グリルドウォームトラウト"
     }
   },
   {
@@ -1256,8 +1256,8 @@
     "name": {
       "de": "Sternenlichtdodo",
       "en": "Starlight Dodo",
-      "fr": "Dodo de la f\u00eate des \u00e9toiles",
-      "ja": "\u30b9\u30bf\u30fc\u30e9\u30a4\u30c8\u30fb\u30ed\u30fc\u30b9\u30c8\u30c9\u30fc\u30c9\u30fc"
+      "fr": "Dodo de la fête des étoiles",
+      "ja": "スターライト・ローストドードー"
     }
   },
   {
@@ -1270,7 +1270,7 @@
       "de": "Grill-Antilope",
       "en": "Antelope Steak",
       "fr": "Steak de cerf",
-      "ja": "\u30a2\u30f3\u30c6\u30ed\u30fc\u30d7\u30b9\u30c6\u30fc\u30ad"
+      "ja": "アンテロープステーキ"
     }
   },
   {
@@ -1283,7 +1283,7 @@
       "de": "Traubensaft",
       "en": "Grape Juice",
       "fr": "Jus de raisin",
-      "ja": "\u30b0\u30ec\u30fc\u30d7\u30b8\u30e5\u30fc\u30b9"
+      "ja": "グレープジュース"
     }
   },
   {
@@ -1296,7 +1296,7 @@
       "de": "Honigmuffin",
       "en": "Honey Muffin",
       "fr": "Muffin au miel",
-      "ja": "\u30cf\u30cb\u30fc\u30de\u30d5\u30a3\u30f3"
+      "ja": "ハニーマフィン"
     }
   },
   {
@@ -1308,8 +1308,8 @@
     "name": {
       "de": "Toffelbrei",
       "en": "Mashed Popotoes",
-      "fr": "Pur\u00e9e de popotos",
-      "ja": "\u30de\u30c3\u30b7\u30e5\u30dd\u30dd\u30c8"
+      "fr": "Purée de popotos",
+      "ja": "マッシュポポト"
     }
   },
   {
@@ -1322,7 +1322,7 @@
       "de": "Getrocknete Pflaumen",
       "en": "Dried Plums",
       "fr": "Pruneaux",
-      "ja": "\u30c9\u30e9\u30a4\u30d7\u30eb\u30fc\u30f3"
+      "ja": "ドライプルーン"
     }
   },
   {
@@ -1334,8 +1334,8 @@
     "name": {
       "de": "Saure Eier",
       "en": "Mustard Eggs",
-      "fr": "\u0152ufs \u00e0 la moutarde",
-      "ja": "\u30de\u30b9\u30bf\u30fc\u30c9\u30a8\u30c3\u30b0\u30ba"
+      "fr": "Œufs à la moutarde",
+      "ja": "マスタードエッグズ"
     }
   },
   {
@@ -1347,8 +1347,8 @@
     "name": {
       "de": "Sautierter Spinat",
       "en": "Spinach Saute",
-      "fr": "Saut\u00e9 d'\u00e9pinards",
-      "ja": "\u30b9\u30d4\u30ca\u30c3\u30c1\u30bd\u30c6\u30fc"
+      "fr": "Sauté d'épinards",
+      "ja": "スピナッチソテー"
     }
   },
   {
@@ -1361,7 +1361,7 @@
       "de": "Brezel",
       "en": "Dark Pretzel",
       "fr": "Bretzel noir",
-      "ja": "\u30d7\u30ec\u30c3\u30c4\u30a7\u30eb"
+      "ja": "プレッツェル"
     }
   },
   {
@@ -1371,10 +1371,10 @@
     "level": 23,
     "maxQuality": 1169,
     "name": {
-      "de": "Lachs nach M\u00fcllerinart",
+      "de": "Lachs nach Müllerinart",
       "en": "Salmon Meuniere",
-      "fr": "Saumon meuni\u00e8re",
-      "ja": "\u30b5\u30fc\u30e2\u30f3\u30e0\u30cb\u30a8\u30eb"
+      "fr": "Saumon meunière",
+      "ja": "サーモンムニエル"
     }
   },
   {
@@ -1387,7 +1387,7 @@
       "de": "Shepherd's Pie",
       "en": "Shepherd's Pie",
       "fr": "Hachis parmentier",
-      "ja": "\u30b7\u30a7\u30d1\u30fc\u30c9\u30d1\u30a4"
+      "ja": "シェパードパイ"
     }
   },
   {
@@ -1399,8 +1399,8 @@
     "name": {
       "de": "Kamillentee",
       "en": "Chamomile Tea",
-      "fr": "Th\u00e9 \u00e0 la camomille",
-      "ja": "\u30ab\u30e2\u30df\u30fc\u30eb\u30c6\u30a3\u30fc"
+      "fr": "Thé à la camomille",
+      "ja": "カモミールティー"
     }
   },
   {
@@ -1413,7 +1413,7 @@
       "de": "Barschball",
       "en": "Bass Ball",
       "fr": "Boulette de bar",
-      "ja": "\u30d0\u30b9\u30dc\u30fc\u30eb"
+      "ja": "バスボール"
     }
   },
   {
@@ -1425,8 +1425,8 @@
     "name": {
       "de": "Aalpastete",
       "en": "Eel Pie",
-      "fr": "Tarte \u00e0 l'anguille",
-      "ja": "\u30a4\u30fc\u30eb\u30d1\u30a4"
+      "fr": "Tarte à l'anguille",
+      "ja": "イールパイ"
     }
   },
   {
@@ -1438,8 +1438,8 @@
     "name": {
       "de": "Riviera-Abendmahl-Set",
       "en": "Riviera Supper",
-      "fr": "D\u00eener nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Dîner noscéen",
+      "ja": "ラノシアン・ディナーセット"
     }
   },
   {
@@ -1452,7 +1452,7 @@
       "de": "Grill-Bock",
       "en": "Aldgoat Steak",
       "fr": "Steak de bouquetin",
-      "ja": "\u5927\u5c71\u7f8a\u30b9\u30c6\u30fc\u30ad"
+      "ja": "大山羊ステーキ"
     }
   },
   {
@@ -1465,7 +1465,7 @@
       "de": "Ingwerkeks",
       "en": "Ginger Cookie",
       "fr": "Biscuit au gingembre",
-      "ja": "\u30b8\u30f3\u30b8\u30e3\u30fc\u30af\u30c3\u30ad\u30fc"
+      "ja": "ジンジャークッキー"
     }
   },
   {
@@ -1478,7 +1478,7 @@
       "de": "Erbsensuppe",
       "en": "Pea Soup",
       "fr": "Soupe de pois",
-      "ja": "\u30d4\u30fc\u30b9\u30fc\u30d7"
+      "ja": "ピースープ"
     }
   },
   {
@@ -1490,8 +1490,8 @@
     "name": {
       "de": "Gekochte Brasse",
       "en": "Boiled Bream",
-      "fr": "Br\u00e8me bouillie",
-      "ja": "\u30dc\u30a4\u30eb\u30c9\u30d6\u30ea\u30fc\u30e0"
+      "fr": "Brème bouillie",
+      "ja": "ボイルドブリーム"
     }
   },
   {
@@ -1501,10 +1501,10 @@
     "level": 27,
     "maxQuality": 1368,
     "name": {
-      "de": "K\u00e4serisotto",
+      "de": "Käserisotto",
       "en": "Cheese Risotto",
       "fr": "Risotto au fromage",
-      "ja": "\u30c1\u30fc\u30ba\u30ea\u30be\u30c3\u30c8"
+      "ja": "チーズリゾット"
     }
   },
   {
@@ -1516,8 +1516,8 @@
     "name": {
       "de": "Spiegelei",
       "en": "Fried Egg",
-      "fr": "\u0152uf au plat",
-      "ja": "\u30d5\u30e9\u30a4\u30c9\u30a8\u30c3\u30b0"
+      "fr": "Œuf au plat",
+      "ja": "フライドエッグ"
     }
   },
   {
@@ -1527,10 +1527,10 @@
     "level": 28,
     "maxQuality": 1498,
     "name": {
-      "de": "H\u00fchnerbr\u00fche",
+      "de": "Hühnerbrühe",
       "en": "Chicken Stock",
       "fr": "Bouillon de poulet",
-      "ja": "\u30c1\u30ad\u30f3\u30b9\u30c8\u30c3\u30af"
+      "ja": "チキンストック"
     }
   },
   {
@@ -1543,7 +1543,7 @@
       "de": "Crumpet",
       "en": "Crumpet",
       "fr": "Crumpet",
-      "ja": "\u30af\u30e9\u30f3\u30da\u30c3\u30c8"
+      "ja": "クランペット"
     }
   },
   {
@@ -1555,8 +1555,8 @@
     "name": {
       "de": "Orobon-Gulasch",
       "en": "Orobon Stew",
-      "fr": "Rago\u00fbt d'orobon",
-      "ja": "\u30aa\u30ed\u30dc\u30f3\u30b7\u30c1\u30e5\u30fc"
+      "fr": "Ragoût d'orobon",
+      "ja": "オロボンシチュー"
     }
   },
   {
@@ -1568,8 +1568,8 @@
     "name": {
       "de": "Maismehl",
       "en": "Cornmeal",
-      "fr": "Farine de ma\u00efs",
-      "ja": "\u30b3\u30fc\u30f3\u30b0\u30ea\u30c3\u30c4"
+      "fr": "Farine de maïs",
+      "ja": "コーングリッツ"
     }
   },
   {
@@ -1582,7 +1582,7 @@
       "de": "Tiefblauer Farbstoff",
       "en": "Abyssal Blue Dye",
       "fr": "Teinture bleu marine",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a2\u30d3\u30b5\u30eb\u30d6\u30eb\u30fc"
+      "ja": "カララント:アビサルブルー"
     }
   },
   {
@@ -1595,7 +1595,7 @@
       "de": "Gebratene Seezunge",
       "en": "Baked Sole",
       "fr": "Sole au four",
-      "ja": "\u30d9\u30a4\u30af\u30c9\u30bd\u30fc\u30eb"
+      "ja": "ベイクドソール"
     }
   },
   {
@@ -1605,24 +1605,23 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Jadegr\u00fcner Farbstoff",
+      "de": "Jadegrüner Farbstoff",
       "en": "Celeste Green Dye",
-      "fr": "Teinture vert c\u00e9leste",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30bb\u30ec\u30b9\u30c8\u30b0\u30ea\u30fc\u30f3"
+      "fr": "Teinture vert céleste",
+      "ja": "カララント:セレストグリーン"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 30,
     "difficulty": 183,
     "durability": 70,
     "level": 30,
     "maxQuality": 792,
     "name": {
-      "de": "Flaschenk\u00fchler mit Rotwein",
+      "de": "Flaschenkühler mit Rotwein",
       "en": "Chilled Red",
       "fr": "Boissons festives",
-      "ja": "\u30d5\u30eb\u30fc\u30c4\u30d5\u30ec\u30fc\u30d0\u30fc\u30fb\u30c9\u30ea\u30f3\u30af\u30bb\u30c3\u30c8"
+      "ja": "フルーツフレーバー・ドリンクセット"
     }
   },
   {
@@ -1635,7 +1634,7 @@
       "de": "Kolibrirosa Farbstoff",
       "en": "Colibri Pink Dye",
       "fr": "Teinture mauve colibri",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30ea\u30d6\u30ea\u30d4\u30f3\u30af"
+      "ja": "カララント:コリブリピンク"
     }
   },
   {
@@ -1648,7 +1647,7 @@
       "de": "Dalamudroter Farbstoff",
       "en": "Dalamud Red Dye",
       "fr": "Teinture rouge Dalamud",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c0\u30e9\u30ac\u30d6\u30ec\u30c3\u30c9"
+      "ja": "カララント:ダラガブレッド"
     }
   },
   {
@@ -1658,10 +1657,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Waldgr\u00fcner Farbstoff",
+      "de": "Waldgrüner Farbstoff",
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30c7\u30a3\u30fc\u30d7\u30a6\u30c3\u30c9\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:ディープウッドグリーン"
     }
   },
   {
@@ -1673,8 +1672,8 @@
     "name": {
       "de": "Futter: Antritt I",
       "en": "Grade 1 Feed - Acceleration Blend",
-      "fr": "Fourrage sp\u00e9cial acc\u00e9l\u00e9ration I",
-      "ja": "\u30a2\u30af\u30bb\u30eb\u30d5\u30a9\u30c0\u30fcG1"
+      "fr": "Fourrage spécial accélération I",
+      "ja": "アクセルフォダーG1"
     }
   },
   {
@@ -1684,10 +1683,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Futter: K\u00f6pfchen I",
+      "de": "Futter: Köpfchen I",
       "en": "Grade 1 Feed - Balance Blend",
-      "fr": "Fourrage sp\u00e9cial agilit\u00e9 I",
-      "ja": "\u30d0\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG1"
+      "fr": "Fourrage spécial agilité I",
+      "ja": "バランスフォダーG1"
     }
   },
   {
@@ -1699,8 +1698,8 @@
     "name": {
       "de": "Futter: Puste I",
       "en": "Grade 1 Feed - Endurance Blend",
-      "fr": "Fourrage sp\u00e9cial vitalit\u00e9 I",
-      "ja": "\u30a8\u30f3\u30c7\u30e5\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG1"
+      "fr": "Fourrage spécial vitalité I",
+      "ja": "エンデュランスフォダーG1"
     }
   },
   {
@@ -1712,8 +1711,8 @@
     "name": {
       "de": "Futter: Geschwindigkeit I",
       "en": "Grade 1 Feed - Speed Blend",
-      "fr": "Fourrage sp\u00e9cial vitesse I",
-      "ja": "\u30b9\u30d4\u30fc\u30c9\u30d5\u30a9\u30c0\u30fcG1"
+      "fr": "Fourrage spécial vitesse I",
+      "ja": "スピードフォダーG1"
     }
   },
   {
@@ -1725,8 +1724,8 @@
     "name": {
       "de": "Futter: Ausdauer I",
       "en": "Grade 1 Feed - Stamina Blend",
-      "fr": "Fourrage sp\u00e9cial endurance I",
-      "ja": "\u30b9\u30bf\u30df\u30ca\u30d5\u30a9\u30c0\u30fcG1"
+      "fr": "Fourrage spécial endurance I",
+      "ja": "スタミナフォダーG1"
     }
   },
   {
@@ -1739,7 +1738,7 @@
       "de": "Honiggelber Farbstoff",
       "en": "Honey Yellow Dye",
       "fr": "Teinture jaune miel",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30cb\u30fc\u30a4\u30a8\u30ed\u30fc"
+      "ja": "カララント:ハニーイエロー"
     }
   },
   {
@@ -1749,10 +1748,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "J\u00e4gergr\u00fcner Farbstoff",
+      "de": "Jägergrüner Farbstoff",
       "en": "Hunter Green Dye",
       "fr": "Teinture vert chasseur",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30cf\u30f3\u30bf\u30fc\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:ハンターグリーン"
     }
   },
   {
@@ -1765,7 +1764,7 @@
       "de": "Koboldbrauner Farbstoff",
       "en": "Kobold Brown Dye",
       "fr": "Teinture brun kobold",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b3\u30dc\u30eb\u30c9\u30d6\u30e9\u30a6\u30f3"
+      "ja": "カララント:コボルドブラウン"
     }
   },
   {
@@ -1778,7 +1777,7 @@
       "de": "Lehmbrauner Farbstoff",
       "en": "Loam Brown Dye",
       "fr": "Teinture brun argile",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30e0\u30d6\u30e9\u30a6\u30f3"
+      "ja": "カララント:ロームブラウン"
     }
   },
   {
@@ -1791,7 +1790,7 @@
       "de": "Lotusrosa Farbstoff",
       "en": "Lotus Pink Dye",
       "fr": "Teinture mauve lotus",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30fc\u30bf\u30b9\u30d4\u30f3\u30af"
+      "ja": "カララント:ロータスピンク"
     }
   },
   {
@@ -1803,8 +1802,8 @@
     "name": {
       "de": "Maisgelber Farbstoff",
       "en": "Millioncorn Yellow Dye",
-      "fr": "Teinture jaune milli-ma\u00efs",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30df\u30ea\u30aa\u30f3\u30b3\u30fc\u30f3\u30a4\u30a8\u30ed\u30fc"
+      "fr": "Teinture jaune milli-maïs",
+      "ja": "カララント:ミリオンコーンイエロー"
     }
   },
   {
@@ -1814,10 +1813,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Morbolgr\u00fcner Farbstoff",
+      "de": "Morbolgrüner Farbstoff",
       "en": "Morbol Green Dye",
       "fr": "Teinture vert morbol",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30e2\u30eb\u30dc\u30eb\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:モルボルグリーン"
     }
   },
   {
@@ -1827,10 +1826,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Ochugr\u00fcner Farbstoff",
+      "de": "Ochugrüner Farbstoff",
       "en": "Ochu Green Dye",
       "fr": "Teinture vert otyugh",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30c1\u30e5\u30fc\u30b0\u30ea\u30fc\u30f3"
+      "ja": "カララント:オチューグリーン"
     }
   },
   {
@@ -1843,7 +1842,7 @@
       "de": "Othardblauer Farbstoff",
       "en": "Othard Blue Dye",
       "fr": "Teinture bleu d'Othard",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30aa\u30b5\u30fc\u30c9\u30d6\u30eb\u30fc"
+      "ja": "カララント:オサードブルー"
     }
   },
   {
@@ -1856,7 +1855,7 @@
       "de": "Pflaumenvioletter Farbstoff",
       "en": "Plum Purple Dye",
       "fr": "Teinture prune",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d7\u30e9\u30e0\u30d1\u30fc\u30d7\u30eb"
+      "ja": "カララント:プラムパープル"
     }
   },
   {
@@ -1866,10 +1865,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00fcrbisoranger Farbstoff",
+      "de": "Kürbisoranger Farbstoff",
       "en": "Pumpkin Orange Dye",
       "fr": "Teinture orange citrouille",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30d1\u30f3\u30d7\u30ad\u30f3\u30aa\u30ec\u30f3\u30b8"
+      "ja": "カララント:パンプキンオレンジ"
     }
   },
   {
@@ -1879,10 +1878,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00f6nigsvioletter Farbstoff",
+      "de": "Königsvioletter Farbstoff",
       "en": "Regal Purple Dye",
       "fr": "Teinture byzantium",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ea\u30fc\u30ac\u30eb\u30d1\u30fc\u30d7\u30eb"
+      "ja": "カララント:リーガルパープル"
     }
   },
   {
@@ -1892,10 +1891,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "K\u00f6nigsblauer Farbstoff",
+      "de": "Königsblauer Farbstoff",
       "en": "Royal Blue Dye",
       "fr": "Teinture bleu royal",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ed\u30a4\u30e4\u30eb\u30d6\u30eb\u30fc"
+      "ja": "カララント:ロイヤルブルー"
     }
   },
   {
@@ -1905,10 +1904,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Schneewei\u00dfer Farbstoff",
+      "de": "Schneeweißer Farbstoff",
       "en": "Snow White Dye",
       "fr": "Teinture blanc neige",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30ce\u30a6\u30db\u30ef\u30a4\u30c8"
+      "ja": "カララント:スノウホワイト"
     }
   },
   {
@@ -1918,10 +1917,10 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "de": "Ru\u00dfschwarzer Farbstoff",
+      "de": "Rußschwarzer Farbstoff",
       "en": "Soot Black Dye",
       "fr": "Teinture noir suie",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30fc\u30c8\u30d6\u30e9\u30c3\u30af"
+      "ja": "カララント:スートブラック"
     }
   },
   {
@@ -1933,8 +1932,8 @@
     "name": {
       "de": "Sturmblauer Farbstoff",
       "en": "Storm Blue Dye",
-      "fr": "Teinture bleu temp\u00eate",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b9\u30c8\u30fc\u30e0\u30d6\u30eb\u30fc"
+      "fr": "Teinture bleu tempête",
+      "ja": "カララント:ストームブルー"
     }
   },
   {
@@ -1947,7 +1946,7 @@
       "de": "Abendroter Farbstoff",
       "en": "Sunset Orange Dye",
       "fr": "Teinture orange couchant",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30b5\u30f3\u30bb\u30c3\u30c8\u30aa\u30ec\u30f3\u30b8"
+      "ja": "カララント:サンセットオレンジ"
     }
   },
   {
@@ -1959,8 +1958,8 @@
     "name": {
       "de": "Nichtsblauer Farbstoff",
       "en": "Void Blue Dye",
-      "fr": "Teinture bleu du n\u00e9ant",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30f4\u30a9\u30a4\u30c9\u30d6\u30eb\u30fc"
+      "fr": "Teinture bleu du néant",
+      "ja": "カララント:ヴォイドブルー"
     }
   },
   {
@@ -1973,7 +1972,7 @@
       "de": "Weinroter Farbstoff",
       "en": "Wine Red Dye",
       "fr": "Teinture lie-de-vin",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30ef\u30a4\u30f3\u30ec\u30c3\u30c9"
+      "ja": "カララント:ワインレッド"
     }
   },
   {
@@ -1985,8 +1984,8 @@
     "name": {
       "de": "Indigoblauer Farbstoff",
       "en": "Woad Blue Dye",
-      "fr": "Teinture bleu gu\u00e8de",
-      "ja": "\u30ab\u30e9\u30e9\u30f3\u30c8:\u30a6\u30a9\u30fc\u30c9\u30d6\u30eb\u30fc"
+      "fr": "Teinture bleu guède",
+      "ja": "カララント:ウォードブルー"
     }
   },
   {
@@ -1999,7 +1998,7 @@
       "de": "Krokosalat",
       "en": "Alligator Salad",
       "fr": "Salade alligator",
-      "ja": "\u30a2\u30ea\u30b2\u30fc\u30bf\u30fc\u30b5\u30e9\u30c0"
+      "ja": "アリゲーターサラダ"
     }
   },
   {
@@ -2011,8 +2010,8 @@
     "name": {
       "de": "Maisbrot",
       "en": "Cornbread",
-      "fr": "Pain de ma\u00efs",
-      "ja": "\u30b3\u30fc\u30f3\u30d6\u30ec\u30c3\u30c9"
+      "fr": "Pain de maïs",
+      "ja": "コーンブレッド"
     }
   },
   {
@@ -2025,7 +2024,7 @@
       "de": "Balsamessig",
       "en": "Dark Vinegar",
       "fr": "Vinaigre balsamique",
-      "ja": "\u30d0\u30eb\u30b5\u30df\u30b3\u30d3\u30cd\u30ac\u30fc"
+      "ja": "バルサミコビネガー"
     }
   },
   {
@@ -2037,8 +2036,8 @@
     "name": {
       "de": "Pilz-Miqo'Kebab",
       "en": "Forest Miq'abob",
-      "fr": "Miqo-brochette foresti\u00e8re",
-      "ja": "\u30df\u30b3\u30c3\u30c6\u98a8\u68ee\u306e\u5e78\u4e32\u713c"
+      "fr": "Miqo-brochette forestière",
+      "ja": "ミコッテ風森の幸串焼"
     }
   },
   {
@@ -2048,10 +2047,10 @@
     "level": 32,
     "maxQuality": 1697,
     "name": {
-      "de": "R\u00e4ucher-Raptor",
+      "de": "Räucher-Raptor",
       "en": "Smoked Raptor",
-      "fr": "Tranche de raptor fum\u00e9",
-      "ja": "\u30b9\u30e2\u30fc\u30af\u30c9\u30e9\u30d7\u30c8\u30eb"
+      "fr": "Tranche de raptor fumé",
+      "ja": "スモークドラプトル"
     }
   },
   {
@@ -2064,7 +2063,7 @@
       "de": "Blutbeertorte",
       "en": "Blood Currant Tart",
       "fr": "Tarte aux groseilles sanguines",
-      "ja": "\u30d6\u30e9\u30c3\u30c9\u30ab\u30fc\u30e9\u30f3\u30c8\u30bf\u30eb\u30c8"
+      "ja": "ブラッドカーラントタルト"
     }
   },
   {
@@ -2077,7 +2076,7 @@
       "de": "Thunfisch-Miqo'Kebab",
       "en": "Tuna Miq'abob",
       "fr": "Miqo-brochette de thon",
-      "ja": "\u30df\u30b3\u30c3\u30c6\u98a8\u6d77\u306e\u5e78\u4e32\u713c"
+      "ja": "ミコッテ風海の幸串焼"
     }
   },
   {
@@ -2090,7 +2089,7 @@
       "de": "Eichelkeks",
       "en": "Acorn Cookie",
       "fr": "Biscuit aux glands",
-      "ja": "\u30a8\u30fc\u30b3\u30f3\u30af\u30c3\u30ad\u30fc"
+      "ja": "エーコンクッキー"
     }
   },
   {
@@ -2100,10 +2099,10 @@
     "level": 34,
     "maxQuality": 1811,
     "name": {
-      "de": "R\u00fchrei",
+      "de": "Rührei",
       "en": "Scrambled Eggs",
-      "fr": "\u0152uf brouill\u00e9",
-      "ja": "\u30b9\u30af\u30e9\u30f3\u30d6\u30eb\u30a8\u30c3\u30b0"
+      "fr": "Œuf brouillé",
+      "ja": "スクランブルエッグ"
     }
   },
   {
@@ -2116,7 +2115,7 @@
       "de": "Cawl Cennin",
       "en": "Cawl Cennin",
       "fr": "Bouillon de poireaux",
-      "ja": "\u30ab\u30a6\u30eb\u30b1\u30cb\u30f3"
+      "ja": "カウルケニン"
     }
   },
   {
@@ -2128,8 +2127,8 @@
     "name": {
       "de": "Waldtee-Set",
       "en": "Glade Tea Set",
-      "fr": "Go\u00fbter sombrelin\u00e7ois",
-      "ja": "\u30b7\u30e5\u30e9\u30a6\u30c9\u30fb\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Goûter sombrelinçois",
+      "ja": "シュラウド・ティーセット"
     }
   },
   {
@@ -2142,7 +2141,7 @@
       "de": "Heringball",
       "en": "Herring Ball",
       "fr": "Boulette de hareng",
-      "ja": "\u30d8\u30ea\u30f3\u30b0\u30dc\u30fc\u30eb"
+      "ja": "ヘリングボール"
     }
   },
   {
@@ -2152,10 +2151,10 @@
     "level": 36,
     "maxQuality": 1882,
     "name": {
-      "de": "Frischk\u00e4se",
+      "de": "Frischkäse",
       "en": "Cream Cheese",
-      "fr": "Fromage \u00e0 la cr\u00e8me",
-      "ja": "\u30af\u30ea\u30fc\u30e0\u30c1\u30fc\u30ba"
+      "fr": "Fromage à la crème",
+      "ja": "クリームチーズ"
     }
   },
   {
@@ -2168,7 +2167,7 @@
       "de": "Sauerkraut",
       "en": "Sauerkraut",
       "fr": "Choucroute",
-      "ja": "\u30b6\u30ef\u30fc\u30af\u30e9\u30a6\u30c8"
+      "ja": "ザワークラウト"
     }
   },
   {
@@ -2178,10 +2177,10 @@
     "level": 37,
     "maxQuality": 1905,
     "name": {
-      "de": "K\u00e4seauflauf",
+      "de": "Käseauflauf",
       "en": "Cheese Souffle",
-      "fr": "Souffl\u00e9 au fromage",
-      "ja": "\u30c1\u30fc\u30ba\u30b9\u30d5\u30ec"
+      "fr": "Soufflé au fromage",
+      "ja": "チーズスフレ"
     }
   },
   {
@@ -2194,7 +2193,7 @@
       "de": "Ratatouille",
       "en": "Ratatouille",
       "fr": "Ratatouille",
-      "ja": "\u30e9\u30bf\u30c8\u30a5\u30a4\u30e6"
+      "ja": "ラタトゥイユ"
     }
   },
   {
@@ -2207,7 +2206,7 @@
       "de": "Ritterbrot",
       "en": "Knight's Bread",
       "fr": "Pain de chevalier",
-      "ja": "\u30ca\u30a4\u30c4\u30d6\u30ec\u30c3\u30c9"
+      "ja": "ナイツブレッド"
     }
   },
   {
@@ -2219,8 +2218,8 @@
     "name": {
       "de": "Karpfen Rot",
       "en": "Mugwort Carp",
-      "fr": "Carpe \u00e0 l'armoise",
-      "ja": "\u30ab\u30fc\u30d7&\u30de\u30b0\u30ef\u30fc\u30c8"
+      "fr": "Carpe à l'armoise",
+      "ja": "カープ\u0026マグワート"
     }
   },
   {
@@ -2232,8 +2231,8 @@
     "name": {
       "de": "Raptoren-Gulasch",
       "en": "Raptor Stew",
-      "fr": "Rago\u00fbt de raptor",
-      "ja": "\u30e9\u30d7\u30c8\u30eb\u30b7\u30c1\u30e5\u30fc"
+      "fr": "Ragoût de raptor",
+      "ja": "ラプトルシチュー"
     }
   },
   {
@@ -2243,10 +2242,10 @@
     "level": 39,
     "maxQuality": 2026,
     "name": {
-      "de": "Gef\u00fcllte Artischocke",
+      "de": "Gefüllte Artischocke",
       "en": "Stuffed Artichoke",
       "fr": "Artichaut farci",
-      "ja": "\u30b9\u30bf\u30c3\u30d5\u30c9\u30a2\u30fc\u30c6\u30a3\u30c1\u30e7\u30fc\u30af"
+      "ja": "スタッフドアーティチョーク"
     }
   },
   {
@@ -2259,7 +2258,7 @@
       "de": "Apfelsaft",
       "en": "Apple Juice",
       "fr": "Jus de pomme",
-      "ja": "\u30a2\u30c3\u30d7\u30eb\u30b8\u30e5\u30fc\u30b9"
+      "ja": "アップルジュース"
     }
   },
   {
@@ -2269,10 +2268,10 @@
     "level": 40,
     "maxQuality": 1025,
     "name": {
-      "de": "Gourmet-Fr\u00fchst\u00fcck",
+      "de": "Gourmet-Frühstück",
       "en": "Gourmet Lunch",
-      "fr": "Petit d\u00e9jeuner complet",
-      "ja": "\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8"
+      "fr": "Petit déjeuner complet",
+      "ja": "モーニングセット"
     }
   },
   {
@@ -2285,7 +2284,7 @@
       "de": "Gegrillter Regenrufer",
       "en": "Grilled Raincaller",
       "fr": "Grillade de cherche-pluie",
-      "ja": "\u96e8\u4e5e\u9b5a\u306e\u30b0\u30ea\u30eb"
+      "ja": "雨乞魚のグリル"
     }
   },
   {
@@ -2295,10 +2294,10 @@
     "level": 40,
     "maxQuality": 2050,
     "name": {
-      "de": "Fischgeb\u00e4ck",
+      "de": "Fischgebäck",
       "en": "Pastry Fish",
-      "fr": "P\u00e2tisserie poisson",
-      "ja": "\u30da\u30b9\u30c8\u30ea\u30fc\u30d5\u30a3\u30c3\u30b7\u30e5"
+      "fr": "Pâtisserie poisson",
+      "ja": "ペストリーフィッシュ"
     }
   },
   {
@@ -2310,8 +2309,8 @@
     "name": {
       "de": "Trockenfleisch",
       "en": "Jerked Beef",
-      "fr": "Tranche de buffle s\u00e9ch\u00e9",
-      "ja": "\u30d3\u30fc\u30d5\u30b8\u30e3\u30fc\u30ad\u30fc"
+      "fr": "Tranche de buffle séché",
+      "ja": "ビーフジャーキー"
     }
   },
   {
@@ -2323,8 +2322,8 @@
     "name": {
       "de": "Dorsch im Schlafrock",
       "en": "Salt Cod Puffs",
-      "fr": "Choux \u00e0 la morue sal\u00e9e",
-      "ja": "\u30bd\u30eb\u30c8\u30b3\u30c3\u30c9\u30d1\u30d5"
+      "fr": "Choux à la morue salée",
+      "ja": "ソルトコッドパフ"
     }
   },
   {
@@ -2337,7 +2336,7 @@
       "de": "Fischsuppe",
       "en": "Fish Soup",
       "fr": "Soupe de poisson",
-      "ja": "\u30d5\u30a3\u30c3\u30b7\u30e5\u30b9\u30fc\u30d7"
+      "ja": "フィッシュスープ"
     }
   },
   {
@@ -2347,10 +2346,10 @@
     "level": 43,
     "maxQuality": 2251,
     "name": {
-      "de": "Rolanbeeren-K\u00e4se",
+      "de": "Rolanbeeren-Käse",
       "en": "Rolanberry Cheese",
       "fr": "Fromage sauce rolanbaie",
-      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30c1\u30fc\u30ba"
+      "ja": "ロランベリーチーズ"
     }
   },
   {
@@ -2362,8 +2361,8 @@
     "name": {
       "de": "Knofi-Pilzpfanne",
       "en": "Button Mushroom Saute",
-      "fr": "Saut\u00e9 de champignons \u00e0 l'ail",
-      "ja": "\u30ad\u30ce\u30b3\u306e\u30ac\u30fc\u30ea\u30c3\u30af\u30bd\u30c6\u30fc"
+      "fr": "Sauté de champignons à l'ail",
+      "ja": "キノコのガーリックソテー"
     }
   },
   {
@@ -2376,7 +2375,7 @@
       "de": "Dzemael-Gratin",
       "en": "Dzemael Gratin",
       "fr": "Gratin Dzemael",
-      "ja": "\u30bc\u30fc\u30e1\u30eb\u5bb6\u98a8\u30b0\u30e9\u30bf\u30f3"
+      "ja": "ゼーメル家風グラタン"
     }
   },
   {
@@ -2386,10 +2385,10 @@
     "level": 45,
     "maxQuality": 1154,
     "name": {
-      "de": "Ishgarder Fr\u00fchst\u00fcck",
+      "de": "Ishgarder Frühstück",
       "en": "Alpine Breakfast",
-      "fr": "Petit d\u00e9jeuner ishgardais",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8"
+      "fr": "Petit déjeuner ishgardais",
+      "ja": "イシュガルディアン・モーニングセット"
     }
   },
   {
@@ -2401,8 +2400,8 @@
     "name": {
       "de": "La Noscea-Toast",
       "en": "La Noscean Toast",
-      "fr": "Toast nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30c8\u30fc\u30b9\u30c8"
+      "fr": "Toast noscéen",
+      "ja": "ラノシアトースト"
     }
   },
   {
@@ -2414,8 +2413,8 @@
     "name": {
       "de": "Rolanbeeren-Lassi",
       "en": "Rolanberry Lassi",
-      "fr": "Lassi \u00e0 la rolanbaie",
-      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30e9\u30c3\u30b7\u30fc"
+      "fr": "Lassi à la rolanbaie",
+      "ja": "ロランベリーラッシー"
     }
   },
   {
@@ -2427,8 +2426,8 @@
     "name": {
       "de": "Sternenlichtkuchen",
       "en": "Starlight Cake",
-      "fr": "G\u00e2teau de la f\u00eate des \u00e9toiles",
-      "ja": "\u30b9\u30bf\u30fc\u30e9\u30a4\u30c8\u30fb\u30ec\u30a4\u30e4\u30fc\u30b1\u30fc\u30ad"
+      "fr": "Gâteau de la fête des étoiles",
+      "ja": "スターライト・レイヤーケーキ"
     }
   },
   {
@@ -2441,7 +2440,7 @@
       "de": "Kohlroulade",
       "en": "Stuffed Cabbage",
       "fr": "Choux farcis",
-      "ja": "\u30d1\u30a4\u30af\u306e\u30ad\u30e3\u30d9\u30c4\u5dfb\u304d"
+      "ja": "パイクのキャベツ巻き"
     }
   },
   {
@@ -2453,8 +2452,8 @@
     "name": {
       "de": "Verteufelte Eier",
       "en": "Deviled Eggs",
-      "fr": "\u0152ufs mimosa",
-      "ja": "\u30c7\u30d3\u30eb\u30c9\u30a8\u30c3\u30b0\u30ba"
+      "fr": "Œufs mimosa",
+      "ja": "デビルドエッグズ"
     }
   },
   {
@@ -2464,10 +2463,10 @@
     "level": 47,
     "maxQuality": 2421,
     "name": {
-      "de": "Gl\u00fchtee",
+      "de": "Glühtee",
       "en": "Mulled Tea",
-      "fr": "Th\u00e9 \u00e9pic\u00e9",
-      "ja": "\u30de\u30eb\u30c9\u30c6\u30a3\u30fc"
+      "fr": "Thé épicé",
+      "ja": "マルドティー"
     }
   },
   {
@@ -2477,10 +2476,10 @@
     "level": 48,
     "maxQuality": 2524,
     "name": {
-      "de": "Gekr\u00f6nter Kuchen",
+      "de": "Gekrönter Kuchen",
       "en": "Crowned Pie",
       "fr": "Galette des rois",
-      "ja": "\u30ac\u30ec\u30c3\u30c8\u30fb\u30c7\u30fb\u30ed\u30ef"
+      "ja": "ガレット・デ・ロワ"
     }
   },
   {
@@ -2493,7 +2492,7 @@
       "de": "Pilz-Kohlrouladen",
       "en": "Buttons in a Blanket",
       "fr": "Choux farcis aux champignons",
-      "ja": "\u30ad\u30ce\u30b3\u306e\u30ad\u30e3\u30d9\u30c4\u5dfb\u304d"
+      "ja": "キノコのキャベツ巻き"
     }
   },
   {
@@ -2503,10 +2502,10 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "\u00c4therd\u00e4mmendes Gef\u00e4\u00df",
+      "de": "Ätherdämmendes Gefäß",
       "en": "Aetheric Shielding",
-      "fr": "R\u00e9cipient \u00e9th\u00e9roscell\u00e9",
-      "ja": "\u7d76\u970a\u4f53\u5bb9\u5668"
+      "fr": "Récipient éthéroscellé",
+      "ja": "絶霊体容器"
     }
   },
   {
@@ -2519,7 +2518,7 @@
       "de": "Obstteller",
       "en": "Assorted Fruit",
       "fr": "Panier de fruits",
-      "ja": "\u30d5\u30eb\u30fc\u30c4\u30a2\u30bd\u30fc\u30c8"
+      "ja": "フルーツアソート"
     }
   },
   {
@@ -2532,7 +2531,7 @@
       "de": "Drachengabe",
       "en": "Austere Offering",
       "fr": "Cadeau pour dragons",
-      "ja": "\u7adc\u65cf\u5831\u916c\u54c1"
+      "ja": "竜族報酬品"
     }
   },
   {
@@ -2544,8 +2543,8 @@
     "name": {
       "de": "Korbkomponente",
       "en": "Basket Component",
-      "fr": "Mat\u00e9riel de vannerie",
-      "ja": "\u7de8\u307f\u30ab\u30b4\u90e8\u6750"
+      "fr": "Matériel de vannerie",
+      "ja": "編みカゴ部材"
     }
   },
   {
@@ -2557,8 +2556,8 @@
     "name": {
       "de": "Gulasch",
       "en": "Beef Stew",
-      "fr": "Rago\u00fbt de buffle",
-      "ja": "\u30d3\u30fc\u30d5\u30b7\u30c1\u30e5\u30fc"
+      "fr": "Ragoût de buffle",
+      "ja": "ビーフシチュー"
     }
   },
   {
@@ -2568,10 +2567,10 @@
     "level": 50,
     "maxQuality": 660,
     "name": {
-      "de": "Wolkenmeer-K\u00f6der",
+      "de": "Wolkenmeer-Köder",
       "en": "Cloudfish Lure",
-      "fr": "Leurre sp\u00e9cial",
-      "ja": "\u96f2\u6d77\u91e3\u990c"
+      "fr": "Leurre spécial",
+      "ja": "雲海釣餌"
     }
   },
   {
@@ -2584,7 +2583,7 @@
       "de": "Dolchfisch-Suppe",
       "en": "Dagger Soup",
       "fr": "Soupe de dagues",
-      "ja": "\u30c0\u30ac\u30fc\u30b9\u30fc\u30d7"
+      "ja": "ダガースープ"
     }
   },
   {
@@ -2596,8 +2595,8 @@
     "name": {
       "de": "Schuppenfeile",
       "en": "Dragonscale Rasp",
-      "fr": "Racloir en \u00e9caille de dragon",
-      "ja": "\u7adc\u9c57\u30e4\u30b9\u30ea"
+      "fr": "Racloir en écaille de dragon",
+      "ja": "竜鱗ヤスリ"
     }
   },
   {
@@ -2610,7 +2609,7 @@
       "de": "Molchsteak",
       "en": "Eft Steak",
       "fr": "Steak de jeune triton",
-      "ja": "\u30a8\u30d5\u30c8\u30b9\u30c6\u30fc\u30ad"
+      "ja": "エフトステーキ"
     }
   },
   {
@@ -2622,8 +2621,8 @@
     "name": {
       "de": "Rauchbombe",
       "en": "Exploding Kupo Nut",
-      "fr": "Noix de kupo fumig\u00e8ne",
-      "ja": "\u7159\u5e55\u306e\u5b9f"
+      "fr": "Noix de kupo fumigène",
+      "ja": "煙幕の実"
     }
   },
   {
@@ -2636,7 +2635,7 @@
       "de": "Falsche Kupo-Nuss",
       "en": "Fake Kupo Nut",
       "fr": "Fausse noix de kupo",
-      "ja": "\u30cb\u30bb\u306e\u5b9f"
+      "ja": "ニセの実"
     }
   },
   {
@@ -2648,8 +2647,8 @@
     "name": {
       "de": "Fundamentmaterial",
       "en": "Foundation Component",
-      "fr": "Mat\u00e9riel pour les fondations",
-      "ja": "\u57fa\u790e\u5de5\u4e8b\u8cc7\u6750"
+      "fr": "Matériel pour les fondations",
+      "ja": "基礎工事資材"
     }
   },
   {
@@ -2659,10 +2658,10 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "Komponente f\u00fcr die Werkzeugreparatur",
+      "de": "Komponente für die Werkzeugreparatur",
       "en": "Gathering Tool Component",
-      "fr": "Mat\u00e9riel de r\u00e9paration",
-      "ja": "\u63a1\u96c6\u9053\u5177\u88dc\u6750"
+      "fr": "Matériel de réparation",
+      "ja": "採集道具補材"
     }
   },
   {
@@ -2672,10 +2671,10 @@
     "level": 50,
     "maxQuality": 673,
     "name": {
-      "de": "Tr\u00f6tenkomponente",
+      "de": "Trötenkomponente",
       "en": "Horn Component",
       "fr": "Composant de clairon",
-      "ja": "\u3059\u3093\u3054\u3044\u30e9\u30c3\u30d1\u90e8\u6750"
+      "ja": "すんごいラッパ部材"
     }
   },
   {
@@ -2687,8 +2686,8 @@
     "name": {
       "de": "Bestandteil einer Mahlzeit",
       "en": "Ishgardian Cuisine Miscellany",
-      "fr": "\u00c9l\u00e9ment de plateau-repas",
-      "ja": "\u6669\u9910\u4e0d\u8db3\u54c1"
+      "fr": "Élément de plateau-repas",
+      "ja": "晩餐不足品"
     }
   },
   {
@@ -2700,8 +2699,8 @@
     "name": {
       "de": "Miniatur-Luftschiff",
       "en": "Makeshift Toy Airship",
-      "fr": "Maquette d'a\u00e9ronef",
-      "ja": "\u98db\u7a7a\u8247\u6a21\u578b"
+      "fr": "Maquette d'aéronef",
+      "ja": "飛空艇模型"
     }
   },
   {
@@ -2711,10 +2710,10 @@
     "level": 50,
     "maxQuality": 1320,
     "name": {
-      "de": "K\u00fcchenartikel",
+      "de": "Küchenartikel",
       "en": "Mogstew Miscellany",
-      "fr": "Mat\u00e9riaux gastronomiques",
-      "ja": "\u8abf\u7406\u4e0d\u8db3\u54c1"
+      "fr": "Matériaux gastronomiques",
+      "ja": "調理不足品"
     }
   },
   {
@@ -2726,8 +2725,8 @@
     "name": {
       "de": "Kleine Belohnung",
       "en": "Moogle Mollifier",
-      "fr": "Cadeau personnalis\u00e9",
-      "ja": "\u7279\u88fd\u3054\u8912\u7f8e"
+      "fr": "Cadeau personnalisé",
+      "ja": "特製ご褒美"
     }
   },
   {
@@ -2740,7 +2739,7 @@
       "de": "Mogry-Figur",
       "en": "Moogle Statuette",
       "fr": "Statuette de Mog",
-      "ja": "\u5f6b\u50cf\u898b\u672c\u54c1"
+      "ja": "彫像見本品"
     }
   },
   {
@@ -2752,8 +2751,8 @@
     "name": {
       "de": "Mogry-Werkzeugkomponente",
       "en": "Moogle Tool Component",
-      "fr": "Composant de marteau sp\u00e9cial Mog",
-      "ja": "\u30e2\u30fc\u30b0\u30ea\u7528\u9053\u5177\u90e8\u6750"
+      "fr": "Composant de marteau spécial Mog",
+      "ja": "モーグリ用道具部材"
     }
   },
   {
@@ -2765,8 +2764,8 @@
     "name": {
       "de": "Verwendbares Baumaterial",
       "en": "Repurposed Construction Component",
-      "fr": "Mat\u00e9riel de construction",
-      "ja": "\u518d\u751f\u6e08\u307f\u5efa\u7bc9\u8cc7\u6750"
+      "fr": "Matériel de construction",
+      "ja": "再生済み建築資材"
     }
   },
   {
@@ -2776,10 +2775,10 @@
     "level": 50,
     "maxQuality": 1980,
     "name": {
-      "de": "Einzelteil f\u00fcr die Schneidemaschine",
+      "de": "Einzelteil für die Schneidemaschine",
       "en": "Shearing Machine Component",
-      "fr": "Composant de machine \u00e0 inciser",
-      "ja": "\u88c1\u65ad\u6a5f\u90e8\u6750"
+      "fr": "Composant de machine à inciser",
+      "ja": "裁断機部材"
     }
   },
   {
@@ -2792,7 +2791,7 @@
       "de": "Steinstatuenkomponente",
       "en": "Statue Supplies",
       "fr": "Composant de statue",
-      "ja": "\u77f3\u50cf\u4fee\u5fa9\u7528\u90e8\u6750"
+      "ja": "石像修復用部材"
     }
   },
   {
@@ -2804,8 +2803,8 @@
     "name": {
       "de": "Formvollendete Steinblock-Vorlage",
       "en": "Stonemasonry Supplies",
-      "fr": "Pierre de r\u00e9f\u00e9rence",
-      "ja": "\u8abf\u6574\u3055\u308c\u305f\u77f3\u6750"
+      "fr": "Pierre de référence",
+      "ja": "調整された石材"
     }
   },
   {
@@ -2817,8 +2816,8 @@
     "name": {
       "de": "Gedenktafelkomponente",
       "en": "Tablet Supplies",
-      "fr": "Composant de plaque comm\u00e9morative",
-      "ja": "\u9298\u677f\u4ed5\u4e0a\u3052\u90e8\u6750"
+      "fr": "Composant de plaque commémorative",
+      "ja": "銘板仕上げ部材"
     }
   },
   {
@@ -2828,10 +2827,10 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "de": "\u00dcbungsmaterial",
+      "de": "Übungsmaterial",
       "en": "Training Supplies",
-      "fr": "Mat\u00e9riel d'entra\u00eenement",
-      "ja": "\u8a13\u7df4\u7528\u90e8\u6750"
+      "fr": "Matériel d'entraînement",
+      "ja": "訓練用部材"
     }
   },
   {
@@ -2843,8 +2842,8 @@
     "name": {
       "de": "Fallensteller-Quiche",
       "en": "Trapper's Quiche",
-      "fr": "Quiche au triton fa\u00e7on chasseur",
-      "ja": "\u731f\u5e2b\u98a8\u30a8\u30d5\u30c8\u30ad\u30c3\u30b7\u30e5"
+      "fr": "Quiche au triton façon chasseur",
+      "ja": "猟師風エフトキッシュ"
     }
   },
   {
@@ -2856,8 +2855,8 @@
     "name": {
       "de": "Flaschenzug-Ersatzteil",
       "en": "Treadwheel Crane Components",
-      "fr": "Mat\u00e9riel de r\u00e9paration de treuil",
-      "ja": "\u5dfb\u304d\u4e0a\u3052\u6a5f\u90e8\u6750"
+      "fr": "Matériel de réparation de treuil",
+      "ja": "巻き上げ機部材"
     }
   },
   {
@@ -2867,10 +2866,10 @@
     "level": 50,
     "maxQuality": 660,
     "name": {
-      "de": "Werkzeug zur Bodenplattenf\u00e4rbung",
+      "de": "Werkzeug zur Bodenplattenfärbung",
       "en": "Veneer Component",
-      "fr": "Mat\u00e9riel de finition",
-      "ja": "\u5e8a\u6750\u52a0\u5de5\u7528\u54c1"
+      "fr": "Matériel de finition",
+      "ja": "床材加工用品"
     }
   },
   {
@@ -2880,10 +2879,10 @@
     "level": 50,
     "maxQuality": 1056,
     "name": {
-      "de": "Werkzeug zur Mauergl\u00e4ttung",
+      "de": "Werkzeug zur Mauerglättung",
       "en": "Wall Repair Supplies",
-      "fr": "Mat\u00e9riel de r\u00e9novation de fa\u00e7ade",
-      "ja": "\u58c1\u306e\u88dc\u4fee\u90e8\u6750"
+      "fr": "Matériel de rénovation de façade",
+      "ja": "壁の補修部材"
     }
   },
   {
@@ -2896,7 +2895,7 @@
       "de": "Abdichtungskomponente",
       "en": "Water Filter Component",
       "fr": "Composant de fontaine",
-      "ja": "\u6cc9\u6c34\u88dc\u4fee\u6750"
+      "ja": "泉水補修材"
     }
   },
   {
@@ -2909,7 +2908,7 @@
       "de": "Schwarzer Drops",
       "en": "Black Drop",
       "fr": "Bonbon noir",
-      "ja": "\u30d6\u30e9\u30c3\u30af\u30c9\u30ed\u30c3\u30d7"
+      "ja": "ブラックドロップ"
     },
     "stars": 1
   },
@@ -2923,7 +2922,7 @@
       "de": "Blauer Drops",
       "en": "Blue Drop",
       "fr": "Bonbon bleu",
-      "ja": "\u30d6\u30eb\u30fc\u30c9\u30ed\u30c3\u30d7"
+      "ja": "ブルードロップ"
     },
     "stars": 1
   },
@@ -2937,7 +2936,7 @@
       "de": "Bouillabaisse",
       "en": "Bouillabaisse",
       "fr": "Bouillabaisse",
-      "ja": "\u30d6\u30a4\u30e4\u30d9\u30fc\u30b9"
+      "ja": "ブイヤベース"
     },
     "stars": 1
   },
@@ -2951,7 +2950,7 @@
       "de": "Transparenter Drops",
       "en": "Clear Drop",
       "fr": "Bonbon transparent",
-      "ja": "\u30af\u30ea\u30a2\u30c9\u30ed\u30c3\u30d7"
+      "ja": "クリアドロップ"
     },
     "stars": 1
   },
@@ -2962,10 +2961,10 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "de": "Gr\u00fcner Drops",
+      "de": "Grüner Drops",
       "en": "Green Drop",
       "fr": "Bonbon vert",
-      "ja": "\u30b0\u30ea\u30fc\u30f3\u30c9\u30ed\u30c3\u30d7"
+      "ja": "グリーンドロップ"
     },
     "stars": 1
   },
@@ -2976,10 +2975,10 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "de": "Gr\u00fcntee-Set",
+      "de": "Grüntee-Set",
       "en": "Green Tea Set",
-      "fr": "Collation de th\u00e9 vert",
-      "ja": "\u30b0\u30ea\u30fc\u30f3\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Collation de thé vert",
+      "ja": "グリーンティーセット"
     },
     "stars": 1
   },
@@ -2992,8 +2991,8 @@
     "name": {
       "de": "Karnivorenblattsalat",
       "en": "Landtrap Salad",
-      "fr": "Salade fr\u00e9missante",
-      "ja": "\u30e9\u30f3\u30c9\u30c8\u30e9\u30c3\u30d7\u30b5\u30e9\u30c0"
+      "fr": "Salade frémissante",
+      "ja": "ランドトラップサラダ"
     },
     "stars": 1
   },
@@ -3004,10 +3003,10 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "de": "Oasen-Fr\u00fchst\u00fccks-Set",
+      "de": "Oasen-Frühstücks-Set",
       "en": "Oasis Breakfast",
-      "fr": "Petit d\u00e9jeuner thanalanais",
-      "ja": "\u30b6\u30ca\u30e9\u30fc\u30f3\u30fb\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8"
+      "fr": "Petit déjeuner thanalanais",
+      "ja": "ザナラーン・モーニングセット"
     },
     "stars": 1
   },
@@ -3021,7 +3020,7 @@
       "de": "Gebratener Mahi-Mahi",
       "en": "Pan-fried Mahi-Mahi",
       "fr": "Mahi-mahi frit",
-      "ja": "\u30de\u30d2\u30de\u30d2\u306e\u63da\u3052\u713c\u304d"
+      "ja": "マヒマヒの揚げ焼き"
     },
     "stars": 1
   },
@@ -3035,7 +3034,7 @@
       "de": "Violetter Drops",
       "en": "Purple Drop",
       "fr": "Bonbon violet",
-      "ja": "\u30d1\u30fc\u30d7\u30eb\u30c9\u30ed\u30c3\u30d7"
+      "ja": "パープルドロップ"
     },
     "stars": 1
   },
@@ -3049,7 +3048,7 @@
       "de": "Roter Drops",
       "en": "Red Drop",
       "fr": "Bonbon rouge",
-      "ja": "\u30ec\u30c3\u30c9\u30c9\u30ed\u30c3\u30d7"
+      "ja": "レッドドロップ"
     },
     "stars": 1
   },
@@ -3060,10 +3059,10 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "de": "Rolanbeeren-K\u00e4sekuchen",
+      "de": "Rolanbeeren-Käsekuchen",
       "en": "Rolanberry Cheesecake",
-      "fr": "G\u00e2teau au fromage \u00e0 la rolanbaie",
-      "ja": "\u30ed\u30e9\u30f3\u30d9\u30ea\u30fc\u30c1\u30fc\u30ba\u30b1\u30fc\u30ad"
+      "fr": "Gâteau au fromage à la rolanbaie",
+      "ja": "ロランベリーチーズケーキ"
     },
     "stars": 1
   },
@@ -3076,8 +3075,8 @@
     "name": {
       "de": "Tomatenpastete",
       "en": "Tomato Pie",
-      "fr": "Tarte \u00e0 la tomate",
-      "ja": "\u30c8\u30de\u30c8\u30d1\u30a4"
+      "fr": "Tarte à la tomate",
+      "ja": "トマトパイ"
     },
     "stars": 1
   },
@@ -3088,10 +3087,10 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "de": "Wei\u00dfer Drops",
+      "de": "Weißer Drops",
       "en": "White Drop",
       "fr": "Bonbon blanc",
-      "ja": "\u30db\u30ef\u30a4\u30c8\u30c9\u30ed\u30c3\u30d7"
+      "ja": "ホワイトドロップ"
     },
     "stars": 1
   },
@@ -3105,7 +3104,7 @@
       "de": "Gelber Drops",
       "en": "Yellow Drop",
       "fr": "Bonbon jaune",
-      "ja": "\u30a4\u30a8\u30ed\u30fc\u30c9\u30ed\u30c3\u30d7"
+      "ja": "イエロードロップ"
     },
     "stars": 1
   },
@@ -3118,8 +3117,8 @@
     "name": {
       "de": "Nachmittagstee-Set",
       "en": "Afternoon Tea Set",
-      "fr": "Go\u00fbter de gourmand",
-      "ja": "\u30a2\u30d5\u30bf\u30cc\u30fc\u30f3\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Goûter de gourmand",
+      "ja": "アフタヌーンティーセット"
     },
     "stars": 2
   },
@@ -3132,8 +3131,8 @@
     "name": {
       "de": "Luftschiff-Reparaturkit",
       "en": "Airship Repair Materials",
-      "fr": "Kit de r\u00e9paration d'a\u00e9ronef",
-      "ja": "\u98db\u7a7a\u8247\u4fee\u7406\u6750"
+      "fr": "Kit de réparation d'aéronef",
+      "ja": "飛空艇修理材"
     },
     "stars": 2
   },
@@ -3146,8 +3145,8 @@
     "name": {
       "de": "Apkallu-Omelett",
       "en": "Apkallu Omelette",
-      "fr": "Omelette aux \u0153ufs d'apkallu",
-      "ja": "\u30a2\u30d7\u30ab\u30eb\u30aa\u30e0\u30ec\u30c4"
+      "fr": "Omelette aux œufs d'apkallu",
+      "ja": "アプカルオムレツ"
     },
     "stars": 2
   },
@@ -3158,10 +3157,10 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "de": "Risotto mit schwarzen Tr\u00fcffeln",
+      "de": "Risotto mit schwarzen Trüffeln",
       "en": "Black Truffle Risotto",
       "fr": "Risotto aux truffes noires",
-      "ja": "\u30d6\u30e9\u30c3\u30af\u30c8\u30ea\u30e5\u30d5\u30ea\u30be\u30c3\u30c8"
+      "ja": "ブラックトリュフリゾット"
     },
     "stars": 2
   },
@@ -3174,8 +3173,8 @@
     "name": {
       "de": "Kalte Toffelsuppe",
       "en": "Chilled Popoto Soup",
-      "fr": "Soupe de popotos glac\u00e9e",
-      "ja": "\u51b7\u88fd\u30dd\u30dd\u30c8\u30b9\u30fc\u30d7"
+      "fr": "Soupe de popotos glacée",
+      "ja": "冷製ポポトスープ"
     },
     "stars": 2
   },
@@ -3186,10 +3185,10 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "de": "Eiersandwich \u00e0 la Bismarck",
+      "de": "Eiersandwich à la Bismarck",
       "en": "Finger Sandwich",
-      "fr": "Sandwich \u00e0 la Bismarck",
-      "ja": "\u30d3\u30b9\u30de\u30eb\u30af\u98a8\u30a8\u30c3\u30b0\u30b5\u30f3\u30c9"
+      "fr": "Sandwich à la Bismarck",
+      "ja": "ビスマルク風エッグサンド"
     },
     "stars": 2
   },
@@ -3202,8 +3201,8 @@
     "name": {
       "de": "Gourmet-Abendessen",
       "en": "Gourmet Supper",
-      "fr": "D\u00eener de gourmet",
-      "ja": "\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Dîner de gourmet",
+      "ja": "ディナーセット"
     },
     "stars": 2
   },
@@ -3216,8 +3215,8 @@
     "name": {
       "de": "Futter: Antritt II",
       "en": "Grade 2 Feed - Acceleration Blend",
-      "fr": "Fourrage sp\u00e9cial acc\u00e9l\u00e9ration II",
-      "ja": "\u30a2\u30af\u30bb\u30eb\u30d5\u30a9\u30c0\u30fcG2"
+      "fr": "Fourrage spécial accélération II",
+      "ja": "アクセルフォダーG2"
     },
     "stars": 2
   },
@@ -3228,10 +3227,10 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "de": "Futter: K\u00f6pfchen II",
+      "de": "Futter: Köpfchen II",
       "en": "Grade 2 Feed - Balance Blend",
-      "fr": "Fourrage sp\u00e9cial agilit\u00e9 II",
-      "ja": "\u30d0\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG2"
+      "fr": "Fourrage spécial agilité II",
+      "ja": "バランスフォダーG2"
     },
     "stars": 2
   },
@@ -3244,8 +3243,8 @@
     "name": {
       "de": "Futter: Puste II",
       "en": "Grade 2 Feed - Endurance Blend",
-      "fr": "Fourrage sp\u00e9cial vitalit\u00e9 II",
-      "ja": "\u30a8\u30f3\u30c7\u30e5\u30e9\u30f3\u30b9\u30d5\u30a9\u30c0\u30fcG2"
+      "fr": "Fourrage spécial vitalité II",
+      "ja": "エンデュランスフォダーG2"
     },
     "stars": 2
   },
@@ -3258,8 +3257,8 @@
     "name": {
       "de": "Futter: Geschwindigkeit II",
       "en": "Grade 2 Feed - Speed Blend",
-      "fr": "Fourrage sp\u00e9cial vitesse II",
-      "ja": "\u30b9\u30d4\u30fc\u30c9\u30d5\u30a9\u30c0\u30fcG2"
+      "fr": "Fourrage spécial vitesse II",
+      "ja": "スピードフォダーG2"
     },
     "stars": 2
   },
@@ -3272,8 +3271,8 @@
     "name": {
       "de": "Futter: Ausdauer II",
       "en": "Grade 2 Feed - Stamina Blend",
-      "fr": "Fourrage sp\u00e9cial endurance II",
-      "ja": "\u30b9\u30bf\u30df\u30ca\u30d5\u30a9\u30c0\u30fcG2"
+      "fr": "Fourrage spécial endurance II",
+      "ja": "スタミナフォダーG2"
     },
     "stars": 2
   },
@@ -3284,10 +3283,10 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "de": "Lavakr\u00f6tenschenkel",
+      "de": "Lavakrötenschenkel",
       "en": "Lava Toad Legs",
       "fr": "Cuisses de crapaud lavique",
-      "ja": "\u30e9\u30fc\u30f4\u30a1\u30c8\u30fc\u30c9\u30ec\u30c3\u30b0\u30ba"
+      "ja": "ラーヴァトードレッグズ"
     },
     "stars": 2
   },
@@ -3301,7 +3300,7 @@
       "de": "Ananassaft",
       "en": "Pineapple Juice",
       "fr": "Jus d'ananas",
-      "ja": "\u30d1\u30a4\u30f3\u30b8\u30e5\u30fc\u30b9"
+      "ja": "パインジュース"
     },
     "stars": 2
   },
@@ -3314,8 +3313,8 @@
     "name": {
       "de": "Ananas-Ponzenkuchen",
       "en": "Pineapple Ponzecake",
-      "fr": "Quatre-quarts \u00e0 l'ananas",
-      "ja": "\u30d1\u30a4\u30ca\u30c3\u30d7\u30eb\u30b1\u30fc\u30ad"
+      "fr": "Quatre-quarts à l'ananas",
+      "ja": "パイナップルケーキ"
     },
     "stars": 2
   },
@@ -3329,7 +3328,7 @@
       "de": "Coeurlfleisch",
       "en": "Sauteed Coeurl",
       "fr": "Coeurl au vin",
-      "ja": "\u30af\u30a1\u30fc\u30eb\u306e\u30ef\u30a4\u30f3\u30bd\u30c6\u30fc"
+      "ja": "クァールのワインソテー"
     },
     "stars": 2
   },
@@ -3340,10 +3339,10 @@
     "level": 70,
     "maxQuality": 5257,
     "name": {
-      "de": "Tomatenw\u00fcrze",
+      "de": "Tomatenwürze",
       "en": "Spicy Tomato Relish",
-      "fr": "Condiment \u00e9pic\u00e9 \u00e0 la tomate",
-      "ja": "\u30c8\u30de\u30c8\u30b1\u30c1\u30e3\u30c3\u30d7"
+      "fr": "Condiment épicé à la tomate",
+      "ja": "トマトケチャップ"
     },
     "stars": 2
   },
@@ -3356,8 +3355,8 @@
     "name": {
       "de": "Spinat-Quiche",
       "en": "Spinach Quiche",
-      "fr": "Quiche aux \u00e9pinards",
-      "ja": "\u30b9\u30d4\u30ca\u30c3\u30c1\u30ad\u30c3\u30b7\u30e5"
+      "fr": "Quiche aux épinards",
+      "ja": "スピナッチキッシュ"
     },
     "stars": 2
   },
@@ -3368,10 +3367,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Entenbr\u00fche",
+      "de": "Entenbrühe",
       "en": "Duck Broth",
       "fr": "Fond de canard",
-      "ja": "\u30d5\u30a9\u30f3\u30fb\u30c9\u30fb\u30ab\u30ca\u30fc\u30eb"
+      "ja": "フォン・ド・カナール"
     },
     "stars": 3
   },
@@ -3385,7 +3384,7 @@
       "de": "Taramosalata",
       "en": "Haddock Dip",
       "fr": "Tarama",
-      "ja": "\u30bf\u30e9\u30e2\u30b5\u30e9\u30fc\u30bf"
+      "ja": "タラモサラータ"
     },
     "stars": 3
   },
@@ -3399,7 +3398,7 @@
       "de": "Toffelpuffer",
       "en": "Popoto Pancakes",
       "fr": "Crique",
-      "ja": "\u30dd\u30dd\u30c8\u30d1\u30f3\u30b1\u30fc\u30ad"
+      "ja": "ポポトパンケーキ"
     },
     "stars": 3
   },
@@ -3410,10 +3409,10 @@
     "level": 90,
     "maxQuality": 8964,
     "name": {
-      "de": "Fleischtomatenw\u00fcrze",
+      "de": "Fleischtomatenwürze",
       "en": "Rich Tomato Relish",
-      "fr": "Condiment piquant \u00e0 la tomate",
-      "ja": "\u6fc3\u539a\u30c8\u30de\u30c8\u30b1\u30c1\u30e3\u30c3\u30d7"
+      "fr": "Condiment piquant à la tomate",
+      "ja": "濃厚トマトケチャップ"
     },
     "stars": 3
   },
@@ -3424,10 +3423,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "R\u00f6stente",
+      "de": "Röstente",
       "en": "Roast Canard",
-      "fr": "Canard \u00e0 l'orange",
-      "ja": "\u30ed\u30fc\u30b9\u30c8\u30ab\u30ca\u30fc\u30eb"
+      "fr": "Canard à l'orange",
+      "ja": "ローストカナール"
     },
     "stars": 3
   },
@@ -3441,7 +3440,7 @@
       "de": "Sachertorte",
       "en": "Sachertorte",
       "fr": "Sachertorte",
-      "ja": "\u30b6\u30c3\u30cf\u30c8\u30eb\u30c6"
+      "ja": "ザッハトルテ"
     },
     "stars": 3
   },
@@ -3455,7 +3454,7 @@
       "de": "Haifischflossensuppe",
       "en": "Shark Fin Soup",
       "fr": "Soupe d'aileron",
-      "ja": "\u30d5\u30ab\u30d2\u30ec\u30b9\u30fc\u30d7"
+      "ja": "フカヒレスープ"
     },
     "stars": 3
   },
@@ -3466,10 +3465,10 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
-      "de": "Ged\u00fcnsteter Katfisch",
+      "de": "Gedünsteter Katfisch",
       "en": "Steamed Catfish",
       "fr": "Poisson-chat vapeur",
-      "ja": "\u30ca\u30de\u30ba\u306e\u30ef\u30a4\u30f3\u84b8"
+      "ja": "ナマズのワイン蒸"
     },
     "stars": 3
   },
@@ -3482,8 +3481,8 @@
     "name": {
       "de": "Aalpastete Spezial",
       "en": "Tailor-made Eel Pie",
-      "fr": "Tarte \u00e0 l'anguille tr\u00e8s sp\u00e9ciale",
-      "ja": "\u79d8\u88fd\u30a4\u30fc\u30eb\u30d1\u30a4"
+      "fr": "Tarte à l'anguille très spéciale",
+      "ja": "秘製イールパイ"
     },
     "stars": 3
   },
@@ -3496,8 +3495,8 @@
     "name": {
       "de": "Valentionskuchen",
       "en": "Valentione's Cake",
-      "fr": "G\u00e2teau des Valention",
-      "ja": "\u30f4\u30a1\u30ec\u30f3\u30c6\u30a3\u30aa\u30f3\u30b1\u30fc\u30ad"
+      "fr": "Gâteau des Valention",
+      "ja": "ヴァレンティオンケーキ"
     },
     "stars": 3
   },
@@ -3510,8 +3509,8 @@
     "name": {
       "de": "Speckzopf",
       "en": "Bacon Bread",
-      "fr": "Pain en \u00e9pi au lard",
-      "ja": "\u30d9\u30fc\u30b3\u30f3\u30a8\u30d4"
+      "fr": "Pain en épi au lard",
+      "ja": "ベーコンエピ"
     },
     "stars": 4
   },
@@ -3525,7 +3524,7 @@
       "de": "Specksuppe",
       "en": "Bacon Broth",
       "fr": "Bouillon au lard",
-      "ja": "\u30d9\u30fc\u30b3\u30f3\u30b9\u30fc\u30d7"
+      "ja": "ベーコンスープ"
     },
     "stars": 4
   },
@@ -3538,8 +3537,8 @@
     "name": {
       "de": "Feuerstein-Kaviar",
       "en": "Flint Caviar",
-      "fr": "Caviar imp\u00e9rial",
-      "ja": "\u30d5\u30ea\u30f3\u30c8\u30ad\u30e3\u30d3\u30a2"
+      "fr": "Caviar impérial",
+      "ja": "フリントキャビア"
     },
     "stars": 4
   },
@@ -3550,10 +3549,10 @@
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "de": "Einsp\u00e4nner",
+      "de": "Einspänner",
       "en": "Triple Cream Coffee",
-      "fr": "Caf\u00e9 triple cr\u00e8me",
-      "ja": "\u30a2\u30a4\u30f3\u30b7\u30e5\u30da\u30ca\u30fc"
+      "fr": "Café triple crème",
+      "ja": "アインシュペナー"
     },
     "stars": 4
   },
@@ -3564,10 +3563,10 @@
     "level": 120,
     "maxQuality": 4561,
     "name": {
-      "de": "Feigen \u00e0 la Barvarois",
+      "de": "Feigen à la Barvarois",
       "en": "Fig Bavarois",
       "fr": "Flan aux figues",
-      "ja": "\u30d0\u30d0\u30ed\u30a2\u30fb\u30aa\u30fb\u30d5\u30a3\u30b0"
+      "ja": "ババロア・オ・フィグ"
     }
   },
   {
@@ -3579,8 +3578,8 @@
     "name": {
       "de": "Sauerrahm",
       "en": "Sour Cream",
-      "fr": "Cr\u00e8me aigre",
-      "ja": "\u30b5\u30ef\u30fc\u30af\u30ea\u30fc\u30e0"
+      "fr": "Crème aigre",
+      "ja": "サワークリーム"
     }
   },
   {
@@ -3590,10 +3589,10 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "de": "\u00dcberbackene Zwiebelsuppe",
+      "de": "Überbackene Zwiebelsuppe",
       "en": "Baked Onion Soup",
-      "fr": "Soupe \u00e0 l'oignon",
-      "ja": "\u30aa\u30cb\u30aa\u30f3\u30b0\u30e9\u30bf\u30f3\u30b9\u30fc\u30d7"
+      "fr": "Soupe à l'oignon",
+      "ja": "オニオングラタンスープ"
     }
   },
   {
@@ -3606,7 +3605,7 @@
       "de": "Etagere",
       "en": "Cake Tray",
       "fr": "Assortiment de gourmandises",
-      "ja": "\u30b1\u30fc\u30ad\u30b9\u30bf\u30f3\u30c9"
+      "ja": "ケーキスタンド"
     }
   },
   {
@@ -3619,7 +3618,7 @@
       "de": "Hochlandmehl",
       "en": "Highland Flour",
       "fr": "Farine des hautes terres",
-      "ja": "\u30cf\u30a4\u30e9\u30f3\u30c9\u5c0f\u9ea6\u7c89"
+      "ja": "ハイランド小麦粉"
     }
   },
   {
@@ -3629,10 +3628,10 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "de": "Gef\u00fcllte Kohlroulade",
+      "de": "Gefüllte Kohlroulade",
       "en": "Stuffed Cabbage Rolls",
       "fr": "Paupiettes de chou",
-      "ja": "\u633d\u8089\u306e\u30ad\u30e3\u30d9\u30c4\u5dfb\u304d"
+      "ja": "挽肉のキャベツ巻き"
     }
   },
   {
@@ -3644,8 +3643,8 @@
     "name": {
       "de": "Fermentierte Butter",
       "en": "Fermented Butter",
-      "fr": "Beurre ferment\u00e9",
-      "ja": "\u767a\u9175\u30d0\u30bf\u30fc"
+      "fr": "Beurre fermenté",
+      "ja": "発酵バター"
     }
   },
   {
@@ -3658,7 +3657,7 @@
       "de": "Quiche Ishgarder Art",
       "en": "Ishgardian Muffin",
       "fr": "Pain ishgardais",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c9\u30de\u30d5\u30a3\u30f3"
+      "ja": "イシュガルドマフィン"
     }
   },
   {
@@ -3670,8 +3669,8 @@
     "name": {
       "de": "Ishgarder Tee",
       "en": "Ishgardian Tea",
-      "fr": "Th\u00e9 ishgardais",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c9\u30c6\u30a3\u30fc"
+      "fr": "Thé ishgardais",
+      "ja": "イシュガルドティー"
     }
   },
   {
@@ -3683,8 +3682,8 @@
     "name": {
       "de": "Porciniragout",
       "en": "Sauteed Porcini",
-      "fr": "Bolets saut\u00e9s",
-      "ja": "\u30dd\u30eb\u30c1\u30fc\u30cb\u30bd\u30c6\u30fc"
+      "fr": "Bolets sautés",
+      "ja": "ポルチーニソテー"
     }
   },
   {
@@ -3697,7 +3696,7 @@
       "de": "Purpurrote Bete-Suppe",
       "en": "Beet Soup",
       "fr": "Soupe pourpre",
-      "ja": "\u30af\u30ea\u30e0\u30be\u30f3\u30b9\u30fc\u30d7"
+      "ja": "クリムゾンスープ"
     }
   },
   {
@@ -3710,7 +3709,7 @@
       "de": "Dhalmel-Gratin",
       "en": "Dhalmel Gratin",
       "fr": "Gratin de dhalmel",
-      "ja": "\u30a2\u30a6\u30d5\u30e9\u30a6\u30d5"
+      "ja": "アウフラウフ"
     }
   },
   {
@@ -3722,8 +3721,8 @@
     "name": {
       "de": "Gegrillte Purpur-Forelle",
       "en": "Grilled Sweetfish",
-      "fr": "Poisson-sucre grill\u00e9",
-      "ja": "\u30b0\u30ea\u30eb\u30c9\u30b9\u30a4\u30fc\u30c8\u30d5\u30a3\u30c3\u30b7\u30e5"
+      "fr": "Poisson-sucre grillé",
+      "ja": "グリルドスイートフィッシュ"
     }
   },
   {
@@ -3736,7 +3735,7 @@
       "de": "Mont Sohm Al",
       "en": "Sohm Al Tart",
       "fr": "Sohm Al aux marrons",
-      "ja": "\u30bd\u30fc\u30e0\u30fb\u30a2\u30eb\u30fb\u30aa\u30fb\u30de\u30ed\u30f3"
+      "ja": "ソーム・アル・オ・マロン"
     }
   },
   {
@@ -3749,7 +3748,7 @@
       "de": "Sauce ishgardaise",
       "en": "Hollandaise Sauce",
       "fr": "Sauce ishgardaise",
-      "ja": "\u30aa\u30e9\u30f3\u30c7\u30fc\u30ba\u30bd\u30fc\u30b9"
+      "ja": "オランデーズソース"
     }
   },
   {
@@ -3762,7 +3761,7 @@
       "de": "Kaisersemmel",
       "en": "Kaiser Roll",
       "fr": "Pain empereur",
-      "ja": "\u30ab\u30a4\u30b6\u30fc\u30bc\u30f3\u30e1\u30eb"
+      "ja": "カイザーゼンメル"
     }
   },
   {
@@ -3772,10 +3771,10 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "de": "Emeraldgr\u00fcne Bohnensuppe",
+      "de": "Emeraldgrüne Bohnensuppe",
       "en": "Emerald Soup",
-      "fr": "Soupe \u00e9meraude",
-      "ja": "\u30a8\u30e1\u30e9\u30eb\u30c9\u30b9\u30fc\u30d7"
+      "fr": "Soupe émeraude",
+      "ja": "エメラルドスープ"
     }
   },
   {
@@ -3787,8 +3786,8 @@
     "name": {
       "de": "Adels-Abendessen",
       "en": "High House Supper Set",
-      "fr": "D\u00eener de maison noble",
-      "ja": "\u30cf\u30a4\u30cf\u30a6\u30b9\u30fb\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Dîner de maison noble",
+      "ja": "ハイハウス・ディナーセット"
     }
   },
   {
@@ -3798,10 +3797,10 @@
     "level": 139,
     "maxQuality": 3280,
     "name": {
-      "de": "Fern\u00f6stliches Fr\u00fchst\u00fcck",
+      "de": "Fernöstliches Frühstück",
       "en": "Oriental Breakfast",
-      "fr": "Petit d\u00e9jeuner oriental",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30e2\u30fc\u30cb\u30f3\u30b0\u30bb\u30c3\u30c8"
+      "fr": "Petit déjeuner oriental",
+      "ja": "オリエンタル・モーニングセット"
     }
   },
   {
@@ -3811,10 +3810,10 @@
     "level": 139,
     "maxQuality": 3280,
     "name": {
-      "de": "Fern\u00f6stliches Teeservice",
+      "de": "Fernöstliches Teeservice",
       "en": "Oriental Tea Set",
-      "fr": "Collation de th\u00e9 oriental",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Collation de thé oriental",
+      "ja": "オリエンタル・ティーセット"
     }
   },
   {
@@ -3824,10 +3823,10 @@
     "level": 139,
     "maxQuality": 3280,
     "name": {
-      "de": "Riviera-Fr\u00fchst\u00fccks-Set",
+      "de": "Riviera-Frühstücks-Set",
       "en": "Riviera Breakfast",
       "fr": "Omelette",
-      "ja": "\u30aa\u30e0\u30ec\u30c4\u30d7\u30ec\u30fc\u30c8"
+      "ja": "オムレツプレート"
     }
   },
   {
@@ -3839,8 +3838,8 @@
     "name": {
       "de": "Riviera-Lunch",
       "en": "Riviera Lunch",
-      "fr": "D\u00e9jeuner nosc\u00e9en",
-      "ja": "\u30e9\u30ce\u30b7\u30a2\u30f3\u30fb\u30e9\u30f3\u30c1\u30bb\u30c3\u30c8"
+      "fr": "Déjeuner noscéen",
+      "ja": "ラノシアン・ランチセット"
     }
   },
   {
@@ -3852,8 +3851,8 @@
     "name": {
       "de": "Sesamkeks",
       "en": "Sesame Cookie",
-      "fr": "Biscuit au s\u00e9same",
-      "ja": "\u30bb\u30b5\u30df\u30af\u30c3\u30ad\u30fc"
+      "fr": "Biscuit au sésame",
+      "ja": "セサミクッキー"
     }
   },
   {
@@ -3866,7 +3865,7 @@
       "de": "Vermicelli",
       "en": "Vermicelli",
       "fr": "Vermicelles",
-      "ja": "\u30f4\u30a1\u30fc\u30df\u30bb\u30ea"
+      "ja": "ヴァーミセリ"
     }
   },
   {
@@ -3878,8 +3877,8 @@
     "name": {
       "de": "Ishgarder Teeservice",
       "en": "Alpine Tea Set",
-      "fr": "Go\u00fbter ishgardais",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30c6\u30a3\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Goûter ishgardais",
+      "ja": "イシュガルディアン・ティーセット"
     }
   },
   {
@@ -3891,8 +3890,8 @@
     "name": {
       "de": "Dhalmel-Frikassee",
       "en": "Dhalmel Fricassee",
-      "fr": "Fricass\u00e9e de dhalmel",
-      "ja": "\u30c0\u30eb\u30e1\u30eb\u30d5\u30ea\u30ab\u30c3\u30bb"
+      "fr": "Fricassée de dhalmel",
+      "ja": "ダルメルフリカッセ"
     }
   },
   {
@@ -3902,10 +3901,10 @@
     "level": 142,
     "maxQuality": 5456,
     "name": {
-      "de": "Nah\u00f6stliche Antiquit\u00e4t",
+      "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
-      "fr": "Antiquit\u00e9 proche-orientale",
-      "ja": "\u8fd1\u6771\u98a8\u306e\u8490\u96c6\u54c1"
+      "fr": "Antiquité proche-orientale",
+      "ja": "近東風の蒐集品"
     }
   },
   {
@@ -3915,10 +3914,10 @@
     "level": 142,
     "maxQuality": 2728,
     "name": {
-      "de": "Komponente einer nah\u00f6stlichen Antiquit\u00e4t",
+      "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
-      "fr": "Composant d'antiquit\u00e9 proche-orientale",
-      "ja": "\u8fd1\u6771\u98a8\u306e\u8490\u96c6\u54c1\u90e8\u6750"
+      "fr": "Composant d'antiquité proche-orientale",
+      "ja": "近東風の蒐集品部材"
     }
   },
   {
@@ -3928,10 +3927,10 @@
     "level": 142,
     "maxQuality": 3410,
     "name": {
-      "de": "Fern\u00f6stliches Abendessen",
+      "de": "Fernöstliches Abendessen",
       "en": "Oriental Supper",
-      "fr": "D\u00eener oriental",
-      "ja": "\u30aa\u30ea\u30a8\u30f3\u30bf\u30eb\u30fb\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Dîner oriental",
+      "ja": "オリエンタル・ディナーセット"
     }
   },
   {
@@ -3943,8 +3942,8 @@
     "name": {
       "de": "Eier Royal",
       "en": "Royal Eggs",
-      "fr": "\u0152ufs royaux",
-      "ja": "\u30a8\u30c3\u30b0\u30ed\u30ef\u30a4\u30e4\u30eb"
+      "fr": "Œufs royaux",
+      "ja": "エッグロワイヤル"
     }
   },
   {
@@ -3957,7 +3956,7 @@
       "de": "Gebackener Pipira Pira",
       "en": "Baked Pipira Pira",
       "fr": "Pipira pira au four",
-      "ja": "\u30d9\u30a4\u30af\u30c9\u30d4\u30d4\u30e9\u30fb\u30d4\u30e9"
+      "ja": "ベイクドピピラ・ピラ"
     }
   },
   {
@@ -3970,7 +3969,7 @@
       "de": "Cockatrice-Frikadelle",
       "en": "Cockatrice Meatballs",
       "fr": "Fricadelle de cocatrix",
-      "ja": "\u30d5\u30ea\u30ab\u30c7\u30ec"
+      "ja": "フリカデレ"
     }
   },
   {
@@ -3983,7 +3982,7 @@
       "de": "Coerthisches Souvenir",
       "en": "Coerthan Souvenir",
       "fr": "Souvenir du Coerthas",
-      "ja": "\u5bd2\u51b7\u5730\u306e\u540d\u7523\u54c1"
+      "ja": "寒冷地の名産品"
     }
   },
   {
@@ -3996,7 +3995,7 @@
       "de": "Komponente eines coerthischen Souvenirs",
       "en": "Coerthan Souvenir Component",
       "fr": "Composant de souvenir du Coerthas",
-      "ja": "\u5bd2\u51b7\u5730\u306e\u540d\u7523\u54c1\u90e8\u6750"
+      "ja": "寒冷地の名産品部材"
     }
   },
   {
@@ -4008,8 +4007,8 @@
     "name": {
       "de": "Eiskalter Fruchtcocktail",
       "en": "Frozen Spirits",
-      "fr": "M\u00e9lange glac\u00e9",
-      "ja": "\u30d5\u30ed\u30fc\u30ba\u30f3\u30ab\u30af\u30c6\u30eb"
+      "fr": "Mélange glacé",
+      "ja": "フローズンカクテル"
     }
   },
   {
@@ -4022,7 +4021,7 @@
       "de": "Birkensirup",
       "en": "Birch Syrup",
       "fr": "Sirop de bouleau",
-      "ja": "\u30d0\u30fc\u30c1\u30b7\u30ed\u30c3\u30d7"
+      "ja": "バーチシロップ"
     }
   },
   {
@@ -4032,10 +4031,10 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "de": "Leberk\u00e4sesemmel",
+      "de": "Leberkäsesemmel",
       "en": "Liver-Cheese Sandwich",
       "fr": "Sandwich au fromage de foie",
-      "ja": "\u30ec\u30d0\u30fc\u30b1\u30fc\u30b9\u30bc\u30f3\u30e1\u30eb"
+      "ja": "レバーケースゼンメル"
     }
   },
   {
@@ -4045,10 +4044,10 @@
     "level": 148,
     "maxQuality": 5871,
     "name": {
-      "de": "Mahlstrom-Ausr\u00fcstung",
+      "de": "Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel",
-      "fr": "\u00c9quipement militaire du Maelstrom",
-      "ja": "\u9ed2\u6e26\u56e3\u306e\u8ecd\u9700\u54c1"
+      "fr": "Équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品"
     }
   },
   {
@@ -4058,10 +4057,10 @@
     "level": 148,
     "maxQuality": 2935,
     "name": {
-      "de": "Komponente eines St\u00fccks Mahlstrom-Ausr\u00fcstung",
+      "de": "Komponente eines Stücks Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel Component",
-      "fr": "Composant d'\u00e9quipement militaire du Maelstrom",
-      "ja": "\u9ed2\u6e26\u56e3\u306e\u8ecd\u9700\u54c1\u90e8\u6750"
+      "fr": "Composant d'équipement militaire du Maelstrom",
+      "ja": "黒渦団の軍需品部材"
     }
   },
   {
@@ -4071,10 +4070,10 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "de": "Glasierte Glanzn\u00fcsse",
+      "de": "Glasierte Glanznüsse",
       "en": "Marron Glace",
-      "fr": "Marrons glac\u00e9s",
-      "ja": "\u30de\u30ed\u30f3\u30b0\u30e9\u30c3\u30bb"
+      "fr": "Marrons glacés",
+      "ja": "マロングラッセ"
     }
   },
   {
@@ -4086,8 +4085,8 @@
     "name": {
       "de": "Ishgarder Abendessen",
       "en": "Alpine Supper Set",
-      "fr": "D\u00eener ishgardais",
-      "ja": "\u30a4\u30b7\u30e5\u30ac\u30eb\u30c7\u30a3\u30a2\u30f3\u30fb\u30c7\u30a3\u30ca\u30fc\u30bb\u30c3\u30c8"
+      "fr": "Dîner ishgardais",
+      "ja": "イシュガルディアン・ディナーセット"
     }
   },
   {
@@ -4099,8 +4098,8 @@
     "name": {
       "de": "Muschelsuppe",
       "en": "Clam Chowder",
-      "fr": "Chaudr\u00e9e de palourdes",
-      "ja": "\u30af\u30e9\u30e0\u30c1\u30e3\u30a6\u30c0\u30fc"
+      "fr": "Chaudrée de palourdes",
+      "ja": "クラムチャウダー"
     }
   },
   {
@@ -4112,8 +4111,8 @@
     "name": {
       "de": "Okeanis-Schnitzel",
       "en": "Deep-fried Okeanis",
-      "fr": "Oc\u00e9anide pan\u00e9e",
-      "ja": "\u30aa\u30fc\u30b1\u30a2\u30cb\u30b9\u30b7\u30e5\u30cb\u30c3\u30c4\u30a7\u30eb"
+      "fr": "Océanide panée",
+      "ja": "オーケアニスシュニッツェル"
     }
   },
   {
@@ -4125,8 +4124,8 @@
     "name": {
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
-      "fr": "Cadeau attentionn\u00e9",
-      "ja": "\u5fc3\u5c3d\u304f\u3057\u306e\u8d08\u7b54\u54c1"
+      "fr": "Cadeau attentionné",
+      "ja": "心尽くしの贈答品"
     }
   },
   {
@@ -4138,8 +4137,8 @@
     "name": {
       "de": "Komponente eines innigen Geschenks",
       "en": "Heartfelt Gift Component",
-      "fr": "Composant de cadeau attentionn\u00e9",
-      "ja": "\u5fc3\u5c3d\u304f\u3057\u306e\u8d08\u7b54\u54c1\u90e8\u6750"
+      "fr": "Composant de cadeau attentionné",
+      "ja": "心尽くしの贈答品部材"
     }
   },
   {
@@ -4149,10 +4148,10 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "de": "M\u00f6rchel-Salat",
+      "de": "Mörchel-Salat",
       "en": "Morel Salad",
       "fr": "Salade verte aux morilles",
-      "ja": "\u30e2\u30ea\u30fc\u30e6\u30b5\u30e9\u30c0"
+      "ja": "モリーユサラダ"
     }
   },
   {
@@ -4162,10 +4161,10 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "de": "Gef\u00fcllter Kohlkraut-Kopf",
+      "de": "Gefüllter Kohlkraut-Kopf",
       "en": "Stuffed Chysahl",
       "fr": "Cabus farci",
-      "ja": "\u30b9\u30bf\u30c3\u30d5\u30c9\u30ad\u30e3\u30d9\u30a4\u30b8"
+      "ja": "スタッフドキャベイジ"
     }
   },
   {
@@ -4177,8 +4176,8 @@
     "name": {
       "de": "Mandelcroissant",
       "en": "Almond Cream Croissant",
-      "fr": "Croissant amand\u00e9",
-      "ja": "\u30af\u30ed\u30ef\u30c3\u30b5\u30f3\u30a2\u30de\u30f3\u30c9"
+      "fr": "Croissant amandé",
+      "ja": "クロワッサンアマンド"
     },
     "stars": 1
   },
@@ -4189,10 +4188,10 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
-      "de": "Cr\u00e8me brul\u00e9e",
+      "de": "Crème brulée",
       "en": "Creme Brulee",
-      "fr": "Cr\u00e8me br\u00fbl\u00e9e",
-      "ja": "\u30af\u30ec\u30fc\u30e0\u30d6\u30ea\u30e5\u30ec"
+      "fr": "Crème brûlée",
+      "ja": "クレームブリュレ"
     },
     "stars": 1
   },
@@ -4203,10 +4202,10 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
-      "de": "Hei\u00dfe Schokolade",
+      "de": "Heiße Schokolade",
       "en": "Hot Chocolate",
       "fr": "Chocolat chaud",
-      "ja": "\u30db\u30c3\u30c8\u30b3\u30b3\u30a2"
+      "ja": "ホットココア"
     },
     "stars": 1
   },
@@ -4220,7 +4219,7 @@
       "de": "Brioche des Rois",
       "en": "Kingcake",
       "fr": "Brioche des rois",
-      "ja": "\u30d6\u30ea\u30aa\u30c3\u30b7\u30e5\u30fb\u30c7\u30fb\u30ed\u30ef"
+      "ja": "ブリオッシュ・デ・ロワ"
     },
     "stars": 1
   },
@@ -4233,8 +4232,8 @@
     "name": {
       "de": "Geburtstagskuchen",
       "en": "Nameday Cake",
-      "fr": "G\u00e2teau d'anniversaire",
-      "ja": "\u30d0\u30fc\u30b9\u30c7\u30fc\u30b1\u30fc\u30ad"
+      "fr": "Gâteau d'anniversaire",
+      "ja": "バースデーケーキ"
     },
     "stars": 1
   },
@@ -4248,7 +4247,7 @@
       "de": "Waisenhaus-Spende",
       "en": "Orphanage Donation",
       "fr": "Article quotidien d'orphelinat",
-      "ja": "\u5b64\u5150\u9662\u306e\u65e5\u7528\u54c1"
+      "ja": "孤児院の日用品"
     },
     "stars": 1
   },
@@ -4262,7 +4261,7 @@
       "de": "Komponente einer Waisenhaus-Spende",
       "en": "Orphanage Donation Component",
       "fr": "Composant d'article pour orphelinat",
-      "ja": "\u5b64\u5150\u9662\u306e\u65e5\u7528\u54c1\u90e8\u6750"
+      "ja": "孤児院の日用品部材"
     },
     "stars": 1
   },
@@ -4275,8 +4274,8 @@
     "name": {
       "de": "Ishgarder Fischtopf",
       "en": "Seafood Stew",
-      "fr": "Rago\u00fbt du p\u00eacheur",
-      "ja": "\u30c8\u30de\u30c8\u30b7\u30c1\u30e5\u30fc"
+      "fr": "Ragoût du pêcheur",
+      "ja": "トマトシチュー"
     },
     "stars": 1
   },
@@ -4290,7 +4289,7 @@
       "de": "Flockenbeerentorte",
       "en": "Snurbleberry Tart",
       "fr": "Tarte aux lainuchairelles",
-      "ja": "\u30b9\u30ca\u30fc\u30d6\u30eb\u30d9\u30ea\u30fc\u30bf\u30eb\u30c8"
+      "ja": "スナーブルベリータルト"
     },
     "stars": 1
   },
@@ -4301,10 +4300,10 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
-      "de": "Ged\u00fcnsteter Vergelter",
+      "de": "Gedünsteter Vergelter",
       "en": "Steamed Staff",
-      "fr": "B\u00e2ton \u00e0 l'\u00e9touff\u00e9e",
-      "ja": "\u5d50\u795e\u9b5a\u306e\u59ff\u84b8\u3057"
+      "fr": "Bâton à l'étouffée",
+      "ja": "嵐神魚の姿蒸し"
     },
     "stars": 1
   },
@@ -4318,7 +4317,7 @@
       "de": "Seeigel-Pastete",
       "en": "Urchin Loaf",
       "fr": "Terrine d'oursins",
-      "ja": "\u30a2\u30fc\u30c1\u30f3\u30c6\u30ea\u30fc\u30cc"
+      "ja": "アーチンテリーヌ"
     },
     "stars": 1
   },
@@ -4331,8 +4330,8 @@
     "name": {
       "de": "Anglerfisch-Eintopf",
       "en": "Angler Stew",
-      "fr": "Rago\u00fbt de lotte",
-      "ja": "\u30a2\u30f3\u30b0\u30e9\u30fc\u30b7\u30c1\u30e5\u30fc"
+      "fr": "Ragoût de lotte",
+      "ja": "アングラーシチュー"
     },
     "stars": 2
   },
@@ -4345,8 +4344,8 @@
     "name": {
       "de": "Austern-Confit",
       "en": "Oyster Confit",
-      "fr": "Hu\u00eetres confites",
-      "ja": "\u30aa\u30a4\u30b9\u30bf\u30fc\u30b3\u30f3\u30d5\u30a3"
+      "fr": "Huîtres confites",
+      "ja": "オイスターコンフィ"
     },
     "stars": 2
   },
@@ -4357,10 +4356,10 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
-      "de": "S\u00fc\u00dfer Gnomenfisch",
+      "de": "Süßer Gnomenfisch",
       "en": "Sweet Gnomefish",
-      "fr": "Poisson gnome sucr\u00e9",
-      "ja": "\u30cc\u30de\u30e0\u30c4\u306e\u7518\u9732\u716e"
+      "fr": "Poisson gnome sucré",
+      "ja": "ヌマムツの甘露煮"
     },
     "stars": 2
   },
@@ -4374,7 +4373,7 @@
       "de": "Apfelstrudel",
       "en": "Apple Strudel",
       "fr": "Strudel aux pommes",
-      "ja": "\u30a2\u30c3\u30d7\u30eb\u30b7\u30e5\u30c8\u30a5\u30eb\u30fc\u30c7\u30eb"
+      "ja": "アップルシュトゥルーデル"
     },
     "stars": 3
   },
@@ -4387,8 +4386,8 @@
     "name": {
       "de": "Boscaiola",
       "en": "Boscaiola",
-      "fr": "P\u00e2tes \u00e0 la foresti\u00e8re",
-      "ja": "\u30dc\u30b9\u30ab\u30a4\u30aa\u30fc\u30e9"
+      "fr": "Pâtes à la forestière",
+      "ja": "ボスカイオーラ"
     },
     "stars": 3
   },
@@ -4401,8 +4400,8 @@
     "name": {
       "de": "Himmelseier-Suppe",
       "en": "Heavensegg Soup",
-      "fr": "Soupe aux c\u00e9lest\u0153ufs",
-      "ja": "\u30d8\u30f4\u30f3\u30b9\u30a8\u30c3\u30b0\u30b9\u30fc\u30d7"
+      "fr": "Soupe aux célestœufs",
+      "ja": "ヘヴンスエッグスープ"
     },
     "stars": 3
   },
@@ -4416,7 +4415,7 @@
       "de": "Loaghtan-Steak",
       "en": "Loaghtan Steak",
       "fr": "Steak de loaghtan",
-      "ja": "\u30ed\u30d5\u30bf\u30f3\u30b9\u30c6\u30fc\u30ad"
+      "ja": "ロフタンステーキ"
     },
     "stars": 3
   },
@@ -4429,8 +4428,8 @@
     "name": {
       "de": "Pasta Ortolano",
       "en": "Pasta Ortolano",
-      "fr": "P\u00e2tes \u00e0 la mara\u00eech\u00e8re",
-      "ja": "\u30aa\u30eb\u30c8\u30e9\u30fc\u30ca"
+      "fr": "Pâtes à la maraîchère",
+      "ja": "オルトラーナ"
     },
     "stars": 3
   },
@@ -4443,8 +4442,8 @@
     "name": {
       "de": "Peperoncino",
       "en": "Peperoncino",
-      "fr": "P\u00e2tes aux piments",
-      "ja": "\u30da\u30da\u30ed\u30f3\u30c1\u30fc\u30ce"
+      "fr": "Pâtes aux piments",
+      "ja": "ペペロンチーノ"
     },
     "stars": 3
   },
@@ -4455,10 +4454,10 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
-      "de": "W\u00fcrziger Apfelsaft",
+      "de": "Würziger Apfelsaft",
       "en": "Spiced Cider",
-      "fr": "Cidre aux \u00e9pices",
-      "ja": "\u30b9\u30d1\u30a4\u30b9\u30b5\u30a4\u30c0\u30fc"
+      "fr": "Cidre aux épices",
+      "ja": "スパイスサイダー"
     },
     "stars": 3
   },
@@ -4472,7 +4471,7 @@
       "de": "Apfel-Flaugnarde",
       "en": "Flaugnarde",
       "fr": "Flaugnarde aux pommes",
-      "ja": "\u30a2\u30c3\u30d7\u30eb\u30d5\u30ed\u30cb\u30e3\u30eb\u30c9"
+      "ja": "アップルフロニャルド"
     },
     "stars": 4
   },
@@ -4485,8 +4484,8 @@
     "name": {
       "de": "Himmlischer Eierflip",
       "en": "Heavenly Eggnog",
-      "fr": "Lait de poule c\u00e9leste",
-      "ja": "\u30d8\u30f4\u30f3\u30b9\u30a8\u30c3\u30b0\u30ce\u30c3\u30b0"
+      "fr": "Lait de poule céleste",
+      "ja": "ヘヴンスエッグノッグ"
     },
     "stars": 4
   },
@@ -4500,7 +4499,7 @@
       "de": "Cordon Bleu",
       "en": "Loaghtan Cordon Bleu",
       "fr": "Cordon bleu",
-      "ja": "\u30b3\u30eb\u30c9\u30f3\u30d6\u30eb\u30fc"
+      "ja": "コルドンブルー"
     },
     "stars": 4
   },
@@ -4514,7 +4513,7 @@
       "de": "Priester-Omelett",
       "en": "Priestly Omelette",
       "fr": "Omelette sacerdotale",
-      "ja": "\u30d7\u30ea\u30fc\u30b9\u30c8\u30aa\u30e0\u30ec\u30c4"
+      "ja": "プリーストオムレツ"
     },
     "stars": 4
   },
@@ -4527,8 +4526,8 @@
     "name": {
       "de": "Carbonara",
       "en": "Spaghetti Carbonara",
-      "fr": "Spaghettis \u00e0 la carbonara",
-      "ja": "\u30ab\u30eb\u30dc\u30ca\u30fc\u30e9"
+      "fr": "Spaghettis à la carbonara",
+      "ja": "カルボナーラ"
     },
     "stars": 4
   },
@@ -4542,7 +4541,7 @@
       "de": "Pescatole",
       "en": "Spaghetti Pescatore",
       "fr": "Spaghetti pescatore",
-      "ja": "\u30da\u30b9\u30ab\u30c8\u30fc\u30ec"
+      "ja": "ペスカトーレ"
     },
     "stars": 4
   },
@@ -4555,8 +4554,8 @@
     "name": {
       "de": "Pilzomelett",
       "en": "Wildwood Scrambled Eggs",
-      "fr": "\u0152ufs brouill\u00e9s",
-      "ja": "\u30a6\u30fc\u30fb\u30d6\u30eb\u30a4\u30a8"
+      "fr": "Œufs brouillés",
+      "ja": "ウー・ブルイエ"
     },
     "stars": 4
   }
