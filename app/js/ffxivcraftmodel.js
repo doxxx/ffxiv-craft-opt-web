@@ -92,7 +92,15 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
 
         // Level penalty for recipes above crafter level
         // Level difference penalty appears to be capped at -6
-        levelDifference = Math.max(levelDifference, -6);
+	if (recipeLevel == 190) {
+		levelDifference = Math.max(levelDifference, -8);
+	}
+	else if (recipeLevel == 180) {
+		levelDifference = Math.max(levelDifference, -7);
+	}
+	else {
+	        levelDifference = Math.max(levelDifference, -6);
+	}
         if (levelDifference < 0){
                 levelCorrectionFactor += 0.0807176 * Math.max(levelDifference, -5);
         }
@@ -367,6 +375,12 @@ function ApplyModifiers(s, action, condition) {
     // Effects modfiying probability
     var successProbability = action.successProbability;
     var ftSuccessProbability = AllActions.finishingTouches.successProbability;
+    if (isActionEq(action, AllActions.focusedSynthesis) || isActionEq(action, AllActions.focusedTouch)) {
+        if (s.action === AllActions.observe.shortName) {
+            successProbability = 1.0;
+            ftSuccessProbability = 1.0;
+        }
+    }
     if (AllActions.steadyHand2.shortName in s.effects.countDowns) {
         successProbability += 0.3;        // Assume 2 always overrides 1
         ftSuccessProbability += 0.3;
@@ -546,6 +560,20 @@ function ApplySpecialActionEffects(s, action, condition) {
         s.durabilityState += 10;
     }
 
+    if ((AllActions.manipulation2.shortName in s.effects.countDowns) && (s.durabilityState > 0)) {
+        s.durabilityState += 5;
+    }
+
+    if (isActionEq(action, AllActions.specialtyReinforce) && (s.durabilityState > 0)) {
+        if (AllActions.initialPreparations.shortName in s.effects.countUps) {
+            s.durabilityState += 25;
+            delete s.effects.countUps[AllActions.initialPreparations.shortName];
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
+
     if (isActionEq(action, AllActions.nymeiasWheel)) {
         if (AllActions.whistle.shortName in s.effects.countDowns) {
             s.durabilityState += NymeaisWheelTable[s.effects.countDowns[AllActions.whistle.shortName]];
@@ -570,6 +598,16 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
+    if (isActionEq(action, AllActions.specialtyRefurbish) && (s.durabilityState > 0)) {
+        if (AllActions.initialPreparations.shortName in s.effects.countUps) {
+            s.cpState += 65;
+            delete s.effects.countUps[AllActions.initialPreparations.shortName];
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
+
     if (isActionEq(action, AllActions.byregotsBlessing)) {
         if (AllActions.innerQuiet.shortName in s.effects.countUps) {
             delete s.effects.countUps[AllActions.innerQuiet.shortName];
@@ -583,6 +621,16 @@ function ApplySpecialActionEffects(s, action, condition) {
         // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
         if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
             s.effects.countUps[AllActions.innerQuiet.shortName] = Math.ceil((s.effects.countUps[AllActions.innerQuiet.shortName]+1) / 2) - 1;
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
+
+    if (isActionEq(action, AllActions.specialtyReflect)) {
+        if (AllActions.initialPreparations.shortName in s.effects.countUps) {
+            s.effects.countUps[AllActions.innerQuiet.shortName] += 3;
+            delete s.effects.countUps[AllActions.initialPreparations.shortName];
         }
         else {
             s.wastedActions += 1;
@@ -644,7 +692,13 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
 
     if (AllActions.innerQuiet.shortName in s.effects.countUps) {
         // Increment inner quiet countups that have conditional requirements
-        if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
+        if (isActionEq(action, AllActions.patientTouch)) {
+            s.effects.countUps[AllActions.innerQuiet.shortName] = //+= 2 * successProbability;
+                ((s.effects.countUps[AllActions.innerQuiet.shortName] + 2) * successProbability) +
+                ((Math.ceil((s.effects.countUps[AllActions.innerQuiet.shortName]+1) / 2) - 1)  * (1 - successProbability));
+        }
+        // Increment inner quiet countups that have conditional requirements
+        else if (isActionEq(action, AllActions.preciseTouch) && condition.checkGoodOrExcellent()) {
             s.effects.countUps[AllActions.innerQuiet.shortName] += 2 * successProbability * condition.pGoodOrExcellent();
         }
         else if (isActionEq(action, AllActions.byregotsMiracle)) {
@@ -664,7 +718,17 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
 
     // Initialize new effects after countdowns are managed to reset them properly
     if (action.type === 'countup') {
-        s.effects.countUps[action.shortName] = 0;
+        if (isActionEq(action, AllActions.initialPreparations)) {
+            if (s.step == 1 ) {
+                s.effects.countUps[action.shortName] = 0;
+            }
+            else {
+                s.wastedActions += 1;
+            }
+        }
+        else {
+            s.effects.countUps[action.shortName] = 0;
+        }
     }
 
     if (action.type === 'countdown') {
@@ -1731,7 +1795,17 @@ var LevelTable = {
     57: 142, // 142
     58: 145, // 145
     59: 148, // 148
-    60: 150  // 150
+    60: 150, // 150
+    61: 260,
+    62: 265,
+    63: 270,
+    64: 273,
+    65: 276,
+    66: 279,
+    67: 282,
+    68: 285,
+    69: 288,
+    70: 290 
 };
 
 var Ing1RecipeLevelTable = {
@@ -1764,7 +1838,19 @@ var Ing1RecipeLevelTable = {
     160: 151,   // 60_1star
     170: 152.085, // 60_2star
     180: 153.185, // 60_3star
-    190: 154.275 // 60_4star
+    190: 154.275, // 60_4star
+    255: 240,   // 61
+    260: 240,   // 61
+    265: 240,   // 62
+    270: 250,   // 63
+    273: 250,   // 64
+    276: 250,   // 65
+    279: 264,   // 66
+    282: 269.5, // 67
+    285: 274.5, // 68
+    288: 279,   // 69
+    290: 280,   // 70
+    300: 291,   // 70_1star
 };
 
 var Ing2RecipeLevelTable = {
@@ -1797,7 +1883,19 @@ var Ing2RecipeLevelTable = {
     160: 150,   // 60_1star
     170: 151.115, // 60_2star
     180: 152.215, // 60_3star
-    190: 153.305 // 60_4star
+    190: 153.305, // 60_4star
+    255: 240,   // 61 @ 210/410 difficulty
+    260: 240,   // 61 @ 210/410 difficulty
+    265: 240,   // 62
+    270: 250,   // 63
+    273: 250,   // 64
+    276: 250,   // 65
+    279: 264,   // 66
+    282: 269.5, // 67
+    285: 273,   // 68
+    288: 276,   // 69
+    290: 279,   // 70
+    300: 290,   // 70_1star
 };
 
 var NymeaisWheelTable = {
