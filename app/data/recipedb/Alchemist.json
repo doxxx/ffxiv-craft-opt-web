@@ -76,7 +76,7 @@
     "level": 1,
     "maxQuality": 312,
     "name": {
-      "cn": "水银",
+      "cn": "流银",
       "de": "Quecksilber",
       "en": "Quicksilver",
       "fr": "Mercure",
@@ -3844,7 +3844,7 @@
       "cn": "抗毒剂",
       "de": "Trank gegen Gift",
       "en": "Poison Ward Potion",
-      "fr": "Sérum anti poison",
+      "fr": "Sérum antipoison",
       "ja": "抗毒剤"
     },
     "stars": 1
@@ -5503,11 +5503,43 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
+      "cn": "Tremor Foil",
+      "de": "Erdstoß-Rapier",
+      "en": "Tremor Foil",
+      "fr": "Fleuret des séismes",
+      "ja": "トレマーフルーレ"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Earth",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
       "cn": "厚土断头剑",
       "de": "Erdstoß-Guillotine",
       "en": "Tremor Guillotine",
       "fr": "Fendoir des séismes",
       "ja": "トレマーディバイダー"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Earth",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "cn": "Tremor Katana",
+      "de": "Erdstoß-Katana",
+      "en": "Tremor Katana",
+      "fr": "Katana des séismes",
+      "ja": "岩神刀【改】"
     },
     "stars": 3
   },
@@ -6723,6 +6755,20 @@
     "level": 136,
     "maxQuality": 3150,
     "name": {
+      "cn": "Topiary Carbuncle",
+      "de": "Karfunkel-Busch",
+      "en": "Topiary Carbuncle",
+      "fr": "Topiaire de Carbuncle",
+      "ja": "カーバンクルトピアリー"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 1254,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 3150,
+    "name": {
       "cn": "陆行鸟绿雕",
       "de": "Chocobo-Busch",
       "en": "Topiary Chocobo",
@@ -7102,7 +7148,7 @@
     "maxQuality": 3925,
     "name": {
       "cn": "管弦乐琴乐谱：以血洗血",
-      "de": "Notenrolle „Blood For Blood“",
+      "de": "Notenrolle von „Blood For Blood“",
       "en": "Blood for Blood Orchestrion Roll",
       "fr": "Rouleau \"Blood for Blood\"",
       "ja": "オーケストリオン譜:血で血を洗って"
@@ -7297,11 +7343,39 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
+      "cn": "Skylords Orchestrion Roll",
+      "de": "Notenrolle von „Skylords“",
+      "en": "Skylords Orchestrion Roll",
+      "fr": "Rouleau \"Skylords\"",
+      "ja": "オーケストリオン譜:スカイロード"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
       "cn": "管弦乐琴乐谱：饿狼群集",
       "de": "Notenrolle von „Starved“",
       "en": "Starved Orchestrion Roll",
       "fr": "Rouleau \"Starved\"",
       "ja": "オーケストリオン譜:餓えた狼"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "cn": "The Silent Regard of Stars Orchestrion Roll",
+      "de": "Notenrolle von „The Silent Regard of Stars“",
+      "en": "The Silent Regard of Stars Orchestrion Roll",
+      "fr": "Rouleau \"The Silent Regard of Stars\"",
+      "ja": "オーケストリオン譜:静寂の星空"
     }
   },
   {
@@ -8192,5 +8266,525 @@
       "ja": "活力の強化仙薬"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 40,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Enchanted Koppranickel Ink",
+      "de": "Kupfernickel-Zaubertinte",
+      "en": "Enchanted Koppranickel Ink",
+      "fr": "Encre de cupronickel enchantée",
+      "ja": "キュプロエンチャントインク"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 40,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Growth Formula Eta",
+      "de": "Wachstumsformel Eta",
+      "en": "Growth Formula Eta",
+      "fr": "Formule de croissance êta",
+      "ja": "グロースフォーミュラ・エータ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Koppranickel Codex",
+      "de": "Kupfernickel-Kodex",
+      "en": "Koppranickel Codex",
+      "fr": "Codex en cupronickel",
+      "ja": "コーデックス・オブ・キュプロ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Koppranickel Index",
+      "de": "Kupfernickel-Index",
+      "en": "Koppranickel Index",
+      "fr": "Index en cupronickel",
+      "ja": "インデックス・オブ・キュプロ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Codex",
+      "de": "Gyukileder-Kodex",
+      "en": "Gyuki Leather Codex",
+      "fr": "Codex en cuir de gyuki",
+      "ja": "ギュウキコーデックス"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Grimoire",
+      "de": "Gyukileder-Grimoire",
+      "en": "Gyuki Leather Grimoire",
+      "fr": "Grimoire en cuir de gyuki",
+      "ja": "ギュウキグリモア"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Potent Spiritbond Potion",
+      "de": "Starker Bindungstrunk",
+      "en": "Potent Spiritbond Potion",
+      "fr": "Essence de symbiose forte",
+      "ja": "強錬精薬"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 40,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Grade 1 Reisui of Dexterity",
+      "de": "Wunderwasser der Geschicklichkeit I",
+      "en": "Grade 1 Reisui of Dexterity",
+      "fr": "Émulsion de dextérité I",
+      "ja": "眼力の霊水G1"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 40,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Grade 1 Reisui of Intelligence",
+      "de": "Wunderwasser der Intelligenz I",
+      "en": "Grade 1 Reisui of Intelligence",
+      "fr": "Émulsion d'intelligence I",
+      "ja": "知力の霊水G1"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 40,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Grade 1 Reisui of Mind",
+      "de": "Wunderwasser der Willenskraft I",
+      "en": "Grade 1 Reisui of Mind",
+      "fr": "Émulsion d'esprit I",
+      "ja": "心力の霊水G1"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 40,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Grade 1 Reisui of Strength",
+      "de": "Wunderwasser der Stärke I",
+      "en": "Grade 1 Reisui of Strength",
+      "fr": "Émulsion de force I",
+      "ja": "剛力の霊水G1"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 40,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Grade 1 Reisui of Vitality",
+      "de": "Wunderwasser der Konstitution I",
+      "en": "Grade 1 Reisui of Vitality",
+      "fr": "Émulsion de vitalité I",
+      "ja": "活力の霊水G1"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1377,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5741,
+    "name": {
+      "cn": "Intellectuary",
+      "de": "Süßer Megatrank der Intelligenz",
+      "en": "Intellectuary",
+      "fr": "Essence d'intelligence sucrée",
+      "ja": "知力の甘口秘薬"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 40,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Beetle Glue",
+      "de": "Käferleim",
+      "en": "Beetle Glue",
+      "fr": "Glu de scarabée",
+      "ja": "カブトにかわ"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Competent Craftsman's Tea",
+      "de": "Handwerkermeister-Tee",
+      "en": "Competent Craftsman's Tea",
+      "fr": "Infusion de virtuosité",
+      "ja": "名匠の薬茶"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 40,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Enchanted Durium Ink",
+      "de": "Durium-Zaubertinte",
+      "en": "Enchanted Durium Ink",
+      "fr": "Encre de durium enchantée",
+      "ja": "ダリウムエンチャントインク"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Commanding Craftsman's Tea",
+      "de": "Handwerkerlegenden-Tee",
+      "en": "Commanding Craftsman's Tea",
+      "fr": "Infusion de maîtrise",
+      "ja": "巨匠の薬茶"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Codex",
+      "de": "Tigerleder-Kodex",
+      "en": "Tigerskin Codex",
+      "fr": "Codex en cuir de tigre",
+      "ja": "タイガーコーデックス"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Grimoire",
+      "de": "Tigerleder-Grimoire",
+      "en": "Tigerskin Grimoire",
+      "fr": "Grimoire en cuir de tigre",
+      "ja": "タイガーグリモア"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 1584,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 6194,
+    "name": {
+      "cn": "Twice-fermented Mun-Tuy Juice",
+      "de": "Gourmet-Mun-Tuy-Saft",
+      "en": "Twice-fermented Mun-Tuy Juice",
+      "fr": "Sérum de vérité aux fèves de Mun-Tuy",
+      "ja": "特製ムントゥイジュース"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 40,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Growth Formula Theta",
+      "de": "Wachstumsformel Theta",
+      "en": "Growth Formula Theta",
+      "fr": "Formule de croissance thêta",
+      "ja": "グロースフォーミュラ・テータ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 40,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Persimmon Tannin",
+      "de": "Kaki-Tannin",
+      "en": "Persimmon Tannin",
+      "fr": "Concentré de tanin de plaqueminier",
+      "ja": "柿渋"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Cunning Craftsman's Tea",
+      "de": "Handwerkerkoryphäen-Tee",
+      "en": "Cunning Craftsman's Tea",
+      "fr": "Infusion de capacité",
+      "ja": "魔匠の薬茶"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Codex",
+      "de": "Maridenleder-Kodex",
+      "en": "Marid Leather Codex",
+      "fr": "Codex en cuir de marid",
+      "ja": "マーリドコーデックス"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Grimoire",
+      "de": "Maridenleder-Grimoire",
+      "en": "Marid Leather Grimoire",
+      "fr": "Grimoire en cuir de marid",
+      "ja": "マーリドグリモア"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 40,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Enchanted Palladium Ink",
+      "de": "Palladium-Zaubertinte",
+      "en": "Enchanted Palladium Ink",
+      "fr": "Encre de palladium enchantée",
+      "ja": "パラースエンチャントインク"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Codex",
+      "de": "Gazellenleder-Kodex",
+      "en": "Gazelleskin Codex",
+      "fr": "Codex en cuir de gazelle",
+      "ja": "ガゼルコーデックス"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Grimoire",
+      "de": "Gazellenleder-Grimoire",
+      "en": "Gazelleskin Grimoire",
+      "fr": "Grimoire en cuir de gazelle",
+      "ja": "ガゼルグリモア"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1894,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6875,
+    "name": {
+      "cn": "Luminol",
+      "de": "Blutreagenz",
+      "en": "Luminol",
+      "fr": "Révélateur d'hémoglobine",
+      "ja": "血液反応薬"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Infusion of Mind",
+      "de": "Aufguss der Willenskraft",
+      "en": "Infusion of Mind",
+      "fr": "Concoction d'esprit",
+      "ja": "心力の薬湯"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Infusion of Vitality",
+      "de": "Aufguss der Konstitution",
+      "en": "Infusion of Vitality",
+      "fr": "Concoction de vitalité",
+      "ja": "活力の薬湯"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Infusion of Dexterity",
+      "de": "Aufguss des Geschicks",
+      "en": "Infusion of Dexterity",
+      "fr": "Concoction de dextérité",
+      "ja": "眼力の薬湯"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Infusion of Intelligence",
+      "de": "Aufguss der Intelligenz",
+      "en": "Infusion of Intelligence",
+      "fr": "Concoction d'intelligence",
+      "ja": "知力の薬湯"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Infusion of Strength",
+      "de": "Aufguss der Stärke",
+      "en": "Infusion of Strength",
+      "fr": "Concoction de force",
+      "ja": "剛力の薬湯"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Potent Dissolvent",
+      "de": "Äther-Lösungsmittel",
+      "en": "Potent Dissolvent",
+      "fr": "Dissolvant de joyaux",
+      "ja": "特製溶解液"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 5668,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 7035,
+    "name": {
+      "cn": "Beauty's Wicked Wiles Orchestrion Roll",
+      "de": "Notenrolle von „Beauty's Wicked Wiles“",
+      "en": "Beauty's Wicked Wiles Orchestrion Roll",
+      "fr": "Rouleau \"Beauty's Wicked Wiles\"",
+      "ja": "オーケストリオン譜:美の謀略"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 5668,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 7035,
+    "name": {
+      "cn": "Revelation Orchestrion Roll",
+      "de": "Notenrolle von „Revelation“",
+      "en": "Revelation Orchestrion Roll",
+      "fr": "Rouleau \"Revelation\"",
+      "ja": "オーケストリオン譜:啓示"
+    },
+    "stars": 1
   }
 ]

@@ -11435,7 +11435,7 @@
     "name": {
       "cn": "半熊革咏咒露趾长靴",
       "de": "Hemicyonleder-Stiefel der Magie",
-      "en": "Hemiskin Open-toe Boots of Casting",
+      "en": "Hemiskin Open-toed Boots of Casting",
       "fr": "Cuissardes à bout ouvert d'incantateur en cuir d'hemicyon",
       "ja": "ヘミキオン・キャスターオープンブーツ"
     },
@@ -11450,7 +11450,7 @@
     "name": {
       "cn": "半熊革露趾长靴",
       "de": "Hemicyonleder-Stiefel der Heilung",
-      "en": "Hemiskin Open-toe Boots of Healing",
+      "en": "Hemiskin Open-toed Boots of Healing",
       "fr": "Cuissardes à bout ouvert de soigneur en cuir d'hemicyon",
       "ja": "ヘミキオン・ヒーラーオープンブーツ"
     },
@@ -11710,5 +11710,2079 @@
       "ja": "スカイラット・スカウトフックブーツ"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 40,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gagana Leather",
+      "de": "Gaganaleder",
+      "en": "Gagana Leather",
+      "fr": "Cuir de gagana",
+      "ja": "ガガナレザー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gaganaskin Belt of Aiming",
+      "de": "Gaganaleder-Gürtel des Zielens",
+      "en": "Gaganaskin Belt of Aiming",
+      "fr": "Ceinture de pisteur en cuir de gagana",
+      "ja": "ガガナレンジャーベルト"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gaganaskin Belt of Casting",
+      "de": "Gaganaleder-Gürtel der Magie",
+      "en": "Gaganaskin Belt of Casting",
+      "fr": "Ceinture d'incantateur en cuir de gagana",
+      "ja": "ガガナキャスターベルト"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gaganaskin Belt of Fending",
+      "de": "Gaganaleder-Gürtel der Verteidigung",
+      "en": "Gaganaskin Belt of Fending",
+      "fr": "Ceinture de protecteur en cuir de gagana",
+      "ja": "ガガナディフェンダーベルト"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gaganaskin Belt of Healing",
+      "de": "Gaganaleder-Gürtel der Heilung",
+      "en": "Gaganaskin Belt of Healing",
+      "fr": "Ceinture de soigneur en cuir de gagana",
+      "ja": "ガガナヒーラーベルト"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gaganaskin Belt of Maiming",
+      "de": "Gaganaleder-Gürtel des Verstümmelns",
+      "en": "Gaganaskin Belt of Maiming",
+      "fr": "Ceinture d'abatteur en cuir de gagana",
+      "ja": "ガガナスレイヤーベルト"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gaganaskin Belt of Scouting",
+      "de": "Gaganaleder-Gürtel des Spähens",
+      "en": "Gaganaskin Belt of Scouting",
+      "fr": "Ceinture d'éclaireur en cuir de gagana",
+      "ja": "ガガナスカウトベルト"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gaganaskin Belt of Striking",
+      "de": "Gaganaleder-Gürtel des Schlagens",
+      "en": "Gaganaskin Belt of Striking",
+      "fr": "Ceinture d'agresseur en cuir de gagana",
+      "ja": "ガガナストライカーベルト"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gaganaskin Gloves of Aiming",
+      "de": "Gaganaleder-Handschuhe des Zielens",
+      "en": "Gaganaskin Gloves of Aiming",
+      "fr": "Gants de pisteur en cuir de gagana",
+      "ja": "ガガナレンジャーグローブ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Gaganaskin Hat of Aiming",
+      "de": "Gaganaleder-Hut des Zielens",
+      "en": "Gaganaskin Hat of Aiming",
+      "fr": "Chapeau de pisteur en cuir de gagana",
+      "ja": "ガガナレンジャーハット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Boots of Aiming",
+      "de": "Gaganaleder-Stiefel des Zielens",
+      "en": "Gaganaskin Boots of Aiming",
+      "fr": "Bottes de pisteur en cuir de gagana",
+      "ja": "ガガナレンジャーブーツ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Bush Hat",
+      "de": "Gaganaleder-Buschhut",
+      "en": "Gaganaskin Bush Hat",
+      "fr": "Chapeau mou en cuir de gagana",
+      "ja": "ガガナブッシュハット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Chaps of Aiming",
+      "de": "Gaganaleder-Chaps des Zielens",
+      "en": "Gaganaskin Chaps of Aiming",
+      "fr": "Houseaux de pisteur en cuir de gagana",
+      "ja": "ガガナレンジャーチャップス"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Fringe Boots",
+      "de": "Gaganaleder-Fransenstiefel",
+      "en": "Gaganaskin Fringe Boots",
+      "fr": "Bottes à franges en cuir de gagana",
+      "ja": "ガガナフリンジブーツ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Gloves",
+      "de": "Gaganaleder-Handschuhe",
+      "en": "Gaganaskin Gloves",
+      "fr": "Gants en cuir de gagana",
+      "ja": "ガガナグローブ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Halfgloves",
+      "de": "Gaganaleder-Kurzfingerhandschuhe",
+      "en": "Gaganaskin Halfgloves",
+      "fr": "Mitaines en cuir de gagana",
+      "ja": "ガガナハーフグローブ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Hose of Fending",
+      "de": "Gaganaleder-Hose der Verteidigung",
+      "en": "Gaganaskin Hose of Fending",
+      "fr": "Fuseau de protecteur en cuir de gagana",
+      "ja": "ガガナディフェンダーホーズ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Hose of Maiming",
+      "de": "Gaganaleder-Hose des Verstümmelns",
+      "en": "Gaganaskin Hose of Maiming",
+      "fr": "Fuseau d'abatteur en cuir de gagana",
+      "ja": "ガガナスレイヤーホーズ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Jacket of Aiming",
+      "de": "Gaganaleder-Jacke des Zielens",
+      "en": "Gaganaskin Jacket of Aiming",
+      "fr": "Jaque de pisteur en cuir de gagana",
+      "ja": "ガガナレンジャージャケット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Leg Guards of Fending",
+      "de": "Gaganaleder-Beinschützer der Verteidigung",
+      "en": "Gaganaskin Leg Guards of Fending",
+      "fr": "Protège-jambes de protecteur en cuir de gagana",
+      "ja": "ガガナ・ディフェンダーレッグガード"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Leg Guards of Maiming",
+      "de": "Gaganaleder-Beinschützer des Verstümmelns",
+      "en": "Gaganaskin Leg Guards of Maiming",
+      "fr": "Protège-jambes d'abatteur en cuir de gagana",
+      "ja": "ガガナ・スレイヤーレッグガード"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Sandals of Casting",
+      "de": "Gaganaleder-Sandalen der Magie",
+      "en": "Gaganaskin Sandals of Casting",
+      "fr": "Sandales d'incantateur en cuir de gagana",
+      "ja": "ガガナキャスターサンダル"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Sandals of Healing",
+      "de": "Gaganaleder-Sandalen der Heilung",
+      "en": "Gaganaskin Sandals of Healing",
+      "fr": "Sandales de soigneur en cuir de gagana",
+      "ja": "ガガナヒーラーサンダル"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Sandals of Scouting",
+      "de": "Gaganaleder-Sandalen des Spähens",
+      "en": "Gaganaskin Sandals of Scouting",
+      "fr": "Sandales d'éclaireur en cuir de gagana",
+      "ja": "ガガナスカウトサンダル"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Sandals of Striking",
+      "de": "Gaganaleder-Sandalen des Schlagens",
+      "en": "Gaganaskin Sandals of Striking",
+      "fr": "Sandales d'agresseur en cuir de gagana",
+      "ja": "ガガナストライカーサンダル"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Shoes",
+      "de": "Gaganaleder-Schuhe",
+      "en": "Gaganaskin Shoes",
+      "fr": "Chaussures en cuir de gagana",
+      "ja": "ガガナシューズ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Gaganaskin Vest",
+      "de": "Gaganaleder-Weste",
+      "en": "Gaganaskin Vest",
+      "fr": "Gilet en cuir de gagana",
+      "ja": "ガガナベスト"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gaganaskin Belt of Gathering",
+      "de": "Gaganaleder-Gürtel des Eifers",
+      "en": "Gaganaskin Belt of Gathering",
+      "fr": "Ceinture des ressources en cuir de gagana",
+      "ja": "ガガナギャザラーベルト"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 40,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather",
+      "de": "Gyukileder",
+      "en": "Gyuki Leather",
+      "fr": "Cuir de gyuki",
+      "ja": "ギュウキレザー"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Dress Gloves",
+      "de": "Gyukileder-Galahandschuhe der Heilung",
+      "en": "Gyuki Leather Dress Gloves",
+      "fr": "Gants d'apparat en cuir de gyuki",
+      "ja": "ギュウキドレスグローブ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Gloves of Aiming",
+      "de": "Gyukileder-Handschuhe des Zielens",
+      "en": "Gyuki Leather Gloves of Aiming",
+      "fr": "Gants de pisteur en cuir de gyuki",
+      "ja": "ギュウキ・レンジャーグローブ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Halfgloves of Scouting",
+      "de": "Gyukileder-Kurzfingerhandschuhe des Spähens",
+      "en": "Gyuki Leather Halfgloves of Scouting",
+      "fr": "Mitaines d'éclaireur en cuir de gyuki",
+      "ja": "ギュウキ・スカウトハーフグローブ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Halfgloves of Striking",
+      "de": "Gyukileder-Kurzfingerhandschuhe des Schlagens",
+      "en": "Gyuki Leather Halfgloves of Striking",
+      "fr": "Mitaines d'agresseur en cuir de gyuki",
+      "ja": "ギュウキ・ストライカーハーフグローブ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Pot Helm",
+      "de": "Gyukileder-Kaskett des Zielens",
+      "en": "Gyuki Leather Pot Helm",
+      "fr": "Heaume en cuir de gyuki",
+      "ja": "ギュウキポットヘルム"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Trousers of Fending",
+      "de": "Gyukileder-Hose der Verteidigung",
+      "en": "Gyuki Leather Trousers of Fending",
+      "fr": "Pantalon de protecteur en cuir de gyuki",
+      "ja": "ギュウキディフェンダートラウザー"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Trousers of Maiming",
+      "de": "Gyukileder-Hose des Verstümmelns",
+      "en": "Gyuki Leather Trousers of Maiming",
+      "fr": "Pantalon d'abatteur en cuir de gyuki",
+      "ja": "ギュウキスレイヤートラウザー"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Twinbelt of Aiming",
+      "de": "Gyukileder-Gürtel des Zielens",
+      "en": "Gyuki Leather Twinbelt of Aiming",
+      "fr": "Ceinture croisée de pisteur en cuir de gyuki",
+      "ja": "ギュウキ・レンジャークロスベルト"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Twinbelt of Scouting",
+      "de": "Gyukileder-Gürtel des Spähens",
+      "en": "Gyuki Leather Twinbelt of Scouting",
+      "fr": "Ceinture croisée d'éclaireur en cuir de gyuki",
+      "ja": "ギュウキ・スカウトクロスベルト"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Gyuki Leather Twinbelt of Striking",
+      "de": "Gyukileder-Gürtel des Schlagens",
+      "en": "Gyuki Leather Twinbelt of Striking",
+      "fr": "Ceinture croisée d'agresseur en cuir de gyuki",
+      "ja": "ギュウキ・ストライカークロスベルト"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Boots of Aiming",
+      "de": "Gyukileder-Stiefel des Zielens",
+      "en": "Gyuki Leather Boots of Aiming",
+      "fr": "Bottes de pisteur en cuir de gyuki",
+      "ja": "ギュウキレンジャーブーツ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Boots of Gathering",
+      "de": "Gyukileder-Stiefel des Eifers",
+      "en": "Gyuki Leather Boots of Gathering",
+      "fr": "Bottes des ressources en cuir de gyuki",
+      "ja": "ギュウキギャザラーブーツ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Boots of Healing",
+      "de": "Gyukileder-Sandalen der Heilung",
+      "en": "Gyuki Leather Boots of Healing",
+      "fr": "Bottes de soigneur en cuir de gyuki",
+      "ja": "ギュウキヒーラーブーツ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Chaps",
+      "de": "Gyukileder-Chaps",
+      "en": "Gyuki Leather Chaps",
+      "fr": "Houseaux en cuir de gyuki",
+      "ja": "ギュウキチャップス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Choker",
+      "de": "Gyukileder-Halsberge",
+      "en": "Gyuki Leather Choker",
+      "fr": "Ras de cou en cuir de gyuki",
+      "ja": "ギュウキチョーカー"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Earrings",
+      "de": "Gyukileder-Ohrringe",
+      "en": "Gyuki Leather Earrings",
+      "fr": "Boucles d'oreilles en cuir de gyuki",
+      "ja": "ギュウキイヤリング"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Gloves of Crafting",
+      "de": "Gyukileder-Handschuhe des Handwerks",
+      "en": "Gyuki Leather Gloves of Crafting",
+      "fr": "Gants des créations en cuir de gyuki",
+      "ja": "ギュウキクラフターグローブ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Gloves of Gathering",
+      "de": "Gyukileder-Handschuhe des Eifers",
+      "en": "Gyuki Leather Gloves of Gathering",
+      "fr": "Gants des ressources en cuir de gyuki",
+      "ja": "ギュウキギャザラーグローブ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Hat",
+      "de": "Gyukileder-Hut",
+      "en": "Gyuki Leather Hat",
+      "fr": "Chapeau en cuir de gyuki",
+      "ja": "ギュウキハット"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Highboots of Scouting",
+      "de": "Gyukileder-Kniestiefel des Spähens",
+      "en": "Gyuki Leather Highboots of Scouting",
+      "fr": "Cuissardes d'éclaireur en cuir de gyuki",
+      "ja": "ギュウキ・スカウトハイブーツ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Highboots of Striking",
+      "de": "Gyukileder-Kniestiefel des Schlagens",
+      "en": "Gyuki Leather Highboots of Striking",
+      "fr": "Cuissardes d'agresseur en cuir de gyuki",
+      "ja": "ギュウキ・ストライカーハイブーツ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Jacket",
+      "de": "Gyukileder-Jacke",
+      "en": "Gyuki Leather Jacket",
+      "fr": "Jaque en cuir de gyuki",
+      "ja": "ギュウキジャケット"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Pattens",
+      "de": "Gyukileder-Trippen der Magie",
+      "en": "Gyuki Leather Pattens",
+      "fr": "Patins en cuir de gyuki",
+      "ja": "ギュウキパッテン"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Ring",
+      "de": "Gyukileder-Ring",
+      "en": "Gyuki Leather Ring",
+      "fr": "Bague croisée en cuir de gyuki",
+      "ja": "ギュウキクロスリング"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Shoes",
+      "de": "Gyukileder-Schuhe",
+      "en": "Gyuki Leather Shoes",
+      "fr": "Chaussures en cuir de gyuki",
+      "ja": "ギュウキシューズ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Gyuki Leather Wristband",
+      "de": "Gyukileder-Armband",
+      "en": "Gyuki Leather Wristband",
+      "fr": "Poignet en cuir de gyuki",
+      "ja": "ギュウキリストバンド"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1377,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5741,
+    "name": {
+      "cn": "Large Dhalmel Cape",
+      "de": "Hengr-Dhalmelleder",
+      "en": "Large Dhalmel Cape",
+      "fr": "Fourrure de dhalmel",
+      "ja": "剥製用ダルメルの毛皮"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 3542,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5219,
+    "name": {
+      "cn": "Stuffed Dhalmel",
+      "de": "Ausgestopfter Dhalmel",
+      "en": "Stuffed Dhalmel",
+      "fr": "Dhalmel empaillé",
+      "ja": "ダルメルの剥製"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 40,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tiger Leather",
+      "de": "Tigerleder",
+      "en": "Tiger Leather",
+      "fr": "Cuir de tigre",
+      "ja": "タイガーレザー"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Armguards of Casting",
+      "de": "Tigerleder-Armschützer der Magie",
+      "en": "Tigerskin Armguards of Casting",
+      "fr": "Garde-bras d'incantateur en cuir de tigre",
+      "ja": "タイガー・キャスターアームガード"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Armguards of Healing",
+      "de": "Tigerleder-Armschützer der Heilung",
+      "en": "Tigerskin Armguards of Healing",
+      "fr": "Garde-bras de soigneur en cuir de tigre",
+      "ja": "タイガー・ヒーラーアームガード"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Gloves of Aiming",
+      "de": "Tigerleder-Handschuhe des Zielens",
+      "en": "Tigerskin Gloves of Aiming",
+      "fr": "Couvre-poignets de pisteur en cuir de tigre",
+      "ja": "タイガー・レンジャーリストグローブ"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Gloves of Scouting",
+      "de": "Tigerleder-Handschuhe des Spähens",
+      "en": "Tigerskin Gloves of Scouting",
+      "fr": "Couvre-poignets d'éclaireur en cuir de tigre",
+      "ja": "タイガー・スカウトリストグローブ"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Ringbelt of Aiming",
+      "de": "Tigerleder-Ringgürtel des Zielens",
+      "en": "Tigerskin Ringbelt of Aiming",
+      "fr": "Ceinture annelée de pisteur en cuir de tigre",
+      "ja": "タイガー・レンジャーリングベルト"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Ringbelt of Scouting",
+      "de": "Tigerleder-Ringgürtel des Spähens",
+      "en": "Tigerskin Ringbelt of Scouting",
+      "fr": "Ceinture annelée d'éclaireur en cuir de tigre",
+      "ja": "タイガー・スカウトリングベルト"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Ringbelt of Striking",
+      "de": "Tigerleder-Ringgürtel des Schlagens",
+      "en": "Tigerskin Ringbelt of Striking",
+      "fr": "Ceinture annelée d'agresseur en cuir de tigre",
+      "ja": "タイガー・ストライカーリングベルト"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Wristgloves of Striking",
+      "de": "Tigerleder-Handschuhe des Schlagens",
+      "en": "Tigerskin Wristgloves of Striking",
+      "fr": "Couvre-poignets d'agresseur en cuir de tigre",
+      "ja": "タイガー・ストライカーリストグローブ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 1584,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 6194,
+    "name": {
+      "cn": "Grizzly Bear Gloves",
+      "de": "Grizzly-Handschuhe",
+      "en": "Grizzly Bear Gloves",
+      "fr": "Gants en cuir de grizzli",
+      "ja": "グリズリーベアーグローブ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Tricorne of Striking",
+      "de": "Sternspinell-Dreispitz des Schlagens",
+      "en": "Star Spinel Tricorne of Striking",
+      "fr": "Tricorne d'agresseur en cuir de tigre",
+      "ja": "タイガー・ストライカートライコーン"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Boots of Crafting",
+      "de": "Tigerleder-Stiefel des Handwerks",
+      "en": "Tigerskin Boots of Crafting",
+      "fr": "Bottes des créations en cuir de tigre",
+      "ja": "タイガークラフターブーツ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Boots of Gathering",
+      "de": "Tigerleder-Stiefel des Eifers",
+      "en": "Tigerskin Boots of Gathering",
+      "fr": "Bottes des ressources en cuir de tigre",
+      "ja": "タイガーギャザラーブーツ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Cap of Gathering",
+      "de": "Tigerleder-Kappe des Eifers",
+      "en": "Tigerskin Cap of Gathering",
+      "fr": "Bonnet des ressources en cuir de tigre",
+      "ja": "タイガーギャザラーキャップ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Fingerless Gloves of Gathering",
+      "de": "Tigerleder-Fingerlinge des Eifers",
+      "en": "Tigerskin Fingerless Gloves of Gathering",
+      "fr": "Gants sans doigts des ressources en cuir de tigre",
+      "ja": "タイガー・ギャザラーフィンガレスグローブ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Jackboots of Casting",
+      "de": "Tigerleder-Kampfstiefel der Magie",
+      "en": "Tigerskin Jackboots of Casting",
+      "fr": "Bottes militaires d'incantateur en cuir de tigre",
+      "ja": "タイガー・キャスタージャックブーツ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Jackboots of Healing",
+      "de": "Tigerleder-Kampfstiefel der Heilung",
+      "en": "Tigerskin Jackboots of Healing",
+      "fr": "Bottes militaires de soigneur en cuir de tigre",
+      "ja": "タイガー・ヒーラージャックブーツ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Thighboots of Aiming",
+      "de": "Tigerleder-Kniestiefel des Zielens",
+      "en": "Tigerskin Thighboots of Aiming",
+      "fr": "Cuissardes de pisteur en cuir de tigre",
+      "ja": "タイガー・レンジャーサイブーツ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Thighboots of Scouting",
+      "de": "Tigerleder-Kniestiefel des Spähens",
+      "en": "Tigerskin Thighboots of Scouting",
+      "fr": "Cuissardes d'éclaireur en cuir de tigre",
+      "ja": "タイガー・スカウトサイブーツ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Thighboots of Striking",
+      "de": "Tigerleder-Kniestiefel des Schlagens",
+      "en": "Tigerskin Thighboots of Striking",
+      "fr": "Cuissardes d'agresseur en cuir de tigre",
+      "ja": "タイガー・ストライカーサイブーツ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Tricorne of Aiming",
+      "de": "Tigerleder-Dreispitz des Zielens",
+      "en": "Tigerskin Tricorne of Aiming",
+      "fr": "Tricorne de pisteur en cuir de tigre",
+      "ja": "タイガー・レンジャートライコーン"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Tricorne of Scouting",
+      "de": "Tigerleder-Dreispitz des Spähens",
+      "en": "Tigerskin Tricorne of Scouting",
+      "fr": "Tricorne d'éclaireur en cuir de tigre",
+      "ja": "タイガー・スカウトトライコーン"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 40,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather",
+      "de": "Maridenleder",
+      "en": "Marid Leather",
+      "fr": "Cuir de marid",
+      "ja": "マーリドレザー"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Belt of Fending",
+      "de": "Maridenleder-Gürtel der Verteidigung",
+      "en": "Marid Leather Belt of Fending",
+      "fr": "Ceinture de protecteur en cuir de marid",
+      "ja": "マーリドディフェンダーベルト"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Belt of Maiming",
+      "de": "Maridenleder-Gürtel des Verstümmelns",
+      "en": "Marid Leather Belt of Maiming",
+      "fr": "Ceinture d'abatteur en cuir de marid",
+      "ja": "マーリドスレイヤーベルト"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Boots of Aiming",
+      "de": "Maridenleder-Stiefel des Zielens",
+      "en": "Marid Leather Boots of Aiming",
+      "fr": "Bottes de pisteur en cuir de marid",
+      "ja": "マーリドレンジャーブーツ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Boots of Casting",
+      "de": "Maridenleder-Stiefel der Magie",
+      "en": "Marid Leather Boots of Casting",
+      "fr": "Bottes d'incantateur en cuir de marid",
+      "ja": "マーリドキャスターブーツ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Boots of Healing",
+      "de": "Maridenleder-Stiefel der Heilung",
+      "en": "Marid Leather Boots of Healing",
+      "fr": "Bottes de soigneur en cuir de marid",
+      "ja": "マーリドヒーラーブーツ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Corset of Aiming",
+      "de": "Maridenleder-Korsett des Zielens",
+      "en": "Marid Leather Corset of Aiming",
+      "fr": "Corset de pisteur en cuir de marid",
+      "ja": "マーリドレンジャーコルセット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Corset of Casting",
+      "de": "Maridenleder-Korsett der Magie",
+      "en": "Marid Leather Corset of Casting",
+      "fr": "Corset d'incantateur en cuir de marid",
+      "ja": "マーリドキャスターコルセット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Corset of Healing",
+      "de": "Maridenleder-Korsett der Heilung",
+      "en": "Marid Leather Corset of Healing",
+      "fr": "Corset de soigneur en cuir de marid",
+      "ja": "マーリドヒーラーコルセット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Gloves of Aiming",
+      "de": "Maridenleder-Handschuhe des Zielens",
+      "en": "Marid Leather Gloves of Aiming",
+      "fr": "Gants de pisteur en cuir de marid",
+      "ja": "マーリドレンジャーグローブ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Gloves of Casting",
+      "de": "Maridenleder-Handschuhe der Magie",
+      "en": "Marid Leather Gloves of Casting",
+      "fr": "Gants d'incantateur en cuir de marid",
+      "ja": "マーリドキャスターグローブ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Gloves of Healing",
+      "de": "Maridenleder-Handschuhe der Heilung",
+      "en": "Marid Leather Gloves of Healing",
+      "fr": "Gants de soigneur en cuir de marid",
+      "ja": "マーリドヒーラーグローブ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Hood of Scouting",
+      "de": "Maridenleder-Haube des Spähens",
+      "en": "Marid Leather Hood of Scouting",
+      "fr": "Capuche d'éclaireur en cuir de marid",
+      "ja": "マーリドスカウトフード"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Marid Leather Hood of Striking",
+      "de": "Maridenleder-Haube des Schlagens",
+      "en": "Marid Leather Hood of Striking",
+      "fr": "Capuche d'agresseur en cuir de marid",
+      "ja": "マーリドストライカーフード"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Tigerskin Belt of Gathering",
+      "de": "Tigerleder-Gürtel des Eifers",
+      "en": "Tigerskin Belt of Gathering",
+      "fr": "Ceinture des ressources en cuir de tigre",
+      "ja": "タイガーギャザラーベルト"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Babouches of Crafting",
+      "de": "Maridenleder-Pantoffeln des Handwerks",
+      "en": "Marid Leather Babouches of Crafting",
+      "fr": "Babouches des créations en cuir de marid",
+      "ja": "マーリドクラフターバブーシュ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Babouches of Gathering",
+      "de": "Maridenleder-Pantoffeln des Eifers",
+      "en": "Marid Leather Babouches of Gathering",
+      "fr": "Babouches des ressources en cuir de marid",
+      "ja": "マーリドギャザラーバブーシュ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Bolero of Crafting",
+      "de": "Maridenleder-Bolero des Handwerks",
+      "en": "Marid Leather Bolero of Crafting",
+      "fr": "Boléro des créations en cuir de marid",
+      "ja": "マーリドクラフターボレロ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Bolero of Gathering",
+      "de": "Maridenleder-Bolero des Eifers",
+      "en": "Marid Leather Bolero of Gathering",
+      "fr": "Boléro des ressources en cuir de marid",
+      "ja": "マーリドギャザラーボレロ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Breeches of Fending",
+      "de": "Maridenleder-Reiterhose der Verteidigung",
+      "en": "Marid Leather Breeches of Fending",
+      "fr": "Braies de protecteur en cuir de marid",
+      "ja": "マーリドディフェンダーブリーチ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Breeches of Maiming",
+      "de": "Maridenleder-Reiterhose des Verstümmelns",
+      "en": "Marid Leather Breeches of Maiming",
+      "fr": "Braies d'abatteur en cuir de marid",
+      "ja": "マーリドスレイヤーブリーチ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Breeches of Scouting",
+      "de": "Maridenleder-Reiterhose des Spähens",
+      "en": "Marid Leather Breeches of Scouting",
+      "fr": "Braies d'éclaireur en cuir de marid",
+      "ja": "マーリドスカウトブリーチ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Breeches of Striking",
+      "de": "Maridenleder-Reiterhose des Schlagens",
+      "en": "Marid Leather Breeches of Striking",
+      "fr": "Braies d'agresseur en cuir de marid",
+      "ja": "マーリドストライカーブリーチ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Choker",
+      "de": "Maridenleder-Halsberge",
+      "en": "Marid Leather Choker",
+      "fr": "Ras de cou en cuir de marid",
+      "ja": "マーリドチョーカー"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Coat of Scouting",
+      "de": "Maridenleder-Mantel des Spähens",
+      "en": "Marid Leather Coat of Scouting",
+      "fr": "Manteau d'éclaireur en cuir de marid",
+      "ja": "マーリドスカウトコート"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Coat of Striking",
+      "de": "Maridenleder-Mantel des Schlagens",
+      "en": "Marid Leather Coat of Striking",
+      "fr": "Manteau d'agresseur en cuir de marid",
+      "ja": "マーリドストライカーコート"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Earrings",
+      "de": "Maridenleder-Ohrringe",
+      "en": "Marid Leather Earrings",
+      "fr": "Boucles d'oreilles en cuir de marid",
+      "ja": "マーリドイヤリング"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Gloves of Crafting",
+      "de": "Maridenleder-Handschuhe des Handwerks",
+      "en": "Marid Leather Gloves of Crafting",
+      "fr": "Gants des créations en cuir de marid",
+      "ja": "マーリドクラフターグローブ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Gloves of Gathering",
+      "de": "Maridenleder-Handschuhe des Eifers",
+      "en": "Marid Leather Gloves of Gathering",
+      "fr": "Gants des ressources en cuir de marid",
+      "ja": "マーリドギャザラーグローブ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Ring",
+      "de": "Maridenleder-Ring",
+      "en": "Marid Leather Ring",
+      "fr": "Bague croisée en cuir de marid",
+      "ja": "マーリドクロスリング"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Marid Leather Wristband",
+      "de": "Maridenleder-Armband",
+      "en": "Marid Leather Wristband",
+      "fr": "Poignet en cuir de marid",
+      "ja": "マーリドリストバンド"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1894,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6875,
+    "name": {
+      "cn": "Dashing Dhalmelskin Jacket",
+      "de": "Dhalmel-Jacke",
+      "en": "Dashing Dhalmelskin Jacket",
+      "fr": "Jaque en cuir de dhalmel",
+      "ja": "高級ダルメルジャケット"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 40,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelle Leather",
+      "de": "Gazellenleder",
+      "en": "Gazelle Leather",
+      "fr": "Cuir de gazelle",
+      "ja": "ガゼルレザー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Boots of Aiming",
+      "de": "Gazellenleder-Stiefel des Zielens",
+      "en": "Gazelleskin Boots of Aiming",
+      "fr": "Bottes de pisteur en cuir de gazelle",
+      "ja": "ガゼルレンジャーブーツ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Boots of Casting",
+      "de": "Gazellenleder-Stiefel der Magie",
+      "en": "Gazelleskin Boots of Casting",
+      "fr": "Bottes d'incantateur en cuir de gazelle",
+      "ja": "ガゼルキャスターブーツ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Boots of Healing",
+      "de": "Gazellenleder-Stiefel der Heilung",
+      "en": "Gazelleskin Boots of Healing",
+      "fr": "Bottes de soigneur en cuir de gazelle",
+      "ja": "ガゼルヒーラーブーツ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Bracers of Fending",
+      "de": "Gazellenleder-Armschienen der Verteidigung",
+      "en": "Gazelleskin Bracers of Fending",
+      "fr": "Brassières de protecteur en cuir de gazelle",
+      "ja": "ガゼルディフェンダーブレーサー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Bracers of Healing",
+      "de": "Gazellenleder-Armschienen der Heilung",
+      "en": "Gazelleskin Bracers of Healing",
+      "fr": "Brassières de soigneur en cuir de gazelle",
+      "ja": "ガゼルヒーラーブレーサー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Open-toe Boots of Maiming",
+      "de": "Molybdän-Stiefel des Verstümmelns",
+      "en": "Gazelleskin Open-toe Boots of Maiming",
+      "fr": "Cuissardes à bout ouvert d'abatteur en cuir de gazelle",
+      "ja": "ガゼル・スレイヤーオープンブーツ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Open-toe Boots of Scouting",
+      "de": "Gazellenleder-Stiefel des Spähens",
+      "en": "Gazelleskin Open-toe Boots of Scouting",
+      "fr": "Cuissardes à bout ouvert d'éclaireur en cuir de gazelle",
+      "ja": "ガゼル・スカウトオープンブーツ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Open-toe Boots of Striking",
+      "de": "Gazellenleder-Stiefel des Schlagens",
+      "en": "Gazelleskin Open-toe Boots of Striking",
+      "fr": "Cuissardes à bout ouvert d'agresseur en cuir de gazelle",
+      "ja": "ガゼル・ストライカーオープンブーツ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Twinbelt of Aiming",
+      "de": "Gazellenleder-Gürtel des Zielens",
+      "en": "Gazelleskin Twinbelt of Aiming",
+      "fr": "Ceinture croisée de pisteur en cuir de gazelle",
+      "ja": "ガゼル・レンジャークロスベルト"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Twinbelt of Scouting",
+      "de": "Gazellenleder-Gürtel des Spähens",
+      "en": "Gazelleskin Twinbelt of Scouting",
+      "fr": "Ceinture croisée d'éclaireur en cuir de gazelle",
+      "ja": "ガゼル・スカウトクロスベルト"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Gazelleskin Twinbelt of Striking",
+      "de": "Gazellenleder-Gürtel des Schlagens",
+      "en": "Gazelleskin Twinbelt of Striking",
+      "fr": "Ceinture croisée d'agresseur en cuir de gazelle",
+      "ja": "ガゼル・ストライカークロスベルト"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Armguards of Aiming",
+      "de": "Molybdän-Armschützer des Zielens",
+      "en": "Gazelleskin Armguards of Aiming",
+      "fr": "Garde-bras de pisteur en cuir de gazelle",
+      "ja": "ガゼル・レンジャーアームガード"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Armguards of Casting",
+      "de": "Gazellenleder-Armschützer der Magie",
+      "en": "Gazelleskin Armguards of Casting",
+      "fr": "Garde-bras d'incantateur en cuir de gazelle",
+      "ja": "ガゼル・キャスターアームガード"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Brais of Maiming",
+      "de": "Doppelseiden-Braies des Verstümmelns",
+      "en": "Gazelleskin Brais of Maiming",
+      "fr": "Brailles d'abatteur en cuir de gazelle",
+      "ja": "ガゼルスレイヤーブレー"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Brais of Scouting",
+      "de": "Gazellenleder-Braies des Spähens",
+      "en": "Gazelleskin Brais of Scouting",
+      "fr": "Brailles d'éclaireur en cuir de gazelle",
+      "ja": "ガゼルスカウトブレー"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Brais of Striking",
+      "de": "Gazellenleder-Braies des Schlagens",
+      "en": "Gazelleskin Brais of Striking",
+      "fr": "Brailles d'agresseur en cuir de gazelle",
+      "ja": "ガゼルストライカーブレー"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Coat of Fending",
+      "de": "Gazellenleder-Mantel der Verteidigung",
+      "en": "Gazelleskin Coat of Fending",
+      "fr": "Manteau de protecteur en cuir de gazelle",
+      "ja": "ガゼルディフェンダーコート"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Coat of Healing",
+      "de": "Gazellenleder-Mantel der Heilung",
+      "en": "Gazelleskin Coat of Healing",
+      "fr": "Manteau de soigneur en cuir de gazelle",
+      "ja": "ガゼルヒーラーコート"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Corselet of Maiming",
+      "de": "Gazellenleder-Brustpanzer des Verstümmelns",
+      "en": "Gazelleskin Corselet of Maiming",
+      "fr": "Jaseran d'abatteur en cuir de gazelle",
+      "ja": "ガゼルスレイヤーコースリット"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Corselet of Scouting",
+      "de": "Gazellenleder-Brustpanzer des Spähens",
+      "en": "Gazelleskin Corselet of Scouting",
+      "fr": "Jaseran d'éclaireur en cuir de gazelle",
+      "ja": "ガゼルスカウトコースリット"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Corselet of Striking",
+      "de": "Gazellenleder-Brustpanzer des Schlagens",
+      "en": "Gazelleskin Corselet of Striking",
+      "fr": "Jaseran d'agresseur en cuir de gazelle",
+      "ja": "ガゼルストライカーコースリット"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Fur-lined Gazelleskin Boots",
+      "de": "Pelzgefütterte Gazellenleder-Stiefel",
+      "en": "Fur-lined Gazelleskin Boots",
+      "fr": "Bottes en fourrure en cuir de gazelle",
+      "ja": "ガゼルファーブーツ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Belt of Gathering",
+      "de": "Gazellenleder-Gürtel des Eifers",
+      "en": "Gazelleskin Belt of Gathering",
+      "fr": "Ceinture des ressources en cuir de gazelle",
+      "ja": "ガゼルギャザラーベルト"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Choker",
+      "de": "Gazellenleder-Halsberge",
+      "en": "Gazelleskin Choker",
+      "fr": "Ras de cou en cuir de gazelle",
+      "ja": "ガゼルチョーカー"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Earrings",
+      "de": "Gazellenleder-Ohrringe",
+      "en": "Gazelleskin Earrings",
+      "fr": "Boucles d'oreilles en cuir de gazelle",
+      "ja": "ガゼルイヤリング"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Gloves of Crafting",
+      "de": "Gazellenleder-Handschuhe des Handwerks",
+      "en": "Gazelleskin Gloves of Crafting",
+      "fr": "Gants des créations en cuir de gazelle",
+      "ja": "ガゼルクラフターグローブ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Ring",
+      "de": "Gazellenleder-Ring",
+      "en": "Gazelleskin Ring",
+      "fr": "Bague croisée en cuir de gazelle",
+      "ja": "ガゼルクロスリング"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Ringbelt of Aiming",
+      "de": "Gazellenleder-Ringgürtel des Zielens",
+      "en": "Gazelleskin Ringbelt of Aiming",
+      "fr": "Ceinture annelée de pisteur en cuir de gazelle",
+      "ja": "ガゼル・レンジャーリングベルト"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Ringbelt of Scouting",
+      "de": "Gazellenleder-Ringgürtel des Spähens",
+      "en": "Gazelleskin Ringbelt of Scouting",
+      "fr": "Ceinture annelée d'éclaireur en cuir de gazelle",
+      "ja": "ガゼル・スカウトリングベルト"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Ringbelt of Striking",
+      "de": "Gazellenleder-Ringgürtel des Schlagens",
+      "en": "Gazelleskin Ringbelt of Striking",
+      "fr": "Ceinture annelée d'agresseur en cuir de gazelle",
+      "ja": "ガゼル・ストライカーリングベルト"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Shoes",
+      "de": "Gazellenleder-Schuhe",
+      "en": "Gazelleskin Shoes",
+      "fr": "Chaussures en cuir de gazelle",
+      "ja": "ガゼルシューズ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Gazelleskin Wristband",
+      "de": "Gazellenleder-Armband",
+      "en": "Gazelleskin Wristband",
+      "fr": "Poignet en cuir de gazelle",
+      "ja": "ガゼルリストバンド"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Large Gagana Cape",
+      "de": "Dreifeder-Gaganafell",
+      "en": "Large Gagana Cape",
+      "fr": "Fourrure de gagana",
+      "ja": "剥製用ガガナの毛皮"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 5313,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 6593,
+    "name": {
+      "cn": "Stuffed Gagana",
+      "de": "Ausgestopfter Gagana",
+      "en": "Stuffed Gagana",
+      "fr": "Gagana empaillé",
+      "ja": "ガガナの剥製"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Taoist's Gloves",
+      "de": "Daoisten-Handschuhe",
+      "en": "Taoist's Gloves",
+      "fr": "Shoutào de dàoshi",
+      "ja": "道士手袋"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Taoist's Shoes",
+      "de": "Daoisten-Schuhe",
+      "en": "Taoist's Shoes",
+      "fr": "Yúnlu de dàoshi",
+      "ja": "道士雲履"
+    },
+    "stars": 1
   }
 ]
