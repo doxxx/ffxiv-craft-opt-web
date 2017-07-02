@@ -38,10 +38,12 @@
 
     return this._fetch(actions, lang).then(function (response) {
       var newTooltips = {};
-      var actions = response.config.actions;
-      for (var i = 0; i < actions.length; i++) {
-        var action = actions[i];
-        newTooltips[action.cls + action.shortName] = response.data.action[i].html;
+      var actionsBySkillID = response.config.actionsBySkillID;
+      var xivdbActions = response.data.action;
+      for (var i = 0; i < xivdbActions.length; i++) {
+        var xivdbAction = xivdbActions[i];
+        var action = actionsBySkillID[xivdbAction.data.id];
+        newTooltips[action.cls + action.shortName] = xivdbAction.html;
       }
       this.actionTooltips = newTooltips;
       this.$rootScope.$broadcast("tooltipCacheUpdated");
@@ -53,6 +55,11 @@
     var ids = actions.map(function (action) { return action.skillID });
     url += '&list[action]:=' + ids.join(',');
 
+    var actionsBySkillID = {};
+    for (var i = 0; i < actions.length; i++) {
+      actionsBySkillID[actions[i].skillID] = actions[i];
+    }
+
     // We can't use the $http module because each HTTP response triggers a digest update, which
     // causes significant lag when the app is loading because we're caching a couple hundred tooltips.
     var deferred = this.$q.defer();
@@ -61,7 +68,7 @@
       if (xhr.readyState == XMLHttpRequest.DONE) {
         deferred.resolve({
           config: {
-            actions: actions
+            actionsBySkillID: actionsBySkillID
           },
           data: xhr.response
         });
