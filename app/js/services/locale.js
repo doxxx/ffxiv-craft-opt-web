@@ -7,6 +7,7 @@
       ja: '日本語',
       en: 'English',
       de: 'Deutsch',
-      fr: 'Français'
+      fr: 'Français',
+      cn: '简体中文'
     })
 })();
