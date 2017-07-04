@@ -31,6 +31,9 @@
 
       var effects = $scope.effects;
       if (effects) {
+        for (var name in effects.indefinites) {
+          $scope.buffs.push({name: name, count: ''});
+        }
         for (var name in effects.countUps) {
           $scope.buffs.push({name: name, count: effects.countUps[name] + 1});
         }

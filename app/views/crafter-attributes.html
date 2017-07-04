@@ -41,6 +41,12 @@
                 <input class="input-mini" type="number" name="cp" ng-model="crafter.stats[currentClass].cp" min="0" required/>
               </div>
             </div>
+            <div class="control-group" ng-class="{error: !crafterForm.specialist.$valid}">
+              <label class="control-label">Specialist</label>
+              <div class="controls">
+                <label class="checkbox"><input type="checkbox" name="specialist" ng-model="crafter.stats[currentClass].specialist"/></label>
+              </div>
+            </div>
           </fieldset>
         </form>
       </div>

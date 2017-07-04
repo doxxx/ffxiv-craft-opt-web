@@ -36,12 +36,13 @@ Logger.prototype.log = function(myString) {
     }
 };
 
-function Crafter(cls, level, craftsmanship, control, craftPoints, actions) {
+function Crafter(cls, level, craftsmanship, control, craftPoints, specialist, actions) {
     this.cls = cls;
     this.craftsmanship = craftsmanship;
     this.control = control;
     this.craftPoints = craftPoints;
     this.level = level;
+    this.specialist = specialist;
     if (actions === null) {
         this.actions = [];
     }
@@ -92,17 +93,17 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
 
         // Level penalty for recipes above crafter level
         // Level difference penalty appears to be capped at -6
-	if (recipeLevel == 190) {
-		levelDifference = Math.max(levelDifference, -8);
-	}
-	else if (recipeLevel == 180) {
-		levelDifference = Math.max(levelDifference, -7);
-	}
-	else {
-	        levelDifference = Math.max(levelDifference, -6);
-	}
+        if (recipeLevel == 190) {
+            levelDifference = Math.max(levelDifference, -8);
+        }
+        else if (recipeLevel == 180) {
+            levelDifference = Math.max(levelDifference, -7);
+        }
+        else {
+            levelDifference = Math.max(levelDifference, -6);
+        }
         if (levelDifference < 0){
-                levelCorrectionFactor += 0.0807176 * Math.max(levelDifference, -5);
+            levelCorrectionFactor += 0.0807176 * Math.max(levelDifference, -5);
         }
         if (levelDifference < -5){
             levelCorrectionFactor += 0.0525673 * Math.max(levelDifference - (-5), -1);
@@ -216,15 +217,17 @@ function isActionNe(action1, action2) {
 function EffectTracker() {
     this.countUps = {};
     this.countDowns = {};
+    this.indefinites = {};
 }
 
-function State(synth, step, lastStep, action, durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition) {
+function State(synth, step, lastStep, action, durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition) {
     this.synth = synth;
     this.step = step;
     this.lastStep = lastStep;
     this.action = action;   // the action leading to this State
     this.durabilityState = durabilityState;
     this.cpState = cpState;
+    this.bonusMaxCp = bonusMaxCp;
     this.qualityState = qualityState;
     this.progressState = progressState;
     this.wastedActions = wastedActions;
@@ -243,7 +246,7 @@ function State(synth, step, lastStep, action, durabilityState, cpState, qualityS
 }
 
 State.prototype.clone = function () {
-    return new State(this.synth, this.step, this.lastStep, this.action, this.durabilityState, this.cpState, this.qualityState, this.progressState, this.wastedActions, this.trickUses, this.nameOfElementUses, this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition);
+    return new State(this.synth, this.step, this.lastStep, this.action, this.durabilityState, this.cpState, this.bonusMaxCp, this.qualityState, this.progressState, this.wastedActions, this.trickUses, this.nameOfElementUses, this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition);
 };
 
 State.prototype.checkViolations = function () {
@@ -289,6 +292,7 @@ function NewStateFromSynth(synth) {
     var lastStep = 0;
     var durabilityState = synth.recipe.durability;
     var cpState = synth.crafter.craftPoints;
+    var bonusMaxCp = 0;
     var qualityState = synth.recipe.startQuality;
     var progressState = 0;
     var wastedActions = 0;
@@ -299,7 +303,7 @@ function NewStateFromSynth(synth) {
     var effects = new EffectTracker();
     var condition = 'Normal';
 
-    return new State(synth, step, lastStep, '', durabilityState, cpState, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition);
+    return new State(synth, step, lastStep, '', durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition);
 }
 
 function calcNameOfMultiplier(s) {
@@ -378,8 +382,10 @@ function ApplyModifiers(s, action, condition) {
     if (isActionEq(action, AllActions.focusedSynthesis) || isActionEq(action, AllActions.focusedTouch)) {
         if (s.action === AllActions.observe.shortName) {
             successProbability = 1.0;
-            ftSuccessProbability = 1.0;
         }
+    }
+    if (isActionEq(action, AllActions.byregotsBrow) && s.synth.crafter.specialist) {
+        successProbability += 0.3
     }
     if (AllActions.steadyHand2.shortName in s.effects.countDowns) {
         successProbability += 0.3;        // Assume 2 always overrides 1
@@ -565,9 +571,9 @@ function ApplySpecialActionEffects(s, action, condition) {
     }
 
     if (isActionEq(action, AllActions.specialtyReinforce) && (s.durabilityState > 0)) {
-        if (AllActions.initialPreparations.shortName in s.effects.countUps) {
+        if (AllActions.initialPreparations.shortName in s.effects.indefinites) {
             s.durabilityState += 25;
-            delete s.effects.countUps[AllActions.initialPreparations.shortName];
+            delete s.effects.indefinites[AllActions.initialPreparations.shortName];
         }
         else {
             s.wastedActions += 1;
@@ -598,10 +604,10 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
-    if (isActionEq(action, AllActions.specialtyRefurbish) && (s.durabilityState > 0)) {
-        if (AllActions.initialPreparations.shortName in s.effects.countUps) {
+    if (isActionEq(action, AllActions.specialtyRefurbish) && s.cpState >= 0) {
+        if (AllActions.initialPreparations.shortName in s.effects.indefinites) {
             s.cpState += 65;
-            delete s.effects.countUps[AllActions.initialPreparations.shortName];
+            delete s.effects.indefinites[AllActions.initialPreparations.shortName];
         }
         else {
             s.wastedActions += 1;
@@ -628,9 +634,9 @@ function ApplySpecialActionEffects(s, action, condition) {
     }
 
     if (isActionEq(action, AllActions.specialtyReflect)) {
-        if (AllActions.initialPreparations.shortName in s.effects.countUps) {
+        if (AllActions.initialPreparations.shortName in s.effects.indefinites) {
             s.effects.countUps[AllActions.innerQuiet.shortName] += 3;
-            delete s.effects.countUps[AllActions.initialPreparations.shortName];
+            delete s.effects.indefinites[AllActions.initialPreparations.shortName];
         }
         else {
             s.wastedActions += 1;
@@ -667,6 +673,12 @@ function ApplySpecialActionEffects(s, action, condition) {
         else {
             s.wastedActions += 1;
         }
+    }
+
+    if (s.step == 1 && s.synth.crafter.specialist && s.synth.crafter.level >= 70 && s.cpState > 0) {
+        s.effects.indefinites[AllActions.strokeOfGenius.shortName] = true;
+        s.bonusMaxCp = 15;
+        s.cpState += 15;
     }
 }
 
@@ -718,16 +730,20 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
 
     // Initialize new effects after countdowns are managed to reset them properly
     if (action.type === 'countup') {
+        s.effects.countUps[action.shortName] = 0;
+    }
+
+    if (action.type === 'indefinite') {
         if (isActionEq(action, AllActions.initialPreparations)) {
             if (s.step == 1 ) {
-                s.effects.countUps[action.shortName] = 0;
+                s.effects.indefinites[action.shortName] = true;
             }
             else {
                 s.wastedActions += 1;
             }
         }
         else {
-            s.effects.countUps[action.shortName] = 0;
+            s.effects.indefinites[action.shortName] = true;
         }
     }
 
@@ -778,7 +794,7 @@ function UpdateState(s, action, progressGain, qualityGain, durabilityCost, cpCos
         s.durabilityState = 0;
     }
     s.durabilityState = Math.min(s.durabilityState, s.synth.recipe.durability);
-    s.cpState = Math.min(s.cpState, s.synth.crafter.craftPoints);
+    s.cpState = Math.min(s.cpState, s.synth.crafter.craftPoints + s.bonusMaxCp);
 }
 
 function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutput) {
@@ -1916,7 +1932,7 @@ var NymeaisWheelTable = {
 //cls, level, craftsmanship, control, craftPoints, actions
 /*
 var myWeaverActions = [basicSynth];
-var myWeaver = new Crafter('Weaver', 20, 119, 117, 243, myWeaverActions);
+var myWeaver = new Crafter('Weaver', 20, 119, 117, 243, false, myWeaverActions);
 var initiatesSlops = new Recipe(20,74,70,0,1053);
 var mySynth = new Synth(myWeaver, initiatesSlops, maxTrickUses=1, useConditions=true);
 var actionSequence = [innerQuiet, steadyHand, wasteNot, basicSynth, hastyTouch, hastyTouch, hastyTouch, steadyHand, hastyTouch, tricksOfTheTrade, standardTouch, standardTouch, standardTouch, tricksOfTheTrade, rumination, mastersMend, hastyTouch, basicSynth, basicTouch, basicSynth];

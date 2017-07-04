@@ -44,6 +44,7 @@
         $scope.progress = $scope.status.state.progress;
         $scope.quality = $scope.status.state.quality;
         $scope.cp = $scope.status.state.cp;
+        $scope.maxCp = $scope.stats.cp + $scope.status.state.bonusMaxCp;
       }
       else {
         $scope.durability = $scope.recipe.durability;
@@ -51,11 +52,12 @@
         $scope.progress = 0;
         $scope.quality = 0;
         $scope.cp = $scope.stats.cp;
+        $scope.maxCp = $scope.stats.cp;
       }
 
       $scope.progressPercent = Math.min(100, $scope.progress / $scope.recipe.difficulty * 100);
       $scope.qualityPercent = Math.min(100, $scope.quality / $scope.recipe.maxQuality * 100);
-      $scope.cpPercent = Math.min(100, $scope.cp / $scope.stats.cp * 100);
+      $scope.cpPercent = Math.min(100, $scope.cp / $scope.maxCp * 100);
 
       $scope.hqPercent = $scope.status.state && $scope.status.state.hqPercent || 0;
       $scope.successPercent = $scope.status.state && $scope.status.state.successPercent || 0;

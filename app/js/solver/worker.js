@@ -91,6 +91,7 @@ function start(settings) {
                             settings.crafter.craftsmanship,
                             settings.crafter.control,
                             settings.crafter.cp,
+                            settings.crafter.specialist,
                             crafterActions);
   var recipe = new Recipe(settings.recipe.level,
                           settings.recipe.difficulty,
@@ -248,7 +249,8 @@ function postProgress(gen, maxGen, best, synthNoConditions) {
         hqPercent: hqPercentFromQuality(currentState.qualityState / synthNoConditions.recipe.maxQuality * 100),
         feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
         violations: violations,
-        condition: currentState.condition
+        condition: currentState.condition,
+        bonusMaxCp: finalState.bonusMaxCp
       },
       bestSequence: actionSequenceToShortNames(best)
     }
