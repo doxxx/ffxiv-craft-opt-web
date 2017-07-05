@@ -459,7 +459,7 @@ function ApplyModifiers(s, action, condition) {
     // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
     if (isActionEq(action, AllActions.byregotsMiracle)) {
         if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
-            bQualityGain *= (1.0 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]);
+            bQualityGain *= (1.0 + 0.15 * s.effects.countUps[AllActions.innerQuiet.shortName]);
         } else {
             bQualityGain = 0;
         }
@@ -467,11 +467,7 @@ function ApplyModifiers(s, action, condition) {
 
     // We can only use Byregot's Brow when state material condition is Good or Excellent. Default is true for probabilistic method.
     if (isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.shortName in s.effects.countUps) {
-        if (condition.checkGoodOrExcellent()) {
-            bQualityGain *= (1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName]) * condition.pGoodOrExcellent();
-        } else {
-            bQualityGain = 0;
-        }
+        bQualityGain *= 1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName];
     }
     // We can only use Precise Touch when state material condition is Good or Excellent. Default is true for probabilistic method.
     if (isActionEq(action, AllActions.preciseTouch)) {
@@ -614,7 +610,7 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
-    if (isActionEq(action, AllActions.byregotsBlessing)) {
+    if (isActionEq(action, AllActions.byregotsBlessing) || isActionEq(action, AllActions.byregotsBrow)) {
         if (AllActions.innerQuiet.shortName in s.effects.countUps) {
             delete s.effects.countUps[AllActions.innerQuiet.shortName];
         }
@@ -652,15 +648,6 @@ function ApplySpecialActionEffects(s, action, condition) {
         if (useConditionalAction(s, condition)) {
             if (isActionEq(action, AllActions.tricksOfTheTrade)) {
                 s.cpState += 20 * condition.pGoodOrExcellent();
-            }
-
-            if (isActionEq(action, AllActions.byregotsBrow)) {
-                if (AllActions.innerQuiet.shortName in s.effects.countUps) {
-                    delete s.effects.countUps[AllActions.innerQuiet.shortName];
-                }
-                else {
-                    s.wastedActions += 1;
-                }
             }
         }
     }

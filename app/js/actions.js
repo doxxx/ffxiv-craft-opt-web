@@ -27,7 +27,7 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level,onGood, onExcl, onPoor
 var AllActions = {
     //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
-    observe: new Action(            'observe',              'Observe',               0,     14,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           1),
+    observe: new Action(            'observe',              'Observe',               0,      7,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           1),
 
     basicSynth: new Action(         'basicSynth',           'Basic Synthesis',      10,      0,  0.9, 0.0, 1.0, 'immediate',   1,  'All',           1),
     standardSynthesis: new Action(  'standardSynthesis',    'Standard Synthesis',   10,     15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31),
@@ -72,8 +72,8 @@ var AllActions = {
     satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
     innovativeTouch: new Action(    'innovativeTouch',      'Innovative Touch',     10,      8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
     nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
-    byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
-    trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.5, 1.5, 'immediate',   1,  'All',          58),
+    byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     10,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
+    trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     16,  1.0, 1.5, 1.5, 'immediate',   1,  'All',          58),
 
     // Elemental Aspect Actions
     brandOfEarth: new Action(       'brandOfEarth',         'Brand of Earth',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Leatherworker',37),
