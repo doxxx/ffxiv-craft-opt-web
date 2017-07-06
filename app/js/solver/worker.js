@@ -250,7 +250,7 @@ function postProgress(gen, maxGen, best, synthNoConditions) {
         feasible: violations.progressOk && violations.durabilityOk && violations.cpOk && violations.trickOk && violations.reliabilityOk,
         violations: violations,
         condition: currentState.condition,
-        bonusMaxCp: finalState.bonusMaxCp
+        bonusMaxCp: currentState.bonusMaxCp
       },
       bestSequence: actionSequenceToShortNames(best)
     }
