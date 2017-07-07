@@ -454,6 +454,25 @@ function ApplyModifiers(s, action, condition) {
 
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
+
+    if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.shortName in s.effects.countUps) {
+        qualityIncreaseMultiplier += 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName];
+    }
+
+    // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
+    if (isActionEq(action, AllActions.byregotsMiracle)) {
+        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
+            qualityIncreaseMultiplier += 0.15 * s.effects.countUps[AllActions.innerQuiet.shortName];
+        } else {
+            qualityIncreaseMultiplier = 0;
+        }
+    }
+
+    // We can only use Byregot's Brow when state material condition is Good or Excellent. Default is true for probabilistic method.
+    if (isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.shortName in s.effects.countUps) {
+        qualityIncreaseMultiplier += 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName];
+    }
+
     if (AllActions.greatStrides.shortName in s.effects.countDowns) {
         qualityIncreaseMultiplier *= 2;
     }
@@ -482,22 +501,7 @@ function ApplyModifiers(s, action, condition) {
 
     // Effects modifying quality
     var bQualityGain = qualityIncreaseMultiplier * s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
-    if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.shortName in s.effects.countUps) {
-        bQualityGain *= (1 + 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName]);
-    }
-    // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
-    if (isActionEq(action, AllActions.byregotsMiracle)) {
-        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
-            bQualityGain *= (1.0 + 0.15 * s.effects.countUps[AllActions.innerQuiet.shortName]);
-        } else {
-            bQualityGain = 0;
-        }
-    }
 
-    // We can only use Byregot's Brow when state material condition is Good or Excellent. Default is true for probabilistic method.
-    if (isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.shortName in s.effects.countUps) {
-        bQualityGain *= 1.5 + 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName];
-    }
     // We can only use Precise Touch when state material condition is Good or Excellent. Default is true for probabilistic method.
     if (isActionEq(action, AllActions.preciseTouch)) {
         if (condition.checkGoodOrExcellent()) {
