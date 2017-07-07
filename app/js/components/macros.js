@@ -60,7 +60,7 @@
         var info = _actionsByName[action];
         if (info) {
           var actionName = $translate.instant(info.name);
-          var line = '/ac "' + actionName + '" <me> ';
+          var line = '/ac "' + actionName + '" ';
           if (buffs[action]) {
             line += buffWaitString;
           }
