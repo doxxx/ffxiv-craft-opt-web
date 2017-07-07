@@ -73,7 +73,36 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     var levelCorrectionFactor = 0;
     var levelCorrectedProgress = 0;
 
-    if (crafterLevel >= 120){
+    if (crafterLevel >= 260){
+        baseProgress = 1.854569628e-5 * craftsmanship * craftsmanship + 1.906995596e-1 * craftsmanship + 1.003666412;
+
+        // Level boost for recipes below crafter level
+        if (levelDifference > 0) {
+            levelCorrectionFactor += 0.0504824 * Math.min(levelDifference, 5);
+        }
+        if (levelDifference > 5) {
+            levelCorrectionFactor += 0.0205906 * Math.min(levelDifference - 5, 10);
+        }
+        if (levelDifference > 15) {
+            levelCorrectionFactor += 0.0106398 * Math.min(levelDifference - 15, 5);
+        }
+        if (levelDifference > 20) {
+            levelCorrectionFactor += 6.69723e-4 * Math.min(levelDifference - 20, 100);
+        }
+
+        // Level penalty for recipes above crafter level
+        // TODO: Need more data for levelDifference < -11
+        levelDifference = Math.max(levelDifference, -11);
+        if (levelDifference < 0){
+            levelCorrectionFactor += 0.026791 * Math.max(levelDifference, -5);
+        }
+        if (levelDifference < -5){
+            levelCorrectionFactor += 0.019340 * Math.max(levelDifference - (-5), -6);
+        }
+
+        levelCorrectedProgress = (1 + levelCorrectionFactor) * baseProgress;
+    }
+    else if (crafterLevel >= 120){
         baseProgress = 2.09860e-5 * craftsmanship * craftsmanship + 0.196184 * craftsmanship + 2.68452;
 
         // Level boost for recipes below crafter level
