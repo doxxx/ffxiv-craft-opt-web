@@ -517,7 +517,7 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
-    if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.shortName in s.effects.countDowns && s.cpState > 0) {
+    if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.shortName in s.effects.countDowns && s.cpState >= 0) {
         s.cpState += 8;
     }
 
