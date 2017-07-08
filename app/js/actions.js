@@ -27,7 +27,7 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level,onGood, onExcl, onPoor
 var AllActions = {
     //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
-    observe: new Action(            'observe',              'Observe',               0,     14,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           1),
+    observe: new Action(            'observe',              'Observe',               0,      7,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           1),
 
     basicSynth: new Action(         'basicSynth',           'Basic Synthesis',      10,      0,  0.9, 0.0, 1.0, 'immediate',   1,  'All',           1),
     standardSynthesis: new Action(  'standardSynthesis',    'Standard Synthesis',   10,     15,  0.9, 0.0, 1.5, 'immediate',   1,  'All',          31),
@@ -62,7 +62,7 @@ var AllActions = {
 
     // Heavensward actions
     //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
-    byregotsBrow: new Action(       'byregotsBrow',         'Byregot\'s Brow',      10,     18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51,  true,       true),
+    byregotsBrow: new Action(       'byregotsBrow',         'Byregot\'s Brow',      10,     18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51),
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
     makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 0.0, 0.0, 'countdown',   1,  'Goldsmith',    54), // based on description of behaviour here: http://redd.it/3ckrmk
     muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
@@ -72,8 +72,8 @@ var AllActions = {
     satisfaction: new Action(       'satisfaction',         'Satisfaction',          0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          55),
     innovativeTouch: new Action(    'innovativeTouch',      'Innovative Touch',     10,      8,  0.4, 1.0, 0.0, 'immediate',   1,  'All',          56),
     nymeiasWheel: new Action(       'nymeiasWheel',         'Nymeia\'s Wheel',       0,     18,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          54),
-    byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     16,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
-    trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     32,  0.8, 1.5, 1.5, 'immediate',   1,  'All',          58),
+    byregotsMiracle: new Action(    'byregotsMiracle',      'Byregot\'s Miracle',   10,     10,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          58),
+    trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     16,  1.0, 1.5, 1.5, 'immediate',   1,  'All',          58),
 
     // Elemental Aspect Actions
     brandOfEarth: new Action(       'brandOfEarth',         'Brand of Earth',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Leatherworker',37),
@@ -90,9 +90,21 @@ var AllActions = {
     nameOfWater: new Action(        'nameOfWater',          'Name of Water',         0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Alchemist',    54),
     nameOfWind: new Action(         'nameOfWind',           'Name of the Wind',      0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Carpenter',    54),
 
-    /* TODO
-    heartOfTheClass: new Action(    'heartOfTheClass',      'Heart of the Class',    0,     45,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          60),
-    */
+    // Stormblood actions
+    //   
+    hastyTouch2: new Action(        'hastyTouch2',          'Hasty Touch II',       10,      5,  0.6, 1.0, 0.0, 'immediate',   1,  'All',          61),
+    carefulSynthesis3: new Action(  'carefulSynthesis3',    'Careful Synthesis III',10,      7,  1.0, 0.0, 1.5, 'immediate',   1,  'All',          62),
+    rapidSynthesis2: new Action(    'rapidSynthesis2',      'Rapid Synthesis II',   10,     12,  0.6, 0.0, 3.0, 'immediate',   1,  'All',          63),
+    patientTouch: new Action(       'patientTouch',         'Patient Touch',        10,      6,  0.5, 1.0, 0.0, 'immediate',   1,  'All',          64),
+    manipulation2: new Action(      'manipulation2',        'Manipulation II',       0,     96,  1.0, 0.0, 0.0, 'countdown',   8,  'All',          65),
+    prudentTouch: new Action(       'prudentTouch',         'Prudent Touch',         5,     21,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          66),
+    focusedSynthesis: new Action(   'focusedSynthesis',     'Focused Synthesis',    10,      5,  0.5, 0.0, 2.0, 'immediate',   1,  'All',          67),
+    focusedTouch: new Action(       'focusedTouch',         'Focused Touch',        10,     18,  0.5, 1.5, 0.0, 'immediate',   1,  'All',          68),
+    initialPreparations: new Action('initialPreparations',  'Initial Preparations',  0,     50,  1.0, 0.0, 0.0, 'indefinite',  1,  'All',          69),
+    specialtyReinforce: new Action( 'specialtyReinforce',   'Specialty: Reinforce',  0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          70),
+    specialtyRefurbish: new Action( 'specialtyRefurbish',   'Specialty: Refurbish',  0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          70),
+    specialtyReflect: new Action(   'specialtyReflect',     'Specialty: Reflect',    0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          70),
+    strokeOfGenius: new Action(     'strokeOfGenius',       'Stroke of Genius',      0,      0,  1.0, 0.0, 0.0, 'indefinite',  1,  'All',          70),
 
     // Special Actions - not selectable
     finishingTouches: new Action(   'finishingTouches',     'Finishing Touches',    10,      0,  0.5, 0.0, 2.0, 'immediate',   1,  'All',          55),

@@ -5629,6 +5629,22 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "cn": "Blood of the Vortex",
+      "de": "Windgewalten-Blut",
+      "en": "Blood of the Vortex",
+      "fr": "Barbule des rafales",
+      "ja": "嵐神血刀【改】"
+    },
+    "stars": 3
+  },
+  {
     "baseLevel": 50,
     "difficulty": 1424,
     "durability": 80,
@@ -5792,6 +5808,22 @@
     "level": 90,
     "maxQuality": 4980,
     "name": {
+      "cn": "Inferno Katana",
+      "de": "Inferno-Katana",
+      "en": "Inferno Katana",
+      "fr": "Katana des flammes",
+      "ja": "焔神刀【改】"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
       "cn": "狱火神刺",
       "de": "Inferno-Krise",
       "en": "Inferno Kris",
@@ -5829,6 +5861,21 @@
       "en": "Lord of Levin Lamp",
       "fr": "Lampe à plasma du Patriarche fulgurant",
       "ja": "雷神ラムウのプラズマランプ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "cn": "Maliferous Moggle Mogtana",
+      "de": "Mörderisches Mogul-Mogtana",
+      "en": "Maliferous Moggle Mogtana",
+      "fr": "Katana Moggle Mog",
+      "ja": "極王刀"
     },
     "stars": 3
   },
@@ -6218,6 +6265,22 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "cn": "Mighty Thunderstroke",
+      "de": "Katana des mächtigen Donners",
+      "en": "Mighty Thunderstroke",
+      "fr": "Uchigatana du Patriarche",
+      "ja": "雷神打刀【改】"
+    },
+    "stars": 4
+  },
+  {
     "baseLevel": 50,
     "difficulty": 293,
     "durability": 80,
@@ -6349,6 +6412,20 @@
       "en": "Mythrite Nugget",
       "fr": "Pépite de mithrite",
       "ja": "ミスライトナゲット"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "cn": "Mythrite Uchigatana",
+      "de": "Mythrit-Uchigatana",
+      "en": "Mythrite Uchigatana",
+      "fr": "Uchigatana en mithrite",
+      "ja": "精霊銀打刀"
     }
   },
   {
@@ -6576,6 +6653,20 @@
     }
   },
   {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "cn": "Mythrite Tachi",
+      "de": "Mythrit-Tachi",
+      "en": "Mythrite Tachi",
+      "fr": "Tachi en mithrite",
+      "ja": "精霊銀太刀"
+    }
+  },
+  {
     "baseLevel": 53,
     "difficulty": 586,
     "durability": 80,
@@ -6769,6 +6860,20 @@
       "en": "Mythrite-barreled Musketoon",
       "fr": "Mousqueton en mithrite",
       "ja": "ミスライトマスケトン"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "cn": "Hardsilver Uchigatana",
+      "de": "Hartsilber-Uchigatana",
+      "en": "Hardsilver Uchigatana",
+      "fr": "Uchigatana en titane",
+      "ja": "地鉄打刀"
     }
   },
   {
@@ -6979,6 +7084,20 @@
       "en": "Titanium Hatchet",
       "fr": "Hachette en titane",
       "ja": "チタンハチェット"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "cn": "Hardsilver Tachi",
+      "de": "Hartsilber-Tachi",
+      "en": "Hardsilver Tachi",
+      "fr": "Tachi en titane",
+      "ja": "地鉄太刀"
     }
   },
   {
@@ -7441,6 +7560,20 @@
       "en": "Adamantite Zweihander",
       "fr": "Espadon en adamantium",
       "ja": "アダマンツヴァイハンダー"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Aurum Regis Uchigatana",
+      "de": "Königsgold-Uchigatana",
+      "en": "Aurum Regis Uchigatana",
+      "fr": "Uchigatana en adamantium",
+      "ja": "金剛打刀"
     }
   },
   {
@@ -7982,6 +8115,22 @@
     "level": 170,
     "maxQuality": 9430,
     "name": {
+      "cn": "Dead Hive Katana",
+      "de": "Katana der Kolonie",
+      "en": "Dead Hive Katana",
+      "fr": "Katana du Maître des lames",
+      "ja": "武神刀【改】"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
       "cn": "偃武匕首",
       "de": "Krise der Kolonie",
       "en": "Dead Hive Kris",
@@ -8082,6 +8231,22 @@
       "en": "Endless Expanse Handgonne",
       "fr": "Haquebute du Migrateur",
       "ja": "エクスパンスハンドゴンネ"
+    },
+    "stars": 2
+  },
+  {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "cn": "Endless Expanse Katana",
+      "de": "Katana der endlosen Weiten",
+      "en": "Endless Expanse Katana",
+      "fr": "Katana du Migrateur",
+      "ja": "雲神刀【改】"
     },
     "stars": 2
   },
@@ -8695,6 +8860,21 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
+      "cn": "Katana of the Round",
+      "de": "Katana der Runde",
+      "en": "Katana of the Round",
+      "fr": "Lame de la Table ronde",
+      "ja": "円卓之剣"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
       "cn": "圆桌之拳",
       "de": "Schlagringe der Runde",
       "en": "Knuckles of the Round",
@@ -9062,5 +9242,1461 @@
       "ja": "ヘヴィアロイ・ウォーアクス"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "High Steel Culverin",
+      "de": "Edelstahl-Kalverine",
+      "en": "High Steel Culverin",
+      "fr": "Couleuvrine en acier noble",
+      "ja": "ハイスチールカルバリン"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "High Steel Guillotine",
+      "de": "Edelstahl-Guillotine",
+      "en": "High Steel Guillotine",
+      "fr": "Fendoir en acier noble",
+      "ja": "ハイスチールディバイダー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "High Steel Headsman's Axe",
+      "de": "Edelstahl-Axt",
+      "en": "High Steel Headsman's Axe",
+      "fr": "Hache de bourreau en acier noble",
+      "ja": "ハイスチール・ヘッズマンアクス"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "High Steel Katzbalger",
+      "de": "Edelstahl-Katzbalger",
+      "en": "High Steel Katzbalger",
+      "fr": "Katzbalger en acier noble",
+      "ja": "ハイスチール・カッツバルゲル"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "High Steel Knuckles",
+      "de": "Edelstahl-Schlagringe",
+      "en": "High Steel Knuckles",
+      "fr": "Poings en acier noble",
+      "ja": "ハイスチールナックル"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "High Steel Main Gauches",
+      "de": "Edelstahl-Parierdolche",
+      "en": "High Steel Main Gauches",
+      "fr": "Paire de mains-gauches en acier noble",
+      "ja": "ハイスチールマインゴーシュ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 40,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "High Steel Nugget",
+      "de": "Edelstahl-Nugget",
+      "en": "High Steel Nugget",
+      "fr": "Pépite d'acier noble",
+      "ja": "ハイスチールナゲット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "High Steel Tachi",
+      "de": "Edelstahl-Tachi",
+      "en": "High Steel Tachi",
+      "fr": "Tachi en acier noble",
+      "ja": "不変鋼太刀"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "High Steel Cross-pein Hammer",
+      "de": "Edelstahl-Kreuzschlaghammer",
+      "en": "High Steel Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en acier noble",
+      "ja": "ハイスチール・クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "High Steel Dolabra",
+      "de": "Edelstahl-Dolabra",
+      "en": "High Steel Dolabra",
+      "fr": "Dolabre en acier noble",
+      "ja": "ハイスチールドラブラ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "High Steel Doming Hammer",
+      "de": "Edelstahl-Flachhammer",
+      "en": "High Steel Doming Hammer",
+      "fr": "Marteau à emboutir en acier noble",
+      "ja": "ハイスチール・ドーミングハンマー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "High Steel Hatchet",
+      "de": "Edelstahl-Handbeil",
+      "en": "High Steel Hatchet",
+      "fr": "Hachette en acier noble",
+      "ja": "ハイスチールハチェット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "High Steel Head Knife",
+      "de": "Edelstahl-Sattlermesser",
+      "en": "High Steel Head Knife",
+      "fr": "Couteau à pied en acier noble",
+      "ja": "ハイスチール・ヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "High Steel Saw",
+      "de": "Edelstahl-Säge",
+      "en": "High Steel Saw",
+      "fr": "Scie en acier noble",
+      "ja": "ハイスチールソー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Koppranickel Ornamental Hammer",
+      "de": "Kupfernickel-Ornamenthammer",
+      "en": "Koppranickel Ornamental Hammer",
+      "fr": "Marteau ornementé en cupronickel",
+      "ja": "キュプロオーナメンタルハンマー"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel Awl",
+      "de": "Edelstahl-Ahle",
+      "en": "High Steel Awl",
+      "fr": "Poinçon en acier noble",
+      "ja": "ハイスチールアウル"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel Claw Hammer",
+      "de": "Edelstahl-Klauenhammer",
+      "en": "High Steel Claw Hammer",
+      "fr": "Marteau arrache-clou en acier noble",
+      "ja": "ハイスチール・クローハンマー"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel Culinary Knife",
+      "de": "Edelstahl-Küchenmesser",
+      "en": "High Steel Culinary Knife",
+      "fr": "Couteau de cuisine en acier noble",
+      "ja": "ハイスチール・クリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel File",
+      "de": "Edelstahl-Feile",
+      "en": "High Steel File",
+      "fr": "Lime en acier noble",
+      "ja": "ハイスチールファイル"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 40,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel Ingot",
+      "de": "Edelstahl-Barren",
+      "en": "High Steel Ingot",
+      "fr": "Lingot d'acier noble",
+      "ja": "ハイスチールインゴット"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel Mortar",
+      "de": "Edelstahl-Mörser",
+      "en": "High Steel Mortar",
+      "fr": "Mortier en acier noble",
+      "ja": "ハイスチールモーター"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel Pliers",
+      "de": "Edelstahl-Zange",
+      "en": "High Steel Pliers",
+      "fr": "Tenailles en acier noble",
+      "ja": "ハイスチールプライヤー"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel Scythe",
+      "de": "Edelstahl-Sense",
+      "en": "High Steel Scythe",
+      "fr": "Faux en acier noble",
+      "ja": "ハイスチールサイズ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel Sledgehammer",
+      "de": "Edelstahl-Vorschlaghammer",
+      "en": "High Steel Sledgehammer",
+      "fr": "Maillet en acier noble",
+      "ja": "ハイスチールモール"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1377,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5741,
+    "name": {
+      "cn": "Featherlight Shortsword",
+      "de": "Federleichtes Kurzschwert",
+      "en": "Featherlight Shortsword",
+      "fr": "Épée courte légère",
+      "ja": "軽量なショートソード"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Folded High Steel Greatsword",
+      "de": "Gefaltetes Edelstahl-Großschwert",
+      "en": "Folded High Steel Greatsword",
+      "fr": "Grande épée en acier noble",
+      "ja": "ハイスチール・グレートソード"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Folded High Steel Knuckles",
+      "de": "Gefaltete Edelstahl-Schlagringe",
+      "en": "Folded High Steel Knuckles",
+      "fr": "Poings en acier noble renforcés",
+      "ja": "ハイスチールナックルDX"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "High Steel Battleaxe",
+      "de": "Edelstahl-Kriegsaxt",
+      "en": "High Steel Battleaxe",
+      "fr": "Hache de combat en acier noble",
+      "ja": "ハイスチール・バトルアクス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "High Steel Kris",
+      "de": "Edelstahl-Kris",
+      "en": "High Steel Kris",
+      "fr": "Kriss en acier noble",
+      "ja": "ハイスチールクリス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "High Steel Longsword",
+      "de": "Edelstahl-Langschwert",
+      "en": "High Steel Longsword",
+      "fr": "Épée longue en acier noble",
+      "ja": "ハイスチール・ロングソード"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "High Steel Uchigatana",
+      "de": "Edelstahl-Uchigatana",
+      "en": "High Steel Uchigatana",
+      "fr": "Uchigatana en acier noble",
+      "ja": "不変鋼打刀"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "High Steel-barreled Snaphance",
+      "de": "Edelstahl-Pistole",
+      "en": "High Steel-barreled Snaphance",
+      "fr": "Fusil à silex en acier noble",
+      "ja": "ハイスチールスナップハンス"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron Claws",
+      "de": "Domaeisen-Klauen",
+      "en": "Doman Iron Claws",
+      "fr": "Griffes en fer domien",
+      "ja": "ドマアイアンクロー"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron Halfheart Saw",
+      "de": "Domaeisen-Rundsäge",
+      "en": "Doman Iron Halfheart Saw",
+      "fr": "Scie ronde en fer domien",
+      "ja": "ドマアイアン・ラウンドソー"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron Hatchet",
+      "de": "Domaeisen-Handbeil",
+      "en": "Doman Iron Hatchet",
+      "fr": "Hachette en fer domien",
+      "ja": "ドマアイアンハチェット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron Head Knife",
+      "de": "Domaeisen-Sattlermesser",
+      "en": "Doman Iron Head Knife",
+      "fr": "Couteau à pied en fer domien",
+      "ja": "ドマアイアン・ヘッドナイフ"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron Longsword",
+      "de": "Domaeisen-Langschwert",
+      "en": "Doman Iron Longsword",
+      "fr": "Épée longue en fer domien",
+      "ja": "ドマアイアン・ロングソード"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron Lump Hammer",
+      "de": "Domaeisen-Schlägel",
+      "en": "Doman Iron Lump Hammer",
+      "fr": "Massette en fer domien",
+      "ja": "ドマアイアン・ランプハンマー"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron Pickaxe",
+      "de": "Domaeisen-Spitzhacke",
+      "en": "Doman Iron Pickaxe",
+      "fr": "Pioche en fer domien",
+      "ja": "ドマアイアンピック"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron Raising Hammer",
+      "de": "Domaeisen-Flachhammer",
+      "en": "Doman Iron Raising Hammer",
+      "fr": "Marteau de batteur en fer domien",
+      "ja": "ドマアイアン・レイジングハンマー"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron War Axe",
+      "de": "Domaeisen-Kriegsaxt",
+      "en": "Doman Iron War Axe",
+      "fr": "Hache de guerre en fer domien",
+      "ja": "ドマアイアン・ウォーアクス"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Durium Texture Hammer",
+      "de": "Durium-Stockhammer",
+      "en": "Durium Texture Hammer",
+      "fr": "Marteau d'orfèvre en durium",
+      "ja": "ダリウム・ゴールドスミスハンマー"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 40,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Oroshigane Ingot",
+      "de": "Oroshigane-Barren",
+      "en": "Oroshigane Ingot",
+      "fr": "Lingot d'oroshigane",
+      "ja": "卸し鉄"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Awl",
+      "de": "Domaeisen-Ahle",
+      "en": "Doman Iron Awl",
+      "fr": "Poinçon en fer domien",
+      "ja": "ドマアイアンアウル"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Claw Hammer",
+      "de": "Domaeisen-Klauenhammer",
+      "en": "Doman Iron Claw Hammer",
+      "fr": "Marteau arrache-clou en fer domien",
+      "ja": "ドマアイアンクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Culinary Knife",
+      "de": "Domaeisen-Küchenmesser",
+      "en": "Doman Iron Culinary Knife",
+      "fr": "Couteau de cuisine en fer domien",
+      "ja": "ドマアイアン・クリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Culverin",
+      "de": "Domaeisen-Kalverine",
+      "en": "Doman Iron Culverin",
+      "fr": "Couleuvrine en fer domien",
+      "ja": "ドマアイアンカルバリン"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Daggers",
+      "de": "Domaeisen-Dolche",
+      "en": "Doman Iron Daggers",
+      "fr": "Dagues en fer domien",
+      "ja": "ドマアイアンダガー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron File",
+      "de": "Domaeisen-Feile",
+      "en": "Doman Iron File",
+      "fr": "Lime en fer domien",
+      "ja": "ドマアイアンファイル"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Greatsword",
+      "de": "Domaeisen-Großschwert",
+      "en": "Doman Iron Greatsword",
+      "fr": "Grande épée en fer domien",
+      "ja": "ドマアイアン・グレートソード"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Mortar",
+      "de": "Domaeisen-Mörser",
+      "en": "Doman Iron Mortar",
+      "fr": "Mortier en fer domien",
+      "ja": "ドマアイアンモーター"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Pliers",
+      "de": "Domaeisen-Zange",
+      "en": "Doman Iron Pliers",
+      "fr": "Tenailles en fer domien",
+      "ja": "ドマアイアンプライヤー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Scythe",
+      "de": "Domaeisen-Sense",
+      "en": "Doman Iron Scythe",
+      "fr": "Faux en fer domien",
+      "ja": "ドマアイアンサイズ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Sledgehammer",
+      "de": "Domaeisen-Vorschlaghammer",
+      "en": "Doman Iron Sledgehammer",
+      "fr": "Maillet en fer domien",
+      "ja": "ドマアイアンモール"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Doman Iron Uchigatana",
+      "de": "Domaeisen-Uchigatana",
+      "en": "Doman Iron Uchigatana",
+      "fr": "Uchigatana en fer domien",
+      "ja": "卸金打刀"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 1584,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 6194,
+    "name": {
+      "cn": "Heavy Uchigatana",
+      "de": "Schweres Uchigatana",
+      "en": "Heavy Uchigatana",
+      "fr": "Uchigatana lourd",
+      "ja": "太身の打刀"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Doman Steel Battleaxe",
+      "de": "Domastahl-Kriegsaxt",
+      "en": "Doman Steel Battleaxe",
+      "fr": "Hache de combat en acier domien",
+      "ja": "ドマスチール・バトルアクス"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Doman Steel Cross-pein Hammer",
+      "de": "Domastahl-Kreuzschlaghammer",
+      "en": "Doman Steel Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en acier domien",
+      "ja": "ドマスチール・クロスペインハンマー"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Doman Steel Hatchet",
+      "de": "Domastahl-Handbeil",
+      "en": "Doman Steel Hatchet",
+      "fr": "Hachette en acier domien",
+      "ja": "ドマスチールハチェット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Doman Steel Longsword",
+      "de": "Domastahl-Langschwert",
+      "en": "Doman Steel Longsword",
+      "fr": "Épée longue en acier domien",
+      "ja": "ドマスチール・ロングソード"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Doman Steel Patas",
+      "de": "Domastahl-Pata",
+      "en": "Doman Steel Patas",
+      "fr": "Patas en acier domien",
+      "ja": "ドマスチールパタ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Doman Steel Raising Hammer",
+      "de": "Domastahl-Schlichthammer",
+      "en": "Doman Steel Raising Hammer",
+      "fr": "Marteau de batteur en acier domien",
+      "ja": "ドマスチール・レイジングハンマー"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Doman Steel Round Knife",
+      "de": "Domastahl-Rundmesser",
+      "en": "Doman Steel Round Knife",
+      "fr": "Couteau arrondi en acier domien",
+      "ja": "ドマスチール・ラウンドナイフ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Doman Steel Saw",
+      "de": "Domastahl-Säge",
+      "en": "Doman Steel Saw",
+      "fr": "Scie en acier domien",
+      "ja": "ドマスチールソー"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Durium Lapidary Hammer",
+      "de": "Durium-Juwelierhammer",
+      "en": "Durium Lapidary Hammer",
+      "fr": "Marteau de lapidaire en durium",
+      "ja": "ダリウム・ラピダリーハンマー"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Plumed Doman Steel Pickaxe",
+      "de": "Gefiederte Domastahl-Spitzhacke",
+      "en": "Plumed Doman Steel Pickaxe",
+      "fr": "Pioche en acier domien à plumet",
+      "ja": "プルームド・ドマスチールピック"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 40,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Tama-hagane Ingot",
+      "de": "Tama-hagane-Barren",
+      "en": "Tama-hagane Ingot",
+      "fr": "Lingot de tamahagane",
+      "ja": "玉鋼"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Awl",
+      "de": "Domastahl-Ahle",
+      "en": "Doman Steel Awl",
+      "fr": "Poinçon en acier domien",
+      "ja": "ドマスチールアウル"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Claw Hammer",
+      "de": "Domastahl-Klauenhammer",
+      "en": "Doman Steel Claw Hammer",
+      "fr": "Marteau arrache-clou en acier domien",
+      "ja": "ドマスチール・クローハンマー"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Culinary Knife",
+      "de": "Domastahl-Küchenmesser",
+      "en": "Doman Steel Culinary Knife",
+      "fr": "Couteau de cuisine en acier domien",
+      "ja": "ドマスチール・クリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel File",
+      "de": "Domastahl-Feile",
+      "en": "Doman Steel File",
+      "fr": "Lime en acier domien",
+      "ja": "ドマスチールファイル"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Greatsword",
+      "de": "Domastahl-Großschwert",
+      "en": "Doman Steel Greatsword",
+      "fr": "Grande épée en acier domien",
+      "ja": "ドマスチール・グレートソード"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Main Gauches",
+      "de": "Domastahl-Parierdolche",
+      "en": "Doman Steel Main Gauches",
+      "fr": "Mains-gauches en acier domien",
+      "ja": "ドマスチールマインゴーシュ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Mortar",
+      "de": "Domastahl-Mörser",
+      "en": "Doman Steel Mortar",
+      "fr": "Mortier en acier domien",
+      "ja": "ドマスチールモーター"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Pliers",
+      "de": "Domastahl-Zange",
+      "en": "Doman Steel Pliers",
+      "fr": "Tenailles en acier domien",
+      "ja": "ドマスチールプライヤー"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Scythe",
+      "de": "Domastahl-Sense",
+      "en": "Doman Steel Scythe",
+      "fr": "Faux en acier domien",
+      "ja": "ドマスチールサイズ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Sledgehammer",
+      "de": "Domastahl-Vorschlaghammer",
+      "en": "Doman Steel Sledgehammer",
+      "fr": "Maillet en acier domien",
+      "ja": "ドマスチールモール"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel Tachi",
+      "de": "Domastahl-Tachi",
+      "en": "Doman Steel Tachi",
+      "fr": "Tachi en acier domien",
+      "ja": "玉鋼太刀"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Doman Steel-barreled Musketoon",
+      "de": "Domastahl-Muskete",
+      "en": "Doman Steel-barreled Musketoon",
+      "fr": "Mousqueton en acier domien",
+      "ja": "ドマスチールマスケトン"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1894,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6875,
+    "name": {
+      "cn": "Custom-made Hammer",
+      "de": "Maßgefertigter Kreuzschlaghammer",
+      "en": "Custom-made Hammer",
+      "fr": "Marteau de précision",
+      "ja": "小ぶりなハンマー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Daggers",
+      "de": "Molybdän-Dolche",
+      "en": "Molybdenum Daggers",
+      "fr": "Dagues en molybdène",
+      "ja": "モリブデンダガー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 40,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Ingot",
+      "de": "Molybdän-Barren",
+      "en": "Molybdenum Ingot",
+      "fr": "Lingot de molybdène",
+      "ja": "モリブデンインゴット"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Knuckles",
+      "de": "Molybdän-Schlagringe",
+      "en": "Molybdenum Knuckles",
+      "fr": "Poings en molybdène",
+      "ja": "モリブデンナックル"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Longblade",
+      "de": "Molybdän-Klinge",
+      "en": "Molybdenum Longblade",
+      "fr": "Lame en molybdène",
+      "ja": "モリブデンブレード"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Longsword",
+      "de": "Molybdän-Langschwert",
+      "en": "Molybdenum Longsword",
+      "fr": "Épée longue en molybdène",
+      "ja": "モリブデンロングソード"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Rimfire",
+      "de": "Molybdän-Karabiner",
+      "en": "Molybdenum Rimfire",
+      "fr": "Carabine en molybdène",
+      "ja": "モリブデンリムファイア"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Uchigatana",
+      "de": "Molybdän-Uchigatana",
+      "en": "Molybdenum Uchigatana",
+      "fr": "Uchigatana en molybdène",
+      "ja": "水鉛鋼打刀"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum War Axe",
+      "de": "Molybdän-Kriegsaxt",
+      "en": "Molybdenum War Axe",
+      "fr": "Hache de guerre en molybdène",
+      "ja": "モリブデンウォーアクス"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Molybdenum Ball-pein Hammer",
+      "de": "Molybdän-Schlosserhammer",
+      "en": "Molybdenum Ball-pein Hammer",
+      "fr": "Marteau à panne ronde en molybdène",
+      "ja": "モリブデンアーモラーハンマー"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Molybdenum Creasing Knife",
+      "de": "Molybdän-Rillmesser",
+      "en": "Molybdenum Creasing Knife",
+      "fr": "Couteau de tanneur en molybdène",
+      "ja": "モリブデン・レザーワーカーナイフ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Molybdenum Halfheart Saw",
+      "de": "Molybdän-Rundsäge",
+      "en": "Molybdenum Halfheart Saw",
+      "fr": "Scie ronde en molybdène",
+      "ja": "モリブデンラウンドソー"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Molybdenum Hatchet",
+      "de": "Molybdän-Handbeil",
+      "en": "Molybdenum Hatchet",
+      "fr": "Hachette en molybdène",
+      "ja": "モリブデンハチェット"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Molybdenum Lump Hammer",
+      "de": "Molybdän-Schlägel",
+      "en": "Molybdenum Lump Hammer",
+      "fr": "Massette en molybdène",
+      "ja": "モリブデンランプハンマー"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Molybdenum Pickaxe",
+      "de": "Molybdän-Spitzhacke",
+      "en": "Molybdenum Pickaxe",
+      "fr": "Pioche en molybdène",
+      "ja": "モリブデンピック"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Palladium Texture Hammer",
+      "de": "Palladium-Stockhammer",
+      "en": "Palladium Texture Hammer",
+      "fr": "Marteau d'orfèvre en palladium",
+      "ja": "パラース・ゴールドスミスハンマー"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Examination Uchigatana",
+      "de": "Muster-Katana",
+      "en": "Examination Uchigatana",
+      "fr": "Uchigatana d'évaluation",
+      "ja": "検分用の打刀"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Molybdenum Awl",
+      "de": "Molybdän-Ahle",
+      "en": "Molybdenum Awl",
+      "fr": "Poinçon en molybdène",
+      "ja": "モリブデンアウル"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Molybdenum Claw Hammer",
+      "de": "Molybdän-Klauenhammer",
+      "en": "Molybdenum Claw Hammer",
+      "fr": "Marteau arrache-clou en molybdène",
+      "ja": "モリブデンクローハンマー"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Molybdenum Culinary Knife",
+      "de": "Molybdän-Küchenmesser",
+      "en": "Molybdenum Culinary Knife",
+      "fr": "Couteau de cuisine en molybdène",
+      "ja": "モリブデンクリナリーナイフ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Molybdenum File",
+      "de": "Molybdän-Feile",
+      "en": "Molybdenum File",
+      "fr": "Lime en molybdène",
+      "ja": "モリブデンファイル"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Molybdenum Mortar",
+      "de": "Molybdän-Mörser",
+      "en": "Molybdenum Mortar",
+      "fr": "Mortier en molybdène",
+      "ja": "モリブデンモーター"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Molybdenum Pliers",
+      "de": "Molybdän-Zange",
+      "en": "Molybdenum Pliers",
+      "fr": "Tenailles en molybdène",
+      "ja": "モリブデンプライヤー"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Molybdenum Scythe",
+      "de": "Molybdän-Sense",
+      "en": "Molybdenum Scythe",
+      "fr": "Faux en molybdène",
+      "ja": "モリブデンサイズ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Molybdenum Sledgehammer",
+      "de": "Molybdän-Vorschlaghammer",
+      "en": "Molybdenum Sledgehammer",
+      "fr": "Maillet en molybdène",
+      "ja": "モリブデンモール"
+    }
   }
 ]

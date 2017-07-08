@@ -76,6 +76,20 @@
     //heartOfTheLeatherworker: { common: true, buff: true, skillID: {"Leatherworker": 100183} },
     //heartOfTheWeaver: {        common: true, buff: true, skillID: {"Weaver": 100184} },
 
+    hastyTouch2: {             common: true,             skillID: {"Alchemist": 100201, "Armorer": 100197, "Blacksmith": 100196, "Carpenter": 100195, "Culinarian": 100202, "Goldsmith": 100198, "Leatherworker": 100199, "Weaver": 100200} },
+    carefulSynthesis3: {       common: true,             skillID: {"Alchemist": 100209, "Armorer": 100205, "Blacksmith": 100204, "Carpenter": 100203, "Culinarian": 100210, "Goldsmith": 100206, "Leatherworker": 100207, "Weaver": 100208} },
+    rapidSynthesis2: {         common: true,             skillID: {"Alchemist": 100217, "Armorer": 100213, "Blacksmith": 100212, "Carpenter": 100211, "Culinarian": 100218, "Goldsmith": 100214, "Leatherworker": 100215, "Weaver": 100216} },
+    patientTouch: {                                      skillID: {"Alchemist": 100225, "Armorer": 100221, "Blacksmith": 100220, "Carpenter": 100219, "Culinarian": 100226, "Goldsmith": 100222, "Leatherworker": 100223, "Weaver": 100224} },
+    manipulation2: {           common: true, buff: true, skillID: {"Alchemist": 4580, "Armorer": 4576, "Blacksmith": 4575, "Carpenter": 4574, "Culinarian": 4581, "Goldsmith": 4577, "Leatherworker": 4578, "Weaver": 4579} },
+    prudentTouch: {                                      skillID: {"Alchemist": 100233, "Armorer": 100229, "Blacksmith": 100228, "Carpenter": 100227, "Culinarian": 100234, "Goldsmith": 100230, "Leatherworker": 100231, "Weaver": 100232} },
+    focusedSynthesis: {                                  skillID: {"Alchemist": 100241, "Armorer": 100237, "Blacksmith": 100236, "Carpenter": 100235, "Culinarian": 100242, "Goldsmith": 100238, "Leatherworker": 100239, "Weaver": 100240} },
+    focusedTouch: {                                      skillID: {"Alchemist": 100249, "Armorer": 100245, "Blacksmith": 100244, "Carpenter": 100243, "Culinarian": 100250, "Goldsmith": 100246, "Leatherworker": 100247, "Weaver": 100248} },
+    initialPreparations: {     common: true,             skillID: {"Alchemist": 100257, "Armorer": 100253, "Blacksmith": 100252, "Carpenter": 100251, "Culinarian": 100258, "Goldsmith": 100254, "Leatherworker": 100255, "Weaver": 100256} },
+    specialtyReinforce: {      common: true,             skillID: {"Alchemist": 100265, "Armorer": 100261, "Blacksmith": 100260, "Carpenter": 100211, "Culinarian": 100259, "Goldsmith": 100262, "Leatherworker": 100263, "Weaver": 100264} },
+    specialtyRefurbish: {      common: true,             skillID: {"Alchemist": 100273, "Armorer": 100269, "Blacksmith": 100268, "Carpenter": 100267, "Culinarian": 100274, "Goldsmith": 100270, "Leatherworker": 100271, "Weaver": 100272} },
+    specialtyReflect: {        common: true,             skillID: {"Alchemist": 100281, "Armorer": 100277, "Blacksmith": 100276, "Carpenter": 100275, "Culinarian": 100282, "Goldsmith": 100278, "Leatherworker": 100279, "Weaver": 100280} },
+    strokeOfGenius: {          common: true, buff: true, skillID: {"Alchemist": 50356, "Armorer": 50352, "Blacksmith": 50351, "Carpenter": 50350, "Culinarian": 50357, "Goldsmith": 50353, "Leatherworker": 50354, "Weaver": 50355} },
+
     observe: {                 common: true,             skillID: {"Alchemist": 100099, "Armorer": 100040, "Blacksmith": 100023, "Carpenter": 100010, "Culinarian": 100113, "Goldsmith": 100082, "Leatherworker": 100053, "Weaver": 100070} }
 
     // Reclaim is omitted because it has no bearing on the success of the result of the synthesis, as far as we care.
@@ -121,8 +135,11 @@
       "flawlessSynthesis",
       "carefulSynthesis",
       "carefulSynthesis2",
+      "carefulSynthesis3",
       "pieceByPiece",
       "rapidSynthesis",
+      "rapidSynthesis2",
+      "focusedSynthesis",
       "muscleMemory",
       "brandOfEarth",
       "brandOfFire",
@@ -138,9 +155,13 @@
       "standardTouch",
       "advancedTouch",
       "hastyTouch",
+      "hastyTouch2",
       "byregotsBlessing",
       "byregotsBrow",
-      "preciseTouch"
+      "preciseTouch",
+      "focusedTouch",
+      "patientTouch",
+      "prudentTouch"
     ]
     },
     {
@@ -156,7 +177,8 @@
       "mastersMend2",
       "wasteNot",
       "wasteNot2",
-      "manipulation"
+      "manipulation",
+      "manipulation2"
     ]
     },
     {
@@ -169,6 +191,7 @@
       "greatStrides",
       "innovation",
       "makersMark",
+      "initialPreparations",
       "nameOfEarth",
       "nameOfFire",
       "nameOfIce",
@@ -184,7 +207,10 @@
       "innovativeTouch",
       "nymeiasWheel",
       "byregotsMiracle",
-      "trainedHand"
+      "trainedHand",
+      "specialtyReinforce",
+      "specialtyRefurbish",
+      "specialtyReflect"
       //"heartOfTheAlchemist"
       //"heartOfTheArmorer",
       //"heartOfTheBlacksmith",

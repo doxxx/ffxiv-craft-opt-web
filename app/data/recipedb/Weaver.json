@@ -5832,6 +5832,21 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 97,
+    "durability": 40,
+    "level": 55,
+    "maxQuality": 2646,
+    "name": {
+      "cn": "天蚕丝",
+      "de": "Vanya-Seidenfäden",
+      "en": "Silk Thread",
+      "fr": "Fil de soie",
+      "ja": "山繭糸"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 195,
     "durability": 80,
     "level": 55,
@@ -5947,21 +5962,6 @@
       "en": "Tonberry Square Rug",
       "fr": "Tapis carré tomberry",
       "ja": "トンベリスクエアラグ"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 97,
-    "durability": 40,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "Twinthread",
-      "de": "Vanya-Seidenfäden",
-      "en": "Twinthread",
-      "fr": "Fil de soie",
-      "ja": "山繭糸"
     },
     "stars": 1
   },
@@ -8661,6 +8661,20 @@
   },
   {
     "baseLevel": 56,
+    "difficulty": 1353,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 3280,
+    "name": {
+      "cn": "Carbuncle Bed",
+      "de": "Karfunkel-Bett",
+      "en": "Carbuncle Bed",
+      "fr": "Lit Carbuncle",
+      "ja": "カーバンクルベッド"
+    }
+  },
+  {
+    "baseLevel": 56,
     "difficulty": 376,
     "durability": 35,
     "level": 139,
@@ -9885,6 +9899,21 @@
       "en": "Wind Silk Wedge Cap",
       "fr": "Calot en soie des vents",
       "ja": "ウィンドシルク・ウェッジキャップ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 70,
+    "level": 160,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Wind-up Bismarck",
+      "de": "Aufzieh-Bismarck",
+      "en": "Wind-up Bismarck",
+      "fr": "Petit Bismarck",
+      "ja": "マメット・ビスマルク"
     },
     "stars": 1
   },
@@ -11807,5 +11836,1592 @@
       "ja": "スタービロード・ストライカータバード"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Bloodhempen Armguards of Scouting",
+      "de": "Rothanf-Armschützer des Spähens",
+      "en": "Bloodhempen Armguards of Scouting",
+      "fr": "Garde-bras d'éclaireur en akaso",
+      "ja": "レッドヘンプ・スカウトアームガード"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Bloodhempen Armguards of Striking",
+      "de": "Rothanf-Armschützer des Schlagens",
+      "en": "Bloodhempen Armguards of Striking",
+      "fr": "Garde-bras d'agresseur en akaso",
+      "ja": "レッドヘンプ・ストライカーアームガード"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Bloodhempen Brais of Scouting",
+      "de": "Rothanf-Braies des Spähens",
+      "en": "Bloodhempen Brais of Scouting",
+      "fr": "Brailles d'éclaireur en akaso",
+      "ja": "レッドヘンプ・スカウトブレー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Bloodhempen Brais of Striking",
+      "de": "Rothanf-Braies des Schlagens",
+      "en": "Bloodhempen Brais of Striking",
+      "fr": "Brailles d'agresseur en akaso",
+      "ja": "レッドヘンプ・ストライカーブレー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 40,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Bloodhempen Cloth",
+      "de": "Rothanfstoff",
+      "en": "Bloodhempen Cloth",
+      "fr": "Étoffe d'akaso",
+      "ja": "赤麻布"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Bloodhempen Culottes of Casting",
+      "de": "Rothanf-Kniebundhose der Magie",
+      "en": "Bloodhempen Culottes of Casting",
+      "fr": "Culotte d'incantateur en akaso",
+      "ja": "レッドヘンプ・キャスターキュロット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Bloodhempen Culottes of Healing",
+      "de": "Rothanf-Kniebundhose der Heilung",
+      "en": "Bloodhempen Culottes of Healing",
+      "fr": "Culotte de soigneur en akaso",
+      "ja": "レッドヘンプ・ヒーラーキュロット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 40,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Bloodhempen Yarn",
+      "de": "Rothanfgarn",
+      "en": "Bloodhempen Yarn",
+      "fr": "Fil d'akaso",
+      "ja": "赤麻糸"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Bloodhempen Chestwrap of Casting",
+      "de": "Rothanf-Brustwickel der Magie",
+      "en": "Bloodhempen Chestwrap of Casting",
+      "fr": "Cache-poitrine d'incantateur en akaso",
+      "ja": "レッドヘンプ・キャスターチェストラップ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Bloodhempen Chestwrap of Healing",
+      "de": "Rothanf-Brustwickel der Heilung",
+      "en": "Bloodhempen Chestwrap of Healing",
+      "fr": "Cache-poitrine de soigneur en akaso",
+      "ja": "レッドヘンプ・ヒーラーチェストラップ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Bloodhempen Doublet of Crafting",
+      "de": "Rothanf-Weste des Handwerks",
+      "en": "Bloodhempen Doublet of Crafting",
+      "fr": "Doublet des créations en akaso",
+      "ja": "レッドヘンプ・クラフターダブレット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Bloodhempen Skirt",
+      "de": "Rothanf-Rock",
+      "en": "Bloodhempen Skirt",
+      "fr": "Jupe en akaso",
+      "ja": "レッドヘンプスカート"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Bloodhempen Trousers of Gathering",
+      "de": "Rothanf-Hose des Eifers",
+      "en": "Bloodhempen Trousers of Gathering",
+      "fr": "Pantalon des ressources en akaso",
+      "ja": "レッドヘンプ・ギャザラートラウザー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Bloodhempen Turban of Crafting",
+      "de": "Rothanf-Turban des Handwerks",
+      "en": "Bloodhempen Turban of Crafting",
+      "fr": "Turban des créations en akaso",
+      "ja": "レッドヘンプ・クラフターターバン"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Bloodhempen Vest of Scouting",
+      "de": "Rothanf-Weste des Spähens",
+      "en": "Bloodhempen Vest of Scouting",
+      "fr": "Gilet d'éclaireur en akaso",
+      "ja": "レッドヘンプ・スカウトベスト"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Bloodhempen Vest of Striking",
+      "de": "Rothanf-Weste des Schlagens",
+      "en": "Bloodhempen Vest of Striking",
+      "fr": "Gilet d'agresseur en akaso",
+      "ja": "レッドヘンプ・ストライカーベスト"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Ruby Cotton Apron",
+      "de": "Rubinbaumwoll-Schürze",
+      "en": "Ruby Cotton Apron",
+      "fr": "Tablier en rubicoton",
+      "ja": "ルビーコットンエプロン"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Ruby Cotton Bandana of Scouting",
+      "de": "Rubinbaumwoll-Bandana des Spähens",
+      "en": "Ruby Cotton Bandana of Scouting",
+      "fr": "Bandana d'éclaireur en rubicoton",
+      "ja": "ルビーコットン・スカウトバンダナ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Ruby Cotton Bandana of Striking",
+      "de": "Rubinbaumwoll-Bandana des Schlagens",
+      "en": "Ruby Cotton Bandana of Striking",
+      "fr": "Bandana d'agresseur en rubicoton",
+      "ja": "ルビーコットン・ストライカーバンダナ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 40,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Ruby Cotton Cloth",
+      "de": "Rubinbaumwoll-Stoff",
+      "en": "Ruby Cotton Cloth",
+      "fr": "Étoffe de rubicoton",
+      "ja": "紅玉綿布"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Ruby Cotton Fingerless Gloves of Casting",
+      "de": "Rubinbaumwoll-Fingerlinge der Magie",
+      "en": "Ruby Cotton Fingerless Gloves of Casting",
+      "fr": "Gants sans doigts d'incantateur en rubicoton",
+      "ja": "ルビーコットン・キャスターフィンガレスグローブ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Ruby Cotton Hat of Casting",
+      "de": "Rubinbaumwoll-Hut der Magie",
+      "en": "Ruby Cotton Hat of Casting",
+      "fr": "Chapeau d'incantateur en rubicoton",
+      "ja": "ルビーコットン・キャスターハット"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Ruby Cotton Sash of Casting",
+      "de": "Rubinbaumwoll-Gürtel der Magie",
+      "en": "Ruby Cotton Sash of Casting",
+      "fr": "Écharpe d'incantateur en rubicoton",
+      "ja": "ルビーコットン・キャスターサッシュ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Ruby Cotton Sash of Healing",
+      "de": "Rubinbaumwoll-Gürtel der Heilung",
+      "en": "Ruby Cotton Sash of Healing",
+      "fr": "Écharpe de soigneur en rubicoton",
+      "ja": "ルビーコットン・ヒーラーサッシュ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 40,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Ruby Cotton Yarn",
+      "de": "Rubinbaumwoll-Garn",
+      "en": "Ruby Cotton Yarn",
+      "fr": "Fil de rubicoton",
+      "ja": "紅玉綿糸"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1377,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5741,
+    "name": {
+      "cn": "Elegant Bustle",
+      "de": "Elegantes Krinolinengewand",
+      "en": "Elegant Bustle",
+      "fr": "Robe à tournure de luxe",
+      "ja": "高級バッスルドレス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Bottoms",
+      "de": "Rubinbaumwoll-Hose",
+      "en": "Ruby Cotton Bottoms",
+      "fr": "Bas-de-corps en rubicoton",
+      "ja": "ルビーコットンボトム"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Cap",
+      "de": "Rubinbaumwoll-Kappe",
+      "en": "Ruby Cotton Cap",
+      "fr": "Bonnet en rubicoton",
+      "ja": "ルビーコットンキャップ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Chasuble",
+      "de": "Rubinbaumwoll-Gewand der Heilung",
+      "en": "Ruby Cotton Chasuble",
+      "fr": "Chasuble en rubicoton",
+      "ja": "ルビーコットンシャブル"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Coatee",
+      "de": "Rubinbaumwoll-Spenzer",
+      "en": "Ruby Cotton Coatee",
+      "fr": "Boléro en rubicoton",
+      "ja": "ルビーコットンコーティー"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Gambison",
+      "de": "Rubinbaumwoll-Gambeson des Zielens",
+      "en": "Ruby Cotton Gambison",
+      "fr": "Gambison en rubicoton",
+      "ja": "ルビーコットンガンビスン"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Gaskins of Scouting",
+      "de": "Rubinbaumwoll-Hose des Spähens",
+      "en": "Ruby Cotton Gaskins of Scouting",
+      "fr": "Grègues d'éclaireur en rubicoton",
+      "ja": "ルビーコットン・スカウトガスキン"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Gaskins of Striking",
+      "de": "Rubinbaumwoll-Gaskin des Schlagens",
+      "en": "Ruby Cotton Gaskins of Striking",
+      "fr": "Grègues d'agresseur en rubicoton",
+      "ja": "ルビーコットン・ストライカーガスキン"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Gilet of Scouting",
+      "de": "Rubinbaumwoll-Strickjacke des Spähens",
+      "en": "Ruby Cotton Gilet of Scouting",
+      "fr": "Gilet sans manches d'éclaireur en rubicoton",
+      "ja": "ルビーコットン・スカウトジレ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Gilet of Striking",
+      "de": "Rubinbaumwoll-Strickjacke des Schlagens",
+      "en": "Ruby Cotton Gilet of Striking",
+      "fr": "Gilet sans manches d'agresseur en rubicoton",
+      "ja": "ルビーコットン・ストライカージレ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Longkilt",
+      "de": "Rubinbaumwoll-Rock der Magie",
+      "en": "Ruby Cotton Longkilt",
+      "fr": "Jupe portefeuille en rubicoton",
+      "ja": "ルビーコットン・ロングキルト"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Robe of Casting",
+      "de": "Rubinbaumwoll-Gambeson der Magie",
+      "en": "Ruby Cotton Robe of Casting",
+      "fr": "Robe d'incantateur en rubicoton",
+      "ja": "ルビーコットン・キャスターローブ"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Sarouels",
+      "de": "Rubinbaumwoll-Sarouel des Zielens",
+      "en": "Ruby Cotton Sarouels",
+      "fr": "Saroual en rubicoton",
+      "ja": "ルビーコットンサルエル"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Ruby Cotton Smalls",
+      "de": "Rubinbaumwoll-Hose der Heilung",
+      "en": "Ruby Cotton Smalls",
+      "fr": "Gaine en rubicoton",
+      "ja": "ルビーコットンスモール"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 40,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Kudzu Cloth",
+      "de": "Kudzustoff",
+      "en": "Kudzu Cloth",
+      "fr": "Étoffe de kudzu",
+      "ja": "葛布"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Kudzu Hat of Casting",
+      "de": "Kudzu-Hut der Magie",
+      "en": "Kudzu Hat of Casting",
+      "fr": "Chapeau d'incantateur en kudzu",
+      "ja": "クズクロス・キャスターハット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Kudzu Hat of Healing",
+      "de": "Kudzu-Hut der Heilung",
+      "en": "Kudzu Hat of Healing",
+      "fr": "Chapeau de soigneur en kudzu",
+      "ja": "クズクロス・ヒーラーハット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Kudzu Longkilt of Casting",
+      "de": "Kudzu-Rock der Magie",
+      "en": "Kudzu Longkilt of Casting",
+      "fr": "Jupe portefeuille d'incantateur en kudzu",
+      "ja": "クズクロス・キャスターロングキルト"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Kudzu Longkilt of Fending",
+      "de": "Kudzu-Rock der Verteidigung",
+      "en": "Kudzu Longkilt of Fending",
+      "fr": "Jupe portefeuille de protecteur en kudzu",
+      "ja": "クズクロス・ディフェンダーロングキルト"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Kudzu Longkilt of Healing",
+      "de": "Kudzu-Rock der Heilung",
+      "en": "Kudzu Longkilt of Healing",
+      "fr": "Jupe portefeuille de soigneur en kudzu",
+      "ja": "クズクロス・ヒーラーロングキルト"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Kudzu Longkilt of Maiming",
+      "de": "Kudzu-Rock des Verstümmelns",
+      "en": "Kudzu Longkilt of Maiming",
+      "fr": "Jupe portefeuille d'abatteur en kudzu",
+      "ja": "クズクロス・スレイヤーロングキルト"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 40,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Kudzu Thread",
+      "de": "Kudzufaden",
+      "en": "Kudzu Thread",
+      "fr": "Fibre de kudzu",
+      "ja": "葛苧"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Corset of Casting",
+      "de": "Tigerleder-Korsett der Magie",
+      "en": "Tigerskin Corset of Casting",
+      "fr": "Corset d'incantateur en kudzu",
+      "ja": "クズクロス・キャスターコルセット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Corset of Healing",
+      "de": "Tigerleder-Korsett der Heilung",
+      "en": "Tigerskin Corset of Healing",
+      "fr": "Corset de soigneur en kudzu",
+      "ja": "クズクロス・ヒーラーコルセット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Trousers of Aiming",
+      "de": "Tigerleder-Hose des Zielens",
+      "en": "Tigerskin Trousers of Aiming",
+      "fr": "Pantalon de pisteur en kudzu",
+      "ja": "クズクロス・レンジャートラウザー"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Tigerskin Trousers of Scouting",
+      "de": "Tigerleder-Hose des Spähens",
+      "en": "Tigerskin Trousers of Scouting",
+      "fr": "Pantalon d'éclaireur en kudzu",
+      "ja": "クズクロス・スカウトトラウザー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Cap of Crafting",
+      "de": "Kudzu-Kappe des Handwerks",
+      "en": "Kudzu Cap of Crafting",
+      "fr": "Bonnet des créations en kudzu",
+      "ja": "クズクロス・クラフターキャップ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Coat of Gathering",
+      "de": "Kudzu-Mantel des Eifers",
+      "en": "Kudzu Coat of Gathering",
+      "fr": "Manteau des ressources en kudzu",
+      "ja": "クズクロス・ギャザラーコート"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Culottes of Crafting",
+      "de": "Kudzu-Kniebundhose des Handwerks",
+      "en": "Kudzu Culottes of Crafting",
+      "fr": "Culotte des créations en kudzu",
+      "ja": "クズクロス・クラフターキュロット"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Culottes of Gathering",
+      "de": "Kudzu-Kniebundhose des Eifers",
+      "en": "Kudzu Culottes of Gathering",
+      "fr": "Culotte des ressources en kudzu",
+      "ja": "クズクロス・ギャザラーキュロット"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Robe of Casting",
+      "de": "Kudzu-Robe der Magie",
+      "en": "Kudzu Robe of Casting",
+      "fr": "Robe d'incantateur en kudzu",
+      "ja": "クズクロス・キャスターローブ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Robe of Crafting",
+      "de": "Kudzu-Robe des Handwerks",
+      "en": "Kudzu Robe of Crafting",
+      "fr": "Robe des créations en kudzu",
+      "ja": "クズクロス・クラフターローブ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Robe of Healing",
+      "de": "Kudzu-Robe der Heilung",
+      "en": "Kudzu Robe of Healing",
+      "fr": "Robe de soigneur en kudzu",
+      "ja": "クズクロス・ヒーラーローブ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Tunic of Aiming",
+      "de": "Kudzu-Tunika des Zielens",
+      "en": "Kudzu Tunic of Aiming",
+      "fr": "Tunique de pisteur en kudzu",
+      "ja": "クズクロス・レンジャーチュニック"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Tunic of Scouting",
+      "de": "Kudzu-Tunika des Spähens",
+      "en": "Kudzu Tunic of Scouting",
+      "fr": "Tunique d'éclaireur en kudzu",
+      "ja": "クズクロス・スカウトチュニック"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Kudzu Tunic of Striking",
+      "de": "Kudzu-Tunika des Schlagens",
+      "en": "Kudzu Tunic of Striking",
+      "fr": "Tunique d'agresseur en kudzu",
+      "ja": "クズクロス・ストライカーチュニック"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Trousers of Striking",
+      "de": "Tigerleder-Hose des Schlagens",
+      "en": "Tigerskin Trousers of Striking",
+      "fr": "Pantalon d'agresseur en kudzu",
+      "ja": "クズクロス・ストライカートラウザー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 1584,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 6194,
+    "name": {
+      "cn": "Winsome Spring Dress",
+      "de": "Elegantes Frühlingstraumkleid",
+      "en": "Winsome Spring Dress",
+      "fr": "Robe printanière de luxe",
+      "ja": "高級スプリングドレス"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 40,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Dawn Serge",
+      "de": "Steppen-Serge",
+      "en": "Dawn Serge",
+      "fr": "Étoffe de serge des steppes",
+      "ja": "ステップサージ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Serge Apron",
+      "de": "Sergen-Schürze",
+      "en": "Serge Apron",
+      "fr": "Tablier en serge",
+      "ja": "サージエプロン"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Serge Hat of Aiming",
+      "de": "Sergen-Hut des Zielens",
+      "en": "Serge Hat of Aiming",
+      "fr": "Chapeau de pisteur en serge",
+      "ja": "サージレンジャーハット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Serge Hat of Casting",
+      "de": "Sergen-Hut der Magie",
+      "en": "Serge Hat of Casting",
+      "fr": "Chapeau d'incantateur en serge",
+      "ja": "サージキャスターハット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Serge Hat of Healing",
+      "de": "Sergen-Hut der Heilung",
+      "en": "Serge Hat of Healing",
+      "fr": "Chapeau de soigneur en serge",
+      "ja": "サージヒーラーハット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Serge Longsash of Scouting",
+      "de": "Sergen-Langschärpe des Spähens",
+      "en": "Serge Longsash of Scouting",
+      "fr": "Écharpe longue d'éclaireur en serge",
+      "ja": "サージ・スカウトロングサッシュ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Serge Longsash of Striking",
+      "de": "Sergen-Langschärpe des Schlagens",
+      "en": "Serge Longsash of Striking",
+      "fr": "Écharpe longue d'agresseur en serge",
+      "ja": "サージ・ストライカーロングサッシュ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 40,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Worsted Yarn",
+      "de": "Kammgarn",
+      "en": "Worsted Yarn",
+      "fr": "Laine peignée",
+      "ja": "梳毛糸"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Gambison of Aiming",
+      "de": "Sergen-Gambeson des Zielens",
+      "en": "Serge Gambison of Aiming",
+      "fr": "Gambison de pisteur en serge",
+      "ja": "サージレンジャーガンビスン"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Gambison of Casting",
+      "de": "Sergen-Gambeson der Magie",
+      "en": "Serge Gambison of Casting",
+      "fr": "Gambison d'incantateur en serge",
+      "ja": "サージキャスターガンビスン"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Gambison of Healing",
+      "de": "Sergen-Gambeson der Heilung",
+      "en": "Serge Gambison of Healing",
+      "fr": "Gambison de soigneur en serge",
+      "ja": "サージヒーラーガンビスン"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Hose of Aiming",
+      "de": "Sergen-Hose des Zielens",
+      "en": "Serge Hose of Aiming",
+      "fr": "Fuseau de pisteur en serge",
+      "ja": "サージレンジャーホーズ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Hose of Casting",
+      "de": "Sergen-Hose der Magie",
+      "en": "Serge Hose of Casting",
+      "fr": "Fuseau d'incantateur en serge",
+      "ja": "サージキャスターホーズ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Hose of Healing",
+      "de": "Sergen-Hose der Heilung",
+      "en": "Serge Hose of Healing",
+      "fr": "Fuseau de soigneur en serge",
+      "ja": "サージヒーラーホーズ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Sarouels of Crafting",
+      "de": "Sergen-Sarouel des Handwerks",
+      "en": "Serge Sarouels of Crafting",
+      "fr": "Saroual des créations en serge",
+      "ja": "サージクラフターサルエル"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Sarouels of Gathering",
+      "de": "Sergen-Sarouel des Eifers",
+      "en": "Serge Sarouels of Gathering",
+      "fr": "Saroual des ressources en serge",
+      "ja": "サージギャザラーサルエル"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Turban of Crafting",
+      "de": "Sergen-Turban des Handwerks",
+      "en": "Serge Turban of Crafting",
+      "fr": "Turban des créations en serge",
+      "ja": "サージクラフターターバン"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Serge Turban of Gathering",
+      "de": "Sergen-Turban des Eifers",
+      "en": "Serge Turban of Gathering",
+      "fr": "Turban des ressources en serge",
+      "ja": "サージギャザラーターバン"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1894,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6875,
+    "name": {
+      "cn": "Seductive Bustier",
+      "de": "Verführerisches Bustierkleid",
+      "en": "Seductive Bustier",
+      "fr": "Robe thavnairoise de luxe",
+      "ja": "高級サベネアンビスチェ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 40,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Twinsilk",
+      "de": "Doppelseide",
+      "en": "Twinsilk",
+      "fr": "Étoffe de doublesoie",
+      "ja": "玉糸紬"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Twinsilk Hood of Casting",
+      "de": "Doppelseiden-Haube der Magie",
+      "en": "Twinsilk Hood of Casting",
+      "fr": "Capuche d'incantateur en doublesoie",
+      "ja": "ツインシルク・キャスターフード"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Twinsilk Hood of Healing",
+      "de": "Doppelseiden-Haube der Heilung",
+      "en": "Twinsilk Hood of Healing",
+      "fr": "Capuche de soigneur en doublesoie",
+      "ja": "ツインシルク・ヒーラーフード"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Twinsilk Hood of Striking",
+      "de": "Doppelseiden-Haube des Schlagens",
+      "en": "Twinsilk Hood of Striking",
+      "fr": "Capuche d'agresseur en doublesoie",
+      "ja": "ツインシルク・ストライカーフード"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Twinsilk Sash of Casting",
+      "de": "Doppelseiden-Schärpe der Magie",
+      "en": "Twinsilk Sash of Casting",
+      "fr": "Écharpe d'incantateur en doublesoie",
+      "ja": "ツインシルク・キャスターサッシュ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Twinsilk Sash of Healing",
+      "de": "Doppelseiden-Schärpe der Heilung",
+      "en": "Twinsilk Sash of Healing",
+      "fr": "Écharpe de soigneur en doublesoie",
+      "ja": "ツインシルク・ヒーラーサッシュ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Twinsilk Turban of Aiming",
+      "de": "Doppelseiden-Turban des Zielens",
+      "en": "Twinsilk Turban of Aiming",
+      "fr": "Turban de pisteur en doublesoie",
+      "ja": "ツインシルク・レンジャーターバン"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Twinsilk Turban of Scouting",
+      "de": "Doppelseiden-Turban des Spähens",
+      "en": "Twinsilk Turban of Scouting",
+      "fr": "Turban d'éclaireur en doublesoie",
+      "ja": "ツインシルク・スカウトターバン"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 40,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Twinthread",
+      "de": "Doppelfaden",
+      "en": "Twinthread",
+      "fr": "Fil de doublesoie",
+      "ja": "玉糸"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Gazelleskin Coat of Casting",
+      "de": "Gazellenleder-Mantel der Magie",
+      "en": "Gazelleskin Coat of Casting",
+      "fr": "Robe d'incantateur en doublesoie",
+      "ja": "ツインシルク・キャスターローブ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Twinsilk Apron",
+      "de": "Doppelseiden-Schürze",
+      "en": "Twinsilk Apron",
+      "fr": "Tablier en doublesoie",
+      "ja": "ツインシルクエプロン"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Twinsilk Corset of Casting",
+      "de": "Doppelseiden-Korsett der Magie",
+      "en": "Twinsilk Corset of Casting",
+      "fr": "Corset d'incantateur en doublesoie",
+      "ja": "ツインシルク・キャスターコルセット"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Twinsilk Corset of Healing",
+      "de": "Doppelseiden-Korsett der Heilung",
+      "en": "Twinsilk Corset of Healing",
+      "fr": "Corset de soigneur en doublesoie",
+      "ja": "ツインシルク・ヒーラーコルセット"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Twinsilk Robe of Aiming",
+      "de": "Gazellenleder-Robe des Zielens",
+      "en": "Twinsilk Robe of Aiming",
+      "fr": "Robe de pisteur en doublesoie",
+      "ja": "ツインシルク・レンジャーローブ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Twinsilk Slops of Aiming",
+      "de": "Gazellenleder-Beinlinge des Zielens",
+      "en": "Twinsilk Slops of Aiming",
+      "fr": "Trousses de pisteur en doublesoie",
+      "ja": "ツインシルク・レンジャースロップ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Twinsilk Slops of Casting",
+      "de": "Doppelseiden-Beinlinge der Magie",
+      "en": "Twinsilk Slops of Casting",
+      "fr": "Trousses d'incantateur en doublesoie",
+      "ja": "ツインシルク・キャスタースロップ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Twinsilk Slops of Fending",
+      "de": "Doppelseiden-Beinlinge der Verteidigung",
+      "en": "Twinsilk Slops of Fending",
+      "fr": "Trousses de protecteur en doublesoie",
+      "ja": "ツインシルク・ディフェンダースロップ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Twinsilk Slops of Healing",
+      "de": "Doppelseiden-Beinlinge der Heilung",
+      "en": "Twinsilk Slops of Healing",
+      "fr": "Trousses de soigneur en doublesoie",
+      "ja": "ツインシルク・ヒーラースロップ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Cropped Twinsilk Slops",
+      "de": "Gekürzte Doppelseiden-Beinlinge",
+      "en": "Cropped Twinsilk Slops",
+      "fr": "Pantalon court en doublesoie",
+      "ja": "ツインシルク・クロップドパンツ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Serge Hood",
+      "de": "Sergen-Haube",
+      "en": "Serge Hood",
+      "fr": "Capuche en serge",
+      "ja": "サージフード"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Serge Knit Cap",
+      "de": "Sergen-Strickmütze",
+      "en": "Serge Knit Cap",
+      "fr": "Bonnet tricoté en serge",
+      "ja": "サージニットキャップ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Serge Poncho",
+      "de": "Sergen-Poncho",
+      "en": "Serge Poncho",
+      "fr": "Poncho en serge",
+      "ja": "サージポンチョ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Serge Work Gloves",
+      "de": "Sergen-Arbeitshandschuhe",
+      "en": "Serge Work Gloves",
+      "fr": "Gants de travail en serge",
+      "ja": "サージワークグローブ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Tennyo Hagoromo",
+      "de": "Federkleid",
+      "en": "Tennyo Hagoromo",
+      "fr": "Hagoromo de la nymphe céleste",
+      "ja": "天女の羽衣"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Twinsilk Slops of Gathering",
+      "de": "Doppelseiden-Beinlinge des Eifers",
+      "en": "Twinsilk Slops of Gathering",
+      "fr": "Trousses des ressources en doublesoie",
+      "ja": "ツインシルク・ギャザラースロップ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Twinsilk Suspenders",
+      "de": "Doppelseiden-Hemd mit Hosenträgern",
+      "en": "Twinsilk Suspenders",
+      "fr": "Chemise à bretelles en doublesoie",
+      "ja": "ツインシルク・サスペンダーシャツ"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Taoist's Cap",
+      "de": "Daoisten-Kappe",
+      "en": "Taoist's Cap",
+      "fr": "Guanjin de dàoshi",
+      "ja": "道士冠巾"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Taoist's Shirt",
+      "de": "Daoisten-Hemd",
+      "en": "Taoist's Shirt",
+      "fr": "Páo fú de dàoshi",
+      "ja": "道士袍服"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Taoist's Slops",
+      "de": "Daoisten-Beinlinge",
+      "en": "Taoist's Slops",
+      "fr": "Jiaoyi de dàoshi",
+      "ja": "道士脚衣"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 1574,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Wind-up Lakshmi",
+      "de": "Lakshmi-Puppe",
+      "en": "Wind-up Lakshmi",
+      "fr": "Petite Lakshmi",
+      "ja": "マメット・ラクシュミ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 1574,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Wind-up Susano",
+      "de": "Susano-Puppe",
+      "en": "Wind-up Susano",
+      "fr": "Petit Susano",
+      "ja": "マメット・スサノオ"
+    },
+    "stars": 1
   }
 ]

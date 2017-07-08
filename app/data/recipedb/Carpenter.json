@@ -2876,6 +2876,20 @@
     "level": 34,
     "maxQuality": 905,
     "name": {
+      "cn": "Easel",
+      "de": "Staffelei",
+      "en": "Easel",
+      "fr": "Chevalet",
+      "ja": "イーゼル"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 368,
+    "durability": 80,
+    "level": 34,
+    "maxQuality": 905,
+    "name": {
       "cn": "林间路灯",
       "de": "Wald-Laternenmast",
       "en": "Glade Lamppost",
@@ -6430,7 +6444,7 @@
     "maxQuality": 3540,
     "name": {
       "cn": "旅行笔录",
-      "de": "Die Unendliche Reise",
+      "de": "Reisetagebuch",
       "en": "The Unending Journey",
       "fr": "Carnet de voyage",
       "ja": "愛用の紀行録"
@@ -7776,5 +7790,761 @@
       "ja": "アクアリウムG4"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 40,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Beech Lumber",
+      "de": "Buchen-Bauholz",
+      "en": "Beech Lumber",
+      "fr": "Madrier de hêtre",
+      "ja": "ビーチ材"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Beech Mask of Healing",
+      "de": "Buchenmaske der Heilung",
+      "en": "Beech Mask of Healing",
+      "fr": "Masque de soigneur en hêtre",
+      "ja": "ビーチヒーラーマスク"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Beech Rod",
+      "de": "Buchenrute",
+      "en": "Beech Rod",
+      "fr": "Sceptre en hêtre",
+      "ja": "ビーチロッド"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Beech Composite Bow",
+      "de": "Buchen-Kompositbogen",
+      "en": "Beech Composite Bow",
+      "fr": "Arc composite en hêtre",
+      "ja": "ビーチコンポジットボウ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Beech Mask of Casting",
+      "de": "Buchenmaske der Magie",
+      "en": "Beech Mask of Casting",
+      "fr": "Masque d'incantateur en hêtre",
+      "ja": "ビーチキャスターマスク"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "High Steel Trident",
+      "de": "Edelstahl-Dreizack",
+      "en": "High Steel Trident",
+      "fr": "Trident en acier noble",
+      "ja": "ハイスチールトライデント"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Muudhorn Fishing Rod",
+      "de": "Muhtsuhorn-Angelrute",
+      "en": "Muudhorn Fishing Rod",
+      "fr": "Canne à pêche en corne de moudsoud",
+      "ja": "ムードスードホーン・フィッシングロッド"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "High Steel Fork",
+      "de": "Edelstahl-Kriegsgabel",
+      "en": "High Steel Fork",
+      "fr": "Fourche en acier noble",
+      "ja": "ハイスチールフォーク"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Larch Composite Bow",
+      "de": "Lärchen-Kompositbogen",
+      "en": "Larch Composite Bow",
+      "fr": "Arc composite en mélèze",
+      "ja": "ラーチコンポジットボウ"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 40,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Larch Lumber",
+      "de": "Lärchen-Bauholz",
+      "en": "Larch Lumber",
+      "fr": "Madrier de mélèze",
+      "ja": "ラーチ材"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Larch Spinning Wheel",
+      "de": "Lärchen-Spinnrad",
+      "en": "Larch Spinning Wheel",
+      "fr": "Rouet en mélèze",
+      "ja": "ラーチスピニングホイール"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Larch Wand",
+      "de": "Lärchenzweig",
+      "en": "Larch Wand",
+      "fr": "Baguette en mélèze",
+      "ja": "ラーチワンド"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Stiperstone Grinding Wheel",
+      "de": "Quarzit-Schleifrad",
+      "en": "Stiperstone Grinding Wheel",
+      "fr": "Meule de quartzite",
+      "ja": "スタイパーストーン・グラインディングホイール"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Larch Bracelets",
+      "de": "Lärchen-Armreife",
+      "en": "Larch Bracelets",
+      "fr": "Bracelets en mélèze",
+      "ja": "ラーチブレスレット"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Larch Earrings",
+      "de": "Lärchen-Ohrringe",
+      "en": "Larch Earrings",
+      "fr": "Boucles d'oreilles en mélèze",
+      "ja": "ラーチイヤリング"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Larch Necklace",
+      "de": "Lärchen-Halsband",
+      "en": "Larch Necklace",
+      "fr": "Collier en mélèze",
+      "ja": "ラーチネックレス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Larch Ring",
+      "de": "Lärchen-Ring",
+      "en": "Larch Ring",
+      "fr": "Bague en mélèze",
+      "ja": "ラーチリング"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1377,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5741,
+    "name": {
+      "cn": "Lavish Dressing Case",
+      "de": "Hochwertiger Schminkkasten",
+      "en": "Lavish Dressing Case",
+      "fr": "Boîte à maquillage fastueuse",
+      "ja": "高級化粧箱"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 3542,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5219,
+    "name": {
+      "cn": "Oriental Pipe Box",
+      "de": "Fernöstlicher Pfeifenkasten",
+      "en": "Oriental Pipe Box",
+      "fr": "Nécessaire à pipe oriental",
+      "ja": "東方風キセル箱"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Doman Iron Lance",
+      "de": "Domaeisen-Lanze",
+      "en": "Doman Iron Lance",
+      "fr": "Lance en fer domien",
+      "ja": "ドマアイアンランス"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Pine Cane",
+      "de": "Kiefernstock",
+      "en": "Pine Cane",
+      "fr": "Canne en pin",
+      "ja": "パインケーン"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Pine Composite Bow",
+      "de": "Kiefern-Kompositbogen",
+      "en": "Pine Composite Bow",
+      "fr": "Arc composite en pin",
+      "ja": "パインコンポジットボウ"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 40,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "松木木材",
+      "de": "Kiefern-Bauholz",
+      "en": "Pine Lumber",
+      "fr": "Madrier de pin",
+      "ja": "パイン材"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 4075,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 5631,
+    "name": {
+      "cn": "Oriental Dressing Case",
+      "de": "Fernöstlicher Schminkkasten",
+      "en": "Oriental Dressing Case",
+      "fr": "Boîte à maquillage orientale",
+      "ja": "東方風化粧箱"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Pine Fishing Rod",
+      "de": "Kiefern-Angelrute",
+      "en": "Pine Fishing Rod",
+      "fr": "Canne à pêche en pin",
+      "ja": "パインフィッシングロッド"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Pine Spinning Wheel",
+      "de": "Kiefern-Spinnrad",
+      "en": "Pine Spinning Wheel",
+      "fr": "Rouet en pin",
+      "ja": "パインスピニングホイール"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Slate Grinding Wheel",
+      "de": "Schiefer-Schleifrad",
+      "en": "Slate Grinding Wheel",
+      "fr": "Meule en ardoise",
+      "ja": "スレートグラインディングホイール"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 1584,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 6194,
+    "name": {
+      "cn": "Stylish Pipe Box",
+      "de": "Hochwertiger Pfeifenkasten",
+      "en": "Stylish Pipe Box",
+      "fr": "Nécessaire à pipe luxueux",
+      "ja": "高級キセル箱"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Doman Steel Halberd",
+      "de": "Domastahl-Hellebarde",
+      "en": "Doman Steel Halberd",
+      "fr": "Hallebarde en acier domien",
+      "ja": "ドマスチールハルバード"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Gazelle Horn Fishing Rod",
+      "de": "Gazellenhorn-Angelrute",
+      "en": "Gazelle Horn Fishing Rod",
+      "fr": "Canne à pêche en corne de gazelle",
+      "ja": "ガゼルホーン・フィッシングロッド"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Persimmon Bow",
+      "de": "Kaki-Bogen",
+      "en": "Persimmon Bow",
+      "fr": "Arc en plaqueminier",
+      "ja": "パーシモンボウ"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Persimmon Cane",
+      "de": "Kaki-Hirtenstock",
+      "en": "Persimmon Cane",
+      "fr": "Canne en plaqueminier",
+      "ja": "パーシモンケーン"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 40,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Persimmon Lumber",
+      "de": "Kaki-Bauholz",
+      "en": "Persimmon Lumber",
+      "fr": "Madrier de plaqueminier",
+      "ja": "パーシモン材"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Persimmon Bracelets",
+      "de": "Kaki-Armreife",
+      "en": "Persimmon Bracelets",
+      "fr": "Bracelets en plaqueminier",
+      "ja": "パーシモンブレスレット"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Persimmon Earrings",
+      "de": "Kaki-Ohrringe",
+      "en": "Persimmon Earrings",
+      "fr": "Boucles d'oreilles en plaqueminier",
+      "ja": "パーシモンイヤリング"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Persimmon Necklace",
+      "de": "Kaki-Halsband",
+      "en": "Persimmon Necklace",
+      "fr": "Collier en plaqueminier",
+      "ja": "パーシモンネックレス"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Persimmon Ring",
+      "de": "Kaki-Ring",
+      "en": "Persimmon Ring",
+      "fr": "Bague en plaqueminier",
+      "ja": "パーシモンリング"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Persimmon Spinning Wheel",
+      "de": "Kaki-Spinnrad",
+      "en": "Persimmon Spinning Wheel",
+      "fr": "Rouet en plaqueminier",
+      "ja": "パーシモンスピニングホイール"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Polished Slate Grinding Wheel",
+      "de": "Poliertes Schiefer-Schleifrad",
+      "en": "Polished Slate Grinding Wheel",
+      "fr": "Meule en ardoise renforcée",
+      "ja": "スレートグラインディングホイールDX"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 4870,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Doman Partition",
+      "de": "Domanischer Wandschirm",
+      "en": "Doman Partition",
+      "fr": "Paravent domien",
+      "ja": "ドマ風衝立"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Trident",
+      "de": "Molybdän-Dreizack",
+      "en": "Molybdenum Trident",
+      "fr": "Trident en molybdène",
+      "ja": "モリブデントライデント"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1894,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6875,
+    "name": {
+      "cn": "Ornate Partition",
+      "de": "Hochwertiger Wandschirm",
+      "en": "Ornate Partition",
+      "fr": "Paravent ornementé",
+      "ja": "高級衝立"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Zelkova Cane",
+      "de": "Zelkoven-Rute",
+      "en": "Zelkova Cane",
+      "fr": "Canne en zelkova",
+      "ja": "ゼルコバケーン"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Zelkova Longbow",
+      "de": "Zelkoven-Langbogen",
+      "en": "Zelkova Longbow",
+      "fr": "Arc long en zelkova",
+      "ja": "ゼルコバロングボウ"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 40,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Zelkova Lumber",
+      "de": "Zelkoven-Bauholz",
+      "en": "Zelkova Lumber",
+      "fr": "Madrier de zelkova",
+      "ja": "ゼルコバ材"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Zelkova Bracelets",
+      "de": "Zelkoven-Armreife",
+      "en": "Zelkova Bracelets",
+      "fr": "Bracelets en zelkova",
+      "ja": "ゼルコバブレスレット"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Zelkova Earrings",
+      "de": "Zelkoven-Ohrringe",
+      "en": "Zelkova Earrings",
+      "fr": "Boucles d'oreilles en zelkova",
+      "ja": "ゼルコバイヤリング"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Zelkova Necklace",
+      "de": "Zelkoven-Halsband",
+      "en": "Zelkova Necklace",
+      "fr": "Collier en zelkova",
+      "ja": "ゼルコバネックレス"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Zelkova Ring",
+      "de": "Zelkoven-Ring",
+      "en": "Zelkova Ring",
+      "fr": "Bague en zelkova",
+      "ja": "ゼルコバリング"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Almandine Grinding Wheel",
+      "de": "Almandin-Schleifrad",
+      "en": "Almandine Grinding Wheel",
+      "fr": "Meule en almandin",
+      "ja": "アルマンディングラインディングホイール"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 5313,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 6593,
+    "name": {
+      "cn": "Eastern Teahouse Bench",
+      "de": "Fernöstliches Teehaus-Möbelset",
+      "en": "Eastern Teahouse Bench",
+      "fr": "Meubles de salon de thé oriental",
+      "ja": "東方風茶屋床机"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Teahouse Bench",
+      "de": "Teehaus-Möbelset",
+      "en": "Teahouse Bench",
+      "fr": "Set de pique-nique oriental douillet",
+      "ja": "茶屋床机"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Zelkova Fishing Rod",
+      "de": "Zelkoven-Angelrute",
+      "en": "Zelkova Fishing Rod",
+      "fr": "Canne à pêche en zelkova",
+      "ja": "ゼルコバフィッシングロッド"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Zelkova Spinning Wheel",
+      "de": "Zelkoven-Spinnrad",
+      "en": "Zelkova Spinning Wheel",
+      "fr": "Rouet en zelkova",
+      "ja": "ゼルコバスピニングホイール"
+    }
   }
 ]

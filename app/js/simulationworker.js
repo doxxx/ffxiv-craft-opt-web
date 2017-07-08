@@ -44,6 +44,7 @@ function setupSim(settings) {
     settings.crafter.craftsmanship,
     settings.crafter.control,
     settings.crafter.cp,
+    settings.crafter.specialist,
     crafterActions);
   var recipe = new Recipe(settings.recipe.level,
     settings.recipe.difficulty,
@@ -137,7 +138,8 @@ function runMonteCarloSim(id, settings) {
         violations: violations,
         condition: finalState.condition,
         effects: finalState.effects,
-        lastStep: finalState.lastStep
+        lastStep: finalState.lastStep,
+        bonusMaxCp: finalState.bonusMaxCp
       }
     }
   };

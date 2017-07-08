@@ -411,6 +411,7 @@ div[content*="xivdb"] div.tooltip-arrow {
 .buffs .buff {
   display: inline-block;
   text-align: center;
+  vertical-align: top;
 }
 
 .buff .icon {

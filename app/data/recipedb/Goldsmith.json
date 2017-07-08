@@ -2204,6 +2204,20 @@
     "level": 29,
     "maxQuality": 772,
     "name": {
+      "cn": "Mounted Flower Vase",
+      "de": "Wandblumenvase",
+      "en": "Mounted Flower Vase",
+      "fr": "Pot de fleurs mural",
+      "ja": "ウォールフラワーベース"
+    }
+  },
+  {
+    "baseLevel": 29,
+    "difficulty": 323,
+    "durability": 70,
+    "level": 29,
+    "maxQuality": 772,
+    "name": {
       "cn": "海滨镶钉门",
       "de": "Riviera-Beschlagtür",
       "en": "Riviera Studded Door",
@@ -6794,7 +6808,7 @@
       "cn": "饿狼琥珀手镯",
       "de": "Wolf-Bernstein-Armreif",
       "en": "Wolf Amber Bracelet",
-      "fr": "Bracelet d'ambres de loup",
+      "fr": "Bracelet d'ambre de loup",
       "ja": "ウルフアンバーブレスレット"
     },
     "stars": 1
@@ -6824,7 +6838,7 @@
       "cn": "饿狼琥珀耳坠",
       "de": "Wolf-Bernstein-Ohrringe",
       "en": "Wolf Amber Earrings",
-      "fr": "Boucles d'oreilles d'ambres de loup",
+      "fr": "Boucles d'oreilles d'ambre de loup",
       "ja": "ウルフアンバーイヤリング"
     },
     "stars": 1
@@ -6869,7 +6883,7 @@
       "cn": "饿狼红电气石手镯",
       "de": "Wolf-Rubellit-Armreif",
       "en": "Wolf Rubellite Bracelet",
-      "fr": "Bracelet de rubellites de loup",
+      "fr": "Bracelet de rubellite de loup",
       "ja": "ウルフルベライトブレスレット"
     },
     "stars": 1
@@ -6899,7 +6913,7 @@
       "cn": "饿狼红电气石耳坠",
       "de": "Wolf-Rubellit-Ohrringe",
       "en": "Wolf Rubellite Earrings",
-      "fr": "Boucles d'oreilles de rubellites de loup",
+      "fr": "Boucles d'oreilles de rubellite de loup",
       "ja": "ウルフルベライトイヤリング"
     },
     "stars": 1
@@ -6929,7 +6943,7 @@
       "cn": "饿狼尖晶石手镯",
       "de": "Wolf-Spinell-Armreif",
       "en": "Wolf Spinel Bracelet",
-      "fr": "Bracelet de spinelles de loup",
+      "fr": "Bracelet de spinelle de loup",
       "ja": "ウルフスピネルブレスレット"
     },
     "stars": 1
@@ -6959,7 +6973,7 @@
       "cn": "饿狼尖晶石耳坠",
       "de": "Wolf-Spinell-Ohrringe",
       "en": "Wolf Spinel Earrings",
-      "fr": "Boucles d'oreilles de spinelles de loup",
+      "fr": "Boucles d'oreilles de spinelle de loup",
       "ja": "ウルフスピネルイヤリング"
     },
     "stars": 1
@@ -7004,7 +7018,7 @@
       "cn": "饿狼碧玺手镯",
       "de": "Wolf-Turmalit-Armreif",
       "en": "Wolf Tourmaline Bracelet",
-      "fr": "Bracelet de tourmalines de loup",
+      "fr": "Bracelet de tourmaline de loup",
       "ja": "ウルフトルマリンブレスレット"
     },
     "stars": 1
@@ -7034,7 +7048,7 @@
       "cn": "饿狼碧玺耳坠",
       "de": "Wolf-Turmalit-Ohrringe",
       "en": "Wolf Tourmaline Earrings",
-      "fr": "Boucles d'oreilles de tourmalines de loup",
+      "fr": "Boucles d'oreilles de tourmaline de loup",
       "ja": "ウルフトルマリンイヤリング"
     },
     "stars": 1
@@ -7064,7 +7078,7 @@
       "cn": "饿狼绿松石手镯",
       "de": "Wolf-Türkis-Armreif",
       "en": "Wolf Turquoise Bracelet",
-      "fr": "Bracelet de turquoises de loup",
+      "fr": "Bracelet de turquoise de loup",
       "ja": "ウルフターコイズブレスレット"
     },
     "stars": 1
@@ -7094,7 +7108,7 @@
       "cn": "饿狼绿松石耳坠",
       "de": "Wolf-Türkis-Ohrringe",
       "en": "Wolf Turquoise Earrings",
-      "fr": "Boucles d'oreilles de turquoises de loup",
+      "fr": "Boucles d'oreilles de turquoise de loup",
       "ja": "ウルフターコイズイヤリング"
     },
     "stars": 1
@@ -7124,7 +7138,7 @@
       "cn": "饿狼锆石手镯",
       "de": "Wolf-Zirkon-Armreif",
       "en": "Wolf Zircon Bracelet",
-      "fr": "Bracelet de zircons de loup",
+      "fr": "Bracelet de zircon de loup",
       "ja": "ウルフジルコンブレスレット"
     },
     "stars": 1
@@ -7154,7 +7168,7 @@
       "cn": "饿狼锆石耳坠",
       "de": "Wolf-Zirkon-Ohrringe",
       "en": "Wolf Zircon Earrings",
-      "fr": "Boucles d'oreilles de zircons de loup",
+      "fr": "Boucles d'oreilles de zircon de loup",
       "ja": "ウルフジルコンイヤリング"
     },
     "stars": 1
@@ -7408,7 +7422,7 @@
     "maxQuality": 1460,
     "name": {
       "cn": "黑白方格地板",
-      "de": "Schwarzweißer Fußboden",
+      "de": "Schwarz-weißer Fußboden",
       "en": "Monochrome Flooring",
       "fr": "Carrelage noir et blanc",
       "ja": "モノクロームフローリング"
@@ -8034,6 +8048,22 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "cn": "Honor of the Vortex",
+      "de": "Windgewalten-Ehre",
+      "en": "Honor of the Vortex",
+      "fr": "Calamus des rafales",
+      "ja": "ヴォーテックスオナー"
+    },
+    "stars": 3
+  },
+  {
     "aspect": "Ice",
     "baseLevel": 50,
     "difficulty": 801,
@@ -8062,6 +8092,22 @@
       "en": "Inferno Cudgel",
       "fr": "Masse des flammes",
       "ja": "インフェルノカジェル"
+    },
+    "stars": 3
+  },
+  {
+    "aspect": "Fire",
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "cn": "Inferno Rapier",
+      "de": "Inferno-Rapier",
+      "en": "Inferno Rapier",
+      "fr": "Rapière des flammes",
+      "ja": "インフェルノレイピア"
     },
     "stars": 3
   },
@@ -8200,6 +8246,21 @@
       "en": "Lift of the Vortex",
       "fr": "Poussée des rafales",
       "ja": "ヴォーテックスリフト"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 445,
+    "durability": 80,
+    "level": 90,
+    "maxQuality": 4980,
+    "name": {
+      "cn": "Manipulative Moggle Mogfoil",
+      "de": "Manipulierender Mogul-Mogdegen",
+      "en": "Manipulative Moggle Mogfoil",
+      "fr": "Rapière Moggle Mog",
+      "ja": "モグルモグレイピア"
     },
     "stars": 3
   },
@@ -8566,6 +8627,22 @@
       "en": "Mighty Thunderdome",
       "fr": "Nébuleuse du Patriarche",
       "ja": "レヴィン・サンダースフィア"
+    },
+    "stars": 4
+  },
+  {
+    "aspect": "Lightning",
+    "baseLevel": 50,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 110,
+    "maxQuality": 5783,
+    "name": {
+      "cn": "Mighty Thunderstone",
+      "de": "Rapier des mächtigen Donners",
+      "en": "Mighty Thunderstone",
+      "fr": "Déchirure du Patriarche",
+      "ja": "レヴィン・サンダーストーン"
     },
     "stars": 4
   },
@@ -9059,6 +9136,20 @@
   },
   {
     "baseLevel": 51,
+    "difficulty": 339,
+    "durability": 80,
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "cn": "Mythrite Rapier",
+      "de": "Mythrit-Rapier",
+      "en": "Mythrite Rapier",
+      "fr": "Rapière en mithrite",
+      "ja": "ミスライトレイピア"
+    }
+  },
+  {
+    "baseLevel": 51,
     "difficulty": 421,
     "durability": 80,
     "level": 120,
@@ -9437,6 +9528,20 @@
   },
   {
     "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "cn": "Mythrite Foil",
+      "de": "Mythrit-Florett",
+      "en": "Mythrite Foil",
+      "fr": "Fleuret en mithrite",
+      "ja": "ミスライトフルーレ"
+    }
+  },
+  {
+    "baseLevel": 52,
     "difficulty": 251,
     "durability": 40,
     "level": 125,
@@ -9741,6 +9846,20 @@
       "en": "Hardsilver Nugget",
       "fr": "Pépite de durargent",
       "ja": "ハードシルバーナゲット"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "cn": "Hardsilver Rapier",
+      "de": "Hartsilber-Rapier",
+      "en": "Hardsilver Rapier",
+      "fr": "Rapière en durargent",
+      "ja": "ハードシルバーレイピア"
     }
   },
   {
@@ -10091,6 +10210,20 @@
       "en": "Dragon Fang Needle",
       "fr": "Aiguille en croc de dragon",
       "ja": "ドラゴンファングニードル"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "cn": "Hardsilver Foil",
+      "de": "Hartsilber-Florett",
+      "en": "Hardsilver Foil",
+      "fr": "Fleuret en durargent",
+      "ja": "ハードシルバーフルーレ"
     }
   },
   {
@@ -10637,6 +10770,20 @@
       "en": "Aurum Regis Nugget",
       "fr": "Pépite d'aurum regis",
       "ja": "オーラムレギスナゲット"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Aurum Regis Rapier",
+      "de": "Königsgold-Rapier",
+      "en": "Aurum Regis Rapier",
+      "fr": "Rapière en aurum regis",
+      "ja": "オーラムレギスレイピア"
     }
   },
   {
@@ -11537,6 +11684,22 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "cn": "Dead Hive Rapier",
+      "de": "Rapier der Kolonie",
+      "en": "Dead Hive Rapier",
+      "fr": "Rapière du Maître des lames",
+      "ja": "ハイヴレイピア"
+    },
+    "stars": 2
+  },
+  {
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
@@ -11614,6 +11777,22 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
+    "baseLevel": 60,
+    "difficulty": 1436,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 9430,
+    "name": {
+      "cn": "Endless Expanse Rapier",
+      "de": "Rapier der endlosen Weiten",
+      "en": "Endless Expanse Rapier",
+      "fr": "Rapière du Migrateur",
+      "ja": "エクスパンスレイピア"
+    },
+    "stars": 2
+  },
+  {
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
@@ -11670,6 +11849,21 @@
       "en": "Gemmaster's Coronal",
       "fr": "Parure de front d'expert des gemmes",
       "ja": "ジェムマスターコロナ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "cn": "House Fortemps Chandelier",
+      "de": "Fortemps-Kronleuchter",
+      "en": "House Fortemps Chandelier",
+      "fr": "Lustre du manoir des Fortemps",
+      "ja": "フォルタン・シャンデリア"
     },
     "stars": 2
   },
@@ -11865,6 +12059,21 @@
       "en": "Sky Pirate's Mask of Striking",
       "fr": "Masque d'agresseur de pirate des cieux",
       "ja": "スカイパイレーツ・ストライカーマスク"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "level": 170,
+    "maxQuality": 4715,
+    "name": {
+      "cn": "Table Orchestrion",
+      "de": "Tisch-Orchestrion",
+      "en": "Table Orchestrion",
+      "fr": "Orchestrion de table",
+      "ja": "テーブルオーケストリオン"
     },
     "stars": 2
   },
@@ -12195,6 +12404,21 @@
       "en": "Nidhogg Miniature",
       "fr": "Figurine magitek de Nidhogg",
       "ja": "MGニーズヘッグ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Rapier of the Round",
+      "de": "Rapier der Runde",
+      "en": "Rapier of the Round",
+      "fr": "Rapière de la Table ronde",
+      "ja": "レイピア・オブ・ラウンド"
     },
     "stars": 3
   },
@@ -12677,5 +12901,2317 @@
       "ja": "ソフィア・バード"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Koppranickel Armlets of Casting",
+      "de": "Kupfernickel-Armreife der Magie",
+      "en": "Koppranickel Armlets of Casting",
+      "fr": "Brassards d'incantateur en cupronickel",
+      "ja": "キュプロキャスターアームレット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Koppranickel Armlets of Healing",
+      "de": "Kupfernickel-Armreife der Heilung",
+      "en": "Koppranickel Armlets of Healing",
+      "fr": "Brassards de soigneur en cupronickel",
+      "ja": "キュプロヒーラーアームレット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 40,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Koppranickel Nugget",
+      "de": "Kupfernickel-Nugget",
+      "en": "Koppranickel Nugget",
+      "fr": "Pépite de cupronickel",
+      "ja": "キュプロナゲット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 40,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane",
+      "de": "Triphan",
+      "en": "Triphane",
+      "fr": "Triphane",
+      "ja": "トリフェーン"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Bracelet of Aiming",
+      "de": "Triphan-Armreif des Zielens",
+      "en": "Triphane Bracelet of Aiming",
+      "fr": "Bracelet de pisteur de triphanes",
+      "ja": "トリフェーンレンジャーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Bracelet of Casting",
+      "de": "Triphan-Armreif der Magie",
+      "en": "Triphane Bracelet of Casting",
+      "fr": "Bracelet d'incantateur de triphanes",
+      "ja": "トリフェーンキャスターブレスレット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Bracelet of Fending",
+      "de": "Triphan-Armreif der Verteidigung",
+      "en": "Triphane Bracelet of Fending",
+      "fr": "Bracelet de protecteur de triphanes",
+      "ja": "トリフェーンディフェンダーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Bracelet of Healing",
+      "de": "Triphan-Armreif der Heilung",
+      "en": "Triphane Bracelet of Healing",
+      "fr": "Bracelet de soigneur de triphanes",
+      "ja": "トリフェーンヒーラーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Bracelet of Slaying",
+      "de": "Triphan-Armreif des Schlachtens",
+      "en": "Triphane Bracelet of Slaying",
+      "fr": "Bracelet d'attaquant de triphanes",
+      "ja": "トリフェーンアタッカーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Ring of Aiming",
+      "de": "Triphan-Ring des Zielens",
+      "en": "Triphane Ring of Aiming",
+      "fr": "Bague de pisteur en triphane",
+      "ja": "トリフェーンレンジャーリング"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Ring of Casting",
+      "de": "Triphan-Ring der Magie",
+      "en": "Triphane Ring of Casting",
+      "fr": "Bague d'incantateur en triphane",
+      "ja": "トリフェーンキャスターリング"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Ring of Fending",
+      "de": "Triphan-Ring der Verteidigung",
+      "en": "Triphane Ring of Fending",
+      "fr": "Bague de protecteur en triphane",
+      "ja": "トリフェーンディフェンダーリング"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Ring of Healing",
+      "de": "Triphan-Ring der Heilung",
+      "en": "Triphane Ring of Healing",
+      "fr": "Bague de soigneur en triphane",
+      "ja": "トリフェーンヒーラーリング"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "Triphane Ring of Slaying",
+      "de": "Triphan-Ring des Schlachtens",
+      "en": "Triphane Ring of Slaying",
+      "fr": "Bague d'attaquant en triphane",
+      "ja": "トリフェーンアタッカーリング"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Bombfish Needle",
+      "de": "Igelbomber-Nadel",
+      "en": "Bombfish Needle",
+      "fr": "Aiguille poisson-bombo",
+      "ja": "ボムフィッシュニードル"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Koppranickel Foil",
+      "de": "Kupfernickel-Florett",
+      "en": "Koppranickel Foil",
+      "fr": "Fleuret en cupronickel",
+      "ja": "キュプロフルーレ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Koppranickel Planisphere",
+      "de": "Kupfernickel-Planisphäre",
+      "en": "Koppranickel Planisphere",
+      "fr": "Planisphère en cupronickel",
+      "ja": "キュプロプラニスフィア"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Koppranickel Staff",
+      "de": "Kupfernickel-Stab",
+      "en": "Koppranickel Staff",
+      "fr": "Bâton en cupronickel",
+      "ja": "キュプロスタッフ"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Koppranickel Turban of Scouting",
+      "de": "Kupfernickel-Turban des Spähens",
+      "en": "Koppranickel Turban of Scouting",
+      "fr": "Turban d'éclaireur en cupronickel",
+      "ja": "キュプロスカウトターバン"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Koppranickel Turban of Striking",
+      "de": "Kupfernickel-Turban des Schlagens",
+      "en": "Koppranickel Turban of Striking",
+      "fr": "Turban d'agresseur en cupronickel",
+      "ja": "キュプロストライカーターバン"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 700,
+    "durability": 40,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Slate Whetstone",
+      "de": "Schiefer-Wetzstein",
+      "en": "Slate Whetstone",
+      "fr": "Pierre à aiguiser en ardoise",
+      "ja": "粘板岩砥石"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Choker of Aiming",
+      "de": "Triphan-Halsberge des Zielens",
+      "en": "Triphane Choker of Aiming",
+      "fr": "Ras de cou de pisteur en triphane",
+      "ja": "トリフェーンレンジャーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Choker of Casting",
+      "de": "Triphan-Halsberge der Magie",
+      "en": "Triphane Choker of Casting",
+      "fr": "Ras de cou d'incantateur en triphane",
+      "ja": "トリフェーンキャスターチョーカー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Choker of Fending",
+      "de": "Triphan-Halsberge der Verteidigung",
+      "en": "Triphane Choker of Fending",
+      "fr": "Ras de cou de protecteur en triphane",
+      "ja": "トリフェーンディフェンダーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Choker of Healing",
+      "de": "Triphan-Halsberge der Heilung",
+      "en": "Triphane Choker of Healing",
+      "fr": "Ras de cou de soigneur en triphane",
+      "ja": "トリフェーンヒーラーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Choker of Slaying",
+      "de": "Triphan-Halsberge des Schlachtens",
+      "en": "Triphane Choker of Slaying",
+      "fr": "Ras de cou d'attaquant en triphane",
+      "ja": "トリフェーンアタッカーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Earrings of Aiming",
+      "de": "Triphan-Ohrringe des Zielens",
+      "en": "Triphane Earrings of Aiming",
+      "fr": "Boucles d'oreilles de pisteur de triphanes",
+      "ja": "トリフェーンレンジャーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Earrings of Casting",
+      "de": "Triphan-Ohrringe der Magie",
+      "en": "Triphane Earrings of Casting",
+      "fr": "Boucles d'oreilles d'incantateur de triphanes",
+      "ja": "トリフェーンキャスターイヤリング"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Earrings of Fending",
+      "de": "Triphan-Ohrringe der Verteidigung",
+      "en": "Triphane Earrings of Fending",
+      "fr": "Boucles d'oreilles de protecteur de triphanes",
+      "ja": "トリフェーンディフェンダーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Earrings of Healing",
+      "de": "Triphan-Ohrringe der Heilung",
+      "en": "Triphane Earrings of Healing",
+      "fr": "Boucles d'oreilles de soigneur de triphanes",
+      "ja": "トリフェーンヒーラーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Triphane Earrings of Slaying",
+      "de": "Triphan-Ohrringe des Schlachtens",
+      "en": "Triphane Earrings of Slaying",
+      "fr": "Boucles d'oreilles d'attaquant de triphanes",
+      "ja": "トリフェーンアタッカーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Koppranickel Bracelet of Aiming",
+      "de": "Kupfernickel-Armband des Zielens",
+      "en": "Koppranickel Bracelet of Aiming",
+      "fr": "Bracelet de pisteur en cupronickel",
+      "ja": "キュプロレンジャーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Koppranickel Bracelet of Casting",
+      "de": "Kupfernickel-Armband der Magie",
+      "en": "Koppranickel Bracelet of Casting",
+      "fr": "Bracelet d'incantateur en cupronickel",
+      "ja": "キュプロキャスターブレスレット"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Koppranickel Bracelet of Fending",
+      "de": "Kupfernickel-Armband der Verteidigung",
+      "en": "Koppranickel Bracelet of Fending",
+      "fr": "Bracelet de protecteur en cupronickel",
+      "ja": "キュプロディフェンダーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Koppranickel Bracelet of Healing",
+      "de": "Kupfernickel-Armband der Heilung",
+      "en": "Koppranickel Bracelet of Healing",
+      "fr": "Bracelet de soigneur en cupronickel",
+      "ja": "キュプロヒーラーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Koppranickel Bracelet of Slaying",
+      "de": "Kupfernickel-Armband des Schlachtens",
+      "en": "Koppranickel Bracelet of Slaying",
+      "fr": "Bracelet d'attaquant en cupronickel",
+      "ja": "キュプロアタッカーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 40,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Koppranickel Ingot",
+      "de": "Kupfernickel-Barren",
+      "en": "Koppranickel Ingot",
+      "fr": "Lingot de cupronickel",
+      "ja": "キュプロインゴット"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 40,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Kyanite",
+      "de": "Kyanit",
+      "en": "Kyanite",
+      "fr": "Disthène",
+      "ja": "カイヤナイト"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Muudhorn Ring of Aiming",
+      "de": "Muhtsuhorn-Ring des Zielens",
+      "en": "Muudhorn Ring of Aiming",
+      "fr": "Bague de pisteur en corne de moudsoud",
+      "ja": "ムードスードホーン・レンジャーリング"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Muudhorn Ring of Casting",
+      "de": "Muhtsuhorn-Ring der Magie",
+      "en": "Muudhorn Ring of Casting",
+      "fr": "Bague d'incantateur en corne de moudsoud",
+      "ja": "ムードスードホーン・キャスターリング"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Muudhorn Ring of Fending",
+      "de": "Muhtsuhorn-Ring der Verteidigung",
+      "en": "Muudhorn Ring of Fending",
+      "fr": "Bague de protecteur en corne de moudsoud",
+      "ja": "ムードスードホーン・ディフェンダーリング"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Muudhorn Ring of Healing",
+      "de": "Muhtsuhorn-Ring der Heilung",
+      "en": "Muudhorn Ring of Healing",
+      "fr": "Bague de soigneur en corne de moudsoud",
+      "ja": "ムードスードホーン・ヒーラーリング"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 9752,
+    "name": {
+      "cn": "Muudhorn Ring of Slaying",
+      "de": "Muhtsuhorn-Ring des Schlachtens",
+      "en": "Muudhorn Ring of Slaying",
+      "fr": "Bague d'attaquant en corne de moudsoud",
+      "ja": "ムードスードホーン・アタッカーリング"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Dual-plated Koppranickel Planisphere",
+      "de": "Doppelt beschichtete Kupfernickel-Planisphäre",
+      "en": "Dual-plated Koppranickel Planisphere",
+      "fr": "Planisphère en cupronickel renforcé",
+      "ja": "キュプロプラニスフィアDX"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Earrings of Aiming",
+      "de": "Kupfernickel-Ohrringe des Zielens",
+      "en": "Koppranickel Earrings of Aiming",
+      "fr": "Pendants d'oreilles de pisteur en cupronickel",
+      "ja": "キュプロレンジャーピアス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Earrings of Casting",
+      "de": "Kupfernickel-Ohrringe der Magie",
+      "en": "Koppranickel Earrings of Casting",
+      "fr": "Pendants d'oreilles d'incantateur en cupronickel",
+      "ja": "キュプロキャスターピアス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Earrings of Fending",
+      "de": "Kupfernickel-Ohrringe der Verteidigung",
+      "en": "Koppranickel Earrings of Fending",
+      "fr": "Pendants d'oreilles de protecteur en cupronickel",
+      "ja": "キュプロディフェンダーピアス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Earrings of Healing",
+      "de": "Kupfernickel-Ohrringe der Heilung",
+      "en": "Koppranickel Earrings of Healing",
+      "fr": "Pendants d'oreilles de soigneur en cupronickel",
+      "ja": "キュプロヒーラーピアス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Earrings of Slaying",
+      "de": "Kupfernickel-Ohrringe des Schlachtens",
+      "en": "Koppranickel Earrings of Slaying",
+      "fr": "Pendants d'oreilles d'attaquant en cupronickel",
+      "ja": "キュプロアタッカーピアス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Necklace of Aiming",
+      "de": "Kupfernickel-Halsband des Zielens",
+      "en": "Koppranickel Necklace of Aiming",
+      "fr": "Collier de pisteur en cupronickel",
+      "ja": "キュプロレンジャーネックレス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Necklace of Casting",
+      "de": "Kupfernickel-Halsband der Magie",
+      "en": "Koppranickel Necklace of Casting",
+      "fr": "Collier d'incantateur en cupronickel",
+      "ja": "キュプロキャスターネックレス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Necklace of Fending",
+      "de": "Kupfernickel-Halsband der Verteidigung",
+      "en": "Koppranickel Necklace of Fending",
+      "fr": "Collier de protecteur en cupronickel",
+      "ja": "キュプロディフェンダーネックレス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Necklace of Healing",
+      "de": "Kupfernickel-Halsband der Heilung",
+      "en": "Koppranickel Necklace of Healing",
+      "fr": "Collier de soigneur en cupronickel",
+      "ja": "キュプロヒーラーネックレス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Necklace of Slaying",
+      "de": "Kupfernickel-Halsband des Schlachtens",
+      "en": "Koppranickel Necklace of Slaying",
+      "fr": "Collier d'attaquant en cupronickel",
+      "ja": "キュプロアタッカーネックレス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Pole",
+      "de": "Kupfernickel-Stecken",
+      "en": "Koppranickel Pole",
+      "fr": "Perche en cupronickel",
+      "ja": "キュプロポール"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Rapier",
+      "de": "Kupfernickel-Rapier",
+      "en": "Koppranickel Rapier",
+      "fr": "Rapière en cupronickel",
+      "ja": "キュプロレイピア"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 10439,
+    "name": {
+      "cn": "Koppranickel Temple Chain",
+      "de": "Kupfernickel-Tempelkette der Heilung",
+      "en": "Koppranickel Temple Chain",
+      "fr": "Chaîne monastique en cupronickel",
+      "ja": "キュプロテンプルチェーン"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1377,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5741,
+    "name": {
+      "cn": "Sample Silver Ring",
+      "de": "Muster-Silberring",
+      "en": "Sample Silver Ring",
+      "fr": "Modèle de bague en argent",
+      "ja": "手本用シルバーリング"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 40,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Durium Nugget",
+      "de": "Durium-Nugget",
+      "en": "Durium Nugget",
+      "fr": "Pépite de durium",
+      "ja": "ダリウムナゲット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 40,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel",
+      "de": "Sternspinell",
+      "en": "Star Spinel",
+      "fr": "Spinelle étoilé",
+      "ja": "スタースピネル"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Bracelet of Aiming",
+      "de": "Sternspinell-Armreif des Zielens",
+      "en": "Star Spinel Bracelet of Aiming",
+      "fr": "Bracelet de pisteur de spinelles étoilés",
+      "ja": "スタースピネル・レンジャーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Bracelet of Casting",
+      "de": "Sternspinell-Armreif der Magie",
+      "en": "Star Spinel Bracelet of Casting",
+      "fr": "Bracelet d'incantateur de spinelles étoilés",
+      "ja": "スタースピネル・キャスターブレスレット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Bracelet of Fending",
+      "de": "Sternspinell-Armreif der Verteidigung",
+      "en": "Star Spinel Bracelet of Fending",
+      "fr": "Bracelet de protecteur de spinelles étoilés",
+      "ja": "スタースピネル・ディフェンダーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Bracelet of Healing",
+      "de": "Sternspinell-Armreif der Heilung",
+      "en": "Star Spinel Bracelet of Healing",
+      "fr": "Bracelet de soigneur de spinelles étoilés",
+      "ja": "スタースピネル・ヒーラーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Bracelet of Slaying",
+      "de": "Sternspinell-Armreif des Schlachtens",
+      "en": "Star Spinel Bracelet of Slaying",
+      "fr": "Bracelet d'attaquant de spinelles étoilés",
+      "ja": "スタースピネル・アタッカーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Ring of Aiming",
+      "de": "Sternspinell-Ring des Zielens",
+      "en": "Star Spinel Ring of Aiming",
+      "fr": "Bague de pisteur en spinelle étoilé",
+      "ja": "スタースピネル・レンジャーリング"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Ring of Casting",
+      "de": "Sternspinell-Ring der Magie",
+      "en": "Star Spinel Ring of Casting",
+      "fr": "Bague d'incantateur en spinelle étoilé",
+      "ja": "スタースピネル・キャスターリング"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Ring of Fending",
+      "de": "Sternspinell-Ring der Verteidigung",
+      "en": "Star Spinel Ring of Fending",
+      "fr": "Bague de protecteur en spinelle étoilé",
+      "ja": "スタースピネル・ディフェンダーリング"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Ring of Healing",
+      "de": "Sternspinell-Ring der Heilung",
+      "en": "Star Spinel Ring of Healing",
+      "fr": "Bague de soigneur en spinelle étoilé",
+      "ja": "スタースピネル・ヒーラーリング"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Star Spinel Ring of Slaying",
+      "de": "Sternspinell-Ring des Schlachtens",
+      "en": "Star Spinel Ring of Slaying",
+      "fr": "Bague d'attaquant en spinelle étoilé",
+      "ja": "スタースピネル・アタッカーリング"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Durium Astrometer",
+      "de": "Durium-Astrometer",
+      "en": "Durium Astrometer",
+      "fr": "Astromètre en durium",
+      "ja": "ダリウムアストロメーター"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Durium Chaplets",
+      "de": "Durium-Ringbänder",
+      "en": "Durium Chaplets",
+      "fr": "Chapelets en durium",
+      "ja": "ダリウムチャプレット"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Durium Hairpin of Fending",
+      "de": "Durium-Haarnadel der Verteidigung",
+      "en": "Durium Hairpin of Fending",
+      "fr": "Barrette de protecteur en durium",
+      "ja": "ダリウムディフェンダーヘアピン"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Durium Hairpin of Maiming",
+      "de": "Durium-Haarnadel des Verstümmelns",
+      "en": "Durium Hairpin of Maiming",
+      "fr": "Barrette d'abatteur en durium",
+      "ja": "ダリウムスレイヤーヘアピン"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Durium Smallsword",
+      "de": "Durium-Rapier",
+      "en": "Durium Smallsword",
+      "fr": "Petite épée en durium",
+      "ja": "ダリウムスモールソード"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Durium Staff",
+      "de": "Durium-Stab",
+      "en": "Durium Staff",
+      "fr": "Bâton en durium",
+      "ja": "ダリウムスタッフ"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Dzo Horn Needle",
+      "de": "Dzohorn-Nadel",
+      "en": "Dzo Horn Needle",
+      "fr": "Aiguille en corne de hainag",
+      "ja": "ブルホーンニードル"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 1584,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 6194,
+    "name": {
+      "cn": "Precision Spectacles",
+      "de": "Spezialbrille",
+      "en": "Precision Spectacles",
+      "fr": "Lunettes raffinées",
+      "ja": "高精度の眼鏡"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Choker of Aiming",
+      "de": "Sternspinell-Halsberge des Zielens",
+      "en": "Star Spinel Choker of Aiming",
+      "fr": "Ras de cou de pisteur en spinelle étoilé",
+      "ja": "スタースピネル・レンジャーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Choker of Casting",
+      "de": "Sternspinell-Halsberge der Magie",
+      "en": "Star Spinel Choker of Casting",
+      "fr": "Ras de cou d'incantateur en spinelle étoilé",
+      "ja": "スタースピネル・キャスターチョーカー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Choker of Fending",
+      "de": "Sternspinell-Halsberge der Verteidigung",
+      "en": "Star Spinel Choker of Fending",
+      "fr": "Ras de cou de protecteur en spinelle étoilé",
+      "ja": "スタースピネル・ディフェンダーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Choker of Healing",
+      "de": "Sternspinell-Halsberge der Heilung",
+      "en": "Star Spinel Choker of Healing",
+      "fr": "Ras de cou de soigneur en spinelle étoilé",
+      "ja": "スタースピネル・ヒーラーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Choker of Slaying",
+      "de": "Sternspinell-Halsberge des Schlachtens",
+      "en": "Star Spinel Choker of Slaying",
+      "fr": "Ras de cou d'attaquant en spinelle étoilé",
+      "ja": "スタースピネル・アタッカーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Earrings of Aiming",
+      "de": "Sternspinell-Ohrringe des Zielens",
+      "en": "Star Spinel Earrings of Aiming",
+      "fr": "Boucles d'oreilles de pisteur de spinelles étoilés",
+      "ja": "スタースピネル・レンジャーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Earrings of Casting",
+      "de": "Sternspinell-Ohrringe der Magie",
+      "en": "Star Spinel Earrings of Casting",
+      "fr": "Boucles d'oreilles d'incantateur de spinelles étoilés",
+      "ja": "スタースピネル・キャスターイヤリング"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Earrings of Fending",
+      "de": "Sternspinell-Ohrringe der Verteidigung",
+      "en": "Star Spinel Earrings of Fending",
+      "fr": "Boucles d'oreilles de protecteur de spinelles étoilés",
+      "ja": "スタースピネル・ディフェンダーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Earrings of Healing",
+      "de": "Sternspinell-Ohrringe der Heilung",
+      "en": "Star Spinel Earrings of Healing",
+      "fr": "Boucles d'oreilles de soigneur de spinelles étoilés",
+      "ja": "スタースピネル・ヒーラーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Star Spinel Earrings of Slaying",
+      "de": "Sternspinell-Ohrringe des Schlachtens",
+      "en": "Star Spinel Earrings of Slaying",
+      "fr": "Boucles d'oreilles d'attaquant de spinelles étoilés",
+      "ja": "スタースピネル・アタッカーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 40,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite",
+      "de": "Azurit",
+      "en": "Azurite",
+      "fr": "Azurite",
+      "ja": "アズライト"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Bracelet of Aiming",
+      "de": "Azurit-Armreif des Zielens",
+      "en": "Azurite Bracelet of Aiming",
+      "fr": "Bracelet de pisteur en azurite",
+      "ja": "アズライトレンジャーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Bracelet of Casting",
+      "de": "Azurit-Armreif der Magie",
+      "en": "Azurite Bracelet of Casting",
+      "fr": "Bracelet d'incantateur en azurite",
+      "ja": "アズライトキャスターブレスレット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Bracelet of Fending",
+      "de": "Azurit-Armreif der Verteidigung",
+      "en": "Azurite Bracelet of Fending",
+      "fr": "Bracelet de protecteur en azurite",
+      "ja": "アズライトディフェンダーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Bracelet of Healing",
+      "de": "Azurit-Armreif der Heilung",
+      "en": "Azurite Bracelet of Healing",
+      "fr": "Bracelet de soigneur en azurite",
+      "ja": "アズライトヒーラーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Bracelet of Slaying",
+      "de": "Azurit-Armreif des Schlachtens",
+      "en": "Azurite Bracelet of Slaying",
+      "fr": "Bracelet d'attaquant en azurite",
+      "ja": "アズライトアタッカーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Ring of Aiming",
+      "de": "Azurit-Ring des Zielens",
+      "en": "Azurite Ring of Aiming",
+      "fr": "Bague de pisteur en azurite",
+      "ja": "アズライトレンジャーリング"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Ring of Casting",
+      "de": "Azurit-Ring der Magie",
+      "en": "Azurite Ring of Casting",
+      "fr": "Bague d'incantateur en azurite",
+      "ja": "アズライトキャスターリング"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Ring of Fending",
+      "de": "Azurit-Ring der Verteidigung",
+      "en": "Azurite Ring of Fending",
+      "fr": "Bague de protecteur en azurite",
+      "ja": "アズライトディフェンダーリング"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Ring of Healing",
+      "de": "Azurit-Ring der Heilung",
+      "en": "Azurite Ring of Healing",
+      "fr": "Bague de soigneur en azurite",
+      "ja": "アズライトヒーラーリング"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Azurite Ring of Slaying",
+      "de": "Azurit-Ring des Schlachtens",
+      "en": "Azurite Ring of Slaying",
+      "fr": "Bague d'attaquant en azurite",
+      "ja": "アズライトアタッカーリング"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 40,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Durium Ingot",
+      "de": "Durium-Barren",
+      "en": "Durium Ingot",
+      "fr": "Lingot de durium",
+      "ja": "ダリウムインゴット"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Gazelle Horn Needle",
+      "de": "Gazellenhorn-Nadel",
+      "en": "Gazelle Horn Needle",
+      "fr": "Aiguille en corne de gazelle",
+      "ja": "ガゼルホーンニードル"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Choker of Aiming",
+      "de": "Azurit-Halsberge des Zielens",
+      "en": "Azurite Choker of Aiming",
+      "fr": "Ras de cou de pisteur en azurite",
+      "ja": "アズライトレンジャーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Choker of Casting",
+      "de": "Azurit-Halsberge der Magie",
+      "en": "Azurite Choker of Casting",
+      "fr": "Ras de cou d'incantateur en azurite",
+      "ja": "アズライトキャスターチョーカー"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Choker of Fending",
+      "de": "Azurit-Halsberge der Verteidigung",
+      "en": "Azurite Choker of Fending",
+      "fr": "Ras de cou de protecteur en azurite",
+      "ja": "アズライトディフェンダーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Choker of Healing",
+      "de": "Azurit-Halsberge der Heilung",
+      "en": "Azurite Choker of Healing",
+      "fr": "Ras de cou de soigneur en azurite",
+      "ja": "アズライトヒーラーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Choker of Slaying",
+      "de": "Azurit-Halsberge des Schlachtens",
+      "en": "Azurite Choker of Slaying",
+      "fr": "Ras de cou d'attaquant en azurite",
+      "ja": "アズライトアタッカーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Earrings of Aiming",
+      "de": "Azurit-Ohrringe des Zielens",
+      "en": "Azurite Earrings of Aiming",
+      "fr": "Boucles d'oreilles de pisteur en azurite",
+      "ja": "アズライトレンジャーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Earrings of Casting",
+      "de": "Azurit-Ohrringe der Magie",
+      "en": "Azurite Earrings of Casting",
+      "fr": "Boucles d'oreilles d'incantateur en azurite",
+      "ja": "アズライトキャスターイヤリング"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Earrings of Fending",
+      "de": "Azurit-Ohrringe der Verteidigung",
+      "en": "Azurite Earrings of Fending",
+      "fr": "Boucles d'oreilles de protecteur en azurite",
+      "ja": "アズライトディフェンダーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Earrings of Healing",
+      "de": "Azurit-Ohrringe der Heilung",
+      "en": "Azurite Earrings of Healing",
+      "fr": "Boucles d'oreilles de soigneur en azurite",
+      "ja": "アズライトヒーラーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Azurite Earrings of Slaying",
+      "de": "Azurit-Ohrringe des Schlachtens",
+      "en": "Azurite Earrings of Slaying",
+      "fr": "Boucles d'oreilles d'attaquant en azurite",
+      "ja": "アズライトアタッカーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Dual-plated Durium Planisphere",
+      "de": "Doppelt beschichtete Durium-Planisphäre",
+      "en": "Dual-plated Durium Planisphere",
+      "fr": "Planisphère en durium",
+      "ja": "ダリウムプラニスフィア"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Durium Foil",
+      "de": "Durium-Florett",
+      "en": "Durium Foil",
+      "fr": "Fleuret en durium",
+      "ja": "ダリウムフルーレ"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 80,
+    "level": 282,
+    "maxQuality": 12088,
+    "name": {
+      "cn": "Durium Rod",
+      "de": "Durium-Rute",
+      "en": "Durium Rod",
+      "fr": "Sceptre en durium",
+      "ja": "ダリウムロッド"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 40,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Imperial Jade",
+      "de": "Kaiserjade",
+      "en": "Imperial Jade",
+      "fr": "Jade impérial",
+      "ja": "インペリアルジェード"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Earring of Aiming",
+      "de": "Molybdän-Ohrring des Zielens",
+      "en": "Molybdenum Earring of Aiming",
+      "fr": "Boucle d'oreille de pisteur en molybdène",
+      "ja": "モリブデンレンジャーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Earring of Casting",
+      "de": "Molybdän-Ohrring der Magie",
+      "en": "Molybdenum Earring of Casting",
+      "fr": "Boucle d'oreille d'incantateur en molybdène",
+      "ja": "モリブデンキャスターイヤリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Earring of Fending",
+      "de": "Molybdän-Ohrring der Verteidigung",
+      "en": "Molybdenum Earring of Fending",
+      "fr": "Boucle d'oreille de protecteur en molybdène",
+      "ja": "モリブデンディフェンダーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Earring of Healing",
+      "de": "Molybdän-Ohrring der Heilung",
+      "en": "Molybdenum Earring of Healing",
+      "fr": "Boucle d'oreille de soigneur en molybdène",
+      "ja": "モリブデンヒーラーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Molybdenum Earring of Slaying",
+      "de": "Molybdän-Ohrring des Schlachtens",
+      "en": "Molybdenum Earring of Slaying",
+      "fr": "Boucle d'oreille d'attaquant en molybdène",
+      "ja": "モリブデンアタッカーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Bracelet of Aiming",
+      "de": "Palladium-Armreife des Zielens",
+      "en": "Palladium Bracelet of Aiming",
+      "fr": "Bracelet de pisteur en palladium",
+      "ja": "パラースレンジャーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Bracelet of Casting",
+      "de": "Palladium-Armreife der Magie",
+      "en": "Palladium Bracelet of Casting",
+      "fr": "Bracelet d'incantateur en palladium",
+      "ja": "パラースキャスターブレスレット"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Bracelet of Fending",
+      "de": "Palladium-Armreife der Verteidigung",
+      "en": "Palladium Bracelet of Fending",
+      "fr": "Bracelet de protecteur en palladium",
+      "ja": "パラースディフェンダーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Bracelet of Healing",
+      "de": "Palladium-Armreife der Heilung",
+      "en": "Palladium Bracelet of Healing",
+      "fr": "Bracelet de soigneur en palladium",
+      "ja": "パラースヒーラーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Bracelet of Slaying",
+      "de": "Palladium-Armreife des Schlachtens",
+      "en": "Palladium Bracelet of Slaying",
+      "fr": "Bracelet d'attaquant en palladium",
+      "ja": "パラースアタッカーブレスレット"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Choker of Aiming",
+      "de": "Palladium-Halsberge des Zielens",
+      "en": "Palladium Choker of Aiming",
+      "fr": "Ras de cou de pisteur en palladium",
+      "ja": "パラースレンジャーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Choker of Casting",
+      "de": "Palladium-Halsberge der Magie",
+      "en": "Palladium Choker of Casting",
+      "fr": "Ras de cou d'incantateur en palladium",
+      "ja": "パラースキャスターチョーカー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Choker of Fending",
+      "de": "Palladium-Halsberge der Verteidigung",
+      "en": "Palladium Choker of Fending",
+      "fr": "Ras de cou de protecteur en palladium",
+      "ja": "パラースディフェンダーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Choker of Healing",
+      "de": "Palladium-Halsberge der Heilung",
+      "en": "Palladium Choker of Healing",
+      "fr": "Ras de cou de soigneur en palladium",
+      "ja": "パラースヒーラーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Choker of Slaying",
+      "de": "Palladium-Halsberge des Schlachtens",
+      "en": "Palladium Choker of Slaying",
+      "fr": "Ras de cou d'attaquant en palladium",
+      "ja": "パラースアタッカーチョーカー"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 40,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Nugget",
+      "de": "Palladium-Nugget",
+      "en": "Palladium Nugget",
+      "fr": "Pépite de palladium",
+      "ja": "パラースナゲット"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Ring of Aiming",
+      "de": "Palladium-Ring des Zielens",
+      "en": "Palladium Ring of Aiming",
+      "fr": "Bague-armure de pisteur en palladium",
+      "ja": "パラース・レンジャーアーマーリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Ring of Casting",
+      "de": "Palladium-Ring der Magie",
+      "en": "Palladium Ring of Casting",
+      "fr": "Bague-armure d'incantateur en palladium",
+      "ja": "パラース・キャスターアーマーリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Ring of Fending",
+      "de": "Palladium-Ring der Verteidigung",
+      "en": "Palladium Ring of Fending",
+      "fr": "Bague-armure de protecteur en palladium",
+      "ja": "パラース・ディフェンダーアーマーリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Ring of Healing",
+      "de": "Palladium-Ring der Heilung",
+      "en": "Palladium Ring of Healing",
+      "fr": "Bague-armure de soigneur en palladium",
+      "ja": "パラース・ヒーラーアーマーリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Palladium Ring of Slaying",
+      "de": "Palladium-Ring des Schlachtens",
+      "en": "Palladium Ring of Slaying",
+      "fr": "Bague-armure d'attaquant en palladium",
+      "ja": "パラース・アタッカーアーマーリング"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1894,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6875,
+    "name": {
+      "cn": "Sample Chronometer",
+      "de": "Muster-Chronometer",
+      "en": "Sample Chronometer",
+      "fr": "Chronomètre de table",
+      "ja": "手本用クロノメーター"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Armillae of Aiming",
+      "de": "Garleische Jade-Armillae des Zielens",
+      "en": "Imperial Jade Armillae of Aiming",
+      "fr": "Armilles de pisteur en jade impérial",
+      "ja": "インペリアルジェード・レンジャーアルミラ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Armillae of Casting",
+      "de": "Garleische Jade-Armillae der Magie",
+      "en": "Imperial Jade Armillae of Casting",
+      "fr": "Armilles d'incantateur en jade impérial",
+      "ja": "インペリアルジェード・キャスターアルミラ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Armillae of Fending",
+      "de": "Garleische Jade-Armillae der Verteidigung",
+      "en": "Imperial Jade Armillae of Fending",
+      "fr": "Armilles de protecteur en jade impérial",
+      "ja": "インペリアルジェード・ディフェンダーアルミラ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Armillae of Healing",
+      "de": "Garleische Jade-Armillae der Heilung",
+      "en": "Imperial Jade Armillae of Healing",
+      "fr": "Armilles de soigneur en jade impérial",
+      "ja": "インペリアルジェード・ヒーラーアルミラ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Armillae of Slaying",
+      "de": "Garleische Jade-Armillae des Schlachtens",
+      "en": "Imperial Jade Armillae of Slaying",
+      "fr": "Armilles d'attaquant en jade impérial",
+      "ja": "インペリアルジェード・アタッカーアルミラ"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Ring of Aiming",
+      "de": "Garleischer Jade-Ring des Zielens",
+      "en": "Imperial Jade Ring of Aiming",
+      "fr": "Bague de pisteur en jade impérial",
+      "ja": "インペリアルジェード・レンジャーリング"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Ring of Casting",
+      "de": "Garleischer Jade-Ring der Magie",
+      "en": "Imperial Jade Ring of Casting",
+      "fr": "Bague d'incantateur en jade impérial",
+      "ja": "インペリアルジェード・キャスターリング"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Ring of Fending",
+      "de": "Garleischer Jade-Ring der Verteidigung",
+      "en": "Imperial Jade Ring of Fending",
+      "fr": "Bague de protecteur en jade impérial",
+      "ja": "インペリアルジェード・ディフェンダーリング"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Ring of Healing",
+      "de": "Garleischer Jade-Ring der Heilung",
+      "en": "Imperial Jade Ring of Healing",
+      "fr": "Bague de soigneur en jade impérial",
+      "ja": "インペリアルジェード・ヒーラーリング"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Imperial Jade Ring of Slaying",
+      "de": "Garleischer Jade-Ring des Schlachtens",
+      "en": "Imperial Jade Ring of Slaying",
+      "fr": "Bague d'attaquant en jade impérial",
+      "ja": "インペリアルジェード・アタッカーリング"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Palladium Needle",
+      "de": "Palladium-Nadel",
+      "en": "Palladium Needle",
+      "fr": "Aiguille en palladium",
+      "ja": "パラースニードル"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Palladium Planisphere",
+      "de": "Palladium-Planisphäre",
+      "en": "Palladium Planisphere",
+      "fr": "Planisphère en palladium",
+      "ja": "パラースプラニスフィア"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Palladium Rod",
+      "de": "Palladium-Stab",
+      "en": "Palladium Rod",
+      "fr": "Sceptre en palladium",
+      "ja": "パラースロッド"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 2854,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 12913,
+    "name": {
+      "cn": "Palladium Tuck",
+      "de": "Palladium-Estoc",
+      "en": "Palladium Tuck",
+      "fr": "Estoc en palladium",
+      "ja": "パラースタック"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Earrings of Aiming",
+      "de": "Garleische Jade-Ohrringe des Zielens",
+      "en": "Imperial Jade Earrings of Aiming",
+      "fr": "Boucles d'oreilles de pisteur en jade impérial",
+      "ja": "インペリアルジェード・レンジャーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Earrings of Casting",
+      "de": "Garleische Jade-Ohrringe der Magie",
+      "en": "Imperial Jade Earrings of Casting",
+      "fr": "Boucles d'oreilles d'incantateur en jade impérial",
+      "ja": "インペリアルジェード・キャスターイヤリング"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Earrings of Fending",
+      "de": "Garleische Jade-Ohrringe der Verteidigung",
+      "en": "Imperial Jade Earrings of Fending",
+      "fr": "Boucles d'oreilles de protecteur en jade impérial",
+      "ja": "インペリアルジェード・ディフェンダーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Earrings of Healing",
+      "de": "Garleische Jade-Ohrringe der Heilung",
+      "en": "Imperial Jade Earrings of Healing",
+      "fr": "Boucles d'oreilles de soigneur en jade impérial",
+      "ja": "インペリアルジェード・ヒーラーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Earrings of Slaying",
+      "de": "Garleische Jade-Ohrringe des Schlachtens",
+      "en": "Imperial Jade Earrings of Slaying",
+      "fr": "Boucles d'oreilles d'attaquant en jade impérial",
+      "ja": "インペリアルジェード・アタッカーイヤリング"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Necklace of Aiming",
+      "de": "Garleisches Jade-Halsband des Zielens",
+      "en": "Imperial Jade Necklace of Aiming",
+      "fr": "Collier de pisteur en jade impérial",
+      "ja": "インペリアルジェード・レンジャーネックレス"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Necklace of Casting",
+      "de": "Garleisches Jade-Halsband der Magie",
+      "en": "Imperial Jade Necklace of Casting",
+      "fr": "Collier d'incantateur en jade impérial",
+      "ja": "インペリアルジェード・キャスターネックレス"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Necklace of Fending",
+      "de": "Garleisches Jade-Halsband der Verteidigung",
+      "en": "Imperial Jade Necklace of Fending",
+      "fr": "Collier de protecteur en jade impérial",
+      "ja": "インペリアルジェード・ディフェンダーネックレス"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Necklace of Healing",
+      "de": "Garleisches Jade-Halsband der Heilung",
+      "en": "Imperial Jade Necklace of Healing",
+      "fr": "Collier de soigneur en jade impérial",
+      "ja": "インペリアルジェード・ヒーラーネックレス"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Imperial Jade Necklace of Slaying",
+      "de": "Garleisches Jade-Halsband des Schlachtens",
+      "en": "Imperial Jade Necklace of Slaying",
+      "fr": "Collier d'attaquant en jade impérial",
+      "ja": "インペリアルジェード・アタッカーネックレス"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 1476,
+    "durability": 40,
+    "level": 290,
+    "maxQuality": 13187,
+    "name": {
+      "cn": "Rhodonite",
+      "de": "Rhodonit",
+      "en": "Rhodonite",
+      "fr": "Rhodonite",
+      "ja": "ロードナイト"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Tribute Orchestrion",
+      "de": "Kronjuwelschmieden-Orchestrion",
+      "en": "Tribute Orchestrion",
+      "fr": "Cadeau des Gemmes souveraines",
+      "ja": "クラウンジェムの献上品"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 1574,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Blissful Barding",
+      "de": "Lakshmi-Rossharnisch",
+      "en": "Blissful Barding",
+      "fr": "Barde de Lakshmi",
+      "ja": "ラクシュミ・バード"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 5668,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 7035,
+    "name": {
+      "cn": "Lakshmi Miniature",
+      "de": "Miniatur-Lakshmi",
+      "en": "Lakshmi Miniature",
+      "fr": "Figurine magitek de Lakshmi",
+      "ja": "MGラクシュミ"
+    },
+    "stars": 1
   }
 ]
