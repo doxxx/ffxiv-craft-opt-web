@@ -1,42 +1,27 @@
-<div class="row-fluid simulator-status">
-  <div class="span3">
-    <table>
-      <tr><td>Durability</td></tr>
-      <tr><td class="value">{{durability}}/{{recipe.durability}}</td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>Condition</td></tr>
-      <tr><td class="value">&nbsp;{{condition}}</td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>&nbsp;</td></tr>
-    </table>
-  </div>
-  <div class="span9">
-    <table>
-      <tr><td>Progress</td></tr>
-      <tr>
-        <td class="bar" colspan="5"><progressbar value="progressPercent"></progressbar></td>
-        <td class="value">{{progress}} / {{recipe.difficulty}}</td>
-      </tr>
-      <tr><td>Quality</td></tr>
-      <tr>
-        <td class="bar" colspan="5"><progressbar value="qualityPercent"></progressbar></td>
-        <td class="value">{{quality}} / {{recipe.maxQuality}}</td>
-      </tr>
-      <tr><td>CP</td></tr>
-      <tr>
-        <td class="bar" colspan="5"><progressbar value="cpPercent"></progressbar></td>
-        <td class="value">{{cp}} / {{maxCp}}</td>
-      </tr>
-      <tr>
-        <td>HQ</td>
-        <td class="value">{{hqPercent}}%</td>
-        <td>&nbsp;</td>
-        <td>Reliability</td>
-        <td class="value">{{successPercent | number: 0}}%</td>
-        <td>&nbsp;</td>
-      </tr>
-    </table>
-  </div>
+<div class="simulator-status">
+  <table>
+    <tr><td colspan="4">Progress</td></tr>
+    <tr>
+      <td class="bar" colspan="3"><progressbar value="progressPercent"></progressbar></td>
+      <td class="bar-value">{{progress}} / {{recipe.difficulty}}</td>
+    </tr>
+    <tr><td colspan="4">Quality</td></tr>
+    <tr>
+      <td class="bar" colspan="3"><progressbar value="qualityPercent"></progressbar></td>
+      <td class="bar-value">{{quality}} / {{recipe.maxQuality}}</td>
+    </tr>
+    <tr><td colspan="4">CP</td></tr>
+    <tr>
+      <td class="bar" colspan="3"><progressbar value="cpPercent"></progressbar></td>
+      <td class="bar-value">{{cp}} / {{maxCp}}</td>
+    </tr>
+    <tr>
+      <td width="30%">Durability {{durability}}&nbsp;/&nbsp;{{recipe.durability}}</td>
+      <td width="20%">HQ&nbsp;{{hqPercent}}%</td>
+      <td width="30%" class="align-right">Reliability&nbsp;{{successPercent | number: 0}}%</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
 </div>
 
 
