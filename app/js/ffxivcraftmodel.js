@@ -276,14 +276,9 @@ function ApplyModifiers(s, action, condition) {
             levelDifference = effCrafterLevel - (effRecipeLevel - 7); // fall back on 2.2 estimate
         }
 
-        if (levelDifference > 0) {
-            levelDifference = Math.min(levelDifference, 20);
-        }
-
         if (levelDifference < 0) {
             levelDifference = Math.max(levelDifference, -5);
         }
-
     }
     else if (AllActions.ingenuity.shortName in s.effects.countDowns) {
         if (Ing1RecipeLevelTable[s.synth.recipe.level]) {
@@ -292,10 +287,6 @@ function ApplyModifiers(s, action, condition) {
         }
         else {
             levelDifference = effCrafterLevel - (effRecipeLevel - 5); // fall back on 2.2 estimate
-        }
-
-        if (levelDifference > 0) {
-            levelDifference = Math.min(levelDifference, 20);
         }
 
         if (levelDifference < 0) {
