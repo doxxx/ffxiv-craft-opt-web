@@ -319,6 +319,8 @@ function ApplyModifiers(s, action, condition) {
     // Effects modifying progress increase multiplier
     var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
 
+    var ftMultiplier = 1.0;
+
     // Brand actions
     if (action.shortName.startsWith('brandOf')) {
         var nameOfMultiplier = 1;
@@ -332,6 +334,12 @@ function ApplyModifiers(s, action, condition) {
         if (s.synth.recipe.aspect !== undefined && s.synth.recipe.aspect == element) {
             progressIncreaseMultiplier *= 2;
         }
+    }
+
+    // Aspected recipes give a global 50% progress penalty, and using the matching Brand just negates it
+    if (s.synth.recipe.aspect !== undefined) {
+        progressIncreaseMultiplier *= 0.5;
+        ftMultiplier *= 0.5;
     }
 
     // Effects modified by Whistle While You Work
@@ -436,7 +444,7 @@ function ApplyModifiers(s, action, condition) {
                 ftSuccessProbability = 0;
             }
         }
-        bProgressGain += AllActions.finishingTouches.progressIncreaseMultiplier * condition.pGoodOrExcellent() * ftSuccessProbability *
+        bProgressGain += AllActions.finishingTouches.progressIncreaseMultiplier * condition.pGoodOrExcellent() * ftSuccessProbability * ftMultiplier *
             s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
         durabilityCost += ftDurabilityCost * condition.pGoodOrExcellent();
     }
