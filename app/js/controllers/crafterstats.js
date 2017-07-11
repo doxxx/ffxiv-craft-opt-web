@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('CrafterStatsController', controller);
 
-  function controller($scope, $modal, _allClasses, _allActions, _profile, _xivdb) {
+  function controller($scope, $modal, _actionGroups, _allClasses, _allActions, _profile, _xivdb) {
     $scope.crafterActionClasses = crafterActionClasses;
     $scope.toggleAction = toggleAction;
     $scope.onTabSelect = onTabSelect;
@@ -14,6 +14,16 @@
     $scope.showCharImportModal = showCharImportModal;
     $scope.refreshChar = refreshChar;
     $scope.selectActionsByLevel = selectActionsByLevel;
+
+    // Keep list of specialist actions
+    var specialistActions = [];
+    for (var i = 0; i < _actionGroups.length; i++) {
+      var group = _actionGroups[i];
+      if (group.name === "Specialist") {
+        specialistActions = group.actions;
+        break;
+      }
+    }
 
     // Initialize tab names and initial active state
     $scope.tabs = [];
@@ -131,6 +141,12 @@
       for (var i = 0; i < _allActions.length; i++) {
         var action = _allActions[i];
         var actionClass = action.cls === "All" ? cls : action.cls;
+
+        // Skip specialist actions if the class is not marked as a specialist
+        if (specialistActions.indexOf(action.shortName) >= 0 && !$scope.crafter.stats[actionClass].specialist) {
+          continue;
+        }
+
         if (action.level <= $scope.crafter.stats[actionClass].level) {
           actions.push(action.shortName);
         }
