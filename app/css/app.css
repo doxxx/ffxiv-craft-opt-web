@@ -355,6 +355,23 @@ div[content*="xivdb"] div.tooltip-arrow {
   margin: 0 !important;
 }
 
+@media (max-width: 480px) {
+  .my-dropdown {
+    display: block;
+  }
+}
+
+@media (min-width: 600px) {
+  .my-dropdown {
+	  margin-left: 35px;
+  }
+}
+
+@media (min-width: 800px) {
+  .my-dropdown {
+	  margin-left: 0;
+  }
+}
 
 /* Class Selector */
 
@@ -856,3 +873,4 @@ div[my-dropzone] {
 div[my-dropzone]:-moz-drag-over {
   border: 2px solid #bbb
 }
+
