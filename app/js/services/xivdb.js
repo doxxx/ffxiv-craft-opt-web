@@ -168,7 +168,7 @@
           if (className && !r.classes[className]) {
             var info = {
               name: className,
-              level: gearset.level,
+              level: profile.classjobs[gearset.classjob_id].level,
               lastUpdated: new Date(gearset.last_updated + " UTC").toLocaleString(),
               cp: 0,
               craftsmanship: 0,
