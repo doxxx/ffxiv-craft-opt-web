@@ -276,14 +276,9 @@ function ApplyModifiers(s, action, condition) {
             levelDifference = effCrafterLevel - (effRecipeLevel - 7); // fall back on 2.2 estimate
         }
 
-        if (levelDifference > 0) {
-            levelDifference = Math.min(levelDifference, 20);
-        }
-
         if (levelDifference < 0) {
             levelDifference = Math.max(levelDifference, -5);
         }
-
     }
     else if (AllActions.ingenuity.shortName in s.effects.countDowns) {
         if (Ing1RecipeLevelTable[s.synth.recipe.level]) {
@@ -292,10 +287,6 @@ function ApplyModifiers(s, action, condition) {
         }
         else {
             levelDifference = effCrafterLevel - (effRecipeLevel - 5); // fall back on 2.2 estimate
-        }
-
-        if (levelDifference > 0) {
-            levelDifference = Math.min(levelDifference, 20);
         }
 
         if (levelDifference < 0) {
@@ -328,6 +319,8 @@ function ApplyModifiers(s, action, condition) {
     // Effects modifying progress increase multiplier
     var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
 
+    var ftMultiplier = 1.0;
+
     // Brand actions
     if (action.shortName.startsWith('brandOf')) {
         var nameOfMultiplier = 1;
@@ -343,6 +336,12 @@ function ApplyModifiers(s, action, condition) {
         }
     }
 
+    // Aspected recipes give a global 50% progress penalty, and using the matching Brand just negates it
+    if (s.synth.recipe.aspect !== undefined) {
+        progressIncreaseMultiplier *= 0.5;
+        ftMultiplier *= 0.5;
+    }
+
     // Effects modified by Whistle While You Work
     if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
         if (progressIncreaseMultiplier > 0) {
@@ -353,11 +352,14 @@ function ApplyModifiers(s, action, condition) {
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
 
-    if (isActionEq(action, AllActions.byregotsBlessing) && AllActions.innerQuiet.shortName in s.effects.countUps) {
-        qualityIncreaseMultiplier += 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName];
+    // We can only use Byregot actions when we have at least 2 stacks of inner quiet
+    if (isActionEq(action, AllActions.byregotsBlessing)) {
+        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
+            qualityIncreaseMultiplier += 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName];
+        } else {
+            qualityIncreaseMultiplier = 0;
+        }
     }
-
-    // We can only use Byregot's Miracle when we have at least 2 stacks of inner quiet
     if (isActionEq(action, AllActions.byregotsMiracle)) {
         if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
             qualityIncreaseMultiplier += 0.15 * s.effects.countUps[AllActions.innerQuiet.shortName];
@@ -365,10 +367,12 @@ function ApplyModifiers(s, action, condition) {
             qualityIncreaseMultiplier = 0;
         }
     }
-
-    // We can only use Byregot's Brow when state material condition is Good or Excellent. Default is true for probabilistic method.
-    if (isActionEq(action, AllActions.byregotsBrow) && AllActions.innerQuiet.shortName in s.effects.countUps) {
-        qualityIncreaseMultiplier += 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName];
+    if (isActionEq(action, AllActions.byregotsBrow)) {
+        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
+            qualityIncreaseMultiplier += 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName];
+        } else {
+            qualityIncreaseMultiplier = 0;
+        }
     }
 
     if (AllActions.greatStrides.shortName in s.effects.countDowns) {
@@ -416,8 +420,13 @@ function ApplyModifiers(s, action, condition) {
     var durabilityCost = action.durabilityCost;
     var ftDurabilityCost = AllActions.finishingTouches.durabilityCost;
     if ((AllActions.wasteNot.shortName in s.effects.countDowns) || (AllActions.wasteNot2.shortName in s.effects.countDowns)) {
-        durabilityCost *= 0.5;
-        ftDurabilityCost *= 0.5;
+        if (isActionEq(action, AllActions.prudentTouch)) {
+            bQualityGain = 0;
+        }
+        else {
+            durabilityCost *= 0.5;
+            ftDurabilityCost *= 0.5;
+        }
     }
     if ((AllActions.makersMark.shortName in s.effects.countDowns) && (isActionEq(action, AllActions.flawlessSynthesis))) {
         durabilityCost *= 0;
@@ -445,7 +454,7 @@ function ApplyModifiers(s, action, condition) {
                 ftSuccessProbability = 0;
             }
         }
-        bProgressGain += AllActions.finishingTouches.progressIncreaseMultiplier * condition.pGoodOrExcellent() * ftSuccessProbability *
+        bProgressGain += AllActions.finishingTouches.progressIncreaseMultiplier * condition.pGoodOrExcellent() * ftSuccessProbability * ftMultiplier *
             s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
         durabilityCost += ftDurabilityCost * condition.pGoodOrExcellent();
     }
@@ -489,11 +498,11 @@ function ApplySpecialActionEffects(s, action, condition) {
         s.durabilityState += 60;
     }
 
-    if ((AllActions.manipulation.shortName in s.effects.countDowns) && (s.durabilityState > 0)) {
+    if ((AllActions.manipulation.shortName in s.effects.countDowns) && (s.durabilityState > 0) && !isActionEq(action, AllActions.manipulation) && !isActionEq(action, AllActions.manipulation2)) {
         s.durabilityState += 10;
     }
 
-    if ((AllActions.manipulation2.shortName in s.effects.countDowns) && (s.durabilityState > 0)) {
+    if ((AllActions.manipulation2.shortName in s.effects.countDowns) && (s.durabilityState > 0) && !isActionEq(action, AllActions.manipulation) && !isActionEq(action, AllActions.manipulation2)) {
         s.durabilityState += 5;
     }
 
@@ -671,6 +680,15 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
                 s.effects.countDowns[action.shortName] = action.activeTurns;
                 s.nameOfElementUses += 1;
             }
+        }
+        else if (isActionEq(action, AllActions.manipulation) || isActionEq(action, AllActions.manipulation2)) {
+            if (AllActions.manipulation.shortName in s.effects.countDowns) {
+                delete s.effects.countDowns[AllActions.manipulation.shortName];
+            }
+            if (AllActions.manipulation2.shortName in s.effects.countDowns) {
+                delete s.effects.countDowns[AllActions.manipulation2.shortName];
+            }
+            s.effects.countDowns[action.shortName] = action.activeTurns;
         }
         else if (isActionEq(action, AllActions.makersMark)) {
             if (s.step == 1 ) {
