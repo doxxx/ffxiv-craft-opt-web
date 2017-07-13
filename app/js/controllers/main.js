@@ -6,12 +6,13 @@
     .controller('MainController', controller);
 
   function controller($scope, $rootScope, $q, $modal, $translate, $location, _allClasses, _actionGroups, _actionsByName,
-    _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats, _languages)
+    _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats, _languages, _isActionCrossClass)
   {
     $scope.allClasses = _allClasses;
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
     $scope.getActionImagePath = _getActionImagePath;
+    $scope.isActionCrossClass = _isActionCrossClass;
 
     $scope.changeLang = changeLang;
     $scope.currentLang = currentLang;
@@ -25,7 +26,6 @@
     $scope.synthNameForDisplay = synthNameForDisplay;
     $scope.actionForName = actionForName;
     $scope.isActionSelected = isActionSelected;
-    $scope.isActionCrossClass = isActionCrossClass;
     $scope.isValidSequence = isValidSequence;
     $scope.showOptionsModal = showOptionsModal;
     $scope.showSettingsImportModal = showSettingsImportModal;
@@ -297,20 +297,6 @@
              $scope.crafter.stats[cls] &&
              $scope.crafter.stats[cls].actions &&
              $scope.crafter.stats[cls].actions.indexOf(action) >= 0;
-    }
-
-    function isActionCrossClass(action, cls) {
-      if (!angular.isDefined(action)) {
-        console.error('undefined actionName');
-        return undefined;
-      }
-      var info = _actionsByName[action];
-      if (!angular.isDefined(info)) {
-        console.error('unknown action: %s', action);
-        return undefined;
-      }
-      return info.cls != 'All' &&
-             info.cls != cls;
     }
 
     function isValidSequence(sequence, cls) {
