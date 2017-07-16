@@ -89,7 +89,9 @@
         }
       }
 
-      lines.push('/echo Cross-class action setup complete ' + soundEffect(options.stepSoundEffect) + '\n');
+      if (lines.length > 0) {
+        lines.push('/echo Cross-class action setup complete ' + soundEffect(options.stepSoundEffect) + '\n');
+      }
 
       return lines;
     }
