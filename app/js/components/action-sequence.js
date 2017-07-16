@@ -22,7 +22,7 @@
     }
   }
 
-  function controller($scope, _actionsByName, _xivdbtooltips, _getActionImagePath) {
+  function controller($scope, _actionsByName, _xivdbtooltips, _getActionImagePath, _isActionCrossClass) {
     $scope.getActionImagePath = _getActionImagePath;
     $scope.cssClassesForAction = cssClassesForAction;
     $scope.actionForName = actionForName;
@@ -64,17 +64,8 @@
       return _actionsByName[name];
     }
 
-    function isActionCrossClass(action) {
-      if (!angular.isDefined(action)) {
-        console.error('undefined actionName');
-        return undefined;
-      }
-      var info = _actionsByName[action];
-      if (!angular.isDefined(info)) {
-        console.error('unknown action: %s', action);
-        return undefined;
-      }
-      return info.cls != 'All' && info.cls != $scope.cls;
+    function isActionCrossClass(name) {
+      return _isActionCrossClass(name, $scope.cls);
     }
   }
 })();

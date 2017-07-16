@@ -5,10 +5,11 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('SequenceEditorController', controller);
 
-  function controller($scope, $http, $state, _actionGroups, _actionsByName, _simulator, _getActionImagePath) {
+  function controller($scope, $http, $state, _actionGroups, _actionsByName, _simulator, _getActionImagePath, _isActionCrossClass) {
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
     $scope.getActionImagePath = _getActionImagePath;
+    $scope.isActionCrossClass = _isActionCrossClass;
 
     $scope.origSequence = [];
     $scope.editSequence = [];
@@ -18,7 +19,6 @@
     $scope.isActionSelected = isActionSelected;
     $scope.actionTableClasses = actionTableClasses;
     $scope.actionClasses = actionClasses;
-    $scope.isActionCrossClass = isActionCrossClass;
     $scope.dropAction = dropAction;
     $scope.addAction = addAction;
     $scope.removeAction = removeAction;
@@ -73,19 +73,6 @@
         'wasted-action': wastedAction,
         'action-no-cp': wastedAction && cpExceeded
       };
-    }
-
-    function isActionCrossClass(action, cls) {
-      if (!angular.isDefined(action)) {
-        console.error('undefined actionName');
-        return undefined;
-      }
-      var info = _actionsByName[action];
-      if (!angular.isDefined(info)) {
-        console.error('unknown action: %s', action);
-        return undefined;
-      }
-      return info.cls != 'All' && info.cls != cls;
     }
 
     function dropAction(dragEl, dropEl) {
