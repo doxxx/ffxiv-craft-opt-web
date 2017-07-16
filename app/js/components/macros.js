@@ -37,18 +37,13 @@
         return;
       }
 
-      var macroList = [];
-
       if ($scope.options.setupCrossClassActions) {
         var crossClassActionSetupLines = buildCrossClassActionSetupLines($scope.options, $scope.sequence, $scope.cls);
-        macroList.push(crossClassActionSetupLines.join(''))
+        $scope.crossClassSetupMacroText = crossClassActionSetupLines.join('');
       }
 
       var sequenceLines = buildSequenceLines($scope.options, $scope.sequence, extractBuffs());
-      var sequenceMacroList = buildMacroList($scope.options, sequenceLines);
-      macroList = macroList.concat(sequenceMacroList);
-
-      $scope.macroList = macroList;
+      $scope.macroList = buildMacroList($scope.options, sequenceLines);
     }
 
     function extractBuffs() {

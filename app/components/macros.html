@@ -1,4 +1,11 @@
 <p>Click + Ctrl/Cmd-C on each block to copy to clipboard.</p>
+<label class="checkbox">
+  <input type="checkbox" ng-model="options.setupCrossClassActions"/>Generate cross-class action setup
+</label>
+<div ng-if="options.setupCrossClassActions">
+  <h6>Cross-class Action Setup Macro</h6>
+  <textarea style="width:auto" cols="60" rows="8" readonly select-on-click>{{crossClassSetupMacroText}}</textarea>
+</div>
 <div ng-repeat="macroText in macroList track by $index">
   <h6>Macro #{{$index+1}}</h6>
   <textarea style="width:auto" cols="60" rows="16" readonly select-on-click>{{macroText}}</textarea>
