@@ -35,7 +35,7 @@
                 <tr>
                   <th></th>
                   <th ng-repeat="classInfo in chars[result.id].classes">
-                    <img ng-src="img/classes/{{classInfo.name}}.png" tooltip="Last updated {{classInfo.lastUpdated}}"/>
+                    <img ng-src="img/classes/{{classInfo.name}}.png" tooltip="Last updated {{(classInfo.lastUpdated || classInfo.levelLastUpdated) | date:'short'}}"/>
                   </th>
                 </tr>
                 <tr>

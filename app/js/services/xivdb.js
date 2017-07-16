@@ -144,6 +144,8 @@
         var profile = responses.profile.data.data;
         var gearsets = responses.gearsets.data;
 
+        var profileLastUpdated = new Date(responses.profile.data.last_updated + " UTC");
+
         // Workaround for xivdb gearsets query sometimes returning object instead of array
         if (!(gearsets instanceof Array)) {
           gearsets = Object.values(gearsets)
@@ -161,19 +163,30 @@
           classes: {}
         };
 
+        for (var classJobId in profile.classjobs) {
+          var className = CLASS_JOB_IDS[classJobId];
+          if (className) {
+            var classJobInfo = profile.classjobs[classJobId];
+            if (classJobInfo.level > 0) {
+              r.classes[className] = {
+                name: className,
+                level: classJobInfo.level,
+                levelLastUpdated: profileLastUpdated
+              }
+            }
+          }
+        }
+
         for (var i = 0; i < gearsets.length; i++) {
           var gearset = gearsets[i];
           var className = CLASS_JOB_IDS[gearset.classjob_id];
           // Check if this is a crafting class and we haven't seen it already
-          if (className && !r.classes[className]) {
-            var info = {
-              name: className,
-              level: profile.classjobs[gearset.classjob_id].level,
-              lastUpdated: new Date(gearset.last_updated + " UTC").toLocaleString(),
-              cp: 0,
-              craftsmanship: 0,
-              control: 0
-            };
+          if (className && r.classes[className] && !r.classes[className].lastUpdated) {
+            var info = r.classes[className];
+            info.lastUpdated = new Date(gearset.last_updated + " UTC");
+            info.cp = 0;
+            info.craftsmanship = 0;
+            info.control = 0;
             if (gearset.stats) {
               if (gearset.stats.core) {
                 info.cp = gearset.stats.core["CP"] || gearset.stats.core["cp"] || 0;
