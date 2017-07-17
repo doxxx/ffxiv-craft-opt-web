@@ -40,7 +40,7 @@
       options: {
         tabs: {
           simulator: {
-            active: false
+            active: true
           },
           solver: {
             active: false
@@ -49,7 +49,7 @@
             active: false
           },
           debugging: {
-            active: true
+            active: false
           }
         }
       }
