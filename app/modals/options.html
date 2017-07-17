@@ -13,13 +13,17 @@
 
             <div class="controls">
               <input class="input-small" type="number" name="maxMontecarloRuns"
-                     ng-model="sequenceSettings.maxMontecarloRuns" min="1" max="10000" required/>
+                     ng-model="sequenceSettings.maxMontecarloRuns" min="1" max="10000" required
+                     tooltip="The number of iterations used to generate output in the Monte Carlo Sim tab. Increasing this number will give results that are closer to the average result over the long term, but will be slower."
+                     tooltip-placement="right"/>
             </div>
           </div>
 
           <div class="control-group">
             <div class="controls">
-              <label class="checkbox">
+              <label class="checkbox"
+                     tooltip="Allows the condition to take on a value of Poor, Normal, Good, or Excellent at each sequence step. These conditions will affect the result of the action taken at that step. Disabling this option will assume the condition is always Normal."
+                     tooltip-placement="right">
                 <input type="checkbox" name="useConditions" ng-model="sequenceSettings.useConditions"/>Use Conditions
               </label>
             </div>
@@ -27,9 +31,11 @@
 
           <div class="control-group">
             <div class="controls">
-              <label class="checkbox">
-                <input type="checkbox" name="overrideOnCondition" ng-model="sequenceSettings.overrideOnCondition"/>Override
-                On Condition
+              <label class="checkbox"
+                     tooltip="Assume actions that require specific synthesis conditions always have these conditions met regardless of where they are in the sequence."
+                     tooltip-placement="right">
+                <input type="checkbox" name="overrideOnCondition" ng-model="sequenceSettings.overrideOnCondition"/>
+                Override Condition Requirement
               </label>
             </div>
           </div>
@@ -45,8 +51,10 @@
                 <label class="control-label">Max Tricks</label>
 
                 <div class="controls">
-                  <input class="input-small" type="number" name="maxTricksUses" ng-model="sequenceSettings.maxTricksUses"
-                         min="0" required/>
+                  <input class="input-small" type="number" name="maxTricksUses"
+                         ng-model="sequenceSettings.maxTricksUses" min="0" required
+                         tooltip="The maximum allowed number of Tricks of the Trade actions."
+                         tooltip-placement="right"/>
                 </div>
               </div>
 
@@ -55,7 +63,9 @@
 
                 <div class="controls">
                   <input class="input-small" type="number" name="reliabilityPercent"
-                         ng-model="sequenceSettings.reliabilityPercent" min="1" max="100" required/>
+                         ng-model="sequenceSettings.reliabilityPercent" min="1" max="100" required
+                         tooltip="Reliability is the probability that the synthesis will finish with full progress. Using actions that do not have 100% chance of success reduces reliability. Lowering this setting will allow the solver to find sequences that may produce higher quality at the cost of reliability."
+                         tooltip-placement="right"/>
                 </div>
               </div>
 
@@ -63,8 +73,9 @@
                 <label class="control-label">Penalty Weight:</label>
 
                 <div class="controls">
-                  <input class="input-small" type="number" name="penaltyWeight" ng-model="solver.penaltyWeight" min="1"
-                         required/>
+                  <input class="input-small" type="number" name="penaltyWeight" ng-model="solver.penaltyWeight" min="1" required
+                         tooltip="Penalty to apply to wasted actions, incomplete sequences, unreliable sequences, too many Tricks actions and too many cross-class actions. Lowering this number might cause the solver to ignore these constraints in pursuit of higher quality."
+                         tooltip-placement="right"/>
                 </div>
               </div>
 
@@ -75,7 +86,9 @@
                 <label class="control-label">Algorithm:</label>
 
                 <div class="controls">
-                  <select class="input-medium" name="algorithm" ng-model="solver.algorithm" required>
+                  <select class="input-medium" name="algorithm" ng-model="solver.algorithm" required
+                          tooltip="The algorithm used by the solver to evolve each generation. eaSimple modifies the entire population each generation. eaComplex evolves half the population and retains some of the best survivors unmodified."
+                          tooltip-placement="left">
                     <option>eaSimple</option>
                     <option>eaComplex</option>
                   </select>
@@ -86,8 +99,9 @@
                 <label class="control-label">Population:</label>
 
                 <div class="controls">
-                  <input class="input-small" type="number" name="population" ng-model="solver.population" min="1"
-                         required/>
+                  <input class="input-small" type="number" name="population" ng-model="solver.population" min="1" required
+                         tooltip="The number of sequences in each generation. Increasing this number increases the amount of variance in each generation, improving the chances of finding a better sequence, but makes the solver run slower."
+                         tooltip-placement="left"/>
                 </div>
               </div>
 
@@ -95,8 +109,9 @@
                 <label class="control-label">Generations:</label>
 
                 <div class="controls">
-                  <input class="input-small" type="number" name="generations" ng-model="solver.generations" min="1"
-                         required/>
+                  <input class="input-small" type="number" name="generations" ng-model="solver.generations" min="1"required
+                         tooltip="The number of generations to evolve in a solver run. Increasing this number may improve the chance of finding a better sequence, but increases the time required to complete a solver run."
+                         tooltip-placement="left"/>
                 </div>
               </div>
 
@@ -116,7 +131,8 @@
                 <label for="macros.waitTime" class="control-label">Wait Time</label>
 
                 <div class="controls">
-                  <input id="macros.waitTime" class="input-mini" type="number" ng-model="macroOptions.waitTime" min="1" required/>
+                  <input id="macros.waitTime" class="input-mini" type="number" ng-model="macroOptions.waitTime" min="1" required
+                         tooltip="Time to wait after each non-buff action." tooltip-placement="right"/>
                 </div>
               </div>
 
@@ -124,7 +140,8 @@
                 <label for="macros.buffWaitTime" class="control-label">Buff Wait Time</label>
 
                 <div class="controls">
-                  <input id="macros.buffWaitTime" class="input-mini" type="number" ng-model="macroOptions.buffWaitTime" min="1" required/>
+                  <input id="macros.buffWaitTime" class="input-mini" type="number" ng-model="macroOptions.buffWaitTime" min="1" required
+                         tooltip="Time to wait after each buff action." tooltip-placement="right"/>
                 </div>
               </div>
             </div>
@@ -136,7 +153,8 @@
                 <div class="controls">
                   <input id="macros.stepSoundEffect" class="input-mini" type="number"
                          ng-model="macroOptions.stepSoundEffect"
-                         min="1" max="16" required/>
+                         min="1" max="16" required
+                         tooltip="Sound effect to play at the end of each macro, except the last." tooltip-placement="left"/>
                 </div>
               </div>
 
@@ -146,7 +164,8 @@
                 <div class="controls">
                   <input id="macros.finishSoundEffect" class="input-mini" type="number"
                          ng-model="macroOptions.finishSoundEffect"
-                         min="1" max="16" required/>
+                         min="1" max="16" required
+                         tooltip="Sound effect to play at the end of the last macro." tooltip-placement="left"/>
                 </div>
               </div>
             </div>
@@ -155,7 +174,7 @@
               <div class="span12">
                 <div class="control-group">
                   <div class="controls">
-                    <label class="checkbox">
+                    <label class="checkbox" tooltip="Whether to generate a separate macro that activates the necessary cross-class actions." tooltip-placement="right">
                       <input type="checkbox" name="setupCrossClassActions" ng-model="macroOptions.setupCrossClassActions"/>
                       Generate cross-class action setup
                     </label>
@@ -173,17 +192,24 @@
           <div class="control-group"
                ng-class="{error: sequenceSettings.specifySeed && generalOptionsForm.seed.$invalid}">
             <div class="controls">
-              <label class="checkbox">
+              <label class="checkbox" tooltip="Enable to override the random seed used for Monte Carlo simulations." tooltip-placement="right">
                 <input type="checkbox" ng-model="sequenceSettings.specifySeed"/>Specify Seed
               </label>
+            </div>
+          </div>
+
+          <div class="control-group"
+               ng-class="{error: sequenceSettings.specifySeed && generalOptionsForm.seed.$invalid}">
+            <div class="controls">
               <input class="input-small" type="number" name="seed" ng-model="sequenceSettings.seed"
-                     ng-disabled="!sequenceSettings.specifySeed" min="0" ng-required="sequenceSettings.specifySeed"/>
+                     ng-disabled="!sequenceSettings.specifySeed" min="0" ng-required="sequenceSettings.specifySeed"
+                     tooltip="Set this to a specific value to reproduce the exact same conditions in Monte Carlo simulations." tooltip-placement="right"/>
             </div>
           </div>
 
           <div class="control-group">
             <div class="controls">
-              <label class="checkbox">
+              <label class="checkbox" tooltip="Enable extra information in the simulator and solver logs." tooltip-placement="right">
                 <input type="checkbox" name="debug" ng-model="sequenceSettings.debug"/>Debug
               </label>
             </div>
