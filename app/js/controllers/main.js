@@ -23,6 +23,8 @@
     $scope.saveSynthAs = saveSynthAs;
     $scope.deleteSynth = deleteSynth;
     $scope.renameSynth = renameSynth;
+    $scope.importSynth = importSynth;
+    $scope.exportSynth = exportSynth;
     $scope.synthNameForDisplay = synthNameForDisplay;
     $scope.actionForName = actionForName;
     $scope.isActionSelected = isActionSelected;
@@ -255,6 +257,24 @@
       $scope.settings.name = newName;
       $scope.profile.renameSynth(name, newName);
       $scope.savedSynthNames = $scope.profile.synthNames();
+    }
+
+    function importSynth() {
+      if (!$scope.profile) return;
+
+      var synthString = window.prompt('Enter new synth sequence code:', synthString);
+      var newSequence = JSON.parse(synthString);
+
+      if (Array.isArray(newSequence) && newSequence.length > 0) {
+        $scope.sequence = newSequence;
+      }
+    }
+
+    function exportSynth() {
+      if (!$scope.profile) return;
+
+      var synthString = JSON.stringify($scope.sequence)
+      window.prompt('Synth sequence code:', synthString);
     }
 
     function isSynthDirty() {
