@@ -12656,20 +12656,6 @@
     "level": 276,
     "maxQuality": 11263,
     "name": {
-      "cn": "Star Spinel Tricorne of Striking",
-      "de": "Sternspinell-Dreispitz des Schlagens",
-      "en": "Star Spinel Tricorne of Striking",
-      "fr": "Tricorne d'agresseur en cuir de tigre",
-      "ja": "タイガー・ストライカートライコーン"
-    }
-  },
-  {
-    "baseLevel": 65,
-    "difficulty": 2264,
-    "durability": 80,
-    "level": 276,
-    "maxQuality": 11263,
-    "name": {
       "cn": "Tigerskin Boots of Crafting",
       "de": "Tigerleder-Stiefel des Handwerks",
       "en": "Tigerskin Boots of Crafting",
@@ -12815,6 +12801,20 @@
       "en": "Tigerskin Tricorne of Scouting",
       "fr": "Tricorne d'éclaireur en cuir de tigre",
       "ja": "タイガー・スカウトトライコーン"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
+      "cn": "Tigerskin Tricorne of Striking",
+      "de": "Sternspinell-Dreispitz des Schlagens",
+      "en": "Tigerskin Tricorne of Striking",
+      "fr": "Tricorne d'agresseur en cuir de tigre",
+      "ja": "タイガー・ストライカートライコーン"
     }
   },
   {
@@ -13762,6 +13762,21 @@
     "level": 300,
     "maxQuality": 14071,
     "name": {
+      "cn": "Guoc",
+      "de": "Guoc",
+      "en": "Guoc",
+      "fr": "Guôc",
+      "ja": "グオック"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
       "cn": "Taoist's Gloves",
       "de": "Daoisten-Handschuhe",
       "en": "Taoist's Gloves",
@@ -13784,5 +13799,290 @@
       "ja": "道士雲履"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Boots of Aiming",
+      "de": "Urgreifenleder-Stiefel des Zielens",
+      "en": "True Griffin Boots of Aiming",
+      "fr": "Bottes de pisteur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・レンジャーブーツ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Bracers of Aiming",
+      "de": "Urgreifenleder-Armschienen des Zielens",
+      "en": "True Griffin Bracers of Aiming",
+      "fr": "Brassières de pisteur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・レンジャーブレーサー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Bracers of Scouting",
+      "de": "Urgreifenleder-Armschienen des Spähens",
+      "en": "True Griffin Bracers of Scouting",
+      "fr": "Brassières d'éclaireur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・スカウトブレーサー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Bracers of Striking",
+      "de": "Urgreifenleder-Armschienen des Schlagens",
+      "en": "True Griffin Bracers of Striking",
+      "fr": "Brassières d'agresseur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・ストライカーブレーサー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Breeches of Aiming",
+      "de": "Urgreifenleder-Reiterhose des Zielens",
+      "en": "True Griffin Breeches of Aiming",
+      "fr": "Braies de pisteur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・レンジャーブリーチ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Breeches of Fending",
+      "de": "Urgreifenleder-Reiterhose der Verteidigung",
+      "en": "True Griffin Breeches of Fending",
+      "fr": "Braies de protecteur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・ディフェンダーブリーチ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Breeches of Maiming",
+      "de": "Urgreifenleder-Reiterhose des Verstümmelns",
+      "en": "True Griffin Breeches of Maiming",
+      "fr": "Braies d'abatteur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・スレイヤーブリーチ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Caligae of Scouting",
+      "de": "Urgreifenleder-Caligae des Spähens",
+      "en": "True Griffin Caligae of Scouting",
+      "fr": "Caligae d'éclaireur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・スカウトカリガ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Caligae of Striking",
+      "de": "Urgreifenleder-Stiefel des Schlagens",
+      "en": "True Griffin Caligae of Striking",
+      "fr": "Caligae d'agresseur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・ストライカーカリガ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Chestpiece of Scouting",
+      "de": "Urgreifenleder-Brustpanzer des Spähens",
+      "en": "True Griffin Chestpiece of Scouting",
+      "fr": "Protège-thorax d'éclaireur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・スカウトチェストピース"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Chestpiece of Striking",
+      "de": "Urgreifenleder-Brustpanzer des Schlagens",
+      "en": "True Griffin Chestpiece of Striking",
+      "fr": "Protège-thorax d'agresseur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・ストライカーチェストピース"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Gloves of Casting",
+      "de": "Urgreifenleder-Handschuhe der Magie",
+      "en": "True Griffin Gloves of Casting",
+      "fr": "Gants sans doigts d'incantateur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・キャスターグローブ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Gloves of Healing",
+      "de": "Urgreifenleder-Handschuhe der Heilung",
+      "en": "True Griffin Gloves of Healing",
+      "fr": "Gants sans doigts de soigneur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・ヒーラーグローブ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Hat of Aiming",
+      "de": "Urgreifenleder-Hut des Zielens",
+      "en": "True Griffin Hat of Aiming",
+      "fr": "Chapeau de pisteur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・レンジャーハット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Hat of Casting",
+      "de": "Urgreifenleder-Hut der Magie",
+      "en": "True Griffin Hat of Casting",
+      "fr": "Chapeau d'incantateur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・キャスターハット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Hat of Healing",
+      "de": "Urgreifenleder-Hut der Heilung",
+      "en": "True Griffin Hat of Healing",
+      "fr": "Chapeau de soigneur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・ヒーラーハット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Leather",
+      "de": "Urgreifenleder",
+      "en": "True Griffin Leather",
+      "fr": "Cuir de vrai griffon",
+      "ja": "トゥルーグリフィンレザー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Sandals of Casting",
+      "de": "Urgreifenleder-Sandalen der Magie",
+      "en": "True Griffin Sandals of Casting",
+      "fr": "Sandales d'incantateur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・キャスターサンダル"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "True Griffin Sandals of Healing",
+      "de": "Urgreifenleder-Sandalen der Heilung",
+      "en": "True Griffin Sandals of Healing",
+      "fr": "Sandales de soigneur en cuir de vrai griffon",
+      "ja": "トゥルーグリフィン・ヒーラーサンダル"
+    },
+    "stars": 2
   }
 ]

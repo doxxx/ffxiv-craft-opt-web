@@ -12404,6 +12404,34 @@
     "level": 273,
     "maxQuality": 10851,
     "name": {
+      "cn": "Kudzu Corset of Casting",
+      "de": "Tigerleder-Korsett der Magie",
+      "en": "Kudzu Corset of Casting",
+      "fr": "Corset d'incantateur en kudzu",
+      "ja": "クズクロス・キャスターコルセット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
+      "cn": "Kudzu Corset of Healing",
+      "de": "Tigerleder-Korsett der Heilung",
+      "en": "Kudzu Corset of Healing",
+      "fr": "Corset de soigneur en kudzu",
+      "ja": "クズクロス・ヒーラーコルセット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 10851,
+    "name": {
       "cn": "Kudzu Hat of Casting",
       "de": "Kudzu-Hut der Magie",
       "en": "Kudzu Hat of Casting",
@@ -12502,37 +12530,9 @@
     "level": 273,
     "maxQuality": 10851,
     "name": {
-      "cn": "Tigerskin Corset of Casting",
-      "de": "Tigerleder-Korsett der Magie",
-      "en": "Tigerskin Corset of Casting",
-      "fr": "Corset d'incantateur en kudzu",
-      "ja": "クズクロス・キャスターコルセット"
-    }
-  },
-  {
-    "baseLevel": 64,
-    "difficulty": 2116,
-    "durability": 80,
-    "level": 273,
-    "maxQuality": 10851,
-    "name": {
-      "cn": "Tigerskin Corset of Healing",
-      "de": "Tigerleder-Korsett der Heilung",
-      "en": "Tigerskin Corset of Healing",
-      "fr": "Corset de soigneur en kudzu",
-      "ja": "クズクロス・ヒーラーコルセット"
-    }
-  },
-  {
-    "baseLevel": 64,
-    "difficulty": 2116,
-    "durability": 80,
-    "level": 273,
-    "maxQuality": 10851,
-    "name": {
-      "cn": "Tigerskin Trousers of Aiming",
+      "cn": "Kudzu Trousers of Aiming",
       "de": "Tigerleder-Hose des Zielens",
-      "en": "Tigerskin Trousers of Aiming",
+      "en": "Kudzu Trousers of Aiming",
       "fr": "Pantalon de pisteur en kudzu",
       "ja": "クズクロス・レンジャートラウザー"
     }
@@ -12544,9 +12544,9 @@
     "level": 273,
     "maxQuality": 10851,
     "name": {
-      "cn": "Tigerskin Trousers of Scouting",
+      "cn": "Kudzu Trousers of Scouting",
       "de": "Tigerleder-Hose des Spähens",
-      "en": "Tigerskin Trousers of Scouting",
+      "en": "Kudzu Trousers of Scouting",
       "fr": "Pantalon d'éclaireur en kudzu",
       "ja": "クズクロス・スカウトトラウザー"
     }
@@ -12656,6 +12656,20 @@
     "level": 276,
     "maxQuality": 11263,
     "name": {
+      "cn": "Kudzu Trousers of Striking",
+      "de": "Tigerleder-Hose des Schlagens",
+      "en": "Kudzu Trousers of Striking",
+      "fr": "Pantalon d'agresseur en kudzu",
+      "ja": "クズクロス・ストライカートラウザー"
+    }
+  },
+  {
+    "baseLevel": 65,
+    "difficulty": 2264,
+    "durability": 80,
+    "level": 276,
+    "maxQuality": 11263,
+    "name": {
       "cn": "Kudzu Tunic of Aiming",
       "de": "Kudzu-Tunika des Zielens",
       "en": "Kudzu Tunic of Aiming",
@@ -12689,20 +12703,6 @@
       "en": "Kudzu Tunic of Striking",
       "fr": "Tunique d'agresseur en kudzu",
       "ja": "クズクロス・ストライカーチュニック"
-    }
-  },
-  {
-    "baseLevel": 65,
-    "difficulty": 2264,
-    "durability": 80,
-    "level": 276,
-    "maxQuality": 11263,
-    "name": {
-      "cn": "Tigerskin Trousers of Striking",
-      "de": "Tigerleder-Hose des Schlagens",
-      "en": "Tigerskin Trousers of Striking",
-      "fr": "Pantalon d'agresseur en kudzu",
-      "ja": "クズクロス・ストライカートラウザー"
     }
   },
   {
@@ -13118,11 +13118,11 @@
     "level": 288,
     "maxQuality": 12913,
     "name": {
-      "cn": "Gazelleskin Coat of Casting",
-      "de": "Gazellenleder-Mantel der Magie",
-      "en": "Gazelleskin Coat of Casting",
-      "fr": "Robe d'incantateur en doublesoie",
-      "ja": "ツインシルク・キャスターローブ"
+      "cn": "Twinsilk Apron",
+      "de": "Doppelseiden-Schürze",
+      "en": "Twinsilk Apron",
+      "fr": "Tablier en doublesoie",
+      "ja": "ツインシルクエプロン"
     }
   },
   {
@@ -13132,11 +13132,11 @@
     "level": 288,
     "maxQuality": 12913,
     "name": {
-      "cn": "Twinsilk Apron",
-      "de": "Doppelseiden-Schürze",
-      "en": "Twinsilk Apron",
-      "fr": "Tablier en doublesoie",
-      "ja": "ツインシルクエプロン"
+      "cn": "Twinsilk Coat of Casting",
+      "de": "Gazellenleder-Mantel der Magie",
+      "en": "Twinsilk Coat of Casting",
+      "fr": "Robe d'incantateur en doublesoie",
+      "ja": "ツインシルク・キャスターローブ"
     }
   },
   {
@@ -13356,6 +13356,51 @@
     "level": 300,
     "maxQuality": 14071,
     "name": {
+      "cn": "Ao Dai",
+      "de": "Ao Dai",
+      "en": "Ao Dai",
+      "fr": "Áo dài",
+      "ja": "アオザイ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Non La",
+      "de": "Non La",
+      "en": "Non La",
+      "fr": "Nón lá",
+      "ja": "ノンラー"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Quan",
+      "de": "Quan",
+      "en": "Quan",
+      "fr": "Quân",
+      "ja": "クワン"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
       "cn": "Taoist's Cap",
       "de": "Daoisten-Kappe",
       "en": "Taoist's Cap",
@@ -13423,5 +13468,230 @@
       "ja": "マメット・スサノオ"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Robe of Casting",
+      "de": "Indigoramien-Robe der Magie",
+      "en": "Indigo Ramie Robe of Casting",
+      "fr": "Robe d'incantateur en ramie indigo",
+      "ja": "インディゴラミー・キャスターローブ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Robe of Healing",
+      "de": "Indigoramien-Robe der Heilung",
+      "en": "Indigo Ramie Robe of Healing",
+      "fr": "Robe de soigneur en ramie indigo",
+      "ja": "インディゴラミー・ヒーラーローブ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Sarouels of Scouting",
+      "de": "Indigoramien-Sarouel des Spähens",
+      "en": "Indigo Ramie Sarouels of Scouting",
+      "fr": "Saroual d'éclaireur en ramie indigo",
+      "ja": "インディゴラミー・スカウトサルエル"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Sarouels of Striking",
+      "de": "Indigoramien-Sarouel des Schlagens",
+      "en": "Indigo Ramie Sarouels of Striking",
+      "fr": "Saroual d'agresseur en ramie indigo",
+      "ja": "インディゴラミー・ストライカーサルエル"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Sash of Aiming",
+      "de": "Indigoramien-Schärpe des Zielens",
+      "en": "Indigo Ramie Sash of Aiming",
+      "fr": "Écharpe-ceinture de pisteur en ramie indigo",
+      "ja": "インディゴラミー・レンジャーサッシュ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Sash of Casting",
+      "de": "Indigoramien-Schärpe der Magie",
+      "en": "Indigo Ramie Sash of Casting",
+      "fr": "Écharpe-ceinture d'incantateur en ramie indigo",
+      "ja": "インディゴラミー・キャスターサッシュ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Sash of Fending",
+      "de": "Indigoramien-Schärpe der Verteidigung",
+      "en": "Indigo Ramie Sash of Fending",
+      "fr": "Écharpe-ceinture de protecteur en ramie indigo",
+      "ja": "インディゴラミー・ディフェンダーサッシュ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Sash of Healing",
+      "de": "Indigoramien-Schärpe der Heilung",
+      "en": "Indigo Ramie Sash of Healing",
+      "fr": "Écharpe-ceinture de soigneur en ramie indigo",
+      "ja": "インディゴラミー・ヒーラーサッシュ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Sash of Maiming",
+      "de": "Indigoramien-Schärpe des Verstümmelns",
+      "en": "Indigo Ramie Sash of Maiming",
+      "fr": "Écharpe-ceinture d'abatteur en ramie indigo",
+      "ja": "インディゴラミー・スレイヤーサッシュ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Sash of Scouting",
+      "de": "Indigoramien-Schärpe des Spähens",
+      "en": "Indigo Ramie Sash of Scouting",
+      "fr": "Écharpe-ceinture d'éclaireur en ramie indigo",
+      "ja": "インディゴラミー・スカウトサッシュ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Sash of Striking",
+      "de": "Indigoramien-Schärpe des Schlagens",
+      "en": "Indigo Ramie Sash of Striking",
+      "fr": "Écharpe-ceinture d'agresseur en ramie indigo",
+      "ja": "インディゴラミー・ストライカーサッシュ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Skirt of Casting",
+      "de": "Indigoramien-Rock der Magie",
+      "en": "Indigo Ramie Skirt of Casting",
+      "fr": "Jupe d'incantateur en ramie indigo",
+      "ja": "インディゴラミー・キャスタースカート"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Skirt of Healing",
+      "de": "Indigoramien-Rock der Heilung",
+      "en": "Indigo Ramie Skirt of Healing",
+      "fr": "Jupe de soigneur en ramie indigo",
+      "ja": "インディゴラミー・ヒーラースカート"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Indigo Ramie Tabard of Aiming",
+      "de": "Indigoramien-Waffenrock des Zielens",
+      "en": "Indigo Ramie Tabard of Aiming",
+      "fr": "Tabard de pisteur en ramie indigo",
+      "ja": "インディゴラミー・レンジャータバード"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Rhea Cloth",
+      "de": "Rheastoff",
+      "en": "Rhea Cloth",
+      "fr": "Étoffe de coutil indigo",
+      "ja": "藍上布"
+    },
+    "stars": 2
   }
 ]

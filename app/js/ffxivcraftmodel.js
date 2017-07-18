@@ -94,7 +94,7 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
         levelCorrectionFactor += 0.01 * Math.min(levelDifference - 15, 5);
     }
     if (levelDifference > 20) {
-        levelCorrectionFactor += 0.000669 * Math.min(levelDifference - 20, 100);
+        levelCorrectionFactor += 0.0006 * (levelDifference - 20);
     }
 
     // Level penalty for recipes above crafter level
@@ -113,8 +113,12 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     var recipeLevelFactor = 0;
     var levelCorrectionFactor = 0;
     var levelCorrectedQuality = 0;
+    if (recipeLevel >= 255) {
+        baseQuality = 3.38411e-05 * control * control + 0.340191324 * control + 33.85116443;
 
-    if (recipeLevel >= 115) {
+        recipeLevelFactor = -0.0002122 * recipeLevel;
+    }
+    else if (recipeLevel >= 115) {
         baseQuality = 3.3506479e-5 * control * control + 0.339276958 * control + 32.97846477;
 
         recipeLevelFactor = 3.4e-4 * (115 - recipeLevel);
@@ -1802,7 +1806,8 @@ var Ing1RecipeLevelTable = {
     285: 274.5, // 68
     288: 279,   // 69
     290: 280,   // 70
-    300: 291,   // 70_1star
+    300: 291.185, // 70_1star
+    320: 292.75, // 70_2star
 };
 
 var Ing2RecipeLevelTable = {
@@ -1848,6 +1853,7 @@ var Ing2RecipeLevelTable = {
     288: 276,   // 69
     290: 279,   // 70
     300: 290,   // 70_1star
+    320: 292,   // 70_2star
 };
 
 var NymeaisWheelTable = {

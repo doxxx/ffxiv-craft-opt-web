@@ -14590,7 +14590,7 @@
     "maxQuality": 12500,
     "name": {
       "cn": "Palladium Bracelet of Aiming",
-      "de": "Palladium-Armreife des Zielens",
+      "de": "Palladium-Armreif des Zielens",
       "en": "Palladium Bracelet of Aiming",
       "fr": "Bracelet de pisteur en palladium",
       "ja": "パラースレンジャーブレスレット"
@@ -14604,7 +14604,7 @@
     "maxQuality": 12500,
     "name": {
       "cn": "Palladium Bracelet of Casting",
-      "de": "Palladium-Armreife der Magie",
+      "de": "Palladium-Armreif der Magie",
       "en": "Palladium Bracelet of Casting",
       "fr": "Bracelet d'incantateur en palladium",
       "ja": "パラースキャスターブレスレット"
@@ -14618,7 +14618,7 @@
     "maxQuality": 12500,
     "name": {
       "cn": "Palladium Bracelet of Fending",
-      "de": "Palladium-Armreife der Verteidigung",
+      "de": "Palladium-Armreif der Verteidigung",
       "en": "Palladium Bracelet of Fending",
       "fr": "Bracelet de protecteur en palladium",
       "ja": "パラースディフェンダーブレスレット"
@@ -14632,7 +14632,7 @@
     "maxQuality": 12500,
     "name": {
       "cn": "Palladium Bracelet of Healing",
-      "de": "Palladium-Armreife der Heilung",
+      "de": "Palladium-Armreif der Heilung",
       "en": "Palladium Bracelet of Healing",
       "fr": "Bracelet de soigneur en palladium",
       "ja": "パラースヒーラーブレスレット"
@@ -14646,7 +14646,7 @@
     "maxQuality": 12500,
     "name": {
       "cn": "Palladium Bracelet of Slaying",
-      "de": "Palladium-Armreife des Schlachtens",
+      "de": "Palladium-Armreif des Schlachtens",
       "en": "Palladium Bracelet of Slaying",
       "fr": "Bracelet d'attaquant en palladium",
       "ja": "パラースアタッカーブレスレット"
@@ -15213,5 +15213,260 @@
       "ja": "MGラクシュミ"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Band of Aiming",
+      "de": "Palladium-Schildring des Zielens",
+      "en": "Palladium Band of Aiming",
+      "fr": "Bague de pisteur en palladium",
+      "ja": "パラースレンジャーリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Band of Casting",
+      "de": "Palladium-Schildring der Magie",
+      "en": "Palladium Band of Casting",
+      "fr": "Bague d'incantateur en palladium",
+      "ja": "パラースキャスターリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Band of Fending",
+      "de": "Palladium-Schildring der Verteidigung",
+      "en": "Palladium Band of Fending",
+      "fr": "Bague de protecteur en palladium",
+      "ja": "パラースディフェンダーリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Band of Healing",
+      "de": "Palladium-Schildring der Heilung",
+      "en": "Palladium Band of Healing",
+      "fr": "Bague de soigneur en palladium",
+      "ja": "パラースヒーラーリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Band of Slaying",
+      "de": "Palladium-Schildring des Schlachtens",
+      "en": "Palladium Band of Slaying",
+      "fr": "Bague d'attaquant en palladium",
+      "ja": "パラースアタッカーリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Circlet of Maiming",
+      "de": "Palladium-Stirnreif des Verstümmelns",
+      "en": "Palladium Circlet of Maiming",
+      "fr": "Diadème d'abatteur en palladium",
+      "ja": "パラーススレイヤーサークレット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Circlet of Scouting",
+      "de": "Palladium-Stirnreif des Spähens",
+      "en": "Palladium Circlet of Scouting",
+      "fr": "Diadème d'éclaireur en palladium",
+      "ja": "パラーススカウトサークレット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Circlet of Striking",
+      "de": "Palladium-Stirnreif des Schlagens",
+      "en": "Palladium Circlet of Striking",
+      "fr": "Diadème d'agresseur en palladium",
+      "ja": "パラースストライカーサークレット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Earring of Aiming",
+      "de": "Palladium-Ohrring des Zielens",
+      "en": "Palladium Earring of Aiming",
+      "fr": "Boucle d'oreille de pisteur en palladium",
+      "ja": "パラースレンジャーイヤリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Earring of Casting",
+      "de": "Palladium-Ohrring der Magie",
+      "en": "Palladium Earring of Casting",
+      "fr": "Boucle d'oreille d'incantateur en palladium",
+      "ja": "パラースキャスターイヤリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Earring of Fending",
+      "de": "Palladium-Ohrring der Verteidigung",
+      "en": "Palladium Earring of Fending",
+      "fr": "Boucle d'oreille de protecteur en palladium",
+      "ja": "パラースディフェンダーイヤリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Earring of Healing",
+      "de": "Palladium-Ohrring der Heilung",
+      "en": "Palladium Earring of Healing",
+      "fr": "Boucle d'oreille de soigneur en palladium",
+      "ja": "パラースヒーラーイヤリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Earring of Slaying",
+      "de": "Palladium-Ohrring des Schlachtens",
+      "en": "Palladium Earring of Slaying",
+      "fr": "Boucle d'oreille d'attaquant en palladium",
+      "ja": "パラースアタッカーイヤリング"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Ingot",
+      "de": "Palladium-Barren",
+      "en": "Palladium Ingot",
+      "fr": "Lingot de palladium",
+      "ja": "パラースインゴット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Orrery",
+      "de": "Palladium-Orrery",
+      "en": "Palladium Orrery",
+      "fr": "Planétaire en palladium",
+      "ja": "パラースオーラリー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Rapier",
+      "de": "Palladium-Rapier",
+      "en": "Palladium Rapier",
+      "fr": "Rapière en palladium",
+      "ja": "パラースレイピア"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Palladium Staff",
+      "de": "Palladium-Rute",
+      "en": "Palladium Staff",
+      "fr": "Bâton en palladium",
+      "ja": "パラーススタッフ"
+    },
+    "stars": 2
   }
 ]

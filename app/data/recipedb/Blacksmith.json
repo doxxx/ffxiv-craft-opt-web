@@ -6869,20 +6869,6 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "cn": "Hardsilver Uchigatana",
-      "de": "Hartsilber-Uchigatana",
-      "en": "Hardsilver Uchigatana",
-      "fr": "Uchigatana en titane",
-      "ja": "地鉄打刀"
-    }
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 641,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 6042,
-    "name": {
       "cn": "白钛大斧",
       "de": "Titan-Axt",
       "en": "Titanium Axe",
@@ -6972,6 +6958,20 @@
       "en": "Titanium Rivets",
       "fr": "Rivets en titane",
       "ja": "チタンリベット"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "cn": "Titanium Uchigatana",
+      "de": "Hartsilber-Uchigatana",
+      "en": "Titanium Uchigatana",
+      "fr": "Uchigatana en titane",
+      "ja": "地鉄打刀"
     }
   },
   {
@@ -7084,20 +7084,6 @@
       "en": "Titanium Hatchet",
       "fr": "Hachette en titane",
       "ja": "チタンハチェット"
-    }
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 752,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 6561,
-    "name": {
-      "cn": "Hardsilver Tachi",
-      "de": "Hartsilber-Tachi",
-      "en": "Hardsilver Tachi",
-      "fr": "Tachi en titane",
-      "ja": "地鉄太刀"
     }
   },
   {
@@ -7224,6 +7210,20 @@
       "en": "Titanium Sledgehammer",
       "fr": "Maillet en titane",
       "ja": "チタンモール"
+    }
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "cn": "Titanium Tachi",
+      "de": "Hartsilber-Tachi",
+      "en": "Titanium Tachi",
+      "fr": "Tachi en titane",
+      "ja": "地鉄太刀"
     }
   },
   {
@@ -7555,11 +7555,11 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "精金双手剑",
-      "de": "Adamantium-Zweihänder",
-      "en": "Adamantite Zweihander",
-      "fr": "Espadon en adamantium",
-      "ja": "アダマンツヴァイハンダー"
+      "cn": "Adamantite Uchigatana",
+      "de": "Königsgold-Uchigatana",
+      "en": "Adamantite Uchigatana",
+      "fr": "Uchigatana en adamantium",
+      "ja": "金剛打刀"
     }
   },
   {
@@ -7569,11 +7569,11 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Aurum Regis Uchigatana",
-      "de": "Königsgold-Uchigatana",
-      "en": "Aurum Regis Uchigatana",
-      "fr": "Uchigatana en adamantium",
-      "ja": "金剛打刀"
+      "cn": "精金双手剑",
+      "de": "Adamantium-Zweihänder",
+      "en": "Adamantite Zweihander",
+      "fr": "Espadon en adamantium",
+      "ja": "アダマンツヴァイハンダー"
     }
   },
   {
@@ -10698,5 +10698,125 @@
       "fr": "Maillet en molybdène",
       "ja": "モリブデンモール"
     }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Chromite Arquebus",
+      "de": "Chromeisen-Hakenbüchse",
+      "en": "Chromite Arquebus",
+      "fr": "Arquebuse en chromite",
+      "ja": "クロマイトアークウィバス"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Chromite Axe",
+      "de": "Chromeisen-Axt",
+      "en": "Chromite Axe",
+      "fr": "Hache en chromite",
+      "ja": "クロマイトアクス"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Chromite Daggers",
+      "de": "Chromeisen-Dolche",
+      "en": "Chromite Daggers",
+      "fr": "Dagues en chromite",
+      "ja": "クロマイトダガー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Chromite Greatsword",
+      "de": "Chromeisen-Großschwert",
+      "en": "Chromite Greatsword",
+      "fr": "Grande épée en chromite",
+      "ja": "クロマイトグレートソード"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Chromite Ingot",
+      "de": "Chromeisen-Barren",
+      "en": "Chromite Ingot",
+      "fr": "Lingot de chromite",
+      "ja": "クロマイトインゴット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Chromite Knuckles",
+      "de": "Chromeisen-Schlagringe",
+      "en": "Chromite Knuckles",
+      "fr": "Poings en chromite",
+      "ja": "クロマイトナックル"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Chromite Sword",
+      "de": "Chromeisen-Schwert",
+      "en": "Chromite Sword",
+      "fr": "Épée en chromite",
+      "ja": "クロマイトソード"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Chromite Uchigatana",
+      "de": "Chromeisen-Uchigatana",
+      "en": "Chromite Uchigatana",
+      "fr": "Uchigatana en chromite",
+      "ja": "堅鉄打刀"
+    },
+    "stars": 2
   }
 ]
