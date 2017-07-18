@@ -5522,5 +5522,50 @@
       "ja": "柿の葉寿司"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Pork Kakuni",
+      "de": "Kakuni",
+      "en": "Pork Kakuni",
+      "fr": "Porc braisé à l'orientale",
+      "ja": "豚角煮"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Pork Stew",
+      "de": "Schweinefleischeintopf",
+      "en": "Pork Stew",
+      "fr": "Bouillon de porc",
+      "ja": "豚汁"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Steppe Tea",
+      "de": "Steppen-Tee",
+      "en": "Steppe Tea",
+      "fr": "Thé de la Steppe",
+      "ja": "ステップティー"
+    },
+    "stars": 2
   }
 ]
