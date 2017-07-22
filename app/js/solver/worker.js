@@ -99,8 +99,10 @@ function start(settings) {
                           settings.recipe.startQuality,
                           settings.recipe.maxQuality,
                           settings.recipe.aspect);
-  var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, settings.useConditions);
-  var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false);
+  var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0,
+    settings.useConditions, settings.maxLengthEnabled ? settings.maxLength : 0);
+  var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false,
+    settings.maxLengthEnabled ? settings.maxLength : 0);
 
   var sequence = [];
 

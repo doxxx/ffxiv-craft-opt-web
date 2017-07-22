@@ -69,12 +69,21 @@
                 </div>
               </div>
 
-              <div class="control-group" ng-class="{error: solverOptionsForm.penaltyWeight.$invalid}">
-                <label class="control-label">Penalty Weight:</label>
+              <div class="control-group">
+                <div class="controls">
+                  <label class="checkbox" tooltip="Enable to limit the sequence to a maximum number of actions." tooltip-placement="right">
+                    <input type="checkbox" ng-model="sequenceSettings.maxLengthEnabled"/>Limit Maximum Length
+                  </label>
+                </div>
+              </div>
+
+              <div class="control-group" ng-class="{error: sequenceSettings.maxLengthEnabled && solverOptionsForm.maxLength.$invalid}">
+                <label class="control-label">Max Length</label>
 
                 <div class="controls">
-                  <input class="input-small" type="number" name="penaltyWeight" ng-model="solver.penaltyWeight" min="1" required
-                         tooltip="Penalty to apply to wasted actions, incomplete sequences, unreliable sequences, too many Tricks actions and too many cross-class actions. Lowering this number might cause the solver to ignore these constraints in pursuit of higher quality."
+                  <input class="input-small" type="number" name="maxLength" ng-model="sequenceSettings.maxLength"
+                         ng-disabled="!sequenceSettings.maxLengthEnabled" min="1" ng-required="sequenceSettings.maxLengthEnabled"
+                         tooltip="The maximum number of actions in the sequence."
                          tooltip-placement="right"/>
                 </div>
               </div>
@@ -109,8 +118,18 @@
                 <label class="control-label">Generations:</label>
 
                 <div class="controls">
-                  <input class="input-small" type="number" name="generations" ng-model="solver.generations" min="1"required
+                  <input class="input-small" type="number" name="generations" ng-model="solver.generations" min="1" required
                          tooltip="The number of generations to evolve in a solver run. Increasing this number may improve the chance of finding a better sequence, but increases the time required to complete a solver run."
+                         tooltip-placement="left"/>
+                </div>
+              </div>
+
+              <div class="control-group" ng-class="{error: solverOptionsForm.penaltyWeight.$invalid}">
+                <label class="control-label">Penalty Weight:</label>
+
+                <div class="controls">
+                  <input class="input-small" type="number" name="penaltyWeight" ng-model="solver.penaltyWeight" min="1" required
+                         tooltip="Penalty to apply to wasted actions, incomplete sequences, unreliable sequences, too many Tricks actions and too many cross-class actions. Lowering this number might cause the solver to ignore these constraints in pursuit of higher quality."
                          tooltip-placement="left"/>
                 </div>
               </div>
@@ -189,8 +208,7 @@
       <tab heading="Debugging" active="pageState.options.tabs.debugging.active">
         <form name="generalOptionsForm">
 
-          <div class="control-group"
-               ng-class="{error: sequenceSettings.specifySeed && generalOptionsForm.seed.$invalid}">
+          <div class="control-group">
             <div class="controls">
               <label class="checkbox" tooltip="Enable to override the random seed used for Monte Carlo simulations." tooltip-placement="right">
                 <input type="checkbox" ng-model="sequenceSettings.specifySeed"/>Specify Seed

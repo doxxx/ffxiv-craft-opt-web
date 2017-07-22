@@ -60,12 +60,13 @@ function Recipe(level, difficulty, durability, startQuality, maxQuality, aspect)
     this.aspect = aspect;
 }
 
-function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions) {
+function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, maxLength) {
     this.crafter = crafter;
     this.recipe = recipe;
     this.maxTrickUses = maxTrickUses;
     this.useConditions = useConditions;
     this.reliabilityIndex = reliabilityIndex;
+    this.maxLength = maxLength;
 }
 
 Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, crafterLevel, recipeLevel) {

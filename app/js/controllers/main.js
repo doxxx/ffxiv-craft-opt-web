@@ -386,6 +386,8 @@
         maxTricksUses: 0,
         maxMontecarloRuns: 500,
         reliabilityPercent: 100,
+        maxLengthEnabled: false,
+        maxLength: 0,
         specifySeed: false,
         seed: 1337,
         useConditions: true,
