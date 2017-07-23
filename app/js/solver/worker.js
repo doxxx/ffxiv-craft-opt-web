@@ -52,9 +52,60 @@ function start(settings) {
     Math.seed = seed;
   }
 
-  logOutput.write("Seed: %d, Use Conditions: %s\n\n".sprintf(seed, settings.useConditions));
+  if (settings.maxLength > 0) {
+    logOutput.write("WARNING: Maximum length limit of %d is in effect!\n\n".sprintf(settings.maxLength));
+  }
 
   var crafterActions = [];
+
+  logOutput.write("Seed: %d\n\
+\n\
+Crafter:\n\
+  Class: %s\n\
+  Level: %d\n\
+  Craftsmanship: %d\n\
+  Control: %d\n\
+  CP: %d\n\
+  Specialist: %s\n\
+\n\
+Recipe:\n\
+  Level: %d\n\
+  Difficulty: %d\n\
+  Durability: %d\n\
+  Start Quality: %d\n\
+  Max Quality: %d\n\
+  Aspect: %s\n\
+\n\
+Settings:\n\
+  Max Tricks Uses: %d\n\
+  Reliability: %d%%\n\
+  Use Conditions: %s\n\
+  Algorithm: %s\n\
+  Population: %d\n\
+  Generations: %d\n\
+  Penalty Weight: %d\n\
+\n".sprintf(
+    seed,
+    settings.recipe.cls,
+    settings.crafter.level,
+    settings.crafter.craftsmanship,
+    settings.crafter.control,
+    settings.crafter.cp,
+    settings.crafter.specialist ? "true" : "false",
+    settings.recipe.level,
+    settings.recipe.difficulty,
+    settings.recipe.durability,
+    settings.recipe.startQuality,
+    settings.recipe.maxQuality,
+    settings.recipe.aspect || "none",
+    settings.maxTricksUses,
+    settings.reliabilityPercent,
+    settings.useConditions ? "true" : "false",
+    settings.algorithm,
+    settings.solver.population,
+    settings.solver.generations,
+    settings.solver.penaltyWeight
+  ));
 
   for (var i = 0; i < settings.crafter.actions.length; i++) {
     var actionName = settings.crafter.actions[i];
