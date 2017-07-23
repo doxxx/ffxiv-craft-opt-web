@@ -60,12 +60,13 @@ function Recipe(level, difficulty, durability, startQuality, maxQuality, aspect)
     this.aspect = aspect;
 }
 
-function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions) {
+function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, maxLength) {
     this.crafter = crafter;
     this.recipe = recipe;
     this.maxTrickUses = maxTrickUses;
     this.useConditions = useConditions;
     this.reliabilityIndex = reliabilityIndex;
+    this.maxLength = maxLength;
 }
 
 Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, crafterLevel, recipeLevel) {
@@ -1452,6 +1453,13 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     var maxCrossClassActionsExceeded = crossClassActionCounter - maxCrossClassActions(mySynth.crafter.level);
     if (maxCrossClassActionsExceeded > 0) {
         penalties += maxCrossClassActionsExceeded;
+    }
+
+    if (mySynth.maxLength > 0) {
+        var maxActionsExceeded = individual.length - mySynth.maxLength;
+        if (maxActionsExceeded > 0) {
+            penalties += 0.1 * maxActionsExceeded;
+        }
     }
 
     fitness += result.qualityState;
