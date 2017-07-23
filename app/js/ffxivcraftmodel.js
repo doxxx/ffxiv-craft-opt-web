@@ -1455,6 +1455,13 @@ function evalSeq(individual, mySynth, penaltyWeight) {
         penalties += maxCrossClassActionsExceeded;
     }
 
+    if (mySynth.maxLength > 0) {
+        var maxActionsExceeded = individual.length - mySynth.maxLength;
+        if (maxActionsExceeded > 0) {
+            penalties += 0.1 * maxActionsExceeded;
+        }
+    }
+
     fitness += result.qualityState;
     fitness -= penaltyWeight * penalties;
     fitnessProg += result.progressState;
