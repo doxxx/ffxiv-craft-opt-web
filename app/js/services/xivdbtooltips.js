@@ -20,23 +20,32 @@
   XIVDBTooltipsService.$inject = ['$rootScope', '$q', '_allActions', '_allClasses', '_actionsByName'];
 
   XIVDBTooltipsService.prototype.loadTooltips = function (lang) {
-    var actions = [];
+    var batches = [];
+    var batch = [];
     for (var i = 0; i < this._allActions.length; i++) {
       var action = this._allActions[i];
       if (action.skillID) {
         if (action.cls == 'All') {
           for (var j = 0; j < this._allClasses.length; j++) {
             var cls = this._allClasses[j];
-            actions.push({shortName: action.shortName, cls: cls, skillID: action.skillID[cls]});
+            batch.push({shortName: action.shortName, cls: cls, skillID: action.skillID[cls]});
           }
         }
         else {
-          actions.push({shortName: action.shortName, cls: action.cls, skillID: action.skillID[action.cls]});
+          batch.push({shortName: action.shortName, cls: action.cls, skillID: action.skillID[action.cls]});
         }
+      }
+      if (batch.length >= 10) {
+        batches.push(batch);
+        batch = [];
       }
     }
 
-    return this._fetch(actions, lang).then(function (response) {
+    if (batch.length > 0) {
+      batches.push(batch);
+    }
+
+    var responseHandler = function (response) {
       var newTooltips = {};
       var actionsBySkillID = response.config.actionsBySkillID;
       var xivdbActions = response.data.action;
@@ -45,9 +54,17 @@
         var action = actionsBySkillID[xivdbAction.data.id];
         newTooltips[action.cls + action.shortName] = xivdbAction.html;
       }
-      this.actionTooltips = newTooltips;
+      angular.extend(this.actionTooltips, newTooltips);
       this.$rootScope.$broadcast("tooltipCacheUpdated");
-    }.bind(this));
+    }.bind(this);
+
+    var promises = [];
+    for (i = 0; i < batches.length; i++) {
+      batch = batches[i];
+      promises.push(this._fetch(batch, lang).then(responseHandler));
+    }
+
+    return this.$q.all(promises);
   };
 
   XIVDBTooltipsService.prototype._fetch = function (actions, lang) {
