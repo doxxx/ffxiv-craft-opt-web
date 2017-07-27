@@ -387,7 +387,7 @@
         maxMontecarloRuns: 500,
         reliabilityPercent: 100,
         maxLengthEnabled: false,
-        maxLength: 0,
+        maxLength: 50,
         specifySeed: false,
         seed: 1337,
         useConditions: true,
@@ -420,6 +420,11 @@
       angular.extend($scope.sequenceSettings, state.sequenceSettings);
       angular.extend($scope.solver, state.solver);
       angular.extend($scope.macroOptions, state.macroOptions || {});
+
+      // Hack fix for bogus maxLength default value
+      if ($scope.sequenceSettings.maxLength === 0) {
+        $scope.sequenceSettings.maxLength = 50;
+      }
 
       $scope.sequence = state.sequence;
 
