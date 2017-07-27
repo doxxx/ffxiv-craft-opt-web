@@ -108,17 +108,20 @@
         if (info) {
           var actionName = $translate.instant(info.name);
           var line = '/ac "' + actionName + '" ';
+          var time;
           if (buffs[action]) {
             line += buffWaitString;
+            time = options.buffWaitTime;
           }
           else {
             line += waitString;
+            time = options.waitTime
           }
           line += '\n';
-          lines.push(line);
+          lines.push({text: line, time: time});
         }
         else {
-          lines.push('/echo Error: Unknown action ' + action);
+          lines.push({text: '/echo Error: Unknown action ' + action, time: 0});
         }
       }
 
@@ -130,18 +133,22 @@
 
       var macroString = '';
       var macroLineCount = 0;
+      var macroTime = 0;
       var macroIndex = 1;
 
       for (var j = 0; j < lines.length; j++) {
-        macroString += lines[j];
+        var line = lines[j];
+        macroString += line.text;
+        macroTime += line.time;
         macroLineCount += 1;
 
-        if (macroLineCount == MAX_LINES-1) {
+        if (macroLineCount === MAX_LINES-1) {
           if (lines.length - (j + 1) > 1) {
             macroString += '/echo Macro #' + macroIndex + ' complete ' + soundEffect(options.stepSoundEffect) + '\n';
-            macroList.push(macroString);
+            macroList.push({text: macroString, time: macroTime});
             macroString = '';
             macroLineCount = 0;
+            macroTime = 0;
             macroIndex += 1;
           }
         }
@@ -151,7 +158,7 @@
         if (macroLineCount < MAX_LINES) {
           macroString += '/echo Macro #' + macroIndex + ' complete ' + soundEffect(options.finishSoundEffect) + '\n';
         }
-        macroList.push(macroString)
+        macroList.push({text: macroString, time: macroTime});
       }
 
       return macroList;
