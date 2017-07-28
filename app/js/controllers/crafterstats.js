@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('CrafterStatsController', controller);
 
-  function controller($scope, $modal, _actionGroups, _allClasses, _allActions, _profile, _xivdb) {
+  function controller($scope, $modal, _actionGroups, _allClasses, _actionsByName, _profile, _xivdb) {
     $scope.crafterActionClasses = crafterActionClasses;
     $scope.toggleAction = toggleAction;
     $scope.onTabSelect = onTabSelect;
@@ -71,9 +71,12 @@
     function selectAllActions(cls) {
       var clsActions = $scope.crafter.stats[cls].actions;
       clsActions.splice(0, clsActions.length);
-      for (var i = 0; i < _allActions.length; i++) {
-        var action = _allActions[i];
-        clsActions.push(action.shortName);
+      for (var i = 0; i < _actionGroups.length; i++) {
+        var actions = _actionGroups[i].actions;
+        for (var j = 0; j < actions.length; j++) {
+          var action = _actionsByName[actions[j]];
+          clsActions.push(action.shortName);
+        }
       }
     }
 
@@ -136,23 +139,26 @@
 
     function selectActionsByLevel(cls) {
       var stats = $scope.crafter.stats[cls];
-      var actions = [];
+      var selectedActions = [];
 
-      for (var i = 0; i < _allActions.length; i++) {
-        var action = _allActions[i];
-        var actionClass = action.cls === "All" ? cls : action.cls;
+      for (var i = 0; i < _actionGroups.length; i++) {
+        var actions = _actionGroups[i].actions;
+        for (var j = 0; j < actions.length; j++) {
+          var action = _actionsByName[actions[j]];
+          var actionClass = action.cls === "All" ? cls : action.cls;
 
-        // Skip specialist actions if the class is not marked as a specialist
-        if (specialistActions.indexOf(action.shortName) >= 0 && !$scope.crafter.stats[actionClass].specialist) {
-          continue;
-        }
+          // Skip specialist actions if the class is not marked as a specialist
+          if (specialistActions.indexOf(action.shortName) >= 0 && !$scope.crafter.stats[actionClass].specialist) {
+            continue;
+          }
 
-        if (action.level <= $scope.crafter.stats[actionClass].level) {
-          actions.push(action.shortName);
+          if (action.level <= $scope.crafter.stats[actionClass].level) {
+            selectedActions.push(action.shortName);
+          }
         }
       }
 
-      stats.actions = actions;
+      stats.actions = selectedActions;
     }
   }
 })();
