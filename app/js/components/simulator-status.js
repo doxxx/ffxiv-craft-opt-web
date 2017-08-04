@@ -31,6 +31,8 @@
     //////////////////////////////////////////////////////////////////////////
 
     function update() {
+      $scope.baseStats = $scope.crafter;
+
       if ($scope.bonusStats) {
         $scope.stats = _bonusStats.addCrafterBonusStats($scope.crafter, $scope.bonusStats)
       }
