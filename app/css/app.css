@@ -128,67 +128,17 @@ legend small > .light {
   }
 }
 
-.bonus-stats table {
-  background: #f5f5f5;
-  border: 2px solid #e3e3e3;
-  border-radius: 3px;
-  padding: 10px;
-  border-collapse: separate;
-  margin-bottom: 10px;
-  width: 100%;
-}
-
-.bonus-stats td {
-  vertical-align: middle;
-  padding-right: 10px;
-}
-
-.bonus-stats td.value {
-  /*text-align: right;*/
-}
-
-.bonus-stats td.operator {
-}
-
-.bonus-stats input {
-  text-align: right;
-  margin-bottom: 4px;
-  padding: 2px;
-}
-
-@media (max-width: 768px) {
-  .bonus-stats input.input-mini {
-    width: 50px;
-  }
-}
-
-.simulator-status-ok {
-  color: forestgreen;
-}
-
-.simulator-status-error {
-  color: crimson;
-}
-
-
-.simulator-status .progress {
-  background-image: linear-gradient(to bottom, #D0D0D0, #EAEAEA);
-  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.simulator-status table {
-  background: #f5f5f5;
-  border: 2px solid #e3e3e3;
-  border-radius: 3px;
-  padding: 10px;
-  border-collapse: separate;
-  margin-bottom: 10px;
-  width: 100%;
-}
-
 .simulator-status .title {
   font-size: x-large;
   font-weight: bold;
+}
+
+.simulator-status .stats-label {
+  font-weight: bold;
+}
+
+.simulator-status .align-right {
+  text-align: right;
 }
 
 .simulator-status hr {
@@ -198,14 +148,91 @@ legend small > .light {
   border-bottom: 1px solid white;
 }
 
-.simulator-status td.bar {
+.bonus-stats {
+  background: #f5f5f5;
+  border: 2px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 10px;
+  overflow: auto;
+  margin-bottom: 20px;
 }
 
-.simulator-status td.bar .progress {
+.bonus-stats table {
+  width: 100%;
+}
+
+.bonus-stats form {
+  margin: 0;
+}
+
+.bonus-stats td {
+  vertical-align: middle;
+}
+
+.bonus-stats td.col1 {
+  min-width: 110px;
+  width: 120px;
+}
+
+.bonus-stats td.col2 {
+  min-width: 30px;
+  width: 50px;
+}
+
+.bonus-stats td.col3 {
+  min-width: 30px;
+  width: 50px;
+}
+
+.bonus-stats td.col4 {
+  min-width: 90px;
+  width: 90px;
+}
+
+.bonus-stats td.col5 {
+  min-width: 30px;
+  width: 50px;
+}
+
+.bonus-stats input {
+  text-align: right;
+  margin-bottom: 4px;
+  padding: 2px;
+}
+
+@media (max-width: 767px) {
+  .bonus-stats input.input-mini {
+    width: 50px;
+  }
+}
+
+.synth-status {
+  background: #f5f5f5;
+  border: 2px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 10px;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.synth-status .progress {
+  background-image: linear-gradient(to bottom, #D0D0D0, #EAEAEA);
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.synth-status table {
+  width: 100%;
+}
+
+.synth-status td.bar {
+  width: 100%;
+}
+
+.synth-status td.bar .progress {
   margin-bottom: 10px;
 }
 
-.simulator-status td.bar-value {
+.synth-status td.bar-value {
   min-width: 7em;
   text-align: right;
   font-size: larger;
@@ -213,12 +240,8 @@ legend small > .light {
   vertical-align: top;
 }
 
-.simulator-status .stats-label {
-  font-weight: bold;
-}
-
-.simulator-status .align-right {
-  text-align: right;
+.synth-status .narrow {
+  line-height: 9px;
 }
 
 div[content*="xivdb"] div.tooltip-inner {
