@@ -67,56 +67,58 @@
         <tr>
           <td colspan="3">
             <span class="stats-label">Food</span><br/>
-            <select class="input-large">
-              <option>Warrior's Stew</option>
+            <select class="input-large" ng-model="bonusStats.food"
+                    ng-options="buffName(buff) for buff in buffList.food track by buff.name">
             </select>
           </td>
           <td colspan="3">
             <span class="stats-label">Medicine</span><br/>
-            <select class="input-large">
-              <option>Competent Craftsman's Tea</option>
+            <select class="input-large" ng-model="bonusStats.medicine"
+                    ng-options="buffName(buff) for buff in buffList.medicine track by buff.name">
             </select>
           </td>
         </tr>
         <tr>
           <td class="stats-label">Craftsmanship</td>
           <td class="value">{{baseStats.craftsmanship}}</td>
-          <td class="operator">+</td>
+          <td class="value">+&nbsp;{{buffStats.craftsmanship}}</td>
           <td>
-            <input class="input-small" type="number" min="0" required force-numeric
+            +&nbsp;
+            <input class="input-mini" type="number" min="0" required force-numeric
                    ng-model="bonusStats.craftsmanship"/>
           </td>
-          <td class="operator">=</td>
-          <td class="value">{{stats.craftsmanship}}</td>
+          <td class="value">=&nbsp;{{stats.craftsmanship}}</td>
         </tr>
         <tr>
           <td class="stats-label">Control</td>
           <td class="value">{{baseStats.control}}</td>
-          <td class="operator">+</td>
+          <td class="value">+&nbsp;{{buffStats.control}}</td>
           <td>
-            <input class="input-small" type="number" min="0" required force-numeric ng-model="bonusStats.control"/>
+            +&nbsp;
+            <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.control"/>
           </td>
-          <td class="operator">=</td>
-          <td class="value">{{stats.control}}</td>
+          <td class="value">=&nbsp;{{stats.control}}</td>
         </tr>
         <tr>
           <td class="stats-label">CP</td>
           <td class="value">{{baseStats.cp}}</td>
-          <td class="operator">+</td>
+          <td class="value">+&nbsp;{{buffStats.cp}}</td>
           <td>
-            <input class="input-small" type="number" min="0" required force-numeric ng-model="bonusStats.cp"/>
+            +&nbsp;
+            <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.cp"/>
           </td>
-          <td class="operator">=</td>
-          <td class="value">{{stats.cp}}</td>
+          <td class="value">=&nbsp;{{stats.cp}}</td>
         </tr>
         <tr>
           <td class="stats-label">Start Quality</td>
-          <td class="value"></td>
-          <td class="operator">+</td>
+          <td class="value">0</td>
+          <td class="value">+&nbsp;0</td>
           <td>
-            <input class="input-small" type="number" min="0" required force-numeric
+            +&nbsp;
+            <input class="input-mini" type="number" min="0" required force-numeric
                    ng-model="bonusStats.startQuality"/>
           </td>
+          <td class="value">=&nbsp;{{bonusStats.startQuality}}</td>
         </tr>
       </table>
     </form>

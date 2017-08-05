@@ -144,7 +144,7 @@ legend small > .light {
 }
 
 .bonus-stats td.value {
-  text-align: right;
+  /*text-align: right;*/
 }
 
 .bonus-stats td.operator {

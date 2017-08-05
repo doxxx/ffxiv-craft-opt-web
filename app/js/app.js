@@ -11,6 +11,7 @@
       'ffxivCraftOptWeb.services.locale',
       'ffxivCraftOptWeb.services.actions',
       'ffxivCraftOptWeb.services.bonusStats',
+      'ffxivCraftOptWeb.services.buffsdb',
       'ffxivCraftOptWeb.services.storage',
       'ffxivCraftOptWeb.services.profile',
       'ffxivCraftOptWeb.services.recipelibrary',
