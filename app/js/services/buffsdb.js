@@ -32,7 +32,12 @@
             else if (a.hq && !b.hq) return 1;
             return 0;
           });
-          result.unshift({name:"None"});
+          result = result.map(function (buff) {
+            var r = angular.copy(buff);
+            r.id = r.name + (r.hq ? ':hq' : '');
+            return r;
+          });
+          result.unshift({id:"None",name:"None"});
           return result;
         }
       );
