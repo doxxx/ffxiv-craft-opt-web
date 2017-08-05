@@ -128,13 +128,37 @@ legend small > .light {
   }
 }
 
-.bonus-stats {
-  margin-bottom: 10px;
-  display: inline-block;
+.simulator-status .title {
+  font-size: x-large;
+  font-weight: bold;
 }
 
-.bonus-stats h5 {
-  margin-top: 0;
+.simulator-status .stats-label {
+  font-weight: bold;
+}
+
+.simulator-status .align-right {
+  text-align: right;
+}
+
+.simulator-status hr {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-top: 1px solid darkgrey;
+  border-bottom: 1px solid white;
+}
+
+.bonus-stats {
+  background: #f5f5f5;
+  border: 2px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 10px;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.bonus-stats table {
+  width: 100%;
 }
 
 .bonus-stats form {
@@ -143,11 +167,31 @@ legend small > .light {
 
 .bonus-stats td {
   vertical-align: middle;
-  padding-right: 10px;
 }
 
-.bonus-stats td.value {
-  text-align: right;
+.bonus-stats td.col1 {
+  min-width: 110px;
+  width: 120px;
+}
+
+.bonus-stats td.col2 {
+  min-width: 30px;
+  width: 50px;
+}
+
+.bonus-stats td.col3 {
+  min-width: 30px;
+  width: 50px;
+}
+
+.bonus-stats td.col4 {
+  min-width: 90px;
+  width: 90px;
+}
+
+.bonus-stats td.col5 {
+  min-width: 30px;
+  width: 50px;
 }
 
 .bonus-stats input {
@@ -156,53 +200,48 @@ legend small > .light {
   padding: 2px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .bonus-stats input.input-mini {
     width: 50px;
   }
 }
 
-.simulator-status-ok {
-  color: forestgreen;
+.synth-status {
+  background: #f5f5f5;
+  border: 2px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 10px;
+  overflow: auto;
+  margin-bottom: 20px;
 }
 
-.simulator-status-error {
-  color: crimson;
-}
-
-.simulator-status .progress {
+.synth-status .progress {
   background-image: linear-gradient(to bottom, #D0D0D0, #EAEAEA);
   box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.simulator-status table {
+.synth-status table {
   width: 100%;
-  background: #f5f5f5;
-  border: 2px solid #e3e3e3;
-  border-radius: 10px;
-  padding: 10px;
-  border-collapse: separate;
 }
 
-.simulator-status td {
-/*  background: #f00;*/
+.synth-status td.bar {
+  width: 100%;
 }
 
-.simulator-status td.bar {
-  width: 70%;
+.synth-status td.bar .progress {
+  margin-bottom: 10px;
 }
 
-.simulator-status td.bar .progress {
-  margin-bottom: 0;
-  /*
-  min-width: 50px;
-  */
-}
-
-.simulator-status td.value {
-  width: 30%;
+.synth-status td.bar-value {
+  min-width: 7em;
   text-align: right;
   font-size: larger;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.synth-status .narrow {
+  line-height: 9px;
 }
 
 div[content*="xivdb"] div.tooltip-inner {
@@ -876,4 +915,8 @@ div[my-dropzone]:-moz-drag-over {
 
 label {
   display: inline-block;
+}
+
+.input-fill {
+  width: 100%;
 }

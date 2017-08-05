@@ -2,7 +2,10 @@
   'use strict';
 
   angular
-    .module('ffxivCraftOptWeb.components')
+    .module('ffxivCraftOptWeb.components', [
+      'ffxivCraftOptWeb.services.bonusStats',
+      'ffxivCraftOptWeb.services.buffsdb'
+    ])
     .directive('simulatorStatus', factory);
 
   function factory() {
@@ -20,21 +23,50 @@
     }
   }
 
-  function controller($scope, _bonusStats) {
+  function controller($scope, $rootScope, $translate, _bonusStats, _buffsDatabase) {
+    $scope.buffList = {};
+
+    $scope.buffName = buffName;
+
     $scope.$watchCollection("crafter", update);
     $scope.$watchCollection("bonusStats", update);
     $scope.$watchCollection("recipe", update);
     $scope.$watchCollection("status", update);
 
+    $rootScope.$on('$translateChangeSuccess', updateBuffsLists);
+
+    updateBuffsLists();
     update();
 
     //////////////////////////////////////////////////////////////////////////
 
+    function updateBuffsLists() {
+      _buffsDatabase.buffs($translate.use(), 'Food').then(function (buffs) {
+        $scope.buffList.food = buffs;
+      });
+      _buffsDatabase.buffs($translate.use(), 'Medicine').then(function (buffs) {
+        $scope.buffList.medicine = buffs;
+      });
+    }
+
     function update() {
+      $scope.baseStats = $scope.crafter;
+
       if ($scope.bonusStats) {
-        $scope.stats = _bonusStats.addCrafterBonusStats($scope.crafter, $scope.bonusStats)
+        var foodBuffStats = _bonusStats.newBonusStats();
+        if ($scope.bonusStats.food) {
+          foodBuffStats = _bonusStats.calculateBuffBonusStats($scope.crafter, $scope.bonusStats.food);
+        }
+        var medicineBuffStats = _bonusStats.newBonusStats();
+        if ($scope.bonusStats.medicine) {
+          medicineBuffStats = _bonusStats.calculateBuffBonusStats($scope.crafter, $scope.bonusStats.medicine);
+        }
+        $scope.buffStats = _bonusStats.addCrafterBonusStats(foodBuffStats, medicineBuffStats);
+        var stats = _bonusStats.addCrafterBonusStats($scope.crafter, $scope.buffStats);
+        $scope.stats = _bonusStats.addCrafterBonusStats(stats, $scope.bonusStats);
       }
       else {
+        $scope.buffStats = _bonusStats.newBonusStats();
         $scope.stats = $scope.crafter;
       }
 
@@ -62,6 +94,14 @@
       $scope.hqPercent = $scope.status.state && $scope.status.state.hqPercent || 0;
       $scope.successPercent = $scope.status.state && $scope.status.state.successPercent || 0;
 
+    }
+
+    function buffName(buff) {
+      var s = buff.name;
+      if (buff.hq) {
+        s += ' (HQ)';
+      }
+      return s;
     }
   }
 })();

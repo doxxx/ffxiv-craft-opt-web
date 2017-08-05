@@ -1,0 +1,874 @@
+[
+  {
+    "cp_percent": 5,
+    "cp_value": 20,
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 136,
+    "hq": true,
+    "ilvl": 290,
+    "name": {
+      "de": "Gedünsteter Zackenbarsch",
+      "en": "Steamed Grouper",
+      "fr": "Garoupa à l'étuvée",
+      "ja": "キジハタの清蒸"
+    }
+  },
+  {
+    "cp_percent": 4,
+    "cp_value": 16,
+    "craftsmanship_percent": 10,
+    "craftsmanship_value": 109,
+    "hq": false,
+    "ilvl": 290,
+    "name": {
+      "de": "Gedünsteter Zackenbarsch",
+      "en": "Steamed Grouper",
+      "fr": "Garoupa à l'étuvée",
+      "ja": "キジハタの清蒸"
+    }
+  },
+  {
+    "control_percent": 12,
+    "control_value": 124,
+    "craftsmanship_percent": 5,
+    "craftsmanship_value": 53,
+    "hq": true,
+    "ilvl": 279,
+    "name": {
+      "de": "Kriegereintopf",
+      "en": "Warrior's Stew",
+      "fr": "Nogootoj shol",
+      "ja": "ゼラスープ"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 99,
+    "craftsmanship_percent": 4,
+    "craftsmanship_value": 42,
+    "hq": false,
+    "ilvl": 279,
+    "name": {
+      "de": "Kriegereintopf",
+      "en": "Warrior's Stew",
+      "fr": "Nogootoj shol",
+      "ja": "ゼラスープ"
+    }
+  },
+  {
+    "cp_percent": 15,
+    "cp_value": 54,
+    "craftsmanship_percent": 5,
+    "craftsmanship_value": 53,
+    "hq": true,
+    "ilvl": 279,
+    "name": {
+      "de": "Tempura-Platte",
+      "en": "Tempura Platter",
+      "fr": "Assortiment de tenpura",
+      "ja": "天ぷら盛り合わせ"
+    }
+  },
+  {
+    "cp_percent": 12,
+    "cp_value": 43,
+    "craftsmanship_percent": 4,
+    "craftsmanship_value": 42,
+    "hq": false,
+    "ilvl": 279,
+    "name": {
+      "de": "Tempura-Platte",
+      "en": "Tempura Platter",
+      "fr": "Assortiment de tenpura",
+      "ja": "天ぷら盛り合わせ"
+    }
+  },
+  {
+    "control_percent": 5,
+    "control_value": 49,
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 130,
+    "hq": true,
+    "ilvl": 273,
+    "name": {
+      "de": "Miso-Suppe mit Tofu",
+      "en": "Miso Soup with Tofu",
+      "fr": "Soupe miso au tôfu",
+      "ja": "豆腐の味噌汁"
+    }
+  },
+  {
+    "control_percent": 4,
+    "control_value": 39,
+    "craftsmanship_percent": 10,
+    "craftsmanship_value": 104,
+    "hq": false,
+    "ilvl": 273,
+    "name": {
+      "de": "Miso-Suppe mit Tofu",
+      "en": "Miso Soup with Tofu",
+      "fr": "Soupe miso au tôfu",
+      "ja": "豆腐の味噌汁"
+    }
+  },
+  {
+    "control_percent": 9,
+    "control_value": 77,
+    "cp_percent": 4,
+    "cp_value": 10,
+    "craftsmanship_percent": 6,
+    "craftsmanship_value": 53,
+    "hq": true,
+    "ilvl": 220,
+    "name": {
+      "de": "Himmelseier-Suppe",
+      "en": "Heavensegg Soup",
+      "fr": "Soupe aux célestœufs",
+      "ja": "ヘヴンスエッグスープ"
+    }
+  },
+  {
+    "control_percent": 7,
+    "control_value": 62,
+    "cp_percent": 3,
+    "cp_value": 8,
+    "craftsmanship_percent": 5,
+    "craftsmanship_value": 42,
+    "hq": false,
+    "ilvl": 220,
+    "name": {
+      "de": "Himmelseier-Suppe",
+      "en": "Heavensegg Soup",
+      "fr": "Soupe aux célestœufs",
+      "ja": "ヘヴンスエッグスープ"
+    }
+  },
+  {
+    "control_percent": 12,
+    "control_value": 88,
+    "craftsmanship_percent": 5,
+    "craftsmanship_value": 37,
+    "hq": true,
+    "ilvl": 180,
+    "name": {
+      "de": "Austern-Confit",
+      "en": "Oyster Confit",
+      "fr": "Huîtres confites",
+      "ja": "オイスターコンフィ"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 70,
+    "craftsmanship_percent": 4,
+    "craftsmanship_value": 30,
+    "hq": false,
+    "ilvl": 180,
+    "name": {
+      "de": "Austern-Confit",
+      "en": "Oyster Confit",
+      "fr": "Huîtres confites",
+      "ja": "オイスターコンフィ"
+    }
+  },
+  {
+    "control_percent": 5,
+    "control_value": 31,
+    "cp_percent": 15,
+    "cp_value": 50,
+    "hq": true,
+    "ilvl": 160,
+    "name": {
+      "de": "Ishgarder Fischtopf",
+      "en": "Seafood Stew",
+      "fr": "Ragoût du pêcheur",
+      "ja": "トマトシチュー"
+    }
+  },
+  {
+    "control_percent": 4,
+    "control_value": 25,
+    "cp_percent": 12,
+    "cp_value": 40,
+    "hq": false,
+    "ilvl": 160,
+    "name": {
+      "de": "Ishgarder Fischtopf",
+      "en": "Seafood Stew",
+      "fr": "Ragoût du pêcheur",
+      "ja": "トマトシチュー"
+    }
+  },
+  {
+    "control_percent": 12,
+    "control_value": 73,
+    "cp_percent": 5,
+    "cp_value": 19,
+    "hq": true,
+    "ilvl": 150,
+    "name": {
+      "de": "Muschelsuppe",
+      "en": "Clam Chowder",
+      "fr": "Chaudrée de palourdes",
+      "ja": "クラムチャウダー"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 58,
+    "cp_percent": 4,
+    "cp_value": 15,
+    "hq": false,
+    "ilvl": 150,
+    "name": {
+      "de": "Muschelsuppe",
+      "en": "Clam Chowder",
+      "fr": "Chaudrée de palourdes",
+      "ja": "クラムチャウダー"
+    }
+  },
+  {
+    "cp_percent": 5,
+    "cp_value": 19,
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 75,
+    "hq": true,
+    "ilvl": 139,
+    "name": {
+      "de": "Emeraldgrüne Bohnensuppe",
+      "en": "Emerald Soup",
+      "fr": "Soupe émeraude",
+      "ja": "エメラルドスープ"
+    }
+  },
+  {
+    "cp_percent": 4,
+    "cp_value": 15,
+    "craftsmanship_percent": 10,
+    "craftsmanship_value": 60,
+    "hq": false,
+    "ilvl": 139,
+    "name": {
+      "de": "Emeraldgrüne Bohnensuppe",
+      "en": "Emerald Soup",
+      "fr": "Soupe émeraude",
+      "ja": "エメラルドスープ"
+    }
+  },
+  {
+    "control_percent": 12,
+    "control_value": 68,
+    "craftsmanship_percent": 5,
+    "craftsmanship_value": 29,
+    "hq": true,
+    "ilvl": 133,
+    "name": {
+      "de": "Purpurrote Bete-Suppe",
+      "en": "Beet Soup",
+      "fr": "Soupe pourpre",
+      "ja": "クリムゾンスープ"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 54,
+    "craftsmanship_percent": 4,
+    "craftsmanship_value": 23,
+    "hq": false,
+    "ilvl": 133,
+    "name": {
+      "de": "Purpurrote Bete-Suppe",
+      "en": "Beet Soup",
+      "fr": "Soupe pourpre",
+      "ja": "クリムゾンスープ"
+    }
+  },
+  {
+    "cp_percent": 13,
+    "cp_value": 48,
+    "craftsmanship_percent": 5,
+    "craftsmanship_value": 28,
+    "hq": true,
+    "ilvl": 125,
+    "name": {
+      "de": "Überbackene Zwiebelsuppe",
+      "en": "Baked Onion Soup",
+      "fr": "Soupe à l'oignon",
+      "ja": "オニオングラタンスープ"
+    }
+  },
+  {
+    "cp_percent": 10,
+    "cp_value": 38,
+    "craftsmanship_percent": 4,
+    "craftsmanship_value": 22,
+    "hq": false,
+    "ilvl": 125,
+    "name": {
+      "de": "Überbackene Zwiebelsuppe",
+      "en": "Baked Onion Soup",
+      "fr": "Soupe à l'oignon",
+      "ja": "オニオングラタンスープ"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 48,
+    "hq": true,
+    "ilvl": 110,
+    "name": {
+      "de": "Königskuchen",
+      "en": "Better Crowned Pie",
+      "fr": "Galette des rois spéciale",
+      "ja": "秘製ガレット・デ・ロワ"
+    }
+  },
+  {
+    "control_percent": 8,
+    "control_value": 38,
+    "hq": false,
+    "ilvl": 110,
+    "name": {
+      "de": "Königskuchen",
+      "en": "Better Crowned Pie",
+      "fr": "Galette des rois spéciale",
+      "ja": "秘製ガレット・デ・ロワ"
+    }
+  },
+  {
+    "cp_percent": 5,
+    "cp_value": 18,
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 61,
+    "hq": true,
+    "ilvl": 90,
+    "name": {
+      "de": "Haifischflossensuppe",
+      "en": "Shark Fin Soup",
+      "fr": "Soupe d'aileron",
+      "ja": "フカヒレスープ"
+    }
+  },
+  {
+    "cp_percent": 4,
+    "cp_value": 14,
+    "craftsmanship_percent": 10,
+    "craftsmanship_value": 49,
+    "hq": false,
+    "ilvl": 90,
+    "name": {
+      "de": "Haifischflossensuppe",
+      "en": "Shark Fin Soup",
+      "fr": "Soupe d'aileron",
+      "ja": "フカヒレスープ"
+    }
+  },
+  {
+    "cp_percent": 5,
+    "cp_value": 17,
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 47,
+    "hq": true,
+    "ilvl": 70,
+    "name": {
+      "de": "Kalte Toffelsuppe",
+      "en": "Chilled Popoto Soup",
+      "fr": "Soupe de popotos glacée",
+      "ja": "冷製ポポトスープ"
+    }
+  },
+  {
+    "cp_percent": 4,
+    "cp_value": 14,
+    "craftsmanship_percent": 10,
+    "craftsmanship_value": 38,
+    "hq": false,
+    "ilvl": 70,
+    "name": {
+      "de": "Kalte Toffelsuppe",
+      "en": "Chilled Popoto Soup",
+      "fr": "Soupe de popotos glacée",
+      "ja": "冷製ポポトスープ"
+    }
+  },
+  {
+    "craftsmanship_percent": 15,
+    "craftsmanship_value": 40,
+    "hq": true,
+    "ilvl": 55,
+    "name": {
+      "de": "Rolanbeeren-Käsekuchen",
+      "en": "Rolanberry Cheesecake",
+      "fr": "Gâteau au fromage à la rolanbaie",
+      "ja": "ロランベリーチーズケーキ"
+    }
+  },
+  {
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 32,
+    "hq": false,
+    "ilvl": 55,
+    "name": {
+      "de": "Rolanbeeren-Käsekuchen",
+      "en": "Rolanberry Cheesecake",
+      "fr": "Gâteau au fromage à la rolanbaie",
+      "ja": "ロランベリーチーズケーキ"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 31,
+    "hq": true,
+    "ilvl": 55,
+    "name": {
+      "de": "Gebratener Mahi-Mahi",
+      "en": "Pan-fried Mahi-Mahi",
+      "fr": "Mahi-mahi frit",
+      "ja": "マヒマヒの揚げ焼き"
+    }
+  },
+  {
+    "control_percent": 8,
+    "control_value": 25,
+    "hq": false,
+    "ilvl": 55,
+    "name": {
+      "de": "Gebratener Mahi-Mahi",
+      "en": "Pan-fried Mahi-Mahi",
+      "fr": "Mahi-mahi frit",
+      "ja": "マヒマヒの揚げ焼き"
+    }
+  },
+  {
+    "cp_percent": 13,
+    "cp_value": 43,
+    "hq": true,
+    "ilvl": 55,
+    "name": {
+      "de": "Bouillabaisse",
+      "en": "Bouillabaisse",
+      "fr": "Bouillabaisse",
+      "ja": "ブイヤベース"
+    }
+  },
+  {
+    "cp_percent": 10,
+    "cp_value": 34,
+    "hq": false,
+    "ilvl": 55,
+    "name": {
+      "de": "Bouillabaisse",
+      "en": "Bouillabaisse",
+      "fr": "Bouillabaisse",
+      "ja": "ブイヤベース"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 27,
+    "hq": true,
+    "ilvl": 50,
+    "name": {
+      "de": "Dolchfisch-Suppe",
+      "en": "Dagger Soup",
+      "fr": "Soupe de dagues",
+      "ja": "ダガースープ"
+    }
+  },
+  {
+    "control_percent": 8,
+    "control_value": 22,
+    "hq": false,
+    "ilvl": 50,
+    "name": {
+      "de": "Dolchfisch-Suppe",
+      "en": "Dagger Soup",
+      "fr": "Soupe de dagues",
+      "ja": "ダガースープ"
+    }
+  },
+  {
+    "craftsmanship_percent": 15,
+    "craftsmanship_value": 30,
+    "hq": true,
+    "ilvl": 46,
+    "name": {
+      "de": "Rolanbeeren-Lassi",
+      "en": "Rolanberry Lassi",
+      "fr": "Lassi à la rolanbaie",
+      "ja": "ロランベリーラッシー"
+    }
+  },
+  {
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 24,
+    "hq": false,
+    "ilvl": 46,
+    "name": {
+      "de": "Rolanbeeren-Lassi",
+      "en": "Rolanberry Lassi",
+      "fr": "Lassi à la rolanbaie",
+      "ja": "ロランベリーラッシー"
+    }
+  },
+  {
+    "cp_percent": 13,
+    "cp_value": 33,
+    "hq": true,
+    "ilvl": 43,
+    "name": {
+      "de": "Fischsuppe",
+      "en": "Fish Soup",
+      "fr": "Soupe de poisson",
+      "ja": "フィッシュスープ"
+    }
+  },
+  {
+    "cp_percent": 10,
+    "cp_value": 26,
+    "hq": false,
+    "ilvl": 43,
+    "name": {
+      "de": "Fischsuppe",
+      "en": "Fish Soup",
+      "fr": "Soupe de poisson",
+      "ja": "フィッシュスープ"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 23,
+    "hq": true,
+    "ilvl": 42,
+    "name": {
+      "de": "Dorsch im Schlafrock",
+      "en": "Salt Cod Puffs",
+      "fr": "Choux à la morue salée",
+      "ja": "ソルトコッドパフ"
+    }
+  },
+  {
+    "control_percent": 8,
+    "control_value": 18,
+    "hq": false,
+    "ilvl": 42,
+    "name": {
+      "de": "Dorsch im Schlafrock",
+      "en": "Salt Cod Puffs",
+      "fr": "Choux à la morue salée",
+      "ja": "ソルトコッドパフ"
+    }
+  },
+  {
+    "craftsmanship_percent": 15,
+    "craftsmanship_value": 25,
+    "hq": true,
+    "ilvl": 36,
+    "name": {
+      "de": "Käseauflauf",
+      "en": "Cheese Souffle",
+      "fr": "Soufflé au fromage",
+      "ja": "チーズスフレ"
+    }
+  },
+  {
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 20,
+    "hq": false,
+    "ilvl": 36,
+    "name": {
+      "de": "Käseauflauf",
+      "en": "Cheese Souffle",
+      "fr": "Soufflé au fromage",
+      "ja": "チーズスフレ"
+    }
+  },
+  {
+    "cp_percent": 13,
+    "cp_value": 30,
+    "hq": true,
+    "ilvl": 34,
+    "name": {
+      "de": "Cawl Cennin",
+      "en": "Cawl Cennin",
+      "fr": "Bouillon de poireaux",
+      "ja": "カウルケニン"
+    }
+  },
+  {
+    "cp_percent": 10,
+    "cp_value": 24,
+    "hq": false,
+    "ilvl": 34,
+    "name": {
+      "de": "Cawl Cennin",
+      "en": "Cawl Cennin",
+      "fr": "Bouillon de poireaux",
+      "ja": "カウルケニン"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 20,
+    "hq": true,
+    "ilvl": 32,
+    "name": {
+      "de": "Thunfisch-Miqo'Kebab",
+      "en": "Tuna Miq'abob",
+      "fr": "Miqo-brochette de thon",
+      "ja": "ミコッテ風海の幸串焼"
+    }
+  },
+  {
+    "control_percent": 8,
+    "control_value": 16,
+    "hq": false,
+    "ilvl": 32,
+    "name": {
+      "de": "Thunfisch-Miqo'Kebab",
+      "en": "Tuna Miq'abob",
+      "fr": "Miqo-brochette de thon",
+      "ja": "ミコッテ風海の幸串焼"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 17,
+    "hq": true,
+    "ilvl": 29,
+    "name": {
+      "de": "Gebratene Seezunge",
+      "en": "Baked Sole",
+      "fr": "Sole au four",
+      "ja": "ベイクドソール"
+    }
+  },
+  {
+    "control_percent": 8,
+    "control_value": 14,
+    "hq": false,
+    "ilvl": 29,
+    "name": {
+      "de": "Gebratene Seezunge",
+      "en": "Baked Sole",
+      "fr": "Sole au four",
+      "ja": "ベイクドソール"
+    }
+  },
+  {
+    "craftsmanship_percent": 15,
+    "craftsmanship_value": 20,
+    "hq": true,
+    "ilvl": 27,
+    "name": {
+      "de": "Käserisotto",
+      "en": "Cheese Risotto",
+      "fr": "Risotto au fromage",
+      "ja": "チーズリゾット"
+    }
+  },
+  {
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 16,
+    "hq": false,
+    "ilvl": 27,
+    "name": {
+      "de": "Käserisotto",
+      "en": "Cheese Risotto",
+      "fr": "Risotto au fromage",
+      "ja": "チーズリゾット"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 15,
+    "hq": true,
+    "ilvl": 27,
+    "name": {
+      "de": "Gekochte Brasse",
+      "en": "Boiled Bream",
+      "fr": "Brème bouillie",
+      "ja": "ボイルドブリーム"
+    }
+  },
+  {
+    "control_percent": 8,
+    "control_value": 12,
+    "hq": false,
+    "ilvl": 27,
+    "name": {
+      "de": "Gekochte Brasse",
+      "en": "Boiled Bream",
+      "fr": "Brème bouillie",
+      "ja": "ボイルドブリーム"
+    }
+  },
+  {
+    "cp_percent": 13,
+    "cp_value": 26,
+    "hq": true,
+    "ilvl": 26,
+    "name": {
+      "de": "Erbsensuppe",
+      "en": "Pea Soup",
+      "fr": "Soupe de pois",
+      "ja": "ピースープ"
+    }
+  },
+  {
+    "cp_percent": 10,
+    "cp_value": 21,
+    "hq": false,
+    "ilvl": 26,
+    "name": {
+      "de": "Erbsensuppe",
+      "en": "Pea Soup",
+      "fr": "Soupe de pois",
+      "ja": "ピースープ"
+    }
+  },
+  {
+    "craftsmanship_percent": 15,
+    "craftsmanship_value": 15,
+    "hq": true,
+    "ilvl": 18,
+    "name": {
+      "de": "Toffelbrei",
+      "en": "Mashed Popotoes",
+      "fr": "Purée de popotos",
+      "ja": "マッシュポポト"
+    }
+  },
+  {
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 12,
+    "hq": false,
+    "ilvl": 18,
+    "name": {
+      "de": "Toffelbrei",
+      "en": "Mashed Popotoes",
+      "fr": "Purée de popotos",
+      "ja": "マッシュポポト"
+    }
+  },
+  {
+    "cp_percent": 13,
+    "cp_value": 21,
+    "hq": true,
+    "ilvl": 17,
+    "name": {
+      "de": "Steinsuppe",
+      "en": "Stone Soup",
+      "fr": "Soupe de pierre",
+      "ja": "ストーンスープ"
+    }
+  },
+  {
+    "cp_percent": 10,
+    "cp_value": 17,
+    "hq": false,
+    "ilvl": 17,
+    "name": {
+      "de": "Steinsuppe",
+      "en": "Stone Soup",
+      "fr": "Soupe de pierre",
+      "ja": "ストーンスープ"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 10,
+    "hq": true,
+    "ilvl": 17,
+    "name": {
+      "de": "Rohe Auster",
+      "en": "Raw Oyster",
+      "fr": "Huître crue",
+      "ja": "ローオイスター"
+    }
+  },
+  {
+    "control_percent": 8,
+    "control_value": 8,
+    "hq": false,
+    "ilvl": 17,
+    "name": {
+      "de": "Rohe Auster",
+      "en": "Raw Oyster",
+      "fr": "Huître crue",
+      "ja": "ローオイスター"
+    }
+  },
+  {
+    "craftsmanship_percent": 15,
+    "craftsmanship_value": 10,
+    "hq": true,
+    "ilvl": 10,
+    "name": {
+      "de": "Minz-Lassi",
+      "en": "Mint Lassi",
+      "fr": "Lassi à la menthe",
+      "ja": "ミントラッシー"
+    }
+  },
+  {
+    "craftsmanship_percent": 12,
+    "craftsmanship_value": 8,
+    "hq": false,
+    "ilvl": 10,
+    "name": {
+      "de": "Minz-Lassi",
+      "en": "Mint Lassi",
+      "fr": "Lassi à la menthe",
+      "ja": "ミントラッシー"
+    }
+  },
+  {
+    "control_percent": 10,
+    "control_value": 5,
+    "hq": true,
+    "ilvl": 9,
+    "name": {
+      "de": "Salzdorsch",
+      "en": "Salt Cod",
+      "fr": "Morue salée",
+      "ja": "ソルトコッド"
+    }
+  },
+  {
+    "control_percent": 8,
+    "control_value": 4,
+    "hq": false,
+    "ilvl": 9,
+    "name": {
+      "de": "Salzdorsch",
+      "en": "Salt Cod",
+      "fr": "Morue salée",
+      "ja": "ソルトコッド"
+    }
+  },
+  {
+    "cp_percent": 13,
+    "cp_value": 12,
+    "hq": true,
+    "ilvl": 4,
+    "name": {
+      "de": "Frumenty",
+      "en": "Frumenty",
+      "fr": "Fromentée",
+      "ja": "フルメンティ"
+    }
+  },
+  {
+    "cp_percent": 10,
+    "cp_value": 10,
+    "hq": false,
+    "ilvl": 4,
+    "name": {
+      "de": "Frumenty",
+      "en": "Frumenty",
+      "fr": "Fromentée",
+      "ja": "フルメンティ"
+    }
+  }
+]

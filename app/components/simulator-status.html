@@ -1,77 +1,125 @@
-<div class="row-fluid simulator-status">
-  <div class="span3">
+<div class="simulator-status row-fluid">
+  <div class="synth-status span6">
+    <div class="title">
+      L{{stats.level}} {{recipe.cls}}
+    </div>
+    <hr/>
     <table>
-      <tr><td>Durability</td></tr>
-      <tr><td class="value">{{durability}}/{{recipe.durability}}</td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>Condition</td></tr>
-      <tr><td class="value">&nbsp;{{condition}}</td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>&nbsp;</td></tr>
+      <tr>
+        <td class="stats-label">Progress</td>
+      </tr>
+      <tr>
+        <td class="bar">
+          <progressbar value="progressPercent"></progressbar>
+        </td>
+        <td class="bar-value">{{progress}} / {{recipe.difficulty}}</td>
+      </tr>
+      <tr>
+        <td class="stats-label">Quality</td>
+      </tr>
+      <tr>
+        <td class="bar">
+          <progressbar value="qualityPercent"></progressbar>
+        </td>
+        <td class="bar-value">{{quality}} / {{recipe.maxQuality}}</td>
+      </tr>
+      <tr>
+        <td class="stats-label">CP</td>
+      </tr>
+      <tr>
+        <td class="bar">
+          <progressbar value="cpPercent"></progressbar>
+        </td>
+        <td class="bar-value">{{cp}} / {{maxCp}}</td>
+      </tr>
+    </table>
+    <hr/>
+    <table>
+      <tr class="narrow">
+        <td>
+          <span class="stats-label">Durability</span> {{durability}}&nbsp;/&nbsp;{{recipe.durability}}&emsp;
+        </td>
+        <td>
+          <span class="stats-label">HQ</span>&nbsp;{{hqPercent}}%&emsp;
+        </td>
+        <td class="align-right">
+          <span class="stats-label">Reliability</span>&nbsp;{{successPercent | number: 0}}%
+        </td>
+      </tr>
     </table>
   </div>
-  <div class="span9">
-    <table>
-      <tr><td>Progress</td></tr>
-      <tr>
-        <td class="bar" colspan="5"><progressbar value="progressPercent"></progressbar></td>
-        <td class="value">{{progress}} / {{recipe.difficulty}}</td>
-      </tr>
-      <tr><td>Quality</td></tr>
-      <tr>
-        <td class="bar" colspan="5"><progressbar value="qualityPercent"></progressbar></td>
-        <td class="value">{{quality}} / {{recipe.maxQuality}}</td>
-      </tr>
-      <tr><td>CP</td></tr>
-      <tr>
-        <td class="bar" colspan="5"><progressbar value="cpPercent"></progressbar></td>
-        <td class="value">{{cp}} / {{maxCp}}</td>
-      </tr>
-      <tr>
-        <td>HQ</td>
-        <td class="value">{{hqPercent}}%</td>
-        <td>&nbsp;</td>
-        <td>Reliability</td>
-        <td class="value">{{successPercent | number: 0}}%</td>
-        <td>&nbsp;</td>
-      </tr>
-    </table>
+
+  <div class="bonus-stats span6">
+    <div class="title">
+      Attributes
+      <a ui-sref="crafter-attributes"><small><i class="fa fa-edit"></i></small></a>
+    </div>
+    <hr/>
+    <form name="bonusStatsForm">
+      <table>
+        <tr>
+          <td>
+            <span class="stats-label">Food</span><br/>
+            <select class="input-fill" ng-model="bonusStats.food"
+                    ng-options="buffName(buff) for buff in buffList.food track by buff.id">
+            </select>
+          </td>
+          <td>
+            <span class="stats-label">Medicine</span><br/>
+            <select class="input-fill" ng-model="bonusStats.medicine"
+                    ng-options="buffName(buff) for buff in buffList.medicine track by buff.id">
+            </select>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td class="col1 stats-label">Craftsmanship</td>
+          <td class="col2 value">{{baseStats.craftsmanship}}</td>
+          <td class="col3 value">+&nbsp;{{buffStats.craftsmanship}}</td>
+          <td class="col4">
+            +&nbsp;
+            <input class="input-mini" type="number" min="0" required force-numeric
+                   ng-model="bonusStats.craftsmanship"/>
+          </td>
+          <td class="col5 value">=&nbsp;{{stats.craftsmanship}}</td>
+          <td class="col6">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="col1 stats-label">Control</td>
+          <td class="col2 value">{{baseStats.control}}</td>
+          <td class="col3 value">+&nbsp;{{buffStats.control}}</td>
+          <td class="col4">
+            +&nbsp;
+            <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.control"/>
+          </td>
+          <td class="col5 value">=&nbsp;{{stats.control}}</td>
+          <td class="col6">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="col1 stats-label">CP</td>
+          <td class="col2 value">{{baseStats.cp}}</td>
+          <td class="col3 value">+&nbsp;{{buffStats.cp}}</td>
+          <td class="col4">
+            +&nbsp;
+            <input class="input-mini" type="number" min="0" required force-numeric ng-model="bonusStats.cp"/>
+          </td>
+          <td class="col5 value">=&nbsp;{{stats.cp}}</td>
+          <td class="col6">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="col1 stats-label">Start Quality</td>
+          <td class="col2 value">0</td>
+          <td class="col3 value">+&nbsp;0</td>
+          <td class="col4">
+            +&nbsp;
+            <input class="input-mini" type="number" min="0" required force-numeric
+                   ng-model="bonusStats.startQuality"/>
+          </td>
+          <td class="col5 value">=&nbsp;{{bonusStats.startQuality}}</td>
+          <td class="col6">&nbsp;</td>
+        </tr>
+      </table>
+    </form>
   </div>
 </div>
-
-
-<!--
-
-
-<span ng-class="{'invisible': !status.running}">
-  <i class="fa fa-spinner fa-spin"></i>
-</span>
-<span ng-show="!status.running">
-  <span ng-show="!valid()">
-    <span class="simulator-status-error"><i class="fa fa-warning"></i> invalid sequence</span>
-  </span>
-  <span ng-show="valid()">
-    <span ng-show="status.error">
-      <span class="simulator-status-error"><i class="fa fa-warning"></i> {{status.error}}</span>
-    </span>
-  </span>
-</span>
-<span ng-show="status.running && !status.state.feasible">
-  Calculating...
-</span>
-<span ng-show="(!status.running && valid() && !status.error && status.state) || (status.running && status.state.feasible)">
-  Q:{{status.state.quality | number:0}}
-  <span ng-class="{'simulator-status-error': !status.state.violations.progressOk, 'simulator-status-ok': status.state.violations.progressOk}">
-    &nbsp;Prog:{{status.state.progress | number:0}}/{{recipe.difficulty | number:0}} <i ng-show="!status.state.violations.progressOk" class="fa fa-warning"></i>
-  </span>
-  <span ng-show="!status.state.violations.durabilityOk" class="simulator-status-error">
-    &nbsp;Dur:{{status.state.durability | number:0}} <i class="fa fa-warning"></i>
-  </span>
-  <span ng-class="{'simulator-status-error': !status.state.violations.cpOk, 'simulator-status-ok': status.state.violations.progressOk}">
-    &nbsp;CP:{{status.state.cp | number:0}} <i ng-show="!status.state.violations.cpOk" class="fa fa-warning"></i>
-  </span>
-  <span ng-show="status.state.successPercent">
-    &nbsp;Success: {{status.state.successPercent | number:0}}%
-  </span>
-</span>
--->
