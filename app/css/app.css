@@ -893,3 +893,7 @@ div[my-dropzone]:-moz-drag-over {
 label {
   display: inline-block;
 }
+
+.input-fill {
+  width: 100%;
+}
