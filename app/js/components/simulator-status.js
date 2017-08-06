@@ -53,17 +53,23 @@
       $scope.baseStats = $scope.crafter;
 
       if ($scope.bonusStats) {
-        var foodBuffStats = _bonusStats.newBonusStats();
+        var buffStats = _bonusStats.newBonusStats();
         if ($scope.bonusStats.food) {
-          foodBuffStats = _bonusStats.calculateBuffBonusStats($scope.crafter, $scope.bonusStats.food);
+          buffStats = _bonusStats.sumCrafterBonusStats(
+            buffStats,
+            _bonusStats.calculateBuffBonusStats($scope.crafter, $scope.bonusStats.food)
+          );
         }
-        var medicineBuffStats = _bonusStats.newBonusStats();
         if ($scope.bonusStats.medicine) {
-          medicineBuffStats = _bonusStats.calculateBuffBonusStats($scope.crafter, $scope.bonusStats.medicine);
+          buffStats = _bonusStats.sumCrafterBonusStats(
+            buffStats,
+            _bonusStats.calculateBuffBonusStats($scope.crafter, $scope.bonusStats.medicine)
+          );
         }
-        $scope.buffStats = _bonusStats.addCrafterBonusStats(foodBuffStats, medicineBuffStats);
-        var stats = _bonusStats.addCrafterBonusStats($scope.crafter, $scope.buffStats);
-        $scope.stats = _bonusStats.addCrafterBonusStats(stats, $scope.bonusStats);
+        $scope.buffStats = buffStats;
+
+        var stats = _bonusStats.sumCrafterBonusStats($scope.crafter, $scope.buffStats);
+        $scope.stats = _bonusStats.sumCrafterBonusStats(stats, $scope.bonusStats);
       }
       else {
         $scope.buffStats = _bonusStats.newBonusStats();

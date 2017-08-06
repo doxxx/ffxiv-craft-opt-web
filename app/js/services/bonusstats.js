@@ -9,6 +9,7 @@
     return {
       newBonusStats: newBonusStats,
       addCrafterBonusStats: addCrafterBonusStats,
+      sumCrafterBonusStats: sumCrafterBonusStats,
       calculateBuffBonusStats: calculateBuffBonusStats,
       addRecipeBonusStats: addRecipeBonusStats
     }
@@ -27,23 +28,35 @@
 
   function addCrafterBonusStats(crafter, bonusStats) {
     var r = angular.copy(crafter);
-    r.craftsmanship += bonusStats.craftsmanship;
-    r.control += bonusStats.control;
-    r.cp += bonusStats.cp;
+    if (bonusStats.food) {
+      r = sumCrafterBonusStats(r, calculateBuffBonusStats(crafter, bonusStats.food));
+    }
+    if (bonusStats.medicine) {
+      r = sumCrafterBonusStats(r, calculateBuffBonusStats(crafter, bonusStats.medicine));
+    }
+    r = sumCrafterBonusStats(r, bonusStats);
+    return r;
+  }
+
+  function sumCrafterBonusStats(a, b) {
+    var r = angular.copy(a);
+    r.craftsmanship += b.craftsmanship;
+    r.control += b.control;
+    r.cp += b.cp;
     return r;
   }
 
   function calculateBuffBonusStats(crafter, buff) {
-    var r = newBonusStats();
-    r.craftsmanship += calcPercentMaxBonus(crafter.craftsmanship, buff.craftsmanship_percent, buff.craftsmanship_value);
-    r.control += calcPercentMaxBonus(crafter.control, buff.control_percent, buff.control_value);
-    r.cp += calcPercentMaxBonus(crafter.cp, buff.cp_percent, buff.cp_value);
+    var r = {};
+    r.craftsmanship = calcPercentMaxBonus(crafter.craftsmanship, buff.craftsmanship_percent, buff.craftsmanship_value);
+    r.control = calcPercentMaxBonus(crafter.control, buff.control_percent, buff.control_value);
+    r.cp = calcPercentMaxBonus(crafter.cp, buff.cp_percent, buff.cp_value);
     return r;
   }
 
   function calcPercentMaxBonus(base, percent, max) {
     if (!percent || !max) return 0;
-    return Math.min(max, base * percent / 100);
+    return Math.min(max, Math.floor(base * percent / 100));
   }
 
   function addRecipeBonusStats(recipe, bonusStats) {
