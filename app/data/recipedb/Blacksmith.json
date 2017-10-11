@@ -1009,6 +1009,76 @@
   },
   {
     "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "锻冶幻象棱晶",
+      "de": "Grobschmiede-Projektionsprisma",
+      "en": "Glamour Prism (Smithing)",
+      "fr": "Prisme mirage (métallurgie)",
+      "ja": "ミラージュプリズム:スミシング"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "2级锻冶幻象棱晶",
+      "de": "Grobschmiede-Projektionsprisma II",
+      "en": "Grade 2 Glamour Prism (Smithing)",
+      "fr": "Prisme mirage II (métallurgie)",
+      "ja": "ミラージュプリズムG2:スミシング"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "3级锻冶幻象棱晶",
+      "de": "Grobschmiede-Projektionsprisma III",
+      "en": "Grade 3 Glamour Prism (Smithing)",
+      "fr": "Prisme mirage III (métallurgie)",
+      "ja": "ミラージュプリズムG3:スミシング"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "4级锻冶幻象棱晶",
+      "de": "Grobschmiede-Projektionsprisma IV",
+      "en": "Grade 4 Glamour Prism (Smithing)",
+      "fr": "Prisme mirage IV (métallurgie)",
+      "ja": "ミラージュプリズムG4:スミシング"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "5级锻冶幻象棱晶",
+      "de": "Grobschmiede-Projektionsprisma V",
+      "en": "Grade 5 Glamour Prism (Smithing)",
+      "fr": "Prisme mirage V (métallurgie)",
+      "ja": "ミラージュプリズムG5:スミシング"
+    }
+  },
+  {
+    "baseLevel": 15,
     "difficulty": 99,
     "durability": 70,
     "level": 15,
@@ -2377,76 +2447,6 @@
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
       "ja": "カララント:ディープウッドグリーン"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma",
-      "en": "Glamour Prism (Smithing)",
-      "fr": "Prisme mirage (métallurgie)",
-      "ja": "ミラージュプリズム:スミシング"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "2级锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Smithing)",
-      "fr": "Prisme mirage II (métallurgie)",
-      "ja": "ミラージュプリズムG2:スミシング"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "3级锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Smithing)",
-      "fr": "Prisme mirage III (métallurgie)",
-      "ja": "ミラージュプリズムG3:スミシング"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "4级锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Smithing)",
-      "fr": "Prisme mirage IV (métallurgie)",
-      "ja": "ミラージュプリズムG4:スミシング"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "5级锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Smithing)",
-      "fr": "Prisme mirage V (métallurgie)",
-      "ja": "ミラージュプリズムG5:スミシング"
     }
   },
   {
@@ -7933,6 +7933,34 @@
     "level": 150,
     "maxQuality": 6280,
     "name": {
+      "cn": "Gyr Abanian Souvenir",
+      "de": "Abanische Spezialität",
+      "en": "Gyr Abanian Souvenir",
+      "fr": "Souvenir de Gyr Abania",
+      "ja": "ギラバニアの名産品"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 3140,
+    "name": {
+      "cn": "Gyr Abanian Souvenir Component",
+      "de": "Komponente eines abanischen Souvenirs",
+      "en": "Gyr Abanian Souvenir Component",
+      "fr": "Composant de souvenir de Gyr Abania",
+      "ja": "ギラバニア名産品部材"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 6280,
+    "name": {
       "cn": "别具匠心的礼物",
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
@@ -7981,6 +8009,36 @@
       "en": "Crystal Bell",
       "fr": "Sonnette de l'esthéticien",
       "ja": "美容師の呼び鈴"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Far Eastern Antique",
+      "de": "Fernöstliche Kuriosität",
+      "en": "Far Eastern Antique",
+      "fr": "Antiquité orientale",
+      "ja": "東方風の蒐集品"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Far Eastern Antique Component",
+      "de": "Komponente einer fernöstlichen Antiquität",
+      "en": "Far Eastern Antique Component",
+      "fr": "Composant d'antiquité orientale",
+      "ja": "東方風の蒐集品部材"
     },
     "stars": 1
   },
@@ -8545,11 +8603,41 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
+      "cn": "Axe of the Fiend",
+      "de": "Axt des Baumgottes",
+      "en": "Axe of the Fiend",
+      "fr": "Hache du Fiélon",
+      "ja": "アクス・オブ・フィーンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
       "cn": "圆桌之斧",
       "de": "Axt der Runde",
       "en": "Axe of the Round",
       "fr": "Hache de la Table ronde",
       "ja": "アクス・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Blade of the Fiend",
+      "de": "Klinge des Baumgottes",
+      "en": "Blade of the Fiend",
+      "fr": "Épée du Fiélon",
+      "ja": "ブレード・オブ・フィーンド"
     },
     "stars": 3
   },
@@ -8600,6 +8688,21 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Edge of the Fiend",
+      "de": "Stock des Baumgottes",
+      "en": "Edge of the Fiend",
+      "fr": "Grande épée du Fiélon",
+      "ja": "エッジ・オブ・フィーンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
     "level": 180,
@@ -8620,11 +8723,41 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
+      "cn": "Fire of the Fiend",
+      "de": "Stab des Baumgottes",
+      "en": "Fire of the Fiend",
+      "fr": "Feu du Fiélon",
+      "ja": "ファイア・オブ・フィーンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
       "cn": "圆桌之火",
       "de": "Muskete der Runde",
       "en": "Fire of the Round",
       "fr": "Feu de la Table ronde",
       "ja": "ファイア・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Fists of the Fiend",
+      "de": "Fäuste des Baumgottes",
+      "en": "Fists of the Fiend",
+      "fr": "Poings du Fiélon",
+      "ja": "フィスト・オブ・フィーンド"
     },
     "stars": 3
   },
@@ -8860,6 +8993,21 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
+      "cn": "Katana of the Fiend",
+      "de": "Katana des Baumgottes",
+      "en": "Katana of the Fiend",
+      "fr": "Katana du Fiélon",
+      "ja": "魔神刀【改】"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
       "cn": "圆桌之太刀",
       "de": "Katana der Runde",
       "en": "Katana of the Round",
@@ -8880,6 +9028,21 @@
       "en": "Knuckles of the Round",
       "fr": "Poings de la Table ronde",
       "ja": "ナックル・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Points of the Fiend",
+      "de": "Dolche des Baumgottes",
+      "en": "Points of the Fiend",
+      "fr": "Pointes du Fiélon",
+      "ja": "ポインツ・オブ・フィーンド"
     },
     "stars": 3
   },
@@ -9246,6 +9409,34 @@
   {
     "baseLevel": 61,
     "difficulty": 1116,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize",
+      "de": "Trostpreis für den Gold Saucer",
+      "en": "Gold Saucer Consolation Prize",
+      "fr": "Lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize Component",
+      "de": "Komponente eines Gold Saucer-Trostpreises",
+      "en": "Gold Saucer Consolation Prize Component",
+      "fr": "Composant de lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品部材"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
     "durability": 80,
     "level": 255,
     "maxQuality": 8377,
@@ -9323,7 +9514,7 @@
       "cn": "硬钢左手剑",
       "de": "Edelstahl-Parierdolche",
       "en": "High Steel Main Gauches",
-      "fr": "Paire de mains-gauches en acier noble",
+      "fr": "Mains-gauches en acier noble",
       "ja": "ハイスチールマインゴーシュ"
     }
   },
@@ -9437,6 +9628,20 @@
       "en": "High Steel Saw",
       "fr": "Scie en acier noble",
       "ja": "ハイスチールソー"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 3571,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Hingan Cottage Roof (Mokuzo)",
+      "de": "Hinganisches Mokuzo-Hüttendach",
+      "en": "Hingan Cottage Roof (Mokuzo)",
+      "fr": "Toit de maisonnette hingashienne (mokuzo)",
+      "ja": "白銀木造平屋屋根"
     }
   },
   {
@@ -9580,6 +9785,48 @@
     }
   },
   {
+    "baseLevel": 62,
+    "difficulty": 5388,
+    "durability": 80,
+    "level": 265,
+    "maxQuality": 4876,
+    "name": {
+      "cn": "Hingan Stone Fence",
+      "de": "Hinganischer Steinzaun",
+      "en": "Hingan Stone Fence",
+      "fr": "Muret hingashien simple",
+      "ja": "白銀石塀"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 7801,
+    "name": {
+      "cn": "M Tribe Sundries",
+      "de": "Jagdbedarf",
+      "en": "M Tribe Sundries",
+      "fr": "Produits du quotidien des M",
+      "ja": "メ族の日用品"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 3900,
+    "name": {
+      "cn": "M Tribe Sundry Component",
+      "de": "Komponente eines Gebrauchsgegenstands der M",
+      "en": "M Tribe Sundry Component",
+      "fr": "Composant de produits du quotidien des M",
+      "ja": "メ族の日用品部材"
+    }
+  },
+  {
     "baseLevel": 63,
     "difficulty": 1377,
     "durability": 80,
@@ -9643,7 +9890,7 @@
     "maxQuality": 10439,
     "name": {
       "cn": "硬钢波刃",
-      "de": "Edelstahl-Kris",
+      "de": "Edelstahl-Krise",
       "en": "High Steel Kris",
       "fr": "Kriss en acier noble",
       "ja": "ハイスチールクリス"
@@ -9689,6 +9936,48 @@
       "en": "High Steel-barreled Snaphance",
       "fr": "Fusil à silex en acier noble",
       "ja": "ハイスチールスナップハンス"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 6297,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5219,
+    "name": {
+      "cn": "Kotetsu Replica",
+      "de": "Kotetsu-Replik",
+      "en": "Kotetsu Replica",
+      "fr": "Réplique de Kotetsu",
+      "ja": "虎徹【偽】"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 8351,
+    "name": {
+      "cn": "Resistance Materiel",
+      "de": "Rucksack für die Befreiungsarmee",
+      "en": "Resistance Materiel",
+      "fr": "Provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 4175,
+    "name": {
+      "cn": "Resistance Materiel Component",
+      "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
+      "en": "Resistance Materiel Component",
+      "fr": "Composant de provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品部材"
     }
   },
   {
@@ -9833,6 +10122,20 @@
   },
   {
     "baseLevel": 64,
+    "difficulty": 6771,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 5425,
+    "name": {
+      "cn": "Hingan House Roof (Mokuzo)",
+      "de": "Hinganisches Mokuzo-Hausdach",
+      "en": "Hingan House Roof (Mokuzo)",
+      "fr": "Toit de pavillon hingashien (mokuzo)",
+      "ja": "白銀木造屋敷屋根"
+    }
+  },
+  {
+    "baseLevel": 64,
     "difficulty": 1058,
     "durability": 40,
     "level": 273,
@@ -9870,7 +10173,7 @@
       "de": "Domaeisen-Klauenhammer",
       "en": "Doman Iron Claw Hammer",
       "fr": "Marteau arrache-clou en fer domien",
-      "ja": "ドマアイアンクローハンマー"
+      "ja": "ドマアイアン・クローハンマー"
     }
   },
   {
@@ -10365,6 +10668,20 @@
   },
   {
     "baseLevel": 68,
+    "difficulty": 8659,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Hingan Mansion Roof (Mokuzo)",
+      "de": "Hinganisches Mokuzo-Residenzdach",
+      "en": "Hingan Mansion Roof (Mokuzo)",
+      "fr": "Toit de villa hingashienne (mokuzo)",
+      "ja": "白銀木造御殿屋根"
+    }
+  },
+  {
+    "baseLevel": 68,
     "difficulty": 2706,
     "durability": 80,
     "level": 285,
@@ -10701,9 +11018,114 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Cross-pein Hammer",
+      "de": "Mhigischer Kreuzschlaghammer",
+      "en": "Ala Mhigan Cross-pein Hammer",
+      "fr": "Marteau à panne croisée mhigois",
+      "ja": "アラミガン・クロスペインハンマー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Hatchet",
+      "de": "Mhigisches Handbeil",
+      "en": "Ala Mhigan Hatchet",
+      "fr": "Hachette mhigoise",
+      "ja": "アラミガンハチェット"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Lapidary Hammer",
+      "de": "Mhigischer Juwelierhammer",
+      "en": "Ala Mhigan Lapidary Hammer",
+      "fr": "Marteau de lapidaire mhigois",
+      "ja": "アラミガン・ラピダリーハンマー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Pickaxe",
+      "de": "Mhigische Spitzhacke",
+      "en": "Ala Mhigan Pickaxe",
+      "fr": "Pioche mhigoise",
+      "ja": "アラミガンピック"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Raising Hammer",
+      "de": "Mhigischer Schlichthammer",
+      "en": "Ala Mhigan Raising Hammer",
+      "fr": "Marteau de batteur mhigois",
+      "ja": "アラミガン・レイジングハンマー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Round Knife",
+      "de": "Mhigisches Rundmesser",
+      "en": "Ala Mhigan Round Knife",
+      "fr": "Couteau arrondi mhigois",
+      "ja": "アラミガン・ラウンドナイフ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Saw",
+      "de": "Mhigische Säge",
+      "en": "Ala Mhigan Saw",
+      "fr": "Scie mhigoise",
+      "ja": "アラミガンソー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Chromite Arquebus",
@@ -10718,7 +11140,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Chromite Axe",
@@ -10733,7 +11155,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Chromite Daggers",
@@ -10748,7 +11170,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Chromite Greatsword",
@@ -10763,7 +11185,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Chromite Ingot",
@@ -10778,7 +11200,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Chromite Knuckles",
@@ -10793,7 +11215,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Chromite Sword",
@@ -10808,7 +11230,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Chromite Uchigatana",

@@ -702,6 +702,76 @@
   {
     "baseLevel": 15,
     "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "炼金幻象棱晶",
+      "de": "Alchemie-Projektionsprisma",
+      "en": "Glamour Prism (Alchemy)",
+      "fr": "Prisme mirage (alchimie)",
+      "ja": "ミラージュプリズム:アルケミー"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "2级炼金幻象棱晶",
+      "de": "Alchemie-Projektionsprisma II",
+      "en": "Grade 2 Glamour Prism (Alchemy)",
+      "fr": "Prisme mirage II (alchimie)",
+      "ja": "ミラージュプリズムG2:アルケミー"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "3级炼金幻象棱晶",
+      "de": "Alchemie-Projektionsprisma III",
+      "en": "Grade 3 Glamour Prism (Alchemy)",
+      "fr": "Prisme mirage III (alchimie)",
+      "ja": "ミラージュプリズムG3:アルケミー"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "4级炼金幻象棱晶",
+      "de": "Alchemie-Projektionsprisma IV",
+      "en": "Grade 4 Glamour Prism (Alchemy)",
+      "fr": "Prisme mirage IV (alchimie)",
+      "ja": "ミラージュプリズムG4:アルケミー"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "5级炼金幻象棱晶",
+      "de": "Alchemie-Projektionsprisma V",
+      "en": "Grade 5 Glamour Prism (Alchemy)",
+      "fr": "Prisme mirage V (alchimie)",
+      "ja": "ミラージュプリズムG5:アルケミー"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
     "durability": 40,
     "level": 15,
     "maxQuality": 807,
@@ -1677,76 +1747,6 @@
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
       "ja": "カララント:ディープウッドグリーン"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma",
-      "en": "Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage (alchimie)",
-      "ja": "ミラージュプリズム:アルケミー"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "2级炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage II (alchimie)",
-      "ja": "ミラージュプリズムG2:アルケミー"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "3级炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage III (alchimie)",
-      "ja": "ミラージュプリズムG3:アルケミー"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "4级炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage IV (alchimie)",
-      "ja": "ミラージュプリズムG4:アルケミー"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "5级炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage V (alchimie)",
-      "ja": "ミラージュプリズムG5:アルケミー"
     }
   },
   {
@@ -6251,6 +6251,20 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
+      "cn": "Black Brightlily Corsage",
+      "de": "Graue Lilien-Haarspange",
+      "en": "Black Brightlily Corsage",
+      "fr": "Ornement de lys noirs",
+      "ja": "リリーオーナメント:ブラック"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
       "cn": "黑色樱花头花",
       "de": "Schwarze Kirschblüten-Haarspange",
       "en": "Black Cherry Blossom Corsage",
@@ -6284,6 +6298,20 @@
       "en": "Black Viola Corsage",
       "fr": "Barrette pensées noires",
       "ja": "パンジーオーナメント:ブラック"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "cn": "Blue Brightlily Corsage",
+      "de": "Blaue Lilien-Haarspange",
+      "en": "Blue Brightlily Corsage",
+      "fr": "Ornement de lys bleus",
+      "ja": "リリーオーナメント:ブルー"
     }
   },
   {
@@ -6475,6 +6503,20 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
+      "cn": "Green Brightlily Corsage",
+      "de": "Grüne Lilien-Haarspange",
+      "en": "Green Brightlily Corsage",
+      "fr": "Ornement de lys verts",
+      "ja": "リリーオーナメント:グリーン"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
       "cn": "绿色樱花头花",
       "de": "Grüne Kirschblüten-Haarspange",
       "en": "Green Cherry Blossom Corsage",
@@ -6522,6 +6564,20 @@
       "en": "Oldrose Corsage",
       "fr": "Barrette roses anciennes multicolores",
       "ja": "オールドローズオーナメント:ブレンド"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "cn": "Orange Brightlily Corsage",
+      "de": "Orange Lilien-Haarspange",
+      "en": "Orange Brightlily Corsage",
+      "fr": "Ornement de lys orange",
+      "ja": "リリーオーナメント:オレンジ"
     }
   },
   {
@@ -6587,6 +6643,20 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
+      "cn": "Purple Brightlily Corsage",
+      "de": "Violette Lilien-Haarspange",
+      "en": "Purple Brightlily Corsage",
+      "fr": "Ornement de lys violets",
+      "ja": "リリーオーナメント:パープル"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
       "cn": "紫色樱花头花",
       "de": "Violette Kirschblüten-Haarspange",
       "en": "Purple Cherry Blossom Corsage",
@@ -6629,6 +6699,20 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
+      "cn": "Rainbow Brightlily Corsage",
+      "de": "Mehrfarbige Lilien-Haarspange",
+      "en": "Rainbow Brightlily Corsage",
+      "fr": "Ornement de lys arc-en-ciel",
+      "ja": "リリーオーナメント:ブレンド"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
       "cn": "Rainbow Daisy Corsage",
       "de": "Mehrfarbige Gänseblümchen-Haarspange",
       "en": "Rainbow Daisy Corsage",
@@ -6648,6 +6732,20 @@
       "en": "Rainbow Viola Corsage",
       "fr": "Barrette pensées multicolores",
       "ja": "パンジーオーナメント:ブレンド"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "cn": "Red Brightlily Corsage",
+      "de": "Rosa Lilien-Haarspange",
+      "en": "Red Brightlily Corsage",
+      "fr": "Ornement de lys rouges",
+      "ja": "リリーオーナメント:レッド"
     }
   },
   {
@@ -6699,6 +6797,20 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
+      "cn": "White Brightlily Corsage",
+      "de": "Weiße Lilien-Haarspange",
+      "en": "White Brightlily Corsage",
+      "fr": "Ornement de lys blancs",
+      "ja": "リリーオーナメント:ホワイト"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
       "cn": "白色樱花头花",
       "de": "Weiße Kirschblüten-Haarspange",
       "en": "White Cherry Blossom Corsage",
@@ -6732,6 +6844,20 @@
       "en": "White Viola Corsage",
       "fr": "Barrette pensées blanches",
       "ja": "パンジーオーナメント:ホワイト"
+    }
+  },
+  {
+    "baseLevel": 53,
+    "difficulty": 586,
+    "durability": 80,
+    "level": 130,
+    "maxQuality": 5783,
+    "name": {
+      "cn": "Yellow Brightlily Corsage",
+      "de": "Gelbe Lilien-Haarspange",
+      "en": "Yellow Brightlily Corsage",
+      "fr": "Ornement de lys jaunes",
+      "ja": "リリーオーナメント:イエロー"
     }
   },
   {
@@ -7315,6 +7441,34 @@
     "level": 150,
     "maxQuality": 6280,
     "name": {
+      "cn": "Gyr Abanian Souvenir",
+      "de": "Abanische Spezialität",
+      "en": "Gyr Abanian Souvenir",
+      "fr": "Souvenir de Gyr Abania",
+      "ja": "ギラバニアの名産品"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 3140,
+    "name": {
+      "cn": "Gyr Abanian Souvenir Component",
+      "de": "Komponente eines abanischen Souvenirs",
+      "en": "Gyr Abanian Souvenir Component",
+      "fr": "Composant de souvenir de Gyr Abania",
+      "ja": "ギラバニア名産品部材"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 6280,
+    "name": {
       "cn": "别具匠心的礼物",
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
@@ -7561,6 +7715,36 @@
       "en": "Eternal Wind Orchestrion Roll",
       "fr": "Rouleau \"Eternal Wind\"",
       "ja": "オーケストリオン譜:悠久の風"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Far Eastern Antique",
+      "de": "Fernöstliche Kuriosität",
+      "en": "Far Eastern Antique",
+      "fr": "Antiquité orientale",
+      "ja": "東方風の蒐集品"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Far Eastern Antique Component",
+      "de": "Komponente einer fernöstlichen Antiquität",
+      "en": "Far Eastern Antique Component",
+      "fr": "Composant d'antiquité orientale",
+      "ja": "東方風の蒐集品部材"
     },
     "stars": 1
   },
@@ -8215,6 +8399,36 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Song of the Fiend",
+      "de": "Feuer des Baumgottes",
+      "en": "Song of the Fiend",
+      "fr": "Chant du Fiélon",
+      "ja": "ソング・オブ・フィーンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Word of the Fiend",
+      "de": "Schneide des Baumgottes",
+      "en": "Word of the Fiend",
+      "fr": "Parole du Fiélon",
+      "ja": "ワード・オブ・フィーンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
     "level": 190,
@@ -8409,6 +8623,34 @@
   },
   {
     "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize",
+      "de": "Trostpreis für den Gold Saucer",
+      "en": "Gold Saucer Consolation Prize",
+      "fr": "Lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize Component",
+      "de": "Komponente eines Gold Saucer-Trostpreises",
+      "en": "Gold Saucer Consolation Prize Component",
+      "fr": "Composant de lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品部材"
+    }
+  },
+  {
+    "baseLevel": 61,
     "difficulty": 558,
     "durability": 40,
     "level": 255,
@@ -8475,6 +8717,34 @@
       "en": "Gyuki Leather Grimoire",
       "fr": "Grimoire en cuir de gyuki",
       "ja": "ギュウキグリモア"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 7801,
+    "name": {
+      "cn": "M Tribe Sundries",
+      "de": "Jagdbedarf",
+      "en": "M Tribe Sundries",
+      "fr": "Produits du quotidien des M",
+      "ja": "メ族の日用品"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 3900,
+    "name": {
+      "cn": "M Tribe Sundry Component",
+      "de": "Komponente eines Gebrauchsgegenstands der M",
+      "en": "M Tribe Sundry Component",
+      "fr": "Composant de produits du quotidien des M",
+      "ja": "メ族の日用品部材"
     }
   },
   {
@@ -8573,6 +8843,34 @@
       "en": "Intellectuary",
       "fr": "Essence d'intelligence sucrée",
       "ja": "知力の甘口秘薬"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 8351,
+    "name": {
+      "cn": "Resistance Materiel",
+      "de": "Rucksack für die Befreiungsarmee",
+      "en": "Resistance Materiel",
+      "fr": "Provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 4175,
+    "name": {
+      "cn": "Resistance Materiel Component",
+      "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
+      "en": "Resistance Materiel Component",
+      "fr": "Composant de provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品部材"
     }
   },
   {
@@ -8915,9 +9213,54 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 5668,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 7035,
+    "name": {
+      "cn": "The Worm's Head Orchestrion Roll",
+      "de": "Notenrolle von „The Worm's Head“",
+      "en": "The Worm's Head Orchestrion Roll",
+      "fr": "Rouleau \"The Worm's Head\"",
+      "ja": "オーケストリオン譜:龍の首"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 5668,
+    "durability": 70,
+    "level": 300,
+    "maxQuality": 7035,
+    "name": {
+      "cn": "The Worm's Tail Orchestrion Roll",
+      "de": "Notenrolle von „The Worm's Tail“",
+      "en": "The Worm's Tail Orchestrion Roll",
+      "fr": "Rouleau \"The Worm's Tail\"",
+      "ja": "オーケストリオン譜:龍の尾"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Fiber",
+      "de": "Mhigisches Mischgewebe",
+      "en": "Ala Mhigan Fiber",
+      "fr": "Fibre mhigoise",
+      "ja": "アラミガンファイバー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Codex of the True Griffin",
@@ -8930,9 +9273,24 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 11337,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Flying Chair",
+      "de": "Fliegender Sessel",
+      "en": "Flying Chair",
+      "fr": "Fauteuil volant",
+      "ja": "フライング・チェアー"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Grade 2 Reisui of Dexterity",
@@ -8947,7 +9305,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Grade 2 Reisui of Intelligence",
@@ -8962,7 +9320,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Grade 2 Reisui of Mind",
@@ -8977,7 +9335,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Grade 2 Reisui of Strength",
@@ -8992,7 +9350,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Grade 2 Reisui of Vitality",
@@ -9007,7 +9365,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Grimoire of the True Griffin",
@@ -9015,6 +9373,36 @@
       "en": "Grimoire of the True Griffin",
       "fr": "Grimoire en cuir de vrai griffon",
       "ja": "トゥルーグリフィングリモア"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 11337,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Shinryu's Wing",
+      "de": "Shinryu-Schwinge",
+      "en": "Shinryu's Wing",
+      "fr": "Aile de Shinryu",
+      "ja": "神龍の翼"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Snailfish Oil",
+      "de": "Scheibenbauchöl",
+      "en": "Snailfish Oil",
+      "fr": "Huile de poisson-limace",
+      "ja": "ビクニンオイル"
     },
     "stars": 2
   }

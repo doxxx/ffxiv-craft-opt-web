@@ -4436,6 +4436,34 @@
     "level": 150,
     "maxQuality": 6280,
     "name": {
+      "cn": "Gyr Abanian Souvenir",
+      "de": "Abanische Spezialität",
+      "en": "Gyr Abanian Souvenir",
+      "fr": "Souvenir de Gyr Abania",
+      "ja": "ギラバニアの名産品"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 3140,
+    "name": {
+      "cn": "Gyr Abanian Souvenir Component",
+      "de": "Komponente eines abanischen Souvenirs",
+      "en": "Gyr Abanian Souvenir Component",
+      "fr": "Composant de souvenir de Gyr Abania",
+      "ja": "ギラバニア名産品部材"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 6280,
+    "name": {
       "cn": "别具匠心的礼物",
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
@@ -4512,6 +4540,36 @@
       "en": "Creme Brulee",
       "fr": "Crème brûlée",
       "ja": "クレームブリュレ"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Far Eastern Antique",
+      "de": "Fernöstliche Kuriosität",
+      "en": "Far Eastern Antique",
+      "fr": "Antiquité orientale",
+      "ja": "東方風の蒐集品"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Far Eastern Antique Component",
+      "de": "Komponente einer fernöstlichen Antiquität",
+      "en": "Far Eastern Antique Component",
+      "fr": "Composant d'antiquité orientale",
+      "ja": "東方風の蒐集品部材"
     },
     "stars": 1
   },
@@ -4907,6 +4965,34 @@
   },
   {
     "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize",
+      "de": "Trostpreis für den Gold Saucer",
+      "en": "Gold Saucer Consolation Prize",
+      "fr": "Lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize Component",
+      "de": "Komponente eines Gold Saucer-Trostpreises",
+      "en": "Gold Saucer Consolation Prize Component",
+      "fr": "Composant de lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品部材"
+    }
+  },
+  {
+    "baseLevel": 61,
     "difficulty": 558,
     "durability": 40,
     "level": 255,
@@ -5004,6 +5090,34 @@
     }
   },
   {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 7801,
+    "name": {
+      "cn": "M Tribe Sundries",
+      "de": "Jagdbedarf",
+      "en": "M Tribe Sundries",
+      "fr": "Produits du quotidien des M",
+      "ja": "メ族の日用品"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 3900,
+    "name": {
+      "cn": "M Tribe Sundry Component",
+      "de": "Komponente eines Gebrauchsgegenstands der M",
+      "en": "M Tribe Sundry Component",
+      "fr": "Composant de produits du quotidien des M",
+      "ja": "メ族の日用品部材"
+    }
+  },
+  {
     "baseLevel": 63,
     "difficulty": 984,
     "durability": 40,
@@ -5057,6 +5171,34 @@
       "en": "Popoto Soba",
       "fr": "Nouilles de sarrasin montagnardes",
       "ja": "とろろ蕎麦"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 8351,
+    "name": {
+      "cn": "Resistance Materiel",
+      "de": "Rucksack für die Befreiungsarmee",
+      "en": "Resistance Materiel",
+      "fr": "Provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 4175,
+    "name": {
+      "cn": "Resistance Materiel Component",
+      "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
+      "en": "Resistance Materiel Component",
+      "fr": "Composant de provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品部材"
     }
   },
   {
@@ -5335,7 +5477,7 @@
       "cn": "柿子布丁",
       "de": "Kakipudding",
       "en": "Persimmon Pudding",
-      "fr": "Flan aux nèfles",
+      "fr": "Flan aux kakis",
       "ja": "パーシモンプディング"
     }
   },
@@ -5391,7 +5533,7 @@
       "cn": "鬼壳烧",
       "de": "Gegrillter Hummer",
       "en": "Onigara-yaki",
-      "fr": "Crevette onigara-yaki",
+      "fr": "Langouste grillée",
       "ja": "鬼殻焼"
     }
   },
@@ -5527,7 +5669,22 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Chawan-mushi",
+      "de": "Hinganische Eierspeise",
+      "en": "Chawan-mushi",
+      "fr": "Flan oriental",
+      "ja": "茶碗蒸し"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Pork Kakuni",
@@ -5542,7 +5699,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Pork Stew",
@@ -5557,7 +5714,22 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Sermon-worthy Meuniere",
+      "de": "Othardischer Lachs nach Müllerinart",
+      "en": "Sermon-worthy Meuniere",
+      "fr": "Saumon seigneurial meunière",
+      "ja": "御鮭様のムニエル"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Steppe Tea",

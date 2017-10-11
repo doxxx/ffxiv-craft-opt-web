@@ -869,6 +869,76 @@
   },
   {
     "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "雕金幻象棱晶",
+      "de": "Goldschmiede-Projektionsprisma",
+      "en": "Glamour Prism (Goldsmithing)",
+      "fr": "Prisme mirage (orfèvrerie)",
+      "ja": "ミラージュプリズム:ゴールドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "2级雕金幻象棱晶",
+      "de": "Goldschmiede-Projektionsprisma II",
+      "en": "Grade 2 Glamour Prism (Goldsmithing)",
+      "fr": "Prisme mirage II (orfèvrerie)",
+      "ja": "ミラージュプリズムG2:ゴールドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "3级雕金幻象棱晶",
+      "de": "Goldschmiede-Projektionsprisma III",
+      "en": "Grade 3 Glamour Prism (Goldsmithing)",
+      "fr": "Prisme mirage III (orfèvrerie)",
+      "ja": "ミラージュプリズムG3:ゴールドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "4级雕金幻象棱晶",
+      "de": "Goldschmiede-Projektionsprisma IV",
+      "en": "Grade 4 Glamour Prism (Goldsmithing)",
+      "fr": "Prisme mirage IV (orfèvrerie)",
+      "ja": "ミラージュプリズムG4:ゴールドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "5级雕金幻象棱晶",
+      "de": "Goldschmiede-Projektionsprisma V",
+      "en": "Grade 5 Glamour Prism (Goldsmithing)",
+      "fr": "Prisme mirage V (orfèvrerie)",
+      "ja": "ミラージュプリズムG5:ゴールドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
     "difficulty": 99,
     "durability": 70,
     "level": 15,
@@ -2363,76 +2433,6 @@
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
       "ja": "カララント:ディープウッドグリーン"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma",
-      "en": "Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage (orfèvrerie)",
-      "ja": "ミラージュプリズム:ゴールドワーク"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "2级雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage II (orfèvrerie)",
-      "ja": "ミラージュプリズムG2:ゴールドワーク"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "3级雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage III (orfèvrerie)",
-      "ja": "ミラージュプリズムG3:ゴールドワーク"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "4级雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage IV (orfèvrerie)",
-      "ja": "ミラージュプリズムG4:ゴールドワーク"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "5级雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage V (orfèvrerie)",
-      "ja": "ミラージュプリズムG5:ゴールドワーク"
     }
   },
   {
@@ -11437,6 +11437,34 @@
     "level": 150,
     "maxQuality": 6280,
     "name": {
+      "cn": "Gyr Abanian Souvenir",
+      "de": "Abanische Spezialität",
+      "en": "Gyr Abanian Souvenir",
+      "fr": "Souvenir de Gyr Abania",
+      "ja": "ギラバニアの名産品"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 3140,
+    "name": {
+      "cn": "Gyr Abanian Souvenir Component",
+      "de": "Komponente eines abanischen Souvenirs",
+      "en": "Gyr Abanian Souvenir Component",
+      "fr": "Composant de souvenir de Gyr Abania",
+      "ja": "ギラバニア名産品部材"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 6280,
+    "name": {
       "cn": "别具匠心的礼物",
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
@@ -11498,6 +11526,36 @@
       "en": "Boundless Expanse Fountain",
       "fr": "Fontaine du Migrateur des brumes",
       "ja": "雲神ビスマルクの霊泉"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Far Eastern Antique",
+      "de": "Fernöstliche Kuriosität",
+      "en": "Far Eastern Antique",
+      "fr": "Antiquité orientale",
+      "ja": "東方風の蒐集品"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Far Eastern Antique Component",
+      "de": "Komponente einer fernöstlichen Antiquität",
+      "en": "Far Eastern Antique Component",
+      "fr": "Composant d'antiquité orientale",
+      "ja": "東方風の蒐集品部材"
     },
     "stars": 1
   },
@@ -12414,6 +12472,21 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
+      "cn": "Rapier of the Fiend",
+      "de": "Rapier des Baumgottes",
+      "en": "Rapier of the Fiend",
+      "fr": "Rapière du Fiélon",
+      "ja": "レイピア・オブ・フィーンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
       "cn": "圆桌之刺剑",
       "de": "Rapier der Runde",
       "en": "Rapier of the Round",
@@ -12549,11 +12622,41 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
+      "cn": "Staff of the Fiend",
+      "de": "Lied des Baumgottes",
+      "en": "Staff of the Fiend",
+      "fr": "Bâton du Fiélon",
+      "ja": "スタッフ・オブ・フィーンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
       "cn": "圆桌之咒杖",
       "de": "Stab der Runde",
       "en": "Staff of the Round",
       "fr": "Bâton de la Table ronde",
       "ja": "スタッフ・オブ・ラウンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Star of the Fiend",
+      "de": "Stern des Baumgottes",
+      "en": "Star of the Fiend",
+      "fr": "Étoile du Fiélon",
+      "ja": "スター・オブ・フィーンド"
     },
     "stars": 3
   },
@@ -12905,6 +13008,34 @@
   {
     "baseLevel": 61,
     "difficulty": 1116,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize",
+      "de": "Trostpreis für den Gold Saucer",
+      "en": "Gold Saucer Consolation Prize",
+      "fr": "Lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize Component",
+      "de": "Komponente eines Gold Saucer-Trostpreises",
+      "en": "Gold Saucer Consolation Prize Component",
+      "fr": "Composant de lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品部材"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
     "durability": 80,
     "level": 255,
     "maxQuality": 8377,
@@ -12968,7 +13099,7 @@
       "cn": "锂辉石精准手镯",
       "de": "Triphan-Armreif des Zielens",
       "en": "Triphane Bracelet of Aiming",
-      "fr": "Bracelet de pisteur de triphanes",
+      "fr": "Bracelet de pisteur en triphane",
       "ja": "トリフェーンレンジャーブレスレット"
     }
   },
@@ -12982,7 +13113,7 @@
       "cn": "锂辉石咏咒手镯",
       "de": "Triphan-Armreif der Magie",
       "en": "Triphane Bracelet of Casting",
-      "fr": "Bracelet d'incantateur de triphanes",
+      "fr": "Bracelet d'incantateur en triphane",
       "ja": "トリフェーンキャスターブレスレット"
     }
   },
@@ -12996,7 +13127,7 @@
       "cn": "锂辉石御敌手镯",
       "de": "Triphan-Armreif der Verteidigung",
       "en": "Triphane Bracelet of Fending",
-      "fr": "Bracelet de protecteur de triphanes",
+      "fr": "Bracelet de protecteur en triphane",
       "ja": "トリフェーンディフェンダーブレスレット"
     }
   },
@@ -13010,7 +13141,7 @@
       "cn": "锂辉石治愈手镯",
       "de": "Triphan-Armreif der Heilung",
       "en": "Triphane Bracelet of Healing",
-      "fr": "Bracelet de soigneur de triphanes",
+      "fr": "Bracelet de soigneur en triphane",
       "ja": "トリフェーンヒーラーブレスレット"
     }
   },
@@ -13024,7 +13155,7 @@
       "cn": "锂辉石强攻手镯",
       "de": "Triphan-Armreif des Schlachtens",
       "en": "Triphane Bracelet of Slaying",
-      "fr": "Bracelet d'attaquant de triphanes",
+      "fr": "Bracelet d'attaquant en triphane",
       "ja": "トリフェーンアタッカーブレスレット"
     }
   },
@@ -13110,6 +13241,48 @@
       "en": "Bombfish Needle",
       "fr": "Aiguille poisson-bombo",
       "ja": "ボムフィッシュニードル"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 3571,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Hingan Awning (Nanpu)",
+      "de": "Hinganisches Nanpu-Vordach",
+      "en": "Hingan Awning (Nanpu)",
+      "fr": "Auvent hingashien (nanpu)",
+      "ja": "白銀南風日除け"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 3571,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Hingan Cottage Roof (Nanpu)",
+      "de": "Hinganisches Nanpu-Hüttendach",
+      "en": "Hingan Cottage Roof (Nanpu)",
+      "fr": "Toit de maisonnette hingashienne (nanpu)",
+      "ja": "白銀南風平屋屋根"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 3571,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Hingan Hanging Bonbori Lamp",
+      "de": "Hinganische Bonbori-Hängelampe",
+      "en": "Hingan Hanging Bonbori Lamp",
+      "fr": "Lampe hingashienne suspendue (bonbori)",
+      "ja": "白銀吊りぼんぼり"
     }
   },
   {
@@ -13276,7 +13449,7 @@
       "cn": "锂辉石精准耳坠",
       "de": "Triphan-Ohrringe des Zielens",
       "en": "Triphane Earrings of Aiming",
-      "fr": "Boucles d'oreilles de pisteur de triphanes",
+      "fr": "Boucles d'oreilles de pisteur en triphane",
       "ja": "トリフェーンレンジャーイヤリング"
     }
   },
@@ -13290,7 +13463,7 @@
       "cn": "锂辉石咏咒耳坠",
       "de": "Triphan-Ohrringe der Magie",
       "en": "Triphane Earrings of Casting",
-      "fr": "Boucles d'oreilles d'incantateur de triphanes",
+      "fr": "Boucles d'oreilles d'incantateur en triphane",
       "ja": "トリフェーンキャスターイヤリング"
     }
   },
@@ -13304,7 +13477,7 @@
       "cn": "锂辉石御敌耳坠",
       "de": "Triphan-Ohrringe der Verteidigung",
       "en": "Triphane Earrings of Fending",
-      "fr": "Boucles d'oreilles de protecteur de triphanes",
+      "fr": "Boucles d'oreilles de protecteur en triphane",
       "ja": "トリフェーンディフェンダーイヤリング"
     }
   },
@@ -13318,7 +13491,7 @@
       "cn": "锂辉石治愈耳坠",
       "de": "Triphan-Ohrringe der Heilung",
       "en": "Triphane Earrings of Healing",
-      "fr": "Boucles d'oreilles de soigneur de triphanes",
+      "fr": "Boucles d'oreilles de soigneur en triphane",
       "ja": "トリフェーンヒーラーイヤリング"
     }
   },
@@ -13332,7 +13505,7 @@
       "cn": "锂辉石强攻耳坠",
       "de": "Triphan-Ohrringe des Schlachtens",
       "en": "Triphane Earrings of Slaying",
-      "fr": "Boucles d'oreilles d'attaquant de triphanes",
+      "fr": "Boucles d'oreilles d'attaquant en triphane",
       "ja": "トリフェーンアタッカーイヤリング"
     }
   },
@@ -13437,6 +13610,34 @@
   {
     "baseLevel": 62,
     "difficulty": 1684,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 7801,
+    "name": {
+      "cn": "M Tribe Sundries",
+      "de": "Jagdbedarf",
+      "en": "M Tribe Sundries",
+      "fr": "Produits du quotidien des M",
+      "ja": "メ族の日用品"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 3900,
+    "name": {
+      "cn": "M Tribe Sundry Component",
+      "de": "Komponente eines Gebrauchsgegenstands der M",
+      "en": "M Tribe Sundry Component",
+      "fr": "Composant de produits du quotidien des M",
+      "ja": "メ族の日用品部材"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
     "durability": 80,
     "level": 265,
     "maxQuality": 9752,
@@ -13516,6 +13717,20 @@
       "en": "Dual-plated Koppranickel Planisphere",
       "fr": "Planisphère en cupronickel renforcé",
       "ja": "キュプロプラニスフィアDX"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 6297,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5219,
+    "name": {
+      "cn": "Hingan Watchtower (Nanpu)",
+      "de": "Hinganischer Nanpu-Wachturm",
+      "en": "Hingan Watchtower (Nanpu)",
+      "fr": "Tour de guet hingashienne (nanpu)",
+      "ja": "白銀南風火見櫓"
     }
   },
   {
@@ -13702,6 +13917,34 @@
   },
   {
     "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 8351,
+    "name": {
+      "cn": "Resistance Materiel",
+      "de": "Rucksack für die Befreiungsarmee",
+      "en": "Resistance Materiel",
+      "fr": "Provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 4175,
+    "name": {
+      "cn": "Resistance Materiel Component",
+      "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
+      "en": "Resistance Materiel Component",
+      "fr": "Composant de provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品部材"
+    }
+  },
+  {
+    "baseLevel": 63,
     "difficulty": 1377,
     "durability": 80,
     "level": 270,
@@ -13726,6 +13969,20 @@
       "en": "Durium Nugget",
       "fr": "Pépite de durium",
       "ja": "ダリウムナゲット"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 6771,
+    "durability": 80,
+    "level": 273,
+    "maxQuality": 5425,
+    "name": {
+      "cn": "Hingan House Roof (Nanpu)",
+      "de": "Hinganisches Nanpu-Hausdach",
+      "en": "Hingan House Roof (Nanpu)",
+      "fr": "Toit de pavillon hingashien (nanpu)",
+      "ja": "白銀南風屋敷屋根"
     }
   },
   {
@@ -14317,6 +14574,20 @@
     }
   },
   {
+    "baseLevel": 66,
+    "difficulty": 7715,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 5838,
+    "name": {
+      "cn": "Hingan Chimney (Kura-zukuri)",
+      "de": "Hinganischer Kurazukuri-Schornstein",
+      "en": "Hingan Chimney (Kura-zukuri)",
+      "fr": "Cheminée hingashienne (kura-zukuri)",
+      "ja": "白銀蔵造煙突"
+    }
+  },
+  {
     "baseLevel": 67,
     "difficulty": 2559,
     "durability": 80,
@@ -14496,6 +14767,34 @@
       "en": "Durium Rod",
       "fr": "Sceptre en durium",
       "ja": "ダリウムロッド"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 8659,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Hingan Awning (Mokuzo)",
+      "de": "Hinganisches Mokuzo-Vordach",
+      "en": "Hingan Awning (Mokuzo)",
+      "fr": "Auvent hingashien (mokuzo)",
+      "ja": "白銀木造日除け"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 8659,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Hingan Mansion Roof (Nanpu)",
+      "de": "Hinganisches Nanpu-Residenzdach",
+      "en": "Hingan Mansion Roof (Nanpu)",
+      "fr": "Toit de villa hingashienne (nanpu)",
+      "ja": "白銀南風御殿屋根"
     }
   },
   {
@@ -15216,9 +15515,39 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Needle",
+      "de": "Mhigische Nadel",
+      "en": "Ala Mhigan Needle",
+      "fr": "Aiguille mhigoise",
+      "ja": "アラミガンニードル"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Imitation Stained Crystal Ornament",
+      "de": "Buntkristallfenster-Imitation",
+      "en": "Imitation Stained Crystal Ornament",
+      "fr": "Imitation de vitrail",
+      "ja": "イミテーション・ステンドクリスタル"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Band of Aiming",
@@ -15233,7 +15562,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Band of Casting",
@@ -15248,7 +15577,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Band of Fending",
@@ -15263,7 +15592,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Band of Healing",
@@ -15278,7 +15607,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Band of Slaying",
@@ -15293,7 +15622,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Circlet of Maiming",
@@ -15308,7 +15637,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Circlet of Scouting",
@@ -15323,7 +15652,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Circlet of Striking",
@@ -15338,7 +15667,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Earring of Aiming",
@@ -15353,7 +15682,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Earring of Casting",
@@ -15368,7 +15697,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Earring of Fending",
@@ -15383,7 +15712,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Earring of Healing",
@@ -15398,7 +15727,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Earring of Slaying",
@@ -15413,7 +15742,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Ingot",
@@ -15428,7 +15757,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Orrery",
@@ -15443,7 +15772,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Rapier",
@@ -15458,7 +15787,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Palladium Staff",

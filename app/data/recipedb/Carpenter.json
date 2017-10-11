@@ -855,6 +855,76 @@
   },
   {
     "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "木工幻象棱晶",
+      "de": "Zimmerer-Projektionsprisma",
+      "en": "Glamour Prism (Woodworking)",
+      "fr": "Prisme mirage (menuiserie)",
+      "ja": "ミラージュプリズム:ウッドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "2级木工幻象棱晶",
+      "de": "Zimmerer-Projektionsprisma II",
+      "en": "Grade 2 Glamour Prism (Woodworking)",
+      "fr": "Prisme mirage II (menuiserie)",
+      "ja": "ミラージュプリズムG2:ウッドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "3级木工幻象棱晶",
+      "de": "Zimmerer-Projektionsprisma III",
+      "en": "Grade 3 Glamour Prism (Woodworking)",
+      "fr": "Prisme mirage III (menuiserie)",
+      "ja": "ミラージュプリズムG3:ウッドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "4级木工幻象棱晶",
+      "de": "Zimmerer-Projektionsprisma IV",
+      "en": "Grade 4 Glamour Prism (Woodworking)",
+      "fr": "Prisme mirage IV (menuiserie)",
+      "ja": "ミラージュプリズムG4:ウッドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
+    "difficulty": 27,
+    "durability": 70,
+    "level": 15,
+    "maxQuality": 807,
+    "name": {
+      "cn": "5级木工幻象棱晶",
+      "de": "Zimmerer-Projektionsprisma V",
+      "en": "Grade 5 Glamour Prism (Woodworking)",
+      "fr": "Prisme mirage V (menuiserie)",
+      "ja": "ミラージュプリズムG5:ウッドワーク"
+    }
+  },
+  {
+    "baseLevel": 15,
     "difficulty": 99,
     "durability": 70,
     "level": 15,
@@ -2167,76 +2237,6 @@
       "en": "Glade Wardrobe",
       "fr": "Penderie sombrelinçoise",
       "ja": "シュラウド・ワードローブ"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma",
-      "en": "Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage (menuiserie)",
-      "ja": "ミラージュプリズム:ウッドワーク"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "2级木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage II (menuiserie)",
-      "ja": "ミラージュプリズムG2:ウッドワーク"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "3级木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage III (menuiserie)",
-      "ja": "ミラージュプリズムG3:ウッドワーク"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "4级木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage IV (menuiserie)",
-      "ja": "ミラージュプリズムG4:ウッドワーク"
-    }
-  },
-  {
-    "baseLevel": 30,
-    "difficulty": 51,
-    "durability": 70,
-    "level": 30,
-    "maxQuality": 1584,
-    "name": {
-      "cn": "5级木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage V (menuiserie)",
-      "ja": "ミラージュプリズムG5:ウッドワーク"
     }
   },
   {
@@ -6625,6 +6625,34 @@
     "level": 150,
     "maxQuality": 6280,
     "name": {
+      "cn": "Gyr Abanian Souvenir",
+      "de": "Abanische Spezialität",
+      "en": "Gyr Abanian Souvenir",
+      "fr": "Souvenir de Gyr Abania",
+      "ja": "ギラバニアの名産品"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 3140,
+    "name": {
+      "cn": "Gyr Abanian Souvenir Component",
+      "de": "Komponente eines abanischen Souvenirs",
+      "en": "Gyr Abanian Souvenir Component",
+      "fr": "Composant de souvenir de Gyr Abania",
+      "ja": "ギラバニア名産品部材"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "level": 150,
+    "maxQuality": 6280,
+    "name": {
       "cn": "别具匠心的礼物",
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
@@ -6717,6 +6745,36 @@
       "en": "Dispelling Arrow",
       "fr": "Flèche-amulette",
       "ja": "破魔矢"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Far Eastern Antique",
+      "de": "Fernöstliche Kuriosität",
+      "en": "Far Eastern Antique",
+      "fr": "Antiquité orientale",
+      "ja": "東方風の蒐集品"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 160,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Far Eastern Antique Component",
+      "de": "Komponente einer fernöstlichen Antiquität",
+      "en": "Far Eastern Antique Component",
+      "fr": "Composant d'antiquité orientale",
+      "ja": "東方風の蒐集品部材"
     },
     "stars": 1
   },
@@ -7213,6 +7271,21 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
+      "cn": "Bow of the Fiend",
+      "de": "Bogen des Baumgottes",
+      "en": "Bow of the Fiend",
+      "fr": "Arc du Fiélon",
+      "ja": "ボウ・オブ・フィーンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
       "cn": "圆桌之弓",
       "de": "Bogen der Runde",
       "en": "Bow of the Round",
@@ -7393,6 +7466,21 @@
     "level": 180,
     "maxQuality": 10373,
     "name": {
+      "cn": "Cane of the Fiend",
+      "de": "Wort des Baumgottes",
+      "en": "Cane of the Fiend",
+      "fr": "Canne du Fiélon",
+      "ja": "ケーン・オブ・フィーンド"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
       "cn": "圆桌之幻杖",
       "de": "Stock der Runde",
       "en": "Cane of the Round",
@@ -7548,6 +7636,21 @@
       "en": "Oriental Wood Bridge",
       "fr": "Pont de bois oriental",
       "ja": "オリエンタルウッドブリッジ"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "level": 180,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Pike of the Fiend",
+      "de": "Pike des Baumgottes",
+      "en": "Pike of the Fiend",
+      "fr": "Pique du Fiélon",
+      "ja": "パイク・オブ・フィーンド"
     },
     "stars": 3
   },
@@ -7835,6 +7938,34 @@
   },
   {
     "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 6701,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize",
+      "de": "Trostpreis für den Gold Saucer",
+      "en": "Gold Saucer Consolation Prize",
+      "fr": "Lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 558,
+    "durability": 60,
+    "level": 255,
+    "maxQuality": 3350,
+    "name": {
+      "cn": "Gold Saucer Consolation Prize Component",
+      "de": "Komponente eines Gold Saucer-Trostpreises",
+      "en": "Gold Saucer Consolation Prize Component",
+      "fr": "Composant de lot de consolation du Gold Saucer",
+      "ja": "ゴールドソーサーの景品部材"
+    }
+  },
+  {
+    "baseLevel": 61,
     "difficulty": 1400,
     "durability": 80,
     "level": 260,
@@ -7873,6 +8004,104 @@
       "en": "High Steel Trident",
       "fr": "Trident en acier noble",
       "ja": "ハイスチールトライデント"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 2520,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4532,
+    "name": {
+      "cn": "Hingan Bookshelf",
+      "de": "Hingashi-Bücherschrank",
+      "en": "Hingan Bookshelf",
+      "fr": "Bibliothèque hingashienne",
+      "ja": "白銀本棚"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 2520,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4532,
+    "name": {
+      "cn": "Hingan Chochin Lantern",
+      "de": "Hingashi-Wandlampe",
+      "en": "Hingan Chochin Lantern",
+      "fr": "Lanterne hingashienne",
+      "ja": "手持ち提灯"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 3571,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Hingan Cottage Wall (Mokuzo)",
+      "de": "Hinganische Mokuzo-Hüttenmauer",
+      "en": "Hingan Cottage Wall (Mokuzo)",
+      "fr": "Mur de maisonnette hingashienne (mokuzo)",
+      "ja": "白銀木造平屋壁"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 3571,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Hingan Cottage Wall (Nanpu)",
+      "de": "Hinganische Nanpu-Hüttenmauer",
+      "en": "Hingan Cottage Wall (Nanpu)",
+      "fr": "Mur de maisonnette hingashienne (nanpu)",
+      "ja": "白銀南風平屋壁"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 3571,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Hingan Mokuzo Door",
+      "de": "Hinganische Mokuzo-Tür",
+      "en": "Hingan Mokuzo Door",
+      "fr": "Porte hingashienne (mokuzo)",
+      "ja": "白銀木造扉"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 3571,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Hingan Oblong Window",
+      "de": "Hinganisches Viereckfenster",
+      "en": "Hingan Oblong Window",
+      "fr": "Fenêtre oblongue hingashienne",
+      "ja": "白銀方形窓"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 3571,
+    "durability": 80,
+    "level": 260,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Hingan Watchtower (Mokuzo)",
+      "de": "Hinganischer Mokuzo-Wachturm",
+      "en": "Hingan Watchtower (Mokuzo)",
+      "fr": "Tour de guet hingashienne (mokuzo)",
+      "ja": "白銀木造火見櫓"
     }
   },
   {
@@ -7962,6 +8191,34 @@
   {
     "baseLevel": 62,
     "difficulty": 1684,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 7801,
+    "name": {
+      "cn": "M Tribe Sundries",
+      "de": "Jagdbedarf",
+      "en": "M Tribe Sundries",
+      "fr": "Produits du quotidien des M",
+      "ja": "メ族の日用品"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 60,
+    "level": 265,
+    "maxQuality": 3900,
+    "name": {
+      "cn": "M Tribe Sundry Component",
+      "de": "Komponente eines Gebrauchsgegenstands der M",
+      "en": "M Tribe Sundry Component",
+      "fr": "Composant de produits du quotidien des M",
+      "ja": "メ族の日用品部材"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
     "durability": 80,
     "level": 265,
     "maxQuality": 9752,
@@ -7971,6 +8228,62 @@
       "en": "Stiperstone Grinding Wheel",
       "fr": "Meule de quartzite",
       "ja": "スタイパーストーン・グラインディングホイール"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 3542,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5219,
+    "name": {
+      "cn": "Hingan Bed",
+      "de": "Hingashi-Bett",
+      "en": "Hingan Bed",
+      "fr": "Lit hingashien",
+      "ja": "白銀寝台"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 6297,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5219,
+    "name": {
+      "cn": "Hingan Hanging Andon Lamp",
+      "de": "Hinganische Andon-Hängelampe",
+      "en": "Hingan Hanging Andon Lamp",
+      "fr": "Lampe hingashienne suspendue (andon)",
+      "ja": "白銀吊り行燈"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 6297,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5219,
+    "name": {
+      "cn": "Hingan Nanpu Door",
+      "de": "Hinganische Nanpu-Tür",
+      "en": "Hingan Nanpu Door",
+      "fr": "Porte hingashienne (nanpu)",
+      "ja": "白銀南風扉"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 6297,
+    "durability": 80,
+    "level": 270,
+    "maxQuality": 5219,
+    "name": {
+      "cn": "Hingan Placard (Mokuzo)",
+      "de": "Hinganische Mokuzo-Wappenplakette",
+      "en": "Hingan Placard (Mokuzo)",
+      "fr": "Enseigne murale (mokuzo)",
+      "ja": "白銀木造看板"
     }
   },
   {
@@ -8055,6 +8368,34 @@
       "en": "Oriental Pipe Box",
       "fr": "Nécessaire à pipe oriental",
       "ja": "東方風キセル箱"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 8351,
+    "name": {
+      "cn": "Resistance Materiel",
+      "de": "Rucksack für die Befreiungsarmee",
+      "en": "Resistance Materiel",
+      "fr": "Provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 60,
+    "level": 270,
+    "maxQuality": 4175,
+    "name": {
+      "cn": "Resistance Materiel Component",
+      "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
+      "en": "Resistance Materiel Component",
+      "fr": "Composant de provisions pour l'armée de libération",
+      "ja": "解放軍の軍需品部材"
     }
   },
   {
@@ -8213,6 +8554,104 @@
   },
   {
     "baseLevel": 66,
+    "difficulty": 7715,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 5838,
+    "name": {
+      "cn": "Hingan Cupboard",
+      "de": "Hingashi-Geschirrschrank",
+      "en": "Hingan Cupboard",
+      "fr": "Buffet hingashien",
+      "ja": "白銀食器棚"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 7715,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 5838,
+    "name": {
+      "cn": "Hingan Fire Pit",
+      "de": "Hingashi-Feuerstelle",
+      "en": "Hingan Fire Pit",
+      "fr": "Foyer hingashien",
+      "ja": "白銀囲炉裏"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 7715,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 5838,
+    "name": {
+      "cn": "Hingan House Wall (Mokuzo)",
+      "de": "Hinganische Mokuzo-Hausmauer",
+      "en": "Hingan House Wall (Mokuzo)",
+      "fr": "Mur de pavillon hingashien (mokuzo)",
+      "ja": "白銀木造屋敷壁"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 7715,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 5838,
+    "name": {
+      "cn": "Hingan House Wall (Nanpu)",
+      "de": "Hinganische Nanpu-Hausmauer",
+      "en": "Hingan House Wall (Nanpu)",
+      "fr": "Mur de pavillon hingashien (nanpu)",
+      "ja": "白銀南風屋敷壁"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 7715,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 5838,
+    "name": {
+      "cn": "Hingan Kura-Zukuri Door",
+      "de": "Hinganische Kurazukuri-Tür",
+      "en": "Hingan Kura-Zukuri Door",
+      "fr": "Porte hingashienne (kura-zukuri)",
+      "ja": "白銀蔵造扉"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 7715,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 5838,
+    "name": {
+      "cn": "Hingan Lancet Window",
+      "de": "Hinganisches Glockenfenster",
+      "en": "Hingan Lancet Window",
+      "fr": "Fenêtre à lancette hingashienne",
+      "ja": "白銀鐘形窓"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 7715,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 5838,
+    "name": {
+      "cn": "Hingan Nanpu Fence",
+      "de": "Hinganischer Nanpu-Zaun",
+      "en": "Hingan Nanpu Fence",
+      "fr": "Muret hingashien (nanpu)",
+      "ja": "白銀南風塀"
+    }
+  },
+  {
+    "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
     "level": 279,
@@ -8353,6 +8792,90 @@
   },
   {
     "baseLevel": 68,
+    "difficulty": 4870,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Hingan Flooring",
+      "de": "Hingashi-Holzboden",
+      "en": "Hingan Flooring",
+      "fr": "Parquet hingashien",
+      "ja": "白銀床板"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 8659,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Hingan Hanging Toro Lamp",
+      "de": "Hinganische Toro-Hängelampe",
+      "en": "Hingan Hanging Toro Lamp",
+      "fr": "Lampe hingashienne suspendue (toro)",
+      "ja": "白銀吊り灯篭"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 8659,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Hingan Mansion Wall (Mokuzo)",
+      "de": "Hinganische Mokuzo-Residenzmauer",
+      "en": "Hingan Mansion Wall (Mokuzo)",
+      "fr": "Mur de villa hingashienne (mokuzo)",
+      "ja": "白銀木造御殿壁"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 8659,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Hingan Mansion Wall (Nanpu)",
+      "de": "Hinganische Nanpu-Residenzmauer",
+      "en": "Hingan Mansion Wall (Nanpu)",
+      "fr": "Mur de villa hingashienne (nanpu)",
+      "ja": "白銀南風御殿壁"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 8659,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Hingan Open-shelf Bookcase",
+      "de": "Hingashi-Regal",
+      "en": "Hingan Open-shelf Bookcase",
+      "fr": "Étagère à livres hingashienne",
+      "ja": "白銀飾棚"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 8659,
+    "durability": 80,
+    "level": 285,
+    "maxQuality": 6250,
+    "name": {
+      "cn": "Hingan Placard (Nanpu)",
+      "de": "Hinganische Nanpu-Wappenplakette",
+      "en": "Hingan Placard (Nanpu)",
+      "fr": "Enseigne murale (nanpu)",
+      "ja": "白銀南風看板"
+    }
+  },
+  {
+    "baseLevel": 68,
     "difficulty": 2706,
     "durability": 80,
     "level": 285,
@@ -8419,6 +8942,34 @@
       "en": "Zelkova Lumber",
       "fr": "Madrier de zelkova",
       "ja": "ゼルコバ材"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 5137,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 6456,
+    "name": {
+      "cn": "Bamboo Flowerpot",
+      "de": "Zimmer-Bambus",
+      "en": "Bamboo Flowerpot",
+      "fr": "Pot de bambous",
+      "ja": "竹の鉢植"
+    }
+  },
+  {
+    "baseLevel": 69,
+    "difficulty": 5137,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 6456,
+    "name": {
+      "cn": "Paper Partition",
+      "de": "Schiebetür-Trennwand",
+      "en": "Paper Partition",
+      "fr": "Cloison de papier hingashienne",
+      "ja": "障子衝立"
     }
   },
   {
@@ -8549,9 +9100,24 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 28506,
+    "name": {
+      "cn": "Ala Mhigan Fishing Rod",
+      "de": "Mhigische Angelrute",
+      "en": "Ala Mhigan Fishing Rod",
+      "fr": "Canne à pêche mhigoise",
+      "ja": "アラミガンフィッシングロッド"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Chromite Spear",
@@ -8564,9 +9130,39 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Fool's Portal",
+      "de": "Rundfenster-Imitation",
+      "en": "Fool's Portal",
+      "fr": "Fenêtre hingashienne en trompe-l'œil",
+      "ja": "だまし窓"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 310,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Imitation Oblong Window",
+      "de": "Langfenster-Imitation",
+      "en": "Imitation Oblong Window",
+      "fr": "Fenêtre rectangulaire en trompe-l'œil",
+      "ja": "イミテーション・オブロングウィンドウ"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Bracelet of Aiming",
@@ -8581,7 +9177,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Bracelet of Casting",
@@ -8596,7 +9192,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Bracelet of Fending",
@@ -8611,7 +9207,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Bracelet of Healing",
@@ -8626,7 +9222,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Bracelet of Slaying",
@@ -8641,7 +9237,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Cane",
@@ -8656,7 +9252,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Choker of Aiming",
@@ -8671,7 +9267,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Choker of Casting",
@@ -8686,7 +9282,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Choker of Fending",
@@ -8701,7 +9297,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Choker of Healing",
@@ -8716,7 +9312,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Choker of Slaying",
@@ -8731,7 +9327,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Longbow",
@@ -8746,7 +9342,7 @@
     "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
-    "level": 320,
+    "level": 310,
     "maxQuality": 15837,
     "name": {
       "cn": "Torreya Lumber",
