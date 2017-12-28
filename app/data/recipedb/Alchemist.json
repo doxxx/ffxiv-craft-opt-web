@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "baseLevel": 1,
     "difficulty": 19,
@@ -10,7 +10,8 @@
       "de": "Ballonhüllen-Bauteil",
       "en": "Bladder Component",
       "fr": "Composant de ballon",
-      "ja": "気嚢部材"
+      "ja": "気嚢部材",
+      "ko": "공기주머니 부재"
     }
   },
   {
@@ -24,7 +25,8 @@
       "de": "Hüllenverstärkungs-Bauteil",
       "en": "Bladder Lining Component",
       "fr": "Composant de finition de ballon",
-      "ja": "気嚢補強材"
+      "ja": "気嚢補強材",
+      "ko": "공기주머니 보강재"
     }
   },
   {
@@ -38,7 +40,8 @@
       "de": "Destilliertes Wasser",
       "en": "Distilled Water",
       "fr": "Eau distillée",
-      "ja": "蒸留水"
+      "ja": "蒸留水",
+      "ko": "증류수"
     }
   },
   {
@@ -52,7 +55,8 @@
       "de": "Kanzelinnenraum-Bauteil",
       "en": "Hull Interior Component",
       "fr": "Composant de coque",
-      "ja": "エカトルの船体部材"
+      "ja": "エカトルの船体部材",
+      "ko": "에카틀 선체 부재"
     }
   },
   {
@@ -66,7 +70,8 @@
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
       "fr": "Comp. de partie gauche de nacelle",
-      "ja": "左舷船体部材"
+      "ja": "左舷船体部材",
+      "ko": "좌현 선체 부재"
     }
   },
   {
@@ -80,7 +85,8 @@
       "de": "Quecksilber",
       "en": "Quicksilver",
       "fr": "Mercure",
-      "ja": "水銀"
+      "ja": "水銀",
+      "ko": "수은"
     }
   },
   {
@@ -94,7 +100,8 @@
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
       "fr": "Comp. de partie droite de nacelle",
-      "ja": "右舷船体部材"
+      "ja": "右舷船体部材",
+      "ko": "우현 선체 부재"
     }
   },
   {
@@ -108,7 +115,8 @@
       "de": "Tierleim",
       "en": "Animal Glue",
       "fr": "Glu animale",
-      "ja": "にかわ"
+      "ja": "にかわ",
+      "ko": "아교"
     }
   },
   {
@@ -122,7 +130,8 @@
       "de": "Werkzeug-Bauteil",
       "en": "Crafting Tool Component",
       "fr": "Nécessaire de fabrication",
-      "ja": "加工道具"
+      "ja": "加工道具",
+      "ko": "가공 도구"
     }
   },
   {
@@ -136,7 +145,8 @@
       "de": "Deck-Bauteil",
       "en": "Deck Component",
       "fr": "Composant de pont",
-      "ja": "甲板部材"
+      "ja": "甲板部材",
+      "ko": "갑판 부재"
     }
   },
   {
@@ -150,7 +160,8 @@
       "de": "Motorgehäuse-Bauteil",
       "en": "Engine Casing Component",
       "fr": "Composant de protection de moteur",
-      "ja": "機関外装部材"
+      "ja": "機関外装部材",
+      "ko": "기관 외장 부재"
     }
   },
   {
@@ -164,7 +175,8 @@
       "de": "Wachstumsformel Alpha",
       "en": "Growth Formula Alpha",
       "fr": "Formule de croissance alpha",
-      "ja": "グロースフォーミュラ・アルファ"
+      "ja": "グロースフォーミュラ・アルファ",
+      "ko": "성장 촉진제 알파"
     }
   },
   {
@@ -178,7 +190,8 @@
       "de": "Gyroantriebs-Bauteil",
       "en": "Gyrodrive Component",
       "fr": "Composant d'unité motrice",
-      "ja": "動力輪部材"
+      "ja": "動力輪部材",
+      "ko": "동력바퀴 부재"
     }
   },
   {
@@ -192,7 +205,8 @@
       "de": "Erdseim-Motor-Bauteil",
       "en": "Propulsion Engine Component",
       "fr": "Composant de moteur",
-      "ja": "エカトルの機関部材"
+      "ja": "エカトルの機関部材",
+      "ko": "에카틀 기관 부재"
     }
   },
   {
@@ -206,7 +220,8 @@
       "de": "Takelagen-Bauteil",
       "en": "Rigging Component",
       "fr": "Composant d'attache",
-      "ja": "索具部材"
+      "ja": "索具部材",
+      "ko": "밧줄 부재"
     }
   },
   {
@@ -220,7 +235,8 @@
       "de": "Magische Kupfertinte",
       "en": "Enchanted Copper Ink",
       "fr": "Encre de cuivre enchantée",
-      "ja": "カッパーエンチャントインク"
+      "ja": "カッパーエンチャントインク",
+      "ko": "구리 마법 잉크"
     }
   },
   {
@@ -234,7 +250,8 @@
       "de": "Ahornzweig",
       "en": "Maple Wand",
       "fr": "Baguette",
-      "ja": "ワンド"
+      "ja": "ワンド",
+      "ko": "마법봉"
     }
   },
   {
@@ -248,7 +265,8 @@
       "de": "Gegengift",
       "en": "Antidote",
       "fr": "Antidote",
-      "ja": "毒消し"
+      "ja": "毒消し",
+      "ko": "해독제"
     }
   },
   {
@@ -262,7 +280,8 @@
       "de": "Leder-Grimoire",
       "en": "Leather Grimoire",
       "fr": "Grimoire",
-      "ja": "グリモア"
+      "ja": "グリモア",
+      "ko": "마법서"
     }
   },
   {
@@ -276,7 +295,8 @@
       "de": "Aerodynamo-Bauteil",
       "en": "Aerodynamo Component",
       "fr": "Composant de nez profilé",
-      "ja": "空力部材"
+      "ja": "空力部材",
+      "ko": "동력원 부재"
     }
   },
   {
@@ -290,7 +310,8 @@
       "de": "Ballast-Bauteil",
       "en": "Ballast Component",
       "fr": "Composant de lest",
-      "ja": "バラスト部材"
+      "ja": "バラスト部材",
+      "ko": "무게추 부재"
     }
   },
   {
@@ -304,7 +325,8 @@
       "de": "Kanzelaußenwand-Bauteil",
       "en": "Cockpit Exterior Component",
       "fr": "Composant extérieur de cockpit",
-      "ja": "操縦席外装材"
+      "ja": "操縦席外装材",
+      "ko": "조종석 외장재"
     }
   },
   {
@@ -318,7 +340,8 @@
       "de": "Kanzelinnenwand-Bauteil",
       "en": "Cockpit Interior Component",
       "fr": "Composant intérieur de cockpit",
-      "ja": "操縦席内装材"
+      "ja": "操縦席内装材",
+      "ko": "조종석 내장재"
     }
   },
   {
@@ -332,7 +355,8 @@
       "de": "Motorverstrebungs-Bauteil",
       "en": "Engine Jointing Component",
       "fr": "Composant de jonction de moteur",
-      "ja": "エカトルの機関部接合材"
+      "ja": "エカトルの機関部接合材",
+      "ko": "에카틀 기관부 접합재"
     }
   },
   {
@@ -346,7 +370,8 @@
       "de": "Augentropfen",
       "en": "Eye Drops",
       "fr": "Potion de lumière",
-      "ja": "目薬"
+      "ja": "目薬",
+      "ko": "안약"
     }
   },
   {
@@ -360,7 +385,8 @@
       "de": "Steuerpult-Bauteil",
       "en": "Instrument Panel Component",
       "fr": "Composant d'instrumentation",
-      "ja": "計器部材"
+      "ja": "計器部材",
+      "ko": "계기 부재"
     }
   },
   {
@@ -374,7 +400,8 @@
       "de": "Gummi",
       "en": "Rubber",
       "fr": "Caoutchouc",
-      "ja": "ラバー"
+      "ja": "ラバー",
+      "ko": "고무"
     }
   },
   {
@@ -388,7 +415,8 @@
       "de": "Ahorn-Picatrix",
       "en": "Maple Picatrix",
       "fr": "Picatrix",
-      "ja": "ピカトリクス"
+      "ja": "ピカトリクス",
+      "ko": "비술서"
     }
   },
   {
@@ -402,7 +430,8 @@
       "de": "Flüsternder Ahornzweig",
       "en": "Whispering Maple Wand",
       "fr": "Baguette ornée",
-      "ja": "ワンドDX"
+      "ja": "ワンドDX",
+      "ko": "강화 마법봉"
     }
   },
   {
@@ -416,7 +445,8 @@
       "de": "Bienenwachs",
       "en": "Beeswax",
       "fr": "Cire d'abeille",
-      "ja": "蜜蝋"
+      "ja": "蜜蝋",
+      "ko": "밀랍"
     }
   },
   {
@@ -430,7 +460,8 @@
       "de": "Verziertes Leder-Grimoire",
       "en": "Engraved Leather Grimoire",
       "fr": "Grimoire renforcé",
-      "ja": "グリモアDX"
+      "ja": "グリモアDX",
+      "ko": "강화 마법서"
     }
   },
   {
@@ -444,7 +475,8 @@
       "de": "Fischleim",
       "en": "Fish Glue",
       "fr": "Glu de poisson",
-      "ja": "魚にかわ"
+      "ja": "魚にかわ",
+      "ko": "물고기아교"
     }
   },
   {
@@ -458,7 +490,8 @@
       "de": "Fischtran",
       "en": "Fish Oil",
       "fr": "Huile de poisson",
-      "ja": "フィッシュオイル"
+      "ja": "フィッシュオイル",
+      "ko": "생선 기름"
     }
   },
   {
@@ -472,7 +505,8 @@
       "de": "Kühler-Bauteil",
       "en": "Heat Vent Component",
       "fr": "Composant de ventilation",
-      "ja": "排熱部材"
+      "ja": "排熱部材",
+      "ko": "배열 부재"
     }
   },
   {
@@ -486,7 +520,8 @@
       "de": "Backbordtragflächen-Bauteil",
       "en": "Larboard Wing Component",
       "fr": "Composant d'aile gauche",
-      "ja": "左翼部材"
+      "ja": "左翼部材",
+      "ko": "왼쪽 날개 부재"
     }
   },
   {
@@ -500,7 +535,8 @@
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile gauche",
-      "ja": "左翼可動部材"
+      "ja": "左翼可動部材",
+      "ko": "왼쪽 날개 가동 부재"
     }
   },
   {
@@ -514,7 +550,8 @@
       "de": "Steuerbordtragflächen-Bauteil",
       "en": "Starboard Wing Component",
       "fr": "Composant d'aile droite",
-      "ja": "右翼部材"
+      "ja": "右翼部材",
+      "ko": "오른쪽 날개 부재"
     }
   },
   {
@@ -528,7 +565,8 @@
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile droite",
-      "ja": "右翼可動部材"
+      "ja": "右翼可動部材",
+      "ko": "오른쪽 날개 가동 부재"
     }
   },
   {
@@ -542,7 +580,8 @@
       "de": "Sprechanlagen-Bauteil",
       "en": "Transmission Component",
       "fr": "Composant de transmission",
-      "ja": "伝達系部材"
+      "ja": "伝達系部材",
+      "ko": "전달계 부재"
     }
   },
   {
@@ -556,7 +595,8 @@
       "de": "Fünfblättriger Ahornzweig",
       "en": "Budding Maple Wand",
       "fr": "Baguette bourgeonnante",
-      "ja": "バッデッドワンド"
+      "ja": "バッデッドワンド",
+      "ko": "어린잎 마법봉"
     }
   },
   {
@@ -570,7 +610,8 @@
       "de": "Dachziegel",
       "en": "Roof Tile",
       "fr": "Tuile",
-      "ja": "ルーフタイル"
+      "ja": "ルーフタイル",
+      "ko": "지붕 기와"
     }
   },
   {
@@ -584,7 +625,8 @@
       "de": "Heiltrank",
       "en": "Potion",
       "fr": "Potion",
-      "ja": "ポーション"
+      "ja": "ポーション",
+      "ko": "포션"
     }
   },
   {
@@ -598,7 +640,8 @@
       "de": "Eschen-Picatrix",
       "en": "Ash Picatrix",
       "fr": "Picatrix en frêne",
-      "ja": "アッシュピカトリクス"
+      "ja": "アッシュピカトリクス",
+      "ko": "물푸레나무 비술서"
     }
   },
   {
@@ -612,7 +655,8 @@
       "de": "Terrakotta-Topf",
       "en": "Terracotta Pot",
       "fr": "Pot en terre cuite",
-      "ja": "素焼きの壺"
+      "ja": "素焼きの壺",
+      "ko": "옹기 항아리"
     }
   },
   {
@@ -626,7 +670,8 @@
       "de": "Nelkenöl",
       "en": "Clove Oil",
       "fr": "Essence de girofle",
-      "ja": "クローヴオイル"
+      "ja": "クローヴオイル",
+      "ko": "정향유"
     }
   },
   {
@@ -640,7 +685,8 @@
       "de": "Magische Eisentinte",
       "en": "Enchanted Iron Ink",
       "fr": "Encre de fer enchantée",
-      "ja": "アイアンエンチャントインク"
+      "ja": "アイアンエンチャントインク",
+      "ko": "철 마법 잉크"
     }
   },
   {
@@ -654,7 +700,8 @@
       "de": "Erdseim-Tank-Bauteil",
       "en": "Ceruleum Tank Component",
       "fr": "Composant de réservoir",
-      "ja": "青燐タンク部材"
+      "ja": "青燐タンク部材",
+      "ko": "청린 탱크 부재"
     }
   },
   {
@@ -668,7 +715,8 @@
       "de": "Entsorgungssystem-Bauteil",
       "en": "Disposal Unit Component",
       "fr": "Composant de système d'évacuation",
-      "ja": "緊急廃棄部材"
+      "ja": "緊急廃棄部材",
+      "ko": "긴급 폐기 부재"
     }
   },
   {
@@ -682,7 +730,8 @@
       "de": "Äther",
       "en": "Ether",
       "fr": "Éther",
-      "ja": "エーテル"
+      "ja": "エーテル",
+      "ko": "에테르"
     }
   },
   {
@@ -696,7 +745,8 @@
       "de": "Schornstein-Bauteil",
       "en": "Exhaust Outlet Component",
       "fr": "Composant d'échappement",
-      "ja": "排気系部材"
+      "ja": "排気系部材",
+      "ko": "배기계 부재"
     }
   },
   {
@@ -710,7 +760,8 @@
       "de": "Alchemie-Projektionsprisma",
       "en": "Glamour Prism (Alchemy)",
       "fr": "Prisme mirage (alchimie)",
-      "ja": "ミラージュプリズム:アルケミー"
+      "ja": "ミラージュプリズム:アルケミー",
+      "ko": "환상의 프리즘: 연금술"
     }
   },
   {
@@ -724,7 +775,8 @@
       "de": "Alchemie-Projektionsprisma II",
       "en": "Grade 2 Glamour Prism (Alchemy)",
       "fr": "Prisme mirage II (alchimie)",
-      "ja": "ミラージュプリズムG2:アルケミー"
+      "ja": "ミラージュプリズムG2:アルケミー",
+      "ko": "2등급 환상의 프리즘: 연금술"
     }
   },
   {
@@ -738,7 +790,8 @@
       "de": "Alchemie-Projektionsprisma III",
       "en": "Grade 3 Glamour Prism (Alchemy)",
       "fr": "Prisme mirage III (alchimie)",
-      "ja": "ミラージュプリズムG3:アルケミー"
+      "ja": "ミラージュプリズムG3:アルケミー",
+      "ko": "3등급 환상의 프리즘: 연금술"
     }
   },
   {
@@ -752,7 +805,8 @@
       "de": "Alchemie-Projektionsprisma IV",
       "en": "Grade 4 Glamour Prism (Alchemy)",
       "fr": "Prisme mirage IV (alchimie)",
-      "ja": "ミラージュプリズムG4:アルケミー"
+      "ja": "ミラージュプリズムG4:アルケミー",
+      "ko": "4등급 환상의 프리즘: 연금술"
     }
   },
   {
@@ -766,7 +820,8 @@
       "de": "Alchemie-Projektionsprisma V",
       "en": "Grade 5 Glamour Prism (Alchemy)",
       "fr": "Prisme mirage V (alchimie)",
-      "ja": "ミラージュプリズムG5:アルケミー"
+      "ja": "ミラージュプリズムG5:アルケミー",
+      "ko": "5등급 환상의 프리즘: 연금술"
     }
   },
   {
@@ -780,7 +835,8 @@
       "de": "Wachstumsformel Beta",
       "en": "Growth Formula Beta",
       "fr": "Formule de croissance bêta",
-      "ja": "グロースフォーミュラ・ベータ"
+      "ja": "グロースフォーミュラ・ベータ",
+      "ko": "성장 촉진제 베타"
     }
   },
   {
@@ -794,7 +850,8 @@
       "de": "Steuereinheits-Bauteil",
       "en": "Helm Component",
       "fr": "Composant de gouvernail",
-      "ja": "エカトルの操舵装置部材"
+      "ja": "エカトルの操舵装置部材",
+      "ko": "에카틀 조타 장치 부재"
     }
   },
   {
@@ -808,7 +865,8 @@
       "de": "Schreibset",
       "en": "Ink & Quill",
       "fr": "Nécessaire de bureau",
-      "ja": "文房具一式"
+      "ja": "文房具一式",
+      "ko": "필기구 세트"
     }
   },
   {
@@ -822,7 +880,8 @@
       "de": "Beleuchtungs-Bauteil",
       "en": "Lamp Component",
       "fr": "Composant d'éclairage",
-      "ja": "ランプ部材"
+      "ja": "ランプ部材",
+      "ko": "조명 부재"
     }
   },
   {
@@ -836,7 +895,8 @@
       "de": "Kommunikationsrohr-Bauteil",
       "en": "Speaking Tube Component",
       "fr": "Composant de tuyau acoustique",
-      "ja": "伝声系部材"
+      "ja": "伝声系部材",
+      "ko": "통신계 부재"
     }
   },
   {
@@ -850,7 +910,8 @@
       "de": "Steuermechanismus-Bauteil",
       "en": "Steering Mechanism Component",
       "fr": "Composant de module de pilotage",
-      "ja": "操縦機具部材"
+      "ja": "操縦機具部材",
+      "ko": "조종기구 부재"
     }
   },
   {
@@ -864,7 +925,8 @@
       "de": "Eschenzweig",
       "en": "Ash Wand",
       "fr": "Baguette en frêne",
-      "ja": "アッシュワンド"
+      "ja": "アッシュワンド",
+      "ko": "물푸레나무 마법봉"
     }
   },
   {
@@ -878,7 +940,8 @@
       "de": "Aerodynamik-Verbesserer-Bauteil",
       "en": "Auxiliary Aerodynamo Component",
       "fr": "Composant d'aileron",
-      "ja": "補助空力部材"
+      "ja": "補助空力部材",
+      "ko": "보조 동력원 부재"
     }
   },
   {
@@ -892,7 +955,8 @@
       "de": "Zierplatten-Bauteil",
       "en": "Decorative Plating Component",
       "fr": "Composant d'ornementation",
-      "ja": "装飾部材"
+      "ja": "装飾部材",
+      "ko": "장식 부재"
     }
   },
   {
@@ -906,7 +970,8 @@
       "de": "Rettungsboots-Bauteil",
       "en": "Escape Flyer Component",
       "fr": "Composant de système d'éjection",
-      "ja": "緊急脱出用具"
+      "ja": "緊急脱出用具",
+      "ko": "긴급 탈출 도구"
     }
   },
   {
@@ -920,7 +985,8 @@
       "de": "Juchleder-Grimoire",
       "en": "Hard Leather Grimoire",
       "fr": "Grimoire en cuir rigide",
-      "ja": "ハードレザーグリモア"
+      "ja": "ハードレザーグリモア",
+      "ko": "질긴 가죽 마법서"
     }
   },
   {
@@ -934,7 +1000,8 @@
       "de": "Hyperleiter-Bauteil",
       "en": "Hyperconductor Component",
       "fr": "Composant d'hyperconducteur",
-      "ja": "高伝導率部材"
+      "ja": "高伝導率部材",
+      "ko": "고전도율 부재"
     }
   },
   {
@@ -948,7 +1015,8 @@
       "de": "Isolations-Bauteil",
       "en": "Isolator Component",
       "fr": "Composant de système antivibration",
-      "ja": "免震部材"
+      "ja": "免震部材",
+      "ko": "진동방지 부재"
     }
   },
   {
@@ -962,7 +1030,8 @@
       "de": "Trank der Intelligenz",
       "en": "Potion of Intelligence",
       "fr": "Solution d'intelligence",
-      "ja": "知力の薬"
+      "ja": "知力の薬",
+      "ko": "지능의 약"
     }
   },
   {
@@ -976,7 +1045,8 @@
       "de": "Gewichtsreduktions-Bauteil",
       "en": "Refabrication Component",
       "fr": "Composant d'allégement",
-      "ja": "軽量化部材"
+      "ja": "軽量化部材",
+      "ko": "경량화 부재"
     }
   },
   {
@@ -990,7 +1060,8 @@
       "de": "Reservetank-Bauteil",
       "en": "Spare Tank Component",
       "fr": "Composant de réservoir de secours",
-      "ja": "予備タンク部材"
+      "ja": "予備タンク部材",
+      "ko": "예비 탱크 부재"
     }
   },
   {
@@ -1004,7 +1075,8 @@
       "de": "Blumenkübel",
       "en": "Low Barrel Planter",
       "fr": "Jardinière bas-tonneau",
-      "ja": "ロウバレルプランター"
+      "ja": "ロウバレルプランター",
+      "ko": "작은 나무통 화분"
     }
   },
   {
@@ -1018,7 +1090,8 @@
       "de": "Trank der Geschicklichkeit",
       "en": "Potion of Dexterity",
       "fr": "Solution de dextérité",
-      "ja": "眼力の薬"
+      "ja": "眼力の薬",
+      "ko": "민첩성의 약"
     }
   },
   {
@@ -1032,7 +1105,8 @@
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
       "fr": "Aile d'Ehcatl",
-      "ja": "エカトルの羽根飾り"
+      "ja": "エカトルの羽根飾り",
+      "ko": "에카틀 깃털 장식"
     }
   },
   {
@@ -1046,7 +1120,8 @@
       "de": "Endstück-Bauteil",
       "en": "Finishing Component",
       "fr": "Composant final",
-      "ja": "エカトルの重要部材"
+      "ja": "エカトルの重要部材",
+      "ko": "에카틀 중요 부재"
     }
   },
   {
@@ -1060,7 +1135,8 @@
       "de": "Ziegelstein",
       "en": "Firebricks",
       "fr": "Brique",
-      "ja": "煉瓦"
+      "ja": "煉瓦",
+      "ko": "벽돌"
     }
   },
   {
@@ -1074,7 +1150,8 @@
       "de": "Trank der Konstitution",
       "en": "Potion of Vitality",
       "fr": "Solution de vitalité",
-      "ja": "活力の薬"
+      "ja": "活力の薬",
+      "ko": "활력의 약"
     }
   },
   {
@@ -1088,7 +1165,8 @@
       "de": "Quallen-Körpersaft",
       "en": "Jellyfish Humours",
       "fr": "Fluide de méduse",
-      "ja": "ジェリーオイル"
+      "ja": "ジェリーオイル",
+      "ko": "해파리 기름"
     }
   },
   {
@@ -1102,7 +1180,8 @@
       "de": "Trank der Stärke",
       "en": "Potion of Strength",
       "fr": "Solution de force",
-      "ja": "剛力の薬"
+      "ja": "剛力の薬",
+      "ko": "힘의 약"
     }
   },
   {
@@ -1116,7 +1195,8 @@
       "de": "Wüsteneisenholz-Baum",
       "en": "Desert Ironwood",
       "fr": "Bois de fer thanalanais",
-      "ja": "ザナラーン・アイアンウッド"
+      "ja": "ザナラーン・アイアンウッド",
+      "ko": "다날란 철목"
     }
   },
   {
@@ -1130,7 +1210,8 @@
       "de": "Verziertes Juchleder-Grimoire",
       "en": "Engraved Hard Leather Grimoire",
       "fr": "Grimoire en cuir rigide renforcé",
-      "ja": "ハードレザーグリモアDX"
+      "ja": "ハードレザーグリモアDX",
+      "ko": "강화 질긴 가죽 마법서"
     }
   },
   {
@@ -1144,7 +1225,8 @@
       "de": "Wald-Ziegelvordach",
       "en": "Glade Tiled Awning",
       "fr": "Auvent en tuiles sombrelinçois",
-      "ja": "シュラウド・タイルオーニング"
+      "ja": "シュラウド・タイルオーニング",
+      "ko": "검은장막 기와 차양"
     }
   },
   {
@@ -1158,7 +1240,8 @@
       "de": "Vylbrand-Palme",
       "en": "Island Palm",
       "fr": "Palmier insulaire noscéen",
-      "ja": "ラノシアン・アイランドパーム"
+      "ja": "ラノシアン・アイランドパーム",
+      "ko": "라노시아 야자수"
     }
   },
   {
@@ -1172,7 +1255,8 @@
       "de": "Mörtel",
       "en": "Mortar",
       "fr": "Pot de mortier",
-      "ja": "漆喰"
+      "ja": "漆喰",
+      "ko": "회반죽"
     }
   },
   {
@@ -1186,7 +1270,8 @@
       "de": "Trank der Willenskraft",
       "en": "Potion of Mind",
       "fr": "Solution d'esprit",
-      "ja": "心力の薬"
+      "ja": "心力の薬",
+      "ko": "정신력의 약"
     }
   },
   {
@@ -1200,7 +1285,8 @@
       "de": "Riviera-Holzhüttendach",
       "en": "Riviera Cottage Roof (Wood)",
       "fr": "Toit de maisonnette en bois noscéenne",
-      "ja": "ラノシアン・ウッドコテージ・ルーフ"
+      "ja": "ラノシアン・ウッドコテージ・ルーフ",
+      "ko": "해변의 아담한 목조 주택 지붕"
     }
   },
   {
@@ -1214,7 +1300,8 @@
       "de": "Wald-Laubbaum",
       "en": "Shroud Broadleaf",
       "fr": "Philodendron sombrelinçois",
-      "ja": "シュラウド・ブロードリーフ"
+      "ja": "シュラウド・ブロードリーフ",
+      "ko": "검은장막 활엽수"
     }
   },
   {
@@ -1228,7 +1315,8 @@
       "de": "Fünfblättriger Eschenzweig",
       "en": "Budding Ash Wand",
       "fr": "Baguette en frêne bourgeonnant",
-      "ja": "バッデッドアッシュワンド"
+      "ja": "バッデッドアッシュワンド",
+      "ko": "어린잎 물푸레나무 마법봉"
     }
   },
   {
@@ -1242,7 +1330,8 @@
       "de": "Schwach blendender Trunk",
       "en": "Weak Blinding Potion",
       "fr": "Potion aveuglante",
-      "ja": "暗闇の毒薬"
+      "ja": "暗闇の毒薬",
+      "ko": "실명의 독약"
     }
   },
   {
@@ -1256,7 +1345,8 @@
       "de": "Schwach paralysierender Trunk",
       "en": "Weak Paralyzing Potion",
       "fr": "Potion paralysante",
-      "ja": "麻痺の毒薬"
+      "ja": "麻痺の毒薬",
+      "ko": "마비의 독약"
     }
   },
   {
@@ -1270,7 +1360,8 @@
       "de": "Schwach vergifteter Trunk",
       "en": "Weak Poisoning Potion",
       "fr": "Potion toxique",
-      "ja": "毒薬"
+      "ja": "毒薬",
+      "ko": "독약"
     }
   },
   {
@@ -1284,7 +1375,8 @@
       "de": "Schwach einschläfernder Trunk",
       "en": "Weak Sleeping Potion",
       "fr": "Potion soporifique",
-      "ja": "睡眠の毒薬"
+      "ja": "睡眠の毒薬",
+      "ko": "수면의 독약"
     }
   },
   {
@@ -1298,7 +1390,8 @@
       "de": "Quasselwasser",
       "en": "Echo Drops",
       "fr": "Potion d'écho",
-      "ja": "やまびこ薬"
+      "ja": "やまびこ薬",
+      "ko": "메아리 약"
     }
   },
   {
@@ -1312,7 +1405,8 @@
       "de": "Agave",
       "en": "Potted Maguey",
       "fr": "Pot de maguey",
-      "ja": "マゲイの鉢植"
+      "ja": "マゲイの鉢植",
+      "ko": "용설란 화분"
     }
   },
   {
@@ -1326,7 +1420,8 @@
       "de": "Schwach verstummender Trunk",
       "en": "Weak Silencing Potion",
       "fr": "Potion aphonisante",
-      "ja": "沈黙の毒薬"
+      "ja": "沈黙の毒薬",
+      "ko": "침묵의 독약"
     }
   },
   {
@@ -1340,7 +1435,8 @@
       "de": "Eiben-Picatrix",
       "en": "Yew Picatrix",
       "fr": "Picatrix en if",
-      "ja": "ユーピカトリクス"
+      "ja": "ユーピカトリクス",
+      "ko": "주목나무 비술서"
     }
   },
   {
@@ -1354,7 +1450,8 @@
       "de": "Magische Silbertinte",
       "en": "Enchanted Silver Ink",
       "fr": "Encre d'argent enchantée",
-      "ja": "シルバーエンチャントインク"
+      "ja": "シルバーエンチャントインク",
+      "ko": "은 마법 잉크"
     }
   },
   {
@@ -1368,7 +1465,8 @@
       "de": "Tausendschlündekraut",
       "en": "Ghostmaws",
       "fr": "Necrangée de Toto-Rak",
-      "ja": "千獄の亡者草"
+      "ja": "千獄の亡者草",
+      "ko": "감옥의 망자풀"
     }
   },
   {
@@ -1382,7 +1480,8 @@
       "de": "Wald-Komposithüttendach",
       "en": "Glade Cottage Roof (Composite)",
       "fr": "Toit de maisonnette composite sombrelinçoise",
-      "ja": "シュラウド・コンポジットコテージ・ルーフ"
+      "ja": "シュラウド・コンポジットコテージ・ルーフ",
+      "ko": "숲속의 아담한 복합조 주택 지붕"
     }
   },
   {
@@ -1396,7 +1495,8 @@
       "de": "Wald-Blumenvase",
       "en": "Glade Flower Vase",
       "fr": "Vase de fleurs sombrelinçois",
-      "ja": "シュラウド・フラワーベース"
+      "ja": "シュラウド・フラワーベース",
+      "ko": "검은장막 꽃병"
     }
   },
   {
@@ -1410,7 +1510,8 @@
       "de": "Oasen-Blumenvase",
       "en": "Oasis Flower Vase",
       "fr": "Vase de fleurs thanalanais",
-      "ja": "ザナラーン・フラワーベース"
+      "ja": "ザナラーン・フラワーベース",
+      "ko": "다날란 꽃병"
     }
   },
   {
@@ -1424,7 +1525,8 @@
       "de": "Riviera-Blumenvase",
       "en": "Riviera Flower Vase",
       "fr": "Vase de fleurs noscéen",
-      "ja": "ラノシアン・フラワーベース"
+      "ja": "ラノシアン・フラワーベース",
+      "ko": "라노시아 꽃병"
     }
   },
   {
@@ -1438,7 +1540,8 @@
       "de": "Steinbockleder-Grimoire",
       "en": "Goatskin Grimoire",
       "fr": "Grimoire en cuir de bouquetin",
-      "ja": "アルドゴートグリモア"
+      "ja": "アルドゴートグリモア",
+      "ko": "큰뿔염소 마법서"
     }
   },
   {
@@ -1452,7 +1555,8 @@
       "de": "Höllentau-Gras",
       "en": "Pyrepods",
       "fr": "Faucheuse de Toto-Rak",
-      "ja": "千獄の火葬花"
+      "ja": "千獄の火葬花",
+      "ko": "감옥의 매장꽃"
     }
   },
   {
@@ -1466,7 +1570,8 @@
       "de": "Zierfelsen",
       "en": "Unbreakable Rock",
       "fr": "Pierre indestructible",
-      "ja": "叩き割れぬ庭石"
+      "ja": "叩き割れぬ庭石",
+      "ko": "깨지지 않는 정원석"
     }
   },
   {
@@ -1480,7 +1585,8 @@
       "de": "Blaues Korallen-Gebilde",
       "en": "Blue Coral Formation",
       "fr": "Corail bleu sastashien",
-      "ja": "浸食洞の青珊瑚"
+      "ja": "浸食洞の青珊瑚",
+      "ko": "침식 동굴의 청산호"
     }
   },
   {
@@ -1494,7 +1600,8 @@
       "de": "Fass-Pflanzkasten",
       "en": "Half Barrel Planter",
       "fr": "Jardinière demi-tonneau",
-      "ja": "ハーフバレルプランター"
+      "ja": "ハーフバレルプランター",
+      "ko": "큰 나무통 화분"
     }
   },
   {
@@ -1508,7 +1615,8 @@
       "de": "Supertrank",
       "en": "Hi-Potion",
       "fr": "Super potion",
-      "ja": "ハイポーション"
+      "ja": "ハイポーション",
+      "ko": "하이 포션"
     }
   },
   {
@@ -1522,7 +1630,8 @@
       "de": "Natron",
       "en": "Natron",
       "fr": "Natron",
-      "ja": "重曹"
+      "ja": "重曹",
+      "ko": "베이킹 소다"
     }
   },
   {
@@ -1536,7 +1645,8 @@
       "de": "Kerker-Kelchblume",
       "en": "Turnkey's Cups",
       "fr": "Anémone gardienne de Toto-Rak",
-      "ja": "千獄の看守草"
+      "ja": "千獄の看守草",
+      "ko": "감옥의 간수풀"
     }
   },
   {
@@ -1550,7 +1660,8 @@
       "de": "Biskuit-Boden",
       "en": "Bisque Flooring",
       "fr": "Carrelage rose-orangé",
-      "ja": "ビスクタイルフローリング"
+      "ja": "ビスクタイルフローリング",
+      "ko": "비스크 타일 바닥"
     }
   },
   {
@@ -1564,7 +1675,8 @@
       "de": "Krabbentran",
       "en": "Crab Oil",
       "fr": "Huile de crabe",
-      "ja": "クラブオイル"
+      "ja": "クラブオイル",
+      "ko": "게 기름"
     }
   },
   {
@@ -1578,7 +1690,8 @@
       "de": "Wandblumentopf",
       "en": "Wall Planter",
       "fr": "Jardinière murale",
-      "ja": "ウォールプランター"
+      "ja": "ウォールプランター",
+      "ko": "벽걸이 화분"
     }
   },
   {
@@ -1592,7 +1705,8 @@
       "de": "Flüsternder Eschenzweig",
       "en": "Whispering Ash Wand",
       "fr": "Baguette en frêne ornée",
-      "ja": "アッシュワンドDX"
+      "ja": "アッシュワンドDX",
+      "ko": "강화 물푸레나무 마법봉"
     }
   },
   {
@@ -1606,7 +1720,8 @@
       "de": "Feuerstelle",
       "en": "Campfire",
       "fr": "Feu de camp d'aventurier",
-      "ja": "冒険者の焚火炉"
+      "ja": "冒険者の焚火炉",
+      "ko": "모험가의 모닥불"
     }
   },
   {
@@ -1620,7 +1735,8 @@
       "de": "Klarglasscheibe",
       "en": "Clear Glass Lens",
       "fr": "Plaque de verre incolore",
-      "ja": "ガラス板"
+      "ja": "ガラス板",
+      "ko": "유리판"
     }
   },
   {
@@ -1634,7 +1750,8 @@
       "de": "Eibenzweig",
       "en": "Yew Wand",
       "fr": "Baguette en if",
-      "ja": "ユーワンド"
+      "ja": "ユーワンド",
+      "ko": "주목나무 마법봉"
     }
   },
   {
@@ -1648,7 +1765,8 @@
       "de": "Verziertes Steinbockleder-Grimoire",
       "en": "Engraved Goatskin Grimoire",
       "fr": "Grimoire en cuir de bouquetin renforcé",
-      "ja": "アルドゴートグリモアDX"
+      "ja": "アルドゴートグリモアDX",
+      "ko": "강화 큰뿔염소 마법서"
     }
   },
   {
@@ -1662,7 +1780,8 @@
       "de": "Leinsamenöl",
       "en": "Linseed Oil",
       "fr": "Huile de lin",
-      "ja": "リンシードオイル"
+      "ja": "リンシードオイル",
+      "ko": "아마씨 기름"
     }
   },
   {
@@ -1676,7 +1795,8 @@
       "de": "Tiefblauer Farbstoff",
       "en": "Abyssal Blue Dye",
       "fr": "Teinture bleu marine",
-      "ja": "カララント:アビサルブルー"
+      "ja": "カララント:アビサルブルー",
+      "ko": "염료: 청보라색"
     }
   },
   {
@@ -1690,7 +1810,8 @@
       "de": "Jadegrüner Farbstoff",
       "en": "Celeste Green Dye",
       "fr": "Teinture vert céleste",
-      "ja": "カララント:セレストグリーン"
+      "ja": "カララント:セレストグリーン",
+      "ko": "염료: 옅은 청록색"
     }
   },
   {
@@ -1704,7 +1825,8 @@
       "de": "Kolibrirosa Farbstoff",
       "en": "Colibri Pink Dye",
       "fr": "Teinture mauve colibri",
-      "ja": "カララント:コリブリピンク"
+      "ja": "カララント:コリブリピンク",
+      "ko": "염료: 콜리브리색"
     }
   },
   {
@@ -1718,7 +1840,8 @@
       "de": "Dalamudroter Farbstoff",
       "en": "Dalamud Red Dye",
       "fr": "Teinture rouge Dalamud",
-      "ja": "カララント:ダラガブレッド"
+      "ja": "カララント:ダラガブレッド",
+      "ko": "염료: 달라가브색"
     }
   },
   {
@@ -1732,7 +1855,8 @@
       "de": "Notenrolle von „Dark Vows“",
       "en": "Dark Vows Orchestrion Roll",
       "fr": "Rouleau \"Dark Vows\"",
-      "ja": "オーケストリオン譜:漆黒の誓い"
+      "ja": "オーケストリオン譜:漆黒の誓い",
+      "ko": "오케스트리온 악보: Dark Vows"
     }
   },
   {
@@ -1746,7 +1870,8 @@
       "de": "Waldgrüner Farbstoff",
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
-      "ja": "カララント:ディープウッドグリーン"
+      "ja": "カララント:ディープウッドグリーン",
+      "ko": "염료: 밀림 녹색"
     }
   },
   {
@@ -1760,7 +1885,8 @@
       "de": "Wachstumsformel Gamma",
       "en": "Growth Formula Gamma",
       "fr": "Formule de croissance gamma",
-      "ja": "グロースフォーミュラ・ガンマ"
+      "ja": "グロースフォーミュラ・ガンマ",
+      "ko": "성장 촉진제 감마"
     }
   },
   {
@@ -1774,7 +1900,8 @@
       "de": "Honiggelber Farbstoff",
       "en": "Honey Yellow Dye",
       "fr": "Teinture jaune miel",
-      "ja": "カララント:ハニーイエロー"
+      "ja": "カララント:ハニーイエロー",
+      "ko": "염료: 꿀색"
     }
   },
   {
@@ -1788,7 +1915,8 @@
       "de": "Ogerleim",
       "en": "Horn Glue",
       "fr": "Glu de démon",
-      "ja": "鬼にかわ"
+      "ja": "鬼にかわ",
+      "ko": "뿔아교"
     }
   },
   {
@@ -1802,7 +1930,8 @@
       "de": "Jägergrüner Farbstoff",
       "en": "Hunter Green Dye",
       "fr": "Teinture vert chasseur",
-      "ja": "カララント:ハンターグリーン"
+      "ja": "カララント:ハンターグリーン",
+      "ko": "염료: 진녹색"
     }
   },
   {
@@ -1816,7 +1945,8 @@
       "de": "Koboldbrauner Farbstoff",
       "en": "Kobold Brown Dye",
       "fr": "Teinture brun kobold",
-      "ja": "カララント:コボルドブラウン"
+      "ja": "カララント:コボルドブラウン",
+      "ko": "염료: 코볼드색"
     }
   },
   {
@@ -1830,7 +1960,8 @@
       "de": "Lehmbrauner Farbstoff",
       "en": "Loam Brown Dye",
       "fr": "Teinture brun argile",
-      "ja": "カララント:ロームブラウン"
+      "ja": "カララント:ロームブラウン",
+      "ko": "염료: 비옥토색"
     }
   },
   {
@@ -1844,7 +1975,8 @@
       "de": "Lotusrosa Farbstoff",
       "en": "Lotus Pink Dye",
       "fr": "Teinture mauve lotus",
-      "ja": "カララント:ロータスピンク"
+      "ja": "カララント:ロータスピンク",
+      "ko": "염료: 연꽃색"
     }
   },
   {
@@ -1858,7 +1990,8 @@
       "de": "Maisgelber Farbstoff",
       "en": "Millioncorn Yellow Dye",
       "fr": "Teinture jaune milli-maïs",
-      "ja": "カララント:ミリオンコーンイエロー"
+      "ja": "カララント:ミリオンコーンイエロー",
+      "ko": "염료: 옥수수색"
     }
   },
   {
@@ -1872,7 +2005,8 @@
       "de": "Morbolgrüner Farbstoff",
       "en": "Morbol Green Dye",
       "fr": "Teinture vert morbol",
-      "ja": "カララント:モルボルグリーン"
+      "ja": "カララント:モルボルグリーン",
+      "ko": "염료: 몰볼색"
     }
   },
   {
@@ -1886,7 +2020,8 @@
       "de": "Ochugrüner Farbstoff",
       "en": "Ochu Green Dye",
       "fr": "Teinture vert otyugh",
-      "ja": "カララント:オチューグリーン"
+      "ja": "カララント:オチューグリーン",
+      "ko": "염료: 오츄색"
     }
   },
   {
@@ -1900,7 +2035,8 @@
       "de": "Othardblauer Farbstoff",
       "en": "Othard Blue Dye",
       "fr": "Teinture bleu d'Othard",
-      "ja": "カララント:オサードブルー"
+      "ja": "カララント:オサードブルー",
+      "ko": "염료: 오사드 바다색"
     }
   },
   {
@@ -1914,7 +2050,8 @@
       "de": "Pflaumenvioletter Farbstoff",
       "en": "Plum Purple Dye",
       "fr": "Teinture prune",
-      "ja": "カララント:プラムパープル"
+      "ja": "カララント:プラムパープル",
+      "ko": "염료: 매화색"
     }
   },
   {
@@ -1928,7 +2065,8 @@
       "de": "Kürbisoranger Farbstoff",
       "en": "Pumpkin Orange Dye",
       "fr": "Teinture orange citrouille",
-      "ja": "カララント:パンプキンオレンジ"
+      "ja": "カララント:パンプキンオレンジ",
+      "ko": "염료: 늙은호박색"
     }
   },
   {
@@ -1942,7 +2080,8 @@
       "de": "Königsvioletter Farbstoff",
       "en": "Regal Purple Dye",
       "fr": "Teinture byzantium",
-      "ja": "カララント:リーガルパープル"
+      "ja": "カララント:リーガルパープル",
+      "ko": "염료: 자주색"
     }
   },
   {
@@ -1956,7 +2095,8 @@
       "de": "Notenrolle von „Riptide“",
       "en": "Riptide Orchestrion Roll",
       "fr": "Rouleau \"Riptide\"",
-      "ja": "オーケストリオン譜:潮衝"
+      "ja": "オーケストリオン譜:潮衝",
+      "ko": "오케스트리온 악보: Riptide"
     }
   },
   {
@@ -1970,7 +2110,8 @@
       "de": "Königsblauer Farbstoff",
       "en": "Royal Blue Dye",
       "fr": "Teinture bleu royal",
-      "ja": "カララント:ロイヤルブルー"
+      "ja": "カララント:ロイヤルブルー",
+      "ko": "염료: 감청색"
     }
   },
   {
@@ -1984,7 +2125,8 @@
       "de": "Schneeweißer Farbstoff",
       "en": "Snow White Dye",
       "fr": "Teinture blanc neige",
-      "ja": "カララント:スノウホワイト"
+      "ja": "カララント:スノウホワイト",
+      "ko": "염료: 하얀 눈색"
     }
   },
   {
@@ -1998,7 +2140,8 @@
       "de": "Rußschwarzer Farbstoff",
       "en": "Soot Black Dye",
       "fr": "Teinture noir suie",
-      "ja": "カララント:スートブラック"
+      "ja": "カララント:スートブラック",
+      "ko": "염료: 숯검정색"
     }
   },
   {
@@ -2012,7 +2155,8 @@
       "de": "Revitali EX",
       "en": "Spine Drops",
       "fr": "Potion d'animation",
-      "ja": "元気薬"
+      "ja": "元気薬",
+      "ko": "이완제"
     }
   },
   {
@@ -2026,7 +2170,8 @@
       "de": "Steinboden",
       "en": "Stone Flooring",
       "fr": "Parquet en pierre",
-      "ja": "ストーンフローリング"
+      "ja": "ストーンフローリング",
+      "ko": "돌 바닥"
     }
   },
   {
@@ -2040,7 +2185,8 @@
       "de": "Stein-Innenwand",
       "en": "Stone Interior Wall",
       "fr": "Revêtement mural en pierre",
-      "ja": "ストーンインナーウォール"
+      "ja": "ストーンインナーウォール",
+      "ko": "돌 내벽"
     }
   },
   {
@@ -2054,7 +2200,8 @@
       "de": "Sturmblauer Farbstoff",
       "en": "Storm Blue Dye",
       "fr": "Teinture bleu tempête",
-      "ja": "カララント:ストームブルー"
+      "ja": "カララント:ストームブルー",
+      "ko": "염료: 선명한 파란색"
     }
   },
   {
@@ -2068,7 +2215,8 @@
       "de": "Abendroter Farbstoff",
       "en": "Sunset Orange Dye",
       "fr": "Teinture orange couchant",
-      "ja": "カララント:サンセットオレンジ"
+      "ja": "カララント:サンセットオレンジ",
+      "ko": "염료: 노을색"
     }
   },
   {
@@ -2082,7 +2230,8 @@
       "de": "Notenrolle von „The Dark's Embrace“",
       "en": "The Dark's Embrace Orchestrion Roll",
       "fr": "Rouleau \"The Dark's Embrace\"",
-      "ja": "オーケストリオン譜:闇の抱擁"
+      "ja": "オーケストリオン譜:闇の抱擁",
+      "ko": "오케스트리온 악보: The Dark's Embrace"
     }
   },
   {
@@ -2096,7 +2245,8 @@
       "de": "Nichtsblauer Farbstoff",
       "en": "Void Blue Dye",
       "fr": "Teinture bleu du néant",
-      "ja": "カララント:ヴォイドブルー"
+      "ja": "カララント:ヴォイドブルー",
+      "ko": "염료: 보이드의 파란색"
     }
   },
   {
@@ -2110,7 +2260,8 @@
       "de": "Weinroter Farbstoff",
       "en": "Wine Red Dye",
       "fr": "Teinture lie-de-vin",
-      "ja": "カララント:ワインレッド"
+      "ja": "カララント:ワインレッド",
+      "ko": "염료: 포도주색"
     }
   },
   {
@@ -2124,7 +2275,8 @@
       "de": "Indigoblauer Farbstoff",
       "en": "Woad Blue Dye",
       "fr": "Teinture bleu guède",
-      "ja": "カララント:ウォードブルー"
+      "ja": "カララント:ウォードブルー",
+      "ko": "염료: 쪽빛 파란색"
     }
   },
   {
@@ -2138,7 +2290,8 @@
       "de": "Supertrank der Geschicklichkeit",
       "en": "Hi-Potion of Dexterity",
       "fr": "Décoction de dextérité",
-      "ja": "眼力の妙薬"
+      "ja": "眼力の妙薬",
+      "ko": "민첩성의 묘약"
     }
   },
   {
@@ -2152,7 +2305,8 @@
       "de": "Supertrank der Willenskraft",
       "en": "Hi-Potion of Mind",
       "fr": "Décoction d'esprit",
-      "ja": "心力の妙薬"
+      "ja": "心力の妙薬",
+      "ko": "정신력의 묘약"
     }
   },
   {
@@ -2166,7 +2320,8 @@
       "de": "Oasen-Wandverkleidung",
       "en": "Oasis Interior Wall",
       "fr": "Revêtement mural thanalanais",
-      "ja": "ザナラーン・インナーウォール"
+      "ja": "ザナラーン・インナーウォール",
+      "ko": "다날란 내벽"
     }
   },
   {
@@ -2180,7 +2335,8 @@
       "de": "Schwarzer Feuersand",
       "en": "Black Firesand",
       "fr": "Sable noir incandescent",
-      "ja": "黒色火薬"
+      "ja": "黒色火薬",
+      "ko": "흑색 화약"
     }
   },
   {
@@ -2194,7 +2350,8 @@
       "de": "Supertrank der Intelligenz",
       "en": "Hi-Potion of Intelligence",
       "fr": "Décoction d'intelligence",
-      "ja": "知力の妙薬"
+      "ja": "知力の妙薬",
+      "ko": "지능의 묘약"
     }
   },
   {
@@ -2208,7 +2365,8 @@
       "de": "Supertrank der Konstitution",
       "en": "Hi-Potion of Vitality",
       "fr": "Décoction de vitalité",
-      "ja": "活力の妙薬"
+      "ja": "活力の妙薬",
+      "ko": "활력의 묘약"
     }
   },
   {
@@ -2222,7 +2380,8 @@
       "de": "Magische Mithriltinte",
       "en": "Enchanted Mythril Ink",
       "fr": "Encre de mithril enchantée",
-      "ja": "ミスリルエンチャントインク"
+      "ja": "ミスリルエンチャントインク",
+      "ko": "미스릴 마법 잉크"
     }
   },
   {
@@ -2236,7 +2395,8 @@
       "de": "Supertrank der Stärke",
       "en": "Hi-Potion of Strength",
       "fr": "Décoction de force",
-      "ja": "剛力の妙薬"
+      "ja": "剛力の妙薬",
+      "ko": "힘의 묘약"
     }
   },
   {
@@ -2250,7 +2410,8 @@
       "de": "Moosiger Konglomeratbrocken",
       "en": "Mossy Rock",
       "fr": "Pierre moussue",
-      "ja": "苔むした庭石"
+      "ja": "苔むした庭石",
+      "ko": "이끼 낀 정원석"
     }
   },
   {
@@ -2264,7 +2425,8 @@
       "de": "Mecardonia-Stock",
       "en": "Potted Axilflower",
       "fr": "Vasque de mercadonies",
-      "ja": "アクシルフラワーの鉢植"
+      "ja": "アクシルフラワーの鉢植",
+      "ko": "입금화 화분"
     }
   },
   {
@@ -2278,7 +2440,8 @@
       "de": "Azalee",
       "en": "Potted Azalea",
       "fr": "Pot d'azalées",
-      "ja": "アザレアの鉢植"
+      "ja": "アザレアの鉢植",
+      "ko": "철쭉 화분"
     }
   },
   {
@@ -2292,7 +2455,8 @@
       "de": "Grünlilie",
       "en": "Potted Spider Plant",
       "fr": "Pot de phalangère",
-      "ja": "スパイダープラントの鉢植"
+      "ja": "スパイダープラントの鉢植",
+      "ko": "접란 화분"
     }
   },
   {
@@ -2306,7 +2470,8 @@
       "de": "Buch des Silbers",
       "en": "Book of Silver",
       "fr": "Livre en argent",
-      "ja": "ブック・オブ・シルバー"
+      "ja": "ブック・オブ・シルバー",
+      "ko": "은제 책"
     }
   },
   {
@@ -2320,7 +2485,8 @@
       "de": "Fünfblättriger Eibenzweig",
       "en": "Budding Yew Wand",
       "fr": "Baguette en if bourgeonnant",
-      "ja": "バッデッドユーワンド"
+      "ja": "バッデッドユーワンド",
+      "ko": "어린잎 주목나무 마법봉"
     }
   },
   {
@@ -2334,7 +2500,8 @@
       "de": "Erdtrank",
       "en": "Earth Ward Potion",
       "fr": "Potion géofuge",
-      "ja": "防土の薬"
+      "ja": "防土の薬",
+      "ko": "방토의 약"
     }
   },
   {
@@ -2348,7 +2515,8 @@
       "de": "Feuertrank",
       "en": "Fire Ward Potion",
       "fr": "Potion ignifuge",
-      "ja": "防火の薬"
+      "ja": "防火の薬",
+      "ko": "방화의 약"
     }
   },
   {
@@ -2362,7 +2530,8 @@
       "de": "Eistrank",
       "en": "Ice Ward Potion",
       "fr": "Potion frigifuge",
-      "ja": "防氷の薬"
+      "ja": "防氷の薬",
+      "ko": "방빙의 약"
     }
   },
   {
@@ -2376,7 +2545,8 @@
       "de": "Blitztrank",
       "en": "Lightning Ward Potion",
       "fr": "Potion électrofuge",
-      "ja": "防雷の薬"
+      "ja": "防雷の薬",
+      "ko": "방뢰의 약"
     }
   },
   {
@@ -2390,7 +2560,8 @@
       "de": "Eichen-Blumenkübel",
       "en": "Oak Low Barrel Planter",
       "fr": "Jardinière bas-tonneau en chêne",
-      "ja": "オーク・ロウバレルプランター"
+      "ja": "オーク・ロウバレルプランター",
+      "ko": "작은 떡갈나무통 화분"
     }
   },
   {
@@ -2404,7 +2575,8 @@
       "de": "Wassertrank",
       "en": "Water Ward Potion",
       "fr": "Potion hydrofuge",
-      "ja": "防水の薬"
+      "ja": "防水の薬",
+      "ko": "방수의 약"
     }
   },
   {
@@ -2418,7 +2590,8 @@
       "de": "Windtrank",
       "en": "Wind Ward Potion",
       "fr": "Potion aérofuge",
-      "ja": "防風の薬"
+      "ja": "防風の薬",
+      "ko": "방풍의 약"
     }
   },
   {
@@ -2432,11 +2605,11 @@
       "de": "Super-Äther",
       "en": "Hi-Ether",
       "fr": "Super éther",
-      "ja": "ハイエーテル"
+      "ja": "ハイエーテル",
+      "ko": "하이 에테르"
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2447,7 +2620,8 @@
       "de": "Wahndolche",
       "en": "Maddening Daggers",
       "fr": "Dagues enrageantes",
-      "ja": "フレンジーダガー"
+      "ja": "フレンジーダガー",
+      "ko": "광란의 단검"
     }
   },
   {
@@ -2461,7 +2635,8 @@
       "de": "Paralysierender Trunk",
       "en": "Paralyzing Potion",
       "fr": "Potion paralysante forte",
-      "ja": "麻痺の猛毒薬"
+      "ja": "麻痺の猛毒薬",
+      "ko": "마비의 맹독약"
     }
   },
   {
@@ -2475,7 +2650,8 @@
       "de": "Vergifteter Trunk",
       "en": "Poisoning Potion",
       "fr": "Potion toxique forte",
-      "ja": "猛毒薬"
+      "ja": "猛毒薬",
+      "ko": "맹독약"
     }
   },
   {
@@ -2489,11 +2665,11 @@
       "de": "Runder Busch",
       "en": "Rounded Shrub",
       "fr": "Arbuste rond",
-      "ja": "玉刈生垣"
+      "ja": "玉刈生垣",
+      "ko": "둥근 정원수"
     }
   },
   {
-    "aspect": "Water",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2504,7 +2680,8 @@
       "de": "Restauriertes Picatrix",
       "en": "Vintage Picatrix",
       "fr": "Picatrix de collection",
-      "ja": "ヴィンテージピカトリクス"
+      "ja": "ヴィンテージピカトリクス",
+      "ko": "고풍스러운 비술서"
     }
   },
   {
@@ -2518,7 +2695,8 @@
       "de": "Blendender Trunk",
       "en": "Blinding Potion",
       "fr": "Potion aveuglante forte",
-      "ja": "暗闇の猛毒薬"
+      "ja": "暗闇の猛毒薬",
+      "ko": "실명의 맹독약"
     }
   },
   {
@@ -2532,7 +2710,8 @@
       "de": "Riviera-Holzhausdach",
       "en": "Riviera House Roof (Wood)",
       "fr": "Toit de pavillon en bois noscéen",
-      "ja": "ラノシアン・ウッドハウス・ルーフ"
+      "ja": "ラノシアン・ウッドハウス・ルーフ",
+      "ko": "해변의 목조 주택 지붕"
     }
   },
   {
@@ -2546,7 +2725,8 @@
       "de": "Einschläfernder Trunk",
       "en": "Sleeping Potion",
       "fr": "Potion soporifique forte",
-      "ja": "睡眠の猛毒薬"
+      "ja": "睡眠の猛毒薬",
+      "ko": "수면의 맹독약"
     }
   },
   {
@@ -2560,7 +2740,8 @@
       "de": "Lotos-Schirm",
       "en": "Lotus Parasol",
       "fr": "Parasol lotus",
-      "ja": "ロータスパラソル"
+      "ja": "ロータスパラソル",
+      "ko": "연꽃 파라솔"
     }
   },
   {
@@ -2574,7 +2755,8 @@
       "de": "Verstummender Trunk",
       "en": "Silencing Potion",
       "fr": "Potion aphonisante forte",
-      "ja": "沈黙の猛毒薬"
+      "ja": "沈黙の猛毒薬",
+      "ko": "침묵의 맹독약"
     }
   },
   {
@@ -2588,7 +2770,8 @@
       "de": "Fünfblättriger Eichenzweig",
       "en": "Budding Oak Wand",
       "fr": "Baguette en chêne bourgeonnant",
-      "ja": "バッデッドオークワンド"
+      "ja": "バッデッドオークワンド",
+      "ko": "어린잎 떡갈나무 마법봉"
     }
   },
   {
@@ -2602,7 +2785,8 @@
       "de": "Geprägtes Buch des Silbers",
       "en": "Embossed Book of Silver",
       "fr": "Livre en argent renforcé",
-      "ja": "ブック・オブ・シルバーDX"
+      "ja": "ブック・オブ・シルバーDX",
+      "ko": "강화 은제 책"
     }
   },
   {
@@ -2616,7 +2800,8 @@
       "de": "Glasierter Ziegelstein",
       "en": "Clinker Bricks",
       "fr": "Brique klinker",
-      "ja": "焼過煉瓦"
+      "ja": "焼過煉瓦",
+      "ko": "내화벽돌"
     }
   },
   {
@@ -2630,7 +2815,8 @@
       "de": "Pflanzen-Raumteiler",
       "en": "Planter Partition",
       "fr": "Cloison verdoyante",
-      "ja": "プランターパーティション"
+      "ja": "プランターパーティション",
+      "ko": "화분 칸막이"
     }
   },
   {
@@ -2644,7 +2830,8 @@
       "de": "Frostzweig",
       "en": "Wand of Frost",
       "fr": "Baguette de la glace",
-      "ja": "アイスワンド"
+      "ja": "アイスワンド",
+      "ko": "얼음 마법봉"
     }
   },
   {
@@ -2658,7 +2845,8 @@
       "de": "Wellenzweig",
       "en": "Wand of Tides",
       "fr": "Baguette de l'eau",
-      "ja": "ウォーターワンド"
+      "ja": "ウォーターワンド",
+      "ko": "물 마법봉"
     }
   },
   {
@@ -2672,7 +2860,8 @@
       "de": "Bebenzweig",
       "en": "Wand of Tremors",
       "fr": "Baguette de la terre",
-      "ja": "アースワンド"
+      "ja": "アースワンド",
+      "ko": "땅 마법봉"
     }
   },
   {
@@ -2686,7 +2875,8 @@
       "de": "Wald-Komposithausdach",
       "en": "Glade House Roof (Composite)",
       "fr": "Toit de pavillon composite sombrelinçois",
-      "ja": "シュラウド・コンポジットハウス・ルーフ"
+      "ja": "シュラウド・コンポジットハウス・ルーフ",
+      "ko": "숲속의 복합조 주택 지붕"
     }
   },
   {
@@ -2700,7 +2890,8 @@
       "de": "Lanolin",
       "en": "Lanolin",
       "fr": "Lanoline",
-      "ja": "ラノリン"
+      "ja": "ラノリン",
+      "ko": "라놀린"
     }
   },
   {
@@ -2714,7 +2905,8 @@
       "de": "Muntermacher",
       "en": "Smelling Salts",
       "fr": "Potion de réveil",
-      "ja": "きつけ薬"
+      "ja": "きつけ薬",
+      "ko": "각성제"
     }
   },
   {
@@ -2728,7 +2920,8 @@
       "de": "Haifischtran",
       "en": "Shark Oil",
       "fr": "Huile de requin",
-      "ja": "シャークオイル"
+      "ja": "シャークオイル",
+      "ko": "상어 기름"
     }
   },
   {
@@ -2742,7 +2935,8 @@
       "de": "Lack",
       "en": "Varnish",
       "fr": "Vernis",
-      "ja": "ワニス"
+      "ja": "ワニス",
+      "ko": "바니시"
     }
   },
   {
@@ -2756,7 +2950,8 @@
       "de": "Eingetopfte Wasserlilie",
       "en": "Water Lilies",
       "fr": "Nénuphar en pot",
-      "ja": "睡蓮の水鉢"
+      "ja": "睡蓮の水鉢",
+      "ko": "수련 화분"
     }
   },
   {
@@ -2770,7 +2965,8 @@
       "de": "Mithrilbuch",
       "en": "Book of Mythril",
       "fr": "Livre en mithril",
-      "ja": "ブック・オブ・ミスリル"
+      "ja": "ブック・オブ・ミスリル",
+      "ko": "미스릴 책"
     }
   },
   {
@@ -2784,7 +2980,8 @@
       "de": "Magische Elektrumtinte",
       "en": "Enchanted Electrum Ink",
       "fr": "Encre d'électrum enchantée",
-      "ja": "エレクトラムエンチャントインク"
+      "ja": "エレクトラムエンチャントインク",
+      "ko": "호박금 마법 잉크"
     }
   },
   {
@@ -2798,7 +2995,8 @@
       "de": "Megatrank",
       "en": "Mega-Potion",
       "fr": "Méga potion",
-      "ja": "メガポーション"
+      "ja": "メガポーション",
+      "ko": "메가 포션"
     }
   },
   {
@@ -2812,7 +3010,8 @@
       "de": "Sylphen-Blumenvase",
       "en": "Sylphic Flower Vase",
       "fr": "Vase de fleurs sylphe",
-      "ja": "シルフフラワーベース"
+      "ja": "シルフフラワーベース",
+      "ko": "실프 꽃병"
     }
   },
   {
@@ -2826,7 +3025,8 @@
       "de": "Megatrank der Willenskraft",
       "en": "Mega-Potion of Mind",
       "fr": "Essence d'esprit",
-      "ja": "心力の秘薬"
+      "ja": "心力の秘薬",
+      "ko": "정신력의 비약"
     }
   },
   {
@@ -2840,7 +3040,8 @@
       "de": "Buch des Elektrums",
       "en": "Book of Electrum",
       "fr": "Livre en électrum",
-      "ja": "ブック・オブ・エレクトラム"
+      "ja": "ブック・オブ・エレクトラム",
+      "ko": "호박금 책"
     }
   },
   {
@@ -2854,7 +3055,8 @@
       "de": "Megatrank der Intelligenz",
       "en": "Mega-Potion of Intelligence",
       "fr": "Essence d'intelligence",
-      "ja": "知力の秘薬"
+      "ja": "知力の秘薬",
+      "ko": "지능의 비약"
     }
   },
   {
@@ -2868,7 +3070,8 @@
       "de": "Megatrank der Stärke",
       "en": "Mega-Potion of Strength",
       "fr": "Essence de force",
-      "ja": "剛力の秘薬"
+      "ja": "剛力の秘薬",
+      "ko": "힘의 비약"
     }
   },
   {
@@ -2882,7 +3085,8 @@
       "de": "Pflanzkiste",
       "en": "Planter Box",
       "fr": "Bac à fleurs",
-      "ja": "ボックスプランター"
+      "ja": "ボックスプランター",
+      "ko": "상자 화분"
     }
   },
   {
@@ -2896,7 +3100,8 @@
       "de": "Flammenzweig",
       "en": "Wand of Flames",
       "fr": "Baguette du feu",
-      "ja": "ファイアワンド"
+      "ja": "ファイアワンド",
+      "ko": "불 마법봉"
     }
   },
   {
@@ -2910,7 +3115,8 @@
       "de": "Orkanzweig",
       "en": "Wand of Gales",
       "fr": "Baguette du vent",
-      "ja": "ウィンドワンド"
+      "ja": "ウィンドワンド",
+      "ko": "바람 마법봉"
     }
   },
   {
@@ -2924,7 +3130,8 @@
       "de": "Gewitterzweig",
       "en": "Wand of Storms",
       "fr": "Baguette de la foudre",
-      "ja": "サンダーワンド"
+      "ja": "サンダーワンド",
+      "ko": "번개 마법봉"
     }
   },
   {
@@ -2938,7 +3145,8 @@
       "de": "Goldklamm-Blutblüten",
       "en": "Bloodblossoms",
       "fr": "Parterre de boutons-de-sang du Val",
-      "ja": "オーラムヴェイルの鮮血草"
+      "ja": "オーラムヴェイルの鮮血草",
+      "ko": "금빛 골짜기의 선혈초"
     }
   },
   {
@@ -2952,7 +3160,8 @@
       "de": "Goldnadel",
       "en": "Gold Needle",
       "fr": "Épingle d'or",
-      "ja": "金の針"
+      "ja": "金の針",
+      "ko": "금침"
     }
   },
   {
@@ -2966,7 +3175,8 @@
       "de": "Megatrank der Geschicklichkeit",
       "en": "Mega-Potion of Dexterity",
       "fr": "Essence de dextérité",
-      "ja": "眼力の秘薬"
+      "ja": "眼力の秘薬",
+      "ko": "민첩성의 비약"
     }
   },
   {
@@ -2980,7 +3190,8 @@
       "de": "Megatrank der Konstitution",
       "en": "Mega-Potion of Vitality",
       "fr": "Essence de vitalité",
-      "ja": "活力の秘薬"
+      "ja": "活力の秘薬",
+      "ko": "활력의 비약"
     }
   },
   {
@@ -2994,7 +3205,8 @@
       "de": "Stark paralysierender Trunk",
       "en": "Potent Paralyzing Potion",
       "fr": "Potion paralysante ultra-puissante",
-      "ja": "麻痺の劇毒薬"
+      "ja": "麻痺の劇毒薬",
+      "ko": "마비의 극독약"
     }
   },
   {
@@ -3008,7 +3220,8 @@
       "de": "Stark vergifteter Trunk",
       "en": "Potent Poisoning Potion",
       "fr": "Potion toxique ultra-puissante",
-      "ja": "劇毒薬"
+      "ja": "劇毒薬",
+      "ko": "극독약"
     }
   },
   {
@@ -3022,7 +3235,8 @@
       "de": "Stark verstummender Trunk",
       "en": "Potent Silencing Potion",
       "fr": "Potion aphonisante ultra-puissante",
-      "ja": "沈黙の劇毒薬"
+      "ja": "沈黙の劇毒薬",
+      "ko": "침묵의 극독약"
     }
   },
   {
@@ -3036,7 +3250,8 @@
       "de": "Stark einschläfernder Trunk",
       "en": "Potent Sleeping Potion",
       "fr": "Potion soporifique ultra-puissante",
-      "ja": "睡眠の劇毒薬"
+      "ja": "睡眠の劇毒薬",
+      "ko": "수면의 극독약"
     }
   },
   {
@@ -3050,7 +3265,8 @@
       "de": "Fünfblättriger Palisanderzweig",
       "en": "Budding Rosewood Wand",
       "fr": "Baguette en palissandre bourgeonnant",
-      "ja": "バッデッドローズワンド"
+      "ja": "バッデッドローズワンド",
+      "ko": "어린잎 자단나무 마법봉"
     }
   },
   {
@@ -3064,7 +3280,8 @@
       "de": "Todfinger-Strauch",
       "en": "Death's Fingers",
       "fr": "Massif de cornouiller squelette du Val",
-      "ja": "オーラムヴェイルの白骨樹"
+      "ja": "オーラムヴェイルの白骨樹",
+      "ko": "금빛 골짜기의 백골나무"
     }
   },
   {
@@ -3078,7 +3295,8 @@
       "de": "Geprägtes Buch des Elektrums",
       "en": "Embossed Book of Electrum",
       "fr": "Livre en électrum renforcé",
-      "ja": "ブック・オブ・エレクトラムDX"
+      "ja": "ブック・オブ・エレクトラムDX",
+      "ko": "강화 호박금 책"
     }
   },
   {
@@ -3092,7 +3310,8 @@
       "de": "Stark blendender Trunk",
       "en": "Potent Blinding Potion",
       "fr": "Potion aveuglante ultra-puissante",
-      "ja": "暗闇の劇毒薬"
+      "ja": "暗闇の劇毒薬",
+      "ko": "실명의 극독약"
     }
   },
   {
@@ -3106,7 +3325,8 @@
       "de": "Notenrolle von „A World Apart“",
       "en": "A World Apart Orchestrion Roll",
       "fr": "Rouleau \"A World Apart\"",
-      "ja": "オーケストリオン譜:そして世界へ"
+      "ja": "オーケストリオン譜:そして世界へ",
+      "ko": "오케스트리온 악보: A World Apart"
     }
   },
   {
@@ -3120,7 +3340,8 @@
       "de": "Ätherdämmendes Gefäß",
       "en": "Aetheric Shielding",
       "fr": "Récipient éthéroscellé",
-      "ja": "絶霊体容器"
+      "ja": "絶霊体容器",
+      "ko": "절령체 용기"
     }
   },
   {
@@ -3134,7 +3355,8 @@
       "de": "Notenrolle von „Another Round“",
       "en": "Another Round Orchestrion Roll",
       "fr": "Rouleau \"Another Round\"",
-      "ja": "オーケストリオン譜:もう一杯！"
+      "ja": "オーケストリオン譜:もう一杯！",
+      "ko": "오케스트리온 악보: Another Round"
     }
   },
   {
@@ -3148,7 +3370,8 @@
       "de": "Drachengabe",
       "en": "Austere Offering",
       "fr": "Cadeau pour dragons",
-      "ja": "竜族報酬品"
+      "ja": "竜族報酬品",
+      "ko": "드래곤족 보상품"
     }
   },
   {
@@ -3162,7 +3385,8 @@
       "de": "Korbkomponente",
       "en": "Basket Component",
       "fr": "Matériel de vannerie",
-      "ja": "編みカゴ部材"
+      "ja": "編みカゴ部材",
+      "ko": "나무 바구니 부재"
     }
   },
   {
@@ -3176,7 +3400,8 @@
       "de": "Wolkenmeer-Köder",
       "en": "Cloudfish Lure",
       "fr": "Leurre spécial",
-      "ja": "雲海釣餌"
+      "ja": "雲海釣餌",
+      "ko": "구름바다 미끼"
     }
   },
   {
@@ -3190,7 +3415,8 @@
       "de": "Landhaus-Marmorboden",
       "en": "Country Flooring",
       "fr": "Parquet rustique",
-      "ja": "カントリーフローリング"
+      "ja": "カントリーフローリング",
+      "ko": "전원주택 바닥"
     }
   },
   {
@@ -3204,7 +3430,8 @@
       "de": "Landhaus-Innenwand",
       "en": "Country Interior Wall",
       "fr": "Revêtement mural rustique",
-      "ja": "カントリーインナーウォール"
+      "ja": "カントリーインナーウォール",
+      "ko": "전원주택 내벽"
     }
   },
   {
@@ -3218,7 +3445,8 @@
       "de": "Schuppenfeile",
       "en": "Dragonscale Rasp",
       "fr": "Racloir en écaille de dragon",
-      "ja": "竜鱗ヤスリ"
+      "ja": "竜鱗ヤスリ",
+      "ko": "용비늘 줄톱"
     }
   },
   {
@@ -3232,7 +3460,8 @@
       "de": "Erd-Supertrank",
       "en": "Earth Ward Hi-Potion",
       "fr": "Décoction géofuge",
-      "ja": "防土の妙薬"
+      "ja": "防土の妙薬",
+      "ko": "방토의 묘약"
     }
   },
   {
@@ -3246,7 +3475,8 @@
       "de": "Elixier",
       "en": "Elixir",
       "fr": "Élixir",
-      "ja": "エリクサー"
+      "ja": "エリクサー",
+      "ko": "엘릭서"
     }
   },
   {
@@ -3260,7 +3490,8 @@
       "de": "Rauchbombe",
       "en": "Exploding Kupo Nut",
       "fr": "Noix de kupo fumigène",
-      "ja": "煙幕の実"
+      "ja": "煙幕の実",
+      "ko": "연막 열매"
     }
   },
   {
@@ -3274,7 +3505,8 @@
       "de": "Falsche Kupo-Nuss",
       "en": "Fake Kupo Nut",
       "fr": "Fausse noix de kupo",
-      "ja": "ニセの実"
+      "ja": "ニセの実",
+      "ko": "가짜 열매"
     }
   },
   {
@@ -3288,7 +3520,8 @@
       "de": "Feuer-Supertrank",
       "en": "Fire Ward Hi-Potion",
       "fr": "Décoction ignifuge",
-      "ja": "防火の妙薬"
+      "ja": "防火の妙薬",
+      "ko": "방화의 묘약"
     }
   },
   {
@@ -3302,7 +3535,8 @@
       "de": "Fundamentmaterial",
       "en": "Foundation Component",
       "fr": "Matériel pour les fondations",
-      "ja": "基礎工事資材"
+      "ja": "基礎工事資材",
+      "ko": "기초공사 자재"
     }
   },
   {
@@ -3316,7 +3550,8 @@
       "de": "Komponente für die Werkzeugreparatur",
       "en": "Gathering Tool Component",
       "fr": "Matériel de réparation",
-      "ja": "採集道具補材"
+      "ja": "採集道具補材",
+      "ko": "채집도구 보강재"
     }
   },
   {
@@ -3330,7 +3565,8 @@
       "de": "Trötenkomponente",
       "en": "Horn Component",
       "fr": "Composant de clairon",
-      "ja": "すんごいラッパ部材"
+      "ja": "すんごいラッパ部材",
+      "ko": "엄청난 나팔 부재"
     }
   },
   {
@@ -3344,7 +3580,8 @@
       "de": "Eis-Supertrank",
       "en": "Ice Ward Hi-Potion",
       "fr": "Décoction frigifuge",
-      "ja": "防氷の妙薬"
+      "ja": "防氷の妙薬",
+      "ko": "방빙의 묘약"
     }
   },
   {
@@ -3358,7 +3595,8 @@
       "de": "Bestandteil einer Mahlzeit",
       "en": "Ishgardian Cuisine Miscellany",
       "fr": "Élément de plateau-repas",
-      "ja": "晩餐不足品"
+      "ja": "晩餐不足品",
+      "ko": "만찬용 물품"
     }
   },
   {
@@ -3372,7 +3610,8 @@
       "de": "Große Pflanzkiste",
       "en": "Large Planter Box",
       "fr": "Grand bac à fleurs",
-      "ja": "ラージボックスプランター"
+      "ja": "ラージボックスプランター",
+      "ko": "대형 상자 화분"
     }
   },
   {
@@ -3386,7 +3625,8 @@
       "de": "Blitz-Supertrank",
       "en": "Lightning Ward Hi-Potion",
       "fr": "Décoction électrofuge",
-      "ja": "防雷の妙薬"
+      "ja": "防雷の妙薬",
+      "ko": "방뢰의 묘약"
     }
   },
   {
@@ -3400,7 +3640,8 @@
       "de": "Miniatur-Luftschiff",
       "en": "Makeshift Toy Airship",
       "fr": "Maquette d'aéronef",
-      "ja": "飛空艇模型"
+      "ja": "飛空艇模型",
+      "ko": "비공정 모형"
     }
   },
   {
@@ -3414,7 +3655,8 @@
       "de": "Mega-Äther",
       "en": "Mega-Ether",
       "fr": "Méga éther",
-      "ja": "メガエーテル"
+      "ja": "メガエーテル",
+      "ko": "메가 에테르"
     }
   },
   {
@@ -3428,7 +3670,8 @@
       "de": "Küchenartikel",
       "en": "Mogstew Miscellany",
       "fr": "Matériaux gastronomiques",
-      "ja": "調理不足品"
+      "ja": "調理不足品",
+      "ko": "요리용 물품"
     }
   },
   {
@@ -3442,7 +3685,8 @@
       "de": "Kleine Belohnung",
       "en": "Moogle Mollifier",
       "fr": "Cadeau personnalisé",
-      "ja": "特製ご褒美"
+      "ja": "特製ご褒美",
+      "ko": "특별한 상품"
     }
   },
   {
@@ -3456,7 +3700,8 @@
       "de": "Mogry-Figur",
       "en": "Moogle Statuette",
       "fr": "Statuette de Mog",
-      "ja": "彫像見本品"
+      "ja": "彫像見本品",
+      "ko": "조각상 견본"
     }
   },
   {
@@ -3470,7 +3715,8 @@
       "de": "Mogry-Werkzeugkomponente",
       "en": "Moogle Tool Component",
       "fr": "Composant de marteau spécial Mog",
-      "ja": "モーグリ用道具部材"
+      "ja": "モーグリ用道具部材",
+      "ko": "모그리용 도구 부재"
     }
   },
   {
@@ -3484,7 +3730,8 @@
       "de": "Verwendbares Baumaterial",
       "en": "Repurposed Construction Component",
       "fr": "Matériel de construction",
-      "ja": "再生済み建築資材"
+      "ja": "再生済み建築資材",
+      "ko": "재생된 건축 자재"
     }
   },
   {
@@ -3498,7 +3745,8 @@
       "de": "Einzelteil für die Schneidemaschine",
       "en": "Shearing Machine Component",
       "fr": "Composant de machine à inciser",
-      "ja": "裁断機部材"
+      "ja": "裁断機部材",
+      "ko": "재단기 부재"
     }
   },
   {
@@ -3512,7 +3760,8 @@
       "de": "Steinstatuenkomponente",
       "en": "Statue Supplies",
       "fr": "Composant de statue",
-      "ja": "石像修復用部材"
+      "ja": "石像修復用部材",
+      "ko": "석상 복구용 부재"
     }
   },
   {
@@ -3526,7 +3775,8 @@
       "de": "Formvollendete Steinblock-Vorlage",
       "en": "Stonemasonry Supplies",
       "fr": "Pierre de référence",
-      "ja": "調整された石材"
+      "ja": "調整された石材",
+      "ko": "조정된 석재"
     }
   },
   {
@@ -3540,7 +3790,8 @@
       "de": "Gedenktafelkomponente",
       "en": "Tablet Supplies",
       "fr": "Composant de plaque commémorative",
-      "ja": "銘板仕上げ部材"
+      "ja": "銘板仕上げ部材",
+      "ko": "명판 마감 부재"
     }
   },
   {
@@ -3554,7 +3805,8 @@
       "de": "Tane Mahuta",
       "en": "Tane Mahuta",
       "fr": "Tane Mahuta",
-      "ja": "タネ・マフタ"
+      "ja": "タネ・マフタ",
+      "ko": "타네 마후타"
     }
   },
   {
@@ -3568,7 +3820,8 @@
       "de": "Notenrolle von „The Only Path“",
       "en": "The Only Path Orchestrion Roll",
       "fr": "Rouleau \"The Only Path\"",
-      "ja": "オーケストリオン譜:ただひとつの道"
+      "ja": "オーケストリオン譜:ただひとつの道",
+      "ko": "오케스트리온 악보: The Only Path"
     }
   },
   {
@@ -3582,7 +3835,8 @@
       "de": "Übungsmaterial",
       "en": "Training Supplies",
       "fr": "Matériel d'entraînement",
-      "ja": "訓練用部材"
+      "ja": "訓練用部材",
+      "ko": "훈련용 부재"
     }
   },
   {
@@ -3596,7 +3850,8 @@
       "de": "Flaschenzug-Ersatzteil",
       "en": "Treadwheel Crane Components",
       "fr": "Matériel de réparation de treuil",
-      "ja": "巻き上げ機部材"
+      "ja": "巻き上げ機部材",
+      "ko": "도르래 부재"
     }
   },
   {
@@ -3610,7 +3865,8 @@
       "de": "Werkzeug zur Bodenplattenfärbung",
       "en": "Veneer Component",
       "fr": "Matériel de finition",
-      "ja": "床材加工用品"
+      "ja": "床材加工用品",
+      "ko": "바닥 내장재 가공용품"
     }
   },
   {
@@ -3624,7 +3880,8 @@
       "de": "Werkzeug zur Mauerglättung",
       "en": "Wall Repair Supplies",
       "fr": "Matériel de rénovation de façade",
-      "ja": "壁の補修部材"
+      "ja": "壁の補修部材",
+      "ko": "벽 보수용 부재"
     }
   },
   {
@@ -3638,7 +3895,8 @@
       "de": "Abdichtungskomponente",
       "en": "Water Filter Component",
       "fr": "Composant de fontaine",
-      "ja": "泉水補修材"
+      "ja": "泉水補修材",
+      "ko": "샘물 보수재"
     }
   },
   {
@@ -3652,7 +3910,8 @@
       "de": "Wasser-Supertrank",
       "en": "Water Ward Hi-Potion",
       "fr": "Décoction hydrofuge",
-      "ja": "防水の妙薬"
+      "ja": "防水の妙薬",
+      "ko": "방수의 묘약"
     }
   },
   {
@@ -3666,7 +3925,8 @@
       "de": "Wind-Supertrank",
       "en": "Wind Ward Hi-Potion",
       "fr": "Décoction aérofuge",
-      "ja": "防風の妙薬"
+      "ja": "防風の妙薬",
+      "ko": "방풍의 묘약"
     }
   },
   {
@@ -3680,7 +3940,8 @@
       "de": "Trank gegen Fessel",
       "en": "Bind Ward Potion",
       "fr": "Sérum anti entrave",
-      "ja": "抗呪縛剤"
+      "ja": "抗呪縛剤",
+      "ko": "항속박제"
     },
     "stars": 1
   },
@@ -3695,7 +3956,8 @@
       "de": "Trank gegen Blind",
       "en": "Blind Ward Potion",
       "fr": "Sérum anti cécité",
-      "ja": "抗暗闇剤"
+      "ja": "抗暗闇剤",
+      "ko": "항실명제"
     },
     "stars": 1
   },
@@ -3710,7 +3972,8 @@
       "de": "Magische Goldtinte",
       "en": "Enchanted Gold Ink",
       "fr": "Encre d'or enchantée",
-      "ja": "ゴールドエンチャントインク"
+      "ja": "ゴールドエンチャントインク",
+      "ko": "금 마법 잉크"
     },
     "stars": 1
   },
@@ -3725,7 +3988,8 @@
       "de": "Gelehrten-Grimoire der Magie",
       "en": "Erudite's Picatrix of Casting",
       "fr": "Picatrix d'incantateur de lettré",
-      "ja": "エルダイトキャスターピカトリクス"
+      "ja": "エルダイトキャスターピカトリクス",
+      "ko": "박학한 마술사의 비술서"
     },
     "stars": 1
   },
@@ -3740,7 +4004,8 @@
       "de": "Gelehrten-Grimoire der Heilung",
       "en": "Erudite's Picatrix of Healing",
       "fr": "Picatrix de soigneur de lettré",
-      "ja": "エルダイトヒーラーピカトリクス"
+      "ja": "エルダイトヒーラーピカトリクス",
+      "ko": "박학한 치유사의 비술서"
     },
     "stars": 1
   },
@@ -3755,7 +4020,8 @@
       "de": "Waldpflanzenzaun",
       "en": "Glade Hedgewall",
       "fr": "Haie sombrelinçoise",
-      "ja": "シュラウド・ヘッジウォール"
+      "ja": "シュラウド・ヘッジウォール",
+      "ko": "숲속의 관목 담장"
     },
     "stars": 1
   },
@@ -3770,7 +4036,8 @@
       "de": "Wald-Kompositresidenzdach",
       "en": "Glade Mansion Roof (Composite)",
       "fr": "Toit de villa composite sombrelinçoise",
-      "ja": "シュラウド・コンポジットレジデンス・ルーフ"
+      "ja": "シュラウド・コンポジットレジデンス・ルーフ",
+      "ko": "숲속의 대형 복합조 주택 지붕"
     },
     "stars": 1
   },
@@ -3785,7 +4052,8 @@
       "de": "Wachstumsformel Delta",
       "en": "Growth Formula Delta",
       "fr": "Formule de croissance delta",
-      "ja": "グロースフォーミュラ・デルタ"
+      "ja": "グロースフォーミュラ・デルタ",
+      "ko": "성장 촉진제 델타"
     },
     "stars": 1
   },
@@ -3800,7 +4068,8 @@
       "de": "Trank gegen Gewicht",
       "en": "Heavy Ward Potion",
       "fr": "Sérum anti pesanteur",
-      "ja": "抗重力剤"
+      "ja": "抗重力剤",
+      "ko": "항중력제"
     },
     "stars": 1
   },
@@ -3815,7 +4084,8 @@
       "de": "Ikarus-Schwinge",
       "en": "Icarus Wing",
       "fr": "Aile d'Icare",
-      "ja": "イカロスウィング"
+      "ja": "イカロスウィング",
+      "ko": "이카로스의 날개"
     },
     "stars": 1
   },
@@ -3830,7 +4100,8 @@
       "de": "Flüsternder Stab des Verrückten",
       "en": "Madman's Whispering Rod",
       "fr": "Bâton vivant du dément",
-      "ja": "マッドマンリビングロッド"
+      "ja": "マッドマンリビングロッド",
+      "ko": "광인의 속삭임"
     },
     "stars": 1
   },
@@ -3845,7 +4116,8 @@
       "de": "Trank gegen Gift",
       "en": "Poison Ward Potion",
       "fr": "Sérum antipoison",
-      "ja": "抗毒剤"
+      "ja": "抗毒剤",
+      "ko": "항독제"
     },
     "stars": 1
   },
@@ -3860,7 +4132,8 @@
       "de": "Eingetopfter Drachenbaum",
       "en": "Potted Dragon Tree",
       "fr": "Pot de dragonnier",
-      "ja": "ドラセナの鉢植"
+      "ja": "ドラセナの鉢植",
+      "ko": "용목 화분"
     },
     "stars": 1
   },
@@ -3875,7 +4148,8 @@
       "de": "Topf-Alokasie",
       "en": "Potted Oliphant's Ear",
       "fr": "Pot d'alocasias",
-      "ja": "アロカシアの鉢植"
+      "ja": "アロカシアの鉢植",
+      "ko": "알로카시아 화분"
     },
     "stars": 1
   },
@@ -3890,7 +4164,8 @@
       "de": "Wiedererlangen-Feder",
       "en": "Regain Feather",
       "fr": "Plume de regain",
-      "ja": "リゲインフェザー"
+      "ja": "リゲインフェザー",
+      "ko": "기력의 깃털"
     },
     "stars": 1
   },
@@ -3905,7 +4180,8 @@
       "de": "Riviera-Holzresidenzdach",
       "en": "Riviera Mansion Roof (Wood)",
       "fr": "Toit de villa en bois noscéenne",
-      "ja": "ラノシアン・ウッドレジデンス・ルーフ"
+      "ja": "ラノシアン・ウッドレジデンス・ルーフ",
+      "ko": "해변의 대형 목조 주택 지붕"
     },
     "stars": 1
   },
@@ -3920,7 +4196,8 @@
       "de": "Trank gegen Stumm",
       "en": "Silence Ward Potion",
       "fr": "Sérum anti silence",
-      "ja": "抗沈黙剤"
+      "ja": "抗沈黙剤",
+      "ko": "항침묵제"
     },
     "stars": 1
   },
@@ -3935,7 +4212,8 @@
       "de": "Trank gegen Schlaf",
       "en": "Sleep Ward Potion",
       "fr": "Sérum anti sommeil",
-      "ja": "抗睡眠剤"
+      "ja": "抗睡眠剤",
+      "ko": "항수면제"
     },
     "stars": 1
   },
@@ -3950,7 +4228,8 @@
       "de": "Trank gegen Gemach",
       "en": "Slow Ward Potion",
       "fr": "Sérum anti lenteur",
-      "ja": "抗遅延剤"
+      "ja": "抗遅延剤",
+      "ko": "항둔화제"
     },
     "stars": 1
   },
@@ -3965,7 +4244,8 @@
       "de": "Trank der Bindung",
       "en": "Spiritbond Potion",
       "fr": "Essence de symbiose",
-      "ja": "錬精薬"
+      "ja": "錬精薬",
+      "ko": "결속약"
     },
     "stars": 1
   },
@@ -3980,7 +4260,8 @@
       "de": "Präparierter Mazlaya-Marlin",
       "en": "Stuffed Mazlaya Marlin",
       "fr": "Marlin de Mazlaya empaillé",
-      "ja": "マズラヤマーリンの剥製"
+      "ja": "マズラヤマーリンの剥製",
+      "ko": "마즐라야 청새치 박제"
     },
     "stars": 1
   },
@@ -3995,7 +4276,8 @@
       "de": "Trank gegen Betäubung",
       "en": "Stun Ward Potion",
       "fr": "Sérum anti étourdissement",
-      "ja": "抗衝撃剤"
+      "ja": "抗衝撃剤",
+      "ko": "항충격제"
     },
     "stars": 1
   },
@@ -4010,7 +4292,8 @@
       "de": "Flickermesser",
       "en": "Vamper's Knives",
       "fr": "Couteaux de spoliateur",
-      "ja": "ヴァンパーナイフ"
+      "ja": "ヴァンパーナイフ",
+      "ko": "요부의 나이프"
     },
     "stars": 1
   },
@@ -4025,7 +4308,8 @@
       "de": "Verwässerter Kräutertrank",
       "en": "Watered Cordial",
       "fr": "Breuvage cordial allongé",
-      "ja": "ライトコーディアル"
+      "ja": "ライトコーディアル",
+      "ko": "희석된 강장제"
     },
     "stars": 1
   },
@@ -4040,7 +4324,8 @@
       "de": "Wolf-Grimoire der Magie",
       "en": "Wolf Grimoire of Casting",
       "fr": "Grimoire d'incantateur de loup",
-      "ja": "ウルフグリモア・オブ・キャスト"
+      "ja": "ウルフグリモア・オブ・キャスト",
+      "ko": "늑대 마술사의 마법서"
     },
     "stars": 1
   },
@@ -4055,7 +4340,8 @@
       "de": "Wolf-Grimoire der Heilung",
       "en": "Wolf Grimoire of Healing",
       "fr": "Grimoire de soigneur de loup",
-      "ja": "ウルフグリモア・オブ・ヒール"
+      "ja": "ウルフグリモア・オブ・ヒール",
+      "ko": "늑대 치유사의 마법서"
     },
     "stars": 1
   },
@@ -4070,7 +4356,8 @@
       "de": "Notenrolle von „A Light In the Storm“",
       "en": "A Light in the Storm Orchestrion Roll",
       "fr": "Rouleau \"A Light in the Storm\"",
-      "ja": "オーケストリオン譜:嵐の中の灯火"
+      "ja": "オーケストリオン譜:嵐の中の灯火",
+      "ko": "오케스트리온 악보: A Light in the Storm"
     },
     "stars": 2
   },
@@ -4085,7 +4372,8 @@
       "de": "Luftschiff-Reparaturkit",
       "en": "Airship Repair Materials",
       "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材"
+      "ja": "飛空艇修理材",
+      "ko": "비공정 수리재"
     },
     "stars": 2
   },
@@ -4100,7 +4388,8 @@
       "de": "Alkalurops",
       "en": "Alkalurops",
       "fr": "Alkalurops",
-      "ja": "アルカルロプス"
+      "ja": "アルカルロプス",
+      "ko": "연령초 지팡이"
     },
     "stars": 2
   },
@@ -4115,7 +4404,8 @@
       "de": "Notenrolle von „Battle on the Big Bridge“",
       "en": "Battle on the Big Bridge Orchestrion Roll",
       "fr": "Rouleau \"Battle on the Big Bridge\"",
-      "ja": "オーケストリオン譜:ビッグブリッヂの死闘"
+      "ja": "オーケストリオン譜:ビッグブリッヂの死闘",
+      "ko": "오케스트리온 악보: Battle on the Big Bridge"
     },
     "stars": 2
   },
@@ -4130,7 +4420,8 @@
       "de": "Magica Thavnaria",
       "en": "Cantamina Thavnaria",
       "fr": "Cantamina Thavnaria",
-      "ja": "マジカ・サベネア"
+      "ja": "マジカ・サベネア",
+      "ko": "매지카 사베네어"
     },
     "stars": 2
   },
@@ -4145,7 +4436,8 @@
       "de": "Kristallglas",
       "en": "Crystal Glass",
       "fr": "Verre en cristal",
-      "ja": "クリスタルガラス"
+      "ja": "クリスタルガラス",
+      "ko": "크리스탈 유리판"
     },
     "stars": 2
   },
@@ -4160,7 +4452,8 @@
       "de": "Deus Ex Gratia",
       "en": "Deus Ex Gratia",
       "fr": "Deus ex gratia",
-      "ja": "デウス・エクス・グラティア"
+      "ja": "デウス・エクス・グラティア",
+      "ko": "데우스 엑스 그라티아"
     },
     "stars": 2
   },
@@ -4175,7 +4468,8 @@
       "de": "Deus Ex Verbis",
       "en": "Deus Ex Verbis",
       "fr": "Deus ex verbis",
-      "ja": "デウス・エクス・バービス"
+      "ja": "デウス・エクス・バービス",
+      "ko": "데우스 엑스 베르비스"
     },
     "stars": 2
   },
@@ -4190,7 +4484,8 @@
       "de": "Verdünnte Schwefelsäure",
       "en": "Diluted Vitriol",
       "fr": "Vitriol dilué",
-      "ja": "希硫酸"
+      "ja": "希硫酸",
+      "ko": "희황산"
     },
     "stars": 2
   },
@@ -4205,7 +4500,8 @@
       "de": "Erd-Megatrank",
       "en": "Earth Ward Mega-Potion",
       "fr": "Essence géofuge",
-      "ja": "防土の秘薬"
+      "ja": "防土の秘薬",
+      "ko": "방토의 비약"
     },
     "stars": 2
   },
@@ -4220,7 +4516,8 @@
       "de": "Magische Rosengoldtinte",
       "en": "Enchanted Rose Gold Ink",
       "fr": "Encre d'or rose enchantée",
-      "ja": "ローズゴールド・エンチャントインク"
+      "ja": "ローズゴールド・エンチャントインク",
+      "ko": "홍금 마법 잉크"
     },
     "stars": 2
   },
@@ -4235,7 +4532,8 @@
       "de": "Feuer-Megatrank",
       "en": "Fire Ward Mega-Potion",
       "fr": "Essence ignifuge",
-      "ja": "防火の秘薬"
+      "ja": "防火の秘薬",
+      "ko": "방화의 비약"
     },
     "stars": 2
   },
@@ -4250,7 +4548,8 @@
       "de": "Gallenerz-Stock",
       "en": "Giantsgall Cane",
       "fr": "Canne fiel-de-géant",
-      "ja": "ギガントガルケーン"
+      "ja": "ギガントガルケーン",
+      "ko": "거인의 지팡이"
     },
     "stars": 2
   },
@@ -4265,7 +4564,8 @@
       "de": "Gallenerz-Klauen",
       "en": "Giantsgall Claws",
       "fr": "Griffes fiel-de-géant",
-      "ja": "ギガントガルクロー"
+      "ja": "ギガントガルクロー",
+      "ko": "거인의 서슬발톱"
     },
     "stars": 2
   },
@@ -4280,7 +4580,8 @@
       "de": "Gallenerz-Spalter",
       "en": "Giantsgall Cleavers",
       "fr": "Couperets fiel-de-géant",
-      "ja": "ギガントガルクリーバー"
+      "ja": "ギガントガルクリーバー",
+      "ko": "거인의 살육도"
     },
     "stars": 2
   },
@@ -4295,7 +4596,8 @@
       "de": "Gallenerz-Guillotine",
       "en": "Giantsgall Guillotine",
       "fr": "Fendoir fiel-de-géant",
-      "ja": "ギガントガルディバイダー"
+      "ja": "ギガントガルディバイダー",
+      "ko": "거인의 단두검"
     },
     "stars": 2
   },
@@ -4310,7 +4612,8 @@
       "de": "Gallenerz-Flinte",
       "en": "Giantsgall Knifelock",
       "fr": "Éventreur fiel-de-géant",
-      "ja": "ギガントガルナイフロック"
+      "ja": "ギガントガルナイフロック",
+      "ko": "거인의 봉쇄총"
     },
     "stars": 2
   },
@@ -4325,7 +4628,8 @@
       "de": "Gallenerz-Langbogen",
       "en": "Giantsgall Longbow",
       "fr": "Arc long fiel-de-géant",
-      "ja": "ギガントガルロングボウ"
+      "ja": "ギガントガルロングボウ",
+      "ko": "거인의 장궁"
     },
     "stars": 2
   },
@@ -4340,7 +4644,8 @@
       "de": "Gallenerz-Langstab",
       "en": "Giantsgall Longstaff",
       "fr": "Bâton fiel-de-géant",
-      "ja": "ギガントガルロングスタッフ"
+      "ja": "ギガントガルロングスタッフ",
+      "ko": "거인의 장주술봉"
     },
     "stars": 2
   },
@@ -4355,7 +4660,8 @@
       "de": "Gallenerz-Langschwert",
       "en": "Giantsgall Longsword",
       "fr": "Épée longue fiel-de-géant",
-      "ja": "ギガントガルロングソード"
+      "ja": "ギガントガルロングソード",
+      "ko": "거인의 롱소드"
     },
     "stars": 2
   },
@@ -4370,7 +4676,8 @@
       "de": "Gallenerz-Sternenglobus",
       "en": "Giantsgall Star Globe",
       "fr": "Globe céleste fiel-de-géant",
-      "ja": "ギガントガルスターグローブ"
+      "ja": "ギガントガルスターグローブ",
+      "ko": "거인의 천구의"
     },
     "stars": 2
   },
@@ -4385,7 +4692,8 @@
       "de": "Gallenerz-Dreizack",
       "en": "Giantsgall Trident",
       "fr": "Trident fiel-de-géant",
-      "ja": "ギガントガルトライデント"
+      "ja": "ギガントガルトライデント",
+      "ko": "거인의 삼지창"
     },
     "stars": 2
   },
@@ -4400,7 +4708,8 @@
       "de": "Gallenerz-Kriegsaxt",
       "en": "Giantsgall War Axe",
       "fr": "Hache de guerre fiel-de-géant",
-      "ja": "ギガントガルウォーアクス"
+      "ja": "ギガントガルウォーアクス",
+      "ko": "거인의 전쟁도끼"
     },
     "stars": 2
   },
@@ -4415,7 +4724,8 @@
       "de": "Rad der Kapazität I",
       "en": "Grade 1 Wheel of Capacity",
       "fr": "Tour de l'adresse I",
-      "ja": "達識のエーテリアルホイールG1"
+      "ja": "達識のエーテリアルホイールG1",
+      "ko": "1등급 달견의 에테르석"
     },
     "stars": 2
   },
@@ -4430,7 +4740,8 @@
       "de": "Rad der Gesellschaft I",
       "en": "Grade 1 Wheel of Company",
       "fr": "Tour du mérite I",
-      "ja": "軍功のエーテリアルホイールG1"
+      "ja": "軍功のエーテリアルホイールG1",
+      "ko": "1등급 무훈의 에테르석"
     },
     "stars": 2
   },
@@ -4445,7 +4756,8 @@
       "de": "Rad der Konfrontation I",
       "en": "Grade 1 Wheel of Confrontation",
       "fr": "Tour de l'entraînement I",
-      "ja": "教練のエーテリアルホイールG1"
+      "ja": "教練のエーテリアルホイールG1",
+      "ko": "1등급 교련의 에테르석"
     },
     "stars": 2
   },
@@ -4460,7 +4772,8 @@
       "de": "Rad der Hingabe I",
       "en": "Grade 1 Wheel of Dedication",
       "fr": "Tour de l'attachement I",
-      "ja": "錬精のエーテリアルホイールG1"
+      "ja": "錬精のエーテリアルホイールG1",
+      "ko": "1등급 결속의 에테르석"
     },
     "stars": 2
   },
@@ -4475,7 +4788,8 @@
       "de": "Rad der Effizienz I",
       "en": "Grade 1 Wheel of Efficiency",
       "fr": "Tour de l'efficacité I",
-      "ja": "名匠のエーテリアルホイールG1"
+      "ja": "名匠のエーテリアルホイールG1",
+      "ko": "1등급 장인의 에테르석"
     },
     "stars": 2
   },
@@ -4490,7 +4804,8 @@
       "de": "Rad der Industrie I",
       "en": "Grade 1 Wheel of Industry",
       "fr": "Tour de l'apprentissage I",
-      "ja": "鍛錬のエーテリアルホイールG1"
+      "ja": "鍛錬のエーテリアルホイールG1",
+      "ko": "1등급 단련의 에테르석"
     },
     "stars": 2
   },
@@ -4505,7 +4820,8 @@
       "de": "Rad der Einführung I",
       "en": "Grade 1 Wheel of Initiation",
       "fr": "Tour de l'initiation I",
-      "ja": "新兵のエーテリアルホイールG1"
+      "ja": "新兵のエーテリアルホイールG1",
+      "ko": "1등급 신병의 에테르석"
     },
     "stars": 2
   },
@@ -4520,7 +4836,8 @@
       "de": "Rad des Longierens I",
       "en": "Grade 1 Wheel of Longeing",
       "fr": "Tour de la complicité I",
-      "ja": "特訓のエーテリアルホイールG1"
+      "ja": "特訓のエーテリアルホイールG1",
+      "ko": "1등급 특훈의 에테르석"
     },
     "stars": 2
   },
@@ -4535,7 +4852,8 @@
       "de": "Rad der Nährmittel I",
       "en": "Grade 1 Wheel of Nutriment",
       "fr": "Tour de la satiété I",
-      "ja": "食通のエーテリアルホイールG1"
+      "ja": "食通のエーテリアルホイールG1",
+      "ko": "1등급 미식의 에테르석"
     },
     "stars": 2
   },
@@ -4550,7 +4868,8 @@
       "de": "Rad der Beobachtung I",
       "en": "Grade 1 Wheel of Observation",
       "fr": "Tour de la clairvoyance I",
-      "ja": "博識のエーテリアルホイールG1"
+      "ja": "博識のエーテリアルホイールG1",
+      "ko": "1등급 박식의 에테르석"
     },
     "stars": 2
   },
@@ -4565,7 +4884,8 @@
       "de": "Rad der Beständigkeit I",
       "en": "Grade 1 Wheel of Permanence",
       "fr": "Tour de la rémanence I",
-      "ja": "耐久のエーテリアルホイールG1"
+      "ja": "耐久のエーテリアルホイールG1",
+      "ko": "1등급 내구의 에테르석"
     },
     "stars": 2
   },
@@ -4580,7 +4900,8 @@
       "de": "Rad der Pilgerfahrt I",
       "en": "Grade 1 Wheel of Pilgrimage",
       "fr": "Tour de la mobilité I",
-      "ja": "旅人のエーテリアルホイールG1"
+      "ja": "旅人のエーテリアルホイールG1",
+      "ko": "1등급 유랑의 에테르석"
     },
     "stars": 2
   },
@@ -4595,7 +4916,8 @@
       "de": "Rad der Präzision I",
       "en": "Grade 1 Wheel of Precision",
       "fr": "Tour de l'expertise I",
-      "ja": "巨匠のエーテリアルホイールG1"
+      "ja": "巨匠のエーテリアルホイールG1",
+      "ko": "1등급 거장의 에테르석"
     },
     "stars": 2
   },
@@ -4610,7 +4932,8 @@
       "de": "Rad der Produktivität I",
       "en": "Grade 1 Wheel of Productivity",
       "fr": "Tour du perfectionnement I",
-      "ja": "修練のエーテリアルホイールG1"
+      "ja": "修練のエーテリアルホイールG1",
+      "ko": "1등급 수련의 에테르석"
     },
     "stars": 2
   },
@@ -4625,7 +4948,8 @@
       "de": "Rad der Erholung I",
       "en": "Grade 1 Wheel of Recreation",
       "fr": "Tour du divertissement I",
-      "ja": "遊戯のエーテリアルホイールG1"
+      "ja": "遊戯のエーテリアルホイールG1",
+      "ko": "1등급 유희의 에테르석"
     },
     "stars": 2
   },
@@ -4640,7 +4964,8 @@
       "de": "Rad der Wiederbelebung I",
       "en": "Grade 1 Wheel of Revival",
       "fr": "Tour du rétablissement I",
-      "ja": "不屈のエーテリアルホイールG1"
+      "ja": "不屈のエーテリアルホイールG1",
+      "ko": "1등급 불굴의 에테르석"
     },
     "stars": 2
   },
@@ -4655,7 +4980,8 @@
       "de": "Rad der Rivalität I",
       "en": "Grade 1 Wheel of Rivalry",
       "fr": "Tour de l'altercation I",
-      "ja": "戦績のエーテリアルホイールG1"
+      "ja": "戦績のエーテリアルホイールG1",
+      "ko": "1등급 전적의 에테르석"
     },
     "stars": 2
   },
@@ -4670,7 +4996,8 @@
       "de": "Wachstumsformel Delta-Konzentrat",
       "en": "Growth Formula Delta Concentrate",
       "fr": "Formule de croissance delta concentrée",
-      "ja": "グロースフォーミュラ・デルタプラス"
+      "ja": "グロースフォーミュラ・デルタプラス",
+      "ko": "성장 촉진제 델타플러스"
     },
     "stars": 2
   },
@@ -4685,7 +5012,8 @@
       "de": "Super-Elixier",
       "en": "Hi-Elixir",
       "fr": "Super élixir",
-      "ja": "ハイエリクサー"
+      "ja": "ハイエリクサー",
+      "ko": "하이 엘릭서"
     },
     "stars": 2
   },
@@ -4700,7 +5028,8 @@
       "de": "Eis-Megatrank",
       "en": "Ice Ward Mega-Potion",
       "fr": "Essence frigifuge",
-      "ja": "防氷の秘薬"
+      "ja": "防氷の秘薬",
+      "ko": "방빙의 비약"
     },
     "stars": 2
   },
@@ -4715,7 +5044,8 @@
       "de": "Blitz-Megatrank",
       "en": "Lightning Ward Mega-Potion",
       "fr": "Essence électrofuge",
-      "ja": "防雷の秘薬"
+      "ja": "防雷の秘薬",
+      "ko": "방뢰의 비약"
     },
     "stars": 2
   },
@@ -4730,7 +5060,8 @@
       "de": "Medica Thavnaria",
       "en": "Medica Thavnaria",
       "fr": "Medica Thavnaria",
-      "ja": "メディカ・サベネア"
+      "ja": "メディカ・サベネア",
+      "ko": "메디카 사베네어"
     },
     "stars": 2
   },
@@ -4745,7 +5076,8 @@
       "de": "Eingetopfte Schirmfeige",
       "en": "Potted Umbrella Fig",
       "fr": "Pot de figuier parasol",
-      "ja": "アンブレラフィグの鉢植"
+      "ja": "アンブレラフィグの鉢植",
+      "ko": "우산무화과 화분"
     },
     "stars": 2
   },
@@ -4760,7 +5092,8 @@
       "de": "Salzsäure",
       "en": "Spirits of Salt",
       "fr": "Esprit de sel",
-      "ja": "塩酸"
+      "ja": "塩酸",
+      "ko": "염산"
     },
     "stars": 2
   },
@@ -4775,7 +5108,8 @@
       "de": "Präparierter Takitaro",
       "en": "Stuffed Takitaro",
       "fr": "Takitaro empaillé",
-      "ja": "タキタロの剥製"
+      "ja": "タキタロの剥製",
+      "ko": "타키타로 박제"
     },
     "stars": 2
   },
@@ -4790,7 +5124,8 @@
       "de": "Waldlilienblüte",
       "en": "Suspended Trillium Flower",
       "fr": "Trille d'Alkalurops",
-      "ja": "アルカルロプスフラワー"
+      "ja": "アルカルロプスフラワー",
+      "ko": "연령초 장식"
     },
     "stars": 2
   },
@@ -4805,7 +5140,8 @@
       "de": "Notenrolle von „The Scars of Battle“",
       "en": "The Scars of Battle Orchestrion Roll",
       "fr": "Rouleau \"The Scars of Battle\"",
-      "ja": "オーケストリオン譜:魔大戦の傷跡"
+      "ja": "オーケストリオン譜:魔大戦の傷跡",
+      "ko": "오케스트리온 악보: The Scars of Battle"
     },
     "stars": 2
   },
@@ -4820,7 +5156,8 @@
       "de": "Wasser-Megatrank",
       "en": "Water Ward Mega-Potion",
       "fr": "Essence hydrofuge",
-      "ja": "防水の秘薬"
+      "ja": "防水の秘薬",
+      "ko": "방수의 비약"
     },
     "stars": 2
   },
@@ -4835,7 +5172,8 @@
       "de": "Wilder Bananenbaum",
       "en": "Wild Banana Tree",
       "fr": "Bananier sauvage",
-      "ja": "ワイルドバナナツリー"
+      "ja": "ワイルドバナナツリー",
+      "ko": "야생 바나나 나무"
     },
     "stars": 2
   },
@@ -4850,7 +5188,8 @@
       "de": "Wind-Megatrank",
       "en": "Wind Ward Mega-Potion",
       "fr": "Essence aérofuge",
-      "ja": "防風の秘薬"
+      "ja": "防風の秘薬",
+      "ko": "방풍의 비약"
     },
     "stars": 2
   },
@@ -4865,7 +5204,8 @@
       "de": "Giga-Äther",
       "en": "X-Ether",
       "fr": "Éther X",
-      "ja": "エクスエーテル"
+      "ja": "エクスエーテル",
+      "ko": "엑스 에테르"
     },
     "stars": 2
   },
@@ -4880,7 +5220,8 @@
       "de": "Gigatrank",
       "en": "X-Potion",
       "fr": "Potion X",
-      "ja": "エクスポーション"
+      "ja": "エクスポーション",
+      "ko": "엑스 포션"
     },
     "stars": 2
   },
@@ -4895,7 +5236,8 @@
       "de": "Gigatrank der Geschicklichkeit",
       "en": "X-Potion of Dexterity",
       "fr": "Concentré de dextérité",
-      "ja": "眼力の霊薬"
+      "ja": "眼力の霊薬",
+      "ko": "민첩성의 영약"
     },
     "stars": 2
   },
@@ -4910,7 +5252,8 @@
       "de": "Gigatrank der Intelligenz",
       "en": "X-Potion of Intelligence",
       "fr": "Concentré d'intelligence",
-      "ja": "知力の霊薬"
+      "ja": "知力の霊薬",
+      "ko": "지능의 영약"
     },
     "stars": 2
   },
@@ -4925,7 +5268,8 @@
       "de": "Gigatrank der Willenskraft",
       "en": "X-Potion of Mind",
       "fr": "Concentré d'esprit",
-      "ja": "心力の霊薬"
+      "ja": "心力の霊薬",
+      "ko": "정신력의 영약"
     },
     "stars": 2
   },
@@ -4940,7 +5284,8 @@
       "de": "Gigatrank der Stärke",
       "en": "X-Potion of Strength",
       "fr": "Concentré de force",
-      "ja": "剛力の霊薬"
+      "ja": "剛力の霊薬",
+      "ko": "힘의 영약"
     },
     "stars": 2
   },
@@ -4955,7 +5300,8 @@
       "de": "Gigatrank der Konstitution",
       "en": "X-Potion of Vitality",
       "fr": "Concentré de vitalité",
-      "ja": "活力の霊薬"
+      "ja": "活力の霊薬",
+      "ko": "활력의 영약"
     },
     "stars": 2
   },
@@ -4970,7 +5316,8 @@
       "de": "Choral-Kleidungsmaterial",
       "en": "Choral Attire Augmentation",
       "fr": "Éléments pour tenue du chantre",
-      "ja": "コラルアタイアの補材"
+      "ja": "コラルアタイアの補材",
+      "ko": "낭송가의 예복 보강재"
     },
     "stars": 3
   },
@@ -4985,7 +5332,8 @@
       "de": "Konzentrierte Salzsäure",
       "en": "Concentrated Spirits of Salt",
       "fr": "Esprit de sel concentré",
-      "ja": "濃塩酸"
+      "ja": "濃塩酸",
+      "ko": "농축 염산"
     },
     "stars": 3
   },
@@ -5000,7 +5348,8 @@
       "de": "Kräutertrank",
       "en": "Cordial",
       "fr": "Breuvage cordial",
-      "ja": "コーディアル"
+      "ja": "コーディアル",
+      "ko": "강장제"
     },
     "stars": 3
   },
@@ -5015,12 +5364,12 @@
       "de": "Drachenreiter-Rüstungsmaterial",
       "en": "Drachen Armor Augmentation",
       "fr": "Éléments pour armure Drachen",
-      "ja": "ドラケンアーマーの補材"
+      "ja": "ドラケンアーマーの補材",
+      "ko": "용기사 갑주 보강재"
     },
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5031,7 +5380,8 @@
       "de": "Windgewalten-Umklammerung",
       "en": "Embrace of the Vortex",
       "fr": "Conviction des rafales",
-      "ja": "ヴォーテックスエンブレイス"
+      "ja": "ヴォーテックスエンブレイス",
+      "ko": "돌풍의 포옹"
     },
     "stars": 3
   },
@@ -5046,7 +5396,8 @@
       "de": "Platin-Zaubertinte",
       "en": "Enchanted Platinum Ink",
       "fr": "Encre de platine enchantée",
-      "ja": "プラチナエンチャントインク"
+      "ja": "プラチナエンチャントインク",
+      "ko": "백금 마법 잉크"
     },
     "stars": 3
   },
@@ -5061,7 +5412,8 @@
       "de": "Magisches Quecksilber",
       "en": "Enchanted Quicksilver",
       "fr": "Mercure enchanté",
-      "ja": "魔化水銀"
+      "ja": "魔化水銀",
+      "ko": "마법 수은"
     },
     "stars": 3
   },
@@ -5076,7 +5428,8 @@
       "de": "Rufer-Kleidungsmaterial",
       "en": "Evoker's Attire Augmentation",
       "fr": "Éléments pour tenue de l'adjurateur",
-      "ja": "エボカーアタイアの補材"
+      "ja": "エボカーアタイアの補材",
+      "ko": "초래자의 예복 보강재"
     },
     "stars": 3
   },
@@ -5091,7 +5444,8 @@
       "de": "Notenrolle von „Fallen Angel“",
       "en": "Fallen Angel Orchestrion Roll",
       "fr": "Rouleau \"Fallen Angel\"",
-      "ja": "オーケストリオン譜:堕天せし者"
+      "ja": "オーケストリオン譜:堕天せし者",
+      "ko": "오케스트리온 악보: Fallen Angel"
     },
     "stars": 3
   },
@@ -5106,7 +5460,8 @@
       "de": "Kämpfer-Rüstungsmaterial",
       "en": "Fighter's Armor Augmentation",
       "fr": "Éléments pour armure du combattant",
-      "ja": "ファイターアーマーの補材"
+      "ja": "ファイターアーマーの補材",
+      "ko": "투사 갑주 보강재"
     },
     "stars": 3
   },
@@ -5121,7 +5476,8 @@
       "de": "Edel-Rüstungsmaterial",
       "en": "Gallant Armor Augmentation",
       "fr": "Éléments pour armure du preux",
-      "ja": "ガラントアーマーの補材"
+      "ja": "ガラントアーマーの補材",
+      "ko": "용맹함의 갑주 보강재"
     },
     "stars": 3
   },
@@ -5136,7 +5492,8 @@
       "de": "Notenrolle von „Good King Moggle Mog XII“",
       "en": "Good King Moggle Mog XII Orchestrion Roll",
       "fr": "Rouleau \"Good King Moggle Mog XII\"",
-      "ja": "オーケストリオン譜:善王モグル・モグXII世"
+      "ja": "オーケストリオン譜:善王モグル・モグXII世",
+      "ko": "오케스트리온 악보: Good King Moggle Mog XII"
     },
     "stars": 3
   },
@@ -5151,12 +5508,12 @@
       "de": "Heiler-Kleidungsmaterial",
       "en": "Healer's Attire Augmentation",
       "fr": "Éléments pour tenue du guérisseur",
-      "ja": "ヒーラーアタイアの補材"
+      "ja": "ヒーラーアタイアの補材",
+      "ko": "치유사 예복 보강재"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5167,12 +5524,12 @@
       "de": "Inferno-Kodex",
       "en": "Inferno Codex",
       "fr": "Codex des flammes",
-      "ja": "インフェルノコーデックス"
+      "ja": "インフェルノコーデックス",
+      "ko": "지옥불 치유서"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5183,7 +5540,8 @@
       "de": "Inferno-Grimoire",
       "en": "Inferno Grimoire",
       "fr": "Grimoire des flammes",
-      "ja": "インフェルノグリモア"
+      "ja": "インフェルノグリモア",
+      "ko": "지옥불 마법서"
     },
     "stars": 3
   },
@@ -5198,7 +5556,8 @@
       "de": "Majestätisches Mogul-Mogrimoire",
       "en": "Majestic Moggle Mogtome",
       "fr": "Grimoire Moggle Mog mortifère",
-      "ja": "モグルモグリモア・モグ"
+      "ja": "モグルモグリモア・モグ",
+      "ko": "모그루 모그 마법서 모그"
     },
     "stars": 3
   },
@@ -5213,7 +5572,8 @@
       "de": "Missetäter-Mogul-Mogzweig",
       "en": "Malevolent Moggle Mogwand",
       "fr": "Lys Moggle Mog mortifiant",
-      "ja": "モグルモグリリー"
+      "ja": "モグルモグリリー",
+      "ko": "모그루 모그 백합"
     },
     "stars": 3
   },
@@ -5228,7 +5588,8 @@
       "de": "Mächtige Mogry-Rute",
       "en": "Mighty Moggle Mogrod",
       "fr": "Sceptre Moggle Mog monarchique",
-      "ja": "モグルモグロッド"
+      "ja": "モグルモグロッド",
+      "ko": "모그루 모그 지팡이"
     },
     "stars": 3
   },
@@ -5243,7 +5604,8 @@
       "de": "Munifizentes Mogul-Mogrimoire",
       "en": "Munificent Moggle Mogtome",
       "fr": "Grimoire Moggle Mog modérateur",
-      "ja": "モグルモグリモア・クポ"
+      "ja": "モグルモグリモア・クポ",
+      "ko": "모그루 모그 마법서 쿠뽀"
     },
     "stars": 3
   },
@@ -5258,7 +5620,8 @@
       "de": "Ninja-Kleidungsmaterial",
       "en": "Ninja Garb Augmentation",
       "fr": "Éléments pour tenue de ninja",
-      "ja": "乱波装束の補材"
+      "ja": "乱波装束の補材",
+      "ko": "닌자의 의복 보강재"
     },
     "stars": 3
   },
@@ -5273,7 +5636,8 @@
       "de": "Hochwertiges Fixiermittel",
       "en": "Perfect Pounce",
       "fr": "Fixateur parfait",
-      "ja": "上質な定着剤"
+      "ja": "上質な定着剤",
+      "ko": "고급 정착제"
     },
     "stars": 3
   },
@@ -5288,7 +5652,8 @@
       "de": "Notenrolle von „Primal Judgment“",
       "en": "Primal Judgment Orchestrion Roll",
       "fr": "Rouleau \"Primal Judgment\"",
-      "ja": "オーケストリオン譜:原始の審判"
+      "ja": "オーケストリオン譜:原始の審判",
+      "ko": "오케스트리온 악보: Primal Judgment"
     },
     "stars": 3
   },
@@ -5303,7 +5668,8 @@
       "de": "Gelehrten-Kleidungsmaterial",
       "en": "Scholar's Attire Augmentation",
       "fr": "Éléments pour tenue de l'érudit",
-      "ja": "スカラーアタイアの補材"
+      "ja": "スカラーアタイアの補材",
+      "ko": "학자 예복 보강재"
     },
     "stars": 3
   },
@@ -5318,7 +5684,8 @@
       "de": "Tempel-Rüstungsmaterial",
       "en": "Temple Attire Augmentation",
       "fr": "Éléments pour tenue du temple",
-      "ja": "テンプルアタイアの補材"
+      "ja": "テンプルアタイアの補材",
+      "ko": "사찰 예복 보강재"
     },
     "stars": 3
   },
@@ -5333,12 +5700,12 @@
       "de": "Terminus-Kitt",
       "en": "Terminus Putty",
       "fr": "Mastic terminus",
-      "ja": "テルミヌスパテ"
+      "ja": "テルミヌスパテ",
+      "ko": "최종접합제"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5349,12 +5716,12 @@
       "de": "Der große Erdstoß-Schlüssel",
       "en": "The Greater Key of Tremors",
       "fr": "Clavicule majeure des séismes",
-      "ja": "グレーターキー・オブ・トレマー"
+      "ja": "グレーターキー・オブ・トレマー",
+      "ko": "지진의 위대한 해법서"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5365,7 +5732,8 @@
       "de": "Der heilige Erdstoß-Schlüssel",
       "en": "The Holy Key of Tremors",
       "fr": "Clavicule sainte des séismes",
-      "ja": "ホーリーキー・オブ・トレマー"
+      "ja": "ホーリーキー・オブ・トレマー",
+      "ko": "지진의 성스러운 해법서"
     },
     "stars": 3
   },
@@ -5380,7 +5748,8 @@
       "de": "Notenrolle von „The Maker's Ruin“",
       "en": "The Maker's Ruin Orchestrion Roll",
       "fr": "Rouleau \"The Maker's Ruin\"",
-      "ja": "オーケストリオン譜:神なき世界"
+      "ja": "オーケストリオン譜:神なき世界",
+      "ko": "오케스트리온 악보: The Maker's Ruin"
     },
     "stars": 3
   },
@@ -5395,12 +5764,12 @@
       "de": "Notenrolle von „Through the Maelstrom“",
       "en": "Through the Maelstrom Orchestrion Roll",
       "fr": "Rouleau \"Through the Maelstrom\"",
-      "ja": "オーケストリオン譜:混沌の渦動"
+      "ja": "オーケストリオン譜:混沌の渦動",
+      "ko": "오케스트리온 악보: Through the Maelstrom"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5411,12 +5780,12 @@
       "de": "Erdstoß-Axt",
       "en": "Tremor Axe",
       "fr": "Hachereau des séismes",
-      "ja": "トレマーアクス"
+      "ja": "トレマーアクス",
+      "ko": "지진의 도끼"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5427,12 +5796,12 @@
       "de": "Erdstoß-Bogen",
       "en": "Tremor Bow",
       "fr": "Arche des séismes",
-      "ja": "トレマーボウ"
+      "ja": "トレマーボウ",
+      "ko": "지진의 활"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5443,12 +5812,12 @@
       "de": "Erdstoß-Stock",
       "en": "Tremor Cane",
       "fr": "Rameau des séismes",
-      "ja": "トレマーケーン"
+      "ja": "トレマーケーン",
+      "ko": "지진의 지팡이"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5459,12 +5828,12 @@
       "de": "Erdstoßspalter",
       "en": "Tremor Cleavers",
       "fr": "Couperets des séismes",
-      "ja": "トレマークリーバー"
+      "ja": "トレマークリーバー",
+      "ko": "지진의 살육도"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5475,12 +5844,12 @@
       "de": "Erdstoß-Schlägel",
       "en": "Tremor Cudgel",
       "fr": "Matraque des séismes",
-      "ja": "トレマーカジェル"
+      "ja": "トレマーカジェル",
+      "ko": "지진의 곤봉"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5491,12 +5860,12 @@
       "de": "Erdstoß-Kalverine",
       "en": "Tremor Culverin",
       "fr": "Couleuvrine des séismes",
-      "ja": "トレマーカルバリン"
+      "ja": "トレマーカルバリン",
+      "ko": "지진의 포총"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5507,12 +5876,12 @@
       "de": "Erdstoß-Rapier",
       "en": "Tremor Foil",
       "fr": "Fleuret des séismes",
-      "ja": "トレマーフルーレ"
+      "ja": "トレマーフルーレ",
+      "ko": "지진의 플레뢰"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5523,12 +5892,12 @@
       "de": "Erdstoß-Guillotine",
       "en": "Tremor Guillotine",
       "fr": "Fendoir des séismes",
-      "ja": "トレマーディバイダー"
+      "ja": "トレマーディバイダー",
+      "ko": "지진의 단두검"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5539,12 +5908,12 @@
       "de": "Erdstoß-Katana",
       "en": "Tremor Katana",
       "fr": "Katana des séismes",
-      "ja": "岩神刀【改】"
+      "ja": "岩神刀【改】",
+      "ko": "지진의 외날검"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5555,12 +5924,12 @@
       "de": "Erdstoß-Schlagringe",
       "en": "Tremor Knuckles",
       "fr": "Rocs des séismes",
-      "ja": "トレマーナックル"
+      "ja": "トレマーナックル",
+      "ko": "지진의 너클"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5571,12 +5940,12 @@
       "de": "Erdstoß-Schild",
       "en": "Tremor Shield",
       "fr": "Rempart des séismes",
-      "ja": "トレマーシールド"
+      "ja": "トレマーシールド",
+      "ko": "지진의 방패"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5587,12 +5956,12 @@
       "de": "Erdstoß-Speer",
       "en": "Tremor Spear",
       "fr": "Épieu des séismes",
-      "ja": "トレマースピア"
+      "ja": "トレマースピア",
+      "ko": "지진의 창"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5603,12 +5972,12 @@
       "de": "Erdstoß-Stab",
       "en": "Tremor Staff",
       "fr": "Bâton des séismes",
-      "ja": "トレマースタッフ"
+      "ja": "トレマースタッフ",
+      "ko": "지진의 주술봉"
     },
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5619,7 +5988,8 @@
       "de": "Erdstoß-Sternenglobus",
       "en": "Tremor Star Globe",
       "fr": "Globe céleste des séismes",
-      "ja": "トレマースターグローブ"
+      "ja": "トレマースターグローブ",
+      "ko": "지진의 천구의"
     },
     "stars": 3
   },
@@ -5634,12 +6004,12 @@
       "de": "Notenrolle von „Under the Weight“",
       "en": "Under the Weight Orchestrion Roll",
       "fr": "Rouleau \"Under the Weight\"",
-      "ja": "オーケストリオン譜:過重圧殺！"
+      "ja": "オーケストリオン譜:過重圧殺！",
+      "ko": "오케스트리온 악보: Under the Weight"
     },
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5650,7 +6020,8 @@
       "de": "Windgewalten-Wille",
       "en": "Will of the Vortex",
       "fr": "Volonté des rafales",
-      "ja": "ヴォーテックスウィル"
+      "ja": "ヴォーテックスウィル",
+      "ko": "돌풍의 의지"
     },
     "stars": 3
   },
@@ -5665,7 +6036,8 @@
       "de": "Zauberer-Kleidungsmaterial",
       "en": "Wizard's Attire Augmentation",
       "fr": "Éléments pour tenue du sorcier",
-      "ja": "ウィザードアタイアの補材"
+      "ja": "ウィザードアタイアの補材",
+      "ko": "마도사 예복 보강재"
     },
     "stars": 3
   },
@@ -5680,7 +6052,8 @@
       "de": "Notenrolle von „Wreck to the Seaman“",
       "en": "Wreck to the Seaman Orchestrion Roll",
       "fr": "Rouleau \"Wreck to the Seaman\"",
-      "ja": "オーケストリオン譜:船乗りには難破を"
+      "ja": "オーケストリオン譜:船乗りには難破を",
+      "ko": "오케스트리온 악보: Wreck to the Seaman"
     },
     "stars": 3
   },
@@ -5695,7 +6068,8 @@
       "de": "Alchemie für Anfänger",
       "en": "Alchemy for Beginners",
       "fr": "Initiation à l'alchimie",
-      "ja": "錬成入門書"
+      "ja": "錬成入門書",
+      "ko": "연금술 입문서"
     },
     "stars": 4
   },
@@ -5710,7 +6084,8 @@
       "de": "Plattnerkunst für Anfänger",
       "en": "Armoring for Beginners",
       "fr": "Initiation à l'armurerie",
-      "ja": "板金入門書"
+      "ja": "板金入門書",
+      "ko": "갑주제작 입문서"
     },
     "stars": 4
   },
@@ -5725,7 +6100,8 @@
       "de": "Grobschmiedekunst für Anfänger",
       "en": "Blacksmithing for Beginners",
       "fr": "Initiation à la métallurgie",
-      "ja": "鍛冶入門書"
+      "ja": "鍛冶入門書",
+      "ko": "대장장이 입문서"
     },
     "stars": 4
   },
@@ -5740,7 +6116,8 @@
       "de": "Notenrolle von „Blind To the Dark“",
       "en": "Blind to the Dark Orchestrion Roll",
       "fr": "Rouleau \"Blind to the Dark\"",
-      "ja": "オーケストリオン譜:薄闇"
+      "ja": "オーケストリオン譜:薄闇",
+      "ko": "오케스트리온 악보: Blind to the Dark"
     },
     "stars": 4
   },
@@ -5755,7 +6132,8 @@
       "de": "Zimmern für Anfänger",
       "en": "Carpentry for Beginners",
       "fr": "Initiation à la menuiserie",
-      "ja": "木工入門書"
+      "ja": "木工入門書",
+      "ko": "목수 입문서"
     },
     "stars": 4
   },
@@ -5770,7 +6148,8 @@
       "de": "Kochen für Anfänger",
       "en": "Cooking for Beginners",
       "fr": "Initiation à la cuisine",
-      "ja": "調理入門書"
+      "ja": "調理入門書",
+      "ko": "요리 입문서"
     },
     "stars": 4
   },
@@ -5785,7 +6164,8 @@
       "de": "Notenrolle von „Footsteps in the Snow“",
       "en": "Footsteps in the Snow Orchestrion Roll",
       "fr": "Rouleau \"Footsteps in the Snow\"",
-      "ja": "オーケストリオン譜:雪上の足跡"
+      "ja": "オーケストリオン譜:雪上の足跡",
+      "ko": "오케스트리온 악보: Footsteps in the Snow"
     },
     "stars": 4
   },
@@ -5800,7 +6180,8 @@
       "de": "Notenrolle von „From the Ashes“",
       "en": "From the Ashes Orchestrion Roll",
       "fr": "Rouleau \"From the Ashes\"",
-      "ja": "オーケストリオン譜:灰より生まれし者"
+      "ja": "オーケストリオン譜:灰より生まれし者",
+      "ko": "오케스트리온 악보: From the Ashes"
     },
     "stars": 4
   },
@@ -5815,7 +6196,8 @@
       "de": "Goldschmiedekunst für Anfänger",
       "en": "Goldsmithing for Beginners",
       "fr": "Initiation à l'orfèvrerie",
-      "ja": "彫金入門書"
+      "ja": "彫金入門書",
+      "ko": "보석공예 입문서"
     },
     "stars": 4
   },
@@ -5830,7 +6212,8 @@
       "de": "Notenrolle von „Hubris“",
       "en": "Hubris Orchestrion Roll",
       "fr": "Rouleau \"Hubris\"",
-      "ja": "オーケストリオン譜:傲慢"
+      "ja": "オーケストリオン譜:傲慢",
+      "ko": "오케스트리온 악보: Hubris"
     },
     "stars": 4
   },
@@ -5845,7 +6228,8 @@
       "de": "Notenrolle von „Hunger“",
       "en": "Hunger Orchestrion Roll",
       "fr": "Rouleau \"Hunger\"",
-      "ja": "オーケストリオン譜:最後の死闘"
+      "ja": "オーケストリオン譜:最後の死闘",
+      "ko": "오케스트리온 악보: Hunger"
     },
     "stars": 4
   },
@@ -5860,7 +6244,8 @@
       "de": "Kirimu-Kodex",
       "en": "Kirimu Codex",
       "fr": "Codex Kirimu",
-      "ja": "キリムコーデックス"
+      "ja": "キリムコーデックス",
+      "ko": "키리무 치유서"
     },
     "stars": 4
   },
@@ -5875,7 +6260,8 @@
       "de": "Kirimu-Grimoire",
       "en": "Kirimu Grimoire",
       "fr": "Grimoire Kirimu",
-      "ja": "キリムグリモア"
+      "ja": "キリムグリモア",
+      "ko": "키리무 마법서"
     },
     "stars": 4
   },
@@ -5890,7 +6276,8 @@
       "de": "Gerben für Anfänger",
       "en": "Leatherworking for Beginners",
       "fr": "Initiation à la tannerie",
-      "ja": "革細工入門書"
+      "ja": "革細工入門書",
+      "ko": "가죽공예 입문서"
     },
     "stars": 4
   },
@@ -5905,7 +6292,8 @@
       "de": "Notenrolle von „Now I Know the Truth“",
       "en": "Now I Know the Truth Orchestrion Roll",
       "fr": "Rouleau \"Now I Know the Truth\"",
-      "ja": "オーケストリオン譜:ドーガとウネの心"
+      "ja": "オーケストリオン譜:ドーガとウネの心",
+      "ko": "오케스트리온 악보: Now I Know the Truth"
     },
     "stars": 4
   },
@@ -5920,12 +6308,12 @@
       "de": "Notenrolle von „Oblivion“",
       "en": "Oblivion Orchestrion Roll",
       "fr": "Rouleau \"Oblivion\"",
-      "ja": "オーケストリオン譜:忘却の彼方"
+      "ja": "オーケストリオン譜:忘却の彼方",
+      "ko": "오케스트리온 악보: Oblivion"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -5936,7 +6324,8 @@
       "de": "Grimoire des mächtigen Donners",
       "en": "Ona Ramuhda First Edition",
       "fr": "Splendeur du Patriarche",
-      "ja": "レヴィン・サンダーインデックス"
+      "ja": "レヴィン・サンダーインデックス",
+      "ko": "벼락의 금서"
     },
     "stars": 4
   },
@@ -5951,7 +6340,8 @@
       "de": "Notenrolle von „Out of the Labyrinth“",
       "en": "Out of the Labyrinth Orchestrion Roll",
       "fr": "Rouleau \"Out of the Labyrinth\"",
-      "ja": "オーケストリオン譜:絢爛"
+      "ja": "オーケストリオン譜:絢爛",
+      "ko": "오케스트리온 악보: Out of the Labyrinth"
     },
     "stars": 4
   },
@@ -5966,7 +6356,8 @@
       "de": "Notenrolle von „Rise of the White Raven“",
       "en": "Rise of the White Raven Orchestrion Roll",
       "fr": "Rouleau \"Rise of the White Raven\"",
-      "ja": "オーケストリオン譜:白銀の凶鳥、飛翔せり"
+      "ja": "オーケストリオン譜:白銀の凶鳥、飛翔せり",
+      "ko": "오케스트리온 악보: Rise of the White Raven"
     },
     "stars": 4
   },
@@ -5981,12 +6372,12 @@
       "de": "Notenrolle von „The Corpse Hall“",
       "en": "The Corpse Hall Orchestrion Roll",
       "fr": "Rouleau \"The Corpse Hall\"",
-      "ja": "オーケストリオン譜:斬"
+      "ja": "オーケストリオン譜:斬",
+      "ko": "오케스트리온 악보: The Corpse Hall"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -5997,7 +6388,8 @@
       "de": "Kodex des mächtigen Donners",
       "en": "The Law of Levin First Edition",
       "fr": "Sentence du Patriarche",
-      "ja": "レヴィン・サンダーコーデックス"
+      "ja": "レヴィン・サンダーコーデックス",
+      "ko": "벼락의 치유서"
     },
     "stars": 4
   },
@@ -6012,7 +6404,8 @@
       "de": "Notenrolle von „Thunder Rolls“",
       "en": "Thunder Rolls Orchestrion Roll",
       "fr": "Rouleau \"Thunder Rolls\"",
-      "ja": "オーケストリオン譜:雷光雷鳴"
+      "ja": "オーケストリオン譜:雷光雷鳴",
+      "ko": "오케스트리온 악보: Thunder Rolls"
     },
     "stars": 4
   },
@@ -6027,7 +6420,8 @@
       "de": "Notenrolle von „Thunderer“",
       "en": "Thunderer Orchestrion Roll",
       "fr": "Rouleau \"Thunderer\"",
-      "ja": "オーケストリオン譜:雷鳴"
+      "ja": "オーケストリオン譜:雷鳴",
+      "ko": "오케스트리온 악보: Thunderer"
     },
     "stars": 4
   },
@@ -6042,7 +6436,8 @@
       "de": "Bastlertrank",
       "en": "Tinker's Calm",
       "fr": "Potion de minutie",
-      "ja": "精密薬"
+      "ja": "精密薬",
+      "ko": "정밀약"
     },
     "stars": 4
   },
@@ -6057,7 +6452,8 @@
       "de": "Notenrolle von „Tumbling Down“",
       "en": "Tumbling Down Orchestrion Roll",
       "fr": "Rouleau \"Tumbling Down\"",
-      "ja": "オーケストリオン譜:奈落へ"
+      "ja": "オーケストリオン譜:奈落へ",
+      "ko": "오케스트리온 악보: Tumbling Down"
     },
     "stars": 4
   },
@@ -6072,7 +6468,8 @@
       "de": "Weben für Anfänger",
       "en": "Weaving for Beginners",
       "fr": "Initiation à la couture",
-      "ja": "裁縫入門書"
+      "ja": "裁縫入門書",
+      "ko": "재봉 입문서"
     },
     "stars": 4
   },
@@ -6087,7 +6484,8 @@
       "de": "Archaeoleder-Kodex",
       "en": "Archaeoskin Codex",
       "fr": "Codex en cuir d'archéornis",
-      "ja": "アルケオーニスコーデックス"
+      "ja": "アルケオーニスコーデックス",
+      "ko": "아르케오니스 치유서"
     }
   },
   {
@@ -6101,7 +6499,8 @@
       "de": "Archaeoleder-Grimoire",
       "en": "Archaeoskin Grimoire",
       "fr": "Grimoire en cuir d'archéornis",
-      "ja": "アルケオーニスグリモア"
+      "ja": "アルケオーニスグリモア",
+      "ko": "아르케오니스 마법서"
     }
   },
   {
@@ -6115,7 +6514,8 @@
       "de": "Mythrit-Zaubertinte",
       "en": "Enchanted Mythrite Ink",
       "fr": "Encre de mithrite enchantée",
-      "ja": "ミスライトエンチャントインク"
+      "ja": "ミスライトエンチャントインク",
+      "ko": "미스라이트 마법 잉크"
     }
   },
   {
@@ -6129,7 +6529,8 @@
       "de": "Azurblaue Zaubertinte",
       "en": "Deep-blue Enchanted Ink",
       "fr": "Encre azur enchantée",
-      "ja": "紺碧のエンチャントインク"
+      "ja": "紺碧のエンチャントインク",
+      "ko": "감청색 마법 잉크"
     }
   },
   {
@@ -6143,7 +6544,8 @@
       "de": "Moosgrüne Zaubertinte",
       "en": "Deep-green Enchanted Ink",
       "fr": "Encre viride enchantée",
-      "ja": "翠緑のエンチャントインク"
+      "ja": "翠緑のエンチャントインク",
+      "ko": "취록색 마법 잉크"
     }
   },
   {
@@ -6157,7 +6559,8 @@
       "de": "Scharlachrote Zaubertinte",
       "en": "Deep-red Enchanted Ink",
       "fr": "Encre écarlate enchantée",
-      "ja": "深緋のエンチャントインク"
+      "ja": "深緋のエンチャントインク",
+      "ko": "심홍색 마법 잉크"
     }
   },
   {
@@ -6171,7 +6574,8 @@
       "de": "Wachstumsformel Epsilon",
       "en": "Growth Formula Epsilon",
       "fr": "Formule de croissance epsilon",
-      "ja": "グロースフォーミュラ・イプシロン"
+      "ja": "グロースフォーミュラ・イプシロン",
+      "ko": "성장 촉진제 입실론"
     }
   },
   {
@@ -6185,7 +6589,8 @@
       "de": "Schwarzleim",
       "en": "Void Glue",
       "fr": "Glu d'entité",
-      "ja": "黒にかわ"
+      "ja": "黒にかわ",
+      "ko": "검정아교"
     }
   },
   {
@@ -6199,7 +6604,8 @@
       "de": "Heiliger Zedernzweig",
       "en": "Holy Cedar Wand",
       "fr": "Baguette en cèdre sacré",
-      "ja": "ホーリーシーダーワンド"
+      "ja": "ホーリーシーダーワンド",
+      "ko": "성스러운 삼나무 홀장"
     }
   },
   {
@@ -6213,7 +6619,8 @@
       "de": "Heiliges Wasser",
       "en": "Holy Water",
       "fr": "Eau sacrée",
-      "ja": "聖水"
+      "ja": "聖水",
+      "ko": "성수"
     }
   },
   {
@@ -6227,7 +6634,8 @@
       "de": "Wyvernleder-Kodex",
       "en": "Wyvernskin Codex",
       "fr": "Codex en cuir de wyverne",
-      "ja": "ワイバーンコーデックス"
+      "ja": "ワイバーンコーデックス",
+      "ko": "와이번 치유서"
     }
   },
   {
@@ -6241,7 +6649,8 @@
       "de": "Wyvernleder-Grimoire",
       "en": "Wyvernskin Grimoire",
       "fr": "Grimoire en cuir de wyverne",
-      "ja": "ワイバーングリモア"
+      "ja": "ワイバーングリモア",
+      "ko": "와이번 마법서"
     }
   },
   {
@@ -6255,7 +6664,8 @@
       "de": "Graue Lilien-Haarspange",
       "en": "Black Brightlily Corsage",
       "fr": "Ornement de lys noirs",
-      "ja": "リリーオーナメント:ブラック"
+      "ja": "リリーオーナメント:ブラック",
+      "ko": "Black Brightlily Corsage"
     }
   },
   {
@@ -6269,7 +6679,8 @@
       "de": "Schwarze Kirschblüten-Haarspange",
       "en": "Black Cherry Blossom Corsage",
       "fr": "Barrette fleurs de cerisier noires",
-      "ja": "チェリーブロッサムオーナメント:ブラック"
+      "ja": "チェリーブロッサムオーナメント:ブラック",
+      "ko": "벚꽃 머리장식: 검정"
     }
   },
   {
@@ -6283,7 +6694,8 @@
       "de": "Graue Gänseblümchen-Haarspange",
       "en": "Black Daisy Corsage",
       "fr": "Barrette marguerites noires",
-      "ja": "マーガレットオーナメント:ブラック"
+      "ja": "マーガレットオーナメント:ブラック",
+      "ko": "Black Daisy Corsage"
     }
   },
   {
@@ -6297,7 +6709,8 @@
       "de": "Getrocknete schwarze Veilchen",
       "en": "Black Viola Corsage",
       "fr": "Barrette pensées noires",
-      "ja": "パンジーオーナメント:ブラック"
+      "ja": "パンジーオーナメント:ブラック",
+      "ko": "팬지 머리장식: 검정"
     }
   },
   {
@@ -6311,7 +6724,8 @@
       "de": "Blaue Lilien-Haarspange",
       "en": "Blue Brightlily Corsage",
       "fr": "Ornement de lys bleus",
-      "ja": "リリーオーナメント:ブルー"
+      "ja": "リリーオーナメント:ブルー",
+      "ko": "Blue Brightlily Corsage"
     }
   },
   {
@@ -6325,7 +6739,8 @@
       "de": "Blaue Kirschblüten-Haarspange",
       "en": "Blue Cherry Blossom Corsage",
       "fr": "Barrette fleurs de cerisier bleues",
-      "ja": "チェリーブロッサムオーナメント:ブルー"
+      "ja": "チェリーブロッサムオーナメント:ブルー",
+      "ko": "벚꽃 머리장식: 파랑"
     }
   },
   {
@@ -6339,7 +6754,8 @@
       "de": "Blaue Gänseblümchen-Haarspange",
       "en": "Blue Daisy Corsage",
       "fr": "Barrette marguerites bleues",
-      "ja": "マーガレットオーナメント:ブルー"
+      "ja": "マーガレットオーナメント:ブルー",
+      "ko": "Blue Daisy Corsage"
     }
   },
   {
@@ -6353,7 +6769,8 @@
       "de": "Getrocknete blaue Veilchen",
       "en": "Blue Viola Corsage",
       "fr": "Barrette pensées bleues",
-      "ja": "パンジーオーナメント:ブルー"
+      "ja": "パンジーオーナメント:ブルー",
+      "ko": "팬지 머리장식: 파랑"
     }
   },
   {
@@ -6367,7 +6784,8 @@
       "de": "Getrocknete schwarze Altrosen",
       "en": "Dried Black Oldrose",
       "fr": "Barrette rose ancienne noire",
-      "ja": "オールドローズオーナメント:ブラック"
+      "ja": "オールドローズオーナメント:ブラック",
+      "ko": "올드로즈 머리장식: 검정"
     }
   },
   {
@@ -6381,7 +6799,8 @@
       "de": "Getrocknete blaue Altrosen",
       "en": "Dried Blue Oldrose",
       "fr": "Barrette rose ancienne bleue",
-      "ja": "オールドローズオーナメント:ブルー"
+      "ja": "オールドローズオーナメント:ブルー",
+      "ko": "올드로즈 머리장식: 파랑"
     }
   },
   {
@@ -6395,7 +6814,8 @@
       "de": "Getrocknete grüne Altrosen",
       "en": "Dried Green Oldrose",
       "fr": "Barrette rose ancienne verte",
-      "ja": "オールドローズオーナメント:グリーン"
+      "ja": "オールドローズオーナメント:グリーン",
+      "ko": "올드로즈 머리장식: 초록"
     }
   },
   {
@@ -6409,7 +6829,8 @@
       "de": "Getrocknete orange Altrosen",
       "en": "Dried Orange Oldrose",
       "fr": "Barrette rose ancienne orange",
-      "ja": "オールドローズオーナメント:オレンジ"
+      "ja": "オールドローズオーナメント:オレンジ",
+      "ko": "올드로즈 머리장식: 주황"
     }
   },
   {
@@ -6423,7 +6844,8 @@
       "de": "Getrocknete violette Altrosen",
       "en": "Dried Purple Oldrose",
       "fr": "Barrette rose ancienne violette",
-      "ja": "オールドローズオーナメント:パープル"
+      "ja": "オールドローズオーナメント:パープル",
+      "ko": "올드로즈 머리장식: 보라"
     }
   },
   {
@@ -6437,7 +6859,8 @@
       "de": "Getrocknete rote Altrosen",
       "en": "Dried Red Oldrose",
       "fr": "Barrette rose ancienne rouge",
-      "ja": "オールドローズオーナメント:レッド"
+      "ja": "オールドローズオーナメント:レッド",
+      "ko": "올드로즈 머리장식: 빨강"
     }
   },
   {
@@ -6451,7 +6874,8 @@
       "de": "Getrocknete weiße Altrosen",
       "en": "Dried White Oldrose",
       "fr": "Barrette rose ancienne blanche",
-      "ja": "オールドローズオーナメント:ホワイト"
+      "ja": "オールドローズオーナメント:ホワイト",
+      "ko": "올드로즈 머리장식: 하양"
     }
   },
   {
@@ -6465,7 +6889,8 @@
       "de": "Getrocknete gelbe Altrosen",
       "en": "Dried Yellow Oldrose",
       "fr": "Barrette rose ancienne jaune",
-      "ja": "オールドローズオーナメント:イエロー"
+      "ja": "オールドローズオーナメント:イエロー",
+      "ko": "올드로즈 머리장식: 노랑"
     }
   },
   {
@@ -6479,7 +6904,8 @@
       "de": "Geschicklichkeit-Lösungsmittel I",
       "en": "Grade 1 Dexterity Dissolvent",
       "fr": "Dissolvant de dextérité I",
-      "ja": "眼力の錬金溶剤G1"
+      "ja": "眼力の錬金溶剤G1",
+      "ko": "1등급 민첩성의 연금용제"
     }
   },
   {
@@ -6493,7 +6919,8 @@
       "de": "Stärke-Lösungsmittel I",
       "en": "Grade 1 Strength Dissolvent",
       "fr": "Dissolvant de force I",
-      "ja": "剛力の錬金溶剤G1"
+      "ja": "剛力の錬金溶剤G1",
+      "ko": "1등급 힘의 연금용제"
     }
   },
   {
@@ -6507,7 +6934,8 @@
       "de": "Grüne Lilien-Haarspange",
       "en": "Green Brightlily Corsage",
       "fr": "Ornement de lys verts",
-      "ja": "リリーオーナメント:グリーン"
+      "ja": "リリーオーナメント:グリーン",
+      "ko": "Green Brightlily Corsage"
     }
   },
   {
@@ -6521,7 +6949,8 @@
       "de": "Grüne Kirschblüten-Haarspange",
       "en": "Green Cherry Blossom Corsage",
       "fr": "Barrette fleurs de cerisier vertes",
-      "ja": "チェリーブロッサムオーナメント:グリーン"
+      "ja": "チェリーブロッサムオーナメント:グリーン",
+      "ko": "벚꽃 머리장식: 초록"
     }
   },
   {
@@ -6535,7 +6964,8 @@
       "de": "Grüne Gänseblümchen-Haarspange",
       "en": "Green Daisy Corsage",
       "fr": "Barrette marguerites vertes",
-      "ja": "マーガレットオーナメント:グリーン"
+      "ja": "マーガレットオーナメント:グリーン",
+      "ko": "Green Daisy Corsage"
     }
   },
   {
@@ -6549,7 +6979,8 @@
       "de": "Getrocknete grüne Veilchen",
       "en": "Green Viola Corsage",
       "fr": "Barrette pensées vertes",
-      "ja": "パンジーオーナメント:グリーン"
+      "ja": "パンジーオーナメント:グリーン",
+      "ko": "팬지 머리장식: 초록"
     }
   },
   {
@@ -6563,7 +6994,8 @@
       "de": "Getrocknete mehrfarbige Altrosen",
       "en": "Oldrose Corsage",
       "fr": "Barrette roses anciennes multicolores",
-      "ja": "オールドローズオーナメント:ブレンド"
+      "ja": "オールドローズオーナメント:ブレンド",
+      "ko": "올드로즈 머리장식: 혼합"
     }
   },
   {
@@ -6577,7 +7009,8 @@
       "de": "Orange Lilien-Haarspange",
       "en": "Orange Brightlily Corsage",
       "fr": "Ornement de lys orange",
-      "ja": "リリーオーナメント:オレンジ"
+      "ja": "リリーオーナメント:オレンジ",
+      "ko": "Orange Brightlily Corsage"
     }
   },
   {
@@ -6591,7 +7024,8 @@
       "de": "Orange Kirschblüten-Haarspange",
       "en": "Orange Cherry Blossom Corsage",
       "fr": "Barrette fleurs de cerisier orange",
-      "ja": "チェリーブロッサムオーナメント:オレンジ"
+      "ja": "チェリーブロッサムオーナメント:オレンジ",
+      "ko": "벚꽃 머리장식: 주황"
     }
   },
   {
@@ -6605,7 +7039,8 @@
       "de": "Orange Gänseblümchen-Haarspange",
       "en": "Orange Daisy Corsage",
       "fr": "Barrette marguerites orange",
-      "ja": "マーガレットオーナメント:オレンジ"
+      "ja": "マーガレットオーナメント:オレンジ",
+      "ko": "Orange Daisy Corsage"
     }
   },
   {
@@ -6619,7 +7054,8 @@
       "de": "Getrocknete orange Veilchen",
       "en": "Orange Viola Corsage",
       "fr": "Barrette pensées orange",
-      "ja": "パンジーオーナメント:オレンジ"
+      "ja": "パンジーオーナメント:オレンジ",
+      "ko": "팬지 머리장식: 주황"
     }
   },
   {
@@ -6633,7 +7069,8 @@
       "de": "Rosa Kirschblüten-Haarspange",
       "en": "Pink Cherry Blossom Corsage",
       "fr": "Barrette fleurs de cerisier roses",
-      "ja": "チェリーブロッサムオーナメント:ピンク"
+      "ja": "チェリーブロッサムオーナメント:ピンク",
+      "ko": "벚꽃 머리장식: 분홍"
     }
   },
   {
@@ -6647,7 +7084,8 @@
       "de": "Violette Lilien-Haarspange",
       "en": "Purple Brightlily Corsage",
       "fr": "Ornement de lys violets",
-      "ja": "リリーオーナメント:パープル"
+      "ja": "リリーオーナメント:パープル",
+      "ko": "Purple Brightlily Corsage"
     }
   },
   {
@@ -6661,7 +7099,8 @@
       "de": "Violette Kirschblüten-Haarspange",
       "en": "Purple Cherry Blossom Corsage",
       "fr": "Barrette fleurs de cerisier violettes",
-      "ja": "チェリーブロッサムオーナメント:パープル"
+      "ja": "チェリーブロッサムオーナメント:パープル",
+      "ko": "벚꽃 머리장식: 보라"
     }
   },
   {
@@ -6675,7 +7114,8 @@
       "de": "Violette Gänseblümchen-Haarspange",
       "en": "Purple Daisy Corsage",
       "fr": "Barrette marguerites violettes",
-      "ja": "マーガレットオーナメント:パープル"
+      "ja": "マーガレットオーナメント:パープル",
+      "ko": "Purple Daisy Corsage"
     }
   },
   {
@@ -6689,7 +7129,8 @@
       "de": "Getrocknete violette Veilchen",
       "en": "Purple Viola Corsage",
       "fr": "Barrette pensées violettes",
-      "ja": "パンジーオーナメント:パープル"
+      "ja": "パンジーオーナメント:パープル",
+      "ko": "팬지 머리장식: 보라"
     }
   },
   {
@@ -6703,7 +7144,8 @@
       "de": "Mehrfarbige Lilien-Haarspange",
       "en": "Rainbow Brightlily Corsage",
       "fr": "Ornement de lys arc-en-ciel",
-      "ja": "リリーオーナメント:ブレンド"
+      "ja": "リリーオーナメント:ブレンド",
+      "ko": "Rainbow Brightlily Corsage"
     }
   },
   {
@@ -6717,7 +7159,8 @@
       "de": "Mehrfarbige Gänseblümchen-Haarspange",
       "en": "Rainbow Daisy Corsage",
       "fr": "Barrette marguerites multicolores",
-      "ja": "マーガレットオーナメント:ブレンド"
+      "ja": "マーガレットオーナメント:ブレンド",
+      "ko": "Rainbow Daisy Corsage"
     }
   },
   {
@@ -6731,7 +7174,8 @@
       "de": "Getrocknete mehrfarbige Veilchen",
       "en": "Rainbow Viola Corsage",
       "fr": "Barrette pensées multicolores",
-      "ja": "パンジーオーナメント:ブレンド"
+      "ja": "パンジーオーナメント:ブレンド",
+      "ko": "팬지 머리장식: 혼합"
     }
   },
   {
@@ -6745,7 +7189,8 @@
       "de": "Rosa Lilien-Haarspange",
       "en": "Red Brightlily Corsage",
       "fr": "Ornement de lys rouges",
-      "ja": "リリーオーナメント:レッド"
+      "ja": "リリーオーナメント:レッド",
+      "ko": "Red Brightlily Corsage"
     }
   },
   {
@@ -6759,7 +7204,8 @@
       "de": "Rote Kirschblüten-Haarspange",
       "en": "Red Cherry Blossom Corsage",
       "fr": "Barrette fleurs de cerisier rouges",
-      "ja": "チェリーブロッサムオーナメント:レッド"
+      "ja": "チェリーブロッサムオーナメント:レッド",
+      "ko": "벚꽃 머리장식: 빨강"
     }
   },
   {
@@ -6773,7 +7219,8 @@
       "de": "Rote Gänseblümchen-Haarspange",
       "en": "Red Daisy Corsage",
       "fr": "Barrette marguerites rouges",
-      "ja": "マーガレットオーナメント:レッド"
+      "ja": "マーガレットオーナメント:レッド",
+      "ko": "Red Daisy Corsage"
     }
   },
   {
@@ -6787,7 +7234,8 @@
       "de": "Getrocknete rote Veilchen",
       "en": "Red Viola Corsage",
       "fr": "Barrette pensées rouges",
-      "ja": "パンジーオーナメント:レッド"
+      "ja": "パンジーオーナメント:レッド",
+      "ko": "팬지 머리장식: 빨강"
     }
   },
   {
@@ -6801,7 +7249,8 @@
       "de": "Weiße Lilien-Haarspange",
       "en": "White Brightlily Corsage",
       "fr": "Ornement de lys blancs",
-      "ja": "リリーオーナメント:ホワイト"
+      "ja": "リリーオーナメント:ホワイト",
+      "ko": "White Brightlily Corsage"
     }
   },
   {
@@ -6815,7 +7264,8 @@
       "de": "Weiße Kirschblüten-Haarspange",
       "en": "White Cherry Blossom Corsage",
       "fr": "Barrette fleurs de cerisier blanches",
-      "ja": "チェリーブロッサムオーナメント:ホワイト"
+      "ja": "チェリーブロッサムオーナメント:ホワイト",
+      "ko": "벚꽃 머리장식: 하양"
     }
   },
   {
@@ -6829,7 +7279,8 @@
       "de": "Weiße Gänseblümchen-Haarspange",
       "en": "White Daisy Corsage",
       "fr": "Barrette marguerites blanches",
-      "ja": "マーガレットオーナメント:ホワイト"
+      "ja": "マーガレットオーナメント:ホワイト",
+      "ko": "White Daisy Corsage"
     }
   },
   {
@@ -6843,7 +7294,8 @@
       "de": "Getrocknete weiße Veilchen",
       "en": "White Viola Corsage",
       "fr": "Barrette pensées blanches",
-      "ja": "パンジーオーナメント:ホワイト"
+      "ja": "パンジーオーナメント:ホワイト",
+      "ko": "팬지 머리장식: 하양"
     }
   },
   {
@@ -6857,7 +7309,8 @@
       "de": "Gelbe Lilien-Haarspange",
       "en": "Yellow Brightlily Corsage",
       "fr": "Ornement de lys jaunes",
-      "ja": "リリーオーナメント:イエロー"
+      "ja": "リリーオーナメント:イエロー",
+      "ko": "Yellow Brightlily Corsage"
     }
   },
   {
@@ -6871,7 +7324,8 @@
       "de": "Gelbe Kirschblüten-Haarspange",
       "en": "Yellow Cherry Blossom Corsage",
       "fr": "Barrette fleurs de cerisier jaunes",
-      "ja": "チェリーブロッサムオーナメント:イエロー"
+      "ja": "チェリーブロッサムオーナメント:イエロー",
+      "ko": "벚꽃 머리장식: 노랑"
     }
   },
   {
@@ -6885,7 +7339,8 @@
       "de": "Gelbe Gänseblümchen-Haarspange",
       "en": "Yellow Daisy Corsage",
       "fr": "Barrette marguerites jaunes",
-      "ja": "マーガレットオーナメント:イエロー"
+      "ja": "マーガレットオーナメント:イエロー",
+      "ko": "Yellow Daisy Corsage"
     }
   },
   {
@@ -6899,7 +7354,8 @@
       "de": "Getrocknete gelbe Veilchen",
       "en": "Yellow Viola Corsage",
       "fr": "Barrette pensées jaunes",
-      "ja": "パンジーオーナメント:イエロー"
+      "ja": "パンジーオーナメント:イエロー",
+      "ko": "팬지 머리장식: 노랑"
     }
   },
   {
@@ -6913,7 +7369,8 @@
       "de": "Hartsilber-Zaubertinte",
       "en": "Enchanted Hardsilver Ink",
       "fr": "Encre de durargent enchantée",
-      "ja": "ハードシルバー・エンチャントインク"
+      "ja": "ハードシルバー・エンチャントインク",
+      "ko": "경은 마법 잉크"
     }
   },
   {
@@ -6927,7 +7384,8 @@
       "de": "Intelligenz-Lösungsmittel I",
       "en": "Grade 1 Intelligence Dissolvent",
       "fr": "Dissolvant d'intelligence I",
-      "ja": "知力の錬金溶剤G1"
+      "ja": "知力の錬金溶剤G1",
+      "ko": "1등급 지능의 연금용제"
     }
   },
   {
@@ -6941,7 +7399,8 @@
       "de": "Willenskraft-Lösungsmittel I",
       "en": "Grade 1 Mind Dissolvent",
       "fr": "Dissolvant d'esprit I",
-      "ja": "心力の錬金溶剤G1"
+      "ja": "心力の錬金溶剤G1",
+      "ko": "1등급 정신력의 연금용제"
     }
   },
   {
@@ -6955,7 +7414,8 @@
       "de": "Konstitution-Lösungsmittel I",
       "en": "Grade 1 Vitality Dissolvent",
       "fr": "Dissolvant de vitalité I",
-      "ja": "活力の錬金溶剤G1"
+      "ja": "活力の錬金溶剤G1",
+      "ko": "1등급 활력의 연금용제"
     }
   },
   {
@@ -6969,7 +7429,8 @@
       "de": "Dhalmelleder-Kodex",
       "en": "Dhalmelskin Codex",
       "fr": "Codex en cuir de dhalmel",
-      "ja": "ダルメルコーデックス"
+      "ja": "ダルメルコーデックス",
+      "ko": "달멜 치유서"
     }
   },
   {
@@ -6983,7 +7444,8 @@
       "de": "Dhalmelleder-Grimoire",
       "en": "Dhalmelskin Grimoire",
       "fr": "Grimoire en cuir de dhalmel",
-      "ja": "ダルメルグリモア"
+      "ja": "ダルメルグリモア",
+      "ko": "달멜 마법서"
     }
   },
   {
@@ -6997,7 +7459,8 @@
       "de": "Lupinen-Beet",
       "en": "Lupin Plot",
       "fr": "Lupins",
-      "ja": "ルピナスガーデン"
+      "ja": "ルピナスガーデン",
+      "ko": "루핀 꽃밭"
     }
   },
   {
@@ -7011,7 +7474,8 @@
       "de": "Karfunkel-Busch",
       "en": "Topiary Carbuncle",
       "fr": "Topiaire de Carbuncle",
-      "ja": "カーバンクルトピアリー"
+      "ja": "カーバンクルトピアリー",
+      "ko": "카벙클 정원수"
     }
   },
   {
@@ -7025,7 +7489,8 @@
       "de": "Chocobo-Busch",
       "en": "Topiary Chocobo",
       "fr": "Topiaire de bébé chocobo",
-      "ja": "チョコボトピアリー"
+      "ja": "チョコボトピアリー",
+      "ko": "초코보 정원수"
     }
   },
   {
@@ -7039,7 +7504,8 @@
       "de": "Mogry-Busch",
       "en": "Topiary Moogle",
       "fr": "Topiaire de Mog",
-      "ja": "モーグリトピアリー"
+      "ja": "モーグリトピアリー",
+      "ko": "모그리 정원수"
     }
   },
   {
@@ -7053,7 +7519,8 @@
       "de": "Paissa-Busch",
       "en": "Topiary Paissa",
       "fr": "Topiaire de païssa",
-      "ja": "パイッサトピアリー"
+      "ja": "パイッサトピアリー",
+      "ko": "파이싸 정원수"
     }
   },
   {
@@ -7067,7 +7534,8 @@
       "de": "Sabotender-Busch",
       "en": "Topiary Sabotender",
       "fr": "Topiaire de pampa",
-      "ja": "サボテンダートピアリー"
+      "ja": "サボテンダートピアリー",
+      "ko": "사보텐더 정원수"
     }
   },
   {
@@ -7081,7 +7549,8 @@
       "de": "Sekundenleim",
       "en": "Wing Glue",
       "fr": "Super glu",
-      "ja": "瞬間にかわ"
+      "ja": "瞬間にかわ",
+      "ko": "순간접착제"
     }
   },
   {
@@ -7095,7 +7564,8 @@
       "de": "Kastanienzweig",
       "en": "Hallowed Chestnut Wand",
       "fr": "Baguette en châtaignier sanctifié",
-      "ja": "ハロードチェスナットワンド"
+      "ja": "ハロードチェスナットワンド",
+      "ko": "축성의 밤나무 마법봉"
     }
   },
   {
@@ -7109,7 +7579,8 @@
       "de": "Geheiligtes Wasser",
       "en": "Hallowed Water",
       "fr": "Eau sanctifiée",
-      "ja": "祝聖水"
+      "ja": "祝聖水",
+      "ko": "축성수"
     }
   },
   {
@@ -7123,7 +7594,8 @@
       "de": "Drachenleder-Kodex",
       "en": "Dragonskin Codex",
       "fr": "Codex en cuir de dragon",
-      "ja": "ドラゴンレザーコーデックス"
+      "ja": "ドラゴンレザーコーデックス",
+      "ko": "드래곤 가죽 치유서"
     }
   },
   {
@@ -7137,7 +7609,8 @@
       "de": "Drachenleder-Grimoire",
       "en": "Dragonskin Grimoire",
       "fr": "Grimoire en cuir de dragon",
-      "ja": "ドラゴンレザーグリモア"
+      "ja": "ドラゴンレザーグリモア",
+      "ko": "드래곤 가죽 마법서"
     }
   },
   {
@@ -7151,7 +7624,8 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品"
+      "ja": "近東風の蒐集品",
+      "ko": "근동풍 소장품"
     }
   },
   {
@@ -7165,7 +7639,8 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材"
+      "ja": "近東風の蒐集品部材",
+      "ko": "근동풍 소장품 부재"
     }
   },
   {
@@ -7179,7 +7654,8 @@
       "de": "Königsgold-Grimoire",
       "en": "Book of Aurum Regis",
       "fr": "Livre en aurum regis",
-      "ja": "ブック・オブ・オーラムレギス"
+      "ja": "ブック・オブ・オーラムレギス",
+      "ko": "황제금 책"
     }
   },
   {
@@ -7193,7 +7669,8 @@
       "de": "Coerthisches Souvenir",
       "en": "Coerthan Souvenir",
       "fr": "Souvenir du Coerthas",
-      "ja": "寒冷地の名産品"
+      "ja": "寒冷地の名産品",
+      "ko": "한랭지 특산품"
     }
   },
   {
@@ -7207,7 +7684,8 @@
       "de": "Komponente eines coerthischen Souvenirs",
       "en": "Coerthan Souvenir Component",
       "fr": "Composant de souvenir du Coerthas",
-      "ja": "寒冷地の名産品部材"
+      "ja": "寒冷地の名産品部材",
+      "ko": "한랭지 특산품 부재"
     }
   },
   {
@@ -7221,7 +7699,8 @@
       "de": "Drachentrank der Geschicklichkeit",
       "en": "Draconian Potion of Dexterity",
       "fr": "Potion draconique de dextérité",
-      "ja": "眼力の竜薬"
+      "ja": "眼力の竜薬",
+      "ko": "민첩성의 용약"
     }
   },
   {
@@ -7235,7 +7714,8 @@
       "de": "Drachentrank der Stärke",
       "en": "Draconian Potion of Strength",
       "fr": "Potion draconique de force",
-      "ja": "剛力の竜薬"
+      "ja": "剛力の竜薬",
+      "ko": "힘의 용약"
     }
   },
   {
@@ -7249,7 +7729,8 @@
       "de": "Königsgold-Zaubertinte",
       "en": "Enchanted Aurum Regis Ink",
       "fr": "Encre d'aurum regis enchantée",
-      "ja": "オーラムレギス・エンチャントインク"
+      "ja": "オーラムレギス・エンチャントインク",
+      "ko": "황제금 마법 잉크"
     }
   },
   {
@@ -7263,7 +7744,8 @@
       "de": "Wachstumsformel Zeta",
       "en": "Growth Formula Zeta",
       "fr": "Formule de croissance zêta",
-      "ja": "グロースフォーミュラ・ゼータ"
+      "ja": "グロースフォーミュラ・ゼータ",
+      "ko": "성장 촉진제 제타"
     }
   },
   {
@@ -7277,7 +7759,8 @@
       "de": "Königsgold-Picatrix",
       "en": "Noble's Picatrix",
       "fr": "Picatrix en aurum regis",
-      "ja": "ピカトリクス・オブ・オーラムレギス"
+      "ja": "ピカトリクス・オブ・オーラムレギス",
+      "ko": "황제금 비술서"
     }
   },
   {
@@ -7291,7 +7774,8 @@
       "de": "Drachentrank der Intelligenz",
       "en": "Draconian Potion of Intelligence",
       "fr": "Potion draconique d'intelligence",
-      "ja": "知力の竜薬"
+      "ja": "知力の竜薬",
+      "ko": "지능의 용약"
     }
   },
   {
@@ -7305,7 +7789,8 @@
       "de": "Drachentrank der Willenskraft",
       "en": "Draconian Potion of Mind",
       "fr": "Potion draconique d'esprit",
-      "ja": "心力の竜薬"
+      "ja": "心力の竜薬",
+      "ko": "정신력의 용약"
     }
   },
   {
@@ -7319,7 +7804,8 @@
       "de": "Drachentrank der Konstitution",
       "en": "Draconian Potion of Vitality",
       "fr": "Potion draconique de vitalité",
-      "ja": "活力の竜薬"
+      "ja": "活力の竜薬",
+      "ko": "활력의 용약"
     }
   },
   {
@@ -7333,7 +7819,8 @@
       "de": "Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel",
       "fr": "Équipement militaire du Maelstrom",
-      "ja": "黒渦団の軍需品"
+      "ja": "黒渦団の軍需品",
+      "ko": "흑와단 군수품"
     }
   },
   {
@@ -7347,7 +7834,8 @@
       "de": "Komponente eines Stücks Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel Component",
       "fr": "Composant d'équipement militaire du Maelstrom",
-      "ja": "黒渦団の軍需品部材"
+      "ja": "黒渦団の軍需品部材",
+      "ko": "흑와단 군수품 부재"
     }
   },
   {
@@ -7361,7 +7849,8 @@
       "de": "Fernöstliches Gras",
       "en": "Oriental Grass Plot",
       "fr": "Roseaux de Doma",
-      "ja": "ドマグラスガーデン"
+      "ja": "ドマグラスガーデン",
+      "ko": "도마 억새밭"
     }
   },
   {
@@ -7375,7 +7864,8 @@
       "de": "Supersekundenleim",
       "en": "Scale Glue",
       "fr": "Ultra glu",
-      "ja": "瞬間強力にかわ"
+      "ja": "瞬間強力にかわ",
+      "ko": "순간강력접착제"
     }
   },
   {
@@ -7389,7 +7879,8 @@
       "de": "Notenrolle von „Against the Wind“",
       "en": "Against the Wind Orchestrion Roll",
       "fr": "Rouleau \"Against the Wind\"",
-      "ja": "オーケストリオン譜:風に向かって"
+      "ja": "オーケストリオン譜:風に向かって",
+      "ko": "오케스트리온 악보: Against the Wind"
     }
   },
   {
@@ -7403,7 +7894,8 @@
       "de": "Notenrolle von „Blood For Blood“",
       "en": "Blood for Blood Orchestrion Roll",
       "fr": "Rouleau \"Blood for Blood\"",
-      "ja": "オーケストリオン譜:血で血を洗って"
+      "ja": "オーケストリオン譜:血で血を洗って",
+      "ko": "오케스트리온 악보: Blood for Blood"
     }
   },
   {
@@ -7417,7 +7909,8 @@
       "de": "Notenrolle von „Close to the Heavens“",
       "en": "Close to the Heavens Orchestrion Roll",
       "fr": "Rouleau \"Close to the Heavens\"",
-      "ja": "オーケストリオン譜:天上の世界"
+      "ja": "オーケストリオン譜:天上の世界",
+      "ko": "오케스트리온 악보: Close to the Heavens"
     }
   },
   {
@@ -7431,7 +7924,8 @@
       "de": "Notenrolle von „Engage“",
       "en": "Engage Orchestrion Roll",
       "fr": "Rouleau \"Engage\"",
-      "ja": "オーケストリオン譜:蒼き翼"
+      "ja": "オーケストリオン譜:蒼き翼",
+      "ko": "오케스트리온 악보: Engage"
     }
   },
   {
@@ -7445,7 +7939,8 @@
       "de": "Abanische Spezialität",
       "en": "Gyr Abanian Souvenir",
       "fr": "Souvenir de Gyr Abania",
-      "ja": "ギラバニアの名産品"
+      "ja": "ギラバニアの名産品",
+      "ko": "Gyr Abanian Souvenir"
     }
   },
   {
@@ -7459,7 +7954,8 @@
       "de": "Komponente eines abanischen Souvenirs",
       "en": "Gyr Abanian Souvenir Component",
       "fr": "Composant de souvenir de Gyr Abania",
-      "ja": "ギラバニア名産品部材"
+      "ja": "ギラバニア名産品部材",
+      "ko": "Gyr Abanian Souvenir Component"
     }
   },
   {
@@ -7473,7 +7969,8 @@
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
       "fr": "Cadeau attentionné",
-      "ja": "心尽くしの贈答品"
+      "ja": "心尽くしの贈答品",
+      "ko": "정성이 가득한 선물"
     }
   },
   {
@@ -7487,7 +7984,8 @@
       "de": "Komponente eines innigen Geschenks",
       "en": "Heartfelt Gift Component",
       "fr": "Composant de cadeau attentionné",
-      "ja": "心尽くしの贈答品部材"
+      "ja": "心尽くしの贈答品部材",
+      "ko": "정성이 가득한 선물 부재"
     }
   },
   {
@@ -7501,7 +7999,8 @@
       "de": "Notenrolle von „Imagination“",
       "en": "Imagination Orchestrion Roll",
       "fr": "Rouleau \"Imagination\"",
-      "ja": "オーケストリオン譜:イマジネーション"
+      "ja": "オーケストリオン譜:イマジネーション",
+      "ko": "오케스트리온 악보: Imagination"
     }
   },
   {
@@ -7515,7 +8014,8 @@
       "de": "Notenrolle von „Landlords“",
       "en": "Landlords Orchestrion Roll",
       "fr": "Rouleau \"Landlords\"",
-      "ja": "オーケストリオン譜:ランドロード"
+      "ja": "オーケストリオン譜:ランドロード",
+      "ko": "오케스트리온 악보: Landlords"
     }
   },
   {
@@ -7529,7 +8029,8 @@
       "de": "Notenrolle von „Lost In the Clouds“",
       "en": "Lost in the Clouds Orchestrion Roll",
       "fr": "Rouleau \"Lost in the Clouds\"",
-      "ja": "オーケストリオン譜:雲に隠れて"
+      "ja": "オーケストリオン譜:雲に隠れて",
+      "ko": "오케스트리온 악보: Lost in the Clouds"
     }
   },
   {
@@ -7543,7 +8044,8 @@
       "de": "Max-Äther",
       "en": "Max-Ether",
       "fr": "Maxi éther",
-      "ja": "マキシエーテル"
+      "ja": "マキシエーテル",
+      "ko": "맥시 에테르"
     }
   },
   {
@@ -7557,7 +8059,8 @@
       "de": "Maxtrank",
       "en": "Max-Potion",
       "fr": "Maxi potion",
-      "ja": "マキシポーション"
+      "ja": "マキシポーション",
+      "ko": "맥시 포션"
     }
   },
   {
@@ -7571,7 +8074,8 @@
       "de": "Notenrolle von „Missing Pages“",
       "en": "Missing Pages Orchestrion Roll",
       "fr": "Rouleau \"Missing Pages\"",
-      "ja": "オーケストリオン譜:欠けた頁"
+      "ja": "オーケストリオン譜:欠けた頁",
+      "ko": "오케스트리온 악보: Missing Pages"
     }
   },
   {
@@ -7585,7 +8089,8 @@
       "de": "Königsgold-Index",
       "en": "Noble Gold",
       "fr": "Index en aurum regis",
-      "ja": "インデックス・オブ・オーラムレギス"
+      "ja": "インデックス・オブ・オーラムレギス",
+      "ko": "황제금 금서"
     }
   },
   {
@@ -7599,7 +8104,8 @@
       "de": "Königsgold-Kodex",
       "en": "Noble's Codex",
       "fr": "Codex en aurum regis",
-      "ja": "コーデックス・オブ・オーラムレギス"
+      "ja": "コーデックス・オブ・オーラムレギス",
+      "ko": "황제금 치유서"
     }
   },
   {
@@ -7613,7 +8119,8 @@
       "de": "Notenrolle von „Painted Foothills“",
       "en": "Painted Foothills Orchestrion Roll",
       "fr": "Rouleau \"Painted Foothills\"",
-      "ja": "オーケストリオン譜:彩られし山麓"
+      "ja": "オーケストリオン譜:彩られし山麓",
+      "ko": "오케스트리온 악보: Painted Foothills"
     }
   },
   {
@@ -7627,7 +8134,8 @@
       "de": "Notenrolle von „Skylords“",
       "en": "Skylords Orchestrion Roll",
       "fr": "Rouleau \"Skylords\"",
-      "ja": "オーケストリオン譜:スカイロード"
+      "ja": "オーケストリオン譜:スカイロード",
+      "ko": "오케스트리온 악보: Skylords"
     }
   },
   {
@@ -7641,7 +8149,8 @@
       "de": "Notenrolle von „Starved“",
       "en": "Starved Orchestrion Roll",
       "fr": "Rouleau \"Starved\"",
-      "ja": "オーケストリオン譜:餓えた狼"
+      "ja": "オーケストリオン譜:餓えた狼",
+      "ko": "오케스트리온 악보: Starved"
     }
   },
   {
@@ -7655,7 +8164,8 @@
       "de": "Notenrolle von „The Silent Regard of Stars“",
       "en": "The Silent Regard of Stars Orchestrion Roll",
       "fr": "Rouleau \"The Silent Regard of Stars\"",
-      "ja": "オーケストリオン譜:静寂の星空"
+      "ja": "オーケストリオン譜:静寂の星空",
+      "ko": "오케스트리온 악보: The Silent Regard of Stars"
     }
   },
   {
@@ -7669,7 +8179,8 @@
       "de": "Astralöl",
       "en": "Astral Oil",
       "fr": "Huile astrale",
-      "ja": "アストラルオイル"
+      "ja": "アストラルオイル",
+      "ko": "별기름"
     },
     "stars": 1
   },
@@ -7684,7 +8195,8 @@
       "de": "Mini-Atomos",
       "en": "Atrophied Atomos",
       "fr": "Atomos atrophié",
-      "ja": "ミニマムアトモス"
+      "ja": "ミニマムアトモス",
+      "ko": "미니 아토모스"
     },
     "stars": 1
   },
@@ -7699,7 +8211,8 @@
       "de": "Notenrolle von „Down the Up Staircase“",
       "en": "Down the Up Staircase Orchestrion Roll",
       "fr": "Rouleau \"Down the Up Staircase\"",
-      "ja": "オーケストリオン譜:上り階段をくだれ"
+      "ja": "オーケストリオン譜:上り階段をくだれ",
+      "ko": "오케스트리온 악보: Down the Up Staircase"
     },
     "stars": 1
   },
@@ -7714,7 +8227,8 @@
       "de": "Notenrolle von „Eternal Wind“",
       "en": "Eternal Wind Orchestrion Roll",
       "fr": "Rouleau \"Eternal Wind\"",
-      "ja": "オーケストリオン譜:悠久の風"
+      "ja": "オーケストリオン譜:悠久の風",
+      "ko": "오케스트리온 악보: Eternal Wind"
     },
     "stars": 1
   },
@@ -7729,7 +8243,8 @@
       "de": "Fernöstliche Kuriosität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品"
+      "ja": "東方風の蒐集品",
+      "ko": "Far Eastern Antique"
     },
     "stars": 1
   },
@@ -7744,7 +8259,8 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材"
+      "ja": "東方風の蒐集品部材",
+      "ko": "Far Eastern Antique Component"
     },
     "stars": 1
   },
@@ -7759,7 +8275,8 @@
       "de": "Notenrolle von „Fiend“",
       "en": "Fiend Orchestrion Roll",
       "fr": "Rouleau \"Fiend\"",
-      "ja": "オーケストリオン譜:魔神"
+      "ja": "オーケストリオン譜:魔神",
+      "ko": "오케스트리온 악보: Fiend"
     },
     "stars": 1
   },
@@ -7774,7 +8291,8 @@
       "de": "Notenrolle von „Heroes“",
       "en": "Heroes Orchestrion Roll",
       "fr": "Rouleau \"Heroes\"",
-      "ja": "オーケストリオン譜:英傑"
+      "ja": "オーケストリオン譜:英傑",
+      "ko": "오케스트리온 악보: Heroes"
     },
     "stars": 1
   },
@@ -7789,7 +8307,8 @@
       "de": "Notenrolle von „Limitless Blue“",
       "en": "Limitless Blue Orchestrion Roll",
       "fr": "Rouleau \"Limitless Blue\"",
-      "ja": "オーケストリオン譜:果てなき蒼"
+      "ja": "オーケストリオン譜:果てなき蒼",
+      "ko": "오케스트리온 악보: Limitless Blue"
     },
     "stars": 1
   },
@@ -7804,7 +8323,8 @@
       "de": "Waisenhaus-Spende",
       "en": "Orphanage Donation",
       "fr": "Article quotidien d'orphelinat",
-      "ja": "孤児院の日用品"
+      "ja": "孤児院の日用品",
+      "ko": "고아원 일용품"
     },
     "stars": 1
   },
@@ -7819,7 +8339,8 @@
       "de": "Komponente einer Waisenhaus-Spende",
       "en": "Orphanage Donation Component",
       "fr": "Composant d'article pour orphelinat",
-      "ja": "孤児院の日用品部材"
+      "ja": "孤児院の日用品部材",
+      "ko": "고아원 일용품 부재"
     },
     "stars": 1
   },
@@ -7834,7 +8355,8 @@
       "de": "Azurblaue Starkzauber-Tinte",
       "en": "Superior Deep-blue Enchanted Ink",
       "fr": "Encre azur enchantée de haute qualité",
-      "ja": "紺碧のハイエンチャントインク"
+      "ja": "紺碧のハイエンチャントインク",
+      "ko": "감청색 고급 마법 잉크"
     },
     "stars": 1
   },
@@ -7849,7 +8371,8 @@
       "de": "Moosgrüne Starkzauber-Tinte",
       "en": "Superior Deep-green Enchanted Ink",
       "fr": "Encre viride enchantée de haute qualité",
-      "ja": "翠緑のハイエンチャントインク"
+      "ja": "翠緑のハイエンチャントインク",
+      "ko": "취록색 고급 마법 잉크"
     },
     "stars": 1
   },
@@ -7864,7 +8387,8 @@
       "de": "Scharlachrote Starkzauber-Tinte",
       "en": "Superior Deep-red Enchanted Ink",
       "fr": "Encre écarlate enchantée de haute qualité",
-      "ja": "深緋のハイエンチャントインク"
+      "ja": "深緋のハイエンチャントインク",
+      "ko": "심홍색 고급 마법 잉크"
     },
     "stars": 1
   },
@@ -7879,7 +8403,8 @@
       "de": "Notenrolle von „The Hand that Gives the Rose“",
       "en": "The Hand That Gives the Rose Orchestrion Roll",
       "fr": "Rouleau \"The Hand that Gives the Rose\"",
-      "ja": "オーケストリオン譜:武神降臨"
+      "ja": "オーケストリオン譜:武神降臨",
+      "ko": "오케스트리온 악보: The Hand That Gives the Rose"
     },
     "stars": 1
   },
@@ -7894,7 +8419,8 @@
       "de": "Titanlegierungs-Spiegel",
       "en": "Titanium Alloy Mirror",
       "fr": "Miroir en alliage de titane",
-      "ja": "チタンアロイミラー"
+      "ja": "チタンアロイミラー",
+      "ko": "티타늄 합금 경면판"
     },
     "stars": 1
   },
@@ -7909,7 +8435,8 @@
       "de": "Notenrolle von „Unbending Steel“",
       "en": "Unbending Steel Orchestrion Roll",
       "fr": "Rouleau \"Unbending Steel\"",
-      "ja": "オーケストリオン譜:曲がらぬ刃"
+      "ja": "オーケストリオン譜:曲がらぬ刃",
+      "ko": "오케스트리온 악보: Unbending Steel"
     },
     "stars": 1
   },
@@ -7924,7 +8451,8 @@
       "de": "Notenrolle von „Woe that Is Madness“",
       "en": "Woe That Is Madness Orchestrion Roll",
       "fr": "Rouleau \"Woe that Is Madness\"",
-      "ja": "オーケストリオン譜:狂気なる災厄"
+      "ja": "オーケストリオン譜:狂気なる災厄",
+      "ko": "오케스트리온 악보: Woe That Is Madness"
     },
     "stars": 1
   },
@@ -7939,7 +8467,8 @@
       "de": "Notenrolle von „Answers“",
       "en": "Answers Orchestrion Roll",
       "fr": "Rouleau \"Answers\"",
-      "ja": "オーケストリオン譜:Answers"
+      "ja": "オーケストリオン譜:Answers",
+      "ko": "오케스트리온 악보: Answers"
     },
     "stars": 2
   },
@@ -7954,12 +8483,12 @@
       "de": "Kampfer",
       "en": "Camphor",
       "fr": "Camphre",
-      "ja": "樟脳"
+      "ja": "樟脳",
+      "ko": "장뇌"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -7970,12 +8499,12 @@
       "de": "Kodex der Kolonie",
       "en": "Dead Hive Codex",
       "fr": "Codex du Maître des lames",
-      "ja": "ハイヴコーデックス"
+      "ja": "ハイヴコーデックス",
+      "ko": "군락의 치유서"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -7986,7 +8515,8 @@
       "de": "Grimoire der Kolonie",
       "en": "Dead Hive Grimoire",
       "fr": "Grimoire du Maître des lames",
-      "ja": "ハイヴグリモア"
+      "ja": "ハイヴグリモア",
+      "ko": "군락의 마법서"
     },
     "stars": 2
   },
@@ -8001,12 +8531,12 @@
       "de": "Dravanischer Baum",
       "en": "Dravanian Down Tree",
       "fr": "Arbre duveteux dravanien",
-      "ja": "ドラヴァニアン・ダウンツリー"
+      "ja": "ドラヴァニアン・ダウンツリー",
+      "ko": "드라바니아 관상목"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8017,12 +8547,12 @@
       "de": "Kodex der endlosen Weiten",
       "en": "Endless Expanse Codex",
       "fr": "Codex du Migrateur",
-      "ja": "エクスパンスコーデックス"
+      "ja": "エクスパンスコーデックス",
+      "ko": "쪽빛하늘 치유서"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8033,7 +8563,8 @@
       "de": "Grimoire der endlosen Weiten",
       "en": "Endless Expanse Grimoire",
       "fr": "Grimoire du Migrateur",
-      "ja": "エクスパンスグリモア"
+      "ja": "エクスパンスグリモア",
+      "ko": "쪽빛하늘 마법서"
     },
     "stars": 2
   },
@@ -8048,7 +8579,8 @@
       "de": "Notenrolle von „Equilibrium“",
       "en": "Equilibrium Orchestrion Roll",
       "fr": "Rouleau \"Equilibrium\"",
-      "ja": "オーケストリオン譜:女神"
+      "ja": "オーケストリオン譜:女神",
+      "ko": "오케스트리온 악보: Equilibrium"
     },
     "stars": 2
   },
@@ -8063,7 +8595,8 @@
       "de": "Geschicklichkeit-Lösungsmittel II",
       "en": "Grade 2 Dexterity Dissolvent",
       "fr": "Dissolvant de dextérité II",
-      "ja": "眼力の錬金溶剤G2"
+      "ja": "眼力の錬金溶剤G2",
+      "ko": "2등급 민첩성의 연금용제"
     },
     "stars": 2
   },
@@ -8078,7 +8611,8 @@
       "de": "Intelligenz-Lösungsmittel II",
       "en": "Grade 2 Intelligence Dissolvent",
       "fr": "Dissolvant d'intelligence II",
-      "ja": "知力の錬金溶剤G2"
+      "ja": "知力の錬金溶剤G2",
+      "ko": "2등급 지능의 연금용제"
     },
     "stars": 2
   },
@@ -8093,7 +8627,8 @@
       "de": "Willenskraft-Lösungsmittel II",
       "en": "Grade 2 Mind Dissolvent",
       "fr": "Dissolvant d'esprit II",
-      "ja": "心力の錬金溶剤G2"
+      "ja": "心力の錬金溶剤G2",
+      "ko": "2등급 정신력의 연금용제"
     },
     "stars": 2
   },
@@ -8108,7 +8643,8 @@
       "de": "Stärke-Lösungsmittel II",
       "en": "Grade 2 Strength Dissolvent",
       "fr": "Dissolvant de force II",
-      "ja": "剛力の錬金溶剤G2"
+      "ja": "剛力の錬金溶剤G2",
+      "ko": "2등급 힘의 연금용제"
     },
     "stars": 2
   },
@@ -8123,7 +8659,8 @@
       "de": "Konstitution-Lösungsmittel II",
       "en": "Grade 2 Vitality Dissolvent",
       "fr": "Dissolvant de vitalité II",
-      "ja": "活力の錬金溶剤G2"
+      "ja": "活力の錬金溶剤G2",
+      "ko": "2등급 활력의 연금용제"
     },
     "stars": 2
   },
@@ -8138,7 +8675,8 @@
       "de": "Leuchtfasern",
       "en": "Luminous Fiber",
       "fr": "Fibre lumineuse",
-      "ja": "ルミナスファイバー"
+      "ja": "ルミナスファイバー",
+      "ko": "휘광섬유"
     },
     "stars": 2
   },
@@ -8153,7 +8691,8 @@
       "de": "Pulverisiertes Horn",
       "en": "Powdered Horn",
       "fr": "Poudre de corne",
-      "ja": "角粉"
+      "ja": "角粉",
+      "ko": "뿔가루"
     },
     "stars": 2
   },
@@ -8168,7 +8707,8 @@
       "de": "Notenrolle von „Revenge of the Horde“",
       "en": "Revenge of the Horde Orchestrion Roll",
       "fr": "Rouleau \"Revenge of the Horde\"",
-      "ja": "オーケストリオン譜:最期の咆哮"
+      "ja": "オーケストリオン譜:最期の咆哮",
+      "ko": "오케스트리온 악보: Revenge of the Horde"
     },
     "stars": 2
   },
@@ -8183,7 +8723,8 @@
       "de": "Sephirot-Wurzel",
       "en": "Sephirot Root",
       "fr": "Racine séphirotique",
-      "ja": "セフィロトの根"
+      "ja": "セフィロトの根",
+      "ko": "세피로트의 뿌리"
     },
     "stars": 2
   },
@@ -8198,7 +8739,8 @@
       "de": "Verstärkte Glasscheibe",
       "en": "Tempered Glass",
       "fr": "Plaque de verre renforcé",
-      "ja": "強化ガラス板"
+      "ja": "強化ガラス板",
+      "ko": "강화 유리판"
     },
     "stars": 2
   },
@@ -8213,7 +8755,8 @@
       "de": "Kodex der Runde",
       "en": "Codex of the Round",
       "fr": "Codex de la Table ronde",
-      "ja": "コーデックス・オブ・ラウンド"
+      "ja": "コーデックス・オブ・ラウンド",
+      "ko": "기사신의 치유서"
     },
     "stars": 3
   },
@@ -8228,7 +8771,8 @@
       "de": "Grimoire der Runde",
       "en": "Grimoire of the Round",
       "fr": "Grimoire de la Table ronde",
-      "ja": "グリモア・オブ・ラウンド"
+      "ja": "グリモア・オブ・ラウンド",
+      "ko": "기사신의 마법서"
     },
     "stars": 3
   },
@@ -8243,7 +8787,8 @@
       "de": "Notenrolle von „Infinity“",
       "en": "Infinity Orchestrion Roll",
       "fr": "Rouleau \"Infinity\"",
-      "ja": "オーケストリオン譜:鬼神"
+      "ja": "オーケストリオン譜:鬼神",
+      "ko": "오케스트리온 악보: Infinity"
     },
     "stars": 3
   },
@@ -8258,7 +8803,8 @@
       "de": "Maxtrank der Geschicklichkeit",
       "en": "Max-Potion of Dexterity",
       "fr": "Thériaque de dextérité",
-      "ja": "眼力の仙薬"
+      "ja": "眼力の仙薬",
+      "ko": "민첩성의 선약"
     },
     "stars": 3
   },
@@ -8273,7 +8819,8 @@
       "de": "Maxtrank der Intelligenz",
       "en": "Max-Potion of Intelligence",
       "fr": "Thériaque d'intelligence",
-      "ja": "知力の仙薬"
+      "ja": "知力の仙薬",
+      "ko": "지능의 선약"
     },
     "stars": 3
   },
@@ -8288,7 +8835,8 @@
       "de": "Maxtrank der Willenskraft",
       "en": "Max-Potion of Mind",
       "fr": "Thériaque d'esprit",
-      "ja": "心力の仙薬"
+      "ja": "心力の仙薬",
+      "ko": "정신력의 선약"
     },
     "stars": 3
   },
@@ -8303,7 +8851,8 @@
       "de": "Maxtrank der Stärke",
       "en": "Max-Potion of Strength",
       "fr": "Thériaque de force",
-      "ja": "剛力の仙薬"
+      "ja": "剛力の仙薬",
+      "ko": "힘의 선약"
     },
     "stars": 3
   },
@@ -8318,7 +8867,8 @@
       "de": "Maxtrank der Konstitution",
       "en": "Max-Potion of Vitality",
       "fr": "Thériaque de vitalité",
-      "ja": "活力の仙薬"
+      "ja": "活力の仙薬",
+      "ko": "활력의 선약"
     },
     "stars": 3
   },
@@ -8333,7 +8883,8 @@
       "de": "Allagisches Grimoire der Magie (Replik)",
       "en": "Replica Allagan Grimoire of Casting",
       "fr": "Réplique de grimoire d'incantateur d'officier allagois",
-      "ja": "レプリカ・アラガンキャスターグリモア"
+      "ja": "レプリカ・アラガンキャスターグリモア",
+      "ko": "모조 알라그 마술사의 마법서"
     },
     "stars": 3
   },
@@ -8348,7 +8899,8 @@
       "de": "Allagisches Grimoire der Heilung (Replik)",
       "en": "Replica Allagan Grimoire of Healing",
       "fr": "Réplique de grimoire de soigneur d'officier allagois",
-      "ja": "レプリカ・アラガンヒーラーグリモア"
+      "ja": "レプリカ・アラガンヒーラーグリモア",
+      "ko": "모조 알라그 치유사의 마법서"
     },
     "stars": 3
   },
@@ -8363,7 +8915,8 @@
       "de": "Hochallagisches Grimoire der Magie (Replik)",
       "en": "Replica High Allagan Grimoire of Casting",
       "fr": "Réplique de grimoire d'incantateur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・キャスターグリモア"
+      "ja": "レプリカ・ハイアラガン・キャスターグリモア",
+      "ko": "모조 상급 알라그 마술사의 마법서"
     },
     "stars": 3
   },
@@ -8378,7 +8931,8 @@
       "de": "Hochallagisches Grimoire der Heilung (Replik)",
       "en": "Replica High Allagan Grimoire of Healing",
       "fr": "Réplique de grimoire de soigneur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・ヒーラーグリモア"
+      "ja": "レプリカ・ハイアラガン・ヒーラーグリモア",
+      "ko": "모조 상급 알라그 치유사의 마법서"
     },
     "stars": 3
   },
@@ -8393,7 +8947,8 @@
       "de": "Sephirot-Baum",
       "en": "Sephirot Tree",
       "fr": "Arbre séphirotique",
-      "ja": "セフィロトの樹"
+      "ja": "セフィロトの樹",
+      "ko": "세피로트의 나무"
     },
     "stars": 3
   },
@@ -8408,7 +8963,8 @@
       "de": "Feuer des Baumgottes",
       "en": "Song of the Fiend",
       "fr": "Chant du Fiélon",
-      "ja": "ソング・オブ・フィーンド"
+      "ja": "ソング・オブ・フィーンド",
+      "ko": "Song of the Fiend"
     },
     "stars": 3
   },
@@ -8423,7 +8979,8 @@
       "de": "Schneide des Baumgottes",
       "en": "Word of the Fiend",
       "fr": "Parole du Fiélon",
-      "ja": "ワード・オブ・フィーンド"
+      "ja": "ワード・オブ・フィーンド",
+      "ko": "Word of the Fiend"
     },
     "stars": 3
   },
@@ -8438,7 +8995,8 @@
       "de": "Geschicklichkeit-Lösungsmittel III",
       "en": "Grade 3 Dexterity Dissolvent",
       "fr": "Dissolvant de dextérité III",
-      "ja": "眼力の錬金溶剤G3"
+      "ja": "眼力の錬金溶剤G3",
+      "ko": "3등급 민첩성의 연금용제"
     },
     "stars": 4
   },
@@ -8453,7 +9011,8 @@
       "de": "Intelligenz-Lösungsmittel III",
       "en": "Grade 3 Intelligence Dissolvent",
       "fr": "Dissolvant d'intelligence III",
-      "ja": "知力の錬金溶剤G3"
+      "ja": "知力の錬金溶剤G3",
+      "ko": "3등급 지능의 연금용제"
     },
     "stars": 4
   },
@@ -8468,7 +9027,8 @@
       "de": "Willenskraft-Lösungsmittel III",
       "en": "Grade 3 Mind Dissolvent",
       "fr": "Dissolvant d'esprit III",
-      "ja": "心力の錬金溶剤G3"
+      "ja": "心力の錬金溶剤G3",
+      "ko": "3등급 정신력의 연금용제"
     },
     "stars": 4
   },
@@ -8483,7 +9043,8 @@
       "de": "Stärke-Lösungsmittel III",
       "en": "Grade 3 Strength Dissolvent",
       "fr": "Dissolvant de force III",
-      "ja": "剛力の錬金溶剤G3"
+      "ja": "剛力の錬金溶剤G3",
+      "ko": "3등급 힘의 연금용제"
     },
     "stars": 4
   },
@@ -8498,7 +9059,8 @@
       "de": "Konstitution-Lösungsmittel III",
       "en": "Grade 3 Vitality Dissolvent",
       "fr": "Dissolvant de vitalité III",
-      "ja": "活力の錬金溶剤G3"
+      "ja": "活力の錬金溶剤G3",
+      "ko": "3등급 활력의 연금용제"
     },
     "stars": 4
   },
@@ -8513,7 +9075,8 @@
       "de": "Hemicyonleder-Kodex",
       "en": "Hemiskin Codex",
       "fr": "Codex en cuir d'hemicyon",
-      "ja": "ヘミキオンコーデックス"
+      "ja": "ヘミキオンコーデックス",
+      "ko": "헤미키온 치유서"
     },
     "stars": 4
   },
@@ -8528,7 +9091,8 @@
       "de": "Hemicyonleder-Grimoire",
       "en": "Hemiskin Grimoire",
       "fr": "Grimoire en cuir d'hemicyon",
-      "ja": "ヘミキオングリモア"
+      "ja": "ヘミキオングリモア",
+      "ko": "헤미키온 마법서"
     },
     "stars": 4
   },
@@ -8543,7 +9107,8 @@
       "de": "Supramaxtrank der Geschicklichkeit",
       "en": "Supramax-Potion of Dexterity",
       "fr": "Thériaque améliorée de dextérité",
-      "ja": "眼力の強化仙薬"
+      "ja": "眼力の強化仙薬",
+      "ko": "민첩성의 강화선약"
     },
     "stars": 4
   },
@@ -8558,7 +9123,8 @@
       "de": "Supramaxtrank der Intelligenz",
       "en": "Supramax-Potion of Intelligence",
       "fr": "Thériaque améliorée d'intelligence",
-      "ja": "知力の強化仙薬"
+      "ja": "知力の強化仙薬",
+      "ko": "지능의 강화선약"
     },
     "stars": 4
   },
@@ -8573,7 +9139,8 @@
       "de": "Supramaxtrank der Willenskraft",
       "en": "Supramax-Potion of Mind",
       "fr": "Thériaque améliorée d'esprit",
-      "ja": "心力の強化仙薬"
+      "ja": "心力の強化仙薬",
+      "ko": "정신력의 강화선약"
     },
     "stars": 4
   },
@@ -8588,7 +9155,8 @@
       "de": "Supramaxtrank der Stärke",
       "en": "Supramax-Potion of Strength",
       "fr": "Thériaque améliorée de force",
-      "ja": "剛力の強化仙薬"
+      "ja": "剛力の強化仙薬",
+      "ko": "힘의 강화선약"
     },
     "stars": 4
   },
@@ -8603,7 +9171,8 @@
       "de": "Supramaxtrank der Konstitution",
       "en": "Supramax-Potion of Vitality",
       "fr": "Thériaque améliorée de vitalité",
-      "ja": "活力の強化仙薬"
+      "ja": "活力の強化仙薬",
+      "ko": "활력의 강화선약"
     },
     "stars": 4
   },
@@ -8618,7 +9187,8 @@
       "de": "Kupfernickel-Zaubertinte",
       "en": "Enchanted Koppranickel Ink",
       "fr": "Encre de cupronickel enchantée",
-      "ja": "キュプロエンチャントインク"
+      "ja": "キュプロエンチャントインク",
+      "ko": "백동 마법 잉크"
     }
   },
   {
@@ -8632,7 +9202,8 @@
       "de": "Trostpreis für den Gold Saucer",
       "en": "Gold Saucer Consolation Prize",
       "fr": "Lot de consolation du Gold Saucer",
-      "ja": "ゴールドソーサーの景品"
+      "ja": "ゴールドソーサーの景品",
+      "ko": "Gold Saucer Consolation Prize"
     }
   },
   {
@@ -8646,7 +9217,8 @@
       "de": "Komponente eines Gold Saucer-Trostpreises",
       "en": "Gold Saucer Consolation Prize Component",
       "fr": "Composant de lot de consolation du Gold Saucer",
-      "ja": "ゴールドソーサーの景品部材"
+      "ja": "ゴールドソーサーの景品部材",
+      "ko": "Gold Saucer Consolation Prize Component"
     }
   },
   {
@@ -8660,7 +9232,8 @@
       "de": "Wachstumsformel Eta",
       "en": "Growth Formula Eta",
       "fr": "Formule de croissance êta",
-      "ja": "グロースフォーミュラ・エータ"
+      "ja": "グロースフォーミュラ・エータ",
+      "ko": "성장 촉진제 에타"
     }
   },
   {
@@ -8674,7 +9247,8 @@
       "de": "Kupfernickel-Kodex",
       "en": "Koppranickel Codex",
       "fr": "Codex en cupronickel",
-      "ja": "コーデックス・オブ・キュプロ"
+      "ja": "コーデックス・オブ・キュプロ",
+      "ko": "백동 치유서"
     }
   },
   {
@@ -8688,7 +9262,8 @@
       "de": "Kupfernickel-Index",
       "en": "Koppranickel Index",
       "fr": "Index en cupronickel",
-      "ja": "インデックス・オブ・キュプロ"
+      "ja": "インデックス・オブ・キュプロ",
+      "ko": "백동 마도서"
     }
   },
   {
@@ -8702,7 +9277,8 @@
       "de": "Gyukileder-Kodex",
       "en": "Gyuki Leather Codex",
       "fr": "Codex en cuir de gyuki",
-      "ja": "ギュウキコーデックス"
+      "ja": "ギュウキコーデックス",
+      "ko": "귀신물범 치유서"
     }
   },
   {
@@ -8716,7 +9292,8 @@
       "de": "Gyukileder-Grimoire",
       "en": "Gyuki Leather Grimoire",
       "fr": "Grimoire en cuir de gyuki",
-      "ja": "ギュウキグリモア"
+      "ja": "ギュウキグリモア",
+      "ko": "귀신물범 마도서"
     }
   },
   {
@@ -8730,7 +9307,8 @@
       "de": "Jagdbedarf",
       "en": "M Tribe Sundries",
       "fr": "Produits du quotidien des M",
-      "ja": "メ族の日用品"
+      "ja": "メ族の日用品",
+      "ko": "M Tribe Sundries"
     }
   },
   {
@@ -8744,7 +9322,8 @@
       "de": "Komponente eines Gebrauchsgegenstands der M",
       "en": "M Tribe Sundry Component",
       "fr": "Composant de produits du quotidien des M",
-      "ja": "メ族の日用品部材"
+      "ja": "メ族の日用品部材",
+      "ko": "M Tribe Sundry Component"
     }
   },
   {
@@ -8758,7 +9337,8 @@
       "de": "Starker Bindungstrunk",
       "en": "Potent Spiritbond Potion",
       "fr": "Essence de symbiose forte",
-      "ja": "強錬精薬"
+      "ja": "強錬精薬",
+      "ko": "강력결속약"
     }
   },
   {
@@ -8772,7 +9352,8 @@
       "de": "Wunderwasser der Geschicklichkeit I",
       "en": "Grade 1 Reisui of Dexterity",
       "fr": "Émulsion de dextérité I",
-      "ja": "眼力の霊水G1"
+      "ja": "眼力の霊水G1",
+      "ko": "1등급 민첩성의 영험수"
     }
   },
   {
@@ -8786,7 +9367,8 @@
       "de": "Wunderwasser der Intelligenz I",
       "en": "Grade 1 Reisui of Intelligence",
       "fr": "Émulsion d'intelligence I",
-      "ja": "知力の霊水G1"
+      "ja": "知力の霊水G1",
+      "ko": "1등급 지능의 영험수"
     }
   },
   {
@@ -8800,7 +9382,8 @@
       "de": "Wunderwasser der Willenskraft I",
       "en": "Grade 1 Reisui of Mind",
       "fr": "Émulsion d'esprit I",
-      "ja": "心力の霊水G1"
+      "ja": "心力の霊水G1",
+      "ko": "1등급 정신력의 영험수"
     }
   },
   {
@@ -8814,7 +9397,8 @@
       "de": "Wunderwasser der Stärke I",
       "en": "Grade 1 Reisui of Strength",
       "fr": "Émulsion de force I",
-      "ja": "剛力の霊水G1"
+      "ja": "剛力の霊水G1",
+      "ko": "1등급 힘의 영험수"
     }
   },
   {
@@ -8828,7 +9412,8 @@
       "de": "Wunderwasser der Konstitution I",
       "en": "Grade 1 Reisui of Vitality",
       "fr": "Émulsion de vitalité I",
-      "ja": "活力の霊水G1"
+      "ja": "活力の霊水G1",
+      "ko": "1등급 활력의 영험수"
     }
   },
   {
@@ -8842,7 +9427,8 @@
       "de": "Süßer Megatrank der Intelligenz",
       "en": "Intellectuary",
       "fr": "Essence d'intelligence sucrée",
-      "ja": "知力の甘口秘薬"
+      "ja": "知力の甘口秘薬",
+      "ko": "달콤한 지능의 비약"
     }
   },
   {
@@ -8856,7 +9442,8 @@
       "de": "Rucksack für die Befreiungsarmee",
       "en": "Resistance Materiel",
       "fr": "Provisions pour l'armée de libération",
-      "ja": "解放軍の軍需品"
+      "ja": "解放軍の軍需品",
+      "ko": "Resistance Materiel"
     }
   },
   {
@@ -8870,7 +9457,8 @@
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
       "en": "Resistance Materiel Component",
       "fr": "Composant de provisions pour l'armée de libération",
-      "ja": "解放軍の軍需品部材"
+      "ja": "解放軍の軍需品部材",
+      "ko": "Resistance Materiel Component"
     }
   },
   {
@@ -8884,7 +9472,8 @@
       "de": "Käferleim",
       "en": "Beetle Glue",
       "fr": "Glu de scarabée",
-      "ja": "カブトにかわ"
+      "ja": "カブトにかわ",
+      "ko": "풍뎅이아교"
     }
   },
   {
@@ -8898,7 +9487,8 @@
       "de": "Handwerkermeister-Tee",
       "en": "Competent Craftsman's Tea",
       "fr": "Infusion de virtuosité",
-      "ja": "名匠の薬茶"
+      "ja": "名匠の薬茶",
+      "ko": "장인의 약차"
     }
   },
   {
@@ -8912,7 +9502,8 @@
       "de": "Durium-Zaubertinte",
       "en": "Enchanted Durium Ink",
       "fr": "Encre de durium enchantée",
-      "ja": "ダリウムエンチャントインク"
+      "ja": "ダリウムエンチャントインク",
+      "ko": "취은 마법 잉크"
     }
   },
   {
@@ -8926,7 +9517,8 @@
       "de": "Handwerkerlegenden-Tee",
       "en": "Commanding Craftsman's Tea",
       "fr": "Infusion de maîtrise",
-      "ja": "巨匠の薬茶"
+      "ja": "巨匠の薬茶",
+      "ko": "거장의 약차"
     }
   },
   {
@@ -8940,7 +9532,8 @@
       "de": "Tigerleder-Kodex",
       "en": "Tigerskin Codex",
       "fr": "Codex en cuir de tigre",
-      "ja": "タイガーコーデックス"
+      "ja": "タイガーコーデックス",
+      "ko": "호랑이 치유서"
     }
   },
   {
@@ -8954,7 +9547,8 @@
       "de": "Tigerleder-Grimoire",
       "en": "Tigerskin Grimoire",
       "fr": "Grimoire en cuir de tigre",
-      "ja": "タイガーグリモア"
+      "ja": "タイガーグリモア",
+      "ko": "호랑이 마법서"
     }
   },
   {
@@ -8968,7 +9562,8 @@
       "de": "Gourmet-Mun-Tuy-Saft",
       "en": "Twice-fermented Mun-Tuy Juice",
       "fr": "Sérum de vérité aux fèves de Mun-Tuy",
-      "ja": "特製ムントゥイジュース"
+      "ja": "特製ムントゥイジュース",
+      "ko": "특제 문투이 주스"
     }
   },
   {
@@ -8982,7 +9577,8 @@
       "de": "Wachstumsformel Theta",
       "en": "Growth Formula Theta",
       "fr": "Formule de croissance thêta",
-      "ja": "グロースフォーミュラ・テータ"
+      "ja": "グロースフォーミュラ・テータ",
+      "ko": "성장 촉진제 세타"
     }
   },
   {
@@ -8996,7 +9592,8 @@
       "de": "Kaki-Tannin",
       "en": "Persimmon Tannin",
       "fr": "Concentré de tanin de plaqueminier",
-      "ja": "柿渋"
+      "ja": "柿渋",
+      "ko": "감물"
     }
   },
   {
@@ -9010,7 +9607,8 @@
       "de": "Handwerkerkoryphäen-Tee",
       "en": "Cunning Craftsman's Tea",
       "fr": "Infusion de capacité",
-      "ja": "魔匠の薬茶"
+      "ja": "魔匠の薬茶",
+      "ko": "명인의 약차"
     }
   },
   {
@@ -9024,7 +9622,8 @@
       "de": "Maridenleder-Kodex",
       "en": "Marid Leather Codex",
       "fr": "Codex en cuir de marid",
-      "ja": "マーリドコーデックス"
+      "ja": "マーリドコーデックス",
+      "ko": "마리드 치유서"
     }
   },
   {
@@ -9038,7 +9637,8 @@
       "de": "Maridenleder-Grimoire",
       "en": "Marid Leather Grimoire",
       "fr": "Grimoire en cuir de marid",
-      "ja": "マーリドグリモア"
+      "ja": "マーリドグリモア",
+      "ko": "마리드 마법서"
     }
   },
   {
@@ -9052,7 +9652,8 @@
       "de": "Palladium-Zaubertinte",
       "en": "Enchanted Palladium Ink",
       "fr": "Encre de palladium enchantée",
-      "ja": "パラースエンチャントインク"
+      "ja": "パラースエンチャントインク",
+      "ko": "팔라듐 마법 잉크"
     }
   },
   {
@@ -9066,7 +9667,8 @@
       "de": "Gazellenleder-Kodex",
       "en": "Gazelleskin Codex",
       "fr": "Codex en cuir de gazelle",
-      "ja": "ガゼルコーデックス"
+      "ja": "ガゼルコーデックス",
+      "ko": "가젤 치유서"
     }
   },
   {
@@ -9080,7 +9682,8 @@
       "de": "Gazellenleder-Grimoire",
       "en": "Gazelleskin Grimoire",
       "fr": "Grimoire en cuir de gazelle",
-      "ja": "ガゼルグリモア"
+      "ja": "ガゼルグリモア",
+      "ko": "가젤 마도서"
     }
   },
   {
@@ -9094,7 +9697,8 @@
       "de": "Blutreagenz",
       "en": "Luminol",
       "fr": "Révélateur d'hémoglobine",
-      "ja": "血液反応薬"
+      "ja": "血液反応薬",
+      "ko": "혈액반응약"
     }
   },
   {
@@ -9108,7 +9712,8 @@
       "de": "Aufguss der Willenskraft",
       "en": "Infusion of Mind",
       "fr": "Concoction d'esprit",
-      "ja": "心力の薬湯"
+      "ja": "心力の薬湯",
+      "ko": "정신력의 탕약"
     }
   },
   {
@@ -9122,7 +9727,8 @@
       "de": "Aufguss der Konstitution",
       "en": "Infusion of Vitality",
       "fr": "Concoction de vitalité",
-      "ja": "活力の薬湯"
+      "ja": "活力の薬湯",
+      "ko": "활력의 탕약"
     }
   },
   {
@@ -9136,7 +9742,8 @@
       "de": "Aufguss des Geschicks",
       "en": "Infusion of Dexterity",
       "fr": "Concoction de dextérité",
-      "ja": "眼力の薬湯"
+      "ja": "眼力の薬湯",
+      "ko": "민첩성의 탕약"
     }
   },
   {
@@ -9150,7 +9757,8 @@
       "de": "Aufguss der Intelligenz",
       "en": "Infusion of Intelligence",
       "fr": "Concoction d'intelligence",
-      "ja": "知力の薬湯"
+      "ja": "知力の薬湯",
+      "ko": "지능의 탕약"
     }
   },
   {
@@ -9164,7 +9772,8 @@
       "de": "Aufguss der Stärke",
       "en": "Infusion of Strength",
       "fr": "Concoction de force",
-      "ja": "剛力の薬湯"
+      "ja": "剛力の薬湯",
+      "ko": "힘의 탕약"
     }
   },
   {
@@ -9178,7 +9787,8 @@
       "de": "Äther-Lösungsmittel",
       "en": "Potent Dissolvent",
       "fr": "Dissolvant de joyaux",
-      "ja": "特製溶解液"
+      "ja": "特製溶解液",
+      "ko": "특제 용해액"
     }
   },
   {
@@ -9192,7 +9802,8 @@
       "de": "Notenrolle von „Beauty's Wicked Wiles“",
       "en": "Beauty's Wicked Wiles Orchestrion Roll",
       "fr": "Rouleau \"Beauty's Wicked Wiles\"",
-      "ja": "オーケストリオン譜:美の謀略"
+      "ja": "オーケストリオン譜:美の謀略",
+      "ko": "오케스트리온 악보: Beauty's Wicked Wiles"
     },
     "stars": 1
   },
@@ -9207,7 +9818,8 @@
       "de": "Notenrolle von „Revelation“",
       "en": "Revelation Orchestrion Roll",
       "fr": "Rouleau \"Revelation\"",
-      "ja": "オーケストリオン譜:啓示"
+      "ja": "オーケストリオン譜:啓示",
+      "ko": "오케스트리온 악보: Revelation"
     },
     "stars": 1
   },
@@ -9222,7 +9834,8 @@
       "de": "Notenrolle von „The Worm's Head“",
       "en": "The Worm's Head Orchestrion Roll",
       "fr": "Rouleau \"The Worm's Head\"",
-      "ja": "オーケストリオン譜:龍の首"
+      "ja": "オーケストリオン譜:龍の首",
+      "ko": "The Worm's Head Orchestrion Roll"
     },
     "stars": 1
   },
@@ -9237,7 +9850,8 @@
       "de": "Notenrolle von „The Worm's Tail“",
       "en": "The Worm's Tail Orchestrion Roll",
       "fr": "Rouleau \"The Worm's Tail\"",
-      "ja": "オーケストリオン譜:龍の尾"
+      "ja": "オーケストリオン譜:龍の尾",
+      "ko": "The Worm's Tail Orchestrion Roll"
     },
     "stars": 1
   },
@@ -9252,7 +9866,8 @@
       "de": "Mhigisches Mischgewebe",
       "en": "Ala Mhigan Fiber",
       "fr": "Fibre mhigoise",
-      "ja": "アラミガンファイバー"
+      "ja": "アラミガンファイバー",
+      "ko": "Ala Mhigan Fiber"
     },
     "stars": 2
   },
@@ -9267,7 +9882,8 @@
       "de": "Kodex des Wahren Greifen",
       "en": "Codex of the True Griffin",
       "fr": "Codex en cuir de vrai griffon",
-      "ja": "トゥルーグリフィンコーデックス"
+      "ja": "トゥルーグリフィンコーデックス",
+      "ko": "Codex of the True Griffin"
     },
     "stars": 2
   },
@@ -9282,7 +9898,8 @@
       "de": "Fliegender Sessel",
       "en": "Flying Chair",
       "fr": "Fauteuil volant",
-      "ja": "フライング・チェアー"
+      "ja": "フライング・チェアー",
+      "ko": "Flying Chair"
     },
     "stars": 2
   },
@@ -9297,7 +9914,8 @@
       "de": "Wunderwasser der Geschicklichkeit II",
       "en": "Grade 2 Reisui of Dexterity",
       "fr": "Émulsion de dextérité II",
-      "ja": "眼力の霊水G2"
+      "ja": "眼力の霊水G2",
+      "ko": "Grade 2 Reisui of Dexterity"
     },
     "stars": 2
   },
@@ -9312,7 +9930,8 @@
       "de": "Wunderwasser der Intelligenz II",
       "en": "Grade 2 Reisui of Intelligence",
       "fr": "Émulsion d'intelligence II",
-      "ja": "知力の霊水G2"
+      "ja": "知力の霊水G2",
+      "ko": "Grade 2 Reisui of Intelligence"
     },
     "stars": 2
   },
@@ -9327,7 +9946,8 @@
       "de": "Wunderwasser der Willenskraft II",
       "en": "Grade 2 Reisui of Mind",
       "fr": "Émulsion d'esprit II",
-      "ja": "心力の霊水G2"
+      "ja": "心力の霊水G2",
+      "ko": "Grade 2 Reisui of Mind"
     },
     "stars": 2
   },
@@ -9342,7 +9962,8 @@
       "de": "Wunderwasser der Stärke II",
       "en": "Grade 2 Reisui of Strength",
       "fr": "Émulsion de force II",
-      "ja": "剛力の霊水G2"
+      "ja": "剛力の霊水G2",
+      "ko": "Grade 2 Reisui of Strength"
     },
     "stars": 2
   },
@@ -9357,7 +9978,8 @@
       "de": "Wunderwasser der Konstitution II",
       "en": "Grade 2 Reisui of Vitality",
       "fr": "Émulsion de vitalité II",
-      "ja": "活力の霊水G2"
+      "ja": "活力の霊水G2",
+      "ko": "Grade 2 Reisui of Vitality"
     },
     "stars": 2
   },
@@ -9372,7 +9994,8 @@
       "de": "Grimoire des Wahren Greifen",
       "en": "Grimoire of the True Griffin",
       "fr": "Grimoire en cuir de vrai griffon",
-      "ja": "トゥルーグリフィングリモア"
+      "ja": "トゥルーグリフィングリモア",
+      "ko": "Grimoire of the True Griffin"
     },
     "stars": 2
   },
@@ -9387,7 +10010,8 @@
       "de": "Shinryu-Schwinge",
       "en": "Shinryu's Wing",
       "fr": "Aile de Shinryu",
-      "ja": "神龍の翼"
+      "ja": "神龍の翼",
+      "ko": "Shinryu's Wing"
     },
     "stars": 2
   },
@@ -9402,7 +10026,8 @@
       "de": "Scheibenbauchöl",
       "en": "Snailfish Oil",
       "fr": "Huile de poisson-limace",
-      "ja": "ビクニンオイル"
+      "ja": "ビクニンオイル",
+      "ko": "Snailfish Oil"
     },
     "stars": 2
   }

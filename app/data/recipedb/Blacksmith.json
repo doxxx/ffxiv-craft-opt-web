@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "baseLevel": 1,
     "difficulty": 19,
@@ -10,7 +10,8 @@
       "de": "Ballonhüllen-Bauteil",
       "en": "Bladder Component",
       "fr": "Composant de ballon",
-      "ja": "気嚢部材"
+      "ja": "気嚢部材",
+      "ko": "공기주머니 부재"
     }
   },
   {
@@ -24,7 +25,8 @@
       "de": "Hüllenverstärkungs-Bauteil",
       "en": "Bladder Lining Component",
       "fr": "Composant de finition de ballon",
-      "ja": "気嚢補強材"
+      "ja": "気嚢補強材",
+      "ko": "공기주머니 보강재"
     }
   },
   {
@@ -38,7 +40,8 @@
       "de": "Bronzehandbeil",
       "en": "Bronze Hatchet",
       "fr": "Hachette",
-      "ja": "ハチェット"
+      "ja": "ハチェット",
+      "ko": "손도끼"
     }
   },
   {
@@ -52,7 +55,8 @@
       "de": "Bronzebarren",
       "en": "Bronze Ingot",
       "fr": "Lingot de bronze",
-      "ja": "ブロンズインゴット"
+      "ja": "ブロンズインゴット",
+      "ko": "청동 주괴"
     }
   },
   {
@@ -66,7 +70,8 @@
       "de": "Kanzelinnenraum-Bauteil",
       "en": "Hull Interior Component",
       "fr": "Composant de coque",
-      "ja": "エカトルの船体部材"
+      "ja": "エカトルの船体部材",
+      "ko": "에카틀 선체 부재"
     }
   },
   {
@@ -80,7 +85,8 @@
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
       "fr": "Comp. de partie gauche de nacelle",
-      "ja": "左舷船体部材"
+      "ja": "左舷船体部材",
+      "ko": "좌현 선체 부재"
     }
   },
   {
@@ -94,7 +100,8 @@
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
       "fr": "Comp. de partie droite de nacelle",
-      "ja": "右舷船体部材"
+      "ja": "右舷船体部材",
+      "ko": "우현 선체 부재"
     }
   },
   {
@@ -108,7 +115,8 @@
       "de": "Laienfeile",
       "en": "Amateur's File",
       "fr": "Lime d'amateur",
-      "ja": "アマチュアファイル"
+      "ja": "アマチュアファイル",
+      "ko": "초보자용 줄판"
     }
   },
   {
@@ -122,7 +130,8 @@
       "de": "Bastardschwert",
       "en": "Bronze Bastard Sword",
       "fr": "Épée bâtarde",
-      "ja": "バスタードソード"
+      "ja": "バスタードソード",
+      "ko": "바스타드소드"
     }
   },
   {
@@ -136,7 +145,8 @@
       "de": "Laienzange",
       "en": "Amateur's Pliers",
       "fr": "Tenailles d'amateur",
-      "ja": "アマチュアプライヤー"
+      "ja": "アマチュアプライヤー",
+      "ko": "초보자용 플라이어"
     }
   },
   {
@@ -150,7 +160,8 @@
       "de": "Bronzenieten",
       "en": "Bronze Rivets",
       "fr": "Rivets en bronze",
-      "ja": "ブロンズリベット"
+      "ja": "ブロンズリベット",
+      "ko": "청동 이음못"
     }
   },
   {
@@ -164,7 +175,8 @@
       "de": "Bronzestreitaxt",
       "en": "Bronze War Axe",
       "fr": "Hache de guerre",
-      "ja": "ウォーアクス"
+      "ja": "ウォーアクス",
+      "ko": "전쟁도끼"
     }
   },
   {
@@ -178,7 +190,8 @@
       "de": "Werkzeug-Bauteil",
       "en": "Crafting Tool Component",
       "fr": "Nécessaire de fabrication",
-      "ja": "加工道具"
+      "ja": "加工道具",
+      "ko": "가공 도구"
     }
   },
   {
@@ -192,7 +205,8 @@
       "de": "Deck-Bauteil",
       "en": "Deck Component",
       "fr": "Composant de pont",
-      "ja": "甲板部材"
+      "ja": "甲板部材",
+      "ko": "갑판 부재"
     }
   },
   {
@@ -206,7 +220,8 @@
       "de": "Motorgehäuse-Bauteil",
       "en": "Engine Casing Component",
       "fr": "Composant de protection de moteur",
-      "ja": "機関外装部材"
+      "ja": "機関外装部材",
+      "ko": "기관 외장 부재"
     }
   },
   {
@@ -220,7 +235,8 @@
       "de": "Gyroantriebs-Bauteil",
       "en": "Gyrodrive Component",
       "fr": "Composant d'unité motrice",
-      "ja": "動力輪部材"
+      "ja": "動力輪部材",
+      "ko": "동력바퀴 부재"
     }
   },
   {
@@ -234,7 +250,8 @@
       "de": "Erdseim-Motor-Bauteil",
       "en": "Propulsion Engine Component",
       "fr": "Composant de moteur",
-      "ja": "エカトルの機関部材"
+      "ja": "エカトルの機関部材",
+      "ko": "에카틀 기관 부재"
     }
   },
   {
@@ -248,7 +265,8 @@
       "de": "Takelagen-Bauteil",
       "en": "Rigging Component",
       "fr": "Composant d'attache",
-      "ja": "索具部材"
+      "ja": "索具部材",
+      "ko": "밧줄 부재"
     }
   },
   {
@@ -262,7 +280,8 @@
       "de": "Laien-Ahle",
       "en": "Amateur's Awl",
       "fr": "Alêne d'amateur",
-      "ja": "アマチュアアウル"
+      "ja": "アマチュアアウル",
+      "ko": "초보자용 목타"
     }
   },
   {
@@ -276,7 +295,8 @@
       "de": "Bronzefuchsschwanz",
       "en": "Bronze Saw",
       "fr": "Scie",
-      "ja": "ソー"
+      "ja": "ソー",
+      "ko": "톱"
     }
   },
   {
@@ -290,7 +310,8 @@
       "de": "Laien-Klauenhammer",
       "en": "Amateur's Claw Hammer",
       "fr": "Marteau arrache-clou d'amateur",
-      "ja": "アマチュアクローハンマー"
+      "ja": "アマチュアクローハンマー",
+      "ko": "초보자용 장도리"
     }
   },
   {
@@ -304,7 +325,8 @@
       "de": "Bronze-Kreuzschlaghammer",
       "en": "Bronze Cross-pein Hammer",
       "fr": "Marteau à panne croisée",
-      "ja": "クロスペインハンマー"
+      "ja": "クロスペインハンマー",
+      "ko": "단조망치"
     }
   },
   {
@@ -318,7 +340,8 @@
       "de": "Bronzedolche",
       "en": "Bronze Daggers",
       "fr": "Dagues en bronze",
-      "ja": "ダガー"
+      "ja": "ダガー",
+      "ko": "단검"
     }
   },
   {
@@ -332,7 +355,8 @@
       "de": "Bronze-Flachhammer",
       "en": "Bronze Doming Hammer",
       "fr": "Marteau à emboutir",
-      "ja": "ドーミングハンマー"
+      "ja": "ドーミングハンマー",
+      "ko": "판금망치"
     }
   },
   {
@@ -346,7 +370,8 @@
       "de": "Aerodynamo-Bauteil",
       "en": "Aerodynamo Component",
       "fr": "Composant de nez profilé",
-      "ja": "空力部材"
+      "ja": "空力部材",
+      "ko": "동력원 부재"
     }
   },
   {
@@ -360,7 +385,8 @@
       "de": "Laien-Küchenmesser",
       "en": "Amateur's Culinary Knife",
       "fr": "Couteau de cuisine d'amateur",
-      "ja": "アマチュアクリナリーナイフ"
+      "ja": "アマチュアクリナリーナイフ",
+      "ko": "초보자용 요리칼"
     }
   },
   {
@@ -374,7 +400,8 @@
       "de": "Laienmörser",
       "en": "Amateur's Mortar",
       "fr": "Mortier d'amateur",
-      "ja": "アマチュアモーター"
+      "ja": "アマチュアモーター",
+      "ko": "초보자용 약연"
     }
   },
   {
@@ -388,7 +415,8 @@
       "de": "Ballast-Bauteil",
       "en": "Ballast Component",
       "fr": "Composant de lest",
-      "ja": "バラスト部材"
+      "ja": "バラスト部材",
+      "ko": "무게추 부재"
     }
   },
   {
@@ -402,7 +430,8 @@
       "de": "Kanzelaußenwand-Bauteil",
       "en": "Cockpit Exterior Component",
       "fr": "Composant extérieur de cockpit",
-      "ja": "操縦席外装材"
+      "ja": "操縦席外装材",
+      "ko": "조종석 외장재"
     }
   },
   {
@@ -416,7 +445,8 @@
       "de": "Kanzelinnenwand-Bauteil",
       "en": "Cockpit Interior Component",
       "fr": "Composant intérieur de cockpit",
-      "ja": "操縦席内装材"
+      "ja": "操縦席内装材",
+      "ko": "조종석 내장재"
     }
   },
   {
@@ -430,7 +460,8 @@
       "de": "Motorverstrebungs-Bauteil",
       "en": "Engine Jointing Component",
       "fr": "Composant de jonction de moteur",
-      "ja": "エカトルの機関部接合材"
+      "ja": "エカトルの機関部接合材",
+      "ko": "에카틀 기관부 접합재"
     }
   },
   {
@@ -444,7 +475,8 @@
       "de": "Steuerpult-Bauteil",
       "en": "Instrument Panel Component",
       "fr": "Composant d'instrumentation",
-      "ja": "計器部材"
+      "ja": "計器部材",
+      "ko": "계기 부재"
     }
   },
   {
@@ -458,7 +490,8 @@
       "de": "Bronze-Ziselierhammer",
       "en": "Bronze Chaser Hammer",
       "fr": "Marteau de ciseleur",
-      "ja": "チェーサーハンマー"
+      "ja": "チェーサーハンマー",
+      "ko": "끌망치"
     }
   },
   {
@@ -472,7 +505,8 @@
       "de": "Bronze-Labrys",
       "en": "Bronze Labrys",
       "fr": "Labrys",
-      "ja": "ラブリュス"
+      "ja": "ラブリュス",
+      "ko": "양날도끼"
     }
   },
   {
@@ -486,7 +520,8 @@
       "de": "Wikingerschwert",
       "en": "Viking Sword",
       "fr": "Épée viking",
-      "ja": "ヴァイキングソード"
+      "ja": "ヴァイキングソード",
+      "ko": "바이킹소드"
     }
   },
   {
@@ -500,7 +535,8 @@
       "de": "Bronze-Sattlermesser",
       "en": "Bronze Head Knife",
       "fr": "Couteau à pied",
-      "ja": "ヘッドナイフ"
+      "ja": "ヘッドナイフ",
+      "ko": "가죽칼"
     }
   },
   {
@@ -514,7 +550,8 @@
       "de": "Bronzemesser",
       "en": "Bronze Knives",
       "fr": "Couteaux en bronze",
-      "ja": "ナイフ"
+      "ja": "ナイフ",
+      "ko": "나이프"
     }
   },
   {
@@ -528,7 +565,8 @@
       "de": "Bronzespitzhacke",
       "en": "Bronze Pickaxe",
       "fr": "Pioche",
-      "ja": "ピック"
+      "ja": "ピック",
+      "ko": "곡괭이"
     }
   },
   {
@@ -542,7 +580,8 @@
       "de": "Bronze-Klauenhammer",
       "en": "Bronze Claw Hammer",
       "fr": "Marteau arrache-clou",
-      "ja": "クローハンマー"
+      "ja": "クローハンマー",
+      "ko": "장도리"
     }
   },
   {
@@ -556,7 +595,8 @@
       "de": "Wolkenaxt",
       "en": "Cloud Axe",
       "fr": "Hache ouragan",
-      "ja": "クラウドアクス"
+      "ja": "クラウドアクス",
+      "ko": "구름문양 도끼"
     }
   },
   {
@@ -570,7 +610,8 @@
       "de": "Laien-Ziselierhammer",
       "en": "Amateur's Chaser Hammer",
       "fr": "Marteau de ciseleur d'amateur",
-      "ja": "アマチュアチェーサーハンマー"
+      "ja": "アマチュアチェーサーハンマー",
+      "ko": "초보자용 끌망치"
     }
   },
   {
@@ -584,7 +625,8 @@
       "de": "Laien-Kreuzschlaghammer",
       "en": "Amateur's Cross-pein Hammer",
       "fr": "Marteau à panne croisée d'amateur",
-      "ja": "アマチュア・クロスペインハンマー"
+      "ja": "アマチュア・クロスペインハンマー",
+      "ko": "초보자용 단조망치"
     }
   },
   {
@@ -598,7 +640,8 @@
       "de": "Bronze-Baselarden",
       "en": "Bronze Baselards",
       "fr": "Baselards en bronze",
-      "ja": "バゼラード"
+      "ja": "バゼラード",
+      "ko": "바젤라드"
     }
   },
   {
@@ -612,7 +655,8 @@
       "de": "Bronzefeile",
       "en": "Bronze File",
       "fr": "Lime",
-      "ja": "ファイル"
+      "ja": "ファイル",
+      "ko": "줄판"
     }
   },
   {
@@ -626,7 +670,8 @@
       "de": "Bronzemörser",
       "en": "Bronze Mortar",
       "fr": "Mortier",
-      "ja": "モーター"
+      "ja": "モーター",
+      "ko": "약연"
     }
   },
   {
@@ -640,7 +685,8 @@
       "de": "Bronzezange",
       "en": "Bronze Pliers",
       "fr": "Tenailles",
-      "ja": "プライヤー"
+      "ja": "プライヤー",
+      "ko": "플라이어"
     }
   },
   {
@@ -654,7 +700,8 @@
       "de": "Kühler-Bauteil",
       "en": "Heat Vent Component",
       "fr": "Composant de ventilation",
-      "ja": "排熱部材"
+      "ja": "排熱部材",
+      "ko": "배열 부재"
     }
   },
   {
@@ -668,7 +715,8 @@
       "de": "Backbordtragflächen-Bauteil",
       "en": "Larboard Wing Component",
       "fr": "Composant d'aile gauche",
-      "ja": "左翼部材"
+      "ja": "左翼部材",
+      "ko": "왼쪽 날개 부재"
     }
   },
   {
@@ -682,7 +730,8 @@
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile gauche",
-      "ja": "左翼可動部材"
+      "ja": "左翼可動部材",
+      "ko": "왼쪽 날개 가동 부재"
     }
   },
   {
@@ -696,7 +745,8 @@
       "de": "Steuerbordtragflächen-Bauteil",
       "en": "Starboard Wing Component",
       "fr": "Composant d'aile droite",
-      "ja": "右翼部材"
+      "ja": "右翼部材",
+      "ko": "오른쪽 날개 부재"
     }
   },
   {
@@ -710,7 +760,8 @@
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile droite",
-      "ja": "右翼可動部材"
+      "ja": "右翼可動部材",
+      "ko": "오른쪽 날개 가동 부재"
     }
   },
   {
@@ -724,7 +775,8 @@
       "de": "Sprechanlagen-Bauteil",
       "en": "Transmission Component",
       "fr": "Composant de transmission",
-      "ja": "伝達系部材"
+      "ja": "伝達系部材",
+      "ko": "전달계 부재"
     }
   },
   {
@@ -738,7 +790,8 @@
       "de": "Laien-Flachhammer",
       "en": "Amateur's Doming Hammer",
       "fr": "Marteau à emboutir d'amateur",
-      "ja": "アマチュアドーミングハンマー"
+      "ja": "アマチュアドーミングハンマー",
+      "ko": "초보자용 판금망치"
     }
   },
   {
@@ -752,7 +805,8 @@
       "de": "Laien-Sattlermesser",
       "en": "Amateur's Head Knife",
       "fr": "Couteau à pied d'amateur",
-      "ja": "アマチュアヘッドナイフ"
+      "ja": "アマチュアヘッドナイフ",
+      "ko": "초보자용 가죽칼"
     }
   },
   {
@@ -766,7 +820,8 @@
       "de": "Laien-Spitzhacke",
       "en": "Amateur's Pickaxe",
       "fr": "Pioche d'amateur",
-      "ja": "アマチュアピック"
+      "ja": "アマチュアピック",
+      "ko": "초보자용 곡괭이"
     }
   },
   {
@@ -780,7 +835,8 @@
       "de": "Bronze-Ahle",
       "en": "Bronze Awl",
       "fr": "Alêne",
-      "ja": "アウル"
+      "ja": "アウル",
+      "ko": "목타"
     }
   },
   {
@@ -794,7 +850,8 @@
       "de": "Bronzesense",
       "en": "Bronze Scythe",
       "fr": "Faux",
-      "ja": "サイズ"
+      "ja": "サイズ",
+      "ko": "큰낫"
     }
   },
   {
@@ -808,7 +865,8 @@
       "de": "Laien-Handbeil",
       "en": "Amateur's Hatchet",
       "fr": "Hachette d'amateur",
-      "ja": "アマチュアハチェット"
+      "ja": "アマチュアハチェット",
+      "ko": "초보자용 손도끼"
     }
   },
   {
@@ -822,7 +880,8 @@
       "de": "Laien-Fuchsschwanz",
       "en": "Amateur's Saw",
       "fr": "Scie d'amateur",
-      "ja": "アマチュアソー"
+      "ja": "アマチュアソー",
+      "ko": "초보자용 톱"
     }
   },
   {
@@ -836,7 +895,8 @@
       "de": "Bronze-Küchenmesser",
       "en": "Bronze Culinary Knife",
       "fr": "Couteau de cuisine",
-      "ja": "クリナリーナイフ"
+      "ja": "クリナリーナイフ",
+      "ko": "요리칼"
     }
   },
   {
@@ -850,7 +910,8 @@
       "de": "Bronze-Ornamenthammer",
       "en": "Bronze Ornamental Hammer",
       "fr": "Marteau ornementé",
-      "ja": "オーナメンタルハンマー"
+      "ja": "オーナメンタルハンマー",
+      "ko": "장식새김 망치"
     }
   },
   {
@@ -864,7 +925,8 @@
       "de": "Bronze-Vorschlaghammer",
       "en": "Bronze Sledgehammer",
       "fr": "Maillet",
-      "ja": "モール"
+      "ja": "モール",
+      "ko": "채굴망치"
     }
   },
   {
@@ -878,7 +940,8 @@
       "de": "Bronzeschlagringe",
       "en": "Bronze Knuckles",
       "fr": "Poings métalliques",
-      "ja": "メタルナックル"
+      "ja": "メタルナックル",
+      "ko": "금속 너클"
     }
   },
   {
@@ -892,7 +955,8 @@
       "de": "Bronze-Spatha",
       "en": "Bronze Spatha",
       "fr": "Spathe",
-      "ja": "スパタ"
+      "ja": "スパタ",
+      "ko": "스파타"
     }
   },
   {
@@ -906,7 +970,8 @@
       "de": "Messingdolche",
       "en": "Brass Daggers",
       "fr": "Dagues en laiton",
-      "ja": "ブラスダガー"
+      "ja": "ブラスダガー",
+      "ko": "황동 단검"
     }
   },
   {
@@ -920,7 +985,8 @@
       "de": "Messing-Sattlermesser",
       "en": "Brass Head Knife",
       "fr": "Couteau à pied en laiton",
-      "ja": "ブラスヘッドナイフ"
+      "ja": "ブラスヘッドナイフ",
+      "ko": "황동 가죽칼"
     }
   },
   {
@@ -934,7 +1000,8 @@
       "de": "Stachelbewehrte Bronze-Labrys",
       "en": "Spiked Bronze Labrys",
       "fr": "Labrys en bronze à pointe",
-      "ja": "スパイクドラブリュス"
+      "ja": "スパイクドラブリュス",
+      "ko": "징 박힌 양날도끼"
     }
   },
   {
@@ -948,7 +1015,8 @@
       "de": "Schnabelhammer",
       "en": "Birdsbeak Hammer",
       "fr": "Marteau à bec",
-      "ja": "バードビークハンマー"
+      "ja": "バードビークハンマー",
+      "ko": "새부리 망치"
     }
   },
   {
@@ -962,7 +1030,8 @@
       "de": "Bronze-Schlichthammer",
       "en": "Bronze Raising Hammer",
       "fr": "Marteau de batteur",
-      "ja": "レイジングハンマー"
+      "ja": "レイジングハンマー",
+      "ko": "돋을무늬 망치"
     }
   },
   {
@@ -976,7 +1045,8 @@
       "de": "Erdseim-Tank-Bauteil",
       "en": "Ceruleum Tank Component",
       "fr": "Composant de réservoir",
-      "ja": "青燐タンク部材"
+      "ja": "青燐タンク部材",
+      "ko": "청린 탱크 부재"
     }
   },
   {
@@ -990,7 +1060,8 @@
       "de": "Entsorgungssystem-Bauteil",
       "en": "Disposal Unit Component",
       "fr": "Composant de système d'évacuation",
-      "ja": "緊急廃棄部材"
+      "ja": "緊急廃棄部材",
+      "ko": "긴급 폐기 부재"
     }
   },
   {
@@ -1004,7 +1075,8 @@
       "de": "Schornstein-Bauteil",
       "en": "Exhaust Outlet Component",
       "fr": "Composant d'échappement",
-      "ja": "排気系部材"
+      "ja": "排気系部材",
+      "ko": "배기계 부재"
     }
   },
   {
@@ -1018,7 +1090,8 @@
       "de": "Grobschmiede-Projektionsprisma",
       "en": "Glamour Prism (Smithing)",
       "fr": "Prisme mirage (métallurgie)",
-      "ja": "ミラージュプリズム:スミシング"
+      "ja": "ミラージュプリズム:スミシング",
+      "ko": "환상의 프리즘: 금속제"
     }
   },
   {
@@ -1032,7 +1105,8 @@
       "de": "Grobschmiede-Projektionsprisma II",
       "en": "Grade 2 Glamour Prism (Smithing)",
       "fr": "Prisme mirage II (métallurgie)",
-      "ja": "ミラージュプリズムG2:スミシング"
+      "ja": "ミラージュプリズムG2:スミシング",
+      "ko": "2등급 환상의 프리즘: 금속제"
     }
   },
   {
@@ -1046,7 +1120,8 @@
       "de": "Grobschmiede-Projektionsprisma III",
       "en": "Grade 3 Glamour Prism (Smithing)",
       "fr": "Prisme mirage III (métallurgie)",
-      "ja": "ミラージュプリズムG3:スミシング"
+      "ja": "ミラージュプリズムG3:スミシング",
+      "ko": "3등급 환상의 프리즘: 금속제"
     }
   },
   {
@@ -1060,7 +1135,8 @@
       "de": "Grobschmiede-Projektionsprisma IV",
       "en": "Grade 4 Glamour Prism (Smithing)",
       "fr": "Prisme mirage IV (métallurgie)",
-      "ja": "ミラージュプリズムG4:スミシング"
+      "ja": "ミラージュプリズムG4:スミシング",
+      "ko": "4등급 환상의 프리즘: 금속제"
     }
   },
   {
@@ -1074,7 +1150,8 @@
       "de": "Grobschmiede-Projektionsprisma V",
       "en": "Grade 5 Glamour Prism (Smithing)",
       "fr": "Prisme mirage V (métallurgie)",
-      "ja": "ミラージュプリズムG5:スミシング"
+      "ja": "ミラージュプリズムG5:スミシング",
+      "ko": "5등급 환상의 프리즘: 금속제"
     }
   },
   {
@@ -1088,7 +1165,8 @@
       "de": "Steuereinheits-Bauteil",
       "en": "Helm Component",
       "fr": "Composant de gouvernail",
-      "ja": "エカトルの操舵装置部材"
+      "ja": "エカトルの操舵装置部材",
+      "ko": "에카틀 조타 장치 부재"
     }
   },
   {
@@ -1102,7 +1180,8 @@
       "de": "Eisenklöppel",
       "en": "Iron Clapper",
       "fr": "Battant en fer",
-      "ja": "アイアンクラッパー"
+      "ja": "アイアンクラッパー",
+      "ko": "철제 추"
     }
   },
   {
@@ -1116,7 +1195,8 @@
       "de": "Beleuchtungs-Bauteil",
       "en": "Lamp Component",
       "fr": "Composant d'éclairage",
-      "ja": "ランプ部材"
+      "ja": "ランプ部材",
+      "ko": "조명 부재"
     }
   },
   {
@@ -1130,7 +1210,8 @@
       "de": "Oasen-Oktagonfenster",
       "en": "Oasis Octagonal Window",
       "fr": "Fenêtre octogonale thanalanaise",
-      "ja": "ザナラーン・オクタゴンウィンドウ"
+      "ja": "ザナラーン・オクタゴンウィンドウ",
+      "ko": "오아시스의 팔각 창문"
     }
   },
   {
@@ -1144,7 +1225,8 @@
       "de": "Kommunikationsrohr-Bauteil",
       "en": "Speaking Tube Component",
       "fr": "Composant de tuyau acoustique",
-      "ja": "伝声系部材"
+      "ja": "伝声系部材",
+      "ko": "통신계 부재"
     }
   },
   {
@@ -1158,7 +1240,8 @@
       "de": "Steuermechanismus-Bauteil",
       "en": "Steering Mechanism Component",
       "fr": "Composant de module de pilotage",
-      "ja": "操縦機具部材"
+      "ja": "操縦機具部材",
+      "ko": "조종기구 부재"
     }
   },
   {
@@ -1172,7 +1255,8 @@
       "de": "Aerodynamik-Verbesserer-Bauteil",
       "en": "Auxiliary Aerodynamo Component",
       "fr": "Composant d'aileron",
-      "ja": "補助空力部材"
+      "ja": "補助空力部材",
+      "ko": "보조 동력원 부재"
     }
   },
   {
@@ -1186,7 +1270,8 @@
       "de": "Messing-Bastardschwert",
       "en": "Brass Bastard Sword",
       "fr": "Épée bâtarde en laiton",
-      "ja": "ブラスバスタードソード"
+      "ja": "ブラスバスタードソード",
+      "ko": "황동 바스타드소드"
     }
   },
   {
@@ -1200,7 +1285,8 @@
       "de": "Messingmesser",
       "en": "Brass Knives",
       "fr": "Couteaux en laiton",
-      "ja": "ブラスナイフ"
+      "ja": "ブラスナイフ",
+      "ko": "황동 나이프"
     }
   },
   {
@@ -1214,7 +1300,8 @@
       "de": "Messingschlagringe",
       "en": "Brass Knuckles",
       "fr": "Poings en laiton",
-      "ja": "ブラスナックル"
+      "ja": "ブラスナックル",
+      "ko": "황동 너클"
     }
   },
   {
@@ -1228,7 +1315,8 @@
       "de": "Bronze-Chocoboschwanz",
       "en": "Chocobotail Saw",
       "fr": "Scie queue de chocobo",
-      "ja": "チョコボテイルソー"
+      "ja": "チョコボテイルソー",
+      "ko": "초코보 꽁지톱"
     }
   },
   {
@@ -1242,7 +1330,8 @@
       "de": "Zierplatten-Bauteil",
       "en": "Decorative Plating Component",
       "fr": "Composant d'ornementation",
-      "ja": "装飾部材"
+      "ja": "装飾部材",
+      "ko": "장식 부재"
     }
   },
   {
@@ -1256,7 +1345,8 @@
       "de": "Rettungsboots-Bauteil",
       "en": "Escape Flyer Component",
       "fr": "Composant de système d'éjection",
-      "ja": "緊急脱出用具"
+      "ja": "緊急脱出用具",
+      "ko": "긴급 탈출 도구"
     }
   },
   {
@@ -1270,7 +1360,8 @@
       "de": "Hyperleiter-Bauteil",
       "en": "Hyperconductor Component",
       "fr": "Composant d'hyperconducteur",
-      "ja": "高伝導率部材"
+      "ja": "高伝導率部材",
+      "ko": "고전도율 부재"
     }
   },
   {
@@ -1284,7 +1375,8 @@
       "de": "Eisenbarren",
       "en": "Iron Ingot",
       "fr": "Lingot de fer",
-      "ja": "アイアンインゴット"
+      "ja": "アイアンインゴット",
+      "ko": "철 주괴"
     }
   },
   {
@@ -1298,7 +1390,8 @@
       "de": "Eisennägel",
       "en": "Iron Nails",
       "fr": "Clou en fer",
-      "ja": "アイアンネイル"
+      "ja": "アイアンネイル",
+      "ko": "철 못"
     }
   },
   {
@@ -1312,7 +1405,8 @@
       "de": "Isolations-Bauteil",
       "en": "Isolator Component",
       "fr": "Composant de système antivibration",
-      "ja": "免震部材"
+      "ja": "免震部材",
+      "ko": "진동방지 부재"
     }
   },
   {
@@ -1326,7 +1420,8 @@
       "de": "Gefiederte Bronzespitzhacke",
       "en": "Plumed Bronze Pickaxe",
       "fr": "Pioche à plumet",
-      "ja": "プルームドピック"
+      "ja": "プルームドピック",
+      "ko": "깃털장식 곡괭이"
     }
   },
   {
@@ -1340,7 +1435,8 @@
       "de": "Gewichtsreduktions-Bauteil",
       "en": "Refabrication Component",
       "fr": "Composant d'allégement",
-      "ja": "軽量化部材"
+      "ja": "軽量化部材",
+      "ko": "경량화 부재"
     }
   },
   {
@@ -1354,7 +1450,8 @@
       "de": "Reservetank-Bauteil",
       "en": "Spare Tank Component",
       "fr": "Composant de réservoir de secours",
-      "ja": "予備タンク部材"
+      "ja": "予備タンク部材",
+      "ko": "예비 탱크 부재"
     }
   },
   {
@@ -1368,7 +1465,8 @@
       "de": "Eisenhandbeil",
       "en": "Iron Hatchet",
       "fr": "Hachette en fer",
-      "ja": "アイアンハチェット"
+      "ja": "アイアンハチェット",
+      "ko": "철제 손도끼"
     }
   },
   {
@@ -1382,7 +1480,8 @@
       "de": "Eisen-Labrys",
       "en": "Iron Labrys",
       "fr": "Labrys en fer",
-      "ja": "アイアンラブリュス"
+      "ja": "アイアンラブリュス",
+      "ko": "철제 양날도끼"
     }
   },
   {
@@ -1396,7 +1495,8 @@
       "de": "Eisenstreitaxt",
       "en": "Iron War Axe",
       "fr": "Hache de guerre en fer",
-      "ja": "アイアンウォーアクス"
+      "ja": "アイアンウォーアクス",
+      "ko": "철제 전쟁도끼"
     }
   },
   {
@@ -1410,7 +1510,8 @@
       "de": "Oasen-Rundtisch",
       "en": "Oasis Round Table",
       "fr": "Table ronde thanalanaise",
-      "ja": "ザナラーン・ラウンドテーブル"
+      "ja": "ザナラーン・ラウンドテーブル",
+      "ko": "다날란 원탁"
     }
   },
   {
@@ -1424,7 +1525,8 @@
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
       "fr": "Aile d'Ehcatl",
-      "ja": "エカトルの羽根飾り"
+      "ja": "エカトルの羽根飾り",
+      "ko": "에카틀 깃털 장식"
     }
   },
   {
@@ -1438,7 +1540,8 @@
       "de": "Endstück-Bauteil",
       "en": "Finishing Component",
       "fr": "Composant final",
-      "ja": "エカトルの重要部材"
+      "ja": "エカトルの重要部材",
+      "ko": "에카틀 중요 부재"
     }
   },
   {
@@ -1452,7 +1555,8 @@
       "de": "Eisen-Ziselierhammer",
       "en": "Iron Chaser Hammer",
       "fr": "Marteau de ciseleur en fer",
-      "ja": "アイアンチェーサーハンマー"
+      "ja": "アイアンチェーサーハンマー",
+      "ko": "철제 끌망치"
     }
   },
   {
@@ -1466,7 +1570,8 @@
       "de": "Eisen-Kreuzschlaghammer",
       "en": "Iron Cross-pein Hammer",
       "fr": "Marteau à panne croisée en fer",
-      "ja": "アイアン・クロスペインハンマー"
+      "ja": "アイアン・クロスペインハンマー",
+      "ko": "철제 단조망치"
     }
   },
   {
@@ -1480,7 +1585,8 @@
       "de": "Eisen-Flachhammer",
       "en": "Iron Doming Hammer",
       "fr": "Marteau à emboutir en fer",
-      "ja": "アイアンドーミングハンマー"
+      "ja": "アイアンドーミングハンマー",
+      "ko": "철제 판금망치"
     }
   },
   {
@@ -1494,7 +1600,8 @@
       "de": "Eisennieten",
       "en": "Iron Rivets",
       "fr": "Rivets en fer",
-      "ja": "アイアンリベット"
+      "ja": "アイアンリベット",
+      "ko": "철 이음못"
     }
   },
   {
@@ -1508,7 +1615,8 @@
       "de": "Riviera-Langfenster",
       "en": "Riviera Oblong Window",
       "fr": "Fenêtre à remplage noscéenne",
-      "ja": "ラノシアン・オブロングウィンドウ"
+      "ja": "ラノシアン・オブロングウィンドウ",
+      "ko": "해변의 직사각 창문"
     }
   },
   {
@@ -1522,7 +1630,8 @@
       "de": "Handtuchaufhänger",
       "en": "Towel Hanger",
       "fr": "Porte-serviette",
-      "ja": "タオルハンガー"
+      "ja": "タオルハンガー",
+      "ko": "수건걸이"
     }
   },
   {
@@ -1536,7 +1645,8 @@
       "de": "Anfänger-Handbeil",
       "en": "Initiate's Hatchet",
       "fr": "Hachette d'initié",
-      "ja": "イニシエートハチェット"
+      "ja": "イニシエートハチェット",
+      "ko": "견습생용 손도끼"
     }
   },
   {
@@ -1550,7 +1660,8 @@
       "de": "Initiaten-Sattlermesser",
       "en": "Initiate's Head Knife",
       "fr": "Couteau à pied d'initié",
-      "ja": "イニシエートヘッドナイフ"
+      "ja": "イニシエートヘッドナイフ",
+      "ko": "견습생용 가죽칼"
     }
   },
   {
@@ -1564,7 +1675,8 @@
       "de": "Anfänger-Vorschlaghammer",
       "en": "Initiate's Sledgehammer",
       "fr": "Maillet d'initié",
-      "ja": "イニシエートモール"
+      "ja": "イニシエートモール",
+      "ko": "견습생용 채굴망치"
     }
   },
   {
@@ -1578,7 +1690,8 @@
       "de": "Eisen-Ahle",
       "en": "Iron Awl",
       "fr": "Alêne en fer",
-      "ja": "アイアンアウル"
+      "ja": "アイアンアウル",
+      "ko": "철제 목타"
     }
   },
   {
@@ -1592,7 +1705,8 @@
       "de": "Messing-Wikingerschwert",
       "en": "Brass Viking Sword",
       "fr": "Épée viking en laiton",
-      "ja": "ブラスヴァイキングソード"
+      "ja": "ブラスヴァイキングソード",
+      "ko": "황동 바이킹소드"
     }
   },
   {
@@ -1606,7 +1720,8 @@
       "de": "Massakerschwert",
       "en": "Carnage Sword",
       "fr": "Épée bâtarde enrageante",
-      "ja": "カルネージソード"
+      "ja": "カルネージソード",
+      "ko": "학살검"
     }
   },
   {
@@ -1620,7 +1735,8 @@
       "de": "Anfänger-Fuchsschwanz",
       "en": "Initiate's Saw",
       "fr": "Scie d'initié",
-      "ja": "イニシエートソー"
+      "ja": "イニシエートソー",
+      "ko": "견습생용 톱"
     }
   },
   {
@@ -1634,7 +1750,8 @@
       "de": "Eisen-Klauenhammer",
       "en": "Iron Claw Hammer",
       "fr": "Marteau arrache-clou en fer",
-      "ja": "アイアンクローハンマー"
+      "ja": "アイアンクローハンマー",
+      "ko": "철제 장도리"
     }
   },
   {
@@ -1648,7 +1765,8 @@
       "de": "Eisendolche",
       "en": "Iron Daggers",
       "fr": "Dagues en fer",
-      "ja": "アイアンダガー"
+      "ja": "アイアンダガー",
+      "ko": "철제 단검"
     }
   },
   {
@@ -1662,7 +1780,8 @@
       "de": "Eisenspitzhacke",
       "en": "Iron Pickaxe",
       "fr": "Pioche en fer",
-      "ja": "アイアンピック"
+      "ja": "アイアンピック",
+      "ko": "철제 곡괭이"
     }
   },
   {
@@ -1676,7 +1795,8 @@
       "de": "Oasen-Spitzbogenfenster",
       "en": "Oasis Lancet Window",
       "fr": "Fenêtre à lancette thanalanaise",
-      "ja": "ザナラーン・ランセットウィンドウ"
+      "ja": "ザナラーン・ランセットウィンドウ",
+      "ko": "오아시스의 뾰족 창문"
     }
   },
   {
@@ -1690,7 +1810,8 @@
       "de": "Infernoaxt",
       "en": "Inferno Axe",
       "fr": "Hache infernale",
-      "ja": "インフェルノアクス"
+      "ja": "インフェルノアクス",
+      "ko": "지옥불 도끼"
     }
   },
   {
@@ -1704,7 +1825,8 @@
       "de": "Anfänger-Ziselierhammer",
       "en": "Initiate's Chaser Hammer",
       "fr": "Marteau de ciseleur d'initié",
-      "ja": "イニシエートチェーサーハンマー"
+      "ja": "イニシエートチェーサーハンマー",
+      "ko": "견습생용 끌망치"
     }
   },
   {
@@ -1718,7 +1840,8 @@
       "de": "Anfänger-Kreuzschlaghammer",
       "en": "Initiate's Cross-pein Hammer",
       "fr": "Marteau à panne croisée d'initié",
-      "ja": "イニシエート・クロスペインハンマー"
+      "ja": "イニシエート・クロスペインハンマー",
+      "ko": "견습생용 단조망치"
     }
   },
   {
@@ -1732,7 +1855,8 @@
       "de": "Anfänger-Flachhammer",
       "en": "Initiate's Doming Hammer",
       "fr": "Marteau à emboutir d'initié",
-      "ja": "イニシエートドーミングハンマー"
+      "ja": "イニシエートドーミングハンマー",
+      "ko": "견습생용 판금망치"
     }
   },
   {
@@ -1746,7 +1870,8 @@
       "de": "Eisen-Küchenmesser",
       "en": "Iron Culinary Knife",
       "fr": "Couteau de cuisine en fer",
-      "ja": "アイアンクリナリーナイフ"
+      "ja": "アイアンクリナリーナイフ",
+      "ko": "철제 요리칼"
     }
   },
   {
@@ -1760,7 +1885,8 @@
       "de": "Eisenmörser",
       "en": "Iron Mortar",
       "fr": "Mortier en fer",
-      "ja": "アイアンモーター"
+      "ja": "アイアンモーター",
+      "ko": "철제 약연"
     }
   },
   {
@@ -1774,7 +1900,8 @@
       "de": "Eisensense",
       "en": "Iron Scythe",
       "fr": "Faux en fer",
-      "ja": "アイアンサイズ"
+      "ja": "アイアンサイズ",
+      "ko": "철제 큰낫"
     }
   },
   {
@@ -1788,7 +1915,8 @@
       "de": "Riviera-Stuhl",
       "en": "Riviera Chair",
       "fr": "Chaise en bois noscéenne",
-      "ja": "ラノシアン・ウッドチェア"
+      "ja": "ラノシアン・ウッドチェア",
+      "ko": "라노시아 나무 의자"
     }
   },
   {
@@ -1802,7 +1930,8 @@
       "de": "Riviera-Deckenleuchte",
       "en": "Riviera Pendant Lamp",
       "fr": "Suspension noscéenne",
-      "ja": "ラノシアン・ペンダントランプ"
+      "ja": "ラノシアン・ペンダントランプ",
+      "ko": "라노시아 걸이식 램프"
     }
   },
   {
@@ -1816,7 +1945,8 @@
       "de": "Anfänger-Spitzhacke",
       "en": "Initiate's Pickaxe",
       "fr": "Pioche d'initié",
-      "ja": "イニシエートピック"
+      "ja": "イニシエートピック",
+      "ko": "견습생용 곡괭이"
     }
   },
   {
@@ -1830,7 +1960,8 @@
       "de": "Eisenfeile",
       "en": "Iron File",
       "fr": "Lime en fer",
-      "ja": "アイアンファイル"
+      "ja": "アイアンファイル",
+      "ko": "철제 줄판"
     }
   },
   {
@@ -1844,7 +1975,8 @@
       "de": "Eisenzange",
       "en": "Iron Pliers",
       "fr": "Tenailles en fer",
-      "ja": "アイアンプライヤー"
+      "ja": "アイアンプライヤー",
+      "ko": "철제 플라이어"
     }
   },
   {
@@ -1858,7 +1990,8 @@
       "de": "Pugiones",
       "en": "Iron Pugiones",
       "fr": "Pugiones en fer",
-      "ja": "プジオ"
+      "ja": "プジオ",
+      "ko": "푸기오"
     }
   },
   {
@@ -1872,7 +2005,8 @@
       "de": "Eisen-Kurzschwert",
       "en": "Iron Shortsword",
       "fr": "Épée courte",
-      "ja": "ショートソード"
+      "ja": "ショートソード",
+      "ko": "쇼트소드"
     }
   },
   {
@@ -1886,7 +2020,8 @@
       "de": "Anfänger-Ahle",
       "en": "Initiate's Awl",
       "fr": "Alêne d'initié",
-      "ja": "イニシエートアウル"
+      "ja": "イニシエートアウル",
+      "ko": "견습생용 목타"
     }
   },
   {
@@ -1900,7 +2035,8 @@
       "de": "Eisen-Vorschlaghammer",
       "en": "Iron Sledgehammer",
       "fr": "Maillet en fer",
-      "ja": "アイアンモール"
+      "ja": "アイアンモール",
+      "ko": "철제 채굴망치"
     }
   },
   {
@@ -1914,7 +2050,8 @@
       "de": "Stachelschlagringe",
       "en": "Spiked Knuckles",
       "fr": "Poings à pointes",
-      "ja": "スパイクナックル"
+      "ja": "スパイクナックル",
+      "ko": "가시 너클"
     }
   },
   {
@@ -1928,7 +2065,8 @@
       "de": "Kupferstich-Eisenfuchsschwanz",
       "en": "Bas-relief Iron Saw",
       "fr": "Scie en fer gravée",
-      "ja": "レリーフアイアンソー"
+      "ja": "レリーフアイアンソー",
+      "ko": "세공된 철제 톱"
     }
   },
   {
@@ -1942,7 +2080,8 @@
       "de": "Messinghandbeil",
       "en": "Brass Hatchet",
       "fr": "Hachette en laiton",
-      "ja": "ブラスハチェット"
+      "ja": "ブラスハチェット",
+      "ko": "황동 손도끼"
     }
   },
   {
@@ -1956,7 +2095,8 @@
       "de": "Anfänger-Klauenhammer",
       "en": "Initiate's Claw Hammer",
       "fr": "Marteau arrache-clou d'initié",
-      "ja": "イニシエートクローハンマー"
+      "ja": "イニシエートクローハンマー",
+      "ko": "견습생용 장도리"
     }
   },
   {
@@ -1970,7 +2110,8 @@
       "de": "Anfängermörser",
       "en": "Initiate's Mortar",
       "fr": "Mortier d'initié",
-      "ja": "イニシエートモーター"
+      "ja": "イニシエートモーター",
+      "ko": "견습생용 약연"
     }
   },
   {
@@ -1984,7 +2125,8 @@
       "de": "Eisen-Hippe",
       "en": "Iron Bill",
       "fr": "Vouge",
-      "ja": "ビル"
+      "ja": "ビル",
+      "ko": "낫도끼"
     }
   },
   {
@@ -1998,7 +2140,8 @@
       "de": "Riviera-Tisch",
       "en": "Riviera Table",
       "fr": "Table noscéenne",
-      "ja": "ラノシアン・テーブル"
+      "ja": "ラノシアン・テーブル",
+      "ko": "라노시아 탁자"
     }
   },
   {
@@ -2012,7 +2155,8 @@
       "de": "Anfänger-Küchenmesser",
       "en": "Initiate's Culinary Knife",
       "fr": "Couteau de cuisine d'initié",
-      "ja": "イニシエートクリナリーナイフ"
+      "ja": "イニシエートクリナリーナイフ",
+      "ko": "견습생용 요리칼"
     }
   },
   {
@@ -2026,7 +2170,8 @@
       "de": "Anfängersense",
       "en": "Initiate's Scythe",
       "fr": "Faux d'initié",
-      "ja": "イニシエートサイズ"
+      "ja": "イニシエートサイズ",
+      "ko": "견습생용 큰낫"
     }
   },
   {
@@ -2040,7 +2185,8 @@
       "de": "Eisenrundmesser",
       "en": "Iron Round Knife",
       "fr": "Couteau arrondi",
-      "ja": "ラウンドナイフ"
+      "ja": "ラウンドナイフ",
+      "ko": "둥근칼"
     }
   },
   {
@@ -2054,7 +2200,8 @@
       "de": "Eisen-Spatha",
       "en": "Iron Spatha",
       "fr": "Spathe en fer",
-      "ja": "アイアンスパタ"
+      "ja": "アイアンスパタ",
+      "ko": "철제 스파타"
     }
   },
   {
@@ -2068,7 +2215,8 @@
       "de": "Krähenschnabelhammer",
       "en": "Crowsbeak Hammer",
       "fr": "Marteau corbeau",
-      "ja": "クロウビークハンマー"
+      "ja": "クロウビークハンマー",
+      "ko": "까마귀부리 망치"
     }
   },
   {
@@ -2082,7 +2230,8 @@
       "de": "Eisen-Ornamenthammer",
       "en": "Iron Ornamental Hammer",
       "fr": "Marteau ornementé en fer",
-      "ja": "アイアンオーナメンタルハンマー"
+      "ja": "アイアンオーナメンタルハンマー",
+      "ko": "철제 장식새김 망치"
     }
   },
   {
@@ -2096,7 +2245,8 @@
       "de": "Eisen-Schlichthammer",
       "en": "Iron Raising Hammer",
       "fr": "Marteau de batteur en fer",
-      "ja": "アイアンレイジングハンマー"
+      "ja": "アイアンレイジングハンマー",
+      "ko": "철제 돋을무늬 망치"
     }
   },
   {
@@ -2110,7 +2260,8 @@
       "de": "Stahldolche",
       "en": "Steel Daggers",
       "fr": "Dagues en acier",
-      "ja": "スチールダガー"
+      "ja": "スチールダガー",
+      "ko": "강철 단검"
     }
   },
   {
@@ -2124,7 +2275,8 @@
       "de": "Stahlbarren",
       "en": "Steel Ingot",
       "fr": "Lingot d'acier",
-      "ja": "スチールインゴット"
+      "ja": "スチールインゴット",
+      "ko": "강철 주괴"
     }
   },
   {
@@ -2138,7 +2290,8 @@
       "de": "Donnersturmaxt",
       "en": "Thunderstorm Axe",
       "fr": "Hache orage",
-      "ja": "サンダーストームアクス"
+      "ja": "サンダーストームアクス",
+      "ko": "번개폭풍 도끼"
     }
   },
   {
@@ -2152,7 +2305,8 @@
       "de": "Galeassen-Steuerrad",
       "en": "Galleass Wheel",
       "fr": "Roue de galéasse",
-      "ja": "ガレアス船の操舵輪"
+      "ja": "ガレアス船の操舵輪",
+      "ko": "갈레아스선 조타륜"
     }
   },
   {
@@ -2166,7 +2320,8 @@
       "de": "Anfängerfeile",
       "en": "Initiate's File",
       "fr": "Lime d'initié",
-      "ja": "イニシエートファイル"
+      "ja": "イニシエートファイル",
+      "ko": "견습생용 줄판"
     }
   },
   {
@@ -2180,7 +2335,8 @@
       "de": "Anfängerzange",
       "en": "Initiate's Pliers",
       "fr": "Tenailles d'initié",
-      "ja": "イニシエートプライヤー"
+      "ja": "イニシエートプライヤー",
+      "ko": "견습생용 플라이어"
     }
   },
   {
@@ -2194,7 +2350,8 @@
       "de": "Eisen-Dolabra",
       "en": "Iron Dolabra",
       "fr": "Dolabre",
-      "ja": "ドラブラ"
+      "ja": "ドラブラ",
+      "ko": "양날곡괭이"
     }
   },
   {
@@ -2208,7 +2365,8 @@
       "de": "Riviera-Ornamenttür",
       "en": "Riviera Ornate Door",
       "fr": "Porte ornée noscéenne",
-      "ja": "ラノシアン・オーネイトドア"
+      "ja": "ラノシアン・オーネイトドア",
+      "ko": "해변의 장식 대문"
     }
   },
   {
@@ -2222,7 +2380,8 @@
       "de": "Stahlnägel",
       "en": "Steel Nails",
       "fr": "Clou en acier",
-      "ja": "スチールネイル"
+      "ja": "スチールネイル",
+      "ko": "강철 못"
     }
   },
   {
@@ -2236,7 +2395,8 @@
       "de": "Eisen-Chocoboschwanz",
       "en": "Iron Chocobotail Saw",
       "fr": "Scie queue de chocobo en fer",
-      "ja": "アイアン・チョコボテイルソー"
+      "ja": "アイアン・チョコボテイルソー",
+      "ko": "철제 초코보 꽁지톱"
     }
   },
   {
@@ -2250,7 +2410,8 @@
       "de": "Stachelbewehrte Stahl-Labrys",
       "en": "Spiked Steel Labrys",
       "fr": "Labrys en acier à pointe",
-      "ja": "スパイクドスチールラブリュス"
+      "ja": "スパイクドスチールラブリュス",
+      "ko": "징 박힌 강철 양날도끼"
     }
   },
   {
@@ -2264,7 +2425,8 @@
       "de": "Breitschwert",
       "en": "Steel Broadsword",
       "fr": "Épée large",
-      "ja": "ブロードソード"
+      "ja": "ブロードソード",
+      "ko": "브로드소드"
     }
   },
   {
@@ -2278,7 +2440,8 @@
       "de": "Riviera-Prachtdeckenleuchte",
       "en": "Deluxe Riviera Pendant Lamp",
       "fr": "Plafonnier noscéen",
-      "ja": "ラノシアン・デラックスペンダントランプ"
+      "ja": "ラノシアン・デラックスペンダントランプ",
+      "ko": "라노시아 대형 걸이식 램프"
     }
   },
   {
@@ -2292,7 +2455,8 @@
       "de": "Schwerer Krähenschnabelhammer",
       "en": "Heavy Crowsbeak Hammer",
       "fr": "Marteau corbeau lourd",
-      "ja": "ヘヴィ・クロウビークハンマー"
+      "ja": "ヘヴィ・クロウビークハンマー",
+      "ko": "묵직한 까마귀부리 망치"
     }
   },
   {
@@ -2306,7 +2470,8 @@
       "de": "Eisen-Sattlermesser",
       "en": "Iron Head Knife",
       "fr": "Couteau à pied en fer",
-      "ja": "アイアンヘッドナイフ"
+      "ja": "アイアンヘッドナイフ",
+      "ko": "철제 가죽칼"
     }
   },
   {
@@ -2320,7 +2485,8 @@
       "de": "Gefiedertes Eisenhandbeil",
       "en": "Plumed Iron Hatchet",
       "fr": "Hachette à plumet",
-      "ja": "チョコボハチェット"
+      "ja": "チョコボハチェット",
+      "ko": "초코보 손도끼"
     }
   },
   {
@@ -2334,7 +2500,8 @@
       "de": "Stahlkrallen",
       "en": "Steel Claws",
       "fr": "Griffes métalliques",
-      "ja": "メタルクロー"
+      "ja": "メタルクロー",
+      "ko": "금속 서슬발톱"
     }
   },
   {
@@ -2348,7 +2515,8 @@
       "de": "Stahlnieten",
       "en": "Steel Rivets",
       "fr": "Rivets en acier",
-      "ja": "スチールリベット"
+      "ja": "スチールリベット",
+      "ko": "강철 이음못"
     }
   },
   {
@@ -2362,7 +2530,8 @@
       "de": "Umwickelter Eisen-Schlichthammer",
       "en": "Wrapped Iron Raising Hammer",
       "fr": "Marteau de batteur en fer gainé",
-      "ja": "ラップドレイジングハンマー"
+      "ja": "ラップドレイジングハンマー",
+      "ko": "가죽 덧댄 돋을무늬 망치"
     }
   },
   {
@@ -2376,7 +2545,8 @@
       "de": "Tiefblauer Farbstoff",
       "en": "Abyssal Blue Dye",
       "fr": "Teinture bleu marine",
-      "ja": "カララント:アビサルブルー"
+      "ja": "カララント:アビサルブルー",
+      "ko": "염료: 청보라색"
     }
   },
   {
@@ -2390,7 +2560,8 @@
       "de": "Kupferstich-Stahlfuchsschwanz",
       "en": "Bas-relief Steel Saw",
       "fr": "Scie en acier gravée",
-      "ja": "レリーフスチールソー"
+      "ja": "レリーフスチールソー",
+      "ko": "세공된 강철 톱"
     }
   },
   {
@@ -2404,7 +2575,8 @@
       "de": "Jadegrüner Farbstoff",
       "en": "Celeste Green Dye",
       "fr": "Teinture vert céleste",
-      "ja": "カララント:セレストグリーン"
+      "ja": "カララント:セレストグリーン",
+      "ko": "염료: 옅은 청록색"
     }
   },
   {
@@ -2418,7 +2590,8 @@
       "de": "Kolibrirosa Farbstoff",
       "en": "Colibri Pink Dye",
       "fr": "Teinture mauve colibri",
-      "ja": "カララント:コリブリピンク"
+      "ja": "カララント:コリブリピンク",
+      "ko": "염료: 콜리브리색"
     }
   },
   {
@@ -2432,7 +2605,8 @@
       "de": "Dalamudroter Farbstoff",
       "en": "Dalamud Red Dye",
       "fr": "Teinture rouge Dalamud",
-      "ja": "カララント:ダラガブレッド"
+      "ja": "カララント:ダラガブレッド",
+      "ko": "염료: 달라가브색"
     }
   },
   {
@@ -2446,7 +2620,8 @@
       "de": "Waldgrüner Farbstoff",
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
-      "ja": "カララント:ディープウッドグリーン"
+      "ja": "カララント:ディープウッドグリーン",
+      "ko": "염료: 밀림 녹색"
     }
   },
   {
@@ -2460,7 +2635,8 @@
       "de": "Honiggelber Farbstoff",
       "en": "Honey Yellow Dye",
       "fr": "Teinture jaune miel",
-      "ja": "カララント:ハニーイエロー"
+      "ja": "カララント:ハニーイエロー",
+      "ko": "염료: 꿀색"
     }
   },
   {
@@ -2474,7 +2650,8 @@
       "de": "Jägergrüner Farbstoff",
       "en": "Hunter Green Dye",
       "fr": "Teinture vert chasseur",
-      "ja": "カララント:ハンターグリーン"
+      "ja": "カララント:ハンターグリーン",
+      "ko": "염료: 진녹색"
     }
   },
   {
@@ -2488,7 +2665,8 @@
       "de": "Koboldbrauner Farbstoff",
       "en": "Kobold Brown Dye",
       "fr": "Teinture brun kobold",
-      "ja": "カララント:コボルドブラウン"
+      "ja": "カララント:コボルドブラウン",
+      "ko": "염료: 코볼드색"
     }
   },
   {
@@ -2502,7 +2680,8 @@
       "de": "Lehmbrauner Farbstoff",
       "en": "Loam Brown Dye",
       "fr": "Teinture brun argile",
-      "ja": "カララント:ロームブラウン"
+      "ja": "カララント:ロームブラウン",
+      "ko": "염료: 비옥토색"
     }
   },
   {
@@ -2516,7 +2695,8 @@
       "de": "Lotusrosa Farbstoff",
       "en": "Lotus Pink Dye",
       "fr": "Teinture mauve lotus",
-      "ja": "カララント:ロータスピンク"
+      "ja": "カララント:ロータスピンク",
+      "ko": "염료: 연꽃색"
     }
   },
   {
@@ -2530,7 +2710,8 @@
       "de": "Herrenhaus-Blumenbord",
       "en": "Manor Flower Stand",
       "fr": "Sellette du Manoir",
-      "ja": "御用邸の花台"
+      "ja": "御用邸の花台",
+      "ko": "별궁의 화분대"
     }
   },
   {
@@ -2544,7 +2725,8 @@
       "de": "Maisgelber Farbstoff",
       "en": "Millioncorn Yellow Dye",
       "fr": "Teinture jaune milli-maïs",
-      "ja": "カララント:ミリオンコーンイエロー"
+      "ja": "カララント:ミリオンコーンイエロー",
+      "ko": "염료: 옥수수색"
     }
   },
   {
@@ -2558,7 +2740,8 @@
       "de": "Morbolgrüner Farbstoff",
       "en": "Morbol Green Dye",
       "fr": "Teinture vert morbol",
-      "ja": "カララント:モルボルグリーン"
+      "ja": "カララント:モルボルグリーン",
+      "ko": "염료: 몰볼색"
     }
   },
   {
@@ -2572,7 +2755,8 @@
       "de": "Ochugrüner Farbstoff",
       "en": "Ochu Green Dye",
       "fr": "Teinture vert otyugh",
-      "ja": "カララント:オチューグリーン"
+      "ja": "カララント:オチューグリーン",
+      "ko": "염료: 오츄색"
     }
   },
   {
@@ -2586,7 +2770,8 @@
       "de": "Othardblauer Farbstoff",
       "en": "Othard Blue Dye",
       "fr": "Teinture bleu d'Othard",
-      "ja": "カララント:オサードブルー"
+      "ja": "カララント:オサードブルー",
+      "ko": "염료: 오사드 바다색"
     }
   },
   {
@@ -2600,7 +2785,8 @@
       "de": "Pflaumenvioletter Farbstoff",
       "en": "Plum Purple Dye",
       "fr": "Teinture prune",
-      "ja": "カララント:プラムパープル"
+      "ja": "カララント:プラムパープル",
+      "ko": "염료: 매화색"
     }
   },
   {
@@ -2614,7 +2800,8 @@
       "de": "Kürbisoranger Farbstoff",
       "en": "Pumpkin Orange Dye",
       "fr": "Teinture orange citrouille",
-      "ja": "カララント:パンプキンオレンジ"
+      "ja": "カララント:パンプキンオレンジ",
+      "ko": "염료: 늙은호박색"
     }
   },
   {
@@ -2628,7 +2815,8 @@
       "de": "Königsvioletter Farbstoff",
       "en": "Regal Purple Dye",
       "fr": "Teinture byzantium",
-      "ja": "カララント:リーガルパープル"
+      "ja": "カララント:リーガルパープル",
+      "ko": "염료: 자주색"
     }
   },
   {
@@ -2642,7 +2830,8 @@
       "de": "Riviera-Laternenmast",
       "en": "Riviera Lamppost",
       "fr": "Lampadaire noscéen",
-      "ja": "ラノシアン・ランプポスト"
+      "ja": "ラノシアン・ランプポスト",
+      "ko": "라노시아 가로등"
     }
   },
   {
@@ -2656,7 +2845,8 @@
       "de": "Königsblauer Farbstoff",
       "en": "Royal Blue Dye",
       "fr": "Teinture bleu royal",
-      "ja": "カララント:ロイヤルブルー"
+      "ja": "カララント:ロイヤルブルー",
+      "ko": "염료: 감청색"
     }
   },
   {
@@ -2670,7 +2860,8 @@
       "de": "Silber-Sattlermesser",
       "en": "Silver Head Knife",
       "fr": "Couteau à pied en argent",
-      "ja": "シルバーヘッドナイフ"
+      "ja": "シルバーヘッドナイフ",
+      "ko": "은제 가죽칼"
     }
   },
   {
@@ -2684,7 +2875,8 @@
       "de": "Schneeweißer Farbstoff",
       "en": "Snow White Dye",
       "fr": "Teinture blanc neige",
-      "ja": "カララント:スノウホワイト"
+      "ja": "カララント:スノウホワイト",
+      "ko": "염료: 하얀 눈색"
     }
   },
   {
@@ -2698,7 +2890,8 @@
       "de": "Rußschwarzer Farbstoff",
       "en": "Soot Black Dye",
       "fr": "Teinture noir suie",
-      "ja": "カララント:スートブラック"
+      "ja": "カララント:スートブラック",
+      "ko": "염료: 숯검정색"
     }
   },
   {
@@ -2712,7 +2905,8 @@
       "de": "Stahl-Ziselierhammer",
       "en": "Steel Chaser Hammer",
       "fr": "Marteau de ciseleur en acier",
-      "ja": "スチールチェーサーハンマー"
+      "ja": "スチールチェーサーハンマー",
+      "ko": "강철 끌망치"
     }
   },
   {
@@ -2726,7 +2920,8 @@
       "de": "Stahlmesser",
       "en": "Steel Knives",
       "fr": "Couteaux en acier",
-      "ja": "スチールナイフ"
+      "ja": "スチールナイフ",
+      "ko": "강철 나이프"
     }
   },
   {
@@ -2740,7 +2935,8 @@
       "de": "Stahl-Spitzhacke",
       "en": "Steel Pickaxe",
       "fr": "Pioche en acier",
-      "ja": "スチールピック"
+      "ja": "スチールピック",
+      "ko": "강철 곡괭이"
     }
   },
   {
@@ -2754,7 +2950,8 @@
       "de": "Stahl-Vorschlaghammer",
       "en": "Steel Sledgehammer",
       "fr": "Maillet en acier",
-      "ja": "スチールモール"
+      "ja": "スチールモール",
+      "ko": "강철 채굴망치"
     }
   },
   {
@@ -2768,7 +2965,8 @@
       "de": "Sturmblauer Farbstoff",
       "en": "Storm Blue Dye",
       "fr": "Teinture bleu tempête",
-      "ja": "カララント:ストームブルー"
+      "ja": "カララント:ストームブルー",
+      "ko": "염료: 선명한 파란색"
     }
   },
   {
@@ -2782,7 +2980,8 @@
       "de": "Abendroter Farbstoff",
       "en": "Sunset Orange Dye",
       "fr": "Teinture orange couchant",
-      "ja": "カララント:サンセットオレンジ"
+      "ja": "カララント:サンセットオレンジ",
+      "ko": "염료: 노을색"
     }
   },
   {
@@ -2796,7 +2995,8 @@
       "de": "Nichtsblauer Farbstoff",
       "en": "Void Blue Dye",
       "fr": "Teinture bleu du néant",
-      "ja": "カララント:ヴォイドブルー"
+      "ja": "カララント:ヴォイドブルー",
+      "ko": "염료: 보이드의 파란색"
     }
   },
   {
@@ -2810,7 +3010,8 @@
       "de": "Weinroter Farbstoff",
       "en": "Wine Red Dye",
       "fr": "Teinture lie-de-vin",
-      "ja": "カララント:ワインレッド"
+      "ja": "カララント:ワインレッド",
+      "ko": "염료: 포도주색"
     }
   },
   {
@@ -2824,7 +3025,8 @@
       "de": "Indigoblauer Farbstoff",
       "en": "Woad Blue Dye",
       "fr": "Teinture bleu guède",
-      "ja": "カララント:ウォードブルー"
+      "ja": "カララント:ウォードブルー",
+      "ko": "염료: 쪽빛 파란색"
     }
   },
   {
@@ -2838,7 +3040,8 @@
       "de": "Stahl-Ahle",
       "en": "Steel Awl",
       "fr": "Alêne en acier",
-      "ja": "スチールアウル"
+      "ja": "スチールアウル",
+      "ko": "강철 목타"
     }
   },
   {
@@ -2852,7 +3055,8 @@
       "de": "Stahl-Klauenhammer",
       "en": "Steel Claw Hammer",
       "fr": "Marteau arrache-clou en acier",
-      "ja": "スチールクローハンマー"
+      "ja": "スチールクローハンマー",
+      "ko": "강철 장도리"
     }
   },
   {
@@ -2866,7 +3070,8 @@
       "de": "Stahl-Falchion",
       "en": "Steel Falchion",
       "fr": "Fauchon en acier",
-      "ja": "スチールファルシオン"
+      "ja": "スチールファルシオン",
+      "ko": "강철 언월도"
     }
   },
   {
@@ -2880,7 +3085,8 @@
       "de": "Oasen-Laternenmast",
       "en": "Oasis Lamppost",
       "fr": "Lampadaire thanalanais",
-      "ja": "ザナラーン・ランプポスト"
+      "ja": "ザナラーン・ランプポスト",
+      "ko": "다날란 가로등"
     }
   },
   {
@@ -2894,7 +3100,8 @@
       "de": "Stahl-Berdysch",
       "en": "Steel Bardiche",
       "fr": "Bardiche en acier",
-      "ja": "スチールバルディッシュ"
+      "ja": "スチールバルディッシュ",
+      "ko": "강철 긴날도끼"
     }
   },
   {
@@ -2908,7 +3115,8 @@
       "de": "Stahl-Kreuzschlaghammer",
       "en": "Steel Cross-pein Hammer",
       "fr": "Marteau à panne croisée en acier",
-      "ja": "スチール・クロスペインハンマー"
+      "ja": "スチール・クロスペインハンマー",
+      "ko": "강철 단조망치"
     }
   },
   {
@@ -2922,7 +3130,8 @@
       "de": "Stahl-Küchenmesser",
       "en": "Steel Culinary Knife",
       "fr": "Couteau de cuisine en acier",
-      "ja": "スチールクリナリーナイフ"
+      "ja": "スチールクリナリーナイフ",
+      "ko": "강철 요리칼"
     }
   },
   {
@@ -2936,7 +3145,8 @@
       "de": "Stahlmörser",
       "en": "Steel Mortar",
       "fr": "Mortier en acier",
-      "ja": "スチールモーター"
+      "ja": "スチールモーター",
+      "ko": "강철 약연"
     }
   },
   {
@@ -2950,7 +3160,8 @@
       "de": "Stahl-Ornamenthammer",
       "en": "Steel Ornamental Hammer",
       "fr": "Marteau ornementé en acier",
-      "ja": "スチールオーナメンタルハンマー"
+      "ja": "スチールオーナメンタルハンマー",
+      "ko": "강철 장식새김 망치"
     }
   },
   {
@@ -2964,7 +3175,8 @@
       "de": "Eichenholzbank",
       "en": "Oaken Bench",
       "fr": "Banc en chêne",
-      "ja": "オークガーデンベンチ"
+      "ja": "オークガーデンベンチ",
+      "ko": "정원용 긴 떡갈나무 의자"
     }
   },
   {
@@ -2978,7 +3190,8 @@
       "de": "Stahl-Dolabra",
       "en": "Steel Dolabra",
       "fr": "Dolabre en acier",
-      "ja": "スチールドラブラ"
+      "ja": "スチールドラブラ",
+      "ko": "강철 양날곡괭이"
     }
   },
   {
@@ -2992,7 +3205,8 @@
       "de": "Stahlhandbeil",
       "en": "Steel Hatchet",
       "fr": "Hachette en acier",
-      "ja": "スチールハチェット"
+      "ja": "スチールハチェット",
+      "ko": "강철 손도끼"
     }
   },
   {
@@ -3006,7 +3220,8 @@
       "de": "Stahlsense",
       "en": "Steel Scythe",
       "fr": "Faux en acier",
-      "ja": "スチールサイズ"
+      "ja": "スチールサイズ",
+      "ko": "강철 큰낫"
     }
   },
   {
@@ -3020,7 +3235,8 @@
       "de": "Umwickelter Stahl-Vorschlaghammer",
       "en": "Wrapped Steel Sledgehammer",
       "fr": "Maillet en acier gainé",
-      "ja": "ラップドスチールモール"
+      "ja": "ラップドスチールモール",
+      "ko": "가죽 덧댄 강철 채굴망치"
     }
   },
   {
@@ -3034,7 +3250,8 @@
       "de": "Stahl-Baselarden",
       "en": "Steel Baselards",
       "fr": "Baselards en acier",
-      "ja": "スチールバゼラード"
+      "ja": "スチールバゼラード",
+      "ko": "강철 바젤라드"
     }
   },
   {
@@ -3048,7 +3265,8 @@
       "de": "Stahl-Krähenschnabelhammer",
       "en": "Steel Crowsbeak Hammer",
       "fr": "Marteau corbeau en acier",
-      "ja": "スチールビークハンマー"
+      "ja": "スチールビークハンマー",
+      "ko": "강철 까마귀부리 망치"
     }
   },
   {
@@ -3062,7 +3280,8 @@
       "de": "Stahl-Flachhammer",
       "en": "Steel Doming Hammer",
       "fr": "Marteau à emboutir en acier",
-      "ja": "スチールドーミングハンマー"
+      "ja": "スチールドーミングハンマー",
+      "ko": "강철 판금망치"
     }
   },
   {
@@ -3076,7 +3295,8 @@
       "de": "Stahlfeile",
       "en": "Steel File",
       "fr": "Lime en acier",
-      "ja": "スチールファイル"
+      "ja": "スチールファイル",
+      "ko": "강철 줄판"
     }
   },
   {
@@ -3090,7 +3310,8 @@
       "de": "Stahl-Zweihänder",
       "en": "Steel Zweihander",
       "fr": "Espadon en acier",
-      "ja": "スチールツヴァイハンダー"
+      "ja": "スチールツヴァイハンダー",
+      "ko": "강철 양손검"
     }
   },
   {
@@ -3104,7 +3325,8 @@
       "de": "Stahl-Muskete",
       "en": "Steel-barreled Musketoon",
       "fr": "Mousqueton en acier",
-      "ja": "スチールマスケトン"
+      "ja": "スチールマスケトン",
+      "ko": "강철 단총"
     }
   },
   {
@@ -3118,7 +3340,8 @@
       "de": "Ahriman-Bücherregal",
       "en": "Ahriman Bookshelf",
       "fr": "Bibliothèque ahriman",
-      "ja": "アーリマンブックシェルフ"
+      "ja": "アーリマンブックシェルフ",
+      "ko": "아리만 책장"
     }
   },
   {
@@ -3132,7 +3355,8 @@
       "de": "Ahriman-Geschirrschrank",
       "en": "Ahriman Cupboard",
       "fr": "Vaisselier ahriman",
-      "ja": "アーリマンカップボード"
+      "ja": "アーリマンカップボード",
+      "ko": "아리만 찬장"
     }
   },
   {
@@ -3146,7 +3370,8 @@
       "de": "Ahriman-Wandschirm",
       "en": "Ahriman Screen",
       "fr": "Panneau ahriman",
-      "ja": "アーリマンスクリーン"
+      "ja": "アーリマンスクリーン",
+      "ko": "아리만 칸막이"
     }
   },
   {
@@ -3160,7 +3385,8 @@
       "de": "Ahriman-Anrichte",
       "en": "Ahriman Sideboard",
       "fr": "Dressoir ahriman",
-      "ja": "アーリマンサイドボード"
+      "ja": "アーリマンサイドボード",
+      "ko": "아리만 협탁"
     }
   },
   {
@@ -3174,7 +3400,8 @@
       "de": "Ziehsäge",
       "en": "Crosscut Saw",
       "fr": "Scie égoïne",
-      "ja": "クロスカットソー"
+      "ja": "クロスカットソー",
+      "ko": "가로톱"
     }
   },
   {
@@ -3188,7 +3415,8 @@
       "de": "Schwerer Stahlmörser",
       "en": "Heavy Steel Mortar",
       "fr": "Mortier en acier renforcé",
-      "ja": "スチールモーターDX"
+      "ja": "スチールモーターDX",
+      "ko": "강화 강철 약연"
     }
   },
   {
@@ -3202,7 +3430,8 @@
       "de": "Gefiedertes Stahlhandbeil",
       "en": "Plumed Steel Hatchet",
       "fr": "Hachette à plumet en acier",
-      "ja": "スチールチョコボハチェット"
+      "ja": "スチールチョコボハチェット",
+      "ko": "강철 초코보 손도끼"
     }
   },
   {
@@ -3216,7 +3445,8 @@
       "de": "Stahl-Bhuj",
       "en": "Steel Bhuj",
       "fr": "Bhuj en acier",
-      "ja": "スチールブージ"
+      "ja": "スチールブージ",
+      "ko": "강철 굽은날도끼"
     }
   },
   {
@@ -3230,11 +3460,11 @@
       "de": "Stahlzange",
       "en": "Steel Pliers",
       "fr": "Tenailles en acier",
-      "ja": "スチールプライヤー"
+      "ja": "スチールプライヤー",
+      "ko": "강철 플라이어"
     }
   },
   {
-    "aspect": "Fire",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3245,7 +3475,8 @@
       "de": "Restauriertes Breitschwert",
       "en": "Vintage Bastard Sword",
       "fr": "Épée bâtarde de collection",
-      "ja": "ヴィンテージバスタードソード"
+      "ja": "ヴィンテージバスタードソード",
+      "ko": "고풍스러운 바스타드소드"
     }
   },
   {
@@ -3259,7 +3490,8 @@
       "de": "Umwickeltes Stahl-Küchenmesser",
       "en": "Wrapped Steel Culinary Knife",
       "fr": "Couteau de cuisine en acier renforcé",
-      "ja": "スチールクリナリーナイフDX"
+      "ja": "スチールクリナリーナイフDX",
+      "ko": "강화 강철 요리칼"
     }
   },
   {
@@ -3273,7 +3505,8 @@
       "de": "Umwickelte Stahlsense",
       "en": "Wrapped Steel Scythe",
       "fr": "Faux en acier gainée",
-      "ja": "ラップドスチールサイズ"
+      "ja": "ラップドスチールサイズ",
+      "ko": "가죽 덧댄 강철 큰낫"
     }
   },
   {
@@ -3287,7 +3520,8 @@
       "de": "Stahlrundmesser",
       "en": "Steel Round Knife",
       "fr": "Couteau arrondi en acier",
-      "ja": "スチールラウンドナイフ"
+      "ja": "スチールラウンドナイフ",
+      "ko": "강철 둥근칼"
     }
   },
   {
@@ -3301,7 +3535,8 @@
       "de": "Umwickelte Stahl-Ahle",
       "en": "Wrapped Steel Awl",
       "fr": "Alêne en acier gainée",
-      "ja": "ラップドスチールアウル"
+      "ja": "ラップドスチールアウル",
+      "ko": "가죽 덧댄 강철 목타"
     }
   },
   {
@@ -3315,7 +3550,8 @@
       "de": "Umwickelter Stahl-Klauenhammer",
       "en": "Wrapped Steel Claw Hammer",
       "fr": "Marteau arrache-clou en acier gainé",
-      "ja": "ラップド・スチールクローハンマー"
+      "ja": "ラップド・スチールクローハンマー",
+      "ko": "가죽 덧댄 강철 장도리"
     }
   },
   {
@@ -3329,7 +3565,8 @@
       "de": "Stahl-Langschwert",
       "en": "Steel Longsword",
       "fr": "Épée longue en acier",
-      "ja": "スチールロングソード"
+      "ja": "スチールロングソード",
+      "ko": "강철 롱소드"
     }
   },
   {
@@ -3343,7 +3580,8 @@
       "de": "Mithril-Breitschwert",
       "en": "Mythril Broadsword",
       "fr": "Épée large en mithril",
-      "ja": "ミスリルブロードソード"
+      "ja": "ミスリルブロードソード",
+      "ko": "미스릴 브로드소드"
     }
   },
   {
@@ -3357,7 +3595,8 @@
       "de": "Mithril-Claymore",
       "en": "Mythril Claymore",
       "fr": "Claymore en mithril",
-      "ja": "ミスリルクレイモア"
+      "ja": "ミスリルクレイモア",
+      "ko": "미스릴 클레이모어"
     }
   },
   {
@@ -3371,7 +3610,8 @@
       "de": "Mithrilhandbeil",
       "en": "Mythril Hatchet",
       "fr": "Hachette en mithril",
-      "ja": "ミスリルハチェット"
+      "ja": "ミスリルハチェット",
+      "ko": "미스릴 손도끼"
     }
   },
   {
@@ -3385,7 +3625,8 @@
       "de": "Mithril-Barren",
       "en": "Mythril Ingot",
       "fr": "Lingot de mithril",
-      "ja": "ミスリルインゴット"
+      "ja": "ミスリルインゴット",
+      "ko": "미스릴 주괴"
     }
   },
   {
@@ -3399,7 +3640,8 @@
       "de": "Mithril-Messer",
       "en": "Mythril Knives",
       "fr": "Couteaux en mithril",
-      "ja": "ミスリルナイフ"
+      "ja": "ミスリルナイフ",
+      "ko": "미스릴 나이프"
     }
   },
   {
@@ -3413,7 +3655,8 @@
       "de": "Mithril-Karabiner",
       "en": "Mythril-barreled Carbine",
       "fr": "Carabine en mithril",
-      "ja": "ミスリルカービン"
+      "ja": "ミスリルカービン",
+      "ko": "미스릴 소총"
     }
   },
   {
@@ -3427,7 +3670,8 @@
       "de": "Gefiederte Mithrilspitzhacke",
       "en": "Plumed Mythril Pickaxe",
       "fr": "Pioche en mithril à plumet",
-      "ja": "プルームドミスリルピック"
+      "ja": "プルームドミスリルピック",
+      "ko": "미스릴 깃털장식 곡괭이"
     }
   },
   {
@@ -3441,11 +3685,11 @@
       "de": "Stahl-Schlichthammer",
       "en": "Steel Raising Hammer",
       "fr": "Marteau de batteur en acier",
-      "ja": "スチールレイジングハンマー"
+      "ja": "スチールレイジングハンマー",
+      "ko": "강철 돋을무늬 망치"
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -3456,7 +3700,8 @@
       "de": "Restauriertes Wikingerschwert",
       "en": "Vintage Viking Sword",
       "fr": "Glaive gobelin",
-      "ja": "ヴィンテージヴァイキングソード"
+      "ja": "ヴィンテージヴァイキングソード",
+      "ko": "고풍스러운 바이킹소드"
     }
   },
   {
@@ -3470,7 +3715,8 @@
       "de": "Umwickelter Schnabelhammer",
       "en": "Wrapped Crowsbeak Hammer",
       "fr": "Marteau corbeau gainé",
-      "ja": "ラップド・スチールビークハンマー"
+      "ja": "ラップド・スチールビークハンマー",
+      "ko": "가죽 덧댄 강철 까마귀부리 망치"
     }
   },
   {
@@ -3484,7 +3730,8 @@
       "de": "Mithrilkrallen",
       "en": "Mythril Claws",
       "fr": "Griffes en mithril",
-      "ja": "ミスリルクロー"
+      "ja": "ミスリルクロー",
+      "ko": "미스릴 서슬발톱"
     }
   },
   {
@@ -3498,7 +3745,8 @@
       "de": "Mithril-Sattlermesser",
       "en": "Mythril Head Knife",
       "fr": "Couteau à pied en mithril",
-      "ja": "ミスリルヘッドナイフ"
+      "ja": "ミスリルヘッドナイフ",
+      "ko": "미스릴 가죽칼"
     }
   },
   {
@@ -3512,7 +3760,8 @@
       "de": "Mithrilnieten",
       "en": "Mythril Rivets",
       "fr": "Rivets en mithril",
-      "ja": "ミスリルリベット"
+      "ja": "ミスリルリベット",
+      "ko": "미스릴 이음못"
     }
   },
   {
@@ -3526,7 +3775,8 @@
       "de": "Mithrilfuchsschwanz",
       "en": "Mythril Saw",
       "fr": "Scie en mithril",
-      "ja": "ミスリルソー"
+      "ja": "ミスリルソー",
+      "ko": "미스릴 톱"
     }
   },
   {
@@ -3540,7 +3790,8 @@
       "de": "Stachelbewehrte Mithril-Labrys",
       "en": "Spiked Mythril Labrys",
       "fr": "Labrys en mithril à pointe",
-      "ja": "スパイクドミスリルラブリュス"
+      "ja": "スパイクドミスリルラブリュス",
+      "ko": "징 박힌 미스릴 양날도끼"
     }
   },
   {
@@ -3554,7 +3805,8 @@
       "de": "Mithril-Ahle",
       "en": "Mythril Awl",
       "fr": "Alêne en mithril",
-      "ja": "ミスリルアウル"
+      "ja": "ミスリルアウル",
+      "ko": "미스릴 목타"
     }
   },
   {
@@ -3568,7 +3820,8 @@
       "de": "Mithril-Bhuj",
       "en": "Mythril Bhuj",
       "fr": "Bhuj en mithril",
-      "ja": "ミスリルブージ"
+      "ja": "ミスリルブージ",
+      "ko": "미스릴 굽은날도끼"
     }
   },
   {
@@ -3582,7 +3835,8 @@
       "de": "Mithril-Klauenhammer",
       "en": "Mythril Claw Hammer",
       "fr": "Marteau arrache-clou en mithril",
-      "ja": "ミスリルクローハンマー"
+      "ja": "ミスリルクローハンマー",
+      "ko": "미스릴 장도리"
     }
   },
   {
@@ -3596,7 +3850,8 @@
       "de": "Mithrilfeile",
       "en": "Mythril File",
       "fr": "Lime en mithril",
-      "ja": "ミスリルファイル"
+      "ja": "ミスリルファイル",
+      "ko": "미스릴 줄판"
     }
   },
   {
@@ -3610,7 +3865,8 @@
       "de": "Mithril-Ornamenthammer",
       "en": "Mythril Ornamental Hammer",
       "fr": "Marteau ornementé en mithril",
-      "ja": "ミスリルオーナメンタルハンマー"
+      "ja": "ミスリルオーナメンタルハンマー",
+      "ko": "미스릴 장식새김 망치"
     }
   },
   {
@@ -3624,7 +3880,8 @@
       "de": "Mithril-Baselarden",
       "en": "Mythril Baselards",
       "fr": "Baselards en mithril",
-      "ja": "ミスリルバゼラード"
+      "ja": "ミスリルバゼラード",
+      "ko": "미스릴 바젤라드"
     }
   },
   {
@@ -3638,7 +3895,8 @@
       "de": "Mithril-Küchenmesser",
       "en": "Mythril Culinary Knife",
       "fr": "Couteau de cuisine en mithril",
-      "ja": "ミスリルクリナリーナイフ"
+      "ja": "ミスリルクリナリーナイフ",
+      "ko": "미스릴 요리칼"
     }
   },
   {
@@ -3652,7 +3910,8 @@
       "de": "Mithrilmörser",
       "en": "Mythril Mortar",
       "fr": "Mortier en mithril",
-      "ja": "ミスリルモーター"
+      "ja": "ミスリルモーター",
+      "ko": "미스릴 약연"
     }
   },
   {
@@ -3666,7 +3925,8 @@
       "de": "Mithrilsense",
       "en": "Mythril Scythe",
       "fr": "Faux en mithril",
-      "ja": "ミスリルサイズ"
+      "ja": "ミスリルサイズ",
+      "ko": "미스릴 큰낫"
     }
   },
   {
@@ -3680,7 +3940,8 @@
       "de": "Mithril-Vorschlaghammer",
       "en": "Mythril Sledgehammer",
       "fr": "Maillet en mithril",
-      "ja": "ミスリルモール"
+      "ja": "ミスリルモール",
+      "ko": "미스릴 채굴망치"
     }
   },
   {
@@ -3694,7 +3955,8 @@
       "de": "Mithril-Zweihänder",
       "en": "Mythril Zweihander",
       "fr": "Espadon en mithril",
-      "ja": "ミスリルツヴァイハンダー"
+      "ja": "ミスリルツヴァイハンダー",
+      "ko": "미스릴 양손검"
     }
   },
   {
@@ -3708,7 +3970,8 @@
       "de": "Mithril-Muskete",
       "en": "Mythril-barreled Musketoon",
       "fr": "Mousqueton en mithril",
-      "ja": "ミスリルマスケトン"
+      "ja": "ミスリルマスケトン",
+      "ko": "미스릴 단총"
     }
   },
   {
@@ -3722,7 +3985,8 @@
       "de": "Riviera-Audienztisch",
       "en": "Riviera Counter",
       "fr": "Comptoir noscéen",
-      "ja": "ラノシアン・カウンター"
+      "ja": "ラノシアン・カウンター",
+      "ko": "라노시아 대면책상"
     }
   },
   {
@@ -3736,7 +4000,8 @@
       "de": "Wetterapkallu",
       "en": "Apkallu Weathervane",
       "fr": "Girouette apkallu",
-      "ja": "ウェザーアプカル"
+      "ja": "ウェザーアプカル",
+      "ko": "아프칼루 풍향계"
     }
   },
   {
@@ -3750,7 +4015,8 @@
       "de": "Koboldeisen-Kreuzschlaghammer",
       "en": "Cobalt Cross-pein Hammer",
       "fr": "Marteau à panne croisée en cobalt",
-      "ja": "コバルト・クロスペインハンマー"
+      "ja": "コバルト・クロスペインハンマー",
+      "ko": "코발트 단조망치"
     }
   },
   {
@@ -3764,7 +4030,8 @@
       "de": "Koboldeisenbarren",
       "en": "Cobalt Ingot",
       "fr": "Lingot de cobalt",
-      "ja": "コバルトインゴット"
+      "ja": "コバルトインゴット",
+      "ko": "코발트 주괴"
     }
   },
   {
@@ -3778,7 +4045,8 @@
       "de": "Koboldeisen-Katzbalger",
       "en": "Cobalt Katzbalger",
       "fr": "Katzbalger",
-      "ja": "カッツバルゲル"
+      "ja": "カッツバルゲル",
+      "ko": "카츠발게르"
     }
   },
   {
@@ -3792,11 +4060,11 @@
       "de": "Koboldeisen-Schlagringe",
       "en": "Cobalt Knuckles",
       "fr": "Poings en cobalt",
-      "ja": "コバルトナックル"
+      "ja": "コバルトナックル",
+      "ko": "코발트 너클"
     }
   },
   {
-    "aspect": "Fire",
     "baseLevel": 42,
     "difficulty": 144,
     "durability": 80,
@@ -3807,7 +4075,8 @@
       "de": "Goblin-Scimitar",
       "en": "Goblin Scimitar",
       "fr": "Cimeterre gobelin",
-      "ja": "ゴブリンシミター"
+      "ja": "ゴブリンシミター",
+      "ko": "고블린 시미터"
     }
   },
   {
@@ -3821,7 +4090,8 @@
       "de": "Mithril-Chocoboschwanz",
       "en": "Mythril Chocobotail Saw",
       "fr": "Scie queue de chocobo en mithril",
-      "ja": "ミスリル・チョコボテイルソー"
+      "ja": "ミスリル・チョコボテイルソー",
+      "ko": "미스릴 초코보 꽁지톱"
     }
   },
   {
@@ -3835,7 +4105,8 @@
       "de": "Mithril-Juwelierhammer",
       "en": "Mythril Lapidary Hammer",
       "fr": "Marteau de lapidaire en mithril",
-      "ja": "ミスリルラピダリーハンマー"
+      "ja": "ミスリルラピダリーハンマー",
+      "ko": "미스릴 세공망치"
     }
   },
   {
@@ -3849,7 +4120,8 @@
       "de": "Mithrilzange",
       "en": "Mythril Pliers",
       "fr": "Tenailles en mithril",
-      "ja": "ミスリルプライヤー"
+      "ja": "ミスリルプライヤー",
+      "ko": "미스릴 플라이어"
     }
   },
   {
@@ -3863,7 +4135,8 @@
       "de": "Mithril-Rundmesser",
       "en": "Mythril Round Knife",
       "fr": "Couteau arrondi en mithril",
-      "ja": "ミスリルラウンドナイフ"
+      "ja": "ミスリルラウンドナイフ",
+      "ko": "미스릴 둥근칼"
     }
   },
   {
@@ -3877,7 +4150,8 @@
       "de": "Freibeuter-Berdysch",
       "en": "Buccaneer's Bardiche",
       "fr": "Bardiche du boucanier",
-      "ja": "バッカニアバルディッシュ"
+      "ja": "バッカニアバルディッシュ",
+      "ko": "해적 긴날도끼"
     }
   },
   {
@@ -3891,7 +4165,8 @@
       "de": "Koboldeisen-Dolabra",
       "en": "Cobalt Dolabra",
       "fr": "Dolabre en cobalt",
-      "ja": "コバルトドラブラ"
+      "ja": "コバルトドラブラ",
+      "ko": "코발트 양날곡괭이"
     }
   },
   {
@@ -3905,7 +4180,8 @@
       "de": "Koboldeisen-Flachhammer",
       "en": "Cobalt Doming Hammer",
       "fr": "Marteau à emboutir en cobalt",
-      "ja": "コバルトドーミングハンマー"
+      "ja": "コバルトドーミングハンマー",
+      "ko": "코발트 판금망치"
     }
   },
   {
@@ -3919,7 +4195,8 @@
       "de": "Koboldeisenhandbeil",
       "en": "Cobalt Hatchet",
       "fr": "Hachette en cobalt",
-      "ja": "コバルトハチェット"
+      "ja": "コバルトハチェット",
+      "ko": "코발트 손도끼"
     }
   },
   {
@@ -3933,7 +4210,8 @@
       "de": "Koboldeisennieten",
       "en": "Cobalt Rivets",
       "fr": "Rivets en cobalt",
-      "ja": "コバルトリベット"
+      "ja": "コバルトリベット",
+      "ko": "코발트 이음못"
     }
   },
   {
@@ -3947,7 +4225,8 @@
       "de": "Koboldeisen-Shamshir",
       "en": "Cobalt Shamshir",
       "fr": "Shamshir",
-      "ja": "シャムシール"
+      "ja": "シャムシール",
+      "ko": "샴시르"
     }
   },
   {
@@ -3961,7 +4240,8 @@
       "de": "Koboldeisen-Ahle",
       "en": "Cobalt Awl",
       "fr": "Alêne en cobalt",
-      "ja": "コバルトアウル"
+      "ja": "コバルトアウル",
+      "ko": "코발트 목타"
     }
   },
   {
@@ -3975,7 +4255,8 @@
       "de": "Koboldeisen-Klauenhammer",
       "en": "Cobalt Claw Hammer",
       "fr": "Marteau arrache-clou en cobalt",
-      "ja": "コバルトクローハンマー"
+      "ja": "コバルトクローハンマー",
+      "ko": "코발트 장도리"
     }
   },
   {
@@ -3989,7 +4270,8 @@
       "de": "Koboldeisen-Küchenmesser",
       "en": "Cobalt Culinary Knife",
       "fr": "Couteau de cuisine en cobalt",
-      "ja": "コバルトクリナリーナイフ"
+      "ja": "コバルトクリナリーナイフ",
+      "ko": "코발트 요리칼"
     }
   },
   {
@@ -4003,7 +4285,8 @@
       "de": "Koboldeisennägel",
       "en": "Cobalt Nails",
       "fr": "Clou en cobalt",
-      "ja": "コバルトネイル"
+      "ja": "コバルトネイル",
+      "ko": "코발트 못"
     }
   },
   {
@@ -4017,7 +4300,8 @@
       "de": "Koboldeisenzange",
       "en": "Cobalt Pliers",
       "fr": "Tenailles en cobalt",
-      "ja": "コバルトプライヤー"
+      "ja": "コバルトプライヤー",
+      "ko": "코발트 플라이어"
     }
   },
   {
@@ -4031,7 +4315,8 @@
       "de": "Koboldeisen-Vorschlaghammer",
       "en": "Cobalt Sledgehammer",
       "fr": "Maillet en cobalt",
-      "ja": "コバルトモール"
+      "ja": "コバルトモール",
+      "ko": "코발트 채굴망치"
     }
   },
   {
@@ -4045,7 +4330,8 @@
       "de": "Kanonenkugeln",
       "en": "Cannonballs",
       "fr": "Caisse à boulets anti-dragon",
-      "ja": "対竜砲弾箱"
+      "ja": "対竜砲弾箱",
+      "ko": "드래곤용 포탄 상자"
     }
   },
   {
@@ -4059,7 +4345,8 @@
       "de": "Koboldeisen-Claymore",
       "en": "Cobalt Claymore",
       "fr": "Claymore en cobalt",
-      "ja": "コバルトクレイモア"
+      "ja": "コバルトクレイモア",
+      "ko": "코발트 클레이모어"
     }
   },
   {
@@ -4073,7 +4360,8 @@
       "de": "Koboldeisenfeile",
       "en": "Cobalt File",
       "fr": "Lime en cobalt",
-      "ja": "コバルトファイル"
+      "ja": "コバルトファイル",
+      "ko": "코발트 줄판"
     }
   },
   {
@@ -4087,7 +4375,8 @@
       "de": "Koboldeisenmörser",
       "en": "Cobalt Mortar",
       "fr": "Mortier en cobalt",
-      "ja": "コバルトモーター"
+      "ja": "コバルトモーター",
+      "ko": "코발트 약연"
     }
   },
   {
@@ -4101,7 +4390,8 @@
       "de": "Koboldeisensense",
       "en": "Cobalt Scythe",
       "fr": "Faux en cobalt",
-      "ja": "コバルトサイズ"
+      "ja": "コバルトサイズ",
+      "ko": "코발트 큰낫"
     }
   },
   {
@@ -4115,7 +4405,8 @@
       "de": "Koboldeisen-Karabiner",
       "en": "Cobalt-barreled Carbine",
       "fr": "Carabine en cobalt",
-      "ja": "コバルトカービン"
+      "ja": "コバルトカービン",
+      "ko": "코발트 소총"
     }
   },
   {
@@ -4129,11 +4420,11 @@
       "de": "Halbmond-Bhuj",
       "en": "Demilune Bhuj",
       "fr": "Bhuj demi-lune",
-      "ja": "デミルーンブージ"
+      "ja": "デミルーンブージ",
+      "ko": "반월 굽은날도끼"
     }
   },
   {
-    "aspect": "Fire",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -4144,7 +4435,8 @@
       "de": "Goblin-Langschwert",
       "en": "Goblin Longsword",
       "fr": "Épée longue gobeline",
-      "ja": "ゴブリンロングソード"
+      "ja": "ゴブリンロングソード",
+      "ko": "고블린 롱소드"
     }
   },
   {
@@ -4158,7 +4450,8 @@
       "de": "Mithril-Pugiones",
       "en": "Mythril Pugiones",
       "fr": "Pugiones en mithril",
-      "ja": "ミスリルプジオ"
+      "ja": "ミスリルプジオ",
+      "ko": "미스릴 푸기오"
     }
   },
   {
@@ -4172,7 +4465,8 @@
       "de": "Oasen-Stehlampe",
       "en": "Oasis Floor Lamp",
       "fr": "Lampe thanalanaise",
-      "ja": "ザナラーン・フロアランプ"
+      "ja": "ザナラーン・フロアランプ",
+      "ko": "다날란 조명등"
     }
   },
   {
@@ -4186,7 +4480,8 @@
       "de": "Wachfeuer der Steinernen Wacht",
       "en": "Stone Vigil Beacon",
       "fr": "Torchère anti-dragon",
-      "ja": "対竜要塞のかがり"
+      "ja": "対竜要塞のかがり",
+      "ko": "드래곤 수비 요새의 화톳불"
     }
   },
   {
@@ -4200,7 +4495,8 @@
       "de": "Umwickelter Falkenschnabelhammer",
       "en": "Wrapped Hawksbeak Hammer",
       "fr": "Marteau faucon gainé",
-      "ja": "ラップド・ホークビークハンマー"
+      "ja": "ラップド・ホークビークハンマー",
+      "ko": "가죽 덧댄 매부리 망치"
     }
   },
   {
@@ -4214,7 +4510,8 @@
       "de": "Kupferstich-Koboldeisen-Fuchsschwanz",
       "en": "Bas-relief Cobalt Saw",
       "fr": "Scie en cobalt gravée",
-      "ja": "レリーフコバルトソー"
+      "ja": "レリーフコバルトソー",
+      "ko": "세공된 코발트 톱"
     }
   },
   {
@@ -4228,7 +4525,8 @@
       "de": "Elektrum-Sattlermesser",
       "en": "Electrum Head Knife",
       "fr": "Couteau à pied en électrum",
-      "ja": "エレクトラムヘッドナイフ"
+      "ja": "エレクトラムヘッドナイフ",
+      "ko": "호박금 가죽칼"
     }
   },
   {
@@ -4242,7 +4540,8 @@
       "de": "Ritter-Kommandotisch",
       "en": "Knight Captain's Desk",
       "fr": "Bureau d'officier anti-dragon",
-      "ja": "対竜要塞の指揮机"
+      "ja": "対竜要塞の指揮机",
+      "ko": "드래곤 수비 요새의 지휘관 책상"
     }
   },
   {
@@ -4256,7 +4555,8 @@
       "de": "Riviera-Bank",
       "en": "Riviera Bench",
       "fr": "Banc noscéen",
-      "ja": "ラノシアン・ベンチ"
+      "ja": "ラノシアン・ベンチ",
+      "ko": "라노시아 긴 의자"
     }
   },
   {
@@ -4270,7 +4570,8 @@
       "de": "Koboldeisen-Schlichthammer",
       "en": "Cobalt Raising Hammer",
       "fr": "Marteau de batteur en cobalt",
-      "ja": "コバルトレイジングハンマー"
+      "ja": "コバルトレイジングハンマー",
+      "ko": "코발트 돋을무늬 망치"
     }
   },
   {
@@ -4284,7 +4585,8 @@
       "de": "Elektrum-Juwelierhammer",
       "en": "Electrum Lapidary Hammer",
       "fr": "Marteau de lapidaire en électrum",
-      "ja": "エレクトラムラピダリーハンマー"
+      "ja": "エレクトラムラピダリーハンマー",
+      "ko": "호박금 세공망치"
     }
   },
   {
@@ -4298,7 +4600,8 @@
       "de": "Nymische Wandlaterne",
       "en": "Nymian Wall Lantern",
       "fr": "Quinquet de Nym",
-      "ja": "ニームウォールランタン"
+      "ja": "ニームウォールランタン",
+      "ko": "니므 벽걸이등"
     }
   },
   {
@@ -4312,7 +4615,8 @@
       "de": "Oasen-Audienztisch",
       "en": "Oasis Counter",
       "fr": "Comptoir thanalanais",
-      "ja": "ザナラーン・カウンター"
+      "ja": "ザナラーン・カウンター",
+      "ko": "다날란 대면책상"
     }
   },
   {
@@ -4326,11 +4630,11 @@
       "de": "Riviera-Stehlampe",
       "en": "Riviera Floor Lamp",
       "fr": "Lampe noscéenne",
-      "ja": "ラノシアン・フロアランプ"
+      "ja": "ラノシアン・フロアランプ",
+      "ko": "라노시아 조명등"
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -4341,7 +4645,8 @@
       "de": "Restaurierte Hippe",
       "en": "Vintage Bill",
       "fr": "Vouge de collection",
-      "ja": "ヴィンテージビル"
+      "ja": "ヴィンテージビル",
+      "ko": "고풍스러운 낫도끼"
     }
   },
   {
@@ -4355,7 +4660,8 @@
       "de": "Koboldeisen-Zweihänder",
       "en": "Cobalt Zweihander",
       "fr": "Espadon en cobalt",
-      "ja": "コバルトツヴァイハンダー"
+      "ja": "コバルトツヴァイハンダー",
+      "ko": "코발트 양손검"
     }
   },
   {
@@ -4369,7 +4675,8 @@
       "de": "Koboldeisen-Muskete",
       "en": "Cobalt-barreled Musketoon",
       "fr": "Mousqueton en cobalt",
-      "ja": "コバルトマスケトン"
+      "ja": "コバルトマスケトン",
+      "ko": "코발트 단총"
     }
   },
   {
@@ -4383,7 +4690,8 @@
       "de": "Gefiederte Dolabra",
       "en": "Egret Dolabra",
       "fr": "Dolabre à aigrette",
-      "ja": "イーグレットドラブラ"
+      "ja": "イーグレットドラブラ",
+      "ko": "백로 양날곡괭이"
     }
   },
   {
@@ -4397,7 +4705,8 @@
       "de": "Riviera-Kronleuchter",
       "en": "Riviera Chandelier",
       "fr": "Lustre noscéen",
-      "ja": "ラノシアン・シャンデリア"
+      "ja": "ラノシアン・シャンデリア",
+      "ko": "라노시아 샹들리에"
     }
   },
   {
@@ -4411,7 +4720,8 @@
       "de": "Koboldeisen-Baselarden",
       "en": "Cobalt Baselards",
       "fr": "Baselards en cobalt",
-      "ja": "コバルトバゼラード"
+      "ja": "コバルトバゼラード",
+      "ko": "코발트 바젤라드"
     }
   },
   {
@@ -4425,7 +4735,8 @@
       "de": "Koboldeisen-Krallen",
       "en": "Cobalt Claws",
       "fr": "Griffes en cobalt",
-      "ja": "コバルトクロー"
+      "ja": "コバルトクロー",
+      "ko": "코발트 서슬발톱"
     }
   },
   {
@@ -4439,7 +4750,8 @@
       "de": "Koboldeisen-Zeremonialschwert",
       "en": "Cobalt Winglet",
       "fr": "Espafut",
-      "ja": "ウィングレット"
+      "ja": "ウィングレット",
+      "ko": "날개검"
     }
   },
   {
@@ -4453,7 +4765,8 @@
       "de": "Gehörntes Handbeil",
       "en": "Horned Hatchet",
       "fr": "Hachette cornue",
-      "ja": "ホーンドハチェット"
+      "ja": "ホーンドハチェット",
+      "ko": "뿔 손도끼"
     }
   },
   {
@@ -4467,7 +4780,8 @@
       "de": "Mahagoni-Wandschirm",
       "en": "Mahogany Screen",
       "fr": "Cloison de séparation en bois",
-      "ja": "ウッドスクリーン"
+      "ja": "ウッドスクリーン",
+      "ko": "나무 칸막이"
     }
   },
   {
@@ -4481,7 +4795,8 @@
       "de": "Stachelbewehrte Koboldeisen-Labrys",
       "en": "Spiked Cobalt Labrys",
       "fr": "Labrys en cobalt à pointe",
-      "ja": "スパイクドコバルトラブリュス"
+      "ja": "スパイクドコバルトラブリュス",
+      "ko": "징 박힌 코발트 양날도끼"
     }
   },
   {
@@ -4495,7 +4810,8 @@
       "de": "Ätherdämmendes Gefäß",
       "en": "Aetheric Shielding",
       "fr": "Récipient éthéroscellé",
-      "ja": "絶霊体容器"
+      "ja": "絶霊体容器",
+      "ko": "절령체 용기"
     }
   },
   {
@@ -4509,7 +4825,8 @@
       "de": "Drachengabe",
       "en": "Austere Offering",
       "fr": "Cadeau pour dragons",
-      "ja": "竜族報酬品"
+      "ja": "竜族報酬品",
+      "ko": "드래곤족 보상품"
     }
   },
   {
@@ -4523,7 +4840,8 @@
       "de": "Korbkomponente",
       "en": "Basket Component",
       "fr": "Matériel de vannerie",
-      "ja": "編みカゴ部材"
+      "ja": "編みカゴ部材",
+      "ko": "나무 바구니 부재"
     }
   },
   {
@@ -4537,7 +4855,8 @@
       "de": "Wetterchocobo",
       "en": "Chocobo Weathervane",
       "fr": "Girouette chocobo",
-      "ja": "ウェザーチョコボ"
+      "ja": "ウェザーチョコボ",
+      "ko": "초코보 풍향계"
     }
   },
   {
@@ -4551,7 +4870,8 @@
       "de": "Wolkenmeer-Köder",
       "en": "Cloudfish Lure",
       "fr": "Leurre spécial",
-      "ja": "雲海釣餌"
+      "ja": "雲海釣餌",
+      "ko": "구름바다 미끼"
     }
   },
   {
@@ -4565,7 +4885,8 @@
       "de": "Monument in Gedenken des Dunklen Reiters",
       "en": "Dark Divinity Falleth",
       "fr": "Monument de la victoire sur Odin",
-      "ja": "オーディン戦勝記念碑"
+      "ja": "オーディン戦勝記念碑",
+      "ko": "오딘 전승 기념비"
     }
   },
   {
@@ -4579,7 +4900,8 @@
       "de": "Schuppenfeile",
       "en": "Dragonscale Rasp",
       "fr": "Racloir en écaille de dragon",
-      "ja": "竜鱗ヤスリ"
+      "ja": "竜鱗ヤスリ",
+      "ko": "용비늘 줄톱"
     }
   },
   {
@@ -4593,7 +4915,8 @@
       "de": "Rauchbombe",
       "en": "Exploding Kupo Nut",
       "fr": "Noix de kupo fumigène",
-      "ja": "煙幕の実"
+      "ja": "煙幕の実",
+      "ko": "연막 열매"
     }
   },
   {
@@ -4607,7 +4930,8 @@
       "de": "Falsche Kupo-Nuss",
       "en": "Fake Kupo Nut",
       "fr": "Fausse noix de kupo",
-      "ja": "ニセの実"
+      "ja": "ニセの実",
+      "ko": "가짜 열매"
     }
   },
   {
@@ -4621,7 +4945,8 @@
       "de": "Fundamentmaterial",
       "en": "Foundation Component",
       "fr": "Matériel pour les fondations",
-      "ja": "基礎工事資材"
+      "ja": "基礎工事資材",
+      "ko": "기초공사 자재"
     }
   },
   {
@@ -4635,7 +4960,8 @@
       "de": "Komponente für die Werkzeugreparatur",
       "en": "Gathering Tool Component",
       "fr": "Matériel de réparation",
-      "ja": "採集道具補材"
+      "ja": "採集道具補材",
+      "ko": "채집도구 보강재"
     }
   },
   {
@@ -4649,7 +4975,8 @@
       "de": "Trötenkomponente",
       "en": "Horn Component",
       "fr": "Composant de clairon",
-      "ja": "すんごいラッパ部材"
+      "ja": "すんごいラッパ部材",
+      "ko": "엄청난 나팔 부재"
     }
   },
   {
@@ -4663,7 +4990,8 @@
       "de": "Bestandteil einer Mahlzeit",
       "en": "Ishgardian Cuisine Miscellany",
       "fr": "Élément de plateau-repas",
-      "ja": "晩餐不足品"
+      "ja": "晩餐不足品",
+      "ko": "만찬용 물품"
     }
   },
   {
@@ -4677,7 +5005,8 @@
       "de": "Miniatur-Luftschiff",
       "en": "Makeshift Toy Airship",
       "fr": "Maquette d'aéronef",
-      "ja": "飛空艇模型"
+      "ja": "飛空艇模型",
+      "ko": "비공정 모형"
     }
   },
   {
@@ -4691,7 +5020,8 @@
       "de": "Küchenartikel",
       "en": "Mogstew Miscellany",
       "fr": "Matériaux gastronomiques",
-      "ja": "調理不足品"
+      "ja": "調理不足品",
+      "ko": "요리용 물품"
     }
   },
   {
@@ -4705,7 +5035,8 @@
       "de": "Kleine Belohnung",
       "en": "Moogle Mollifier",
       "fr": "Cadeau personnalisé",
-      "ja": "特製ご褒美"
+      "ja": "特製ご褒美",
+      "ko": "특별한 상품"
     }
   },
   {
@@ -4719,7 +5050,8 @@
       "de": "Mogry-Figur",
       "en": "Moogle Statuette",
       "fr": "Statuette de Mog",
-      "ja": "彫像見本品"
+      "ja": "彫像見本品",
+      "ko": "조각상 견본"
     }
   },
   {
@@ -4733,7 +5065,8 @@
       "de": "Mogry-Werkzeugkomponente",
       "en": "Moogle Tool Component",
       "fr": "Composant de marteau spécial Mog",
-      "ja": "モーグリ用道具部材"
+      "ja": "モーグリ用道具部材",
+      "ko": "모그리용 도구 부재"
     }
   },
   {
@@ -4747,7 +5080,8 @@
       "de": "Verwendbares Baumaterial",
       "en": "Repurposed Construction Component",
       "fr": "Matériel de construction",
-      "ja": "再生済み建築資材"
+      "ja": "再生済み建築資材",
+      "ko": "재생된 건축 자재"
     }
   },
   {
@@ -4761,7 +5095,8 @@
       "de": "Einzelteil für die Schneidemaschine",
       "en": "Shearing Machine Component",
       "fr": "Composant de machine à inciser",
-      "ja": "裁断機部材"
+      "ja": "裁断機部材",
+      "ko": "재단기 부재"
     }
   },
   {
@@ -4775,7 +5110,8 @@
       "de": "Steinstatuenkomponente",
       "en": "Statue Supplies",
       "fr": "Composant de statue",
-      "ja": "石像修復用部材"
+      "ja": "石像修復用部材",
+      "ko": "석상 복구용 부재"
     }
   },
   {
@@ -4789,7 +5125,8 @@
       "de": "Formvollendete Steinblock-Vorlage",
       "en": "Stonemasonry Supplies",
       "fr": "Pierre de référence",
-      "ja": "調整された石材"
+      "ja": "調整された石材",
+      "ko": "조정된 석재"
     }
   },
   {
@@ -4803,7 +5140,8 @@
       "de": "Gedenktafelkomponente",
       "en": "Tablet Supplies",
       "fr": "Composant de plaque commémorative",
-      "ja": "銘板仕上げ部材"
+      "ja": "銘板仕上げ部材",
+      "ko": "명판 마감 부재"
     }
   },
   {
@@ -4817,7 +5155,8 @@
       "de": "Übungsmaterial",
       "en": "Training Supplies",
       "fr": "Matériel d'entraînement",
-      "ja": "訓練用部材"
+      "ja": "訓練用部材",
+      "ko": "훈련용 부재"
     }
   },
   {
@@ -4831,7 +5170,8 @@
       "de": "Flaschenzug-Ersatzteil",
       "en": "Treadwheel Crane Components",
       "fr": "Matériel de réparation de treuil",
-      "ja": "巻き上げ機部材"
+      "ja": "巻き上げ機部材",
+      "ko": "도르래 부재"
     }
   },
   {
@@ -4845,7 +5185,8 @@
       "de": "Werkzeug zur Bodenplattenfärbung",
       "en": "Veneer Component",
       "fr": "Matériel de finition",
-      "ja": "床材加工用品"
+      "ja": "床材加工用品",
+      "ko": "바닥 내장재 가공용품"
     }
   },
   {
@@ -4859,7 +5200,8 @@
       "de": "Wandlaterne",
       "en": "Wall Lantern",
       "fr": "Lanterne murale",
-      "ja": "ウォールランタン"
+      "ja": "ウォールランタン",
+      "ko": "벽걸이 램프"
     }
   },
   {
@@ -4873,7 +5215,8 @@
       "de": "Werkzeug zur Mauerglättung",
       "en": "Wall Repair Supplies",
       "fr": "Matériel de rénovation de façade",
-      "ja": "壁の補修部材"
+      "ja": "壁の補修部材",
+      "ko": "벽 보수용 부재"
     }
   },
   {
@@ -4887,7 +5230,8 @@
       "de": "Abdichtungskomponente",
       "en": "Water Filter Component",
       "fr": "Composant de fontaine",
-      "ja": "泉水補修材"
+      "ja": "泉水補修材",
+      "ko": "샘물 보수재"
     }
   },
   {
@@ -4901,7 +5245,8 @@
       "de": "Äolus-Scimitar",
       "en": "Aeolian Scimitar",
       "fr": "Cimeterre éolien",
-      "ja": "アイオリアンシミター"
+      "ja": "アイオリアンシミター",
+      "ko": "바람의 시미터"
     },
     "stars": 1
   },
@@ -4916,7 +5261,8 @@
       "de": "Barbaren-Berdysch",
       "en": "Barbarian's Bardiche",
       "fr": "Bardiche de barbare",
-      "ja": "バーバリアンバルディッシュ"
+      "ja": "バーバリアンバルディッシュ",
+      "ko": "오랑캐의 긴날도끼"
     },
     "stars": 1
   },
@@ -4931,7 +5277,8 @@
       "de": "Drachenhaubitze",
       "en": "Bertha Cannon",
       "fr": "Canon anti-dragon à tourelle quadruple",
-      "ja": "四連装対竜カノン砲"
+      "ja": "四連装対竜カノン砲",
+      "ko": "4연장 드래곤용 대포"
     },
     "stars": 1
   },
@@ -4946,7 +5293,8 @@
       "de": "Dunkelstahl-Nugget",
       "en": "Darksteel Nugget",
       "fr": "Pépite de sombracier",
-      "ja": "ダークスチールナゲット"
+      "ja": "ダークスチールナゲット",
+      "ko": "암철 덩어리"
     },
     "stars": 1
   },
@@ -4961,7 +5309,8 @@
       "de": "Dunkelstahlnieten",
       "en": "Darksteel Rivets",
       "fr": "Rivets en sombracier",
-      "ja": "ダークスチールリベット"
+      "ja": "ダークスチールリベット",
+      "ko": "암철 이음못"
     },
     "stars": 1
   },
@@ -4976,7 +5325,8 @@
       "de": "Miliz-Ahle",
       "en": "Militia Awl",
       "fr": "Alêne de milicien",
-      "ja": "ミリシアアウル"
+      "ja": "ミリシアアウル",
+      "ko": "민병대 목타"
     },
     "stars": 1
   },
@@ -4991,7 +5341,8 @@
       "de": "Miliz-Klauenhammer",
       "en": "Militia Claw Hammer",
       "fr": "Marteau arrache-clou de milicien",
-      "ja": "ミリシアクローハンマー"
+      "ja": "ミリシアクローハンマー",
+      "ko": "민병대 장도리"
     },
     "stars": 1
   },
@@ -5006,7 +5357,8 @@
       "de": "Miliz-Küchenmesser",
       "en": "Militia Culinary Knife",
       "fr": "Couteau de cuisine de milicien",
-      "ja": "ミリシアクリナリーナイフ"
+      "ja": "ミリシアクリナリーナイフ",
+      "ko": "민병대 요리칼"
     },
     "stars": 1
   },
@@ -5021,7 +5373,8 @@
       "de": "Miliz-Feile",
       "en": "Militia File",
       "fr": "Lime de milicien",
-      "ja": "ミリシアファイル"
+      "ja": "ミリシアファイル",
+      "ko": "민병대 줄판"
     },
     "stars": 1
   },
@@ -5036,7 +5389,8 @@
       "de": "Miliz-Mörser",
       "en": "Militia Mortar",
       "fr": "Mortier de milicien",
-      "ja": "ミリシアモーター"
+      "ja": "ミリシアモーター",
+      "ko": "민병대 약연"
     },
     "stars": 1
   },
@@ -5051,7 +5405,8 @@
       "de": "Miliz-Zange",
       "en": "Militia Pliers",
       "fr": "Tenailles de milicien",
-      "ja": "ミリシアプライヤー"
+      "ja": "ミリシアプライヤー",
+      "ko": "민병대 플라이어"
     },
     "stars": 1
   },
@@ -5066,7 +5421,8 @@
       "de": "Miliz-Sense",
       "en": "Militia Scythe",
       "fr": "Faux de milicien",
-      "ja": "ミリシアサイズ"
+      "ja": "ミリシアサイズ",
+      "ko": "민병대 큰낫"
     },
     "stars": 1
   },
@@ -5081,7 +5437,8 @@
       "de": "Miliz-Vorschlaghammer",
       "en": "Militia Sledgehammer",
       "fr": "Maillet de milicien",
-      "ja": "ミリシアモール"
+      "ja": "ミリシアモール",
+      "ko": "민병대 채굴망치"
     },
     "stars": 1
   },
@@ -5096,7 +5453,8 @@
       "de": "Riviera-Zaun",
       "en": "Riviera Fence",
       "fr": "Clôture à grille noscéenne",
-      "ja": "ラノシアン・フェンスウォール"
+      "ja": "ラノシアン・フェンスウォール",
+      "ko": "해변의 철책 담장"
     },
     "stars": 1
   },
@@ -5111,7 +5469,8 @@
       "de": "Tomberry-Kronleuchter",
       "en": "Tonberry Chandelier",
       "fr": "Lustre tomberry",
-      "ja": "トンベリシャンデリア"
+      "ja": "トンベリシャンデリア",
+      "ko": "톤베리 샹들리에"
     },
     "stars": 1
   },
@@ -5126,7 +5485,8 @@
       "de": "Tomberry-Wandlaterne",
       "en": "Tonberry Wall Lantern",
       "fr": "Flambeau tomberry",
-      "ja": "トンベリウォールランタン"
+      "ja": "トンベリウォールランタン",
+      "ko": "톤베리 벽걸이 램프"
     },
     "stars": 1
   },
@@ -5141,7 +5501,8 @@
       "de": "Wolf-Klauen",
       "en": "Wolf Claws",
       "fr": "Griffes de loup",
-      "ja": "ウルフクロー"
+      "ja": "ウルフクロー",
+      "ko": "늑대 서슬발톱"
     },
     "stars": 1
   },
@@ -5156,7 +5517,8 @@
       "de": "Wolf-Labrys",
       "en": "Wolf Labrys",
       "fr": "Labrys de loup",
-      "ja": "ウルフラブリュス"
+      "ja": "ウルフラブリュス",
+      "ko": "늑대 양날도끼"
     },
     "stars": 1
   },
@@ -5171,7 +5533,8 @@
       "de": "Wolfs-Muskete",
       "en": "Wolf Musketoon",
       "fr": "Mousqueton de loup",
-      "ja": "ウルフマスケトン"
+      "ja": "ウルフマスケトン",
+      "ko": "늑대 단총"
     },
     "stars": 1
   },
@@ -5186,7 +5549,8 @@
       "de": "Wolf-Pugiones",
       "en": "Wolf Pugiones",
       "fr": "Pugiones de loup",
-      "ja": "ウルフプジオ"
+      "ja": "ウルフプジオ",
+      "ko": "늑대 푸기오"
     },
     "stars": 1
   },
@@ -5201,7 +5565,8 @@
       "de": "Wolf-Zeremonialschwert",
       "en": "Wolf Winglet",
       "fr": "Espafut de loup",
-      "ja": "ウルフウィングレット"
+      "ja": "ウルフウィングレット",
+      "ko": "늑대 날개검"
     },
     "stars": 1
   },
@@ -5216,7 +5581,8 @@
       "de": "Wolf-Zweihänder",
       "en": "Wolf Zweihander",
       "fr": "Espadon de loup",
-      "ja": "ウルフツヴァイハンダー"
+      "ja": "ウルフツヴァイハンダー",
+      "ko": "늑대 양손검"
     },
     "stars": 1
   },
@@ -5231,7 +5597,8 @@
       "de": "Luftschiff-Reparaturkit",
       "en": "Airship Repair Materials",
       "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材"
+      "ja": "飛空艇修理材",
+      "ko": "비공정 수리재"
     },
     "stars": 2
   },
@@ -5246,7 +5613,8 @@
       "de": "Rächer-Griffe",
       "en": "Avenger Grips",
       "fr": "Poignées de Vengeurs",
-      "ja": "アベンジャーグリップ"
+      "ja": "アベンジャーグリップ",
+      "ko": "복수자의 손잡이"
     },
     "stars": 2
   },
@@ -5261,7 +5629,8 @@
       "de": "Rächer",
       "en": "Avengers",
       "fr": "Vengeurs",
-      "ja": "アベンジャー"
+      "ja": "アベンジャー",
+      "ko": "복수자"
     },
     "stars": 2
   },
@@ -5276,7 +5645,8 @@
       "de": "Dunkelstahlhaken",
       "en": "Darksteel Hook",
       "fr": "Crochet de sombracier",
-      "ja": "ダークスチールフック"
+      "ja": "ダークスチールフック",
+      "ko": "암철 갈고리"
     },
     "stars": 2
   },
@@ -5291,7 +5661,8 @@
       "de": "Dunkelstahlbarren",
       "en": "Darksteel Ingot",
       "fr": "Lingot de sombracier",
-      "ja": "ダークスチールインゴット"
+      "ja": "ダークスチールインゴット",
+      "ko": "암철 주괴"
     },
     "stars": 2
   },
@@ -5306,7 +5677,8 @@
       "de": "Dunkelstahl-Espingole",
       "en": "Darksteel-barreled Blunderbuss",
       "fr": "Tromblon",
-      "ja": "ブランダーバス"
+      "ja": "ブランダーバス",
+      "ko": "나팔총"
     },
     "stars": 2
   },
@@ -5321,7 +5693,8 @@
       "de": "Panzerbrecher",
       "en": "Mailbreaker",
       "fr": "Briseur de maille",
-      "ja": "メイルブレーカー"
+      "ja": "メイルブレーカー",
+      "ko": "갑옷 파괴검"
     },
     "stars": 2
   },
@@ -5336,7 +5709,8 @@
       "de": "Panzerbrecher-Klinge",
       "en": "Mailbreaker Blade",
       "fr": "Lame de Briseur de maille",
-      "ja": "メイルブレーカーブレード"
+      "ja": "メイルブレーカーブレード",
+      "ko": "갑옷 파괴검의 칼날"
     },
     "stars": 2
   },
@@ -5351,7 +5725,8 @@
       "de": "Herrenhaus-Ofen",
       "en": "Manor Oven",
       "fr": "Fourneau du manoir",
-      "ja": "御用邸の焜炉"
+      "ja": "御用邸の焜炉",
+      "ko": "별궁의 풍로"
     },
     "stars": 2
   },
@@ -5366,7 +5741,8 @@
       "de": "Misericordia-Klingen",
       "en": "Misericorde Blades",
       "fr": "Lames de Miséricorde",
-      "ja": "ミセリコルデブレード"
+      "ja": "ミセリコルデブレード",
+      "ko": "자비로운 죽음의 칼날"
     },
     "stars": 2
   },
@@ -5381,7 +5757,8 @@
       "de": "Misericordiae",
       "en": "Misericordes",
       "fr": "Miséricorde",
-      "ja": "ミセリコルデ"
+      "ja": "ミセリコルデ",
+      "ko": "자비로운 죽음"
     },
     "stars": 2
   },
@@ -5396,7 +5773,8 @@
       "de": "Obelisk",
       "en": "Obelisk",
       "fr": "Obélisque",
-      "ja": "オベリスク"
+      "ja": "オベリスク",
+      "ko": "오벨리스크"
     },
     "stars": 2
   },
@@ -5411,12 +5789,12 @@
       "de": "Obelisken-Speerspitze",
       "en": "Obelisk Head",
       "fr": "Fer d'Obélisque",
-      "ja": "オベリスクヘッド"
+      "ja": "オベリスクヘッド",
+      "ko": "오벨리스크 창머리"
     },
     "stars": 2
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -5427,7 +5805,8 @@
       "de": "Plasmakugel",
       "en": "Plasma Lamp",
       "fr": "Lampe à plasma de Ramuh",
-      "ja": "ラムウのプラズマランプ"
+      "ja": "ラムウのプラズマランプ",
+      "ko": "라무의 플라스마 램프"
     },
     "stars": 2
   },
@@ -5442,7 +5821,8 @@
       "de": "Amok",
       "en": "Rampager",
       "fr": "Ravageuse",
-      "ja": "ランページャー"
+      "ja": "ランページャー",
+      "ko": "광란의 돌격"
     },
     "stars": 2
   },
@@ -5457,7 +5837,8 @@
       "de": "Amok-Axtblatt",
       "en": "Rampager Head",
       "fr": "Tête de Ravageuse",
-      "ja": "ランページャーヘッド"
+      "ja": "ランページャーヘッド",
+      "ko": "광란자의 도끼머리"
     },
     "stars": 2
   },
@@ -5472,7 +5853,8 @@
       "de": "Sitzmodul",
       "en": "Seating Module",
       "fr": "Module pour station assise",
-      "ja": "着席システム"
+      "ja": "着席システム",
+      "ko": "착석 시스템"
     },
     "stars": 2
   },
@@ -5487,12 +5869,12 @@
       "de": "Unterdrücker",
       "en": "Subduer",
       "fr": "Persécutrice",
-      "ja": "サブドゥア"
+      "ja": "サブドゥア",
+      "ko": "제압자의 검"
     },
     "stars": 2
   },
   {
-    "aspect": "Water",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -5503,12 +5885,12 @@
       "de": "Brunnen der Wogen",
       "en": "Wavesoul Fount",
       "fr": "Fontaine de Léviathan",
-      "ja": "リヴァイアサンの噴水"
+      "ja": "リヴァイアサンの噴水",
+      "ko": "리바이어선의 분수"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5519,7 +5901,8 @@
       "de": "Sturmhingabe",
       "en": "Abandon of the Vortex",
       "fr": "Désespoir des rafales",
-      "ja": "ヴォーテックスアバンドン"
+      "ja": "ヴォーテックスアバンドン",
+      "ko": "돌풍의 방종"
     },
     "stars": 3
   },
@@ -5534,7 +5917,8 @@
       "de": "Kunsthandwerker-Ahle",
       "en": "Artisan's Awl",
       "fr": "Poinçon de façonnier",
-      "ja": "アーティザンアウル"
+      "ja": "アーティザンアウル",
+      "ko": "장인의 목타"
     },
     "stars": 3
   },
@@ -5549,7 +5933,8 @@
       "de": "Kunsthandwerker-Klauenhammer",
       "en": "Artisan's Claw Hammer",
       "fr": "Marteau arrache-clou de façonnier",
-      "ja": "アーティザンクローハンマー"
+      "ja": "アーティザンクローハンマー",
+      "ko": "장인의 장도리"
     },
     "stars": 3
   },
@@ -5564,7 +5949,8 @@
       "de": "Kunsthandwerker-Küchenmesser",
       "en": "Artisan's Culinary Knife",
       "fr": "Couteau de cuisine de façonnier",
-      "ja": "アーティザンクリナリーナイフ"
+      "ja": "アーティザンクリナリーナイフ",
+      "ko": "장인의 요리칼"
     },
     "stars": 3
   },
@@ -5579,7 +5965,8 @@
       "de": "Kunsthandwerker-Feile",
       "en": "Artisan's File",
       "fr": "Lime de façonnier",
-      "ja": "アーティザンファイル"
+      "ja": "アーティザンファイル",
+      "ko": "장인의 줄판"
     },
     "stars": 3
   },
@@ -5594,7 +5981,8 @@
       "de": "Kunsthandwerker-Mörser",
       "en": "Artisan's Mortar",
       "fr": "Mortier de façonnier",
-      "ja": "アーティザンモーター"
+      "ja": "アーティザンモーター",
+      "ko": "장인의 약연"
     },
     "stars": 3
   },
@@ -5609,7 +5997,8 @@
       "de": "Kunsthandwerker-Zange",
       "en": "Artisan's Pliers",
       "fr": "Tenailles de façonnier",
-      "ja": "アーティザンプライヤー"
+      "ja": "アーティザンプライヤー",
+      "ko": "장인의 플라이어"
     },
     "stars": 3
   },
@@ -5624,12 +6013,12 @@
       "de": "Ausbalancierter Dunkelstahlhaken",
       "en": "Balanced Darksteel Hook",
       "fr": "Crochet de sombracier équilibré",
-      "ja": "高精度ダークスチールフック"
+      "ja": "高精度ダークスチールフック",
+      "ko": "고정밀 암철 갈고리"
     },
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5640,7 +6029,8 @@
       "de": "Windgewalten-Blut",
       "en": "Blood of the Vortex",
       "fr": "Barbule des rafales",
-      "ja": "嵐神血刀【改】"
+      "ja": "嵐神血刀【改】",
+      "ko": "돌풍의 피"
     },
     "stars": 3
   },
@@ -5655,7 +6045,8 @@
       "de": "Karfunkel-Bank",
       "en": "Carbuncle Garden Bench",
       "fr": "Banc de jardin Carbuncle",
-      "ja": "カーバンクルガーデンベンチ"
+      "ja": "カーバンクルガーデンベンチ",
+      "ko": "정원용 긴 카벙클 의자"
     },
     "stars": 3
   },
@@ -5670,7 +6061,8 @@
       "de": "Herd",
       "en": "Cooking Stove",
       "fr": "Fourneau de cuisine",
-      "ja": "クッキングストーブ"
+      "ja": "クッキングストーブ",
+      "ko": "요리용 화덕"
     },
     "stars": 3
   },
@@ -5685,7 +6077,8 @@
       "de": "Furier-Sense",
       "en": "Forager's Scythe",
       "fr": "Faux de glaneur",
-      "ja": "フォリジャーサイズ"
+      "ja": "フォリジャーサイズ",
+      "ko": "탐색자의 큰낫"
     },
     "stars": 3
   },
@@ -5700,12 +6093,12 @@
       "de": "Furier-Vorschlaghammer",
       "en": "Forager's Sledgehammer",
       "fr": "Maillet de glaneur",
-      "ja": "フォリジャーモール"
+      "ja": "フォリジャーモール",
+      "ko": "탐색자의 채굴망치"
     },
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5716,12 +6109,12 @@
       "de": "Windgewalten-Blick",
       "en": "Gaze of the Vortex",
       "fr": "Regard des rafales",
-      "ja": "ヴォーテックスゲイズ"
+      "ja": "ヴォーテックスゲイズ",
+      "ko": "돌풍의 눈길"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5732,12 +6125,12 @@
       "de": "Inferno-Kriegsaxt",
       "en": "Inferno Battleaxe",
       "fr": "Hache des flammes",
-      "ja": "インフェルノバトルアクス"
+      "ja": "インフェルノバトルアクス",
+      "ko": "지옥불 전투도끼"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5748,12 +6141,12 @@
       "de": "Inferno-Klinge",
       "en": "Inferno Blade",
       "fr": "Lame des flammes",
-      "ja": "インフェルノブレード"
+      "ja": "インフェルノブレード",
+      "ko": "지옥불 검"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5764,12 +6157,12 @@
       "de": "Inferno-Klauen",
       "en": "Inferno Claws",
       "fr": "Griffes des flammes",
-      "ja": "インフェルノクロー"
+      "ja": "インフェルノクロー",
+      "ko": "지옥불 서슬발톱"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5780,12 +6173,12 @@
       "de": "Inferno-Warbrand",
       "en": "Inferno Faussar",
       "fr": "Faussar des flammes",
-      "ja": "インフェルノフォセ"
+      "ja": "インフェルノフォセ",
+      "ko": "지옥불 굽은날검"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5796,12 +6189,12 @@
       "de": "Inferno-Harpune",
       "en": "Inferno Harpoon",
       "fr": "Harpon des flammes",
-      "ja": "インフェルノハープーン"
+      "ja": "インフェルノハープーン",
+      "ko": "지옥불 작살창"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5812,12 +6205,12 @@
       "de": "Inferno-Katana",
       "en": "Inferno Katana",
       "fr": "Katana des flammes",
-      "ja": "焔神刀【改】"
+      "ja": "焔神刀【改】",
+      "ko": "지옥불 외날검"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5828,12 +6221,12 @@
       "de": "Inferno-Krise",
       "en": "Inferno Kris",
       "fr": "Kriss des flammes",
-      "ja": "インフェルノクリス"
+      "ja": "インフェルノクリス",
+      "ko": "지옥불 쌍검"
     },
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5844,12 +6237,12 @@
       "de": "Inferno-Muskete",
       "en": "Inferno Musketoon",
       "fr": "Mousqueton des flammes",
-      "ja": "インフェルノマスケトン"
+      "ja": "インフェルノマスケトン",
+      "ko": "지옥불 단총"
     },
     "stars": 3
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 801,
     "durability": 80,
@@ -5860,7 +6253,8 @@
       "de": "Blitzkugel",
       "en": "Lord of Levin Lamp",
       "fr": "Lampe à plasma du Patriarche fulgurant",
-      "ja": "雷神ラムウのプラズマランプ"
+      "ja": "雷神ラムウのプラズマランプ",
+      "ko": "뇌신 라무의 플라스마 램프"
     },
     "stars": 3
   },
@@ -5875,7 +6269,8 @@
       "de": "Mörderisches Mogul-Mogtana",
       "en": "Maliferous Moggle Mogtana",
       "fr": "Katana Moggle Mog",
-      "ja": "極王刀"
+      "ja": "極王刀",
+      "ko": "모그루 모그 외날검"
     },
     "stars": 3
   },
@@ -5890,7 +6285,8 @@
       "de": "Malträtierende Mogul-Mogaxt",
       "en": "Malignant Moggle Mogaxe",
       "fr": "Hache Moggle Mog mordante",
-      "ja": "モグルモグアクス"
+      "ja": "モグルモグアクス",
+      "ko": "모그루 모그 도끼"
     },
     "stars": 3
   },
@@ -5905,7 +6301,8 @@
       "de": "Melancholische Mogul-Moggabel",
       "en": "Melancholy Moggle Mogfork",
       "fr": "Fourche Moggle Mog monstrueuse",
-      "ja": "モグルモグフォーク"
+      "ja": "モグルモグフォーク",
+      "ko": "모그루 모그 갈래창"
     },
     "stars": 3
   },
@@ -5920,7 +6317,8 @@
       "de": "Martialische Mogul Mogpistole",
       "en": "Menacing Moggle Mog Gun",
       "fr": "Pétoire Moggle Mog moderne",
-      "ja": "モグルモグエアガン"
+      "ja": "モグルモグエアガン",
+      "ko": "모그루 모그 공기총"
     },
     "stars": 3
   },
@@ -5935,7 +6333,8 @@
       "de": "Monströses Mogul-Mogschwert",
       "en": "Monstrous Moggle Mogsword",
       "fr": "Grande épée Moggle Mog morose",
-      "ja": "モグルモグレートソード"
+      "ja": "モグルモグレートソード",
+      "ko": "모그루 모그레이트소드"
     },
     "stars": 3
   },
@@ -5950,7 +6349,8 @@
       "de": "Morbide Mogul-Mogklinge",
       "en": "Morbid Moggle Mogblade",
       "fr": "Lame Moggle Mog morbide",
-      "ja": "モグルモグブレード"
+      "ja": "モグルモグブレード",
+      "ko": "모그루 모그 검"
     },
     "stars": 3
   },
@@ -5965,7 +6365,8 @@
       "de": "Mordsmogry-Mogmesser",
       "en": "Mortal Moggle Mogknives",
       "fr": "Couteaux Moggle Mog molestateurs",
-      "ja": "モグルモグナイフ"
+      "ja": "モグルモグナイフ",
+      "ko": "모그루 모그 나이프"
     },
     "stars": 3
   },
@@ -5980,7 +6381,8 @@
       "de": "Schelmen-Dolche",
       "en": "Mummer's Daggers",
       "fr": "Dagues d'acrobate",
-      "ja": "アクロバットダガー"
+      "ja": "アクロバットダガー",
+      "ko": "곡예용 단검"
     },
     "stars": 3
   },
@@ -5995,12 +6397,12 @@
       "de": "Oasen-Straßenlaterne",
       "en": "Oasis Path Light",
       "fr": "Éclairage au sol thanalanais",
-      "ja": "ザナラーン・フットランプ"
+      "ja": "ザナラーン・フットランプ",
+      "ko": "다날란 난쟁이등"
     },
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6011,7 +6413,8 @@
       "de": "Sturmschmerz",
       "en": "Pain of the Vortex",
       "fr": "Tourment des rafales",
-      "ja": "ヴォーテックスペイン"
+      "ja": "ヴォーテックスペイン",
+      "ko": "돌풍의 고통"
     },
     "stars": 3
   },
@@ -6026,7 +6429,8 @@
       "de": "Hochwertiger Stößel",
       "en": "Perfect Pestle",
       "fr": "Pilon parfait",
-      "ja": "上質な乳棒"
+      "ja": "上質な乳棒",
+      "ko": "고급 막자"
     },
     "stars": 3
   },
@@ -6041,12 +6445,12 @@
       "de": "Riviera-Straßenlaterne",
       "en": "Riviera Path Light",
       "fr": "Éclairage au sol noscéen",
-      "ja": "ラノシアン・フットランプ"
+      "ja": "ラノシアン・フットランプ",
+      "ko": "라노시아 난쟁이등"
     },
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6057,7 +6461,8 @@
       "de": "Windgewalten-Schrei",
       "en": "Scream of the Vortex",
       "fr": "Cri des rafales",
-      "ja": "ヴォーテックススクリーム"
+      "ja": "ヴォーテックススクリーム",
+      "ko": "돌풍의 외침"
     },
     "stars": 3
   },
@@ -6072,7 +6477,8 @@
       "de": "Duschständer",
       "en": "Shower Stand",
       "fr": "Colonne de douche",
-      "ja": "シャワースタンド"
+      "ja": "シャワースタンド",
+      "ko": "샤워대"
     },
     "stars": 3
   },
@@ -6087,7 +6493,8 @@
       "de": "Esse",
       "en": "Smithing Bench",
       "fr": "Établi de métallurgie",
-      "ja": "スミシングベンチ"
+      "ja": "スミシングベンチ",
+      "ko": "담금질 작업대"
     },
     "stars": 3
   },
@@ -6102,12 +6509,12 @@
       "de": "Krämerklingel",
       "en": "Summoning Bell",
       "fr": "Sonnette",
-      "ja": "リテイナーベル"
+      "ja": "リテイナーベル",
+      "ko": "집사 초인종"
     },
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6118,12 +6525,12 @@
       "de": "Windgewalten-Klauen",
       "en": "Talons of the Vortex",
       "fr": "Serres des rafales",
-      "ja": "ヴォーテックスタロン"
+      "ja": "ヴォーテックスタロン",
+      "ko": "돌풍의 발톱"
     },
     "stars": 3
   },
   {
-    "aspect": "Water",
     "baseLevel": 50,
     "difficulty": 801,
     "durability": 80,
@@ -6134,7 +6541,8 @@
       "de": "Seelenquelle Leviathans",
       "en": "Tidal Wavesoul Fount",
       "fr": "Fontaine du Déchaîneur des marées",
-      "ja": "水神リヴァイアサンの噴水"
+      "ja": "水神リヴァイアサンの噴水",
+      "ko": "수신 리바이어선의 분수"
     },
     "stars": 3
   },
@@ -6149,7 +6557,8 @@
       "de": "Wolfram",
       "en": "Wolfram Ingot",
       "fr": "Lingot de tungstène",
-      "ja": "ウォルフラムインゴット"
+      "ja": "ウォルフラムインゴット",
+      "ko": "중석 주괴"
     },
     "stars": 3
   },
@@ -6164,12 +6573,12 @@
       "de": "Drachengott-Kopf",
       "en": "Head of the Dreadwyrm",
       "fr": "Trophée du Dragon-dieu",
-      "ja": "バハムートトロフィー"
+      "ja": "バハムートトロフィー",
+      "ko": "바하무트 트로피"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6180,12 +6589,12 @@
       "de": "Großschwert des mächtigen Donners",
       "en": "Mighty Thunderclap",
       "fr": "Fracas du Patriarche",
-      "ja": "レヴィン・サンダークラップ"
+      "ja": "レヴィン・サンダークラップ",
+      "ko": "벼락의 양손검"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6196,12 +6605,12 @@
       "de": "Patas des mächtigen Donners",
       "en": "Mighty Thundercrack",
       "fr": "Claquements du Patriarche",
-      "ja": "レヴィン・サンダークラック"
+      "ja": "レヴィン・サンダークラック",
+      "ko": "벼락의 서슬발톱"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6212,12 +6621,12 @@
       "de": "Donnerbüchse des mächtigen Donners",
       "en": "Mighty Thundershower",
       "fr": "Foudre du Patriarche",
-      "ja": "レヴィン・サンダーシャワー"
+      "ja": "レヴィン・サンダーシャワー",
+      "ko": "벼락의 총"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6228,12 +6637,12 @@
       "de": "Macheten des mächtigen Donners",
       "en": "Mighty Thundersparks",
       "fr": "Fulgurances du Patriarche",
-      "ja": "レヴィン・サンダースパーク"
+      "ja": "レヴィン・サンダースパーク",
+      "ko": "벼락의 쌍검"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6244,12 +6653,12 @@
       "de": "Kampfaxt des mächtigen Donners",
       "en": "Mighty Thunderstorm",
       "fr": "Orage du Patriarche",
-      "ja": "レヴィン・サンダーストーム"
+      "ja": "レヴィン・サンダーストーム",
+      "ko": "벼락의 도끼"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6260,12 +6669,12 @@
       "de": "Schwert des mächtigen Donners",
       "en": "Mighty Thunderstrike",
       "fr": "Frappe du Patriarche",
-      "ja": "レヴィン・サンダーストライク"
+      "ja": "レヴィン・サンダーストライク",
+      "ko": "벼락의 검"
     },
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6276,7 +6685,8 @@
       "de": "Katana des mächtigen Donners",
       "en": "Mighty Thunderstroke",
       "fr": "Uchigatana du Patriarche",
-      "ja": "雷神打刀【改】"
+      "ja": "雷神打刀【改】",
+      "ko": "벼락의 외날검"
     },
     "stars": 4
   },
@@ -6291,7 +6701,8 @@
       "de": "Aufzieh-Magitek-Drohne",
       "en": "Model Magitek Bit",
       "fr": "Micro-drone magitek",
-      "ja": "魔導ビット自律型"
+      "ja": "魔導ビット自律型",
+      "ko": "마도 비트 자율형"
     },
     "stars": 4
   },
@@ -6306,7 +6717,8 @@
       "de": "Wootz-Bhuj",
       "en": "Wootz Bhuj",
       "fr": "Bhuj en wootz",
-      "ja": "ウーツブージ"
+      "ja": "ウーツブージ",
+      "ko": "우츠강 굽은날도끼"
     },
     "stars": 4
   },
@@ -6321,7 +6733,8 @@
       "de": "Wootz-Dolche",
       "en": "Wootz Daggers",
       "fr": "Dagues en wootz",
-      "ja": "ウーツダガー"
+      "ja": "ウーツダガー",
+      "ko": "우츠강 단검"
     },
     "stars": 4
   },
@@ -6336,7 +6749,8 @@
       "de": "Wootz-Warbrand",
       "en": "Wootz Fausse",
       "fr": "Faussar en wootz",
-      "ja": "ウーツフォセ"
+      "ja": "ウーツフォセ",
+      "ko": "우츠강 굽은날검"
     },
     "stars": 4
   },
@@ -6351,7 +6765,8 @@
       "de": "Wootz-Barren",
       "en": "Wootz Ingot",
       "fr": "Lingot de wootz",
-      "ja": "ウーツインゴット"
+      "ja": "ウーツインゴット",
+      "ko": "우츠강 주괴"
     },
     "stars": 4
   },
@@ -6366,7 +6781,8 @@
       "de": "Wootz-Schlagringe",
       "en": "Wootz Knuckles",
       "fr": "Poings en wootz",
-      "ja": "ウーツナックル"
+      "ja": "ウーツナックル",
+      "ko": "우츠강 너클"
     },
     "stars": 4
   },
@@ -6381,7 +6797,8 @@
       "de": "Wootz-Revolver",
       "en": "Wootz Revolver",
       "fr": "Revolver en wootz",
-      "ja": "ウーツリボルバー"
+      "ja": "ウーツリボルバー",
+      "ko": "우츠강 연발권총"
     },
     "stars": 4
   },
@@ -6396,7 +6813,8 @@
       "de": "Wootz-Scimitar",
       "en": "Wootz Scimitar",
       "fr": "Cimeterre en wootz",
-      "ja": "ウーツシミター"
+      "ja": "ウーツシミター",
+      "ko": "우츠강 시미터"
     },
     "stars": 4
   },
@@ -6411,7 +6829,8 @@
       "de": "Mythrit-Nugget",
       "en": "Mythrite Nugget",
       "fr": "Pépite de mithrite",
-      "ja": "ミスライトナゲット"
+      "ja": "ミスライトナゲット",
+      "ko": "미스라이트 덩어리"
     }
   },
   {
@@ -6425,7 +6844,8 @@
       "de": "Mythrit-Uchigatana",
       "en": "Mythrite Uchigatana",
       "fr": "Uchigatana en mithrite",
-      "ja": "精霊銀打刀"
+      "ja": "精霊銀打刀",
+      "ko": "미스라이트 타도"
     }
   },
   {
@@ -6439,7 +6859,8 @@
       "de": "Mythrit-Claymore",
       "en": "Mythrite Claymore",
       "fr": "Claymore en mithrite",
-      "ja": "ミスライトクレイモア"
+      "ja": "ミスライトクレイモア",
+      "ko": "미스라이트 클레이모어"
     }
   },
   {
@@ -6453,7 +6874,8 @@
       "de": "Mythrit-Katzbalger",
       "en": "Mythrite Katzbalger",
       "fr": "Katzbalger en mithrite",
-      "ja": "ミスライトカッツバルゲル"
+      "ja": "ミスライトカッツバルゲル",
+      "ko": "미스라이트 카츠발게르"
     }
   },
   {
@@ -6467,7 +6889,8 @@
       "de": "Mythrit-Pata",
       "en": "Mythrite Patas",
       "fr": "Patas en mithrite",
-      "ja": "ミスライトパタ"
+      "ja": "ミスライトパタ",
+      "ko": "미스라이트 파타"
     }
   },
   {
@@ -6481,7 +6904,8 @@
       "de": "Mythrit-Pugiones",
       "en": "Mythrite Pugiones",
       "fr": "Pugiones en mithrite",
-      "ja": "ミスライトプジオ"
+      "ja": "ミスライトプジオ",
+      "ko": "미스라이트 푸기오"
     }
   },
   {
@@ -6495,7 +6919,8 @@
       "de": "Mythrit-Nieten",
       "en": "Mythrite Rivets",
       "fr": "Rivets en mithrite",
-      "ja": "ミスライトリベット"
+      "ja": "ミスライトリベット",
+      "ko": "미스라이트 이음못"
     }
   },
   {
@@ -6509,7 +6934,8 @@
       "de": "Mythrit-Streitaxt",
       "en": "Mythrite War Axe",
       "fr": "Hache de guerre en mithrite",
-      "ja": "ミスライトウォーアクス"
+      "ja": "ミスライトウォーアクス",
+      "ko": "미스라이트 전쟁도끼"
     }
   },
   {
@@ -6523,7 +6949,8 @@
       "de": "Mythrit-Hakenbüchse",
       "en": "Mythrite-barreled Arquebus",
       "fr": "Arquebuse en mithrite",
-      "ja": "ミスライトアークウィバス"
+      "ja": "ミスライトアークウィバス",
+      "ko": "미스라이트 화승총"
     }
   },
   {
@@ -6537,7 +6964,8 @@
       "de": "Garlond-Stahl",
       "en": "Garlond Steel",
       "fr": "Acier de Garlond",
-      "ja": "ガーロンド鋼"
+      "ja": "ガーロンド鋼",
+      "ko": "갈론드강"
     }
   },
   {
@@ -6551,7 +6979,8 @@
       "de": "Mythrit-Rundsäge",
       "en": "Mythrite Halfheart Saw",
       "fr": "Scie ronde en mithrite",
-      "ja": "ミスライトラウンドソー"
+      "ja": "ミスライトラウンドソー",
+      "ko": "미스라이트 둥근톱"
     }
   },
   {
@@ -6565,7 +6994,8 @@
       "de": "Mythrit-Handbeil",
       "en": "Mythrite Hatchet",
       "fr": "Hachette en mithrite",
-      "ja": "ミスライトハチェット"
+      "ja": "ミスライトハチェット",
+      "ko": "미스라이트 손도끼"
     }
   },
   {
@@ -6579,7 +7009,8 @@
       "de": "Mythrit-Barren",
       "en": "Mythrite Ingot",
       "fr": "Lingot de mithrite",
-      "ja": "ミスライトインゴット"
+      "ja": "ミスライトインゴット",
+      "ko": "미스라이트 주괴"
     }
   },
   {
@@ -6593,7 +7024,8 @@
       "de": "Mythrit-Juwelierhammer",
       "en": "Mythrite Lapidary Hammer",
       "fr": "Marteau de lapidaire en mithrite",
-      "ja": "ミスライトラピダリーハンマー"
+      "ja": "ミスライトラピダリーハンマー",
+      "ko": "미스라이트 세공망치"
     }
   },
   {
@@ -6607,7 +7039,8 @@
       "de": "Mythrit-Schlägel",
       "en": "Mythrite Lump Hammer",
       "fr": "Massette en mithrite",
-      "ja": "ミスライトランプハンマー"
+      "ja": "ミスライトランプハンマー",
+      "ko": "미스라이트 중형망치"
     }
   },
   {
@@ -6621,7 +7054,8 @@
       "de": "Mythrit-Spitzhacke",
       "en": "Mythrite Pickaxe",
       "fr": "Pioche en mithrite",
-      "ja": "ミスライトピック"
+      "ja": "ミスライトピック",
+      "ko": "미스라이트 곡괭이"
     }
   },
   {
@@ -6635,7 +7069,8 @@
       "de": "Mythrit-Schlichthammer",
       "en": "Mythrite Raising Hammer",
       "fr": "Marteau de batteur en mithrite",
-      "ja": "ミスライトレイジングハンマー"
+      "ja": "ミスライトレイジングハンマー",
+      "ko": "미스라이트 돋을무늬 망치"
     }
   },
   {
@@ -6649,7 +7084,8 @@
       "de": "Mythrit-Rundmesser",
       "en": "Mythrite Round Knife",
       "fr": "Couteau arrondi en mithrite",
-      "ja": "ミスライトラウンドナイフ"
+      "ja": "ミスライトラウンドナイフ",
+      "ko": "미스라이트 둥근칼"
     }
   },
   {
@@ -6663,7 +7099,8 @@
       "de": "Mythrit-Tachi",
       "en": "Mythrite Tachi",
       "fr": "Tachi en mithrite",
-      "ja": "精霊銀太刀"
+      "ja": "精霊銀太刀",
+      "ko": "미스라이트 태도"
     }
   },
   {
@@ -6677,7 +7114,8 @@
       "de": "Mythrit-Ahle",
       "en": "Mythrite Awl",
       "fr": "Alêne en mithrite",
-      "ja": "ミスライトアウル"
+      "ja": "ミスライトアウル",
+      "ko": "미스라이트 목타"
     }
   },
   {
@@ -6691,7 +7129,8 @@
       "de": "Mythrit-Klauenhammer",
       "en": "Mythrite Claw Hammer",
       "fr": "Marteau arrache-clou en mithrite",
-      "ja": "ミスライトクローハンマー"
+      "ja": "ミスライトクローハンマー",
+      "ko": "미스라이트 장도리"
     }
   },
   {
@@ -6705,7 +7144,8 @@
       "de": "Mythrit-Küchenmesser",
       "en": "Mythrite Culinary Knife",
       "fr": "Couteau de cuisine en mithrite",
-      "ja": "ミスライトクリナリーナイフ"
+      "ja": "ミスライトクリナリーナイフ",
+      "ko": "미스라이트 요리칼"
     }
   },
   {
@@ -6719,7 +7159,8 @@
       "de": "Mythrit-Feile",
       "en": "Mythrite File",
       "fr": "Lime en mithrite",
-      "ja": "ミスライトファイル"
+      "ja": "ミスライトファイル",
+      "ko": "미스라이트 줄판"
     }
   },
   {
@@ -6733,7 +7174,8 @@
       "de": "Mythrit-Flammenzunge",
       "en": "Mythrite Flametongue",
       "fr": "Langueflamme en mithrite",
-      "ja": "ミスライトフレイムタン"
+      "ja": "ミスライトフレイムタン",
+      "ko": "미스라이트 불꽃혀"
     }
   },
   {
@@ -6747,7 +7189,8 @@
       "de": "Mythrit-Jamadhars",
       "en": "Mythrite Jamadhars",
       "fr": "Jamadhars en mithrite",
-      "ja": "ミスライトジャマダル"
+      "ja": "ミスライトジャマダル",
+      "ko": "미스라이트 자마다르"
     }
   },
   {
@@ -6761,7 +7204,8 @@
       "de": "Mythrit-Labrys",
       "en": "Mythrite Labrys",
       "fr": "Labrys en mithrite",
-      "ja": "ミスライトラブリュス"
+      "ja": "ミスライトラブリュス",
+      "ko": "미스라이트 양날도끼"
     }
   },
   {
@@ -6775,7 +7219,8 @@
       "de": "Mythrit-Mörser",
       "en": "Mythrite Mortar",
       "fr": "Mortier en mithrite",
-      "ja": "ミスライトモーター"
+      "ja": "ミスライトモーター",
+      "ko": "미스라이트 약연"
     }
   },
   {
@@ -6789,7 +7234,8 @@
       "de": "Mythritzange",
       "en": "Mythrite Pliers",
       "fr": "Tenailles en mithrite",
-      "ja": "ミスライトプライヤー"
+      "ja": "ミスライトプライヤー",
+      "ko": "미스라이트 플라이어"
     }
   },
   {
@@ -6803,7 +7249,8 @@
       "de": "Mythrit-Sense",
       "en": "Mythrite Scythe",
       "fr": "Faux en mithrite",
-      "ja": "ミスライトサイズ"
+      "ja": "ミスライトサイズ",
+      "ko": "미스라이트 큰낫"
     }
   },
   {
@@ -6817,7 +7264,8 @@
       "de": "Mythrit-Vorschlaghammer",
       "en": "Mythrite Sledgehammer",
       "fr": "Maillet en mithrite",
-      "ja": "ミスライトモール"
+      "ja": "ミスライトモール",
+      "ko": "미스라이트 채굴망치"
     }
   },
   {
@@ -6831,7 +7279,8 @@
       "de": "Mythrit-Stilettos",
       "en": "Mythrite Stilettos",
       "fr": "Stylets en mithrite",
-      "ja": "ミスライトスティレット"
+      "ja": "ミスライトスティレット",
+      "ko": "미스라이트 스틸레토"
     }
   },
   {
@@ -6845,7 +7294,8 @@
       "de": "Mythrit-Zweihänder",
       "en": "Mythrite Zweihander",
       "fr": "Espadon en mithrite",
-      "ja": "ミスライトツヴァイハンダー"
+      "ja": "ミスライトツヴァイハンダー",
+      "ko": "미스라이트 양손검"
     }
   },
   {
@@ -6859,7 +7309,8 @@
       "de": "Mythrit-Muskete",
       "en": "Mythrite-barreled Musketoon",
       "fr": "Mousqueton en mithrite",
-      "ja": "ミスライトマスケトン"
+      "ja": "ミスライトマスケトン",
+      "ko": "미스라이트 단총"
     }
   },
   {
@@ -6873,7 +7324,8 @@
       "de": "Titan-Axt",
       "en": "Titanium Axe",
       "fr": "Hache en titane",
-      "ja": "チタンアクス"
+      "ja": "チタンアクス",
+      "ko": "티타늄 도끼"
     }
   },
   {
@@ -6887,7 +7339,8 @@
       "de": "Titan-Bastardschwert",
       "en": "Titanium Bastard Sword",
       "fr": "Épée bâtarde en titane",
-      "ja": "チタンバスタードソード"
+      "ja": "チタンバスタードソード",
+      "ko": "티타늄 바스타드소드"
     }
   },
   {
@@ -6901,7 +7354,8 @@
       "de": "Titan-Claymore",
       "en": "Titanium Claymore",
       "fr": "Claymore en titane",
-      "ja": "チタンクレイモア"
+      "ja": "チタンクレイモア",
+      "ko": "티타늄 클레이모어"
     }
   },
   {
@@ -6915,7 +7369,8 @@
       "de": "Titan-Jamadhars",
       "en": "Titanium Jamadhars",
       "fr": "Jamadhars en titane",
-      "ja": "チタンジャマダル"
+      "ja": "チタンジャマダル",
+      "ko": "티타늄 자마다르"
     }
   },
   {
@@ -6929,7 +7384,8 @@
       "de": "Titan-Nugget",
       "en": "Titanium Nugget",
       "fr": "Pépite de titane",
-      "ja": "チタンナゲット"
+      "ja": "チタンナゲット",
+      "ko": "티타늄 덩어리"
     }
   },
   {
@@ -6943,7 +7399,8 @@
       "de": "Titan-Pugiones",
       "en": "Titanium Pugiones",
       "fr": "Pugiones en titane",
-      "ja": "チタンプジオ"
+      "ja": "チタンプジオ",
+      "ko": "티타늄 푸기오"
     }
   },
   {
@@ -6957,7 +7414,8 @@
       "de": "Titan-Nieten",
       "en": "Titanium Rivets",
       "fr": "Rivets en titane",
-      "ja": "チタンリベット"
+      "ja": "チタンリベット",
+      "ko": "티타늄 이음못"
     }
   },
   {
@@ -6971,7 +7429,8 @@
       "de": "Hartsilber-Uchigatana",
       "en": "Titanium Uchigatana",
       "fr": "Uchigatana en titane",
-      "ja": "地鉄打刀"
+      "ja": "地鉄打刀",
+      "ko": "경은 타도"
     }
   },
   {
@@ -6985,7 +7444,8 @@
       "de": "Titan-Hakenbüchse",
       "en": "Titanium-barreled Arquebus",
       "fr": "Arquebuse en titane",
-      "ja": "チタンアークウィバス"
+      "ja": "チタンアークウィバス",
+      "ko": "티타늄 화승총"
     }
   },
   {
@@ -6999,7 +7459,8 @@
       "de": "Hartsilber-Dolabra",
       "en": "Hardsilver Dolabra",
       "fr": "Dolabre en durargent",
-      "ja": "ハードシルバードラブラ"
+      "ja": "ハードシルバードラブラ",
+      "ko": "경은 양날곡괭이"
     }
   },
   {
@@ -7013,7 +7474,8 @@
       "de": "Hartsilber-Säge",
       "en": "Hardsilver Saw",
       "fr": "Scie ronde en durargent",
-      "ja": "ハードシルバーソー"
+      "ja": "ハードシルバーソー",
+      "ko": "경은 톱"
     }
   },
   {
@@ -7027,7 +7489,8 @@
       "de": "Hartsilber-Stockhammer",
       "en": "Hardsilver Texture Hammer",
       "fr": "Marteau d'orfèvre en durargent",
-      "ja": "ハードシルバー・ゴールドスミスハンマー"
+      "ja": "ハードシルバー・ゴールドスミスハンマー",
+      "ko": "경은 보석공예 망치"
     }
   },
   {
@@ -7041,7 +7504,8 @@
       "de": "Titan-Schlosserhammer",
       "en": "Titanium Ball-pein Hammer",
       "fr": "Marteau à panne ronde en titane",
-      "ja": "チタンアーモラーハンマー"
+      "ja": "チタンアーモラーハンマー",
+      "ko": "티타늄 갑주망치"
     }
   },
   {
@@ -7055,7 +7519,8 @@
       "de": "Titan-Rillmesser",
       "en": "Titanium Creasing Knife",
       "fr": "Couteau de tanneur en titane",
-      "ja": "チタン・レザーワーカーナイフ"
+      "ja": "チタン・レザーワーカーナイフ",
+      "ko": "티타늄 가죽공예 칼"
     }
   },
   {
@@ -7069,7 +7534,8 @@
       "de": "Titan-Kreuzschlaghammer",
       "en": "Titanium Cross-pein Hammer",
       "fr": "Marteau à panne croisée en titane",
-      "ja": "チタン・クロスペインハンマー"
+      "ja": "チタン・クロスペインハンマー",
+      "ko": "티타늄 단조망치"
     }
   },
   {
@@ -7083,7 +7549,8 @@
       "de": "Titan-Handbeil",
       "en": "Titanium Hatchet",
       "fr": "Hachette en titane",
-      "ja": "チタンハチェット"
+      "ja": "チタンハチェット",
+      "ko": "티타늄 손도끼"
     }
   },
   {
@@ -7097,7 +7564,8 @@
       "de": "Titan-Ahle",
       "en": "Titanium Awl",
       "fr": "Alêne en titane",
-      "ja": "チタンアウル"
+      "ja": "チタンアウル",
+      "ko": "티타늄 목타"
     }
   },
   {
@@ -7111,7 +7579,8 @@
       "de": "Titan-Klauenhammer",
       "en": "Titanium Claw Hammer",
       "fr": "Marteau arrache-clou en titane",
-      "ja": "チタンクローハンマー"
+      "ja": "チタンクローハンマー",
+      "ko": "티타늄 장도리"
     }
   },
   {
@@ -7125,7 +7594,8 @@
       "de": "Titan-Küchenmesser",
       "en": "Titanium Culinary Knife",
       "fr": "Couteau de cuisine en titane",
-      "ja": "チタンクリナリーナイフ"
+      "ja": "チタンクリナリーナイフ",
+      "ko": "티타늄 요리칼"
     }
   },
   {
@@ -7139,7 +7609,8 @@
       "de": "Titan-Feile",
       "en": "Titanium File",
       "fr": "Lime en titane",
-      "ja": "チタンファイル"
+      "ja": "チタンファイル",
+      "ko": "티타늄 줄판"
     }
   },
   {
@@ -7153,7 +7624,8 @@
       "de": "Titan-Barren",
       "en": "Titanium Ingot",
       "fr": "Lingot de titane",
-      "ja": "チタンインゴット"
+      "ja": "チタンインゴット",
+      "ko": "티타늄 주괴"
     }
   },
   {
@@ -7167,7 +7639,8 @@
       "de": "Titan-Mörser",
       "en": "Titanium Mortar",
       "fr": "Mortier en titane",
-      "ja": "チタンモーター"
+      "ja": "チタンモーター",
+      "ko": "티타늄 약연"
     }
   },
   {
@@ -7181,7 +7654,8 @@
       "de": "Titanzange",
       "en": "Titanium Pliers",
       "fr": "Tenailles en titane",
-      "ja": "チタンプライヤー"
+      "ja": "チタンプライヤー",
+      "ko": "티타늄 플라이어"
     }
   },
   {
@@ -7195,7 +7669,8 @@
       "de": "Titan-Sense",
       "en": "Titanium Scythe",
       "fr": "Faux en titane",
-      "ja": "チタンサイズ"
+      "ja": "チタンサイズ",
+      "ko": "티타늄 큰낫"
     }
   },
   {
@@ -7209,7 +7684,8 @@
       "de": "Titan-Vorschlaghammer",
       "en": "Titanium Sledgehammer",
       "fr": "Maillet en titane",
-      "ja": "チタンモール"
+      "ja": "チタンモール",
+      "ko": "티타늄 채굴망치"
     }
   },
   {
@@ -7223,7 +7699,8 @@
       "de": "Hartsilber-Tachi",
       "en": "Titanium Tachi",
       "fr": "Tachi en titane",
-      "ja": "地鉄太刀"
+      "ja": "地鉄太刀",
+      "ko": "경은 태도"
     }
   },
   {
@@ -7237,7 +7714,8 @@
       "de": "Ishgarder Kronleuchter",
       "en": "Alpine Chandelier",
       "fr": "Lustre ishgardais",
-      "ja": "イシュガルディアン・シャンデリア"
+      "ja": "イシュガルディアン・シャンデリア",
+      "ko": "이슈가르드 샹들리에"
     }
   },
   {
@@ -7251,7 +7729,8 @@
       "de": "Hartsilber-Handbeil",
       "en": "Hardsilver Hatchet",
       "fr": "Hachette en durargent",
-      "ja": "ハードシルバーハチェット"
+      "ja": "ハードシルバーハチェット",
+      "ko": "경은 손도끼"
     }
   },
   {
@@ -7265,7 +7744,8 @@
       "de": "Hartsilber-Juwelierhammer",
       "en": "Hardsilver Lapidary Hammer",
       "fr": "Marteau de lapidaire en durargent",
-      "ja": "ハードシルバー・ラピダリーハンマー"
+      "ja": "ハードシルバー・ラピダリーハンマー",
+      "ko": "경은 세공망치"
     }
   },
   {
@@ -7279,7 +7759,8 @@
       "de": "Hartsilber-Rundmesser",
       "en": "Hardsilver Round Knife",
       "fr": "Couteau arrondi en durargent",
-      "ja": "ハードシルバー・ラウンドナイフ"
+      "ja": "ハードシルバー・ラウンドナイフ",
+      "ko": "경은 둥근칼"
     }
   },
   {
@@ -7293,7 +7774,8 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品"
+      "ja": "近東風の蒐集品",
+      "ko": "근동풍 소장품"
     }
   },
   {
@@ -7307,7 +7789,8 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材"
+      "ja": "近東風の蒐集品部材",
+      "ko": "근동풍 소장품 부재"
     }
   },
   {
@@ -7321,7 +7804,8 @@
       "de": "Titan-Kriegsaxt",
       "en": "Titanium Battleaxe",
       "fr": "Hache de combat en titane",
-      "ja": "チタンバトルアクス"
+      "ja": "チタンバトルアクス",
+      "ko": "티타늄 전투도끼"
     }
   },
   {
@@ -7335,7 +7819,8 @@
       "de": "Titan-Großschwert",
       "en": "Titanium Greatsword",
       "fr": "Grande épée en titane",
-      "ja": "チタングレートソード"
+      "ja": "チタングレートソード",
+      "ko": "티타늄 그레이트소드"
     }
   },
   {
@@ -7349,7 +7834,8 @@
       "de": "Titan-Rundsäge",
       "en": "Titanium Halfheart Saw",
       "fr": "Scie ronde en titane",
-      "ja": "チタンラウンドソー"
+      "ja": "チタンラウンドソー",
+      "ko": "티타늄 둥근톱"
     }
   },
   {
@@ -7363,7 +7849,8 @@
       "de": "Titan-Schlagringe",
       "en": "Titanium Knuckles",
       "fr": "Poings en titane",
-      "ja": "チタンナックル"
+      "ja": "チタンナックル",
+      "ko": "티타늄 너클"
     }
   },
   {
@@ -7377,7 +7864,8 @@
       "de": "Titan-Krise",
       "en": "Titanium Kris",
       "fr": "Kriss en titane",
-      "ja": "チタンクリス"
+      "ja": "チタンクリス",
+      "ko": "티타늄 쌍검"
     }
   },
   {
@@ -7391,7 +7879,8 @@
       "de": "Titan-Langschwert",
       "en": "Titanium Longsword",
       "fr": "Épée longue en titane",
-      "ja": "チタンロングソード"
+      "ja": "チタンロングソード",
+      "ko": "티타늄 롱소드"
     }
   },
   {
@@ -7405,7 +7894,8 @@
       "de": "Titan-Schlägel",
       "en": "Titanium Lump Hammer",
       "fr": "Massette en titane",
-      "ja": "チタンランプハンマー"
+      "ja": "チタンランプハンマー",
+      "ko": "티타늄 중형망치"
     }
   },
   {
@@ -7419,7 +7909,8 @@
       "de": "Titan-Spitzhacke",
       "en": "Titanium Pickaxe",
       "fr": "Pioche en titane",
-      "ja": "チタンピック"
+      "ja": "チタンピック",
+      "ko": "티타늄 곡괭이"
     }
   },
   {
@@ -7433,7 +7924,8 @@
       "de": "Titan-Schlichthammer",
       "en": "Titanium Raising Hammer",
       "fr": "Marteau de batteur en titane",
-      "ja": "チタンレイジングハンマー"
+      "ja": "チタンレイジングハンマー",
+      "ko": "티타늄 돋을무늬 망치"
     }
   },
   {
@@ -7447,7 +7939,8 @@
       "de": "Titan-Pistole",
       "en": "Titanium-barreled Snaphance",
       "fr": "Fusil à silex en titane",
-      "ja": "チタンスナップハンス"
+      "ja": "チタンスナップハンス",
+      "ko": "티타늄 뇌관총"
     }
   },
   {
@@ -7461,7 +7954,8 @@
       "de": "Adamantium-Hippe",
       "en": "Adamantite Bill",
       "fr": "Vouge en adamantium",
-      "ja": "アダマンビル"
+      "ja": "アダマンビル",
+      "ko": "아다만 낫도끼"
     }
   },
   {
@@ -7475,7 +7969,8 @@
       "de": "Adamantium-Breitschwert",
       "en": "Adamantite Broadsword",
       "fr": "Épée large en adamantium",
-      "ja": "アダマンブロードソード"
+      "ja": "アダマンブロードソード",
+      "ko": "아다만 브로드소드"
     }
   },
   {
@@ -7489,7 +7984,8 @@
       "de": "Adamantium-Jamadhars",
       "en": "Adamantite Jamadhars",
       "fr": "Jamadhars en adamantium",
-      "ja": "アダマンジャマダル"
+      "ja": "アダマンジャマダル",
+      "ko": "아다만 자마다르"
     }
   },
   {
@@ -7503,7 +7999,8 @@
       "de": "Adamantium-Messer",
       "en": "Adamantite Knives",
       "fr": "Couteaux en adamantium",
-      "ja": "アダマンナイフ"
+      "ja": "アダマンナイフ",
+      "ko": "아다만 나이프"
     }
   },
   {
@@ -7517,7 +8014,8 @@
       "de": "Adamantium-Nugget",
       "en": "Adamantite Nugget",
       "fr": "Pépite d'adamant",
-      "ja": "アダマンナゲット"
+      "ja": "アダマンナゲット",
+      "ko": "아다만 덩어리"
     }
   },
   {
@@ -7531,7 +8029,8 @@
       "de": "Adamantium-Revolver",
       "en": "Adamantite Revolver",
       "fr": "Revolver en adamantium",
-      "ja": "アダマンリボルバー"
+      "ja": "アダマンリボルバー",
+      "ko": "아다만 연발권총"
     }
   },
   {
@@ -7545,7 +8044,8 @@
       "de": "Adamantium-Nieten",
       "en": "Adamantite Rivets",
       "fr": "Rivets en adamantium",
-      "ja": "アダマンリベット"
+      "ja": "アダマンリベット",
+      "ko": "아다만 이음못"
     }
   },
   {
@@ -7559,7 +8059,8 @@
       "de": "Königsgold-Uchigatana",
       "en": "Adamantite Uchigatana",
       "fr": "Uchigatana en adamantium",
-      "ja": "金剛打刀"
+      "ja": "金剛打刀",
+      "ko": "황제금 타도"
     }
   },
   {
@@ -7573,7 +8074,8 @@
       "de": "Adamantium-Zweihänder",
       "en": "Adamantite Zweihander",
       "fr": "Espadon en adamantium",
-      "ja": "アダマンツヴァイハンダー"
+      "ja": "アダマンツヴァイハンダー",
+      "ko": "아다만 양손검"
     }
   },
   {
@@ -7587,7 +8089,8 @@
       "de": "Coerthisches Souvenir",
       "en": "Coerthan Souvenir",
       "fr": "Souvenir du Coerthas",
-      "ja": "寒冷地の名産品"
+      "ja": "寒冷地の名産品",
+      "ko": "한랭지 특산품"
     }
   },
   {
@@ -7601,7 +8104,8 @@
       "de": "Komponente eines coerthischen Souvenirs",
       "en": "Coerthan Souvenir Component",
       "fr": "Composant de souvenir du Coerthas",
-      "ja": "寒冷地の名産品部材"
+      "ja": "寒冷地の名産品部材",
+      "ko": "한랭지 특산품 부재"
     }
   },
   {
@@ -7615,7 +8119,8 @@
       "de": "Adamantium-Ahle",
       "en": "Adamantite Awl",
       "fr": "Alêne en adamantium",
-      "ja": "アダマンアウル"
+      "ja": "アダマンアウル",
+      "ko": "아다만 목타"
     }
   },
   {
@@ -7629,7 +8134,8 @@
       "de": "Adamantium-Klauenhammer",
       "en": "Adamantite Claw Hammer",
       "fr": "Marteau arrache-clou en adamantium",
-      "ja": "アダマンクローハンマー"
+      "ja": "アダマンクローハンマー",
+      "ko": "아다만 장도리"
     }
   },
   {
@@ -7643,7 +8149,8 @@
       "de": "Adamantium-Küchenmesser",
       "en": "Adamantite Culinary Knife",
       "fr": "Couteau de cuisine en adamantium",
-      "ja": "アダマンクリナリーナイフ"
+      "ja": "アダマンクリナリーナイフ",
+      "ko": "아다만 요리칼"
     }
   },
   {
@@ -7657,7 +8164,8 @@
       "de": "Adamantium-Feile",
       "en": "Adamantite File",
       "fr": "Lime en adamantium",
-      "ja": "アダマンファイル"
+      "ja": "アダマンファイル",
+      "ko": "아다만 줄판"
     }
   },
   {
@@ -7671,7 +8179,8 @@
       "de": "Adamantium-Mörser",
       "en": "Adamantite Mortar",
       "fr": "Mortier en adamantium",
-      "ja": "アダマンモーター"
+      "ja": "アダマンモーター",
+      "ko": "아다만 약연"
     }
   },
   {
@@ -7685,7 +8194,8 @@
       "de": "Adamantiumzange",
       "en": "Adamantite Pliers",
       "fr": "Tenailles en adamantium",
-      "ja": "アダマンプライヤー"
+      "ja": "アダマンプライヤー",
+      "ko": "아다만 플라이어"
     }
   },
   {
@@ -7699,7 +8209,8 @@
       "de": "Adamantium-Sense",
       "en": "Adamantite Scythe",
       "fr": "Faux en adamantium",
-      "ja": "アダマンサイズ"
+      "ja": "アダマンサイズ",
+      "ko": "아다만 큰낫"
     }
   },
   {
@@ -7713,7 +8224,8 @@
       "de": "Adamantium-Vorschlaghammer",
       "en": "Adamantite Sledgehammer",
       "fr": "Maillet en adamantium",
-      "ja": "アダマンモール"
+      "ja": "アダマンモール",
+      "ko": "아다만 채굴망치"
     }
   },
   {
@@ -7727,7 +8239,8 @@
       "de": "Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel",
       "fr": "Équipement militaire du Maelstrom",
-      "ja": "黒渦団の軍需品"
+      "ja": "黒渦団の軍需品",
+      "ko": "흑와단 군수품"
     }
   },
   {
@@ -7741,7 +8254,8 @@
       "de": "Komponente eines Stücks Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel Component",
       "fr": "Composant d'équipement militaire du Maelstrom",
-      "ja": "黒渦団の軍需品部材"
+      "ja": "黒渦団の軍需品部材",
+      "ko": "흑와단 군수품 부재"
     }
   },
   {
@@ -7755,7 +8269,8 @@
       "de": "Adamantium-Schlosserhammer",
       "en": "Adamantite Ball-pein Hammer",
       "fr": "Marteau à panne ronde en adamantium",
-      "ja": "アダマンアーモラーハンマー"
+      "ja": "アダマンアーモラーハンマー",
+      "ko": "아다만 갑주망치"
     }
   },
   {
@@ -7769,7 +8284,8 @@
       "de": "Adamantium-Kreuzschlaghammer",
       "en": "Adamantite Cross-pein Hammer",
       "fr": "Marteau à panne croisée en adamantium",
-      "ja": "アダマン・クロスペインハンマー"
+      "ja": "アダマン・クロスペインハンマー",
+      "ko": "아다만 단조망치"
     }
   },
   {
@@ -7783,7 +8299,8 @@
       "de": "Adamantium-Dolabra",
       "en": "Adamantite Dolabra",
       "fr": "Dolabre en adamantium",
-      "ja": "アダマンドラブラ"
+      "ja": "アダマンドラブラ",
+      "ko": "아다만 양날곡괭이"
     }
   },
   {
@@ -7797,7 +8314,8 @@
       "de": "Adamantium-Großschwert",
       "en": "Adamantite Greatsword",
       "fr": "Grande épée en adamantium",
-      "ja": "アダマングレートソード"
+      "ja": "アダマングレートソード",
+      "ko": "아다만 그레이트소드"
     }
   },
   {
@@ -7811,7 +8329,8 @@
       "de": "Adamantium-Handbeil",
       "en": "Adamantite Hatchet",
       "fr": "Hachette en adamantium",
-      "ja": "アダマンハチェット"
+      "ja": "アダマンハチェット",
+      "ko": "아다만 손도끼"
     }
   },
   {
@@ -7825,7 +8344,8 @@
       "de": "Adamantium-Henkersaxt",
       "en": "Adamantite Headsman's Axe",
       "fr": "Hache de bourreau en adamantium",
-      "ja": "アダマンヘッズマンアクス"
+      "ja": "アダマンヘッズマンアクス",
+      "ko": "아다만 참수도끼"
     }
   },
   {
@@ -7839,7 +8359,8 @@
       "de": "Adamantium-Schlagringe",
       "en": "Adamantite Knuckles",
       "fr": "Poings en adamantium",
-      "ja": "アダマンナックル"
+      "ja": "アダマンナックル",
+      "ko": "아다만 너클"
     }
   },
   {
@@ -7853,7 +8374,8 @@
       "de": "Adamantium-Parierdolche",
       "en": "Adamantite Main Gauches",
       "fr": "Mains-gauches en adamantium",
-      "ja": "アダマンマインゴーシュ"
+      "ja": "アダマンマインゴーシュ",
+      "ko": "아다만 맹고쉬"
     }
   },
   {
@@ -7867,7 +8389,8 @@
       "de": "Adamantium-Säge",
       "en": "Adamantite Saw",
       "fr": "Scie ronde en adamantium",
-      "ja": "アダマンソー"
+      "ja": "アダマンソー",
+      "ko": "아다만 톱"
     }
   },
   {
@@ -7881,7 +8404,8 @@
       "de": "Adamantium-Zeremonialschwert",
       "en": "Adamantite Winglet",
       "fr": "Espafut en adamantium",
-      "ja": "アダマンウィングレット"
+      "ja": "アダマンウィングレット",
+      "ko": "아다만 날개검"
     }
   },
   {
@@ -7895,7 +8419,8 @@
       "de": "Adamantium-Kalverine",
       "en": "Adamantite-barreled Culverin",
       "fr": "Couleuvrine en adamantium",
-      "ja": "アダマンカルバリン"
+      "ja": "アダマンカルバリン",
+      "ko": "아다만 포총"
     }
   },
   {
@@ -7909,7 +8434,8 @@
       "de": "Königsgold-Rillmesser",
       "en": "Aurum Regis Creasing Knife",
       "fr": "Couteau de tanneur en aurum regis",
-      "ja": "オーラムレギス・レザーワーカーナイフ"
+      "ja": "オーラムレギス・レザーワーカーナイフ",
+      "ko": "황제금 가죽공예 칼"
     }
   },
   {
@@ -7923,7 +8449,8 @@
       "de": "Königsgold-Stockhammer",
       "en": "Aurum Regis Texture Hammer",
       "fr": "Marteau d'orfèvre en aurum regis",
-      "ja": "オーラムレギス・ゴールドスミスハンマー"
+      "ja": "オーラムレギス・ゴールドスミスハンマー",
+      "ko": "황제금 보석공예 망치"
     }
   },
   {
@@ -7937,7 +8464,8 @@
       "de": "Abanische Spezialität",
       "en": "Gyr Abanian Souvenir",
       "fr": "Souvenir de Gyr Abania",
-      "ja": "ギラバニアの名産品"
+      "ja": "ギラバニアの名産品",
+      "ko": "Gyr Abanian Souvenir"
     }
   },
   {
@@ -7951,7 +8479,8 @@
       "de": "Komponente eines abanischen Souvenirs",
       "en": "Gyr Abanian Souvenir Component",
       "fr": "Composant de souvenir de Gyr Abania",
-      "ja": "ギラバニア名産品部材"
+      "ja": "ギラバニア名産品部材",
+      "ko": "Gyr Abanian Souvenir Component"
     }
   },
   {
@@ -7965,7 +8494,8 @@
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
       "fr": "Cadeau attentionné",
-      "ja": "心尽くしの贈答品"
+      "ja": "心尽くしの贈答品",
+      "ko": "정성이 가득한 선물"
     }
   },
   {
@@ -7979,7 +8509,8 @@
       "de": "Komponente eines innigen Geschenks",
       "en": "Heartfelt Gift Component",
       "fr": "Composant de cadeau attentionné",
-      "ja": "心尽くしの贈答品部材"
+      "ja": "心尽くしの贈答品部材",
+      "ko": "정성이 가득한 선물 부재"
     }
   },
   {
@@ -7993,7 +8524,8 @@
       "de": "Adamantium-Franziska",
       "en": "Adamantite Francesca",
       "fr": "Francisque en adamantium",
-      "ja": "アダマンフランシスカ"
+      "ja": "アダマンフランシスカ",
+      "ko": "아다만 투척도끼"
     },
     "stars": 1
   },
@@ -8008,7 +8540,8 @@
       "de": "Kristallglocke",
       "en": "Crystal Bell",
       "fr": "Sonnette de l'esthéticien",
-      "ja": "美容師の呼び鈴"
+      "ja": "美容師の呼び鈴",
+      "ko": "미용사 호출 초인종"
     },
     "stars": 1
   },
@@ -8023,7 +8556,8 @@
       "de": "Fernöstliche Kuriosität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品"
+      "ja": "東方風の蒐集品",
+      "ko": "Far Eastern Antique"
     },
     "stars": 1
   },
@@ -8038,7 +8572,8 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材"
+      "ja": "東方風の蒐集品部材",
+      "ko": "Far Eastern Antique Component"
     },
     "stars": 1
   },
@@ -8053,7 +8588,8 @@
       "de": "Waisenhaus-Spende",
       "en": "Orphanage Donation",
       "fr": "Article quotidien d'orphelinat",
-      "ja": "孤児院の日用品"
+      "ja": "孤児院の日用品",
+      "ko": "고아원 일용품"
     },
     "stars": 1
   },
@@ -8068,7 +8604,8 @@
       "de": "Komponente einer Waisenhaus-Spende",
       "en": "Orphanage Donation Component",
       "fr": "Composant d'article pour orphelinat",
-      "ja": "孤児院の日用品部材"
+      "ja": "孤児院の日用品部材",
+      "ko": "고아원 일용품 부재"
     },
     "stars": 1
   },
@@ -8083,7 +8620,8 @@
       "de": "Titanlegierungs-Barren",
       "en": "Titanium Alloy Ingot",
       "fr": "Lingot d'alliage de titane",
-      "ja": "チタンアロイインゴット"
+      "ja": "チタンアロイインゴット",
+      "ko": "티타늄 합금 주괴"
     },
     "stars": 1
   },
@@ -8098,7 +8636,8 @@
       "de": "Adamantium-Barren",
       "en": "Adamantite Ingot",
       "fr": "Lingot d'adamant",
-      "ja": "アダマンインゴット"
+      "ja": "アダマンインゴット",
+      "ko": "아다만 주괴"
     },
     "stars": 2
   },
@@ -8113,12 +8652,12 @@
       "de": "Ausbalancierte Adamantium-Sense",
       "en": "Balanced Adamantite Scythe",
       "fr": "Faux en adamantium renforcée",
-      "ja": "アダマンサイズDX"
+      "ja": "アダマンサイズDX",
+      "ko": "강화 아다만 큰낫"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8129,12 +8668,12 @@
       "de": "Kriegsaxt der Kolonie",
       "en": "Dead Hive Battleaxe",
       "fr": "Hache de combat du Maître des lames",
-      "ja": "ハイヴバトルアクス"
+      "ja": "ハイヴバトルアクス",
+      "ko": "군락의 전투도끼"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8145,12 +8684,12 @@
       "de": "Klauen der Kolonie",
       "en": "Dead Hive Claws",
       "fr": "Griffes du Maître des lames",
-      "ja": "ハイヴクロー"
+      "ja": "ハイヴクロー",
+      "ko": "군락의 서슬발톱"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8161,12 +8700,12 @@
       "de": "Claymore der Kolonie",
       "en": "Dead Hive Claymore",
       "fr": "Claymore du Maître des lames",
-      "ja": "ハイヴクレイモア"
+      "ja": "ハイヴクレイモア",
+      "ko": "군락의 클레이모어"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8177,12 +8716,12 @@
       "de": "Katana der Kolonie",
       "en": "Dead Hive Katana",
       "fr": "Katana du Maître des lames",
-      "ja": "武神刀【改】"
+      "ja": "武神刀【改】",
+      "ko": "군락의 외날검"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8193,12 +8732,12 @@
       "de": "Krise der Kolonie",
       "en": "Dead Hive Kris",
       "fr": "Kriss du Maître des lames",
-      "ja": "ハイヴクリス"
+      "ja": "ハイヴクリス",
+      "ko": "군락의 쌍검"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8209,12 +8748,12 @@
       "de": "Muskete der Kolonie",
       "en": "Dead Hive Musketoon",
       "fr": "Mousqueton du Maître des lames",
-      "ja": "ハイヴマスケトン"
+      "ja": "ハイヴマスケトン",
+      "ko": "군락의 단총"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8225,7 +8764,8 @@
       "de": "Shamshir der Kolonie",
       "en": "Dead Hive Shamshir",
       "fr": "Shamshir du Maître des lames",
-      "ja": "ハイヴシャムシール"
+      "ja": "ハイヴシャムシール",
+      "ko": "군락의 샴시르"
     },
     "stars": 2
   },
@@ -8240,12 +8780,12 @@
       "de": "Verstärkte Adamantiumzange",
       "en": "Double-jointed Adamantite Pliers",
       "fr": "Tenailles en adamantium renforcées",
-      "ja": "アダマンプライヤーDX"
+      "ja": "アダマンプライヤーDX",
+      "ko": "강화 아다만 플라이어"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8256,12 +8796,12 @@
       "de": "Kampfaxt der endlosen Weiten",
       "en": "Endless Expanse Battleaxe",
       "fr": "Hache du Migrateur",
-      "ja": "エクスパンスバトルアクス"
+      "ja": "エクスパンスバトルアクス",
+      "ko": "쪽빛하늘 전투도끼"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8272,12 +8812,12 @@
       "de": "Großschwert der endlosen Weiten",
       "en": "Endless Expanse Greatsword",
       "fr": "Grande épée du Migrateur",
-      "ja": "エクスパンスグレートソード"
+      "ja": "エクスパンスグレートソード",
+      "ko": "쪽빛하늘 그레이트소드"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8288,12 +8828,12 @@
       "de": "Donnerbüchse der endlosen Weiten",
       "en": "Endless Expanse Handgonne",
       "fr": "Haquebute du Migrateur",
-      "ja": "エクスパンスハンドゴンネ"
+      "ja": "エクスパンスハンドゴンネ",
+      "ko": "쪽빛하늘 권총"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8304,12 +8844,12 @@
       "de": "Katana der endlosen Weiten",
       "en": "Endless Expanse Katana",
       "fr": "Katana du Migrateur",
-      "ja": "雲神刀【改】"
+      "ja": "雲神刀【改】",
+      "ko": "쪽빛하늘 외날검"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8320,12 +8860,12 @@
       "de": "Macheten der endlosen Weiten",
       "en": "Endless Expanse Machetes",
       "fr": "Machettes du Migrateur",
-      "ja": "エクスパンスマチェット"
+      "ja": "エクスパンスマチェット",
+      "ko": "쪽빛하늘 마체테"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8336,12 +8876,12 @@
       "de": "Patas der endlosen Weiten",
       "en": "Endless Expanse Patas",
       "fr": "Patas du Migrateur",
-      "ja": "エクスパンスパタ"
+      "ja": "エクスパンスパタ",
+      "ko": "쪽빛하늘 파타"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8352,7 +8892,8 @@
       "de": "Schwert der endlosen Weiten",
       "en": "Endless Expanse Sword",
       "fr": "Épée du Migrateur",
-      "ja": "エクスパンスソード"
+      "ja": "エクスパンスソード",
+      "ko": "쪽빛하늘 검"
     },
     "stars": 2
   },
@@ -8367,7 +8908,8 @@
       "de": "Waffenschmiedemeister-Hammer",
       "en": "Forgemaster's Hammer",
       "fr": "Marteau d'expert de la forge",
-      "ja": "フォージマスターハンマー"
+      "ja": "フォージマスターハンマー",
+      "ko": "제련소장 단조망치"
     },
     "stars": 2
   },
@@ -8382,7 +8924,8 @@
       "de": "Verstärkter Klauenhammer",
       "en": "Fortified Claw Hammer",
       "fr": "Marteau arrache-clou en adamantium renforcé",
-      "ja": "アダマンクローハンマーDX"
+      "ja": "アダマンクローハンマーDX",
+      "ko": "강화 아다만 장도리"
     },
     "stars": 2
   },
@@ -8397,7 +8940,8 @@
       "de": "Verzinkter Garlond-Stahl",
       "en": "Galvanized Garlond Steel",
       "fr": "Acier de Garlond galvanisé",
-      "ja": "超硬ガーロンド鋼"
+      "ja": "超硬ガーロンド鋼",
+      "ko": "초경도 갈론드강"
     },
     "stars": 2
   },
@@ -8412,7 +8956,8 @@
       "de": "Kunstschmiedemeister-Fäustel",
       "en": "Gemmaster's Mallet",
       "fr": "Massette d'expert des gemmes",
-      "ja": "ジェムマスターマレット"
+      "ja": "ジェムマスターマレット",
+      "ko": "보석공방장 세공망치"
     },
     "stars": 2
   },
@@ -8427,7 +8972,8 @@
       "de": "Gubal-Standleuchte",
       "en": "Great Gubal Floor Lamp",
       "fr": "Lampadaire de Gubal",
-      "ja": "グブラフロアランプ"
+      "ja": "グブラフロアランプ",
+      "ko": "구브라 조명등"
     },
     "stars": 2
   },
@@ -8442,7 +8988,8 @@
       "de": "Rüstungsschmiedemeister-Treibhammer",
       "en": "Hammermaster's Beetle",
       "fr": "Mailloche d'expert de la fonderie",
-      "ja": "ハンマーマスターハンマー"
+      "ja": "ハンマーマスターハンマー",
+      "ko": "갑주공방장 판금망치"
     },
     "stars": 2
   },
@@ -8457,7 +9004,8 @@
       "de": "Schwerer Adamantium-Mörser",
       "en": "Heavy Adamantite Mortar",
       "fr": "Mortier en adamantium renforcé",
-      "ja": "アダマンモーターDX"
+      "ja": "アダマンモーターDX",
+      "ko": "강화 아다만 약연"
     },
     "stars": 2
   },
@@ -8472,7 +9020,8 @@
       "de": "Lederermeister-Messer",
       "en": "Hidemaster's Knife",
       "fr": "Couteau d'expert de la peausserie",
-      "ja": "ハイドマスターナイフ"
+      "ja": "ハイドマスターナイフ",
+      "ko": "가죽공방장 가죽칼"
     },
     "stars": 2
   },
@@ -8487,7 +9036,8 @@
       "de": "Edelmythrit-Nugget",
       "en": "High Mythrite Nugget",
       "fr": "Pépite de mithrite noble",
-      "ja": "ハイミスライトナゲット"
+      "ja": "ハイミスライトナゲット",
+      "ko": "루미스라이트 덩어리"
     },
     "stars": 2
   },
@@ -8502,7 +9052,8 @@
       "de": "Marionettenlampe",
       "en": "Mammet Lantern",
       "fr": "Lanterne pantin",
-      "ja": "マメットランタン"
+      "ja": "マメットランタン",
+      "ko": "자동인형 램프"
     },
     "stars": 2
   },
@@ -8517,7 +9068,8 @@
       "de": "Schreinermeister-Säge",
       "en": "Millmaster's Saw",
       "fr": "Scie d'expert de l'établi",
-      "ja": "ミルマスターソー"
+      "ja": "ミルマスターソー",
+      "ko": "제재소장 톱"
     },
     "stars": 2
   },
@@ -8532,7 +9084,8 @@
       "de": "Polierte Adamantium-Feile",
       "en": "Polished Adamantite File",
       "fr": "Lime en adamantium renforcée",
-      "ja": "アダマンファイルDX"
+      "ja": "アダマンファイルDX",
+      "ko": "강화 아다만 줄판"
     },
     "stars": 2
   },
@@ -8547,7 +9100,8 @@
       "de": "Pudding-Lampe",
       "en": "Pudding Floor Lamp",
       "fr": "Lampe pudding",
-      "ja": "プリンフロアランプ"
+      "ja": "プリンフロアランプ",
+      "ko": "푸딩 조명등"
     },
     "stars": 2
   },
@@ -8562,7 +9116,8 @@
       "de": "Spitze Adamantium-Ahle",
       "en": "Sharpened Adamantite Awl",
       "fr": "Alêne en adamantium renforcée",
-      "ja": "アダマンアウルDX"
+      "ja": "アダマンアウルDX",
+      "ko": "강화 아다만 목타"
     },
     "stars": 2
   },
@@ -8577,7 +9132,8 @@
       "de": "Schwerer Adamantium-Vorschlaghammer",
       "en": "Weighted Adamantite Sledgehammer",
       "fr": "Maillet en adamantium renforcé",
-      "ja": "アダマンモールDX"
+      "ja": "アダマンモールDX",
+      "ko": "강화 아다만 채굴망치"
     },
     "stars": 2
   },
@@ -8592,7 +9148,8 @@
       "de": "Umwickeltes Adamantium-Küchenmesser",
       "en": "Wrapped Adamantite Culinary Knife",
       "fr": "Couteau de cuisine en adamantium renforcé",
-      "ja": "アダマンクリナリーナイフDX"
+      "ja": "アダマンクリナリーナイフDX",
+      "ko": "강화 아다만 요리칼"
     },
     "stars": 2
   },
@@ -8607,7 +9164,8 @@
       "de": "Axt des Baumgottes",
       "en": "Axe of the Fiend",
       "fr": "Hache du Fiélon",
-      "ja": "アクス・オブ・フィーンド"
+      "ja": "アクス・オブ・フィーンド",
+      "ko": "Axe of the Fiend"
     },
     "stars": 3
   },
@@ -8622,7 +9180,8 @@
       "de": "Axt der Runde",
       "en": "Axe of the Round",
       "fr": "Hache de la Table ronde",
-      "ja": "アクス・オブ・ラウンド"
+      "ja": "アクス・オブ・ラウンド",
+      "ko": "기사신의 도끼"
     },
     "stars": 3
   },
@@ -8637,7 +9196,8 @@
       "de": "Klinge des Baumgottes",
       "en": "Blade of the Fiend",
       "fr": "Épée du Fiélon",
-      "ja": "ブレード・オブ・フィーンド"
+      "ja": "ブレード・オブ・フィーンド",
+      "ko": "Blade of the Fiend"
     },
     "stars": 3
   },
@@ -8652,7 +9212,8 @@
       "de": "Claymore der Runde",
       "en": "Claymore of the Round",
       "fr": "Claymore de la Table ronde",
-      "ja": "クレイモア・オブ・ラウンド"
+      "ja": "クレイモア・オブ・ラウンド",
+      "ko": "기사신의 클레이모어"
     },
     "stars": 3
   },
@@ -8667,7 +9228,8 @@
       "de": "Wolken-Mithril-Barren",
       "en": "Cloud Mythril Ingot",
       "fr": "Lingot de mithril céleste",
-      "ja": "クラウドミスリルインゴット"
+      "ja": "クラウドミスリルインゴット",
+      "ko": "구름미스릴 주괴"
     },
     "stars": 3
   },
@@ -8682,7 +9244,8 @@
       "de": "Dolche der Runde",
       "en": "Daggers of the Round",
       "fr": "Dagues de la Table ronde",
-      "ja": "ダガー・オブ・ラウンド"
+      "ja": "ダガー・オブ・ラウンド",
+      "ko": "기사신의 단검"
     },
     "stars": 3
   },
@@ -8697,7 +9260,8 @@
       "de": "Stock des Baumgottes",
       "en": "Edge of the Fiend",
       "fr": "Grande épée du Fiélon",
-      "ja": "エッジ・オブ・フィーンド"
+      "ja": "エッジ・オブ・フィーンド",
+      "ko": "Edge of the Fiend"
     },
     "stars": 3
   },
@@ -8712,7 +9276,8 @@
       "de": "Ikoneneisen-Juwelierhammer",
       "en": "Eikon Iron Lapidary Hammer",
       "fr": "Marteau de lapidaire en fer primordial",
-      "ja": "イコンアロイ・ラピダリーハンマー"
+      "ja": "イコンアロイ・ラピダリーハンマー",
+      "ko": "야만신 합금 세공망치"
     },
     "stars": 3
   },
@@ -8727,7 +9292,8 @@
       "de": "Stab des Baumgottes",
       "en": "Fire of the Fiend",
       "fr": "Feu du Fiélon",
-      "ja": "ファイア・オブ・フィーンド"
+      "ja": "ファイア・オブ・フィーンド",
+      "ko": "Fire of the Fiend"
     },
     "stars": 3
   },
@@ -8742,7 +9308,8 @@
       "de": "Muskete der Runde",
       "en": "Fire of the Round",
       "fr": "Feu de la Table ronde",
-      "ja": "ファイア・オブ・ラウンド"
+      "ja": "ファイア・オブ・ラウンド",
+      "ko": "기사신의 총"
     },
     "stars": 3
   },
@@ -8757,7 +9324,8 @@
       "de": "Fäuste des Baumgottes",
       "en": "Fists of the Fiend",
       "fr": "Poings du Fiélon",
-      "ja": "フィスト・オブ・フィーンド"
+      "ja": "フィスト・オブ・フィーンド",
+      "ko": "Fists of the Fiend"
     },
     "stars": 3
   },
@@ -8772,7 +9340,8 @@
       "de": "Edelmythrit-Ahle",
       "en": "High Mythrite Awl",
       "fr": "Alêne en mithrite noble",
-      "ja": "ハイミスライトアウル"
+      "ja": "ハイミスライトアウル",
+      "ko": "루미스라이트 목타"
     },
     "stars": 3
   },
@@ -8787,7 +9356,8 @@
       "de": "Edelmythrit-Klauenhammer",
       "en": "High Mythrite Claw Hammer",
       "fr": "Marteau arrache-clou en mithrite noble",
-      "ja": "ハイミスライト・クローハンマー"
+      "ja": "ハイミスライト・クローハンマー",
+      "ko": "루미스라이트 장도리"
     },
     "stars": 3
   },
@@ -8802,7 +9372,8 @@
       "de": "Edelmythrit-Kreuzschlaghammer",
       "en": "High Mythrite Cross-pein Hammer",
       "fr": "Marteau à panne croisée en mithrite noble",
-      "ja": "ハイミスライト・クロスペインハンマー"
+      "ja": "ハイミスライト・クロスペインハンマー",
+      "ko": "루미스라이트 단조망치"
     },
     "stars": 3
   },
@@ -8817,7 +9388,8 @@
       "de": "Edelmythrit-Küchenmesser",
       "en": "High Mythrite Culinary Knife",
       "fr": "Couteau de cuisine en mithrite noble",
-      "ja": "ハイミスライトクリナリーナイフ"
+      "ja": "ハイミスライトクリナリーナイフ",
+      "ko": "루미스라이트 요리칼"
     },
     "stars": 3
   },
@@ -8832,7 +9404,8 @@
       "de": "Edelmythrit-Feile",
       "en": "High Mythrite File",
       "fr": "Lime en mithrite noble",
-      "ja": "ハイミスライトファイル"
+      "ja": "ハイミスライトファイル",
+      "ko": "루미스라이트 줄판"
     },
     "stars": 3
   },
@@ -8847,7 +9420,8 @@
       "de": "Edelmythrit-Handbeil",
       "en": "High Mythrite Hatchet",
       "fr": "Hachette en mithrite noble",
-      "ja": "ハイミスライトハチェット"
+      "ja": "ハイミスライトハチェット",
+      "ko": "루미스라이트 손도끼"
     },
     "stars": 3
   },
@@ -8862,7 +9436,8 @@
       "de": "Edelmythritbarren",
       "en": "High Mythrite Ingot",
       "fr": "Lingot de mithrite noble",
-      "ja": "ハイミスライトインゴット"
+      "ja": "ハイミスライトインゴット",
+      "ko": "루미스라이트 주괴"
     },
     "stars": 3
   },
@@ -8877,7 +9452,8 @@
       "de": "Edelmythrit-Mörser",
       "en": "High Mythrite Mortar",
       "fr": "Mortier en mithrite noble",
-      "ja": "ハイミスライトモーター"
+      "ja": "ハイミスライトモーター",
+      "ko": "루미스라이트 약연"
     },
     "stars": 3
   },
@@ -8892,7 +9468,8 @@
       "de": "Edelmythrit-Spitzhacke",
       "en": "High Mythrite Pickaxe",
       "fr": "Pioche en mithrite noble",
-      "ja": "ハイミスライトピック"
+      "ja": "ハイミスライトピック",
+      "ko": "루미스라이트 곡괭이"
     },
     "stars": 3
   },
@@ -8907,7 +9484,8 @@
       "de": "Edelmythrit-Zange",
       "en": "High Mythrite Pliers",
       "fr": "Tenailles en mithrite noble",
-      "ja": "ハイミスライトプライヤー"
+      "ja": "ハイミスライトプライヤー",
+      "ko": "루미스라이트 플라이어"
     },
     "stars": 3
   },
@@ -8922,7 +9500,8 @@
       "de": "Edelmythrit-Schlichthammer",
       "en": "High Mythrite Raising Hammer",
       "fr": "Marteau de batteur en mithrite noble",
-      "ja": "ハイミスライト・レイジングハンマー"
+      "ja": "ハイミスライト・レイジングハンマー",
+      "ko": "루미스라이트 돋을무늬 망치"
     },
     "stars": 3
   },
@@ -8937,7 +9516,8 @@
       "de": "Edelmythrit-Rundmesser",
       "en": "High Mythrite Round Knife",
       "fr": "Couteau arrondi en mithrite noble",
-      "ja": "ハイミスライト・ラウンドナイフ"
+      "ja": "ハイミスライト・ラウンドナイフ",
+      "ko": "루미스라이트 둥근칼"
     },
     "stars": 3
   },
@@ -8952,7 +9532,8 @@
       "de": "Edelmythrit-Säge",
       "en": "High Mythrite Saw",
       "fr": "Scie en mithrite noble",
-      "ja": "ハイミスライトソー"
+      "ja": "ハイミスライトソー",
+      "ko": "루미스라이트 톱"
     },
     "stars": 3
   },
@@ -8967,7 +9548,8 @@
       "de": "Edelmythrit-Sense",
       "en": "High Mythrite Scythe",
       "fr": "Faux en mithrite noble",
-      "ja": "ハイミスライトサイズ"
+      "ja": "ハイミスライトサイズ",
+      "ko": "루미스라이트 큰낫"
     },
     "stars": 3
   },
@@ -8982,7 +9564,8 @@
       "de": "Edelmythrit-Vorschlaghammer",
       "en": "High Mythrite Sledgehammer",
       "fr": "Maillet en mithrite noble",
-      "ja": "ハイミスライトモール"
+      "ja": "ハイミスライトモール",
+      "ko": "루미스라이트 채굴망치"
     },
     "stars": 3
   },
@@ -8997,7 +9580,8 @@
       "de": "Katana des Baumgottes",
       "en": "Katana of the Fiend",
       "fr": "Katana du Fiélon",
-      "ja": "魔神刀【改】"
+      "ja": "魔神刀【改】",
+      "ko": "Katana of the Fiend"
     },
     "stars": 3
   },
@@ -9012,7 +9596,8 @@
       "de": "Katana der Runde",
       "en": "Katana of the Round",
       "fr": "Lame de la Table ronde",
-      "ja": "円卓之剣"
+      "ja": "円卓之剣",
+      "ko": "기사신의 외날검"
     },
     "stars": 3
   },
@@ -9027,7 +9612,8 @@
       "de": "Schlagringe der Runde",
       "en": "Knuckles of the Round",
       "fr": "Poings de la Table ronde",
-      "ja": "ナックル・オブ・ラウンド"
+      "ja": "ナックル・オブ・ラウンド",
+      "ko": "기사신의 너클"
     },
     "stars": 3
   },
@@ -9042,7 +9628,8 @@
       "de": "Dolche des Baumgottes",
       "en": "Points of the Fiend",
       "fr": "Pointes du Fiélon",
-      "ja": "ポインツ・オブ・フィーンド"
+      "ja": "ポインツ・オブ・フィーンド",
+      "ko": "Points of the Fiend"
     },
     "stars": 3
   },
@@ -9057,7 +9644,8 @@
       "de": "Allagische Baghnakhs (Replik)",
       "en": "Replica Allagan Baghnakhs",
       "fr": "Répliques de baghnakhs allagois",
-      "ja": "レプリカ・アラガンバグナウ"
+      "ja": "レプリカ・アラガンバグナウ",
+      "ko": "모조 알라그 바그나크"
     },
     "stars": 3
   },
@@ -9072,7 +9660,8 @@
       "de": "Allagische Kriegsaxt (Replik)",
       "en": "Replica Allagan Battleaxe",
       "fr": "Réplique de hache de combat allagoise",
-      "ja": "レプリカ・アラガンバトルアクス"
+      "ja": "レプリカ・アラガンバトルアクス",
+      "ko": "모조 알라그 전투도끼"
     },
     "stars": 3
   },
@@ -9087,7 +9676,8 @@
       "de": "Allagische Klinge (Replik)",
       "en": "Replica Allagan Blade",
       "fr": "Réplique de lame allagoise",
-      "ja": "レプリカ・アラガンブレード"
+      "ja": "レプリカ・アラガンブレード",
+      "ko": "모조 알라그 검"
     },
     "stars": 3
   },
@@ -9102,7 +9692,8 @@
       "de": "Allagischer Kompositbogen (Replik)",
       "en": "Replica Allagan Composite Bow",
       "fr": "Réplique d'arc composite allagois",
-      "ja": "レプリカ・アラガンコンポジットボウ"
+      "ja": "レプリカ・アラガンコンポジットボウ",
+      "ko": "모조 알라그 합성궁"
     },
     "stars": 3
   },
@@ -9117,7 +9708,8 @@
       "de": "Allagische Dolche (Replik)",
       "en": "Replica Allagan Daggers",
       "fr": "Répliques de dagues allagoises",
-      "ja": "レプリカ・アラガンダガー"
+      "ja": "レプリカ・アラガンダガー",
+      "ko": "모조 알라그 단검"
     },
     "stars": 3
   },
@@ -9132,7 +9724,8 @@
       "de": "Allagische Guillotine (Replik)",
       "en": "Replica Allagan Guillotine",
       "fr": "Réplique de fendoir allagois",
-      "ja": "レプリカ・アラガン・ディバイダー"
+      "ja": "レプリカ・アラガン・ディバイダー",
+      "ko": "모조 알라그 단두검"
     },
     "stars": 3
   },
@@ -9147,7 +9740,8 @@
       "de": "Allagische Pistole (Replik)",
       "en": "Replica Allagan Pistol",
       "fr": "Réplique de pistolet allagois",
-      "ja": "レプリカ・アラガンハンドガン"
+      "ja": "レプリカ・アラガンハンドガン",
+      "ko": "모조 알라그 권총"
     },
     "stars": 3
   },
@@ -9162,7 +9756,8 @@
       "de": "Allagischer Speer (Replik)",
       "en": "Replica Allagan Spear",
       "fr": "Réplique d'hast allagois",
-      "ja": "レプリカ・アラガンスピア"
+      "ja": "レプリカ・アラガンスピア",
+      "ko": "모조 알라그 창"
     },
     "stars": 3
   },
@@ -9177,7 +9772,8 @@
       "de": "Hochallagische Baghnakhs (Replik)",
       "en": "Replica High Allagan Baghnakhs",
       "fr": "Répliques de baghnakhs haut-allagois",
-      "ja": "レプリカ・ハイアラガンバグナウ"
+      "ja": "レプリカ・ハイアラガンバグナウ",
+      "ko": "모조 상급 알라그 바그나크"
     },
     "stars": 3
   },
@@ -9192,7 +9788,8 @@
       "de": "Hochallagische Kriegsaxt (Replik)",
       "en": "Replica High Allagan Battleaxe",
       "fr": "Réplique de hache de combat haut-allagoise",
-      "ja": "レプリカ・ハイアラガン・バトルアクス"
+      "ja": "レプリカ・ハイアラガン・バトルアクス",
+      "ko": "모조 상급 알라그 전투도끼"
     },
     "stars": 3
   },
@@ -9207,7 +9804,8 @@
       "de": "Hochallagische Klinge (Replik)",
       "en": "Replica High Allagan Blade",
       "fr": "Réplique de lame haut-allagoise",
-      "ja": "レプリカ・ハイアラガンブレード"
+      "ja": "レプリカ・ハイアラガンブレード",
+      "ko": "모조 상급 알라그 검"
     },
     "stars": 3
   },
@@ -9222,7 +9820,8 @@
       "de": "Hochallagische Spalter (Replik)",
       "en": "Replica High Allagan Cleavers",
       "fr": "Répliques de couperets haut-allagois",
-      "ja": "レプリカ・ハイアラガンクリーバー"
+      "ja": "レプリカ・ハイアラガンクリーバー",
+      "ko": "모조 상급 알라그 살육도"
     },
     "stars": 3
   },
@@ -9237,7 +9836,8 @@
       "de": "Hochallagischer Kompositbogen (Replik)",
       "en": "Replica High Allagan Composite Bow",
       "fr": "Réplique d'arc composite haut-allagois",
-      "ja": "レプリカ・ハイアラガン・コンポジットボウ"
+      "ja": "レプリカ・ハイアラガン・コンポジットボウ",
+      "ko": "모조 상급 알라그 합성궁"
     },
     "stars": 3
   },
@@ -9252,7 +9852,8 @@
       "de": "Hochallagische Guillotine (Replik)",
       "en": "Replica High Allagan Guillotine",
       "fr": "Réplique de fendoir haut-allagois",
-      "ja": "レプリカ・ハイアラガン・ディバイダー"
+      "ja": "レプリカ・ハイアラガン・ディバイダー",
+      "ko": "모조 상급 알라그 단두검"
     },
     "stars": 3
   },
@@ -9267,7 +9868,8 @@
       "de": "Hochallagische Pistole (Replik)",
       "en": "Replica High Allagan Pistol",
       "fr": "Réplique de pistolet haut-allagois",
-      "ja": "レプリカ・ハイアラガンハンドガン"
+      "ja": "レプリカ・ハイアラガンハンドガン",
+      "ko": "모조 상급 알라그 권총"
     },
     "stars": 3
   },
@@ -9282,7 +9884,8 @@
       "de": "Hochallagischer Speer (Replik)",
       "en": "Replica High Allagan Spear",
       "fr": "Réplique d'hast haut-allagois",
-      "ja": "レプリカ・ハイアラガンスピア"
+      "ja": "レプリカ・ハイアラガンスピア",
+      "ko": "모조 상급 알라그 창"
     },
     "stars": 3
   },
@@ -9297,7 +9900,8 @@
       "de": "Schwert der Runde",
       "en": "Sword of the Round",
       "fr": "Épée de la Table ronde",
-      "ja": "ソード・オブ・ラウンド"
+      "ja": "ソード・オブ・ラウンド",
+      "ko": "기사신의 검"
     },
     "stars": 3
   },
@@ -9312,7 +9916,8 @@
       "de": "Schwermetall-Klauen",
       "en": "Heavy Metal Claws",
       "fr": "Griffes en alliage de tungstène",
-      "ja": "ヘヴィアロイクロー"
+      "ja": "ヘヴィアロイクロー",
+      "ko": "중합금 서슬발톱"
     },
     "stars": 4
   },
@@ -9327,7 +9932,8 @@
       "de": "Schwermetall-Kalverine",
       "en": "Heavy Metal Culverin",
       "fr": "Couleuvrine en alliage de tungstène",
-      "ja": "ヘヴィアロイカルバリン"
+      "ja": "ヘヴィアロイカルバリン",
+      "ko": "중합금 포총"
     },
     "stars": 4
   },
@@ -9342,7 +9948,8 @@
       "de": "Schwermetall-Dolche",
       "en": "Heavy Metal Daggers",
       "fr": "Dagues en alliage de tungstène",
-      "ja": "ヘヴィアロイダガー"
+      "ja": "ヘヴィアロイダガー",
+      "ko": "중합금 단검"
     },
     "stars": 4
   },
@@ -9357,7 +9964,8 @@
       "de": "Schwermetall-Großschwert",
       "en": "Heavy Metal Greatsword",
       "fr": "Grande épée en alliage de tungstène",
-      "ja": "ヘヴィアロイ・グレートソード"
+      "ja": "ヘヴィアロイ・グレートソード",
+      "ko": "중합금 그레이트소드"
     },
     "stars": 4
   },
@@ -9372,7 +9980,8 @@
       "de": "Schwermetall-Barren",
       "en": "Heavy Metal Ingot",
       "fr": "Lingot d'alliage de tungstène",
-      "ja": "ヘヴィアロイインゴット"
+      "ja": "ヘヴィアロイインゴット",
+      "ko": "중합금 주괴"
     },
     "stars": 4
   },
@@ -9387,7 +9996,8 @@
       "de": "Schwermetall-Langschwert",
       "en": "Heavy Metal Longsword",
       "fr": "Épée en alliage de tungstène",
-      "ja": "ヘヴィアロイ・ロングソード"
+      "ja": "ヘヴィアロイ・ロングソード",
+      "ko": "중합금 롱소드"
     },
     "stars": 4
   },
@@ -9402,7 +10012,8 @@
       "de": "Schwermetall-Kriegsaxt",
       "en": "Heavy Metal War Axe",
       "fr": "Hache de guerre en alliage de tungstène",
-      "ja": "ヘヴィアロイ・ウォーアクス"
+      "ja": "ヘヴィアロイ・ウォーアクス",
+      "ko": "중합금 전쟁도끼"
     },
     "stars": 4
   },
@@ -9417,7 +10028,8 @@
       "de": "Trostpreis für den Gold Saucer",
       "en": "Gold Saucer Consolation Prize",
       "fr": "Lot de consolation du Gold Saucer",
-      "ja": "ゴールドソーサーの景品"
+      "ja": "ゴールドソーサーの景品",
+      "ko": "Gold Saucer Consolation Prize"
     }
   },
   {
@@ -9431,7 +10043,8 @@
       "de": "Komponente eines Gold Saucer-Trostpreises",
       "en": "Gold Saucer Consolation Prize Component",
       "fr": "Composant de lot de consolation du Gold Saucer",
-      "ja": "ゴールドソーサーの景品部材"
+      "ja": "ゴールドソーサーの景品部材",
+      "ko": "Gold Saucer Consolation Prize Component"
     }
   },
   {
@@ -9445,7 +10058,8 @@
       "de": "Edelstahl-Kalverine",
       "en": "High Steel Culverin",
       "fr": "Couleuvrine en acier noble",
-      "ja": "ハイスチールカルバリン"
+      "ja": "ハイスチールカルバリン",
+      "ko": "경강 포총"
     }
   },
   {
@@ -9459,7 +10073,8 @@
       "de": "Edelstahl-Guillotine",
       "en": "High Steel Guillotine",
       "fr": "Fendoir en acier noble",
-      "ja": "ハイスチールディバイダー"
+      "ja": "ハイスチールディバイダー",
+      "ko": "경강 단두검"
     }
   },
   {
@@ -9473,7 +10088,8 @@
       "de": "Edelstahl-Axt",
       "en": "High Steel Headsman's Axe",
       "fr": "Hache de bourreau en acier noble",
-      "ja": "ハイスチール・ヘッズマンアクス"
+      "ja": "ハイスチール・ヘッズマンアクス",
+      "ko": "경강 참수도끼"
     }
   },
   {
@@ -9487,7 +10103,8 @@
       "de": "Edelstahl-Katzbalger",
       "en": "High Steel Katzbalger",
       "fr": "Katzbalger en acier noble",
-      "ja": "ハイスチール・カッツバルゲル"
+      "ja": "ハイスチール・カッツバルゲル",
+      "ko": "경강 카츠발게르"
     }
   },
   {
@@ -9501,7 +10118,8 @@
       "de": "Edelstahl-Schlagringe",
       "en": "High Steel Knuckles",
       "fr": "Poings en acier noble",
-      "ja": "ハイスチールナックル"
+      "ja": "ハイスチールナックル",
+      "ko": "경강 너클"
     }
   },
   {
@@ -9515,7 +10133,8 @@
       "de": "Edelstahl-Parierdolche",
       "en": "High Steel Main Gauches",
       "fr": "Mains-gauches en acier noble",
-      "ja": "ハイスチールマインゴーシュ"
+      "ja": "ハイスチールマインゴーシュ",
+      "ko": "경강 맹고쉬"
     }
   },
   {
@@ -9529,7 +10148,8 @@
       "de": "Edelstahl-Nugget",
       "en": "High Steel Nugget",
       "fr": "Pépite d'acier noble",
-      "ja": "ハイスチールナゲット"
+      "ja": "ハイスチールナゲット",
+      "ko": "경강 덩어리"
     }
   },
   {
@@ -9543,7 +10163,8 @@
       "de": "Edelstahl-Tachi",
       "en": "High Steel Tachi",
       "fr": "Tachi en acier noble",
-      "ja": "不変鋼太刀"
+      "ja": "不変鋼太刀",
+      "ko": "불변강 태도"
     }
   },
   {
@@ -9557,7 +10178,8 @@
       "de": "Edelstahl-Kreuzschlaghammer",
       "en": "High Steel Cross-pein Hammer",
       "fr": "Marteau à panne croisée en acier noble",
-      "ja": "ハイスチール・クロスペインハンマー"
+      "ja": "ハイスチール・クロスペインハンマー",
+      "ko": "경강 단조망치"
     }
   },
   {
@@ -9571,7 +10193,8 @@
       "de": "Edelstahl-Dolabra",
       "en": "High Steel Dolabra",
       "fr": "Dolabre en acier noble",
-      "ja": "ハイスチールドラブラ"
+      "ja": "ハイスチールドラブラ",
+      "ko": "경강 양날곡괭이"
     }
   },
   {
@@ -9585,7 +10208,8 @@
       "de": "Edelstahl-Flachhammer",
       "en": "High Steel Doming Hammer",
       "fr": "Marteau à emboutir en acier noble",
-      "ja": "ハイスチール・ドーミングハンマー"
+      "ja": "ハイスチール・ドーミングハンマー",
+      "ko": "경강 판금망치"
     }
   },
   {
@@ -9599,7 +10223,8 @@
       "de": "Edelstahl-Handbeil",
       "en": "High Steel Hatchet",
       "fr": "Hachette en acier noble",
-      "ja": "ハイスチールハチェット"
+      "ja": "ハイスチールハチェット",
+      "ko": "경강 손도끼"
     }
   },
   {
@@ -9613,7 +10238,8 @@
       "de": "Edelstahl-Sattlermesser",
       "en": "High Steel Head Knife",
       "fr": "Couteau à pied en acier noble",
-      "ja": "ハイスチール・ヘッドナイフ"
+      "ja": "ハイスチール・ヘッドナイフ",
+      "ko": "경강 가죽칼"
     }
   },
   {
@@ -9627,7 +10253,8 @@
       "de": "Edelstahl-Säge",
       "en": "High Steel Saw",
       "fr": "Scie en acier noble",
-      "ja": "ハイスチールソー"
+      "ja": "ハイスチールソー",
+      "ko": "경강 톱"
     }
   },
   {
@@ -9641,7 +10268,8 @@
       "de": "Hinganisches Mokuzo-Hüttendach",
       "en": "Hingan Cottage Roof (Mokuzo)",
       "fr": "Toit de maisonnette hingashienne (mokuzo)",
-      "ja": "白銀木造平屋屋根"
+      "ja": "白銀木造平屋屋根",
+      "ko": "Hingan Cottage Roof (Mokuzo)"
     }
   },
   {
@@ -9655,7 +10283,8 @@
       "de": "Kupfernickel-Ornamenthammer",
       "en": "Koppranickel Ornamental Hammer",
       "fr": "Marteau ornementé en cupronickel",
-      "ja": "キュプロオーナメンタルハンマー"
+      "ja": "キュプロオーナメンタルハンマー",
+      "ko": "백동 장식새김 망치"
     }
   },
   {
@@ -9669,7 +10298,8 @@
       "de": "Edelstahl-Ahle",
       "en": "High Steel Awl",
       "fr": "Poinçon en acier noble",
-      "ja": "ハイスチールアウル"
+      "ja": "ハイスチールアウル",
+      "ko": "경강 목타"
     }
   },
   {
@@ -9683,7 +10313,8 @@
       "de": "Edelstahl-Klauenhammer",
       "en": "High Steel Claw Hammer",
       "fr": "Marteau arrache-clou en acier noble",
-      "ja": "ハイスチール・クローハンマー"
+      "ja": "ハイスチール・クローハンマー",
+      "ko": "경강 장도리"
     }
   },
   {
@@ -9697,7 +10328,8 @@
       "de": "Edelstahl-Küchenmesser",
       "en": "High Steel Culinary Knife",
       "fr": "Couteau de cuisine en acier noble",
-      "ja": "ハイスチール・クリナリーナイフ"
+      "ja": "ハイスチール・クリナリーナイフ",
+      "ko": "경강 요리칼"
     }
   },
   {
@@ -9711,7 +10343,8 @@
       "de": "Edelstahl-Feile",
       "en": "High Steel File",
       "fr": "Lime en acier noble",
-      "ja": "ハイスチールファイル"
+      "ja": "ハイスチールファイル",
+      "ko": "경강 줄판"
     }
   },
   {
@@ -9725,7 +10358,8 @@
       "de": "Edelstahl-Barren",
       "en": "High Steel Ingot",
       "fr": "Lingot d'acier noble",
-      "ja": "ハイスチールインゴット"
+      "ja": "ハイスチールインゴット",
+      "ko": "경강 주괴"
     }
   },
   {
@@ -9739,7 +10373,8 @@
       "de": "Edelstahl-Mörser",
       "en": "High Steel Mortar",
       "fr": "Mortier en acier noble",
-      "ja": "ハイスチールモーター"
+      "ja": "ハイスチールモーター",
+      "ko": "경강 약연"
     }
   },
   {
@@ -9753,7 +10388,8 @@
       "de": "Edelstahl-Zange",
       "en": "High Steel Pliers",
       "fr": "Tenailles en acier noble",
-      "ja": "ハイスチールプライヤー"
+      "ja": "ハイスチールプライヤー",
+      "ko": "경강 플라이어"
     }
   },
   {
@@ -9767,7 +10403,8 @@
       "de": "Edelstahl-Sense",
       "en": "High Steel Scythe",
       "fr": "Faux en acier noble",
-      "ja": "ハイスチールサイズ"
+      "ja": "ハイスチールサイズ",
+      "ko": "경강 큰낫"
     }
   },
   {
@@ -9781,7 +10418,8 @@
       "de": "Edelstahl-Vorschlaghammer",
       "en": "High Steel Sledgehammer",
       "fr": "Maillet en acier noble",
-      "ja": "ハイスチールモール"
+      "ja": "ハイスチールモール",
+      "ko": "경강 채굴망치"
     }
   },
   {
@@ -9795,7 +10433,8 @@
       "de": "Hinganischer Steinzaun",
       "en": "Hingan Stone Fence",
       "fr": "Muret hingashien simple",
-      "ja": "白銀石塀"
+      "ja": "白銀石塀",
+      "ko": "Hingan Stone Fence"
     }
   },
   {
@@ -9809,7 +10448,8 @@
       "de": "Jagdbedarf",
       "en": "M Tribe Sundries",
       "fr": "Produits du quotidien des M",
-      "ja": "メ族の日用品"
+      "ja": "メ族の日用品",
+      "ko": "M Tribe Sundries"
     }
   },
   {
@@ -9823,7 +10463,8 @@
       "de": "Komponente eines Gebrauchsgegenstands der M",
       "en": "M Tribe Sundry Component",
       "fr": "Composant de produits du quotidien des M",
-      "ja": "メ族の日用品部材"
+      "ja": "メ族の日用品部材",
+      "ko": "M Tribe Sundry Component"
     }
   },
   {
@@ -9837,7 +10478,8 @@
       "de": "Federleichtes Kurzschwert",
       "en": "Featherlight Shortsword",
       "fr": "Épée courte légère",
-      "ja": "軽量なショートソード"
+      "ja": "軽量なショートソード",
+      "ko": "가벼운 쇼트소드"
     }
   },
   {
@@ -9851,7 +10493,8 @@
       "de": "Gefaltetes Edelstahl-Großschwert",
       "en": "Folded High Steel Greatsword",
       "fr": "Grande épée en acier noble",
-      "ja": "ハイスチール・グレートソード"
+      "ja": "ハイスチール・グレートソード",
+      "ko": "경강 그레이트소드"
     }
   },
   {
@@ -9865,7 +10508,8 @@
       "de": "Gefaltete Edelstahl-Schlagringe",
       "en": "Folded High Steel Knuckles",
       "fr": "Poings en acier noble renforcés",
-      "ja": "ハイスチールナックルDX"
+      "ja": "ハイスチールナックルDX",
+      "ko": "강화 경강 너클"
     }
   },
   {
@@ -9879,7 +10523,8 @@
       "de": "Edelstahl-Kriegsaxt",
       "en": "High Steel Battleaxe",
       "fr": "Hache de combat en acier noble",
-      "ja": "ハイスチール・バトルアクス"
+      "ja": "ハイスチール・バトルアクス",
+      "ko": "경강 전투도끼"
     }
   },
   {
@@ -9893,7 +10538,8 @@
       "de": "Edelstahl-Krise",
       "en": "High Steel Kris",
       "fr": "Kriss en acier noble",
-      "ja": "ハイスチールクリス"
+      "ja": "ハイスチールクリス",
+      "ko": "경강 쌍검"
     }
   },
   {
@@ -9907,7 +10553,8 @@
       "de": "Edelstahl-Langschwert",
       "en": "High Steel Longsword",
       "fr": "Épée longue en acier noble",
-      "ja": "ハイスチール・ロングソード"
+      "ja": "ハイスチール・ロングソード",
+      "ko": "경강 롱소드"
     }
   },
   {
@@ -9921,7 +10568,8 @@
       "de": "Edelstahl-Uchigatana",
       "en": "High Steel Uchigatana",
       "fr": "Uchigatana en acier noble",
-      "ja": "不変鋼打刀"
+      "ja": "不変鋼打刀",
+      "ko": "불변강 타도"
     }
   },
   {
@@ -9935,7 +10583,8 @@
       "de": "Edelstahl-Pistole",
       "en": "High Steel-barreled Snaphance",
       "fr": "Fusil à silex en acier noble",
-      "ja": "ハイスチールスナップハンス"
+      "ja": "ハイスチールスナップハンス",
+      "ko": "경강 뇌관총"
     }
   },
   {
@@ -9949,7 +10598,8 @@
       "de": "Kotetsu-Replik",
       "en": "Kotetsu Replica",
       "fr": "Réplique de Kotetsu",
-      "ja": "虎徹【偽】"
+      "ja": "虎徹【偽】",
+      "ko": "Kotetsu Replica"
     }
   },
   {
@@ -9963,7 +10613,8 @@
       "de": "Rucksack für die Befreiungsarmee",
       "en": "Resistance Materiel",
       "fr": "Provisions pour l'armée de libération",
-      "ja": "解放軍の軍需品"
+      "ja": "解放軍の軍需品",
+      "ko": "Resistance Materiel"
     }
   },
   {
@@ -9977,7 +10628,8 @@
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
       "en": "Resistance Materiel Component",
       "fr": "Composant de provisions pour l'armée de libération",
-      "ja": "解放軍の軍需品部材"
+      "ja": "解放軍の軍需品部材",
+      "ko": "Resistance Materiel Component"
     }
   },
   {
@@ -9991,7 +10643,8 @@
       "de": "Domaeisen-Klauen",
       "en": "Doman Iron Claws",
       "fr": "Griffes en fer domien",
-      "ja": "ドマアイアンクロー"
+      "ja": "ドマアイアンクロー",
+      "ko": "도마철 서슬발톱"
     }
   },
   {
@@ -10005,7 +10658,8 @@
       "de": "Domaeisen-Rundsäge",
       "en": "Doman Iron Halfheart Saw",
       "fr": "Scie ronde en fer domien",
-      "ja": "ドマアイアン・ラウンドソー"
+      "ja": "ドマアイアン・ラウンドソー",
+      "ko": "도마철 둥근톱"
     }
   },
   {
@@ -10019,7 +10673,8 @@
       "de": "Domaeisen-Handbeil",
       "en": "Doman Iron Hatchet",
       "fr": "Hachette en fer domien",
-      "ja": "ドマアイアンハチェット"
+      "ja": "ドマアイアンハチェット",
+      "ko": "도마철 손도끼"
     }
   },
   {
@@ -10033,7 +10688,8 @@
       "de": "Domaeisen-Sattlermesser",
       "en": "Doman Iron Head Knife",
       "fr": "Couteau à pied en fer domien",
-      "ja": "ドマアイアン・ヘッドナイフ"
+      "ja": "ドマアイアン・ヘッドナイフ",
+      "ko": "도마철 가죽칼"
     }
   },
   {
@@ -10047,7 +10703,8 @@
       "de": "Domaeisen-Langschwert",
       "en": "Doman Iron Longsword",
       "fr": "Épée longue en fer domien",
-      "ja": "ドマアイアン・ロングソード"
+      "ja": "ドマアイアン・ロングソード",
+      "ko": "도마철 롱소드"
     }
   },
   {
@@ -10061,7 +10718,8 @@
       "de": "Domaeisen-Schlägel",
       "en": "Doman Iron Lump Hammer",
       "fr": "Massette en fer domien",
-      "ja": "ドマアイアン・ランプハンマー"
+      "ja": "ドマアイアン・ランプハンマー",
+      "ko": "도마철 중형망치"
     }
   },
   {
@@ -10075,7 +10733,8 @@
       "de": "Domaeisen-Spitzhacke",
       "en": "Doman Iron Pickaxe",
       "fr": "Pioche en fer domien",
-      "ja": "ドマアイアンピック"
+      "ja": "ドマアイアンピック",
+      "ko": "도마철 곡괭이"
     }
   },
   {
@@ -10089,7 +10748,8 @@
       "de": "Domaeisen-Flachhammer",
       "en": "Doman Iron Raising Hammer",
       "fr": "Marteau de batteur en fer domien",
-      "ja": "ドマアイアン・レイジングハンマー"
+      "ja": "ドマアイアン・レイジングハンマー",
+      "ko": "도마철 돋을무늬 망치"
     }
   },
   {
@@ -10103,7 +10763,8 @@
       "de": "Domaeisen-Kriegsaxt",
       "en": "Doman Iron War Axe",
       "fr": "Hache de guerre en fer domien",
-      "ja": "ドマアイアン・ウォーアクス"
+      "ja": "ドマアイアン・ウォーアクス",
+      "ko": "도마철 전투도끼"
     }
   },
   {
@@ -10117,7 +10778,8 @@
       "de": "Durium-Stockhammer",
       "en": "Durium Texture Hammer",
       "fr": "Marteau d'orfèvre en durium",
-      "ja": "ダリウム・ゴールドスミスハンマー"
+      "ja": "ダリウム・ゴールドスミスハンマー",
+      "ko": "취은 보석공예 망치"
     }
   },
   {
@@ -10131,7 +10793,8 @@
       "de": "Hinganisches Mokuzo-Hausdach",
       "en": "Hingan House Roof (Mokuzo)",
       "fr": "Toit de pavillon hingashien (mokuzo)",
-      "ja": "白銀木造屋敷屋根"
+      "ja": "白銀木造屋敷屋根",
+      "ko": "Hingan House Roof (Mokuzo)"
     }
   },
   {
@@ -10145,7 +10808,8 @@
       "de": "Oroshigane-Barren",
       "en": "Oroshigane Ingot",
       "fr": "Lingot d'oroshigane",
-      "ja": "卸し鉄"
+      "ja": "卸し鉄",
+      "ko": "도마철 주괴"
     }
   },
   {
@@ -10159,7 +10823,8 @@
       "de": "Domaeisen-Ahle",
       "en": "Doman Iron Awl",
       "fr": "Poinçon en fer domien",
-      "ja": "ドマアイアンアウル"
+      "ja": "ドマアイアンアウル",
+      "ko": "도마철 목타"
     }
   },
   {
@@ -10173,7 +10838,8 @@
       "de": "Domaeisen-Klauenhammer",
       "en": "Doman Iron Claw Hammer",
       "fr": "Marteau arrache-clou en fer domien",
-      "ja": "ドマアイアン・クローハンマー"
+      "ja": "ドマアイアン・クローハンマー",
+      "ko": "도마철 장도리"
     }
   },
   {
@@ -10187,7 +10853,8 @@
       "de": "Domaeisen-Küchenmesser",
       "en": "Doman Iron Culinary Knife",
       "fr": "Couteau de cuisine en fer domien",
-      "ja": "ドマアイアン・クリナリーナイフ"
+      "ja": "ドマアイアン・クリナリーナイフ",
+      "ko": "도마철 요리칼"
     }
   },
   {
@@ -10201,7 +10868,8 @@
       "de": "Domaeisen-Kalverine",
       "en": "Doman Iron Culverin",
       "fr": "Couleuvrine en fer domien",
-      "ja": "ドマアイアンカルバリン"
+      "ja": "ドマアイアンカルバリン",
+      "ko": "도마철 포총"
     }
   },
   {
@@ -10215,7 +10883,8 @@
       "de": "Domaeisen-Dolche",
       "en": "Doman Iron Daggers",
       "fr": "Dagues en fer domien",
-      "ja": "ドマアイアンダガー"
+      "ja": "ドマアイアンダガー",
+      "ko": "도마철 단검"
     }
   },
   {
@@ -10229,7 +10898,8 @@
       "de": "Domaeisen-Feile",
       "en": "Doman Iron File",
       "fr": "Lime en fer domien",
-      "ja": "ドマアイアンファイル"
+      "ja": "ドマアイアンファイル",
+      "ko": "도마철 줄판"
     }
   },
   {
@@ -10243,7 +10913,8 @@
       "de": "Domaeisen-Großschwert",
       "en": "Doman Iron Greatsword",
       "fr": "Grande épée en fer domien",
-      "ja": "ドマアイアン・グレートソード"
+      "ja": "ドマアイアン・グレートソード",
+      "ko": "도마철 그레이트소드"
     }
   },
   {
@@ -10257,7 +10928,8 @@
       "de": "Domaeisen-Mörser",
       "en": "Doman Iron Mortar",
       "fr": "Mortier en fer domien",
-      "ja": "ドマアイアンモーター"
+      "ja": "ドマアイアンモーター",
+      "ko": "도마철 약연"
     }
   },
   {
@@ -10271,7 +10943,8 @@
       "de": "Domaeisen-Zange",
       "en": "Doman Iron Pliers",
       "fr": "Tenailles en fer domien",
-      "ja": "ドマアイアンプライヤー"
+      "ja": "ドマアイアンプライヤー",
+      "ko": "도마철 플라이어"
     }
   },
   {
@@ -10285,7 +10958,8 @@
       "de": "Domaeisen-Sense",
       "en": "Doman Iron Scythe",
       "fr": "Faux en fer domien",
-      "ja": "ドマアイアンサイズ"
+      "ja": "ドマアイアンサイズ",
+      "ko": "도마철 큰낫"
     }
   },
   {
@@ -10299,7 +10973,8 @@
       "de": "Domaeisen-Vorschlaghammer",
       "en": "Doman Iron Sledgehammer",
       "fr": "Maillet en fer domien",
-      "ja": "ドマアイアンモール"
+      "ja": "ドマアイアンモール",
+      "ko": "도마철 채굴망치"
     }
   },
   {
@@ -10313,7 +10988,8 @@
       "de": "Domaeisen-Uchigatana",
       "en": "Doman Iron Uchigatana",
       "fr": "Uchigatana en fer domien",
-      "ja": "卸金打刀"
+      "ja": "卸金打刀",
+      "ko": "도마철 타도"
     }
   },
   {
@@ -10327,7 +11003,8 @@
       "de": "Schweres Uchigatana",
       "en": "Heavy Uchigatana",
       "fr": "Uchigatana lourd",
-      "ja": "太身の打刀"
+      "ja": "太身の打刀",
+      "ko": "굵직한 타도"
     }
   },
   {
@@ -10341,7 +11018,8 @@
       "de": "Domastahl-Kriegsaxt",
       "en": "Doman Steel Battleaxe",
       "fr": "Hache de combat en acier domien",
-      "ja": "ドマスチール・バトルアクス"
+      "ja": "ドマスチール・バトルアクス",
+      "ko": "도마강철 전투도끼"
     }
   },
   {
@@ -10355,7 +11033,8 @@
       "de": "Domastahl-Kreuzschlaghammer",
       "en": "Doman Steel Cross-pein Hammer",
       "fr": "Marteau à panne croisée en acier domien",
-      "ja": "ドマスチール・クロスペインハンマー"
+      "ja": "ドマスチール・クロスペインハンマー",
+      "ko": "도마강철 단조망치"
     }
   },
   {
@@ -10369,7 +11048,8 @@
       "de": "Domastahl-Handbeil",
       "en": "Doman Steel Hatchet",
       "fr": "Hachette en acier domien",
-      "ja": "ドマスチールハチェット"
+      "ja": "ドマスチールハチェット",
+      "ko": "도마강철 손도끼"
     }
   },
   {
@@ -10383,7 +11063,8 @@
       "de": "Domastahl-Langschwert",
       "en": "Doman Steel Longsword",
       "fr": "Épée longue en acier domien",
-      "ja": "ドマスチール・ロングソード"
+      "ja": "ドマスチール・ロングソード",
+      "ko": "도마강철 롱소드"
     }
   },
   {
@@ -10397,7 +11078,8 @@
       "de": "Domastahl-Pata",
       "en": "Doman Steel Patas",
       "fr": "Patas en acier domien",
-      "ja": "ドマスチールパタ"
+      "ja": "ドマスチールパタ",
+      "ko": "도마강철 파타"
     }
   },
   {
@@ -10411,7 +11093,8 @@
       "de": "Domastahl-Schlichthammer",
       "en": "Doman Steel Raising Hammer",
       "fr": "Marteau de batteur en acier domien",
-      "ja": "ドマスチール・レイジングハンマー"
+      "ja": "ドマスチール・レイジングハンマー",
+      "ko": "도마강철 돋을무늬 망치"
     }
   },
   {
@@ -10425,7 +11108,8 @@
       "de": "Domastahl-Rundmesser",
       "en": "Doman Steel Round Knife",
       "fr": "Couteau arrondi en acier domien",
-      "ja": "ドマスチール・ラウンドナイフ"
+      "ja": "ドマスチール・ラウンドナイフ",
+      "ko": "도마강철 둥근칼"
     }
   },
   {
@@ -10439,7 +11123,8 @@
       "de": "Domastahl-Säge",
       "en": "Doman Steel Saw",
       "fr": "Scie en acier domien",
-      "ja": "ドマスチールソー"
+      "ja": "ドマスチールソー",
+      "ko": "도마강철 톱"
     }
   },
   {
@@ -10453,7 +11138,8 @@
       "de": "Durium-Juwelierhammer",
       "en": "Durium Lapidary Hammer",
       "fr": "Marteau de lapidaire en durium",
-      "ja": "ダリウム・ラピダリーハンマー"
+      "ja": "ダリウム・ラピダリーハンマー",
+      "ko": "취은 세공망치"
     }
   },
   {
@@ -10467,7 +11153,8 @@
       "de": "Gefiederte Domastahl-Spitzhacke",
       "en": "Plumed Doman Steel Pickaxe",
       "fr": "Pioche en acier domien à plumet",
-      "ja": "プルームド・ドマスチールピック"
+      "ja": "プルームド・ドマスチールピック",
+      "ko": "도마강철 깃털장식 곡괭이"
     }
   },
   {
@@ -10481,7 +11168,8 @@
       "de": "Tama-hagane-Barren",
       "en": "Tama-hagane Ingot",
       "fr": "Lingot de tamahagane",
-      "ja": "玉鋼"
+      "ja": "玉鋼",
+      "ko": "도마강철 주괴"
     }
   },
   {
@@ -10495,7 +11183,8 @@
       "de": "Domastahl-Ahle",
       "en": "Doman Steel Awl",
       "fr": "Poinçon en acier domien",
-      "ja": "ドマスチールアウル"
+      "ja": "ドマスチールアウル",
+      "ko": "도마강철 목타"
     }
   },
   {
@@ -10509,7 +11198,8 @@
       "de": "Domastahl-Klauenhammer",
       "en": "Doman Steel Claw Hammer",
       "fr": "Marteau arrache-clou en acier domien",
-      "ja": "ドマスチール・クローハンマー"
+      "ja": "ドマスチール・クローハンマー",
+      "ko": "도마강철 장도리"
     }
   },
   {
@@ -10523,7 +11213,8 @@
       "de": "Domastahl-Küchenmesser",
       "en": "Doman Steel Culinary Knife",
       "fr": "Couteau de cuisine en acier domien",
-      "ja": "ドマスチール・クリナリーナイフ"
+      "ja": "ドマスチール・クリナリーナイフ",
+      "ko": "도마강철 요리칼"
     }
   },
   {
@@ -10537,7 +11228,8 @@
       "de": "Domastahl-Feile",
       "en": "Doman Steel File",
       "fr": "Lime en acier domien",
-      "ja": "ドマスチールファイル"
+      "ja": "ドマスチールファイル",
+      "ko": "도마강철 줄판"
     }
   },
   {
@@ -10551,7 +11243,8 @@
       "de": "Domastahl-Großschwert",
       "en": "Doman Steel Greatsword",
       "fr": "Grande épée en acier domien",
-      "ja": "ドマスチール・グレートソード"
+      "ja": "ドマスチール・グレートソード",
+      "ko": "도마강철 그레이트소드"
     }
   },
   {
@@ -10565,7 +11258,8 @@
       "de": "Domastahl-Parierdolche",
       "en": "Doman Steel Main Gauches",
       "fr": "Mains-gauches en acier domien",
-      "ja": "ドマスチールマインゴーシュ"
+      "ja": "ドマスチールマインゴーシュ",
+      "ko": "도마강철 맹고쉬"
     }
   },
   {
@@ -10579,7 +11273,8 @@
       "de": "Domastahl-Mörser",
       "en": "Doman Steel Mortar",
       "fr": "Mortier en acier domien",
-      "ja": "ドマスチールモーター"
+      "ja": "ドマスチールモーター",
+      "ko": "도마강철 약연"
     }
   },
   {
@@ -10593,7 +11288,8 @@
       "de": "Domastahl-Zange",
       "en": "Doman Steel Pliers",
       "fr": "Tenailles en acier domien",
-      "ja": "ドマスチールプライヤー"
+      "ja": "ドマスチールプライヤー",
+      "ko": "도마강철 플라이어"
     }
   },
   {
@@ -10607,7 +11303,8 @@
       "de": "Domastahl-Sense",
       "en": "Doman Steel Scythe",
       "fr": "Faux en acier domien",
-      "ja": "ドマスチールサイズ"
+      "ja": "ドマスチールサイズ",
+      "ko": "도마강철 큰낫"
     }
   },
   {
@@ -10621,7 +11318,8 @@
       "de": "Domastahl-Vorschlaghammer",
       "en": "Doman Steel Sledgehammer",
       "fr": "Maillet en acier domien",
-      "ja": "ドマスチールモール"
+      "ja": "ドマスチールモール",
+      "ko": "도마강철 채굴망치"
     }
   },
   {
@@ -10635,7 +11333,8 @@
       "de": "Domastahl-Tachi",
       "en": "Doman Steel Tachi",
       "fr": "Tachi en acier domien",
-      "ja": "玉鋼太刀"
+      "ja": "玉鋼太刀",
+      "ko": "도마강철 타도"
     }
   },
   {
@@ -10649,7 +11348,8 @@
       "de": "Domastahl-Muskete",
       "en": "Doman Steel-barreled Musketoon",
       "fr": "Mousqueton en acier domien",
-      "ja": "ドマスチールマスケトン"
+      "ja": "ドマスチールマスケトン",
+      "ko": "도마강철 단총"
     }
   },
   {
@@ -10663,7 +11363,8 @@
       "de": "Maßgefertigter Kreuzschlaghammer",
       "en": "Custom-made Hammer",
       "fr": "Marteau de précision",
-      "ja": "小ぶりなハンマー"
+      "ja": "小ぶりなハンマー",
+      "ko": "자그마한 망치"
     }
   },
   {
@@ -10677,7 +11378,8 @@
       "de": "Hinganisches Mokuzo-Residenzdach",
       "en": "Hingan Mansion Roof (Mokuzo)",
       "fr": "Toit de villa hingashienne (mokuzo)",
-      "ja": "白銀木造御殿屋根"
+      "ja": "白銀木造御殿屋根",
+      "ko": "Hingan Mansion Roof (Mokuzo)"
     }
   },
   {
@@ -10691,7 +11393,8 @@
       "de": "Molybdän-Dolche",
       "en": "Molybdenum Daggers",
       "fr": "Dagues en molybdène",
-      "ja": "モリブデンダガー"
+      "ja": "モリブデンダガー",
+      "ko": "몰리브덴 단검"
     }
   },
   {
@@ -10705,7 +11408,8 @@
       "de": "Molybdän-Barren",
       "en": "Molybdenum Ingot",
       "fr": "Lingot de molybdène",
-      "ja": "モリブデンインゴット"
+      "ja": "モリブデンインゴット",
+      "ko": "몰리브덴 주괴"
     }
   },
   {
@@ -10719,7 +11423,8 @@
       "de": "Molybdän-Schlagringe",
       "en": "Molybdenum Knuckles",
       "fr": "Poings en molybdène",
-      "ja": "モリブデンナックル"
+      "ja": "モリブデンナックル",
+      "ko": "몰리브덴 너클"
     }
   },
   {
@@ -10733,7 +11438,8 @@
       "de": "Molybdän-Klinge",
       "en": "Molybdenum Longblade",
       "fr": "Lame en molybdène",
-      "ja": "モリブデンブレード"
+      "ja": "モリブデンブレード",
+      "ko": "몰리브덴 검"
     }
   },
   {
@@ -10747,7 +11453,8 @@
       "de": "Molybdän-Langschwert",
       "en": "Molybdenum Longsword",
       "fr": "Épée longue en molybdène",
-      "ja": "モリブデンロングソード"
+      "ja": "モリブデンロングソード",
+      "ko": "몰리브덴 롱소드"
     }
   },
   {
@@ -10761,7 +11468,8 @@
       "de": "Molybdän-Karabiner",
       "en": "Molybdenum Rimfire",
       "fr": "Carabine en molybdène",
-      "ja": "モリブデンリムファイア"
+      "ja": "モリブデンリムファイア",
+      "ko": "몰리브덴 총"
     }
   },
   {
@@ -10775,7 +11483,8 @@
       "de": "Molybdän-Uchigatana",
       "en": "Molybdenum Uchigatana",
       "fr": "Uchigatana en molybdène",
-      "ja": "水鉛鋼打刀"
+      "ja": "水鉛鋼打刀",
+      "ko": "몰리브덴 타도"
     }
   },
   {
@@ -10789,7 +11498,8 @@
       "de": "Molybdän-Kriegsaxt",
       "en": "Molybdenum War Axe",
       "fr": "Hache de guerre en molybdène",
-      "ja": "モリブデンウォーアクス"
+      "ja": "モリブデンウォーアクス",
+      "ko": "몰리브덴 전투도끼"
     }
   },
   {
@@ -10803,7 +11513,8 @@
       "de": "Molybdän-Schlosserhammer",
       "en": "Molybdenum Ball-pein Hammer",
       "fr": "Marteau à panne ronde en molybdène",
-      "ja": "モリブデンアーモラーハンマー"
+      "ja": "モリブデンアーモラーハンマー",
+      "ko": "몰리브덴 갑주망치"
     }
   },
   {
@@ -10817,7 +11528,8 @@
       "de": "Molybdän-Rillmesser",
       "en": "Molybdenum Creasing Knife",
       "fr": "Couteau de tanneur en molybdène",
-      "ja": "モリブデン・レザーワーカーナイフ"
+      "ja": "モリブデン・レザーワーカーナイフ",
+      "ko": "몰리브덴 가죽공예 칼"
     }
   },
   {
@@ -10831,7 +11543,8 @@
       "de": "Molybdän-Rundsäge",
       "en": "Molybdenum Halfheart Saw",
       "fr": "Scie ronde en molybdène",
-      "ja": "モリブデンラウンドソー"
+      "ja": "モリブデンラウンドソー",
+      "ko": "몰리브덴 둥근톱"
     }
   },
   {
@@ -10845,7 +11558,8 @@
       "de": "Molybdän-Handbeil",
       "en": "Molybdenum Hatchet",
       "fr": "Hachette en molybdène",
-      "ja": "モリブデンハチェット"
+      "ja": "モリブデンハチェット",
+      "ko": "몰리브덴 손도끼"
     }
   },
   {
@@ -10859,7 +11573,8 @@
       "de": "Molybdän-Schlägel",
       "en": "Molybdenum Lump Hammer",
       "fr": "Massette en molybdène",
-      "ja": "モリブデンランプハンマー"
+      "ja": "モリブデンランプハンマー",
+      "ko": "몰리브덴 중형망치"
     }
   },
   {
@@ -10873,7 +11588,8 @@
       "de": "Molybdän-Spitzhacke",
       "en": "Molybdenum Pickaxe",
       "fr": "Pioche en molybdène",
-      "ja": "モリブデンピック"
+      "ja": "モリブデンピック",
+      "ko": "몰리브덴 곡괭이"
     }
   },
   {
@@ -10887,7 +11603,8 @@
       "de": "Palladium-Stockhammer",
       "en": "Palladium Texture Hammer",
       "fr": "Marteau d'orfèvre en palladium",
-      "ja": "パラース・ゴールドスミスハンマー"
+      "ja": "パラース・ゴールドスミスハンマー",
+      "ko": "팔라듐 보석공예 망치"
     }
   },
   {
@@ -10901,7 +11618,8 @@
       "de": "Muster-Katana",
       "en": "Examination Uchigatana",
       "fr": "Uchigatana d'évaluation",
-      "ja": "検分用の打刀"
+      "ja": "検分用の打刀",
+      "ko": "외날검 견본"
     }
   },
   {
@@ -10915,7 +11633,8 @@
       "de": "Molybdän-Ahle",
       "en": "Molybdenum Awl",
       "fr": "Poinçon en molybdène",
-      "ja": "モリブデンアウル"
+      "ja": "モリブデンアウル",
+      "ko": "몰리브덴 목타"
     }
   },
   {
@@ -10929,7 +11648,8 @@
       "de": "Molybdän-Klauenhammer",
       "en": "Molybdenum Claw Hammer",
       "fr": "Marteau arrache-clou en molybdène",
-      "ja": "モリブデンクローハンマー"
+      "ja": "モリブデンクローハンマー",
+      "ko": "몰리브덴 장도리"
     }
   },
   {
@@ -10943,7 +11663,8 @@
       "de": "Molybdän-Küchenmesser",
       "en": "Molybdenum Culinary Knife",
       "fr": "Couteau de cuisine en molybdène",
-      "ja": "モリブデンクリナリーナイフ"
+      "ja": "モリブデンクリナリーナイフ",
+      "ko": "몰리브덴 요리칼"
     }
   },
   {
@@ -10957,7 +11678,8 @@
       "de": "Molybdän-Feile",
       "en": "Molybdenum File",
       "fr": "Lime en molybdène",
-      "ja": "モリブデンファイル"
+      "ja": "モリブデンファイル",
+      "ko": "몰리브덴 줄판"
     }
   },
   {
@@ -10971,7 +11693,8 @@
       "de": "Molybdän-Mörser",
       "en": "Molybdenum Mortar",
       "fr": "Mortier en molybdène",
-      "ja": "モリブデンモーター"
+      "ja": "モリブデンモーター",
+      "ko": "몰리브덴 약연"
     }
   },
   {
@@ -10985,7 +11708,8 @@
       "de": "Molybdän-Zange",
       "en": "Molybdenum Pliers",
       "fr": "Tenailles en molybdène",
-      "ja": "モリブデンプライヤー"
+      "ja": "モリブデンプライヤー",
+      "ko": "몰리브덴 플라이어"
     }
   },
   {
@@ -10999,7 +11723,8 @@
       "de": "Molybdän-Sense",
       "en": "Molybdenum Scythe",
       "fr": "Faux en molybdène",
-      "ja": "モリブデンサイズ"
+      "ja": "モリブデンサイズ",
+      "ko": "몰리브덴 큰낫"
     }
   },
   {
@@ -11013,7 +11738,8 @@
       "de": "Molybdän-Vorschlaghammer",
       "en": "Molybdenum Sledgehammer",
       "fr": "Maillet en molybdène",
-      "ja": "モリブデンモール"
+      "ja": "モリブデンモール",
+      "ko": "몰리브덴 채굴망치"
     }
   },
   {
@@ -11027,7 +11753,8 @@
       "de": "Mhigischer Kreuzschlaghammer",
       "en": "Ala Mhigan Cross-pein Hammer",
       "fr": "Marteau à panne croisée mhigois",
-      "ja": "アラミガン・クロスペインハンマー"
+      "ja": "アラミガン・クロスペインハンマー",
+      "ko": "Ala Mhigan Cross-pein Hammer"
     },
     "stars": 2
   },
@@ -11042,7 +11769,8 @@
       "de": "Mhigisches Handbeil",
       "en": "Ala Mhigan Hatchet",
       "fr": "Hachette mhigoise",
-      "ja": "アラミガンハチェット"
+      "ja": "アラミガンハチェット",
+      "ko": "Ala Mhigan Hatchet"
     },
     "stars": 2
   },
@@ -11057,7 +11785,8 @@
       "de": "Mhigischer Juwelierhammer",
       "en": "Ala Mhigan Lapidary Hammer",
       "fr": "Marteau de lapidaire mhigois",
-      "ja": "アラミガン・ラピダリーハンマー"
+      "ja": "アラミガン・ラピダリーハンマー",
+      "ko": "Ala Mhigan Lapidary Hammer"
     },
     "stars": 2
   },
@@ -11072,7 +11801,8 @@
       "de": "Mhigische Spitzhacke",
       "en": "Ala Mhigan Pickaxe",
       "fr": "Pioche mhigoise",
-      "ja": "アラミガンピック"
+      "ja": "アラミガンピック",
+      "ko": "Ala Mhigan Pickaxe"
     },
     "stars": 2
   },
@@ -11087,7 +11817,8 @@
       "de": "Mhigischer Schlichthammer",
       "en": "Ala Mhigan Raising Hammer",
       "fr": "Marteau de batteur mhigois",
-      "ja": "アラミガン・レイジングハンマー"
+      "ja": "アラミガン・レイジングハンマー",
+      "ko": "Ala Mhigan Raising Hammer"
     },
     "stars": 2
   },
@@ -11102,7 +11833,8 @@
       "de": "Mhigisches Rundmesser",
       "en": "Ala Mhigan Round Knife",
       "fr": "Couteau arrondi mhigois",
-      "ja": "アラミガン・ラウンドナイフ"
+      "ja": "アラミガン・ラウンドナイフ",
+      "ko": "Ala Mhigan Round Knife"
     },
     "stars": 2
   },
@@ -11117,7 +11849,8 @@
       "de": "Mhigische Säge",
       "en": "Ala Mhigan Saw",
       "fr": "Scie mhigoise",
-      "ja": "アラミガンソー"
+      "ja": "アラミガンソー",
+      "ko": "Ala Mhigan Saw"
     },
     "stars": 2
   },
@@ -11132,7 +11865,8 @@
       "de": "Chromeisen-Hakenbüchse",
       "en": "Chromite Arquebus",
       "fr": "Arquebuse en chromite",
-      "ja": "クロマイトアークウィバス"
+      "ja": "クロマイトアークウィバス",
+      "ko": "Chromite Arquebus"
     },
     "stars": 2
   },
@@ -11147,7 +11881,8 @@
       "de": "Chromeisen-Axt",
       "en": "Chromite Axe",
       "fr": "Hache en chromite",
-      "ja": "クロマイトアクス"
+      "ja": "クロマイトアクス",
+      "ko": "Chromite Axe"
     },
     "stars": 2
   },
@@ -11162,7 +11897,8 @@
       "de": "Chromeisen-Dolche",
       "en": "Chromite Daggers",
       "fr": "Dagues en chromite",
-      "ja": "クロマイトダガー"
+      "ja": "クロマイトダガー",
+      "ko": "Chromite Daggers"
     },
     "stars": 2
   },
@@ -11177,7 +11913,8 @@
       "de": "Chromeisen-Großschwert",
       "en": "Chromite Greatsword",
       "fr": "Grande épée en chromite",
-      "ja": "クロマイトグレートソード"
+      "ja": "クロマイトグレートソード",
+      "ko": "Chromite Greatsword"
     },
     "stars": 2
   },
@@ -11192,7 +11929,8 @@
       "de": "Chromeisen-Barren",
       "en": "Chromite Ingot",
       "fr": "Lingot de chromite",
-      "ja": "クロマイトインゴット"
+      "ja": "クロマイトインゴット",
+      "ko": "Chromite Ingot"
     },
     "stars": 2
   },
@@ -11207,7 +11945,8 @@
       "de": "Chromeisen-Schlagringe",
       "en": "Chromite Knuckles",
       "fr": "Poings en chromite",
-      "ja": "クロマイトナックル"
+      "ja": "クロマイトナックル",
+      "ko": "Chromite Knuckles"
     },
     "stars": 2
   },
@@ -11222,7 +11961,8 @@
       "de": "Chromeisen-Schwert",
       "en": "Chromite Sword",
       "fr": "Épée en chromite",
-      "ja": "クロマイトソード"
+      "ja": "クロマイトソード",
+      "ko": "Chromite Sword"
     },
     "stars": 2
   },
@@ -11237,7 +11977,8 @@
       "de": "Chromeisen-Uchigatana",
       "en": "Chromite Uchigatana",
       "fr": "Uchigatana en chromite",
-      "ja": "堅鉄打刀"
+      "ja": "堅鉄打刀",
+      "ko": "Chromite Uchigatana"
     },
     "stars": 2
   }

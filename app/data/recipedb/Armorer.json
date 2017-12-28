@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "baseLevel": 1,
     "difficulty": 19,
@@ -10,7 +10,8 @@
       "de": "Ballonhüllen-Bauteil",
       "en": "Bladder Component",
       "fr": "Composant de ballon",
-      "ja": "気嚢部材"
+      "ja": "気嚢部材",
+      "ko": "공기주머니 부재"
     }
   },
   {
@@ -24,7 +25,8 @@
       "de": "Hüllenverstärkungs-Bauteil",
       "en": "Bladder Lining Component",
       "fr": "Composant de finition de ballon",
-      "ja": "気嚢補強材"
+      "ja": "気嚢補強材",
+      "ko": "공기주머니 보강재"
     }
   },
   {
@@ -38,7 +40,8 @@
       "de": "Bronzebarren",
       "en": "Bronze Ingot",
       "fr": "Lingot de bronze",
-      "ja": "ブロンズインゴット"
+      "ja": "ブロンズインゴット",
+      "ko": "청동 주괴"
     }
   },
   {
@@ -52,7 +55,8 @@
       "de": "Kanzelinnenraum-Bauteil",
       "en": "Hull Interior Component",
       "fr": "Composant de coque",
-      "ja": "エカトルの船体部材"
+      "ja": "エカトルの船体部材",
+      "ko": "에카틀 선체 부재"
     }
   },
   {
@@ -66,7 +70,8 @@
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
       "fr": "Comp. de partie gauche de nacelle",
-      "ja": "左舷船体部材"
+      "ja": "左舷船体部材",
+      "ko": "좌현 선체 부재"
     }
   },
   {
@@ -80,7 +85,8 @@
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
       "fr": "Comp. de partie droite de nacelle",
-      "ja": "右舷船体部材"
+      "ja": "右舷船体部材",
+      "ko": "우현 선체 부재"
     }
   },
   {
@@ -94,7 +100,8 @@
       "de": "Bronzedrahtringe",
       "en": "Bronze Rings",
       "fr": "Anneaux en bronze",
-      "ja": "ブロンズリングズ"
+      "ja": "ブロンズリングズ",
+      "ko": "청동 고리"
     }
   },
   {
@@ -108,7 +115,8 @@
       "de": "Bronzenieten",
       "en": "Bronze Rivets",
       "fr": "Rivets en bronze",
-      "ja": "ブロンズリベット"
+      "ja": "ブロンズリベット",
+      "ko": "청동 이음못"
     }
   },
   {
@@ -122,7 +130,8 @@
       "de": "Kupfer-Destillierkolben",
       "en": "Bronze Alembic",
       "fr": "Alambic",
-      "ja": "アレンビック"
+      "ja": "アレンビック",
+      "ko": "증류기"
     }
   },
   {
@@ -136,7 +145,8 @@
       "de": "Bronzeplatte",
       "en": "Bronze Plate",
       "fr": "Plaque de bronze",
-      "ja": "ブロンズプレート"
+      "ja": "ブロンズプレート",
+      "ko": "청동판"
     }
   },
   {
@@ -150,7 +160,8 @@
       "de": "Werkzeug-Bauteil",
       "en": "Crafting Tool Component",
       "fr": "Nécessaire de fabrication",
-      "ja": "加工道具"
+      "ja": "加工道具",
+      "ko": "가공 도구"
     }
   },
   {
@@ -164,7 +175,8 @@
       "de": "Deck-Bauteil",
       "en": "Deck Component",
       "fr": "Composant de pont",
-      "ja": "甲板部材"
+      "ja": "甲板部材",
+      "ko": "갑판 부재"
     }
   },
   {
@@ -178,7 +190,8 @@
       "de": "Motorgehäuse-Bauteil",
       "en": "Engine Casing Component",
       "fr": "Composant de protection de moteur",
-      "ja": "機関外装部材"
+      "ja": "機関外装部材",
+      "ko": "기관 외장 부재"
     }
   },
   {
@@ -192,7 +205,8 @@
       "de": "Gyroantriebs-Bauteil",
       "en": "Gyrodrive Component",
       "fr": "Composant d'unité motrice",
-      "ja": "動力輪部材"
+      "ja": "動力輪部材",
+      "ko": "동력바퀴 부재"
     }
   },
   {
@@ -206,7 +220,8 @@
       "de": "Erdseim-Motor-Bauteil",
       "en": "Propulsion Engine Component",
       "fr": "Composant de moteur",
-      "ja": "エカトルの機関部材"
+      "ja": "エカトルの機関部材",
+      "ko": "에카틀 기관 부재"
     }
   },
   {
@@ -220,7 +235,8 @@
       "de": "Takelagen-Bauteil",
       "en": "Rigging Component",
       "fr": "Composant d'attache",
-      "ja": "索具部材"
+      "ja": "索具部材",
+      "ko": "밧줄 부재"
     }
   },
   {
@@ -234,7 +250,8 @@
       "de": "Bronze-Kasserolle",
       "en": "Bronze Skillet",
       "fr": "Poêle",
-      "ja": "スキレット"
+      "ja": "スキレット",
+      "ko": "주물 프라이팬"
     }
   },
   {
@@ -248,7 +265,8 @@
       "de": "Bronze-Aspis",
       "en": "Bronze Hoplon",
       "fr": "Hoplon",
-      "ja": "ホプロン"
+      "ja": "ホプロン",
+      "ko": "전통방패"
     }
   },
   {
@@ -262,7 +280,8 @@
       "de": "Aerodynamo-Bauteil",
       "en": "Aerodynamo Component",
       "fr": "Composant de nez profilé",
-      "ja": "空力部材"
+      "ja": "空力部材",
+      "ko": "동력원 부재"
     }
   },
   {
@@ -276,7 +295,8 @@
       "de": "Ballast-Bauteil",
       "en": "Ballast Component",
       "fr": "Composant de lest",
-      "ja": "バラスト部材"
+      "ja": "バラスト部材",
+      "ko": "무게추 부재"
     }
   },
   {
@@ -290,7 +310,8 @@
       "de": "Bronze-Hauberk",
       "en": "Bronze Haubergeon",
       "fr": "Haubergeon",
-      "ja": "ホーバージョン"
+      "ja": "ホーバージョン",
+      "ko": "고리갑옷"
     }
   },
   {
@@ -304,7 +325,8 @@
       "de": "Kanzelaußenwand-Bauteil",
       "en": "Cockpit Exterior Component",
       "fr": "Composant extérieur de cockpit",
-      "ja": "操縦席外装材"
+      "ja": "操縦席外装材",
+      "ko": "조종석 외장재"
     }
   },
   {
@@ -318,7 +340,8 @@
       "de": "Kanzelinnenwand-Bauteil",
       "en": "Cockpit Interior Component",
       "fr": "Composant intérieur de cockpit",
-      "ja": "操縦席内装材"
+      "ja": "操縦席内装材",
+      "ko": "조종석 내장재"
     }
   },
   {
@@ -332,7 +355,8 @@
       "de": "Motorverstrebungs-Bauteil",
       "en": "Engine Jointing Component",
       "fr": "Composant de jonction de moteur",
-      "ja": "エカトルの機関部接合材"
+      "ja": "エカトルの機関部接合材",
+      "ko": "에카틀 기관부 접합재"
     }
   },
   {
@@ -346,7 +370,8 @@
       "de": "Steuerpult-Bauteil",
       "en": "Instrument Panel Component",
       "fr": "Composant d'instrumentation",
-      "ja": "計器部材"
+      "ja": "計器部材",
+      "ko": "계기 부재"
     }
   },
   {
@@ -360,7 +385,8 @@
       "de": "Bronze-Sollerets",
       "en": "Bronze Sollerets",
       "fr": "Solerets",
-      "ja": "ソルレット"
+      "ja": "ソルレット",
+      "ko": "쇠구두"
     }
   },
   {
@@ -374,7 +400,8 @@
       "de": "Bronzekettenhaube",
       "en": "Bronze Chain Coif",
       "fr": "Coiffe en mailles",
-      "ja": "チェーンコイフ"
+      "ja": "チェーンコイフ",
+      "ko": "사슬머리쓰개"
     }
   },
   {
@@ -388,7 +415,8 @@
       "de": "Bronzeschaller",
       "en": "Bronze Sallet",
       "fr": "Sallet",
-      "ja": "サレット"
+      "ja": "サレット",
+      "ko": "경량투구"
     }
   },
   {
@@ -402,7 +430,8 @@
       "de": "Laien-Destillierkolben",
       "en": "Amateur's Alembic",
       "fr": "Alambic d'amateur",
-      "ja": "アマチュアアレンビック"
+      "ja": "アマチュアアレンビック",
+      "ko": "초보자용 증류기"
     }
   },
   {
@@ -416,7 +445,8 @@
       "de": "Bronze-Panzerfäustlinge",
       "en": "Bronze Mitt Gauntlets",
       "fr": "Gantelets-mitons",
-      "ja": "ミトンガントレット"
+      "ja": "ミトンガントレット",
+      "ko": "벙어리 건틀릿"
     }
   },
   {
@@ -430,7 +460,8 @@
       "de": "Kupfer-Barbuta",
       "en": "Bronze Barbut",
       "fr": "Barbute",
-      "ja": "バルビュート"
+      "ja": "バルビュート",
+      "ko": "무장투구"
     }
   },
   {
@@ -444,7 +475,8 @@
       "de": "Bronzeturmschild",
       "en": "Bronze Scutum",
       "fr": "Scutum",
-      "ja": "スクトゥム"
+      "ja": "スクトゥム",
+      "ko": "사각방패"
     }
   },
   {
@@ -458,7 +490,8 @@
       "de": "Kühler-Bauteil",
       "en": "Heat Vent Component",
       "fr": "Composant de ventilation",
-      "ja": "排熱部材"
+      "ja": "排熱部材",
+      "ko": "배열 부재"
     }
   },
   {
@@ -472,7 +505,8 @@
       "de": "Backbordtragflächen-Bauteil",
       "en": "Larboard Wing Component",
       "fr": "Composant d'aile gauche",
-      "ja": "左翼部材"
+      "ja": "左翼部材",
+      "ko": "왼쪽 날개 부재"
     }
   },
   {
@@ -486,7 +520,8 @@
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile gauche",
-      "ja": "左翼可動部材"
+      "ja": "左翼可動部材",
+      "ko": "왼쪽 날개 가동 부재"
     }
   },
   {
@@ -500,7 +535,8 @@
       "de": "Steuerbordtragflächen-Bauteil",
       "en": "Starboard Wing Component",
       "fr": "Composant d'aile droite",
-      "ja": "右翼部材"
+      "ja": "右翼部材",
+      "ko": "오른쪽 날개 부재"
     }
   },
   {
@@ -514,7 +550,8 @@
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile droite",
-      "ja": "右翼可動部材"
+      "ja": "右翼可動部材",
+      "ko": "오른쪽 날개 가동 부재"
     }
   },
   {
@@ -528,7 +565,8 @@
       "de": "Sprechanlagen-Bauteil",
       "en": "Transmission Component",
       "fr": "Composant de transmission",
-      "ja": "伝達系部材"
+      "ja": "伝達系部材",
+      "ko": "전달계 부재"
     }
   },
   {
@@ -542,7 +580,8 @@
       "de": "Laien-Kasserolle",
       "en": "Amateur's Skillet",
       "fr": "Poêle d'amateur",
-      "ja": "アマチュアスキレット"
+      "ja": "アマチュアスキレット",
+      "ko": "초보자용 주물 프라이팬"
     }
   },
   {
@@ -556,7 +595,8 @@
       "de": "Bronze-Plattengürtel",
       "en": "Bronze Plate Belt",
       "fr": "Ceinture de plaques",
-      "ja": "プレートベルト"
+      "ja": "プレートベルト",
+      "ko": "판금 허리띠"
     }
   },
   {
@@ -570,7 +610,8 @@
       "de": "Sturmhaube",
       "en": "Bronze Celata",
       "fr": "Celata",
-      "ja": "チェラータ"
+      "ja": "チェラータ",
+      "ko": "보호투구"
     }
   },
   {
@@ -584,7 +625,8 @@
       "de": "Bronzekürass",
       "en": "Bronze Cuirass",
       "fr": "Cuirasse",
-      "ja": "キュイラス"
+      "ja": "キュイラス",
+      "ko": "전투흉갑"
     }
   },
   {
@@ -598,7 +640,8 @@
       "de": "Bronze-Bärlatschen",
       "en": "Bronze Sabatons",
       "fr": "Sabatons",
-      "ja": "サバトン"
+      "ja": "サバトン",
+      "ko": "판금장화"
     }
   },
   {
@@ -612,7 +655,8 @@
       "de": "Eisenbarren",
       "en": "Iron Ingot",
       "fr": "Lingot de fer",
-      "ja": "アイアンインゴット"
+      "ja": "アイアンインゴット",
+      "ko": "철 주괴"
     }
   },
   {
@@ -626,7 +670,8 @@
       "de": "Bronze-Panzerhandschuhe",
       "en": "Bronze Gauntlets",
       "fr": "Gantelets",
-      "ja": "ガントレット"
+      "ja": "ガントレット",
+      "ko": "건틀릿"
     }
   },
   {
@@ -640,7 +685,8 @@
       "de": "Eisenplatte",
       "en": "Iron Plate",
       "fr": "Plaque de fer",
-      "ja": "アイアンプレート"
+      "ja": "アイアンプレート",
+      "ko": "철판"
     }
   },
   {
@@ -654,7 +700,8 @@
       "de": "Eisennieten",
       "en": "Iron Rivets",
       "fr": "Rivets en fer",
-      "ja": "アイアンリベット"
+      "ja": "アイアンリベット",
+      "ko": "철 이음못"
     }
   },
   {
@@ -668,7 +715,8 @@
       "de": "Riviera-Tischlampe",
       "en": "Riviera Lantern",
       "fr": "Lanterne noscéenne",
-      "ja": "ラノシアン・ランタン"
+      "ja": "ラノシアン・ランタン",
+      "ko": "라노시아 램프"
     }
   },
   {
@@ -682,7 +730,8 @@
       "de": "Messing-Destillierkolben",
       "en": "Brass Alembic",
       "fr": "Alambic en laiton",
-      "ja": "ブラスアレンビック"
+      "ja": "ブラスアレンビック",
+      "ko": "황동 증류기"
     }
   },
   {
@@ -696,7 +745,8 @@
       "de": "Bronzefaustschild",
       "en": "Bronze Buckler",
       "fr": "Rondache",
-      "ja": "バックラー"
+      "ja": "バックラー",
+      "ko": "전투방패"
     }
   },
   {
@@ -710,7 +760,8 @@
       "de": "Erdseim-Tank-Bauteil",
       "en": "Ceruleum Tank Component",
       "fr": "Composant de réservoir",
-      "ja": "青燐タンク部材"
+      "ja": "青燐タンク部材",
+      "ko": "청린 탱크 부재"
     }
   },
   {
@@ -724,7 +775,8 @@
       "de": "Entsorgungssystem-Bauteil",
       "en": "Disposal Unit Component",
       "fr": "Composant de système d'évacuation",
-      "ja": "緊急廃棄部材"
+      "ja": "緊急廃棄部材",
+      "ko": "긴급 폐기 부재"
     }
   },
   {
@@ -738,7 +790,8 @@
       "de": "Schornstein-Bauteil",
       "en": "Exhaust Outlet Component",
       "fr": "Composant d'échappement",
-      "ja": "排気系部材"
+      "ja": "排気系部材",
+      "ko": "배기계 부재"
     }
   },
   {
@@ -752,7 +805,8 @@
       "de": "Plattner-Projektionsprisma",
       "en": "Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage (armurerie)",
-      "ja": "ミラージュプリズム:メタルワーク"
+      "ja": "ミラージュプリズム:メタルワーク",
+      "ko": "환상의 프리즘: 갑주"
     }
   },
   {
@@ -766,7 +820,8 @@
       "de": "Plattner-Projektionsprisma II",
       "en": "Grade 2 Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage II (armurerie)",
-      "ja": "ミラージュプリズムG2:メタルワーク"
+      "ja": "ミラージュプリズムG2:メタルワーク",
+      "ko": "2등급 환상의 프리즘: 갑주"
     }
   },
   {
@@ -780,7 +835,8 @@
       "de": "Plattner-Projektionsprisma III",
       "en": "Grade 3 Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage III (armurerie)",
-      "ja": "ミラージュプリズムG3:メタルワーク"
+      "ja": "ミラージュプリズムG3:メタルワーク",
+      "ko": "3등급 환상의 프리즘: 갑주"
     }
   },
   {
@@ -794,7 +850,8 @@
       "de": "Plattner-Projektionsprisma IV",
       "en": "Grade 4 Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage IV (armurerie)",
-      "ja": "ミラージュプリズムG4:メタルワーク"
+      "ja": "ミラージュプリズムG4:メタルワーク",
+      "ko": "4등급 환상의 프리즘: 갑주"
     }
   },
   {
@@ -808,7 +865,8 @@
       "de": "Plattner-Projektionsprisma V",
       "en": "Grade 5 Glamour Prism (Armorcraft)",
       "fr": "Prisme mirage V (armurerie)",
-      "ja": "ミラージュプリズムG5:メタルワーク"
+      "ja": "ミラージュプリズムG5:メタルワーク",
+      "ko": "5등급 환상의 프리즘: 갑주"
     }
   },
   {
@@ -822,7 +880,8 @@
       "de": "Steuereinheits-Bauteil",
       "en": "Helm Component",
       "fr": "Composant de gouvernail",
-      "ja": "エカトルの操舵装置部材"
+      "ja": "エカトルの操舵装置部材",
+      "ko": "에카틀 조타 장치 부재"
     }
   },
   {
@@ -836,7 +895,8 @@
       "de": "Eisen-Winkeleisen",
       "en": "Iron Joint Plate",
       "fr": "Patte en fer",
-      "ja": "アイアンフィッティング"
+      "ja": "アイアンフィッティング",
+      "ko": "철 이음판"
     }
   },
   {
@@ -850,7 +910,8 @@
       "de": "Eisendrahtringe",
       "en": "Iron Rings",
       "fr": "Anneaux en fer",
-      "ja": "アイアンリングズ"
+      "ja": "アイアンリングズ",
+      "ko": "철 고리"
     }
   },
   {
@@ -864,7 +925,8 @@
       "de": "Eisen-Kasserolle",
       "en": "Iron Skillet",
       "fr": "Poêle en fer",
-      "ja": "アイアンスキレット"
+      "ja": "アイアンスキレット",
+      "ko": "철제 주물 프라이팬"
     }
   },
   {
@@ -878,7 +940,8 @@
       "de": "Beleuchtungs-Bauteil",
       "en": "Lamp Component",
       "fr": "Composant d'éclairage",
-      "ja": "ランプ部材"
+      "ja": "ランプ部材",
+      "ko": "조명 부재"
     }
   },
   {
@@ -892,7 +955,8 @@
       "de": "Kommunikationsrohr-Bauteil",
       "en": "Speaking Tube Component",
       "fr": "Composant de tuyau acoustique",
-      "ja": "伝声系部材"
+      "ja": "伝声系部材",
+      "ko": "통신계 부재"
     }
   },
   {
@@ -906,7 +970,8 @@
       "de": "Steuermechanismus-Bauteil",
       "en": "Steering Mechanism Component",
       "fr": "Composant de module de pilotage",
-      "ja": "操縦機具部材"
+      "ja": "操縦機具部材",
+      "ko": "조종기구 부재"
     }
   },
   {
@@ -920,7 +985,8 @@
       "de": "Aerodynamik-Verbesserer-Bauteil",
       "en": "Auxiliary Aerodynamo Component",
       "fr": "Composant d'aileron",
-      "ja": "補助空力部材"
+      "ja": "補助空力部材",
+      "ko": "보조 동력원 부재"
     }
   },
   {
@@ -934,7 +1000,8 @@
       "de": "Messingbank",
       "en": "Brass Bench",
       "fr": "Banc en laiton",
-      "ja": "ブラスガーデンベンチ"
+      "ja": "ブラスガーデンベンチ",
+      "ko": "정원용 긴 황동 의자"
     }
   },
   {
@@ -948,7 +1015,8 @@
       "de": "Prunkvolle Kupfer-Barbuta",
       "en": "Decorated Bronze Barbut",
       "fr": "Barbute ornée",
-      "ja": "バルビュートDX"
+      "ja": "バルビュートDX",
+      "ko": "강화 무장투구"
     }
   },
   {
@@ -962,7 +1030,8 @@
       "de": "Verstärkte Bronze-Panzerfäustlinge",
       "en": "Decorated Bronze Mitt Gauntlets",
       "fr": "Gantelets-mitons renforcés",
-      "ja": "ミトンガントレットDX"
+      "ja": "ミトンガントレットDX",
+      "ko": "강화 벙어리 건틀릿"
     }
   },
   {
@@ -976,7 +1045,8 @@
       "de": "Zierplatten-Bauteil",
       "en": "Decorative Plating Component",
       "fr": "Composant d'ornementation",
-      "ja": "装飾部材"
+      "ja": "装飾部材",
+      "ko": "장식 부재"
     }
   },
   {
@@ -990,7 +1060,8 @@
       "de": "Rettungsboots-Bauteil",
       "en": "Escape Flyer Component",
       "fr": "Composant de système d'éjection",
-      "ja": "緊急脱出用具"
+      "ja": "緊急脱出用具",
+      "ko": "긴급 탈출 도구"
     }
   },
   {
@@ -1004,7 +1075,8 @@
       "de": "Hyperleiter-Bauteil",
       "en": "Hyperconductor Component",
       "fr": "Composant d'hyperconducteur",
-      "ja": "高伝導率部材"
+      "ja": "高伝導率部材",
+      "ko": "고전도율 부재"
     }
   },
   {
@@ -1018,7 +1090,8 @@
       "de": "Isolations-Bauteil",
       "en": "Isolator Component",
       "fr": "Composant de système antivibration",
-      "ja": "免震部材"
+      "ja": "免震部材",
+      "ko": "진동방지 부재"
     }
   },
   {
@@ -1032,7 +1105,8 @@
       "de": "Gewichtsreduktions-Bauteil",
       "en": "Refabrication Component",
       "fr": "Composant d'allégement",
-      "ja": "軽量化部材"
+      "ja": "軽量化部材",
+      "ko": "경량화 부재"
     }
   },
   {
@@ -1046,7 +1120,8 @@
       "de": "Reservetank-Bauteil",
       "en": "Spare Tank Component",
       "fr": "Composant de réservoir de secours",
-      "ja": "予備タンク部材"
+      "ja": "予備タンク部材",
+      "ko": "예비 탱크 부재"
     }
   },
   {
@@ -1060,7 +1135,8 @@
       "de": "Eisen-Aspis",
       "en": "Iron Hoplon",
       "fr": "Hoplon en fer",
-      "ja": "アイアンホプロン"
+      "ja": "アイアンホプロン",
+      "ko": "철제 전통방패"
     }
   },
   {
@@ -1074,7 +1150,8 @@
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
       "fr": "Aile d'Ehcatl",
-      "ja": "エカトルの羽根飾り"
+      "ja": "エカトルの羽根飾り",
+      "ko": "에카틀 깃털 장식"
     }
   },
   {
@@ -1088,7 +1165,8 @@
       "de": "Endstück-Bauteil",
       "en": "Finishing Component",
       "fr": "Composant final",
-      "ja": "エカトルの重要部材"
+      "ja": "エカトルの重要部材",
+      "ko": "에카틀 중요 부재"
     }
   },
   {
@@ -1102,7 +1180,8 @@
       "de": "Anfänger-Destillierkolben",
       "en": "Initiate's Alembic",
       "fr": "Alambic d'initié",
-      "ja": "イニシエートアレンビック"
+      "ja": "イニシエートアレンビック",
+      "ko": "견습생용 증류기"
     }
   },
   {
@@ -1116,7 +1195,8 @@
       "de": "Anfänger-Kasserolle",
       "en": "Initiate's Skillet",
       "fr": "Poêle d'initié",
-      "ja": "イニシエートスキレット"
+      "ja": "イニシエートスキレット",
+      "ko": "견습생용 주물 프라이팬"
     }
   },
   {
@@ -1130,7 +1210,8 @@
       "de": "Eisen-Plattengürtel",
       "en": "Iron Plate Belt",
       "fr": "Ceinture de plaques en fer",
-      "ja": "アイアンプレートベルト"
+      "ja": "アイアンプレートベルト",
+      "ko": "철판 허리띠"
     }
   },
   {
@@ -1144,7 +1225,8 @@
       "de": "Eisen-Bärlatschen",
       "en": "Iron Sabatons",
       "fr": "Sabatons en fer",
-      "ja": "アイアンサバトン"
+      "ja": "アイアンサバトン",
+      "ko": "철제 판금장화"
     }
   },
   {
@@ -1158,7 +1240,8 @@
       "de": "Eisenschaller",
       "en": "Iron Sallet",
       "fr": "Sallet en fer",
-      "ja": "アイアンサレット"
+      "ja": "アイアンサレット",
+      "ko": "철제 경량투구"
     }
   },
   {
@@ -1172,7 +1255,8 @@
       "de": "Riviera-Wappenplakette",
       "en": "Riviera Placard",
       "fr": "Enseigne murale noscéenne",
-      "ja": "ラノシアン・サインボード"
+      "ja": "ラノシアン・サインボード",
+      "ko": "라노시아 간판"
     }
   },
   {
@@ -1186,7 +1270,8 @@
       "de": "Eisensturmhaube",
       "en": "Iron Celata",
       "fr": "Celata en fer",
-      "ja": "アイアンチェラータ"
+      "ja": "アイアンチェラータ",
+      "ko": "철제 보호투구"
     }
   },
   {
@@ -1200,7 +1285,8 @@
       "de": "Eisenkürass",
       "en": "Iron Cuirass",
       "fr": "Cuirasse en fer",
-      "ja": "アイアンキュイラス"
+      "ja": "アイアンキュイラス",
+      "ko": "철제 전투흉갑"
     }
   },
   {
@@ -1214,7 +1300,8 @@
       "de": "Eisen-Panzerhandschuhe",
       "en": "Iron Gauntlets",
       "fr": "Gantelets en fer",
-      "ja": "アイアンガントレット"
+      "ja": "アイアンガントレット",
+      "ko": "철제 건틀릿"
     }
   },
   {
@@ -1228,7 +1315,8 @@
       "de": "Verstärkter Bronzefaustschild",
       "en": "Ironclad Bronze Buckler",
       "fr": "Rondache revêtue de fer",
-      "ja": "アイアンクラッドバックラー"
+      "ja": "アイアンクラッドバックラー",
+      "ko": "철갑 전투방패"
     }
   },
   {
@@ -1242,7 +1330,8 @@
       "de": "Oasen-Esstisch",
       "en": "Oasis Dining Table",
       "fr": "Table à manger thanalanaise",
-      "ja": "ザナラーン・ダイニングテーブル"
+      "ja": "ザナラーン・ダイニングテーブル",
+      "ko": "다날란 식탁"
     }
   },
   {
@@ -1256,7 +1345,8 @@
       "de": "Laternenschild",
       "en": "Iron Lantern Shield",
       "fr": "Bouclier lanterne",
-      "ja": "ランタンシールド"
+      "ja": "ランタンシールド",
+      "ko": "등불방패"
     }
   },
   {
@@ -1270,7 +1360,8 @@
       "de": "Eisen-Unterarmschienen",
       "en": "Iron Vambraces",
       "fr": "Canons d'avant-bras en fer",
-      "ja": "アイアンヴァンブレイス"
+      "ja": "アイアンヴァンブレイス",
+      "ko": "철제 완갑"
     }
   },
   {
@@ -1284,7 +1375,8 @@
       "de": "Elmo-Eisenhelm",
       "en": "Iron Elmo",
       "fr": "Elmo en fer",
-      "ja": "アイアンエルモ"
+      "ja": "アイアンエルモ",
+      "ko": "철제 기사투구"
     }
   },
   {
@@ -1298,7 +1390,8 @@
       "de": "Eisenkappen-Kampfstiefel",
       "en": "Iron-plated Jackboots",
       "fr": "Bottes militaires revêtues de fer",
-      "ja": "アイアンクラッドブーツ"
+      "ja": "アイアンクラッドブーツ",
+      "ko": "철제 기수장화"
     }
   },
   {
@@ -1312,7 +1405,8 @@
       "de": "Oasen-Deckenleuchte",
       "en": "Oasis Pendant Lamp",
       "fr": "Suspension thanalanaise",
-      "ja": "ザナラーン・ペンダントランプ"
+      "ja": "ザナラーン・ペンダントランプ",
+      "ko": "다날란 걸이식 램프"
     }
   },
   {
@@ -1326,7 +1420,8 @@
       "de": "Eisen-Destillierkolben",
       "en": "Iron Alembic",
       "fr": "Alambic en fer",
-      "ja": "アイアンアレンビック"
+      "ja": "アイアンアレンビック",
+      "ko": "철제 증류기"
     }
   },
   {
@@ -1340,7 +1435,8 @@
       "de": "Eisenbratpfanne",
       "en": "Iron Frypan",
       "fr": "Poêle à frire",
-      "ja": "フライパン"
+      "ja": "フライパン",
+      "ko": "프라이팬"
     }
   },
   {
@@ -1354,7 +1450,8 @@
       "de": "Eisenschuppen-Fingerhandschuhe",
       "en": "Iron Scale Fingers",
       "fr": "Garde-doigts d'écailles en fer",
-      "ja": "アイアンスケイルフィンガー"
+      "ja": "アイアンスケイルフィンガー",
+      "ko": "철제 미늘장갑"
     }
   },
   {
@@ -1368,7 +1465,8 @@
       "de": "Eisenschuppen-Beinschienen",
       "en": "Iron Scale Greaves",
       "fr": "Jambards d'écailles en fer",
-      "ja": "アイアンスケイルグリーヴ"
+      "ja": "アイアンスケイルグリーヴ",
+      "ko": "철제 미늘장화"
     }
   },
   {
@@ -1382,7 +1480,8 @@
       "de": "Eisen-Schuppenpanzer",
       "en": "Iron Scale Mail",
       "fr": "Armure d'écailles en fer",
-      "ja": "アイアンスケイルメイル"
+      "ja": "アイアンスケイルメイル",
+      "ko": "철제 미늘갑옷"
     }
   },
   {
@@ -1396,7 +1495,8 @@
       "de": "Eisenturmschild",
       "en": "Iron Scutum",
       "fr": "Scutum en fer",
-      "ja": "アイアンスクトゥム"
+      "ja": "アイアンスクトゥム",
+      "ko": "철제 사각방패"
     }
   },
   {
@@ -1410,7 +1510,8 @@
       "de": "Verstärkter Eisen-Plattengürtel",
       "en": "Reinforced Iron Plate Belt",
       "fr": "Ceinture de plaques en fer renforcée",
-      "ja": "アイアンプレートベルトDX"
+      "ja": "アイアンプレートベルトDX",
+      "ko": "강화 철판 허리띠"
     }
   },
   {
@@ -1424,7 +1525,8 @@
       "de": "Verstärkter Eisenschaller",
       "en": "Reinforced Iron Sallet",
       "fr": "Sallet en fer renforcé",
-      "ja": "アイアンサレットDX"
+      "ja": "アイアンサレットDX",
+      "ko": "강화 철제 경량투구"
     }
   },
   {
@@ -1438,7 +1540,8 @@
       "de": "Wald-Esstisch",
       "en": "Glade Dining Table",
       "fr": "Table à manger sombrelinçoise",
-      "ja": "シュラウド・ダイニングテーブル"
+      "ja": "シュラウド・ダイニングテーブル",
+      "ko": "검은장막 식탁"
     }
   },
   {
@@ -1452,7 +1555,8 @@
       "de": "Wald-Wappenplakette",
       "en": "Glade Placard",
       "fr": "Enseigne murale sombrelinçoise",
-      "ja": "シュラウド・サインボード"
+      "ja": "シュラウド・サインボード",
+      "ko": "검은장막 간판"
     }
   },
   {
@@ -1466,7 +1570,8 @@
       "de": "Schwere Eisenrüstung",
       "en": "Heavy Iron Armor",
       "fr": "Armure lourde en fer",
-      "ja": "ヘヴィアイアンアーマー"
+      "ja": "ヘヴィアイアンアーマー",
+      "ko": "철제 중장갑옷"
     }
   },
   {
@@ -1480,7 +1585,8 @@
       "de": "Schwerer Eisen-Flankenschützer",
       "en": "Heavy Iron Flanchard",
       "fr": "Cuissières lourdes en fer",
-      "ja": "ヘヴィアイアンフランチャード"
+      "ja": "ヘヴィアイアンフランチャード",
+      "ko": "철제 중장 허벅지갑옷"
     }
   },
   {
@@ -1494,7 +1600,8 @@
       "de": "Schwere Eisen-Panzerhandschuhe",
       "en": "Heavy Iron Gauntlets",
       "fr": "Gantelets lourds en fer",
-      "ja": "ヘヴィアイアンガントレット"
+      "ja": "ヘヴィアイアンガントレット",
+      "ko": "철제 중장 건틀릿"
     }
   },
   {
@@ -1508,7 +1615,8 @@
       "de": "Konischer Destillierkolben",
       "en": "Conical Alembic",
       "fr": "Alambic conique",
-      "ja": "コニカルアレンビック"
+      "ja": "コニカルアレンビック",
+      "ko": "원뿔 증류기"
     }
   },
   {
@@ -1522,7 +1630,8 @@
       "de": "Stahl-Scharnier",
       "en": "Steel Hinge",
       "fr": "Charnière en acier",
-      "ja": "スチールヒンジ"
+      "ja": "スチールヒンジ",
+      "ko": "강철 경첩"
     }
   },
   {
@@ -1536,7 +1645,8 @@
       "de": "Stahlbarren",
       "en": "Steel Ingot",
       "fr": "Lingot d'acier",
-      "ja": "スチールインゴット"
+      "ja": "スチールインゴット",
+      "ko": "강철 주괴"
     }
   },
   {
@@ -1550,7 +1660,8 @@
       "de": "Bomber-Bratpfanne",
       "en": "Bomb Frypan",
       "fr": "Poêle à frire bombo",
-      "ja": "ボムフライパン"
+      "ja": "ボムフライパン",
+      "ko": "봄 프라이팬"
     }
   },
   {
@@ -1564,7 +1675,8 @@
       "de": "Oasen-Prachtdeckenleuchte",
       "en": "Deluxe Oasis Pendant Lamp",
       "fr": "Plafonnier thanalanais",
-      "ja": "ザナラーン・デラックスペンダントランプ"
+      "ja": "ザナラーン・デラックスペンダントランプ",
+      "ko": "다날란 대형 걸이식 램프"
     }
   },
   {
@@ -1578,7 +1690,8 @@
       "de": "Eisen-Drachenschild",
       "en": "Iron Kite Shield",
       "fr": "Écu mandorle en fer",
-      "ja": "アイアンカイトシールド"
+      "ja": "アイアンカイトシールド",
+      "ko": "철제 연모양 방패"
     }
   },
   {
@@ -1592,7 +1705,8 @@
       "de": "Stahl-Winkeleisen",
       "en": "Steel Joint Plate",
       "fr": "Patte en acier",
-      "ja": "スチールフィッティング"
+      "ja": "スチールフィッティング",
+      "ko": "강철 이음판"
     }
   },
   {
@@ -1606,7 +1720,8 @@
       "de": "Stahlplatte",
       "en": "Steel Plate",
       "fr": "Plaque d'acier",
-      "ja": "スチールプレート"
+      "ja": "スチールプレート",
+      "ko": "강철판"
     }
   },
   {
@@ -1620,7 +1735,8 @@
       "de": "Stahlnieten",
       "en": "Steel Rivets",
       "fr": "Rivets en acier",
-      "ja": "スチールリベット"
+      "ja": "スチールリベット",
+      "ko": "강철 이음못"
     }
   },
   {
@@ -1634,7 +1750,8 @@
       "de": "Stahlkettenrüstung",
       "en": "Steel Chainmail",
       "fr": "Cotte de mailles en acier",
-      "ja": "スチールチェーンメイル"
+      "ja": "スチールチェーンメイル",
+      "ko": "강철 사슬갑옷"
     }
   },
   {
@@ -1648,7 +1765,8 @@
       "de": "Stahldrahtringe",
       "en": "Steel Rings",
       "fr": "Anneaux en acier",
-      "ja": "スチールリングズ"
+      "ja": "スチールリングズ",
+      "ko": "강철 고리"
     }
   },
   {
@@ -1662,7 +1780,8 @@
       "de": "Stahl-Bauchreifen",
       "en": "Steel Tassets",
       "fr": "Tassette en acier",
-      "ja": "スチールタセット"
+      "ja": "スチールタセット",
+      "ko": "강철 허리갑옷"
     }
   },
   {
@@ -1676,7 +1795,8 @@
       "de": "Eisenboden",
       "en": "Iron Plate Flooring",
       "fr": "Carrelage en plaques d'acier",
-      "ja": "アイアンプレートフローリング"
+      "ja": "アイアンプレートフローリング",
+      "ko": "철판 바닥"
     }
   },
   {
@@ -1690,7 +1810,8 @@
       "de": "Herrenhaus-Studiertisch",
       "en": "Manor Desk",
       "fr": "Écritoire du Manoir",
-      "ja": "御用邸の書斎机"
+      "ja": "御用邸の書斎机",
+      "ko": "별궁의 서재용 책상"
     }
   },
   {
@@ -1704,7 +1825,8 @@
       "de": "Oasen-Rundbogenpforte",
       "en": "Oasis Arched Door",
       "fr": "Porte arquée thanalanaise",
-      "ja": "ザナラーン・アーチドア"
+      "ja": "ザナラーン・アーチドア",
+      "ko": "오아시스의 아치형 대문"
     }
   },
   {
@@ -1718,7 +1840,8 @@
       "de": "Stahl-Destillierkolben",
       "en": "Steel Alembic",
       "fr": "Alambic en acier",
-      "ja": "スチールアレンビック"
+      "ja": "スチールアレンビック",
+      "ko": "강철 증류기"
     }
   },
   {
@@ -1732,7 +1855,8 @@
       "de": "Stahlschaller",
       "en": "Steel Sallet",
       "fr": "Sallet en acier",
-      "ja": "スチールサレット"
+      "ja": "スチールサレット",
+      "ko": "강철 경량투구"
     }
   },
   {
@@ -1746,7 +1870,8 @@
       "de": "Stahl-Kasserolle",
       "en": "Steel Skillet",
       "fr": "Poêle en acier",
-      "ja": "スチールスキレット"
+      "ja": "スチールスキレット",
+      "ko": "강철 주물 프라이팬"
     }
   },
   {
@@ -1760,7 +1885,8 @@
       "de": "Tiefblauer Farbstoff",
       "en": "Abyssal Blue Dye",
       "fr": "Teinture bleu marine",
-      "ja": "カララント:アビサルブルー"
+      "ja": "カララント:アビサルブルー",
+      "ko": "염료: 청보라색"
     }
   },
   {
@@ -1774,7 +1900,8 @@
       "de": "Gusseiserner Kochtopf",
       "en": "Cast-iron Cookpot",
       "fr": "Marmite suspendue",
-      "ja": "クッキングポット"
+      "ja": "クッキングポット",
+      "ko": "요리 냄비"
     }
   },
   {
@@ -1788,7 +1915,8 @@
       "de": "Jadegrüner Farbstoff",
       "en": "Celeste Green Dye",
       "fr": "Teinture vert céleste",
-      "ja": "カララント:セレストグリーン"
+      "ja": "カララント:セレストグリーン",
+      "ko": "염료: 옅은 청록색"
     }
   },
   {
@@ -1802,7 +1930,8 @@
       "de": "Kolibrirosa Farbstoff",
       "en": "Colibri Pink Dye",
       "fr": "Teinture mauve colibri",
-      "ja": "カララント:コリブリピンク"
+      "ja": "カララント:コリブリピンク",
+      "ko": "염료: 콜리브리색"
     }
   },
   {
@@ -1816,7 +1945,8 @@
       "de": "Dalamudroter Farbstoff",
       "en": "Dalamud Red Dye",
       "fr": "Teinture rouge Dalamud",
-      "ja": "カララント:ダラガブレッド"
+      "ja": "カララント:ダラガブレッド",
+      "ko": "염료: 달라가브색"
     }
   },
   {
@@ -1830,7 +1960,8 @@
       "de": "Waldgrüner Farbstoff",
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
-      "ja": "カララント:ディープウッドグリーン"
+      "ja": "カララント:ディープウッドグリーン",
+      "ko": "염료: 밀림 녹색"
     }
   },
   {
@@ -1844,7 +1975,8 @@
       "de": "Honiggelber Farbstoff",
       "en": "Honey Yellow Dye",
       "fr": "Teinture jaune miel",
-      "ja": "カララント:ハニーイエロー"
+      "ja": "カララント:ハニーイエロー",
+      "ko": "염료: 꿀색"
     }
   },
   {
@@ -1858,7 +1990,8 @@
       "de": "Jägergrüner Farbstoff",
       "en": "Hunter Green Dye",
       "fr": "Teinture vert chasseur",
-      "ja": "カララント:ハンターグリーン"
+      "ja": "カララント:ハンターグリーン",
+      "ko": "염료: 진녹색"
     }
   },
   {
@@ -1872,7 +2005,8 @@
       "de": "Koboldbrauner Farbstoff",
       "en": "Kobold Brown Dye",
       "fr": "Teinture brun kobold",
-      "ja": "カララント:コボルドブラウン"
+      "ja": "カララント:コボルドブラウン",
+      "ko": "염료: 코볼드색"
     }
   },
   {
@@ -1886,7 +2020,8 @@
       "de": "Lehmbrauner Farbstoff",
       "en": "Loam Brown Dye",
       "fr": "Teinture brun argile",
-      "ja": "カララント:ロームブラウン"
+      "ja": "カララント:ロームブラウン",
+      "ko": "염료: 비옥토색"
     }
   },
   {
@@ -1900,7 +2035,8 @@
       "de": "Lotusrosa Farbstoff",
       "en": "Lotus Pink Dye",
       "fr": "Teinture mauve lotus",
-      "ja": "カララント:ロータスピンク"
+      "ja": "カララント:ロータスピンク",
+      "ko": "염료: 연꽃색"
     }
   },
   {
@@ -1914,7 +2050,8 @@
       "de": "Maisgelber Farbstoff",
       "en": "Millioncorn Yellow Dye",
       "fr": "Teinture jaune milli-maïs",
-      "ja": "カララント:ミリオンコーンイエロー"
+      "ja": "カララント:ミリオンコーンイエロー",
+      "ko": "염료: 옥수수색"
     }
   },
   {
@@ -1928,7 +2065,8 @@
       "de": "Morbolgrüner Farbstoff",
       "en": "Morbol Green Dye",
       "fr": "Teinture vert morbol",
-      "ja": "カララント:モルボルグリーン"
+      "ja": "カララント:モルボルグリーン",
+      "ko": "염료: 몰볼색"
     }
   },
   {
@@ -1942,7 +2080,8 @@
       "de": "Ochugrüner Farbstoff",
       "en": "Ochu Green Dye",
       "fr": "Teinture vert otyugh",
-      "ja": "カララント:オチューグリーン"
+      "ja": "カララント:オチューグリーン",
+      "ko": "염료: 오츄색"
     }
   },
   {
@@ -1956,7 +2095,8 @@
       "de": "Othardblauer Farbstoff",
       "en": "Othard Blue Dye",
       "fr": "Teinture bleu d'Othard",
-      "ja": "カララント:オサードブルー"
+      "ja": "カララント:オサードブルー",
+      "ko": "염료: 오사드 바다색"
     }
   },
   {
@@ -1970,7 +2110,8 @@
       "de": "Pflaumenvioletter Farbstoff",
       "en": "Plum Purple Dye",
       "fr": "Teinture prune",
-      "ja": "カララント:プラムパープル"
+      "ja": "カララント:プラムパープル",
+      "ko": "염료: 매화색"
     }
   },
   {
@@ -1984,7 +2125,8 @@
       "de": "Kürbisoranger Farbstoff",
       "en": "Pumpkin Orange Dye",
       "fr": "Teinture orange citrouille",
-      "ja": "カララント:パンプキンオレンジ"
+      "ja": "カララント:パンプキンオレンジ",
+      "ko": "염료: 늙은호박색"
     }
   },
   {
@@ -1998,7 +2140,8 @@
       "de": "Königsvioletter Farbstoff",
       "en": "Regal Purple Dye",
       "fr": "Teinture byzantium",
-      "ja": "カララント:リーガルパープル"
+      "ja": "カララント:リーガルパープル",
+      "ko": "염료: 자주색"
     }
   },
   {
@@ -2012,7 +2155,8 @@
       "de": "Königsblauer Farbstoff",
       "en": "Royal Blue Dye",
       "fr": "Teinture bleu royal",
-      "ja": "カララント:ロイヤルブルー"
+      "ja": "カララント:ロイヤルブルー",
+      "ko": "염료: 감청색"
     }
   },
   {
@@ -2026,7 +2170,8 @@
       "de": "Schneeweißer Farbstoff",
       "en": "Snow White Dye",
       "fr": "Teinture blanc neige",
-      "ja": "カララント:スノウホワイト"
+      "ja": "カララント:スノウホワイト",
+      "ko": "염료: 하얀 눈색"
     }
   },
   {
@@ -2040,7 +2185,8 @@
       "de": "Rußschwarzer Farbstoff",
       "en": "Soot Black Dye",
       "fr": "Teinture noir suie",
-      "ja": "カララント:スートブラック"
+      "ja": "カララント:スートブラック",
+      "ko": "염료: 숯검정색"
     }
   },
   {
@@ -2054,7 +2200,8 @@
       "de": "Stahl-Sturmhaube",
       "en": "Steel Celata",
       "fr": "Celata en acier",
-      "ja": "スチールチェラータ"
+      "ja": "スチールチェラータ",
+      "ko": "강철 보호투구"
     }
   },
   {
@@ -2068,7 +2215,8 @@
       "de": "Stahlkürass",
       "en": "Steel Cuirass",
       "fr": "Cuirasse en acier",
-      "ja": "スチールキュイラス"
+      "ja": "スチールキュイラス",
+      "ko": "강철 전투흉갑"
     }
   },
   {
@@ -2082,7 +2230,8 @@
       "de": "Stahl-Panzerhandschuhe",
       "en": "Steel Gauntlets",
       "fr": "Gantelets en acier",
-      "ja": "スチールガントレット"
+      "ja": "スチールガントレット",
+      "ko": "강철 건틀릿"
     }
   },
   {
@@ -2096,7 +2245,8 @@
       "de": "Stahl-Bärlatschen",
       "en": "Steel Sabatons",
       "fr": "Sabatons en acier",
-      "ja": "スチールサバトン"
+      "ja": "スチールサバトン",
+      "ko": "강철 판금장화"
     }
   },
   {
@@ -2110,7 +2260,8 @@
       "de": "Stahlkappen-Kampfstiefel",
       "en": "Steel-plated Jackboots",
       "fr": "Bottes militaires revêtues d'acier",
-      "ja": "スチールクラッドブーツ"
+      "ja": "スチールクラッドブーツ",
+      "ko": "강철 기수장화"
     }
   },
   {
@@ -2124,7 +2275,8 @@
       "de": "Sturmblauer Farbstoff",
       "en": "Storm Blue Dye",
       "fr": "Teinture bleu tempête",
-      "ja": "カララント:ストームブルー"
+      "ja": "カララント:ストームブルー",
+      "ko": "염료: 선명한 파란색"
     }
   },
   {
@@ -2138,7 +2290,8 @@
       "de": "Abendroter Farbstoff",
       "en": "Sunset Orange Dye",
       "fr": "Teinture orange couchant",
-      "ja": "カララント:サンセットオレンジ"
+      "ja": "カララント:サンセットオレンジ",
+      "ko": "염료: 노을색"
     }
   },
   {
@@ -2152,7 +2305,8 @@
       "de": "Nichtsblauer Farbstoff",
       "en": "Void Blue Dye",
       "fr": "Teinture bleu du néant",
-      "ja": "カララント:ヴォイドブルー"
+      "ja": "カララント:ヴォイドブルー",
+      "ko": "염료: 보이드의 파란색"
     }
   },
   {
@@ -2166,7 +2320,8 @@
       "de": "Weinroter Farbstoff",
       "en": "Wine Red Dye",
       "fr": "Teinture lie-de-vin",
-      "ja": "カララント:ワインレッド"
+      "ja": "カララント:ワインレッド",
+      "ko": "염료: 포도주색"
     }
   },
   {
@@ -2180,7 +2335,8 @@
       "de": "Indigoblauer Farbstoff",
       "en": "Woad Blue Dye",
       "fr": "Teinture bleu guède",
-      "ja": "カララント:ウォードブルー"
+      "ja": "カララント:ウォードブルー",
+      "ko": "염료: 쪽빛 파란색"
     }
   },
   {
@@ -2194,7 +2350,8 @@
       "de": "Bullen-Aspis",
       "en": "Bull Hoplon",
       "fr": "Hoplon taureau",
-      "ja": "ブルホプロン"
+      "ja": "ブルホプロン",
+      "ko": "황소 전통방패"
     }
   },
   {
@@ -2208,7 +2365,8 @@
       "de": "Elmo-Stahlhelm",
       "en": "Steel Elmo",
       "fr": "Elmo en acier",
-      "ja": "スチールエルモ"
+      "ja": "スチールエルモ",
+      "ko": "강철 기사투구"
     }
   },
   {
@@ -2222,7 +2380,8 @@
       "de": "Stahl-Plattengürtel",
       "en": "Steel Plate Belt",
       "fr": "Ceinture de plaques en acier",
-      "ja": "スチールプレートベルト"
+      "ja": "スチールプレートベルト",
+      "ko": "강철판 허리띠"
     }
   },
   {
@@ -2236,7 +2395,8 @@
       "de": "Stahl-Unterarmschienen",
       "en": "Steel Vambraces",
       "fr": "Canons d'avant-bras en acier",
-      "ja": "スチールヴァンブレイス"
+      "ja": "スチールヴァンブレイス",
+      "ko": "강철 완갑"
     }
   },
   {
@@ -2250,7 +2410,8 @@
       "de": "Riviera-Rundtisch",
       "en": "Riviera Round Table",
       "fr": "Table ronde noscéenne",
-      "ja": "ラノシアン・ラウンドテーブル"
+      "ja": "ラノシアン・ラウンドテーブル",
+      "ko": "라노시아 원탁"
     }
   },
   {
@@ -2264,7 +2425,8 @@
       "de": "Riviera-Kleiderschrank",
       "en": "Riviera Wardrobe",
       "fr": "Penderie noscéenne",
-      "ja": "ラノシアン・ワードローブ"
+      "ja": "ラノシアン・ワードローブ",
+      "ko": "라노시아 옷장"
     }
   },
   {
@@ -2278,7 +2440,8 @@
       "de": "Stahlschuppen-Fingerhandschuhe",
       "en": "Steel Scale Fingers",
       "fr": "Garde-doigts d'écailles en acier",
-      "ja": "スチールスケイルフィンガー"
+      "ja": "スチールスケイルフィンガー",
+      "ko": "강철 미늘장갑"
     }
   },
   {
@@ -2292,7 +2455,8 @@
       "de": "Stahlschuppen-Beinschienen",
       "en": "Steel Scale Greaves",
       "fr": "Jambards d'écailles en acier",
-      "ja": "スチールスケイルグリーヴ"
+      "ja": "スチールスケイルグリーヴ",
+      "ko": "강철 미늘장화"
     }
   },
   {
@@ -2306,7 +2470,8 @@
       "de": "Stahl-Schuppenpanzer",
       "en": "Steel Scale Mail",
       "fr": "Armure d'écailles en acier",
-      "ja": "スチールスケイルメイル"
+      "ja": "スチールスケイルメイル",
+      "ko": "강철 미늘갑옷"
     }
   },
   {
@@ -2320,7 +2485,8 @@
       "de": "Prunkfaustschild",
       "en": "Decorated Buckler",
       "fr": "Rondache ornée",
-      "ja": "デコレーテッドバックラー"
+      "ja": "デコレーテッドバックラー",
+      "ko": "장식 전투방패"
     }
   },
   {
@@ -2334,7 +2500,8 @@
       "de": "Weiße Kasserolle",
       "en": "White Skillet",
       "fr": "Poêle blanche",
-      "ja": "ホワイトスキレット"
+      "ja": "ホワイトスキレット",
+      "ko": "백색 주물 프라이팬"
     }
   },
   {
@@ -2348,7 +2515,8 @@
       "de": "Ahriman-Rundtisch",
       "en": "Ahriman Round Table",
       "fr": "Table ronde ahriman",
-      "ja": "アーリマンラウンドテーブル"
+      "ja": "アーリマンラウンドテーブル",
+      "ko": "아리만 원탁"
     }
   },
   {
@@ -2362,7 +2530,8 @@
       "de": "Prunk-Eisenturmschild",
       "en": "Decorated Iron Scutum",
       "fr": "Scutum en fer orné",
-      "ja": "アイアンスクトゥムDX"
+      "ja": "アイアンスクトゥムDX",
+      "ko": "강화 철제 사각방패"
     }
   },
   {
@@ -2376,7 +2545,8 @@
       "de": "Schwere Stahlrüstung",
       "en": "Heavy Steel Armor",
       "fr": "Armure lourde en acier",
-      "ja": "ヘヴィスチールアーマー"
+      "ja": "ヘヴィスチールアーマー",
+      "ko": "강철 중장갑옷"
     }
   },
   {
@@ -2390,7 +2560,8 @@
       "de": "Schwere Stahl-Panzerhandschuhe",
       "en": "Heavy Steel Gauntlets",
       "fr": "Gantelets lourds en acier",
-      "ja": "ヘヴィスチールガントレット"
+      "ja": "ヘヴィスチールガントレット",
+      "ko": "강철 중장 건틀릿"
     }
   },
   {
@@ -2404,7 +2575,8 @@
       "de": "Verstärkter Stahl-Plattengürtel",
       "en": "Reinforced Steel Plate Belt",
       "fr": "Ceinture de plaques en acier renforcée",
-      "ja": "スチールプレートベルトDX"
+      "ja": "スチールプレートベルトDX",
+      "ko": "강화 강철판 허리띠"
     }
   },
   {
@@ -2418,7 +2590,8 @@
       "de": "Riviera-Esstisch",
       "en": "Riviera Dining Table",
       "fr": "Table à manger noscéenne",
-      "ja": "ラノシアン・ダイニングテーブル"
+      "ja": "ラノシアン・ダイニングテーブル",
+      "ko": "라노시아 식탁"
     }
   },
   {
@@ -2432,7 +2605,8 @@
       "de": "Riviera-Rundschornstein",
       "en": "Riviera Rounded Chimney",
       "fr": "Cheminée cylindrique noscéenne",
-      "ja": "ラノシアン・ラウンドチムニー"
+      "ja": "ラノシアン・ラウンドチムニー",
+      "ko": "라노시아 원형 굴뚝"
     }
   },
   {
@@ -2446,7 +2620,8 @@
       "de": "Silber-Destillierkolben",
       "en": "Silver Alembic",
       "fr": "Alambic en argent",
-      "ja": "シルバーアレンビック"
+      "ja": "シルバーアレンビック",
+      "ko": "은제 증류기"
     }
   },
   {
@@ -2460,7 +2635,8 @@
       "de": "Entdecker-Feuerstelle",
       "en": "Explorer's Campfire",
       "fr": "Feu de camp d'explorateur",
-      "ja": "探検家の焚火炉"
+      "ja": "探検家の焚火炉",
+      "ko": "탐험가의 모닥불"
     }
   },
   {
@@ -2474,7 +2650,8 @@
       "de": "Schwerer Stahl-Flankenschützer",
       "en": "Heavy Steel Flanchard",
       "fr": "Cuissières lourdes en acier",
-      "ja": "ヘヴィスチールフランチャード"
+      "ja": "ヘヴィスチールフランチャード",
+      "ko": "강철 중장 허벅지갑옷"
     }
   },
   {
@@ -2488,7 +2665,8 @@
       "de": "Stahl-Barbuta",
       "en": "Steel Barbut",
       "fr": "Barbute en acier",
-      "ja": "スチールバルビュート"
+      "ja": "スチールバルビュート",
+      "ko": "강철 무장투구"
     }
   },
   {
@@ -2502,7 +2680,8 @@
       "de": "Stahl-Panzerfäustlinge",
       "en": "Steel Mitt Gauntlets",
       "fr": "Gantelets-mitons en acier",
-      "ja": "スチールミトンガントレット"
+      "ja": "スチールミトンガントレット",
+      "ko": "강철 벙어리 건틀릿"
     }
   },
   {
@@ -2516,11 +2695,11 @@
       "de": "Stahlverstärkte Caligae",
       "en": "Steel-plated Caligae",
       "fr": "Caligae revêtues d'acier",
-      "ja": "スチールアーマードカリガ"
+      "ja": "スチールアーマードカリガ",
+      "ko": "강철 장갑군화"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2531,7 +2710,8 @@
       "de": "Restaurierter Aspis",
       "en": "Vintage Hoplon",
       "fr": "Hoplon de collection",
-      "ja": "ヴィンテージホプロン"
+      "ja": "ヴィンテージホプロン",
+      "ko": "고풍스러운 전통방패"
     }
   },
   {
@@ -2545,7 +2725,8 @@
       "de": "Wald-Wandschornstein",
       "en": "Glade Wall Chimney",
       "fr": "Cheminée extérieure sombrelinçoise",
-      "ja": "シュラウド・ウォールチムニー"
+      "ja": "シュラウド・ウォールチムニー",
+      "ko": "검은장막 벽붙이 굴뚝"
     }
   },
   {
@@ -2559,7 +2740,8 @@
       "de": "Mithril-Barren",
       "en": "Mythril Ingot",
       "fr": "Lingot de mithril",
-      "ja": "ミスリルインゴット"
+      "ja": "ミスリルインゴット",
+      "ko": "미스릴 주괴"
     }
   },
   {
@@ -2573,7 +2755,8 @@
       "de": "Stahlbratpfanne",
       "en": "Steel Frypan",
       "fr": "Poêle à frire en acier",
-      "ja": "スチールフライパン"
+      "ja": "スチールフライパン",
+      "ko": "강철 프라이팬"
     }
   },
   {
@@ -2587,7 +2770,8 @@
       "de": "Klingenbewehrter Laternenschild",
       "en": "Bladed Lantern Shield",
       "fr": "Bouclier lanterne à lames",
-      "ja": "ダブルブレードシールド"
+      "ja": "ダブルブレードシールド",
+      "ko": "쌍검방패"
     }
   },
   {
@@ -2601,7 +2785,8 @@
       "de": "Hornschuppen-Beinschienen",
       "en": "Horn Scale Greaves",
       "fr": "Jambards d'écailles en corne",
-      "ja": "ホーンスケイルグリーヴ"
+      "ja": "ホーンスケイルグリーヴ",
+      "ko": "뿔 미늘장화"
     }
   },
   {
@@ -2615,7 +2800,8 @@
       "de": "Mithrildraht-Ringe",
       "en": "Mythril Rings",
       "fr": "Anneaux en mithril",
-      "ja": "ミスリルリングズ"
+      "ja": "ミスリルリングズ",
+      "ko": "미스릴 고리"
     }
   },
   {
@@ -2629,7 +2815,8 @@
       "de": "Mithrilnieten",
       "en": "Mythril Rivets",
       "fr": "Rivets en mithril",
-      "ja": "ミスリルリベット"
+      "ja": "ミスリルリベット",
+      "ko": "미스릴 이음못"
     }
   },
   {
@@ -2643,7 +2830,8 @@
       "de": "Belah'dische Kristall-Laterne",
       "en": "Belah'dian Crystal Lantern",
       "fr": "Girandole belahdienne",
-      "ja": "ベラフディアン・クリスタルランタン"
+      "ja": "ベラフディアン・クリスタルランタン",
+      "ko": "벨라흐디아 크리스탈 램프"
     }
   },
   {
@@ -2657,7 +2845,8 @@
       "de": "Knochen-Schuppen-Fingerhandschuhe",
       "en": "Horn Scale Fingers",
       "fr": "Garde-doigts d'écailles en os",
-      "ja": "ホーンスケイルフィンガー"
+      "ja": "ホーンスケイルフィンガー",
+      "ko": "뿔 미늘장갑"
     }
   },
   {
@@ -2671,7 +2860,8 @@
       "de": "Mithril-Sturmhaube",
       "en": "Mythril Celata",
       "fr": "Celata en mithril",
-      "ja": "ミスリルチェラータ"
+      "ja": "ミスリルチェラータ",
+      "ko": "미스릴 보호투구"
     }
   },
   {
@@ -2685,7 +2875,8 @@
       "de": "Mithril-Platte",
       "en": "Mythril Plate",
       "fr": "Plaque de mithril",
-      "ja": "ミスリルプレート"
+      "ja": "ミスリルプレート",
+      "ko": "미스릴판"
     }
   },
   {
@@ -2699,11 +2890,11 @@
       "de": "Mithril-Plattengürtel",
       "en": "Mythril Plate Belt",
       "fr": "Ceinture de plaques en mithril",
-      "ja": "ミスリルプレートベルト"
+      "ja": "ミスリルプレートベルト",
+      "ko": "미스릴판 허리띠"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -2714,7 +2905,8 @@
       "de": "Restaurierte Sturmhaube",
       "en": "Vintage Celata",
       "fr": "Celata de collection",
-      "ja": "ヴィンテージチェラータ"
+      "ja": "ヴィンテージチェラータ",
+      "ko": "고풍스러운 보호투구"
     }
   },
   {
@@ -2728,7 +2920,8 @@
       "de": "Mithrilkürass",
       "en": "Mythril Cuirass",
       "fr": "Cuirasse en mithril",
-      "ja": "ミスリルキュイラス"
+      "ja": "ミスリルキュイラス",
+      "ko": "미스릴 전투흉갑"
     }
   },
   {
@@ -2742,7 +2935,8 @@
       "de": "Mithril-Panzerhandschuhe",
       "en": "Mythril Gauntlets",
       "fr": "Gantelets en mithril",
-      "ja": "ミスリルガントレット"
+      "ja": "ミスリルガントレット",
+      "ko": "미스릴 건틀릿"
     }
   },
   {
@@ -2756,7 +2950,8 @@
       "de": "Mithril-Bärlatschen",
       "en": "Mythril Sabatons",
       "fr": "Sabatons en mithril",
-      "ja": "ミスリルサバトン"
+      "ja": "ミスリルサバトン",
+      "ko": "미스릴 판금장화"
     }
   },
   {
@@ -2770,7 +2965,8 @@
       "de": "Ovaler Nussholztisch",
       "en": "Mythril Table",
       "fr": "Table de jardin en mithril",
-      "ja": "ミスリルガーデンテーブル"
+      "ja": "ミスリルガーデンテーブル",
+      "ko": "정원용 미스릴 탁자"
     }
   },
   {
@@ -2784,7 +2980,8 @@
       "de": "Knochen-Schuppenpanzer",
       "en": "Horn Scale Mail",
       "fr": "Armure d'écailles en corne",
-      "ja": "ホーンスケイルメイル"
+      "ja": "ホーンスケイルメイル",
+      "ko": "뿔 미늘갑옷"
     }
   },
   {
@@ -2798,7 +2995,8 @@
       "de": "Mithril-Destillierkolben",
       "en": "Mythril Alembic",
       "fr": "Alambic en mithril",
-      "ja": "ミスリルアレンビック"
+      "ja": "ミスリルアレンビック",
+      "ko": "미스릴 증류기"
     }
   },
   {
@@ -2812,11 +3010,11 @@
       "de": "Elmo-Mithrilhelm",
       "en": "Mythril Elmo",
       "fr": "Elmo en mithril",
-      "ja": "ミスリルエルモ"
+      "ja": "ミスリルエルモ",
+      "ko": "미스릴 기사투구"
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
@@ -2827,7 +3025,8 @@
       "de": "Restaurierter Turmschild",
       "en": "Vintage Scutum",
       "fr": "Scutum de collection",
-      "ja": "ヴィンテージスクトゥム"
+      "ja": "ヴィンテージスクトゥム",
+      "ko": "고풍스러운 사각방패"
     }
   },
   {
@@ -2841,7 +3040,8 @@
       "de": "Wald-Aushängeschild",
       "en": "Glade Hanging Placard",
       "fr": "Enseigne à potence sombrelinçoise",
-      "ja": "シュラウド・ハンギングボード"
+      "ja": "シュラウド・ハンギングボード",
+      "ko": "검은장막 벽걸이 간판"
     }
   },
   {
@@ -2855,7 +3055,8 @@
       "de": "Mithril-Barbuta",
       "en": "Mythril Barbut",
       "fr": "Barbute en mithril",
-      "ja": "ミスリルバルビュート"
+      "ja": "ミスリルバルビュート",
+      "ko": "미스릴 무장투구"
     }
   },
   {
@@ -2869,7 +3070,8 @@
       "de": "Mithril-Unterarmschienen",
       "en": "Mythril Vambraces",
       "fr": "Canons d'avant-bras en mithril",
-      "ja": "ミスリルヴァンブレイス"
+      "ja": "ミスリルヴァンブレイス",
+      "ko": "미스릴 완갑"
     }
   },
   {
@@ -2883,11 +3085,11 @@
       "de": "Mithrilkappen-Kampfstiefel",
       "en": "Mythril-plated Jackboots",
       "fr": "Bottes militaires revêtues de mithril",
-      "ja": "ミスリルクラッドブーツ"
+      "ja": "ミスリルクラッドブーツ",
+      "ko": "미스릴 기수장화"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 41,
     "difficulty": 143,
     "durability": 80,
@@ -2898,7 +3100,8 @@
       "de": "Restaurierter Schuppenpanzer",
       "en": "Vintage Scale Mail",
       "fr": "Armure d'écailles de collection",
-      "ja": "ヴィンテージスケイルメイル"
+      "ja": "ヴィンテージスケイルメイル",
+      "ko": "고풍스러운 미늘갑옷"
     }
   },
   {
@@ -2912,7 +3115,8 @@
       "de": "Koboldeisenbarren",
       "en": "Cobalt Ingot",
       "fr": "Lingot de cobalt",
-      "ja": "コバルトインゴット"
+      "ja": "コバルトインゴット",
+      "ko": "코발트 주괴"
     }
   },
   {
@@ -2926,7 +3130,8 @@
       "de": "Elektrum-Destillierkolben",
       "en": "Electrum Alembic",
       "fr": "Alambic en électrum",
-      "ja": "エレクトラムアレンビック"
+      "ja": "エレクトラムアレンビック",
+      "ko": "호박금 증류기"
     }
   },
   {
@@ -2940,7 +3145,8 @@
       "de": "Mithrilkettenhaube",
       "en": "Mythril Chain Coif",
       "fr": "Coiffe en mailles de mithril",
-      "ja": "ミスリルチェーンコイフ"
+      "ja": "ミスリルチェーンコイフ",
+      "ko": "미스릴 사슬머리쓰개"
     }
   },
   {
@@ -2954,7 +3160,8 @@
       "de": "Mithril-Hauberk",
       "en": "Mythril Haubergeon",
       "fr": "Haubergeon en mithril",
-      "ja": "ミスリルホーバージョン"
+      "ja": "ミスリルホーバージョン",
+      "ko": "미스릴 고리갑옷"
     }
   },
   {
@@ -2968,7 +3175,8 @@
       "de": "Mithril-Mesailvisier",
       "en": "Mythril Mesail",
       "fr": "Mésail",
-      "ja": "メセイル"
+      "ja": "メセイル",
+      "ko": "면갑"
     }
   },
   {
@@ -2982,7 +3190,8 @@
       "de": "Mithril-Sollerets",
       "en": "Mythril Sollerets",
       "fr": "Solerets en mithril",
-      "ja": "ミスリルソルレット"
+      "ja": "ミスリルソルレット",
+      "ko": "미스릴 쇠구두"
     }
   },
   {
@@ -2996,7 +3205,8 @@
       "de": "Mithrilverstärkte Caligae",
       "en": "Mythril-plated Caligae",
       "fr": "Caligae revêtues de mithril",
-      "ja": "ミスリルアーマードカリガ"
+      "ja": "ミスリルアーマードカリガ",
+      "ko": "미스릴 장갑군화"
     }
   },
   {
@@ -3010,7 +3220,8 @@
       "de": "Koboldeisenplatte",
       "en": "Cobalt Plate",
       "fr": "Plaque de cobalt",
-      "ja": "コバルトプレート"
+      "ja": "コバルトプレート",
+      "ko": "코발트판"
     }
   },
   {
@@ -3024,7 +3235,8 @@
       "de": "Koboldeisendrahtringe",
       "en": "Cobalt Rings",
       "fr": "Anneaux en cobalt",
-      "ja": "コバルトリングズ"
+      "ja": "コバルトリングズ",
+      "ko": "코발트 고리"
     }
   },
   {
@@ -3038,7 +3250,8 @@
       "de": "Koboldeisen-Kasserolle",
       "en": "Cobalt Skillet",
       "fr": "Poêle en cobalt",
-      "ja": "コバルトスキレット"
+      "ja": "コバルトスキレット",
+      "ko": "코발트 주물 프라이팬"
     }
   },
   {
@@ -3052,7 +3265,8 @@
       "de": "Mithril-Flankenschützer",
       "en": "High Mythril Flanchard",
       "fr": "Cuissières lourdes en mithril",
-      "ja": "ヘヴィミスリルフランチャード"
+      "ja": "ヘヴィミスリルフランチャード",
+      "ko": "미스릴 중장 허벅지갑옷"
     }
   },
   {
@@ -3066,7 +3280,8 @@
       "de": "Edelmithril-Panzerhandschuhe",
       "en": "High Mythril Gauntlets",
       "fr": "Gantelets lourds en mithril",
-      "ja": "ヘヴィミスリルガントレット"
+      "ja": "ヘヴィミスリルガントレット",
+      "ko": "미스릴 중장 건틀릿"
     }
   },
   {
@@ -3080,7 +3295,8 @@
       "de": "Edelmithril-Plattengürtel",
       "en": "High Mythril Plate Belt",
       "fr": "Ceinture de plaques lourde en mithril",
-      "ja": "ヘヴィ・ミスリルプレートベルト"
+      "ja": "ヘヴィ・ミスリルプレートベルト",
+      "ko": "미스릴 중장 판금 허리띠"
     }
   },
   {
@@ -3094,7 +3310,8 @@
       "de": "Mithril-Panzerfäustlinge",
       "en": "Mythril Mitt Gauntlets",
       "fr": "Gantelets-mitons en mithril",
-      "ja": "ミスリルミトンガントレット"
+      "ja": "ミスリルミトンガントレット",
+      "ko": "미스릴 벙어리 건틀릿"
     }
   },
   {
@@ -3108,11 +3325,11 @@
       "de": "Riviera-Aushängeschild",
       "en": "Riviera Hanging Placard",
       "fr": "Enseigne à potence noscéenne",
-      "ja": "ラノシアン・ハンギングボード"
+      "ja": "ラノシアン・ハンギングボード",
+      "ko": "라노시아 벽걸이 간판"
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -3123,7 +3340,8 @@
       "de": "Restaurierter Faustschild",
       "en": "Vintage Buckler",
       "fr": "Rondache de collection",
-      "ja": "ヴィンテージバックラー"
+      "ja": "ヴィンテージバックラー",
+      "ko": "고풍스러운 전투방패"
     }
   },
   {
@@ -3137,7 +3355,8 @@
       "de": "Koboldeisen-Winkeleisen",
       "en": "Cobalt Joint Plate",
       "fr": "Patte en cobalt",
-      "ja": "コバルトフィッティング"
+      "ja": "コバルトフィッティング",
+      "ko": "코발트 이음판"
     }
   },
   {
@@ -3151,7 +3370,8 @@
       "de": "Koboldeisennieten",
       "en": "Cobalt Rivets",
       "fr": "Rivets en cobalt",
-      "ja": "コバルトリベット"
+      "ja": "コバルトリベット",
+      "ko": "코발트 이음못"
     }
   },
   {
@@ -3165,7 +3385,8 @@
       "de": "Stahl-Turmschild",
       "en": "Cobalt Scutum",
       "fr": "Scutum en cobalt",
-      "ja": "コバルトスクトゥム"
+      "ja": "コバルトスクトゥム",
+      "ko": "코발트 사각방패"
     }
   },
   {
@@ -3179,7 +3400,8 @@
       "de": "Koboldeisen-Unterarmschienen",
       "en": "Cobalt Vambraces",
       "fr": "Canons d'avant-bras en cobalt",
-      "ja": "コバルトヴァンブレイス"
+      "ja": "コバルトヴァンブレイス",
+      "ko": "코발트 완갑"
     }
   },
   {
@@ -3193,7 +3415,8 @@
       "de": "Mithril-Körperpanzer",
       "en": "High Mythril Armor",
       "fr": "Armure lourde en mithril",
-      "ja": "ヘヴィミスリルアーマー"
+      "ja": "ヘヴィミスリルアーマー",
+      "ko": "미스릴 중장갑옷"
     }
   },
   {
@@ -3207,7 +3430,8 @@
       "de": "Verstärkter Elmo-Mithrilhelm",
       "en": "Reinforced Mythril Elmo",
       "fr": "Elmo en mithril renforcé",
-      "ja": "ミスリルエルモDX"
+      "ja": "ミスリルエルモDX",
+      "ko": "강화 미스릴 기사투구"
     }
   },
   {
@@ -3221,7 +3445,8 @@
       "de": "Elmo-Koboldeisenhelm",
       "en": "Cobalt Elmo",
       "fr": "Elmo en cobalt",
-      "ja": "コバルトエルモ"
+      "ja": "コバルトエルモ",
+      "ko": "코발트 기사투구"
     }
   },
   {
@@ -3235,7 +3460,8 @@
       "de": "Koboldeisenkappen-Kampfstiefel",
       "en": "Cobalt-plated Jackboots",
       "fr": "Bottes militaires revêtues de cobalt",
-      "ja": "コバルトクラッドブーツ"
+      "ja": "コバルトクラッドブーツ",
+      "ko": "코발트 기수장화"
     }
   },
   {
@@ -3249,7 +3475,8 @@
       "de": "Wald-Rundschornstein",
       "en": "Glade Rounded Chimney",
       "fr": "Cheminée cylindrique sombrelinçoise",
-      "ja": "シュラウド・ラウンドチムニー"
+      "ja": "シュラウド・ラウンドチムニー",
+      "ko": "검은장막 원형 굴뚝"
     }
   },
   {
@@ -3263,7 +3490,8 @@
       "de": "Mogry-Briefkasten",
       "en": "Moogle Letter Box",
       "fr": "Boîte à lettres mog",
-      "ja": "モグレターポスト"
+      "ja": "モグレターポスト",
+      "ko": "모그레터 우편함"
     }
   },
   {
@@ -3277,7 +3505,8 @@
       "de": "Schildpatt-Schuppen-Fingerhandschuhe",
       "en": "Tortoiseshell Scale Fingers",
       "fr": "Garde-doigts d'écailles de tortue",
-      "ja": "トータススケイルフィンガー"
+      "ja": "トータススケイルフィンガー",
+      "ko": "등딱지 미늘장갑"
     }
   },
   {
@@ -3291,7 +3520,8 @@
       "de": "Schildpatt-Schuppen-Beinschienen",
       "en": "Tortoiseshell Scale Greaves",
       "fr": "Jambards d'écailles de tortue",
-      "ja": "トータススケイルグリーヴ"
+      "ja": "トータススケイルグリーヴ",
+      "ko": "등딱지 미늘장화"
     }
   },
   {
@@ -3305,11 +3535,11 @@
       "de": "Schildpatt-Schuppenpanzer",
       "en": "Tortoiseshell Scale Mail",
       "fr": "Armure d'écailles de tortue",
-      "ja": "トータススケイルメイル"
+      "ja": "トータススケイルメイル",
+      "ko": "등딱지 미늘갑옷"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -3320,7 +3550,8 @@
       "de": "Restaurierter Drachenschild",
       "en": "Vintage Kite Shield",
       "fr": "Écu mandorle de collection",
-      "ja": "ヴィンテージカイトシールド"
+      "ja": "ヴィンテージカイトシールド",
+      "ko": "고풍스러운 연모양 방패"
     }
   },
   {
@@ -3334,7 +3565,8 @@
       "de": "Koboldeisen-Barbuta",
       "en": "Cobalt Barbut",
       "fr": "Barbute en cobalt",
-      "ja": "コバルトバルビュート"
+      "ja": "コバルトバルビュート",
+      "ko": "코발트 무장투구"
     }
   },
   {
@@ -3348,7 +3580,8 @@
       "de": "Koboldeisenverstärkte Caligae",
       "en": "Cobalt-plated Caligae",
       "fr": "Caligae revêtues de cobalt",
-      "ja": "コバルトアーマードカリガ"
+      "ja": "コバルトアーマードカリガ",
+      "ko": "코발트 장갑군화"
     }
   },
   {
@@ -3362,7 +3595,8 @@
       "de": "Metallboden",
       "en": "Metal Flooring",
       "fr": "Parquet métallique",
-      "ja": "メタルフローリング"
+      "ja": "メタルフローリング",
+      "ko": "강철 바닥"
     }
   },
   {
@@ -3376,7 +3610,8 @@
       "de": "Metall-Wandverkleidung",
       "en": "Metal Interior Wall",
       "fr": "Revêtement mural métallique",
-      "ja": "メタルインナーウォール"
+      "ja": "メタルインナーウォール",
+      "ko": "강철 내벽"
     }
   },
   {
@@ -3390,11 +3625,11 @@
       "de": "Riviera-Schreibtisch",
       "en": "Riviera Desk",
       "fr": "Bureau noscéen",
-      "ja": "ラノシアン・デスク"
+      "ja": "ラノシアン・デスク",
+      "ko": "라노시아 책상"
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 46,
     "difficulty": 159,
     "durability": 80,
@@ -3405,7 +3640,8 @@
       "de": "Restauriertes Eisen-Hauberk",
       "en": "Vintage Haubergeon",
       "fr": "Haubergeon de collection",
-      "ja": "ヴィンテージホーバージョン"
+      "ja": "ヴィンテージホーバージョン",
+      "ko": "고풍스러운 고리갑옷"
     }
   },
   {
@@ -3419,11 +3655,11 @@
       "de": "Teufels Küche",
       "en": "Hells' Kitchen",
       "fr": "Chaudron d'Ifrit",
-      "ja": "イフリートフライパン"
+      "ja": "イフリートフライパン",
+      "ko": "이프리트 프라이팬"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -3434,7 +3670,8 @@
       "de": "Mooshorn-Schuppenpanzer",
       "en": "Mosshorn Scale Mail",
       "fr": "Armure d'écailles de cornemousse",
-      "ja": "モスホーンスケイルメイル"
+      "ja": "モスホーンスケイルメイル",
+      "ko": "이끼뿔 미늘갑옷"
     }
   },
   {
@@ -3448,7 +3685,8 @@
       "de": "Koboldeisen-Panzerfäustlinge",
       "en": "Cobalt Mitt Gauntlets",
       "fr": "Gantelets-mitons en cobalt",
-      "ja": "コバルトミトンガントレット"
+      "ja": "コバルトミトンガントレット",
+      "ko": "코발트 벙어리 건틀릿"
     }
   },
   {
@@ -3462,7 +3700,8 @@
       "de": "Truhe der Gesellschaft",
       "en": "Company Chest",
       "fr": "Coffre de compagnie libre",
-      "ja": "カンパニーチェスト"
+      "ja": "カンパニーチェスト",
+      "ko": "부대 금고"
     }
   },
   {
@@ -3476,7 +3715,8 @@
       "de": "Herrenhaus-Kamin",
       "en": "Manor Fireplace",
       "fr": "Cheminée du Manoir",
-      "ja": "御用邸の暖炉"
+      "ja": "御用邸の暖炉",
+      "ko": "별궁의 난로"
     }
   },
   {
@@ -3490,7 +3730,8 @@
       "de": "Riviera-Bücherregal",
       "en": "Riviera Bookshelf",
       "fr": "Bibliothèque noscéenne",
-      "ja": "ラノシアン・ブックシェルフ"
+      "ja": "ラノシアン・ブックシェルフ",
+      "ko": "라노시아 책장"
     }
   },
   {
@@ -3504,7 +3745,8 @@
       "de": "Koboldeisen-Laternenschild",
       "en": "Cobalt Bladed Lantern Shield",
       "fr": "Bouclier lanterne à lames en cobalt",
-      "ja": "コバルト・ダブルブレードシールド"
+      "ja": "コバルト・ダブルブレードシールド",
+      "ko": "코발트 쌍검방패"
     }
   },
   {
@@ -3518,7 +3760,8 @@
       "de": "Koboldeisen-Mesailvisier",
       "en": "Cobalt Mesail",
       "fr": "Mésail en cobalt",
-      "ja": "コバルトメセイル"
+      "ja": "コバルトメセイル",
+      "ko": "코발트 면갑"
     }
   },
   {
@@ -3532,7 +3775,8 @@
       "de": "Koboldeisen-Schaller",
       "en": "Cobalt Sallet",
       "fr": "Sallet en cobalt",
-      "ja": "コバルトサレット"
+      "ja": "コバルトサレット",
+      "ko": "코발트 경량투구"
     }
   },
   {
@@ -3546,7 +3790,8 @@
       "de": "Oasen-Kronleuchter",
       "en": "Oasis Chandelier",
       "fr": "Lustre thanalanais",
-      "ja": "ザナラーン・シャンデリア"
+      "ja": "ザナラーン・シャンデリア",
+      "ko": "다날란 샹들리에"
     }
   },
   {
@@ -3560,7 +3805,8 @@
       "de": "Ätherdämmendes Gefäß",
       "en": "Aetheric Shielding",
       "fr": "Récipient éthéroscellé",
-      "ja": "絶霊体容器"
+      "ja": "絶霊体容器",
+      "ko": "절령체 용기"
     }
   },
   {
@@ -3574,7 +3820,8 @@
       "de": "Drachengabe",
       "en": "Austere Offering",
       "fr": "Cadeau pour dragons",
-      "ja": "竜族報酬品"
+      "ja": "竜族報酬品",
+      "ko": "드래곤족 보상품"
     }
   },
   {
@@ -3588,7 +3835,8 @@
       "de": "Korbkomponente",
       "en": "Basket Component",
       "fr": "Matériel de vannerie",
-      "ja": "編みカゴ部材"
+      "ja": "編みカゴ部材",
+      "ko": "나무 바구니 부재"
     }
   },
   {
@@ -3602,7 +3850,8 @@
       "de": "Wolkenmeer-Köder",
       "en": "Cloudfish Lure",
       "fr": "Leurre spécial",
-      "ja": "雲海釣餌"
+      "ja": "雲海釣餌",
+      "ko": "구름바다 미끼"
     }
   },
   {
@@ -3616,7 +3865,8 @@
       "de": "Koboldeisen-Sturmhaube",
       "en": "Cobalt Celata",
       "fr": "Celata en cobalt",
-      "ja": "コバルトチェラータ"
+      "ja": "コバルトチェラータ",
+      "ko": "코발트 보호투구"
     }
   },
   {
@@ -3630,7 +3880,8 @@
       "de": "Koboldeisen-Kettenhaube",
       "en": "Cobalt Chain Coif",
       "fr": "Coiffe en mailles de cobalt",
-      "ja": "コバルトチェーンコイフ"
+      "ja": "コバルトチェーンコイフ",
+      "ko": "코발트 사슬머리쓰개"
     }
   },
   {
@@ -3644,7 +3895,8 @@
       "de": "Koboldeisenkürass",
       "en": "Cobalt Cuirass",
       "fr": "Cuirasse en cobalt",
-      "ja": "コバルトキュイラス"
+      "ja": "コバルトキュイラス",
+      "ko": "코발트 전투흉갑"
     }
   },
   {
@@ -3658,7 +3910,8 @@
       "de": "Koboldeisen-Panzerhandschuhe",
       "en": "Cobalt Gauntlets",
       "fr": "Gantelets en cobalt",
-      "ja": "コバルトガントレット"
+      "ja": "コバルトガントレット",
+      "ko": "코발트 건틀릿"
     }
   },
   {
@@ -3672,7 +3925,8 @@
       "de": "Koboldeisen-Hauberk",
       "en": "Cobalt Haubergeon",
       "fr": "Haubergeon en cobalt",
-      "ja": "コバルトホーバージョン"
+      "ja": "コバルトホーバージョン",
+      "ko": "코발트 고리갑옷"
     }
   },
   {
@@ -3686,7 +3940,8 @@
       "de": "Koboldeisen-Plattengürtel",
       "en": "Cobalt Plate Belt",
       "fr": "Ceinture de plaques en cobalt",
-      "ja": "コバルトプレートベルト"
+      "ja": "コバルトプレートベルト",
+      "ko": "코발트판 허리띠"
     }
   },
   {
@@ -3700,7 +3955,8 @@
       "de": "Koboldeisen-Bärlatschen",
       "en": "Cobalt Sabatons",
       "fr": "Sabatons en cobalt",
-      "ja": "コバルトサバトン"
+      "ja": "コバルトサバトン",
+      "ko": "코발트 판금장화"
     }
   },
   {
@@ -3714,7 +3970,8 @@
       "de": "Koboldeisen-Sollerets",
       "en": "Cobalt Sollerets",
       "fr": "Solerets en cobalt",
-      "ja": "コバルトソルレット"
+      "ja": "コバルトソルレット",
+      "ko": "코발트 쇠구두"
     }
   },
   {
@@ -3728,7 +3985,8 @@
       "de": "Schuppenfeile",
       "en": "Dragonscale Rasp",
       "fr": "Racloir en écaille de dragon",
-      "ja": "竜鱗ヤスリ"
+      "ja": "竜鱗ヤスリ",
+      "ko": "용비늘 줄톱"
     }
   },
   {
@@ -3742,7 +4000,8 @@
       "de": "Rauchbombe",
       "en": "Exploding Kupo Nut",
       "fr": "Noix de kupo fumigène",
-      "ja": "煙幕の実"
+      "ja": "煙幕の実",
+      "ko": "연막 열매"
     }
   },
   {
@@ -3756,7 +4015,8 @@
       "de": "Falsche Kupo-Nuss",
       "en": "Fake Kupo Nut",
       "fr": "Fausse noix de kupo",
-      "ja": "ニセの実"
+      "ja": "ニセの実",
+      "ko": "가짜 열매"
     }
   },
   {
@@ -3770,7 +4030,8 @@
       "de": "Fundamentmaterial",
       "en": "Foundation Component",
       "fr": "Matériel pour les fondations",
-      "ja": "基礎工事資材"
+      "ja": "基礎工事資材",
+      "ko": "기초공사 자재"
     }
   },
   {
@@ -3784,7 +4045,8 @@
       "de": "Komponente für die Werkzeugreparatur",
       "en": "Gathering Tool Component",
       "fr": "Matériel de réparation",
-      "ja": "採集道具補材"
+      "ja": "採集道具補材",
+      "ko": "채집도구 보강재"
     }
   },
   {
@@ -3798,7 +4060,8 @@
       "de": "Trötenkomponente",
       "en": "Horn Component",
       "fr": "Composant de clairon",
-      "ja": "すんごいラッパ部材"
+      "ja": "すんごいラッパ部材",
+      "ko": "엄청난 나팔 부재"
     }
   },
   {
@@ -3812,7 +4075,8 @@
       "de": "Bestandteil einer Mahlzeit",
       "en": "Ishgardian Cuisine Miscellany",
       "fr": "Élément de plateau-repas",
-      "ja": "晩餐不足品"
+      "ja": "晩餐不足品",
+      "ko": "만찬용 물품"
     }
   },
   {
@@ -3826,7 +4090,8 @@
       "de": "Drachenschild",
       "en": "Kite Shield",
       "fr": "Écu mandorle",
-      "ja": "カイトシールド"
+      "ja": "カイトシールド",
+      "ko": "연모양 방패"
     }
   },
   {
@@ -3840,7 +4105,8 @@
       "de": "Miniatur-Luftschiff",
       "en": "Makeshift Toy Airship",
       "fr": "Maquette d'aéronef",
-      "ja": "飛空艇模型"
+      "ja": "飛空艇模型",
+      "ko": "비공정 모형"
     }
   },
   {
@@ -3854,7 +4120,8 @@
       "de": "Küchenartikel",
       "en": "Mogstew Miscellany",
       "fr": "Matériaux gastronomiques",
-      "ja": "調理不足品"
+      "ja": "調理不足品",
+      "ko": "요리용 물품"
     }
   },
   {
@@ -3868,7 +4135,8 @@
       "de": "Kleine Belohnung",
       "en": "Moogle Mollifier",
       "fr": "Cadeau personnalisé",
-      "ja": "特製ご褒美"
+      "ja": "特製ご褒美",
+      "ko": "특별한 상품"
     }
   },
   {
@@ -3882,7 +4150,8 @@
       "de": "Mogry-Figur",
       "en": "Moogle Statuette",
       "fr": "Statuette de Mog",
-      "ja": "彫像見本品"
+      "ja": "彫像見本品",
+      "ko": "조각상 견본"
     }
   },
   {
@@ -3896,7 +4165,8 @@
       "de": "Mogry-Werkzeugkomponente",
       "en": "Moogle Tool Component",
       "fr": "Composant de marteau spécial Mog",
-      "ja": "モーグリ用道具部材"
+      "ja": "モーグリ用道具部材",
+      "ko": "모그리용 도구 부재"
     }
   },
   {
@@ -3910,7 +4180,8 @@
       "de": "Verwendbares Baumaterial",
       "en": "Repurposed Construction Component",
       "fr": "Matériel de construction",
-      "ja": "再生済み建築資材"
+      "ja": "再生済み建築資材",
+      "ko": "재생된 건축 자재"
     }
   },
   {
@@ -3924,7 +4195,8 @@
       "de": "Einzelteil für die Schneidemaschine",
       "en": "Shearing Machine Component",
       "fr": "Composant de machine à inciser",
-      "ja": "裁断機部材"
+      "ja": "裁断機部材",
+      "ko": "재단기 부재"
     }
   },
   {
@@ -3938,7 +4210,8 @@
       "de": "Steinstatuenkomponente",
       "en": "Statue Supplies",
       "fr": "Composant de statue",
-      "ja": "石像修復用部材"
+      "ja": "石像修復用部材",
+      "ko": "석상 복구용 부재"
     }
   },
   {
@@ -3952,7 +4225,8 @@
       "de": "Formvollendete Steinblock-Vorlage",
       "en": "Stonemasonry Supplies",
       "fr": "Pierre de référence",
-      "ja": "調整された石材"
+      "ja": "調整された石材",
+      "ko": "조정된 석재"
     }
   },
   {
@@ -3966,7 +4240,8 @@
       "de": "Gedenktafelkomponente",
       "en": "Tablet Supplies",
       "fr": "Composant de plaque commémorative",
-      "ja": "銘板仕上げ部材"
+      "ja": "銘板仕上げ部材",
+      "ko": "명판 마감 부재"
     }
   },
   {
@@ -3980,7 +4255,8 @@
       "de": "Thermo-Destillierkolben",
       "en": "Thermal Alembic",
       "fr": "Alambic thermique",
-      "ja": "サーマルアレンビック"
+      "ja": "サーマルアレンビック",
+      "ko": "보온 증류기"
     }
   },
   {
@@ -3994,7 +4270,8 @@
       "de": "Übungsmaterial",
       "en": "Training Supplies",
       "fr": "Matériel d'entraînement",
-      "ja": "訓練用部材"
+      "ja": "訓練用部材",
+      "ko": "훈련용 부재"
     }
   },
   {
@@ -4008,7 +4285,8 @@
       "de": "Flaschenzug-Ersatzteil",
       "en": "Treadwheel Crane Components",
       "fr": "Matériel de réparation de treuil",
-      "ja": "巻き上げ機部材"
+      "ja": "巻き上げ機部材",
+      "ko": "도르래 부재"
     }
   },
   {
@@ -4022,7 +4300,8 @@
       "de": "Werkzeug zur Bodenplattenfärbung",
       "en": "Veneer Component",
       "fr": "Matériel de finition",
-      "ja": "床材加工用品"
+      "ja": "床材加工用品",
+      "ko": "바닥 내장재 가공용품"
     }
   },
   {
@@ -4036,7 +4315,8 @@
       "de": "Werkzeug zur Mauerglättung",
       "en": "Wall Repair Supplies",
       "fr": "Matériel de rénovation de façade",
-      "ja": "壁の補修部材"
+      "ja": "壁の補修部材",
+      "ko": "벽 보수용 부재"
     }
   },
   {
@@ -4050,7 +4330,8 @@
       "de": "Abdichtungskomponente",
       "en": "Water Filter Component",
       "fr": "Composant de fontaine",
-      "ja": "泉水補修材"
+      "ja": "泉水補修材",
+      "ko": "샘물 보수재"
     }
   },
   {
@@ -4064,7 +4345,8 @@
       "de": "Mechanischer Dullahan",
       "en": "Wind-up Dullahan",
       "fr": "Dullahan nain",
-      "ja": "マメット・デュラハン"
+      "ja": "マメット・デュラハン",
+      "ko": "둘라한 인형"
     }
   },
   {
@@ -4078,7 +4360,8 @@
       "de": "Plattner-Visier",
       "en": "Armorer's Visor",
       "fr": "Visière d'armurier",
-      "ja": "アーモラーバイザー"
+      "ja": "アーモラーバイザー",
+      "ko": "갑주제작사 얼굴가리개"
     },
     "stars": 1
   },
@@ -4093,7 +4376,8 @@
       "de": "Grobschmied-Arbeitsschuhe",
       "en": "Blacksmith's Workboots",
       "fr": "Bottes de travail de forgeron",
-      "ja": "ブラックスミスワークブーツ"
+      "ja": "ブラックスミスワークブーツ",
+      "ko": "대장장이 작업장화"
     },
     "stars": 1
   },
@@ -4108,7 +4392,8 @@
       "de": "Dunkelstahl-Nugget",
       "en": "Darksteel Nugget",
       "fr": "Pépite de sombracier",
-      "ja": "ダークスチールナゲット"
+      "ja": "ダークスチールナゲット",
+      "ko": "암철 덩어리"
     },
     "stars": 1
   },
@@ -4123,7 +4408,8 @@
       "de": "Dunkelstahlplatte",
       "en": "Darksteel Plate",
       "fr": "Plaque de sombracier",
-      "ja": "ダークスチールプレート"
+      "ja": "ダークスチールプレート",
+      "ko": "암철판"
     },
     "stars": 1
   },
@@ -4138,7 +4424,8 @@
       "de": "Dunkelstahldrahtringe",
       "en": "Darksteel Rings",
       "fr": "Anneaux en sombracier",
-      "ja": "ダークスチールリングズ"
+      "ja": "ダークスチールリングズ",
+      "ko": "암철 고리"
     },
     "stars": 1
   },
@@ -4153,7 +4440,8 @@
       "de": "Dunkelstahlnieten",
       "en": "Darksteel Rivets",
       "fr": "Rivets en sombracier",
-      "ja": "ダークスチールリベット"
+      "ja": "ダークスチールリベット",
+      "ko": "암철 이음못"
     },
     "stars": 1
   },
@@ -4168,7 +4456,8 @@
       "de": "Weiler-Minenarbeiterhut",
       "en": "Hamlet Digger's Helmet",
       "fr": "Casque de mineur des hameaux",
-      "ja": "ディガーヘルメット"
+      "ja": "ディガーヘルメット",
+      "ko": "광부 철모"
     },
     "stars": 1
   },
@@ -4183,7 +4472,8 @@
       "de": "Miliz-Armet",
       "en": "Militia Armet",
       "fr": "Casque de milicien",
-      "ja": "ミリシアアーメット"
+      "ja": "ミリシアアーメット",
+      "ko": "민병대 철갑투구"
     },
     "stars": 1
   },
@@ -4198,7 +4488,8 @@
       "de": "Miliz-Barbuta",
       "en": "Militia Barbut",
       "fr": "Barbute de milicien",
-      "ja": "ミリシアバルビュート"
+      "ja": "ミリシアバルビュート",
+      "ko": "민병대 무장투구"
     },
     "stars": 1
   },
@@ -4213,7 +4504,8 @@
       "de": "Miliz-Kürass",
       "en": "Militia Cuirass",
       "fr": "Cuirasse de milicien",
-      "ja": "ミリシアキュイラス"
+      "ja": "ミリシアキュイラス",
+      "ko": "민병대 전투흉갑"
     },
     "stars": 1
   },
@@ -4228,7 +4520,8 @@
       "de": "Miliz-Panzerhandschuhe",
       "en": "Militia Gauntlets",
       "fr": "Gantelets de milicien",
-      "ja": "ミリシアガントレット"
+      "ja": "ミリシアガントレット",
+      "ko": "민병대 건틀릿"
     },
     "stars": 1
   },
@@ -4243,7 +4536,8 @@
       "de": "Miliz-Panzerfäustlinge",
       "en": "Militia Mitt Gauntlets",
       "fr": "Gantelets-mitons de milicien",
-      "ja": "ミリシアミトンガントレット"
+      "ja": "ミリシアミトンガントレット",
+      "ko": "민병대 벙어리 건틀릿"
     },
     "stars": 1
   },
@@ -4258,7 +4552,8 @@
       "de": "Miliz-Bärlatschen",
       "en": "Militia Sabatons",
       "fr": "Sabatons de milicien",
-      "ja": "ミリシアサバトン"
+      "ja": "ミリシアサバトン",
+      "ko": "민병대 판금장화"
     },
     "stars": 1
   },
@@ -4273,7 +4568,8 @@
       "de": "Wolf-Sturmhaube",
       "en": "Wolf Celata",
       "fr": "Celata de loup",
-      "ja": "ウルフチェラータ"
+      "ja": "ウルフチェラータ",
+      "ko": "늑대 보호투구"
     },
     "stars": 1
   },
@@ -4288,7 +4584,8 @@
       "de": "Wolf-Kürass",
       "en": "Wolf Cuirass",
       "fr": "Cuirasse de loup",
-      "ja": "ウルフキュイラス"
+      "ja": "ウルフキュイラス",
+      "ko": "늑대 전투흉갑"
     },
     "stars": 1
   },
@@ -4303,7 +4600,8 @@
       "de": "Elmo-Wolfshelm",
       "en": "Wolf Elmo",
       "fr": "Elmo de loup",
-      "ja": "ウルフエルモ"
+      "ja": "ウルフエルモ",
+      "ko": "늑대 기사투구"
     },
     "stars": 1
   },
@@ -4318,7 +4616,8 @@
       "de": "Wolf-Panzerhandschuhe",
       "en": "Wolf Gauntlets",
       "fr": "Gantelets de loup",
-      "ja": "ウルフガントレット"
+      "ja": "ウルフガントレット",
+      "ko": "늑대 건틀릿"
     },
     "stars": 1
   },
@@ -4333,7 +4632,8 @@
       "de": "Wolf-Drachenschild",
       "en": "Wolf Kite Shield",
       "fr": "Écu mandorle de loup",
-      "ja": "ウルフカイトシールド"
+      "ja": "ウルフカイトシールド",
+      "ko": "늑대 연모양 방패"
     },
     "stars": 1
   },
@@ -4348,7 +4648,8 @@
       "de": "Wolf-Plattengürtel",
       "en": "Wolf Plate Belt",
       "fr": "Ceinture de plaques de loup",
-      "ja": "ウルフプレートベルト"
+      "ja": "ウルフプレートベルト",
+      "ko": "늑대 판금 허리띠"
     },
     "stars": 1
   },
@@ -4363,7 +4664,8 @@
       "de": "Wolf-Bärlatschen",
       "en": "Wolf Sabatons",
       "fr": "Sabatons de loup",
-      "ja": "ウルフサバトン"
+      "ja": "ウルフサバトン",
+      "ko": "늑대 판금장화"
     },
     "stars": 1
   },
@@ -4378,7 +4680,8 @@
       "de": "Wolf-Schaller",
       "en": "Wolf Sallet",
       "fr": "Sallet de loup",
-      "ja": "ウルフサレット"
+      "ja": "ウルフサレット",
+      "ko": "늑대 경량투구"
     },
     "stars": 1
   },
@@ -4393,7 +4696,8 @@
       "de": "Wolf-Fingerhandschuhe",
       "en": "Wolf Scale Fingers",
       "fr": "Garde-doigts d'écailles de loup",
-      "ja": "ウルフスケイルフィンガー"
+      "ja": "ウルフスケイルフィンガー",
+      "ko": "늑대 미늘장갑"
     },
     "stars": 1
   },
@@ -4408,7 +4712,8 @@
       "de": "Wolf-Beinschienen",
       "en": "Wolf Scale Greaves",
       "fr": "Jambards d'écailles de loup",
-      "ja": "ウルフスケイルグリーヴ"
+      "ja": "ウルフスケイルグリーヴ",
+      "ko": "늑대 미늘장화"
     },
     "stars": 1
   },
@@ -4423,7 +4728,8 @@
       "de": "Wolf-Schuppenpanzer",
       "en": "Wolf Scale Mail",
       "fr": "Armure d'écailles de loup",
-      "ja": "ウルフスケイルメイル"
+      "ja": "ウルフスケイルメイル",
+      "ko": "늑대 미늘갑옷"
     },
     "stars": 1
   },
@@ -4438,7 +4744,8 @@
       "de": "Wolf-Bauchreifen",
       "en": "Wolf Tassets",
       "fr": "Tassette de loup",
-      "ja": "ウルフタセット"
+      "ja": "ウルフタセット",
+      "ko": "늑대 허리갑옷"
     },
     "stars": 1
   },
@@ -4453,7 +4760,8 @@
       "de": "Luftschiff-Reparaturkit",
       "en": "Airship Repair Materials",
       "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材"
+      "ja": "飛空艇修理材",
+      "ko": "비공정 수리재"
     },
     "stars": 2
   },
@@ -4468,7 +4776,8 @@
       "de": "Dunkelstahl-Brustplatte",
       "en": "Darksteel Breastplate",
       "fr": "Devant de cuirasse en sombracier",
-      "ja": "胸甲部品(ダークスチール)"
+      "ja": "胸甲部品(ダークスチール)",
+      "ko": "암철 가슴보호구 부품"
     },
     "stars": 2
   },
@@ -4483,7 +4792,8 @@
       "de": "Dunkelstahl-Faustschild",
       "en": "Darksteel Buckler",
       "fr": "Rondache en sombracier",
-      "ja": "ダークスチールバックラー"
+      "ja": "ダークスチールバックラー",
+      "ko": "암철 전투방패"
     },
     "stars": 2
   },
@@ -4498,7 +4808,8 @@
       "de": "Dunkelstahl-Kettenhaube",
       "en": "Darksteel Chain Coif",
       "fr": "Coiffe en mailles de sombracier",
-      "ja": "ダークスチール・チェーンコイフ"
+      "ja": "ダークスチール・チェーンコイフ",
+      "ko": "암철 사슬머리쓰개"
     },
     "stars": 2
   },
@@ -4513,7 +4824,8 @@
       "de": "Dunkelstahl-Ellbogenschützer",
       "en": "Darksteel Couters",
       "fr": "Genouillères en sombracier",
-      "ja": "脚甲部品(ダークスチール)"
+      "ja": "脚甲部品(ダークスチール)",
+      "ko": "암철 다리보호구 부품"
     },
     "stars": 2
   },
@@ -4528,7 +4840,8 @@
       "de": "Dunkelstahl-Handschuhplatten",
       "en": "Darksteel Gauntlet Plates",
       "fr": "Plaques de canon d'avant-bras en sombracier",
-      "ja": "腕甲部品(ダークスチール)"
+      "ja": "腕甲部品(ダークスチール)",
+      "ko": "암철 팔보호구 부품"
     },
     "stars": 2
   },
@@ -4543,7 +4856,8 @@
       "de": "Dunkelstahl-Hauberk",
       "en": "Darksteel Haubergeon",
       "fr": "Haubergeon en sombracier",
-      "ja": "ダークスチールホーバージョン"
+      "ja": "ダークスチールホーバージョン",
+      "ko": "암철 고리갑옷"
     },
     "stars": 2
   },
@@ -4558,7 +4872,8 @@
       "de": "Dunkelstahlbarren",
       "en": "Darksteel Ingot",
       "fr": "Lingot de sombracier",
-      "ja": "ダークスチールインゴット"
+      "ja": "ダークスチールインゴット",
+      "ko": "암철 주괴"
     },
     "stars": 2
   },
@@ -4573,7 +4888,8 @@
       "de": "Dunkelstahl-Panzerfäustlinge",
       "en": "Darksteel Mitt Gauntlets",
       "fr": "Gantelets-mitons en sombracier",
-      "ja": "ダークスチール・ミトンガントレット"
+      "ja": "ダークスチール・ミトンガントレット",
+      "ko": "암철 벙어리 건틀릿"
     },
     "stars": 2
   },
@@ -4588,7 +4904,8 @@
       "de": "Dunkelstahl-Turmschild",
       "en": "Darksteel Scutum",
       "fr": "Scutum en sombracier",
-      "ja": "ダークスチールスクトゥム"
+      "ja": "ダークスチールスクトゥム",
+      "ko": "암철 사각방패"
     },
     "stars": 2
   },
@@ -4603,7 +4920,8 @@
       "de": "Dunkelstahl-Sollerets",
       "en": "Darksteel Sollerets",
       "fr": "Solerets en sombracier",
-      "ja": "ダークスチールソルレット"
+      "ja": "ダークスチールソルレット",
+      "ko": "암철 쇠구두"
     },
     "stars": 2
   },
@@ -4618,7 +4936,8 @@
       "de": "Dunkelstahl-Bauchreifen",
       "en": "Darksteel Tassets",
       "fr": "Tassette en sombracier",
-      "ja": "ダークスチールタセット"
+      "ja": "ダークスチールタセット",
+      "ko": "암철 허리갑옷"
     },
     "stars": 2
   },
@@ -4633,7 +4952,8 @@
       "de": "Dunkelstahldraht",
       "en": "Darksteel Wire",
       "fr": "Fil de sombracier",
-      "ja": "ダークスチールワイヤー"
+      "ja": "ダークスチールワイヤー",
+      "ko": "암철 실"
     },
     "stars": 2
   },
@@ -4648,7 +4968,8 @@
       "de": "Analysemodul",
       "en": "Diagnostics Module",
       "fr": "Module analytique",
-      "ja": "分析システム"
+      "ja": "分析システム",
+      "ko": "분석 시스템"
     },
     "stars": 2
   },
@@ -4663,7 +4984,8 @@
       "de": "Schwere Dunkelstahlrüstung",
       "en": "Heavy Darksteel Armor",
       "fr": "Armure lourde en sombracier",
-      "ja": "ヘヴィ・ダークスチールアーマー"
+      "ja": "ヘヴィ・ダークスチールアーマー",
+      "ko": "암철 중장갑옷"
     },
     "stars": 2
   },
@@ -4678,7 +5000,8 @@
       "de": "Schwerer Dunkelstahl-Flankenschützer",
       "en": "Heavy Darksteel Flanchard",
       "fr": "Cuissières lourdes en sombracier",
-      "ja": "ヘヴィ・ダークスチールフランチャード"
+      "ja": "ヘヴィ・ダークスチールフランチャード",
+      "ko": "암철 중장 허벅지갑옷"
     },
     "stars": 2
   },
@@ -4693,7 +5016,8 @@
       "de": "Schwere Dunkelstahl-Panzerhandschuhe",
       "en": "Heavy Darksteel Gauntlets",
       "fr": "Gantelets lourds en sombracier",
-      "ja": "ヘヴィ・ダークスチールガントレット"
+      "ja": "ヘヴィ・ダークスチールガントレット",
+      "ko": "암철 중장 건틀릿"
     },
     "stars": 2
   },
@@ -4708,7 +5032,8 @@
       "de": "Leichtstahl-Galerus",
       "en": "Light Steel Galerus",
       "fr": "Épaulière en acier léger",
-      "ja": "ライトスチールガレルース"
+      "ja": "ライトスチールガレルース",
+      "ko": "가벼운 강철 견갑"
     },
     "stars": 2
   },
@@ -4723,7 +5048,8 @@
       "de": "Leichtstahl-Lendenschurz",
       "en": "Light Steel Subligar",
       "fr": "Subligar en acier léger",
-      "ja": "ライトスチールサブリガ"
+      "ja": "ライトスチールサブリガ",
+      "ko": "가벼운 강철 서블리가"
     },
     "stars": 2
   },
@@ -4738,7 +5064,8 @@
       "de": "Miniatur-Magitek-Schnitter",
       "en": "Magitek Reaper Miniature",
       "fr": "Modèle réduit magitek",
-      "ja": "MG魔導リーパー"
+      "ja": "MG魔導リーパー",
+      "ko": "MG 마도 리퍼"
     },
     "stars": 2
   },
@@ -4753,7 +5080,8 @@
       "de": "Alchemisten-Kessel",
       "en": "Alchemy Furnace",
       "fr": "Creuset d'alchimie",
-      "ja": "アルケミーファーナス"
+      "ja": "アルケミーファーナス",
+      "ko": "연성 용광로"
     },
     "stars": 3
   },
@@ -4768,7 +5096,8 @@
       "de": "Modifizierter schwerer Wolfram-Kürass",
       "en": "Augmented Heavy Wolfram Cuirass",
       "fr": "Cuirasse lourde en tungstène modifiée",
-      "ja": "ヘヴィウォルフラムキュイラスRE"
+      "ja": "ヘヴィウォルフラムキュイラスRE",
+      "ko": "보강된 중석 중장 전투흉갑"
     },
     "stars": 3
   },
@@ -4783,7 +5112,8 @@
       "de": "Modifizierter Wolfram-Kürass",
       "en": "Augmented Wolfram Cuirass",
       "fr": "Cuirasse en tungstène modifiée",
-      "ja": "ウォルフラムキュイラスRE"
+      "ja": "ウォルフラムキュイラスRE",
+      "ko": "보강된 중석 전투흉갑"
     },
     "stars": 3
   },
@@ -4798,7 +5128,8 @@
       "de": "Truhe eines Toten",
       "en": "Dead Man's Chest",
       "fr": "Coffre du mort",
-      "ja": "デッドマンズチェスト"
+      "ja": "デッドマンズチェスト",
+      "ko": "망자의 보물상자"
     },
     "stars": 3
   },
@@ -4813,7 +5144,8 @@
       "de": "Schwerer Wolfram-Kürass",
       "en": "Heavy Wolfram Cuirass",
       "fr": "Cuirasse lourde en tungstène",
-      "ja": "ヘヴィウォルフラムキュイラス"
+      "ja": "ヘヴィウォルフラムキュイラス",
+      "ko": "중석 중장 전투흉갑"
     },
     "stars": 3
   },
@@ -4828,7 +5160,8 @@
       "de": "Schwere Wolfram-Schenkelschützer",
       "en": "Heavy Wolfram Cuisses",
       "fr": "Cuissots lourds en tungstène",
-      "ja": "ヘヴィウォルフラムクウィス"
+      "ja": "ヘヴィウォルフラムクウィス",
+      "ko": "중석 중장 허벅지보호대"
     },
     "stars": 3
   },
@@ -4843,7 +5176,8 @@
       "de": "Schwere Wolfram-Panzerhandschuhe",
       "en": "Heavy Wolfram Gauntlets",
       "fr": "Gantelets lourds en tungstène",
-      "ja": "ヘヴィウォルフラムガントレット"
+      "ja": "ヘヴィウォルフラムガントレット",
+      "ko": "중석 중장 건틀릿"
     },
     "stars": 3
   },
@@ -4858,7 +5192,8 @@
       "de": "Schwerer Wolfram-Helm",
       "en": "Heavy Wolfram Helm",
       "fr": "Casque lourd en tungstène",
-      "ja": "ヘヴィウォルフラムヘルム"
+      "ja": "ヘヴィウォルフラムヘルム",
+      "ko": "중석 중장투구"
     },
     "stars": 3
   },
@@ -4873,7 +5208,8 @@
       "de": "Schwerer Wolfram-Plattengürtel",
       "en": "Heavy Wolfram Plate Belt",
       "fr": "Ceinture de plaques lourde en tungstène",
-      "ja": "ヘヴィ・ウォルフラムプレートベルト"
+      "ja": "ヘヴィ・ウォルフラムプレートベルト",
+      "ko": "중석 중장 판금 허리띠"
     },
     "stars": 3
   },
@@ -4888,7 +5224,8 @@
       "de": "Schwere Wolfram-Bärlatschen",
       "en": "Heavy Wolfram Sabatons",
       "fr": "Sabatons lourds en tungstène",
-      "ja": "ヘヴィウォルフラムサバトン"
+      "ja": "ヘヴィウォルフラムサバトン",
+      "ko": "중석 중장 판금장화"
     },
     "stars": 3
   },
@@ -4903,7 +5240,8 @@
       "de": "Duftspender",
       "en": "Incensory",
       "fr": "Encensoir",
-      "ja": "アロマポット"
+      "ja": "アロマポット",
+      "ko": "향로"
     },
     "stars": 3
   },
@@ -4918,7 +5256,8 @@
       "de": "Hundehalsband-Glöckchen",
       "en": "Lapdog Collar Bell",
       "fr": "Cloche d'animal",
-      "ja": "カラーベル"
+      "ja": "カラーベル",
+      "ko": "목방울"
     },
     "stars": 3
   },
@@ -4933,7 +5272,8 @@
       "de": "Horn",
       "en": "Manor Marching Horn",
       "fr": "Cor du manoir",
-      "ja": "御用邸のホルン"
+      "ja": "御用邸のホルン",
+      "ko": "별궁의 호른"
     },
     "stars": 3
   },
@@ -4948,7 +5288,8 @@
       "de": "Hochwertiger Mörser",
       "en": "Perfect Mortar",
       "fr": "Mortier parfait",
-      "ja": "上質な乳鉢"
+      "ja": "上質な乳鉢",
+      "ko": "고급 막자사발"
     },
     "stars": 3
   },
@@ -4963,7 +5304,8 @@
       "de": "Projektionsmodul",
       "en": "Projection Module",
       "fr": "Module de projection",
-      "ja": "投射システム"
+      "ja": "投射システム",
+      "ko": "투영 시스템"
     },
     "stars": 3
   },
@@ -4978,7 +5320,8 @@
       "de": "Purifikationsmodul",
       "en": "Purification Module",
       "fr": "Module de purification",
-      "ja": "滅菌システム"
+      "ja": "滅菌システム",
+      "ko": "멸균 시스템"
     },
     "stars": 3
   },
@@ -4993,7 +5336,8 @@
       "de": "Verstärkter Dunkelstahldraht",
       "en": "Reinforced Darksteel Wire",
       "fr": "Fil de sombracier renforcé",
-      "ja": "強化ダークスチールワイヤー"
+      "ja": "強化ダークスチールワイヤー",
+      "ko": "강화 암철 실"
     },
     "stars": 3
   },
@@ -5008,7 +5352,8 @@
       "de": "Wogen-Rossharnisch",
       "en": "Tidal Barding",
       "fr": "Barde de Léviathan",
-      "ja": "リヴァイアサン・バード"
+      "ja": "リヴァイアサン・バード",
+      "ko": "리바이어선 갑주"
     },
     "stars": 3
   },
@@ -5023,7 +5368,8 @@
       "de": "Wolfram-Kürass",
       "en": "Wolfram Cuirass",
       "fr": "Cuirasse en tungstène",
-      "ja": "ウォルフラムキュイラス"
+      "ja": "ウォルフラムキュイラス",
+      "ko": "중석 전투흉갑"
     },
     "stars": 3
   },
@@ -5038,7 +5384,8 @@
       "de": "Wolfram-Panzerhandschuhe",
       "en": "Wolfram Gauntlets",
       "fr": "Gantelets en tungstène",
-      "ja": "ウォルフラムガントレット"
+      "ja": "ウォルフラムガントレット",
+      "ko": "중석 건틀릿"
     },
     "stars": 3
   },
@@ -5053,7 +5400,8 @@
       "de": "Wolfram-Maske",
       "en": "Wolfram Mask",
       "fr": "Masque en tungstène",
-      "ja": "ウォルフラムマスク"
+      "ja": "ウォルフラムマスク",
+      "ko": "중석 가면"
     },
     "stars": 3
   },
@@ -5068,7 +5416,8 @@
       "de": "Wolfram-Bärlatschen",
       "en": "Wolfram Sabatons",
       "fr": "Sabatons en tungstène",
-      "ja": "ウォルフラムサバトン"
+      "ja": "ウォルフラムサバトン",
+      "ko": "중석 판금장화"
     },
     "stars": 3
   },
@@ -5083,7 +5432,8 @@
       "de": "Wolframplättchen",
       "en": "Wolfram Square",
       "fr": "Plaquette de tungstène",
-      "ja": "ウォルフラムプレートレット"
+      "ja": "ウォルフラムプレートレット",
+      "ko": "중석 사각판 "
     },
     "stars": 3
   },
@@ -5098,12 +5448,12 @@
       "de": "Wolfram-Bauchreifen",
       "en": "Wolfram Tassets",
       "fr": "Tassette en tungstène",
-      "ja": "ウォルフラムタセット"
+      "ja": "ウォルフラムタセット",
+      "ko": "중석 허리갑옷"
     },
     "stars": 3
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -5114,7 +5464,8 @@
       "de": "Schild des mächtigen Donners",
       "en": "Mighty Thunderhead",
       "fr": "Nuage du Patriarche",
-      "ja": "レヴィン・サンダーヘッド"
+      "ja": "レヴィン・サンダーヘッド",
+      "ko": "벼락의 방패"
     },
     "stars": 4
   },
@@ -5129,7 +5480,8 @@
       "de": "Wootz-Kürass",
       "en": "Wootz Cuirass",
       "fr": "Cuirasse en wootz",
-      "ja": "ウーツキュイラス"
+      "ja": "ウーツキュイラス",
+      "ko": "우츠강 전투흉갑"
     },
     "stars": 4
   },
@@ -5144,7 +5496,8 @@
       "de": "Wootz-Panzerhandschuhe",
       "en": "Wootz Gauntlets",
       "fr": "Gantelets en wootz",
-      "ja": "ウーツガントレット"
+      "ja": "ウーツガントレット",
+      "ko": "우츠강 건틀릿"
     },
     "stars": 4
   },
@@ -5159,7 +5512,8 @@
       "de": "Wootz-Rüstung",
       "en": "Wootz Mail",
       "fr": "Maille en wootz",
-      "ja": "ウーツメイル"
+      "ja": "ウーツメイル",
+      "ko": "우츠강 갑옷"
     },
     "stars": 4
   },
@@ -5174,7 +5528,8 @@
       "de": "Wootz-Maske",
       "en": "Wootz Mask",
       "fr": "Masque en wootz",
-      "ja": "ウーツマスク"
+      "ja": "ウーツマスク",
+      "ko": "우츠강 가면"
     },
     "stars": 4
   },
@@ -5189,7 +5544,8 @@
       "de": "Wootz-Panzerfäustlinge",
       "en": "Wootz Mitten Gauntlets",
       "fr": "Gantelets-mitons en wootz",
-      "ja": "ウーツミトンガントレット"
+      "ja": "ウーツミトンガントレット",
+      "ko": "우츠강 벙어리 건틀릿"
     },
     "stars": 4
   },
@@ -5204,7 +5560,8 @@
       "de": "Wootz-Plattengürtel",
       "en": "Wootz Plate Belt",
       "fr": "Ceinture de plaques en wootz",
-      "ja": "ウーツプレートベルト"
+      "ja": "ウーツプレートベルト",
+      "ko": "우츠강 판금 허리띠"
     },
     "stars": 4
   },
@@ -5219,7 +5576,8 @@
       "de": "Wootz-Bärlatschen",
       "en": "Wootz Sabatons",
       "fr": "Sabatons en wootz",
-      "ja": "ウーツサバトン"
+      "ja": "ウーツサバトン",
+      "ko": "우츠강 판금장화"
     },
     "stars": 4
   },
@@ -5234,7 +5592,8 @@
       "de": "Wootz-Schaller",
       "en": "Wootz Sallet",
       "fr": "Sallet en wootz",
-      "ja": "ウーツサレット"
+      "ja": "ウーツサレット",
+      "ko": "우츠강 경량투구"
     },
     "stars": 4
   },
@@ -5249,7 +5608,8 @@
       "de": "Wootz-Schild",
       "en": "Wootz Shield",
       "fr": "Bouclier en wootz",
-      "ja": "ウーツシールド"
+      "ja": "ウーツシールド",
+      "ko": "우츠강 방패"
     },
     "stars": 4
   },
@@ -5264,7 +5624,8 @@
       "de": "Wootz- Sollerets",
       "en": "Wootz Sollerets",
       "fr": "Solerets en wootz",
-      "ja": "ウーツソルレット"
+      "ja": "ウーツソルレット",
+      "ko": "우츠강 쇠구두"
     },
     "stars": 4
   },
@@ -5279,7 +5640,8 @@
       "de": "Mythrit-Nugget",
       "en": "Mythrite Nugget",
       "fr": "Pépite de mithrite",
-      "ja": "ミスライトナゲット"
+      "ja": "ミスライトナゲット",
+      "ko": "미스라이트 덩어리"
     }
   },
   {
@@ -5293,7 +5655,8 @@
       "de": "Mythrit-Schaller der Verteidigung",
       "en": "Mythrite Sallet of Fending",
       "fr": "Sallet de protecteur en mithrite",
-      "ja": "ミスライトディフェンダーサレット"
+      "ja": "ミスライトディフェンダーサレット",
+      "ko": "미스라이트 수호자 경량투구"
     }
   },
   {
@@ -5307,7 +5670,8 @@
       "de": "Mythrit-Schaller des Verstümmelns",
       "en": "Mythrite Sallet of Maiming",
       "fr": "Sallet d'abatteur en mithrite",
-      "ja": "ミスライトスレイヤーサレット"
+      "ja": "ミスライトスレイヤーサレット",
+      "ko": "미스라이트 학살자 경량투구"
     }
   },
   {
@@ -5321,7 +5685,8 @@
       "de": "Mythrit-Bauchreifen der Verteidigung",
       "en": "Mythrite Tassets of Fending",
       "fr": "Tassette de protecteur en mithrite",
-      "ja": "ミスライトディフェンダータセット"
+      "ja": "ミスライトディフェンダータセット",
+      "ko": "미스라이트 수호자 허리갑옷"
     }
   },
   {
@@ -5335,7 +5700,8 @@
       "de": "Mythrit-Bauchreifen des Verstümmelns",
       "en": "Mythrite Tassets of Maiming",
       "fr": "Tassette d'abatteur en mithrite",
-      "ja": "ミスライトスレイヤータセット"
+      "ja": "ミスライトスレイヤータセット",
+      "ko": "미스라이트 학살자 허리갑옷"
     }
   },
   {
@@ -5349,7 +5715,8 @@
       "de": "Mythrit-Panzerhandschuhe der Verteidigung",
       "en": "Mythrite Gauntlets of Fending",
       "fr": "Gantelets de protecteur en mithrite",
-      "ja": "ミスライトディフェンダーガントレット"
+      "ja": "ミスライトディフェンダーガントレット",
+      "ko": "미스라이트 수호자 건틀릿"
     }
   },
   {
@@ -5363,7 +5730,8 @@
       "de": "Mythrit-Panzerhandschuhe des Verstümmelns",
       "en": "Mythrite Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en mithrite",
-      "ja": "ミスライトスレイヤーガントレット"
+      "ja": "ミスライトスレイヤーガントレット",
+      "ko": "미스라이트 학살자 건틀릿"
     }
   },
   {
@@ -5377,7 +5745,8 @@
       "de": "Mythrit-Kettenpanzer der Verteidigung",
       "en": "Mythrite Hauberk of Fending",
       "fr": "Haubert de protecteur en mithrite",
-      "ja": "ミスライトディフェンダーホーバーク"
+      "ja": "ミスライトディフェンダーホーバーク",
+      "ko": "미스라이트 수호자 사슬철갑"
     }
   },
   {
@@ -5391,7 +5760,8 @@
       "de": "Mythrit-Kettenpanzer des Verstümmelns",
       "en": "Mythrite Hauberk of Maiming",
       "fr": "Haubert d'abatteur en mithrite",
-      "ja": "ミスライトスレイヤーホーバーク"
+      "ja": "ミスライトスレイヤーホーバーク",
+      "ko": "미스라이트 학살자 사슬철갑"
     }
   },
   {
@@ -5405,7 +5775,8 @@
       "de": "Mythrit-Nieten",
       "en": "Mythrite Rivets",
       "fr": "Rivets en mithrite",
-      "ja": "ミスライトリベット"
+      "ja": "ミスライトリベット",
+      "ko": "미스라이트 이음못"
     }
   },
   {
@@ -5419,7 +5790,8 @@
       "de": "Mythrit-Bärlatschen der Verteidigung",
       "en": "Mythrite Sabatons of Fending",
       "fr": "Sabatons de protecteur en mithrite",
-      "ja": "ミスライトディフェンダーサバトン"
+      "ja": "ミスライトディフェンダーサバトン",
+      "ko": "미스라이트 수호자 판금장화"
     }
   },
   {
@@ -5433,7 +5805,8 @@
       "de": "Mythrit-Bärlatschen des Verstümmelns",
       "en": "Mythrite Sabatons of Maiming",
       "fr": "Sabatons d'abatteur en mithrite",
-      "ja": "ミスライトスレイヤーサバトン"
+      "ja": "ミスライトスレイヤーサバトン",
+      "ko": "미스라이트 학살자 판금장화"
     }
   },
   {
@@ -5447,7 +5820,8 @@
       "de": "Mythrit-Turmschild",
       "en": "Mythrite Scutum",
       "fr": "Scutum en mithrite",
-      "ja": "ミスライトスクトゥム"
+      "ja": "ミスライトスクトゥム",
+      "ko": "미스라이트 사각방패"
     }
   },
   {
@@ -5461,7 +5835,8 @@
       "de": "Kaktor-Bratpfanne",
       "en": "Frypan Caliente",
       "fr": "Poêle à frire pampa",
-      "ja": "サボテンダーフライパン"
+      "ja": "サボテンダーフライパン",
+      "ko": "사보텐더 프라이팬"
     }
   },
   {
@@ -5475,7 +5850,8 @@
       "de": "Garlond-Stahl",
       "en": "Garlond Steel",
       "fr": "Acier de Garlond",
-      "ja": "ガーロンド鋼"
+      "ja": "ガーロンド鋼",
+      "ko": "갈론드강"
     }
   },
   {
@@ -5489,7 +5865,8 @@
       "de": "Mythrit-Destillierkolben",
       "en": "Mythrite Alembic",
       "fr": "Alambic en mithrite",
-      "ja": "ミスライトアレンビック"
+      "ja": "ミスライトアレンビック",
+      "ko": "미스라이트 증류기"
     }
   },
   {
@@ -5503,7 +5880,8 @@
       "de": "Mythrit-Barren",
       "en": "Mythrite Ingot",
       "fr": "Lingot de mithrite",
-      "ja": "ミスライトインゴット"
+      "ja": "ミスライトインゴット",
+      "ko": "미스라이트 주괴"
     }
   },
   {
@@ -5517,7 +5895,8 @@
       "de": "Mythrit-Laternenschild",
       "en": "Mythrite Bladed Lantern Shield",
       "fr": "Bouclier lanterne en mithrite",
-      "ja": "ミスライトブレードシールド"
+      "ja": "ミスライトブレードシールド",
+      "ko": "미스라이트 쌍검방패"
     }
   },
   {
@@ -5531,7 +5910,8 @@
       "de": "Titan-Plattengürtel der Verteidigung",
       "en": "Titanium Plate Belt of Fending",
       "fr": "Ceinture de plaques de protecteur en titane",
-      "ja": "チタン・ディフェンダープレートベルト"
+      "ja": "チタン・ディフェンダープレートベルト",
+      "ko": "티타늄 수호자 판금 허리띠"
     }
   },
   {
@@ -5545,7 +5925,8 @@
       "de": "Titan-Plattengürtel des Verstümmelns",
       "en": "Titanium Plate Belt of Maiming",
       "fr": "Ceinture de plaques d'abatteur en titane",
-      "ja": "チタン・スレイヤープレートベルト"
+      "ja": "チタン・スレイヤープレートベルト",
+      "ko": "티타늄 학살자 판금 허리띠"
     }
   },
   {
@@ -5559,7 +5940,8 @@
       "de": "Hartsilber-Destillierkolben",
       "en": "Hardsilver Alembic",
       "fr": "Alambic en durargent",
-      "ja": "ハードシルバーアレンビック"
+      "ja": "ハードシルバーアレンビック",
+      "ko": "경은 증류기"
     }
   },
   {
@@ -5573,7 +5955,8 @@
       "de": "Titan-Bratpfanne",
       "en": "Titanium Frypan",
       "fr": "Poêle à frire en titane",
-      "ja": "チタンフライパン"
+      "ja": "チタンフライパン",
+      "ko": "티타늄 프라이팬"
     }
   },
   {
@@ -5587,7 +5970,8 @@
       "de": "Titan-Maske des Zielens",
       "en": "Titanium Mask of Aiming",
       "fr": "Masque de pisteur en titane",
-      "ja": "チタンレンジャーマスク"
+      "ja": "チタンレンジャーマスク",
+      "ko": "티타늄 유격대 가면"
     }
   },
   {
@@ -5601,7 +5985,8 @@
       "de": "Titan-Maske der Verteidigung",
       "en": "Titanium Mask of Fending",
       "fr": "Masque de protecteur en titane",
-      "ja": "チタンディフェンダーマスク"
+      "ja": "チタンディフェンダーマスク",
+      "ko": "티타늄 수호자 가면"
     }
   },
   {
@@ -5615,7 +6000,8 @@
       "de": "Titan-Maske des Spähens",
       "en": "Titanium Mask of Scouting",
       "fr": "Masque d'éclaireur en titane",
-      "ja": "チタンスカウトマスク"
+      "ja": "チタンスカウトマスク",
+      "ko": "티타늄 정찰대 가면"
     }
   },
   {
@@ -5629,7 +6015,8 @@
       "de": "Titan-Maske des Schlagens",
       "en": "Titanium Mask of Striking",
       "fr": "Masque d'agresseur en titane",
-      "ja": "チタンストライカーマスク"
+      "ja": "チタンストライカーマスク",
+      "ko": "티타늄 타격대 가면"
     }
   },
   {
@@ -5643,7 +6030,8 @@
       "de": "Titan-Nugget",
       "en": "Titanium Nugget",
       "fr": "Pépite de titane",
-      "ja": "チタンナゲット"
+      "ja": "チタンナゲット",
+      "ko": "티타늄 덩어리"
     }
   },
   {
@@ -5657,7 +6045,8 @@
       "de": "Titan-Nieten",
       "en": "Titanium Rivets",
       "fr": "Rivets en titane",
-      "ja": "チタンリベット"
+      "ja": "チタンリベット",
+      "ko": "티타늄 이음못"
     }
   },
   {
@@ -5671,7 +6060,8 @@
       "de": "Titan-Schaller des Verstümmelns",
       "en": "Titanium Sallet of Maiming",
       "fr": "Sallet d'abatteur en titane",
-      "ja": "チタンスレイヤーサレット"
+      "ja": "チタンスレイヤーサレット",
+      "ko": "티타늄 학살자 경량투구"
     }
   },
   {
@@ -5685,7 +6075,8 @@
       "de": "Gesellschafts-Wappenschild",
       "en": "Company Escutcheon",
       "fr": "Escuchon de compagnie libre",
-      "ja": "カンパニーエスカッシャン"
+      "ja": "カンパニーエスカッシャン",
+      "ko": "부대원의 문장방패"
     }
   },
   {
@@ -5699,7 +6090,8 @@
       "de": "Titan-Kürass des Verstümmelns",
       "en": "Titanium Cuirass of Maiming",
       "fr": "Cuirasse d'abatteur en titane",
-      "ja": "チタンスレイヤーキュイラス"
+      "ja": "チタンスレイヤーキュイラス",
+      "ko": "티타늄 학살자 전투흉갑"
     }
   },
   {
@@ -5713,7 +6105,8 @@
       "de": "Titan-Panzerhandschuhe der Verteidigung",
       "en": "Titanium Gauntlets of Fending",
       "fr": "Gantelets de protecteur en titane",
-      "ja": "チタンディフェンダーガントレット"
+      "ja": "チタンディフェンダーガントレット",
+      "ko": "티타늄 수호자 건틀릿"
     }
   },
   {
@@ -5727,7 +6120,8 @@
       "de": "Titan-Drachenschild",
       "en": "Titanium Kite Shield",
       "fr": "Écu mandorle en titane",
-      "ja": "チタンカイトシールド"
+      "ja": "チタンカイトシールド",
+      "ko": "티타늄 연모양 방패"
     }
   },
   {
@@ -5741,7 +6135,8 @@
       "de": "Titan-Rüstung der Verteidigung",
       "en": "Titanium Mail of Fending",
       "fr": "Cotte de mailles de protecteur en titane",
-      "ja": "チタンディフェンダーメイル"
+      "ja": "チタンディフェンダーメイル",
+      "ko": "티타늄 수호자 갑옷"
     }
   },
   {
@@ -5755,7 +6150,8 @@
       "de": "Titan-Panzerfäustlinge des Verstümmelns",
       "en": "Titanium Mitt Gauntlets of Maiming",
       "fr": "Gantelets-mitons d'abatteur en titane",
-      "ja": "チタン・スレイヤーミトンガントレット"
+      "ja": "チタン・スレイヤーミトンガントレット",
+      "ko": "티타늄 학살자 벙어리 건틀릿"
     }
   },
   {
@@ -5769,7 +6165,8 @@
       "de": "Titan-Bärlatschen des Verstümmelns",
       "en": "Titanium Sabatons of Maiming",
       "fr": "Sabatons d'abatteur en titane",
-      "ja": "チタンスレイヤーサバトン"
+      "ja": "チタンスレイヤーサバトン",
+      "ko": "티타늄 학살자 판금장화"
     }
   },
   {
@@ -5783,7 +6180,8 @@
       "de": "Titan-Sollerets der Verteidigung",
       "en": "Titanium Sollerets of Fending",
       "fr": "Solerets de protecteur en titane",
-      "ja": "チタンディフェンダーソルレット"
+      "ja": "チタンディフェンダーソルレット",
+      "ko": "티타늄 수호자 쇠구두"
     }
   },
   {
@@ -5797,7 +6195,8 @@
       "de": "Titan-Kopfbedeckung des Spähens",
       "en": "Titanium Headgear of Scouting",
       "fr": "Protège-tête d'éclaireur en titane",
-      "ja": "チタンスカウトヘッドギア"
+      "ja": "チタンスカウトヘッドギア",
+      "ko": "티타늄 정찰대 머리보호구"
     }
   },
   {
@@ -5811,7 +6210,8 @@
       "de": "Titan-Kopfbedeckung des Schlagens",
       "en": "Titanium Headgear of Striking",
       "fr": "Protège-tête d'agresseur en titane",
-      "ja": "チタンストライカーヘッドギア"
+      "ja": "チタンストライカーヘッドギア",
+      "ko": "티타늄 타격대 머리보호구"
     }
   },
   {
@@ -5825,7 +6225,8 @@
       "de": "Titan-Helm der Verteidigung",
       "en": "Titanium Helm of Fending",
       "fr": "Casque de protecteur en titane",
-      "ja": "チタンディフェンダーヘルム"
+      "ja": "チタンディフェンダーヘルム",
+      "ko": "티타늄 수호자 투구"
     }
   },
   {
@@ -5839,7 +6240,8 @@
       "de": "Titan-Barren",
       "en": "Titanium Ingot",
       "fr": "Lingot de titane",
-      "ja": "チタンインゴット"
+      "ja": "チタンインゴット",
+      "ko": "티타늄 주괴"
     }
   },
   {
@@ -5853,7 +6255,8 @@
       "de": "Titan-Maske des Verstümmelns",
       "en": "Titanium Mask of Maiming",
       "fr": "Masque d'abatteur en titane",
-      "ja": "チタンスレイヤーマスク"
+      "ja": "チタンスレイヤーマスク",
+      "ko": "티타늄 학살자 가면"
     }
   },
   {
@@ -5867,7 +6270,8 @@
       "de": "Titan-Bauchreifen der Verteidigung",
       "en": "Titanium Tassets of Fending",
       "fr": "Tassette de protecteur en titane",
-      "ja": "チタンディフェンダータセット"
+      "ja": "チタンディフェンダータセット",
+      "ko": "티타늄 수호자 허리갑옷"
     }
   },
   {
@@ -5881,7 +6285,8 @@
       "de": "Titan-Unterarmschienen der Verteidigung",
       "en": "Titanium Vambraces of Fending",
       "fr": "Canons d'avant-bras de protecteur en titane",
-      "ja": "チタンディフェンダーヴァンブレイス"
+      "ja": "チタンディフェンダーヴァンブレイス",
+      "ko": "티타늄 수호자 완갑"
     }
   },
   {
@@ -5895,7 +6300,8 @@
       "de": "Titan-Unterarmschienen des Verstümmelns",
       "en": "Titanium Vambraces of Maiming",
       "fr": "Canons d'avant-bras d'abatteur en titane",
-      "ja": "チタンスレイヤーヴァンブレイス"
+      "ja": "チタンスレイヤーヴァンブレイス",
+      "ko": "티타늄 학살자 완갑"
     }
   },
   {
@@ -5909,7 +6315,8 @@
       "de": "Titan-Unterarmschienen des Spähens",
       "en": "Titanium Vambraces of Scouting",
       "fr": "Canons d'avant-bras d'éclaireur en titane",
-      "ja": "チタンスカウトヴァンブレイス"
+      "ja": "チタンスカウトヴァンブレイス",
+      "ko": "티타늄 정찰대 완갑"
     }
   },
   {
@@ -5923,7 +6330,8 @@
       "de": "Titan-Unterarmschienen des Schlagens",
       "en": "Titanium Vambraces of Striking",
       "fr": "Canons d'avant-bras d'agresseur en titane",
-      "ja": "チタンストライカーヴァンブレイス"
+      "ja": "チタンストライカーヴァンブレイス",
+      "ko": "티타늄 타격대 완갑"
     }
   },
   {
@@ -5937,7 +6345,8 @@
       "de": "Mandragora-Bratpfanne",
       "en": "Mandragoras Frypan",
       "fr": "Poêle à frire mandragores",
-      "ja": "マンドラーズフライパン"
+      "ja": "マンドラーズフライパン",
+      "ko": "만드라즈 프라이팬"
     }
   },
   {
@@ -5951,7 +6360,8 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品"
+      "ja": "近東風の蒐集品",
+      "ko": "근동풍 소장품"
     }
   },
   {
@@ -5965,7 +6375,8 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材"
+      "ja": "近東風の蒐集品部材",
+      "ko": "근동풍 소장품 부재"
     }
   },
   {
@@ -5979,7 +6390,8 @@
       "de": "Titan-Destillierkolben",
       "en": "Titanium Alembic",
       "fr": "Alambic en titane",
-      "ja": "チタンアレンビック"
+      "ja": "チタンアレンビック",
+      "ko": "티타늄 증류기"
     }
   },
   {
@@ -5993,7 +6405,8 @@
       "de": "Titan-Kürass der Verteidigung",
       "en": "Titanium Cuirass of Fending",
       "fr": "Cuirasse de protecteur en titane",
-      "ja": "チタンディフェンダーキュイラス"
+      "ja": "チタンディフェンダーキュイラス",
+      "ko": "티타늄 수호자 전투흉갑"
     }
   },
   {
@@ -6007,7 +6420,8 @@
       "de": "Titan-Aspis",
       "en": "Titanium Hoplon",
       "fr": "Hoplon en titane",
-      "ja": "チタンホプロン"
+      "ja": "チタンホプロン",
+      "ko": "티타늄 전통방패"
     }
   },
   {
@@ -6021,7 +6435,8 @@
       "de": "Titan-Rüstung des Verstümmelns",
       "en": "Titanium Mail of Maiming",
       "fr": "Cotte de mailles d'abatteur en titane",
-      "ja": "チタンスレイヤーメイル"
+      "ja": "チタンスレイヤーメイル",
+      "ko": "티타늄 학살자 갑옷"
     }
   },
   {
@@ -6035,7 +6450,8 @@
       "de": "Titan-Rüstung des Spähens",
       "en": "Titanium Mail of Scouting",
       "fr": "Cotte de mailles d'éclaireur en titane",
-      "ja": "チタンスカウトメイル"
+      "ja": "チタンスカウトメイル",
+      "ko": "티타늄 정찰대 갑옷"
     }
   },
   {
@@ -6049,7 +6465,8 @@
       "de": "Titan-Rüstung des Schlagens",
       "en": "Titanium Mail of Striking",
       "fr": "Cotte de mailles d'agresseur en titane",
-      "ja": "チタンストライカーメイル"
+      "ja": "チタンストライカーメイル",
+      "ko": "티타늄 타격대 갑옷"
     }
   },
   {
@@ -6063,7 +6480,8 @@
       "de": "Titan-Bärlatschen der Verteidigung",
       "en": "Titanium Sabatons of Fending",
       "fr": "Sabatons de protecteur en titane",
-      "ja": "チタンディフェンダーサバトン"
+      "ja": "チタンディフェンダーサバトン",
+      "ko": "티타늄 수호자 판금장화"
     }
   },
   {
@@ -6077,7 +6495,8 @@
       "de": "Titan-Bärlatschen des Spähens",
       "en": "Titanium Sabatons of Scouting",
       "fr": "Sabatons d'éclaireur en titane",
-      "ja": "チタンスカウトサバトン"
+      "ja": "チタンスカウトサバトン",
+      "ko": "티타늄 정찰대 판금장화"
     }
   },
   {
@@ -6091,7 +6510,8 @@
       "de": "Titan-Bärlatschen des Schlagens",
       "en": "Titanium Sabatons of Striking",
       "fr": "Sabatons d'agresseur en titane",
-      "ja": "チタンストライカーサバトン"
+      "ja": "チタンストライカーサバトン",
+      "ko": "티타늄 타격대 판금장화"
     }
   },
   {
@@ -6105,7 +6525,8 @@
       "de": "Titan-Sollerets des Verstümmelns",
       "en": "Titanium Sollerets of Maiming",
       "fr": "Solerets d'abatteur en titane",
-      "ja": "チタンスレイヤーソルレット"
+      "ja": "チタンスレイヤーソルレット",
+      "ko": "티타늄 학살자 쇠구두"
     }
   },
   {
@@ -6119,7 +6540,8 @@
       "de": "Adamantium-Panzerhandschuhe der Verteidigung",
       "en": "Adamantite Gauntlets of Fending",
       "fr": "Gantelets de protecteur en adamantium",
-      "ja": "アダマンディフェンダーガントレット"
+      "ja": "アダマンディフェンダーガントレット",
+      "ko": "아다만 수호자 건틀릿"
     }
   },
   {
@@ -6133,7 +6555,8 @@
       "de": "Adamantium-Panzerhandschuhe des Verstümmelns",
       "en": "Adamantite Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en adamantium",
-      "ja": "アダマンスレイヤーガントレット"
+      "ja": "アダマンスレイヤーガントレット",
+      "ko": "아다만 학살자 건틀릿"
     }
   },
   {
@@ -6147,7 +6570,8 @@
       "de": "Adamantium-Helm der Verteidigung",
       "en": "Adamantite Helm of Fending",
       "fr": "Casque de protecteur en adamantium",
-      "ja": "アダマンディフェンダーヘルム"
+      "ja": "アダマンディフェンダーヘルム",
+      "ko": "아다만 수호자 투구"
     }
   },
   {
@@ -6161,7 +6585,8 @@
       "de": "Adamantium-Helm des Verstümmelns",
       "en": "Adamantite Helm of Maiming",
       "fr": "Casque d'abatteur en adamantium",
-      "ja": "アダマンスレイヤーヘルム"
+      "ja": "アダマンスレイヤーヘルム",
+      "ko": "아다만 학살자 투구"
     }
   },
   {
@@ -6175,7 +6600,8 @@
       "de": "Adamantium-Nugget",
       "en": "Adamantite Nugget",
       "fr": "Pépite d'adamant",
-      "ja": "アダマンナゲット"
+      "ja": "アダマンナゲット",
+      "ko": "아다만 덩어리"
     }
   },
   {
@@ -6189,7 +6615,8 @@
       "de": "Adamantium-Nieten",
       "en": "Adamantite Rivets",
       "fr": "Rivets en adamantium",
-      "ja": "アダマンリベット"
+      "ja": "アダマンリベット",
+      "ko": "아다만 이음못"
     }
   },
   {
@@ -6203,7 +6630,8 @@
       "de": "Adamantium-Bärlatschen der Verteidigung",
       "en": "Adamantite Sabatons of Fending",
       "fr": "Sabatons de protecteur en adamantium",
-      "ja": "アダマンディフェンダーサバトン"
+      "ja": "アダマンディフェンダーサバトン",
+      "ko": "아다만 수호자 판금장화"
     }
   },
   {
@@ -6217,7 +6645,8 @@
       "de": "Adamantium-Bärlatschen des Verstümmelns",
       "en": "Adamantite Sabatons of Maiming",
       "fr": "Sabatons d'abatteur en adamantium",
-      "ja": "アダマンスレイヤーサバトン"
+      "ja": "アダマンスレイヤーサバトン",
+      "ko": "아다만 학살자 판금장화"
     }
   },
   {
@@ -6231,7 +6660,8 @@
       "de": "Adamantium-Bauchreifen der Verteidigung",
       "en": "Adamantite Tassets of Fending",
       "fr": "Tassette de protecteur en adamantium",
-      "ja": "アダマンディフェンダータセット"
+      "ja": "アダマンディフェンダータセット",
+      "ko": "아다만 수호자 허리갑옷"
     }
   },
   {
@@ -6245,7 +6675,8 @@
       "de": "Adamantium-Bauchreifen des Verstümmelns",
       "en": "Adamantite Tassets of Maiming",
       "fr": "Tassette d'abatteur en adamantium",
-      "ja": "アダマンスレイヤータセット"
+      "ja": "アダマンスレイヤータセット",
+      "ko": "아다만 학살자 허리갑옷"
     }
   },
   {
@@ -6259,7 +6690,8 @@
       "de": "Coerthisches Souvenir",
       "en": "Coerthan Souvenir",
       "fr": "Souvenir du Coerthas",
-      "ja": "寒冷地の名産品"
+      "ja": "寒冷地の名産品",
+      "ko": "한랭지 특산품"
     }
   },
   {
@@ -6273,7 +6705,8 @@
       "de": "Komponente eines coerthischen Souvenirs",
       "en": "Coerthan Souvenir Component",
       "fr": "Composant de souvenir du Coerthas",
-      "ja": "寒冷地の名産品部材"
+      "ja": "寒冷地の名産品部材",
+      "ko": "한랭지 특산품 부재"
     }
   },
   {
@@ -6287,7 +6720,8 @@
       "de": "Adamantium-Körperpanzer der Verteidigung",
       "en": "Adamantite Armor of Fending",
       "fr": "Armure de protecteur en adamantium",
-      "ja": "アダマンディフェンダーアーマー"
+      "ja": "アダマンディフェンダーアーマー",
+      "ko": "아다만 수호자 갑옷"
     }
   },
   {
@@ -6301,7 +6735,8 @@
       "de": "Adamantium-Körperpanzer des Verstümmelns",
       "en": "Adamantite Armor of Maiming",
       "fr": "Armure d'abatteur en adamantium",
-      "ja": "アダマンスレイヤーアーマー"
+      "ja": "アダマンスレイヤーアーマー",
+      "ko": "아다만 학살자 갑옷"
     }
   },
   {
@@ -6315,7 +6750,8 @@
       "de": "Adamantium-Beinkleid der Verteidigung",
       "en": "Adamantite Chain Hose of Fending",
       "fr": "Fuseau de mailles de protecteur en adamantium",
-      "ja": "アダマン・ディフェンダーチェーンホーズ"
+      "ja": "アダマン・ディフェンダーチェーンホーズ",
+      "ko": "아다만 수호자 사슬바지"
     }
   },
   {
@@ -6329,7 +6765,8 @@
       "de": "Adamantium-Beinkleid des Verstümmelns",
       "en": "Adamantite Chain Hose of Maiming",
       "fr": "Fuseau de mailles d'abatteur en adamantium",
-      "ja": "アダマン・スレイヤーチェーンホーズ"
+      "ja": "アダマン・スレイヤーチェーンホーズ",
+      "ko": "아다만 학살자 사슬바지"
     }
   },
   {
@@ -6343,7 +6780,8 @@
       "de": "Adamantium-Stirnreif der Verteidigung",
       "en": "Adamantite Circlet of Fending",
       "fr": "Diadème de protecteur en adamantium",
-      "ja": "アダマンディフェンダーサークレット"
+      "ja": "アダマンディフェンダーサークレット",
+      "ko": "아다만 수호자 머리장식"
     }
   },
   {
@@ -6357,7 +6795,8 @@
       "de": "Adamantium-Plattengürtel der Verteidigung",
       "en": "Adamantite Plate Belt of Fending",
       "fr": "Ceinture de plaques de protecteur en adamantium",
-      "ja": "アダマン・ディフェンダープレートベルト"
+      "ja": "アダマン・ディフェンダープレートベルト",
+      "ko": "아다만 수호자 판금 허리띠"
     }
   },
   {
@@ -6371,7 +6810,8 @@
       "de": "Adamantium-Turmschild",
       "en": "Adamantite Scutum",
       "fr": "Scutum en adamantium",
-      "ja": "アダマンスクトゥム"
+      "ja": "アダマンスクトゥム",
+      "ko": "아다만 사각방패"
     }
   },
   {
@@ -6385,7 +6825,8 @@
       "de": "Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel",
       "fr": "Équipement militaire du Maelstrom",
-      "ja": "黒渦団の軍需品"
+      "ja": "黒渦団の軍需品",
+      "ko": "흑와단 군수품"
     }
   },
   {
@@ -6399,7 +6840,8 @@
       "de": "Komponente eines Stücks Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel Component",
       "fr": "Composant d'équipement militaire du Maelstrom",
-      "ja": "黒渦団の軍需品部材"
+      "ja": "黒渦団の軍需品部材",
+      "ko": "흑와단 군수품 부재"
     }
   },
   {
@@ -6413,7 +6855,8 @@
       "de": "Adamantium-Destillierkolben",
       "en": "Adamantite Alembic",
       "fr": "Alambic en adamantium",
-      "ja": "アダマンアレンビック"
+      "ja": "アダマンアレンビック",
+      "ko": "아다만 증류기"
     }
   },
   {
@@ -6427,7 +6870,8 @@
       "de": "Adamantium-Bratpfanne",
       "en": "Adamantite Frypan",
       "fr": "Poêle à frire en adamantium",
-      "ja": "アダマンフライパン"
+      "ja": "アダマンフライパン",
+      "ko": "아다만 프라이팬"
     }
   },
   {
@@ -6441,7 +6885,8 @@
       "de": "Adamantium-Beinschienen der Verteidigung",
       "en": "Adamantite Greaves of Fending",
       "fr": "Jambards de protecteur en adamantium",
-      "ja": "アダマンディフェンダーグリーヴ"
+      "ja": "アダマンディフェンダーグリーヴ",
+      "ko": "아다만 수호자 갑주장화"
     }
   },
   {
@@ -6455,7 +6900,8 @@
       "de": "Adamantium-Aspis",
       "en": "Adamantite Hoplon",
       "fr": "Hoplon en adamantium",
-      "ja": "アダマンホプロン"
+      "ja": "アダマンホプロン",
+      "ko": "아다만 전통방패"
     }
   },
   {
@@ -6469,7 +6915,8 @@
       "de": "Adamantium-Beinschützer des Verstümmelns",
       "en": "Adamantite Leg Guards of Maiming",
       "fr": "Protège-jambes d'abatteur en adamantium",
-      "ja": "アダマン・スレイヤーレッグガード"
+      "ja": "アダマン・スレイヤーレッグガード",
+      "ko": "아다만 학살자 다리보호구"
     }
   },
   {
@@ -6483,7 +6930,8 @@
       "de": "Adamantium-Lorica der Verteidigung",
       "en": "Adamantite Lorica of Fending",
       "fr": "Lorica de protecteur en adamantium",
-      "ja": "アダマンディフェンダーロリカ"
+      "ja": "アダマンディフェンダーロリカ",
+      "ko": "아다만 수호자 가슴받이"
     }
   },
   {
@@ -6497,7 +6945,8 @@
       "de": "Adamantium-Rüstung des Verstümmelns",
       "en": "Adamantite Mail of Maiming",
       "fr": "Cotte de mailles d'abatteur en adamantium",
-      "ja": "アダマンスレイヤーメイル"
+      "ja": "アダマンスレイヤーメイル",
+      "ko": "아다만 학살자 의갑"
     }
   },
   {
@@ -6511,7 +6960,8 @@
       "de": "Königsgold-Sollerets der Heilung",
       "en": "Aurum Regis Sollerets of Healing",
       "fr": "Solerets de soigneur en aurum regis",
-      "ja": "オーラムレギス・ヒーラーソルレット"
+      "ja": "オーラムレギス・ヒーラーソルレット",
+      "ko": "황제금 치유사 쇠구두"
     }
   },
   {
@@ -6525,7 +6975,8 @@
       "de": "Abanische Spezialität",
       "en": "Gyr Abanian Souvenir",
       "fr": "Souvenir de Gyr Abania",
-      "ja": "ギラバニアの名産品"
+      "ja": "ギラバニアの名産品",
+      "ko": "Gyr Abanian Souvenir"
     }
   },
   {
@@ -6539,7 +6990,8 @@
       "de": "Komponente eines abanischen Souvenirs",
       "en": "Gyr Abanian Souvenir Component",
       "fr": "Composant de souvenir de Gyr Abania",
-      "ja": "ギラバニア名産品部材"
+      "ja": "ギラバニア名産品部材",
+      "ko": "Gyr Abanian Souvenir Component"
     }
   },
   {
@@ -6553,7 +7005,8 @@
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
       "fr": "Cadeau attentionné",
-      "ja": "心尽くしの贈答品"
+      "ja": "心尽くしの贈答品",
+      "ko": "정성이 가득한 선물"
     }
   },
   {
@@ -6567,7 +7020,8 @@
       "de": "Komponente eines innigen Geschenks",
       "en": "Heartfelt Gift Component",
       "fr": "Composant de cadeau attentionné",
-      "ja": "心尽くしの贈答品部材"
+      "ja": "心尽くしの贈答品部材",
+      "ko": "정성이 가득한 선물 부재"
     }
   },
   {
@@ -6581,7 +7035,8 @@
       "de": "Schwere Adamantium-Panzerhandschuhe der Verteidigung",
       "en": "Heavy Adamantite Gauntlets of Fending",
       "fr": "Gantelets de protecteur lourds en adamantium",
-      "ja": "ヘヴィ・アダマンディフェンダーガントレット"
+      "ja": "ヘヴィ・アダマンディフェンダーガントレット",
+      "ko": "아다만 수호자 중장 건틀릿"
     }
   },
   {
@@ -6595,7 +7050,8 @@
       "de": "Rittermantel der Verteidigung",
       "en": "Chivalric Coat of Fending",
       "fr": "Manteau de protecteur chevaleresque",
-      "ja": "シバルリー・ディフェンダーコート"
+      "ja": "シバルリー・ディフェンダーコート",
+      "ko": "기사도 수호자 외투"
     },
     "stars": 1
   },
@@ -6610,7 +7066,8 @@
       "de": "Rittermantel des Verstümmelns",
       "en": "Chivalric Coat of Maiming",
       "fr": "Manteau d'abatteur chevaleresque",
-      "ja": "シバルリー・スレイヤーコート"
+      "ja": "シバルリー・スレイヤーコート",
+      "ko": "기사도 학살자 외투"
     },
     "stars": 1
   },
@@ -6625,7 +7082,8 @@
       "de": "Bismarck-Rossharnisch",
       "en": "Expanse Barding",
       "fr": "Barde de Bismarck",
-      "ja": "ビスマルク・バード"
+      "ja": "ビスマルク・バード",
+      "ko": "비스마르크 갑주"
     },
     "stars": 1
   },
@@ -6640,7 +7098,8 @@
       "de": "Fernöstliche Kuriosität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品"
+      "ja": "東方風の蒐集品",
+      "ko": "Far Eastern Antique"
     },
     "stars": 1
   },
@@ -6655,7 +7114,8 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材"
+      "ja": "東方風の蒐集品部材",
+      "ko": "Far Eastern Antique Component"
     },
     "stars": 1
   },
@@ -6670,7 +7130,8 @@
       "de": "Gordischer Stuhl",
       "en": "Gordian Chair",
       "fr": "Assise gordienne",
-      "ja": "ゴルディオンの椅子"
+      "ja": "ゴルディオンの椅子",
+      "ko": "고르디우스 의자"
     },
     "stars": 1
   },
@@ -6685,7 +7146,8 @@
       "de": "Ravana-Rossharnisch",
       "en": "Hive Barding",
       "fr": "Barde de Ravana",
-      "ja": "ラーヴァナ・バード"
+      "ja": "ラーヴァナ・バード",
+      "ko": "라바나 갑주"
     },
     "stars": 1
   },
@@ -6700,7 +7162,8 @@
       "de": "Eisenzwerg",
       "en": "Iron Dwarf",
       "fr": "Nain d'acier",
-      "ja": "鉄小人"
+      "ja": "鉄小人",
+      "ko": "철소인"
     },
     "stars": 1
   },
@@ -6715,7 +7178,8 @@
       "de": "Waisenhaus-Spende",
       "en": "Orphanage Donation",
       "fr": "Article quotidien d'orphelinat",
-      "ja": "孤児院の日用品"
+      "ja": "孤児院の日用品",
+      "ko": "고아원 일용품"
     },
     "stars": 1
   },
@@ -6730,7 +7194,8 @@
       "de": "Komponente einer Waisenhaus-Spende",
       "en": "Orphanage Donation Component",
       "fr": "Composant d'article pour orphelinat",
-      "ja": "孤児院の日用品部材"
+      "ja": "孤児院の日用品部材",
+      "ko": "고아원 일용품 부재"
     },
     "stars": 1
   },
@@ -6745,7 +7210,8 @@
       "de": "Dampf-Stampfer",
       "en": "Steam-powered Gobwalker G-VII",
       "fr": "Gobblindé G-VII à vapeur",
-      "ja": "VII号スチームウォーカー"
+      "ja": "VII号スチームウォーカー",
+      "ko": "VII호 증기 워커"
     },
     "stars": 1
   },
@@ -6760,7 +7226,8 @@
       "de": "Titanlegierungs-Plättchen",
       "en": "Titanium Alloy Square",
       "fr": "Plaquette en alliage de titane",
-      "ja": "チタンアロイプレートレット"
+      "ja": "チタンアロイプレートレット",
+      "ko": "티타늄 합금 사각판"
     },
     "stars": 1
   },
@@ -6775,7 +7242,8 @@
       "de": "Adamantium-Barbuta der Verteidigung",
       "en": "Adamantite Barbut of Fending",
       "fr": "Barbute de protecteur en adamantium",
-      "ja": "アダマンディフェンダーバルビュート"
+      "ja": "アダマンディフェンダーバルビュート",
+      "ko": "아다만 수호자 무장투구"
     },
     "stars": 2
   },
@@ -6790,7 +7258,8 @@
       "de": "Adamantium-Barbuta des Verstümmelns",
       "en": "Adamantite Barbut of Maiming",
       "fr": "Barbute d'abatteur en adamantium",
-      "ja": "アダマンスレイヤーバルビュート"
+      "ja": "アダマンスレイヤーバルビュート",
+      "ko": "아다만 학살자 무장투구"
     },
     "stars": 2
   },
@@ -6805,7 +7274,8 @@
       "de": "Adamantium-Barren",
       "en": "Adamantite Ingot",
       "fr": "Lingot d'adamant",
-      "ja": "アダマンインゴット"
+      "ja": "アダマンインゴット",
+      "ko": "아다만 주괴"
     },
     "stars": 2
   },
@@ -6820,7 +7290,8 @@
       "de": "Adamantium-Plattenrüstung der Verteidigung",
       "en": "Adamantite Pauldroncoat of Fending",
       "fr": "Manteau de protecteur en adamantium",
-      "ja": "アダマンディフェンダーコート"
+      "ja": "アダマンディフェンダーコート",
+      "ko": "아다만 수호자 외투"
     },
     "stars": 2
   },
@@ -6835,7 +7306,8 @@
       "de": "Adamantium-Plattenrüstung des Verstümmelns",
       "en": "Adamantite Pauldroncoat of Maiming",
       "fr": "Manteau d'abatteur en adamantium",
-      "ja": "アダマンスレイヤーコート"
+      "ja": "アダマンスレイヤーコート",
+      "ko": "아다만 학살자 외투"
     },
     "stars": 2
   },
@@ -6850,7 +7322,8 @@
       "de": "Adamantium-Sollerets der Verteidigung",
       "en": "Adamantite Sollerets of Fending",
       "fr": "Solerets de protecteur en adamantium",
-      "ja": "アダマンディフェンダーソルレット"
+      "ja": "アダマンディフェンダーソルレット",
+      "ko": "아다만 수호자 쇠구두"
     },
     "stars": 2
   },
@@ -6865,7 +7338,8 @@
       "de": "Adamantium-Sollerets des Verstümmelns",
       "en": "Adamantite Sollerets of Maiming",
       "fr": "Solerets d'abatteur en adamantium",
-      "ja": "アダマンスレイヤーソルレット"
+      "ja": "アダマンスレイヤーソルレット",
+      "ko": "아다만 학살자 쇠구두"
     },
     "stars": 2
   },
@@ -6880,7 +7354,8 @@
       "de": "Adamantium-Unterarmschienen der Verteidigung",
       "en": "Adamantite Vambraces of Fending",
       "fr": "Canons d'avant-bras de protecteur en adamantium",
-      "ja": "アダマンディフェンダーヴァンブレイス"
+      "ja": "アダマンディフェンダーヴァンブレイス",
+      "ko": "아다만 수호자 완갑"
     },
     "stars": 2
   },
@@ -6895,7 +7370,8 @@
       "de": "Adamantium-Unterarmschienen des Verstümmelns",
       "en": "Adamantite Vambraces of Maiming",
       "fr": "Canons d'avant-bras d'abatteur en adamantium",
-      "ja": "アダマンスレイヤーヴァンブレイス"
+      "ja": "アダマンスレイヤーヴァンブレイス",
+      "ko": "아다만 학살자 완갑"
     },
     "stars": 2
   },
@@ -6910,12 +7386,12 @@
       "de": "Labormeister-Destillierkolben",
       "en": "Cauldronmaster's Alembic",
       "fr": "Alambic d'expert des mixtures",
-      "ja": "コルドロンマスターアレンビック"
+      "ja": "コルドロンマスターアレンビック",
+      "ko": "연금공방장 증류기"
     },
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6926,12 +7402,12 @@
       "de": "Turmschild der Kolonie",
       "en": "Dead Hive Scutum",
       "fr": "Scutum du Maître des lames",
-      "ja": "ハイヴスクトゥム"
+      "ja": "ハイヴスクトゥム",
+      "ko": "군락의 사각방패"
     },
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -6942,7 +7418,8 @@
       "de": "Schild der endlosen Weiten",
       "en": "Endless Expanse Shield",
       "fr": "Bouclier rond du Migrateur",
-      "ja": "エクスパンスシールド"
+      "ja": "エクスパンスシールド",
+      "ko": "쪽빛하늘 방패"
     },
     "stars": 2
   },
@@ -6957,7 +7434,8 @@
       "de": "Feinschmeckermeister-Bratpfanne",
       "en": "Galleymaster's Frypan",
       "fr": "Poêle d'expert des fourneaux",
-      "ja": "ガリーマスターフライパン"
+      "ja": "ガリーマスターフライパン",
+      "ko": "주방장 프라이팬"
     },
     "stars": 2
   },
@@ -6972,7 +7450,8 @@
       "de": "Verzinkter Garlond-Stahl",
       "en": "Galvanized Garlond Steel",
       "fr": "Acier de Garlond galvanisé",
-      "ja": "超硬ガーロンド鋼"
+      "ja": "超硬ガーロンド鋼",
+      "ko": "초경도 갈론드강"
     },
     "stars": 2
   },
@@ -6987,7 +7466,8 @@
       "de": "Rüstungsschmiedemeister-Visier",
       "en": "Hammermaster's Visor",
       "fr": "Visière d'expert de la fonderie",
-      "ja": "ハンマーマスターバイザー"
+      "ja": "ハンマーマスターバイザー",
+      "ko": "갑주공방장 얼굴가리개"
     },
     "stars": 2
   },
@@ -7002,7 +7482,8 @@
       "de": "Edelmythrit-Nugget",
       "en": "High Mythrite Nugget",
       "fr": "Pépite de mithrite noble",
-      "ja": "ハイミスライトナゲット"
+      "ja": "ハイミスライトナゲット",
+      "ko": "루미스라이트 덩어리"
     },
     "stars": 2
   },
@@ -7017,7 +7498,8 @@
       "de": "Allagischer Kürass des Zielens (Replik)",
       "en": "Replica Allagan Cuirass of Aiming",
       "fr": "Réplique de cuirasse de pisteur allagoise",
-      "ja": "レプリカ・アラガンレンジャーキュイラス"
+      "ja": "レプリカ・アラガンレンジャーキュイラス",
+      "ko": "모조 알라그 유격대 전투흉갑"
     },
     "stars": 2
   },
@@ -7032,7 +7514,8 @@
       "de": "Allagischer Kürass des Verstümmelns (Replik)",
       "en": "Replica Allagan Cuirass of Maiming",
       "fr": "Réplique de cuirasse d'abatteur allagoise",
-      "ja": "レプリカ・アラガンスレイヤーキュイラス"
+      "ja": "レプリカ・アラガンスレイヤーキュイラス",
+      "ko": "모조 알라그 학살자 전투흉갑"
     },
     "stars": 2
   },
@@ -7047,7 +7530,8 @@
       "de": "Allagischer Kürass des Schlagens (Replik)",
       "en": "Replica Allagan Cuirass of Striking",
       "fr": "Réplique de cuirasse d'agresseur allagoise",
-      "ja": "レプリカ・アラガンストライカーキュイラス"
+      "ja": "レプリカ・アラガンストライカーキュイラス",
+      "ko": "모조 알라그 타격대 전투흉갑"
     },
     "stars": 2
   },
@@ -7062,7 +7546,8 @@
       "de": "Allagische Armschienen des Zielens (Replik)",
       "en": "Replica Allagan Gauntlets of Aiming",
       "fr": "Répliques de gantelets de pisteur allagois",
-      "ja": "レプリカ・アラガンレンジャーガントレット"
+      "ja": "レプリカ・アラガンレンジャーガントレット",
+      "ko": "모조 알라그 유격대 건틀릿"
     },
     "stars": 2
   },
@@ -7077,7 +7562,8 @@
       "de": "Allagische Armschienen des Verstümmelns (Replik)",
       "en": "Replica Allagan Gauntlets of Maiming",
       "fr": "Répliques de gantelets d'abatteur allagois",
-      "ja": "レプリカ・アラガンスレイヤーガントレット"
+      "ja": "レプリカ・アラガンスレイヤーガントレット",
+      "ko": "모조 알라그 학살자 건틀릿"
     },
     "stars": 2
   },
@@ -7092,7 +7578,8 @@
       "de": "Allagische Armschienen des Schlagens (Replik)",
       "en": "Replica Allagan Gauntlets of Striking",
       "fr": "Répliques de gantelets d'agresseur allagois",
-      "ja": "レプリカ・アラガンストライカーガントレット"
+      "ja": "レプリカ・アラガンストライカーガントレット",
+      "ko": "모조 알라그 타격대 건틀릿"
     },
     "stars": 2
   },
@@ -7107,7 +7594,8 @@
       "de": "Allagischer Helm (Replik)",
       "en": "Replica Allagan Helm",
       "fr": "Réplique de heaume allagois",
-      "ja": "レプリカ・アラガンヘルム"
+      "ja": "レプリカ・アラガンヘルム",
+      "ko": "모조 알라그 투구"
     },
     "stars": 2
   },
@@ -7122,7 +7610,8 @@
       "de": "Allagische Sollerets des Zielens (Replik)",
       "en": "Replica Allagan Sollerets of Aiming",
       "fr": "Répliques de solerets de pisteur allagois",
-      "ja": "レプリカ・アラガンレンジャーソルレット"
+      "ja": "レプリカ・アラガンレンジャーソルレット",
+      "ko": "모조 알라그 유격대 쇠구두"
     },
     "stars": 2
   },
@@ -7137,7 +7626,8 @@
       "de": "Allagische Sollerets des Verstümmelns (Replik)",
       "en": "Replica Allagan Sollerets of Maiming",
       "fr": "Répliques de solerets d'abatteur allagois",
-      "ja": "レプリカ・アラガンスレイヤーソルレット"
+      "ja": "レプリカ・アラガンスレイヤーソルレット",
+      "ko": "모조 알라그 학살자 쇠구두"
     },
     "stars": 2
   },
@@ -7152,7 +7642,8 @@
       "de": "Allagische Sollerets des Schlagens (Replik)",
       "en": "Replica Allagan Sollerets of Striking",
       "fr": "Répliques de solerets d'agresseur allagois",
-      "ja": "レプリカ・アラガンストライカーソルレット"
+      "ja": "レプリカ・アラガンストライカーソルレット",
+      "ko": "모조 알라그 타격대 쇠구두"
     },
     "stars": 2
   },
@@ -7167,7 +7658,8 @@
       "de": "Allagisches Visier des Zielens (Replik)",
       "en": "Replica Allagan Visor of Aiming",
       "fr": "Réplique de visière de pisteur allagoise",
-      "ja": "レプリカ・アラガンレンジャーバイザー"
+      "ja": "レプリカ・アラガンレンジャーバイザー",
+      "ko": "모조 알라그 유격대 얼굴가리개"
     },
     "stars": 2
   },
@@ -7182,7 +7674,8 @@
       "de": "Allagisches Visier des Verstümmelns (Replik)",
       "en": "Replica Allagan Visor of Maiming",
       "fr": "Réplique de visière d'abatteur allagoise",
-      "ja": "レプリカ・アラガンスレイヤーバイザー"
+      "ja": "レプリカ・アラガンスレイヤーバイザー",
+      "ko": "모조 알라그 학살자 얼굴가리개"
     },
     "stars": 2
   },
@@ -7197,7 +7690,8 @@
       "de": "Allagisches Visier des Schlagens (Replik)",
       "en": "Replica Allagan Visor of Striking",
       "fr": "Réplique de visière d'agresseur allagoise",
-      "ja": "レプリカ・アラガンストライカーバイザー"
+      "ja": "レプリカ・アラガンストライカーバイザー",
+      "ko": "모조 알라그 타격대 얼굴가리개"
     },
     "stars": 2
   },
@@ -7212,7 +7706,8 @@
       "de": "Drachengott-Körperpanzer der Verteidigung (Replik)",
       "en": "Replica Dreadwyrm Armor of Fending",
       "fr": "Réplique d'armure de protecteur du Dragon-dieu",
-      "ja": "レプリカ・バハムート・ディフェンダーアーマー"
+      "ja": "レプリカ・バハムート・ディフェンダーアーマー",
+      "ko": "모조 바하무트 수호자 갑옷"
     },
     "stars": 2
   },
@@ -7227,7 +7722,8 @@
       "de": "Drachengott-Barbuta des Verstümmelns (Replik)",
       "en": "Replica Dreadwyrm Barbut of Maiming",
       "fr": "Réplique de barbute d'abatteur du Dragon-dieu",
-      "ja": "レプリカ・バハムート・スレイヤーバルビュート"
+      "ja": "レプリカ・バハムート・スレイヤーバルビュート",
+      "ko": "모조 바하무트 학살자 무장투구"
     },
     "stars": 2
   },
@@ -7242,7 +7738,8 @@
       "de": "Drachengott-Panzerhandschuhe der Verteidigung (Replik)",
       "en": "Replica Dreadwyrm Gauntlets of Fending",
       "fr": "Répliques de gantelets de protecteur du Dragon-dieu",
-      "ja": "レプリカ・バハムート・ディフェンダーガントレット"
+      "ja": "レプリカ・バハムート・ディフェンダーガントレット",
+      "ko": "모조 바하무트 수호자 건틀릿"
     },
     "stars": 2
   },
@@ -7257,7 +7754,8 @@
       "de": "Drachengott-Beinschienen des Zielens (Replik)",
       "en": "Replica Dreadwyrm Greaves of Aiming",
       "fr": "Répliques de jambards de pisteur du Dragon-dieu",
-      "ja": "レプリカ・バハムート・レンジャーグリーヴ"
+      "ja": "レプリカ・バハムート・レンジャーグリーヴ",
+      "ko": "모조 바하무트 유격대 갑주장화"
     },
     "stars": 2
   },
@@ -7272,7 +7770,8 @@
       "de": "Drachengott-Beinschienen des Verstümmelns (Replik)",
       "en": "Replica Dreadwyrm Greaves of Maiming",
       "fr": "Répliques de jambards d'abatteur du Dragon-dieu",
-      "ja": "レプリカ・バハムート・スレイヤーグリーヴ"
+      "ja": "レプリカ・バハムート・スレイヤーグリーヴ",
+      "ko": "모조 바하무트 학살자 갑주장화"
     },
     "stars": 2
   },
@@ -7287,7 +7786,8 @@
       "de": "Drachengott-Rüstung des Verstümmelns (Replik)",
       "en": "Replica Dreadwyrm Mail of Maiming",
       "fr": "Réplique de maille d'abatteur du Dragon-dieu",
-      "ja": "レプリカ・バハムート・スレイヤーメイル"
+      "ja": "レプリカ・バハムート・スレイヤーメイル",
+      "ko": "모조 바하무트 학살자 갑옷"
     },
     "stars": 2
   },
@@ -7302,7 +7802,8 @@
       "de": "Drachengott-Bärlatschen der Verteidigung (Replik)",
       "en": "Replica Dreadwyrm Sabatons of Fending",
       "fr": "Répliques de sabatons de protecteur du Dragon-dieu",
-      "ja": "レプリカ・バハムート・ディフェンダーサバトン"
+      "ja": "レプリカ・バハムート・ディフェンダーサバトン",
+      "ko": "모조 바하무트 수호자 판금장화"
     },
     "stars": 2
   },
@@ -7317,7 +7818,8 @@
       "de": "Drachengott-Unterarmschienen des Verstümmelns (Replik)",
       "en": "Replica Dreadwyrm Vambraces of Maiming",
       "fr": "Répliques de canons d'avant-bras d'abatteur du Dragon-dieu",
-      "ja": "レプリカ・バハムート・スレイヤーヴァンブレイス"
+      "ja": "レプリカ・バハムート・スレイヤーヴァンブレイス",
+      "ko": "모조 바하무트 학살자 완갑"
     },
     "stars": 2
   },
@@ -7332,7 +7834,8 @@
       "de": "Schwerer allagischer Körperpanzer (Replik)",
       "en": "Replica Heavy Allagan Armor",
       "fr": "Réplique d'armure lourde allagoise",
-      "ja": "レプリカ・ヘヴィアラガンアーマー"
+      "ja": "レプリカ・ヘヴィアラガンアーマー",
+      "ko": "모조 알라그 중장갑옷"
     },
     "stars": 2
   },
@@ -7347,7 +7850,8 @@
       "de": "Schwere allagische Schenkelschützer (Replik)",
       "en": "Replica Heavy Allagan Cuisses",
       "fr": "Répliques de cuissots lourds allagois",
-      "ja": "レプリカ・ヘヴィアラガンクウィス"
+      "ja": "レプリカ・ヘヴィアラガンクウィス",
+      "ko": "모조 알라그 중장 허벅지보호대"
     },
     "stars": 2
   },
@@ -7362,7 +7866,8 @@
       "de": "Schwerer allagischer Flankenschützer (Replik)",
       "en": "Replica Heavy Allagan Flanchard",
       "fr": "Répliques de cuissières lourdes allagoises",
-      "ja": "レプリカ・ヘヴィアラガンフランチャード"
+      "ja": "レプリカ・ヘヴィアラガンフランチャード",
+      "ko": "모조 알라그 중장 갑주장화"
     },
     "stars": 2
   },
@@ -7377,7 +7882,8 @@
       "de": "Schwere allagische Panzerhandschuhe (Replik)",
       "en": "Replica Heavy Allagan Gauntlets",
       "fr": "Répliques de gantelets lourds allagois",
-      "ja": "レプリカ・ヘヴィアラガンガントレット"
+      "ja": "レプリカ・ヘヴィアラガンガントレット",
+      "ko": "모조 알라그 중장 건틀릿"
     },
     "stars": 2
   },
@@ -7392,7 +7898,8 @@
       "de": "Schwerer hochallagischer Mantel (Replik)",
       "en": "Replica Heavy High Allagan Coat",
       "fr": "Réplique de paletot haut-allagois",
-      "ja": "レプリカ・ハイアラガン・ヘヴィコート"
+      "ja": "レプリカ・ハイアラガン・ヘヴィコート",
+      "ko": "모조 상급 알라그 중장외투"
     },
     "stars": 2
   },
@@ -7407,7 +7914,8 @@
       "de": "Hochallagischer Kürass des Verstümmelns (Replik)",
       "en": "Replica High Allagan Cuirass of Maiming",
       "fr": "Réplique de cuirasse d'abatteur haut-allagoise",
-      "ja": "レプリカ・ハイアラガン・スレイヤーキュイラス"
+      "ja": "レプリカ・ハイアラガン・スレイヤーキュイラス",
+      "ko": "모조 상급 알라그 학살자 전투흉갑"
     },
     "stars": 2
   },
@@ -7422,7 +7930,8 @@
       "de": "Hochallagischer Kürass des Schlagens (Replik)",
       "en": "Replica High Allagan Cuirass of Striking",
       "fr": "Réplique de cuirasse d'agresseur haut-allagoise",
-      "ja": "レプリカ・ハイアラガン・ストライカーキュイラス"
+      "ja": "レプリカ・ハイアラガン・ストライカーキュイラス",
+      "ko": "모조 상급 알라그 타격대 전투흉갑"
     },
     "stars": 2
   },
@@ -7437,7 +7946,8 @@
       "de": "Hochallagische Panzerhandschuhe der Verteidigung (Replik)",
       "en": "Replica High Allagan Gauntlets of Fending",
       "fr": "Répliques de gantelets de protecteur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・ディフェンダーガントレット"
+      "ja": "レプリカ・ハイアラガン・ディフェンダーガントレット",
+      "ko": "모조 상급 알라그 수호자 건틀릿"
     },
     "stars": 2
   },
@@ -7452,7 +7962,8 @@
       "de": "Hochallagische Panzerhandschuhe des Verstümmelns (Replik)",
       "en": "Replica High Allagan Gauntlets of Maiming",
       "fr": "Répliques de gantelets d'abatteur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・スレイヤーガントレット"
+      "ja": "レプリカ・ハイアラガン・スレイヤーガントレット",
+      "ko": "모조 상급 알라그 학살자 건틀릿"
     },
     "stars": 2
   },
@@ -7467,7 +7978,8 @@
       "de": "Hochallagische Panzerhandschuhe des Schlagens (Replik)",
       "en": "Replica High Allagan Gauntlets of Striking",
       "fr": "Répliques de gantelets d'agresseur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・ストライカーガントレット"
+      "ja": "レプリカ・ハイアラガン・ストライカーガントレット",
+      "ko": "모조 상급 알라그 타격대 건틀릿"
     },
     "stars": 2
   },
@@ -7482,7 +7994,8 @@
       "de": "Hochallagische Kopfbedeckung des Verstümmelns (Replik)",
       "en": "Replica High Allagan Headgear of Maiming",
       "fr": "Réplique de protège-tête d'abatteur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・スレイヤーヘッドギア"
+      "ja": "レプリカ・ハイアラガン・スレイヤーヘッドギア",
+      "ko": "모조 상급 알라그 학살자 머리보호구"
     },
     "stars": 2
   },
@@ -7497,7 +8010,8 @@
       "de": "Hochallagische Kopfbedeckung des Schlagens (Replik)",
       "en": "Replica High Allagan Headgear of Striking",
       "fr": "Réplique de protège-tête d'agresseur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・ストライカーヘッドギア"
+      "ja": "レプリカ・ハイアラガン・ストライカーヘッドギア",
+      "ko": "모조 상급 알라그 타격대 머리보호구"
     },
     "stars": 2
   },
@@ -7512,7 +8026,8 @@
       "de": "Hochallagische Bärlatschen der Verteidigung (Replik)",
       "en": "Replica High Allagan Sabatons of Fending",
       "fr": "Répliques de sabatons de protecteur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・ディフェンダーサバトン"
+      "ja": "レプリカ・ハイアラガン・ディフェンダーサバトン",
+      "ko": "모조 상급 알라그 수호자 판금장화"
     },
     "stars": 2
   },
@@ -7527,7 +8042,8 @@
       "de": "Hochallagische Bärlatschen des Verstümmelns (Replik)",
       "en": "Replica High Allagan Sabatons of Maiming",
       "fr": "Répliques de sabatons d'abatteur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・スレイヤーサバトン"
+      "ja": "レプリカ・ハイアラガン・スレイヤーサバトン",
+      "ko": "모조 상급 알라그 학살자 판금장화"
     },
     "stars": 2
   },
@@ -7542,7 +8058,8 @@
       "de": "Hochallagische Bärlatschen des Schlagens (Replik)",
       "en": "Replica High Allagan Sabatons of Striking",
       "fr": "Répliques de sabatons d'agresseur haut-allagois",
-      "ja": "レプリカ・ハイアラガン・ストライカーサバトン"
+      "ja": "レプリカ・ハイアラガン・ストライカーサバトン",
+      "ko": "모조 상급 알라그 타격대 판금장화"
     },
     "stars": 2
   },
@@ -7557,7 +8074,8 @@
       "de": "Epischer gordischer Stuhl",
       "en": "Savage Gordian Chair",
       "fr": "Assise gordienne ornementée",
-      "ja": "ゴルディオンの椅子【零式】"
+      "ja": "ゴルディオンの椅子【零式】",
+      "ko": "고르디우스 의자(영웅)"
     },
     "stars": 2
   },
@@ -7572,7 +8090,8 @@
       "de": "Luftpiraten-Mantel der Verteidigung",
       "en": "Sky Pirate's Coat of Fending",
       "fr": "Manteau de protecteur de pirate des cieux",
-      "ja": "スカイパイレーツ・ディフェンダーコート"
+      "ja": "スカイパイレーツ・ディフェンダーコート",
+      "ko": "하늘도적 수호자 외투"
     },
     "stars": 2
   },
@@ -7587,7 +8106,8 @@
       "de": "Luftpiraten-Mantel des Verstümmelns",
       "en": "Sky Pirate's Coat of Maiming",
       "fr": "Manteau d'abatteur de pirate des cieux",
-      "ja": "スカイパイレーツ・スレイヤーコート"
+      "ja": "スカイパイレーツ・スレイヤーコート",
+      "ko": "하늘도적 학살자 외투"
     },
     "stars": 2
   },
@@ -7602,7 +8122,8 @@
       "de": "Luftpiraten-Panzerhandschuhe der Verteidigung",
       "en": "Sky Pirate's Gauntlets of Fending",
       "fr": "Gantelets de protecteur de pirate des cieux",
-      "ja": "スカイパイレーツ・ディフェンダーガントレット"
+      "ja": "スカイパイレーツ・ディフェンダーガントレット",
+      "ko": "하늘도적 수호자 건틀릿"
     },
     "stars": 2
   },
@@ -7617,7 +8138,8 @@
       "de": "Luftpiraten-Panzerhandschuhe des Verstümmelns",
       "en": "Sky Pirate's Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur de pirate des cieux",
-      "ja": "スカイパイレーツ・スレイヤーガントレット"
+      "ja": "スカイパイレーツ・スレイヤーガントレット",
+      "ko": "하늘도적 학살자 건틀릿"
     },
     "stars": 2
   },
@@ -7632,7 +8154,8 @@
       "de": "Luftpiraten-Helm der Verteidigung",
       "en": "Sky Pirate's Helm of Fending",
       "fr": "Casque de protecteur de pirate des cieux",
-      "ja": "スカイパイレーツ・ディフェンダーヘルム"
+      "ja": "スカイパイレーツ・ディフェンダーヘルム",
+      "ko": "하늘도적 수호자 투구"
     },
     "stars": 2
   },
@@ -7647,7 +8170,8 @@
       "de": "Luftpiraten-Helm des Verstümmelns",
       "en": "Sky Pirate's Helm of Maiming",
       "fr": "Casque d'abatteur de pirate des cieux",
-      "ja": "スカイパイレーツ・スレイヤーヘルム"
+      "ja": "スカイパイレーツ・スレイヤーヘルム",
+      "ko": "하늘도적 학살자 투구"
     },
     "stars": 2
   },
@@ -7662,7 +8186,8 @@
       "de": "Wolken-Mithril-Barren",
       "en": "Cloud Mythril Ingot",
       "fr": "Lingot de mithril céleste",
-      "ja": "クラウドミスリルインゴット"
+      "ja": "クラウドミスリルインゴット",
+      "ko": "구름미스릴 주괴"
     },
     "stars": 3
   },
@@ -7677,7 +8202,8 @@
       "de": "Faust-Trainingspuppe",
       "en": "Faust Striking Dummy",
       "fr": "Mannequin d'entraînement faust",
-      "ja": "ファウストダミー"
+      "ja": "ファウストダミー",
+      "ko": "파우스트 나무인형"
     },
     "stars": 3
   },
@@ -7692,7 +8218,8 @@
       "de": "Edelmythrit-Destillierkolben",
       "en": "High Mythrite Alembic",
       "fr": "Alambic en mithrite noble",
-      "ja": "ハイミスライトアレンビック"
+      "ja": "ハイミスライトアレンビック",
+      "ko": "루미스라이트 증류기"
     },
     "stars": 3
   },
@@ -7707,7 +8234,8 @@
       "de": "Edelmythrit-Kürass der Verteidigung",
       "en": "High Mythrite Cuirass of Fending",
       "fr": "Cuirasse de protecteur en mithrite noble",
-      "ja": "ハイミスライト・ディフェンダーキュイラス"
+      "ja": "ハイミスライト・ディフェンダーキュイラス",
+      "ko": "루미스라이트 수호자 전투흉갑"
     },
     "stars": 3
   },
@@ -7722,7 +8250,8 @@
       "de": "Edelmythrit-Bratpfanne",
       "en": "High Mythrite Frypan",
       "fr": "Poêle à frire en mithrite noble",
-      "ja": "ハイミスライトフライパン"
+      "ja": "ハイミスライトフライパン",
+      "ko": "루미스라이트 프라이팬"
     },
     "stars": 3
   },
@@ -7737,7 +8266,8 @@
       "de": "Edelmythrit-Panzerhandschuhe der Verteidigung",
       "en": "High Mythrite Gauntlets of Fending",
       "fr": "Gantelets de protecteur en mithrite noble",
-      "ja": "ハイミスライト・ディフェンダーガントレット"
+      "ja": "ハイミスライト・ディフェンダーガントレット",
+      "ko": "루미스라이트 수호자 건틀릿"
     },
     "stars": 3
   },
@@ -7752,7 +8282,8 @@
       "de": "Edelmythrit-Helm der Verteidigung",
       "en": "High Mythrite Helm of Fending",
       "fr": "Casque de protecteur en mithrite noble",
-      "ja": "ハイミスライト・ディフェンダーヘルム"
+      "ja": "ハイミスライト・ディフェンダーヘルム",
+      "ko": "루미스라이트 수호자 투구"
     },
     "stars": 3
   },
@@ -7767,7 +8298,8 @@
       "de": "Edelmythritbarren",
       "en": "High Mythrite Ingot",
       "fr": "Lingot de mithrite noble",
-      "ja": "ハイミスライトインゴット"
+      "ja": "ハイミスライトインゴット",
+      "ko": "루미스라이트 주괴"
     },
     "stars": 3
   },
@@ -7782,7 +8314,8 @@
       "de": "Edelmythrit-Plattengürtel der Verteidigung",
       "en": "High Mythrite Plate Belt of Fending",
       "fr": "Ceinture de plaques en mithrite noble",
-      "ja": "ハイミスライト・ディフェンダープレートベルト"
+      "ja": "ハイミスライト・ディフェンダープレートベルト",
+      "ko": "루미스라이트 수호자 판금 허리띠"
     },
     "stars": 3
   },
@@ -7797,7 +8330,8 @@
       "de": "Edelmythrit-Bärlatschen der Verteidigung",
       "en": "High Mythrite Sabatons of Fending",
       "fr": "Sabatons en mithrite noble",
-      "ja": "ハイミスライト・ディフェンダーサバトン"
+      "ja": "ハイミスライト・ディフェンダーサバトン",
+      "ko": "루미스라이트 수호자 판금장화"
     },
     "stars": 3
   },
@@ -7812,7 +8346,8 @@
       "de": "Edelmythrit-Plattengürtel des Verstümmelns",
       "en": "High Mythrite Tassets of Maiming",
       "fr": "Tassette d'abatteur en mithrite noble",
-      "ja": "ハイミスライト・スレイヤータセット"
+      "ja": "ハイミスライト・スレイヤータセット",
+      "ko": "루미스라이트 학살자 허리갑옷"
     },
     "stars": 3
   },
@@ -7827,7 +8362,8 @@
       "de": "Edelmythrit-Plattengürtel des Schlagens",
       "en": "High Mythrite Tassets of Striking",
       "fr": "Tassette d'agresseur en mithrite noble",
-      "ja": "ハイミスライト・ストライカータセット"
+      "ja": "ハイミスライト・ストライカータセット",
+      "ko": "루미스라이트 타격대 허리갑옷"
     },
     "stars": 3
   },
@@ -7842,7 +8378,8 @@
       "de": "Bodenscheinwerfer",
       "en": "Indirect Lighting",
       "fr": "Éclairage indirect",
-      "ja": "インダイレクトランプ"
+      "ja": "インダイレクトランプ",
+      "ko": "간접 조명"
     },
     "stars": 3
   },
@@ -7857,7 +8394,8 @@
       "de": "Standscheinwerfer",
       "en": "Indirect Stand Lighting",
       "fr": "Éclairage indirect sur pied",
-      "ja": "インダイレクトランプ・スタンド"
+      "ja": "インダイレクトランプ・スタンド",
+      "ko": "간접 조명 스탠드"
     },
     "stars": 3
   },
@@ -7872,7 +8410,8 @@
       "de": "Wandscheinwerfer",
       "en": "Indirect Wall Lighting",
       "fr": "Éclairage indirect mural",
-      "ja": "インダイレクト・ウォールランプ"
+      "ja": "インダイレクト・ウォールランプ",
+      "ko": "벽걸이 간접 조명"
     },
     "stars": 3
   },
@@ -7887,7 +8426,8 @@
       "de": "Allagischer Rundschild (Replik)",
       "en": "Replica Allagan Round Shield",
       "fr": "Réplique de bouclier rond allagois",
-      "ja": "レプリカ・アラガンラウンドシールド"
+      "ja": "レプリカ・アラガンラウンドシールド",
+      "ko": "모조 알라그 원형방패"
     },
     "stars": 3
   },
@@ -7902,7 +8442,8 @@
       "de": "Hochallagischer Drachenschild (Replik)",
       "en": "Replica High Allagan Kite Shield",
       "fr": "Réplique d'écu mandorle haut-allagois",
-      "ja": "レプリカ・ハイアラガン・カイトシールド"
+      "ja": "レプリカ・ハイアラガン・カイトシールド",
+      "ko": "모조 상급 알라그 연모양 방패"
     },
     "stars": 3
   },
@@ -7917,7 +8458,8 @@
       "de": "Schild des Baumgottes",
       "en": "Shield of the Fiend",
       "fr": "Bouclier du Fiélon",
-      "ja": "シールド・オブ・フィーンド"
+      "ja": "シールド・オブ・フィーンド",
+      "ko": "Shield of the Fiend"
     },
     "stars": 3
   },
@@ -7932,7 +8474,8 @@
       "de": "Schild der Runde",
       "en": "Shield of the Round",
       "fr": "Pavois de la Table ronde",
-      "ja": "シールド・オブ・ラウンド"
+      "ja": "シールド・オブ・ラウンド",
+      "ko": "기사신의 방패"
     },
     "stars": 3
   },
@@ -7947,7 +8490,8 @@
       "de": "Miniatur-Alexander",
       "en": "Alexander Miniature",
       "fr": "Figurine magitek d'Alexander",
-      "ja": "MGアレキサンダー"
+      "ja": "MGアレキサンダー",
+      "ko": "MG 알렉산더"
     },
     "stars": 4
   },
@@ -7962,7 +8506,8 @@
       "de": "Schwermetall-Bundhaube der Verteidigung",
       "en": "Heavy Metal Coif of Fending",
       "fr": "Coiffe en mailles de protecteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・ディフェンダーチェーンコイフ"
+      "ja": "ヘヴィアロイ・ディフェンダーチェーンコイフ",
+      "ko": "중합금 수호자 사슬머리쓰개"
     },
     "stars": 4
   },
@@ -7977,7 +8522,8 @@
       "de": "Schwermetall-Bundhaube des Verstümmelns",
       "en": "Heavy Metal Coif of Maiming",
       "fr": "Coiffe en mailles d'abatteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・スレイヤーチェーンコイフ"
+      "ja": "ヘヴィアロイ・スレイヤーチェーンコイフ",
+      "ko": "중합금 학살자 사슬머리쓰개"
     },
     "stars": 4
   },
@@ -7992,7 +8538,8 @@
       "de": "Schwermetall-Kürass der Verteidigung",
       "en": "Heavy Metal Cuirass of Fending",
       "fr": "Cuirasse de protecteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・ディフェンダーキュイラス"
+      "ja": "ヘヴィアロイ・ディフェンダーキュイラス",
+      "ko": "중합금 수호자 전투흉갑"
     },
     "stars": 4
   },
@@ -8007,7 +8554,8 @@
       "de": "Schwermetall-Kürass des Verstümmelns",
       "en": "Heavy Metal Cuirass of Maiming",
       "fr": "Cuirasse d'abatteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・スレイヤーキュイラス"
+      "ja": "ヘヴィアロイ・スレイヤーキュイラス",
+      "ko": "중합금 학살자 전투흉갑"
     },
     "stars": 4
   },
@@ -8022,7 +8570,8 @@
       "de": "Schwermetall-Panzerhandschuhe der Verteidigung",
       "en": "Heavy Metal Gauntlets of Fending",
       "fr": "Gantelets de protecteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・ディフェンダーガントレット"
+      "ja": "ヘヴィアロイ・ディフェンダーガントレット",
+      "ko": "중합금 수호자 건틀릿"
     },
     "stars": 4
   },
@@ -8037,7 +8586,8 @@
       "de": "Schwermetall-Panzerhandschuhe des Verstümmelns",
       "en": "Heavy Metal Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・スレイヤーガントレット"
+      "ja": "ヘヴィアロイ・スレイヤーガントレット",
+      "ko": "중합금 학살자 건틀릿"
     },
     "stars": 4
   },
@@ -8052,7 +8602,8 @@
       "de": "Schwermetall-Barren",
       "en": "Heavy Metal Ingot",
       "fr": "Lingot d'alliage de tungstène",
-      "ja": "ヘヴィアロイインゴット"
+      "ja": "ヘヴィアロイインゴット",
+      "ko": "중합금 주괴"
     },
     "stars": 4
   },
@@ -8067,7 +8618,8 @@
       "de": "Schwermetall-Drachenschild",
       "en": "Heavy Metal Kite Shield",
       "fr": "Écu mandorle en alliage de tungstène",
-      "ja": "ヘヴィアロイ・カイトシールド"
+      "ja": "ヘヴィアロイ・カイトシールド",
+      "ko": "중합금 연모양 방패"
     },
     "stars": 4
   },
@@ -8082,7 +8634,8 @@
       "de": "Schwermetall-Plattengürtel der Verteidigung",
       "en": "Heavy Metal Plate Belt of Fending",
       "fr": "Ceinture de plaques de protecteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・ディフェンダープレートベルト"
+      "ja": "ヘヴィアロイ・ディフェンダープレートベルト",
+      "ko": "중합금 수호자 판금 허리띠"
     },
     "stars": 4
   },
@@ -8097,7 +8650,8 @@
       "de": "Schwermetall-Plattengürtel des Verstümmelns",
       "en": "Heavy Metal Plate Belt of Maiming",
       "fr": "Ceinture de plaques d'abatteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・スレイヤープレートベルト"
+      "ja": "ヘヴィアロイ・スレイヤープレートベルト",
+      "ko": "중합금 학살자 판금 허리띠"
     },
     "stars": 4
   },
@@ -8112,7 +8666,8 @@
       "de": "Schwermetall-Bärlatschen der Verteidigung",
       "en": "Heavy Metal Sabatons of Fending",
       "fr": "Sabatons de protecteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・ディフェンダーサバトン"
+      "ja": "ヘヴィアロイ・ディフェンダーサバトン",
+      "ko": "중합금 수호자 판금장화"
     },
     "stars": 4
   },
@@ -8127,7 +8682,8 @@
       "de": "Schwermetall-Bärlatschen des Verstümmelns",
       "en": "Heavy Metal Sabatons of Maiming",
       "fr": "Sabatons d'abatteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・スレイヤーサバトン"
+      "ja": "ヘヴィアロイ・スレイヤーサバトン",
+      "ko": "중합금 학살자 판금장화"
     },
     "stars": 4
   },
@@ -8142,7 +8698,8 @@
       "de": "Schwermetall-Bauchreifen des Zielens",
       "en": "Heavy Metal Tassets of Aiming",
       "fr": "Tassette de pisteur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・レンジャータセット"
+      "ja": "ヘヴィアロイ・レンジャータセット",
+      "ko": "중합금 유격대 허리갑옷"
     },
     "stars": 4
   },
@@ -8157,7 +8714,8 @@
       "de": "Schwermetall-Bauchreifen des Spähens",
       "en": "Heavy Metal Tassets of Scouting",
       "fr": "Tassette d'éclaireur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・スカウトタセット"
+      "ja": "ヘヴィアロイ・スカウトタセット",
+      "ko": "중합금 정찰대 허리갑옷"
     },
     "stars": 4
   },
@@ -8172,7 +8730,8 @@
       "de": "Schwermetall-Bauchreifen des Schlagens",
       "en": "Heavy Metal Tassets of Striking",
       "fr": "Tassette d'agresseur en alliage de tungstène",
-      "ja": "ヘヴィアロイ・ストライカータセット"
+      "ja": "ヘヴィアロイ・ストライカータセット",
+      "ko": "중합금 타격대 허리갑옷"
     },
     "stars": 4
   },
@@ -8187,7 +8746,8 @@
       "de": "Himmelsratten-Enterhaken der Verteidigung",
       "en": "Sky Rat Hook of Fending",
       "fr": "Gants à tranchant de protecteur de rat des cieux",
-      "ja": "スカイラット・ディフェンダーフック"
+      "ja": "スカイラット・ディフェンダーフック",
+      "ko": "하늘쥐 수호자 갈고리 장갑"
     },
     "stars": 4
   },
@@ -8202,7 +8762,8 @@
       "de": "Himmelsratten-Enterhaken der Heilung",
       "en": "Sky Rat Hook of Healing",
       "fr": "Gants à tranchant de soigneur de rat des cieux",
-      "ja": "スカイラット・ヒーラーフック"
+      "ja": "スカイラット・ヒーラーフック",
+      "ko": "하늘쥐 치유사 갈고리 장갑"
     },
     "stars": 4
   },
@@ -8217,7 +8778,8 @@
       "de": "Himmelsratten-Enterhaken des Verstümmelns",
       "en": "Sky Rat Hook of Maiming",
       "fr": "Gants à tranchant d'abatteur de rat des cieux",
-      "ja": "スカイラット・スレイヤーフック"
+      "ja": "スカイラット・スレイヤーフック",
+      "ko": "하늘쥐 학살자 갈고리 장갑"
     },
     "stars": 4
   },
@@ -8232,7 +8794,8 @@
       "de": "Himmelsratten-Enterhaken des Spähens",
       "en": "Sky Rat Hook of Scouting",
       "fr": "Gants à tranchant d'éclaireur de rat des cieux",
-      "ja": "スカイラット・スカウトフック"
+      "ja": "スカイラット・スカウトフック",
+      "ko": "하늘쥐 정찰대 갈고리 장갑"
     },
     "stars": 4
   },
@@ -8247,7 +8810,8 @@
       "de": "Himmelsratten-Kampfstiefel des Zielens",
       "en": "Sky Rat Ironclad Boots of Aiming",
       "fr": "Bottes militaires revêtues de fer de pisteur de rat des cieux",
-      "ja": "スカイラット・レンジャーアイアンクラッド"
+      "ja": "スカイラット・レンジャーアイアンクラッド",
+      "ko": "하늘쥐 유격대 철갑장화"
     },
     "stars": 4
   },
@@ -8262,7 +8826,8 @@
       "de": "Himmelsratten-Kampfstiefel der Magie",
       "en": "Sky Rat Ironclad Boots of Casting",
       "fr": "Bottes militaires revêtues de fer d'incantateur de rat des cieux",
-      "ja": "スカイラット・キャスターアイアンクラッド"
+      "ja": "スカイラット・キャスターアイアンクラッド",
+      "ko": "하늘쥐 마술사 철갑장화"
     },
     "stars": 4
   },
@@ -8277,7 +8842,8 @@
       "de": "Himmelsratten-Kampfstiefel des Schlagens",
       "en": "Sky Rat Ironclad Boots of Striking",
       "fr": "Bottes militaires revêtues de fer d'agresseur de rat des cieux",
-      "ja": "スカイラット・ストライカーアイアンクラッド"
+      "ja": "スカイラット・ストライカーアイアンクラッド",
+      "ko": "하늘쥐 타격대 철갑장화"
     },
     "stars": 4
   },
@@ -8292,7 +8858,8 @@
       "de": "Himmelsratten-Maske des Spähens",
       "en": "Sky Rat Mask of Scouting",
       "fr": "Masque d'éclaireur de rat des cieux",
-      "ja": "スカイラット・スカウトマスク"
+      "ja": "スカイラット・スカウトマスク",
+      "ko": "하늘쥐 정찰대 가면"
     },
     "stars": 4
   },
@@ -8307,7 +8874,8 @@
       "de": "Himmelsratten-Maske des Schlagens",
       "en": "Sky Rat Mask of Striking",
       "fr": "Masque d'agresseur de rat des cieux",
-      "ja": "スカイラット・ストライカーマスク"
+      "ja": "スカイラット・ストライカーマスク",
+      "ko": "하늘쥐 타격대 가면"
     },
     "stars": 4
   },
@@ -8322,7 +8890,8 @@
       "de": "Zurvan-Modell",
       "en": "Zurvan Miniature",
       "fr": "Figurine magitek de Zurvan",
-      "ja": "MGズルワーン"
+      "ja": "MGズルワーン",
+      "ko": "MG 주르반"
     },
     "stars": 4
   },
@@ -8337,7 +8906,8 @@
       "de": "Zurvan-Rossharnisch",
       "en": "Zurvanite Barding",
       "fr": "Barde de Zurvan",
-      "ja": "ズルワーン・バード"
+      "ja": "ズルワーン・バード",
+      "ko": "주르반 갑주"
     },
     "stars": 4
   },
@@ -8352,7 +8922,8 @@
       "de": "Trostpreis für den Gold Saucer",
       "en": "Gold Saucer Consolation Prize",
       "fr": "Lot de consolation du Gold Saucer",
-      "ja": "ゴールドソーサーの景品"
+      "ja": "ゴールドソーサーの景品",
+      "ko": "Gold Saucer Consolation Prize"
     }
   },
   {
@@ -8366,7 +8937,8 @@
       "de": "Komponente eines Gold Saucer-Trostpreises",
       "en": "Gold Saucer Consolation Prize Component",
       "fr": "Composant de lot de consolation du Gold Saucer",
-      "ja": "ゴールドソーサーの景品部材"
+      "ja": "ゴールドソーサーの景品部材",
+      "ko": "Gold Saucer Consolation Prize Component"
     }
   },
   {
@@ -8380,7 +8952,8 @@
       "de": "Edelstahl-Helm der Verteidigung",
       "en": "High Steel Helm of Fending",
       "fr": "Casque de protecteur en acier noble",
-      "ja": "ハイスチールディフェンダーヘルム"
+      "ja": "ハイスチールディフェンダーヘルム",
+      "ko": "경강 수호자 투구"
     }
   },
   {
@@ -8394,7 +8967,8 @@
       "de": "Edelstahl-Helm des Verstümmelns",
       "en": "High Steel Helm of Maiming",
       "fr": "Casque d'abatteur en acier noble",
-      "ja": "ハイスチールスレイヤーヘルム"
+      "ja": "ハイスチールスレイヤーヘルム",
+      "ko": "경강 학살자 투구"
     }
   },
   {
@@ -8408,7 +8982,8 @@
       "de": "Edelstahl-Hoplon",
       "en": "High Steel Hoplon",
       "fr": "Hoplon en acier noble",
-      "ja": "ハイスチールホプロン"
+      "ja": "ハイスチールホプロン",
+      "ko": "경강 전통방패"
     }
   },
   {
@@ -8422,7 +8997,8 @@
       "de": "Edelstahl-Nugget",
       "en": "High Steel Nugget",
       "fr": "Pépite d'acier noble",
-      "ja": "ハイスチールナゲット"
+      "ja": "ハイスチールナゲット",
+      "ko": "경강 덩어리"
     }
   },
   {
@@ -8436,7 +9012,8 @@
       "de": "Edelstahl-Armschützer der Verteidigung",
       "en": "High Steel Armguards of Fending",
       "fr": "Garde-bras de protecteur en acier noble",
-      "ja": "ハイスチール・ディフェンダーアームガード"
+      "ja": "ハイスチール・ディフェンダーアームガード",
+      "ko": "경강 수호자 팔보호구"
     }
   },
   {
@@ -8450,7 +9027,8 @@
       "de": "Edelstahl-Armschützer des Verstümmelns",
       "en": "High Steel Armguards of Maiming",
       "fr": "Garde-bras d'abatteur en acier noble",
-      "ja": "ハイスチール・スレイヤーアームガード"
+      "ja": "ハイスチール・スレイヤーアームガード",
+      "ko": "경강 학살자 팔보호구"
     }
   },
   {
@@ -8464,7 +9042,8 @@
       "de": "Edelstahl-Bombenbratpfanne",
       "en": "High Steel Bomb Frypan",
       "fr": "Poêle à frire bombo en acier noble",
-      "ja": "ハイスチール・ボムフライパン"
+      "ja": "ハイスチール・ボムフライパン",
+      "ko": "경강 봄 프라이팬"
     }
   },
   {
@@ -8478,7 +9057,8 @@
       "de": "Edelstahl-Schuppenpanzer der Verteidigung",
       "en": "High Steel Scale Mail of Fending",
       "fr": "Armure d'écailles de protecteur en acier noble",
-      "ja": "ハイスチール・ディフェンダースケイルメイル"
+      "ja": "ハイスチール・ディフェンダースケイルメイル",
+      "ko": "경강 수호자 미늘갑옷"
     }
   },
   {
@@ -8492,7 +9072,8 @@
       "de": "Edelstahl-Schuppenpanzer des Verstümmelns",
       "en": "High Steel Scale Mail of Maiming",
       "fr": "Armure d'écailles d'abatteur en acier noble",
-      "ja": "ハイスチール・スレイヤースケイルメイル"
+      "ja": "ハイスチール・スレイヤースケイルメイル",
+      "ko": "경강 학살자 미늘갑옷"
     }
   },
   {
@@ -8506,7 +9087,8 @@
       "de": "Edelstahl-Destillierkolben",
       "en": "High Steel Thermal Alembic",
       "fr": "Alambic thermique en acier noble",
-      "ja": "ハイスチール・サーマルアレンビック"
+      "ja": "ハイスチール・サーマルアレンビック",
+      "ko": "경강 보온 증류기"
     }
   },
   {
@@ -8520,7 +9102,8 @@
       "de": "Hinganisches Kurazukuri-Hüttendach",
       "en": "Hingan Cottage Roof (Kura-zukuri)",
       "fr": "Toit de maisonnette hingashienne (kura-zukuri)",
-      "ja": "白銀蔵造平屋屋根"
+      "ja": "白銀蔵造平屋屋根",
+      "ko": "Hingan Cottage Roof (Kura-zukuri)"
     }
   },
   {
@@ -8534,7 +9117,8 @@
       "de": "Hinganische Kurazukuri-Hüttenmauer",
       "en": "Hingan Cottage Wall (Kura-zukuri)",
       "fr": "Mur de maisonnette hingashienne (kura-zukuri)",
-      "ja": "白銀蔵造平屋壁"
+      "ja": "白銀蔵造平屋壁",
+      "ko": "Hingan Cottage Wall (Kura-zukuri)"
     }
   },
   {
@@ -8548,7 +9132,8 @@
       "de": "Edelstahl-Barbuta der Verteidigung",
       "en": "High Steel Barbut of Fending",
       "fr": "Barbute de protecteur en acier noble",
-      "ja": "ハイスチール・ディフェンダーバルビュート"
+      "ja": "ハイスチール・ディフェンダーバルビュート",
+      "ko": "경강 수호자 무장투구"
     }
   },
   {
@@ -8562,7 +9147,8 @@
       "de": "Edelstahl-Barbuta des Verstümmelns",
       "en": "High Steel Barbut of Maiming",
       "fr": "Barbute d'abatteur en acier noble",
-      "ja": "ハイスチール・スレイヤーバルビュート"
+      "ja": "ハイスチール・スレイヤーバルビュート",
+      "ko": "경강 학살자 무장투구"
     }
   },
   {
@@ -8576,7 +9162,8 @@
       "de": "Edelstahl-Barren",
       "en": "High Steel Ingot",
       "fr": "Lingot d'acier noble",
-      "ja": "ハイスチールインゴット"
+      "ja": "ハイスチールインゴット",
+      "ko": "경강 주괴"
     }
   },
   {
@@ -8590,7 +9177,8 @@
       "de": "Edelstahl-Plattengürtel der Verteidigung",
       "en": "High Steel Plate Belt of Fending",
       "fr": "Ceinture de plaques de protecteur en acier noble",
-      "ja": "ハイスチール・ディフェンダープレートベルト"
+      "ja": "ハイスチール・ディフェンダープレートベルト",
+      "ko": "경강 수호자 판금 허리띠"
     }
   },
   {
@@ -8604,7 +9192,8 @@
       "de": "Edelstahl-Plattengürtel des Verstümmelns",
       "en": "High Steel Plate Belt of Maiming",
       "fr": "Ceinture de plaques d'abatteur en acier noble",
-      "ja": "ハイスチール・スレイヤープレートベルト"
+      "ja": "ハイスチール・スレイヤープレートベルト",
+      "ko": "경강 학살자 판금 허리띠"
     }
   },
   {
@@ -8618,7 +9207,8 @@
       "de": "Edelstahl-Turmschild",
       "en": "High Steel Scutum",
       "fr": "Scutum en acier noble",
-      "ja": "ハイスチールスクトゥム"
+      "ja": "ハイスチールスクトゥム",
+      "ko": "경강 사각방패"
     }
   },
   {
@@ -8632,7 +9222,8 @@
       "de": "Jagdbedarf",
       "en": "M Tribe Sundries",
       "fr": "Produits du quotidien des M",
-      "ja": "メ族の日用品"
+      "ja": "メ族の日用品",
+      "ko": "M Tribe Sundries"
     }
   },
   {
@@ -8646,7 +9237,8 @@
       "de": "Komponente eines Gebrauchsgegenstands der M",
       "en": "M Tribe Sundry Component",
       "fr": "Composant de produits du quotidien des M",
-      "ja": "メ族の日用品部材"
+      "ja": "メ族の日用品部材",
+      "ko": "M Tribe Sundry Component"
     }
   },
   {
@@ -8660,7 +9252,8 @@
       "de": "Edelstahl-Panzerhandschuhe der Verteidigung",
       "en": "High Steel Gauntlets of Fending",
       "fr": "Gantelets de protecteur en acier noble",
-      "ja": "ハイスチール・ディフェンダーガントレット"
+      "ja": "ハイスチール・ディフェンダーガントレット",
+      "ko": "경강 수호자 건틀릿"
     }
   },
   {
@@ -8674,7 +9267,8 @@
       "de": "Edelstahl-Panzerhandschuhe des Verstümmelns",
       "en": "High Steel Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en acier noble",
-      "ja": "ハイスチール・スレイヤーガントレット"
+      "ja": "ハイスチール・スレイヤーガントレット",
+      "ko": "경강 학살자 건틀릿"
     }
   },
   {
@@ -8688,7 +9282,8 @@
       "de": "Edelstahl-Rüstung der Verteidigung",
       "en": "High Steel Mail of Fending",
       "fr": "Cotte de mailles de protecteur en acier noble",
-      "ja": "ハイスチール・ディフェンダーメイル"
+      "ja": "ハイスチール・ディフェンダーメイル",
+      "ko": "경강 수호자 갑옷"
     }
   },
   {
@@ -8702,7 +9297,8 @@
       "de": "Edelstahl-Rüstung des Verstümmelns",
       "en": "High Steel Mail of Maiming",
       "fr": "Cotte de mailles d'abatteur en acier noble",
-      "ja": "ハイスチール・スレイヤーメイル"
+      "ja": "ハイスチール・スレイヤーメイル",
+      "ko": "경강 학살자 갑옷"
     }
   },
   {
@@ -8716,7 +9312,8 @@
       "de": "Edelstahl-Sollerets der Verteidigung",
       "en": "High Steel Sollerets of Fending",
       "fr": "Solerets de protecteur en acier noble",
-      "ja": "ハイスチール・ディフェンダーソルレット"
+      "ja": "ハイスチール・ディフェンダーソルレット",
+      "ko": "경강 수호자 쇠구두"
     }
   },
   {
@@ -8730,7 +9327,8 @@
       "de": "Edelstahl-Sollerets des Verstümmelns",
       "en": "High Steel Sollerets of Maiming",
       "fr": "Solerets d'abatteur en acier noble",
-      "ja": "ハイスチール・スレイヤーソルレット"
+      "ja": "ハイスチール・スレイヤーソルレット",
+      "ko": "경강 학살자 쇠구두"
     }
   },
   {
@@ -8744,7 +9342,8 @@
       "de": "Hinganischer Kurazukuri-Zaun",
       "en": "Hingan Kura-zukuri Fence",
       "fr": "Muret hingashien (kura-zukuri)",
-      "ja": "白銀蔵造塀"
+      "ja": "白銀蔵造塀",
+      "ko": "Hingan Kura-zukuri Fence"
     }
   },
   {
@@ -8758,7 +9357,8 @@
       "de": "Hinganisches Bogenfenster",
       "en": "Hingan Squinch Window",
       "fr": "Fenêtre en arche hingashienne",
-      "ja": "白銀迫持窓"
+      "ja": "白銀迫持窓",
+      "ko": "Hingan Squinch Window"
     }
   },
   {
@@ -8772,7 +9372,8 @@
       "de": "Paladin-Rüstung",
       "en": "Paladin Mail",
       "fr": "Armure de plates de chevalier",
-      "ja": "騎士向けの板金鎧"
+      "ja": "騎士向けの板金鎧",
+      "ko": "판금 기사갑옷"
     }
   },
   {
@@ -8786,7 +9387,8 @@
       "de": "Rucksack für die Befreiungsarmee",
       "en": "Resistance Materiel",
       "fr": "Provisions pour l'armée de libération",
-      "ja": "解放軍の軍需品"
+      "ja": "解放軍の軍需品",
+      "ko": "Resistance Materiel"
     }
   },
   {
@@ -8800,7 +9402,8 @@
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
       "en": "Resistance Materiel Component",
       "fr": "Composant de provisions pour l'armée de libération",
-      "ja": "解放軍の軍需品部材"
+      "ja": "解放軍の軍需品部材",
+      "ko": "Resistance Materiel Component"
     }
   },
   {
@@ -8814,7 +9417,8 @@
       "de": "Domaeisen-Panzerhandschuhe der Verteidigung",
       "en": "Doman Iron Gauntlets of Fending",
       "fr": "Gantelets de protecteur en fer domien",
-      "ja": "ドマアイアン・ディフェンダーガントレット"
+      "ja": "ドマアイアン・ディフェンダーガントレット",
+      "ko": "도마철 수호자 건틀릿"
     }
   },
   {
@@ -8828,7 +9432,8 @@
       "de": "Domaeisen-Panzerhandschuhe des Verstümmelns",
       "en": "Doman Iron Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en fer domien",
-      "ja": "ドマアイアン・スレイヤーガントレット"
+      "ja": "ドマアイアン・スレイヤーガントレット",
+      "ko": "도마철 학살자 건틀릿"
     }
   },
   {
@@ -8842,7 +9447,8 @@
       "de": "Domaeisen-Beinschienen der Verteidigung",
       "en": "Doman Iron Greaves of Fending",
       "fr": "Jambards de protecteur en fer domien",
-      "ja": "ドマアイアン・ディフェンダーグリーヴ"
+      "ja": "ドマアイアン・ディフェンダーグリーヴ",
+      "ko": "도마철 수호자 갑주장화"
     }
   },
   {
@@ -8856,7 +9462,8 @@
       "de": "Domaeisen-Beinschienen des Verstümmelns",
       "en": "Doman Iron Greaves of Maiming",
       "fr": "Jambards d'abatteur en fer domien",
-      "ja": "ドマアイアン・スレイヤーグリーヴ"
+      "ja": "ドマアイアン・スレイヤーグリーヴ",
+      "ko": "도마철 학살자 갑주장화"
     }
   },
   {
@@ -8870,7 +9477,8 @@
       "de": "Domaeisen-Bauchreifen der Verteidigung",
       "en": "Doman Iron Tassets of Fending",
       "fr": "Tassette de protecteur en fer domien",
-      "ja": "ドマアイアン・ディフェンダータセット"
+      "ja": "ドマアイアン・ディフェンダータセット",
+      "ko": "도마철 수호자 허리갑옷"
     }
   },
   {
@@ -8884,7 +9492,8 @@
       "de": "Domaeisen-Bauchreifen des Verstümmelns",
       "en": "Doman Iron Tassets of Maiming",
       "fr": "Tassette d'abatteur en fer domien",
-      "ja": "ドマアイアン・スレイヤータセット"
+      "ja": "ドマアイアン・スレイヤータセット",
+      "ko": "도마철 학살자 허리갑옷"
     }
   },
   {
@@ -8898,7 +9507,8 @@
       "de": "Hinganisches Kurazukuri-Hausdach",
       "en": "Hingan House Roof (Kura-zukuri)",
       "fr": "Toit de pavillon hingashien (kura-zukuri)",
-      "ja": "白銀蔵造屋敷屋根"
+      "ja": "白銀蔵造屋敷屋根",
+      "ko": "Hingan House Roof (Kura-zukuri)"
     }
   },
   {
@@ -8912,7 +9522,8 @@
       "de": "Oroshigane-Barren",
       "en": "Oroshigane Ingot",
       "fr": "Lingot d'oroshigane",
-      "ja": "卸し鉄"
+      "ja": "卸し鉄",
+      "ko": "도마철 주괴"
     }
   },
   {
@@ -8926,7 +9537,8 @@
       "de": "Domaeisen-Destillierkolben",
       "en": "Doman Iron Alembic",
       "fr": "Alambic en fer domien",
-      "ja": "ドマアイアンアレンビック"
+      "ja": "ドマアイアンアレンビック",
+      "ko": "도마철 증류기"
     }
   },
   {
@@ -8940,7 +9552,8 @@
       "de": "Domaeisen-Bratpfanne",
       "en": "Doman Iron Frypan",
       "fr": "Poêle à frire en fer domien",
-      "ja": "ドマアイアンフライパン"
+      "ja": "ドマアイアンフライパン",
+      "ko": "도마철 프라이팬"
     }
   },
   {
@@ -8954,7 +9567,8 @@
       "de": "Domaeisen-Drachenschild",
       "en": "Doman Iron Kite Shield",
       "fr": "Écu mandorle en fer domien",
-      "ja": "ドマアイアン・カイトシールド"
+      "ja": "ドマアイアン・カイトシールド",
+      "ko": "도마철 연모양 방패"
     }
   },
   {
@@ -8968,7 +9582,8 @@
       "de": "Tigerleder-Mantel der Verteidigung",
       "en": "Tigerskin Coat of Fending",
       "fr": "Manteau de protecteur en cuir de tigre",
-      "ja": "タイガーディフェンダーコート"
+      "ja": "タイガーディフェンダーコート",
+      "ko": "호랑이 수호자 외투"
     }
   },
   {
@@ -8982,7 +9597,8 @@
       "de": "Tigerleder-Mantel des Verstümmelns",
       "en": "Tigerskin Coat of Maiming",
       "fr": "Manteau d'abatteur en cuir de tigre",
-      "ja": "タイガースレイヤーコート"
+      "ja": "タイガースレイヤーコート",
+      "ko": "호랑이 학살자 외투"
     }
   },
   {
@@ -8996,7 +9612,8 @@
       "de": "Titan-Kote",
       "en": "Titanium Kote",
       "fr": "Gants en maille de titane",
-      "ja": "チタン製の手甲"
+      "ja": "チタン製の手甲",
+      "ko": "티타늄 완갑"
     }
   },
   {
@@ -9010,7 +9627,8 @@
       "de": "Domastahl-Panzerhandschuhe der Verteidigung",
       "en": "Doman Steel Gauntlets of Fending",
       "fr": "Gantelets de protecteur en acier domien",
-      "ja": "ドマスチール・ディフェンダーガントレット"
+      "ja": "ドマスチール・ディフェンダーガントレット",
+      "ko": "도마강철 수호자 건틀릿"
     }
   },
   {
@@ -9024,7 +9642,8 @@
       "de": "Domastahl-Panzerhandschuhe des Verstümmelns",
       "en": "Doman Steel Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en acier domien",
-      "ja": "ドマスチール・スレイヤーガントレット"
+      "ja": "ドマスチール・スレイヤーガントレット",
+      "ko": "도마강철 학살자 건틀릿"
     }
   },
   {
@@ -9038,7 +9657,8 @@
       "de": "Domastahl-Panzerhandschuhe des Spähens",
       "en": "Doman Steel Gauntlets of Scouting",
       "fr": "Gantelets d'éclaireur en acier domien",
-      "ja": "ドマスチール・スカウトガントレット"
+      "ja": "ドマスチール・スカウトガントレット",
+      "ko": "도마강철 정찰대 건틀릿"
     }
   },
   {
@@ -9052,7 +9672,8 @@
       "de": "Domastahl-Panzerhandschuhe des Schlagens",
       "en": "Doman Steel Gauntlets of Striking",
       "fr": "Gantelets d'agresseur en acier domien",
-      "ja": "ドマスチール・ストライカーガントレット"
+      "ja": "ドマスチール・ストライカーガントレット",
+      "ko": "도마강철 타격대 건틀릿"
     }
   },
   {
@@ -9066,7 +9687,8 @@
       "de": "Domastahl-Beinschienen der Verteidigung",
       "en": "Doman Steel Greaves of Fending",
       "fr": "Jambards de protecteur en acier domien",
-      "ja": "ドマスチール・ディフェンダーグリーヴ"
+      "ja": "ドマスチール・ディフェンダーグリーヴ",
+      "ko": "도마강철 수호자 갑주장화"
     }
   },
   {
@@ -9080,7 +9702,8 @@
       "de": "Domastahl-Beinschienen des Verstümmelns",
       "en": "Doman Steel Greaves of Maiming",
       "fr": "Jambards d'abatteur en acier domien",
-      "ja": "ドマスチール・スレイヤーグリーヴ"
+      "ja": "ドマスチール・スレイヤーグリーヴ",
+      "ko": "도마강철 학살자 갑주장화"
     }
   },
   {
@@ -9094,7 +9717,8 @@
       "de": "Domastahl-Beinschienen des Spähens",
       "en": "Doman Steel Greaves of Scouting",
       "fr": "Jambards d'éclaireur en acier domien",
-      "ja": "ドマスチール・スカウトグリーヴ"
+      "ja": "ドマスチール・スカウトグリーヴ",
+      "ko": "도마강철 정찰대 갑주장화"
     }
   },
   {
@@ -9108,7 +9732,8 @@
       "de": "Domastahl-Beinschienen des Schlagens",
       "en": "Doman Steel Greaves of Striking",
       "fr": "Jambards d'agresseur en acier domien",
-      "ja": "ドマスチール・ストライカーグリーヴ"
+      "ja": "ドマスチール・ストライカーグリーヴ",
+      "ko": "도마강철 타격대 갑주장화"
     }
   },
   {
@@ -9122,7 +9747,8 @@
       "de": "Hingashi-Rüstung",
       "en": "Hingan Armor Display",
       "fr": "Armure hingashienne décorative",
-      "ja": "当世具足"
+      "ja": "当世具足",
+      "ko": "Hingan Armor Display"
     }
   },
   {
@@ -9136,7 +9762,8 @@
       "de": "Hinganisches Kurazukuri-Vordach",
       "en": "Hingan Awning (Kura-zukuri)",
       "fr": "Auvent hingashien (kura-zukuri)",
-      "ja": "白銀蔵造日除け"
+      "ja": "白銀蔵造日除け",
+      "ko": "Hingan Awning (Kura-zukuri)"
     }
   },
   {
@@ -9150,7 +9777,8 @@
       "de": "Hinganische Kurazukuri-Hausmauer",
       "en": "Hingan House Wall (Kura-zukuri)",
       "fr": "Mur de pavillon hingashien (kura-zukuri)",
-      "ja": "白銀蔵造屋敷壁"
+      "ja": "白銀蔵造屋敷壁",
+      "ko": "Hingan House Wall (Kura-zukuri)"
     }
   },
   {
@@ -9164,7 +9792,8 @@
       "de": "Hingashi-Herd",
       "en": "Hingan Oven",
       "fr": "Four hingashien",
-      "ja": "白銀かまど"
+      "ja": "白銀かまど",
+      "ko": "Hingan Oven"
     }
   },
   {
@@ -9178,7 +9807,8 @@
       "de": "Tama-hagane-Barren",
       "en": "Tama-hagane Ingot",
       "fr": "Lingot de tamahagane",
-      "ja": "玉鋼"
+      "ja": "玉鋼",
+      "ko": "도마강철 주괴"
     }
   },
   {
@@ -9192,7 +9822,8 @@
       "de": "Domastahl-Destillierkolben",
       "en": "Doman Steel Alembic",
       "fr": "Alambic en acier domien",
-      "ja": "ドマスチールアレンビック"
+      "ja": "ドマスチールアレンビック",
+      "ko": "도마강철 증류기"
     }
   },
   {
@@ -9206,7 +9837,8 @@
       "de": "Domastahl-Armet der Verteidigung",
       "en": "Doman Steel Armet of Fending",
       "fr": "Armet de protecteur en acier domien",
-      "ja": "ドマスチール・ディフェンダーアーメット"
+      "ja": "ドマスチール・ディフェンダーアーメット",
+      "ko": "도마강철 수호자 철갑투구"
     }
   },
   {
@@ -9220,7 +9852,8 @@
       "de": "Domastahl-Armet des Verstümmelns",
       "en": "Doman Steel Armet of Maiming",
       "fr": "Armet d'abatteur en acier domien",
-      "ja": "ドマスチール・スレイヤーアーメット"
+      "ja": "ドマスチール・スレイヤーアーメット",
+      "ko": "도마강철 학살자 철갑투구"
     }
   },
   {
@@ -9234,7 +9867,8 @@
       "de": "Domastahl-Bratpfanne",
       "en": "Doman Steel Frypan Caliente",
       "fr": "Poêle à frire pampa en acier domien",
-      "ja": "ドマスチール・サボテンダーフライパン"
+      "ja": "ドマスチール・サボテンダーフライパン",
+      "ko": "도마강철 프라이팬"
     }
   },
   {
@@ -9248,7 +9882,8 @@
       "de": "Domastahl-Schild",
       "en": "Doman Steel Shield",
       "fr": "Bouclier en acier domien",
-      "ja": "ドマスチールシールド"
+      "ja": "ドマスチールシールド",
+      "ko": "도마강철 방패"
     }
   },
   {
@@ -9262,7 +9897,8 @@
       "de": "Domastahl-Wappenrock der Verteidigung",
       "en": "Doman Steel Tabard of Fending",
       "fr": "Tabard de protecteur en acier domien",
-      "ja": "ドマスチール・ディフェンダータバード"
+      "ja": "ドマスチール・ディフェンダータバード",
+      "ko": "도마강철 수호자 휘장복"
     }
   },
   {
@@ -9276,7 +9912,8 @@
       "de": "Domastahl-Wappenrock des Verstümmelns",
       "en": "Doman Steel Tabard of Maiming",
       "fr": "Tabard d'abatteur en acier domien",
-      "ja": "ドマスチール・スレイヤータバード"
+      "ja": "ドマスチール・スレイヤータバード",
+      "ko": "도마강철 학살자 휘장복"
     }
   },
   {
@@ -9290,7 +9927,8 @@
       "de": "Hinganisches Kurazukuri-Residenzdach",
       "en": "Hingan Mansion Roof (Kura-zukuri)",
       "fr": "Toit de villa hingashienne (kura-zukuri)",
-      "ja": "白銀蔵造御殿屋根"
+      "ja": "白銀蔵造御殿屋根",
+      "ko": "Hingan Mansion Roof (Kura-zukuri)"
     }
   },
   {
@@ -9304,7 +9942,8 @@
       "de": "Hinganische Kurazukuri-Residenzmauer",
       "en": "Hingan Mansion Wall (Kura-zukuri)",
       "fr": "Mur de villa hingashienne (kura-zukuri)",
-      "ja": "白銀蔵造御殿壁"
+      "ja": "白銀蔵造御殿壁",
+      "ko": "Hingan Mansion Wall (Kura-zukuri)"
     }
   },
   {
@@ -9318,7 +9957,8 @@
       "de": "Hinganische Kurazukuri-Wappenplakette",
       "en": "Hingan Placard (Kura-zukuri)",
       "fr": "Enseigne murale (kura-zukuri)",
-      "ja": "白銀蔵造看板"
+      "ja": "白銀蔵造看板",
+      "ko": "Hingan Placard (Kura-zukuri)"
     }
   },
   {
@@ -9332,7 +9972,8 @@
       "de": "Molybdän-Kopfbedeckung der Verteidigung",
       "en": "Molybdenum Headgear of Fending",
       "fr": "Protège-tête de protecteur en molybdène",
-      "ja": "モリブデン・ディフェンダーヘッドギア"
+      "ja": "モリブデン・ディフェンダーヘッドギア",
+      "ko": "몰리브덴 수호자 머리보호구"
     }
   },
   {
@@ -9346,7 +9987,8 @@
       "de": "Molybdän-Kopfbedeckung des Verstümmelns",
       "en": "Molybdenum Headgear of Maiming",
       "fr": "Protège-tête d'abatteur en molybdène",
-      "ja": "モリブデン・スレイヤーヘッドギア"
+      "ja": "モリブデン・スレイヤーヘッドギア",
+      "ko": "몰리브덴 학살자 머리보호구"
     }
   },
   {
@@ -9360,7 +10002,8 @@
       "de": "Molybdän-Barren",
       "en": "Molybdenum Ingot",
       "fr": "Lingot de molybdène",
-      "ja": "モリブデンインゴット"
+      "ja": "モリブデンインゴット",
+      "ko": "몰리브덴 주괴"
     }
   },
   {
@@ -9374,7 +10017,8 @@
       "de": "Molybdän-Plattengürtel der Verteidigung",
       "en": "Molybdenum Plate Belt of Fending",
       "fr": "Ceinture de plaques de protecteur en molybdène",
-      "ja": "モリブデン・ディフェンダープレートベルト"
+      "ja": "モリブデン・ディフェンダープレートベルト",
+      "ko": "몰리브덴 수호자 철판 허리띠"
     }
   },
   {
@@ -9388,7 +10032,8 @@
       "de": "Molybdän-Plattengürtel des Verstümmelns",
       "en": "Molybdenum Plate Belt of Maiming",
       "fr": "Ceinture de plaques d'abatteur en molybdène",
-      "ja": "モリブデン・スレイヤープレートベルト"
+      "ja": "モリブデン・スレイヤープレートベルト",
+      "ko": "몰리브덴 학살자 판금 허리띠"
     }
   },
   {
@@ -9402,7 +10047,8 @@
       "de": "Turnier-Somen",
       "en": "Tournament Somen",
       "fr": "Mengu de tournoi",
-      "ja": "御前試合用の総面"
+      "ja": "御前試合用の総面",
+      "ko": "어전시합용 면구"
     }
   },
   {
@@ -9416,7 +10062,8 @@
       "de": "Gazellenleder-Armschützer des Verstümmelns",
       "en": "Molybdenum Armguards of Maiming",
       "fr": "Garde-bras d'abatteur en molybdène",
-      "ja": "モリブデン・スレイヤーアームガード"
+      "ja": "モリブデン・スレイヤーアームガード",
+      "ko": "몰리브덴 학살자 팔보호구"
     }
   },
   {
@@ -9430,7 +10077,8 @@
       "de": "Molybdän-Armschützer des Spähens",
       "en": "Molybdenum Armguards of Scouting",
       "fr": "Garde-bras d'éclaireur en molybdène",
-      "ja": "モリブデン・スカウトアームガード"
+      "ja": "モリブデン・スカウトアームガード",
+      "ko": "몰리브덴 정잘대 팔보호구"
     }
   },
   {
@@ -9444,7 +10092,8 @@
       "de": "Molybdän-Armschützer des Schlagens",
       "en": "Molybdenum Armguards of Striking",
       "fr": "Garde-bras d'agresseur en molybdène",
-      "ja": "モリブデン・ストライカーアームガード"
+      "ja": "モリブデン・ストライカーアームガード",
+      "ko": "몰리브덴 타격대 팔보호구"
     }
   },
   {
@@ -9458,7 +10107,8 @@
       "de": "Molybdän-Beinschienen der Verteidigung",
       "en": "Molybdenum Greaves of Fending",
       "fr": "Jambards de protecteur en molybdène",
-      "ja": "モリブデンディフェンダーグリーヴ"
+      "ja": "モリブデンディフェンダーグリーヴ",
+      "ko": "몰리브덴 수호자 갑주장화"
     }
   },
   {
@@ -9472,7 +10122,8 @@
       "de": "Molybdän-Drachenschild",
       "en": "Molybdenum Kite Shield",
       "fr": "Écu mandorle en molybdène",
-      "ja": "モリブデンカイトシールド"
+      "ja": "モリブデンカイトシールド",
+      "ko": "몰리브덴 연모양 방패"
     }
   },
   {
@@ -9486,7 +10137,8 @@
       "de": "Limser Hara-Ate",
       "en": "Lominsan Hara-ate",
       "fr": "Hara-ate éorzéen",
-      "ja": "リムサ・ロミンサ式腹当"
+      "ja": "リムサ・ロミンサ式腹当",
+      "ko": "림사 로민사식 복갑"
     }
   },
   {
@@ -9500,7 +10152,8 @@
       "de": "Molybdän-Destillierkolben",
       "en": "Molybdenum Alembic",
       "fr": "Alambic en molybdène",
-      "ja": "モリブデンアレンビック"
+      "ja": "モリブデンアレンビック",
+      "ko": "몰리브덴 증류기"
     }
   },
   {
@@ -9514,7 +10167,8 @@
       "de": "Molybdän-Bratpfanne",
       "en": "Molybdenum Frypan",
       "fr": "Poêle à frire en molybdène",
-      "ja": "モリブデンフライパン"
+      "ja": "モリブデンフライパン",
+      "ko": "몰리브덴 프라이팬"
     }
   },
   {
@@ -9528,7 +10182,8 @@
       "de": "Molybdän-Bauchreifen der Verteidigung",
       "en": "Molybdenum Tassets of Fending",
       "fr": "Tassette de protecteur en molybdène",
-      "ja": "モリブデンディフェンダータセット"
+      "ja": "モリブデンディフェンダータセット",
+      "ko": "몰리브덴 수호자 허리갑옷"
     }
   },
   {
@@ -9542,7 +10197,8 @@
       "de": "Molybdän-Bauchreifen des Verstümmelns",
       "en": "Molybdenum Tassets of Maiming",
       "fr": "Tassette d'abatteur en molybdène",
-      "ja": "モリブデンスレイヤータセット"
+      "ja": "モリブデンスレイヤータセット",
+      "ko": "몰리브덴 학살자 허리갑옷"
     }
   },
   {
@@ -9556,7 +10212,8 @@
       "de": "Susano-Rossharnisch",
       "en": "Reveler's Barding",
       "fr": "Barde de Susano",
-      "ja": "スサノオ・バード"
+      "ja": "スサノオ・バード",
+      "ko": "스사노오 갑주"
     },
     "stars": 1
   },
@@ -9571,7 +10228,8 @@
       "de": "Miniatur-Susano",
       "en": "Susano Miniature",
       "fr": "Figurine magitek de Susano",
-      "ja": "MGスサノオ"
+      "ja": "MGスサノオ",
+      "ko": "MG 스사노오"
     },
     "stars": 1
   },
@@ -9586,7 +10244,8 @@
       "de": "Mhigischer Destillierkolben",
       "en": "Ala Mhigan Alembic",
       "fr": "Alambic mhigois",
-      "ja": "アラミガンアレンビック"
+      "ja": "アラミガンアレンビック",
+      "ko": "Ala Mhigan Alembic"
     },
     "stars": 2
   },
@@ -9601,7 +10260,8 @@
       "de": "Mhigische Bratpfanne",
       "en": "Ala Mhigan Frypan",
       "fr": "Poêle à frire mhigoise",
-      "ja": "アラミガンフライパン"
+      "ja": "アラミガンフライパン",
+      "ko": "Ala Mhigan Frypan"
     },
     "stars": 2
   },
@@ -9616,7 +10276,8 @@
       "de": "Chromeisen-Rüstung der Verteidigung",
       "en": "Chromite Armor of Fending",
       "fr": "Armure de protecteur en chromite",
-      "ja": "クロマイトディフェンダーアーマー"
+      "ja": "クロマイトディフェンダーアーマー",
+      "ko": "Chromite Armor of Fending"
     },
     "stars": 2
   },
@@ -9631,7 +10292,8 @@
       "de": "Chromeisen-Panzerhandschuhe der Verteidigung",
       "en": "Chromite Gauntlets of Fending",
       "fr": "Gantelets de protecteur en chromite",
-      "ja": "クロマイトディフェンダーガントレット"
+      "ja": "クロマイトディフェンダーガントレット",
+      "ko": "Chromite Gauntlets of Fending"
     },
     "stars": 2
   },
@@ -9646,7 +10308,8 @@
       "de": "Chromeisen-Panzerhandschuhe des Verstümmelns",
       "en": "Chromite Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en chromite",
-      "ja": "クロマイトスレイヤーガントレット"
+      "ja": "クロマイトスレイヤーガントレット",
+      "ko": "Chromite Gauntlets of Maiming"
     },
     "stars": 2
   },
@@ -9661,7 +10324,8 @@
       "de": "Chromeisen-Beinschienen des Verstümmelns",
       "en": "Chromite Greaves of Maiming",
       "fr": "Jambards d'abatteur en chromite",
-      "ja": "クロマイトスレイヤーグリーヴ"
+      "ja": "クロマイトスレイヤーグリーヴ",
+      "ko": "Chromite Greaves of Maiming"
     },
     "stars": 2
   },
@@ -9676,7 +10340,8 @@
       "de": "Chromeisen-Helm der Verteidigung",
       "en": "Chromite Helm of Fending",
       "fr": "Casque de protecteur en chromite",
-      "ja": "クロマイトディフェンダーヘルム"
+      "ja": "クロマイトディフェンダーヘルム",
+      "ko": "Chromite Helm of Fending"
     },
     "stars": 2
   },
@@ -9691,7 +10356,8 @@
       "de": "Chromeisen-Barren",
       "en": "Chromite Ingot",
       "fr": "Lingot de chromite",
-      "ja": "クロマイトインゴット"
+      "ja": "クロマイトインゴット",
+      "ko": "Chromite Ingot"
     },
     "stars": 2
   },
@@ -9706,7 +10372,8 @@
       "de": "Chromeisen-Rüstung des Verstümmelns",
       "en": "Chromite Mail of Maiming",
       "fr": "Cotte de mailles d'abatteur en chromite",
-      "ja": "クロマイトスレイヤーメイル"
+      "ja": "クロマイトスレイヤーメイル",
+      "ko": "Chromite Mail of Maiming"
     },
     "stars": 2
   },
@@ -9721,7 +10388,8 @@
       "de": "Chromeisen-Bärlatschen der Verteidigung",
       "en": "Chromite Sabatons of Fending",
       "fr": "Sabatons de protecteur en chromite",
-      "ja": "クロマイトディフェンダーサバトン"
+      "ja": "クロマイトディフェンダーサバトン",
+      "ko": "Chromite Sabatons of Fending"
     },
     "stars": 2
   },
@@ -9736,7 +10404,8 @@
       "de": "Chromeisen-Schild",
       "en": "Chromite Shield",
       "fr": "Bouclier en chromite",
-      "ja": "クロマイトシールド"
+      "ja": "クロマイトシールド",
+      "ko": "Chromite Shield"
     },
     "stars": 2
   },
@@ -9751,7 +10420,8 @@
       "de": "Shinryu-Rossharnisch",
       "en": "Shinryu Barding",
       "fr": "Barde de Shinryu",
-      "ja": "シンリュウ・バード"
+      "ja": "シンリュウ・バード",
+      "ko": "Shinryu Barding"
     },
     "stars": 2
   }

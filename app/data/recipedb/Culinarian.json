@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "baseLevel": 1,
     "difficulty": 19,
@@ -10,7 +10,8 @@
       "de": "Ballonhüllen-Bauteil",
       "en": "Bladder Component",
       "fr": "Composant de ballon",
-      "ja": "気嚢部材"
+      "ja": "気嚢部材",
+      "ko": "공기주머니 부재"
     }
   },
   {
@@ -24,7 +25,8 @@
       "de": "Hüllenverstärkungs-Bauteil",
       "en": "Bladder Lining Component",
       "fr": "Composant de finition de ballon",
-      "ja": "気嚢補強材"
+      "ja": "気嚢補強材",
+      "ko": "공기주머니 보강재"
     }
   },
   {
@@ -38,7 +40,8 @@
       "de": "Kanzelinnenraum-Bauteil",
       "en": "Hull Interior Component",
       "fr": "Composant de coque",
-      "ja": "エカトルの船体部材"
+      "ja": "エカトルの船体部材",
+      "ko": "에카틀 선체 부재"
     }
   },
   {
@@ -52,7 +55,8 @@
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
       "fr": "Comp. de partie gauche de nacelle",
-      "ja": "左舷船体部材"
+      "ja": "左舷船体部材",
+      "ko": "좌현 선체 부재"
     }
   },
   {
@@ -66,7 +70,8 @@
       "de": "Ahornsirup",
       "en": "Maple Syrup",
       "fr": "Sirop d'érable",
-      "ja": "メープルシロップ"
+      "ja": "メープルシロップ",
+      "ko": "메이플 시럽"
     }
   },
   {
@@ -80,7 +85,8 @@
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
       "fr": "Comp. de partie droite de nacelle",
-      "ja": "右舷船体部材"
+      "ja": "右舷船体部材",
+      "ko": "우현 선체 부재"
     }
   },
   {
@@ -94,7 +100,8 @@
       "de": "Speisesalz",
       "en": "Table Salt",
       "fr": "Sel de table",
-      "ja": "食塩"
+      "ja": "食塩",
+      "ko": "식염"
     }
   },
   {
@@ -108,7 +115,8 @@
       "de": "Ahornzucker",
       "en": "Maple Sugar",
       "fr": "Sucre d'érable",
-      "ja": "メープルシュガー"
+      "ja": "メープルシュガー",
+      "ko": "메이플 설탕"
     }
   },
   {
@@ -122,7 +130,8 @@
       "de": "Gekochtes Ei",
       "en": "Boiled Egg",
       "fr": "Œuf à la coque",
-      "ja": "ボイルドエッグ"
+      "ja": "ボイルドエッグ",
+      "ko": "삶은 달걀"
     }
   },
   {
@@ -136,7 +145,8 @@
       "de": "Werkzeug-Bauteil",
       "en": "Crafting Tool Component",
       "fr": "Nécessaire de fabrication",
-      "ja": "加工道具"
+      "ja": "加工道具",
+      "ko": "가공 도구"
     }
   },
   {
@@ -150,7 +160,8 @@
       "de": "Deck-Bauteil",
       "en": "Deck Component",
       "fr": "Composant de pont",
-      "ja": "甲板部材"
+      "ja": "甲板部材",
+      "ko": "갑판 부재"
     }
   },
   {
@@ -164,7 +175,8 @@
       "de": "Motorgehäuse-Bauteil",
       "en": "Engine Casing Component",
       "fr": "Composant de protection de moteur",
-      "ja": "機関外装部材"
+      "ja": "機関外装部材",
+      "ko": "기관 외장 부재"
     }
   },
   {
@@ -178,7 +190,8 @@
       "de": "Gyroantriebs-Bauteil",
       "en": "Gyrodrive Component",
       "fr": "Composant d'unité motrice",
-      "ja": "動力輪部材"
+      "ja": "動力輪部材",
+      "ko": "동력바퀴 부재"
     }
   },
   {
@@ -192,7 +205,8 @@
       "de": "Erdseim-Motor-Bauteil",
       "en": "Propulsion Engine Component",
       "fr": "Composant de moteur",
-      "ja": "エカトルの機関部材"
+      "ja": "エカトルの機関部材",
+      "ko": "에카틀 기관 부재"
     }
   },
   {
@@ -206,7 +220,8 @@
       "de": "Rosinen",
       "en": "Raisins",
       "fr": "Raisins secs",
-      "ja": "レーズン"
+      "ja": "レーズン",
+      "ko": "건포도"
     }
   },
   {
@@ -220,7 +235,8 @@
       "de": "Takelagen-Bauteil",
       "en": "Rigging Component",
       "fr": "Composant d'attache",
-      "ja": "索具部材"
+      "ja": "索具部材",
+      "ko": "밧줄 부재"
     }
   },
   {
@@ -234,7 +250,8 @@
       "de": "Frumenty",
       "en": "Frumenty",
       "fr": "Fromentée",
-      "ja": "フルメンティ"
+      "ja": "フルメンティ",
+      "ko": "우유 밀죽"
     }
   },
   {
@@ -248,7 +265,8 @@
       "de": "Honig",
       "en": "Honey",
       "fr": "Miel",
-      "ja": "蜂蜜"
+      "ja": "蜂蜜",
+      "ko": "벌꿀"
     }
   },
   {
@@ -262,7 +280,8 @@
       "de": "Roggenmehl",
       "en": "Rye Flour",
       "fr": "Farine de seigle",
-      "ja": "ライ麦粉"
+      "ja": "ライ麦粉",
+      "ko": "호밀가루"
     }
   },
   {
@@ -276,7 +295,8 @@
       "de": "Fisch im Teigmantel",
       "en": "Battered Fish",
       "fr": "Poisson pané",
-      "ja": "バタードフィッシュ"
+      "ja": "バタードフィッシュ",
+      "ko": "다진 생선 튀김"
     }
   },
   {
@@ -290,7 +310,8 @@
       "de": "Krebsfleischball",
       "en": "Crayfish Ball",
       "fr": "Boulette d'écrevisse",
-      "ja": "ザリガニボール"
+      "ja": "ザリガニボール",
+      "ko": "민물가재 떡밥"
     }
   },
   {
@@ -304,7 +325,8 @@
       "de": "Fischmehl",
       "en": "Fishmeal",
       "fr": "Farine de poisson",
-      "ja": "魚粉"
+      "ja": "魚粉",
+      "ko": "생선가루"
     }
   },
   {
@@ -318,7 +340,8 @@
       "de": "Fladenbrot",
       "en": "Flatbread",
       "fr": "Pain plat",
-      "ja": "フラットブレッド"
+      "ja": "フラットブレッド",
+      "ko": "납작빵"
     }
   },
   {
@@ -332,7 +355,8 @@
       "de": "Gegrillte Forelle",
       "en": "Grilled Trout",
       "fr": "Truite grillée",
-      "ja": "グリルドトラウト"
+      "ja": "グリルドトラウト",
+      "ko": "송어구이"
     }
   },
   {
@@ -346,7 +370,8 @@
       "de": "Murmelhörnchen-Steak",
       "en": "Marmot Steak",
       "fr": "Steak de marmotte",
-      "ja": "マーモットステーキ"
+      "ja": "マーモットステーキ",
+      "ko": "마멋 스테이크"
     }
   },
   {
@@ -360,7 +385,8 @@
       "de": "Rolanbeeren-Wassereis",
       "en": "Rolanberry Shaved Ice",
       "fr": "Glace pilée à la rolanbaie",
-      "ja": "ロランベリーシェイブドアイス"
+      "ja": "ロランベリーシェイブドアイス",
+      "ko": "롤란베리 빙수"
     }
   },
   {
@@ -374,7 +400,8 @@
       "de": "Aerodynamo-Bauteil",
       "en": "Aerodynamo Component",
       "fr": "Composant de nez profilé",
-      "ja": "空力部材"
+      "ja": "空力部材",
+      "ko": "동력원 부재"
     }
   },
   {
@@ -388,7 +415,8 @@
       "de": "Ballast-Bauteil",
       "en": "Ballast Component",
       "fr": "Composant de lest",
-      "ja": "バラスト部材"
+      "ja": "バラスト部材",
+      "ko": "무게추 부재"
     }
   },
   {
@@ -402,7 +430,8 @@
       "de": "Kanzelaußenwand-Bauteil",
       "en": "Cockpit Exterior Component",
       "fr": "Composant extérieur de cockpit",
-      "ja": "操縦席外装材"
+      "ja": "操縦席外装材",
+      "ko": "조종석 외장재"
     }
   },
   {
@@ -416,7 +445,8 @@
       "de": "Kanzelinnenwand-Bauteil",
       "en": "Cockpit Interior Component",
       "fr": "Composant intérieur de cockpit",
-      "ja": "操縦席内装材"
+      "ja": "操縦席内装材",
+      "ko": "조종석 내장재"
     }
   },
   {
@@ -430,7 +460,8 @@
       "de": "Motorverstrebungs-Bauteil",
       "en": "Engine Jointing Component",
       "fr": "Composant de jonction de moteur",
-      "ja": "エカトルの機関部接合材"
+      "ja": "エカトルの機関部接合材",
+      "ko": "에카틀 기관부 접합재"
     }
   },
   {
@@ -444,7 +475,8 @@
       "de": "Steuerpult-Bauteil",
       "en": "Instrument Panel Component",
       "fr": "Composant d'instrumentation",
-      "ja": "計器部材"
+      "ja": "計器部材",
+      "ko": "계기 부재"
     }
   },
   {
@@ -458,7 +490,8 @@
       "de": "Orangensaft",
       "en": "Orange Juice",
       "fr": "Jus d'orange",
-      "ja": "オレンジジュース"
+      "ja": "オレンジジュース",
+      "ko": "오렌지 주스"
     }
   },
   {
@@ -472,7 +505,8 @@
       "de": "Schlagsahne",
       "en": "Sweet Cream",
       "fr": "Crème grumeleuse",
-      "ja": "クリーム"
+      "ja": "クリーム",
+      "ko": "크림"
     }
   },
   {
@@ -486,7 +520,8 @@
       "de": "Gesalzene Butter",
       "en": "Smooth Butter",
       "fr": "Beurre",
-      "ja": "バター"
+      "ja": "バター",
+      "ko": "버터"
     }
   },
   {
@@ -500,7 +535,8 @@
       "de": "Sonnenweizenmehl",
       "en": "Sunset Wheat Flour",
       "fr": "Farine",
-      "ja": "小麦粉"
+      "ja": "小麦粉",
+      "ko": "밀가루"
     }
   },
   {
@@ -514,7 +550,8 @@
       "de": "Baumkrötenschenkel",
       "en": "Tree Toad Legs",
       "fr": "Cuisses de crapaud arboricole",
-      "ja": "ツリートードレッグズ"
+      "ja": "ツリートードレッグズ",
+      "ko": "나무두꺼비 튀김"
     }
   },
   {
@@ -528,7 +565,8 @@
       "de": "Gebratener Pipira",
       "en": "Braised Pipira",
       "fr": "Pipira à l'étuvée",
-      "ja": "ベイクドピピラ"
+      "ja": "ベイクドピピラ",
+      "ko": "피피라 찜"
     }
   },
   {
@@ -542,7 +580,8 @@
       "de": "Sautierte Pfifferlinge",
       "en": "Chanterelle Saute",
       "fr": "Sauté de chanterelles",
-      "ja": "キノコのソテー"
+      "ja": "キノコのソテー",
+      "ko": "버섯볶음"
     }
   },
   {
@@ -556,7 +595,8 @@
       "de": "Gekochter Krebs",
       "en": "Boiled Crayfish",
       "fr": "Écrevisse bouillie",
-      "ja": "ボイルドクレイフィッシュ"
+      "ja": "ボイルドクレイフィッシュ",
+      "ko": "삶은 가재"
     }
   },
   {
@@ -570,7 +610,8 @@
       "de": "Lammtopf",
       "en": "Mutton Stew",
       "fr": "Ragoût de mouton",
-      "ja": "マトンシチュー"
+      "ja": "マトンシチュー",
+      "ko": "양고기 스튜"
     }
   },
   {
@@ -584,7 +625,8 @@
       "de": "Grundelball",
       "en": "Goby Ball",
       "fr": "Boulette de gobie",
-      "ja": "ゴビーボール"
+      "ja": "ゴビーボール",
+      "ko": "망둥이고기 떡밥"
     }
   },
   {
@@ -598,7 +640,8 @@
       "de": "Kühler-Bauteil",
       "en": "Heat Vent Component",
       "fr": "Composant de ventilation",
-      "ja": "排熱部材"
+      "ja": "排熱部材",
+      "ko": "배열 부재"
     }
   },
   {
@@ -612,7 +655,8 @@
       "de": "Halloween-Kürbis",
       "en": "Jack-o'-lantern",
       "fr": "Jack-la-citrouille",
-      "ja": "ジャック・オ・ランタン"
+      "ja": "ジャック・オ・ランタン",
+      "ko": "잭 오 랜턴"
     }
   },
   {
@@ -626,7 +670,8 @@
       "de": "Kukuru-Butter",
       "en": "Kukuru Butter",
       "fr": "Beurre kukuru",
-      "ja": "ククルバター"
+      "ja": "ククルバター",
+      "ko": "쿠쿠루 버터"
     }
   },
   {
@@ -640,7 +685,8 @@
       "de": "Backbordtragflächen-Bauteil",
       "en": "Larboard Wing Component",
       "fr": "Composant d'aile gauche",
-      "ja": "左翼部材"
+      "ja": "左翼部材",
+      "ko": "왼쪽 날개 부재"
     }
   },
   {
@@ -654,7 +700,8 @@
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile gauche",
-      "ja": "左翼可動部材"
+      "ja": "左翼可動部材",
+      "ko": "왼쪽 날개 가동 부재"
     }
   },
   {
@@ -668,7 +715,8 @@
       "de": "Minz-Lassi",
       "en": "Mint Lassi",
       "fr": "Lassi à la menthe",
-      "ja": "ミントラッシー"
+      "ja": "ミントラッシー",
+      "ko": "박하 라씨"
     }
   },
   {
@@ -682,7 +730,8 @@
       "de": "Steuerbordtragflächen-Bauteil",
       "en": "Starboard Wing Component",
       "fr": "Composant d'aile droite",
-      "ja": "右翼部材"
+      "ja": "右翼部材",
+      "ko": "오른쪽 날개 부재"
     }
   },
   {
@@ -696,7 +745,8 @@
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
       "fr": "Comp. d'articulation d'aile droite",
-      "ja": "右翼可動部材"
+      "ja": "右翼可動部材",
+      "ko": "오른쪽 날개 가동 부재"
     }
   },
   {
@@ -710,7 +760,8 @@
       "de": "Sprechanlagen-Bauteil",
       "en": "Transmission Component",
       "fr": "Composant de transmission",
-      "ja": "伝達系部材"
+      "ja": "伝達系部材",
+      "ko": "전달계 부재"
     }
   },
   {
@@ -724,7 +775,8 @@
       "de": "Grill-Dodo",
       "en": "Grilled Dodo",
       "fr": "Tranche de dodo grillée",
-      "ja": "ドードーのグリル"
+      "ja": "ドードーのグリル",
+      "ko": "도도 석쇠구이"
     }
   },
   {
@@ -738,7 +790,8 @@
       "de": "Kukuru-Pulver",
       "en": "Kukuru Powder",
       "fr": "Poudre kukuru",
-      "ja": "ククルマス"
+      "ja": "ククルマス",
+      "ko": "쿠쿠루 가루"
     }
   },
   {
@@ -752,7 +805,8 @@
       "de": "Olivenöl",
       "en": "Olive Oil",
       "fr": "Huile d'olive",
-      "ja": "オリーヴオイル"
+      "ja": "オリーヴオイル",
+      "ko": "올리브유"
     }
   },
   {
@@ -766,7 +820,8 @@
       "de": "Luftschokolade",
       "en": "Bubble Chocolate",
       "fr": "Choco-bulle",
-      "ja": "バブルチョコ"
+      "ja": "バブルチョコ",
+      "ko": "방울 초콜릿"
     }
   },
   {
@@ -780,7 +835,8 @@
       "de": "Perlenschokolade",
       "en": "Pearl Chocolate",
       "fr": "Choco-perle",
-      "ja": "パールチョコ"
+      "ja": "パールチョコ",
+      "ko": "진주 초콜릿"
     }
   },
   {
@@ -794,7 +850,8 @@
       "de": "Tomatensoße",
       "en": "Tomato Sauce",
       "fr": "Sauce tomate",
-      "ja": "ポモドーロソース"
+      "ja": "ポモドーロソース",
+      "ko": "토마토 소스"
     }
   },
   {
@@ -808,7 +865,8 @@
       "de": "Mullpastete",
       "en": "Mole Loaf",
       "fr": "Pain de taupe",
-      "ja": "モールローフ"
+      "ja": "モールローフ",
+      "ko": "뒤쥐 햄버그"
     }
   },
   {
@@ -822,7 +880,8 @@
       "de": "Pastinaksalat",
       "en": "Parsnip Salad",
       "fr": "Salade de panais",
-      "ja": "パースニップサラダ"
+      "ja": "パースニップサラダ",
+      "ko": "설탕당근 샐러드"
     }
   },
   {
@@ -836,7 +895,8 @@
       "de": "Gelatine",
       "en": "Gelatin",
       "fr": "Gélatine",
-      "ja": "ゼラチン"
+      "ja": "ゼラチン",
+      "ko": "젤라틴"
     }
   },
   {
@@ -850,7 +910,8 @@
       "de": "Blätterteig",
       "en": "Pie Dough",
       "fr": "Pâte à tarte",
-      "ja": "パイ生地"
+      "ja": "パイ生地",
+      "ko": "파이 반죽"
     }
   },
   {
@@ -864,7 +925,8 @@
       "de": "Hasenpastete",
       "en": "Rabbit Pie",
       "fr": "Tourte lapin",
-      "ja": "ラビットパイ"
+      "ja": "ラビットパイ",
+      "ko": "토끼 파이"
     }
   },
   {
@@ -878,7 +940,8 @@
       "de": "Erdseim-Tank-Bauteil",
       "en": "Ceruleum Tank Component",
       "fr": "Composant de réservoir",
-      "ja": "青燐タンク部材"
+      "ja": "青燐タンク部材",
+      "ko": "청린 탱크 부재"
     }
   },
   {
@@ -892,7 +955,8 @@
       "de": "Entsorgungssystem-Bauteil",
       "en": "Disposal Unit Component",
       "fr": "Composant de système d'évacuation",
-      "ja": "緊急廃棄部材"
+      "ja": "緊急廃棄部材",
+      "ko": "긴급 폐기 부재"
     }
   },
   {
@@ -906,7 +970,8 @@
       "de": "Schornstein-Bauteil",
       "en": "Exhaust Outlet Component",
       "fr": "Composant d'échappement",
-      "ja": "排気系部材"
+      "ja": "排気系部材",
+      "ko": "배기계 부재"
     }
   },
   {
@@ -920,7 +985,8 @@
       "de": "Gegrillter Karpfen",
       "en": "Grilled Carp",
       "fr": "Carpe grillée",
-      "ja": "グリルドカープ"
+      "ja": "グリルドカープ",
+      "ko": "잉어구이"
     }
   },
   {
@@ -934,7 +1000,8 @@
       "de": "Steuereinheits-Bauteil",
       "en": "Helm Component",
       "fr": "Composant de gouvernail",
-      "ja": "エカトルの操舵装置部材"
+      "ja": "エカトルの操舵装置部材",
+      "ko": "에카틀 조타 장치 부재"
     }
   },
   {
@@ -948,7 +1015,8 @@
       "de": "Beleuchtungs-Bauteil",
       "en": "Lamp Component",
       "fr": "Composant d'éclairage",
-      "ja": "ランプ部材"
+      "ja": "ランプ部材",
+      "ko": "조명 부재"
     }
   },
   {
@@ -962,7 +1030,8 @@
       "de": "Salzdorsch",
       "en": "Salt Cod",
       "fr": "Morue salée",
-      "ja": "ソルトコッド"
+      "ja": "ソルトコッド",
+      "ko": "대구절임"
     }
   },
   {
@@ -976,7 +1045,8 @@
       "de": "Kommunikationsrohr-Bauteil",
       "en": "Speaking Tube Component",
       "fr": "Composant de tuyau acoustique",
-      "ja": "伝声系部材"
+      "ja": "伝声系部材",
+      "ko": "통신계 부재"
     }
   },
   {
@@ -990,7 +1060,8 @@
       "de": "Steuermechanismus-Bauteil",
       "en": "Steering Mechanism Component",
       "fr": "Composant de module de pilotage",
-      "ja": "操縦機具部材"
+      "ja": "操縦機具部材",
+      "ko": "조종기구 부재"
     }
   },
   {
@@ -1004,7 +1075,8 @@
       "de": "Wachsgemüse",
       "en": "Wax Vegetables",
       "fr": "Caisse de légumes",
-      "ja": "ベジタブルアソート"
+      "ja": "ベジタブルアソート",
+      "ko": "모둠 채소 상자"
     }
   },
   {
@@ -1018,7 +1090,8 @@
       "de": "Aerodynamik-Verbesserer-Bauteil",
       "en": "Auxiliary Aerodynamo Component",
       "fr": "Composant d'aileron",
-      "ja": "補助空力部材"
+      "ja": "補助空力部材",
+      "ko": "보조 동력원 부재"
     }
   },
   {
@@ -1032,7 +1105,8 @@
       "de": "Apfelessig",
       "en": "Cider Vinegar",
       "fr": "Vinaigre de cidre",
-      "ja": "サイダービネガー"
+      "ja": "サイダービネガー",
+      "ko": "사과 식초"
     }
   },
   {
@@ -1046,7 +1120,8 @@
       "de": "Zierplatten-Bauteil",
       "en": "Decorative Plating Component",
       "fr": "Composant d'ornementation",
-      "ja": "装飾部材"
+      "ja": "装飾部材",
+      "ko": "장식 부재"
     }
   },
   {
@@ -1060,7 +1135,8 @@
       "de": "Dodo-Omelett",
       "en": "Dodo Omelette",
       "fr": "Omelette aux œufs de dodo",
-      "ja": "ドードーオムレツ"
+      "ja": "ドードーオムレツ",
+      "ko": "도도 오믈렛"
     }
   },
   {
@@ -1074,7 +1150,8 @@
       "de": "Rettungsboots-Bauteil",
       "en": "Escape Flyer Component",
       "fr": "Composant de système d'éjection",
-      "ja": "緊急脱出用具"
+      "ja": "緊急脱出用具",
+      "ko": "긴급 탈출 도구"
     }
   },
   {
@@ -1088,7 +1165,8 @@
       "de": "Hyperleiter-Bauteil",
       "en": "Hyperconductor Component",
       "fr": "Composant d'hyperconducteur",
-      "ja": "高伝導率部材"
+      "ja": "高伝導率部材",
+      "ko": "고전도율 부재"
     }
   },
   {
@@ -1102,7 +1180,8 @@
       "de": "Isolations-Bauteil",
       "en": "Isolator Component",
       "fr": "Composant de système antivibration",
-      "ja": "免震部材"
+      "ja": "免震部材",
+      "ko": "진동방지 부재"
     }
   },
   {
@@ -1116,7 +1195,8 @@
       "de": "Lavendelöl",
       "en": "Lavender Oil",
       "fr": "Essence de lavande",
-      "ja": "ラベンダーオイル"
+      "ja": "ラベンダーオイル",
+      "ko": "라벤더유"
     }
   },
   {
@@ -1130,7 +1210,8 @@
       "de": "Fleisch-Miqo'Kebab",
       "en": "Meat Miq'abob",
       "fr": "Miqo-brochette de viande",
-      "ja": "ミコッテ風山の幸串焼"
+      "ja": "ミコッテ風山の幸串焼",
+      "ko": "미코테식 고기산적"
     }
   },
   {
@@ -1144,7 +1225,8 @@
       "de": "Gewichtsreduktions-Bauteil",
       "en": "Refabrication Component",
       "fr": "Composant d'allégement",
-      "ja": "軽量化部材"
+      "ja": "軽量化部材",
+      "ko": "경량화 부재"
     }
   },
   {
@@ -1158,7 +1240,8 @@
       "de": "Reservetank-Bauteil",
       "en": "Spare Tank Component",
       "fr": "Composant de réservoir de secours",
-      "ja": "予備タンク部材"
+      "ja": "予備タンク部材",
+      "ko": "예비 탱크 부재"
     }
   },
   {
@@ -1172,7 +1255,8 @@
       "de": "Hüttenkäse",
       "en": "Cottage Cheese",
       "fr": "Fromage blanc",
-      "ja": "コテージチーズ"
+      "ja": "コテージチーズ",
+      "ko": "코티지 치즈"
     }
   },
   {
@@ -1186,7 +1270,8 @@
       "de": "Linsen-Maronen-Eintopf",
       "en": "Lentils and Chestnuts",
       "fr": "Lentilles aux châtaignes",
-      "ja": "レンティル&チェスナット"
+      "ja": "レンティル&チェスナット",
+      "ko": "렌틸 콩과 밤 스튜"
     }
   },
   {
@@ -1200,7 +1285,8 @@
       "de": "Kaktus-Steak",
       "en": "Roasted Nopales",
       "fr": "Figues de barbarie grillées",
-      "ja": "ローストノパル"
+      "ja": "ローストノパル",
+      "ko": "선인장구이"
     }
   },
   {
@@ -1214,7 +1300,8 @@
       "de": "Steinsuppe",
       "en": "Stone Soup",
       "fr": "Soupe de pierre",
-      "ja": "ストーンスープ"
+      "ja": "ストーンスープ",
+      "ko": "돌국"
     }
   },
   {
@@ -1228,7 +1315,8 @@
       "de": "Apfeltörtchen",
       "en": "Apple Tart",
       "fr": "Tarte aux pommes",
-      "ja": "アップルタルト"
+      "ja": "アップルタルト",
+      "ko": "사과 타르트"
     }
   },
   {
@@ -1242,7 +1330,8 @@
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
       "fr": "Aile d'Ehcatl",
-      "ja": "エカトルの羽根飾り"
+      "ja": "エカトルの羽根飾り",
+      "ko": "에카틀 깃털 장식"
     }
   },
   {
@@ -1256,7 +1345,8 @@
       "de": "Endstück-Bauteil",
       "en": "Finishing Component",
       "fr": "Composant final",
-      "ja": "エカトルの重要部材"
+      "ja": "エカトルの重要部材",
+      "ko": "에카틀 중요 부재"
     }
   },
   {
@@ -1270,7 +1360,8 @@
       "de": "Walnussbrot",
       "en": "Walnut Bread",
       "fr": "Pain aux noix",
-      "ja": "ウォルナットブレッド"
+      "ja": "ウォルナットブレッド",
+      "ko": "호두빵"
     }
   },
   {
@@ -1284,7 +1375,8 @@
       "de": "Rohe Auster",
       "en": "Raw Oyster",
       "fr": "Huître crue",
-      "ja": "ローオイスター"
+      "ja": "ローオイスター",
+      "ko": "생굴"
     }
   },
   {
@@ -1298,7 +1390,8 @@
       "de": "Antilopen-Gulasch",
       "en": "Antelope Stew",
       "fr": "Ragoût de cerf",
-      "ja": "アンテロープシチュー"
+      "ja": "アンテロープシチュー",
+      "ko": "영양 스튜"
     }
   },
   {
@@ -1312,7 +1405,8 @@
       "de": "Hähnchen-Pilzpfanne",
       "en": "Chicken and Mushrooms",
       "fr": "Fricassée de poulet aux champignons",
-      "ja": "鶏肉キノコ炒め"
+      "ja": "鶏肉キノコ炒め",
+      "ko": "닭고기 버섯볶음"
     }
   },
   {
@@ -1326,7 +1420,8 @@
       "de": "Krabbenfleischball",
       "en": "Crab Ball",
       "fr": "Boulette de crabe",
-      "ja": "クラブボール"
+      "ja": "クラブボール",
+      "ko": "게살 떡밥"
     }
   },
   {
@@ -1340,7 +1435,8 @@
       "de": "Gegrillte Warmblut-Forelle",
       "en": "Grilled Warmwater Trout",
       "fr": "Truite thermophile grillée",
-      "ja": "グリルドウォームトラウト"
+      "ja": "グリルドウォームトラウト",
+      "ko": "온수송어구이"
     }
   },
   {
@@ -1354,7 +1450,8 @@
       "de": "Sternenlichtdodo",
       "en": "Starlight Dodo",
       "fr": "Dodo de la fête des étoiles",
-      "ja": "スターライト・ローストドードー"
+      "ja": "スターライト・ローストドードー",
+      "ko": "별빛 도도 통구이"
     }
   },
   {
@@ -1368,7 +1465,8 @@
       "de": "Grill-Antilope",
       "en": "Antelope Steak",
       "fr": "Steak de cerf",
-      "ja": "アンテロープステーキ"
+      "ja": "アンテロープステーキ",
+      "ko": "영양 스테이크"
     }
   },
   {
@@ -1382,7 +1480,8 @@
       "de": "Traubensaft",
       "en": "Grape Juice",
       "fr": "Jus de raisin",
-      "ja": "グレープジュース"
+      "ja": "グレープジュース",
+      "ko": "포도 주스"
     }
   },
   {
@@ -1396,7 +1495,8 @@
       "de": "Honigmuffin",
       "en": "Honey Muffin",
       "fr": "Muffin au miel",
-      "ja": "ハニーマフィン"
+      "ja": "ハニーマフィン",
+      "ko": "벌꿀 머핀"
     }
   },
   {
@@ -1410,7 +1510,8 @@
       "de": "Toffelbrei",
       "en": "Mashed Popotoes",
       "fr": "Purée de popotos",
-      "ja": "マッシュポポト"
+      "ja": "マッシュポポト",
+      "ko": "으깬 포포토"
     }
   },
   {
@@ -1424,7 +1525,8 @@
       "de": "Getrocknete Pflaumen",
       "en": "Dried Plums",
       "fr": "Pruneaux",
-      "ja": "ドライプルーン"
+      "ja": "ドライプルーン",
+      "ko": "건자두"
     }
   },
   {
@@ -1438,7 +1540,8 @@
       "de": "Saure Eier",
       "en": "Mustard Eggs",
       "fr": "Œufs à la moutarde",
-      "ja": "マスタードエッグズ"
+      "ja": "マスタードエッグズ",
+      "ko": "겨자 달걀"
     }
   },
   {
@@ -1452,7 +1555,8 @@
       "de": "Sautierter Spinat",
       "en": "Spinach Saute",
       "fr": "Sauté d'épinards",
-      "ja": "スピナッチソテー"
+      "ja": "スピナッチソテー",
+      "ko": "시금치볶음"
     }
   },
   {
@@ -1466,7 +1570,8 @@
       "de": "Brezel",
       "en": "Dark Pretzel",
       "fr": "Bretzel noir",
-      "ja": "プレッツェル"
+      "ja": "プレッツェル",
+      "ko": "프레첼"
     }
   },
   {
@@ -1480,7 +1585,8 @@
       "de": "Lachs nach Müllerinart",
       "en": "Salmon Meuniere",
       "fr": "Saumon meunière",
-      "ja": "サーモンムニエル"
+      "ja": "サーモンムニエル",
+      "ko": "연어구이"
     }
   },
   {
@@ -1494,7 +1600,8 @@
       "de": "Shepherd's Pie",
       "en": "Shepherd's Pie",
       "fr": "Hachis parmentier",
-      "ja": "シェパードパイ"
+      "ja": "シェパードパイ",
+      "ko": "양치기 파이"
     }
   },
   {
@@ -1508,7 +1615,8 @@
       "de": "Kamillentee",
       "en": "Chamomile Tea",
       "fr": "Thé à la camomille",
-      "ja": "カモミールティー"
+      "ja": "カモミールティー",
+      "ko": "캐모마일 차"
     }
   },
   {
@@ -1522,7 +1630,8 @@
       "de": "Barschball",
       "en": "Bass Ball",
       "fr": "Boulette de bar",
-      "ja": "バスボール"
+      "ja": "バスボール",
+      "ko": "농어살 떡밥"
     }
   },
   {
@@ -1536,7 +1645,8 @@
       "de": "Aalpastete",
       "en": "Eel Pie",
       "fr": "Tarte à l'anguille",
-      "ja": "イールパイ"
+      "ja": "イールパイ",
+      "ko": "장어 파이"
     }
   },
   {
@@ -1550,7 +1660,8 @@
       "de": "Riviera-Abendmahl-Set",
       "en": "Riviera Supper",
       "fr": "Dîner noscéen",
-      "ja": "ラノシアン・ディナーセット"
+      "ja": "ラノシアン・ディナーセット",
+      "ko": "라노시아 저녁 정식"
     }
   },
   {
@@ -1564,7 +1675,8 @@
       "de": "Grill-Bock",
       "en": "Aldgoat Steak",
       "fr": "Steak de bouquetin",
-      "ja": "大山羊ステーキ"
+      "ja": "大山羊ステーキ",
+      "ko": "큰뿔염소 스테이크"
     }
   },
   {
@@ -1578,7 +1690,8 @@
       "de": "Ingwerkeks",
       "en": "Ginger Cookie",
       "fr": "Biscuit au gingembre",
-      "ja": "ジンジャークッキー"
+      "ja": "ジンジャークッキー",
+      "ko": "생강 쿠키"
     }
   },
   {
@@ -1592,7 +1705,8 @@
       "de": "Erbsensuppe",
       "en": "Pea Soup",
       "fr": "Soupe de pois",
-      "ja": "ピースープ"
+      "ja": "ピースープ",
+      "ko": "완두콩 수프"
     }
   },
   {
@@ -1606,7 +1720,8 @@
       "de": "Gekochte Brasse",
       "en": "Boiled Bream",
       "fr": "Brème bouillie",
-      "ja": "ボイルドブリーム"
+      "ja": "ボイルドブリーム",
+      "ko": "삶은 도미"
     }
   },
   {
@@ -1620,7 +1735,8 @@
       "de": "Käserisotto",
       "en": "Cheese Risotto",
       "fr": "Risotto au fromage",
-      "ja": "チーズリゾット"
+      "ja": "チーズリゾット",
+      "ko": "치즈 리소토"
     }
   },
   {
@@ -1634,7 +1750,8 @@
       "de": "Spiegelei",
       "en": "Fried Egg",
       "fr": "Œuf au plat",
-      "ja": "フライドエッグ"
+      "ja": "フライドエッグ",
+      "ko": "달걀 프라이"
     }
   },
   {
@@ -1648,7 +1765,8 @@
       "de": "Hühnerbrühe",
       "en": "Chicken Stock",
       "fr": "Bouillon de poulet",
-      "ja": "チキンストック"
+      "ja": "チキンストック",
+      "ko": "닭 육수"
     }
   },
   {
@@ -1662,7 +1780,8 @@
       "de": "Crumpet",
       "en": "Crumpet",
       "fr": "Crumpet",
-      "ja": "クランペット"
+      "ja": "クランペット",
+      "ko": "크럼펫"
     }
   },
   {
@@ -1676,7 +1795,8 @@
       "de": "Orobon-Gulasch",
       "en": "Orobon Stew",
       "fr": "Ragoût d'orobon",
-      "ja": "オロボンシチュー"
+      "ja": "オロボンシチュー",
+      "ko": "아귀 스튜"
     }
   },
   {
@@ -1690,7 +1810,8 @@
       "de": "Maismehl",
       "en": "Cornmeal",
       "fr": "Farine de maïs",
-      "ja": "コーングリッツ"
+      "ja": "コーングリッツ",
+      "ko": "옥수수가루"
     }
   },
   {
@@ -1704,7 +1825,8 @@
       "de": "Tiefblauer Farbstoff",
       "en": "Abyssal Blue Dye",
       "fr": "Teinture bleu marine",
-      "ja": "カララント:アビサルブルー"
+      "ja": "カララント:アビサルブルー",
+      "ko": "염료: 청보라색"
     }
   },
   {
@@ -1718,7 +1840,8 @@
       "de": "Gebratene Seezunge",
       "en": "Baked Sole",
       "fr": "Sole au four",
-      "ja": "ベイクドソール"
+      "ja": "ベイクドソール",
+      "ko": "가자미구이"
     }
   },
   {
@@ -1732,11 +1855,11 @@
       "de": "Jadegrüner Farbstoff",
       "en": "Celeste Green Dye",
       "fr": "Teinture vert céleste",
-      "ja": "カララント:セレストグリーン"
+      "ja": "カララント:セレストグリーン",
+      "ko": "염료: 옅은 청록색"
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 30,
     "difficulty": 183,
     "durability": 70,
@@ -1747,7 +1870,8 @@
       "de": "Flaschenkühler mit Rotwein",
       "en": "Chilled Red",
       "fr": "Boissons festives",
-      "ja": "フルーツフレーバー・ドリンクセット"
+      "ja": "フルーツフレーバー・ドリンクセット",
+      "ko": "차가운 과실주"
     }
   },
   {
@@ -1761,7 +1885,8 @@
       "de": "Kolibrirosa Farbstoff",
       "en": "Colibri Pink Dye",
       "fr": "Teinture mauve colibri",
-      "ja": "カララント:コリブリピンク"
+      "ja": "カララント:コリブリピンク",
+      "ko": "염료: 콜리브리색"
     }
   },
   {
@@ -1775,7 +1900,8 @@
       "de": "Dalamudroter Farbstoff",
       "en": "Dalamud Red Dye",
       "fr": "Teinture rouge Dalamud",
-      "ja": "カララント:ダラガブレッド"
+      "ja": "カララント:ダラガブレッド",
+      "ko": "염료: 달라가브색"
     }
   },
   {
@@ -1789,7 +1915,8 @@
       "de": "Waldgrüner Farbstoff",
       "en": "Deepwood Green Dye",
       "fr": "Teinture vert sapin",
-      "ja": "カララント:ディープウッドグリーン"
+      "ja": "カララント:ディープウッドグリーン",
+      "ko": "염료: 밀림 녹색"
     }
   },
   {
@@ -1803,7 +1930,8 @@
       "de": "Futter: Antritt I",
       "en": "Grade 1 Feed - Acceleration Blend",
       "fr": "Fourrage spécial accélération I",
-      "ja": "アクセルフォダーG1"
+      "ja": "アクセルフォダーG1",
+      "ko": "초코보 먹이: 가속 1"
     }
   },
   {
@@ -1817,7 +1945,8 @@
       "de": "Futter: Köpfchen I",
       "en": "Grade 1 Feed - Balance Blend",
       "fr": "Fourrage spécial agilité I",
-      "ja": "バランスフォダーG1"
+      "ja": "バランスフォダーG1",
+      "ko": "초코보 먹이: 적응 1"
     }
   },
   {
@@ -1831,7 +1960,8 @@
       "de": "Futter: Puste I",
       "en": "Grade 1 Feed - Endurance Blend",
       "fr": "Fourrage spécial vitalité I",
-      "ja": "エンデュランスフォダーG1"
+      "ja": "エンデュランスフォダーG1",
+      "ko": "초코보 먹이: 체력 1"
     }
   },
   {
@@ -1845,7 +1975,8 @@
       "de": "Futter: Geschwindigkeit I",
       "en": "Grade 1 Feed - Speed Blend",
       "fr": "Fourrage spécial vitesse I",
-      "ja": "スピードフォダーG1"
+      "ja": "スピードフォダーG1",
+      "ko": "초코보 먹이: 속도 1"
     }
   },
   {
@@ -1859,7 +1990,8 @@
       "de": "Futter: Ausdauer I",
       "en": "Grade 1 Feed - Stamina Blend",
       "fr": "Fourrage spécial endurance I",
-      "ja": "スタミナフォダーG1"
+      "ja": "スタミナフォダーG1",
+      "ko": "초코보 먹이: 지구력 1"
     }
   },
   {
@@ -1873,7 +2005,8 @@
       "de": "Honiggelber Farbstoff",
       "en": "Honey Yellow Dye",
       "fr": "Teinture jaune miel",
-      "ja": "カララント:ハニーイエロー"
+      "ja": "カララント:ハニーイエロー",
+      "ko": "염료: 꿀색"
     }
   },
   {
@@ -1887,7 +2020,8 @@
       "de": "Jägergrüner Farbstoff",
       "en": "Hunter Green Dye",
       "fr": "Teinture vert chasseur",
-      "ja": "カララント:ハンターグリーン"
+      "ja": "カララント:ハンターグリーン",
+      "ko": "염료: 진녹색"
     }
   },
   {
@@ -1901,7 +2035,8 @@
       "de": "Koboldbrauner Farbstoff",
       "en": "Kobold Brown Dye",
       "fr": "Teinture brun kobold",
-      "ja": "カララント:コボルドブラウン"
+      "ja": "カララント:コボルドブラウン",
+      "ko": "염료: 코볼드색"
     }
   },
   {
@@ -1915,7 +2050,8 @@
       "de": "Lehmbrauner Farbstoff",
       "en": "Loam Brown Dye",
       "fr": "Teinture brun argile",
-      "ja": "カララント:ロームブラウン"
+      "ja": "カララント:ロームブラウン",
+      "ko": "염료: 비옥토색"
     }
   },
   {
@@ -1929,7 +2065,8 @@
       "de": "Lotusrosa Farbstoff",
       "en": "Lotus Pink Dye",
       "fr": "Teinture mauve lotus",
-      "ja": "カララント:ロータスピンク"
+      "ja": "カララント:ロータスピンク",
+      "ko": "염료: 연꽃색"
     }
   },
   {
@@ -1943,7 +2080,8 @@
       "de": "Maisgelber Farbstoff",
       "en": "Millioncorn Yellow Dye",
       "fr": "Teinture jaune milli-maïs",
-      "ja": "カララント:ミリオンコーンイエロー"
+      "ja": "カララント:ミリオンコーンイエロー",
+      "ko": "염료: 옥수수색"
     }
   },
   {
@@ -1957,7 +2095,8 @@
       "de": "Morbolgrüner Farbstoff",
       "en": "Morbol Green Dye",
       "fr": "Teinture vert morbol",
-      "ja": "カララント:モルボルグリーン"
+      "ja": "カララント:モルボルグリーン",
+      "ko": "염료: 몰볼색"
     }
   },
   {
@@ -1971,7 +2110,8 @@
       "de": "Ochugrüner Farbstoff",
       "en": "Ochu Green Dye",
       "fr": "Teinture vert otyugh",
-      "ja": "カララント:オチューグリーン"
+      "ja": "カララント:オチューグリーン",
+      "ko": "염료: 오츄색"
     }
   },
   {
@@ -1985,7 +2125,8 @@
       "de": "Othardblauer Farbstoff",
       "en": "Othard Blue Dye",
       "fr": "Teinture bleu d'Othard",
-      "ja": "カララント:オサードブルー"
+      "ja": "カララント:オサードブルー",
+      "ko": "염료: 오사드 바다색"
     }
   },
   {
@@ -1999,7 +2140,8 @@
       "de": "Pflaumenvioletter Farbstoff",
       "en": "Plum Purple Dye",
       "fr": "Teinture prune",
-      "ja": "カララント:プラムパープル"
+      "ja": "カララント:プラムパープル",
+      "ko": "염료: 매화색"
     }
   },
   {
@@ -2013,7 +2155,8 @@
       "de": "Kürbisoranger Farbstoff",
       "en": "Pumpkin Orange Dye",
       "fr": "Teinture orange citrouille",
-      "ja": "カララント:パンプキンオレンジ"
+      "ja": "カララント:パンプキンオレンジ",
+      "ko": "염료: 늙은호박색"
     }
   },
   {
@@ -2027,7 +2170,8 @@
       "de": "Königsvioletter Farbstoff",
       "en": "Regal Purple Dye",
       "fr": "Teinture byzantium",
-      "ja": "カララント:リーガルパープル"
+      "ja": "カララント:リーガルパープル",
+      "ko": "염료: 자주색"
     }
   },
   {
@@ -2041,7 +2185,8 @@
       "de": "Königsblauer Farbstoff",
       "en": "Royal Blue Dye",
       "fr": "Teinture bleu royal",
-      "ja": "カララント:ロイヤルブルー"
+      "ja": "カララント:ロイヤルブルー",
+      "ko": "염료: 감청색"
     }
   },
   {
@@ -2055,7 +2200,8 @@
       "de": "Schneeweißer Farbstoff",
       "en": "Snow White Dye",
       "fr": "Teinture blanc neige",
-      "ja": "カララント:スノウホワイト"
+      "ja": "カララント:スノウホワイト",
+      "ko": "염료: 하얀 눈색"
     }
   },
   {
@@ -2069,7 +2215,8 @@
       "de": "Rußschwarzer Farbstoff",
       "en": "Soot Black Dye",
       "fr": "Teinture noir suie",
-      "ja": "カララント:スートブラック"
+      "ja": "カララント:スートブラック",
+      "ko": "염료: 숯검정색"
     }
   },
   {
@@ -2083,7 +2230,8 @@
       "de": "Sturmblauer Farbstoff",
       "en": "Storm Blue Dye",
       "fr": "Teinture bleu tempête",
-      "ja": "カララント:ストームブルー"
+      "ja": "カララント:ストームブルー",
+      "ko": "염료: 선명한 파란색"
     }
   },
   {
@@ -2097,7 +2245,8 @@
       "de": "Abendroter Farbstoff",
       "en": "Sunset Orange Dye",
       "fr": "Teinture orange couchant",
-      "ja": "カララント:サンセットオレンジ"
+      "ja": "カララント:サンセットオレンジ",
+      "ko": "염료: 노을색"
     }
   },
   {
@@ -2111,7 +2260,8 @@
       "de": "Nichtsblauer Farbstoff",
       "en": "Void Blue Dye",
       "fr": "Teinture bleu du néant",
-      "ja": "カララント:ヴォイドブルー"
+      "ja": "カララント:ヴォイドブルー",
+      "ko": "염료: 보이드의 파란색"
     }
   },
   {
@@ -2125,7 +2275,8 @@
       "de": "Weinroter Farbstoff",
       "en": "Wine Red Dye",
       "fr": "Teinture lie-de-vin",
-      "ja": "カララント:ワインレッド"
+      "ja": "カララント:ワインレッド",
+      "ko": "염료: 포도주색"
     }
   },
   {
@@ -2139,7 +2290,8 @@
       "de": "Indigoblauer Farbstoff",
       "en": "Woad Blue Dye",
       "fr": "Teinture bleu guède",
-      "ja": "カララント:ウォードブルー"
+      "ja": "カララント:ウォードブルー",
+      "ko": "염료: 쪽빛 파란색"
     }
   },
   {
@@ -2153,7 +2305,8 @@
       "de": "Krokosalat",
       "en": "Alligator Salad",
       "fr": "Salade alligator",
-      "ja": "アリゲーターサラダ"
+      "ja": "アリゲーターサラダ",
+      "ko": "악어배 샐러드"
     }
   },
   {
@@ -2167,7 +2320,8 @@
       "de": "Maisbrot",
       "en": "Cornbread",
       "fr": "Pain de maïs",
-      "ja": "コーンブレッド"
+      "ja": "コーンブレッド",
+      "ko": "옥수수빵"
     }
   },
   {
@@ -2181,7 +2335,8 @@
       "de": "Balsamessig",
       "en": "Dark Vinegar",
       "fr": "Vinaigre balsamique",
-      "ja": "バルサミコビネガー"
+      "ja": "バルサミコビネガー",
+      "ko": "발사믹 식초"
     }
   },
   {
@@ -2195,7 +2350,8 @@
       "de": "Pilz-Miqo'Kebab",
       "en": "Forest Miq'abob",
       "fr": "Miqo-brochette forestière",
-      "ja": "ミコッテ風森の幸串焼"
+      "ja": "ミコッテ風森の幸串焼",
+      "ko": "미코테식 버섯산적"
     }
   },
   {
@@ -2209,7 +2365,8 @@
       "de": "Räucher-Raptor",
       "en": "Smoked Raptor",
       "fr": "Tranche de raptor fumé",
-      "ja": "スモークドラプトル"
+      "ja": "スモークドラプトル",
+      "ko": "훈제 랍토르"
     }
   },
   {
@@ -2223,7 +2380,8 @@
       "de": "Blutbeertorte",
       "en": "Blood Currant Tart",
       "fr": "Tarte aux groseilles sanguines",
-      "ja": "ブラッドカーラントタルト"
+      "ja": "ブラッドカーラントタルト",
+      "ko": "붉은머루 타르트"
     }
   },
   {
@@ -2237,7 +2395,8 @@
       "de": "Thunfisch-Miqo'Kebab",
       "en": "Tuna Miq'abob",
       "fr": "Miqo-brochette de thon",
-      "ja": "ミコッテ風海の幸串焼"
+      "ja": "ミコッテ風海の幸串焼",
+      "ko": "미코테식 해물산적"
     }
   },
   {
@@ -2251,7 +2410,8 @@
       "de": "Eichelkeks",
       "en": "Acorn Cookie",
       "fr": "Biscuit aux glands",
-      "ja": "エーコンクッキー"
+      "ja": "エーコンクッキー",
+      "ko": "도토리 쿠키"
     }
   },
   {
@@ -2265,7 +2425,8 @@
       "de": "Rührei",
       "en": "Scrambled Eggs",
       "fr": "Œuf brouillé",
-      "ja": "スクランブルエッグ"
+      "ja": "スクランブルエッグ",
+      "ko": "달걀 볶음"
     }
   },
   {
@@ -2279,7 +2440,8 @@
       "de": "Cawl Cennin",
       "en": "Cawl Cennin",
       "fr": "Bouillon de poireaux",
-      "ja": "カウルケニン"
+      "ja": "カウルケニン",
+      "ko": "파 크림 수프"
     }
   },
   {
@@ -2293,7 +2455,8 @@
       "de": "Waldtee-Set",
       "en": "Glade Tea Set",
       "fr": "Goûter sombrelinçois",
-      "ja": "シュラウド・ティーセット"
+      "ja": "シュラウド・ティーセット",
+      "ko": "검은장막 홍차 세트"
     }
   },
   {
@@ -2307,7 +2470,8 @@
       "de": "Heringball",
       "en": "Herring Ball",
       "fr": "Boulette de hareng",
-      "ja": "ヘリングボール"
+      "ja": "ヘリングボール",
+      "ko": "청어살 떡밥"
     }
   },
   {
@@ -2321,7 +2485,8 @@
       "de": "Frischkäse",
       "en": "Cream Cheese",
       "fr": "Fromage à la crème",
-      "ja": "クリームチーズ"
+      "ja": "クリームチーズ",
+      "ko": "크림 치즈"
     }
   },
   {
@@ -2335,7 +2500,8 @@
       "de": "Sauerkraut",
       "en": "Sauerkraut",
       "fr": "Choucroute",
-      "ja": "ザワークラウト"
+      "ja": "ザワークラウト",
+      "ko": "자우어크라우트"
     }
   },
   {
@@ -2349,7 +2515,8 @@
       "de": "Käseauflauf",
       "en": "Cheese Souffle",
       "fr": "Soufflé au fromage",
-      "ja": "チーズスフレ"
+      "ja": "チーズスフレ",
+      "ko": "치즈 수플레"
     }
   },
   {
@@ -2363,7 +2530,8 @@
       "de": "Ratatouille",
       "en": "Ratatouille",
       "fr": "Ratatouille",
-      "ja": "ラタトゥイユ"
+      "ja": "ラタトゥイユ",
+      "ko": "채소전골"
     }
   },
   {
@@ -2377,7 +2545,8 @@
       "de": "Ritterbrot",
       "en": "Knight's Bread",
       "fr": "Pain de chevalier",
-      "ja": "ナイツブレッド"
+      "ja": "ナイツブレッド",
+      "ko": "기사빵"
     }
   },
   {
@@ -2391,7 +2560,8 @@
       "de": "Karpfen Rot",
       "en": "Mugwort Carp",
       "fr": "Carpe à l'armoise",
-      "ja": "カープ&マグワート"
+      "ja": "カープ&マグワート",
+      "ko": "잉어 쑥 구이"
     }
   },
   {
@@ -2405,7 +2575,8 @@
       "de": "Raptoren-Gulasch",
       "en": "Raptor Stew",
       "fr": "Ragoût de raptor",
-      "ja": "ラプトルシチュー"
+      "ja": "ラプトルシチュー",
+      "ko": "랍토르 스튜"
     }
   },
   {
@@ -2419,7 +2590,8 @@
       "de": "Gefüllte Artischocke",
       "en": "Stuffed Artichoke",
       "fr": "Artichaut farci",
-      "ja": "スタッフドアーティチョーク"
+      "ja": "スタッフドアーティチョーク",
+      "ko": "아티초크 구이"
     }
   },
   {
@@ -2433,7 +2605,8 @@
       "de": "Apfelsaft",
       "en": "Apple Juice",
       "fr": "Jus de pomme",
-      "ja": "アップルジュース"
+      "ja": "アップルジュース",
+      "ko": "사과 주스"
     }
   },
   {
@@ -2447,7 +2620,8 @@
       "de": "Gourmet-Frühstück",
       "en": "Gourmet Lunch",
       "fr": "Petit déjeuner complet",
-      "ja": "モーニングセット"
+      "ja": "モーニングセット",
+      "ko": "아침 정식"
     }
   },
   {
@@ -2461,7 +2635,8 @@
       "de": "Gegrillter Regenrufer",
       "en": "Grilled Raincaller",
       "fr": "Grillade de cherche-pluie",
-      "ja": "雨乞魚のグリル"
+      "ja": "雨乞魚のグリル",
+      "ko": "기우어구이"
     }
   },
   {
@@ -2475,7 +2650,8 @@
       "de": "Fischgebäck",
       "en": "Pastry Fish",
       "fr": "Pâtisserie poisson",
-      "ja": "ペストリーフィッシュ"
+      "ja": "ペストリーフィッシュ",
+      "ko": "개복치빵"
     }
   },
   {
@@ -2489,7 +2665,8 @@
       "de": "Trockenfleisch",
       "en": "Jerked Beef",
       "fr": "Tranche de buffle séché",
-      "ja": "ビーフジャーキー"
+      "ja": "ビーフジャーキー",
+      "ko": "소고기 육포"
     }
   },
   {
@@ -2503,7 +2680,8 @@
       "de": "Dorsch im Schlafrock",
       "en": "Salt Cod Puffs",
       "fr": "Choux à la morue salée",
-      "ja": "ソルトコッドパフ"
+      "ja": "ソルトコッドパフ",
+      "ko": "대구절임 완자"
     }
   },
   {
@@ -2517,7 +2695,8 @@
       "de": "Fischsuppe",
       "en": "Fish Soup",
       "fr": "Soupe de poisson",
-      "ja": "フィッシュスープ"
+      "ja": "フィッシュスープ",
+      "ko": "생선 수프"
     }
   },
   {
@@ -2531,7 +2710,8 @@
       "de": "Rolanbeeren-Käse",
       "en": "Rolanberry Cheese",
       "fr": "Fromage sauce rolanbaie",
-      "ja": "ロランベリーチーズ"
+      "ja": "ロランベリーチーズ",
+      "ko": "롤란베리 치즈"
     }
   },
   {
@@ -2545,7 +2725,8 @@
       "de": "Knofi-Pilzpfanne",
       "en": "Button Mushroom Saute",
       "fr": "Sauté de champignons à l'ail",
-      "ja": "キノコのガーリックソテー"
+      "ja": "キノコのガーリックソテー",
+      "ko": "버섯 마늘볶음"
     }
   },
   {
@@ -2559,7 +2740,8 @@
       "de": "Dzemael-Gratin",
       "en": "Dzemael Gratin",
       "fr": "Gratin Dzemael",
-      "ja": "ゼーメル家風グラタン"
+      "ja": "ゼーメル家風グラタン",
+      "ko": "제멜 가 그라탱"
     }
   },
   {
@@ -2573,7 +2755,8 @@
       "de": "Ishgarder Frühstück",
       "en": "Alpine Breakfast",
       "fr": "Petit déjeuner ishgardais",
-      "ja": "イシュガルディアン・モーニングセット"
+      "ja": "イシュガルディアン・モーニングセット",
+      "ko": "이슈가르드 아침 정식"
     }
   },
   {
@@ -2587,7 +2770,8 @@
       "de": "La Noscea-Toast",
       "en": "La Noscean Toast",
       "fr": "Toast noscéen",
-      "ja": "ラノシアトースト"
+      "ja": "ラノシアトースト",
+      "ko": "라노시아 토스트"
     }
   },
   {
@@ -2601,7 +2785,8 @@
       "de": "Rolanbeeren-Lassi",
       "en": "Rolanberry Lassi",
       "fr": "Lassi à la rolanbaie",
-      "ja": "ロランベリーラッシー"
+      "ja": "ロランベリーラッシー",
+      "ko": "롤란베리 라씨"
     }
   },
   {
@@ -2615,7 +2800,8 @@
       "de": "Sternenlichtkuchen",
       "en": "Starlight Cake",
       "fr": "Gâteau de la fête des étoiles",
-      "ja": "スターライト・レイヤーケーキ"
+      "ja": "スターライト・レイヤーケーキ",
+      "ko": "별빛 장식 케이크"
     }
   },
   {
@@ -2629,7 +2815,8 @@
       "de": "Kohlroulade",
       "en": "Stuffed Cabbage",
       "fr": "Choux farcis",
-      "ja": "パイクのキャベツ巻き"
+      "ja": "パイクのキャベツ巻き",
+      "ko": "꼬치어 양배추말이"
     }
   },
   {
@@ -2643,7 +2830,8 @@
       "de": "Verteufelte Eier",
       "en": "Deviled Eggs",
       "fr": "Œufs mimosa",
-      "ja": "デビルドエッグズ"
+      "ja": "デビルドエッグズ",
+      "ko": "데빌드 에그"
     }
   },
   {
@@ -2657,7 +2845,8 @@
       "de": "Glühtee",
       "en": "Mulled Tea",
       "fr": "Thé épicé",
-      "ja": "マルドティー"
+      "ja": "マルドティー",
+      "ko": "향차"
     }
   },
   {
@@ -2671,7 +2860,8 @@
       "de": "Gekrönter Kuchen",
       "en": "Crowned Pie",
       "fr": "Galette des rois",
-      "ja": "ガレット・デ・ロワ"
+      "ja": "ガレット・デ・ロワ",
+      "ko": "왕관 파이"
     }
   },
   {
@@ -2685,7 +2875,8 @@
       "de": "Pilz-Kohlrouladen",
       "en": "Buttons in a Blanket",
       "fr": "Choux farcis aux champignons",
-      "ja": "キノコのキャベツ巻き"
+      "ja": "キノコのキャベツ巻き",
+      "ko": "버섯 양배추말이"
     }
   },
   {
@@ -2699,7 +2890,8 @@
       "de": "Ätherdämmendes Gefäß",
       "en": "Aetheric Shielding",
       "fr": "Récipient éthéroscellé",
-      "ja": "絶霊体容器"
+      "ja": "絶霊体容器",
+      "ko": "절령체 용기"
     }
   },
   {
@@ -2713,7 +2905,8 @@
       "de": "Obstteller",
       "en": "Assorted Fruit",
       "fr": "Panier de fruits",
-      "ja": "フルーツアソート"
+      "ja": "フルーツアソート",
+      "ko": "과일 바구니"
     }
   },
   {
@@ -2727,7 +2920,8 @@
       "de": "Drachengabe",
       "en": "Austere Offering",
       "fr": "Cadeau pour dragons",
-      "ja": "竜族報酬品"
+      "ja": "竜族報酬品",
+      "ko": "드래곤족 보상품"
     }
   },
   {
@@ -2741,7 +2935,8 @@
       "de": "Korbkomponente",
       "en": "Basket Component",
       "fr": "Matériel de vannerie",
-      "ja": "編みカゴ部材"
+      "ja": "編みカゴ部材",
+      "ko": "나무 바구니 부재"
     }
   },
   {
@@ -2755,7 +2950,8 @@
       "de": "Gulasch",
       "en": "Beef Stew",
       "fr": "Ragoût de buffle",
-      "ja": "ビーフシチュー"
+      "ja": "ビーフシチュー",
+      "ko": "소고기 스튜"
     }
   },
   {
@@ -2769,7 +2965,8 @@
       "de": "Wolkenmeer-Köder",
       "en": "Cloudfish Lure",
       "fr": "Leurre spécial",
-      "ja": "雲海釣餌"
+      "ja": "雲海釣餌",
+      "ko": "구름바다 미끼"
     }
   },
   {
@@ -2783,7 +2980,8 @@
       "de": "Dolchfisch-Suppe",
       "en": "Dagger Soup",
       "fr": "Soupe de dagues",
-      "ja": "ダガースープ"
+      "ja": "ダガースープ",
+      "ko": "단검 수프"
     }
   },
   {
@@ -2797,7 +2995,8 @@
       "de": "Schuppenfeile",
       "en": "Dragonscale Rasp",
       "fr": "Racloir en écaille de dragon",
-      "ja": "竜鱗ヤスリ"
+      "ja": "竜鱗ヤスリ",
+      "ko": "용비늘 줄톱"
     }
   },
   {
@@ -2811,7 +3010,8 @@
       "de": "Molchsteak",
       "en": "Eft Steak",
       "fr": "Steak de jeune triton",
-      "ja": "エフトステーキ"
+      "ja": "エフトステーキ",
+      "ko": "큰도롱뇽 스테이크"
     }
   },
   {
@@ -2825,7 +3025,8 @@
       "de": "Rauchbombe",
       "en": "Exploding Kupo Nut",
       "fr": "Noix de kupo fumigène",
-      "ja": "煙幕の実"
+      "ja": "煙幕の実",
+      "ko": "연막 열매"
     }
   },
   {
@@ -2839,7 +3040,8 @@
       "de": "Falsche Kupo-Nuss",
       "en": "Fake Kupo Nut",
       "fr": "Fausse noix de kupo",
-      "ja": "ニセの実"
+      "ja": "ニセの実",
+      "ko": "가짜 열매"
     }
   },
   {
@@ -2853,7 +3055,8 @@
       "de": "Fundamentmaterial",
       "en": "Foundation Component",
       "fr": "Matériel pour les fondations",
-      "ja": "基礎工事資材"
+      "ja": "基礎工事資材",
+      "ko": "기초공사 자재"
     }
   },
   {
@@ -2867,7 +3070,8 @@
       "de": "Komponente für die Werkzeugreparatur",
       "en": "Gathering Tool Component",
       "fr": "Matériel de réparation",
-      "ja": "採集道具補材"
+      "ja": "採集道具補材",
+      "ko": "채집도구 보강재"
     }
   },
   {
@@ -2881,7 +3085,8 @@
       "de": "Trötenkomponente",
       "en": "Horn Component",
       "fr": "Composant de clairon",
-      "ja": "すんごいラッパ部材"
+      "ja": "すんごいラッパ部材",
+      "ko": "엄청난 나팔 부재"
     }
   },
   {
@@ -2895,7 +3100,8 @@
       "de": "Bestandteil einer Mahlzeit",
       "en": "Ishgardian Cuisine Miscellany",
       "fr": "Élément de plateau-repas",
-      "ja": "晩餐不足品"
+      "ja": "晩餐不足品",
+      "ko": "만찬용 물품"
     }
   },
   {
@@ -2909,7 +3115,8 @@
       "de": "Miniatur-Luftschiff",
       "en": "Makeshift Toy Airship",
       "fr": "Maquette d'aéronef",
-      "ja": "飛空艇模型"
+      "ja": "飛空艇模型",
+      "ko": "비공정 모형"
     }
   },
   {
@@ -2923,7 +3130,8 @@
       "de": "Küchenartikel",
       "en": "Mogstew Miscellany",
       "fr": "Matériaux gastronomiques",
-      "ja": "調理不足品"
+      "ja": "調理不足品",
+      "ko": "요리용 물품"
     }
   },
   {
@@ -2937,7 +3145,8 @@
       "de": "Kleine Belohnung",
       "en": "Moogle Mollifier",
       "fr": "Cadeau personnalisé",
-      "ja": "特製ご褒美"
+      "ja": "特製ご褒美",
+      "ko": "특별한 상품"
     }
   },
   {
@@ -2951,7 +3160,8 @@
       "de": "Mogry-Figur",
       "en": "Moogle Statuette",
       "fr": "Statuette de Mog",
-      "ja": "彫像見本品"
+      "ja": "彫像見本品",
+      "ko": "조각상 견본"
     }
   },
   {
@@ -2965,7 +3175,8 @@
       "de": "Mogry-Werkzeugkomponente",
       "en": "Moogle Tool Component",
       "fr": "Composant de marteau spécial Mog",
-      "ja": "モーグリ用道具部材"
+      "ja": "モーグリ用道具部材",
+      "ko": "모그리용 도구 부재"
     }
   },
   {
@@ -2979,7 +3190,8 @@
       "de": "Verwendbares Baumaterial",
       "en": "Repurposed Construction Component",
       "fr": "Matériel de construction",
-      "ja": "再生済み建築資材"
+      "ja": "再生済み建築資材",
+      "ko": "재생된 건축 자재"
     }
   },
   {
@@ -2993,7 +3205,8 @@
       "de": "Einzelteil für die Schneidemaschine",
       "en": "Shearing Machine Component",
       "fr": "Composant de machine à inciser",
-      "ja": "裁断機部材"
+      "ja": "裁断機部材",
+      "ko": "재단기 부재"
     }
   },
   {
@@ -3007,7 +3220,8 @@
       "de": "Steinstatuenkomponente",
       "en": "Statue Supplies",
       "fr": "Composant de statue",
-      "ja": "石像修復用部材"
+      "ja": "石像修復用部材",
+      "ko": "석상 복구용 부재"
     }
   },
   {
@@ -3021,7 +3235,8 @@
       "de": "Formvollendete Steinblock-Vorlage",
       "en": "Stonemasonry Supplies",
       "fr": "Pierre de référence",
-      "ja": "調整された石材"
+      "ja": "調整された石材",
+      "ko": "조정된 석재"
     }
   },
   {
@@ -3035,7 +3250,8 @@
       "de": "Gedenktafelkomponente",
       "en": "Tablet Supplies",
       "fr": "Composant de plaque commémorative",
-      "ja": "銘板仕上げ部材"
+      "ja": "銘板仕上げ部材",
+      "ko": "명판 마감 부재"
     }
   },
   {
@@ -3049,7 +3265,8 @@
       "de": "Übungsmaterial",
       "en": "Training Supplies",
       "fr": "Matériel d'entraînement",
-      "ja": "訓練用部材"
+      "ja": "訓練用部材",
+      "ko": "훈련용 부재"
     }
   },
   {
@@ -3063,7 +3280,8 @@
       "de": "Fallensteller-Quiche",
       "en": "Trapper's Quiche",
       "fr": "Quiche au triton façon chasseur",
-      "ja": "猟師風エフトキッシュ"
+      "ja": "猟師風エフトキッシュ",
+      "ko": "사냥꾼식 도롱뇽 키쉬"
     }
   },
   {
@@ -3077,7 +3295,8 @@
       "de": "Flaschenzug-Ersatzteil",
       "en": "Treadwheel Crane Components",
       "fr": "Matériel de réparation de treuil",
-      "ja": "巻き上げ機部材"
+      "ja": "巻き上げ機部材",
+      "ko": "도르래 부재"
     }
   },
   {
@@ -3091,7 +3310,8 @@
       "de": "Werkzeug zur Bodenplattenfärbung",
       "en": "Veneer Component",
       "fr": "Matériel de finition",
-      "ja": "床材加工用品"
+      "ja": "床材加工用品",
+      "ko": "바닥 내장재 가공용품"
     }
   },
   {
@@ -3105,7 +3325,8 @@
       "de": "Werkzeug zur Mauerglättung",
       "en": "Wall Repair Supplies",
       "fr": "Matériel de rénovation de façade",
-      "ja": "壁の補修部材"
+      "ja": "壁の補修部材",
+      "ko": "벽 보수용 부재"
     }
   },
   {
@@ -3119,7 +3340,8 @@
       "de": "Abdichtungskomponente",
       "en": "Water Filter Component",
       "fr": "Composant de fontaine",
-      "ja": "泉水補修材"
+      "ja": "泉水補修材",
+      "ko": "샘물 보수재"
     }
   },
   {
@@ -3133,7 +3355,8 @@
       "de": "Schwarzer Drops",
       "en": "Black Drop",
       "fr": "Bonbon noir",
-      "ja": "ブラックドロップ"
+      "ja": "ブラックドロップ",
+      "ko": "검은 사탕"
     },
     "stars": 1
   },
@@ -3148,7 +3371,8 @@
       "de": "Blauer Drops",
       "en": "Blue Drop",
       "fr": "Bonbon bleu",
-      "ja": "ブルードロップ"
+      "ja": "ブルードロップ",
+      "ko": "파란 사탕"
     },
     "stars": 1
   },
@@ -3163,7 +3387,8 @@
       "de": "Bouillabaisse",
       "en": "Bouillabaisse",
       "fr": "Bouillabaisse",
-      "ja": "ブイヤベース"
+      "ja": "ブイヤベース",
+      "ko": "해물 수프"
     },
     "stars": 1
   },
@@ -3178,7 +3403,8 @@
       "de": "Transparenter Drops",
       "en": "Clear Drop",
       "fr": "Bonbon transparent",
-      "ja": "クリアドロップ"
+      "ja": "クリアドロップ",
+      "ko": "투명 사탕"
     },
     "stars": 1
   },
@@ -3193,7 +3419,8 @@
       "de": "Grüner Drops",
       "en": "Green Drop",
       "fr": "Bonbon vert",
-      "ja": "グリーンドロップ"
+      "ja": "グリーンドロップ",
+      "ko": "초록 사탕"
     },
     "stars": 1
   },
@@ -3208,7 +3435,8 @@
       "de": "Grüntee-Set",
       "en": "Green Tea Set",
       "fr": "Collation de thé vert",
-      "ja": "グリーンティーセット"
+      "ja": "グリーンティーセット",
+      "ko": "녹차 세트"
     },
     "stars": 1
   },
@@ -3223,7 +3451,8 @@
       "de": "Karnivorenblattsalat",
       "en": "Landtrap Salad",
       "fr": "Salade frémissante",
-      "ja": "ランドトラップサラダ"
+      "ja": "ランドトラップサラダ",
+      "ko": "파리풀 샐러드"
     },
     "stars": 1
   },
@@ -3238,7 +3467,8 @@
       "de": "Oasen-Frühstücks-Set",
       "en": "Oasis Breakfast",
       "fr": "Petit déjeuner thanalanais",
-      "ja": "ザナラーン・モーニングセット"
+      "ja": "ザナラーン・モーニングセット",
+      "ko": "다날란 아침 정식"
     },
     "stars": 1
   },
@@ -3253,7 +3483,8 @@
       "de": "Gebratener Mahi-Mahi",
       "en": "Pan-fried Mahi-Mahi",
       "fr": "Mahi-mahi frit",
-      "ja": "マヒマヒの揚げ焼き"
+      "ja": "マヒマヒの揚げ焼き",
+      "ko": "마히마히 구이"
     },
     "stars": 1
   },
@@ -3268,7 +3499,8 @@
       "de": "Violetter Drops",
       "en": "Purple Drop",
       "fr": "Bonbon violet",
-      "ja": "パープルドロップ"
+      "ja": "パープルドロップ",
+      "ko": "보라 사탕"
     },
     "stars": 1
   },
@@ -3283,7 +3515,8 @@
       "de": "Roter Drops",
       "en": "Red Drop",
       "fr": "Bonbon rouge",
-      "ja": "レッドドロップ"
+      "ja": "レッドドロップ",
+      "ko": "빨간 사탕"
     },
     "stars": 1
   },
@@ -3298,7 +3531,8 @@
       "de": "Rolanbeeren-Käsekuchen",
       "en": "Rolanberry Cheesecake",
       "fr": "Gâteau au fromage à la rolanbaie",
-      "ja": "ロランベリーチーズケーキ"
+      "ja": "ロランベリーチーズケーキ",
+      "ko": "롤란베리 치즈 케이크"
     },
     "stars": 1
   },
@@ -3313,7 +3547,8 @@
       "de": "Tomatenpastete",
       "en": "Tomato Pie",
       "fr": "Tarte à la tomate",
-      "ja": "トマトパイ"
+      "ja": "トマトパイ",
+      "ko": "토마토 파이"
     },
     "stars": 1
   },
@@ -3328,7 +3563,8 @@
       "de": "Weißer Drops",
       "en": "White Drop",
       "fr": "Bonbon blanc",
-      "ja": "ホワイトドロップ"
+      "ja": "ホワイトドロップ",
+      "ko": "하얀 사탕"
     },
     "stars": 1
   },
@@ -3343,7 +3579,8 @@
       "de": "Gelber Drops",
       "en": "Yellow Drop",
       "fr": "Bonbon jaune",
-      "ja": "イエロードロップ"
+      "ja": "イエロードロップ",
+      "ko": "노란 사탕"
     },
     "stars": 1
   },
@@ -3358,7 +3595,8 @@
       "de": "Nachmittagstee-Set",
       "en": "Afternoon Tea Set",
       "fr": "Goûter de gourmand",
-      "ja": "アフタヌーンティーセット"
+      "ja": "アフタヌーンティーセット",
+      "ko": "오후의 홍차 세트"
     },
     "stars": 2
   },
@@ -3373,7 +3611,8 @@
       "de": "Luftschiff-Reparaturkit",
       "en": "Airship Repair Materials",
       "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材"
+      "ja": "飛空艇修理材",
+      "ko": "비공정 수리재"
     },
     "stars": 2
   },
@@ -3388,7 +3627,8 @@
       "de": "Apkallu-Omelett",
       "en": "Apkallu Omelette",
       "fr": "Omelette aux œufs d'apkallu",
-      "ja": "アプカルオムレツ"
+      "ja": "アプカルオムレツ",
+      "ko": "아프칼루 오믈렛"
     },
     "stars": 2
   },
@@ -3403,7 +3643,8 @@
       "de": "Risotto mit schwarzen Trüffeln",
       "en": "Black Truffle Risotto",
       "fr": "Risotto aux truffes noires",
-      "ja": "ブラックトリュフリゾット"
+      "ja": "ブラックトリュフリゾット",
+      "ko": "검은송로 리소토"
     },
     "stars": 2
   },
@@ -3418,7 +3659,8 @@
       "de": "Kalte Toffelsuppe",
       "en": "Chilled Popoto Soup",
       "fr": "Soupe de popotos glacée",
-      "ja": "冷製ポポトスープ"
+      "ja": "冷製ポポトスープ",
+      "ko": "포포토 냉국"
     },
     "stars": 2
   },
@@ -3433,7 +3675,8 @@
       "de": "Eiersandwich à la Bismarck",
       "en": "Finger Sandwich",
       "fr": "Sandwich à la Bismarck",
-      "ja": "ビスマルク風エッグサンド"
+      "ja": "ビスマルク風エッグサンド",
+      "ko": "비스마르크 달걀 샌드위치"
     },
     "stars": 2
   },
@@ -3448,7 +3691,8 @@
       "de": "Gourmet-Abendessen",
       "en": "Gourmet Supper",
       "fr": "Dîner de gourmet",
-      "ja": "ディナーセット"
+      "ja": "ディナーセット",
+      "ko": "저녁 정식"
     },
     "stars": 2
   },
@@ -3463,7 +3707,8 @@
       "de": "Futter: Antritt II",
       "en": "Grade 2 Feed - Acceleration Blend",
       "fr": "Fourrage spécial accélération II",
-      "ja": "アクセルフォダーG2"
+      "ja": "アクセルフォダーG2",
+      "ko": "초코보 먹이: 가속 2"
     },
     "stars": 2
   },
@@ -3478,7 +3723,8 @@
       "de": "Futter: Köpfchen II",
       "en": "Grade 2 Feed - Balance Blend",
       "fr": "Fourrage spécial agilité II",
-      "ja": "バランスフォダーG2"
+      "ja": "バランスフォダーG2",
+      "ko": "초코보 먹이: 적응 2"
     },
     "stars": 2
   },
@@ -3493,7 +3739,8 @@
       "de": "Futter: Puste II",
       "en": "Grade 2 Feed - Endurance Blend",
       "fr": "Fourrage spécial vitalité II",
-      "ja": "エンデュランスフォダーG2"
+      "ja": "エンデュランスフォダーG2",
+      "ko": "초코보 먹이: 체력 2"
     },
     "stars": 2
   },
@@ -3508,7 +3755,8 @@
       "de": "Futter: Geschwindigkeit II",
       "en": "Grade 2 Feed - Speed Blend",
       "fr": "Fourrage spécial vitesse II",
-      "ja": "スピードフォダーG2"
+      "ja": "スピードフォダーG2",
+      "ko": "초코보 먹이: 속도 2"
     },
     "stars": 2
   },
@@ -3523,7 +3771,8 @@
       "de": "Futter: Ausdauer II",
       "en": "Grade 2 Feed - Stamina Blend",
       "fr": "Fourrage spécial endurance II",
-      "ja": "スタミナフォダーG2"
+      "ja": "スタミナフォダーG2",
+      "ko": "초코보 먹이: 지구력 2"
     },
     "stars": 2
   },
@@ -3538,7 +3787,8 @@
       "de": "Lavakrötenschenkel",
       "en": "Lava Toad Legs",
       "fr": "Cuisses de crapaud lavique",
-      "ja": "ラーヴァトードレッグズ"
+      "ja": "ラーヴァトードレッグズ",
+      "ko": "용암두꺼비 튀김"
     },
     "stars": 2
   },
@@ -3553,7 +3803,8 @@
       "de": "Ananassaft",
       "en": "Pineapple Juice",
       "fr": "Jus d'ananas",
-      "ja": "パインジュース"
+      "ja": "パインジュース",
+      "ko": "파인애플 주스"
     },
     "stars": 2
   },
@@ -3568,7 +3819,8 @@
       "de": "Ananas-Ponzenkuchen",
       "en": "Pineapple Ponzecake",
       "fr": "Quatre-quarts à l'ananas",
-      "ja": "パイナップルケーキ"
+      "ja": "パイナップルケーキ",
+      "ko": "파인애플 케이크"
     },
     "stars": 2
   },
@@ -3583,7 +3835,8 @@
       "de": "Coeurlfleisch",
       "en": "Sauteed Coeurl",
       "fr": "Coeurl au vin",
-      "ja": "クァールのワインソテー"
+      "ja": "クァールのワインソテー",
+      "ko": "커얼 포도주구이"
     },
     "stars": 2
   },
@@ -3598,7 +3851,8 @@
       "de": "Tomatenwürze",
       "en": "Spicy Tomato Relish",
       "fr": "Condiment épicé à la tomate",
-      "ja": "トマトケチャップ"
+      "ja": "トマトケチャップ",
+      "ko": "토마토 케첩"
     },
     "stars": 2
   },
@@ -3613,7 +3867,8 @@
       "de": "Spinat-Quiche",
       "en": "Spinach Quiche",
       "fr": "Quiche aux épinards",
-      "ja": "スピナッチキッシュ"
+      "ja": "スピナッチキッシュ",
+      "ko": "시금치 키쉬"
     },
     "stars": 2
   },
@@ -3628,7 +3883,8 @@
       "de": "Entenbrühe",
       "en": "Duck Broth",
       "fr": "Fond de canard",
-      "ja": "フォン・ド・カナール"
+      "ja": "フォン・ド・カナール",
+      "ko": "오리 육수"
     },
     "stars": 3
   },
@@ -3643,7 +3899,8 @@
       "de": "Taramosalata",
       "en": "Haddock Dip",
       "fr": "Tarama",
-      "ja": "タラモサラータ"
+      "ja": "タラモサラータ",
+      "ko": "대구 샐러드"
     },
     "stars": 3
   },
@@ -3658,7 +3915,8 @@
       "de": "Toffelpuffer",
       "en": "Popoto Pancakes",
       "fr": "Crique",
-      "ja": "ポポトパンケーキ"
+      "ja": "ポポトパンケーキ",
+      "ko": "포포토 팬케이크"
     },
     "stars": 3
   },
@@ -3673,7 +3931,8 @@
       "de": "Fleischtomatenwürze",
       "en": "Rich Tomato Relish",
       "fr": "Condiment piquant à la tomate",
-      "ja": "濃厚トマトケチャップ"
+      "ja": "濃厚トマトケチャップ",
+      "ko": "농축 토마토 케첩"
     },
     "stars": 3
   },
@@ -3688,7 +3947,8 @@
       "de": "Röstente",
       "en": "Roast Canard",
       "fr": "Canard à l'orange",
-      "ja": "ローストカナール"
+      "ja": "ローストカナール",
+      "ko": "오리 스테이크"
     },
     "stars": 3
   },
@@ -3703,7 +3963,8 @@
       "de": "Sachertorte",
       "en": "Sachertorte",
       "fr": "Sachertorte",
-      "ja": "ザッハトルテ"
+      "ja": "ザッハトルテ",
+      "ko": "자허토르테"
     },
     "stars": 3
   },
@@ -3718,7 +3979,8 @@
       "de": "Haifischflossensuppe",
       "en": "Shark Fin Soup",
       "fr": "Soupe d'aileron",
-      "ja": "フカヒレスープ"
+      "ja": "フカヒレスープ",
+      "ko": "상어지느러미 수프"
     },
     "stars": 3
   },
@@ -3733,7 +3995,8 @@
       "de": "Gedünsteter Katfisch",
       "en": "Steamed Catfish",
       "fr": "Poisson-chat vapeur",
-      "ja": "ナマズのワイン蒸"
+      "ja": "ナマズのワイン蒸",
+      "ko": "메기 포도주찜"
     },
     "stars": 3
   },
@@ -3748,7 +4011,8 @@
       "de": "Aalpastete Spezial",
       "en": "Tailor-made Eel Pie",
       "fr": "Tarte à l'anguille très spéciale",
-      "ja": "秘製イールパイ"
+      "ja": "秘製イールパイ",
+      "ko": "특제 장어 파이"
     },
     "stars": 3
   },
@@ -3763,7 +4027,8 @@
       "de": "Valentionskuchen",
       "en": "Valentione's Cake",
       "fr": "Gâteau des Valention",
-      "ja": "ヴァレンティオンケーキ"
+      "ja": "ヴァレンティオンケーキ",
+      "ko": "발렌티온 케이크"
     },
     "stars": 3
   },
@@ -3778,7 +4043,8 @@
       "de": "Speckzopf",
       "en": "Bacon Bread",
       "fr": "Pain en épi au lard",
-      "ja": "ベーコンエピ"
+      "ja": "ベーコンエピ",
+      "ko": "베이컨빵"
     },
     "stars": 4
   },
@@ -3793,7 +4059,8 @@
       "de": "Specksuppe",
       "en": "Bacon Broth",
       "fr": "Bouillon au lard",
-      "ja": "ベーコンスープ"
+      "ja": "ベーコンスープ",
+      "ko": "베이컨 수프"
     },
     "stars": 4
   },
@@ -3808,7 +4075,8 @@
       "de": "Feuerstein-Kaviar",
       "en": "Flint Caviar",
       "fr": "Caviar impérial",
-      "ja": "フリントキャビア"
+      "ja": "フリントキャビア",
+      "ko": "흑진주 캐비어"
     },
     "stars": 4
   },
@@ -3823,7 +4091,8 @@
       "de": "Einspänner",
       "en": "Triple Cream Coffee",
       "fr": "Café triple crème",
-      "ja": "アインシュペナー"
+      "ja": "アインシュペナー",
+      "ko": "비엔나 커피"
     },
     "stars": 4
   },
@@ -3838,7 +4107,8 @@
       "de": "Feigen à la Barvarois",
       "en": "Fig Bavarois",
       "fr": "Flan aux figues",
-      "ja": "ババロア・オ・フィグ"
+      "ja": "ババロア・オ・フィグ",
+      "ko": "무화과 바바루아"
     }
   },
   {
@@ -3852,7 +4122,8 @@
       "de": "Sauerrahm",
       "en": "Sour Cream",
       "fr": "Crème aigre",
-      "ja": "サワークリーム"
+      "ja": "サワークリーム",
+      "ko": "사워크림"
     }
   },
   {
@@ -3866,7 +4137,8 @@
       "de": "Überbackene Zwiebelsuppe",
       "en": "Baked Onion Soup",
       "fr": "Soupe à l'oignon",
-      "ja": "オニオングラタンスープ"
+      "ja": "オニオングラタンスープ",
+      "ko": "양파 그라탱 수프"
     }
   },
   {
@@ -3880,7 +4152,8 @@
       "de": "Etagere",
       "en": "Cake Tray",
       "fr": "Assortiment de gourmandises",
-      "ja": "ケーキスタンド"
+      "ja": "ケーキスタンド",
+      "ko": "3단 간식 접시"
     }
   },
   {
@@ -3894,7 +4167,8 @@
       "de": "Hochlandmehl",
       "en": "Highland Flour",
       "fr": "Farine des hautes terres",
-      "ja": "ハイランド小麦粉"
+      "ja": "ハイランド小麦粉",
+      "ko": "고원 밀가루"
     }
   },
   {
@@ -3908,7 +4182,8 @@
       "de": "Gefüllte Kohlroulade",
       "en": "Stuffed Cabbage Rolls",
       "fr": "Paupiettes de chou",
-      "ja": "挽肉のキャベツ巻き"
+      "ja": "挽肉のキャベツ巻き",
+      "ko": "다진고기 양배추말이"
     }
   },
   {
@@ -3922,7 +4197,8 @@
       "de": "Fermentierte Butter",
       "en": "Fermented Butter",
       "fr": "Beurre fermenté",
-      "ja": "発酵バター"
+      "ja": "発酵バター",
+      "ko": "발효 버터"
     }
   },
   {
@@ -3936,7 +4212,8 @@
       "de": "Quiche Ishgarder Art",
       "en": "Ishgardian Muffin",
       "fr": "Pain ishgardais",
-      "ja": "イシュガルドマフィン"
+      "ja": "イシュガルドマフィン",
+      "ko": "이슈가르드 머핀"
     }
   },
   {
@@ -3950,7 +4227,8 @@
       "de": "Ishgarder Tee",
       "en": "Ishgardian Tea",
       "fr": "Thé ishgardais",
-      "ja": "イシュガルドティー"
+      "ja": "イシュガルドティー",
+      "ko": "이슈가르드 밀크티"
     }
   },
   {
@@ -3964,7 +4242,8 @@
       "de": "Porciniragout",
       "en": "Sauteed Porcini",
       "fr": "Bolets sautés",
-      "ja": "ポルチーニソテー"
+      "ja": "ポルチーニソテー",
+      "ko": "그물버섯볶음"
     }
   },
   {
@@ -3978,7 +4257,8 @@
       "de": "Purpurrote Bete-Suppe",
       "en": "Beet Soup",
       "fr": "Soupe pourpre",
-      "ja": "クリムゾンスープ"
+      "ja": "クリムゾンスープ",
+      "ko": "진홍 수프"
     }
   },
   {
@@ -3992,7 +4272,8 @@
       "de": "Dhalmel-Gratin",
       "en": "Dhalmel Gratin",
       "fr": "Gratin de dhalmel",
-      "ja": "アウフラウフ"
+      "ja": "アウフラウフ",
+      "ko": "아우플라우프"
     }
   },
   {
@@ -4006,7 +4287,8 @@
       "de": "Gegrillte Purpur-Forelle",
       "en": "Grilled Sweetfish",
       "fr": "Poisson-sucre grillé",
-      "ja": "グリルドスイートフィッシュ"
+      "ja": "グリルドスイートフィッシュ",
+      "ko": "향어구이"
     }
   },
   {
@@ -4020,7 +4302,8 @@
       "de": "Mont Sohm Al",
       "en": "Sohm Al Tart",
       "fr": "Sohm Al aux marrons",
-      "ja": "ソーム・アル・オ・マロン"
+      "ja": "ソーム・アル・オ・マロン",
+      "ko": "어둠밤 솜 알"
     }
   },
   {
@@ -4034,7 +4317,8 @@
       "de": "Sauce ishgardaise",
       "en": "Hollandaise Sauce",
       "fr": "Sauce ishgardaise",
-      "ja": "オランデーズソース"
+      "ja": "オランデーズソース",
+      "ko": "올랑데즈 소스"
     }
   },
   {
@@ -4048,7 +4332,8 @@
       "de": "Kaisersemmel",
       "en": "Kaiser Roll",
       "fr": "Pain empereur",
-      "ja": "カイザーゼンメル"
+      "ja": "カイザーゼンメル",
+      "ko": "제왕빵"
     }
   },
   {
@@ -4062,7 +4347,8 @@
       "de": "Emeraldgrüne Bohnensuppe",
       "en": "Emerald Soup",
       "fr": "Soupe émeraude",
-      "ja": "エメラルドスープ"
+      "ja": "エメラルドスープ",
+      "ko": "에메랄드 수프"
     }
   },
   {
@@ -4076,7 +4362,8 @@
       "de": "Adels-Abendessen",
       "en": "High House Supper Set",
       "fr": "Dîner de maison noble",
-      "ja": "ハイハウス・ディナーセット"
+      "ja": "ハイハウス・ディナーセット",
+      "ko": "명가의 저녁 정식"
     }
   },
   {
@@ -4090,7 +4377,8 @@
       "de": "Fernöstliches Frühstück",
       "en": "Oriental Breakfast",
       "fr": "Petit déjeuner oriental",
-      "ja": "オリエンタル・モーニングセット"
+      "ja": "オリエンタル・モーニングセット",
+      "ko": "동방의 아침 정식"
     }
   },
   {
@@ -4104,7 +4392,8 @@
       "de": "Fernöstliches Teeservice",
       "en": "Oriental Tea Set",
       "fr": "Collation de thé oriental",
-      "ja": "オリエンタル・ティーセット"
+      "ja": "オリエンタル・ティーセット",
+      "ko": "동방의 녹차 세트"
     }
   },
   {
@@ -4118,7 +4407,8 @@
       "de": "Riviera-Frühstücks-Set",
       "en": "Riviera Breakfast",
       "fr": "Omelette",
-      "ja": "オムレツプレート"
+      "ja": "オムレツプレート",
+      "ko": "오믈렛 정식"
     }
   },
   {
@@ -4132,7 +4422,8 @@
       "de": "Riviera-Lunch",
       "en": "Riviera Lunch",
       "fr": "Déjeuner noscéen",
-      "ja": "ラノシアン・ランチセット"
+      "ja": "ラノシアン・ランチセット",
+      "ko": "라노시아 점심 정식"
     }
   },
   {
@@ -4146,7 +4437,8 @@
       "de": "Sesamkeks",
       "en": "Sesame Cookie",
       "fr": "Biscuit au sésame",
-      "ja": "セサミクッキー"
+      "ja": "セサミクッキー",
+      "ko": "참깨 쿠키"
     }
   },
   {
@@ -4160,7 +4452,8 @@
       "de": "Vermicelli",
       "en": "Vermicelli",
       "fr": "Vermicelles",
-      "ja": "ヴァーミセリ"
+      "ja": "ヴァーミセリ",
+      "ko": "베르미첼리"
     }
   },
   {
@@ -4174,7 +4467,8 @@
       "de": "Ishgarder Teeservice",
       "en": "Alpine Tea Set",
       "fr": "Goûter ishgardais",
-      "ja": "イシュガルディアン・ティーセット"
+      "ja": "イシュガルディアン・ティーセット",
+      "ko": "이슈가르드 홍차 세트"
     }
   },
   {
@@ -4188,7 +4482,8 @@
       "de": "Dhalmel-Frikassee",
       "en": "Dhalmel Fricassee",
       "fr": "Fricassée de dhalmel",
-      "ja": "ダルメルフリカッセ"
+      "ja": "ダルメルフリカッセ",
+      "ko": "달멜 스튜"
     }
   },
   {
@@ -4202,7 +4497,8 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品"
+      "ja": "近東風の蒐集品",
+      "ko": "근동풍 소장품"
     }
   },
   {
@@ -4216,7 +4512,8 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材"
+      "ja": "近東風の蒐集品部材",
+      "ko": "근동풍 소장품 부재"
     }
   },
   {
@@ -4230,7 +4527,8 @@
       "de": "Fernöstliches Abendessen",
       "en": "Oriental Supper",
       "fr": "Dîner oriental",
-      "ja": "オリエンタル・ディナーセット"
+      "ja": "オリエンタル・ディナーセット",
+      "ko": "동방의 저녁 정식"
     }
   },
   {
@@ -4244,7 +4542,8 @@
       "de": "Eier Royal",
       "en": "Royal Eggs",
       "fr": "Œufs royaux",
-      "ja": "エッグロワイヤル"
+      "ja": "エッグロワイヤル",
+      "ko": "왕실 달걀"
     }
   },
   {
@@ -4258,7 +4557,8 @@
       "de": "Gebackener Pipira Pira",
       "en": "Baked Pipira Pira",
       "fr": "Pipira pira au four",
-      "ja": "ベイクドピピラ・ピラ"
+      "ja": "ベイクドピピラ・ピラ",
+      "ko": "피피라 피라 찜"
     }
   },
   {
@@ -4272,7 +4572,8 @@
       "de": "Cockatrice-Frikadelle",
       "en": "Cockatrice Meatballs",
       "fr": "Fricadelle de cocatrix",
-      "ja": "フリカデレ"
+      "ja": "フリカデレ",
+      "ko": "코카트리스 미트볼"
     }
   },
   {
@@ -4286,7 +4587,8 @@
       "de": "Coerthisches Souvenir",
       "en": "Coerthan Souvenir",
       "fr": "Souvenir du Coerthas",
-      "ja": "寒冷地の名産品"
+      "ja": "寒冷地の名産品",
+      "ko": "한랭지 특산품"
     }
   },
   {
@@ -4300,7 +4602,8 @@
       "de": "Komponente eines coerthischen Souvenirs",
       "en": "Coerthan Souvenir Component",
       "fr": "Composant de souvenir du Coerthas",
-      "ja": "寒冷地の名産品部材"
+      "ja": "寒冷地の名産品部材",
+      "ko": "한랭지 특산품 부재"
     }
   },
   {
@@ -4314,7 +4617,8 @@
       "de": "Eiskalter Fruchtcocktail",
       "en": "Frozen Spirits",
       "fr": "Mélange glacé",
-      "ja": "フローズンカクテル"
+      "ja": "フローズンカクテル",
+      "ko": "얼린 칵테일"
     }
   },
   {
@@ -4328,7 +4632,8 @@
       "de": "Birkensirup",
       "en": "Birch Syrup",
       "fr": "Sirop de bouleau",
-      "ja": "バーチシロップ"
+      "ja": "バーチシロップ",
+      "ko": "자작나무 시럽"
     }
   },
   {
@@ -4342,7 +4647,8 @@
       "de": "Leberkäsesemmel",
       "en": "Liver-cheese Sandwich",
       "fr": "Sandwich au fromage de foie",
-      "ja": "レバーケースゼンメル"
+      "ja": "レバーケースゼンメル",
+      "ko": "제왕 샌드위치"
     }
   },
   {
@@ -4356,7 +4662,8 @@
       "de": "Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel",
       "fr": "Équipement militaire du Maelstrom",
-      "ja": "黒渦団の軍需品"
+      "ja": "黒渦団の軍需品",
+      "ko": "흑와단 군수품"
     }
   },
   {
@@ -4370,7 +4677,8 @@
       "de": "Komponente eines Stücks Mahlstrom-Ausrüstung",
       "en": "Maelstrom Materiel Component",
       "fr": "Composant d'équipement militaire du Maelstrom",
-      "ja": "黒渦団の軍需品部材"
+      "ja": "黒渦団の軍需品部材",
+      "ko": "흑와단 군수품 부재"
     }
   },
   {
@@ -4384,7 +4692,8 @@
       "de": "Glasierte Glanznüsse",
       "en": "Marron Glace",
       "fr": "Marrons glacés",
-      "ja": "マロングラッセ"
+      "ja": "マロングラッセ",
+      "ko": "마롱 글라세"
     }
   },
   {
@@ -4398,7 +4707,8 @@
       "de": "Ishgarder Abendessen",
       "en": "Alpine Supper Set",
       "fr": "Dîner ishgardais",
-      "ja": "イシュガルディアン・ディナーセット"
+      "ja": "イシュガルディアン・ディナーセット",
+      "ko": "이슈가르드 저녁 정식"
     }
   },
   {
@@ -4412,7 +4722,8 @@
       "de": "Muschelsuppe",
       "en": "Clam Chowder",
       "fr": "Chaudrée de palourdes",
-      "ja": "クラムチャウダー"
+      "ja": "クラムチャウダー",
+      "ko": "조개 수프"
     }
   },
   {
@@ -4426,7 +4737,8 @@
       "de": "Okeanis-Schnitzel",
       "en": "Deep-fried Okeanis",
       "fr": "Océanide panée",
-      "ja": "オーケアニスシュニッツェル"
+      "ja": "オーケアニスシュニッツェル",
+      "ko": "오케아니스 튀김"
     }
   },
   {
@@ -4440,7 +4752,8 @@
       "de": "Abanische Spezialität",
       "en": "Gyr Abanian Souvenir",
       "fr": "Souvenir de Gyr Abania",
-      "ja": "ギラバニアの名産品"
+      "ja": "ギラバニアの名産品",
+      "ko": "Gyr Abanian Souvenir"
     }
   },
   {
@@ -4454,7 +4767,8 @@
       "de": "Komponente eines abanischen Souvenirs",
       "en": "Gyr Abanian Souvenir Component",
       "fr": "Composant de souvenir de Gyr Abania",
-      "ja": "ギラバニア名産品部材"
+      "ja": "ギラバニア名産品部材",
+      "ko": "Gyr Abanian Souvenir Component"
     }
   },
   {
@@ -4468,7 +4782,8 @@
       "de": "Inniges Geschenk",
       "en": "Heartfelt Gift",
       "fr": "Cadeau attentionné",
-      "ja": "心尽くしの贈答品"
+      "ja": "心尽くしの贈答品",
+      "ko": "정성이 가득한 선물"
     }
   },
   {
@@ -4482,7 +4797,8 @@
       "de": "Komponente eines innigen Geschenks",
       "en": "Heartfelt Gift Component",
       "fr": "Composant de cadeau attentionné",
-      "ja": "心尽くしの贈答品部材"
+      "ja": "心尽くしの贈答品部材",
+      "ko": "정성이 가득한 선물 부재"
     }
   },
   {
@@ -4496,7 +4812,8 @@
       "de": "Mörchel-Salat",
       "en": "Morel Salad",
       "fr": "Salade verte aux morilles",
-      "ja": "モリーユサラダ"
+      "ja": "モリーユサラダ",
+      "ko": "곰보버섯 샐러드"
     }
   },
   {
@@ -4510,7 +4827,8 @@
       "de": "Gefüllter Kohlkraut-Kopf",
       "en": "Stuffed Chysahl",
       "fr": "Cabus farci",
-      "ja": "スタッフドキャベイジ"
+      "ja": "スタッフドキャベイジ",
+      "ko": "카베이지 찜"
     }
   },
   {
@@ -4524,7 +4842,8 @@
       "de": "Mandelcroissant",
       "en": "Almond Cream Croissant",
       "fr": "Croissant amandé",
-      "ja": "クロワッサンアマンド"
+      "ja": "クロワッサンアマンド",
+      "ko": "아몬드 크루아상"
     },
     "stars": 1
   },
@@ -4539,7 +4858,8 @@
       "de": "Crème brulée",
       "en": "Creme Brulee",
       "fr": "Crème brûlée",
-      "ja": "クレームブリュレ"
+      "ja": "クレームブリュレ",
+      "ko": "크렘 브륄레"
     },
     "stars": 1
   },
@@ -4554,7 +4874,8 @@
       "de": "Fernöstliche Kuriosität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品"
+      "ja": "東方風の蒐集品",
+      "ko": "Far Eastern Antique"
     },
     "stars": 1
   },
@@ -4569,7 +4890,8 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材"
+      "ja": "東方風の蒐集品部材",
+      "ko": "Far Eastern Antique Component"
     },
     "stars": 1
   },
@@ -4584,7 +4906,8 @@
       "de": "Heiße Schokolade",
       "en": "Hot Chocolate",
       "fr": "Chocolat chaud",
-      "ja": "ホットココア"
+      "ja": "ホットココア",
+      "ko": "따끈한 코코아"
     },
     "stars": 1
   },
@@ -4599,7 +4922,8 @@
       "de": "Brioche des Rois",
       "en": "Kingcake",
       "fr": "Brioche des rois",
-      "ja": "ブリオッシュ・デ・ロワ"
+      "ja": "ブリオッシュ・デ・ロワ",
+      "ko": "왕관 케이크"
     },
     "stars": 1
   },
@@ -4614,7 +4938,8 @@
       "de": "Geburtstagskuchen",
       "en": "Nameday Cake",
       "fr": "Gâteau d'anniversaire",
-      "ja": "バースデーケーキ"
+      "ja": "バースデーケーキ",
+      "ko": "생일 케이크"
     },
     "stars": 1
   },
@@ -4629,7 +4954,8 @@
       "de": "Waisenhaus-Spende",
       "en": "Orphanage Donation",
       "fr": "Article quotidien d'orphelinat",
-      "ja": "孤児院の日用品"
+      "ja": "孤児院の日用品",
+      "ko": "고아원 일용품"
     },
     "stars": 1
   },
@@ -4644,7 +4970,8 @@
       "de": "Komponente einer Waisenhaus-Spende",
       "en": "Orphanage Donation Component",
       "fr": "Composant d'article pour orphelinat",
-      "ja": "孤児院の日用品部材"
+      "ja": "孤児院の日用品部材",
+      "ko": "고아원 일용품 부재"
     },
     "stars": 1
   },
@@ -4659,7 +4986,8 @@
       "de": "Ishgarder Fischtopf",
       "en": "Seafood Stew",
       "fr": "Ragoût du pêcheur",
-      "ja": "トマトシチュー"
+      "ja": "トマトシチュー",
+      "ko": "토마토 스튜"
     },
     "stars": 1
   },
@@ -4674,7 +5002,8 @@
       "de": "Flockenbeerentorte",
       "en": "Snurbleberry Tart",
       "fr": "Tarte aux lainuchairelles",
-      "ja": "スナーブルベリータルト"
+      "ja": "スナーブルベリータルト",
+      "ko": "복실딸기 타르트"
     },
     "stars": 1
   },
@@ -4689,7 +5018,8 @@
       "de": "Gedünsteter Vergelter",
       "en": "Steamed Staff",
       "fr": "Bâton à l'étouffée",
-      "ja": "嵐神魚の姿蒸し"
+      "ja": "嵐神魚の姿蒸し",
+      "ko": "바람신어 통찜"
     },
     "stars": 1
   },
@@ -4704,7 +5034,8 @@
       "de": "Seeigel-Pastete",
       "en": "Urchin Loaf",
       "fr": "Terrine d'oursins",
-      "ja": "アーチンテリーヌ"
+      "ja": "アーチンテリーヌ",
+      "ko": "성게 떡갈비"
     },
     "stars": 1
   },
@@ -4719,7 +5050,8 @@
       "de": "Anglerfisch-Eintopf",
       "en": "Angler Stew",
       "fr": "Ragoût de lotte",
-      "ja": "アングラーシチュー"
+      "ja": "アングラーシチュー",
+      "ko": "민물아귀 스튜"
     },
     "stars": 2
   },
@@ -4734,7 +5066,8 @@
       "de": "Austern-Confit",
       "en": "Oyster Confit",
       "fr": "Huîtres confites",
-      "ja": "オイスターコンフィ"
+      "ja": "オイスターコンフィ",
+      "ko": "굴 콩피"
     },
     "stars": 2
   },
@@ -4749,7 +5082,8 @@
       "de": "Süßer Gnomenfisch",
       "en": "Sweet Gnomefish",
       "fr": "Poisson gnome sucré",
-      "ja": "ヌマムツの甘露煮"
+      "ja": "ヌマムツの甘露煮",
+      "ko": "갈겨니 조림"
     },
     "stars": 2
   },
@@ -4764,7 +5098,8 @@
       "de": "Apfelstrudel",
       "en": "Apple Strudel",
       "fr": "Strudel aux pommes",
-      "ja": "アップルシュトゥルーデル"
+      "ja": "アップルシュトゥルーデル",
+      "ko": "사과 슈트루델"
     },
     "stars": 3
   },
@@ -4779,7 +5114,8 @@
       "de": "Boscaiola",
       "en": "Boscaiola",
       "fr": "Pâtes à la forestière",
-      "ja": "ボスカイオーラ"
+      "ja": "ボスカイオーラ",
+      "ko": "보스카이올라"
     },
     "stars": 3
   },
@@ -4794,7 +5130,8 @@
       "de": "Himmelseier-Suppe",
       "en": "Heavensegg Soup",
       "fr": "Soupe aux célestœufs",
-      "ja": "ヘヴンスエッグスープ"
+      "ja": "ヘヴンスエッグスープ",
+      "ko": "창천란 수프"
     },
     "stars": 3
   },
@@ -4809,7 +5146,8 @@
       "de": "Loaghtan-Steak",
       "en": "Loaghtan Steak",
       "fr": "Steak de loaghtan",
-      "ja": "ロフタンステーキ"
+      "ja": "ロフタンステーキ",
+      "ko": "큰뿔산양 스테이크"
     },
     "stars": 3
   },
@@ -4824,7 +5162,8 @@
       "de": "Pasta Ortolano",
       "en": "Pasta Ortolano",
       "fr": "Pâtes à la maraîchère",
-      "ja": "オルトラーナ"
+      "ja": "オルトラーナ",
+      "ko": "채소 파스타"
     },
     "stars": 3
   },
@@ -4839,7 +5178,8 @@
       "de": "Peperoncino",
       "en": "Peperoncino",
       "fr": "Pâtes aux piments",
-      "ja": "ペペロンチーノ"
+      "ja": "ペペロンチーノ",
+      "ko": "알리오 올리오 페페론치노"
     },
     "stars": 3
   },
@@ -4854,7 +5194,8 @@
       "de": "Würziger Apfelsaft",
       "en": "Spiced Cider",
       "fr": "Cidre aux épices",
-      "ja": "スパイスサイダー"
+      "ja": "スパイスサイダー",
+      "ko": "양념 사과주스"
     },
     "stars": 3
   },
@@ -4869,7 +5210,8 @@
       "de": "Apfel-Flaugnarde",
       "en": "Flaugnarde",
       "fr": "Flaugnarde aux pommes",
-      "ja": "アップルフロニャルド"
+      "ja": "アップルフロニャルド",
+      "ko": "사과 플로냐르드"
     },
     "stars": 4
   },
@@ -4884,7 +5226,8 @@
       "de": "Himmlischer Eierflip",
       "en": "Heavenly Eggnog",
       "fr": "Lait de poule céleste",
-      "ja": "ヘヴンスエッグノッグ"
+      "ja": "ヘヴンスエッグノッグ",
+      "ko": "창천란주"
     },
     "stars": 4
   },
@@ -4899,7 +5242,8 @@
       "de": "Cordon Bleu",
       "en": "Loaghtan Cordon Bleu",
       "fr": "Cordon bleu",
-      "ja": "コルドンブルー"
+      "ja": "コルドンブルー",
+      "ko": "코르동 블뢰"
     },
     "stars": 4
   },
@@ -4914,7 +5258,8 @@
       "de": "Priester-Omelett",
       "en": "Priestly Omelette",
       "fr": "Omelette sacerdotale",
-      "ja": "プリーストオムレツ"
+      "ja": "プリーストオムレツ",
+      "ko": "사제의 오믈렛"
     },
     "stars": 4
   },
@@ -4929,7 +5274,8 @@
       "de": "Carbonara",
       "en": "Spaghetti Carbonara",
       "fr": "Spaghettis à la carbonara",
-      "ja": "カルボナーラ"
+      "ja": "カルボナーラ",
+      "ko": "카르보나라"
     },
     "stars": 4
   },
@@ -4944,7 +5290,8 @@
       "de": "Pescatole",
       "en": "Spaghetti Pescatore",
       "fr": "Spaghetti pescatore",
-      "ja": "ペスカトーレ"
+      "ja": "ペスカトーレ",
+      "ko": "페스카토레"
     },
     "stars": 4
   },
@@ -4959,7 +5306,8 @@
       "de": "Pilzomelett",
       "en": "Wildwood Scrambled Eggs",
       "fr": "Œufs brouillés",
-      "ja": "ウー・ブルイエ"
+      "ja": "ウー・ブルイエ",
+      "ko": "버섯달걀죽"
     },
     "stars": 4
   },
@@ -4974,7 +5322,8 @@
       "de": "Trostpreis für den Gold Saucer",
       "en": "Gold Saucer Consolation Prize",
       "fr": "Lot de consolation du Gold Saucer",
-      "ja": "ゴールドソーサーの景品"
+      "ja": "ゴールドソーサーの景品",
+      "ko": "Gold Saucer Consolation Prize"
     }
   },
   {
@@ -4988,7 +5337,8 @@
       "de": "Komponente eines Gold Saucer-Trostpreises",
       "en": "Gold Saucer Consolation Prize Component",
       "fr": "Composant de lot de consolation du Gold Saucer",
-      "ja": "ゴールドソーサーの景品部材"
+      "ja": "ゴールドソーサーの景品部材",
+      "ko": "Gold Saucer Consolation Prize Component"
     }
   },
   {
@@ -5002,7 +5352,8 @@
       "de": "Abanisches Mehl",
       "en": "Gyr Abanian Flour",
       "fr": "Farine des steppes",
-      "ja": "高原小麦粉"
+      "ja": "高原小麦粉",
+      "ko": "기라바니아 밀가루"
     }
   },
   {
@@ -5016,7 +5367,8 @@
       "de": "Baklava",
       "en": "Baklava",
       "fr": "Baklava",
-      "ja": "バクラヴァ"
+      "ja": "バクラヴァ",
+      "ko": "바클라바"
     }
   },
   {
@@ -5030,7 +5382,8 @@
       "de": "Mispelsaft",
       "en": "Loquat Juice",
       "fr": "Jus de nèfle",
-      "ja": "ロークワットジュース"
+      "ja": "ロークワットジュース",
+      "ko": "비파 주스"
     }
   },
   {
@@ -5044,7 +5397,8 @@
       "de": "Algensalz",
       "en": "Algae Salt",
       "fr": "Sel de sargasse",
-      "ja": "藻塩"
+      "ja": "藻塩",
+      "ko": "해초소금"
     }
   },
   {
@@ -5058,7 +5412,8 @@
       "de": "Buchweizen-Tee",
       "en": "Buckwheat Tea",
       "fr": "Tisane de sarrasin",
-      "ja": "蕎麦茶"
+      "ja": "蕎麦茶",
+      "ko": "메밀차"
     }
   },
   {
@@ -5072,7 +5427,8 @@
       "de": "Gegrillter Saibling",
       "en": "Charred Charr",
       "fr": "Omble grillé",
-      "ja": "グリルドチャー"
+      "ja": "グリルドチャー",
+      "ko": "곤들매기 구이"
     }
   },
   {
@@ -5086,7 +5442,8 @@
       "de": "Kascha",
       "en": "Kasha",
       "fr": "Gruau kasha",
-      "ja": "カーシャ"
+      "ja": "カーシャ",
+      "ko": "카샤"
     }
   },
   {
@@ -5100,7 +5457,8 @@
       "de": "Jagdbedarf",
       "en": "M Tribe Sundries",
       "fr": "Produits du quotidien des M",
-      "ja": "メ族の日用品"
+      "ja": "メ族の日用品",
+      "ko": "M Tribe Sundries"
     }
   },
   {
@@ -5114,7 +5472,8 @@
       "de": "Komponente eines Gebrauchsgegenstands der M",
       "en": "M Tribe Sundry Component",
       "fr": "Composant de produits du quotidien des M",
-      "ja": "メ族の日用品部材"
+      "ja": "メ族の日用品部材",
+      "ko": "M Tribe Sundry Component"
     }
   },
   {
@@ -5128,7 +5487,8 @@
       "de": "Baumwollsamenöl",
       "en": "Cottonseed Oil",
       "fr": "Huile de coton",
-      "ja": "綿実油"
+      "ja": "綿実油",
+      "ko": "목화씨 기름"
     }
   },
   {
@@ -5142,7 +5502,8 @@
       "de": "Domanische Onigiri",
       "en": "Doman Rice Balls",
       "fr": "Onigiri domiens",
-      "ja": "ドマ風おにぎり"
+      "ja": "ドマ風おにぎり",
+      "ko": "도마풍 주먹밥"
     }
   },
   {
@@ -5156,7 +5517,8 @@
       "de": "Gekochte Turbanschnecke",
       "en": "Grilled Turban",
       "fr": "Turbo grillé",
-      "ja": "サザエの壺焼"
+      "ja": "サザエの壺焼",
+      "ko": "소라 통구이"
     }
   },
   {
@@ -5170,7 +5532,8 @@
       "de": "Toffel-Soba",
       "en": "Popoto Soba",
       "fr": "Nouilles de sarrasin montagnardes",
-      "ja": "とろろ蕎麦"
+      "ja": "とろろ蕎麦",
+      "ko": "포포토 국수"
     }
   },
   {
@@ -5184,7 +5547,8 @@
       "de": "Rucksack für die Befreiungsarmee",
       "en": "Resistance Materiel",
       "fr": "Provisions pour l'armée de libération",
-      "ja": "解放軍の軍需品"
+      "ja": "解放軍の軍需品",
+      "ko": "Resistance Materiel"
     }
   },
   {
@@ -5198,7 +5562,8 @@
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
       "en": "Resistance Materiel Component",
       "fr": "Composant de provisions pour l'armée de libération",
-      "ja": "解放軍の軍需品部材"
+      "ja": "解放軍の軍需品部材",
+      "ko": "Resistance Materiel Component"
     }
   },
   {
@@ -5212,7 +5577,8 @@
       "de": "Rübenzucker",
       "en": "Beet Sugar",
       "fr": "Vergeoise",
-      "ja": "ビートシュガー"
+      "ja": "ビートシュガー",
+      "ko": "사탕무 설탕"
     }
   },
   {
@@ -5226,7 +5592,8 @@
       "de": "Krabbenkroketten",
       "en": "Crab Croquette",
       "fr": "Croquettes de crabe",
-      "ja": "クラブコロッケ"
+      "ja": "クラブコロッケ",
+      "ko": "게살 크로켓"
     }
   },
   {
@@ -5240,7 +5607,8 @@
       "de": "Fester Tofu",
       "en": "Firm Tofu",
       "fr": "Tôfu coton",
-      "ja": "木綿豆腐"
+      "ja": "木綿豆腐",
+      "ko": "두부"
     }
   },
   {
@@ -5254,7 +5622,8 @@
       "de": "Miso-Suppe mit Tofu",
       "en": "Miso Soup with Tofu",
       "fr": "Soupe miso au tôfu",
-      "ja": "豆腐の味噌汁"
+      "ja": "豆腐の味噌汁",
+      "ko": "두부 된장국"
     }
   },
   {
@@ -5268,7 +5637,8 @@
       "de": "Fernöstlicher Udon-Lunch",
       "en": "Oriental Udon Lunch",
       "fr": "Déjeuner oriental : nouilles udon",
-      "ja": "オリエンタル・ランチセット:うどん"
+      "ja": "オリエンタル・ランチセット:うどん",
+      "ko": "동방의 점심식사: 우동"
     }
   },
   {
@@ -5282,7 +5652,8 @@
       "de": "Udon-Suppe",
       "en": "Doman Udon Broth",
       "fr": "Bouillon oriental",
-      "ja": "ドマ風うどんつゆ"
+      "ja": "ドマ風うどんつゆ",
+      "ko": "도마풍 우동 장국"
     }
   },
   {
@@ -5296,7 +5667,8 @@
       "de": "Gameni",
       "en": "Gameni",
       "fr": "Gameni",
-      "ja": "がめ煮"
+      "ja": "がめ煮",
+      "ko": "야채조림"
     }
   },
   {
@@ -5310,7 +5682,8 @@
       "de": "Fernöstlicher Onigiri-Lunch",
       "en": "Oriental Rice Ball Lunch",
       "fr": "Déjeuner oriental : onigiri",
-      "ja": "オリエンタル・ランチセット:おにぎり"
+      "ja": "オリエンタル・ランチセット:おにぎり",
+      "ko": "동방의 점심식사: 주먹밥"
     }
   },
   {
@@ -5324,7 +5697,8 @@
       "de": "Fernöstlicher Sushi-Lunch",
       "en": "Oriental Sushi Lunch",
       "fr": "Déjeuner oriental : sushi",
-      "ja": "オリエンタル・ランチセット:寿司"
+      "ja": "オリエンタル・ランチセット:寿司",
+      "ko": "동방의 점심식사: 초밥"
     }
   },
   {
@@ -5338,7 +5712,8 @@
       "de": "Reisessig",
       "en": "Rice Vinegar",
       "fr": "Vinaigre de riz",
-      "ja": "米酢"
+      "ja": "米酢",
+      "ko": "쌀 식초"
     }
   },
   {
@@ -5352,7 +5727,8 @@
       "de": "Shorlog",
       "en": "Shorlog",
       "fr": "Shorlog",
-      "ja": "ショルログ"
+      "ja": "ショルログ",
+      "ko": "셔를럭"
     }
   },
   {
@@ -5366,7 +5742,8 @@
       "de": "Froschschenkel Süß-Sauer",
       "en": "Sweet and Sour Frogs' Legs",
       "fr": "Cuisses de grenouilles en sauce",
-      "ja": "カエルの餡かけ"
+      "ja": "カエルの餡かけ",
+      "ko": "개구리 탕수육"
     }
   },
   {
@@ -5380,7 +5757,8 @@
       "de": "Nomaden-Fleischpastete",
       "en": "Nomad Meat Pie",
       "fr": "Tourte des steppes",
-      "ja": "遊牧民風ミートパイ"
+      "ja": "遊牧民風ミートパイ",
+      "ko": "유목민 파이"
     }
   },
   {
@@ -5394,7 +5772,8 @@
       "de": "Fernöstlicher Soba-Lunch",
       "en": "Oriental Soba Lunch",
       "fr": "Déjeuner oriental : nouilles de sarrasin",
-      "ja": "オリエンタル・ランチセット:蕎麦"
+      "ja": "オリエンタル・ランチセット:蕎麦",
+      "ko": "동방의 점심식사: 메밀국수"
     }
   },
   {
@@ -5408,7 +5787,8 @@
       "de": "Steppensalat",
       "en": "Steppe Salad",
       "fr": "Salade des steppes",
-      "ja": "ステップサラダ"
+      "ja": "ステップサラダ",
+      "ko": "초원 샐러드"
     }
   },
   {
@@ -5422,7 +5802,8 @@
       "de": "Tempura-Platte",
       "en": "Tempura Platter",
       "fr": "Assortiment de tenpura",
-      "ja": "天ぷら盛り合わせ"
+      "ja": "天ぷら盛り合わせ",
+      "ko": "모둠 튀김"
     }
   },
   {
@@ -5436,7 +5817,8 @@
       "de": "Kriegereintopf",
       "en": "Warrior's Stew",
       "fr": "Nogootoj shol",
-      "ja": "ゼラスープ"
+      "ja": "ゼラスープ",
+      "ko": "젤라 수프"
     }
   },
   {
@@ -5450,7 +5832,8 @@
       "de": "Ei Foo Young",
       "en": "Egg Foo Young",
       "fr": "Œufs fu yung",
-      "ja": "芙蓉蟹"
+      "ja": "芙蓉蟹",
+      "ko": "게살 달걀부침"
     }
   },
   {
@@ -5464,7 +5847,8 @@
       "de": "Fischeintopf",
       "en": "Fish Stew",
       "fr": "Bouillon des marées",
-      "ja": "潮汁"
+      "ja": "潮汁",
+      "ko": "생선국"
     }
   },
   {
@@ -5478,7 +5862,8 @@
       "de": "Kakipudding",
       "en": "Persimmon Pudding",
       "fr": "Flan aux kakis",
-      "ja": "パーシモンプディング"
+      "ja": "パーシモンプディング",
+      "ko": "홍시 푸딩"
     }
   },
   {
@@ -5492,7 +5877,8 @@
       "de": "Gekochter Bernsteinmakrelen-Kopf",
       "en": "Boiled Amberjack Head",
       "fr": "Ragoût de tête de sériole",
-      "ja": "ヒラマサの兜煮"
+      "ja": "ヒラマサの兜煮",
+      "ko": "부시리 조림"
     }
   },
   {
@@ -5506,7 +5892,8 @@
       "de": "Domanischer Tee",
       "en": "Doman Tea",
       "fr": "Thé domien",
-      "ja": "ドマ茶"
+      "ja": "ドマ茶",
+      "ko": "도마 수정과"
     }
   },
   {
@@ -5520,7 +5907,8 @@
       "de": "Sushi",
       "en": "Nigiri-zushi",
       "fr": "Nigirizushi",
-      "ja": "握り寿司"
+      "ja": "握り寿司",
+      "ko": "초밥"
     }
   },
   {
@@ -5534,7 +5922,8 @@
       "de": "Gegrillter Hummer",
       "en": "Onigara-yaki",
       "fr": "Langouste grillée",
-      "ja": "鬼殻焼"
+      "ja": "鬼殻焼",
+      "ko": "새우 통구이"
     }
   },
   {
@@ -5548,7 +5937,8 @@
       "de": "Chirashi-Sushi",
       "en": "Chirashi-zushi",
       "fr": "Chirashi-zushi",
-      "ja": "ちらし寿司"
+      "ja": "ちらし寿司",
+      "ko": "오색초밥"
     }
   },
   {
@@ -5562,7 +5952,8 @@
       "de": "Getrocknetes Jhammel-Fleisch",
       "en": "Jerked Jhammel",
       "fr": "Viande de jhammel séchée",
-      "ja": "ジャムメルジャーキー"
+      "ja": "ジャムメルジャーキー",
+      "ko": "잠멜 육포"
     }
   },
   {
@@ -5576,7 +5967,8 @@
       "de": "Miso-Dengaku",
       "en": "Miso Dengaku",
       "fr": "Brochettes miso-dengaku",
-      "ja": "味噌田楽"
+      "ja": "味噌田楽",
+      "ko": "된장꼬치"
     }
   },
   {
@@ -5590,7 +5982,8 @@
       "de": "Domanisches Sukiyaki",
       "en": "Doman Sukiyaki",
       "fr": "Sukiyaki domien",
-      "ja": "ドマ風すき焼き"
+      "ja": "ドマ風すき焼き",
+      "ko": "도마풍 전골"
     }
   },
   {
@@ -5604,7 +5997,8 @@
       "de": "Jhammel-Moussaka",
       "en": "Jhammel Moussaka",
       "fr": "Moussaka au jhammel",
-      "ja": "ジャムメルムサカ"
+      "ja": "ジャムメルムサカ",
+      "ko": "잠멜 무사카"
     }
   },
   {
@@ -5618,7 +6012,8 @@
       "de": "Gedünsteter Zackenbarsch",
       "en": "Steamed Grouper",
       "fr": "Garoupa à l'étuvée",
-      "ja": "キジハタの清蒸"
+      "ja": "キジハタの清蒸",
+      "ko": "붉바리 찜"
     }
   },
   {
@@ -5632,7 +6027,8 @@
       "de": "Gedünstete Flussbrasse",
       "en": "Stewed River Bream",
       "fr": "Pagre en papillote",
-      "ja": "カワダイの煮込み"
+      "ja": "カワダイの煮込み",
+      "ko": "감성돔 조림"
     }
   },
   {
@@ -5646,7 +6042,8 @@
       "de": "Geliertes Kompott",
       "en": "Jellied Compote",
       "fr": "Gelée de compote de fruits",
-      "ja": "コンポートゼリー"
+      "ja": "コンポートゼリー",
+      "ko": "과일조림 젤리"
     },
     "stars": 1
   },
@@ -5661,7 +6058,8 @@
       "de": "Kakiblatt-Sushi",
       "en": "Persimmon Leaf Sushi",
       "fr": "Sushi en robe de plaqueminier",
-      "ja": "柿の葉寿司"
+      "ja": "柿の葉寿司",
+      "ko": "감잎 초밥"
     },
     "stars": 1
   },
@@ -5676,7 +6074,8 @@
       "de": "Hinganische Eierspeise",
       "en": "Chawan-mushi",
       "fr": "Flan oriental",
-      "ja": "茶碗蒸し"
+      "ja": "茶碗蒸し",
+      "ko": "Chawan-mushi"
     },
     "stars": 2
   },
@@ -5691,7 +6090,8 @@
       "de": "Kakuni",
       "en": "Pork Kakuni",
       "fr": "Porc braisé à l'orientale",
-      "ja": "豚角煮"
+      "ja": "豚角煮",
+      "ko": "Pork Kakuni"
     },
     "stars": 2
   },
@@ -5706,7 +6106,8 @@
       "de": "Schweinefleischeintopf",
       "en": "Pork Stew",
       "fr": "Bouillon de porc",
-      "ja": "豚汁"
+      "ja": "豚汁",
+      "ko": "Pork Stew"
     },
     "stars": 2
   },
@@ -5721,7 +6122,8 @@
       "de": "Othardischer Lachs nach Müllerinart",
       "en": "Sermon-worthy Meuniere",
       "fr": "Saumon seigneurial meunière",
-      "ja": "御鮭様のムニエル"
+      "ja": "御鮭様のムニエル",
+      "ko": "Sermon-worthy Meuniere"
     },
     "stars": 2
   },
@@ -5736,7 +6138,8 @@
       "de": "Steppen-Tee",
       "en": "Steppe Tea",
       "fr": "Thé de la Steppe",
-      "ja": "ステップティー"
+      "ja": "ステップティー",
+      "ko": "Steppe Tea"
     },
     "stars": 2
   }
