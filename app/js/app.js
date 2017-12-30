@@ -46,7 +46,7 @@
       localStorage.removeItem('lang');
     }
     else {
-      $translateProvider.preferredLanguage('ko');
+      $translateProvider.preferredLanguage('en');
     }
 
     $translateProvider.useStorage('_translateLocalStorage');
