@@ -10,7 +10,8 @@
       "de": "Gedünsteter Zackenbarsch",
       "en": "Steamed Grouper",
       "fr": "Garoupa à l'étuvée",
-      "ja": "キジハタの清蒸"
+      "ja": "キジハタの清蒸",
+      "ko": "붉바리 찜"
     }
   },
   {
@@ -24,7 +25,8 @@
       "de": "Gedünsteter Zackenbarsch",
       "en": "Steamed Grouper",
       "fr": "Garoupa à l'étuvée",
-      "ja": "キジハタの清蒸"
+      "ja": "キジハタの清蒸",
+      "ko": "붉바리 찜"
     }
   },
   {
@@ -38,7 +40,8 @@
       "de": "Kriegereintopf",
       "en": "Warrior's Stew",
       "fr": "Nogootoj shol",
-      "ja": "ゼラスープ"
+      "ja": "ゼラスープ",
+      "ko": "젤라 수프"
     }
   },
   {
@@ -52,7 +55,8 @@
       "de": "Kriegereintopf",
       "en": "Warrior's Stew",
       "fr": "Nogootoj shol",
-      "ja": "ゼラスープ"
+      "ja": "ゼラスープ",
+      "ko": "젤라 수프"
     }
   },
   {
@@ -66,7 +70,8 @@
       "de": "Tempura-Platte",
       "en": "Tempura Platter",
       "fr": "Assortiment de tenpura",
-      "ja": "天ぷら盛り合わせ"
+      "ja": "天ぷら盛り合わせ",
+      "ko": "모둠 튀김"
     }
   },
   {
@@ -80,7 +85,8 @@
       "de": "Tempura-Platte",
       "en": "Tempura Platter",
       "fr": "Assortiment de tenpura",
-      "ja": "天ぷら盛り合わせ"
+      "ja": "天ぷら盛り合わせ",
+      "ko": "모둠 튀김"
     }
   },
   {
@@ -94,7 +100,8 @@
       "de": "Miso-Suppe mit Tofu",
       "en": "Miso Soup with Tofu",
       "fr": "Soupe miso au tôfu",
-      "ja": "豆腐の味噌汁"
+      "ja": "豆腐の味噌汁",
+      "ko": "두부 된장국"
     }
   },
   {
@@ -108,14 +115,15 @@
       "de": "Miso-Suppe mit Tofu",
       "en": "Miso Soup with Tofu",
       "fr": "Soupe miso au tôfu",
-      "ja": "豆腐の味噌汁"
+      "ja": "豆腐の味噌汁",
+      "ko": "두부 된장국"
     }
   },
   {
-    "control_percent": 9,
-    "control_value": 77,
     "cp_percent": 4,
     "cp_value": 10,
+    "control_percent": 9,
+    "control_value": 77,
     "craftsmanship_percent": 6,
     "craftsmanship_value": 53,
     "hq": true,
@@ -124,14 +132,15 @@
       "de": "Himmelseier-Suppe",
       "en": "Heavensegg Soup",
       "fr": "Soupe aux célestœufs",
-      "ja": "ヘヴンスエッグスープ"
+      "ja": "ヘヴンスエッグスープ",
+      "ko": "창천란 수프"
     }
   },
   {
-    "control_percent": 7,
-    "control_value": 62,
     "cp_percent": 3,
     "cp_value": 8,
+    "control_percent": 7,
+    "control_value": 62,
     "craftsmanship_percent": 5,
     "craftsmanship_value": 42,
     "hq": false,
@@ -140,7 +149,8 @@
       "de": "Himmelseier-Suppe",
       "en": "Heavensegg Soup",
       "fr": "Soupe aux célestœufs",
-      "ja": "ヘヴンスエッグスープ"
+      "ja": "ヘヴンスエッグスープ",
+      "ko": "창천란 수프"
     }
   },
   {
@@ -154,7 +164,8 @@
       "de": "Austern-Confit",
       "en": "Oyster Confit",
       "fr": "Huîtres confites",
-      "ja": "オイスターコンフィ"
+      "ja": "オイスターコンフィ",
+      "ko": "굴 콩피"
     }
   },
   {
@@ -168,63 +179,68 @@
       "de": "Austern-Confit",
       "en": "Oyster Confit",
       "fr": "Huîtres confites",
-      "ja": "オイスターコンフィ"
+      "ja": "オイスターコンフィ",
+      "ko": "굴 콩피"
     }
   },
   {
-    "control_percent": 5,
-    "control_value": 31,
     "cp_percent": 15,
     "cp_value": 50,
+    "control_percent": 5,
+    "control_value": 31,
     "hq": true,
     "ilvl": 160,
     "name": {
       "de": "Ishgarder Fischtopf",
       "en": "Seafood Stew",
       "fr": "Ragoût du pêcheur",
-      "ja": "トマトシチュー"
+      "ja": "トマトシチュー",
+      "ko": "토마토 스튜"
     }
   },
   {
-    "control_percent": 4,
-    "control_value": 25,
     "cp_percent": 12,
     "cp_value": 40,
+    "control_percent": 4,
+    "control_value": 25,
     "hq": false,
     "ilvl": 160,
     "name": {
       "de": "Ishgarder Fischtopf",
       "en": "Seafood Stew",
       "fr": "Ragoût du pêcheur",
-      "ja": "トマトシチュー"
+      "ja": "トマトシチュー",
+      "ko": "토마토 스튜"
     }
   },
   {
-    "control_percent": 12,
-    "control_value": 73,
     "cp_percent": 5,
     "cp_value": 19,
+    "control_percent": 12,
+    "control_value": 73,
     "hq": true,
     "ilvl": 150,
     "name": {
       "de": "Muschelsuppe",
       "en": "Clam Chowder",
       "fr": "Chaudrée de palourdes",
-      "ja": "クラムチャウダー"
+      "ja": "クラムチャウダー",
+      "ko": "조개 수프"
     }
   },
   {
-    "control_percent": 10,
-    "control_value": 58,
     "cp_percent": 4,
     "cp_value": 15,
+    "control_percent": 10,
+    "control_value": 58,
     "hq": false,
     "ilvl": 150,
     "name": {
       "de": "Muschelsuppe",
       "en": "Clam Chowder",
       "fr": "Chaudrée de palourdes",
-      "ja": "クラムチャウダー"
+      "ja": "クラムチャウダー",
+      "ko": "조개 수프"
     }
   },
   {
@@ -238,7 +254,8 @@
       "de": "Emeraldgrüne Bohnensuppe",
       "en": "Emerald Soup",
       "fr": "Soupe émeraude",
-      "ja": "エメラルドスープ"
+      "ja": "エメラルドスープ",
+      "ko": "에메랄드 수프"
     }
   },
   {
@@ -252,7 +269,8 @@
       "de": "Emeraldgrüne Bohnensuppe",
       "en": "Emerald Soup",
       "fr": "Soupe émeraude",
-      "ja": "エメラルドスープ"
+      "ja": "エメラルドスープ",
+      "ko": "에메랄드 수프"
     }
   },
   {
@@ -266,7 +284,8 @@
       "de": "Purpurrote Bete-Suppe",
       "en": "Beet Soup",
       "fr": "Soupe pourpre",
-      "ja": "クリムゾンスープ"
+      "ja": "クリムゾンスープ",
+      "ko": "진홍 수프"
     }
   },
   {
@@ -280,7 +299,8 @@
       "de": "Purpurrote Bete-Suppe",
       "en": "Beet Soup",
       "fr": "Soupe pourpre",
-      "ja": "クリムゾンスープ"
+      "ja": "クリムゾンスープ",
+      "ko": "진홍 수프"
     }
   },
   {
@@ -294,7 +314,8 @@
       "de": "Überbackene Zwiebelsuppe",
       "en": "Baked Onion Soup",
       "fr": "Soupe à l'oignon",
-      "ja": "オニオングラタンスープ"
+      "ja": "オニオングラタンスープ",
+      "ko": "양파 그라탱 수프"
     }
   },
   {
@@ -308,7 +329,8 @@
       "de": "Überbackene Zwiebelsuppe",
       "en": "Baked Onion Soup",
       "fr": "Soupe à l'oignon",
-      "ja": "オニオングラタンスープ"
+      "ja": "オニオングラタンスープ",
+      "ko": "양파 그라탱 수프"
     }
   },
   {
@@ -320,7 +342,8 @@
       "de": "Königskuchen",
       "en": "Better Crowned Pie",
       "fr": "Galette des rois spéciale",
-      "ja": "秘製ガレット・デ・ロワ"
+      "ja": "秘製ガレット・デ・ロワ",
+      "ko": "특제 왕관 파이"
     }
   },
   {
@@ -332,7 +355,8 @@
       "de": "Königskuchen",
       "en": "Better Crowned Pie",
       "fr": "Galette des rois spéciale",
-      "ja": "秘製ガレット・デ・ロワ"
+      "ja": "秘製ガレット・デ・ロワ",
+      "ko": "특제 왕관 파이"
     }
   },
   {
@@ -346,7 +370,8 @@
       "de": "Haifischflossensuppe",
       "en": "Shark Fin Soup",
       "fr": "Soupe d'aileron",
-      "ja": "フカヒレスープ"
+      "ja": "フカヒレスープ",
+      "ko": "상어지느러미 수프"
     }
   },
   {
@@ -360,7 +385,8 @@
       "de": "Haifischflossensuppe",
       "en": "Shark Fin Soup",
       "fr": "Soupe d'aileron",
-      "ja": "フカヒレスープ"
+      "ja": "フカヒレスープ",
+      "ko": "상어지느러미 수프"
     }
   },
   {
@@ -374,7 +400,8 @@
       "de": "Kalte Toffelsuppe",
       "en": "Chilled Popoto Soup",
       "fr": "Soupe de popotos glacée",
-      "ja": "冷製ポポトスープ"
+      "ja": "冷製ポポトスープ",
+      "ko": "포포토 냉국"
     }
   },
   {
@@ -388,7 +415,8 @@
       "de": "Kalte Toffelsuppe",
       "en": "Chilled Popoto Soup",
       "fr": "Soupe de popotos glacée",
-      "ja": "冷製ポポトスープ"
+      "ja": "冷製ポポトスープ",
+      "ko": "포포토 냉국"
     }
   },
   {
@@ -400,7 +428,8 @@
       "de": "Rolanbeeren-Käsekuchen",
       "en": "Rolanberry Cheesecake",
       "fr": "Gâteau au fromage à la rolanbaie",
-      "ja": "ロランベリーチーズケーキ"
+      "ja": "ロランベリーチーズケーキ",
+      "ko": "롤란베리 치즈 케이크"
     }
   },
   {
@@ -412,7 +441,8 @@
       "de": "Rolanbeeren-Käsekuchen",
       "en": "Rolanberry Cheesecake",
       "fr": "Gâteau au fromage à la rolanbaie",
-      "ja": "ロランベリーチーズケーキ"
+      "ja": "ロランベリーチーズケーキ",
+      "ko": "롤란베리 치즈 케이크"
     }
   },
   {
@@ -424,7 +454,8 @@
       "de": "Gebratener Mahi-Mahi",
       "en": "Pan-fried Mahi-Mahi",
       "fr": "Mahi-mahi frit",
-      "ja": "マヒマヒの揚げ焼き"
+      "ja": "マヒマヒの揚げ焼き",
+      "ko": "마히마히 구이"
     }
   },
   {
@@ -436,7 +467,8 @@
       "de": "Gebratener Mahi-Mahi",
       "en": "Pan-fried Mahi-Mahi",
       "fr": "Mahi-mahi frit",
-      "ja": "マヒマヒの揚げ焼き"
+      "ja": "マヒマヒの揚げ焼き",
+      "ko": "마히마히 구이"
     }
   },
   {
@@ -448,7 +480,8 @@
       "de": "Bouillabaisse",
       "en": "Bouillabaisse",
       "fr": "Bouillabaisse",
-      "ja": "ブイヤベース"
+      "ja": "ブイヤベース",
+      "ko": "해물 수프"
     }
   },
   {
@@ -460,7 +493,8 @@
       "de": "Bouillabaisse",
       "en": "Bouillabaisse",
       "fr": "Bouillabaisse",
-      "ja": "ブイヤベース"
+      "ja": "ブイヤベース",
+      "ko": "해물 수프"
     }
   },
   {
@@ -472,7 +506,8 @@
       "de": "Dolchfisch-Suppe",
       "en": "Dagger Soup",
       "fr": "Soupe de dagues",
-      "ja": "ダガースープ"
+      "ja": "ダガースープ",
+      "ko": "단검 수프"
     }
   },
   {
@@ -484,7 +519,8 @@
       "de": "Dolchfisch-Suppe",
       "en": "Dagger Soup",
       "fr": "Soupe de dagues",
-      "ja": "ダガースープ"
+      "ja": "ダガースープ",
+      "ko": "단검 수프"
     }
   },
   {
@@ -496,7 +532,8 @@
       "de": "Rolanbeeren-Lassi",
       "en": "Rolanberry Lassi",
       "fr": "Lassi à la rolanbaie",
-      "ja": "ロランベリーラッシー"
+      "ja": "ロランベリーラッシー",
+      "ko": "롤란베리 라씨"
     }
   },
   {
@@ -508,7 +545,8 @@
       "de": "Rolanbeeren-Lassi",
       "en": "Rolanberry Lassi",
       "fr": "Lassi à la rolanbaie",
-      "ja": "ロランベリーラッシー"
+      "ja": "ロランベリーラッシー",
+      "ko": "롤란베리 라씨"
     }
   },
   {
@@ -520,7 +558,8 @@
       "de": "Fischsuppe",
       "en": "Fish Soup",
       "fr": "Soupe de poisson",
-      "ja": "フィッシュスープ"
+      "ja": "フィッシュスープ",
+      "ko": "생선 수프"
     }
   },
   {
@@ -532,7 +571,8 @@
       "de": "Fischsuppe",
       "en": "Fish Soup",
       "fr": "Soupe de poisson",
-      "ja": "フィッシュスープ"
+      "ja": "フィッシュスープ",
+      "ko": "생선 수프"
     }
   },
   {
@@ -544,7 +584,8 @@
       "de": "Dorsch im Schlafrock",
       "en": "Salt Cod Puffs",
       "fr": "Choux à la morue salée",
-      "ja": "ソルトコッドパフ"
+      "ja": "ソルトコッドパフ",
+      "ko": "대구절임 완자"
     }
   },
   {
@@ -556,7 +597,8 @@
       "de": "Dorsch im Schlafrock",
       "en": "Salt Cod Puffs",
       "fr": "Choux à la morue salée",
-      "ja": "ソルトコッドパフ"
+      "ja": "ソルトコッドパフ",
+      "ko": "대구절임 완자"
     }
   },
   {
@@ -568,7 +610,8 @@
       "de": "Käseauflauf",
       "en": "Cheese Souffle",
       "fr": "Soufflé au fromage",
-      "ja": "チーズスフレ"
+      "ja": "チーズスフレ",
+      "ko": "치즈 수플레"
     }
   },
   {
@@ -580,7 +623,8 @@
       "de": "Käseauflauf",
       "en": "Cheese Souffle",
       "fr": "Soufflé au fromage",
-      "ja": "チーズスフレ"
+      "ja": "チーズスフレ",
+      "ko": "치즈 수플레"
     }
   },
   {
@@ -592,7 +636,8 @@
       "de": "Cawl Cennin",
       "en": "Cawl Cennin",
       "fr": "Bouillon de poireaux",
-      "ja": "カウルケニン"
+      "ja": "カウルケニン",
+      "ko": "파 크림 수프"
     }
   },
   {
@@ -604,7 +649,8 @@
       "de": "Cawl Cennin",
       "en": "Cawl Cennin",
       "fr": "Bouillon de poireaux",
-      "ja": "カウルケニン"
+      "ja": "カウルケニン",
+      "ko": "파 크림 수프"
     }
   },
   {
@@ -616,7 +662,8 @@
       "de": "Thunfisch-Miqo'Kebab",
       "en": "Tuna Miq'abob",
       "fr": "Miqo-brochette de thon",
-      "ja": "ミコッテ風海の幸串焼"
+      "ja": "ミコッテ風海の幸串焼",
+      "ko": "미코테식 해물산적"
     }
   },
   {
@@ -628,7 +675,8 @@
       "de": "Thunfisch-Miqo'Kebab",
       "en": "Tuna Miq'abob",
       "fr": "Miqo-brochette de thon",
-      "ja": "ミコッテ風海の幸串焼"
+      "ja": "ミコッテ風海の幸串焼",
+      "ko": "미코테식 해물산적"
     }
   },
   {
@@ -640,7 +688,8 @@
       "de": "Gebratene Seezunge",
       "en": "Baked Sole",
       "fr": "Sole au four",
-      "ja": "ベイクドソール"
+      "ja": "ベイクドソール",
+      "ko": "가자미구이"
     }
   },
   {
@@ -652,7 +701,8 @@
       "de": "Gebratene Seezunge",
       "en": "Baked Sole",
       "fr": "Sole au four",
-      "ja": "ベイクドソール"
+      "ja": "ベイクドソール",
+      "ko": "가자미구이"
     }
   },
   {
@@ -664,7 +714,8 @@
       "de": "Käserisotto",
       "en": "Cheese Risotto",
       "fr": "Risotto au fromage",
-      "ja": "チーズリゾット"
+      "ja": "チーズリゾット",
+      "ko": "치즈 리소토"
     }
   },
   {
@@ -676,7 +727,8 @@
       "de": "Käserisotto",
       "en": "Cheese Risotto",
       "fr": "Risotto au fromage",
-      "ja": "チーズリゾット"
+      "ja": "チーズリゾット",
+      "ko": "치즈 리소토"
     }
   },
   {
@@ -688,7 +740,8 @@
       "de": "Gekochte Brasse",
       "en": "Boiled Bream",
       "fr": "Brème bouillie",
-      "ja": "ボイルドブリーム"
+      "ja": "ボイルドブリーム",
+      "ko": "삶은 도미"
     }
   },
   {
@@ -700,7 +753,8 @@
       "de": "Gekochte Brasse",
       "en": "Boiled Bream",
       "fr": "Brème bouillie",
-      "ja": "ボイルドブリーム"
+      "ja": "ボイルドブリーム",
+      "ko": "삶은 도미"
     }
   },
   {
@@ -712,7 +766,8 @@
       "de": "Erbsensuppe",
       "en": "Pea Soup",
       "fr": "Soupe de pois",
-      "ja": "ピースープ"
+      "ja": "ピースープ",
+      "ko": "완두콩 수프"
     }
   },
   {
@@ -724,7 +779,8 @@
       "de": "Erbsensuppe",
       "en": "Pea Soup",
       "fr": "Soupe de pois",
-      "ja": "ピースープ"
+      "ja": "ピースープ",
+      "ko": "완두콩 수프"
     }
   },
   {
@@ -736,7 +792,8 @@
       "de": "Toffelbrei",
       "en": "Mashed Popotoes",
       "fr": "Purée de popotos",
-      "ja": "マッシュポポト"
+      "ja": "マッシュポポト",
+      "ko": "으깬 포포토"
     }
   },
   {
@@ -748,7 +805,8 @@
       "de": "Toffelbrei",
       "en": "Mashed Popotoes",
       "fr": "Purée de popotos",
-      "ja": "マッシュポポト"
+      "ja": "マッシュポポト",
+      "ko": "으깬 포포토"
     }
   },
   {
@@ -760,7 +818,8 @@
       "de": "Steinsuppe",
       "en": "Stone Soup",
       "fr": "Soupe de pierre",
-      "ja": "ストーンスープ"
+      "ja": "ストーンスープ",
+      "ko": "돌국"
     }
   },
   {
@@ -772,7 +831,8 @@
       "de": "Steinsuppe",
       "en": "Stone Soup",
       "fr": "Soupe de pierre",
-      "ja": "ストーンスープ"
+      "ja": "ストーンスープ",
+      "ko": "돌국"
     }
   },
   {
@@ -784,7 +844,8 @@
       "de": "Rohe Auster",
       "en": "Raw Oyster",
       "fr": "Huître crue",
-      "ja": "ローオイスター"
+      "ja": "ローオイスター",
+      "ko": "생굴"
     }
   },
   {
@@ -796,7 +857,8 @@
       "de": "Rohe Auster",
       "en": "Raw Oyster",
       "fr": "Huître crue",
-      "ja": "ローオイスター"
+      "ja": "ローオイスター",
+      "ko": "생굴"
     }
   },
   {
@@ -808,7 +870,8 @@
       "de": "Minz-Lassi",
       "en": "Mint Lassi",
       "fr": "Lassi à la menthe",
-      "ja": "ミントラッシー"
+      "ja": "ミントラッシー",
+      "ko": "박하 라씨"
     }
   },
   {
@@ -820,7 +883,8 @@
       "de": "Minz-Lassi",
       "en": "Mint Lassi",
       "fr": "Lassi à la menthe",
-      "ja": "ミントラッシー"
+      "ja": "ミントラッシー",
+      "ko": "박하 라씨"
     }
   },
   {
@@ -832,7 +896,8 @@
       "de": "Salzdorsch",
       "en": "Salt Cod",
       "fr": "Morue salée",
-      "ja": "ソルトコッド"
+      "ja": "ソルトコッド",
+      "ko": "대구절임"
     }
   },
   {
@@ -844,7 +909,8 @@
       "de": "Salzdorsch",
       "en": "Salt Cod",
       "fr": "Morue salée",
-      "ja": "ソルトコッド"
+      "ja": "ソルトコッド",
+      "ko": "대구절임"
     }
   },
   {
@@ -856,7 +922,8 @@
       "de": "Frumenty",
       "en": "Frumenty",
       "fr": "Fromentée",
-      "ja": "フルメンティ"
+      "ja": "フルメンティ",
+      "ko": "우유 밀죽"
     }
   },
   {
@@ -868,7 +935,8 @@
       "de": "Frumenty",
       "en": "Frumenty",
       "fr": "Fromentée",
-      "ja": "フルメンティ"
+      "ja": "フルメンティ",
+      "ko": "우유 밀죽"
     }
   }
 ]
