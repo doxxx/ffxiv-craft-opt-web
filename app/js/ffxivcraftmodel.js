@@ -73,67 +73,58 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     var baseProgress = 0;
     var levelCorrectionFactor = 0;
     var levelCorrectedProgress = 0;
+    var recipeLevelPenalty = 0;
 
-    if (crafterLevel >= 260) {
-        baseProgress = 1.834712812e-5 * craftsmanship * craftsmanship + 1.904074773e-1 * craftsmanship + 1.544103837;
-    }
-    else if (crafterLevel >= 120) {
-        baseProgress = 2.09860e-5 * craftsmanship * craftsmanship + 0.196184 * craftsmanship + 2.68452;
-    }
-    else if (crafterLevel < 120) {
-        baseProgress = 0.214959 * craftsmanship + 1.6;
-    }
+    baseProgress = 1.834712812e-5 * craftsmanship * craftsmanship + 1.904074773e-1 * craftsmanship + 1.544103837;
 
     // Level boost for recipes below crafter level
     if (levelDifference > 0) {
-        levelCorrectionFactor += 0.05 * Math.min(levelDifference, 5);
+        levelCorrectionFactor += (0.25 / 5) * Math.min(levelDifference, 5);
     }
     if (levelDifference > 5) {
-        levelCorrectionFactor += 0.02 * Math.min(levelDifference - 5, 10);
+        levelCorrectionFactor += (0.10 / 5) * Math.min(levelDifference - 5, 10);
     }
     if (levelDifference > 15) {
-        levelCorrectionFactor += 0.01 * Math.min(levelDifference - 15, 5);
+        levelCorrectionFactor += (0.05 / 5) * Math.min(levelDifference - 15, 5);
     }
     if (levelDifference > 20) {
-        levelCorrectionFactor += 0.0006 * (levelDifference - 20);
+        levelCorrectionFactor += (0.04 / 60) * (levelDifference - 20);
     }
 
     // Level penalty for recipes above crafter level
     // Seems to be capped at -10
     if (levelDifference < 0) {
         levelCorrectionFactor += 0.025 * Math.max(levelDifference, -10);
+        if (ProgressPenaltyTable[recipeLevel]) {
+            recipeLevelPenalty += ProgressPenaltyTable[recipeLevel];
+        }
     }
 
-    levelCorrectedProgress = (1 + levelCorrectionFactor) * baseProgress;
+    levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor) * (1 + recipeLevelPenalty);
 
     return levelCorrectedProgress;
 };
 
 Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, crafterLevel, recipeLevel) {
     var baseQuality = 0;
-    var recipeLevelFactor = 0;
+    var recipeLevelPenalty = 0;
     var levelCorrectionFactor = 0;
     var levelCorrectedQuality = 0;
-    if (recipeLevel >= 255) {
-        baseQuality = 3.38411e-05 * control * control + 0.340191324 * control + 33.85116443;
 
-        recipeLevelFactor = -0.0002122 * recipeLevel;
-    }
-    else if (recipeLevel >= 115) {
-        baseQuality = 3.3506479e-5 * control * control + 0.339276958 * control + 32.97846477;
-
-        recipeLevelFactor = 3.4e-4 * (115 - recipeLevel);
-    }
-    else {
-        baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
+    for (var penaltyLevel in QualityPenaltyTable) {
+        var penaltyValue = QualityPenaltyTable[penaltyLevel];
+        if (recipeLevel >= penaltyLevel && penaltyValue < recipeLevelPenalty) {
+              recipeLevelPenalty = penaltyValue;
+        }
     }
 
-    // Level penalty for recipes above crafter level
+    baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
+
     if (levelDifference < 0) {
         levelCorrectionFactor = 0.05 * Math.max(levelDifference, -10);
     }
 
-    levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor) * (1 + recipeLevelFactor);
+    levelCorrectedQuality = baseQuality * (1 + levelCorrectionFactor) * (1 + recipeLevelPenalty);
 
     return levelCorrectedQuality;
 };
@@ -295,7 +286,7 @@ function ApplyModifiers(s, action, condition) {
         }
 
         if (levelDifference < 0) {
-            levelDifference = Math.max(levelDifference, -5);
+            levelDifference = Math.max(levelDifference, -6);
         }
     }
 
@@ -1798,37 +1789,39 @@ var Ing1RecipeLevelTable = {
     49: 44,
     50: 45,
     55: 50,     // 50_1star     *** unverified
-    70: 50,     // 50_2star     *** unverified
+    70: 51,     // 50_2star     *** unverified
     90: 58,     // 50_3star     *** unverified
-    110: 58,    // 50_4star     *** unverified
+    110: 59,    // 50_4star     *** unverified
     115: 100,   // 51 @ 169/339 difficulty
-    120: 100,   // 51 @ 210/410 difficulty
-    125: 100,   // 52
+    120: 101,   // 51 @ 210/410 difficulty
+    125: 102,   // 52
     130: 110,   // 53
-    133: 110,   // 54
-    136: 110,   // 55
-    139: 124,   // 56
-    142: 129.5, // 57
-    145: 134.5, // 58
-    148: 139,   // 59
+    133: 111,   // 54
+    136: 112,   // 55
+    139: 126,   // 56
+    142: 131,   // 57
+    145: 134,   // 58
+    148: 137,   // 59
     150: 140,   // 60
     160: 151,   // 60_1star
-    170: 152.085, // 60_2star
-    180: 153.185, // 60_3star
-    190: 154.275, // 60_4star
-    255: 240,   // 61
-    260: 240,   // 61
-    265: 240,   // 62
+    180: 152,   // 60_2star
+    210: 153,   // 60_3star
+    220: 153,   // 60_3star
+    250: 154,   // 60_4star
+    255: 238,   // 61 @ 558/1116 difficulty
+    260: 240,   // 61 @ 700/1400 difficulty
+    265: 242,   // 62
     270: 250,   // 63
-    273: 250,   // 64
-    276: 250,   // 65
-    279: 264,   // 66
-    282: 269.5, // 67
-    285: 274.5, // 68
-    288: 279,   // 69
+    273: 251,   // 64
+    276: 252,   // 65
+    279: 266,   // 66
+    282: 271,   // 67
+    285: 274,   // 68
+    288: 277,   // 69
     290: 280,   // 70
-    300: 291.185, // 70_1star
-    320: 292.75, // 70_2star
+    300: 291,   // 70_1star
+    320: 292,   // 70_2star
+    350: 293,   // 70_3star
 };
 
 var Ing2RecipeLevelTable = {
@@ -1844,37 +1837,39 @@ var Ing2RecipeLevelTable = {
     49: 41,
     50: 42,
     55: 47,     // 50_1star     *** unverified
-    70: 47,     // 50_2star     *** unverified
+    70: 48,     // 50_2star     *** unverified
     90: 56,     // 50_3star     *** unverified
-    110: 56,    // 50_4star     *** unverified
-    115: 100,   // 51 @ 169/339 difficulty
-    120: 100,   // 51 @ 210/410 difficulty
-    125: 100,   // 52
-    130: 110,   // 53
+    110: 57,    // 50_4star     *** unverified
+    115: 97,    // 51 @ 169/339 difficulty
+    120: 99,    // 51 @ 210/410 difficulty
+    125: 101,   // 52
+    130: 109,   // 53
     133: 110,   // 54
-    136: 110,   // 55
-    139: 124,   // 56
-    142: 129.5, // 57
+    136: 111,   // 55
+    139: 125,   // 56
+    142: 130,   // 57
     145: 133,   // 58
     148: 136,   // 59
     150: 139,   // 60
     160: 150,   // 60_1star
-    170: 151.115, // 60_2star
-    180: 152.215, // 60_3star
-    190: 153.305, // 60_4star
-    255: 240,   // 61 @ 210/410 difficulty
-    260: 240,   // 61 @ 210/410 difficulty
-    265: 240,   // 62
-    270: 250,   // 63
+    180: 151,   // 60_2star
+    210: 152,   // 60_3star
+    220: 152,   // 60_3star
+    250: 153,   // 60_4star
+    255: 237,   // 61 @ 558/1116 difficulty
+    260: 239,   // 61 @ 700/1400 difficulty
+    265: 241,   // 62
+    270: 249,   // 63
     273: 250,   // 64
-    276: 250,   // 65
-    279: 264,   // 66
-    282: 269.5, // 67
+    276: 251,   // 65
+    279: 265,   // 66
+    282: 270,   // 67
     285: 273,   // 68
     288: 276,   // 69
     290: 279,   // 70
     300: 290,   // 70_1star
-    320: 292,   // 70_2star
+    320: 291,   // 70_2star
+    350: 292,   // 70_3star
 };
 
 var NymeaisWheelTable = {
@@ -1889,6 +1884,30 @@ var NymeaisWheelTable = {
     9: 10,
     10: 10,
     11: 10
+}
+
+var ProgressPenaltyTable = {
+    160: -0.01,
+    180: -0.02,
+    210: -0.03,
+    220: -0.03,
+    250: -0.04,
+    300: -0.01,
+    320: -0.02,
+    350: -0.03,
+}
+
+var QualityPenaltyTable = {
+    55: -0.02,
+    90: -0.03,
+    115: -0.04,
+    160: -0.05,
+    180: -0.06,
+    210: -0.07,
+    250: -0.08,
+    300: -0.09,
+    320: -0.10,
+    350: -0.11,
 }
 
 // Test objects
