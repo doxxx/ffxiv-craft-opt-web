@@ -28,6 +28,7 @@
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "electron": "^1.7.11",
-    "electron-packager": "^10.1.2"
+    "electron-packager": "^10.1.2",
+    "electron-winstaller": "^2.6.4"
   }
 }
