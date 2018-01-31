@@ -20,6 +20,6 @@ function getInstallerConfig () {
     outputDirectory: path.join(outPath, 'windows-installer'),
     exe: 'ffxiv-craft-opt-app.exe',
     setupExe: 'FFXIVCraftingOpt.exe',
-    setupIcon: path.join(rootPath, 'icons', 'icon.ico')
+    setupIcon: path.join(rootPath, 'icon', 'icon.ico')
   })
 }
