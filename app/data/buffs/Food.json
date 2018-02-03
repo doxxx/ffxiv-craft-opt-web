@@ -7,6 +7,7 @@
     "hq": true,
     "ilvl": 290,
     "name": {
+      "cn": "清蒸赤点石斑鱼",
       "de": "Gedünsteter Zackenbarsch",
       "en": "Steamed Grouper",
       "fr": "Garoupa à l'étuvée",
@@ -22,6 +23,7 @@
     "hq": false,
     "ilvl": 290,
     "name": {
+      "cn": "清蒸赤点石斑鱼",
       "de": "Gedünsteter Zackenbarsch",
       "en": "Steamed Grouper",
       "fr": "Garoupa à l'étuvée",
@@ -37,6 +39,7 @@
     "hq": true,
     "ilvl": 279,
     "name": {
+      "cn": "暮晖牛肉汤",
       "de": "Kriegereintopf",
       "en": "Warrior's Stew",
       "fr": "Nogootoj shol",
@@ -52,6 +55,7 @@
     "hq": false,
     "ilvl": 279,
     "name": {
+      "cn": "暮晖牛肉汤",
       "de": "Kriegereintopf",
       "en": "Warrior's Stew",
       "fr": "Nogootoj shol",
@@ -67,6 +71,7 @@
     "hq": true,
     "ilvl": 279,
     "name": {
+      "cn": "天妇罗拼盘",
       "de": "Tempura-Platte",
       "en": "Tempura Platter",
       "fr": "Assortiment de tenpura",
@@ -82,6 +87,7 @@
     "hq": false,
     "ilvl": 279,
     "name": {
+      "cn": "天妇罗拼盘",
       "de": "Tempura-Platte",
       "en": "Tempura Platter",
       "fr": "Assortiment de tenpura",
@@ -97,6 +103,7 @@
     "hq": true,
     "ilvl": 273,
     "name": {
+      "cn": "豆腐味噌汁",
       "de": "Miso-Suppe mit Tofu",
       "en": "Miso Soup with Tofu",
       "fr": "Soupe miso au tôfu",
@@ -112,6 +119,7 @@
     "hq": false,
     "ilvl": 273,
     "name": {
+      "cn": "豆腐味噌汁",
       "de": "Miso-Suppe mit Tofu",
       "en": "Miso Soup with Tofu",
       "fr": "Soupe miso au tôfu",
@@ -120,15 +128,16 @@
     }
   },
   {
-    "cp_percent": 4,
-    "cp_value": 10,
     "control_percent": 9,
     "control_value": 77,
+    "cp_percent": 4,
+    "cp_value": 10,
     "craftsmanship_percent": 6,
     "craftsmanship_value": 53,
     "hq": true,
     "ilvl": 220,
     "name": {
+      "cn": "苍穹鸡蛋汤",
       "de": "Himmelseier-Suppe",
       "en": "Heavensegg Soup",
       "fr": "Soupe aux célestœufs",
@@ -137,15 +146,16 @@
     }
   },
   {
-    "cp_percent": 3,
-    "cp_value": 8,
     "control_percent": 7,
     "control_value": 62,
+    "cp_percent": 3,
+    "cp_value": 8,
     "craftsmanship_percent": 5,
     "craftsmanship_value": 42,
     "hq": false,
     "ilvl": 220,
     "name": {
+      "cn": "苍穹鸡蛋汤",
       "de": "Himmelseier-Suppe",
       "en": "Heavensegg Soup",
       "fr": "Soupe aux célestœufs",
@@ -161,6 +171,7 @@
     "hq": true,
     "ilvl": 180,
     "name": {
+      "cn": "油封牡蛎",
       "de": "Austern-Confit",
       "en": "Oyster Confit",
       "fr": "Huîtres confites",
@@ -176,6 +187,7 @@
     "hq": false,
     "ilvl": 180,
     "name": {
+      "cn": "油封牡蛎",
       "de": "Austern-Confit",
       "en": "Oyster Confit",
       "fr": "Huîtres confites",
@@ -184,13 +196,14 @@
     }
   },
   {
-    "cp_percent": 15,
-    "cp_value": 50,
     "control_percent": 5,
     "control_value": 31,
+    "cp_percent": 15,
+    "cp_value": 50,
     "hq": true,
     "ilvl": 160,
     "name": {
+      "cn": "炖番茄",
       "de": "Ishgarder Fischtopf",
       "en": "Seafood Stew",
       "fr": "Ragoût du pêcheur",
@@ -199,13 +212,14 @@
     }
   },
   {
-    "cp_percent": 12,
-    "cp_value": 40,
     "control_percent": 4,
     "control_value": 25,
+    "cp_percent": 12,
+    "cp_value": 40,
     "hq": false,
     "ilvl": 160,
     "name": {
+      "cn": "炖番茄",
       "de": "Ishgarder Fischtopf",
       "en": "Seafood Stew",
       "fr": "Ragoût du pêcheur",
@@ -214,13 +228,14 @@
     }
   },
   {
-    "cp_percent": 5,
-    "cp_value": 19,
     "control_percent": 12,
     "control_value": 73,
+    "cp_percent": 5,
+    "cp_value": 19,
     "hq": true,
     "ilvl": 150,
     "name": {
+      "cn": "鲜贝羹",
       "de": "Muschelsuppe",
       "en": "Clam Chowder",
       "fr": "Chaudrée de palourdes",
@@ -229,13 +244,14 @@
     }
   },
   {
-    "cp_percent": 4,
-    "cp_value": 15,
     "control_percent": 10,
     "control_value": 58,
+    "cp_percent": 4,
+    "cp_value": 15,
     "hq": false,
     "ilvl": 150,
     "name": {
+      "cn": "鲜贝羹",
       "de": "Muschelsuppe",
       "en": "Clam Chowder",
       "fr": "Chaudrée de palourdes",
@@ -251,6 +267,7 @@
     "hq": true,
     "ilvl": 139,
     "name": {
+      "cn": "绿宝石汤",
       "de": "Emeraldgrüne Bohnensuppe",
       "en": "Emerald Soup",
       "fr": "Soupe émeraude",
@@ -266,6 +283,7 @@
     "hq": false,
     "ilvl": 139,
     "name": {
+      "cn": "绿宝石汤",
       "de": "Emeraldgrüne Bohnensuppe",
       "en": "Emerald Soup",
       "fr": "Soupe émeraude",
@@ -281,6 +299,7 @@
     "hq": true,
     "ilvl": 133,
     "name": {
+      "cn": "洛夫坦山羊汤",
       "de": "Purpurrote Bete-Suppe",
       "en": "Beet Soup",
       "fr": "Soupe pourpre",
@@ -296,6 +315,7 @@
     "hq": false,
     "ilvl": 133,
     "name": {
+      "cn": "洛夫坦山羊汤",
       "de": "Purpurrote Bete-Suppe",
       "en": "Beet Soup",
       "fr": "Soupe pourpre",
@@ -311,6 +331,7 @@
     "hq": true,
     "ilvl": 125,
     "name": {
+      "cn": "洋葱焗奶油汤",
       "de": "Überbackene Zwiebelsuppe",
       "en": "Baked Onion Soup",
       "fr": "Soupe à l'oignon",
@@ -326,6 +347,7 @@
     "hq": false,
     "ilvl": 125,
     "name": {
+      "cn": "洋葱焗奶油汤",
       "de": "Überbackene Zwiebelsuppe",
       "en": "Baked Onion Soup",
       "fr": "Soupe à l'oignon",
@@ -339,11 +361,12 @@
     "hq": true,
     "ilvl": 110,
     "name": {
+      "cn": "Better Crowned Pie",
       "de": "Königskuchen",
       "en": "Better Crowned Pie",
       "fr": "Galette des rois spéciale",
       "ja": "秘製ガレット・デ・ロワ",
-      "ko": "특제 왕관 파이"
+      "ko": "Better Crowned Pie"
     }
   },
   {
@@ -352,11 +375,12 @@
     "hq": false,
     "ilvl": 110,
     "name": {
+      "cn": "Better Crowned Pie",
       "de": "Königskuchen",
       "en": "Better Crowned Pie",
       "fr": "Galette des rois spéciale",
       "ja": "秘製ガレット・デ・ロワ",
-      "ko": "특제 왕관 파이"
+      "ko": "Better Crowned Pie"
     }
   },
   {
@@ -367,6 +391,7 @@
     "hq": true,
     "ilvl": 90,
     "name": {
+      "cn": "鱼翅汤",
       "de": "Haifischflossensuppe",
       "en": "Shark Fin Soup",
       "fr": "Soupe d'aileron",
@@ -382,6 +407,7 @@
     "hq": false,
     "ilvl": 90,
     "name": {
+      "cn": "鱼翅汤",
       "de": "Haifischflossensuppe",
       "en": "Shark Fin Soup",
       "fr": "Soupe d'aileron",
@@ -397,6 +423,7 @@
     "hq": true,
     "ilvl": 70,
     "name": {
+      "cn": "新薯冷汤",
       "de": "Kalte Toffelsuppe",
       "en": "Chilled Popoto Soup",
       "fr": "Soupe de popotos glacée",
@@ -412,6 +439,7 @@
     "hq": false,
     "ilvl": 70,
     "name": {
+      "cn": "新薯冷汤",
       "de": "Kalte Toffelsuppe",
       "en": "Chilled Popoto Soup",
       "fr": "Soupe de popotos glacée",
@@ -425,6 +453,7 @@
     "hq": true,
     "ilvl": 55,
     "name": {
+      "cn": "罗兰莓奶酪蛋糕",
       "de": "Rolanbeeren-Käsekuchen",
       "en": "Rolanberry Cheesecake",
       "fr": "Gâteau au fromage à la rolanbaie",
@@ -438,6 +467,7 @@
     "hq": false,
     "ilvl": 55,
     "name": {
+      "cn": "罗兰莓奶酪蛋糕",
       "de": "Rolanbeeren-Käsekuchen",
       "en": "Rolanberry Cheesecake",
       "fr": "Gâteau au fromage à la rolanbaie",
@@ -451,6 +481,7 @@
     "hq": true,
     "ilvl": 55,
     "name": {
+      "cn": "油炸鲯鳅块",
       "de": "Gebratener Mahi-Mahi",
       "en": "Pan-fried Mahi-Mahi",
       "fr": "Mahi-mahi frit",
@@ -464,6 +495,7 @@
     "hq": false,
     "ilvl": 55,
     "name": {
+      "cn": "油炸鲯鳅块",
       "de": "Gebratener Mahi-Mahi",
       "en": "Pan-fried Mahi-Mahi",
       "fr": "Mahi-mahi frit",
@@ -477,6 +509,7 @@
     "hq": true,
     "ilvl": 55,
     "name": {
+      "cn": "五海杂烩汤",
       "de": "Bouillabaisse",
       "en": "Bouillabaisse",
       "fr": "Bouillabaisse",
@@ -490,6 +523,7 @@
     "hq": false,
     "ilvl": 55,
     "name": {
+      "cn": "五海杂烩汤",
       "de": "Bouillabaisse",
       "en": "Bouillabaisse",
       "fr": "Bouillabaisse",
@@ -503,6 +537,7 @@
     "hq": true,
     "ilvl": 50,
     "name": {
+      "cn": "海神汤",
       "de": "Dolchfisch-Suppe",
       "en": "Dagger Soup",
       "fr": "Soupe de dagues",
@@ -516,6 +551,7 @@
     "hq": false,
     "ilvl": 50,
     "name": {
+      "cn": "海神汤",
       "de": "Dolchfisch-Suppe",
       "en": "Dagger Soup",
       "fr": "Soupe de dagues",
@@ -529,6 +565,7 @@
     "hq": true,
     "ilvl": 46,
     "name": {
+      "cn": "罗兰莓酸奶昔",
       "de": "Rolanbeeren-Lassi",
       "en": "Rolanberry Lassi",
       "fr": "Lassi à la rolanbaie",
@@ -542,6 +579,7 @@
     "hq": false,
     "ilvl": 46,
     "name": {
+      "cn": "罗兰莓酸奶昔",
       "de": "Rolanbeeren-Lassi",
       "en": "Rolanberry Lassi",
       "fr": "Lassi à la rolanbaie",
@@ -555,6 +593,7 @@
     "hq": true,
     "ilvl": 43,
     "name": {
+      "cn": "白鱼汤",
       "de": "Fischsuppe",
       "en": "Fish Soup",
       "fr": "Soupe de poisson",
@@ -568,6 +607,7 @@
     "hq": false,
     "ilvl": 43,
     "name": {
+      "cn": "白鱼汤",
       "de": "Fischsuppe",
       "en": "Fish Soup",
       "fr": "Soupe de poisson",
@@ -581,6 +621,7 @@
     "hq": true,
     "ilvl": 42,
     "name": {
+      "cn": "油炸盐渍鳕鱼丸",
       "de": "Dorsch im Schlafrock",
       "en": "Salt Cod Puffs",
       "fr": "Choux à la morue salée",
@@ -594,6 +635,7 @@
     "hq": false,
     "ilvl": 42,
     "name": {
+      "cn": "油炸盐渍鳕鱼丸",
       "de": "Dorsch im Schlafrock",
       "en": "Salt Cod Puffs",
       "fr": "Choux à la morue salée",
@@ -607,6 +649,7 @@
     "hq": true,
     "ilvl": 36,
     "name": {
+      "cn": "奶酪蛋奶酥",
       "de": "Käseauflauf",
       "en": "Cheese Souffle",
       "fr": "Soufflé au fromage",
@@ -620,6 +663,7 @@
     "hq": false,
     "ilvl": 36,
     "name": {
+      "cn": "奶酪蛋奶酥",
       "de": "Käseauflauf",
       "en": "Cheese Souffle",
       "fr": "Soufflé au fromage",
@@ -633,6 +677,7 @@
     "hq": true,
     "ilvl": 34,
     "name": {
+      "cn": "韭菜洋葱汤",
       "de": "Cawl Cennin",
       "en": "Cawl Cennin",
       "fr": "Bouillon de poireaux",
@@ -646,6 +691,7 @@
     "hq": false,
     "ilvl": 34,
     "name": {
+      "cn": "韭菜洋葱汤",
       "de": "Cawl Cennin",
       "en": "Cawl Cennin",
       "fr": "Bouillon de poireaux",
@@ -659,6 +705,7 @@
     "hq": true,
     "ilvl": 32,
     "name": {
+      "cn": "猫魅风味海产烤串",
       "de": "Thunfisch-Miqo'Kebab",
       "en": "Tuna Miq'abob",
       "fr": "Miqo-brochette de thon",
@@ -672,6 +719,7 @@
     "hq": false,
     "ilvl": 32,
     "name": {
+      "cn": "猫魅风味海产烤串",
       "de": "Thunfisch-Miqo'Kebab",
       "en": "Tuna Miq'abob",
       "fr": "Miqo-brochette de thon",
@@ -685,6 +733,7 @@
     "hq": true,
     "ilvl": 29,
     "name": {
+      "cn": "烤黑鳎",
       "de": "Gebratene Seezunge",
       "en": "Baked Sole",
       "fr": "Sole au four",
@@ -698,6 +747,7 @@
     "hq": false,
     "ilvl": 29,
     "name": {
+      "cn": "烤黑鳎",
       "de": "Gebratene Seezunge",
       "en": "Baked Sole",
       "fr": "Sole au four",
@@ -711,6 +761,7 @@
     "hq": true,
     "ilvl": 27,
     "name": {
+      "cn": "奶酪烩饭",
       "de": "Käserisotto",
       "en": "Cheese Risotto",
       "fr": "Risotto au fromage",
@@ -724,6 +775,7 @@
     "hq": false,
     "ilvl": 27,
     "name": {
+      "cn": "奶酪烩饭",
       "de": "Käserisotto",
       "en": "Cheese Risotto",
       "fr": "Risotto au fromage",
@@ -737,6 +789,7 @@
     "hq": true,
     "ilvl": 27,
     "name": {
+      "cn": "水煮鲷鱼",
       "de": "Gekochte Brasse",
       "en": "Boiled Bream",
       "fr": "Brème bouillie",
@@ -750,6 +803,7 @@
     "hq": false,
     "ilvl": 27,
     "name": {
+      "cn": "水煮鲷鱼",
       "de": "Gekochte Brasse",
       "en": "Boiled Bream",
       "fr": "Brème bouillie",
@@ -763,6 +817,7 @@
     "hq": true,
     "ilvl": 26,
     "name": {
+      "cn": "翡翠豆汤",
       "de": "Erbsensuppe",
       "en": "Pea Soup",
       "fr": "Soupe de pois",
@@ -776,6 +831,7 @@
     "hq": false,
     "ilvl": 26,
     "name": {
+      "cn": "翡翠豆汤",
       "de": "Erbsensuppe",
       "en": "Pea Soup",
       "fr": "Soupe de pois",
@@ -789,6 +845,7 @@
     "hq": true,
     "ilvl": 18,
     "name": {
+      "cn": "新薯泥",
       "de": "Toffelbrei",
       "en": "Mashed Popotoes",
       "fr": "Purée de popotos",
@@ -802,6 +859,7 @@
     "hq": false,
     "ilvl": 18,
     "name": {
+      "cn": "新薯泥",
       "de": "Toffelbrei",
       "en": "Mashed Popotoes",
       "fr": "Purée de popotos",
@@ -815,6 +873,7 @@
     "hq": true,
     "ilvl": 17,
     "name": {
+      "cn": "石子汤",
       "de": "Steinsuppe",
       "en": "Stone Soup",
       "fr": "Soupe de pierre",
@@ -828,6 +887,7 @@
     "hq": false,
     "ilvl": 17,
     "name": {
+      "cn": "石子汤",
       "de": "Steinsuppe",
       "en": "Stone Soup",
       "fr": "Soupe de pierre",
@@ -841,6 +901,7 @@
     "hq": true,
     "ilvl": 17,
     "name": {
+      "cn": "生鲜牡蛎",
       "de": "Rohe Auster",
       "en": "Raw Oyster",
       "fr": "Huître crue",
@@ -854,6 +915,7 @@
     "hq": false,
     "ilvl": 17,
     "name": {
+      "cn": "生鲜牡蛎",
       "de": "Rohe Auster",
       "en": "Raw Oyster",
       "fr": "Huître crue",
@@ -867,6 +929,7 @@
     "hq": true,
     "ilvl": 10,
     "name": {
+      "cn": "薄荷酸奶昔",
       "de": "Minz-Lassi",
       "en": "Mint Lassi",
       "fr": "Lassi à la menthe",
@@ -880,6 +943,7 @@
     "hq": false,
     "ilvl": 10,
     "name": {
+      "cn": "薄荷酸奶昔",
       "de": "Minz-Lassi",
       "en": "Mint Lassi",
       "fr": "Lassi à la menthe",
@@ -893,6 +957,7 @@
     "hq": true,
     "ilvl": 9,
     "name": {
+      "cn": "盐渍鳕鱼",
       "de": "Salzdorsch",
       "en": "Salt Cod",
       "fr": "Morue salée",
@@ -906,6 +971,7 @@
     "hq": false,
     "ilvl": 9,
     "name": {
+      "cn": "盐渍鳕鱼",
       "de": "Salzdorsch",
       "en": "Salt Cod",
       "fr": "Morue salée",
@@ -919,6 +985,7 @@
     "hq": true,
     "ilvl": 4,
     "name": {
+      "cn": "羊奶麦粥",
       "de": "Frumenty",
       "en": "Frumenty",
       "fr": "Fromentée",
@@ -932,6 +999,7 @@
     "hq": false,
     "ilvl": 4,
     "name": {
+      "cn": "羊奶麦粥",
       "de": "Frumenty",
       "en": "Frumenty",
       "fr": "Fromentée",
