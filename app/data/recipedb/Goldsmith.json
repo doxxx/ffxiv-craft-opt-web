@@ -936,72 +936,12 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma",
-      "en": "Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage (orfèvrerie)",
-      "ja": "ミラージュプリズム:ゴールドワーク",
-      "ko": "환상의 프리즘: 보석"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "2级雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage II (orfèvrerie)",
-      "ja": "ミラージュプリズムG2:ゴールドワーク",
-      "ko": "2등급 환상의 프리즘: 보석"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "3级雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage III (orfèvrerie)",
-      "ja": "ミラージュプリズムG3:ゴールドワーク",
-      "ko": "3등급 환상의 프리즘: 보석"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "4级雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage IV (orfèvrerie)",
-      "ja": "ミラージュプリズムG4:ゴールドワーク",
-      "ko": "4등급 환상의 프리즘: 보석"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "5级雕金幻象棱晶",
-      "de": "Goldschmiede-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Goldsmithing)",
-      "fr": "Prisme mirage V (orfèvrerie)",
-      "ja": "ミラージュプリズムG5:ゴールドワーク",
-      "ko": "5등급 환상의 프리즘: 보석"
+      "cn": "Glamour Prism",
+      "de": "Projektionsprisma",
+      "en": "Glamour Prism",
+      "fr": "Prisme mirage",
+      "ja": "ミラージュプリズム",
+      "ko": "Glamour Prism"
     }
   },
   {
@@ -3735,6 +3675,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -5490,6 +5431,7 @@
     }
   },
   {
+    "aspect": "Fire",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -6829,6 +6771,7 @@
     "stars": 1
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 351,
     "durability": 80,
@@ -6909,6 +6852,7 @@
     "stars": 1
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 351,
     "durability": 80,
@@ -7261,6 +7205,7 @@
     "stars": 1
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 351,
     "durability": 80,
@@ -7694,22 +7639,6 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 233,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2921,
-    "name": {
-      "cn": "飞空艇修理材料",
-      "de": "Luftschiff-Reparaturkit",
-      "en": "Airship Repair Materials",
-      "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材",
-      "ko": "비공정 수리재"
-    },
-    "stars": 2
-  },
-  {
-    "baseLevel": 50,
     "difficulty": 745,
     "durability": 80,
     "level": 70,
@@ -7805,6 +7734,7 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -7902,6 +7832,22 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "cn": "Magitek Repair Materials",
+      "de": "Magitek-Reparaturkit",
+      "en": "Magitek Repair Materials",
+      "fr": "Kit de réparation d'appareil",
+      "ja": "魔導機械修理材",
+      "ko": "Magitek Repair Materials"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 745,
     "durability": 80,
     "level": 70,
@@ -7981,6 +7927,7 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -8253,6 +8200,7 @@
     "stars": 2
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -8589,6 +8537,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -8605,6 +8554,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -8621,6 +8571,7 @@
     "stars": 3
   },
   {
+    "aspect": "Ice",
     "baseLevel": 50,
     "difficulty": 801,
     "durability": 80,
@@ -8637,6 +8588,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -8653,6 +8605,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -8669,6 +8622,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -8685,6 +8639,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -8797,6 +8752,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -8861,6 +8817,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9133,6 +9090,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9149,6 +9107,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9165,6 +9124,7 @@
     "stars": 3
   },
   {
+    "aspect": "Ice",
     "baseLevel": 50,
     "difficulty": 1054,
     "durability": 80,
@@ -9181,6 +9141,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -9197,6 +9158,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -9213,6 +9175,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -11692,7 +11655,7 @@
     "maxQuality": 7339,
     "name": {
       "cn": "黄水晶",
-      "de": "Zitrin",
+      "de": "Citrin",
       "en": "Citrine",
       "fr": "Citrine",
       "ja": "シトリン",
@@ -11707,7 +11670,7 @@
     "maxQuality": 7339,
     "name": {
       "cn": "黄水晶精准项环",
-      "de": "Zitrin-Halsberge des Zielens",
+      "de": "Citrin-Halsberge des Zielens",
       "en": "Citrine Choker of Aiming",
       "fr": "Ras de cou de pisteur en citrine",
       "ja": "シトリンレンジャーチョーカー",
@@ -11722,7 +11685,7 @@
     "maxQuality": 7339,
     "name": {
       "cn": "黄水晶咏咒项环",
-      "de": "Zitrin-Halsberge der Magie",
+      "de": "Citrin-Halsberge der Magie",
       "en": "Citrine Choker of Casting",
       "fr": "Ras de cou d'incantateur en citrine",
       "ja": "シトリンキャスターチョーカー",
@@ -11737,7 +11700,7 @@
     "maxQuality": 7339,
     "name": {
       "cn": "黄水晶御敌项环",
-      "de": "Zitrin-Halsberge der Verteidigung",
+      "de": "Citrin-Halsberge der Verteidigung",
       "en": "Citrine Choker of Fending",
       "fr": "Ras de cou de protecteur en citrine",
       "ja": "シトリンディフェンダーチョーカー",
@@ -11752,7 +11715,7 @@
     "maxQuality": 7339,
     "name": {
       "cn": "黄水晶治愈项环",
-      "de": "Zitrin-Halsberge der Heilung",
+      "de": "Citrin-Halsberge der Heilung",
       "en": "Citrine Choker of Healing",
       "fr": "Ras de cou de soigneur en citrine",
       "ja": "シトリンヒーラーチョーカー",
@@ -11767,7 +11730,7 @@
     "maxQuality": 7339,
     "name": {
       "cn": "黄水晶强攻项环",
-      "de": "Zitrin-Halsberge des Schlachtens",
+      "de": "Citrin-Halsberge des Schlachtens",
       "en": "Citrine Choker of Slaying",
       "fr": "Ras de cou d'attaquant en citrine",
       "ja": "シトリンアタッカーチョーカー",
@@ -12399,7 +12362,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "皇金咏咒头冠",
@@ -12415,7 +12378,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "皇金治愈王冠",
@@ -12431,7 +12394,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "皇金巧匠耳环",
@@ -12447,7 +12410,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "皇金大地耳环",
@@ -12463,7 +12426,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "皇金锭",
@@ -12479,7 +12442,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "锦衣大师缝针",
@@ -12495,7 +12458,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "炼真大师眼镜",
@@ -12508,10 +12471,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武长玉杖",
@@ -12524,10 +12488,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武天星盘",
@@ -12540,10 +12505,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武刺剑",
@@ -12559,7 +12525,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "古代野兽的骨骼标本",
@@ -12575,7 +12541,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "古代野兽的头骨标本",
@@ -12591,7 +12557,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "古代野兽的尾骨标本",
@@ -12604,10 +12570,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神量天仪",
@@ -12620,10 +12587,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神长玉杖",
@@ -12636,10 +12604,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神刺剑",
@@ -12655,7 +12624,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "小仙女吊灯",
@@ -12671,7 +12640,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镔铁大师护目镜",
@@ -12687,7 +12656,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镂金大师手甲",
@@ -12703,7 +12672,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镂金大师头冠",
@@ -12719,7 +12688,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "福尔唐枝形吊灯",
@@ -12735,7 +12704,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "绿荫拱桥",
@@ -12751,7 +12720,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈咏咒头冠（复制品）",
@@ -12767,7 +12736,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈治愈头冠（复制品）",
@@ -12783,7 +12752,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神游击头冠（复制品）",
@@ -12799,7 +12768,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神强袭头冠（复制品）",
@@ -12815,7 +12784,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神御敌战冠（复制品）",
@@ -12831,7 +12800,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位御敌头冠（复制品）",
@@ -12847,7 +12816,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位治愈头冠（复制品）",
@@ -12863,7 +12832,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "刺绣针",
@@ -12879,7 +12848,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼咏咒航空帽",
@@ -12895,7 +12864,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼治愈航空帽",
@@ -12911,7 +12880,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼游击面具",
@@ -12927,7 +12896,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼强袭面具",
@@ -12943,7 +12912,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "台式管弦乐琴",
@@ -12959,7 +12928,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "裁判所地板",
@@ -12975,7 +12944,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之仪",
@@ -12989,25 +12958,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "云银锭",
-      "de": "Wolken-Mithril-Barren",
-      "en": "Cloud Mythril Ingot",
-      "fr": "Lingot de mithril céleste",
-      "ja": "クラウドミスリルインゴット",
-      "ko": "구름미스릴 주괴"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "水晶吊灯",
@@ -13023,7 +12976,7 @@
     "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "迪亚波罗斯模型",
@@ -13039,7 +12992,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢精准耳坠",
@@ -13055,7 +13008,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢咏咒耳坠",
@@ -13071,7 +13024,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢御敌耳坠",
@@ -13087,7 +13040,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢治愈耳坠",
@@ -13103,7 +13056,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢强攻耳坠",
@@ -13119,7 +13072,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢锭",
@@ -13133,25 +13086,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "荒神缝针",
-      "de": "Ikoneneisen-Nadel",
-      "en": "Eikon Iron Needle",
-      "fr": "Aiguille en fer primordial",
-      "ja": "イコンアロイニードル",
-      "ko": "야만신 합금 바늘"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢精准指环",
@@ -13167,7 +13104,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢咏咒指环",
@@ -13183,7 +13120,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢御敌指环",
@@ -13199,7 +13136,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢治愈指环",
@@ -13215,7 +13152,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神钢强攻指环",
@@ -13229,73 +13166,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "加隆德巧匠耳坠",
-      "de": "Garlond-Ohrringe des Handwerks",
-      "en": "Ironworks Earring of Crafting",
-      "fr": "Boucles d'oreilles des créations des Forges",
-      "ja": "ガーロンド・クラフターイヤリング",
-      "ko": "제작자용 갈론드 귀걸이"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "加隆德大地耳坠",
-      "de": "Garlond-Ohrringe des Eifers",
-      "en": "Ironworks Earring of Gathering",
-      "fr": "Boucles d'oreilles des ressources des Forges",
-      "ja": "ガーロンド・ギャザラーイヤリング",
-      "ko": "채집가용 갈론드 귀걸이"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "加隆德巧匠指环",
-      "de": "Garlond-Ring des Handwerks",
-      "en": "Ironworks Ring of Crafting",
-      "fr": "Bague des créations des Forges",
-      "ja": "ガーロンド・クラフターリング",
-      "ko": "제작자용 갈론드 반지"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "加隆德大地指环",
-      "de": "Garlond-Ring des Eifers",
-      "en": "Ironworks Ring of Gathering",
-      "fr": "Bague des ressources des Forges",
-      "ja": "ガーロンド・ギャザラーリング",
-      "ko": "채집가용 갈론드 반지"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 3175,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5907,
     "name": {
       "cn": "尼德霍格模型",
@@ -13311,7 +13184,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Rapier of the Fiend",
@@ -13327,7 +13200,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之刺剑",
@@ -13343,7 +13216,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈牧杖（复制品）",
@@ -13359,7 +13232,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈法杖（复制品）",
@@ -13375,7 +13248,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈咒杖（复制品）",
@@ -13391,7 +13264,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈天球仪（复制品）",
@@ -13407,7 +13280,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位手杖（复制品）",
@@ -13423,7 +13296,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位长杖（复制品）",
@@ -13439,7 +13312,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位天球仪（复制品）",
@@ -13455,7 +13328,7 @@
     "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "斯卡哈模型",
@@ -13471,7 +13344,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Staff of the Fiend",
@@ -13487,7 +13360,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之咒杖",
@@ -13503,7 +13376,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Star of the Fiend",
@@ -13517,9 +13390,105 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "云银锭",
+      "de": "Wolken-Mithril-Barren",
+      "en": "Cloud Mythril Ingot",
+      "fr": "Lingot de mithril céleste",
+      "ja": "クラウドミスリルインゴット",
+      "ko": "구름미스릴 주괴"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "荒神缝针",
+      "de": "Ikoneneisen-Nadel",
+      "en": "Eikon Iron Needle",
+      "fr": "Aiguille en fer primordial",
+      "ja": "イコンアロイニードル",
+      "ko": "야만신 합금 바늘"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "加隆德巧匠耳坠",
+      "de": "Garlond-Ohrringe des Handwerks",
+      "en": "Ironworks Earring of Crafting",
+      "fr": "Boucles d'oreilles des créations des Forges",
+      "ja": "ガーロンド・クラフターイヤリング",
+      "ko": "제작자용 갈론드 귀걸이"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "加隆德大地耳坠",
+      "de": "Garlond-Ohrringe des Eifers",
+      "en": "Ironworks Earring of Gathering",
+      "fr": "Boucles d'oreilles des ressources des Forges",
+      "ja": "ガーロンド・ギャザラーイヤリング",
+      "ko": "채집가용 갈론드 귀걸이"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "加隆德巧匠指环",
+      "de": "Garlond-Ring des Handwerks",
+      "en": "Ironworks Ring of Crafting",
+      "fr": "Bague des créations des Forges",
+      "ja": "ガーロンド・クラフターリング",
+      "ko": "제작자용 갈론드 반지"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "加隆德大地指环",
+      "de": "Garlond-Ring des Eifers",
+      "en": "Ironworks Ring of Gathering",
+      "fr": "Bague des ressources des Forges",
+      "ja": "ガーロンド・ギャザラーリング",
+      "ko": "채집가용 갈론드 반지"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁精准头冠",
@@ -13535,7 +13504,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁游击头冠",
@@ -13551,7 +13520,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁强袭头冠",
@@ -13567,7 +13536,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁精准耳坠",
@@ -13583,7 +13552,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁咏咒耳坠",
@@ -13599,7 +13568,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁御敌耳坠",
@@ -13615,7 +13584,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁治愈耳坠",
@@ -13631,7 +13600,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁强攻耳坠",
@@ -13647,7 +13616,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁锭",
@@ -13663,7 +13632,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁天星盘",
@@ -13679,7 +13648,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁精准指环",
@@ -13695,7 +13664,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁咏咒指环",
@@ -13711,7 +13680,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁御敌指环",
@@ -13727,7 +13696,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁治愈指环",
@@ -13743,7 +13712,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁强攻指环",
@@ -13759,7 +13728,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁长杖",
@@ -13775,7 +13744,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠精准面具",
@@ -13791,7 +13760,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠咏咒面具",
@@ -13807,7 +13776,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠御敌面具",
@@ -13823,7 +13792,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠治愈面具",
@@ -13839,7 +13808,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠制敌面具",
@@ -13855,7 +13824,7 @@
     "baseLevel": 60,
     "difficulty": 3542,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 6593,
     "name": {
       "cn": "索菲娅模型",
@@ -13871,7 +13840,7 @@
     "baseLevel": 60,
     "difficulty": 984,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "索菲娅装甲",
@@ -16593,12 +16562,124 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
+      "cn": "Carbuncle Bathtub",
+      "de": "Karfunkel-Badewanne",
+      "en": "Carbuncle Bathtub",
+      "fr": "Baignoire Carbuncle",
+      "ja": "カーバンクル・バスタブ",
+      "ko": "Carbuncle Bathtub"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Classic Chandelier",
+      "de": "Klassischer Kronleuchter",
+      "en": "Classic Chandelier",
+      "fr": "Lustre classique",
+      "ja": "クラシックシャンデリア",
+      "ko": "Classic Chandelier"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Crimson Coral Object",
+      "de": "Purpur-Korallenstück",
+      "en": "Crimson Coral Object",
+      "fr": "Décoration en corail rubis",
+      "ja": "紅蓮珊瑚の置物",
+      "ko": "Crimson Coral Object"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Eorzean Lantern",
+      "de": "Eorzäische Lampe",
+      "en": "Eorzean Lantern",
+      "fr": "Lanterne à vitrail \"érazoéenne\"",
+      "ja": "えおるぜあ灯篭",
+      "ko": "Eorzean Lantern"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Hanya Mask",
+      "de": "Hannya-Maske",
+      "en": "Hanya Mask",
+      "fr": "Masque de hannya",
+      "ja": "般若の面",
+      "ko": "Hanya Mask"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
       "cn": "Imitation Stained Crystal Ornament",
       "de": "Buntkristallfenster-Imitation",
       "en": "Imitation Stained Crystal Ornament",
       "fr": "Imitation de vitrail",
       "ja": "イミテーション・ステンドクリスタル",
       "ko": "Imitation Stained Crystal Ornament"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Moogle Wall Chronometer",
+      "de": "Mogry-Wand-Chronometer",
+      "en": "Moogle Wall Chronometer",
+      "fr": "Horloge murale mog",
+      "ja": "モーグリ・ウォールクロノメーター",
+      "ko": "Moogle Wall Chronometer"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Odder Otter Lantern",
+      "de": "Lampe „Obskurer Otter“",
+      "en": "Odder Otter Lantern",
+      "fr": "Lanterne loutre",
+      "ja": "ウソウソ提灯",
+      "ko": "Odder Otter Lantern"
     },
     "stars": 2
   },
@@ -16614,7 +16695,7 @@
       "en": "Palladium Band of Aiming",
       "fr": "Bague de pisteur en palladium",
       "ja": "パラースレンジャーリング",
-      "ko": "Palladium Band of Aiming"
+      "ko": "팔라듐 유격대 반지"
     },
     "stars": 2
   },
@@ -16630,7 +16711,7 @@
       "en": "Palladium Band of Casting",
       "fr": "Bague d'incantateur en palladium",
       "ja": "パラースキャスターリング",
-      "ko": "Palladium Band of Casting"
+      "ko": "팔라듐 마술사 반지"
     },
     "stars": 2
   },
@@ -16646,7 +16727,7 @@
       "en": "Palladium Band of Fending",
       "fr": "Bague de protecteur en palladium",
       "ja": "パラースディフェンダーリング",
-      "ko": "Palladium Band of Fending"
+      "ko": "팔라듐 수호자 반지"
     },
     "stars": 2
   },
@@ -16662,7 +16743,7 @@
       "en": "Palladium Band of Healing",
       "fr": "Bague de soigneur en palladium",
       "ja": "パラースヒーラーリング",
-      "ko": "Palladium Band of Healing"
+      "ko": "팔라듐 치유사 반지"
     },
     "stars": 2
   },
@@ -16678,7 +16759,7 @@
       "en": "Palladium Band of Slaying",
       "fr": "Bague d'attaquant en palladium",
       "ja": "パラースアタッカーリング",
-      "ko": "Palladium Band of Slaying"
+      "ko": "팔라듐 공격대 반지"
     },
     "stars": 2
   },
@@ -16694,7 +16775,7 @@
       "en": "Palladium Circlet of Maiming",
       "fr": "Diadème d'abatteur en palladium",
       "ja": "パラーススレイヤーサークレット",
-      "ko": "Palladium Circlet of Maiming"
+      "ko": "팔라듐 학살자 머리장식"
     },
     "stars": 2
   },
@@ -16710,7 +16791,7 @@
       "en": "Palladium Circlet of Scouting",
       "fr": "Diadème d'éclaireur en palladium",
       "ja": "パラーススカウトサークレット",
-      "ko": "Palladium Circlet of Scouting"
+      "ko": "팔라듐 정찰대 머리장식"
     },
     "stars": 2
   },
@@ -16726,7 +16807,7 @@
       "en": "Palladium Circlet of Striking",
       "fr": "Diadème d'agresseur en palladium",
       "ja": "パラースストライカーサークレット",
-      "ko": "Palladium Circlet of Striking"
+      "ko": "팔라듐 타격대 머리장식"
     },
     "stars": 2
   },
@@ -16742,7 +16823,7 @@
       "en": "Palladium Earring of Aiming",
       "fr": "Boucle d'oreille de pisteur en palladium",
       "ja": "パラースレンジャーイヤリング",
-      "ko": "Palladium Earring of Aiming"
+      "ko": "팔라듐 유격대 귀걸이"
     },
     "stars": 2
   },
@@ -16758,7 +16839,7 @@
       "en": "Palladium Earring of Casting",
       "fr": "Boucle d'oreille d'incantateur en palladium",
       "ja": "パラースキャスターイヤリング",
-      "ko": "Palladium Earring of Casting"
+      "ko": "팔라듐 마술사 귀걸이"
     },
     "stars": 2
   },
@@ -16774,7 +16855,7 @@
       "en": "Palladium Earring of Fending",
       "fr": "Boucle d'oreille de protecteur en palladium",
       "ja": "パラースディフェンダーイヤリング",
-      "ko": "Palladium Earring of Fending"
+      "ko": "팔라듐 수호자 귀걸이"
     },
     "stars": 2
   },
@@ -16790,7 +16871,7 @@
       "en": "Palladium Earring of Healing",
       "fr": "Boucle d'oreille de soigneur en palladium",
       "ja": "パラースヒーラーイヤリング",
-      "ko": "Palladium Earring of Healing"
+      "ko": "팔라듐 치유사 귀걸이"
     },
     "stars": 2
   },
@@ -16806,7 +16887,7 @@
       "en": "Palladium Earring of Slaying",
       "fr": "Boucle d'oreille d'attaquant en palladium",
       "ja": "パラースアタッカーイヤリング",
-      "ko": "Palladium Earring of Slaying"
+      "ko": "팔라듐 공격대 귀걸이"
     },
     "stars": 2
   },
@@ -16822,7 +16903,7 @@
       "en": "Palladium Ingot",
       "fr": "Lingot de palladium",
       "ja": "パラースインゴット",
-      "ko": "Palladium Ingot"
+      "ko": "팔라듐 주괴"
     },
     "stars": 2
   },
@@ -16838,7 +16919,7 @@
       "en": "Palladium Orrery",
       "fr": "Planétaire en palladium",
       "ja": "パラースオーラリー",
-      "ko": "Palladium Orrery"
+      "ko": "팔라듐 태양계의"
     },
     "stars": 2
   },
@@ -16854,7 +16935,7 @@
       "en": "Palladium Rapier",
       "fr": "Rapière en palladium",
       "ja": "パラースレイピア",
-      "ko": "Palladium Rapier"
+      "ko": "팔라듐 레이피어"
     },
     "stars": 2
   },
@@ -16870,8 +16951,264 @@
       "en": "Palladium Staff",
       "fr": "Bâton en palladium",
       "ja": "パラーススタッフ",
-      "ko": "Palladium Staff"
+      "ko": "팔라듐 주술봉"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Byakko Barding",
+      "de": "Byakko-Rossharnisch",
+      "en": "Byakko Barding",
+      "fr": "Barde de Byakko",
+      "ja": "ビャッコ・バード",
+      "ko": "Byakko Barding"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Earring of Aiming",
+      "de": "Silbergunst-Ohrring des Zielens",
+      "en": "Silvergrace Earring of Aiming",
+      "fr": "Boucle d'oreille de pisteur en graçargent",
+      "ja": "グレースレンジャーイヤリング",
+      "ko": "Silvergrace Earring of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Earring of Casting",
+      "de": "Silbergunst-Ohrring der Magie",
+      "en": "Silvergrace Earring of Casting",
+      "fr": "Boucle d'oreille d'incantateur en graçargent",
+      "ja": "グレースキャスターイヤリング",
+      "ko": "Silvergrace Earring of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Earring of Fending",
+      "de": "Silbergunst-Ohrring der Verteidigung",
+      "en": "Silvergrace Earring of Fending",
+      "fr": "Boucle d'oreille de protecteur en graçargent",
+      "ja": "グレースディフェンダーイヤリング",
+      "ko": "Silvergrace Earring of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Earring of Healing",
+      "de": "Silbergunst-Ohrring der Heilung",
+      "en": "Silvergrace Earring of Healing",
+      "fr": "Boucle d'oreille de soigneur en graçargent",
+      "ja": "グレースヒーラーイヤリング",
+      "ko": "Silvergrace Earring of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Earring of Slaying",
+      "de": "Silbergunst-Ohrring des Schlachtens",
+      "en": "Silvergrace Earring of Slaying",
+      "fr": "Boucle d'oreille d'attaquant en graçargent",
+      "ja": "グレースアタッカーイヤリング",
+      "ko": "Silvergrace Earring of Slaying"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Halfmask of Striking",
+      "de": "Silbergunst-Halbmaske des Schlagens",
+      "en": "Silvergrace Halfmask of Striking",
+      "fr": "Demi-masque d'agresseur en graçargent",
+      "ja": "グレース・ストライカーハーフマスク",
+      "ko": "Silvergrace Halfmask of Striking"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Silvergrace Ingot",
+      "de": "Silbergunst-Barren",
+      "en": "Silvergrace Ingot",
+      "fr": "Lingot de grâçargent",
+      "ja": "グレースインゴット",
+      "ko": "Silvergrace Ingot"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Planisphere",
+      "de": "Silbergunst-Planisphäre",
+      "en": "Silvergrace Planisphere",
+      "fr": "Planisphère en graçargent",
+      "ja": "グレースプラニスフィア",
+      "ko": "Silvergrace Planisphere"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Rapier",
+      "de": "Silbergunst-Rapier",
+      "en": "Silvergrace Rapier",
+      "fr": "Rapière en graçargent",
+      "ja": "グレースレイピア",
+      "ko": "Silvergrace Rapier"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Ring of Aiming",
+      "de": "Silbergunst-Ring des Zielens",
+      "en": "Silvergrace Ring of Aiming",
+      "fr": "Bague de pisteur en graçargent",
+      "ja": "グレースレンジャーリング",
+      "ko": "Silvergrace Ring of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Ring of Casting",
+      "de": "Silbergunst-Ring der Magie",
+      "en": "Silvergrace Ring of Casting",
+      "fr": "Bague d'incantateur en graçargent",
+      "ja": "グレースキャスターリング",
+      "ko": "Silvergrace Ring of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Ring of Fending",
+      "de": "Silbergunst-Ring der Verteidigung",
+      "en": "Silvergrace Ring of Fending",
+      "fr": "Bague de protecteur en graçargent",
+      "ja": "グレースディフェンダーリング",
+      "ko": "Silvergrace Ring of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Ring of Healing",
+      "de": "Silbergunst-Ring der Heilung",
+      "en": "Silvergrace Ring of Healing",
+      "fr": "Bague de soigneur en graçargent",
+      "ja": "グレースヒーラーリング",
+      "ko": "Silvergrace Ring of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Ring of Slaying",
+      "de": "Silbergunst-Ring des Schlachtens",
+      "en": "Silvergrace Ring of Slaying",
+      "fr": "Bague d'attaquant en graçargent",
+      "ja": "グレースアタッカーリング",
+      "ko": "Silvergrace Ring of Slaying"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Rod",
+      "de": "Silbergunst-Stab",
+      "en": "Silvergrace Rod",
+      "fr": "Sceptre en grâçargent",
+      "ja": "グレースロッド",
+      "ko": "Silvergrace Rod"
+    },
+    "stars": 3
   }
 ]

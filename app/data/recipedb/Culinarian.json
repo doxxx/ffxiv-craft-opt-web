@@ -1860,6 +1860,7 @@
     }
   },
   {
+    "aspect": "Ice",
     "baseLevel": 30,
     "difficulty": 183,
     "durability": 70,
@@ -3351,76 +3352,12 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "cn": "黑滴糖",
-      "de": "Schwarzer Drops",
-      "en": "Black Drop",
-      "fr": "Bonbon noir",
-      "ja": "ブラックドロップ",
-      "ko": "검은 사탕"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "蓝滴糖",
-      "de": "Blauer Drops",
-      "en": "Blue Drop",
-      "fr": "Bonbon bleu",
-      "ja": "ブルードロップ",
-      "ko": "파란 사탕"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
       "cn": "五海杂烩汤",
       "de": "Bouillabaisse",
       "en": "Bouillabaisse",
       "fr": "Bouillabaisse",
       "ja": "ブイヤベース",
       "ko": "해물 수프"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "清滴糖",
-      "de": "Transparenter Drops",
-      "en": "Clear Drop",
-      "fr": "Bonbon transparent",
-      "ja": "クリアドロップ",
-      "ko": "투명 사탕"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "绿滴糖",
-      "de": "Grüner Drops",
-      "en": "Green Drop",
-      "fr": "Bonbon vert",
-      "ja": "グリーンドロップ",
-      "ko": "초록 사탕"
     },
     "stars": 1
   },
@@ -3495,38 +3432,6 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "cn": "紫滴糖",
-      "de": "Violetter Drops",
-      "en": "Purple Drop",
-      "fr": "Bonbon violet",
-      "ja": "パープルドロップ",
-      "ko": "보라 사탕"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "红滴糖",
-      "de": "Roter Drops",
-      "en": "Red Drop",
-      "fr": "Bonbon rouge",
-      "ja": "レッドドロップ",
-      "ko": "빨간 사탕"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
       "cn": "罗兰莓奶酪蛋糕",
       "de": "Rolanbeeren-Käsekuchen",
       "en": "Rolanberry Cheesecake",
@@ -3554,38 +3459,6 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "白滴糖",
-      "de": "Weißer Drops",
-      "en": "White Drop",
-      "fr": "Bonbon blanc",
-      "ja": "ホワイトドロップ",
-      "ko": "하얀 사탕"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "黄滴糖",
-      "de": "Gelber Drops",
-      "en": "Yellow Drop",
-      "fr": "Bonbon jaune",
-      "ja": "イエロードロップ",
-      "ko": "노란 사탕"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
     "difficulty": 745,
     "durability": 80,
     "level": 70,
@@ -3597,22 +3470,6 @@
       "fr": "Goûter de gourmand",
       "ja": "アフタヌーンティーセット",
       "ko": "오후의 홍차 세트"
-    },
-    "stars": 2
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 233,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2921,
-    "name": {
-      "cn": "飞空艇修理材料",
-      "de": "Luftschiff-Reparaturkit",
-      "en": "Airship Repair Materials",
-      "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材",
-      "ko": "비공정 수리재"
     },
     "stars": 2
   },
@@ -3789,6 +3646,22 @@
       "fr": "Cuisses de crapaud lavique",
       "ja": "ラーヴァトードレッグズ",
       "ko": "용암두꺼비 튀김"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "cn": "Magitek Repair Materials",
+      "de": "Magitek-Reparaturkit",
+      "en": "Magitek Repair Materials",
+      "fr": "Kit de réparation d'appareil",
+      "ja": "魔導機械修理材",
+      "ko": "Magitek Repair Materials"
     },
     "stars": 2
   },
@@ -4173,6 +4046,21 @@
   },
   {
     "baseLevel": 52,
+    "difficulty": 905,
+    "durability": 80,
+    "level": 125,
+    "maxQuality": 2586,
+    "name": {
+      "cn": "Royal Dowager Tea Set",
+      "de": "Teeservice der königlichen Matrone",
+      "en": "Royal Dowager Tea Set",
+      "fr": "Service de thé Halicarnasse",
+      "ja": "ハリカルナッソスのティーセット",
+      "ko": "Royal Dowager Tea Set"
+    }
+  },
+  {
+    "baseLevel": 52,
     "difficulty": 503,
     "durability": 80,
     "level": 125,
@@ -4319,6 +4207,21 @@
       "fr": "Sauce ishgardaise",
       "ja": "オランデーズソース",
       "ko": "올랑데즈 소스"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 1254,
+    "durability": 70,
+    "level": 136,
+    "maxQuality": 3150,
+    "name": {
+      "cn": "House Borel Tea Set",
+      "de": "Teeservice des Hauses Borel",
+      "en": "House Borel Tea Set",
+      "fr": "Service de thé de la maison Borel",
+      "ja": "ボーレルティーセット",
+      "ko": "House Borel Tea Set"
     }
   },
   {
@@ -5043,7 +4946,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "炖鮟鱇",
@@ -5059,7 +4962,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "油封牡蛎",
@@ -5075,7 +4978,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "糖沼鯥",
@@ -5091,7 +4994,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "苹果卷",
@@ -5107,7 +5010,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "山珍番茄面",
@@ -5121,25 +5024,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "苍穹鸡蛋汤",
-      "de": "Himmelseier-Suppe",
-      "en": "Heavensegg Soup",
-      "fr": "Soupe aux célestœufs",
-      "ja": "ヘヴンスエッグスープ",
-      "ko": "창천란 수프"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "洛夫坦山羊排",
@@ -5153,25 +5040,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "田园番茄面",
-      "de": "Pasta Ortolano",
-      "en": "Pasta Ortolano",
-      "fr": "Pâtes à la maraîchère",
-      "ja": "オルトラーナ",
-      "ko": "채소 파스타"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "风味拌细面",
@@ -5187,7 +5058,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "果香特饮",
@@ -5201,9 +5072,41 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "苍穹鸡蛋汤",
+      "de": "Himmelseier-Suppe",
+      "en": "Heavensegg Soup",
+      "fr": "Soupe aux célestœufs",
+      "ja": "ヘヴンスエッグスープ",
+      "ko": "창천란 수프"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "田园番茄面",
+      "de": "Pasta Ortolano",
+      "en": "Pasta Ortolano",
+      "fr": "Pâtes à la maraîchère",
+      "ja": "オルトラーナ",
+      "ko": "채소 파스타"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "苹果芙纽多",
@@ -5219,7 +5122,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "苍穹蛋奶酒",
@@ -5235,7 +5138,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "蓝带肉排",
@@ -5251,7 +5154,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "祭司蛋包饭",
@@ -5267,7 +5170,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "烟肉蛋酱拌面",
@@ -5283,7 +5186,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "海鲜拌面",
@@ -5299,7 +5202,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "嫩炒蛋",
@@ -5928,6 +5831,21 @@
   },
   {
     "baseLevel": 69,
+    "difficulty": 5137,
+    "durability": 80,
+    "level": 288,
+    "maxQuality": 6456,
+    "name": {
+      "cn": "Bread Basket",
+      "de": "Brotkorb",
+      "en": "Bread Basket",
+      "fr": "Panier de pains divers",
+      "ja": "ブレッドバスケット",
+      "ko": "Bread Basket"
+    }
+  },
+  {
+    "baseLevel": 69,
     "difficulty": 2854,
     "durability": 80,
     "level": 288,
@@ -6091,7 +6009,7 @@
       "en": "Pork Kakuni",
       "fr": "Porc braisé à l'orientale",
       "ja": "豚角煮",
-      "ko": "Pork Kakuni"
+      "ko": "돼지고기 조림"
     },
     "stars": 2
   },
@@ -6107,7 +6025,7 @@
       "en": "Pork Stew",
       "fr": "Bouillon de porc",
       "ja": "豚汁",
-      "ko": "Pork Stew"
+      "ko": "돼지고기 된장국"
     },
     "stars": 2
   },
@@ -6139,8 +6057,120 @@
       "en": "Steppe Tea",
       "fr": "Thé de la Steppe",
       "ja": "ステップティー",
-      "ko": "Steppe Tea"
+      "ko": "초원 밀크티"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Crimson Cider",
+      "de": "Purpur-Apfelsaft",
+      "en": "Crimson Cider",
+      "fr": "Cidre carmin",
+      "ja": "クリムゾンサイダー",
+      "ko": "Crimson Cider"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Dzo Steak",
+      "de": "Dzo-Steak",
+      "en": "Dzo Steak",
+      "fr": "Steak de hainag",
+      "ja": "ケナガウシステーキ",
+      "ko": "Dzo Steak"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Futo-maki Roll",
+      "de": "Futomaki-Rolle",
+      "en": "Futo-maki Roll",
+      "fr": "Futomaki-zushi",
+      "ja": "太巻き寿司",
+      "ko": "Futo-maki Roll"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Oden",
+      "de": "Oden",
+      "en": "Oden",
+      "fr": "Oden",
+      "ja": "おでん",
+      "ko": "Oden"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Sauteed Green Leeks",
+      "de": "Gebratener grüner Lauch",
+      "en": "Sauteed Green Leeks",
+      "fr": "Sauté de poireaux gyrabaniens",
+      "ja": "グリーンリーキソテー",
+      "ko": "Sauteed Green Leeks"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Tako-yaki",
+      "de": "Takoyaki",
+      "en": "Tako-yaki",
+      "fr": "Takoyaki",
+      "ja": "タコ焼き",
+      "ko": "Tako-yaki"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Tofu Pancakes",
+      "de": "Tofu-Pfannkuchen",
+      "en": "Tofu Pancakes",
+      "fr": "Pancake au tôfu",
+      "ja": "豆腐パンケーキ",
+      "ko": "Tofu Pancakes"
+    },
+    "stars": 3
   }
 ]

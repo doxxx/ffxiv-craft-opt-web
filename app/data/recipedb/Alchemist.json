@@ -756,72 +756,12 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma",
-      "en": "Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage (alchimie)",
-      "ja": "ミラージュプリズム:アルケミー",
-      "ko": "환상의 프리즘: 연금술"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "2级炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage II (alchimie)",
-      "ja": "ミラージュプリズムG2:アルケミー",
-      "ko": "2등급 환상의 프리즘: 연금술"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "3级炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage III (alchimie)",
-      "ja": "ミラージュプリズムG3:アルケミー",
-      "ko": "3등급 환상의 프리즘: 연금술"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "4级炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage IV (alchimie)",
-      "ja": "ミラージュプリズムG4:アルケミー",
-      "ko": "4등급 환상의 프리즘: 연금술"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "5级炼金幻象棱晶",
-      "de": "Alchemie-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Alchemy)",
-      "fr": "Prisme mirage V (alchimie)",
-      "ja": "ミラージュプリズムG5:アルケミー",
-      "ko": "5등급 환상의 프리즘: 연금술"
+      "cn": "Glamour Prism",
+      "de": "Projektionsprisma",
+      "en": "Glamour Prism",
+      "fr": "Prisme mirage",
+      "ja": "ミラージュプリズム",
+      "ko": "Glamour Prism"
     }
   },
   {
@@ -2610,6 +2550,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2670,6 +2611,7 @@
     }
   },
   {
+    "aspect": "Water",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3931,33 +3873,17 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 195,
+    "difficulty": 351,
     "durability": 80,
     "level": 55,
-    "maxQuality": 2646,
+    "maxQuality": 1323,
     "name": {
-      "cn": "抗止步剂",
-      "de": "Trank gegen Fessel",
-      "en": "Bind Ward Potion",
-      "fr": "Sérum anti entrave",
-      "ja": "抗呪縛剤",
-      "ko": "항속박제"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "抗失明剂",
-      "de": "Trank gegen Blind",
-      "en": "Blind Ward Potion",
-      "fr": "Sérum anti cécité",
-      "ja": "抗暗闇剤",
-      "ko": "항실명제"
+      "cn": "Corner Hedge Partition",
+      "de": "Heckenecke-Raumteiler",
+      "en": "Corner Hedge Partition",
+      "fr": "Haie haute en angle droit",
+      "ja": "コーナーヘッジパーティション",
+      "ko": "Corner Hedge Partition"
     },
     "stars": 1
   },
@@ -4059,17 +3985,17 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 195,
+    "difficulty": 351,
     "durability": 80,
     "level": 55,
-    "maxQuality": 2646,
+    "maxQuality": 1323,
     "name": {
-      "cn": "抗加重剂",
-      "de": "Trank gegen Gewicht",
-      "en": "Heavy Ward Potion",
-      "fr": "Sérum anti pesanteur",
-      "ja": "抗重力剤",
-      "ko": "항중력제"
+      "cn": "Hedge Partition",
+      "de": "Hecken-Raumteiler",
+      "en": "Hedge Partition",
+      "fr": "Haie haute droite",
+      "ja": "ヘッジパーティション",
+      "ko": "Hedge Partition"
     },
     "stars": 1
   },
@@ -4102,22 +4028,6 @@
       "fr": "Bâton vivant du dément",
       "ja": "マッドマンリビングロッド",
       "ko": "광인의 속삭임"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "抗毒剂",
-      "de": "Trank gegen Gift",
-      "en": "Poison Ward Potion",
-      "fr": "Sérum antipoison",
-      "ja": "抗毒剤",
-      "ko": "항독제"
     },
     "stars": 1
   },
@@ -4192,54 +4102,6 @@
     "level": 55,
     "maxQuality": 2646,
     "name": {
-      "cn": "抗沉默剂",
-      "de": "Trank gegen Stumm",
-      "en": "Silence Ward Potion",
-      "fr": "Sérum anti silence",
-      "ja": "抗沈黙剤",
-      "ko": "항침묵제"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "抗睡眠剂",
-      "de": "Trank gegen Schlaf",
-      "en": "Sleep Ward Potion",
-      "fr": "Sérum anti sommeil",
-      "ja": "抗睡眠剤",
-      "ko": "항수면제"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "抗减速剂",
-      "de": "Trank gegen Gemach",
-      "en": "Slow Ward Potion",
-      "fr": "Sérum anti lenteur",
-      "ja": "抗遅延剤",
-      "ko": "항둔화제"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
       "cn": "精炼药",
       "de": "Trank der Bindung",
       "en": "Spiritbond Potion",
@@ -4262,22 +4124,6 @@
       "fr": "Marlin de Mazlaya empaillé",
       "ja": "マズラヤマーリンの剥製",
       "ko": "마즐라야 청새치 박제"
-    },
-    "stars": 1
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "抗眩晕剂",
-      "de": "Trank gegen Betäubung",
-      "en": "Stun Ward Potion",
-      "fr": "Sérum anti étourdissement",
-      "ja": "抗衝撃剤",
-      "ko": "항충격제"
     },
     "stars": 1
   },
@@ -4358,22 +4204,6 @@
       "fr": "Rouleau \"A Light in the Storm\"",
       "ja": "オーケストリオン譜:嵐の中の灯火",
       "ko": "오케스트리온 악보: A Light in the Storm"
-    },
-    "stars": 2
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 233,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2921,
-    "name": {
-      "cn": "飞空艇修理材料",
-      "de": "Luftschiff-Reparaturkit",
-      "en": "Airship Repair Materials",
-      "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材",
-      "ko": "비공정 수리재"
     },
     "stars": 2
   },
@@ -5056,6 +4886,22 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
+      "cn": "Magitek Repair Materials",
+      "de": "Magitek-Reparaturkit",
+      "en": "Magitek Repair Materials",
+      "fr": "Kit de réparation d'appareil",
+      "ja": "魔導機械修理材",
+      "ko": "Magitek Repair Materials"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
       "cn": "萨维奈愈咒书",
       "de": "Medica Thavnaria",
       "en": "Medica Thavnaria",
@@ -5370,6 +5216,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5514,6 +5361,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5530,6 +5378,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5706,6 +5555,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5722,6 +5572,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5770,6 +5621,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5786,6 +5638,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5802,6 +5655,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5818,6 +5672,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5834,6 +5689,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5850,6 +5706,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5866,6 +5723,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5882,6 +5740,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5898,6 +5757,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5914,6 +5774,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5930,6 +5791,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5946,6 +5808,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5962,6 +5825,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5978,6 +5842,7 @@
     "stars": 3
   },
   {
+    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6010,6 +5875,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6314,6 +6180,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6378,6 +6245,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6663,7 +6531,7 @@
       "cn": "Black Brightlily Corsage",
       "de": "Graue Lilien-Haarspange",
       "en": "Black Brightlily Corsage",
-      "fr": "Ornement de lys noirs",
+      "fr": "Barrette lys noirs",
       "ja": "リリーオーナメント:ブラック",
       "ko": "Black Brightlily Corsage"
     }
@@ -6695,7 +6563,7 @@
       "en": "Black Daisy Corsage",
       "fr": "Barrette marguerites noires",
       "ja": "マーガレットオーナメント:ブラック",
-      "ko": "Black Daisy Corsage"
+      "ko": "데이지 머리장식: 검정"
     }
   },
   {
@@ -6723,7 +6591,7 @@
       "cn": "Blue Brightlily Corsage",
       "de": "Blaue Lilien-Haarspange",
       "en": "Blue Brightlily Corsage",
-      "fr": "Ornement de lys bleus",
+      "fr": "Barrette lys bleus",
       "ja": "リリーオーナメント:ブルー",
       "ko": "Blue Brightlily Corsage"
     }
@@ -6755,7 +6623,7 @@
       "en": "Blue Daisy Corsage",
       "fr": "Barrette marguerites bleues",
       "ja": "マーガレットオーナメント:ブルー",
-      "ko": "Blue Daisy Corsage"
+      "ko": "데이지 머리장식: 파랑"
     }
   },
   {
@@ -6933,7 +6801,7 @@
       "cn": "Green Brightlily Corsage",
       "de": "Grüne Lilien-Haarspange",
       "en": "Green Brightlily Corsage",
-      "fr": "Ornement de lys verts",
+      "fr": "Barrette lys verts",
       "ja": "リリーオーナメント:グリーン",
       "ko": "Green Brightlily Corsage"
     }
@@ -6965,7 +6833,7 @@
       "en": "Green Daisy Corsage",
       "fr": "Barrette marguerites vertes",
       "ja": "マーガレットオーナメント:グリーン",
-      "ko": "Green Daisy Corsage"
+      "ko": "데이지 머리장식: 초록"
     }
   },
   {
@@ -7008,7 +6876,7 @@
       "cn": "Orange Brightlily Corsage",
       "de": "Orange Lilien-Haarspange",
       "en": "Orange Brightlily Corsage",
-      "fr": "Ornement de lys orange",
+      "fr": "Barrette lys orange",
       "ja": "リリーオーナメント:オレンジ",
       "ko": "Orange Brightlily Corsage"
     }
@@ -7040,7 +6908,7 @@
       "en": "Orange Daisy Corsage",
       "fr": "Barrette marguerites orange",
       "ja": "マーガレットオーナメント:オレンジ",
-      "ko": "Orange Daisy Corsage"
+      "ko": "데이지 머리장식: 주황"
     }
   },
   {
@@ -7083,7 +6951,7 @@
       "cn": "Purple Brightlily Corsage",
       "de": "Violette Lilien-Haarspange",
       "en": "Purple Brightlily Corsage",
-      "fr": "Ornement de lys violets",
+      "fr": "Barrette lys violets",
       "ja": "リリーオーナメント:パープル",
       "ko": "Purple Brightlily Corsage"
     }
@@ -7115,7 +6983,7 @@
       "en": "Purple Daisy Corsage",
       "fr": "Barrette marguerites violettes",
       "ja": "マーガレットオーナメント:パープル",
-      "ko": "Purple Daisy Corsage"
+      "ko": "데이지 머리장식: 보라"
     }
   },
   {
@@ -7143,7 +7011,7 @@
       "cn": "Rainbow Brightlily Corsage",
       "de": "Mehrfarbige Lilien-Haarspange",
       "en": "Rainbow Brightlily Corsage",
-      "fr": "Ornement de lys arc-en-ciel",
+      "fr": "Barrette lys multicolores",
       "ja": "リリーオーナメント:ブレンド",
       "ko": "Rainbow Brightlily Corsage"
     }
@@ -7160,7 +7028,7 @@
       "en": "Rainbow Daisy Corsage",
       "fr": "Barrette marguerites multicolores",
       "ja": "マーガレットオーナメント:ブレンド",
-      "ko": "Rainbow Daisy Corsage"
+      "ko": "데이지 머리장식: 혼합"
     }
   },
   {
@@ -7188,7 +7056,7 @@
       "cn": "Red Brightlily Corsage",
       "de": "Rosa Lilien-Haarspange",
       "en": "Red Brightlily Corsage",
-      "fr": "Ornement de lys rouges",
+      "fr": "Barrette lys rouges",
       "ja": "リリーオーナメント:レッド",
       "ko": "Red Brightlily Corsage"
     }
@@ -7220,7 +7088,7 @@
       "en": "Red Daisy Corsage",
       "fr": "Barrette marguerites rouges",
       "ja": "マーガレットオーナメント:レッド",
-      "ko": "Red Daisy Corsage"
+      "ko": "데이지 머리장식: 빨강"
     }
   },
   {
@@ -7248,7 +7116,7 @@
       "cn": "White Brightlily Corsage",
       "de": "Weiße Lilien-Haarspange",
       "en": "White Brightlily Corsage",
-      "fr": "Ornement de lys blancs",
+      "fr": "Barrette lys blancs",
       "ja": "リリーオーナメント:ホワイト",
       "ko": "White Brightlily Corsage"
     }
@@ -7280,7 +7148,7 @@
       "en": "White Daisy Corsage",
       "fr": "Barrette marguerites blanches",
       "ja": "マーガレットオーナメント:ホワイト",
-      "ko": "White Daisy Corsage"
+      "ko": "데이지 머리장식: 하양"
     }
   },
   {
@@ -7308,7 +7176,7 @@
       "cn": "Yellow Brightlily Corsage",
       "de": "Gelbe Lilien-Haarspange",
       "en": "Yellow Brightlily Corsage",
-      "fr": "Ornement de lys jaunes",
+      "fr": "Barrette lys jaunes",
       "ja": "リリーオーナメント:イエロー",
       "ko": "Yellow Brightlily Corsage"
     }
@@ -7340,7 +7208,7 @@
       "en": "Yellow Daisy Corsage",
       "fr": "Barrette marguerites jaunes",
       "ja": "マーガレットオーナメント:イエロー",
-      "ko": "Yellow Daisy Corsage"
+      "ko": "데이지 머리장식: 노랑"
     }
   },
   {
@@ -8460,7 +8328,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "管弦乐琴乐谱：Answers -生死答问-",
@@ -8476,7 +8344,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "樟脑",
@@ -8489,10 +8357,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武魔导典",
@@ -8505,10 +8374,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武魔导书",
@@ -8524,7 +8394,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "龙堡绒树",
@@ -8537,10 +8407,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神魔导典",
@@ -8553,10 +8424,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神魔导书",
@@ -8572,7 +8444,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "管弦乐琴乐谱：平衡",
@@ -8588,7 +8460,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "2级巧力炼金溶剂",
@@ -8604,7 +8476,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "2级智力炼金溶剂",
@@ -8620,7 +8492,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "2级意力炼金溶剂",
@@ -8636,7 +8508,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "2级刚力炼金溶剂",
@@ -8652,7 +8524,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "2级耐力炼金溶剂",
@@ -8668,7 +8540,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "光流纤维",
@@ -8684,7 +8556,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "角粉",
@@ -8700,7 +8572,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "管弦乐琴乐谱：绝命怒嚎",
@@ -8716,7 +8588,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "萨菲洛特之根",
@@ -8732,7 +8604,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "强化玻璃板",
@@ -8748,7 +8620,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之典",
@@ -8764,7 +8636,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之书",
@@ -8780,7 +8652,7 @@
     "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "管弦乐琴乐谱：无限",
@@ -8796,7 +8668,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "巧力之仙药",
@@ -8812,7 +8684,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "智力之仙药",
@@ -8828,7 +8700,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "意力之仙药",
@@ -8844,7 +8716,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "刚力之仙药",
@@ -8860,7 +8732,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "耐力之仙药",
@@ -8876,7 +8748,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈咏咒魔导书（复制品）",
@@ -8892,7 +8764,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈治愈魔导书（复制品）",
@@ -8908,7 +8780,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位咏咒魔导书（复制品）",
@@ -8924,7 +8796,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位治愈魔导书（复制品）",
@@ -8940,7 +8812,7 @@
     "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "魔神之树",
@@ -8956,7 +8828,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Song of the Fiend",
@@ -8972,7 +8844,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Word of the Fiend",
@@ -8988,7 +8860,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "3级巧力炼金溶剂",
@@ -9004,7 +8876,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "3级智力炼金溶剂",
@@ -9020,7 +8892,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "3级意力炼金溶剂",
@@ -9036,7 +8908,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "3级刚力炼金溶剂",
@@ -9052,7 +8924,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "3级耐力炼金溶剂",
@@ -9068,7 +8940,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革魔导典",
@@ -9084,7 +8956,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革魔导书",
@@ -9100,7 +8972,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "巧力之强化仙药",
@@ -9116,7 +8988,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "智力之强化仙药",
@@ -9132,7 +9004,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "意力之强化仙药",
@@ -9148,7 +9020,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "刚力之强化仙药",
@@ -9164,7 +9036,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "耐力之强化仙药",
@@ -9568,6 +9440,51 @@
   },
   {
     "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Black Tulip Corsage",
+      "de": "Schwarzes Tulpen-Armband",
+      "en": "Black Tulip Corsage",
+      "fr": "Ruban tulipes noires",
+      "ja": "チューリップオーナメント:ブラック",
+      "ko": "Black Tulip Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Blue Tulip Corsage",
+      "de": "Blaues Tulpen-Armband",
+      "en": "Blue Tulip Corsage",
+      "fr": "Ruban tulipes bleues",
+      "ja": "チューリップオーナメント:ブルー",
+      "ko": "Blue Tulip Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Green Tulip Corsage",
+      "de": "Grünes Tulpen-Armband",
+      "en": "Green Tulip Corsage",
+      "fr": "Ruban tulipes vertes",
+      "ja": "チューリップオーナメント:グリーン",
+      "ko": "Green Tulip Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
     "difficulty": 1205,
     "durability": 40,
     "level": 279,
@@ -9583,6 +9500,21 @@
   },
   {
     "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Orange Tulip Corsage",
+      "de": "Oranges Tulpen-Armband",
+      "en": "Orange Tulip Corsage",
+      "fr": "Ruban tulipes orange",
+      "ja": "チューリップオーナメント:オレンジ",
+      "ko": "Orange Tulip Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
     "difficulty": 1205,
     "durability": 40,
     "level": 279,
@@ -9594,6 +9526,81 @@
       "fr": "Concentré de tanin de plaqueminier",
       "ja": "柿渋",
       "ko": "감물"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Purple Tulip Corsage",
+      "de": "Violettes Tulpen-Armband",
+      "en": "Purple Tulip Corsage",
+      "fr": "Ruban tulipes violettes",
+      "ja": "チューリップオーナメント:パープル",
+      "ko": "Purple Tulip Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Rainbow Tulip Corsage",
+      "de": "Mehrfarbiges Tulpen-Armband",
+      "en": "Rainbow Tulip Corsage",
+      "fr": "Ruban tulipes multicolores",
+      "ja": "チューリップオーナメント:ブレンド",
+      "ko": "Rainbow Tulip Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Red Tulip Corsage",
+      "de": "Rotes Tulpen-Armband",
+      "en": "Red Tulip Corsage",
+      "fr": "Ruban tulipes rouges",
+      "ja": "チューリップオーナメント:レッド",
+      "ko": "Red Tulip Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "White Tulip Corsage",
+      "de": "Weißes Tulpen-Armband",
+      "en": "White Tulip Corsage",
+      "fr": "Ruban tulipes blanches",
+      "ja": "チューリップオーナメント:ホワイト",
+      "ko": "White Tulip Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Yellow Tulip Corsage",
+      "de": "Gelbes Tulpen-Armband",
+      "en": "Yellow Tulip Corsage",
+      "fr": "Ruban tulipes jaunes",
+      "ja": "チューリップオーナメント:イエロー",
+      "ko": "Yellow Tulip Corsage"
     }
   },
   {
@@ -9873,6 +9880,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Chirurgeon's Essentials",
+      "de": "Chirurgen-Werkzeugset",
+      "en": "Chirurgeon's Essentials",
+      "fr": "Ustensiles de barbier",
+      "ja": "バーバーツールズ",
+      "ko": "Chirurgeon's Essentials"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
     "level": 320,
@@ -9883,7 +9906,7 @@
       "en": "Codex of the True Griffin",
       "fr": "Codex en cuir de vrai griffon",
       "ja": "トゥルーグリフィンコーデックス",
-      "ko": "Codex of the True Griffin"
+      "ko": "순종 그리핀 치유서"
     },
     "stars": 2
   },
@@ -9915,7 +9938,7 @@
       "en": "Grade 2 Reisui of Dexterity",
       "fr": "Émulsion de dextérité II",
       "ja": "眼力の霊水G2",
-      "ko": "Grade 2 Reisui of Dexterity"
+      "ko": "2등급 민첩성의 영험수"
     },
     "stars": 2
   },
@@ -9931,7 +9954,7 @@
       "en": "Grade 2 Reisui of Intelligence",
       "fr": "Émulsion d'intelligence II",
       "ja": "知力の霊水G2",
-      "ko": "Grade 2 Reisui of Intelligence"
+      "ko": "2등급 지능의 영험수"
     },
     "stars": 2
   },
@@ -9947,7 +9970,7 @@
       "en": "Grade 2 Reisui of Mind",
       "fr": "Émulsion d'esprit II",
       "ja": "心力の霊水G2",
-      "ko": "Grade 2 Reisui of Mind"
+      "ko": "2등급 정신력의 영험수"
     },
     "stars": 2
   },
@@ -9963,7 +9986,7 @@
       "en": "Grade 2 Reisui of Strength",
       "fr": "Émulsion de force II",
       "ja": "剛力の霊水G2",
-      "ko": "Grade 2 Reisui of Strength"
+      "ko": "2등급 힘의 영험수"
     },
     "stars": 2
   },
@@ -9979,7 +10002,7 @@
       "en": "Grade 2 Reisui of Vitality",
       "fr": "Émulsion de vitalité II",
       "ja": "活力の霊水G2",
-      "ko": "Grade 2 Reisui of Vitality"
+      "ko": "2등급 활력의 영험수"
     },
     "stars": 2
   },
@@ -9995,7 +10018,7 @@
       "en": "Grimoire of the True Griffin",
       "fr": "Grimoire en cuir de vrai griffon",
       "ja": "トゥルーグリフィングリモア",
-      "ko": "Grimoire of the True Griffin"
+      "ko": "순종 그리핀 마법서"
     },
     "stars": 2
   },
@@ -10030,5 +10053,229 @@
       "ko": "Snailfish Oil"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Amatsu Kaze Orchestrion Roll",
+      "de": "Notenrolle von „Amatsu Kaze“",
+      "en": "Amatsu Kaze Orchestrion Roll",
+      "fr": "Rouleau \"Amatsu Kaze\"",
+      "ja": "オーケストリオン譜:天つ風",
+      "ko": "Amatsu Kaze Orchestrion Roll"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Answer on High Orchestrion Roll",
+      "de": "Notenrolle von „Answer on High“",
+      "en": "Answer on High Orchestrion Roll",
+      "fr": "Rouleau \"Answer on High\"",
+      "ja": "オーケストリオン譜:天つ雷",
+      "ko": "Answer on High Orchestrion Roll"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Grade 2 Infusion of Dexterity",
+      "de": "Aufguss des Geschicks II",
+      "en": "Grade 2 Infusion of Dexterity",
+      "fr": "Concoction de dextérité II",
+      "ja": "眼力の薬湯G2",
+      "ko": "Grade 2 Infusion of Dexterity"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Grade 2 Infusion of Intelligence",
+      "de": "Aufguss der Intelligenz II",
+      "en": "Grade 2 Infusion of Intelligence",
+      "fr": "Concoction d'intelligence II",
+      "ja": "知力の薬湯G2",
+      "ko": "Grade 2 Infusion of Intelligence"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Grade 2 Infusion of Mind",
+      "de": "Aufguss der Willenskraft II",
+      "en": "Grade 2 Infusion of Mind",
+      "fr": "Concoction d'esprit II",
+      "ja": "心力の薬湯G2",
+      "ko": "Grade 2 Infusion of Mind"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Grade 2 Infusion of Strength",
+      "de": "Aufguss der Stärke II",
+      "en": "Grade 2 Infusion of Strength",
+      "fr": "Concoction de force II",
+      "ja": "剛力の薬湯G2",
+      "ko": "Grade 2 Infusion of Strength"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Grade 2 Infusion of Vitality",
+      "de": "Aufguss der Konstitution II",
+      "en": "Grade 2 Infusion of Vitality",
+      "fr": "Concoction de vitalité II",
+      "ja": "活力の薬湯G2",
+      "ko": "Grade 2 Infusion of Vitality"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Grade 3 Reisui of Dexterity",
+      "de": "Wunderwasser der Geschicklichkeit III",
+      "en": "Grade 3 Reisui of Dexterity",
+      "fr": "Émulsion de dextérité III",
+      "ja": "眼力の霊水G3",
+      "ko": "Grade 3 Reisui of Dexterity"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Grade 3 Reisui of Intelligence",
+      "de": "Wunderwasser der Intelligenz III",
+      "en": "Grade 3 Reisui of Intelligence",
+      "fr": "Émulsion d'intelligence III",
+      "ja": "知力の霊水G3",
+      "ko": "Grade 3 Reisui of Intelligence"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Grade 3 Reisui of Mind",
+      "de": "Wunderwasser der Willenskraft III",
+      "en": "Grade 3 Reisui of Mind",
+      "fr": "Émulsion d'esprit III",
+      "ja": "心力の霊水G3",
+      "ko": "Grade 3 Reisui of Mind"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Grade 3 Reisui of Strength",
+      "de": "Wunderwasser der Stärke III",
+      "en": "Grade 3 Reisui of Strength",
+      "fr": "Émulsion de force III",
+      "ja": "剛力の霊水G3",
+      "ko": "Grade 3 Reisui of Strength"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Grade 3 Reisui of Vitality",
+      "de": "Wunderwasser der Konstitution III",
+      "en": "Grade 3 Reisui of Vitality",
+      "fr": "Émulsion de vitalité III",
+      "ja": "活力の霊水G3",
+      "ko": "Grade 3 Reisui of Vitality"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Codex",
+      "de": "Silbergunst-Kodex",
+      "en": "Silvergrace Codex",
+      "fr": "Codex en graçargent",
+      "ja": "グレースコーデックス",
+      "ko": "Silvergrace Codex"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Silvergrace Grimoire",
+      "de": "Silbergunst-Grimoire",
+      "en": "Silvergrace Grimoire",
+      "fr": "Grimoire en graçargent",
+      "ja": "グレースグリモア",
+      "ko": "Silvergrace Grimoire"
+    },
+    "stars": 3
   }
 ]

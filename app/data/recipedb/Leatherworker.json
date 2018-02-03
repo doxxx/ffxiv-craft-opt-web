@@ -1116,72 +1116,12 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "皮革幻象棱晶",
-      "de": "Gerber-Projektionsprisma",
-      "en": "Glamour Prism (Leatherworking)",
-      "fr": "Prisme mirage (tannerie)",
-      "ja": "ミラージュプリズム:レザーワーク",
-      "ko": "환상의 프리즘: 가죽"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "2级皮革幻象棱晶",
-      "de": "Gerber-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Leatherworking)",
-      "fr": "Prisme mirage II (tannerie)",
-      "ja": "ミラージュプリズムG2:レザーワーク",
-      "ko": "2등급 환상의 프리즘: 가죽"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "3级皮革幻象棱晶",
-      "de": "Gerber-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Leatherworking)",
-      "fr": "Prisme mirage III (tannerie)",
-      "ja": "ミラージュプリズムG3:レザーワーク",
-      "ko": "3등급 환상의 프리즘: 가죽"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "4级皮革幻象棱晶",
-      "de": "Gerber-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Leatherworking)",
-      "fr": "Prisme mirage IV (tannerie)",
-      "ja": "ミラージュプリズムG4:レザーワーク",
-      "ko": "4등급 환상의 프리즘: 가죽"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "5级皮革幻象棱晶",
-      "de": "Gerber-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Leatherworking)",
-      "fr": "Prisme mirage V (tannerie)",
-      "ja": "ミラージュプリズムG5:レザーワーク",
-      "ko": "5등급 환상의 프리즘: 가죽"
+      "cn": "Glamour Prism",
+      "de": "Projektionsprisma",
+      "en": "Glamour Prism",
+      "fr": "Prisme mirage",
+      "ja": "ミラージュプリズム",
+      "ko": "Glamour Prism"
     }
   },
   {
@@ -2910,6 +2850,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3045,6 +2986,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 37,
     "difficulty": 128,
     "durability": 80,
@@ -3225,6 +3167,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 39,
     "difficulty": 137,
     "durability": 80,
@@ -3525,6 +3468,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 41,
     "difficulty": 143,
     "durability": 80,
@@ -3720,6 +3664,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -4080,6 +4025,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -5948,22 +5894,6 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "cn": "飞空艇修理材料",
-      "de": "Luftschiff-Reparaturkit",
-      "en": "Airship Repair Materials",
-      "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材",
-      "ko": "비공정 수리재"
-    },
-    "stars": 2
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 233,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2921,
-    "name": {
       "cn": "伴郎礼鞋",
       "de": "Trauzeugen-Spangenschuhe",
       "en": "Best Man's Gaiters",
@@ -6338,6 +6268,22 @@
       "fr": "Cuir d'hippogriffe assoupli",
       "ja": "ヒッポグリフソフトレザー",
       "ko": "부드러운 히포그리프 가죽"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "cn": "Magitek Repair Materials",
+      "de": "Magitek-Reparaturkit",
+      "en": "Magitek Repair Materials",
+      "fr": "Kit de réparation d'appareil",
+      "ja": "魔導機械修理材",
+      "ko": "Magitek Repair Materials"
     },
     "stars": 2
   },
@@ -9975,7 +9921,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "锦衣大师手套",
@@ -9991,7 +9937,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "锦衣大师矮靴",
@@ -10007,7 +9953,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布巧匠长靴",
@@ -10023,7 +9969,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布大地矮靴",
@@ -10039,7 +9985,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布大地皮帽",
@@ -10055,7 +10001,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布大地手套",
@@ -10071,7 +10017,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布大地坎肩",
@@ -10087,7 +10033,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "炼真大师长筒靴",
@@ -10103,7 +10049,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镔铁大师手套",
@@ -10119,7 +10065,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镔铁大师凉鞋",
@@ -10135,7 +10081,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "烹饪大师手套",
@@ -10151,7 +10097,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "烹饪大师矮靴",
@@ -10167,7 +10113,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镂金大师凉鞋",
@@ -10183,7 +10129,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革",
@@ -10199,7 +10145,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革精准眼罩",
@@ -10215,7 +10161,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革咏咒长靴",
@@ -10231,7 +10177,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革治愈长靴",
@@ -10247,7 +10193,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革游击长靴",
@@ -10263,7 +10209,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革强袭长靴",
@@ -10279,7 +10225,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革游击手套",
@@ -10295,7 +10241,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革强袭手套",
@@ -10311,7 +10257,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革游击衬裤",
@@ -10327,7 +10273,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革强袭衬裤",
@@ -10343,7 +10289,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革项环",
@@ -10359,7 +10305,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革游击外套",
@@ -10375,7 +10321,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革强袭外套",
@@ -10391,7 +10337,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革咏咒围腰",
@@ -10407,7 +10353,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革治愈围腰",
@@ -10423,7 +10369,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革护袖",
@@ -10439,7 +10385,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革精准手套",
@@ -10455,7 +10401,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革精准作战服",
@@ -10471,7 +10417,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革指环",
@@ -10487,7 +10433,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革御敌长裙",
@@ -10503,7 +10449,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革制敌长裙",
@@ -10519,7 +10465,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革细绳",
@@ -10535,7 +10481,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革生存腰带",
@@ -10551,7 +10497,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革精准高筒靴",
@@ -10567,7 +10513,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革工具腰带",
@@ -10583,7 +10529,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革游击三角帽",
@@ -10599,7 +10545,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革强袭三角帽",
@@ -10615,7 +10561,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革御敌交叉腰带",
@@ -10631,7 +10577,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革制敌交叉腰带",
@@ -10647,7 +10593,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "狮鹫革手环",
@@ -10663,7 +10609,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "戎甲大师围裙",
@@ -10679,7 +10625,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "戎甲大师工作手套",
@@ -10695,7 +10641,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "戎甲大师工作靴",
@@ -10711,7 +10657,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精革大师围裙",
@@ -10727,7 +10673,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精革大师花帽",
@@ -10743,7 +10689,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精革大师手套",
@@ -10759,7 +10705,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精革大师工作靴",
@@ -10775,7 +10721,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "珍木大师手套",
@@ -10791,7 +10737,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "珍木大师工作靴",
@@ -10807,7 +10753,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "软糊怪沙发",
@@ -10823,7 +10769,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈咏咒法靴（复制品）",
@@ -10839,7 +10785,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈治愈法靴（复制品）",
@@ -10855,7 +10801,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈咏咒手套（复制品）",
@@ -10871,7 +10817,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈治愈手套（复制品）",
@@ -10887,7 +10833,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神游击筒靴（复制品）",
@@ -10903,7 +10849,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神强袭筒靴（复制品）",
@@ -10919,7 +10865,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神精准臂甲（复制品）",
@@ -10935,7 +10881,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神游击手套（复制品）",
@@ -10951,7 +10897,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神强袭手套（复制品）",
@@ -10967,7 +10913,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神精准马裤（复制品）",
@@ -10983,7 +10929,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神制敌马裤（复制品）",
@@ -10999,7 +10945,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神精准礼帽（复制品）",
@@ -11015,7 +10961,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神游击斗服（复制品）",
@@ -11031,7 +10977,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神强袭斗服（复制品）",
@@ -11047,7 +10993,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神咏咒手套（复制品）",
@@ -11063,7 +11009,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神治愈手套（复制品）",
@@ -11079,7 +11025,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神咏咒阔边帽（复制品）",
@@ -11095,7 +11041,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神咏咒长袍（复制品）",
@@ -11111,7 +11057,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神咏咒法靴（复制品）",
@@ -11127,7 +11073,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神治愈皮靴（复制品）",
@@ -11143,7 +11089,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神精准罩衣（复制品）",
@@ -11159,7 +11105,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位精准筒靴（复制品）",
@@ -11175,7 +11121,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位咏咒筒靴（复制品）",
@@ -11191,7 +11137,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位精准马裤（复制品）",
@@ -11207,7 +11153,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位咏咒马裤（复制品）",
@@ -11223,7 +11169,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位精准手套（复制品）",
@@ -11239,7 +11185,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位咏咒手套（复制品）",
@@ -11255,7 +11201,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位治愈手套（复制品）",
@@ -11271,7 +11217,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位精准口罩（复制品）",
@@ -11287,7 +11233,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位咏咒口罩（复制品）",
@@ -11303,7 +11249,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位治愈长靴（复制品）",
@@ -11319,7 +11265,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位御敌软甲裤（复制品）",
@@ -11335,7 +11281,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位制敌软甲裤（复制品）",
@@ -11351,7 +11297,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位强袭软甲裤（复制品）",
@@ -11367,7 +11313,7 @@
     "baseLevel": 60,
     "difficulty": 718,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "萨菲洛特装甲",
@@ -11383,7 +11329,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼精准贝雷帽",
@@ -11399,7 +11345,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼精准筒靴",
@@ -11415,7 +11361,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼御敌长靴",
@@ -11431,7 +11377,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼制敌长靴",
@@ -11447,7 +11393,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼游击长靴",
@@ -11463,7 +11409,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼强袭长靴",
@@ -11479,7 +11425,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼精准手套",
@@ -11495,7 +11441,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼咏咒手套",
@@ -11511,7 +11457,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼治愈手套",
@@ -11527,7 +11473,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼游击手套",
@@ -11543,7 +11489,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼强袭手套",
@@ -11559,7 +11505,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼游击短衣",
@@ -11575,7 +11521,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼强袭短衣",
@@ -11591,7 +11537,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼咏咒长筒靴",
@@ -11607,7 +11553,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼治愈长筒靴",
@@ -11623,7 +11569,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革",
@@ -11639,7 +11585,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革咏咒护臂",
@@ -11655,7 +11601,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革制敌护臂",
@@ -11671,7 +11617,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革强袭护臂",
@@ -11687,7 +11633,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革御敌马裤",
@@ -11703,7 +11649,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革咏咒护甲",
@@ -11719,7 +11665,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革制敌护甲",
@@ -11735,7 +11681,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革强袭护甲",
@@ -11751,7 +11697,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革咏咒头甲",
@@ -11767,7 +11713,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革制敌头甲",
@@ -11783,7 +11729,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革强袭头甲",
@@ -11799,7 +11745,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革咏咒长靴",
@@ -11815,7 +11761,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革制敌腿甲靴",
@@ -11831,7 +11777,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革强袭腿甲靴",
@@ -11847,7 +11793,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革精准腰带",
@@ -11863,7 +11809,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革游击环带",
@@ -11879,7 +11825,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革精准高筒靴",
@@ -11895,7 +11841,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革治愈长靴",
@@ -11911,7 +11857,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神革游击高筒靴",
@@ -11927,7 +11873,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "远征外套",
@@ -11943,7 +11889,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "远征手套",
@@ -11959,7 +11905,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "远征狩猎靴",
@@ -11975,7 +11921,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "远征长靴",
@@ -11991,7 +11937,7 @@
     "baseLevel": 60,
     "difficulty": 882,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 11814,
     "name": {
       "cn": "邪龙装甲",
@@ -12007,7 +11953,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德巧匠腰带",
@@ -12023,7 +11969,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德大地腰带",
@@ -12039,7 +11985,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德巧匠长靴",
@@ -12055,7 +12001,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德大地矮靴",
@@ -12071,7 +12017,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德大地皮帽",
@@ -12087,7 +12033,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德大地手套",
@@ -12103,7 +12049,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德大地坎肩",
@@ -12119,7 +12065,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "蓓天翼龙革",
@@ -12135,7 +12081,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革",
@@ -12151,7 +12097,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革御敌衬裤",
@@ -12167,7 +12113,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革制敌衬裤",
@@ -12183,7 +12129,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革精准手套",
@@ -12199,7 +12145,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革游击手套",
@@ -12215,7 +12161,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革强袭手套",
@@ -12231,7 +12177,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革精准护腿",
@@ -12247,7 +12193,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革游击护腿",
@@ -12263,7 +12209,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革强袭护腿",
@@ -12279,7 +12225,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革咏咒露趾长靴",
@@ -12295,7 +12241,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革露趾长靴",
@@ -12311,7 +12257,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革精准软甲裤",
@@ -12327,7 +12273,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革游击软甲裤",
@@ -12343,7 +12289,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "半熊革强袭软甲裤",
@@ -12359,7 +12305,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠精准半指护手",
@@ -12375,7 +12321,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠咏咒半指护手",
@@ -12391,7 +12337,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠强袭半指护手",
@@ -12407,7 +12353,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠精准格斗服",
@@ -12423,7 +12369,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠咏咒格斗服",
@@ -12439,7 +12385,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠御敌格斗服",
@@ -12455,7 +12401,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠治愈格斗服",
@@ -12471,7 +12417,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠制敌格斗服",
@@ -12487,7 +12433,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠游击格斗服",
@@ -12503,7 +12449,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠强袭格斗服",
@@ -12519,7 +12465,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠御敌铁钩筒靴",
@@ -12535,7 +12481,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠治愈铁钩筒靴",
@@ -12551,7 +12497,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠制敌铁钩筒靴",
@@ -12567,7 +12513,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠游击铁钩筒靴",
@@ -13262,7 +13208,7 @@
     "maxQuality": 10439,
     "name": {
       "cn": "牛鬼革治愈筒靴",
-      "de": "Gyukileder-Sandalen der Heilung",
+      "de": "Gyukileder-Stiefel der Heilung",
       "en": "Gyuki Leather Boots of Healing",
       "fr": "Bottes de soigneur en cuir de gyuki",
       "ja": "ギュウキヒーラーブーツ",
@@ -13281,7 +13227,7 @@
       "en": "Gyuki Leather Chaps",
       "fr": "Houseaux en cuir de gyuki",
       "ja": "ギュウキチャップス",
-      "ko": "귀신물범 덧바지"
+      "ko": "채집가용 귀신물범 덧바지"
     }
   },
   {
@@ -13356,7 +13302,7 @@
       "en": "Gyuki Leather Hat",
       "fr": "Chapeau en cuir de gyuki",
       "ja": "ギュウキハット",
-      "ko": "귀신물범 모자"
+      "ko": "채집가용 귀신물범 모자"
     }
   },
   {
@@ -13401,7 +13347,7 @@
       "en": "Gyuki Leather Jacket",
       "fr": "Jaque en cuir de gyuki",
       "ja": "ギュウキジャケット",
-      "ko": "귀신물범 재킷"
+      "ko": "채집가용 귀신물범 재킷"
     }
   },
   {
@@ -13446,7 +13392,7 @@
       "en": "Gyuki Leather Shoes",
       "fr": "Chaussures en cuir de gyuki",
       "ja": "ギュウキシューズ",
-      "ko": "귀신물범 신발"
+      "ko": "제작자용 귀신물범 신발"
     }
   },
   {
@@ -14871,7 +14817,7 @@
       "en": "Guoc",
       "fr": "Guôc",
       "ja": "グオック",
-      "ko": "Guoc"
+      "ko": "구옥"
     },
     "stars": 1
   },
@@ -14983,7 +14929,7 @@
       "en": "True Griffin Boots of Aiming",
       "fr": "Bottes de pisteur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・レンジャーブーツ",
-      "ko": "True Griffin Boots of Aiming"
+      "ko": "순종 그리핀 유격대 장화"
     },
     "stars": 2
   },
@@ -14999,7 +14945,7 @@
       "en": "True Griffin Bracers of Aiming",
       "fr": "Brassières de pisteur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・レンジャーブレーサー",
-      "ko": "True Griffin Bracers of Aiming"
+      "ko": "순종 그리핀 유격대 손보호구"
     },
     "stars": 2
   },
@@ -15015,7 +14961,7 @@
       "en": "True Griffin Bracers of Scouting",
       "fr": "Brassières d'éclaireur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・スカウトブレーサー",
-      "ko": "True Griffin Bracers of Scouting"
+      "ko": "순종 그리핀 정찰대 손보호구"
     },
     "stars": 2
   },
@@ -15031,7 +14977,7 @@
       "en": "True Griffin Bracers of Striking",
       "fr": "Brassières d'agresseur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・ストライカーブレーサー",
-      "ko": "True Griffin Bracers of Striking"
+      "ko": "순종 그리핀 타격대 손보호구"
     },
     "stars": 2
   },
@@ -15047,7 +14993,7 @@
       "en": "True Griffin Breeches of Aiming",
       "fr": "Braies de pisteur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・レンジャーブリーチ",
-      "ko": "True Griffin Breeches of Aiming"
+      "ko": "순종 그리핀 유격대 바지"
     },
     "stars": 2
   },
@@ -15063,7 +15009,7 @@
       "en": "True Griffin Breeches of Fending",
       "fr": "Braies de protecteur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・ディフェンダーブリーチ",
-      "ko": "True Griffin Breeches of Fending"
+      "ko": "순종 그리핀 수호자 바지"
     },
     "stars": 2
   },
@@ -15079,7 +15025,7 @@
       "en": "True Griffin Breeches of Maiming",
       "fr": "Braies d'abatteur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・スレイヤーブリーチ",
-      "ko": "True Griffin Breeches of Maiming"
+      "ko": "순종 그리핀 학살자 바지"
     },
     "stars": 2
   },
@@ -15095,7 +15041,7 @@
       "en": "True Griffin Caligae of Scouting",
       "fr": "Caligae d'éclaireur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・スカウトカリガ",
-      "ko": "True Griffin Caligae of Scouting"
+      "ko": "순종 그리핀 정찰대 군화"
     },
     "stars": 2
   },
@@ -15111,7 +15057,7 @@
       "en": "True Griffin Caligae of Striking",
       "fr": "Caligae d'agresseur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・ストライカーカリガ",
-      "ko": "True Griffin Caligae of Striking"
+      "ko": "순종 그리핀 타격대 군화"
     },
     "stars": 2
   },
@@ -15127,7 +15073,7 @@
       "en": "True Griffin Chestpiece of Scouting",
       "fr": "Protège-thorax d'éclaireur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・スカウトチェストピース",
-      "ko": "True Griffin Chestpiece of Scouting"
+      "ko": "순종 그리핀 정찰대 가슴받이"
     },
     "stars": 2
   },
@@ -15143,7 +15089,7 @@
       "en": "True Griffin Chestpiece of Striking",
       "fr": "Protège-thorax d'agresseur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・ストライカーチェストピース",
-      "ko": "True Griffin Chestpiece of Striking"
+      "ko": "순종 그리핀 타격대 가슴받이"
     },
     "stars": 2
   },
@@ -15159,7 +15105,7 @@
       "en": "True Griffin Gloves of Casting",
       "fr": "Gants sans doigts d'incantateur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・キャスターグローブ",
-      "ko": "True Griffin Gloves of Casting"
+      "ko": "순종 그리핀 마술사 장갑"
     },
     "stars": 2
   },
@@ -15175,7 +15121,7 @@
       "en": "True Griffin Gloves of Healing",
       "fr": "Gants sans doigts de soigneur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・ヒーラーグローブ",
-      "ko": "True Griffin Gloves of Healing"
+      "ko": "순종 그리핀 치유사 장갑"
     },
     "stars": 2
   },
@@ -15191,7 +15137,7 @@
       "en": "True Griffin Hat of Aiming",
       "fr": "Chapeau de pisteur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・レンジャーハット",
-      "ko": "True Griffin Hat of Aiming"
+      "ko": "순종 그리핀 유격대 모자"
     },
     "stars": 2
   },
@@ -15207,7 +15153,7 @@
       "en": "True Griffin Hat of Casting",
       "fr": "Chapeau d'incantateur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・キャスターハット",
-      "ko": "True Griffin Hat of Casting"
+      "ko": "순종 그리핀 마술사 모자"
     },
     "stars": 2
   },
@@ -15223,7 +15169,7 @@
       "en": "True Griffin Hat of Healing",
       "fr": "Chapeau de soigneur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・ヒーラーハット",
-      "ko": "True Griffin Hat of Healing"
+      "ko": "순종 그리핀 치유사 모자"
     },
     "stars": 2
   },
@@ -15239,7 +15185,7 @@
       "en": "True Griffin Leather",
       "fr": "Cuir de vrai griffon",
       "ja": "トゥルーグリフィンレザー",
-      "ko": "True Griffin Leather"
+      "ko": "순종 그리핀 가죽"
     },
     "stars": 2
   },
@@ -15255,7 +15201,7 @@
       "en": "True Griffin Sandals of Casting",
       "fr": "Sandales d'incantateur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・キャスターサンダル",
-      "ko": "True Griffin Sandals of Casting"
+      "ko": "순종 그리핀 마술사 샌들"
     },
     "stars": 2
   },
@@ -15271,8 +15217,264 @@
       "en": "True Griffin Sandals of Healing",
       "fr": "Sandales de soigneur en cuir de vrai griffon",
       "ja": "トゥルーグリフィン・ヒーラーサンダル",
-      "ko": "True Griffin Sandals of Healing"
+      "ko": "순종 그리핀 치유사 샌들"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Byakko Throne",
+      "de": "Byakko-Thron",
+      "en": "Byakko Throne",
+      "fr": "Trône du Tigre blanc",
+      "ja": "白虎玉座",
+      "ko": "Byakko Throne"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Ground Sloth Leather",
+      "de": "Riesenfaultier-Leder",
+      "en": "Ground Sloth Leather",
+      "fr": "Cuir de paresseux terrestre",
+      "ja": "メガテリウムレザー",
+      "ko": "Ground Sloth Leather"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Belt of Aiming",
+      "de": "Faultierleder-Gürtel des Zielens",
+      "en": "Slothskin Belt of Aiming",
+      "fr": "Ceinture de pisteur en cuir de paresseux",
+      "ja": "メガテリウム・レンジャーベルト",
+      "ko": "Slothskin Belt of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Belt of Casting",
+      "de": "Faultierleder-Gürtel der Magie",
+      "en": "Slothskin Belt of Casting",
+      "fr": "Ceinture d'incantateur en cuir de paresseux",
+      "ja": "メガテリウム・キャスターベルト",
+      "ko": "Slothskin Belt of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Belt of Fending",
+      "de": "Faultierleder-Gürtel der Verteidigung",
+      "en": "Slothskin Belt of Fending",
+      "fr": "Ceinture de protecteur en cuir de paresseux",
+      "ja": "メガテリウム・ディフェンダーベルト",
+      "ko": "Slothskin Belt of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Belt of Healing",
+      "de": "Faultierleder-Gürtel der Heilung",
+      "en": "Slothskin Belt of Healing",
+      "fr": "Ceinture de soigneur en cuir de paresseux",
+      "ja": "メガテリウム・ヒーラーベルト",
+      "ko": "Slothskin Belt of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Belt of Maiming",
+      "de": "Faultierleder-Gürtel des Verstümmelns",
+      "en": "Slothskin Belt of Maiming",
+      "fr": "Ceinture d'abatteur en cuir de paresseux",
+      "ja": "メガテリウム・スレイヤーベルト",
+      "ko": "Slothskin Belt of Maiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Belt of Scouting",
+      "de": "Faultierleder-Gürtel des Spähens",
+      "en": "Slothskin Belt of Scouting",
+      "fr": "Ceinture d'éclaireur en cuir de paresseux",
+      "ja": "メガテリウム・スカウトベルト",
+      "ko": "Slothskin Belt of Scouting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Belt of Striking",
+      "de": "Faultierleder-Gürtel des Schlagens",
+      "en": "Slothskin Belt of Striking",
+      "fr": "Ceinture d'agresseur en cuir de paresseux",
+      "ja": "メガテリウム・ストライカーベルト",
+      "ko": "Slothskin Belt of Striking"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Boots of Aiming",
+      "de": "Faultierleder-Stiefel des Zielens",
+      "en": "Slothskin Boots of Aiming",
+      "fr": "Bottes de pisteur en cuir de paresseux",
+      "ja": "メガテリウム・レンジャーブーツ",
+      "ko": "Slothskin Boots of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Boots of Casting",
+      "de": "Faultierleder-Stiefel der Magie",
+      "en": "Slothskin Boots of Casting",
+      "fr": "Bottes d'incantateur en cuir de paresseux",
+      "ja": "メガテリウム・キャスターブーツ",
+      "ko": "Slothskin Boots of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Boots of Healing",
+      "de": "Faultierleder-Stiefel der Heilung",
+      "en": "Slothskin Boots of Healing",
+      "fr": "Bottes de soigneur en cuir de paresseux",
+      "ja": "メガテリウム・ヒーラーブーツ",
+      "ko": "Slothskin Boots of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Boots of Striking",
+      "de": "Faultierleder-Stiefel des Schlagens",
+      "en": "Slothskin Boots of Striking",
+      "fr": "Bottes d'agresseur en cuir de paresseux",
+      "ja": "メガテリウム・ストライカーブーツ",
+      "ko": "Slothskin Boots of Striking"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Gloves of Aiming",
+      "de": "Faultierleder-Handschuhe des Zielens",
+      "en": "Slothskin Gloves of Aiming",
+      "fr": "Gants de pisteur en cuir de paresseux",
+      "ja": "メガテリウム・レンジャーグローブ",
+      "ko": "Slothskin Gloves of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Gloves of Scouting",
+      "de": "Faultierleder-Handschuhe des Spähens",
+      "en": "Slothskin Gloves of Scouting",
+      "fr": "Gants d'éclaireur en cuir de paresseux",
+      "ja": "メガテリウム・スカウトグローブ",
+      "ko": "Slothskin Gloves of Scouting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Slothskin Thighboots of Scouting",
+      "de": "Faultierleder-Stiefel des Spähens",
+      "en": "Slothskin Thighboots of Scouting",
+      "fr": "Bottes d'éclaireur en cuir de paresseux",
+      "ja": "メガテリウム・スカウトサイブーツ",
+      "ko": "Slothskin Thighboots of Scouting"
+    },
+    "stars": 3
   }
 ]

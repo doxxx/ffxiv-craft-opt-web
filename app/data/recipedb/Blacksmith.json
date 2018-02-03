@@ -1086,72 +1086,12 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma",
-      "en": "Glamour Prism (Smithing)",
-      "fr": "Prisme mirage (métallurgie)",
-      "ja": "ミラージュプリズム:スミシング",
-      "ko": "환상의 프리즘: 금속제"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "2级锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Smithing)",
-      "fr": "Prisme mirage II (métallurgie)",
-      "ja": "ミラージュプリズムG2:スミシング",
-      "ko": "2등급 환상의 프리즘: 금속제"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "3级锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Smithing)",
-      "fr": "Prisme mirage III (métallurgie)",
-      "ja": "ミラージュプリズムG3:スミシング",
-      "ko": "3등급 환상의 프리즘: 금속제"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "4级锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Smithing)",
-      "fr": "Prisme mirage IV (métallurgie)",
-      "ja": "ミラージュプリズムG4:スミシング",
-      "ko": "4등급 환상의 프리즘: 금속제"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "5级锻冶幻象棱晶",
-      "de": "Grobschmiede-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Smithing)",
-      "fr": "Prisme mirage V (métallurgie)",
-      "ja": "ミラージュプリズムG5:スミシング",
-      "ko": "5등급 환상의 프리즘: 금속제"
+      "cn": "Glamour Prism",
+      "de": "Projektionsprisma",
+      "en": "Glamour Prism",
+      "fr": "Prisme mirage",
+      "ja": "ミラージュプリズム",
+      "ko": "Glamour Prism"
     }
   },
   {
@@ -3465,6 +3405,7 @@
     }
   },
   {
+    "aspect": "Fire",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3690,6 +3631,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -4065,6 +4007,7 @@
     }
   },
   {
+    "aspect": "Fire",
     "baseLevel": 42,
     "difficulty": 144,
     "durability": 80,
@@ -4425,6 +4368,7 @@
     }
   },
   {
+    "aspect": "Fire",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -4635,6 +4579,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -5593,22 +5538,6 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "cn": "飞空艇修理材料",
-      "de": "Luftschiff-Reparaturkit",
-      "en": "Airship Repair Materials",
-      "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材",
-      "ko": "비공정 수리재"
-    },
-    "stars": 2
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 233,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2921,
-    "name": {
       "cn": "复仇烈拳握柄",
       "de": "Rächer-Griffe",
       "en": "Avenger Grips",
@@ -5679,6 +5608,22 @@
       "fr": "Tromblon",
       "ja": "ブランダーバス",
       "ko": "나팔총"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "cn": "Magitek Repair Materials",
+      "de": "Magitek-Reparaturkit",
+      "en": "Magitek Repair Materials",
+      "fr": "Kit de réparation d'appareil",
+      "ja": "魔導機械修理材",
+      "ko": "Magitek Repair Materials"
     },
     "stars": 2
   },
@@ -5795,6 +5740,7 @@
     "stars": 2
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -5875,6 +5821,7 @@
     "stars": 2
   },
   {
+    "aspect": "Water",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -5891,6 +5838,7 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6019,6 +5967,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6099,6 +6048,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6115,6 +6065,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6131,6 +6082,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6147,6 +6099,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6163,6 +6116,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6179,6 +6133,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6195,6 +6150,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6211,6 +6167,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6227,6 +6184,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6243,6 +6201,7 @@
     "stars": 3
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 801,
     "durability": 80,
@@ -6403,6 +6362,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6451,6 +6411,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6515,6 +6476,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6531,6 +6493,7 @@
     "stars": 3
   },
   {
+    "aspect": "Water",
     "baseLevel": 50,
     "difficulty": 801,
     "durability": 80,
@@ -6579,6 +6542,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6595,6 +6559,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6611,6 +6576,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6627,6 +6593,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6643,6 +6610,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6659,6 +6627,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6675,6 +6644,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -8060,7 +8030,7 @@
       "en": "Adamantite Uchigatana",
       "fr": "Uchigatana en adamantium",
       "ja": "金剛打刀",
-      "ko": "황제금 타도"
+      "ko": "아다만 타도"
     }
   },
   {
@@ -8629,7 +8599,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金锭",
@@ -8645,7 +8615,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金加固镰刀",
@@ -8658,10 +8628,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武战斧",
@@ -8674,10 +8645,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武利爪",
@@ -8690,10 +8662,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武大剑",
@@ -8706,10 +8679,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武太刀",
@@ -8722,10 +8696,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武匕首",
@@ -8738,10 +8713,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武火枪",
@@ -8754,10 +8730,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武长刀",
@@ -8773,7 +8750,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金加固手钳",
@@ -8786,10 +8763,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神战斧",
@@ -8802,10 +8780,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神巨剑",
@@ -8818,10 +8797,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神手炮",
@@ -8834,10 +8814,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神刀",
@@ -8850,10 +8831,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神匕首",
@@ -8866,10 +8848,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神拳刺",
@@ -8882,10 +8865,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神剑",
@@ -8901,7 +8885,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镔铁大师鸟嘴锤",
@@ -8917,7 +8901,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金加固羊角锤",
@@ -8933,7 +8917,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "超硬加隆德钢",
@@ -8949,7 +8933,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镂金大师工艺锤",
@@ -8965,7 +8949,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "迦巴勒落地灯",
@@ -8981,7 +8965,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "戎甲大师圆头锤",
@@ -8997,7 +8981,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金加固研钵",
@@ -9013,7 +8997,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精革大师裁皮刀",
@@ -9029,7 +9013,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "光银块",
@@ -9045,7 +9029,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "魔法人偶台灯",
@@ -9061,7 +9045,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "珍木大师手锯",
@@ -9077,7 +9061,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金加固锉刀",
@@ -9093,7 +9077,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "软糊怪落地灯",
@@ -9109,7 +9093,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金加固平斩",
@@ -9125,7 +9109,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金加固碎石锤",
@@ -9141,7 +9125,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金加固厨刀",
@@ -9157,7 +9141,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Axe of the Fiend",
@@ -9173,7 +9157,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之斧",
@@ -9189,7 +9173,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Blade of the Fiend",
@@ -9205,7 +9189,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之大剑",
@@ -9219,25 +9203,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "云银锭",
-      "de": "Wolken-Mithril-Barren",
-      "en": "Cloud Mythril Ingot",
-      "fr": "Lingot de mithril céleste",
-      "ja": "クラウドミスリルインゴット",
-      "ko": "구름미스릴 주괴"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之刀",
@@ -9253,7 +9221,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Edge of the Fiend",
@@ -9267,25 +9235,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "荒神工艺锤",
-      "de": "Ikoneneisen-Juwelierhammer",
-      "en": "Eikon Iron Lapidary Hammer",
-      "fr": "Marteau de lapidaire en fer primordial",
-      "ja": "イコンアロイ・ラピダリーハンマー",
-      "ko": "야만신 합금 세공망치"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Fire of the Fiend",
@@ -9301,7 +9253,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之火",
@@ -9317,7 +9269,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Fists of the Fiend",
@@ -9331,105 +9283,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银平斩",
-      "de": "Edelmythrit-Ahle",
-      "en": "High Mythrite Awl",
-      "fr": "Alêne en mithrite noble",
-      "ja": "ハイミスライトアウル",
-      "ko": "루미스라이트 목타"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银羊角锤",
-      "de": "Edelmythrit-Klauenhammer",
-      "en": "High Mythrite Claw Hammer",
-      "fr": "Marteau arrache-clou en mithrite noble",
-      "ja": "ハイミスライト・クローハンマー",
-      "ko": "루미스라이트 장도리"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银横头锤",
-      "de": "Edelmythrit-Kreuzschlaghammer",
-      "en": "High Mythrite Cross-pein Hammer",
-      "fr": "Marteau à panne croisée en mithrite noble",
-      "ja": "ハイミスライト・クロスペインハンマー",
-      "ko": "루미스라이트 단조망치"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银厨刀",
-      "de": "Edelmythrit-Küchenmesser",
-      "en": "High Mythrite Culinary Knife",
-      "fr": "Couteau de cuisine en mithrite noble",
-      "ja": "ハイミスライトクリナリーナイフ",
-      "ko": "루미스라이트 요리칼"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银锉刀",
-      "de": "Edelmythrit-Feile",
-      "en": "High Mythrite File",
-      "fr": "Lime en mithrite noble",
-      "ja": "ハイミスライトファイル",
-      "ko": "루미스라이트 줄판"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银手斧",
-      "de": "Edelmythrit-Handbeil",
-      "en": "High Mythrite Hatchet",
-      "fr": "Hachette en mithrite noble",
-      "ja": "ハイミスライトハチェット",
-      "ko": "루미스라이트 손도끼"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "光银锭",
@@ -9443,137 +9299,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银研钵",
-      "de": "Edelmythrit-Mörser",
-      "en": "High Mythrite Mortar",
-      "fr": "Mortier en mithrite noble",
-      "ja": "ハイミスライトモーター",
-      "ko": "루미스라이트 약연"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银鹤嘴锄",
-      "de": "Edelmythrit-Spitzhacke",
-      "en": "High Mythrite Pickaxe",
-      "fr": "Pioche en mithrite noble",
-      "ja": "ハイミスライトピック",
-      "ko": "루미스라이트 곡괭이"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银手钳",
-      "de": "Edelmythrit-Zange",
-      "en": "High Mythrite Pliers",
-      "fr": "Tenailles en mithrite noble",
-      "ja": "ハイミスライトプライヤー",
-      "ko": "루미스라이트 플라이어"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银圆头锤",
-      "de": "Edelmythrit-Schlichthammer",
-      "en": "High Mythrite Raising Hammer",
-      "fr": "Marteau de batteur en mithrite noble",
-      "ja": "ハイミスライト・レイジングハンマー",
-      "ko": "루미스라이트 돋을무늬 망치"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银圆革刀",
-      "de": "Edelmythrit-Rundmesser",
-      "en": "High Mythrite Round Knife",
-      "fr": "Couteau arrondi en mithrite noble",
-      "ja": "ハイミスライト・ラウンドナイフ",
-      "ko": "루미스라이트 둥근칼"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银手锯",
-      "de": "Edelmythrit-Säge",
-      "en": "High Mythrite Saw",
-      "fr": "Scie en mithrite noble",
-      "ja": "ハイミスライトソー",
-      "ko": "루미스라이트 톱"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银镰刀",
-      "de": "Edelmythrit-Sense",
-      "en": "High Mythrite Scythe",
-      "fr": "Faux en mithrite noble",
-      "ja": "ハイミスライトサイズ",
-      "ko": "루미스라이트 큰낫"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银碎石锤",
-      "de": "Edelmythrit-Vorschlaghammer",
-      "en": "High Mythrite Sledgehammer",
-      "fr": "Maillet en mithrite noble",
-      "ja": "ハイミスライトモール",
-      "ko": "루미스라이트 채굴망치"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Katana of the Fiend",
@@ -9589,7 +9317,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之太刀",
@@ -9605,7 +9333,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之拳",
@@ -9621,7 +9349,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Points of the Fiend",
@@ -9637,7 +9365,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈虎爪（复制品）",
@@ -9653,7 +9381,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈战斧（复制品）",
@@ -9669,7 +9397,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈剑（复制品）",
@@ -9685,7 +9413,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈复合弓（复制品）",
@@ -9701,7 +9429,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈小刀（复制品）",
@@ -9717,7 +9445,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈断头剑（复制品）",
@@ -9733,7 +9461,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈手枪（复制品）",
@@ -9749,7 +9477,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈长枪（复制品）",
@@ -9765,7 +9493,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位虎爪（复制品）",
@@ -9781,7 +9509,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位战斧（复制品）",
@@ -9797,7 +9525,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位长刀（复制品）",
@@ -9813,7 +9541,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位辉刀（复制品）",
@@ -9829,7 +9557,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位复合弓（复制品）",
@@ -9845,7 +9573,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位断头剑（复制品）",
@@ -9861,7 +9589,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位手枪（复制品）",
@@ -9877,7 +9605,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位长枪（复制品）",
@@ -9893,7 +9621,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之剑",
@@ -9907,9 +9635,265 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "云银锭",
+      "de": "Wolken-Mithril-Barren",
+      "en": "Cloud Mythril Ingot",
+      "fr": "Lingot de mithril céleste",
+      "ja": "クラウドミスリルインゴット",
+      "ko": "구름미스릴 주괴"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "荒神工艺锤",
+      "de": "Ikoneneisen-Juwelierhammer",
+      "en": "Eikon Iron Lapidary Hammer",
+      "fr": "Marteau de lapidaire en fer primordial",
+      "ja": "イコンアロイ・ラピダリーハンマー",
+      "ko": "야만신 합금 세공망치"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银平斩",
+      "de": "Edelmythrit-Ahle",
+      "en": "High Mythrite Awl",
+      "fr": "Alêne en mithrite noble",
+      "ja": "ハイミスライトアウル",
+      "ko": "루미스라이트 목타"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银羊角锤",
+      "de": "Edelmythrit-Klauenhammer",
+      "en": "High Mythrite Claw Hammer",
+      "fr": "Marteau arrache-clou en mithrite noble",
+      "ja": "ハイミスライト・クローハンマー",
+      "ko": "루미스라이트 장도리"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银横头锤",
+      "de": "Edelmythrit-Kreuzschlaghammer",
+      "en": "High Mythrite Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en mithrite noble",
+      "ja": "ハイミスライト・クロスペインハンマー",
+      "ko": "루미스라이트 단조망치"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银厨刀",
+      "de": "Edelmythrit-Küchenmesser",
+      "en": "High Mythrite Culinary Knife",
+      "fr": "Couteau de cuisine en mithrite noble",
+      "ja": "ハイミスライトクリナリーナイフ",
+      "ko": "루미스라이트 요리칼"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银锉刀",
+      "de": "Edelmythrit-Feile",
+      "en": "High Mythrite File",
+      "fr": "Lime en mithrite noble",
+      "ja": "ハイミスライトファイル",
+      "ko": "루미스라이트 줄판"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银手斧",
+      "de": "Edelmythrit-Handbeil",
+      "en": "High Mythrite Hatchet",
+      "fr": "Hachette en mithrite noble",
+      "ja": "ハイミスライトハチェット",
+      "ko": "루미스라이트 손도끼"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银研钵",
+      "de": "Edelmythrit-Mörser",
+      "en": "High Mythrite Mortar",
+      "fr": "Mortier en mithrite noble",
+      "ja": "ハイミスライトモーター",
+      "ko": "루미스라이트 약연"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银鹤嘴锄",
+      "de": "Edelmythrit-Spitzhacke",
+      "en": "High Mythrite Pickaxe",
+      "fr": "Pioche en mithrite noble",
+      "ja": "ハイミスライトピック",
+      "ko": "루미스라이트 곡괭이"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银手钳",
+      "de": "Edelmythrit-Zange",
+      "en": "High Mythrite Pliers",
+      "fr": "Tenailles en mithrite noble",
+      "ja": "ハイミスライトプライヤー",
+      "ko": "루미스라이트 플라이어"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银圆头锤",
+      "de": "Edelmythrit-Schlichthammer",
+      "en": "High Mythrite Raising Hammer",
+      "fr": "Marteau de batteur en mithrite noble",
+      "ja": "ハイミスライト・レイジングハンマー",
+      "ko": "루미스라이트 돋을무늬 망치"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银圆革刀",
+      "de": "Edelmythrit-Rundmesser",
+      "en": "High Mythrite Round Knife",
+      "fr": "Couteau arrondi en mithrite noble",
+      "ja": "ハイミスライト・ラウンドナイフ",
+      "ko": "루미스라이트 둥근칼"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银手锯",
+      "de": "Edelmythrit-Säge",
+      "en": "High Mythrite Saw",
+      "fr": "Scie en mithrite noble",
+      "ja": "ハイミスライトソー",
+      "ko": "루미스라이트 톱"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银镰刀",
+      "de": "Edelmythrit-Sense",
+      "en": "High Mythrite Scythe",
+      "fr": "Faux en mithrite noble",
+      "ja": "ハイミスライトサイズ",
+      "ko": "루미스라이트 큰낫"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银碎石锤",
+      "de": "Edelmythrit-Vorschlaghammer",
+      "en": "High Mythrite Sledgehammer",
+      "fr": "Maillet en mithrite noble",
+      "ja": "ハイミスライトモール",
+      "ko": "루미스라이트 채굴망치"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金爪",
@@ -9925,7 +9909,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金重炮",
@@ -9941,7 +9925,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金小刀",
@@ -9957,7 +9941,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金巨剑",
@@ -9973,7 +9957,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金锭",
@@ -9989,7 +9973,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金长剑",
@@ -10005,7 +9989,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金战斧",
@@ -10430,7 +10414,7 @@
     "maxQuality": 4876,
     "name": {
       "cn": "Hingan Stone Fence",
-      "de": "Hinganischer Steinzaun",
+      "de": "Hinganischer Mokuzo-Zaun",
       "en": "Hingan Stone Fence",
       "fr": "Muret hingashien simple",
       "ja": "白銀石塀",
@@ -11856,6 +11840,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Bomb Stove",
+      "de": "Bomberofen",
+      "en": "Bomb Stove",
+      "fr": "Poêle bombo",
+      "ja": "ボムストーブ",
+      "ko": "Bomb Stove"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
     "level": 320,
@@ -11866,7 +11866,7 @@
       "en": "Chromite Arquebus",
       "fr": "Arquebuse en chromite",
       "ja": "クロマイトアークウィバス",
-      "ko": "Chromite Arquebus"
+      "ko": "크롬 화승총"
     },
     "stars": 2
   },
@@ -11882,7 +11882,7 @@
       "en": "Chromite Axe",
       "fr": "Hache en chromite",
       "ja": "クロマイトアクス",
-      "ko": "Chromite Axe"
+      "ko": "크롬 도끼"
     },
     "stars": 2
   },
@@ -11898,7 +11898,7 @@
       "en": "Chromite Daggers",
       "fr": "Dagues en chromite",
       "ja": "クロマイトダガー",
-      "ko": "Chromite Daggers"
+      "ko": "크롬 단검"
     },
     "stars": 2
   },
@@ -11914,7 +11914,7 @@
       "en": "Chromite Greatsword",
       "fr": "Grande épée en chromite",
       "ja": "クロマイトグレートソード",
-      "ko": "Chromite Greatsword"
+      "ko": "크롬 그레이트소드"
     },
     "stars": 2
   },
@@ -11930,7 +11930,7 @@
       "en": "Chromite Ingot",
       "fr": "Lingot de chromite",
       "ja": "クロマイトインゴット",
-      "ko": "Chromite Ingot"
+      "ko": "크롬 주괴"
     },
     "stars": 2
   },
@@ -11946,7 +11946,7 @@
       "en": "Chromite Knuckles",
       "fr": "Poings en chromite",
       "ja": "クロマイトナックル",
-      "ko": "Chromite Knuckles"
+      "ko": "크롬 너클"
     },
     "stars": 2
   },
@@ -11962,7 +11962,7 @@
       "en": "Chromite Sword",
       "fr": "Épée en chromite",
       "ja": "クロマイトソード",
-      "ko": "Chromite Sword"
+      "ko": "크롬 한손검"
     },
     "stars": 2
   },
@@ -11978,8 +11978,152 @@
       "en": "Chromite Uchigatana",
       "fr": "Uchigatana en chromite",
       "ja": "堅鉄打刀",
-      "ko": "Chromite Uchigatana"
+      "ko": "크롬 타도"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Private Moai",
+      "de": "Moai-Statuette",
+      "en": "Private Moai",
+      "fr": "Mini moai",
+      "ja": "ミニモアイ",
+      "ko": "Private Moai"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Battleaxe",
+      "de": "Nachtstahl-Kriegsaxt",
+      "en": "Nightsteel Battleaxe",
+      "fr": "Hache de combat en noctacier",
+      "ja": "ナイトスチールバトルアクス",
+      "ko": "Nightsteel Battleaxe"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Blunderbuss",
+      "de": "Nachtstahl-Espingole",
+      "en": "Nightsteel Blunderbuss",
+      "fr": "Tromblon en noctacier",
+      "ja": "ナイトスチール・ブランダーバス",
+      "ko": "Nightsteel Blunderbuss"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Claws",
+      "de": "Nachtstahl-Klauen",
+      "en": "Nightsteel Claws",
+      "fr": "Griffes en noctacier",
+      "ja": "ナイトスチールクロー",
+      "ko": "Nightsteel Claws"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Daggers",
+      "de": "Nachtstahl-Dolche",
+      "en": "Nightsteel Daggers",
+      "fr": "Dagues en noctacier",
+      "ja": "夜鉄短刀",
+      "ko": "Nightsteel Daggers"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Greatsword",
+      "de": "Nachtstahl-Großschwert",
+      "en": "Nightsteel Greatsword",
+      "fr": "Grande épée en noctacier",
+      "ja": "ナイトスチール・グレートソード",
+      "ko": "Nightsteel Greatsword"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Nightsteel Ingot",
+      "de": "Nachtstahl-Barren",
+      "en": "Nightsteel Ingot",
+      "fr": "Lingot de noctacier",
+      "ja": "ナイトスチールインゴット",
+      "ko": "Nightsteel Ingot"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Katana",
+      "de": "Nachtstahl-Katana",
+      "en": "Nightsteel Katana",
+      "fr": "Katana en noctacier",
+      "ja": "夜鉄刀",
+      "ko": "Nightsteel Katana"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Sword",
+      "de": "Nachtstahl-Schwert",
+      "en": "Nightsteel Sword",
+      "fr": "Épée en noctacier",
+      "ja": "ナイトスチールソード",
+      "ko": "Nightsteel Sword"
+    },
+    "stars": 3
   }
 ]

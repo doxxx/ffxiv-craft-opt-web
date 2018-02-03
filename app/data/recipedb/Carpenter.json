@@ -921,72 +921,12 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma",
-      "en": "Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage (menuiserie)",
-      "ja": "ミラージュプリズム:ウッドワーク",
-      "ko": "환상의 프리즘: 목제"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "2级木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage II (menuiserie)",
-      "ja": "ミラージュプリズムG2:ウッドワーク",
-      "ko": "2등급 환상의 프리즘: 목제"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "3级木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage III (menuiserie)",
-      "ja": "ミラージュプリズムG3:ウッドワーク",
-      "ko": "3등급 환상의 프리즘: 목제"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "4级木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage IV (menuiserie)",
-      "ja": "ミラージュプリズムG4:ウッドワーク",
-      "ko": "4등급 환상의 프리즘: 목제"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "5级木工幻象棱晶",
-      "de": "Zimmerer-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Woodworking)",
-      "fr": "Prisme mirage V (menuiserie)",
-      "ja": "ミラージュプリズムG5:ウッドワーク",
-      "ko": "5등급 환상의 프리즘: 목제"
+      "cn": "Glamour Prism",
+      "de": "Projektionsprisma",
+      "en": "Glamour Prism",
+      "fr": "Prisme mirage",
+      "ja": "ミラージュプリズム",
+      "ko": "Glamour Prism"
     }
   },
   {
@@ -3255,6 +3195,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3405,6 +3346,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -3720,6 +3662,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -3945,6 +3888,7 @@
     }
   },
   {
+    "aspect": "Ice",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -4095,6 +4039,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -4170,6 +4115,7 @@
     }
   },
   {
+    "aspect": "Fire",
     "baseLevel": 49,
     "difficulty": 313,
     "durability": 80,
@@ -5035,22 +4981,6 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 233,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2921,
-    "name": {
-      "cn": "飞空艇修理材料",
-      "de": "Luftschiff-Reparaturkit",
-      "en": "Airship Repair Materials",
-      "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材",
-      "ko": "비공정 수리재"
-    },
-    "stars": 2
-  },
-  {
-    "baseLevel": 50,
     "difficulty": 745,
     "durability": 80,
     "level": 70,
@@ -5110,6 +5040,22 @@
       "fr": "Balai magique",
       "ja": "マジックブルーム",
       "ko": "마법의 빗자루"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "cn": "Magitek Repair Materials",
+      "de": "Magitek-Reparaturkit",
+      "en": "Magitek Repair Materials",
+      "fr": "Kit de réparation d'appareil",
+      "ja": "魔導機械修理材",
+      "ko": "Magitek Repair Materials"
     },
     "stars": 2
   },
@@ -5386,6 +5332,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5578,6 +5525,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5594,6 +5542,7 @@
     "stars": 3
   },
   {
+    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5850,6 +5799,7 @@
     "stars": 3
   },
   {
+    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5953,7 +5903,7 @@
     "maxQuality": 2891,
     "name": {
       "cn": "收藏柜",
-      "de": "Kostbarkeiten-Kabinett",
+      "de": "Kostbarkeitenkabinett",
       "en": "Armoire",
       "fr": "Bahut personnel",
       "ja": "愛蔵品キャビネット",
@@ -6074,6 +6024,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6090,6 +6041,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6106,6 +6058,7 @@
     "stars": 4
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -7325,7 +7278,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星桦木腕环",
@@ -7341,7 +7294,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星桦木木材",
@@ -7357,7 +7310,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星桦木项链",
@@ -7373,7 +7326,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星桦木指环",
@@ -7389,7 +7342,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星桦木纺车",
@@ -7405,7 +7358,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "樟木木材",
@@ -7418,10 +7371,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武长弓",
@@ -7434,10 +7388,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武牧杖",
@@ -7450,10 +7405,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武长枪",
@@ -7466,10 +7422,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神牧杖",
@@ -7482,10 +7439,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神长弓",
@@ -7498,10 +7456,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神游击枪",
@@ -7517,7 +7476,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "企业级飞空艇模型",
@@ -7533,7 +7492,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "无敌改级飞空艇模型",
@@ -7549,7 +7508,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "无敌级飞空艇模型",
@@ -7565,7 +7524,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "玛哈之棺",
@@ -7581,7 +7540,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "奥德赛级飞空艇模型",
@@ -7597,7 +7556,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "管弦乐琴",
@@ -7613,7 +7572,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "软糊怪圆桌",
@@ -7629,7 +7588,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "戈耳狄零式写字台",
@@ -7645,7 +7604,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "添水",
@@ -7661,7 +7620,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "金云母砂轮机",
@@ -7677,7 +7636,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "塔塔诺拉级飞空艇模型",
@@ -7693,7 +7652,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "3级水族箱",
@@ -7709,7 +7668,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "野马级飞空艇模型",
@@ -7725,7 +7684,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "豪华舞台",
@@ -7741,7 +7700,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "威尔特甘斯级飞空艇模型",
@@ -7757,7 +7716,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Bow of the Fiend",
@@ -7773,7 +7732,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之弓",
@@ -7789,7 +7748,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木精准腕环",
@@ -7805,7 +7764,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木咏咒腕环",
@@ -7821,7 +7780,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木御敌腕环",
@@ -7837,7 +7796,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木治愈腕环",
@@ -7853,7 +7812,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木强攻腕环",
@@ -7869,7 +7828,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木精准项链",
@@ -7885,7 +7844,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木咏咒项链",
@@ -7901,7 +7860,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木御敌项链",
@@ -7917,7 +7876,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木治愈项链",
@@ -7933,7 +7892,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "樟木强攻项链",
@@ -7947,25 +7906,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "樟木纺车",
-      "de": "Kampferholz-Spinnrad",
-      "en": "Camphorwood Spinning Wheel",
-      "fr": "Rouet en camphrier",
-      "ja": "カンファースピニングホイール",
-      "ko": "녹나무 물레"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Cane of the Fiend",
@@ -7981,7 +7924,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之幻杖",
@@ -7995,25 +7938,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "荒神砂轮机",
-      "de": "Ikoneneisen-Schleifrad",
-      "en": "Eikon Iron Grinding Wheel",
-      "fr": "Meule en fer primordial",
-      "ja": "イコンアロイ・グラインディングホイール",
-      "ko": "야만신 합금 연삭기"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "3级画框",
@@ -8029,7 +7956,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之戟",
@@ -8043,73 +7970,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "加隆德巧匠腕环",
-      "de": "Garlond-Armillae des Handwerks",
-      "en": "Ironworks Armillae of Crafting",
-      "fr": "Armilles des créations des Forges",
-      "ja": "ガーロンド・クラフターアルミラ",
-      "ko": "제작자용 갈론드 손목고리"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "加隆德大地腕环",
-      "de": "Garlond-Armillae des Eifers",
-      "en": "Ironworks Armillae of Gathering",
-      "fr": "Armilles des ressources des Forges",
-      "ja": "ガーロンド・ギャザラーアルミラ",
-      "ko": "채집가용 갈론드 손목고리"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "加隆德巧匠项链",
-      "de": "Garlond-Halsband des Handwerks",
-      "en": "Ironworks Necklace of Crafting",
-      "fr": "Collier des créations des Forges",
-      "ja": "ガーロンド・クラフターネックレス",
-      "ko": "제작자용 갈론드 목걸이"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "加隆德大地项链",
-      "de": "Garlond-Halsband des Eifers",
-      "en": "Ironworks Necklace of Gathering",
-      "fr": "Collier des ressources des Forges",
-      "ja": "ガーロンド・ギャザラーネックレス",
-      "ko": "채집가용 갈론드 목걸이"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "苍穹骑士圆桌",
@@ -8123,25 +7986,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光流钓竿",
-      "de": "Leuchtfaser-Angelrute",
-      "en": "Luminous Fiber Fishing Rod",
-      "fr": "Canne à pêche en fibre lumineuse",
-      "ja": "ルミナスファイバー・フィッシングロッド",
-      "ko": "휘광섬유 낚싯대"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "东方木桥",
@@ -8157,7 +8004,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Pike of the Fiend",
@@ -8173,7 +8020,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "硬化樟木木材",
@@ -8187,9 +8034,121 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "樟木纺车",
+      "de": "Kampferholz-Spinnrad",
+      "en": "Camphorwood Spinning Wheel",
+      "fr": "Rouet en camphrier",
+      "ja": "カンファースピニングホイール",
+      "ko": "녹나무 물레"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "荒神砂轮机",
+      "de": "Ikoneneisen-Schleifrad",
+      "en": "Eikon Iron Grinding Wheel",
+      "fr": "Meule en fer primordial",
+      "ja": "イコンアロイ・グラインディングホイール",
+      "ko": "야만신 합금 연삭기"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "加隆德巧匠腕环",
+      "de": "Garlond-Armillae des Handwerks",
+      "en": "Ironworks Armillae of Crafting",
+      "fr": "Armilles des créations des Forges",
+      "ja": "ガーロンド・クラフターアルミラ",
+      "ko": "제작자용 갈론드 손목고리"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "加隆德大地腕环",
+      "de": "Garlond-Armillae des Eifers",
+      "en": "Ironworks Armillae of Gathering",
+      "fr": "Armilles des ressources des Forges",
+      "ja": "ガーロンド・ギャザラーアルミラ",
+      "ko": "채집가용 갈론드 손목고리"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "加隆德巧匠项链",
+      "de": "Garlond-Halsband des Handwerks",
+      "en": "Ironworks Necklace of Crafting",
+      "fr": "Collier des créations des Forges",
+      "ja": "ガーロンド・クラフターネックレス",
+      "ko": "제작자용 갈론드 목걸이"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "加隆德大地项链",
+      "de": "Garlond-Halsband des Eifers",
+      "en": "Ironworks Necklace of Gathering",
+      "fr": "Collier des ressources des Forges",
+      "ja": "ガーロンド・ギャザラーネックレス",
+      "ko": "채집가용 갈론드 목걸이"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光流钓竿",
+      "de": "Leuchtfaser-Angelrute",
+      "en": "Luminous Fiber Fishing Rod",
+      "fr": "Canne à pêche en fibre lumineuse",
+      "ja": "ルミナスファイバー・フィッシングロッド",
+      "ko": "휘광섬유 낚싯대"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金骑枪",
@@ -8205,7 +8164,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木精准手镯",
@@ -8221,7 +8180,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木咏咒手镯",
@@ -8237,7 +8196,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木御敌手镯",
@@ -8253,7 +8212,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木治愈手镯",
@@ -8269,7 +8228,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木强攻手镯",
@@ -8285,7 +8244,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木牧杖",
@@ -8301,7 +8260,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木精准项环",
@@ -8317,7 +8276,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木咏咒项环",
@@ -8333,7 +8292,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木御敌项环",
@@ -8349,7 +8308,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木治愈项环",
@@ -8365,7 +8324,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木强攻项环",
@@ -8381,7 +8340,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木复合弓",
@@ -8397,7 +8356,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "柚木木材",
@@ -8413,7 +8372,7 @@
     "baseLevel": 60,
     "difficulty": 3542,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 6593,
     "name": {
       "cn": "4级水族箱",
@@ -9557,12 +9516,12 @@
     "level": 288,
     "maxQuality": 6456,
     "name": {
-      "cn": "Bamboo Flowerpot",
+      "cn": "Bamboo Planter",
       "de": "Zimmer-Bambus",
-      "en": "Bamboo Flowerpot",
+      "en": "Bamboo Planter",
       "fr": "Pot de bambous",
       "ja": "竹の鉢植",
-      "ko": "Bamboo Flowerpot"
+      "ko": "Bamboo Planter"
     }
   },
   {
@@ -9743,7 +9702,23 @@
       "en": "Chromite Spear",
       "fr": "Hast en chromite",
       "ja": "クロマイトスピア",
-      "ko": "Chromite Spear"
+      "ko": "크롬 창"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Counter Cart",
+      "de": "Servierwagen",
+      "en": "Counter Cart",
+      "fr": "Comptoir sur roues",
+      "ja": "カートカウンター",
+      "ko": "Counter Cart"
     },
     "stars": 2
   },
@@ -9770,12 +9745,60 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Imitation Oblong Window",
+      "cn": "Hingan Hot Spring",
+      "de": "Hinganische heiße Quelle",
+      "en": "Hingan Hot Spring",
+      "fr": "Source chaude hingashienne",
+      "ja": "白銀温泉",
+      "ko": "Hingan Hot Spring"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Imitation Square Window",
       "de": "Langfenster-Imitation",
-      "en": "Imitation Oblong Window",
+      "en": "Imitation Square Window",
       "fr": "Fenêtre rectangulaire en trompe-l'œil",
       "ja": "イミテーション・オブロングウィンドウ",
-      "ko": "Imitation Oblong Window"
+      "ko": "Imitation Square Window"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Kitchen Hanger",
+      "de": "Küchenhaken-Set",
+      "en": "Kitchen Hanger",
+      "fr": "Patère de cuisine",
+      "ja": "キッチンハンガー",
+      "ko": "Kitchen Hanger"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Mounted Cupboard",
+      "de": "Hängeschrank",
+      "en": "Mounted Cupboard",
+      "fr": "Étagère de cuisine murale",
+      "ja": "ハンギングカップボード",
+      "ko": "Mounted Cupboard"
     },
     "stars": 2
   },
@@ -9791,7 +9814,7 @@
       "en": "Torreya Bracelet of Aiming",
       "fr": "Bracelet de pisteur en kaya",
       "ja": "トレヤレンジャーブレスレット",
-      "ko": "Torreya Bracelet of Aiming"
+      "ko": "비자나무 유격대 팔찌"
     },
     "stars": 2
   },
@@ -9807,7 +9830,7 @@
       "en": "Torreya Bracelet of Casting",
       "fr": "Bracelet d'incantateur en kaya",
       "ja": "トレヤキャスターブレスレット",
-      "ko": "Torreya Bracelet of Casting"
+      "ko": "비자나무 마술사 팔찌"
     },
     "stars": 2
   },
@@ -9823,7 +9846,7 @@
       "en": "Torreya Bracelet of Fending",
       "fr": "Bracelet de protecteur en kaya",
       "ja": "トレヤディフェンダーブレスレット",
-      "ko": "Torreya Bracelet of Fending"
+      "ko": "비자나무 수호자 팔찌"
     },
     "stars": 2
   },
@@ -9839,7 +9862,7 @@
       "en": "Torreya Bracelet of Healing",
       "fr": "Bracelet de soigneur en kaya",
       "ja": "トレヤヒーラーブレスレット",
-      "ko": "Torreya Bracelet of Healing"
+      "ko": "비자나무 치유사 팔찌"
     },
     "stars": 2
   },
@@ -9855,7 +9878,7 @@
       "en": "Torreya Bracelet of Slaying",
       "fr": "Bracelet d'attaquant en kaya",
       "ja": "トレヤアタッカーブレスレット",
-      "ko": "Torreya Bracelet of Slaying"
+      "ko": "비자나무 공격대 팔찌"
     },
     "stars": 2
   },
@@ -9871,7 +9894,7 @@
       "en": "Torreya Cane",
       "fr": "Canne en kaya",
       "ja": "トレヤケーン",
-      "ko": "Torreya Cane"
+      "ko": "비자나무 지팡이"
     },
     "stars": 2
   },
@@ -9887,7 +9910,7 @@
       "en": "Torreya Choker of Aiming",
       "fr": "Ras de cou de pisteur en kaya",
       "ja": "トレヤレンジャーチョーカー",
-      "ko": "Torreya Choker of Aiming"
+      "ko": "비자나무 유격대 목장식"
     },
     "stars": 2
   },
@@ -9903,7 +9926,7 @@
       "en": "Torreya Choker of Casting",
       "fr": "Ras de cou d'incantateur en kaya",
       "ja": "トレヤキャスターチョーカー",
-      "ko": "Torreya Choker of Casting"
+      "ko": "비자나무 마술사 목장식"
     },
     "stars": 2
   },
@@ -9919,7 +9942,7 @@
       "en": "Torreya Choker of Fending",
       "fr": "Ras de cou de protecteur en kaya",
       "ja": "トレヤディフェンダーチョーカー",
-      "ko": "Torreya Choker of Fending"
+      "ko": "비자나무 수호자 목장식"
     },
     "stars": 2
   },
@@ -9935,7 +9958,7 @@
       "en": "Torreya Choker of Healing",
       "fr": "Ras de cou de soigneur en kaya",
       "ja": "トレヤヒーラーチョーカー",
-      "ko": "Torreya Choker of Healing"
+      "ko": "비자나무 치유사 목장식"
     },
     "stars": 2
   },
@@ -9951,7 +9974,7 @@
       "en": "Torreya Choker of Slaying",
       "fr": "Ras de cou d'attaquant en kaya",
       "ja": "トレヤアタッカーチョーカー",
-      "ko": "Torreya Choker of Slaying"
+      "ko": "비자나무 공격대 목장식"
     },
     "stars": 2
   },
@@ -9967,7 +9990,7 @@
       "en": "Torreya Longbow",
       "fr": "Arc long en kaya",
       "ja": "トレヤロングボウ",
-      "ko": "Torreya Longbow"
+      "ko": "비자나무 장궁"
     },
     "stars": 2
   },
@@ -9983,8 +10006,248 @@
       "en": "Torreya Lumber",
       "fr": "Madrier de kaya",
       "ja": "トレヤ材",
-      "ko": "Torreya Lumber"
+      "ko": "비자나무 목재"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Armillae of Aiming",
+      "de": "Schwarzweiden-Armreife des Zielens",
+      "en": "Black Willow Armillae of Aiming",
+      "fr": "Armilles de pisteur en saule noir",
+      "ja": "ブラックウィロー・レンジャーアルミラ",
+      "ko": "Black Willow Armillae of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Armillae of Casting",
+      "de": "Schwarzweiden-Armreife der Magie",
+      "en": "Black Willow Armillae of Casting",
+      "fr": "Armilles d'incantateur en saule noir",
+      "ja": "ブラックウィロー・キャスターアルミラ",
+      "ko": "Black Willow Armillae of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Armillae of Fending",
+      "de": "Schwarzweiden-Armreife der Verteidigung",
+      "en": "Black Willow Armillae of Fending",
+      "fr": "Armilles de protecteur en saule noir",
+      "ja": "ブラックウィロー・ディフェンダーアルミラ",
+      "ko": "Black Willow Armillae of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Armillae of Healing",
+      "de": "Schwarzweiden-Armreife der Heilung",
+      "en": "Black Willow Armillae of Healing",
+      "fr": "Armilles de soigneur en saule noir",
+      "ja": "ブラックウィロー・ヒーラーアルミラ",
+      "ko": "Black Willow Armillae of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Armillae of Slaying",
+      "de": "Schwarzweiden-Armreife des Schlachtens",
+      "en": "Black Willow Armillae of Slaying",
+      "fr": "Armilles d'attaquant en saule noir",
+      "ja": "ブラックウィロー・アタッカーアルミラ",
+      "ko": "Black Willow Armillae of Slaying"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Cane",
+      "de": "Schwarzweiden-Stock",
+      "en": "Black Willow Cane",
+      "fr": "Canne en saule noir",
+      "ja": "ブラックウィローケーン",
+      "ko": "Black Willow Cane"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Greatbow",
+      "de": "Schwarzweiden-Langbogen",
+      "en": "Black Willow Greatbow",
+      "fr": "Grand arc en saule noir",
+      "ja": "黒柳大弓",
+      "ko": "Black Willow Greatbow"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Black Willow Lumber",
+      "de": "Schwarzweiden-Bauholz",
+      "en": "Black Willow Lumber",
+      "fr": "Madrier de saule noir",
+      "ja": "ブラックウィロー材",
+      "ko": "Black Willow Lumber"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Necklace of Aiming",
+      "de": "Schwarzweiden-Halsband des Zielens",
+      "en": "Black Willow Necklace of Aiming",
+      "fr": "Collier de pisteur en saule noir",
+      "ja": "ブラックウィロー・レンジャーネックレス",
+      "ko": "Black Willow Necklace of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Necklace of Casting",
+      "de": "Schwarzweiden-Halsband der Magie",
+      "en": "Black Willow Necklace of Casting",
+      "fr": "Collier d'incantateur en saule noir",
+      "ja": "ブラックウィロー・キャスターネックレス",
+      "ko": "Black Willow Necklace of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Necklace of Fending",
+      "de": "Schwarzweiden-Halsband der Verteidigung",
+      "en": "Black Willow Necklace of Fending",
+      "fr": "Collier de protecteur en saule noir",
+      "ja": "ブラックウィロー・ディフェンダーネックレス",
+      "ko": "Black Willow Necklace of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Necklace of Healing",
+      "de": "Schwarzweiden-Halsband der Heilung",
+      "en": "Black Willow Necklace of Healing",
+      "fr": "Collier de soigneur en saule noir",
+      "ja": "ブラックウィロー・ヒーラーネックレス",
+      "ko": "Black Willow Necklace of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Necklace of Slaying",
+      "de": "Schwarzweiden-Halsband des Schlachtens",
+      "en": "Black Willow Necklace of Slaying",
+      "fr": "Collier d'attaquant en saule noir",
+      "ja": "ブラックウィロー・アタッカーネックレス",
+      "ko": "Black Willow Necklace of Slaying"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Black Willow Spear",
+      "de": "Schwarzweiden-Speer",
+      "en": "Black Willow Spear",
+      "fr": "Hast en saule noir",
+      "ja": "ブラックウィロースピア",
+      "ko": "Black Willow Spear"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Byakko Sideboard",
+      "de": "Byakko-Kommodentisch",
+      "en": "Byakko Sideboard",
+      "fr": "Table ronde du Tigre blanc",
+      "ja": "白虎脇机",
+      "ko": "Byakko Sideboard"
+    },
+    "stars": 3
   }
 ]

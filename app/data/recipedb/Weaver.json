@@ -1296,72 +1296,12 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "裁缝幻象棱晶",
-      "de": "Weber-Projektionsprisma",
-      "en": "Glamour Prism (Clothcraft)",
-      "fr": "Prisme mirage (couture)",
-      "ja": "ミラージュプリズム:ニードルワーク",
-      "ko": "환상의 프리즘: 재봉"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "2级裁缝幻象棱晶",
-      "de": "Weber-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Clothcraft)",
-      "fr": "Prisme mirage II (couture)",
-      "ja": "ミラージュプリズムG2:ニードルワーク",
-      "ko": "2등급 환상의 프리즘: 재봉"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "3级裁缝幻象棱晶",
-      "de": "Weber-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Clothcraft)",
-      "fr": "Prisme mirage III (couture)",
-      "ja": "ミラージュプリズムG3:ニードルワーク",
-      "ko": "3등급 환상의 프리즘: 재봉"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "4级裁缝幻象棱晶",
-      "de": "Weber-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Clothcraft)",
-      "fr": "Prisme mirage IV (couture)",
-      "ja": "ミラージュプリズムG4:ニードルワーク",
-      "ko": "4등급 환상의 프리즘: 재봉"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "5级裁缝幻象棱晶",
-      "de": "Weber-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Clothcraft)",
-      "fr": "Prisme mirage V (couture)",
-      "ja": "ミラージュプリズムG5:ニードルワーク",
-      "ko": "5등급 환상의 프리즘: 재봉"
+      "cn": "Glamour Prism",
+      "de": "Projektionsprisma",
+      "en": "Glamour Prism",
+      "fr": "Prisme mirage",
+      "ja": "ミラージュプリズム",
+      "ko": "Glamour Prism"
     }
   },
   {
@@ -3315,6 +3255,7 @@
     }
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3510,6 +3451,7 @@
     }
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 37,
     "difficulty": 128,
     "durability": 80,
@@ -3600,6 +3542,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -3855,6 +3798,7 @@
     }
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
@@ -4005,6 +3949,7 @@
     }
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 41,
     "difficulty": 143,
     "durability": 80,
@@ -4350,6 +4295,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -4515,6 +4461,7 @@
     }
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 44,
     "difficulty": 156,
     "durability": 80,
@@ -4785,6 +4732,7 @@
     }
   },
   {
+    "aspect": "Wind",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -4920,6 +4868,7 @@
     }
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 46,
     "difficulty": 159,
     "durability": 80,
@@ -5010,6 +4959,7 @@
     }
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -6656,22 +6606,6 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "cn": "飞空艇修理材料",
-      "de": "Luftschiff-Reparaturkit",
-      "en": "Airship Repair Materials",
-      "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材",
-      "ko": "비공정 수리재"
-    },
-    "stars": 2
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 233,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2921,
-    "name": {
       "cn": "伴郎礼服",
       "de": "Trauzeugen-Jacke",
       "en": "Best Man's Jacket",
@@ -6838,6 +6772,22 @@
       "fr": "Coussin sombrelinçois",
       "ja": "シュラウド・クッション",
       "ko": "검은장막 쿠션"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "cn": "Magitek Repair Materials",
+      "de": "Magitek-Reparaturkit",
+      "en": "Magitek Repair Materials",
+      "fr": "Kit de réparation d'appareil",
+      "ja": "魔導機械修理材",
+      "ko": "Magitek Repair Materials"
     },
     "stars": 2
   },
@@ -10796,7 +10746,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布",
@@ -10812,7 +10762,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布咏咒打底裤",
@@ -10828,7 +10778,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布治愈打底裤",
@@ -10844,7 +10794,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布咏咒工作服",
@@ -10860,7 +10810,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布治愈工作服",
@@ -10876,7 +10826,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布咏咒礼服手套",
@@ -10892,7 +10842,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布治愈礼服手套",
@@ -10908,7 +10858,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布长袍",
@@ -10924,7 +10874,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布精准腰围",
@@ -10940,7 +10890,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布游击腰围",
@@ -10956,7 +10906,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布强袭腰围",
@@ -10972,7 +10922,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "星绢布精准长裤",
@@ -10988,7 +10938,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "锦衣大师外套",
@@ -11004,7 +10954,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "锦衣大师礼帽",
@@ -11020,7 +10970,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "锦衣大师长裤",
@@ -11036,7 +10986,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布巧匠围裙",
@@ -11052,7 +11002,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布巧匠马裤",
@@ -11068,7 +11018,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布巧匠无檐帽",
@@ -11084,7 +11034,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布巧匠袖套",
@@ -11100,7 +11050,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "碳纤布大地工作裤",
@@ -11116,7 +11066,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "炼真大师手套",
@@ -11132,7 +11082,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "炼真大师长裙",
@@ -11148,7 +11098,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "炼真大师长袍",
@@ -11164,7 +11114,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镔铁大师围裙",
@@ -11180,7 +11130,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镔铁大师工作裤",
@@ -11196,7 +11146,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "福尔唐府邸内墙",
@@ -11212,7 +11162,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "烹饪大师厨帽",
@@ -11228,7 +11178,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "烹饪大师软甲裤",
@@ -11244,7 +11194,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "烹饪大师围裙",
@@ -11260,7 +11210,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镂金大师外衣",
@@ -11276,7 +11226,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "镂金大师软甲裤",
@@ -11292,7 +11242,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "戎甲大师工作裤",
@@ -11308,7 +11258,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精革大师软甲裤",
@@ -11324,7 +11274,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "珍木大师围裙",
@@ -11340,7 +11290,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "珍木大师皮帽",
@@ -11356,7 +11306,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "珍木大师工作裤",
@@ -11372,7 +11322,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "软糊怪地毯",
@@ -11388,7 +11338,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈咏咒软甲裤（复制品）",
@@ -11404,7 +11354,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈治愈软甲裤（复制品）",
@@ -11420,7 +11370,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈精准软甲裤（复制品）",
@@ -11436,7 +11386,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈制敌软甲裤（复制品）",
@@ -11452,7 +11402,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈强袭软甲裤（复制品）",
@@ -11468,7 +11418,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈咏咒束腰衣（复制品）",
@@ -11484,7 +11434,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈治愈束腰衣（复制品）",
@@ -11500,7 +11450,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神治愈兜帽（复制品）",
@@ -11516,7 +11466,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神治愈长袍（复制品）",
@@ -11532,7 +11482,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神御敌垮裤（复制品）",
@@ -11548,7 +11498,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神游击长裤（复制品）",
@@ -11564,7 +11514,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神强袭长裤（复制品）",
@@ -11580,7 +11530,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神咏咒灯笼裤（复制品）",
@@ -11596,7 +11546,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神治愈束脚裤（复制品）",
@@ -11612,7 +11562,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位精准长衣（复制品）",
@@ -11628,7 +11578,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位咏咒长衣（复制品）",
@@ -11644,7 +11594,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位治愈长衣（复制品）",
@@ -11660,7 +11610,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位治愈喇叭裤（复制品）",
@@ -11676,7 +11626,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "刺绣线",
@@ -11692,7 +11642,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼咏咒打底裤",
@@ -11708,7 +11658,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼治愈打底裤",
@@ -11724,7 +11674,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼咏咒长衣",
@@ -11740,7 +11690,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼治愈长衣",
@@ -11756,7 +11706,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼御敌斗裤",
@@ -11772,7 +11722,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼制敌斗裤",
@@ -11788,7 +11738,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼精准五分裤",
@@ -11804,7 +11754,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼游击软甲裤",
@@ -11820,7 +11770,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼强袭软甲裤",
@@ -11836,7 +11786,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼精准坎肩",
@@ -11852,7 +11802,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "布莉娜娃娃",
@@ -11868,7 +11818,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "卡尔克娃娃",
@@ -11884,7 +11834,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "毛绒绒茄子骑士",
@@ -11900,7 +11850,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "毛绒绒蒜头明星",
@@ -11916,7 +11866,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "毛绒绒蔓德拉王后",
@@ -11932,7 +11882,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "毛绒绒洋葱王子",
@@ -11948,7 +11898,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "毛绒绒番茄国王",
@@ -11964,7 +11914,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布",
@@ -11980,7 +11930,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布精准棉甲",
@@ -11996,7 +11946,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布治愈棉甲",
@@ -12012,7 +11962,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布游击棉甲",
@@ -12028,7 +11978,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布咏咒长裙",
@@ -12044,7 +11994,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布制敌衬裤",
@@ -12060,7 +12010,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布强袭衬裤",
@@ -12076,7 +12026,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布咏咒围腰",
@@ -12092,7 +12042,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布治愈围腰",
@@ -12108,7 +12058,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布精准及膝裤",
@@ -12124,7 +12074,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布治愈长裙",
@@ -12140,7 +12090,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布游击及膝裤",
@@ -12156,7 +12106,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布精准狩猎帽",
@@ -12172,7 +12122,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布治愈狩猎帽",
@@ -12188,7 +12138,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布游击狩猎帽",
@@ -12204,7 +12154,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布精准袖套",
@@ -12220,7 +12170,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布治愈袖套",
@@ -12236,7 +12186,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "荒神布游击袖套",
@@ -12252,7 +12202,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "远征腿套",
@@ -12268,7 +12218,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "远征热裤",
@@ -12284,7 +12234,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "远征罩衣",
@@ -12300,7 +12250,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德巧匠围裙",
@@ -12316,7 +12266,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德巧匠马裤",
@@ -12332,7 +12282,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德巧匠无檐帽",
@@ -12348,7 +12298,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德巧匠袖套",
@@ -12364,7 +12314,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "加隆德大地工作裤",
@@ -12380,7 +12330,7 @@
     "baseLevel": 60,
     "difficulty": 1764,
     "durability": 70,
-    "level": 180,
+    "level": 220,
     "maxQuality": 11814,
     "name": {
       "cn": "群云布",
@@ -12396,7 +12346,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠精准马裤",
@@ -12412,7 +12362,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠咏咒马裤",
@@ -12428,7 +12378,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠御敌马裤",
@@ -12444,7 +12394,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠治愈马裤",
@@ -12460,7 +12410,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠制敌马裤",
@@ -12476,7 +12426,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠游击马裤",
@@ -12492,7 +12442,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠强袭马裤",
@@ -12508,7 +12458,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒",
@@ -12524,7 +12474,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒咏咒打底裤",
@@ -12540,7 +12490,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒治愈打底裤",
@@ -12556,7 +12506,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒咏咒长衫",
@@ -12572,7 +12522,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒治愈长衫",
@@ -12588,7 +12538,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒咏咒兜帽",
@@ -12604,7 +12554,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒治愈兜帽",
@@ -12620,7 +12570,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒咏咒长手套",
@@ -12636,7 +12586,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒治愈长手套",
@@ -12652,7 +12602,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒咏咒腰围",
@@ -12668,7 +12618,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒治愈腰围",
@@ -12684,7 +12634,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒精准罩衣",
@@ -12700,7 +12650,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒游击罩衣",
@@ -12716,7 +12666,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "星绒强袭罩衣",
@@ -13396,7 +13346,7 @@
     "maxQuality": 10439,
     "name": {
       "cn": "红玉棉布咏咒长袍",
-      "de": "Rubinbaumwoll-Gambeson der Magie",
+      "de": "Rubinbaumwoll-Robe der Magie",
       "en": "Ruby Cotton Robe of Casting",
       "fr": "Robe d'incantateur en rubicoton",
       "ja": "ルビーコットン・キャスターローブ",
@@ -13456,7 +13406,7 @@
     "maxQuality": 10851,
     "name": {
       "cn": "葛布咏咒围腰",
-      "de": "Tigerleder-Korsett der Magie",
+      "de": "Kudzu-Korsett der Magie",
       "en": "Kudzu Corset of Casting",
       "fr": "Corset d'incantateur en kudzu",
       "ja": "クズクロス・キャスターコルセット",
@@ -13471,7 +13421,7 @@
     "maxQuality": 10851,
     "name": {
       "cn": "葛布治愈围腰",
-      "de": "Tigerleder-Korsett der Heilung",
+      "de": "Kudzu-Korsett der Heilung",
       "en": "Kudzu Corset of Healing",
       "fr": "Corset de soigneur en kudzu",
       "ja": "クズクロス・ヒーラーコルセット",
@@ -13591,7 +13541,7 @@
     "maxQuality": 10851,
     "name": {
       "cn": "葛布精准软甲裤",
-      "de": "Tigerleder-Hose des Zielens",
+      "de": "Kudzu-Hose des Zielens",
       "en": "Kudzu Trousers of Aiming",
       "fr": "Pantalon de pisteur en kudzu",
       "ja": "クズクロス・レンジャートラウザー",
@@ -13606,7 +13556,7 @@
     "maxQuality": 10851,
     "name": {
       "cn": "葛布游击软甲裤",
-      "de": "Tigerleder-Hose des Spähens",
+      "de": "Kudzu-Hose des Spähens",
       "en": "Kudzu Trousers of Scouting",
       "fr": "Pantalon d'éclaireur en kudzu",
       "ja": "クズクロス・スカウトトラウザー",
@@ -13726,7 +13676,7 @@
     "maxQuality": 11263,
     "name": {
       "cn": "葛布强袭软甲裤",
-      "de": "Tigerleder-Hose des Schlagens",
+      "de": "Kudzu-Hose des Schlagens",
       "en": "Kudzu Trousers of Striking",
       "fr": "Pantalon d'agresseur en kudzu",
       "ja": "クズクロス・ストライカートラウザー",
@@ -13911,6 +13861,21 @@
       "fr": "Étoffe de serge des steppes",
       "ja": "ステップサージ",
       "ko": "초원 능직물"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Winter Sweater",
+      "de": "Winterpullover",
+      "en": "Winter Sweater",
+      "fr": "Pull-over d'hiver",
+      "ja": "ウィンターセーター",
+      "ko": "Winter Sweater"
     }
   },
   {
@@ -14510,7 +14475,7 @@
       "en": "Ao Dai",
       "fr": "Áo dài",
       "ja": "アオザイ",
-      "ko": "Ao Dai"
+      "ko": "아오자이"
     },
     "stars": 1
   },
@@ -14526,7 +14491,7 @@
       "en": "Non La",
       "fr": "Nón lá",
       "ja": "ノンラー",
-      "ko": "Non La"
+      "ko": "논라"
     },
     "stars": 1
   },
@@ -14542,7 +14507,7 @@
       "en": "Quan",
       "fr": "Quân",
       "ja": "クワン",
-      "ko": "Quan"
+      "ko": "꾸언"
     },
     "stars": 1
   },
@@ -14644,6 +14609,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Adventuring Sweater",
+      "de": "Abenteurerpullover",
+      "en": "Adventuring Sweater",
+      "fr": "Pull-over d'aventurier",
+      "ja": "アドベンチャラーセーター",
+      "ko": "Adventuring Sweater"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 6377,
     "durability": 70,
     "level": 320,
@@ -14708,6 +14689,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3543,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 15837,
+    "name": {
+      "cn": "Ala Mhigan Gown",
+      "de": "Mhigische Robe",
+      "en": "Ala Mhigan Gown",
+      "fr": "Peignoir mhigois",
+      "ja": "アラミガンガウン",
+      "ko": "Ala Mhigan Gown"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 6377,
     "durability": 70,
     "level": 320,
@@ -14756,6 +14753,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "House Borel Interior Wall",
+      "de": "Innenwand „Haus Borel“",
+      "en": "House Borel Interior Wall",
+      "fr": "Papier peint de la maison Borel",
+      "ja": "ボーレルインナーウォール",
+      "ko": "House Borel Interior Wall"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3543,
     "durability": 70,
     "level": 320,
@@ -14766,7 +14779,7 @@
       "en": "Indigo Ramie Robe of Casting",
       "fr": "Robe d'incantateur en ramie indigo",
       "ja": "インディゴラミー・キャスターローブ",
-      "ko": "Indigo Ramie Robe of Casting"
+      "ko": "남마 마술사 로브"
     },
     "stars": 2
   },
@@ -14782,7 +14795,7 @@
       "en": "Indigo Ramie Robe of Healing",
       "fr": "Robe de soigneur en ramie indigo",
       "ja": "インディゴラミー・ヒーラーローブ",
-      "ko": "Indigo Ramie Robe of Healing"
+      "ko": "남마 치유사 로브"
     },
     "stars": 2
   },
@@ -14798,7 +14811,7 @@
       "en": "Indigo Ramie Sarouel of Scouting",
       "fr": "Saroual d'éclaireur en ramie indigo",
       "ja": "インディゴラミー・スカウトサルエル",
-      "ko": "Indigo Ramie Sarouel of Scouting"
+      "ko": "남마 정찰대 장식띠"
     },
     "stars": 2
   },
@@ -14814,7 +14827,7 @@
       "en": "Indigo Ramie Sarouel of Striking",
       "fr": "Saroual d'agresseur en ramie indigo",
       "ja": "インディゴラミー・ストライカーサルエル",
-      "ko": "Indigo Ramie Sarouel of Striking"
+      "ko": "남마 타격대 헐렁바지"
     },
     "stars": 2
   },
@@ -14830,7 +14843,7 @@
       "en": "Indigo Ramie Sash of Aiming",
       "fr": "Écharpe-ceinture de pisteur en ramie indigo",
       "ja": "インディゴラミー・レンジャーサッシュ",
-      "ko": "Indigo Ramie Sash of Aiming"
+      "ko": "남마 유격대 장식띠"
     },
     "stars": 2
   },
@@ -14846,7 +14859,7 @@
       "en": "Indigo Ramie Sash of Casting",
       "fr": "Écharpe-ceinture d'incantateur en ramie indigo",
       "ja": "インディゴラミー・キャスターサッシュ",
-      "ko": "Indigo Ramie Sash of Casting"
+      "ko": "남마 마술사 장식띠"
     },
     "stars": 2
   },
@@ -14862,7 +14875,7 @@
       "en": "Indigo Ramie Sash of Fending",
       "fr": "Écharpe-ceinture de protecteur en ramie indigo",
       "ja": "インディゴラミー・ディフェンダーサッシュ",
-      "ko": "Indigo Ramie Sash of Fending"
+      "ko": "남마 수호자 장식띠"
     },
     "stars": 2
   },
@@ -14878,7 +14891,7 @@
       "en": "Indigo Ramie Sash of Healing",
       "fr": "Écharpe-ceinture de soigneur en ramie indigo",
       "ja": "インディゴラミー・ヒーラーサッシュ",
-      "ko": "Indigo Ramie Sash of Healing"
+      "ko": "남마 치유사 장식띠"
     },
     "stars": 2
   },
@@ -14894,7 +14907,7 @@
       "en": "Indigo Ramie Sash of Maiming",
       "fr": "Écharpe-ceinture d'abatteur en ramie indigo",
       "ja": "インディゴラミー・スレイヤーサッシュ",
-      "ko": "Indigo Ramie Sash of Maiming"
+      "ko": "남마 학살자 장식띠"
     },
     "stars": 2
   },
@@ -14910,7 +14923,7 @@
       "en": "Indigo Ramie Sash of Scouting",
       "fr": "Écharpe-ceinture d'éclaireur en ramie indigo",
       "ja": "インディゴラミー・スカウトサッシュ",
-      "ko": "Indigo Ramie Sash of Scouting"
+      "ko": "남마 정찰대 장식띠"
     },
     "stars": 2
   },
@@ -14926,7 +14939,7 @@
       "en": "Indigo Ramie Sash of Striking",
       "fr": "Écharpe-ceinture d'agresseur en ramie indigo",
       "ja": "インディゴラミー・ストライカーサッシュ",
-      "ko": "Indigo Ramie Sash of Striking"
+      "ko": "남마 타격대 장식띠"
     },
     "stars": 2
   },
@@ -14942,7 +14955,7 @@
       "en": "Indigo Ramie Skirt of Casting",
       "fr": "Jupe d'incantateur en ramie indigo",
       "ja": "インディゴラミー・キャスタースカート",
-      "ko": "Indigo Ramie Skirt of Casting"
+      "ko": "남마 마술사 치마"
     },
     "stars": 2
   },
@@ -14958,7 +14971,7 @@
       "en": "Indigo Ramie Skirt of Healing",
       "fr": "Jupe de soigneur en ramie indigo",
       "ja": "インディゴラミー・ヒーラースカート",
-      "ko": "Indigo Ramie Skirt of Healing"
+      "ko": "남마 치유사 치마"
     },
     "stars": 2
   },
@@ -14974,7 +14987,7 @@
       "en": "Indigo Ramie Tabard of Aiming",
       "fr": "Tabard de pisteur en ramie indigo",
       "ja": "インディゴラミー・レンジャータバード",
-      "ko": "Indigo Ramie Tabard of Aiming"
+      "ko": "남마 유격대 휘장복"
     },
     "stars": 2
   },
@@ -14990,7 +15003,7 @@
       "en": "Rhea Cloth",
       "fr": "Étoffe de coutil indigo",
       "ja": "藍上布",
-      "ko": "Rhea Cloth"
+      "ko": "남마포"
     },
     "stars": 2
   },
@@ -15041,5 +15054,357 @@
       "ko": "Wind-up Shinryu"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Byakko Cub",
+      "de": "Byakko-Jungtier",
+      "en": "Byakko Cub",
+      "fr": "Bébé Byakko",
+      "ja": "白小虎",
+      "ko": "Byakko Cub"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Stuffed Alpha",
+      "de": "Stoff-Alpha",
+      "en": "Stuffed Alpha",
+      "fr": "Peluche d'Alpha",
+      "ja": "アルファのぬいぐるみ",
+      "ko": "Stuffed Alpha"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "True Linen",
+      "de": "Naturbelassenes Reinleinen",
+      "en": "True Linen",
+      "fr": "Étoffe de lin hingashien",
+      "ja": "真麻布",
+      "ko": "True Linen"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Breeches of Aiming",
+      "de": "Reinleinen-Reiterhose des Zielens",
+      "en": "True Linen Breeches of Aiming",
+      "fr": "Braies de pisteur en lin hingashien",
+      "ja": "トゥルーリネン・レンジャーブリーチ",
+      "ko": "True Linen Breeches of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Breeches of Casting",
+      "de": "Reinleinen-Reiterhose der Magie",
+      "en": "True Linen Breeches of Casting",
+      "fr": "Braies d'incantateur en lin hingashien",
+      "ja": "トゥルーリネン・キャスターブリーチ",
+      "ko": "True Linen Breeches of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Breeches of Healing",
+      "de": "Reinleinen-Reiterhose der Heilung",
+      "en": "True Linen Breeches of Healing",
+      "fr": "Braies de soigneur en lin hingashien",
+      "ja": "トゥルーリネン・ヒーラーブリーチ",
+      "ko": "True Linen Breeches of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Breeches of Maiming",
+      "de": "Reinleinen-Reiterhose des Verstümmelns",
+      "en": "True Linen Breeches of Maiming",
+      "fr": "Braies d'abatteur en lin hingashien",
+      "ja": "トゥルーリネン・スレイヤーブリーチ",
+      "ko": "True Linen Breeches of Maiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Breeches of Scouting",
+      "de": "Reinleinen-Reiterhose des Spähens",
+      "en": "True Linen Breeches of Scouting",
+      "fr": "Braies d'éclaireur en lin hingashien",
+      "ja": "トゥルーリネン・スカウトブリーチ",
+      "ko": "True Linen Breeches of Scouting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Cap of Aiming",
+      "de": "Reinleinen-Kappe des Zielens",
+      "en": "True Linen Cap of Aiming",
+      "fr": "Chapeau de pisteur en lin hingashien",
+      "ja": "トゥルーリネン・レンジャーキャップ",
+      "ko": "True Linen Cap of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Cap of Scouting",
+      "de": "Reinleinen-Kappe des Spähens",
+      "en": "True Linen Cap of Scouting",
+      "fr": "Chapeau d'éclaireur en lin hingashien",
+      "ja": "トゥルーリネン・スカウトキャップ",
+      "ko": "True Linen Cap of Scouting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Coat of Striking",
+      "de": "Reinleinen-Mantel des Schlagens",
+      "en": "True Linen Coat of Striking",
+      "fr": "Manteau d'agresseur en lin hingashien",
+      "ja": "トゥルーリネン・ストライカーコート",
+      "ko": "True Linen Coat of Striking"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Gloves of Casting",
+      "de": "Reinleinen-Handschuhe der Magie",
+      "en": "True Linen Gloves of Casting",
+      "fr": "Gants d'incantateur en lin hingashien",
+      "ja": "トゥルーリネン・キャスターグローブ",
+      "ko": "True Linen Gloves of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Gloves of Healing",
+      "de": "Reinleinen-Handschuhe der Heilung",
+      "en": "True Linen Gloves of Healing",
+      "fr": "Gants de soigneur en lin hingashien",
+      "ja": "トゥルーリネン・ヒーラーグローブ",
+      "ko": "True Linen Gloves of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Halfgloves of Striking",
+      "de": "Reinleinen-Kurzfingerhandschuhe des Schlagens",
+      "en": "True Linen Halfgloves of Striking",
+      "fr": "Mitaines d'agresseur en lin hingashien",
+      "ja": "トゥルーリネン・ストライカーハーフグローブ",
+      "ko": "True Linen Halfgloves of Striking"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Hat of Casting",
+      "de": "Reinleinen-Hut der Magie",
+      "en": "True Linen Hat of Casting",
+      "fr": "Chapeau d'incantateur en lin hingashien",
+      "ja": "トゥルーリネン・キャスターハット",
+      "ko": "True Linen Hat of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Hat of Healing",
+      "de": "Reinleinen-Hut der Heilung",
+      "en": "True Linen Hat of Healing",
+      "fr": "Chapeau de soigneur en lin hingashien",
+      "ja": "トゥルーリネン・ヒーラーハット",
+      "ko": "True Linen Hat of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Jacket of Aiming",
+      "de": "Reinleinen-Jacke des Zielens",
+      "en": "True Linen Jacket of Aiming",
+      "fr": "Jaque de pisteur en lin hingashien",
+      "ja": "トゥルーリネン・レンジャージャケット",
+      "ko": "True Linen Jacket of Aiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Jacket of Scouting",
+      "de": "Reinleinen-Jacke des Spähens",
+      "en": "True Linen Jacket of Scouting",
+      "fr": "Jaque d'éclaireur en lin hingashien",
+      "ja": "トゥルーリネン・スカウトジャケット",
+      "ko": "True Linen Jacket of Scouting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Robe of Casting",
+      "de": "Reinleinen-Robe der Magie",
+      "en": "True Linen Robe of Casting",
+      "fr": "Robe d'incantateur en lin hingashien",
+      "ja": "トゥルーリネン・キャスターローブ",
+      "ko": "True Linen Robe of Casting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Robe of Healing",
+      "de": "Reinleinen-Robe der Heilung",
+      "en": "True Linen Robe of Healing",
+      "fr": "Robe de soigneur en lin hingashien",
+      "ja": "トゥルーリネン・ヒーラーローブ",
+      "ko": "True Linen Robe of Healing"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Skirt of Fending",
+      "de": "Reinleinen-Rock der Verteidigung",
+      "en": "True Linen Skirt of Fending",
+      "fr": "Jupe de protecteur en lin hingashien",
+      "ja": "トゥルーリネン・ディフェンダースカート",
+      "ko": "True Linen Skirt of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "True Linen Trousers of Striking",
+      "de": "Reinleinen-Hose des Schlagens",
+      "en": "True Linen Trousers of Striking",
+      "fr": "Pantalon d'agresseur en lin hingashien",
+      "ja": "トゥルーリネン・ストライカートラウザー",
+      "ko": "True Linen Trousers of Striking"
+    },
+    "stars": 3
   }
 ]

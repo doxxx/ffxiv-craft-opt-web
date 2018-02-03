@@ -801,72 +801,12 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "甲胄幻象棱晶",
-      "de": "Plattner-Projektionsprisma",
-      "en": "Glamour Prism (Armorcraft)",
-      "fr": "Prisme mirage (armurerie)",
-      "ja": "ミラージュプリズム:メタルワーク",
-      "ko": "환상의 프리즘: 갑주"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "2级甲胄幻象棱晶",
-      "de": "Plattner-Projektionsprisma II",
-      "en": "Grade 2 Glamour Prism (Armorcraft)",
-      "fr": "Prisme mirage II (armurerie)",
-      "ja": "ミラージュプリズムG2:メタルワーク",
-      "ko": "2등급 환상의 프리즘: 갑주"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "3级甲胄幻象棱晶",
-      "de": "Plattner-Projektionsprisma III",
-      "en": "Grade 3 Glamour Prism (Armorcraft)",
-      "fr": "Prisme mirage III (armurerie)",
-      "ja": "ミラージュプリズムG3:メタルワーク",
-      "ko": "3등급 환상의 프리즘: 갑주"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "4级甲胄幻象棱晶",
-      "de": "Plattner-Projektionsprisma IV",
-      "en": "Grade 4 Glamour Prism (Armorcraft)",
-      "fr": "Prisme mirage IV (armurerie)",
-      "ja": "ミラージュプリズムG4:メタルワーク",
-      "ko": "4등급 환상의 프리즘: 갑주"
-    }
-  },
-  {
-    "baseLevel": 15,
-    "difficulty": 27,
-    "durability": 70,
-    "level": 15,
-    "maxQuality": 807,
-    "name": {
-      "cn": "5级甲胄幻象棱晶",
-      "de": "Plattner-Projektionsprisma V",
-      "en": "Grade 5 Glamour Prism (Armorcraft)",
-      "fr": "Prisme mirage V (armurerie)",
-      "ja": "ミラージュプリズムG5:メタルワーク",
-      "ko": "5등급 환상의 프리즘: 갑주"
+      "cn": "Glamour Prism",
+      "de": "Projektionsprisma",
+      "en": "Glamour Prism",
+      "fr": "Prisme mirage",
+      "ja": "ミラージュプリズム",
+      "ko": "Glamour Prism"
     }
   },
   {
@@ -2700,6 +2640,7 @@
     }
   },
   {
+    "aspect": "Ice",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2895,6 +2836,7 @@
     }
   },
   {
+    "aspect": "Ice",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -3015,6 +2957,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
@@ -3090,6 +3033,7 @@
     }
   },
   {
+    "aspect": "Ice",
     "baseLevel": 41,
     "difficulty": 143,
     "durability": 80,
@@ -3330,6 +3274,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -3540,6 +3485,7 @@
     }
   },
   {
+    "aspect": "Ice",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -3630,6 +3576,7 @@
     }
   },
   {
+    "aspect": "Earth",
     "baseLevel": 46,
     "difficulty": 159,
     "durability": 80,
@@ -3660,6 +3607,7 @@
     }
   },
   {
+    "aspect": "Ice",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -4756,22 +4704,6 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "cn": "飞空艇修理材料",
-      "de": "Luftschiff-Reparaturkit",
-      "en": "Airship Repair Materials",
-      "fr": "Kit de réparation d'aéronef",
-      "ja": "飛空艇修理材",
-      "ko": "비공정 수리재"
-    },
-    "stars": 2
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 233,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2921,
-    "name": {
       "cn": "玄钢胸甲部件",
       "de": "Dunkelstahl-Brustplatte",
       "en": "Darksteel Breastplate",
@@ -5066,6 +4998,22 @@
       "fr": "Modèle réduit magitek",
       "ja": "MG魔導リーパー",
       "ko": "MG 마도 리퍼"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 233,
+    "durability": 80,
+    "level": 70,
+    "maxQuality": 2921,
+    "name": {
+      "cn": "Magitek Repair Materials",
+      "de": "Magitek-Reparaturkit",
+      "en": "Magitek Repair Materials",
+      "fr": "Kit de réparation d'appareil",
+      "ja": "魔導機械修理材",
+      "ko": "Magitek Repair Materials"
     },
     "stars": 2
   },
@@ -5454,6 +5402,7 @@
     "stars": 3
   },
   {
+    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -7235,7 +7184,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金御敌开面盔",
@@ -7251,7 +7200,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金制敌开面盔",
@@ -7267,7 +7216,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金锭",
@@ -7283,7 +7232,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金御敌外套",
@@ -7299,7 +7248,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金制敌外套",
@@ -7315,7 +7264,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金御敌锁甲靴",
@@ -7331,7 +7280,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金制敌锁甲靴",
@@ -7347,7 +7296,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金御敌臂甲",
@@ -7363,7 +7312,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "精金制敌臂甲",
@@ -7379,7 +7328,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "炼真大师蒸馏器",
@@ -7392,10 +7341,11 @@
     "stars": 2
   },
   {
+    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "偃武盾",
@@ -7408,10 +7358,11 @@
     "stars": 2
   },
   {
+    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "无尽云神盾",
@@ -7427,7 +7378,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "烹饪大师厨锅",
@@ -7443,7 +7394,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "超硬加隆德钢",
@@ -7459,7 +7410,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "戎甲大师面罩",
@@ -7475,7 +7426,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "光银块",
@@ -7491,7 +7442,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈精准胸甲（复制品）",
@@ -7507,7 +7458,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈制敌胸甲（复制品）",
@@ -7523,7 +7474,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈强袭胸甲（复制品）",
@@ -7539,7 +7490,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈精准手铠（复制品）",
@@ -7555,7 +7506,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈制敌手铠（复制品）",
@@ -7571,7 +7522,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈强袭手铠（复制品）",
@@ -7587,7 +7538,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈头盔（复制品）",
@@ -7603,7 +7554,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈精准锁甲靴（复制品）",
@@ -7619,7 +7570,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈制敌锁甲靴（复制品）",
@@ -7635,7 +7586,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈强袭锁甲靴（复制品）",
@@ -7651,7 +7602,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈精准面罩（复制品）",
@@ -7667,7 +7618,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈制敌面罩（复制品）",
@@ -7683,7 +7634,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈强袭面罩（复制品）",
@@ -7699,7 +7650,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神御敌战甲（复制品）",
@@ -7715,7 +7666,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神制敌开面盔（复制品）",
@@ -7731,7 +7682,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神御敌手铠（复制品）",
@@ -7747,7 +7698,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神精准胫甲（复制品）",
@@ -7763,7 +7714,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神制敌胫甲（复制品）",
@@ -7779,7 +7730,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神制敌战铠（复制品）",
@@ -7795,7 +7746,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神御敌铠靴（复制品）",
@@ -7811,7 +7762,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "龙神制敌臂甲（复制品）",
@@ -7827,7 +7778,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈重甲（复制品）",
@@ -7843,7 +7794,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈重腿甲（复制品）",
@@ -7859,7 +7810,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈重足铠（复制品）",
@@ -7875,7 +7826,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈重手铠（复制品）",
@@ -7891,7 +7842,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位重长衣（复制品）",
@@ -7907,7 +7858,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位制敌胸甲（复制品）",
@@ -7923,7 +7874,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位强袭胸甲（复制品）",
@@ -7939,7 +7890,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位御敌手铠（复制品）",
@@ -7955,7 +7906,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位制敌手铠（复制品）",
@@ -7971,7 +7922,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位强袭手铠（复制品）",
@@ -7987,7 +7938,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位制敌头甲（复制品）",
@@ -8003,7 +7954,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位强袭头甲（复制品）",
@@ -8019,7 +7970,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位御敌铠靴（复制品）",
@@ -8035,7 +7986,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位制敌铠靴（复制品）",
@@ -8051,7 +8002,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "亚拉戈高位强袭铠靴（复制品）",
@@ -8067,7 +8018,7 @@
     "baseLevel": 60,
     "difficulty": 2584,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 4715,
     "name": {
       "cn": "戈耳狄零式座椅",
@@ -8083,7 +8034,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼御敌外套",
@@ -8099,7 +8050,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼制敌外套",
@@ -8115,7 +8066,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼御敌手铠",
@@ -8131,7 +8082,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼制敌手铠",
@@ -8147,7 +8098,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼御敌头盔",
@@ -8163,7 +8114,7 @@
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
-    "level": 170,
+    "level": 180,
     "maxQuality": 9430,
     "name": {
       "cn": "空贼制敌头盔",
@@ -8177,25 +8128,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "云银锭",
-      "de": "Wolken-Mithril-Barren",
-      "en": "Cloud Mythril Ingot",
-      "fr": "Lingot de mithril céleste",
-      "ja": "クラウドミスリルインゴット",
-      "ko": "구름미스릴 주괴"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "浮士德木人",
@@ -8209,25 +8144,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银蒸馏器",
-      "de": "Edelmythrit-Destillierkolben",
-      "en": "High Mythrite Alembic",
-      "fr": "Alambic en mithrite noble",
-      "ja": "ハイミスライトアレンビック",
-      "ko": "루미스라이트 증류기"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "光银御敌胸甲",
@@ -8241,25 +8160,9 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 11814,
-    "name": {
-      "cn": "光银平底锅",
-      "de": "Edelmythrit-Bratpfanne",
-      "en": "High Mythrite Frypan",
-      "fr": "Poêle à frire en mithrite noble",
-      "ja": "ハイミスライトフライパン",
-      "ko": "루미스라이트 프라이팬"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "光银御敌手铠",
@@ -8275,7 +8178,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "光银御敌头盔",
@@ -8291,7 +8194,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "光银锭",
@@ -8307,7 +8210,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "光银御敌腰带",
@@ -8323,7 +8226,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "光银御敌铠靴",
@@ -8339,7 +8242,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "光银制敌腰甲",
@@ -8355,7 +8258,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "光银强袭腰甲",
@@ -8371,7 +8274,7 @@
     "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "间接照明",
@@ -8387,7 +8290,7 @@
     "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "直立型间接照明",
@@ -8403,7 +8306,7 @@
     "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 5186,
     "name": {
       "cn": "壁挂型间接照明",
@@ -8419,7 +8322,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈圆盾（复制品）",
@@ -8435,7 +8338,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "亚拉戈高位鸢盾（复制品）",
@@ -8451,7 +8354,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "Shield of the Fiend",
@@ -8467,7 +8370,7 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
-    "level": 180,
+    "level": 210,
     "maxQuality": 10373,
     "name": {
       "cn": "圆桌之盾",
@@ -8481,9 +8384,57 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "云银锭",
+      "de": "Wolken-Mithril-Barren",
+      "en": "Cloud Mythril Ingot",
+      "fr": "Lingot de mithril céleste",
+      "ja": "クラウドミスリルインゴット",
+      "ko": "구름미스릴 주괴"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银蒸馏器",
+      "de": "Edelmythrit-Destillierkolben",
+      "en": "High Mythrite Alembic",
+      "fr": "Alambic en mithrite noble",
+      "ja": "ハイミスライトアレンビック",
+      "ko": "루미스라이트 증류기"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1764,
+    "durability": 70,
+    "level": 220,
+    "maxQuality": 11814,
+    "name": {
+      "cn": "光银平底锅",
+      "de": "Edelmythrit-Bratpfanne",
+      "en": "High Mythrite Frypan",
+      "fr": "Poêle à frire en mithrite noble",
+      "ja": "ハイミスライトフライパン",
+      "ko": "루미스라이트 프라이팬"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 3542,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 6593,
     "name": {
       "cn": "亚历山大模型",
@@ -8499,7 +8450,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金御敌锁甲头罩",
@@ -8515,7 +8466,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金制敌锁甲头罩",
@@ -8531,7 +8482,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金御敌胸甲",
@@ -8547,7 +8498,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金制敌胸甲",
@@ -8563,7 +8514,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金御敌手铠",
@@ -8579,7 +8530,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金制敌手铠",
@@ -8595,7 +8546,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金锭",
@@ -8611,7 +8562,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金鸢盾",
@@ -8627,7 +8578,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金御敌护腰带",
@@ -8643,7 +8594,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金制敌护腰带",
@@ -8659,7 +8610,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金御敌铠靴",
@@ -8675,7 +8626,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金制敌铠靴",
@@ -8691,7 +8642,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金精准腰甲",
@@ -8707,7 +8658,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金游击腰甲",
@@ -8723,7 +8674,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "重合金强袭腰甲",
@@ -8739,7 +8690,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠御敌铁钩护臂",
@@ -8755,7 +8706,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠治愈铁钩护臂",
@@ -8771,7 +8722,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠制敌铁钩护臂",
@@ -8787,7 +8738,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠游击铁钩护臂",
@@ -8803,7 +8754,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠精准黑铁筒靴",
@@ -8819,7 +8770,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠咏咒黑铁筒靴",
@@ -8835,7 +8786,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠强袭黑铁筒靴",
@@ -8851,7 +8802,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠游击面具",
@@ -8867,7 +8818,7 @@
     "baseLevel": 60,
     "difficulty": 1968,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "空鼠强袭面具",
@@ -8883,7 +8834,7 @@
     "baseLevel": 60,
     "difficulty": 3542,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 6593,
     "name": {
       "cn": "祖尔宛模型",
@@ -8899,7 +8850,7 @@
     "baseLevel": 60,
     "difficulty": 984,
     "durability": 70,
-    "level": 190,
+    "level": 250,
     "maxQuality": 13187,
     "name": {
       "cn": "祖尔宛装甲",
@@ -10078,7 +10029,7 @@
       "en": "Molybdenum Armguards of Scouting",
       "fr": "Garde-bras d'éclaireur en molybdène",
       "ja": "モリブデン・スカウトアームガード",
-      "ko": "몰리브덴 정잘대 팔보호구"
+      "ko": "몰리브덴 정찰대 팔보호구"
     }
   },
   {
@@ -10277,7 +10228,7 @@
       "en": "Chromite Armor of Fending",
       "fr": "Armure de protecteur en chromite",
       "ja": "クロマイトディフェンダーアーマー",
-      "ko": "Chromite Armor of Fending"
+      "ko": "크롬 수호자 갑옷"
     },
     "stars": 2
   },
@@ -10293,7 +10244,7 @@
       "en": "Chromite Gauntlets of Fending",
       "fr": "Gantelets de protecteur en chromite",
       "ja": "クロマイトディフェンダーガントレット",
-      "ko": "Chromite Gauntlets of Fending"
+      "ko": "크롬 수호자 건틀릿"
     },
     "stars": 2
   },
@@ -10309,7 +10260,7 @@
       "en": "Chromite Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en chromite",
       "ja": "クロマイトスレイヤーガントレット",
-      "ko": "Chromite Gauntlets of Maiming"
+      "ko": "크롬 학살자 건틀릿"
     },
     "stars": 2
   },
@@ -10325,7 +10276,7 @@
       "en": "Chromite Greaves of Maiming",
       "fr": "Jambards d'abatteur en chromite",
       "ja": "クロマイトスレイヤーグリーヴ",
-      "ko": "Chromite Greaves of Maiming"
+      "ko": "크롬 학살자 갑주장화"
     },
     "stars": 2
   },
@@ -10341,7 +10292,7 @@
       "en": "Chromite Helm of Fending",
       "fr": "Casque de protecteur en chromite",
       "ja": "クロマイトディフェンダーヘルム",
-      "ko": "Chromite Helm of Fending"
+      "ko": "크롬 수호자 투구"
     },
     "stars": 2
   },
@@ -10357,7 +10308,7 @@
       "en": "Chromite Ingot",
       "fr": "Lingot de chromite",
       "ja": "クロマイトインゴット",
-      "ko": "Chromite Ingot"
+      "ko": "크롬 주괴"
     },
     "stars": 2
   },
@@ -10373,7 +10324,7 @@
       "en": "Chromite Mail of Maiming",
       "fr": "Cotte de mailles d'abatteur en chromite",
       "ja": "クロマイトスレイヤーメイル",
-      "ko": "Chromite Mail of Maiming"
+      "ko": "크롬 학살자 갑옷"
     },
     "stars": 2
   },
@@ -10389,7 +10340,7 @@
       "en": "Chromite Sabatons of Fending",
       "fr": "Sabatons de protecteur en chromite",
       "ja": "クロマイトディフェンダーサバトン",
-      "ko": "Chromite Sabatons of Fending"
+      "ko": "크롬 수호자 판금장화"
     },
     "stars": 2
   },
@@ -10405,7 +10356,7 @@
       "en": "Chromite Shield",
       "fr": "Bouclier en chromite",
       "ja": "クロマイトシールド",
-      "ko": "Chromite Shield"
+      "ko": "크롬 방패"
     },
     "stars": 2
   },
@@ -10424,5 +10375,197 @@
       "ko": "Shinryu Barding"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Tier 1 Metal Aquarium",
+      "de": "Metall-Aquarium S",
+      "en": "Tier 1 Metal Aquarium",
+      "fr": "Aquarium en métal de petite taille",
+      "ja": "メタルアクアリウムG1",
+      "ko": "Tier 1 Metal Aquarium"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Tier 2 Metal Aquarium",
+      "de": "Metall-Aquarium M",
+      "en": "Tier 2 Metal Aquarium",
+      "fr": "Aquarium en métal de taille moyenne",
+      "ja": "メタルアクアリウムG2",
+      "ko": "Tier 2 Metal Aquarium"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Armor of Fending",
+      "de": "Nachtstahl-Rüstung der Verteidigung",
+      "en": "Nightsteel Armor of Fending",
+      "fr": "Armure de protecteur en noctacier",
+      "ja": "ナイトスチール・ディフェンダーアーマー",
+      "ko": "Nightsteel Armor of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Gauntlets of Fending",
+      "de": "Nachtstahl-Panzerhandschuhe der Verteidigung",
+      "en": "Nightsteel Gauntlets of Fending",
+      "fr": "Gantelets de protecteur en noctacier",
+      "ja": "ナイトスチール・ディフェンダーガントレット",
+      "ko": "Nightsteel Gauntlets of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Gauntlets of Maiming",
+      "de": "Nachtstahl-Panzerhandschuhe des Verstümmelns",
+      "en": "Nightsteel Gauntlets of Maiming",
+      "fr": "Gantelets d'abatteur en noctacier",
+      "ja": "ナイトスチール・スレイヤーガントレット",
+      "ko": "Nightsteel Gauntlets of Maiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Greaves of Maiming",
+      "de": "Nachtstahl-Beinschienen des Verstümmelns",
+      "en": "Nightsteel Greaves of Maiming",
+      "fr": "Jambards d'abatteur en noctacier",
+      "ja": "ナイトスチール・スレイヤーグリーヴ",
+      "ko": "Nightsteel Greaves of Maiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Helm of Fending",
+      "de": "Nachtstahl-Helm der Verteidigung",
+      "en": "Nightsteel Helm of Fending",
+      "fr": "Casque de protecteur en noctacier",
+      "ja": "ナイトスチール・ディフェンダーヘルム",
+      "ko": "Nightsteel Helm of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Helm of Maiming",
+      "de": "Nachtstahl-Helm des Verstümmelns",
+      "en": "Nightsteel Helm of Maiming",
+      "fr": "Casque d'abatteur en noctacier",
+      "ja": "ナイトスチール・スレイヤーヘルム",
+      "ko": "Nightsteel Helm of Maiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2365,
+    "durability": 35,
+    "level": 350,
+    "maxQuality": 20335,
+    "name": {
+      "cn": "Nightsteel Ingot",
+      "de": "Nachtstahl-Barren",
+      "en": "Nightsteel Ingot",
+      "fr": "Lingot de noctacier",
+      "ja": "ナイトスチールインゴット",
+      "ko": "Nightsteel Ingot"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Mail of Maiming",
+      "de": "Nachtstahl-Rüstung des Verstümmelns",
+      "en": "Nightsteel Mail of Maiming",
+      "fr": "Cotte de maille d'abatteur en noctacier",
+      "ja": "ナイトスチール・スレイヤーメイル",
+      "ko": "Nightsteel Mail of Maiming"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Sabatons of Fending",
+      "de": "Nachtstahl-Bärlatschen der Verteidigung",
+      "en": "Nightsteel Sabatons of Fending",
+      "fr": "Sabatons de protecteur en noctacier",
+      "ja": "ナイトスチール・ディフェンダーサバトン",
+      "ko": "Nightsteel Sabatons of Fending"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3548,
+    "durability": 70,
+    "level": 350,
+    "maxQuality": 25881,
+    "name": {
+      "cn": "Nightsteel Shield",
+      "de": "Nachtstahl-Schild",
+      "en": "Nightsteel Shield",
+      "fr": "Bouclier en noctacier",
+      "ja": "ナイトスチールシールド",
+      "ko": "Nightsteel Shield"
+    },
+    "stars": 3
   }
 ]
