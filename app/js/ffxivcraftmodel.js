@@ -686,6 +686,9 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
                 s.effects.countDowns[action.shortName] = action.activeTurns;
                 s.nameOfElementUses += 1;
             }
+            else {
+                s.wastedActions += 1;
+            }
         }
         else if (isActionEq(action, AllActions.manipulation) || isActionEq(action, AllActions.manipulation2)) {
             if (AllActions.manipulation.shortName in s.effects.countDowns) {
