@@ -348,11 +348,11 @@ function ApplyModifiers(s, action, condition) {
     }
 
     // Effects modified by Whistle While You Work
-    if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
-        if (progressIncreaseMultiplier > 0) {
-            progressIncreaseMultiplier += 0.5;
-        }
-    }
+    // if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
+    //     if (progressIncreaseMultiplier > 0) {
+    //         progressIncreaseMultiplier += 0.5;
+    //     }
+    // }
 
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
@@ -402,9 +402,9 @@ function ApplyModifiers(s, action, condition) {
         }
     }
 
-    if (isActionEq(action, AllActions.trainedHand) && !condition.checkInnerQuietEqWhistle()) {
-        bProgressGain = 0;
-    }
+    // if (isActionEq(action, AllActions.trainedHand) && !condition.checkInnerQuietEqWhistle()) {
+    //     bProgressGain = 0;
+    // }
 
     // Effects modifying quality
     var bQualityGain = qualityIncreaseMultiplier * s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
@@ -417,9 +417,9 @@ function ApplyModifiers(s, action, condition) {
             bQualityGain = 0;
         }
     }
-    if (isActionEq(action, AllActions.trainedHand) && !condition.checkInnerQuietEqWhistle()) {
-        bQualityGain = 0;
-    }
+    // if (isActionEq(action, AllActions.trainedHand) && !condition.checkInnerQuietEqWhistle()) {
+    //     bQualityGain = 0;
+    // }
 
     // Effects modifying durability cost
     var durabilityCost = action.durabilityCost;
@@ -447,22 +447,22 @@ function ApplyModifiers(s, action, condition) {
     If Whistle is at 1 and a good/excellent occurs, at the end of the action, whistle will decrement and Finishing Touches will occur
     Finishing Touches is 200% efficiency, 50% success (?) and 10 (?) durability
     */
-    if ((AllActions.whistle.shortName in s.effects.countDowns && s.effects.countDowns[AllActions.whistle.shortName] == 1) && condition.checkGoodOrExcellent()) {
-        // Cheat to see if we are dealing with MontecarloStep
-        if (condition.pGoodOrExcellent() == 1) {
-            // Success or Failure
-            var successRand = Math.random();
-            if (0 <= successRand && successRand <= ftSuccessProbability) {
-                ftSuccessProbability = 1;
-            }
-            else {
-                ftSuccessProbability = 0;
-            }
-        }
-        bProgressGain += AllActions.finishingTouches.progressIncreaseMultiplier * condition.pGoodOrExcellent() * ftSuccessProbability * ftMultiplier *
-            s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
-        durabilityCost += ftDurabilityCost * condition.pGoodOrExcellent();
-    }
+    // if ((AllActions.whistle.shortName in s.effects.countDowns && s.effects.countDowns[AllActions.whistle.shortName] == 1) && condition.checkGoodOrExcellent()) {
+    //     // Cheat to see if we are dealing with MontecarloStep
+    //     if (condition.pGoodOrExcellent() == 1) {
+    //         // Success or Failure
+    //         var successRand = Math.random();
+    //         if (0 <= successRand && successRand <= ftSuccessProbability) {
+    //             ftSuccessProbability = 1;
+    //         }
+    //         else {
+    //             ftSuccessProbability = 0;
+    //         }
+    //     }
+    //     bProgressGain += AllActions.finishingTouches.progressIncreaseMultiplier * condition.pGoodOrExcellent() * ftSuccessProbability * ftMultiplier *
+    //         s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+    //     durabilityCost += ftDurabilityCost * condition.pGoodOrExcellent();
+    // }
 
     return {
         craftsmanship: craftsmanship,
@@ -521,15 +521,15 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
-    if (isActionEq(action, AllActions.nymeiasWheel)) {
-        if (AllActions.whistle.shortName in s.effects.countDowns) {
-            s.durabilityState += NymeaisWheelTable[s.effects.countDowns[AllActions.whistle.shortName]];
-            delete s.effects.countDowns[AllActions.whistle.shortName];
-        }
-        else {
-            s.wastedActions += 1;
-        }
-    }
+    // if (isActionEq(action, AllActions.nymeiasWheel)) {
+    //     if (AllActions.whistle.shortName in s.effects.countDowns) {
+    //         s.durabilityState += NymeaisWheelTable[s.effects.countDowns[AllActions.whistle.shortName]];
+    //         delete s.effects.countDowns[AllActions.whistle.shortName];
+    //     }
+    //     else {
+    //         s.wastedActions += 1;
+    //     }
+    // }
 
     if (isActionNe(action, AllActions.comfortZone) && AllActions.comfortZone.shortName in s.effects.countDowns && s.cpState >= 0) {
         s.cpState += 8;
@@ -598,14 +598,14 @@ function ApplySpecialActionEffects(s, action, condition) {
     }
 
     // Effects modified by Whistle While You Work
-    if (isActionEq(action, AllActions.satisfaction) && s.cpState > 0) {
-        if (condition.checkWhistleThrees()) {
-            s.cpState += 15;
-        }
-        else {
-            s.wastedActions += 1;
-        }
-    }
+    // if (isActionEq(action, AllActions.satisfaction) && s.cpState > 0) {
+    //     if (condition.checkWhistleThrees()) {
+    //         s.cpState += 15;
+    //     }
+    //     else {
+    //         s.wastedActions += 1;
+    //     }
+    // }
 
     if (s.step == 1 && s.synth.crafter.specialist && s.synth.crafter.level >= 70 && s.cpState > 0) {
         s.effects.indefinites[AllActions.strokeOfGenius.shortName] = true;
@@ -620,14 +620,15 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
     //===============================
     // Decrement countdowns
     for (var countDown in s.effects.countDowns) {
-        if (countDown == AllActions.whistle.shortName) {
-            if (condition.checkGoodOrExcellent()) {
-                s.effects.countDowns[AllActions.whistle.shortName] -= 1 * condition.pGoodOrExcellent();
-            }
-        }
-        else {
-            s.effects.countDowns[countDown] -= 1;
-        }
+        // if (countDown == AllActions.whistle.shortName) {
+        //     if (condition.checkGoodOrExcellent()) {
+        //         s.effects.countDowns[AllActions.whistle.shortName] -= 1 * condition.pGoodOrExcellent();
+        //     }
+        // }
+        // else {
+        //     s.effects.countDowns[countDown] -= 1;
+        // }
+        s.effects.countDowns[countDown] -= 1;
 
         if (s.effects.countDowns[countDown] === 0) {
             delete s.effects.countDowns[countDown];
@@ -648,9 +649,9 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
         else if (isActionEq(action, AllActions.byregotsMiracle)) {
             // Do nothing in the event that the conditions fo Byregot's Miracle are not met
         }
-        else if (isActionEq(action, AllActions.trainedHand) && condition.checkInnerQuietEqWhistle()) {
-            s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
-        }
+        // else if (isActionEq(action, AllActions.trainedHand) && condition.checkInnerQuietEqWhistle()) {
+        //     s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
+        // }
         // Increment all other inner quiet count ups
         else if (action.qualityIncreaseMultiplier > 0) {
             s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
@@ -771,30 +772,30 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
                 return ppGood + ppExcellent;
             }
         },
-        checkInnerQuietEqWhistle: function () {
-            if (ignoreConditionReq) {
-                return true;
-            }
-            else if (s.effects.countUps[AllActions.innerQuiet.shortName] + 1 == s.effects.countDowns[AllActions.whistle.shortName]) {
-                // Until we figure out how to model this
-                return true;
-            }
-            else {
-                return false;
-            }
-        },
-        checkWhistleThrees: function () {
-            if (ignoreConditionReq) {
-                return true;
-            }
-            else if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
-                // Until we figure out how to model this
-                return true;
-            }
-            else {
-                return false;
-            }
-        }
+        // checkInnerQuietEqWhistle: function () {
+        //     if (ignoreConditionReq) {
+        //         return true;
+        //     }
+        //     else if (s.effects.countUps[AllActions.innerQuiet.shortName] + 1 == s.effects.countDowns[AllActions.whistle.shortName]) {
+        //         // Until we figure out how to model this
+        //         return true;
+        //     }
+        //     else {
+        //         return false;
+        //     }
+        // },
+        // checkWhistleThrees: function () {
+        //     if (ignoreConditionReq) {
+        //         return true;
+        //     }
+        //     else if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
+        //         // Until we figure out how to model this
+        //         return true;
+        //     }
+        //     else {
+        //         return false;
+        //     }
+        // }
     };
 
     // Initialize counters
@@ -880,9 +881,9 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
         if (AllActions.innerQuiet.shortName in s.effects.countUps) {
             iqCnt = s.effects.countUps[AllActions.innerQuiet.shortName];
         }
-        if (AllActions.whistle.shortName in s.effects.countDowns) {
-            wwywCnt = s.effects.countDowns[AllActions.whistle.shortName];
-        }
+        // if (AllActions.whistle.shortName in s.effects.countDowns) {
+        //     wwywCnt = s.effects.countDowns[AllActions.whistle.shortName];
+        // }
 
         if (debug) {
             logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f %8.1f %8.1f %5.0f %5.0f %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt, r.control, qualityGain, Math.floor(r.bProgressGain), Math.floor(r.bQualityGain), s.wastedActions);
@@ -937,30 +938,30 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
         pGoodOrExcellent: function () {
             return 1;
         },
-        checkInnerQuietEqWhistle: function () {
-            if (ignoreConditionReq) {
-                return true;
-            }
-            else if (s.effects.countUps[AllActions.innerQuiet.shortName] + 1 == s.effects.countDowns[AllActions.whistle.shortName]) {
-                // Until we figure out how to model this
-                return true;
-            }
-            else {
-                return false;
-            }
-        },
-        checkWhistleThrees: function () {
-            if (ignoreConditionReq) {
-                return true;
-            }
-            else if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
-                // Until we figure out how to model this
-                return true;
-            }
-            else {
-                return false;
-            }
-        }
+        // checkInnerQuietEqWhistle: function () {
+        //     if (ignoreConditionReq) {
+        //         return true;
+        //     }
+        //     else if (s.effects.countUps[AllActions.innerQuiet.shortName] + 1 == s.effects.countDowns[AllActions.whistle.shortName]) {
+        //         // Until we figure out how to model this
+        //         return true;
+        //     }
+        //     else {
+        //         return false;
+        //     }
+        // },
+        // checkWhistleThrees: function () {
+        //     if (ignoreConditionReq) {
+        //         return true;
+        //     }
+        //     else if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
+        //         // Until we figure out how to model this
+        //         return true;
+        //     }
+        //     else {
+        //         return false;
+        //     }
+        // }
     };
 
     // Initialize counters
@@ -1059,9 +1060,9 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     if (AllActions.innerQuiet.shortName in s.effects.countUps) {
         iqCnt = s.effects.countUps[AllActions.innerQuiet.shortName];
     }
-    if (AllActions.whistle.shortName in s.effects.countDowns) {
-        wwywCnt = s.effects.countDowns[AllActions.whistle.shortName];
-    }
+    // if (AllActions.whistle.shortName in s.effects.countDowns) {
+    //     wwywCnt = s.effects.countDowns[AllActions.whistle.shortName];
+    // }
 
     if (debug) {
         logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %-10s %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt, r.control, qualityGain, Math.floor(r.bProgressGain), Math.floor(r.bQualityGain), s.wastedActions, s.condition, success);
