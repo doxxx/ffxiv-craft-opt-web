@@ -668,7 +668,7 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
 
     if (action.type === 'indefinite') {
         if (isActionEq(action, AllActions.initialPreparations)) {
-            if (s.step == 1 ) {
+            if (s.step == 1) {
                 s.effects.indefinites[action.shortName] = true;
             }
             else {
@@ -696,6 +696,15 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
             }
             if (AllActions.manipulation2.shortName in s.effects.countDowns) {
                 delete s.effects.countDowns[AllActions.manipulation2.shortName];
+            }
+            s.effects.countDowns[action.shortName] = action.activeTurns;
+        }
+        else if (isActionEq(action, AllActions.ingenuity) || isActionEq(action, AllActions.ingenuity2)) {
+            if (AllActions.ingenuity.shortName in s.effects.countDowns) {
+                delete s.effects.countDowns[AllActions.ingenuity.shortName];
+            }
+            if (AllActions.ingenuity2.shortName in s.effects.countDowns) {
+                delete s.effects.countDowns[AllActions.ingenuity2.shortName];
             }
             s.effects.countDowns[action.shortName] = action.activeTurns;
         }
