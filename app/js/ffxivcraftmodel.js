@@ -895,6 +895,7 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
             logger.log('%2d %30s %5.0f %5.0f %8.1f %8.1f %5.1f %5.1f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt);
         }
 
+        s.action = action.shortName
     }
 
     // Check for feasibility violations
