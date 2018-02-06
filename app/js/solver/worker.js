@@ -161,7 +161,15 @@ Settings:\n\
     var actionName = settings.sequence[j];
     var action = AllActions[actionName];
     if (action !== undefined) {
-      sequence.push(action);
+      if (crafterActions.filter(function (value) { return value.shortName === actionName }).length !== 0) {
+        sequence.push(action);
+      }
+      else {
+        logOutput.write('Error: Removing disabled action from sequence: ' + actionName + '\n');
+      }
+    }
+    else {
+      logOutput.write('Error: Removing unsupported action from sequence: ' + actionName + '\n');
     }
   }
 
