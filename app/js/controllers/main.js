@@ -266,6 +266,13 @@
       var newSequence = JSON.parse(synthString);
 
       if (Array.isArray(newSequence) && newSequence.length > 0) {
+        for (var i=0; i < newSequence.length; i++) {
+          var seqAction = newSequence[i];
+          if (!$scope.allActions[seqAction]) {
+            newSequence.splice(i, 1);
+            i--;
+          }
+        }
         $scope.sequence = newSequence;
       }
     }

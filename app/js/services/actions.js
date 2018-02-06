@@ -44,7 +44,7 @@
     // Heavensward
     byregotsBrow: {            common: true,             skillID: {"Alchemist": 100126, "Armorer": 100122, "Blacksmith": 100121, "Carpenter": 100120, "Culinarian": 100127, "Goldsmith": 100123, "Leatherworker": 100124, "Weaver": 100125} },
     preciseTouch: {                                      skillID: {"Alchemist": 100134, "Armorer": 100130, "Blacksmith": 100129, "Carpenter": 100128, "Culinarian": 100135, "Goldsmith": 100131, "Leatherworker": 100132, "Weaver": 100133} },
-    makersMark: {                            buff: true, skillID: {"Goldsmith": 100178} },
+    makersMark: {                                        skillID: {"Goldsmith": 100178} },
     muscleMemory: {                                      skillID: {"Culinarian": 100136} },
 
     // Specialist
