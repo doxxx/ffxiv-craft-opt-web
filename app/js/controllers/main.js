@@ -23,6 +23,7 @@
     $scope.saveSynthAs = saveSynthAs;
     $scope.deleteSynth = deleteSynth;
     $scope.renameSynth = renameSynth;
+    $scope.importMacro = importMacro;
     $scope.importSynth = importSynth;
     $scope.exportSynth = exportSynth;
     $scope.synthNameForDisplay = synthNameForDisplay;
@@ -259,20 +260,37 @@
       $scope.savedSynthNames = $scope.profile.synthNames();
     }
 
+    function importMacro() {
+      if (!$scope.profile) return;
+
+      var macroString = window.prompt('Enter new synth sequence macro:');
+
+      var regex = /\/ac(tion)?\s+"(.*?)"\s*<wait\.\d+>/g;
+      var newSequence = [];
+      var result;
+      while (result = regex.exec(macroString)) {
+        var action = result[2];
+        for (var key in $scope.allActions) {
+          var value = $scope.allActions[key];
+          if (action === value.name || action === $translate.instant(value.name)) {
+            newSequence.push(key);
+          }
+        }
+      }
+
+      if (newSequence.length > 0) {
+        $scope.sequence = newSequence;
+      }
+    }
+
     function importSynth() {
       if (!$scope.profile) return;
 
-      var synthString = window.prompt('Enter new synth sequence code:', synthString);
+      var synthString = window.prompt('Enter new synth sequence code:');
       var newSequence = JSON.parse(synthString);
 
       if (Array.isArray(newSequence) && newSequence.length > 0) {
-        for (var i=0; i < newSequence.length; i++) {
-          var seqAction = newSequence[i];
-          if (!$scope.allActions[seqAction]) {
-            newSequence.splice(i, 1);
-            i--;
-          }
-        }
+        newSequence = newSequence.filter(function (value) { return $scope.allActions[value]; });
         $scope.sequence = newSequence;
       }
     }
