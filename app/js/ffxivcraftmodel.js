@@ -252,7 +252,8 @@ function calcNameOfMultiplier(s) {
     /* From http://redd.it/3ejmp2 and http://redd.it/3d3meb
      Assume for now that the function is linear, but capped with a minimum of 110%
      */
-    var nameOfMultiplier = -2 * (s.progressState / s.synth.recipe.difficulty) + 3;
+    var percentComplete = Math.floor(s.progressState / s.synth.recipe.difficulty * 100) / 100;
+    var nameOfMultiplier = -2 * percentComplete + 3;
     nameOfMultiplier = Math.max(nameOfMultiplier, 1.1);
 
     return nameOfMultiplier;
