@@ -248,6 +248,45 @@ function NewStateFromSynth(synth) {
     return new State(synth, step, lastStep, '', durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition);
 }
 
+function probGoodForSynth(synth) {
+    var recipeLevel = synth.recipe.level;
+    var qualityAssurance = synth.crafter.level >= 63;
+    if (recipeLevel >= 300) { // 70*+
+        return qualityAssurance ? 0.11 : 0.10;
+    }
+    else if (recipeLevel >= 276) { // 65+
+        return qualityAssurance ? 0.17 : 0.15;
+    }
+    else if (recipeLevel >= 255) { // 61+
+        return qualityAssurance ? 0.22 : 0.20;
+    }
+    else if (recipeLevel >= 150) { // 60+
+        return qualityAssurance ? 0.11 : 0.10;
+    }
+    else if (recipeLevel >= 136) { // 55+
+        return qualityAssurance ? 0.17 : 0.15;
+    }
+    else {
+        return qualityAssurance ? 0.27 : 0.25;
+    }
+}
+
+function probExcellentForSynth(synth) {
+    var recipeLevel = synth.recipe.level;
+    if (recipeLevel >= 300) { // 70*+
+        return 0.01;
+    }
+    else if (recipeLevel >= 255) { // 61+
+        return 0.02;
+    }
+    else if (recipeLevel >= 150) { // 60+
+        return 0.01;
+    }
+    else {
+        return 0.02;
+    }
+}
+
 function calcNameOfMultiplier(s) {
     /* From http://redd.it/3ejmp2 and http://redd.it/3d3meb
      Assume for now that the function is linear, but capped with a minimum of 110%
@@ -773,8 +812,8 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
     var s = startState.clone();
 
     // Conditions
-    var pGood = 0.23;
-    var pExcellent = 0.01;
+    var pGood = probGoodForSynth(s.synth);
+    var pExcellent = probExcellentForSynth(s.synth);
     var ignoreConditionReq = !s.synth.useConditions;
 
     // Step 1 is always normal
@@ -945,8 +984,8 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     var s = startState.clone();
 
     // Conditions
-    var pGood = 0.23;
-    var pExcellent = 0.01;
+    var pGood = probGoodForSynth(s.synth);
+    var pExcellent = probExcellentForSynth(s.synth);
     var ignoreConditionReq = !s.synth.useConditions;
     var randomizeConditions = !ignoreConditionReq;
 
