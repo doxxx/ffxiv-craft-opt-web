@@ -75,7 +75,12 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     var levelCorrectedProgress = 0;
     var recipeLevelPenalty = 0;
 
-    baseProgress = 1.834712812e-5 * craftsmanship * craftsmanship + 1.904074773e-1 * craftsmanship + 1.544103837;
+    if (crafterLevel > 110) {
+        baseProgress = 1.834712812e-5 * craftsmanship * craftsmanship + 1.904074773e-1 * craftsmanship + 1.544103837;
+    }
+    else {
+        baseProgress = 0.214959 * craftsmanship + 1.6;
+    }
 
     // Level boost for recipes below crafter level
     if (levelDifference > 0) {
@@ -88,17 +93,19 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
         levelCorrectionFactor += (0.05 / 5) * Math.min(levelDifference - 15, 5);
     }
     if (levelDifference > 20) {
-        levelCorrectionFactor += (0.04 / 60) * (levelDifference - 20);
+        levelCorrectionFactor += 0.0006 * (levelDifference - 20);
     }
 
     // Level penalty for recipes above crafter level
-    // Seems to be capped at -10
     if (levelDifference < 0) {
         levelCorrectionFactor += 0.025 * Math.max(levelDifference, -10);
         if (ProgressPenaltyTable[recipeLevel]) {
             recipeLevelPenalty += ProgressPenaltyTable[recipeLevel];
         }
     }
+
+    // Level factor is rounded to nearest percent
+    levelCorrectionFactor = Math.floor(levelCorrectionFactor * 100) / 100;
 
     levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor) * (1 + recipeLevelPenalty);
 
@@ -111,15 +118,27 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     var levelCorrectionFactor = 0;
     var levelCorrectedQuality = 0;
 
-    for (var penaltyLevel in QualityPenaltyTable) {
-        var penaltyValue = QualityPenaltyTable[penaltyLevel];
-        if (recipeLevel >= penaltyLevel && penaltyValue < recipeLevelPenalty) {
-              recipeLevelPenalty = penaltyValue;
-        }
-    }
-
     baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
 
+    if (recipeLevel > 50) {
+        // Starts at base penalty amount depending on recipe tier
+        var recipeLevelPenaltyLevel = 0;
+        for (var penaltyLevel in QualityPenaltyTable) {
+            penaltyLevel = parseInt(penaltyLevel);
+            var penaltyValue = QualityPenaltyTable[penaltyLevel];
+            if (recipeLevel >= penaltyLevel && penaltyLevel >= recipeLevelPenaltyLevel) {
+                recipeLevelPenalty = penaltyValue;
+                recipeLevelPenaltyLevel = penaltyLevel;
+            }
+        }
+        // Smaller penalty applied for additional recipe levels within the tier
+        recipeLevelPenalty += (recipeLevel - recipeLevelPenaltyLevel) * -0.0002;
+    }
+    else {
+        recipeLevelPenalty += recipeLevel * -0.00015 + 0.005;
+    }
+
+    // Level penalty for recipes above crafter level
     if (levelDifference < 0) {
         levelCorrectionFactor = 0.05 * Math.max(levelDifference, -10);
     }
@@ -1888,27 +1907,24 @@ var NymeaisWheelTable = {
 }
 
 var ProgressPenaltyTable = {
-    160: -0.01,
     180: -0.02,
-    210: -0.03,
-    220: -0.03,
+    210: -0.035,
+    220: -0.035,
     250: -0.04,
-    300: -0.01,
     320: -0.02,
-    350: -0.03,
+    350: -0.035,
 }
 
 var QualityPenaltyTable = {
-    55: -0.02,
+    0: -0.02,
     90: -0.03,
-    115: -0.04,
     160: -0.05,
     180: -0.06,
-    210: -0.07,
-    250: -0.08,
+    200: -0.07,
+    245: -0.08,
     300: -0.09,
-    320: -0.10,
-    350: -0.11,
+    310: -0.10,
+    340: -0.11,
 }
 
 // Test objects
