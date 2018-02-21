@@ -65,7 +65,7 @@
       var crossClass = {};
       for (var i = 0; i < sequence.length; i++) {
         var action = sequence[i];
-        if (_isActionCrossClass(action, cls) && !crossClass[action]) {
+        if (_isActionCrossClass(action) && !crossClass[action]) {
           crossClass[action] = true;
         }
       }

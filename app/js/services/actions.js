@@ -243,7 +243,7 @@
     return info.imagePaths[cls];
   }
 
-  function isActionCrossClass(name, currentClass) {
+  function isActionCrossClass(name) {
     if (!angular.isDefined(name)) {
       console.error('undefined action');
       return undefined;
@@ -253,7 +253,7 @@
       console.error('unknown action: %s', name);
       return undefined;
     }
-    return info.cls !== 'All' && info.cls !== currentClass;
+    return info.cls !== 'All';
   }
 
 
