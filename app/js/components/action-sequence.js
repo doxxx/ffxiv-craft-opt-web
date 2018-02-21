@@ -26,7 +26,7 @@
     $scope.getActionImagePath = _getActionImagePath;
     $scope.cssClassesForAction = cssClassesForAction;
     $scope.actionForName = actionForName;
-    $scope.isActionCrossClass = isActionCrossClass;
+    $scope.isActionCrossClass = _isActionCrossClass;
 
     $scope.actionTooltips = {};
 
@@ -62,10 +62,6 @@
 
     function actionForName(name) {
       return _actionsByName[name];
-    }
-
-    function isActionCrossClass(name) {
-      return _isActionCrossClass(name, $scope.cls);
     }
   }
 })();
