@@ -243,7 +243,7 @@
     return info.imagePaths[cls];
   }
 
-  function isActionCrossClass(name) {
+  function iActionClassSpecific(name) {
     if (!angular.isDefined(name)) {
       console.error('undefined action');
       return undefined;
@@ -263,6 +263,6 @@
     value('_actionsByName', actionsByName).
     value('_actionGroups', actionGroups).
     value('_getActionImagePath', getActionImagePath).
-    value('_isActionCrossClass', isActionCrossClass);
+    value('_iActionClassSpecific', iActionClassSpecific);
 
 })();

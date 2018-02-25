@@ -516,7 +516,7 @@ div[content*="xivdb"] div.tooltip-arrow {
   opacity: 0.4;
 }
 
-.icon .cross-class {
+.icon .class-icon {
   position: absolute;
   top: 0;
   right: 0;
@@ -524,11 +524,11 @@ div[content*="xivdb"] div.tooltip-arrow {
   line-height: 12px;
 }
 
-.icon .cross-class>img {
+.icon .class-icon>img {
   width: 16px;
 }
 
-.sequence-small .icon .cross-class>img {
+.sequence-small .icon .class-icon>img {
   width: 12px;
 }
 

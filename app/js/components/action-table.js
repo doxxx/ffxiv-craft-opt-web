@@ -21,12 +21,12 @@
     }
   }
 
-  function controller($scope, _actionGroups, _actionsByName, _xivdbtooltips, _getActionImagePath, _isActionCrossClass) {
+  function controller($scope, _actionGroups, _actionsByName, _xivdbtooltips, _getActionImagePath, _iActionClassSpecific) {
     $scope.actionGroups = _actionGroups;
     $scope.getActionImagePath = _getActionImagePath;
     $scope.cssClassesForAction = cssClassesForAction;
     $scope.actionForName = actionForName;
-    $scope.isActionCrossClass = _isActionCrossClass;
+    $scope.iActionClassSpecific = _iActionClassSpecific;
 
     $scope.actionTooltips = {};
 

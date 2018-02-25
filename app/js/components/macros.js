@@ -20,7 +20,7 @@
     }
   }
 
-  function controller($scope, $translate, _actionsByName, _allActions, _isActionCrossClass) {
+  function controller($scope, $translate, _actionsByName, _allActions, _iActionClassSpecific) {
     $scope.macroList = [];
 
     $scope.$on('$translateChangeSuccess', update);
@@ -65,7 +65,7 @@
       var crossClass = {};
       for (var i = 0; i < sequence.length; i++) {
         var action = sequence[i];
-        if (_isActionCrossClass(action) && !crossClass[action]) {
+        if (_iActionClassSpecific(action) && !crossClass[action]) {
           crossClass[action] = true;
         }
       }
