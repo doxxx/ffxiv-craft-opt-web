@@ -1,7 +1,20 @@
 <p>Click + Ctrl/Cmd-C on each block to copy to clipboard.</p>
-<label class="checkbox">
-  <input type="checkbox" ng-model="options.setupCrossClassActions"/>Generate cross-class action setup
-</label>
+<form>
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox">
+        <input type="checkbox" ng-model="options.setupCrossClassActions"/>Generate cross-class action activation macro>
+      </label>
+      <br/>
+      <span>
+        <label class="checkbox" ng-class="{disabled:!options.setupCrossClassActions}">
+          <input type="checkbox" ng-model="options.includeCurrentClassActions" ng-disabled="!options.setupCrossClassActions"/>
+          Include current class actions
+        </label>
+      </span>
+    </div>
+  </div>
+</form>
 <div ng-if="options.setupCrossClassActions">
   <h6>Cross-class Action Setup Macro</h6>
   <textarea style="width:auto" cols="60" rows="8" readonly select-on-click>{{crossClassSetupMacroText}}</textarea>

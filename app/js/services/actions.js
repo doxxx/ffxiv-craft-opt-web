@@ -256,6 +256,19 @@
     return info.cls !== 'All';
   }
 
+  function isActionCrossClass(name, currentClass) {
+    if (!angular.isDefined(name)) {
+      console.error('undefined action');
+      return undefined;
+    }
+    var info = actionsByName[name];
+    if (!angular.isDefined(info)) {
+      console.error('unknown action: %s', name);
+      return undefined;
+    }
+    return info.cls !== 'All' && info.cls !== currentClass;
+  }
+
 
   angular.module('ffxivCraftOptWeb.services.actions', []).
     value('_allClasses', allClasses).
@@ -263,6 +276,7 @@
     value('_actionsByName', actionsByName).
     value('_actionGroups', actionGroups).
     value('_getActionImagePath', getActionImagePath).
-    value('_iActionClassSpecific', iActionClassSpecific);
+    value('_iActionClassSpecific', iActionClassSpecific).
+    value('_isActionCrossClass', isActionCrossClass);
 
 })();

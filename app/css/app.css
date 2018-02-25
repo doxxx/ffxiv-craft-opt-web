@@ -920,3 +920,7 @@ label {
 .input-fill {
   width: 100%;
 }
+
+label.checkbox.disabled {
+    color: #ccc;
+}
