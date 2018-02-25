@@ -1,2 +1,2 @@
 @echo off
-browser-sync start --port 8001 --server app --files app
+browser-sync start --server app --files app/**
