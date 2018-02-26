@@ -3,21 +3,19 @@
   <div class="control-group">
     <div class="controls">
       <label class="checkbox">
-        <input type="checkbox" ng-model="options.setupCrossClassActions"/>Generate cross-class action activation macro>
+        <input type="checkbox" ng-model="options.setupCrossClassActions"/>Generate cross-class action activation macro
       </label>
       <br/>
-      <span>
-        <label class="checkbox" ng-class="{disabled:!options.setupCrossClassActions}">
-          <input type="checkbox" ng-model="options.includeCurrentClassActions" ng-disabled="!options.setupCrossClassActions"/>
-          Include current class actions
-        </label>
-      </span>
+      <label class="checkbox" ng-if="options.setupCrossClassActions">
+        <input type="checkbox" ng-model="options.includeCurrentClassActions"/>
+        Include current class actions
+      </label>
     </div>
   </div>
 </form>
 <div ng-if="options.setupCrossClassActions">
   <h6>Cross-class Action Setup Macro</h6>
-  <textarea style="width:auto" cols="60" rows="8" readonly select-on-click>{{crossClassSetupMacroText}}</textarea>
+  <textarea style="width:auto" cols="60" rows="10" readonly select-on-click>{{crossClassSetupMacroText}}</textarea>
 </div>
 <div ng-repeat="macro in macroList track by $index">
   <h6>Macro #{{$index+1}} <small>({{macro.time}}s)</small></h6>
