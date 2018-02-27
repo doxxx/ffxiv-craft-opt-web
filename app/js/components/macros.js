@@ -20,7 +20,7 @@
     }
   }
 
-  function controller($scope, $translate, _actionsByName, _allActions, _isActionCrossClass) {
+  function controller($scope, $translate, _actionsByName, _allActions, _iActionClassSpecific, _isActionCrossClass) {
     $scope.macroList = [];
 
     $scope.$on('$translateChangeSuccess', update);
@@ -61,15 +61,20 @@
       return '<se.' + num + '>';
     }
 
-    function buildCrossClassActionSetupLines(options, sequence, cls) {
+    function extractCrossClassActions(options, sequence, cls) {
       var crossClass = {};
+      var testFunc = options.includeCurrentClassActions ? _iActionClassSpecific : _isActionCrossClass;
       for (var i = 0; i < sequence.length; i++) {
         var action = sequence[i];
-        if (_isActionCrossClass(action) && !crossClass[action]) {
+        if (!crossClass[action] && testFunc(action, cls)) {
           crossClass[action] = true;
         }
       }
-      crossClass = Object.keys(crossClass);
+      return Object.keys(crossClass).sort();
+    }
+
+    function buildCrossClassActionSetupLines(options, sequence, cls) {
+      var crossClass = extractCrossClassActions(options, sequence, cls);
 
       var lines = [];
       if (crossClass.length > 0) {
@@ -142,7 +147,7 @@
         macroTime += line.time;
         macroLineCount += 1;
 
-        if (macroLineCount === MAX_LINES-1) {
+        if (macroLineCount === MAX_LINES - 1) {
           if (lines.length - (j + 1) > 1) {
             macroString += '/echo Macro #' + macroIndex + ' complete ' + soundEffect(options.stepSoundEffect) + '\n';
             macroList.push({text: macroString, time: macroTime});

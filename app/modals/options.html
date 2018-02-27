@@ -193,9 +193,14 @@
               <div class="span12">
                 <div class="control-group">
                   <div class="controls">
-                    <label class="checkbox" tooltip="Whether to generate a separate macro that activates the necessary cross-class actions." tooltip-placement="right">
+                    <label class="checkbox" tooltip="Whether to generate a separate macro that activates the necessary cross-class actions." tooltip-placement="top">
                       <input type="checkbox" name="setupCrossClassActions" ng-model="macroOptions.setupCrossClassActions"/>
-                      Generate cross-class action setup
+                      Generate cross-class action activation macro
+                    </label>
+                    <br/>
+                    <label class="checkbox" ng-class="{disabled:!macroOptions.setupCrossClassActions}" tooltip="Whether to include the current class' actions in the cross-class action activation macro." tooltip-placement="top">
+                      <input type="checkbox" name="includeCurrentClassActions" ng-model="macroOptions.includeCurrentClassActions" ng-disabled="!macroOptions.setupCrossClassActions"/>
+                      Include current class' actions in cross-class action activation macro
                     </label>
                   </div>
                 </div>

@@ -6,13 +6,13 @@
     .controller('MainController', controller);
 
   function controller($scope, $rootScope, $q, $modal, $translate, $location, _allClasses, _actionGroups, _actionsByName,
-    _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats, _languages, _isActionCrossClass)
+    _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats, _languages, _iActionClassSpecific)
   {
     $scope.allClasses = _allClasses;
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
     $scope.getActionImagePath = _getActionImagePath;
-    $scope.isActionCrossClass = _isActionCrossClass;
+    $scope.iActionClassSpecific = _iActionClassSpecific;
 
     $scope.changeLang = changeLang;
     $scope.currentLang = currentLang;

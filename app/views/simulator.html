@@ -67,7 +67,7 @@
                     on-drop="dropAction(dragEl, dropEl)">
                 <img ng-src="{{getActionImagePath(action, recipe.cls)}}"/>
                 <span ng-if="actionForName(action).cpCost" class="cp">{{actionForName(action).cpCost}}</span>
-                <span ng-if="isActionCrossClass(action)" class="cross-class">
+                <span ng-if="iActionClassSpecific(action)" class="class-icon">
                   <img ng-src="img/classes/{{actionForName(action).cls}}.png"/>
                 </span>
               </div>
