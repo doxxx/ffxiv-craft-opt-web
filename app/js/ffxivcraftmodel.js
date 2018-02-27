@@ -75,7 +75,12 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     var levelCorrectedProgress = 0;
     var recipeLevelPenalty = 0;
 
-    baseProgress = 1.834712812e-5 * craftsmanship * craftsmanship + 1.904074773e-1 * craftsmanship + 1.544103837;
+    if (crafterLevel > 110) {
+        baseProgress = 1.834712812e-5 * craftsmanship * craftsmanship + 1.904074773e-1 * craftsmanship + 1.544103837;
+    }
+    else {
+        baseProgress = 0.214959 * craftsmanship + 1.6;
+    }
 
     // Level boost for recipes below crafter level
     if (levelDifference > 0) {
@@ -88,17 +93,19 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
         levelCorrectionFactor += (0.05 / 5) * Math.min(levelDifference - 15, 5);
     }
     if (levelDifference > 20) {
-        levelCorrectionFactor += (0.04 / 60) * (levelDifference - 20);
+        levelCorrectionFactor += 0.0006 * (levelDifference - 20);
     }
 
     // Level penalty for recipes above crafter level
-    // Seems to be capped at -10
     if (levelDifference < 0) {
         levelCorrectionFactor += 0.025 * Math.max(levelDifference, -10);
         if (ProgressPenaltyTable[recipeLevel]) {
             recipeLevelPenalty += ProgressPenaltyTable[recipeLevel];
         }
     }
+
+    // Level factor is rounded to nearest percent
+    levelCorrectionFactor = Math.floor(levelCorrectionFactor * 100) / 100;
 
     levelCorrectedProgress = baseProgress * (1 + levelCorrectionFactor) * (1 + recipeLevelPenalty);
 
@@ -111,15 +118,27 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     var levelCorrectionFactor = 0;
     var levelCorrectedQuality = 0;
 
-    for (var penaltyLevel in QualityPenaltyTable) {
-        var penaltyValue = QualityPenaltyTable[penaltyLevel];
-        if (recipeLevel >= penaltyLevel && penaltyValue < recipeLevelPenalty) {
-              recipeLevelPenalty = penaltyValue;
-        }
-    }
-
     baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
 
+    if (recipeLevel > 50) {
+        // Starts at base penalty amount depending on recipe tier
+        var recipeLevelPenaltyLevel = 0;
+        for (var penaltyLevel in QualityPenaltyTable) {
+            penaltyLevel = parseInt(penaltyLevel);
+            var penaltyValue = QualityPenaltyTable[penaltyLevel];
+            if (recipeLevel >= penaltyLevel && penaltyLevel >= recipeLevelPenaltyLevel) {
+                recipeLevelPenalty = penaltyValue;
+                recipeLevelPenaltyLevel = penaltyLevel;
+            }
+        }
+        // Smaller penalty applied for additional recipe levels within the tier
+        recipeLevelPenalty += (recipeLevel - recipeLevelPenaltyLevel) * -0.0002;
+    }
+    else {
+        recipeLevelPenalty += recipeLevel * -0.00015 + 0.005;
+    }
+
+    // Level penalty for recipes above crafter level
     if (levelDifference < 0) {
         levelCorrectionFactor = 0.05 * Math.max(levelDifference, -10);
     }
@@ -229,11 +248,51 @@ function NewStateFromSynth(synth) {
     return new State(synth, step, lastStep, '', durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition);
 }
 
+function probGoodForSynth(synth) {
+    var recipeLevel = synth.recipe.level;
+    var qualityAssurance = synth.crafter.level >= 63;
+    if (recipeLevel >= 300) { // 70*+
+        return qualityAssurance ? 0.11 : 0.10;
+    }
+    else if (recipeLevel >= 276) { // 65+
+        return qualityAssurance ? 0.17 : 0.15;
+    }
+    else if (recipeLevel >= 255) { // 61+
+        return qualityAssurance ? 0.22 : 0.20;
+    }
+    else if (recipeLevel >= 150) { // 60+
+        return qualityAssurance ? 0.11 : 0.10;
+    }
+    else if (recipeLevel >= 136) { // 55+
+        return qualityAssurance ? 0.17 : 0.15;
+    }
+    else {
+        return qualityAssurance ? 0.27 : 0.25;
+    }
+}
+
+function probExcellentForSynth(synth) {
+    var recipeLevel = synth.recipe.level;
+    if (recipeLevel >= 300) { // 70*+
+        return 0.01;
+    }
+    else if (recipeLevel >= 255) { // 61+
+        return 0.02;
+    }
+    else if (recipeLevel >= 150) { // 60+
+        return 0.01;
+    }
+    else {
+        return 0.02;
+    }
+}
+
 function calcNameOfMultiplier(s) {
     /* From http://redd.it/3ejmp2 and http://redd.it/3d3meb
      Assume for now that the function is linear, but capped with a minimum of 110%
      */
-    var nameOfMultiplier = -2 * (s.progressState / s.synth.recipe.difficulty) + 3;
+    var percentComplete = Math.floor(s.progressState / s.synth.recipe.difficulty * 100) / 100;
+    var nameOfMultiplier = -2 * percentComplete + 3;
     nameOfMultiplier = Math.max(nameOfMultiplier, 1.1);
 
     return nameOfMultiplier;
@@ -753,8 +812,8 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
     var s = startState.clone();
 
     // Conditions
-    var pGood = 0.23;
-    var pExcellent = 0.01;
+    var pGood = probGoodForSynth(s.synth);
+    var pExcellent = probExcellentForSynth(s.synth);
     var ignoreConditionReq = !s.synth.useConditions;
 
     // Step 1 is always normal
@@ -925,8 +984,8 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     var s = startState.clone();
 
     // Conditions
-    var pGood = 0.23;
-    var pExcellent = 0.01;
+    var pGood = probGoodForSynth(s.synth);
+    var pExcellent = probExcellentForSynth(s.synth);
     var ignoreConditionReq = !s.synth.useConditions;
     var randomizeConditions = !ignoreConditionReq;
 
@@ -1888,27 +1947,24 @@ var NymeaisWheelTable = {
 }
 
 var ProgressPenaltyTable = {
-    160: -0.01,
     180: -0.02,
-    210: -0.03,
-    220: -0.03,
+    210: -0.035,
+    220: -0.035,
     250: -0.04,
-    300: -0.01,
     320: -0.02,
-    350: -0.03,
+    350: -0.035,
 }
 
 var QualityPenaltyTable = {
-    55: -0.02,
+    0: -0.02,
     90: -0.03,
-    115: -0.04,
     160: -0.05,
     180: -0.06,
-    210: -0.07,
-    250: -0.08,
+    200: -0.07,
+    245: -0.08,
     300: -0.09,
-    320: -0.10,
-    350: -0.11,
+    310: -0.10,
+    340: -0.11,
 }
 
 // Test objects
