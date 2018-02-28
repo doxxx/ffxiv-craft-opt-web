@@ -924,3 +924,10 @@ label {
 label.checkbox.disabled {
     color: #ccc;
 }
+
+.macro-import-modal textarea.macro-text {
+    width:100%;
+    box-sizing: border-box;         /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;    /* For Firefox                          */
+    -webkit-box-sizing: border-box; /* For Safari                           */
+}
