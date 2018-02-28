@@ -264,6 +264,7 @@
       if (!$scope.profile) return;
 
       var macroString = window.prompt('Enter new synth sequence macro:');
+      if (macroString === null || macroString === "") { return; }
 
       var regex = /\/ac(tion)?\s+"(.*?)"\s*<wait\.\d+>/g;
       var newSequence = [];
@@ -281,18 +282,38 @@
       if (newSequence.length > 0) {
         $scope.sequence = newSequence;
       }
+      else {
+          window.alert("Error: Invalid macro synth sequence.");
+      }
     }
 
     function importSynth() {
       if (!$scope.profile) return;
 
       var synthString = window.prompt('Enter new synth sequence code:');
-      var newSequence = JSON.parse(synthString);
+      if (synthString === null || synthString === "") { return; }
 
-      if (Array.isArray(newSequence) && newSequence.length > 0) {
-        newSequence = newSequence.filter(function (value) { return $scope.allActions[value]; });
-        $scope.sequence = newSequence;
+      var newSequence;
+      try {
+        newSequence = JSON.parse(synthString);
+      } catch(e) {
+        window.alert("Error: Malformed synth sequence.");
+        return;
       }
+
+      if (Array.isArray(newSequence)) {
+        newSequence = newSequence.filter(function (value) { return $scope.allActions[value] !== undefined; });
+        if (newSequence.length > 0) {
+          $scope.sequence = newSequence;
+        }
+        else {
+          window.alert("Error: Empty synth sequence.");
+        }
+      }
+      else {
+        window.alert("Error: Invalid synth sequence.");
+      }
+
     }
 
     function exportSynth() {
