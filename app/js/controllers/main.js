@@ -23,7 +23,7 @@
     $scope.saveSynthAs = saveSynthAs;
     $scope.deleteSynth = deleteSynth;
     $scope.renameSynth = renameSynth;
-    $scope.importMacro = importMacro;
+    $scope.showMacroImportModal = showMacroImportModal;
     $scope.importSynth = importSynth;
     $scope.exportSynth = exportSynth;
     $scope.synthNameForDisplay = synthNameForDisplay;
@@ -260,31 +260,17 @@
       $scope.savedSynthNames = $scope.profile.synthNames();
     }
 
-    function importMacro() {
+    function showMacroImportModal() {
       if (!$scope.profile) return;
 
-      var macroString = window.prompt('Enter new synth sequence macro:');
-      if (macroString === null || macroString === "") { return; }
-
-      var regex = /\/ac(tion)?\s+"(.*?)"\s*<wait\.\d+>/g;
-      var newSequence = [];
-      var result;
-      while (result = regex.exec(macroString)) {
-        var action = result[2];
-        for (var key in $scope.allActions) {
-          var value = $scope.allActions[key];
-          if (action === value.name || action === $translate.instant(value.name)) {
-            newSequence.push(key);
-          }
-        }
-      }
-
-      if (newSequence.length > 0) {
-        $scope.sequence = newSequence;
-      }
-      else {
-          window.alert("Error: Invalid macro synth sequence.");
-      }
+      var modalInstance = $modal.open({
+        templateUrl: 'modals/macroimport.html',
+        controller: 'MacroImportController',
+        windowClass: 'macro-import-modal',
+      });
+      modalInstance.result.then(function (result) {
+        $scope.sequence = result.sequence;
+      });
     }
 
     function importSynth() {

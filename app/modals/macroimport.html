@@ -1,0 +1,23 @@
+<div class="modal-header">
+  <h3 style="text-align: center">Macro Import</h3>
+</div>
+
+<div class="modal-body">
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <p>Paste the macro in the box below. You can combine multiple macros into a single sequence by pasting them in
+          the correct order and then importing. Lines which don't contain <samp>/ac</samp> or <samp>/action</samp> are
+          automatically filtered out.</p>
+        <textarea class="macro-text" rows="10" auto-focus ng-model="vm.macroText"></textarea>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="modal-footer">
+  <button class="btn btn-primary" ng-click="vm.importMacro()" ng-disabled="!vm.canImport()">Import</button>
+  <button class="btn" ng-click="vm.cancel()">Cancel</button>
+</div>
