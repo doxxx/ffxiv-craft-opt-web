@@ -1127,6 +1127,15 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     //     wwywCnt = s.effects.countDowns[AllActions.whistle.shortName];
     // }
 
+    // If the action was wasted, revert all changes, to simulate the step in a
+    // macro "erroring out"
+    if (startState.wastedActions != s.wastedActions) {
+        var s2 = startState.clone();
+        s2.wastedActions = s.wastedActions;
+        s = s2;
+        success = false;
+    }
+
     if (debug) {
         logger.log('%2d %30s %5.0f %5.0f %8.0f %8.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %5.0f %-10s %5.0f', s.step, action.name, s.durabilityState, s.cpState, s.qualityState, s.progressState, iqCnt, wwywCnt, r.control, qualityGain, Math.floor(r.bProgressGain), Math.floor(r.bQualityGain), s.wastedActions, s.condition, success);
     }
@@ -1261,7 +1270,7 @@ function MonteCarloSim(individual, synth, nRuns, verbose, debug, logOutput) {
 
     var finalStateTracker = [];
     for (var i=0; i < nRuns; i++) {
-        var runSynth = MonteCarloSequence(individual, startState, false, true, false, false, logOutput);
+        var runSynth = MonteCarloSequence(individual, startState, false, false, false, false, logOutput);
         finalStateTracker[finalStateTracker.length] = runSynth;
 
         if (verbose) {
