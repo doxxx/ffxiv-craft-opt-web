@@ -422,8 +422,9 @@
         maxLength: 50,
         specifySeed: false,
         seed: 1337,
+        monteCarloMode: 'macro',
         useConditions: true,
-        overrideOnCondition: false,
+        conditionalActionHandling: 'skipUnusable',
         debug: false
       };
 
@@ -462,6 +463,22 @@
 
       $scope.settings.name = state.settingsName;
       $scope.crafter.cls = state.crafterClass;
+
+      // Migrate settings
+      if ($scope.sequenceSettings.overrideOnCondition !== undefined) {
+        if ($scope.sequenceSettings.overrideOnCondition) {
+          $scope.sequenceSettings.monteCarloMode = 'advanced';
+          $scope.sequenceSettings.conditionalActionHandling = 'reposition';
+        }
+        else {
+          $scope.sequenceSettings.monteCarloMode = 'macro';
+          $scope.sequenceSettings.conditionalActionHandling = 'skipUnusable';
+        }
+
+        delete $scope.sequenceSettings.overrideOnCondition;
+
+        saveLocalPageState($scope);
+      }
 
       return true;
     }

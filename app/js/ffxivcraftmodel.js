@@ -1157,11 +1157,14 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
 
 }
 
-function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCondition, verbose, debug, logOutput) {
-    overrideOnCondition = overrideOnCondition !== undefined ? overrideOnCondition : true;
+function MonteCarloSequence(individual, startState, assumeSuccess, conditionalActionHandling, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : true;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
+
+    if (conditionalActionHandling !== 'reposition' && conditionalActionHandling !== 'skipUnusable' && conditionalActionHandling !== 'ignoreUnusable') {
+        throw new Error("invalid conditionalActionHandling value: " + conditionalActionHandling);
+    }
 
     var logger = new Logger(logOutput);
 
@@ -1177,7 +1180,7 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCon
     }
 
     // Strip Tricks of the Trade from individual
-    if (overrideOnCondition) {
+    if (conditionalActionHandling === 'reposition') {
         var onExcellentOnlyActions = [];
         var onGoodOnlyActions = [];
         var onGoodOrExcellentActions = [];
@@ -1224,7 +1227,13 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCon
     for (i=0; i < individual.length; i++) {
         var action = individual[i];
 
-        if (overrideOnCondition) {
+        // Determine if action is usable
+        var usable = action.onExcellent && s.condition === 'Excellent' ||
+                     action.onGood && s.condition === 'Good' ||
+                     action.onPoor && s.condition === 'Poor' ||
+                     (!action.onExcellent && !action.onGood && !action.onPoor);
+
+        if (conditionalActionHandling === 'reposition') {
             // Manually re-add condition dependent action when conditions are met
             if (s.condition === 'Excellent' && s.trickUses < maxConditionUses) {
                 if (onExcellentOnlyActions.length > 0) {
@@ -1252,10 +1261,30 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCon
                     states.push(s);
                 }
             }
-        }
 
-        s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
-        states.push(s);
+            // Process the original action as another step
+            s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
+            states.push(s);
+        }
+        else if (conditionalActionHandling === 'skipUnusable') {
+            // If not usable, record a skipped action without progressing other status counters
+            if (!usable) {
+                s = s.clone();
+                s.action = action.shortName;
+                s.wastedActions += 1;
+                states.push(s);
+            }
+            // Otherwise, process action as normal
+            else {
+                s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
+                states.push(s);
+            }
+        }
+        else if (conditionalActionHandling === 'ignoreUnusable') {
+            // If not usable, skip action effect, progress other status counters
+            s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
+            states.push(s);
+        }
     }
 
     // Check for feasibility violations
@@ -1275,7 +1304,7 @@ function MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCon
     return states;
 }
 
-function MonteCarloSim(individual, synth, nRuns, assumeSuccess, overrideOnCondition, verbose, debug, logOutput) {
+function MonteCarloSim(individual, synth, nRuns, assumeSuccess, conditionalActionHandling, verbose, debug, logOutput) {
     verbose = verbose !== undefined ? verbose : false;
     debug = debug !== undefined ? debug : false;
     logOutput = logOutput !== undefined ? logOutput : null;
@@ -1288,8 +1317,7 @@ function MonteCarloSim(individual, synth, nRuns, assumeSuccess, overrideOnCondit
     var worseSequenceStates;
     var finalStateTracker = [];
     for (var i=0; i < nRuns; i++) {
-        //var states = MonteCarloSequence(individual, startState, false, true, false, false, logOutput);
-        var states = MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCondition, false, false, logOutput);
+        var states = MonteCarloSequence(individual, startState, assumeSuccess, conditionalActionHandling, false, false, logOutput);
         var finalState = states[states.length-1];
 
         if (!bestSequenceStates || finalState.qualityState > bestSequenceStates[bestSequenceStates.length-1].qualityState) {
@@ -1378,8 +1406,7 @@ function MonteCarloSim(individual, synth, nRuns, assumeSuccess, overrideOnCondit
 
     logger.log("Monte Carlo Random Example");
     logger.log("==========================");
-    // MonteCarloSequence(sim.sequence, sim.startState, false, settings.overrideOnCondition, false, true, logOutput);
-    MonteCarloSequence(individual, startState, assumeSuccess, overrideOnCondition, false, true, logOutput);
+    MonteCarloSequence(individual, startState, assumeSuccess, conditionalActionHandling, false, true, logOutput);
 
     logger.log('');
 

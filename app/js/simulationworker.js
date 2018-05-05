@@ -108,10 +108,10 @@ function runMonteCarloSim(id, settings) {
   logOutput.write("=".repeat(monteCarloSimHeader.length));
   logOutput.write("\n");
 
-  var mcSimResult = MonteCarloSim(sim.sequence, sim.synth, settings.maxMontecarloRuns, false, settings.overrideOnCondition, false, settings.debug, logOutput);
+  var mcSimResult = MonteCarloSim(sim.sequence, sim.synth, settings.maxMontecarloRuns, false, settings.conditionalActionHandling, false, settings.debug, logOutput);
 
   // Don't use conditions for final state to avoid oscillating results in the simulation state UI
-  var states = MonteCarloSequence(sim.sequence, sim.startStateNoConditions, true, false, false, false, logOutput);
+  var states = MonteCarloSequence(sim.sequence, sim.startStateNoConditions, true, 'skipUnusable', false, false, logOutput);
   var finalState = states[states.length - 1];
 
   var violations = finalState.checkViolations();

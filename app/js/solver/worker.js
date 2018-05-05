@@ -188,7 +188,7 @@ Settings:\n\
 
     logOutput.write('\n\n');
 
-    var states = MonteCarloSequence(sequence, NewStateFromSynth(synth), true, false, false, settings.debug, logOutput);
+    var states = MonteCarloSequence(sequence, NewStateFromSynth(synth), true, 'skipUnusable', false, settings.debug, logOutput);
     var heuristcState = states[states.length-1];
 
     var chk = heuristcState.checkViolations();
@@ -296,7 +296,7 @@ function finish() {
 function postProgress(gen, maxGen, best, synthNoConditions) {
   var startState = NewStateFromSynth(synthNoConditions);
 
-  var states = MonteCarloSequence(best, startState, true, false, false, false);
+  var states = MonteCarloSequence(best, startState, true, 'skipUnusable', false, false);
   var currentState = states[states.length-1];
   var violations = currentState.checkViolations();
 

@@ -921,7 +921,7 @@ label {
   width: 100%;
 }
 
-label.checkbox.disabled {
+label.disabled {
     color: #ccc;
 }
 
