@@ -103,21 +103,16 @@ function runMonteCarloSim(id, settings) {
 
   logOutput.write('Seed: %d, Use Conditions: %s\n\n'.sprintf(sim.seed, sim.synth.useConditions));
 
-  logOutput.write("Monte Carlo Example\n");
-  logOutput.write("===================\n");
-  MonteCarloSequence(sim.sequence, sim.startState, false, settings.overrideOnCondition, false, true, logOutput);
-
-  logOutput.write("\n");
-
   var monteCarloSimHeader = "Monte Carlo Result of " + settings.maxMontecarloRuns + " runs";
   logOutput.write(monteCarloSimHeader + "\n");
   logOutput.write("=".repeat(monteCarloSimHeader.length));
   logOutput.write("\n");
 
-  var mcSimResult = MonteCarloSim(sim.sequence, sim.synth, settings.maxMontecarloRuns, false, settings.debug, logOutput);
+  var mcSimResult = MonteCarloSim(sim.sequence, sim.synth, settings.maxMontecarloRuns, false, settings.overrideOnCondition, false, settings.debug, logOutput);
 
-  // Don't use conditions for final state to avoid random results
-  var finalState = MonteCarloSequence(sim.sequence, sim.startStateNoConditions, true, false, false, false, logOutput);
+  // Don't use conditions for final state to avoid oscillating results in the simulation state UI
+  var states = MonteCarloSequence(sim.sequence, sim.startStateNoConditions, true, false, false, false, logOutput);
+  var finalState = states[states.length - 1];
 
   var violations = finalState.checkViolations();
 
