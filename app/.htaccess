@@ -1,1 +1,2 @@
 FileETag MTime Size
+Header set Cache-Control "no-cache, private, max-age=300"
