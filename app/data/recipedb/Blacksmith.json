@@ -8244,7 +8244,7 @@
     "baseLevel": 57,
     "difficulty": 808,
     "durability": 60,
-    "id": "60f830de22b",
+    "id": "a5c87757c3e",
     "level": 142,
     "maxQuality": 5456,
     "name": {
@@ -8260,7 +8260,7 @@
     "baseLevel": 57,
     "difficulty": 404,
     "durability": 60,
-    "id": "6a0574f21ef",
+    "id": "667d2caee0f",
     "level": 142,
     "maxQuality": 2728,
     "name": {
@@ -8579,8 +8579,24 @@
   {
     "baseLevel": 58,
     "difficulty": 863,
+    "durability": 70,
+    "id": "d307bbadbe3",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Brazier Components",
+      "de": "Feuerschalenteil",
+      "en": "Brazier Components",
+      "fr": "Composant de braséro",
+      "ja": "篝火台部材",
+      "ko": "Brazier Components"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
     "durability": 60,
-    "id": "dce5b225f29",
+    "id": "d12c7d11916",
     "level": 145,
     "maxQuality": 5664,
     "name": {
@@ -8596,7 +8612,7 @@
     "baseLevel": 58,
     "difficulty": 431,
     "durability": 60,
-    "id": "aec80761f53",
+    "id": "eaa318bef57",
     "level": 145,
     "maxQuality": 2832,
     "name": {
@@ -8606,6 +8622,86 @@
       "fr": "Composant de souvenir du Coerthas",
       "ja": "寒冷地の名産品部材",
       "ko": "한랭지 특산품 부재"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "id": "d1ffda48aa5",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Finery Components",
+      "de": "Tauschware",
+      "en": "Finery Components",
+      "fr": "Marchandises commerciales",
+      "ja": "交易品部材",
+      "ko": "Finery Components"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "id": "1ba75931447",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Happi Components",
+      "de": "Happi-Element",
+      "en": "Happi Components",
+      "fr": "Composant de happi",
+      "ja": "ハッピ部材",
+      "ko": "Happi Components"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 1553,
+    "durability": 70,
+    "id": "463f4d7d4d7",
+    "level": 145,
+    "maxQuality": 3540,
+    "name": {
+      "cn": "Ritual Implement Components",
+      "de": "Reinigungsfetisch",
+      "en": "Ritual Implement Components",
+      "fr": "Instruments de purification",
+      "ja": "清めの祭具",
+      "ko": "Ritual Implement Components"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 1553,
+    "durability": 70,
+    "id": "1ae44f4e1ef",
+    "level": 145,
+    "maxQuality": 3540,
+    "name": {
+      "cn": "Trinket Components",
+      "de": "Kleinigkeit",
+      "en": "Trinket Components",
+      "fr": "Présent modeste",
+      "ja": "粗品部材",
+      "ko": "Trinket Components"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 431,
+    "durability": 35,
+    "id": "11989d74baa",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Uchiwa Components",
+      "de": "Fächerteil",
+      "en": "Uchiwa Components",
+      "fr": "Élément d'éventail",
+      "ja": "うちわ部材",
+      "ko": "Uchiwa Components"
     }
   },
   {
@@ -8738,9 +8834,89 @@
   },
   {
     "baseLevel": 59,
+    "difficulty": 1378,
+    "durability": 70,
+    "id": "2c182fa3aae",
+    "level": 148,
+    "maxQuality": 5504,
+    "name": {
+      "cn": "Altar Components",
+      "de": "Altarelement",
+      "en": "Altar Components",
+      "fr": "Composant d'autel",
+      "ja": "供物台部材",
+      "ko": "Altar Components"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 1654,
+    "durability": 70,
+    "id": "57026ff1588",
+    "level": 148,
+    "maxQuality": 3669,
+    "name": {
+      "cn": "Azim Steppe Souvenir Components",
+      "de": "Handelsware",
+      "en": "Azim Steppe Souvenir Components",
+      "fr": "Produit d'inspiration nomade",
+      "ja": "遊牧民風の商材",
+      "ko": "Azim Steppe Souvenir Components"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "id": "b5c47b9525c",
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "cn": "Buuz Cooking Paraphernalia",
+      "de": "Buuds-Kochutensilie",
+      "en": "Buuz Cooking Paraphernalia",
+      "fr": "Ustensile de cuisine pour buuz",
+      "ja": "ボーズ調理用品",
+      "ko": "Buuz Cooking Paraphernalia"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "id": "25c1afb036c",
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "cn": "Catfish Lure Components",
+      "de": "Wels-Köder",
+      "en": "Catfish Lure Components",
+      "fr": "Accessoire de pêche au poisson-chat",
+      "ja": "ナマズ釣り具",
+      "ko": "Catfish Lure Components"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "id": "8b835103450",
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "cn": "Hingan Ritual Paraphernalia",
+      "de": "Ritualgegenstand zur Ahnenverehrung",
+      "en": "Hingan Ritual Paraphernalia",
+      "fr": "Objet cérémoniel",
+      "ja": "先祖の接待用品",
+      "ko": "Hingan Ritual Paraphernalia"
+    }
+  },
+  {
+    "baseLevel": 59,
     "difficulty": 919,
     "durability": 60,
-    "id": "64762cae877",
+    "id": "9e503db2256",
     "level": 148,
     "maxQuality": 5871,
     "name": {
@@ -8756,7 +8932,7 @@
     "baseLevel": 59,
     "difficulty": 459,
     "durability": 60,
-    "id": "a0e54649ea5",
+    "id": "4253ccdc95e",
     "level": 148,
     "maxQuality": 2935,
     "name": {
@@ -8766,6 +8942,38 @@
       "fr": "Composant d'équipement militaire du Maelstrom",
       "ja": "黒渦団の軍需品部材",
       "ko": "흑와단 군수품 부재"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 459,
+    "durability": 35,
+    "id": "70c73db73b3",
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "cn": "Mol Tea Ceremony Paraphernalia",
+      "de": "Tee-Bedarfsartikel",
+      "en": "Mol Tea Ceremony Paraphernalia",
+      "fr": "Élément de cérémonie du thé",
+      "ja": "茶会必需品",
+      "ko": "Mol Tea Ceremony Paraphernalia"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 1323,
+    "durability": 70,
+    "id": "fdde31c540b",
+    "level": 148,
+    "maxQuality": 1834,
+    "name": {
+      "cn": "Substitute Offering",
+      "de": "Opfergabe",
+      "en": "Substitute Offering",
+      "fr": "Offrande piégée",
+      "ja": "供物用品",
+      "ko": "Substitute Offering"
     }
   },
   {
@@ -8978,9 +9186,137 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "e2724e1cdb5",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Ceremonial Bow Components",
+      "de": "Ritualbogenelement",
+      "en": "Ceremonial Bow Components",
+      "fr": "Composant d'arc cérémoniel",
+      "ja": "祭弓部材",
+      "ko": "Ceremonial Bow Components"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 35,
+    "id": "53f3d625708",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Confetti-making Tools",
+      "de": "Konfettiwerkzeug",
+      "en": "Confetti-making Tools",
+      "fr": "Outil de papeterie",
+      "ja": "紙吹雪生産道具",
+      "ko": "Confetti-making Tools"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "149777036be",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Culinary Knife Component",
+      "de": "Messerteil",
+      "en": "Culinary Knife Component",
+      "fr": "Composant de couteau de cuisine",
+      "ja": "愛用の包丁部材",
+      "ko": "Culinary Knife Component"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "id": "4f6caf85bfa",
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "cn": "Drum Parts",
+      "de": "Trommelwerkstoff",
+      "en": "Drum Parts",
+      "fr": "Composant de taiko",
+      "ja": "太鼓部材",
+      "ko": "Drum Parts"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "c2c23191e97",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Dzo Shear Components",
+      "de": "Scherenteil",
+      "en": "Dzo Shear Components",
+      "fr": "Élément d'entretien de ciseaux de toilettage",
+      "ja": "毛刈りハサミ部材",
+      "ko": "Dzo Shear Components"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1147,
+    "durability": 70,
+    "id": "6ee833710b3",
+    "level": 150,
+    "maxQuality": 2904,
+    "name": {
+      "cn": "Effigy Components",
+      "de": "Namazuo-Puppenelement",
+      "en": "Effigy Components",
+      "fr": "Composant de géant d'osier",
+      "ja": "ナマズオ人形部材",
+      "ko": "Effigy Components"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "3355351493b",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Elixir Mixing Paraphernalia",
+      "de": "Destillierapparat-Ersatzteil",
+      "en": "Elixir Mixing Paraphernalia",
+      "fr": "Élément nécessaire à une mixtion",
+      "ja": "素敵な調合用品",
+      "ko": "Elixir Mixing Paraphernalia"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1434,
+    "durability": 70,
+    "id": "cc45a5f4272",
+    "level": 150,
+    "maxQuality": 5888,
+    "name": {
+      "cn": "Generous Gift",
+      "de": "Dankeschön-Geschenk",
+      "en": "Generous Gift",
+      "fr": "Cadeau de remerciement",
+      "ja": "感謝の贈答品",
+      "ko": "Generous Gift"
+    }
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
-    "id": "84cf3daf3c7",
+    "id": "93a99efaaec",
     "level": 150,
     "maxQuality": 6280,
     "name": {
@@ -8996,7 +9332,7 @@
     "baseLevel": 60,
     "difficulty": 478,
     "durability": 60,
-    "id": "1a351c439f5",
+    "id": "392ba0e5adb",
     "level": 150,
     "maxQuality": 3140,
     "name": {
@@ -9012,7 +9348,7 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
-    "id": "ffd65a47a2a",
+    "id": "f7017812c10",
     "level": 150,
     "maxQuality": 6280,
     "name": {
@@ -9028,7 +9364,7 @@
     "baseLevel": 60,
     "difficulty": 478,
     "durability": 60,
-    "id": "9909c3ea722",
+    "id": "f86f9631c81",
     "level": 150,
     "maxQuality": 3140,
     "name": {
@@ -9038,6 +9374,102 @@
       "fr": "Composant de cadeau attentionné",
       "ja": "心尽くしの贈答品部材",
       "ko": "정성이 가득한 선물 부재"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "355c58bc079",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Korrigan Doll",
+      "de": "Bezaubernde Korrigane-Puppe",
+      "en": "Korrigan Doll",
+      "fr": "Poupée envoûtante korrigan",
+      "ja": "魅惑の魔物人形",
+      "ko": "Korrigan Doll"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "ab9b919e7cd",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Land Diving Gear",
+      "de": "Zubehörteil für ein Naghol-Sprungseil",
+      "en": "Land Diving Gear",
+      "fr": "Composant de système d'attache",
+      "ja": "ナゴール用品",
+      "ko": "Land Diving Gear"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "id": "90a598f39d7",
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "cn": "Mikoshi Frippery",
+      "de": "Mikoshi-Element",
+      "en": "Mikoshi Frippery",
+      "fr": "Composant de mikoshi",
+      "ja": "御輿部材",
+      "ko": "Mikoshi Frippery"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "cadf015ebfc",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Pristine Fruit Figurine",
+      "de": "Festliches Wurfgeschoss",
+      "en": "Pristine Fruit Figurine",
+      "fr": "Répliques de produits régionaux",
+      "ja": "投擲用特産品",
+      "ko": "Pristine Fruit Figurine"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "bfdc3a3fd60",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Stable Supplies",
+      "de": "Utensil für die Pferdezucht",
+      "en": "Stable Supplies",
+      "fr": "Accessoire d'élevage équin",
+      "ja": "馬番必需品",
+      "ko": "Stable Supplies"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "733bca13a55",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Steeping Accessory",
+      "de": "Kochwerkzeug",
+      "en": "Steeping Accessory",
+      "fr": "Composant de cuisine namazu",
+      "ja": "ナマズオ焼き用品",
+      "ko": "Steeping Accessory"
     }
   },
   {
@@ -9078,7 +9510,7 @@
     "baseLevel": 60,
     "difficulty": 1116,
     "durability": 60,
-    "id": "774ce7c16ef",
+    "id": "8268168d862",
     "level": 160,
     "maxQuality": 6701,
     "name": {
@@ -9095,7 +9527,7 @@
     "baseLevel": 60,
     "difficulty": 558,
     "durability": 60,
-    "id": "a4f45958fd1",
+    "id": "27fc778be4d",
     "level": 160,
     "maxQuality": 3350,
     "name": {
@@ -9112,7 +9544,7 @@
     "baseLevel": 60,
     "difficulty": 1116,
     "durability": 60,
-    "id": "7abc38d8a7a",
+    "id": "bd1785606e4",
     "level": 160,
     "maxQuality": 6701,
     "name": {
@@ -9129,7 +9561,7 @@
     "baseLevel": 60,
     "difficulty": 558,
     "durability": 60,
-    "id": "81e2c9eb0bb",
+    "id": "b51fea977f8",
     "level": 160,
     "maxQuality": 3350,
     "name": {
@@ -10656,7 +11088,7 @@
     "baseLevel": 61,
     "difficulty": 1116,
     "durability": 60,
-    "id": "350c9a8f853",
+    "id": "4169d488e07",
     "level": 255,
     "maxQuality": 6701,
     "name": {
@@ -10672,7 +11104,7 @@
     "baseLevel": 61,
     "difficulty": 558,
     "durability": 60,
-    "id": "00014f4a6fb",
+    "id": "1f28badb965",
     "level": 255,
     "maxQuality": 3350,
     "name": {
@@ -10943,6 +11375,70 @@
   {
     "baseLevel": 62,
     "difficulty": 1684,
+    "durability": 60,
+    "id": "dcf01a83f28",
+    "level": 265,
+    "maxQuality": 7801,
+    "name": {
+      "cn": "Anti-shark Harpoon",
+      "de": "Haifischharpune",
+      "en": "Anti-shark Harpoon",
+      "fr": "Harpon anti-requin",
+      "ja": "サメ対策用品",
+      "ko": "Anti-shark Harpoon"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 60,
+    "id": "ed3b24072ad",
+    "level": 265,
+    "maxQuality": 7801,
+    "name": {
+      "cn": "Gyr Abanian Remedies",
+      "de": "Phiolenset abanischer Medizin",
+      "en": "Gyr Abanian Remedies",
+      "fr": "Remèdes gyrabaniens",
+      "ja": "ギラバニア医薬品",
+      "ko": "Gyr Abanian Remedies"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 60,
+    "id": "be14de59a19",
+    "level": 265,
+    "maxQuality": 3900,
+    "name": {
+      "cn": "Gyr Abanian Remedy Components",
+      "de": "Komponente abanischer Medizin",
+      "en": "Gyr Abanian Remedy Components",
+      "fr": "Composants pour remèdes gyrabaniens",
+      "ja": "ギラバニア医薬品部材",
+      "ko": "Gyr Abanian Remedy Components"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 60,
+    "id": "a675016e702",
+    "level": 265,
+    "maxQuality": 3900,
+    "name": {
+      "cn": "Harpoon Components",
+      "de": "Komponente einer Haifischharpune",
+      "en": "Harpoon Components",
+      "fr": "Composants pour harpon anti-requin",
+      "ja": "サメ対策用品部材",
+      "ko": "Harpoon Components"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
     "durability": 80,
     "id": "117a2c549dc",
     "level": 265,
@@ -11104,7 +11600,7 @@
     "baseLevel": 62,
     "difficulty": 1684,
     "durability": 60,
-    "id": "f03e6b12d08",
+    "id": "ed9c7b34a1e",
     "level": 265,
     "maxQuality": 7801,
     "name": {
@@ -11120,7 +11616,7 @@
     "baseLevel": 62,
     "difficulty": 842,
     "durability": 60,
-    "id": "653bc24034f",
+    "id": "e5e4ca8da9a",
     "level": 265,
     "maxQuality": 3900,
     "name": {
@@ -11130,6 +11626,38 @@
       "fr": "Composant de produits du quotidien des M",
       "ja": "メ族の日用品部材",
       "ko": "메씨족 일용품 부재"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 60,
+    "id": "b0b1f28f7cb",
+    "level": 270,
+    "maxQuality": 8351,
+    "name": {
+      "cn": "Coerthan Cold-weather Gear",
+      "de": "Coerthischer Wintermantel",
+      "en": "Coerthan Cold-weather Gear",
+      "fr": "Vêtements chauds du Coerthas",
+      "ja": "クルザス防寒品",
+      "ko": "Coerthan Cold-weather Gear"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 60,
+    "id": "e8855402b93",
+    "level": 270,
+    "maxQuality": 4175,
+    "name": {
+      "cn": "Cold-weather Gear Components",
+      "de": "Komponente coerthischer Winterkleidung",
+      "en": "Cold-weather Gear Components",
+      "fr": "Composants pour vêtements chauds du Coerthas",
+      "ja": "クルザス防寒品部材",
+      "ko": "Cold-weather Gear Components"
     }
   },
   {
@@ -11280,7 +11808,7 @@
     "baseLevel": 63,
     "difficulty": 1968,
     "durability": 60,
-    "id": "065a77c1ffd",
+    "id": "044fb8a1bd2",
     "level": 270,
     "maxQuality": 8351,
     "name": {
@@ -11296,7 +11824,7 @@
     "baseLevel": 63,
     "difficulty": 984,
     "durability": 60,
-    "id": "9289f0ef46e",
+    "id": "69269559ba9",
     "level": 270,
     "maxQuality": 4175,
     "name": {
@@ -11306,6 +11834,70 @@
       "fr": "Composant de provisions pour l'armée de libération",
       "ja": "解放軍の軍需品部材",
       "ko": "해방군 군수품 부재"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 60,
+    "id": "16861d96119",
+    "level": 270,
+    "maxQuality": 8351,
+    "name": {
+      "cn": "Sui-no-Sato Special",
+      "de": "Kostbarkeit aus Sui no Sato",
+      "en": "Sui-no-Sato Special",
+      "fr": "Spécialité de Sui-no-Sato",
+      "ja": "スイ特産品",
+      "ko": "Sui-no-Sato Special"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 60,
+    "id": "f27605515a9",
+    "level": 270,
+    "maxQuality": 4175,
+    "name": {
+      "cn": "Sui-no-Sato Special Components",
+      "de": "Komponente einer Kostbarkeit aus Sui no Sato",
+      "en": "Sui-no-Sato Special Components",
+      "fr": "Composants pour spécialité de Sui-no-Sato",
+      "ja": "スイ特産品部材",
+      "ko": "Sui-no-Sato Special Components"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 60,
+    "id": "3cf42caaf82",
+    "level": 273,
+    "maxQuality": 8680,
+    "name": {
+      "cn": "Cloud Pearl",
+      "de": "Wolkenmeerperle",
+      "en": "Cloud Pearl",
+      "fr": "Rareté de la Mer de nuages",
+      "ja": "雲海の珍宝",
+      "ko": "Cloud Pearl"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 60,
+    "id": "3f34c374955",
+    "level": 273,
+    "maxQuality": 4340,
+    "name": {
+      "cn": "Cloud Pearl Components",
+      "de": "Komponente einer Wolkenmeerperle",
+      "en": "Cloud Pearl Components",
+      "fr": "Composants pour rareté de la Mer de nuages",
+      "ja": "雲海の珍宝部材",
+      "ko": "Cloud Pearl Components"
     }
   },
   {
@@ -12494,11 +13086,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 3188,
     "durability": 70,
     "id": "877c11583bf",
     "level": 320,
-    "maxQuality": 28506,
+    "maxQuality": 22171,
     "name": {
       "cn": "Ala Mhigan Cross-pein Hammer",
       "de": "Mhigischer Kreuzschlaghammer",
@@ -12511,11 +13103,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 3188,
     "durability": 70,
     "id": "821a7c534e0",
     "level": 320,
-    "maxQuality": 28506,
+    "maxQuality": 22171,
     "name": {
       "cn": "Ala Mhigan Hatchet",
       "de": "Mhigisches Handbeil",
@@ -12528,11 +13120,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 3188,
     "durability": 70,
     "id": "f7a34d1e7fd",
     "level": 320,
-    "maxQuality": 28506,
+    "maxQuality": 22171,
     "name": {
       "cn": "Ala Mhigan Lapidary Hammer",
       "de": "Mhigischer Juwelierhammer",
@@ -12545,11 +13137,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 3188,
     "durability": 70,
     "id": "fe5601cb431",
     "level": 320,
-    "maxQuality": 28506,
+    "maxQuality": 22171,
     "name": {
       "cn": "Ala Mhigan Pickaxe",
       "de": "Mhigische Spitzhacke",
@@ -12562,11 +13154,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 3188,
     "durability": 70,
     "id": "ee0f7df0195",
     "level": 320,
-    "maxQuality": 28506,
+    "maxQuality": 22171,
     "name": {
       "cn": "Ala Mhigan Raising Hammer",
       "de": "Mhigischer Schlichthammer",
@@ -12579,11 +13171,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 3188,
     "durability": 70,
     "id": "b344edeecb7",
     "level": 320,
-    "maxQuality": 28506,
+    "maxQuality": 22171,
     "name": {
       "cn": "Ala Mhigan Round Knife",
       "de": "Mhigisches Rundmesser",
@@ -12596,11 +13188,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 3188,
     "durability": 70,
     "id": "09b572024fd",
     "level": 320,
-    "maxQuality": 28506,
+    "maxQuality": 22171,
     "name": {
       "cn": "Ala Mhigan Saw",
       "de": "Mhigische Säge",
@@ -12783,6 +13375,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "3b07d04cf18",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Awl",
+      "de": "Nachtstahl-Ahle",
+      "en": "Nightsteel Awl",
+      "fr": "Alêne en noctacier",
+      "ja": "ナイトスチールアウル",
+      "ko": "Nightsteel Awl"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3548,
     "durability": 70,
     "id": "f2a42ec1bf6",
@@ -12817,6 +13426,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "699a028f4fa",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Claw Hammer",
+      "de": "Nachtstahl-Klauenhammer",
+      "en": "Nightsteel Claw Hammer",
+      "fr": "Marteau arrache-clou en noctacier",
+      "ja": "ナイトスチール・クローハンマー",
+      "ko": "Nightsteel Claw Hammer"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3548,
     "durability": 70,
     "id": "1dade63c5ae",
@@ -12829,6 +13455,40 @@
       "fr": "Griffes en noctacier",
       "ja": "ナイトスチールクロー",
       "ko": "Nightsteel Claws"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "256d64ed5a3",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Cross-pein Hammer",
+      "de": "Nachtstahl-Kreuzschlaghammer",
+      "en": "Nightsteel Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en noctacier",
+      "ja": "ナイトスチール・クロスペインハンマー",
+      "ko": "Nightsteel Cross-pein Hammer"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "d6f35361484",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Culinary Knife",
+      "de": "Nachtstahl-Küchenmesser",
+      "en": "Nightsteel Culinary Knife",
+      "fr": "Couteau de cuisine en noctacier",
+      "ja": "ナイトスチール・クリナリーナイフ",
+      "ko": "Nightsteel Culinary Knife"
     },
     "stars": 3
   },
@@ -12851,6 +13511,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "b1e8d160722",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel File",
+      "de": "Nachtstahl-Feile",
+      "en": "Nightsteel File",
+      "fr": "Lime en noctacier",
+      "ja": "ナイトスチールファイル",
+      "ko": "Nightsteel File"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3548,
     "durability": 70,
     "id": "80cf34c44a0",
@@ -12863,6 +13540,23 @@
       "fr": "Grande épée en noctacier",
       "ja": "ナイトスチール・グレートソード",
       "ko": "Nightsteel Greatsword"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "092e29e329c",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Hatchet",
+      "de": "Nachtstahl-Handbeil",
+      "en": "Nightsteel Hatchet",
+      "fr": "Hachette en noctacier",
+      "ja": "ナイトスチールハチェット",
+      "ko": "Nightsteel Hatchet"
     },
     "stars": 3
   },
@@ -12902,6 +13596,142 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "2f714ee12a1",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Lapidary Hammer",
+      "de": "Nachtstahl-Juwelierhammer",
+      "en": "Nightsteel Lapidary Hammer",
+      "fr": "Marteau de lapidaire en noctacier",
+      "ja": "ナイトスチール・ラピダリーハンマー",
+      "ko": "Nightsteel Lapidary Hammer"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "1ef3b3e0926",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Mortar",
+      "de": "Nachtstahl-Mörser",
+      "en": "Nightsteel Mortar",
+      "fr": "Mortier en noctacier",
+      "ja": "ナイトスチールモーター",
+      "ko": "Nightsteel Mortar"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "869c3433db8",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Pickaxe",
+      "de": "Nachtstahl-Spitzhacke",
+      "en": "Nightsteel Pickaxe",
+      "fr": "Pioche en noctacier",
+      "ja": "ナイトスチールピック",
+      "ko": "Nightsteel Pickaxe"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "a22b6bcafbd",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Raising Hammer",
+      "de": "Nachtstahl-Schlichthammer",
+      "en": "Nightsteel Raising Hammer",
+      "fr": "Marteau de batteur en noctacier",
+      "ja": "ナイトスチール・レイジングハンマー",
+      "ko": "Nightsteel Raising Hammer"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "9ebe2be8fde",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Round Knife",
+      "de": "Nachtstahl-Rundmesser",
+      "en": "Nightsteel Round Knife",
+      "fr": "Couteau arrondi en noctacier",
+      "ja": "ナイトスチール・ラウンドナイフ",
+      "ko": "Nightsteel Round Knife"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "9f933c94c70",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Saw",
+      "de": "Nachtstahl-Säge",
+      "en": "Nightsteel Saw",
+      "fr": "Scie en noctacier",
+      "ja": "ナイトスチールソー",
+      "ko": "Nightsteel Saw"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "19c7f80db37",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Scythe",
+      "de": "Nachtstahl-Sense",
+      "en": "Nightsteel Scythe",
+      "fr": "Faux en noctacier",
+      "ja": "ナイトスチールサイズ",
+      "ko": "Nightsteel Scythe"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "a30fa61c4c9",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Sledgehammer",
+      "de": "Nachtstahl-Vorschlaghammer",
+      "en": "Nightsteel Sledgehammer",
+      "fr": "Maillet en noctacier",
+      "ja": "ナイトスチールモール",
+      "ko": "Nightsteel Sledgehammer"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3548,
     "durability": 70,
     "id": "8b31920cc29",
@@ -12914,6 +13744,23 @@
       "fr": "Épée en noctacier",
       "ja": "ナイトスチールソード",
       "ko": "Nightsteel Sword"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "0a3e2147e0f",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Pair Of Nightsteel Pliers",
+      "de": "Nachtstahl-Zange",
+      "en": "Pair Of Nightsteel Pliers",
+      "fr": "Tenailles en noctacier",
+      "ja": "ナイトスチールプライヤー",
+      "ko": "Pair Of Nightsteel Pliers"
     },
     "stars": 3
   }

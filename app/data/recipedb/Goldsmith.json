@@ -11854,7 +11854,7 @@
     "baseLevel": 57,
     "difficulty": 808,
     "durability": 60,
-    "id": "9e503db2256",
+    "id": "a5a7934f5d4",
     "level": 142,
     "maxQuality": 5456,
     "name": {
@@ -11870,7 +11870,7 @@
     "baseLevel": 57,
     "difficulty": 404,
     "durability": 60,
-    "id": "aa9ca6f67f1",
+    "id": "715a21fced8",
     "level": 142,
     "maxQuality": 2728,
     "name": {
@@ -12237,8 +12237,24 @@
   {
     "baseLevel": 58,
     "difficulty": 863,
+    "durability": 70,
+    "id": "5ecf2c000ba",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Brazier Components",
+      "de": "Feuerschalenteil",
+      "en": "Brazier Components",
+      "fr": "Composant de braséro",
+      "ja": "篝火台部材",
+      "ko": "Brazier Components"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
     "durability": 60,
-    "id": "f86f9631c81",
+    "id": "0744363f40f",
     "level": 145,
     "maxQuality": 5664,
     "name": {
@@ -12254,7 +12270,7 @@
     "baseLevel": 58,
     "difficulty": 431,
     "durability": 60,
-    "id": "802945134af",
+    "id": "ea1a7efa0da",
     "level": 145,
     "maxQuality": 2832,
     "name": {
@@ -12264,6 +12280,22 @@
       "fr": "Composant de souvenir du Coerthas",
       "ja": "寒冷地の名産品部材",
       "ko": "한랭지 특산품 부재"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "id": "01e4ee077b3",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Finery Components",
+      "de": "Tauschware",
+      "en": "Finery Components",
+      "fr": "Marchandises commerciales",
+      "ja": "交易品部材",
+      "ko": "Finery Components"
     }
   },
   {
@@ -12280,6 +12312,86 @@
       "fr": "Leurre de Gobelin",
       "ja": "ゴブリンジグ",
       "ko": "고블린 지그"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "id": "738c70ff26e",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Happi Components",
+      "de": "Happi-Element",
+      "en": "Happi Components",
+      "fr": "Composant de happi",
+      "ja": "ハッピ部材",
+      "ko": "Happi Components"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 1553,
+    "durability": 70,
+    "id": "474961d9de9",
+    "level": 145,
+    "maxQuality": 3540,
+    "name": {
+      "cn": "Ritual Implement Components",
+      "de": "Reinigungsfetisch",
+      "en": "Ritual Implement Components",
+      "fr": "Instruments de purification",
+      "ja": "清めの祭具",
+      "ko": "Ritual Implement Components"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 1553,
+    "durability": 70,
+    "id": "49b5aee158a",
+    "level": 145,
+    "maxQuality": 3540,
+    "name": {
+      "cn": "Trinket Components",
+      "de": "Kleinigkeit",
+      "en": "Trinket Components",
+      "fr": "Présent modeste",
+      "ja": "粗品部材",
+      "ko": "Trinket Components"
+    }
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 431,
+    "durability": 35,
+    "id": "b131f474d84",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Uchiwa Components",
+      "de": "Fächerteil",
+      "en": "Uchiwa Components",
+      "fr": "Élément d'éventail",
+      "ja": "うちわ部材",
+      "ko": "Uchiwa Components"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 1378,
+    "durability": 70,
+    "id": "e2a890e8849",
+    "level": 148,
+    "maxQuality": 5504,
+    "name": {
+      "cn": "Altar Components",
+      "de": "Altarelement",
+      "en": "Altar Components",
+      "fr": "Composant d'autel",
+      "ja": "供物台部材",
+      "ko": "Altar Components"
     }
   },
   {
@@ -12408,6 +12520,54 @@
       "fr": "Planétaire en aurum régis",
       "ja": "オーラムレギスオーラリー",
       "ko": "황제금 태양계의"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 1654,
+    "durability": 70,
+    "id": "26e7cf1737f",
+    "level": 148,
+    "maxQuality": 3669,
+    "name": {
+      "cn": "Azim Steppe Souvenir Components",
+      "de": "Handelsware",
+      "en": "Azim Steppe Souvenir Components",
+      "fr": "Produit d'inspiration nomade",
+      "ja": "遊牧民風の商材",
+      "ko": "Azim Steppe Souvenir Components"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "id": "50604777f8f",
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "cn": "Buuz Cooking Paraphernalia",
+      "de": "Buuds-Kochutensilie",
+      "en": "Buuz Cooking Paraphernalia",
+      "fr": "Ustensile de cuisine pour buuz",
+      "ja": "ボーズ調理用品",
+      "ko": "Buuz Cooking Paraphernalia"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
+    "durability": 70,
+    "id": "3f34bcaa38d",
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "cn": "Catfish Lure Components",
+      "de": "Wels-Köder",
+      "en": "Catfish Lure Components",
+      "fr": "Accessoire de pêche au poisson-chat",
+      "ja": "ナマズ釣り具",
+      "ko": "Catfish Lure Components"
     }
   },
   {
@@ -12589,8 +12749,24 @@
   {
     "baseLevel": 59,
     "difficulty": 919,
+    "durability": 70,
+    "id": "fcec598dde9",
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "cn": "Hingan Ritual Paraphernalia",
+      "de": "Ritualgegenstand zur Ahnenverehrung",
+      "en": "Hingan Ritual Paraphernalia",
+      "fr": "Objet cérémoniel",
+      "ja": "先祖の接待用品",
+      "ko": "Hingan Ritual Paraphernalia"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 919,
     "durability": 60,
-    "id": "f7017812c10",
+    "id": "f1435871b56",
     "level": 148,
     "maxQuality": 5871,
     "name": {
@@ -12606,7 +12782,7 @@
     "baseLevel": 59,
     "difficulty": 459,
     "durability": 60,
-    "id": "f267dbd0b1b",
+    "id": "dfae37a22d9",
     "level": 148,
     "maxQuality": 2935,
     "name": {
@@ -12616,6 +12792,38 @@
       "fr": "Composant d'équipement militaire du Maelstrom",
       "ja": "黒渦団の軍需品部材",
       "ko": "흑와단 군수품 부재"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 459,
+    "durability": 35,
+    "id": "13e4639f9f0",
+    "level": 148,
+    "maxQuality": 7339,
+    "name": {
+      "cn": "Mol Tea Ceremony Paraphernalia",
+      "de": "Tee-Bedarfsartikel",
+      "en": "Mol Tea Ceremony Paraphernalia",
+      "fr": "Élément de cérémonie du thé",
+      "ja": "茶会必需品",
+      "ko": "Mol Tea Ceremony Paraphernalia"
+    }
+  },
+  {
+    "baseLevel": 59,
+    "difficulty": 1323,
+    "durability": 70,
+    "id": "2bc34c94754",
+    "level": 148,
+    "maxQuality": 1834,
+    "name": {
+      "cn": "Substitute Offering",
+      "de": "Opfergabe",
+      "en": "Substitute Offering",
+      "fr": "Offrande piégée",
+      "ja": "供物用品",
+      "ko": "Substitute Offering"
     }
   },
   {
@@ -12680,6 +12888,22 @@
       "fr": "Leurre en métal ciselé",
       "ja": "ブレーデッドジグ",
       "ko": "칼날 지그"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "26eacc00b3c",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Ceremonial Bow Components",
+      "de": "Ritualbogenelement",
+      "en": "Ceremonial Bow Components",
+      "fr": "Composant d'arc cérémoniel",
+      "ja": "祭弓部材",
+      "ko": "Ceremonial Bow Components"
     }
   },
   {
@@ -12940,6 +13164,102 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 478,
+    "durability": 35,
+    "id": "6f00d423fa5",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Confetti-making Tools",
+      "de": "Konfettiwerkzeug",
+      "en": "Confetti-making Tools",
+      "fr": "Outil de papeterie",
+      "ja": "紙吹雪生産道具",
+      "ko": "Confetti-making Tools"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "a8be715d800",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Culinary Knife Component",
+      "de": "Messerteil",
+      "en": "Culinary Knife Component",
+      "fr": "Composant de couteau de cuisine",
+      "ja": "愛用の包丁部材",
+      "ko": "Culinary Knife Component"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "id": "b29b68f31b6",
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "cn": "Drum Parts",
+      "de": "Trommelwerkstoff",
+      "en": "Drum Parts",
+      "fr": "Composant de taiko",
+      "ja": "太鼓部材",
+      "ko": "Drum Parts"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "330d3e160b4",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Dzo Shear Components",
+      "de": "Scherenteil",
+      "en": "Dzo Shear Components",
+      "fr": "Élément d'entretien de ciseaux de toilettage",
+      "ja": "毛刈りハサミ部材",
+      "ko": "Dzo Shear Components"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1147,
+    "durability": 70,
+    "id": "f5675fd1126",
+    "level": 150,
+    "maxQuality": 2904,
+    "name": {
+      "cn": "Effigy Components",
+      "de": "Namazuo-Puppenelement",
+      "en": "Effigy Components",
+      "fr": "Composant de géant d'osier",
+      "ja": "ナマズオ人形部材",
+      "ko": "Effigy Components"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "e7ab6a89909",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Elixir Mixing Paraphernalia",
+      "de": "Destillierapparat-Ersatzteil",
+      "en": "Elixir Mixing Paraphernalia",
+      "fr": "Élément nécessaire à une mixtion",
+      "ja": "素敵な調合用品",
+      "ko": "Elixir Mixing Paraphernalia"
+    }
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1720,
     "durability": 70,
     "id": "ffaae11fe55",
@@ -12952,6 +13272,22 @@
       "fr": "Fontaine de Bismarck",
       "ja": "ビスマルクの霊泉",
       "ko": "비스마르크의 영혼샘"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1434,
+    "durability": 70,
+    "id": "71c548fd232",
+    "level": 150,
+    "maxQuality": 5888,
+    "name": {
+      "cn": "Generous Gift",
+      "de": "Dankeschön-Geschenk",
+      "en": "Generous Gift",
+      "fr": "Cadeau de remerciement",
+      "ja": "感謝の贈答品",
+      "ko": "Generous Gift"
     }
   },
   {
@@ -12974,7 +13310,7 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
-    "id": "4169d488e07",
+    "id": "2366670ab1d",
     "level": 150,
     "maxQuality": 6280,
     "name": {
@@ -12990,7 +13326,7 @@
     "baseLevel": 60,
     "difficulty": 478,
     "durability": 60,
-    "id": "d7f638ee0d7",
+    "id": "15b4edcddfb",
     "level": 150,
     "maxQuality": 3140,
     "name": {
@@ -13006,7 +13342,7 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
-    "id": "b51fea977f8",
+    "id": "6649caa7ab4",
     "level": 150,
     "maxQuality": 6280,
     "name": {
@@ -13022,7 +13358,7 @@
     "baseLevel": 60,
     "difficulty": 478,
     "durability": 60,
-    "id": "f5cf1b06109",
+    "id": "2e868973ab5",
     "level": 150,
     "maxQuality": 3140,
     "name": {
@@ -13032,6 +13368,86 @@
       "fr": "Composant de cadeau attentionné",
       "ja": "心尽くしの贈答品部材",
       "ko": "정성이 가득한 선물 부재"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "fc1bdae6053",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Korrigan Doll",
+      "de": "Bezaubernde Korrigane-Puppe",
+      "en": "Korrigan Doll",
+      "fr": "Poupée envoûtante korrigan",
+      "ja": "魅惑の魔物人形",
+      "ko": "Korrigan Doll"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "5e0c4296169",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Land Diving Gear",
+      "de": "Zubehörteil für ein Naghol-Sprungseil",
+      "en": "Land Diving Gear",
+      "fr": "Composant de système d'attache",
+      "ja": "ナゴール用品",
+      "ko": "Land Diving Gear"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "id": "f4a6ee503ef",
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "cn": "Mikoshi Frippery",
+      "de": "Mikoshi-Element",
+      "en": "Mikoshi Frippery",
+      "fr": "Composant de mikoshi",
+      "ja": "御輿部材",
+      "ko": "Mikoshi Frippery"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1376,
+    "durability": 70,
+    "id": "523bf0eb921",
+    "level": 150,
+    "maxQuality": 1962,
+    "name": {
+      "cn": "Pristine Fruit Figurine",
+      "de": "Festliches Wurfgeschoss",
+      "en": "Pristine Fruit Figurine",
+      "fr": "Répliques de produits régionaux",
+      "ja": "投擲用特産品",
+      "ko": "Pristine Fruit Figurine"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "f2268da083f",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Stable Supplies",
+      "de": "Utensil für die Pferdezucht",
+      "en": "Stable Supplies",
+      "fr": "Accessoire d'élevage équin",
+      "ja": "馬番必需品",
+      "ko": "Stable Supplies"
     }
   },
   {
@@ -13068,6 +13484,22 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "07f1a6410b4",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Steeping Accessory",
+      "de": "Kochwerkzeug",
+      "en": "Steeping Accessory",
+      "fr": "Composant de cuisine namazu",
+      "ja": "ナマズオ焼き用品",
+      "ko": "Steeping Accessory"
+    }
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 2008,
     "durability": 70,
     "id": "78b2cf87920",
@@ -13087,7 +13519,7 @@
     "baseLevel": 60,
     "difficulty": 1116,
     "durability": 60,
-    "id": "e5e4ca8da9a",
+    "id": "a9d1da0d736",
     "level": 160,
     "maxQuality": 6701,
     "name": {
@@ -13104,7 +13536,7 @@
     "baseLevel": 60,
     "difficulty": 558,
     "durability": 60,
-    "id": "f72d6eaa852",
+    "id": "12c26b40e6f",
     "level": 160,
     "maxQuality": 3350,
     "name": {
@@ -13138,7 +13570,7 @@
     "baseLevel": 60,
     "difficulty": 1116,
     "durability": 60,
-    "id": "bd1785606e4",
+    "id": "3ab965c5f17",
     "level": 160,
     "maxQuality": 6701,
     "name": {
@@ -13155,7 +13587,7 @@
     "baseLevel": 60,
     "difficulty": 558,
     "durability": 60,
-    "id": "a46ed91dfe1",
+    "id": "e8ebb913c31",
     "level": 160,
     "maxQuality": 3350,
     "name": {
@@ -14759,7 +15191,7 @@
     "baseLevel": 61,
     "difficulty": 1116,
     "durability": 60,
-    "id": "ed9c7b34a1e",
+    "id": "9cb8bd08afd",
     "level": 255,
     "maxQuality": 6701,
     "name": {
@@ -14775,7 +15207,7 @@
     "baseLevel": 61,
     "difficulty": 558,
     "durability": 60,
-    "id": "23be3b34bbf",
+    "id": "3812b64a4e5",
     "level": 255,
     "maxQuality": 3350,
     "name": {
@@ -15334,6 +15766,70 @@
   {
     "baseLevel": 62,
     "difficulty": 1684,
+    "durability": 60,
+    "id": "42048d9bc5a",
+    "level": 265,
+    "maxQuality": 7801,
+    "name": {
+      "cn": "Anti-shark Harpoon",
+      "de": "Haifischharpune",
+      "en": "Anti-shark Harpoon",
+      "fr": "Harpon anti-requin",
+      "ja": "サメ対策用品",
+      "ko": "Anti-shark Harpoon"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
+    "durability": 60,
+    "id": "c4a6b619e28",
+    "level": 265,
+    "maxQuality": 7801,
+    "name": {
+      "cn": "Gyr Abanian Remedies",
+      "de": "Phiolenset abanischer Medizin",
+      "en": "Gyr Abanian Remedies",
+      "fr": "Remèdes gyrabaniens",
+      "ja": "ギラバニア医薬品",
+      "ko": "Gyr Abanian Remedies"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 60,
+    "id": "fe4dfb52d3d",
+    "level": 265,
+    "maxQuality": 3900,
+    "name": {
+      "cn": "Gyr Abanian Remedy Components",
+      "de": "Komponente abanischer Medizin",
+      "en": "Gyr Abanian Remedy Components",
+      "fr": "Composants pour remèdes gyrabaniens",
+      "ja": "ギラバニア医薬品部材",
+      "ko": "Gyr Abanian Remedy Components"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 842,
+    "durability": 60,
+    "id": "b3ada7d7c0e",
+    "level": 265,
+    "maxQuality": 3900,
+    "name": {
+      "cn": "Harpoon Components",
+      "de": "Komponente einer Haifischharpune",
+      "en": "Harpoon Components",
+      "fr": "Composants pour harpon anti-requin",
+      "ja": "サメ対策用品部材",
+      "ko": "Harpoon Components"
+    }
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1684,
     "durability": 80,
     "id": "18ffd506be2",
     "level": 265,
@@ -15447,7 +15943,7 @@
     "baseLevel": 62,
     "difficulty": 1684,
     "durability": 60,
-    "id": "69269559ba9",
+    "id": "c1e33372a1c",
     "level": 265,
     "maxQuality": 7801,
     "name": {
@@ -15463,7 +15959,7 @@
     "baseLevel": 62,
     "difficulty": 842,
     "durability": 60,
-    "id": "592b1519d4c",
+    "id": "48d24930d72",
     "level": 265,
     "maxQuality": 3900,
     "name": {
@@ -15553,6 +16049,38 @@
       "fr": "Bague d'attaquant en corne de moudsoud",
       "ja": "ムードスードホーン・アタッカーリング",
       "ko": "무드수드뿔 공격대 반지"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 60,
+    "id": "fcd21614197",
+    "level": 270,
+    "maxQuality": 8351,
+    "name": {
+      "cn": "Coerthan Cold-weather Gear",
+      "de": "Coerthischer Wintermantel",
+      "en": "Coerthan Cold-weather Gear",
+      "fr": "Vêtements chauds du Coerthas",
+      "ja": "クルザス防寒品",
+      "ko": "Coerthan Cold-weather Gear"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 60,
+    "id": "c7233b43999",
+    "level": 270,
+    "maxQuality": 4175,
+    "name": {
+      "cn": "Cold-weather Gear Components",
+      "de": "Komponente coerthischer Winterkleidung",
+      "en": "Cold-weather Gear Components",
+      "fr": "Composants pour vêtements chauds du Coerthas",
+      "ja": "クルザス防寒品部材",
+      "ko": "Cold-weather Gear Components"
     }
   },
   {
@@ -15799,7 +16327,7 @@
     "baseLevel": 63,
     "difficulty": 1968,
     "durability": 60,
-    "id": "044fb8a1bd2",
+    "id": "fffddd29622",
     "level": 270,
     "maxQuality": 8351,
     "name": {
@@ -15815,7 +16343,7 @@
     "baseLevel": 63,
     "difficulty": 984,
     "durability": 60,
-    "id": "886a8a3950e",
+    "id": "56f248ade52",
     "level": 270,
     "maxQuality": 4175,
     "name": {
@@ -15841,6 +16369,70 @@
       "fr": "Modèle de bague en argent",
       "ja": "手本用シルバーリング",
       "ko": "견본 은반지"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1968,
+    "durability": 60,
+    "id": "7d1f921fa52",
+    "level": 270,
+    "maxQuality": 8351,
+    "name": {
+      "cn": "Sui-no-Sato Special",
+      "de": "Kostbarkeit aus Sui no Sato",
+      "en": "Sui-no-Sato Special",
+      "fr": "Spécialité de Sui-no-Sato",
+      "ja": "スイ特産品",
+      "ko": "Sui-no-Sato Special"
+    }
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 984,
+    "durability": 60,
+    "id": "1e9579ca635",
+    "level": 270,
+    "maxQuality": 4175,
+    "name": {
+      "cn": "Sui-no-Sato Special Components",
+      "de": "Komponente einer Kostbarkeit aus Sui no Sato",
+      "en": "Sui-no-Sato Special Components",
+      "fr": "Composants pour spécialité de Sui-no-Sato",
+      "ja": "スイ特産品部材",
+      "ko": "Sui-no-Sato Special Components"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 2116,
+    "durability": 60,
+    "id": "36e6b45bf63",
+    "level": 273,
+    "maxQuality": 8680,
+    "name": {
+      "cn": "Cloud Pearl",
+      "de": "Wolkenmeerperle",
+      "en": "Cloud Pearl",
+      "fr": "Rareté de la Mer de nuages",
+      "ja": "雲海の珍宝",
+      "ko": "Cloud Pearl"
+    }
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1058,
+    "durability": 60,
+    "id": "046b378a6f5",
+    "level": 273,
+    "maxQuality": 4340,
+    "name": {
+      "cn": "Cloud Pearl Components",
+      "de": "Komponente einer Wolkenmeerperle",
+      "en": "Cloud Pearl Components",
+      "fr": "Composants pour rareté de la Mer de nuages",
+      "ja": "雲海の珍宝部材",
+      "ko": "Cloud Pearl Components"
     }
   },
   {
@@ -17608,6 +18200,23 @@
     "baseLevel": 70,
     "difficulty": 5668,
     "durability": 70,
+    "id": "f017c59ea53",
+    "level": 300,
+    "maxQuality": 7035,
+    "name": {
+      "cn": "Imitation Stained Crystal Ornament",
+      "de": "Buntkristallfenster-Imitation",
+      "en": "Imitation Stained Crystal Ornament",
+      "fr": "Imitation de vitrail",
+      "ja": "イミテーション・ステンドクリスタル",
+      "ko": "모조 스테인드 크리스탈"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 5668,
+    "durability": 70,
     "id": "f98f07be281",
     "level": 300,
     "maxQuality": 7035,
@@ -17623,11 +18232,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 3188,
     "durability": 70,
     "id": "aaaf89827dc",
     "level": 320,
-    "maxQuality": 28506,
+    "maxQuality": 22171,
     "name": {
       "cn": "Ala Mhigan Needle",
       "de": "Mhigische Nadel",
@@ -17727,16 +18336,16 @@
     "baseLevel": 70,
     "difficulty": 6377,
     "durability": 70,
-    "id": "f017c59ea53",
+    "id": "f5959fc61b9",
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Imitation Stained Crystal Ornament",
-      "de": "Buntkristallfenster-Imitation",
-      "en": "Imitation Stained Crystal Ornament",
-      "fr": "Imitation de vitrail",
-      "ja": "イミテーション・ステンドクリスタル",
-      "ko": "모조 스테인드 크리스탈"
+      "cn": "Mellow Mog Lamp",
+      "de": "Mogry-Lampe",
+      "en": "Mellow Mog Lamp",
+      "fr": "Lampe mog mignonne",
+      "ja": "モーグリランプ",
+      "ko": "Mellow Mog Lamp"
     },
     "stars": 2
   },
@@ -18167,6 +18776,40 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "ed54d141b31",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Silvergrace Earrings of Crafting",
+      "de": "Silbergunst-Ohrringe des Handwerks",
+      "en": "Silvergrace Earrings of Crafting",
+      "fr": "Boucles d'oreilles des créations en graçargent",
+      "ja": "グレース・クラフターイヤリング",
+      "ko": "Silvergrace Earrings of Crafting"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "46a8840fa84",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Silvergrace Earrings of Gathering",
+      "de": "Silbergunst-Ohrringe des Eifers",
+      "en": "Silvergrace Earrings of Gathering",
+      "fr": "Boucles d'oreilles des ressources en graçargent",
+      "ja": "グレース・ギャザラーイヤリング",
+      "ko": "Silvergrace Earrings of Gathering"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3548,
     "durability": 70,
     "id": "ab0b2146db4",
@@ -18193,9 +18836,26 @@
       "cn": "Silvergrace Ingot",
       "de": "Silbergunst-Barren",
       "en": "Silvergrace Ingot",
-      "fr": "Lingot de grâçargent",
+      "fr": "Lingot de graçargent",
       "ja": "グレースインゴット",
       "ko": "Silvergrace Ingot"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
+    "id": "fa878ebce36",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Silvergrace Needle",
+      "de": "Silbergunst-Nadel",
+      "en": "Silvergrace Needle",
+      "fr": "Aiguille en graçargent",
+      "ja": "グレースニードル",
+      "ko": "Silvergrace Needle"
     },
     "stars": 3
   },
@@ -18329,7 +18989,7 @@
       "cn": "Silvergrace Rod",
       "de": "Silbergunst-Stab",
       "en": "Silvergrace Rod",
-      "fr": "Sceptre en grâçargent",
+      "fr": "Sceptre en graçargent",
       "ja": "グレースロッド",
       "ko": "Silvergrace Rod"
     },
