@@ -1,5 +1,37 @@
 [
   {
+    "control_percent": 5,
+    "control_value": 61,
+    "cp_percent": 15,
+    "cp_value": 56,
+    "hq": true,
+    "ilvl": 320,
+    "name": {
+      "cn": "Matcha",
+      "de": "Matcha-Tee",
+      "en": "Matcha",
+      "fr": "Matcha",
+      "ja": "抹茶",
+      "ko": "Matcha"
+    }
+  },
+  {
+    "control_percent": 4,
+    "control_value": 49,
+    "cp_percent": 12,
+    "cp_value": 45,
+    "hq": false,
+    "ilvl": 320,
+    "name": {
+      "cn": "Matcha",
+      "de": "Matcha-Tee",
+      "en": "Matcha",
+      "fr": "Matcha",
+      "ja": "抹茶",
+      "ko": "Matcha"
+    }
+  },
+  {
     "cp_percent": 5,
     "cp_value": 20,
     "craftsmanship_percent": 12,
