@@ -22,10 +22,14 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
     this.onPoor = onPoor;
 }
 
+Action.prototype.equals = function (action) {
+    return this.shortName === action.shortName;
+}
+
 // Actions Table
 //==============
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level,onGood, onExcl, onPoor
-var AllActions = {
+Action.allActions = {
     //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
     observe: new Action(            'observe',              'Observe',               0,      7,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           1),
 

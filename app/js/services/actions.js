@@ -103,7 +103,7 @@
   for (var shortName in extraActionInfo) {
     if (extraActionInfo.hasOwnProperty(shortName)) {
       var extraInfo = extraActionInfo[shortName];
-      var action = AllActions[shortName];
+      var action = Action.allActions[shortName];
 
       action.buff = extraInfo.buff;
       action.skillID = extraInfo.skillID;

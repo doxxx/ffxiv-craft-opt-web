@@ -8,7 +8,7 @@
   function SimulatorService($timeout) {
     this.$timeout = $timeout;
 
-    var worker = new Worker('js/simulationworker.js');
+    var worker = new Worker('js/workers/simulationworker.js');
 
     var self = this;
     worker.onmessage = function (e) {

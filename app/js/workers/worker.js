@@ -7,30 +7,42 @@ importScripts('../../lib/yagal/toolbox.js');
 importScripts('../../lib/yagal/algorithms.js');
 
 importScripts('../seededrandom.js');
-importScripts('../actions.js');
+importScripts('../classes/Action.js');
+
+importScripts('../classes/Logger.js');
+importScripts('../classes/LogOutput.js');
+importScripts('../classes/Crafter.js');
+importScripts('../classes/Recipe.js');
+importScripts('../classes/Synth.js');
+importScripts('../classes/State.js');
+importScripts('../classes/EffectTracker.js');
 importScripts('../ffxivcraftmodel.js');
 
-importScripts('easimple.js');
-importScripts('eacomplex.js');
+importScripts('../solver/easimple.js');
+importScripts('../solver/eacomplex.js');
 
 var state;
 
 self.onmessage = function(e) {
   try {
     if (e.data.start) {
-      start(e.data.start);
+      startSimulatorWorker(e.data.start);
     }
-    else if (e.data == 'resume') {
-      if (state.gen >= state.maxGen) {
-        state.maxGen += state.settings.solver.generations;
+    else {
+      switch (e.data) {
+        case 'resume':
+          if (state.gen >= state.maxGen) {
+            state.maxGen += state.settings.solver.generations;
+          }
+          runOneGen();
+          break;
+        case 'rungen':
+          runOneGen();
+          break;
+        case 'finish':
+          finish();
+          break;
       }
-      runOneGen();
-    }
-    else if (e.data == 'rungen') {
-      runOneGen();
-    }
-    else if (e.data == 'finish') {
-      finish();
     }
   } catch (ex) {
     console.error(ex);
@@ -43,7 +55,7 @@ self.onmessage = function(e) {
   }
 };
 
-function start(settings) {
+function startSimulatorWorker(settings) {
   var logOutput = new LogOutput();
 
   var seed = Math.seed;
@@ -109,12 +121,12 @@ Settings:\n\
 
   for (var i = 0; i < settings.crafter.actions.length; i++) {
     var actionName = settings.crafter.actions[i];
-    var action = AllActions[actionName];
+    var action = Action.allActions[actionName];
     if (action === undefined) {
       logOutput.write('Error: Action is unsupported: %s\n'.sprintf(actionName));
     }
     else {
-      crafterActions.push(AllActions[actionName]);
+      crafterActions.push(Action.allActions[actionName]);
     }
   }
 
@@ -159,7 +171,7 @@ Settings:\n\
 
   for (var j = 0; j < settings.sequence.length; j++) {
     var actionName = settings.sequence[j];
-    var action = AllActions[actionName];
+    var action = Action.allActions[actionName];
     if (action !== undefined) {
       if (crafterActions.filter(function (value) { return value.shortName === actionName }).length !== 0) {
         sequence.push(action);
@@ -188,7 +200,7 @@ Settings:\n\
 
     logOutput.write('\n\n');
 
-    var states = MonteCarloSequence(sequence, NewStateFromSynth(synth), true, 'skipUnusable', false, settings.debug, logOutput);
+    var states = monteCarloSequence(sequence, State.createStateFromSynth(synth), true, 'skipUnusable', false, settings.debug, logOutput);
     var heuristcState = states[states.length-1];
 
     var chk = heuristcState.checkViolations();
@@ -294,9 +306,9 @@ function finish() {
 }
 
 function postProgress(gen, maxGen, best, synthNoConditions) {
-  var startState = NewStateFromSynth(synthNoConditions);
+  var startState = State.createStateFromSynth(synthNoConditions);
 
-  var states = MonteCarloSequence(best, startState, true, 'skipUnusable', false, false);
+  var states = monteCarloSequence(best, startState, true, 'skipUnusable', false, false);
   var currentState = states[states.length-1];
   var violations = currentState.checkViolations();
 

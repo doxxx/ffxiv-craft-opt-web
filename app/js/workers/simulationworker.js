@@ -1,7 +1,14 @@
-importScripts('../lib/string/String.js');
-importScripts('actions.js');
-importScripts('ffxivcraftmodel.js');
-importScripts('seededrandom.js');
+importScripts('../../lib/string/String.js');
+importScripts('../classes/Action.js');
+importScripts('../classes/Logger.js');
+importScripts('../classes/LogOutput.js');
+importScripts('../classes/Crafter.js');
+importScripts('../classes/Recipe.js');
+importScripts('../classes/Synth.js');
+importScripts('../classes/State.js');
+importScripts('../classes/EffectTracker.js');
+importScripts('../ffxivcraftmodel.js');
+importScripts('../seededrandom.js');
 
 self.onmessage = function(e) {
   try {
@@ -36,7 +43,7 @@ function setupSim(settings) {
   var crafterActions = [];
 
   for (var i = 0; i < settings.crafter.actions.length; i++) {
-    crafterActions.push(AllActions[settings.crafter.actions[i]]);
+    crafterActions.push(Action.allActions[settings.crafter.actions[i]]);
   }
 
   var crafter = new Crafter(settings.recipe.cls,
@@ -57,13 +64,13 @@ function setupSim(settings) {
   var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent / 100.0,
     false, 0);
 
-  var startState = NewStateFromSynth(synth);
-  var startStateNoConditions = NewStateFromSynth(synthNoConditions);
+  var startState = State.createStateFromSynth(synth);
+  var startStateNoConditions = State.createStateFromSynth(synthNoConditions);
 
   var sequence = [];
 
   for (var j = 0; j < settings.sequence.length; j++) {
-    sequence.push(AllActions[settings.sequence[j]]);
+    sequence.push(Action.allActions[settings.sequence[j]]);
   }
   return {
     seed: seed,
@@ -108,10 +115,10 @@ function runMonteCarloSim(id, settings) {
   logOutput.write("=".repeat(monteCarloSimHeader.length));
   logOutput.write("\n");
 
-  var mcSimResult = MonteCarloSim(sim.sequence, sim.synth, settings.maxMontecarloRuns, false, settings.conditionalActionHandling, false, settings.debug, logOutput);
+  var mcSimResult = monteCarloSim(sim.sequence, sim.synth, settings.maxMontecarloRuns, false, settings.conditionalActionHandling, false, settings.debug, logOutput);
 
   // Don't use conditions for final state to avoid oscillating results in the simulation state UI
-  var states = MonteCarloSequence(sim.sequence, sim.startStateNoConditions, true, 'skipUnusable', false, false, logOutput);
+  var states = monteCarloSequence(sim.sequence, sim.startStateNoConditions, true, 'skipUnusable', false, false, logOutput);
   var finalState = states[states.length - 1];
 
   var violations = finalState.checkViolations();
