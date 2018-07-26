@@ -11,6 +11,10 @@
   "engines": {
     "node": "*"
   },
+  "scripts": {
+    "start": "node server.js",
+    "start:local": "browser-sync start --port 8001 --server app --files app"
+  },
   "dependencies": {
     "connect": "^3.4.0",
     "morgan": "^1.6.1",
