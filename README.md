@@ -10,8 +10,8 @@ You can pick one of these options:
 * install [node.js](https://nodejs.org/) and run:
   * `npm install`
   * `npm start`
-* install [browser-sync](https://www.browsersync.io/) and run:
-  * `browser-sync start --port 8001 --server app --files app`
+* install dev dependencies and run:
+  * `npm run start:local`
 * install Docker and run:
   * `docker build -f Dockerfile.dev -t ffxiv-craft-opt-web-dev .`
   * `docker run --rm -it -p 8001:8001 ffxiv-craft-opt-web-dev`
