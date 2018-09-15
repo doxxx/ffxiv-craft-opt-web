@@ -1,6 +1,60 @@
 <div>
 
   <div class="row-fluid">
+    <div class="recipe-search-control" ng-controller="RecipeSearchController">
+      <form class="form-inline">
+        <div class="dropdown">
+          <div class="input-append">
+            <span class="input-small uneditable-input">{{recipe.cls}}</span>
+
+            <div class="btn-group">
+              <button class="btn dropdown-toggle"><span class="caret"></span></button>
+              <ul class="dropdown-menu pull-right">
+                <li ng-repeat="cls in allClasses"><a ng-click="recipe.cls=cls">{{cls}}</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-dropdown" id="recipe-menu-root" >
+          <div class="input-append">
+            <span class="span4 uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
+
+            <div class="btn-group">
+              <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
+            </div>
+          </div>
+          <div class="my-dropdown-menu">
+            <input class="input-medium search my-dropdown-focus" type="text" name="name"
+                   ng-model="recipeSearch.text"
+                   placeholder="Search..." select-on-focus stop-click-propogation
+                   ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"
+                   id="recipe-search-text"/>
+            <ul class="recipe-menu-scrollable" isolate-scrolling>
+              <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...
+              </li>
+              <li ng-hide="recipeSearch.loading"
+                  ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
+                  ng-class="{active: $index === recipeSearch.selected}"
+                  id="recipeSearchElement{{$index}}"
+                  ng-mouseover="recipeSearch.selected=$index"
+                  ng-click="recipeSelected(r.name)">
+                <a ng-click="recipeSelected(r.name)">[{{r.baseLevel}}{{'*'.repeat(r.stars)}}] {{r.name}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </div>
+    <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
+  </div>
+
+  <div class="row-fluid">
+    <h5>Initial Guess</h5>
+    <action-sequence class="sequence-small" cls="recipe.cls" actions="sequence" action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
+  </div>
+
+  <div class="row-fluid">
     <div class="control-group">
       <button class="btn btn-primary" ng-click="startSolver()" ng-show="!pageState.solverStatus.state && !pageState.solverStatus.running" ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">Start</button>
       <button class="btn btn-primary" ng-click="stopSolver()" ng-show="pageState.solverStatus.running">Stop</button>
@@ -13,13 +67,7 @@
       <button class="btn" ng-click="showOptionsModal()">Options...</button>
     </div>
   </div>
-  <div class="row-fluid">
-    <simulator-status class="solver-status" crafter="crafter.stats[recipe.cls]" bonus-stats="bonusStats" recipe="recipe" status="pageState.solverStatus" valid="isValidSequence(pageState.solverStatus.sequence, recipe.cls)"></simulator-status>
-  </div>
-  <div class="row-fluid">
-    <h5>Initial Guess</h5>
-    <action-sequence class="sequence-small" cls="recipe.cls" actions="sequence" action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
-  </div>
+
   <div class="row-fluid">
     <div ng-show="pageState.solverStatus.running">
       <h5>Working...</h5>
@@ -38,6 +86,7 @@
       </div>
     </div>
   </div>
+
   <div class="row-fluid">
     <tabset>
       <tab heading="Probalistic Sim" active="logTabs.ga.active">
@@ -56,4 +105,5 @@
       </tab>
     </tabset>
   </div>
+
 </div>
