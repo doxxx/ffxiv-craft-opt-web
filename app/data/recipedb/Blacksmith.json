@@ -90,7 +90,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -106,7 +106,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -778,7 +778,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -810,7 +810,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -1562,7 +1562,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -6637,7 +6637,7 @@
       "cn": "贤王打刀",
       "de": "Mörderisches Mogul-Mogtana",
       "en": "Maliferous Moggle Mogtana",
-      "fr": "Katana Moggle Mog",
+      "fr": "Katana Moggle Mog monumental",
       "ja": "極王刀",
       "ko": "모그루 모그 외날검"
     },
@@ -7155,12 +7155,12 @@
     "level": 110,
     "maxQuality": 5783,
     "name": {
-      "cn": "乌兹大弯刀",
+      "cn": "Wootz Faussar",
       "de": "Wootz-Warbrand",
-      "en": "Wootz Fausse",
+      "en": "Wootz Faussar",
       "fr": "Faussar en wootz",
       "ja": "ウーツフォセ",
-      "ko": "우츠강 굽은날검"
+      "ko": "Wootz Faussar"
     },
     "stars": 4
   },
@@ -10680,6 +10680,108 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
+    "id": "71e8030f342",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Axe",
+      "de": "Nidhogg-Axt",
+      "en": "Seeing Horde Axe",
+      "fr": "Hache de Dravanien",
+      "ja": "ホードアクス",
+      "ko": "Seeing Horde Axe"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "e60fe8bab01",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Blade",
+      "de": "Nidhogg-Schwert",
+      "en": "Seeing Horde Blade",
+      "fr": "Épée de Dravanien",
+      "ja": "ホードブレード",
+      "ko": "Seeing Horde Blade"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "ba576cf0c4d",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Daggers",
+      "de": "Nidhogg-Dolche",
+      "en": "Seeing Horde Daggers",
+      "fr": "Dagues de Dravanien",
+      "ja": "ホードダガー",
+      "ko": "Seeing Horde Daggers"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "76cf7d6672a",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Guillotine",
+      "de": "Nidhogg-Guillotine",
+      "en": "Seeing Horde Guillotine",
+      "fr": "Fendoir de Dravanien",
+      "ja": "ホードディバイダー",
+      "ko": "Seeing Horde Guillotine"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "824c260ae07",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Knuckles",
+      "de": "Nidhogg-Schlagringe",
+      "en": "Seeing Horde Knuckles",
+      "fr": "Poings de Dravanien",
+      "ja": "ホードナックル",
+      "ko": "Seeing Horde Knuckles"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "ca65be06e83",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Samurai Blade",
+      "de": "Nidhogg-Samuraiklinge",
+      "en": "Seeing Horde Samurai Blade",
+      "fr": "Lame samouraï de Dravanien",
+      "ja": "ホードサムライブレード",
+      "ko": "Seeing Horde Samurai Blade"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
     "id": "bef38a8a987",
     "level": 210,
     "maxQuality": 10373,
@@ -13649,6 +13751,23 @@
     "baseLevel": 70,
     "difficulty": 3943,
     "durability": 70,
+    "id": "0a3e2147e0f",
+    "level": 350,
+    "maxQuality": 29579,
+    "name": {
+      "cn": "Nightsteel Pliers",
+      "de": "Nachtstahl-Zange",
+      "en": "Nightsteel Pliers",
+      "fr": "Tenailles en noctacier",
+      "ja": "ナイトスチールプライヤー",
+      "ko": "Nightsteel Pliers"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3943,
+    "durability": 70,
     "id": "a22b6bcafbd",
     "level": 350,
     "maxQuality": 29579,
@@ -13749,19 +13868,155 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
-    "durability": 70,
-    "id": "0a3e2147e0f",
-    "level": 350,
-    "maxQuality": 29579,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "0713338c133",
+    "level": 390,
+    "maxQuality": 21137,
     "name": {
-      "cn": "夜钢手钳",
-      "de": "Nachtstahl-Zange",
-      "en": "Pair Of Nightsteel Pliers",
-      "fr": "Tenailles en noctacier",
-      "ja": "ナイトスチールプライヤー",
-      "ko": "Pair Of Nightsteel Pliers"
+      "cn": "Chigusa Ingot",
+      "de": "Chigusa-Barren",
+      "en": "Chigusa Ingot",
+      "fr": "Lingot d'acier chigusa",
+      "ja": "千種鋼",
+      "ko": "Chigusa Ingot"
     },
-    "stars": 3
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "67b92432aea",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Axe",
+      "de": "Rakshasa-Axt",
+      "en": "Rakshasa Axe",
+      "fr": "Grande hache rakshasa",
+      "ja": "羅刹大斧",
+      "ko": "Rakshasa Axe"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "9eb2f7c7692",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Blade",
+      "de": "Rakshasa-Klinge",
+      "en": "Rakshasa Blade",
+      "fr": "Épée rakshasa",
+      "ja": "羅刹剣",
+      "ko": "Rakshasa Blade"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "a6ed0c0baee",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Daggers",
+      "de": "Rakshasa-Dolche",
+      "en": "Rakshasa Daggers",
+      "fr": "Dagues rakshasa",
+      "ja": "羅刹短刀",
+      "ko": "Rakshasa Daggers"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "c08e8816362",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Katana",
+      "de": "Rakshasa-Katana",
+      "en": "Rakshasa Katana",
+      "fr": "Katana rakshasa",
+      "ja": "羅刹刀",
+      "ko": "Rakshasa Katana"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "856347d3e31",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Knuckles",
+      "de": "Rakshasa-Schlagringe",
+      "en": "Rakshasa Knuckles",
+      "fr": "Poings-de-fer rakshasa",
+      "ja": "羅刹鉄甲",
+      "ko": "Rakshasa Knuckles"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "ba1f962ed51",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Lance",
+      "de": "Rakshasa-Lanze",
+      "en": "Rakshasa Lance",
+      "fr": "Lance rakshasa",
+      "ja": "羅刹長槍",
+      "ko": "Rakshasa Lance"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "601bb45557d",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Odachi",
+      "de": "Rakshasa-Odachi",
+      "en": "Rakshasa Odachi",
+      "fr": "Odachi rakshasa",
+      "ja": "羅刹大太刀",
+      "ko": "Rakshasa Odachi"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "a7889b7f300",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Revolver",
+      "de": "Rakshasa-Revolver",
+      "en": "Rakshasa Revolver",
+      "fr": "Arquebuse rakshasa",
+      "ja": "羅刹短筒",
+      "ko": "Rakshasa Revolver"
+    },
+    "stars": 4
   }
 ]

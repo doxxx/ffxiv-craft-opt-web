@@ -58,7 +58,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -106,7 +106,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -586,7 +586,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -634,7 +634,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -1338,7 +1338,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -3120,6 +3120,22 @@
     }
   },
   {
+    "baseLevel": 32,
+    "difficulty": 198,
+    "durability": 80,
+    "id": "2a88568d580",
+    "level": 32,
+    "maxQuality": 848,
+    "name": {
+      "cn": "Wooden Showcase",
+      "de": "Hölzerner Schaukasten",
+      "en": "Wooden Showcase",
+      "fr": "Présentoir en bois",
+      "ja": "ウッドショーケース",
+      "ko": "Wooden Showcase"
+    }
+  },
+  {
     "baseLevel": 33,
     "difficulty": 355,
     "durability": 80,
@@ -3843,6 +3859,22 @@
   },
   {
     "baseLevel": 42,
+    "difficulty": 259,
+    "durability": 80,
+    "id": "3faff247cf8",
+    "level": 42,
+    "maxQuality": 1073,
+    "name": {
+      "cn": "Mahogany Bunk Bed",
+      "de": "Mahagoni-Etagenbett",
+      "en": "Mahogany Bunk Bed",
+      "fr": "Lit superposé en acajou",
+      "ja": "マホガニーバンクベッド",
+      "ko": "Mahogany Bunk Bed"
+    }
+  },
+  {
+    "baseLevel": 42,
     "difficulty": 144,
     "durability": 80,
     "id": "7da6a4a32be",
@@ -3887,6 +3919,22 @@
       "fr": "Sphère céleste",
       "ja": "天球儀",
       "ko": "천구의"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 279,
+    "durability": 80,
+    "id": "d65d14d7334",
+    "level": 43,
+    "maxQuality": 1125,
+    "name": {
+      "cn": "Mounted Plate Rack",
+      "de": "Wandtellerregal",
+      "en": "Mounted Plate Rack",
+      "fr": "Étagère à vaisselle",
+      "ja": "ディッシュウォールシェルフ",
+      "ko": "Mounted Plate Rack"
     }
   },
   {
@@ -5362,6 +5410,23 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "id": "3ac7f77c6ce",
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "cn": "Hand Basket",
+      "de": "Handkorb",
+      "en": "Hand Basket",
+      "fr": "Panier en osier",
+      "ja": "ハンドバスケット",
+      "ko": "Hand Basket"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 116,
     "durability": 80,
     "id": "559aef2c75b",
@@ -6224,7 +6289,7 @@
       "cn": "梯子",
       "de": "Tragbare Trittleiter",
       "en": "Portable Stepladder",
-      "fr": "Escabeau",
+      "fr": "Escabeau d'intérieur",
       "ja": "脚立",
       "ko": "Portable Stepladder"
     },
@@ -6654,6 +6719,22 @@
       "fr": "Arc long en cèdre",
       "ja": "シーダーロングボウ",
       "ko": "삼나무 장궁"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 610,
+    "durability": 80,
+    "id": "8fcab3ef71e",
+    "level": 120,
+    "maxQuality": 1975,
+    "name": {
+      "cn": "Imitation Shuttered Window",
+      "de": "„Fenster mit Fensterläden“-Imitation",
+      "en": "Imitation Shuttered Window",
+      "fr": "Imitation de fenêtre à volets",
+      "ja": "イミテーション・シャッターウィンドウ",
+      "ko": "Imitation Shuttered Window"
     }
   },
   {
@@ -8289,6 +8370,23 @@
     "baseLevel": 60,
     "difficulty": 2008,
     "durability": 70,
+    "id": "5ed824697f5",
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Unfinished Interior Wall",
+      "de": "Unbearbeitete Innenwand",
+      "en": "Unfinished Interior Wall",
+      "fr": "Mur d'intérieur brut",
+      "ja": "白木内壁",
+      "ko": "Unfinished Interior Wall"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
     "id": "7005afa20ac",
     "level": 160,
     "maxQuality": 4188,
@@ -8803,6 +8901,23 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 2971,
+    "durability": 70,
+    "id": "b6be203e2c1",
+    "level": 210,
+    "maxQuality": 5186,
+    "name": {
+      "cn": "Bread Rack",
+      "de": "Brotregal",
+      "en": "Bread Rack",
+      "fr": "Présentoir à pain",
+      "ja": "ブレッドシェルフ",
+      "ko": "Bread Rack"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
     "id": "106d1283c29",
@@ -9087,6 +9202,40 @@
       "fr": "Pique du Fiélon",
       "ja": "パイク・オブ・フィーンド",
       "ko": "마신의 창"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "0c1ca8ab226",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Bow",
+      "de": "Nidhogg-Bogen",
+      "en": "Seeing Horde Bow",
+      "fr": "Arc de Dravanien",
+      "ja": "ホードボウ",
+      "ko": "Seeing Horde Bow"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "3ae19ede626",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Spear",
+      "de": "Nidhogg-Speer",
+      "en": "Seeing Horde Spear",
+      "fr": "Lance de Dravanien",
+      "ja": "ホードスピア",
+      "ko": "Seeing Horde Spear"
     },
     "stars": 3
   },
@@ -11898,5 +12047,243 @@
       "ko": "Yamashi Kasa"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "aafc36d7cad",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Aiming",
+      "de": "Rakshasa-Armband des Zielens",
+      "en": "Rakshasa Bracelet of Aiming",
+      "fr": "Bracelet rakshasa de pisteur",
+      "ja": "羅刹腕輪【弓士】",
+      "ko": "Rakshasa Bracelet of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "f89b1bd5b85",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Casting",
+      "de": "Rakshasa-Armband der Magie",
+      "en": "Rakshasa Bracelet of Casting",
+      "fr": "Bracelet rakshasa d'incantateur",
+      "ja": "羅刹腕輪【術士】",
+      "ko": "Rakshasa Bracelet of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "83305f7379a",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Fending",
+      "de": "Rakshasa-Armband der Verteidigung",
+      "en": "Rakshasa Bracelet of Fending",
+      "fr": "Bracelet rakshasa de protecteur",
+      "ja": "羅刹腕輪【武士】",
+      "ko": "Rakshasa Bracelet of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "602f21a0fb2",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Healing",
+      "de": "Rakshasa-Armband der Heilung",
+      "en": "Rakshasa Bracelet of Healing",
+      "fr": "Bracelet rakshasa de soigneur",
+      "ja": "羅刹腕輪【学士】",
+      "ko": "Rakshasa Bracelet of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "5bdd0eb57e5",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Slaying",
+      "de": "Rakshasa-Armband des Schlachtens",
+      "en": "Rakshasa Bracelet of Slaying",
+      "fr": "Bracelet rakshasa d'abatteur",
+      "ja": "羅刹腕輪【闘士】",
+      "ko": "Rakshasa Bracelet of Slaying"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "2d2a21263a1",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Cane",
+      "de": "Rakshasa-Stock",
+      "en": "Rakshasa Cane",
+      "fr": "Khakkhara rakshasa",
+      "ja": "羅刹錫杖",
+      "ko": "Rakshasa Cane"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "d66daa2660b",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Greatbow",
+      "de": "Rakshasa-Langbogen",
+      "en": "Rakshasa Greatbow",
+      "fr": "Grand arc rakshasa",
+      "ja": "羅刹大弓",
+      "ko": "Rakshasa Greatbow"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "4f17d62f7a0",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Aiming",
+      "de": "Rakshasa-Halsberge des Zielens",
+      "en": "Rakshasa Necklace of Aiming",
+      "fr": "Collier rakshasa de pisteur",
+      "ja": "羅刹首飾【弓士】",
+      "ko": "Rakshasa Necklace of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "cc357c7c985",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Casting",
+      "de": "Rakshasa-Halsberge der Magie",
+      "en": "Rakshasa Necklace of Casting",
+      "fr": "Collier rakshasa d'incantateur",
+      "ja": "羅刹首飾【術士】",
+      "ko": "Rakshasa Necklace of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "4ee863185ce",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Fending",
+      "de": "Rakshasa-Halsberge der Verteidigung",
+      "en": "Rakshasa Necklace of Fending",
+      "fr": "Collier rakshasa de protecteur",
+      "ja": "羅刹首飾【武士】",
+      "ko": "Rakshasa Necklace of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "6fd752e0329",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Healing",
+      "de": "Rakshasa-Halsberge der Heilung",
+      "en": "Rakshasa Necklace of Healing",
+      "fr": "Collier rakshasa de soigneur",
+      "ja": "羅刹首飾【学士】",
+      "ko": "Rakshasa Necklace of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "dc6df8ebacd",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Slaying",
+      "de": "Rakshasa-Halsberge des Schlachtens",
+      "en": "Rakshasa Necklace of Slaying",
+      "fr": "Collier rakshasa d'abatteur",
+      "ja": "羅刹首飾【闘士】",
+      "ko": "Rakshasa Necklace of Slaying"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "27bb20150c9",
+    "level": 390,
+    "maxQuality": 10568,
+    "name": {
+      "cn": "Suzaku Wall Hanging",
+      "de": "Suzaku-Wanddekoration",
+      "en": "Suzaku Wall Hanging",
+      "fr": "Tableau mural Suzaku",
+      "ja": "朱雀の壁掛彫刻",
+      "ko": "Suzaku Wall Hanging"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "85403a83523",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Urunday Lumber",
+      "de": "Urunday-Bauholz",
+      "en": "Urunday Lumber",
+      "fr": "Madrier d'urunday",
+      "ja": "ウルンダイ材",
+      "ko": "Urunday Lumber"
+    },
+    "stars": 4
   }
 ]

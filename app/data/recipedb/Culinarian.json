@@ -58,7 +58,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -90,7 +90,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -746,7 +746,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -794,7 +794,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -1418,7 +1418,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -2514,6 +2514,22 @@
   },
   {
     "baseLevel": 32,
+    "difficulty": 198,
+    "durability": 80,
+    "id": "9e19cd2b0fe",
+    "level": 32,
+    "maxQuality": 848,
+    "name": {
+      "cn": "Pot of Cream Stew",
+      "de": "Gemüseeintopf",
+      "en": "Pot of Cream Stew",
+      "fr": "Marmite de ragoût",
+      "ja": "シチューポット",
+      "ko": "Pot of Cream Stew"
+    }
+  },
+  {
+    "baseLevel": 32,
     "difficulty": 110,
     "durability": 80,
     "id": "64ab4add9e0",
@@ -2878,6 +2894,22 @@
       "fr": "Soupe de poisson",
       "ja": "フィッシュスープ",
       "ko": "생선 수프"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 279,
+    "durability": 80,
+    "id": "7d5a4a39210",
+    "level": 43,
+    "maxQuality": 1125,
+    "name": {
+      "cn": "Redoubtable Rolanberry Tart",
+      "de": "Rolanbeeren-Torte",
+      "en": "Redoubtable Rolanberry Tart",
+      "fr": "Tarte aux rolanbaies",
+      "ja": "ロランベリータルト",
+      "ko": "Redoubtable Rolanberry Tart"
     }
   },
   {
@@ -7238,5 +7270,124 @@
       "ko": "Tofu Pancakes"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "78df70e292f",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Ginger Salad",
+      "de": "Ingwersalat",
+      "en": "Ginger Salad",
+      "fr": "Salade au gingembre",
+      "ja": "ジンジャーサラダ",
+      "ko": "Ginger Salad"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "28ea0dc9a95",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Imam Bayildi",
+      "de": "Patlican Imam Bayildi",
+      "en": "Imam Bayildi",
+      "fr": "Patlican imam bayildi",
+      "ja": "パトゥルジャン・イマム・バユルドゥ",
+      "ko": "Imam Bayildi"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "b2599e4049c",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Laghman",
+      "de": "Laghman",
+      "en": "Laghman",
+      "fr": "Laghman",
+      "ja": "ラグマン",
+      "ko": "Laghman"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "c5ebd1f1b91",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Papanasi",
+      "de": "Papanasi",
+      "en": "Papanasi",
+      "fr": "Papanasi",
+      "ja": "パパナッシュ",
+      "ko": "Papanasi"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "420b0ec8049",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rooibos Tea",
+      "de": "Rooibos-Tee",
+      "en": "Rooibos Tea",
+      "fr": "Thé rooibos",
+      "ja": "ルイボスティー",
+      "ko": "Rooibos Tea"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "4ffa2f4f426",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Salmon Muffin",
+      "de": "Lachs-Muffin",
+      "en": "Salmon Muffin",
+      "fr": "Muffin au saumon",
+      "ja": "サーモンマフィン",
+      "ko": "Salmon Muffin"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "1906362338b",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Shakshouka",
+      "de": "Shakshouka",
+      "en": "Shakshouka",
+      "fr": "Chakchouka",
+      "ja": "シャクシュカ",
+      "ko": "Shakshouka"
+    },
+    "stars": 4
   }
 ]

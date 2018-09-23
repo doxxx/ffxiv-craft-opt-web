@@ -74,7 +74,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -90,7 +90,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -554,7 +554,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -586,7 +586,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -1162,7 +1162,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -9331,6 +9331,23 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
+    "id": "af588e381e2",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Shield",
+      "de": "Nidhogg-Schild",
+      "en": "Seeing Horde Shield",
+      "fr": "Bouclier de Dravanien",
+      "ja": "ホードシールド",
+      "ko": "Seeing Horde Shield"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
     "id": "45ae9568161",
     "level": 210,
     "maxQuality": 10373,
@@ -11882,5 +11899,158 @@
       "ko": "Nightsteel Shield"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "a6181be3747",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Chigusa Ingot",
+      "de": "Chigusa-Barren",
+      "en": "Chigusa Ingot",
+      "fr": "Lingot d'acier chigusa",
+      "ja": "千種鋼",
+      "ko": "Chigusa Ingot"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "5a14f2a2e48",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Greatshield",
+      "de": "Rakshasa-Großschild",
+      "en": "Rakshasa Greatshield",
+      "fr": "Grand bouclier rakshasa",
+      "ja": "羅刹大盾",
+      "ko": "Rakshasa Greatshield"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "44accf39eab",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Kote of Fending",
+      "de": "Rakshasa-Kote der Verteidigung",
+      "en": "Rakshasa Kote of Fending",
+      "fr": "Kote rakshasa de protecteur",
+      "ja": "羅刹籠手【武士】",
+      "ko": "Rakshasa Kote of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "23835b58078",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Kote of Maiming",
+      "de": "Rakshasa-Kote des Verstümmelns",
+      "en": "Rakshasa Kote of Maiming",
+      "fr": "Kote rakshasa d'abatteur",
+      "ja": "羅刹籠手【槍士】",
+      "ko": "Rakshasa Kote of Maiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "aff31123266",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Mask of Fending",
+      "de": "Rakshasa-Maske der Verteidigung",
+      "en": "Rakshasa Mask of Fending",
+      "fr": "Men rakshasa de protecteur",
+      "ja": "羅刹面【武士】",
+      "ko": "Rakshasa Mask of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "b10116be1db",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Mask of Maiming",
+      "de": "Rakshasa-Maske des Verstümmelns",
+      "en": "Rakshasa Mask of Maiming",
+      "fr": "Men rakshasa d'abatteur",
+      "ja": "羅刹面【槍士】",
+      "ko": "Rakshasa Mask of Maiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "3569e32cb4c",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Sune-ate of Fending",
+      "de": "Rakshasa-Sune-Ate der Verteidigung",
+      "en": "Rakshasa Sune-ate of Fending",
+      "fr": "Sune-ate rakshasa de protecteur",
+      "ja": "羅刹脛当【武士】",
+      "ko": "Rakshasa Sune-ate of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "9e4a06f52dd",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Sune-ate of Maiming",
+      "de": "Rakshasa-Sune-Ate des Verstümmelns",
+      "en": "Rakshasa Sune-ate of Maiming",
+      "fr": "Sune-ate rakshasa d'abatteur",
+      "ja": "羅刹脛当【槍士】",
+      "ko": "Rakshasa Sune-ate of Maiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "7ea0f0f7c3c",
+    "level": 390,
+    "maxQuality": 10568,
+    "name": {
+      "cn": "Suzaku Barding",
+      "de": "Suzaku-Rossharnisch",
+      "en": "Suzaku Barding",
+      "fr": "Barde de Suzaku",
+      "ja": "スザク・バード",
+      "ko": "Suzaku Barding"
+    },
+    "stars": 4
   }
 ]

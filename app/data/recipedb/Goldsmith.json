@@ -74,7 +74,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -90,7 +90,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -586,7 +586,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -634,7 +634,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -1322,7 +1322,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -9354,7 +9354,7 @@
       "cn": "贤王刺剑",
       "de": "Manipulierender Mogul-Mogdegen",
       "en": "Manipulative Moggle Mogfoil",
-      "fr": "Rapière Moggle Mog",
+      "fr": "Rapière Moggle Mog morfondante",
       "ja": "モグルモグレイピア",
       "ko": "모그루 모그 레이피어"
     },
@@ -9886,7 +9886,7 @@
     "maxQuality": 5783,
     "name": {
       "cn": "白金咏咒头饰",
-      "de": "Platinstirnreif der Magie",
+      "de": "Platinhaarspange der Magie",
       "en": "Platinum Circlet of Casting",
       "fr": "Diadème en platine d'incantateur",
       "ja": "プラチナキャスターサークレット",
@@ -9903,7 +9903,7 @@
     "maxQuality": 5783,
     "name": {
       "cn": "白金治愈头饰",
-      "de": "Platinstirnreif der Heilung",
+      "de": "Platinhaarspange der Heilung",
       "en": "Platinum Circlet of Healing",
       "fr": "Diadème en platine de soigneur",
       "ja": "プラチナヒーラーサークレット",
@@ -10000,7 +10000,7 @@
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
-    "id": "643fd43d54a",
+    "id": "ed3d05ee8f5",
     "level": 110,
     "maxQuality": 5783,
     "name": {
@@ -10017,7 +10017,7 @@
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
-    "id": "ed3d05ee8f5",
+    "id": "643fd43d54a",
     "level": 110,
     "maxQuality": 5783,
     "name": {
@@ -10451,7 +10451,7 @@
     "maxQuality": 4561,
     "name": {
       "cn": "灵银强袭头冠",
-      "de": "Mythrit-Stirnreif des Schlagens",
+      "de": "Mythrit-Haarspange des Schlagens",
       "en": "Mythrite Circlet of Striking",
       "fr": "Diadème d'agresseur en mithrite",
       "ja": "ミスライトストライカーサークレット",
@@ -14647,6 +14647,91 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
+    "id": "3d83333b680",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Cane",
+      "de": "Nidhogg-Stock",
+      "en": "Seeing Horde Cane",
+      "fr": "Canne de Dravanien",
+      "ja": "ホードケーン",
+      "ko": "Seeing Horde Cane"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "b8039632798",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Handgonne",
+      "de": "Nidhogg-Donnerbüchse",
+      "en": "Seeing Horde Handgonne",
+      "fr": "Haquebute de Dravanien",
+      "ja": "ホードハンドゴンネ",
+      "ko": "Seeing Horde Handgonne"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "21867f36c90",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Rapier",
+      "de": "Nidhogg-Rapier",
+      "en": "Seeing Horde Rapier",
+      "fr": "Rapière de Dravanien",
+      "ja": "ホードレイピア",
+      "ko": "Seeing Horde Rapier"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "7dd7749f6db",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Rod",
+      "de": "Nidhogg-Stab",
+      "en": "Seeing Horde Rod",
+      "fr": "Sceptre de Dravanien",
+      "ja": "ホードロッド",
+      "ko": "Seeing Horde Rod"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "39cae3f3f74",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Star Globe",
+      "de": "Nidhogg-Sternenglobus",
+      "en": "Seeing Horde Star Globe",
+      "fr": "Globe céleste de Dravanien",
+      "ja": "ホードスターグローブ",
+      "ko": "Seeing Horde Star Globe"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
     "id": "255206ca92c",
     "level": 210,
     "maxQuality": 10373,
@@ -14805,7 +14890,7 @@
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁精准头冠",
-      "de": "Szintillator-Stirnreif des Zielens",
+      "de": "Szintillator-Haarspange des Zielens",
       "en": "Scintillant Circlet of Aiming",
       "fr": "Diadème de pisteur en scintillant",
       "ja": "シンチレーターレンジャーサークレット",
@@ -14822,7 +14907,7 @@
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁游击头冠",
-      "de": "Szintillator-Stirnreif des Spähens",
+      "de": "Szintillator-Haarspange des Spähens",
       "en": "Scintillant Circlet of Scouting",
       "fr": "Diadème d'éclaireur en scintillant",
       "ja": "シンチレータースカウトサークレット",
@@ -14839,7 +14924,7 @@
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁强袭头冠",
-      "de": "Szintillator-Stirnreif des Schlagens",
+      "de": "Szintillator-Haarspange des Schlagens",
       "en": "Scintillant Circlet of Striking",
       "fr": "Diadème d'agresseur en scintillant",
       "ja": "シンチレーターストライカーサークレット",
@@ -19045,5 +19130,328 @@
       "ko": "Silvergrace Rod"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "7a51efcd3f0",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Evergleam Ingot",
+      "de": "Immerschimmer-Barren",
+      "en": "Evergleam Ingot",
+      "fr": "Lingot de pérennéclat",
+      "ja": "エバーグリームインゴット",
+      "ko": "Evergleam Ingot"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "1f779d75a41",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Aiming",
+      "de": "Rakshasa-Ohrring des Zielens",
+      "en": "Rakshasa Earring of Aiming",
+      "fr": "Boucle d'oreille rakshasa de pisteur",
+      "ja": "羅刹耳飾【弓士】",
+      "ko": "Rakshasa Earring of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "da62a3b3023",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Casting",
+      "de": "Rakshasa-Ohrring der Magie",
+      "en": "Rakshasa Earring of Casting",
+      "fr": "Boucle d'oreille rakshasa d'incantateur",
+      "ja": "羅刹耳飾【術士】",
+      "ko": "Rakshasa Earring of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "28353e7a2c0",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Fending",
+      "de": "Rakshasa-Ohrring der Verteidigung",
+      "en": "Rakshasa Earring of Fending",
+      "fr": "Boucle d'oreille rakshasa de protecteur",
+      "ja": "羅刹耳飾【武士】",
+      "ko": "Rakshasa Earring of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "79a2fd65f79",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Healing",
+      "de": "Rakshasa-Ohrring der Heilung",
+      "en": "Rakshasa Earring of Healing",
+      "fr": "Boucle d'oreille rakshasa de soigneur",
+      "ja": "羅刹耳飾【学士】",
+      "ko": "Rakshasa Earring of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "9b6cd678e14",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Slaying",
+      "de": "Rakshasa-Ohrring des Schlachtens",
+      "en": "Rakshasa Earring of Slaying",
+      "fr": "Boucle d'oreille rakshasa d'abatteur",
+      "ja": "羅刹耳飾【闘士】",
+      "ko": "Rakshasa Earring of Slaying"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "2f7da5a829d",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ephemeris",
+      "de": "Rakshasa-Astrometer",
+      "en": "Rakshasa Ephemeris",
+      "fr": "Éphéméridosphère rakshasa",
+      "ja": "羅刹干支",
+      "ko": "Rakshasa Ephemeris"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "f1fec0f31da",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Gantai of Aiming",
+      "de": "Rakshasa-Gantai des Zielens",
+      "en": "Rakshasa Gantai of Aiming",
+      "fr": "Gantai rakshasa de pisteur",
+      "ja": "羅刹眼帯【弓士】",
+      "ko": "Rakshasa Gantai of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "d200aac5e0d",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Gantai of Scouting",
+      "de": "Rakshasa-Gantai des Spähens",
+      "en": "Rakshasa Gantai of Scouting",
+      "fr": "Gantai rakshasa d'éclaireur",
+      "ja": "羅刹眼帯【間士】",
+      "ko": "Rakshasa Gantai of Scouting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "53df313c3f3",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Gantai of Striking",
+      "de": "Rakshasa-Gantai des Schlagens",
+      "en": "Rakshasa Gantai of Striking",
+      "fr": "Gantai rakshasa d'agresseur",
+      "ja": "羅刹眼帯【拳士】",
+      "ko": "Rakshasa Gantai of Striking"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "d916ffa5482",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Kanmuri of Casting",
+      "de": "Rakshasa-Kanmuri der Magie",
+      "en": "Rakshasa Kanmuri of Casting",
+      "fr": "Kanmuri rakshasa d'incantateur",
+      "ja": "羅刹冠【術士】",
+      "ko": "Rakshasa Kanmuri of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "430c687dd5c",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Kanmuri of Healing",
+      "de": "Rakshasa-Kanmuri der Heilung",
+      "en": "Rakshasa Kanmuri of Healing",
+      "fr": "Kanmuri rakshasa de soigneur",
+      "ja": "羅刹冠【学士】",
+      "ko": "Rakshasa Kanmuri of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "abe70506560",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Rapier",
+      "de": "Rakshasa-Rapier",
+      "en": "Rakshasa Rapier",
+      "fr": "Rapière rakshasa",
+      "ja": "羅刹細剣",
+      "ko": "Rakshasa Rapier"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "5c1879976b2",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Aiming",
+      "de": "Rakshasa-Ring des Zielens",
+      "en": "Rakshasa Ring of Aiming",
+      "fr": "Bague rakshasa de pisteur",
+      "ja": "羅刹指輪【弓士】",
+      "ko": "Rakshasa Ring of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "478045ae801",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Casting",
+      "de": "Rakshasa-Ring der Magie",
+      "en": "Rakshasa Ring of Casting",
+      "fr": "Bague rakshasa d'incantateur",
+      "ja": "羅刹指輪【術士】",
+      "ko": "Rakshasa Ring of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "bd5145ece8e",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Fending",
+      "de": "Rakshasa-Ring der Verteidigung",
+      "en": "Rakshasa Ring of Fending",
+      "fr": "Bague rakshasa de protecteur",
+      "ja": "羅刹指輪【武士】",
+      "ko": "Rakshasa Ring of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "8c2feabca10",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Healing",
+      "de": "Rakshasa-Ring der Heilung",
+      "en": "Rakshasa Ring of Healing",
+      "fr": "Bague rakshasa de soigneur",
+      "ja": "羅刹指輪【学士】",
+      "ko": "Rakshasa Ring of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "0914ef9474b",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Slaying",
+      "de": "Rakshasa-Ring des Schlachtens",
+      "en": "Rakshasa Ring of Slaying",
+      "fr": "Bague rakshasa d'abatteur",
+      "ja": "羅刹指輪【闘士】",
+      "ko": "Rakshasa Ring of Slaying"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "cfcbe3e41bb",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Rod",
+      "de": "Rakshasa-Stab",
+      "en": "Rakshasa Rod",
+      "fr": "Bâton rakshasa",
+      "ja": "羅刹呪杖",
+      "ko": "Rakshasa Rod"
+    },
+    "stars": 4
   }
 ]

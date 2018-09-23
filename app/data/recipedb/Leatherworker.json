@@ -58,7 +58,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -106,7 +106,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -778,7 +778,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -826,7 +826,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -1562,7 +1562,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -17278,5 +17278,311 @@
       "ko": "Yamashi Zori"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "151312553a2",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Procoptodon Leather",
+      "de": "Procoptodon-Leder",
+      "en": "Procoptodon Leather",
+      "fr": "Morceau de cuir de procoptodon",
+      "ja": "プロコプトドンレザー",
+      "ko": "Procoptodon Leather"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "75a45894c46",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Obi of Aiming",
+      "de": "Rakshasa-Obi des Zielens",
+      "en": "Rakshasa Obi of Aiming",
+      "fr": "Obi rakshasa de pisteur",
+      "ja": "羅刹帯【弓士】",
+      "ko": "Rakshasa Obi of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "ece8a693650",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Obi of Casting",
+      "de": "Rakshasa-Obi der Magie",
+      "en": "Rakshasa Obi of Casting",
+      "fr": "Obi rakshasa d'incantateur",
+      "ja": "羅刹帯【術士】",
+      "ko": "Rakshasa Obi of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "959206fce24",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Obi of Fending",
+      "de": "Rakshasa-Obi der Verteidigung",
+      "en": "Rakshasa Obi of Fending",
+      "fr": "Obi rakshasa de protecteur",
+      "ja": "羅刹帯【武士】",
+      "ko": "Rakshasa Obi of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "7a80180a0f0",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Obi of Healing",
+      "de": "Rakshasa-Obi der Heilung",
+      "en": "Rakshasa Obi of Healing",
+      "fr": "Obi rakshasa de soigneur",
+      "ja": "羅刹帯【学士】",
+      "ko": "Rakshasa Obi of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "8150fc0b914",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Obi of Maiming",
+      "de": "Rakshasa-Obi des Verstümmelns",
+      "en": "Rakshasa Obi of Maiming",
+      "fr": "Obi rakshasa d'abatteur",
+      "ja": "羅刹帯【槍士】",
+      "ko": "Rakshasa Obi of Maiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "552e5da9655",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Obi of Scouting",
+      "de": "Rakshasa-Obi des Spähens",
+      "en": "Rakshasa Obi of Scouting",
+      "fr": "Obi rakshasa d'éclaireur",
+      "ja": "羅刹帯【間士】",
+      "ko": "Rakshasa Obi of Scouting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "13fbe8c810b",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Obi of Striking",
+      "de": "Rakshasa-Obi des Schlagens",
+      "en": "Rakshasa Obi of Striking",
+      "fr": "Obi rakshasa d'agresseur",
+      "ja": "羅刹帯【拳士】",
+      "ko": "Rakshasa Obi of Striking"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "8262f461b54",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Tekko of Aiming",
+      "de": "Rakshasa-Tekko des Zielens",
+      "en": "Rakshasa Tekko of Aiming",
+      "fr": "Tekkô rakshasa de pisteur",
+      "ja": "羅刹手甲【弓士】",
+      "ko": "Rakshasa Tekko of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "73cdda3bc9c",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Tekko of Casting",
+      "de": "Rakshasa-Tekko der Magie",
+      "en": "Rakshasa Tekko of Casting",
+      "fr": "Tekkô rakshasa d'incantateur",
+      "ja": "羅刹手甲【術士】",
+      "ko": "Rakshasa Tekko of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "255de92b279",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Tekko of Healing",
+      "de": "Rakshasa-Tekko der Heilung",
+      "en": "Rakshasa Tekko of Healing",
+      "fr": "Tekkô rakshasa de soigneur",
+      "ja": "羅刹手甲【学士】",
+      "ko": "Rakshasa Tekko of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "4390b7021ef",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Tekko of Scouting",
+      "de": "Rakshasa-Tekko des Spähens",
+      "en": "Rakshasa Tekko of Scouting",
+      "fr": "Tekkô rakshasa d'éclaireur",
+      "ja": "羅刹手甲【間士】",
+      "ko": "Rakshasa Tekko of Scouting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "b6431fb2d6e",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Tekko of Striking",
+      "de": "Rakshasa-Tekko des Schlagens",
+      "en": "Rakshasa Tekko of Striking",
+      "fr": "Tekkô rakshasa d'agresseur",
+      "ja": "羅刹手甲【拳士】",
+      "ko": "Rakshasa Tekko of Striking"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "adcc314440a",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Zori of Aiming",
+      "de": "Rakshasa-Zori des Zielens",
+      "en": "Rakshasa Zori of Aiming",
+      "fr": "Zôri rakshasa de pisteur",
+      "ja": "羅刹草履【弓士】",
+      "ko": "Rakshasa Zori of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "d0ab59fb541",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Zori of Casting",
+      "de": "Rakshasa-Zori der Magie",
+      "en": "Rakshasa Zori of Casting",
+      "fr": "Zôri rakshasa d'incantateur",
+      "ja": "羅刹草履【術士】",
+      "ko": "Rakshasa Zori of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "0471b92c4bb",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Zori of Healing",
+      "de": "Rakshasa-Zori der Heilung",
+      "en": "Rakshasa Zori of Healing",
+      "fr": "Zôri rakshasa de soigneur",
+      "ja": "羅刹草履【学士】",
+      "ko": "Rakshasa Zori of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "c34d013fd64",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Zori of Scouting",
+      "de": "Rakshasa-Zori des Spähens",
+      "en": "Rakshasa Zori of Scouting",
+      "fr": "Zôri rakshasa d'éclaireur",
+      "ja": "羅刹草履【間士】",
+      "ko": "Rakshasa Zori of Scouting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "96aabb55047",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Zori of Striking",
+      "de": "Rakshasa-Zori des Schlagens",
+      "en": "Rakshasa Zori of Striking",
+      "fr": "Zôri rakshasa d'agresseur",
+      "ja": "羅刹草履【拳士】",
+      "ko": "Rakshasa Zori of Striking"
+    },
+    "stars": 4
   }
 ]
