@@ -1,13 +1,13 @@
 <div class="modal-header">
-  <h3>Character Import</h3>
+  <h3>{{ 'CHARACTER_IMPORT' | translate }}</h3>
 </div>
 
 <div class="modal-body">
 
   <form class="form-inline" name="searchForm">
     <select class="input-medium" ng-model="searchVars.server" ng-options="server for server in servers"></select>
-    <input class="input-medium" type="text" required ng-model="searchVars.name" placeholder="Name"/>
-    <button type="submit" class="btn" ng-click="search()" ng-disabled="searchForm.$invalid">Search</button>
+    <input class="input-medium" type="text" required ng-model="searchVars.name" placeholder="{{ 'NAME' | translate }}"/>
+    <button type="submit" class="btn" ng-click="search()" ng-disabled="searchForm.$invalid">{{ 'SEARCH' | translate }}</button>
     <span ng-show="searching"><i class="fa fa-spinner fa-pulse"></i></span>
   </form>
 
@@ -68,7 +68,7 @@
 </div>
 
 <div class="modal-footer">
-  <span class="pull-left">Character data is provided by <a href="https://xivdb.com/xivsync" target="_blank">XIVDB</a>.</span>
-  <button class="btn btn-primary" ng-click="importCharacter()" ng-disabled="!selectedChar || selectedChar.error">Import</button>
-  <button class="btn" ng-click="cancel()">Cancel</button>
+  <span class="pull-left">{{ 'CHARACTER_DATA' | translate }}<a href="https://xivdb.com/xivsync" target="_blank">XIVDB</a>.</span>
+  <button class="btn btn-primary" ng-click="importCharacter()" ng-disabled="!selectedChar || selectedChar.error">{{ 'IMPORT' | translate }}</button>
+  <button class="btn" ng-click="cancel()">{{ 'CANCEL' | translate }}</button>
 </div>

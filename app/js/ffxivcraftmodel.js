@@ -844,7 +844,7 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
             else {
                 return ppGood + ppExcellent;
             }
-        },
+        }
         // checkInnerQuietEqWhistle: function () {
         //     if (ignoreConditionReq) {
         //         return true;
@@ -1011,7 +1011,7 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
         },
         pGoodOrExcellent: function () {
             return 1;
-        },
+        }
         // checkInnerQuietEqWhistle: function () {
         //     if (ignoreConditionReq) {
         //         return true;
@@ -1444,7 +1444,7 @@ function MonteCarloSim(individual, synth, nRuns, assumeSuccess, conditionalActio
         average: avgStats,
         median: mdnStats,
         min: minStats,
-        max: maxStats,
+        max: maxStats
     }
 }
 
@@ -1735,7 +1735,7 @@ function heuristicSequenceBuilder(synth) {
         }
     }
     else if ((effCrafterLevel < effRecipeLevel) && tryAction('ingenuity')) {
-        pushAction(subSeq1, 'ingenuity')
+        pushAction(subSeq1, 'ingenuity');
         if (Ing1RecipeLevelTable[synth.recipe.level]) {
             //effRecipeLevel = Ing1RecipeLevelTable[effRecipeLevel];
         }
@@ -1828,7 +1828,7 @@ function heuristicSequenceBuilder(synth) {
     preferredAction = 'basicTouch';
     // If we have steady hand 2 and hasty touch use that combo
     if (hasAction('hastyTouch') && tryAction('steadyHand2')) {
-        pushAction(subSeq1, 'steadyHand2')
+        pushAction(subSeq1, 'steadyHand2');
         preferredAction = 'hastyTouch';
     }
 
@@ -2016,7 +2016,7 @@ var Ing1RecipeLevelTable = {
     290: 280,   // 70
     300: 291,   // 70_1star
     320: 292,   // 70_2star
-    350: 293,   // 70_3star
+    350: 293   // 70_3star
 };
 
 var Ing2RecipeLevelTable = {
@@ -2064,7 +2064,7 @@ var Ing2RecipeLevelTable = {
     290: 279,   // 70
     300: 290,   // 70_1star
     320: 291,   // 70_2star
-    350: 292,   // 70_3star
+    350: 292   // 70_3star
 };
 
 var NymeaisWheelTable = {
@@ -2079,7 +2079,7 @@ var NymeaisWheelTable = {
     9: 10,
     10: 10,
     11: 10
-}
+};
 
 var ProgressPenaltyTable = {
     180: -0.02,
@@ -2087,8 +2087,8 @@ var ProgressPenaltyTable = {
     220: -0.035,
     250: -0.04,
     320: -0.02,
-    350: -0.035,
-}
+    350: -0.035
+};
 
 var QualityPenaltyTable = {
     0: -0.02,
@@ -2099,8 +2099,8 @@ var QualityPenaltyTable = {
     245: -0.08,
     300: -0.09,
     310: -0.10,
-    340: -0.11,
-}
+    340: -0.11
+};
 
 // Test objects
 //cls, level, craftsmanship, control, craftPoints, actions

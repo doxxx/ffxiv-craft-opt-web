@@ -185,7 +185,7 @@
       if (!$scope.profile) return;
 
       if (!noDirtyCheck && isSynthDirty()) {
-        if (!window.confirm('You have not saved the changes to your current sequence. Are you sure?')) {
+        if (!window.confirm($translate.instant('CONFIRM_NOT_SAVE'))) {
           return;
         }
       }
@@ -231,7 +231,7 @@
       if (name === undefined || name === '') {
         name = $scope.recipe.name;
       }
-      var newName = window.prompt('Enter new synth name:', name);
+      var newName = window.prompt($translate.instant('NEW_SYNTH_NAME'), name);
       if (newName === null || newName.length === 0) return;
       $scope.settings.name = newName;
       saveSynth(true);
@@ -241,7 +241,7 @@
       if (!$scope.profile) return;
 
       var name = $scope.settings.name;
-      if (window.confirm('Are you sure you want to delete the "' + name + '" synth?')) {
+      if (window.confirm($translate.instant('DELETE_SYNTH') + name)) {
         $scope.profile.deleteSynth(name);
         $scope.settings.name = '';
         $scope.savedSynthNames = $scope.profile.synthNames();
@@ -253,7 +253,7 @@
       if (!$scope.profile) return;
 
       var name = $scope.settings.name;
-      var newName = window.prompt('Enter new synth name:', name);
+      var newName = window.prompt($translate.instant('NEW_SYNTH_NAME'), name);
       if (newName === null || newName.length === 0) return;
       $scope.settings.name = newName;
       $scope.profile.renameSynth(name, newName);
@@ -266,7 +266,7 @@
       var modalInstance = $modal.open({
         templateUrl: 'modals/macroimport.html',
         controller: 'MacroImportController',
-        windowClass: 'macro-import-modal',
+        windowClass: 'macro-import-modal'
       });
       modalInstance.result.then(function (result) {
         $scope.sequence = result.sequence;
@@ -276,14 +276,14 @@
     function importSynth() {
       if (!$scope.profile) return;
 
-      var synthString = window.prompt('Enter new synth sequence code:');
+      var synthString = window.prompt($translate.instant('NEW_SYNTH_SEQUENCE'));
       if (synthString === null || synthString === "") { return; }
 
       var newSequence;
       try {
         newSequence = JSON.parse(synthString);
       } catch(e) {
-        window.alert("Error: Malformed synth sequence.");
+        window.alert($translate.instant('ERROR_SEQUENCE'));
         return;
       }
 
@@ -293,11 +293,11 @@
           $scope.sequence = newSequence;
         }
         else {
-          window.alert("Error: Empty synth sequence.");
+          window.alert($translate.instant('ERROR_SYNTH_EMPTY'));
         }
       }
       else {
-        window.alert("Error: Invalid synth sequence.");
+        window.alert($translate.instant('ERROR_SYNTH_INVALID'));
       }
 
     }
@@ -305,8 +305,8 @@
     function exportSynth() {
       if (!$scope.profile) return;
 
-      var synthString = JSON.stringify($scope.sequence)
-      window.prompt('Synth sequence code:', synthString);
+      var synthString = JSON.stringify($scope.sequence);
+      window.prompt($translate.instant('SYNTH_SEQUENCE_CODE'), synthString);
     }
 
     function isSynthDirty() {
@@ -332,7 +332,9 @@
       if (!$scope.settings) return '';
 
       if ($scope.settings.name === '') {
-        return '<unnamed>';
+          var unnamedLabel = $translate.instant('UNNAMED');
+
+          return '<' + unnamedLabel + '>';
       }
       else {
         return $scope.settings.name;

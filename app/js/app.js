@@ -31,7 +31,7 @@
     // Translation keys should be the actual English so that they can be used
     // as-is without having to redefine it here. The exception is when
     // interpolation is required: then the key should be an all uppercase token.
-    $translateProvider.translations('en', {});
+    // $translateProvider.translations('en', {});
 
     $translateProvider.useStaticFilesLoader({
       prefix: 'locale/',

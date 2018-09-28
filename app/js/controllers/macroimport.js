@@ -21,7 +21,7 @@
       var sequence = convertMacro(vm.macroText);
       if (sequence !== undefined) {
         $modalInstance.close({
-          sequence: sequence,
+          sequence: sequence
         });
       }
     }
