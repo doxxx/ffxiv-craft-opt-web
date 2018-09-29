@@ -266,7 +266,7 @@
       var modalInstance = $modal.open({
         templateUrl: 'modals/macroimport.html',
         controller: 'MacroImportController',
-        windowClass: 'macro-import-modal'
+        windowClass: 'macro-import-modal',
       });
       modalInstance.result.then(function (result) {
         $scope.sequence = result.sequence;

@@ -116,7 +116,7 @@
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
         //overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
-        debug: $scope.sequenceSettings.debug
+        debug: $scope.sequenceSettings.debug,
       };
 
       $scope.simulatorStatus.running = true;

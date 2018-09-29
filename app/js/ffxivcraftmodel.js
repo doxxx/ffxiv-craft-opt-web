@@ -1444,7 +1444,7 @@ function MonteCarloSim(individual, synth, nRuns, assumeSuccess, conditionalActio
         average: avgStats,
         median: mdnStats,
         min: minStats,
-        max: maxStats
+        max: maxStats,
     }
 }
 
@@ -2016,7 +2016,7 @@ var Ing1RecipeLevelTable = {
     290: 280,   // 70
     300: 291,   // 70_1star
     320: 292,   // 70_2star
-    350: 293   // 70_3star
+    350: 293,   // 70_3star
 };
 
 var Ing2RecipeLevelTable = {
@@ -2064,7 +2064,7 @@ var Ing2RecipeLevelTable = {
     290: 279,   // 70
     300: 290,   // 70_1star
     320: 291,   // 70_2star
-    350: 292   // 70_3star
+    350: 292,   // 70_3star
 };
 
 var NymeaisWheelTable = {
@@ -2087,7 +2087,7 @@ var ProgressPenaltyTable = {
     220: -0.035,
     250: -0.04,
     320: -0.02,
-    350: -0.035
+    350: -0.035,
 };
 
 var QualityPenaltyTable = {
@@ -2099,7 +2099,7 @@ var QualityPenaltyTable = {
     245: -0.08,
     300: -0.09,
     310: -0.10,
-    340: -0.11
+    340: -0.11,
 };
 
 // Test objects

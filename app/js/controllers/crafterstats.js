@@ -45,7 +45,7 @@
 
     function crafterActionClasses(action, cls) {
       return {
-        'faded': !$scope.isActionSelected(action, cls)
+        'faded': !$scope.isActionSelected(action, cls),
       }
     }
 
