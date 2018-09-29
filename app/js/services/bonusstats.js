@@ -21,8 +21,8 @@
       control: 0,
       cp: 0,
       startQuality: 0,
-      food: {id:"None","name":"None"},
-      medicine: {id:"None","name":"None"}
+      food: {},
+      medicine: {}
     }
   }
 

@@ -37,7 +37,7 @@
             r.id = r.name + (r.hq ? ':hq' : '');
             return r;
           });
-          result.unshift({id:"None",name:"None"});
+          result.unshift();
           return result;
         }
       );

@@ -1,13 +1,13 @@
 <div class="simulator-status row-fluid">
   <div class="synth-status span6">
     <div class="title">
-      L{{stats.level}} {{recipe.cls}}
+      L{{stats.level}} {{recipe.cls | translate}}
       <span ng-if="stats.specialist">&nbsp;<small>(Specialist)</small></span>
     </div>
     <hr/>
     <table>
       <tr>
-        <td class="stats-label">Progress</td>
+        <td class="stats-label">{{ 'PROGRESS' | translate }}</td>
       </tr>
       <tr>
         <td class="bar">
@@ -16,7 +16,7 @@
         <td class="bar-value">{{progress}} / {{recipe.difficulty}}</td>
       </tr>
       <tr>
-        <td class="stats-label">Quality</td>
+        <td class="stats-label">{{ 'QUALITY' | translate }}</td>
       </tr>
       <tr>
         <td class="bar">
@@ -25,7 +25,7 @@
         <td class="bar-value">{{quality}} / {{recipe.maxQuality}}</td>
       </tr>
       <tr>
-        <td class="stats-label">CP</td>
+        <td class="stats-label">{{ 'CP' | translate }}</td>
       </tr>
       <tr>
         <td class="bar">
@@ -38,13 +38,13 @@
     <table>
       <tr class="narrow">
         <td>
-          <span class="stats-label">Durability</span> {{durability}}&nbsp;/&nbsp;{{recipe.durability}}&emsp;
+          <span class="stats-label">{{ 'DURABILITY' | translate }}</span> {{durability}}&nbsp;/&nbsp;{{recipe.durability}}&emsp;
         </td>
         <td>
-          <span class="stats-label">HQ</span>&nbsp;{{hqPercent}}%&emsp;
+          <span class="stats-label">{{ 'HQ' | translate }}</span>&nbsp;{{hqPercent}}%&emsp;
         </td>
         <td class="align-right">
-          <span class="stats-label">Reliability</span>&nbsp;{{successPercent | number: 0}}%
+          <span class="stats-label">{{ 'RELIABILITY' | translate }}</span>&nbsp;{{successPercent | number: 0}}%
         </td>
       </tr>
     </table>
@@ -52,7 +52,7 @@
 
   <div class="bonus-stats span6">
     <div class="title">
-      Attributes
+      {{ 'ATTRIBUTES' | translate}}
       <a ui-sref="crafter-attributes"><small><i class="fa fa-edit"></i></small></a>
     </div>
     <hr/>
@@ -60,22 +60,24 @@
       <table>
         <tr>
           <td>
-            <span class="stats-label">Food</span><br/>
+            <span class="stats-label">{{ 'FOOD' | translate }}</span><br/>
             <select class="input-fill" ng-model="bonusStats.food"
                     ng-options="buffName(buff) for buff in buffList.food track by buff.id">
+              <option value="" selected="selected">{{ 'FOOD_NONE' | translate }}</option>
             </select>
           </td>
           <td>
-            <span class="stats-label">Medicine</span><br/>
+            <span class="stats-label">{{ 'MEDICINE' | translate }}</span><br/>
             <select class="input-fill" ng-model="bonusStats.medicine"
                     ng-options="buffName(buff) for buff in buffList.medicine track by buff.id">
+              <option value="" selected="selected">{{ 'MEDICINE_NONE' | translate }}</option>
             </select>
           </td>
         </tr>
       </table>
       <table>
         <tr>
-          <td class="col1 stats-label">Craftsmanship</td>
+          <td class="col1 stats-label">{{ 'STATS_CRAFTSMANSHIP' | translate }}</td>
           <td class="col2 value">{{baseStats.craftsmanship}}</td>
           <td class="col3 value">+&nbsp;{{buffStats.craftsmanship}}</td>
           <td class="col4">
@@ -87,7 +89,7 @@
           <td class="col6">&nbsp;</td>
         </tr>
         <tr>
-          <td class="col1 stats-label">Control</td>
+          <td class="col1 stats-label">{{ 'STATS_CONTROL' | translate }}</td>
           <td class="col2 value">{{baseStats.control}}</td>
           <td class="col3 value">+&nbsp;{{buffStats.control}}</td>
           <td class="col4">
@@ -98,7 +100,7 @@
           <td class="col6">&nbsp;</td>
         </tr>
         <tr>
-          <td class="col1 stats-label">CP</td>
+          <td class="col1 stats-label">{{ 'STATS_CP' | translate }}</td>
           <td class="col2 value">{{baseStats.cp}}</td>
           <td class="col3 value">+&nbsp;{{buffStats.cp}}</td>
           <td class="col4">
@@ -109,7 +111,7 @@
           <td class="col6">&nbsp;</td>
         </tr>
         <tr>
-          <td class="col1 stats-label">Start Quality</td>
+          <td class="col1 stats-label">{{ 'STATS_START_QUALITY' | translate }}</td>
           <td class="col2 value">0</td>
           <td class="col3 value">+&nbsp;0</td>
           <td class="col4">
