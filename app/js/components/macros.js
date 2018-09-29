@@ -90,7 +90,7 @@
           lines.push(line);
         }
         else {
-          lines.push('/echo Error: Unknown action ' + action);
+          lines.push('/echo Error: Unknown action ' + action + '\n');
         }
       }
 
@@ -122,7 +122,6 @@
             line += waitString;
             time = options.waitTime
           }
-          line += '\n';
           lines.push({text: line, time: time});
         }
         else {
@@ -141,9 +140,14 @@
       var macroTime = 0;
       var macroIndex = 1;
 
+      if (options.includeMacroLock) {
+        macroString += '/macrolock\n';
+          macroLineCount++;
+      }
+
       for (var j = 0; j < lines.length; j++) {
         var line = lines[j];
-        macroString += line.text;
+        macroString += line.text + '\n';
         macroTime += line.time;
         macroLineCount += 1;
 
@@ -151,10 +155,16 @@
           if (lines.length - (j + 1) > 1) {
             macroString += '/echo Macro #' + macroIndex + ' complete ' + soundEffect(options.stepSoundEffect) + '\n';
             macroList.push({text: macroString, time: macroTime});
+
             macroString = '';
             macroLineCount = 0;
             macroTime = 0;
             macroIndex += 1;
+
+            if (options.includeMacroLock) {
+              macroString += '/macrolock\n';
+              macroLineCount++;
+            }
           }
         }
       }

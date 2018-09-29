@@ -247,6 +247,11 @@
                       <input type="checkbox" name="includeCurrentClassActions" ng-model="macroOptions.includeCurrentClassActions" ng-disabled="!macroOptions.setupCrossClassActions"/>
                       {{ 'MACRO_INCLUDE_CLASS' | translate }}
                     </label>
+                    <br/>
+                    <label class="checkbox" tooltip="{{ 'MACRO_LOCK_INFO' | translate }}" tooltip-placement="top">
+                      <input type="checkbox" name="includeMacroLock" ng-model="macroOptions.includeMacroLock"/>
+                      {{ 'MACRO_INCLUDE_LOCK' | translate }}
+                    </label>
                   </div>
                 </div>
               </div>

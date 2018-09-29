@@ -5,10 +5,14 @@
       <label class="checkbox">
         <input type="checkbox" ng-model="options.setupCrossClassActions"/>{{ 'MACRO_CROSS_CLASS' | translate }}
       </label>
-      <br/>
+      <br ng-if="options.setupCrossClassActions"/>
       <label class="checkbox" ng-if="options.setupCrossClassActions">
         <input type="checkbox" ng-model="options.includeCurrentClassActions"/>
         {{ 'MACRO_INCLUDE_CLASS' | translate }}
+      </label>
+      <br/>
+      <label class="checkbox">
+        <input type="checkbox" ng-model="options.includeMacroLock"/>{{ 'MACRO_INCLUDE_LOCK' | translate }}
       </label>
     </div>
   </div>
