@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('SettingsImportController', controller);
 
-  function controller($scope, $window) {
+  function controller($scope, $window, $translate) {
     //noinspection AssignmentResultUsedJS
     var vm = $scope.vm = {};
 
@@ -29,7 +29,7 @@
         .then(function (zip) {
           var settingsJsonFile = zip.file('settings.json');
           if (!settingsJsonFile) {
-            throw new Error('settings.json not found');
+            throw new Error($translate.instant('SETTINGS_NOT_FOUND'));
           }
           settingsJsonFile.async('text')
             .then(function (text) {
@@ -38,23 +38,23 @@
                   importSettings(text);
                 }
                 catch (err) {
-                  $window.alert('Invalid zip file provided.\n\n' + err.message);
+                  $window.alert($translate.instant('INVALID_FILE') + '\n\n' + err.message);
                 }
               });
             })
             .catch(function (err) {
-              $window.alert('Invalid zip file provided.\n\n' + err.message);
+              $window.alert($translate.instant('INVALID_FILE') + '\n\n' + err.message);
             });
         })
         .catch(function (err) {
-          $window.alert('Invalid zip file provided.\n\n' + err.message);
+          $window.alert($translate.instant('INVALID_FILE') + '\n\n' + err.message);
         });
     }
 
     function importSettings(text) {
       var data;
       data = JSON.parse(text);
-      if (!$window.confirm('Are you sure you want to import this settings file? All your existing settings will be overwritten.')) {
+      if (!$window.confirm($translate.instant('CONFIRM_IMPORT_SETTINGS'))) {
         return;
       }
       console.log('Importing settings into local storage:', data);
@@ -63,7 +63,7 @@
           localStorage[key] = data[key];
         }
       }
-      $window.alert('Settings have been imported. Application will now be reloaded.');
+      $window.alert($translate.instant('SETTINGS_IMPORTED'));
       $window.location.reload();
     }
 
