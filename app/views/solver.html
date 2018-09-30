@@ -116,7 +116,7 @@
                 <tab-heading>{{ 'MACRO' | translate }}</tab-heading>
                 <macros sequence="pageState.solverStatus.sequence" cls="recipe.cls" options="macroOptions"></macros>
             </tab>
-            <tab heading="Execution Log" active="logTabs.execution.active">
+            <tab heading="{{ 'EXECUTION_LOG' | translate}}" active="logTabs.execution.active">
                 <pre>{{pageState.solverStatus.logs.execution}}</pre>
             </tab>
         </tabset>
