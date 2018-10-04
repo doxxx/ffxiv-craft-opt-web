@@ -1,102 +1,4 @@
 {
-  "Advanced Touch": "Höhere Veredelung",
-  "Standard Synthesis": "Solide Bearbeitung",
-  "Master's Mend II": "Wiederherstellung II",
-  "Great Strides": "Große Schritte",
-  "Standard Touch": "Solide Veredelung",
-  "Observe": "Beobachten",
-  "Inner Quiet": "Innere Ruhe",
-  "Steady Hand": "Ruhige Hand",
-  "Master's Mend": "Wiederherstellung",
-  "Basic Touch": "Veredelung",
-  "Basic Synthesis": "Bearbeiten",
-
-  "Byregot's Blessing": "Byregots Benediktion",
-  "Brand of Wind": "Zeichen Des Winds",
-  "Rumination": "Nachsinnen",
-
-  "Ingenuity II": "Einfallsreichtum II",
-  "Brand of Fire": "Zeichen Des Feuers",
-  "Ingenuity": "Einfallsreichtum",
-
-  "Piece by Piece": "Stück für Stück",
-  "Brand of Ice": "Zeichen des Eises",
-  "Rapid Synthesis": "Schnelle Bearbeitung",
-
-  "Innovation": "Innovation",
-  "Flawless Synthesis": "Makellose Bearbeitung",
-  "Manipulation": "Manipulation",
-
-  "Waste Not II": "Nachhaltigkeit II",
-  "Brand of Earth": "Zeichen Der Erde",
-  "Waste Not": "Nachhaltigkeit",
-
-  "Careful Synthesis II": "Sorgfältige Bearbeitung II",
-  "Brand of Lightning": "Zeichen Des Blitzes",
-  "Careful Synthesis": "Sorgfältige Bearbeitung",
-
-  "Comfort Zone": "Komfortzone",
-  "Brand of Water": "Zeichen Des Wassers",
-  "Tricks of the Trade": "Kunstgriff",
-
-  "Reclaim": "Reklamation",
-  "Steady Hand II": "Ruhige Hand II",
-  "Hasty Touch": "Hastige Veredelung",
-
-  "Byregot's Brow": "Byregots Schwung",
-  "Precise Touch": "Präzise Veredelung",
-  "Maker's Mark": "Kunst des Kundigen",
-  "Muscle Memory": "Motorisches Gedächtnis",
-
-  "Whistle While You Work": "Trällern",
-  "Satisfaction": "Zufriedenheit",
-  "Innovative Touch": "Innovative Veredelung",
-  "Nymeia's Wheel": "Nymeias Rad",
-  "Byregot's Miracle": "Byregots Wunder",
-  "Trained Hand": "Geübte Hand",
-
-  "Name of Earth": "Name der Erde",
-  "Name of Fire": "Name des Feuers",
-  "Name of Ice": "Name des Eises",
-  "Name of Lightning": "Name des Blitzes",
-  "Name of Water": "Name des Wassers",
-  "Name of the Wind": "Name des Winds",
-
-  "Finishing Touches": "Letzter Schliff",
-
-  "Hasty Touch II": "Hastige Veredelung II",
-  "Careful Synthesis III": "Sorgfältige Bearbeitung III",
-  "Rapid Synthesis II": "Schnelle Bearbeitung II",
-  "Patient Touch": "Hingebungsvolle Veredelung",
-  "Manipulation II": "Manipulation II",
-  "Prudent Touch": "Nachhaltige Veredelung",
-  "Focused Synthesis": "Aufmerksame Bearbeitung",
-  "Focused Touch": "Aufmerksame Veredelung",
-  "Initial Preparations": "Fulminanter Start",
-  "Specialty: Reinforce": "Ass des Spezialisten: Regeneration",
-  "Specialty: Refurbish": "Ass des Spezialisten: Souveränität",
-  "Specialty: Reflect": "Ass des Spezialisten: Einkehr",
-
-
-  "Alchemist": "Alchemist",
-  "Armorer": "Armorer",
-  "Blacksmith": "Blacksmith",
-  "Carpenter": "Carpenter",
-  "Culinarian": "Culinarian",
-  "Goldsmith": "Goldsmith",
-  "Leatherworker": "Leatherworker",
-  "Weaver": "Weaver",
-
-  "Synthesis": "Synthesis",
-  "Quality": "Quality",
-  "CP": "CP",
-  "Durability": "Durability",
-  "Buffs": "Buffs",
-  "Specialist": "Specialist",
-  "Other": "Other",
-
-  "Loading...": "Loading...",
-
   "SEARCH": "Search",
   "CANCEL": "Cancel",
   "SAVE": "Save",
@@ -274,6 +176,7 @@
   "USING_SOLVER_STEP_1": "After running the simulator, go to the <b>Simulator</b> section.",
   "USING_SOLVER_STEP_2": "Click on the Solve button. The computer will try random variations of your initial guess to see if it can improve on the sequence. This step is not guaranteed to return the same result every time, so try clicking a few times if no improvement can be found in the first try.",
   "USING_SOLVER_STEP_3": "The best result will be displayed in the Solver Result section.",
+  "USING_SOLVER_STEP_4": "If the new result is preferred, click the Use Solver Result to replace your initial guess with the solver's result.",
   "USING_SOLVER_STEP_5": "Go to the Execution Log to see a simulation of the result returned by the solver.",
 
   "MACRO_IMPORT": "Macro Import",

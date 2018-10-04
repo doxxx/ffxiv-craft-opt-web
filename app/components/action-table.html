@@ -1,5 +1,5 @@
 <div class="action-group" ng-repeat="actionGroup in actionGroups">
-  <label class="action-group-label">{{actionGroup.name}}</label>
+  <label class="action-group-label">{{actionGroup.name | translate }}</label>
   <div class="action-group-actions">
     <div ng-repeat="action in actionGroup.actions track by $index"
           ng-click="onClick(action, cls)"

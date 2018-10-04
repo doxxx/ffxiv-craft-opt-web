@@ -74,7 +74,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -90,7 +90,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -554,7 +554,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -586,7 +586,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -855,7 +855,7 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "Glamour Prism",
+      "cn": "幻象棱晶",
       "de": "Projektionsprisma",
       "en": "Glamour Prism",
       "fr": "Prisme mirage",
@@ -1162,7 +1162,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -5339,7 +5339,7 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "cn": "Magitek Repair Materials",
+      "cn": "魔导机械修理材料",
       "de": "Magitek-Reparaturkit",
       "en": "Magitek Repair Materials",
       "fr": "Kit de réparation d'appareil",
@@ -7072,7 +7072,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Brazier Components",
+      "cn": "篝火台部件",
       "de": "Feuerschalenteil",
       "en": "Brazier Components",
       "fr": "Composant de braséro",
@@ -7120,7 +7120,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Finery Components",
+      "cn": "交易品部件",
       "de": "Tauschware",
       "en": "Finery Components",
       "fr": "Marchandises commerciales",
@@ -7136,7 +7136,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Happi Components",
+      "cn": "法被部件",
       "de": "Happi-Element",
       "en": "Happi Components",
       "fr": "Composant de happi",
@@ -7152,7 +7152,7 @@
     "level": 145,
     "maxQuality": 3540,
     "name": {
-      "cn": "Ritual Implement Components",
+      "cn": "净化用祭具",
       "de": "Reinigungsfetisch",
       "en": "Ritual Implement Components",
       "fr": "Instruments de purification",
@@ -7168,7 +7168,7 @@
     "level": 145,
     "maxQuality": 3540,
     "name": {
-      "cn": "Trinket Components",
+      "cn": "礼品部件",
       "de": "Kleinigkeit",
       "en": "Trinket Components",
       "fr": "Présent modeste",
@@ -7184,7 +7184,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Uchiwa Components",
+      "cn": "团扇部件",
       "de": "Fächerteil",
       "en": "Uchiwa Components",
       "fr": "Élément d'éventail",
@@ -7312,7 +7312,7 @@
     "level": 148,
     "maxQuality": 5504,
     "name": {
-      "cn": "Altar Components",
+      "cn": "供台部件",
       "de": "Altarelement",
       "en": "Altar Components",
       "fr": "Composant d'autel",
@@ -7328,7 +7328,7 @@
     "level": 148,
     "maxQuality": 3669,
     "name": {
-      "cn": "Azim Steppe Souvenir Components",
+      "cn": "游牧民风格的商品",
       "de": "Handelsware",
       "en": "Azim Steppe Souvenir Components",
       "fr": "Produit d'inspiration nomade",
@@ -7344,7 +7344,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Buuz Cooking Paraphernalia",
+      "cn": "蒸包子用品",
       "de": "Buuds-Kochutensilie",
       "en": "Buuz Cooking Paraphernalia",
       "fr": "Ustensile de cuisine pour buuz",
@@ -7360,7 +7360,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Catfish Lure Components",
+      "cn": "鲶鱼钓具",
       "de": "Wels-Köder",
       "en": "Catfish Lure Components",
       "fr": "Accessoire de pêche au poisson-chat",
@@ -7376,7 +7376,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Hingan Ritual Paraphernalia",
+      "cn": "祖先招待用品",
       "de": "Ritualgegenstand zur Ahnenverehrung",
       "en": "Hingan Ritual Paraphernalia",
       "fr": "Objet cérémoniel",
@@ -7424,7 +7424,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Mol Tea Ceremony Paraphernalia",
+      "cn": "茶会必需品",
       "de": "Tee-Bedarfsartikel",
       "en": "Mol Tea Ceremony Paraphernalia",
       "fr": "Élément de cérémonie du thé",
@@ -7440,7 +7440,7 @@
     "level": 148,
     "maxQuality": 1834,
     "name": {
-      "cn": "Substitute Offering",
+      "cn": "供品",
       "de": "Opfergabe",
       "en": "Substitute Offering",
       "fr": "Offrande piégée",
@@ -7584,7 +7584,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Ceremonial Bow Components",
+      "cn": "祭弓部件",
       "de": "Ritualbogenelement",
       "en": "Ceremonial Bow Components",
       "fr": "Composant d'arc cérémoniel",
@@ -7600,7 +7600,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Confetti-making Tools",
+      "cn": "纸屑生产工具",
       "de": "Konfettiwerkzeug",
       "en": "Confetti-making Tools",
       "fr": "Outil de papeterie",
@@ -7616,7 +7616,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Culinary Knife Component",
+      "cn": "常用菜刀的部件",
       "de": "Messerteil",
       "en": "Culinary Knife Component",
       "fr": "Composant de couteau de cuisine",
@@ -7632,7 +7632,7 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
-      "cn": "Drum Parts",
+      "cn": "太鼓部件",
       "de": "Trommelwerkstoff",
       "en": "Drum Parts",
       "fr": "Composant de taiko",
@@ -7648,7 +7648,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Dzo Shear Components",
+      "cn": "牛毛剪刀部件",
       "de": "Scherenteil",
       "en": "Dzo Shear Components",
       "fr": "Élément d'entretien de ciseaux de toilettage",
@@ -7664,7 +7664,7 @@
     "level": 150,
     "maxQuality": 2904,
     "name": {
-      "cn": "Effigy Components",
+      "cn": "鲶鱼精人偶部件",
       "de": "Namazuo-Puppenelement",
       "en": "Effigy Components",
       "fr": "Composant de géant d'osier",
@@ -7680,7 +7680,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Elixir Mixing Paraphernalia",
+      "cn": "绝妙的调配用品",
       "de": "Destillierapparat-Ersatzteil",
       "en": "Elixir Mixing Paraphernalia",
       "fr": "Élément nécessaire à une mixtion",
@@ -7696,7 +7696,7 @@
     "level": 150,
     "maxQuality": 5888,
     "name": {
-      "cn": "Generous Gift",
+      "cn": "谢礼",
       "de": "Dankeschön-Geschenk",
       "en": "Generous Gift",
       "fr": "Cadeau de remerciement",
@@ -7712,7 +7712,7 @@
     "level": 150,
     "maxQuality": 6280,
     "name": {
-      "cn": "Gyr Abanian Souvenir",
+      "cn": "基拉巴尼亚的特产",
       "de": "Abanische Spezialität",
       "en": "Gyr Abanian Souvenir",
       "fr": "Souvenir de Gyr Abania",
@@ -7728,7 +7728,7 @@
     "level": 150,
     "maxQuality": 3140,
     "name": {
-      "cn": "Gyr Abanian Souvenir Component",
+      "cn": "基拉巴尼亚的特产部件",
       "de": "Komponente eines abanischen Souvenirs",
       "en": "Gyr Abanian Souvenir Component",
       "fr": "Composant de souvenir de Gyr Abania",
@@ -7792,7 +7792,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Korrigan Doll",
+      "cn": "魅惑的魔物人偶",
       "de": "Bezaubernde Korrigane-Puppe",
       "en": "Korrigan Doll",
       "fr": "Poupée envoûtante korrigan",
@@ -7808,7 +7808,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Land Diving Gear",
+      "cn": "陆地蹦极用品",
       "de": "Zubehörteil für ein Naghol-Sprungseil",
       "en": "Land Diving Gear",
       "fr": "Composant de système d'attache",
@@ -7824,7 +7824,7 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
-      "cn": "Mikoshi Frippery",
+      "cn": "神轿部件",
       "de": "Mikoshi-Element",
       "en": "Mikoshi Frippery",
       "fr": "Composant de mikoshi",
@@ -7840,7 +7840,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Pristine Fruit Figurine",
+      "cn": "投掷用特产",
       "de": "Festliches Wurfgeschoss",
       "en": "Pristine Fruit Figurine",
       "fr": "Répliques de produits régionaux",
@@ -7856,7 +7856,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Stable Supplies",
+      "cn": "养马必需品",
       "de": "Utensil für die Pferdezucht",
       "en": "Stable Supplies",
       "fr": "Accessoire d'élevage équin",
@@ -7872,7 +7872,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Steeping Accessory",
+      "cn": "烤鲶鱼用品",
       "de": "Kochwerkzeug",
       "en": "Steeping Accessory",
       "fr": "Composant de cuisine namazu",
@@ -7939,7 +7939,7 @@
     "level": 160,
     "maxQuality": 6701,
     "name": {
-      "cn": "Far Eastern Antique",
+      "cn": "东方风格的收藏品",
       "de": "Fernöstliche Kuriosität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
@@ -7956,7 +7956,7 @@
     "level": 160,
     "maxQuality": 3350,
     "name": {
-      "cn": "Far Eastern Antique Component",
+      "cn": "东方风格的收藏品部件",
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
@@ -9331,11 +9331,28 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
+    "id": "af588e381e2",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Shield",
+      "de": "Nidhogg-Schild",
+      "en": "Seeing Horde Shield",
+      "fr": "Bouclier de Dravanien",
+      "ja": "ホードシールド",
+      "ko": "Seeing Horde Shield"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
     "id": "45ae9568161",
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Shield of the Fiend",
+      "cn": "生命之盾",
       "de": "Schild des Baumgottes",
       "en": "Shield of the Fiend",
       "fr": "Bouclier du Fiélon",
@@ -9879,7 +9896,7 @@
     "level": 255,
     "maxQuality": 6701,
     "name": {
-      "cn": "Gold Saucer Consolation Prize",
+      "cn": "金碟游乐场的纪念品",
       "de": "Trostpreis für den Gold Saucer",
       "en": "Gold Saucer Consolation Prize",
       "fr": "Lot de consolation du Gold Saucer",
@@ -9895,7 +9912,7 @@
     "level": 255,
     "maxQuality": 3350,
     "name": {
-      "cn": "Gold Saucer Consolation Prize Component",
+      "cn": "金碟游乐场的纪念品部件",
       "de": "Komponente eines Gold Saucer-Trostpreises",
       "en": "Gold Saucer Consolation Prize Component",
       "fr": "Composant de lot de consolation du Gold Saucer",
@@ -10071,7 +10088,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Cottage Roof (Kura-zukuri)",
+      "cn": "石制东洋小屋房顶",
       "de": "Hinganisches Kurazukuri-Hüttendach",
       "en": "Hingan Cottage Roof (Kura-zukuri)",
       "fr": "Toit de maisonnette hingashienne (kura-zukuri)",
@@ -10087,7 +10104,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Cottage Wall (Kura-zukuri)",
+      "cn": "石制东洋小屋外墙",
       "de": "Hinganische Kurazukuri-Hüttenmauer",
       "en": "Hingan Cottage Wall (Kura-zukuri)",
       "fr": "Mur de maisonnette hingashienne (kura-zukuri)",
@@ -10103,7 +10120,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "Anti-shark Harpoon",
+      "cn": "防鲨用品",
       "de": "Haifischharpune",
       "en": "Anti-shark Harpoon",
       "fr": "Harpon anti-requin",
@@ -10119,7 +10136,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "Gyr Abanian Remedies",
+      "cn": "基拉巴尼亚医药品",
       "de": "Phiolenset abanischer Medizin",
       "en": "Gyr Abanian Remedies",
       "fr": "Remèdes gyrabaniens",
@@ -10135,7 +10152,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "Gyr Abanian Remedy Components",
+      "cn": "基拉巴尼亚医药品部件",
       "de": "Komponente abanischer Medizin",
       "en": "Gyr Abanian Remedy Components",
       "fr": "Composants pour remèdes gyrabaniens",
@@ -10151,7 +10168,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "Harpoon Components",
+      "cn": "防鲨用品部件",
       "de": "Komponente einer Haifischharpune",
       "en": "Harpoon Components",
       "fr": "Composants pour harpon anti-requin",
@@ -10263,7 +10280,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "M Tribe Sundries",
+      "cn": "梅氏一族的日用品",
       "de": "Jagdbedarf",
       "en": "M Tribe Sundries",
       "fr": "Produits du quotidien des M",
@@ -10279,7 +10296,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "M Tribe Sundry Component",
+      "cn": "梅氏一族的日用品部件",
       "de": "Komponente eines Gebrauchsgegenstands der M",
       "en": "M Tribe Sundry Component",
       "fr": "Composant de produits du quotidien des M",
@@ -10295,7 +10312,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Coerthan Cold-weather Gear",
+      "cn": "库尔札斯防寒用品",
       "de": "Coerthischer Wintermantel",
       "en": "Coerthan Cold-weather Gear",
       "fr": "Vêtements chauds du Coerthas",
@@ -10311,7 +10328,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Cold-weather Gear Components",
+      "cn": "库尔札斯防寒用品部件",
       "de": "Komponente coerthischer Winterkleidung",
       "en": "Cold-weather Gear Components",
       "fr": "Composants pour vêtements chauds du Coerthas",
@@ -10423,7 +10440,7 @@
     "level": 270,
     "maxQuality": 5219,
     "name": {
-      "cn": "Hingan Kura-zukuri Fence",
+      "cn": "东洋石制围墙",
       "de": "Hinganischer Kurazukuri-Zaun",
       "en": "Hingan Kura-zukuri Fence",
       "fr": "Muret hingashien (kura-zukuri)",
@@ -10439,7 +10456,7 @@
     "level": 270,
     "maxQuality": 5219,
     "name": {
-      "cn": "Hingan Squinch Window",
+      "cn": "东洋拱窗",
       "de": "Hinganisches Bogenfenster",
       "en": "Hingan Squinch Window",
       "fr": "Fenêtre en arche hingashienne",
@@ -10471,7 +10488,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Resistance Materiel",
+      "cn": "解放军的军需品",
       "de": "Rucksack für die Befreiungsarmee",
       "en": "Resistance Materiel",
       "fr": "Provisions pour l'armée de libération",
@@ -10487,7 +10504,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Resistance Materiel Component",
+      "cn": "解放军的军需品部件",
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
       "en": "Resistance Materiel Component",
       "fr": "Composant de provisions pour l'armée de libération",
@@ -10503,7 +10520,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Sui-no-Sato Special",
+      "cn": "翠水乡特产",
       "de": "Kostbarkeit aus Sui no Sato",
       "en": "Sui-no-Sato Special",
       "fr": "Spécialité de Sui-no-Sato",
@@ -10519,7 +10536,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Sui-no-Sato Special Components",
+      "cn": "翠水乡特产部件",
       "de": "Komponente einer Kostbarkeit aus Sui no Sato",
       "en": "Sui-no-Sato Special Components",
       "fr": "Composants pour spécialité de Sui-no-Sato",
@@ -10535,7 +10552,7 @@
     "level": 273,
     "maxQuality": 8680,
     "name": {
-      "cn": "Cloud Pearl",
+      "cn": "云海珍宝",
       "de": "Wolkenmeerperle",
       "en": "Cloud Pearl",
       "fr": "Rareté de la Mer de nuages",
@@ -10551,7 +10568,7 @@
     "level": 273,
     "maxQuality": 4340,
     "name": {
-      "cn": "Cloud Pearl Components",
+      "cn": "云海珍宝部件",
       "de": "Komponente einer Wolkenmeerperle",
       "en": "Cloud Pearl Components",
       "fr": "Composants pour rareté de la Mer de nuages",
@@ -10663,7 +10680,7 @@
     "level": 273,
     "maxQuality": 5425,
     "name": {
-      "cn": "Hingan House Roof (Kura-zukuri)",
+      "cn": "石制东洋公馆房顶",
       "de": "Hinganisches Kurazukuri-Hausdach",
       "en": "Hingan House Roof (Kura-zukuri)",
       "fr": "Toit de pavillon hingashien (kura-zukuri)",
@@ -10919,7 +10936,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan Armor Display",
+      "cn": "现代铠甲",
       "de": "Hingashi-Rüstung",
       "en": "Hingan Armor Display",
       "fr": "Armure hingashienne décorative",
@@ -10935,7 +10952,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan Awning (Kura-zukuri)",
+      "cn": "东洋石制遮蓬",
       "de": "Hinganisches Kurazukuri-Vordach",
       "en": "Hingan Awning (Kura-zukuri)",
       "fr": "Auvent hingashien (kura-zukuri)",
@@ -10951,7 +10968,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan House Wall (Kura-zukuri)",
+      "cn": "石制东洋公馆外墙",
       "de": "Hinganische Kurazukuri-Hausmauer",
       "en": "Hingan House Wall (Kura-zukuri)",
       "fr": "Mur de pavillon hingashien (kura-zukuri)",
@@ -10967,7 +10984,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan Oven",
+      "cn": "东洋烹饪台",
       "de": "Hingashi-Herd",
       "en": "Hingan Oven",
       "fr": "Four hingashien",
@@ -11111,7 +11128,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Mansion Roof (Kura-zukuri)",
+      "cn": "石制东洋别墅房顶",
       "de": "Hinganisches Kurazukuri-Residenzdach",
       "en": "Hingan Mansion Roof (Kura-zukuri)",
       "fr": "Toit de villa hingashienne (kura-zukuri)",
@@ -11127,7 +11144,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Mansion Wall (Kura-zukuri)",
+      "cn": "石制东洋别墅外墙",
       "de": "Hinganische Kurazukuri-Residenzmauer",
       "en": "Hingan Mansion Wall (Kura-zukuri)",
       "fr": "Mur de villa hingashienne (kura-zukuri)",
@@ -11143,7 +11160,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Placard (Kura-zukuri)",
+      "cn": "东洋古典门牌",
       "de": "Hinganische Kurazukuri-Wappenplakette",
       "en": "Hingan Placard (Kura-zukuri)",
       "fr": "Enseigne murale (kura-zukuri)",
@@ -11449,7 +11466,7 @@
     "level": 320,
     "maxQuality": 22171,
     "name": {
-      "cn": "Ala Mhigan Alembic",
+      "cn": "阿拉米格蒸馏器",
       "de": "Mhigischer Destillierkolben",
       "en": "Ala Mhigan Alembic",
       "fr": "Alambic mhigois",
@@ -11466,7 +11483,7 @@
     "level": 320,
     "maxQuality": 22171,
     "name": {
-      "cn": "Ala Mhigan Frypan",
+      "cn": "阿拉米格煎锅",
       "de": "Mhigische Bratpfanne",
       "en": "Ala Mhigan Frypan",
       "fr": "Poêle à frire mhigoise",
@@ -11483,7 +11500,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Armor of Fending",
+      "cn": "铬铁御敌战甲",
       "de": "Chromeisen-Rüstung der Verteidigung",
       "en": "Chromite Armor of Fending",
       "fr": "Armure de protecteur en chromite",
@@ -11500,7 +11517,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Gauntlets of Fending",
+      "cn": "铬铁御敌手铠",
       "de": "Chromeisen-Panzerhandschuhe der Verteidigung",
       "en": "Chromite Gauntlets of Fending",
       "fr": "Gantelets de protecteur en chromite",
@@ -11517,7 +11534,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Gauntlets of Maiming",
+      "cn": "铬铁制敌手铠",
       "de": "Chromeisen-Panzerhandschuhe des Verstümmelns",
       "en": "Chromite Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en chromite",
@@ -11534,7 +11551,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Greaves of Maiming",
+      "cn": "铬铁制敌胫甲",
       "de": "Chromeisen-Beinschienen des Verstümmelns",
       "en": "Chromite Greaves of Maiming",
       "fr": "Jambards d'abatteur en chromite",
@@ -11551,7 +11568,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Helm of Fending",
+      "cn": "铬铁御敌头盔",
       "de": "Chromeisen-Helm der Verteidigung",
       "en": "Chromite Helm of Fending",
       "fr": "Casque de protecteur en chromite",
@@ -11568,7 +11585,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Ingot",
+      "cn": "铬铁锭",
       "de": "Chromeisen-Barren",
       "en": "Chromite Ingot",
       "fr": "Lingot de chromite",
@@ -11585,7 +11602,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Mail of Maiming",
+      "cn": "铬铁制敌战铠",
       "de": "Chromeisen-Rüstung des Verstümmelns",
       "en": "Chromite Mail of Maiming",
       "fr": "Cotte de mailles d'abatteur en chromite",
@@ -11602,7 +11619,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Sabatons of Fending",
+      "cn": "铬铁御敌铠靴",
       "de": "Chromeisen-Bärlatschen der Verteidigung",
       "en": "Chromite Sabatons of Fending",
       "fr": "Sabatons de protecteur en chromite",
@@ -11619,7 +11636,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Shield",
+      "cn": "铬铁盾",
       "de": "Chromeisen-Schild",
       "en": "Chromite Shield",
       "fr": "Bouclier en chromite",
@@ -11636,7 +11653,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Shinryu Barding",
+      "cn": "神龙装甲",
       "de": "Shinryu-Rossharnisch",
       "en": "Shinryu Barding",
       "fr": "Barde de Shinryu",
@@ -11653,7 +11670,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Tier 1 Metal Aquarium",
+      "cn": "1级金属水族箱",
       "de": "Metall-Aquarium S",
       "en": "Tier 1 Metal Aquarium",
       "fr": "Aquarium en métal de petite taille",
@@ -11670,7 +11687,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Tier 2 Metal Aquarium",
+      "cn": "2级金属水族箱",
       "de": "Metall-Aquarium M",
       "en": "Tier 2 Metal Aquarium",
       "fr": "Aquarium en métal de taille moyenne",
@@ -11687,7 +11704,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Nightsteel Alembic",
+      "cn": "夜钢蒸馏器",
       "de": "Nachtstahl-Destillierkolben",
       "en": "Nightsteel Alembic",
       "fr": "Alambic en noctacier",
@@ -11704,7 +11721,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Nightsteel Armor of Fending",
+      "cn": "夜钢御敌战甲",
       "de": "Nachtstahl-Rüstung der Verteidigung",
       "en": "Nightsteel Armor of Fending",
       "fr": "Armure de protecteur en noctacier",
@@ -11721,7 +11738,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Nightsteel Frypan",
+      "cn": "夜钢煎锅",
       "de": "Nachtstahl-Bratpfanne",
       "en": "Nightsteel Frypan",
       "fr": "Poêle à frire en noctacier",
@@ -11738,7 +11755,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Nightsteel Gauntlets of Fending",
+      "cn": "夜钢御敌手铠",
       "de": "Nachtstahl-Panzerhandschuhe der Verteidigung",
       "en": "Nightsteel Gauntlets of Fending",
       "fr": "Gantelets de protecteur en noctacier",
@@ -11755,7 +11772,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Nightsteel Gauntlets of Maiming",
+      "cn": "夜钢制敌手铠",
       "de": "Nachtstahl-Panzerhandschuhe des Verstümmelns",
       "en": "Nightsteel Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en noctacier",
@@ -11772,7 +11789,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Nightsteel Greaves of Maiming",
+      "cn": "夜钢制敌胫甲",
       "de": "Nachtstahl-Beinschienen des Verstümmelns",
       "en": "Nightsteel Greaves of Maiming",
       "fr": "Jambards d'abatteur en noctacier",
@@ -11789,7 +11806,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Nightsteel Helm of Fending",
+      "cn": "夜钢御敌头盔",
       "de": "Nachtstahl-Helm der Verteidigung",
       "en": "Nightsteel Helm of Fending",
       "fr": "Casque de protecteur en noctacier",
@@ -11806,7 +11823,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Nightsteel Helm of Maiming",
+      "cn": "夜钢制敌头盔",
       "de": "Nachtstahl-Helm des Verstümmelns",
       "en": "Nightsteel Helm of Maiming",
       "fr": "Casque d'abatteur en noctacier",
@@ -11823,7 +11840,7 @@
     "level": 350,
     "maxQuality": 20335,
     "name": {
-      "cn": "Nightsteel Ingot",
+      "cn": "夜钢锭",
       "de": "Nachtstahl-Barren",
       "en": "Nightsteel Ingot",
       "fr": "Lingot de noctacier",
@@ -11840,7 +11857,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Nightsteel Mail of Maiming",
+      "cn": "夜钢制敌战铠",
       "de": "Nachtstahl-Rüstung des Verstümmelns",
       "en": "Nightsteel Mail of Maiming",
       "fr": "Cotte de maille d'abatteur en noctacier",
@@ -11857,7 +11874,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Nightsteel Sabatons of Fending",
+      "cn": "夜钢御敌铠靴",
       "de": "Nachtstahl-Bärlatschen der Verteidigung",
       "en": "Nightsteel Sabatons of Fending",
       "fr": "Sabatons de protecteur en noctacier",
@@ -11874,7 +11891,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Nightsteel Shield",
+      "cn": "夜钢盾",
       "de": "Nachtstahl-Schild",
       "en": "Nightsteel Shield",
       "fr": "Bouclier en noctacier",
@@ -11882,5 +11899,158 @@
       "ko": "Nightsteel Shield"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "a6181be3747",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Chigusa Ingot",
+      "de": "Chigusa-Barren",
+      "en": "Chigusa Ingot",
+      "fr": "Lingot d'acier chigusa",
+      "ja": "千種鋼",
+      "ko": "Chigusa Ingot"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "5a14f2a2e48",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Greatshield",
+      "de": "Rakshasa-Großschild",
+      "en": "Rakshasa Greatshield",
+      "fr": "Grand bouclier rakshasa",
+      "ja": "羅刹大盾",
+      "ko": "Rakshasa Greatshield"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "44accf39eab",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Kote of Fending",
+      "de": "Rakshasa-Kote der Verteidigung",
+      "en": "Rakshasa Kote of Fending",
+      "fr": "Kote rakshasa de protecteur",
+      "ja": "羅刹籠手【武士】",
+      "ko": "Rakshasa Kote of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "23835b58078",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Kote of Maiming",
+      "de": "Rakshasa-Kote des Verstümmelns",
+      "en": "Rakshasa Kote of Maiming",
+      "fr": "Kote rakshasa d'abatteur",
+      "ja": "羅刹籠手【槍士】",
+      "ko": "Rakshasa Kote of Maiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "aff31123266",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Mask of Fending",
+      "de": "Rakshasa-Maske der Verteidigung",
+      "en": "Rakshasa Mask of Fending",
+      "fr": "Men rakshasa de protecteur",
+      "ja": "羅刹面【武士】",
+      "ko": "Rakshasa Mask of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "b10116be1db",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Mask of Maiming",
+      "de": "Rakshasa-Maske des Verstümmelns",
+      "en": "Rakshasa Mask of Maiming",
+      "fr": "Men rakshasa d'abatteur",
+      "ja": "羅刹面【槍士】",
+      "ko": "Rakshasa Mask of Maiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "3569e32cb4c",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Sune-ate of Fending",
+      "de": "Rakshasa-Sune-Ate der Verteidigung",
+      "en": "Rakshasa Sune-ate of Fending",
+      "fr": "Sune-ate rakshasa de protecteur",
+      "ja": "羅刹脛当【武士】",
+      "ko": "Rakshasa Sune-ate of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "9e4a06f52dd",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Sune-ate of Maiming",
+      "de": "Rakshasa-Sune-Ate des Verstümmelns",
+      "en": "Rakshasa Sune-ate of Maiming",
+      "fr": "Sune-ate rakshasa d'abatteur",
+      "ja": "羅刹脛当【槍士】",
+      "ko": "Rakshasa Sune-ate of Maiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "7ea0f0f7c3c",
+    "level": 390,
+    "maxQuality": 10568,
+    "name": {
+      "cn": "Suzaku Barding",
+      "de": "Suzaku-Rossharnisch",
+      "en": "Suzaku Barding",
+      "fr": "Barde de Suzaku",
+      "ja": "スザク・バード",
+      "ko": "Suzaku Barding"
+    },
+    "stars": 4
   }
 ]

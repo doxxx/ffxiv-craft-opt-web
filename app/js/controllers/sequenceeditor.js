@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('SequenceEditorController', controller);
 
-  function controller($scope, $http, $state, _actionGroups, _actionsByName, _simulator, _getActionImagePath, _iActionClassSpecific) {
+  function controller($scope, $http, $state, _actionGroups, _actionsByName, _simulator, _getActionImagePath, _iActionClassSpecific, $translate) {
     $scope.actionGroups = _actionGroups;
     $scope.allActions = _actionsByName;
     $scope.getActionImagePath = _getActionImagePath;
@@ -47,7 +47,7 @@
 
     function onStateChangeStart(event) {
       if ($scope.editingSequence && $scope.isSequenceDirty()) {
-        if (!window.confirm('Abandon changes to sequence?')) {
+        if (!window.confirm($translate.instant('ABANDON_CHANGES'))) {
           event.preventDefault();
         }
       }

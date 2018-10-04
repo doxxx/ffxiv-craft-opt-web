@@ -74,7 +74,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -90,7 +90,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -586,7 +586,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -634,7 +634,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -999,7 +999,7 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "Glamour Prism",
+      "cn": "幻象棱晶",
       "de": "Projektionsprisma",
       "en": "Glamour Prism",
       "fr": "Prisme mirage",
@@ -1322,7 +1322,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -8355,7 +8355,7 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "cn": "Magitek Repair Materials",
+      "cn": "魔导机械修理材料",
       "de": "Magitek-Reparaturkit",
       "en": "Magitek Repair Materials",
       "fr": "Kit de réparation d'appareil",
@@ -9354,7 +9354,7 @@
       "cn": "贤王刺剑",
       "de": "Manipulierender Mogul-Mogdegen",
       "en": "Manipulative Moggle Mogfoil",
-      "fr": "Rapière Moggle Mog",
+      "fr": "Rapière Moggle Mog morfondante",
       "ja": "モグルモグレイピア",
       "ko": "모그루 모그 레이피어"
     },
@@ -9886,7 +9886,7 @@
     "maxQuality": 5783,
     "name": {
       "cn": "白金咏咒头饰",
-      "de": "Platinstirnreif der Magie",
+      "de": "Platinhaarspange der Magie",
       "en": "Platinum Circlet of Casting",
       "fr": "Diadème en platine d'incantateur",
       "ja": "プラチナキャスターサークレット",
@@ -9903,7 +9903,7 @@
     "maxQuality": 5783,
     "name": {
       "cn": "白金治愈头饰",
-      "de": "Platinstirnreif der Heilung",
+      "de": "Platinhaarspange der Heilung",
       "en": "Platinum Circlet of Healing",
       "fr": "Diadème en platine de soigneur",
       "ja": "プラチナヒーラーサークレット",
@@ -10451,7 +10451,7 @@
     "maxQuality": 4561,
     "name": {
       "cn": "灵银强袭头冠",
-      "de": "Mythrit-Stirnreif des Schlagens",
+      "de": "Mythrit-Haarspange des Schlagens",
       "en": "Mythrite Circlet of Striking",
       "fr": "Diadème d'agresseur en mithrite",
       "ja": "ミスライトストライカーサークレット",
@@ -12242,7 +12242,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Brazier Components",
+      "cn": "篝火台部件",
       "de": "Feuerschalenteil",
       "en": "Brazier Components",
       "fr": "Composant de braséro",
@@ -12290,7 +12290,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Finery Components",
+      "cn": "交易品部件",
       "de": "Tauschware",
       "en": "Finery Components",
       "fr": "Marchandises commerciales",
@@ -12322,7 +12322,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Happi Components",
+      "cn": "法被部件",
       "de": "Happi-Element",
       "en": "Happi Components",
       "fr": "Composant de happi",
@@ -12338,7 +12338,7 @@
     "level": 145,
     "maxQuality": 3540,
     "name": {
-      "cn": "Ritual Implement Components",
+      "cn": "净化用祭具",
       "de": "Reinigungsfetisch",
       "en": "Ritual Implement Components",
       "fr": "Instruments de purification",
@@ -12354,7 +12354,7 @@
     "level": 145,
     "maxQuality": 3540,
     "name": {
-      "cn": "Trinket Components",
+      "cn": "礼品部件",
       "de": "Kleinigkeit",
       "en": "Trinket Components",
       "fr": "Présent modeste",
@@ -12370,7 +12370,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Uchiwa Components",
+      "cn": "团扇部件",
       "de": "Fächerteil",
       "en": "Uchiwa Components",
       "fr": "Élément d'éventail",
@@ -12386,7 +12386,7 @@
     "level": 148,
     "maxQuality": 5504,
     "name": {
-      "cn": "Altar Components",
+      "cn": "供台部件",
       "de": "Altarelement",
       "en": "Altar Components",
       "fr": "Composant d'autel",
@@ -12530,7 +12530,7 @@
     "level": 148,
     "maxQuality": 3669,
     "name": {
-      "cn": "Azim Steppe Souvenir Components",
+      "cn": "游牧民风格的商品",
       "de": "Handelsware",
       "en": "Azim Steppe Souvenir Components",
       "fr": "Produit d'inspiration nomade",
@@ -12546,7 +12546,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Buuz Cooking Paraphernalia",
+      "cn": "蒸包子用品",
       "de": "Buuds-Kochutensilie",
       "en": "Buuz Cooking Paraphernalia",
       "fr": "Ustensile de cuisine pour buuz",
@@ -12562,7 +12562,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Catfish Lure Components",
+      "cn": "鲶鱼钓具",
       "de": "Wels-Köder",
       "en": "Catfish Lure Components",
       "fr": "Accessoire de pêche au poisson-chat",
@@ -12754,7 +12754,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Hingan Ritual Paraphernalia",
+      "cn": "祖先招待用品",
       "de": "Ritualgegenstand zur Ahnenverehrung",
       "en": "Hingan Ritual Paraphernalia",
       "fr": "Objet cérémoniel",
@@ -12802,7 +12802,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Mol Tea Ceremony Paraphernalia",
+      "cn": "茶会必需品",
       "de": "Tee-Bedarfsartikel",
       "en": "Mol Tea Ceremony Paraphernalia",
       "fr": "Élément de cérémonie du thé",
@@ -12818,7 +12818,7 @@
     "level": 148,
     "maxQuality": 1834,
     "name": {
-      "cn": "Substitute Offering",
+      "cn": "供品",
       "de": "Opfergabe",
       "en": "Substitute Offering",
       "fr": "Offrande piégée",
@@ -12898,7 +12898,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Ceremonial Bow Components",
+      "cn": "祭弓部件",
       "de": "Ritualbogenelement",
       "en": "Ceremonial Bow Components",
       "fr": "Composant d'arc cérémoniel",
@@ -13170,7 +13170,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Confetti-making Tools",
+      "cn": "纸屑生产工具",
       "de": "Konfettiwerkzeug",
       "en": "Confetti-making Tools",
       "fr": "Outil de papeterie",
@@ -13186,7 +13186,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Culinary Knife Component",
+      "cn": "常用菜刀的部件",
       "de": "Messerteil",
       "en": "Culinary Knife Component",
       "fr": "Composant de couteau de cuisine",
@@ -13202,7 +13202,7 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
-      "cn": "Drum Parts",
+      "cn": "太鼓部件",
       "de": "Trommelwerkstoff",
       "en": "Drum Parts",
       "fr": "Composant de taiko",
@@ -13218,7 +13218,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Dzo Shear Components",
+      "cn": "牛毛剪刀部件",
       "de": "Scherenteil",
       "en": "Dzo Shear Components",
       "fr": "Élément d'entretien de ciseaux de toilettage",
@@ -13234,7 +13234,7 @@
     "level": 150,
     "maxQuality": 2904,
     "name": {
-      "cn": "Effigy Components",
+      "cn": "鲶鱼精人偶部件",
       "de": "Namazuo-Puppenelement",
       "en": "Effigy Components",
       "fr": "Composant de géant d'osier",
@@ -13250,7 +13250,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Elixir Mixing Paraphernalia",
+      "cn": "绝妙的调配用品",
       "de": "Destillierapparat-Ersatzteil",
       "en": "Elixir Mixing Paraphernalia",
       "fr": "Élément nécessaire à une mixtion",
@@ -13282,7 +13282,7 @@
     "level": 150,
     "maxQuality": 5888,
     "name": {
-      "cn": "Generous Gift",
+      "cn": "谢礼",
       "de": "Dankeschön-Geschenk",
       "en": "Generous Gift",
       "fr": "Cadeau de remerciement",
@@ -13314,7 +13314,7 @@
     "level": 150,
     "maxQuality": 6280,
     "name": {
-      "cn": "Gyr Abanian Souvenir",
+      "cn": "基拉巴尼亚的特产",
       "de": "Abanische Spezialität",
       "en": "Gyr Abanian Souvenir",
       "fr": "Souvenir de Gyr Abania",
@@ -13330,7 +13330,7 @@
     "level": 150,
     "maxQuality": 3140,
     "name": {
-      "cn": "Gyr Abanian Souvenir Component",
+      "cn": "基拉巴尼亚的特产部件",
       "de": "Komponente eines abanischen Souvenirs",
       "en": "Gyr Abanian Souvenir Component",
       "fr": "Composant de souvenir de Gyr Abania",
@@ -13378,7 +13378,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Korrigan Doll",
+      "cn": "魅惑的魔物人偶",
       "de": "Bezaubernde Korrigane-Puppe",
       "en": "Korrigan Doll",
       "fr": "Poupée envoûtante korrigan",
@@ -13394,7 +13394,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Land Diving Gear",
+      "cn": "陆地蹦极用品",
       "de": "Zubehörteil für ein Naghol-Sprungseil",
       "en": "Land Diving Gear",
       "fr": "Composant de système d'attache",
@@ -13410,7 +13410,7 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
-      "cn": "Mikoshi Frippery",
+      "cn": "神轿部件",
       "de": "Mikoshi-Element",
       "en": "Mikoshi Frippery",
       "fr": "Composant de mikoshi",
@@ -13426,7 +13426,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Pristine Fruit Figurine",
+      "cn": "投掷用特产",
       "de": "Festliches Wurfgeschoss",
       "en": "Pristine Fruit Figurine",
       "fr": "Répliques de produits régionaux",
@@ -13442,7 +13442,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Stable Supplies",
+      "cn": "养马必需品",
       "de": "Utensil für die Pferdezucht",
       "en": "Stable Supplies",
       "fr": "Accessoire d'élevage équin",
@@ -13490,7 +13490,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Steeping Accessory",
+      "cn": "烤鲶鱼用品",
       "de": "Kochwerkzeug",
       "en": "Steeping Accessory",
       "fr": "Composant de cuisine namazu",
@@ -13523,7 +13523,7 @@
     "level": 160,
     "maxQuality": 6701,
     "name": {
-      "cn": "Far Eastern Antique",
+      "cn": "东方风格的收藏品",
       "de": "Fernöstliche Kuriosität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
@@ -13540,7 +13540,7 @@
     "level": 160,
     "maxQuality": 3350,
     "name": {
-      "cn": "Far Eastern Antique Component",
+      "cn": "东方风格的收藏品部件",
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
@@ -14481,7 +14481,7 @@
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Rapier of the Fiend",
+      "cn": "生命之刺剑",
       "de": "Rapier des Baumgottes",
       "en": "Rapier of the Fiend",
       "fr": "Rapière du Fiélon",
@@ -14647,12 +14647,97 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
+    "id": "3d83333b680",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Cane",
+      "de": "Nidhogg-Stock",
+      "en": "Seeing Horde Cane",
+      "fr": "Canne de Dravanien",
+      "ja": "ホードケーン",
+      "ko": "Seeing Horde Cane"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "b8039632798",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Handgonne",
+      "de": "Nidhogg-Donnerbüchse",
+      "en": "Seeing Horde Handgonne",
+      "fr": "Haquebute de Dravanien",
+      "ja": "ホードハンドゴンネ",
+      "ko": "Seeing Horde Handgonne"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "21867f36c90",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Rapier",
+      "de": "Nidhogg-Rapier",
+      "en": "Seeing Horde Rapier",
+      "fr": "Rapière de Dravanien",
+      "ja": "ホードレイピア",
+      "ko": "Seeing Horde Rapier"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "7dd7749f6db",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Rod",
+      "de": "Nidhogg-Stab",
+      "en": "Seeing Horde Rod",
+      "fr": "Sceptre de Dravanien",
+      "ja": "ホードロッド",
+      "ko": "Seeing Horde Rod"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "39cae3f3f74",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Star Globe",
+      "de": "Nidhogg-Sternenglobus",
+      "en": "Seeing Horde Star Globe",
+      "fr": "Globe céleste de Dravanien",
+      "ja": "ホードスターグローブ",
+      "ko": "Seeing Horde Star Globe"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
     "id": "255206ca92c",
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Staff of the Fiend",
-      "de": "Lied des Baumgottes",
+      "cn": "生命之咒杖",
+      "de": "Stab des Baumgottes",
       "en": "Staff of the Fiend",
       "fr": "Bâton du Fiélon",
       "ja": "スタッフ・オブ・フィーンド",
@@ -14685,7 +14770,7 @@
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Star of the Fiend",
+      "cn": "生命之仪",
       "de": "Stern des Baumgottes",
       "en": "Star of the Fiend",
       "fr": "Étoile du Fiélon",
@@ -14805,7 +14890,7 @@
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁精准头冠",
-      "de": "Szintillator-Stirnreif des Zielens",
+      "de": "Szintillator-Haarspange des Zielens",
       "en": "Scintillant Circlet of Aiming",
       "fr": "Diadème de pisteur en scintillant",
       "ja": "シンチレーターレンジャーサークレット",
@@ -14822,7 +14907,7 @@
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁游击头冠",
-      "de": "Szintillator-Stirnreif des Spähens",
+      "de": "Szintillator-Haarspange des Spähens",
       "en": "Scintillant Circlet of Scouting",
       "fr": "Diadème d'éclaireur en scintillant",
       "ja": "シンチレータースカウトサークレット",
@@ -14839,7 +14924,7 @@
     "maxQuality": 13187,
     "name": {
       "cn": "闪烁强袭头冠",
-      "de": "Szintillator-Stirnreif des Schlagens",
+      "de": "Szintillator-Haarspange des Schlagens",
       "en": "Scintillant Circlet of Striking",
       "fr": "Diadème d'agresseur en scintillant",
       "ja": "シンチレーターストライカーサークレット",
@@ -15195,7 +15280,7 @@
     "level": 255,
     "maxQuality": 6701,
     "name": {
-      "cn": "Gold Saucer Consolation Prize",
+      "cn": "金碟游乐场的纪念品",
       "de": "Trostpreis für den Gold Saucer",
       "en": "Gold Saucer Consolation Prize",
       "fr": "Lot de consolation du Gold Saucer",
@@ -15211,7 +15296,7 @@
     "level": 255,
     "maxQuality": 3350,
     "name": {
-      "cn": "Gold Saucer Consolation Prize Component",
+      "cn": "金碟游乐场的纪念品部件",
       "de": "Komponente eines Gold Saucer-Trostpreises",
       "en": "Gold Saucer Consolation Prize Component",
       "fr": "Composant de lot de consolation du Gold Saucer",
@@ -15467,7 +15552,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Awning (Nanpu)",
+      "cn": "东洋朱漆遮蓬",
       "de": "Hinganisches Nanpu-Vordach",
       "en": "Hingan Awning (Nanpu)",
       "fr": "Auvent hingashien (nanpu)",
@@ -15483,7 +15568,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Cottage Roof (Nanpu)",
+      "cn": "混合制东洋小屋房顶",
       "de": "Hinganisches Nanpu-Hüttendach",
       "en": "Hingan Cottage Roof (Nanpu)",
       "fr": "Toit de maisonnette hingashienne (nanpu)",
@@ -15499,7 +15584,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Hanging Bonbori Lamp",
+      "cn": "东洋吊顶雪洞灯",
       "de": "Hinganische Bonbori-Hängelampe",
       "en": "Hingan Hanging Bonbori Lamp",
       "fr": "Lampe hingashienne suspendue (bonbori)",
@@ -15771,7 +15856,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "Anti-shark Harpoon",
+      "cn": "防鲨用品",
       "de": "Haifischharpune",
       "en": "Anti-shark Harpoon",
       "fr": "Harpon anti-requin",
@@ -15787,7 +15872,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "Gyr Abanian Remedies",
+      "cn": "基拉巴尼亚医药品",
       "de": "Phiolenset abanischer Medizin",
       "en": "Gyr Abanian Remedies",
       "fr": "Remèdes gyrabaniens",
@@ -15803,7 +15888,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "Gyr Abanian Remedy Components",
+      "cn": "基拉巴尼亚医药品部件",
       "de": "Komponente abanischer Medizin",
       "en": "Gyr Abanian Remedy Components",
       "fr": "Composants pour remèdes gyrabaniens",
@@ -15819,7 +15904,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "Harpoon Components",
+      "cn": "防鲨用品部件",
       "de": "Komponente einer Haifischharpune",
       "en": "Harpoon Components",
       "fr": "Composants pour harpon anti-requin",
@@ -15947,7 +16032,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "M Tribe Sundries",
+      "cn": "梅氏一族的日用品",
       "de": "Jagdbedarf",
       "en": "M Tribe Sundries",
       "fr": "Produits du quotidien des M",
@@ -15963,7 +16048,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "M Tribe Sundry Component",
+      "cn": "梅氏一族的日用品部件",
       "de": "Komponente eines Gebrauchsgegenstands der M",
       "en": "M Tribe Sundry Component",
       "fr": "Composant de produits du quotidien des M",
@@ -16059,7 +16144,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Coerthan Cold-weather Gear",
+      "cn": "库尔札斯防寒用品",
       "de": "Coerthischer Wintermantel",
       "en": "Coerthan Cold-weather Gear",
       "fr": "Vêtements chauds du Coerthas",
@@ -16075,7 +16160,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Cold-weather Gear Components",
+      "cn": "库尔札斯防寒用品部件",
       "de": "Komponente coerthischer Winterkleidung",
       "en": "Cold-weather Gear Components",
       "fr": "Composants pour vêtements chauds du Coerthas",
@@ -16107,7 +16192,7 @@
     "level": 270,
     "maxQuality": 5219,
     "name": {
-      "cn": "Hingan Watchtower (Nanpu)",
+      "cn": "东洋朱漆烟囱",
       "de": "Hinganischer Nanpu-Wachturm",
       "en": "Hingan Watchtower (Nanpu)",
       "fr": "Tour de guet hingashienne (nanpu)",
@@ -16331,7 +16416,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Resistance Materiel",
+      "cn": "解放军的军需品",
       "de": "Rucksack für die Befreiungsarmee",
       "en": "Resistance Materiel",
       "fr": "Provisions pour l'armée de libération",
@@ -16347,7 +16432,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Resistance Materiel Component",
+      "cn": "解放军的军需品部件",
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
       "en": "Resistance Materiel Component",
       "fr": "Composant de provisions pour l'armée de libération",
@@ -16379,7 +16464,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Sui-no-Sato Special",
+      "cn": "翠水乡特产",
       "de": "Kostbarkeit aus Sui no Sato",
       "en": "Sui-no-Sato Special",
       "fr": "Spécialité de Sui-no-Sato",
@@ -16395,7 +16480,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Sui-no-Sato Special Components",
+      "cn": "翠水乡特产部件",
       "de": "Komponente einer Kostbarkeit aus Sui no Sato",
       "en": "Sui-no-Sato Special Components",
       "fr": "Composants pour spécialité de Sui-no-Sato",
@@ -16411,7 +16496,7 @@
     "level": 273,
     "maxQuality": 8680,
     "name": {
-      "cn": "Cloud Pearl",
+      "cn": "云海珍宝",
       "de": "Wolkenmeerperle",
       "en": "Cloud Pearl",
       "fr": "Rareté de la Mer de nuages",
@@ -16427,7 +16512,7 @@
     "level": 273,
     "maxQuality": 4340,
     "name": {
-      "cn": "Cloud Pearl Components",
+      "cn": "云海珍宝部件",
       "de": "Komponente einer Wolkenmeerperle",
       "en": "Cloud Pearl Components",
       "fr": "Composants pour rareté de la Mer de nuages",
@@ -16459,7 +16544,7 @@
     "level": 273,
     "maxQuality": 5425,
     "name": {
-      "cn": "Hingan House Roof (Nanpu)",
+      "cn": "混合制东洋公馆房顶",
       "de": "Hinganisches Nanpu-Hausdach",
       "en": "Hingan House Roof (Nanpu)",
       "fr": "Toit de pavillon hingashien (nanpu)",
@@ -17147,7 +17232,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan Chimney (Kura-zukuri)",
+      "cn": "东洋石制烟囱",
       "de": "Hinganischer Kurazukuri-Schornstein",
       "en": "Hingan Chimney (Kura-zukuri)",
       "fr": "Cheminée hingashienne (kura-zukuri)",
@@ -17371,7 +17456,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Awning (Mokuzo)",
+      "cn": "东洋木制遮蓬",
       "de": "Hinganisches Mokuzo-Vordach",
       "en": "Hingan Awning (Mokuzo)",
       "fr": "Auvent hingashien (mokuzo)",
@@ -17387,7 +17472,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Mansion Roof (Nanpu)",
+      "cn": "混合制东洋别墅房顶",
       "de": "Hinganisches Nanpu-Residenzdach",
       "en": "Hingan Mansion Roof (Nanpu)",
       "fr": "Toit de villa hingashienne (nanpu)",
@@ -18204,7 +18289,7 @@
     "level": 300,
     "maxQuality": 7035,
     "name": {
-      "cn": "Imitation Stained Crystal Ornament",
+      "cn": "仿制彩绘玻璃窗",
       "de": "Buntkristallfenster-Imitation",
       "en": "Imitation Stained Crystal Ornament",
       "fr": "Imitation de vitrail",
@@ -18238,7 +18323,7 @@
     "level": 320,
     "maxQuality": 22171,
     "name": {
-      "cn": "Ala Mhigan Needle",
+      "cn": "阿拉米格缝针",
       "de": "Mhigische Nadel",
       "en": "Ala Mhigan Needle",
       "fr": "Aiguille mhigoise",
@@ -18255,7 +18340,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Carbuncle Bathtub",
+      "cn": "宝石兽浴缸",
       "de": "Karfunkel-Badewanne",
       "en": "Carbuncle Bathtub",
       "fr": "Baignoire Carbuncle",
@@ -18272,7 +18357,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Classic Chandelier",
+      "cn": "古典枝形吊灯",
       "de": "Klassischer Kronleuchter",
       "en": "Classic Chandelier",
       "fr": "Lustre classique",
@@ -18289,7 +18374,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Crimson Coral Object",
+      "cn": "红珊瑚摆件",
       "de": "Purpur-Korallenstück",
       "en": "Crimson Coral Object",
       "fr": "Décoration en corail rubis",
@@ -18306,7 +18391,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Eorzean Lantern",
+      "cn": "艾欧泽亚灯笼",
       "de": "Eorzäische Lampe",
       "en": "Eorzean Lantern",
       "fr": "Lanterne à vitrail \"érazoéenne\"",
@@ -18323,7 +18408,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Hannya Mask",
+      "cn": "般若面具",
       "de": "Hannya-Maske",
       "en": "Hannya Mask",
       "fr": "Masque de hannya",
@@ -18340,7 +18425,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Mellow Mog Lamp",
+      "cn": "莫古力台灯",
       "de": "Mogry-Lampe",
       "en": "Mellow Mog Lamp",
       "fr": "Lampe mog mignonne",
@@ -18357,7 +18442,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Moogle Wall Chronometer",
+      "cn": "莫古力挂钟",
       "de": "Mogry-Wand-Chronometer",
       "en": "Moogle Wall Chronometer",
       "fr": "Horloge murale mog",
@@ -18370,16 +18455,67 @@
     "baseLevel": 70,
     "difficulty": 6377,
     "durability": 70,
+    "id": "f2c0ba4ebeb",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Odder Otter Andon Lamp",
+      "de": "Andon-Laterne „Obskurer Otter“",
+      "en": "Odder Otter Andon Lamp",
+      "fr": "Andon loutre choute",
+      "ja": "ウソウソ行燈",
+      "ko": "Odder Otter Andon Lamp"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "6f391c07950",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Odder Otter Hanging Andon Lamp",
+      "de": "Hängende Andon-Laterne „Obskurer Otter“",
+      "en": "Odder Otter Hanging Andon Lamp",
+      "fr": "Lampe suspendue loutre choute",
+      "ja": "ウソウソ吊り行燈",
+      "ko": "Odder Otter Hanging Andon Lamp"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
     "id": "127c3c46918",
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Odder Otter Lantern",
+      "cn": "獭獭提灯",
       "de": "Lampe „Obskurer Otter“",
       "en": "Odder Otter Lantern",
       "fr": "Lanterne loutre",
       "ja": "ウソウソ提灯",
       "ko": "Odder Otter Lantern"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "0a8c62e416b",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Odder Otter Wall Lantern",
+      "de": "Wandlaterne „Obskurer Otter“",
+      "en": "Odder Otter Wall Lantern",
+      "fr": "Lanterne murale loutre choute",
+      "ja": "ウソウソ・ウォールランタン",
+      "ko": "Odder Otter Wall Lantern"
     },
     "stars": 2
   },
@@ -18391,7 +18527,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Band of Aiming",
+      "cn": "钯金精准指环",
       "de": "Palladium-Schildring des Zielens",
       "en": "Palladium Band of Aiming",
       "fr": "Bague de pisteur en palladium",
@@ -18408,7 +18544,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Band of Casting",
+      "cn": "钯金咏咒指环",
       "de": "Palladium-Schildring der Magie",
       "en": "Palladium Band of Casting",
       "fr": "Bague d'incantateur en palladium",
@@ -18425,7 +18561,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Band of Fending",
+      "cn": "钯金御敌指环",
       "de": "Palladium-Schildring der Verteidigung",
       "en": "Palladium Band of Fending",
       "fr": "Bague de protecteur en palladium",
@@ -18442,7 +18578,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Band of Healing",
+      "cn": "钯金治愈指环",
       "de": "Palladium-Schildring der Heilung",
       "en": "Palladium Band of Healing",
       "fr": "Bague de soigneur en palladium",
@@ -18459,7 +18595,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Band of Slaying",
+      "cn": "钯金强攻指环",
       "de": "Palladium-Schildring des Schlachtens",
       "en": "Palladium Band of Slaying",
       "fr": "Bague d'attaquant en palladium",
@@ -18476,7 +18612,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Circlet of Maiming",
+      "cn": "钯金制敌头冠",
       "de": "Palladium-Stirnreif des Verstümmelns",
       "en": "Palladium Circlet of Maiming",
       "fr": "Diadème d'abatteur en palladium",
@@ -18493,7 +18629,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Circlet of Scouting",
+      "cn": "钯金游击头冠",
       "de": "Palladium-Stirnreif des Spähens",
       "en": "Palladium Circlet of Scouting",
       "fr": "Diadème d'éclaireur en palladium",
@@ -18510,7 +18646,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Circlet of Striking",
+      "cn": "钯金强袭头冠",
       "de": "Palladium-Stirnreif des Schlagens",
       "en": "Palladium Circlet of Striking",
       "fr": "Diadème d'agresseur en palladium",
@@ -18527,7 +18663,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Earring of Aiming",
+      "cn": "钯金精准耳坠",
       "de": "Palladium-Ohrring des Zielens",
       "en": "Palladium Earring of Aiming",
       "fr": "Boucle d'oreille de pisteur en palladium",
@@ -18544,7 +18680,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Earring of Casting",
+      "cn": "钯金咏咒耳坠",
       "de": "Palladium-Ohrring der Magie",
       "en": "Palladium Earring of Casting",
       "fr": "Boucle d'oreille d'incantateur en palladium",
@@ -18561,7 +18697,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Earring of Fending",
+      "cn": "钯金御敌耳坠",
       "de": "Palladium-Ohrring der Verteidigung",
       "en": "Palladium Earring of Fending",
       "fr": "Boucle d'oreille de protecteur en palladium",
@@ -18578,7 +18714,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Earring of Healing",
+      "cn": "钯金治愈耳坠",
       "de": "Palladium-Ohrring der Heilung",
       "en": "Palladium Earring of Healing",
       "fr": "Boucle d'oreille de soigneur en palladium",
@@ -18595,7 +18731,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Earring of Slaying",
+      "cn": "钯金强攻耳坠",
       "de": "Palladium-Ohrring des Schlachtens",
       "en": "Palladium Earring of Slaying",
       "fr": "Boucle d'oreille d'attaquant en palladium",
@@ -18612,7 +18748,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Ingot",
+      "cn": "钯金锭",
       "de": "Palladium-Barren",
       "en": "Palladium Ingot",
       "fr": "Lingot de palladium",
@@ -18629,7 +18765,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Orrery",
+      "cn": "钯金太阳仪",
       "de": "Palladium-Orrery",
       "en": "Palladium Orrery",
       "fr": "Planétaire en palladium",
@@ -18646,7 +18782,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Rapier",
+      "cn": "钯金刺剑",
       "de": "Palladium-Rapier",
       "en": "Palladium Rapier",
       "fr": "Rapière en palladium",
@@ -18663,7 +18799,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Palladium Staff",
+      "cn": "钯金长杖",
       "de": "Palladium-Rute",
       "en": "Palladium Staff",
       "fr": "Bâton en palladium",
@@ -18680,7 +18816,7 @@
     "level": 350,
     "maxQuality": 9243,
     "name": {
-      "cn": "Byakko Barding",
+      "cn": "白虎装甲",
       "de": "Byakko-Rossharnisch",
       "en": "Byakko Barding",
       "fr": "Barde de Byakko",
@@ -18697,7 +18833,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Earring of Aiming",
+      "cn": "清银精准耳坠",
       "de": "Silbergunst-Ohrring des Zielens",
       "en": "Silvergrace Earring of Aiming",
       "fr": "Boucle d'oreille de pisteur en graçargent",
@@ -18714,7 +18850,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Earring of Casting",
+      "cn": "清银咏咒耳坠",
       "de": "Silbergunst-Ohrring der Magie",
       "en": "Silvergrace Earring of Casting",
       "fr": "Boucle d'oreille d'incantateur en graçargent",
@@ -18731,7 +18867,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Earring of Fending",
+      "cn": "清银御敌耳坠",
       "de": "Silbergunst-Ohrring der Verteidigung",
       "en": "Silvergrace Earring of Fending",
       "fr": "Boucle d'oreille de protecteur en graçargent",
@@ -18748,7 +18884,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Earring of Healing",
+      "cn": "清银治愈耳坠",
       "de": "Silbergunst-Ohrring der Heilung",
       "en": "Silvergrace Earring of Healing",
       "fr": "Boucle d'oreille de soigneur en graçargent",
@@ -18765,7 +18901,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Earring of Slaying",
+      "cn": "清银强攻耳坠",
       "de": "Silbergunst-Ohrring des Schlachtens",
       "en": "Silvergrace Earring of Slaying",
       "fr": "Boucle d'oreille d'attaquant en graçargent",
@@ -18782,7 +18918,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Silvergrace Earrings of Crafting",
+      "cn": "清银巧匠耳坠",
       "de": "Silbergunst-Ohrringe des Handwerks",
       "en": "Silvergrace Earrings of Crafting",
       "fr": "Boucles d'oreilles des créations en graçargent",
@@ -18799,7 +18935,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Silvergrace Earrings of Gathering",
+      "cn": "清银大地耳坠",
       "de": "Silbergunst-Ohrringe des Eifers",
       "en": "Silvergrace Earrings of Gathering",
       "fr": "Boucles d'oreilles des ressources en graçargent",
@@ -18816,7 +18952,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Halfmask of Striking",
+      "cn": "清银强袭假面",
       "de": "Silbergunst-Halbmaske des Schlagens",
       "en": "Silvergrace Halfmask of Striking",
       "fr": "Demi-masque d'agresseur en graçargent",
@@ -18833,7 +18969,7 @@
     "level": 350,
     "maxQuality": 20335,
     "name": {
-      "cn": "Silvergrace Ingot",
+      "cn": "清银锭",
       "de": "Silbergunst-Barren",
       "en": "Silvergrace Ingot",
       "fr": "Lingot de graçargent",
@@ -18850,7 +18986,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Silvergrace Needle",
+      "cn": "清银缝针",
       "de": "Silbergunst-Nadel",
       "en": "Silvergrace Needle",
       "fr": "Aiguille en graçargent",
@@ -18867,7 +19003,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Planisphere",
+      "cn": "清银天星盘",
       "de": "Silbergunst-Planisphäre",
       "en": "Silvergrace Planisphere",
       "fr": "Planisphère en graçargent",
@@ -18884,7 +19020,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Rapier",
+      "cn": "清银刺剑",
       "de": "Silbergunst-Rapier",
       "en": "Silvergrace Rapier",
       "fr": "Rapière en graçargent",
@@ -18901,7 +19037,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Ring of Aiming",
+      "cn": "清银精准戒指",
       "de": "Silbergunst-Ring des Zielens",
       "en": "Silvergrace Ring of Aiming",
       "fr": "Bague de pisteur en graçargent",
@@ -18918,7 +19054,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Ring of Casting",
+      "cn": "清银咏咒戒指",
       "de": "Silbergunst-Ring der Magie",
       "en": "Silvergrace Ring of Casting",
       "fr": "Bague d'incantateur en graçargent",
@@ -18935,7 +19071,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Ring of Fending",
+      "cn": "清银御敌戒指",
       "de": "Silbergunst-Ring der Verteidigung",
       "en": "Silvergrace Ring of Fending",
       "fr": "Bague de protecteur en graçargent",
@@ -18952,7 +19088,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Ring of Healing",
+      "cn": "清银治愈戒指",
       "de": "Silbergunst-Ring der Heilung",
       "en": "Silvergrace Ring of Healing",
       "fr": "Bague de soigneur en graçargent",
@@ -18969,7 +19105,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Ring of Slaying",
+      "cn": "清银强攻戒指",
       "de": "Silbergunst-Ring des Schlachtens",
       "en": "Silvergrace Ring of Slaying",
       "fr": "Bague d'attaquant en graçargent",
@@ -18986,7 +19122,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Rod",
+      "cn": "清银法杖",
       "de": "Silbergunst-Stab",
       "en": "Silvergrace Rod",
       "fr": "Sceptre en graçargent",
@@ -18994,5 +19130,328 @@
       "ko": "Silvergrace Rod"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "7a51efcd3f0",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Evergleam Ingot",
+      "de": "Immerschimmer-Barren",
+      "en": "Evergleam Ingot",
+      "fr": "Lingot de pérennéclat",
+      "ja": "エバーグリームインゴット",
+      "ko": "Evergleam Ingot"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "1f779d75a41",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Aiming",
+      "de": "Rakshasa-Ohrring des Zielens",
+      "en": "Rakshasa Earring of Aiming",
+      "fr": "Boucle d'oreille rakshasa de pisteur",
+      "ja": "羅刹耳飾【弓士】",
+      "ko": "Rakshasa Earring of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "da62a3b3023",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Casting",
+      "de": "Rakshasa-Ohrring der Magie",
+      "en": "Rakshasa Earring of Casting",
+      "fr": "Boucle d'oreille rakshasa d'incantateur",
+      "ja": "羅刹耳飾【術士】",
+      "ko": "Rakshasa Earring of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "28353e7a2c0",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Fending",
+      "de": "Rakshasa-Ohrring der Verteidigung",
+      "en": "Rakshasa Earring of Fending",
+      "fr": "Boucle d'oreille rakshasa de protecteur",
+      "ja": "羅刹耳飾【武士】",
+      "ko": "Rakshasa Earring of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "79a2fd65f79",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Healing",
+      "de": "Rakshasa-Ohrring der Heilung",
+      "en": "Rakshasa Earring of Healing",
+      "fr": "Boucle d'oreille rakshasa de soigneur",
+      "ja": "羅刹耳飾【学士】",
+      "ko": "Rakshasa Earring of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "9b6cd678e14",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Earring of Slaying",
+      "de": "Rakshasa-Ohrring des Schlachtens",
+      "en": "Rakshasa Earring of Slaying",
+      "fr": "Boucle d'oreille rakshasa d'abatteur",
+      "ja": "羅刹耳飾【闘士】",
+      "ko": "Rakshasa Earring of Slaying"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "2f7da5a829d",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ephemeris",
+      "de": "Rakshasa-Astrometer",
+      "en": "Rakshasa Ephemeris",
+      "fr": "Éphéméridosphère rakshasa",
+      "ja": "羅刹干支",
+      "ko": "Rakshasa Ephemeris"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "f1fec0f31da",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Gantai of Aiming",
+      "de": "Rakshasa-Gantai des Zielens",
+      "en": "Rakshasa Gantai of Aiming",
+      "fr": "Gantai rakshasa de pisteur",
+      "ja": "羅刹眼帯【弓士】",
+      "ko": "Rakshasa Gantai of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "d200aac5e0d",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Gantai of Scouting",
+      "de": "Rakshasa-Gantai des Spähens",
+      "en": "Rakshasa Gantai of Scouting",
+      "fr": "Gantai rakshasa d'éclaireur",
+      "ja": "羅刹眼帯【間士】",
+      "ko": "Rakshasa Gantai of Scouting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "53df313c3f3",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Gantai of Striking",
+      "de": "Rakshasa-Gantai des Schlagens",
+      "en": "Rakshasa Gantai of Striking",
+      "fr": "Gantai rakshasa d'agresseur",
+      "ja": "羅刹眼帯【拳士】",
+      "ko": "Rakshasa Gantai of Striking"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "d916ffa5482",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Kanmuri of Casting",
+      "de": "Rakshasa-Kanmuri der Magie",
+      "en": "Rakshasa Kanmuri of Casting",
+      "fr": "Kanmuri rakshasa d'incantateur",
+      "ja": "羅刹冠【術士】",
+      "ko": "Rakshasa Kanmuri of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "430c687dd5c",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Kanmuri of Healing",
+      "de": "Rakshasa-Kanmuri der Heilung",
+      "en": "Rakshasa Kanmuri of Healing",
+      "fr": "Kanmuri rakshasa de soigneur",
+      "ja": "羅刹冠【学士】",
+      "ko": "Rakshasa Kanmuri of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "abe70506560",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Rapier",
+      "de": "Rakshasa-Rapier",
+      "en": "Rakshasa Rapier",
+      "fr": "Rapière rakshasa",
+      "ja": "羅刹細剣",
+      "ko": "Rakshasa Rapier"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "5c1879976b2",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Aiming",
+      "de": "Rakshasa-Ring des Zielens",
+      "en": "Rakshasa Ring of Aiming",
+      "fr": "Bague rakshasa de pisteur",
+      "ja": "羅刹指輪【弓士】",
+      "ko": "Rakshasa Ring of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "478045ae801",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Casting",
+      "de": "Rakshasa-Ring der Magie",
+      "en": "Rakshasa Ring of Casting",
+      "fr": "Bague rakshasa d'incantateur",
+      "ja": "羅刹指輪【術士】",
+      "ko": "Rakshasa Ring of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "bd5145ece8e",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Fending",
+      "de": "Rakshasa-Ring der Verteidigung",
+      "en": "Rakshasa Ring of Fending",
+      "fr": "Bague rakshasa de protecteur",
+      "ja": "羅刹指輪【武士】",
+      "ko": "Rakshasa Ring of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "8c2feabca10",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Healing",
+      "de": "Rakshasa-Ring der Heilung",
+      "en": "Rakshasa Ring of Healing",
+      "fr": "Bague rakshasa de soigneur",
+      "ja": "羅刹指輪【学士】",
+      "ko": "Rakshasa Ring of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "0914ef9474b",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Ring of Slaying",
+      "de": "Rakshasa-Ring des Schlachtens",
+      "en": "Rakshasa Ring of Slaying",
+      "fr": "Bague rakshasa d'abatteur",
+      "ja": "羅刹指輪【闘士】",
+      "ko": "Rakshasa Ring of Slaying"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "cfcbe3e41bb",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Rod",
+      "de": "Rakshasa-Stab",
+      "en": "Rakshasa Rod",
+      "fr": "Bâton rakshasa",
+      "ja": "羅刹呪杖",
+      "ko": "Rakshasa Rod"
+    },
+    "stars": 4
   }
 ]

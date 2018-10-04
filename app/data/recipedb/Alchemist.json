@@ -74,7 +74,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -106,7 +106,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -570,7 +570,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -602,7 +602,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -807,7 +807,7 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "Glamour Prism",
+      "cn": "幻象棱晶",
       "de": "Projektionsprisma",
       "en": "Glamour Prism",
       "fr": "Prisme mirage",
@@ -1114,7 +1114,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -3107,6 +3107,38 @@
   },
   {
     "baseLevel": 43,
+    "difficulty": 279,
+    "durability": 80,
+    "id": "27f1499039b",
+    "level": 43,
+    "maxQuality": 1125,
+    "name": {
+      "cn": "Bathroom Floor Tiles",
+      "de": "Badezimmer-Bodenfliesen",
+      "en": "Bathroom Floor Tiles",
+      "fr": "Tapis en céramique",
+      "ja": "バスルーム・タイルマット",
+      "ko": "Bathroom Floor Tiles"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 279,
+    "durability": 80,
+    "id": "5ddd3e69427",
+    "level": 43,
+    "maxQuality": 1125,
+    "name": {
+      "cn": "Bathroom Wall Tiles",
+      "de": "Badezimmer-Wandkacheln",
+      "en": "Bathroom Wall Tiles",
+      "fr": "Panneau en céramique",
+      "ja": "バスルーム・タイルシート",
+      "ko": "Bathroom Wall Tiles"
+    }
+  },
+  {
+    "baseLevel": 43,
     "difficulty": 77,
     "durability": 40,
     "id": "55a742a134c",
@@ -4137,7 +4169,7 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "cn": "Corner Hedge Partition",
+      "cn": "转角树篱隔离墙",
       "de": "Heckenecke-Raumteiler",
       "en": "Corner Hedge Partition",
       "fr": "Haie haute en angle droit",
@@ -4256,7 +4288,7 @@
     "level": 55,
     "maxQuality": 1323,
     "name": {
-      "cn": "Hedge Partition",
+      "cn": "树篱隔离墙",
       "de": "Hecken-Raumteiler",
       "en": "Hedge Partition",
       "fr": "Haie haute droite",
@@ -5208,7 +5240,7 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "cn": "Magitek Repair Materials",
+      "cn": "魔导机械修理材料",
       "de": "Magitek-Reparaturkit",
       "en": "Magitek Repair Materials",
       "fr": "Kit de réparation d'appareil",
@@ -6952,7 +6984,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Black Brightlily Corsage",
+      "cn": "黑色光明百合头花",
       "de": "Graue Lilien-Haarspange",
       "en": "Black Brightlily Corsage",
       "fr": "Barrette lys noirs",
@@ -6984,7 +7016,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Black Daisy Corsage",
+      "cn": "黑色雏菊头花",
       "de": "Graue Gänseblümchen-Haarspange",
       "en": "Black Daisy Corsage",
       "fr": "Barrette marguerites noires",
@@ -7016,7 +7048,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Blue Brightlily Corsage",
+      "cn": "蓝色光明百合头花",
       "de": "Blaue Lilien-Haarspange",
       "en": "Blue Brightlily Corsage",
       "fr": "Barrette lys bleus",
@@ -7048,7 +7080,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Blue Daisy Corsage",
+      "cn": "蓝色雏菊头花",
       "de": "Blaue Gänseblümchen-Haarspange",
       "en": "Blue Daisy Corsage",
       "fr": "Barrette marguerites bleues",
@@ -7240,7 +7272,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Green Brightlily Corsage",
+      "cn": "绿色光明百合头花",
       "de": "Grüne Lilien-Haarspange",
       "en": "Green Brightlily Corsage",
       "fr": "Barrette lys verts",
@@ -7272,7 +7304,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Green Daisy Corsage",
+      "cn": "绿色雏菊头花",
       "de": "Grüne Gänseblümchen-Haarspange",
       "en": "Green Daisy Corsage",
       "fr": "Barrette marguerites vertes",
@@ -7320,7 +7352,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Orange Brightlily Corsage",
+      "cn": "橙色光明百合头花",
       "de": "Orange Lilien-Haarspange",
       "en": "Orange Brightlily Corsage",
       "fr": "Barrette lys orange",
@@ -7352,7 +7384,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Orange Daisy Corsage",
+      "cn": "橙色雏菊头花",
       "de": "Orange Gänseblümchen-Haarspange",
       "en": "Orange Daisy Corsage",
       "fr": "Barrette marguerites orange",
@@ -7400,7 +7432,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Purple Brightlily Corsage",
+      "cn": "紫色光明百合头花",
       "de": "Violette Lilien-Haarspange",
       "en": "Purple Brightlily Corsage",
       "fr": "Barrette lys violets",
@@ -7432,7 +7464,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Purple Daisy Corsage",
+      "cn": "紫色雏菊头花",
       "de": "Violette Gänseblümchen-Haarspange",
       "en": "Purple Daisy Corsage",
       "fr": "Barrette marguerites violettes",
@@ -7464,7 +7496,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Rainbow Brightlily Corsage",
+      "cn": "混色光明百合头花",
       "de": "Mehrfarbige Lilien-Haarspange",
       "en": "Rainbow Brightlily Corsage",
       "fr": "Barrette lys multicolores",
@@ -7480,7 +7512,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Rainbow Daisy Corsage",
+      "cn": "混色雏菊头花",
       "de": "Mehrfarbige Gänseblümchen-Haarspange",
       "en": "Rainbow Daisy Corsage",
       "fr": "Barrette marguerites multicolores",
@@ -7512,7 +7544,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Red Brightlily Corsage",
+      "cn": "红色光明百合头花",
       "de": "Rosa Lilien-Haarspange",
       "en": "Red Brightlily Corsage",
       "fr": "Barrette lys rouges",
@@ -7544,7 +7576,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Red Daisy Corsage",
+      "cn": "红色雏菊头花",
       "de": "Rote Gänseblümchen-Haarspange",
       "en": "Red Daisy Corsage",
       "fr": "Barrette marguerites rouges",
@@ -7576,7 +7608,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "White Brightlily Corsage",
+      "cn": "白色光明百合头花",
       "de": "Weiße Lilien-Haarspange",
       "en": "White Brightlily Corsage",
       "fr": "Barrette lys blancs",
@@ -7608,7 +7640,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "White Daisy Corsage",
+      "cn": "白色雏菊头花",
       "de": "Weiße Gänseblümchen-Haarspange",
       "en": "White Daisy Corsage",
       "fr": "Barrette marguerites blanches",
@@ -7640,7 +7672,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Yellow Brightlily Corsage",
+      "cn": "黄色光明百合头花",
       "de": "Gelbe Lilien-Haarspange",
       "en": "Yellow Brightlily Corsage",
       "fr": "Barrette lys jaunes",
@@ -7672,7 +7704,7 @@
     "level": 130,
     "maxQuality": 5783,
     "name": {
-      "cn": "Yellow Daisy Corsage",
+      "cn": "黄色雏菊头花",
       "de": "Gelbe Gänseblümchen-Haarspange",
       "en": "Yellow Daisy Corsage",
       "fr": "Barrette marguerites jaunes",
@@ -8024,7 +8056,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Brazier Components",
+      "cn": "篝火台部件",
       "de": "Feuerschalenteil",
       "en": "Brazier Components",
       "fr": "Composant de braséro",
@@ -8120,7 +8152,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Finery Components",
+      "cn": "交易品部件",
       "de": "Tauschware",
       "en": "Finery Components",
       "fr": "Marchandises commerciales",
@@ -8152,7 +8184,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Happi Components",
+      "cn": "法被部件",
       "de": "Happi-Element",
       "en": "Happi Components",
       "fr": "Composant de happi",
@@ -8184,7 +8216,7 @@
     "level": 145,
     "maxQuality": 3540,
     "name": {
-      "cn": "Ritual Implement Components",
+      "cn": "净化用祭具",
       "de": "Reinigungsfetisch",
       "en": "Ritual Implement Components",
       "fr": "Instruments de purification",
@@ -8200,7 +8232,7 @@
     "level": 145,
     "maxQuality": 3540,
     "name": {
-      "cn": "Trinket Components",
+      "cn": "礼品部件",
       "de": "Kleinigkeit",
       "en": "Trinket Components",
       "fr": "Présent modeste",
@@ -8216,7 +8248,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Uchiwa Components",
+      "cn": "团扇部件",
       "de": "Fächerteil",
       "en": "Uchiwa Components",
       "fr": "Élément d'éventail",
@@ -8232,7 +8264,7 @@
     "level": 148,
     "maxQuality": 5504,
     "name": {
-      "cn": "Altar Components",
+      "cn": "供台部件",
       "de": "Altarelement",
       "en": "Altar Components",
       "fr": "Composant d'autel",
@@ -8248,7 +8280,7 @@
     "level": 148,
     "maxQuality": 3669,
     "name": {
-      "cn": "Azim Steppe Souvenir Components",
+      "cn": "游牧民风格的商品",
       "de": "Handelsware",
       "en": "Azim Steppe Souvenir Components",
       "fr": "Produit d'inspiration nomade",
@@ -8264,7 +8296,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Buuz Cooking Paraphernalia",
+      "cn": "蒸包子用品",
       "de": "Buuds-Kochutensilie",
       "en": "Buuz Cooking Paraphernalia",
       "fr": "Ustensile de cuisine pour buuz",
@@ -8280,7 +8312,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Catfish Lure Components",
+      "cn": "鲶鱼钓具",
       "de": "Wels-Köder",
       "en": "Catfish Lure Components",
       "fr": "Accessoire de pêche au poisson-chat",
@@ -8344,7 +8376,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Hingan Ritual Paraphernalia",
+      "cn": "祖先招待用品",
       "de": "Ritualgegenstand zur Ahnenverehrung",
       "en": "Hingan Ritual Paraphernalia",
       "fr": "Objet cérémoniel",
@@ -8392,7 +8424,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Mol Tea Ceremony Paraphernalia",
+      "cn": "茶会必需品",
       "de": "Tee-Bedarfsartikel",
       "en": "Mol Tea Ceremony Paraphernalia",
       "fr": "Élément de cérémonie du thé",
@@ -8440,7 +8472,7 @@
     "level": 148,
     "maxQuality": 1834,
     "name": {
-      "cn": "Substitute Offering",
+      "cn": "供品",
       "de": "Opfergabe",
       "en": "Substitute Offering",
       "fr": "Offrande piégée",
@@ -8472,7 +8504,7 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
-      "cn": "Black and White Orchestrion Roll",
+      "cn": "管弦乐琴乐谱：黑暗与白雪",
       "de": "Notenrolle von „Black and White“",
       "en": "Black and White Orchestrion Roll",
       "fr": "Rouleau \"Black and White\"",
@@ -8504,7 +8536,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Ceremonial Bow Components",
+      "cn": "祭弓部件",
       "de": "Ritualbogenelement",
       "en": "Ceremonial Bow Components",
       "fr": "Composant d'arc cérémoniel",
@@ -8536,7 +8568,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Confetti-making Tools",
+      "cn": "纸屑生产工具",
       "de": "Konfettiwerkzeug",
       "en": "Confetti-making Tools",
       "fr": "Outil de papeterie",
@@ -8552,7 +8584,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Culinary Knife Component",
+      "cn": "常用菜刀的部件",
       "de": "Messerteil",
       "en": "Culinary Knife Component",
       "fr": "Composant de couteau de cuisine",
@@ -8568,7 +8600,7 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
-      "cn": "Drum Parts",
+      "cn": "太鼓部件",
       "de": "Trommelwerkstoff",
       "en": "Drum Parts",
       "fr": "Composant de taiko",
@@ -8584,7 +8616,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Dzo Shear Components",
+      "cn": "牛毛剪刀部件",
       "de": "Scherenteil",
       "en": "Dzo Shear Components",
       "fr": "Élément d'entretien de ciseaux de toilettage",
@@ -8600,7 +8632,7 @@
     "level": 150,
     "maxQuality": 2904,
     "name": {
-      "cn": "Effigy Components",
+      "cn": "鲶鱼精人偶部件",
       "de": "Namazuo-Puppenelement",
       "en": "Effigy Components",
       "fr": "Composant de géant d'osier",
@@ -8616,7 +8648,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Elixir Mixing Paraphernalia",
+      "cn": "绝妙的调配用品",
       "de": "Destillierapparat-Ersatzteil",
       "en": "Elixir Mixing Paraphernalia",
       "fr": "Élément nécessaire à une mixtion",
@@ -8648,7 +8680,7 @@
     "level": 150,
     "maxQuality": 5888,
     "name": {
-      "cn": "Generous Gift",
+      "cn": "谢礼",
       "de": "Dankeschön-Geschenk",
       "en": "Generous Gift",
       "fr": "Cadeau de remerciement",
@@ -8664,7 +8696,7 @@
     "level": 150,
     "maxQuality": 6280,
     "name": {
-      "cn": "Gyr Abanian Souvenir",
+      "cn": "基拉巴尼亚的特产",
       "de": "Abanische Spezialität",
       "en": "Gyr Abanian Souvenir",
       "fr": "Souvenir de Gyr Abania",
@@ -8680,12 +8712,28 @@
     "level": 150,
     "maxQuality": 3140,
     "name": {
-      "cn": "Gyr Abanian Souvenir Component",
+      "cn": "基拉巴尼亚的特产部件",
       "de": "Komponente eines abanischen Souvenirs",
       "en": "Gyr Abanian Souvenir Component",
       "fr": "Composant de souvenir de Gyr Abania",
       "ja": "ギラバニア名産品部材",
       "ko": "기라바니아 특산품 부재"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "142f13c108d",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Hakutaku Eye Cluster",
+      "de": "Hakutaku-Augenhaufen",
+      "en": "Hakutaku Eye Cluster",
+      "fr": "Grappe oculaire de Hakutaku",
+      "ja": "ハクタクの五行眼",
+      "ko": "Hakutaku Eye Cluster"
     }
   },
   {
@@ -8744,7 +8792,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Korrigan Doll",
+      "cn": "魅惑的魔物人偶",
       "de": "Bezaubernde Korrigane-Puppe",
       "en": "Korrigan Doll",
       "fr": "Poupée envoûtante korrigan",
@@ -8760,7 +8808,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Land Diving Gear",
+      "cn": "陆地蹦极用品",
       "de": "Zubehörteil für ein Naghol-Sprungseil",
       "en": "Land Diving Gear",
       "fr": "Composant de système d'attache",
@@ -8840,7 +8888,7 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
-      "cn": "Mikoshi Frippery",
+      "cn": "神轿部件",
       "de": "Mikoshi-Element",
       "en": "Mikoshi Frippery",
       "fr": "Composant de mikoshi",
@@ -8914,13 +8962,29 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "86833ef318e",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Potion of Harmony",
+      "de": "Balancetrank",
+      "en": "Potion of Harmony",
+      "fr": "Potion d'harmonie",
+      "ja": "静魔薬",
+      "ko": "Potion of Harmony"
+    }
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1376,
     "durability": 70,
     "id": "39ca308f000",
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Pristine Fruit Figurine",
+      "cn": "投掷用特产",
       "de": "Festliches Wurfgeschoss",
       "en": "Pristine Fruit Figurine",
       "fr": "Répliques de produits régionaux",
@@ -8952,7 +9016,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Stable Supplies",
+      "cn": "养马必需品",
       "de": "Utensil für die Pferdezucht",
       "en": "Stable Supplies",
       "fr": "Accessoire d'élevage équin",
@@ -8984,7 +9048,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Steeping Accessory",
+      "cn": "烤鲶鱼用品",
       "de": "Kochwerkzeug",
       "en": "Steeping Accessory",
       "fr": "Composant de cuisine namazu",
@@ -9084,7 +9148,7 @@
     "level": 160,
     "maxQuality": 6701,
     "name": {
-      "cn": "Far Eastern Antique",
+      "cn": "东方风格的收藏品",
       "de": "Fernöstliche Kuriosität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
@@ -9101,7 +9165,7 @@
     "level": 160,
     "maxQuality": 3350,
     "name": {
-      "cn": "Far Eastern Antique Component",
+      "cn": "东方风格的收藏品部件",
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
@@ -9615,7 +9679,7 @@
     "level": 180,
     "maxQuality": 4715,
     "name": {
-      "cn": "Solid-brick Interior Wall",
+      "cn": "红砖内墙",
       "de": "Vollziegel-Innenwand",
       "en": "Solid-brick Interior Wall",
       "fr": "Revêtement mural en briques pleines",
@@ -9649,7 +9713,7 @@
     "level": 180,
     "maxQuality": 4715,
     "name": {
-      "cn": "Wine Glass",
+      "cn": "葡萄酒杯",
       "de": "Weinglas",
       "en": "Wine Glass",
       "fr": "Verre à vin",
@@ -9864,6 +9928,40 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "e0a4f5c3802",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Codex",
+      "de": "Nidhogg-Kodex",
+      "en": "Seeing Horde Codex",
+      "fr": "Codex de Dravanien",
+      "ja": "ホードコーデックス",
+      "ko": "Seeing Horde Codex"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "e15c821327e",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Grimoire",
+      "de": "Nidhogg-Grimoire",
+      "en": "Seeing Horde Grimoire",
+      "fr": "Grimoire de Dravanien",
+      "ja": "ホードグリモア",
+      "ko": "Seeing Horde Grimoire"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
     "id": "b0940b2b3ba",
@@ -9887,8 +9985,8 @@
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Song of the Fiend",
-      "de": "Feuer des Baumgottes",
+      "cn": "生命之典",
+      "de": "Lied des Baumgottes",
       "en": "Song of the Fiend",
       "fr": "Chant du Fiélon",
       "ja": "ソング・オブ・フィーンド",
@@ -9904,8 +10002,8 @@
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Word of the Fiend",
-      "de": "Schneide des Baumgottes",
+      "cn": "生命之书",
+      "de": "Wort des Baumgottes",
       "en": "Word of the Fiend",
       "fr": "Parole du Fiélon",
       "ja": "ワード・オブ・フィーンド",
@@ -10141,7 +10239,7 @@
     "level": 255,
     "maxQuality": 6701,
     "name": {
-      "cn": "Gold Saucer Consolation Prize",
+      "cn": "金碟游乐场的纪念品",
       "de": "Trostpreis für den Gold Saucer",
       "en": "Gold Saucer Consolation Prize",
       "fr": "Lot de consolation du Gold Saucer",
@@ -10157,7 +10255,7 @@
     "level": 255,
     "maxQuality": 3350,
     "name": {
-      "cn": "Gold Saucer Consolation Prize Component",
+      "cn": "金碟游乐场的纪念品部件",
       "de": "Komponente eines Gold Saucer-Trostpreises",
       "en": "Gold Saucer Consolation Prize Component",
       "fr": "Composant de lot de consolation du Gold Saucer",
@@ -10221,7 +10319,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "Anti-shark Harpoon",
+      "cn": "防鲨用品",
       "de": "Haifischharpune",
       "en": "Anti-shark Harpoon",
       "fr": "Harpon anti-requin",
@@ -10237,7 +10335,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "Gyr Abanian Remedies",
+      "cn": "基拉巴尼亚医药品",
       "de": "Phiolenset abanischer Medizin",
       "en": "Gyr Abanian Remedies",
       "fr": "Remèdes gyrabaniens",
@@ -10253,7 +10351,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "Gyr Abanian Remedy Components",
+      "cn": "基拉巴尼亚医药品部件",
       "de": "Komponente abanischer Medizin",
       "en": "Gyr Abanian Remedy Components",
       "fr": "Composants pour remèdes gyrabaniens",
@@ -10301,7 +10399,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "Harpoon Components",
+      "cn": "防鲨用品部件",
       "de": "Komponente einer Haifischharpune",
       "en": "Harpoon Components",
       "fr": "Composants pour harpon anti-requin",
@@ -10317,7 +10415,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "M Tribe Sundries",
+      "cn": "梅氏一族的日用品",
       "de": "Jagdbedarf",
       "en": "M Tribe Sundries",
       "fr": "Produits du quotidien des M",
@@ -10333,7 +10431,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "M Tribe Sundry Component",
+      "cn": "梅氏一族的日用品部件",
       "de": "Komponente eines Gebrauchsgegenstands der M",
       "en": "M Tribe Sundry Component",
       "fr": "Composant de produits du quotidien des M",
@@ -10365,7 +10463,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Coerthan Cold-weather Gear",
+      "cn": "库尔札斯防寒用品",
       "de": "Coerthischer Wintermantel",
       "en": "Coerthan Cold-weather Gear",
       "fr": "Vêtements chauds du Coerthas",
@@ -10381,7 +10479,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Cold-weather Gear Components",
+      "cn": "库尔札斯防寒用品部件",
       "de": "Komponente coerthischer Winterkleidung",
       "en": "Cold-weather Gear Components",
       "fr": "Composants pour vêtements chauds du Coerthas",
@@ -10493,7 +10591,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Resistance Materiel",
+      "cn": "解放军的军需品",
       "de": "Rucksack für die Befreiungsarmee",
       "en": "Resistance Materiel",
       "fr": "Provisions pour l'armée de libération",
@@ -10509,7 +10607,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Resistance Materiel Component",
+      "cn": "解放军的军需品部件",
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
       "en": "Resistance Materiel Component",
       "fr": "Composant de provisions pour l'armée de libération",
@@ -10525,7 +10623,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Sui-no-Sato Special",
+      "cn": "翠水乡特产",
       "de": "Kostbarkeit aus Sui no Sato",
       "en": "Sui-no-Sato Special",
       "fr": "Spécialité de Sui-no-Sato",
@@ -10541,7 +10639,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Sui-no-Sato Special Components",
+      "cn": "翠水乡特产部件",
       "de": "Komponente einer Kostbarkeit aus Sui no Sato",
       "en": "Sui-no-Sato Special Components",
       "fr": "Composants pour spécialité de Sui-no-Sato",
@@ -10573,7 +10671,7 @@
     "level": 273,
     "maxQuality": 8680,
     "name": {
-      "cn": "Cloud Pearl",
+      "cn": "云海珍宝",
       "de": "Wolkenmeerperle",
       "en": "Cloud Pearl",
       "fr": "Rareté de la Mer de nuages",
@@ -10589,7 +10687,7 @@
     "level": 273,
     "maxQuality": 4340,
     "name": {
-      "cn": "Cloud Pearl Components",
+      "cn": "云海珍宝部件",
       "de": "Komponente einer Wolkenmeerperle",
       "en": "Cloud Pearl Components",
       "fr": "Composants pour rareté de la Mer de nuages",
@@ -10697,11 +10795,27 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "2af5c138862",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Black Arum Corsage",
+      "de": "Schwarze Aronstab-Haarspange",
+      "en": "Black Arum Corsage",
+      "fr": "Barrette callas noires",
+      "ja": "カラーオーナメント:ブラック",
+      "ko": "Black Arum Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "f935ca9b8d9",
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Black Dahlia Corsage",
+      "cn": "黑色大丽花头花",
       "de": "Schwarze Dahlien-Haarspange",
       "en": "Black Dahlia Corsage",
       "fr": "Barrette dahlia noir",
@@ -10717,7 +10831,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Black Tulip Corsage",
+      "cn": "黑色郁金香腕带",
       "de": "Schwarzes Tulpen-Armband",
       "en": "Black Tulip Corsage",
       "fr": "Ruban tulipes noires",
@@ -10729,11 +10843,27 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "68cc46e4fa9",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Blue Arum Corsage",
+      "de": "Blaue Aronstab-Haarspange",
+      "en": "Blue Arum Corsage",
+      "fr": "Barrette callas bleues",
+      "ja": "カラーオーナメント:ブルー",
+      "ko": "Blue Arum Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "08ebe864f9e",
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Blue Dahlia Corsage",
+      "cn": "蓝色大丽花头花",
       "de": "Blaue Dahlien-Haarspange",
       "en": "Blue Dahlia Corsage",
       "fr": "Barrette dahlia bleu",
@@ -10749,7 +10879,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Blue Tulip Corsage",
+      "cn": "蓝色郁金香腕带",
       "de": "Blaues Tulpen-Armband",
       "en": "Blue Tulip Corsage",
       "fr": "Ruban tulipes bleues",
@@ -10761,11 +10891,27 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "c4cc67bd38b",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Green Arum Corsage",
+      "de": "Grüne Aronstab-Haarspange",
+      "en": "Green Arum Corsage",
+      "fr": "Barrette callas vertes",
+      "ja": "カラーオーナメント:グリーン",
+      "ko": "Green Arum Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "37429a6058f",
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Green Dahlia Corsage",
+      "cn": "绿色大丽花头花",
       "de": "Grüne Dahlien-Haarspange",
       "en": "Green Dahlia Corsage",
       "fr": "Barrette dahlia vert",
@@ -10781,7 +10927,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Green Tulip Corsage",
+      "cn": "绿色郁金香腕带",
       "de": "Grünes Tulpen-Armband",
       "en": "Green Tulip Corsage",
       "fr": "Ruban tulipes vertes",
@@ -10809,11 +10955,27 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "8b90745253b",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Orange Arum Corsage",
+      "de": "Orange Aronstab-Haarspange",
+      "en": "Orange Arum Corsage",
+      "fr": "Barrette callas orange",
+      "ja": "カラーオーナメント:オレンジ",
+      "ko": "Orange Arum Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "02d8b8d548b",
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Orange Dahlia Corsage",
+      "cn": "橙色大丽花头花",
       "de": "Orange Dahlien-Haarspange",
       "en": "Orange Dahlia Corsage",
       "fr": "Barrette dahlia orange",
@@ -10829,7 +10991,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Orange Tulip Corsage",
+      "cn": "橙色郁金香腕带",
       "de": "Oranges Tulpen-Armband",
       "en": "Orange Tulip Corsage",
       "fr": "Ruban tulipes orange",
@@ -10857,11 +11019,27 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "acbbb12e395",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Purple Arum Corsage",
+      "de": "Violette Aronstab-Haarspange",
+      "en": "Purple Arum Corsage",
+      "fr": "Barrette callas violettes",
+      "ja": "カラーオーナメント:パープル",
+      "ko": "Purple Arum Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "420d0f2dc8b",
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Purple Dahlia Corsage",
+      "cn": "紫色大丽花头花",
       "de": "Violette Dahlien-Haarspange",
       "en": "Purple Dahlia Corsage",
       "fr": "Barrette dahlia violet",
@@ -10877,7 +11055,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Purple Tulip Corsage",
+      "cn": "紫色郁金香腕带",
       "de": "Violettes Tulpen-Armband",
       "en": "Purple Tulip Corsage",
       "fr": "Ruban tulipes violettes",
@@ -10889,11 +11067,27 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "7c4b5932a38",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Rainbow Arum Corsage",
+      "de": "Mehrfarbige Aronstab-Haarspange",
+      "en": "Rainbow Arum Corsage",
+      "fr": "Barrette callas multicolores",
+      "ja": "カラーオーナメント:ブレンド",
+      "ko": "Rainbow Arum Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "abc7dcd7cda",
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Rainbow Dahlia Corsage",
+      "cn": "混色大丽花头花",
       "de": "Mehrfarbige Dahlien-Haarspange",
       "en": "Rainbow Dahlia Corsage",
       "fr": "Barrette dahlias multicolores",
@@ -10909,7 +11103,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Rainbow Tulip Corsage",
+      "cn": "混色郁金香腕带",
       "de": "Mehrfarbiges Tulpen-Armband",
       "en": "Rainbow Tulip Corsage",
       "fr": "Ruban tulipes multicolores",
@@ -10921,11 +11115,27 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "1d064bc7ea5",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Red Arum Corsage",
+      "de": "Rote Aronstab-Haarspange",
+      "en": "Red Arum Corsage",
+      "fr": "Barrette callas rouges",
+      "ja": "カラーオーナメント:レッド",
+      "ko": "Red Arum Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "3ec4da84d21",
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Red Dahlia Corsage",
+      "cn": "红色大丽花头花",
       "de": "Purpurrote Dahlien-Haarspange",
       "en": "Red Dahlia Corsage",
       "fr": "Barrette dahlia rouge",
@@ -10941,7 +11151,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Red Tulip Corsage",
+      "cn": "红色郁金香腕带",
       "de": "Rotes Tulpen-Armband",
       "en": "Red Tulip Corsage",
       "fr": "Ruban tulipes rouges",
@@ -10953,11 +11163,27 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "980f702c44c",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "White Arum Corsage",
+      "de": "Weiße Aronstab-Haarspange",
+      "en": "White Arum Corsage",
+      "fr": "Barrette callas blanches",
+      "ja": "カラーオーナメント:ホワイト",
+      "ko": "White Arum Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "1fa79f89fdc",
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "White Dahlia Corsage",
+      "cn": "白色大丽花头花",
       "de": "Weiße Dahlien-Haarspange",
       "en": "White Dahlia Corsage",
       "fr": "Barrette dahlia blanc",
@@ -10973,7 +11199,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "White Tulip Corsage",
+      "cn": "白色郁金香腕带",
       "de": "Weißes Tulpen-Armband",
       "en": "White Tulip Corsage",
       "fr": "Ruban tulipes blanches",
@@ -10985,11 +11211,27 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "cd950434876",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Yellow Arum Corsage",
+      "de": "Gelbe Aronstab-Haarspange",
+      "en": "Yellow Arum Corsage",
+      "fr": "Barrette callas jaunes",
+      "ja": "カラーオーナメント:イエロー",
+      "ko": "Yellow Arum Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "02cf292d3b8",
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Yellow Dahlia Corsage",
+      "cn": "黄色大丽花头花",
       "de": "Gelbe Dahlien-Haarspange",
       "en": "Yellow Dahlia Corsage",
       "fr": "Barrette dahlia jaune",
@@ -11005,7 +11247,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Yellow Tulip Corsage",
+      "cn": "黄色郁金香腕带",
       "de": "Gelbes Tulpen-Armband",
       "en": "Yellow Tulip Corsage",
       "fr": "Ruban tulipes jaunes",
@@ -11229,7 +11471,7 @@
     "level": 290,
     "maxQuality": 13187,
     "name": {
-      "cn": "Super-Ether",
+      "cn": "上级以太药",
       "de": "Über-Äther",
       "en": "Super-Ether",
       "fr": "Supra éther",
@@ -11245,7 +11487,7 @@
     "level": 290,
     "maxQuality": 13187,
     "name": {
-      "cn": "Super-Potion",
+      "cn": "上级恢复药",
       "de": "Übertrank",
       "en": "Super-Potion",
       "fr": "Supra potion",
@@ -11295,7 +11537,7 @@
     "level": 300,
     "maxQuality": 7035,
     "name": {
-      "cn": "The Worm's Head Orchestrion Roll",
+      "cn": "管弦乐琴乐谱：神龙见首",
       "de": "Notenrolle von „The Worm's Head“",
       "en": "The Worm's Head Orchestrion Roll",
       "fr": "Rouleau \"The Worm's Head\"",
@@ -11312,7 +11554,7 @@
     "level": 300,
     "maxQuality": 7035,
     "name": {
-      "cn": "The Worm's Tail Orchestrion Roll",
+      "cn": "管弦乐琴乐谱：神龙见尾",
       "de": "Notenrolle von „The Worm's Tail“",
       "en": "The Worm's Tail Orchestrion Roll",
       "fr": "Rouleau \"The Worm's Tail\"",
@@ -11329,7 +11571,7 @@
     "level": 320,
     "maxQuality": 17420,
     "name": {
-      "cn": "Ala Mhigan Fiber",
+      "cn": "阿拉米格纤维",
       "de": "Mhigisches Mischgewebe",
       "en": "Ala Mhigan Fiber",
       "fr": "Fibre mhigoise",
@@ -11346,7 +11588,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Ambient Abyss Orchestrion Roll",
+      "cn": "管弦乐琴乐谱：环境音:海中",
       "de": "Notenrolle von „Tiefenrausch“",
       "en": "Ambient Abyss Orchestrion Roll",
       "fr": "Rouleau \"Ambiance sous-marine\"",
@@ -11363,7 +11605,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Assorted Candles",
+      "cn": "蜡烛组合",
       "de": "Kerzensammlung",
       "en": "Assorted Candles",
       "fr": "Bougies diverses",
@@ -11380,7 +11622,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Chirurgeon's Essentials",
+      "cn": "药剂台",
       "de": "Chirurgen-Werkzeugset",
       "en": "Chirurgeon's Essentials",
       "fr": "Ustensiles de barbier",
@@ -11397,7 +11639,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Codex of the True Griffin",
+      "cn": "真狮鹫革魔导典",
       "de": "Kodex des Wahren Greifen",
       "en": "Codex of the True Griffin",
       "fr": "Codex en cuir de vrai griffon",
@@ -11414,7 +11656,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Flying Chair",
+      "cn": "飞行座椅",
       "de": "Fliegender Sessel",
       "en": "Flying Chair",
       "fr": "Fauteuil volant",
@@ -11431,7 +11673,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Grade 2 Reisui of Dexterity",
+      "cn": "2级巧力之灵水",
       "de": "Wunderwasser der Geschicklichkeit II",
       "en": "Grade 2 Reisui of Dexterity",
       "fr": "Émulsion de dextérité II",
@@ -11448,7 +11690,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Grade 2 Reisui of Intelligence",
+      "cn": "2级智力之灵水",
       "de": "Wunderwasser der Intelligenz II",
       "en": "Grade 2 Reisui of Intelligence",
       "fr": "Émulsion d'intelligence II",
@@ -11465,7 +11707,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Grade 2 Reisui of Mind",
+      "cn": "2级意力之灵水",
       "de": "Wunderwasser der Willenskraft II",
       "en": "Grade 2 Reisui of Mind",
       "fr": "Émulsion d'esprit II",
@@ -11482,7 +11724,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Grade 2 Reisui of Strength",
+      "cn": "2级刚力之灵水",
       "de": "Wunderwasser der Stärke II",
       "en": "Grade 2 Reisui of Strength",
       "fr": "Émulsion de force II",
@@ -11499,7 +11741,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Grade 2 Reisui of Vitality",
+      "cn": "2级耐力之灵水",
       "de": "Wunderwasser der Konstitution II",
       "en": "Grade 2 Reisui of Vitality",
       "fr": "Émulsion de vitalité II",
@@ -11516,7 +11758,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Grimoire of the True Griffin",
+      "cn": "真狮鹫革魔导书",
       "de": "Grimoire des Wahren Greifen",
       "en": "Grimoire of the True Griffin",
       "fr": "Grimoire en cuir de vrai griffon",
@@ -11533,7 +11775,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Jellyfish Lamp",
+      "cn": "水母台灯",
       "de": "Quallen-Lampe",
       "en": "Jellyfish Lamp",
       "fr": "Lanterne méduse",
@@ -11550,7 +11792,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Shinryu's Wing",
+      "cn": "神龙之翼",
       "de": "Shinryu-Schwinge",
       "en": "Shinryu's Wing",
       "fr": "Aile de Shinryu",
@@ -11567,7 +11809,7 @@
     "level": 320,
     "maxQuality": 17420,
     "name": {
-      "cn": "Snailfish Oil",
+      "cn": "狮子鱼油",
       "de": "Scheibenbauchöl",
       "en": "Snailfish Oil",
       "fr": "Huile de poisson-limace",
@@ -11584,7 +11826,7 @@
     "level": 350,
     "maxQuality": 9243,
     "name": {
-      "cn": "Amatsu Kaze Orchestrion Roll",
+      "cn": "管弦乐琴乐谱：天风",
       "de": "Notenrolle von „Amatsu Kaze“",
       "en": "Amatsu Kaze Orchestrion Roll",
       "fr": "Rouleau \"Amatsu Kaze\"",
@@ -11601,7 +11843,7 @@
     "level": 350,
     "maxQuality": 9243,
     "name": {
-      "cn": "Answer on High Orchestrion Roll",
+      "cn": "管弦乐琴乐谱：天雷",
       "de": "Notenrolle von „Answer on High“",
       "en": "Answer on High Orchestrion Roll",
       "fr": "Rouleau \"Answer on High\"",
@@ -11618,7 +11860,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Grade 2 Infusion of Dexterity",
+      "cn": "2级巧力之药汤",
       "de": "Aufguss des Geschicks II",
       "en": "Grade 2 Infusion of Dexterity",
       "fr": "Concoction de dextérité II",
@@ -11635,7 +11877,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Grade 2 Infusion of Intelligence",
+      "cn": "2级智力之药汤",
       "de": "Aufguss der Intelligenz II",
       "en": "Grade 2 Infusion of Intelligence",
       "fr": "Concoction d'intelligence II",
@@ -11652,7 +11894,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Grade 2 Infusion of Mind",
+      "cn": "2级意力之药汤",
       "de": "Aufguss der Willenskraft II",
       "en": "Grade 2 Infusion of Mind",
       "fr": "Concoction d'esprit II",
@@ -11669,7 +11911,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Grade 2 Infusion of Strength",
+      "cn": "2级刚力之药汤",
       "de": "Aufguss der Stärke II",
       "en": "Grade 2 Infusion of Strength",
       "fr": "Concoction de force II",
@@ -11686,7 +11928,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Grade 2 Infusion of Vitality",
+      "cn": "2级耐力之药汤",
       "de": "Aufguss der Konstitution II",
       "en": "Grade 2 Infusion of Vitality",
       "fr": "Concoction de vitalité II",
@@ -11703,7 +11945,7 @@
     "level": 350,
     "maxQuality": 20335,
     "name": {
-      "cn": "Grade 3 Reisui of Dexterity",
+      "cn": "3级巧力之灵水",
       "de": "Wunderwasser der Geschicklichkeit III",
       "en": "Grade 3 Reisui of Dexterity",
       "fr": "Émulsion de dextérité III",
@@ -11720,7 +11962,7 @@
     "level": 350,
     "maxQuality": 20335,
     "name": {
-      "cn": "Grade 3 Reisui of Intelligence",
+      "cn": "3级智力之灵水",
       "de": "Wunderwasser der Intelligenz III",
       "en": "Grade 3 Reisui of Intelligence",
       "fr": "Émulsion d'intelligence III",
@@ -11737,7 +11979,7 @@
     "level": 350,
     "maxQuality": 20335,
     "name": {
-      "cn": "Grade 3 Reisui of Mind",
+      "cn": "3级意力之灵水",
       "de": "Wunderwasser der Willenskraft III",
       "en": "Grade 3 Reisui of Mind",
       "fr": "Émulsion d'esprit III",
@@ -11754,7 +11996,7 @@
     "level": 350,
     "maxQuality": 20335,
     "name": {
-      "cn": "Grade 3 Reisui of Strength",
+      "cn": "3级刚力之灵水",
       "de": "Wunderwasser der Stärke III",
       "en": "Grade 3 Reisui of Strength",
       "fr": "Émulsion de force III",
@@ -11771,7 +12013,7 @@
     "level": 350,
     "maxQuality": 20335,
     "name": {
-      "cn": "Grade 3 Reisui of Vitality",
+      "cn": "3级耐力之灵水",
       "de": "Wunderwasser der Konstitution III",
       "en": "Grade 3 Reisui of Vitality",
       "fr": "Émulsion de vitalité III",
@@ -11788,12 +12030,29 @@
     "level": 350,
     "maxQuality": 24033,
     "name": {
-      "cn": "Hawk's Eye Sand",
+      "cn": "鹰眼砂",
       "de": "Falkenaugen-Sand",
       "en": "Hawk's Eye Sand",
       "fr": "Sable d'œil-de-faucon",
       "ja": "鷹目砂",
       "ko": "Hawk's Eye Sand"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "id": "96d9fd4de4f",
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "管弦乐琴乐谱：月下美人",
+      "de": "Notenrolle von „Nightbloom“",
+      "en": "Nightbloom Orchestrion Roll",
+      "fr": "Rouleau \"Nightbloom\"",
+      "ja": "オーケストリオン譜:月下美人",
+      "ko": "Nightbloom Orchestrion Roll"
     },
     "stars": 3
   },
@@ -11805,7 +12064,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Codex",
+      "cn": "清银魔导典",
       "de": "Silbergunst-Kodex",
       "en": "Silvergrace Codex",
       "fr": "Codex en graçargent",
@@ -11822,7 +12081,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Silvergrace Grimoire",
+      "cn": "清银魔导书",
       "de": "Silbergunst-Grimoire",
       "en": "Silvergrace Grimoire",
       "fr": "Grimoire en graçargent",
@@ -11839,7 +12098,7 @@
     "level": 350,
     "maxQuality": 24033,
     "name": {
-      "cn": "Veteran Tree Sap",
+      "cn": "古木树液",
       "de": "Alter Baumsaft",
       "en": "Veteran Tree Sap",
       "fr": "Sève de vieil arbre",
@@ -11847,5 +12106,243 @@
       "ko": "Veteran Tree Sap"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "id": "597587d9b98",
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "管弦乐琴乐谱：彼岸花开",
+      "de": "Notenrolle von „Wayward Daughter“",
+      "en": "Wayward Daughter Orchestrion Roll",
+      "fr": "Rouleau \"Wayward Daughter\"",
+      "ja": "オーケストリオン譜:月下彼岸花",
+      "ko": "Wayward Daughter Orchestrion Roll"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "72a906006d8",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Grade 3 Infusion of Dexterity",
+      "de": "Aufguss des Geschicks III",
+      "en": "Grade 3 Infusion of Dexterity",
+      "fr": "Concoction de dextérité III",
+      "ja": "眼力の薬湯G3",
+      "ko": "Grade 3 Infusion of Dexterity"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "82a849dcfca",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Grade 3 Infusion of Intelligence",
+      "de": "Aufguss der Intelligenz III",
+      "en": "Grade 3 Infusion of Intelligence",
+      "fr": "Concoction d'intelligence III",
+      "ja": "知力の薬湯G3",
+      "ko": "Grade 3 Infusion of Intelligence"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "4c3eb0fa3a3",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Grade 3 Infusion of Mind",
+      "de": "Aufguss der Willenskraft III",
+      "en": "Grade 3 Infusion of Mind",
+      "fr": "Concoction d'esprit III",
+      "ja": "心力の薬湯G3",
+      "ko": "Grade 3 Infusion of Mind"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "e0dc7c14296",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Grade 3 Infusion of Strength",
+      "de": "Aufguss der Stärke III",
+      "en": "Grade 3 Infusion of Strength",
+      "fr": "Concoction de force III",
+      "ja": "剛力の薬湯G3",
+      "ko": "Grade 3 Infusion of Strength"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "aca2c2f778f",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Grade 3 Infusion of Vitality",
+      "de": "Aufguss der Konstitution III",
+      "en": "Grade 3 Infusion of Vitality",
+      "fr": "Concoction de vitalité III",
+      "ja": "活力の薬湯G3",
+      "ko": "Grade 3 Infusion of Vitality"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "91157585aba",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Grade 4 Reisui of Dexterity",
+      "de": "Wunderwasser der Geschicklichkeit IV",
+      "en": "Grade 4 Reisui of Dexterity",
+      "fr": "Émulsion de dextérité IV",
+      "ja": "眼力の霊水G4",
+      "ko": "Grade 4 Reisui of Dexterity"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "230c8a3163a",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Grade 4 Reisui of Intelligence",
+      "de": "Wunderwasser der Intelligenz IV",
+      "en": "Grade 4 Reisui of Intelligence",
+      "fr": "Émulsion d'intelligence IV",
+      "ja": "知力の霊水G4",
+      "ko": "Grade 4 Reisui of Intelligence"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "1c49aa9d066",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Grade 4 Reisui of Mind",
+      "de": "Wunderwasser der Willenskraft IV",
+      "en": "Grade 4 Reisui of Mind",
+      "fr": "Émulsion d'esprit IV",
+      "ja": "心力の霊水G4",
+      "ko": "Grade 4 Reisui of Mind"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "d3615fb40b6",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Grade 4 Reisui of Strength",
+      "de": "Wunderwasser der Stärke IV",
+      "en": "Grade 4 Reisui of Strength",
+      "fr": "Émulsion de force IV",
+      "ja": "剛力の霊水G4",
+      "ko": "Grade 4 Reisui of Strength"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "d1d8945c2f8",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Grade 4 Reisui of Vitality",
+      "de": "Wunderwasser der Konstitution IV",
+      "en": "Grade 4 Reisui of Vitality",
+      "fr": "Émulsion de vitalité IV",
+      "ja": "活力の霊水G4",
+      "ko": "Grade 4 Reisui of Vitality"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "32e473ed870",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Codex",
+      "de": "Rakshasa-Kodex",
+      "en": "Rakshasa Codex",
+      "fr": "Écrit rakshasa",
+      "ja": "羅刹文書",
+      "ko": "Rakshasa Codex"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "8851edc5813",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Grimoire",
+      "de": "Rakshasa-Grimoire",
+      "en": "Rakshasa Grimoire",
+      "fr": "Sûtra rakshasa",
+      "ja": "羅刹経典",
+      "ko": "Rakshasa Grimoire"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "75f52a39b3b",
+    "level": 390,
+    "maxQuality": 10568,
+    "name": {
+      "cn": "Sunrise Orchestrion Roll",
+      "de": "Notenrolle von „Sunrise“",
+      "en": "Sunrise Orchestrion Roll",
+      "fr": "Rouleau \"Sunrise\"",
+      "ja": "オーケストリオン譜:千年の暁",
+      "ko": "Sunrise Orchestrion Roll"
+    },
+    "stars": 4
   }
 ]

@@ -5,12 +5,12 @@
       <form class="form-inline">
         <div class="dropdown">
           <div class="input-append">
-            <span class="input-small uneditable-input">{{recipe.cls}}</span>
+            <span class="input-small uneditable-input">{{recipe.cls | translate}}</span>
 
             <div class="btn-group">
               <button class="btn dropdown-toggle"><span class="caret"></span></button>
               <ul class="dropdown-menu pull-right">
-                <li ng-repeat="cls in allClasses"><a ng-click="recipe.cls=cls">{{cls}}</a></li>
+                <li ng-repeat="cls in allClasses"><a ng-click="recipe.cls=cls">{{cls | translate}}</a></li>
               </ul>
             </div>
           </div>
@@ -27,11 +27,11 @@
           <div class="my-dropdown-menu">
             <input class="input-medium search my-dropdown-focus" type="text" name="name"
                    ng-model="recipeSearch.text"
-                   placeholder="Search..." select-on-focus stop-click-propogation
+                   placeholder="{{ 'RECIPE_SEARCH' | translate }}" select-on-focus stop-click-propogation
                    ng-keypress="onSearchKeyPress($event)" ng-keydown="onSearchKeyDown($event)"
                    id="recipe-search-text"/>
             <ul class="recipe-menu-scrollable" isolate-scrolling>
-              <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> Loading...
+              <li class="loading" ng-show="recipeSearch.loading"><i class="fa fa-spinner fa-spin"></i> {{'LOADING' | translate}}
               </li>
               <li ng-hide="recipeSearch.loading"
                   ng-repeat="r in recipeSearch.list | orderBy:recipeSearch.order"
@@ -78,12 +78,12 @@
                    on-drop="dropAction(dragEl, dropEl)"/>
             </div>
             <div class="control-group">
-              <button class="btn" ng-click="cancel()">Cancel</button>
-              <button class="btn btn-primary" ng-disabled="!isSequenceDirty()" ng-click="save()">Save</button>
-              <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">Revert</button>
-              <button class="btn btn-warning" ng-disabled="editSequence.length == 0" ng-click="clear()">Clear</button>
+              <button class="btn" ng-click="cancel()">{{ 'CANCEL' | translate }}</button>
+              <button class="btn btn-primary" ng-disabled="!isSequenceDirty()" ng-click="save()">{{ 'SAVE' | translate }}</button>
+              <button class="btn btn-warning" ng-disabled="!isSequenceDirty()" ng-click="revert()">{{ 'REVERT' | translate }}</button>
+              <button class="btn btn-warning" ng-disabled="editSequence.length == 0" ng-click="clear()">{{ 'CLEAR' | translate }}</button>
             </div>
-            <h5>Available Actions <small>(<a ui-sref="crafter-attributes">edit</a>)</small></h5>
+            <h5>{{ 'AVAILABLE_ACTIONS' | translate }}&nbsp;<small>(<a ui-sref="crafter-attributes">{{ 'EDIT_LOWER' | translate }}</a>)</small></h5>
 
             <div class="action-table">
               <action-table cls="recipe.cls" action-classes="actionTableClasses" selectable="true" draggable="true"
@@ -115,25 +115,25 @@
                   -- Hack for bug in angular-ui-bootstrap (fixed in 0.13)
                   -- ng-disabled elements don't close their tooltip
                   -->
-                <button class="btn" ng-click="revertSynth()" ng-class="{'disabled': !isSynthDirty()}" tooltip="Revert"><i class="fa fa-undo"></i></button>
-                <button class="btn" ng-click="saveSynth()" ng-class="{'disabled': !isSynthDirty()}" tooltip="Save"><i class="fa fa-floppy-o"></i></button>
-                <button class="btn" ng-click="saveSynthAs()" tooltip="Save As"><i class="fa fa-plus"></i></button>
-                <button class="btn" ng-click="renameSynth()" tooltip="Rename"><i class="fa fa-pencil"></i></button>
-                <button class="btn" ng-click="deleteSynth()" tooltip="Delete"><i class="fa fa-trash"></i></button>
+                <button class="btn" ng-click="revertSynth()" ng-class="{'disabled': !isSynthDirty()}" tooltip="{{ 'REVERT' | translate }}"><i class="fa fa-undo"></i></button>
+                <button class="btn" ng-click="saveSynth()" ng-class="{'disabled': !isSynthDirty()}" tooltip="{{ 'SAVE' | translate }}"><i class="fa fa-floppy-o"></i></button>
+                <button class="btn" ng-click="saveSynthAs()" tooltip="{{ 'SAVE_AS' | translate}}"><i class="fa fa-plus"></i></button>
+                <button class="btn" ng-click="renameSynth()" tooltip="{{ 'RENAME' | translate }}"><i class="fa fa-pencil"></i></button>
+                <button class="btn" ng-click="deleteSynth()" tooltip="{{ 'DELETE' | translate }}"><i class="fa fa-trash"></i></button>
               </div>
               <div class="btn-group">
-                <button class="btn" ng-click="importSynth()" tooltip="Import Sequence"><i class="fa fa-upload"></i></button>
-                <button class="btn" ng-click="exportSynth()" tooltip="Export Sequence"><i class="fa fa-download"></i></button>
-                <button class="btn" ng-click="showMacroImportModal()" tooltip="Import Macro"><i class="fa fa-arrow-up"></i></button>
+                <button class="btn" ng-click="importSynth()" tooltip="{{ 'IMPORT_SEQUENCE' | translate }}"><i class="fa fa-upload"></i></button>
+                <button class="btn" ng-click="exportSynth()" tooltip="{{ 'EXPORT_SEQUENCE' | translate }}"><i class="fa fa-download"></i></button>
+                <button class="btn" ng-click="showMacroImportModal()" tooltip="{{ 'IMPORT_MACRO' | translate }}"><i class="fa fa-arrow-up"></i></button>
               </div>
             </div>
           </div>
 
           <div class="btn-toolbar pull-right">
             <button class="btn btn-primary" ng-click="editSequenceInline()" ng-disabled="simulatorStatus.running">
-              Edit...
+                {{ 'EDIT_SIMULATOR' | translate }}
             </button>
-            <button class="btn btn-primary" ng-click="goToSolver()">Solve...</button>
+            <button class="btn btn-primary" ng-click="goToSolver()">{{ 'SOLVE' | translate}}</button>
           </div>
         </div>
       </div>
@@ -143,16 +143,16 @@
   <div class="row-fluid">
     <tabset>
       <tab active="logTabs.monteCarlo.active">
-        <tab-heading>Monte Carlo Sim &nbsp; <i class="fa fa-refresh flat-button"
+        <tab-heading>{{ 'MONTE_CARLO_SIM' | translate}} &nbsp;<i class="fa fa-refresh flat-button"
                                                ng-click="$emit('simulation.needs.update')"></i></tab-heading>
         <pre>{{simulatorStatus.monteCarlo.logText}}</pre>
       </tab>
       <tab active="logTabs.probabilistic.active">
-        <tab-heading>Probabilistic Sim</tab-heading>
+        <tab-heading>{{ 'PROBABILISTIC_SIM' | translate}}</tab-heading>
         <pre>{{simulatorStatus.probabilistic.logText}}</pre>
       </tab>
       <tab active="logTabs.macro.active">
-        <tab-heading>Macro</tab-heading>
+        <tab-heading>{{ 'MACRO' | translate}}</tab-heading>
         <macros sequence="sequence" cls="recipe.cls" options="macroOptions"></macros>
       </tab>
     </tabset>

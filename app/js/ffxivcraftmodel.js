@@ -555,7 +555,7 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
             else {
                 return ppGood + ppExcellent;
             }
-        },
+        }
         // checkInnerQuietEqWhistle: function () {
         //     if (ignoreConditionReq) {
         //         return true;
@@ -722,7 +722,7 @@ function monteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
         },
         pGoodOrExcellent: function () {
             return 1;
-        },
+        }
         // checkInnerQuietEqWhistle: function () {
         //     if (ignoreConditionReq) {
         //         return true;
@@ -1446,7 +1446,7 @@ function heuristicSequenceBuilder(synth) {
         }
     }
     else if ((effCrafterLevel < effRecipeLevel) && tryAction('ingenuity')) {
-        pushAction(subSeq1, 'ingenuity')
+        pushAction(subSeq1, 'ingenuity');
         if (Ing1RecipeLevelTable[synth.recipe.level]) {
             //effRecipeLevel = Ing1RecipeLevelTable[effRecipeLevel];
         }
@@ -1539,7 +1539,7 @@ function heuristicSequenceBuilder(synth) {
     preferredAction = 'basicTouch';
     // If we have steady hand 2 and hasty touch use that combo
     if (hasAction('hastyTouch') && tryAction('steadyHand2')) {
-        pushAction(subSeq1, 'steadyHand2')
+        pushAction(subSeq1, 'steadyHand2');
         preferredAction = 'hastyTouch';
     }
 
@@ -1790,7 +1790,28 @@ var NymeaisWheelTable = {
     9: 10,
     10: 10,
     11: 10
-}
+};
+
+var ProgressPenaltyTable = {
+    180: -0.02,
+    210: -0.035,
+    220: -0.035,
+    250: -0.04,
+    320: -0.02,
+    350: -0.035,
+};
+
+var QualityPenaltyTable = {
+    0: -0.02,
+    90: -0.03,
+    160: -0.05,
+    180: -0.06,
+    200: -0.07,
+    245: -0.08,
+    300: -0.09,
+    310: -0.10,
+    340: -0.11,
+};
 
 // Test objects
 //cls, level, craftsmanship, control, craftPoints, actions

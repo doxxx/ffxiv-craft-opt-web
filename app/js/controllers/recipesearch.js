@@ -37,9 +37,7 @@
         // Restrict recipes to crafter level
         recipes = $filter('filter')(recipes, {baseLevel: $scope.crafter.stats[$scope.recipe.cls].level},
           function (recipeLevel, crafterLevel) {
-            if (!crafterLevel || crafterLevel >= recipeLevel - 5)
-              return true;
-            return false;
+            return !crafterLevel || crafterLevel >= recipeLevel - 5;
           });
 
         // Then filter on text search, ignoring case and accents

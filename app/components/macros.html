@@ -1,20 +1,24 @@
-<p>Click + Ctrl/Cmd-C on each block to copy to clipboard.</p>
+<p>{{ 'MACRO_CTRL' | translate }}</p>
 <form>
   <div class="control-group">
     <div class="controls">
       <label class="checkbox">
-        <input type="checkbox" ng-model="options.setupCrossClassActions"/>Generate cross-class action activation macro
+        <input type="checkbox" ng-model="options.setupCrossClassActions"/>{{ 'MACRO_CROSS_CLASS' | translate }}
       </label>
-      <br/>
+      <br ng-if="options.setupCrossClassActions"/>
       <label class="checkbox" ng-if="options.setupCrossClassActions">
         <input type="checkbox" ng-model="options.includeCurrentClassActions"/>
-        Include current class actions
+        {{ 'MACRO_INCLUDE_CLASS' | translate }}
+      </label>
+      <br/>
+      <label class="checkbox">
+        <input type="checkbox" ng-model="options.includeMacroLock"/>{{ 'MACRO_INCLUDE_LOCK' | translate }}
       </label>
     </div>
   </div>
 </form>
 <div ng-if="options.setupCrossClassActions">
-  <h6>Cross-class Action Setup Macro</h6>
+  <h6>{{ 'MACRO_CROSS_ACTION_SETUP' | translate }}</h6>
   <textarea style="width:auto" cols="60" rows="10" readonly select-on-click>{{crossClassSetupMacroText}}</textarea>
 </div>
 <div ng-repeat="macro in macroList track by $index">

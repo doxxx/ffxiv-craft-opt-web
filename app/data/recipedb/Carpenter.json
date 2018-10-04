@@ -58,7 +58,7 @@
       "cn": "左舷船体元件",
       "de": "Backbordrumpf-Bauteil",
       "en": "Larboard Hull Component",
-      "fr": "Comp. de partie gauche de nacelle",
+      "fr": "Composant de partie gauche de nacelle",
       "ja": "左舷船体部材",
       "ko": "좌현 선체 부재"
     }
@@ -106,7 +106,7 @@
       "cn": "右舷船体元件",
       "de": "Steuerbordrumpf-Bauteil",
       "en": "Starboard Hull Component",
-      "fr": "Comp. de partie droite de nacelle",
+      "fr": "Composant de partie droite de nacelle",
       "ja": "右舷船体部材",
       "ko": "우현 선체 부재"
     }
@@ -586,7 +586,7 @@
       "cn": "左翼可动元件",
       "de": "Backbord-Tragflächengelenk-Bauteil",
       "en": "Larboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile gauche",
+      "fr": "Composant d'articulation d'aile gauche",
       "ja": "左翼可動部材",
       "ko": "왼쪽 날개 가동 부재"
     }
@@ -634,7 +634,7 @@
       "cn": "右翼可动元件",
       "de": "Steuerbord-Tragflächengelenk-Bauteil",
       "en": "Starboard Wing Control Component",
-      "fr": "Comp. d'articulation d'aile droite",
+      "fr": "Composant d'articulation d'aile droite",
       "ja": "右翼可動部材",
       "ko": "오른쪽 날개 가동 부재"
     }
@@ -983,7 +983,7 @@
     "level": 15,
     "maxQuality": 807,
     "name": {
-      "cn": "Glamour Prism",
+      "cn": "幻象棱晶",
       "de": "Projektionsprisma",
       "en": "Glamour Prism",
       "fr": "Prisme mirage",
@@ -1338,7 +1338,7 @@
       "cn": "长风羽饰元件",
       "de": "Bugschmuck-Bauteil",
       "en": "Figurehead Component",
-      "fr": "Aile d'Ehcatl",
+      "fr": "Composant de figure de proue",
       "ja": "エカトルの羽根飾り",
       "ko": "에카틀 깃털 장식"
     }
@@ -3120,6 +3120,22 @@
     }
   },
   {
+    "baseLevel": 32,
+    "difficulty": 198,
+    "durability": 80,
+    "id": "2a88568d580",
+    "level": 32,
+    "maxQuality": 848,
+    "name": {
+      "cn": "Wooden Showcase",
+      "de": "Hölzerner Schaukasten",
+      "en": "Wooden Showcase",
+      "fr": "Présentoir en bois",
+      "ja": "ウッドショーケース",
+      "ko": "Wooden Showcase"
+    }
+  },
+  {
     "baseLevel": 33,
     "difficulty": 355,
     "durability": 80,
@@ -3722,7 +3738,7 @@
     "maxQuality": 1025,
     "name": {
       "cn": "红木隔板门",
-      "de": "Mahagoni-Raumteiler",
+      "de": "Mahagoni-Raumteiler mit Tür",
       "en": "Mahogany Partition Door",
       "fr": "Porte de partition en acajou",
       "ja": "マホガニーパーティションドア",
@@ -3843,6 +3859,22 @@
   },
   {
     "baseLevel": 42,
+    "difficulty": 259,
+    "durability": 80,
+    "id": "3faff247cf8",
+    "level": 42,
+    "maxQuality": 1073,
+    "name": {
+      "cn": "Mahogany Bunk Bed",
+      "de": "Mahagoni-Etagenbett",
+      "en": "Mahogany Bunk Bed",
+      "fr": "Lit superposé en acajou",
+      "ja": "マホガニーバンクベッド",
+      "ko": "Mahogany Bunk Bed"
+    }
+  },
+  {
+    "baseLevel": 42,
     "difficulty": 144,
     "durability": 80,
     "id": "7da6a4a32be",
@@ -3887,6 +3919,22 @@
       "fr": "Sphère céleste",
       "ja": "天球儀",
       "ko": "천구의"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 279,
+    "durability": 80,
+    "id": "d65d14d7334",
+    "level": 43,
+    "maxQuality": 1125,
+    "name": {
+      "cn": "Mounted Plate Rack",
+      "de": "Wandtellerregal",
+      "en": "Mounted Plate Rack",
+      "fr": "Étagère à vaisselle",
+      "ja": "ディッシュウォールシェルフ",
+      "ko": "Mounted Plate Rack"
     }
   },
   {
@@ -5362,6 +5410,23 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 745,
+    "durability": 80,
+    "id": "3ac7f77c6ce",
+    "level": 70,
+    "maxQuality": 1460,
+    "name": {
+      "cn": "Hand Basket",
+      "de": "Handkorb",
+      "en": "Hand Basket",
+      "fr": "Panier en osier",
+      "ja": "ハンドバスケット",
+      "ko": "Hand Basket"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 116,
     "durability": 80,
     "id": "559aef2c75b",
@@ -5385,7 +5450,7 @@
     "level": 70,
     "maxQuality": 2921,
     "name": {
-      "cn": "Magitek Repair Materials",
+      "cn": "魔导机械修理材料",
       "de": "Magitek-Reparaturkit",
       "en": "Magitek Repair Materials",
       "fr": "Kit de réparation d'appareil",
@@ -5862,7 +5927,7 @@
     "level": 90,
     "maxQuality": 2490,
     "name": {
-      "cn": "Glade Bachelor's Chest",
+      "cn": "林间小型储物柜",
       "de": "Junggesellen-Kommode",
       "en": "Glade Bachelor's Chest",
       "fr": "Petite commode sombrelinçoise",
@@ -5879,8 +5944,8 @@
     "level": 90,
     "maxQuality": 2490,
     "name": {
-      "cn": "Glade Partition Door",
-      "de": "Wald-Raumteiler",
+      "cn": "林间隔板门",
+      "de": "Wald-Raumteiler mit Tür",
       "en": "Glade Partition Door",
       "fr": "Cloison à porte sombrelinçoise",
       "ja": "シュラウド・パーティションドア",
@@ -6119,8 +6184,8 @@
     "level": 90,
     "maxQuality": 2490,
     "name": {
-      "cn": "Oasis Partition Door",
-      "de": "Oasen-Raumteiler",
+      "cn": "绿洲隔板门",
+      "de": "Oasen-Raumteiler mit Tür",
       "en": "Oasis Partition Door",
       "fr": "Cloison à porte thanalanaise",
       "ja": "ザナラーン・パーティションドア",
@@ -6221,10 +6286,10 @@
     "level": 90,
     "maxQuality": 2490,
     "name": {
-      "cn": "Portable Stepladder",
+      "cn": "梯子",
       "de": "Tragbare Trittleiter",
       "en": "Portable Stepladder",
-      "fr": "Escabeau",
+      "fr": "Escabeau d'intérieur",
       "ja": "脚立",
       "ko": "Portable Stepladder"
     },
@@ -6654,6 +6719,22 @@
       "fr": "Arc long en cèdre",
       "ja": "シーダーロングボウ",
       "ko": "삼나무 장궁"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 610,
+    "durability": 80,
+    "id": "8fcab3ef71e",
+    "level": 120,
+    "maxQuality": 1975,
+    "name": {
+      "cn": "Imitation Shuttered Window",
+      "de": "„Fenster mit Fensterläden“-Imitation",
+      "en": "Imitation Shuttered Window",
+      "fr": "Imitation de fenêtre à volets",
+      "ja": "イミテーション・シャッターウィンドウ",
+      "ko": "Imitation Shuttered Window"
     }
   },
   {
@@ -7304,7 +7385,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Brazier Components",
+      "cn": "篝火台部件",
       "de": "Feuerschalenteil",
       "en": "Brazier Components",
       "fr": "Composant de braséro",
@@ -7352,7 +7433,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Finery Components",
+      "cn": "交易品部件",
       "de": "Tauschware",
       "en": "Finery Components",
       "fr": "Marchandises commerciales",
@@ -7384,7 +7465,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Happi Components",
+      "cn": "法被部件",
       "de": "Happi-Element",
       "en": "Happi Components",
       "fr": "Composant de happi",
@@ -7400,7 +7481,7 @@
     "level": 145,
     "maxQuality": 3540,
     "name": {
-      "cn": "Ritual Implement Components",
+      "cn": "净化用祭具",
       "de": "Reinigungsfetisch",
       "en": "Ritual Implement Components",
       "fr": "Instruments de purification",
@@ -7448,7 +7529,7 @@
     "level": 145,
     "maxQuality": 3540,
     "name": {
-      "cn": "Trinket Components",
+      "cn": "礼品部件",
       "de": "Kleinigkeit",
       "en": "Trinket Components",
       "fr": "Présent modeste",
@@ -7464,7 +7545,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Uchiwa Components",
+      "cn": "团扇部件",
       "de": "Fächerteil",
       "en": "Uchiwa Components",
       "fr": "Élément d'éventail",
@@ -7480,7 +7561,7 @@
     "level": 148,
     "maxQuality": 5504,
     "name": {
-      "cn": "Altar Components",
+      "cn": "供台部件",
       "de": "Altarelement",
       "en": "Altar Components",
       "fr": "Composant d'autel",
@@ -7496,7 +7577,7 @@
     "level": 148,
     "maxQuality": 3669,
     "name": {
-      "cn": "Azim Steppe Souvenir Components",
+      "cn": "游牧民风格的商品",
       "de": "Handelsware",
       "en": "Azim Steppe Souvenir Components",
       "fr": "Produit d'inspiration nomade",
@@ -7528,7 +7609,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Buuz Cooking Paraphernalia",
+      "cn": "蒸包子用品",
       "de": "Buuds-Kochutensilie",
       "en": "Buuz Cooking Paraphernalia",
       "fr": "Ustensile de cuisine pour buuz",
@@ -7544,7 +7625,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Catfish Lure Components",
+      "cn": "鲶鱼钓具",
       "de": "Wels-Köder",
       "en": "Catfish Lure Components",
       "fr": "Accessoire de pêche au poisson-chat",
@@ -7592,7 +7673,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Hingan Ritual Paraphernalia",
+      "cn": "祖先招待用品",
       "de": "Ritualgegenstand zur Ahnenverehrung",
       "en": "Hingan Ritual Paraphernalia",
       "fr": "Objet cérémoniel",
@@ -7640,7 +7721,7 @@
     "level": 148,
     "maxQuality": 7339,
     "name": {
-      "cn": "Mol Tea Ceremony Paraphernalia",
+      "cn": "茶会必需品",
       "de": "Tee-Bedarfsartikel",
       "en": "Mol Tea Ceremony Paraphernalia",
       "fr": "Élément de cérémonie du thé",
@@ -7672,7 +7753,7 @@
     "level": 148,
     "maxQuality": 1834,
     "name": {
-      "cn": "Substitute Offering",
+      "cn": "供品",
       "de": "Opfergabe",
       "en": "Substitute Offering",
       "fr": "Offrande piégée",
@@ -7768,7 +7849,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Ceremonial Bow Components",
+      "cn": "祭弓部件",
       "de": "Ritualbogenelement",
       "en": "Ceremonial Bow Components",
       "fr": "Composant d'arc cérémoniel",
@@ -7784,7 +7865,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Confetti-making Tools",
+      "cn": "纸屑生产工具",
       "de": "Konfettiwerkzeug",
       "en": "Confetti-making Tools",
       "fr": "Outil de papeterie",
@@ -7800,7 +7881,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Culinary Knife Component",
+      "cn": "常用菜刀的部件",
       "de": "Messerteil",
       "en": "Culinary Knife Component",
       "fr": "Composant de couteau de cuisine",
@@ -7816,7 +7897,7 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
-      "cn": "Drum Parts",
+      "cn": "太鼓部件",
       "de": "Trommelwerkstoff",
       "en": "Drum Parts",
       "fr": "Composant de taiko",
@@ -7832,7 +7913,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Dzo Shear Components",
+      "cn": "牛毛剪刀部件",
       "de": "Scherenteil",
       "en": "Dzo Shear Components",
       "fr": "Élément d'entretien de ciseaux de toilettage",
@@ -7848,7 +7929,7 @@
     "level": 150,
     "maxQuality": 2904,
     "name": {
-      "cn": "Effigy Components",
+      "cn": "鲶鱼精人偶部件",
       "de": "Namazuo-Puppenelement",
       "en": "Effigy Components",
       "fr": "Composant de géant d'osier",
@@ -7864,7 +7945,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Elixir Mixing Paraphernalia",
+      "cn": "绝妙的调配用品",
       "de": "Destillierapparat-Ersatzteil",
       "en": "Elixir Mixing Paraphernalia",
       "fr": "Élément nécessaire à une mixtion",
@@ -7880,7 +7961,7 @@
     "level": 150,
     "maxQuality": 5888,
     "name": {
-      "cn": "Generous Gift",
+      "cn": "谢礼",
       "de": "Dankeschön-Geschenk",
       "en": "Generous Gift",
       "fr": "Cadeau de remerciement",
@@ -7896,7 +7977,7 @@
     "level": 150,
     "maxQuality": 6280,
     "name": {
-      "cn": "Gyr Abanian Souvenir",
+      "cn": "基拉巴尼亚的特产",
       "de": "Abanische Spezialität",
       "en": "Gyr Abanian Souvenir",
       "fr": "Souvenir de Gyr Abania",
@@ -7912,7 +7993,7 @@
     "level": 150,
     "maxQuality": 3140,
     "name": {
-      "cn": "Gyr Abanian Souvenir Component",
+      "cn": "基拉巴尼亚的特产部件",
       "de": "Komponente eines abanischen Souvenirs",
       "en": "Gyr Abanian Souvenir Component",
       "fr": "Composant de souvenir de Gyr Abania",
@@ -7976,7 +8057,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Korrigan Doll",
+      "cn": "魅惑的魔物人偶",
       "de": "Bezaubernde Korrigane-Puppe",
       "en": "Korrigan Doll",
       "fr": "Poupée envoûtante korrigan",
@@ -7992,7 +8073,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Land Diving Gear",
+      "cn": "陆地蹦极用品",
       "de": "Zubehörteil für ein Naghol-Sprungseil",
       "en": "Land Diving Gear",
       "fr": "Composant de système d'attache",
@@ -8008,7 +8089,7 @@
     "level": 150,
     "maxQuality": 3925,
     "name": {
-      "cn": "Mikoshi Frippery",
+      "cn": "神轿部件",
       "de": "Mikoshi-Element",
       "en": "Mikoshi Frippery",
       "fr": "Composant de mikoshi",
@@ -8024,7 +8105,7 @@
     "level": 150,
     "maxQuality": 1962,
     "name": {
-      "cn": "Pristine Fruit Figurine",
+      "cn": "投掷用特产",
       "de": "Festliches Wurfgeschoss",
       "en": "Pristine Fruit Figurine",
       "fr": "Répliques de produits régionaux",
@@ -8040,7 +8121,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Stable Supplies",
+      "cn": "养马必需品",
       "de": "Utensil für die Pferdezucht",
       "en": "Stable Supplies",
       "fr": "Accessoire d'élevage équin",
@@ -8056,7 +8137,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Steeping Accessory",
+      "cn": "烤鲶鱼用品",
       "de": "Kochwerkzeug",
       "en": "Steeping Accessory",
       "fr": "Composant de cuisine namazu",
@@ -8072,7 +8153,7 @@
     "level": 160,
     "maxQuality": 4188,
     "name": {
-      "cn": "Bar Counter",
+      "cn": "吧台",
       "de": "Bartheke",
       "en": "Bar Counter",
       "fr": "Comptoir de bar",
@@ -8089,7 +8170,7 @@
     "level": 160,
     "maxQuality": 4188,
     "name": {
-      "cn": "Bar Stool",
+      "cn": "吧椅",
       "de": "Barhocker",
       "en": "Bar Stool",
       "fr": "Tabouret de bar",
@@ -8174,7 +8255,7 @@
     "level": 160,
     "maxQuality": 6701,
     "name": {
-      "cn": "Far Eastern Antique",
+      "cn": "东方风格的收藏品",
       "de": "Fernöstliche Kuriosität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
@@ -8191,7 +8272,7 @@
     "level": 160,
     "maxQuality": 3350,
     "name": {
-      "cn": "Far Eastern Antique Component",
+      "cn": "东方风格的收藏品部件",
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
@@ -8289,11 +8370,28 @@
     "baseLevel": 60,
     "difficulty": 2008,
     "durability": 70,
+    "id": "5ed824697f5",
+    "level": 160,
+    "maxQuality": 4188,
+    "name": {
+      "cn": "Unfinished Interior Wall",
+      "de": "Unbearbeitete Innenwand",
+      "en": "Unfinished Interior Wall",
+      "fr": "Mur d'intérieur brut",
+      "ja": "白木内壁",
+      "ko": "Unfinished Interior Wall"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2008,
+    "durability": 70,
     "id": "7005afa20ac",
     "level": 160,
     "maxQuality": 4188,
     "name": {
-      "cn": "Unfinished Wood Flooring",
+      "cn": "白色木地板",
       "de": "Unbehandelter Holzboden",
       "en": "Unfinished Wood Flooring",
       "fr": "Parquet en bois non vernis",
@@ -8775,7 +8873,7 @@
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Bow of the Fiend",
+      "cn": "生命之弓",
       "de": "Bogen des Baumgottes",
       "en": "Bow of the Fiend",
       "fr": "Arc du Fiélon",
@@ -8798,6 +8896,23 @@
       "fr": "Arc de la Table ronde",
       "ja": "ボウ・オブ・ラウンド",
       "ko": "기사신의 활"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 2971,
+    "durability": 70,
+    "id": "b6be203e2c1",
+    "level": 210,
+    "maxQuality": 5186,
+    "name": {
+      "cn": "Bread Rack",
+      "de": "Brotregal",
+      "en": "Bread Rack",
+      "fr": "Présentoir à pain",
+      "ja": "ブレッドシェルフ",
+      "ko": "Bread Rack"
     },
     "stars": 3
   },
@@ -8979,8 +9094,8 @@
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Cane of the Fiend",
-      "de": "Wort des Baumgottes",
+      "cn": "生命之幻杖",
+      "de": "Stock des Baumgottes",
       "en": "Cane of the Fiend",
       "fr": "Canne du Fiélon",
       "ja": "ケーン・オブ・フィーンド",
@@ -9081,12 +9196,46 @@
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Pike of the Fiend",
+      "cn": "生命之戟",
       "de": "Pike des Baumgottes",
       "en": "Pike of the Fiend",
       "fr": "Pique du Fiélon",
       "ja": "パイク・オブ・フィーンド",
       "ko": "마신의 창"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "0c1ca8ab226",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Bow",
+      "de": "Nidhogg-Bogen",
+      "en": "Seeing Horde Bow",
+      "fr": "Arc de Dravanien",
+      "ja": "ホードボウ",
+      "ko": "Seeing Horde Bow"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "3ae19ede626",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Seeing Horde Spear",
+      "de": "Nidhogg-Speer",
+      "en": "Seeing Horde Spear",
+      "fr": "Lance de Dravanien",
+      "ja": "ホードスピア",
+      "ko": "Seeing Horde Spear"
     },
     "stars": 3
   },
@@ -9251,7 +9400,7 @@
     "level": 250,
     "maxQuality": 6593,
     "name": {
-      "cn": "Hingan Cleaning Supplies",
+      "cn": "东洋清洁工具",
       "de": "Hinganische Putzartikel",
       "en": "Hingan Cleaning Supplies",
       "fr": "Ustensiles de nettoyage hingashiens",
@@ -9554,7 +9703,7 @@
     "level": 255,
     "maxQuality": 6701,
     "name": {
-      "cn": "Gold Saucer Consolation Prize",
+      "cn": "金碟游乐场的纪念品",
       "de": "Trostpreis für den Gold Saucer",
       "en": "Gold Saucer Consolation Prize",
       "fr": "Lot de consolation du Gold Saucer",
@@ -9570,7 +9719,7 @@
     "level": 255,
     "maxQuality": 3350,
     "name": {
-      "cn": "Gold Saucer Consolation Prize Component",
+      "cn": "金碟游乐场的纪念品部件",
       "de": "Komponente eines Gold Saucer-Trostpreises",
       "en": "Gold Saucer Consolation Prize Component",
       "fr": "Composant de lot de consolation du Gold Saucer",
@@ -9634,7 +9783,7 @@
     "level": 260,
     "maxQuality": 4532,
     "name": {
-      "cn": "Hingan Bookshelf",
+      "cn": "东洋书柜",
       "de": "Hingashi-Bücherschrank",
       "en": "Hingan Bookshelf",
       "fr": "Bibliothèque hingashienne",
@@ -9650,7 +9799,7 @@
     "level": 260,
     "maxQuality": 4532,
     "name": {
-      "cn": "Hingan Chochin Lantern",
+      "cn": "手持提灯",
       "de": "Hingashi-Wandlampe",
       "en": "Hingan Chochin Lantern",
       "fr": "Lanterne hingashienne",
@@ -9666,7 +9815,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Cottage Wall (Mokuzo)",
+      "cn": "木制东洋小屋外墙",
       "de": "Hinganische Mokuzo-Hüttenmauer",
       "en": "Hingan Cottage Wall (Mokuzo)",
       "fr": "Mur de maisonnette hingashienne (mokuzo)",
@@ -9682,7 +9831,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Cottage Wall (Nanpu)",
+      "cn": "混合制东洋小屋外墙",
       "de": "Hinganische Nanpu-Hüttenmauer",
       "en": "Hingan Cottage Wall (Nanpu)",
       "fr": "Mur de maisonnette hingashienne (nanpu)",
@@ -9698,7 +9847,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Mokuzo Door",
+      "cn": "东洋雕花门",
       "de": "Hinganische Mokuzo-Tür",
       "en": "Hingan Mokuzo Door",
       "fr": "Porte hingashienne (mokuzo)",
@@ -9714,7 +9863,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Oblong Window",
+      "cn": "东洋方窗",
       "de": "Hinganisches Viereckfenster",
       "en": "Hingan Oblong Window",
       "fr": "Fenêtre oblongue hingashienne",
@@ -9730,7 +9879,7 @@
     "level": 260,
     "maxQuality": 4188,
     "name": {
-      "cn": "Hingan Watchtower (Mokuzo)",
+      "cn": "东洋木制烟囱",
       "de": "Hinganischer Mokuzo-Wachturm",
       "en": "Hingan Watchtower (Mokuzo)",
       "fr": "Tour de guet hingashienne (mokuzo)",
@@ -9762,7 +9911,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "Anti-shark Harpoon",
+      "cn": "防鲨用品",
       "de": "Haifischharpune",
       "en": "Anti-shark Harpoon",
       "fr": "Harpon anti-requin",
@@ -9778,7 +9927,7 @@
     "level": 265,
     "maxQuality": 4876,
     "name": {
-      "cn": "Dodo Message Book Stand",
+      "cn": "渡渡鸟登记台",
       "de": "Dodo-Diarium-Pult",
       "en": "Dodo Message Book Stand",
       "fr": "Pupitre dodo à livre de correspondance",
@@ -9794,7 +9943,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "Gyr Abanian Remedies",
+      "cn": "基拉巴尼亚医药品",
       "de": "Phiolenset abanischer Medizin",
       "en": "Gyr Abanian Remedies",
       "fr": "Remèdes gyrabaniens",
@@ -9810,7 +9959,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "Gyr Abanian Remedy Components",
+      "cn": "基拉巴尼亚医药品部件",
       "de": "Komponente abanischer Medizin",
       "en": "Gyr Abanian Remedy Components",
       "fr": "Composants pour remèdes gyrabaniens",
@@ -9826,7 +9975,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "Harpoon Components",
+      "cn": "防鲨用品部件",
       "de": "Komponente einer Haifischharpune",
       "en": "Harpoon Components",
       "fr": "Composants pour harpon anti-requin",
@@ -9922,7 +10071,7 @@
     "level": 265,
     "maxQuality": 7801,
     "name": {
-      "cn": "M Tribe Sundries",
+      "cn": "梅氏一族的日用品",
       "de": "Jagdbedarf",
       "en": "M Tribe Sundries",
       "fr": "Produits du quotidien des M",
@@ -9938,7 +10087,7 @@
     "level": 265,
     "maxQuality": 3900,
     "name": {
-      "cn": "M Tribe Sundry Component",
+      "cn": "梅氏一族的日用品部件",
       "de": "Komponente eines Gebrauchsgegenstands der M",
       "en": "M Tribe Sundry Component",
       "fr": "Composant de produits du quotidien des M",
@@ -9954,7 +10103,7 @@
     "level": 265,
     "maxQuality": 4876,
     "name": {
-      "cn": "Message Book Stand",
+      "cn": "登记台",
       "de": "Diarium-Pult",
       "en": "Message Book Stand",
       "fr": "Support à livre de correspondance",
@@ -9986,7 +10135,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Coerthan Cold-weather Gear",
+      "cn": "库尔札斯防寒用品",
       "de": "Coerthischer Wintermantel",
       "en": "Coerthan Cold-weather Gear",
       "fr": "Vêtements chauds du Coerthas",
@@ -10002,7 +10151,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Cold-weather Gear Components",
+      "cn": "库尔札斯防寒用品部件",
       "de": "Komponente coerthischer Winterkleidung",
       "en": "Cold-weather Gear Components",
       "fr": "Composants pour vêtements chauds du Coerthas",
@@ -10018,7 +10167,7 @@
     "level": 270,
     "maxQuality": 5219,
     "name": {
-      "cn": "Hingan Bed",
+      "cn": "东洋睡床",
       "de": "Hingashi-Bett",
       "en": "Hingan Bed",
       "fr": "Lit hingashien",
@@ -10034,7 +10183,7 @@
     "level": 270,
     "maxQuality": 5219,
     "name": {
-      "cn": "Hingan Hanging Andon Lamp",
+      "cn": "东洋吊顶行灯",
       "de": "Hinganische Andon-Hängelampe",
       "en": "Hingan Hanging Andon Lamp",
       "fr": "Lampe hingashienne suspendue (andon)",
@@ -10050,7 +10199,7 @@
     "level": 270,
     "maxQuality": 5219,
     "name": {
-      "cn": "Hingan Nanpu Door",
+      "cn": "东洋镶金门",
       "de": "Hinganische Nanpu-Tür",
       "en": "Hingan Nanpu Door",
       "fr": "Porte hingashienne (nanpu)",
@@ -10066,7 +10215,7 @@
     "level": 270,
     "maxQuality": 5219,
     "name": {
-      "cn": "Hingan Placard (Mokuzo)",
+      "cn": "东洋木制门牌",
       "de": "Hinganische Mokuzo-Wappenplakette",
       "en": "Hingan Placard (Mokuzo)",
       "fr": "Enseigne murale (mokuzo)",
@@ -10178,7 +10327,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Resistance Materiel",
+      "cn": "解放军的军需品",
       "de": "Rucksack für die Befreiungsarmee",
       "en": "Resistance Materiel",
       "fr": "Provisions pour l'armée de libération",
@@ -10194,7 +10343,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Resistance Materiel Component",
+      "cn": "解放军的军需品部件",
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
       "en": "Resistance Materiel Component",
       "fr": "Composant de provisions pour l'armée de libération",
@@ -10210,7 +10359,7 @@
     "level": 270,
     "maxQuality": 8351,
     "name": {
-      "cn": "Sui-no-Sato Special",
+      "cn": "翠水乡特产",
       "de": "Kostbarkeit aus Sui no Sato",
       "en": "Sui-no-Sato Special",
       "fr": "Spécialité de Sui-no-Sato",
@@ -10226,7 +10375,7 @@
     "level": 270,
     "maxQuality": 4175,
     "name": {
-      "cn": "Sui-no-Sato Special Components",
+      "cn": "翠水乡特产部件",
       "de": "Komponente einer Kostbarkeit aus Sui no Sato",
       "en": "Sui-no-Sato Special Components",
       "fr": "Composants pour spécialité de Sui-no-Sato",
@@ -10242,7 +10391,7 @@
     "level": 273,
     "maxQuality": 8680,
     "name": {
-      "cn": "Cloud Pearl",
+      "cn": "云海珍宝",
       "de": "Wolkenmeerperle",
       "en": "Cloud Pearl",
       "fr": "Rareté de la Mer de nuages",
@@ -10258,7 +10407,7 @@
     "level": 273,
     "maxQuality": 4340,
     "name": {
-      "cn": "Cloud Pearl Components",
+      "cn": "云海珍宝部件",
       "de": "Komponente einer Wolkenmeerperle",
       "en": "Cloud Pearl Components",
       "fr": "Composants pour rareté de la Mer de nuages",
@@ -10450,7 +10599,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan Cupboard",
+      "cn": "东洋橱柜",
       "de": "Hingashi-Geschirrschrank",
       "en": "Hingan Cupboard",
       "fr": "Buffet hingashien",
@@ -10466,7 +10615,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan Fire Pit",
+      "cn": "东洋地炉",
       "de": "Hingashi-Feuerstelle",
       "en": "Hingan Fire Pit",
       "fr": "Foyer hingashien",
@@ -10482,7 +10631,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan House Wall (Mokuzo)",
+      "cn": "木制东洋公馆外墙",
       "de": "Hinganische Mokuzo-Hausmauer",
       "en": "Hingan House Wall (Mokuzo)",
       "fr": "Mur de pavillon hingashien (mokuzo)",
@@ -10498,7 +10647,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan House Wall (Nanpu)",
+      "cn": "混合制东洋公馆外墙",
       "de": "Hinganische Nanpu-Hausmauer",
       "en": "Hingan House Wall (Nanpu)",
       "fr": "Mur de pavillon hingashien (nanpu)",
@@ -10514,7 +10663,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan Kura-Zukuri Door",
+      "cn": "东洋描花门",
       "de": "Hinganische Kurazukuri-Tür",
       "en": "Hingan Kura-Zukuri Door",
       "fr": "Porte hingashienne (kura-zukuri)",
@@ -10530,7 +10679,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan Lancet Window",
+      "cn": "东洋格窗",
       "de": "Hinganisches Glockenfenster",
       "en": "Hingan Lancet Window",
       "fr": "Fenêtre à lancette hingashienne",
@@ -10546,7 +10695,7 @@
     "level": 279,
     "maxQuality": 5838,
     "name": {
-      "cn": "Hingan Nanpu Fence",
+      "cn": "东洋镶金围墙",
       "de": "Hinganischer Nanpu-Zaun",
       "en": "Hingan Nanpu Fence",
       "fr": "Muret hingashien (nanpu)",
@@ -10722,7 +10871,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Flooring",
+      "cn": "东洋地板",
       "de": "Hingashi-Holzboden",
       "en": "Hingan Flooring",
       "fr": "Parquet hingashien",
@@ -10738,7 +10887,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Hanging Toro Lamp",
+      "cn": "东洋吊顶灯笼",
       "de": "Hinganische Toro-Hängelampe",
       "en": "Hingan Hanging Toro Lamp",
       "fr": "Lampe hingashienne suspendue (toro)",
@@ -10754,7 +10903,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Mansion Wall (Mokuzo)",
+      "cn": "木制东洋别墅外墙",
       "de": "Hinganische Mokuzo-Residenzmauer",
       "en": "Hingan Mansion Wall (Mokuzo)",
       "fr": "Mur de villa hingashienne (mokuzo)",
@@ -10770,7 +10919,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Mansion Wall (Nanpu)",
+      "cn": "混合制东洋别墅外墙",
       "de": "Hinganische Nanpu-Residenzmauer",
       "en": "Hingan Mansion Wall (Nanpu)",
       "fr": "Mur de villa hingashienne (nanpu)",
@@ -10786,7 +10935,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Open-shelf Bookcase",
+      "cn": "东洋开架书柜",
       "de": "Hingashi-Regal",
       "en": "Hingan Open-shelf Bookcase",
       "fr": "Étagère à livres hingashienne",
@@ -10802,7 +10951,7 @@
     "level": 285,
     "maxQuality": 6250,
     "name": {
-      "cn": "Hingan Placard (Nanpu)",
+      "cn": "东洋镶金门牌",
       "de": "Hinganische Nanpu-Wappenplakette",
       "en": "Hingan Placard (Nanpu)",
       "fr": "Enseigne murale (nanpu)",
@@ -10898,7 +11047,7 @@
     "level": 288,
     "maxQuality": 6456,
     "name": {
-      "cn": "Bamboo Planter",
+      "cn": "翠竹盆栽",
       "de": "Zimmer-Bambus",
       "en": "Bamboo Planter",
       "fr": "Pot de bambous",
@@ -10914,7 +11063,7 @@
     "level": 288,
     "maxQuality": 6456,
     "name": {
-      "cn": "Paper Partition",
+      "cn": "纸窗屏风",
       "de": "Schiebetür-Trennwand",
       "en": "Paper Partition",
       "fr": "Cloison de papier hingashienne",
@@ -11074,7 +11223,7 @@
     "level": 300,
     "maxQuality": 7035,
     "name": {
-      "cn": "Fool's Portal",
+      "cn": "仿制圆窗",
       "de": "Rundfenster-Imitation",
       "en": "Fool's Portal",
       "fr": "Fenêtre hingashienne en trompe-l'œil",
@@ -11091,7 +11240,7 @@
     "level": 300,
     "maxQuality": 7035,
     "name": {
-      "cn": "Imitation Square Window",
+      "cn": "仿制方窗",
       "de": "Langfenster-Imitation",
       "en": "Imitation Square Window",
       "fr": "Fenêtre rectangulaire en trompe-l'œil",
@@ -11108,7 +11257,7 @@
     "level": 320,
     "maxQuality": 22171,
     "name": {
-      "cn": "Ala Mhigan Fishing Rod",
+      "cn": "阿拉米格钓竿",
       "de": "Mhigische Angelrute",
       "en": "Ala Mhigan Fishing Rod",
       "fr": "Canne à pêche mhigoise",
@@ -11125,7 +11274,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Chromite Spear",
+      "cn": "铬铁长枪",
       "de": "Chromeisen-Speer",
       "en": "Chromite Spear",
       "fr": "Hast en chromite",
@@ -11142,7 +11291,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Counter Cart",
+      "cn": "推车柜台",
       "de": "Servierwagen",
       "en": "Counter Cart",
       "fr": "Comptoir sur roues",
@@ -11159,7 +11308,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Hingan Hot Spring",
+      "cn": "东洋温泉",
       "de": "Hinganische heiße Quelle",
       "en": "Hingan Hot Spring",
       "fr": "Source chaude hingashienne",
@@ -11176,7 +11325,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Kitchen Hanger",
+      "cn": "厨具架",
       "de": "Küchenhaken-Set",
       "en": "Kitchen Hanger",
       "fr": "Patère de cuisine",
@@ -11193,7 +11342,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Merry Mog Bed",
+      "cn": "莫古力睡床",
       "de": "Mogry-Bett",
       "en": "Merry Mog Bed",
       "fr": "Lit mog moelleux",
@@ -11210,7 +11359,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Mounted Cupboard",
+      "cn": "悬挂橱柜",
       "de": "Hängeschrank",
       "en": "Mounted Cupboard",
       "fr": "Étagère de cuisine murale",
@@ -11223,11 +11372,79 @@
     "baseLevel": 70,
     "difficulty": 6377,
     "durability": 70,
+    "id": "91efa741402",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Odder Otter Bench",
+      "de": "Sitzbank „Obskurer Otter“",
+      "en": "Odder Otter Bench",
+      "fr": "Banc loutre choute",
+      "ja": "ウソウソベンチ",
+      "ko": "Odder Otter Bench"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "e17a9f99fa0",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Odder Otter Chair",
+      "de": "Stuhl „Obskurer Otter“",
+      "en": "Odder Otter Chair",
+      "fr": "Chaise loutre choute",
+      "ja": "ウソウソチェア",
+      "ko": "Odder Otter Chair"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "025a2e35860",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Odder Otter Dining Table",
+      "de": "Esstisch „Obskurer Otter“",
+      "en": "Odder Otter Dining Table",
+      "fr": "Table à manger loutre choute",
+      "ja": "ウソウソダイニングテーブル",
+      "ko": "Odder Otter Dining Table"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "21598f0d485",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Odder Otter Screen",
+      "de": "Wandschirm „Obskurer Otter“",
+      "en": "Odder Otter Screen",
+      "fr": "Paravent loutre choute",
+      "ja": "ウソウソスクリーン",
+      "ko": "Odder Otter Screen"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
     "id": "f76b2bb0116",
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Southern Kitchen",
+      "cn": "南海厨房",
       "de": "Offene Küche",
       "en": "Southern Kitchen",
       "fr": "Cuisine des mers du sud",
@@ -11244,7 +11461,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Bracelet of Aiming",
+      "cn": "榧木精准手镯",
       "de": "Nusseiben-Armreif des Zielens",
       "en": "Torreya Bracelet of Aiming",
       "fr": "Bracelet de pisteur en kaya",
@@ -11261,7 +11478,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Bracelet of Casting",
+      "cn": "榧木咏咒手镯",
       "de": "Nusseiben-Armreif der Magie",
       "en": "Torreya Bracelet of Casting",
       "fr": "Bracelet d'incantateur en kaya",
@@ -11278,7 +11495,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Bracelet of Fending",
+      "cn": "榧木御敌手镯",
       "de": "Nusseiben-Armreif der Verteidigung",
       "en": "Torreya Bracelet of Fending",
       "fr": "Bracelet de protecteur en kaya",
@@ -11295,7 +11512,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Bracelet of Healing",
+      "cn": "榧木治愈手镯",
       "de": "Nusseiben-Armreif der Heilung",
       "en": "Torreya Bracelet of Healing",
       "fr": "Bracelet de soigneur en kaya",
@@ -11312,7 +11529,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Bracelet of Slaying",
+      "cn": "榧木强攻手镯",
       "de": "Nusseiben-Armreif des Schlachtens",
       "en": "Torreya Bracelet of Slaying",
       "fr": "Bracelet d'attaquant en kaya",
@@ -11329,7 +11546,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Cane",
+      "cn": "榧木牧杖",
       "de": "Nusseiben-Stock",
       "en": "Torreya Cane",
       "fr": "Canne en kaya",
@@ -11346,7 +11563,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Choker of Aiming",
+      "cn": "榧木精准项环",
       "de": "Nusseiben-Halsberge des Zielens",
       "en": "Torreya Choker of Aiming",
       "fr": "Ras de cou de pisteur en kaya",
@@ -11363,7 +11580,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Choker of Casting",
+      "cn": "榧木咏咒项环",
       "de": "Nusseiben-Halsberge der Magie",
       "en": "Torreya Choker of Casting",
       "fr": "Ras de cou d'incantateur en kaya",
@@ -11380,7 +11597,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Choker of Fending",
+      "cn": "榧木御敌项环",
       "de": "Nusseiben-Halsberge der Verteidigung",
       "en": "Torreya Choker of Fending",
       "fr": "Ras de cou de protecteur en kaya",
@@ -11397,7 +11614,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Choker of Healing",
+      "cn": "榧木治愈项环",
       "de": "Nusseiben-Halsberge der Heilung",
       "en": "Torreya Choker of Healing",
       "fr": "Ras de cou de soigneur en kaya",
@@ -11414,7 +11631,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Choker of Slaying",
+      "cn": "榧木强攻项环",
       "de": "Nusseiben-Halsberge des Schlachtens",
       "en": "Torreya Choker of Slaying",
       "fr": "Ras de cou d'attaquant en kaya",
@@ -11431,7 +11648,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Longbow",
+      "cn": "榧木长弓",
       "de": "Nusseiben-Langbogen",
       "en": "Torreya Longbow",
       "fr": "Arc long en kaya",
@@ -11448,7 +11665,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Torreya Lumber",
+      "cn": "榧木木材",
       "de": "Nusseiben-Bauholz",
       "en": "Torreya Lumber",
       "fr": "Madrier de kaya",
@@ -11465,7 +11682,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Armillae of Aiming",
+      "cn": "黑柳精准腕环",
       "de": "Schwarzweiden-Armreife des Zielens",
       "en": "Black Willow Armillae of Aiming",
       "fr": "Armilles de pisteur en saule noir",
@@ -11482,7 +11699,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Armillae of Casting",
+      "cn": "黑柳咏咒腕环",
       "de": "Schwarzweiden-Armreife der Magie",
       "en": "Black Willow Armillae of Casting",
       "fr": "Armilles d'incantateur en saule noir",
@@ -11499,7 +11716,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Black Willow Armillae of Crafting",
+      "cn": "黑柳巧匠腕环",
       "de": "Schwarzweiden-Armillae des Handwerks",
       "en": "Black Willow Armillae of Crafting",
       "fr": "Armilles des créations en saule noir",
@@ -11516,7 +11733,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Armillae of Fending",
+      "cn": "黑柳御敌腕环",
       "de": "Schwarzweiden-Armreife der Verteidigung",
       "en": "Black Willow Armillae of Fending",
       "fr": "Armilles de protecteur en saule noir",
@@ -11533,7 +11750,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Armillae of Healing",
+      "cn": "黑柳治愈腕环",
       "de": "Schwarzweiden-Armreife der Heilung",
       "en": "Black Willow Armillae of Healing",
       "fr": "Armilles de soigneur en saule noir",
@@ -11550,7 +11767,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Armillae of Slaying",
+      "cn": "黑柳强攻腕环",
       "de": "Schwarzweiden-Armreife des Schlachtens",
       "en": "Black Willow Armillae of Slaying",
       "fr": "Armilles d'attaquant en saule noir",
@@ -11567,7 +11784,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Cane",
+      "cn": "黑柳牧杖",
       "de": "Schwarzweiden-Stock",
       "en": "Black Willow Cane",
       "fr": "Canne en saule noir",
@@ -11584,7 +11801,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Black Willow Fishing Rod",
+      "cn": "黑柳钓竿",
       "de": "Schwarzweiden-Angelrute",
       "en": "Black Willow Fishing Rod",
       "fr": "Canne à pêche en saule noir",
@@ -11601,7 +11818,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Greatbow",
+      "cn": "黑柳大弓",
       "de": "Schwarzweiden-Langbogen",
       "en": "Black Willow Greatbow",
       "fr": "Grand arc en saule noir",
@@ -11618,7 +11835,7 @@
     "level": 350,
     "maxQuality": 20335,
     "name": {
-      "cn": "Black Willow Lumber",
+      "cn": "黑柳木材",
       "de": "Schwarzweiden-Bauholz",
       "en": "Black Willow Lumber",
       "fr": "Madrier de saule noir",
@@ -11635,7 +11852,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Necklace of Aiming",
+      "cn": "黑柳精准项链",
       "de": "Schwarzweiden-Halsband des Zielens",
       "en": "Black Willow Necklace of Aiming",
       "fr": "Collier de pisteur en saule noir",
@@ -11652,7 +11869,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Necklace of Casting",
+      "cn": "黑柳咏咒项链",
       "de": "Schwarzweiden-Halsband der Magie",
       "en": "Black Willow Necklace of Casting",
       "fr": "Collier d'incantateur en saule noir",
@@ -11669,7 +11886,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Black Willow Necklace of Crafting",
+      "cn": "黑柳巧匠项链",
       "de": "Schwarzweiden-Halsband des Handwerks",
       "en": "Black Willow Necklace of Crafting",
       "fr": "Collier des créations en saule noir",
@@ -11686,7 +11903,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Necklace of Fending",
+      "cn": "黑柳御敌项链",
       "de": "Schwarzweiden-Halsband der Verteidigung",
       "en": "Black Willow Necklace of Fending",
       "fr": "Collier de protecteur en saule noir",
@@ -11703,7 +11920,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Necklace of Healing",
+      "cn": "黑柳治愈项链",
       "de": "Schwarzweiden-Halsband der Heilung",
       "en": "Black Willow Necklace of Healing",
       "fr": "Collier de soigneur en saule noir",
@@ -11720,7 +11937,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Necklace of Slaying",
+      "cn": "黑柳强攻项链",
       "de": "Schwarzweiden-Halsband des Schlachtens",
       "en": "Black Willow Necklace of Slaying",
       "fr": "Collier d'attaquant en saule noir",
@@ -11737,7 +11954,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Black Willow Ring of Crafting",
+      "cn": "黑柳巧匠戒指",
       "de": "Schwarzweiden-Ring des Handwerks",
       "en": "Black Willow Ring of Crafting",
       "fr": "Bague des créations en saule noir",
@@ -11754,7 +11971,7 @@
     "level": 350,
     "maxQuality": 25881,
     "name": {
-      "cn": "Black Willow Spear",
+      "cn": "黑柳长枪",
       "de": "Schwarzweiden-Speer",
       "en": "Black Willow Spear",
       "fr": "Hast en saule noir",
@@ -11771,7 +11988,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Black Willow Spinning Wheel",
+      "cn": "黑柳纺车",
       "de": "Schwarzweiden-Spinnrad",
       "en": "Black Willow Spinning Wheel",
       "fr": "Rouet en saule noir",
@@ -11788,7 +12005,7 @@
     "level": 350,
     "maxQuality": 9243,
     "name": {
-      "cn": "Byakko Sideboard",
+      "cn": "白虎边桌",
       "de": "Byakko-Kommodentisch",
       "en": "Byakko Sideboard",
       "fr": "Table ronde du Tigre blanc",
@@ -11805,7 +12022,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Silvergrace Grinding Wheel",
+      "cn": "清银砂轮机",
       "de": "Silbergunst-Schleifrad",
       "en": "Silvergrace Grinding Wheel",
       "fr": "Meule en graçargent",
@@ -11822,7 +12039,7 @@
     "level": 350,
     "maxQuality": 29579,
     "name": {
-      "cn": "Yamashi Kasa",
+      "cn": "山师笠",
       "de": "Yamashi-Kasa",
       "en": "Yamashi Kasa",
       "fr": "Kasa Yamashi",
@@ -11830,5 +12047,243 @@
       "ko": "Yamashi Kasa"
     },
     "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "aafc36d7cad",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Aiming",
+      "de": "Rakshasa-Armband des Zielens",
+      "en": "Rakshasa Bracelet of Aiming",
+      "fr": "Bracelet rakshasa de pisteur",
+      "ja": "羅刹腕輪【弓士】",
+      "ko": "Rakshasa Bracelet of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "f89b1bd5b85",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Casting",
+      "de": "Rakshasa-Armband der Magie",
+      "en": "Rakshasa Bracelet of Casting",
+      "fr": "Bracelet rakshasa d'incantateur",
+      "ja": "羅刹腕輪【術士】",
+      "ko": "Rakshasa Bracelet of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "83305f7379a",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Fending",
+      "de": "Rakshasa-Armband der Verteidigung",
+      "en": "Rakshasa Bracelet of Fending",
+      "fr": "Bracelet rakshasa de protecteur",
+      "ja": "羅刹腕輪【武士】",
+      "ko": "Rakshasa Bracelet of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "602f21a0fb2",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Healing",
+      "de": "Rakshasa-Armband der Heilung",
+      "en": "Rakshasa Bracelet of Healing",
+      "fr": "Bracelet rakshasa de soigneur",
+      "ja": "羅刹腕輪【学士】",
+      "ko": "Rakshasa Bracelet of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "5bdd0eb57e5",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Bracelet of Slaying",
+      "de": "Rakshasa-Armband des Schlachtens",
+      "en": "Rakshasa Bracelet of Slaying",
+      "fr": "Bracelet rakshasa d'abatteur",
+      "ja": "羅刹腕輪【闘士】",
+      "ko": "Rakshasa Bracelet of Slaying"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "2d2a21263a1",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Cane",
+      "de": "Rakshasa-Stock",
+      "en": "Rakshasa Cane",
+      "fr": "Khakkhara rakshasa",
+      "ja": "羅刹錫杖",
+      "ko": "Rakshasa Cane"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "d66daa2660b",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Greatbow",
+      "de": "Rakshasa-Langbogen",
+      "en": "Rakshasa Greatbow",
+      "fr": "Grand arc rakshasa",
+      "ja": "羅刹大弓",
+      "ko": "Rakshasa Greatbow"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "4f17d62f7a0",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Aiming",
+      "de": "Rakshasa-Halsberge des Zielens",
+      "en": "Rakshasa Necklace of Aiming",
+      "fr": "Collier rakshasa de pisteur",
+      "ja": "羅刹首飾【弓士】",
+      "ko": "Rakshasa Necklace of Aiming"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "cc357c7c985",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Casting",
+      "de": "Rakshasa-Halsberge der Magie",
+      "en": "Rakshasa Necklace of Casting",
+      "fr": "Collier rakshasa d'incantateur",
+      "ja": "羅刹首飾【術士】",
+      "ko": "Rakshasa Necklace of Casting"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "4ee863185ce",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Fending",
+      "de": "Rakshasa-Halsberge der Verteidigung",
+      "en": "Rakshasa Necklace of Fending",
+      "fr": "Collier rakshasa de protecteur",
+      "ja": "羅刹首飾【武士】",
+      "ko": "Rakshasa Necklace of Fending"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "6fd752e0329",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Healing",
+      "de": "Rakshasa-Halsberge der Heilung",
+      "en": "Rakshasa Necklace of Healing",
+      "fr": "Collier rakshasa de soigneur",
+      "ja": "羅刹首飾【学士】",
+      "ko": "Rakshasa Necklace of Healing"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3728,
+    "durability": 70,
+    "id": "dc6df8ebacd",
+    "level": 390,
+    "maxQuality": 29591,
+    "name": {
+      "cn": "Rakshasa Necklace of Slaying",
+      "de": "Rakshasa-Halsberge des Schlachtens",
+      "en": "Rakshasa Necklace of Slaying",
+      "fr": "Collier rakshasa d'abatteur",
+      "ja": "羅刹首飾【闘士】",
+      "ko": "Rakshasa Necklace of Slaying"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "27bb20150c9",
+    "level": 390,
+    "maxQuality": 10568,
+    "name": {
+      "cn": "Suzaku Wall Hanging",
+      "de": "Suzaku-Wanddekoration",
+      "en": "Suzaku Wall Hanging",
+      "fr": "Tableau mural Suzaku",
+      "ja": "朱雀の壁掛彫刻",
+      "ko": "Suzaku Wall Hanging"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2485,
+    "durability": 35,
+    "id": "85403a83523",
+    "level": 390,
+    "maxQuality": 21137,
+    "name": {
+      "cn": "Urunday Lumber",
+      "de": "Urunday-Bauholz",
+      "en": "Urunday Lumber",
+      "fr": "Madrier d'urunday",
+      "ja": "ウルンダイ材",
+      "ko": "Urunday Lumber"
+    },
+    "stars": 4
   }
 ]
