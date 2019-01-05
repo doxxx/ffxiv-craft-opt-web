@@ -211,24 +211,32 @@
             </div>
 
             <div class="span6">
+              <label class="checkbox" tooltip="{{ 'STEP_SOUND_ENABLED_INFO' | translate}}" tooltip-placement="left">
+                <input type="checkbox" name="setupSoundEnabled" ng-model="macroOptions.stepSoundEnabled"/>
+                {{ 'STEP_SOUND_ENABLED' | translate }}
+              </label>
+              <br/>
+
               <div class="control-group">
-                <label for="macros.stepSoundEffect" class="control-label">{{ 'STEP_SOUND_EFFECT' | translate }}</label>
+                <label for="macros.stepSoundEffect" class="control-label" ng-class="{ disabled: !macroOptions.stepSoundEnabled }">{{ 'STEP_SOUND_EFFECT' | translate }}</label>
 
                 <div class="controls">
                   <input id="macros.stepSoundEffect" class="input-mini" type="number"
                          ng-model="macroOptions.stepSoundEffect"
                          min="1" max="16" required
+                         ng-disabled="!macroOptions.stepSoundEnabled"
                          tooltip="{{ 'STEP_SOUND_INFO' | translate }}" tooltip-placement="left"/>
                 </div>
               </div>
 
               <div class="control-group">
-                <label for="macros.finishSoundEffect" class="control-label">{{ 'FINISH_SOUND_EFFECT' | translate }}</label>
+                <label for="macros.finishSoundEffect" class="control-label" ng-class="{ disabled: !macroOptions.stepSoundEnabled }">{{ 'FINISH_SOUND_EFFECT' | translate }}</label>
 
                 <div class="controls">
                   <input id="macros.finishSoundEffect" class="input-mini" type="number"
                          ng-model="macroOptions.finishSoundEffect"
                          min="1" max="16" required
+                         ng-disabled="!macroOptions.stepSoundEnabled"
                          tooltip="{{ 'FINISH_SOUND_INFO' | translate }}" tooltip-placement="left"/>
                 </div>
               </div>
