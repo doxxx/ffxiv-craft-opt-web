@@ -212,6 +212,8 @@
   "BUFF_WAIT_TIME_INFO": "Temps à attendre entre chaque action de type buff.",
   "STEP_SOUND_EFFECT": "Effet sonore par étape",
   "STEP_SOUND_INFO": "Effet sonore joué à la fin de chaque macro, sauf la dernière.",
+  "STEP_SOUND_ENABLED" : "Activer les effets sonores",
+  "STEP_SOUND_ENABLED_INFO" : "Activer ou désactiver les effets sonores dans les macros",
   "FINISH_SOUND_EFFECT": "Effet sonore final",
   "FINISH_SOUND_INFO": "Effet sonore joué à la fin de la dernière macro.",
   "CROSS_CLASS_INFO": "Indique si il faut générer une macro séparée qui active les différentes actions cross-class nécessaires.",
