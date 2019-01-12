@@ -1841,6 +1841,22 @@
   },
   {
     "baseLevel": 27,
+    "difficulty": 163,
+    "durability": 70,
+    "id": "32f2eeeeddf",
+    "level": 27,
+    "maxQuality": 684,
+    "name": {
+      "cn": "Bowl of Oden",
+      "de": "Schüssel Oden",
+      "en": "Bowl of Oden",
+      "fr": "Bol d'assortiment d'oden",
+      "ja": "おでん盛り合わせ",
+      "ko": "Bowl of Oden"
+    }
+  },
+  {
+    "baseLevel": 27,
     "difficulty": 91,
     "durability": 70,
     "id": "e5f3a5e4ad9",
@@ -6648,6 +6664,70 @@
   {
     "baseLevel": 66,
     "difficulty": 2411,
+    "durability": 60,
+    "id": "b82595f2379",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Fermented Juice",
+      "de": "Spirituosenzubehörteil",
+      "en": "Fermented Juice",
+      "fr": "Composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品",
+      "ko": "Fermented Juice"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "b91ad49fef8",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Ishgardian Culinary Essentials",
+      "de": "Ishgarder Kochutensil",
+      "en": "Ishgardian Culinary Essentials",
+      "fr": "Composant pour recette ishgardaise",
+      "ja": "イシュガルド料理必需品",
+      "ko": "Ishgardian Culinary Essentials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "b73e1525742",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Ishgardian Culinary Materials",
+      "de": "Ishgarder Kochutensil-Komponente",
+      "en": "Ishgardian Culinary Materials",
+      "fr": "Matériaux raffinés pour composant de recette ishgardaise",
+      "ja": "イシュガルド料理必需品部材",
+      "ko": "Ishgardian Culinary Materials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "5767ed6d81b",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Juice Fermenting Supplies",
+      "de": "Komponente eines Spirituosenzubehörteils",
+      "en": "Juice Fermenting Supplies",
+      "fr": "Matériaux raffinés pour composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品部材",
+      "ko": "Juice Fermenting Supplies"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
     "durability": 80,
     "id": "5eb58eddae3",
     "level": 279,
@@ -6727,6 +6807,22 @@
   },
   {
     "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "377413280b7",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Decorative Tavern Furnishing Materials",
+      "de": "Komponente eines Klippenhänger-Einrichtungsgegenstands",
+      "en": "Decorative Tavern Furnishing Materials",
+      "fr": "Matériaux raffinés pour pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品部材",
+      "ko": "Decorative Tavern Furnishing Materials"
+    }
+  },
+  {
+    "baseLevel": 67,
     "difficulty": 2559,
     "durability": 80,
     "id": "f71d83754cc",
@@ -6760,6 +6856,22 @@
   {
     "baseLevel": 67,
     "difficulty": 2559,
+    "durability": 60,
+    "id": "6cc452f77f4",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Hard Place Decorative Furnishings",
+      "de": "Klippenhänger-Einrichtungsgegenstand",
+      "en": "Hard Place Decorative Furnishings",
+      "fr": "Pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品",
+      "ko": "Hard Place Decorative Furnishings"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
     "durability": 80,
     "id": "ee69513bfd5",
     "level": 282,
@@ -6771,6 +6883,70 @@
       "fr": "Flan aux kakis",
       "ja": "パーシモンプディング",
       "ko": "홍시 푸딩"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "c9824d0c561",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Signature Buuz Cookware",
+      "de": "Buuds-Kochutensil",
+      "en": "Signature Buuz Cookware",
+      "fr": "Composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品",
+      "ko": "Signature Buuz Cookware"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "2b2002a75cb",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Signature Buuz Cookware Materials",
+      "de": "Komponente eines Buuds-Kochutensils",
+      "en": "Signature Buuz Cookware Materials",
+      "fr": "Matériaux raffinés pour composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品部材",
+      "ko": "Signature Buuz Cookware Materials"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 60,
+    "id": "c1a3f033a6d",
+    "level": 285,
+    "maxQuality": 10000,
+    "name": {
+      "cn": "Arkhi Brewing Set",
+      "de": "Arkhi-Destillierutensil",
+      "en": "Arkhi Brewing Set",
+      "fr": "Composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品",
+      "ko": "Arkhi Brewing Set"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 60,
+    "id": "a3a21503397",
+    "level": 285,
+    "maxQuality": 5000,
+    "name": {
+      "cn": "Arkhi Brewing Vat Materials",
+      "de": "Komponente eines Arkhi-Destillierutensils",
+      "en": "Arkhi Brewing Vat Materials",
+      "fr": "Matériaux raffinés pour composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品部材",
+      "ko": "Arkhi Brewing Vat Materials"
     }
   },
   {
