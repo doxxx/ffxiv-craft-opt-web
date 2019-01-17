@@ -657,6 +657,22 @@
   },
   {
     "baseLevel": 12,
+    "difficulty": 95,
+    "durability": 60,
+    "id": "3b35b0db529",
+    "level": 12,
+    "maxQuality": 351,
+    "name": {
+      "cn": "Honey Pot",
+      "de": "Honigtopf",
+      "en": "Honey Pot",
+      "fr": "Pot de miel décoratif",
+      "ja": "ハニーポット",
+      "ko": "Honey Pot"
+    }
+  },
+  {
+    "baseLevel": 12,
     "difficulty": 53,
     "durability": 60,
     "id": "7ed5fb7d7bb",
@@ -1853,6 +1869,22 @@
       "fr": "Teinture bleu marine",
       "ja": "カララント:アビサルブルー",
       "ko": "염료: 청보라색"
+    }
+  },
+  {
+    "baseLevel": 30,
+    "difficulty": 326,
+    "durability": 70,
+    "id": "e315b19c197",
+    "level": 30,
+    "maxQuality": 792,
+    "name": {
+      "cn": "Botanist's Garden",
+      "de": "Botaniker-Garten",
+      "en": "Botanist's Garden",
+      "fr": "Potager de botaniste",
+      "ja": "園芸師の菜園",
+      "ko": "Botanist's Garden"
     }
   },
   {
@@ -8530,6 +8562,22 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1720,
+    "durability": 70,
+    "id": "9f860cb960a",
+    "level": 150,
+    "maxQuality": 3925,
+    "name": {
+      "cn": "Botanist's Dried Herbs",
+      "de": "Bündel getrocknete Gartenkräuter",
+      "en": "Botanist's Dried Herbs",
+      "fr": "Guirlande de bouquets d'herbes séchées",
+      "ja": "園芸師の乾燥ハーブ",
+      "ko": "Botanist's Dried Herbs"
+    }
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1376,
     "durability": 70,
     "id": "35e1ebc80df",
@@ -9998,6 +10046,23 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
+    "id": "af3a928554c",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Song of the Goddess",
+      "de": "Lied der Göttin",
+      "en": "Song of the Goddess",
+      "fr": "Chant de la Déesse",
+      "ja": "ソング・オブ・ゴッデス",
+      "ko": "Song of the Goddess"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
     "id": "9aceac83b48",
     "level": 210,
     "maxQuality": 10373,
@@ -10008,6 +10073,23 @@
       "fr": "Parole du Fiélon",
       "ja": "ワード・オブ・フィーンド",
       "ko": "마신의 마법서"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "aa2ea29ec86",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Word of the Goddess",
+      "de": "Wort der Göttin",
+      "en": "Word of the Goddess",
+      "fr": "Parole de la Déesse",
+      "ja": "ワード・オブ・ゴッデス",
+      "ko": "Word of the Goddess"
     },
     "stars": 3
   },
@@ -10649,6 +10731,22 @@
   },
   {
     "baseLevel": 64,
+    "difficulty": 3808,
+    "durability": 80,
+    "id": "d76b752765c",
+    "level": 273,
+    "maxQuality": 5425,
+    "name": {
+      "cn": "Bag of Booty",
+      "de": "Beutel mit alten Münzen",
+      "en": "Bag of Booty",
+      "fr": "Sac de pièces",
+      "ja": "金貨袋",
+      "ko": "Bag of Booty"
+    }
+  },
+  {
+    "baseLevel": 64,
     "difficulty": 1058,
     "durability": 40,
     "id": "64807102a09",
@@ -10827,6 +10925,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "5e1cf3f66f5",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Black Lily of the Valley Corsage",
+      "de": "Schwarze Maiglöckchenspange",
+      "en": "Black Lily of the Valley Corsage",
+      "fr": "Barrette muguet noir",
+      "ja": "リリーオブバレーオーナメント:ブラック",
+      "ko": "Black Lily of the Valley Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "6c9fb9a3cfd",
     "level": 279,
     "maxQuality": 11676,
@@ -10875,6 +10989,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "79a1394f36f",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Blue Lily of the Valley Corsage",
+      "de": "Blaue Maiglöckchenspange",
+      "en": "Blue Lily of the Valley Corsage",
+      "fr": "Barrette muguet bleu",
+      "ja": "リリーオブバレーオーナメント:ブルー",
+      "ko": "Blue Lily of the Valley Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "c5789d92303",
     "level": 279,
     "maxQuality": 11676,
@@ -10885,6 +11015,22 @@
       "fr": "Ruban tulipes bleues",
       "ja": "チューリップオーナメント:ブルー",
       "ko": "Blue Tulip Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "ff428fee818",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Fermented Juice",
+      "de": "Spirituosenzubehörteil",
+      "en": "Fermented Juice",
+      "fr": "Composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品",
+      "ko": "Fermented Juice"
     }
   },
   {
@@ -10923,6 +11069,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "ac356b39d2b",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Green Lily of the Valley Corsage",
+      "de": "Grüne Maiglöckchenspange",
+      "en": "Green Lily of the Valley Corsage",
+      "fr": "Barrette muguet vert",
+      "ja": "リリーオブバレーオーナメント:グリーン",
+      "ko": "Green Lily of the Valley Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "73204484655",
     "level": 279,
     "maxQuality": 11676,
@@ -10949,6 +11111,54 @@
       "fr": "Formule de croissance thêta",
       "ja": "グロースフォーミュラ・テータ",
       "ko": "성장 촉진제 세타"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "cac406a55b5",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Ishgardian Culinary Essentials",
+      "de": "Ishgarder Kochutensil",
+      "en": "Ishgardian Culinary Essentials",
+      "fr": "Composant pour recette ishgardaise",
+      "ja": "イシュガルド料理必需品",
+      "ko": "Ishgardian Culinary Essentials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "f838cfe89e8",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Ishgardian Culinary Materials",
+      "de": "Ishgarder Kochutensil-Komponente",
+      "en": "Ishgardian Culinary Materials",
+      "fr": "Matériaux raffinés pour composant de recette ishgardaise",
+      "ja": "イシュガルド料理必需品部材",
+      "ko": "Ishgardian Culinary Materials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "7185833767f",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Juice Fermenting Supplies",
+      "de": "Komponente eines Spirituosenzubehörteils",
+      "en": "Juice Fermenting Supplies",
+      "fr": "Matériaux raffinés pour composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品部材",
+      "ko": "Juice Fermenting Supplies"
     }
   },
   {
@@ -10981,6 +11191,22 @@
       "fr": "Barrette dahlia orange",
       "ja": "ダリアオーナメント:オレンジ",
       "ko": "Orange Dahlia Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "id": "136f64a83f8",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Orange Lily of the Valley Corsage",
+      "de": "Orangenfarbene Maiglöckchenspange",
+      "en": "Orange Lily of the Valley Corsage",
+      "fr": "Barrette muguet orange",
+      "ja": "リリーオブバレーオーナメント:オレンジ",
+      "ko": "Orange Lily of the Valley Corsage"
     }
   },
   {
@@ -11051,6 +11277,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "c201e795f8b",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Purple Lily of the Valley Corsage",
+      "de": "Lilafarbene Maiglöckchenspange",
+      "en": "Purple Lily of the Valley Corsage",
+      "fr": "Barrette muguet violet",
+      "ja": "リリーオブバレーオーナメント:パープル",
+      "ko": "Purple Lily of the Valley Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "68c5dab3af0",
     "level": 279,
     "maxQuality": 11676,
@@ -11093,6 +11335,22 @@
       "fr": "Barrette dahlias multicolores",
       "ja": "ダリアオーナメント:ブレンド",
       "ko": "Rainbow Dahlia Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "id": "0f7f46a7498",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Rainbow Lily of the Valley Corsage",
+      "de": "Regenbogenfarbene Maiglöckchenspange",
+      "en": "Rainbow Lily of the Valley Corsage",
+      "fr": "Barrette muguet multicolore",
+      "ja": "リリーオブバレーオーナメント:ブレンド",
+      "ko": "Rainbow Lily of the Valley Corsage"
     }
   },
   {
@@ -11147,6 +11405,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "c082ca207f3",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Red Lily of the Valley Corsage",
+      "de": "Rote Maiglöckchenspange",
+      "en": "Red Lily of the Valley Corsage",
+      "fr": "Barrette muguet rouge",
+      "ja": "リリーオブバレーオーナメント:レッド",
+      "ko": "Red Lily of the Valley Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "becbf470e8e",
     "level": 279,
     "maxQuality": 11676,
@@ -11189,6 +11463,22 @@
       "fr": "Barrette dahlia blanc",
       "ja": "ダリアオーナメント:ホワイト",
       "ko": "White Dahlia Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "id": "8f86dec52a9",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "White Lily of the Valley Corsage",
+      "de": "Weiße Maiglöckchenspange",
+      "en": "White Lily of the Valley Corsage",
+      "fr": "Barrette muguet blanc",
+      "ja": "リリーオブバレーオーナメント:ホワイト",
+      "ko": "White Lily of the Valley Corsage"
     }
   },
   {
@@ -11243,6 +11533,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "deac13fee14",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Yellow Lily of the Valley Corsage",
+      "de": "Gelbe Maiglöckchenspange",
+      "en": "Yellow Lily of the Valley Corsage",
+      "fr": "Barrette muguet jaune",
+      "ja": "リリーオブバレーオーナメント:イエロー",
+      "ko": "Yellow Lily of the Valley Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "a109ff5b4a4",
     "level": 279,
     "maxQuality": 11676,
@@ -11269,6 +11575,38 @@
       "fr": "Infusion de capacité",
       "ja": "魔匠の薬茶",
       "ko": "명인의 약차"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "ec9b582fe91",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Decorative Tavern Furnishing Materials",
+      "de": "Komponente eines Klippenhänger-Einrichtungsgegenstands",
+      "en": "Decorative Tavern Furnishing Materials",
+      "fr": "Matériaux raffinés pour pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品部材",
+      "ko": "Decorative Tavern Furnishing Materials"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "4c838c317f0",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Hard Place Decorative Furnishings",
+      "de": "Klippenhänger-Einrichtungsgegenstand",
+      "en": "Hard Place Decorative Furnishings",
+      "fr": "Pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品",
+      "ko": "Hard Place Decorative Furnishings"
     }
   },
   {
@@ -11301,6 +11639,70 @@
       "fr": "Grimoire en cuir de marid",
       "ja": "マーリドグリモア",
       "ko": "마리드 마법서"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "0b10a461661",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Signature Buuz Cookware",
+      "de": "Buuds-Kochutensil",
+      "en": "Signature Buuz Cookware",
+      "fr": "Composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品",
+      "ko": "Signature Buuz Cookware"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "1e170513383",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Signature Buuz Cookware Materials",
+      "de": "Komponente eines Buuds-Kochutensils",
+      "en": "Signature Buuz Cookware Materials",
+      "fr": "Matériaux raffinés pour composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品部材",
+      "ko": "Signature Buuz Cookware Materials"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 60,
+    "id": "c364e4d8681",
+    "level": 285,
+    "maxQuality": 10000,
+    "name": {
+      "cn": "Arkhi Brewing Set",
+      "de": "Arkhi-Destillierutensil",
+      "en": "Arkhi Brewing Set",
+      "fr": "Composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品",
+      "ko": "Arkhi Brewing Set"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 60,
+    "id": "7f80157b76d",
+    "level": 285,
+    "maxQuality": 5000,
+    "name": {
+      "cn": "Arkhi Brewing Vat Materials",
+      "de": "Komponente eines Arkhi-Destillierutensils",
+      "en": "Arkhi Brewing Vat Materials",
+      "fr": "Matériaux raffinés pour composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品部材",
+      "ko": "Arkhi Brewing Vat Materials"
     }
   },
   {
@@ -11573,7 +11975,7 @@
     "name": {
       "cn": "阿拉米格纤维",
       "de": "Mhigisches Mischgewebe",
-      "en": "Ala Mhigan Fiber",
+      "en": "Ala Mhigan Burdet",
       "fr": "Fibre mhigoise",
       "ja": "アラミガンファイバー",
       "ko": "알라미고 직물"
@@ -12126,10 +12528,27 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "1878c58798b",
+    "level": 380,
+    "maxQuality": 10568,
+    "name": {
+      "cn": "From the Dragon's Wake Orchestrion Roll",
+      "de": "Notenrolle von „From the Dragon's Wake“",
+      "en": "From the Dragon's Wake Orchestrion Roll",
+      "fr": "Rouleau \"From the Dragon's Wake\"",
+      "ja": "オーケストリオン譜:雲蒸龍変",
+      "ko": "From the Dragon's Wake Orchestrion Roll"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3728,
     "durability": 70,
     "id": "72a906006d8",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Grade 3 Infusion of Dexterity",
@@ -12146,7 +12565,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "82a849dcfca",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Grade 3 Infusion of Intelligence",
@@ -12163,7 +12582,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "4c3eb0fa3a3",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Grade 3 Infusion of Mind",
@@ -12180,7 +12599,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "e0dc7c14296",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Grade 3 Infusion of Strength",
@@ -12197,7 +12616,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "aca2c2f778f",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Grade 3 Infusion of Vitality",
@@ -12214,7 +12633,7 @@
     "difficulty": 2485,
     "durability": 35,
     "id": "91157585aba",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Grade 4 Reisui of Dexterity",
@@ -12231,7 +12650,7 @@
     "difficulty": 2485,
     "durability": 35,
     "id": "230c8a3163a",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Grade 4 Reisui of Intelligence",
@@ -12248,7 +12667,7 @@
     "difficulty": 2485,
     "durability": 35,
     "id": "1c49aa9d066",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Grade 4 Reisui of Mind",
@@ -12265,7 +12684,7 @@
     "difficulty": 2485,
     "durability": 35,
     "id": "d3615fb40b6",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Grade 4 Reisui of Strength",
@@ -12282,7 +12701,7 @@
     "difficulty": 2485,
     "durability": 35,
     "id": "d1d8945c2f8",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Grade 4 Reisui of Vitality",
@@ -12299,7 +12718,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "32e473ed870",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Codex",
@@ -12316,7 +12735,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "8851edc5813",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Grimoire",
@@ -12333,7 +12752,7 @@
     "difficulty": 7457,
     "durability": 70,
     "id": "75f52a39b3b",
-    "level": 390,
+    "level": 380,
     "maxQuality": 10568,
     "name": {
       "cn": "Sunrise Orchestrion Roll",

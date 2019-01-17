@@ -15325,6 +15325,70 @@
   },
   {
     "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "c137e072150",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Fermented Juice",
+      "de": "Spirituosenzubehörteil",
+      "en": "Fermented Juice",
+      "fr": "Composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品",
+      "ko": "Fermented Juice"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "5e6ef2e9431",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Ishgardian Culinary Essentials",
+      "de": "Ishgarder Kochutensil",
+      "en": "Ishgardian Culinary Essentials",
+      "fr": "Composant pour recette ishgardaise",
+      "ja": "イシュガルド料理必需品",
+      "ko": "Ishgardian Culinary Essentials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "e78b4383d42",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Ishgardian Culinary Materials",
+      "de": "Ishgarder Kochutensil-Komponente",
+      "en": "Ishgardian Culinary Materials",
+      "fr": "Matériaux raffinés pour composant de recette ishgardaise",
+      "ja": "イシュガルド料理必需品部材",
+      "ko": "Ishgardian Culinary Materials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "17822cd1430",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Juice Fermenting Supplies",
+      "de": "Komponente eines Spirituosenzubehörteils",
+      "en": "Juice Fermenting Supplies",
+      "fr": "Matériaux raffinés pour composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品部材",
+      "ko": "Juice Fermenting Supplies"
+    }
+  },
+  {
+    "baseLevel": 66,
     "difficulty": 1205,
     "durability": 40,
     "id": "41226561044",
@@ -15561,6 +15625,38 @@
       "fr": "Ceinture des ressources en cuir de tigre",
       "ja": "タイガーギャザラーベルト",
       "ko": "채집가용 호랑이 허리띠"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "bee07de8847",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Decorative Tavern Furnishing Materials",
+      "de": "Komponente eines Klippenhänger-Einrichtungsgegenstands",
+      "en": "Decorative Tavern Furnishing Materials",
+      "fr": "Matériaux raffinés pour pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品部材",
+      "ko": "Decorative Tavern Furnishing Materials"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "8fd15f91c8b",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Hard Place Decorative Furnishings",
+      "de": "Klippenhänger-Einrichtungsgegenstand",
+      "en": "Hard Place Decorative Furnishings",
+      "fr": "Pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品",
+      "ko": "Hard Place Decorative Furnishings"
     }
   },
   {
@@ -15817,6 +15913,70 @@
       "fr": "Poignet en cuir de marid",
       "ja": "マーリドリストバンド",
       "ko": "마리드 손목띠"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "3cbbe7aac2d",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Signature Buuz Cookware",
+      "de": "Buuds-Kochutensil",
+      "en": "Signature Buuz Cookware",
+      "fr": "Composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品",
+      "ko": "Signature Buuz Cookware"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "51618b7c1c5",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Signature Buuz Cookware Materials",
+      "de": "Komponente eines Buuds-Kochutensils",
+      "en": "Signature Buuz Cookware Materials",
+      "fr": "Matériaux raffinés pour composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品部材",
+      "ko": "Signature Buuz Cookware Materials"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 60,
+    "id": "decc73a5400",
+    "level": 285,
+    "maxQuality": 10000,
+    "name": {
+      "cn": "Arkhi Brewing Set",
+      "de": "Arkhi-Destillierutensil",
+      "en": "Arkhi Brewing Set",
+      "fr": "Composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品",
+      "ko": "Arkhi Brewing Set"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 60,
+    "id": "b8412dd835c",
+    "level": 285,
+    "maxQuality": 5000,
+    "name": {
+      "cn": "Arkhi Brewing Vat Materials",
+      "de": "Komponente eines Arkhi-Destillierutensils",
+      "en": "Arkhi Brewing Vat Materials",
+      "fr": "Matériaux raffinés pour composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品部材",
+      "ko": "Arkhi Brewing Vat Materials"
     }
   },
   {
@@ -16958,6 +17118,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "id": "97e64f7f586",
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Rain Boots",
+      "de": "Regenstiefel",
+      "en": "Rain Boots",
+      "fr": "Bottes de pluie",
+      "ja": "レインブーツ",
+      "ko": "Rain Boots"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3943,
     "durability": 70,
     "id": "148444654a6",
@@ -17284,7 +17461,7 @@
     "difficulty": 2485,
     "durability": 35,
     "id": "151312553a2",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Procoptodon Leather",
@@ -17301,7 +17478,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "75a45894c46",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Obi of Aiming",
@@ -17318,7 +17495,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "ece8a693650",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Obi of Casting",
@@ -17335,7 +17512,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "959206fce24",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Obi of Fending",
@@ -17352,7 +17529,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "7a80180a0f0",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Obi of Healing",
@@ -17369,7 +17546,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "8150fc0b914",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Obi of Maiming",
@@ -17386,7 +17563,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "552e5da9655",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Obi of Scouting",
@@ -17403,7 +17580,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "13fbe8c810b",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Obi of Striking",
@@ -17420,7 +17597,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "8262f461b54",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Tekko of Aiming",
@@ -17437,7 +17614,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "73cdda3bc9c",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Tekko of Casting",
@@ -17454,7 +17631,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "255de92b279",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Tekko of Healing",
@@ -17471,7 +17648,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "4390b7021ef",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Tekko of Scouting",
@@ -17488,7 +17665,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "b6431fb2d6e",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Tekko of Striking",
@@ -17505,7 +17682,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "adcc314440a",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Zori of Aiming",
@@ -17522,7 +17699,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "d0ab59fb541",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Zori of Casting",
@@ -17539,7 +17716,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "0471b92c4bb",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Zori of Healing",
@@ -17556,7 +17733,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "c34d013fd64",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Zori of Scouting",
@@ -17573,7 +17750,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "96aabb55047",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Zori of Striking",

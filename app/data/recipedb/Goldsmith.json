@@ -3121,6 +3121,22 @@
   },
   {
     "baseLevel": 30,
+    "difficulty": 183,
+    "durability": 70,
+    "id": "9ca8daea61b",
+    "level": 30,
+    "maxQuality": 792,
+    "name": {
+      "cn": "White Rectangular Partition",
+      "de": "Weißer Raumtrenner",
+      "en": "White Rectangular Partition",
+      "fr": "Partition extra-blanche",
+      "ja": "ピュアホワイトパーティション",
+      "ko": "White Rectangular Partition"
+    }
+  },
+  {
+    "baseLevel": 30,
     "difficulty": 51,
     "durability": 70,
     "id": "ab99c6ecc90",
@@ -10000,7 +10016,7 @@
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
-    "id": "ed3d05ee8f5",
+    "id": "643fd43d54a",
     "level": 110,
     "maxQuality": 5783,
     "name": {
@@ -10017,7 +10033,7 @@
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
-    "id": "643fd43d54a",
+    "id": "ed3d05ee8f5",
     "level": 110,
     "maxQuality": 5783,
     "name": {
@@ -11468,6 +11484,22 @@
   },
   {
     "baseLevel": 55,
+    "difficulty": 1254,
+    "durability": 70,
+    "id": "24165e7190e",
+    "level": 136,
+    "maxQuality": 3150,
+    "name": {
+      "cn": "Marimo Lamp",
+      "de": "Algenkugellampe",
+      "en": "Marimo Lamp",
+      "fr": "Lampe marimo lanterne",
+      "ja": "ランプマリモランタン",
+      "ko": "Marimo Lamp"
+    }
+  },
+  {
+    "baseLevel": 55,
     "difficulty": 348,
     "durability": 35,
     "id": "ba3362f908c",
@@ -11800,6 +11832,22 @@
       "fr": "Cornaline",
       "ja": "カーネリアン",
       "ko": "홍옥수"
+    }
+  },
+  {
+    "baseLevel": 57,
+    "difficulty": 1454,
+    "durability": 70,
+    "id": "b62beb3d962",
+    "level": 142,
+    "maxQuality": 3410,
+    "name": {
+      "cn": "Fat Cat Bank",
+      "de": "Fette Goldkatze",
+      "en": "Fat Cat Bank",
+      "fr": "Tirelire gros minou",
+      "ja": "ファットキャット・コインバンク",
+      "ko": "Fat Cat Bank"
     }
   },
   {
@@ -14237,6 +14285,23 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "6a15f845529",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Cane of the Goddess",
+      "de": "Stock der Göttin",
+      "en": "Cane of the Goddess",
+      "fr": "Canne de la Déesse",
+      "ja": "ケーン・オブ・ゴッデス",
+      "ko": "Cane of the Goddess"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 2971,
     "durability": 70,
     "id": "fcdca26dab5",
@@ -14477,6 +14542,23 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
+    "id": "330566e2542",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Pole of the Goddess",
+      "de": "Stab der Göttin",
+      "en": "Pole of the Goddess",
+      "fr": "Bâton de la Déesse",
+      "ja": "ポール・オブ・ゴッデス",
+      "ko": "Pole of the Goddess"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
     "id": "7341acd3b6b",
     "level": 210,
     "maxQuality": 10373,
@@ -14487,6 +14569,23 @@
       "fr": "Rapière du Fiélon",
       "ja": "レイピア・オブ・フィーンド",
       "ko": "마신의 레이피어"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "617989ac5dc",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Rapier of the Goddess",
+      "de": "Rapier der Göttin",
+      "en": "Rapier of the Goddess",
+      "fr": "Rapière de la Déesse",
+      "ja": "レイピア・オブ・ゴッデス",
+      "ko": "Rapier of the Goddess"
     },
     "stars": 3
   },
@@ -14776,6 +14875,23 @@
       "fr": "Étoile du Fiélon",
       "ja": "スター・オブ・フィーンド",
       "ko": "마신의 천구의"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "76c2def88d2",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Star of the Goddess",
+      "de": "Stern der Göttin",
+      "en": "Star of the Goddess",
+      "fr": "Étoile de la Déesse",
+      "ja": "スター・オブ・ゴッデス",
+      "ko": "Star of the Goddess"
     },
     "stars": 3
   },
@@ -17211,6 +17327,22 @@
   {
     "baseLevel": 66,
     "difficulty": 2411,
+    "durability": 60,
+    "id": "65fa3316f9f",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Fermented Juice",
+      "de": "Spirituosenzubehörteil",
+      "en": "Fermented Juice",
+      "fr": "Composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品",
+      "ko": "Fermented Juice"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
     "durability": 80,
     "id": "75dd160d8d8",
     "level": 279,
@@ -17238,6 +17370,54 @@
       "fr": "Cheminée hingashienne (kura-zukuri)",
       "ja": "白銀蔵造煙突",
       "ko": "동방의 회벽 굴뚝"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "21ec914a287",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Ishgardian Culinary Essentials",
+      "de": "Ishgarder Kochutensil",
+      "en": "Ishgardian Culinary Essentials",
+      "fr": "Composant pour recette ishgardaise",
+      "ja": "イシュガルド料理必需品",
+      "ko": "Ishgardian Culinary Essentials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "6d8a2ad341f",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Ishgardian Culinary Materials",
+      "de": "Ishgarder Kochutensil-Komponente",
+      "en": "Ishgardian Culinary Materials",
+      "fr": "Matériaux raffinés pour composant de recette ishgardaise",
+      "ja": "イシュガルド料理必需品部材",
+      "ko": "Ishgardian Culinary Materials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "6a42db123f9",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Juice Fermenting Supplies",
+      "de": "Komponente eines Spirituosenzubehörteils",
+      "en": "Juice Fermenting Supplies",
+      "fr": "Matériaux raffinés pour composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品部材",
+      "ko": "Juice Fermenting Supplies"
     }
   },
   {
@@ -17402,6 +17582,22 @@
   },
   {
     "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "209775f846e",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Decorative Tavern Furnishing Materials",
+      "de": "Komponente eines Klippenhänger-Einrichtungsgegenstands",
+      "en": "Decorative Tavern Furnishing Materials",
+      "fr": "Matériaux raffinés pour pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品部材",
+      "ko": "Decorative Tavern Furnishing Materials"
+    }
+  },
+  {
+    "baseLevel": 67,
     "difficulty": 2559,
     "durability": 80,
     "id": "13c0055cf9e",
@@ -17446,6 +17642,86 @@
       "fr": "Sceptre en durium",
       "ja": "ダリウムロッド",
       "ko": "취은 지팡이"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "fd322c5803f",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Hard Place Decorative Furnishings",
+      "de": "Klippenhänger-Einrichtungsgegenstand",
+      "en": "Hard Place Decorative Furnishings",
+      "fr": "Pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品",
+      "ko": "Hard Place Decorative Furnishings"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "5a966fdc814",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Signature Buuz Cookware",
+      "de": "Buuds-Kochutensil",
+      "en": "Signature Buuz Cookware",
+      "fr": "Composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品",
+      "ko": "Signature Buuz Cookware"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "d47e24e4fd2",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Signature Buuz Cookware Materials",
+      "de": "Komponente eines Buuds-Kochutensils",
+      "en": "Signature Buuz Cookware Materials",
+      "fr": "Matériaux raffinés pour composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品部材",
+      "ko": "Signature Buuz Cookware Materials"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 60,
+    "id": "b9eef06753b",
+    "level": 285,
+    "maxQuality": 10000,
+    "name": {
+      "cn": "Arkhi Brewing Set",
+      "de": "Arkhi-Destillierutensil",
+      "en": "Arkhi Brewing Set",
+      "fr": "Composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品",
+      "ko": "Arkhi Brewing Set"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 60,
+    "id": "96dde576b6b",
+    "level": 285,
+    "maxQuality": 5000,
+    "name": {
+      "cn": "Arkhi Brewing Vat Materials",
+      "de": "Komponente eines Arkhi-Destillierutensils",
+      "en": "Arkhi Brewing Vat Materials",
+      "fr": "Matériaux raffinés pour composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品部材",
+      "ko": "Arkhi Brewing Vat Materials"
     }
   },
   {
@@ -18353,6 +18629,23 @@
     "baseLevel": 70,
     "difficulty": 6377,
     "durability": 70,
+    "id": "0d5774a5777",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Carbuncle Chandelier",
+      "de": "Karfunkel-Kronleuchter",
+      "en": "Carbuncle Chandelier",
+      "fr": "Lustre carbuncles",
+      "ja": "カーバンクルシャンデリア",
+      "ko": "Carbuncle Chandelier"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
     "id": "f8c7e725a3e",
     "level": 320,
     "maxQuality": 7918,
@@ -18410,10 +18703,10 @@
     "name": {
       "cn": "般若面具",
       "de": "Hannya-Maske",
-      "en": "Hannya Mask",
+      "en": "Hanya Mask",
       "fr": "Masque de hannya",
       "ja": "般若の面",
-      "ko": "Hannya Mask"
+      "ko": "Hanya Mask"
     },
     "stars": 2
   },
@@ -18810,6 +19103,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "860600dbc78",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Washbasin",
+      "de": "Waschbecken",
+      "en": "Washbasin",
+      "fr": "Vasque sur pied",
+      "ja": "ウォッシュスタンド",
+      "ko": "Washbasin"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 7097,
     "durability": 70,
     "id": "a64c6e1ba04",
@@ -19136,7 +19446,7 @@
     "difficulty": 2485,
     "durability": 35,
     "id": "7a51efcd3f0",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Evergleam Ingot",
@@ -19153,7 +19463,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "1f779d75a41",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Earring of Aiming",
@@ -19170,7 +19480,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "da62a3b3023",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Earring of Casting",
@@ -19187,7 +19497,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "28353e7a2c0",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Earring of Fending",
@@ -19204,7 +19514,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "79a2fd65f79",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Earring of Healing",
@@ -19221,7 +19531,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "9b6cd678e14",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Earring of Slaying",
@@ -19238,7 +19548,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "2f7da5a829d",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Ephemeris",
@@ -19255,7 +19565,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "f1fec0f31da",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Gantai of Aiming",
@@ -19272,7 +19582,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "d200aac5e0d",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Gantai of Scouting",
@@ -19289,7 +19599,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "53df313c3f3",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Gantai of Striking",
@@ -19306,7 +19616,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "d916ffa5482",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Kanmuri of Casting",
@@ -19323,7 +19633,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "430c687dd5c",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Kanmuri of Healing",
@@ -19340,7 +19650,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "abe70506560",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Rapier",
@@ -19357,7 +19667,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "5c1879976b2",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Ring of Aiming",
@@ -19374,7 +19684,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "478045ae801",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Ring of Casting",
@@ -19391,7 +19701,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "bd5145ece8e",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Ring of Fending",
@@ -19408,7 +19718,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "8c2feabca10",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Ring of Healing",
@@ -19425,7 +19735,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "0914ef9474b",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Ring of Slaying",
@@ -19442,7 +19752,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "cfcbe3e41bb",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Rod",
@@ -19451,6 +19761,23 @@
       "fr": "Bâton rakshasa",
       "ja": "羅刹呪杖",
       "ko": "Rakshasa Rod"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "9ccbbb315ef",
+    "level": 380,
+    "maxQuality": 10568,
+    "name": {
+      "cn": "Seiryu Statuette",
+      "de": "Seiryu-Statue",
+      "en": "Seiryu Statuette",
+      "fr": "Statuette de Seiryû",
+      "ja": "青龍の彫刻",
+      "ko": "Seiryu Statuette"
     },
     "stars": 4
   }

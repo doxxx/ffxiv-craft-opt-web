@@ -3569,6 +3569,22 @@
     }
   },
   {
+    "baseLevel": 36,
+    "difficulty": 223,
+    "durability": 80,
+    "id": "50f2596b876",
+    "level": 36,
+    "maxQuality": 941,
+    "name": {
+      "cn": "Prism Pouch",
+      "de": "Prismen-Beutel",
+      "en": "Prism Pouch",
+      "fr": "Pochette à prismes magiques",
+      "ja": "マジックプリズムポーチ",
+      "ko": "Prism Pouch"
+    }
+  },
+  {
     "baseLevel": 37,
     "difficulty": 409,
     "durability": 80,
@@ -3872,6 +3888,22 @@
       "fr": "Pantalon en lin renforcé",
       "ja": "リネントラウザーDX",
       "ko": "강화 아마포 긴바지"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 246,
+    "durability": 80,
+    "id": "d43fb3926a4",
+    "level": 39,
+    "maxQuality": 1013,
+    "name": {
+      "cn": "Red Carpet",
+      "de": "Roter Teppich",
+      "en": "Red Carpet",
+      "fr": "Tapis rouge",
+      "ja": "レッドカーペット",
+      "ko": "Red Carpet"
     }
   },
   {
@@ -5044,6 +5076,22 @@
       "fr": "Revêtement mural à rayures",
       "ja": "ストライプインナーウォール",
       "ko": "줄무늬 내벽"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 284,
+    "durability": 80,
+    "id": "b8ae8ce6222",
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "cn": "Teal Blue Carpeting",
+      "de": "Blaugrüner Teppich",
+      "en": "Teal Blue Carpeting",
+      "fr": "Moquette bleu perle",
+      "ja": "パールブルーカーペット",
+      "ko": "Teal Blue Carpeting"
     }
   },
   {
@@ -15284,6 +15332,38 @@
     "baseLevel": 66,
     "difficulty": 7715,
     "durability": 80,
+    "id": "36234abf0f1",
+    "level": 279,
+    "maxQuality": 5838,
+    "name": {
+      "cn": "Fat Cat Sofa",
+      "de": "Dicke-Katze-Sofa",
+      "en": "Fat Cat Sofa",
+      "fr": "Fauteuil gros minou",
+      "ja": "ファットキャットソファー",
+      "ko": "Fat Cat Sofa"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "1ff01664496",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Fermented Juice",
+      "de": "Spirituosenzubehörteil",
+      "en": "Fermented Juice",
+      "fr": "Composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品",
+      "ko": "Fermented Juice"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 7715,
+    "durability": 80,
     "id": "1bbea27c169",
     "level": 279,
     "maxQuality": 5838,
@@ -15294,6 +15374,54 @@
       "fr": "Sofa hingashien",
       "ja": "白銀長椅子",
       "ko": "동방 긴 안락의자"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "4f92817ca27",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Ishgardian Culinary Essentials",
+      "de": "Ishgarder Kochutensil",
+      "en": "Ishgardian Culinary Essentials",
+      "fr": "Composant pour recette ishgardaise",
+      "ja": "イシュガルド料理必需品",
+      "ko": "Ishgardian Culinary Essentials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "e824f69ac29",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Ishgardian Culinary Materials",
+      "de": "Ishgarder Kochutensil-Komponente",
+      "en": "Ishgardian Culinary Materials",
+      "fr": "Matériaux raffinés pour composant de recette ishgardaise",
+      "ja": "イシュガルド料理必需品部材",
+      "ko": "Ishgardian Culinary Materials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "25b76566492",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Juice Fermenting Supplies",
+      "de": "Komponente eines Spirituosenzubehörteils",
+      "en": "Juice Fermenting Supplies",
+      "fr": "Matériaux raffinés pour composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品部材",
+      "ko": "Juice Fermenting Supplies"
     }
   },
   {
@@ -15458,6 +15586,38 @@
   },
   {
     "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "460df179d5e",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Decorative Tavern Furnishing Materials",
+      "de": "Komponente eines Klippenhänger-Einrichtungsgegenstands",
+      "en": "Decorative Tavern Furnishing Materials",
+      "fr": "Matériaux raffinés pour pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品部材",
+      "ko": "Decorative Tavern Furnishing Materials"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "5f2ee242d1d",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Hard Place Decorative Furnishings",
+      "de": "Klippenhänger-Einrichtungsgegenstand",
+      "en": "Hard Place Decorative Furnishings",
+      "fr": "Pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品",
+      "ko": "Hard Place Decorative Furnishings"
+    }
+  },
+  {
+    "baseLevel": 67,
     "difficulty": 2559,
     "durability": 80,
     "id": "0adfa7b6c4f",
@@ -15614,6 +15774,70 @@
       "fr": "Turban des ressources en serge",
       "ja": "サージギャザラーターバン",
       "ko": "채집가용 초원능직 터번"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "f9d211662b1",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Signature Buuz Cookware",
+      "de": "Buuds-Kochutensil",
+      "en": "Signature Buuz Cookware",
+      "fr": "Composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品",
+      "ko": "Signature Buuz Cookware"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "f5f6fc7abe0",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Signature Buuz Cookware Materials",
+      "de": "Komponente eines Buuds-Kochutensils",
+      "en": "Signature Buuz Cookware Materials",
+      "fr": "Matériaux raffinés pour composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品部材",
+      "ko": "Signature Buuz Cookware Materials"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 60,
+    "id": "ec55a8fdccc",
+    "level": 285,
+    "maxQuality": 10000,
+    "name": {
+      "cn": "Arkhi Brewing Set",
+      "de": "Arkhi-Destillierutensil",
+      "en": "Arkhi Brewing Set",
+      "fr": "Composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品",
+      "ko": "Arkhi Brewing Set"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 60,
+    "id": "d377c380b83",
+    "level": 285,
+    "maxQuality": 5000,
+    "name": {
+      "cn": "Arkhi Brewing Vat Materials",
+      "de": "Komponente eines Arkhi-Destillierutensils",
+      "en": "Arkhi Brewing Vat Materials",
+      "fr": "Matériaux raffinés pour composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品部材",
+      "ko": "Arkhi Brewing Vat Materials"
     }
   },
   {
@@ -16986,6 +17210,40 @@
     "baseLevel": 70,
     "difficulty": 7097,
     "durability": 70,
+    "id": "eddc9816f46",
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Rain Hood",
+      "de": "Regenhaube",
+      "en": "Rain Hood",
+      "fr": "Capuche de pluie",
+      "ja": "レインフード",
+      "ko": "Rain Hood"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
+    "id": "50ea6c2336e",
+    "level": 350,
+    "maxQuality": 9243,
+    "name": {
+      "cn": "Raincoat",
+      "de": "Regenmantel",
+      "en": "Raincoat",
+      "fr": "Manteau de pluie",
+      "ja": "レインコート",
+      "ko": "Raincoat"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7097,
+    "durability": 70,
     "id": "225e3cd2864",
     "level": 350,
     "maxQuality": 9243,
@@ -17463,7 +17721,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "0847156b35e",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Dogi of Casting",
@@ -17480,7 +17738,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "46c7c1a1ad3",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Dogi of Healing",
@@ -17497,7 +17755,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "dd2ffac8212",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Hakama of Aiming",
@@ -17514,7 +17772,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "ef42eaa2425",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Hakama of Scouting",
@@ -17531,7 +17789,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "f831afe1566",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Hakama of Striking",
@@ -17548,7 +17806,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "17e5582f046",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Haori of Aiming",
@@ -17565,7 +17823,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "511224973e2",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Haori of Scouting",
@@ -17582,7 +17840,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "2743490e51e",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Haori of Striking",
@@ -17599,7 +17857,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "c0d405ee677",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Kasaya of Fending",
@@ -17616,7 +17874,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "5ff30df95ae",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Kasaya of Maiming",
@@ -17633,7 +17891,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "ef70fff6eee",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Tsutsu-hakama of Casting",
@@ -17650,7 +17908,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "5ba46402b55",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Tsutsu-hakama of Fending",
@@ -17667,7 +17925,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "bb8922cb8e3",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Tsutsu-hakama of Healing",
@@ -17684,7 +17942,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "86bf6e509fb",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Tsutsu-hakama of Maiming",
@@ -17701,7 +17959,7 @@
     "difficulty": 7457,
     "durability": 70,
     "id": "37e333938f8",
-    "level": 390,
+    "level": 380,
     "maxQuality": 10568,
     "name": {
       "cn": "Scarlet Peacock",
@@ -17715,10 +17973,27 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "21844162bf7",
+    "level": 380,
+    "maxQuality": 10568,
+    "name": {
+      "cn": "Seitei",
+      "de": "Seitei",
+      "en": "Seitei",
+      "fr": "Dragonnet azur",
+      "ja": "青帝",
+      "ko": "Seitei"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2485,
     "durability": 35,
     "id": "55c1781dbe1",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Stardust Cotton Cloth",

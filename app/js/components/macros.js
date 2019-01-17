@@ -57,8 +57,15 @@
       return buffs;
     }
 
-    function soundEffect(num) {
-      return '<se.' + num + '>';
+    /**
+     * Function used to display sound effect on macro
+     *
+     * @param num number of sound to use
+     * @param sound {boolean} true if sound is enabled, false else
+     * @returns {string}
+     */
+    function soundEffect(num, sound) {
+      return sound ? '<se.' + num + '>' : '';
     }
 
     function extractCrossClassActions(options, sequence, cls) {
@@ -95,7 +102,7 @@
       }
 
       if (lines.length > 0) {
-        lines.push('/echo Cross-class action setup complete ' + soundEffect(options.stepSoundEffect) + '\n');
+        lines.push('/echo Cross-class action setup complete ' + soundEffect(options.stepSoundEffect, options.stepSoundEnabled) + '\n');
       }
 
       return lines;
@@ -153,7 +160,7 @@
 
         if (macroLineCount === MAX_LINES - 1) {
           if (lines.length - (j + 1) > 1) {
-            macroString += '/echo Macro #' + macroIndex + ' complete ' + soundEffect(options.stepSoundEffect) + '\n';
+            macroString += '/echo Macro #' + macroIndex + ' complete ' + soundEffect(options.stepSoundEffect, options.stepSoundEnabled) + '\n';
             macroList.push({text: macroString, time: macroTime});
 
             macroString = '';
@@ -171,7 +178,7 @@
 
       if (macroLineCount > 0) {
         if (macroLineCount < MAX_LINES) {
-          macroString += '/echo Macro #' + macroIndex + ' complete ' + soundEffect(options.finishSoundEffect) + '\n';
+          macroString += '/echo Macro #' + macroIndex + ' complete ' + soundEffect(options.finishSoundEffect, options.stepSoundEnabled) + '\n';
         }
         macroList.push({text: macroString, time: macroTime});
       }

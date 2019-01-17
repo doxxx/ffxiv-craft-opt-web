@@ -8360,6 +8360,23 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 2584,
+    "durability": 70,
+    "id": "dff1a6edb11",
+    "level": 180,
+    "maxQuality": 4715,
+    "name": {
+      "cn": "Kamacite",
+      "de": "Kamazit-Platte",
+      "en": "Kamacite",
+      "fr": "Kamacite",
+      "ja": "カマサイト鋼",
+      "ko": "Kamacite"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
     "id": "b84f5ae3d78",
@@ -9358,6 +9375,23 @@
       "fr": "Bouclier du Fiélon",
       "ja": "シールド・オブ・フィーンド",
       "ko": "마신의 방패"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "e88b7669a28",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Shield of the Goddess",
+      "de": "Schild der Göttin",
+      "en": "Shield of the Goddess",
+      "fr": "Bouclier de la Déesse",
+      "ja": "シールド・オブ・ゴッデス",
+      "ko": "Shield of the Goddess"
     },
     "stars": 3
   },
@@ -10930,6 +10964,22 @@
   },
   {
     "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "ab874f3eca6",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Fermented Juice",
+      "de": "Spirituosenzubehörteil",
+      "en": "Fermented Juice",
+      "fr": "Composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品",
+      "ko": "Fermented Juice"
+    }
+  },
+  {
+    "baseLevel": 66,
     "difficulty": 7715,
     "durability": 80,
     "id": "078868f5511",
@@ -10994,6 +11044,54 @@
   },
   {
     "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 60,
+    "id": "81bacef3883",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Ishgardian Culinary Essentials",
+      "de": "Ishgarder Kochutensil",
+      "en": "Ishgardian Culinary Essentials",
+      "fr": "Composant pour recette ishgardaise",
+      "ja": "イシュガルド料理必需品",
+      "ko": "Ishgardian Culinary Essentials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "26dc0a120ef",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Ishgardian Culinary Materials",
+      "de": "Ishgarder Kochutensil-Komponente",
+      "en": "Ishgardian Culinary Materials",
+      "fr": "Matériaux raffinés pour composant de recette ishgardaise",
+      "ja": "イシュガルド料理必需品部材",
+      "ko": "Ishgardian Culinary Materials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "c911135fc74",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Juice Fermenting Supplies",
+      "de": "Komponente eines Spirituosenzubehörteils",
+      "en": "Juice Fermenting Supplies",
+      "fr": "Matériaux raffinés pour composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品部材",
+      "ko": "Juice Fermenting Supplies"
+    }
+  },
+  {
+    "baseLevel": 66,
     "difficulty": 1205,
     "durability": 40,
     "id": "29111d46835",
@@ -11006,6 +11104,22 @@
       "fr": "Lingot de tamahagane",
       "ja": "玉鋼",
       "ko": "도마강철 주괴"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "d9d23bc0e48",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Decorative Tavern Furnishing Materials",
+      "de": "Komponente eines Klippenhänger-Einrichtungsgegenstands",
+      "en": "Decorative Tavern Furnishing Materials",
+      "fr": "Matériaux raffinés pour pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品部材",
+      "ko": "Decorative Tavern Furnishing Materials"
     }
   },
   {
@@ -11118,6 +11232,86 @@
       "fr": "Tabard d'abatteur en acier domien",
       "ja": "ドマスチール・スレイヤータバード",
       "ko": "도마강철 학살자 휘장복"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "98b4137eb4a",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Hard Place Decorative Furnishings",
+      "de": "Klippenhänger-Einrichtungsgegenstand",
+      "en": "Hard Place Decorative Furnishings",
+      "fr": "Pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品",
+      "ko": "Hard Place Decorative Furnishings"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "57e84823909",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Signature Buuz Cookware",
+      "de": "Buuds-Kochutensil",
+      "en": "Signature Buuz Cookware",
+      "fr": "Composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品",
+      "ko": "Signature Buuz Cookware"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "03a9c5fbf9d",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Signature Buuz Cookware Materials",
+      "de": "Komponente eines Buuds-Kochutensils",
+      "en": "Signature Buuz Cookware Materials",
+      "fr": "Matériaux raffinés pour composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品部材",
+      "ko": "Signature Buuz Cookware Materials"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 60,
+    "id": "1404f594d83",
+    "level": 285,
+    "maxQuality": 10000,
+    "name": {
+      "cn": "Arkhi Brewing Set",
+      "de": "Arkhi-Destillierutensil",
+      "en": "Arkhi Brewing Set",
+      "fr": "Composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品",
+      "ko": "Arkhi Brewing Set"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 60,
+    "id": "159c22280fd",
+    "level": 285,
+    "maxQuality": 5000,
+    "name": {
+      "cn": "Arkhi Brewing Vat Materials",
+      "de": "Komponente eines Arkhi-Destillierutensils",
+      "en": "Arkhi Brewing Vat Materials",
+      "fr": "Matériaux raffinés pour composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品部材",
+      "ko": "Arkhi Brewing Vat Materials"
     }
   },
   {
@@ -11698,6 +11892,40 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "931b6396c65",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Tier 3 Metal Aquarium",
+      "de": "Metall-Aquarium L",
+      "en": "Tier 3 Metal Aquarium",
+      "fr": "Aquarium en métal de grande taille",
+      "ja": "メタルアクアリウムG3",
+      "ko": "Tier 3 Metal Aquarium"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "8808db5ade8",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Tier 4 Metal Aquarium",
+      "de": "Metall-Aquarium XL",
+      "en": "Tier 4 Metal Aquarium",
+      "fr": "Aquarium en métal de très grande taille",
+      "ja": "メタルアクアリウムG4",
+      "ko": "Tier 4 Metal Aquarium"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3943,
     "durability": 70,
     "id": "66947db3efb",
@@ -11905,7 +12133,7 @@
     "difficulty": 2485,
     "durability": 35,
     "id": "a6181be3747",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Chigusa Ingot",
@@ -11922,7 +12150,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "5a14f2a2e48",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Greatshield",
@@ -11939,7 +12167,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "44accf39eab",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Kote of Fending",
@@ -11956,7 +12184,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "23835b58078",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Kote of Maiming",
@@ -11973,7 +12201,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "aff31123266",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Mask of Fending",
@@ -11990,7 +12218,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "b10116be1db",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Mask of Maiming",
@@ -12007,7 +12235,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "3569e32cb4c",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Sune-ate of Fending",
@@ -12024,7 +12252,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "9e4a06f52dd",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Sune-ate of Maiming",
@@ -12040,8 +12268,25 @@
     "baseLevel": 70,
     "difficulty": 7457,
     "durability": 70,
+    "id": "60a8d26d37e",
+    "level": 380,
+    "maxQuality": 10568,
+    "name": {
+      "cn": "Seiryu Barding",
+      "de": "Seiryu-Rossharnisch",
+      "en": "Seiryu Barding",
+      "fr": "Barde de Seiryû",
+      "ja": "セイリュウ・バード",
+      "ko": "Seiryu Barding"
+    },
+    "stars": 4
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 7457,
+    "durability": 70,
     "id": "7ea0f0f7c3c",
-    "level": 390,
+    "level": 380,
     "maxQuality": 10568,
     "name": {
       "cn": "Suzaku Barding",

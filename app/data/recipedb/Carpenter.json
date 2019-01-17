@@ -3105,6 +3105,38 @@
   },
   {
     "baseLevel": 32,
+    "difficulty": 198,
+    "durability": 80,
+    "id": "482dc89266f",
+    "level": 32,
+    "maxQuality": 848,
+    "name": {
+      "cn": "Small Imitation Window",
+      "de": "Kleinfenster-Imitation",
+      "en": "Small Imitation Window",
+      "fr": "Petite fenêtre en trompe-l'œil",
+      "ja": "イミテーション・スモールウィンドウ",
+      "ko": "Small Imitation Window"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 352,
+    "durability": 80,
+    "id": "24357d21257",
+    "level": 32,
+    "maxQuality": 848,
+    "name": {
+      "cn": "Tree Slice Tower",
+      "de": "Holzblocksockel",
+      "en": "Tree Slice Tower",
+      "fr": "Tour de rondins",
+      "ja": "丸太タワー",
+      "ko": "Tree Slice Tower"
+    }
+  },
+  {
+    "baseLevel": 32,
     "difficulty": 110,
     "durability": 80,
     "id": "e8b2488fd9e",
@@ -3149,6 +3181,22 @@
       "fr": "Dressoir sombrelinçois",
       "ja": "シュラウド・サイドボード",
       "ko": "검은장막 협탁"
+    }
+  },
+  {
+    "baseLevel": 33,
+    "difficulty": 199,
+    "durability": 80,
+    "id": "14698bbe1af",
+    "level": 33,
+    "maxQuality": 878,
+    "name": {
+      "cn": "Hanging Planter Shelf",
+      "de": "Wandregal mit hängenden Topfpflanzen",
+      "en": "Hanging Planter Shelf",
+      "fr": "Guirlande de plantes suspendues",
+      "ja": "プランターウォールシェルフ",
+      "ko": "Hanging Planter Shelf"
     }
   },
   {
@@ -4036,6 +4084,22 @@
   },
   {
     "baseLevel": 45,
+    "difficulty": 284,
+    "durability": 80,
+    "id": "464f6930c30",
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "cn": "Black-and-white Interior Wall",
+      "de": "Schwarz-weiße Dekowand",
+      "en": "Black-and-white Interior Wall",
+      "fr": "Revêtement mural à larges rayures horizontales",
+      "ja": "ボーダーインナーウォール",
+      "ko": "Black-and-white Interior Wall"
+    }
+  },
+  {
+    "baseLevel": 45,
     "difficulty": 237,
     "durability": 80,
     "id": "e466de4d1b6",
@@ -4209,6 +4273,54 @@
       "fr": "Guisarme de collection",
       "ja": "ヴィンテージギザルメ",
       "ko": "고풍스러운 갈고리창"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 284,
+    "durability": 80,
+    "id": "943bf049842",
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "cn": "Wooden Beam",
+      "de": "Holzbalken",
+      "en": "Wooden Beam",
+      "fr": "Poutre en bois",
+      "ja": "ウッドビーム",
+      "ko": "Wooden Beam"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 284,
+    "durability": 80,
+    "id": "9515af74704",
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "cn": "Wooden Loft",
+      "de": "Hölzerne Empore",
+      "en": "Wooden Loft",
+      "fr": "Mezzanine en bois",
+      "ja": "ウッドロフト",
+      "ko": "Wooden Loft"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 284,
+    "durability": 80,
+    "id": "bcfd4483418",
+    "level": 45,
+    "maxQuality": 1154,
+    "name": {
+      "cn": "Wooden Steps",
+      "de": "Holztreppe",
+      "en": "Wooden Steps",
+      "fr": "Escalier en bois",
+      "ja": "ウッドステップ",
+      "ko": "Wooden Steps"
     }
   },
   {
@@ -5416,12 +5528,12 @@
     "level": 70,
     "maxQuality": 1460,
     "name": {
-      "cn": "Hand Basket",
+      "cn": "Handbasket",
       "de": "Handkorb",
-      "en": "Hand Basket",
+      "en": "Handbasket",
       "fr": "Panier en osier",
       "ja": "ハンドバスケット",
-      "ko": "Hand Basket"
+      "ko": "Handbasket"
     },
     "stars": 2
   },
@@ -6027,23 +6139,6 @@
     "baseLevel": 50,
     "difficulty": 1424,
     "durability": 80,
-    "id": "ac832f9324d",
-    "level": 90,
-    "maxQuality": 2490,
-    "name": {
-      "cn": "大型落地钟",
-      "de": "Großer Wand-Chronometer",
-      "en": "Large Wall Chronometer",
-      "fr": "Grande pendule",
-      "ja": "ラージ・ウォールクロノメーター",
-      "ko": "대형 괘종시계"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 1424,
-    "durability": 80,
     "id": "01149dc01fb",
     "level": 90,
     "maxQuality": 2490,
@@ -6054,6 +6149,23 @@
       "fr": "Établi de tannerie",
       "ja": "レザーワークベンチ",
       "ko": "가죽공예 작업대"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 1424,
+    "durability": 80,
+    "id": "ac832f9324d",
+    "level": 90,
+    "maxQuality": 2490,
+    "name": {
+      "cn": "Longcase Chronometer",
+      "de": "Großer Stand-Chronometer",
+      "en": "Longcase Chronometer",
+      "fr": "Grande pendule",
+      "ja": "ラージクロノメーター",
+      "ko": "Longcase Chronometer"
     },
     "stars": 3
   },
@@ -7071,6 +7183,22 @@
       "fr": "Porte-chapeau",
       "ja": "ハットスタンド",
       "ko": "모자걸이"
+    }
+  },
+  {
+    "baseLevel": 55,
+    "difficulty": 2230,
+    "durability": 70,
+    "id": "98be1a80294",
+    "level": 136,
+    "maxQuality": 3150,
+    "name": {
+      "cn": "Steppe Kitchen",
+      "de": "Steppen-Küche",
+      "en": "Steppe Kitchen",
+      "fr": "Cuisine-comptoir",
+      "ja": "ステップキッチン",
+      "ko": "Steppe Kitchen"
     }
   },
   {
@@ -8886,6 +9014,23 @@
     "baseLevel": 60,
     "difficulty": 1651,
     "durability": 70,
+    "id": "8b0d1c010ae",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Bow of the Goddess",
+      "de": "Bogen der Göttin",
+      "en": "Bow of the Goddess",
+      "fr": "Arc de la Déesse",
+      "ja": "ボウ・オブ・ゴッデス",
+      "ko": "Bow of the Goddess"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
     "id": "6f82e869b6f",
     "level": 210,
     "maxQuality": 10373,
@@ -9202,6 +9347,23 @@
       "fr": "Pique du Fiélon",
       "ja": "パイク・オブ・フィーンド",
       "ko": "마신의 창"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1651,
+    "durability": 70,
+    "id": "87c6f6fbf2e",
+    "level": 210,
+    "maxQuality": 10373,
+    "name": {
+      "cn": "Pike of the Goddess",
+      "de": "Speer der Göttin",
+      "en": "Pike of the Goddess",
+      "fr": "Pique de la Déesse",
+      "ja": "パイク・オブ・ゴッデス",
+      "ko": "Pike of the Goddess"
     },
     "stars": 3
   },
@@ -10578,6 +10740,22 @@
   {
     "baseLevel": 66,
     "difficulty": 2411,
+    "durability": 60,
+    "id": "e168e9302bf",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Fermented Juice",
+      "de": "Spirituosenzubehörteil",
+      "en": "Fermented Juice",
+      "fr": "Composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品",
+      "ko": "Fermented Juice"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
     "durability": 80,
     "id": "4c79cb64402",
     "level": 279,
@@ -10706,6 +10884,54 @@
   {
     "baseLevel": 66,
     "difficulty": 2411,
+    "durability": 60,
+    "id": "ced8aa33e97",
+    "level": 279,
+    "maxQuality": 9340,
+    "name": {
+      "cn": "Ishgardian Culinary Essentials",
+      "de": "Ishgarder Kochutensil",
+      "en": "Ishgardian Culinary Essentials",
+      "fr": "Composant pour recette ishgardaise",
+      "ja": "イシュガルド料理必需品",
+      "ko": "Ishgardian Culinary Essentials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "6c2066368bb",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Ishgardian Culinary Materials",
+      "de": "Ishgarder Kochutensil-Komponente",
+      "en": "Ishgardian Culinary Materials",
+      "fr": "Matériaux raffinés pour composant de recette ishgardaise",
+      "ja": "イシュガルド料理必需品部材",
+      "ko": "Ishgardian Culinary Materials"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1205,
+    "durability": 60,
+    "id": "007d821a783",
+    "level": 279,
+    "maxQuality": 4670,
+    "name": {
+      "cn": "Juice Fermenting Supplies",
+      "de": "Komponente eines Spirituosenzubehörteils",
+      "en": "Juice Fermenting Supplies",
+      "fr": "Matériaux raffinés pour composant pour eau-de-vie du Bord du gouffre",
+      "ja": "崖っぷち蒸留酒必需品部材",
+      "ko": "Juice Fermenting Supplies"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
     "durability": 80,
     "id": "e897d1fb46b",
     "level": 279,
@@ -10749,6 +10975,38 @@
       "fr": "Madrier de plaqueminier",
       "ja": "パーシモン材",
       "ko": "감나무 목재"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "e3d5919c362",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Decorative Tavern Furnishing Materials",
+      "de": "Komponente eines Klippenhänger-Einrichtungsgegenstands",
+      "en": "Decorative Tavern Furnishing Materials",
+      "fr": "Matériaux raffinés pour pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品部材",
+      "ko": "Decorative Tavern Furnishing Materials"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "8666751377b",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Hard Place Decorative Furnishings",
+      "de": "Klippenhänger-Einrichtungsgegenstand",
+      "en": "Hard Place Decorative Furnishings",
+      "fr": "Pièce décorative du Bord du gouffre",
+      "ja": "崖っぷち亭の備品",
+      "ko": "Hard Place Decorative Furnishings"
     }
   },
   {
@@ -10845,6 +11103,70 @@
       "fr": "Meule en ardoise renforcée",
       "ja": "スレートグラインディングホイールDX",
       "ko": "강화 점판암 연삭기"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 2559,
+    "durability": 60,
+    "id": "3db79bebe6c",
+    "level": 282,
+    "maxQuality": 9670,
+    "name": {
+      "cn": "Signature Buuz Cookware",
+      "de": "Buuds-Kochutensil",
+      "en": "Signature Buuz Cookware",
+      "fr": "Composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品",
+      "ko": "Signature Buuz Cookware"
+    }
+  },
+  {
+    "baseLevel": 67,
+    "difficulty": 1279,
+    "durability": 60,
+    "id": "310f50a7d3d",
+    "level": 282,
+    "maxQuality": 4835,
+    "name": {
+      "cn": "Signature Buuz Cookware Materials",
+      "de": "Komponente eines Buuds-Kochutensils",
+      "en": "Signature Buuz Cookware Materials",
+      "fr": "Matériaux raffinés pour composant pour buuz du Bord du gouffre",
+      "ja": "崖っぷちボーズ必需品部材",
+      "ko": "Signature Buuz Cookware Materials"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 2706,
+    "durability": 60,
+    "id": "d56224daa6f",
+    "level": 285,
+    "maxQuality": 10000,
+    "name": {
+      "cn": "Arkhi Brewing Set",
+      "de": "Arkhi-Destillierutensil",
+      "en": "Arkhi Brewing Set",
+      "fr": "Composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品",
+      "ko": "Arkhi Brewing Set"
+    }
+  },
+  {
+    "baseLevel": 68,
+    "difficulty": 1353,
+    "durability": 60,
+    "id": "52b9bbf4dd9",
+    "level": 285,
+    "maxQuality": 5000,
+    "name": {
+      "cn": "Arkhi Brewing Vat Materials",
+      "de": "Komponente eines Arkhi-Destillierutensils",
+      "en": "Arkhi Brewing Vat Materials",
+      "fr": "Matériaux raffinés pour composant pour arkhi du Bord du gouffre",
+      "ja": "アルヒ醸造必需品部材",
+      "ko": "Arkhi Brewing Vat Materials"
     }
   },
   {
@@ -11348,6 +11670,23 @@
       "fr": "Lit mog moelleux",
       "ja": "モーグリベッド",
       "ko": "Merry Mog Bed"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "a008052489a",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Mirific Mogshelf",
+      "de": "Mogrymatisches Bücherregal",
+      "en": "Mirific Mogshelf",
+      "fr": "Étagère mog",
+      "ja": "モーグリブックシェルフ",
+      "ko": "Mirific Mogshelf"
     },
     "stars": 2
   },
@@ -12053,7 +12392,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "aafc36d7cad",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Bracelet of Aiming",
@@ -12070,7 +12409,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "f89b1bd5b85",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Bracelet of Casting",
@@ -12087,7 +12426,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "83305f7379a",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Bracelet of Fending",
@@ -12104,7 +12443,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "602f21a0fb2",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Bracelet of Healing",
@@ -12121,7 +12460,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "5bdd0eb57e5",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Bracelet of Slaying",
@@ -12138,7 +12477,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "2d2a21263a1",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Cane",
@@ -12155,7 +12494,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "d66daa2660b",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Greatbow",
@@ -12172,7 +12511,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "4f17d62f7a0",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Necklace of Aiming",
@@ -12189,7 +12528,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "cc357c7c985",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Necklace of Casting",
@@ -12206,7 +12545,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "4ee863185ce",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Necklace of Fending",
@@ -12223,7 +12562,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "6fd752e0329",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Necklace of Healing",
@@ -12240,7 +12579,7 @@
     "difficulty": 3728,
     "durability": 70,
     "id": "dc6df8ebacd",
-    "level": 390,
+    "level": 380,
     "maxQuality": 29591,
     "name": {
       "cn": "Rakshasa Necklace of Slaying",
@@ -12257,7 +12596,7 @@
     "difficulty": 7457,
     "durability": 70,
     "id": "27bb20150c9",
-    "level": 390,
+    "level": 380,
     "maxQuality": 10568,
     "name": {
       "cn": "Suzaku Wall Hanging",
@@ -12274,7 +12613,7 @@
     "difficulty": 2485,
     "durability": 35,
     "id": "85403a83523",
-    "level": 390,
+    "level": 380,
     "maxQuality": 21137,
     "name": {
       "cn": "Urunday Lumber",
