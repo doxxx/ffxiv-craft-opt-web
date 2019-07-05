@@ -451,12 +451,12 @@ function ApplyModifiers(s, action, condition) {
         bProgressGain = 40;
     }
     else if (isActionEq(action, AllActions.pieceByPiece)) {
-        bProgressGain = (s.synth.recipe.difficulty - s.progressState) * 0.33;
+        bProgressGain = Math.min((s.synth.recipe.difficulty - s.progressState) * 0.33, 1000);
     }
 
     if (isActionEq(action, AllActions.muscleMemory)) {
         if (s.step == 1) {
-            bProgressGain = (s.synth.recipe.difficulty - s.progressState) * 0.33;
+            bProgressGain = Math.min((s.synth.recipe.difficulty - s.progressState) * 0.33, 1000);
         }
         else {
             bProgressGain = 0;
