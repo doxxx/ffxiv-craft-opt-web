@@ -1953,6 +1953,22 @@
   },
   {
     "baseLevel": 25,
+    "difficulty": 160,
+    "durability": 70,
+    "id": "eb350d971c2",
+    "level": 25,
+    "maxQuality": 648,
+    "name": {
+      "cn": "Walnut Interior Wall",
+      "de": "Walnuss-Wandvertäfelung",
+      "en": "Walnut Interior Wall",
+      "fr": "Revêtement mural en noyer",
+      "ja": "ウォルナットインナーウォール",
+      "ko": "Walnut Interior Wall"
+    }
+  },
+  {
+    "baseLevel": 25,
     "difficulty": 44,
     "durability": 40,
     "id": "3fa325ca4ff",
@@ -3472,7 +3488,6 @@
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3633,7 +3648,6 @@
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -3711,6 +3725,22 @@
       "fr": "Mur de pavillon en bois thanalanais",
       "ja": "ザナラーン・ウッドハウス・ウォール",
       "ko": "오아시스의 목조 주택 외벽"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 246,
+    "durability": 80,
+    "id": "9581c6e9c8f",
+    "level": 39,
+    "maxQuality": 1013,
+    "name": {
+      "cn": "Wooden Handrail",
+      "de": "Hölzernes Geländer",
+      "en": "Wooden Handrail",
+      "fr": "Rampe en bois",
+      "ja": "ウッドハンドレール",
+      "ko": "Wooden Handrail"
     }
   },
   {
@@ -4002,7 +4032,6 @@
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -4259,7 +4288,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -4468,7 +4496,6 @@
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -4549,7 +4576,6 @@
     }
   },
   {
-    "aspect": "Fire",
     "baseLevel": 49,
     "difficulty": 313,
     "durability": 80,
@@ -5861,7 +5887,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6100,7 +6125,6 @@
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6118,7 +6142,6 @@
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6425,7 +6448,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6664,7 +6686,6 @@
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6682,7 +6703,6 @@
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6700,7 +6720,6 @@
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -7103,6 +7122,22 @@
       "fr": "Lance en titane",
       "ja": "チタンランス",
       "ko": "티타늄 랜스"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 1153,
+    "durability": 80,
+    "id": "c3b5f822f08",
+    "level": 133,
+    "maxQuality": 3021,
+    "name": {
+      "cn": "War Chest",
+      "de": "Kiste eines Kriegers",
+      "en": "War Chest",
+      "fr": "Coffre de combattant",
+      "ja": "ファイターズチェスト",
+      "ko": "War Chest"
     }
   },
   {
@@ -8631,7 +8666,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8649,7 +8683,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8667,7 +8700,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8685,7 +8717,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8703,7 +8734,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8721,7 +8751,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -11475,6 +11504,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "id": "e540e52923e",
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Canvas Repair Materials",
+      "de": "Leinwand-Restaurierungsmaterial",
+      "en": "Canvas Repair Materials",
+      "fr": "Matériau de restauration de toile",
+      "ja": "キャンバス修復材",
+      "ko": "Canvas Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 5313,
     "durability": 80,
     "id": "c7ae3fe9f55",
@@ -11573,11 +11618,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "183d1f4f7e3",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格钓竿",
       "de": "Mhigische Angelrute",
@@ -12015,11 +12060,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "e1523d3cb2b",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳精准腕环",
       "de": "Schwarzweiden-Armreife des Zielens",
@@ -12032,11 +12077,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "34d8775ede8",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳咏咒腕环",
       "de": "Schwarzweiden-Armreife der Magie",
@@ -12049,11 +12094,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "0da8422faa6",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳巧匠腕环",
       "de": "Schwarzweiden-Armillae des Handwerks",
@@ -12066,11 +12111,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "978ba205281",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳御敌腕环",
       "de": "Schwarzweiden-Armreife der Verteidigung",
@@ -12083,11 +12128,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "8afa94add2d",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳治愈腕环",
       "de": "Schwarzweiden-Armreife der Heilung",
@@ -12100,11 +12145,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "4882aefefc2",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳强攻腕环",
       "de": "Schwarzweiden-Armreife des Schlachtens",
@@ -12117,11 +12162,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "a6e82582aef",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳牧杖",
       "de": "Schwarzweiden-Stock",
@@ -12134,11 +12179,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "ff58fb43a7b",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳钓竿",
       "de": "Schwarzweiden-Angelrute",
@@ -12151,11 +12196,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "459af2d3ac3",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳大弓",
       "de": "Schwarzweiden-Langbogen",
@@ -12172,7 +12217,7 @@
     "durability": 35,
     "id": "1f21f689634",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳木材",
       "de": "Schwarzweiden-Bauholz",
@@ -12185,11 +12230,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "71e8c8d50a4",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳精准项链",
       "de": "Schwarzweiden-Halsband des Zielens",
@@ -12202,11 +12247,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "fb6b555e0ce",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳咏咒项链",
       "de": "Schwarzweiden-Halsband der Magie",
@@ -12219,11 +12264,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "21ade83fe12",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳巧匠项链",
       "de": "Schwarzweiden-Halsband des Handwerks",
@@ -12236,11 +12281,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "8e50e487774",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳御敌项链",
       "de": "Schwarzweiden-Halsband der Verteidigung",
@@ -12253,11 +12298,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "415fb9d381d",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳治愈项链",
       "de": "Schwarzweiden-Halsband der Heilung",
@@ -12270,11 +12315,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "a12ec1df1ea",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳强攻项链",
       "de": "Schwarzweiden-Halsband des Schlachtens",
@@ -12287,11 +12332,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "dc17da31b44",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳巧匠戒指",
       "de": "Schwarzweiden-Ring des Handwerks",
@@ -12304,11 +12349,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "e4a8b5622a3",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳长枪",
       "de": "Schwarzweiden-Speer",
@@ -12321,11 +12366,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "8768e8106b9",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "黑柳纺车",
       "de": "Schwarzweiden-Spinnrad",
@@ -12355,11 +12400,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "34698c67e2a",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银砂轮机",
       "de": "Silbergunst-Schleifrad",
@@ -12372,11 +12417,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "04daedd5ab2",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "山师笠",
       "de": "Yamashi-Kasa",
@@ -12389,11 +12434,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "aafc36d7cad",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹弓士手饰",
       "de": "Rakshasa-Armband des Zielens",
@@ -12406,11 +12451,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "f89b1bd5b85",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹术士手饰",
       "de": "Rakshasa-Armband der Magie",
@@ -12423,11 +12468,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "83305f7379a",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士手饰",
       "de": "Rakshasa-Armband der Verteidigung",
@@ -12440,11 +12485,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "602f21a0fb2",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹学士手饰",
       "de": "Rakshasa-Armband der Heilung",
@@ -12457,11 +12502,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "5bdd0eb57e5",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹斗士手饰",
       "de": "Rakshasa-Armband des Schlachtens",
@@ -12474,11 +12519,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "2d2a21263a1",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹锡杖",
       "de": "Rakshasa-Stock",
@@ -12491,11 +12536,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "d66daa2660b",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹大弓",
       "de": "Rakshasa-Langbogen",
@@ -12508,11 +12553,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "4f17d62f7a0",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹弓士首饰",
       "de": "Rakshasa-Halsberge des Zielens",
@@ -12525,11 +12570,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "cc357c7c985",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹术士首饰",
       "de": "Rakshasa-Halsberge der Magie",
@@ -12542,11 +12587,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "4ee863185ce",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士首饰",
       "de": "Rakshasa-Halsberge der Verteidigung",
@@ -12559,11 +12604,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "6fd752e0329",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹学士首饰",
       "de": "Rakshasa-Halsberge der Heilung",
@@ -12576,11 +12621,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "dc6df8ebacd",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹斗士首饰",
       "de": "Rakshasa-Halsberge des Schlachtens",
@@ -12614,7 +12659,7 @@
     "durability": 35,
     "id": "85403a83523",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "乌仑代硬木木材",
       "de": "Urunday-Bauholz",
@@ -12624,5 +12669,85 @@
       "ko": "Urunday Lumber"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 2343,
+    "durability": 80,
+    "id": "85572aff06a",
+    "level": 400,
+    "maxQuality": 8593,
+    "name": {
+      "cn": "Upholstery Repair Materials",
+      "de": "Innenverkleidung-Restaurierungsmaterial",
+      "en": "Upholstery Repair Materials",
+      "fr": "Matériau de restauration de rembourrage",
+      "ja": "内張りの修復材",
+      "ko": "Upholstery Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "91fa7185b56",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Amaro Barding Repair Materials",
+      "de": "Amarosattel-Restaurierungsmaterial",
+      "en": "Amaro Barding Repair Materials",
+      "fr": "Matériau de restauration de barde d'amaro",
+      "ja": "アマロ装身具の修復材",
+      "ko": "Amaro Barding Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "f88f6feaa78",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Workshop Sign",
+      "de": "Aushängeschild der Erinnerungswerkstatt",
+      "en": "Workshop Sign",
+      "fr": "Enseigne somptueuse",
+      "ja": "工房の看板",
+      "ko": "Workshop Sign"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 2551,
+    "durability": 80,
+    "id": "e3a4cf06431",
+    "level": 415,
+    "maxQuality": 9875,
+    "name": {
+      "cn": "Lute Repair Materials",
+      "de": "Lauten-Restaurierungsmaterial",
+      "en": "Lute Repair Materials",
+      "fr": "Matériau de restauration de luth",
+      "ja": "リュートの修復材",
+      "ko": "Lute Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 2760,
+    "durability": 80,
+    "id": "61b00131bd1",
+    "level": 420,
+    "maxQuality": 11157,
+    "name": {
+      "cn": "Lute Modification Component",
+      "de": "Lauten-Komponente",
+      "en": "Lute Modification Component",
+      "fr": "Composant de luth",
+      "ja": "リュートの調整部材",
+      "ko": "Lute Modification Component"
+    }
   }
 ]

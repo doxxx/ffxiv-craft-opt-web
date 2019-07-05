@@ -1411,6 +1411,22 @@
     "baseLevel": 22,
     "difficulty": 75,
     "durability": 70,
+    "id": "016e7910ef7",
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "cn": "Iron Headgear",
+      "de": "Eisen-Kopfbedeckung",
+      "en": "Iron Headgear",
+      "fr": "Protège-tête en fer",
+      "ja": "アイアンヘッドギア",
+      "ko": "Iron Headgear"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
     "id": "e4c1353754e",
     "level": 22,
     "maxQuality": 1122,
@@ -2531,6 +2547,22 @@
     "baseLevel": 32,
     "difficulty": 110,
     "durability": 80,
+    "id": "c04b5f2b969",
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "cn": "Steel Headgear",
+      "de": "Stahl-Kopfbedeckung",
+      "en": "Steel Headgear",
+      "fr": "Protège-tête en acier",
+      "ja": "スチールヘッドギア",
+      "ko": "Steel Headgear"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
     "id": "a10fc330763",
     "level": 32,
     "maxQuality": 1697,
@@ -2737,6 +2769,22 @@
   },
   {
     "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "id": "f01bc71b661",
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "cn": "Altered Heavy Steel Armor",
+      "de": "Schwere bearbeitete Stahlrüstung",
+      "en": "Altered Heavy Steel Armor",
+      "fr": "Armure lourde en acier réinventée",
+      "ja": "オルタード・ヘヴィスチールアーマー",
+      "ko": "Altered Heavy Steel Armor"
+    }
+  },
+  {
+    "baseLevel": 35,
     "difficulty": 221,
     "durability": 80,
     "id": "6492860818b",
@@ -2816,7 +2864,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3025,7 +3072,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -3109,6 +3155,22 @@
     "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
+    "id": "c18aba8d94f",
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "cn": "Altered Mythril Elmo",
+      "de": "Bearbeiteter Elmo-Mithrilhelm",
+      "en": "Altered Mythril Elmo",
+      "fr": "Elmo en mithril réinventé",
+      "ja": "オルタード・ミスリルエルモ",
+      "ko": "Altered Mythril Elmo"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
     "id": "2cadbcb34ae",
     "level": 40,
     "maxQuality": 2050,
@@ -3154,7 +3216,6 @@
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
@@ -3235,7 +3296,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 41,
     "difficulty": 143,
     "durability": 80,
@@ -3436,7 +3496,7 @@
     "maxQuality": 2251,
     "name": {
       "cn": "秘银重手铠",
-      "de": "Edelmithril-Panzerhandschuhe",
+      "de": "Schwermithril-Panzerhandschuhe",
       "en": "High Mythril Gauntlets",
       "fr": "Gantelets lourds en mithril",
       "ja": "ヘヴィミスリルガントレット",
@@ -3452,7 +3512,7 @@
     "maxQuality": 2251,
     "name": {
       "cn": "秘银重腰带",
-      "de": "Edelmithril-Plattengürtel",
+      "de": "Schwermithril-Plattengürtel",
       "en": "High Mythril Plate Belt",
       "fr": "Ceinture de plaques lourde en mithril",
       "ja": "ヘヴィ・ミスリルプレートベルト",
@@ -3492,7 +3552,6 @@
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -3506,6 +3565,38 @@
       "fr": "Rondache de collection",
       "ja": "ヴィンテージバックラー",
       "ko": "고풍스러운 전투방패"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "id": "7f239beadd4",
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "cn": "Altered High Mythril Armor",
+      "de": "Bearbeiteter Mithril-Körperpanzer",
+      "en": "Altered High Mythril Armor",
+      "fr": "Armure lourde en mithril réinventée",
+      "ja": "オルタード・ヘヴィミスリルアーマー",
+      "ko": "Altered High Mythril Armor"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "id": "09249759d27",
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "cn": "Altered Mythril Chain Coif",
+      "de": "Bearbeitete Mithrilkettenhaube",
+      "en": "Altered Mythril Chain Coif",
+      "fr": "Coiffe en mailles de mithril réinventée",
+      "ja": "オルタード・ミスリルチェーンコイフ",
+      "ko": "Altered Mythril Chain Coif"
     }
   },
   {
@@ -3602,6 +3693,22 @@
       "fr": "Elmo en mithril renforcé",
       "ja": "ミスリルエルモDX",
       "ko": "강화 미스릴 기사투구"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "id": "4a46f3d685f",
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "cn": "Altered Cobalt Elmo",
+      "de": "Bearbeiteter Elmo-Koboldeisenhelm",
+      "en": "Altered Cobalt Elmo",
+      "fr": "Elmo en cobalt réinventé",
+      "ja": "オルタード・コバルトエルモ",
+      "ko": "Altered Cobalt Elmo"
     }
   },
   {
@@ -3717,7 +3824,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -3814,7 +3920,6 @@
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 46,
     "difficulty": 159,
     "durability": 80,
@@ -3847,7 +3952,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -4009,6 +4113,54 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "id": "a4c3e95a799",
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "cn": "Altered Cobalt Cuirass",
+      "de": "Bearbeiteter Koboldeisenkürass",
+      "en": "Altered Cobalt Cuirass",
+      "fr": "Cuirasse en cobalt réinventée",
+      "ja": "オルタード・コバルトキュイラス",
+      "ko": "Altered Cobalt Cuirass"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "id": "1f237a85279",
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "cn": "Altered Cobalt Gauntlets",
+      "de": "Bearbeitete Koboldeisen-Panzerhandschuhe",
+      "en": "Altered Cobalt Gauntlets",
+      "fr": "Gantelets réinventés",
+      "ja": "オルタード・コバルトガントレット",
+      "ko": "Altered Cobalt Gauntlets"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "id": "10fd74d9f46",
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "cn": "Altered Cobalt Sabatons",
+      "de": "Bearbeitete Koboldeisen-Bärlatschen",
+      "en": "Altered Cobalt Sabatons",
+      "fr": "Sabatons réinventés",
+      "ja": "オルタード・コバルトサバトン",
+      "ko": "Altered Cobalt Sabatons"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 357,
     "durability": 80,
     "id": "aa21fdec8e4",
@@ -4133,6 +4285,22 @@
       "fr": "Haubergeon en cobalt",
       "ja": "コバルトホーバージョン",
       "ko": "코발트 고리갑옷"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "id": "f948f87cda5",
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "cn": "Cobalt Mask",
+      "de": "Goldmaske",
+      "en": "Cobalt Mask",
+      "fr": "Masque en cobalt",
+      "ja": "コバルトマスク",
+      "ko": "Cobalt Mask"
     }
   },
   {
@@ -5757,7 +5925,6 @@
     "stars": 3
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6278,6 +6445,22 @@
       "fr": "Alambic en durargent",
       "ja": "ハードシルバーアレンビック",
       "ko": "경은 증류기"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 1153,
+    "durability": 80,
+    "id": "4361fa60db0",
+    "level": 133,
+    "maxQuality": 3021,
+    "name": {
+      "cn": "Hunting Supplies",
+      "de": "Kiste eines Jägers",
+      "en": "Hunting Supplies",
+      "fr": "Coffre de pisteur",
+      "ja": "レンジャーズチェスト",
+      "ko": "Hunting Supplies"
     }
   },
   {
@@ -8255,7 +8438,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8273,7 +8455,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -11556,6 +11737,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "id": "0bb135057ae",
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Metal Gauntlets",
+      "de": "Metallener Handschutz",
+      "en": "Metal Gauntlets",
+      "fr": "Gantelets en métal",
+      "ja": "金属製の手甲",
+      "ko": "Metal Gauntlets"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2952,
     "durability": 80,
     "id": "40b43220d7c",
@@ -11654,11 +11851,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "dd73dd672b0",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格蒸馏器",
       "de": "Mhigischer Destillierkolben",
@@ -11671,11 +11868,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "26290cbbc8f",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格煎锅",
       "de": "Mhigische Bratpfanne",
@@ -11926,11 +12123,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "66947db3efb",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢蒸馏器",
       "de": "Nachtstahl-Destillierkolben",
@@ -11943,11 +12140,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "0b01f47b5a2",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢御敌战甲",
       "de": "Nachtstahl-Rüstung der Verteidigung",
@@ -11960,11 +12157,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "52317a5b729",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢煎锅",
       "de": "Nachtstahl-Bratpfanne",
@@ -11977,11 +12174,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "37d41c9582b",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢御敌手铠",
       "de": "Nachtstahl-Panzerhandschuhe der Verteidigung",
@@ -11994,11 +12191,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "a288a11c45e",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢制敌手铠",
       "de": "Nachtstahl-Panzerhandschuhe des Verstümmelns",
@@ -12011,11 +12208,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "232fec17025",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢制敌胫甲",
       "de": "Nachtstahl-Beinschienen des Verstümmelns",
@@ -12028,11 +12225,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "4522cd8cd2a",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢御敌头盔",
       "de": "Nachtstahl-Helm der Verteidigung",
@@ -12045,11 +12242,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "c4fbeae1d82",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢制敌头盔",
       "de": "Nachtstahl-Helm des Verstümmelns",
@@ -12066,7 +12263,7 @@
     "durability": 35,
     "id": "f111fd081e5",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢锭",
       "de": "Nachtstahl-Barren",
@@ -12079,11 +12276,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "fc5a08264b7",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢制敌战铠",
       "de": "Nachtstahl-Rüstung des Verstümmelns",
@@ -12096,11 +12293,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "662c9d2da5f",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢御敌铠靴",
       "de": "Nachtstahl-Bärlatschen der Verteidigung",
@@ -12113,11 +12310,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "97a8045a920",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢盾",
       "de": "Nachtstahl-Schild",
@@ -12134,7 +12331,7 @@
     "durability": 35,
     "id": "a6181be3747",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "千种钢",
       "de": "Chigusa-Barren",
@@ -12147,11 +12344,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "5a14f2a2e48",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹大盾",
       "de": "Rakshasa-Großschild",
@@ -12164,11 +12361,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "44accf39eab",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士笼手",
       "de": "Rakshasa-Kote der Verteidigung",
@@ -12181,11 +12378,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "23835b58078",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹枪士笼手",
       "de": "Rakshasa-Kote des Verstümmelns",
@@ -12198,11 +12395,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "aff31123266",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士面饰",
       "de": "Rakshasa-Maske der Verteidigung",
@@ -12215,11 +12412,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "b10116be1db",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹枪士面饰",
       "de": "Rakshasa-Maske des Verstümmelns",
@@ -12232,11 +12429,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "3569e32cb4c",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士护胫",
       "de": "Rakshasa-Sune-Ate der Verteidigung",
@@ -12249,11 +12446,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "9e4a06f52dd",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹枪士护胫",
       "de": "Rakshasa-Sune-Ate des Verstümmelns",
@@ -12297,5 +12494,167 @@
       "ko": "Suzaku Barding"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 2343,
+    "durability": 80,
+    "id": "243cc932a4f",
+    "level": 400,
+    "maxQuality": 8593,
+    "name": {
+      "cn": "Metal Worm Jar",
+      "de": "Metallenes Wurmgefäß",
+      "en": "Metal Worm Jar",
+      "fr": "Pot en métal",
+      "ja": "金属製の食材容器",
+      "ko": "Metal Worm Jar"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "fe0f25965f1",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Intricate Censer",
+      "de": "Metallenes Räuchergefäß",
+      "en": "Intricate Censer",
+      "fr": "Encensoir en métal",
+      "ja": "金属製の香炉",
+      "ko": "Intricate Censer"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "085f1c1dc45",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Metal Trident",
+      "de": "Metallener Dreizack",
+      "en": "Metal Trident",
+      "fr": "Trident en métal",
+      "ja": "金属製の三叉鉾",
+      "ko": "Metal Trident"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 6454,
+    "durability": 80,
+    "id": "276d32b1301",
+    "level": 412,
+    "maxQuality": 8745,
+    "name": {
+      "cn": "Crystarium Bench",
+      "de": "Sitzbank aus Crystarium",
+      "en": "Crystarium Bench",
+      "fr": "Banc de Cristarium",
+      "ja": "クリスタリウムベンチ",
+      "ko": "Crystarium Bench"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 6454,
+    "durability": 80,
+    "id": "e9874766c6b",
+    "level": 412,
+    "maxQuality": 8745,
+    "name": {
+      "cn": "Crystarium Kitchen Hanger",
+      "de": "Küchenhaken-Set aus Crystarium",
+      "en": "Crystarium Kitchen Hanger",
+      "fr": "Patère de cuisine de Cristarium",
+      "ja": "クリスタリウムキッチンハンガー",
+      "ko": "Crystarium Kitchen Hanger"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 6454,
+    "durability": 80,
+    "id": "372b4000a70",
+    "level": 412,
+    "maxQuality": 8745,
+    "name": {
+      "cn": "Crystarium Teapot",
+      "de": "Teekanne aus Crystarium",
+      "en": "Crystarium Teapot",
+      "fr": "Théière de Cristarium",
+      "ja": "クリスタリウムティーポット",
+      "ko": "Crystarium Teapot"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 2551,
+    "durability": 80,
+    "id": "828c648245a",
+    "level": 415,
+    "maxQuality": 9875,
+    "name": {
+      "cn": "Nullifying Neckpiece",
+      "de": "Antimagischer Halsschutz",
+      "en": "Nullifying Neckpiece",
+      "fr": "Collier anti-magie",
+      "ja": "耐魔法用首飾り",
+      "ko": "Nullifying Neckpiece"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 2760,
+    "durability": 80,
+    "id": "860e3ba11c3",
+    "level": 420,
+    "maxQuality": 11157,
+    "name": {
+      "cn": "Enchanting Ring",
+      "de": "Besonderer Ring",
+      "en": "Enchanting Ring",
+      "fr": "Bague ensorcelée",
+      "ja": "精巧な指輪",
+      "ko": "Enchanting Ring"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "2214bccbda4",
+    "level": 430,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "Innocence Barding",
+      "de": "Innozenz-Rossharnisch",
+      "en": "Innocence Barding",
+      "fr": "Barde d'Innocence",
+      "ja": "イノセンス・バード",
+      "ko": "Innocence Barding"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "dbf4ff68df3",
+    "level": 430,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "Titania Barding",
+      "de": "Titania-Rossharnisch",
+      "en": "Titania Barding",
+      "fr": "Barde de Titania",
+      "ja": "ティターニア・バード",
+      "ko": "Titania Barding"
+    },
+    "stars": 1
   }
 ]

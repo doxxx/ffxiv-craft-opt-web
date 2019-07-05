@@ -3443,6 +3443,22 @@
     "baseLevel": 32,
     "difficulty": 110,
     "durability": 80,
+    "id": "a9a9026fe4c",
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "cn": "Silver Monocle",
+      "de": "Silber-Monokel",
+      "en": "Silver Monocle",
+      "fr": "Monocle en argent",
+      "ja": "シルバーモノクル",
+      "ko": "Silver Monocle"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
     "id": "6db12528e83",
     "level": 32,
     "maxQuality": 1697,
@@ -3661,6 +3677,38 @@
       "fr": "Ramille de la terre",
       "ja": "アースブランド",
       "ko": "땅의 주술가시"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 207,
+    "durability": 80,
+    "id": "f9b29dfaf3c",
+    "level": 34,
+    "maxQuality": 905,
+    "name": {
+      "cn": "Lily Floor Lamp",
+      "de": "Lilien-Stehlampe",
+      "en": "Lily Floor Lamp",
+      "fr": "Lampe Canne des soins",
+      "ja": "ヒーリングリリー・フロアランプ",
+      "ko": "Lily Floor Lamp"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 207,
+    "durability": 80,
+    "id": "2c5ed20562c",
+    "level": 34,
+    "maxQuality": 905,
+    "name": {
+      "cn": "Lily Wall Lamp",
+      "de": "Lilien-Wandleuchte",
+      "en": "Lily Wall Lamp",
+      "fr": "Éclairage mural Cannes des soins",
+      "ja": "ヒーリングリリー・ウォールランプ",
+      "ko": "Lily Wall Lamp"
     }
   },
   {
@@ -3936,7 +3984,6 @@
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -4642,6 +4689,22 @@
   },
   {
     "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
+    "id": "fbeaeb1ac6a",
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "cn": "Altered Mythril Magnifiers",
+      "de": "Bearbeitete Mithril-Lupenbrille",
+      "en": "Altered Mythril Magnifiers",
+      "fr": "Lunettes grossissantes réinventées",
+      "ja": "オルタード・ミスリルマグニファイアーズ",
+      "ko": "Altered Mythril Magnifiers"
+    }
+  },
+  {
+    "baseLevel": 40,
     "difficulty": 69,
     "durability": 40,
     "id": "8ba09b3ae81",
@@ -4734,6 +4797,22 @@
       "fr": "Jadéite",
       "ja": "ジェダイト",
       "ko": "경옥"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 248,
+    "durability": 80,
+    "id": "f81eac7abb8",
+    "level": 40,
+    "maxQuality": 1025,
+    "name": {
+      "cn": "Misplaced Eyeglasses",
+      "de": "Verlegte Brille",
+      "en": "Misplaced Eyeglasses",
+      "fr": "Lunettes égarées",
+      "ja": "ミスプレースドアイグラス",
+      "ko": "Misplaced Eyeglasses"
     }
   },
   {
@@ -5809,7 +5888,6 @@
     }
   },
   {
-    "aspect": "Fire",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -7238,7 +7316,6 @@
     "stars": 1
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 351,
     "durability": 80,
@@ -7324,7 +7401,6 @@
     "stars": 1
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 351,
     "durability": 80,
@@ -7699,7 +7775,6 @@
     "stars": 1
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 351,
     "durability": 80,
@@ -8261,7 +8336,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -8466,7 +8540,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -8756,7 +8829,6 @@
     "stars": 2
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 419,
     "durability": 80,
@@ -9114,7 +9186,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9132,7 +9203,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9150,7 +9220,6 @@
     "stars": 3
   },
   {
-    "aspect": "Ice",
     "baseLevel": 50,
     "difficulty": 801,
     "durability": 80,
@@ -9168,7 +9237,6 @@
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9186,7 +9254,6 @@
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9204,7 +9271,6 @@
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9222,7 +9288,6 @@
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9342,7 +9407,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9411,7 +9475,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9701,7 +9764,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9719,7 +9781,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -9737,7 +9798,6 @@
     "stars": 3
   },
   {
-    "aspect": "Ice",
     "baseLevel": 50,
     "difficulty": 1054,
     "durability": 80,
@@ -9755,7 +9815,6 @@
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -9773,7 +9832,6 @@
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -9791,7 +9849,6 @@
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -13768,7 +13825,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -13786,7 +13842,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -13804,7 +13859,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -13873,7 +13927,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -13891,7 +13944,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -13909,7 +13961,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -18510,6 +18561,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "id": "4b112e7b075",
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Metal Gauntlets",
+      "de": "Metallener Handschutz",
+      "en": "Metal Gauntlets",
+      "fr": "Gantelets en métal",
+      "ja": "金属製の手甲",
+      "ko": "Metal Gauntlets"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1476,
     "durability": 40,
     "id": "63ac70bd1fa",
@@ -18593,11 +18660,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "aaaf89827dc",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格缝针",
       "de": "Mhigische Nadel",
@@ -18707,6 +18774,23 @@
       "fr": "Masque de hannya",
       "ja": "般若の面",
       "ko": "Hanya Mask"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 6377,
+    "durability": 70,
+    "id": "527a300d1e3",
+    "level": 320,
+    "maxQuality": 7918,
+    "name": {
+      "cn": "Imitation Stained Crystal Pane",
+      "de": "Kleine Glasmalerei",
+      "en": "Imitation Stained Crystal Pane",
+      "fr": "Petite imitation de vitrail",
+      "ja": "イミテーション・スモールステンドクリスタル",
+      "ko": "Imitation Stained Crystal Pane"
     },
     "stars": 2
   },
@@ -19137,11 +19221,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "31c6016b2e1",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银精准耳坠",
       "de": "Silbergunst-Ohrring des Zielens",
@@ -19154,11 +19238,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "dc77c35e6a0",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银咏咒耳坠",
       "de": "Silbergunst-Ohrring der Magie",
@@ -19171,11 +19255,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "5b8c3afc828",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银御敌耳坠",
       "de": "Silbergunst-Ohrring der Verteidigung",
@@ -19188,11 +19272,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "cca86e4d3ab",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银治愈耳坠",
       "de": "Silbergunst-Ohrring der Heilung",
@@ -19205,11 +19289,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "1766cb04ea7",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银强攻耳坠",
       "de": "Silbergunst-Ohrring des Schlachtens",
@@ -19222,11 +19306,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "ed54d141b31",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银巧匠耳坠",
       "de": "Silbergunst-Ohrringe des Handwerks",
@@ -19239,11 +19323,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "46a8840fa84",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银大地耳坠",
       "de": "Silbergunst-Ohrringe des Eifers",
@@ -19256,11 +19340,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "ab0b2146db4",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银强袭假面",
       "de": "Silbergunst-Halbmaske des Schlagens",
@@ -19277,7 +19361,7 @@
     "durability": 35,
     "id": "f6180e40fbf",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银锭",
       "de": "Silbergunst-Barren",
@@ -19290,11 +19374,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "fa878ebce36",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银缝针",
       "de": "Silbergunst-Nadel",
@@ -19307,11 +19391,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "5424cd5269b",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银天星盘",
       "de": "Silbergunst-Planisphäre",
@@ -19324,11 +19408,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "e7b74ce278f",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银刺剑",
       "de": "Silbergunst-Rapier",
@@ -19341,11 +19425,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "f037b303600",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银精准戒指",
       "de": "Silbergunst-Ring des Zielens",
@@ -19358,11 +19442,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "64cbd9dc885",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银咏咒戒指",
       "de": "Silbergunst-Ring der Magie",
@@ -19375,11 +19459,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "fb4a6bc550c",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银御敌戒指",
       "de": "Silbergunst-Ring der Verteidigung",
@@ -19392,11 +19476,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "66198765031",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银治愈戒指",
       "de": "Silbergunst-Ring der Heilung",
@@ -19409,11 +19493,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "22f3ff50254",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银强攻戒指",
       "de": "Silbergunst-Ring des Schlachtens",
@@ -19426,11 +19510,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "c09f928139b",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银法杖",
       "de": "Silbergunst-Stab",
@@ -19447,7 +19531,7 @@
     "durability": 35,
     "id": "7a51efcd3f0",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "常辉钢锭",
       "de": "Immerschimmer-Barren",
@@ -19460,11 +19544,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "1f779d75a41",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹弓士耳饰",
       "de": "Rakshasa-Ohrring des Zielens",
@@ -19477,11 +19561,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "da62a3b3023",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹术士耳饰",
       "de": "Rakshasa-Ohrring der Magie",
@@ -19494,11 +19578,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "28353e7a2c0",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士耳饰",
       "de": "Rakshasa-Ohrring der Verteidigung",
@@ -19511,11 +19595,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "79a2fd65f79",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹学士耳饰",
       "de": "Rakshasa-Ohrring der Heilung",
@@ -19528,11 +19612,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "9b6cd678e14",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹斗士耳饰",
       "de": "Rakshasa-Ohrring des Schlachtens",
@@ -19545,11 +19629,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "2f7da5a829d",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹天仪",
       "de": "Rakshasa-Astrometer",
@@ -19562,11 +19646,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "f1fec0f31da",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹弓士眼带",
       "de": "Rakshasa-Gantai des Zielens",
@@ -19579,11 +19663,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "d200aac5e0d",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹间士眼带",
       "de": "Rakshasa-Gantai des Spähens",
@@ -19596,11 +19680,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "53df313c3f3",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹拳士眼带",
       "de": "Rakshasa-Gantai des Schlagens",
@@ -19613,11 +19697,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "d916ffa5482",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹术士冠",
       "de": "Rakshasa-Kanmuri der Magie",
@@ -19630,11 +19714,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "430c687dd5c",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹学士冠",
       "de": "Rakshasa-Kanmuri der Heilung",
@@ -19647,11 +19731,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "abe70506560",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹细剑",
       "de": "Rakshasa-Rapier",
@@ -19664,11 +19748,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "5c1879976b2",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹弓士指饰",
       "de": "Rakshasa-Ring des Zielens",
@@ -19681,11 +19765,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "478045ae801",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹术士指饰",
       "de": "Rakshasa-Ring der Magie",
@@ -19698,11 +19782,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "bd5145ece8e",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士指饰",
       "de": "Rakshasa-Ring der Verteidigung",
@@ -19715,11 +19799,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "8c2feabca10",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹学士指饰",
       "de": "Rakshasa-Ring der Heilung",
@@ -19732,11 +19816,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "0914ef9474b",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹斗士指饰",
       "de": "Rakshasa-Ring des Schlachtens",
@@ -19749,11 +19833,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "cfcbe3e41bb",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹咒杖",
       "de": "Rakshasa-Stab",
@@ -19780,5 +19864,134 @@
       "ko": "Seiryu Statuette"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 2343,
+    "durability": 80,
+    "id": "7d1c43ef171",
+    "level": 400,
+    "maxQuality": 8593,
+    "name": {
+      "cn": "Metal Worm Jar",
+      "de": "Metallenes Wurmgefäß",
+      "en": "Metal Worm Jar",
+      "fr": "Pot en métal",
+      "ja": "金属製の食材容器",
+      "ko": "Metal Worm Jar"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "0f7178881a9",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Intricate Censer",
+      "de": "Metallenes Räuchergefäß",
+      "en": "Intricate Censer",
+      "fr": "Encensoir en métal",
+      "ja": "金属製の香炉",
+      "ko": "Intricate Censer"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "b2a43f3263f",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Metal Trident",
+      "de": "Metallener Dreizack",
+      "en": "Metal Trident",
+      "fr": "Trident en métal",
+      "ja": "金属製の三叉鉾",
+      "ko": "Metal Trident"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 6346,
+    "durability": 80,
+    "id": "9e21e417aeb",
+    "level": 409,
+    "maxQuality": 8512,
+    "name": {
+      "cn": "Crystarium Chandelier",
+      "de": "Crystarium-Kronleuchter",
+      "en": "Crystarium Chandelier",
+      "fr": "Lustre de Cristarium",
+      "ja": "クリスタリウムシャンデリア",
+      "ko": "Crystarium Chandelier"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 2551,
+    "durability": 80,
+    "id": "a8f10442d20",
+    "level": 415,
+    "maxQuality": 9875,
+    "name": {
+      "cn": "Nullifying Neckpiece",
+      "de": "Antimagischer Halsschutz",
+      "en": "Nullifying Neckpiece",
+      "fr": "Collier anti-magie",
+      "ja": "耐魔法用首飾り",
+      "ko": "Nullifying Neckpiece"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7097,
+    "durability": 80,
+    "id": "112707f41b1",
+    "level": 420,
+    "maxQuality": 10143,
+    "name": {
+      "cn": "Crystarium Mechanical Till",
+      "de": "Automatisierte Gilkassette aus Crystarium",
+      "en": "Crystarium Mechanical Till",
+      "fr": "Caisse mécanique de Cristarium",
+      "ja": "クリスタリウム・メカニカルティル",
+      "ko": "Crystarium Mechanical Till"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 2760,
+    "durability": 80,
+    "id": "90e6a2a8385",
+    "level": 420,
+    "maxQuality": 11157,
+    "name": {
+      "cn": "Enchanting Ring",
+      "de": "Besonderer Ring",
+      "en": "Enchanting Ring",
+      "fr": "Bague ensorcelée",
+      "ja": "精巧な指輪",
+      "ko": "Enchanting Ring"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "d1351d1d569",
+    "level": 430,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "Titania Shadow Box",
+      "de": "Titania-Trophäe",
+      "en": "Titania Shadow Box",
+      "fr": "Effigie murale de Titania",
+      "ja": "ティターニアの壁掛け",
+      "ko": "Titania Shadow Box"
+    },
+    "stars": 1
   }
 ]

@@ -1123,6 +1123,22 @@
     "baseLevel": 13,
     "difficulty": 54,
     "durability": 60,
+    "id": "612cf11068b",
+    "level": 13,
+    "maxQuality": 726,
+    "name": {
+      "cn": "Altered Cotton Bandana",
+      "de": "Bearbeitetes Baumwollbandana",
+      "en": "Altered Cotton Bandana",
+      "fr": "Bandana en coton réinventé",
+      "ja": "オルタード・コットンバンダナ",
+      "ko": "Altered Cotton Bandana"
+    }
+  },
+  {
+    "baseLevel": 13,
+    "difficulty": 54,
+    "durability": 60,
     "id": "58ba4f56586",
     "level": 13,
     "maxQuality": 726,
@@ -1661,6 +1677,22 @@
       "fr": "Composant de réservoir de secours",
       "ja": "予備タンク部材",
       "ko": "예비 탱크 부재"
+    }
+  },
+  {
+    "baseLevel": 17,
+    "difficulty": 66,
+    "durability": 70,
+    "id": "f86ad3787fc",
+    "level": 17,
+    "maxQuality": 898,
+    "name": {
+      "cn": "Altered Cotton Dalmatica",
+      "de": "Bearbeitete Baumwoll-Dalmatika",
+      "en": "Altered Cotton Dalmatica",
+      "fr": "Dalmatique en coton réinventée",
+      "ja": "オルタード・コットンダルマティカ",
+      "ko": "Altered Cotton Dalmatica"
     }
   },
   {
@@ -2285,6 +2317,22 @@
       "fr": "Saroual des ressources en veloutine",
       "ja": "ベルベティーンギャザラーサルエル",
       "ko": "채집가용 우단 헐렁바지"
+    }
+  },
+  {
+    "baseLevel": 26,
+    "difficulty": 90,
+    "durability": 70,
+    "id": "c51ff0d0fee",
+    "level": 26,
+    "maxQuality": 1332,
+    "name": {
+      "cn": "Altered Velveteen Bandana",
+      "de": "Bearbeitetes Samtbandana",
+      "en": "Altered Velveteen Bandana",
+      "fr": "Bandana en veloutine réinventé",
+      "ja": "オルタード・ベルベティーンバンダナ",
+      "ko": "Altered Velveteen Bandana"
     }
   },
   {
@@ -3027,6 +3075,38 @@
     "baseLevel": 31,
     "difficulty": 106,
     "durability": 80,
+    "id": "ff6467456a7",
+    "level": 31,
+    "maxQuality": 1670,
+    "name": {
+      "cn": "Altered Velveteen Hose",
+      "de": "Bearbeitete Samtreiterhose",
+      "en": "Altered Velveteen Hose",
+      "fr": "Braies en veloutine réinventées",
+      "ja": "オルタード・ベルベティーンブリーチ",
+      "ko": "Altered Velveteen Hose"
+    }
+  },
+  {
+    "baseLevel": 31,
+    "difficulty": 106,
+    "durability": 80,
+    "id": "a3be969b95c",
+    "level": 31,
+    "maxQuality": 1670,
+    "name": {
+      "cn": "Velveteen Bliaud",
+      "de": "Samt-Bliaud",
+      "en": "Velveteen Bliaud",
+      "fr": "Bliaud en veloutine",
+      "ja": "ベルベティーンブリオー",
+      "ko": "Velveteen Bliaud"
+    }
+  },
+  {
+    "baseLevel": 31,
+    "difficulty": 106,
+    "durability": 80,
     "id": "1aa928ddea1",
     "level": 31,
     "maxQuality": 1670,
@@ -3053,6 +3133,22 @@
       "fr": "Grègues en veloutine",
       "ja": "ベルベティーンガスキン",
       "ko": "우단 무릎바지"
+    }
+  },
+  {
+    "baseLevel": 31,
+    "difficulty": 106,
+    "durability": 80,
+    "id": "3a290eb5f9f",
+    "level": 31,
+    "maxQuality": 1670,
+    "name": {
+      "cn": "Velveteen Gloves",
+      "de": "Samthandschuhe",
+      "en": "Velveteen Gloves",
+      "fr": "Gants en veloutine",
+      "ja": "ベルベティーングローブ",
+      "ko": "Velveteen Gloves"
     }
   },
   {
@@ -3201,6 +3297,22 @@
   },
   {
     "baseLevel": 33,
+    "difficulty": 199,
+    "durability": 80,
+    "id": "8b339b42df2",
+    "level": 33,
+    "maxQuality": 878,
+    "name": {
+      "cn": "Simple Curtain",
+      "de": "Schlichter Vorhang",
+      "en": "Simple Curtain",
+      "fr": "Rideau simple",
+      "ja": "シンプルカーテン",
+      "ko": "Simple Curtain"
+    }
+  },
+  {
+    "baseLevel": 33,
     "difficulty": 55,
     "durability": 40,
     "id": "cfb2156f70f",
@@ -3245,6 +3357,22 @@
       "fr": "Toit de pavillon en bois sombrelinçois",
       "ja": "シュラウド・ウッドハウス・ルーフ",
       "ko": "숲속의 목조 주택 지붕"
+    }
+  },
+  {
+    "baseLevel": 34,
+    "difficulty": 115,
+    "durability": 80,
+    "id": "5757fcc7042",
+    "level": 34,
+    "maxQuality": 1811,
+    "name": {
+      "cn": "Linen Bandana",
+      "de": "Leinen-Bandana",
+      "en": "Linen Bandana",
+      "fr": "Bandana en lin",
+      "ja": "リネンバンダナ",
+      "ko": "Linen Bandana"
     }
   },
   {
@@ -3325,6 +3453,22 @@
       "fr": "Lit thanalanais",
       "ja": "ザナラーン・ベッド",
       "ko": "다날란 침대"
+    }
+  },
+  {
+    "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "id": "69eb19d7f08",
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "cn": "Altered Linen Chausses",
+      "de": "Bearbeitete Leinen-Chausses",
+      "en": "Altered Linen Chausses",
+      "fr": "Chausses en lin réinventées",
+      "ja": "オルタード・リネンショース",
+      "ko": "Altered Linen Chausses"
     }
   },
   {
@@ -3472,7 +3616,6 @@
     }
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3486,6 +3629,22 @@
       "fr": "Demi-tablier de collection",
       "ja": "ヴィンテージエプロン",
       "ko": "고풍스러운 앞치마"
+    }
+  },
+  {
+    "baseLevel": 36,
+    "difficulty": 124,
+    "durability": 80,
+    "id": "3f830a0c198",
+    "level": 36,
+    "maxQuality": 1882,
+    "name": {
+      "cn": "Altered Linen Cowl",
+      "de": "Bearbeitete Leinenkukulle",
+      "en": "Altered Linen Cowl",
+      "fr": "Coule en lin réinventée",
+      "ja": "オルタード・リネンカウル",
+      "ko": "Altered Linen Cowl"
     }
   },
   {
@@ -3697,7 +3856,6 @@
     }
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 37,
     "difficulty": 128,
     "durability": 80,
@@ -3794,7 +3952,6 @@
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -3824,6 +3981,22 @@
       "fr": "Fil de laine",
       "ja": "毛糸",
       "ko": "털실"
+    }
+  },
+  {
+    "baseLevel": 39,
+    "difficulty": 137,
+    "durability": 80,
+    "id": "da44a6c193d",
+    "level": 39,
+    "maxQuality": 2026,
+    "name": {
+      "cn": "Altered Woolen Shirt",
+      "de": "Bearbeitetes Wollhemd",
+      "en": "Altered Woolen Shirt",
+      "fr": "Chemise en laine réinventée",
+      "ja": "オルタード・ウールシャツ",
+      "ko": "Altered Woolen Shirt"
     }
   },
   {
@@ -4083,7 +4256,6 @@
     }
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
@@ -4161,6 +4333,38 @@
       "fr": "Saroual des ressources en laine",
       "ja": "ウールギャザラーサルエル",
       "ko": "채집가용 양털 헐렁바지"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "id": "68eb6e84192",
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "cn": "Altered Woolen Chausses",
+      "de": "Bearbeitete Woll-Chausses",
+      "en": "Altered Woolen Chausses",
+      "fr": "Chausses en laine réinventées",
+      "ja": "オルタード・ウールショース",
+      "ko": "Altered Woolen Chausses"
+    }
+  },
+  {
+    "baseLevel": 41,
+    "difficulty": 143,
+    "durability": 80,
+    "id": "f5c2b1ac753",
+    "level": 41,
+    "maxQuality": 2109,
+    "name": {
+      "cn": "Altered Woolen Gown",
+      "de": "Bearbeiteter Wolltalar",
+      "en": "Altered Woolen Gown",
+      "fr": "Peignoir en laine réinventé",
+      "ja": "オルタード・ウールガウン",
+      "ko": "Altered Woolen Gown"
     }
   },
   {
@@ -4244,7 +4448,6 @@
     }
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 41,
     "difficulty": 143,
     "durability": 80,
@@ -4306,6 +4509,38 @@
       "fr": "Collants en laine",
       "ja": "ウールタイツ",
       "ko": "양털 쫄바지"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "id": "ead08043fc9",
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "cn": "Altered Woolen Bracers",
+      "de": "Bearbeitete Wollarmschienen",
+      "en": "Altered Woolen Bracers",
+      "fr": "Brassières réinventées",
+      "ja": "オルタード・ウールブレーサー",
+      "ko": "Altered Woolen Bracers"
+    }
+  },
+  {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "id": "cde5293fcea",
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "cn": "Altered Woolen Hat",
+      "de": "Bearbeiteter Wollhut",
+      "en": "Altered Woolen Hat",
+      "fr": "Chapeau en laine réinventé",
+      "ja": "オルタード・ウールハット",
+      "ko": "Altered Woolen Hat"
     }
   },
   {
@@ -4581,6 +4816,38 @@
     }
   },
   {
+    "baseLevel": 42,
+    "difficulty": 144,
+    "durability": 80,
+    "id": "df50bcff43e",
+    "level": 42,
+    "maxQuality": 2147,
+    "name": {
+      "cn": "Woolen Tunic",
+      "de": "Wolltunika",
+      "en": "Woolen Tunic",
+      "fr": "Tunique en laine",
+      "ja": "ウールチュニック",
+      "ko": "Woolen Tunic"
+    }
+  },
+  {
+    "baseLevel": 43,
+    "difficulty": 155,
+    "durability": 80,
+    "id": "5d42f994e63",
+    "level": 43,
+    "maxQuality": 2251,
+    "name": {
+      "cn": "Altered Woolen Trousers",
+      "de": "Bearbeitete Wollhose",
+      "en": "Altered Woolen Trousers",
+      "fr": "Pantalon en laine réinventé",
+      "ja": "オルタード・ウールトラウザー",
+      "ko": "Altered Woolen Trousers"
+    }
+  },
+  {
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -4613,7 +4880,6 @@
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -4790,7 +5056,6 @@
     }
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 44,
     "difficulty": 156,
     "durability": 80,
@@ -4868,6 +5133,22 @@
       "fr": "Sarrau en laine",
       "ja": "ウールスモック",
       "ko": "양모 작업복"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "id": "e5475ab6c3d",
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "cn": "Altered Woolen Cowl",
+      "de": "Bearbeitete Wollkukulle",
+      "en": "Altered Woolen Cowl",
+      "fr": "Coule en laine réinventée",
+      "ja": "オルタード・ウールカウル",
+      "ko": "Altered Woolen Cowl"
     }
   },
   {
@@ -5095,7 +5376,6 @@
     }
   },
   {
-    "aspect": "Wind",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -5240,7 +5520,6 @@
     }
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 46,
     "difficulty": 159,
     "durability": 80,
@@ -5270,6 +5549,38 @@
       "fr": "Revêtement mural à vagues",
       "ja": "ウェーブパターン・インナーウォール",
       "ko": "파도무늬 내벽"
+    }
+  },
+  {
+    "baseLevel": 47,
+    "difficulty": 167,
+    "durability": 80,
+    "id": "d415162f3fd",
+    "level": 47,
+    "maxQuality": 2421,
+    "name": {
+      "cn": "Altered Felt Hat",
+      "de": "Bearbeiteter Filzhut",
+      "en": "Altered Felt Hat",
+      "fr": "Chapeau en feutre réinventé",
+      "ja": "オルタード・フェルトハット",
+      "ko": "Altered Felt Hat"
+    }
+  },
+  {
+    "baseLevel": 47,
+    "difficulty": 167,
+    "durability": 80,
+    "id": "bd90d2ea435",
+    "level": 47,
+    "maxQuality": 2421,
+    "name": {
+      "cn": "Felt Breeches",
+      "de": "Filzreiterhose",
+      "en": "Felt Breeches",
+      "fr": "Braies en feutre",
+      "ja": "フェルトブリーチ",
+      "ko": "Felt Breeches"
     }
   },
   {
@@ -5337,7 +5648,6 @@
     }
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -5351,6 +5661,38 @@
       "fr": "Robe de collection",
       "ja": "ヴィンテージローブ",
       "ko": "고풍스러운 로브"
+    }
+  },
+  {
+    "baseLevel": 47,
+    "difficulty": 167,
+    "durability": 80,
+    "id": "1d785a9baee",
+    "level": 47,
+    "maxQuality": 2421,
+    "name": {
+      "cn": "Woolen Trousers Of Fending",
+      "de": "Wollhose der Verteidigung",
+      "en": "Woolen Trousers Of Fending",
+      "fr": "Pantalon de protecteur en laine",
+      "ja": "ウールディフェンダートラウザー",
+      "ko": "Woolen Trousers Of Fending"
+    }
+  },
+  {
+    "baseLevel": 48,
+    "difficulty": 172,
+    "durability": 80,
+    "id": "4b66110ebd5",
+    "level": 48,
+    "maxQuality": 2524,
+    "name": {
+      "cn": "Altered Felt Robe",
+      "de": "Bearbeitete Filzrobe",
+      "en": "Altered Felt Robe",
+      "fr": "Robe en feutre réinventée",
+      "ja": "オルタード・フェルトローブ",
+      "ko": "Altered Felt Robe"
     }
   },
   {
@@ -5421,6 +5763,22 @@
     "baseLevel": 48,
     "difficulty": 172,
     "durability": 80,
+    "id": "fb64bcb737d",
+    "level": 48,
+    "maxQuality": 2524,
+    "name": {
+      "cn": "Felt Gloves",
+      "de": "Filzhandschuhe",
+      "en": "Felt Gloves",
+      "fr": "Gants en feutre",
+      "ja": "フェルトグローブ",
+      "ko": "Felt Gloves"
+    }
+  },
+  {
+    "baseLevel": 48,
+    "difficulty": 172,
+    "durability": 80,
     "id": "28cb1934575",
     "level": 48,
     "maxQuality": 2524,
@@ -5447,6 +5805,22 @@
       "fr": "Chocobo en peluche",
       "ja": "チョコボのぬいぐるみ",
       "ko": "초코보 봉제인형"
+    }
+  },
+  {
+    "baseLevel": 49,
+    "difficulty": 174,
+    "durability": 80,
+    "id": "78ca710a18f",
+    "level": 49,
+    "maxQuality": 2551,
+    "name": {
+      "cn": "Woolen Bandana",
+      "de": "Wollbandana",
+      "en": "Woolen Bandana",
+      "fr": "Bandana en laine",
+      "ja": "ウールバンダナ",
+      "ko": "Woolen Bandana"
     }
   },
   {
@@ -16162,6 +16536,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "id": "dfda074cfdb",
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Canvas Repair Materials",
+      "de": "Leinwand-Restaurierungsmaterial",
+      "en": "Canvas Repair Materials",
+      "fr": "Matériau de restauration de toile",
+      "ja": "キャンバス修復材",
+      "ko": "Canvas Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2952,
     "durability": 80,
     "id": "7b4426ab608",
@@ -16477,11 +16867,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "99ead077173",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格巧匠打底裤",
       "de": "Mhigische Hose des Handwerks",
@@ -16494,11 +16884,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "09193aae8e0",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格大地打底裤",
       "de": "Mhigische Hose des Eifers",
@@ -16511,11 +16901,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "bb63cdf6c2c",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格大地外套",
       "de": "Mhigischer Mantel des Eifers",
@@ -16528,11 +16918,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "0e11937bdd0",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格巧匠工作坎肩",
       "de": "Mhigische Weste des Handwerks",
@@ -16562,11 +16952,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "f42cbd73d7e",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格巧匠包头巾",
       "de": "Mhigischer Turban des Handwerks",
@@ -16579,11 +16969,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "8b174138a3f",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格大地包头巾",
       "de": "Mhigischer Turban des Eifers",
@@ -16619,12 +17009,12 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "花花公子皱边裤",
+      "cn": "Boulevardier's Ruffled Pantaloons",
       "de": "Boulevardier-Hose",
-      "en": "Boulevardier's Ruffled Pants",
+      "en": "Boulevardier's Ruffled Pantaloons",
       "fr": "Pantalon à froufrous de mondain",
       "ja": "ブレヴァディエ・ラッフルパンツ",
-      "ko": "Boulevardier's Ruffled Pants"
+      "ko": "Boulevardier's Ruffled Pantaloons"
     },
     "stars": 2
   },
@@ -17140,11 +17530,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "1a28f773be6",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "鬼师胴着",
       "de": "Onishi-Dogi",
@@ -17157,11 +17547,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "0a320b57fd6",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "鬼师帽",
       "de": "Onishi-Kasa",
@@ -17174,11 +17564,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "5c18a196686",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "鬼师束裤",
       "de": "Onishi-Momohiki",
@@ -17191,11 +17581,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "90e730c3f29",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "鬼师带",
       "de": "Onishi-Obi",
@@ -17208,11 +17598,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 7097,
+    "difficulty": 3943,
     "durability": 70,
     "id": "eddc9816f46",
     "level": 350,
-    "maxQuality": 9243,
+    "maxQuality": 18487,
     "name": {
       "cn": "雨兜",
       "de": "Regenhaube",
@@ -17225,11 +17615,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 7097,
+    "difficulty": 3943,
     "durability": 70,
     "id": "50ea6c2336e",
     "level": 350,
-    "maxQuality": 9243,
+    "maxQuality": 18487,
     "name": {
       "cn": "雨衣",
       "de": "Regenmantel",
@@ -17280,7 +17670,7 @@
     "durability": 35,
     "id": "39d08025936",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻布",
       "de": "Naturbelassenes Reinleinen",
@@ -17293,11 +17683,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "53766776af4",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻精准马裤",
       "de": "Reinleinen-Reiterhose des Zielens",
@@ -17310,11 +17700,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "57ac086835e",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻咏咒马裤",
       "de": "Reinleinen-Reiterhose der Magie",
@@ -17327,11 +17717,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "fd3ee8b24e8",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻治愈马裤",
       "de": "Reinleinen-Reiterhose der Heilung",
@@ -17344,11 +17734,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "13cb32fa476",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻制敌马裤",
       "de": "Reinleinen-Reiterhose des Verstümmelns",
@@ -17361,11 +17751,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "cced6157116",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻游击马裤",
       "de": "Reinleinen-Reiterhose des Spähens",
@@ -17378,11 +17768,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "e5cbd5ea6af",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻精准无檐帽",
       "de": "Reinleinen-Kappe des Zielens",
@@ -17395,11 +17785,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "a77cfdc54ec",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻游击无檐帽",
       "de": "Reinleinen-Kappe des Spähens",
@@ -17412,11 +17802,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "b552835e726",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻强袭长衣",
       "de": "Reinleinen-Mantel des Schlagens",
@@ -17429,11 +17819,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "159aa366e05",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻咏咒手套",
       "de": "Reinleinen-Handschuhe der Magie",
@@ -17446,11 +17836,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "5b7b43afb0f",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻治愈手套",
       "de": "Reinleinen-Handschuhe der Heilung",
@@ -17463,11 +17853,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "b1579d17f5a",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻强袭半指手套",
       "de": "Reinleinen-Kurzfingerhandschuhe des Schlagens",
@@ -17480,11 +17870,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "2c8b4bbbbc1",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻咏咒宽边帽",
       "de": "Reinleinen-Hut der Magie",
@@ -17497,11 +17887,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "74e6e339e19",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻治愈宽边帽",
       "de": "Reinleinen-Hut der Heilung",
@@ -17514,11 +17904,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "9bd755693cc",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻精准外套",
       "de": "Reinleinen-Jacke des Zielens",
@@ -17531,11 +17921,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "8058429257c",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻游击外套",
       "de": "Reinleinen-Jacke des Spähens",
@@ -17548,11 +17938,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "755f84fa4e9",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻咏咒长袍",
       "de": "Reinleinen-Robe der Magie",
@@ -17565,11 +17955,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "ce92e81223e",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻治愈长袍",
       "de": "Reinleinen-Robe der Heilung",
@@ -17582,11 +17972,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "d99cb991a98",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻御敌长裙",
       "de": "Reinleinen-Rock der Verteidigung",
@@ -17599,11 +17989,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "cb20fa13028",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "真麻强袭软甲裤",
       "de": "Reinleinen-Hose des Schlagens",
@@ -17667,11 +18057,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "c41d134806d",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "山师胴着",
       "de": "Yamashi-Dogi",
@@ -17684,11 +18074,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "6b177e67a57",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "山师束裤",
       "de": "Yamashi-Momohiki",
@@ -17701,11 +18091,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "8ad98e53b48",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "山师带",
       "de": "Yamashi-Obi",
@@ -17718,11 +18108,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "0847156b35e",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹术士道衣",
       "de": "Rakshasa-Dogi der Magie",
@@ -17735,11 +18125,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "46c7c1a1ad3",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹学士道衣",
       "de": "Rakshasa-Dogi der Heilung",
@@ -17752,11 +18142,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "dd2ffac8212",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹弓士袴",
       "de": "Rakshasa-Hakama des Zielens",
@@ -17769,11 +18159,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "ef42eaa2425",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹间士袴",
       "de": "Rakshasa-Hakama des Spähens",
@@ -17786,11 +18176,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "f831afe1566",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹拳士袴",
       "de": "Rakshasa-Hakama des Schlagens",
@@ -17803,11 +18193,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "17e5582f046",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹弓士羽织",
       "de": "Rakshasa-Haori des Zielens",
@@ -17820,11 +18210,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "511224973e2",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹间士羽织",
       "de": "Rakshasa-Haori des Spähens",
@@ -17837,11 +18227,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "2743490e51e",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹拳士羽织",
       "de": "Rakshasa-Haori des Schlagens",
@@ -17854,11 +18244,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "c0d405ee677",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士袈裟",
       "de": "Rakshasa-Kasaya der Verteidigung",
@@ -17871,11 +18261,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "5ff30df95ae",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹枪士袈裟",
       "de": "Rakshasa-Kasaya des Verstümmelns",
@@ -17888,11 +18278,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "ef70fff6eee",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹术士筒袴",
       "de": "Rakshasa-Tsutsu-Hakama der Magie",
@@ -17905,11 +18295,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "5ba46402b55",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士筒袴",
       "de": "Rakshasa-Tsutsu-Hakama der Verteidigung",
@@ -17922,11 +18312,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "bb8922cb8e3",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹学士筒袴",
       "de": "Rakshasa-Tsutsu-Hakama der Heilung",
@@ -17939,11 +18329,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "86bf6e509fb",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹枪士筒袴",
       "de": "Rakshasa-Tsutsu-Hakama des Verstümmelns",
@@ -17994,7 +18384,7 @@
     "durability": 35,
     "id": "55c1781dbe1",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "彗星棉布",
       "de": "Sternenstaub-Baumwollstoff",
@@ -18004,5 +18394,119 @@
       "ko": "Stardust Cotton Cloth"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 2343,
+    "durability": 80,
+    "id": "61433af4196",
+    "level": 400,
+    "maxQuality": 8593,
+    "name": {
+      "cn": "Upholstery Repair Materials",
+      "de": "Innenverkleidung-Restaurierungsmaterial",
+      "en": "Upholstery Repair Materials",
+      "fr": "Matériau de restauration de rembourrage",
+      "ja": "内張りの修復材",
+      "ko": "Upholstery Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "59e5eb3b719",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Amaro Barding Repair Materials",
+      "de": "Amarosattel-Restaurierungsmaterial",
+      "en": "Amaro Barding Repair Materials",
+      "fr": "Matériau de restauration de barde d'amaro",
+      "ja": "アマロ装身具の修復材",
+      "ko": "Amaro Barding Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "22d32b8421c",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Workshop Sign",
+      "de": "Aushängeschild der Erinnerungswerkstatt",
+      "en": "Workshop Sign",
+      "fr": "Enseigne somptueuse",
+      "ja": "工房の看板",
+      "ko": "Workshop Sign"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 2551,
+    "durability": 80,
+    "id": "0d868f63d85",
+    "level": 415,
+    "maxQuality": 9875,
+    "name": {
+      "cn": "Lute Repair Materials",
+      "de": "Lauten-Restaurierungsmaterial",
+      "en": "Lute Repair Materials",
+      "fr": "Matériau de restauration de luth",
+      "ja": "リュートの修復材",
+      "ko": "Lute Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 2760,
+    "durability": 80,
+    "id": "ea1a48f149d",
+    "level": 420,
+    "maxQuality": 11157,
+    "name": {
+      "cn": "Lute Modification Component",
+      "de": "Lauten-Komponente",
+      "en": "Lute Modification Component",
+      "fr": "Composant de luth",
+      "ja": "リュートの調整部材",
+      "ko": "Lute Modification Component"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4143,
+    "durability": 70,
+    "id": "87959d628cf",
+    "level": 430,
+    "maxQuality": 21841,
+    "name": {
+      "cn": "Cropped Summer Indigo Slops",
+      "de": "Indigofarbene Sommerhose",
+      "en": "Cropped Summer Indigo Slops",
+      "fr": "Pantalon court d'été bleu azur",
+      "ja": "サマーインディゴ・クロップドパンツ",
+      "ko": "Cropped Summer Indigo Slops"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4143,
+    "durability": 70,
+    "id": "8c859d08e7a",
+    "level": 430,
+    "maxQuality": 21841,
+    "name": {
+      "cn": "Summer Indigo Shirt",
+      "de": "Indigofarbenes Sommerhemd",
+      "en": "Summer Indigo Shirt",
+      "fr": "Chemise d'été bleu azur",
+      "ja": "サマーインディゴシャツ",
+      "ko": "Summer Indigo Shirt"
+    },
+    "stars": 1
   }
 ]
