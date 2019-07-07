@@ -18396,6 +18396,694 @@
     "stars": 4
   },
   {
+    "baseLevel": 71,
+    "difficulty": 1574,
+    "durability": 40,
+    "id": "0d3c33e6295",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Bright Linen Cloth",
+      "de": "Kreideleinen",
+      "en": "Bright Linen Cloth",
+      "fr": "Étoffe de lin blanc",
+      "ja": "白亜麻布",
+      "ko": "Bright Linen Cloth"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 1574,
+    "durability": 40,
+    "id": "15617553366",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Bright Linen Yarn",
+      "de": "Kreideleinengarn",
+      "en": "Bright Linen Yarn",
+      "fr": "Fil de lin blanc",
+      "ja": "白亜麻糸",
+      "ko": "Bright Linen Yarn"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "f1c2678de97",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Bottoms of Aiming",
+      "de": "Weißhanf-Beinlinge des Zielens",
+      "en": "Brightlinen Bottoms of Aiming",
+      "fr": "Bas-de-corps de pisteur en lin blanc",
+      "ja": "ホワイトヘンプ・レンジャーボトム",
+      "ko": "Brightlinen Bottoms of Aiming"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "133acd3ef42",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Bottoms of Crafting",
+      "de": "Weißhanf-Hose des Handwerks",
+      "en": "Brightlinen Bottoms of Crafting",
+      "fr": "Bas-de-corps des créations en lin blanc",
+      "ja": "ホワイトヘンプ・クラフターボトム",
+      "ko": "Brightlinen Bottoms of Crafting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "21ed2e68489",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Bottoms of Gathering",
+      "de": "Weißhanf-Hose des Eifers",
+      "en": "Brightlinen Bottoms of Gathering",
+      "fr": "Bas-de-corps des ressources en lin blanc",
+      "ja": "ホワイトヘンプ・ギャザラーボトム",
+      "ko": "Brightlinen Bottoms of Gathering"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "d84462168a3",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Bottoms of Striking",
+      "de": "Weißhanf-Hose des Schlagens",
+      "en": "Brightlinen Bottoms of Striking",
+      "fr": "Bas-de-corps d'agresseur en lin blanc",
+      "ja": "ホワイトヘンプ・ストライカーボトム",
+      "ko": "Brightlinen Bottoms of Striking"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "7c7976efe1c",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Cap of Casting",
+      "de": "Weißhanf-Kappe der Magie",
+      "en": "Brightlinen Cap of Casting",
+      "fr": "Chapeau d'incantateur en lin blanc",
+      "ja": "ホワイトヘンプ・キャスターキャップ",
+      "ko": "Brightlinen Cap of Casting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "f03c2efb4a0",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Cap of Healing",
+      "de": "Weißhanf-Kappe der Heilung",
+      "en": "Brightlinen Cap of Healing",
+      "fr": "Chapeau de soigneur en lin blanc",
+      "ja": "ホワイトヘンプ・ヒーラーキャップ",
+      "ko": "Brightlinen Cap of Healing"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "618e0d3a5c6",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Coat of Gathering",
+      "de": "Weißhanf-Mantel des Eifers",
+      "en": "Brightlinen Coat of Gathering",
+      "fr": "Manteau des ressources en lin blanc",
+      "ja": "ホワイトヘンプ・ギャザラーコート",
+      "ko": "Brightlinen Coat of Gathering"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "e7d9f27a4c9",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Cyclas of Casting",
+      "de": "Weißhanf-Cyclas der Magie",
+      "en": "Brightlinen Cyclas of Casting",
+      "fr": "Cyclas d'incantateur en lin blanc",
+      "ja": "ホワイトヘンプ・キャスターシクラス",
+      "ko": "Brightlinen Cyclas of Casting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "a55cec9a4ee",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Cyclas of Healing",
+      "de": "Weißhanf-Cyclas der Heilung",
+      "en": "Brightlinen Cyclas of Healing",
+      "fr": "Cyclas de soigneur en lin blanc",
+      "ja": "ホワイトヘンプ・ヒーラーシクラス",
+      "ko": "Brightlinen Cyclas of Healing"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "619c44c2f5a",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Doublet Vest of Crafting",
+      "de": "Weißhanf-Wams des Handwerks",
+      "en": "Brightlinen Doublet Vest of Crafting",
+      "fr": "Doublet des créations en lin blanc",
+      "ja": "ホワイトヘンプ・クラフターダブレット",
+      "ko": "Brightlinen Doublet Vest of Crafting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "57a1333d3c2",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Gambison of Scouting",
+      "de": "Weißhanf-Gambeson des Spähens",
+      "en": "Brightlinen Gambison of Scouting",
+      "fr": "Gambison d'éclaireur en lin blanc",
+      "ja": "ホワイトヘンプ・スカウトガンビスン",
+      "ko": "Brightlinen Gambison of Scouting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "3ae5cd824d7",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Himation of Aiming",
+      "de": "Weißhanf-Mantel des Zielens",
+      "en": "Brightlinen Himation of Aiming",
+      "fr": "Himation de pisteur en lin blanc",
+      "ja": "ホワイトヘンプ・レンジャーヒマティオン",
+      "ko": "Brightlinen Himation of Aiming"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "f1783d113fd",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Himation of Striking",
+      "de": "Weißhanf-Himation des Schlagens",
+      "en": "Brightlinen Himation of Striking",
+      "fr": "Himation d'agresseur en lin blanc",
+      "ja": "ホワイトヘンプ・ストライカーヒマティオン",
+      "ko": "Brightlinen Himation of Striking"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "6a406da7ad5",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Hood of Aiming",
+      "de": "Weißhanf-Augenklappe des Zielens",
+      "en": "Brightlinen Hood of Aiming",
+      "fr": "Capuche de pisteur en lin blanc",
+      "ja": "ホワイトヘンプ・レンジャーフード",
+      "ko": "Brightlinen Hood of Aiming"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "50149611ecd",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Hood of Striking",
+      "de": "Weißhanf-Haube des Schlagens",
+      "en": "Brightlinen Hood of Striking",
+      "fr": "Capuche d'agresseur en lin blanc",
+      "ja": "ホワイトヘンプ・ストライカーフード",
+      "ko": "Brightlinen Hood of Striking"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "4b6ca22efba",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Hose of Casting",
+      "de": "Weißhanf-Hose der Magie",
+      "en": "Brightlinen Hose of Casting",
+      "fr": "Fuseau d'incantateur en lin blanc",
+      "ja": "ホワイトヘンプ・キャスターホーズ",
+      "ko": "Brightlinen Hose of Casting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "96e9d85bac8",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Hose of Healing",
+      "de": "Weißhanf-Hose der Heilung",
+      "en": "Brightlinen Hose of Healing",
+      "fr": "Fuseau de soigneur en lin blanc",
+      "ja": "ホワイトヘンプ・ヒーラーホーズ",
+      "ko": "Brightlinen Hose of Healing"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "27fb2f1238f",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Hose of Scouting",
+      "de": "Weißhanf-Hose des Spähens",
+      "en": "Brightlinen Hose of Scouting",
+      "fr": "Fuseau d'éclaireur en lin blanc",
+      "ja": "ホワイトヘンプ・スカウトホーズ",
+      "ko": "Brightlinen Hose of Scouting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "2c242e88b43",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Long Gloves of Aiming",
+      "de": "Weißhanf-Handschuhe des Zielens",
+      "en": "Brightlinen Long Gloves of Aiming",
+      "fr": "Passe-coudes de pisteur en lin blanc",
+      "ja": "ホワイトヘンプ・レンジャーロンググローブ",
+      "ko": "Brightlinen Long Gloves of Aiming"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "3ccdaefaeac",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Long Gloves of Striking",
+      "de": "Weißhanf-Armstulpen des Schlagens",
+      "en": "Brightlinen Long Gloves of Striking",
+      "fr": "Passe-coudes d'agresseur en lin blanc",
+      "ja": "ホワイトヘンプ・ストライカーロンググローブ",
+      "ko": "Brightlinen Long Gloves of Striking"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "2c9e8797393",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Tabard of Maiming",
+      "de": "Weißeichen-Waffenrock des Verstümmelns",
+      "en": "Brightlinen Tabard of Maiming",
+      "fr": "Tabard d'abatteur en lin blanc",
+      "ja": "ホワイトヘンプ・スレイヤータバード",
+      "ko": "Brightlinen Tabard of Maiming"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "22f5b937a40",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Turban of Crafting",
+      "de": "Weißhanf-Turban des Handwerks",
+      "en": "Brightlinen Turban of Crafting",
+      "fr": "Turban des créations en lin blanc",
+      "ja": "ホワイトヘンプ・クラフターターバン",
+      "ko": "Brightlinen Turban of Crafting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "c89635e6fad",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Brightlinen Turban of Gathering",
+      "de": "Weißhanf-Turban des Eifers",
+      "en": "Brightlinen Turban of Gathering",
+      "fr": "Turban des ressources en lin blanc",
+      "ja": "ホワイトヘンプ・ギャザラーターバン",
+      "ko": "Brightlinen Turban of Gathering"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "0c879416afa",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Iridescent Hat of Aiming",
+      "de": "Schillerseiden-Hut des Zielens",
+      "en": "Iridescent Hat of Aiming",
+      "fr": "Chapeau de pisteur en soie iridescente",
+      "ja": "イリディセントレンジャーハット",
+      "ko": "Iridescent Hat of Aiming"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "8ed8f923ba3",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Iridescent Hat of Casting",
+      "de": "Schillerseiden-Hut der Magie",
+      "en": "Iridescent Hat of Casting",
+      "fr": "Chapeau d'incantateur en soie iridescente",
+      "ja": "イリディセントキャスターハット",
+      "ko": "Iridescent Hat of Casting"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "2906363e34e",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Iridescent Hat of Healing",
+      "de": "Schillerseiden-Hut der Heilung",
+      "en": "Iridescent Hat of Healing",
+      "fr": "Chapeau de soigneur en soie iridescente",
+      "ja": "イリディセントヒーラーハット",
+      "ko": "Iridescent Hat of Healing"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "b4a619cde53",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Iridescent Hat of Scouting",
+      "de": "Schillerseiden-Hut des Spähens",
+      "en": "Iridescent Hat of Scouting",
+      "fr": "Chapeau d'éclaireur en soie iridescente",
+      "ja": "イリディセントスカウトハット",
+      "ko": "Iridescent Hat of Scouting"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "244720332e8",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Iridescent Hat of Striking",
+      "de": "Schillerseiden-Hut des Schlagens",
+      "en": "Iridescent Hat of Striking",
+      "fr": "Chapeau d'agresseur en soie iridescente",
+      "ja": "イリディセントストライカーハット",
+      "ko": "Iridescent Hat of Striking"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "588edb965e0",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Iridescent Hood of Maiming",
+      "de": "Schillerseiden-Haube des Verstümmelns",
+      "en": "Iridescent Hood of Maiming",
+      "fr": "Capuche d'abatteur en soie iridescente",
+      "ja": "イリディセントスレイヤーフード",
+      "ko": "Iridescent Hood of Maiming"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 1624,
+    "durability": 40,
+    "id": "1f540b1f4bf",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Iridescent Silk",
+      "de": "Spektralseide",
+      "en": "Iridescent Silk",
+      "fr": "Étoffe de soie iridescente",
+      "ja": "虹繭布",
+      "ko": "Iridescent Silk"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 1624,
+    "durability": 40,
+    "id": "0432b382edb",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Iridescent Silk Thread",
+      "de": "Spektralseidengarn",
+      "en": "Iridescent Silk Thread",
+      "fr": "Fil de soie iridescente",
+      "ja": "虹繭糸",
+      "ko": "Iridescent Silk Thread"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "dd3308c4981",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Acton of Aiming",
+      "de": "Schillerseiden-Gambeson des Zielens",
+      "en": "Iridescent Acton of Aiming",
+      "fr": "Doublet armant de pisteur en soie iridescente",
+      "ja": "イリディセントレンジャーアクトン",
+      "ko": "Iridescent Acton of Aiming"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "5f75d695761",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Acton of Scouting",
+      "de": "Schillerseiden-Gambeson des Spähens",
+      "en": "Iridescent Acton of Scouting",
+      "fr": "Doublet armant d'éclaireur en soie iridescente",
+      "ja": "イリディセントスカウトアクトン",
+      "ko": "Iridescent Acton of Scouting"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "d14a76286d7",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Acton of Striking",
+      "de": "Schillerseiden-Gambeson des Schlagens",
+      "en": "Iridescent Acton of Striking",
+      "fr": "Doublet armant d'agresseur en soie iridescente",
+      "ja": "イリディセントストライカーアクトン",
+      "ko": "Iridescent Acton of Striking"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "08ba8bef444",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Bottoms of Aiming",
+      "de": "Schillerseiden-Hose des Zielens",
+      "en": "Iridescent Bottoms of Aiming",
+      "fr": "Bas-de-corps de pisteur en soie iridescente",
+      "ja": "イリディセントレンジャーボトム",
+      "ko": "Iridescent Bottoms of Aiming"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "46787c67fc0",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Bottoms of Casting",
+      "de": "Schillerseiden-Hose der Magie",
+      "en": "Iridescent Bottoms of Casting",
+      "fr": "Bas-de-corps d'incantateur en soie iridescente",
+      "ja": "イリディセントキャスターボトム",
+      "ko": "Iridescent Bottoms of Casting"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "d5e425b5997",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Bottoms of Healing",
+      "de": "Schillerseiden-Hose der Heilung",
+      "en": "Iridescent Bottoms of Healing",
+      "fr": "Bas-de-corps de soigneur en soie iridescente",
+      "ja": "イリディセントヒーラーボトム",
+      "ko": "Iridescent Bottoms of Healing"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "564cbc0d71e",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Bottoms of Scouting",
+      "de": "Schillerseiden-Hose des Spähens",
+      "en": "Iridescent Bottoms of Scouting",
+      "fr": "Bas-de-corps d'éclaireur en soie iridescente",
+      "ja": "イリディセントスカウトボトム",
+      "ko": "Iridescent Bottoms of Scouting"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "be4409ea9c8",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Bottoms of Striking",
+      "de": "Schillerseiden-Hose des Schlagens",
+      "en": "Iridescent Bottoms of Striking",
+      "fr": "Bas-de-corps d'agresseur en soie iridescente",
+      "ja": "イリディセントストライカーボトム",
+      "ko": "Iridescent Bottoms of Striking"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "04c8e087c62",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Top of Casting",
+      "de": "Schillerseiden-Oberteil der Magie",
+      "en": "Iridescent Top of Casting",
+      "fr": "Haut-de-corps d'incantateur en soie iridescente",
+      "ja": "イリディセントキャスタートップス",
+      "ko": "Iridescent Top of Casting"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "338c7387f5a",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Iridescent Top of Healing",
+      "de": "Schillerseiden-Oberteil der Heilung",
+      "en": "Iridescent Top of Healing",
+      "fr": "Haut-de-corps de soigneur en soie iridescente",
+      "ja": "イリディセントヒーラートップス",
+      "ko": "Iridescent Top of Healing"
+    }
+  },
+  {
     "baseLevel": 73,
     "difficulty": 2343,
     "durability": 80,
@@ -18409,6 +19097,166 @@
       "fr": "Matériau de restauration de rembourrage",
       "ja": "内張りの修復材",
       "ko": "Upholstery Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 1703,
+    "durability": 40,
+    "id": "410d74416bf",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Cotton",
+      "de": "Pixie-Baumwollstoff",
+      "en": "Pixie Cotton",
+      "fr": "Étoffe de coton pixie",
+      "ja": "妖綿布",
+      "ko": "Pixie Cotton"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "c46c31bd87c",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Cotton Apron of Crafting",
+      "de": "Pixiebaumwoll-Schürze des Handwerks",
+      "en": "Pixie Cotton Apron of Crafting",
+      "fr": "Tablier des créations en coton pixie",
+      "ja": "ピクシーコットン・クラフターエプロン",
+      "ko": "Pixie Cotton Apron of Crafting"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "648c4c38d4a",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Cotton Breeches of Crafting",
+      "de": "Pixiebaumwoll-Reiterhose des Handwerks",
+      "en": "Pixie Cotton Breeches of Crafting",
+      "fr": "Braies des créations en coton pixie",
+      "ja": "ピクシーコットン・クラフターブリーチ",
+      "ko": "Pixie Cotton Breeches of Crafting"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "daba66a1059",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Cotton Hat of Crafting",
+      "de": "Pixiebaumwoll-Hut des Handwerks",
+      "en": "Pixie Cotton Hat of Crafting",
+      "fr": "Chapeau des créations en coton pixie",
+      "ja": "ピクシーコットン・クラフターハット",
+      "ko": "Pixie Cotton Hat of Crafting"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "971a9f5216d",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Cotton Hat of Striking",
+      "de": "Pixiebaumwoll-Hut des Schlagens",
+      "en": "Pixie Cotton Hat of Striking",
+      "fr": "Chapeau d'agresseur en coton pixie",
+      "ja": "ピクシーコットン・ストライカーハット",
+      "ko": "Pixie Cotton Hat of Striking"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "e2aee64f644",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Cotton Hood of Healing",
+      "de": "Pixiebaumwoll-Haube der Heilung",
+      "en": "Pixie Cotton Hood of Healing",
+      "fr": "Capuche de soigneur en coton pixie",
+      "ja": "ピクシーコットン・ヒーラーフード",
+      "ko": "Pixie Cotton Hood of Healing"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "5106ecfceb8",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Cotton Sleeves of Crafting",
+      "de": "Pixiebaumwoll-Handschuhe des Handwerks",
+      "en": "Pixie Cotton Sleeves of Crafting",
+      "fr": "Gants longs des créations en coton pixie",
+      "ja": "ピクシーコットン・クラフタースリーヴ",
+      "ko": "Pixie Cotton Sleeves of Crafting"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "20ac30ae60e",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Cotton Sleeves of Striking",
+      "de": "Pixiebaumwoll-Handschuhe des Schlagens",
+      "en": "Pixie Cotton Sleeves of Striking",
+      "fr": "Gants longs d'agresseur en coton pixie",
+      "ja": "ピクシーコットン・ストライカースリーヴ",
+      "ko": "Pixie Cotton Sleeves of Striking"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "bb4d2bf45a4",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Cotton Slops of Gathering",
+      "de": "Pixiebaumwoll-Beinlinge des Eifers",
+      "en": "Pixie Cotton Slops of Gathering",
+      "fr": "Trousses des ressources en coton pixie",
+      "ja": "ピクシーコットン・ギャザラースロップ",
+      "ko": "Pixie Cotton Slops of Gathering"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 1703,
+    "durability": 40,
+    "id": "949c0310348",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Floss",
+      "de": "Pixie-Baumwollgarn",
+      "en": "Pixie Floss",
+      "fr": "Fil de coton pixie",
+      "ja": "妖綿糸",
+      "ko": "Pixie Floss"
     }
   },
   {
@@ -18429,6 +19277,134 @@
   },
   {
     "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "c1d0a3829ac",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Pixie Cotton Acton of Striking",
+      "de": "Pixiebaumwoll-Gambeson des Schlagens",
+      "en": "Pixie Cotton Acton of Striking",
+      "fr": "Doublet armant d'agresseur en coton pixie",
+      "ja": "ピクシーコットン・ストライカーアクトン",
+      "ko": "Pixie Cotton Acton of Striking"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "897572e394e",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Pixie Cotton Brais of Aiming",
+      "de": "Pixiebaumwoll-Braies des Zielens",
+      "en": "Pixie Cotton Brais of Aiming",
+      "fr": "Brailles de pisteur en coton pixie",
+      "ja": "ピクシーコットン・レンジャーブレー",
+      "ko": "Pixie Cotton Brais of Aiming"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "dc33e36c8e7",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Pixie Cotton Brais of Scouting",
+      "de": "Pixiebaumwoll-Braies des Spähens",
+      "en": "Pixie Cotton Brais of Scouting",
+      "fr": "Brailles d'éclaireur en coton pixie",
+      "ja": "ピクシーコットン・スカウトブレー",
+      "ko": "Pixie Cotton Brais of Scouting"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "7592e8fe606",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Pixie Cotton Culottes of Striking",
+      "de": "Pixiebaumwoll-Kniebundhose des Schlagens",
+      "en": "Pixie Cotton Culottes of Striking",
+      "fr": "Culotte d'agresseur en coton pixie",
+      "ja": "ピクシーコットン・ストライカーキュロット",
+      "ko": "Pixie Cotton Culottes of Striking"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "e9c355443d2",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Pixie Cotton Robe of Healing",
+      "de": "Pixiebaumwoll-Robe der Heilung",
+      "en": "Pixie Cotton Robe of Healing",
+      "fr": "Robe de soigneur en coton pixie",
+      "ja": "ピクシーコットン・ヒーラーローブ",
+      "ko": "Pixie Cotton Robe of Healing"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "fcd2a1ac6f8",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Pixie Cotton Sash",
+      "de": "Pixie-Baumwoll-Schärpe",
+      "en": "Pixie Cotton Sash",
+      "fr": "Écharpe en coton pixie",
+      "ja": "ピクシーコットンサッシュ",
+      "ko": "Pixie Cotton Sash"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "ea1efa5be04",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Pixie Cotton Slops of Casting",
+      "de": "Pixiebaumwoll-Beinlinge der Magie",
+      "en": "Pixie Cotton Slops of Casting",
+      "fr": "Trousses d'incantateur en coton pixie",
+      "ja": "ピクシーコットン・キャスタースロップ",
+      "ko": "Pixie Cotton Slops of Casting"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "3a8959b41bc",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Pixie Cotton Slops of Healing",
+      "de": "Pixiebaumwoll-Beinlinge der Heilung",
+      "en": "Pixie Cotton Slops of Healing",
+      "fr": "Trousses de soigneur en coton pixie",
+      "ja": "ピクシーコットン・ヒーラースロップ",
+      "ko": "Pixie Cotton Slops of Healing"
+    }
+  },
+  {
+    "baseLevel": 75,
     "difficulty": 2426,
     "durability": 80,
     "id": "22d32b8421c",
@@ -18441,6 +19417,502 @@
       "fr": "Enseigne somptueuse",
       "ja": "工房の看板",
       "ko": "Workshop Sign"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 1763,
+    "durability": 40,
+    "id": "b10b1891d15",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool",
+      "de": "Bockwollstoff",
+      "en": "Ovim Wool",
+      "fr": "Étoffe de laine d'ovim",
+      "ja": "山羊毛布",
+      "ko": "Ovim Wool"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "d6d0202ebba",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Bottoms of Aiming",
+      "de": "Ovimwoll-Hose des Zielens",
+      "en": "Ovim Wool Bottoms of Aiming",
+      "fr": "Bas-de-corps de pisteur en laine d'ovim",
+      "ja": "オヴィムレンジャーボトム",
+      "ko": "Ovim Wool Bottoms of Aiming"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "2325ac2657f",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Bottoms of Casting",
+      "de": "Ovimwoll-Hose der Magie",
+      "en": "Ovim Wool Bottoms of Casting",
+      "fr": "Bas-de-corps d'incantateur en laine d'ovim",
+      "ja": "オヴィムキャスターボトム",
+      "ko": "Ovim Wool Bottoms of Casting"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "2751a94b352",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Bottoms of Scouting",
+      "de": "Ovimwoll-Hose des Spähens",
+      "en": "Ovim Wool Bottoms of Scouting",
+      "fr": "Bas-de-corps d'éclaireur en laine d'ovim",
+      "ja": "オヴィムスカウトボトム",
+      "ko": "Ovim Wool Bottoms of Scouting"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "6ff51f7b371",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Jacket of Scouting",
+      "de": "Ovimwoll-Jacke des Spähens",
+      "en": "Ovim Wool Jacket of Scouting",
+      "fr": "Jaque d'éclaireur en laine d'ovim",
+      "ja": "オヴィムスカウトジャケット",
+      "ko": "Ovim Wool Jacket of Scouting"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "e64baec3736",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Muffed Met of Casting",
+      "de": "Ovimwoll-Kappe der Magie",
+      "en": "Ovim Wool Muffed Met of Casting",
+      "fr": "Bonnet cache-oreilles d'incantateur en laine d'ovim",
+      "ja": "オヴィムキャスターマフメット",
+      "ko": "Ovim Wool Muffed Met of Casting"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "7ffb459af1d",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Muffed Met of Healing",
+      "de": "Ovimwoll-Haube der Heilung",
+      "en": "Ovim Wool Muffed Met of Healing",
+      "fr": "Bonnet cache-oreilles de soigneur en laine d'ovim",
+      "ja": "オヴィムヒーラーマフメット",
+      "ko": "Ovim Wool Muffed Met of Healing"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "ddfcda85f40",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Skirt of Healing",
+      "de": "Ovimwoll-Rock der Heilung",
+      "en": "Ovim Wool Skirt of Healing",
+      "fr": "Jupe de soigneur en laine d'ovim",
+      "ja": "オヴィムヒーラースカート",
+      "ko": "Ovim Wool Skirt of Healing"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "c649adf7754",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Tunic of Aiming",
+      "de": "Ovimwoll-Mantel des Zielens",
+      "en": "Ovim Wool Tunic of Aiming",
+      "fr": "Tunique de pisteur en laine d'ovim",
+      "ja": "オヴィムレンジャーチュニック",
+      "ko": "Ovim Wool Tunic of Aiming"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "59f79fbb760",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Tunic of Casting",
+      "de": "Ovimwoll-Tunika der Magie",
+      "en": "Ovim Wool Tunic of Casting",
+      "fr": "Tunique d'incantateur en laine d'ovim",
+      "ja": "オヴィムキャスターチュニック",
+      "ko": "Ovim Wool Tunic of Casting"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "3a362267c48",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Ushanka of Aiming",
+      "de": "Ovimwoll-Uschanka des Zielens",
+      "en": "Ovim Wool Ushanka of Aiming",
+      "fr": "Ouchanka de pisteur en laine d'ovim",
+      "ja": "オヴィムレンジャーウシャンカ",
+      "ko": "Ovim Wool Ushanka of Aiming"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 1763,
+    "durability": 40,
+    "id": "533ec63e799",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Ovim Wool Yarn",
+      "de": "Bockwollgarn",
+      "en": "Ovim Wool Yarn",
+      "fr": "Fil de laine d'ovim",
+      "ja": "山羊毛糸",
+      "ko": "Ovim Wool Yarn"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "523546c6ef2",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Bottoms of Fending",
+      "de": "Zonurenleder-Hose der Verteidigung",
+      "en": "Ovim Wool Bottoms of Fending",
+      "fr": "Bas-de-corps de protecteur en laine d'ovim",
+      "ja": "オヴィムディフェンダーボトム",
+      "ko": "Ovim Wool Bottoms of Fending"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "98349f0b2ac",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Bottoms of Maiming",
+      "de": "Zonurenleder-Hose des Verstümmelns",
+      "en": "Ovim Wool Bottoms of Maiming",
+      "fr": "Bas-de-corps d'abatteur en laine d'ovim",
+      "ja": "オヴィムスレイヤーボトム",
+      "ko": "Ovim Wool Bottoms of Maiming"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "a9a99b65769",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Coat of Healing",
+      "de": "Ovimwoll-Mantel der Heilung",
+      "en": "Ovim Wool Coat of Healing",
+      "fr": "Manteau de soigneur en laine d'ovim",
+      "ja": "オヴィムヒーラーコート",
+      "ko": "Ovim Wool Coat of Healing"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "819dd263ec8",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Coat of Striking",
+      "de": "Ovimwoll-Mantel des Schlagens",
+      "en": "Ovim Wool Coat of Striking",
+      "fr": "Manteau d'agresseur en laine d'ovim",
+      "ja": "オヴィムストライカーコート",
+      "ko": "Ovim Wool Coat of Striking"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "213a67a7a26",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Gaskins of Crafting",
+      "de": "Ovimwoll-Reiterhose des Handwerks",
+      "en": "Ovim Wool Gaskins of Crafting",
+      "fr": "Grègues des créations en laine d'ovim",
+      "ja": "オヴィムクラフターガスキン",
+      "ko": "Ovim Wool Gaskins of Crafting"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "7ad2a91c4ff",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Gaskins of Gathering",
+      "de": "Ovimwoll-Beinlinge des Eifers",
+      "en": "Ovim Wool Gaskins of Gathering",
+      "fr": "Grègues des ressources en laine d'ovim",
+      "ja": "オヴィムギャザラーガスキン",
+      "ko": "Ovim Wool Gaskins of Gathering"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "e76fd3fe315",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Skirt of Striking",
+      "de": "Ovimwoll-Rock des Schlagens",
+      "en": "Ovim Wool Skirt of Striking",
+      "fr": "Jupe d'agresseur en laine d'ovim",
+      "ja": "オヴィムストライカースカート",
+      "ko": "Ovim Wool Skirt of Striking"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "19b732026c3",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Turban of Crafting",
+      "de": "Ovimwoll-Hut des Handwerks",
+      "en": "Ovim Wool Turban of Crafting",
+      "fr": "Turban des créations en laine d'ovim",
+      "ja": "オヴィムクラフターターバン",
+      "ko": "Ovim Wool Turban of Crafting"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "5945529dd36",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Turban of Gathering",
+      "de": "Ovimwoll-Kappe des Eifers",
+      "en": "Ovim Wool Turban of Gathering",
+      "fr": "Turban des ressources en laine d'ovim",
+      "ja": "オヴィムギャザラーターバン",
+      "ko": "Ovim Wool Turban of Gathering"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "a60393534d8",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Ovim Wool Ushanka of Striking",
+      "de": "Ovimwoll-Uschanka des Schlagens",
+      "en": "Ovim Wool Ushanka of Striking",
+      "fr": "Ouchanka d'agresseur en laine d'ovim",
+      "ja": "オヴィムストライカーウシャンカ",
+      "ko": "Ovim Wool Ushanka of Striking"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1822,
+    "durability": 40,
+    "id": "da17b5d43e4",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Cotton",
+      "de": "Zwergenwollstoff",
+      "en": "Dwarven Cotton",
+      "fr": "Étoffe de coton nain",
+      "ja": "ドワーフ綿布",
+      "ko": "Dwarven Cotton"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "525d3ef4d00",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Cotton Gaskins of Casting",
+      "de": "Zwergenbaumwoll-Gaskin der Magie",
+      "en": "Dwarven Cotton Gaskins of Casting",
+      "fr": "Grègues d'incantateur en coton nain",
+      "ja": "ドワーフコットン・キャスターガスキン",
+      "ko": "Dwarven Cotton Gaskins of Casting"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "bf6c3651ba2",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Cotton Gaskins of Fending",
+      "de": "Edelmithril-Gaskin der Verteidigung",
+      "en": "Dwarven Cotton Gaskins of Fending",
+      "fr": "Grègues de protecteur en coton nain",
+      "ja": "ドワーフコットン・ディフェンダーガスキン",
+      "ko": "Dwarven Cotton Gaskins of Fending"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "8058b3c0c0c",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Cotton Gaskins of Healing",
+      "de": "Zwergenbaumwoll-Gaskin der Heilung",
+      "en": "Dwarven Cotton Gaskins of Healing",
+      "fr": "Grègues de soigneur en coton nain",
+      "ja": "ドワーフコットン・ヒーラーガスキン",
+      "ko": "Dwarven Cotton Gaskins of Healing"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "6cdddeaf060",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Cotton Gaskins of Maiming",
+      "de": "Zwergenbaumwoll-Gaskin des Verstümmelns",
+      "en": "Dwarven Cotton Gaskins of Maiming",
+      "fr": "Grègues d'abatteur en coton nain",
+      "ja": "ドワーフコットン・スレイヤーガスキン",
+      "ko": "Dwarven Cotton Gaskins of Maiming"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "f3b614ed7e3",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Cotton Gaskins of Striking",
+      "de": "Zwergenbaumwoll-Gaskin des Schlagens",
+      "en": "Dwarven Cotton Gaskins of Striking",
+      "fr": "Grègues d'agresseur en coton nain",
+      "ja": "ドワーフコットン・ストライカーガスキン",
+      "ko": "Dwarven Cotton Gaskins of Striking"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "cc7aeb89933",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Cotton Petasos of Casting",
+      "de": "Zwergenbaumwoll-Petasos der Magie",
+      "en": "Dwarven Cotton Petasos of Casting",
+      "fr": "Pétase d'incantateur en coton nain",
+      "ja": "ドワーフコットン・キャスターペタソス",
+      "ko": "Dwarven Cotton Petasos of Casting"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "fe9848376cc",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Cotton Petasos of Healing",
+      "de": "Zwergenbaumwoll-Petasos der Heilung",
+      "en": "Dwarven Cotton Petasos of Healing",
+      "fr": "Pétase de soigneur en coton nain",
+      "ja": "ドワーフコットン・ヒーラーペタソス",
+      "ko": "Dwarven Cotton Petasos of Healing"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1822,
+    "durability": 40,
+    "id": "651199aa58e",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Cotton Thread",
+      "de": "Zwergenwollgarn",
+      "en": "Dwarven Cotton Thread",
+      "fr": "Fil de coton nain",
+      "ja": "ドワーフ綿糸",
+      "ko": "Dwarven Cotton Thread"
     }
   },
   {
@@ -18457,6 +19929,150 @@
       "fr": "Matériau de restauration de luth",
       "ja": "リュートの修復材",
       "ko": "Lute Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "1ddd76914ee",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Cotton Gaskins of Aiming",
+      "de": "Zwergenbaumwoll-Gaskin des Zielens",
+      "en": "Dwarven Cotton Gaskins of Aiming",
+      "fr": "Grègues de pisteur en coton nain",
+      "ja": "ドワーフコットン・レンジャーガスキン",
+      "ko": "Dwarven Cotton Gaskins of Aiming"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "9b186da8ab3",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Cotton Gaskins of Scouting",
+      "de": "Zwergenbaumwoll-Gaskin des Spähens",
+      "en": "Dwarven Cotton Gaskins of Scouting",
+      "fr": "Grègues d'éclaireur en coton nain",
+      "ja": "ドワーフコットン・スカウトガスキン",
+      "ko": "Dwarven Cotton Gaskins of Scouting"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "223881c3446",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Cotton Turban of Aiming",
+      "de": "Zwergenbaumwoll-Turban des Zielens",
+      "en": "Dwarven Cotton Turban of Aiming",
+      "fr": "Turban de pisteur en coton nain",
+      "ja": "ドワーフコットン・レンジャーターバン",
+      "ko": "Dwarven Cotton Turban of Aiming"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "5b3e6c52713",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Cotton Turban of Scouting",
+      "de": "Zwergenbaumwoll-Turban des Spähens",
+      "en": "Dwarven Cotton Turban of Scouting",
+      "fr": "Turban d'éclaireur en coton nain",
+      "ja": "ドワーフコットン・スカウトターバン",
+      "ko": "Dwarven Cotton Turban of Scouting"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "5cab7d23d67",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Dwarven Cotton Bandana",
+      "de": "Zwergenbaumwoll-Kappe des Eifers",
+      "en": "Dwarven Cotton Bandana",
+      "fr": "Bandana en coton nain",
+      "ja": "ドワーフコットンバンダナ",
+      "ko": "Dwarven Cotton Bandana"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0ed4048b8e5",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Dwarven Cotton Beret",
+      "de": "Zwergenbaumwoll-Hut des Handwerks",
+      "en": "Dwarven Cotton Beret",
+      "fr": "Béret en coton nain",
+      "ja": "ドワーフコットンベレー",
+      "ko": "Dwarven Cotton Beret"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "6a30a4012dc",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Dwarven Cotton Breeches",
+      "de": "Zwergenbaumwoll-Beinlinge des Eifers",
+      "en": "Dwarven Cotton Breeches",
+      "fr": "Braies en coton nain",
+      "ja": "ドワーフコットンブリーチ",
+      "ko": "Dwarven Cotton Breeches"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "8e82dac59a4",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Dwarven Cotton Jacket",
+      "de": "Zwergenbaumwoll-Schürze des Handwerks",
+      "en": "Dwarven Cotton Jacket",
+      "fr": "Jaque en coton nain",
+      "ja": "ドワーフコットンジャケット",
+      "ko": "Dwarven Cotton Jacket"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0efc4961ac5",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Dwarven Cotton Trousers",
+      "de": "Zwergenbaumwoll-Reiterhose des Handwerks",
+      "en": "Dwarven Cotton Trousers",
+      "fr": "Pantalon en coton nain",
+      "ja": "ドワーフコットントラウザー",
+      "ko": "Dwarven Cotton Trousers"
     }
   },
   {
