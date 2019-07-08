@@ -386,14 +386,11 @@ function ApplyModifiers(s, action, condition) {
 
     // Brand actions
     if (isActionEq(action, AllActions.brandOfTheElements)) {
-        //TODO: Not sure exactly how much the name/brand combo increases, or how the calculation should be made
         var nameOfMultiplier = 1;
-        if (s.effects.countDowns.hasOwnProperty("nameOfTheElements")) {
+        if (s.effects.countDowns.hasOwnProperty(AllActions.nameOfTheElements.shortName)) {
             nameOfMultiplier = calcNameOfMultiplier(s);
         }
-
         progressIncreaseMultiplier *= nameOfMultiplier;
-        //progressIncreaseMultiplier *= 2;
     }
 
     // Aspected recipes give a global 50% progress penalty, and using the matching Brand just negates it
