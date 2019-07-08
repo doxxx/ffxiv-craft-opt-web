@@ -52,7 +52,7 @@ var AllActions = {
     manipulation: new Action(       'manipulation',         'Manipulation',          0,     88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15),
     comfortZone: new Action(        'comfortZone',          'Comfort Zone',          0,     66,  1.0, 0.0, 0.0, 'countdown',   10, 'Alchemist',    50),
     steadyHand: new Action(         'steadyHand',           'Steady Hand',           0,     22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',           9),
-    steadyHand2: new Action(        'steadyHand2',          'Steady Hand II',        0,     25,  1.0, 0.0, 0.0, 'countdown',   5,  'Culinarian',   37),
+    steadyHand2: new Action(        'steadyHand2',          'Steady Hand II',        0,     25,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          37),
     wasteNot: new Action(           'wasteNot',             'Waste Not',             0,     56,  1.0, 0.0, 0.0, 'countdown',   4,  'Leatherworker',15),
     wasteNot2: new Action(          'wasteNot2',            'Waste Not II',          0,     98,  1.0, 0.0, 0.0, 'countdown',   8,  'Leatherworker',50),
     innovation: new Action(         'innovation',           'Innovation',            0,     18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50),

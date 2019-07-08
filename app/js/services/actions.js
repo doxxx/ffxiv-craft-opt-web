@@ -34,7 +34,7 @@
     manipulation: {                          buff: true, skillID: {"Goldsmith": 278} },
     innerQuiet: {              common: true, buff: true, skillID: {"Alchemist": 258, "Armorer": 254, "Blacksmith": 253, "Carpenter": 252, "Culinarian": 259, "Goldsmith": 255, "Leatherworker": 257, "Weaver": 256} },
     steadyHand: {              common: true, buff: true, skillID: {"Alchemist": 250, "Armorer": 246, "Blacksmith": 245, "Carpenter": 244, "Culinarian": 251, "Goldsmith": 247, "Leatherworker": 249, "Weaver": 248} },
-    steadyHand2: {                           buff: true, skillID: {"Culinarian": 281} },
+    steadyHand2: {                           buff: true, skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
     ingenuity: {                             buff: true, skillID: {"Blacksmith": 277} },
     ingenuity2: {                            buff: true, skillID: {"Blacksmith": 283} },
     greatStrides: {            common: true, buff: true, skillID: {"Alchemist": 266, "Armorer": 262, "Blacksmith": 261, "Carpenter": 260, "Culinarian": 267, "Goldsmith": 263, "Leatherworker": 265, "Weaver": 264} },
