@@ -75,19 +75,8 @@ var AllActions = {
     //trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     16,  1.0, 1.5, 1.5, 'immediate',   1,  'All',          58),
 
     // Elemental Aspect Actions
-    brandOfEarth: new Action(       'brandOfEarth',         'Brand of Earth',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Leatherworker',37),
-    brandOfFire: new Action(        'brandOfFire',          'Brand of Fire',        10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Blacksmith',   37),
-    brandOfIce: new Action(         'brandOfIce',           'Brand of Ice',         10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      37),
-    brandOfLightning: new Action(   'brandOfLightning',     'Brand of Lightning',   10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Weaver',       37),
-    brandOfWater: new Action(       'brandOfWater',         'Brand of Water',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Alchemist',    37),
-    brandOfWind: new Action(        'brandOfWind',          'Brand of Wind',        10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Carpenter',    37),
-
-    nameOfEarth: new Action(        'nameOfEarth',          'Name of Earth',         0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Leatherworker',54),
-    nameOfFire: new Action(         'nameOfFire',           'Name of Fire',          0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   54),
-    nameOfIce: new Action(          'nameOfIce',            'Name of Ice',           0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
-    nameOfLightning: new Action(    'nameOfLightning',      'Name of Lightning',     0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Weaver',       54),
-    nameOfWater: new Action(        'nameOfWater',          'Name of Water',         0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Alchemist',    54),
-    nameOfWind: new Action(         'nameOfWind',           'Name of the Wind',      0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Carpenter',    54),
+    brandOfTheElements: new Action( 'brandOfTheElements',   'Brand of the Elements', 10,     6,  0.9, 0.0, 1.0, 'immediate',   1,  'All',          37),
+    nameOfTheElements: new Action(  'nameOfTheElements',    'Name of the Elements',  10,    15,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          37),
 
     // Stormblood actions
     //   

@@ -54,19 +54,8 @@
     byregotsMiracle: {         common: true,             skillID: {"Alchemist": 100151, "Armorer": 100147, "Blacksmith": 100146, "Carpenter": 100145, "Culinarian": 100152, "Goldsmith": 100148, "Leatherworker": 100149, "Weaver": 100150} },
     //trainedHand: {             common: true,             skillID: {"Alchemist": 100167, "Armorer": 100163, "Blacksmith": 100162, "Carpenter": 100161, "Culinarian": 100168, "Goldsmith": 100164, "Leatherworker": 100165, "Weaver": 100166} },
 
-    brandOfEarth: {                                      skillID: {"Leatherworker": 100050} },
-    brandOfFire: {                                       skillID: {"Blacksmith": 100020} },
-    brandOfIce: {                                        skillID: {"Armorer": 100036} },
-    brandOfLightning: {                                  skillID: {"Weaver": 100066} },
-    brandOfWater: {                                      skillID: {"Alchemist": 100095} },
-    brandOfWind: {                                       skillID: {"Carpenter": 100006} },
-
-    nameOfEarth: {                           buff: true, skillID: {"Leatherworker": 4571} },
-    nameOfFire: {                            buff: true, skillID: {"Blacksmith": 4569} },
-    nameOfIce: {                             buff: true, skillID: {"Armorer": 4570} },
-    nameOfLightning: {                       buff: true, skillID: {"Weaver": 4572} },
-    nameOfWater: {                           buff: true, skillID: {"Alchemist": 4573} },
-    nameOfWind: {                            buff: true, skillID: {"Carpenter": 4568} },
+    brandOfTheElements: {                                skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
+    nameOfTheElements: {                     buff: true, skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
 
     //heartOfTheAlchemist: {     common: true, buff: true, skillID: {"Alchemist": 100185} },
     //heartOfTheArmorer: {       common: true, buff: true, skillID: {"Armorer": 100181} },
@@ -142,12 +131,7 @@
       "rapidSynthesis2",
       "focusedSynthesis",
       "muscleMemory",
-      "brandOfEarth",
-      "brandOfFire",
-      "brandOfIce",
-      "brandOfLightning",
-      "brandOfWater",
-      "brandOfWind"
+      "brandOfTheElements"
     ]
     },
     {
@@ -192,12 +176,7 @@
       "innovation",
       "makersMark",
       "initialPreparations",
-      "nameOfEarth",
-      "nameOfFire",
-      "nameOfIce",
-      "nameOfLightning",
-      "nameOfWater",
-      "nameOfWind"
+      "nameOfTheElements"
     ]
     },
     {

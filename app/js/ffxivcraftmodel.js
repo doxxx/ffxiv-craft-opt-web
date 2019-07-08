@@ -368,9 +368,6 @@ function ApplyModifiers(s, action, condition) {
             successProbability = 1.0;
         }
     }
-    if (isActionEq(action, AllActions.byregotsBrow) && s.synth.crafter.specialist) {
-        successProbability += 0.3
-    }
     if (AllActions.steadyHand2.shortName in s.effects.countDowns) {
         successProbability += 0.3;        // Assume 2 always overrides 1
         ftSuccessProbability += 0.3;
@@ -388,18 +385,17 @@ function ApplyModifiers(s, action, condition) {
     var ftMultiplier = 1.0;
 
     // Brand actions
-    if (action.shortName.startsWith('brandOf')) {
+    if (isActionEq(action, AllActions.brandOfTheElements)) {
+        //TODO: Not sure exactly how much the name/brand combo increases, or how the calculation should be made
         var nameOfMultiplier = 1;
         var element = action.shortName.substring('brandOf'.length);
         var nameOfElement = 'nameOf' + element;
-        if (s.effects.countDowns.hasOwnProperty(nameOfElement)) {
+        if (s.effects.countDowns.hasOwnProperty(nameOfTheElements)) {
             nameOfMultiplier = calcNameOfMultiplier(s);
         }
 
         progressIncreaseMultiplier *= nameOfMultiplier;
-        if (s.synth.recipe.aspect !== undefined && s.synth.recipe.aspect == element) {
-            progressIncreaseMultiplier *= 2;
-        }
+        progressIncreaseMultiplier *= 2;
     }
 
     // Aspected recipes give a global 50% progress penalty, and using the matching Brand just negates it
@@ -429,13 +425,6 @@ function ApplyModifiers(s, action, condition) {
     if (isActionEq(action, AllActions.byregotsMiracle)) {
         if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
             qualityIncreaseMultiplier += 0.15 * s.effects.countUps[AllActions.innerQuiet.shortName];
-        } else {
-            qualityIncreaseMultiplier = 0;
-        }
-    }
-    if (isActionEq(action, AllActions.byregotsBrow)) {
-        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
-            qualityIncreaseMultiplier += 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName];
         } else {
             qualityIncreaseMultiplier = 0;
         }
@@ -2116,3 +2105,4 @@ MonteCarloSynth(actionSequence, mySynth, false, true);
 MonteCarloSim(actionSequence, mySynth, 500);
 evalSeq(actionSequence, mySynth);
 */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
