@@ -24,7 +24,7 @@
     standardTouch: {                                     skillID: {"Alchemist": 100093, "Armorer": 100034, "Blacksmith": 100018, "Carpenter": 100004, "Culinarian": 100109, "Goldsmith": 100078, "Leatherworker": 100048, "Weaver": 100064} },
     advancedTouch: {                                     skillID: {"Alchemist": 100097, "Armorer": 100038, "Blacksmith": 100022, "Carpenter": 100008, "Culinarian": 100112, "Goldsmith": 100081, "Leatherworker": 100052, "Weaver": 100068} },
     hastyTouch: {                                        skillID: {"Culinarian": 100108} },
-    byregotsBlessing: {                                  skillID: {"Carpenter": 100009} },
+    byregotsBlessing: {                                  skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
     comfortZone: {                           buff: true, skillID: {"Alchemist": 286} },
     rumination: {                                        skillID: {"Carpenter": 276} },
     mastersMend: {             common: true,             skillID: {"Alchemist": 100092, "Armorer": 100032, "Blacksmith": 100017, "Carpenter": 100003, "Culinarian": 100107, "Goldsmith": 100077, "Leatherworker": 100047, "Weaver": 100062} },

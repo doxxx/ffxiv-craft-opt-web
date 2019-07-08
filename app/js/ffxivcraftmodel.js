@@ -388,8 +388,6 @@ function ApplyModifiers(s, action, condition) {
     if (isActionEq(action, AllActions.brandOfTheElements)) {
         //TODO: Not sure exactly how much the name/brand combo increases, or how the calculation should be made
         var nameOfMultiplier = 1;
-        var element = action.shortName.substring('brandOf'.length);
-        var nameOfElement = 'nameOf' + element;
         if (s.effects.countDowns.hasOwnProperty(nameOfTheElements)) {
             nameOfMultiplier = calcNameOfMultiplier(s);
         }
