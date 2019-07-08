@@ -616,7 +616,7 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
-    if (isActionEq(action, AllActions.byregotsBlessing) || isActionEq(action, AllActions.byregotsBrow)) {
+    if (isActionEq(action, AllActions.byregotsBlessing)) {
         if (AllActions.innerQuiet.shortName in s.effects.countUps) {
             delete s.effects.countUps[AllActions.innerQuiet.shortName];
         }

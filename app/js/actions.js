@@ -62,7 +62,6 @@ var AllActions = {
 
     // Heavensward actions
     //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
-    byregotsBrow: new Action(       'byregotsBrow',         'Byregot\'s Brow',      10,     18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51),
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
     makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 0.0, 0.0, 'countdown',   1,  'Goldsmith',    54), // based on description of behaviour here: http://redd.it/3ckrmk
     muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
