@@ -75,14 +75,14 @@
     _profile.useStorage(_localStorage);
 
     $scope.cgBusyConfig.promise = $q.all([
-      _xivdbtooltips.loadTooltips($translate.use()),
+      // _xivdbtooltips.loadTooltips($translate.use()),
       _profile.load().then(onProfileLoaded)
     ]);
 
     //////////////////////////////////////////////////////////////////////////
 
     function onTranslateChangeSuccess(event, data) {
-      $scope.cgBusyConfig.promise = _xivdbtooltips.loadTooltips(data.language);
+      // $scope.cgBusyConfig.promise = _xivdbtooltips.loadTooltips(data.language);
       $scope.$broadcast('$translateChangeSuccess', data);
     }
 
