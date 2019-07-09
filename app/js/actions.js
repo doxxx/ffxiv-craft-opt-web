@@ -41,7 +41,7 @@ var AllActions = {
     standardTouch: new Action(      'standardTouch',        'Standard Touch',       10,     32,  0.8, 1.25,0.0, 'immediate',   1,  'All',          18),
     advancedTouch: new Action(      'advancedTouch',        'Advanced Touch',       10,     48,  0.9, 1.5, 0.0, 'immediate',   1,  'All',          43),
     hastyTouch: new Action(         'hastyTouch',           'Hasty Touch',          10,      0,  0.5, 1.0, 0.0, 'immediate',   1,  'Culinarian',   15),
-    byregotsBlessing: new Action(   'byregotsBlessing',     'Byregot\'s Blessing',  10,     24,  0.9, 1.0, 0.0, 'immediate',   1,  'Carpenter',    50),
+    byregotsBlessing: new Action(   'byregotsBlessing',     'Byregot\'s Blessing',  10,     24,  0.9, 1.0, 0.0, 'immediate',   1,  'All',          50),
 
     mastersMend: new Action(        'mastersMend',          'Master\'s Mend',        0,     92,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           7),
     mastersMend2: new Action(       'mastersMend2',         'Master\'s Mend II',     0,    160,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          25),
@@ -52,7 +52,7 @@ var AllActions = {
     manipulation: new Action(       'manipulation',         'Manipulation',          0,     88,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    15),
     comfortZone: new Action(        'comfortZone',          'Comfort Zone',          0,     66,  1.0, 0.0, 0.0, 'countdown',   10, 'Alchemist',    50),
     steadyHand: new Action(         'steadyHand',           'Steady Hand',           0,     22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',           9),
-    steadyHand2: new Action(        'steadyHand2',          'Steady Hand II',        0,     25,  1.0, 0.0, 0.0, 'countdown',   5,  'Culinarian',   37),
+    steadyHand2: new Action(        'steadyHand2',          'Steady Hand II',        0,     25,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          37),
     wasteNot: new Action(           'wasteNot',             'Waste Not',             0,     56,  1.0, 0.0, 0.0, 'countdown',   4,  'Leatherworker',15),
     wasteNot2: new Action(          'wasteNot2',            'Waste Not II',          0,     98,  1.0, 0.0, 0.0, 'countdown',   8,  'Leatherworker',50),
     innovation: new Action(         'innovation',           'Innovation',            0,     18,  1.0, 0.0, 0.0, 'countdown',   3,  'Goldsmith',    50),
@@ -62,7 +62,6 @@ var AllActions = {
 
     // Heavensward actions
     //                              shortName,              fullName,              dur,     cp, Prob, QIM, PIM, Type,          t,  cls,           lvl,  onGood,     onExcl,     onPoor
-    byregotsBrow: new Action(       'byregotsBrow',         'Byregot\'s Brow',      10,     18,  0.7, 1.5, 0.0, 'immediate',   1,  'All',          51),
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  0.7, 1.0, 0.0, 'immediate',   1,  'All',          53,  true,       true),
     makersMark: new Action(         'makersMark',           'Maker\'s Mark',         0,     20,  0.7, 0.0, 0.0, 'countdown',   1,  'Goldsmith',    54), // based on description of behaviour here: http://redd.it/3ckrmk
     muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 1.0, 'immediate',   1,  'Culinarian',   54),
@@ -76,19 +75,8 @@ var AllActions = {
     //trainedHand: new Action(        'trainedHand',          'Trained Hand',         10,     16,  1.0, 1.5, 1.5, 'immediate',   1,  'All',          58),
 
     // Elemental Aspect Actions
-    brandOfEarth: new Action(       'brandOfEarth',         'Brand of Earth',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Leatherworker',37),
-    brandOfFire: new Action(        'brandOfFire',          'Brand of Fire',        10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Blacksmith',   37),
-    brandOfIce: new Action(         'brandOfIce',           'Brand of Ice',         10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Armorer',      37),
-    brandOfLightning: new Action(   'brandOfLightning',     'Brand of Lightning',   10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Weaver',       37),
-    brandOfWater: new Action(       'brandOfWater',         'Brand of Water',       10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Alchemist',    37),
-    brandOfWind: new Action(        'brandOfWind',          'Brand of Wind',        10,      6,  0.9, 0.0, 1.0, 'immediate',   1,  'Carpenter',    37),
-
-    nameOfEarth: new Action(        'nameOfEarth',          'Name of Earth',         0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Leatherworker',54),
-    nameOfFire: new Action(         'nameOfFire',           'Name of Fire',          0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Blacksmith',   54),
-    nameOfIce: new Action(          'nameOfIce',            'Name of Ice',           0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Armorer',      54),
-    nameOfLightning: new Action(    'nameOfLightning',      'Name of Lightning',     0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Weaver',       54),
-    nameOfWater: new Action(        'nameOfWater',          'Name of Water',         0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Alchemist',    54),
-    nameOfWind: new Action(         'nameOfWind',           'Name of the Wind',      0,     15,  1.0, 0.0, 0.0, 'countdown',   5,  'Carpenter',    54),
+    brandOfTheElements: new Action( 'brandOfTheElements',   'Brand of the Elements', 10,     6,  0.9, 0.0, 1.0, 'immediate',   1,  'All',          37),
+    nameOfTheElements: new Action(  'nameOfTheElements',    'Name of the Elements',  10,    15,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          37),
 
     // Stormblood actions
     //   
