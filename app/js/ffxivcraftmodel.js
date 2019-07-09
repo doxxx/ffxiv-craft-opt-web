@@ -393,12 +393,6 @@ function ApplyModifiers(s, action, condition) {
         progressIncreaseMultiplier *= nameOfMultiplier;
     }
 
-    // Aspected recipes give a global 50% progress penalty, and using the matching Brand just negates it
-    if (s.synth.recipe.aspect !== undefined) {
-        progressIncreaseMultiplier *= 0.5;
-        ftMultiplier *= 0.5;
-    }
-
     // Effects modified by Whistle While You Work
     // if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
     //     if (progressIncreaseMultiplier > 0) {
