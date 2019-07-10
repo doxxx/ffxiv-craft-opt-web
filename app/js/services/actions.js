@@ -85,6 +85,22 @@
     // Reclaim is omitted because it has no bearing on the success of the result of the synthesis, as far as we care.
   };
 
+  var obsoleteActions = {
+    byregotsBrow: true,
+    brandOfEarth: true,
+    brandOfFire: true,
+    brandOfIce: true,
+    brandOfLightning: true,
+    brandOfWater: true,
+    brandOfWind: true,
+    nameOfEarth: true,
+    nameOfFire: true,
+    nameOfIce: true,
+    nameOfLightning: true,
+    nameOfWater: true,
+    nameOfWind: true,
+  };
+
   var actionsByName = {};
   var allActions = [];
 
@@ -210,12 +226,13 @@
   function getActionImagePath(action, cls) {
     if (!angular.isDefined(action)) {
       console.error('undefined action param');
-      return 'img/actions/empty.png';
+      return 'img/actions/unknown.svg';
     }
     var info = actionsByName[action];
     if (!angular.isDefined(info)) {
-      console.error('unknown action: %s', action);
-      return 'img/actions/empty.png';
+      if (!obsoleteActions[action])
+        console.error('unknown action: %s', action);
+      return 'img/actions/unknown.svg';
     }
     return info.imagePaths[cls];
   }
@@ -223,12 +240,13 @@
   function iActionClassSpecific(name) {
     if (!angular.isDefined(name)) {
       console.error('undefined action');
-      return undefined;
+      return false;
     }
     var info = actionsByName[name];
     if (!angular.isDefined(info)) {
-      console.error('unknown action: %s', name);
-      return undefined;
+      if (!obsoleteActions[name])
+        console.error('unknown action: %s', name);
+      return false;
     }
     return info.cls !== 'All';
   }
@@ -236,12 +254,13 @@
   function isActionCrossClass(name, currentClass) {
     if (!angular.isDefined(name)) {
       console.error('undefined action');
-      return undefined;
+      return false;
     }
     var info = actionsByName[name];
     if (!angular.isDefined(info)) {
-      console.error('unknown action: %s', name);
-      return undefined;
+      if (!obsoleteActions[action])
+        console.error('unknown action: %s', name);
+      return false;
     }
     return info.cls !== 'All' && info.cls !== currentClass;
   }
