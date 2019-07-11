@@ -153,8 +153,8 @@
       "carefulSynthesis2",
       "carefulSynthesis3",
       "pieceByPiece",
-      "trainedEye",
-      "trainedInstinct",
+      //"trainedEye",
+      //"trainedInstinct",
       "rapidSynthesis",
       "rapidSynthesis2",
       "rapidSynthesis3",
@@ -208,8 +208,8 @@
       "innovation",
       "makersMark",
       "initialPreparations",
-      "nameOfTheElements",
-      "reuse"
+      "nameOfTheElements"//,
+      //"reuse"
     ]
     },
     {
