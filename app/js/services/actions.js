@@ -176,7 +176,8 @@
       "preciseTouch",
       "focusedTouch",
       "patientTouch",
-      "prudentTouch"
+      "prudentTouch",
+      "preparatoryTouch"
     ]
     },
     {
