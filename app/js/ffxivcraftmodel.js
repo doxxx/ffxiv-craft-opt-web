@@ -676,7 +676,7 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
 
     if (AllActions.innerQuiet.shortName in s.effects.countUps) {
         // Increment inner quiet countups that have conditional requirements
-        if (isActionEq(action, AllActions.patientTouch)) {
+        if (isActionEq(action, AllActions.patientTouch) || isActionEq(action, AllActions.preparatoryTouch)) {
             s.effects.countUps[AllActions.innerQuiet.shortName] = //+= 2 * successProbability;
                 ((s.effects.countUps[AllActions.innerQuiet.shortName] + 2) * successProbability) +
                 ((Math.ceil((s.effects.countUps[AllActions.innerQuiet.shortName]+1) / 2) - 1)  * (1 - successProbability));
