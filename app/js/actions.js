@@ -96,7 +96,7 @@ var AllActions = {
 
     // ShadowBringers actions
     //
-    preparatoryTouch: new Action(   'perparatoryTouch',     'Perparatory Touch',    20,     36,  0.7, 2.0, 0.0, 'immediate',   1,  'All',          71),
+    preparatoryTouch: new Action(   'preparatoryTouch',     'Preparatory Touch',    20,     36,  0.7, 2.0, 0.0, 'immediate',   1,  'All',          71),
     rapidSynthesis3: new Action(    'rapidSynthesis3',      'Rapid Synthesis III',  20,     24,  0.6, 0.0, 6.0, 'immediate',   1,  'All',          72),
     //reuse: new Action(              'reuse',                'Reuse',                 0,     60,  0.0, 0.0, 0.0, 'immediate',   1,  'All',          74),
     delicateSynthesis: new Action(  'delicateSynthesis',    'Delicate Synthesis',   10,     32,  1.0, 1.0, 1.0, 'immediate',   1,  'All',          76),
