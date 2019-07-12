@@ -127,7 +127,7 @@
     // SEQUENCE EDITOR
     //
 
-    $scope.seqeunceActionClasses = seqeunceActionClasses;
+    $scope.sequenceActionClasses = sequenceActionClasses;
     $scope.editSequenceInline = editSequenceInline;
 
     $scope.editingSequence = false;
@@ -140,7 +140,7 @@
       $scope.editingSequence = false;
     }
 
-    function seqeunceActionClasses(action, cls, index) {
+    function sequenceActionClasses(action, cls, index) {
       var wastedAction = $scope.simulatorStatus.state && (index + 1 > $scope.simulatorStatus.state.lastStep);
       var cpExceeded = wastedAction && _actionsByName[action].cpCost > $scope.simulatorStatus.state.cp;
       return {

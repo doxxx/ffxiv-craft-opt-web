@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('CrafterStatsController', controller);
 
-  function controller($scope, $modal, _actionGroups, _allClasses, _actionsByName, _profile, _xivdb) {
+  function controller($scope, $modal, _actionGroups, _allClasses, _actionsByName, _profile) {
     $scope.crafterActionClasses = crafterActionClasses;
     $scope.toggleAction = toggleAction;
     $scope.onTabSelect = onTabSelect;
@@ -127,14 +127,6 @@
       if (!$scope.character) return;
 
       $scope.character.refreshing = true;
-
-      _xivdb.getCharacter($scope.character.id).then(function (result) {
-        importCharacter(result);
-      }, function (err) {
-        console.error(err);
-      }).finally(function () {
-        $scope.character.refreshing = false;
-      });
     }
 
     function selectActionsByLevel(cls) {

@@ -5,15 +5,14 @@
     .module('ffxivCraftOptWeb.services.profile', [])
     .service('_profile', ProfileService);
 
-  function ProfileService($timeout, _allClasses, _actionsByName, _xivdb) {
+  function ProfileService($timeout, _allClasses, _actionsByName) {
     this.$timeout = $timeout;
     this._allClasses = _allClasses;
     this._actionsByName = _actionsByName;
-    this._xivdb = _xivdb;
     return this;
   }
 
-  ProfileService.$inject = ['$timeout', '_allClasses', '_actionsByName', '_xivdb'];
+  ProfileService.$inject = ['$timeout', '_allClasses', '_actionsByName'];
 
   ProfileService.prototype.useStorage = function (storage) {
     if (storage === undefined || storage === null) {
@@ -98,24 +97,7 @@
         this.persist();
       }
 
-      if (localStorage['lodestoneID'] && !localStorage['character']) {
-        // Read lodestoneID from localStorage, fetch details from XIVDB,
-        // and store all necessary details in local storage.
-        var id = JSON.parse(localStorage['lodestoneID']);
-        return this._xivdb.getCharacter(id).then(function (char) {
-          var character = {
-            id: char.id,
-            name: char.name,
-            server: char.server
-          };
-          this.setCharacter(character);
-          localStorage.removeItem('lodestoneID');
-          return this;
-        }.bind(this));
-      }
-      else {
         return this;
-      }
     }.bind(this));
   };
 

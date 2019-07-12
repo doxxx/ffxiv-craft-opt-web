@@ -19,7 +19,6 @@
       'ffxivCraftOptWeb.services.solver',
       'ffxivCraftOptWeb.services.translateLocalStorage',
       'ffxivCraftOptWeb.services.tooltips',
-      'ffxivCraftOptWeb.services.xivdb',
       'ffxivCraftOptWeb.directives',
       'ffxivCraftOptWeb.controllers',
       'ffxivCraftOptWeb.components'
