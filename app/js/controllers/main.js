@@ -6,7 +6,7 @@
     .controller('MainController', controller);
 
   function controller($scope, $rootScope, $q, $modal, $translate, $location, _allClasses, _actionGroups, _actionsByName,
-    _profile, _localStorage, _xivdbtooltips, _getActionImagePath, _bonusStats, _languages, _iActionClassSpecific)
+    _profile, _localStorage, _tooltips, _getActionImagePath, _bonusStats, _languages, _iActionClassSpecific)
   {
     $scope.allClasses = _allClasses;
     $scope.actionGroups = _actionGroups;
@@ -75,14 +75,14 @@
     _profile.useStorage(_localStorage);
 
     $scope.cgBusyConfig.promise = $q.all([
-      // _xivdbtooltips.loadTooltips($translate.use()),
+      _tooltips.loadTooltips($translate.use()),
       _profile.load().then(onProfileLoaded)
     ]);
 
     //////////////////////////////////////////////////////////////////////////
 
     function onTranslateChangeSuccess(event, data) {
-      // $scope.cgBusyConfig.promise = _xivdbtooltips.loadTooltips(data.language);
+      $scope.cgBusyConfig.promise = _tooltips.loadTooltips(data.language);
       $scope.$broadcast('$translateChangeSuccess', data);
     }
 

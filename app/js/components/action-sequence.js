@@ -22,7 +22,7 @@
     }
   }
 
-  function controller($scope, _actionsByName, _xivdbtooltips, _getActionImagePath, _iActionClassSpecific) {
+  function controller($scope, _actionsByName, _tooltips, _getActionImagePath, _iActionClassSpecific) {
     $scope.getActionImagePath = _getActionImagePath;
     $scope.cssClassesForAction = cssClassesForAction;
     $scope.actionForName = actionForName;
@@ -47,7 +47,7 @@
         else {
           key = $scope.cls + actionInfo.shortName;
         }
-        newTooltips[actionInfo.shortName] = _xivdbtooltips.actionTooltips[key];
+        newTooltips[actionInfo.shortName] = _tooltips.actionTooltips[key];
       });
       $scope.actionTooltips = newTooltips;
     }

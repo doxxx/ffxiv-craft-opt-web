@@ -244,16 +244,37 @@ legend small > .light {
   line-height: 9px;
 }
 
-div[content*="xivdb"] div.tooltip-inner {
+div[content*="actiontooltip"] div.tooltip-inner {
+  /*min-width: 15em;*/
   max-width: 320px;
-  background: none;
-  text-align: inherit;
-  padding: 0;
+  text-align: left;
 }
 
-div[content*="xivdb"] div.tooltip-arrow {
+.action-tooltip-title {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.action-tooltip-fields {
+}
+
+.action-tooltip-field-name {
+  font-size: small;
+  font-weight: bold;
+}
+
+.action-tooltip-field-value {
+  font-size: small;
+  font-weight: normal;
+  float: right;
+}
+
+/*
+div[content*="actiontooltip"] div.tooltip-arrow {
   display: none;
 }
+*/
 
 /* Customized Dropdown Menu */
 
