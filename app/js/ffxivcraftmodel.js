@@ -168,7 +168,7 @@ function EffectTracker() {
     this.indefinites = {};
 }
 
-function State(synth, step, lastStep, action, durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition) {
+function State(synth, step, lastStep, action, durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition, baseProgress, baseQuality) {
     this.synth = synth;
     this.step = step;
     this.lastStep = lastStep;
@@ -182,6 +182,8 @@ function State(synth, step, lastStep, action, durabilityState, cpState, bonusMax
     this.trickUses = trickUses;
     this.nameOfElementUses = nameOfElementUses;
     this.reliability = reliability;
+	this.baseProgress = baseProgress;
+	this.baseQuality = baseQuality;
     if (crossClassActionList === null) {
         this.crossClassActionList = {};
     }
@@ -202,7 +204,7 @@ function State(synth, step, lastStep, action, durabilityState, cpState, bonusMax
 }
 
 State.prototype.clone = function () {
-    return new State(this.synth, this.step, this.lastStep, this.action, this.durabilityState, this.cpState, this.bonusMaxCp, this.qualityState, this.progressState, this.wastedActions, this.trickUses, this.nameOfElementUses, this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition);
+    return new State(this.synth, this.step, this.lastStep, this.action, this.durabilityState, this.cpState, this.bonusMaxCp, this.qualityState, this.progressState, this.wastedActions, this.trickUses, this.nameOfElementUses, this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition, this.baseProgress, this.baseQuality);
 };
 
 State.prototype.checkViolations = function () {
@@ -258,8 +260,10 @@ function NewStateFromSynth(synth) {
     var crossClassActionList = {};
     var effects = new EffectTracker();
     var condition = 'Normal';
+	var baseProgress = synth.baseProgress;
+	var baseQuality = synth.baseQuality;
 
-    return new State(synth, step, lastStep, '', durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition);
+    return new State(synth, step, lastStep, '', durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition, baseProgress, baseQuality);
 }
 
 function probGoodForSynth(synth) {
