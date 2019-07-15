@@ -50,9 +50,9 @@
     }
 
     function update() {
-      $scope.baseStats = $scope.crafter;
+        $scope.baseStats = $scope.crafter;
 
-      if ($scope.bonusStats) {
+        if ($scope.bonusStats) {
         var buffStats = _bonusStats.newBonusStats();
         if ($scope.bonusStats.food) {
           buffStats = _bonusStats.sumCrafterBonusStats(
@@ -83,6 +83,8 @@
         $scope.quality = $scope.status.state.quality;
         $scope.cp = $scope.status.state.cp;
         $scope.maxCp = $scope.stats.cp + $scope.status.state.bonusMaxCp;
+        $scope.baseProgress = $scope.status.state.baseProgress;
+        $scope.baseQuality = $scope.status.state.baseQuality;
       }
       else {
         $scope.durability = $scope.recipe.durability;
@@ -91,6 +93,8 @@
         $scope.quality = 0;
         $scope.cp = $scope.stats.cp;
         $scope.maxCp = $scope.stats.cp;
+        $scope.baseProgress = 0;
+        $scope.baseQuality = 0;
       }
 
       $scope.progressPercent = Math.min(100, $scope.progress / $scope.recipe.difficulty * 100);
