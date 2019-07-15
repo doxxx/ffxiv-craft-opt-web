@@ -793,6 +793,8 @@ function UpdateState(s, action, progressGain, qualityGain, durabilityCost, cpCos
     }
     s.durabilityState = Math.min(s.durabilityState, s.synth.recipe.durability);
     s.cpState = Math.min(s.cpState, s.synth.crafter.craftPoints + s.bonusMaxCp);
+    s.baseProgress = 1;
+    s.baseQuality = 2;
 }
 
 function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutput) {
