@@ -427,7 +427,8 @@ function ApplyModifiers(s, action, condition) {
     }
 
     // Effects modifying progress
-    var bProgressGain = progressIncreaseMultiplier * s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+    s.baseProgress = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+    var bProgressGain = progressIncreaseMultiplier * s.baseProgress;
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
@@ -449,7 +450,8 @@ function ApplyModifiers(s, action, condition) {
     // }
 
     // Effects modifying quality
-    var bQualityGain = qualityIncreaseMultiplier * s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
+    s.baseQuality = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
+    var bQualityGain = qualityIncreaseMultiplier * s.baseQuality;
 
     // We can only use Precise Touch when state material condition is Good or Excellent. Default is true for probabilistic method.
     if (isActionEq(action, AllActions.preciseTouch)) {
