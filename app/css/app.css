@@ -137,6 +137,10 @@ legend small > .light {
   font-weight: bold;
 }
 
+.simulator-status .stats-value {
+    font-weight: normal;
+}
+
 .simulator-status .align-right {
   text-align: right;
 }
