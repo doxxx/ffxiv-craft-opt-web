@@ -93,8 +93,8 @@
         $scope.maxCp = $scope.stats.cp;
       }
 
-        $scope.baseProgress = 100;
-        $scope.baseQuality = 100;
+        $scope.baseProgress = 234;
+        $scope.baseQuality = 456;
 
       $scope.progressPercent = Math.min(100, $scope.progress / $scope.recipe.difficulty * 100);
       $scope.qualityPercent = Math.min(100, $scope.quality / $scope.recipe.maxQuality * 100);
