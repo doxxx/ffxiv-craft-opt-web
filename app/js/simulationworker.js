@@ -12,6 +12,9 @@ self.onmessage = function(e) {
       case 'montecarlo':
         runMonteCarloSim(e.data.id, e.data.settings);
         break;
+      case 'baseValues':
+        calculateBaseValues(e.data.id, e.data.settings);
+        break;
       default:
         console.error("unexpected message: %O", e.data);
     }
@@ -140,5 +143,24 @@ function runMonteCarloSim(id, settings) {
   };
 
   self.postMessage(result);
+}
+
+function calculateBaseValues(id, settings) {
+  var sim = setupSim(settings);
+
+  var effCrafterLevel = getEffectiveCrafterLevel(sim.synth);
+  var levelDifference = effCrafterLevel - sim.synth.recipe.level;
+  var baseProgress = Math.floor(sim.synth.calculateBaseProgressIncrease(levelDifference, sim.synth.crafter.craftsmanship, effCrafterLevel, sim.synth.recipe.level));
+  var baseQuality = Math.floor(sim.synth.calculateBaseQualityIncrease(levelDifference, sim.synth.crafter.control, effCrafterLevel, sim.synth.recipe.level));
+
+  self.postMessage({
+    id: id,
+    success: {
+      baseValues: {
+        progress: baseProgress,
+        quality: baseQuality,
+      },
+    },
+  });
 }
 

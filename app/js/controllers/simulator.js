@@ -32,7 +32,11 @@
       running: false,
       state: null,
       error: null,
-      sequence: null
+      sequence: null,
+      baseValues: {
+        progress: 0,
+        quality: 0,
+      }
     };
 
     $scope.$on('simulation.needs.update', onSimulationNeedsUpdate);
@@ -43,6 +47,8 @@
     //////////////////////////////////////////////////////////////////////////
 
     function onSimulationNeedsUpdate() {
+      updateBaseValues();
+
       if ($scope.sequence.length > 0 && $scope.isValidSequence($scope.sequence, $scope.recipe.cls)) {
         runMonteCarloSim();
       }
@@ -121,6 +127,28 @@
 
       $scope.simulatorStatus.running = true;
       _simulator.runProbabilisticSim(settings, probabilisticSimSuccess, probabilisticSimError);
+    }
+
+    function updateBaseValuesSuccess(data) {
+      $scope.simulatorStatus.baseValues = data.baseValues;
+    }
+
+    function updateBaseValuesError(data) {
+    }
+
+    function updateBaseValues() {
+      var settings = {
+        crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
+        recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
+        sequence: $scope.sequence,
+        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
+        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
+        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
+        useConditions: $scope.sequenceSettings.useConditions,
+        //overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
+        debug: $scope.sequenceSettings.debug,
+      };
+      _simulator.calculateBaseValues(settings, updateBaseValuesSuccess, updateBaseValuesError)
     }
 
     //

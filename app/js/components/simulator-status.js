@@ -76,6 +76,8 @@
         $scope.stats = $scope.crafter;
       }
 
+      $scope.baseValues = $scope.status.baseValues;
+
       if ($scope.status.state) {
         $scope.durability = $scope.status.state.durability;
         $scope.condition = $scope.status.state.condition;

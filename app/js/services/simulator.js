@@ -88,6 +88,19 @@
     });
   };
 
+  SimulatorService.prototype.calculateBaseValues = function (settings, success, error) {
+    var id = this.nextId();
+    this.callbacks[id] = {
+      success: success,
+      error: error
+    };
+    this.worker.postMessage({
+      id: id,
+      type: 'baseValues',
+      settings: settings,
+    });
+  };
+
   SimulatorService.prototype.nextId = function () {
     this.currentId += 1;
     return this.currentId;
