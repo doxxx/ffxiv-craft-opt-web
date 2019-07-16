@@ -1961,7 +1961,7 @@ var LevelTable = {
     77: 400,
     78: 410,
     79: 420,
-    80: 430
+    80: 430 
 };
 
 var Ing1RecipeLevelTable = {
