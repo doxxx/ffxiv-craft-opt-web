@@ -309,6 +309,14 @@ function calcNameOfMultiplier(s) {
     return nameOfMultiplier;
 }
 
+function getEffectiveCrafterLevel(synth) {
+    var effCrafterLevel = synth.crafter.level;
+    if (LevelTable[synth.crafter.level]) {
+        effCrafterLevel = LevelTable[synth.crafter.level];
+    }
+    return effCrafterLevel;
+}
+
 function ApplyModifiers(s, action, condition) {
 
     // Effect Modifiers
@@ -326,10 +334,7 @@ function ApplyModifiers(s, action, condition) {
     }
 
     // Effects modifying level difference
-    var effCrafterLevel = s.synth.crafter.level;
-    if (LevelTable[s.synth.crafter.level]) {
-        effCrafterLevel = LevelTable[s.synth.crafter.level];
-    }
+    var effCrafterLevel = getEffectiveCrafterLevel(s.synth);
     var effRecipeLevel = s.synth.recipe.level;
     var levelDifference = effCrafterLevel - effRecipeLevel;
 
