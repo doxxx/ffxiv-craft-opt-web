@@ -33,10 +33,7 @@
       state: null,
       error: null,
       sequence: null,
-      baseValues: {
-        progress: 0,
-        quality: 0,
-      }
+      baseValues: null,
     };
 
     $scope.$on('simulation.needs.update', onSimulationNeedsUpdate);
@@ -134,6 +131,7 @@
     }
 
     function updateBaseValuesError(data) {
+      $scope.simulatorStatus.baseValues = null;
     }
 
     function updateBaseValues() {
