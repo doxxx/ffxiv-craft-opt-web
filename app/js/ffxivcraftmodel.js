@@ -104,9 +104,15 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
 
     // Level penalty for recipes above crafter level
     if (levelDifference < 0) {
-        levelCorrectionFactor += 0.025 * Math.max(levelDifference, -10);
-        if (ProgressPenaltyTable[recipeLevel]) {
-            recipeLevelPenalty += ProgressPenaltyTable[recipeLevel];
+        if (crafterLevel > 380) {
+            // Level penalty for recipes above crafter level
+            levelCorrectionFactor += 0.025 * Math.max(levelDifference, -10);
+            if (ProgressPenaltyTable[recipeLevel]) {
+                recipeLevelPenalty += ProgressPenaltyTable[recipeLevel];
+            }
+        }
+        else {
+            levelCorrectionFactor += 0.0265 * Math.max(levelDifference, -10);
         }
     }
 
