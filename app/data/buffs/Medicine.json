@@ -1,5 +1,89 @@
 [
   {
+    "cp_percent": 6,
+    "cp_value": 16,
+    "hq": true,
+    "ilvl": 412,
+    "name": {
+      "cn": "Cunning Craftsman's Syrup",
+      "de": "Artisanentrank des Fachwissens",
+      "en": "Cunning Craftsman's Syrup",
+      "fr": "Potion de capacité",
+      "ja": "魔匠の水薬",
+      "ko": "Cunning Craftsman's Syrup"
+    }
+  },
+  {
+    "cp_percent": 5,
+    "cp_value": 13,
+    "hq": false,
+    "ilvl": 412,
+    "name": {
+      "cn": "Cunning Craftsman's Syrup",
+      "de": "Artisanentrank des Fachwissens",
+      "en": "Cunning Craftsman's Syrup",
+      "fr": "Potion de capacité",
+      "ja": "魔匠の水薬",
+      "ko": "Cunning Craftsman's Syrup"
+    }
+  },
+  {
+    "control_percent": 3,
+    "control_value": 42,
+    "hq": true,
+    "ilvl": 412,
+    "name": {
+      "cn": "Commanding Craftsman's Syrup",
+      "de": "Artisanentrank der Fachkenntnis",
+      "en": "Commanding Craftsman's Syrup",
+      "fr": "Potion de maîtrise",
+      "ja": "巨匠の水薬  ",
+      "ko": "Commanding Craftsman's Syrup"
+    }
+  },
+  {
+    "control_percent": 2,
+    "control_value": 34,
+    "hq": false,
+    "ilvl": 412,
+    "name": {
+      "cn": "Commanding Craftsman's Syrup",
+      "de": "Artisanentrank der Fachkenntnis",
+      "en": "Commanding Craftsman's Syrup",
+      "fr": "Potion de maîtrise",
+      "ja": "巨匠の水薬  ",
+      "ko": "Commanding Craftsman's Syrup"
+    }
+  },
+  {
+    "craftsmanship_percent": 3,
+    "craftsmanship_value": 41,
+    "hq": true,
+    "ilvl": 406,
+    "name": {
+      "cn": "Competent Craftsman's Syrup",
+      "de": "Artisanentrank der Effizienz",
+      "en": "Competent Craftsman's Syrup",
+      "fr": "Potion de virtuosité",
+      "ja": "名匠の水薬 ",
+      "ko": "Competent Craftsman's Syrup"
+    }
+  },
+  {
+    "craftsmanship_percent": 2,
+    "craftsmanship_value": 33,
+    "hq": false,
+    "ilvl": 406,
+    "name": {
+      "cn": "Competent Craftsman's Syrup",
+      "de": "Artisanentrank der Effizienz",
+      "en": "Competent Craftsman's Syrup",
+      "fr": "Potion de virtuosité",
+      "ja": "名匠の水薬 ",
+      "ko": "Competent Craftsman's Syrup"
+    }
+  },
+  {
     "cp_percent": 5,
     "cp_value": 13,
     "hq": true,
