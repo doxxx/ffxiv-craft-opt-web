@@ -75,7 +75,10 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     var levelCorrectedProgress = 0;
     var recipeLevelPenalty = 0;
 
-    if (crafterLevel > 250) {
+    if (crafterLevel > 380) {
+        baseProgress = 1.612934e-5 * craftsmanship * craftsmanship + 0.1892751 * craftsmanship + -1.232056;
+    }
+    else if (crafterLevel > 250) {
         baseProgress = 1.834712812e-5 * craftsmanship * craftsmanship + 1.904074773e-1 * craftsmanship + 1.544103837;
     }
     else if (crafterLevel > 110) {
@@ -99,11 +102,16 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
         levelCorrectionFactor += 0.0006 * (levelDifference - 20);
     }
 
-    // Level penalty for recipes above crafter level
     if (levelDifference < 0) {
-        levelCorrectionFactor += 0.025 * Math.max(levelDifference, -10);
-        if (ProgressPenaltyTable[recipeLevel]) {
-            recipeLevelPenalty += ProgressPenaltyTable[recipeLevel];
+        // Level penalty for recipes above crafter level
+        if (crafterLevel > 380) {
+            levelCorrectionFactor += 0.0265 * Math.max(levelDifference, -10);
+        }
+        else {
+            levelCorrectionFactor += 0.025 * Math.max(levelDifference, -10);
+            if (ProgressPenaltyTable[recipeLevel]) {
+                recipeLevelPenalty += ProgressPenaltyTable[recipeLevel];
+            }
         }
     }
 
@@ -1952,16 +1960,16 @@ var LevelTable = {
     68: 285,
     69: 288,
     70: 290,
-    71: 330,
-    72: 343,
-    73: 357,
-    74: 370,
-    75: 380,
-    76: 390,
-    77: 400,
-    78: 410,
-    79: 420,
-    80: 430 
+    71: 390,
+    72: 395,
+    73: 400,
+    74: 403,
+    75: 406,
+    76: 409,
+    77: 412,
+    78: 415,
+    79: 418,
+    80: 420 
 };
 
 var Ing1RecipeLevelTable = {
@@ -2010,6 +2018,16 @@ var Ing1RecipeLevelTable = {
     300: 291,   // 70_1star
     320: 292,   // 70_2star
     350: 293,   // 70_3star
+    390: 365,   // 71
+    395: 375,   // 72
+    400: 385,   // 73 
+    403: 393,   // 74 
+    406: 396,   // 75 
+    409: 399,   // 76 
+    412: 402,   // 77 
+    415: 405,   // 78 
+    418: 408,   // 79 
+    420: 411,   // 80
 };
 
 var Ing2RecipeLevelTable = {
@@ -2058,6 +2076,16 @@ var Ing2RecipeLevelTable = {
     300: 290,   // 70_1star
     320: 291,   // 70_2star
     350: 292,   // 70_3star
+    390: 350,   // 71
+    395: 360,   // 72
+    400: 370,   // 73 
+    403: 380,   // 74 
+    406: 383,   // 75 
+    409: 386,   // 76 
+    412: 389,   // 77 
+    415: 392,   // 78 
+    418: 395,   // 79 
+    420: 398,   // 80
 };
 
 var NymeaisWheelTable = {
