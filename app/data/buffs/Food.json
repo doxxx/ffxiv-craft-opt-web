@@ -1,6 +1,102 @@
 [
   {
     "control_percent": 5,
+    "control_value": 64,
+    "cp_percent": 26,
+    "cp_value": 66,
+    "hq": true,
+    "ilvl": 418,
+    "name": {
+      "cn": "Blood Bouillabaisse",
+      "de": "Blut-Bouillabaisse",
+      "en": "Blood Bouillabaisse",
+      "fr": "Bouillabaisse sanguine",
+      "ja": "ブラッドブイヤベース",
+      "ko": "Blood Bouillabaisse "
+    }
+  },
+  {
+    "control_percent": 4,
+    "control_value": 51,
+    "cp_percent": 21,
+    "cp_value": 53,
+    "hq": false,
+    "ilvl": 418,
+    "name": {
+      "cn": "Blood Bouillabaisse",
+      "de": "Blut-Bouillabaisse",
+      "en": "Blood Bouillabaisse",
+      "fr": "Bouillabaisse sanguine",
+      "ja": "ブラッドブイヤベース",
+      "ko": "Blood Bouillabaisse "
+    }
+  },
+  {
+    "control_percent": 9,
+    "control_value": 147,
+    "craftsmanship_percent": 5,
+    "craftsmanship_value": 66,
+    "hq": true,
+    "ilvl": 412,
+    "name": {
+      "cn": "Popotoes au Gratin",
+      "de": "Ockertoffel-Gratin",
+      "en": "Popotoes au Gratin",
+      "fr": "Gratin de popotos brunes",
+      "ja": "ラセットポポトグラタン",
+      "ko": "Popotoes au Gratin "
+    }
+  },
+  {
+    "control_percent": 7,
+    "control_value": 118,
+    "craftsmanship_percent": 4,
+    "craftsmanship_value": 53,
+    "hq": false,
+    "ilvl": 412,
+    "name": {
+      "cn": "Popotoes au Gratin",
+      "de": "Ockertoffel-Gratin",
+      "en": "Popotoes au Gratin",
+      "fr": "Gratin de popotos brunes",
+      "ja": "ラセットポポトグラタン",
+      "ko": "Popotoes au Gratin "
+    }
+  },
+  {
+    "craftsmanship_percent": 9,
+    "craftsmanship_value": 153,
+    "cp_percent": 10,
+    "cp_value": 27,
+    "hq": true,
+    "ilvl": 406,
+    "name": {
+      "cn": "Blood Tomato Salad",
+      "de": "Bluttomatensalat",
+      "en": "Blood Tomato Salad",
+      "fr": "Salade de tomates sanguines ",
+      "ja": "ブラッドトマトサラダ ",
+      "ko": "Blood Tomato Salad"
+    }
+  },
+  {
+    "craftsmanship_percent": 7,
+    "craftsmanship_value": 122,
+    "cp_percent": 8,
+    "cp_value": 22,
+    "hq": false,
+    "ilvl": 406,
+    "name": {
+      "cn": "Blood Tomato Salad",
+      "de": "Bluttomatensalat",
+      "en": "Blood Tomato Salad",
+      "fr": "Salade de tomates sanguines ",
+      "ja": "ブラッドトマトサラダ ",
+      "ko": "Blood Tomato Salad"
+    }
+  },
+  {
+    "control_percent": 5,
     "control_value": 61,
     "cp_percent": 15,
     "cp_value": 56,
