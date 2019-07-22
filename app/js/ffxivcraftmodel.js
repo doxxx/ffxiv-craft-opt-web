@@ -406,6 +406,11 @@ function ApplyModifiers(s, action, condition) {
         progressIncreaseMultiplier *= nameOfMultiplier;
     }
 
+    // Rapid Synthesis III limited when <20 durability
+    if (isActionEq(action, AllActions.rapidSynthesis3) && s.durabilityState < 20) {
+        progressIncreaseMultiplier *= 0.33;
+    }
+    
     // Effects modified by Whistle While You Work
     // if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
     //     if (progressIncreaseMultiplier > 0) {
