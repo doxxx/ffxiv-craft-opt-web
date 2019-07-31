@@ -778,6 +778,15 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
                 s.wastedActions += 1;
             }
         }
+        else if (isActionEq(action, AllActions.steadyHand) || isActionEq(action, AllActions.steadyHand2)) {
+            if (AllActions.steadyHand.shortName in s.effects.countDowns) {
+                delete s.effects.countDowns[AllActions.steadyHand.shortName];
+            }
+            if (AllActions.steadyHand2.shortName in s.effects.countDowns) {
+                delete s.effects.countDowns[AllActions.steadyHand2.shortName];
+            }
+            s.effects.countDowns[action.shortName] = action.activeTurns;
+        }
         else {
             s.effects.countDowns[action.shortName] = action.activeTurns;
         }
