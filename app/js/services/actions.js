@@ -85,8 +85,8 @@
     preparatoryTouch: {                                  skillID: {"Alchemist": 100305, "Armorer": 100301, "Blacksmith": 100300, "Carpenter": 100299, "Culinarian": 100306, "Goldsmith": 100302, "Leatherworker": 100303, "Weaver": 100304} },    
     rapidSynthesis3: {         common: true,             skillID: {"Alchemist": 100313, "Armorer": 100309, "Blacksmith": 100308, "Carpenter": 100307, "Culinarian": 100314, "Goldsmith": 100310, "Leatherworker": 100311, "Weaver": 100312} },
     //reuse: {                   common: true,             skillID: {"Alchemist": 4603, "Armorer": 4599, "Blacksmith": 4598, "Carpenter": 4597, "Culinarian": 4604, "Goldsmith": 4600, "Leatherworker": 4602, "Weaver": 4601} },
-    delicateSynthesis: {       common: true,             skillID: {"Alchemist": 100329, "Armorer": 100325, "Blacksmith": 100324, "Carpenter": 100323, "Culinarian": 100330, "Goldsmith": 100326, "Leatherworker": 100327, "Weaver": 100328} },
-    intensiveSynthesis: {      common: true,             skillID: {"Alchemist": 100321, "Armorer": 100317, "Blacksmith": 100316, "Carpenter": 100315, "Culinarian": 100322, "Goldsmith": 100318, "Leatherworker": 100319, "Weaver": 100320} },
+    delicateSynthesis: {                                 skillID: {"Alchemist": 100329, "Armorer": 100325, "Blacksmith": 100324, "Carpenter": 100323, "Culinarian": 100330, "Goldsmith": 100326, "Leatherworker": 100327, "Weaver": 100328} },
+    intensiveSynthesis: {                                skillID: {"Alchemist": 100321, "Armorer": 100317, "Blacksmith": 100316, "Carpenter": 100315, "Culinarian": 100322, "Goldsmith": 100318, "Leatherworker": 100319, "Weaver": 100320} },
     //trainedEye: {              common: true,             skillID: {"Alchemist": 100289, "Armorer": 100285, "Blacksmith": 100284, "Carpenter": 100283, "Culinarian": 100290, "Goldsmith": 100286, "Leatherworker": 100287, "Weaver": 100288} },
     //trainedInstinct: {         common: true,             skillID: {"Alchemist": 100297, "Armorer": 100293, "Blacksmith": 100292, "Carpenter": 100291, "Culinarian": 100298, "Goldsmith": 100294, "Leatherworker": 100295, "Weaver": 100296} },
     
