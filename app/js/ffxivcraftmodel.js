@@ -75,8 +75,13 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     var levelCorrectedProgress = 0;
     var recipeLevelPenalty = 0;
 
-    if (crafterLevel > 380) {
+    if (crafterLevel == 420) {
+        // level 80 crafting seems to be different formula all together
+        baseProgress = 1.3089353E-5 * craftsmanship * craftsmanship + 0.13336899 * craftsmanship + 0.48898;
+    } 
+    else if (crafterLevel > 380) {
         baseProgress = 1.612934e-5 * craftsmanship * craftsmanship + 0.1892751 * craftsmanship + -1.232056;
+        baseProgress -= (420 - crafterLevel) * (craftsmanship / 1750);
     }
     else if (crafterLevel > 250) {
         baseProgress = 1.834712812e-5 * craftsmanship * craftsmanship + 1.904074773e-1 * craftsmanship + 1.544103837;
@@ -129,7 +134,11 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     var levelCorrectionFactor = 0;
     var levelCorrectedQuality = 0;
 
-    baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
+    if (crafterLevel == 420)
+        // level 80 crafting seems to be different formula all together
+        baseQuality = 1.5210374E-5 * control * control + 0.14993291 * control + 14.77637;
+    else
+        baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
 
     if (recipeLevel > 50) {
         // Starts at base penalty amount depending on recipe tier
