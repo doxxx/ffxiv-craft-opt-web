@@ -1217,6 +1217,22 @@
   },
   {
     "baseLevel": 20,
+    "difficulty": 133,
+    "durability": 70,
+    "id": "39e8d3637f6",
+    "level": 20,
+    "maxQuality": 526,
+    "name": {
+      "cn": "Brick Flooring",
+      "de": "Ziegelboden",
+      "en": "Brick Flooring",
+      "fr": "Parquet en brique",
+      "ja": "ブリックフローリング",
+      "ko": "Brick Flooring"
+    }
+  },
+  {
+    "baseLevel": 20,
     "difficulty": 236,
     "durability": 70,
     "id": "b75e8718248",
@@ -2752,7 +2768,6 @@
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2817,7 +2832,6 @@
     }
   },
   {
-    "aspect": "Water",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -5622,7 +5636,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5776,7 +5789,6 @@
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5794,7 +5806,6 @@
     "stars": 3
   },
   {
-    "aspect": "Fire",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -5982,7 +5993,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6000,7 +6010,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6052,7 +6061,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6070,7 +6078,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6088,7 +6095,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6106,7 +6112,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6124,7 +6129,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6142,7 +6146,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6160,7 +6163,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6178,7 +6180,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6196,7 +6197,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6214,7 +6214,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6232,7 +6231,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6250,7 +6248,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6268,7 +6265,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6286,7 +6282,6 @@
     "stars": 3
   },
   {
-    "aspect": "Earth",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6321,7 +6316,6 @@
     "stars": 3
   },
   {
-    "aspect": "Wind",
     "baseLevel": 50,
     "difficulty": 445,
     "durability": 80,
@@ -6645,7 +6639,6 @@
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6714,7 +6707,6 @@
     "stars": 4
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -9461,7 +9453,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -9479,7 +9470,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -9514,7 +9504,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -9532,7 +9521,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -10925,6 +10913,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "6f1219538a9",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Black Hydrangea Corsage",
+      "de": "Schwarze Hortensien-Haarspange",
+      "en": "Black Hydrangea Corsage",
+      "fr": "Barrette hortensia noire",
+      "ja": "ハイドレインジャオーナメント:ブラック",
+      "ko": "Black Hydrangea Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "5e1cf3f66f5",
     "level": 279,
     "maxQuality": 11676,
@@ -10983,6 +10987,22 @@
       "fr": "Barrette dahlia bleu",
       "ja": "ダリアオーナメント:ブルー",
       "ko": "Blue Dahlia Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "id": "d9726a05c39",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Blue Hydrangea Corsage",
+      "de": "Blaue Hortensien-Haarspange",
+      "en": "Blue Hydrangea Corsage",
+      "fr": "Barrette hortensia bleue",
+      "ja": "ハイドレインジャオーナメント:ブルー",
+      "ko": "Blue Hydrangea Corsage"
     }
   },
   {
@@ -11063,6 +11083,22 @@
       "fr": "Barrette dahlia vert",
       "ja": "ダリアオーナメント:グリーン",
       "ko": "Green Dahlia Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "id": "bf79031960c",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Green Hydrangea Corsage",
+      "de": "Grüne Hortensien-Haarspange",
+      "en": "Green Hydrangea Corsage",
+      "fr": "Barrette hortensia verte",
+      "ja": "ハイドレインジャオーナメント:グリーン",
+      "ko": "Green Hydrangea Corsage"
     }
   },
   {
@@ -11197,6 +11233,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "49c200a2f06",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Orange Hydrangea Corsage",
+      "de": "Orange Hortensien-Haarspange",
+      "en": "Orange Hydrangea Corsage",
+      "fr": "Barrette hortensia orange",
+      "ja": "ハイドレインジャオーナメント:オレンジ",
+      "ko": "Orange Hydrangea Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "136f64a83f8",
     "level": 279,
     "maxQuality": 11676,
@@ -11277,6 +11329,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "c624314c7bd",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Purple Hydrangea Corsage",
+      "de": "Violette Hortensien-Haarspange",
+      "en": "Purple Hydrangea Corsage",
+      "fr": "Barrette hortensia violette",
+      "ja": "ハイドレインジャオーナメント:パープル",
+      "ko": "Purple Hydrangea Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "c201e795f8b",
     "level": 279,
     "maxQuality": 11676,
@@ -11335,6 +11403,22 @@
       "fr": "Barrette dahlias multicolores",
       "ja": "ダリアオーナメント:ブレンド",
       "ko": "Rainbow Dahlia Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "id": "b38e9a1166e",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Rainbow Hydrangea Corsage",
+      "de": "Mehrfarbige Hortensien-Haarspange",
+      "en": "Rainbow Hydrangea Corsage",
+      "fr": "Barrette hortensia multicolore",
+      "ja": "ハイドレインジャオーナメント:ブレンド",
+      "ko": "Rainbow Hydrangea Corsage"
     }
   },
   {
@@ -11405,6 +11489,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "8e855297c5a",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Red Hydrangea Corsage",
+      "de": "Rote Hortensien-Haarspange",
+      "en": "Red Hydrangea Corsage",
+      "fr": "Barrette hortensia rouge",
+      "ja": "ハイドレインジャオーナメント:レッド",
+      "ko": "Red Hydrangea Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "c082ca207f3",
     "level": 279,
     "maxQuality": 11676,
@@ -11469,6 +11569,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "4f5850242a1",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "White Hydrangea Corsage",
+      "de": "Weiße Hortensien-Haarspange",
+      "en": "White Hydrangea Corsage",
+      "fr": "Barrette hortensia blanche",
+      "ja": "ハイドレインジャオーナメント:ホワイト",
+      "ko": "White Hydrangea Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "8f86dec52a9",
     "level": 279,
     "maxQuality": 11676,
@@ -11527,6 +11643,22 @@
       "fr": "Barrette dahlia jaune",
       "ja": "ダリアオーナメント:イエロー",
       "ko": "Yellow Dahlia Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
+    "id": "1d465e3bf84",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Yellow Hydrangea Corsage",
+      "de": "Gelbe Hortensien-Haarspange",
+      "en": "Yellow Hydrangea Corsage",
+      "fr": "Barrette hortensia jaune",
+      "ja": "ハイドレインジャオーナメント:イエロー",
+      "ko": "Yellow Hydrangea Corsage"
     }
   },
   {
@@ -11803,6 +11935,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "id": "b3bbce7fe63",
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Edible Antidote",
+      "de": "Entgiftende Brühe",
+      "en": "Edible Antidote",
+      "fr": "Bouillon antidotique",
+      "ja": "解毒の薬餌",
+      "ko": "Edible Antidote"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2952,
     "durability": 80,
     "id": "2cb8b8d80db",
@@ -11971,7 +12119,7 @@
     "durability": 70,
     "id": "e8307b15435",
     "level": 320,
-    "maxQuality": 17420,
+    "maxQuality": 14253,
     "name": {
       "cn": "阿拉米格纤维",
       "de": "Mhigisches Mischgewebe",
@@ -12209,7 +12357,7 @@
     "durability": 70,
     "id": "7d796f3653d",
     "level": 320,
-    "maxQuality": 17420,
+    "maxQuality": 14253,
     "name": {
       "cn": "狮子鱼油",
       "de": "Scheibenbauchöl",
@@ -12256,11 +12404,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "23ba0611d31",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "2级巧力之药汤",
       "de": "Aufguss des Geschicks II",
@@ -12273,11 +12421,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "58f069350e9",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "2级智力之药汤",
       "de": "Aufguss der Intelligenz II",
@@ -12290,11 +12438,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "de004628fc0",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "2级意力之药汤",
       "de": "Aufguss der Willenskraft II",
@@ -12307,11 +12455,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "d59fea6c292",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "2级刚力之药汤",
       "de": "Aufguss der Stärke II",
@@ -12324,11 +12472,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "0c355b40b19",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "2级耐力之药汤",
       "de": "Aufguss der Konstitution II",
@@ -12345,7 +12493,7 @@
     "durability": 35,
     "id": "bdafe55f245",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "3级巧力之灵水",
       "de": "Wunderwasser der Geschicklichkeit III",
@@ -12362,7 +12510,7 @@
     "durability": 35,
     "id": "1398665d664",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "3级智力之灵水",
       "de": "Wunderwasser der Intelligenz III",
@@ -12379,7 +12527,7 @@
     "durability": 35,
     "id": "3c24ba7579a",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "3级意力之灵水",
       "de": "Wunderwasser der Willenskraft III",
@@ -12396,7 +12544,7 @@
     "durability": 35,
     "id": "5cd9f5e7b62",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "3级刚力之灵水",
       "de": "Wunderwasser der Stärke III",
@@ -12413,7 +12561,7 @@
     "durability": 35,
     "id": "24a00b10076",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "3级耐力之灵水",
       "de": "Wunderwasser der Konstitution III",
@@ -12430,7 +12578,7 @@
     "durability": 70,
     "id": "b96b0420f18",
     "level": 350,
-    "maxQuality": 24033,
+    "maxQuality": 16638,
     "name": {
       "cn": "鹰眼砂",
       "de": "Falkenaugen-Sand",
@@ -12460,11 +12608,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "5f43862f943",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银魔导典",
       "de": "Silbergunst-Kodex",
@@ -12477,11 +12625,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "8e90bbfd09a",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "清银魔导书",
       "de": "Silbergunst-Grimoire",
@@ -12498,7 +12646,7 @@
     "durability": 70,
     "id": "fc9344579d5",
     "level": 350,
-    "maxQuality": 24033,
+    "maxQuality": 16638,
     "name": {
       "cn": "古木树液",
       "de": "Alter Baumsaft",
@@ -12545,11 +12693,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "72a906006d8",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "3级巧力之药汤",
       "de": "Aufguss des Geschicks III",
@@ -12562,11 +12710,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "82a849dcfca",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "3级智力之药汤",
       "de": "Aufguss der Intelligenz III",
@@ -12579,11 +12727,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "4c3eb0fa3a3",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "3级意力之药汤",
       "de": "Aufguss der Willenskraft III",
@@ -12596,11 +12744,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "e0dc7c14296",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "3级刚力之药汤",
       "de": "Aufguss der Stärke III",
@@ -12613,11 +12761,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "aca2c2f778f",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "3级耐力之药汤",
       "de": "Aufguss der Konstitution III",
@@ -12634,7 +12782,7 @@
     "durability": 35,
     "id": "91157585aba",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "4级巧力之灵水",
       "de": "Wunderwasser der Geschicklichkeit IV",
@@ -12651,7 +12799,7 @@
     "durability": 35,
     "id": "230c8a3163a",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "4级智力之灵水",
       "de": "Wunderwasser der Intelligenz IV",
@@ -12668,7 +12816,7 @@
     "durability": 35,
     "id": "1c49aa9d066",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "4级意力之灵水",
       "de": "Wunderwasser der Willenskraft IV",
@@ -12685,7 +12833,7 @@
     "durability": 35,
     "id": "d3615fb40b6",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "4级刚力之灵水",
       "de": "Wunderwasser der Stärke IV",
@@ -12702,7 +12850,7 @@
     "durability": 35,
     "id": "d1d8945c2f8",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "4级耐力之灵水",
       "de": "Wunderwasser der Konstitution IV",
@@ -12715,11 +12863,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "32e473ed870",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹文书",
       "de": "Rakshasa-Kodex",
@@ -12732,11 +12880,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "8851edc5813",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹经典",
       "de": "Rakshasa-Grimoire",
@@ -12763,5 +12911,648 @@
       "ko": "Sunrise Orchestrion Roll"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 1574,
+    "durability": 40,
+    "id": "720bf608123",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Crimson Firesand",
+      "de": "Roter Feuersand",
+      "en": "Crimson Firesand",
+      "fr": "Sable noir pourpré",
+      "ja": "赤色火薬",
+      "ko": "Crimson Firesand"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 1574,
+    "durability": 40,
+    "id": "29a952f11d9",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Enchanted Truegold Ink",
+      "de": "Magische Steingold-Tinte",
+      "en": "Enchanted Truegold Ink",
+      "fr": "Encre d'or pétré enchantée",
+      "ja": "ストーンゴールドエンチャントインク",
+      "ko": "Enchanted Truegold Ink"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 1574,
+    "durability": 40,
+    "id": "0ce984f4895",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Growth Formula Iota",
+      "de": "Wachstumsformel Iota",
+      "en": "Growth Formula Iota",
+      "fr": "Formule de croissance iota",
+      "ja": "グロースフォーミュラ・イオタ",
+      "ko": "Growth Formula Iota"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "3bb7e503440",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Smilodonskin Codex",
+      "de": "Smilodonleder-Kodex",
+      "en": "Smilodonskin Codex",
+      "fr": "Codex en cuir de smilodon",
+      "ja": "スミロドンコーデックス",
+      "ko": "Smilodonskin Codex"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "d01aaf18a68",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Smilodonskin Grimoire",
+      "de": "Smilodonleder-Grimoire",
+      "en": "Smilodonskin Grimoire",
+      "fr": "Grimoire en cuir de smilodon",
+      "ja": "スミロドングリモア",
+      "ko": "Smilodonskin Grimoire"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "a3f13145497",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Gliderskin Codex",
+      "de": "Gleiterleder-Kodex",
+      "en": "Gliderskin Codex",
+      "fr": "Codex en cuir de planeur vert",
+      "ja": "グリーングライダーコーデックス",
+      "ko": "Gliderskin Codex"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "1428f5055df",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Gliderskin Grimoire",
+      "de": "Gleiterleder-Grimoire",
+      "en": "Gliderskin Grimoire",
+      "fr": "Grimoire en cuir de planeur vert",
+      "ja": "グリーングライダーグリモア",
+      "ko": "Gliderskin Grimoire"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "1837cf87969",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Superior Spiritbond Potion",
+      "de": "Hochpotenter Bindungstrunk",
+      "en": "Superior Spiritbond Potion",
+      "fr": "Essence de symbiose extrême",
+      "ja": "極錬精薬",
+      "ko": "Superior Spiritbond Potion"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 1674,
+    "durability": 40,
+    "id": "ba468d7dc66",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Grade 1 Dexterity Alkahest",
+      "de": "Visionslösung des Scharfsinns I",
+      "en": "Grade 1 Dexterity Alkahest",
+      "fr": "Eau chimèrique de dextérité I",
+      "ja": "眼力の幻水G1",
+      "ko": "Grade 1 Dexterity Alkahest"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 1674,
+    "durability": 40,
+    "id": "fe181b91744",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Grade 1 Intelligence Alkahest",
+      "de": "Visionslösung der Intelligenz I",
+      "en": "Grade 1 Intelligence Alkahest",
+      "fr": "Eau chimèrique d'intelligence I",
+      "ja": "知力の幻水G1",
+      "ko": "Grade 1 Intelligence Alkahest"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 1674,
+    "durability": 40,
+    "id": "ded16ac38ca",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Grade 1 Mind Alkahest",
+      "de": "Visionslösung der Willenskraft I",
+      "en": "Grade 1 Mind Alkahest",
+      "fr": "Eau chimèrique d'esprit I",
+      "ja": "心力の幻水G1",
+      "ko": "Grade 1 Mind Alkahest"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 1674,
+    "durability": 40,
+    "id": "6f493c7d038",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Grade 1 Strength Alkahest",
+      "de": "Visionslösung der Stärke I",
+      "en": "Grade 1 Strength Alkahest",
+      "fr": "Eau chimèrique de force I",
+      "ja": "剛力の幻水G1",
+      "ko": "Grade 1 Strength Alkahest"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 1674,
+    "durability": 40,
+    "id": "c13cde33383",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Grade 1 Vitality Alkahest",
+      "de": "Visionslösung der Konstitution I",
+      "en": "Grade 1 Vitality Alkahest",
+      "fr": "Eau chimèrique de vitalité I",
+      "ja": "活力の幻水G1",
+      "ko": "Grade 1 Vitality Alkahest"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 2343,
+    "durability": 80,
+    "id": "e2383e0165d",
+    "level": 400,
+    "maxQuality": 8593,
+    "name": {
+      "cn": "Nutrient-Rich Porridge",
+      "de": "Proteinreiche Suppe",
+      "en": "Nutrient-Rich Porridge",
+      "fr": "Soupe tonifiante",
+      "ja": "低刺激の薬餌",
+      "ko": "Nutrient-Rich Porridge"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "2585ed69542",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Codex",
+      "de": "Seelenazurit-Kodex",
+      "en": "Bluespirit Codex",
+      "fr": "Codex en azuresprit",
+      "ja": "ブルースピリットコーデックス",
+      "ko": "Bluespirit Codex"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "bfd1dda690c",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Grimoire",
+      "de": "Seelenazurit-Grimoire",
+      "en": "Bluespirit Grimoire",
+      "fr": "Grimoire en azuresprit",
+      "ja": "ブルースピリットグリモア",
+      "ko": "Bluespirit Grimoire"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 1703,
+    "durability": 40,
+    "id": "e5ef20b1bbb",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Enchanted Manasilver Ink",
+      "de": "Magische Manasilber-Tinte",
+      "en": "Enchanted Manasilver Ink",
+      "fr": "Encre de mana-argent enchantée",
+      "ja": "マナシルバーエンチャントインク",
+      "ko": "Enchanted Manasilver Ink"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "3baff123700",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Competent Craftsman's Syrup",
+      "de": "Artisanentrank der Effizienz",
+      "en": "Competent Craftsman's Syrup",
+      "fr": "Potion de virtuosité",
+      "ja": "名匠の水薬",
+      "ko": "Competent Craftsman's Syrup"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "cc49bce0201",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Fortifying Soup",
+      "de": "Stärkende Suppe",
+      "en": "Fortifying Soup",
+      "fr": "Potage fortifiant",
+      "ja": "回復期の薬餌",
+      "ko": "Fortifying Soup"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "f87eb934fd8",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Offering of Sweets",
+      "de": "Geschenk für die Pixies",
+      "en": "Offering of Sweets",
+      "fr": "Cadeau pour les Pixies",
+      "ja": "妖精への贈り物",
+      "ko": "Offering of Sweets"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 1733,
+    "durability": 40,
+    "id": "af6382290f9",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Starch Glue",
+      "de": "Pflanzenleim",
+      "en": "Starch Glue",
+      "fr": "Glu végétale",
+      "ja": "植物性にかわ",
+      "ko": "Starch Glue"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 1763,
+    "durability": 40,
+    "id": "d67fe31114d",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Growth Formula Kappa",
+      "de": "Wachstumsformel Kappa",
+      "en": "Growth Formula Kappa",
+      "fr": "Formule de croissance kappa",
+      "ja": "グロースフォーミュラ・カッパ",
+      "ko": "Growth Formula Kappa"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 1763,
+    "durability": 40,
+    "id": "ea6ca0bd4a6",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Refined Natron",
+      "de": "Natron-Konzentrat",
+      "en": "Refined Natron",
+      "fr": "Natron dense",
+      "ja": "強重曹",
+      "ko": "Refined Natron"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "af72157b889",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Commanding Craftsman's Syrup",
+      "de": "Artisanentrank der Fachkenntnis",
+      "en": "Commanding Craftsman's Syrup",
+      "fr": "Potion de maîtrise",
+      "ja": "巨匠の水薬",
+      "ko": "Commanding Craftsman's Syrup"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "81eebd1c976",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Cunning Craftsman's Syrup",
+      "de": "Artisanentrank des Fachwissens",
+      "en": "Cunning Craftsman's Syrup",
+      "fr": "Potion de capacité",
+      "ja": "魔匠の水薬",
+      "ko": "Cunning Craftsman's Syrup"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "59201b6b9cb",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Zonureskin Codex",
+      "de": "Zonurenleder-Kodex",
+      "en": "Zonureskin Codex",
+      "fr": "Codex en cuir de zonure",
+      "ja": "ゾヌールコーデックス",
+      "ko": "Zonureskin Codex"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "ae0d26c08f8",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Zonureskin Grimoire",
+      "de": "Zonurenleder-Grimoire",
+      "en": "Zonureskin Grimoire",
+      "fr": "Grimoire en cuir de zonure",
+      "ja": "ゾヌールグリモア",
+      "ko": "Zonureskin Grimoire"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 2551,
+    "durability": 80,
+    "id": "e48bf41b78c",
+    "level": 415,
+    "maxQuality": 9875,
+    "name": {
+      "cn": "Berube Feed",
+      "de": "Berube-Futterkohl",
+      "en": "Berube Feed",
+      "fr": "Crème au chou de Berube",
+      "ja": "ベルベ風の餌",
+      "ko": "Berube Feed"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "c050b0fc15d",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Codex",
+      "de": "Zwergischer Edelmithril-Kodex",
+      "en": "Dwarven Mythril Codex",
+      "fr": "Codex nain en mithril noble",
+      "ja": "ハイミスリル・ドワーヴンコーデックス",
+      "ko": "Dwarven Mythril Codex"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "31d7c2c5f39",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Grimoire",
+      "de": "Zwergisches Edelmithril-Grimoire",
+      "en": "Dwarven Mythril Grimoire",
+      "fr": "Grimoire nain en mithril noble",
+      "ja": "ハイミスリル・ドワーヴングリモア",
+      "ko": "Dwarven Mythril Grimoire"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1822,
+    "durability": 40,
+    "id": "038d27fb60c",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Enchanted Dimythrite Ink",
+      "de": "Magische Edelmithril-Tinte",
+      "en": "Enchanted Dimythrite Ink",
+      "fr": "Encre de mithril sombre enchantée",
+      "ja": "ダークミスリルエンチャントインク",
+      "ko": "Enchanted Dimythrite Ink"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "bfc19015d1c",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Tincture of Mind",
+      "de": "Visionsremedium der Willenskraft",
+      "en": "Tincture of Mind",
+      "fr": "Philtre chimérique d'esprit",
+      "ja": "心力の幻薬",
+      "ko": "Tincture of Mind"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "1ceb4115777",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Tincture of Vitality",
+      "de": "Visionsremedium der Konstitution",
+      "en": "Tincture of Vitality",
+      "fr": "Philtre chimérique de vitalité",
+      "ja": "活力の幻薬",
+      "ko": "Tincture of Vitality"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "a2f511565cf",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Tincture of Dexterity",
+      "de": "Visionsremedium des Scharfsinns",
+      "en": "Tincture of Dexterity",
+      "fr": "Philtre chimérique de dextérité",
+      "ja": "眼力の幻薬",
+      "ko": "Tincture of Dexterity"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "87cd91f9ede",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Tincture of Intelligence",
+      "de": "Visionsremedium der Intelligenz",
+      "en": "Tincture of Intelligence",
+      "fr": "Philtre chimérique d'intelligence",
+      "ja": "知力の幻薬",
+      "ko": "Tincture of Intelligence"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "f4357a6be16",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Tincture of Strength",
+      "de": "Visionsremedium der Stärke",
+      "en": "Tincture of Strength",
+      "fr": "Philtre chimérique de force",
+      "ja": "剛力の幻薬",
+      "ko": "Tincture of Strength"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 2760,
+    "durability": 80,
+    "id": "321a10cfbe8",
+    "level": 420,
+    "maxQuality": 11157,
+    "name": {
+      "cn": "Zun-Style Amaro Feed",
+      "de": "Zun-Klöße",
+      "en": "Zun-Style Amaro Feed",
+      "fr": "Salade de fruits à la zun",
+      "ja": "ズン族の草団子",
+      "ko": "Zun-Style Amaro Feed"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "b2d30d3afb4",
+    "level": 430,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "Crystarium Umbrella Stand",
+      "de": "Schirmständer aus Crystarium",
+      "en": "Crystarium Umbrella Stand",
+      "fr": "Porte-parapluie de Cristarium",
+      "ja": "クリスタリウム・アンブレラスタンド",
+      "ko": "Crystarium Umbrella Stand"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "928d364d116",
+    "level": 430,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "Insanity Orchestrion Roll",
+      "de": "Notenrolle von „Insanity“",
+      "en": "Insanity Orchestrion Roll",
+      "fr": "Rouleau \"Insanity\"",
+      "ja": "オーケストリオン譜:インサニティー",
+      "ko": "Insanity Orchestrion Roll"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "34b75e4e324",
+    "level": 430,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "What Angel Wakes Me Orchestrion Roll",
+      "de": "Notenrolle von „What Angel Wakes Me“",
+      "en": "What Angel Wakes Me Orchestrion Roll",
+      "fr": "Rouleau \"What Angel Wakes Me\"",
+      "ja": "オーケストリオン譜:目覚めの御使い",
+      "ko": "What Angel Wakes Me Orchestrion Roll"
+    },
+    "stars": 1
   }
 ]

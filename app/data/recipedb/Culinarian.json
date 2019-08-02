@@ -1377,6 +1377,22 @@
   },
   {
     "baseLevel": 17,
+    "difficulty": 118,
+    "durability": 70,
+    "id": "2c24c0c440c",
+    "level": 17,
+    "maxQuality": 449,
+    "name": {
+      "cn": "Sandwich Basket",
+      "de": "Korb voller Brotschnitten",
+      "en": "Sandwich Basket",
+      "fr": "Panier de sandwichs",
+      "ja": "サンドイッチバスケット",
+      "ko": "Sandwich Basket"
+    }
+  },
+  {
+    "baseLevel": 17,
     "difficulty": 66,
     "durability": 70,
     "id": "1758bc0e28b",
@@ -2000,7 +2016,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 30,
     "difficulty": 183,
     "durability": 70,
@@ -7095,6 +7110,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "id": "dedd55ea121",
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Edible Antidote",
+      "de": "Entgiftende Brühe",
+      "en": "Edible Antidote",
+      "fr": "Bouillon antidotique",
+      "ja": "解毒の薬餌",
+      "ko": "Edible Antidote"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2952,
     "durability": 80,
     "id": "d9b341e76e1",
@@ -7262,11 +7293,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "3987bc93bcf",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "纳夏煎饼",
       "de": "Banh Xeo",
@@ -7279,11 +7310,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "653ca63b9a3",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "红莲特饮",
       "de": "Purpur-Apfelsaft",
@@ -7296,11 +7327,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "af89ae0f8ff",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "犏牛肉排",
       "de": "Dzo-Steak",
@@ -7313,11 +7344,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "135a360b637",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "辣椒焗奶酪",
       "de": "Ema Datshi",
@@ -7330,11 +7361,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "b79c2298b2e",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "什锦寿司卷",
       "de": "Futomaki-Rolle",
@@ -7347,11 +7378,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "79427f0d115",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "金平糖",
       "de": "Konpeito",
@@ -7364,11 +7395,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "feded5cc244",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "抹茶",
       "de": "Matcha-Tee",
@@ -7381,11 +7412,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "eed42f9af1f",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "炖点",
       "de": "Oden",
@@ -7398,11 +7429,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "8c3ed876d20",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "煎绿韭葱",
       "de": "Gebratener Lauch",
@@ -7415,11 +7446,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "71b13397719",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "章鱼烧",
       "de": "Takoyaki",
@@ -7432,11 +7463,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "c958cf439df",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "豆腐煎饼",
       "de": "Tofu-Pfannkuchen",
@@ -7449,11 +7480,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "78df70e292f",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "生姜沙拉",
       "de": "Ingwersalat",
@@ -7466,11 +7497,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "28ea0dc9a95",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "烤茄子",
       "de": "Patlican Imam Bayildi",
@@ -7483,11 +7514,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "b2599e4049c",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "拉条子",
       "de": "Laghman",
@@ -7500,11 +7531,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "c5ebd1f1b91",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "奶酪甜甜圈",
       "de": "Papanasi",
@@ -7517,11 +7548,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "420b0ec8049",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "路易波士红茶",
       "de": "Rooibos-Tee",
@@ -7534,11 +7565,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "4ffa2f4f426",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "鲑鱼松饼",
       "de": "Lachs-Muffin",
@@ -7551,11 +7582,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "1906362338b",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "番茄炖蛋",
       "de": "Shakshouka",
@@ -7565,5 +7596,661 @@
       "ko": "Shakshouka"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 1574,
+    "durability": 40,
+    "id": "0ec81dc781b",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Frantoio Oil",
+      "de": "Frantoio-Öl",
+      "en": "Frantoio Oil",
+      "fr": "Huile de frantoio",
+      "ja": "フラントーヨオイル",
+      "ko": "Frantoio Oil"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "2b8f13e2d51",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Grilled Rail",
+      "de": "Gegrillte Ralle",
+      "en": "Grilled Rail",
+      "fr": "Tranche de râle grillée",
+      "ja": "レイルのグリル",
+      "ko": "Grilled Rail"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "b17c92939a2",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Purple Carrot Juice",
+      "de": "Purpurkarottensaft",
+      "en": "Purple Carrot Juice",
+      "fr": "Jus de carotte violette",
+      "ja": "パープルカロットジュース",
+      "ko": "Purple Carrot Juice"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "d63727da929",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Broad Bean Soup",
+      "de": "Favabohnensuppe",
+      "en": "Broad Bean Soup",
+      "fr": "Soupe de féveroles",
+      "ja": "ブロードビーンスープ",
+      "ko": "Broad Bean Soup"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "1732c75b5f9",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Caramels",
+      "de": "Karamell",
+      "en": "Caramels",
+      "fr": "Caramels",
+      "ja": "キャラメル",
+      "ko": "Caramels"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 1624,
+    "durability": 40,
+    "id": "2ea05a7b638",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Garden Beet Sugar",
+      "de": "Gartenrübenzucker",
+      "en": "Garden Beet Sugar",
+      "fr": "Sucre de betterave potagère",
+      "ja": "ガーデンビートシュガー",
+      "ko": "Garden Beet Sugar"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "074a286ae32",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Broad Bean Salad",
+      "de": "Favabohnensalat",
+      "en": "Broad Bean Salad",
+      "fr": "Salade de féveroles",
+      "ja": "ブロードビーンサラダ",
+      "ko": "Broad Bean Salad"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "0573f9195b7",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Grilled Platinum Bream",
+      "de": "Gegrillte Platinbrasse",
+      "en": "Grilled Platinum Bream",
+      "fr": "Brême opaline grillée",
+      "ja": "グリルドプラチナブリーム",
+      "ko": "Grilled Platinum Bream"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 2343,
+    "durability": 80,
+    "id": "7e36383a74b",
+    "level": 400,
+    "maxQuality": 8593,
+    "name": {
+      "cn": "Nutrient-Rich Porridge",
+      "de": "Proteinreiche Suppe",
+      "en": "Nutrient-Rich Porridge",
+      "fr": "Soupe tonifiante",
+      "ja": "低刺激の薬餌",
+      "ko": "Nutrient-Rich Porridge"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "a026d8f4195",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Spaghetti al Nero",
+      "de": "Tintenschwarze Spaghetti",
+      "en": "Spaghetti al Nero",
+      "fr": "Spaghetti al nero",
+      "ja": "スパゲッティ・ネーロ",
+      "ko": "Spaghetti al Nero"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 1674,
+    "durability": 40,
+    "id": "740c34ac18b",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Squid Ink",
+      "de": "Tintenfischtinte",
+      "en": "Squid Ink",
+      "fr": "Flacon de sépia",
+      "ja": "スクイッドインク",
+      "ko": "Squid Ink"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "9ff9712377e",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Baguette",
+      "de": "Baguette",
+      "en": "Baguette",
+      "fr": "Baguette tradition",
+      "ja": "バゲット",
+      "ko": "Baguette"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "2f55e1334ec",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Blood Tomato Juice",
+      "de": "Bluttomatensuppe",
+      "en": "Blood Tomato Juice",
+      "fr": "Jus de tomate sanguine",
+      "ja": "ブラッドトマトジュース",
+      "ko": "Blood Tomato Juice"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 1703,
+    "durability": 40,
+    "id": "75fb4334ee6",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Golden Honey",
+      "de": "Goldhonig",
+      "en": "Golden Honey",
+      "fr": "Miel doré",
+      "ja": "黄金蜂蜜",
+      "ko": "Golden Honey"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "e3f0583c3d0",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Pixie Apple Pie",
+      "de": "Pixie-Apfeltasche",
+      "en": "Pixie Apple Pie",
+      "fr": "Chausson aux pommes pixies",
+      "ja": "ピクシーアップルパイ",
+      "ko": "Pixie Apple Pie"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 1703,
+    "durability": 40,
+    "id": "a249b1d7cd9",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Upland Wheat Flour",
+      "de": "Hochplateau-Mehl",
+      "en": "Upland Wheat Flour",
+      "fr": "Farine de blé des plateaux",
+      "ja": "アップランド小麦粉",
+      "ko": "Upland Wheat Flour"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "ccb9e0524e5",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Blood Tomato Salad",
+      "de": "Bluttomatensalat",
+      "en": "Blood Tomato Salad",
+      "fr": "Salade de tomates sanguines",
+      "ja": "ブラッドトマトサラダ",
+      "ko": "Blood Tomato Salad"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "54812405906",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Fortifying Soup",
+      "de": "Stärkende Suppe",
+      "en": "Fortifying Soup",
+      "fr": "Potage fortifiant",
+      "ja": "回復期の薬餌",
+      "ko": "Fortifying Soup"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "f36c61f6234",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Mushroom Saute",
+      "de": "Champignonsauté",
+      "en": "Mushroom Saute",
+      "fr": "Sauté aux champignons",
+      "ja": "マッシュルームソテー",
+      "ko": "Mushroom Saute"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 1733,
+    "durability": 40,
+    "id": "f643e83f867",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Night Vinegar",
+      "de": "Schwarzer Essig",
+      "en": "Night Vinegar",
+      "fr": "Vinaigre noir",
+      "ja": "ダークビネガー",
+      "ko": "Night Vinegar"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "eae4cbf3b11",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Nut Bake",
+      "de": "Nusstörtchen",
+      "en": "Nut Bake",
+      "fr": "Tarte aux noix",
+      "ja": "ナッツペストリー",
+      "ko": "Nut Bake"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "6584d782e92",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Offering of Sweets",
+      "de": "Geschenk für die Pixies",
+      "en": "Offering of Sweets",
+      "fr": "Cadeau pour les Pixies",
+      "ja": "妖精への贈り物",
+      "ko": "Offering of Sweets"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "32a9707333c",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Baked Megapiranha",
+      "de": "Gebackener Megapiranha",
+      "en": "Baked Megapiranha",
+      "fr": "Megapiranha au four",
+      "ja": "ベイクド・メガピラニア",
+      "ko": "Baked Megapiranha"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "099a923c144",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Mushroom Skewer",
+      "de": "Champignons am Spieß",
+      "en": "Mushroom Skewer",
+      "fr": "Brochette de champignons",
+      "ja": "マッシュルームスキュアー",
+      "ko": "Mushroom Skewer"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "9cdd4bee8ca",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Roast Ovim",
+      "de": "Gerösteter Ovim",
+      "en": "Roast Ovim",
+      "fr": "Rôti d'ovim",
+      "ja": "ローストオヴィム",
+      "ko": "Roast Ovim"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "b64ec1d8310",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Sausage Links",
+      "de": "Knackwurst",
+      "en": "Sausage Links",
+      "fr": "Saucisses",
+      "ja": "ソーセージ",
+      "ko": "Sausage Links"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "50b6dbc221b",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Masala Chai",
+      "de": "Masala-Tee",
+      "en": "Masala Chai",
+      "fr": "Thé masala",
+      "ja": "マサラチャイ",
+      "ko": "Masala Chai"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "ab0bcc4060c",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Peppered Popotoes",
+      "de": "Pfeffertoffel",
+      "en": "Peppered Popotoes",
+      "fr": "Popotos au poivre",
+      "ja": "ペッパーポポト",
+      "ko": "Peppered Popotoes"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "fb405066121",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Popotoes au Gratin",
+      "de": "Ockertoffel-Gratin",
+      "en": "Popotoes au Gratin",
+      "fr": "Gratin de popotos brunes",
+      "ja": "ラセットポポトグラタン",
+      "ko": "Popotoes au Gratin"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 2551,
+    "durability": 80,
+    "id": "693bb3349d3",
+    "level": 415,
+    "maxQuality": 9875,
+    "name": {
+      "cn": "Berube Feed",
+      "de": "Berube-Futterkohl",
+      "en": "Berube Feed",
+      "fr": "Crème au chou de Berube",
+      "ja": "ベルベ風の餌",
+      "ko": "Berube Feed"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "58d07acd2c8",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Espresso con Panna",
+      "de": "Sahne-Espresso",
+      "en": "Espresso con Panna",
+      "fr": "Espresso con panna",
+      "ja": "エスプレッソ・コン・パンナ",
+      "ko": "Espresso con Panna"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "d2f45f1b75a",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Mist Spinach Saute",
+      "de": "Sautierter Dunstspinat",
+      "en": "Mist Spinach Saute",
+      "fr": "Sauté de jeunes épinards brume",
+      "ja": "ミストスピナッチソテー",
+      "ko": "Mist Spinach Saute"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "2b6b4815218",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Risotto al Nero",
+      "de": "Risotto al nero",
+      "en": "Risotto al Nero",
+      "fr": "Risotto al nero",
+      "ja": "リゾット・ネーロ",
+      "ko": "Risotto al Nero"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "bed8eb4c209",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Blood Bouillabaisse",
+      "de": "Blut-Bouillabaisse",
+      "en": "Blood Bouillabaisse",
+      "fr": "Bouillabaisse sanguine",
+      "ja": "ブラッドブイヤベース",
+      "ko": "Blood Bouillabaisse"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "b41068fa630",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Coffee Biscuit",
+      "de": "Kaffeekeks",
+      "en": "Coffee Biscuit",
+      "fr": "Biscuit au café",
+      "ja": "コーヒークッキー",
+      "ko": "Coffee Biscuit"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "751d8acec58",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Paella",
+      "de": "Paella",
+      "en": "Paella",
+      "fr": "Paella",
+      "ja": "パエリア",
+      "ko": "Paella"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "46784771f37",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Jellied Harcot",
+      "de": "Harcot-Kompott",
+      "en": "Jellied Harcot",
+      "fr": "Gelée de rouge de Norvrandt",
+      "ja": "ハーコットゼリー",
+      "ko": "Jellied Harcot"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "eea749f23b6",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Lemonade",
+      "de": "Limonade",
+      "en": "Lemonade",
+      "fr": "Limonade",
+      "ja": "レモネード",
+      "ko": "Lemonade"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "8b08c404cde",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Ovim Cordon Bleu",
+      "de": "Cordon bleu vom Ovim",
+      "en": "Ovim Cordon Bleu",
+      "fr": "Cordon bleu d'ovim",
+      "ja": "オヴィム・コルドンブルー",
+      "ko": "Ovim Cordon Bleu"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "9563cfa5b37",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Oysters on the Half Shell",
+      "de": "Feinschmecker-Auster",
+      "en": "Oysters on the Half Shell",
+      "fr": "Huître comestible crue",
+      "ja": "ローエディブルオイスター",
+      "ko": "Oysters on the Half Shell"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 2760,
+    "durability": 80,
+    "id": "a1201d8d15b",
+    "level": 420,
+    "maxQuality": 11157,
+    "name": {
+      "cn": "Zun-Style Amaro Feed",
+      "de": "Zun-Klöße",
+      "en": "Zun-Style Amaro Feed",
+      "fr": "Salade de fruits à la zun",
+      "ja": "ズン族の草団子",
+      "ko": "Zun-Style Amaro Feed"
+    }
   }
 ]

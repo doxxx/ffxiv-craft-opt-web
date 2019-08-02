@@ -54,7 +54,7 @@
     <div class="row-fluid">
         <h5>{{ 'INITIAL_GUESS' | translate }}</h5>
         <action-sequence class="sequence-small" cls="recipe.cls" actions="sequence"
-                         action-classes="seqeunceActionClasses"
+                         action-classes="sequenceActionClasses"
                          tooltip-placement="right"></action-sequence>
     </div>
     <div class="row-fluid">
@@ -97,7 +97,7 @@
             </h5>
             <div ng-class="{'disabled-action-list': equivalentSequence()}">
                 <action-sequence cls="recipe.cls" actions="pageState.solverStatus.sequence"
-                                 action-classes="seqeunceActionClasses" tooltip-placement="right"></action-sequence>
+                                 action-classes="sequenceActionClasses" tooltip-placement="right"></action-sequence>
             </div>
         </div>
     </div>

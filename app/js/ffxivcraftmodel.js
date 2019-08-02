@@ -75,7 +75,15 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
     var levelCorrectedProgress = 0;
     var recipeLevelPenalty = 0;
 
-    if (crafterLevel > 250) {
+    if (crafterLevel == 420) {
+        // level 80 crafting seems to be different formula all together
+        baseProgress = 1.3089353E-5 * craftsmanship * craftsmanship + 0.13336899 * craftsmanship + 0.48898;
+    } 
+    else if (crafterLevel > 380) {
+        baseProgress = 1.612934e-5 * craftsmanship * craftsmanship + 0.1892751 * craftsmanship + -1.232056;
+        baseProgress -= (420 - crafterLevel) * (craftsmanship / 1750);
+    }
+    else if (crafterLevel > 250) {
         baseProgress = 1.834712812e-5 * craftsmanship * craftsmanship + 1.904074773e-1 * craftsmanship + 1.544103837;
     }
     else if (crafterLevel > 110) {
@@ -101,9 +109,14 @@ Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craft
 
     // Level penalty for recipes above crafter level
     if (levelDifference < 0) {
-        levelCorrectionFactor += 0.025 * Math.max(levelDifference, -10);
-        if (ProgressPenaltyTable[recipeLevel]) {
-            recipeLevelPenalty += ProgressPenaltyTable[recipeLevel];
+        if (crafterLevel > 380) {
+            levelCorrectionFactor += 0.0265 * Math.max(levelDifference, -10);
+        }
+        else {
+            levelCorrectionFactor += 0.025 * Math.max(levelDifference, -10);
+            if (ProgressPenaltyTable[recipeLevel]) {
+                recipeLevelPenalty += ProgressPenaltyTable[recipeLevel];
+            }
         }
     }
 
@@ -121,7 +134,11 @@ Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, contro
     var levelCorrectionFactor = 0;
     var levelCorrectedQuality = 0;
 
-    baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
+    if (crafterLevel == 420)
+        // level 80 crafting seems to be different formula all together
+        baseQuality = 1.5210374E-5 * control * control + 0.14993291 * control + 14.77637;
+    else
+        baseQuality = 3.46e-5 * control * control + 0.3514 * control + 34.66;
 
     if (recipeLevel > 50) {
         // Starts at base penalty amount depending on recipe tier
@@ -309,6 +326,14 @@ function calcNameOfMultiplier(s) {
     return nameOfMultiplier;
 }
 
+function getEffectiveCrafterLevel(synth) {
+    var effCrafterLevel = synth.crafter.level;
+    if (LevelTable[synth.crafter.level]) {
+        effCrafterLevel = LevelTable[synth.crafter.level];
+    }
+    return effCrafterLevel;
+}
+
 function ApplyModifiers(s, action, condition) {
 
     // Effect Modifiers
@@ -326,10 +351,7 @@ function ApplyModifiers(s, action, condition) {
     }
 
     // Effects modifying level difference
-    var effCrafterLevel = s.synth.crafter.level;
-    if (LevelTable[s.synth.crafter.level]) {
-        effCrafterLevel = LevelTable[s.synth.crafter.level];
-    }
+    var effCrafterLevel = getEffectiveCrafterLevel(s.synth);
     var effRecipeLevel = s.synth.recipe.level;
     var levelDifference = effCrafterLevel - effRecipeLevel;
 
@@ -368,9 +390,6 @@ function ApplyModifiers(s, action, condition) {
             successProbability = 1.0;
         }
     }
-    if (isActionEq(action, AllActions.byregotsBrow) && s.synth.crafter.specialist) {
-        successProbability += 0.3
-    }
     if (AllActions.steadyHand2.shortName in s.effects.countDowns) {
         successProbability += 0.3;        // Assume 2 always overrides 1
         ftSuccessProbability += 0.3;
@@ -388,26 +407,19 @@ function ApplyModifiers(s, action, condition) {
     var ftMultiplier = 1.0;
 
     // Brand actions
-    if (action.shortName.startsWith('brandOf')) {
+    if (isActionEq(action, AllActions.brandOfTheElements)) {
         var nameOfMultiplier = 1;
-        var element = action.shortName.substring('brandOf'.length);
-        var nameOfElement = 'nameOf' + element;
-        if (s.effects.countDowns.hasOwnProperty(nameOfElement)) {
+        if (s.effects.countDowns.hasOwnProperty(AllActions.nameOfTheElements.shortName)) {
             nameOfMultiplier = calcNameOfMultiplier(s);
         }
-
         progressIncreaseMultiplier *= nameOfMultiplier;
-        if (s.synth.recipe.aspect !== undefined && s.synth.recipe.aspect == element) {
-            progressIncreaseMultiplier *= 2;
-        }
     }
 
-    // Aspected recipes give a global 50% progress penalty, and using the matching Brand just negates it
-    if (s.synth.recipe.aspect !== undefined) {
-        progressIncreaseMultiplier *= 0.5;
-        ftMultiplier *= 0.5;
+    // Rapid Synthesis III limited when <20 durability
+    if (isActionEq(action, AllActions.rapidSynthesis3) && s.durabilityState < 20) {
+        progressIncreaseMultiplier *= 0.33;
     }
-
+    
     // Effects modified by Whistle While You Work
     // if (AllActions.whistle.shortName in s.effects.countDowns && (s.effects.countDowns[AllActions.whistle.shortName] % 3 == 0)) {
     //     if (progressIncreaseMultiplier > 0) {
@@ -433,13 +445,6 @@ function ApplyModifiers(s, action, condition) {
             qualityIncreaseMultiplier = 0;
         }
     }
-    if (isActionEq(action, AllActions.byregotsBrow)) {
-        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
-            qualityIncreaseMultiplier += 0.1 * s.effects.countUps[AllActions.innerQuiet.shortName];
-        } else {
-            qualityIncreaseMultiplier = 0;
-        }
-    }
 
     if (AllActions.greatStrides.shortName in s.effects.countDowns) {
         qualityIncreaseMultiplier *= 2;
@@ -451,12 +456,12 @@ function ApplyModifiers(s, action, condition) {
         bProgressGain = 40;
     }
     else if (isActionEq(action, AllActions.pieceByPiece)) {
-        bProgressGain = (s.synth.recipe.difficulty - s.progressState) * 0.33;
+        bProgressGain = Math.min((s.synth.recipe.difficulty - s.progressState) * 0.33, 1000);
     }
 
     if (isActionEq(action, AllActions.muscleMemory)) {
         if (s.step == 1) {
-            bProgressGain = (s.synth.recipe.difficulty - s.progressState) * 0.33;
+            bProgressGain = Math.min((s.synth.recipe.difficulty - s.progressState) * 0.33, 1000);
         }
         else {
             bProgressGain = 0;
@@ -616,7 +621,7 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
-    if (isActionEq(action, AllActions.byregotsBlessing) || isActionEq(action, AllActions.byregotsBrow)) {
+    if (isActionEq(action, AllActions.byregotsBlessing)) {
         if (AllActions.innerQuiet.shortName in s.effects.countUps) {
             delete s.effects.countUps[AllActions.innerQuiet.shortName];
         }
@@ -698,7 +703,7 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
 
     if (AllActions.innerQuiet.shortName in s.effects.countUps) {
         // Increment inner quiet countups that have conditional requirements
-        if (isActionEq(action, AllActions.patientTouch)) {
+        if (isActionEq(action, AllActions.patientTouch) || isActionEq(action, AllActions.preparatoryTouch)) {
             s.effects.countUps[AllActions.innerQuiet.shortName] = //+= 2 * successProbability;
                 ((s.effects.countUps[AllActions.innerQuiet.shortName] + 2) * successProbability) +
                 ((Math.ceil((s.effects.countUps[AllActions.innerQuiet.shortName]+1) / 2) - 1)  * (1 - successProbability));
@@ -781,6 +786,15 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
             else {
                 s.wastedActions += 1;
             }
+        }
+        else if (isActionEq(action, AllActions.steadyHand) || isActionEq(action, AllActions.steadyHand2)) {
+            if (AllActions.steadyHand.shortName in s.effects.countDowns) {
+                delete s.effects.countDowns[AllActions.steadyHand.shortName];
+            }
+            if (AllActions.steadyHand2.shortName in s.effects.countDowns) {
+                delete s.effects.countDowns[AllActions.steadyHand2.shortName];
+            }
+            s.effects.countDowns[action.shortName] = action.activeTurns;
         }
         else {
             s.effects.countDowns[action.shortName] = action.activeTurns;
@@ -1968,7 +1982,17 @@ var LevelTable = {
     67: 282,
     68: 285,
     69: 288,
-    70: 290 
+    70: 290,
+    71: 390,
+    72: 395,
+    73: 400,
+    74: 403,
+    75: 406,
+    76: 409,
+    77: 412,
+    78: 415,
+    79: 418,
+    80: 420 
 };
 
 var Ing1RecipeLevelTable = {
@@ -2017,6 +2041,16 @@ var Ing1RecipeLevelTable = {
     300: 291,   // 70_1star
     320: 292,   // 70_2star
     350: 293,   // 70_3star
+    390: 365,   // 71
+    395: 375,   // 72
+    400: 385,   // 73 
+    403: 393,   // 74 
+    406: 396,   // 75 
+    409: 399,   // 76 
+    412: 402,   // 77 
+    415: 405,   // 78 
+    418: 408,   // 79 
+    420: 411,   // 80
 };
 
 var Ing2RecipeLevelTable = {
@@ -2065,6 +2099,16 @@ var Ing2RecipeLevelTable = {
     300: 290,   // 70_1star
     320: 291,   // 70_2star
     350: 292,   // 70_3star
+    390: 350,   // 71
+    395: 360,   // 72
+    400: 370,   // 73 
+    403: 380,   // 74 
+    406: 383,   // 75 
+    409: 386,   // 76 
+    412: 389,   // 77 
+    415: 392,   // 78 
+    418: 395,   // 79 
+    420: 398,   // 80
 };
 
 var NymeaisWheelTable = {

@@ -45,7 +45,6 @@
   "Steady Hand II": "Ruhige Hand II",
   "Hasty Touch": "Hastige Veredelung",
 
-  "Byregot's Brow": "Byregots Schwung",
   "Precise Touch": "Präzise Veredelung",
   "Maker's Mark": "Kunst des Kundigen",
   "Muscle Memory": "Motorisches Gedächtnis",
@@ -79,15 +78,14 @@
   "Specialty: Refurbish": "Ass des Spezialisten: Souveränität",
   "Specialty: Reflect": "Ass des Spezialisten: Einkehr",
 
-
+  "Carpenter": "Zimmerer",
+  "Blacksmith": "Grobschmied",
+  "Armorer": "Plattner",
+  "Goldsmith": "Goldschmied",
+  "Leatherworker": "Gerber",
+  "Weaver": "Weber",
   "Alchemist": "Alchemist",
-  "Armorer": "Armorer",
-  "Blacksmith": "Blacksmith",
-  "Carpenter": "Carpenter",
-  "Culinarian": "Culinarian",
-  "Goldsmith": "Goldsmith",
-  "Leatherworker": "Leatherworker",
-  "Weaver": "Weaver",
+  "Culinarian": "Gourmet",
 
   "Synthesis": "Synthesis",
   "Quality": "Quality",
@@ -131,6 +129,11 @@
   "FOOD_NONE": "None",
   "MEDICINE": "Medicine",
   "MEDICINE_NONE": "None",
+
+  "CP_COST": "CP",
+  "DURABILITY_COST": "Durability",
+  "SUCCESS_RATE": "Success Rate",
+  "EFFICIENCY": "Efficiency",
 
   "CRAFTER_ATTRIBUTES_ALL": "All",
   "CRAFTER_ATTRIBUTES_BY_LEVEL": "By Level",
@@ -241,6 +244,8 @@
   "ABOUT_BUG": "I found a bug!",
   "ABOUT_REPORT_ISSUES": "Please report issues ",
   "ABOUT_REPORT_HERE": "here.",
+  "ABOUT_CONTRIBUTORS": "Beiträger",
+  "ABOUT_CONTRIBUTORS_BLURB": "Dies wäre ohne die Beiträge der folgenden wunderbaren Menschen nicht möglich:",
   "ABOUT_ANYTHING": "Anything else I should know?",
   "ABOUT_RESEMBLANCE": "Any resemblance to ",
   "ABOUT_COINCIDENCE": " is purely co-incidental. It is a nifty site though, and I highly recommend checking it out.",

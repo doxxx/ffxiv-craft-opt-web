@@ -1411,6 +1411,22 @@
     "baseLevel": 22,
     "difficulty": 75,
     "durability": 70,
+    "id": "016e7910ef7",
+    "level": 22,
+    "maxQuality": 1122,
+    "name": {
+      "cn": "Iron Headgear",
+      "de": "Eisen-Kopfbedeckung",
+      "en": "Iron Headgear",
+      "fr": "Protège-tête en fer",
+      "ja": "アイアンヘッドギア",
+      "ko": "Iron Headgear"
+    }
+  },
+  {
+    "baseLevel": 22,
+    "difficulty": 75,
+    "durability": 70,
     "id": "e4c1353754e",
     "level": 22,
     "maxQuality": 1122,
@@ -2531,6 +2547,22 @@
     "baseLevel": 32,
     "difficulty": 110,
     "durability": 80,
+    "id": "c04b5f2b969",
+    "level": 32,
+    "maxQuality": 1697,
+    "name": {
+      "cn": "Steel Headgear",
+      "de": "Stahl-Kopfbedeckung",
+      "en": "Steel Headgear",
+      "fr": "Protège-tête en acier",
+      "ja": "スチールヘッドギア",
+      "ko": "Steel Headgear"
+    }
+  },
+  {
+    "baseLevel": 32,
+    "difficulty": 110,
+    "durability": 80,
     "id": "a10fc330763",
     "level": 32,
     "maxQuality": 1697,
@@ -2737,6 +2769,22 @@
   },
   {
     "baseLevel": 35,
+    "difficulty": 123,
+    "durability": 80,
+    "id": "f01bc71b661",
+    "level": 35,
+    "maxQuality": 1853,
+    "name": {
+      "cn": "Altered Heavy Steel Armor",
+      "de": "Schwere bearbeitete Stahlrüstung",
+      "en": "Altered Heavy Steel Armor",
+      "fr": "Armure lourde en acier réinventée",
+      "ja": "オルタード・ヘヴィスチールアーマー",
+      "ko": "Altered Heavy Steel Armor"
+    }
+  },
+  {
+    "baseLevel": 35,
     "difficulty": 221,
     "durability": 80,
     "id": "6492860818b",
@@ -2816,7 +2864,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -3025,7 +3072,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 38,
     "difficulty": 129,
     "durability": 80,
@@ -3109,6 +3155,22 @@
     "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
+    "id": "c18aba8d94f",
+    "level": 40,
+    "maxQuality": 2050,
+    "name": {
+      "cn": "Altered Mythril Elmo",
+      "de": "Bearbeiteter Elmo-Mithrilhelm",
+      "en": "Altered Mythril Elmo",
+      "fr": "Elmo en mithril réinventé",
+      "ja": "オルタード・ミスリルエルモ",
+      "ko": "Altered Mythril Elmo"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 80,
     "id": "2cadbcb34ae",
     "level": 40,
     "maxQuality": 2050,
@@ -3154,7 +3216,6 @@
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 40,
     "difficulty": 138,
     "durability": 80,
@@ -3235,7 +3296,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 41,
     "difficulty": 143,
     "durability": 80,
@@ -3436,7 +3496,7 @@
     "maxQuality": 2251,
     "name": {
       "cn": "秘银重手铠",
-      "de": "Edelmithril-Panzerhandschuhe",
+      "de": "Schwermithril-Panzerhandschuhe",
       "en": "High Mythril Gauntlets",
       "fr": "Gantelets lourds en mithril",
       "ja": "ヘヴィミスリルガントレット",
@@ -3452,7 +3512,7 @@
     "maxQuality": 2251,
     "name": {
       "cn": "秘银重腰带",
-      "de": "Edelmithril-Plattengürtel",
+      "de": "Schwermithril-Plattengürtel",
       "en": "High Mythril Plate Belt",
       "fr": "Ceinture de plaques lourde en mithril",
       "ja": "ヘヴィ・ミスリルプレートベルト",
@@ -3492,7 +3552,6 @@
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 43,
     "difficulty": 155,
     "durability": 80,
@@ -3506,6 +3565,38 @@
       "fr": "Rondache de collection",
       "ja": "ヴィンテージバックラー",
       "ko": "고풍스러운 전투방패"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "id": "7f239beadd4",
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "cn": "Altered High Mythril Armor",
+      "de": "Bearbeiteter Mithril-Körperpanzer",
+      "en": "Altered High Mythril Armor",
+      "fr": "Armure lourde en mithril réinventée",
+      "ja": "オルタード・ヘヴィミスリルアーマー",
+      "ko": "Altered High Mythril Armor"
+    }
+  },
+  {
+    "baseLevel": 44,
+    "difficulty": 156,
+    "durability": 80,
+    "id": "09249759d27",
+    "level": 44,
+    "maxQuality": 2277,
+    "name": {
+      "cn": "Altered Mythril Chain Coif",
+      "de": "Bearbeitete Mithrilkettenhaube",
+      "en": "Altered Mythril Chain Coif",
+      "fr": "Coiffe en mailles de mithril réinventée",
+      "ja": "オルタード・ミスリルチェーンコイフ",
+      "ko": "Altered Mythril Chain Coif"
     }
   },
   {
@@ -3602,6 +3693,22 @@
       "fr": "Elmo en mithril renforcé",
       "ja": "ミスリルエルモDX",
       "ko": "강화 미스릴 기사투구"
+    }
+  },
+  {
+    "baseLevel": 45,
+    "difficulty": 158,
+    "durability": 80,
+    "id": "4a46f3d685f",
+    "level": 45,
+    "maxQuality": 2309,
+    "name": {
+      "cn": "Altered Cobalt Elmo",
+      "de": "Bearbeiteter Elmo-Koboldeisenhelm",
+      "en": "Altered Cobalt Elmo",
+      "fr": "Elmo en cobalt réinventé",
+      "ja": "オルタード・コバルトエルモ",
+      "ko": "Altered Cobalt Elmo"
     }
   },
   {
@@ -3717,7 +3824,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 45,
     "difficulty": 158,
     "durability": 80,
@@ -3814,7 +3920,6 @@
     }
   },
   {
-    "aspect": "Earth",
     "baseLevel": 46,
     "difficulty": 159,
     "durability": 80,
@@ -3847,7 +3952,6 @@
     }
   },
   {
-    "aspect": "Ice",
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -4009,6 +4113,54 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "id": "a4c3e95a799",
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "cn": "Altered Cobalt Cuirass",
+      "de": "Bearbeiteter Koboldeisenkürass",
+      "en": "Altered Cobalt Cuirass",
+      "fr": "Cuirasse en cobalt réinventée",
+      "ja": "オルタード・コバルトキュイラス",
+      "ko": "Altered Cobalt Cuirass"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "id": "1f237a85279",
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "cn": "Altered Cobalt Gauntlets",
+      "de": "Bearbeitete Koboldeisen-Panzerhandschuhe",
+      "en": "Altered Cobalt Gauntlets",
+      "fr": "Gantelets réinventés",
+      "ja": "オルタード・コバルトガントレット",
+      "ko": "Altered Cobalt Gauntlets"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "id": "10fd74d9f46",
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "cn": "Altered Cobalt Sabatons",
+      "de": "Bearbeitete Koboldeisen-Bärlatschen",
+      "en": "Altered Cobalt Sabatons",
+      "fr": "Sabatons réinventés",
+      "ja": "オルタード・コバルトサバトン",
+      "ko": "Altered Cobalt Sabatons"
+    }
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 357,
     "durability": 80,
     "id": "aa21fdec8e4",
@@ -4133,6 +4285,22 @@
       "fr": "Haubergeon en cobalt",
       "ja": "コバルトホーバージョン",
       "ko": "코발트 고리갑옷"
+    }
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 186,
+    "durability": 80,
+    "id": "f948f87cda5",
+    "level": 50,
+    "maxQuality": 2641,
+    "name": {
+      "cn": "Cobalt Mask",
+      "de": "Goldmaske",
+      "en": "Cobalt Mask",
+      "fr": "Masque en cobalt",
+      "ja": "コバルトマスク",
+      "ko": "Cobalt Mask"
     }
   },
   {
@@ -5757,7 +5925,6 @@
     "stars": 3
   },
   {
-    "aspect": "Lightning",
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
@@ -6278,6 +6445,22 @@
       "fr": "Alambic en durargent",
       "ja": "ハードシルバーアレンビック",
       "ko": "경은 증류기"
+    }
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 1153,
+    "durability": 80,
+    "id": "4361fa60db0",
+    "level": 133,
+    "maxQuality": 3021,
+    "name": {
+      "cn": "Hunting Supplies",
+      "de": "Kiste eines Jägers",
+      "en": "Hunting Supplies",
+      "fr": "Coffre de pisteur",
+      "ja": "レンジャーズチェスト",
+      "ko": "Hunting Supplies"
     }
   },
   {
@@ -8255,7 +8438,6 @@
     "stars": 2
   },
   {
-    "aspect": "Fire",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -8273,7 +8455,6 @@
     "stars": 2
   },
   {
-    "aspect": "Wind",
     "baseLevel": 60,
     "difficulty": 1436,
     "durability": 70,
@@ -11556,6 +11737,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 80,
+    "id": "0bb135057ae",
+    "level": 290,
+    "maxQuality": 7252,
+    "name": {
+      "cn": "Metal Gauntlets",
+      "de": "Metallener Handschutz",
+      "en": "Metal Gauntlets",
+      "fr": "Gantelets en métal",
+      "ja": "金属製の手甲",
+      "ko": "Metal Gauntlets"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2952,
     "durability": 80,
     "id": "40b43220d7c",
@@ -11654,11 +11851,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "dd73dd672b0",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格蒸馏器",
       "de": "Mhigischer Destillierkolben",
@@ -11671,11 +11868,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3188,
+    "difficulty": 3543,
     "durability": 70,
     "id": "26290cbbc8f",
     "level": 320,
-    "maxQuality": 22171,
+    "maxQuality": 15837,
     "name": {
       "cn": "阿拉米格煎锅",
       "de": "Mhigische Bratpfanne",
@@ -11926,11 +12123,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "66947db3efb",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢蒸馏器",
       "de": "Nachtstahl-Destillierkolben",
@@ -11943,11 +12140,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "0b01f47b5a2",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢御敌战甲",
       "de": "Nachtstahl-Rüstung der Verteidigung",
@@ -11960,11 +12157,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3943,
+    "difficulty": 2760,
     "durability": 70,
     "id": "52317a5b729",
     "level": 350,
-    "maxQuality": 29579,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢煎锅",
       "de": "Nachtstahl-Bratpfanne",
@@ -11977,11 +12174,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "37d41c9582b",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢御敌手铠",
       "de": "Nachtstahl-Panzerhandschuhe der Verteidigung",
@@ -11994,11 +12191,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "a288a11c45e",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢制敌手铠",
       "de": "Nachtstahl-Panzerhandschuhe des Verstümmelns",
@@ -12011,11 +12208,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "232fec17025",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢制敌胫甲",
       "de": "Nachtstahl-Beinschienen des Verstümmelns",
@@ -12028,11 +12225,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "4522cd8cd2a",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢御敌头盔",
       "de": "Nachtstahl-Helm der Verteidigung",
@@ -12045,11 +12242,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "c4fbeae1d82",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢制敌头盔",
       "de": "Nachtstahl-Helm des Verstümmelns",
@@ -12066,7 +12263,7 @@
     "durability": 35,
     "id": "f111fd081e5",
     "level": 350,
-    "maxQuality": 20335,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢锭",
       "de": "Nachtstahl-Barren",
@@ -12079,11 +12276,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "fc5a08264b7",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢制敌战铠",
       "de": "Nachtstahl-Rüstung des Verstümmelns",
@@ -12096,11 +12293,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "662c9d2da5f",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢御敌铠靴",
       "de": "Nachtstahl-Bärlatschen der Verteidigung",
@@ -12113,11 +12310,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3548,
+    "difficulty": 2760,
     "durability": 70,
     "id": "97a8045a920",
     "level": 350,
-    "maxQuality": 25881,
+    "maxQuality": 16638,
     "name": {
       "cn": "夜钢盾",
       "de": "Nachtstahl-Schild",
@@ -12134,7 +12331,7 @@
     "durability": 35,
     "id": "a6181be3747",
     "level": 380,
-    "maxQuality": 21137,
+    "maxQuality": 19023,
     "name": {
       "cn": "千种钢",
       "de": "Chigusa-Barren",
@@ -12147,11 +12344,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "5a14f2a2e48",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹大盾",
       "de": "Rakshasa-Großschild",
@@ -12164,11 +12361,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "44accf39eab",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士笼手",
       "de": "Rakshasa-Kote der Verteidigung",
@@ -12181,11 +12378,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "23835b58078",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹枪士笼手",
       "de": "Rakshasa-Kote des Verstümmelns",
@@ -12198,11 +12395,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "aff31123266",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士面饰",
       "de": "Rakshasa-Maske der Verteidigung",
@@ -12215,11 +12412,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "b10116be1db",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹枪士面饰",
       "de": "Rakshasa-Maske des Verstümmelns",
@@ -12232,11 +12429,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "3569e32cb4c",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹武士护胫",
       "de": "Rakshasa-Sune-Ate der Verteidigung",
@@ -12249,11 +12446,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3728,
+    "difficulty": 2900,
     "durability": 70,
     "id": "9e4a06f52dd",
     "level": 380,
-    "maxQuality": 29591,
+    "maxQuality": 19023,
     "name": {
       "cn": "罗刹枪士护胫",
       "de": "Rakshasa-Sune-Ate des Verstümmelns",
@@ -12297,5 +12494,1527 @@
       "ko": "Suzaku Barding"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "e91d4b94e8b",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Alembic",
+      "de": "Dunkelgold-Destillierkolben",
+      "en": "Deepgold Alembic",
+      "fr": "Alambic en or incarnat",
+      "ja": "ディープゴールド・アレンビック",
+      "ko": "Deepgold Alembic"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "5fb439e8dd6",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Cuirass of Fending",
+      "de": "Dunkelgold-Kürass der Verteidigung",
+      "en": "Deepgold Cuirass of Fending",
+      "fr": "Cuirasse de protecteur en or incarnat",
+      "ja": "ディープゴールド・ディフェンダーキュイラス",
+      "ko": "Deepgold Cuirass of Fending"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "d8958036a32",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Gauntlets of Fending",
+      "de": "Dunkelgold-Panzerhandschuhe der Verteidigung",
+      "en": "Deepgold Gauntlets of Fending",
+      "fr": "Gantelets de protecteur en or incarnat",
+      "ja": "ディープゴールド・ディフェンダーガントレット",
+      "ko": "Deepgold Gauntlets of Fending"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "3a90342a6e3",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Helm of Fending",
+      "de": "Dunkelgold-Helm der Verteidigung",
+      "en": "Deepgold Helm of Fending",
+      "fr": "Casque de protecteur en or incarnat",
+      "ja": "ディープゴールド・ディフェンダーヘルム",
+      "ko": "Deepgold Helm of Fending"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "00290bed1cc",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Kite Shield",
+      "de": "Dunkelgold-Drachenschild",
+      "en": "Deepgold Kite Shield",
+      "fr": "Écu mandorle en or incarnat",
+      "ja": "ディープゴールド・カイトシールド",
+      "ko": "Deepgold Kite Shield"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "ce23f82c220",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Mask of Scouting",
+      "de": "Dunkelgold-Maske des Spähens",
+      "en": "Deepgold Mask of Scouting",
+      "fr": "Masque d'éclaireur en or incarnat",
+      "ja": "ディープゴールド・スカウトマスク",
+      "ko": "Deepgold Mask of Scouting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 1574,
+    "durability": 40,
+    "id": "ff0339e6405",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Nugget",
+      "de": "Dunkelgold-Nugget",
+      "en": "Deepgold Nugget",
+      "fr": "Pépite d'or incarnat",
+      "ja": "ディープゴールドナゲット",
+      "ko": "Deepgold Nugget"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "db1deea6ded",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Plate Belt of Aiming",
+      "de": "Dunkelgold-Plattengürtel des Zielens",
+      "en": "Deepgold Plate Belt of Aiming",
+      "fr": "Ceinture de plaques de pisteur en or incarnat",
+      "ja": "ディープゴールド・レンジャープレートベルト",
+      "ko": "Deepgold Plate Belt of Aiming"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "5d639c2e388",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Plate Belt of Casting",
+      "de": "Dunkelgold-Plattengürtel der Magie",
+      "en": "Deepgold Plate Belt of Casting",
+      "fr": "Ceinture de plaques d'incantateur en or incarnat",
+      "ja": "ディープゴールド・キャスタープレートベルト",
+      "ko": "Deepgold Plate Belt of Casting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "cf0bc7657c3",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Plate Belt of Fending",
+      "de": "Dunkelgold-Plattengürtel der Verteidigung",
+      "en": "Deepgold Plate Belt of Fending",
+      "fr": "Ceinture de plaques de protecteur en or incarnat",
+      "ja": "ディープゴールド・ディフェンダープレートベルト",
+      "ko": "Deepgold Plate Belt of Fending"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "579caf386ea",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Plate Belt of Healing",
+      "de": "Dunkelgold-Plattengürtel der Heilung",
+      "en": "Deepgold Plate Belt of Healing",
+      "fr": "Ceinture de plaques de soigneur en or incarnat",
+      "ja": "ディープゴールド・ヒーラープレートベルト",
+      "ko": "Deepgold Plate Belt of Healing"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "2f504da6977",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Plate Belt of Maiming",
+      "de": "Dunkelgold-Plattengürtel des Verstümmelns",
+      "en": "Deepgold Plate Belt of Maiming",
+      "fr": "Ceinture de plaques d'abatteur en or incarnat",
+      "ja": "ディープゴールド・スレイヤープレートベルト",
+      "ko": "Deepgold Plate Belt of Maiming"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "5731a8900af",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Plate Belt of Scouting",
+      "de": "Dunkelgold-Plattengürtel des Spähens",
+      "en": "Deepgold Plate Belt of Scouting",
+      "fr": "Ceinture de plaques d'éclaireur en or incarnat",
+      "ja": "ディープゴールド・スカウトプレートベルト",
+      "ko": "Deepgold Plate Belt of Scouting"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "a878f3ae031",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Plate Belt of Striking",
+      "de": "Dunkelgold-Plattengürtel des Schlagens",
+      "en": "Deepgold Plate Belt of Striking",
+      "fr": "Ceinture de plaques d'agresseur en or incarnat",
+      "ja": "ディープゴールド・ストライカープレートベルト",
+      "ko": "Deepgold Plate Belt of Striking"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "d6d0942e4ef",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Rail Frypan",
+      "de": "Dunkelgold-Bratpfanne",
+      "en": "Deepgold Rail Frypan",
+      "fr": "Poêle à frire râle en or incarnat",
+      "ja": "ディープゴールド・レイルフライパン",
+      "ko": "Deepgold Rail Frypan"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 80,
+    "id": "1f89ed9f0f5",
+    "level": 390,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Deepgold Sollerets of Fending",
+      "de": "Dunkelgold-Sollerets der Verteidigung",
+      "en": "Deepgold Sollerets of Fending",
+      "fr": "Solerets de protecteur en or incarnat",
+      "ja": "ディープゴールド・ディフェンダーソルレット",
+      "ko": "Deepgold Sollerets of Fending"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "ac1b514b80e",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Gauntlets of Maiming",
+      "de": "Dunkelgold-Panzerhandschuhe des Verstümmelns",
+      "en": "Deepgold Gauntlets of Maiming",
+      "fr": "Gantelets d'abatteur en or incarnat",
+      "ja": "ディープゴールド・スレイヤーガントレット",
+      "ko": "Deepgold Gauntlets of Maiming"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "16127cdbba4",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Gloves of Fending",
+      "de": "Dunkelgold-Handschuhe der Verteidigung",
+      "en": "Deepgold Gloves of Fending",
+      "fr": "Gants de protecteur en or incarnat",
+      "ja": "ディープゴールド・ディフェンダーグローブ",
+      "ko": "Deepgold Gloves of Fending"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 1624,
+    "durability": 40,
+    "id": "377118ca636",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Ingot",
+      "de": "Dunkelgold-Barren",
+      "en": "Deepgold Ingot",
+      "fr": "Lingot d'or incarnat",
+      "ja": "ディープゴールドインゴット",
+      "ko": "Deepgold Ingot"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "d7879f4e894",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Sollerets of Maiming",
+      "de": "Dunkelgold-Sollerets des Verstümmelns",
+      "en": "Deepgold Sollerets of Maiming",
+      "fr": "Solerets d'abatteur en or incarnat",
+      "ja": "ディープゴールド・スレイヤーソルレット",
+      "ko": "Deepgold Sollerets of Maiming"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "ae87a7810d6",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Tassets of Aiming",
+      "de": "Dunkelgold-Bauchreifen des Zielens",
+      "en": "Deepgold Tassets of Aiming",
+      "fr": "Tassette de pisteur en or incarnat",
+      "ja": "ディープゴールド・レンジャータセット",
+      "ko": "Deepgold Tassets of Aiming"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "80f903ae0e9",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Tassets of Casting",
+      "de": "Dunkelgold-Bauchreifen der Magie",
+      "en": "Deepgold Tassets of Casting",
+      "fr": "Tassette d'incantateur en or incarnat",
+      "ja": "ディープゴールド・キャスタータセット",
+      "ko": "Deepgold Tassets of Casting"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "608d5c67acb",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Tassets of Fending",
+      "de": "Dunkelgold-Bauchreifen der Verteidigung",
+      "en": "Deepgold Tassets of Fending",
+      "fr": "Tassette de protecteur en or incarnat",
+      "ja": "ディープゴールド・ディフェンダータセット",
+      "ko": "Deepgold Tassets of Fending"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "1f86acc442f",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Tassets of Healing",
+      "de": "Dunkelgold-Bauchreifen der Heilung",
+      "en": "Deepgold Tassets of Healing",
+      "fr": "Tassette de soigneur en or incarnat",
+      "ja": "ディープゴールド・ヒーラータセット",
+      "ko": "Deepgold Tassets of Healing"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "5a2b6a94119",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Tassets of Maiming",
+      "de": "Dunkelgold-Bauchreifen des Verstümmelns",
+      "en": "Deepgold Tassets of Maiming",
+      "fr": "Tassette d'abatteur en or incarnat",
+      "ja": "ディープゴールド・スレイヤータセット",
+      "ko": "Deepgold Tassets of Maiming"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "dfe7fa1eb84",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Tassets of Scouting",
+      "de": "Dunkelgold-Bauchreifen des Spähens",
+      "en": "Deepgold Tassets of Scouting",
+      "fr": "Tassette d'éclaireur en or incarnat",
+      "ja": "ディープゴールド・スカウトタセット",
+      "ko": "Deepgold Tassets of Scouting"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "18d0d2a45f2",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Tassets of Striking",
+      "de": "Dunkelgold-Bauchreifen des Schlagens",
+      "en": "Deepgold Tassets of Striking",
+      "fr": "Tassette d'agresseur en or incarnat",
+      "ja": "ディープゴールド・ストライカータセット",
+      "ko": "Deepgold Tassets of Striking"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 80,
+    "id": "a1b82fa31bc",
+    "level": 395,
+    "maxQuality": 14848,
+    "name": {
+      "cn": "Deepgold Wings of Fending",
+      "de": "Dunkelgold-Schwingen der Verteidigung",
+      "en": "Deepgold Wings of Fending",
+      "fr": "Diadème de protecteur en or incarnat",
+      "ja": "ディープゴールド・ディフェンダーウィングス",
+      "ko": "Deepgold Wings of Fending"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "0f345d9e97c",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Deepgold Mail of Fending",
+      "de": "Dunkelgold-Rüstung der Verteidigung",
+      "en": "Deepgold Mail of Fending",
+      "fr": "Cotte de mailles de protecteur en or incarnat",
+      "ja": "ディープゴールド・ディフェンダーメイル",
+      "ko": "Deepgold Mail of Fending"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "686f6d54752",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Deepgold Shield",
+      "de": "Dunkelgold-Schild",
+      "en": "Deepgold Shield",
+      "fr": "Bouclier en or incarnat",
+      "ja": "ディープゴールドシールド",
+      "ko": "Deepgold Shield"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "fc63d193bde",
+    "level": 400,
+    "maxQuality": 15625,
+    "name": {
+      "cn": "Deepgold Surcoat of Maiming",
+      "de": "Dunkelgold-Mantel des Verstümmelns",
+      "en": "Deepgold Surcoat of Maiming",
+      "fr": "Surcot d'abatteur en or incarnat",
+      "ja": "ディープゴールド・スレイヤーサーコート",
+      "ko": "Deepgold Surcoat of Maiming"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 2343,
+    "durability": 80,
+    "id": "243cc932a4f",
+    "level": 400,
+    "maxQuality": 8593,
+    "name": {
+      "cn": "Metal Worm Jar",
+      "de": "Metallenes Wurmgefäß",
+      "en": "Metal Worm Jar",
+      "fr": "Pot en métal",
+      "ja": "金属製の食材容器",
+      "ko": "Metal Worm Jar"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "c5612ab2533",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Gauntlets of Fending",
+      "de": "Seelenazurit-Panzerhandschuhe der Verteidigung",
+      "en": "Bluespirit Gauntlets of Fending",
+      "fr": "Gantelets de protecteur en azuresprit",
+      "ja": "ブルースピリット・ディフェンダーガントレット",
+      "ko": "Bluespirit Gauntlets of Fending"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "b48a0ccc5ce",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Gauntlets of Maiming",
+      "de": "Seelenazurit-Panzerhandschuhe des Verstümmelns",
+      "en": "Bluespirit Gauntlets of Maiming",
+      "fr": "Gantelets d'abatteur en azuresprit",
+      "ja": "ブルースピリット・スレイヤーガントレット",
+      "ko": "Bluespirit Gauntlets of Maiming"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "9a4db082beb",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Greaves of Casting",
+      "de": "Seelenazurit-Beinschienen der Magie",
+      "en": "Bluespirit Greaves of Casting",
+      "fr": "Jambards d'incantateur en azuresprit",
+      "ja": "ブルースピリット・キャスターグリーヴ",
+      "ko": "Bluespirit Greaves of Casting"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "fd6cf072354",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Headgear of Casting",
+      "de": "Seelenazurit-Kopfbedeckung der Magie",
+      "en": "Bluespirit Headgear of Casting",
+      "fr": "Protège-tête d'incantateur en azuresprit",
+      "ja": "ブルースピリット・キャスターヘッドギア",
+      "ko": "Bluespirit Headgear of Casting"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "1601d8f0512",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Helm of Fending",
+      "de": "Seelenazurit-Helm der Verteidigung",
+      "en": "Bluespirit Helm of Fending",
+      "fr": "Casque de protecteur en azuresprit",
+      "ja": "ブルースピリット・ディフェンダーヘルム",
+      "ko": "Bluespirit Helm of Fending"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "1f161bedd5a",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Helm of Maiming",
+      "de": "Seelenazurit-Helm des Verstümmelns",
+      "en": "Bluespirit Helm of Maiming",
+      "fr": "Casque d'abatteur en azuresprit",
+      "ja": "ブルースピリット・スレイヤーヘルム",
+      "ko": "Bluespirit Helm of Maiming"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "6e70e4c664f",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Plate Belt of Aiming",
+      "de": "Seelenazurit-Plattengürtel des Zielens",
+      "en": "Bluespirit Plate Belt of Aiming",
+      "fr": "Ceinture de plaques de pisteur en azuresprit",
+      "ja": "ブルースピリット・レンジャープレートベルト",
+      "ko": "Bluespirit Plate Belt of Aiming"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "1eaf79901c8",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Plate Belt of Casting",
+      "de": "Seelenazurit-Plattengürtel der Magie",
+      "en": "Bluespirit Plate Belt of Casting",
+      "fr": "Ceinture de plaques d'incantateur en azuresprit",
+      "ja": "ブルースピリット・キャスタープレートベルト",
+      "ko": "Bluespirit Plate Belt of Casting"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "3a62f486ec0",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Plate Belt of Fending",
+      "de": "Seelenazurit-Plattengürtel der Verteidigung",
+      "en": "Bluespirit Plate Belt of Fending",
+      "fr": "Ceinture de plaques de protecteur en azuresprit",
+      "ja": "ブルースピリット・ディフェンダープレートベルト",
+      "ko": "Bluespirit Plate Belt of Fending"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "40bfa6a66ef",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Plate Belt of Healing",
+      "de": "Seelenazurit-Plattengürtel der Heilung",
+      "en": "Bluespirit Plate Belt of Healing",
+      "fr": "Ceinture de plaques de soigneur en azuresprit",
+      "ja": "ブルースピリット・ヒーラープレートベルト",
+      "ko": "Bluespirit Plate Belt of Healing"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "85e106f6360",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Plate Belt of Maiming",
+      "de": "Seelenazurit-Plattengürtel des Verstümmelns",
+      "en": "Bluespirit Plate Belt of Maiming",
+      "fr": "Ceinture de plaques d'abatteur en azuresprit",
+      "ja": "ブルースピリット・スレイヤープレートベルト",
+      "ko": "Bluespirit Plate Belt of Maiming"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "b7cd6f788ad",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Plate Belt of Scouting",
+      "de": "Seelenazurit-Plattengürtel des Spähens",
+      "en": "Bluespirit Plate Belt of Scouting",
+      "fr": "Ceinture de plaques d'éclaireur en azuresprit",
+      "ja": "ブルースピリット・スカウトプレートベルト",
+      "ko": "Bluespirit Plate Belt of Scouting"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "fa3af03292b",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Plate Belt of Striking",
+      "de": "Seelenazurit-Plattengürtel des Schlagens",
+      "en": "Bluespirit Plate Belt of Striking",
+      "fr": "Ceinture de plaques d'agresseur en azuresprit",
+      "ja": "ブルースピリット・ストライカープレートベルト",
+      "ko": "Bluespirit Plate Belt of Striking"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "5bdc607eebe",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Sabatons of Fending",
+      "de": "Seelenazurit-Bärlatschen der Verteidigung",
+      "en": "Bluespirit Sabatons of Fending",
+      "fr": "Sabatons de protecteur en azuresprit",
+      "ja": "ブルースピリット・ディフェンダーサバトン",
+      "ko": "Bluespirit Sabatons of Fending"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "30465ace5d3",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Sabatons of Maiming",
+      "de": "Seelenazurit-Bärlatschen des Verstümmelns",
+      "en": "Bluespirit Sabatons of Maiming",
+      "fr": "Sabatons d'abatteur en azuresprit",
+      "ja": "ブルースピリット・スレイヤーサバトン",
+      "ko": "Bluespirit Sabatons of Maiming"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 1703,
+    "durability": 40,
+    "id": "fecbe00ad85",
+    "level": 403,
+    "maxQuality": 16091,
+    "name": {
+      "cn": "Bluespirit Tile",
+      "de": "Seelenazurit-Barren",
+      "en": "Bluespirit Tile",
+      "fr": "Barre d'azuresprit",
+      "ja": "霊青材",
+      "ko": "Bluespirit Tile"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "1033467ff77",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Bluespirit Alembic",
+      "de": "Seelenazurit-Destillierkolben",
+      "en": "Bluespirit Alembic",
+      "fr": "Alambic en azuresprit",
+      "ja": "ブルースピリットアレンビック",
+      "ko": "Bluespirit Alembic"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "55d4cef058a",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Bluespirit Cuirass of Fending",
+      "de": "Seelenazurit-Kürass der Verteidigung",
+      "en": "Bluespirit Cuirass of Fending",
+      "fr": "Cuirasse de protecteur en azuresprit",
+      "ja": "ブルースピリット・ディフェンダーキュイラス",
+      "ko": "Bluespirit Cuirass of Fending"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "036cb3e3168",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Bluespirit Cuirass of Maiming",
+      "de": "Seelenazurit-Kürass des Verstümmelns",
+      "en": "Bluespirit Cuirass of Maiming",
+      "fr": "Cuirasse d'abatteur en azuresprit",
+      "ja": "ブルースピリット・スレイヤーキュイラス",
+      "ko": "Bluespirit Cuirass of Maiming"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "17bf140ac55",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Bluespirit Porxie Frypan",
+      "de": "Seelenazurit-Bratpfanne",
+      "en": "Bluespirit Porxie Frypan",
+      "fr": "Poêle à frire porxie en azuresprit",
+      "ja": "ブルースピリット・ポークシーフライパン",
+      "ko": "Bluespirit Porxie Frypan"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 80,
+    "id": "635837a2989",
+    "level": 406,
+    "maxQuality": 16557,
+    "name": {
+      "cn": "Bluespirit Tower Shield",
+      "de": "Seelenazurit-Turmschild",
+      "en": "Bluespirit Tower Shield",
+      "fr": "Pavois en azuresprit",
+      "ja": "ブルースピリット・タワーシールド",
+      "ko": "Bluespirit Tower Shield"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "fe0f25965f1",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Intricate Censer",
+      "de": "Metallenes Räuchergefäß",
+      "en": "Intricate Censer",
+      "fr": "Encensoir en métal",
+      "ja": "金属製の香炉",
+      "ko": "Intricate Censer"
+    }
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 2426,
+    "durability": 80,
+    "id": "085f1c1dc45",
+    "level": 406,
+    "maxQuality": 9106,
+    "name": {
+      "cn": "Metal Trident",
+      "de": "Metallener Dreizack",
+      "en": "Metal Trident",
+      "fr": "Trident en métal",
+      "ja": "金属製の三叉鉾",
+      "ko": "Metal Trident"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "6051eacc0cd",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Titanbronze Headband of Scouting",
+      "de": "Titanbronze-Stirnband des Spähens",
+      "en": "Titanbronze Headband of Scouting",
+      "fr": "Bandeau d'éclaireur en bronze titané",
+      "ja": "チタンブロンズ・スカウトヘッドバンド",
+      "ko": "Titanbronze Headband of Scouting"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 1763,
+    "durability": 40,
+    "id": "65cd046a22e",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Titanbronze Ingot",
+      "de": "Titanbronze-Barren",
+      "en": "Titanbronze Ingot",
+      "fr": "Lingot de bronze titané",
+      "ja": "チタンブロンズインゴット",
+      "ko": "Titanbronze Ingot"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "dfa87d80b7a",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Titanbronze Tassets of Aiming",
+      "de": "Titanbronze-Bauchreifen des Zielens",
+      "en": "Titanbronze Tassets of Aiming",
+      "fr": "Tassette de pisteur en bronze titané",
+      "ja": "チタンブロンズ・レンジャータセット",
+      "ko": "Titanbronze Tassets of Aiming"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "ab496329bfa",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Titanbronze Tassets of Casting",
+      "de": "Titanbronze-Bauchreifen der Magie",
+      "en": "Titanbronze Tassets of Casting",
+      "fr": "Tassette d'incantateur en bronze titané",
+      "ja": "チタンブロンズ・キャスタータセット",
+      "ko": "Titanbronze Tassets of Casting"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "4f7d37319cb",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Titanbronze Tassets of Fending",
+      "de": "Titanbronze-Bauchreifen der Verteidigung",
+      "en": "Titanbronze Tassets of Fending",
+      "fr": "Tassette de protecteur en bronze titané",
+      "ja": "チタンブロンズ・ディフェンダータセット",
+      "ko": "Titanbronze Tassets of Fending"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "f303c7911f0",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Titanbronze Tassets of Healing",
+      "de": "Titanbronze-Plattengürtel der Heilung",
+      "en": "Titanbronze Tassets of Healing",
+      "fr": "Tassette de soigneur en bronze titané",
+      "ja": "チタンブロンズ・ヒーラータセット",
+      "ko": "Titanbronze Tassets of Healing"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "fd65ba093a0",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Titanbronze Tassets of Maiming",
+      "de": "Titanbronze-Bauchreifen des Verstümmelns",
+      "en": "Titanbronze Tassets of Maiming",
+      "fr": "Tassette d'abatteur en bronze titané",
+      "ja": "チタンブロンズ・スレイヤータセット",
+      "ko": "Titanbronze Tassets of Maiming"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "7d03d027f9c",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Titanbronze Tassets of Scouting",
+      "de": "Titanbronze-Bauchgürtel des Spähens",
+      "en": "Titanbronze Tassets of Scouting",
+      "fr": "Tassette d'éclaireur en bronze titané",
+      "ja": "チタンブロンズ・スカウトタセット",
+      "ko": "Titanbronze Tassets of Scouting"
+    }
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "943805642ed",
+    "level": 409,
+    "maxQuality": 17024,
+    "name": {
+      "cn": "Titanbronze Tassets of Striking",
+      "de": "Titanbronze-Bauchreifen des Schlagens",
+      "en": "Titanbronze Tassets of Striking",
+      "fr": "Tassette d'agresseur en bronze titané",
+      "ja": "チタンブロンズ・ストライカータセット",
+      "ko": "Titanbronze Tassets of Striking"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 6454,
+    "durability": 80,
+    "id": "276d32b1301",
+    "level": 412,
+    "maxQuality": 8745,
+    "name": {
+      "cn": "Crystarium Bench",
+      "de": "Sitzbank aus Crystarium",
+      "en": "Crystarium Bench",
+      "fr": "Banc de Cristarium",
+      "ja": "クリスタリウムベンチ",
+      "ko": "Crystarium Bench"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 6454,
+    "durability": 80,
+    "id": "e9874766c6b",
+    "level": 412,
+    "maxQuality": 8745,
+    "name": {
+      "cn": "Crystarium Kitchen Hanger",
+      "de": "Küchenhaken-Set aus Crystarium",
+      "en": "Crystarium Kitchen Hanger",
+      "fr": "Patère de cuisine de Cristarium",
+      "ja": "クリスタリウムキッチンハンガー",
+      "ko": "Crystarium Kitchen Hanger"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 6454,
+    "durability": 80,
+    "id": "372b4000a70",
+    "level": 412,
+    "maxQuality": 8745,
+    "name": {
+      "cn": "Crystarium Teapot",
+      "de": "Teekanne aus Crystarium",
+      "en": "Crystarium Teapot",
+      "fr": "Théière de Cristarium",
+      "ja": "クリスタリウムティーポット",
+      "ko": "Crystarium Teapot"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "159a0e68d55",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Titanbronze Alembic",
+      "de": "Titanbronze-Destillierkolben",
+      "en": "Titanbronze Alembic",
+      "fr": "Alambic en bronze titané",
+      "ja": "チタンブロンズアレンビック",
+      "ko": "Titanbronze Alembic"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "2d520db0004",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Titanbronze Moogle Frypan",
+      "de": "Titanbronze-Bratpfanne",
+      "en": "Titanbronze Moogle Frypan",
+      "fr": "Poêle à frire mog en bronze titané",
+      "ja": "チタンブロンズ・モーグリフライパン",
+      "ko": "Titanbronze Moogle Frypan"
+    }
+  },
+  {
+    "baseLevel": 77,
+    "difficulty": 3586,
+    "durability": 80,
+    "id": "f3cf304dc01",
+    "level": 412,
+    "maxQuality": 17490,
+    "name": {
+      "cn": "Titanbronze Tower Shield",
+      "de": "Titanbronze-Turmschild",
+      "en": "Titanbronze Tower Shield",
+      "fr": "Pavois en bronze titané",
+      "ja": "チタンブロンズ・タワーシールド",
+      "ko": "Titanbronze Tower Shield"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "b8c9bfb0559",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Chainmail of Fending",
+      "de": "Edelmithril-Kettenrüstung der Verteidigung",
+      "en": "Dwarven Mythril Chainmail of Fending",
+      "fr": "Cotte de mailles de protecteur en mithril noble",
+      "ja": "ハイミスリル・ディフェンダーチェーンメイル",
+      "ko": "Dwarven Mythril Chainmail of Fending"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "5c4bfc99a80",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Chainmail of Maiming",
+      "de": "Edelmithril-Kettenrüstung des Verstümmelns",
+      "en": "Dwarven Mythril Chainmail of Maiming",
+      "fr": "Cotte de mailles d'abatteur en mithril noble",
+      "ja": "ハイミスリル・スレイヤーチェーンメイル",
+      "ko": "Dwarven Mythril Chainmail of Maiming"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "d404c44cebe",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Chainmail of Striking",
+      "de": "Edelmithril-Kettenrüstung des Schlagens",
+      "en": "Dwarven Mythril Chainmail of Striking",
+      "fr": "Cotte de mailles d'agresseur en mithril noble",
+      "ja": "ハイミスリル・ストライカーチェーンメイル",
+      "ko": "Dwarven Mythril Chainmail of Striking"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "f9447f293f7",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Helm of Fending",
+      "de": "Edelmithril-Helm der Verteidigung",
+      "en": "Dwarven Mythril Helm of Fending",
+      "fr": "Casque de protecteur en mithril noble",
+      "ja": "ハイミスリル・ディフェンダーヘルム",
+      "ko": "Dwarven Mythril Helm of Fending"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "6ca85364944",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Helm of Maiming",
+      "de": "Edelmithril-Helm des Verstümmelns",
+      "en": "Dwarven Mythril Helm of Maiming",
+      "fr": "Casque d'abatteur en mithril noble",
+      "ja": "ハイミスリル・スレイヤーヘルム",
+      "ko": "Dwarven Mythril Helm of Maiming"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "8886f4e4cbe",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Helm of Striking",
+      "de": "Edelmithril-Helm des Schlagens",
+      "en": "Dwarven Mythril Helm of Striking",
+      "fr": "Casque d'agresseur en mithril noble",
+      "ja": "ハイミスリル・ストライカーヘルム",
+      "ko": "Dwarven Mythril Helm of Striking"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1822,
+    "durability": 40,
+    "id": "95be9660f8d",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Ingot",
+      "de": "Edelmithril-Barren",
+      "en": "Dwarven Mythril Ingot",
+      "fr": "Lingot de mithril noble",
+      "ja": "ハイミスリルインゴット",
+      "ko": "Dwarven Mythril Ingot"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "d47ea81d282",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Plate Belt of Fending",
+      "de": "Edelmithril-Plattengürtel der Verteidigung",
+      "en": "Dwarven Mythril Plate Belt of Fending",
+      "fr": "Ceinture de plaques de protecteur en mithril noble",
+      "ja": "ハイミスリル・ディフェンダープレートベルト",
+      "ko": "Dwarven Mythril Plate Belt of Fending"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "78940b6ca1a",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Plate Belt of Maiming",
+      "de": "Edelmithril-Plattengürtel des Verstümmelns",
+      "en": "Dwarven Mythril Plate Belt of Maiming",
+      "fr": "Ceinture de plaques d'abatteur en mithril noble",
+      "ja": "ハイミスリル・スレイヤープレートベルト",
+      "ko": "Dwarven Mythril Plate Belt of Maiming"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "3a0d1f8943c",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Shoes of Aiming",
+      "de": "Edelmithril-Schuhe des Zielens",
+      "en": "Dwarven Mythril Shoes of Aiming",
+      "fr": "Chaussures de pisteur en mithril noble",
+      "ja": "ハイミスリル・レンジャーシューズ",
+      "ko": "Dwarven Mythril Shoes of Aiming"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "45362b04b08",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Shoes of Fending",
+      "de": "Edelmithril-Schuhe der Verteidigung",
+      "en": "Dwarven Mythril Shoes of Fending",
+      "fr": "Chaussures de protecteur en mithril noble",
+      "ja": "ハイミスリル・ディフェンダーシューズ",
+      "ko": "Dwarven Mythril Shoes of Fending"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "8a0ff87ac81",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Shoes of Maiming",
+      "de": "Edelmithril-Schuhe des Verstümmelns",
+      "en": "Dwarven Mythril Shoes of Maiming",
+      "fr": "Chaussures d'abatteur en mithril noble",
+      "ja": "ハイミスリル・スレイヤーシューズ",
+      "ko": "Dwarven Mythril Shoes of Maiming"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "6d3689eec89",
+    "level": 415,
+    "maxQuality": 17956,
+    "name": {
+      "cn": "Dwarven Mythril Shoes of Scouting",
+      "de": "Edelmithril-Schuhe des Spähens",
+      "en": "Dwarven Mythril Shoes of Scouting",
+      "fr": "Chaussures d'éclaireur en mithril noble",
+      "ja": "ハイミスリル・スカウトシューズ",
+      "ko": "Dwarven Mythril Shoes of Scouting"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 2551,
+    "durability": 80,
+    "id": "828c648245a",
+    "level": 415,
+    "maxQuality": 9875,
+    "name": {
+      "cn": "Nullifying Neckpiece",
+      "de": "Antimagischer Halsschutz",
+      "en": "Nullifying Neckpiece",
+      "fr": "Collier anti-magie",
+      "ja": "耐魔法用首飾り",
+      "ko": "Nullifying Neckpiece"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "719dbde20ae",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Mythril Plate Belt of Aiming",
+      "de": "Edelmithril-Plattengürtel des Zielens",
+      "en": "Dwarven Mythril Plate Belt of Aiming",
+      "fr": "Ceinture de plaques de pisteur en mithril noble",
+      "ja": "ハイミスリル・レンジャープレートベルト",
+      "ko": "Dwarven Mythril Plate Belt of Aiming"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "e85dd8ab733",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Mythril Plate Belt of Casting",
+      "de": "Edelmithril-Plattengürtel der Magie",
+      "en": "Dwarven Mythril Plate Belt of Casting",
+      "fr": "Ceinture de plaques d'incantateur en mithril noble",
+      "ja": "ハイミスリル・キャスタープレートベルト",
+      "ko": "Dwarven Mythril Plate Belt of Casting"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "78500744e7d",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Mythril Plate Belt of Healing",
+      "de": "Edelmithril-Plattengürtel der Heilung",
+      "en": "Dwarven Mythril Plate Belt of Healing",
+      "fr": "Ceinture de plaques de soigneur en mithril noble",
+      "ja": "ハイミスリル・ヒーラープレートベルト",
+      "ko": "Dwarven Mythril Plate Belt of Healing"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "c6d2aec9903",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Mythril Plate Belt of Scouting",
+      "de": "Edelmithril-Plattengürtel des Spähens",
+      "en": "Dwarven Mythril Plate Belt of Scouting",
+      "fr": "Ceinture de plaques d'éclaireur en mithril noble",
+      "ja": "ハイミスリル・スカウトプレートベルト",
+      "ko": "Dwarven Mythril Plate Belt of Scouting"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "e4833195bde",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Mythril Plate Belt of Striking",
+      "de": "Edelmithril-Plattengürtel des Schlagens",
+      "en": "Dwarven Mythril Plate Belt of Striking",
+      "fr": "Ceinture de plaques d'agresseur en mithril noble",
+      "ja": "ハイミスリル・ストライカープレートベルト",
+      "ko": "Dwarven Mythril Plate Belt of Striking"
+    }
+  },
+  {
+    "baseLevel": 79,
+    "difficulty": 3705,
+    "durability": 80,
+    "id": "ed9c25f93a2",
+    "level": 418,
+    "maxQuality": 18422,
+    "name": {
+      "cn": "Dwarven Mythril Shield",
+      "de": "Zwergischer Edelmithril-Schild",
+      "en": "Dwarven Mythril Shield",
+      "fr": "Bouclier nain en mithril noble",
+      "ja": "ハイミスリル・ドワーヴンシールド",
+      "ko": "Dwarven Mythril Shield"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "cb647b2c594",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Dwarven Mythril Alembic",
+      "de": "Edelmithril-Destillierkolben",
+      "en": "Dwarven Mythril Alembic",
+      "fr": "Alambic en mithril noble",
+      "ja": "ハイミスリルアレンビック",
+      "ko": "Dwarven Mythril Alembic"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "6ae932fa98d",
+    "level": 420,
+    "maxQuality": 20287,
+    "name": {
+      "cn": "Dwarven Mythril Frypan",
+      "de": "Edelmithril-Bratpfanne",
+      "en": "Dwarven Mythril Frypan",
+      "fr": "Poêle à frire en mithril noble",
+      "ja": "ハイミスリルフライパン",
+      "ko": "Dwarven Mythril Frypan"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 2760,
+    "durability": 80,
+    "id": "860e3ba11c3",
+    "level": 420,
+    "maxQuality": 11157,
+    "name": {
+      "cn": "Enchanting Ring",
+      "de": "Besonderer Ring",
+      "en": "Enchanting Ring",
+      "fr": "Bague ensorcelée",
+      "ja": "精巧な指輪",
+      "ko": "Enchanting Ring"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "2214bccbda4",
+    "level": 430,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "Innocence Barding",
+      "de": "Innozenz-Rossharnisch",
+      "en": "Innocence Barding",
+      "fr": "Barde d'Innocence",
+      "ja": "イノセンス・バード",
+      "ko": "Innocence Barding"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "dbf4ff68df3",
+    "level": 430,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "Titania Barding",
+      "de": "Titania-Rossharnisch",
+      "en": "Titania Barding",
+      "fr": "Barde de Titania",
+      "ja": "ティターニア・バード",
+      "ko": "Titania Barding"
+    },
+    "stars": 1
   }
 ]

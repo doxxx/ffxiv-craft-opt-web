@@ -45,7 +45,6 @@
   "Steady Hand II": "稳手II",
   "Hasty Touch": "仓促",
 
-  "Byregot's Brow": "比尔格的技巧",
   "Precise Touch": "集中加工",
   "Maker's Mark": "坚实的心得",
   "Muscle Memory": "坚信",
@@ -79,14 +78,14 @@
   "Specialty: Refurbish": "专精绝技：安稳",
   "Specialty: Reflect": "专精绝技：闲静",
 
-  "Alchemist": "炼金术士",
-  "Armorer": "铸甲匠",
-  "Blacksmith": "锻铁匠",
   "Carpenter": "刻木匠",
-  "Culinarian": "烹调师",
+  "Blacksmith": "锻铁匠",
+  "Armorer": "铸甲匠",
   "Goldsmith": "雕金匠",
   "Leatherworker": "制革匠",
   "Weaver": "裁衣匠",
+  "Alchemist": "炼金术士",
+  "Culinarian": "烹调师",
 
   "Synthesis": "作业",
   "Quality": "加工",
@@ -130,6 +129,11 @@
   "FOOD_NONE": "无",
   "MEDICINE": "药品",
   "MEDICINE_NONE": "无",
+
+  "CP_COST": "制作力",
+  "DURABILITY_COST": "耐久度",
+  "SUCCESS_RATE": "成功率",
+  "EFFICIENCY": "效率",
 
   "CRAFTER_ATTRIBUTES_ALL": "选择全部",
   "CRAFTER_ATTRIBUTES_BY_LEVEL": "根据等级",
@@ -240,6 +244,8 @@
   "ABOUT_BUG": "我发现了一个BUG！",
   "ABOUT_REPORT_ISSUES": "请在右边的链接进行反馈：",
   "ABOUT_REPORT_HERE": "点击这里",
+  "ABOUT_CONTRIBUTORS": "貢獻者",
+  "ABOUT_CONTRIBUTORS_BLURB": "沒有以下精彩人士的貢獻，這是不可能的：",
   "ABOUT_ANYTHING": "还有什么我应该知道的吗？",
   "ABOUT_RESEMBLANCE": "本站点与 ",
   "ABOUT_COINCIDENCE": " 的任何相似之处纯属巧合。另外，这是一个非常棒的网站，强烈建议大家去看看！",

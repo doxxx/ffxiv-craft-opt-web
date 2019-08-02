@@ -24,7 +24,7 @@
     standardTouch: {                                     skillID: {"Alchemist": 100093, "Armorer": 100034, "Blacksmith": 100018, "Carpenter": 100004, "Culinarian": 100109, "Goldsmith": 100078, "Leatherworker": 100048, "Weaver": 100064} },
     advancedTouch: {                                     skillID: {"Alchemist": 100097, "Armorer": 100038, "Blacksmith": 100022, "Carpenter": 100008, "Culinarian": 100112, "Goldsmith": 100081, "Leatherworker": 100052, "Weaver": 100068} },
     hastyTouch: {                                        skillID: {"Culinarian": 100108} },
-    byregotsBlessing: {                                  skillID: {"Carpenter": 100009} },
+    byregotsBlessing: {        common: true,             skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
     comfortZone: {                           buff: true, skillID: {"Alchemist": 286} },
     rumination: {                                        skillID: {"Carpenter": 276} },
     mastersMend: {             common: true,             skillID: {"Alchemist": 100092, "Armorer": 100032, "Blacksmith": 100017, "Carpenter": 100003, "Culinarian": 100107, "Goldsmith": 100077, "Leatherworker": 100047, "Weaver": 100062} },
@@ -34,7 +34,7 @@
     manipulation: {                          buff: true, skillID: {"Goldsmith": 278} },
     innerQuiet: {              common: true, buff: true, skillID: {"Alchemist": 258, "Armorer": 254, "Blacksmith": 253, "Carpenter": 252, "Culinarian": 259, "Goldsmith": 255, "Leatherworker": 257, "Weaver": 256} },
     steadyHand: {              common: true, buff: true, skillID: {"Alchemist": 250, "Armorer": 246, "Blacksmith": 245, "Carpenter": 244, "Culinarian": 251, "Goldsmith": 247, "Leatherworker": 249, "Weaver": 248} },
-    steadyHand2: {                           buff: true, skillID: {"Culinarian": 281} },
+    steadyHand2: {             common: true, buff: true, skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
     ingenuity: {                             buff: true, skillID: {"Blacksmith": 277} },
     ingenuity2: {                            buff: true, skillID: {"Blacksmith": 283} },
     greatStrides: {            common: true, buff: true, skillID: {"Alchemist": 266, "Armorer": 262, "Blacksmith": 261, "Carpenter": 260, "Culinarian": 267, "Goldsmith": 263, "Leatherworker": 265, "Weaver": 264} },
@@ -42,7 +42,6 @@
     tricksOfTheTrade: {                                  skillID: {"Alchemist": 100098} },
 
     // Heavensward
-    byregotsBrow: {            common: true,             skillID: {"Alchemist": 100126, "Armorer": 100122, "Blacksmith": 100121, "Carpenter": 100120, "Culinarian": 100127, "Goldsmith": 100123, "Leatherworker": 100124, "Weaver": 100125} },
     preciseTouch: {                                      skillID: {"Alchemist": 100134, "Armorer": 100130, "Blacksmith": 100129, "Carpenter": 100128, "Culinarian": 100135, "Goldsmith": 100131, "Leatherworker": 100132, "Weaver": 100133} },
     makersMark: {                                        skillID: {"Goldsmith": 100178} },
     muscleMemory: {                                      skillID: {"Culinarian": 100136} },
@@ -55,19 +54,8 @@
     byregotsMiracle: {         common: true,             skillID: {"Alchemist": 100151, "Armorer": 100147, "Blacksmith": 100146, "Carpenter": 100145, "Culinarian": 100152, "Goldsmith": 100148, "Leatherworker": 100149, "Weaver": 100150} },
     //trainedHand: {             common: true,             skillID: {"Alchemist": 100167, "Armorer": 100163, "Blacksmith": 100162, "Carpenter": 100161, "Culinarian": 100168, "Goldsmith": 100164, "Leatherworker": 100165, "Weaver": 100166} },
 
-    brandOfEarth: {                                      skillID: {"Leatherworker": 100050} },
-    brandOfFire: {                                       skillID: {"Blacksmith": 100020} },
-    brandOfIce: {                                        skillID: {"Armorer": 100036} },
-    brandOfLightning: {                                  skillID: {"Weaver": 100066} },
-    brandOfWater: {                                      skillID: {"Alchemist": 100095} },
-    brandOfWind: {                                       skillID: {"Carpenter": 100006} },
-
-    nameOfEarth: {                           buff: true, skillID: {"Leatherworker": 4571} },
-    nameOfFire: {                            buff: true, skillID: {"Blacksmith": 4569} },
-    nameOfIce: {                             buff: true, skillID: {"Armorer": 4570} },
-    nameOfLightning: {                       buff: true, skillID: {"Weaver": 4572} },
-    nameOfWater: {                           buff: true, skillID: {"Alchemist": 4573} },
-    nameOfWind: {                            buff: true, skillID: {"Carpenter": 4568} },
+    brandOfTheElements: {      common: true,             skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
+    nameOfTheElements: {       common: true, buff: true, skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
 
     //heartOfTheAlchemist: {     common: true, buff: true, skillID: {"Alchemist": 100185} },
     //heartOfTheArmorer: {       common: true, buff: true, skillID: {"Armorer": 100181} },
@@ -78,6 +66,7 @@
     //heartOfTheLeatherworker: { common: true, buff: true, skillID: {"Leatherworker": 100183} },
     //heartOfTheWeaver: {        common: true, buff: true, skillID: {"Weaver": 100184} },
 
+    // Stormblood
     hastyTouch2: {             common: true,             skillID: {"Alchemist": 100201, "Armorer": 100197, "Blacksmith": 100196, "Carpenter": 100195, "Culinarian": 100202, "Goldsmith": 100198, "Leatherworker": 100199, "Weaver": 100200} },
     carefulSynthesis3: {       common: true,             skillID: {"Alchemist": 100209, "Armorer": 100205, "Blacksmith": 100204, "Carpenter": 100203, "Culinarian": 100210, "Goldsmith": 100206, "Leatherworker": 100207, "Weaver": 100208} },
     rapidSynthesis2: {         common: true,             skillID: {"Alchemist": 100217, "Armorer": 100213, "Blacksmith": 100212, "Carpenter": 100211, "Culinarian": 100218, "Goldsmith": 100214, "Leatherworker": 100215, "Weaver": 100216} },
@@ -92,9 +81,34 @@
     specialtyReflect: {        common: true,             skillID: {"Alchemist": 100281, "Armorer": 100277, "Blacksmith": 100276, "Carpenter": 100275, "Culinarian": 100282, "Goldsmith": 100278, "Leatherworker": 100279, "Weaver": 100280} },
     strokeOfGenius: {          common: true, buff: true, skillID: {"Alchemist": 50356, "Armorer": 50352, "Blacksmith": 50351, "Carpenter": 50350, "Culinarian": 50357, "Goldsmith": 50353, "Leatherworker": 50354, "Weaver": 50355} },
 
+    // Shadowbringers
+    preparatoryTouch: {                                  skillID: {"Alchemist": 100305, "Armorer": 100301, "Blacksmith": 100300, "Carpenter": 100299, "Culinarian": 100306, "Goldsmith": 100302, "Leatherworker": 100303, "Weaver": 100304} },    
+    rapidSynthesis3: {         common: true,             skillID: {"Alchemist": 100313, "Armorer": 100309, "Blacksmith": 100308, "Carpenter": 100307, "Culinarian": 100314, "Goldsmith": 100310, "Leatherworker": 100311, "Weaver": 100312} },
+    //reuse: {                   common: true,             skillID: {"Alchemist": 4603, "Armorer": 4599, "Blacksmith": 4598, "Carpenter": 4597, "Culinarian": 4604, "Goldsmith": 4600, "Leatherworker": 4602, "Weaver": 4601} },
+    delicateSynthesis: {                                 skillID: {"Alchemist": 100329, "Armorer": 100325, "Blacksmith": 100324, "Carpenter": 100323, "Culinarian": 100330, "Goldsmith": 100326, "Leatherworker": 100327, "Weaver": 100328} },
+    intensiveSynthesis: {                                skillID: {"Alchemist": 100321, "Armorer": 100317, "Blacksmith": 100316, "Carpenter": 100315, "Culinarian": 100322, "Goldsmith": 100318, "Leatherworker": 100319, "Weaver": 100320} },
+    //trainedEye: {              common: true,             skillID: {"Alchemist": 100289, "Armorer": 100285, "Blacksmith": 100284, "Carpenter": 100283, "Culinarian": 100290, "Goldsmith": 100286, "Leatherworker": 100287, "Weaver": 100288} },
+    //trainedInstinct: {         common: true,             skillID: {"Alchemist": 100297, "Armorer": 100293, "Blacksmith": 100292, "Carpenter": 100291, "Culinarian": 100298, "Goldsmith": 100294, "Leatherworker": 100295, "Weaver": 100296} },
+    
     observe: {                 common: true,             skillID: {"Alchemist": 100099, "Armorer": 100040, "Blacksmith": 100023, "Carpenter": 100010, "Culinarian": 100113, "Goldsmith": 100082, "Leatherworker": 100053, "Weaver": 100070} }
 
     // Reclaim is omitted because it has no bearing on the success of the result of the synthesis, as far as we care.
+  };
+
+  var obsoleteActions = {
+    byregotsBrow: true,
+    brandOfEarth: true,
+    brandOfFire: true,
+    brandOfIce: true,
+    brandOfLightning: true,
+    brandOfWater: true,
+    brandOfWind: true,
+    nameOfEarth: true,
+    nameOfFire: true,
+    nameOfIce: true,
+    nameOfLightning: true,
+    nameOfWater: true,
+    nameOfWind: true,
   };
 
   var actionsByName = {};
@@ -139,16 +153,16 @@
       "carefulSynthesis2",
       "carefulSynthesis3",
       "pieceByPiece",
+      //"trainedEye",
+      //"trainedInstinct",
       "rapidSynthesis",
       "rapidSynthesis2",
+      "rapidSynthesis3",
       "focusedSynthesis",
+      "delicateSynthesis",
+      "intensiveSynthesis",
       "muscleMemory",
-      "brandOfEarth",
-      "brandOfFire",
-      "brandOfIce",
-      "brandOfLightning",
-      "brandOfWater",
-      "brandOfWind"
+      "brandOfTheElements"
     ]
     },
     {
@@ -159,11 +173,11 @@
       "hastyTouch",
       "hastyTouch2",
       "byregotsBlessing",
-      "byregotsBrow",
       "preciseTouch",
       "focusedTouch",
       "patientTouch",
-      "prudentTouch"
+      "prudentTouch",
+      "preparatoryTouch"
     ]
     },
     {
@@ -194,12 +208,8 @@
       "innovation",
       "makersMark",
       "initialPreparations",
-      "nameOfEarth",
-      "nameOfFire",
-      "nameOfIce",
-      "nameOfLightning",
-      "nameOfWater",
-      "nameOfWind"
+      "nameOfTheElements"//,
+      //"reuse"
     ]
     },
     {
@@ -233,12 +243,13 @@
   function getActionImagePath(action, cls) {
     if (!angular.isDefined(action)) {
       console.error('undefined action param');
-      return 'img/actions/empty.png';
+      return 'img/actions/unknown.svg';
     }
     var info = actionsByName[action];
     if (!angular.isDefined(info)) {
-      console.error('unknown action: %s', action);
-      return 'img/actions/empty.png';
+      if (!obsoleteActions[action])
+        console.error('unknown action: %s', action);
+      return 'img/actions/unknown.svg';
     }
     return info.imagePaths[cls];
   }
@@ -246,12 +257,13 @@
   function iActionClassSpecific(name) {
     if (!angular.isDefined(name)) {
       console.error('undefined action');
-      return undefined;
+      return false;
     }
     var info = actionsByName[name];
     if (!angular.isDefined(info)) {
-      console.error('unknown action: %s', name);
-      return undefined;
+      if (!obsoleteActions[name])
+        console.error('unknown action: %s', name);
+      return false;
     }
     return info.cls !== 'All';
   }
@@ -259,12 +271,13 @@
   function isActionCrossClass(name, currentClass) {
     if (!angular.isDefined(name)) {
       console.error('undefined action');
-      return undefined;
+      return false;
     }
     var info = actionsByName[name];
     if (!angular.isDefined(info)) {
-      console.error('unknown action: %s', name);
-      return undefined;
+      if (!obsoleteActions[action])
+        console.error('unknown action: %s', name);
+      return false;
     }
     return info.cls !== 'All' && info.cls !== currentClass;
   }
