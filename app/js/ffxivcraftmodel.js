@@ -776,8 +776,9 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
         }
         else if (isActionEq(action, AllActions.makersMark)) {
             if (s.step == 1 ) {
-                // Maker's Mark has stacks equal to difficulty divided by 100 rounded up http://redd.it/3ckrmk
-                var makersMarkStacks = Math.ceil(s.synth.recipe.difficulty / 100);
+                // Maker's Mark has stacks equal to difficulty divided by 100 rounded up http://redd.it/3ckrmk,
+                // up to a max of 25.
+                var makersMarkStacks = Math.min(25, Math.ceil(s.synth.recipe.difficulty / 100));
                 if (makersMarkStacks == 0) {
                     makersMarkStacks = 1;
                 }
