@@ -43,6 +43,7 @@
     $scope.stopSolver = stopSolver;
     $scope.useSolverResult = useSolverResult;
     $scope.equivalentSequence = equivalentSequence;
+    $scope.sequenceActionClasses = sequenceActionClasses;
 
     $scope.$on('synth.changed', resetSolver);
 
@@ -56,6 +57,12 @@
     }
 
     //////////////////////////////////////////////////////////////////////////
+
+    function sequenceActionClasses(action, cls, index) {
+      return {
+        'faded-icon': !$scope.isActionSelected(action, cls),
+      };
+    }
 
     function probabilisticSimSuccess(data) {
       $scope.pageState.solverStatus.logs.ga = data.log;
