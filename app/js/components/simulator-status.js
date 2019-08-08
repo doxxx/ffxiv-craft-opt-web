@@ -41,7 +41,7 @@
     //////////////////////////////////////////////////////////////////////////
 
     function updateBuffsLists() {
-      _buffsDatabase.buffs($translate.use(), 'Meal').then(function (buffs) {
+      _buffsDatabase.buffs($translate.use(), 'Food').then(function (buffs) {
         $scope.buffList.food = buffs;
       });
       _buffsDatabase.buffs($translate.use(), 'Medicine').then(function (buffs) {
