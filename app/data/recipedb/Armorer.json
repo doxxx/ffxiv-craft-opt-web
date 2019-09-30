@@ -11817,6 +11817,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "id": "15b12f99a2b",
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Pure Titanium Plate",
+      "de": "Reintitanplatte",
+      "en": "Pure Titanium Plate",
+      "fr": "Plaque de titane pur",
+      "ja": "ピュアチタンプレート",
+      "ko": "Pure Titanium Plate"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1574,
     "durability": 70,
     "id": "5a3ab1e2236",
@@ -14016,5 +14033,277 @@
       "ko": "Titania Barding"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "8bb6d67f35c",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Dominus Shield",
+      "de": "Dominus-Schild",
+      "en": "Dominus Shield",
+      "fr": "Dominus",
+      "ja": "ドミナスシールド",
+      "ko": "Dominus Shield"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "a9194a4ef3b",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Circlet of Maiming",
+      "de": "Manufaktur-Stirnreif des Verstümmelns",
+      "en": "Facet Circlet of Maiming",
+      "fr": "Diadème d'abatteur de la halle",
+      "ja": "ミーン・スレイヤーサークレット",
+      "ko": "Facet Circlet of Maiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "459f653c8e8",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Gauntlets of Fending",
+      "de": "Manufaktur-Panzerhandschuhe der Verteidigung",
+      "en": "Facet Gauntlets of Fending",
+      "fr": "Gantelets de protecteur de la halle",
+      "ja": "ミーン・ディフェンダーガントレット",
+      "ko": "Facet Gauntlets of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "3a2749150e9",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Gauntlets of Maiming",
+      "de": "Manufaktur-Panzerhandschuhe des Verstümmelns",
+      "en": "Facet Gauntlets of Maiming",
+      "fr": "Gantelets d'abatteur de la halle",
+      "ja": "ミーン・スレイヤーガントレット",
+      "ko": "Facet Gauntlets of Maiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "b66a821decb",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Mail of Fending",
+      "de": "Manufaktur-Rüstung der Verteidigung",
+      "en": "Facet Mail of Fending",
+      "fr": "Cotte de mailles de protecteur de la halle",
+      "ja": "ミーン・ディフェンダーメイル",
+      "ko": "Facet Mail of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "6fcc696bbc4",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Mail of Maiming",
+      "de": "Manufaktur-Rüstung des Verstümmelns",
+      "en": "Facet Mail of Maiming",
+      "fr": "Cotte de mailles d'abatteur de la halle",
+      "ja": "ミーン・スレイヤーメイル",
+      "ko": "Facet Mail of Maiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "b9334c9e1a7",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Plate Belt of Aiming",
+      "de": "Manufaktur-Plattengürtel des Zielens",
+      "en": "Facet Plate Belt of Aiming",
+      "fr": "Ceinture de plaques de pisteur de la halle",
+      "ja": "ミーン・レンジャープレートベルト",
+      "ko": "Facet Plate Belt of Aiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "64dde4053c9",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Plate Belt of Casting",
+      "de": "Manufaktur-Plattengürtel der Magie",
+      "en": "Facet Plate Belt of Casting",
+      "fr": "Ceinture de plaques d'incantateur de la halle",
+      "ja": "ミーン・キャスタープレートベルト",
+      "ko": "Facet Plate Belt of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "59f891c3783",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Plate Belt of Fending",
+      "de": "Manufaktur-Plattengürtel der Verteidigung",
+      "en": "Facet Plate Belt of Fending",
+      "fr": "Ceinture de plaques de protecteur de la halle",
+      "ja": "ミーン・ディフェンダープレートベルト",
+      "ko": "Facet Plate Belt of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "4ee0e3ff769",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Plate Belt of Healing",
+      "de": "Manufaktur-Plattengürtel der Heilung",
+      "en": "Facet Plate Belt of Healing",
+      "fr": "Ceinture de plaques de soigneur de la halle",
+      "ja": "ミーン・ヒーラープレートベルト",
+      "ko": "Facet Plate Belt of Healing"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "eeee6a38da9",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Plate Belt of Maiming",
+      "de": "Manufaktur-Plattengürtel des Verstümmelns",
+      "en": "Facet Plate Belt of Maiming",
+      "fr": "Ceinture de plaques d'abatteur de la halle",
+      "ja": "ミーン・スレイヤープレートベルト",
+      "ko": "Facet Plate Belt of Maiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "9cf27ad1389",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Plate Belt of Scouting",
+      "de": "Manufaktur-Plattengürtel des Spähens",
+      "en": "Facet Plate Belt of Scouting",
+      "fr": "Ceinture de plaques d'éclaireur de la halle",
+      "ja": "ミーン・スカウトプレートベルト",
+      "ko": "Facet Plate Belt of Scouting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "e1fbb458786",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Plate Belt of Striking",
+      "de": "Manufaktur-Plattengürtel des Schlagens",
+      "en": "Facet Plate Belt of Striking",
+      "fr": "Ceinture de plaques d'agresseur de la halle",
+      "ja": "ミーン・ストライカープレートベルト",
+      "ko": "Facet Plate Belt of Striking"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "3acbe8ad863",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Sabatons of Fending",
+      "de": "Manufaktur-Bärlatschen der Verteidigung",
+      "en": "Facet Sabatons of Fending",
+      "fr": "Sabatons de protecteur de la halle",
+      "ja": "ミーン・ディフェンダーサバトン",
+      "ko": "Facet Sabatons of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "95578e207f6",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Sabatons of Maiming",
+      "de": "Manufaktur-Bärlatschen des Verstümmelns",
+      "en": "Facet Sabatons of Maiming",
+      "fr": "Sabatons d'abatteur de la halle",
+      "ja": "ミーン・スレイヤーサバトン",
+      "ko": "Facet Sabatons of Maiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "bb8cf168022",
+    "level": 440,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Tungsten Steel Ingot",
+      "de": "Wolframbarren",
+      "en": "Tungsten Steel Ingot",
+      "fr": "Lingot d'acier au tungstène",
+      "ja": "タングステンスチールインゴット",
+      "ko": "Tungsten Steel Ingot"
+    },
+    "stars": 2
   }
 ]

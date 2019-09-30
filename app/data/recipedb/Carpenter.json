@@ -11584,6 +11584,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "id": "cee99892e13",
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Cryptomeria Lumber",
+      "de": "Sicheltanne-Bauholz",
+      "en": "Cryptomeria Lumber",
+      "fr": "Madrier de cryptoméria",
+      "ja": "クリプトメリア材",
+      "ko": "Cryptomeria Lumber"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 5668,
     "durability": 70,
     "id": "062e2f41429",
@@ -13581,5 +13598,107 @@
       "ja": "リュートの調整部材",
       "ko": "Lute Modification Component"
     }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "bb9e8164691",
+    "level": 430,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "Magicked Bed",
+      "de": "Zauberbett",
+      "en": "Magicked Bed",
+      "fr": "Lit magique",
+      "ja": "マジックベッド",
+      "ko": "Magicked Bed"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "7323e973ab5",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Catalyst",
+      "de": "Katalysator",
+      "en": "Catalyst",
+      "fr": "Catalyseur",
+      "ja": "キャタリスト",
+      "ko": "Catalyst"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "4491e99b2d4",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Clearpath",
+      "de": "Pfadweiser",
+      "en": "Clearpath",
+      "fr": "Librevoie",
+      "ja": "クリアーパス",
+      "ko": "Clearpath"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "67aedbbc4c9",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Gendawa",
+      "de": "Fay-Gendawa",
+      "en": "Gendawa",
+      "fr": "Gendawa",
+      "ja": "ジェンダワ",
+      "ko": "Gendawa"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "6b153afe08f",
+    "level": 440,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Sandalwood Lumber",
+      "de": "Sandel-Bauholz",
+      "en": "Sandalwood Lumber",
+      "fr": "Madrier de santal blanc",
+      "ja": "サンダルウッド材",
+      "ko": "Sandalwood Lumber"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "758c467d2b2",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Skystrider",
+      "de": "Himmelsschreiter",
+      "en": "Skystrider",
+      "fr": "Ouranaute",
+      "ja": "スカイストライダー",
+      "ko": "Skystrider"
+    },
+    "stars": 2
   }
 ]

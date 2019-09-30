@@ -19904,6 +19904,57 @@
     "baseLevel": 80,
     "difficulty": 4143,
     "durability": 70,
+    "id": "93b24958f9f",
+    "level": 430,
+    "maxQuality": 21841,
+    "name": {
+      "cn": "Adventurer's Hooded Vest",
+      "de": "Abenteurer-Kapuzenweste",
+      "en": "Adventurer's Hooded Vest",
+      "fr": "Veste à capuche d'aventurier",
+      "ja": "アドベンチャラーフードベスト",
+      "ko": "Adventurer's Hooded Vest"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4143,
+    "durability": 70,
+    "id": "c0a703b3fb4",
+    "level": 430,
+    "maxQuality": 21841,
+    "name": {
+      "cn": "Cropped Fireglass Leather Slops",
+      "de": "Gekürzte Feuerglas-Leder-Beinlinge",
+      "en": "Cropped Fireglass Leather Slops",
+      "fr": "Pantalon court en cuir verni",
+      "ja": "グラスレザー・クロップドパンツ",
+      "ko": "Cropped Fireglass Leather Slops"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4143,
+    "durability": 70,
+    "id": "0af5c3a8b22",
+    "level": 430,
+    "maxQuality": 21841,
+    "name": {
+      "cn": "Hooded Fireglass Leather Vest",
+      "de": "Feuerglas-Kapuzenweste",
+      "en": "Hooded Fireglass Leather Vest",
+      "fr": "Veste à capuche en cuir verni",
+      "ja": "グラスレザー・フードベスト",
+      "ko": "Hooded Fireglass Leather Vest"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4143,
+    "durability": 70,
     "id": "e206328f94e",
     "level": 430,
     "maxQuality": 21841,
@@ -19916,5 +19967,226 @@
       "ko": "Steerhide Shoes"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "f7ee1e0daaa",
+    "level": 440,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Chalicotherium Leather",
+      "de": "Krallentierleder",
+      "en": "Chalicotherium Leather",
+      "fr": "Cuir de chalicotherium",
+      "ja": "カリコテリウムレザー",
+      "ko": "Chalicotherium Leather"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "7585a410b8b",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Boots of Aiming",
+      "de": "Manufaktur-Stiefel des Zielens",
+      "en": "Facet Boots of Aiming",
+      "fr": "Bottes de pisteur de la halle",
+      "ja": "ミーン・レンジャーブーツ",
+      "ko": "Facet Boots of Aiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "d5198f18986",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Boots of Casting",
+      "de": "Manufaktur-Stiefel der Magie",
+      "en": "Facet Boots of Casting",
+      "fr": "Bottes d'incantateur de la halle",
+      "ja": "ミーン・キャスターブーツ",
+      "ko": "Facet Boots of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "008569046ff",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Boots of Healing",
+      "de": "Manufaktur-Stiefel der Heilung",
+      "en": "Facet Boots of Healing",
+      "fr": "Bottes de soigneur de la halle",
+      "ja": "ミーン・ヒーラーブーツ",
+      "ko": "Facet Boots of Healing"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "8f32d8929e5",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Bottoms of Maiming",
+      "de": "Manufaktur-Hose des Verstümmelns",
+      "en": "Facet Bottoms of Maiming",
+      "fr": "Bas-de-corps d'abatteur de la halle",
+      "ja": "ミーン・スレイヤーボトム",
+      "ko": "Facet Bottoms of Maiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "3418882564a",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Bottoms of Scouting",
+      "de": "Manufaktur-Hose des Spähens",
+      "en": "Facet Bottoms of Scouting",
+      "fr": "Bas-de-corps d'éclaireur de la halle",
+      "ja": "ミーン・スカウトボトム",
+      "ko": "Facet Bottoms of Scouting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "ddb29ecbdd3",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Chain Hose of Fending",
+      "de": "Manufaktur-Hose der Verteidigung",
+      "en": "Facet Chain Hose of Fending",
+      "fr": "Fuseau de mailles de protecteur de la halle",
+      "ja": "ミーン・ディフェンダーチェーンホーズ",
+      "ko": "Facet Chain Hose of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "64deb11cb74",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Cyclas of Striking",
+      "de": "Manufaktur-Cyclas des Schlagens",
+      "en": "Facet Cyclas of Striking",
+      "fr": "Cyclas d'agresseur de la halle",
+      "ja": "ミーン・ストライカーシクラス",
+      "ko": "Facet Cyclas of Striking"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "476f9c2c667",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Gloves of Scouting",
+      "de": "Manufaktur-Handschuhe des Spähens",
+      "en": "Facet Gloves of Scouting",
+      "fr": "Gants d'éclaireur de la halle",
+      "ja": "ミーン・スカウトグローブ",
+      "ko": "Facet Gloves of Scouting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "0b1ebcef9fe",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Gloves of Striking",
+      "de": "Manufaktur-Handschuhe des Schlagens",
+      "en": "Facet Gloves of Striking",
+      "fr": "Gants d'agresseur de la halle",
+      "ja": "ミーン・ストライカーグローブ",
+      "ko": "Facet Gloves of Striking"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "b0ada972cac",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Halfgloves of Casting",
+      "de": "Manufaktur-Kurzfingerhandschuhe der Magie",
+      "en": "Facet Halfgloves of Casting",
+      "fr": "Mitaines d'incantateur de la halle",
+      "ja": "ミーン・キャスターハーフグローブ",
+      "ko": "Facet Halfgloves of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "2200037f06f",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Sandals of Striking",
+      "de": "Manufaktur-Sandalen des Schlagens",
+      "en": "Facet Sandals of Striking",
+      "fr": "Sandales d'agresseur de la halle",
+      "ja": "ミーン・ストライカーサンダル",
+      "ko": "Facet Sandals of Striking"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "d71f9ba7b49",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Thighboots of Scouting",
+      "de": "Manufaktur-Kniestiefel des Spähens",
+      "en": "Facet Thighboots of Scouting",
+      "fr": "Cuissardes d'éclaireur de la halle",
+      "ja": "ミーン・スカウトサイブーツ",
+      "ko": "Facet Thighboots of Scouting"
+    },
+    "stars": 2
   }
 ]

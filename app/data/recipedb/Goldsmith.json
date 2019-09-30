@@ -10073,7 +10073,7 @@
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
-    "id": "643fd43d54a",
+    "id": "ed3d05ee8f5",
     "level": 110,
     "maxQuality": 5783,
     "name": {
@@ -10090,7 +10090,7 @@
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
-    "id": "ed3d05ee8f5",
+    "id": "643fd43d54a",
     "level": 110,
     "maxQuality": 5783,
     "name": {
@@ -22041,5 +22041,430 @@
       "ko": "Titania Shadow Box"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "995e4820c95",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Bracelet of Aiming",
+      "de": "Manufaktur-Armband des Zielens",
+      "en": "Facet Bracelet of Aiming",
+      "fr": "Bracelet de pisteur de la halle",
+      "ja": "ミーン・レンジャーブレスレット",
+      "ko": "Facet Bracelet of Aiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "95b1af34ac7",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Bracelet of Casting",
+      "de": "Manufaktur-Armband der Magie",
+      "en": "Facet Bracelet of Casting",
+      "fr": "Bracelet d'incantateur de la halle",
+      "ja": "ミーン・キャスターブレスレット",
+      "ko": "Facet Bracelet of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "330a4477c63",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Bracelet of Fending",
+      "de": "Manufaktur-Armband der Verteidigung",
+      "en": "Facet Bracelet of Fending",
+      "fr": "Bracelet de protecteur de la halle",
+      "ja": "ミーン・ディフェンダーブレスレット",
+      "ko": "Facet Bracelet of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "ddbbf55ac31",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Bracelet of Healing",
+      "de": "Manufaktur-Armband der Heilung",
+      "en": "Facet Bracelet of Healing",
+      "fr": "Bracelet de soigneur de la halle",
+      "ja": "ミーン・ヒーラーブレスレット",
+      "ko": "Facet Bracelet of Healing"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "c43806345b0",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Bracelet of Slaying",
+      "de": "Manufaktur-Armband des Schlachtens",
+      "en": "Facet Bracelet of Slaying",
+      "fr": "Bracelet d'attaquant de la halle",
+      "ja": "ミーン・アタッカーブレスレット",
+      "ko": "Facet Bracelet of Slaying"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "42cabf7da73",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Choker of Aiming",
+      "de": "Manufaktur-Halsband des Zielens",
+      "en": "Facet Choker of Aiming",
+      "fr": "Ras de cou de pisteur de la halle",
+      "ja": "ミーン・レンジャーチョーカー",
+      "ko": "Facet Choker of Aiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "2133654d6f7",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Choker of Casting",
+      "de": "Manufaktur-Halsband der Magie",
+      "en": "Facet Choker of Casting",
+      "fr": "Ras de cou d'incantateur de la halle",
+      "ja": "ミーン・キャスターチョーカー",
+      "ko": "Facet Choker of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "257998f4d04",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Choker of Fending",
+      "de": "Manufaktur-Halsband der Verteidigung",
+      "en": "Facet Choker of Fending",
+      "fr": "Ras de cou de protecteur de la halle",
+      "ja": "ミーン・ディフェンダーチョーカー",
+      "ko": "Facet Choker of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "a319a926723",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Choker of Healing",
+      "de": "Manufaktur-Halsband der Heilung",
+      "en": "Facet Choker of Healing",
+      "fr": "Ras de cou de soigneur de la halle",
+      "ja": "ミーン・ヒーラーチョーカー",
+      "ko": "Facet Choker of Healing"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "f355ad41be9",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Choker of Slaying",
+      "de": "Manufaktur-Halsband des Schlachtens",
+      "en": "Facet Choker of Slaying",
+      "fr": "Ras de cou d'attaquant de la halle",
+      "ja": "ミーン・アタッカーチョーカー",
+      "ko": "Facet Choker of Slaying"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "c5e4b612a34",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Circlet of Fending",
+      "de": "Manufaktur-Stirnreif der Verteidigung",
+      "en": "Facet Circlet of Fending",
+      "fr": "Diadème de protecteur de la halle",
+      "ja": "ミーン・ディフェンダーサークレット",
+      "ko": "Facet Circlet of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "adacfb7f6a6",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Circlet of Striking",
+      "de": "Manufaktur-Stirnreif des Schlagens",
+      "en": "Facet Circlet of Striking",
+      "fr": "Diadème d'agresseur de la halle",
+      "ja": "ミーン・ストライカーサークレット",
+      "ko": "Facet Circlet of Striking"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "14d80f75a45",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Earrings of Aiming",
+      "de": "Manufaktur-Ohrringe des Zielens",
+      "en": "Facet Earrings of Aiming",
+      "fr": "Boucles d'oreilles de pisteur de la halle",
+      "ja": "ミーン・レンジャーイヤリング",
+      "ko": "Facet Earrings of Aiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "a6991896f50",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Earrings of Casting",
+      "de": "Manufaktur-Ohrringe der Magie",
+      "en": "Facet Earrings of Casting",
+      "fr": "Boucles d'oreilles d'incantateur de la halle",
+      "ja": "ミーン・キャスターイヤリング",
+      "ko": "Facet Earrings of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "690017b160f",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Earrings of Fending",
+      "de": "Manufaktur-Ohrringe der Verteidigung",
+      "en": "Facet Earrings of Fending",
+      "fr": "Boucles d'oreilles de protecteur de la halle",
+      "ja": "ミーン・ディフェンダーイヤリング",
+      "ko": "Facet Earrings of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "2c87ad6ee05",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Earrings of Healing",
+      "de": "Manufaktur-Ohrringe der Heilung",
+      "en": "Facet Earrings of Healing",
+      "fr": "Boucles d'oreilles de soigneur de la halle",
+      "ja": "ミーン・ヒーラーイヤリング",
+      "ko": "Facet Earrings of Healing"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "9b23ab8fbba",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Earrings of Slaying",
+      "de": "Manufaktur-Ohrringe des Schlachtens",
+      "en": "Facet Earrings of Slaying",
+      "fr": "Boucles d'oreilles d'attaquant de la halle",
+      "ja": "ミーン・アタッカーイヤリング",
+      "ko": "Facet Earrings of Slaying"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "b0b034ac830",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Ring of Aiming",
+      "de": "Manufaktur-Ring des Zielens",
+      "en": "Facet Ring of Aiming",
+      "fr": "Bague de pisteur de la halle",
+      "ja": "ミーン・レンジャーリング",
+      "ko": "Facet Ring of Aiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "625236f3776",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Ring of Casting",
+      "de": "Manufaktur-Ring der Magie",
+      "en": "Facet Ring of Casting",
+      "fr": "Bague d'incantateur de la halle",
+      "ja": "ミーン・キャスターリング",
+      "ko": "Facet Ring of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "55c1587a6d8",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Ring of Fending",
+      "de": "Manufaktur-Ring der Verteidigung",
+      "en": "Facet Ring of Fending",
+      "fr": "Bague de protecteur de la halle",
+      "ja": "ミーン・ディフェンダーリング",
+      "ko": "Facet Ring of Fending"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "464c711d3e3",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Ring of Healing",
+      "de": "Manufaktur-Ring der Heilung",
+      "en": "Facet Ring of Healing",
+      "fr": "Bague de soigneur de la halle",
+      "ja": "ミーン・ヒーラーリング",
+      "ko": "Facet Ring of Healing"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "6854a73e1c4",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Facet Ring of Slaying",
+      "de": "Manufaktur-Ring des Schlachtens",
+      "en": "Facet Ring of Slaying",
+      "fr": "Bague d'attaquant de la halle",
+      "ja": "ミーン・アタッカーリング",
+      "ko": "Facet Ring of Slaying"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "2ff3d0b4af1",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Merveilleuse",
+      "de": "Merveilleuse",
+      "en": "Merveilleuse",
+      "fr": "Merveilleuse",
+      "ja": "メルヴェイユーズ",
+      "ko": "Merveilleuse"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "c0a2bd7dc61",
+    "level": 440,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Pollux",
+      "de": "Polluc",
+      "en": "Pollux",
+      "fr": "Pollux",
+      "ja": "ポルック",
+      "ko": "Pollux"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "a2dbebcfc33",
+    "level": 440,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Prismatic Ingot",
+      "de": "Spektralkristall-Stein",
+      "en": "Prismatic Ingot",
+      "fr": "Barre iridescente",
+      "ja": "虹結晶材",
+      "ko": "Prismatic Ingot"
+    },
+    "stars": 2
   }
 ]
