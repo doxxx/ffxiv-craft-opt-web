@@ -263,34 +263,59 @@ function ApplyModifiers(s, action, condition) {
     control - originalControl >= 3000 ? (control = 3000 + originalControl) : 0
 
     // Effects modifying level difference
-    var effCrafterLevel = getEffectiveCrafterLevel(s.synth);
-    var effRecipeLevel = s.synth.recipe.level;
-    var levelDifference = effCrafterLevel - effRecipeLevel;
+    var effCrafterLevel = getEffectiveCrafterLevel(s.synth)
+    var effRecipeLevel = s.synth.recipe.level
+    var levelDifference = effCrafterLevel - effRecipeLevel
+    var originalLevelDifference = effCrafterLevel - effRecipeLevel
+    var recipeLevel = effRecipeLevel
+    var stars = s.synth.recipe.stars
 
     if (AllActions.ingenuity2.shortName in s.effects.countDowns) {
-        if (Ing2RecipeLevelTable[s.synth.recipe.level]) {
-            effRecipeLevel = Ing2RecipeLevelTable[s.synth.recipe.level];
-            levelDifference = effCrafterLevel - effRecipeLevel;
+        if (levelDifference < 0 && recipeLevel >= 390) {
+        let cap = -20
+        if (Math.abs(originalLevelDifference) <= 100) {
+            cap = -4
+        } else if (Math.abs(originalLevelDifference) < 110) {
+            cap = -9
         }
-        else {
-            levelDifference = effCrafterLevel - (effRecipeLevel - 7); // fall back on 2.2 estimate
+        levelDifference = Math.max(levelDifference + Math.floor(recipeLevel / 7), cap)
+        } else {
+        // Shadowbringers
+        if (recipeLevel >= 390) {
+            levelDifference += Math.floor(recipeLevel / 21)
+        } else {
+            if (recipeLevel === 290) {
+            levelDifference += 11
+            } else if (recipeLevel === 300) {
+            levelDifference += 10
+            } else if (recipeLevel >= 120) {
+            levelDifference += 12
+            } else {
+            levelDifference += 6
+            }
+            levelDifference = Math.max(levelDifference, -1 * (stars - 1 || 5))
         }
-
-        if (levelDifference < 0) {
-            levelDifference = Math.max(levelDifference, -5);
         }
-    }
-    else if (AllActions.ingenuity.shortName in s.effects.countDowns) {
-        if (Ing1RecipeLevelTable[s.synth.recipe.level]) {
-            effRecipeLevel = Ing1RecipeLevelTable[s.synth.recipe.level];
-            levelDifference = effCrafterLevel - effRecipeLevel;
+    } else if (AllActions.ingenuity.shortName in s.effects.countDowns) {
+        if (levelDifference < 0 && recipeLevel >= 390) {
+        const cap = Math.abs(originalLevelDifference) <= 100 ? -5 : -20
+        levelDifference = Math.max(levelDifference + Math.floor(recipeLevel / 8), cap)
+        } else {
+        // Shadowbringers
+        if (recipeLevel >= 390) {
+            levelDifference += Math.floor(recipeLevel / 21.5)
+        } else {
+            if (recipeLevel === 290) {
+            levelDifference += 10
+            } else if (recipeLevel === 300) {
+            levelDifference += 9
+            } else if (recipeLevel >= 120) {
+            levelDifference += 11
+            } else {
+            levelDifference += 5
+            }
+            levelDifference = Math.max(levelDifference, -1 * (stars || 5))
         }
-        else {
-            levelDifference = effCrafterLevel - (effRecipeLevel - 5); // fall back on 2.2 estimate
-        }
-
-        if (levelDifference < 0) {
-            levelDifference = Math.max(levelDifference, -6);
         }
     }
 
