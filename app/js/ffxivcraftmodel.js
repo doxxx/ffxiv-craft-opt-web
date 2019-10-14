@@ -70,11 +70,11 @@ function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, m
 }
 
 Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, crafterLevel, recipeLevel) {
-    return Math.floor(getLevelDif('Craft', levelDifference) * (0.21 * craftsmanship + 2) * (10000 + craftsmanship)) / (10000 + suggestedCraftsmanship[recipeLevel])
+    return Math.floor(getLevelDifferenceFactor('craftsmanship', levelDifference) * (0.21 * craftsmanship + 2) * (10000 + craftsmanship)) / (10000 + SuggestedCraftsmanship[recipeLevel])
 };
 
 Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, crafterLevel, recipeLevel) {
-    return Math.floor(getLevelDif('control', levelDifference) * (0.35 * control + 35) * (10000 + control)) / (10000 + suggestedControl[recipeLevel])
+    return Math.floor(getLevelDifferenceFactor('control', levelDifference) * (0.35 * control + 35) * (10000 + control)) / (10000 + SuggestedControl[recipeLevel])
 };
 
 function isActionEq(action1, action2) {
@@ -249,7 +249,6 @@ function ApplyModifiers(s, action, condition) {
     //=================
     var craftsmanship = s.synth.crafter.craftsmanship;
     var control = s.synth.crafter.control;
-    var originalControl = s.synth.crafter.control
 
     // Effects modifying control
     if (AllActions.innerQuiet.shortName in s.effects.countUps) {
@@ -259,63 +258,64 @@ function ApplyModifiers(s, action, condition) {
     if (AllActions.innovation.shortName in s.effects.countDowns) {
         control += 0.5 * s.synth.crafter.control;
     }
-    // add control limit 5.0
-    control - originalControl >= 3000 ? (control = 3000 + originalControl) : 0
+
+    // Since game version 5.0, effects increasing control are capped at crafter's original control + 3000
+    control = Math.max(control, s.synth.crafter.control + 3000);
 
     // Effects modifying level difference
-    var effCrafterLevel = getEffectiveCrafterLevel(s.synth)
-    var effRecipeLevel = s.synth.recipe.level
-    var levelDifference = effCrafterLevel - effRecipeLevel
-    var originalLevelDifference = effCrafterLevel - effRecipeLevel
-    var recipeLevel = effRecipeLevel
-    var stars = s.synth.recipe.stars
+    var effCrafterLevel = getEffectiveCrafterLevel(s.synth);
+    var effRecipeLevel = s.synth.recipe.level;
+    var levelDifference = effCrafterLevel - effRecipeLevel;
+    var originalLevelDifference = effCrafterLevel - effRecipeLevel;
+    var recipeLevel = effRecipeLevel;
+    var stars = s.synth.recipe.stars;
 
     if (AllActions.ingenuity2.shortName in s.effects.countDowns) {
         if (levelDifference < 0 && recipeLevel >= 390) {
-        let cap = -20
-        if (Math.abs(originalLevelDifference) <= 100) {
-            cap = -4
-        } else if (Math.abs(originalLevelDifference) < 110) {
-            cap = -9
-        }
-        levelDifference = Math.max(levelDifference + Math.floor(recipeLevel / 7), cap)
-        } else {
-        // Shadowbringers
-        if (recipeLevel >= 390) {
-            levelDifference += Math.floor(recipeLevel / 21)
-        } else {
-            if (recipeLevel === 290) {
-            levelDifference += 11
-            } else if (recipeLevel === 300) {
-            levelDifference += 10
-            } else if (recipeLevel >= 120) {
-            levelDifference += 12
-            } else {
-            levelDifference += 6
+            let cap = -20;
+            if (Math.abs(originalLevelDifference) <= 100) {
+                cap = -4;
+            } else if (Math.abs(originalLevelDifference) < 110) {
+                cap = -9;
             }
-            levelDifference = Math.max(levelDifference, -1 * (stars - 1 || 5))
-        }
+            levelDifference = Math.max(levelDifference + Math.floor(recipeLevel / 7), cap);
+        } else {
+            // Shadowbringers
+            if (recipeLevel >= 390) {
+                levelDifference += Math.floor(recipeLevel / 21);
+            } else {
+                if (recipeLevel === 290) {
+                    levelDifference += 11;
+                } else if (recipeLevel === 300) {
+                    levelDifference += 10;
+                } else if (recipeLevel >= 120) {
+                    levelDifference += 12;
+                } else {
+                    levelDifference += 6;
+                }
+                levelDifference = Math.max(levelDifference, -1 * (stars - 1 || 5));
+            }
         }
     } else if (AllActions.ingenuity.shortName in s.effects.countDowns) {
         if (levelDifference < 0 && recipeLevel >= 390) {
-        const cap = Math.abs(originalLevelDifference) <= 100 ? -5 : -20
-        levelDifference = Math.max(levelDifference + Math.floor(recipeLevel / 8), cap)
+            const cap = Math.abs(originalLevelDifference) <= 100 ? -5 : -20;
+            levelDifference = Math.max(levelDifference + Math.floor(recipeLevel / 8), cap);
         } else {
-        // Shadowbringers
-        if (recipeLevel >= 390) {
-            levelDifference += Math.floor(recipeLevel / 21.5)
-        } else {
-            if (recipeLevel === 290) {
-            levelDifference += 10
-            } else if (recipeLevel === 300) {
-            levelDifference += 9
-            } else if (recipeLevel >= 120) {
-            levelDifference += 11
+            // Shadowbringers
+            if (recipeLevel >= 390) {
+                levelDifference += Math.floor(recipeLevel / 21.5);
             } else {
-            levelDifference += 5
+                if (recipeLevel === 290) {
+                    levelDifference += 10;
+                } else if (recipeLevel === 300) {
+                    levelDifference += 9;
+                } else if (recipeLevel >= 120) {
+                    levelDifference += 11;
+                } else {
+                    levelDifference += 5;
+                }
+                levelDifference = Math.max(levelDifference, -1 * (stars || 5));
             }
-            levelDifference = Math.max(levelDifference, -1 * (stars || 5))
-        }
         }
     }
 
@@ -2084,7 +2084,7 @@ var QualityPenaltyTable = {
     340: -0.11,
 };
 
-var suggestedCraftsmanship = {
+var SuggestedCraftsmanship = {
     1: 22,
     2: 22,
     3: 22,
@@ -2535,9 +2535,9 @@ var suggestedCraftsmanship = {
     448: 2112,
     449: 2126,
     450: 2140
-}
+};
 
-var suggestedControl = {
+var SuggestedControl = {
     1: 11,
     2: 11,
     3: 11,
@@ -2988,85 +2988,89 @@ var suggestedControl = {
     448: 1964,
     449: 1977,
     450: 1990
-}
+};
 
-var levelDifferenceOfCraftsmanShip = {
-    '-10': 0.75,
-    '-9': 0.77,
-    '-8': 0.8,
-    '-7': 0.82,
-    '-6': 0.85,
-    '-5': 0.87,
-    '-4': 0.9,
-    '-3': 0.92,
-    '-2': 0.95,
-    '-1': 0.97,
-    0: 1,
-    1: 1.05,
-    2: 1.1,
-    3: 1.15,
-    4: 1.2,
-    5: 1.25,
-    6: 1.27,
-    7: 1.29,
-    8: 1.31,
-    9: 1.33,
-    10: 1.35,
-    11: 1.37,
-    12: 1.39,
-    13: 1.41,
-    14: 1.43,
-    15: 1.45,
-    16: 1.46,
-    17: 1.47,
-    18: 1.48,
-    19: 1.49,
-    20: 1.5
-}
-
-var levelDifferenceOfControl = {
-    '-10': 0.5,
-    '-9': 0.55,
-    '-8': 0.6,
-    '-7': 0.65,
-    '-6': 0.7,
-    '-5': 0.75,
-    '-4': 0.8,
-    '-3': 0.85,
-    '-2': 0.9,
-    '-1': 0.95,
-    0: 1,
-    1: 1,
-    2: 1,
-    3: 1,
-    4: 1,
-    5: 1,
-    6: 1,
-    7: 1,
-    8: 1,
-    9: 1,
-    10: 1,
-    11: 1,
-    12: 1,
-    13: 1,
-    14: 1,
-    15: 1,
-    16: 1,
-    17: 1,
-    18: 1,
-    19: 1,
-    20: 1
-}
-
-function getLevelDif(kind, num) {
-    if (-10 <= num && num <= 20) {
-        return kind === 'Craft' ? levelDifferenceOfCraftsmanShip[num] : levelDifferenceOfControl[num]
-    } else if (num > 20) {
-        return kind === 'Craft' ? levelDifferenceOfCraftsmanShip['20'] : levelDifferenceOfControl['20']
-    } else if (num < -10) {
-        return kind === 'Craft' ? levelDifferenceOfCraftsmanShip['-10'] : levelDifferenceOfControl['-10']
+var LevelDifferenceFactors = {
+    'craftsmanship': {
+        '-10': 0.75,
+        '-9': 0.77,
+        '-8': 0.8,
+        '-7': 0.82,
+        '-6': 0.85,
+        '-5': 0.87,
+        '-4': 0.9,
+        '-3': 0.92,
+        '-2': 0.95,
+        '-1': 0.97,
+        0: 1,
+        1: 1.05,
+        2: 1.1,
+        3: 1.15,
+        4: 1.2,
+        5: 1.25,
+        6: 1.27,
+        7: 1.29,
+        8: 1.31,
+        9: 1.33,
+        10: 1.35,
+        11: 1.37,
+        12: 1.39,
+        13: 1.41,
+        14: 1.43,
+        15: 1.45,
+        16: 1.46,
+        17: 1.47,
+        18: 1.48,
+        19: 1.49,
+        20: 1.5
+    },
+    'control': {
+        '-10': 0.5,
+        '-9': 0.55,
+        '-8': 0.6,
+        '-7': 0.65,
+        '-6': 0.7,
+        '-5': 0.75,
+        '-4': 0.8,
+        '-3': 0.85,
+        '-2': 0.9,
+        '-1': 0.95,
+        0: 1,
+        1: 1,
+        2: 1,
+        3: 1,
+        4: 1,
+        5: 1,
+        6: 1,
+        7: 1,
+        8: 1,
+        9: 1,
+        10: 1,
+        11: 1,
+        12: 1,
+        13: 1,
+        14: 1,
+        15: 1,
+        16: 1,
+        17: 1,
+        18: 1,
+        19: 1,
+        20: 1
     }
+};
+
+function getLevelDifferenceFactor(kind, levelDiff) {
+    if (levelDiff < -10) levelDiff = -10;
+    else if (levelDiff > 20) levelDiff = 20;
+
+    var factors = LevelDifferenceFactors[kind];
+    if (!factors) {
+        throw "unrecognized level difference factor kind";
+    }
+
+    return factors[levelDiff];
 }
+
 // Test objects
 //cls, level, craftsmanship, control, craftPoints, actions
 /*
