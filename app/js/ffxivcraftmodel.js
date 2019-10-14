@@ -260,7 +260,7 @@ function ApplyModifiers(s, action, condition) {
     }
 
     // Since game version 5.0, effects increasing control are capped at crafter's original control + 3000
-    control = Math.max(control, s.synth.crafter.control + 3000);
+    control = Math.min(control, s.synth.crafter.control + 3000);
 
     // Effects modifying level difference
     var effCrafterLevel = getEffectiveCrafterLevel(s.synth);
