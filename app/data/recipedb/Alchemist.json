@@ -13051,7 +13051,7 @@
       "cn": "Grade 1 Dexterity Alkahest",
       "de": "Visionslösung des Scharfsinns I",
       "en": "Grade 1 Dexterity Alkahest",
-      "fr": "Eau chimèrique de dextérité I",
+      "fr": "Eau chimérique de dextérité I",
       "ja": "眼力の幻水G1",
       "ko": "Grade 1 Dexterity Alkahest"
     }
@@ -13067,7 +13067,7 @@
       "cn": "Grade 1 Intelligence Alkahest",
       "de": "Visionslösung der Intelligenz I",
       "en": "Grade 1 Intelligence Alkahest",
-      "fr": "Eau chimèrique d'intelligence I",
+      "fr": "Eau chimérique d'intelligence I",
       "ja": "知力の幻水G1",
       "ko": "Grade 1 Intelligence Alkahest"
     }
@@ -13083,7 +13083,7 @@
       "cn": "Grade 1 Mind Alkahest",
       "de": "Visionslösung der Willenskraft I",
       "en": "Grade 1 Mind Alkahest",
-      "fr": "Eau chimèrique d'esprit I",
+      "fr": "Eau chimérique d'esprit I",
       "ja": "心力の幻水G1",
       "ko": "Grade 1 Mind Alkahest"
     }
@@ -13099,7 +13099,7 @@
       "cn": "Grade 1 Strength Alkahest",
       "de": "Visionslösung der Stärke I",
       "en": "Grade 1 Strength Alkahest",
-      "fr": "Eau chimèrique de force I",
+      "fr": "Eau chimérique de force I",
       "ja": "剛力の幻水G1",
       "ko": "Grade 1 Strength Alkahest"
     }
@@ -13115,7 +13115,7 @@
       "cn": "Grade 1 Vitality Alkahest",
       "de": "Visionslösung der Konstitution I",
       "en": "Grade 1 Vitality Alkahest",
-      "fr": "Eau chimèrique de vitalité I",
+      "fr": "Eau chimérique de vitalité I",
       "ja": "活力の幻水G1",
       "ko": "Grade 1 Vitality Alkahest"
     }
@@ -13128,12 +13128,12 @@
     "level": 400,
     "maxQuality": 8593,
     "name": {
-      "cn": "Nutrient-Rich Porridge",
+      "cn": "Nutrient-rich Porridge",
       "de": "Proteinreiche Suppe",
-      "en": "Nutrient-Rich Porridge",
+      "en": "Nutrient-rich Porridge",
       "fr": "Soupe tonifiante",
       "ja": "低刺激の薬餌",
-      "ko": "Nutrient-Rich Porridge"
+      "ko": "Nutrient-rich Porridge"
     }
   },
   {
@@ -13445,7 +13445,7 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "a2f511565cf",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
       "cn": "Tincture of Dexterity",
@@ -13461,7 +13461,7 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "87cd91f9ede",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
       "cn": "Tincture of Intelligence",
@@ -13477,7 +13477,7 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "f4357a6be16",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
       "cn": "Tincture of Strength",
@@ -13493,7 +13493,7 @@
     "difficulty": 2760,
     "durability": 80,
     "id": "321a10cfbe8",
-    "level": 420,
+    "level": 430,
     "maxQuality": 11157,
     "name": {
       "cn": "Zun-Style Amaro Feed",
@@ -13509,7 +13509,7 @@
     "difficulty": 7457,
     "durability": 70,
     "id": "b2d30d3afb4",
-    "level": 430,
+    "level": 440,
     "maxQuality": 10920,
     "name": {
       "cn": "Crystarium Umbrella Stand",
@@ -13526,7 +13526,7 @@
     "difficulty": 7457,
     "durability": 70,
     "id": "928d364d116",
-    "level": 430,
+    "level": 440,
     "maxQuality": 10920,
     "name": {
       "cn": "Insanity Orchestrion Roll",
@@ -13543,7 +13543,7 @@
     "difficulty": 7457,
     "durability": 70,
     "id": "34b75e4e324",
-    "level": 430,
+    "level": 440,
     "maxQuality": 10920,
     "name": {
       "cn": "What Angel Wakes Me Orchestrion Roll",
@@ -13554,5 +13554,209 @@
       "ko": "What Angel Wakes Me Orchestrion Roll"
     },
     "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "5d2550a2f4d",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Galdrabok",
+      "de": "Galdrabok",
+      "en": "Galdrabok",
+      "fr": "Galdrabók",
+      "ja": "ガルドラボーク",
+      "ko": "Galdrabok"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "01f155e26d8",
+    "level": 450,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Grade 2 Dexterity Alkahest",
+      "de": "Visionslösung des Scharfsinns II",
+      "en": "Grade 2 Dexterity Alkahest",
+      "fr": "Eau chimérique de dextérité II",
+      "ja": "眼力の幻水G2",
+      "ko": "Grade 2 Dexterity Alkahest"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "704e56b12b9",
+    "level": 450,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Grade 2 Intelligence Alkahest",
+      "de": "Visionslösung der Intelligenz II",
+      "en": "Grade 2 Intelligence Alkahest",
+      "fr": "Eau chimérique d'intelligence II",
+      "ja": "知力の幻水G2",
+      "ko": "Grade 2 Intelligence Alkahest"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "c439f289336",
+    "level": 450,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Grade 2 Mind Alkahest",
+      "de": "Visionslösung der Willenskraft II",
+      "en": "Grade 2 Mind Alkahest",
+      "fr": "Eau chimérique d'esprit II",
+      "ja": "心力の幻水G2",
+      "ko": "Grade 2 Mind Alkahest"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "f5852cce43a",
+    "level": 450,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Grade 2 Strength Alkahest",
+      "de": "Visionslösung der Stärke II",
+      "en": "Grade 2 Strength Alkahest",
+      "fr": "Eau chimérique de force II",
+      "ja": "剛力の幻水G2",
+      "ko": "Grade 2 Strength Alkahest"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "af1bc8180cf",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Grade 2 Tincture of Dexterity",
+      "de": "Visionsremedium des Scharfsinns II",
+      "en": "Grade 2 Tincture of Dexterity",
+      "fr": "Philtre chimérique de dextérité ll",
+      "ja": "眼力の幻薬G2",
+      "ko": "Grade 2 Tincture of Dexterity"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "a6b7a6575ce",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Grade 2 Tincture of Intelligence",
+      "de": "Visionsremedium der Intelligenz II",
+      "en": "Grade 2 Tincture of Intelligence",
+      "fr": "Philtre chimérique d'intelligence II",
+      "ja": "知力の幻薬G2",
+      "ko": "Grade 2 Tincture of Intelligence"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "9475a7c57fe",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Grade 2 Tincture of Mind",
+      "de": "Visionsremedium der Willenskraft II",
+      "en": "Grade 2 Tincture of Mind",
+      "fr": "Philtre chimérique d'esprit II",
+      "ja": "心力の幻薬G2",
+      "ko": "Grade 2 Tincture of Mind"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "157d4417eac",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Grade 2 Tincture of Strength",
+      "de": "Visionsremedium der Stärke II",
+      "en": "Grade 2 Tincture of Strength",
+      "fr": "Philtre chimérique de force II",
+      "ja": "剛力の幻薬G2",
+      "ko": "Grade 2 Tincture of Strength"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "7651d8c6264",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Grade 2 Tincture of Vitality",
+      "de": "Visionsremedium der Konstitution II",
+      "en": "Grade 2 Tincture of Vitality",
+      "fr": "Philtre chimérique de vitalité II",
+      "ja": "活力の幻薬G2",
+      "ko": "Grade 2 Tincture of Vitality"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "f5af6b41d49",
+    "level": 450,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Grade 2 Vitality Alkahest",
+      "de": "Visionslösung Konstitution II",
+      "en": "Grade 2 Vitality Alkahest",
+      "fr": "Eau chimérique de vitalité II",
+      "ja": "活力の幻水G2",
+      "ko": "Grade 2 Vitality Alkahest"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "b166c26e36e",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Pragmatism",
+      "de": "Pragmatik",
+      "en": "Pragmatism",
+      "fr": "Pragmatisme",
+      "ja": "プラグマティズム",
+      "ko": "Pragmatism"
+    },
+    "stars": 2
   }
 ]

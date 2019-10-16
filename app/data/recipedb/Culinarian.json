@@ -7733,12 +7733,12 @@
     "level": 400,
     "maxQuality": 8593,
     "name": {
-      "cn": "Nutrient-Rich Porridge",
+      "cn": "Nutrient-rich Porridge",
       "de": "Proteinreiche Suppe",
-      "en": "Nutrient-Rich Porridge",
+      "en": "Nutrient-rich Porridge",
       "fr": "Soupe tonifiante",
       "ja": "低刺激の薬餌",
-      "ko": "Nutrient-Rich Porridge"
+      "ko": "Nutrient-rich Porridge"
     }
   },
   {
@@ -8178,7 +8178,7 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "46784771f37",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
       "cn": "Jellied Harcot",
@@ -8194,7 +8194,7 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "eea749f23b6",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
       "cn": "Lemonade",
@@ -8210,7 +8210,7 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "8b08c404cde",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
       "cn": "Ovim Cordon Bleu",
@@ -8226,7 +8226,7 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "9563cfa5b37",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
       "cn": "Oysters on the Half Shell",
@@ -8242,7 +8242,7 @@
     "difficulty": 2760,
     "durability": 80,
     "id": "a1201d8d15b",
-    "level": 420,
+    "level": 430,
     "maxQuality": 11157,
     "name": {
       "cn": "Zun-Style Amaro Feed",
@@ -8252,5 +8252,175 @@
       "ja": "ズン族の草団子",
       "ko": "Zun-Style Amaro Feed"
     }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "4c2b03250d4",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Creamy Salmon Pasta",
+      "de": "Cremelachs-Spaghetti",
+      "en": "Creamy Salmon Pasta",
+      "fr": "Pâtes au saumon et à la crème",
+      "ja": "サーモンクリームパスタ",
+      "ko": "Creamy Salmon Pasta"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "8eb8c670cb8",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Exquisite Beef Stew",
+      "de": "Edler Rindereintopf",
+      "en": "Exquisite Beef Stew",
+      "fr": "Ragoût de hainag de luxe",
+      "ja": "高級ビーフシチュー",
+      "ko": "Exquisite Beef Stew"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "c3607967cf8",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "King Salmon Meuniere",
+      "de": "Monarchenlachs nach Müllerinart",
+      "en": "King Salmon Meuniere",
+      "fr": "Saumon royal meunière",
+      "ja": "キングサーモンムニエル",
+      "ko": "King Salmon Meuniere"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "2b833bbf849",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Kukuru Rusk",
+      "de": "Kukuru-Zwieback",
+      "en": "Kukuru Rusk",
+      "fr": "Biscottes au beurre kukuru",
+      "ja": "ククルラスク",
+      "ko": "Kukuru Rusk"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "caa0a8d7f43",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Lemon Curd Sachertorte",
+      "de": "Sachertorte mit Zitronencreme",
+      "en": "Lemon Curd Sachertorte",
+      "fr": "Sachertorte à la crème de citron",
+      "ja": "レモンカードザッハトルテ",
+      "ko": "Lemon Curd Sachertorte"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "c4e2770343e",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Pixieberry Cheesecake",
+      "de": "Käsekuchen mit Beeren",
+      "en": "Pixieberry Cheesecake",
+      "fr": "Gâteau au fromage à la fraise pixie",
+      "ja": "ベリーチーズケーキ",
+      "ko": "Pixieberry Cheesecake"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "674894846cd",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Pixieberry Tea",
+      "de": "Pixiebeeren-Tee",
+      "en": "Pixieberry Tea",
+      "fr": "Thé à la fraise pixie",
+      "ja": "ピクシーベリーティー",
+      "ko": "Pixieberry Tea"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "435bdafc1d9",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Popoto Salad",
+      "de": "Toffelsalat",
+      "en": "Popoto Salad",
+      "fr": "Salade de popotos",
+      "ja": "ポポトサラダ",
+      "ko": "Popoto Salad"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "57ffbbcf0a3",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Rare Roast Beef",
+      "de": "Edler Rostbraten",
+      "en": "Rare Roast Beef",
+      "fr": "Rosbif supérieur",
+      "ja": "高級ローストビーフ",
+      "ko": "Rare Roast Beef"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "7d469e88c28",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Robe Lettuce Salad",
+      "de": "Bataviasalat",
+      "en": "Robe Lettuce Salad",
+      "fr": "Salade de batavia",
+      "ja": "ウィザードレタスサラダ",
+      "ko": "Robe Lettuce Salad"
+    },
+    "stars": 2
   }
 ]
