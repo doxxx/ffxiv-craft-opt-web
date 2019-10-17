@@ -230,7 +230,7 @@ function calcNameOfMultiplier(s) {
      */
     var percentComplete = Math.floor(s.progressState / s.synth.recipe.difficulty * 100) / 100;
     var nameOfMultiplier = -2 * percentComplete + 3;
-    nameOfMultiplier = Math.max(nameOfMultiplier, 1.1);
+    nameOfMultiplier = Math.max(nameOfMultiplier, 1.0);
 
     return nameOfMultiplier;
 }
