@@ -270,7 +270,6 @@ function ApplyModifiers(s, action, condition) {
     var successProbability = action.successProbability;
     if (AllActions.innovation.shortName in s.effects.countDowns) {
         successProbability += 0.2;
-        ftSuccessProbability += 0.2;
     }
     if (isActionEq(action, AllActions.focusedSynthesis) || isActionEq(action, AllActions.focusedTouch)) {
         if (s.action === AllActions.observe.shortName) {
@@ -278,7 +277,6 @@ function ApplyModifiers(s, action, condition) {
         }
     }
     successProbability = Math.min(successProbability, 1);
-    ftSuccessProbability = Math.min(ftSuccessProbability, 1);
 
     // Effects modifying progress increase multiplier
     var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
@@ -363,7 +361,7 @@ function ApplyModifiers(s, action, condition) {
         bProgressGain: bProgressGain,
         bQualityGain: bQualityGain,
         durabilityCost: durabilityCost,
-        cpCost: cpCost
+        cpCost: action.cpCost
     };
 }
 
@@ -1441,7 +1439,7 @@ function heuristicSequenceBuilder(synth) {
     preferredAction = 'basicTouch';
 
     // Use innovation + basic touch
-    else if (tryAction('innovation') && cp >= aa.innovation.cpCost + aa.basicTouch.cpCost) {
+    if (tryAction('innovation') && cp >= aa.innovation.cpCost + aa.basicTouch.cpCost) {
         pushAction(subSeq1, 'innovation')
     }
 

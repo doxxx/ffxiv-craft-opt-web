@@ -14,23 +14,26 @@
 
   var extraActionInfo = {
     basicSynth: {                                        skillID: {"Alchemist": 100090, "Armorer": 100030, "Blacksmith": 100015, "Carpenter": 100001, "Culinarian": 100105, "Goldsmith": 100075, "Leatherworker": 100045, "Weaver": 100060} },
-    carefulSynthesis: {                                  skillID: {"Weaver": 100063} },
+    carefulSynthesis: {           common: true,                       skillID: {"Weaver": 100063} },
+    rapidSynthesis: {             common: true,                       skillID: {"Armorer": 100033} },
     basicTouch: {                                        skillID: {"Alchemist": 100091, "Armorer": 100031, "Blacksmith": 100016, "Carpenter": 100002, "Culinarian": 100106, "Goldsmith": 100076, "Leatherworker": 100046, "Weaver": 100061} },
     standardTouch: {                                     skillID: {"Alchemist": 100093, "Armorer": 100034, "Blacksmith": 100018, "Carpenter": 100004, "Culinarian": 100109, "Goldsmith": 100078, "Leatherworker": 100048, "Weaver": 100064} },
+    hastyTouch: {              common: true,                          skillID: {"Culinarian": 100108} },
     byregotsBlessing: {        common: true,             skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
     mastersMend: {             common: true,             skillID: {"Alchemist": 100092, "Armorer": 100032, "Blacksmith": 100017, "Carpenter": 100003, "Culinarian": 100107, "Goldsmith": 100077, "Leatherworker": 100047, "Weaver": 100062} },
-    wasteNot: {                              buff: true, skillID: {"Leatherworker": 279} },
-    wasteNot2: {                             buff: true, skillID: {"Leatherworker": 285} },
+    wasteNot: {                common: true,              buff: true, skillID: {"Leatherworker": 279} },
+    wasteNot2: {               common: true,              buff: true, skillID: {"Leatherworker": 285} },
+    manipulation: {            common: true,              buff: true, skillID: {"Goldsmith": 278} },
 
     innerQuiet: {              common: true, buff: true, skillID: {"Alchemist": 258, "Armorer": 254, "Blacksmith": 253, "Carpenter": 252, "Culinarian": 259, "Goldsmith": 255, "Leatherworker": 257, "Weaver": 256} },
-    ingenuity: {                             buff: true, skillID: {"Blacksmith": 277} },
+    ingenuity: {               common: true, buff: true, skillID: {"Blacksmith": 277} },
     greatStrides: {            common: true, buff: true, skillID: {"Alchemist": 266, "Armorer": 262, "Blacksmith": 261, "Carpenter": 260, "Culinarian": 267, "Goldsmith": 263, "Leatherworker": 265, "Weaver": 264} },
-    innovation: {                            buff: true, skillID: {"Goldsmith": 284} },
-    tricksOfTheTrade: {                                  skillID: {"Alchemist": 100098} },
+    innovation: {              common: true,              buff: true, skillID: {"Goldsmith": 284} },
+    tricksOfTheTrade: {        common: true,                          skillID: {"Alchemist": 100098} },
 
     // Heavensward
     preciseTouch: {                                      skillID: {"Alchemist": 100134, "Armorer": 100130, "Blacksmith": 100129, "Carpenter": 100128, "Culinarian": 100135, "Goldsmith": 100131, "Leatherworker": 100132, "Weaver": 100133} },
-    muscleMemory: {                                      skillID: {"Culinarian": 100136} },
+    muscleMemory: {            common: true,                          skillID: {"Culinarian": 100136} },
 
     // Specialist
 
@@ -42,10 +45,7 @@
     prudentTouch: {                                      skillID: {"Alchemist": 100233, "Armorer": 100229, "Blacksmith": 100228, "Carpenter": 100227, "Culinarian": 100234, "Goldsmith": 100230, "Leatherworker": 100231, "Weaver": 100232} },
     focusedSynthesis: {                                  skillID: {"Alchemist": 100241, "Armorer": 100237, "Blacksmith": 100236, "Carpenter": 100235, "Culinarian": 100242, "Goldsmith": 100238, "Leatherworker": 100239, "Weaver": 100240} },
     focusedTouch: {                                      skillID: {"Alchemist": 100249, "Armorer": 100245, "Blacksmith": 100244, "Carpenter": 100243, "Culinarian": 100250, "Goldsmith": 100246, "Leatherworker": 100247, "Weaver": 100248} },
-    specialtyReinforce: {      common: true,             skillID: {"Alchemist": 100265, "Armorer": 100261, "Blacksmith": 100260, "Carpenter": 100259, "Culinarian": 100266, "Goldsmith": 100262, "Leatherworker": 100263, "Weaver": 100264} },
-    specialtyRefurbish: {      common: true,             skillID: {"Alchemist": 100273, "Armorer": 100269, "Blacksmith": 100268, "Carpenter": 100267, "Culinarian": 100274, "Goldsmith": 100270, "Leatherworker": 100271, "Weaver": 100272} },
-    specialtyReflect: {        common: true,             skillID: {"Alchemist": 100281, "Armorer": 100277, "Blacksmith": 100276, "Carpenter": 100275, "Culinarian": 100282, "Goldsmith": 100278, "Leatherworker": 100279, "Weaver": 100280} },
-    strokeOfGenius: {          common: true, buff: true, skillID: {"Alchemist": 50356, "Armorer": 50352, "Blacksmith": 50351, "Carpenter": 50350, "Culinarian": 50357, "Goldsmith": 50353, "Leatherworker": 50354, "Weaver": 50355} },
+    reflect: {        common: true,             skillID: {"Alchemist": 100281, "Armorer": 100277, "Blacksmith": 100276, "Carpenter": 100275, "Culinarian": 100282, "Goldsmith": 100278, "Leatherworker": 100279, "Weaver": 100280} },
 
     // Shadowbringers
     preparatoryTouch: {                                  skillID: {"Alchemist": 100305, "Armorer": 100301, "Blacksmith": 100300, "Carpenter": 100299, "Culinarian": 100306, "Goldsmith": 100302, "Leatherworker": 100303, "Weaver": 100304} },    
@@ -111,7 +111,6 @@
     {
       name: "Synthesis", actions: [
       "basicSynth",
-      "flawlessSynthesis",
       "carefulSynthesis",
       //"trainedEye",
       "rapidSynthesis",

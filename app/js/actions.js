@@ -47,7 +47,7 @@ var AllActions = {
     greatStrides: new Action(       'greatStrides',         'Great Strides',         0,     32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
 
     // Disabled until I figure out how it works
-    // ingenuity: new Action(          'ingenuity',            'Ingenuity',             0,     24,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          15),
+    ingenuity: new Action(          'ingenuity',            'Ingenuity',             0,     24,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          15),
 
     finalAppraisal: new Action(     'finalAppraisal',       'Final Appraisal',       0,      1,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          42),
 
