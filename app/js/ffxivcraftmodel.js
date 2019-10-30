@@ -301,6 +301,16 @@ function ApplyModifiers(s, action, condition) {
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
 
+    // Basic Synthesis Mastery
+    if (s.synth.crafter.level >= 31 && isActionEq(action, AllActions.basicSynth)) {
+        qualityIncreaseMultiplier = 1.2        
+    }
+
+    // Rapid Synthesis Mastery
+    if (s.synth.crafter.level >= 63 && isActionEq(action, AllActions.rapidSynthesis)) {
+        progressIncreaseMultiplier = 5.0        
+    } 
+
     // We can only use Byregot actions when we have at least 2 stacks of inner quiet
     if (isActionEq(action, AllActions.byregotsBlessing)) {
         if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
@@ -308,10 +318,6 @@ function ApplyModifiers(s, action, condition) {
         } else {
             qualityIncreaseMultiplier = 0;
         }
-    }
-
-    if (AllActions.greatStrides.shortName in s.effects.countDowns) {
-        qualityIncreaseMultiplier += 1;
     }
 
     // Effects modifying progress
@@ -341,12 +347,13 @@ function ApplyModifiers(s, action, condition) {
     // Effects modifying durability cost
     var durabilityCost = action.durabilityCost;
     if ((AllActions.wasteNot.shortName in s.effects.countDowns) || (AllActions.wasteNot2.shortName in s.effects.countDowns)) {
+
         if (isActionEq(action, AllActions.prudentTouch)) {
             bQualityGain = 0;
         }
-        else {
-            durabilityCost *= 0.5;
-            ftDurabilityCost *= 0.5;
+        else if (isActionEq(action, AllActions.wasteNot) || isActionEq(action, AllActions.wasteNot2)) {
+            // Hack to instant fail
+            durabilityCost * 100;
         }
     }
 
@@ -399,6 +406,7 @@ function ApplySpecialActionEffects(s, action, condition) {
     }
 
     if ((action.qualityIncreaseMultiplier > 0) && (AllActions.greatStrides.shortName in s.effects.countDowns)) {
+        action.qualityIncreaseMultiplier += 1
         delete s.effects.countDowns[AllActions.greatStrides.shortName];
     }
 
@@ -1366,7 +1374,7 @@ function heuristicSequenceBuilder(synth) {
     }
     var effRecipeLevel = synth.recipe.level;
 
-    // If Careful Synthesis 1/2 is available, use it
+    // If Careful Synthesis is available, use it
     var preferredAction = 'basicSynth';
     if (hasAction('carefulSynthesis')) {
         preferredAction = 'carefulSynthesis';
