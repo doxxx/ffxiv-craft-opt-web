@@ -259,13 +259,6 @@ function ApplyModifiers(s, action, condition) {
         control += 0.2 * s.synth.crafter.control;
     }
 
-    if (isActionEq(action, AllActions.reflect)) {
-        if (s.step != 1) {
-            s.wastedActions += 1
-            control = 0
-        }
-    }
-
     // Since game version 5.0, effects increasing control are capped at crafter's original control + 3000
     control = Math.min(control, s.synth.crafter.control + 3000);
 
@@ -349,8 +342,8 @@ function ApplyModifiers(s, action, condition) {
     var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
 
     if ((progressIncreaseMultiplier > 0) && (s.effects.countDowns.hasOwnProperty(AllActions.muscleMemory.shortName))){
-        progressIncreaseMultiplier += 1
-        delete s.effects.countDowns[AllActions.muscleMemory.shortName]
+        progressIncreaseMultiplier += 1;
+        delete s.effects.countDowns[AllActions.muscleMemory.shortName];
     }
 
     var ftMultiplier = 1.0;
@@ -410,10 +403,21 @@ function ApplyModifiers(s, action, condition) {
 
     if (isActionEq(action, AllActions.muscleMemory)) {
         if (s.step != 1) {
-            s.wastedActions += 1
+            s.wastedActions += 1;
+            progress = 0;
+            bProgressGain = 0;
+            progressIncreaseMultiplier = 0;
         }
     }
 
+    if (isActionEq(action, AllActions.reflect)) {
+        if (s.step != 1) {
+            s.wastedActions += 1;
+            control = 0;
+            bQualityGain = 0;
+            qualityIncreateMultiplier = 0;
+        }
+    }
 
     // if (isActionEq(action, AllActions.trainedEye)) {
     //     if ((s.step == 1) && (characterLevel - s.synth.recipe.level >= 10))  {
@@ -600,7 +604,7 @@ function ApplySpecialActionEffects(s, action, condition) {
         if (s.step == 1) {
             s.effects.countUps[AllActions.innerQuiet.shortName] = 3;
         } else {
-            s.wastedActions += 1
+            s.wastedActions += 1;
         }
     }
 
@@ -628,7 +632,7 @@ function ApplySpecialActionEffects(s, action, condition) {
     // }
 
     if (s.step == 1 && s.synth.crafter.specialist && s.synth.crafter.level >= 70 && s.cpState > 0) {
-        s.effects.indefinites[AllActions.strokeOfGenius.shortName] = true;
+        // s.effects.indefinites[AllActions.strokeOfGenius.shortName] = true;
         s.bonusMaxCp = 15;
         s.cpState += 15;
     }
