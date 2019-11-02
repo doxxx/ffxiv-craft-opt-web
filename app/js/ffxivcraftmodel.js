@@ -1786,7 +1786,7 @@ function heuristicSequenceBuilder(synth) {
 
     // If we have inner quiet put it next
     if (tryAction('reflect')) {
-        pushAction(subseq1, 'reflect')
+        pushAction(subSeq1, 'reflect')
     } 
     
     if (tryAction('innerQuiet')) {
