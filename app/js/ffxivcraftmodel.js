@@ -259,6 +259,13 @@ function ApplyModifiers(s, action, condition) {
         control += 0.2 * s.synth.crafter.control;
     }
 
+    if (isActionEq(action, AllActions.reflect)) {
+        if (s.step != 1) {
+            s.wastedActions += 1
+            control = 0
+        }
+    }
+
     // Since game version 5.0, effects increasing control are capped at crafter's original control + 3000
     control = Math.min(control, s.synth.crafter.control + 3000);
 
@@ -406,6 +413,7 @@ function ApplyModifiers(s, action, condition) {
             s.wastedActions += 1
         }
     }
+
 
     // if (isActionEq(action, AllActions.trainedEye)) {
     //     if ((s.step == 1) && (characterLevel - s.synth.recipe.level >= 10))  {
