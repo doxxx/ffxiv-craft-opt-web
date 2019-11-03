@@ -82,7 +82,7 @@ var AllActions = {
     //   
     // hastyTouch2: new Action(        'hastyTouch2',          'Hasty Touch II',       10,      5,  0.6, 1.0, 0.0, 'immediate',   1,  'All',          61),
     // carefulSynthesis3: new Action(  'carefulSynthesis3',    'Careful Synthesis III',10,      7,  1.0, 0.0, 1.5, 'immediate',   1,  'All',          62),
-    rapidSynthesis2: new Action(    'rapidSynthesis2',      'Rapid Synthesis',      10,     12,  0.5, 0.0, 5.0, 'immediate',   1,  'All',          63),
+    rapidSynthesis2: new Action(    'rapidSynthesis2',      'Rapid Synthesis',      10,      0,  0.5, 0.0, 5.0, 'immediate',   1,  'All',          63),
     patientTouch: new Action(       'patientTouch',         'Patient Touch',        10,      6,  0.5, 1.0, 0.0, 'immediate',   1,  'All',          64),
     // manipulation2: new Action(      'manipulation2',        'Manipulation II',       0,     96,  1.0, 0.0, 0.0, 'countdown',   8,  'All',          65),
     prudentTouch: new Action(       'prudentTouch',         'Prudent Touch',         5,     25,  1.0, 1.0, 0.0, 'immediate',   1,  'All',          66),

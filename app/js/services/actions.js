@@ -171,7 +171,7 @@
       // "advancedTouch",
       "hastyTouch",
       // "hastyTouch2",
-      // "byregotsBlessing",
+      "byregotsBlessing",
       "preciseTouch",
       "focusedTouch",
       "patientTouch",
