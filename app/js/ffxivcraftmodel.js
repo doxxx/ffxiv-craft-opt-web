@@ -631,11 +631,11 @@ function ApplySpecialActionEffects(s, action, condition) {
     //     }
     // }
 
-    if (s.step == 1 && s.synth.crafter.specialist && s.synth.crafter.level >= 70 && s.cpState > 0) {
-        // s.effects.indefinites[AllActions.strokeOfGenius.shortName] = true;
-        s.bonusMaxCp = 15;
-        s.cpState += 15;
-    }
+    // if (s.step == 1 && s.synth.crafter.specialist && s.synth.crafter.level >= 70 && s.cpState > 0) {
+    //     // s.effects.indefinites[AllActions.strokeOfGenius.shortName] = true;
+    //     s.bonusMaxCp = 15;
+    //     s.cpState += 15;
+    // }
 }
 
 function UpdateEffectCounters(s, action, condition, successProbability) {
