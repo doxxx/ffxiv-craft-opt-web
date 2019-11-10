@@ -621,6 +621,13 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
+    if (isActionEq(action, AllActions.innovation.shortName) && (AllActions.innovation.shortName in s.effects.countDowns)) {
+        s.wastedActions += 1
+    }
+    if (isActionEq(action, AllActions.ingenuity.shortName) && (AllActions.ingenuity.shortName in s.effects.countDowns)) {
+        s.wastedActions += 1
+    }
+    
     // Effects modified by Whistle While You Work
     // if (isActionEq(action, AllActions.satisfaction) && s.cpState > 0) {
     //     if (condition.checkWhistleThrees()) {

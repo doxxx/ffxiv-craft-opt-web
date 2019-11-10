@@ -57,7 +57,7 @@ var AllActions = {
     wasteNot2: new Action(          'wasteNot2',            'Waste Not II',          0,     98,  1.0, 0.0, 0.0, 'countdown',   8,  'All',          47),
     innovation: new Action(         'innovation',           'Innovation',            0,     18,  1.0, 0.0, 0.0, 'countdown',   4,  'All',          26),
     greatStrides: new Action(       'greatStrides',         'Great Strides',         0,     32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
-    ingenuity: new Action(          'ingenuity',            'Ingenuity',             0,     24,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          15),
+    ingenuity: new Action(          'ingenuity',            'Ingenuity',             0,     22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          15),
     // ingenuity2: new Action(         'ingenuity2',           'Ingenuity II',          0,     32,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          50),
 
     // Heavensward actions
