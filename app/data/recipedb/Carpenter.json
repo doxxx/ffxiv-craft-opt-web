@@ -11584,6 +11584,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 70,
+    "id": "cee99892e13",
+    "level": 300,
+    "maxQuality": 14071,
+    "name": {
+      "cn": "Cryptomeria Lumber",
+      "de": "Sicheltanne-Bauholz",
+      "en": "Cryptomeria Lumber",
+      "fr": "Madrier de cryptoméria",
+      "ja": "クリプトメリア材",
+      "ko": "Cryptomeria Lumber"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 5668,
     "durability": 70,
     "id": "062e2f41429",
@@ -12678,7 +12695,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Bracelets",
+      "cn": "白橡木手镯",
       "de": "Weißeichen-Armreife",
       "en": "White Oak Bracelets",
       "fr": "Bracelets en chêne blanc",
@@ -12694,7 +12711,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Cane",
+      "cn": "白橡木牧杖",
       "de": "Weißeichen-Stock",
       "en": "White Oak Cane",
       "fr": "Canne en chêne blanc",
@@ -12710,7 +12727,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Composite Bow",
+      "cn": "白橡木复合弓",
       "de": "Weißeichen-Kompositbogen",
       "en": "White Oak Composite Bow",
       "fr": "Arc composite en chêne blanc",
@@ -12726,7 +12743,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Earrings",
+      "cn": "白橡木耳坠",
       "de": "Weißeichen-Ohrring",
       "en": "White Oak Earrings",
       "fr": "Boucles d'oreilles en chêne blanc",
@@ -12742,7 +12759,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Fishing Rod",
+      "cn": "白橡木钓竿",
       "de": "Weißeichen-Angelrute",
       "en": "White Oak Fishing Rod",
       "fr": "Canne à pêche en chêne blanc",
@@ -12758,7 +12775,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Grinding Wheel",
+      "cn": "白橡木砂轮机",
       "de": "Weißeichen-Schleifrad",
       "en": "White Oak Grinding Wheel",
       "fr": "Meule en chêne blanc",
@@ -12774,7 +12791,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Lumber",
+      "cn": "白橡木木材",
       "de": "Weißeichen-Bauholz",
       "en": "White Oak Lumber",
       "fr": "Madrier de chêne blanc",
@@ -12790,7 +12807,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Necklace",
+      "cn": "白橡木项链",
       "de": "Weißeichen-Halsband",
       "en": "White Oak Necklace",
       "fr": "Collier en chêne blanc",
@@ -12806,7 +12823,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Partisan",
+      "cn": "白橡木游击枪",
       "de": "Weißeichen-Partisane",
       "en": "White Oak Partisan",
       "fr": "Pertuisane en chêne blanc",
@@ -12822,7 +12839,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Ring",
+      "cn": "白橡木指环",
       "de": "Weißeichen-Ring",
       "en": "White Oak Ring",
       "fr": "Bague en chêne blanc",
@@ -12838,7 +12855,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Rod",
+      "cn": "白橡木法杖",
       "de": "Weißeichen-Stab",
       "en": "White Oak Rod",
       "fr": "Sceptre en chêne blanc",
@@ -12854,7 +12871,7 @@
     "level": 390,
     "maxQuality": 14071,
     "name": {
-      "cn": "White Oak Spinning Wheel",
+      "cn": "白橡木纺车",
       "de": "Weißeichen-Spinnrad",
       "en": "White Oak Spinning Wheel",
       "fr": "Rouet en chêne blanc",
@@ -12870,7 +12887,7 @@
     "level": 395,
     "maxQuality": 14848,
     "name": {
-      "cn": "Applewood Longbow",
+      "cn": "仙果木长弓",
       "de": "Wunderapfel-Langbogen",
       "en": "Applewood Longbow",
       "fr": "Arc long en pommier miracle",
@@ -12886,7 +12903,7 @@
     "level": 395,
     "maxQuality": 14848,
     "name": {
-      "cn": "Applewood Spear",
+      "cn": "仙果木长枪",
       "de": "Wunderapfel-Speer",
       "en": "Applewood Spear",
       "fr": "Hast en pommier miracle",
@@ -12902,7 +12919,7 @@
     "level": 395,
     "maxQuality": 14848,
     "name": {
-      "cn": "Miracle Apple Lumber",
+      "cn": "仙果木木材",
       "de": "Wunderapfel-Bauholz",
       "en": "Miracle Apple Lumber",
       "fr": "Madrier de pommier miracle",
@@ -12918,7 +12935,7 @@
     "level": 400,
     "maxQuality": 15625,
     "name": {
-      "cn": "Applewood Cane",
+      "cn": "仙果木牧杖",
       "de": "Wunderapfel-Stock",
       "en": "Applewood Cane",
       "fr": "Canne en pommier miracle",
@@ -12934,7 +12951,7 @@
     "level": 400,
     "maxQuality": 15625,
     "name": {
-      "cn": "Applewood Staff",
+      "cn": "仙果木长杖",
       "de": "Wunderapfel-Stab",
       "en": "Applewood Staff",
       "fr": "Bâton en pommier miracle",
@@ -12950,7 +12967,7 @@
     "level": 400,
     "maxQuality": 8593,
     "name": {
-      "cn": "Upholstery Repair Materials",
+      "cn": "内衬的修复素材",
       "de": "Innenverkleidung-Restaurierungsmaterial",
       "en": "Upholstery Repair Materials",
       "fr": "Matériau de restauration de rembourrage",
@@ -12966,7 +12983,7 @@
     "level": 403,
     "maxQuality": 16091,
     "name": {
-      "cn": "Bluespirit Cane",
+      "cn": "灵青牧杖",
       "de": "Seelenazurit-Stock",
       "en": "Bluespirit Cane",
       "fr": "Canne en azuresprit",
@@ -12982,7 +12999,7 @@
     "level": 403,
     "maxQuality": 16091,
     "name": {
-      "cn": "Bluespirit Spear",
+      "cn": "灵青长枪",
       "de": "Seelenazurit-Speer",
       "en": "Bluespirit Spear",
       "fr": "Hast en azuresprit",
@@ -12998,7 +13015,7 @@
     "level": 403,
     "maxQuality": 16091,
     "name": {
-      "cn": "White Ash Fishing Rod",
+      "cn": "白梣木钓竿",
       "de": "Weißeschen-Angelrute",
       "en": "White Ash Fishing Rod",
       "fr": "Canne à pêche en frêne blanc",
@@ -13014,7 +13031,7 @@
     "level": 403,
     "maxQuality": 16091,
     "name": {
-      "cn": "White Ash Grinding Wheel",
+      "cn": "白梣木砂轮机",
       "de": "Weißeschen-Schleifrad",
       "en": "White Ash Grinding Wheel",
       "fr": "Meule en frêne blanc",
@@ -13030,7 +13047,7 @@
     "level": 403,
     "maxQuality": 16091,
     "name": {
-      "cn": "White Ash Lumber",
+      "cn": "白梣木木材",
       "de": "Weißeschen-Bauholz",
       "en": "White Ash Lumber",
       "fr": "Madrier de frêne blanc",
@@ -13046,7 +13063,7 @@
     "level": 403,
     "maxQuality": 16091,
     "name": {
-      "cn": "White Ash Spinning Wheel",
+      "cn": "白梣木纺车",
       "de": "Weißeschen-Spinnrad",
       "en": "White Ash Spinning Wheel",
       "fr": "Rouet en frêne blanc",
@@ -13062,7 +13079,7 @@
     "level": 406,
     "maxQuality": 9106,
     "name": {
-      "cn": "Amaro Barding Repair Materials",
+      "cn": "阿马罗装备的修复素材",
       "de": "Amarosattel-Restaurierungsmaterial",
       "en": "Amaro Barding Repair Materials",
       "fr": "Matériau de restauration de barde d'amaro",
@@ -13078,7 +13095,7 @@
     "level": 406,
     "maxQuality": 16557,
     "name": {
-      "cn": "White Ash Bracelet",
+      "cn": "白梣木手镯",
       "de": "Weißeschen-Armreif",
       "en": "White Ash Bracelet",
       "fr": "Bracelet en frêne blanc",
@@ -13094,7 +13111,7 @@
     "level": 406,
     "maxQuality": 16557,
     "name": {
-      "cn": "White Ash Earring of Aiming",
+      "cn": "白梣木精准耳坠",
       "de": "Weißeschen-Ohrring des Zielens",
       "en": "White Ash Earring of Aiming",
       "fr": "Boucle d'oreille de pisteur en frêne blanc",
@@ -13110,7 +13127,7 @@
     "level": 406,
     "maxQuality": 16557,
     "name": {
-      "cn": "White Ash Earring of Casting",
+      "cn": "白梣木咏咒耳坠",
       "de": "Weißeschen-Ohrring der Magie",
       "en": "White Ash Earring of Casting",
       "fr": "Boucle d'oreille d'incantateur en frêne blanc",
@@ -13126,7 +13143,7 @@
     "level": 406,
     "maxQuality": 16557,
     "name": {
-      "cn": "White Ash Earring of Fending",
+      "cn": "白梣木御敌耳坠",
       "de": "Weißeschen-Ohrring der Verteidigung",
       "en": "White Ash Earring of Fending",
       "fr": "Boucle d'oreille de protecteur en frêne blanc",
@@ -13142,7 +13159,7 @@
     "level": 406,
     "maxQuality": 16557,
     "name": {
-      "cn": "White Ash Earring of Healing",
+      "cn": "白梣木治愈耳坠",
       "de": "Weißeschen-Ohrring der Heilung",
       "en": "White Ash Earring of Healing",
       "fr": "Boucle d'oreille de soigneur en frêne blanc",
@@ -13158,7 +13175,7 @@
     "level": 406,
     "maxQuality": 16557,
     "name": {
-      "cn": "White Ash Earring of Slaying",
+      "cn": "白梣木强攻耳坠",
       "de": "Weißeschen-Ohrring des Schlachtens",
       "en": "White Ash Earring of Slaying",
       "fr": "Boucle d'oreille d'attaquant en frêne blanc",
@@ -13174,7 +13191,7 @@
     "level": 406,
     "maxQuality": 16557,
     "name": {
-      "cn": "White Ash Earrings",
+      "cn": "白梣木耳坠",
       "de": "Weißeschen-Ohrringe",
       "en": "White Ash Earrings",
       "fr": "Boucles d'oreilles en frêne blanc",
@@ -13190,7 +13207,7 @@
     "level": 406,
     "maxQuality": 16557,
     "name": {
-      "cn": "White Ash Necklace",
+      "cn": "白梣木项链",
       "de": "Weißeschen-Halsband",
       "en": "White Ash Necklace",
       "fr": "Collier en frêne blanc",
@@ -13206,7 +13223,7 @@
     "level": 406,
     "maxQuality": 16557,
     "name": {
-      "cn": "White Ash Ring",
+      "cn": "白梣木指环",
       "de": "Weißeschen-Ring",
       "en": "White Ash Ring",
       "fr": "Bague en frêne blanc",
@@ -13222,7 +13239,7 @@
     "level": 406,
     "maxQuality": 9106,
     "name": {
-      "cn": "Workshop Sign",
+      "cn": "工房的招牌",
       "de": "Aushängeschild der Erinnerungswerkstatt",
       "en": "Workshop Sign",
       "fr": "Enseigne somptueuse",
@@ -13238,7 +13255,7 @@
     "level": 409,
     "maxQuality": 17024,
     "name": {
-      "cn": "Sandteak Cane",
+      "cn": "沙柚木牧杖",
       "de": "Sandteakholz-Stock",
       "en": "Sandteak Cane",
       "fr": "Canne en teck des sables",
@@ -13254,7 +13271,7 @@
     "level": 409,
     "maxQuality": 17024,
     "name": {
-      "cn": "Sandteak Fauchard",
+      "cn": "沙柚木刺枪",
       "de": "Sandteakholz-Fauchard",
       "en": "Sandteak Fauchard",
       "fr": "Fauchard en teck des sables",
@@ -13270,7 +13287,7 @@
     "level": 409,
     "maxQuality": 17024,
     "name": {
-      "cn": "Sandteak Longbow",
+      "cn": "沙柚木长弓",
       "de": "Sandteakholz-Langbogen",
       "en": "Sandteak Longbow",
       "fr": "Arc long en teck des sables",
@@ -13286,7 +13303,7 @@
     "level": 409,
     "maxQuality": 17024,
     "name": {
-      "cn": "Sandteak Lumber",
+      "cn": "沙柚木木材",
       "de": "Sandteak-Bauholz",
       "en": "Sandteak Lumber",
       "fr": "Madrier de teck des sables",
@@ -13302,7 +13319,7 @@
     "level": 409,
     "maxQuality": 17024,
     "name": {
-      "cn": "Sandteak Rod",
+      "cn": "沙柚木法杖",
       "de": "Sandteakholz-Stab",
       "en": "Sandteak Rod",
       "fr": "Sceptre en teck des sables",
@@ -13318,7 +13335,7 @@
     "level": 412,
     "maxQuality": 17490,
     "name": {
-      "cn": "Sandteak Fishing Rod",
+      "cn": "沙柚木钓竿",
       "de": "Sandteakholz-Angelrute",
       "en": "Sandteak Fishing Rod",
       "fr": "Canne à pêche en teck des sables",
@@ -13334,7 +13351,7 @@
     "level": 412,
     "maxQuality": 17490,
     "name": {
-      "cn": "Sandteak Grinding Wheel",
+      "cn": "沙柚木砂轮机",
       "de": "Sandteakholz-Schleifrad",
       "en": "Sandteak Grinding Wheel",
       "fr": "Meule en teck des sables",
@@ -13350,7 +13367,7 @@
     "level": 412,
     "maxQuality": 17490,
     "name": {
-      "cn": "Sandteak Spinning Wheel",
+      "cn": "沙柚木纺车",
       "de": "Sandteakholz-Spinnrad",
       "en": "Sandteak Spinning Wheel",
       "fr": "Rouet en teck des sables",
@@ -13366,7 +13383,7 @@
     "level": 415,
     "maxQuality": 17956,
     "name": {
-      "cn": "Dwarven Lignum Bow",
+      "cn": "愈疮木矮人复合弓",
       "de": "Zwergischer Edelmithril-Bogen",
       "en": "Dwarven Lignum Bow",
       "fr": "Arc nain en gaïac",
@@ -13382,7 +13399,7 @@
     "level": 415,
     "maxQuality": 17956,
     "name": {
-      "cn": "Dwarven Lignum Cane",
+      "cn": "愈疮木矮人牧杖",
       "de": "Zwergischer Edelmithril-Stock",
       "en": "Dwarven Lignum Cane",
       "fr": "Canne naine en gaïac",
@@ -13398,7 +13415,7 @@
     "level": 415,
     "maxQuality": 17956,
     "name": {
-      "cn": "Dwarven Lignum Lance",
+      "cn": "愈疮木矮人刺枪",
       "de": "Zwergische Edelmithril-Lanze",
       "en": "Dwarven Lignum Lance",
       "fr": "Lance naine en gaïac",
@@ -13414,7 +13431,7 @@
     "level": 415,
     "maxQuality": 17956,
     "name": {
-      "cn": "Dwarven Lignum Pole",
+      "cn": "愈疮木矮人玉杖",
       "de": "Zwergischer Edelmithril-Stab",
       "en": "Dwarven Lignum Pole",
       "fr": "Perche naine en gaïac",
@@ -13430,7 +13447,7 @@
     "level": 415,
     "maxQuality": 17956,
     "name": {
-      "cn": "Lignum Vitae Lumber",
+      "cn": "愈疮木木材",
       "de": "Guajak-Bauholz",
       "en": "Lignum Vitae Lumber",
       "fr": "Madrier de gaïac",
@@ -13446,7 +13463,7 @@
     "level": 415,
     "maxQuality": 9875,
     "name": {
-      "cn": "Lute Repair Materials",
+      "cn": "鲁特琴的修复素材",
       "de": "Lauten-Restaurierungsmaterial",
       "en": "Lute Repair Materials",
       "fr": "Matériau de restauration de luth",
@@ -13462,7 +13479,7 @@
     "level": 418,
     "maxQuality": 18422,
     "name": {
-      "cn": "Lignum Vitae Bracelet",
+      "cn": "愈疮木手镯",
       "de": "Guajakholz-Armreif",
       "en": "Lignum Vitae Bracelet",
       "fr": "Bracelet en gaïac",
@@ -13478,7 +13495,7 @@
     "level": 418,
     "maxQuality": 18422,
     "name": {
-      "cn": "Lignum Vitae Earrings",
+      "cn": "愈疮木耳坠",
       "de": "Guajakholz-Ohrringe",
       "en": "Lignum Vitae Earrings",
       "fr": "Boucles d'oreilles en gaïac",
@@ -13494,7 +13511,7 @@
     "level": 418,
     "maxQuality": 18422,
     "name": {
-      "cn": "Lignum Vitae Necklace",
+      "cn": "愈疮木项链",
       "de": "Guajakholz-Halsband",
       "en": "Lignum Vitae Necklace",
       "fr": "Collier en gaïac",
@@ -13510,7 +13527,7 @@
     "level": 418,
     "maxQuality": 18422,
     "name": {
-      "cn": "Lignum Vitae Ring",
+      "cn": "愈疮木指环",
       "de": "Guajakholz-Ring",
       "en": "Lignum Vitae Ring",
       "fr": "Bague en gaïac",
@@ -13523,10 +13540,10 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "14e25e3e7ad",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
-      "cn": "Lignum Vitae Fishing Rod",
+      "cn": "愈疮木钓竿",
       "de": "Guajakholz-Angelrute",
       "en": "Lignum Vitae Fishing Rod",
       "fr": "Canne à pêche en gaïac",
@@ -13539,10 +13556,10 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "8567620b1fb",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
-      "cn": "Lignum Vitae Grinding Wheel",
+      "cn": "愈疮木砂轮机",
       "de": "Guajakholz-Schleifrad",
       "en": "Lignum Vitae Grinding Wheel",
       "fr": "Meule en gaïac",
@@ -13555,10 +13572,10 @@
     "difficulty": 3943,
     "durability": 80,
     "id": "c0cffdfc1d2",
-    "level": 420,
+    "level": 430,
     "maxQuality": 20287,
     "name": {
-      "cn": "Lignum Vitae Spinning Wheel",
+      "cn": "愈疮木纺车",
       "de": "Guajakholz-Spinnrad",
       "en": "Lignum Vitae Spinning Wheel",
       "fr": "Rouet en gaïac",
@@ -13571,15 +13588,117 @@
     "difficulty": 2760,
     "durability": 80,
     "id": "61b00131bd1",
-    "level": 420,
+    "level": 430,
     "maxQuality": 11157,
     "name": {
-      "cn": "Lute Modification Component",
+      "cn": "鲁特琴的调整部件",
       "de": "Lauten-Komponente",
       "en": "Lute Modification Component",
       "fr": "Composant de luth",
       "ja": "リュートの調整部材",
       "ko": "Lute Modification Component"
     }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7457,
+    "durability": 70,
+    "id": "bb9e8164691",
+    "level": 440,
+    "maxQuality": 10920,
+    "name": {
+      "cn": "Magicked Bed",
+      "de": "Zauberbett",
+      "en": "Magicked Bed",
+      "fr": "Lit magique",
+      "ja": "マジックベッド",
+      "ko": "Magicked Bed"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "7323e973ab5",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Catalyst",
+      "de": "Katalysator",
+      "en": "Catalyst",
+      "fr": "Catalyseur",
+      "ja": "キャタリスト",
+      "ko": "Catalyst"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "4491e99b2d4",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Clearpath",
+      "de": "Pfadweiser",
+      "en": "Clearpath",
+      "fr": "Librevoie",
+      "ja": "クリアーパス",
+      "ko": "Clearpath"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "67aedbbc4c9",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Gendawa",
+      "de": "Fay-Gendawa",
+      "en": "Gendawa",
+      "fr": "Gendawa",
+      "ja": "ジェンダワ",
+      "ko": "Gendawa"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4777,
+    "durability": 35,
+    "id": "6b153afe08f",
+    "level": 450,
+    "maxQuality": 32753,
+    "name": {
+      "cn": "Sandalwood Lumber",
+      "de": "Sandel-Bauholz",
+      "en": "Sandalwood Lumber",
+      "fr": "Madrier de santal blanc",
+      "ja": "サンダルウッド材",
+      "ko": "Sandalwood Lumber"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5645,
+    "durability": 70,
+    "id": "758c467d2b2",
+    "level": 450,
+    "maxQuality": 37432,
+    "name": {
+      "cn": "Skystrider",
+      "de": "Himmelsschreiter",
+      "en": "Skystrider",
+      "fr": "Ouranaute",
+      "ja": "スカイストライダー",
+      "ko": "Skystrider"
+    },
+    "stars": 2
   }
 ]
