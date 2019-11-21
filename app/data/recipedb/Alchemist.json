@@ -1223,7 +1223,7 @@
     "level": 20,
     "maxQuality": 526,
     "name": {
-      "cn": "Brick Flooring",
+      "cn": "砖块地板",
       "de": "Ziegelboden",
       "en": "Brick Flooring",
       "fr": "Parquet en brique",
@@ -1357,6 +1357,22 @@
       "fr": "Philodendron sombrelinçois",
       "ja": "シュラウド・ブロードリーフ",
       "ko": "검은장막 활엽수"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "6b91320c545",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Skybuilders' Ink (patch 5.11)",
+      "de": "Himmelsstadt-Tinte",
+      "en": "Skybuilders' Ink",
+      "fr": "Encre de restauration",
+      "ja": "復興用のインク",
+      "ko": "Skybuilders' Ink"
     }
   },
   {
@@ -3069,6 +3085,22 @@
       "fr": "Lanoline",
       "ja": "ラノリン",
       "ko": "라놀린"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 207,
+    "durability": 60,
+    "id": "ca34416e6e1",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Skybuilders' Plant Oil (patch 5.11)",
+      "de": "Himmelsstadt-Pflanzenöl",
+      "en": "Skybuilders' Plant Oil",
+      "fr": "Huile végétale de restauration",
+      "ja": "復興用の植物油",
+      "ko": "Skybuilders' Plant Oil"
     }
   },
   {
@@ -6368,57 +6400,6 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 586,
-    "durability": 80,
-    "id": "1d7f64d623f",
-    "level": 110,
-    "maxQuality": 5783,
-    "name": {
-      "cn": "炼金入门",
-      "de": "Alchemie für Anfänger",
-      "en": "Alchemy for Beginners",
-      "fr": "Initiation à l'alchimie",
-      "ja": "錬成入門書",
-      "ko": "연금술 입문서"
-    },
-    "stars": 4
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 586,
-    "durability": 80,
-    "id": "c3d88463dec",
-    "level": 110,
-    "maxQuality": 5783,
-    "name": {
-      "cn": "甲胄入门",
-      "de": "Plattnerkunst für Anfänger",
-      "en": "Armoring for Beginners",
-      "fr": "Initiation à l'armurerie",
-      "ja": "板金入門書",
-      "ko": "갑주제작 입문서"
-    },
-    "stars": 4
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 586,
-    "durability": 80,
-    "id": "e339f48757d",
-    "level": 110,
-    "maxQuality": 5783,
-    "name": {
-      "cn": "锻冶入门",
-      "de": "Grobschmiedekunst für Anfänger",
-      "en": "Blacksmithing for Beginners",
-      "fr": "Initiation à la métallurgie",
-      "ja": "鍛冶入門書",
-      "ko": "대장장이 입문서"
-    },
-    "stars": 4
-  },
-  {
-    "baseLevel": 50,
     "difficulty": 1054,
     "durability": 80,
     "id": "41904135d53",
@@ -6431,40 +6412,6 @@
       "fr": "Rouleau \"Blind to the Dark\"",
       "ja": "オーケストリオン譜:薄闇",
       "ko": "오케스트리온 악보: Blind to the Dark"
-    },
-    "stars": 4
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 586,
-    "durability": 80,
-    "id": "c4db863e8cd",
-    "level": 110,
-    "maxQuality": 5783,
-    "name": {
-      "cn": "木工入门",
-      "de": "Zimmern für Anfänger",
-      "en": "Carpentry for Beginners",
-      "fr": "Initiation à la menuiserie",
-      "ja": "木工入門書",
-      "ko": "목수 입문서"
-    },
-    "stars": 4
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 586,
-    "durability": 80,
-    "id": "903f94a2d1c",
-    "level": 110,
-    "maxQuality": 5783,
-    "name": {
-      "cn": "烹调入门",
-      "de": "Kochen für Anfänger",
-      "en": "Cooking for Beginners",
-      "fr": "Initiation à la cuisine",
-      "ja": "調理入門書",
-      "ko": "요리 입문서"
     },
     "stars": 4
   },
@@ -6499,23 +6446,6 @@
       "fr": "Rouleau \"From the Ashes\"",
       "ja": "オーケストリオン譜:灰より生まれし者",
       "ko": "오케스트리온 악보: From the Ashes"
-    },
-    "stars": 4
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 586,
-    "durability": 80,
-    "id": "b35754f667b",
-    "level": 110,
-    "maxQuality": 5783,
-    "name": {
-      "cn": "雕金入门",
-      "de": "Goldschmiedekunst für Anfänger",
-      "en": "Goldsmithing for Beginners",
-      "fr": "Initiation à l'orfèvrerie",
-      "ja": "彫金入門書",
-      "ko": "보석공예 입문서"
     },
     "stars": 4
   },
@@ -6584,23 +6514,6 @@
       "fr": "Grimoire Kirimu",
       "ja": "キリムグリモア",
       "ko": "키리무 마법서"
-    },
-    "stars": 4
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 586,
-    "durability": 80,
-    "id": "c68f1ea00b8",
-    "level": 110,
-    "maxQuality": 5783,
-    "name": {
-      "cn": "皮革入门",
-      "de": "Gerben für Anfänger",
-      "en": "Leatherworking for Beginners",
-      "fr": "Initiation à la tannerie",
-      "ja": "革細工入門書",
-      "ko": "가죽공예 입문서"
     },
     "stars": 4
   },
@@ -6788,23 +6701,6 @@
       "fr": "Rouleau \"Tumbling Down\"",
       "ja": "オーケストリオン譜:奈落へ",
       "ko": "오케스트리온 악보: Tumbling Down"
-    },
-    "stars": 4
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 586,
-    "durability": 80,
-    "id": "c70b5e8f131",
-    "level": 110,
-    "maxQuality": 5783,
-    "name": {
-      "cn": "裁缝入门",
-      "de": "Weben für Anfänger",
-      "en": "Weaving for Beginners",
-      "fr": "Initiation à la couture",
-      "ja": "裁縫入門書",
-      "ko": "재봉 입문서"
     },
     "stars": 4
   },
@@ -8036,7 +7932,7 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品",
+      "ja": "近東風の収集品",
       "ko": "근동풍 소장품"
     }
   },
@@ -8052,7 +7948,7 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材",
+      "ja": "近東風の収集品部材",
       "ko": "근동풍 소장품 부재"
     }
   },
@@ -9034,6 +8930,22 @@
   },
   {
     "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "9707a1dd886",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Skybuilders' Charcoal (patch 5.11)",
+      "de": "Himmelsstadt-Holzkohle",
+      "en": "Skybuilders' Charcoal",
+      "fr": "Charbon de restauration",
+      "ja": "復興用の木炭",
+      "ko": "Skybuilders' Charcoal"
+    }
+  },
+  {
+    "baseLevel": 60,
     "difficulty": 1720,
     "durability": 70,
     "id": "8d1409f0ebd",
@@ -9189,10 +9101,10 @@
     "maxQuality": 6701,
     "name": {
       "cn": "东方风格的收藏品",
-      "de": "Fernöstliche Kuriosität",
+      "de": "Fernöstliche Antiquität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品",
+      "ja": "東方風の収集品",
       "ko": "동방풍 소장품"
     },
     "stars": 1
@@ -9209,7 +9121,7 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材",
+      "ja": "東方風の収集品部材",
       "ko": "동방풍 소장품 부재"
     },
     "stars": 1
@@ -10897,6 +10809,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "07b019590e0",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Black Campanula Corsage (patch 5.1)",
+      "de": "Schwarze Glockenblumen-Haarspange",
+      "en": "Black Campanula Corsage",
+      "fr": "Barrette campanule noire",
+      "ja": "カンパニュラオーナメント:ブラック",
+      "ko": "Black Campanula Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "f935ca9b8d9",
     "level": 279,
     "maxQuality": 11676,
@@ -10917,10 +10845,10 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Black Hydrangea Corsage",
+      "cn": "黑色绣球头花",
       "de": "Schwarze Hortensien-Haarspange",
       "en": "Black Hydrangea Corsage",
-      "fr": "Barrette hortensia noire",
+      "fr": "Barrette fleurs d'hortensia noires",
       "ja": "ハイドレインジャオーナメント:ブラック",
       "ko": "Black Hydrangea Corsage"
     }
@@ -10977,6 +10905,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "ced83415b38",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Blue Campanula Corsage (patch 5.1)",
+      "de": "Blaue Glockenblumen-Haarspange",
+      "en": "Blue Campanula Corsage",
+      "fr": "Barrette campanule bleue",
+      "ja": "カンパニュラオーナメント:ブルー",
+      "ko": "Blue Campanula Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "08ebe864f9e",
     "level": 279,
     "maxQuality": 11676,
@@ -10997,10 +10941,10 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Blue Hydrangea Corsage",
+      "cn": "蓝色绣球头花",
       "de": "Blaue Hortensien-Haarspange",
       "en": "Blue Hydrangea Corsage",
-      "fr": "Barrette hortensia bleue",
+      "fr": "Barrette fleurs d'hortensia bleues",
       "ja": "ハイドレインジャオーナメント:ブルー",
       "ko": "Blue Hydrangea Corsage"
     }
@@ -11073,6 +11017,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "70938935b69",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Green Campanula Corsage (patch 5.1)",
+      "de": "Grüne Glockenblumen-Haarspange",
+      "en": "Green Campanula Corsage",
+      "fr": "Barrette campanule verte",
+      "ja": "カンパニュラオーナメント:グリーン",
+      "ko": "Green Campanula Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "37429a6058f",
     "level": 279,
     "maxQuality": 11676,
@@ -11093,10 +11053,10 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Green Hydrangea Corsage",
+      "cn": "绿色绣球头花",
       "de": "Grüne Hortensien-Haarspange",
       "en": "Green Hydrangea Corsage",
-      "fr": "Barrette hortensia verte",
+      "fr": "Barrette fleurs d'hortensia vertes",
       "ja": "ハイドレインジャオーナメント:グリーン",
       "ko": "Green Hydrangea Corsage"
     }
@@ -11217,6 +11177,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "d0cfae836db",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Orange Campanula Corsage (patch 5.1)",
+      "de": "Orange Glockenblumen-Haarspange",
+      "en": "Orange Campanula Corsage",
+      "fr": "Barrette campanule orange",
+      "ja": "カンパニュラオーナメント:オレンジ",
+      "ko": "Orange Campanula Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "02d8b8d548b",
     "level": 279,
     "maxQuality": 11676,
@@ -11237,10 +11213,10 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Orange Hydrangea Corsage",
+      "cn": "橙色绣球头花",
       "de": "Orange Hortensien-Haarspange",
       "en": "Orange Hydrangea Corsage",
-      "fr": "Barrette hortensia orange",
+      "fr": "Barrette fleurs d'hortensia orange",
       "ja": "ハイドレインジャオーナメント:オレンジ",
       "ko": "Orange Hydrangea Corsage"
     }
@@ -11313,6 +11289,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "85357c15892",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Purple Campanula Corsage (patch 5.1)",
+      "de": "Violette Glockenblumen-Haarspange",
+      "en": "Purple Campanula Corsage",
+      "fr": "Barrette campanule violette",
+      "ja": "カンパニュラオーナメント:パープル",
+      "ko": "Purple Campanula Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "420d0f2dc8b",
     "level": 279,
     "maxQuality": 11676,
@@ -11333,10 +11325,10 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Purple Hydrangea Corsage",
+      "cn": "紫色绣球头花",
       "de": "Violette Hortensien-Haarspange",
       "en": "Purple Hydrangea Corsage",
-      "fr": "Barrette hortensia violette",
+      "fr": "Barrette fleurs d'hortensia violettes",
       "ja": "ハイドレインジャオーナメント:パープル",
       "ko": "Purple Hydrangea Corsage"
     }
@@ -11393,6 +11385,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "7a7b64c0b97",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Rainbow Campanula Corsage (patch 5.1)",
+      "de": "Mehrfarbige Glockenblumen-Haarspange",
+      "en": "Rainbow Campanula Corsage",
+      "fr": "Barrette campanule multicolore",
+      "ja": "カンパニュラオーナメント:ブレンド",
+      "ko": "Rainbow Campanula Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "abc7dcd7cda",
     "level": 279,
     "maxQuality": 11676,
@@ -11413,10 +11421,10 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Rainbow Hydrangea Corsage",
+      "cn": "混色绣球头花",
       "de": "Mehrfarbige Hortensien-Haarspange",
       "en": "Rainbow Hydrangea Corsage",
-      "fr": "Barrette hortensia multicolore",
+      "fr": "Barrette fleurs d'hortensia multicolores",
       "ja": "ハイドレインジャオーナメント:ブレンド",
       "ko": "Rainbow Hydrangea Corsage"
     }
@@ -11473,6 +11481,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "c36c45d72fb",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Red Campanula Corsage (patch 5.1)",
+      "de": "Rote Glockenblumen-Haarspange",
+      "en": "Red Campanula Corsage",
+      "fr": "Barrette campanule rouge",
+      "ja": "カンパニュラオーナメント:レッド",
+      "ko": "Red Campanula Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "3ec4da84d21",
     "level": 279,
     "maxQuality": 11676,
@@ -11493,10 +11517,10 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Red Hydrangea Corsage",
+      "cn": "红色绣球头花",
       "de": "Rote Hortensien-Haarspange",
       "en": "Red Hydrangea Corsage",
-      "fr": "Barrette hortensia rouge",
+      "fr": "Barrette fleurs d'hortensia rouges",
       "ja": "ハイドレインジャオーナメント:レッド",
       "ko": "Red Hydrangea Corsage"
     }
@@ -11553,6 +11577,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "1f179bbc53a",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "White Campanula Corsage (patch 5.1)",
+      "de": "Weiße Glockenblumen-Haarspange",
+      "en": "White Campanula Corsage",
+      "fr": "Barrette campanule blanche",
+      "ja": "カンパニュラオーナメント:ホワイト",
+      "ko": "White Campanula Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "1fa79f89fdc",
     "level": 279,
     "maxQuality": 11676,
@@ -11573,10 +11613,10 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "White Hydrangea Corsage",
+      "cn": "白色绣球头花",
       "de": "Weiße Hortensien-Haarspange",
       "en": "White Hydrangea Corsage",
-      "fr": "Barrette hortensia blanche",
+      "fr": "Barrette fleurs d'hortensia blanches",
       "ja": "ハイドレインジャオーナメント:ホワイト",
       "ko": "White Hydrangea Corsage"
     }
@@ -11633,6 +11673,22 @@
     "baseLevel": 66,
     "difficulty": 2411,
     "durability": 80,
+    "id": "1eade416b8b",
+    "level": 279,
+    "maxQuality": 11676,
+    "name": {
+      "cn": "Yellow Campanula Corsage (patch 5.1)",
+      "de": "Gelbe Glockenblumen-Haarspange",
+      "en": "Yellow Campanula Corsage",
+      "fr": "Barrette campanule jaune",
+      "ja": "カンパニュラオーナメント:イエロー",
+      "ko": "Yellow Campanula Corsage"
+    }
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 2411,
+    "durability": 80,
     "id": "02cf292d3b8",
     "level": 279,
     "maxQuality": 11676,
@@ -11653,10 +11709,10 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Yellow Hydrangea Corsage",
+      "cn": "黄色绣球头花",
       "de": "Gelbe Hortensien-Haarspange",
       "en": "Yellow Hydrangea Corsage",
-      "fr": "Barrette hortensia jaune",
+      "fr": "Barrette fleurs d'hortensia jaunes",
       "ja": "ハイドレインジャオーナメント:イエロー",
       "ko": "Yellow Hydrangea Corsage"
     }
@@ -11941,12 +11997,28 @@
     "level": 290,
     "maxQuality": 7252,
     "name": {
-      "cn": "Edible Antidote",
+      "cn": "解毒的药饵",
       "de": "Entgiftende Brühe",
       "en": "Edible Antidote",
       "fr": "Bouillon antidotique",
       "ja": "解毒の薬餌",
       "ko": "Edible Antidote"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 60,
+    "id": "4560bfe1af9",
+    "level": 290,
+    "maxQuality": 10549,
+    "name": {
+      "cn": "Flyer Printing Set (patch 5.1)",
+      "de": "Flugblattdruck-Utensil",
+      "en": "Flyer Printing Set",
+      "fr": "Kit pour dépliants",
+      "ja": "チラシ製作必需品",
+      "ko": "Flyer Printing Set"
     }
   },
   {
@@ -12016,6 +12088,22 @@
   {
     "baseLevel": 70,
     "difficulty": 2952,
+    "durability": 60,
+    "id": "4e00c873093",
+    "level": 290,
+    "maxQuality": 36923,
+    "name": {
+      "cn": "Skybuilders' Soap (patch 5.11)",
+      "de": "Himmelsstadt-Seife",
+      "en": "Skybuilders' Soap",
+      "fr": "Savon de restauration",
+      "ja": "復興用の石鹸",
+      "ko": "Skybuilders' Soap"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
     "durability": 80,
     "id": "e11d41fbed9",
     "level": 290,
@@ -12059,6 +12147,23 @@
       "fr": "Rouleau \"Beauty's Wicked Wiles\"",
       "ja": "オーケストリオン譜:美の謀略",
       "ko": "오케스트리온 악보: Beauty's Wicked Wiles"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "7b96264c087",
+    "level": 300,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Kholusian Cuisine Set (patch 5.1)",
+      "de": "Menü-Komponenten",
+      "en": "Kholusian Cuisine Set",
+      "fr": "Composant pour nouveau menu",
+      "ja": "新メニュー必需品",
+      "ko": "Kholusian Cuisine Set"
     },
     "stars": 1
   },
@@ -12963,6 +13068,22 @@
   {
     "baseLevel": 71,
     "difficulty": 3149,
+    "durability": 60,
+    "id": "fa09a031887",
+    "level": 390,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Honeybee Trappings (patch 5.1)",
+      "de": "Bühnenkostümteil",
+      "en": "Honeybee Trappings",
+      "fr": "Composant pour costume de scène",
+      "ja": "舞台衣装必需品",
+      "ko": "Honeybee Trappings"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
     "durability": 80,
     "id": "3bb7e503440",
     "level": 390,
@@ -12990,6 +13111,22 @@
       "fr": "Grimoire en cuir de smilodon",
       "ja": "スミロドングリモア",
       "ko": "Smilodonskin Grimoire"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 60,
+    "id": "dccaf580196",
+    "level": 395,
+    "maxQuality": 11878,
+    "name": {
+      "cn": "Airship Fittings (patch 5.1)",
+      "de": "Luftschiff-Komponente",
+      "en": "Airship Fittings",
+      "fr": "Élément pour rénovation d'aéronef",
+      "ja": "飛空艇改装必需品",
+      "ko": "Airship Fittings"
     }
   },
   {
@@ -13038,6 +13175,22 @@
       "fr": "Essence de symbiose extrême",
       "ja": "極錬精薬",
       "ko": "Superior Spiritbond Potion"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "7b09ab3b2bd",
+    "level": 400,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Beehive Souvenir (patch 5.1)",
+      "de": "Lustspielhaus-Souvenir",
+      "en": "Beehive Souvenir",
+      "fr": "Souvenir du cabaret",
+      "ja": "キャバレー土産品",
+      "ko": "Beehive Souvenir"
     }
   },
   {
@@ -13362,6 +13515,22 @@
   },
   {
     "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "0884c3e0b6d",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Bookseller's Stall (patch 5.1)",
+      "de": "Bücher-Marktstand",
+      "en": "Bookseller's Stall",
+      "fr": "Étal de bouquiniste",
+      "ja": "書物商の露店",
+      "ko": "Bookseller's Stall"
+    }
+  },
+  {
+    "baseLevel": 78,
     "difficulty": 3645,
     "durability": 80,
     "id": "c050b0fc15d",
@@ -13409,6 +13578,38 @@
     }
   },
   {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "7783910a36e",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Enchanter's Stall (patch 5.1)",
+      "de": "Handwerkswaren-Marktstand",
+      "en": "Enchanter's Stall",
+      "fr": "Étal de quincaillier",
+      "ja": "道具商の露店",
+      "ko": "Enchanter's Stall"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "d79e24dcbbb",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Florist's Stall (patch 5.1)",
+      "de": "Blumen-Marktstand",
+      "en": "Florist's Stall",
+      "fr": "Étal de fleuriste",
+      "ja": "生花商の露店",
+      "ko": "Florist's Stall"
+    }
+  },
+  {
     "baseLevel": 79,
     "difficulty": 3705,
     "durability": 80,
@@ -13438,6 +13639,38 @@
       "fr": "Philtre chimérique de vitalité",
       "ja": "活力の幻薬",
       "ko": "Tincture of Vitality"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7097,
+    "durability": 80,
+    "id": "994dd243dd5",
+    "level": 430,
+    "maxQuality": 10143,
+    "name": {
+      "cn": "Indoor Oriental Garden (patch 5.1)",
+      "de": "Fernöstlicher Miniaturgarten",
+      "en": "Indoor Oriental Garden",
+      "fr": "Mini-jardin intérieur à l'orientale",
+      "ja": "東方風室内庭園",
+      "ko": "Indoor Oriental Garden"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "734b278fc37",
+    "level": 430,
+    "maxQuality": 40574,
+    "name": {
+      "cn": "Skybuilders' Alchemic (patch 5.11)",
+      "de": "Himmelsstadt-Tinktur",
+      "en": "Skybuilders' Alchemic",
+      "fr": "Potion alchimique de restauration",
+      "ja": "復興用の錬金薬",
+      "ko": "Skybuilders' Alchemic"
     }
   },
   {
@@ -13498,10 +13731,10 @@
     "name": {
       "cn": "勇人族的菜丸子",
       "de": "Zun-Klöße",
-      "en": "Zun-Style Amaro Feed",
+      "en": "Zun-style Amaro Feed",
       "fr": "Salade de fruits à la zun",
       "ja": "ズン族の草団子",
-      "ko": "Zun-Style Amaro Feed"
+      "ko": "Zun-style Amaro Feed"
     }
   },
   {
@@ -13563,7 +13796,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Galdrabok",
+      "cn": "Galdrabok (patch 5.05)",
       "de": "Galdrabok",
       "en": "Galdrabok",
       "fr": "Galdrabók",
@@ -13580,7 +13813,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Dexterity Alkahest",
+      "cn": "Grade 2 Dexterity Alkahest (patch 5.05)",
       "de": "Visionslösung des Scharfsinns II",
       "en": "Grade 2 Dexterity Alkahest",
       "fr": "Eau chimérique de dextérité II",
@@ -13597,7 +13830,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Intelligence Alkahest",
+      "cn": "Grade 2 Intelligence Alkahest (patch 5.05)",
       "de": "Visionslösung der Intelligenz II",
       "en": "Grade 2 Intelligence Alkahest",
       "fr": "Eau chimérique d'intelligence II",
@@ -13614,7 +13847,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Mind Alkahest",
+      "cn": "Grade 2 Mind Alkahest (patch 5.05)",
       "de": "Visionslösung der Willenskraft II",
       "en": "Grade 2 Mind Alkahest",
       "fr": "Eau chimérique d'esprit II",
@@ -13631,7 +13864,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Strength Alkahest",
+      "cn": "Grade 2 Strength Alkahest (patch 5.05)",
       "de": "Visionslösung der Stärke II",
       "en": "Grade 2 Strength Alkahest",
       "fr": "Eau chimérique de force II",
@@ -13648,7 +13881,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Dexterity",
+      "cn": "Grade 2 Tincture of Dexterity (patch 5.05)",
       "de": "Visionsremedium des Scharfsinns II",
       "en": "Grade 2 Tincture of Dexterity",
       "fr": "Philtre chimérique de dextérité ll",
@@ -13665,7 +13898,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Intelligence",
+      "cn": "Grade 2 Tincture of Intelligence (patch 5.05)",
       "de": "Visionsremedium der Intelligenz II",
       "en": "Grade 2 Tincture of Intelligence",
       "fr": "Philtre chimérique d'intelligence II",
@@ -13682,7 +13915,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Mind",
+      "cn": "Grade 2 Tincture of Mind (patch 5.05)",
       "de": "Visionsremedium der Willenskraft II",
       "en": "Grade 2 Tincture of Mind",
       "fr": "Philtre chimérique d'esprit II",
@@ -13699,7 +13932,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Strength",
+      "cn": "Grade 2 Tincture of Strength (patch 5.05)",
       "de": "Visionsremedium der Stärke II",
       "en": "Grade 2 Tincture of Strength",
       "fr": "Philtre chimérique de force II",
@@ -13716,7 +13949,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Vitality",
+      "cn": "Grade 2 Tincture of Vitality (patch 5.05)",
       "de": "Visionsremedium der Konstitution II",
       "en": "Grade 2 Tincture of Vitality",
       "fr": "Philtre chimérique de vitalité II",
@@ -13733,12 +13966,46 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Vitality Alkahest",
+      "cn": "Grade 2 Vitality Alkahest (patch 5.05)",
       "de": "Visionslösung Konstitution II",
       "en": "Grade 2 Vitality Alkahest",
       "fr": "Eau chimérique de vitalité II",
       "ja": "活力の幻水G2",
       "ko": "Grade 2 Vitality Alkahest"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7817,
+    "durability": 70,
+    "id": "7f768f5e082",
+    "level": 450,
+    "maxQuality": 11697,
+    "name": {
+      "cn": "Invincible Orchestrion Roll (patch 5.1)",
+      "de": "Notenrolle von „Invincible“",
+      "en": "Invincible Orchestrion Roll",
+      "fr": "Rouleau \"Invincible\"",
+      "ja": "オーケストリオン譜:砕けぬ思い",
+      "ko": "Invincible Orchestrion Roll"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5428,
+    "durability": 35,
+    "id": "d8cd9a87458",
+    "level": 450,
+    "maxQuality": 35092,
+    "name": {
+      "cn": "Pliable Glass Fiber (patch 5.1)",
+      "de": "Robuste Glasfasern",
+      "en": "Pliable Glass Fiber",
+      "fr": "Fibre de verre renforcée",
+      "ja": "強化グラスファイバー",
+      "ko": "Pliable Glass Fiber"
     },
     "stars": 2
   },
@@ -13750,7 +14017,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Pragmatism",
+      "cn": "Pragmatism (patch 5.05)",
       "de": "Pragmatik",
       "en": "Pragmatism",
       "fr": "Pragmatisme",

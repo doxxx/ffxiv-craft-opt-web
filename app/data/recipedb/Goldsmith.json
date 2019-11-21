@@ -1568,6 +1568,22 @@
     }
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "a117dea39e1",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Skybuilders' Ingot (patch 5.11)",
+      "de": "Himmelsstadt-Rohmetall",
+      "en": "Skybuilders' Ingot",
+      "fr": "Lingot précieux de restauration",
+      "ja": "復興用の地金",
+      "ko": "Skybuilders' Ingot"
+    }
+  },
+  {
     "baseLevel": 21,
     "difficulty": 75,
     "durability": 70,
@@ -3447,7 +3463,7 @@
     "level": 32,
     "maxQuality": 1697,
     "name": {
-      "cn": "Silver Monocle",
+      "cn": "白银单眼镜",
       "de": "Silber-Monokel",
       "en": "Silver Monocle",
       "fr": "Monocle en argent",
@@ -3687,7 +3703,7 @@
     "level": 34,
     "maxQuality": 905,
     "name": {
-      "cn": "Lily Floor Lamp",
+      "cn": "治疗百合落地灯",
       "de": "Lilien-Stehlampe",
       "en": "Lily Floor Lamp",
       "fr": "Lampe Canne des soins",
@@ -3703,7 +3719,7 @@
     "level": 34,
     "maxQuality": 905,
     "name": {
-      "cn": "Lily Wall Lamp",
+      "cn": "治疗百合壁灯",
       "de": "Lilien-Wandleuchte",
       "en": "Lily Wall Lamp",
       "fr": "Éclairage mural Cannes des soins",
@@ -4695,7 +4711,7 @@
     "level": 40,
     "maxQuality": 2050,
     "name": {
-      "cn": "Altered Mythril Magnifiers",
+      "cn": "改良型秘银作业眼镜",
       "de": "Bearbeitete Mithril-Lupenbrille",
       "en": "Altered Mythril Magnifiers",
       "fr": "Lunettes grossissantes réinventées",
@@ -4807,7 +4823,7 @@
     "level": 40,
     "maxQuality": 1025,
     "name": {
-      "cn": "Misplaced Eyeglasses",
+      "cn": "随手乱放的眼镜",
       "de": "Verlegte Brille",
       "en": "Misplaced Eyeglasses",
       "fr": "Lunettes égarées",
@@ -4893,6 +4909,22 @@
       "fr": "Armilles en corail rouge",
       "ja": "レッドコーラルアルミラ",
       "ko": "홍산호 손목고리"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 207,
+    "durability": 60,
+    "id": "7d45591e346",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Skybuilders' Rings (patch 5.11)",
+      "de": "Himmelsstadt-Eisenringe",
+      "en": "Skybuilders' Rings",
+      "fr": "Anneaux de métal de restauration",
+      "ja": "復興用の鉄環",
+      "ko": "Skybuilders' Rings"
     }
   },
   {
@@ -10073,23 +10105,6 @@
     "baseLevel": 50,
     "difficulty": 586,
     "durability": 80,
-    "id": "ed3d05ee8f5",
-    "level": 110,
-    "maxQuality": 5783,
-    "name": {
-      "cn": "白金锭",
-      "de": "Platinbarren",
-      "en": "Platinum Ingot",
-      "fr": "Lingot de platine",
-      "ja": "プラチナインゴット",
-      "ko": "백금 주괴"
-    },
-    "stars": 4
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 586,
-    "durability": 80,
     "id": "643fd43d54a",
     "level": 110,
     "maxQuality": 5783,
@@ -11967,7 +11982,7 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品",
+      "ja": "近東風の収集品",
       "ko": "근동풍 소장품"
     }
   },
@@ -11983,7 +11998,7 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材",
+      "ja": "近東風の収集品部材",
       "ko": "근동풍 소장품 부재"
     }
   },
@@ -13542,6 +13557,22 @@
   {
     "baseLevel": 60,
     "difficulty": 956,
+    "durability": 60,
+    "id": "f79ef0c6414",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Skybuilders' Candelabra (patch 5.11)",
+      "de": "Himmelsstadt-Leuchter",
+      "en": "Skybuilders' Candelabra",
+      "fr": "Chandelier de restauration",
+      "ja": "復興用の燭台",
+      "ko": "Skybuilders' Candelabra"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
     "durability": 70,
     "id": "f2268da083f",
     "level": 150,
@@ -13629,10 +13660,10 @@
     "maxQuality": 6701,
     "name": {
       "cn": "东方风格的收藏品",
-      "de": "Fernöstliche Kuriosität",
+      "de": "Fernöstliche Antiquität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品",
+      "ja": "東方風の収集品",
       "ko": "동방풍 소장품"
     },
     "stars": 1
@@ -13649,7 +13680,7 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材",
+      "ja": "東方風の収集品部材",
       "ko": "동방풍 소장품 부재"
     },
     "stars": 1
@@ -15837,6 +15868,150 @@
       "fr": "Turban d'agresseur en cupronickel",
       "ja": "キュプロストライカーターバン",
       "ko": "백동 타격대 터번"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "748b0937377",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Cap of Casting (patch 5.11)",
+      "de": "Luftpiraten-Kappe der Magie (Replik)",
+      "en": "Replica Sky Pirate's Cap of Casting",
+      "fr": "Réplique de chapeau d'incantateur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・キャスターキャップ",
+      "ko": "Replica Sky Pirate's Cap of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "0e36cd42a3f",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Cap of Healing (patch 5.11)",
+      "de": "Luftpiraten-Kappe der Heilung (Replik)",
+      "en": "Replica Sky Pirate's Cap of Healing",
+      "fr": "Réplique de chapeau de soigneur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ヒーラーキャップ",
+      "ko": "Replica Sky Pirate's Cap of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "1bf13dc769a",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Mask of Scouting (patch 5.11)",
+      "de": "Luftpiraten-Maske des Spähens (Replik)",
+      "en": "Replica Sky Pirate's Mask of Scouting",
+      "fr": "Réplique de masque d'éclaireur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スカウトマスク",
+      "ko": "Replica Sky Pirate's Mask of Scouting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "0f33251ef68",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Mask of Striking (patch 5.11)",
+      "de": "Luftpiraten-Maske des Schlagens (Replik)",
+      "en": "Replica Sky Pirate's Mask of Striking",
+      "fr": "Réplique de masque d'agresseur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ストライカーマスク",
+      "ko": "Replica Sky Pirate's Mask of Striking"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "234b01c1888",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Mask of Aiming (patch 5.11)",
+      "de": "Himmelsratten-Maske des Zielens (Replik)",
+      "en": "Replica Sky Rat Mask of Aiming",
+      "fr": "Réplique de masque de pisteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・レンジャーマスク",
+      "ko": "Replica Sky Rat Mask of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "ebad0336fa1",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Mask of Casting (patch 5.11)",
+      "de": "Himmelsratten-Maske der Magie (Replik)",
+      "en": "Replica Sky Rat Mask of Casting",
+      "fr": "Réplique de masque d'incantateur de rat des cieux",
+      "ja": "レプリカ・スカイラット・キャスターマスク",
+      "ko": "Replica Sky Rat Mask of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "5b5a6283997",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Mask of Fending (patch 5.11)",
+      "de": "Himmelsratten-Maske der Verteidigung (Replik)",
+      "en": "Replica Sky Rat Mask of Fending",
+      "fr": "Réplique de masque de protecteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ディフェンダーマスク",
+      "ko": "Replica Sky Rat Mask of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "6eab02d8f08",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Mask of Healing (patch 5.11)",
+      "de": "Himmelsratten-Maske der Heilung (Replik)",
+      "en": "Replica Sky Rat Mask of Healing",
+      "fr": "Réplique de masque de soigneur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ヒーラーマスク",
+      "ko": "Replica Sky Rat Mask of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "0c596ab9567",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Mask of Maiming (patch 5.11)",
+      "de": "Himmelsratten-Maske des Verstümmelns (Replik)",
+      "en": "Replica Sky Rat Mask of Maiming",
+      "fr": "Réplique de masque d'abatteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スレイヤーマスク",
+      "ko": "Replica Sky Rat Mask of Maiming"
     }
   },
   {
@@ -18401,6 +18576,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 60,
+    "id": "4ff559035a1",
+    "level": 290,
+    "maxQuality": 10549,
+    "name": {
+      "cn": "Flyer Printing Set (patch 5.1)",
+      "de": "Flugblattdruck-Utensil",
+      "en": "Flyer Printing Set",
+      "fr": "Kit pour dépliants",
+      "ja": "チラシ製作必需品",
+      "ko": "Flyer Printing Set"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2952,
     "durability": 80,
     "id": "cf8cfb6dca6",
@@ -18567,7 +18758,7 @@
     "level": 290,
     "maxQuality": 7252,
     "name": {
-      "cn": "Metal Gauntlets",
+      "cn": "金属制的手甲",
       "de": "Metallener Handschutz",
       "en": "Metal Gauntlets",
       "fr": "Gantelets en métal",
@@ -18589,6 +18780,22 @@
       "fr": "Rhodonite",
       "ja": "ロードナイト",
       "ko": "장미휘석"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 60,
+    "id": "3e4bddf4c17",
+    "level": 290,
+    "maxQuality": 36923,
+    "name": {
+      "cn": "Skybuilders' Stone (patch 5.11)",
+      "de": "Himmelsstadt-Naturbaustein",
+      "en": "Skybuilders' Stone",
+      "fr": "Bloc de pierre de restauration",
+      "ja": "復興用の石材",
+      "ko": "Skybuilders' Stone"
     }
   },
   {
@@ -18638,6 +18845,23 @@
       "fr": "Imitation de vitrail",
       "ja": "イミテーション・ステンドクリスタル",
       "ko": "모조 스테인드 크리스탈"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "79a401b049f",
+    "level": 300,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Kholusian Cuisine Set (patch 5.1)",
+      "de": "Menü-Komponenten",
+      "en": "Kholusian Cuisine Set",
+      "fr": "Composant pour nouveau menu",
+      "ja": "新メニュー必需品",
+      "ko": "Kholusian Cuisine Set"
     },
     "stars": 1
   },
@@ -18785,7 +19009,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "Imitation Stained Crystal Pane",
+      "cn": "仿制小彩绘玻璃窗",
       "de": "Kleine Glasmalerei",
       "en": "Imitation Stained Crystal Pane",
       "fr": "Petite imitation de vitrail",
@@ -20060,6 +20284,22 @@
   {
     "baseLevel": 71,
     "difficulty": 3149,
+    "durability": 60,
+    "id": "8abca6d81a6",
+    "level": 390,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Honeybee Trappings (patch 5.1)",
+      "de": "Bühnenkostümteil",
+      "en": "Honeybee Trappings",
+      "fr": "Composant pour costume de scène",
+      "ja": "舞台衣装必需品",
+      "ko": "Honeybee Trappings"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
     "durability": 80,
     "id": "5b4202d02c1",
     "level": 390,
@@ -20299,6 +20539,22 @@
   },
   {
     "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 60,
+    "id": "969db748e07",
+    "level": 395,
+    "maxQuality": 11878,
+    "name": {
+      "cn": "Airship Fittings (patch 5.1)",
+      "de": "Luftschiff-Komponente",
+      "en": "Airship Fittings",
+      "fr": "Élément pour rénovation d'aéronef",
+      "ja": "飛空艇改装必需品",
+      "ko": "Airship Fittings"
+    }
+  },
+  {
+    "baseLevel": 72,
     "difficulty": 1624,
     "durability": 40,
     "id": "4c8e75a1433",
@@ -20337,7 +20593,7 @@
     "level": 395,
     "maxQuality": 14848,
     "name": {
-      "cn": "硬水铝石咏咒耳坠",
+      "cn": "硬水铝石治愈耳坠",
       "de": "Diaspor-Ohrringe der Magie",
       "en": "Diaspore Earrings of Casting",
       "fr": "Boucles d'oreilles d'incantateur en diaspore",
@@ -20369,7 +20625,7 @@
     "level": 395,
     "maxQuality": 14848,
     "name": {
-      "cn": "硬水铝石治愈耳坠",
+      "cn": "硬水铝石咏咒耳坠",
       "de": "Diaspor-Ohrringe der Heilung",
       "en": "Diaspore Earrings of Healing",
       "fr": "Boucles d'oreilles de soigneur en diaspore",
@@ -20487,6 +20743,22 @@
       "fr": "Lingot d'or pétré",
       "ja": "ストーンゴールドインゴット",
       "ko": "Stonegold Ingot"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "927b2f076a7",
+    "level": 400,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Beehive Souvenir (patch 5.1)",
+      "de": "Lustspielhaus-Souvenir",
+      "en": "Beehive Souvenir",
+      "fr": "Souvenir du cabaret",
+      "ja": "キャバレー土産品",
+      "ko": "Beehive Souvenir"
     }
   },
   {
@@ -21547,6 +21819,70 @@
   },
   {
     "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "264d50a0a2f",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Eulmoran Chandelier (patch 5.1)",
+      "de": "Eulmore-Kronleuchter",
+      "en": "Eulmoran Chandelier",
+      "fr": "Lustre eulmorien",
+      "ja": "ユールモア・シャンデリア",
+      "ko": "Eulmoran Chandelier"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "d801aa56cd6",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Eulmoran Marble Flooring (patch 5.1)",
+      "de": "Eulmore-Marmorboden",
+      "en": "Eulmoran Marble Flooring",
+      "fr": "Carrelage eulmorien en marbre",
+      "ja": "ユールモア・マーブルフローリング",
+      "ko": "Eulmoran Marble Flooring"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "c3b21bb6233",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Jeweler's Stall (patch 5.1)",
+      "de": "Schmuck-Marktstand",
+      "en": "Jeweler's Stall",
+      "fr": "Étal de joaillier",
+      "ja": "宝飾商の露店",
+      "ko": "Jeweler's Stall"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "20cfe3c554e",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Necklace Display Stand (patch 5.1)",
+      "de": "Kettenhalter",
+      "en": "Necklace Display Stand",
+      "fr": "Buste présentoir",
+      "ja": "ネックレストルソー",
+      "ko": "Necklace Display Stand"
+    }
+  },
+  {
+    "baseLevel": 78,
     "difficulty": 2551,
     "durability": 80,
     "id": "a8f10442d20",
@@ -22027,6 +22363,22 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "a5755cfd6d9",
+    "level": 430,
+    "maxQuality": 40574,
+    "name": {
+      "cn": "Skybuilders' Brazier (patch 5.11)",
+      "de": "Himmelsstadt-Feuerschale",
+      "en": "Skybuilders' Brazier",
+      "fr": "Socle à flambeau de restauration",
+      "ja": "復興用の篝火台",
+      "ko": "Skybuilders' Brazier"
+    }
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 7457,
     "durability": 70,
     "id": "d1351d1d569",
@@ -22044,13 +22396,30 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 5428,
+    "durability": 35,
+    "id": "22465ee4c92",
+    "level": 450,
+    "maxQuality": 35092,
+    "name": {
+      "cn": "Alumina Whetstone (patch 5.1)",
+      "de": "Korund-Wetzstein",
+      "en": "Alumina Whetstone",
+      "fr": "Pierre à aiguiser en émeri",
+      "ja": "アルミナ砥石",
+      "ko": "Alumina Whetstone"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 5645,
     "durability": 70,
     "id": "995e4820c95",
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Aiming",
+      "cn": "Facet Bracelet of Aiming (patch 5.05)",
       "de": "Manufaktur-Armband des Zielens",
       "en": "Facet Bracelet of Aiming",
       "fr": "Bracelet de pisteur de la halle",
@@ -22067,7 +22436,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Casting",
+      "cn": "Facet Bracelet of Casting (patch 5.05)",
       "de": "Manufaktur-Armband der Magie",
       "en": "Facet Bracelet of Casting",
       "fr": "Bracelet d'incantateur de la halle",
@@ -22084,7 +22453,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Fending",
+      "cn": "Facet Bracelet of Fending (patch 5.05)",
       "de": "Manufaktur-Armband der Verteidigung",
       "en": "Facet Bracelet of Fending",
       "fr": "Bracelet de protecteur de la halle",
@@ -22101,7 +22470,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Healing",
+      "cn": "Facet Bracelet of Healing (patch 5.05)",
       "de": "Manufaktur-Armband der Heilung",
       "en": "Facet Bracelet of Healing",
       "fr": "Bracelet de soigneur de la halle",
@@ -22118,7 +22487,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Slaying",
+      "cn": "Facet Bracelet of Slaying (patch 5.05)",
       "de": "Manufaktur-Armband des Schlachtens",
       "en": "Facet Bracelet of Slaying",
       "fr": "Bracelet d'attaquant de la halle",
@@ -22135,7 +22504,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Aiming",
+      "cn": "Facet Choker of Aiming (patch 5.05)",
       "de": "Manufaktur-Halsband des Zielens",
       "en": "Facet Choker of Aiming",
       "fr": "Ras de cou de pisteur de la halle",
@@ -22152,7 +22521,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Casting",
+      "cn": "Facet Choker of Casting (patch 5.05)",
       "de": "Manufaktur-Halsband der Magie",
       "en": "Facet Choker of Casting",
       "fr": "Ras de cou d'incantateur de la halle",
@@ -22169,7 +22538,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Fending",
+      "cn": "Facet Choker of Fending (patch 5.05)",
       "de": "Manufaktur-Halsband der Verteidigung",
       "en": "Facet Choker of Fending",
       "fr": "Ras de cou de protecteur de la halle",
@@ -22186,7 +22555,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Healing",
+      "cn": "Facet Choker of Healing (patch 5.05)",
       "de": "Manufaktur-Halsband der Heilung",
       "en": "Facet Choker of Healing",
       "fr": "Ras de cou de soigneur de la halle",
@@ -22203,7 +22572,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Slaying",
+      "cn": "Facet Choker of Slaying (patch 5.05)",
       "de": "Manufaktur-Halsband des Schlachtens",
       "en": "Facet Choker of Slaying",
       "fr": "Ras de cou d'attaquant de la halle",
@@ -22220,7 +22589,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Circlet of Fending",
+      "cn": "Facet Circlet of Fending (patch 5.05)",
       "de": "Manufaktur-Stirnreif der Verteidigung",
       "en": "Facet Circlet of Fending",
       "fr": "Diadème de protecteur de la halle",
@@ -22237,7 +22606,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Circlet of Striking",
+      "cn": "Facet Circlet of Striking (patch 5.05)",
       "de": "Manufaktur-Stirnreif des Schlagens",
       "en": "Facet Circlet of Striking",
       "fr": "Diadème d'agresseur de la halle",
@@ -22254,7 +22623,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Aiming",
+      "cn": "Facet Earrings of Aiming (patch 5.05)",
       "de": "Manufaktur-Ohrringe des Zielens",
       "en": "Facet Earrings of Aiming",
       "fr": "Boucles d'oreilles de pisteur de la halle",
@@ -22271,7 +22640,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Casting",
+      "cn": "Facet Earrings of Casting (patch 5.05)",
       "de": "Manufaktur-Ohrringe der Magie",
       "en": "Facet Earrings of Casting",
       "fr": "Boucles d'oreilles d'incantateur de la halle",
@@ -22288,7 +22657,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Fending",
+      "cn": "Facet Earrings of Fending (patch 5.05)",
       "de": "Manufaktur-Ohrringe der Verteidigung",
       "en": "Facet Earrings of Fending",
       "fr": "Boucles d'oreilles de protecteur de la halle",
@@ -22305,7 +22674,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Healing",
+      "cn": "Facet Earrings of Healing (patch 5.05)",
       "de": "Manufaktur-Ohrringe der Heilung",
       "en": "Facet Earrings of Healing",
       "fr": "Boucles d'oreilles de soigneur de la halle",
@@ -22322,12 +22691,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Slaying",
+      "cn": "Facet Earrings of Slaying (patch 5.05)",
       "de": "Manufaktur-Ohrringe des Schlachtens",
       "en": "Facet Earrings of Slaying",
       "fr": "Boucles d'oreilles d'attaquant de la halle",
       "ja": "ミーン・アタッカーイヤリング",
       "ko": "Facet Earrings of Slaying"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "45656897880",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Needle (patch 5.1)",
+      "de": "Manufaktur-Nadel",
+      "en": "Facet Needle",
+      "fr": "Aiguille de la halle",
+      "ja": "ミーン・ニードル",
+      "ko": "Facet Needle"
     },
     "stars": 2
   },
@@ -22339,7 +22725,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Aiming",
+      "cn": "Facet Ring of Aiming (patch 5.05)",
       "de": "Manufaktur-Ring des Zielens",
       "en": "Facet Ring of Aiming",
       "fr": "Bague de pisteur de la halle",
@@ -22356,7 +22742,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Casting",
+      "cn": "Facet Ring of Casting (patch 5.05)",
       "de": "Manufaktur-Ring der Magie",
       "en": "Facet Ring of Casting",
       "fr": "Bague d'incantateur de la halle",
@@ -22373,7 +22759,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Fending",
+      "cn": "Facet Ring of Fending (patch 5.05)",
       "de": "Manufaktur-Ring der Verteidigung",
       "en": "Facet Ring of Fending",
       "fr": "Bague de protecteur de la halle",
@@ -22390,7 +22776,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Healing",
+      "cn": "Facet Ring of Healing (patch 5.05)",
       "de": "Manufaktur-Ring der Heilung",
       "en": "Facet Ring of Healing",
       "fr": "Bague de soigneur de la halle",
@@ -22407,12 +22793,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Slaying",
+      "cn": "Facet Ring of Slaying (patch 5.05)",
       "de": "Manufaktur-Ring des Schlachtens",
       "en": "Facet Ring of Slaying",
       "fr": "Bague d'attaquant de la halle",
       "ja": "ミーン・アタッカーリング",
       "ko": "Facet Ring of Slaying"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7817,
+    "durability": 70,
+    "id": "a8242a1faec",
+    "level": 450,
+    "maxQuality": 11697,
+    "name": {
+      "cn": "Hades Trophy (patch 5.1)",
+      "de": "Hades-Trophäe",
+      "en": "Hades Trophy",
+      "fr": "Trophée d'Hadès",
+      "ja": "ハーデストロフィー",
+      "ko": "Hades Trophy"
     },
     "stars": 2
   },
@@ -22424,7 +22827,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Merveilleuse",
+      "cn": "Merveilleuse (patch 5.05)",
       "de": "Merveilleuse",
       "en": "Merveilleuse",
       "fr": "Merveilleuse",
@@ -22441,7 +22844,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Pollux",
+      "cn": "Pollux (patch 5.05)",
       "de": "Polluc",
       "en": "Pollux",
       "fr": "Pollux",
@@ -22458,7 +22861,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Prismatic Ingot",
+      "cn": "Prismatic Ingot (patch 5.05)",
       "de": "Spektralkristall-Stein",
       "en": "Prismatic Ingot",
       "fr": "Barre iridescente",

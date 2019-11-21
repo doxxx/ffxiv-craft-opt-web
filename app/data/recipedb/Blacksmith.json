@@ -1856,6 +1856,22 @@
     }
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "73c94bfba2e",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Skybuilders' Alloy (patch 5.11)",
+      "de": "Himmelsstadt-Legierung",
+      "en": "Skybuilders' Alloy",
+      "fr": "Alliage métallique de restauration",
+      "ja": "復興用の合金",
+      "ko": "Skybuilders' Alloy"
+    }
+  },
+  {
     "baseLevel": 21,
     "difficulty": 112,
     "durability": 70,
@@ -4061,6 +4077,22 @@
       "fr": "Marteau ornementé en mithril",
       "ja": "ミスリルオーナメンタルハンマー",
       "ko": "미스릴 장식새김 망치"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 207,
+    "durability": 60,
+    "id": "15d3f234bd8",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Skybuilders' Nails (patch 5.11)",
+      "de": "Himmelsstadt-Eisennägel",
+      "en": "Skybuilders' Nails",
+      "fr": "Clous de restauration",
+      "ja": "復興用の鉄釘",
+      "ko": "Skybuilders' Nails"
     }
   },
   {
@@ -8222,7 +8254,7 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品",
+      "ja": "近東風の収集品",
       "ko": "근동풍 소장품"
     }
   },
@@ -8238,7 +8270,7 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材",
+      "ja": "近東風の収集品部材",
       "ko": "근동풍 소장품 부재"
     }
   },
@@ -9413,6 +9445,22 @@
   {
     "baseLevel": 60,
     "difficulty": 956,
+    "durability": 60,
+    "id": "dc0458d6d84",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Skybuilders' Hammer (patch 5.11)",
+      "de": "Himmelsstadt-Hammer",
+      "en": "Skybuilders' Hammer",
+      "fr": "Marteau de restauration",
+      "ja": "復興用の金槌",
+      "ko": "Skybuilders' Hammer"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
     "durability": 70,
     "id": "bfdc3a3fd60",
     "level": 150,
@@ -9485,10 +9533,10 @@
     "maxQuality": 6701,
     "name": {
       "cn": "东方风格的收藏品",
-      "de": "Fernöstliche Kuriosität",
+      "de": "Fernöstliche Antiquität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品",
+      "ja": "東方風の収集品",
       "ko": "동방풍 소장품"
     },
     "stars": 1
@@ -9505,7 +9553,7 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材",
+      "ja": "東方風の収集品部材",
       "ko": "동방풍 소장품 부재"
     },
     "stars": 1
@@ -11318,7 +11366,7 @@
     "level": 255,
     "maxQuality": 8377,
     "name": {
-      "cn": "High Steel Chakrams",
+      "cn": "硬钢圆月轮",
       "de": "Edelstahl-Chakrams",
       "en": "High Steel Chakrams",
       "fr": "Chakrams en acier noble",
@@ -11366,7 +11414,7 @@
     "level": 255,
     "maxQuality": 8377,
     "name": {
-      "cn": "High Steel Gunblade",
+      "cn": "硬钢枪刃",
       "de": "Edelstahl-Revolverklinge",
       "en": "High Steel Gunblade",
       "fr": "Pistolame en acier noble",
@@ -11958,7 +12006,7 @@
     "level": 270,
     "maxQuality": 10439,
     "name": {
-      "cn": "High Steel Bayonet",
+      "cn": "硬钢刺刀",
       "de": "Edelstahl-Bajonett",
       "en": "High Steel Bayonet",
       "fr": "Baïonnette en acier noble",
@@ -12022,7 +12070,7 @@
     "level": 270,
     "maxQuality": 10439,
     "name": {
-      "cn": "High Steel War Quoits",
+      "cn": "硬钢战轮",
       "de": "Edelstahl-Wurfringe",
       "en": "High Steel War Quoits",
       "fr": "Quoits de guerre en acier noble",
@@ -12182,7 +12230,7 @@
     "level": 273,
     "maxQuality": 10851,
     "name": {
-      "cn": "Doman Iron Glaives",
+      "cn": "卸铁轮刃",
       "de": "Domaeisen-Todesringe",
       "en": "Doman Iron Glaives",
       "fr": "Gladius en fer domien",
@@ -12198,7 +12246,7 @@
     "level": 273,
     "maxQuality": 10851,
     "name": {
-      "cn": "Doman Iron Gunblade",
+      "cn": "卸铁枪刃",
       "de": "Domaeisen-Revolverklinge",
       "en": "Doman Iron Gunblade",
       "fr": "Pistolame en fer domien",
@@ -12630,7 +12678,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Doman Steel Gunblade",
+      "cn": "玉钢枪刃",
       "de": "Domastahl-Revolverklinge",
       "en": "Doman Steel Gunblade",
       "fr": "Pistolame en acier domien",
@@ -12742,7 +12790,7 @@
     "level": 279,
     "maxQuality": 11676,
     "name": {
-      "cn": "Doman Steel War Quoits",
+      "cn": "玉钢战轮",
       "de": "Domastahl-Wurfringe",
       "en": "Doman Steel War Quoits",
       "fr": "Quoits de guerre en acier domien",
@@ -13190,7 +13238,7 @@
     "level": 285,
     "maxQuality": 12500,
     "name": {
-      "cn": "Molybdenum Chakrams",
+      "cn": "钼钢圆月轮",
       "de": "Molybdän-Chakrams",
       "en": "Molybdenum Chakrams",
       "fr": "Chakrams en molybdène",
@@ -13222,7 +13270,7 @@
     "level": 285,
     "maxQuality": 12500,
     "name": {
-      "cn": "Molybdenum Gunblade",
+      "cn": "钼钢枪刃",
       "de": "Molybdän-Revolverklinge",
       "en": "Molybdenum Gunblade",
       "fr": "Pistolame en molybdène",
@@ -13473,12 +13521,28 @@
   {
     "baseLevel": 70,
     "difficulty": 2066,
+    "durability": 60,
+    "id": "239df01bb2f",
+    "level": 290,
+    "maxQuality": 10549,
+    "name": {
+      "cn": "Flyer Printing Set (patch 5.1)",
+      "de": "Flugblattdruck-Utensil",
+      "en": "Flyer Printing Set",
+      "fr": "Kit pour dépliants",
+      "ja": "チラシ製作必需品",
+      "ko": "Flyer Printing Set"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
     "durability": 80,
     "id": "cf9112748ab",
     "level": 290,
     "maxQuality": 7252,
     "name": {
-      "cn": "Metal Gauntlets",
+      "cn": "金属制的手甲",
       "de": "Metallener Handschutz",
       "en": "Metal Gauntlets",
       "fr": "Gantelets en métal",
@@ -13616,13 +13680,46 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 60,
+    "id": "6876de2282a",
+    "level": 290,
+    "maxQuality": 36923,
+    "name": {
+      "cn": "Skybuilders' Crosscut Saw (patch 5.11)",
+      "de": "Himmelsstadt-Säge",
+      "en": "Skybuilders' Crosscut Saw",
+      "fr": "Grande scie de restauration",
+      "ja": "復興用の大鋸",
+      "ko": "Skybuilders' Crosscut Saw"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "6f7d52e6422",
+    "level": 300,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Kholusian Cuisine Set (patch 5.1)",
+      "de": "Menü-Komponenten",
+      "en": "Kholusian Cuisine Set",
+      "fr": "Composant pour nouveau menu",
+      "ja": "新メニュー必需品",
+      "ko": "Kholusian Cuisine Set"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3149,
     "durability": 70,
     "id": "60e4b5793c2",
     "level": 300,
     "maxQuality": 14071,
     "name": {
-      "cn": "Pure Titanium Plate",
+      "cn": "Pure Titanium Plate (patch 5.05)",
       "de": "Reintitanplatte",
       "en": "Pure Titanium Plate",
       "fr": "Plaque de titane pur",
@@ -14865,6 +14962,38 @@
     }
   },
   {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "8d37078da5c",
+    "level": 390,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Honeybee Trappings (patch 5.1)",
+      "de": "Bühnenkostümteil",
+      "en": "Honeybee Trappings",
+      "fr": "Composant pour costume de scène",
+      "ja": "舞台衣装必需品",
+      "ko": "Honeybee Trappings"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 60,
+    "id": "0d1c6679406",
+    "level": 395,
+    "maxQuality": 11878,
+    "name": {
+      "cn": "Airship Fittings (patch 5.1)",
+      "de": "Luftschiff-Komponente",
+      "en": "Airship Fittings",
+      "fr": "Élément pour rénovation d'aéronef",
+      "ja": "飛空艇改装必需品",
+      "ko": "Airship Fittings"
+    }
+  },
+  {
     "baseLevel": 72,
     "difficulty": 3248,
     "durability": 80,
@@ -14954,10 +15083,26 @@
     "name": {
       "cn": "深金打刀",
       "de": "Steingold-Katana",
-      "en": "Stonegold Uchigatana",
+      "en": "Deepgold Uchigatana",
       "fr": "Uchigatana en or pétré",
       "ja": "硬金打刀",
-      "ko": "Stonegold Uchigatana"
+      "ko": "Deepgold Uchigatana"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "e0901461270",
+    "level": 400,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Beehive Souvenir (patch 5.1)",
+      "de": "Lustspielhaus-Souvenir",
+      "en": "Beehive Souvenir",
+      "fr": "Souvenir du cabaret",
+      "ja": "キャバレー土産品",
+      "ko": "Beehive Souvenir"
     }
   },
   {
@@ -15826,6 +15971,22 @@
   },
   {
     "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "acdfa94e95c",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Ale Tap (patch 5.1)",
+      "de": "Zapfhahn",
+      "en": "Ale Tap",
+      "fr": "Tireuse à bière",
+      "ja": "エールサーバー",
+      "ko": "Ale Tap"
+    }
+  },
+  {
+    "baseLevel": 78,
     "difficulty": 3645,
     "durability": 80,
     "id": "3825d122c2a",
@@ -16014,6 +16175,22 @@
       "fr": "Collier anti-magie",
       "ja": "耐魔法用首飾り",
       "ko": "Nullifying Neckpiece"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "fa26f68aba8",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Weaponsmith's Stall (patch 5.1)",
+      "de": "Waffen-Marktstand",
+      "en": "Weaponsmith's Stall",
+      "fr": "Étal de marchand d'armes",
+      "ja": "武器商の露店",
+      "ko": "Weaponsmith's Stall"
     }
   },
   {
@@ -16274,6 +16451,22 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "e8b1f4972db",
+    "level": 430,
+    "maxQuality": 40574,
+    "name": {
+      "cn": "Skybuilders' Oven (patch 5.11)",
+      "de": "Himmelsstadt-Ofen",
+      "en": "Skybuilders' Oven",
+      "fr": "Four de restauration",
+      "ja": "復興用の焜炉",
+      "ko": "Skybuilders' Oven"
+    }
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 7457,
     "durability": 70,
     "id": "f8b5857b45f",
@@ -16297,7 +16490,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Alastor",
+      "cn": "Alastor (patch 5.05)",
       "de": "Alastor",
       "en": "Alastor",
       "fr": "Alastor",
@@ -16314,7 +16507,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Barathrum",
+      "cn": "Barathrum (patch 5.05)",
       "de": "Barathrum",
       "en": "Barathrum",
       "fr": "Barathrum",
@@ -16331,12 +16524,267 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Burattinaios",
+      "cn": "Burattinaios (patch 5.05)",
       "de": "Burattinaios",
       "en": "Burattinaios",
       "fr": "Burattinaios",
       "ja": "ブラッティナイオ",
       "ko": "Burattinaios"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "dfff6aedbfc",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Awl (patch 5.1)",
+      "de": "Manufaktur-Ahle",
+      "en": "Facet Awl",
+      "fr": "Poinçon de la halle",
+      "ja": "ミーン・アウル",
+      "ko": "Facet Awl"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "c65d280d7dd",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Claw Hammer (patch 5.1)",
+      "de": "Manufaktur-Klauenhammer",
+      "en": "Facet Claw Hammer",
+      "fr": "Marteau arrache-clou de la halle",
+      "ja": "ミーン・クローハンマー",
+      "ko": "Facet Claw Hammer"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "10be7928261",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Cross-pein Hammer (patch 5.1)",
+      "de": "Manufaktur-Kreuzschlaghammer",
+      "en": "Facet Cross-pein Hammer",
+      "fr": "Marteau à panne croisée de la halle",
+      "ja": "ミーン・クロスペインハンマー",
+      "ko": "Facet Cross-pein Hammer"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "48bd8a859cf",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Culinary Knife (patch 5.1)",
+      "de": "Manufaktur-Küchenmesser",
+      "en": "Facet Culinary Knife",
+      "fr": "Couteau de cuisine de la halle",
+      "ja": "ミーン・クリナリーナイフ",
+      "ko": "Facet Culinary Knife"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "bfc4a542f44",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet File (patch 5.1)",
+      "de": "Manufaktur-Feile",
+      "en": "Facet File",
+      "fr": "Lime de la halle",
+      "ja": "ミーン・ファイル",
+      "ko": "Facet File"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "7d2e2417125",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Hatchet (patch 5.1)",
+      "de": "Manufaktur-Handbeil",
+      "en": "Facet Hatchet",
+      "fr": "Hachette de la halle",
+      "ja": "ミーン・ハチェット",
+      "ko": "Facet Hatchet"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "5597a746439",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Mallet (patch 5.1)",
+      "de": "Manufaktur-Juwelierhammer",
+      "en": "Facet Mallet",
+      "fr": "Marteau de lapidaire de la halle",
+      "ja": "ミーン・マレット",
+      "ko": "Facet Mallet"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "a331cf96b74",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Mortar (patch 5.1)",
+      "de": "Manufaktur-Mörser",
+      "en": "Facet Mortar",
+      "fr": "Mortier de la halle",
+      "ja": "ミーン・モーター",
+      "ko": "Facet Mortar"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "5f94451edc3",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Pickaxe (patch 5.1)",
+      "de": "Manufaktur-Spitzhacke",
+      "en": "Facet Pickaxe",
+      "fr": "Pioche de la halle",
+      "ja": "ミーン・ピック",
+      "ko": "Facet Pickaxe"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "eb2c4b59a7d",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Pliers (patch 5.1)",
+      "de": "Manufaktur-Zange",
+      "en": "Facet Pliers",
+      "fr": "Tenailles de la halle",
+      "ja": "ミーン・プライヤー",
+      "ko": "Facet Pliers"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "a22f468085b",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Raising Hammer (patch 5.1)",
+      "de": "Manufaktur-Schlichthammer",
+      "en": "Facet Raising Hammer",
+      "fr": "Marteau de batteur de la halle",
+      "ja": "ミーン・レイジングハンマー",
+      "ko": "Facet Raising Hammer"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "2427c7f611c",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Round Knife (patch 5.1)",
+      "de": "Manufaktur-Rundmesser",
+      "en": "Facet Round Knife",
+      "fr": "Couteau arrondi de la halle",
+      "ja": "ミーン・ラウンドナイフ",
+      "ko": "Facet Round Knife"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "d38fcb731af",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Saw (patch 5.1)",
+      "de": "Manufaktur-Säge",
+      "en": "Facet Saw",
+      "fr": "Scie de la halle",
+      "ja": "ミーン・ソー",
+      "ko": "Facet Saw"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "a5558376f08",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Scythe (patch 5.1)",
+      "de": "Manufaktur-Sense",
+      "en": "Facet Scythe",
+      "fr": "Faux de la halle",
+      "ja": "ミーン・サイズ",
+      "ko": "Facet Scythe"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "a13d70399d5",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Sledgehammer (patch 5.1)",
+      "de": "Manufaktur-Vorschlaghammer",
+      "en": "Facet Sledgehammer",
+      "fr": "Maillet de la halle",
+      "ja": "ミーン・モール",
+      "ko": "Facet Sledgehammer"
     },
     "stars": 2
   },
@@ -16348,7 +16796,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Gust Tongue",
+      "cn": "Gust Tongue (patch 5.05)",
       "de": "Windstoß-Zunge",
       "en": "Gust Tongue",
       "fr": "Langue rafale",
@@ -16365,7 +16813,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Murderer",
+      "cn": "Murderer (patch 5.05)",
       "de": "Todesengel",
       "en": "Murderer",
       "fr": "Meurtrier",
@@ -16382,7 +16830,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Sankhara",
+      "cn": "Sankhara (patch 5.05)",
       "de": "Sankhara",
       "en": "Sankhara",
       "fr": "Sankhâra",
@@ -16399,7 +16847,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Silktones",
+      "cn": "Silktones (patch 5.05)",
       "de": "Seidenklänge",
       "en": "Silktones",
       "fr": "Susurrantes",
@@ -16416,7 +16864,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Sinfender",
+      "cn": "Sinfender (patch 5.05)",
       "de": "Sündenerwehrer",
       "en": "Sinfender",
       "fr": "Pourfendeuse",
@@ -16433,7 +16881,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Tungsten Steel Ingot",
+      "cn": "Tungsten Steel Ingot (patch 5.05)",
       "de": "Wolframbarren",
       "en": "Tungsten Steel Ingot",
       "fr": "Lingot d'acier au tungstène",
@@ -16450,7 +16898,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Tutelary",
+      "cn": "Tutelary (patch 5.05)",
       "de": "Tutelary",
       "en": "Tutelary",
       "fr": "Tutélaire",

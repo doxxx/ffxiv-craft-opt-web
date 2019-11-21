@@ -359,7 +359,7 @@
     "level": 5,
     "maxQuality": 451,
     "name": {
-      "cn": "Altered Thighboots",
+      "cn": "改良型筒靴",
       "de": "Bearbeitete Kniestiefel",
       "en": "Altered Thighboots",
       "fr": "Cuissardes réinventées",
@@ -615,7 +615,7 @@
     "level": 8,
     "maxQuality": 526,
     "name": {
-      "cn": "Altered Leather Thighboots",
+      "cn": "改良型牛皮长靴",
       "de": "Bearbeitete Lederkniestiefel",
       "en": "Altered Leather Thighboots",
       "fr": "Cuissardes en cuir réinventées",
@@ -1095,8 +1095,8 @@
     "level": 14,
     "maxQuality": 751,
     "name": {
-      "cn": "Hard Leather Kecks",
-      "de": "Juchleder-Keks",
+      "cn": "硬革腿套",
+      "de": "Juchleder-Kecks",
       "en": "Hard Leather Kecks",
       "fr": "Bénard en cuir rigide",
       "ja": "ハードレザーケクス",
@@ -1159,7 +1159,7 @@
     "level": 14,
     "maxQuality": 751,
     "name": {
-      "cn": "Hard Leather Thighboots",
+      "cn": "硬革长靴",
       "de": "Juchleder-Kniestiefel",
       "en": "Hard Leather Thighboots",
       "fr": "Cuissardes en cuir rigide",
@@ -1776,6 +1776,22 @@
     }
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "4e67521b56e",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Skybuilders' Leather (patch 5.11)",
+      "de": "Gegerbtes Himmelsstadt-Leder",
+      "en": "Skybuilders' Leather",
+      "fr": "Cuir de restauration",
+      "ja": "復興用のなめし革",
+      "ko": "Skybuilders' Leather"
+    }
+  },
+  {
     "baseLevel": 21,
     "difficulty": 75,
     "durability": 70,
@@ -2119,7 +2135,7 @@
     "level": 27,
     "maxQuality": 1368,
     "name": {
-      "cn": "Altered Goatskin Moccasins",
+      "cn": "改良型山羊革狩猎靴",
       "de": "Bearbeitete Steinbockleder-Mokassins",
       "en": "Altered Goatskin Moccasins",
       "fr": "Mocassins en cuir de bouquetin réinventés",
@@ -2727,7 +2743,7 @@
     "level": 30,
     "maxQuality": 1584,
     "name": {
-      "cn": "Toadskin Boots",
+      "cn": "巨蟾蜍革长靴",
       "de": "Dodo-Stiefel",
       "en": "Toadskin Boots",
       "fr": "Bottes en cuir de crapaud",
@@ -3063,7 +3079,7 @@
     "level": 35,
     "maxQuality": 1853,
     "name": {
-      "cn": "Altered Boarskin Thighboots",
+      "cn": "改良型野猪革长靴",
       "de": "Bearbeitete Keilerleder-Kniestiefel",
       "en": "Altered Boarskin Thighboots",
       "fr": "Cuissardes en cuir de sanglier réinventées",
@@ -3239,7 +3255,7 @@
     "level": 37,
     "maxQuality": 1905,
     "name": {
-      "cn": "Altered Boarskin Pot Helm",
+      "cn": "改良型野猪革盔帽",
       "de": "Bearbeitetes Keilerleder-Kaskett",
       "en": "Altered Boarskin Pot Helm",
       "fr": "Heaume en cuir de sanglier réinventé",
@@ -3709,6 +3725,22 @@
       "fr": "Tapis moutonnant",
       "ja": "シープラグ",
       "ko": "양 깔개"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 207,
+    "durability": 60,
+    "id": "4093bce83cc",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Skybuilders' Leather Straps (patch 5.11)",
+      "de": "Himmelsstadt-Lederriemen",
+      "en": "Skybuilders' Leather Straps",
+      "fr": "Cordon de cuir de restauration",
+      "ja": "復興用の革紐",
+      "ko": "Skybuilders' Leather Straps"
     }
   },
   {
@@ -4263,7 +4295,7 @@
     "level": 45,
     "maxQuality": 2309,
     "name": {
-      "cn": "Raptorskin Gloves",
+      "cn": "盗龙革手套",
       "de": "Raptorleder-Handschuhe",
       "en": "Raptorskin Gloves",
       "fr": "Gants en cuir de raptor",
@@ -4295,7 +4327,7 @@
     "level": 45,
     "maxQuality": 2309,
     "name": {
-      "cn": "Raptorskin Moccasins",
+      "cn": "盗龙革狩猎靴",
       "de": "Raptorleder-Mokassins",
       "en": "Raptorskin Moccasins",
       "fr": "Mocassins en cuir de raptor",
@@ -4439,7 +4471,7 @@
     "level": 46,
     "maxQuality": 2372,
     "name": {
-      "cn": "Raptorskin Crakows",
+      "cn": "盗龙革尖头靴",
       "de": "Raptorleder-Poulaines",
       "en": "Raptorskin Crakows",
       "fr": "Souliers à poulaine en cuir de raptor",
@@ -4455,7 +4487,7 @@
     "level": 46,
     "maxQuality": 2372,
     "name": {
-      "cn": "Raptorskin Skirt",
+      "cn": "盗龙革短裙",
       "de": "Raptorleder-Rock",
       "en": "Raptorskin Skirt",
       "fr": "Jupe en cuir de raptor",
@@ -4615,7 +4647,7 @@
     "level": 49,
     "maxQuality": 2551,
     "name": {
-      "cn": "Raptorskin Boots",
+      "cn": "盗龙革长筒靴",
       "de": "Raptorleder-Stiefel",
       "en": "Raptorskin Boots",
       "fr": "Bottes en cuir de raptor",
@@ -4663,7 +4695,7 @@
     "level": 49,
     "maxQuality": 2551,
     "name": {
-      "cn": "Raptorskin Shirt",
+      "cn": "盗龙革衬衫",
       "de": "Raptorleder-Hemd",
       "en": "Raptorskin Shirt",
       "fr": "Chemise en cuir de raptor",
@@ -9492,7 +9524,7 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品",
+      "ja": "近東風の収集品",
       "ko": "근동풍 소장품"
     }
   },
@@ -9508,7 +9540,7 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材",
+      "ja": "近東風の収集品部材",
       "ko": "근동풍 소장품 부재"
     }
   },
@@ -10747,6 +10779,22 @@
   {
     "baseLevel": 60,
     "difficulty": 956,
+    "durability": 60,
+    "id": "ba13a0b536e",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Skybuilders' Rug (patch 5.11)",
+      "de": "Himmelsstadt-Teppich",
+      "en": "Skybuilders' Rug",
+      "fr": "Tapis en peau de restauration",
+      "ja": "復興用の敷物",
+      "ko": "Skybuilders' Rug"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
     "durability": 70,
     "id": "4ac1febe631",
     "level": 150,
@@ -10867,7 +10915,7 @@
     "level": 160,
     "maxQuality": 8377,
     "name": {
-      "cn": "Chivalric Longcoat of Aiming",
+      "cn": "骑士精准作战服",
       "de": "Ritterkampfanzug des Zielens",
       "en": "Chivalric Longcoat of Aiming",
       "fr": "Broigne de pisteur chevaleresque",
@@ -10970,10 +11018,10 @@
     "maxQuality": 6701,
     "name": {
       "cn": "东方风格的收藏品",
-      "de": "Fernöstliche Kuriosität",
+      "de": "Fernöstliche Antiquität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品",
+      "ja": "東方風の収集品",
       "ko": "동방풍 소장품"
     },
     "stars": 1
@@ -10990,7 +11038,7 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材",
+      "ja": "東方風の収集品部材",
       "ko": "동방풍 소장품 부재"
     },
     "stars": 1
@@ -13077,7 +13125,7 @@
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Eikon Leather Boots of Casting",
+      "cn": "荒神革咏咒长靴",
       "de": "Ikonenleder-Beinschützer der Magie",
       "en": "Eikon Leather Boots of Casting",
       "fr": "Bottes d'incantateur en cuir primordial",
@@ -13094,7 +13142,7 @@
     "level": 210,
     "maxQuality": 10373,
     "name": {
-      "cn": "Eikon Leather Boots of Healing",
+      "cn": "荒神革治愈长靴",
       "de": "Ikonenleder-Kniestiefel der Heilung",
       "en": "Eikon Leather Boots of Healing",
       "fr": "Cuissardes de soigneur en cuir primordial",
@@ -14483,6 +14531,470 @@
       "fr": "Gilet en cuir de gagana",
       "ja": "ガガナベスト",
       "ko": "가가나 조끼"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "606deb4fc4b",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Beret of Aiming (patch 5.11)",
+      "de": "Luftpiraten-Barett des Zielens (Replik)",
+      "en": "Replica Sky Pirate's Beret of Aiming",
+      "fr": "Réplique de béret de pisteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・レンジャーベレー",
+      "ko": "Replica Sky Pirate's Beret of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "207ba47013d",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Boots of Aiming (patch 5.11)",
+      "de": "Luftpiraten-Stiefel des Zielens (Replik)",
+      "en": "Replica Sky Pirate's Boots of Aiming",
+      "fr": "Répliques de bottes de pisteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・レンジャーブーツ",
+      "ko": "Replica Sky Pirate's Boots of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "7c6fe7908d8",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Boots of Fending (patch 5.11)",
+      "de": "Luftpiraten-Stiefel der Verteidigung (Replik)",
+      "en": "Replica Sky Pirate's Boots of Fending",
+      "fr": "Répliques de bottes de protecteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ディフェンダーブーツ",
+      "ko": "Replica Sky Pirate's Boots of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "8deb82d92c6",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Boots of Maiming (patch 5.11)",
+      "de": "Luftpiraten-Stiefel des Verstümmelns (Replik)",
+      "en": "Replica Sky Pirate's Boots of Maiming",
+      "fr": "Répliques de bottes d'abatteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スレイヤーブーツ",
+      "ko": "Replica Sky Pirate's Boots of Maiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "5fe2b130a5a",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Boots of Scouting (patch 5.11)",
+      "de": "Luftpiraten-Stiefel des Spähens (Replik)",
+      "en": "Replica Sky Pirate's Boots of Scouting",
+      "fr": "Répliques de bottes d'éclaireur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スカウトブーツ",
+      "ko": "Replica Sky Pirate's Boots of Scouting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "57c59128a18",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Boots of Striking (patch 5.11)",
+      "de": "Luftpiraten-Stiefel des Schlagens (Replik)",
+      "en": "Replica Sky Pirate's Boots of Striking",
+      "fr": "Répliques de bottes d'agresseur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ストライカーブーツ",
+      "ko": "Replica Sky Pirate's Boots of Striking"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "4e7cef65d5b",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Gloves of Aiming (patch 5.11)",
+      "de": "Luftpiraten-Handschuhe des Zielens (Replik)",
+      "en": "Replica Sky Pirate's Gloves of Aiming",
+      "fr": "Répliques de gants de pisteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・レンジャーグローブ",
+      "ko": "Replica Sky Pirate's Gloves of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "b2b5b788949",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Gloves of Casting (patch 5.11)",
+      "de": "Luftpiraten-Handschuhe der Magie (Replik)",
+      "en": "Replica Sky Pirate's Gloves of Casting",
+      "fr": "Répliques de gants d'incantateur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・キャスターグローブ",
+      "ko": "Replica Sky Pirate's Gloves of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "2c130c1e9dd",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Gloves of Healing (patch 5.11)",
+      "de": "Luftpiraten-Handschuhe der Heilung (Replik)",
+      "en": "Replica Sky Pirate's Gloves of Healing",
+      "fr": "Répliques de gants de soigneur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ヒーラーグローブ",
+      "ko": "Replica Sky Pirate's Gloves of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "5cad212928e",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Gloves of Scouting (patch 5.11)",
+      "de": "Luftpiraten-Handschuhe des Spähens (Replik)",
+      "en": "Replica Sky Pirate's Gloves of Scouting",
+      "fr": "Répliques de gants d'éclaireur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スカウトグローブ",
+      "ko": "Replica Sky Pirate's Gloves of Scouting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "4e2fe23099e",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Gloves of Striking (patch 5.11)",
+      "de": "Luftpiraten-Handschuhe des Schlagens (Replik)",
+      "en": "Replica Sky Pirate's Gloves of Striking",
+      "fr": "Répliques de gants d'agresseur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ストライカーグローブ",
+      "ko": "Replica Sky Pirate's Gloves of Striking"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "32a6769d90f",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Jacket of Scouting (patch 5.11)",
+      "de": "Luftpiraten-Jacke des Spähens (Replik)",
+      "en": "Replica Sky Pirate's Jacket of Scouting",
+      "fr": "Réplique de jaque d'éclaireur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スカウトジャケット",
+      "ko": "Replica Sky Pirate's Jacket of Scouting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "4d2e88e7564",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Jacket of Striking (patch 5.11)",
+      "de": "Luftpiraten-Jacke des Schlagens (Replik)",
+      "en": "Replica Sky Pirate's Jacket of Striking",
+      "fr": "Réplique de jaque d'agresseur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ストライカージャケット",
+      "ko": "Replica Sky Pirate's Jacket of Striking"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "30ab08ef186",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Shoes of Casting (patch 5.11)",
+      "de": "Luftpiraten-Schuhe der Magie (Replik)",
+      "en": "Replica Sky Pirate's Shoes of Casting",
+      "fr": "Répliques de chaussures d'incantateur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・キャスターシューズ",
+      "ko": "Replica Sky Pirate's Shoes of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "32fdaa73f68",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Shoes of Healing (patch 5.11)",
+      "de": "Luftpiraten-Schuhe der Heilung (Replik)",
+      "en": "Replica Sky Pirate's Shoes of Healing",
+      "fr": "Répliques de chaussures de soigneur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ヒーラーシューズ",
+      "ko": "Replica Sky Pirate's Shoes of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "647fd79855b",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Fingerless Gloves of Aiming (patch 5.11)",
+      "de": "Himmelsratten-Fäustlinge des Zielens (Replik)",
+      "en": "Replica Sky Rat Fingerless Gloves of Aiming",
+      "fr": "Répliques de gants sans doigts de pisteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・レンジャーフィンガレスグローブ",
+      "ko": "Replica Sky Rat Fingerless Gloves of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "5a39e00f1f6",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Fingerless Gloves of Casting (patch 5.11)",
+      "de": "Himmelsratten-Fäustlinge der Magie (Replik)",
+      "en": "Replica Sky Rat Fingerless Gloves of Casting",
+      "fr": "Répliques de gants sans doigts d'incantateur de rat des cieux",
+      "ja": "レプリカ・スカイラット・キャスターフィンガレスグローブ",
+      "ko": "Replica Sky Rat Fingerless Gloves of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "9eba65d51e2",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Fingerless Gloves of Striking (patch 5.11)",
+      "de": "Himmelsratten-Fäustlinge des Schlagens (Replik)",
+      "en": "Replica Sky Rat Fingerless Gloves of Striking",
+      "fr": "Répliques de gants sans doigts d'agresseur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ストライカーフィンガレスグローブ",
+      "ko": "Replica Sky Rat Fingerless Gloves of Striking"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "eca869a2faa",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Harness of Aiming (patch 5.11)",
+      "de": "Himmelsratten-Gurtzeug des Zielens (Replik)",
+      "en": "Replica Sky Rat Harness of Aiming",
+      "fr": "Réplique de harnais de pisteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・レンジャーハーネス",
+      "ko": "Replica Sky Rat Harness of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "4ea9e450dfc",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Harness of Casting (patch 5.11)",
+      "de": "Himmelsratten-Gurtzeug der Magie (Replik)",
+      "en": "Replica Sky Rat Harness of Casting",
+      "fr": "Réplique de harnais d'incantateur de rat des cieux",
+      "ja": "レプリカ・スカイラット・キャスターハーネス",
+      "ko": "Replica Sky Rat Harness of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "fb7e9919668",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Harness of Fending (patch 5.11)",
+      "de": "Himmelsratten-Gurtzeug der Verteidigung (Replik)",
+      "en": "Replica Sky Rat Harness of Fending",
+      "fr": "Réplique de harnais de protecteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ディフェンダーハーネス",
+      "ko": "Replica Sky Rat Harness of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "afda69e632f",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Harness of Healing (patch 5.11)",
+      "de": "Himmelsratten-Gurtzeug der Heilung (Replik)",
+      "en": "Replica Sky Rat Harness of Healing",
+      "fr": "Réplique de harnais de soigneur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ヒーラーハーネス",
+      "ko": "Replica Sky Rat Harness of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "7555a72ca38",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Harness of Maiming (patch 5.11)",
+      "de": "Himmelsratten-Gurtzeug des Verstümmelns (Replik)",
+      "en": "Replica Sky Rat Harness of Maiming",
+      "fr": "Réplique de harnais d'abatteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スレイヤーハーネス",
+      "ko": "Replica Sky Rat Harness of Maiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "57e6d63ea25",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Harness of Scouting (patch 5.11)",
+      "de": "Himmelsratten-Gurtzeug des Spähens (Replik)",
+      "en": "Replica Sky Rat Harness of Scouting",
+      "fr": "Réplique de harnais d'éclaireur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スカウトハーネス",
+      "ko": "Replica Sky Rat Harness of Scouting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "ad3e9d84bf1",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Harness of Striking (patch 5.11)",
+      "de": "Himmelsratten-Gurtzeug des Schlagens (Replik)",
+      "en": "Replica Sky Rat Harness of Striking",
+      "fr": "Réplique de harnais d'agresseur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ストライカーハーネス",
+      "ko": "Replica Sky Rat Harness of Striking"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "512a49037e6",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Hookboots of Fending (patch 5.11)",
+      "de": "Himmelsratten-Hakenstiefel der Verteidigung (Replik)",
+      "en": "Replica Sky Rat Hookboots of Fending",
+      "fr": "Répliques de bottes à tranchant de protecteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ディフェンダーフックブーツ",
+      "ko": "Replica Sky Rat Hookboots of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "0432fbce5c8",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Hookboots of Healing (patch 5.11)",
+      "de": "Himmelsratten-Hakenstiefel der Heilung (Replik)",
+      "en": "Replica Sky Rat Hookboots of Healing",
+      "fr": "Répliques de bottes à tranchant de soigneur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ヒーラーフックブーツ",
+      "ko": "Replica Sky Rat Hookboots of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "f401ecb451d",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Hookboots of Maiming (patch 5.11)",
+      "de": "Himmelsratten-Hakenstiefel des Verstümmelns (Replik)",
+      "en": "Replica Sky Rat Hookboots of Maiming",
+      "fr": "Répliques de bottes à tranchant d'abatteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スレイヤーフックブーツ",
+      "ko": "Replica Sky Rat Hookboots of Maiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "6d18a716dbb",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Hookboots of Scouting (patch 5.11)",
+      "de": "Himmelsratten-Hakenstiefel des Spähens (Replik)",
+      "en": "Replica Sky Rat Hookboots of Scouting",
+      "fr": "Répliques de bottes à tranchant d'éclaireur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スカウトフックブーツ",
+      "ko": "Replica Sky Rat Hookboots of Scouting"
     }
   },
   {
@@ -16317,7 +16829,7 @@
     "level": 285,
     "maxQuality": 12500,
     "name": {
-      "cn": "Gazelleskin Open-toed Boots of Maiming",
+      "cn": "瞪羚革制敌露趾长靴",
       "de": "Molybdän-Stiefel des Verstümmelns",
       "en": "Gazelleskin Open-toed Boots of Maiming",
       "fr": "Cuissardes à bout ouvert d'abatteur en cuir de gazelle",
@@ -16333,7 +16845,7 @@
     "level": 285,
     "maxQuality": 12500,
     "name": {
-      "cn": "Gazelleskin Open-toed Boots of Scouting",
+      "cn": "瞪羚革游击露趾长靴",
       "de": "Gazellenleder-Stiefel des Spähens",
       "en": "Gazelleskin Open-toed Boots of Scouting",
       "fr": "Cuissardes à bout ouvert d'éclaireur en cuir de gazelle",
@@ -16349,7 +16861,7 @@
     "level": 285,
     "maxQuality": 12500,
     "name": {
-      "cn": "Gazelleskin Open-toed Boots of Striking",
+      "cn": "瞪羚革强袭露趾长靴",
       "de": "Gazellenleder-Stiefel des Schlagens",
       "en": "Gazelleskin Open-toed Boots of Striking",
       "fr": "Cuissardes à bout ouvert d'agresseur en cuir de gazelle",
@@ -16573,12 +17085,28 @@
     "level": 290,
     "maxQuality": 7252,
     "name": {
-      "cn": "Canvas Repair Materials",
+      "cn": "油画布的修复素材",
       "de": "Leinwand-Restaurierungsmaterial",
       "en": "Canvas Repair Materials",
       "fr": "Matériau de restauration de toile",
       "ja": "キャンバス修復材",
       "ko": "Canvas Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 60,
+    "id": "2b877015466",
+    "level": 290,
+    "maxQuality": 10549,
+    "name": {
+      "cn": "Flyer Printing Set (patch 5.1)",
+      "de": "Flugblattdruck-Utensil",
+      "en": "Flyer Printing Set",
+      "fr": "Kit pour dépliants",
+      "ja": "チラシ製作必需品",
+      "ko": "Flyer Printing Set"
     }
   },
   {
@@ -16775,6 +17303,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 60,
+    "id": "28d3d0e3bf8",
+    "level": 290,
+    "maxQuality": 36923,
+    "name": {
+      "cn": "Skybuilders' Longboots (patch 5.11)",
+      "de": "Himmelsstadt-Stiefel",
+      "en": "Skybuilders' Longboots",
+      "fr": "Bottes de restauration",
+      "ja": "復興用の長靴",
+      "ko": "Skybuilders' Longboots"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 5313,
     "durability": 80,
     "id": "bf723ace25f",
@@ -16803,6 +17347,23 @@
       "fr": "Guôc",
       "ja": "グオック",
       "ko": "구옥"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "29d700d0e53",
+    "level": 300,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Kholusian Cuisine Set (patch 5.1)",
+      "de": "Menü-Komponenten",
+      "en": "Kholusian Cuisine Set",
+      "fr": "Composant pour nouveau menu",
+      "ja": "新メニュー必需品",
+      "ko": "Kholusian Cuisine Set"
     },
     "stars": 1
   },
@@ -17998,6 +18559,22 @@
   },
   {
     "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "2dec3af2da1",
+    "level": 390,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Honeybee Trappings (patch 5.1)",
+      "de": "Bühnenkostümteil",
+      "en": "Honeybee Trappings",
+      "fr": "Composant pour costume de scène",
+      "ja": "舞台衣装必需品",
+      "ko": "Honeybee Trappings"
+    }
+  },
+  {
+    "baseLevel": 71,
     "difficulty": 1574,
     "durability": 40,
     "id": "7d0f3504c23",
@@ -18367,6 +18944,22 @@
   {
     "baseLevel": 72,
     "difficulty": 3248,
+    "durability": 60,
+    "id": "76f907ec56b",
+    "level": 395,
+    "maxQuality": 11878,
+    "name": {
+      "cn": "Airship Fittings (patch 5.1)",
+      "de": "Luftschiff-Komponente",
+      "en": "Airship Fittings",
+      "fr": "Élément pour rénovation d'aéronef",
+      "ja": "飛空艇改装必需品",
+      "ko": "Airship Fittings"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
     "durability": 80,
     "id": "709c7d2e003",
     "level": 395,
@@ -18474,6 +19067,22 @@
       "fr": "Cuir de planeur vert",
       "ja": "グリーングライダーレザー",
       "ko": "Green Glider Leather"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "48ea905ee46",
+    "level": 400,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Beehive Souvenir (patch 5.1)",
+      "de": "Lustspielhaus-Souvenir",
+      "en": "Beehive Souvenir",
+      "fr": "Souvenir du cabaret",
+      "ja": "キャバレー土産品",
+      "ko": "Beehive Souvenir"
     }
   },
   {
@@ -19518,6 +20127,22 @@
   },
   {
     "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "670c6e1677a",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Leather Sofa (patch 5.1)",
+      "de": "Ledersofa",
+      "en": "Leather Sofa",
+      "fr": "Canapé en cuir",
+      "ja": "レザーソファ",
+      "ko": "Leather Sofa"
+    }
+  },
+  {
+    "baseLevel": 78,
     "difficulty": 2551,
     "durability": 80,
     "id": "7667aef99fb",
@@ -19823,6 +20448,22 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "e576a643307",
+    "level": 430,
+    "maxQuality": 40574,
+    "name": {
+      "cn": "Skybuilders' Overalls (patch 5.11)",
+      "de": "Himmelsstadt-Arbeitsmontur",
+      "en": "Skybuilders' Overalls",
+      "fr": "Habit de travail de restauration",
+      "ja": "復興用の作業着",
+      "ko": "Skybuilders' Overalls"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "a3d78f2aeb2",
     "level": 430,
@@ -19908,7 +20549,7 @@
     "level": 440,
     "maxQuality": 21841,
     "name": {
-      "cn": "Adventurer's Hooded Vest",
+      "cn": "Adventurer's Hooded Vest (patch 5.05)",
       "de": "Abenteurer-Kapuzenweste",
       "en": "Adventurer's Hooded Vest",
       "fr": "Veste à capuche d'aventurier",
@@ -19925,7 +20566,7 @@
     "level": 440,
     "maxQuality": 21841,
     "name": {
-      "cn": "Cropped Fireglass Leather Slops",
+      "cn": "Cropped Fireglass Leather Slops (patch 5.05)",
       "de": "Gekürzte Feuerglas-Leder-Beinlinge",
       "en": "Cropped Fireglass Leather Slops",
       "fr": "Pantalon court en cuir verni",
@@ -19942,7 +20583,7 @@
     "level": 440,
     "maxQuality": 21841,
     "name": {
-      "cn": "Hooded Fireglass Leather Vest",
+      "cn": "Hooded Fireglass Leather Vest (patch 5.05)",
       "de": "Feuerglas-Kapuzenweste",
       "en": "Hooded Fireglass Leather Vest",
       "fr": "Veste à capuche en cuir verni",
@@ -19959,7 +20600,7 @@
     "level": 440,
     "maxQuality": 21841,
     "name": {
-      "cn": "Steerhide Shoes",
+      "cn": "牛皮鞋",
       "de": "Ochsenhaut-Schuhe",
       "en": "Steerhide Shoes",
       "fr": "Chaussures en cuir de bœuf",
@@ -19976,7 +20617,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Chalicotherium Leather",
+      "cn": "Chalicotherium Leather (patch 5.05)",
       "de": "Krallentierleder",
       "en": "Chalicotherium Leather",
       "fr": "Cuir de chalicotherium",
@@ -19993,7 +20634,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Boots of Aiming",
+      "cn": "Facet Boots of Aiming (patch 5.05)",
       "de": "Manufaktur-Stiefel des Zielens",
       "en": "Facet Boots of Aiming",
       "fr": "Bottes de pisteur de la halle",
@@ -20010,12 +20651,46 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Boots of Casting",
+      "cn": "Facet Boots of Casting (patch 5.05)",
       "de": "Manufaktur-Stiefel der Magie",
       "en": "Facet Boots of Casting",
       "fr": "Bottes d'incantateur de la halle",
       "ja": "ミーン・キャスターブーツ",
       "ko": "Facet Boots of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "f07d785853a",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Boots of Crafting (patch 5.1)",
+      "de": "Manufaktur-Schuhe des Handwerks",
+      "en": "Facet Boots of Crafting",
+      "fr": "Chaussures des créations de la halle",
+      "ja": "ミーン・クラフターシューズ",
+      "ko": "Facet Boots of Crafting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "1cf1e5b7088",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Boots of Gathering (patch 5.1)",
+      "de": "Manufaktur-Stiefel des Eifers",
+      "en": "Facet Boots of Gathering",
+      "fr": "Bottes des ressources de la halle",
+      "ja": "ミーン・ギャザラーブーツ",
+      "ko": "Facet Boots of Gathering"
     },
     "stars": 2
   },
@@ -20027,7 +20702,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Boots of Healing",
+      "cn": "Facet Boots of Healing (patch 5.05)",
       "de": "Manufaktur-Stiefel der Heilung",
       "en": "Facet Boots of Healing",
       "fr": "Bottes de soigneur de la halle",
@@ -20044,7 +20719,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bottoms of Maiming",
+      "cn": "Facet Bottoms of Maiming (patch 5.05)",
       "de": "Manufaktur-Hose des Verstümmelns",
       "en": "Facet Bottoms of Maiming",
       "fr": "Bas-de-corps d'abatteur de la halle",
@@ -20061,12 +20736,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bottoms of Scouting",
+      "cn": "Facet Bottoms of Scouting (patch 5.05)",
       "de": "Manufaktur-Hose des Spähens",
       "en": "Facet Bottoms of Scouting",
       "fr": "Bas-de-corps d'éclaireur de la halle",
       "ja": "ミーン・スカウトボトム",
       "ko": "Facet Bottoms of Scouting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "45ba6c22cf6",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Cap of Gathering (patch 5.1)",
+      "de": "Manufaktur-Kappe des Eifers",
+      "en": "Facet Cap of Gathering",
+      "fr": "Casquette des ressources de la halle",
+      "ja": "ミーン・ギャザラーキャップ",
+      "ko": "Facet Cap of Gathering"
     },
     "stars": 2
   },
@@ -20078,7 +20770,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Chain Hose of Fending",
+      "cn": "Facet Chain Hose of Fending (patch 5.05)",
       "de": "Manufaktur-Hose der Verteidigung",
       "en": "Facet Chain Hose of Fending",
       "fr": "Fuseau de mailles de protecteur de la halle",
@@ -20095,12 +20787,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Cyclas of Striking",
+      "cn": "Facet Cyclas of Striking (patch 5.05)",
       "de": "Manufaktur-Cyclas des Schlagens",
       "en": "Facet Cyclas of Striking",
       "fr": "Cyclas d'agresseur de la halle",
       "ja": "ミーン・ストライカーシクラス",
       "ko": "Facet Cyclas of Striking"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "548d8957c5d",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Gloves of Crafting (patch 5.1)",
+      "de": "Manufaktur-Handschuhe des Handwerks",
+      "en": "Facet Gloves of Crafting",
+      "fr": "Gants des créations de la halle",
+      "ja": "ミーン・クラフターグローブ",
+      "ko": "Facet Gloves of Crafting"
     },
     "stars": 2
   },
@@ -20112,7 +20821,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Gloves of Scouting",
+      "cn": "Facet Gloves of Scouting (patch 5.05)",
       "de": "Manufaktur-Handschuhe des Spähens",
       "en": "Facet Gloves of Scouting",
       "fr": "Gants d'éclaireur de la halle",
@@ -20129,7 +20838,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Gloves of Striking",
+      "cn": "Facet Gloves of Striking (patch 5.05)",
       "de": "Manufaktur-Handschuhe des Schlagens",
       "en": "Facet Gloves of Striking",
       "fr": "Gants d'agresseur de la halle",
@@ -20146,7 +20855,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Halfgloves of Casting",
+      "cn": "Facet Halfgloves of Casting (patch 5.05)",
       "de": "Manufaktur-Kurzfingerhandschuhe der Magie",
       "en": "Facet Halfgloves of Casting",
       "fr": "Mitaines d'incantateur de la halle",
@@ -20163,7 +20872,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Sandals of Striking",
+      "cn": "Facet Sandals of Striking (patch 5.05)",
       "de": "Manufaktur-Sandalen des Schlagens",
       "en": "Facet Sandals of Striking",
       "fr": "Sandales d'agresseur de la halle",
@@ -20180,12 +20889,46 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Thighboots of Scouting",
+      "cn": "Facet Thighboots of Scouting (patch 5.05)",
       "de": "Manufaktur-Kniestiefel des Spähens",
       "en": "Facet Thighboots of Scouting",
       "fr": "Cuissardes d'éclaireur de la halle",
       "ja": "ミーン・スカウトサイブーツ",
       "ko": "Facet Thighboots of Scouting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "59d223a6e25",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Rebel Boots (patch 5.1)",
+      "de": "Stiefel des Rebellen",
+      "en": "Rebel Boots",
+      "fr": "Bottes de rebelle",
+      "ja": "レベルブーツ",
+      "ko": "Rebel Boots"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "3329fc61900",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Urban Boots (patch 5.1)",
+      "de": "Stiefel des Städters",
+      "en": "Urban Boots",
+      "fr": "Bottes urbaines",
+      "ja": "アーバンブーツ",
+      "ko": "Urban Boots"
     },
     "stars": 2
   }
