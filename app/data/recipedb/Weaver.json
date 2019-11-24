@@ -1127,7 +1127,7 @@
     "level": 13,
     "maxQuality": 726,
     "name": {
-      "cn": "Altered Cotton Bandana",
+      "cn": "改良型棉头带",
       "de": "Bearbeitetes Baumwollbandana",
       "en": "Altered Cotton Bandana",
       "fr": "Bandana en coton réinventé",
@@ -1687,7 +1687,7 @@
     "level": 17,
     "maxQuality": 898,
     "name": {
-      "cn": "Altered Cotton Dalmatica",
+      "cn": "改良型棉布厚袍",
       "de": "Bearbeitete Baumwoll-Dalmatika",
       "en": "Altered Cotton Dalmatica",
       "fr": "Dalmatique en coton réinventée",
@@ -1965,6 +1965,22 @@
       "fr": "Pantalon en coton renforcé",
       "ja": "コットントラウザーDX",
       "ko": "강화 무명 긴바지"
+    }
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "36f56ae66b3",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Skybuilders' Rope (patch 5.11)",
+      "de": "Himmelsstadt-Strohseil",
+      "en": "Skybuilders' Rope",
+      "fr": "Corde de restauration",
+      "ja": "復興用の荒縄",
+      "ko": "Skybuilders' Rope"
     }
   },
   {
@@ -2327,7 +2343,7 @@
     "level": 26,
     "maxQuality": 1332,
     "name": {
-      "cn": "Altered Velveteen Bandana",
+      "cn": "改良型棉绒头巾",
       "de": "Bearbeitetes Samtbandana",
       "en": "Altered Velveteen Bandana",
       "fr": "Bandana en veloutine réinventé",
@@ -3079,7 +3095,7 @@
     "level": 31,
     "maxQuality": 1670,
     "name": {
-      "cn": "Altered Velveteen Hose",
+      "cn": "改良型棉绒马裤",
       "de": "Bearbeitete Samtreiterhose",
       "en": "Altered Velveteen Hose",
       "fr": "Braies en veloutine réinventées",
@@ -3095,7 +3111,7 @@
     "level": 31,
     "maxQuality": 1670,
     "name": {
-      "cn": "Velveteen Bliaud",
+      "cn": "棉绒外袍",
       "de": "Samt-Bliaud",
       "en": "Velveteen Bliaud",
       "fr": "Bliaud en veloutine",
@@ -3143,7 +3159,7 @@
     "level": 31,
     "maxQuality": 1670,
     "name": {
-      "cn": "Velveteen Gloves",
+      "cn": "棉绒手套",
       "de": "Samthandschuhe",
       "en": "Velveteen Gloves",
       "fr": "Gants en veloutine",
@@ -3303,7 +3319,7 @@
     "level": 33,
     "maxQuality": 878,
     "name": {
-      "cn": "Simple Curtain",
+      "cn": "简易式窗帘",
       "de": "Schlichter Vorhang",
       "en": "Simple Curtain",
       "fr": "Rideau simple",
@@ -3367,7 +3383,7 @@
     "level": 34,
     "maxQuality": 1811,
     "name": {
-      "cn": "Linen Bandana",
+      "cn": "亚麻头巾",
       "de": "Leinen-Bandana",
       "en": "Linen Bandana",
       "fr": "Bandana en lin",
@@ -3463,7 +3479,7 @@
     "level": 35,
     "maxQuality": 1853,
     "name": {
-      "cn": "Altered Linen Chausses",
+      "cn": "改良型亚麻裤袜",
       "de": "Bearbeitete Leinen-Chausses",
       "en": "Altered Linen Chausses",
       "fr": "Chausses en lin réinventées",
@@ -3639,7 +3655,7 @@
     "level": 36,
     "maxQuality": 1882,
     "name": {
-      "cn": "Altered Linen Cowl",
+      "cn": "改良型亚麻僧袍",
       "de": "Bearbeitete Leinenkukulle",
       "en": "Altered Linen Cowl",
       "fr": "Coule en lin réinventée",
@@ -3991,7 +4007,7 @@
     "level": 39,
     "maxQuality": 2026,
     "name": {
-      "cn": "Altered Woolen Shirt",
+      "cn": "改良型呢绒衬衫",
       "de": "Bearbeitetes Wollhemd",
       "en": "Altered Woolen Shirt",
       "fr": "Chemise en laine réinventée",
@@ -4241,6 +4257,22 @@
   },
   {
     "baseLevel": 40,
+    "difficulty": 207,
+    "durability": 60,
+    "id": "499d584266b",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Skybuilders' Cloth (patch 5.11)",
+      "de": "Himmelsstadt-Stoffballen",
+      "en": "Skybuilders' Cloth",
+      "fr": "Étoffe de restauration",
+      "ja": "復興用の生地",
+      "ko": "Skybuilders' Cloth"
+    }
+  },
+  {
+    "baseLevel": 40,
     "difficulty": 441,
     "durability": 80,
     "id": "cf638ae2682",
@@ -4343,7 +4375,7 @@
     "level": 41,
     "maxQuality": 2109,
     "name": {
-      "cn": "Altered Woolen Chausses",
+      "cn": "改良型呢绒裤袜",
       "de": "Bearbeitete Woll-Chausses",
       "en": "Altered Woolen Chausses",
       "fr": "Chausses en laine réinventées",
@@ -4359,7 +4391,7 @@
     "level": 41,
     "maxQuality": 2109,
     "name": {
-      "cn": "Altered Woolen Gown",
+      "cn": "改良型呢绒长外衣",
       "de": "Bearbeiteter Wolltalar",
       "en": "Altered Woolen Gown",
       "fr": "Peignoir en laine réinventé",
@@ -4519,7 +4551,7 @@
     "level": 42,
     "maxQuality": 2147,
     "name": {
-      "cn": "Altered Woolen Bracers",
+      "cn": "改良型呢绒弓术手套",
       "de": "Bearbeitete Wollarmschienen",
       "en": "Altered Woolen Bracers",
       "fr": "Brassières réinventées",
@@ -4535,7 +4567,7 @@
     "level": 42,
     "maxQuality": 2147,
     "name": {
-      "cn": "Altered Woolen Hat",
+      "cn": "改良型呢绒宽边帽",
       "de": "Bearbeiteter Wollhut",
       "en": "Altered Woolen Hat",
       "fr": "Chapeau en laine réinventé",
@@ -4823,7 +4855,7 @@
     "level": 42,
     "maxQuality": 2147,
     "name": {
-      "cn": "Woolen Tunic",
+      "cn": "呢绒束腰衣",
       "de": "Wolltunika",
       "en": "Woolen Tunic",
       "fr": "Tunique en laine",
@@ -4839,7 +4871,7 @@
     "level": 43,
     "maxQuality": 2251,
     "name": {
-      "cn": "Altered Woolen Trousers",
+      "cn": "改良型内衬呢绒软甲裤",
       "de": "Bearbeitete Wollhose",
       "en": "Altered Woolen Trousers",
       "fr": "Pantalon en laine réinventé",
@@ -5143,7 +5175,7 @@
     "level": 45,
     "maxQuality": 2309,
     "name": {
-      "cn": "Altered Woolen Cowl",
+      "cn": "改良型呢绒僧袍",
       "de": "Bearbeitete Wollkukulle",
       "en": "Altered Woolen Cowl",
       "fr": "Coule en laine réinventée",
@@ -5559,7 +5591,7 @@
     "level": 47,
     "maxQuality": 2421,
     "name": {
-      "cn": "Altered Felt Hat",
+      "cn": "改良型纤维宽边帽",
       "de": "Bearbeiteter Filzhut",
       "en": "Altered Felt Hat",
       "fr": "Chapeau en feutre réinventé",
@@ -5575,7 +5607,7 @@
     "level": 47,
     "maxQuality": 2421,
     "name": {
-      "cn": "Felt Breeches",
+      "cn": "纤维马裤",
       "de": "Filzreiterhose",
       "en": "Felt Breeches",
       "fr": "Braies en feutre",
@@ -5671,12 +5703,12 @@
     "level": 47,
     "maxQuality": 2421,
     "name": {
-      "cn": "Woolen Trousers Of Fending",
+      "cn": "呢绒御敌软甲裤",
       "de": "Wollhose der Verteidigung",
-      "en": "Woolen Trousers Of Fending",
+      "en": "Woolen Trousers of Fending",
       "fr": "Pantalon de protecteur en laine",
       "ja": "ウールディフェンダートラウザー",
-      "ko": "Woolen Trousers Of Fending"
+      "ko": "Woolen Trousers of Fending"
     }
   },
   {
@@ -5687,7 +5719,7 @@
     "level": 48,
     "maxQuality": 2524,
     "name": {
-      "cn": "Altered Felt Robe",
+      "cn": "改良型纤维长袍",
       "de": "Bearbeitete Filzrobe",
       "en": "Altered Felt Robe",
       "fr": "Robe en feutre réinventée",
@@ -5767,7 +5799,7 @@
     "level": 48,
     "maxQuality": 2524,
     "name": {
-      "cn": "Felt Gloves",
+      "cn": "纤维手套",
       "de": "Filzhandschuhe",
       "en": "Felt Gloves",
       "fr": "Gants en feutre",
@@ -5815,7 +5847,7 @@
     "level": 49,
     "maxQuality": 2551,
     "name": {
-      "cn": "Woolen Bandana",
+      "cn": "呢绒头巾",
       "de": "Wollbandana",
       "en": "Woolen Bandana",
       "fr": "Bandana en laine",
@@ -10532,7 +10564,7 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品",
+      "ja": "近東風の収集品",
       "ko": "근동풍 소장품"
     }
   },
@@ -10548,7 +10580,7 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材",
+      "ja": "近東風の収集品部材",
       "ko": "근동풍 소장품 부재"
     }
   },
@@ -11659,6 +11691,22 @@
   {
     "baseLevel": 60,
     "difficulty": 956,
+    "durability": 60,
+    "id": "391a5c91a49",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Skybuilders' Broom (patch 5.11)",
+      "de": "Himmelsstadt-Besen",
+      "en": "Skybuilders' Broom",
+      "fr": "Balai de restauration",
+      "ja": "復興用のホウキ",
+      "ko": "Skybuilders' Broom"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
     "durability": 70,
     "id": "2874716d7f2",
     "level": 150,
@@ -11882,10 +11930,10 @@
     "maxQuality": 6701,
     "name": {
       "cn": "东方风格的收藏品",
-      "de": "Fernöstliche Kuriosität",
+      "de": "Fernöstliche Antiquität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品",
+      "ja": "東方風の収集品",
       "ko": "동방풍 소장품"
     },
     "stars": 1
@@ -11902,7 +11950,7 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材",
+      "ja": "東方風の収集品部材",
       "ko": "동방풍 소장품 부재"
     },
     "stars": 1
@@ -12157,7 +12205,7 @@
       "de": "Windseiden-Spenzer",
       "en": "Wind Silk Coatee",
       "fr": "Boléro en soie des vents",
-      "ja": "ウィンドシルクコーティ",
+      "ja": "ウィンドシルクコーティー",
       "ko": "바람비단 정장웃옷"
     },
     "stars": 1
@@ -14695,6 +14743,278 @@
     }
   },
   {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "f915c151175",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Bottoms of Casting (patch 5.11)",
+      "de": "Luftpiraten-Hose der Magie (Replik)",
+      "en": "Replica Sky Pirate's Bottoms of Casting",
+      "fr": "Réplique de bas-de-corps d'incantateur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・キャスターボトム",
+      "ko": "Replica Sky Pirate's Bottoms of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "4eec9edbcdc",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Bottoms of Healing (patch 5.11)",
+      "de": "Luftpiraten-Hose der Heilung (Replik)",
+      "en": "Replica Sky Pirate's Bottoms of Healing",
+      "fr": "Réplique de bas-de-corps de soigneur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ヒーラーボトム",
+      "ko": "Replica Sky Pirate's Bottoms of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "9a89f8cf3f8",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Coat of Casting (patch 5.11)",
+      "de": "Luftpiraten-Mantel der Magie (Replik)",
+      "en": "Replica Sky Pirate's Coat of Casting",
+      "fr": "Réplique de manteau d'incantateur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・キャスターコート",
+      "ko": "Replica Sky Pirate's Coat of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "b7913b6cb73",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Coat of Healing (patch 5.11)",
+      "de": "Luftpiraten-Mantel der Heilung (Replik)",
+      "en": "Replica Sky Pirate's Coat of Healing",
+      "fr": "Réplique de manteau de soigneur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ヒーラーコート",
+      "ko": "Replica Sky Pirate's Coat of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "2c0afdafe65",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Gaskins of Fending (patch 5.11)",
+      "de": "Luftpiraten-Gaskin der Verteidigung (Replik)",
+      "en": "Replica Sky Pirate's Gaskins of Fending",
+      "fr": "Répliques de grègues de protecteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ディフェンダーガスキン",
+      "ko": "Replica Sky Pirate's Gaskins of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "6bef35c9111",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Gaskins of Maiming (patch 5.11)",
+      "de": "Luftpiraten-Gaskin des Verstümmelns (Replik)",
+      "en": "Replica Sky Pirate's Gaskins of Maiming",
+      "fr": "Répliques de grègues d'abatteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スレイヤーガスキン",
+      "ko": "Replica Sky Pirate's Gaskins of Maiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "1ca26fbcd5c",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Halfslops of Aiming (patch 5.11)",
+      "de": "Luftpiraten-Beinlinge des Zielens (Replik)",
+      "en": "Replica Sky Pirate's Halfslops of Aiming",
+      "fr": "Répliques de demi-trousses de pisteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・レンジャーハーフパンツ",
+      "ko": "Replica Sky Pirate's Halfslops of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "01e6b776210",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Trousers of Scouting (patch 5.11)",
+      "de": "Luftpiraten-Hose des Spähens (Replik)",
+      "en": "Replica Sky Pirate's Trousers of Scouting",
+      "fr": "Réplique de pantalon d'éclaireur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スカウトトラウザー",
+      "ko": "Replica Sky Pirate's Trousers of Scouting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "e068891ed69",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Trousers of Striking (patch 5.11)",
+      "de": "Luftpiraten-Hose des Schlagens (Replik)",
+      "en": "Replica Sky Pirate's Trousers of Striking",
+      "fr": "Réplique de pantalon d'agresseur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ストライカートラウザー",
+      "ko": "Replica Sky Pirate's Trousers of Striking"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "3f96788d679",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Vest of Aiming (patch 5.11)",
+      "de": "Luftpiraten-Weste des Zielens (Replik)",
+      "en": "Replica Sky Pirate's Vest of Aiming",
+      "fr": "Réplique de gilet de pisteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・レンジャーベスト",
+      "ko": "Replica Sky Pirate's Vest of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "aceb1f18983",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Breeches of Aiming (patch 5.11)",
+      "de": "Himmelsratten-Reiterhose des Zielens (Replik)",
+      "en": "Replica Sky Rat Breeches of Aiming",
+      "fr": "Répliques de braies de pisteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・レンジャーブリーチ",
+      "ko": "Replica Sky Rat Breeches of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "262a003c2c5",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Breeches of Casting (patch 5.11)",
+      "de": "Himmelsratten-Reiterhose der Magie (Replik)",
+      "en": "Replica Sky Rat Breeches of Casting",
+      "fr": "Répliques de braies d'incantateur de rat des cieux",
+      "ja": "レプリカ・スカイラット・キャスターブリーチ",
+      "ko": "Replica Sky Rat Breeches of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "cf219376111",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Breeches of Fending (patch 5.11)",
+      "de": "Himmelsratten-Reiterhose der Verteidigung (Replik)",
+      "en": "Replica Sky Rat Breeches of Fending",
+      "fr": "Répliques de braies de protecteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ディフェンダーブリーチ",
+      "ko": "Replica Sky Rat Breeches of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "e2110f76a5b",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Breeches of Healing (patch 5.11)",
+      "de": "Himmelsratten-Reiterhose der Heilung (Replik)",
+      "en": "Replica Sky Rat Breeches of Healing",
+      "fr": "Répliques de braies de soigneur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ヒーラーブリーチ",
+      "ko": "Replica Sky Rat Breeches of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "bfa76d5b566",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Breeches of Maiming (patch 5.11)",
+      "de": "Himmelsratten-Reiterhose des Verstümmelns (Replik)",
+      "en": "Replica Sky Rat Breeches of Maiming",
+      "fr": "Répliques de braies d'abatteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スレイヤーブリーチ",
+      "ko": "Replica Sky Rat Breeches of Maiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "70380e2bc35",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Breeches of Scouting (patch 5.11)",
+      "de": "Himmelsratten-Reiterhose des Spähens (Replik)",
+      "en": "Replica Sky Rat Breeches of Scouting",
+      "fr": "Répliques de braies d'éclaireur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スカウトブリーチ",
+      "ko": "Replica Sky Rat Breeches of Scouting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "c7258b49b6d",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Breeches of Striking (patch 5.11)",
+      "de": "Himmelsratten-Reiterhose des Schlagens (Replik)",
+      "en": "Replica Sky Rat Breeches of Striking",
+      "fr": "Répliques de braies d'agresseur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ストライカーブリーチ",
+      "ko": "Replica Sky Rat Breeches of Striking"
+    }
+  },
+  {
     "baseLevel": 62,
     "difficulty": 1684,
     "durability": 60,
@@ -16542,7 +16862,7 @@
     "level": 290,
     "maxQuality": 7252,
     "name": {
-      "cn": "Canvas Repair Materials",
+      "cn": "油画布的修复素材",
       "de": "Leinwand-Restaurierungsmaterial",
       "en": "Canvas Repair Materials",
       "fr": "Matériau de restauration de toile",
@@ -16564,6 +16884,22 @@
       "fr": "Pantalon court en doublesoie",
       "ja": "ツインシルク・クロップドパンツ",
       "ko": "쌍고치 칠부바지"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 60,
+    "id": "1affdfb65be",
+    "level": 290,
+    "maxQuality": 10549,
+    "name": {
+      "cn": "Flyer Printing Set (patch 5.1)",
+      "de": "Flugblattdruck-Utensil",
+      "en": "Flyer Printing Set",
+      "fr": "Kit pour dépliants",
+      "ja": "チラシ製作必需品",
+      "ko": "Flyer Printing Set"
     }
   },
   {
@@ -16632,6 +16968,22 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 60,
+    "id": "822bc361deb",
+    "level": 290,
+    "maxQuality": 36923,
+    "name": {
+      "cn": "Skybuilders' Gloves (patch 5.11)",
+      "de": "Himmelsstadt-Handschuhe",
+      "en": "Skybuilders' Gloves",
+      "fr": "Gants de restauration",
+      "ja": "復興用の手袋",
+      "ko": "Skybuilders' Gloves"
+    }
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2066,
     "durability": 80,
     "id": "993d5611566",
@@ -16692,6 +17044,23 @@
       "fr": "Áo dài",
       "ja": "アオザイ",
       "ko": "아오자이"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "48e75a4b859",
+    "level": 300,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Kholusian Cuisine Set (patch 5.1)",
+      "de": "Menü-Komponenten",
+      "en": "Kholusian Cuisine Set",
+      "fr": "Composant pour nouveau menu",
+      "ja": "新メニュー必需品",
+      "ko": "Kholusian Cuisine Set"
     },
     "stars": 1
   },
@@ -17009,7 +17378,7 @@
     "level": 320,
     "maxQuality": 15837,
     "name": {
-      "cn": "Boulevardier's Ruffled Pantaloons",
+      "cn": "花花公子皱边裤",
       "de": "Boulevardier-Hose",
       "en": "Boulevardier's Ruffled Pantaloons",
       "fr": "Pantalon à froufrous de mondain",
@@ -18796,6 +19165,38 @@
     }
   },
   {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "b0c3fd94f71",
+    "level": 390,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Honeybee Trappings (patch 5.1)",
+      "de": "Bühnenkostümteil",
+      "en": "Honeybee Trappings",
+      "fr": "Composant pour costume de scène",
+      "ja": "舞台衣装必需品",
+      "ko": "Honeybee Trappings"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 60,
+    "id": "ac831f0283c",
+    "level": 395,
+    "maxQuality": 11878,
+    "name": {
+      "cn": "Airship Fittings (patch 5.1)",
+      "de": "Luftschiff-Komponente",
+      "en": "Airship Fittings",
+      "fr": "Élément pour rénovation d'aéronef",
+      "ja": "飛空艇改装必需品",
+      "ko": "Airship Fittings"
+    }
+  },
+  {
     "baseLevel": 72,
     "difficulty": 3248,
     "durability": 80,
@@ -18921,6 +19322,22 @@
       "fr": "Fil de soie iridescente",
       "ja": "虹繭糸",
       "ko": "Iridescent Silk Thread"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "8f744fbde0a",
+    "level": 400,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Beehive Souvenir (patch 5.1)",
+      "de": "Lustspielhaus-Souvenir",
+      "en": "Beehive Souvenir",
+      "fr": "Souvenir du cabaret",
+      "ja": "キャバレー土産品",
+      "ko": "Beehive Souvenir"
     }
   },
   {
@@ -19108,7 +19525,7 @@
     "maxQuality": 16091,
     "name": {
       "cn": "仙子棉布",
-      "de": "Pixie-Baumwollstoff",
+      "de": "Pixiebaumwollstoff",
       "en": "Pixie Cotton",
       "fr": "Étoffe de coton pixie",
       "ja": "妖綿布",
@@ -19252,7 +19669,7 @@
     "maxQuality": 16091,
     "name": {
       "cn": "仙子棉线",
-      "de": "Pixie-Baumwollgarn",
+      "de": "Pixiebaumwollgarn",
       "en": "Pixie Floss",
       "fr": "Fil de coton pixie",
       "ja": "妖綿糸",
@@ -19364,7 +19781,7 @@
     "maxQuality": 16557,
     "name": {
       "cn": "仙子棉腰围",
-      "de": "Pixie-Baumwoll-Schärpe",
+      "de": "Pixiebaumwoll-Schärpe",
       "en": "Pixie Cotton Sash",
       "fr": "Écharpe en coton pixie",
       "ja": "ピクシーコットンサッシュ",
@@ -19732,7 +20149,7 @@
     "maxQuality": 17490,
     "name": {
       "cn": "力山羊巧匠包头巾",
-      "de": "Ovimwoll-Hut des Handwerks",
+      "de": "Ovimwoll-Turban des Handwerks",
       "en": "Ovim Wool Turban of Crafting",
       "fr": "Turban des créations en laine d'ovim",
       "ja": "オヴィムクラフターターバン",
@@ -19748,7 +20165,7 @@
     "maxQuality": 17490,
     "name": {
       "cn": "力山羊大地包头巾",
-      "de": "Ovimwoll-Kappe des Eifers",
+      "de": "Ovimwoll-Turban des Eifers",
       "en": "Ovim Wool Turban of Gathering",
       "fr": "Turban des ressources en laine d'ovim",
       "ja": "オヴィムギャザラーターバン",
@@ -19917,6 +20334,22 @@
   },
   {
     "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "e8b83eff4b9",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Eulmoran Inner Wall (patch 5.1)",
+      "de": "Eulmore-Tapete",
+      "en": "Eulmoran Inner Wall",
+      "fr": "Revêtement mural eulmorien",
+      "ja": "ユールモア・インナーウォール",
+      "ko": "Eulmoran Inner Wall"
+    }
+  },
+  {
+    "baseLevel": 78,
     "difficulty": 2551,
     "durability": 80,
     "id": "0d868f63d85",
@@ -19929,6 +20362,38 @@
       "fr": "Matériau de restauration de luth",
       "ja": "リュートの修復材",
       "ko": "Lute Repair Materials"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "18e7bfa76a5",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Misplaced Mog Slippers (patch 5.1)",
+      "de": "Mogry-Pantoffeln",
+      "en": "Misplaced Mog Slippers",
+      "fr": "Chaussons mog",
+      "ja": "モーグリルームシューズ",
+      "ko": "Misplaced Mog Slippers"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "b44a3c16365",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Tabletop Hat Stand (patch 5.1)",
+      "de": "Tisch-Hutständer",
+      "en": "Tabletop Hat Stand",
+      "fr": "Porte-chapeau de table",
+      "ja": "テーブルトップハットスタンド",
+      "ko": "Tabletop Hat Stand"
     }
   },
   {
@@ -20093,6 +20558,22 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "088e08864f9",
+    "level": 430,
+    "maxQuality": 40574,
+    "name": {
+      "cn": "Skybuilders' Waterproof Sheet (patch 5.11)",
+      "de": "wasserabweisender Himmelsstadt-Stoffballen",
+      "en": "Skybuilders' Waterproof Sheet",
+      "fr": "Étoffe imperméable de restauration",
+      "ja": "復興用の防水布",
+      "ko": "Skybuilders' Waterproof Sheet"
+    }
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4143,
     "durability": 70,
     "id": "87959d628cf",
@@ -20133,7 +20614,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Ethereal Silk",
+      "cn": "Ethereal Silk (patch 5.05)",
       "de": "Schaumseide",
       "en": "Ethereal Silk",
       "fr": "Étoffe mousseuse",
@@ -20150,12 +20631,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bottoms of Casting",
+      "cn": "Facet Bottoms of Casting (patch 5.05)",
       "de": "Manufaktur-Hose der Magie",
       "en": "Facet Bottoms of Casting",
       "fr": "Bas-de-corps d'incantateur de la halle",
       "ja": "ミーン・キャスターボトム",
       "ko": "Facet Bottoms of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "a6f00dfa88a",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Bottoms of Gathering (patch 5.1)",
+      "de": "Manufaktur-Hose des Eifers",
+      "en": "Facet Bottoms of Gathering",
+      "fr": "Bas-de-corps des ressources de la halle",
+      "ja": "ミーン・ギャザラーボトム",
+      "ko": "Facet Bottoms of Gathering"
     },
     "stars": 2
   },
@@ -20167,7 +20665,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Brais of Aiming",
+      "cn": "Facet Brais of Aiming (patch 5.05)",
       "de": "Manufaktur-Braies des Zielens",
       "en": "Facet Brais of Aiming",
       "fr": "Brailles de pisteur de la halle",
@@ -20184,12 +20682,46 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Coat of Casting",
+      "cn": "Facet Coat of Casting (patch 5.05)",
       "de": "Manufaktur-Mantel der Magie",
       "en": "Facet Coat of Casting",
       "fr": "Manteau d'incantateur de la halle",
       "ja": "ミーン・キャスターコート",
       "ko": "Facet Coat of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "88b01a5448a",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Coat of Crafting (patch 5.1)",
+      "de": "Manufaktur-Mantel des Handwerks",
+      "en": "Facet Coat of Crafting",
+      "fr": "Manteau des créations de la halle",
+      "ja": "ミーン・クラフターコート",
+      "ko": "Facet Coat of Crafting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "618c5c2d854",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Coat of Gathering (patch 5.1)",
+      "de": "Manufaktur-Mantel des Eifers",
+      "en": "Facet Coat of Gathering",
+      "fr": "Manteau des ressources de la halle",
+      "ja": "ミーン・ギャザラーコート",
+      "ko": "Facet Coat of Gathering"
     },
     "stars": 2
   },
@@ -20201,7 +20733,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Coat of Healing",
+      "cn": "Facet Coat of Healing (patch 5.05)",
       "de": "Manufaktur-Mantel der Heilung",
       "en": "Facet Coat of Healing",
       "fr": "Manteau de soigneur de la halle",
@@ -20218,7 +20750,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Dolman of Scouting",
+      "cn": "Facet Dolman of Scouting (patch 5.05)",
       "de": "Manufaktur-Dolman des Spähens",
       "en": "Facet Dolman of Scouting",
       "fr": "Dolman d'éclaireur de la halle",
@@ -20235,12 +20767,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Dress Gloves of Healing",
+      "cn": "Facet Dress Gloves of Healing (patch 5.05)",
       "de": "Manufaktur-Galahandschuhe der Heilung",
       "en": "Facet Dress Gloves of Healing",
       "fr": "Gants d'apparat de soigneur de la halle",
       "ja": "ミーン・ヒーラードレスグローブ",
       "ko": "Facet Dress Gloves of Healing"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "259072ea58f",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Fingerless Gloves of Gathering (patch 5.1)",
+      "de": "Manufaktur-Fingerlinge des Eifers",
+      "en": "Facet Fingerless Gloves of Gathering",
+      "fr": "Gants sans doigts des ressources de la halle",
+      "ja": "ミーン・ギャザラーフィンガレスグローブ",
+      "ko": "Facet Fingerless Gloves of Gathering"
     },
     "stars": 2
   },
@@ -20252,7 +20801,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Gaskins of Striking",
+      "cn": "Facet Gaskins of Striking (patch 5.05)",
       "de": "Manufaktur-Gaskin des Schlagens",
       "en": "Facet Gaskins of Striking",
       "fr": "Grègues d'agresseur de la halle",
@@ -20269,7 +20818,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Halfgloves of Aiming",
+      "cn": "Facet Halfgloves of Aiming (patch 5.05)",
       "de": "Manufaktur-Handschuhe des Zielens",
       "en": "Facet Halfgloves of Aiming",
       "fr": "Mitaines de pisteur de la halle",
@@ -20286,12 +20835,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Hat of Casting",
+      "cn": "Facet Hat of Casting (patch 5.05)",
       "de": "Manufaktur-Hut der Magie",
       "en": "Facet Hat of Casting",
       "fr": "Chapeau d'incantateur de la halle",
       "ja": "ミーン・キャスターハット",
       "ko": "Facet Hat of Casting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "16e3c8efb69",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Hat of Crafting (patch 5.1)",
+      "de": "Manufaktur-Hut des Handwerks",
+      "en": "Facet Hat of Crafting",
+      "fr": "Chapeau des créations de la halle",
+      "ja": "ミーン・クラフターハット",
+      "ko": "Facet Hat of Crafting"
     },
     "stars": 2
   },
@@ -20303,7 +20869,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Hat of Healing",
+      "cn": "Facet Hat of Healing (patch 5.05)",
       "de": "Manufaktur-Hut der Heilung",
       "en": "Facet Hat of Healing",
       "fr": "Chapeau de soigneur de la halle",
@@ -20320,12 +20886,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Tabard of Aiming",
+      "cn": "Facet Tabard of Aiming (patch 5.05)",
       "de": "Manufaktur-Waffenrock des Zielens",
       "en": "Facet Tabard of Aiming",
       "fr": "Tabard de pisteur de la halle",
       "ja": "ミーン・レンジャータバード",
       "ko": "Facet Tabard of Aiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "86d46fd6506",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Trousers of Crafting (patch 5.1)",
+      "de": "Manufaktur-Hose des Handwerks",
+      "en": "Facet Trousers of Crafting",
+      "fr": "Pantalon des créations de la halle",
+      "ja": "ミーン・クラフタートラウザー",
+      "ko": "Facet Trousers of Crafting"
     },
     "stars": 2
   },
@@ -20337,7 +20920,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Trousers of Healing",
+      "cn": "Facet Trousers of Healing (patch 5.05)",
       "de": "Manufaktur-Hose der Heilung",
       "en": "Facet Trousers of Healing",
       "fr": "Pantalon de soigneur de la halle",
@@ -20354,7 +20937,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Turban of Aiming",
+      "cn": "Facet Turban of Aiming (patch 5.05)",
       "de": "Manufaktur-Turban des Zielens",
       "en": "Facet Turban of Aiming",
       "fr": "Turban de pisteur de la halle",
@@ -20371,12 +20954,46 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Turban of Scouting",
+      "cn": "Facet Turban of Scouting (patch 5.05)",
       "de": "Manufaktur-Turban des Spähens",
       "en": "Facet Turban of Scouting",
       "fr": "Turban d'éclaireur de la halle",
       "ja": "ミーン・スカウトターバン",
       "ko": "Facet Turban of Scouting"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "644151c526e",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Rebel Coat (patch 5.1)",
+      "de": "Mantel des Rebellen",
+      "en": "Rebel Coat",
+      "fr": "Manteau de rebelle",
+      "ja": "レベルコート",
+      "ko": "Rebel Coat"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "a4929d41e40",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Urban Coat (patch 5.1)",
+      "de": "Mantel des Städters",
+      "en": "Urban Coat",
+      "fr": "Manteau urbain",
+      "ja": "アーバンコート",
+      "ko": "Urban Coat"
     },
     "stars": 2
   }

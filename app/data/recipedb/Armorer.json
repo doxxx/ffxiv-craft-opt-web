@@ -1360,6 +1360,22 @@
     }
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "e0070be8ef3",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Skybuilders' Steel Plate (patch 5.11)",
+      "de": "Himmelsstadt-Metallplatte",
+      "en": "Skybuilders' Steel Plate",
+      "fr": "Plaque de métal de restauration",
+      "ja": "復興用の金属板",
+      "ko": "Skybuilders' Steel Plate"
+    }
+  },
+  {
     "baseLevel": 21,
     "difficulty": 75,
     "durability": 70,
@@ -1415,7 +1431,7 @@
     "level": 22,
     "maxQuality": 1122,
     "name": {
-      "cn": "Iron Headgear",
+      "cn": "黑铁头甲",
       "de": "Eisen-Kopfbedeckung",
       "en": "Iron Headgear",
       "fr": "Protège-tête en fer",
@@ -2551,7 +2567,7 @@
     "level": 32,
     "maxQuality": 1697,
     "name": {
-      "cn": "Steel Headgear",
+      "cn": "白钢头甲",
       "de": "Stahl-Kopfbedeckung",
       "en": "Steel Headgear",
       "fr": "Protège-tête en acier",
@@ -2775,7 +2791,7 @@
     "level": 35,
     "maxQuality": 1853,
     "name": {
-      "cn": "Altered Heavy Steel Armor",
+      "cn": "改良型白钢重甲",
       "de": "Schwere bearbeitete Stahlrüstung",
       "en": "Altered Heavy Steel Armor",
       "fr": "Armure lourde en acier réinventée",
@@ -3159,7 +3175,7 @@
     "level": 40,
     "maxQuality": 2050,
     "name": {
-      "cn": "Altered Mythril Elmo",
+      "cn": "改良型秘银骑兵头盔",
       "de": "Bearbeiteter Elmo-Mithrilhelm",
       "en": "Altered Mythril Elmo",
       "fr": "Elmo en mithril réinventé",
@@ -3213,6 +3229,22 @@
       "fr": "Elmo en mithril",
       "ja": "ミスリルエルモ",
       "ko": "미스릴 기사투구"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 207,
+    "durability": 60,
+    "id": "62689658c80",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Skybuilders' Rivets (patch 5.11)",
+      "de": "Himmelsstadt-Nieten",
+      "en": "Skybuilders' Rivets",
+      "fr": "Rivets de restauration",
+      "ja": "復興用のリベット",
+      "ko": "Skybuilders' Rivets"
     }
   },
   {
@@ -3575,7 +3607,7 @@
     "level": 44,
     "maxQuality": 2277,
     "name": {
-      "cn": "Altered High Mythril Armor",
+      "cn": "改良型秘银重甲",
       "de": "Bearbeiteter Mithril-Körperpanzer",
       "en": "Altered High Mythril Armor",
       "fr": "Armure lourde en mithril réinventée",
@@ -3591,7 +3623,7 @@
     "level": 44,
     "maxQuality": 2277,
     "name": {
-      "cn": "Altered Mythril Chain Coif",
+      "cn": "改良型秘银锁甲头罩",
       "de": "Bearbeitete Mithrilkettenhaube",
       "en": "Altered Mythril Chain Coif",
       "fr": "Coiffe en mailles de mithril réinventée",
@@ -3703,7 +3735,7 @@
     "level": 45,
     "maxQuality": 2309,
     "name": {
-      "cn": "Altered Cobalt Elmo",
+      "cn": "改良型钴铁骑兵头盔",
       "de": "Bearbeiteter Elmo-Koboldeisenhelm",
       "en": "Altered Cobalt Elmo",
       "fr": "Elmo en cobalt réinventé",
@@ -4119,7 +4151,7 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "cn": "Altered Cobalt Cuirass",
+      "cn": "改良型钴铁胸甲",
       "de": "Bearbeiteter Koboldeisenkürass",
       "en": "Altered Cobalt Cuirass",
       "fr": "Cuirasse en cobalt réinventée",
@@ -4135,7 +4167,7 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "cn": "Altered Cobalt Gauntlets",
+      "cn": "改良型钴铁手铠",
       "de": "Bearbeitete Koboldeisen-Panzerhandschuhe",
       "en": "Altered Cobalt Gauntlets",
       "fr": "Gantelets réinventés",
@@ -4151,7 +4183,7 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "cn": "Altered Cobalt Sabatons",
+      "cn": "改良型钴铁铠靴",
       "de": "Bearbeitete Koboldeisen-Bärlatschen",
       "en": "Altered Cobalt Sabatons",
       "fr": "Sabatons réinventés",
@@ -4295,7 +4327,7 @@
     "level": 50,
     "maxQuality": 2641,
     "name": {
-      "cn": "Cobalt Mask",
+      "cn": "钴铁面罩",
       "de": "Goldmaske",
       "en": "Cobalt Mask",
       "fr": "Masque en cobalt",
@@ -6455,7 +6487,7 @@
     "level": 133,
     "maxQuality": 3021,
     "name": {
-      "cn": "Hunting Supplies",
+      "cn": "狩猎装备柜",
       "de": "Kiste eines Jägers",
       "en": "Hunting Supplies",
       "fr": "Coffre de pisteur",
@@ -6907,7 +6939,7 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品",
+      "ja": "近東風の収集品",
       "ko": "근동풍 소장품"
     }
   },
@@ -6923,7 +6955,7 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材",
+      "ja": "近東風の収集品部材",
       "ko": "근동풍 소장품 부재"
     }
   },
@@ -8034,6 +8066,22 @@
   {
     "baseLevel": 60,
     "difficulty": 956,
+    "durability": 60,
+    "id": "8b80c9da78c",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Skybuilders' Cooking Pot (patch 5.11)",
+      "de": "Himmelsstadt-Bratpfanne",
+      "en": "Skybuilders' Cooking Pot",
+      "fr": "Poêlon de restauration",
+      "ja": "復興用の浅鍋",
+      "ko": "Skybuilders' Cooking Pot"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
     "durability": 70,
     "id": "5fb53fdb3aa",
     "level": 150,
@@ -8123,10 +8171,10 @@
     "maxQuality": 6701,
     "name": {
       "cn": "东方风格的收藏品",
-      "de": "Fernöstliche Kuriosität",
+      "de": "Fernöstliche Antiquität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品",
+      "ja": "東方風の収集品",
       "ko": "동방풍 소장품"
     },
     "stars": 1
@@ -8143,7 +8191,7 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材",
+      "ja": "東方風の収集品部材",
       "ko": "동방풍 소장품 부재"
     },
     "stars": 1
@@ -10328,6 +10376,246 @@
     }
   },
   {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "28b6f66308c",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Coat of Fending (patch 5.11)",
+      "de": "Luftpiraten-Mantel der Verteidigung (Replik)",
+      "en": "Replica Sky Pirate's Coat of Fending",
+      "fr": "Réplique de manteau de protecteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ディフェンダーコート",
+      "ko": "Replica Sky Pirate's Coat of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "c5d7c1c4ab8",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Coat of Maiming (patch 5.11)",
+      "de": "Luftpiraten-Mantel des Verstümmelns (Replik)",
+      "en": "Replica Sky Pirate's Coat of Maiming",
+      "fr": "Réplique de manteau d'abatteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スレイヤーコート",
+      "ko": "Replica Sky Pirate's Coat of Maiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "7295b0a725d",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Gauntlets of Fending (patch 5.11)",
+      "de": "Luftpiraten-Panzerhandschuhe der Verteidigung (Replik)",
+      "en": "Replica Sky Pirate's Gauntlets of Fending",
+      "fr": "Répliques de gantelets de protecteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ディフェンダーガントレット",
+      "ko": "Replica Sky Pirate's Gauntlets of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "439e3649a63",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Gauntlets of Maiming (patch 5.11)",
+      "de": "Luftpiraten-Panzerhandschuhe des Verstümmelns (Replik)",
+      "en": "Replica Sky Pirate's Gauntlets of Maiming",
+      "fr": "Répliques de gantelets d'abatteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スレイヤーガントレット",
+      "ko": "Replica Sky Pirate's Gauntlets of Maiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "aa5e4c380ee",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Helm of Fending (patch 5.11)",
+      "de": "Luftpiraten-Helm der Verteidigung (Replik)",
+      "en": "Replica Sky Pirate's Helm of Fending",
+      "fr": "Réplique de casque de protecteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・ディフェンダーヘルム",
+      "ko": "Replica Sky Pirate's Helm of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "71ea0e48cb8",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Pirate's Helm of Maiming (patch 5.11)",
+      "de": "Luftpiraten-Helm des Verstümmelns (Replik)",
+      "en": "Replica Sky Pirate's Helm of Maiming",
+      "fr": "Réplique de casque d'abatteur de pirate des cieux",
+      "ja": "レプリカ・スカイパイレーツ・スレイヤーヘルム",
+      "ko": "Replica Sky Pirate's Helm of Maiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "aac56de8c43",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Hook of Fending (patch 5.11)",
+      "de": "Himmelsratten-Enterhaken der Verteidigung (Replik)",
+      "en": "Replica Sky Rat Hook of Fending",
+      "fr": "Répliques de gants à tranchant de protecteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ディフェンダーフック",
+      "ko": "Replica Sky Rat Hook of Fending"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "0a1026e2f82",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Hook of Healing (patch 5.11)",
+      "de": "Himmelsratten-Enterhaken der Heilung (Replik)",
+      "en": "Replica Sky Rat Hook of Healing",
+      "fr": "Répliques de gants à tranchant de soigneur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ヒーラーフック",
+      "ko": "Replica Sky Rat Hook of Healing"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "6c88eeb694d",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Hook of Maiming (patch 5.11)",
+      "de": "Himmelsratten-Enterhaken des Verstümmelns (Replik)",
+      "en": "Replica Sky Rat Hook of Maiming",
+      "fr": "Répliques de gants à tranchant d'abatteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スレイヤーフック",
+      "ko": "Replica Sky Rat Hook of Maiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "5b4b817bd7e",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Hook of Scouting (patch 5.11)",
+      "de": "Himmelsratten-Enterhaken des Spähens (Replik)",
+      "en": "Replica Sky Rat Hook of Scouting",
+      "fr": "Répliques de gants à tranchant d'éclaireur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スカウトフック",
+      "ko": "Replica Sky Rat Hook of Scouting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "d3826a56bf7",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Ironclad Boots of Aiming (patch 5.11)",
+      "de": "Himmelsratten-Kampfstiefel des Zielens (Replik)",
+      "en": "Replica Sky Rat Ironclad Boots of Aiming",
+      "fr": "Répliques de bottes militaires revêtues de fer de pisteur de rat des cieux",
+      "ja": "レプリカ・スカイラット・レンジャーアイアンクラッド",
+      "ko": "Replica Sky Rat Ironclad Boots of Aiming"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "46b78a531ef",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Ironclad Boots of Casting (patch 5.11)",
+      "de": "Himmelsratten-Kampfstiefel der Magie (Replik)",
+      "en": "Replica Sky Rat Ironclad Boots of Casting",
+      "fr": "Répliques de bottes militaires revêtues de fer d'incantateur de rat des cieux",
+      "ja": "レプリカ・スカイラット・キャスターアイアンクラッド",
+      "ko": "Replica Sky Rat Ironclad Boots of Casting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "3a3fc3c824a",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Ironclad Boots of Striking (patch 5.11)",
+      "de": "Himmelsratten-Kampfstiefel des Schlagens (Replik)",
+      "en": "Replica Sky Rat Ironclad Boots of Striking",
+      "fr": "Répliques de bottes militaires revêtues de fer d'agresseur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ストライカーアイアンクラッド",
+      "ko": "Replica Sky Rat Ironclad Boots of Striking"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "f975bf11f17",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Mask of Scouting (patch 5.11)",
+      "de": "Himmelsratten-Maske des Spähens (Replik)",
+      "en": "Replica Sky Rat Mask of Scouting",
+      "fr": "Réplique de masque d'éclaireur de rat des cieux",
+      "ja": "レプリカ・スカイラット・スカウトマスク",
+      "ko": "Replica Sky Rat Mask of Scouting"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1400,
+    "durability": 80,
+    "id": "3b648b88354",
+    "level": 260,
+    "maxQuality": 9065,
+    "name": {
+      "cn": "Replica Sky Rat Mask of Striking (patch 5.11)",
+      "de": "Himmelsratten-Maske des Schlagens (Replik)",
+      "en": "Replica Sky Rat Mask of Striking",
+      "fr": "Réplique de masque d'agresseur de rat des cieux",
+      "ja": "レプリカ・スカイラット・ストライカーマスク",
+      "ko": "Replica Sky Rat Mask of Striking"
+    }
+  },
+  {
     "baseLevel": 62,
     "difficulty": 1684,
     "durability": 60,
@@ -11722,6 +12010,22 @@
   {
     "baseLevel": 70,
     "difficulty": 2066,
+    "durability": 60,
+    "id": "5cf773eb1b1",
+    "level": 290,
+    "maxQuality": 10549,
+    "name": {
+      "cn": "Flyer Printing Set (patch 5.1)",
+      "de": "Flugblattdruck-Utensil",
+      "en": "Flyer Printing Set",
+      "fr": "Kit pour dépliants",
+      "ja": "チラシ製作必需品",
+      "ko": "Flyer Printing Set"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
     "durability": 80,
     "id": "2f33691d2ba",
     "level": 290,
@@ -11743,7 +12047,7 @@
     "level": 290,
     "maxQuality": 7252,
     "name": {
-      "cn": "Metal Gauntlets",
+      "cn": "金属制的手甲",
       "de": "Metallener Handschutz",
       "en": "Metal Gauntlets",
       "fr": "Gantelets en métal",
@@ -11817,13 +12121,46 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 60,
+    "id": "52a68133664",
+    "level": 290,
+    "maxQuality": 36923,
+    "name": {
+      "cn": "Skybuilders' Counter (patch 5.11)",
+      "de": "Himmelsstadt-Kochstelle",
+      "en": "Skybuilders' Counter",
+      "fr": "Cuisine de restauration",
+      "ja": "復興用の調理台",
+      "ko": "Skybuilders' Counter"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "811fda8b3ac",
+    "level": 300,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Kholusian Cuisine Set (patch 5.1)",
+      "de": "Menü-Komponenten",
+      "en": "Kholusian Cuisine Set",
+      "fr": "Composant pour nouveau menu",
+      "ja": "新メニュー必需品",
+      "ko": "Kholusian Cuisine Set"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 3149,
     "durability": 70,
     "id": "15b12f99a2b",
     "level": 300,
     "maxQuality": 14071,
     "name": {
-      "cn": "Pure Titanium Plate",
+      "cn": "Pure Titanium Plate (patch 5.05)",
       "de": "Reintitanplatte",
       "en": "Pure Titanium Plate",
       "fr": "Plaque de titane pur",
@@ -12769,6 +13106,38 @@
     }
   },
   {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "ebf939e3b44",
+    "level": 390,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Honeybee Trappings (patch 5.1)",
+      "de": "Bühnenkostümteil",
+      "en": "Honeybee Trappings",
+      "fr": "Composant pour costume de scène",
+      "ja": "舞台衣装必需品",
+      "ko": "Honeybee Trappings"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 60,
+    "id": "ae937735b48",
+    "level": 395,
+    "maxQuality": 11878,
+    "name": {
+      "cn": "Airship Fittings (patch 5.1)",
+      "de": "Luftschiff-Komponente",
+      "en": "Airship Fittings",
+      "fr": "Élément pour rénovation d'aéronef",
+      "ja": "飛空艇改装必需品",
+      "ko": "Airship Fittings"
+    }
+  },
+  {
     "baseLevel": 72,
     "difficulty": 3248,
     "durability": 80,
@@ -12856,7 +13225,7 @@
     "level": 395,
     "maxQuality": 14848,
     "name": {
-      "cn": "深金咏咒护腰甲",
+      "cn": "深金咏咒腰甲",
       "de": "Dunkelgold-Bauchreifen der Magie",
       "en": "Deepgold Tassets of Casting",
       "fr": "Tassette d'incantateur en or incarnat",
@@ -12888,7 +13257,7 @@
     "level": 395,
     "maxQuality": 14848,
     "name": {
-      "cn": "深金治愈护腰甲",
+      "cn": "深金治愈腰甲",
       "de": "Dunkelgold-Bauchreifen der Heilung",
       "en": "Deepgold Tassets of Healing",
       "fr": "Tassette de soigneur en or incarnat",
@@ -12920,7 +13289,7 @@
     "level": 395,
     "maxQuality": 14848,
     "name": {
-      "cn": "深金游击护腰甲",
+      "cn": "深金游击腰甲",
       "de": "Dunkelgold-Bauchreifen des Spähens",
       "en": "Deepgold Tassets of Scouting",
       "fr": "Tassette d'éclaireur en or incarnat",
@@ -12958,6 +13327,22 @@
       "fr": "Diadème de protecteur en or incarnat",
       "ja": "ディープゴールド・ディフェンダーウィングス",
       "ko": "Deepgold Wings of Fending"
+    }
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "177bda92a34",
+    "level": 400,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Beehive Souvenir (patch 5.1)",
+      "de": "Lustspielhaus-Souvenir",
+      "en": "Beehive Souvenir",
+      "fr": "Souvenir du cabaret",
+      "ja": "キャバレー土産品",
+      "ko": "Beehive Souvenir"
     }
   },
   {
@@ -13144,7 +13529,7 @@
     "level": 403,
     "maxQuality": 16091,
     "name": {
-      "cn": "灵青咏咒护腰带",
+      "cn": "灵青咏咒腰带",
       "de": "Seelenazurit-Plattengürtel der Magie",
       "en": "Bluespirit Plate Belt of Casting",
       "fr": "Ceinture de plaques d'incantateur en azuresprit",
@@ -13176,7 +13561,7 @@
     "level": 403,
     "maxQuality": 16091,
     "name": {
-      "cn": "灵青治愈护腰带",
+      "cn": "灵青治愈腰带",
       "de": "Seelenazurit-Plattengürtel der Heilung",
       "en": "Bluespirit Plate Belt of Healing",
       "fr": "Ceinture de plaques de soigneur en azuresprit",
@@ -13634,6 +14019,22 @@
   },
   {
     "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "c89de779f54",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Armorer's Stall (patch 5.1)",
+      "de": "Rüstungs-Marktstand",
+      "en": "Armorer's Stall",
+      "fr": "Étal de marchand d'armures",
+      "ja": "防具商の露店",
+      "ko": "Armorer's Stall"
+    }
+  },
+  {
+    "baseLevel": 78,
     "difficulty": 3645,
     "durability": 80,
     "id": "b8c9bfb0559",
@@ -14002,6 +14403,38 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 7097,
+    "durability": 80,
+    "id": "0a41d04dc79",
+    "level": 430,
+    "maxQuality": 10143,
+    "name": {
+      "cn": "Oasis Wall-Mounted Fountain (patch 5.1)",
+      "de": "Oasen-Wandbrunnen",
+      "en": "Oasis Wall-Mounted Fountain",
+      "fr": "Fontaine murale thanalanaise",
+      "ja": "オアシス・ウォールファウンテン",
+      "ko": "Oasis Wall-Mounted Fountain"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "ac1adf96644",
+    "level": 430,
+    "maxQuality": 40574,
+    "name": {
+      "cn": "Skybuilders' Lamppost (patch 5.11)",
+      "de": "Himmelsstadt-Laterne",
+      "en": "Skybuilders' Lamppost",
+      "fr": "Lampadaire de restauration",
+      "ja": "復興用の街灯",
+      "ko": "Skybuilders' Lamppost"
+    }
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 7457,
     "durability": 70,
     "id": "2214bccbda4",
@@ -14042,12 +14475,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Dominus Shield",
+      "cn": "Dominus Shield (patch 5.05)",
       "de": "Dominus-Schild",
       "en": "Dominus Shield",
       "fr": "Dominus",
       "ja": "ドミナスシールド",
       "ko": "Dominus Shield"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "c3bc8d3d163",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Alembic (patch 5.1)",
+      "de": "Manufaktur-Destillierkolben",
+      "en": "Facet Alembic",
+      "fr": "Alambic de la halle",
+      "ja": "ミーン・アレンピック",
+      "ko": "Facet Alembic"
     },
     "stars": 2
   },
@@ -14059,12 +14509,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Circlet of Maiming",
+      "cn": "Facet Circlet of Maiming (patch 5.05)",
       "de": "Manufaktur-Stirnreif des Verstümmelns",
       "en": "Facet Circlet of Maiming",
       "fr": "Diadème d'abatteur de la halle",
       "ja": "ミーン・スレイヤーサークレット",
       "ko": "Facet Circlet of Maiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "2797c539c25",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Frypan (patch 5.1)",
+      "de": "Manufaktur-Bratpfanne",
+      "en": "Facet Frypan",
+      "fr": "Poêle à frire de la halle",
+      "ja": "ミーン・フライパン",
+      "ko": "Facet Frypan"
     },
     "stars": 2
   },
@@ -14076,7 +14543,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Gauntlets of Fending",
+      "cn": "Facet Gauntlets of Fending (patch 5.05)",
       "de": "Manufaktur-Panzerhandschuhe der Verteidigung",
       "en": "Facet Gauntlets of Fending",
       "fr": "Gantelets de protecteur de la halle",
@@ -14093,7 +14560,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Gauntlets of Maiming",
+      "cn": "Facet Gauntlets of Maiming (patch 5.05)",
       "de": "Manufaktur-Panzerhandschuhe des Verstümmelns",
       "en": "Facet Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur de la halle",
@@ -14110,7 +14577,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Mail of Fending",
+      "cn": "Facet Mail of Fending (patch 5.05)",
       "de": "Manufaktur-Rüstung der Verteidigung",
       "en": "Facet Mail of Fending",
       "fr": "Cotte de mailles de protecteur de la halle",
@@ -14127,7 +14594,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Mail of Maiming",
+      "cn": "Facet Mail of Maiming (patch 5.05)",
       "de": "Manufaktur-Rüstung des Verstümmelns",
       "en": "Facet Mail of Maiming",
       "fr": "Cotte de mailles d'abatteur de la halle",
@@ -14144,7 +14611,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Plate Belt of Aiming",
+      "cn": "Facet Plate Belt of Aiming (patch 5.05)",
       "de": "Manufaktur-Plattengürtel des Zielens",
       "en": "Facet Plate Belt of Aiming",
       "fr": "Ceinture de plaques de pisteur de la halle",
@@ -14161,7 +14628,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Plate Belt of Casting",
+      "cn": "Facet Plate Belt of Casting (patch 5.05)",
       "de": "Manufaktur-Plattengürtel der Magie",
       "en": "Facet Plate Belt of Casting",
       "fr": "Ceinture de plaques d'incantateur de la halle",
@@ -14178,7 +14645,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Plate Belt of Fending",
+      "cn": "Facet Plate Belt of Fending (patch 5.05)",
       "de": "Manufaktur-Plattengürtel der Verteidigung",
       "en": "Facet Plate Belt of Fending",
       "fr": "Ceinture de plaques de protecteur de la halle",
@@ -14195,7 +14662,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Plate Belt of Healing",
+      "cn": "Facet Plate Belt of Healing (patch 5.05)",
       "de": "Manufaktur-Plattengürtel der Heilung",
       "en": "Facet Plate Belt of Healing",
       "fr": "Ceinture de plaques de soigneur de la halle",
@@ -14212,7 +14679,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Plate Belt of Maiming",
+      "cn": "Facet Plate Belt of Maiming (patch 5.05)",
       "de": "Manufaktur-Plattengürtel des Verstümmelns",
       "en": "Facet Plate Belt of Maiming",
       "fr": "Ceinture de plaques d'abatteur de la halle",
@@ -14229,7 +14696,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Plate Belt of Scouting",
+      "cn": "Facet Plate Belt of Scouting (patch 5.05)",
       "de": "Manufaktur-Plattengürtel des Spähens",
       "en": "Facet Plate Belt of Scouting",
       "fr": "Ceinture de plaques d'éclaireur de la halle",
@@ -14246,7 +14713,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Plate Belt of Striking",
+      "cn": "Facet Plate Belt of Striking (patch 5.05)",
       "de": "Manufaktur-Plattengürtel des Schlagens",
       "en": "Facet Plate Belt of Striking",
       "fr": "Ceinture de plaques d'agresseur de la halle",
@@ -14263,7 +14730,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Sabatons of Fending",
+      "cn": "Facet Sabatons of Fending (patch 5.05)",
       "de": "Manufaktur-Bärlatschen der Verteidigung",
       "en": "Facet Sabatons of Fending",
       "fr": "Sabatons de protecteur de la halle",
@@ -14280,12 +14747,29 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Sabatons of Maiming",
+      "cn": "Facet Sabatons of Maiming (patch 5.05)",
       "de": "Manufaktur-Bärlatschen des Verstümmelns",
       "en": "Facet Sabatons of Maiming",
       "fr": "Sabatons d'abatteur de la halle",
       "ja": "ミーン・スレイヤーサバトン",
       "ko": "Facet Sabatons of Maiming"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7817,
+    "durability": 70,
+    "id": "51a5cd150f4",
+    "level": 450,
+    "maxQuality": 11697,
+    "name": {
+      "cn": "Hades Barding (patch 5.1)",
+      "de": "Hades-Schreiter-Rossharnisch",
+      "en": "Hades Barding",
+      "fr": "Barde d'Hadès",
+      "ja": "ハーデス・バード",
+      "ko": "Hades Barding"
     },
     "stars": 2
   },
@@ -14297,7 +14781,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Tungsten Steel Ingot",
+      "cn": "Tungsten Steel Ingot (patch 5.05)",
       "de": "Wolframbarren",
       "en": "Tungsten Steel Ingot",
       "fr": "Lingot d'acier au tungstène",

@@ -1616,6 +1616,22 @@
     }
   },
   {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "b99cbd496c0",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Skybuilders' Plywood (patch 5.11)",
+      "de": "Himmelsstadt-Sperrholzplatte",
+      "en": "Skybuilders' Plywood",
+      "fr": "Bois contreplaqué de restauration",
+      "ja": "復興用の合板",
+      "ko": "Skybuilders' Plywood"
+    }
+  },
+  {
     "baseLevel": 21,
     "difficulty": 112,
     "durability": 70,
@@ -1959,7 +1975,7 @@
     "level": 25,
     "maxQuality": 648,
     "name": {
-      "cn": "Walnut Interior Wall",
+      "cn": "胡桃木内墙",
       "de": "Walnuss-Wandvertäfelung",
       "en": "Walnut Interior Wall",
       "fr": "Revêtement mural en noyer",
@@ -3735,7 +3751,7 @@
     "level": 39,
     "maxQuality": 1013,
     "name": {
-      "cn": "Wooden Handrail",
+      "cn": "木制扶手",
       "de": "Hölzernes Geländer",
       "en": "Wooden Handrail",
       "fr": "Rampe en bois",
@@ -3869,6 +3885,22 @@
       "fr": "Demi-cloison thanalanaise",
       "ja": "ザナラーン・ハーフパーティション",
       "ko": "다날란 반칸막이"
+    }
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 207,
+    "durability": 60,
+    "id": "d8d4342963a",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Skybuilders' Wain (patch 5.11)",
+      "de": "Himmelsstadt-Karren",
+      "en": "Skybuilders' Wain",
+      "fr": "Chariot de restauration",
+      "ja": "復興用の荷車",
+      "ko": "Skybuilders' Wain"
     }
   },
   {
@@ -7132,7 +7164,7 @@
     "level": 133,
     "maxQuality": 3021,
     "name": {
-      "cn": "War Chest",
+      "cn": "战斗精英装备柜",
       "de": "Kiste eines Kriegers",
       "en": "War Chest",
       "fr": "Coffre de combattant",
@@ -7440,7 +7472,7 @@
       "de": "Nahöstliche Antiquität",
       "en": "Near Eastern Antique",
       "fr": "Antiquité proche-orientale",
-      "ja": "近東風の蒐集品",
+      "ja": "近東風の収集品",
       "ko": "근동풍 소장품"
     }
   },
@@ -7456,7 +7488,7 @@
       "de": "Komponente einer nahöstlichen Antiquität",
       "en": "Near Eastern Antique Component",
       "fr": "Composant d'antiquité proche-orientale",
-      "ja": "近東風の蒐集品部材",
+      "ja": "近東風の収集品部材",
       "ko": "근동풍 소장품 부재"
     }
   },
@@ -8279,6 +8311,22 @@
   {
     "baseLevel": 60,
     "difficulty": 956,
+    "durability": 60,
+    "id": "08f4af9913f",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Skybuilders' Barrel (patch 5.11)",
+      "de": "Himmelsstadt-Fass",
+      "en": "Skybuilders' Barrel",
+      "fr": "Tonneau de restauration",
+      "ja": "復興用の木樽",
+      "ko": "Skybuilders' Barrel"
+    }
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
     "durability": 70,
     "id": "33ea35c96cf",
     "level": 150,
@@ -8419,10 +8467,10 @@
     "maxQuality": 6701,
     "name": {
       "cn": "东方风格的收藏品",
-      "de": "Fernöstliche Kuriosität",
+      "de": "Fernöstliche Antiquität",
       "en": "Far Eastern Antique",
       "fr": "Antiquité orientale",
-      "ja": "東方風の蒐集品",
+      "ja": "東方風の収集品",
       "ko": "동방풍 소장품"
     },
     "stars": 1
@@ -8439,7 +8487,7 @@
       "de": "Komponente einer fernöstlichen Antiquität",
       "en": "Far Eastern Antique Component",
       "fr": "Composant d'antiquité orientale",
-      "ja": "東方風の蒐集品部材",
+      "ja": "東方風の収集品部材",
       "ko": "동방풍 소장품 부재"
     },
     "stars": 1
@@ -11510,7 +11558,7 @@
     "level": 290,
     "maxQuality": 7252,
     "name": {
-      "cn": "Canvas Repair Materials",
+      "cn": "油画布的修复素材",
       "de": "Leinwand-Restaurierungsmaterial",
       "en": "Canvas Repair Materials",
       "fr": "Matériau de restauration de toile",
@@ -11532,6 +11580,38 @@
       "fr": "Meubles de salon de thé oriental",
       "ja": "東方風茶屋床机",
       "ko": "동방의 찻집 탁자"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2066,
+    "durability": 60,
+    "id": "ad050d67554",
+    "level": 290,
+    "maxQuality": 10549,
+    "name": {
+      "cn": "Flyer Printing Set (patch 5.1)",
+      "de": "Flugblattdruck-Utensil",
+      "en": "Flyer Printing Set",
+      "fr": "Kit pour dépliants",
+      "ja": "チラシ製作必需品",
+      "ko": "Flyer Printing Set"
+    }
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2952,
+    "durability": 60,
+    "id": "d655aba2330",
+    "level": 290,
+    "maxQuality": 36923,
+    "name": {
+      "cn": "Skybuilders' Pedestal (patch 5.11)",
+      "de": "Himmelsstadt-Sockel",
+      "en": "Skybuilders' Pedestal",
+      "fr": "Socle massif de restauration",
+      "ja": "復興用の台座",
+      "ko": "Skybuilders' Pedestal"
     }
   },
   {
@@ -11590,7 +11670,7 @@
     "level": 300,
     "maxQuality": 14071,
     "name": {
-      "cn": "Cryptomeria Lumber",
+      "cn": "Cryptomeria Lumber (patch 5.05)",
       "de": "Sicheltanne-Bauholz",
       "en": "Cryptomeria Lumber",
       "fr": "Madrier de cryptoméria",
@@ -11630,6 +11710,23 @@
       "fr": "Fenêtre rectangulaire en trompe-l'œil",
       "ja": "イミテーション・オブロングウィンドウ",
       "ko": "모조 직사각 창문"
+    },
+    "stars": 1
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "9094cb7380a",
+    "level": 300,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Kholusian Cuisine Set (patch 5.1)",
+      "de": "Menü-Komponenten",
+      "en": "Kholusian Cuisine Set",
+      "fr": "Composant pour nouveau menu",
+      "ja": "新メニュー必需品",
+      "ko": "Kholusian Cuisine Set"
     },
     "stars": 1
   },
@@ -12690,6 +12787,22 @@
   {
     "baseLevel": 71,
     "difficulty": 3149,
+    "durability": 60,
+    "id": "cbba8dc6c9a",
+    "level": 390,
+    "maxQuality": 11256,
+    "name": {
+      "cn": "Honeybee Trappings (patch 5.1)",
+      "de": "Bühnenkostümteil",
+      "en": "Honeybee Trappings",
+      "fr": "Composant pour costume de scène",
+      "ja": "舞台衣装必需品",
+      "ko": "Honeybee Trappings"
+    }
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
     "durability": 80,
     "id": "ee0f03dcc17",
     "level": 390,
@@ -12882,6 +12995,22 @@
   {
     "baseLevel": 72,
     "difficulty": 3248,
+    "durability": 60,
+    "id": "eb7e2019963",
+    "level": 395,
+    "maxQuality": 11878,
+    "name": {
+      "cn": "Airship Fittings (patch 5.1)",
+      "de": "Luftschiff-Komponente",
+      "en": "Airship Fittings",
+      "fr": "Élément pour rénovation d'aéronef",
+      "ja": "飛空艇改装必需品",
+      "ko": "Airship Fittings"
+    }
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
     "durability": 80,
     "id": "64f005bc06f",
     "level": 395,
@@ -12961,6 +13090,22 @@
   },
   {
     "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "a0ccc08cce5",
+    "level": 400,
+    "maxQuality": 12500,
+    "name": {
+      "cn": "Beehive Souvenir (patch 5.1)",
+      "de": "Lustspielhaus-Souvenir",
+      "en": "Beehive Souvenir",
+      "fr": "Souvenir du cabaret",
+      "ja": "キャバレー土産品",
+      "ko": "Beehive Souvenir"
+    }
+  },
+  {
+    "baseLevel": 73,
     "difficulty": 2343,
     "durability": 80,
     "id": "85572aff06a",
@@ -13005,6 +13150,22 @@
       "fr": "Hast en azuresprit",
       "ja": "ブルースピリットスピア",
       "ko": "Bluespirit Spear"
+    }
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 6132,
+    "durability": 80,
+    "id": "2fd5ec46405",
+    "level": 403,
+    "maxQuality": 8045,
+    "name": {
+      "cn": "Imitation Long Window (patch 5.1)",
+      "de": "Oberlichtfenster-Imitation",
+      "en": "Imitation Long Window",
+      "fr": "Fenêtre allongée en trompe-l'œil",
+      "ja": "イミテーション・ロングウィンドウ",
+      "ko": "Imitation Long Window"
     }
   },
   {
@@ -13441,6 +13602,38 @@
   },
   {
     "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "4b86bbe11cf",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Lakeland Chair (patch 5.1)",
+      "de": "Seenland-Stuhl",
+      "en": "Lakeland Chair",
+      "fr": "Chaise de Grand-Lac",
+      "ja": "レイクランドチェア",
+      "ko": "Lakeland Chair"
+    }
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "ef2a3570845",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Lakeland Table (patch 5.1)",
+      "de": "Seenland-Tisch",
+      "en": "Lakeland Table",
+      "fr": "Table de Grand-Lac",
+      "ja": "レイクランドテーブル",
+      "ko": "Lakeland Table"
+    }
+  },
+  {
+    "baseLevel": 78,
     "difficulty": 1822,
     "durability": 40,
     "id": "90cb971f86d",
@@ -13601,13 +13794,29 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "0ae66ce1051",
+    "level": 430,
+    "maxQuality": 40574,
+    "name": {
+      "cn": "Skybuilders' Bed (patch 5.11)",
+      "de": "Himmelsstadt-Bett",
+      "en": "Skybuilders' Bed",
+      "fr": "Lit de restauration",
+      "ja": "復興用の寝台",
+      "ko": "Skybuilders' Bed"
+    }
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 7457,
     "durability": 70,
     "id": "bb9e8164691",
     "level": 440,
     "maxQuality": 10920,
     "name": {
-      "cn": "Magicked Bed",
+      "cn": "Magicked Bed (patch 5.05)",
       "de": "Zauberbett",
       "en": "Magicked Bed",
       "fr": "Lit magique",
@@ -13624,7 +13833,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Catalyst",
+      "cn": "Catalyst (patch 5.05)",
       "de": "Katalysator",
       "en": "Catalyst",
       "fr": "Catalyseur",
@@ -13641,12 +13850,63 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Clearpath",
+      "cn": "Clearpath (patch 5.05)",
       "de": "Pfadweiser",
       "en": "Clearpath",
       "fr": "Librevoie",
       "ja": "クリアーパス",
       "ko": "Clearpath"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "eed59982b00",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Fishing Rod (patch 5.1)",
+      "de": "Manufaktur-Angelrute",
+      "en": "Facet Fishing Rod",
+      "fr": "Canne à pêche de la halle",
+      "ja": "ミーン・フィッシングロッド",
+      "ko": "Facet Fishing Rod"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "7173ce47e8e",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Grinding Wheel (patch 5.1)",
+      "de": "Manufaktur-Schleifrad",
+      "en": "Facet Grinding Wheel",
+      "fr": "Meule de la halle",
+      "ja": "ミーン・グラインディングホイール",
+      "ko": "Facet Grinding Wheel"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6297,
+    "durability": 70,
+    "id": "ce0a0c8b96b",
+    "level": 450,
+    "maxQuality": 44450,
+    "name": {
+      "cn": "Facet Spinning Wheel (patch 5.1)",
+      "de": "Manufaktur-Spinnrad",
+      "en": "Facet Spinning Wheel",
+      "fr": "Rouet de la halle",
+      "ja": "ミーン・スピニングホイール",
+      "ko": "Facet Spinning Wheel"
     },
     "stars": 2
   },
@@ -13658,7 +13918,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Gendawa",
+      "cn": "Gendawa (patch 5.05)",
       "de": "Fay-Gendawa",
       "en": "Gendawa",
       "fr": "Gendawa",
@@ -13675,7 +13935,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Sandalwood Lumber",
+      "cn": "Sandalwood Lumber (patch 5.05)",
       "de": "Sandel-Bauholz",
       "en": "Sandalwood Lumber",
       "fr": "Madrier de santal blanc",
@@ -13692,7 +13952,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Skystrider",
+      "cn": "Skystrider (patch 5.05)",
       "de": "Himmelsschreiter",
       "en": "Skystrider",
       "fr": "Ouranaute",
