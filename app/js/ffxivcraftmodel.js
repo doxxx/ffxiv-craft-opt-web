@@ -342,7 +342,7 @@ function ApplyModifiers(s, action, condition) {
     var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
 
     if ((progressIncreaseMultiplier > 0) && (s.effects.countDowns.hasOwnProperty(AllActions.muscleMemory.shortName))){
-        progressIncreaseMultiplier += 1;
+        progressIncreaseMultiplier *= 2;
         delete s.effects.countDowns[AllActions.muscleMemory.shortName];
     }
 
