@@ -91,7 +91,7 @@ function EffectTracker() {
     this.indefinites = {};
 }
 
-function State(synth, step, lastStep, action, durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition) {
+function State(synth, step, lastStep, action, durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, effects, condition) {
     this.synth = synth;
     this.step = step;
     this.lastStep = lastStep;
@@ -105,12 +105,6 @@ function State(synth, step, lastStep, action, durabilityState, cpState, bonusMax
     this.trickUses = trickUses;
     this.nameOfElementUses = nameOfElementUses;
     this.reliability = reliability;
-    if (crossClassActionList === null) {
-        this.crossClassActionList = {};
-    }
-    else {
-        this.crossClassActionList = crossClassActionList;
-    }
     this.effects = effects;
     this.condition =  condition;
 
@@ -125,7 +119,7 @@ function State(synth, step, lastStep, action, durabilityState, cpState, bonusMax
 }
 
 State.prototype.clone = function () {
-    return new State(this.synth, this.step, this.lastStep, this.action, this.durabilityState, this.cpState, this.bonusMaxCp, this.qualityState, this.progressState, this.wastedActions, this.trickUses, this.nameOfElementUses, this.reliability, clone(this.crossClassActionList), clone(this.effects), this.condition);
+    return new State(this.synth, this.step, this.lastStep, this.action, this.durabilityState, this.cpState, this.bonusMaxCp, this.qualityState, this.progressState, this.wastedActions, this.trickUses, this.nameOfElementUses, this.reliability, clone(this.effects), this.condition);
 };
 
 State.prototype.checkViolations = function () {
@@ -178,11 +172,10 @@ function NewStateFromSynth(synth) {
     var trickUses = 0;
     var nameOfElementUses = 0;
     var reliability = 1;
-    var crossClassActionList = {};
     var effects = new EffectTracker();
     var condition = 'Normal';
 
-    return new State(synth, step, lastStep, '', durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, crossClassActionList, effects, condition);
+    return new State(synth, step, lastStep, '', durabilityState, cpState, bonusMaxCp, qualityState, progressState, wastedActions, trickUses, nameOfElementUses, reliability, effects, condition);
 }
 
 function probGoodForSynth(synth) {
@@ -854,9 +847,6 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
         // }
     };
 
-    // Initialize counters
-    var crossClassActionCounter = 0;
-
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
         return NewStateFromSynth(s.synth);
@@ -916,12 +906,6 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
 
             UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, r.cpCost, SimCondition, successProbability);
 
-            // Count cross class actions
-            if (!(action.cls === 'All' || action.cls === s.synth.crafter.cls || action.shortName in s.crossClassActionList)) {
-                s.crossClassActionList[action.shortName] = true;
-                crossClassActionCounter += 1;
-            }
-
             // Ending condition update
             if (!ignoreConditionReq) {
                 ppPoor = ppExcellent;
@@ -955,10 +939,10 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
     var chk = s.checkViolations();
 
     if (debug) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, crossClassActionCounter, s.wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, s.wastedActions);
     }
     else if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, crossClassActionCounter, s.wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, s.wastedActions);
     }
 
     // Return final state
@@ -1070,18 +1054,10 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
     if ((s.progressState >= s.synth.recipe.difficulty || s.durabilityState <= 0 || s.cpState < 0) && action != AllActions.dummyAction) {
         s.wastedActions += 1;
     }
-
     // Occur if not a dummy action
     //==================================
     else {
-
         UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, r.cpCost, MonteCarloCondition, success);
-
-        // Count cross class actions
-        if (!((action.cls === 'All') || (action.cls === s.synth.crafter.cls) || (action.shortName in s.crossClassActionList))) {
-            s.crossClassActionList[action.shortName] = true;
-        }
-
     }
 
     // Ending condition update
@@ -1158,7 +1134,6 @@ function MonteCarloSequence(individual, startState, assumeSuccess, conditionalAc
 
     // Initialize counters
     var maxConditionUses = 0;
-    var crossClassActionCounter = 0;
 
     // Check for null or empty individuals
     if (individual === null || individual.length === 0) {
@@ -1276,15 +1251,11 @@ function MonteCarloSequence(individual, startState, assumeSuccess, conditionalAc
     // Check for feasibility violations
     var chk = s.checkViolations();
 
-    for (var crossClassAction in s.crossClassActionList) {
-        crossClassActionCounter += 1;
-    }
-
     if (debug) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, crossClassActionCounter, s.wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, s.wastedActions);
     }
     else if (verbose) {
-        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Cross Class Skills: %d, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, crossClassActionCounter, s.wastedActions);
+        logger.log('Progress Check: %s, Durability Check: %s, CP Check: %s, Tricks Check: %s, Reliability Check: %s, Wasted Actions: %d', chk.progressOk, chk.durabilityOk, chk.cpOk, chk.trickOk, chk.reliabilityOk, s.wastedActions);
     }
 
     return states;
@@ -1582,16 +1553,6 @@ function hqPercentFromQuality(qualityPercent) {
     return hqPercent;
 }
 
-function maxCrossClassActions(level) {
-    var maxActions = 1;             // level 1
-    if (level >= 10) {
-        maxActions += 1;            // level 10
-        maxActions += Math.floor((level - 10)/5);
-    }
-
-    return maxActions;
-}
-
 function evalSeq(individual, mySynth, penaltyWeight) {
     penaltyWeight = penaltyWeight!== undefined ? penaltyWeight : 10000;
 
@@ -1626,15 +1587,6 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
     if (result.reliability < mySynth.reliabilityIndex) {
         penalties += Math.abs(mySynth.reliabilityIndex - result.reliability);
-    }
-
-    var crossClassActionCounter = 0;
-    for (var action in result.crossClassActionList) {
-        crossClassActionCounter += 1;
-    }
-    var maxCrossClassActionsExceeded = crossClassActionCounter - maxCrossClassActions(mySynth.crafter.level);
-    if (maxCrossClassActionsExceeded > 0) {
-        penalties += maxCrossClassActionsExceeded;
     }
 
     if (mySynth.maxLength > 0) {

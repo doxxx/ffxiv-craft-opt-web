@@ -269,28 +269,12 @@
     return info.cls !== 'All';
   }
 
-  function isActionCrossClass(name, currentClass) {
-    if (!angular.isDefined(name)) {
-      console.error('undefined action');
-      return false;
-    }
-    var info = actionsByName[name];
-    if (!angular.isDefined(info)) {
-      if (!obsoleteActions[action])
-        console.error('unknown action: %s', name);
-      return false;
-    }
-    return info.cls !== 'All' && info.cls !== currentClass;
-  }
-
-
   angular.module('ffxivCraftOptWeb.services.actions', []).
     value('_allClasses', allClasses).
     value('_allActions', allActions).
     value('_actionsByName', actionsByName).
     value('_actionGroups', actionGroups).
     value('_getActionImagePath', getActionImagePath).
-    value('_iActionClassSpecific', iActionClassSpecific).
-    value('_isActionCrossClass', isActionCrossClass);
+    value('_iActionClassSpecific', iActionClassSpecific)
 
 })();
