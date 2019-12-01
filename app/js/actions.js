@@ -76,7 +76,7 @@ var AllActions = {
 
     // Elemental Aspect Actions
     brandOfTheElements: new Action( 'brandOfTheElements',   'Brand of the Elements', 10,     6,  0.9, 0.0, 1.0, 'immediate',   1,  'All',          37),
-    nameOfTheElements: new Action(  'nameOfTheElements',    'Name of the Elements',  0,    15,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          37),
+    nameOfTheElements: new Action(  'nameOfTheElements',    'Name of the Elements',  0,    30,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          37),
 
     // Stormblood actions
     //   
