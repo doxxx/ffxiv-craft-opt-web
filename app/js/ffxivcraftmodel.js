@@ -434,6 +434,7 @@ function ApplyModifiers(s, action, condition) {
             bQualityGain *= condition.pGoodOrExcellent();
         } else {
             bQualityGain = 0;
+            s.wastedActions += 1;
         }
     }
     // if (isActionEq(action, AllActions.trainedHand) && !condition.checkInnerQuietEqWhistle()) {
