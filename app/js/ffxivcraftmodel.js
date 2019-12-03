@@ -1372,9 +1372,6 @@ function heuristicSequenceBuilder(synth) {
 
     if ((effCrafterLevel < effRecipeLevel) && tryAction('ingenuity')) {
         pushAction(subSeq1, 'ingenuity');
-        if (Ing1RecipeLevelTable[synth.recipe.level]) {
-            //effRecipeLevel = Ing1RecipeLevelTable[effRecipeLevel];
-        }
     }
 
     // If Careful Synthesis 1 is available, use it
