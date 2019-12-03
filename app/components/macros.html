@@ -3,24 +3,11 @@
   <div class="control-group">
     <div class="controls">
       <label class="checkbox">
-        <input type="checkbox" ng-model="options.setupCrossClassActions"/>{{ 'MACRO_CROSS_CLASS' | translate }}
-      </label>
-      <br ng-if="options.setupCrossClassActions"/>
-      <label class="checkbox" ng-if="options.setupCrossClassActions">
-        <input type="checkbox" ng-model="options.includeCurrentClassActions"/>
-        {{ 'MACRO_INCLUDE_CLASS' | translate }}
-      </label>
-      <br/>
-      <label class="checkbox">
         <input type="checkbox" ng-model="options.includeMacroLock"/>{{ 'MACRO_INCLUDE_LOCK' | translate }}
       </label>
     </div>
   </div>
 </form>
-<div ng-if="options.setupCrossClassActions">
-  <h6>{{ 'MACRO_CROSS_ACTION_SETUP' | translate }}</h6>
-  <textarea style="width:auto" cols="60" rows="10" readonly select-on-click>{{crossClassSetupMacroText}}</textarea>
-</div>
 <div ng-repeat="macro in macroList track by $index">
   <h6>Macro #{{$index+1}} <small>({{macro.time}}s)</small></h6>
   <textarea style="width:auto" cols="60" rows="16" readonly select-on-click>{{macro.text}}</textarea>
