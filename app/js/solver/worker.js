@@ -142,12 +142,8 @@ Settings:\n\
                             settings.crafter.cp,
                             settings.crafter.specialist,
                             crafterActions);
-  var recipe = new Recipe(settings.recipe.level,
-                          settings.recipe.difficulty,
-                          settings.recipe.durability,
-                          settings.recipe.startQuality,
-                          settings.recipe.maxQuality,
-                          settings.recipe.baseLevel);
+  var recipe = new Recipe(settings.recipe.baseLevel, settings.recipe.level, settings.recipe.difficulty,
+      settings.recipe.durability, settings.recipe.startQuality, settings.recipe.maxQuality);
   var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0,
     settings.useConditions, settings.maxLength);
   var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false,
