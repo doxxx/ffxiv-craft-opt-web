@@ -441,7 +441,7 @@ function ApplySpecialActionEffects(s, action, condition) {
 
     if (isActionEq(action, AllActions.reflect)) {
         if (s.step == 1) {
-            s.effects.countUps[AllActions.innerQuiet.shortName] = 3;
+            s.effects.countUps[AllActions.innerQuiet.shortName] = 2;
         } else {
             s.wastedActions += 1;
         }
@@ -496,7 +496,7 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
             s.effects.countUps[AllActions.innerQuiet.shortName] += 2 * successProbability * condition.pGoodOrExcellent();
         }
         // Increment all other inner quiet count ups
-        else if (action.qualityIncreaseMultiplier > 0) {
+        else if (action.qualityIncreaseMultiplier > 0 && !isActionEq(action, AllActions.reflect)) {
             s.effects.countUps[AllActions.innerQuiet.shortName] += 1 * successProbability;
         }
 
