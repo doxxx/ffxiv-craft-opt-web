@@ -55,7 +55,7 @@ var AllActions = {
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  1.0, 1.5, 0.0, 'immediate',   1,  'All',          53,  true,       true),
     muscleMemory: new Action(       'muscleMemory',         'Muscle Memory',        10,      6,  1.0, 0.0, 3.0, 'countdown',   5,  'All',          54),
 
-    // Elemental Aspect Actions
+    // Elemental Actions
     brandOfTheElements: new Action( 'brandOfTheElements',   'Brand of the Elements', 10,     6,  1.0, 0.0, 1.0, 'immediate',   1,  'All',          37),
     nameOfTheElements: new Action(  'nameOfTheElements',    'Name of the Elements',   0,    30,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          37),
 
