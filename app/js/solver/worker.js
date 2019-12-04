@@ -149,7 +149,8 @@ Settings:\n\
                           settings.recipe.durability,
                           settings.recipe.startQuality,
                           settings.recipe.maxQuality,
-                          settings.recipe.aspect);
+                          settings.recipe.aspect,
+                          settings.recipe.baseLevel);
   var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0,
     settings.useConditions, settings.maxLength);
   var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false,
