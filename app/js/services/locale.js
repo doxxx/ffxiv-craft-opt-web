@@ -9,6 +9,7 @@
       de: 'Deutsch',
       fr: 'Français',
       cn: '简体中文',
-      ko: '한국어'
+      ko: '한국어',
+      ar: 'عربى'
     })
 })();
