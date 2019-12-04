@@ -247,10 +247,6 @@ function ApplyModifiers(s, action, condition) {
         control += (0.2 * s.effects.countUps[AllActions.innerQuiet.shortName]) * s.synth.crafter.control;
     }
 
-    if (AllActions.innovation.shortName in s.effects.countDowns) {
-        control += 0.2 * s.synth.crafter.control;
-    }
-
     // Since game version 5.0, effects increasing control are capped at crafter's original control + 3000
     control = Math.min(control, s.synth.crafter.control + 3000);
 
@@ -345,13 +341,22 @@ function ApplyModifiers(s, action, condition) {
     }
 
     // Effects modifying progress
-    var bProgressGain = progressIncreaseMultiplier * s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+    var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
+
+    // Effects modifying quality
+    var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
+
+    if (AllActions.innovation.shortName in s.effects.countDowns) {
+        bQualityGain += Math.floor(0.2 * bQualityGain);
+        bProgressGain +=  Math.floor(0.2 * bProgressGain);
+    }
+
+    bProgressGain = progressIncreaseMultiplier * bProgressGain;
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
 
-    // Effects modifying quality
-    var bQualityGain = qualityIncreaseMultiplier * s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
+    bQualityGain = qualityIncreaseMultiplier * bQualityGain;
 
     // We can only use Precise Touch when state material condition is Good or Excellent. Default is true for probabilistic method.
     if (isActionEq(action, AllActions.preciseTouch)) {
