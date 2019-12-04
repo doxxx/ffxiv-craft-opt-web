@@ -51,13 +51,14 @@ function Crafter(cls, level, craftsmanship, control, craftPoints, specialist, ac
     }
 }
 
-function Recipe(level, difficulty, durability, startQuality, maxQuality, aspect) {
+function Recipe(level, difficulty, durability, startQuality, maxQuality, aspect, baseLevel) {
     this.level = level;
     this.difficulty = difficulty;
     this.durability = durability;
     this.startQuality = startQuality;
     this.maxQuality = maxQuality;
     this.aspect = aspect;
+    this.baseLevel = baseLevel;
 }
 
 function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, maxLength) {
@@ -255,6 +256,7 @@ function ApplyModifiers(s, action, condition) {
     var effRecipeLevel = s.synth.recipe.level;
     var levelDifference = effCrafterLevel - effRecipeLevel;
     var originalLevelDifference = effCrafterLevel - effRecipeLevel;
+    var pureLevelDifference = s.synth.crafter.level - s.synth.recipe.baseLevel;
     var recipeLevel = effRecipeLevel;
     var stars = s.synth.recipe.stars;
 
@@ -330,15 +332,6 @@ function ApplyModifiers(s, action, condition) {
         qualityIncreaseMultiplier += 1;
     }
 
-    if (isActionEq(action, AllActions.trainedEye)) {
-        if ((s.step == 1) && (originalLevelDifference >= 10))  {
-            qualityIncreaseMultiplier += 1;
-        }
-        else {
-            s.wastedActions += 1;
-            qualityIncreaseMultiplier = 0;
-        }
-    }
 
     // Effects modifying progress
     var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
@@ -357,6 +350,15 @@ function ApplyModifiers(s, action, condition) {
     }
 
     bQualityGain = qualityIncreaseMultiplier * bQualityGain;
+
+    if (isActionEq(action, AllActions.trainedEye)) {
+        if ((s.step == 1) && (pureLevelDifference >= 10))  {
+            bQualityGain = s.synth.recipe.maxQuality;
+        }
+        else {
+            s.wastedActions += 1;
+        }
+    }
 
     // We can only use Precise Touch when state material condition is Good or Excellent. Default is true for probabilistic method.
     if (isActionEq(action, AllActions.preciseTouch)) {
