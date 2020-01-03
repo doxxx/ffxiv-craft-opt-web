@@ -14,6 +14,7 @@
     $scope.showCharImportModal = showCharImportModal;
     $scope.refreshChar = refreshChar;
     $scope.selectActionsByLevel = selectActionsByLevel;
+    $scope.selectActionsGuaranteed = selectActionsGuaranteed;
 
     // Keep list of specialist actions
     var specialistActions = [];
@@ -130,6 +131,14 @@
     }
 
     function selectActionsByLevel(cls) {
+      selectActions(cls, false);
+    }
+    
+    function selectActionsGuaranteed(cls) {
+      selectActions(cls, true);
+    }
+
+    function selectActions(cls, bySuccessRate) {
       var stats = $scope.crafter.stats[cls];
       var selectedActions = [];
 
@@ -144,13 +153,23 @@
             continue;
           }
 
-          if (action.level <= $scope.crafter.stats[actionClass].level) {
-            selectedActions.push(action.shortName);
-          }
+          // If we care about level and the action's level is too high, skip it.
+          if (action.level > $scope.crafter.stats[actionClass].level) continue;
+          
+          // If we care about successRate and the successRate is too low, skip it.
+          if (bySuccessRate && action.successProbability < 1) continue;
+
+          // Some actions are upgraded versions of others.  
+          // If this is one of the base versions and our level is high enough to use the upgraded version, skip it.
+          if (action.shortName === "rapidSynthesis" && $scope.crafter.stats[actionClass].level >= 63) continue;
+          if (action.shortName === "basicSynth" && $scope.crafter.stats[actionClass].level >= 31) continue;
+
+          selectedActions.push(action.shortName);
         }
       }
 
       stats.actions = selectedActions;
     }
+
   }
 })();
