@@ -91,7 +91,7 @@
                 </progressbar>
             </div>
         </div>
-        <div ng-show="!pageState.solverStatus.running">
+        <div ng-show="!pageState.solverStatus.running || !equivalentSequence()">
             <h5>{{ 'SOLVER_RESULT' | translate }}
                 <small ng-show="equivalentSequence()">{{ 'NO_CHANGE' | translate }}</small>
             </h5>
