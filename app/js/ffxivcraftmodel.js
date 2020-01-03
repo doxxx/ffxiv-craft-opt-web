@@ -70,11 +70,11 @@ function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, m
 }
 
 Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship, crafterLevel, recipeLevel) {
-    return Math.floor((getLevelDifferenceFactor('craftsmanship', levelDifference) * (0.21 * craftsmanship + 2) * (10000 + craftsmanship)) / (10000 + SuggestedCraftsmanship[recipeLevel]))
+    return Math.floor(getLevelDifferenceFactor('craftsmanship', levelDifference) * (0.21 * craftsmanship + 2) * (10000 + craftsmanship)) / (10000 + SuggestedCraftsmanship[recipeLevel])
 };
 
 Synth.prototype.calculateBaseQualityIncrease = function (levelDifference, control, crafterLevel, recipeLevel) {
-    return Math.floor((getLevelDifferenceFactor('control', levelDifference) * (0.35 * control + 35) * (10000 + control)) / (10000 + SuggestedControl[recipeLevel]))
+    return Math.floor(getLevelDifferenceFactor('control', levelDifference) * (0.35 * control + 35) * (10000 + control)) / (10000 + SuggestedControl[recipeLevel])
 };
 
 function isActionEq(action1, action2) {
