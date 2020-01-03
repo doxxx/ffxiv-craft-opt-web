@@ -106,60 +106,68 @@
 
   var actionGroups = [
     {
+      name: "First Turn Only", actions: [
+        "muscleMemory",
+        "reflect",
+        "trainedEye"
+      ]
+    },
+    {
       name: "Synthesis", actions: [
-      "basicSynth",
-      "basicSynth2",
-      "carefulSynthesis",
-      "rapidSynthesis",
-      "rapidSynthesis2",
-      "focusedSynthesis",
-      "delicateSynthesis",
-      "intensiveSynthesis",
-      "muscleMemory",
-      "brandOfTheElements"
-    ]
+        "basicSynth",
+        "rapidSynthesis",
+        "basicSynth2",
+        "brandOfTheElements",
+        "carefulSynthesis",
+        "rapidSynthesis2",
+        "focusedSynthesis",
+        "intensiveSynthesis"
+      ]
+    },
+    {
+      name: "Synthesis + Quality", actions: [
+        "delicateSynthesis"
+      ]
     },
     {
       name: "Quality", actions: [
-      "basicTouch",
-      "standardTouch",
-      "hastyTouch",
-      "byregotsBlessing",
-      "preciseTouch",
-      "focusedTouch",
-      "patientTouch",
-      "prudentTouch",
-      "preparatoryTouch",
-      "trainedEye"
-    ]
+        "basicTouch",
+        "hastyTouch",
+        "standardTouch",
+        "byregotsBlessing",
+        "preciseTouch",
+        "patientTouch",
+        "prudentTouch",
+        "focusedTouch",
+        "preparatoryTouch"
+      ]
     },
     {
       name: "CP", actions: [
-      "tricksOfTheTrade"
-    ]
+        "tricksOfTheTrade"
+      ]
     },
     {
       name: "Durability", actions: [
-      "mastersMend",
-      "wasteNot",
-      "wasteNot2",
-      "manipulation",
-    ]
+        "mastersMend",
+        "wasteNot",
+        "wasteNot2",
+        "manipulation"
+      ]
     },
     {
       name: "Buffs", actions: [
-      "innerQuiet",
-      "ingenuity",
-      "greatStrides",
-      "innovation",
-      "reflect",
-      "nameOfTheElements"//,
+        "innerQuiet",
+        "ingenuity",
+        "greatStrides",
+        "innovation",
+        "nameOfTheElements"//,
       //"reuse"
     ]
     },
     {
       name: "Other", actions: [
-      "observe"
+        "observe"
     ]
     }
   ];
