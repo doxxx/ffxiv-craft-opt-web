@@ -53,7 +53,7 @@
     </div>
     <div class="row-fluid">
         <h5>{{ 'INITIAL_GUESS' | translate }}</h5>
-        <action-sequence class="sequence-small" cls="recipe.cls" actions="sequence"
+        <action-sequence cls="recipe.cls" actions="sequence"
                          action-classes="sequenceActionClasses"
                          tooltip-placement="right"></action-sequence>
     </div>
@@ -79,7 +79,7 @@
             </button>
             <button class="btn" ng-click="showOptionsModal()">{{ 'OPTIONS' | translate }}</button>
         </div>
-    </div>	
+    </div>
     <div class="row-fluid">
         <div ng-show="pageState.solverStatus.running">
             <h5>{{ 'WORKING_IN_PROGRESS' | translate }}</h5>
@@ -91,7 +91,7 @@
                 </progressbar>
             </div>
         </div>
-        <div ng-show="!pageState.solverStatus.running">
+        <div ng-show="!pageState.solverStatus.running || !equivalentSequence()">
             <h5>{{ 'SOLVER_RESULT' | translate }}
                 <small ng-show="equivalentSequence()">{{ 'NO_CHANGE' | translate }}</small>
             </h5>
