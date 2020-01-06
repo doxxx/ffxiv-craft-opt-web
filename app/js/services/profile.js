@@ -39,11 +39,13 @@
           this.storage.remove('savedSettings');
         }
       }
-
+      
       // Upgrade existing synths with new settings
       for (name in this.synths) {
         var synth = this.synths[name];
-        // Nothing to do here
+        for (var i = 0; i < synth.sequence.length; i++){
+          if (synth.sequence[i] === "standardSynthesis") synth.sequence[i] = "basicSynth2";
+        }
       }
 
       if (this.storage.hasKey('crafterStats')) {

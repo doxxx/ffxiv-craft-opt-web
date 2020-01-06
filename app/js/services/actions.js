@@ -14,7 +14,7 @@
 
   var extraActionInfo = {
     basicSynth: {                                        skillID: {"Alchemist": 100090, "Armorer": 100030, "Blacksmith": 100015, "Carpenter": 100001, "Culinarian": 100105, "Goldsmith": 100075, "Leatherworker": 100045, "Weaver": 100060} },
-    standardSynthesis: {                                 skillID: {"Alchemist": 100096, "Armorer": 100037, "Blacksmith": 100021, "Carpenter": 100007, "Culinarian": 100111, "Goldsmith": 100080, "Leatherworker": 100051, "Weaver": 100067} },
+    basicSynth2: {                                       skillID: {"Alchemist": 100090, "Armorer": 100030, "Blacksmith": 100015, "Carpenter": 100001, "Culinarian": 100105, "Goldsmith": 100075, "Leatherworker": 100045, "Weaver": 100060} },
     carefulSynthesis: {        common: true,             skillID: {"Weaver": 100063} },
     rapidSynthesis: {          common: true,             skillID: {"Armorer": 100033} },
     basicTouch: {                                        skillID: {"Alchemist": 100091, "Armorer": 100031, "Blacksmith": 100016, "Carpenter": 100002, "Culinarian": 100106, "Goldsmith": 100076, "Leatherworker": 100046, "Weaver": 100061} },
@@ -106,60 +106,68 @@
 
   var actionGroups = [
     {
+      name: "First Turn Only", actions: [
+        "muscleMemory",
+        "reflect",
+        "trainedEye"
+      ]
+    },
+    {
       name: "Synthesis", actions: [
-      "basicSynth",
-      "standardSynthesis",
-      "carefulSynthesis",
-      "rapidSynthesis",
-      "rapidSynthesis2",
-      "focusedSynthesis",
-      "delicateSynthesis",
-      "intensiveSynthesis",
-      "muscleMemory",
-      "brandOfTheElements"
-    ]
+        "basicSynth",
+        "rapidSynthesis",
+        "basicSynth2",
+        "brandOfTheElements",
+        "carefulSynthesis",
+        "rapidSynthesis2",
+        "focusedSynthesis",
+        "intensiveSynthesis"
+      ]
+    },
+    {
+      name: "Synthesis + Quality", actions: [
+        "delicateSynthesis"
+      ]
     },
     {
       name: "Quality", actions: [
-      "basicTouch",
-      "standardTouch",
-      "hastyTouch",
-      "byregotsBlessing",
-      "preciseTouch",
-      "focusedTouch",
-      "patientTouch",
-      "prudentTouch",
-      "preparatoryTouch",
-      "trainedEye"
-    ]
+        "basicTouch",
+        "hastyTouch",
+        "standardTouch",
+        "byregotsBlessing",
+        "preciseTouch",
+        "patientTouch",
+        "prudentTouch",
+        "focusedTouch",
+        "preparatoryTouch"
+      ]
     },
     {
       name: "CP", actions: [
-      "tricksOfTheTrade"
-    ]
+        "tricksOfTheTrade"
+      ]
     },
     {
       name: "Durability", actions: [
-      "mastersMend",
-      "wasteNot",
-      "wasteNot2",
-      "manipulation",
-    ]
+        "mastersMend",
+        "wasteNot",
+        "wasteNot2",
+        "manipulation"
+      ]
     },
     {
       name: "Buffs", actions: [
-      "innerQuiet",
-      "ingenuity",
-      "greatStrides",
-      "innovation",
-      "reflect",
-      "nameOfTheElements"//,
+        "innerQuiet",
+        "ingenuity",
+        "greatStrides",
+        "innovation",
+        "nameOfTheElements"//,
       //"reuse"
     ]
     },
     {
       name: "Other", actions: [
-      "observe"
+        "observe"
     ]
     }
   ];
