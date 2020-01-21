@@ -20,7 +20,7 @@
     }
   }
 
-  function controller($scope, $translate, _actionsByName, _allActions, _iActionClassSpecific, _isActionCrossClass) {
+  function controller($scope, $translate, _actionsByName, _allActions, _iActionClassSpecific) {
     $scope.macroList = [];
 
     $scope.$on('$translateChangeSuccess', update);
@@ -35,11 +35,6 @@
     function update() {
       if (!angular.isDefined($scope.sequence)) {
         return;
-      }
-
-      if ($scope.options.setupCrossClassActions) {
-        var crossClassActionSetupLines = buildCrossClassActionSetupLines($scope.options, $scope.sequence, $scope.cls);
-        $scope.crossClassSetupMacroText = crossClassActionSetupLines.join('');
       }
 
       var sequenceLines = buildSequenceLines($scope.options, $scope.sequence, extractBuffs());
@@ -66,46 +61,6 @@
      */
     function soundEffect(num, sound) {
       return sound ? '<se.' + num + '>' : '';
-    }
-
-    function extractCrossClassActions(options, sequence, cls) {
-      var crossClass = {};
-      var testFunc = options.includeCurrentClassActions ? _iActionClassSpecific : _isActionCrossClass;
-      for (var i = 0; i < sequence.length; i++) {
-        var action = sequence[i];
-        if (!crossClass[action] && testFunc(action, cls)) {
-          crossClass[action] = true;
-        }
-      }
-      return Object.keys(crossClass).sort();
-    }
-
-    function buildCrossClassActionSetupLines(options, sequence, cls) {
-      var crossClass = extractCrossClassActions(options, sequence, cls);
-
-      var lines = [];
-      if (crossClass.length > 0) {
-        lines.push('/aaction clear\n');
-      }
-
-      for (var i = 0; i < crossClass.length; i++) {
-        var action = crossClass[i];
-        var info = _actionsByName[action];
-        if (info) {
-          var actionName = $translate.instant(info.name);
-          var line = '/aaction "' + actionName + '" on\n';
-          lines.push(line);
-        }
-        else {
-          lines.push('/echo Error: Unknown action ' + action + '\n');
-        }
-      }
-
-      if (lines.length > 0) {
-        lines.push('/echo Cross-class action setup complete ' + soundEffect(options.stepSoundEffect, options.stepSoundEnabled) + '\n');
-      }
-
-      return lines;
     }
 
     function buildSequenceLines(options, sequence, buffs) {
