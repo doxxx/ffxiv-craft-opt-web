@@ -19077,7 +19077,7 @@
     "level": 320,
     "maxQuality": 7918,
     "name": {
-      "cn": "獭獭提灯",
+      "cn": "獭獭吊顶行灯",
       "de": "Hängende Andon-Laterne „Obskurer Otter“",
       "en": "Odder Otter Hanging Andon Lamp",
       "fr": "Lampe suspendue loutre choute",
@@ -22074,6 +22074,22 @@
     }
   },
   {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "18faf27f71a",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Vanity Mirror (patch 5.15)",
+      "de": "Schminkspiegel",
+      "en": "Vanity Mirror",
+      "fr": "Miroir cosmétique",
+      "ja": "メイクアップミラー",
+      "ko": "Vanity Mirror"
+    }
+  },
+  {
     "baseLevel": 79,
     "difficulty": 3705,
     "durability": 80,
@@ -22419,7 +22435,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Aiming (patch 5.05)",
+      "cn": "中庸精准手镯",
       "de": "Manufaktur-Armband des Zielens",
       "en": "Facet Bracelet of Aiming",
       "fr": "Bracelet de pisteur de la halle",
@@ -22436,7 +22452,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Casting (patch 5.05)",
+      "cn": "中庸咏咒手镯",
       "de": "Manufaktur-Armband der Magie",
       "en": "Facet Bracelet of Casting",
       "fr": "Bracelet d'incantateur de la halle",
@@ -22453,7 +22469,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Fending (patch 5.05)",
+      "cn": "中庸御敌手镯",
       "de": "Manufaktur-Armband der Verteidigung",
       "en": "Facet Bracelet of Fending",
       "fr": "Bracelet de protecteur de la halle",
@@ -22470,7 +22486,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Healing (patch 5.05)",
+      "cn": "中庸治愈手镯",
       "de": "Manufaktur-Armband der Heilung",
       "en": "Facet Bracelet of Healing",
       "fr": "Bracelet de soigneur de la halle",
@@ -22487,7 +22503,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Bracelet of Slaying (patch 5.05)",
+      "cn": "中庸强攻手镯",
       "de": "Manufaktur-Armband des Schlachtens",
       "en": "Facet Bracelet of Slaying",
       "fr": "Bracelet d'attaquant de la halle",
@@ -22504,7 +22520,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Aiming (patch 5.05)",
+      "cn": "中庸精准项环",
       "de": "Manufaktur-Halsband des Zielens",
       "en": "Facet Choker of Aiming",
       "fr": "Ras de cou de pisteur de la halle",
@@ -22521,7 +22537,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Casting (patch 5.05)",
+      "cn": "中庸咏咒项环",
       "de": "Manufaktur-Halsband der Magie",
       "en": "Facet Choker of Casting",
       "fr": "Ras de cou d'incantateur de la halle",
@@ -22538,7 +22554,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Fending (patch 5.05)",
+      "cn": "中庸御敌项环",
       "de": "Manufaktur-Halsband der Verteidigung",
       "en": "Facet Choker of Fending",
       "fr": "Ras de cou de protecteur de la halle",
@@ -22555,7 +22571,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Healing (patch 5.05)",
+      "cn": "中庸治愈项环",
       "de": "Manufaktur-Halsband der Heilung",
       "en": "Facet Choker of Healing",
       "fr": "Ras de cou de soigneur de la halle",
@@ -22572,7 +22588,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Choker of Slaying (patch 5.05)",
+      "cn": "中庸强攻项环",
       "de": "Manufaktur-Halsband des Schlachtens",
       "en": "Facet Choker of Slaying",
       "fr": "Ras de cou d'attaquant de la halle",
@@ -22589,7 +22605,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Circlet of Fending (patch 5.05)",
+      "cn": "中庸御敌头冠",
       "de": "Manufaktur-Stirnreif der Verteidigung",
       "en": "Facet Circlet of Fending",
       "fr": "Diadème de protecteur de la halle",
@@ -22606,7 +22622,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Circlet of Striking (patch 5.05)",
+      "cn": "中庸强袭头冠",
       "de": "Manufaktur-Stirnreif des Schlagens",
       "en": "Facet Circlet of Striking",
       "fr": "Diadème d'agresseur de la halle",
@@ -22623,7 +22639,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Aiming (patch 5.05)",
+      "cn": "中庸精准耳坠",
       "de": "Manufaktur-Ohrringe des Zielens",
       "en": "Facet Earrings of Aiming",
       "fr": "Boucles d'oreilles de pisteur de la halle",
@@ -22640,7 +22656,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Casting (patch 5.05)",
+      "cn": "中庸咏咒耳坠",
       "de": "Manufaktur-Ohrringe der Magie",
       "en": "Facet Earrings of Casting",
       "fr": "Boucles d'oreilles d'incantateur de la halle",
@@ -22657,7 +22673,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Fending (patch 5.05)",
+      "cn": "中庸御敌耳坠",
       "de": "Manufaktur-Ohrringe der Verteidigung",
       "en": "Facet Earrings of Fending",
       "fr": "Boucles d'oreilles de protecteur de la halle",
@@ -22674,7 +22690,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Healing (patch 5.05)",
+      "cn": "中庸治愈耳坠",
       "de": "Manufaktur-Ohrringe der Heilung",
       "en": "Facet Earrings of Healing",
       "fr": "Boucles d'oreilles de soigneur de la halle",
@@ -22691,7 +22707,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Earrings of Slaying (patch 5.05)",
+      "cn": "中庸强攻耳坠",
       "de": "Manufaktur-Ohrringe des Schlachtens",
       "en": "Facet Earrings of Slaying",
       "fr": "Boucles d'oreilles d'attaquant de la halle",
@@ -22725,7 +22741,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Aiming (patch 5.05)",
+      "cn": "中庸精准指环",
       "de": "Manufaktur-Ring des Zielens",
       "en": "Facet Ring of Aiming",
       "fr": "Bague de pisteur de la halle",
@@ -22742,7 +22758,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Casting (patch 5.05)",
+      "cn": "中庸咏咒指环",
       "de": "Manufaktur-Ring der Magie",
       "en": "Facet Ring of Casting",
       "fr": "Bague d'incantateur de la halle",
@@ -22759,7 +22775,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Fending (patch 5.05)",
+      "cn": "中庸御敌指环",
       "de": "Manufaktur-Ring der Verteidigung",
       "en": "Facet Ring of Fending",
       "fr": "Bague de protecteur de la halle",
@@ -22776,7 +22792,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Healing (patch 5.05)",
+      "cn": "中庸治愈指环",
       "de": "Manufaktur-Ring der Heilung",
       "en": "Facet Ring of Healing",
       "fr": "Bague de soigneur de la halle",
@@ -22793,7 +22809,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Facet Ring of Slaying (patch 5.05)",
+      "cn": "中庸强攻指环",
       "de": "Manufaktur-Ring des Schlachtens",
       "en": "Facet Ring of Slaying",
       "fr": "Bague d'attaquant de la halle",
@@ -22827,7 +22843,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Merveilleuse (patch 5.05)",
+      "cn": "惊异刺剑",
       "de": "Merveilleuse",
       "en": "Merveilleuse",
       "fr": "Merveilleuse",
@@ -22844,7 +22860,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Pollux (patch 5.05)",
+      "cn": "北河三天仪",
       "de": "Polluc",
       "en": "Pollux",
       "fr": "Pollux",
@@ -22861,7 +22877,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Prismatic Ingot (patch 5.05)",
+      "cn": "虹结晶石材",
       "de": "Spektralkristall-Stein",
       "en": "Prismatic Ingot",
       "fr": "Barre iridescente",
