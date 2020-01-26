@@ -11670,7 +11670,7 @@
     "level": 300,
     "maxQuality": 14071,
     "name": {
-      "cn": "Cryptomeria Lumber (patch 5.05)",
+      "cn": "柳杉木材",
       "de": "Sicheltanne-Bauholz",
       "en": "Cryptomeria Lumber",
       "fr": "Madrier de cryptoméria",
@@ -13665,6 +13665,22 @@
     }
   },
   {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "474483e2343",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Wooden Deck (patch 5.15)",
+      "de": "Holzveranda",
+      "en": "Wooden Deck",
+      "fr": "Terrasse en bois",
+      "ja": "ウッドデッキ",
+      "ko": "Wooden Deck"
+    }
+  },
+  {
     "baseLevel": 79,
     "difficulty": 3705,
     "durability": 80,
@@ -13816,7 +13832,7 @@
     "level": 440,
     "maxQuality": 10920,
     "name": {
-      "cn": "Magicked Bed (patch 5.05)",
+      "cn": "魔法飞床",
       "de": "Zauberbett",
       "en": "Magicked Bed",
       "fr": "Lit magique",
@@ -13833,7 +13849,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Catalyst (patch 5.05)",
+      "cn": "催化之杖",
       "de": "Katalysator",
       "en": "Catalyst",
       "fr": "Catalyseur",
@@ -13850,7 +13866,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Clearpath (patch 5.05)",
+      "cn": "净路之杖",
       "de": "Pfadweiser",
       "en": "Clearpath",
       "fr": "Librevoie",
@@ -13918,7 +13934,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Gendawa (patch 5.05)",
+      "cn": "海岛之弓",
       "de": "Fay-Gendawa",
       "en": "Gendawa",
       "fr": "Gendawa",
@@ -13935,7 +13951,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Sandalwood Lumber (patch 5.05)",
+      "cn": "檀香木木材",
       "de": "Sandel-Bauholz",
       "en": "Sandalwood Lumber",
       "fr": "Madrier de santal blanc",
@@ -13952,7 +13968,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Skystrider (patch 5.05)",
+      "cn": "行空",
       "de": "Himmelsschreiter",
       "en": "Skystrider",
       "fr": "Ouranaute",

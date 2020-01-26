@@ -13610,6 +13610,22 @@
     }
   },
   {
+    "baseLevel": 78,
+    "difficulty": 6561,
+    "durability": 80,
+    "id": "401d5dc70ac",
+    "level": 415,
+    "maxQuality": 8978,
+    "name": {
+      "cn": "Vegetable Garden (patch 5.15)",
+      "de": "Gemüsebeet",
+      "en": "Vegetable Garden",
+      "fr": "Jardin potager",
+      "ja": "ベジタブルガーデン",
+      "ko": "Vegetable Garden"
+    }
+  },
+  {
     "baseLevel": 79,
     "difficulty": 3705,
     "durability": 80,
@@ -13796,7 +13812,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Galdrabok (patch 5.05)",
+      "cn": "魔咒手稿",
       "de": "Galdrabok",
       "en": "Galdrabok",
       "fr": "Galdrabók",
@@ -13813,7 +13829,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Dexterity Alkahest (patch 5.05)",
+      "cn": "2级巧力之幻水",
       "de": "Visionslösung des Scharfsinns II",
       "en": "Grade 2 Dexterity Alkahest",
       "fr": "Eau chimérique de dextérité II",
@@ -13830,7 +13846,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Intelligence Alkahest (patch 5.05)",
+      "cn": "2级智力之幻水",
       "de": "Visionslösung der Intelligenz II",
       "en": "Grade 2 Intelligence Alkahest",
       "fr": "Eau chimérique d'intelligence II",
@@ -13847,7 +13863,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Mind Alkahest (patch 5.05)",
+      "cn": "2级意力之幻水",
       "de": "Visionslösung der Willenskraft II",
       "en": "Grade 2 Mind Alkahest",
       "fr": "Eau chimérique d'esprit II",
@@ -13864,7 +13880,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Strength Alkahest (patch 5.05)",
+      "cn": "2级刚力之幻水",
       "de": "Visionslösung der Stärke II",
       "en": "Grade 2 Strength Alkahest",
       "fr": "Eau chimérique de force II",
@@ -13881,7 +13897,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Dexterity (patch 5.05)",
+      "cn": "2级巧力之幻药",
       "de": "Visionsremedium des Scharfsinns II",
       "en": "Grade 2 Tincture of Dexterity",
       "fr": "Philtre chimérique de dextérité ll",
@@ -13898,7 +13914,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Intelligence (patch 5.05)",
+      "cn": "2级智力之幻药",
       "de": "Visionsremedium der Intelligenz II",
       "en": "Grade 2 Tincture of Intelligence",
       "fr": "Philtre chimérique d'intelligence II",
@@ -13915,7 +13931,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Mind (patch 5.05)",
+      "cn": "2级意力之幻药",
       "de": "Visionsremedium der Willenskraft II",
       "en": "Grade 2 Tincture of Mind",
       "fr": "Philtre chimérique d'esprit II",
@@ -13932,7 +13948,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Strength (patch 5.05)",
+      "cn": "2级刚力之幻药",
       "de": "Visionsremedium der Stärke II",
       "en": "Grade 2 Tincture of Strength",
       "fr": "Philtre chimérique de force II",
@@ -13949,7 +13965,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Grade 2 Tincture of Vitality (patch 5.05)",
+      "cn": "2级耐力之幻药",
       "de": "Visionsremedium der Konstitution II",
       "en": "Grade 2 Tincture of Vitality",
       "fr": "Philtre chimérique de vitalité II",
@@ -13966,7 +13982,7 @@
     "level": 450,
     "maxQuality": 32753,
     "name": {
-      "cn": "Grade 2 Vitality Alkahest (patch 5.05)",
+      "cn": "2级耐力之幻水",
       "de": "Visionslösung Konstitution II",
       "en": "Grade 2 Vitality Alkahest",
       "fr": "Eau chimérique de vitalité II",
@@ -14017,7 +14033,7 @@
     "level": 450,
     "maxQuality": 37432,
     "name": {
-      "cn": "Pragmatism (patch 5.05)",
+      "cn": "实用主义",
       "de": "Pragmatik",
       "en": "Pragmatism",
       "fr": "Pragmatisme",
