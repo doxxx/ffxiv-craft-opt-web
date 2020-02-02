@@ -308,6 +308,10 @@ function ApplyModifiers(s, action, condition) {
         progressIncreaseMultiplier += nameOfMultiplier;
     }
 
+    if (AllActions.innovation.shortName in s.effects.countDowns) {
+        progressIncreaseMultiplier += 0.2;
+    }
+
     if (isActionEq(action, AllActions.muscleMemory)) {
         if (s.step != 1) {
             s.wastedActions += 1;
@@ -333,7 +337,6 @@ function ApplyModifiers(s, action, condition) {
 
     if (AllActions.innovation.shortName in s.effects.countDowns) {
         qualityIncreaseMultiplier += 0.2;
-        progressIncreaseMultiplier += 0.2;
     }
 
     // Effects modifying progress
