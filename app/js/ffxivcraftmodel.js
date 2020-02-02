@@ -331,17 +331,22 @@ function ApplyModifiers(s, action, condition) {
         qualityIncreaseMultiplier += 1;
     }
 
+    // Effects modifying quality and progress modifier
+    if (AllActions.innovation.shortName in s.effects.countDowns) {
+        if (qualityIncreaseMultiplier > 0) {
+            qualityIncreaseMultiplier += ( 0.2 * action.qualityIncreaseMultiplier )
+        }
+        if (progressIncreaseMultiplier > 0) {
+            progressIncreaseMultiplier += ( 0.2 * action.progressIncreaseMultiplier )
+        }
+    }
+
 
     // Effects modifying progress
     var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
 
     // Effects modifying quality
     var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
-
-    if (AllActions.innovation.shortName in s.effects.countDowns) {
-        bQualityGain += Math.floor(0.2 * bQualityGain);
-        bProgressGain +=  Math.floor(0.2 * bProgressGain);
-    }
 
     bProgressGain = progressIncreaseMultiplier * bProgressGain;
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
