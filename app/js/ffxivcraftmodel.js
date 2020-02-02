@@ -292,11 +292,20 @@ function ApplyModifiers(s, action, condition) {
     successProbability = Math.min(successProbability, 1);
 
     // Effects modifying progress increase multiplier
-    var progressIncreaseMultiplier = action.progressIncreaseMultiplier;
+    var progressIncreaseMultiplier = 1;
 
-    if ((progressIncreaseMultiplier > 0) && (s.effects.countDowns.hasOwnProperty(AllActions.muscleMemory.shortName))){
-        progressIncreaseMultiplier *= 2;
+    if ((action.progressIncreaseMultiplier > 0) && (s.effects.countDowns.hasOwnProperty(AllActions.muscleMemory.shortName))){
+        progressIncreaseMultiplier += 1;
         delete s.effects.countDowns[AllActions.muscleMemory.shortName];
+    }
+
+    // Brand actions
+    if (isActionEq(action, AllActions.brandOfTheElements)) {
+        var nameOfMultiplier = 1;
+        if (s.effects.countDowns.hasOwnProperty(AllActions.nameOfTheElements.shortName)) {
+            nameOfMultiplier = Math.min(calcNameOfMultiplier(s), 2);
+        }
+        progressIncreaseMultiplier += nameOfMultiplier;
     }
 
     if (isActionEq(action, AllActions.muscleMemory)) {
@@ -306,17 +315,8 @@ function ApplyModifiers(s, action, condition) {
         }
     }
 
-    // Brand actions
-    if (isActionEq(action, AllActions.brandOfTheElements)) {
-        var nameOfMultiplier = 1;
-        if (s.effects.countDowns.hasOwnProperty(AllActions.nameOfTheElements.shortName)) {
-            nameOfMultiplier = Math.min(calcNameOfMultiplier(s), 2);
-        }
-        progressIncreaseMultiplier *= nameOfMultiplier;
-    }
-
     // Effects modifying quality increase multiplier
-    var qualityIncreaseMultiplier = action.qualityIncreaseMultiplier;
+    var qualityIncreaseMultiplier = 1;
 
     // We can only use Byregot actions when we have at least 2 stacks of inner quiet
     if (isActionEq(action, AllActions.byregotsBlessing)) {
@@ -331,6 +331,10 @@ function ApplyModifiers(s, action, condition) {
         qualityIncreaseMultiplier += 1;
     }
 
+    if (AllActions.innovation.shortName in s.effects.countDowns) {
+        qualityIncreaseMultiplier += 0.2;
+        progressIncreaseMultiplier += 0.2;
+    }
 
     // Effects modifying progress
     var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
@@ -338,17 +342,12 @@ function ApplyModifiers(s, action, condition) {
     // Effects modifying quality
     var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
 
-    if (AllActions.innovation.shortName in s.effects.countDowns) {
-        bQualityGain += Math.floor(0.2 * bQualityGain);
-        bProgressGain +=  Math.floor(0.2 * bProgressGain);
-    }
-
-    bProgressGain = progressIncreaseMultiplier * bProgressGain;
+    bProgressGain = bProgressGain * action.progressIncreaseMultiplier * progressIncreaseMultiplier;
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
 
-    bQualityGain = qualityIncreaseMultiplier * bQualityGain;
+    bQualityGain = bQualityGain * action.qualityIncreaseMultiplier * qualityIncreaseMultiplier;
 
     if (isActionEq(action, AllActions.trainedEye)) {
         if ((s.step == 1) && (pureLevelDifference >= 10))  {
