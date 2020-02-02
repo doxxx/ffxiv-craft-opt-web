@@ -241,6 +241,7 @@ function ApplyModifiers(s, action, condition) {
     //=================
     var craftsmanship = s.synth.crafter.craftsmanship;
     var control = s.synth.crafter.control;
+    var cpCost = action.cpCost;
 
     // Effects modifying control
     if (AllActions.innerQuiet.shortName in s.effects.countUps) {
@@ -313,9 +314,10 @@ function ApplyModifiers(s, action, condition) {
     }
 
     if (isActionEq(action, AllActions.muscleMemory)) {
-        if (s.step != 1) {
+        if (s.step !== 1) {
             s.wastedActions += 1;
             progressIncreaseMultiplier = 0;
+            cpCost = 0;
         }
     }
 
@@ -339,25 +341,28 @@ function ApplyModifiers(s, action, condition) {
         qualityIncreaseMultiplier += 0.2;
     }
 
-    // Effects modifying progress
+    // Calculate base and modified progress gain
     var bProgressGain = s.synth.calculateBaseProgressIncrease(levelDifference, craftsmanship, effCrafterLevel, s.synth.recipe.level);
-
-    // Effects modifying quality
-    var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
-
     bProgressGain = bProgressGain * action.progressIncreaseMultiplier * progressIncreaseMultiplier;
+
+    // Calculate base and modified quality gain
+    var bQualityGain = s.synth.calculateBaseQualityIncrease(levelDifference, control, effCrafterLevel, s.synth.recipe.level);
+    bQualityGain = bQualityGain * action.qualityIncreaseMultiplier * qualityIncreaseMultiplier;
+
+    // Effects modifying progress gain directly
     if (isActionEq(action, AllActions.flawlessSynthesis)) {
         bProgressGain = 40;
     }
 
-    bQualityGain = bQualityGain * action.qualityIncreaseMultiplier * qualityIncreaseMultiplier;
-
+    // Effects modifying quality gain directly
     if (isActionEq(action, AllActions.trainedEye)) {
-        if ((s.step == 1) && (pureLevelDifference >= 10))  {
+        if ((s.step === 1) && (pureLevelDifference >= 10))  {
             bQualityGain = s.synth.recipe.maxQuality;
         }
         else {
             s.wastedActions += 1;
+            bQualityGain = 0;
+            cpCost = 0;
         }
     }
 
@@ -366,17 +371,18 @@ function ApplyModifiers(s, action, condition) {
         if (condition.checkGoodOrExcellent()) {
             bQualityGain *= condition.pGoodOrExcellent();
         } else {
-            bQualityGain = 0;
             s.wastedActions += 1;
+            bQualityGain = 0;
+            cpCost = 0;
         }
     }
 
     if (isActionEq(action, AllActions.reflect)) {
-        if (s.step != 1) {
+        if (s.step !== 1) {
             s.wastedActions += 1;
             control = 0;
             bQualityGain = 0;
-            qualityIncreaseMultiplier = 0;
+            cpCost = 0;
         }
     }
 
@@ -390,9 +396,6 @@ function ApplyModifiers(s, action, condition) {
             durabilityCost *= 0.5;
         }
     }
-
-    // Effects modifying cp cost
-    var cpCost = action.cpCost;
 
     return {
         craftsmanship: craftsmanship,
