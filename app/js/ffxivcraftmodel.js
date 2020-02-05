@@ -302,7 +302,7 @@ function ApplyModifiers(s, action, condition) {
 
     // Brand actions
     if (isActionEq(action, AllActions.brandOfTheElements)) {
-        var nameOfMultiplier = 1;
+        var nameOfMultiplier = 0;
         if (s.effects.countDowns.hasOwnProperty(AllActions.nameOfTheElements.shortName)) {
             nameOfMultiplier = Math.min(calcNameOfMultiplier(s), 2);
         }
