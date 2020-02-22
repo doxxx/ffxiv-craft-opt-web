@@ -26,7 +26,6 @@
     wasteNot2: {               common: true, buff: true, skillID: {"Leatherworker": 285} },
     manipulation: {            common: true, buff: true, skillID: {"Goldsmith": 278} },
     innerQuiet: {              common: true, buff: true, skillID: {"Alchemist": 258, "Armorer": 254, "Blacksmith": 253, "Carpenter": 252, "Culinarian": 259, "Goldsmith": 255, "Leatherworker": 257, "Weaver": 256} },
-    ingenuity: {               common: true, buff: true, skillID: {"Blacksmith": 277} },
     greatStrides: {            common: true, buff: true, skillID: {"Alchemist": 266, "Armorer": 262, "Blacksmith": 261, "Carpenter": 260, "Culinarian": 267, "Goldsmith": 263, "Leatherworker": 265, "Weaver": 264} },
     innovation: {              common: true, buff: true, skillID: {"Goldsmith": 284} },
     tricksOfTheTrade: {        common: true,             skillID: {"Alchemist": 100098} },
@@ -48,7 +47,6 @@
 
     // Shadowbringers
     preparatoryTouch: {                                  skillID: {"Alchemist": 100305, "Armorer": 100301, "Blacksmith": 100300, "Carpenter": 100299, "Culinarian": 100306, "Goldsmith": 100302, "Leatherworker": 100303, "Weaver": 100304} },    
-    //reuse: {                   common: true,             skillID: {"Alchemist": 4603, "Armorer": 4599, "Blacksmith": 4598, "Carpenter": 4597, "Culinarian": 4604, "Goldsmith": 4600, "Leatherworker": 4602, "Weaver": 4601} },
     delicateSynthesis: {                                 skillID: {"Alchemist": 100329, "Armorer": 100325, "Blacksmith": 100324, "Carpenter": 100323, "Culinarian": 100330, "Goldsmith": 100326, "Leatherworker": 100327, "Weaver": 100328} },
     intensiveSynthesis: {                                skillID: {"Alchemist": 100321, "Armorer": 100317, "Blacksmith": 100316, "Carpenter": 100315, "Culinarian": 100322, "Goldsmith": 100318, "Leatherworker": 100319, "Weaver": 100320} },
     trainedEye: {              common: true,             skillID: {"Alchemist": 100289, "Armorer": 100285, "Blacksmith": 100284, "Carpenter": 100283, "Culinarian": 100290, "Goldsmith": 100286, "Leatherworker": 100287, "Weaver": 100288} },
@@ -158,11 +156,9 @@
     {
       name: "Buffs", actions: [
         "innerQuiet",
-        "ingenuity",
         "greatStrides",
         "innovation",
-        "nameOfTheElements"//,
-      //"reuse"
+        "nameOfTheElements"
     ]
     },
     {

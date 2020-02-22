@@ -49,7 +49,6 @@ var AllActions = {
     wasteNot2: new Action(          'wasteNot2',            'Waste Not II',          0,     98,  1.0, 0.0, 0.0, 'countdown',   8,  'All',          47),
     innovation: new Action(         'innovation',           'Innovation',            0,     18,  1.0, 0.0, 0.0, 'countdown',   4,  'All',          26),
     greatStrides: new Action(       'greatStrides',         'Great Strides',         0,     32,  1.0, 0.0, 0.0, 'countdown',   3,  'All',          21),
-    ingenuity: new Action(          'ingenuity',            'Ingenuity',             0,     22,  1.0, 0.0, 0.0, 'countdown',   5,  'All',          15),
 
     // Heavensward actions
     preciseTouch: new Action(       'preciseTouch',         'Precise Touch',        10,     18,  1.0, 1.5, 0.0, 'immediate',   1,  'All',          53,  true,       true),
@@ -69,7 +68,6 @@ var AllActions = {
 
     // ShadowBringers actions
     preparatoryTouch: new Action(   'preparatoryTouch',     'Preparatory Touch',    20,     40,  1.0, 2.0, 0.0, 'immediate',   1,  'All',          71),
-    //reuse: new Action(              'reuse',                'Reuse',                 0,     60,  0.0, 0.0, 0.0, 'immediate',   1,  'All',          74),
     delicateSynthesis: new Action(  'delicateSynthesis',    'Delicate Synthesis',   10,     32,  1.0, 1.0, 1.0, 'immediate',   1,  'All',          76),
     intensiveSynthesis: new Action( 'intensiveSynthesis',   'Intensive Synthesis',  10,     6,  1.0, 0.0, 3.0, 'immediate',   1,  'All',          78,  true,       true),
     trainedEye: new Action(         'trainedEye',           'Trained Eye',          10,    250,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          80),
