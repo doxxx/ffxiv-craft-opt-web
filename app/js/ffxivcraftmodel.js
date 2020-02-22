@@ -324,21 +324,21 @@ function ApplyModifiers(s, action, condition) {
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = 1;
 
-    // We can only use Byregot actions when we have at least 2 stacks of inner quiet
-    if (isActionEq(action, AllActions.byregotsBlessing)) {
-        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
-            qualityIncreaseMultiplier += 0.2 * s.effects.countUps[AllActions.innerQuiet.shortName];
-        } else {
-            qualityIncreaseMultiplier = 0;
-        }
-    }
-
     if ((AllActions.greatStrides.shortName in s.effects.countDowns) && (qualityIncreaseMultiplier > 0)) {
         qualityIncreaseMultiplier += 1;
     }
 
     if (AllActions.innovation.shortName in s.effects.countDowns) {
         qualityIncreaseMultiplier += 0.2;
+    }
+
+    // We can only use Byregot actions when we have at least 2 stacks of inner quiet
+    if (isActionEq(action, AllActions.byregotsBlessing)) {
+        if ((AllActions.innerQuiet.shortName in s.effects.countUps) && s.effects.countUps[AllActions.innerQuiet.shortName] >= 1) {
+            qualityIncreaseMultiplier *= 1 + (0.2 * s.effects.countUps[AllActions.innerQuiet.shortName]);
+        } else {
+            qualityIncreaseMultiplier = 0;
+        }
     }
 
     // Calculate base and modified progress gain
