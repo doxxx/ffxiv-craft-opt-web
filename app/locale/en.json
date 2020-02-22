@@ -105,7 +105,7 @@
   "RELIABILITY_OPTIONS": "Reliability %:",
   "RELIABILITY_INFO": "Reliability is the probability that the synthesis will finish with full progress. Using actions that do not have 100% chance of success reduces reliability. Lowering this setting will allow the solver to find sequences that may produce higher quality at the cost of reliability.",
   "LIMIT_MAX_LENGTH": "Limit Maximum Length",
-  "LIMIT_MAX_LENGTH_INFO": "Enable to limit the sequence to a maximum number of actions.",
+  "LIMIT_MAX_LENGTH_INFO": "Adds a penalty to sequences over the specified limit. This is not a strict limit; under certain conditions the solver may still generate a sequence that exceeds the limit.",
   "MAX_LENGTH": "Max Length",
   "MAX_LENGTH_INFO": "The maximum number of actions in the sequence.",
   "ALGORITHM_OPTIONS": "Algorithm:",
