@@ -166,7 +166,7 @@
   "RELIABILITY_OPTIONS": "Fiabilité (en %) : ",
   "RELIABILITY_INFO": "Probabilité que la synthèse termine complètement sa progression. Utiliser des actions qui n'ont pas 100% de chance de réussite réduit ce pourcentage. Diminuer ce chiffre permettra au simulateur de trouver des séquences qui peuvent aboutir à une meilleure qualité mais dont la chance de réussite risque de diminuer.",
   "LIMIT_MAX_LENGTH": "Longueur maximale",
-  "LIMIT_MAX_LENGTH_INFO": "Activer la limitation de séquence à un nombre maximum d'actions.",
+  "LIMIT_MAX_LENGTH_INFO": "Ajoute une pénalité aux séquences dépassant la limite spécifiée. Sous certaines conditions, le solveur peut toujours générer une séquence qui dépasse la limite.",
   "MAX_LENGTH": "Maximum",
   "MAX_LENGTH_INFO": "Nombre maximum d'actions par séquence.",
   "ALGORITHM_OPTIONS": "Algorithme :",
