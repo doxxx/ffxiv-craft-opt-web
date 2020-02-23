@@ -216,15 +216,12 @@ function probExcellentForSynth(synth) {
     }
 }
 
-function calcNameOfMultiplier(s) {
-    /* From http://redd.it/3ejmp2 and http://redd.it/3d3meb
-     Assume for now that the function is linear, but capped with a minimum of 110%
-     */
-    var percentComplete = Math.floor(s.progressState / s.synth.recipe.difficulty * 100) / 100;
-    var nameOfMultiplier = -2 * percentComplete + 3;
-    nameOfMultiplier = Math.max(nameOfMultiplier, 1.0);
-
-    return nameOfMultiplier;
+function calcNameOfElementsBonus(s) {
+    // Progress is determined by calculating the percentage and rounding down to the nearest percent.
+    var percentComplete = Math.floor(s.progressState / s.synth.recipe.difficulty * 100);
+    // Bonus ranges from 0 to 200% based on the inverse of the progress.
+    var bonus = 2 * (100 - percentComplete) / 100;
+    return Math.min(2, Math.max(0, bonus));
 }
 
 function getEffectiveCrafterLevel(synth) {
@@ -277,13 +274,9 @@ function ApplyModifiers(s, action, condition) {
         delete s.effects.countDowns[AllActions.muscleMemory.shortName];
     }
 
-    // Brand actions
-    if (isActionEq(action, AllActions.brandOfTheElements)) {
-        var nameOfMultiplier = 0;
-        if (s.effects.countDowns.hasOwnProperty(AllActions.nameOfTheElements.shortName)) {
-            nameOfMultiplier = Math.min(calcNameOfMultiplier(s), 2);
-        }
-        progressIncreaseMultiplier += nameOfMultiplier;
+    // Name of the Elements increases Brand of the Element's efficiency by 0-200% based on the inverse of progress.
+    if (isActionEq(action, AllActions.brandOfTheElements) && s.effects.countDowns.hasOwnProperty(AllActions.nameOfTheElements.shortName)) {
+        progressIncreaseMultiplier += calcNameOfElementsBonus(s);
     }
 
     if (AllActions.innovation.shortName in s.effects.countDowns) {
