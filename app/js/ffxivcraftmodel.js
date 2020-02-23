@@ -218,11 +218,11 @@ function probExcellentForSynth(synth) {
 
 function calcNameOfMultiplier(s) {
     /* From http://redd.it/3ejmp2 and http://redd.it/3d3meb
-     Assume for now that the function is linear, but capped with a minimum of 110%
+     Assume for now that the function is linear, but capped with a minimum of 0% and maximum of 200%
      */
     var percentComplete = Math.floor(s.progressState / s.synth.recipe.difficulty * 100) / 100;
-    var nameOfMultiplier = -2 * percentComplete + 3;
-    nameOfMultiplier = Math.max(nameOfMultiplier, 1.0);
+    var nameOfMultiplier = -2 * percentComplete + 2;
+    nameOfMultiplier = Math.min(Math.max(nameOfMultiplier, 0.0), 2.0);
 
     return nameOfMultiplier;
 }
@@ -281,7 +281,7 @@ function ApplyModifiers(s, action, condition) {
     if (isActionEq(action, AllActions.brandOfTheElements)) {
         var nameOfMultiplier = 0;
         if (s.effects.countDowns.hasOwnProperty(AllActions.nameOfTheElements.shortName)) {
-            nameOfMultiplier = Math.min(calcNameOfMultiplier(s), 2);
+            nameOfMultiplier = calcNameOfMultiplier(s);
         }
         progressIncreaseMultiplier += nameOfMultiplier;
     }
