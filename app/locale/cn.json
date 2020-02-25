@@ -12,14 +12,13 @@
 
   "Byregot's Blessing": "比尔格的祝福",
 
-  "Ingenuity": "新颖",
-
   "Rapid Synthesis": "高速制作",
 
+  "Innovation": "改革",
   "Flawless Synthesis": "坚实制作",
   "Manipulation": "掌握",
 
-  "Waste Not II": "俭约II",
+  "Waste Not II": "长期俭约",
   "Waste Not": "俭约",
 
   "Careful Synthesis": "模范制作",
@@ -55,8 +54,10 @@
   "Alchemist": "炼金术士",
   "Culinarian": "烹调师",
 
+  "First Turn Only": "首次作业",
   "Synthesis": "作业",
   "Quality": "加工",
+  "Synthesis + Quality": "作业 + 加工",
   "CP": "制作力",
   "Durability": "耐久度",
   "Buffs": "增益",
@@ -105,6 +106,7 @@
 
   "CRAFTER_ATTRIBUTES_ALL": "选择全部",
   "CRAFTER_ATTRIBUTES_BY_LEVEL": "根据等级",
+  "CRAFTER_ATTRIBUTES_GUARANTEED": "排除低成功率",
   "CRAFTER_ATTRIBUTES_NONE": "清空所有选择",
 
   "STATS_CRAFTSMANSHIP": "作业精度",
