@@ -1137,7 +1137,7 @@
   },
   {
     "baseLevel": 15,
-    "difficulty": 176,
+    "difficulty": 55,
     "durability": 70,
     "id": "c2c442c63f2",
     "level": 15,
@@ -1377,7 +1377,7 @@
   },
   {
     "baseLevel": 17,
-    "difficulty": 118,
+    "difficulty": 66,
     "durability": 70,
     "id": "2c24c0c440c",
     "level": 17,
@@ -1559,7 +1559,7 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Skybuilders' Hemp Milk (patch 5.11)",
+      "cn": "重建用的麻乳",
       "de": "Himmelsstadt-Hanfmilch",
       "en": "Skybuilders' Hemp Milk",
       "fr": "Lait de chanvre de restauration",
@@ -1569,7 +1569,7 @@
   },
   {
     "baseLevel": 20,
-    "difficulty": 236,
+    "difficulty": 74,
     "durability": 70,
     "id": "974b6fb72ee",
     "level": 20,
@@ -1793,7 +1793,7 @@
   },
   {
     "baseLevel": 25,
-    "difficulty": 284,
+    "difficulty": 89,
     "durability": 70,
     "id": "5baed9b7bd2",
     "level": 25,
@@ -1873,7 +1873,7 @@
   },
   {
     "baseLevel": 27,
-    "difficulty": 163,
+    "difficulty": 91,
     "durability": 70,
     "id": "32f2eeeeddf",
     "level": 27,
@@ -2033,7 +2033,7 @@
   },
   {
     "baseLevel": 30,
-    "difficulty": 183,
+    "difficulty": 102,
     "durability": 70,
     "id": "737b5906178",
     "level": 30,
@@ -2561,7 +2561,7 @@
   },
   {
     "baseLevel": 32,
-    "difficulty": 198,
+    "difficulty": 110,
     "durability": 80,
     "id": "9e19cd2b0fe",
     "level": 32,
@@ -2673,7 +2673,7 @@
   },
   {
     "baseLevel": 35,
-    "difficulty": 393,
+    "difficulty": 123,
     "durability": 80,
     "id": "e4cdeacdbf4",
     "level": 35,
@@ -2849,7 +2849,7 @@
   },
   {
     "baseLevel": 40,
-    "difficulty": 441,
+    "difficulty": 138,
     "durability": 80,
     "id": "13f7d793e42",
     "level": 40,
@@ -2903,7 +2903,7 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Skybuilders' Uncooked Pasta (patch 5.11)",
+      "cn": "重建用的干面",
       "de": "Himmelsstadt-Nudeln",
       "en": "Skybuilders' Uncooked Pasta",
       "fr": "Pâtes de restauration",
@@ -2961,7 +2961,7 @@
   },
   {
     "baseLevel": 43,
-    "difficulty": 279,
+    "difficulty": 155,
     "durability": 80,
     "id": "7d5a4a39210",
     "level": 43,
@@ -3025,7 +3025,7 @@
   },
   {
     "baseLevel": 45,
-    "difficulty": 505,
+    "difficulty": 158,
     "durability": 80,
     "id": "3b4dc32354c",
     "level": 45,
@@ -3073,7 +3073,7 @@
   },
   {
     "baseLevel": 45,
-    "difficulty": 505,
+    "difficulty": 158,
     "durability": 80,
     "id": "4218baeebf2",
     "level": 45,
@@ -3185,7 +3185,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 595,
+    "difficulty": 186,
     "durability": 80,
     "id": "df7436bb59a",
     "level": 50,
@@ -3329,11 +3329,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 95,
+    "difficulty": 93,
     "durability": 40,
     "id": "33511e2eaba",
     "level": 50,
-    "maxQuality": 2692,
+    "maxQuality": 2641,
     "name": {
       "cn": "假果实",
       "de": "Falsche Kupo-Nuss",
@@ -3377,11 +3377,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 273,
+    "difficulty": 267,
     "durability": 80,
     "id": "7a2627085bd",
     "level": 50,
-    "maxQuality": 673,
+    "maxQuality": 660,
     "name": {
       "cn": "超级喇叭部件",
       "de": "Trötenkomponente",
@@ -3473,11 +3473,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 364,
+    "difficulty": 357,
     "durability": 80,
     "id": "55d35e7cc4e",
     "level": 50,
-    "maxQuality": 538,
+    "maxQuality": 528,
     "name": {
       "cn": "莫古力用工具部件",
       "de": "Mogry-Werkzeugkomponente",
@@ -3521,11 +3521,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 228,
+    "difficulty": 223,
     "durability": 80,
     "id": "ff4fbe97b34",
     "level": 50,
-    "maxQuality": 996,
+    "maxQuality": 977,
     "name": {
       "cn": "石像修复部件",
       "de": "Steinstatuenkomponente",
@@ -3553,11 +3553,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 486,
+    "difficulty": 476,
     "durability": 80,
     "id": "4fb95331bd7",
     "level": 50,
-    "maxQuality": 673,
+    "maxQuality": 660,
     "name": {
       "cn": "名牌加工部件",
       "de": "Gedenktafelkomponente",
@@ -3682,7 +3682,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 624,
+    "difficulty": 195,
     "durability": 80,
     "id": "3a0645c0773",
     "level": 55,
@@ -3716,7 +3716,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 624,
+    "difficulty": 195,
     "durability": 80,
     "id": "a4e6fc31e12",
     "level": 55,
@@ -3784,7 +3784,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 745,
+    "difficulty": 233,
     "durability": 80,
     "id": "4d4ed8eb197",
     "level": 70,
@@ -3869,7 +3869,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 745,
+    "difficulty": 233,
     "durability": 80,
     "id": "2e1f846d104",
     "level": 70,
@@ -4056,11 +4056,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 419,
+    "difficulty": 233,
     "durability": 80,
     "id": "76211a74b64",
     "level": 70,
-    "maxQuality": 5257,
+    "maxQuality": 2921,
     "name": {
       "cn": "番茄酱",
       "de": "Tomatenwürze",
@@ -4141,11 +4141,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 801,
+    "difficulty": 445,
     "durability": 80,
     "id": "356af03b5ea",
     "level": 90,
-    "maxQuality": 8964,
+    "maxQuality": 4980,
     "name": {
       "cn": "浓厚番茄酱",
       "de": "Fleischtomatenwürze",
@@ -4243,14 +4243,14 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 1424,
+    "difficulty": 445,
     "durability": 80,
     "id": "1652594b902",
     "level": 90,
     "maxQuality": 2490,
     "name": {
       "cn": "恋人节蛋糕",
-      "de": "Valentionskuchen",
+      "de": "Valentionkuchen",
       "en": "Valentione's Cake",
       "fr": "Gâteau des Valention",
       "ja": "ヴァレンティオンケーキ",
@@ -4328,11 +4328,11 @@
   },
   {
     "baseLevel": 51,
-    "difficulty": 421,
+    "difficulty": 339,
     "durability": 80,
     "id": "7c497297bc1",
-    "level": 120,
-    "maxQuality": 4561,
+    "level": 115,
+    "maxQuality": 3951,
     "name": {
       "cn": "无花果奶冻",
       "de": "Feigen à la Barvarois",
@@ -4344,11 +4344,11 @@
   },
   {
     "baseLevel": 51,
-    "difficulty": 210,
+    "difficulty": 169,
     "durability": 40,
     "id": "10e999dde6e",
-    "level": 120,
-    "maxQuality": 4561,
+    "level": 115,
+    "maxQuality": 3951,
     "name": {
       "cn": "牦牛奶油",
       "de": "Sauerrahm",
@@ -4376,7 +4376,7 @@
   },
   {
     "baseLevel": 52,
-    "difficulty": 905,
+    "difficulty": 503,
     "durability": 80,
     "id": "ba2dde5e48b",
     "level": 125,
@@ -4408,7 +4408,7 @@
   },
   {
     "baseLevel": 52,
-    "difficulty": 905,
+    "difficulty": 503,
     "durability": 80,
     "id": "9e85fb49f22",
     "level": 125,
@@ -4584,7 +4584,7 @@
   },
   {
     "baseLevel": 55,
-    "difficulty": 1254,
+    "difficulty": 697,
     "durability": 70,
     "id": "a171ae178b9",
     "level": 136,
@@ -4632,7 +4632,7 @@
   },
   {
     "baseLevel": 56,
-    "difficulty": 1353,
+    "difficulty": 752,
     "durability": 70,
     "id": "10060bc5094",
     "level": 139,
@@ -4648,7 +4648,7 @@
   },
   {
     "baseLevel": 56,
-    "difficulty": 1353,
+    "difficulty": 752,
     "durability": 70,
     "id": "8539edb6168",
     "level": 139,
@@ -4664,7 +4664,7 @@
   },
   {
     "baseLevel": 56,
-    "difficulty": 1353,
+    "difficulty": 752,
     "durability": 70,
     "id": "48d8e5e8e9d",
     "level": 139,
@@ -4680,7 +4680,7 @@
   },
   {
     "baseLevel": 56,
-    "difficulty": 1353,
+    "difficulty": 752,
     "durability": 70,
     "id": "3f1d90f46ff",
     "level": 139,
@@ -4696,7 +4696,7 @@
   },
   {
     "baseLevel": 56,
-    "difficulty": 1353,
+    "difficulty": 752,
     "durability": 70,
     "id": "65778a38adf",
     "level": 139,
@@ -4744,7 +4744,7 @@
   },
   {
     "baseLevel": 57,
-    "difficulty": 1454,
+    "difficulty": 808,
     "durability": 70,
     "id": "55e640990e4",
     "level": 142,
@@ -4808,7 +4808,7 @@
   },
   {
     "baseLevel": 57,
-    "difficulty": 1454,
+    "difficulty": 808,
     "durability": 70,
     "id": "b4b4282240e",
     "level": 142,
@@ -5208,7 +5208,7 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1720,
+    "difficulty": 956,
     "durability": 70,
     "id": "4cdf7ff6dda",
     "level": 150,
@@ -5534,7 +5534,7 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Skybuilders' Tea (patch 5.11)",
+      "cn": "重建用的红茶",
       "de": "Himmelsstadt-Schwarztee",
       "en": "Skybuilders' Tea",
       "fr": "Thé de restauration",
@@ -5592,11 +5592,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 70,
     "id": "9e1bf07dbb4",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "扁桃仁牛角面包",
       "de": "Mandelcroissant",
@@ -5609,11 +5609,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 70,
     "id": "b651ee17ce7",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "焦糖牛奶沙司",
       "de": "Crème brulée",
@@ -5626,11 +5626,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 60,
     "id": "7dda9aa5e68",
     "level": 160,
-    "maxQuality": 6701,
+    "maxQuality": 6299,
     "name": {
       "cn": "东方风格的收藏品",
       "de": "Fernöstliche Antiquität",
@@ -5643,11 +5643,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 558,
+    "difficulty": 491,
     "durability": 60,
     "id": "006c3bb72f5",
     "level": 160,
-    "maxQuality": 3350,
+    "maxQuality": 3149,
     "name": {
       "cn": "东方风格的收藏品部件",
       "de": "Komponente einer fernöstlichen Antiquität",
@@ -5660,11 +5660,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 70,
     "id": "d525e48a3ed",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "热巧克力",
       "de": "Heiße Schokolade",
@@ -5677,11 +5677,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 70,
     "id": "2292b5ff258",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "国王饼",
       "de": "Brioche des Rois",
@@ -5694,11 +5694,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 2008,
+    "difficulty": 982,
     "durability": 70,
     "id": "253d6becbd9",
     "level": 160,
-    "maxQuality": 4188,
+    "maxQuality": 3937,
     "name": {
       "cn": "命名日蛋糕",
       "de": "Geburtstagskuchen",
@@ -5711,11 +5711,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 60,
     "id": "3638f28f53d",
     "level": 160,
-    "maxQuality": 6701,
+    "maxQuality": 6299,
     "name": {
       "cn": "孤儿院的日用品",
       "de": "Waisenhaus-Spende",
@@ -5728,11 +5728,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 558,
+    "difficulty": 491,
     "durability": 60,
     "id": "d9ec9084931",
     "level": 160,
-    "maxQuality": 3350,
+    "maxQuality": 3149,
     "name": {
       "cn": "孤儿院的日用品部件",
       "de": "Komponente einer Waisenhaus-Spende",
@@ -5745,11 +5745,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 70,
     "id": "8b8b655b73d",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "炖番茄",
       "de": "Ishgarder Fischtopf",
@@ -5762,11 +5762,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 70,
     "id": "a6dfff05cdd",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "鲜红罗兰莓派",
       "de": "Flockenbeerentorte",
@@ -5779,11 +5779,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 70,
     "id": "729f268d858",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "清蒸风神鱼",
       "de": "Gedünsteter Vergelter",
@@ -5796,11 +5796,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 70,
     "id": "0368cac78b5",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "香烤湖胆",
       "de": "Seeigel-Pastete",
@@ -5813,11 +5813,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "50581898288",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "炖鮟鱇",
       "de": "Anglerfisch-Eintopf",
@@ -5830,11 +5830,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "27c41844492",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "油封牡蛎",
       "de": "Austern-Confit",
@@ -5847,11 +5847,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "b822a90fe3c",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "糖沼鯥",
       "de": "Süßer Gnomenfisch",
@@ -5864,11 +5864,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
+    "difficulty": 1106,
     "durability": 70,
     "id": "a1f9f5a63b3",
     "level": 210,
-    "maxQuality": 10373,
+    "maxQuality": 8298,
     "name": {
       "cn": "苹果卷",
       "de": "Apfelstrudel",
@@ -5881,11 +5881,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
+    "difficulty": 1106,
     "durability": 70,
     "id": "12771481ecf",
     "level": 210,
-    "maxQuality": 10373,
+    "maxQuality": 8298,
     "name": {
       "cn": "山珍番茄面",
       "de": "Boscaiola",
@@ -5898,62 +5898,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "4e652767741",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "洛夫坦山羊排",
-      "de": "Loaghtan-Steak",
-      "en": "Loaghtan Steak",
-      "fr": "Steak de loaghtan",
-      "ja": "ロフタンステーキ",
-      "ko": "큰뿔산양 스테이크"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "c88de565d7e",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "风味拌细面",
-      "de": "Peperoncino",
-      "en": "Peperoncino",
-      "fr": "Pâtes aux piments",
-      "ja": "ペペロンチーノ",
-      "ko": "알리오 올리오 페페론치노"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "bb58063bdbc",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "果香特饮",
-      "de": "Würziger Apfelsaft",
-      "en": "Spiced Cider",
-      "fr": "Cidre aux épices",
-      "ja": "スパイスサイダー",
-      "ko": "양념 사과주스"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "9c38f25f34e",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "苍穹鸡蛋汤",
       "de": "Himmelseier-Suppe",
@@ -5966,11 +5915,28 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "4e652767741",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "洛夫坦山羊排",
+      "de": "Loaghtan-Steak",
+      "en": "Loaghtan Steak",
+      "fr": "Steak de loaghtan",
+      "ja": "ロフタンステーキ",
+      "ko": "큰뿔산양 스테이크"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1234,
     "durability": 70,
     "id": "d5b3d0104aa",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "田园番茄面",
       "de": "Pasta Ortolano",
@@ -5983,11 +5949,45 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "c88de565d7e",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "风味拌细面",
+      "de": "Peperoncino",
+      "en": "Peperoncino",
+      "fr": "Pâtes aux piments",
+      "ja": "ペペロンチーノ",
+      "ko": "알리오 올리오 페페론치노"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "bb58063bdbc",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "果香特饮",
+      "de": "Würziger Apfelsaft",
+      "en": "Spiced Cider",
+      "fr": "Cidre aux épices",
+      "ja": "スパイスサイダー",
+      "ko": "양념 사과주스"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1476,
     "durability": 70,
     "id": "efabdedc728",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "苹果芙纽多",
       "de": "Apfel-Flaugnarde",
@@ -6000,11 +6000,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "7ad39c544b6",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "苍穹蛋奶酒",
       "de": "Himmlischer Eierflip",
@@ -6017,11 +6017,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "55cf10c93d9",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "蓝带肉排",
       "de": "Cordon Bleu",
@@ -6034,11 +6034,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "96f191cca0b",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "祭司蛋包饭",
       "de": "Priester-Omelett",
@@ -6051,11 +6051,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "c9d78580624",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "烟肉蛋酱拌面",
       "de": "Carbonara",
@@ -6068,11 +6068,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "53022bf2c76",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "海鲜拌面",
       "de": "Pescatole",
@@ -6085,11 +6085,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "b12110e1306",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "嫩炒蛋",
       "de": "Pilzomelett",
@@ -6099,6 +6099,22 @@
       "ko": "버섯달걀죽"
     },
     "stars": 4
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "id": "6bfba32c6b9",
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "果仁蜜饼",
+      "de": "Baklava",
+      "en": "Baklava",
+      "fr": "Baklava",
+      "ja": "バクラヴァ",
+      "ko": "바클라바"
+    }
   },
   {
     "baseLevel": 61,
@@ -6150,27 +6166,11 @@
   },
   {
     "baseLevel": 61,
-    "difficulty": 1400,
-    "durability": 80,
-    "id": "6bfba32c6b9",
-    "level": 260,
-    "maxQuality": 9065,
-    "name": {
-      "cn": "果仁蜜饼",
-      "de": "Baklava",
-      "en": "Baklava",
-      "fr": "Baklava",
-      "ja": "バクラヴァ",
-      "ko": "바클라바"
-    }
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 1400,
+    "difficulty": 1116,
     "durability": 80,
     "id": "44e5c4654a4",
-    "level": 260,
-    "maxQuality": 9065,
+    "level": 255,
+    "maxQuality": 8377,
     "name": {
       "cn": "枇杷果饮",
       "de": "Mispelsaft",
@@ -6182,11 +6182,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 842,
+    "difficulty": 631,
     "durability": 40,
     "id": "909cb1a0e24",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "海藻盐",
       "de": "Algensalz",
@@ -6198,11 +6198,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 60,
     "id": "39d3b91a6b9",
     "level": 265,
-    "maxQuality": 7801,
+    "maxQuality": 6864,
     "name": {
       "cn": "防鲨用品",
       "de": "Haifischharpune",
@@ -6214,11 +6214,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "26483da2aa7",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "荞麦茶",
       "de": "Buchweizen-Tee",
@@ -6230,11 +6230,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "0f383681cff",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "盐烤石楠嘉鱼",
       "de": "Gegrillter Saibling",
@@ -6246,11 +6246,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 60,
     "id": "84c3ec72446",
     "level": 265,
-    "maxQuality": 7801,
+    "maxQuality": 6864,
     "name": {
       "cn": "基拉巴尼亚医药品",
       "de": "Phiolenset abanischer Medizin",
@@ -6262,11 +6262,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 842,
+    "difficulty": 631,
     "durability": 60,
     "id": "1594c780888",
     "level": 265,
-    "maxQuality": 3900,
+    "maxQuality": 3432,
     "name": {
       "cn": "基拉巴尼亚医药品部件",
       "de": "Komponente abanischer Medizin",
@@ -6278,11 +6278,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 842,
+    "difficulty": 631,
     "durability": 60,
     "id": "3845ecba812",
     "level": 265,
-    "maxQuality": 3900,
+    "maxQuality": 3432,
     "name": {
       "cn": "防鲨用品部件",
       "de": "Komponente einer Haifischharpune",
@@ -6294,11 +6294,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "66d785c3241",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "荞麦糊",
       "de": "Kascha",
@@ -6310,11 +6310,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 60,
     "id": "08b3d818ce0",
     "level": 265,
-    "maxQuality": 7801,
+    "maxQuality": 6864,
     "name": {
       "cn": "梅氏一族的日用品",
       "de": "Jagdbedarf",
@@ -6326,11 +6326,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 842,
+    "difficulty": 631,
     "durability": 60,
     "id": "a6ea3ea4759",
     "level": 265,
-    "maxQuality": 3900,
+    "maxQuality": 3432,
     "name": {
       "cn": "梅氏一族的日用品部件",
       "de": "Komponente eines Gebrauchsgegenstands der M",
@@ -6342,11 +6342,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 60,
     "id": "350c80a20ec",
     "level": 270,
-    "maxQuality": 8351,
+    "maxQuality": 7348,
     "name": {
       "cn": "库尔札斯防寒用品",
       "de": "Coerthischer Wintermantel",
@@ -6358,11 +6358,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 984,
+    "difficulty": 738,
     "durability": 60,
     "id": "06796154bfd",
     "level": 270,
-    "maxQuality": 4175,
+    "maxQuality": 3674,
     "name": {
       "cn": "库尔札斯防寒用品部件",
       "de": "Komponente coerthischer Winterkleidung",
@@ -6374,11 +6374,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 984,
+    "difficulty": 738,
     "durability": 40,
     "id": "17bbbb55c3f",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "棉籽油",
       "de": "Baumwollsamenöl",
@@ -6390,11 +6390,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1377,
+    "difficulty": 1033,
     "durability": 80,
     "id": "39a6c5d1c60",
     "level": 270,
-    "maxQuality": 5741,
+    "maxQuality": 5052,
     "name": {
       "cn": "多玛饭团",
       "de": "Domanische Onigiri",
@@ -6406,11 +6406,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "60470f5df98",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "烤海螺",
       "de": "Gekochte Turbanschnecke",
@@ -6422,11 +6422,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "78bf3b42bcd",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "山芋泥荞麦面",
       "de": "Toffel-Soba",
@@ -6438,11 +6438,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 60,
     "id": "9378a4c4ab5",
     "level": 270,
-    "maxQuality": 8351,
+    "maxQuality": 7348,
     "name": {
       "cn": "解放军的军需品",
       "de": "Rucksack für die Befreiungsarmee",
@@ -6454,11 +6454,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 984,
+    "difficulty": 738,
     "durability": 60,
     "id": "530e988868b",
     "level": 270,
-    "maxQuality": 4175,
+    "maxQuality": 3674,
     "name": {
       "cn": "解放军的军需品部件",
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
@@ -6470,11 +6470,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 60,
     "id": "0435fd0ff07",
     "level": 270,
-    "maxQuality": 8351,
+    "maxQuality": 7348,
     "name": {
       "cn": "翠水乡特产",
       "de": "Kostbarkeit aus Sui no Sato",
@@ -6486,11 +6486,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 984,
+    "difficulty": 738,
     "durability": 60,
     "id": "4f7c03105ea",
     "level": 270,
-    "maxQuality": 4175,
+    "maxQuality": 3674,
     "name": {
       "cn": "翠水乡特产部件",
       "de": "Komponente einer Kostbarkeit aus Sui no Sato",
@@ -6502,11 +6502,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 1058,
+    "difficulty": 793,
     "durability": 40,
     "id": "63e2ef929fe",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "甜菜糖",
       "de": "Rübenzucker",
@@ -6518,11 +6518,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 60,
     "id": "e591efa48be",
     "level": 273,
-    "maxQuality": 8680,
+    "maxQuality": 7725,
     "name": {
       "cn": "云海珍宝",
       "de": "Wolkenmeerperle",
@@ -6534,11 +6534,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 1058,
+    "difficulty": 793,
     "durability": 60,
     "id": "9bdca8d131a",
     "level": 273,
-    "maxQuality": 4340,
+    "maxQuality": 3862,
     "name": {
       "cn": "云海珍宝部件",
       "de": "Komponente einer Wolkenmeerperle",
@@ -6550,11 +6550,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "4075976479f",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "油炸蟹肉饼",
       "de": "Krabbenkroketten",
@@ -6566,11 +6566,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 1058,
+    "difficulty": 793,
     "durability": 40,
     "id": "61ed2874bcf",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "木棉豆腐",
       "de": "Fester Tofu",
@@ -6582,11 +6582,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "ba0265e47a1",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "豆腐味噌汁",
       "de": "Miso-Suppe mit Tofu",
@@ -6598,11 +6598,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 3808,
+    "difficulty": 1586,
     "durability": 80,
     "id": "2b18b018855",
     "level": 273,
-    "maxQuality": 5425,
+    "maxQuality": 4828,
     "name": {
       "cn": "东方午餐组合：乌冬面",
       "de": "Fernöstlicher Udon-Lunch",
@@ -6614,11 +6614,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 1584,
+    "difficulty": 1187,
     "durability": 80,
     "id": "14145001e8f",
     "level": 276,
-    "maxQuality": 6194,
+    "maxQuality": 5512,
     "name": {
       "cn": "多玛乌冬面汤底",
       "de": "Udon-Suppe",
@@ -6630,11 +6630,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "cbf8240cc77",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "煮杂菜",
       "de": "Gameni",
@@ -6646,11 +6646,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 4075,
+    "difficulty": 1697,
     "durability": 80,
     "id": "978a5af25f2",
     "level": 276,
-    "maxQuality": 5631,
+    "maxQuality": 5011,
     "name": {
       "cn": "东方午餐组合：饭团",
       "de": "Fernöstlicher Onigiri-Lunch",
@@ -6662,11 +6662,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 4075,
+    "difficulty": 1697,
     "durability": 80,
     "id": "9dade2626b6",
     "level": 276,
-    "maxQuality": 5631,
+    "maxQuality": 5011,
     "name": {
       "cn": "东方午餐组合：寿司",
       "de": "Fernöstlicher Sushi-Lunch",
@@ -6678,11 +6678,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 1132,
+    "difficulty": 848,
     "durability": 40,
     "id": "c45da3fdacd",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "米醋",
       "de": "Reisessig",
@@ -6694,11 +6694,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "38fc306bc98",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "牛肉串",
       "de": "Shorlog",
@@ -6710,11 +6710,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "4b7875eeddf",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "浇汁菜蛙",
       "de": "Froschschenkel Süß-Sauer",
@@ -6726,11 +6726,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 60,
     "id": "b82595f2379",
     "level": 279,
-    "maxQuality": 9340,
+    "maxQuality": 8311,
     "name": {
       "cn": "崖畔亭蒸馏酒必需品",
       "de": "Spirituosenzubehörteil",
@@ -6742,11 +6742,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 60,
     "id": "b91ad49fef8",
     "level": 279,
-    "maxQuality": 9340,
+    "maxQuality": 8311,
     "name": {
       "cn": "伊修加德菜肴必需品",
       "de": "Ishgarder Kochutensil",
@@ -6758,14 +6758,14 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 1205,
+    "difficulty": 904,
     "durability": 60,
     "id": "b73e1525742",
     "level": 279,
-    "maxQuality": 4670,
+    "maxQuality": 4155,
     "name": {
       "cn": "伊修加德菜肴必需品的部件",
-      "de": "Ishgarder Kochutensil-Komponente",
+      "de": "Komponente eines Ishgarder Kochutensils",
       "en": "Ishgardian Culinary Materials",
       "fr": "Matériaux raffinés pour composant de recette ishgardaise",
       "ja": "イシュガルド料理必需品部材",
@@ -6774,11 +6774,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 1205,
+    "difficulty": 904,
     "durability": 60,
     "id": "5767ed6d81b",
     "level": 279,
-    "maxQuality": 4670,
+    "maxQuality": 4155,
     "name": {
       "cn": "崖畔亭蒸馏酒必需品的部件",
       "de": "Komponente eines Spirituosenzubehörteils",
@@ -6790,11 +6790,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "5eb58eddae3",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "游牧民风味肉饼",
       "de": "Nomaden-Fleischpastete",
@@ -6806,11 +6806,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 4339,
+    "difficulty": 1808,
     "durability": 80,
     "id": "3cc36601612",
     "level": 279,
-    "maxQuality": 5838,
+    "maxQuality": 5194,
     "name": {
       "cn": "东方午餐组合：荞麦面",
       "de": "Fernöstlicher Soba-Lunch",
@@ -6822,11 +6822,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "e398da70c88",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "根菜沙拉",
       "de": "Steppensalat",
@@ -6838,11 +6838,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "042d51bc5b7",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "天妇罗拼盘",
       "de": "Tempura-Platte",
@@ -6854,11 +6854,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "218e2c276f0",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "暮晖牛肉汤",
       "de": "Kriegereintopf",
@@ -6870,11 +6870,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 1279,
+    "difficulty": 959,
     "durability": 60,
     "id": "377413280b7",
     "level": 282,
-    "maxQuality": 4835,
+    "maxQuality": 4302,
     "name": {
       "cn": "崖畔亭备用品的部件",
       "de": "Komponente eines Klippenhänger-Einrichtungsgegenstands",
@@ -6886,11 +6886,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "f71d83754cc",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "芙蓉蟹",
       "de": "Ei Foo Young",
@@ -6902,11 +6902,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "0ea737a00f2",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "鱼汁",
       "de": "Fischeintopf",
@@ -6918,11 +6918,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 60,
     "id": "6cc452f77f4",
     "level": 282,
-    "maxQuality": 9670,
+    "maxQuality": 8604,
     "name": {
       "cn": "崖畔亭的备用品",
       "de": "Klippenhänger-Einrichtungsgegenstand",
@@ -6934,11 +6934,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "ee69513bfd5",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "柿子布丁",
       "de": "Kakipudding",
@@ -6950,11 +6950,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 60,
     "id": "c9824d0c561",
     "level": 282,
-    "maxQuality": 9670,
+    "maxQuality": 8604,
     "name": {
       "cn": "崖畔亭包子必需品",
       "de": "Buuds-Kochutensil",
@@ -6966,11 +6966,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 1279,
+    "difficulty": 959,
     "durability": 60,
     "id": "2b2002a75cb",
     "level": 282,
-    "maxQuality": 4835,
+    "maxQuality": 4302,
     "name": {
       "cn": "崖畔亭包子必需品的部件",
       "de": "Komponente eines Buuds-Kochutensils",
@@ -6982,11 +6982,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 60,
     "id": "c1a3f033a6d",
     "level": 285,
-    "maxQuality": 10000,
+    "maxQuality": 8896,
     "name": {
       "cn": "酿造奶酒的必需品",
       "de": "Arkhi-Destillierutensil",
@@ -6998,11 +6998,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 1353,
+    "difficulty": 1014,
     "durability": 60,
     "id": "a3a21503397",
     "level": 285,
-    "maxQuality": 5000,
+    "maxQuality": 4448,
     "name": {
       "cn": "酿造奶酒必需品的部件",
       "de": "Komponente eines Arkhi-Destillierutensils",
@@ -7014,11 +7014,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "60d20c20acc",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "炖黄尾鰤鱼头",
       "de": "Gekochter Bernsteinmakrelen-Kopf",
@@ -7030,11 +7030,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "7a56f677852",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "多玛茶",
       "de": "Domanischer Tee",
@@ -7046,11 +7046,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 1894,
+    "difficulty": 1420,
     "durability": 80,
     "id": "ac19a8af69f",
     "level": 285,
-    "maxQuality": 6875,
+    "maxQuality": 6116,
     "name": {
       "cn": "手握寿司",
       "de": "Sushi",
@@ -7062,11 +7062,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "5bc70348189",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "鬼壳烧",
       "de": "Gegrillter Hummer",
@@ -7078,11 +7078,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 5137,
+    "difficulty": 2140,
     "durability": 80,
     "id": "a80fe98f44c",
     "level": 288,
-    "maxQuality": 6456,
+    "maxQuality": 5745,
     "name": {
       "cn": "面包篮",
       "de": "Brotkorb",
@@ -7094,11 +7094,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "596510d86e3",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "散寿司",
       "de": "Chirashi-Sushi",
@@ -7110,11 +7110,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "d918084eeaf",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "长颈骆肉干",
       "de": "Getrocknetes Jhammel-Fleisch",
@@ -7126,11 +7126,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "25a041a891d",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "味噌田乐",
       "de": "Miso-Dengaku",
@@ -7142,11 +7142,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2066,
+    "difficulty": 1549,
     "durability": 80,
     "id": "296875354ed",
     "level": 290,
-    "maxQuality": 7252,
+    "maxQuality": 6454,
     "name": {
       "cn": "多玛寿喜烧",
       "de": "Domanisches Sukiyaki",
@@ -7158,11 +7158,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2066,
+    "difficulty": 1549,
     "durability": 80,
     "id": "dedd55ea121",
     "level": 290,
-    "maxQuality": 7252,
+    "maxQuality": 6454,
     "name": {
       "cn": "解毒的药饵",
       "de": "Entgiftende Brühe",
@@ -7174,13 +7174,13 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2066,
+    "difficulty": 1549,
     "durability": 60,
     "id": "c27d73e4ed5",
     "level": 290,
-    "maxQuality": 10549,
+    "maxQuality": 9388,
     "name": {
-      "cn": "Flyer Printing Set (patch 5.1)",
+      "cn": "传单制作必需品",
       "de": "Flugblattdruck-Utensil",
       "en": "Flyer Printing Set",
       "fr": "Kit pour dépliants",
@@ -7190,11 +7190,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "d9b341e76e1",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "长颈骆焗菜",
       "de": "Jhammel-Moussaka",
@@ -7206,13 +7206,13 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 60,
     "id": "6fb9392e26d",
     "level": 290,
-    "maxQuality": 36923,
+    "maxQuality": 32860,
     "name": {
-      "cn": "Skybuilders' All-purpose Infusion (patch 5.11)",
+      "cn": "重建用的药汤",
       "de": "Himmelsstadt-Kräuterbad",
       "en": "Skybuilders' All-purpose Infusion",
       "fr": "Tisane de restauration",
@@ -7222,11 +7222,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "fd759b23a62",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "清蒸赤点石斑鱼",
       "de": "Gedünsteter Zackenbarsch",
@@ -7238,11 +7238,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "c7b2bd171a5",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "炖河鲷",
       "de": "Gedünstete Flussbrasse",
@@ -7254,11 +7254,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3149,
+    "difficulty": 2361,
     "durability": 70,
     "id": "73d6ee69d4d",
     "level": 300,
-    "maxQuality": 14071,
+    "maxQuality": 11960,
     "name": {
       "cn": "糖煮水果果冻",
       "de": "Geliertes Kompott",
@@ -7271,13 +7271,13 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3149,
+    "difficulty": 2361,
     "durability": 60,
     "id": "8cacd17cb23",
     "level": 300,
-    "maxQuality": 11256,
+    "maxQuality": 9568,
     "name": {
-      "cn": "Kholusian Cuisine Set (patch 5.1)",
+      "cn": "新菜肴必需品",
       "de": "Menü-Komponenten",
       "en": "Kholusian Cuisine Set",
       "fr": "Composant pour nouveau menu",
@@ -7288,11 +7288,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3149,
+    "difficulty": 2361,
     "durability": 70,
     "id": "eb431c9f22e",
     "level": 300,
-    "maxQuality": 14071,
+    "maxQuality": 11960,
     "name": {
       "cn": "柿叶寿司",
       "de": "Kakiblatt-Sushi",
@@ -7305,11 +7305,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "90caa85b0a2",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "蒸蛋羹",
       "de": "Hinganische Eierspeise",
@@ -7322,11 +7322,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "2d2612b87be",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "炖猪肉",
       "de": "Kakuni",
@@ -7339,11 +7339,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "e188dd826aa",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "猪肉酱汤",
       "de": "Schweinefleischeintopf",
@@ -7356,11 +7356,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "ead5983c956",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "王室鲑鱼排",
       "de": "Othardischer Lachs nach Müllerinart",
@@ -7373,11 +7373,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "067bd7548d0",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "草原奶茶",
       "de": "Steppen-Tee",
@@ -7394,7 +7394,7 @@
     "durability": 70,
     "id": "3987bc93bcf",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "纳夏煎饼",
       "de": "Banh Xeo",
@@ -7411,7 +7411,7 @@
     "durability": 70,
     "id": "653ca63b9a3",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "红莲特饮",
       "de": "Purpur-Apfelsaft",
@@ -7428,7 +7428,7 @@
     "durability": 70,
     "id": "af89ae0f8ff",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "犏牛肉排",
       "de": "Dzo-Steak",
@@ -7445,7 +7445,7 @@
     "durability": 70,
     "id": "135a360b637",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "辣椒焗奶酪",
       "de": "Ema Datshi",
@@ -7462,7 +7462,7 @@
     "durability": 70,
     "id": "b79c2298b2e",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "什锦寿司卷",
       "de": "Futomaki-Rolle",
@@ -7479,7 +7479,7 @@
     "durability": 70,
     "id": "79427f0d115",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "金平糖",
       "de": "Konpeito",
@@ -7496,7 +7496,7 @@
     "durability": 70,
     "id": "feded5cc244",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "抹茶",
       "de": "Matcha-Tee",
@@ -7513,7 +7513,7 @@
     "durability": 70,
     "id": "eed42f9af1f",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "炖点",
       "de": "Oden",
@@ -7530,7 +7530,7 @@
     "durability": 70,
     "id": "8c3ed876d20",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "煎绿韭葱",
       "de": "Gebratener Lauch",
@@ -7547,7 +7547,7 @@
     "durability": 70,
     "id": "71b13397719",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "章鱼烧",
       "de": "Takoyaki",
@@ -7564,7 +7564,7 @@
     "durability": 70,
     "id": "c958cf439df",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "豆腐煎饼",
       "de": "Tofu-Pfannkuchen",
@@ -7581,7 +7581,7 @@
     "durability": 70,
     "id": "78df70e292f",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "生姜沙拉",
       "de": "Ingwersalat",
@@ -7598,7 +7598,7 @@
     "durability": 70,
     "id": "28ea0dc9a95",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "烤茄子",
       "de": "Patlican Imam Bayildi",
@@ -7615,7 +7615,7 @@
     "durability": 70,
     "id": "b2599e4049c",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "拉条子",
       "de": "Laghman",
@@ -7632,7 +7632,7 @@
     "durability": 70,
     "id": "c5ebd1f1b91",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "奶酪甜甜圈",
       "de": "Papanasi",
@@ -7649,7 +7649,7 @@
     "durability": 70,
     "id": "420b0ec8049",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "路易波士红茶",
       "de": "Rooibos-Tee",
@@ -7666,7 +7666,7 @@
     "durability": 70,
     "id": "4ffa2f4f426",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "鲑鱼松饼",
       "de": "Lachs-Muffin",
@@ -7683,7 +7683,7 @@
     "durability": 70,
     "id": "1906362338b",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "番茄炖蛋",
       "de": "Shakshouka",
@@ -7700,7 +7700,7 @@
     "durability": 40,
     "id": "0ec81dc781b",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "油橄榄油",
       "de": "Frantoio-Öl",
@@ -7716,7 +7716,7 @@
     "durability": 80,
     "id": "2b8f13e2d51",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "秧鸡烤肉",
       "de": "Gegrillte Ralle",
@@ -7732,9 +7732,9 @@
     "durability": 60,
     "id": "09516d46909",
     "level": 390,
-    "maxQuality": 11256,
+    "maxQuality": 10468,
     "name": {
-      "cn": "Honeybee Trappings (patch 5.1)",
+      "cn": "舞台服装必需品",
       "de": "Bühnenkostümteil",
       "en": "Honeybee Trappings",
       "fr": "Composant pour costume de scène",
@@ -7748,7 +7748,7 @@
     "durability": 80,
     "id": "b17c92939a2",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "紫胡萝卜果汁",
       "de": "Purpurkarottensaft",
@@ -7764,9 +7764,9 @@
     "durability": 60,
     "id": "f27d9fc6a3f",
     "level": 395,
-    "maxQuality": 11878,
+    "maxQuality": 10928,
     "name": {
-      "cn": "Airship Fittings (patch 5.1)",
+      "cn": "飞空艇改装必需品",
       "de": "Luftschiff-Komponente",
       "en": "Airship Fittings",
       "fr": "Élément pour rénovation d'aéronef",
@@ -7780,7 +7780,7 @@
     "durability": 80,
     "id": "d63727da929",
     "level": 395,
-    "maxQuality": 14848,
+    "maxQuality": 13660,
     "name": {
       "cn": "蚕豆汤",
       "de": "Favabohnensuppe",
@@ -7796,7 +7796,7 @@
     "durability": 80,
     "id": "1732c75b5f9",
     "level": 395,
-    "maxQuality": 14848,
+    "maxQuality": 13660,
     "name": {
       "cn": "焦糖",
       "de": "Karamell",
@@ -7812,7 +7812,7 @@
     "durability": 40,
     "id": "2ea05a7b638",
     "level": 395,
-    "maxQuality": 14848,
+    "maxQuality": 13660,
     "name": {
       "cn": "野园甜菜糖",
       "de": "Gartenrübenzucker",
@@ -7828,9 +7828,9 @@
     "durability": 60,
     "id": "cfae9f350c6",
     "level": 400,
-    "maxQuality": 12500,
+    "maxQuality": 11249,
     "name": {
-      "cn": "Beehive Souvenir (patch 5.1)",
+      "cn": "蜂箱夜总会特产",
       "de": "Lustspielhaus-Souvenir",
       "en": "Beehive Souvenir",
       "fr": "Souvenir du cabaret",
@@ -7844,7 +7844,7 @@
     "durability": 80,
     "id": "074a286ae32",
     "level": 400,
-    "maxQuality": 15625,
+    "maxQuality": 14062,
     "name": {
       "cn": "蚕豆沙拉",
       "de": "Favabohnensalat",
@@ -7860,7 +7860,7 @@
     "durability": 80,
     "id": "0573f9195b7",
     "level": 400,
-    "maxQuality": 15625,
+    "maxQuality": 14062,
     "name": {
       "cn": "盐烤白金鲷鱼",
       "de": "Gegrillte Platinbrasse",
@@ -7876,7 +7876,7 @@
     "durability": 80,
     "id": "7e36383a74b",
     "level": 400,
-    "maxQuality": 8593,
+    "maxQuality": 7734,
     "name": {
       "cn": "低刺激性药饵",
       "de": "Proteinreiche Suppe",
@@ -7892,7 +7892,7 @@
     "durability": 80,
     "id": "a026d8f4195",
     "level": 400,
-    "maxQuality": 15625,
+    "maxQuality": 14062,
     "name": {
       "cn": "黑色肉酱面",
       "de": "Tintenschwarze Spaghetti",
@@ -7908,7 +7908,7 @@
     "durability": 40,
     "id": "740c34ac18b",
     "level": 400,
-    "maxQuality": 15625,
+    "maxQuality": 14062,
     "name": {
       "cn": "乌贼墨汁",
       "de": "Tintenfischtinte",
@@ -7924,7 +7924,7 @@
     "durability": 80,
     "id": "9ff9712377e",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "长棍面包",
       "de": "Baguette",
@@ -7940,7 +7940,7 @@
     "durability": 80,
     "id": "2f55e1334ec",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "血番茄果汁",
       "de": "Bluttomatensaft",
@@ -7956,7 +7956,7 @@
     "durability": 40,
     "id": "75fb4334ee6",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "黄金蜂蜜",
       "de": "Goldhonig",
@@ -7972,7 +7972,7 @@
     "durability": 80,
     "id": "e3f0583c3d0",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "仙子苹果派",
       "de": "Pixie-Apfeltasche",
@@ -7988,7 +7988,7 @@
     "durability": 40,
     "id": "a249b1d7cd9",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "山地小麦粉",
       "de": "Hochplateau-Mehl",
@@ -8004,7 +8004,7 @@
     "durability": 80,
     "id": "ccb9e0524e5",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "血番茄沙拉",
       "de": "Bluttomatensalat",
@@ -8020,7 +8020,7 @@
     "durability": 80,
     "id": "54812405906",
     "level": 406,
-    "maxQuality": 9106,
+    "maxQuality": 8196,
     "name": {
       "cn": "恢复期的药饵",
       "de": "Stärkende Suppe",
@@ -8036,7 +8036,7 @@
     "durability": 80,
     "id": "f36c61f6234",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "煎蘑菇",
       "de": "Champignonsauté",
@@ -8052,7 +8052,7 @@
     "durability": 40,
     "id": "f643e83f867",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "黑夜醋",
       "de": "Schwarzer Essig",
@@ -8068,7 +8068,7 @@
     "durability": 80,
     "id": "eae4cbf3b11",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "坚果糕",
       "de": "Nusstörtchen",
@@ -8084,7 +8084,7 @@
     "durability": 80,
     "id": "6584d782e92",
     "level": 406,
-    "maxQuality": 9106,
+    "maxQuality": 8196,
     "name": {
       "cn": "给妖灵的礼物",
       "de": "Geschenk für die Pixies",
@@ -8100,7 +8100,7 @@
     "durability": 80,
     "id": "32a9707333c",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "菌蒸巨型水虎鱼",
       "de": "Gebackener Megapiranha",
@@ -8116,7 +8116,7 @@
     "durability": 80,
     "id": "099a923c144",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "蘑菇烤串",
       "de": "Champignons am Spieß",
@@ -8132,7 +8132,7 @@
     "durability": 80,
     "id": "9cdd4bee8ca",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "烤力山羊",
       "de": "Gerösteter Ovim",
@@ -8148,7 +8148,7 @@
     "durability": 80,
     "id": "b64ec1d8310",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "香肠",
       "de": "Knackwurst",
@@ -8164,7 +8164,7 @@
     "durability": 80,
     "id": "50b6dbc221b",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "马萨拉奶茶",
       "de": "Masala-Tee",
@@ -8180,7 +8180,7 @@
     "durability": 80,
     "id": "ab0bcc4060c",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "胡椒炒新薯",
       "de": "Pfeffertoffel",
@@ -8196,7 +8196,7 @@
     "durability": 80,
     "id": "fb405066121",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "焗黄新薯",
       "de": "Ockertoffel-Gratin",
@@ -8208,13 +8208,13 @@
   },
   {
     "baseLevel": 78,
-    "difficulty": 6561,
+    "difficulty": 3645,
     "durability": 80,
     "id": "c1d64e2c9bc",
     "level": 415,
-    "maxQuality": 8978,
+    "maxQuality": 8081,
     "name": {
-      "cn": "Baker's Stall (patch 5.1)",
+      "cn": "面包摊",
       "de": "Backwaren-Marktstand",
       "en": "Baker's Stall",
       "fr": "Étal de boulanger",
@@ -8228,7 +8228,7 @@
     "durability": 80,
     "id": "693bb3349d3",
     "level": 415,
-    "maxQuality": 9875,
+    "maxQuality": 8889,
     "name": {
       "cn": "贝鲁布风味的食饵",
       "de": "Berube-Futterkohl",
@@ -8240,13 +8240,13 @@
   },
   {
     "baseLevel": 78,
-    "difficulty": 6561,
+    "difficulty": 3645,
     "durability": 80,
     "id": "8287556a562",
     "level": 415,
-    "maxQuality": 8978,
+    "maxQuality": 8081,
     "name": {
-      "cn": "Butcher's Stall (patch 5.1)",
+      "cn": "精肉摊",
       "de": "Wurstwaren-Marktstand",
       "en": "Butcher's Stall",
       "fr": "Étal de boucher",
@@ -8260,7 +8260,7 @@
     "durability": 80,
     "id": "58d07acd2c8",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "浓缩奶油咖啡",
       "de": "Sahne-Espresso",
@@ -8272,13 +8272,13 @@
   },
   {
     "baseLevel": 78,
-    "difficulty": 6561,
+    "difficulty": 3645,
     "durability": 80,
     "id": "260b77da74e",
     "level": 415,
-    "maxQuality": 8978,
+    "maxQuality": 8081,
     "name": {
-      "cn": "Fruiterer's Stall (patch 5.1)",
+      "cn": "水果摊",
       "de": "Obst-Marktstand",
       "en": "Fruiterer's Stall",
       "fr": "Étal de primeur",
@@ -8288,13 +8288,13 @@
   },
   {
     "baseLevel": 78,
-    "difficulty": 6561,
+    "difficulty": 3645,
     "durability": 80,
     "id": "37407bf19f3",
     "level": 415,
-    "maxQuality": 8978,
+    "maxQuality": 8081,
     "name": {
-      "cn": "Greengrocer's Stall (patch 5.1)",
+      "cn": "蔬菜摊",
       "de": "Gemüse-Marktstand",
       "en": "Greengrocer's Stall",
       "fr": "Étal de maraîcher",
@@ -8308,7 +8308,7 @@
     "durability": 80,
     "id": "d2f45f1b75a",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "黄油煎迷雾菠菜",
       "de": "Sautierter Dunstspinat",
@@ -8320,13 +8320,13 @@
   },
   {
     "baseLevel": 78,
-    "difficulty": 6561,
+    "difficulty": 3645,
     "durability": 80,
     "id": "852ed0e74fd",
     "level": 415,
-    "maxQuality": 8978,
+    "maxQuality": 8081,
     "name": {
-      "cn": "Oriental Chawanmushi Lunch (patch 5.1)",
+      "cn": "东方午餐组合：蒸蛋羹",
       "de": "Fernöstlicher Chawanmushi-Lunch",
       "en": "Oriental Chawanmushi Lunch",
       "fr": "Déjeuner oriental : chawan-mushi",
@@ -8340,7 +8340,7 @@
     "durability": 80,
     "id": "2b6b4815218",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "墨汁炖饭",
       "de": "Risotto al nero",
@@ -8356,7 +8356,7 @@
     "durability": 80,
     "id": "bed8eb4c209",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "血色五海杂烩汤",
       "de": "Blut-Bouillabaisse",
@@ -8372,7 +8372,7 @@
     "durability": 80,
     "id": "b41068fa630",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "咖啡曲奇",
       "de": "Kaffeekeks",
@@ -8388,7 +8388,7 @@
     "durability": 80,
     "id": "751d8acec58",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "海鲜烩饭",
       "de": "Paella",
@@ -8404,7 +8404,7 @@
     "durability": 80,
     "id": "46784771f37",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "香杏果冻",
       "de": "Harcot-Kompott",
@@ -8420,7 +8420,7 @@
     "durability": 80,
     "id": "eea749f23b6",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "柠檬水",
       "de": "Limonade",
@@ -8436,7 +8436,7 @@
     "durability": 80,
     "id": "8b08c404cde",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "力山羊肉蓝带肉排",
       "de": "Cordon bleu vom Ovim",
@@ -8452,7 +8452,7 @@
     "durability": 80,
     "id": "9563cfa5b37",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "生吃食用蚝",
       "de": "Feinschmecker-Auster",
@@ -8468,9 +8468,9 @@
     "durability": 60,
     "id": "13a9a966788",
     "level": 430,
-    "maxQuality": 40574,
+    "maxQuality": 36524,
     "name": {
-      "cn": "Skybuilders' Stew (patch 5.11)",
+      "cn": "重建用的炖菜",
       "de": "Himmelsstadt-Eintopf",
       "en": "Skybuilders' Stew",
       "fr": "Marmite de ragoût de restauration",
@@ -8480,11 +8480,27 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "ee280885240",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "The Bismarck (patch 5.2)",
+      "de": "Frühstück à la Bismarck",
+      "en": "The Bismarck",
+      "fr": "Petit déjeuner du Bismarck",
+      "ja": "ビスマルク・モーニングセット",
+      "ko": "The Bismarck"
+    }
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 2760,
     "durability": 80,
     "id": "a1201d8d15b",
     "level": 430,
-    "maxQuality": 11157,
+    "maxQuality": 10044,
     "name": {
       "cn": "勇人族的菜丸子",
       "de": "Zun-Klöße",
@@ -8496,13 +8512,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "71edb8d2e6e",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Arros Negre (patch 5.1)",
+      "cn": "乌贼墨汁炒饭",
       "de": "Schwarze Paella",
       "en": "Arros Negre",
       "fr": "Arròs negre",
@@ -8513,11 +8529,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "4c2b03250d4",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "鲑鱼奶油面",
       "de": "Cremelachs-Spaghetti",
@@ -8530,11 +8546,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "8eb8c670cb8",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "高级清炖牛肉",
       "de": "Edler Rindereintopf",
@@ -8547,11 +8563,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "c3607967cf8",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "帝王鲑鱼排",
       "de": "Monarchenlachs nach Müllerinart",
@@ -8564,11 +8580,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "2b833bbf849",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "可可面包干",
       "de": "Kukuru-Zwieback",
@@ -8581,11 +8597,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "caa0a8d7f43",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "柠檬萨赫蛋糕",
       "de": "Sachertorte mit Zitronencreme",
@@ -8598,13 +8614,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "763ec7cf050",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Mejillones al Ajillo (patch 5.1)",
+      "cn": "蒜炒贻贝",
       "de": "Miserabelmuscheln al Ajillo",
       "en": "Mejillones al Ajillo",
       "fr": "Moules al ajillo",
@@ -8615,11 +8631,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "c4e2770343e",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "仙子莓奶酪蛋糕",
       "de": "Käsekuchen mit Beeren",
@@ -8632,11 +8648,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "674894846cd",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "仙子莓茶",
       "de": "Pixiebeeren-Tee",
@@ -8649,11 +8665,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "435bdafc1d9",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "新薯沙拉",
       "de": "Toffelsalat",
@@ -8666,11 +8682,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "57ffbbcf0a3",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "高级烤牛肉",
       "de": "Edler Rostbraten",
@@ -8683,11 +8699,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "7d469e88c28",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "巫师莴苣沙拉",
       "de": "Bataviasalat",
@@ -8697,5 +8713,192 @@
       "ko": "Robe Lettuce Salad"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "70d581915d6",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Farmer's Breakfast (patch 5.2)",
+      "de": "Bauernfrühstück",
+      "en": "Farmer's Breakfast",
+      "fr": "Déjeuner rustique",
+      "ja": "ファーマーズブレックファスト",
+      "ko": "Farmer's Breakfast"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "e2a8e6c0bfa",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Herring Pie (patch 5.2)",
+      "de": "Heringpastete",
+      "en": "Herring Pie",
+      "fr": "Tarte au hareng",
+      "ja": "ヘリングパイ",
+      "ko": "Herring Pie"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "963ba3ec745",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Honey Croissant (patch 5.2)",
+      "de": "Honighörnchen",
+      "en": "Honey Croissant",
+      "fr": "Croissant au miel",
+      "ja": "ハニークロワッサン",
+      "ko": "Honey Croissant"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "2dead451dd9",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Lemon Waffle (patch 5.2)",
+      "de": "Zitronenwaffel",
+      "en": "Lemon Waffle",
+      "fr": "Gaufre au citron",
+      "ja": "レモンワッフル",
+      "ko": "Lemon Waffle"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "124466d1c2e",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Mors (patch 5.2)",
+      "de": "Mors",
+      "en": "Mors",
+      "fr": "Pichet de mors",
+      "ja": "モルス",
+      "ko": "Mors"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "7238825b07c",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Ovim Meatballs (patch 5.2)",
+      "de": "Ovim-Hackbällchen",
+      "en": "Ovim Meatballs",
+      "fr": "Spaghettis aux boulettes de viande d'ovim",
+      "ja": "オヴィムミートボール",
+      "ko": "Ovim Meatballs"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "e55afcdf83a",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Pickled Herring (patch 5.2)",
+      "de": "Marinierter Hering",
+      "en": "Pickled Herring",
+      "fr": "Harengs marinés",
+      "ja": "ヘリングマリネ",
+      "ko": "Pickled Herring"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "7f387cb4920",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Rank VIII Artisan's Durable Practice Materials (patch 5.2)",
+      "de": "Musterstück VIII (Belastbarkeit: 70)",
+      "en": "Rank VIII Artisan's Durable Practice Materials",
+      "fr": "Échantillon expérimental de niveau 8 [Solidité 70]",
+      "ja": "第8巻級の習作【耐久70】",
+      "ko": "Rank VIII Artisan's Durable Practice Materials"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "593f49572b2",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Sausage and Sauerkraut (patch 5.2)",
+      "de": "Würstchen mit Sauerkraut",
+      "en": "Sausage and Sauerkraut",
+      "fr": "Choucroute garnie",
+      "ja": "ソーセージ・ザワークラウト",
+      "ko": "Sausage and Sauerkraut"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "c439ce635cc",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Silkie Pudding (patch 5.2)",
+      "de": "Seidenpudding",
+      "en": "Silkie Pudding",
+      "fr": "Flan soyeux",
+      "ja": "シルキープディング",
+      "ko": "Silkie Pudding"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "d3c624b7d16",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Stuffed Highland Cabbage (patch 5.2)",
+      "de": "Krautwickel nach Hochländer Art",
+      "en": "Stuffed Highland Cabbage",
+      "fr": "Choux farcis",
+      "ja": "高地風挽肉のキャベツ巻き",
+      "ko": "Stuffed Highland Cabbage"
+    },
+    "stars": 3
   }
 ]
