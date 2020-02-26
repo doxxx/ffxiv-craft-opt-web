@@ -245,9 +245,6 @@ function ApplyModifiers(s, action, condition) {
         control += (0.2 * s.effects.countUps[AllActions.innerQuiet.shortName]) * s.synth.crafter.control;
     }
 
-    // Since game version 5.0, effects increasing control are capped at crafter's original control + 3000
-    control = Math.min(control, s.synth.crafter.control + 3000);
-
     // Effects modifying level difference
     var effCrafterLevel = getEffectiveCrafterLevel(s.synth);
     var effRecipeLevel = s.synth.recipe.level;
@@ -279,8 +276,8 @@ function ApplyModifiers(s, action, condition) {
         progressIncreaseMultiplier += calcNameOfElementsBonus(s);
     }
 
-    if (AllActions.innovation.shortName in s.effects.countDowns) {
-        progressIncreaseMultiplier += 0.2;
+    if (AllActions.veneration.shortName in s.effects.countDowns) {
+        progressIncreaseMultiplier += 0.5;
     }
 
     if (isActionEq(action, AllActions.muscleMemory)) {
@@ -299,7 +296,7 @@ function ApplyModifiers(s, action, condition) {
     }
 
     if (AllActions.innovation.shortName in s.effects.countDowns) {
-        qualityIncreaseMultiplier += 0.2;
+        qualityIncreaseMultiplier += 0.5;
     }
 
     // We can only use Byregot actions when we have at least 2 stacks of inner quiet
@@ -436,9 +433,13 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
+    if (isActionEq(action, AllActions.veneration.shortName) && (AllActions.veneration.shortName in s.effects.countDowns)) {
+        s.wastedActions += 1
+    }
     if (isActionEq(action, AllActions.innovation.shortName) && (AllActions.innovation.shortName in s.effects.countDowns)) {
         s.wastedActions += 1
     }
+
 }
 
 function UpdateEffectCounters(s, action, condition, successProbability) {

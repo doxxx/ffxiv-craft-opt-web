@@ -28,6 +28,7 @@
     innerQuiet: {              common: true, buff: true, skillID: {"Alchemist": 258, "Armorer": 254, "Blacksmith": 253, "Carpenter": 252, "Culinarian": 259, "Goldsmith": 255, "Leatherworker": 257, "Weaver": 256} },
     greatStrides: {            common: true, buff: true, skillID: {"Alchemist": 266, "Armorer": 262, "Blacksmith": 261, "Carpenter": 260, "Culinarian": 267, "Goldsmith": 263, "Leatherworker": 265, "Weaver": 264} },
     innovation: {              common: true, buff: true, skillID: {"Goldsmith": 284} },
+    veneration: {              common: true, buff: true, skillID: {"Goldsmith": 284} },
     tricksOfTheTrade: {        common: true,             skillID: {"Alchemist": 100098} },
 
     // Heavensward
@@ -158,6 +159,7 @@
         "innerQuiet",
         "greatStrides",
         "innovation",
+        "veneration",
         "nameOfTheElements"
     ]
     },
