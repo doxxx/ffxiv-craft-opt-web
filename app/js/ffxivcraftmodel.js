@@ -276,13 +276,10 @@ function ApplyModifiers(s, action, condition) {
         progressIncreaseMultiplier += calcNameOfElementsBonus(s);
     }
 
-<<<<<<< HEAD
     if (AllActions.veneration.shortName in s.effects.countDowns) {
         progressIncreaseMultiplier += 0.5;
     }
 
-=======
->>>>>>> master
     if (isActionEq(action, AllActions.muscleMemory)) {
         if (s.step !== 1) {
             s.wastedActions += 1;
