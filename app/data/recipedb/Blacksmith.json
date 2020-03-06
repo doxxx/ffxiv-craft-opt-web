@@ -1217,7 +1217,7 @@
   },
   {
     "baseLevel": 15,
-    "difficulty": 176,
+    "difficulty": 55,
     "durability": 70,
     "id": "8a20cbe85de",
     "level": 15,
@@ -1537,7 +1537,7 @@
   },
   {
     "baseLevel": 17,
-    "difficulty": 211,
+    "difficulty": 66,
     "durability": 70,
     "id": "9adc6a4f7db",
     "level": 17,
@@ -1649,7 +1649,7 @@
   },
   {
     "baseLevel": 18,
-    "difficulty": 214,
+    "difficulty": 67,
     "durability": 70,
     "id": "f07bbf2ad5d",
     "level": 18,
@@ -1665,7 +1665,7 @@
   },
   {
     "baseLevel": 18,
-    "difficulty": 214,
+    "difficulty": 67,
     "durability": 70,
     "id": "2209788dd9a",
     "level": 18,
@@ -1841,7 +1841,7 @@
   },
   {
     "baseLevel": 20,
-    "difficulty": 236,
+    "difficulty": 74,
     "durability": 70,
     "id": "c79a691cdf8",
     "level": 20,
@@ -1863,7 +1863,7 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Skybuilders' Alloy (patch 5.11)",
+      "cn": "重建用的合金",
       "de": "Himmelsstadt-Legierung",
       "en": "Skybuilders' Alloy",
       "fr": "Alliage métallique de restauration",
@@ -1985,7 +1985,7 @@
   },
   {
     "baseLevel": 21,
-    "difficulty": 240,
+    "difficulty": 75,
     "durability": 70,
     "id": "4f64854a3c2",
     "level": 21,
@@ -2001,7 +2001,7 @@
   },
   {
     "baseLevel": 21,
-    "difficulty": 240,
+    "difficulty": 75,
     "durability": 70,
     "id": "e60931791b9",
     "level": 21,
@@ -2225,7 +2225,7 @@
   },
   {
     "baseLevel": 24,
-    "difficulty": 272,
+    "difficulty": 85,
     "durability": 70,
     "id": "23afca65fcc",
     "level": 24,
@@ -2401,7 +2401,7 @@
   },
   {
     "baseLevel": 27,
-    "difficulty": 291,
+    "difficulty": 91,
     "durability": 70,
     "id": "41eacb4fc8c",
     "level": 27,
@@ -2465,7 +2465,7 @@
   },
   {
     "baseLevel": 27,
-    "difficulty": 291,
+    "difficulty": 91,
     "durability": 70,
     "id": "659a560e17b",
     "level": 27,
@@ -2545,7 +2545,7 @@
   },
   {
     "baseLevel": 29,
-    "difficulty": 323,
+    "difficulty": 101,
     "durability": 70,
     "id": "029dad676cc",
     "level": 29,
@@ -2833,7 +2833,7 @@
   },
   {
     "baseLevel": 30,
-    "difficulty": 326,
+    "difficulty": 102,
     "durability": 70,
     "id": "2ae12acf49d",
     "level": 30,
@@ -2961,7 +2961,7 @@
   },
   {
     "baseLevel": 30,
-    "difficulty": 326,
+    "difficulty": 102,
     "durability": 70,
     "id": "7fd76d9015b",
     "level": 30,
@@ -3233,7 +3233,7 @@
   },
   {
     "baseLevel": 32,
-    "difficulty": 352,
+    "difficulty": 110,
     "durability": 80,
     "id": "17b15b49cc8",
     "level": 32,
@@ -3329,7 +3329,7 @@
   },
   {
     "baseLevel": 33,
-    "difficulty": 355,
+    "difficulty": 111,
     "durability": 80,
     "id": "3d6f26dbbff",
     "level": 33,
@@ -3505,7 +3505,7 @@
   },
   {
     "baseLevel": 35,
-    "difficulty": 393,
+    "difficulty": 123,
     "durability": 80,
     "id": "34d149a12b2",
     "level": 35,
@@ -3521,7 +3521,7 @@
   },
   {
     "baseLevel": 35,
-    "difficulty": 393,
+    "difficulty": 123,
     "durability": 80,
     "id": "e7a674cec39",
     "level": 35,
@@ -3537,7 +3537,7 @@
   },
   {
     "baseLevel": 35,
-    "difficulty": 393,
+    "difficulty": 123,
     "durability": 80,
     "id": "778fcc1a5f3",
     "level": 35,
@@ -3553,7 +3553,7 @@
   },
   {
     "baseLevel": 35,
-    "difficulty": 393,
+    "difficulty": 123,
     "durability": 80,
     "id": "1ab65e4b3e3",
     "level": 35,
@@ -4087,7 +4087,7 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Skybuilders' Nails (patch 5.11)",
+      "cn": "重建用的铁钉",
       "de": "Himmelsstadt-Eisennägel",
       "en": "Skybuilders' Nails",
       "fr": "Clous de restauration",
@@ -4209,7 +4209,7 @@
   },
   {
     "baseLevel": 41,
-    "difficulty": 457,
+    "difficulty": 143,
     "durability": 80,
     "id": "db3667cdc62",
     "level": 41,
@@ -4225,7 +4225,7 @@
   },
   {
     "baseLevel": 42,
-    "difficulty": 460,
+    "difficulty": 144,
     "durability": 80,
     "id": "6d4ec376330",
     "level": 42,
@@ -4577,7 +4577,7 @@
   },
   {
     "baseLevel": 45,
-    "difficulty": 505,
+    "difficulty": 158,
     "durability": 80,
     "id": "47afe3f1175",
     "level": 45,
@@ -4721,7 +4721,7 @@
   },
   {
     "baseLevel": 45,
-    "difficulty": 505,
+    "difficulty": 158,
     "durability": 80,
     "id": "266dd86be62",
     "level": 45,
@@ -4737,7 +4737,7 @@
   },
   {
     "baseLevel": 45,
-    "difficulty": 505,
+    "difficulty": 158,
     "durability": 80,
     "id": "2e590ba69c0",
     "level": 45,
@@ -4801,7 +4801,7 @@
   },
   {
     "baseLevel": 46,
-    "difficulty": 508,
+    "difficulty": 159,
     "durability": 80,
     "id": "c546face7fa",
     "level": 46,
@@ -4817,7 +4817,7 @@
   },
   {
     "baseLevel": 46,
-    "difficulty": 508,
+    "difficulty": 159,
     "durability": 80,
     "id": "5e678e43df1",
     "level": 46,
@@ -4865,7 +4865,7 @@
   },
   {
     "baseLevel": 47,
-    "difficulty": 534,
+    "difficulty": 167,
     "durability": 80,
     "id": "e539d85b8d2",
     "level": 47,
@@ -4881,7 +4881,7 @@
   },
   {
     "baseLevel": 47,
-    "difficulty": 534,
+    "difficulty": 167,
     "durability": 80,
     "id": "362f6cc7627",
     "level": 47,
@@ -4897,7 +4897,7 @@
   },
   {
     "baseLevel": 47,
-    "difficulty": 534,
+    "difficulty": 167,
     "durability": 80,
     "id": "cbc7e4fe95a",
     "level": 47,
@@ -4977,7 +4977,7 @@
   },
   {
     "baseLevel": 48,
-    "difficulty": 550,
+    "difficulty": 172,
     "durability": 80,
     "id": "8aeb9adbd84",
     "level": 48,
@@ -5057,7 +5057,7 @@
   },
   {
     "baseLevel": 49,
-    "difficulty": 556,
+    "difficulty": 174,
     "durability": 80,
     "id": "200d233c0c4",
     "level": 49,
@@ -5137,7 +5137,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 595,
+    "difficulty": 186,
     "durability": 80,
     "id": "6c5bdb2d98f",
     "level": 50,
@@ -5169,7 +5169,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 595,
+    "difficulty": 186,
     "durability": 80,
     "id": "5ca7ff8351d",
     "level": 50,
@@ -5217,11 +5217,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 95,
+    "difficulty": 93,
     "durability": 40,
     "id": "aec80c9190c",
     "level": 50,
-    "maxQuality": 2692,
+    "maxQuality": 2641,
     "name": {
       "cn": "假果实",
       "de": "Falsche Kupo-Nuss",
@@ -5265,11 +5265,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 273,
+    "difficulty": 267,
     "durability": 80,
     "id": "ecc1be6b7fb",
     "level": 50,
-    "maxQuality": 673,
+    "maxQuality": 660,
     "name": {
       "cn": "超级喇叭部件",
       "de": "Trötenkomponente",
@@ -5361,11 +5361,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 364,
+    "difficulty": 357,
     "durability": 80,
     "id": "63e6cbe5c10",
     "level": 50,
-    "maxQuality": 538,
+    "maxQuality": 528,
     "name": {
       "cn": "莫古力用工具部件",
       "de": "Mogry-Werkzeugkomponente",
@@ -5409,11 +5409,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 228,
+    "difficulty": 223,
     "durability": 80,
     "id": "25b31c99ab0",
     "level": 50,
-    "maxQuality": 996,
+    "maxQuality": 977,
     "name": {
       "cn": "石像修复部件",
       "de": "Steinstatuenkomponente",
@@ -5441,11 +5441,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 486,
+    "difficulty": 476,
     "durability": 80,
     "id": "0a4c69c5880",
     "level": 50,
-    "maxQuality": 673,
+    "maxQuality": 660,
     "name": {
       "cn": "名牌加工部件",
       "de": "Gedenktafelkomponente",
@@ -5505,7 +5505,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 595,
+    "difficulty": 186,
     "durability": 80,
     "id": "11b3643c614",
     "level": 50,
@@ -5587,7 +5587,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 624,
+    "difficulty": 195,
     "durability": 80,
     "id": "e266a4ee54a",
     "level": 55,
@@ -5774,7 +5774,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 624,
+    "difficulty": 195,
     "durability": 80,
     "id": "0e3a4649223",
     "level": 55,
@@ -5791,7 +5791,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 624,
+    "difficulty": 195,
     "durability": 80,
     "id": "5eea8535ba2",
     "level": 55,
@@ -5808,7 +5808,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 624,
+    "difficulty": 195,
     "durability": 80,
     "id": "4ccafd7c0f7",
     "level": 55,
@@ -5961,11 +5961,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 419,
+    "difficulty": 233,
     "durability": 80,
     "id": "42e8396de93",
     "level": 70,
-    "maxQuality": 5257,
+    "maxQuality": 2921,
     "name": {
       "cn": "玄钢钩",
       "de": "Dunkelstahlhaken",
@@ -6063,7 +6063,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 745,
+    "difficulty": 233,
     "durability": 80,
     "id": "de6d6f7bd9c",
     "level": 70,
@@ -6148,7 +6148,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 419,
+    "difficulty": 233,
     "durability": 80,
     "id": "a049ec4df03",
     "level": 70,
@@ -6199,7 +6199,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 745,
+    "difficulty": 233,
     "durability": 80,
     "id": "aa10275f38b",
     "level": 70,
@@ -6233,7 +6233,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 419,
+    "difficulty": 233,
     "durability": 80,
     "id": "db69c603b52",
     "level": 70,
@@ -6369,11 +6369,11 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 801,
+    "difficulty": 445,
     "durability": 80,
     "id": "9bfb1df232b",
     "level": 90,
-    "maxQuality": 8964,
+    "maxQuality": 4980,
     "name": {
       "cn": "高精度玄钢钩",
       "de": "Ausbalancierter Dunkelstahlhaken",
@@ -6403,7 +6403,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 1424,
+    "difficulty": 445,
     "durability": 80,
     "id": "98812e7c2a7",
     "level": 90,
@@ -6420,7 +6420,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 1424,
+    "difficulty": 445,
     "durability": 80,
     "id": "c89f8cc8788",
     "level": 90,
@@ -6624,7 +6624,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 801,
+    "difficulty": 445,
     "durability": 80,
     "id": "533262de678",
     "level": 90,
@@ -6777,7 +6777,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 1424,
+    "difficulty": 445,
     "durability": 80,
     "id": "748a96d83e6",
     "level": 90,
@@ -6828,7 +6828,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 1424,
+    "difficulty": 445,
     "durability": 80,
     "id": "32219091ba6",
     "level": 90,
@@ -6862,7 +6862,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 1424,
+    "difficulty": 445,
     "durability": 80,
     "id": "2f68d25e134",
     "level": 90,
@@ -6879,7 +6879,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 1424,
+    "difficulty": 445,
     "durability": 80,
     "id": "c24eb4051e9",
     "level": 90,
@@ -6896,7 +6896,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 1424,
+    "difficulty": 445,
     "durability": 80,
     "id": "a565945ce29",
     "level": 90,
@@ -6930,7 +6930,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 801,
+    "difficulty": 445,
     "durability": 80,
     "id": "9c538aaf738",
     "level": 90,
@@ -6964,7 +6964,7 @@
   },
   {
     "baseLevel": 50,
-    "difficulty": 1875,
+    "difficulty": 586,
     "durability": 80,
     "id": "da1cd000f36",
     "level": 110,
@@ -7236,6 +7236,38 @@
   },
   {
     "baseLevel": 51,
+    "difficulty": 339,
+    "durability": 80,
+    "id": "e4ca68b7a8b",
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "cn": "灵银大剑",
+      "de": "Mythrit-Claymore",
+      "en": "Mythrite Claymore",
+      "fr": "Claymore en mithrite",
+      "ja": "ミスライトクレイモア",
+      "ko": "미스라이트 클레이모어"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 339,
+    "durability": 80,
+    "id": "287ef8eb9eb",
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "cn": "灵银斗剑",
+      "de": "Mythrit-Katzbalger",
+      "en": "Mythrite Katzbalger",
+      "fr": "Katzbalger en mithrite",
+      "ja": "ミスライトカッツバルゲル",
+      "ko": "미스라이트 카츠발게르"
+    }
+  },
+  {
+    "baseLevel": 51,
     "difficulty": 169,
     "durability": 40,
     "id": "f02f8016383",
@@ -7248,6 +7280,54 @@
       "fr": "Pépite de mithrite",
       "ja": "ミスライトナゲット",
       "ko": "미스라이트 덩어리"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 339,
+    "durability": 80,
+    "id": "da0a703d3d7",
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "cn": "灵银拳剑",
+      "de": "Mythrit-Pata",
+      "en": "Mythrite Patas",
+      "fr": "Patas en mithrite",
+      "ja": "ミスライトパタ",
+      "ko": "미스라이트 파타"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 339,
+    "durability": 80,
+    "id": "fac2a0940a7",
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "cn": "灵银辅剑",
+      "de": "Mythrit-Pugiones",
+      "en": "Mythrite Pugiones",
+      "fr": "Pugiones en mithrite",
+      "ja": "ミスライトプジオ",
+      "ko": "미스라이트 푸기오"
+    }
+  },
+  {
+    "baseLevel": 51,
+    "difficulty": 169,
+    "durability": 40,
+    "id": "58aedaed6ae",
+    "level": 115,
+    "maxQuality": 3951,
+    "name": {
+      "cn": "灵银铆钉",
+      "de": "Mythrit-Nieten",
+      "en": "Mythrite Rivets",
+      "fr": "Rivets en mithrite",
+      "ja": "ミスライトリベット",
+      "ko": "미스라이트 이음못"
     }
   },
   {
@@ -7268,91 +7348,11 @@
   },
   {
     "baseLevel": 51,
-    "difficulty": 421,
-    "durability": 80,
-    "id": "e4ca68b7a8b",
-    "level": 120,
-    "maxQuality": 4561,
-    "name": {
-      "cn": "灵银大剑",
-      "de": "Mythrit-Claymore",
-      "en": "Mythrite Claymore",
-      "fr": "Claymore en mithrite",
-      "ja": "ミスライトクレイモア",
-      "ko": "미스라이트 클레이모어"
-    }
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 421,
-    "durability": 80,
-    "id": "287ef8eb9eb",
-    "level": 120,
-    "maxQuality": 4561,
-    "name": {
-      "cn": "灵银斗剑",
-      "de": "Mythrit-Katzbalger",
-      "en": "Mythrite Katzbalger",
-      "fr": "Katzbalger en mithrite",
-      "ja": "ミスライトカッツバルゲル",
-      "ko": "미스라이트 카츠발게르"
-    }
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 421,
-    "durability": 80,
-    "id": "da0a703d3d7",
-    "level": 120,
-    "maxQuality": 4561,
-    "name": {
-      "cn": "灵银拳剑",
-      "de": "Mythrit-Pata",
-      "en": "Mythrite Patas",
-      "fr": "Patas en mithrite",
-      "ja": "ミスライトパタ",
-      "ko": "미스라이트 파타"
-    }
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 421,
-    "durability": 80,
-    "id": "fac2a0940a7",
-    "level": 120,
-    "maxQuality": 4561,
-    "name": {
-      "cn": "灵银辅剑",
-      "de": "Mythrit-Pugiones",
-      "en": "Mythrite Pugiones",
-      "fr": "Pugiones en mithrite",
-      "ja": "ミスライトプジオ",
-      "ko": "미스라이트 푸기오"
-    }
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 210,
-    "durability": 40,
-    "id": "58aedaed6ae",
-    "level": 120,
-    "maxQuality": 4561,
-    "name": {
-      "cn": "灵银铆钉",
-      "de": "Mythrit-Nieten",
-      "en": "Mythrite Rivets",
-      "fr": "Rivets en mithrite",
-      "ja": "ミスライトリベット",
-      "ko": "미스라이트 이음못"
-    }
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 421,
+    "difficulty": 339,
     "durability": 80,
     "id": "d0fd0f9b02e",
-    "level": 120,
-    "maxQuality": 4561,
+    "level": 115,
+    "maxQuality": 3951,
     "name": {
       "cn": "灵银战斧",
       "de": "Mythrit-Streitaxt",
@@ -7364,11 +7364,11 @@
   },
   {
     "baseLevel": 51,
-    "difficulty": 421,
+    "difficulty": 339,
     "durability": 80,
     "id": "ed431dbaaca",
-    "level": 120,
-    "maxQuality": 4561,
+    "level": 115,
+    "maxQuality": 3951,
     "name": {
       "cn": "灵银明火枪",
       "de": "Mythrit-Hakenbüchse",
@@ -8180,7 +8180,7 @@
   },
   {
     "baseLevel": 57,
-    "difficulty": 1454,
+    "difficulty": 808,
     "durability": 70,
     "id": "832cdba4959",
     "level": 142,
@@ -9450,7 +9450,7 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Skybuilders' Hammer (patch 5.11)",
+      "cn": "重建用的锤子",
       "de": "Himmelsstadt-Hammer",
       "en": "Skybuilders' Hammer",
       "fr": "Marteau de restauration",
@@ -9492,11 +9492,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 70,
     "id": "034f122df22",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "精金投斧",
       "de": "Adamantium-Franziska",
@@ -9509,11 +9509,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 2008,
+    "difficulty": 982,
     "durability": 70,
     "id": "58475ae3108",
     "level": 160,
-    "maxQuality": 4188,
+    "maxQuality": 3937,
     "name": {
       "cn": "美容师传唤铃",
       "de": "Kristallglocke",
@@ -9526,11 +9526,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 60,
     "id": "8268168d862",
     "level": 160,
-    "maxQuality": 6701,
+    "maxQuality": 6299,
     "name": {
       "cn": "东方风格的收藏品",
       "de": "Fernöstliche Antiquität",
@@ -9543,11 +9543,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 558,
+    "difficulty": 491,
     "durability": 60,
     "id": "27fc778be4d",
     "level": 160,
-    "maxQuality": 3350,
+    "maxQuality": 3149,
     "name": {
       "cn": "东方风格的收藏品部件",
       "de": "Komponente einer fernöstlichen Antiquität",
@@ -9560,11 +9560,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1116,
+    "difficulty": 982,
     "durability": 60,
     "id": "bd1785606e4",
     "level": 160,
-    "maxQuality": 6701,
+    "maxQuality": 6299,
     "name": {
       "cn": "孤儿院的日用品",
       "de": "Waisenhaus-Spende",
@@ -9577,11 +9577,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 558,
+    "difficulty": 491,
     "durability": 60,
     "id": "b51fea977f8",
     "level": 160,
-    "maxQuality": 3350,
+    "maxQuality": 3149,
     "name": {
       "cn": "孤儿院的日用品部件",
       "de": "Komponente einer Waisenhaus-Spende",
@@ -9594,11 +9594,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 558,
+    "difficulty": 491,
     "durability": 35,
     "id": "294acbfe1a9",
     "level": 160,
-    "maxQuality": 8377,
+    "maxQuality": 7874,
     "name": {
       "cn": "钛合金锭",
       "de": "Titanlegierungs-Barren",
@@ -9611,11 +9611,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "9b44e65e96e",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精金锭",
       "de": "Adamantium-Barren",
@@ -9628,11 +9628,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "8342ce1fda9",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精金加固镰刀",
       "de": "Ausbalancierte Adamantium-Sense",
@@ -9645,11 +9645,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "bff50b46633",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "偃武战斧",
       "de": "Kriegsaxt der Kolonie",
@@ -9662,11 +9662,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "9ff91b7b1d6",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "偃武利爪",
       "de": "Klauen der Kolonie",
@@ -9679,11 +9679,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "4cba1549c86",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "偃武大剑",
       "de": "Claymore der Kolonie",
@@ -9696,11 +9696,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "bb1cde5f6ad",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "偃武太刀",
       "de": "Katana der Kolonie",
@@ -9713,11 +9713,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "3c836f7d123",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "偃武匕首",
       "de": "Krise der Kolonie",
@@ -9730,11 +9730,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "8a0f825c07e",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "偃武火枪",
       "de": "Muskete der Kolonie",
@@ -9747,11 +9747,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "3edd8eeb4f8",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "偃武长刀",
       "de": "Shamshir der Kolonie",
@@ -9764,11 +9764,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "3eef421c3ba",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精金加固手钳",
       "de": "Verstärkte Adamantiumzange",
@@ -9781,11 +9781,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "cedb31dc4d9",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "无尽云神战斧",
       "de": "Kampfaxt der endlosen Weiten",
@@ -9798,11 +9798,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "de1b135b349",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "无尽云神巨剑",
       "de": "Großschwert der endlosen Weiten",
@@ -9815,11 +9815,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "ea91cc956d5",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "无尽云神手炮",
       "de": "Donnerbüchse der endlosen Weiten",
@@ -9832,11 +9832,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "52274a79b58",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "无尽云神刀",
       "de": "Katana der endlosen Weiten",
@@ -9849,11 +9849,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "3e0361e10e0",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "无尽云神匕首",
       "de": "Macheten der endlosen Weiten",
@@ -9866,11 +9866,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "90a9e73edf0",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "无尽云神拳刺",
       "de": "Patas der endlosen Weiten",
@@ -9883,11 +9883,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "e871d10f806",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "无尽云神剑",
       "de": "Schwert der endlosen Weiten",
@@ -9900,11 +9900,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "df3c6e0cfb3",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "镔铁大师鸟嘴锤",
       "de": "Waffenschmiedemeister-Hammer",
@@ -9917,11 +9917,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "1fa4e042490",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精金加固羊角锤",
       "de": "Verstärkter Klauenhammer",
@@ -9934,11 +9934,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "132db881021",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "超硬加隆德钢",
       "de": "Verzinkter Garlond-Stahl",
@@ -9951,11 +9951,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "904ab50fdb6",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "镂金大师工艺锤",
       "de": "Kunstschmiedemeister-Fäustel",
@@ -9968,11 +9968,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 2584,
+    "difficulty": 1033,
     "durability": 70,
     "id": "6ae1ad04497",
     "level": 180,
-    "maxQuality": 4715,
+    "maxQuality": 4007,
     "name": {
       "cn": "迦巴勒落地灯",
       "de": "Gubal-Standleuchte",
@@ -9985,11 +9985,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "9c5641325b7",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "戎甲大师圆头锤",
       "de": "Rüstungsschmiedemeister-Treibhammer",
@@ -10002,11 +10002,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "858cd9add3a",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精金加固研钵",
       "de": "Schwerer Adamantium-Mörser",
@@ -10019,11 +10019,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "32e160d4ff2",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精革大师裁皮刀",
       "de": "Lederermeister-Messer",
@@ -10036,11 +10036,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "22c3244853c",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "光银块",
       "de": "Edelmythrit-Nugget",
@@ -10053,11 +10053,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 2584,
+    "difficulty": 1033,
     "durability": 70,
     "id": "af64f0ef9b5",
     "level": 180,
-    "maxQuality": 4715,
+    "maxQuality": 4007,
     "name": {
       "cn": "铁纹钢",
       "de": "Kamazit-Platte",
@@ -10070,11 +10070,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 2584,
+    "difficulty": 1033,
     "durability": 70,
     "id": "0d6e1c52827",
     "level": 180,
-    "maxQuality": 4715,
+    "maxQuality": 4007,
     "name": {
       "cn": "魔法人偶台灯",
       "de": "Marionettenlampe",
@@ -10087,11 +10087,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "3c3370da5a1",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "珍木大师手锯",
       "de": "Schreinermeister-Säge",
@@ -10104,11 +10104,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "e59932ee588",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精金加固锉刀",
       "de": "Polierte Adamantium-Feile",
@@ -10121,11 +10121,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 2584,
+    "difficulty": 1033,
     "durability": 70,
     "id": "48511b80685",
     "level": 180,
-    "maxQuality": 4715,
+    "maxQuality": 4007,
     "name": {
       "cn": "软糊怪落地灯",
       "de": "Pudding-Lampe",
@@ -10138,11 +10138,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "690c399d168",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精金加固平斩",
       "de": "Spitze Adamantium-Ahle",
@@ -10155,11 +10155,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "d4cadb7409f",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精金加固碎石锤",
       "de": "Schwerer Adamantium-Vorschlaghammer",
@@ -10172,11 +10172,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1436,
+    "difficulty": 1033,
     "durability": 70,
     "id": "f3a5e24bbd2",
     "level": 180,
-    "maxQuality": 9430,
+    "maxQuality": 8015,
     "name": {
       "cn": "精金加固厨刀",
       "de": "Umwickeltes Adamantium-Küchenmesser",
@@ -10189,11 +10189,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
+    "difficulty": 1106,
     "durability": 70,
     "id": "49b7dc2637a",
     "level": 210,
-    "maxQuality": 10373,
+    "maxQuality": 8298,
     "name": {
       "cn": "生命之斧",
       "de": "Axt des Baumgottes",
@@ -10206,11 +10206,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
+    "difficulty": 1106,
     "durability": 70,
     "id": "7e41a48bc5b",
     "level": 210,
-    "maxQuality": 10373,
+    "maxQuality": 8298,
     "name": {
       "cn": "神圣女神之斧",
       "de": "Axt der Göttin",
@@ -10223,11 +10223,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
+    "difficulty": 1106,
     "durability": 70,
     "id": "bae004f8a9e",
     "level": 210,
-    "maxQuality": 10373,
+    "maxQuality": 8298,
     "name": {
       "cn": "圆桌之斧",
       "de": "Axt der Runde",
@@ -10240,11 +10240,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
+    "difficulty": 1106,
     "durability": 70,
     "id": "7166c04050d",
     "level": 210,
-    "maxQuality": 10373,
+    "maxQuality": 8298,
     "name": {
       "cn": "生命之剑",
       "de": "Klinge des Baumgottes",
@@ -10257,11 +10257,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
+    "difficulty": 1106,
     "durability": 70,
     "id": "dbc585d66c1",
     "level": 210,
-    "maxQuality": 10373,
+    "maxQuality": 8298,
     "name": {
       "cn": "神圣女神之剑",
       "de": "Schwert der Göttin",
@@ -10274,11 +10274,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
+    "difficulty": 1106,
     "durability": 70,
     "id": "f7ca4112ab9",
     "level": 210,
-    "maxQuality": 10373,
+    "maxQuality": 8298,
     "name": {
       "cn": "圆桌之大剑",
       "de": "Claymore der Runde",
@@ -10291,657 +10291,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "46e717f4186",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "圆桌之刀",
-      "de": "Dolche der Runde",
-      "en": "Daggers of the Round",
-      "fr": "Dagues de la Table ronde",
-      "ja": "ダガー・オブ・ラウンド",
-      "ko": "기사신의 단검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "354bb991bbf",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "生命之刃",
-      "de": "Schneide des Baumgottes",
-      "en": "Edge of the Fiend",
-      "fr": "Grande épée du Fiélon",
-      "ja": "エッジ・オブ・フィーンド",
-      "ko": "마신의 양손검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "5cc9f6295fc",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "神圣女神之巨剑",
-      "de": "Zweihänder der Göttin",
-      "en": "Edge of the Goddess",
-      "fr": "Grande épée de la Déesse",
-      "ja": "ソード・オブ・ゴッデス",
-      "ko": "여신의 양손검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "c33194b7764",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "生命之火",
-      "de": "Feuer des Baumgottes",
-      "en": "Fire of the Fiend",
-      "fr": "Feu du Fiélon",
-      "ja": "ファイア・オブ・フィーンド",
-      "ko": "마신의 총"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "3980ec90bef",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "神圣女神之火",
-      "de": "Muskete der Göttin",
-      "en": "Fire of the Goddess",
-      "fr": "Feu de la Déesse",
-      "ja": "ファイア・オブ・ゴッデス",
-      "ko": "여신의 총"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "a728d260a2d",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "圆桌之火",
-      "de": "Muskete der Runde",
-      "en": "Fire of the Round",
-      "fr": "Feu de la Table ronde",
-      "ja": "ファイア・オブ・ラウンド",
-      "ko": "기사신의 총"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "79b624a0667",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "生命之拳",
-      "de": "Fäuste des Baumgottes",
-      "en": "Fists of the Fiend",
-      "fr": "Poings du Fiélon",
-      "ja": "フィスト・オブ・フィーンド",
-      "ko": "마신의 주먹"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "5697c153784",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "神圣女神之拳",
-      "de": "Fäuste der Göttin",
-      "en": "Fists of the Goddess",
-      "fr": "Poings de la Déesse",
-      "ja": "フィスト・オブ・ゴッデス",
-      "ko": "여신의 주먹"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "4af63840d65",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "光银锭",
-      "de": "Edelmythritbarren",
-      "en": "High Mythrite Ingot",
-      "fr": "Lingot de mithrite noble",
-      "ja": "ハイミスライトインゴット",
-      "ko": "루미스라이트 주괴"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "958cec617fc",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "生命之太刀",
-      "de": "Katana des Baumgottes",
-      "en": "Katana of the Fiend",
-      "fr": "Katana du Fiélon",
-      "ja": "魔神刀【改】",
-      "ko": "마신의 외날검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "c15dee90148",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "女神之刀·改",
-      "de": "Katana der Göttin",
-      "en": "Katana of the Goddess",
-      "fr": "Katana de la Déesse",
-      "ja": "女神刀【改】",
-      "ko": "여신의 외날검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "3cbaf7f9056",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "圆桌之太刀",
-      "de": "Katana der Runde",
-      "en": "Katana of the Round",
-      "fr": "Lame de la Table ronde",
-      "ja": "円卓之剣",
-      "ko": "기사신의 외날검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "3292d9e2bef",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "圆桌之拳",
-      "de": "Schlagringe der Runde",
-      "en": "Knuckles of the Round",
-      "fr": "Poings de la Table ronde",
-      "ja": "ナックル・オブ・ラウンド",
-      "ko": "기사신의 너클"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "dd619f32016",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "生命之刀",
-      "de": "Dolche des Baumgottes",
-      "en": "Points of the Fiend",
-      "fr": "Pointes du Fiélon",
-      "ja": "ポインツ・オブ・フィーンド",
-      "ko": "마신의 단검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "2416ed0e305",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "神圣女神之刃",
-      "de": "Klingen der Göttin",
-      "en": "Points of the Goddess",
-      "fr": "Pointes de la Déesse",
-      "ja": "エッジ・オブ・ゴッデス",
-      "ko": "여신의 쌍검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "aa0f3066d2a",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈虎爪（复制品）",
-      "de": "Allagische Baghnakhs (Replik)",
-      "en": "Replica Allagan Baghnakhs",
-      "fr": "Répliques de baghnakhs allagois",
-      "ja": "レプリカ・アラガンバグナウ",
-      "ko": "모조 알라그 바그나크"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "371af4d45d6",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈战斧（复制品）",
-      "de": "Allagische Kriegsaxt (Replik)",
-      "en": "Replica Allagan Battleaxe",
-      "fr": "Réplique de hache de combat allagoise",
-      "ja": "レプリカ・アラガンバトルアクス",
-      "ko": "모조 알라그 전투도끼"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "07c9f672745",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈剑（复制品）",
-      "de": "Allagische Klinge (Replik)",
-      "en": "Replica Allagan Blade",
-      "fr": "Réplique de lame allagoise",
-      "ja": "レプリカ・アラガンブレード",
-      "ko": "모조 알라그 검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "814f364bd7a",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈复合弓（复制品）",
-      "de": "Allagischer Kompositbogen (Replik)",
-      "en": "Replica Allagan Composite Bow",
-      "fr": "Réplique d'arc composite allagois",
-      "ja": "レプリカ・アラガンコンポジットボウ",
-      "ko": "모조 알라그 합성궁"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "80f14fb0abd",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈小刀（复制品）",
-      "de": "Allagische Dolche (Replik)",
-      "en": "Replica Allagan Daggers",
-      "fr": "Répliques de dagues allagoises",
-      "ja": "レプリカ・アラガンダガー",
-      "ko": "모조 알라그 단검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "8b75aef27d1",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈断头剑（复制品）",
-      "de": "Allagische Guillotine (Replik)",
-      "en": "Replica Allagan Guillotine",
-      "fr": "Réplique de fendoir allagois",
-      "ja": "レプリカ・アラガン・ディバイダー",
-      "ko": "모조 알라그 단두검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "1dcb511b66f",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈手枪（复制品）",
-      "de": "Allagische Pistole (Replik)",
-      "en": "Replica Allagan Pistol",
-      "fr": "Réplique de pistolet allagois",
-      "ja": "レプリカ・アラガンハンドガン",
-      "ko": "모조 알라그 권총"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "15ac2cd1689",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈长枪（复制品）",
-      "de": "Allagischer Speer (Replik)",
-      "en": "Replica Allagan Spear",
-      "fr": "Réplique d'hast allagois",
-      "ja": "レプリカ・アラガンスピア",
-      "ko": "모조 알라그 창"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "559cae81011",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈高位虎爪（复制品）",
-      "de": "Hochallagische Baghnakhs (Replik)",
-      "en": "Replica High Allagan Baghnakhs",
-      "fr": "Répliques de baghnakhs haut-allagois",
-      "ja": "レプリカ・ハイアラガンバグナウ",
-      "ko": "모조 상급 알라그 바그나크"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "57819946e64",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈高位战斧（复制品）",
-      "de": "Hochallagische Kriegsaxt (Replik)",
-      "en": "Replica High Allagan Battleaxe",
-      "fr": "Réplique de hache de combat haut-allagoise",
-      "ja": "レプリカ・ハイアラガン・バトルアクス",
-      "ko": "모조 상급 알라그 전투도끼"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "2e226d4dde5",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈高位长刀（复制品）",
-      "de": "Hochallagische Klinge (Replik)",
-      "en": "Replica High Allagan Blade",
-      "fr": "Réplique de lame haut-allagoise",
-      "ja": "レプリカ・ハイアラガンブレード",
-      "ko": "모조 상급 알라그 검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "03ed59cef5a",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈高位辉刀（复制品）",
-      "de": "Hochallagische Spalter (Replik)",
-      "en": "Replica High Allagan Cleavers",
-      "fr": "Répliques de couperets haut-allagois",
-      "ja": "レプリカ・ハイアラガンクリーバー",
-      "ko": "모조 상급 알라그 살육도"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "6882ecaca35",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈高位复合弓（复制品）",
-      "de": "Hochallagischer Kompositbogen (Replik)",
-      "en": "Replica High Allagan Composite Bow",
-      "fr": "Réplique d'arc composite haut-allagois",
-      "ja": "レプリカ・ハイアラガン・コンポジットボウ",
-      "ko": "모조 상급 알라그 합성궁"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "bac3ed03cfb",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈高位断头剑（复制品）",
-      "de": "Hochallagische Guillotine (Replik)",
-      "en": "Replica High Allagan Guillotine",
-      "fr": "Réplique de fendoir haut-allagois",
-      "ja": "レプリカ・ハイアラガン・ディバイダー",
-      "ko": "모조 상급 알라그 단두검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "968224e734e",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈高位手枪（复制品）",
-      "de": "Hochallagische Pistole (Replik)",
-      "en": "Replica High Allagan Pistol",
-      "fr": "Réplique de pistolet haut-allagois",
-      "ja": "レプリカ・ハイアラガンハンドガン",
-      "ko": "모조 상급 알라그 권총"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "d63f320f885",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "亚拉戈高位长枪（复制品）",
-      "de": "Hochallagischer Speer (Replik)",
-      "en": "Replica High Allagan Spear",
-      "fr": "Réplique d'hast haut-allagois",
-      "ja": "レプリカ・ハイアラガンスピア",
-      "ko": "모조 상급 알라그 창"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "71e8030f342",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "邪龙怨影大斧",
-      "de": "Nidhogg-Axt",
-      "en": "Seeing Horde Axe",
-      "fr": "Hache de Dravanien",
-      "ja": "ホードアクス",
-      "ko": "사룡의 도끼"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "e60fe8bab01",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "邪龙怨影剑",
-      "de": "Nidhogg-Schwert",
-      "en": "Seeing Horde Blade",
-      "fr": "Épée de Dravanien",
-      "ja": "ホードブレード",
-      "ko": "사룡의 검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "ba576cf0c4d",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "邪龙怨影小刀",
-      "de": "Nidhogg-Dolche",
-      "en": "Seeing Horde Daggers",
-      "fr": "Dagues de Dravanien",
-      "ja": "ホードダガー",
-      "ko": "사룡의 단검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "76cf7d6672a",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "邪龙怨影大剑",
-      "de": "Nidhogg-Guillotine",
-      "en": "Seeing Horde Guillotine",
-      "fr": "Fendoir de Dravanien",
-      "ja": "ホードディバイダー",
-      "ko": "사룡의 단두검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "ca65be06e83",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "邪龙怨影太刀",
-      "de": "Nidhogg-Samuraiklinge",
-      "en": "Seeing Horde Katana",
-      "fr": "Lame samouraï de Dravanien",
-      "ja": "ホードサムライブレード",
-      "ko": "사룡의 외날검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "824c260ae07",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "邪龙怨影之拳",
-      "de": "Nidhogg-Schlagringe",
-      "en": "Seeing Horde Knuckles",
-      "fr": "Poings de Dravanien",
-      "ja": "ホードナックル",
-      "ko": "사룡의 너클"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1651,
-    "durability": 70,
-    "id": "bef38a8a987",
-    "level": 210,
-    "maxQuality": 10373,
-    "name": {
-      "cn": "圆桌之剑",
-      "de": "Schwert der Runde",
-      "en": "Sword of the Round",
-      "fr": "Épée de la Table ronde",
-      "ja": "ソード・オブ・ラウンド",
-      "ko": "기사신의 검"
-    },
-    "stars": 3
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "69ba033fbb1",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "云银锭",
       "de": "Wolken-Mithril-Barren",
@@ -10954,11 +10308,62 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "46e717f4186",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "圆桌之刀",
+      "de": "Dolche der Runde",
+      "en": "Daggers of the Round",
+      "fr": "Dagues de la Table ronde",
+      "ja": "ダガー・オブ・ラウンド",
+      "ko": "기사신의 단검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "354bb991bbf",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "生命之刃",
+      "de": "Schneide des Baumgottes",
+      "en": "Edge of the Fiend",
+      "fr": "Grande épée du Fiélon",
+      "ja": "エッジ・オブ・フィーンド",
+      "ko": "마신의 양손검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "5cc9f6295fc",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "神圣女神之巨剑",
+      "de": "Zweihänder der Göttin",
+      "en": "Edge of the Goddess",
+      "fr": "Grande épée de la Déesse",
+      "ja": "ソード・オブ・ゴッデス",
+      "ko": "여신의 양손검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1234,
     "durability": 70,
     "id": "2fa6fbec98e",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "荒神工艺锤",
       "de": "Ikoneneisen-Juwelierhammer",
@@ -10971,11 +10376,96 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "c33194b7764",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "生命之火",
+      "de": "Feuer des Baumgottes",
+      "en": "Fire of the Fiend",
+      "fr": "Feu du Fiélon",
+      "ja": "ファイア・オブ・フィーンド",
+      "ko": "마신의 총"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "3980ec90bef",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "神圣女神之火",
+      "de": "Muskete der Göttin",
+      "en": "Fire of the Goddess",
+      "fr": "Feu de la Déesse",
+      "ja": "ファイア・オブ・ゴッデス",
+      "ko": "여신의 총"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "a728d260a2d",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "圆桌之火",
+      "de": "Muskete der Runde",
+      "en": "Fire of the Round",
+      "fr": "Feu de la Table ronde",
+      "ja": "ファイア・オブ・ラウンド",
+      "ko": "기사신의 총"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "79b624a0667",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "生命之拳",
+      "de": "Fäuste des Baumgottes",
+      "en": "Fists of the Fiend",
+      "fr": "Poings du Fiélon",
+      "ja": "フィスト・オブ・フィーンド",
+      "ko": "마신의 주먹"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "5697c153784",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "神圣女神之拳",
+      "de": "Fäuste der Göttin",
+      "en": "Fists of the Goddess",
+      "fr": "Poings de la Déesse",
+      "ja": "フィスト・オブ・ゴッデス",
+      "ko": "여신의 주먹"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1234,
     "durability": 70,
     "id": "bdaa3156ed2",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银平斩",
       "de": "Edelmythrit-Ahle",
@@ -10988,11 +10478,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "065ac93ad41",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银羊角锤",
       "de": "Edelmythrit-Klauenhammer",
@@ -11005,11 +10495,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "ffe9e1cce98",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银横头锤",
       "de": "Edelmythrit-Kreuzschlaghammer",
@@ -11022,11 +10512,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "fa31f6778af",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银厨刀",
       "de": "Edelmythrit-Küchenmesser",
@@ -11039,11 +10529,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "c10486578d9",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银锉刀",
       "de": "Edelmythrit-Feile",
@@ -11056,11 +10546,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "9324225430f",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银手斧",
       "de": "Edelmythrit-Handbeil",
@@ -11073,11 +10563,28 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "4af63840d65",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "光银锭",
+      "de": "Edelmythritbarren",
+      "en": "High Mythrite Ingot",
+      "fr": "Lingot de mithrite noble",
+      "ja": "ハイミスライトインゴット",
+      "ko": "루미스라이트 주괴"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1234,
     "durability": 70,
     "id": "1797b73f0d1",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银研钵",
       "de": "Edelmythrit-Mörser",
@@ -11090,11 +10597,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "357af929e80",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银鹤嘴锄",
       "de": "Edelmythrit-Spitzhacke",
@@ -11107,11 +10614,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "3af18ec130d",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银手钳",
       "de": "Edelmythrit-Zange",
@@ -11124,11 +10631,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "ccd5ae11b03",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银圆头锤",
       "de": "Edelmythrit-Schlichthammer",
@@ -11141,11 +10648,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "a2370fb06ff",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银圆革刀",
       "de": "Edelmythrit-Rundmesser",
@@ -11158,11 +10665,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "aa48d50bee5",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银手锯",
       "de": "Edelmythrit-Säge",
@@ -11175,11 +10682,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "bf4ada9f988",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银镰刀",
       "de": "Edelmythrit-Sense",
@@ -11192,11 +10699,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1764,
+    "difficulty": 1234,
     "durability": 70,
     "id": "aea1cb78232",
-    "level": 220,
-    "maxQuality": 11814,
+    "level": 210,
+    "maxQuality": 8742,
     "name": {
       "cn": "光银碎石锤",
       "de": "Edelmythrit-Vorschlaghammer",
@@ -11209,11 +10716,504 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "958cec617fc",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "生命之太刀",
+      "de": "Katana des Baumgottes",
+      "en": "Katana of the Fiend",
+      "fr": "Katana du Fiélon",
+      "ja": "魔神刀【改】",
+      "ko": "마신의 외날검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "c15dee90148",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "女神之刀·改",
+      "de": "Katana der Göttin",
+      "en": "Katana of the Goddess",
+      "fr": "Katana de la Déesse",
+      "ja": "女神刀【改】",
+      "ko": "여신의 외날검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "3cbaf7f9056",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "圆桌之太刀",
+      "de": "Katana der Runde",
+      "en": "Katana of the Round",
+      "fr": "Lame de la Table ronde",
+      "ja": "円卓之剣",
+      "ko": "기사신의 외날검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "3292d9e2bef",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "圆桌之拳",
+      "de": "Schlagringe der Runde",
+      "en": "Knuckles of the Round",
+      "fr": "Poings de la Table ronde",
+      "ja": "ナックル・オブ・ラウンド",
+      "ko": "기사신의 너클"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "dd619f32016",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "生命之刀",
+      "de": "Dolche des Baumgottes",
+      "en": "Points of the Fiend",
+      "fr": "Pointes du Fiélon",
+      "ja": "ポインツ・オブ・フィーンド",
+      "ko": "마신의 단검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "2416ed0e305",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "神圣女神之刃",
+      "de": "Klingen der Göttin",
+      "en": "Points of the Goddess",
+      "fr": "Pointes de la Déesse",
+      "ja": "エッジ・オブ・ゴッデス",
+      "ko": "여신의 쌍검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "aa0f3066d2a",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈虎爪（复制品）",
+      "de": "Allagische Baghnakhs (Replik)",
+      "en": "Replica Allagan Baghnakhs",
+      "fr": "Répliques de baghnakhs allagois",
+      "ja": "レプリカ・アラガンバグナウ",
+      "ko": "모조 알라그 바그나크"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "371af4d45d6",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈战斧（复制品）",
+      "de": "Allagische Kriegsaxt (Replik)",
+      "en": "Replica Allagan Battleaxe",
+      "fr": "Réplique de hache de combat allagoise",
+      "ja": "レプリカ・アラガンバトルアクス",
+      "ko": "모조 알라그 전투도끼"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "07c9f672745",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈剑（复制品）",
+      "de": "Allagische Klinge (Replik)",
+      "en": "Replica Allagan Blade",
+      "fr": "Réplique de lame allagoise",
+      "ja": "レプリカ・アラガンブレード",
+      "ko": "모조 알라그 검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "814f364bd7a",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈复合弓（复制品）",
+      "de": "Allagischer Kompositbogen (Replik)",
+      "en": "Replica Allagan Composite Bow",
+      "fr": "Réplique d'arc composite allagois",
+      "ja": "レプリカ・アラガンコンポジットボウ",
+      "ko": "모조 알라그 합성궁"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "80f14fb0abd",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈小刀（复制品）",
+      "de": "Allagische Dolche (Replik)",
+      "en": "Replica Allagan Daggers",
+      "fr": "Répliques de dagues allagoises",
+      "ja": "レプリカ・アラガンダガー",
+      "ko": "모조 알라그 단검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "8b75aef27d1",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈断头剑（复制品）",
+      "de": "Allagische Guillotine (Replik)",
+      "en": "Replica Allagan Guillotine",
+      "fr": "Réplique de fendoir allagois",
+      "ja": "レプリカ・アラガン・ディバイダー",
+      "ko": "모조 알라그 단두검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "1dcb511b66f",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈手枪（复制品）",
+      "de": "Allagische Pistole (Replik)",
+      "en": "Replica Allagan Pistol",
+      "fr": "Réplique de pistolet allagois",
+      "ja": "レプリカ・アラガンハンドガン",
+      "ko": "모조 알라그 권총"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "15ac2cd1689",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈长枪（复制品）",
+      "de": "Allagischer Speer (Replik)",
+      "en": "Replica Allagan Spear",
+      "fr": "Réplique d'hast allagois",
+      "ja": "レプリカ・アラガンスピア",
+      "ko": "모조 알라그 창"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "559cae81011",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈高位虎爪（复制品）",
+      "de": "Hochallagische Baghnakhs (Replik)",
+      "en": "Replica High Allagan Baghnakhs",
+      "fr": "Répliques de baghnakhs haut-allagois",
+      "ja": "レプリカ・ハイアラガンバグナウ",
+      "ko": "모조 상급 알라그 바그나크"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "57819946e64",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈高位战斧（复制品）",
+      "de": "Hochallagische Kriegsaxt (Replik)",
+      "en": "Replica High Allagan Battleaxe",
+      "fr": "Réplique de hache de combat haut-allagoise",
+      "ja": "レプリカ・ハイアラガン・バトルアクス",
+      "ko": "모조 상급 알라그 전투도끼"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "2e226d4dde5",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈高位长刀（复制品）",
+      "de": "Hochallagische Klinge (Replik)",
+      "en": "Replica High Allagan Blade",
+      "fr": "Réplique de lame haut-allagoise",
+      "ja": "レプリカ・ハイアラガンブレード",
+      "ko": "모조 상급 알라그 검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "03ed59cef5a",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈高位辉刀（复制品）",
+      "de": "Hochallagische Spalter (Replik)",
+      "en": "Replica High Allagan Cleavers",
+      "fr": "Répliques de couperets haut-allagois",
+      "ja": "レプリカ・ハイアラガンクリーバー",
+      "ko": "모조 상급 알라그 살육도"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "6882ecaca35",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈高位复合弓（复制品）",
+      "de": "Hochallagischer Kompositbogen (Replik)",
+      "en": "Replica High Allagan Composite Bow",
+      "fr": "Réplique d'arc composite haut-allagois",
+      "ja": "レプリカ・ハイアラガン・コンポジットボウ",
+      "ko": "모조 상급 알라그 합성궁"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "bac3ed03cfb",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈高位断头剑（复制品）",
+      "de": "Hochallagische Guillotine (Replik)",
+      "en": "Replica High Allagan Guillotine",
+      "fr": "Réplique de fendoir haut-allagois",
+      "ja": "レプリカ・ハイアラガン・ディバイダー",
+      "ko": "모조 상급 알라그 단두검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "968224e734e",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈高位手枪（复制品）",
+      "de": "Hochallagische Pistole (Replik)",
+      "en": "Replica High Allagan Pistol",
+      "fr": "Réplique de pistolet haut-allagois",
+      "ja": "レプリカ・ハイアラガンハンドガン",
+      "ko": "모조 상급 알라그 권총"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "d63f320f885",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "亚拉戈高位长枪（复制品）",
+      "de": "Hochallagischer Speer (Replik)",
+      "en": "Replica High Allagan Spear",
+      "fr": "Réplique d'hast haut-allagois",
+      "ja": "レプリカ・ハイアラガンスピア",
+      "ko": "모조 상급 알라그 창"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "71e8030f342",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "邪龙怨影大斧",
+      "de": "Nidhogg-Axt",
+      "en": "Seeing Horde Axe",
+      "fr": "Hache de Dravanien",
+      "ja": "ホードアクス",
+      "ko": "사룡의 도끼"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "e60fe8bab01",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "邪龙怨影剑",
+      "de": "Nidhogg-Schwert",
+      "en": "Seeing Horde Blade",
+      "fr": "Épée de Dravanien",
+      "ja": "ホードブレード",
+      "ko": "사룡의 검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "ba576cf0c4d",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "邪龙怨影小刀",
+      "de": "Nidhogg-Dolche",
+      "en": "Seeing Horde Daggers",
+      "fr": "Dagues de Dravanien",
+      "ja": "ホードダガー",
+      "ko": "사룡의 단검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "76cf7d6672a",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "邪龙怨影大剑",
+      "de": "Nidhogg-Guillotine",
+      "en": "Seeing Horde Guillotine",
+      "fr": "Fendoir de Dravanien",
+      "ja": "ホードディバイダー",
+      "ko": "사룡의 단두검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "ca65be06e83",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "邪龙怨影太刀",
+      "de": "Nidhogg-Samuraiklinge",
+      "en": "Seeing Horde Katana",
+      "fr": "Lame samouraï de Dravanien",
+      "ja": "ホードサムライブレード",
+      "ko": "사룡의 외날검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "824c260ae07",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "邪龙怨影之拳",
+      "de": "Nidhogg-Schlagringe",
+      "en": "Seeing Horde Knuckles",
+      "fr": "Poings de Dravanien",
+      "ja": "ホードナックル",
+      "ko": "사룡의 너클"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "bef38a8a987",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "圆桌之剑",
+      "de": "Schwert der Runde",
+      "en": "Sword of the Round",
+      "fr": "Épée de la Table ronde",
+      "ja": "ソード・オブ・ラウンド",
+      "ko": "기사신의 검"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1476,
     "durability": 70,
     "id": "cea045eb2d1",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "重合金爪",
       "de": "Schwermetall-Klauen",
@@ -11226,11 +11226,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "8a83e54c64f",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "重合金重炮",
       "de": "Schwermetall-Kalverine",
@@ -11243,11 +11243,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "0f74624f2fd",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "重合金小刀",
       "de": "Schwermetall-Dolche",
@@ -11260,11 +11260,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "c91e0598e86",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "重合金巨剑",
       "de": "Schwermetall-Großschwert",
@@ -11277,11 +11277,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "40f7228ed5c",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "重合金锭",
       "de": "Schwermetall-Barren",
@@ -11294,11 +11294,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "9941ed0b8aa",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "重合金长剑",
       "de": "Schwermetall-Langschwert",
@@ -11311,11 +11311,11 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 70,
     "id": "cd568b35cdc",
     "level": 250,
-    "maxQuality": 13187,
+    "maxQuality": 9230,
     "name": {
       "cn": "重合金战斧",
       "de": "Schwermetall-Kriegsaxt",
@@ -11378,6 +11378,22 @@
     "baseLevel": 61,
     "difficulty": 1116,
     "durability": 80,
+    "id": "1270710f7fb",
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "硬钢横头锤",
+      "de": "Edelstahl-Kreuzschlaghammer",
+      "en": "High Steel Cross-pein Hammer",
+      "fr": "Marteau à panne croisée en acier noble",
+      "ja": "ハイスチール・クロスペインハンマー",
+      "ko": "경강 단조망치"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
     "id": "275e65eddaa",
     "level": 255,
     "maxQuality": 8377,
@@ -11388,6 +11404,38 @@
       "fr": "Couleuvrine en acier noble",
       "ja": "ハイスチールカルバリン",
       "ko": "경강 포총"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "id": "ff37fdc10ab",
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "硬钢鹤嘴镐",
+      "de": "Edelstahl-Dolabra",
+      "en": "High Steel Dolabra",
+      "fr": "Dolabre en acier noble",
+      "ja": "ハイスチールドラブラ",
+      "ko": "경강 양날곡괭이"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "id": "7b5fad3c482",
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "硬钢铸甲锤",
+      "de": "Edelstahl-Flachhammer",
+      "en": "High Steel Doming Hammer",
+      "fr": "Marteau à emboutir en acier noble",
+      "ja": "ハイスチール・ドーミングハンマー",
+      "ko": "경강 판금망치"
     }
   },
   {
@@ -11420,6 +11468,38 @@
       "fr": "Pistolame en acier noble",
       "ja": "ハイスチール・ガンブレード",
       "ko": "High Steel Gunblade"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "id": "2d7af2611fd",
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "硬钢手斧",
+      "de": "Edelstahl-Handbeil",
+      "en": "High Steel Hatchet",
+      "fr": "Hachette en acier noble",
+      "ja": "ハイスチールハチェット",
+      "ko": "경강 손도끼"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
+    "id": "b727f26380f",
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "硬钢裁皮刀",
+      "de": "Edelstahl-Sattlermesser",
+      "en": "High Steel Head Knife",
+      "fr": "Couteau à pied en acier noble",
+      "ja": "ハイスチール・ヘッドナイフ",
+      "ko": "경강 가죽칼"
     }
   },
   {
@@ -11506,6 +11586,22 @@
     "baseLevel": 61,
     "difficulty": 1116,
     "durability": 80,
+    "id": "932fae43a97",
+    "level": 255,
+    "maxQuality": 8377,
+    "name": {
+      "cn": "硬钢手锯",
+      "de": "Edelstahl-Säge",
+      "en": "High Steel Saw",
+      "fr": "Scie en acier noble",
+      "ja": "ハイスチールソー",
+      "ko": "경강 톱"
+    }
+  },
+  {
+    "baseLevel": 61,
+    "difficulty": 1116,
+    "durability": 80,
     "id": "624d3fe1260",
     "level": 255,
     "maxQuality": 8377,
@@ -11520,106 +11616,10 @@
   },
   {
     "baseLevel": 61,
-    "difficulty": 1400,
-    "durability": 80,
-    "id": "1270710f7fb",
-    "level": 260,
-    "maxQuality": 9065,
-    "name": {
-      "cn": "硬钢横头锤",
-      "de": "Edelstahl-Kreuzschlaghammer",
-      "en": "High Steel Cross-pein Hammer",
-      "fr": "Marteau à panne croisée en acier noble",
-      "ja": "ハイスチール・クロスペインハンマー",
-      "ko": "경강 단조망치"
-    }
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 1400,
-    "durability": 80,
-    "id": "ff37fdc10ab",
-    "level": 260,
-    "maxQuality": 9065,
-    "name": {
-      "cn": "硬钢鹤嘴镐",
-      "de": "Edelstahl-Dolabra",
-      "en": "High Steel Dolabra",
-      "fr": "Dolabre en acier noble",
-      "ja": "ハイスチールドラブラ",
-      "ko": "경강 양날곡괭이"
-    }
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 1400,
-    "durability": 80,
-    "id": "7b5fad3c482",
-    "level": 260,
-    "maxQuality": 9065,
-    "name": {
-      "cn": "硬钢铸甲锤",
-      "de": "Edelstahl-Flachhammer",
-      "en": "High Steel Doming Hammer",
-      "fr": "Marteau à emboutir en acier noble",
-      "ja": "ハイスチール・ドーミングハンマー",
-      "ko": "경강 판금망치"
-    }
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 1400,
-    "durability": 80,
-    "id": "2d7af2611fd",
-    "level": 260,
-    "maxQuality": 9065,
-    "name": {
-      "cn": "硬钢手斧",
-      "de": "Edelstahl-Handbeil",
-      "en": "High Steel Hatchet",
-      "fr": "Hachette en acier noble",
-      "ja": "ハイスチールハチェット",
-      "ko": "경강 손도끼"
-    }
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 1400,
-    "durability": 80,
-    "id": "b727f26380f",
-    "level": 260,
-    "maxQuality": 9065,
-    "name": {
-      "cn": "硬钢裁皮刀",
-      "de": "Edelstahl-Sattlermesser",
-      "en": "High Steel Head Knife",
-      "fr": "Couteau à pied en acier noble",
-      "ja": "ハイスチール・ヘッドナイフ",
-      "ko": "경강 가죽칼"
-    }
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 1400,
-    "durability": 80,
-    "id": "932fae43a97",
-    "level": 260,
-    "maxQuality": 9065,
-    "name": {
-      "cn": "硬钢手锯",
-      "de": "Edelstahl-Säge",
-      "en": "High Steel Saw",
-      "fr": "Scie en acier noble",
-      "ja": "ハイスチールソー",
-      "ko": "경강 톱"
-    }
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 3571,
+    "difficulty": 1116,
     "durability": 80,
     "id": "4c048f6b463",
-    "level": 260,
+    "level": 255,
     "maxQuality": 4188,
     "name": {
       "cn": "木制东洋小屋房顶",
@@ -11632,11 +11632,11 @@
   },
   {
     "baseLevel": 61,
-    "difficulty": 1400,
+    "difficulty": 1116,
     "durability": 80,
     "id": "3eb3fe3953d",
-    "level": 260,
-    "maxQuality": 9065,
+    "level": 255,
+    "maxQuality": 8377,
     "name": {
       "cn": "白铜雕金锤",
       "de": "Kupfernickel-Ornamenthammer",
@@ -11648,11 +11648,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 60,
     "id": "dcf01a83f28",
     "level": 265,
-    "maxQuality": 7801,
+    "maxQuality": 6864,
     "name": {
       "cn": "防鲨用品",
       "de": "Haifischharpune",
@@ -11664,11 +11664,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 60,
     "id": "ed3b24072ad",
     "level": 265,
-    "maxQuality": 7801,
+    "maxQuality": 6864,
     "name": {
       "cn": "基拉巴尼亚医药品",
       "de": "Phiolenset abanischer Medizin",
@@ -11680,11 +11680,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 842,
+    "difficulty": 631,
     "durability": 60,
     "id": "be14de59a19",
     "level": 265,
-    "maxQuality": 3900,
+    "maxQuality": 3432,
     "name": {
       "cn": "基拉巴尼亚医药品部件",
       "de": "Komponente abanischer Medizin",
@@ -11696,11 +11696,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 842,
+    "difficulty": 631,
     "durability": 60,
     "id": "a675016e702",
     "level": 265,
-    "maxQuality": 3900,
+    "maxQuality": 3432,
     "name": {
       "cn": "防鲨用品部件",
       "de": "Komponente einer Haifischharpune",
@@ -11712,11 +11712,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "117a2c549dc",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "硬钢平斩",
       "de": "Edelstahl-Ahle",
@@ -11728,11 +11728,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "8b3b2789c63",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "硬钢羊角锤",
       "de": "Edelstahl-Klauenhammer",
@@ -11744,11 +11744,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "2a5438b519c",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "硬钢厨刀",
       "de": "Edelstahl-Küchenmesser",
@@ -11760,11 +11760,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "9e55ef1d915",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "硬钢锉刀",
       "de": "Edelstahl-Feile",
@@ -11776,11 +11776,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 842,
+    "difficulty": 631,
     "durability": 40,
     "id": "037ae84dc9c",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "硬钢锭",
       "de": "Edelstahl-Barren",
@@ -11792,11 +11792,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "0b2490ca84b",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "硬钢研钵",
       "de": "Edelstahl-Mörser",
@@ -11808,11 +11808,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "d639025b62c",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "硬钢手钳",
       "de": "Edelstahl-Zange",
@@ -11824,11 +11824,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "94fad043402",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "硬钢镰刀",
       "de": "Edelstahl-Sense",
@@ -11840,11 +11840,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 80,
     "id": "708bf3e7945",
     "level": 265,
-    "maxQuality": 9752,
+    "maxQuality": 8581,
     "name": {
       "cn": "硬钢碎石锤",
       "de": "Edelstahl-Vorschlaghammer",
@@ -11856,27 +11856,27 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 5388,
+    "difficulty": 1263,
     "durability": 80,
     "id": "7f268a20317",
     "level": 265,
-    "maxQuality": 4876,
+    "maxQuality": 4290,
     "name": {
-      "cn": "东洋纹饰围墙",
+      "cn": "Hingan Mokuzo Fence (patch 5.2)",
       "de": "Hinganischer Mokuzo-Zaun",
-      "en": "Hingan Stone Fence",
+      "en": "Hingan Mokuzo Fence",
       "fr": "Muret hingashien simple",
       "ja": "白銀石塀",
-      "ko": "동방의 돌 담장"
+      "ko": "Hingan Mokuzo Fence"
     }
   },
   {
     "baseLevel": 62,
-    "difficulty": 1684,
+    "difficulty": 1263,
     "durability": 60,
     "id": "ed9c7b34a1e",
     "level": 265,
-    "maxQuality": 7801,
+    "maxQuality": 6864,
     "name": {
       "cn": "梅氏一族的日用品",
       "de": "Jagdbedarf",
@@ -11888,11 +11888,11 @@
   },
   {
     "baseLevel": 62,
-    "difficulty": 842,
+    "difficulty": 631,
     "durability": 60,
     "id": "e5e4ca8da9a",
     "level": 265,
-    "maxQuality": 3900,
+    "maxQuality": 3432,
     "name": {
       "cn": "梅氏一族的日用品部件",
       "de": "Komponente eines Gebrauchsgegenstands der M",
@@ -11904,11 +11904,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 60,
     "id": "b0b1f28f7cb",
     "level": 270,
-    "maxQuality": 8351,
+    "maxQuality": 7348,
     "name": {
       "cn": "库尔札斯防寒用品",
       "de": "Coerthischer Wintermantel",
@@ -11920,11 +11920,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 984,
+    "difficulty": 738,
     "durability": 60,
     "id": "e8855402b93",
     "level": 270,
-    "maxQuality": 4175,
+    "maxQuality": 3674,
     "name": {
       "cn": "库尔札斯防寒用品部件",
       "de": "Komponente coerthischer Winterkleidung",
@@ -11936,11 +11936,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1377,
+    "difficulty": 1033,
     "durability": 80,
     "id": "0ec5a92bb21",
     "level": 270,
-    "maxQuality": 5741,
+    "maxQuality": 5052,
     "name": {
       "cn": "轻量短剑",
       "de": "Federleichtes Kurzschwert",
@@ -11952,11 +11952,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "17dc7964f26",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "硬钢巨剑",
       "de": "Gefaltetes Edelstahl-Großschwert",
@@ -11968,11 +11968,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "89d469055de",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "折钢指虎",
       "de": "Gefaltete Edelstahl-Schlagringe",
@@ -11984,11 +11984,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "c1a97370027",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "硬钢战斧",
       "de": "Edelstahl-Kriegsaxt",
@@ -12000,11 +12000,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "849b4289775",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "硬钢刺刀",
       "de": "Edelstahl-Bajonett",
@@ -12016,11 +12016,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "0691445b35d",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "硬钢波刃",
       "de": "Edelstahl-Krise",
@@ -12032,11 +12032,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "619412358ab",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "硬钢长剑",
       "de": "Edelstahl-Langschwert",
@@ -12048,11 +12048,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "8af21bede2e",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "硬钢打刀",
       "de": "Edelstahl-Uchigatana",
@@ -12064,11 +12064,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "a0d723cb9a1",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "硬钢战轮",
       "de": "Edelstahl-Wurfringe",
@@ -12080,11 +12080,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 80,
     "id": "3ae1959933f",
     "level": 270,
-    "maxQuality": 10439,
+    "maxQuality": 9186,
     "name": {
       "cn": "硬钢燧发枪",
       "de": "Edelstahl-Pistole",
@@ -12096,11 +12096,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 6297,
+    "difficulty": 1476,
     "durability": 80,
     "id": "6532880c6a1",
     "level": 270,
-    "maxQuality": 5219,
+    "maxQuality": 4593,
     "name": {
       "cn": "虎徹复制品",
       "de": "Kotetsu-Replik",
@@ -12112,11 +12112,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 60,
     "id": "044fb8a1bd2",
     "level": 270,
-    "maxQuality": 8351,
+    "maxQuality": 7348,
     "name": {
       "cn": "解放军的军需品",
       "de": "Rucksack für die Befreiungsarmee",
@@ -12128,11 +12128,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 984,
+    "difficulty": 738,
     "durability": 60,
     "id": "69269559ba9",
     "level": 270,
-    "maxQuality": 4175,
+    "maxQuality": 3674,
     "name": {
       "cn": "解放军的军需品部件",
       "de": "Komponente eines Stücks Befreiungsarmee-Ausrüstung",
@@ -12144,11 +12144,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 1968,
+    "difficulty": 1476,
     "durability": 60,
     "id": "16861d96119",
     "level": 270,
-    "maxQuality": 8351,
+    "maxQuality": 7348,
     "name": {
       "cn": "翠水乡特产",
       "de": "Kostbarkeit aus Sui no Sato",
@@ -12160,11 +12160,11 @@
   },
   {
     "baseLevel": 63,
-    "difficulty": 984,
+    "difficulty": 738,
     "durability": 60,
     "id": "f27605515a9",
     "level": 270,
-    "maxQuality": 4175,
+    "maxQuality": 3674,
     "name": {
       "cn": "翠水乡特产部件",
       "de": "Komponente einer Kostbarkeit aus Sui no Sato",
@@ -12176,11 +12176,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 60,
     "id": "3cf42caaf82",
     "level": 273,
-    "maxQuality": 8680,
+    "maxQuality": 7725,
     "name": {
       "cn": "云海珍宝",
       "de": "Wolkenmeerperle",
@@ -12192,11 +12192,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 1058,
+    "difficulty": 793,
     "durability": 60,
     "id": "3f34c374955",
     "level": 273,
-    "maxQuality": 4340,
+    "maxQuality": 3862,
     "name": {
       "cn": "云海珍宝部件",
       "de": "Komponente einer Wolkenmeerperle",
@@ -12208,11 +12208,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "302cd3a5660",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁爪",
       "de": "Domaeisen-Klauen",
@@ -12224,11 +12224,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "9ff3ec5599a",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁轮刃",
       "de": "Domaeisen-Todesringe",
@@ -12240,11 +12240,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "7d4e87e31e2",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁枪刃",
       "de": "Domaeisen-Revolverklinge",
@@ -12256,11 +12256,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "8663babf037",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁圆手锯",
       "de": "Domaeisen-Rundsäge",
@@ -12272,11 +12272,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "333fe618765",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁手斧",
       "de": "Domaeisen-Handbeil",
@@ -12288,11 +12288,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "7f9d1b3e0e0",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁裁皮刀",
       "de": "Domaeisen-Sattlermesser",
@@ -12304,11 +12304,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "fa9d7922f4a",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁长剑",
       "de": "Domaeisen-Langschwert",
@@ -12320,11 +12320,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "bf1f9ce017f",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁锻铁锤",
       "de": "Domaeisen-Schlägel",
@@ -12336,11 +12336,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "176ac817370",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁鹤嘴锄",
       "de": "Domaeisen-Spitzhacke",
@@ -12352,11 +12352,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "3dad4aff4c0",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁圆头锤",
       "de": "Domaeisen-Flachhammer",
@@ -12368,11 +12368,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "cd01a5e500a",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁战斧",
       "de": "Domaeisen-Kriegsaxt",
@@ -12384,11 +12384,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 2116,
+    "difficulty": 1586,
     "durability": 80,
     "id": "c3988706647",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "翠银雕金锤",
       "de": "Durium-Stockhammer",
@@ -12400,11 +12400,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 6771,
+    "difficulty": 1586,
     "durability": 80,
     "id": "da4b1c95eac",
     "level": 273,
-    "maxQuality": 5425,
+    "maxQuality": 4828,
     "name": {
       "cn": "木制东洋公馆房顶",
       "de": "Hinganisches Mokuzo-Hausdach",
@@ -12416,11 +12416,11 @@
   },
   {
     "baseLevel": 64,
-    "difficulty": 1058,
+    "difficulty": 793,
     "durability": 40,
     "id": "98ab15e0893",
     "level": 273,
-    "maxQuality": 10851,
+    "maxQuality": 9657,
     "name": {
       "cn": "卸铁锭",
       "de": "Oroshigane-Barren",
@@ -12432,11 +12432,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "48efc903cfc",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁平斩",
       "de": "Domaeisen-Ahle",
@@ -12448,11 +12448,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "21a42f4bbe4",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁羊角锤",
       "de": "Domaeisen-Klauenhammer",
@@ -12464,11 +12464,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "0a37b8e81e3",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁厨刀",
       "de": "Domaeisen-Küchenmesser",
@@ -12480,11 +12480,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "0c2bde9b02b",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁重炮",
       "de": "Domaeisen-Kalverine",
@@ -12496,11 +12496,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "c1cd7ff8e76",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁小刀",
       "de": "Domaeisen-Dolche",
@@ -12512,11 +12512,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "aae640dbafb",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁锉刀",
       "de": "Domaeisen-Feile",
@@ -12528,11 +12528,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "5b7f271501f",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁巨剑",
       "de": "Domaeisen-Großschwert",
@@ -12544,11 +12544,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "72907951a82",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁研钵",
       "de": "Domaeisen-Mörser",
@@ -12560,11 +12560,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "4d8faa00f00",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁手钳",
       "de": "Domaeisen-Zange",
@@ -12576,11 +12576,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "409bb2f2622",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁镰刀",
       "de": "Domaeisen-Sense",
@@ -12592,11 +12592,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "34632747d1c",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁碎石锤",
       "de": "Domaeisen-Vorschlaghammer",
@@ -12608,11 +12608,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 2264,
+    "difficulty": 1697,
     "durability": 80,
     "id": "5358947fb34",
     "level": 276,
-    "maxQuality": 11263,
+    "maxQuality": 10023,
     "name": {
       "cn": "卸铁打刀",
       "de": "Domaeisen-Uchigatana",
@@ -12624,11 +12624,11 @@
   },
   {
     "baseLevel": 65,
-    "difficulty": 1584,
+    "difficulty": 1187,
     "durability": 80,
     "id": "f6fb4cfd306",
     "level": 276,
-    "maxQuality": 6194,
+    "maxQuality": 5512,
     "name": {
       "cn": "厚重的打刀",
       "de": "Schweres Uchigatana",
@@ -12640,11 +12640,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "607af092d32",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢战斧",
       "de": "Domastahl-Kriegsaxt",
@@ -12656,11 +12656,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "131743745b7",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢横头锤",
       "de": "Domastahl-Kreuzschlaghammer",
@@ -12672,11 +12672,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "000e134e028",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢枪刃",
       "de": "Domastahl-Revolverklinge",
@@ -12688,11 +12688,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "e68150c8bd7",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢手斧",
       "de": "Domastahl-Handbeil",
@@ -12704,11 +12704,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "6d85b324fc1",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢长剑",
       "de": "Domastahl-Langschwert",
@@ -12720,11 +12720,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "ce3acac7937",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢拳剑",
       "de": "Domastahl-Pata",
@@ -12736,11 +12736,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "c76573fc511",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢圆头锤",
       "de": "Domastahl-Schlichthammer",
@@ -12752,11 +12752,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "5764a07f2c3",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢圆革刀",
       "de": "Domastahl-Rundmesser",
@@ -12768,11 +12768,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "1f0e62cb614",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢手锯",
       "de": "Domastahl-Säge",
@@ -12784,11 +12784,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "bb1195a33de",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢战轮",
       "de": "Domastahl-Wurfringe",
@@ -12800,11 +12800,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "2c924ed8b02",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "翠银工艺锤",
       "de": "Durium-Juwelierhammer",
@@ -12816,11 +12816,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 60,
     "id": "633438a91e7",
     "level": 279,
-    "maxQuality": 9340,
+    "maxQuality": 8311,
     "name": {
       "cn": "崖畔亭蒸馏酒必需品",
       "de": "Spirituosenzubehörteil",
@@ -12832,11 +12832,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 60,
     "id": "bdb414d08aa",
     "level": 279,
-    "maxQuality": 9340,
+    "maxQuality": 8311,
     "name": {
       "cn": "伊修加德菜肴必需品",
       "de": "Ishgarder Kochutensil",
@@ -12848,14 +12848,14 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 1205,
+    "difficulty": 904,
     "durability": 60,
     "id": "3cce7214848",
     "level": 279,
-    "maxQuality": 4670,
+    "maxQuality": 4155,
     "name": {
       "cn": "伊修加德菜肴必需品的部件",
-      "de": "Ishgarder Kochutensil-Komponente",
+      "de": "Komponente eines Ishgarder Kochutensils",
       "en": "Ishgardian Culinary Materials",
       "fr": "Matériaux raffinés pour composant de recette ishgardaise",
       "ja": "イシュガルド料理必需品部材",
@@ -12864,11 +12864,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 1205,
+    "difficulty": 904,
     "durability": 60,
     "id": "e1724ec5b1b",
     "level": 279,
-    "maxQuality": 4670,
+    "maxQuality": 4155,
     "name": {
       "cn": "崖畔亭蒸馏酒必需品的部件",
       "de": "Komponente eines Spirituosenzubehörteils",
@@ -12880,11 +12880,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 2411,
+    "difficulty": 1808,
     "durability": 80,
     "id": "fcb4379c4ed",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢鹤嘴锄",
       "de": "Gefiederte Domastahl-Spitzhacke",
@@ -12896,11 +12896,11 @@
   },
   {
     "baseLevel": 66,
-    "difficulty": 1205,
+    "difficulty": 904,
     "durability": 40,
     "id": "acb4ea84438",
     "level": 279,
-    "maxQuality": 11676,
+    "maxQuality": 10389,
     "name": {
       "cn": "玉钢锭",
       "de": "Tama-hagane-Barren",
@@ -12912,11 +12912,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 1279,
+    "difficulty": 959,
     "durability": 60,
     "id": "75b6bb0b266",
     "level": 282,
-    "maxQuality": 4835,
+    "maxQuality": 4302,
     "name": {
       "cn": "崖畔亭备用品的部件",
       "de": "Komponente eines Klippenhänger-Einrichtungsgegenstands",
@@ -12928,11 +12928,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "86c54e05953",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢平斩",
       "de": "Domastahl-Ahle",
@@ -12944,11 +12944,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "fdd7c2d7fd8",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢羊角锤",
       "de": "Domastahl-Klauenhammer",
@@ -12960,11 +12960,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "f04af4ee75e",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢厨刀",
       "de": "Domastahl-Küchenmesser",
@@ -12976,11 +12976,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "252bb62b31d",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢锉刀",
       "de": "Domastahl-Feile",
@@ -12992,11 +12992,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "ec804371436",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢巨剑",
       "de": "Domastahl-Großschwert",
@@ -13008,11 +13008,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "02bf13a9a8e",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢左手剑",
       "de": "Domastahl-Parierdolche",
@@ -13024,11 +13024,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "3095b2cd426",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢研钵",
       "de": "Domastahl-Mörser",
@@ -13040,11 +13040,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "435e2abf2f2",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢手钳",
       "de": "Domastahl-Zange",
@@ -13056,11 +13056,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "b9f18022560",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢镰刀",
       "de": "Domastahl-Sense",
@@ -13072,11 +13072,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "df9fd8f3713",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢碎石锤",
       "de": "Domastahl-Vorschlaghammer",
@@ -13088,11 +13088,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "dab832b2b96",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢太刀",
       "de": "Domastahl-Tachi",
@@ -13104,11 +13104,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 80,
     "id": "dd18b184620",
     "level": 282,
-    "maxQuality": 12088,
+    "maxQuality": 10755,
     "name": {
       "cn": "玉钢火枪",
       "de": "Domastahl-Muskete",
@@ -13120,11 +13120,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 60,
     "id": "bb133d97976",
     "level": 282,
-    "maxQuality": 9670,
+    "maxQuality": 8604,
     "name": {
       "cn": "崖畔亭的备用品",
       "de": "Klippenhänger-Einrichtungsgegenstand",
@@ -13136,11 +13136,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 2559,
+    "difficulty": 1919,
     "durability": 60,
     "id": "5d339a00790",
     "level": 282,
-    "maxQuality": 9670,
+    "maxQuality": 8604,
     "name": {
       "cn": "崖畔亭包子必需品",
       "de": "Buuds-Kochutensil",
@@ -13152,11 +13152,11 @@
   },
   {
     "baseLevel": 67,
-    "difficulty": 1279,
+    "difficulty": 959,
     "durability": 60,
     "id": "a63206b4e4f",
     "level": 282,
-    "maxQuality": 4835,
+    "maxQuality": 4302,
     "name": {
       "cn": "崖畔亭包子必需品的部件",
       "de": "Komponente eines Buuds-Kochutensils",
@@ -13168,11 +13168,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 60,
     "id": "b0e5f6b1a40",
     "level": 285,
-    "maxQuality": 10000,
+    "maxQuality": 8896,
     "name": {
       "cn": "酿造奶酒的必需品",
       "de": "Arkhi-Destillierutensil",
@@ -13184,11 +13184,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 1353,
+    "difficulty": 1014,
     "durability": 60,
     "id": "d2ca1de1288",
     "level": 285,
-    "maxQuality": 5000,
+    "maxQuality": 4448,
     "name": {
       "cn": "酿造奶酒必需品的部件",
       "de": "Komponente eines Arkhi-Destillierutensils",
@@ -13200,11 +13200,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 1894,
+    "difficulty": 1420,
     "durability": 80,
     "id": "851ba7e99d1",
     "level": 285,
-    "maxQuality": 6875,
+    "maxQuality": 6116,
     "name": {
       "cn": "小型锤",
       "de": "Maßgefertigter Kreuzschlaghammer",
@@ -13216,11 +13216,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 8659,
+    "difficulty": 2029,
     "durability": 80,
     "id": "878798e5042",
     "level": 285,
-    "maxQuality": 6250,
+    "maxQuality": 5560,
     "name": {
       "cn": "木制东洋别墅房顶",
       "de": "Hinganisches Mokuzo-Residenzdach",
@@ -13232,11 +13232,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "54bb45fc4a8",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢圆月轮",
       "de": "Molybdän-Chakrams",
@@ -13248,11 +13248,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "0fd9f5df26d",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢小刀",
       "de": "Molybdän-Dolche",
@@ -13264,11 +13264,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "f32df82a800",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢枪刃",
       "de": "Molybdän-Revolverklinge",
@@ -13280,11 +13280,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 1353,
+    "difficulty": 1014,
     "durability": 40,
     "id": "8f47df916fa",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢锭",
       "de": "Molybdän-Barren",
@@ -13296,11 +13296,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "763b536f1d8",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢指虎",
       "de": "Molybdän-Schlagringe",
@@ -13312,11 +13312,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "d7f466c2a33",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢巨刃",
       "de": "Molybdän-Klinge",
@@ -13328,11 +13328,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "425b432c4ff",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢长剑",
       "de": "Molybdän-Langschwert",
@@ -13344,11 +13344,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "770c66197a8",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢火弹",
       "de": "Molybdän-Karabiner",
@@ -13360,11 +13360,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "3f5a2be1a3b",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢打刀",
       "de": "Molybdän-Uchigatana",
@@ -13376,11 +13376,11 @@
   },
   {
     "baseLevel": 68,
-    "difficulty": 2706,
+    "difficulty": 2029,
     "durability": 80,
     "id": "bef197da676",
     "level": 285,
-    "maxQuality": 12500,
+    "maxQuality": 11121,
     "name": {
       "cn": "钼钢战斧",
       "de": "Molybdän-Kriegsaxt",
@@ -13392,11 +13392,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "093f2821e74",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "钼钢球顶锤",
       "de": "Molybdän-Schlosserhammer",
@@ -13408,11 +13408,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "4bb71f2b326",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "钼钢制革刀",
       "de": "Molybdän-Rillmesser",
@@ -13424,11 +13424,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "4ce7a48f54c",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "钼钢圆手锯",
       "de": "Molybdän-Rundsäge",
@@ -13440,11 +13440,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "4e16aff2c15",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "钼钢手斧",
       "de": "Molybdän-Handbeil",
@@ -13456,11 +13456,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "be0b1900a66",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "钼钢锻铁锤",
       "de": "Molybdän-Schlägel",
@@ -13472,11 +13472,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "f92ac142cc9",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "钼钢鹤嘴锄",
       "de": "Molybdän-Spitzhacke",
@@ -13488,11 +13488,11 @@
   },
   {
     "baseLevel": 69,
-    "difficulty": 2854,
+    "difficulty": 2140,
     "durability": 80,
     "id": "c0bd6f6486d",
     "level": 288,
-    "maxQuality": 12913,
+    "maxQuality": 11490,
     "name": {
       "cn": "钯金雕金锤",
       "de": "Palladium-Stockhammer",
@@ -13504,11 +13504,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2066,
+    "difficulty": 1549,
     "durability": 80,
     "id": "f60b47d2fbb",
     "level": 290,
-    "maxQuality": 7252,
+    "maxQuality": 6454,
     "name": {
       "cn": "投标用的打刀",
       "de": "Muster-Katana",
@@ -13520,13 +13520,13 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2066,
+    "difficulty": 1549,
     "durability": 60,
     "id": "239df01bb2f",
     "level": 290,
-    "maxQuality": 10549,
+    "maxQuality": 9388,
     "name": {
-      "cn": "Flyer Printing Set (patch 5.1)",
+      "cn": "传单制作必需品",
       "de": "Flugblattdruck-Utensil",
       "en": "Flyer Printing Set",
       "fr": "Kit pour dépliants",
@@ -13536,11 +13536,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2066,
+    "difficulty": 1549,
     "durability": 80,
     "id": "cf9112748ab",
     "level": 290,
-    "maxQuality": 7252,
+    "maxQuality": 6454,
     "name": {
       "cn": "金属制的手甲",
       "de": "Metallener Handschutz",
@@ -13552,11 +13552,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "1d9bb45938e",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "钼钢平斩",
       "de": "Molybdän-Ahle",
@@ -13568,11 +13568,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "a874a08d41f",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "钼钢羊角锤",
       "de": "Molybdän-Klauenhammer",
@@ -13584,11 +13584,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "570318c6198",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "钼钢厨刀",
       "de": "Molybdän-Küchenmesser",
@@ -13600,11 +13600,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "dae4275caef",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "钼钢锉刀",
       "de": "Molybdän-Feile",
@@ -13616,11 +13616,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "2a9094fc44d",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "钼钢研钵",
       "de": "Molybdän-Mörser",
@@ -13632,11 +13632,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "9ea8d5502a9",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "钼钢手钳",
       "de": "Molybdän-Zange",
@@ -13648,11 +13648,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "ae1b5e0a914",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "钼钢镰刀",
       "de": "Molybdän-Sense",
@@ -13664,11 +13664,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 80,
     "id": "9ae939f11d7",
     "level": 290,
-    "maxQuality": 13187,
+    "maxQuality": 11736,
     "name": {
       "cn": "钼钢碎石锤",
       "de": "Molybdän-Vorschlaghammer",
@@ -13680,13 +13680,13 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2952,
+    "difficulty": 2214,
     "durability": 60,
     "id": "6876de2282a",
     "level": 290,
-    "maxQuality": 36923,
+    "maxQuality": 32860,
     "name": {
-      "cn": "Skybuilders' Crosscut Saw (patch 5.11)",
+      "cn": "重建用的锯子",
       "de": "Himmelsstadt-Säge",
       "en": "Skybuilders' Crosscut Saw",
       "fr": "Grande scie de restauration",
@@ -13696,13 +13696,13 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3149,
+    "difficulty": 2361,
     "durability": 60,
     "id": "6f7d52e6422",
     "level": 300,
-    "maxQuality": 11256,
+    "maxQuality": 9568,
     "name": {
-      "cn": "Kholusian Cuisine Set (patch 5.1)",
+      "cn": "新菜肴必需品",
       "de": "Menü-Komponenten",
       "en": "Kholusian Cuisine Set",
       "fr": "Composant pour nouveau menu",
@@ -13713,11 +13713,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3149,
+    "difficulty": 2361,
     "durability": 70,
     "id": "60e4b5793c2",
     "level": 300,
-    "maxQuality": 14071,
+    "maxQuality": 11960,
     "name": {
       "cn": "纯钛板",
       "de": "Reintitanplatte",
@@ -13730,11 +13730,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "877c11583bf",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "阿拉米格横头锤",
       "de": "Mhigischer Kreuzschlaghammer",
@@ -13747,11 +13747,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "821a7c534e0",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "阿拉米格手斧",
       "de": "Mhigisches Handbeil",
@@ -13764,11 +13764,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "f7a34d1e7fd",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "阿拉米格工艺锤",
       "de": "Mhigischer Juwelierhammer",
@@ -13781,11 +13781,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "fe5601cb431",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "阿拉米格鹤嘴锄",
       "de": "Mhigische Spitzhacke",
@@ -13798,11 +13798,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "ee0f7df0195",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "阿拉米格圆头锤",
       "de": "Mhigischer Schlichthammer",
@@ -13815,11 +13815,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "b344edeecb7",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "阿拉米格圆革刀",
       "de": "Mhigisches Rundmesser",
@@ -13832,11 +13832,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "09b572024fd",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "阿拉米格手锯",
       "de": "Mhigische Säge",
@@ -13849,11 +13849,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 2657,
     "durability": 70,
     "id": "40957a8d03b",
     "level": 320,
-    "maxQuality": 7918,
+    "maxQuality": 6255,
     "name": {
       "cn": "爆弹怪火炉",
       "de": "Bomberofen",
@@ -13866,11 +13866,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "191330e5f91",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "铬铁火枪",
       "de": "Chromeisen-Hakenbüchse",
@@ -13883,11 +13883,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "fd396958766",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "铬铁战斧",
       "de": "Chromeisen-Axt",
@@ -13900,11 +13900,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "cf31996ed01",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "铬铁小刀",
       "de": "Chromeisen-Dolche",
@@ -13917,11 +13917,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "a6a4239d483",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "铬铁巨剑",
       "de": "Chromeisen-Großschwert",
@@ -13934,11 +13934,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "3a11949a7d3",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "铬铁锭",
       "de": "Chromeisen-Barren",
@@ -13951,11 +13951,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "f67c7c0c478",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "铬铁拳套",
       "de": "Chromeisen-Schlagringe",
@@ -13968,11 +13968,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "7a7621f4ec4",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "铬铁长剑",
       "de": "Chromeisen-Schwert",
@@ -13985,11 +13985,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 3543,
+    "difficulty": 2657,
     "durability": 70,
     "id": "a49d3a86d1c",
     "level": 320,
-    "maxQuality": 15837,
+    "maxQuality": 12511,
     "name": {
       "cn": "铬铁打刀",
       "de": "Chromeisen-Uchigatana",
@@ -14002,11 +14002,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 6377,
+    "difficulty": 2657,
     "durability": 70,
     "id": "95eaa5dbd32",
     "level": 320,
-    "maxQuality": 7918,
+    "maxQuality": 6255,
     "name": {
       "cn": "迷你莫艾石像",
       "de": "Moai-Statuette",
@@ -14019,11 +14019,181 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "416ad7d0d2d",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral Chakrams (patch 5.2)",
+      "de": "Engetsurin des Drachengottes",
+      "en": "Shinryu's Ephemeral Chakrams",
+      "fr": "Engetsurin de Shinryu flamboyant",
+      "ja": "神龍円月輪【輝】",
+      "ko": "Shinryu's Ephemeral Chakrams"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "a4a952a32c5",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral Claws (patch 5.2)",
+      "de": "Klauen des Drachengottes",
+      "en": "Shinryu's Ephemeral Claws",
+      "fr": "Griffes de Shinryu flamboyantes",
+      "ja": "神龍闘器【輝】",
+      "ko": "Shinryu's Ephemeral Claws"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "96433cb643e",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral Daggers (patch 5.2)",
+      "de": "Dolche des Drachengottes",
+      "en": "Shinryu's Ephemeral Daggers",
+      "fr": "Dagues de Shinryu flamboyantes",
+      "ja": "神龍双剣【輝】",
+      "ko": "Shinryu's Ephemeral Daggers"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "2fcdf143e0b",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral Greatbow (patch 5.2)",
+      "de": "Langbogen des Drachengottes",
+      "en": "Shinryu's Ephemeral Greatbow",
+      "fr": "Grand arc de Shinryu flamboyant",
+      "ja": "神龍大弓【輝】",
+      "ko": "Shinryu's Ephemeral Greatbow"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "5d1d0188bdb",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral Greatsword (patch 5.2)",
+      "de": "Großschwert des Drachengottes",
+      "en": "Shinryu's Ephemeral Greatsword",
+      "fr": "Grande épée de Shinryu flamboyante",
+      "ja": "神龍大剣【輝】",
+      "ko": "Shinryu's Ephemeral Greatsword"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "17ce84a4116",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral Gunblade (patch 5.2)",
+      "de": "Bajonett des Drachengottes",
+      "en": "Shinryu's Ephemeral Gunblade",
+      "fr": "Pistolame de Shinryu flamboyante",
+      "ja": "神龍銃剣【輝】",
+      "ko": "Shinryu's Ephemeral Gunblade"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "74061f87c2a",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral Katana (patch 5.2)",
+      "de": "Katana des Drachengottes",
+      "en": "Shinryu's Ephemeral Katana",
+      "fr": "Katana de Shinryu flamboyant",
+      "ja": "神龍刀【輝】",
+      "ko": "Shinryu's Ephemeral Katana"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "80c749d70ea",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral Longsword (patch 5.2)",
+      "de": "Langschwert des Drachengottes",
+      "en": "Shinryu's Ephemeral Longsword",
+      "fr": "Épée droite de Shinryu flamboyante",
+      "ja": "神龍直剣【輝】",
+      "ko": "Shinryu's Ephemeral Longsword"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "59c45d74d58",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral Revolver (patch 5.2)",
+      "de": "Revolver des Drachengottes",
+      "en": "Shinryu's Ephemeral Revolver",
+      "fr": "Mousqueton de Shinryu flamboyant",
+      "ja": "神龍短銃【輝】",
+      "ko": "Shinryu's Ephemeral Revolver"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "ab8a2b8b2f9",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Shinryu's Ephemeral War Axe (patch 5.2)",
+      "de": "Kriegsaxt des Drachengottes",
+      "en": "Shinryu's Ephemeral War Axe",
+      "fr": "Hache de guerre de Shinryu flamboyante",
+      "ja": "神龍戦斧【輝】",
+      "ko": "Shinryu's Ephemeral War Axe"
+    },
+    "stars": 2
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2760,
     "durability": 70,
     "id": "3b07d04cf18",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢平斩",
       "de": "Nachtstahl-Ahle",
@@ -14040,7 +14210,7 @@
     "durability": 70,
     "id": "f2a42ec1bf6",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢战斧",
       "de": "Nachtstahl-Kriegsaxt",
@@ -14057,7 +14227,7 @@
     "durability": 70,
     "id": "d698b0a8767",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢雷火炮",
       "de": "Nachtstahl-Espingole",
@@ -14074,7 +14244,7 @@
     "durability": 70,
     "id": "699a028f4fa",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢羊角锤",
       "de": "Nachtstahl-Klauenhammer",
@@ -14091,7 +14261,7 @@
     "durability": 70,
     "id": "1dade63c5ae",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢爪",
       "de": "Nachtstahl-Klauen",
@@ -14108,7 +14278,7 @@
     "durability": 70,
     "id": "256d64ed5a3",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢横头锤",
       "de": "Nachtstahl-Kreuzschlaghammer",
@@ -14125,7 +14295,7 @@
     "durability": 70,
     "id": "d6f35361484",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢厨刀",
       "de": "Nachtstahl-Küchenmesser",
@@ -14142,7 +14312,7 @@
     "durability": 70,
     "id": "2125b70e374",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢短刀",
       "de": "Nachtstahl-Dolche",
@@ -14159,7 +14329,7 @@
     "durability": 70,
     "id": "b1e8d160722",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢锉刀",
       "de": "Nachtstahl-Feile",
@@ -14176,7 +14346,7 @@
     "durability": 70,
     "id": "80cf34c44a0",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢巨剑",
       "de": "Nachtstahl-Großschwert",
@@ -14193,7 +14363,7 @@
     "durability": 70,
     "id": "092e29e329c",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢手斧",
       "de": "Nachtstahl-Handbeil",
@@ -14206,11 +14376,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2365,
+    "difficulty": 2346,
     "durability": 35,
     "id": "2ed2fb3737a",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢锭",
       "de": "Nachtstahl-Barren",
@@ -14227,7 +14397,7 @@
     "durability": 70,
     "id": "cf59ce368e7",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢刀",
       "de": "Nachtstahl-Katana",
@@ -14244,7 +14414,7 @@
     "durability": 70,
     "id": "2f714ee12a1",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢工艺锤",
       "de": "Nachtstahl-Juwelierhammer",
@@ -14261,7 +14431,7 @@
     "durability": 70,
     "id": "1ef3b3e0926",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢研钵",
       "de": "Nachtstahl-Mörser",
@@ -14278,7 +14448,7 @@
     "durability": 70,
     "id": "869c3433db8",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢鹤嘴锄",
       "de": "Nachtstahl-Spitzhacke",
@@ -14295,7 +14465,7 @@
     "durability": 70,
     "id": "0a3e2147e0f",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢手钳",
       "de": "Nachtstahl-Zange",
@@ -14312,7 +14482,7 @@
     "durability": 70,
     "id": "a22b6bcafbd",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢圆头锤",
       "de": "Nachtstahl-Schlichthammer",
@@ -14329,7 +14499,7 @@
     "durability": 70,
     "id": "9ebe2be8fde",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢圆革刀",
       "de": "Nachtstahl-Rundmesser",
@@ -14346,7 +14516,7 @@
     "durability": 70,
     "id": "9f933c94c70",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢锯",
       "de": "Nachtstahl-Säge",
@@ -14363,7 +14533,7 @@
     "durability": 70,
     "id": "19c7f80db37",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢镰刀",
       "de": "Nachtstahl-Sense",
@@ -14380,7 +14550,7 @@
     "durability": 70,
     "id": "a30fa61c4c9",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢碎石锤",
       "de": "Nachtstahl-Vorschlaghammer",
@@ -14397,7 +14567,7 @@
     "durability": 70,
     "id": "8b31920cc29",
     "level": 350,
-    "maxQuality": 16638,
+    "maxQuality": 13144,
     "name": {
       "cn": "夜钢长剑",
       "de": "Nachtstahl-Schwert",
@@ -14410,11 +14580,11 @@
   },
   {
     "baseLevel": 70,
-    "difficulty": 2485,
+    "difficulty": 2465,
     "durability": 35,
     "id": "0713338c133",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "千种钢",
       "de": "Chigusa-Barren",
@@ -14431,7 +14601,7 @@
     "durability": 70,
     "id": "67b92432aea",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "罗刹大斧",
       "de": "Rakshasa-Axt",
@@ -14448,7 +14618,7 @@
     "durability": 70,
     "id": "9eb2f7c7692",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "罗刹剑",
       "de": "Rakshasa-Klinge",
@@ -14465,7 +14635,7 @@
     "durability": 70,
     "id": "a6ed0c0baee",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "罗刹短刀",
       "de": "Rakshasa-Dolche",
@@ -14482,7 +14652,7 @@
     "durability": 70,
     "id": "c08e8816362",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "罗刹刀",
       "de": "Rakshasa-Katana",
@@ -14499,7 +14669,7 @@
     "durability": 70,
     "id": "856347d3e31",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "罗刹铁甲",
       "de": "Rakshasa-Schlagringe",
@@ -14516,7 +14686,7 @@
     "durability": 70,
     "id": "ba1f962ed51",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "罗刹长枪",
       "de": "Rakshasa-Lanze",
@@ -14533,7 +14703,7 @@
     "durability": 70,
     "id": "601bb45557d",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "罗刹大太刀",
       "de": "Rakshasa-Odachi",
@@ -14550,7 +14720,7 @@
     "durability": 70,
     "id": "a7889b7f300",
     "level": 380,
-    "maxQuality": 19023,
+    "maxQuality": 14267,
     "name": {
       "cn": "罗刹短铳",
       "de": "Rakshasa-Revolver",
@@ -14567,7 +14737,7 @@
     "durability": 80,
     "id": "df0e0c8aab8",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金双刃剑",
       "de": "Dunkelgold-Breitklinge",
@@ -14583,7 +14753,7 @@
     "durability": 80,
     "id": "b33f1bb5a47",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金平斩",
       "de": "Dunkelgold-Ahle",
@@ -14599,7 +14769,7 @@
     "durability": 80,
     "id": "e0ab0512e8e",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金战斧",
       "de": "Dunkelgold-Kriegsaxt",
@@ -14615,7 +14785,7 @@
     "durability": 80,
     "id": "a9709bc6da3",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金武士刀",
       "de": "Dunkelgold-Klinge",
@@ -14631,7 +14801,7 @@
     "durability": 80,
     "id": "20b61eab7a6",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金五指剑",
       "de": "Dunkelgold-Cinquedeas",
@@ -14647,7 +14817,7 @@
     "durability": 80,
     "id": "e31261d01e3",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金羊角锤",
       "de": "Dunkelgold-Klauenhammer",
@@ -14663,7 +14833,7 @@
     "durability": 80,
     "id": "f3693849be1",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金大剑",
       "de": "Dunkelgold-Claymore",
@@ -14679,7 +14849,7 @@
     "durability": 80,
     "id": "0c3acaa2722",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金横头锤",
       "de": "Dunkelgold-Kreuzschlaghammer",
@@ -14695,7 +14865,7 @@
     "durability": 80,
     "id": "be7c7a97fa0",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金厨刀",
       "de": "Dunkelgold-Küchenmesser",
@@ -14711,7 +14881,7 @@
     "durability": 80,
     "id": "3ba3f160d05",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金锉刀",
       "de": "Dunkelgold-Feile",
@@ -14727,7 +14897,7 @@
     "durability": 80,
     "id": "7d705f3018e",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金枪刃",
       "de": "Dunkelgold-Revolverklinge",
@@ -14743,7 +14913,7 @@
     "durability": 80,
     "id": "6ab95342106",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金手斧",
       "de": "Dunkelgold-Handbeil",
@@ -14759,7 +14929,7 @@
     "durability": 80,
     "id": "fcab01d352f",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金裁皮刀",
       "de": "Dunkelgold-Rundmesser",
@@ -14775,7 +14945,7 @@
     "durability": 80,
     "id": "d579735f3bb",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金三尖拳剑",
       "de": "Dunkelgold-Katare",
@@ -14791,7 +14961,7 @@
     "durability": 80,
     "id": "60a26c011d4",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金工艺锤",
       "de": "Dunkelgold-Juwelierhammer",
@@ -14807,7 +14977,7 @@
     "durability": 80,
     "id": "b97c8e6be01",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金研钵",
       "de": "Dunkelgold-Mörser",
@@ -14823,7 +14993,7 @@
     "durability": 40,
     "id": "5ce164eeac0",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金块",
       "de": "Dunkelgold-Nugget",
@@ -14839,7 +15009,7 @@
     "durability": 80,
     "id": "62f72cabac0",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金鹤嘴锄",
       "de": "Dunkelgold-Spitzhacke",
@@ -14855,7 +15025,7 @@
     "durability": 80,
     "id": "55d4b08a02a",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金手钳",
       "de": "Dunkelgold-Zange",
@@ -14871,7 +15041,7 @@
     "durability": 80,
     "id": "7e2cb08440e",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金圆头锤",
       "de": "Dunkelgold-Schlichthammer",
@@ -14887,7 +15057,7 @@
     "durability": 80,
     "id": "3bb784546d7",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金左轮枪",
       "de": "Dunkelgold-Revolver",
@@ -14903,7 +15073,7 @@
     "durability": 80,
     "id": "19c3f828e4d",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金手锯",
       "de": "Dunkelgold-Säge",
@@ -14919,7 +15089,7 @@
     "durability": 80,
     "id": "ef8ed9b8e30",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金镰刀",
       "de": "Dunkelgold-Sense",
@@ -14935,7 +15105,7 @@
     "durability": 80,
     "id": "95dd7807b0f",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金碎石锤",
       "de": "Dunkelgold-Vorschlaghammer",
@@ -14951,7 +15121,7 @@
     "durability": 80,
     "id": "c7abcbe7c6c",
     "level": 390,
-    "maxQuality": 14071,
+    "maxQuality": 13086,
     "name": {
       "cn": "深金战轮",
       "de": "Dunkelgold-Wurfringe",
@@ -14967,9 +15137,9 @@
     "durability": 60,
     "id": "8d37078da5c",
     "level": 390,
-    "maxQuality": 11256,
+    "maxQuality": 10468,
     "name": {
-      "cn": "Honeybee Trappings (patch 5.1)",
+      "cn": "舞台服装必需品",
       "de": "Bühnenkostümteil",
       "en": "Honeybee Trappings",
       "fr": "Composant pour costume de scène",
@@ -14983,9 +15153,9 @@
     "durability": 60,
     "id": "0d1c6679406",
     "level": 395,
-    "maxQuality": 11878,
+    "maxQuality": 10928,
     "name": {
-      "cn": "Airship Fittings (patch 5.1)",
+      "cn": "飞空艇改装必需品",
       "de": "Luftschiff-Komponente",
       "en": "Airship Fittings",
       "fr": "Élément pour rénovation d'aéronef",
@@ -14999,7 +15169,7 @@
     "durability": 80,
     "id": "04b6e0545dd",
     "level": 395,
-    "maxQuality": 14848,
+    "maxQuality": 13660,
     "name": {
       "cn": "深金大斧",
       "de": "Dunkelgold-Axt",
@@ -15015,7 +15185,7 @@
     "durability": 80,
     "id": "468f03fe3e6",
     "level": 395,
-    "maxQuality": 14848,
+    "maxQuality": 13660,
     "name": {
       "cn": "深金小刀",
       "de": "Dunkelgold-Dolche",
@@ -15031,7 +15201,7 @@
     "durability": 80,
     "id": "60addc0cce3",
     "level": 395,
-    "maxQuality": 14848,
+    "maxQuality": 13660,
     "name": {
       "cn": "深金巨剑",
       "de": "Dunkelgold-Großschwert",
@@ -15047,7 +15217,7 @@
     "durability": 40,
     "id": "30055133dc8",
     "level": 395,
-    "maxQuality": 14848,
+    "maxQuality": 13660,
     "name": {
       "cn": "深金锭",
       "de": "Dunkelgold-Barren",
@@ -15063,7 +15233,7 @@
     "durability": 80,
     "id": "68174b73a00",
     "level": 395,
-    "maxQuality": 14848,
+    "maxQuality": 13660,
     "name": {
       "cn": "深金短剑",
       "de": "Dunkelgold-Schwert",
@@ -15079,7 +15249,7 @@
     "durability": 80,
     "id": "357b293b95f",
     "level": 395,
-    "maxQuality": 14848,
+    "maxQuality": 13660,
     "name": {
       "cn": "深金打刀",
       "de": "Steingold-Katana",
@@ -15095,9 +15265,9 @@
     "durability": 60,
     "id": "e0901461270",
     "level": 400,
-    "maxQuality": 12500,
+    "maxQuality": 11249,
     "name": {
-      "cn": "Beehive Souvenir (patch 5.1)",
+      "cn": "蜂箱夜总会特产",
       "de": "Lustspielhaus-Souvenir",
       "en": "Beehive Souvenir",
       "fr": "Souvenir du cabaret",
@@ -15111,7 +15281,7 @@
     "durability": 80,
     "id": "141930d216b",
     "level": 400,
-    "maxQuality": 15625,
+    "maxQuality": 14062,
     "name": {
       "cn": "深金明火枪",
       "de": "Dunkelgold-Hakenbüchse",
@@ -15127,7 +15297,7 @@
     "durability": 80,
     "id": "2cc67125717",
     "level": 400,
-    "maxQuality": 15625,
+    "maxQuality": 14062,
     "name": {
       "cn": "深金刺刀",
       "de": "Dunkelgold-Bajonett",
@@ -15143,7 +15313,7 @@
     "durability": 80,
     "id": "1d18f463a5a",
     "level": 400,
-    "maxQuality": 15625,
+    "maxQuality": 14062,
     "name": {
       "cn": "深金圆月轮",
       "de": "Dunkelgold-Chakrams",
@@ -15159,7 +15329,7 @@
     "durability": 80,
     "id": "b565c878557",
     "level": 400,
-    "maxQuality": 15625,
+    "maxQuality": 14062,
     "name": {
       "cn": "深金指虎",
       "de": "Dunkelgold-Schlagringe",
@@ -15175,7 +15345,7 @@
     "durability": 80,
     "id": "29b81daaddc",
     "level": 400,
-    "maxQuality": 8593,
+    "maxQuality": 7734,
     "name": {
       "cn": "金属制的食材容器",
       "de": "Metallenes Wurmgefäß",
@@ -15191,7 +15361,7 @@
     "durability": 80,
     "id": "b551d510f84",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青平斩",
       "de": "Seelenazurit-Ahle",
@@ -15207,7 +15377,7 @@
     "durability": 80,
     "id": "fcbd8f2e715",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青重斧",
       "de": "Seelenazurit-Axt",
@@ -15223,7 +15393,7 @@
     "durability": 80,
     "id": "d228df68f4d",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青羊角锤",
       "de": "Seelenazurit-Klauenhammer",
@@ -15239,7 +15409,7 @@
     "durability": 80,
     "id": "6144602b4d5",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青厨刀",
       "de": "Seelenazurit-Küchenmesser",
@@ -15255,7 +15425,7 @@
     "durability": 80,
     "id": "c61a3ae2626",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青锉刀",
       "de": "Seelenazurit-Feile",
@@ -15271,7 +15441,7 @@
     "durability": 80,
     "id": "59c74f28e60",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青断头剑",
       "de": "Seelenazurit-Guillotine",
@@ -15287,7 +15457,7 @@
     "durability": 80,
     "id": "8f6e9886689",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青枪刃",
       "de": "Seelenazurit-Revolverklinge",
@@ -15303,7 +15473,7 @@
     "durability": 80,
     "id": "703c904ba4d",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青手炮",
       "de": "Seelenazurit-Donnerbüchse",
@@ -15319,7 +15489,7 @@
     "durability": 80,
     "id": "9b598971a9f",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青研钵",
       "de": "Seelenazurit-Mörser",
@@ -15335,7 +15505,7 @@
     "durability": 80,
     "id": "73e54fd6727",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青手钳",
       "de": "Seelenazurit-Zange",
@@ -15351,7 +15521,7 @@
     "durability": 80,
     "id": "124f51d1f44",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青镰刀",
       "de": "Seelenazurit-Sense",
@@ -15367,7 +15537,7 @@
     "durability": 80,
     "id": "35273ed3e72",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青碎石锤",
       "de": "Seelenazurit-Vorschlaghammer",
@@ -15383,7 +15553,7 @@
     "durability": 80,
     "id": "b2e53f1f10b",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青剑",
       "de": "Seelenazurit-Schwert",
@@ -15399,7 +15569,7 @@
     "durability": 40,
     "id": "b490ea73326",
     "level": 403,
-    "maxQuality": 16091,
+    "maxQuality": 14482,
     "name": {
       "cn": "灵青石材",
       "de": "Seelenazurit-Barren",
@@ -15415,7 +15585,7 @@
     "durability": 80,
     "id": "264cf1b6cdc",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "灵青横头锤",
       "de": "Seelenazurit-Kreuzschlaghammer",
@@ -15431,7 +15601,7 @@
     "durability": 80,
     "id": "a0a5e0c16c3",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "灵青圆手锯",
       "de": "Seelenazurit-Rundsäge",
@@ -15447,7 +15617,7 @@
     "durability": 80,
     "id": "a94d773f0f2",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "灵青手斧",
       "de": "Seelenazurit-Handbeil",
@@ -15463,7 +15633,7 @@
     "durability": 80,
     "id": "a6a0f6f3400",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "灵青工艺锤",
       "de": "Seelenazurit-Juwelierhammer",
@@ -15479,7 +15649,7 @@
     "durability": 80,
     "id": "d75bc9a5f1e",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "灵青鹤嘴锄",
       "de": "Seelenazurit-Spitzhacke",
@@ -15495,7 +15665,7 @@
     "durability": 80,
     "id": "6f31e774f7f",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "灵青圆头锤",
       "de": "Seelenazurit-Schlichthammer",
@@ -15511,7 +15681,7 @@
     "durability": 80,
     "id": "f7f5d5fe878",
     "level": 406,
-    "maxQuality": 16557,
+    "maxQuality": 14902,
     "name": {
       "cn": "灵青圆革刀",
       "de": "Seelenazurit-Rundmesser",
@@ -15527,7 +15697,7 @@
     "durability": 80,
     "id": "8fc39b0a301",
     "level": 406,
-    "maxQuality": 9106,
+    "maxQuality": 8196,
     "name": {
       "cn": "金属制的香炉",
       "de": "Metallenes Räuchergefäß",
@@ -15543,7 +15713,7 @@
     "durability": 80,
     "id": "9ab64ada57b",
     "level": 406,
-    "maxQuality": 9106,
+    "maxQuality": 8196,
     "name": {
       "cn": "金属制的三叉枪",
       "de": "Metallener Dreizack",
@@ -15555,11 +15725,11 @@
   },
   {
     "baseLevel": 76,
-    "difficulty": 6346,
+    "difficulty": 3526,
     "durability": 80,
     "id": "e2a66de6183",
     "level": 409,
-    "maxQuality": 8512,
+    "maxQuality": 7661,
     "name": {
       "cn": "水晶都厨房壁炉",
       "de": "Küchenofen aus Crystarium",
@@ -15575,7 +15745,7 @@
     "durability": 80,
     "id": "bf4ec26089e",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜战斧",
       "de": "Titanbronze-Kriegsaxt",
@@ -15591,7 +15761,7 @@
     "durability": 80,
     "id": "50ba0de400a",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜刺刀",
       "de": "Titanbronze-Bajonett",
@@ -15607,7 +15777,7 @@
     "durability": 80,
     "id": "4c8182f0efa",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜圆月轮",
       "de": "Titanbronze-Chakrams",
@@ -15623,7 +15793,7 @@
     "durability": 80,
     "id": "5bd90883d4c",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜小刀",
       "de": "Titanbronze-Dolche",
@@ -15639,7 +15809,7 @@
     "durability": 80,
     "id": "15d60861cba",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜拳套",
       "de": "Titanbronze-Fäuste",
@@ -15655,7 +15825,7 @@
     "durability": 80,
     "id": "6393dc02aee",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜断头剑",
       "de": "Titanbronze-Guillotine",
@@ -15671,7 +15841,7 @@
     "durability": 40,
     "id": "058898fed1e",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜锭",
       "de": "Titanbronze-Barren",
@@ -15687,7 +15857,7 @@
     "durability": 80,
     "id": "e8c2866ffab",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜曲剑",
       "de": "Titanbronze-Kilidsch",
@@ -15703,7 +15873,7 @@
     "durability": 80,
     "id": "3c5dc41874e",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜火枪",
       "de": "Titanbronze-Muskete",
@@ -15719,7 +15889,7 @@
     "durability": 80,
     "id": "58b7bd5bd85",
     "level": 409,
-    "maxQuality": 17024,
+    "maxQuality": 15322,
     "name": {
       "cn": "钛铜打刀",
       "de": "Titanbronze-Uchigatana",
@@ -15735,7 +15905,7 @@
     "durability": 80,
     "id": "e0c6e587f46",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜平斩",
       "de": "Titanbronze-Ahle",
@@ -15751,7 +15921,7 @@
     "durability": 80,
     "id": "67115162489",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜球顶锤",
       "de": "Titanbronze-Schlichthammer",
@@ -15767,7 +15937,7 @@
     "durability": 80,
     "id": "b2b24d42ec9",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜羊角锤",
       "de": "Titanbronze-Klauenhammer",
@@ -15783,7 +15953,7 @@
     "durability": 80,
     "id": "1c6497476d7",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜制革刀",
       "de": "Titanbronze-Rundmesser",
@@ -15799,7 +15969,7 @@
     "durability": 80,
     "id": "d4d2938b833",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜厨刀",
       "de": "Titanbronze-Küchenmesser",
@@ -15815,7 +15985,7 @@
     "durability": 80,
     "id": "60b39ad0544",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜锉刀",
       "de": "Titanbronze-Feile",
@@ -15831,7 +16001,7 @@
     "durability": 80,
     "id": "679c3584016",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜手斧",
       "de": "Titanbronze-Handbeil",
@@ -15847,7 +16017,7 @@
     "durability": 80,
     "id": "fb92885d4d0",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜横头锤",
       "de": "Titanbronze-Kreuzschlaghammer",
@@ -15863,7 +16033,7 @@
     "durability": 80,
     "id": "17cde68479f",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜研钵",
       "de": "Titanbronze-Mörser",
@@ -15879,7 +16049,7 @@
     "durability": 80,
     "id": "f582c3f5252",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜鹤嘴锄",
       "de": "Titanbronze-Spitzhacke",
@@ -15895,7 +16065,7 @@
     "durability": 80,
     "id": "0fa747f7165",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜手钳",
       "de": "Titanbronze-Zange",
@@ -15911,7 +16081,7 @@
     "durability": 80,
     "id": "ffac00030cb",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜手锯",
       "de": "Titanbronze-Säge",
@@ -15927,7 +16097,7 @@
     "durability": 80,
     "id": "0e1b3994f81",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜镰刀",
       "de": "Titanbronze-Sense",
@@ -15943,7 +16113,7 @@
     "durability": 80,
     "id": "8aff9d2c626",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜碎石锤",
       "de": "Titanbronze-Vorschlaghammer",
@@ -15959,7 +16129,7 @@
     "durability": 80,
     "id": "53a3a08abdc",
     "level": 412,
-    "maxQuality": 17490,
+    "maxQuality": 15742,
     "name": {
       "cn": "钛铜雕金锤",
       "de": "Titanbronze-Juwelierhammer",
@@ -15971,13 +16141,13 @@
   },
   {
     "baseLevel": 78,
-    "difficulty": 6561,
+    "difficulty": 3645,
     "durability": 80,
     "id": "acdfa94e95c",
     "level": 415,
-    "maxQuality": 8978,
+    "maxQuality": 8081,
     "name": {
-      "cn": "Ale Tap (patch 5.1)",
+      "cn": "麦酒龙头",
       "de": "Zapfhahn",
       "en": "Ale Tap",
       "fr": "Tireuse à bière",
@@ -15991,7 +16161,7 @@
     "durability": 80,
     "id": "3825d122c2a",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银轮刃",
       "de": "Zwergische Edelmithril-Todesringe",
@@ -16007,7 +16177,7 @@
     "durability": 80,
     "id": "6d9909ca734",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银断头剑",
       "de": "Zwergische Edelmithril-Guillotine",
@@ -16023,7 +16193,7 @@
     "durability": 80,
     "id": "a814df90908",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银重锤",
       "de": "Zwergischer Edelmithril-Kriegshammer",
@@ -16039,7 +16209,7 @@
     "durability": 40,
     "id": "47184e5257d",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银锭",
       "de": "Edelmithril-Barren",
@@ -16055,7 +16225,7 @@
     "durability": 80,
     "id": "4477b01e5cd",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银指虎",
       "de": "Zwergische Edelmithril-Schlagringe",
@@ -16071,7 +16241,7 @@
     "durability": 80,
     "id": "ddeae2d8fe4",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银魔机刃",
       "de": "Zwergischer Edelmithril-Manatrigger",
@@ -16087,7 +16257,7 @@
     "durability": 80,
     "id": "9f8f130c43f",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银镐",
       "de": "Zwergische Edelmithril-Pickhacke",
@@ -16103,7 +16273,7 @@
     "durability": 80,
     "id": "4eb6040ab55",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银手枪",
       "de": "Zwergische Edelmithril-Donnerbüchse",
@@ -16119,7 +16289,7 @@
     "durability": 80,
     "id": "78c01b41157",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银天星盘",
       "de": "Zwergische Edelmithril-Planisphäre",
@@ -16135,7 +16305,7 @@
     "durability": 80,
     "id": "34635fae2c0",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银切割刃",
       "de": "Zwergische Edelmithril-Fräsen",
@@ -16151,7 +16321,7 @@
     "durability": 80,
     "id": "d98402f0f06",
     "level": 415,
-    "maxQuality": 17956,
+    "maxQuality": 16162,
     "name": {
       "cn": "矮人银打刀",
       "de": "Zwergisches Edelmithril-Uchigatana",
@@ -16167,7 +16337,7 @@
     "durability": 80,
     "id": "d9a23ae154f",
     "level": 415,
-    "maxQuality": 9875,
+    "maxQuality": 8889,
     "name": {
       "cn": "耐魔法用首饰",
       "de": "Antimagischer Halsschutz",
@@ -16179,13 +16349,13 @@
   },
   {
     "baseLevel": 78,
-    "difficulty": 6561,
+    "difficulty": 3645,
     "durability": 80,
     "id": "fa26f68aba8",
     "level": 415,
-    "maxQuality": 8978,
+    "maxQuality": 8081,
     "name": {
-      "cn": "Weaponsmith's Stall (patch 5.1)",
+      "cn": "武器摊",
       "de": "Waffen-Marktstand",
       "en": "Weaponsmith's Stall",
       "fr": "Étal de marchand d'armes",
@@ -16199,7 +16369,7 @@
     "durability": 80,
     "id": "b1d40adfe77",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "矮人银平斩",
       "de": "Edelmithril-Ahle",
@@ -16215,7 +16385,7 @@
     "durability": 80,
     "id": "d8b7af4d720",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "矮人银羊角锤",
       "de": "Edelmithril-Klauenhammer",
@@ -16231,7 +16401,7 @@
     "durability": 80,
     "id": "565b617a823",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "矮人银厨刀",
       "de": "Edelmithril-Küchenmesser",
@@ -16247,7 +16417,7 @@
     "durability": 80,
     "id": "cd11e574141",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "矮人银锉刀",
       "de": "Edelmithril-Feile",
@@ -16263,7 +16433,7 @@
     "durability": 80,
     "id": "2ce361210ea",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "矮人银研钵",
       "de": "Edelmithril-Mörser",
@@ -16279,7 +16449,7 @@
     "durability": 80,
     "id": "faf795748f3",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "矮人银手钳",
       "de": "Edelmithril-Zange",
@@ -16295,7 +16465,7 @@
     "durability": 80,
     "id": "978acbc453d",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "矮人银镰刀",
       "de": "Edelmithril-Sense",
@@ -16311,7 +16481,7 @@
     "durability": 80,
     "id": "ba48217b7c4",
     "level": 418,
-    "maxQuality": 18422,
+    "maxQuality": 16582,
     "name": {
       "cn": "矮人银碎石锤",
       "de": "Edelmithril-Vorschlaghammer",
@@ -16327,7 +16497,7 @@
     "durability": 80,
     "id": "ea49f445afe",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "矮人银横头锤",
       "de": "Edelmithril-Kreuzschlaghammer",
@@ -16343,7 +16513,7 @@
     "durability": 80,
     "id": "de6279c21c4",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "矮人银手斧",
       "de": "Edelmithril-Handbeil",
@@ -16359,7 +16529,7 @@
     "durability": 80,
     "id": "62ef1e0a45e",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "矮人银工艺锤",
       "de": "Edelmithril-Juwelierhammer",
@@ -16375,7 +16545,7 @@
     "durability": 80,
     "id": "51034629b2e",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "矮人银鹤嘴锄",
       "de": "Edelmithril-Spitzhacke",
@@ -16391,7 +16561,7 @@
     "durability": 80,
     "id": "8a79dd4b617",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "矮人银圆头锤",
       "de": "Edelmithril-Schlichthammer",
@@ -16407,7 +16577,7 @@
     "durability": 80,
     "id": "44d793d5832",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "矮人银圆革刀",
       "de": "Edelmithril-Rundmesser",
@@ -16423,7 +16593,7 @@
     "durability": 80,
     "id": "2d42e70f0c1",
     "level": 430,
-    "maxQuality": 20287,
+    "maxQuality": 18262,
     "name": {
       "cn": "矮人银手锯",
       "de": "Edelmithril-Säge",
@@ -16439,7 +16609,7 @@
     "durability": 80,
     "id": "803d09b85a6",
     "level": 430,
-    "maxQuality": 11157,
+    "maxQuality": 10044,
     "name": {
       "cn": "精巧的戒指",
       "de": "Besonderer Ring",
@@ -16452,12 +16622,28 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 80,
+    "id": "7e4e64b26c1",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Siphon Coffee Brewer (patch 5.2)",
+      "de": "Vakuum-Kaffeemaschine",
+      "en": "Siphon Coffee Brewer",
+      "fr": "Cafetière à siphon",
+      "ja": "コーヒーサイフォン",
+      "ko": "Siphon Coffee Brewer"
+    }
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 60,
     "id": "e8b1f4972db",
     "level": 430,
-    "maxQuality": 40574,
+    "maxQuality": 36524,
     "name": {
-      "cn": "Skybuilders' Oven (patch 5.11)",
+      "cn": "重建用的火炉",
       "de": "Himmelsstadt-Ofen",
       "en": "Skybuilders' Oven",
       "fr": "Four de restauration",
@@ -16467,11 +16653,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 7457,
+    "difficulty": 4143,
     "durability": 70,
     "id": "f8b5857b45f",
     "level": 440,
-    "maxQuality": 10920,
+    "maxQuality": 9831,
     "name": {
       "cn": "无瑕奖杯",
       "de": "Innozenz-Trophäe",
@@ -16484,11 +16670,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "0cf3585c60b",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "复仇魔斧",
       "de": "Alastor",
@@ -16501,11 +16687,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "eb5cf1c7a3d",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "深渊轮刃",
       "de": "Barathrum",
@@ -16518,11 +16704,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "08cfe107ba5",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "木偶师",
       "de": "Burattinaios",
@@ -16535,13 +16721,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "dfff6aedbfc",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Awl (patch 5.1)",
+      "cn": "中庸平斩",
       "de": "Manufaktur-Ahle",
       "en": "Facet Awl",
       "fr": "Poinçon de la halle",
@@ -16552,13 +16738,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "c65d280d7dd",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Claw Hammer (patch 5.1)",
+      "cn": "中庸羊角锤",
       "de": "Manufaktur-Klauenhammer",
       "en": "Facet Claw Hammer",
       "fr": "Marteau arrache-clou de la halle",
@@ -16569,13 +16755,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "10be7928261",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Cross-pein Hammer (patch 5.1)",
+      "cn": "中庸横头锤",
       "de": "Manufaktur-Kreuzschlaghammer",
       "en": "Facet Cross-pein Hammer",
       "fr": "Marteau à panne croisée de la halle",
@@ -16586,13 +16772,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "48bd8a859cf",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Culinary Knife (patch 5.1)",
+      "cn": "中庸厨刀",
       "de": "Manufaktur-Küchenmesser",
       "en": "Facet Culinary Knife",
       "fr": "Couteau de cuisine de la halle",
@@ -16603,13 +16789,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "bfc4a542f44",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet File (patch 5.1)",
+      "cn": "中庸锉刀",
       "de": "Manufaktur-Feile",
       "en": "Facet File",
       "fr": "Lime de la halle",
@@ -16620,13 +16806,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "7d2e2417125",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Hatchet (patch 5.1)",
+      "cn": "中庸手斧",
       "de": "Manufaktur-Handbeil",
       "en": "Facet Hatchet",
       "fr": "Hachette de la halle",
@@ -16637,13 +16823,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "5597a746439",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Mallet (patch 5.1)",
+      "cn": "中庸工艺锤",
       "de": "Manufaktur-Juwelierhammer",
       "en": "Facet Mallet",
       "fr": "Marteau de lapidaire de la halle",
@@ -16654,13 +16840,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "a331cf96b74",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Mortar (patch 5.1)",
+      "cn": "中庸研钵",
       "de": "Manufaktur-Mörser",
       "en": "Facet Mortar",
       "fr": "Mortier de la halle",
@@ -16671,13 +16857,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "5f94451edc3",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Pickaxe (patch 5.1)",
+      "cn": "中庸鹤嘴锄",
       "de": "Manufaktur-Spitzhacke",
       "en": "Facet Pickaxe",
       "fr": "Pioche de la halle",
@@ -16688,13 +16874,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "eb2c4b59a7d",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Pliers (patch 5.1)",
+      "cn": "中庸手钳",
       "de": "Manufaktur-Zange",
       "en": "Facet Pliers",
       "fr": "Tenailles de la halle",
@@ -16705,13 +16891,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "a22f468085b",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Raising Hammer (patch 5.1)",
+      "cn": "中庸圆头锤",
       "de": "Manufaktur-Schlichthammer",
       "en": "Facet Raising Hammer",
       "fr": "Marteau de batteur de la halle",
@@ -16722,13 +16908,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "2427c7f611c",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Round Knife (patch 5.1)",
+      "cn": "中庸圆革刀",
       "de": "Manufaktur-Rundmesser",
       "en": "Facet Round Knife",
       "fr": "Couteau arrondi de la halle",
@@ -16739,13 +16925,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "d38fcb731af",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Saw (patch 5.1)",
+      "cn": "中庸手锯",
       "de": "Manufaktur-Säge",
       "en": "Facet Saw",
       "fr": "Scie de la halle",
@@ -16756,13 +16942,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "a5558376f08",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Scythe (patch 5.1)",
+      "cn": "中庸镰刀",
       "de": "Manufaktur-Sense",
       "en": "Facet Scythe",
       "fr": "Faux de la halle",
@@ -16773,13 +16959,13 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6297,
+    "difficulty": 4994,
     "durability": 70,
     "id": "a13d70399d5",
     "level": 450,
-    "maxQuality": 44450,
+    "maxQuality": 30413,
     "name": {
-      "cn": "Facet Sledgehammer (patch 5.1)",
+      "cn": "中庸碎石锤",
       "de": "Manufaktur-Vorschlaghammer",
       "en": "Facet Sledgehammer",
       "fr": "Maillet de la halle",
@@ -16790,11 +16976,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "7b1393e2ae7",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "暴风舌大剑",
       "de": "Windstoß-Zunge",
@@ -16807,11 +16993,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "2752bc7d610",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "凶犯",
       "de": "Todesengel",
@@ -16824,11 +17010,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "95016df2405",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "行蕴",
       "de": "Sankhara",
@@ -16841,11 +17027,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "3444d9a62ba",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "丝音",
       "de": "Seidenklänge",
@@ -16858,11 +17044,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "8218523ae32",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "缓罪剑",
       "de": "Sündenerwehrer",
@@ -16875,11 +17061,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 4777,
+    "difficulty": 3474,
     "durability": 35,
     "id": "d1bd674f6f8",
     "level": 450,
-    "maxQuality": 32753,
+    "maxQuality": 25734,
     "name": {
       "cn": "重钨钢锭",
       "de": "Wolframbarren",
@@ -16892,11 +17078,11 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 5645,
+    "difficulty": 4560,
     "durability": 70,
     "id": "30c1255e8e7",
     "level": 450,
-    "maxQuality": 37432,
+    "maxQuality": 28074,
     "name": {
       "cn": "守护之刃",
       "de": "Tutelary",
@@ -16906,5 +17092,226 @@
       "ko": "Tutelary"
     },
     "stars": 2
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 35,
+    "id": "cb65999e853",
+    "level": 480,
+    "maxQuality": 32328,
+    "name": {
+      "cn": "Cobalt Alloy Ingot (patch 5.2)",
+      "de": "Kobaltlegierungs-Barren",
+      "en": "Cobalt Alloy Ingot",
+      "fr": "Lingot d'alliage de cobalt",
+      "ja": "コバルトアロイインゴット",
+      "ko": "Cobalt Alloy Ingot"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "d373931516b",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Blade (patch 5.2)",
+      "de": "Neo-Ishgarder Klinge",
+      "en": "Neo-Ishgardian Blade",
+      "fr": "Lame néo-ishgardaise",
+      "ja": "ネオイシュガルディアン・ブレード",
+      "ko": "Neo-Ishgardian Blade"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "9c337de8ea4",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Chakrams (patch 5.2)",
+      "de": "Neo-Ishgarder Chakrams",
+      "en": "Neo-Ishgardian Chakrams",
+      "fr": "Chakrams néo-ishgardais",
+      "ja": "ネオイシュガルディアン・チャクラム",
+      "ko": "Neo-Ishgardian Chakrams"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "7ad13e8f6f9",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Claws (patch 5.2)",
+      "de": "Neo-Ishgarder Klauen",
+      "en": "Neo-Ishgardian Claws",
+      "fr": "Griffes néo-ishgardaises",
+      "ja": "ネオイシュガルディアン・クロー",
+      "ko": "Neo-Ishgardian Claws"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "deaf6e57c06",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Daggers (patch 5.2)",
+      "de": "Neo-Ishgarder Dolche",
+      "en": "Neo-Ishgardian Daggers",
+      "fr": "Dagues néo-ishgardaises",
+      "ja": "ネオイシュガルディアン・ダガー",
+      "ko": "Neo-Ishgardian Daggers"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "e1e7c2b4618",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Greatsword (patch 5.2)",
+      "de": "Neo-Ishgarder Großschwert",
+      "en": "Neo-Ishgardian Greatsword",
+      "fr": "Grande épée néo-ishgardaise",
+      "ja": "ネオイシュガルディアン・グレートソード",
+      "ko": "Neo-Ishgardian Greatsword"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "15459acc912",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Labrys (patch 5.2)",
+      "de": "Neo-Ishgarder Labrys",
+      "en": "Neo-Ishgardian Labrys",
+      "fr": "Labrys néo-ishgardais",
+      "ja": "ネオイシュガルディアン・ラブリュス",
+      "ko": "Neo-Ishgardian Labrys"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "4f401dc29d6",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Manatrigger (patch 5.2)",
+      "de": "Neo-Ishgarder Manatrigger",
+      "en": "Neo-Ishgardian Manatrigger",
+      "fr": "Managâchette néo-ishgardaise",
+      "ja": "ネオイシュガルディアン・マナトリガー",
+      "ko": "Neo-Ishgardian Manatrigger"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "fb69fc69362",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Revolver (patch 5.2)",
+      "de": "Neo-Ishgarder Revolver",
+      "en": "Neo-Ishgardian Revolver",
+      "fr": "Revolver néo-ishgardais",
+      "ja": "ネオイシュガルディアン・リボルバー",
+      "ko": "Neo-Ishgardian Revolver"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "c7e8dd0ed12",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Sword (patch 5.2)",
+      "de": "Neo-Ishgarder Schwert",
+      "en": "Neo-Ishgardian Sword",
+      "fr": "Épée néo-ishgardaise",
+      "ja": "ネオイシュガルディアン・ソード",
+      "ko": "Neo-Ishgardian Sword"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "b974cd520f0",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Neo-Ishgardian Trident (patch 5.2)",
+      "de": "Neo-Ishgarder Dreizack",
+      "en": "Neo-Ishgardian Trident",
+      "fr": "Trident néo-ishgardais",
+      "ja": "ネオイシュガルディアン・トライデント",
+      "ko": "Neo-Ishgardian Trident"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 6178,
+    "durability": 70,
+    "id": "aa5425066e0",
+    "level": 480,
+    "maxQuality": 36208,
+    "name": {
+      "cn": "Rank VIII Artisan's Durable Practice Materials (patch 5.2)",
+      "de": "Musterstück VIII (Belastbarkeit: 70)",
+      "en": "Rank VIII Artisan's Durable Practice Materials",
+      "fr": "Échantillon expérimental de niveau 8 [Solidité 70]",
+      "ja": "第8巻級の習作【耐久70】",
+      "ko": "Rank VIII Artisan's Durable Practice Materials"
+    },
+    "stars": 3
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 35,
+    "id": "eaa67d5c55c",
+    "level": 480,
+    "maxQuality": 32328,
+    "name": {
+      "cn": "Rank VIII Artisan's Fragile Practice Materials (patch 5.2)",
+      "de": "Musterstück VIII (Belastbarkeit: 35)",
+      "en": "Rank VIII Artisan's Fragile Practice Materials",
+      "fr": "Échantillon expérimental de niveau 8 [Solidité 35]",
+      "ja": "第8巻級の習作【耐久35】",
+      "ko": "Rank VIII Artisan's Fragile Practice Materials"
+    },
+    "stars": 3
   }
 ]
