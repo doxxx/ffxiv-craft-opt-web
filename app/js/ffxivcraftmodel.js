@@ -245,9 +245,6 @@ function ApplyModifiers(s, action, condition) {
         control += (0.2 * s.effects.countUps[AllActions.innerQuiet.shortName]) * s.synth.crafter.control;
     }
 
-    // Since game version 5.0, effects increasing control are capped at crafter's original control + 3000
-    control = Math.min(control, s.synth.crafter.control + 3000);
-
     // Effects modifying level difference
     var effCrafterLevel = getEffectiveCrafterLevel(s.synth);
     var effRecipeLevel = s.synth.recipe.level;
@@ -277,6 +274,10 @@ function ApplyModifiers(s, action, condition) {
     // Name of the Elements increases Brand of the Element's efficiency by 0-200% based on the inverse of progress.
     if (isActionEq(action, AllActions.brandOfTheElements) && s.effects.countDowns.hasOwnProperty(AllActions.nameOfTheElements.shortName)) {
         progressIncreaseMultiplier += calcNameOfElementsBonus(s);
+    }
+
+    if (AllActions.veneration.shortName in s.effects.countDowns) {
+        progressIncreaseMultiplier += 0.5;
     }
 
     if (isActionEq(action, AllActions.muscleMemory)) {
@@ -432,9 +433,13 @@ function ApplySpecialActionEffects(s, action, condition) {
         }
     }
 
+    if (isActionEq(action, AllActions.veneration.shortName) && (AllActions.veneration.shortName in s.effects.countDowns)) {
+        s.wastedActions += 1
+    }
     if (isActionEq(action, AllActions.innovation.shortName) && (AllActions.innovation.shortName in s.effects.countDowns)) {
         s.wastedActions += 1
     }
+
 }
 
 function UpdateEffectCounters(s, action, condition, successProbability) {
