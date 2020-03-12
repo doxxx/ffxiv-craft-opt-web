@@ -291,6 +291,9 @@ function ApplyModifiers(s, action, condition) {
             cpCost = 0;
         }
     }
+	if (isActionEq(action, AllActions.groundwork) && s.durabilityState < 20) {
+        progressIncreaseMultiplier *= 0.5;
+    }
 
     // Effects modifying quality increase multiplier
     var qualityIncreaseMultiplier = 1;
