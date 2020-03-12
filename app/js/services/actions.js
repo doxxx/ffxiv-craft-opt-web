@@ -157,9 +157,9 @@
     {
       name: "Buffs", actions: [
         "innerQuiet",
+		"veneration",
         "greatStrides",
         "innovation",
-        "veneration",
         "nameOfTheElements"
     ]
     },
