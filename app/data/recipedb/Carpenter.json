@@ -1651,6 +1651,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "f2ad36017f3",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Plywood",
+      "de": "Genist-Sperrholzplatte",
+      "en": "Grade 2 Skybuilders' Plywood",
+      "fr": "Bois contreplaqué de restauration (2e phase)",
+      "ja": "第二次復興用の合板",
+      "ko": "Grade 2 Skybuilders' Plywood"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "287954ffd05",
     "level": 20,
@@ -4042,6 +4059,23 @@
       "fr": "Cadre de petite taille",
       "ja": "ピクチャーフレームG1",
       "ko": "1등급 액자"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "c03096d6605",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Crate",
+      "de": "Genist-Holzkiste",
+      "en": "Grade 2 Skybuilders' Crate",
+      "fr": "Caisse en bois de restauration (2e phase)",
+      "ja": "第二次復興用の木箱",
+      "ko": "Grade 2 Skybuilders' Crate"
     },
     "suggestedCraftsmanship": 136
   },
@@ -8730,6 +8764,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "63c2e281569",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Grindstone",
+      "de": "Genist-Schleifrad",
+      "en": "Grade 2 Skybuilders' Grindstone",
+      "fr": "Meule de restauration (2e phase)",
+      "ja": "第二次復興用の研磨道具",
+      "ko": "Grade 2 Skybuilders' Grindstone"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "d59ccff5096",
     "level": 150,
     "maxQuality": 6280,
@@ -11190,6 +11241,23 @@
     "baseLevel": 63,
     "difficulty": 1476,
     "durability": 80,
+    "id": "830ecb5555b",
+    "level": 270,
+    "maxQuality": 4593,
+    "name": {
+      "cn": "Hingan Door (Nanpu)",
+      "de": "Hinganische Nanpu-Tür",
+      "en": "Hingan Door (Nanpu)",
+      "fr": "Porte hingashienne (nanpu)",
+      "ja": "白銀南風扉",
+      "ko": "Hingan Door (Nanpu)"
+    },
+    "suggestedCraftsmanship": 1037
+  },
+  {
+    "baseLevel": 63,
+    "difficulty": 1476,
+    "durability": 80,
     "id": "9c02a835201",
     "level": 270,
     "maxQuality": 4593,
@@ -11200,23 +11268,6 @@
       "fr": "Lampe hingashienne suspendue (andon)",
       "ja": "白銀吊り行燈",
       "ko": "동방의 걸이식 초롱"
-    },
-    "suggestedCraftsmanship": 1037
-  },
-  {
-    "baseLevel": 63,
-    "difficulty": 1476,
-    "durability": 80,
-    "id": "830ecb5555b",
-    "level": 270,
-    "maxQuality": 4593,
-    "name": {
-      "cn": "东洋镶金门",
-      "de": "Hinganische Nanpu-Tür",
-      "en": "Hingan Nanpu Door",
-      "fr": "Porte hingashienne (nanpu)",
-      "ja": "白銀南風扉",
-      "ko": "동방의 남방식 현관문"
     },
     "suggestedCraftsmanship": 1037
   },
@@ -11666,6 +11717,23 @@
     "baseLevel": 66,
     "difficulty": 1808,
     "durability": 80,
+    "id": "31614bc266b",
+    "level": 279,
+    "maxQuality": 5194,
+    "name": {
+      "cn": "Hingan Door (Kura-zukuri)",
+      "de": "Hinganische Kurazukuri-Tür",
+      "en": "Hingan Door (Kura-zukuri)",
+      "fr": "Porte hingashienne (kura-zukuri)",
+      "ja": "白銀蔵造扉",
+      "ko": "Hingan Door (Kura-zukuri)"
+    },
+    "suggestedCraftsmanship": 1056
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1808,
+    "durability": 80,
     "id": "61d6dddd186",
     "level": 279,
     "maxQuality": 5194,
@@ -11710,23 +11778,6 @@
       "fr": "Mur de pavillon hingashien (nanpu)",
       "ja": "白銀南風屋敷壁",
       "ko": "동방의 남방식 주택 외벽"
-    },
-    "suggestedCraftsmanship": 1056
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 1808,
-    "durability": 80,
-    "id": "31614bc266b",
-    "level": 279,
-    "maxQuality": 5194,
-    "name": {
-      "cn": "Hingan Kura-zukuri Door (patch 5.2)",
-      "de": "Hinganische Kurazukuri-Tür",
-      "en": "Hingan Kura-zukuri Door",
-      "fr": "Porte hingashienne (kura-zukuri)",
-      "ja": "白銀蔵造扉",
-      "ko": "Hingan Kura-zukuri Door"
     },
     "suggestedCraftsmanship": 1056
   },
@@ -12441,6 +12492,23 @@
       "fr": "Kit pour dépliants",
       "ja": "チラシ製作必需品",
       "ko": "Flyer Printing Set"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "7f6e95be426",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Stepladder",
+      "de": "Genist-Trittleiter",
+      "en": "Grade 2 Skybuilders' Stepladder",
+      "fr": "Escabeau de restauration (2e phase)",
+      "ja": "第二次復興用の脚立",
+      "ko": "Grade 2 Skybuilders' Stepladder"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -14857,6 +14925,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "651566ccdaa",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Bed",
+      "de": "Genist-Bett",
+      "en": "Grade 2 Skybuilders' Bed",
+      "fr": "Lit de restauration (2e phase)",
+      "ja": "第二次復興用の寝台",
+      "ko": "Grade 2 Skybuilders' Bed"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "14e25e3e7ad",
     "level": 430,
@@ -15160,6 +15245,44 @@
     "stars": 2,
     "suggestedControl": 1990,
     "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "dbb3329387e",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Artisanal Skybuilders' Wardrobe",
+      "de": "Sonderbestellte Genist-Kommode",
+      "en": "Grade 2 Artisanal Skybuilders' Wardrobe",
+      "fr": "Commode sur commande de restauration (2e phase)",
+      "ja": "第二次復興用の特注箪笥",
+      "ko": "Grade 2 Artisanal Skybuilders' Wardrobe"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "492440e1631",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
+      "de": "Sonderbestelltes Genist-Musterstück",
+      "en": "Grade 2 Expert Skybuilders' Practice Materials",
+      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
+      "ja": "第二次復興事業用の特注習作",
+      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
   },
   {
     "baseLevel": 80,

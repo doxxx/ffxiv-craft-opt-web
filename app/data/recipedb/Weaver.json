@@ -2042,6 +2042,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "c1a5ea073c2",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Rope",
+      "de": "Genist-Strohseil",
+      "en": "Grade 2 Skybuilders' Rope",
+      "fr": "Corde de restauration (2e phase)",
+      "ja": "第二次復興用の荒縄",
+      "ko": "Grade 2 Skybuilders' Rope"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "14c332f05cb",
     "level": 20,
@@ -4467,6 +4484,23 @@
       "fr": "Tapis sombrelinçois",
       "ja": "シュラウド・ラグ",
       "ko": "검은장막 깔개"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "fc4d4cda752",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Cloth",
+      "de": "Genist-Stoffballen",
+      "en": "Grade 2 Skybuilders' Cloth",
+      "fr": "Étoffe de restauration (2e phase)",
+      "ja": "第二次復興用の生地",
+      "ko": "Grade 2 Skybuilders' Cloth"
     },
     "suggestedCraftsmanship": 136
   },
@@ -12324,6 +12358,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "81cb20cb25d",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Broom",
+      "de": "Genist-Besen",
+      "en": "Grade 2 Skybuilders' Broom",
+      "fr": "Balai de restauration (2e phase)",
+      "ja": "第二次復興用のホウキ",
+      "ko": "Grade 2 Skybuilders' Broom"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "f987e6702e8",
     "level": 150,
     "maxQuality": 6280,
@@ -18111,6 +18162,23 @@
   {
     "baseLevel": 70,
     "difficulty": 2214,
+    "durability": 60,
+    "id": "0df0867cc08",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Gloves",
+      "de": "Genist-Handschuhe",
+      "en": "Grade 2 Skybuilders' Gloves",
+      "fr": "Gants de restauration (2e phase)",
+      "ja": "第二次復興用の手袋",
+      "ko": "Grade 2 Skybuilders' Gloves"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
     "durability": 80,
     "id": "40a13b1fc0f",
     "level": 290,
@@ -22087,6 +22155,23 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "272048e4a94",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Gazebo",
+      "de": "Genist-Zelt",
+      "en": "Grade 2 Skybuilders' Gazebo",
+      "fr": "Tente de restauration (2e phase)",
+      "ja": "第二次復興用の天幕",
+      "ko": "Grade 2 Skybuilders' Gazebo"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 2760,
     "durability": 80,
     "id": "ea1a48f149d",
@@ -22661,6 +22746,44 @@
       "fr": "Étoffe de grémil",
       "ja": "紫根布",
       "ko": "Duskcourt Cloth"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "f32b8f90a1d",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Artisanal Skybuilders' Wallpaper",
+      "de": "Sonderbestellte Genist-Tapete",
+      "en": "Grade 2 Artisanal Skybuilders' Wallpaper",
+      "fr": "Papier peint sur commande de restauration (2e phase)",
+      "ja": "第二次復興用の特注壁紙",
+      "ko": "Grade 2 Artisanal Skybuilders' Wallpaper"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "057359cdb3b",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
+      "de": "Sonderbestelltes Genist-Musterstück",
+      "en": "Grade 2 Expert Skybuilders' Practice Materials",
+      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
+      "ja": "第二次復興事業用の特注習作",
+      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
     },
     "stars": 3,
     "suggestedControl": 2195,

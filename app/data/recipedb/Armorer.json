@@ -1362,6 +1362,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "7aa31aa05aa",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Steel Plate",
+      "de": "Genist-Metallplatte",
+      "en": "Grade 2 Skybuilders' Steel Plate",
+      "fr": "Plaque de métal de restauration (2e phase)",
+      "ja": "第二次復興用の金属板",
+      "ko": "Grade 2 Skybuilders' Steel Plate"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "3eb4f3fe16c",
     "level": 20,
@@ -3379,6 +3396,23 @@
       "fr": "Elmo en mithril réinventé",
       "ja": "オルタード・ミスリルエルモ",
       "ko": "Altered Mythril Elmo"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "91087376018",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Rivets",
+      "de": "Genist-Nieten",
+      "en": "Grade 2 Skybuilders' Rivets",
+      "fr": "Rivets de restauration (2e phase)",
+      "ja": "第二次復興用のリベット",
+      "ko": "Grade 2 Skybuilders' Rivets"
     },
     "suggestedCraftsmanship": 136
   },
@@ -8449,6 +8483,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "ee6415c4ae6",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Still",
+      "de": "Genist-Destillierkolben",
+      "en": "Grade 2 Skybuilders' Still",
+      "fr": "Alambic de restauration (2e phase)",
+      "ja": "第二次復興用の蒸留器",
+      "ko": "Grade 2 Skybuilders' Still"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "77d7e984735",
     "level": 150,
     "maxQuality": 6280,
@@ -11757,12 +11808,12 @@
     "level": 270,
     "maxQuality": 4593,
     "name": {
-      "cn": "东洋石制围墙",
+      "cn": "Hingan Fence (Kura-zukuri)",
       "de": "Hinganischer Kurazukuri-Zaun",
-      "en": "Hingan Kura-zukuri Fence",
+      "en": "Hingan Fence (Kura-zukuri)",
       "fr": "Muret hingashien (kura-zukuri)",
       "ja": "白銀蔵造塀",
-      "ko": "동방의 회벽 담장"
+      "ko": "Hingan Fence (Kura-zukuri)"
     },
     "suggestedCraftsmanship": 1037
   },
@@ -12902,6 +12953,23 @@
       "fr": "Kit pour dépliants",
       "ja": "チラシ製作必需品",
       "ko": "Flyer Printing Set"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "aa7194b8686",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Mesail",
+      "de": "Genist-Mesailvisier",
+      "en": "Grade 2 Skybuilders' Mesail",
+      "fr": "Mésail de restauration (2e phase)",
+      "ja": "第二次復興用のメセイル",
+      "ko": "Grade 2 Skybuilders' Mesail"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -15524,6 +15592,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "7177d1364be",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Lamppost",
+      "de": "Genist-Laterne",
+      "en": "Grade 2 Skybuilders' Lamppost",
+      "fr": "Lampadaire de restauration (2e phase)",
+      "ja": "第二次復興用の街灯",
+      "ko": "Grade 2 Skybuilders' Lamppost"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "0a41d04dc79",
     "level": 430,
@@ -16006,6 +16091,44 @@
       "fr": "Lingot d'alliage de cobalt",
       "ja": "コバルトアロイインゴット",
       "ko": "Cobalt Alloy Ingot"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "9a4a52f9233",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Artisanal Skybuilders' Fireplace",
+      "de": "Sonderbestellter Genist-Kamin",
+      "en": "Grade 2 Artisanal Skybuilders' Fireplace",
+      "fr": "Âtre sur commande de restauration (2e phase)",
+      "ja": "第二次復興用の特注暖炉",
+      "ko": "Grade 2 Artisanal Skybuilders' Fireplace"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "4439c911671",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
+      "de": "Sonderbestelltes Genist-Musterstück",
+      "en": "Grade 2 Expert Skybuilders' Practice Materials",
+      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
+      "ja": "第二次復興事業用の特注習作",
+      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
     },
     "stars": 3,
     "suggestedControl": 2195,

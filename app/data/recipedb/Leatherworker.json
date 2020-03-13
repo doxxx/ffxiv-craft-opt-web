@@ -1872,6 +1872,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "a20f8e8ae06",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Leather",
+      "de": "Gegerbtes Genist-Leder",
+      "en": "Grade 2 Skybuilders' Leather",
+      "fr": "Cuir de restauration (2e phase)",
+      "ja": "第二次復興用のなめし革",
+      "ko": "Grade 2 Skybuilders' Leather"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "8d51c3fbc3d",
     "level": 20,
@@ -3838,6 +3855,23 @@
       "fr": "Bannière sur mât sombrelinçoise",
       "ja": "シュラウド・ハンギングバナー",
       "ko": "검은장막 현수막"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "8c7c1ca2ec0",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Leather Straps",
+      "de": "Genist-Lederriemen",
+      "en": "Grade 2 Skybuilders' Leather Straps",
+      "fr": "Cordon de cuir de restauration (2e phase)",
+      "ja": "第二次復興用の革紐",
+      "ko": "Grade 2 Skybuilders' Leather Straps"
     },
     "suggestedCraftsmanship": 136
   },
@@ -9783,12 +9817,12 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
-      "cn": "长颈驼革毛边靴",
+      "cn": "Fur-lined Dhalmelskin Boots",
       "de": "Dhalmelleder-Stiefel",
-      "en": "Fur-lined Dhalmelskin boots",
+      "en": "Fur-lined Dhalmelskin Boots",
       "fr": "Bottes en fourrure de dhalmel",
       "ja": "ダルメルファーブーツ",
-      "ko": "달멜 털장식 장화"
+      "ko": "Fur-lined Dhalmelskin Boots"
     },
     "suggestedCraftsmanship": 539
   },
@@ -11115,6 +11149,23 @@
       "fr": "Cadeau de remerciement",
       "ja": "感謝の贈答品",
       "ko": "답례품"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "59f01376107",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Rug",
+      "de": "Genist-Teppich",
+      "en": "Grade 2 Skybuilders' Rug",
+      "fr": "Tapis en peau de restauration (2e phase)",
+      "ja": "第二次復興用の敷物",
+      "ko": "Grade 2 Skybuilders' Rug"
     },
     "suggestedCraftsmanship": 587
   },
@@ -18561,6 +18612,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "6c74d391f05",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Longboots",
+      "de": "Genist-Stiefel",
+      "en": "Grade 2 Skybuilders' Longboots",
+      "fr": "Bottes de restauration (2e phase)",
+      "ja": "第二次復興用の長靴",
+      "ko": "Grade 2 Skybuilders' Longboots"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1549,
     "durability": 80,
     "id": "8123901a034",
@@ -21968,6 +22036,23 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "d0370155d32",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Overalls",
+      "de": "Genist-Arbeitsmontur",
+      "en": "Grade 2 Skybuilders' Overalls",
+      "fr": "Habit de travail de restauration (2e phase)",
+      "ja": "第二次復興用の作業着",
+      "ko": "Grade 2 Skybuilders' Overalls"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 2760,
     "durability": 80,
     "id": "5c92670b516",
@@ -22556,6 +22641,44 @@
     "stars": 2,
     "suggestedControl": 1990,
     "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "ef84abaa377",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Artisanal Skybuilders' Overcoat",
+      "de": "Sonderbestellter Genist-Mantel",
+      "en": "Grade 2 Artisanal Skybuilders' Overcoat",
+      "fr": "Pardessus sur commande de restauration (2e phase)",
+      "ja": "第二次復興用の特注外套",
+      "ko": "Grade 2 Artisanal Skybuilders' Overcoat"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "02577f163b7",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
+      "de": "Sonderbestelltes Genist-Musterstück",
+      "en": "Grade 2 Expert Skybuilders' Practice Materials",
+      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
+      "ja": "第二次復興事業用の特注習作",
+      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
   },
   {
     "baseLevel": 80,

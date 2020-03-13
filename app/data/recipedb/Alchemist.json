@@ -1362,6 +1362,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "ff0a0d0b28a",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Ink",
+      "de": "Genist-Tinte",
+      "en": "Grade 2 Skybuilders' Ink",
+      "fr": "Encre de restauration (2e phase)",
+      "ja": "第二次復興用のインク",
+      "ko": "Grade 2 Skybuilders' Ink"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "a6441a394a5",
     "level": 20,
@@ -3260,6 +3277,23 @@
       "fr": "Toit de pavillon composite sombrelinçois",
       "ja": "シュラウド・コンポジットハウス・ルーフ",
       "ko": "숲속의 복합조 주택 지붕"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "e79c7687d9a",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Plant Oil",
+      "de": "Genist-Pflanzenöl",
+      "en": "Grade 2 Skybuilders' Plant Oil",
+      "fr": "Huile végétale de restauration (2e phase)",
+      "ja": "第二次復興用の植物油",
+      "ko": "Grade 2 Skybuilders' Plant Oil"
     },
     "suggestedCraftsmanship": 136
   },
@@ -9224,6 +9258,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "584520258b7",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Dye",
+      "de": "Genist-Farbstoff",
+      "en": "Grade 2 Skybuilders' Dye",
+      "fr": "Colorant de restauration (2e phase)",
+      "ja": "第二次復興用のカララント",
+      "ko": "Grade 2 Skybuilders' Dye"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "8a5340e0599",
     "level": 150,
     "maxQuality": 6280,
@@ -12879,6 +12930,23 @@
   {
     "baseLevel": 70,
     "difficulty": 2214,
+    "durability": 60,
+    "id": "b31b7348794",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Soap",
+      "de": "Genist-Seife",
+      "en": "Grade 2 Skybuilders' Soap",
+      "fr": "Savon de restauration (2e phase)",
+      "ja": "第二次復興用の石鹸",
+      "ko": "Grade 2 Skybuilders' Soap"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
     "durability": 80,
     "id": "2cb8b8d80db",
     "level": 290,
@@ -14922,6 +14990,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "786852285d3",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Alchemic",
+      "de": "Genist-Tinktur",
+      "en": "Grade 2 Skybuilders' Alchemic",
+      "fr": "Potion alchimique de restauration (2e phase)",
+      "ja": "第二次復興用の錬金薬",
+      "ko": "Grade 2 Skybuilders' Alchemic"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "994dd243dd5",
     "level": 430,
@@ -15382,6 +15467,44 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "d6cd78a8109",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Artisanal Skybuilders' Remedies",
+      "de": "Sonderbestellte Genist-Hausapotheke",
+      "en": "Grade 2 Artisanal Skybuilders' Remedies",
+      "fr": "Pharmacie sur commande de restauration (2e phase)",
+      "ja": "第二次復興用の特注常備薬",
+      "ko": "Grade 2 Artisanal Skybuilders' Remedies"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "462be46a138",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
+      "de": "Sonderbestelltes Genist-Musterstück",
+      "en": "Grade 2 Expert Skybuilders' Practice Materials",
+      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
+      "ja": "第二次復興事業用の特注習作",
+      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4943,
     "durability": 35,
     "id": "3ff4ad0e8bf",
@@ -15464,12 +15587,12 @@
     "level": 480,
     "maxQuality": 36208,
     "name": {
-      "cn": "Grade 3 Tinctures of Dexterity (patch 5.2)",
+      "cn": "Grade 3 Tincture of Dexterity",
       "de": "Visionsremedium der Geschicklichkeit III",
-      "en": "Grade 3 Tinctures of Dexterity",
+      "en": "Grade 3 Tincture of Dexterity",
       "fr": "Philtre chimérique de dextérité III",
       "ja": "眼力の幻薬G3",
-      "ko": "Grade 3 Tinctures of Dexterity"
+      "ko": "Grade 3 Tincture of Dexterity"
     },
     "stars": 3,
     "suggestedControl": 2195,
@@ -15483,12 +15606,12 @@
     "level": 480,
     "maxQuality": 36208,
     "name": {
-      "cn": "Grade 3 Tinctures of Intelligence (patch 5.2)",
+      "cn": "Grade 3 Tincture of Intelligence",
       "de": "Visionsremedium der Intelligenz III",
-      "en": "Grade 3 Tinctures of Intelligence",
+      "en": "Grade 3 Tincture of Intelligence",
       "fr": "Philtre chimérique d'intelligence III",
       "ja": "知力の幻薬G3",
-      "ko": "Grade 3 Tinctures of Intelligence"
+      "ko": "Grade 3 Tincture of Intelligence"
     },
     "stars": 3,
     "suggestedControl": 2195,
@@ -15502,12 +15625,12 @@
     "level": 480,
     "maxQuality": 36208,
     "name": {
-      "cn": "Grade 3 Tinctures of Mind (patch 5.2)",
+      "cn": "Grade 3 Tincture of Mind",
       "de": "Visionsremedium der Willenskraft III",
-      "en": "Grade 3 Tinctures of Mind",
+      "en": "Grade 3 Tincture of Mind",
       "fr": "Philtre chimérique d'esprit III",
       "ja": "心力の幻薬G3",
-      "ko": "Grade 3 Tinctures of Mind"
+      "ko": "Grade 3 Tincture of Mind"
     },
     "stars": 3,
     "suggestedControl": 2195,
@@ -15521,12 +15644,12 @@
     "level": 480,
     "maxQuality": 36208,
     "name": {
-      "cn": "Grade 3 Tinctures of Strength (patch 5.2)",
+      "cn": "Grade 3 Tincture of Strength",
       "de": "Visionsremedium der Stärke III",
-      "en": "Grade 3 Tinctures of Strength",
+      "en": "Grade 3 Tincture of Strength",
       "fr": "Philtre chimérique de force III",
       "ja": "剛力の幻薬G3",
-      "ko": "Grade 3 Tinctures of Strength"
+      "ko": "Grade 3 Tincture of Strength"
     },
     "stars": 3,
     "suggestedControl": 2195,
@@ -15540,12 +15663,12 @@
     "level": 480,
     "maxQuality": 36208,
     "name": {
-      "cn": "Grade 3 Tinctures of Vitality (patch 5.2)",
+      "cn": "Grade 3 Tincture of Vitality",
       "de": "Visionsremedium der Konstitution III",
-      "en": "Grade 3 Tinctures of Vitality",
+      "en": "Grade 3 Tincture of Vitality",
       "fr": "Philtre chimérique de vitalité III",
       "ja": "活力の幻薬G3",
-      "ko": "Grade 3 Tinctures of Vitality"
+      "ko": "Grade 3 Tincture of Vitality"
     },
     "stars": 3,
     "suggestedControl": 2195,

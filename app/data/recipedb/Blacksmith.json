@@ -1889,6 +1889,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "7861df87aca",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Alloy",
+      "de": "Genist-Legierung",
+      "en": "Grade 2 Skybuilders' Alloy",
+      "fr": "Alliage métallique de restauration (2e phase)",
+      "ja": "第二次復興用の合金",
+      "ko": "Grade 2 Skybuilders' Alloy"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "c8fb2b6d4bd",
     "level": 20,
@@ -4246,6 +4263,23 @@
       "fr": "Labrys en mithril à pointe",
       "ja": "スパイクドミスリルラブリュス",
       "ko": "징 박힌 미스릴 양날도끼"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "85c66a11a09",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Nails",
+      "de": "Genist-Eisennägel",
+      "en": "Grade 2 Skybuilders' Nails",
+      "fr": "Clous de restauration (2e phase)",
+      "ja": "第二次復興用の鉄釘",
+      "ko": "Grade 2 Skybuilders' Nails"
     },
     "suggestedCraftsmanship": 136
   },
@@ -9953,6 +9987,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "782567d973d",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Hammer",
+      "de": "Genist-Hammer",
+      "en": "Grade 2 Skybuilders' Hammer",
+      "fr": "Martelet de restauration (2e phase)",
+      "ja": "第二次復興用の手槌",
+      "ko": "Grade 2 Skybuilders' Hammer"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "93a99efaaec",
     "level": 150,
     "maxQuality": 6280,
@@ -12749,12 +12800,12 @@
     "level": 265,
     "maxQuality": 4290,
     "name": {
-      "cn": "Hingan Mokuzo Fence (patch 5.2)",
+      "cn": "Hingan Fence (Mokuzo)",
       "de": "Hinganischer Mokuzo-Zaun",
-      "en": "Hingan Mokuzo Fence",
+      "en": "Hingan Fence (Mokuzo)",
       "fr": "Muret hingashien simple",
       "ja": "白銀石塀",
-      "ko": "Hingan Mokuzo Fence"
+      "ko": "Hingan Fence (Mokuzo)"
     },
     "suggestedCraftsmanship": 1027
   },
@@ -14523,6 +14574,23 @@
       "fr": "Kit pour dépliants",
       "ja": "チラシ製作必需品",
       "ko": "Flyer Printing Set"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "02ad67a45ae",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Crosscut Saw",
+      "de": "Genist-Säge",
+      "en": "Grade 2 Skybuilders' Crosscut Saw",
+      "fr": "Grande scie de restauration (2e phase)",
+      "ja": "第二次復興用の大鋸",
+      "ko": "Grade 2 Skybuilders' Crosscut Saw"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -17852,6 +17920,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "5c4629ac660",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 2 Skybuilders' Oven",
+      "de": "Genist-Ofen",
+      "en": "Grade 2 Skybuilders' Oven",
+      "fr": "Four de restauration (2e phase)",
+      "ja": "第二次復興用の焜炉",
+      "ko": "Grade 2 Skybuilders' Oven"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "7e4e64b26c1",
     "level": 430,
@@ -18391,6 +18476,44 @@
       "fr": "Lingot d'alliage de cobalt",
       "ja": "コバルトアロイインゴット",
       "ko": "Cobalt Alloy Ingot"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "0e2ce709528",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Artisanal Skybuilders' Chandelier",
+      "de": "Sonderbestellte Genist-Lampe",
+      "en": "Grade 2 Artisanal Skybuilders' Chandelier",
+      "fr": "Luminaire sur commande de restauration (2e phase)",
+      "ja": "第二次復興用の特注照明",
+      "ko": "Grade 2 Artisanal Skybuilders' Chandelier"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 9181,
+    "durability": 60,
+    "id": "72fcd29c630",
+    "level": 480,
+    "maxQuality": 64862,
+    "name": {
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
+      "de": "Sonderbestelltes Genist-Musterstück",
+      "en": "Grade 2 Expert Skybuilders' Practice Materials",
+      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
+      "ja": "第二次復興事業用の特注習作",
+      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
     },
     "stars": 3,
     "suggestedControl": 2195,
