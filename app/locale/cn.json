@@ -14,7 +14,9 @@
 
   "Rapid Synthesis": "高速制作",
 
+  "Ingenuity": "新颖",
   "Innovation": "改革",
+  "Veneration": "崇敬",
   "Flawless Synthesis": "坚实制作",
   "Manipulation": "掌握",
 
@@ -41,6 +43,7 @@
   "Name of the Elements" : "元素之美名",
 
   "Preparatory Touch": "坯料加工",
+  "Groundwork": "坯料制作",
   "Delicate Synthesis": "精密制作",
   "Intensive Synthesis": "集中制作",
   "Trained Eye": "工匠的神速技巧",
@@ -170,7 +173,7 @@
   "RELIABILITY_OPTIONS": "可靠性（%）",
   "RELIABILITY_INFO": "使用非100％成功率的技能会降低可靠性，降低此设置将允许求解器以牺牲可靠性为代价找到可能产生更高品质的工序。（默认值：100%）",
   "LIMIT_MAX_LENGTH": "限制工序最大长度",
-  "LIMIT_MAX_LENGTH_INFO": "启用该选项将限制求解工序的最大长度。",
+  "LIMIT_MAX_LENGTH_INFO": "向超过指定限制的工序添加惩罚。请注意，这不是严格的限制！在某些条件下，求解器可能仍会生成超出限制的工序。",
   "MAX_LENGTH": "最大工序长度",
   "MAX_LENGTH_INFO": "在此设置求解工序的最大长度。",
   "ALGORITHM_OPTIONS": "算法",
