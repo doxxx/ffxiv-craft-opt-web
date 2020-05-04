@@ -167,7 +167,9 @@
     }
 
     function sequenceActionClasses(action, cls, index) {
-      var wastedAction = $scope.simulatorStatus.state && (index + 1 > $scope.simulatorStatus.state.lastStep);
+      var wastedAction = $scope.simulatorStatus.state &&
+                         $scope.simulatorStatus.state.wastedActions &&
+                         $scope.simulatorStatus.state.wastedActions.includes(index + 1);
       var cpExceeded = wastedAction && _actionsByName[action].cpCost > $scope.simulatorStatus.state.cp;
       return {
         'faded-icon': !$scope.isActionSelected(action, cls),

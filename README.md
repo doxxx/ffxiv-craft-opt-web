@@ -20,6 +20,15 @@ The node.js, browser-sync and Docker methods options will serve the website on p
 
 Note that if you're using Docker on Windows or OS X via VirtualBox, you'll have to use the IP address of the Linux VM (usually 192.168.99.100) that is hosting Docker, instead of `localhost`. The Dockerfile.dev method will mount the app source as a volume so changes will be reflected when the browser is refreshed.
 
+### Running test cases
+
+Install [node.js](https://nodejs.org/) and run:
+  * `npm install`
+  * `npm test`
+
+You can use Google Chrome to debug test cases using DevTools:
+* `npm test:watch:chrome`
+
 ### Translations
 
 Localization files can be found in `app/locale`. The `app/locale/en.json` file is purposefully missing because the English strings are used as the translation keys. Strings which require interpolation are defined in app.js so that they can be displayed immediately as a fallback until the actual locale json file finishes loading.
