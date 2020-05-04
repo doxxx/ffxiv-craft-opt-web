@@ -134,7 +134,8 @@ function runMonteCarloSim(id, settings) {
         condition: finalState.condition,
         effects: finalState.effects,
         lastStep: finalState.lastStep,
-        bonusMaxCp: finalState.bonusMaxCp
+        bonusMaxCp: finalState.bonusMaxCp,
+        wastedActions: finalState.wastedActions,
       }
     }
   };
@@ -160,4 +161,3 @@ function calculateBaseValues(id, settings) {
     },
   });
 }
-

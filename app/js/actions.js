@@ -20,6 +20,7 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
     this.onGood = onGood;
     this.onExcellent = onExcellent;
     this.onPoor = onPoor;
+    this.onFirstStepOnly = false;
 }
 
 // Actions Table
@@ -77,3 +78,7 @@ var AllActions = {
     // Special Actions - not selectable
     dummyAction: new Action(        'dummyAction',          '______________',        0,      0,  1.0, 0.0, 0.0, 'immediate',   1,  'All',           1)
 };
+
+AllActions.muscleMemory.onFirstStepOnly = true;
+AllActions.reflect.onFirstStepOnly = true;
+AllActions.trainedEye.onFirstStepOnly = true;
