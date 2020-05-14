@@ -15025,6 +15025,23 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "920cd90653f",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Synthetic Resin",
+      "de": "Werkstätten-Kunstharz",
+      "en": "Oddly Specific Synthetic Resin",
+      "fr": "Résine synthétique d'affinage",
+      "ja": "改良用の合成樹脂",
+      "ko": "Oddly Specific Synthetic Resin"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "b6bb4168475",
     "level": 430,
     "maxQuality": 9131,
@@ -15406,6 +15423,24 @@
     },
     "stars": 2,
     "suggestedControl": 1990,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "b506262a9b9",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Glass",
+      "de": "Werkstätten-Klarglasscheibe",
+      "en": "Oddly Specific Glass",
+      "fr": "Plaque de verre d'affinage",
+      "ja": "改良用のガラス板",
+      "ko": "Oddly Specific Glass"
+    },
+    "stars": 2,
     "suggestedCraftsmanship": 2140
   },
   {

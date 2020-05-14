@@ -22191,6 +22191,23 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "1c59d8f8897",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Moonbeam Silk",
+      "de": "Werkstätten-Mondgarn",
+      "en": "Oddly Specific Moonbeam Silk",
+      "fr": "Fil de soie du clair de lune d'affinage",
+      "ja": "改良用の閃糸",
+      "ko": "Oddly Specific Moonbeam Silk"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "76b02240a52",
     "level": 430,
     "maxQuality": 9131,
@@ -22692,6 +22709,24 @@
     },
     "stars": 2,
     "suggestedControl": 1990,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "93c26191232",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Velvet",
+      "de": "Werkstätten-Samt",
+      "en": "Oddly Specific Velvet",
+      "fr": "Velours d'affinage",
+      "ja": "改良用のビロード",
+      "ko": "Oddly Specific Velvet"
+    },
+    "stars": 2,
     "suggestedCraftsmanship": 2140
   },
   {
