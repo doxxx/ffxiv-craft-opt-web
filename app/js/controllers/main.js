@@ -423,7 +423,7 @@
       $scope.sequence = [];
 
       $scope.sequenceSettings = {
-		qualityOvershootFactor: 2.2,
+		overshootFactor: 2.2,
 		qualityUndershootFactor: 1,
         maxTricksUses: 0,
         maxMontecarloRuns: 500,

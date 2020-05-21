@@ -92,7 +92,7 @@
 
           <div class="row-fluid">
             <div class="span6">
-              <div class="control-group" ng-class="{error: solverOptionsForm.qualityOvershootFactor.$invalid}">
+              <div class="control-group" ng-class="{error: solverOptionsForm.overshootFactor.$invalid}">
                 <label class="control-label">{{ 'QUALITY_UNDERSHOOT_FACTOR' | translate }}</label>
 
                 <div class="controls">
@@ -103,13 +103,13 @@
                 </div>
               </div>
 			  
-              <div class="control-group" ng-class="{error: solverOptionsForm.qualityOvershootFactor.$invalid}">
-                <label class="control-label">{{ 'QUALITY_OVERSHOOT_FACTOR' | translate }}</label>
+              <div class="control-group" ng-class="{error: solverOptionsForm.overshootFactor.$invalid}">
+                <label class="control-label">{{ 'OVERSHOOT_FACTOR' | translate }}</label>
 
                 <div class="controls">
-                  <input class="input-small" type="number" name="qualityOvershootFactor"
-                         ng-model="sequenceSettings.qualityOvershootFactor" min="1.1" step="0.1" required
-                         tooltip="{{ 'QUALITY_OVERSHOOT_FACTOR_INFO' | translate }}"
+                  <input class="input-small" type="number" name="overshootFactor"
+                         ng-model="sequenceSettings.overshootFactor" min="1.1" step="0.1" required
+                         tooltip="{{ 'OVERSHOOT_FACTOR_INFO' | translate }}"
                          tooltip-placement="right"/>
                 </div>
               </div>

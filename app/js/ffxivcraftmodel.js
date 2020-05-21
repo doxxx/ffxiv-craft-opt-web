@@ -62,14 +62,14 @@ function Recipe(baseLevel, level, difficulty, durability, startQuality, maxQuali
     this.suggestedControl = suggestedControl || SuggestedControl[this.level];
 }
 
-function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, maxLength, qualityOvershootFactor, qualityUndershootFactor) {
+function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, maxLength, overshootFactor, qualityUndershootFactor) {
     this.crafter = crafter;
     this.recipe = recipe;
     this.maxTrickUses = maxTrickUses;
     this.useConditions = useConditions;
     this.reliabilityIndex = reliabilityIndex;
     this.maxLength = maxLength;
-	this.qualityOvershootFactor = qualityOvershootFactor;
+	this.overshootFactor = overshootFactor;
 	this.qualityUndershootFactor = qualityUndershootFactor;
 }
 
@@ -535,7 +535,7 @@ function UpdateState(s, action, progressGain, qualityGain, durabilityCost, cpCos
     s.progressState += progressGain;
     s.qualityState += qualityGain;
 	
-	if (s.qualityState > (s.synth.recipe.maxQuality * s.synth.qualityOvershootFactor)) {
+	if (s.qualityState > (s.synth.recipe.maxQuality * s.synth.overshootFactor)) {
 		s.qualityOvershoots += 1;
 	}
 	
@@ -1291,7 +1291,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 	var quality = result.qualityState;
 	
 	//if (result.qualityState > mySynth.recipe.maxQuality) {
-	//	quality = (mySynth.recipe.maxQuality * mySynth.qualityOvershootFactor) - result.qualityState;
+	//	quality = (mySynth.recipe.maxQuality * mySynth.overshootFactor) - result.qualityState;
 	//}
 
     if (!chk.durabilityOk) {
@@ -1323,12 +1323,15 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
     fitness += result.qualityState;
     fitness -= penaltyWeight * penalties;
+    fitnessProg += result.progressState;
 	
-	if (result.qualityState > mySynth.recipe.maxQuality * mySynth.qualityOvershootFactor) {
+	if (result.qualityState > mySynth.recipe.maxQuality * mySynth.overshootFactor) {
 		fitness = 0;
 	}
 	
-    fitnessProg += result.progressState;
+	if (result.progressState > mySynth.recipe.difficulty * mySynth.overshootFactor) {
+		fitnessProg = 0;
+	}
 
     return [fitness, fitnessProg, result.cpState, individual.length];
 }
