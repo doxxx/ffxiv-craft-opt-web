@@ -590,7 +590,10 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
 
     var SimCondition = {
         checkGoodOrExcellent: function () {
-            return true;
+			if (ignoreConditionReq) {
+				return true;
+			}
+			return (s.condition == 'Good' || s.condition == 'Excellent');
         },
         pGoodOrExcellent: function () {
             if (ignoreConditionReq) {
@@ -1288,9 +1291,9 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 	
 	var quality = result.qualityState;
 	
-	if (result.qualityState > mySynth.recipe.maxQuality) {
-		quality = (mySynth.recipe.maxQuality * mySynth.qualityOvershootFactor) - result.qualityState;
-	}
+	//if (result.qualityState > mySynth.recipe.maxQuality) {
+	//	quality = (mySynth.recipe.maxQuality * mySynth.qualityOvershootFactor) - result.qualityState;
+	//}
 
     if (!chk.durabilityOk) {
        penalties += Math.abs(result.durabilityState);
@@ -1321,6 +1324,11 @@ function evalSeq(individual, mySynth, penaltyWeight) {
 
     fitness += result.qualityState;
     fitness -= penaltyWeight * penalties;
+	
+	if (result.qualityState > mySynth.recipe.maxQuality) {
+		fitness = 0;
+	}
+	
     fitnessProg += result.progressState;
 
     return [fitness, fitnessProg, result.cpState, individual.length];
