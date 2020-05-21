@@ -51,6 +51,10 @@
     // State Parameter Handling
     //
 
+	$scope.$on('synth.reset', function(){
+		resetSolver();
+	});
+
     if ($stateParams.autoStart) {
       resetSolver();
       startSolver();
@@ -77,6 +81,8 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: sequence,
+        qualityOvershootFactor: $scope.sequenceSettings.qualityOvershootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
@@ -107,6 +113,8 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: sequence,
+        qualityOvershootFactor: $scope.sequenceSettings.qualityOvershootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
@@ -158,6 +166,8 @@
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: sequence,
         algorithm: $scope.solver.algorithm,
+        qualityOvershootFactor: $scope.sequenceSettings.qualityOvershootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
@@ -200,7 +210,7 @@
       var newSeq = $scope.pageState.solverStatus.sequence;
       if (newSeq instanceof Array && newSeq.length > 0) {
         $scope.$emit('update.sequence', newSeq);
-        $state.go('simulator');
+        $state.go('simulator', {editImmediately: true});
       }
     }
 

@@ -53,9 +53,9 @@ function setupSim(settings) {
       settings.recipe.durability, settings.recipe.startQuality, settings.recipe.maxQuality,
       settings.recipe.suggestedCraftsmanship, settings.recipe.suggestedControl);
   var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent / 100.0,
-    settings.useConditions, 0);
+    settings.useConditions, 0, settings.qualityOvershootFactor, settings.qualityUndershootFactor);
   var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent / 100.0,
-    false, 0);
+    false, 0, settings.qualityOvershootFactor, settings.qualityUndershootFactor);
 
   var startState = NewStateFromSynth(synth);
   var startStateNoConditions = NewStateFromSynth(synthNoConditions);

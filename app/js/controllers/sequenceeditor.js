@@ -127,6 +127,7 @@
 
     function clear() {
       $scope.editSequence = [];
+	  $scope.$emit('reset.sequence');
     }
 
     function revert() {

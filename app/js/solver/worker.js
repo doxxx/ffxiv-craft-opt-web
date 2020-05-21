@@ -76,6 +76,8 @@ Recipe:\n\
   Max Quality: %d\n\
 \n\
 Settings:\n\
+  Quality Overshoot Factor: %d\n\
+  Quality Undershoot Factor: %d\n\
   Max Tricks Uses: %d\n\
   Reliability: %d%%\n\
   Use Conditions: %s\n\
@@ -96,6 +98,8 @@ Settings:\n\
     settings.recipe.durability,
     settings.recipe.startQuality,
     settings.recipe.maxQuality,
+    settings.qualityOvershootFactor,
+    settings.qualityUndershootFactor,
     settings.maxTricksUses,
     settings.reliabilityPercent,
     settings.useConditions ? "true" : "false",
@@ -146,9 +150,9 @@ Settings:\n\
       settings.recipe.durability, settings.recipe.startQuality, settings.recipe.maxQuality,
       settings.recipe.suggestedCraftsmanship, settings.recipe.suggestedControl);
   var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0,
-    settings.useConditions, settings.maxLength);
+    settings.useConditions, settings.maxLength, settings.qualityOvershootFactor, settings.qualityUndershootFactor);
   var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false,
-    settings.maxLength);
+    settings.maxLength, settings.qualityOvershootFactor, settings.qualityUndershootFactor);
 
   var sequence = [];
 

@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('SimulatorController', controller);
 
-  function controller($scope, $filter, $modal, $rootScope, $translate, $timeout, $state, _recipeLibrary, _simulator,
+  function controller($scope, $filter, $modal, $rootScope, $translate, $timeout, $state, $stateParams, _recipeLibrary, _simulator,
     _actionsByName, _bonusStats)
   {
     // Global page state
@@ -81,6 +81,8 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: $scope.sequence,
+        qualityOvershootFactor: $scope.sequenceSettings.qualityOvershootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
@@ -114,6 +116,8 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: $scope.sequence,
+        qualityOvershootFactor: $scope.sequenceSettings.qualityOvershootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
@@ -139,6 +143,8 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: $scope.sequence,
+        qualityOvershootFactor: $scope.sequenceSettings.qualityOvershootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
@@ -183,6 +189,13 @@
           $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings);
       });
     }
+	
+	$scope.editSequenceInline = editSequenceInline;
+	
+	if ($stateParams.editImmediately) {
+		$scope.editSequenceInline();
+	}
+
 
     //
     // State Transitions

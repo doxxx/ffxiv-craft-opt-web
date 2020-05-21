@@ -22,12 +22,16 @@
       cp: 0,
       startQuality: 0,
       food: {},
-      medicine: {}
+      medicine: {},
+      actions: ['basicSynth']
     }
   }
 
   function addCrafterBonusStats(crafter, bonusStats) {
     var r = angular.copy(crafter);
+	if (crafter === undefined) {
+		return newBonusStats();
+	}
     if (bonusStats.food) {
       r = sumCrafterBonusStats(r, calculateBuffBonusStats(crafter, bonusStats.food));
     }
