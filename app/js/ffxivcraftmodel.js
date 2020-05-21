@@ -688,8 +688,6 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
         s.action = action.shortName
     }
 
-	printResultsLog(s, logger);
-
     // Return final state
     s.action = individual[individual.length-1].shortName;
     return s;
@@ -964,7 +962,7 @@ function MonteCarloSequence(individual, startState, assumeSuccess, conditionalAc
         }
     }
 
-	if (debug) {
+	if (debug && verbose) {
 		printResultsLog(s, logger);
 	}
 
@@ -1073,7 +1071,8 @@ function MonteCarloSim(individual, synth, nRuns, assumeSuccess, conditionalActio
 
     logger.log("Monte Carlo Random Example");
     logger.log("==========================");
-    MonteCarloSequence(individual, startState, assumeSuccess, conditionalActionHandling, false, true, logOutput);
+    var s = MonteCarloSequence(individual, startState, assumeSuccess, conditionalActionHandling, false, true, logOutput);
+	printResultsLog(s[s.length-1], logger);
 
     logger.log('');
 
@@ -1325,7 +1324,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     fitness += result.qualityState;
     fitness -= penaltyWeight * penalties;
 	
-	if (result.qualityState > mySynth.recipe.maxQuality) {
+	if (result.qualityState > mySynth.recipe.maxQuality * mySynth.qualityOvershootFactor) {
 		fitness = 0;
 	}
 	
