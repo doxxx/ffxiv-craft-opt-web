@@ -5,7 +5,7 @@
       <form class="form-inline">
         <div class="dropdown">
           <div class="input-append">
-            <span class="input-small uneditable-input">{{recipe.cls | translate}}</span>
+            <span class="input-med uneditable-input">{{recipe.cls | translate}}</span>
 
             <div class="btn-group">
               <button class="btn dropdown-toggle"><span class="caret"></span></button>
@@ -18,7 +18,7 @@
 
         <div class="my-dropdown" id="recipe-menu-root" >
           <div class="input-append">
-            <span class="span4 uneditable-input my-dropdown-toggle">{{recipe.name}}</span>
+            <span class="span4 uneditable-input my-dropdown-toggle">[{{recipe.baseLevel}}{{'*'.repeat(recipe.stars)}}] {{recipe.name}}</span>
 
             <div class="btn-group">
               <button class="btn my-dropdown-toggle"><span class="caret"></span></button>
@@ -53,7 +53,7 @@
     </div>
     <div class="row-fluid">
         <h5>{{ 'INITIAL_GUESS' | translate }}</h5>
-        <action-sequence class="sequence-small" cls="recipe.cls" actions="sequence"
+        <action-sequence cls="recipe.cls" actions="sequence"
                          action-classes="sequenceActionClasses"
                          tooltip-placement="right"></action-sequence>
     </div>
@@ -79,7 +79,7 @@
             </button>
             <button class="btn" ng-click="showOptionsModal()">{{ 'OPTIONS' | translate }}</button>
         </div>
-    </div>	
+    </div>
     <div class="row-fluid">
         <div ng-show="pageState.solverStatus.running">
             <h5>{{ 'WORKING_IN_PROGRESS' | translate }}</h5>
@@ -91,7 +91,7 @@
                 </progressbar>
             </div>
         </div>
-        <div ng-show="!pageState.solverStatus.running">
+        <div ng-show="!pageState.solverStatus.running || !equivalentSequence()">
             <h5>{{ 'SOLVER_RESULT' | translate }}
                 <small ng-show="equivalentSequence()">{{ 'NO_CHANGE' | translate }}</small>
             </h5>

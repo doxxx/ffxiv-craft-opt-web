@@ -74,7 +74,6 @@ Recipe:\n\
   Durability: %d\n\
   Start Quality: %d\n\
   Max Quality: %d\n\
-  Aspect: %s\n\
 \n\
 Settings:\n\
   Max Tricks Uses: %d\n\
@@ -97,7 +96,6 @@ Settings:\n\
     settings.recipe.durability,
     settings.recipe.startQuality,
     settings.recipe.maxQuality,
-    settings.recipe.aspect || "none",
     settings.maxTricksUses,
     settings.reliabilityPercent,
     settings.useConditions ? "true" : "false",
@@ -144,12 +142,9 @@ Settings:\n\
                             settings.crafter.cp,
                             settings.crafter.specialist,
                             crafterActions);
-  var recipe = new Recipe(settings.recipe.level,
-                          settings.recipe.difficulty,
-                          settings.recipe.durability,
-                          settings.recipe.startQuality,
-                          settings.recipe.maxQuality,
-                          settings.recipe.aspect);
+  var recipe = new Recipe(settings.recipe.baseLevel, settings.recipe.level, settings.recipe.difficulty,
+      settings.recipe.durability, settings.recipe.startQuality, settings.recipe.maxQuality,
+      settings.recipe.suggestedCraftsmanship, settings.recipe.suggestedControl);
   var synth = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0,
     settings.useConditions, settings.maxLength);
   var synthNoConditions = new Synth(crafter, recipe, settings.maxTricksUses, settings.reliabilityPercent/100.0, false,

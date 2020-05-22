@@ -1,77 +1,48 @@
 {
   "Locale_Mark": "_fr",
 	
-  "Advanced Touch": "Ouvrage avancé",
   "Standard Synthesis": "Travail standard",
-  "Master's Mend II": "Réparation de maître II",
   "Great Strides": "Grands progrès",
   "Standard Touch": "Ouvrage standard",
   "Observe": "Observation",
   "Inner Quiet": "Calme intérieur",
-  "Steady Hand": "Main sûre",
   "Master's Mend": "Réparation de maître",
   "Basic Touch": "Ouvrage de base",
   "Basic Synthesis": "Travail de base",
 
   "Byregot's Blessing": "Bénédiction de Byregot",
-  "Rumination": "Relaxation",
 
-  "Ingenuity II": "Ingéniosité II",
-  "Ingenuity": "Ingéniosité",
-
-  "Piece by Piece": "Pièce par pièce",
   "Rapid Synthesis": "Travail rapide",
 
-  "Innovation": "Innovation",
   "Flawless Synthesis": "Travail sérieux",
   "Manipulation": "Manipulation",
 
-  "Waste Not II": "Parcimonie II",
+  "Waste Not II": "Parcimonie pérenne",
   "Waste Not": "Parcimonie",
 
-  "Careful Synthesis II": "Travail prudent II",
   "Careful Synthesis": "Travail prudent",
 
-  "Comfort Zone": "Zone de confort",
   "Tricks of the Trade": "Ficelles du métier",
 
-  "Reclaim": "Récupération",
-  "Steady Hand II": "Main sûre II",
   "Hasty Touch": "Ouvrage hâtif",
 
   "Precise Touch": "Ouvrage précis",
-  "Maker's Mark": "Marque du fabricant",
   "Muscle Memory": "Mémoire musculaire",
 
-  "Whistle While You Work": "Siffler en travaillant",
-  "Satisfaction": "Satisfaction",
-  "Innovative Touch": "Toucher innovant",
-  "Nymeia's Wheel": "Rouet de Nymeia",
-  "Byregot's Miracle": "Miracle de Byregot",
-  "Trained Hand": "Main experte",
+  "Rapid Synthesis II": "Travail rapide II",
+  "Patient Touch": "Ouvrage appliqué",
+  "Prudent Touch": "Ouvrage parcimonieux",
+  "Focused Synthesis": "Travail attentif",
+  "Focused Touch": "Ouvrage attentif",
+  "Reflect": "Véritable valeur",
 
   "Brand of the Elements" : "Marque des éléments",
   "Name of the Elements" : "Nom des éléments",
 
-  "Finishing Touches": "Touche finale",
-
-  "Hasty Touch II": "Ouvrage hâtif II",
-  "Careful Synthesis III": "Travail prudent III",
-  "Rapid Synthesis II": "Travail rapide II",
-  "Patient Touch": "Ouvrage appliqué",
-  "Manipulation II": "Manipulation II",
-  "Prudent Touch": "Ouvrage parcimonieux",
-  "Focused Synthesis": "Travail attentif",
-  "Focused Touch": "Ouvrage attentif",
-  "Initial Preparations": "Préparatifs initiaux",
-  "Specialty: Reinforce": "Atout : Consolidation",
-  "Specialty: Refurbish": "Atout : Réconfort",
-  "Specialty: Reflect": "Atout : Sérénité",
-
   "Preparatory Touch": "Ouvrage préparatoire",
-  "Rapid Synthesis III": "Travail rapide III",
   "Delicate Synthesis": "Travail minutieux",
   "Intensive Synthesis": "Travail vigilant",
+  "Trained Eye": "Main preste",
 
   "Carpenter": "Menuisier",
   "Blacksmith": "Forgeron",
@@ -195,7 +166,7 @@
   "RELIABILITY_OPTIONS": "Fiabilité (en %) : ",
   "RELIABILITY_INFO": "Probabilité que la synthèse termine complètement sa progression. Utiliser des actions qui n'ont pas 100% de chance de réussite réduit ce pourcentage. Diminuer ce chiffre permettra au simulateur de trouver des séquences qui peuvent aboutir à une meilleure qualité mais dont la chance de réussite risque de diminuer.",
   "LIMIT_MAX_LENGTH": "Longueur maximale",
-  "LIMIT_MAX_LENGTH_INFO": "Activer la limitation de séquence à un nombre maximum d'actions.",
+  "LIMIT_MAX_LENGTH_INFO": "Ajoute une pénalité aux séquences dépassant la limite spécifiée. Sous certaines conditions, le solveur peut toujours générer une séquence qui dépasse la limite.",
   "MAX_LENGTH": "Maximum",
   "MAX_LENGTH_INFO": "Nombre maximum d'actions par séquence.",
   "ALGORITHM_OPTIONS": "Algorithme :",
