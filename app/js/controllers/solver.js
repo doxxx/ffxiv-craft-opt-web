@@ -12,6 +12,7 @@
         solverStatus: {
           running: false,
           isAutorun: false,
+          isStoppingAutorun: false,
           generationsCompleted: 0,
           maxGenerations: 0,
           state: null,
@@ -21,6 +22,7 @@
             ga: '',
             mc: ''
           },
+          bestSequence: [],
           sequence: [],
           error: null
         }
@@ -92,10 +94,10 @@
     }
 
     function monteCarloSimSuccess(data) {
+      console.log("monteCarloSimSuccess")
       $scope.pageState.solverStatus.error = null;
       $scope.pageState.solverStatus.state = data.state;
       $scope.pageState.solverStatus.logs.mc = data.log;
-
       runProbabilisticSim(data.sequence);
     }
 
@@ -134,9 +136,10 @@
       $scope.pageState.solverStatus.sequence = data.bestSequence;
 
       if ($scope.pageState.solverStatus.isAutorun) {
-        if ($scope.pageState.bestState == null || data.state.quality > $scope.pageState.bestState.quality) {
+        if ($scope.pageState.solverStatus.bestState == null || data.state.quality > $scope.pageState.solverStatus.bestState.quality) {
           console.log("New best quality: " + data.state.quality);
-          $scope.pageState.bestState = data.state;
+          $scope.pageState.solverStatus.bestState = data.state;
+          $scope.pageState.solverStatus.bestSequence = data.bestSequence;
         }
       }
     }
@@ -146,7 +149,15 @@
       $scope.pageState.solverStatus.error = null;
       $scope.pageState.solverStatus.logs.execution = data.executionLog;
       $scope.pageState.solverStatus.sequence = data.bestSequence;
-      runMonteCarloSim(data.bestSequence);
+
+      if ($scope.pageState.solverStatus.isStoppingAutorun) {
+        $scope.pageState.solverStatus.isStoppingAutorun = false;
+        $scope.pageState.solverStatus.state = $scope.pageState.solverStatus.bestState
+        $scope.pageState.solverStatus.sequence = $scope.pageState.solverStatus.bestSequence
+        runMonteCarloSim($scope.pageState.solverStatus.sequence);
+      }
+      else
+        runMonteCarloSim(data.bestSequence);
 
       if ($scope.pageState.solverStatus.isAutorun) {
         resetSolver();
@@ -166,6 +177,7 @@
 
     function autorunSolver() {
       $scope.pageState.solverStatus.bestState = null;
+      $scope.pageState.solverStatus.bestSequence = [];
       resetSolver();
       startSolver(true);
     }
@@ -215,8 +227,14 @@
     }
 
     function stopSolver() {
-      $scope.pageState.solverStatus.isAutorun = false;
-      _solver.stop();
+      if ($scope.pageState.solverStatus.isAutorun)
+      {
+        $scope.pageState.solverStatus.isAutorun = false;
+        $scope.pageState.solverStatus.isStoppingAutorun = true;
+        _solver.stop();
+      }
+      else
+        _solver.stop();
     }
 
     function useSolverResult() {
