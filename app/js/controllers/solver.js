@@ -94,7 +94,6 @@
     }
 
     function monteCarloSimSuccess(data) {
-      console.log("monteCarloSimSuccess")
       $scope.pageState.solverStatus.error = null;
       $scope.pageState.solverStatus.state = data.state;
       $scope.pageState.solverStatus.logs.mc = data.log;
@@ -137,7 +136,7 @@
 
       if ($scope.pageState.solverStatus.isAutorun) {
         if ($scope.pageState.solverStatus.bestState == null || data.state.quality > $scope.pageState.solverStatus.bestState.quality) {
-          console.log("New best quality: " + data.state.quality);
+          //console.log("New best quality: " + data.state.quality);
           $scope.pageState.solverStatus.bestState = data.state;
           $scope.pageState.solverStatus.bestSequence = data.bestSequence;
         }
