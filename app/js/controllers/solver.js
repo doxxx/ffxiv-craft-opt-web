@@ -11,9 +11,11 @@
       angular.extend($scope.pageState, {
         solverStatus: {
           running: false,
+          isAutorun: false,
           generationsCompleted: 0,
           maxGenerations: 0,
           state: null,
+          bestState: null,
           logs: {
             execution: '',
             ga: '',
@@ -40,6 +42,7 @@
     $scope.startSolver = startSolver;
     $scope.resetSolver = resetSolver;
     $scope.resumeSolver = resumeSolver;
+    $scope.autorunSolver = autorunSolver;
     $scope.stopSolver = stopSolver;
     $scope.useSolverResult = useSolverResult;
     $scope.equivalentSequence = equivalentSequence;
@@ -129,6 +132,13 @@
       $scope.pageState.solverStatus.error = null;
       $scope.pageState.solverStatus.state = data.state;
       $scope.pageState.solverStatus.sequence = data.bestSequence;
+
+      if ($scope.pageState.solverStatus.isAutorun) {
+        if ($scope.pageState.bestState == null || data.state.quality > $scope.pageState.bestState.quality) {
+          console.log("New best quality: " + data.state.quality);
+          $scope.pageState.bestState = data.state;
+        }
+      }
     }
 
     function solverSuccess(data) {
@@ -136,12 +146,17 @@
       $scope.pageState.solverStatus.error = null;
       $scope.pageState.solverStatus.logs.execution = data.executionLog;
       $scope.pageState.solverStatus.sequence = data.bestSequence;
-
       runMonteCarloSim(data.bestSequence);
+
+      if ($scope.pageState.solverStatus.isAutorun) {
+        resetSolver();
+        startSolver(true);
+      }
     }
 
     function solverError(data) {
       $scope.pageState.solverStatus.running = false;
+      $scope.pageState.solverStatus.isAutorun = false;
 
       $scope.pageState.solverStatus.error = data.error;
       $scope.pageState.solverStatus.state = data.state;
@@ -149,7 +164,13 @@
       $scope.pageState.solverStatus.sequence = [];
     }
 
-    function startSolver() {
+    function autorunSolver() {
+      $scope.pageState.solverStatus.bestState = null;
+      resetSolver();
+      startSolver(true);
+    }
+
+    function startSolver(autorun = false) {
       var sequence = $scope.pageState.solverStatus.sequence;
       if (sequence.length === 0) sequence = $scope.sequence;
 
@@ -170,6 +191,7 @@
         settings.seed = $scope.sequenceSettings.seed;
       }
       $scope.pageState.solverStatus.running = true;
+      $scope.pageState.solverStatus.isAutorun = autorun;
       _solver.start(settings, solverProgress, solverSuccess, solverError);
     }
 
@@ -193,6 +215,7 @@
     }
 
     function stopSolver() {
+      $scope.pageState.solverStatus.isAutorun = false;
       _solver.stop();
     }
 
