@@ -167,6 +167,7 @@
     function solverError(data) {
       $scope.pageState.solverStatus.running = false;
       $scope.pageState.solverStatus.isAutorun = false;
+      $scope.pageState.solverStatus.isStoppingAutorun = false;
 
       $scope.pageState.solverStatus.error = data.error;
       $scope.pageState.solverStatus.state = data.state;
