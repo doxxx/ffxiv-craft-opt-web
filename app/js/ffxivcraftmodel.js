@@ -514,6 +514,9 @@ function UpdateEffectCounters(s, action, condition, successProbability) {
                 s.wastedActions += 1;
             }
         }
+        else if (action.shortName === AllActions.muscleMemory.shortName && s.step != 1) {
+          s.wastedActions += 1;
+        }
         else {
             s.effects.countDowns[action.shortName] = action.activeTurns;
         }
