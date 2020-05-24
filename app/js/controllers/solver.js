@@ -153,6 +153,7 @@
         $scope.pageState.solverStatus.isStoppingAutorun = false;
         $scope.pageState.solverStatus.state = $scope.pageState.solverStatus.bestState
         $scope.pageState.solverStatus.sequence = $scope.pageState.solverStatus.bestSequence
+        useSolverResult();
         runMonteCarloSim($scope.pageState.solverStatus.sequence);
       }
       else
