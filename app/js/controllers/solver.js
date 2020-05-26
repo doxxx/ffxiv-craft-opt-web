@@ -87,6 +87,7 @@
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
+        guaranteedSkillsOnly: $scope.sequenceSettings.guaranteedSkillsOnly,
         //overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
         debug: $scope.sequenceSettings.debug
       };
@@ -120,6 +121,7 @@
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         monteCarloMode: $scope.sequenceSettings.monteCarloMode,
         useConditions: $scope.sequenceSettings.useConditions,
+        guaranteedSkillsOnly: $scope.sequenceSettings.guaranteedSkillsOnly,
         conditionalActionHandling: $scope.sequenceSettings.conditionalActionHandling,
         debug: $scope.sequenceSettings.debug
       };
@@ -172,6 +174,7 @@
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
+        guaranteedSkillsOnly: $scope.sequenceSettings.guaranteedSkillsOnly,
         maxLength: $scope.sequenceSettings.maxLengthEnabled ? $scope.sequenceSettings.maxLength : 0,
         solver: $scope.solver,
         debug: $scope.sequenceSettings.debug

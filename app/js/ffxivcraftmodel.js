@@ -62,7 +62,7 @@ function Recipe(baseLevel, level, difficulty, durability, startQuality, maxQuali
     this.suggestedControl = suggestedControl || SuggestedControl[this.level];
 }
 
-function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, maxLength, overshootFactor, qualityUndershootFactor) {
+function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, maxLength, overshootFactor, qualityUndershootFactor, guaranteedSkillsOnly) {
     this.crafter = crafter;
     this.recipe = recipe;
     this.maxTrickUses = maxTrickUses;
@@ -71,6 +71,7 @@ function Synth(crafter, recipe, maxTrickUses, reliabilityIndex, useConditions, m
     this.maxLength = maxLength;
 	this.overshootFactor = overshootFactor;
 	this.qualityUndershootFactor = qualityUndershootFactor;
+	this.guaranteedSkillsOnly = guaranteedSkillsOnly;
 }
 
 Synth.prototype.calculateBaseProgressIncrease = function (levelDifference, craftsmanship) {

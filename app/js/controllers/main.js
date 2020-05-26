@@ -434,6 +434,7 @@
         seed: 1337,
         monteCarloMode: 'macro',
         useConditions: true,
+        guaranteedSkillsOnly: false,
         conditionalActionHandling: 'skipUnusable',
         debug: false
       };
