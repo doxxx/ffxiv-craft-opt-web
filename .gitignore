@@ -7,5 +7,9 @@ tmp
 *.iml
 Thumbs.db
 /app/.vs
+.vs
 package-lock.json
 *.zip
+*.njsproj
+*.njsproj.user
+*.sln

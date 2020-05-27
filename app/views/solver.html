@@ -61,21 +61,29 @@
         <div class="control-group">
             <button class="btn btn-primary" ng-click="startSolver()"
                     ng-show="!pageState.solverStatus.state && !pageState.solverStatus.running"
-                    ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">{{ 'SOLVER_START' | translate }}
+                    ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls)">
+                {{ 'SOLVER_START' | translate }}
             </button>
-            <button class="btn btn-primary" ng-click="stopSolver()" ng-show="pageState.solverStatus.running">{{'SOLVER_STOP' | translate}}
+            <button class="btn btn-primary" ng-click="stopSolver()" ng-show="pageState.solverStatus.running">
+                {{'SOLVER_STOP' | translate}}
             </button>
             <button class="btn btn-primary" ng-click="resumeSolver()"
                     ng-show="pageState.solverStatus.state && !pageState.solverStatus.running"
                     ng-disabled="!allForms.$valid || !pageState.solverStatus.state || !isValidSequence(pageState.solverStatus.sequence, recipe.cls) || pageState.solverStatus.error">
                 {{ 'SOLVER_CONTINUE' | translate }}
             </button>
+            <button class="btn btn-primary" ng-click="autorunSolver()"
+                    ng-disabled="!allForms.$valid || !isValidSequence(sequence, recipe.cls) || pageState.solverStatus.running">
+                {{ 'SOLVER_AUTORUN' | translate }}
+            </button>
             <button class="btn btn-danger" ng-click="resetSolver()"
-                    ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.state">{{ 'SOLVER_RESET' | translate }}
+                    ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.state">
+                {{ 'SOLVER_RESET' | translate }}
             </button>
             <button class="btn btn-warning"
                     ng-disabled="pageState.solverStatus.running || !pageState.solverStatus.sequence || pageState.solverStatus.sequence.length === 0 || equivalentSequence()"
-                    ng-click="useSolverResult()">{{ 'SOLVER_EDIT_SIMULATOR' | translate }}
+                    ng-click="useSolverResult()">
+                {{ 'SOLVER_EDIT_SIMULATOR' | translate }}
             </button>
             <button class="btn" ng-click="showOptionsModal()">{{ 'OPTIONS' | translate }}</button>
         </div>
