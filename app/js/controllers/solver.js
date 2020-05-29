@@ -163,26 +163,20 @@
       var sequence = $scope.pageState.solverStatus.sequence;
       if (sequence.length === 0) sequence = $scope.sequence;
 
-      var settings = {
+      var settings = _.merge({
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: sequence,
         algorithm: $scope.solver.algorithm,
-        overshootFactor: $scope.sequenceSettings.overshootFactor,
-        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
-        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
-        useConditions: $scope.sequenceSettings.useConditions,
-        guaranteedSkillsOnly: $scope.sequenceSettings.guaranteedSkillsOnly,
-        maxLength: $scope.sequenceSettings.maxLengthEnabled ? $scope.sequenceSettings.maxLength : 0,
-        solver: $scope.solver,
-        debug: $scope.sequenceSettings.debug
-      };
+        solver: $scope.solver
+      }, $scope.sequenceSettings);
+
       if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
       }
+
       $scope.pageState.solverStatus.running = true;
+
       _solver.start(settings, solverProgress, solverSuccess, solverError);
     }
 
