@@ -15626,6 +15626,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 80,
+    "id": "7357b87dbbd",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Wire",
+      "de": "Werkstätten-Draht",
+      "en": "Oddly Specific Wire",
+      "fr": "Fil de fer d'affinage",
+      "ja": "改良用のワイヤー",
+      "ko": "Oddly Specific Wire"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 60,
     "id": "ac1adf96644",
     "level": 430,
@@ -16018,6 +16035,24 @@
     },
     "stars": 2,
     "suggestedControl": 1990,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "af91eefbcf4",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Chainmail Sheet",
+      "de": "Werkstätten-Ringplatte",
+      "en": "Oddly Specific Chainmail Sheet",
+      "fr": "Cadène d'affinage",
+      "ja": "改良用のチェーンプレート",
+      "ko": "Oddly Specific Chainmail Sheet"
+    },
+    "stars": 2,
     "suggestedCraftsmanship": 2140
   },
   {

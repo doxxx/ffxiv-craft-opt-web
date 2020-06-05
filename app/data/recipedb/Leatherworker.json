@@ -22071,6 +22071,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 80,
+    "id": "9571475cb4d",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Leather",
+      "de": "Gegerbtes Werkstätten-Leder",
+      "en": "Oddly Specific Leather",
+      "fr": "Cuir d'affinage",
+      "ja": "改良用のなめし革",
+      "ko": "Oddly Specific Leather"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 60,
     "id": "e576a643307",
     "level": 430,
@@ -22602,6 +22619,24 @@
     },
     "stars": 2,
     "suggestedControl": 1990,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "bb8187cd885",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Vellum",
+      "de": "Werkstätten-Pergament",
+      "en": "Oddly Specific Vellum",
+      "fr": "Parchemin d'affinage",
+      "ja": "改良用の羊皮紙",
+      "ko": "Oddly Specific Vellum"
+    },
+    "stars": 2,
     "suggestedCraftsmanship": 2140
   },
   {
