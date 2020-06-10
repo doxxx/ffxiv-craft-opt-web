@@ -5,7 +5,7 @@
     .module('ffxivCraftOptWeb.controllers')
     .controller('SimulatorController', controller);
 
-  function controller($scope, $filter, $modal, $rootScope, $translate, $timeout, $state, _recipeLibrary, _simulator,
+  function controller($scope, $filter, $modal, $rootScope, $translate, $timeout, $state, $stateParams, _recipeLibrary, _simulator,
     _actionsByName, _bonusStats)
   {
     // Global page state
@@ -81,11 +81,14 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: $scope.sequence,
+        overshootFactor: $scope.sequenceSettings.overshootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         monteCarloMode: $scope.sequenceSettings.monteCarloMode,
         useConditions: $scope.sequenceSettings.useConditions,
+        guaranteedSkillsOnly: $scope.sequenceSettings.guaranteedSkillsOnly,
         conditionalActionHandling: $scope.sequenceSettings.conditionalActionHandling,
         debug: $scope.sequenceSettings.debug
       };
@@ -114,10 +117,13 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: $scope.sequence,
+        overshootFactor: $scope.sequenceSettings.overshootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
+        guaranteedSkillsOnly: $scope.sequenceSettings.guaranteedSkillsOnly,
         //overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
         debug: $scope.sequenceSettings.debug,
       };
@@ -139,10 +145,13 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: $scope.sequence,
+        overshootFactor: $scope.sequenceSettings.overshootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
+        guaranteedSkillsOnly: $scope.sequenceSettings.guaranteedSkillsOnly,
         //overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
         debug: $scope.sequenceSettings.debug,
       };
@@ -183,6 +192,13 @@
           $scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats, $scope.sequenceSettings);
       });
     }
+	
+	$scope.editSequenceInline = editSequenceInline;
+	
+	if ($stateParams.editImmediately) {
+		$scope.editSequenceInline();
+	}
+
 
     //
     // State Transitions

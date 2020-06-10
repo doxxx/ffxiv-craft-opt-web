@@ -10888,12 +10888,12 @@
     "level": 255,
     "maxQuality": 4188,
     "name": {
-      "cn": "东洋雕花门",
+      "cn": "Hingan Door (Mokuzo)",
       "de": "Hinganische Mokuzo-Tür",
-      "en": "Hingan Mokuzo Door",
+      "en": "Hingan Door (Mokuzo)",
       "fr": "Porte hingashienne (mokuzo)",
       "ja": "白銀木造扉",
-      "ko": "동방의 목조 현관문"
+      "ko": "Hingan Door (Mokuzo)"
     },
     "suggestedCraftsmanship": 1006
   },
@@ -11734,6 +11734,23 @@
     "baseLevel": 66,
     "difficulty": 1808,
     "durability": 80,
+    "id": "35ed2a7aebf",
+    "level": 279,
+    "maxQuality": 5194,
+    "name": {
+      "cn": "Hingan Fence (Nanpu)",
+      "de": "Hinganischer Nanpu-Zaun",
+      "en": "Hingan Fence (Nanpu)",
+      "fr": "Muret hingashien (nanpu)",
+      "ja": "白銀南風塀",
+      "ko": "Hingan Fence (Nanpu)"
+    },
+    "suggestedCraftsmanship": 1056
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1808,
+    "durability": 80,
     "id": "61d6dddd186",
     "level": 279,
     "maxQuality": 5194,
@@ -11795,23 +11812,6 @@
       "fr": "Fenêtre à lancette hingashienne",
       "ja": "白銀鐘形窓",
       "ko": "동방의 뾰족 창문"
-    },
-    "suggestedCraftsmanship": 1056
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 1808,
-    "durability": 80,
-    "id": "35ed2a7aebf",
-    "level": 279,
-    "maxQuality": 5194,
-    "name": {
-      "cn": "东洋镶金围墙",
-      "de": "Hinganischer Nanpu-Zaun",
-      "en": "Hingan Nanpu Fence",
-      "fr": "Muret hingashien (nanpu)",
-      "ja": "白銀南風塀",
-      "ko": "동방의 남방식 담장"
     },
     "suggestedCraftsmanship": 1056
   },
@@ -15011,6 +15011,40 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "c487a84ca56",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Mahogany Aqueduct",
+      "de": "Mahagoni-Aquädukt",
+      "en": "Mahogany Aqueduct",
+      "fr": "Aqueduc en acajou",
+      "ja": "マホガニーアキダクト",
+      "ko": "Mahogany Aqueduct"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "fa41b2bbb4a",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Petrified Orb",
+      "de": "Versteinerte Werkstätten-Sphäre",
+      "en": "Oddly Specific Petrified Orb",
+      "fr": "Bille de bois pétrifié d'affinage",
+      "ja": "改良用の珪化木丸玉",
+      "ko": "Oddly Specific Petrified Orb"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "b4ef9368622",
     "level": 430,
     "maxQuality": 9131,
@@ -15206,6 +15240,24 @@
     },
     "stars": 2,
     "suggestedControl": 1990,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "9f25a343d79",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Shaft",
+      "de": "Werkstätten-Schaft",
+      "en": "Oddly Specific Shaft",
+      "fr": "Hampe d'affinage",
+      "ja": "改良用のシャフト",
+      "ko": "Oddly Specific Shaft"
+    },
+    "stars": 2,
     "suggestedCraftsmanship": 2140
   },
   {

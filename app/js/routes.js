@@ -6,7 +6,7 @@
     .config(Routes);
 
   function Routes($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/simulator');
+    $urlRouterProvider.otherwise('/solver');
 
     $stateProvider
       .state('crafter-attributes', {
@@ -17,7 +17,10 @@
       .state('simulator', {
         url: '/simulator',
         templateUrl: 'views/simulator.html',
-        controller: 'SimulatorController'
+        controller: 'SimulatorController',
+        params: {
+          editImmediately: null
+        }
       })
       .state('recipe', {
         url: '/recipe?class&name&lang',
@@ -46,7 +49,8 @@
         templateUrl: 'views/solver.html',
         controller: 'SolverController',
         params: {
-          autoStart: null
+          autoStart: null,
+		  resetSolver: null
         }
       })
       .state('instructions', {

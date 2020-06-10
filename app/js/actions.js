@@ -22,6 +22,23 @@ function Action(shortName, name, durabilityCost, cpCost, successProbability, qua
     this.onPoor = onPoor;
 }
 
+function filterNonGuaraneteed(actions) {
+    var index;
+    var filteredActions = [];
+
+    for (index = 0; index < actions.length; ++index) {
+        var action = actions[index];
+
+        if (action.successProbability < 1) {
+            continue;
+        }
+
+        filteredActions.push(action);
+    }
+
+    return filteredActions;
+}
+
 // Actions Table
 //==============
 //parameters: shortName,  name, durabilityCost, cpCost, successProbability, qualityIncreaseMultiplier, progressIncreaseMultiplier, aType, activeTurns, cls, level,onGood, onExcl, onPoor

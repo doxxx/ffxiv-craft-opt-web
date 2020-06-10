@@ -24139,6 +24139,23 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "61e2aac21db",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Whetstone",
+      "de": "Werkstätten-Wetzstein",
+      "en": "Oddly Specific Whetstone",
+      "fr": "Pierre à aiguiser d'affinage",
+      "ja": "改良用の砥石",
+      "ko": "Oddly Specific Whetstone"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 1971,
     "durability": 40,
     "id": "88062c2d30e",
@@ -24734,6 +24751,24 @@
     },
     "stars": 2,
     "suggestedControl": 1990,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "a4f2e1f8fc2",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Gemstone",
+      "de": "Werkstätten-Juwel",
+      "en": "Oddly Specific Gemstone",
+      "fr": "Perle d'affinage",
+      "ja": "改良用の宝玉",
+      "ko": "Oddly Specific Gemstone"
+    },
+    "stars": 2,
     "suggestedCraftsmanship": 2140
   },
   {

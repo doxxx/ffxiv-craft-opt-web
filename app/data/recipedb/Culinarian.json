@@ -9045,6 +9045,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 80,
+    "id": "4a5ee5bc512",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Devil's Salad Bowl",
+      "de": "Salat mit verteufelten Eiern",
+      "en": "Devil's Salad Bowl",
+      "fr": "Saladier d'œufs mimosa",
+      "ja": "デビルドエッグズ・サラダボウル",
+      "ko": "Devil's Salad Bowl"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 60,
     "id": "8d03ba2d848",
     "level": 430,
@@ -9090,6 +9107,23 @@
       "fr": "Limonade",
       "ja": "レモネード",
       "ko": "Lemonade"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "2bd24d1a30b",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Seed Extract",
+      "de": "Werkstätten-Getreidesamenextrakt",
+      "en": "Oddly Specific Seed Extract",
+      "fr": "Sève d'affinage",
+      "ja": "改良用の種子抽出液",
+      "ko": "Oddly Specific Seed Extract"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -9309,6 +9343,24 @@
     },
     "stars": 2,
     "suggestedControl": 1990,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "d2edc823c5c",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Seed Flour",
+      "de": "Werkstätten-Samenmehl",
+      "en": "Oddly Specific Seed Flour",
+      "fr": "Poudre de graines d'affinage",
+      "ja": "改良用の種子粉",
+      "ko": "Oddly Specific Seed Flour"
+    },
+    "stars": 2,
     "suggestedCraftsmanship": 2140
   },
   {

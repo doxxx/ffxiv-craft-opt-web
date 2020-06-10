@@ -17938,6 +17938,40 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "47200697356",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Manor Dressing Table",
+      "de": "Herrenhaus-Frisiertisch",
+      "en": "Manor Dressing Table",
+      "fr": "Coiffeuse du Manoir des Haukke",
+      "ja": "御用邸の鏡台",
+      "ko": "Manor Dressing Table"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "c3dc42e6cef",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Rivets",
+      "de": "Werkstätten-Nieten",
+      "en": "Oddly Specific Rivets",
+      "fr": "Clous d'affinage",
+      "ja": "改良用のリベット",
+      "ko": "Oddly Specific Rivets"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "7e4e64b26c1",
     "level": 430,
     "maxQuality": 9131,
@@ -18365,6 +18399,24 @@
     },
     "stars": 2,
     "suggestedControl": 1990,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "668a6a07a53",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Fitting",
+      "de": "Werkstätten-Winkeleisen",
+      "en": "Oddly Specific Fitting",
+      "fr": "Patte d'affinage",
+      "ja": "改良用のフィッティング",
+      "ko": "Oddly Specific Fitting"
+    },
+    "stars": 2,
     "suggestedCraftsmanship": 2140
   },
   {

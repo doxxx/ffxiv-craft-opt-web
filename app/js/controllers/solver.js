@@ -11,14 +11,18 @@
       angular.extend($scope.pageState, {
         solverStatus: {
           running: false,
+          isAutorun: false,
+          isStoppingAutorun: false,
           generationsCompleted: 0,
           maxGenerations: 0,
           state: null,
+          arBestRank: null,
           logs: {
             execution: '',
             ga: '',
             mc: ''
           },
+          arSequence: [],
           sequence: [],
           error: null
         }
@@ -27,10 +31,10 @@
 
     // Local page state
     $scope.logTabs = {
-      execution: {active: false},
-      ga: {active: false},
-      mc: {active: true},
-      macro: {active: false}
+      execution: { active: false },
+      ga: { active: false },
+      mc: { active: true },
+      macro: { active: false }
     };
 
     //
@@ -40,6 +44,7 @@
     $scope.startSolver = startSolver;
     $scope.resetSolver = resetSolver;
     $scope.resumeSolver = resumeSolver;
+    $scope.autorunSolver = autorunSolver;
     $scope.stopSolver = stopSolver;
     $scope.useSolverResult = useSolverResult;
     $scope.equivalentSequence = equivalentSequence;
@@ -50,6 +55,10 @@
     //
     // State Parameter Handling
     //
+
+	$scope.$on('synth.reset', function(){
+		resetSolver();
+	});
 
     if ($stateParams.autoStart) {
       resetSolver();
@@ -77,10 +86,13 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: sequence,
+        overshootFactor: $scope.sequenceSettings.overshootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         useConditions: $scope.sequenceSettings.useConditions,
+        guaranteedSkillsOnly: $scope.sequenceSettings.guaranteedSkillsOnly,
         //overrideOnCondition: $scope.sequenceSettings.overrideOnCondition,
         debug: $scope.sequenceSettings.debug
       };
@@ -88,12 +100,32 @@
       _simulator.runProbabilisticSim(settings, probabilisticSimSuccess, probabilisticSimError);
     }
 
+    function updateAutorunBestState(rank, sequence) {
+      if ($scope.pageState.solverStatus.isAutorun || $scope.pageState.solverStatus.isStoppingAutorun) {
+        if ($scope.pageState.solverStatus.arBestRank === null || rank > $scope.pageState.solverStatus.arBestRank) {
+          console.log("New best quality: " + rank);
+          $scope.pageState.solverStatus.arBestRank = rank;
+          $scope.pageState.solverStatus.arSequence = sequence;
+        }
+      }
+    }
+
     function monteCarloSimSuccess(data) {
       $scope.pageState.solverStatus.error = null;
       $scope.pageState.solverStatus.state = data.state;
       $scope.pageState.solverStatus.logs.mc = data.log;
 
-      runProbabilisticSim(data.sequence);
+      //TODO: Might want to implement a setting for controlling minimum monte carlo quality for a sequence to be viable
+      //var mcMinQuality = parseInt(/Min Value:.*?(\d*)\./im.exec(data.log)[1])
+      //if (mcMinQuality >= 4800)
+        updateAutorunBestState(data.state.quality, data.sequence);
+      if ($scope.pageState.solverStatus.isStoppingAutorun) {
+        $scope.pageState.solverStatus.isStoppingAutorun = false;
+        $scope.pageState.solverStatus.sequence = $scope.pageState.solverStatus.arSequence;
+        useSolverResult();
+      }
+      else
+        runProbabilisticSim(data.sequence);
     }
 
     function monteCarloSimError(data) {
@@ -107,11 +139,14 @@
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: sequence,
+        overshootFactor: $scope.sequenceSettings.overshootFactor,
+        qualityUndershootFactor: $scope.sequenceSettings.qualityUndershootFactor,
         maxTricksUses: $scope.sequenceSettings.maxTricksUses,
         maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
         reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
         monteCarloMode: $scope.sequenceSettings.monteCarloMode,
         useConditions: $scope.sequenceSettings.useConditions,
+        guaranteedSkillsOnly: $scope.sequenceSettings.guaranteedSkillsOnly,
         conditionalActionHandling: $scope.sequenceSettings.conditionalActionHandling,
         debug: $scope.sequenceSettings.debug
       };
@@ -136,12 +171,18 @@
       $scope.pageState.solverStatus.error = null;
       $scope.pageState.solverStatus.logs.execution = data.executionLog;
       $scope.pageState.solverStatus.sequence = data.bestSequence;
-
       runMonteCarloSim(data.bestSequence);
+
+      if ($scope.pageState.solverStatus.isAutorun) {
+        resetSolver();
+        startSolver(true);
+      }
     }
 
     function solverError(data) {
       $scope.pageState.solverStatus.running = false;
+      $scope.pageState.solverStatus.isAutorun = false;
+      $scope.pageState.solverStatus.isStoppingAutorun = false;
 
       $scope.pageState.solverStatus.error = data.error;
       $scope.pageState.solverStatus.state = data.state;
@@ -149,27 +190,31 @@
       $scope.pageState.solverStatus.sequence = [];
     }
 
-    function startSolver() {
+    function autorunSolver() {
+      $scope.pageState.solverStatus.arBestRank = null;
+      $scope.pageState.solverStatus.arSequence = [];
+      resetSolver();
+      startSolver(true);
+    }
+
+    function startSolver(autorun = false) {
       var sequence = $scope.pageState.solverStatus.sequence;
       if (sequence.length === 0) sequence = $scope.sequence;
 
-      var settings = {
+      var settings = _.merge({
         crafter: _bonusStats.addCrafterBonusStats($scope.crafter.stats[$scope.recipe.cls], $scope.bonusStats),
         recipe: _bonusStats.addRecipeBonusStats($scope.recipe, $scope.bonusStats),
         sequence: sequence,
         algorithm: $scope.solver.algorithm,
-        maxTricksUses: $scope.sequenceSettings.maxTricksUses,
-        maxMontecarloRuns: $scope.sequenceSettings.maxMontecarloRuns,
-        reliabilityPercent: $scope.sequenceSettings.reliabilityPercent,
-        useConditions: $scope.sequenceSettings.useConditions,
-        maxLength: $scope.sequenceSettings.maxLengthEnabled ? $scope.sequenceSettings.maxLength : 0,
-        solver: $scope.solver,
-        debug: $scope.sequenceSettings.debug
-      };
+        solver: $scope.solver
+      }, $scope.sequenceSettings);
+
       if ($scope.sequenceSettings.specifySeed) {
         settings.seed = $scope.sequenceSettings.seed;
       }
+
       $scope.pageState.solverStatus.running = true;
+      $scope.pageState.solverStatus.isAutorun = autorun;
       _solver.start(settings, solverProgress, solverSuccess, solverError);
     }
 
@@ -193,14 +238,20 @@
     }
 
     function stopSolver() {
-      _solver.stop();
+      if ($scope.pageState.solverStatus.isAutorun) {
+        $scope.pageState.solverStatus.isAutorun = false;
+        $scope.pageState.solverStatus.isStoppingAutorun = true;
+        _solver.stop();
+      }
+      else
+        _solver.stop();
     }
 
     function useSolverResult() {
       var newSeq = $scope.pageState.solverStatus.sequence;
       if (newSeq instanceof Array && newSeq.length > 0) {
         $scope.$emit('update.sequence', newSeq);
-        $state.go('simulator');
+        $state.go('simulator', {editImmediately: true});
       }
     }
 

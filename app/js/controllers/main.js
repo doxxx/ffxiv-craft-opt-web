@@ -43,10 +43,10 @@
       options: {
         tabs: {
           simulator: {
-            active: true
+            active: false
           },
           solver: {
-            active: false
+            active: true
           },
           macro: {
             active: false
@@ -69,6 +69,7 @@
     $rootScope.$on('$translateChangeSuccess', onTranslateChangeSuccess);
     $scope.$on('recipe.selected', onRecipeSelected);
     $scope.$on('update.sequence', onUpdateSequence);
+    $scope.$on('reset.sequence', onResetSequence);
 
     // Final initialization
     loadLocalPageState($scope);
@@ -92,6 +93,11 @@
 
     function onUpdateSequence(event, newSequence) {
       $scope.sequence = angular.copy(newSequence);
+    }
+	
+    function onResetSequence(event) {
+      $scope.sequence = [];
+	  $scope.$emit('synth.reset');
     }
 
     function changeLang(lang) {
@@ -417,6 +423,8 @@
       $scope.sequence = [];
 
       $scope.sequenceSettings = {
+		overshootFactor: 2.2,
+		qualityUndershootFactor: 1,
         maxTricksUses: 0,
         maxMontecarloRuns: 500,
         reliabilityPercent: 100,
@@ -426,6 +434,7 @@
         seed: 1337,
         monteCarloMode: 'macro',
         useConditions: true,
+        guaranteedSkillsOnly: false,
         conditionalActionHandling: 'skipUnusable',
         debug: false
       };
