@@ -1656,7 +1656,7 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 2 Skybuilders' Plywood",
+      "cn": "Grade 2 Skybuilders' Plywood (patch 5.21)",
       "de": "Genist-Sperrholzplatte",
       "en": "Grade 2 Skybuilders' Plywood",
       "fr": "Bois contreplaqué de restauration (2e phase)",
@@ -4070,7 +4070,7 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 2 Skybuilders' Crate",
+      "cn": "Grade 2 Skybuilders' Crate (patch 5.21)",
       "de": "Genist-Holzkiste",
       "en": "Grade 2 Skybuilders' Crate",
       "fr": "Caisse en bois de restauration (2e phase)",
@@ -8768,7 +8768,7 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 2 Skybuilders' Grindstone",
+      "cn": "Grade 2 Skybuilders' Grindstone (patch 5.21)",
       "de": "Genist-Schleifrad",
       "en": "Grade 2 Skybuilders' Grindstone",
       "fr": "Meule de restauration (2e phase)",
@@ -10890,10 +10890,10 @@
     "name": {
       "cn": "东洋雕花门",
       "de": "Hinganische Mokuzo-Tür",
-      "en": "Hingan Mokuzo Door",
+      "en": "Hingan Door (Mokuzo)",
       "fr": "Porte hingashienne (mokuzo)",
       "ja": "白銀木造扉",
-      "ko": "동방의 목조 현관문"
+      "ko": "Hingan Door (Mokuzo)"
     },
     "suggestedCraftsmanship": 1006
   },
@@ -11245,7 +11245,7 @@
     "level": 270,
     "maxQuality": 4593,
     "name": {
-      "cn": "Hingan Door (Nanpu)",
+      "cn": "东洋镶金门",
       "de": "Hinganische Nanpu-Tür",
       "en": "Hingan Door (Nanpu)",
       "fr": "Porte hingashienne (nanpu)",
@@ -11721,12 +11721,29 @@
     "level": 279,
     "maxQuality": 5194,
     "name": {
-      "cn": "Hingan Door (Kura-zukuri)",
+      "cn": "东洋描花门",
       "de": "Hinganische Kurazukuri-Tür",
       "en": "Hingan Door (Kura-zukuri)",
       "fr": "Porte hingashienne (kura-zukuri)",
       "ja": "白銀蔵造扉",
       "ko": "Hingan Door (Kura-zukuri)"
+    },
+    "suggestedCraftsmanship": 1056
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1808,
+    "durability": 80,
+    "id": "35ed2a7aebf",
+    "level": 279,
+    "maxQuality": 5194,
+    "name": {
+      "cn": "东洋镶金围墙",
+      "de": "Hinganischer Nanpu-Zaun",
+      "en": "Hingan Fence (Nanpu)",
+      "fr": "Muret hingashien (nanpu)",
+      "ja": "白銀南風塀",
+      "ko": "Hingan Fence (Nanpu)"
     },
     "suggestedCraftsmanship": 1056
   },
@@ -11795,23 +11812,6 @@
       "fr": "Fenêtre à lancette hingashienne",
       "ja": "白銀鐘形窓",
       "ko": "동방의 뾰족 창문"
-    },
-    "suggestedCraftsmanship": 1056
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 1808,
-    "durability": 80,
-    "id": "35ed2a7aebf",
-    "level": 279,
-    "maxQuality": 5194,
-    "name": {
-      "cn": "东洋镶金围墙",
-      "de": "Hinganischer Nanpu-Zaun",
-      "en": "Hingan Nanpu Fence",
-      "fr": "Muret hingashien (nanpu)",
-      "ja": "白銀南風塀",
-      "ko": "동방의 남방식 담장"
     },
     "suggestedCraftsmanship": 1056
   },
@@ -12503,7 +12503,7 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 2 Skybuilders' Stepladder",
+      "cn": "Grade 2 Skybuilders' Stepladder (patch 5.21)",
       "de": "Genist-Trittleiter",
       "en": "Grade 2 Skybuilders' Stepladder",
       "fr": "Escabeau de restauration (2e phase)",
@@ -14811,7 +14811,7 @@
     "level": 415,
     "maxQuality": 8081,
     "name": {
-      "cn": "Wooden Deck (patch 5.15)",
+      "cn": "木制平台",
       "de": "Holzveranda",
       "en": "Wooden Deck",
       "fr": "Terrasse en bois",
@@ -14930,7 +14930,7 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 2 Skybuilders' Bed",
+      "cn": "Grade 2 Skybuilders' Bed (patch 5.21)",
       "de": "Genist-Bett",
       "en": "Grade 2 Skybuilders' Bed",
       "fr": "Lit de restauration (2e phase)",
@@ -15004,6 +15004,40 @@
       "fr": "Composant de luth",
       "ja": "リュートの調整部材",
       "ko": "Lute Modification Component"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "c487a84ca56",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Mahogany Aqueduct (patch 5.25)",
+      "de": "Mahagoni-Aquädukt",
+      "en": "Mahogany Aqueduct",
+      "fr": "Aqueduc en acajou",
+      "ja": "マホガニーアキダクト",
+      "ko": "Mahogany Aqueduct"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "fa41b2bbb4a",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Petrified Orb (patch 5.25)",
+      "de": "Versteinerte Werkstätten-Sphäre",
+      "en": "Oddly Specific Petrified Orb",
+      "fr": "Bille de bois pétrifié d'affinage",
+      "ja": "改良用の珪化木丸玉",
+      "ko": "Oddly Specific Petrified Orb"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -15210,6 +15244,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "9f25a343d79",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Shaft (patch 5.25)",
+      "de": "Werkstätten-Schaft",
+      "en": "Oddly Specific Shaft",
+      "fr": "Hampe d'affinage",
+      "ja": "改良用のシャフト",
+      "ko": "Oddly Specific Shaft"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 3474,
     "durability": 35,
     "id": "6b153afe08f",
@@ -15254,7 +15306,7 @@
     "level": 480,
     "maxQuality": 64862,
     "name": {
-      "cn": "Grade 2 Artisanal Skybuilders' Wardrobe",
+      "cn": "Grade 2 Artisanal Skybuilders' Wardrobe (patch 5.21)",
       "de": "Sonderbestellte Genist-Kommode",
       "en": "Grade 2 Artisanal Skybuilders' Wardrobe",
       "fr": "Commode sur commande de restauration (2e phase)",
@@ -15273,7 +15325,7 @@
     "level": 480,
     "maxQuality": 64862,
     "name": {
-      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials (patch 5.21)",
       "de": "Sonderbestelltes Genist-Musterstück",
       "en": "Grade 2 Expert Skybuilders' Practice Materials",
       "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",

@@ -1877,7 +1877,7 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 2 Skybuilders' Leather",
+      "cn": "Grade 2 Skybuilders' Leather (patch 5.21)",
       "de": "Gegerbtes Genist-Leder",
       "en": "Grade 2 Skybuilders' Leather",
       "fr": "Cuir de restauration (2e phase)",
@@ -3866,7 +3866,7 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 2 Skybuilders' Leather Straps",
+      "cn": "Grade 2 Skybuilders' Leather Straps (patch 5.21)",
       "de": "Genist-Lederriemen",
       "en": "Grade 2 Skybuilders' Leather Straps",
       "fr": "Cordon de cuir de restauration (2e phase)",
@@ -9817,7 +9817,7 @@
     "level": 136,
     "maxQuality": 6301,
     "name": {
-      "cn": "Fur-lined Dhalmelskin Boots",
+      "cn": "长颈驼革毛边靴",
       "de": "Dhalmelleder-Stiefel",
       "en": "Fur-lined Dhalmelskin Boots",
       "fr": "Bottes en fourrure de dhalmel",
@@ -11160,7 +11160,7 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 2 Skybuilders' Rug",
+      "cn": "Grade 2 Skybuilders' Rug (patch 5.21)",
       "de": "Genist-Teppich",
       "en": "Grade 2 Skybuilders' Rug",
       "fr": "Tapis en peau de restauration (2e phase)",
@@ -18618,7 +18618,7 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 2 Skybuilders' Longboots",
+      "cn": "Grade 2 Skybuilders' Longboots (patch 5.21)",
       "de": "Genist-Stiefel",
       "en": "Grade 2 Skybuilders' Longboots",
       "fr": "Bottes de restauration (2e phase)",
@@ -22042,7 +22042,7 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 2 Skybuilders' Overalls",
+      "cn": "Grade 2 Skybuilders' Overalls (patch 5.21)",
       "de": "Genist-Arbeitsmontur",
       "en": "Grade 2 Skybuilders' Overalls",
       "fr": "Habit de travail de restauration (2e phase)",
@@ -22065,6 +22065,23 @@
       "fr": "Composant de luth",
       "ja": "リュートの調整部材",
       "ko": "Lute Modification Component"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "9571475cb4d",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Leather (patch 5.25)",
+      "de": "Gegerbtes Werkstätten-Leder",
+      "en": "Oddly Specific Leather",
+      "fr": "Cuir d'affinage",
+      "ja": "改良用のなめし革",
+      "ko": "Oddly Specific Leather"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -22608,6 +22625,24 @@
     "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
+    "id": "bb8187cd885",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Vellum (patch 5.25)",
+      "de": "Werkstätten-Pergament",
+      "en": "Oddly Specific Vellum",
+      "fr": "Parchemin d'affinage",
+      "ja": "改良用の羊皮紙",
+      "ko": "Oddly Specific Vellum"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
     "id": "59d223a6e25",
     "level": 450,
     "maxQuality": 23395,
@@ -22650,7 +22685,7 @@
     "level": 480,
     "maxQuality": 64862,
     "name": {
-      "cn": "Grade 2 Artisanal Skybuilders' Overcoat",
+      "cn": "Grade 2 Artisanal Skybuilders' Overcoat (patch 5.21)",
       "de": "Sonderbestellter Genist-Mantel",
       "en": "Grade 2 Artisanal Skybuilders' Overcoat",
       "fr": "Pardessus sur commande de restauration (2e phase)",
@@ -22669,7 +22704,7 @@
     "level": 480,
     "maxQuality": 64862,
     "name": {
-      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials (patch 5.21)",
       "de": "Sonderbestelltes Genist-Musterstück",
       "en": "Grade 2 Expert Skybuilders' Practice Materials",
       "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",

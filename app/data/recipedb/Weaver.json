@@ -2047,7 +2047,7 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 2 Skybuilders' Rope",
+      "cn": "Grade 2 Skybuilders' Rope (patch 5.21)",
       "de": "Genist-Strohseil",
       "en": "Grade 2 Skybuilders' Rope",
       "fr": "Corde de restauration (2e phase)",
@@ -4495,7 +4495,7 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 2 Skybuilders' Cloth",
+      "cn": "Grade 2 Skybuilders' Cloth (patch 5.21)",
       "de": "Genist-Stoffballen",
       "en": "Grade 2 Skybuilders' Cloth",
       "fr": "Étoffe de restauration (2e phase)",
@@ -12362,7 +12362,7 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 2 Skybuilders' Broom",
+      "cn": "Grade 2 Skybuilders' Broom (patch 5.21)",
       "de": "Genist-Besen",
       "en": "Grade 2 Skybuilders' Broom",
       "fr": "Balai de restauration (2e phase)",
@@ -18167,7 +18167,7 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 2 Skybuilders' Gloves",
+      "cn": "Grade 2 Skybuilders' Gloves (patch 5.21)",
       "de": "Genist-Handschuhe",
       "en": "Grade 2 Skybuilders' Gloves",
       "fr": "Gants de restauration (2e phase)",
@@ -22161,7 +22161,7 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 2 Skybuilders' Gazebo",
+      "cn": "Grade 2 Skybuilders' Gazebo (patch 5.21)",
       "de": "Genist-Zelt",
       "en": "Grade 2 Skybuilders' Gazebo",
       "fr": "Tente de restauration (2e phase)",
@@ -22184,6 +22184,23 @@
       "fr": "Composant de luth",
       "ja": "リュートの調整部材",
       "ko": "Lute Modification Component"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "1c59d8f8897",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Moonbeam Silk (patch 5.25)",
+      "de": "Werkstätten-Mondgarn",
+      "en": "Oddly Specific Moonbeam Silk",
+      "fr": "Fil de soie du clair de lune d'affinage",
+      "ja": "改良用の閃糸",
+      "ko": "Oddly Specific Moonbeam Silk"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -22698,6 +22715,24 @@
     "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
+    "id": "93c26191232",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Velvet (patch 5.25)",
+      "de": "Werkstätten-Samt",
+      "en": "Oddly Specific Velvet",
+      "fr": "Velours d'affinage",
+      "ja": "改良用のビロード",
+      "ko": "Oddly Specific Velvet"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
     "id": "644151c526e",
     "level": 450,
     "maxQuality": 23395,
@@ -22759,7 +22794,7 @@
     "level": 480,
     "maxQuality": 64862,
     "name": {
-      "cn": "Grade 2 Artisanal Skybuilders' Wallpaper",
+      "cn": "Grade 2 Artisanal Skybuilders' Wallpaper (patch 5.21)",
       "de": "Sonderbestellte Genist-Tapete",
       "en": "Grade 2 Artisanal Skybuilders' Wallpaper",
       "fr": "Papier peint sur commande de restauration (2e phase)",
@@ -22778,7 +22813,7 @@
     "level": 480,
     "maxQuality": 64862,
     "name": {
-      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
+      "cn": "Grade 2 Expert Skybuilders' Practice Materials (patch 5.21)",
       "de": "Sonderbestelltes Genist-Musterstück",
       "en": "Grade 2 Expert Skybuilders' Practice Materials",
       "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
