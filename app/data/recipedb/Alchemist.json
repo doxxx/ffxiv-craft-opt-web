@@ -1379,6 +1379,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "25c635b2636",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Ink",
+      "de": "Federfall-Tinte",
+      "en": "Grade 3 Skybuilders' Ink",
+      "fr": "Encre de restauration (3e phase)",
+      "ja": "第三次復興用のインク",
+      "ko": "Grade 3 Skybuilders' Ink"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "a6441a394a5",
     "level": 20,
@@ -3294,6 +3311,23 @@
       "fr": "Huile végétale de restauration (2e phase)",
       "ja": "第二次復興用の植物油",
       "ko": "Grade 2 Skybuilders' Plant Oil"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "85958ff60cc",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Plant Oil",
+      "de": "Federfall-Pflanzenöl",
+      "en": "Grade 3 Skybuilders' Plant Oil",
+      "fr": "Huile végétale de restauration (3e phase)",
+      "ja": "第三次復興用の植物油",
+      "ko": "Grade 3 Skybuilders' Plant Oil"
     },
     "suggestedCraftsmanship": 136
   },
@@ -9288,6 +9322,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "5d1c7dbb11d",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Holy Water",
+      "de": "Federfall-Weihwasser",
+      "en": "Grade 3 Skybuilders' Holy Water",
+      "fr": "Eau sacrée de restauration (3e phase)",
+      "ja": "第三次復興用の聖水",
+      "ko": "Grade 3 Skybuilders' Holy Water"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "8a5340e0599",
     "level": 150,
     "maxQuality": 6280,
@@ -13299,6 +13350,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "eb879e6d833",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Soap",
+      "de": "Federfall-Seife",
+      "en": "Grade 3 Skybuilders' Soap",
+      "fr": "Savon de restauration (3e phase)",
+      "ja": "第三次復興用の石鹸",
+      "ko": "Grade 3 Skybuilders' Soap"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2435,
     "durability": 70,
     "id": "87e854e889f",
@@ -15944,6 +16012,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "7a3808658ca",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Growth Formula",
+      "de": "Federfall-Wachstumsformel",
+      "en": "Grade 3 Skybuilders' Growth Formula",
+      "fr": "Formule de croissance de restauration (3e phase)",
+      "ja": "第三次復興用のグロースフォーミュラ",
+      "ko": "Grade 3 Skybuilders' Growth Formula"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "994dd243dd5",
     "level": 430,
@@ -16771,5 +16856,24 @@
     "stars": 3,
     "suggestedControl": 2195,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "323be32daf0",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Tiled Flooring",
+      "de": "Sonderbestellter Federfall-Fliesenboden",
+      "en": "Grade 3 Artisanal Skybuilders' Tiled Flooring",
+      "fr": "Parquet teinté sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注タイルフローリング",
+      "ko": "Grade 3 Artisanal Skybuilders' Tiled Flooring"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]

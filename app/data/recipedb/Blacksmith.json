@@ -1906,6 +1906,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "c750e9f447d",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Alloy",
+      "de": "Federfall-Legierung",
+      "en": "Grade 3 Skybuilders' Alloy",
+      "fr": "Alliage métallique de restauration (3e phase)",
+      "ja": "第三次復興用の合金",
+      "ko": "Grade 3 Skybuilders' Alloy"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "c8fb2b6d4bd",
     "level": 20,
@@ -4280,6 +4297,23 @@
       "fr": "Clous de restauration (2e phase)",
       "ja": "第二次復興用の鉄釘",
       "ko": "Grade 2 Skybuilders' Nails"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "ce694607d25",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Nails",
+      "de": "Federfall-Eisennägel",
+      "en": "Grade 3 Skybuilders' Nails",
+      "fr": "Clous de restauration (3e phase)",
+      "ja": "第三次復興用の鉄釘",
+      "ko": "Grade 3 Skybuilders' Nails"
     },
     "suggestedCraftsmanship": 136
   },
@@ -9981,6 +10015,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "c1b5fd95343",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Pickaxe",
+      "de": "Federfall-Spitzhacke",
+      "en": "Grade 3 Skybuilders' Pickaxe",
+      "fr": "Piochon de restauration (3e phase)",
+      "ja": "第三次復興用のピックアクス",
+      "ko": "Grade 3 Skybuilders' Pickaxe"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "93a99efaaec",
     "level": 150,
     "maxQuality": 6280,
@@ -14913,6 +14964,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "9e196a63fa8",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Crosscut Saw",
+      "de": "Federfall-Säge",
+      "en": "Grade 3 Skybuilders' Crosscut Saw",
+      "fr": "Grande scie de restauration (3e phase)",
+      "ja": "第三次復興用の大鋸",
+      "ko": "Grade 3 Skybuilders' Crosscut Saw"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2435,
     "durability": 70,
     "id": "ee484625d58",
@@ -19094,6 +19162,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "48e772fde0c",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Oven",
+      "de": "Federfall-Ofen",
+      "en": "Grade 3 Skybuilders' Oven",
+      "fr": "Four de restauration (3e phase)",
+      "ja": "第三次復興用の焜炉",
+      "ko": "Grade 3 Skybuilders' Oven"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "47200697356",
     "level": 430,
@@ -20200,5 +20285,24 @@
     "stars": 3,
     "suggestedControl": 2195,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "72ae3ca15ca",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Smithing Bench",
+      "de": "Sonderbestellte Federfall-Esse",
+      "en": "Grade 3 Artisanal Skybuilders' Smithing Bench",
+      "fr": "Établi de métallurgie sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注スミシングベンチ",
+      "ko": "Grade 3 Artisanal Skybuilders' Smithing Bench"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]

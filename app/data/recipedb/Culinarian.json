@@ -1651,6 +1651,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "287217ce056",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Hemp Milk",
+      "de": "Federfall-Hanfmilch",
+      "en": "Grade 3 Skybuilders' Hemp Milk",
+      "fr": "Lait de chanvre de restauration (3e phase)",
+      "ja": "第三次復興用のヘンプミルク",
+      "ko": "Grade 3 Skybuilders' Hemp Milk"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "bb677be8925",
     "level": 20,
@@ -3073,6 +3090,23 @@
       "fr": "Pain de mie de restauration (2e phase)",
       "ja": "第二次復興用のブレッド",
       "ko": "Grade 2 Skybuilders' Bread"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "ea11df2293b",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Sesame Cookie",
+      "de": "Federfall-Sesamkeks",
+      "en": "Grade 3 Skybuilders' Sesame Cookie",
+      "fr": "Biscuit au sésame de restauration (3e phase)",
+      "ja": "第三次復興用のセサミクッキー",
+      "ko": "Grade 3 Skybuilders' Sesame Cookie"
     },
     "suggestedCraftsmanship": 136
   },
@@ -5871,6 +5905,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "e0cdb339f8c",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Tea",
+      "de": "Federfall-Schwarztee",
+      "en": "Grade 3 Skybuilders' Tea",
+      "fr": "Thé de restauration (3e phase)",
+      "ja": "第三次復興用の紅茶",
+      "ko": "Grade 3 Skybuilders' Tea"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "24906672d43",
     "level": 150,
     "maxQuality": 6280,
@@ -8160,6 +8211,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "6d4dab94075",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' All-purpose Infusion",
+      "de": "Federfall-Kräuterbad",
+      "en": "Grade 3 Skybuilders' All-purpose Infusion",
+      "fr": "Tisane de restauration (3e phase)",
+      "ja": "第三次復興用の薬湯",
+      "ko": "Grade 3 Skybuilders' All-purpose Infusion"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2435,
     "durability": 70,
     "id": "ea37c2cb8f0",
@@ -9844,6 +9912,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "add0cea4195",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Stew",
+      "de": "Federfall-Eintopf",
+      "en": "Grade 3 Skybuilders' Stew",
+      "fr": "Marmite de ragoût de restauration (3e phase)",
+      "ja": "第三次復興用のシチュー",
+      "ko": "Grade 3 Skybuilders' Stew"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "46784771f37",
     "level": 430,
@@ -10520,5 +10605,24 @@
     "stars": 3,
     "suggestedControl": 2195,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "169462f6983",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Luncheon",
+      "de": "Sonderbestellter Federfall-Speiseteller",
+      "en": "Grade 3 Artisanal Skybuilders' Luncheon",
+      "fr": "Assiette-repas sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注定食プレート",
+      "ko": "Grade 3 Artisanal Skybuilders' Luncheon"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]

@@ -1889,6 +1889,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "7b664af0acd",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Leather",
+      "de": "Gegerbtes Federfall-Leder",
+      "en": "Grade 3 Skybuilders' Leather",
+      "fr": "Cuir de restauration (3e phase)",
+      "ja": "第三次復興用のなめし革",
+      "ko": "Grade 3 Skybuilders' Leather"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "8d51c3fbc3d",
     "level": 20,
@@ -3872,6 +3889,23 @@
       "fr": "Cordon de cuir de restauration (2e phase)",
       "ja": "第二次復興用の革紐",
       "ko": "Grade 2 Skybuilders' Leather Straps"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "83de9da0a11",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Leather Straps",
+      "de": "Federfall-Lederriemen",
+      "en": "Grade 3 Skybuilders' Leather Straps",
+      "fr": "Cordon de cuir de restauration (3e phase)",
+      "ja": "第三次復興用の革紐",
+      "ko": "Grade 3 Skybuilders' Leather Straps"
     },
     "suggestedCraftsmanship": 136
   },
@@ -11053,6 +11087,23 @@
       "fr": "Tapis en peau de restauration (2e phase)",
       "ja": "第二次復興用の敷物",
       "ko": "Grade 2 Skybuilders' Rug"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "bcefe6f1757",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Leather Sack",
+      "de": "Federfall-Lederbeutel",
+      "en": "Grade 3 Skybuilders' Leather Sack",
+      "fr": "Sac en cuir de restauration (3e phase)",
+      "ja": "第三次復興用の革袋",
+      "ko": "Grade 3 Skybuilders' Leather Sack"
     },
     "suggestedCraftsmanship": 587
   },
@@ -18856,6 +18907,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "b2d509d6248",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Longboots",
+      "de": "Federfall-Stiefel",
+      "en": "Grade 3 Skybuilders' Longboots",
+      "fr": "Bottes de restauration (3e phase)",
+      "ja": "第三次復興用の長靴",
+      "ko": "Grade 3 Skybuilders' Longboots"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2435,
     "durability": 70,
     "id": "aeca2e3629f",
@@ -22603,6 +22671,23 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "85a43fe1e5f",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Overalls",
+      "de": "Federfall-Arbeitsmontur",
+      "en": "Grade 3 Skybuilders' Overalls",
+      "fr": "Habit de travail de restauration (3e phase)",
+      "ja": "第三次復興用の作業着",
+      "ko": "Grade 3 Skybuilders' Overalls"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 2760,
     "durability": 80,
     "id": "5c92670b516",
@@ -23698,5 +23783,24 @@
     },
     "stars": 3,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "c58f698c9b9",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Leather Chair",
+      "de": "Sonderbestellter Federfall-Ledersessel",
+      "en": "Grade 3 Artisanal Skybuilders' Leather Chair",
+      "fr": "Chaise en cuir sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注レザーチェア",
+      "ko": "Grade 3 Artisanal Skybuilders' Leather Chair"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]

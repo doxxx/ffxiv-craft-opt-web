@@ -1599,6 +1599,23 @@
   },
   {
     "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "ab667b85128",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Ingot",
+      "de": "Federfall-Rohmetall",
+      "en": "Grade 3 Skybuilders' Ingot",
+      "fr": "Lingot précieux de restauration (3e phase)",
+      "ja": "第三次復興用の地金",
+      "ko": "Grade 3 Skybuilders' Ingot"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
     "difficulty": 37,
     "durability": 40,
     "id": "79b408870c5",
@@ -5079,6 +5096,23 @@
       "fr": "Anneaux de métal de restauration (2e phase)",
       "ja": "第二次復興用の鉄環",
       "ko": "Grade 2 Skybuilders' Rings"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "cd4d5f0dc21",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Rings",
+      "de": "Federfall-Eisenringe",
+      "en": "Grade 3 Skybuilders' Rings",
+      "fr": "Anneaux de métal de restauration (3e phase)",
+      "ja": "第三次復興用の鉄環",
+      "ko": "Grade 3 Skybuilders' Rings"
     },
     "suggestedCraftsmanship": 136
   },
@@ -13994,6 +14028,23 @@
   {
     "baseLevel": 60,
     "difficulty": 956,
+    "durability": 60,
+    "id": "8d955ce367e",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Embroidery Frame",
+      "de": "Federfall-Weberzeug",
+      "en": "Grade 3 Skybuilders' Embroidery Frame",
+      "fr": "Cercle à broder de restauration (3e phase)",
+      "ja": "第三次復興用の裁縫道具",
+      "ko": "Grade 3 Skybuilders' Embroidery Frame"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
     "durability": 70,
     "id": "d493983585e",
     "level": 150,
@@ -19949,6 +20000,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "c6d00237021",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Stone",
+      "de": "Federfall-Naturbaustein",
+      "en": "Grade 3 Skybuilders' Stone",
+      "fr": "Bloc de pierre de restauration (3e phase)",
+      "ja": "第三次復興用の石材",
+      "ko": "Grade 3 Skybuilders' Stone"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2435,
     "durability": 70,
     "id": "1430162295f",
@@ -24600,6 +24668,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "77066a9227c",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Brazier",
+      "de": "Federfall-Feuerschale",
+      "en": "Grade 3 Skybuilders' Brazier",
+      "fr": "Socle à flambeau de restauration (3e phase)",
+      "ja": "第三次復興用の篝火台",
+      "ko": "Grade 3 Skybuilders' Brazier"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "44173b43bc8",
     "level": 430,
@@ -25682,5 +25767,24 @@
     "stars": 3,
     "suggestedControl": 2195,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "c5b911670b9",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Chronometer",
+      "de": "Sonderbestellter Federfall-Chronometer",
+      "en": "Grade 3 Artisanal Skybuilders' Chronometer",
+      "fr": "Horloge sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注クロノメーター",
+      "ko": "Grade 3 Artisanal Skybuilders' Chronometer"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]

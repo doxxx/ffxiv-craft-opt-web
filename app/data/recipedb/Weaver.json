@@ -2059,6 +2059,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "663dfe49783",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Rope",
+      "de": "Federfall-Strohseil",
+      "en": "Grade 3 Skybuilders' Rope",
+      "fr": "Corde de restauration (3e phase)",
+      "ja": "第三次復興用の荒縄",
+      "ko": "Grade 3 Skybuilders' Rope"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "14c332f05cb",
     "level": 20,
@@ -4501,6 +4518,23 @@
       "fr": "Étoffe de restauration (2e phase)",
       "ja": "第二次復興用の生地",
       "ko": "Grade 2 Skybuilders' Cloth"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "c548a9523b9",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Cloth",
+      "de": "Federfall-Stoffballen",
+      "en": "Grade 3 Skybuilders' Cloth",
+      "fr": "Étoffe de restauration (3e phase)",
+      "ja": "第三次復興用の生地",
+      "ko": "Grade 3 Skybuilders' Cloth"
     },
     "suggestedCraftsmanship": 136
   },
@@ -12208,6 +12242,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "69f9df95120",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Broom",
+      "de": "Federfall-Besen",
+      "en": "Grade 3 Skybuilders' Broom",
+      "fr": "Balai de restauration (3e phase)",
+      "ja": "第三次復興用のホウキ",
+      "ko": "Grade 3 Skybuilders' Broom"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "f987e6702e8",
     "level": 150,
     "maxQuality": 6280,
@@ -18351,6 +18402,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "f0d814c870f",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Gloves",
+      "de": "Federfall-Handschuhe",
+      "en": "Grade 3 Skybuilders' Gloves",
+      "fr": "Gants de restauration (3e phase)",
+      "ja": "第三次復興用の手袋",
+      "ko": "Grade 3 Skybuilders' Gloves"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2435,
     "durability": 70,
     "id": "4b3e326d3f0",
@@ -22685,6 +22753,23 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "cd5efe16ac9",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Awning",
+      "de": "Federfall-Vordach",
+      "en": "Grade 3 Skybuilders' Awning",
+      "fr": "Auvent de restauration (3e phase)",
+      "ja": "第三次復興用のオーニング",
+      "ko": "Grade 3 Skybuilders' Awning"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 2760,
     "durability": 80,
     "id": "ea1a48f149d",
@@ -23802,5 +23887,24 @@
     },
     "stars": 3,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "ed2404c6959",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Apron",
+      "de": "Sonderbestellte Federfall-Schürze",
+      "en": "Grade 3 Artisanal Skybuilders' Apron",
+      "fr": "Tablier sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注エプロン",
+      "ko": "Grade 3 Artisanal Skybuilders' Apron"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]
