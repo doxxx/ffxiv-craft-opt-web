@@ -18489,7 +18489,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Tauschware",
+      "de": "Handelsware",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -23275,6 +23275,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "7b674b922d3",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Gaganaskin Strap",
+      "de": "Werkstätten-Gagana-Lederriemen",
+      "en": "Oddly Specific Gaganaskin Strap",
+      "fr": "Lanière en cuir de gagana d'affinage",
+      "ja": "改良用のガガナストラップ",
+      "ko": "Oddly Specific Gaganaskin Strap"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "bb8187cd885",
@@ -23764,6 +23782,24 @@
     },
     "stars": 3,
     "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "e177e170ac8",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Gagana Leather",
+      "de": "Werkstätten-Gaganaleder",
+      "en": "Oddly Specific Gagana Leather",
+      "fr": "Cuir de gagana d'affinage",
+      "ja": "改良用のガガナレザー",
+      "ko": "Oddly Specific Gagana Leather"
+    },
+    "stars": 3,
     "suggestedCraftsmanship": 2480
   },
   {

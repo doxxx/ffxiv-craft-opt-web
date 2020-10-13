@@ -19786,7 +19786,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Tauschware",
+      "de": "Handelsware",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -25352,6 +25352,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "21263e04c67",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Silver Nugget",
+      "de": "Werkstätten-Silber-Nugget",
+      "en": "Oddly Specific Silver Nugget",
+      "fr": "Pépite d'argent d'affinage",
+      "ja": "改良用のシルバーナゲット",
+      "ko": "Oddly Specific Silver Nugget"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4560,
     "durability": 70,
     "id": "c0a2bd7dc61",
@@ -25747,6 +25765,24 @@
     },
     "stars": 3,
     "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "a2c56402703",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Silver Ingot",
+      "de": "Werkstätten-Silberbarren",
+      "en": "Oddly Specific Silver Ingot",
+      "fr": "Lingot d'argent d'affinage",
+      "ja": "改良用のシルバーインゴット",
+      "ko": "Oddly Specific Silver Ingot"
+    },
+    "stars": 3,
     "suggestedCraftsmanship": 2480
   },
   {

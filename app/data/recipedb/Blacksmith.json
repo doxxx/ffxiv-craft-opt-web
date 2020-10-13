@@ -14733,7 +14733,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Tauschware",
+      "de": "Handelsware",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -19680,6 +19680,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "cbc0a3d606f",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Iron Nails",
+      "de": "Werkstätten-Eisennägel",
+      "en": "Oddly Specific Iron Nails",
+      "fr": "Clou en fer d'affinage",
+      "ja": "改良用のアイアンネイル",
+      "ko": "Oddly Specific Iron Nails"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4560,
     "durability": 70,
     "id": "95016df2405",
@@ -20284,6 +20302,24 @@
     },
     "stars": 3,
     "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "5e4bd73a73d",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Iron Ingot",
+      "de": "Werkstätten-Eisenbarren",
+      "en": "Oddly Specific Iron Ingot",
+      "fr": "Lingot de fer d'affinage",
+      "ja": "改良用のアイアンインゴット",
+      "ko": "Oddly Specific Iron Ingot"
+    },
+    "stars": 3,
     "suggestedCraftsmanship": 2480
   },
   {

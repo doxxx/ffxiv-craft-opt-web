@@ -18154,7 +18154,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Tauschware",
+      "de": "Handelsware",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -23362,6 +23362,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "bd3029cb2f6",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Cloth",
+      "de": "Werkstätten-Tuch",
+      "en": "Oddly Specific Cloth",
+      "fr": "Étoffe d'affinage",
+      "ja": "改良用の生地",
+      "ko": "Oddly Specific Cloth"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "93c26191232",
@@ -23832,6 +23850,24 @@
     },
     "stars": 3,
     "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "3e98b055df8",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Undyed Woolen Cloth",
+      "de": "Werkstätten-Wollballen",
+      "en": "Oddly Specific Undyed Woolen Cloth",
+      "fr": "Étoffe de laine d'affinage",
+      "ja": "改良用の羅紗",
+      "ko": "Oddly Specific Undyed Woolen Cloth"
+    },
+    "stars": 3,
     "suggestedCraftsmanship": 2480
   },
   {

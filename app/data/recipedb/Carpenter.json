@@ -12688,7 +12688,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Tauschware",
+      "de": "Handelsware",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -15948,6 +15948,23 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "5d69f0422f2",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Oriental Wooden Deck",
+      "de": "Exotische Holzveranda",
+      "en": "Oriental Wooden Deck",
+      "fr": "Terrasse orientale en bois",
+      "ja": "オリエンタルウッドデッキ",
+      "ko": "Oriental Wooden Deck"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "9ec2037ee1a",
     "level": 430,
     "maxQuality": 18262,
@@ -16178,6 +16195,24 @@
     "stars": 2,
     "suggestedControl": 1990,
     "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "4846abb678f",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Cedar Lumber",
+      "de": "Werkstätten-Zedern-Bauholz",
+      "en": "Oddly Specific Cedar Lumber",
+      "fr": "Madrier de cèdre d'affinage",
+      "ja": "改良用のシーダー材",
+      "ko": "Oddly Specific Cedar Lumber"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
   },
   {
     "baseLevel": 80,
@@ -16632,6 +16667,24 @@
     },
     "stars": 3,
     "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "291a61b19e4",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Cedar Plank",
+      "de": "Werkstätten-Zedernbrett",
+      "en": "Oddly Specific Cedar Plank",
+      "fr": "Planche de cèdre d'affinage",
+      "ja": "改良用のシーダー板",
+      "ko": "Oddly Specific Cedar Plank"
+    },
+    "stars": 3,
     "suggestedCraftsmanship": 2480
   },
   {

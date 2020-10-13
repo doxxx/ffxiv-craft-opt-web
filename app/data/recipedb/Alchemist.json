@@ -13119,7 +13119,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Tauschware",
+      "de": "Handelsware",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -16518,6 +16518,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "cccb30edae4",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Glue",
+      "de": "Werkstätten-Tierleim",
+      "en": "Oddly Specific Glue",
+      "fr": "Glu d'affinage",
+      "ja": "改良用のにかわ",
+      "ko": "Oddly Specific Glue"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 3691,
     "durability": 35,
     "id": "d8cd9a87458",
@@ -16855,6 +16873,24 @@
     },
     "stars": 3,
     "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "48b151c003f",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Rubber",
+      "de": "Werkstätten-Gummi",
+      "en": "Oddly Specific Rubber",
+      "fr": "Caoutchouc d'affinage",
+      "ja": "改良用のラバー",
+      "ko": "Oddly Specific Rubber"
+    },
+    "stars": 3,
     "suggestedCraftsmanship": 2480
   },
   {

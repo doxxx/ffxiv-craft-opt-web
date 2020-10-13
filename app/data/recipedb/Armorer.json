@@ -13021,7 +13021,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Tauschware",
+      "de": "Handelsware",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -16847,6 +16847,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "b59c21a3b35",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Mythril Rings",
+      "de": "Werkstätten-Mithrildraht-Ringe",
+      "en": "Oddly Specific Mythril Rings",
+      "fr": "Anneaux en mithril d'affinage",
+      "ja": "改良用のミスリルリングズ",
+      "ko": "Oddly Specific Mythril Rings"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "90a23792c5d",
@@ -17261,6 +17279,24 @@
     },
     "stars": 3,
     "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "e70abfd01e5",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Mythril Plate",
+      "de": "Werkstätten-Mithril-Platte",
+      "en": "Oddly Specific Mythril Plate",
+      "fr": "Plaque de mithril d'affinage",
+      "ja": "改良用のミスリルプレート",
+      "ko": "Oddly Specific Mythril Plate"
+    },
+    "stars": 3,
     "suggestedCraftsmanship": 2480
   },
   {

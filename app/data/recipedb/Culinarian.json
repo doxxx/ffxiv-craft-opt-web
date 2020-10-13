@@ -7963,7 +7963,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Tauschware",
+      "de": "Handelsware",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -10248,6 +10248,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "1d374634082",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Oil",
+      "de": "Werkstätten-Öl",
+      "en": "Oddly Specific Oil",
+      "fr": "Huile d'affinage",
+      "ja": "改良用のオイル",
+      "ko": "Oddly Specific Oil"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "d2edc823c5c",
@@ -10513,6 +10531,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "e7d9c343ab6",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Paste",
+      "de": "Werkstätten-Klebstoff",
+      "en": "Oddly Specific Paste",
+      "fr": "Pâte d'affinage",
+      "ja": "改良用のペースト",
+      "ko": "Oddly Specific Paste"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 6178,
     "durability": 70,
     "id": "7238825b07c",
@@ -10598,7 +10634,7 @@
       "cn": "Stuffed Highland Cabbage (patch 5.2)",
       "de": "Krautwickel nach Hochländer Art",
       "en": "Stuffed Highland Cabbage",
-      "fr": "Choux farcis",
+      "fr": "Choux des hautes terres farcis",
       "ja": "高地風挽肉のキャベツ巻き",
       "ko": "Stuffed Highland Cabbage"
     },
