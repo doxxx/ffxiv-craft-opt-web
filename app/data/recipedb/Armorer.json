@@ -1379,6 +1379,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "332985d4776",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Steel Plate",
+      "de": "Federfall-Metallplatte",
+      "en": "Grade 3 Skybuilders' Steel Plate",
+      "fr": "Plaque de métal de restauration (3e phase)",
+      "ja": "第三次復興用の金属板",
+      "ko": "Grade 3 Skybuilders' Steel Plate"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "3eb4f3fe16c",
     "level": 20,
@@ -3419,6 +3436,23 @@
   {
     "baseLevel": 40,
     "difficulty": 138,
+    "durability": 60,
+    "id": "5dde051cd55",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Rivets",
+      "de": "Federfall-Nieten",
+      "en": "Grade 3 Skybuilders' Rivets",
+      "fr": "Rivets de restauration (3e phase)",
+      "ja": "第三次復興用のリベット",
+      "ko": "Grade 3 Skybuilders' Rivets"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
     "durability": 80,
     "id": "2cadbcb34ae",
     "level": 40,
@@ -3665,7 +3699,7 @@
       "cn": "秘银口罩",
       "de": "Mithril-Mesailvisier",
       "en": "Mythril Mesail",
-      "fr": "Mésail",
+      "fr": "Mézail",
       "ja": "メセイル",
       "ko": "면갑"
     },
@@ -4379,7 +4413,7 @@
       "cn": "钴铁口罩",
       "de": "Koboldeisen-Mesailvisier",
       "en": "Cobalt Mesail",
-      "fr": "Mésail en cobalt",
+      "fr": "Mézail en cobalt",
       "ja": "コバルトメセイル",
       "ko": "코발트 면갑"
     },
@@ -4914,6 +4948,23 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 292,
+    "durability": 80,
+    "id": "7f59a1dbe99",
+    "level": 50,
+    "maxQuality": 4114,
+    "name": {
+      "cn": "Rarefied Mythrite Sallet",
+      "de": "Mythrit-Schaller (Sammlerstück)",
+      "en": "Rarefied Mythrite Sallet",
+      "fr": "Sallet en mithrite collectionnable",
+      "ja": "収集用のミスライトサレット",
+      "ko": "Rarefied Mythrite Sallet"
+    },
+    "suggestedCraftsmanship": 314
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 334,
     "durability": 80,
     "id": "30fa89dbf87",
@@ -5346,222 +5397,6 @@
       "fr": "Sabatons de milicien",
       "ja": "ミリシアサバトン",
       "ko": "민병대 판금장화"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "25a65571cc8",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼头盔",
-      "de": "Wolf-Sturmhaube",
-      "en": "Wolf Celata",
-      "fr": "Celata de loup",
-      "ja": "ウルフチェラータ",
-      "ko": "늑대 보호투구"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "73745273f57",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼胸甲",
-      "de": "Wolf-Kürass",
-      "en": "Wolf Cuirass",
-      "fr": "Cuirasse de loup",
-      "ja": "ウルフキュイラス",
-      "ko": "늑대 전투흉갑"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "08dfff8d909",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼骑兵头盔",
-      "de": "Elmo-Wolfshelm",
-      "en": "Wolf Elmo",
-      "fr": "Elmo de loup",
-      "ja": "ウルフエルモ",
-      "ko": "늑대 기사투구"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "4efe58c3d34",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼手铠",
-      "de": "Wolf-Panzerhandschuhe",
-      "en": "Wolf Gauntlets",
-      "fr": "Gantelets de loup",
-      "ja": "ウルフガントレット",
-      "ko": "늑대 건틀릿"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "4b800c225bd",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼鸢盾",
-      "de": "Wolf-Drachenschild",
-      "en": "Wolf Kite Shield",
-      "fr": "Écu mandorle de loup",
-      "ja": "ウルフカイトシールド",
-      "ko": "늑대 연모양 방패"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "14a4055fd00",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼护腰带",
-      "de": "Wolf-Plattengürtel",
-      "en": "Wolf Plate Belt",
-      "fr": "Ceinture de plaques de loup",
-      "ja": "ウルフプレートベルト",
-      "ko": "늑대 판금 허리띠"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "c2567b026be",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼铠靴",
-      "de": "Wolf-Bärlatschen",
-      "en": "Wolf Sabatons",
-      "fr": "Sabatons de loup",
-      "ja": "ウルフサバトン",
-      "ko": "늑대 판금장화"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "8d49a134c8b",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼角盔",
-      "de": "Wolf-Schaller",
-      "en": "Wolf Sallet",
-      "fr": "Sallet de loup",
-      "ja": "ウルフサレット",
-      "ko": "늑대 경량투구"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "32f6daebf2d",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼鳞指套",
-      "de": "Wolf-Fingerhandschuhe",
-      "en": "Wolf Scale Fingers",
-      "fr": "Garde-doigts d'écailles de loup",
-      "ja": "ウルフスケイルフィンガー",
-      "ko": "늑대 미늘장갑"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "6724ed5daca",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼鳞胫甲",
-      "de": "Wolf-Beinschienen",
-      "en": "Wolf Scale Greaves",
-      "fr": "Jambards d'écailles de loup",
-      "ja": "ウルフスケイルグリーヴ",
-      "ko": "늑대 미늘장화"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "82531f6157a",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼鳞铠",
-      "de": "Wolf-Schuppenpanzer",
-      "en": "Wolf Scale Mail",
-      "fr": "Armure d'écailles de loup",
-      "ja": "ウルフスケイルメイル",
-      "ko": "늑대 미늘갑옷"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "6087ae19357",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼腰甲",
-      "de": "Wolf-Bauchreifen",
-      "en": "Wolf Tassets",
-      "fr": "Tassette de loup",
-      "ja": "ウルフタセット",
-      "ko": "늑대 허리갑옷"
     },
     "stars": 1,
     "suggestedControl": 255
@@ -6166,7 +6001,7 @@
       "cn": "庄园圆号",
       "de": "Horn",
       "en": "Manor Marching Horn",
-      "fr": "Cor du manoir",
+      "fr": "Cor du Manoir",
       "ja": "御用邸のホルン",
       "ko": "별궁의 호른"
     },
@@ -6882,6 +6717,23 @@
     "suggestedCraftsmanship": 502
   },
   {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "id": "1fb5b02e428",
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "cn": "Rarefied Mythrite Hauberk",
+      "de": "Mythrit-Kettenpanzer (Sammlerstück)",
+      "en": "Rarefied Mythrite Hauberk",
+      "fr": "Haubert en mithrite collectionnable",
+      "ja": "収集用のミスライトホーバーク",
+      "ko": "Rarefied Mythrite Hauberk"
+    },
+    "suggestedCraftsmanship": 502
+  },
+  {
     "baseLevel": 53,
     "difficulty": 586,
     "durability": 80,
@@ -6963,6 +6815,23 @@
       "fr": "Coffre de pisteur",
       "ja": "レンジャーズチェスト",
       "ko": "Hunting Supplies"
+    },
+    "suggestedCraftsmanship": 529
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "id": "d1b2f443279",
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "cn": "Rarefied Mythrite Bladed Lantern Shield",
+      "de": "Mythrit-Laternenschild (Sammlerstück)",
+      "en": "Rarefied Mythrite Bladed Lantern Shield",
+      "fr": "Bouclier lanterne en mithrite collectionnable",
+      "ja": "収集用のミスライトブレードシールド",
+      "ko": "Rarefied Mythrite Bladed Lantern Shield"
     },
     "suggestedCraftsmanship": 529
   },
@@ -7237,6 +7106,23 @@
       "ko": "티타늄 수호자 쇠구두"
     },
     "suggestedCraftsmanship": 539
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "id": "fd648c74618",
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "cn": "Rarefied Titanium Frypan",
+      "de": "Titan-Bratpfanne (Sammlerstück)",
+      "en": "Rarefied Titanium Frypan",
+      "fr": "Poêle à frire en titane collectionnable",
+      "ja": "収集用のチタンフライパン",
+      "ko": "Rarefied Titanium Frypan"
+    },
+    "suggestedCraftsmanship": 550
   },
   {
     "baseLevel": 56,
@@ -7886,6 +7772,23 @@
   },
   {
     "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "id": "9f4e645ca06",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Rarefied Titanium Vambraces",
+      "de": "Titan-Unterarmschienen (Sammlerstück)",
+      "en": "Rarefied Titanium Vambraces",
+      "fr": "Canons d'avant-bras en titane collectionnables",
+      "ja": "収集用のチタンヴァンブレイス",
+      "ko": "Rarefied Titanium Vambraces"
+    },
+    "suggestedCraftsmanship": 570
+  },
+  {
+    "baseLevel": 58,
     "difficulty": 1553,
     "durability": 70,
     "id": "dfac22650f9",
@@ -8500,6 +8403,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "ae2c0b08307",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Cookpot",
+      "de": "Federfall-Kochtopf",
+      "en": "Grade 3 Skybuilders' Cookpot",
+      "fr": "Marmite suspendue de restauration (3e phase)",
+      "ja": "第三次復興用のクッキングポット",
+      "ko": "Grade 3 Skybuilders' Cookpot"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "77d7e984735",
     "level": 150,
     "maxQuality": 6280,
@@ -8646,6 +8566,23 @@
       "fr": "Répliques de produits régionaux",
       "ja": "投擲用特産品",
       "ko": "투척용 특산품"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "7a53094bfd7",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Rarefied Adamantite Scutum",
+      "de": "Adamantium-Turmschild (Sammlerstück)",
+      "en": "Rarefied Adamantite Scutum",
+      "fr": "Scutum en adamantium collectionnable",
+      "ja": "収集用のアダマンスクトゥム",
+      "ko": "Rarefied Adamantite Scutum"
     },
     "suggestedCraftsmanship": 587
   },
@@ -10401,6 +10338,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "ae67e1d265d",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Shield of the Demon",
+      "de": "Schild des Dämons",
+      "en": "Shield of the Demon",
+      "fr": "Bouclier du Démon",
+      "ja": "シールド・オブ・デモン",
+      "ko": "Shield of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "45ae9568161",
     "level": 210,
     "maxQuality": 8298,
@@ -11665,6 +11621,23 @@
     "suggestedCraftsmanship": 1027
   },
   {
+    "baseLevel": 62,
+    "difficulty": 1263,
+    "durability": 80,
+    "id": "242a89c1c6d",
+    "level": 265,
+    "maxQuality": 8581,
+    "name": {
+      "cn": "Rarefied High Steel Thermal Alembic",
+      "de": "Edelstahl-Destillierkolben (Sammlerstück)",
+      "en": "Rarefied High Steel Thermal Alembic",
+      "fr": "Alambic thermique en acier noble collectionnable",
+      "ja": "収集用のハイスチール・サーマルアレンビック",
+      "ko": "Rarefied High Steel Thermal Alembic"
+    },
+    "suggestedCraftsmanship": 1027
+  },
+  {
     "baseLevel": 63,
     "difficulty": 1476,
     "durability": 60,
@@ -12090,6 +12063,23 @@
     "suggestedCraftsmanship": 1044
   },
   {
+    "baseLevel": 64,
+    "difficulty": 1586,
+    "durability": 80,
+    "id": "0c8b831835c",
+    "level": 273,
+    "maxQuality": 9657,
+    "name": {
+      "cn": "Rarefied High Steel Plate Belt",
+      "de": "Edelstahl-Plattengürtel (Sammlerstück)",
+      "en": "Rarefied High Steel Plate Belt",
+      "fr": "Ceinture de plaques en acier noble collectionnable",
+      "ja": "収集用のハイスチールプレートベルト",
+      "ko": "Rarefied High Steel Plate Belt"
+    },
+    "suggestedCraftsmanship": 1044
+  },
+  {
     "baseLevel": 65,
     "difficulty": 1697,
     "durability": 80,
@@ -12460,6 +12450,23 @@
       "fr": "Matériaux raffinés pour composant pour eau-de-vie du Bord du gouffre",
       "ja": "崖っぷち蒸留酒必需品部材",
       "ko": "벼랑 끝 증류주 필수품 부재"
+    },
+    "suggestedCraftsmanship": 1056
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1808,
+    "durability": 80,
+    "id": "579d5d1094a",
+    "level": 279,
+    "maxQuality": 10389,
+    "name": {
+      "cn": "Rarefied Doman Iron Greaves",
+      "de": "Domaeisen-Beinschienen (Sammlerstück)",
+      "en": "Rarefied Doman Iron Greaves",
+      "fr": "Jambards en fer domien collectionnables",
+      "ja": "収集用のドマアイアングリーヴ",
+      "ko": "Rarefied Doman Iron Greaves"
     },
     "suggestedCraftsmanship": 1056
   },
@@ -12839,6 +12846,23 @@
   },
   {
     "baseLevel": 68,
+    "difficulty": 2029,
+    "durability": 80,
+    "id": "375123e9888",
+    "level": 285,
+    "maxQuality": 11121,
+    "name": {
+      "cn": "Rarefied Doman Steel Tabard",
+      "de": "Domastahl-Wappenrock (Sammlerstück)",
+      "en": "Rarefied Doman Steel Tabard",
+      "fr": "Tabard en acier domien collectionnable",
+      "ja": "収集用のドマスチールタバード",
+      "ko": "Rarefied Doman Steel Tabard"
+    },
+    "suggestedCraftsmanship": 1069
+  },
+  {
+    "baseLevel": 68,
     "difficulty": 1420,
     "durability": 80,
     "id": "009dc56ffe2",
@@ -12941,6 +12965,261 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "56d4b12045f",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Armament Repair Kit",
+      "de": "Reparaturwerkzeug",
+      "en": "Armament Repair Kit",
+      "fr": "Composant de réparation",
+      "ja": "武具補修材",
+      "ko": "Armament Repair Kit"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "45b606541e9",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Automaton Repair Component",
+      "de": "Reparaturwerkstoff für Eisenbärte",
+      "en": "Automaton Repair Component",
+      "fr": "Composant de réparation d'automate",
+      "ja": "オートマトン修理部材",
+      "ko": "Automaton Repair Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2546,
+    "durability": 70,
+    "id": "638f5c09299",
+    "level": 290,
+    "maxQuality": 17017,
+    "name": {
+      "cn": "Automaton Worker Supplies",
+      "de": "Fließbandkomponenten",
+      "en": "Automaton Worker Supplies",
+      "fr": "Composants de chaîne de montage",
+      "ja": "オートメーション必要部材",
+      "ko": "Automaton Worker Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "2acdc3438ce",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Axle Component",
+      "de": "Experimentelles Achsenzubehörteil",
+      "en": "Axle Component",
+      "fr": "Composant d'essieu expérimental",
+      "ja": "摩耗軽減部材",
+      "ko": "Axle Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "47b7bf4d57d",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Bespoke Barter Item",
+      "de": "Handelsgut",
+      "en": "Bespoke Barter Item",
+      "fr": "Objet pour le marchand mord",
+      "ja": "代金代わりの商品",
+      "ko": "Bespoke Barter Item"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "34e1a788e91",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Blueprint Supplies",
+      "de": "Schreibutensil",
+      "en": "Blueprint Supplies",
+      "fr": "Ustensile de dessin",
+      "ja": "ドワーフ製図用具",
+      "ko": "Blueprint Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2324,
+    "durability": 70,
+    "id": "83746b5a83b",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Brewery Supplies",
+      "de": "Brauereikomponenten",
+      "en": "Brewery Supplies",
+      "fr": "Composants de brasserie",
+      "ja": "醸造設備の必需品",
+      "ko": "Brewery Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "0002cdac04e",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Cask Component",
+      "de": "Fassbestandteil",
+      "en": "Cask Component",
+      "fr": "Composant de fût",
+      "ja": "酒樽部材",
+      "ko": "Cask Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "8496d99ccd8",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Cooling Device Component",
+      "de": "Kühlmittel",
+      "en": "Cooling Device Component",
+      "fr": "Article refroidissant",
+      "ja": "冷却機構部材",
+      "ko": "Cooling Device Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "75ea6e09e40",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Core Tank Component",
+      "de": "Zubehörteil des Zwergenpanzers",
+      "en": "Core Tank Component",
+      "fr": "Pièce complexe d'automatank",
+      "ja": "車体重要部材",
+      "ko": "Core Tank Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "b977218e93e",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Crystal Cannon Supplies",
+      "de": "Geschützkomponenten",
+      "en": "Crystal Cannon Supplies",
+      "fr": "Composants de canon",
+      "ja": "主砲の重要部材",
+      "ko": "Crystal Cannon Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "139b05dad0f",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Engine Component",
+      "de": "Hilfsmittel für die Motorwartung",
+      "en": "Engine Component",
+      "fr": "Composant d'amélioration de moteur",
+      "ja": "エンジン保全部材",
+      "ko": "Engine Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "d92cdc030bc",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Experimental Plating Component",
+      "de": "Bestandteil der Panzerung des Zwergenpanzers",
+      "en": "Experimental Plating Component",
+      "fr": "Pièce de renforcement",
+      "ja": "試作装甲用部材",
+      "ko": "Experimental Plating Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "ddbda36e428",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Eye-catching Custom Option",
+      "de": "Auffälliges Zubehörteil",
+      "en": "Eye-catching Custom Option",
+      "fr": "Option de personnalisation criarde",
+      "ja": "ド派手な外装オプション",
+      "ko": "Eye-catching Custom Option"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "e611d910d63",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Filtration Supplies",
+      "de": "Utensil zum Experimentieren mit Zwergensprit",
+      "en": "Filtration Supplies",
+      "fr": "Ustensile d'expérience de raffinage",
+      "ja": "精製実験用品",
+      "ko": "Filtration Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1549,
     "durability": 60,
     "id": "5cf773eb1b1",
@@ -12967,9 +13246,60 @@
       "cn": "Grade 2 Skybuilders' Mesail",
       "de": "Genist-Mesailvisier",
       "en": "Grade 2 Skybuilders' Mesail",
-      "fr": "Mésail de restauration (2e phase)",
+      "fr": "Mézail de restauration (2e phase)",
       "ja": "第二次復興用のメセイル",
       "ko": "Grade 2 Skybuilders' Mesail"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "0154bdc3b42",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Mesail",
+      "de": "Federfall-Mesailvisier",
+      "en": "Grade 3 Skybuilders' Mesail",
+      "fr": "Mézail de restauration (3e phase)",
+      "ja": "第三次復興用のメセイル",
+      "ko": "Grade 3 Skybuilders' Mesail"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "8baa7ec1070",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Grooming Kit",
+      "de": "Pflegeprodukt für den Bart",
+      "en": "Grooming Kit",
+      "fr": "Ustensile d'entretien de barbe",
+      "ja": "ヒゲのお手入れ用具",
+      "ko": "Grooming Kit"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "d33644efa0d",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Heat-resistant Component",
+      "de": "Hitzebeständiger Bestandteil",
+      "en": "Heat-resistant Component",
+      "fr": "Article réfractaire",
+      "ja": "耐熱性部材",
+      "ko": "Heat-resistant Component"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -12987,6 +13317,23 @@
       "fr": "Hara-ate éorzéen",
       "ja": "リムサ・ロミンサ式腹当",
       "ko": "림사 로민사식 복갑"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "46e33d67afa",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Low-profile Custom Option",
+      "de": "Unauffälliges Zubehörteil",
+      "en": "Low-profile Custom Option",
+      "fr": "Option de personnalisation discrète",
+      "ja": "低視認性外装オプション",
+      "ko": "Low-profile Custom Option"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -13078,6 +13425,23 @@
   {
     "baseLevel": 70,
     "difficulty": 2214,
+    "durability": 80,
+    "id": "26f9641c46b",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Rarefied Molybdenum Headgear",
+      "de": "Molybdän-Kopfbedeckung (Sammlerstück)",
+      "en": "Rarefied Molybdenum Headgear",
+      "fr": "Protège-tête en molybdène collectionnable",
+      "ja": "収集用のモリブデンヘッドギア",
+      "ko": "Rarefied Molybdenum Headgear"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
     "durability": 60,
     "id": "52a68133664",
     "level": 290,
@@ -13089,6 +13453,108 @@
       "fr": "Cuisine de restauration",
       "ja": "復興用の調理台",
       "ko": "Skybuilders' Counter"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "f6fd304b8cd",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Steel Plate Component",
+      "de": "Hilfsmittel für die Stahlplattenproduktion",
+      "en": "Steel Plate Component",
+      "fr": "Composant de plaque de métal",
+      "ja": "鋼板増産部材",
+      "ko": "Steel Plate Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "4ad93dbe913",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Tavern Materials",
+      "de": "Barzubehörteil",
+      "en": "Tavern Materials",
+      "fr": "Article pour la taverne",
+      "ja": "酒場必需品",
+      "ko": "Tavern Materials"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "1cba9ed603b",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Test-fire Target Dummy",
+      "de": "Zielscheibe",
+      "en": "Test-fire Target Dummy",
+      "fr": "Cible de test",
+      "ja": "試射用標的",
+      "ko": "Test-fire Target Dummy"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "68855482dd2",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Unfailing Eye Opener",
+      "de": "Ronitts Muntermacher",
+      "en": "Unfailing Eye Opener",
+      "fr": "Objet pour un réveil brutal",
+      "ja": "目覚めの秘密道具",
+      "ko": "Unfailing Eye Opener"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2546,
+    "durability": 70,
+    "id": "62987ca94ef",
+    "level": 290,
+    "maxQuality": 16430,
+    "name": {
+      "cn": "Workshop Expansion Supplies",
+      "de": "Komponenten für eine Werkstattserweiterung",
+      "en": "Workshop Expansion Supplies",
+      "fr": "Composants d'atelier annexe",
+      "ja": "ガレージ拡張用の部材",
+      "ko": "Workshop Expansion Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "9cfaf79f2b9",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Workshop Supplies",
+      "de": "Werkstattzubehör",
+      "en": "Workshop Supplies",
+      "fr": "Composants d'atelier mécanique",
+      "ja": "作業場の必需品",
+      "ko": "Workshop Supplies"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -13379,6 +13845,24 @@
     "baseLevel": 70,
     "difficulty": 2657,
     "durability": 70,
+    "id": "743d7aed90c",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Seiryu's Sanctified Shield",
+      "de": "Schild des Schlangengotts",
+      "en": "Seiryu's Sanctified Shield",
+      "fr": "Bouclier de Seiryû flamboyant",
+      "ja": "青龍大盾【輝】",
+      "ko": "Seiryu's Sanctified Shield"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
     "id": "08d6d5ad3cb",
     "level": 320,
     "maxQuality": 6255,
@@ -13408,6 +13892,24 @@
       "fr": "Grand bouclier de Shinryu flamboyant",
       "ja": "神龍大盾【輝】",
       "ko": "Shinryu's Ephemeral Shield"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "4c46c5dbef7",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Suzaku's Flame-kissed Shield",
+      "de": "Schild des Feuervogels",
+      "en": "Suzaku's Flame-kissed Shield",
+      "fr": "Bouclier de Suzaku flamboyant",
+      "ja": "朱雀大盾【輝】",
+      "ko": "Suzaku's Flame-kissed Shield"
     },
     "stars": 2,
     "suggestedCraftsmanship": 1320
@@ -13486,6 +13988,24 @@
     },
     "stars": 2,
     "suggestedControl": 1220,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "51dd1cf579c",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Tsukuyomi's Moonlit Shield",
+      "de": "Schild des Mondlichts",
+      "en": "Tsukuyomi's Moonlit Shield",
+      "fr": "Bouclier de Tsukuyomi flamboyant",
+      "ja": "月読命之盾【輝】",
+      "ko": "Tsukuyomi's Moonlit Shield"
+    },
+    "stars": 2,
     "suggestedCraftsmanship": 1320
   },
   {
@@ -13909,6 +14429,23 @@
   {
     "baseLevel": 71,
     "difficulty": 3149,
+    "durability": 60,
+    "id": "8ef9d9cc9cf",
+    "level": 390,
+    "maxQuality": 10468,
+    "name": {
+      "cn": "Custom Gathering Tool Components",
+      "de": "Komponenten für ein spezielles Sammlerwerkzeug",
+      "en": "Custom Gathering Tool Components",
+      "fr": "Outils de récolte pour dragon",
+      "ja": "ドラゴン用採集道具部材",
+      "ko": "Custom Gathering Tool Components"
+    },
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
     "durability": 80,
     "id": "e91d4b94e8b",
     "level": 390,
@@ -14215,6 +14752,23 @@
   {
     "baseLevel": 72,
     "difficulty": 3248,
+    "durability": 60,
+    "id": "b24108e9209",
+    "level": 395,
+    "maxQuality": 10928,
+    "name": {
+      "cn": "Custom Weaving Components",
+      "de": "Komponenten für ein spezielles Weberwerkzeug",
+      "en": "Custom Weaving Components",
+      "fr": "Ustensiles de couture pour dragon",
+      "ja": "ドラゴン用裁縫用具",
+      "ko": "Custom Weaving Components"
+    },
+    "suggestedCraftsmanship": 1388
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
     "durability": 80,
     "id": "ac1b514b80e",
     "level": 395,
@@ -14417,6 +14971,23 @@
     "suggestedCraftsmanship": 1388
   },
   {
+    "baseLevel": 72,
+    "difficulty": 3085,
+    "durability": 80,
+    "id": "73eecbed113",
+    "level": 395,
+    "maxQuality": 12977,
+    "name": {
+      "cn": "Rarefied Deepgold Cuirass",
+      "de": "Dunkelgold-Kürass (Sammlerstück)",
+      "en": "Rarefied Deepgold Cuirass",
+      "fr": "Cuirasse en or incarnat collectionnable",
+      "ja": "収集用のディープゴールドキュイラス",
+      "ko": "Rarefied Deepgold Cuirass"
+    },
+    "suggestedCraftsmanship": 1388
+  },
+  {
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 60,
@@ -14430,6 +15001,23 @@
       "fr": "Souvenir du cabaret",
       "ja": "キャバレー土産品",
       "ko": "Beehive Souvenir"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "5875b790f38",
+    "level": 400,
+    "maxQuality": 11249,
+    "name": {
+      "cn": "Custom Crafting Tool Components",
+      "de": "Komponenten für ein spezielles Werkzeug",
+      "en": "Custom Crafting Tool Components",
+      "fr": "Outils d'artisanat pour dragon",
+      "ja": "ドラゴン用職人道具部材",
+      "ko": "Custom Crafting Tool Components"
     },
     "suggestedCraftsmanship": 1457
   },
@@ -14774,6 +15362,40 @@
     "suggestedCraftsmanship": 1498
   },
   {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 60,
+    "id": "6bdec35efc1",
+    "level": 403,
+    "maxQuality": 11585,
+    "name": {
+      "cn": "Handpicked Culinary Essentials",
+      "de": "Handverlesene kulinarische Köstlichkeiten",
+      "en": "Handpicked Culinary Essentials",
+      "fr": "Sandwichs pour dragon",
+      "ja": "ドラゴンおもてなし料理必需品",
+      "ko": "Handpicked Culinary Essentials"
+    },
+    "suggestedCraftsmanship": 1498
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "ba6dc7ff62c",
+    "level": 403,
+    "maxQuality": 14482,
+    "name": {
+      "cn": "Rarefied Deepgold Wings",
+      "de": "Dunkelgold-Schwingen (Sammlerstück)",
+      "en": "Rarefied Deepgold Wings",
+      "fr": "Diadème en or incarnat collectionnable",
+      "ja": "収集用のディープゴールドウィングス",
+      "ko": "Rarefied Deepgold Wings"
+    },
+    "suggestedCraftsmanship": 1498
+  },
+  {
     "baseLevel": 75,
     "difficulty": 3467,
     "durability": 80,
@@ -14891,6 +15513,40 @@
       "ko": "Metal Trident"
     },
     "suggestedCraftsmanship": 1539
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 60,
+    "id": "c6673f0cb53",
+    "level": 406,
+    "maxQuality": 11921,
+    "name": {
+      "cn": "Printing Essentials",
+      "de": "Druckutensilien",
+      "en": "Printing Essentials",
+      "fr": "Lot d'imprimerie",
+      "ja": "印刷必需品",
+      "ko": "Printing Essentials"
+    },
+    "suggestedCraftsmanship": 1539
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "c3d1de2f4cd",
+    "level": 409,
+    "maxQuality": 15322,
+    "name": {
+      "cn": "Rarefied Bluespirit Gauntlets",
+      "de": "Seelenazurit-Panzerhandschuhe (Sammlerstück)",
+      "en": "Rarefied Bluespirit Gauntlets",
+      "fr": "Gantelets en azuresprit collectionnables",
+      "ja": "収集用のブルースピリットガントレット",
+      "ko": "Rarefied Bluespirit Gauntlets"
+    },
+    "suggestedCraftsmanship": 1580
   },
   {
     "baseLevel": 76,
@@ -15403,6 +16059,23 @@
     "suggestedCraftsmanship": 1662
   },
   {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
+    "id": "e186a0cd7e9",
+    "level": 415,
+    "maxQuality": 16162,
+    "name": {
+      "cn": "Rarefied Titanbronze Tower Shield",
+      "de": "Titanbronze-Turmschild (Sammlerstück)",
+      "en": "Rarefied Titanbronze Tower Shield",
+      "fr": "Pavois en bronze titané collectionnable",
+      "ja": "収集用のチタンブロンズ・タワーシールド",
+      "ko": "Rarefied Titanbronze Tower Shield"
+    },
+    "suggestedCraftsmanship": 1662
+  },
+  {
     "baseLevel": 79,
     "difficulty": 3705,
     "durability": 80,
@@ -15576,6 +16249,108 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "0518616cec1",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Factory Automatic Door",
+      "de": "Fabrik-Automatiktür",
+      "en": "Factory Automatic Door",
+      "fr": "Porte automatique usine désaffectée",
+      "ja": "複製サレタ自動扉",
+      "ko": "Factory Automatic Door"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0e8469b56e3",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Factory Beam",
+      "de": "Fabrik-Balken",
+      "en": "Factory Beam",
+      "fr": "Poutrelle usine désaffectée",
+      "ja": "複製サレタ梁",
+      "ko": "Factory Beam"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0b4196ae03b",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Factory Bench",
+      "de": "Fabrik-Sitzbank",
+      "en": "Factory Bench",
+      "fr": "Sofa usine désaffectée",
+      "ja": "複製サレタ長椅子",
+      "ko": "Factory Bench"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "37bf071323c",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Factory Flooring",
+      "de": "Fabrik-Metallboden",
+      "en": "Factory Flooring",
+      "fr": "Parquet usine désaffectée",
+      "ja": "複製サレタ床板",
+      "ko": "Factory Flooring"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "cbbaf773d14",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Factory Interior Wall",
+      "de": "Fabrik-Innenwand",
+      "en": "Factory Interior Wall",
+      "fr": "Mur intérieur usine désaffectée",
+      "ja": "複製サレタ内壁",
+      "ko": "Factory Interior Wall"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "fa961594364",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Factory Staircase",
+      "de": "Fabrik-Treppe",
+      "en": "Factory Staircase",
+      "fr": "Escalier usine désaffectée",
+      "ja": "複製サレタ階段",
+      "ko": "Factory Staircase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "41fcd0ef9ed",
     "level": 430,
     "maxQuality": 9131,
@@ -15609,17 +16384,68 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "e5f70c09ec8",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Lamppost",
+      "de": "Federfall-Laterne",
+      "en": "Grade 3 Skybuilders' Lamppost",
+      "fr": "Lampadaire de restauration (3e phase)",
+      "ja": "第三次復興用の街灯",
+      "ko": "Grade 3 Skybuilders' Lamppost"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "0a41d04dc79",
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "绿洲壁挂喷泉",
+      "cn": "Oasis Wall-mounted Fountain",
       "de": "Oasen-Wandbrunnen",
-      "en": "Oasis Wall-Mounted Fountain",
+      "en": "Oasis Wall-mounted Fountain",
       "fr": "Fontaine murale thanalanaise",
       "ja": "オアシス・ウォールファウンテン",
-      "ko": "Oasis Wall-Mounted Fountain"
+      "ko": "Oasis Wall-mounted Fountain"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "7357b87dbbd",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Wire",
+      "de": "Werkstätten-Draht",
+      "en": "Oddly Specific Wire",
+      "fr": "Fil de fer d'affinage",
+      "ja": "改良用のワイヤー",
+      "ko": "Oddly Specific Wire"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "5ab0973671c",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Rarefied Mythril Alembic",
+      "de": "Edelmithril-Destillierkolben (Sammlerstück)",
+      "en": "Rarefied Mythril Alembic",
+      "fr": "Alambic en mithril noble collectionnable",
+      "ja": "収集用のハイミスリルアレンビック",
+      "ko": "Rarefied Mythril Alembic"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -16024,6 +16850,42 @@
     "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
+    "id": "af91eefbcf4",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Chainmail Sheet",
+      "de": "Werkstätten-Ringplatte",
+      "en": "Oddly Specific Chainmail Sheet",
+      "fr": "Cadène d'affinage",
+      "ja": "改良用のチェーンプレート",
+      "ko": "Oddly Specific Chainmail Sheet"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "b59c21a3b35",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Mythril Rings",
+      "de": "Werkstätten-Mithrildraht-Ringe",
+      "en": "Oddly Specific Mythril Rings",
+      "fr": "Anneaux en mithril d'affinage",
+      "ja": "改良用のミスリルリングズ",
+      "ko": "Oddly Specific Mythril Rings"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
     "id": "90a23792c5d",
     "level": 450,
     "maxQuality": 11697,
@@ -16079,6 +16941,63 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "07beadd6a48",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Alembic",
+      "de": "Ästhetischer Destillierkolben",
+      "en": "Aesthete's Alembic",
+      "fr": "Alambic esthétique",
+      "ja": "エースセチック・アレンビック",
+      "ko": "Aesthete's Alembic"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "f20d22fafb3",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Frypan",
+      "de": "Ästhetische Bratpfanne",
+      "en": "Aesthete's Frypan",
+      "fr": "Poêle à frire esthétique",
+      "ja": "エースセチック・フライパン",
+      "ko": "Aesthete's Frypan"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5437,
+    "durability": 35,
+    "id": "cd2bc7f1057",
+    "level": 480,
+    "maxQuality": 37501,
+    "name": {
+      "cn": "Brashgold Plate",
+      "de": "Maschinenbronzeplatte",
+      "en": "Brashgold Plate",
+      "fr": "Plaque de bronze à canon",
+      "ja": "ガンメタルプレート",
+      "ko": "Brashgold Plate"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4943,
     "durability": 35,
     "id": "9bb02f3dad5",
@@ -16110,25 +17029,6 @@
       "fr": "Âtre sur commande de restauration (2e phase)",
       "ja": "第二次復興用の特注暖炉",
       "ko": "Grade 2 Artisanal Skybuilders' Fireplace"
-    },
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 9181,
-    "durability": 60,
-    "id": "4439c911671",
-    "level": 480,
-    "maxQuality": 64862,
-    "name": {
-      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
-      "de": "Sonderbestelltes Genist-Musterstück",
-      "en": "Grade 2 Expert Skybuilders' Practice Materials",
-      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
-      "ja": "第二次復興事業用の特注習作",
-      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
     },
     "stars": 3,
     "suggestedControl": 2195,
@@ -16402,40 +17302,377 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6178,
+    "difficulty": 4943,
     "durability": 70,
-    "id": "f714488968a",
+    "id": "e70abfd01e5",
     "level": 480,
-    "maxQuality": 36208,
+    "maxQuality": 51726,
     "name": {
-      "cn": "Rank VIII Artisan's Durable Practice Materials (patch 5.2)",
-      "de": "Musterstück VIII (Belastbarkeit: 70)",
-      "en": "Rank VIII Artisan's Durable Practice Materials",
-      "fr": "Échantillon expérimental de niveau 8 [Solidité 70]",
-      "ja": "第8巻級の習作【耐久70】",
-      "ko": "Rank VIII Artisan's Durable Practice Materials"
+      "cn": "Oddly Specific Mythril Plate",
+      "de": "Werkstätten-Mithril-Platte",
+      "en": "Oddly Specific Mythril Plate",
+      "fr": "Plaque de mithril d'affinage",
+      "ja": "改良用のミスリルプレート",
+      "ko": "Oddly Specific Mythril Plate"
     },
     "stars": 3,
-    "suggestedControl": 2195,
     "suggestedCraftsmanship": 2480
   },
   {
     "baseLevel": 80,
     "difficulty": 4943,
-    "durability": 35,
-    "id": "6907c97377f",
+    "durability": 70,
+    "id": "b155e2e8766",
     "level": 480,
-    "maxQuality": 32328,
+    "maxQuality": 12931,
     "name": {
-      "cn": "Rank VIII Artisan's Fragile Practice Materials (patch 5.2)",
-      "de": "Musterstück VIII (Belastbarkeit: 35)",
-      "en": "Rank VIII Artisan's Fragile Practice Materials",
-      "fr": "Échantillon expérimental de niveau 8 [Solidité 35]",
-      "ja": "第8巻級の習作【耐久35】",
-      "ko": "Rank VIII Artisan's Fragile Practice Materials"
+      "cn": "Trophy of Light",
+      "de": "Krieger-des-Lichts-Trophäe",
+      "en": "Trophy of Light",
+      "fr": "Trophée de la Lumière",
+      "ja": "トロフィー・オブ・ライト",
+      "ko": "Trophy of Light"
     },
     "stars": 3,
-    "suggestedControl": 2195,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "ca99e44a3b8",
+    "level": 480,
+    "maxQuality": 12931,
+    "name": {
+      "cn": "True Barding of Light",
+      "de": "Rossharnisch des Lichts",
+      "en": "True Barding of Light",
+      "fr": "Barde de la Lumière véritable",
+      "ja": "トゥルーバード・オブ・ライト",
+      "ko": "True Barding of Light"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "92fa8258f47",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Duraluminum Ingot",
+      "de": "Duraluminium-Barren",
+      "en": "Duraluminum Ingot",
+      "fr": "Lingot de duralium",
+      "ja": "ジュラルミンインゴット",
+      "ko": "Duraluminum Ingot"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "737c397bcf6",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Emerald Barding",
+      "de": "Smaragd-Rossharnisch",
+      "en": "Emerald Barding",
+      "fr": "Barde Smaragdus",
+      "ja": "エメラルド・バード",
+      "ko": "Emerald Barding"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "4fe2c885e15",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Emerald Weapon Bust",
+      "de": "Smaragd-Waffenbüste",
+      "en": "Emerald Weapon Bust",
+      "fr": "Buste Arme Émeraude",
+      "ja": "エメラルドウェポン・ディスプレイ",
+      "ko": "Emerald Weapon Bust"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "85a5381ec45",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Circlet of Fending",
+      "de": "Exarchen-Stirnreif der Verteidigung",
+      "en": "Exarchic Circlet of Fending",
+      "fr": "Diadème de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーサークレット",
+      "ko": "Exarchic Circlet of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "cee57f1876f",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Circlet of Maiming",
+      "de": "Exarchen-Stirnreif des Verstümmelns",
+      "en": "Exarchic Circlet of Maiming",
+      "fr": "Diadème d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーサークレット",
+      "ko": "Exarchic Circlet of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ef105e7a456",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Coat of Fending",
+      "de": "Exarchen-Mantel der Verteidigung",
+      "en": "Exarchic Coat of Fending",
+      "fr": "Manteau de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーコート",
+      "ko": "Exarchic Coat of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0ad68f8ea15",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gauntlets of Fending",
+      "de": "Exarchen-Panzerhandschuhe der Verteidigung",
+      "en": "Exarchic Gauntlets of Fending",
+      "fr": "Gantelets de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーガントレット",
+      "ko": "Exarchic Gauntlets of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "34e23586560",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gauntlets of Maiming",
+      "de": "Exarchen-Panzerhandschuhe des Verstümmelns",
+      "en": "Exarchic Gauntlets of Maiming",
+      "fr": "Gantelets d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーガントレット",
+      "ko": "Exarchic Gauntlets of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "434c27a8022",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Mail of Maiming",
+      "de": "Exarchen-Rüstung des Verstümmelns",
+      "en": "Exarchic Mail of Maiming",
+      "fr": "Cotte de mailles d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーメイル",
+      "ko": "Exarchic Mail of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9910c69e232",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Casting",
+      "de": "Exarchen-Gürtel der Magie",
+      "en": "Exarchic Plate Belt of Casting",
+      "fr": "Ceinture de plaques d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスタープレートベルト",
+      "ko": "Exarchic Plate Belt of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ec06a583692",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Fending",
+      "de": "Exarchen-Plattengürtel der Verteidigung",
+      "en": "Exarchic Plate Belt of Fending",
+      "fr": "Ceinture de plaques de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダープレートベルト",
+      "ko": "Exarchic Plate Belt of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "f9caad90c24",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Healing",
+      "de": "Exarchen-Gürtel der Heilung",
+      "en": "Exarchic Plate Belt of Healing",
+      "fr": "Ceinture de plaques de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラープレートベルト",
+      "ko": "Exarchic Plate Belt of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "1bdd324931a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Maiming",
+      "de": "Exarchen-Plattengürtel des Verstümmelns",
+      "en": "Exarchic Plate Belt of Maiming",
+      "fr": "Ceinture de plaques d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤープレートベルト",
+      "ko": "Exarchic Plate Belt of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "046d95ee838",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sabatons of Fending",
+      "de": "Exarchen-Bärlatschen der Verteidigung",
+      "en": "Exarchic Sabatons of Fending",
+      "fr": "Sabatons de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーサバトン",
+      "ko": "Exarchic Sabatons of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c740473f34e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sabatons of Maiming",
+      "de": "Exarchen-Bärlatschen des Verstümmelns",
+      "en": "Exarchic Sabatons of Maiming",
+      "fr": "Sabatons d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーサバトン",
+      "ko": "Exarchic Sabatons of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "949719fb270",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Tower Shield",
+      "de": "Exarchen-Turmschild",
+      "en": "Exarchic Tower Shield",
+      "fr": "Pavois de l'exarchat",
+      "ja": "エクサーク・タワーシールド",
+      "ko": "Exarchic Tower Shield"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "d544a37121a",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Door",
+      "de": "Sonderbestellte Federfall-Tür",
+      "en": "Grade 3 Artisanal Skybuilders' Door",
+      "fr": "Porte sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注ドア",
+      "ko": "Grade 3 Artisanal Skybuilders' Door"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]

@@ -2059,6 +2059,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "663dfe49783",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Rope",
+      "de": "Federfall-Strohseil",
+      "en": "Grade 3 Skybuilders' Rope",
+      "fr": "Corde de restauration (3e phase)",
+      "ja": "第三次復興用の荒縄",
+      "ko": "Grade 3 Skybuilders' Rope"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "14c332f05cb",
     "level": 20,
@@ -4507,6 +4524,23 @@
   {
     "baseLevel": 40,
     "difficulty": 138,
+    "durability": 60,
+    "id": "c548a9523b9",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Cloth",
+      "de": "Federfall-Stoffballen",
+      "en": "Grade 3 Skybuilders' Cloth",
+      "fr": "Étoffe de restauration (3e phase)",
+      "ja": "第三次復興用の生地",
+      "ko": "Grade 3 Skybuilders' Cloth"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
     "durability": 80,
     "id": "6f9092defd3",
     "level": 40,
@@ -6614,6 +6648,23 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 292,
+    "durability": 80,
+    "id": "a8321ead411",
+    "level": 50,
+    "maxQuality": 4114,
+    "name": {
+      "cn": "Rarefied Rainbow Bolero",
+      "de": "Regenbogen-Bolero (Sammlerstück)",
+      "en": "Rarefied Rainbow Bolero",
+      "fr": "Boléro en étoffe arc-en-ciel collectionnable",
+      "ja": "収集用のレインボークロスボレロ",
+      "ko": "Rarefied Rainbow Bolero"
+    },
+    "suggestedCraftsmanship": 314
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 334,
     "durability": 80,
     "id": "7fa198b8ce2",
@@ -7730,258 +7781,6 @@
       "fr": "Pantalon de couturier",
       "ja": "ウィーバートラウザー",
       "ko": "재봉사 긴바지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "844b0d170e2",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼外袍",
-      "de": "Wolf-Bliaud",
-      "en": "Wolf Bliaud",
-      "fr": "Bliaud de loup",
-      "ja": "ウルフブリオー",
-      "ko": "늑대 블리오"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "efb5af1d43a",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼弓术手套",
-      "de": "Wolf-Armschienen",
-      "en": "Wolf Bracers",
-      "fr": "Brassières de loup",
-      "ja": "ウルフブレーサー",
-      "ko": "늑대 손보호구"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "2f553dded88",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼骑士帽",
-      "de": "Wolf-Kavaliershut",
-      "en": "Wolf Cavalier's Hat",
-      "fr": "Chapeau de cavalier de loup",
-      "ja": "ウルフキャバリエハット",
-      "ko": "늑대 근위대 모자"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "0de1ba98c94",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼礼服手套",
-      "de": "Wolf-Galahandschuhe",
-      "en": "Wolf Dress Gloves",
-      "fr": "Gants d'apparat de loup",
-      "ja": "ウルフドレスグローブ",
-      "ko": "늑대 예식 장갑"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "1db2ac507af",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼礼鞋",
-      "de": "Wolf-Galaschuhe",
-      "en": "Wolf Dress Shoes",
-      "fr": "Chaussures d'apparat de loup",
-      "ja": "ウルフドレスシューズ",
-      "ko": "늑대 예식 구두"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "0d67a152599",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼束膝裤",
-      "de": "Wolf-Gaskin",
-      "en": "Wolf Gaskins",
-      "fr": "Grègues de loup",
-      "ja": "ウルフガスキン",
-      "ko": "늑대 무릎바지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "512f5ebd81b",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼宽边帽",
-      "de": "Wolf-Hut",
-      "en": "Wolf Hat",
-      "fr": "Chapeau de loup",
-      "ja": "ウルフハット",
-      "ko": "늑대 모자"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "33bf31a81aa",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼腿套",
-      "de": "Wolf-Kecks",
-      "en": "Wolf Kecks",
-      "fr": "Bénard de loup",
-      "ja": "ウルフケクス",
-      "ko": "늑대 덧바지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "7179714b33f",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼狩猎帽",
-      "de": "Wolf-Försterhut",
-      "en": "Wolf Ranger's Hat",
-      "fr": "Chapeau de chasseur de loup",
-      "ja": "ウルフレンジャーハット",
-      "ko": "늑대 유격대 모자"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "bfed604b8f4",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼长袍",
-      "de": "Wolf-Robe",
-      "en": "Wolf Robe",
-      "fr": "Robe de loup",
-      "ja": "ウルフローブ",
-      "ko": "늑대 로브"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "96c1b640adf",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼腰围",
-      "de": "Wolf-Schärpe",
-      "en": "Wolf Sash",
-      "fr": "Écharpe de loup",
-      "ja": "ウルフサッシュ",
-      "ko": "늑대 장식띠"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "fab50a536ac",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼紧身裤",
-      "de": "Wolf-Strumpfhose",
-      "en": "Wolf Tights",
-      "fr": "Collants de loup",
-      "ja": "ウルフタイツ",
-      "ko": "늑대 쫄바지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "c4ef2ffc1b8",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼软甲裤",
-      "de": "Wolf-Hose",
-      "en": "Wolf Trousers",
-      "fr": "Pantalon de loup",
-      "ja": "ウルフトラウザー",
-      "ko": "늑대 긴바지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "eed20f6e726",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼束腰衣",
-      "de": "Wolf-Tunika",
-      "en": "Wolf Tunic",
-      "fr": "Tunique de loup",
-      "ja": "ウルフチュニック",
-      "ko": "늑대 튜닉"
     },
     "stars": 1,
     "suggestedControl": 255
@@ -10281,6 +10080,23 @@
     "suggestedCraftsmanship": 502
   },
   {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
+    "id": "2b0033ca452",
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "cn": "Rarefied Rainbow Ribbon",
+      "de": "Regenbogen-Schleife (Sammlerstück)",
+      "en": "Rarefied Rainbow Ribbon",
+      "fr": "Ruban en étoffe arc-en-ciel collectionnable",
+      "ja": "収集用のレインボークロスリボン",
+      "ko": "Rarefied Rainbow Ribbon"
+    },
+    "suggestedCraftsmanship": 502
+  },
+  {
     "baseLevel": 53,
     "difficulty": 586,
     "durability": 80,
@@ -10719,6 +10535,23 @@
       "fr": "Fil de ramie",
       "ja": "青麻糸",
       "ko": "청마실"
+    },
+    "suggestedCraftsmanship": 529
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "id": "e99b8a34881",
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "cn": "Rarefied Holy Rainbow Hat",
+      "de": "Heiliger Regenbogen-Strohhut (Sammlerstück)",
+      "en": "Rarefied Holy Rainbow Hat",
+      "fr": "Chapeau en étoffe arc-en-ciel sacrée collectionnable",
+      "ja": "収集用のホーリーレインボー・ストローハット",
+      "ko": "Rarefied Holy Rainbow Hat"
     },
     "suggestedCraftsmanship": 529
   },
@@ -11165,6 +10998,23 @@
     "suggestedCraftsmanship": 550
   },
   {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "id": "6ec01cf592f",
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "cn": "Rarefied Ramie Turban",
+      "de": "Ramien-Turban (Sammlerstück)",
+      "en": "Rarefied Ramie Turban",
+      "fr": "Turban en ramie collectionnable",
+      "ja": "収集用のラミーターバン",
+      "ko": "Rarefied Ramie Turban"
+    },
+    "suggestedCraftsmanship": 550
+  },
+  {
     "baseLevel": 57,
     "difficulty": 404,
     "durability": 35,
@@ -11535,6 +11385,23 @@
       "fr": "Composant de happi",
       "ja": "ハッピ部材",
       "ko": "축제 의상 부재"
+    },
+    "suggestedCraftsmanship": 570
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "id": "7c047a5d00e",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Rarefied Hallowed Ramie Doublet",
+      "de": "Geheiligte Ramien-Weste (Sammlerstück)",
+      "en": "Rarefied Hallowed Ramie Doublet",
+      "fr": "Doublet en ramie sanctifiée collectionnable",
+      "ja": "収集用のハロードラミーダブレット",
+      "ko": "Rarefied Hallowed Ramie Doublet"
     },
     "suggestedCraftsmanship": 570
   },
@@ -12375,6 +12242,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "69f9df95120",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Broom",
+      "de": "Federfall-Besen",
+      "en": "Grade 3 Skybuilders' Broom",
+      "fr": "Balai de restauration (3e phase)",
+      "ja": "第三次復興用のホウキ",
+      "ko": "Grade 3 Skybuilders' Broom"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "f987e6702e8",
     "level": 150,
     "maxQuality": 6280,
@@ -12504,6 +12388,23 @@
       "fr": "Répliques de produits régionaux",
       "ja": "投擲用特産品",
       "ko": "투척용 특산품"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "66fc18bc3a5",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Rarefied Chimerical Felt Cyclas",
+      "de": "Chimärenfilz-Cyclas (Sammlerstück)",
+      "en": "Rarefied Chimerical Felt Cyclas",
+      "fr": "Cyclas en feutre chimérique collectionnable",
+      "ja": "収集用のキマイラフェルトシクラス",
+      "ko": "Rarefied Chimerical Felt Cyclas"
     },
     "suggestedCraftsmanship": 587
   },
@@ -16276,6 +16177,23 @@
     "baseLevel": 62,
     "difficulty": 1263,
     "durability": 80,
+    "id": "93b3c7b26ae",
+    "level": 265,
+    "maxQuality": 8581,
+    "name": {
+      "cn": "Rarefied Bloodhempen Skirt",
+      "de": "Rothanf-Rock (Sammlerstück)",
+      "en": "Rarefied Bloodhempen Skirt",
+      "fr": "Jupe en akaso collectionnable",
+      "ja": "収集用のレッドヘンプスカート",
+      "ko": "Rarefied Bloodhempen Skirt"
+    },
+    "suggestedCraftsmanship": 1027
+  },
+  {
+    "baseLevel": 62,
+    "difficulty": 1263,
+    "durability": 80,
     "id": "d1bd770bec0",
     "level": 265,
     "maxQuality": 8581,
@@ -17021,6 +16939,23 @@
     "suggestedCraftsmanship": 1044
   },
   {
+    "baseLevel": 64,
+    "difficulty": 1586,
+    "durability": 80,
+    "id": "a5074352b40",
+    "level": 273,
+    "maxQuality": 9657,
+    "name": {
+      "cn": "Rarefied Ruby Cotton Gilet",
+      "de": "Rubinbaumwoll-Strickjacke (Sammlerstück)",
+      "en": "Rarefied Ruby Cotton Gilet",
+      "fr": "Gilet sans manches en rubicoton collectionnable",
+      "ja": "収集用のルビーコットンジレ",
+      "ko": "Rarefied Ruby Cotton Gilet"
+    },
+    "suggestedCraftsmanship": 1044
+  },
+  {
     "baseLevel": 65,
     "difficulty": 1697,
     "durability": 80,
@@ -17323,6 +17258,23 @@
       "fr": "Matériaux raffinés pour composant pour eau-de-vie du Bord du gouffre",
       "ja": "崖っぷち蒸留酒必需品部材",
       "ko": "벼랑 끝 증류주 필수품 부재"
+    },
+    "suggestedCraftsmanship": 1056
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1808,
+    "durability": 80,
+    "id": "504ce24b201",
+    "level": 279,
+    "maxQuality": 10389,
+    "name": {
+      "cn": "Rarefied Kudzu Hat",
+      "de": "Kudzu-Hut (Sammlerstück)",
+      "en": "Rarefied Kudzu Hat",
+      "fr": "Chapeau en kudzu collectionnable",
+      "ja": "収集用のクズクロスハット",
+      "ko": "Rarefied Kudzu Hat"
     },
     "suggestedCraftsmanship": 1056
   },
@@ -17770,6 +17722,23 @@
   },
   {
     "baseLevel": 68,
+    "difficulty": 2029,
+    "durability": 80,
+    "id": "2a3cbaf8146",
+    "level": 285,
+    "maxQuality": 11121,
+    "name": {
+      "cn": "Rarefied Serge Hose",
+      "de": "Sergen-Hose (Sammlerstück)",
+      "en": "Rarefied Serge Hose",
+      "fr": "Fuseau en serge collectionnable",
+      "ja": "収集用のサージホーズ",
+      "ko": "Rarefied Serge Hose"
+    },
+    "suggestedCraftsmanship": 1069
+  },
+  {
+    "baseLevel": 68,
     "difficulty": 1420,
     "durability": 80,
     "id": "3f824178bea",
@@ -18110,6 +18079,125 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "e2b8fc1dda1",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Armament Repair Kit",
+      "de": "Reparaturwerkzeug",
+      "en": "Armament Repair Kit",
+      "fr": "Composant de réparation",
+      "ja": "武具補修材",
+      "ko": "Armament Repair Kit"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "209d0e9aabb",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Automaton Repair Component",
+      "de": "Reparaturwerkstoff für Eisenbärte",
+      "en": "Automaton Repair Component",
+      "fr": "Composant de réparation d'automate",
+      "ja": "オートマトン修理部材",
+      "ko": "Automaton Repair Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2546,
+    "durability": 70,
+    "id": "73f9ff26a6b",
+    "level": 290,
+    "maxQuality": 17017,
+    "name": {
+      "cn": "Automaton Worker Supplies",
+      "de": "Fließbandkomponenten",
+      "en": "Automaton Worker Supplies",
+      "fr": "Composants de chaîne de montage",
+      "ja": "オートメーション必要部材",
+      "ko": "Automaton Worker Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "cb76f18d803",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Axle Component",
+      "de": "Experimentelles Achsenzubehörteil",
+      "en": "Axle Component",
+      "fr": "Composant d'essieu expérimental",
+      "ja": "摩耗軽減部材",
+      "ko": "Axle Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "8aa1adf7e13",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Bespoke Barter Item",
+      "de": "Handelsgut",
+      "en": "Bespoke Barter Item",
+      "fr": "Objet pour le marchand mord",
+      "ja": "代金代わりの商品",
+      "ko": "Bespoke Barter Item"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "fadae33d4cf",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Blueprint Supplies",
+      "de": "Schreibutensil",
+      "en": "Blueprint Supplies",
+      "fr": "Ustensile de dessin",
+      "ja": "ドワーフ製図用具",
+      "ko": "Blueprint Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2324,
+    "durability": 70,
+    "id": "5bd88bbd9f1",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Brewery Supplies",
+      "de": "Brauereikomponenten",
+      "en": "Brewery Supplies",
+      "fr": "Composants de brasserie",
+      "ja": "醸造設備の必需品",
+      "ko": "Brewery Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1549,
     "durability": 80,
     "id": "dfda074cfdb",
@@ -18127,6 +18215,57 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "4801068bd4d",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Cask Component",
+      "de": "Fassbestandteil",
+      "en": "Cask Component",
+      "fr": "Composant de fût",
+      "ja": "酒樽部材",
+      "ko": "Cask Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "b779963dd2c",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Cooling Device Component",
+      "de": "Kühlmittel",
+      "en": "Cooling Device Component",
+      "fr": "Article refroidissant",
+      "ja": "冷却機構部材",
+      "ko": "Cooling Device Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "59fb48680c9",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Core Tank Component",
+      "de": "Zubehörteil des Zwergenpanzers",
+      "en": "Core Tank Component",
+      "fr": "Pièce complexe d'automatank",
+      "ja": "車体重要部材",
+      "ko": "Core Tank Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2214,
     "durability": 80,
     "id": "7b4426ab608",
@@ -18139,6 +18278,91 @@
       "fr": "Pantalon court en doublesoie",
       "ja": "ツインシルク・クロップドパンツ",
       "ko": "쌍고치 칠부바지"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "08931ce2490",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Crystal Cannon Supplies",
+      "de": "Geschützkomponenten",
+      "en": "Crystal Cannon Supplies",
+      "fr": "Composants de canon",
+      "ja": "主砲の重要部材",
+      "ko": "Crystal Cannon Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "3af08620482",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Engine Component",
+      "de": "Hilfsmittel für die Motorwartung",
+      "en": "Engine Component",
+      "fr": "Composant d'amélioration de moteur",
+      "ja": "エンジン保全部材",
+      "ko": "Engine Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "e681ae6cb72",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Experimental Plating Component",
+      "de": "Bestandteil der Panzerung des Zwergenpanzers",
+      "en": "Experimental Plating Component",
+      "fr": "Pièce de renforcement",
+      "ja": "試作装甲用部材",
+      "ko": "Experimental Plating Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "dc81ee32b0c",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Eye-catching Custom Option",
+      "de": "Auffälliges Zubehörteil",
+      "en": "Eye-catching Custom Option",
+      "fr": "Option de personnalisation criarde",
+      "ja": "ド派手な外装オプション",
+      "ko": "Eye-catching Custom Option"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "ece256551b3",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Filtration Supplies",
+      "de": "Utensil zum Experimentieren mit Zwergensprit",
+      "en": "Filtration Supplies",
+      "fr": "Ustensile d'expérience de raffinage",
+      "ja": "精製実験用品",
+      "ko": "Filtration Supplies"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -18173,6 +18397,91 @@
       "fr": "Gants de restauration (2e phase)",
       "ja": "第二次復興用の手袋",
       "ko": "Grade 2 Skybuilders' Gloves"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "f0d814c870f",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Gloves",
+      "de": "Federfall-Handschuhe",
+      "en": "Grade 3 Skybuilders' Gloves",
+      "fr": "Gants de restauration (3e phase)",
+      "ja": "第三次復興用の手袋",
+      "ko": "Grade 3 Skybuilders' Gloves"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "4b3e326d3f0",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Grooming Kit",
+      "de": "Pflegeprodukt für den Bart",
+      "en": "Grooming Kit",
+      "fr": "Ustensile d'entretien de barbe",
+      "ja": "ヒゲのお手入れ用具",
+      "ko": "Grooming Kit"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "5a3e1b95572",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Heat-resistant Component",
+      "de": "Hitzebeständiger Bestandteil",
+      "en": "Heat-resistant Component",
+      "fr": "Article réfractaire",
+      "ja": "耐熱性部材",
+      "ko": "Heat-resistant Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "ec8291108ce",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Low-profile Custom Option",
+      "de": "Unauffälliges Zubehörteil",
+      "en": "Low-profile Custom Option",
+      "fr": "Option de personnalisation discrète",
+      "ja": "低視認性外装オプション",
+      "ko": "Low-profile Custom Option"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 80,
+    "id": "467befcbac9",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Rarefied Twinsilk Apron",
+      "de": "Doppelseiden-Schürze (Sammlerstück)",
+      "en": "Rarefied Twinsilk Apron",
+      "fr": "Tablier en doublesoie collectionnable",
+      "ja": "収集用のツインシルクエプロン",
+      "ko": "Rarefied Twinsilk Apron"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -18263,6 +18572,40 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "4585b96dd82",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Steel Plate Component",
+      "de": "Hilfsmittel für die Stahlplattenproduktion",
+      "en": "Steel Plate Component",
+      "fr": "Composant de plaque de métal",
+      "ja": "鋼板増産部材",
+      "ko": "Steel Plate Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "ce417a1c6c8",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Tavern Materials",
+      "de": "Barzubehörteil",
+      "en": "Tavern Materials",
+      "fr": "Article pour la taverne",
+      "ja": "酒場必需品",
+      "ko": "Tavern Materials"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1549,
     "durability": 80,
     "id": "993d5611566",
@@ -18275,6 +18618,23 @@
       "fr": "Hagoromo de la nymphe céleste",
       "ja": "天女の羽衣",
       "ko": "선녀의 날개옷"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "f5c76fd96aa",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Test-fire Target Dummy",
+      "de": "Zielscheibe",
+      "en": "Test-fire Target Dummy",
+      "fr": "Cible de test",
+      "ja": "試射用標的",
+      "ko": "Test-fire Target Dummy"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -18309,6 +18669,57 @@
       "fr": "Chemise à bretelles en doublesoie",
       "ja": "ツインシルク・サスペンダーシャツ",
       "ko": "쌍고치 멜빵셔츠"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "994a4a7e7e1",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Unfailing Eye Opener",
+      "de": "Ronitts Muntermacher",
+      "en": "Unfailing Eye Opener",
+      "fr": "Objet pour un réveil brutal",
+      "ja": "目覚めの秘密道具",
+      "ko": "Unfailing Eye Opener"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2546,
+    "durability": 70,
+    "id": "409aee46daa",
+    "level": 290,
+    "maxQuality": 16430,
+    "name": {
+      "cn": "Workshop Expansion Supplies",
+      "de": "Komponenten für eine Werkstattserweiterung",
+      "en": "Workshop Expansion Supplies",
+      "fr": "Composants d'atelier annexe",
+      "ja": "ガレージ拡張用の部材",
+      "ko": "Workshop Expansion Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "8119eedcb2c",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Workshop Supplies",
+      "de": "Werkstattzubehör",
+      "en": "Workshop Supplies",
+      "fr": "Composants d'atelier mécanique",
+      "ja": "作業場の必需品",
+      "ko": "Workshop Supplies"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -20678,6 +21089,23 @@
     "baseLevel": 71,
     "difficulty": 3149,
     "durability": 60,
+    "id": "561c1e20233",
+    "level": 390,
+    "maxQuality": 10468,
+    "name": {
+      "cn": "Custom Gathering Tool Components",
+      "de": "Komponenten für ein spezielles Sammlerwerkzeug",
+      "en": "Custom Gathering Tool Components",
+      "fr": "Outils de récolte pour dragon",
+      "ja": "ドラゴン用採集道具部材",
+      "ko": "Custom Gathering Tool Components"
+    },
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 60,
     "id": "b0c3fd94f71",
     "level": 390,
     "maxQuality": 10468,
@@ -20705,6 +21133,23 @@
       "fr": "Élément pour rénovation d'aéronef",
       "ja": "飛空艇改装必需品",
       "ko": "Airship Fittings"
+    },
+    "suggestedCraftsmanship": 1388
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 60,
+    "id": "619f75ba0b9",
+    "level": 395,
+    "maxQuality": 10928,
+    "name": {
+      "cn": "Custom Weaving Components",
+      "de": "Komponenten für ein spezielles Weberwerkzeug",
+      "en": "Custom Weaving Components",
+      "fr": "Ustensiles de couture pour dragon",
+      "ja": "ドラゴン用裁縫用具",
+      "ko": "Custom Weaving Components"
     },
     "suggestedCraftsmanship": 1388
   },
@@ -20845,6 +21290,23 @@
     "suggestedCraftsmanship": 1388
   },
   {
+    "baseLevel": 72,
+    "difficulty": 3085,
+    "durability": 80,
+    "id": "5dfd1fe8dde",
+    "level": 395,
+    "maxQuality": 12977,
+    "name": {
+      "cn": "Rarefied Brightlinen Himation",
+      "de": "Weißhanf-Himation (Sammlerstück)",
+      "en": "Rarefied Brightlinen Himation",
+      "fr": "Himation en lin blanc collectionnable",
+      "ja": "収集用のホワイトヘンプヒマティオン",
+      "ko": "Rarefied Brightlinen Himation"
+    },
+    "suggestedCraftsmanship": 1388
+  },
+  {
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 60,
@@ -20858,6 +21320,23 @@
       "fr": "Souvenir du cabaret",
       "ja": "キャバレー土産品",
       "ko": "Beehive Souvenir"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "aae59d0816c",
+    "level": 400,
+    "maxQuality": 11249,
+    "name": {
+      "cn": "Custom Crafting Tool Components",
+      "de": "Komponenten für ein spezielles Werkzeug",
+      "en": "Custom Crafting Tool Components",
+      "fr": "Outils d'artisanat pour dragon",
+      "ja": "ドラゴン用職人道具部材",
+      "ko": "Custom Crafting Tool Components"
     },
     "suggestedCraftsmanship": 1457
   },
@@ -21050,6 +21529,23 @@
   },
   {
     "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 60,
+    "id": "ebf84700ed8",
+    "level": 403,
+    "maxQuality": 11585,
+    "name": {
+      "cn": "Handpicked Culinary Essentials",
+      "de": "Handverlesene kulinarische Köstlichkeiten",
+      "en": "Handpicked Culinary Essentials",
+      "fr": "Sandwichs pour dragon",
+      "ja": "ドラゴンおもてなし料理必需品",
+      "ko": "Handpicked Culinary Essentials"
+    },
+    "suggestedCraftsmanship": 1498
+  },
+  {
+    "baseLevel": 74,
     "difficulty": 1703,
     "durability": 40,
     "id": "410d74416bf",
@@ -21219,6 +21715,23 @@
     "suggestedCraftsmanship": 1498
   },
   {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "3d11e7803c4",
+    "level": 403,
+    "maxQuality": 14482,
+    "name": {
+      "cn": "Rarefied Iridescent Top",
+      "de": "Schillerseiden-Oberteil (Sammlerstück)",
+      "en": "Rarefied Iridescent Top",
+      "fr": "Haut-de-corps en soie iridescente collectionnable",
+      "ja": "収集用のイリディセントトップス",
+      "ko": "Rarefied Iridescent Top"
+    },
+    "suggestedCraftsmanship": 1498
+  },
+  {
     "baseLevel": 75,
     "difficulty": 2426,
     "durability": 80,
@@ -21368,6 +21881,23 @@
       "fr": "Trousses de soigneur en coton pixie",
       "ja": "ピクシーコットン・ヒーラースロップ",
       "ko": "Pixie Cotton Slops of Healing"
+    },
+    "suggestedCraftsmanship": 1539
+  },
+  {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 60,
+    "id": "cbbe231c6d2",
+    "level": 406,
+    "maxQuality": 11921,
+    "name": {
+      "cn": "Printing Essentials",
+      "de": "Druckutensilien",
+      "en": "Printing Essentials",
+      "fr": "Lot d'imprimerie",
+      "ja": "印刷必需品",
+      "ko": "Printing Essentials"
     },
     "suggestedCraftsmanship": 1539
   },
@@ -21589,6 +22119,23 @@
       "fr": "Fil de laine d'ovim",
       "ja": "山羊毛糸",
       "ko": "Ovim Wool Yarn"
+    },
+    "suggestedCraftsmanship": 1580
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "5b4112911d8",
+    "level": 409,
+    "maxQuality": 15322,
+    "name": {
+      "cn": "Rarefied Pixie Cotton Hood",
+      "de": "Pixiebaumwoll-Haube (Sammlerstück)",
+      "en": "Rarefied Pixie Cotton Hood",
+      "fr": "Capuche en coton pixie collectionnable",
+      "ja": "収集用のピクシーコットンフード",
+      "ko": "Rarefied Pixie Cotton Hood"
     },
     "suggestedCraftsmanship": 1580
   },
@@ -21970,6 +22517,23 @@
     "baseLevel": 78,
     "difficulty": 3645,
     "durability": 80,
+    "id": "b2763fd3b58",
+    "level": 415,
+    "maxQuality": 16162,
+    "name": {
+      "cn": "Rarefied Ovim Wool Tunic",
+      "de": "Ovimwoll-Tunika (Sammlerstück)",
+      "en": "Rarefied Ovim Wool Tunic",
+      "fr": "Tunique en laine d'ovim collectionnable",
+      "ja": "収集用のオヴィムチュニック",
+      "ko": "Rarefied Ovim Wool Tunic"
+    },
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
     "id": "b44a3c16365",
     "level": 415,
     "maxQuality": 8081,
@@ -22050,6 +22614,40 @@
       "ko": "Dwarven Cotton Turban of Scouting"
     },
     "suggestedCraftsmanship": 1702
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0dfb5c28770",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Apparel Showcase",
+      "de": "Mode-Schaukasten",
+      "en": "Apparel Showcase",
+      "fr": "Vitrine de vêtements",
+      "ja": "アパレルショーケース",
+      "ko": "Apparel Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "17cd2ecead0",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Designer's Show Window",
+      "de": "Mode-Schaufenster",
+      "en": "Designer's Show Window",
+      "fr": "Vitrine extérieure de vêtements",
+      "ja": "アパレルショーウィンドウ",
+      "ko": "Designer's Show Window"
+    },
+    "suggestedCraftsmanship": 1866
   },
   {
     "baseLevel": 80,
@@ -22140,6 +22738,23 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "f3b384f226b",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Floor Sofa",
+      "de": "Bodensofa",
+      "en": "Floor Sofa",
+      "fr": "Fauteuil de sol",
+      "ja": "フロアソファ",
+      "ko": "Floor Sofa"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "df2a6ea6462",
     "level": 430,
     "maxQuality": 9131,
@@ -22172,6 +22787,23 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "cd5efe16ac9",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Awning",
+      "de": "Federfall-Vordach",
+      "en": "Grade 3 Skybuilders' Awning",
+      "fr": "Auvent de restauration (3e phase)",
+      "ja": "第三次復興用のオーニング",
+      "ko": "Grade 3 Skybuilders' Awning"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 2760,
     "durability": 80,
     "id": "ea1a48f149d",
@@ -22184,6 +22816,40 @@
       "fr": "Composant de luth",
       "ja": "リュートの調整部材",
       "ko": "Lute Modification Component"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "72882262ea8",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Nomad's Tent",
+      "de": "Azim-Zelt",
+      "en": "Nomad's Tent",
+      "fr": "Tente d'inspiration nomade",
+      "ja": "遊牧民の天幕",
+      "ko": "Nomad's Tent"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "1c59d8f8897",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Moonbeam Silk",
+      "de": "Werkstätten-Mondgarn",
+      "en": "Oddly Specific Moonbeam Silk",
+      "fr": "Fil de soie du clair de lune d'affinage",
+      "ja": "改良用の閃糸",
+      "ko": "Oddly Specific Moonbeam Silk"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -22207,6 +22873,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 80,
+    "id": "d25d4a5ac40",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Rarefied Dwarven Cotton Beret",
+      "de": "Zwergenbaumwoll-Hut (Sammlerstück)",
+      "en": "Rarefied Dwarven Cotton Beret",
+      "fr": "Béret en coton nain collectionnable",
+      "ja": "収集用のドワーフコットンベレー",
+      "ko": "Rarefied Dwarven Cotton Beret"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 60,
     "id": "088e08864f9",
     "level": 430,
@@ -22218,6 +22901,74 @@
       "fr": "Étoffe imperméable de restauration",
       "ja": "復興用の防水布",
       "ko": "Skybuilders' Waterproof Sheet"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "02768c1eb43",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Stage Curtain",
+      "de": "Bühnenvorhang",
+      "en": "Stage Curtain",
+      "fr": "Rideau de scène",
+      "ja": "ステージカーテン",
+      "ko": "Stage Curtain"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0860149bfbd",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Swag Valance",
+      "de": "Prunkvorhang",
+      "en": "Swag Valance",
+      "fr": "Cantonnière",
+      "ja": "スワッグバランスカーテン",
+      "ko": "Swag Valance"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "723151aaa12",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Toy Showcase",
+      "de": "Stofftier-Schaukasten",
+      "en": "Toy Showcase",
+      "fr": "Vitrine de peluches",
+      "ja": "ぬいぐるみショーケース",
+      "ko": "Toy Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "824c5e31cb4",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Toymaker's Show Window",
+      "de": "Stofftier-Schaufenster",
+      "en": "Toymaker's Show Window",
+      "fr": "Vitrine extérieure de peluches",
+      "ja": "ぬいぐるみショーウィンドウ",
+      "ko": "Toymaker's Show Window"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -22696,6 +23447,42 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "bd3029cb2f6",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Cloth",
+      "de": "Werkstätten-Tuch",
+      "en": "Oddly Specific Cloth",
+      "fr": "Étoffe d'affinage",
+      "ja": "改良用の生地",
+      "ko": "Oddly Specific Cloth"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "93c26191232",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Velvet",
+      "de": "Werkstätten-Samt",
+      "en": "Oddly Specific Velvet",
+      "fr": "Velours d'affinage",
+      "ja": "改良用のビロード",
+      "ko": "Oddly Specific Velvet"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "644151c526e",
@@ -22734,6 +23521,101 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "7d8b9de8869",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Cap of Crafting",
+      "de": "Ästhetische Kappe des Handwerks",
+      "en": "Aesthete's Cap of Crafting",
+      "fr": "Calotte des créations esthétique",
+      "ja": "エースセチック・クラフターキャップ",
+      "ko": "Aesthete's Cap of Crafting"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "b67f07c077d",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Doublet of Crafting",
+      "de": "Ästhetisches Wams des Handwerks",
+      "en": "Aesthete's Doublet of Crafting",
+      "fr": "Doublet des créations esthétique",
+      "ja": "エースセチック・クラフターダブレット",
+      "ko": "Aesthete's Doublet of Crafting"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "dabbff7e502",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Hat of Gathering",
+      "de": "Ästhetischer Hut des Eifers",
+      "en": "Aesthete's Hat of Gathering",
+      "fr": "Chapeau des ressources esthétique",
+      "ja": "エースセチック・ギャザラーハット",
+      "ko": "Aesthete's Hat of Gathering"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "5b402b120d9",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Trousers of Crafting",
+      "de": "Ästhetische Hose des Handwerks",
+      "en": "Aesthete's Trousers of Crafting",
+      "fr": "Pantalon des créations esthétique",
+      "ja": "エースセチック・クラフタートラウザー",
+      "ko": "Aesthete's Trousers of Crafting"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "e04f9cc6862",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Trousers of Gathering",
+      "de": "Ästhetische Hose des Eifers",
+      "en": "Aesthete's Trousers of Gathering",
+      "fr": "Pantalon des ressources esthétique",
+      "ja": "エースセチック・ギャザラートラウザー",
+      "ko": "Aesthete's Trousers of Gathering"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4943,
     "durability": 35,
     "id": "c496e91872b",
@@ -22765,25 +23647,6 @@
       "fr": "Papier peint sur commande de restauration (2e phase)",
       "ja": "第二次復興用の特注壁紙",
       "ko": "Grade 2 Artisanal Skybuilders' Wallpaper"
-    },
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 9181,
-    "durability": 60,
-    "id": "057359cdb3b",
-    "level": 480,
-    "maxQuality": 64862,
-    "name": {
-      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
-      "de": "Sonderbestelltes Genist-Musterstück",
-      "en": "Grade 2 Expert Skybuilders' Practice Materials",
-      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
-      "ja": "第二次復興事業用の特注習作",
-      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
     },
     "stars": 3,
     "suggestedControl": 2195,
@@ -23076,40 +23939,397 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6178,
+    "difficulty": 4943,
     "durability": 70,
-    "id": "72b4340eb2f",
+    "id": "3e98b055df8",
     "level": 480,
-    "maxQuality": 36208,
+    "maxQuality": 51726,
     "name": {
-      "cn": "Rank VIII Artisan's Durable Practice Materials (patch 5.2)",
-      "de": "Musterstück VIII (Belastbarkeit: 70)",
-      "en": "Rank VIII Artisan's Durable Practice Materials",
-      "fr": "Échantillon expérimental de niveau 8 [Solidité 70]",
-      "ja": "第8巻級の習作【耐久70】",
-      "ko": "Rank VIII Artisan's Durable Practice Materials"
+      "cn": "Oddly Specific Undyed Woolen Cloth",
+      "de": "Werkstätten-Wollballen",
+      "en": "Oddly Specific Undyed Woolen Cloth",
+      "fr": "Étoffe de laine d'affinage",
+      "ja": "改良用の羅紗",
+      "ko": "Oddly Specific Undyed Woolen Cloth"
     },
     "stars": 3,
-    "suggestedControl": 2195,
     "suggestedCraftsmanship": 2480
   },
   {
     "baseLevel": 80,
     "difficulty": 4943,
-    "durability": 35,
-    "id": "eca149b9813",
+    "durability": 70,
+    "id": "3915b481498",
     "level": 480,
-    "maxQuality": 32328,
+    "maxQuality": 25863,
     "name": {
-      "cn": "Rank VIII Artisan's Fragile Practice Materials (patch 5.2)",
-      "de": "Musterstück VIII (Belastbarkeit: 35)",
-      "en": "Rank VIII Artisan's Fragile Practice Materials",
-      "fr": "Échantillon expérimental de niveau 8 [Solidité 35]",
-      "ja": "第8巻級の習作【耐久35】",
-      "ko": "Rank VIII Artisan's Fragile Practice Materials"
+      "cn": "Southern Seas Shirt",
+      "de": "Südsee-Hemd",
+      "en": "Southern Seas Shirt",
+      "fr": "Chemise des mers du sud",
+      "ja": "サザンシーシャツ",
+      "ko": "Southern Seas Shirt"
     },
     "stars": 3,
-    "suggestedControl": 2195,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "308b2a1322f",
+    "level": 480,
+    "maxQuality": 25863,
+    "name": {
+      "cn": "Southern Seas Skirt",
+      "de": "Südsee-Rock",
+      "en": "Southern Seas Skirt",
+      "fr": "Jupe des mers du sud",
+      "ja": "サザンシースカート",
+      "ko": "Southern Seas Skirt"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "4db7d336ade",
+    "level": 480,
+    "maxQuality": 25863,
+    "name": {
+      "cn": "Southern Seas Trousers",
+      "de": "Südsee-Hose",
+      "en": "Southern Seas Trousers",
+      "fr": "Pantalon des mers du sud",
+      "ja": "サザンシートラウザー",
+      "ko": "Southern Seas Trousers"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d8b62f6ab30",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bottoms of Aiming",
+      "de": "Exarchen-Hose des Zielens",
+      "en": "Exarchic Bottoms of Aiming",
+      "fr": "Bas-de-corps de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーボトム",
+      "ko": "Exarchic Bottoms of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "063c39ff1d7",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bottoms of Scouting",
+      "de": "Exarchen-Hose des Spähens",
+      "en": "Exarchic Bottoms of Scouting",
+      "fr": "Bas-de-corps d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトボトム",
+      "ko": "Exarchic Bottoms of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ad4cbc63290",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bottoms of Striking",
+      "de": "Exarchen-Hose des Schlagens",
+      "en": "Exarchic Bottoms of Striking",
+      "fr": "Bas-de-corps d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーボトム",
+      "ko": "Exarchic Bottoms of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c8b1c19cb24",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Coat of Healing",
+      "de": "Exarchen-Mantel der Heilung",
+      "en": "Exarchic Coat of Healing",
+      "fr": "Manteau de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーコート",
+      "ko": "Exarchic Coat of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2a6b8107ecd",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gloves of Healing",
+      "de": "Exarchen-Handschuhe der Heilung",
+      "en": "Exarchic Gloves of Healing",
+      "fr": "Gants de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーグローブ",
+      "ko": "Exarchic Gloves of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0029350ebab",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hood of Aiming",
+      "de": "Exarchen-Haube des Zielens",
+      "en": "Exarchic Hood of Aiming",
+      "fr": "Capuche de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーフード",
+      "ko": "Exarchic Hood of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2019e7e012e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hood of Scouting",
+      "de": "Exarchen-Hauben des Spähens",
+      "en": "Exarchic Hood of Scouting",
+      "fr": "Capuche d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトフード",
+      "ko": "Exarchic Hood of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d5e1b2f5672",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hood of Striking",
+      "de": "Exarchen-Haube des Schlagens",
+      "en": "Exarchic Hood of Striking",
+      "fr": "Capuche d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーフード",
+      "ko": "Exarchic Hood of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "e37c3b0d307",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sash of Aiming",
+      "de": "Exarchen-Schärpe des Zielens",
+      "en": "Exarchic Sash of Aiming",
+      "fr": "Écharpe de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーサッシュ",
+      "ko": "Exarchic Sash of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d66a3366130",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sash of Scouting",
+      "de": "Exarchen-Schärpe des Spähens",
+      "en": "Exarchic Sash of Scouting",
+      "fr": "Écharpe d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトサッシュ",
+      "ko": "Exarchic Sash of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "6d1a7a01c91",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sash of Striking",
+      "de": "Exarchen-Schärpe des Schlagens",
+      "en": "Exarchic Sash of Striking",
+      "fr": "Écharpe d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーサッシュ",
+      "ko": "Exarchic Sash of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "4d97c120650",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Shoes of Healing",
+      "de": "Exarchen-Schuhe der Heilung",
+      "en": "Exarchic Shoes of Healing",
+      "fr": "Chaussures de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーシューズ",
+      "ko": "Exarchic Shoes of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0398ed5063e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Top of Aiming",
+      "de": "Exarchen-Oberteil des Zielens",
+      "en": "Exarchic Top of Aiming",
+      "fr": "Haut-de-corps de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャートップス",
+      "ko": "Exarchic Top of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c0176a289d3",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Top of Scouting",
+      "de": "Exarchen-Oberteil des Spähens",
+      "en": "Exarchic Top of Scouting",
+      "fr": "Haut-de-corps d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトトップス",
+      "ko": "Exarchic Top of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9988bef02b8",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Top of Striking",
+      "de": "Exarchen-Oberteil des Schlagens",
+      "en": "Exarchic Top of Striking",
+      "fr": "Haut-de-corps d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカートップス",
+      "ko": "Exarchic Top of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "ed2404c6959",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Apron",
+      "de": "Sonderbestellte Federfall-Schürze",
+      "en": "Grade 3 Artisanal Skybuilders' Apron",
+      "fr": "Tablier sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注エプロン",
+      "ko": "Grade 3 Artisanal Skybuilders' Apron"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "c3053353005",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Saffron Cloth",
+      "de": "Gardeniengefärbtes Tuch",
+      "en": "Saffron Cloth",
+      "fr": "Étoffe de gardénia",
+      "ja": "クチナシ染め布",
+      "ko": "Saffron Cloth"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]

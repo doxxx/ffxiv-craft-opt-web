@@ -1599,6 +1599,23 @@
   },
   {
     "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "ab667b85128",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Ingot",
+      "de": "Federfall-Rohmetall",
+      "en": "Grade 3 Skybuilders' Ingot",
+      "fr": "Lingot précieux de restauration (3e phase)",
+      "ja": "第三次復興用の地金",
+      "ko": "Grade 3 Skybuilders' Ingot"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
     "difficulty": 37,
     "durability": 40,
     "id": "79b408870c5",
@@ -5085,6 +5102,23 @@
   {
     "baseLevel": 40,
     "difficulty": 138,
+    "durability": 60,
+    "id": "cd4d5f0dc21",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Rings",
+      "de": "Federfall-Eisenringe",
+      "en": "Grade 3 Skybuilders' Rings",
+      "fr": "Anneaux de métal de restauration (3e phase)",
+      "ja": "第三次復興用の鉄環",
+      "ko": "Grade 3 Skybuilders' Rings"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
     "durability": 80,
     "id": "7b5dbcfa9d8",
     "level": 40,
@@ -7447,6 +7481,23 @@
   },
   {
     "baseLevel": 50,
+    "difficulty": 292,
+    "durability": 80,
+    "id": "929a3f67d84",
+    "level": 50,
+    "maxQuality": 4114,
+    "name": {
+      "cn": "Rarefied Mythrite Goggles",
+      "de": "Mythrit-Schutzbrille (Sammlerstück)",
+      "en": "Rarefied Mythrite Goggles",
+      "fr": "Lunettes en mithrite collectionnables",
+      "ja": "収集用のミスライトゴーグル",
+      "ko": "Rarefied Mythrite Goggles"
+    },
+    "suggestedCraftsmanship": 314
+  },
+  {
+    "baseLevel": 50,
     "difficulty": 334,
     "durability": 80,
     "id": "ddd625de269",
@@ -7609,7 +7660,7 @@
       "cn": "铺瓦地板",
       "de": "Azurblauer Fliesenboden",
       "en": "Tiled Flooring",
-      "fr": "Parquet carrelé",
+      "fr": "Parquet teinté",
       "ja": "タイルフローリング",
       "ko": "타일 바닥"
     },
@@ -8343,474 +8394,6 @@
     },
     "stars": 1,
     "suggestedCraftsmanship": 275
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "65a60fedeba",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼琥珀手镯",
-      "de": "Wolf-Bernstein-Armreif",
-      "en": "Wolf Amber Bracelet",
-      "fr": "Bracelet d'ambre de loup",
-      "ja": "ウルフアンバーブレスレット",
-      "ko": "늑대 호박석 팔찌"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "d8bff6103f0",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼琥珀项环",
-      "de": "Wolf-Bernstein-Halsberge",
-      "en": "Wolf Amber Choker",
-      "fr": "Ras de cou en ambre de loup",
-      "ja": "ウルフアンバーチョーカー",
-      "ko": "늑대 호박석 목장식"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "1f1c96857ce",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼琥珀耳坠",
-      "de": "Wolf-Bernstein-Ohrringe",
-      "en": "Wolf Amber Earrings",
-      "fr": "Boucles d'oreilles d'ambre de loup",
-      "ja": "ウルフアンバーイヤリング",
-      "ko": "늑대 호박석 귀걸이"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "8047df134a4",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼琥珀戒指",
-      "de": "Wolf-Bernstein-Ring",
-      "en": "Wolf Amber Ring",
-      "fr": "Bague en ambre de loup",
-      "ja": "ウルフアンバーリング",
-      "ko": "늑대 호박석 반지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "bdd6bc08e3e",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼天星盘",
-      "de": "Wolfs-Planisphäre",
-      "en": "Wolf Planisphere",
-      "fr": "Planisphère de loup",
-      "ja": "ウルフプラニスフィア",
-      "ko": "늑대 천궁도"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "6df0c23b97b",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼红电气石手镯",
-      "de": "Wolf-Rubellit-Armreif",
-      "en": "Wolf Rubellite Bracelet",
-      "fr": "Bracelet de rubellite de loup",
-      "ja": "ウルフルベライトブレスレット",
-      "ko": "늑대 홍전기석 팔찌"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "e9a122f3862",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼红电气石项环",
-      "de": "Wolf-Rubellit-Halsberge",
-      "en": "Wolf Rubellite Choker",
-      "fr": "Ras de cou en rubellite de loup",
-      "ja": "ウルフルベライトチョーカー",
-      "ko": "늑대 홍전기석 목장식"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "ab1c41959d7",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼红电气石耳坠",
-      "de": "Wolf-Rubellit-Ohrringe",
-      "en": "Wolf Rubellite Earrings",
-      "fr": "Boucles d'oreilles de rubellite de loup",
-      "ja": "ウルフルベライトイヤリング",
-      "ko": "늑대 홍전기석 귀걸이"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "f0b50779c4d",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼红电气石戒指",
-      "de": "Wolf-Rubellit-Ring",
-      "en": "Wolf Rubellite Ring",
-      "fr": "Bague en rubellite de loup",
-      "ja": "ウルフルベライトリング",
-      "ko": "늑대 홍전기석 반지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "eaf4eb0d48b",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼尖晶石手镯",
-      "de": "Wolf-Spinell-Armreif",
-      "en": "Wolf Spinel Bracelet",
-      "fr": "Bracelet de spinelle de loup",
-      "ja": "ウルフスピネルブレスレット",
-      "ko": "늑대 첨정석 팔찌"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "bd5f67c4a72",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼尖晶石项环",
-      "de": "Wolf-Spinell-Halsberge",
-      "en": "Wolf Spinel Choker",
-      "fr": "Ras de cou en spinelle de loup",
-      "ja": "ウルフスピネルチョーカー",
-      "ko": "늑대 첨정석 목장식"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "b87b9c16c48",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼尖晶石耳坠",
-      "de": "Wolf-Spinell-Ohrringe",
-      "en": "Wolf Spinel Earrings",
-      "fr": "Boucles d'oreilles de spinelle de loup",
-      "ja": "ウルフスピネルイヤリング",
-      "ko": "늑대 첨정석 귀걸이"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "8cb889a468f",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼尖晶石戒指",
-      "de": "Wolf-Spinell-Ring",
-      "en": "Wolf Spinel Ring",
-      "fr": "Bague en spinelle de loup",
-      "ja": "ウルフスピネルリング",
-      "ko": "늑대 첨정석 반지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "f4230c47de7",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼长杖",
-      "de": "Wolf-Stab",
-      "en": "Wolf Staff",
-      "fr": "Bâton de loup",
-      "ja": "ウルフスタッフ",
-      "ko": "늑대 주술봉"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "1dde58c79a4",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼碧玺手镯",
-      "de": "Wolf-Turmalit-Armreif",
-      "en": "Wolf Tourmaline Bracelet",
-      "fr": "Bracelet de tourmaline de loup",
-      "ja": "ウルフトルマリンブレスレット",
-      "ko": "늑대 전기석 팔찌"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "8ea47674758",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼碧玺项环",
-      "de": "Wolf-Turmalit-Halsberge",
-      "en": "Wolf Tourmaline Choker",
-      "fr": "Ras de cou en tourmaline de loup",
-      "ja": "ウルフトルマリンチョーカー",
-      "ko": "늑대 전기석 목장식"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "bf6655936c8",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼碧玺耳坠",
-      "de": "Wolf-Turmalit-Ohrringe",
-      "en": "Wolf Tourmaline Earrings",
-      "fr": "Boucles d'oreilles de tourmaline de loup",
-      "ja": "ウルフトルマリンイヤリング",
-      "ko": "늑대 전기석 귀걸이"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "aff083c09d8",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼碧玺戒指",
-      "de": "Wolf-Turmalit-Ring",
-      "en": "Wolf Tourmaline Ring",
-      "fr": "Bague en tourmaline de loup",
-      "ja": "ウルフトルマリンリング",
-      "ko": "늑대 전기석 반지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "81f84054272",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼绿松石手镯",
-      "de": "Wolf-Türkis-Armreif",
-      "en": "Wolf Turquoise Bracelet",
-      "fr": "Bracelet de turquoise de loup",
-      "ja": "ウルフターコイズブレスレット",
-      "ko": "늑대 터키석 팔찌"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "1e72e6986b3",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼绿松石项环",
-      "de": "Wolf-Türkis-Halsberge",
-      "en": "Wolf Turquoise Choker",
-      "fr": "Ras de cou en turquoise de loup",
-      "ja": "ウルフターコイズチョーカー",
-      "ko": "늑대 터키석 목장식"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "6fac3d6cf8a",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼绿松石耳坠",
-      "de": "Wolf-Türkis-Ohrringe",
-      "en": "Wolf Turquoise Earrings",
-      "fr": "Boucles d'oreilles de turquoise de loup",
-      "ja": "ウルフターコイズイヤリング",
-      "ko": "늑대 터키석 귀걸이"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "aa54ba750b7",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼绿松石戒指",
-      "de": "Wolf-Türkis-Ring",
-      "en": "Wolf Turquoise Ring",
-      "fr": "Bague en turquoise de loup",
-      "ja": "ウルフターコイズリング",
-      "ko": "늑대 터키석 반지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "45181b4898e",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼锆石手镯",
-      "de": "Wolf-Zirkon-Armreif",
-      "en": "Wolf Zircon Bracelet",
-      "fr": "Bracelet de zircon de loup",
-      "ja": "ウルフジルコンブレスレット",
-      "ko": "늑대 지르콘 팔찌"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "6146fbdd0ce",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼锆石项环",
-      "de": "Wolf-Zirkon-Halsberge",
-      "en": "Wolf Zircon Choker",
-      "fr": "Ras de cou en zircon de loup",
-      "ja": "ウルフジルコンチョーカー",
-      "ko": "늑대 지르콘 목장식"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "7eb17785504",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼锆石耳坠",
-      "de": "Wolf-Zirkon-Ohrringe",
-      "en": "Wolf Zircon Earrings",
-      "fr": "Boucles d'oreilles de zircon de loup",
-      "ja": "ウルフジルコンイヤリング",
-      "ko": "늑대 지르콘 귀걸이"
-    },
-    "stars": 1,
-    "suggestedControl": 255
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 195,
-    "durability": 80,
-    "id": "540fbf05f55",
-    "level": 55,
-    "maxQuality": 2646,
-    "name": {
-      "cn": "饿狼锆石戒指",
-      "de": "Wolf-Zirkon-Ring",
-      "en": "Wolf Zircon Ring",
-      "fr": "Bague en zircon de loup",
-      "ja": "ウルフジルコンリング",
-      "ko": "늑대 지르콘 반지"
-    },
-    "stars": 1,
-    "suggestedControl": 255
   },
   {
     "baseLevel": 50,
@@ -11726,6 +11309,23 @@
     "baseLevel": 52,
     "difficulty": 503,
     "durability": 80,
+    "id": "14388fc1248",
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "cn": "Rarefied Mythrite Bangle",
+      "de": "Mythrit-Armringe (Sammlerstück)",
+      "en": "Rarefied Mythrite Bangle",
+      "fr": "Joncs en mithrite collectionnables",
+      "ja": "収集用のミスライトバングル",
+      "ko": "Rarefied Mythrite Bangle"
+    },
+    "suggestedCraftsmanship": 502
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
     "id": "562c3d9fe69",
     "level": 125,
     "maxQuality": 5172,
@@ -12195,6 +11795,23 @@
       "fr": "Bague d'attaquant en mormorion",
       "ja": "モルモリオンアタッカーリング",
       "ko": "모르모리온 공격대 반지"
+    },
+    "suggestedCraftsmanship": 529
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
+    "id": "ac1a52d8d62",
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "cn": "Rarefied Mythrite Needle",
+      "de": "Mythrit-Nadel (Sammlerstück)",
+      "en": "Rarefied Mythrite Needle",
+      "fr": "Aiguille en mithrite collectionnable",
+      "ja": "収集用のミスライトニードル",
+      "ko": "Rarefied Mythrite Needle"
     },
     "suggestedCraftsmanship": 529
   },
@@ -12739,6 +12356,23 @@
       "fr": "Bague d'attaquant en opale",
       "ja": "オパールアタッカーリング",
       "ko": "단백석 공격대 반지"
+    },
+    "suggestedCraftsmanship": 550
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "id": "f67509d9ecf",
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "cn": "Rarefied Hardsilver Monocle",
+      "de": "Hartsilber-Monokel (Sammlerstück)",
+      "en": "Rarefied Hardsilver Monocle",
+      "fr": "Monocle en durargent collectionnable",
+      "ja": "収集用のハードシルバーモノクル",
+      "ko": "Rarefied Hardsilver Monocle"
     },
     "suggestedCraftsmanship": 550
   },
@@ -13334,6 +12968,23 @@
       "fr": "Composant de happi",
       "ja": "ハッピ部材",
       "ko": "축제 의상 부재"
+    },
+    "suggestedCraftsmanship": 570
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "id": "ffbae26121b",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Rarefied Hardsilver Pole",
+      "de": "Hartsilber-Stecken (Sammlerstück)",
+      "en": "Rarefied Hardsilver Pole",
+      "fr": "Perche en durargent collectionnable",
+      "ja": "収集用のハードシルバーポール",
+      "ko": "Rarefied Hardsilver Pole"
     },
     "suggestedCraftsmanship": 570
   },
@@ -14377,6 +14028,23 @@
   {
     "baseLevel": 60,
     "difficulty": 956,
+    "durability": 60,
+    "id": "8d955ce367e",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Embroidery Frame",
+      "de": "Federfall-Weberzeug",
+      "en": "Grade 3 Skybuilders' Embroidery Frame",
+      "fr": "Cercle à broder de restauration (3e phase)",
+      "ja": "第三次復興用の裁縫道具",
+      "ko": "Grade 3 Skybuilders' Embroidery Frame"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
     "durability": 70,
     "id": "d493983585e",
     "level": 150,
@@ -14524,6 +14192,23 @@
       "fr": "Répliques de produits régionaux",
       "ja": "投擲用特産品",
       "ko": "투척용 특산품"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "973db65c889",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Rarefied Aurum Regis Earrings",
+      "de": "Königsgold-Ohrringe (Sammlerstück)",
+      "en": "Rarefied Aurum Regis Earrings",
+      "fr": "Pendants d'oreilles en aurum regis collectionnables",
+      "ja": "収集用のオーラムレギスピアス",
+      "ko": "Rarefied Aurum Regis Earrings"
     },
     "suggestedCraftsmanship": 587
   },
@@ -15427,6 +15112,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "2b88649cc2d",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Cane of the Demon",
+      "de": "Stock des Dämons",
+      "en": "Cane of the Demon",
+      "fr": "Canne du Démon",
+      "ja": "ケーン・オブ・デモン",
+      "ko": "Cane of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "6a15f845529",
     "level": 210,
     "maxQuality": 8298,
@@ -15845,6 +15549,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "ad077a38590",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Rapier of the Demon",
+      "de": "Rapier des Dämons",
+      "en": "Rapier of the Demon",
+      "fr": "Rapière du Démon",
+      "ja": "レイピア・オブ・デモン",
+      "ko": "Rapier of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "7341acd3b6b",
     "level": 210,
     "maxQuality": 8298,
@@ -16149,6 +15872,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "ceb79c28965",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Staff of the Demon",
+      "de": "Stab des Dämons",
+      "en": "Staff of the Demon",
+      "fr": "Bâton du Démon",
+      "ja": "スタッフ・オブ・デモン",
+      "ko": "Staff of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "255206ca92c",
     "level": 210,
     "maxQuality": 8298,
@@ -16178,6 +15920,25 @@
       "fr": "Bâton de la Table ronde",
       "ja": "スタッフ・オブ・ラウンド",
       "ko": "기사신의 주술봉"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "c672f14ab44",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Star of the Demon",
+      "de": "Stern des Dämons",
+      "en": "Star of the Demon",
+      "fr": "Étoile du Démon",
+      "ja": "スター・オブ・デモン",
+      "ko": "Star of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -17730,6 +17491,23 @@
     "suggestedCraftsmanship": 1027
   },
   {
+    "baseLevel": 62,
+    "difficulty": 1263,
+    "durability": 80,
+    "id": "046d2d0c089",
+    "level": 265,
+    "maxQuality": 8581,
+    "name": {
+      "cn": "Rarefied Koppranickel Planisphere",
+      "de": "Kupfernickel-Planisphäre (Sammlerstück)",
+      "en": "Rarefied Koppranickel Planisphere",
+      "fr": "Planisphère en cupronickel collectionnable",
+      "ja": "収集用のキュプロプラニスフィア",
+      "ko": "Rarefied Koppranickel Planisphere"
+    },
+    "suggestedCraftsmanship": 1027
+  },
+  {
     "baseLevel": 63,
     "difficulty": 1476,
     "durability": 60,
@@ -18168,6 +17946,23 @@
       "fr": "Toit de pavillon hingashien (nanpu)",
       "ja": "白銀南風屋敷屋根",
       "ko": "동방의 남방식 주택 지붕"
+    },
+    "suggestedCraftsmanship": 1044
+  },
+  {
+    "baseLevel": 64,
+    "difficulty": 1586,
+    "durability": 80,
+    "id": "34d238985ca",
+    "level": 273,
+    "maxQuality": 9657,
+    "name": {
+      "cn": "Rarefied Koppranickel Necklace",
+      "de": "Kupfernickel-Halsband (Sammlerstück)",
+      "en": "Rarefied Koppranickel Necklace",
+      "fr": "Collier en cupronickel collectionnable",
+      "ja": "収集用のキュプロネックレス",
+      "ko": "Rarefied Koppranickel Necklace"
     },
     "suggestedCraftsmanship": 1044
   },
@@ -18971,6 +18766,23 @@
     "suggestedCraftsmanship": 1056
   },
   {
+    "baseLevel": 66,
+    "difficulty": 1808,
+    "durability": 80,
+    "id": "e8a4b47509c",
+    "level": 279,
+    "maxQuality": 10389,
+    "name": {
+      "cn": "Rarefied Durium Chaplets",
+      "de": "Durium-Ringbänder (Sammlerstück)",
+      "en": "Rarefied Durium Chaplets",
+      "fr": "Chapelets en durium collectionnables",
+      "ja": "収集用のダリウムチャプレット",
+      "ko": "Rarefied Durium Chaplets"
+    },
+    "suggestedCraftsmanship": 1056
+  },
+  {
     "baseLevel": 67,
     "difficulty": 1919,
     "durability": 80,
@@ -19703,6 +19515,23 @@
   },
   {
     "baseLevel": 68,
+    "difficulty": 2029,
+    "durability": 80,
+    "id": "504d3ca7bdc",
+    "level": 285,
+    "maxQuality": 11121,
+    "name": {
+      "cn": "Rarefied Durium Rod",
+      "de": "Durium-Rute (Sammlerstück)",
+      "en": "Rarefied Durium Rod",
+      "fr": "Sceptre en durium collectionnable",
+      "ja": "収集用のダリウムロッド",
+      "ko": "Rarefied Durium Rod"
+    },
+    "suggestedCraftsmanship": 1069
+  },
+  {
+    "baseLevel": 68,
     "difficulty": 1420,
     "durability": 80,
     "id": "d62472e9682",
@@ -19958,6 +19787,261 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "4326c4d9119",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Armament Repair Kit",
+      "de": "Reparaturwerkzeug",
+      "en": "Armament Repair Kit",
+      "fr": "Composant de réparation",
+      "ja": "武具補修材",
+      "ko": "Armament Repair Kit"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "dedbd227d0f",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Automaton Repair Component",
+      "de": "Reparaturwerkstoff für Eisenbärte",
+      "en": "Automaton Repair Component",
+      "fr": "Composant de réparation d'automate",
+      "ja": "オートマトン修理部材",
+      "ko": "Automaton Repair Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2546,
+    "durability": 70,
+    "id": "1126c664503",
+    "level": 290,
+    "maxQuality": 17017,
+    "name": {
+      "cn": "Automaton Worker Supplies",
+      "de": "Fließbandkomponenten",
+      "en": "Automaton Worker Supplies",
+      "fr": "Composants de chaîne de montage",
+      "ja": "オートメーション必要部材",
+      "ko": "Automaton Worker Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "8439565aab3",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Axle Component",
+      "de": "Experimentelles Achsenzubehörteil",
+      "en": "Axle Component",
+      "fr": "Composant d'essieu expérimental",
+      "ja": "摩耗軽減部材",
+      "ko": "Axle Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "e43e3357075",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Bespoke Barter Item",
+      "de": "Handelsgut",
+      "en": "Bespoke Barter Item",
+      "fr": "Objet pour le marchand mord",
+      "ja": "代金代わりの商品",
+      "ko": "Bespoke Barter Item"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "547e6d6c10c",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Blueprint Supplies",
+      "de": "Schreibutensil",
+      "en": "Blueprint Supplies",
+      "fr": "Ustensile de dessin",
+      "ja": "ドワーフ製図用具",
+      "ko": "Blueprint Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2324,
+    "durability": 70,
+    "id": "2c61c159bd9",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Brewery Supplies",
+      "de": "Brauereikomponenten",
+      "en": "Brewery Supplies",
+      "fr": "Composants de brasserie",
+      "ja": "醸造設備の必需品",
+      "ko": "Brewery Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "0fd8d1d5090",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Cask Component",
+      "de": "Fassbestandteil",
+      "en": "Cask Component",
+      "fr": "Composant de fût",
+      "ja": "酒樽部材",
+      "ko": "Cask Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "8e576bf3df0",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Cooling Device Component",
+      "de": "Kühlmittel",
+      "en": "Cooling Device Component",
+      "fr": "Article refroidissant",
+      "ja": "冷却機構部材",
+      "ko": "Cooling Device Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "8cbdda6afd1",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Core Tank Component",
+      "de": "Zubehörteil des Zwergenpanzers",
+      "en": "Core Tank Component",
+      "fr": "Pièce complexe d'automatank",
+      "ja": "車体重要部材",
+      "ko": "Core Tank Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "c30bde0a027",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Crystal Cannon Supplies",
+      "de": "Geschützkomponenten",
+      "en": "Crystal Cannon Supplies",
+      "fr": "Composants de canon",
+      "ja": "主砲の重要部材",
+      "ko": "Crystal Cannon Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "c0218ac1408",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Engine Component",
+      "de": "Hilfsmittel für die Motorwartung",
+      "en": "Engine Component",
+      "fr": "Composant d'amélioration de moteur",
+      "ja": "エンジン保全部材",
+      "ko": "Engine Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "b75ee4858b4",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Experimental Plating Component",
+      "de": "Bestandteil der Panzerung des Zwergenpanzers",
+      "en": "Experimental Plating Component",
+      "fr": "Pièce de renforcement",
+      "ja": "試作装甲用部材",
+      "ko": "Experimental Plating Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "8ae978b46a8",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Eye-catching Custom Option",
+      "de": "Auffälliges Zubehörteil",
+      "en": "Eye-catching Custom Option",
+      "fr": "Option de personnalisation criarde",
+      "ja": "ド派手な外装オプション",
+      "ko": "Eye-catching Custom Option"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "6c233fb1d86",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Filtration Supplies",
+      "de": "Utensil zum Experimentieren mit Zwergensprit",
+      "en": "Filtration Supplies",
+      "fr": "Ustensile d'expérience de raffinage",
+      "ja": "精製実験用品",
+      "ko": "Filtration Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1549,
     "durability": 60,
     "id": "4ff559035a1",
@@ -19987,6 +20071,57 @@
       "fr": "Bloc de pierre de restauration (2e phase)",
       "ja": "第二次復興用の石材",
       "ko": "Grade 2 Skybuilders' Stone"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "c6d00237021",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Stone",
+      "de": "Federfall-Naturbaustein",
+      "en": "Grade 3 Skybuilders' Stone",
+      "fr": "Bloc de pierre de restauration (3e phase)",
+      "ja": "第三次復興用の石材",
+      "ko": "Grade 3 Skybuilders' Stone"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "1430162295f",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Grooming Kit",
+      "de": "Pflegeprodukt für den Bart",
+      "en": "Grooming Kit",
+      "fr": "Ustensile d'entretien de barbe",
+      "ja": "ヒゲのお手入れ用具",
+      "ko": "Grooming Kit"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "f0fdc9c6726",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Heat-resistant Component",
+      "de": "Hitzebeständiger Bestandteil",
+      "en": "Heat-resistant Component",
+      "fr": "Article réfractaire",
+      "ja": "耐熱性部材",
+      "ko": "Heat-resistant Component"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -20162,6 +20297,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "a878defbd14",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Low-profile Custom Option",
+      "de": "Unauffälliges Zubehörteil",
+      "en": "Low-profile Custom Option",
+      "fr": "Option de personnalisation discrète",
+      "ja": "低視認性外装オプション",
+      "ko": "Low-profile Custom Option"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1549,
     "durability": 80,
     "id": "4b112e7b075",
@@ -20174,6 +20326,23 @@
       "fr": "Gantelets en métal",
       "ja": "金属製の手甲",
       "ko": "Metal Gauntlets"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 80,
+    "id": "ac71fb8f5a6",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Rarefied Palladium Needle",
+      "de": "Palladium-Nadel (Sammlerstück)",
+      "en": "Rarefied Palladium Needle",
+      "fr": "Aiguille en palladium collectionnable",
+      "ja": "収集用のパラースニードル",
+      "ko": "Rarefied Palladium Needle"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -20213,6 +20382,57 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "df2c276425c",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Steel Plate Component",
+      "de": "Hilfsmittel für die Stahlplattenproduktion",
+      "en": "Steel Plate Component",
+      "fr": "Composant de plaque de métal",
+      "ja": "鋼板増産部材",
+      "ko": "Steel Plate Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "7e9370ec05e",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Tavern Materials",
+      "de": "Barzubehörteil",
+      "en": "Tavern Materials",
+      "fr": "Article pour la taverne",
+      "ja": "酒場必需品",
+      "ko": "Tavern Materials"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "588eb4d9418",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Test-fire Target Dummy",
+      "de": "Zielscheibe",
+      "en": "Test-fire Target Dummy",
+      "fr": "Cible de test",
+      "ja": "試射用標的",
+      "ko": "Test-fire Target Dummy"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1549,
     "durability": 80,
     "id": "d9fbba3aca7",
@@ -20225,6 +20445,57 @@
       "fr": "Cadeau des Gemmes souveraines",
       "ja": "クラウンジェムの献上品",
       "ko": "공방 헌상품"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "753f302e440",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Unfailing Eye Opener",
+      "de": "Ronitts Muntermacher",
+      "en": "Unfailing Eye Opener",
+      "fr": "Objet pour un réveil brutal",
+      "ja": "目覚めの秘密道具",
+      "ko": "Unfailing Eye Opener"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2546,
+    "durability": 70,
+    "id": "e9d10f760f3",
+    "level": 290,
+    "maxQuality": 16430,
+    "name": {
+      "cn": "Workshop Expansion Supplies",
+      "de": "Komponenten für eine Werkstattserweiterung",
+      "en": "Workshop Expansion Supplies",
+      "fr": "Composants d'atelier annexe",
+      "ja": "ガレージ拡張用の部材",
+      "ko": "Workshop Expansion Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "b4a6183b7ed",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Workshop Supplies",
+      "de": "Werkstattzubehör",
+      "en": "Workshop Supplies",
+      "fr": "Composants d'atelier mécanique",
+      "ja": "作業場の必需品",
+      "ko": "Workshop Supplies"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -20896,6 +21167,78 @@
     "baseLevel": 70,
     "difficulty": 2657,
     "durability": 70,
+    "id": "2fb3269c45a",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Seiryu's Sanctified Cane",
+      "de": "Stock des Schlangengotts",
+      "en": "Seiryu's Sanctified Cane",
+      "fr": "Khakkhara de Seiryû flamboyant",
+      "ja": "青龍錫杖【輝】",
+      "ko": "Seiryu's Sanctified Cane"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "aba9184ec7b",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Seiryu's Sanctified Ephemeris",
+      "de": "Astrometer des Schlangengotts",
+      "en": "Seiryu's Sanctified Ephemeris",
+      "fr": "Éphéméridosphère de Seiryû flamboyante",
+      "ja": "青龍干支【輝】",
+      "ko": "Seiryu's Sanctified Ephemeris"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "8117476b953",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Seiryu's Sanctified Rapier",
+      "de": "Rapier des Schlangengotts",
+      "en": "Seiryu's Sanctified Rapier",
+      "fr": "Rapière de Seiryû flamboyante",
+      "ja": "青龍細剣【輝】",
+      "ko": "Seiryu's Sanctified Rapier"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "2e107e0fc06",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Seiryu's Sanctified Rod",
+      "de": "Stab des Schlangengotts",
+      "en": "Seiryu's Sanctified Rod",
+      "fr": "Bâton de Seiryû flamboyant",
+      "ja": "青龍呪杖【輝】",
+      "ko": "Seiryu's Sanctified Rod"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
     "id": "04c216a276e",
     "level": 320,
     "maxQuality": 12511,
@@ -20942,6 +21285,114 @@
       "fr": "Bâton de Shinryu flamboyant",
       "ja": "神龍呪杖【輝】",
       "ko": "Shinryu's Ephemeral Rod"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "41492c974a2",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Suzaku's Flame-kissed Ephemeris",
+      "de": "Astrometer des Feuervogels",
+      "en": "Suzaku's Flame-kissed Ephemeris",
+      "fr": "Éphéméridosphère de Suzaku flamboyante",
+      "ja": "朱雀干支【輝】",
+      "ko": "Suzaku's Flame-kissed Ephemeris"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "e90b2eec2eb",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Suzaku's Flame-kissed Greatbow",
+      "de": "Langbogen des Feuervogels",
+      "en": "Suzaku's Flame-kissed Greatbow",
+      "fr": "Grand arc de Suzaku flamboyant",
+      "ja": "朱雀大弓【輝】",
+      "ko": "Suzaku's Flame-kissed Greatbow"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "e8b9a7c0ae8",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Suzaku's Flame-kissed Rapier",
+      "de": "Rapier des Feuervogels",
+      "en": "Suzaku's Flame-kissed Rapier",
+      "fr": "Rapière de Suzaku flamboyante",
+      "ja": "朱雀細剣【輝】",
+      "ko": "Suzaku's Flame-kissed Rapier"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "2a18e3353e1",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Suzaku's Flame-kissed Rod",
+      "de": "Stab des Feuervogels",
+      "en": "Suzaku's Flame-kissed Rod",
+      "fr": "Bâton de Suzaku flamboyant",
+      "ja": "朱雀呪杖【輝】",
+      "ko": "Suzaku's Flame-kissed Rod"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "cac47fdde4c",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Tsukuyomi's Moonlit Ephemeris",
+      "de": "Astrometer des Mondlichts",
+      "en": "Tsukuyomi's Moonlit Ephemeris",
+      "fr": "Éphéméridosphère de Tsukuyomi flamboyante",
+      "ja": "月読命干支【輝】",
+      "ko": "Tsukuyomi's Moonlit Ephemeris"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2657,
+    "durability": 70,
+    "id": "50e28c53bc7",
+    "level": 320,
+    "maxQuality": 12511,
+    "name": {
+      "cn": "Tsukuyomi's Moonlit Rapier",
+      "de": "Rapier des Mondlichts",
+      "en": "Tsukuyomi's Moonlit Rapier",
+      "fr": "Rapière de Tsukuyomi flamboyante",
+      "ja": "月読命細剣【輝】",
+      "ko": "Tsukuyomi's Moonlit Rapier"
     },
     "stars": 2,
     "suggestedCraftsmanship": 1320
@@ -21708,6 +22159,23 @@
   },
   {
     "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "cda2f16b2a7",
+    "level": 390,
+    "maxQuality": 10468,
+    "name": {
+      "cn": "Custom Gathering Tool Components",
+      "de": "Komponenten für ein spezielles Sammlerwerkzeug",
+      "en": "Custom Gathering Tool Components",
+      "fr": "Outils de récolte pour dragon",
+      "ja": "ドラゴン用採集道具部材",
+      "ko": "Custom Gathering Tool Components"
+    },
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 71,
     "difficulty": 1574,
     "durability": 40,
     "id": "875e3ea5315",
@@ -22201,6 +22669,23 @@
   },
   {
     "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 60,
+    "id": "2b84dd59172",
+    "level": 395,
+    "maxQuality": 10928,
+    "name": {
+      "cn": "Custom Weaving Components",
+      "de": "Komponenten für ein spezielles Weberwerkzeug",
+      "en": "Custom Weaving Components",
+      "fr": "Ustensiles de couture pour dragon",
+      "ja": "ドラゴン用裁縫用具",
+      "ko": "Custom Weaving Components"
+    },
+    "suggestedCraftsmanship": 1388
+  },
+  {
+    "baseLevel": 72,
     "difficulty": 1624,
     "durability": 40,
     "id": "4c8e75a1433",
@@ -22388,6 +22873,23 @@
   },
   {
     "baseLevel": 72,
+    "difficulty": 3085,
+    "durability": 80,
+    "id": "c70e2864693",
+    "level": 395,
+    "maxQuality": 12977,
+    "name": {
+      "cn": "Rarefied Stonegold Degen",
+      "de": "Steingold-Degen (Sammlerstück)",
+      "en": "Rarefied Stonegold Degen",
+      "fr": "Alfange en or pétré collectionnable",
+      "ja": "収集用のストーンゴールドデーゲン",
+      "ko": "Rarefied Stonegold Degen"
+    },
+    "suggestedCraftsmanship": 1388
+  },
+  {
+    "baseLevel": 72,
     "difficulty": 1624,
     "durability": 40,
     "id": "6e5780a1f65",
@@ -22417,6 +22919,23 @@
       "fr": "Souvenir du cabaret",
       "ja": "キャバレー土産品",
       "ko": "Beehive Souvenir"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "4c4eabfc3b1",
+    "level": 400,
+    "maxQuality": 11249,
+    "name": {
+      "cn": "Custom Crafting Tool Components",
+      "de": "Komponenten für ein spezielles Werkzeug",
+      "en": "Custom Crafting Tool Components",
+      "fr": "Outils d'artisanat pour dragon",
+      "ja": "ドラゴン用職人道具部材",
+      "ko": "Custom Crafting Tool Components"
     },
     "suggestedCraftsmanship": 1457
   },
@@ -22779,6 +23298,23 @@
   },
   {
     "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 60,
+    "id": "11d7af84d5f",
+    "level": 403,
+    "maxQuality": 11585,
+    "name": {
+      "cn": "Handpicked Culinary Essentials",
+      "de": "Handverlesene kulinarische Köstlichkeiten",
+      "en": "Handpicked Culinary Essentials",
+      "fr": "Sandwichs pour dragon",
+      "ja": "ドラゴンおもてなし料理必需品",
+      "ko": "Handpicked Culinary Essentials"
+    },
+    "suggestedCraftsmanship": 1498
+  },
+  {
+    "baseLevel": 74,
     "difficulty": 1703,
     "durability": 40,
     "id": "ccdd52d316c",
@@ -22808,6 +23344,23 @@
       "fr": "Pépite de mana-argent",
       "ja": "マナシルバーナゲット",
       "ko": "Manasilver Nugget"
+    },
+    "suggestedCraftsmanship": 1498
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "26cf8d40917",
+    "level": 403,
+    "maxQuality": 14482,
+    "name": {
+      "cn": "Rarefied Stonegold Orrery",
+      "de": "Steingold-Orrery (Sammlerstück)",
+      "en": "Rarefied Stonegold Orrery",
+      "fr": "Planétaire en or pétré collectionnable",
+      "ja": "収集用のストーンゴールドオーラリー",
+      "ko": "Rarefied Stonegold Orrery"
     },
     "suggestedCraftsmanship": 1498
   },
@@ -22958,7 +23511,7 @@
       "cn": "魔银耳夹",
       "de": "Manasilber-Ohrringe",
       "en": "Manasilver Ear Cuffs",
-      "fr": "Bagues d'oreille en mana-argent",
+      "fr": "Bagues d'oreilles en mana-argent",
       "ja": "マナシルバー・イヤーカフ",
       "ko": "Manasilver Ear Cuffs"
     },
@@ -23016,6 +23569,23 @@
     "suggestedCraftsmanship": 1539
   },
   {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 60,
+    "id": "04308703e38",
+    "level": 406,
+    "maxQuality": 11921,
+    "name": {
+      "cn": "Printing Essentials",
+      "de": "Druckutensilien",
+      "en": "Printing Essentials",
+      "fr": "Lot d'imprimerie",
+      "ja": "印刷必需品",
+      "ko": "Printing Essentials"
+    },
+    "suggestedCraftsmanship": 1539
+  },
+  {
     "baseLevel": 76,
     "difficulty": 3526,
     "durability": 80,
@@ -23029,6 +23599,23 @@
       "fr": "Lustre de Cristarium",
       "ja": "クリスタリウムシャンデリア",
       "ko": "Crystarium Chandelier"
+    },
+    "suggestedCraftsmanship": 1580
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "c09e0b3b8de",
+    "level": 409,
+    "maxQuality": 15322,
+    "name": {
+      "cn": "Rarefied Manasilver Ear Cuffs",
+      "de": "Manasilber-Ohrringe (Sammlerstück)",
+      "en": "Rarefied Manasilver Ear Cuffs",
+      "fr": "Bagues d'oreilles en mana-argent collectionnables",
+      "ja": "収集用のマナシルバーイヤーカフ",
+      "ko": "Rarefied Manasilver Ear Cuffs"
     },
     "suggestedCraftsmanship": 1580
   },
@@ -23818,6 +24405,23 @@
     "baseLevel": 78,
     "difficulty": 3645,
     "durability": 80,
+    "id": "de2ad273f9a",
+    "level": 415,
+    "maxQuality": 16162,
+    "name": {
+      "cn": "Rarefied Titanbronze Headgear",
+      "de": "Titanbronze-Kopfbedeckung (Sammlerstück)",
+      "en": "Rarefied Titanbronze Headgear",
+      "fr": "Protège-tête en bronze titané collectionnable",
+      "ja": "収集用のチタンブロンズヘッドギア",
+      "ko": "Rarefied Titanbronze Headgear"
+    },
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
     "id": "18faf27f71a",
     "level": 415,
     "maxQuality": 8081,
@@ -24139,6 +24743,57 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "77066a9227c",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Brazier",
+      "de": "Federfall-Feuerschale",
+      "en": "Grade 3 Skybuilders' Brazier",
+      "fr": "Socle à flambeau de restauration (3e phase)",
+      "ja": "第三次復興用の篝火台",
+      "ko": "Grade 3 Skybuilders' Brazier"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "44173b43bc8",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Marble Alcove Bed",
+      "de": "Marmor-Alkoven-Bett",
+      "en": "Marble Alcove Bed",
+      "fr": "Lit en alcôve en marbre",
+      "ja": "マーブルアルコーブベッド",
+      "ko": "Marble Alcove Bed"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "61e2aac21db",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Whetstone",
+      "de": "Werkstätten-Wetzstein",
+      "en": "Oddly Specific Whetstone",
+      "fr": "Pierre à aiguiser d'affinage",
+      "ja": "改良用の砥石",
+      "ko": "Oddly Specific Whetstone"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 1971,
     "durability": 40,
     "id": "88062c2d30e",
@@ -24151,6 +24806,23 @@
       "fr": "Onyx",
       "ja": "オニキス",
       "ko": "Onyx"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "89b03c5a483",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Rarefied Mythril Ring",
+      "de": "Edelmithril-Ring (Sammlerstück)",
+      "en": "Rarefied Mythril Ring",
+      "fr": "Bague en mithril noble collectionnable",
+      "ja": "収集用のハイミスリルリング",
+      "ko": "Rarefied Mythril Ring"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -24738,6 +25410,42 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "a4f2e1f8fc2",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Gemstone",
+      "de": "Werkstätten-Juwel",
+      "en": "Oddly Specific Gemstone",
+      "fr": "Perle d'affinage",
+      "ja": "改良用の宝玉",
+      "ko": "Oddly Specific Gemstone"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "21263e04c67",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Silver Nugget",
+      "de": "Werkstätten-Silber-Nugget",
+      "en": "Oddly Specific Silver Nugget",
+      "fr": "Pépite d'argent d'affinage",
+      "ja": "改良用のシルバーナゲット",
+      "ko": "Oddly Specific Silver Nugget"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4560,
     "durability": 70,
     "id": "c0a2bd7dc61",
@@ -24776,6 +25484,101 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "473816d01b5",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Bracelets of Crafting",
+      "de": "Ästhetische Armreife des Handwerks",
+      "en": "Aesthete's Bracelets of Crafting",
+      "fr": "Bracelets des créations esthétiques",
+      "ja": "エースセチック・クラフターブレスレット",
+      "ko": "Aesthete's Bracelets of Crafting"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "96fe40b7622",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Choker of Crafting",
+      "de": "Ästhetische Halsberge des Handwerks",
+      "en": "Aesthete's Choker of Crafting",
+      "fr": "Ras de cou des créations esthétique",
+      "ja": "エースセチック・クラフターチョーカー",
+      "ko": "Aesthete's Choker of Crafting"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "b928ca802f0",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Ear Cuffs of Crafting",
+      "de": "Ästhetische Ohrringe des Handwerks",
+      "en": "Aesthete's Ear Cuffs of Crafting",
+      "fr": "Bagues d'oreilles des créations esthétiques",
+      "ja": "エースセチック・クラフターイヤーカフ",
+      "ko": "Aesthete's Ear Cuffs of Crafting"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "b611a486fb1",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Needle",
+      "de": "Ästhetische Nadel",
+      "en": "Aesthete's Needle",
+      "fr": "Aiguille esthétique",
+      "ja": "エースセチック・ニードル",
+      "ko": "Aesthete's Needle"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "38dac5cfb56",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Aesthete's Ring of Crafting",
+      "de": "Ästhetischer Ring des Handwerks",
+      "en": "Aesthete's Ring of Crafting",
+      "fr": "Bague des créations esthétique",
+      "ja": "エースセチック・クラフターリング",
+      "ko": "Aesthete's Ring of Crafting"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 9181,
     "durability": 60,
     "id": "ea8bf8556c9",
@@ -24788,25 +25591,6 @@
       "fr": "Baignoire sur commande de restauration (2e phase)",
       "ja": "第二次復興用の特注浴槽",
       "ko": "Grade 2 Artisanal Skybuilders' Bathtub"
-    },
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 9181,
-    "durability": 60,
-    "id": "82251f1f36a",
-    "level": 480,
-    "maxQuality": 64862,
-    "name": {
-      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
-      "de": "Sonderbestelltes Genist-Musterstück",
-      "en": "Grade 2 Expert Skybuilders' Practice Materials",
-      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
-      "ja": "第二次復興事業用の特注習作",
-      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
     },
     "stars": 3,
     "suggestedControl": 2195,
@@ -24973,7 +25757,7 @@
     "maxQuality": 36208,
     "name": {
       "cn": "Neo-Ishgardian Wristbands of Aiming (patch 5.2)",
-      "de": "Neo-Ishgarder Armband des Zielens",
+      "de": "Neo-Ishgarder Armbänder des Zielens",
       "en": "Neo-Ishgardian Wristbands of Aiming",
       "fr": "Poignets de pisteur néo-ishgardais",
       "ja": "ネオイシュガルディアン・レンジャーリストバンド",
@@ -24992,7 +25776,7 @@
     "maxQuality": 36208,
     "name": {
       "cn": "Neo-Ishgardian Wristbands of Casting (patch 5.2)",
-      "de": "Neo-Ishgarder Armband der Magie",
+      "de": "Neo-Ishgarder Armbänder der Magie",
       "en": "Neo-Ishgardian Wristbands of Casting",
       "fr": "Poignets d'incantateur néo-ishgardais",
       "ja": "ネオイシュガルディアン・キャスターリストバンド",
@@ -25011,7 +25795,7 @@
     "maxQuality": 36208,
     "name": {
       "cn": "Neo-Ishgardian Wristbands of Fending (patch 5.2)",
-      "de": "Neo-Ishgarder Armband der Verteidigung",
+      "de": "Neo-Ishgarder Armbänder der Verteidigung",
       "en": "Neo-Ishgardian Wristbands of Fending",
       "fr": "Poignets de protecteur néo-ishgardais",
       "ja": "ネオイシュガルディアン・ディフェンダーリストバンド",
@@ -25030,7 +25814,7 @@
     "maxQuality": 36208,
     "name": {
       "cn": "Neo-Ishgardian Wristbands of Healing (patch 5.2)",
-      "de": "Neo-Ishgarder Armband der Heilung",
+      "de": "Neo-Ishgarder Armbänder der Heilung",
       "en": "Neo-Ishgardian Wristbands of Healing",
       "fr": "Poignets de soigneur néo-ishgardais",
       "ja": "ネオイシュガルディアン・ヒーラーリストバンド",
@@ -25049,7 +25833,7 @@
     "maxQuality": 36208,
     "name": {
       "cn": "Neo-Ishgardian Wristbands of Slaying (patch 5.2)",
-      "de": "Neo-Ishgarder Armband des Schlachtens",
+      "de": "Neo-Ishgarder Armbänder des Schlachtens",
       "en": "Neo-Ishgardian Wristbands of Slaying",
       "fr": "Poignets d'attaquant néo-ishgardais",
       "ja": "ネオイシュガルディアン・アタッカーリストバンド",
@@ -25057,6 +25841,24 @@
     },
     "stars": 3,
     "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "a2c56402703",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Silver Ingot",
+      "de": "Werkstätten-Silberbarren",
+      "en": "Oddly Specific Silver Ingot",
+      "fr": "Lingot d'argent d'affinage",
+      "ja": "改良用のシルバーインゴット",
+      "ko": "Oddly Specific Silver Ingot"
+    },
+    "stars": 3,
     "suggestedCraftsmanship": 2480
   },
   {
@@ -25080,40 +25882,306 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 6178,
+    "difficulty": 8591,
     "durability": 70,
-    "id": "1a6290e3ec4",
-    "level": 480,
-    "maxQuality": 36208,
+    "id": "ca001bb664e",
+    "level": 510,
+    "maxQuality": 56662,
     "name": {
-      "cn": "Rank VIII Artisan's Durable Practice Materials (patch 5.2)",
-      "de": "Musterstück VIII (Belastbarkeit: 70)",
-      "en": "Rank VIII Artisan's Durable Practice Materials",
-      "fr": "Échantillon expérimental de niveau 8 [Solidité 70]",
-      "ja": "第8巻級の習作【耐久70】",
-      "ko": "Rank VIII Artisan's Durable Practice Materials"
+      "cn": "Exarchic Circlet of Healing",
+      "de": "Exarchen-Stirnreif der Heilung",
+      "en": "Exarchic Circlet of Healing",
+      "fr": "Diadème de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーサークレット",
+      "ko": "Exarchic Circlet of Healing"
     },
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   },
   {
     "baseLevel": 80,
-    "difficulty": 4943,
-    "durability": 35,
-    "id": "345715c471c",
-    "level": 480,
-    "maxQuality": 32328,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "bdb70c6cc34",
+    "level": 510,
+    "maxQuality": 56662,
     "name": {
-      "cn": "Rank VIII Artisan's Fragile Practice Materials (patch 5.2)",
-      "de": "Musterstück VIII (Belastbarkeit: 35)",
-      "en": "Rank VIII Artisan's Fragile Practice Materials",
-      "fr": "Échantillon expérimental de niveau 8 [Solidité 35]",
-      "ja": "第8巻級の習作【耐久35】",
-      "ko": "Rank VIII Artisan's Fragile Practice Materials"
+      "cn": "Exarchic Earrings of Aiming",
+      "de": "Exarchen-Ohrringe des Zielens",
+      "en": "Exarchic Earrings of Aiming",
+      "fr": "Boucles d'oreilles de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーイヤリング",
+      "ko": "Exarchic Earrings of Aiming"
     },
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "529a501c88c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Casting",
+      "de": "Exarchen-Ohrringe der Magie",
+      "en": "Exarchic Earrings of Casting",
+      "fr": "Boucles d'oreilles d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターイヤリング",
+      "ko": "Exarchic Earrings of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "e5d7a91bedd",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Fending",
+      "de": "Exarchen-Ohrringe der Verteidigung",
+      "en": "Exarchic Earrings of Fending",
+      "fr": "Boucles d'oreilles de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーイヤリング",
+      "ko": "Exarchic Earrings of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "112d6a99cbf",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Healing",
+      "de": "Exarchen-Ohrringe der Heilung",
+      "en": "Exarchic Earrings of Healing",
+      "fr": "Boucles d'oreilles de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーイヤリング",
+      "ko": "Exarchic Earrings of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0280a039872",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Slaying",
+      "de": "Exarchen-Ohrringe des Schlachtens",
+      "en": "Exarchic Earrings of Slaying",
+      "fr": "Boucles d'oreilles d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーイヤリング",
+      "ko": "Exarchic Earrings of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c3f0af2bb9e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Rapier",
+      "de": "Exarchen-Rapier",
+      "en": "Exarchic Rapier",
+      "fr": "Rapière de l'exarchat",
+      "ja": "エクサークレイピア",
+      "ko": "Exarchic Rapier"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "6d003cfbc42",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Aiming",
+      "de": "Exarchen-Ring des Zielens",
+      "en": "Exarchic Ring of Aiming",
+      "fr": "Bague de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーリング",
+      "ko": "Exarchic Ring of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "636b594aff6",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Casting",
+      "de": "Exarchen-Ring der Magie",
+      "en": "Exarchic Ring of Casting",
+      "fr": "Bague d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターリング",
+      "ko": "Exarchic Ring of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "e46f2f85b67",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Fending",
+      "de": "Exarchen-Ring der Verteidigung",
+      "en": "Exarchic Ring of Fending",
+      "fr": "Bague de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーリング",
+      "ko": "Exarchic Ring of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "893cfe9907a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Healing",
+      "de": "Exarchen-Ring der Heilung",
+      "en": "Exarchic Ring of Healing",
+      "fr": "Bague de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーリング",
+      "ko": "Exarchic Ring of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ded82bff74b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Slaying",
+      "de": "Exarchen-Ring des Schlachtens",
+      "en": "Exarchic Ring of Slaying",
+      "fr": "Bague d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーリング",
+      "ko": "Exarchic Ring of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d182d268f4b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Rod",
+      "de": "Exarchen-Stab",
+      "en": "Exarchic Rod",
+      "fr": "Sceptre de l'exarchat",
+      "ja": "エクサークロッド",
+      "ko": "Exarchic Rod"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9e3477dfd1c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Star Globe",
+      "de": "Exarchen-Sternenglobus",
+      "en": "Exarchic Star Globe",
+      "fr": "globe céleste de l'exarchat",
+      "ja": "エクサークスターグローブ",
+      "ko": "Exarchic Star Globe"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "c5b911670b9",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Chronometer",
+      "de": "Sonderbestellter Federfall-Chronometer",
+      "en": "Grade 3 Artisanal Skybuilders' Chronometer",
+      "fr": "Horloge sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注クロノメーター",
+      "ko": "Grade 3 Artisanal Skybuilders' Chronometer"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "956abb9e972",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Solstice Ingot",
+      "de": "Nachtsonnenkristallplatten",
+      "en": "Solstice Ingot",
+      "fr": "Barre solsticiale",
+      "ja": "白夜結晶板",
+      "ko": "Solstice Ingot"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]

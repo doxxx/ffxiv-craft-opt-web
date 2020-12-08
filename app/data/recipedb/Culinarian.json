@@ -1651,6 +1651,23 @@
   {
     "baseLevel": 20,
     "difficulty": 74,
+    "durability": 60,
+    "id": "287217ce056",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Hemp Milk",
+      "de": "Federfall-Hanfmilch",
+      "en": "Grade 3 Skybuilders' Hemp Milk",
+      "fr": "Lait de chanvre de restauration (3e phase)",
+      "ja": "第三次復興用のヘンプミルク",
+      "ko": "Grade 3 Skybuilders' Hemp Milk"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
     "durability": 70,
     "id": "bb677be8925",
     "level": 20,
@@ -3079,6 +3096,23 @@
   {
     "baseLevel": 40,
     "difficulty": 138,
+    "durability": 60,
+    "id": "ea11df2293b",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Sesame Cookie",
+      "de": "Federfall-Sesamkeks",
+      "en": "Grade 3 Skybuilders' Sesame Cookie",
+      "fr": "Biscuit au sésame de restauration (3e phase)",
+      "ja": "第三次復興用のセサミクッキー",
+      "ko": "Grade 3 Skybuilders' Sesame Cookie"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
     "durability": 80,
     "id": "d571239c429",
     "level": 40,
@@ -3738,6 +3772,23 @@
       "ko": "모그리용 도구 부재"
     },
     "suggestedCraftsmanship": 176
+  },
+  {
+    "baseLevel": 50,
+    "difficulty": 292,
+    "durability": 80,
+    "id": "ea6842de084",
+    "level": 50,
+    "maxQuality": 4114,
+    "name": {
+      "cn": "Rarefied Dhalmel Gratin",
+      "de": "Dhalmel-Gratin (Sammlerstück)",
+      "en": "Rarefied Dhalmel Gratin",
+      "fr": "Gratin de dhalmel collectionnable",
+      "ja": "収集用のアウフラウフ",
+      "ko": "Rarefied Dhalmel Gratin"
+    },
+    "suggestedCraftsmanship": 314
   },
   {
     "baseLevel": 50,
@@ -4732,6 +4783,23 @@
     "baseLevel": 52,
     "difficulty": 503,
     "durability": 80,
+    "id": "6480735ce73",
+    "level": 125,
+    "maxQuality": 5172,
+    "name": {
+      "cn": "Rarefied Sohm Al Tart",
+      "de": "Mont Sohm Al-Süßspeise (Sammlerstück)",
+      "en": "Rarefied Sohm Al Tart",
+      "fr": "Sohm Al aux marrons collectionnable",
+      "ja": "収集用のソーム・アル・オ・マロン",
+      "ko": "Rarefied Sohm Al Tart"
+    },
+    "suggestedCraftsmanship": 502
+  },
+  {
+    "baseLevel": 52,
+    "difficulty": 503,
+    "durability": 80,
     "id": "9e85fb49f22",
     "level": 125,
     "maxQuality": 2586,
@@ -4885,6 +4953,23 @@
     "baseLevel": 54,
     "difficulty": 641,
     "durability": 80,
+    "id": "11427dacccf",
+    "level": 133,
+    "maxQuality": 6042,
+    "name": {
+      "cn": "Rarefied Sauteed Porcini",
+      "de": "Porciniragout (Sammlerstück)",
+      "en": "Rarefied Sauteed Porcini",
+      "fr": "Bolets sautés collectionnables",
+      "ja": "収集用のポルチーニソテー",
+      "ko": "Rarefied Sauteed Porcini"
+    },
+    "suggestedCraftsmanship": 529
+  },
+  {
+    "baseLevel": 54,
+    "difficulty": 641,
+    "durability": 80,
     "id": "776c3ee3e4d",
     "level": 133,
     "maxQuality": 6042,
@@ -5014,6 +5099,23 @@
       "fr": "Collation de thé oriental",
       "ja": "オリエンタル・ティーセット",
       "ko": "동방의 녹차 세트"
+    },
+    "suggestedCraftsmanship": 550
+  },
+  {
+    "baseLevel": 56,
+    "difficulty": 752,
+    "durability": 70,
+    "id": "f4debd80a55",
+    "level": 139,
+    "maxQuality": 6561,
+    "name": {
+      "cn": "Rarefied Royal Eggs",
+      "de": "Eier Royal (Sammlerstück)",
+      "en": "Rarefied Royal Eggs",
+      "fr": "Œufs royaux collectionnables",
+      "ja": "収集用のエッグロワイヤル",
+      "ko": "Rarefied Royal Eggs"
     },
     "suggestedCraftsmanship": 550
   },
@@ -5320,6 +5422,23 @@
       "fr": "Composant de happi",
       "ja": "ハッピ部材",
       "ko": "축제 의상 부재"
+    },
+    "suggestedCraftsmanship": 570
+  },
+  {
+    "baseLevel": 58,
+    "difficulty": 863,
+    "durability": 70,
+    "id": "bbdc52373f7",
+    "level": 145,
+    "maxQuality": 7080,
+    "name": {
+      "cn": "Rarefied Peperoncino",
+      "de": "Peperoncino (Sammlerstück)",
+      "en": "Rarefied Peperoncino",
+      "fr": "Pâtes aux piments collectionnables",
+      "ja": "収集用のペペロンチーノ",
+      "ko": "Rarefied Peperoncino"
     },
     "suggestedCraftsmanship": 570
   },
@@ -5786,6 +5905,23 @@
     "baseLevel": 60,
     "difficulty": 956,
     "durability": 60,
+    "id": "e0cdb339f8c",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Tea",
+      "de": "Federfall-Schwarztee",
+      "en": "Grade 3 Skybuilders' Tea",
+      "fr": "Thé de restauration (3e phase)",
+      "ja": "第三次復興用の紅茶",
+      "ko": "Grade 3 Skybuilders' Tea"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
     "id": "24906672d43",
     "level": 150,
     "maxQuality": 6280,
@@ -5932,6 +6068,23 @@
       "fr": "Répliques de produits régionaux",
       "ja": "投擲用特産品",
       "ko": "투척용 특산품"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 70,
+    "id": "9833f49c361",
+    "level": 150,
+    "maxQuality": 7851,
+    "name": {
+      "cn": "Rarefied Marron Glace",
+      "de": "Glasierte Glanznüsse (Sammlerstück)",
+      "en": "Rarefied Marron Glace",
+      "fr": "Marrons glacés collectionnables",
+      "ja": "収集用のマロングラッセ",
+      "ko": "Rarefied Marron Glace"
     },
     "suggestedCraftsmanship": 587
   },
@@ -6816,6 +6969,23 @@
     "suggestedCraftsmanship": 1027
   },
   {
+    "baseLevel": 62,
+    "difficulty": 1263,
+    "durability": 80,
+    "id": "71036de795c",
+    "level": 265,
+    "maxQuality": 8581,
+    "name": {
+      "cn": "Rarefied Baklava",
+      "de": "Baklava (Sammlerstück)",
+      "en": "Rarefied Baklava",
+      "fr": "Baklava collectionnable",
+      "ja": "収集用のバクラヴァ",
+      "ko": "Rarefied Baklava"
+    },
+    "suggestedCraftsmanship": 1027
+  },
+  {
     "baseLevel": 63,
     "difficulty": 1476,
     "durability": 60,
@@ -7105,6 +7275,23 @@
     "suggestedCraftsmanship": 1044
   },
   {
+    "baseLevel": 64,
+    "difficulty": 1586,
+    "durability": 80,
+    "id": "9afb0ae354b",
+    "level": 273,
+    "maxQuality": 9657,
+    "name": {
+      "cn": "Rarefied Shorlog",
+      "de": "Shorlog (Sammlerstück)",
+      "en": "Rarefied Shorlog",
+      "fr": "Shorlog collectionnable",
+      "ja": "収集用のショルログ",
+      "ko": "Rarefied Shorlog"
+    },
+    "suggestedCraftsmanship": 1044
+  },
+  {
     "baseLevel": 65,
     "difficulty": 1187,
     "durability": 80,
@@ -7322,6 +7509,23 @@
       "fr": "Déjeuner oriental : nouilles de sarrasin",
       "ja": "オリエンタル・ランチセット:蕎麦",
       "ko": "동방의 점심식사: 메밀국수"
+    },
+    "suggestedCraftsmanship": 1056
+  },
+  {
+    "baseLevel": 66,
+    "difficulty": 1808,
+    "durability": 80,
+    "id": "dd574c20694",
+    "level": 279,
+    "maxQuality": 10389,
+    "name": {
+      "cn": "Rarefied Tempura Platter",
+      "de": "Tempura-Platte (Sammlerstück)",
+      "en": "Rarefied Tempura Platter",
+      "fr": "Assortiment de tenpura collectionnable",
+      "ja": "収集用の天ぷら盛り合わせ",
+      "ko": "Rarefied Tempura Platter"
     },
     "suggestedCraftsmanship": 1056
   },
@@ -7598,6 +7802,23 @@
     "suggestedCraftsmanship": 1069
   },
   {
+    "baseLevel": 68,
+    "difficulty": 2029,
+    "durability": 80,
+    "id": "79984dbf50a",
+    "level": 285,
+    "maxQuality": 11121,
+    "name": {
+      "cn": "Rarefied Persimmon Pudding",
+      "de": "Kakipudding (Sammlerstück)",
+      "en": "Rarefied Persimmon Pudding",
+      "fr": "Flan aux kakis collectionnable",
+      "ja": "収集用のパーシモンプディング",
+      "ko": "Rarefied Persimmon Pudding"
+    },
+    "suggestedCraftsmanship": 1069
+  },
+  {
     "baseLevel": 69,
     "difficulty": 2140,
     "durability": 80,
@@ -7667,6 +7888,193 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "1f1a8a4a7d8",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Armament Repair Kit",
+      "de": "Reparaturwerkzeug",
+      "en": "Armament Repair Kit",
+      "fr": "Composant de réparation",
+      "ja": "武具補修材",
+      "ko": "Armament Repair Kit"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "804f55dbfb2",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Automaton Repair Component",
+      "de": "Reparaturwerkstoff für Eisenbärte",
+      "en": "Automaton Repair Component",
+      "fr": "Composant de réparation d'automate",
+      "ja": "オートマトン修理部材",
+      "ko": "Automaton Repair Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2546,
+    "durability": 70,
+    "id": "659a5316c77",
+    "level": 290,
+    "maxQuality": 17017,
+    "name": {
+      "cn": "Automaton Worker Supplies",
+      "de": "Fließbandkomponenten",
+      "en": "Automaton Worker Supplies",
+      "fr": "Composants de chaîne de montage",
+      "ja": "オートメーション必要部材",
+      "ko": "Automaton Worker Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "ec250bfd692",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Axle Component",
+      "de": "Experimentelles Achsenzubehörteil",
+      "en": "Axle Component",
+      "fr": "Composant d'essieu expérimental",
+      "ja": "摩耗軽減部材",
+      "ko": "Axle Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "db81568f3ca",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Bespoke Barter Item",
+      "de": "Handelsgut",
+      "en": "Bespoke Barter Item",
+      "fr": "Objet pour le marchand mord",
+      "ja": "代金代わりの商品",
+      "ko": "Bespoke Barter Item"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "774ebfa71b3",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Blueprint Supplies",
+      "de": "Schreibutensil",
+      "en": "Blueprint Supplies",
+      "fr": "Ustensile de dessin",
+      "ja": "ドワーフ製図用具",
+      "ko": "Blueprint Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2324,
+    "durability": 70,
+    "id": "24c72e9a2df",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Brewery Supplies",
+      "de": "Brauereikomponenten",
+      "en": "Brewery Supplies",
+      "fr": "Composants de brasserie",
+      "ja": "醸造設備の必需品",
+      "ko": "Brewery Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "450202e58cf",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Cask Component",
+      "de": "Fassbestandteil",
+      "en": "Cask Component",
+      "fr": "Composant de fût",
+      "ja": "酒樽部材",
+      "ko": "Cask Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "d4e730e6207",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Cooling Device Component",
+      "de": "Kühlmittel",
+      "en": "Cooling Device Component",
+      "fr": "Article refroidissant",
+      "ja": "冷却機構部材",
+      "ko": "Cooling Device Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "65dfa39bc49",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Core Tank Component",
+      "de": "Zubehörteil des Zwergenpanzers",
+      "en": "Core Tank Component",
+      "fr": "Pièce complexe d'automatank",
+      "ja": "車体重要部材",
+      "ko": "Core Tank Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "a31e4cfe8ab",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Crystal Cannon Supplies",
+      "de": "Geschützkomponenten",
+      "en": "Crystal Cannon Supplies",
+      "fr": "Composants de canon",
+      "ja": "主砲の重要部材",
+      "ko": "Crystal Cannon Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 1549,
     "durability": 80,
     "id": "296875354ed",
@@ -7696,6 +8104,74 @@
       "fr": "Bouillon antidotique",
       "ja": "解毒の薬餌",
       "ko": "Edible Antidote"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "8762253dbe2",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Engine Component",
+      "de": "Hilfsmittel für die Motorwartung",
+      "en": "Engine Component",
+      "fr": "Composant d'amélioration de moteur",
+      "ja": "エンジン保全部材",
+      "ko": "Engine Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "ae596dbebdc",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Experimental Plating Component",
+      "de": "Bestandteil der Panzerung des Zwergenpanzers",
+      "en": "Experimental Plating Component",
+      "fr": "Pièce de renforcement",
+      "ja": "試作装甲用部材",
+      "ko": "Experimental Plating Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "fb7cd570fd8",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Eye-catching Custom Option",
+      "de": "Auffälliges Zubehörteil",
+      "en": "Eye-catching Custom Option",
+      "fr": "Option de personnalisation criarde",
+      "ja": "ド派手な外装オプション",
+      "ko": "Eye-catching Custom Option"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "6d2f8242f94",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Filtration Supplies",
+      "de": "Utensil zum Experimentieren mit Zwergensprit",
+      "en": "Filtration Supplies",
+      "fr": "Ustensile d'expérience de raffinage",
+      "ja": "精製実験用品",
+      "ko": "Filtration Supplies"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -7736,6 +8212,57 @@
   {
     "baseLevel": 70,
     "difficulty": 2214,
+    "durability": 60,
+    "id": "6d4dab94075",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 3 Skybuilders' All-purpose Infusion",
+      "de": "Federfall-Kräuterbad",
+      "en": "Grade 3 Skybuilders' All-purpose Infusion",
+      "fr": "Tisane de restauration (3e phase)",
+      "ja": "第三次復興用の薬湯",
+      "ko": "Grade 3 Skybuilders' All-purpose Infusion"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2435,
+    "durability": 70,
+    "id": "ea37c2cb8f0",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Grooming Kit",
+      "de": "Pflegeprodukt für den Bart",
+      "en": "Grooming Kit",
+      "fr": "Ustensile d'entretien de barbe",
+      "ja": "ヒゲのお手入れ用具",
+      "ko": "Grooming Kit"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "1d6fde061f7",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Heat-resistant Component",
+      "de": "Hitzebeständiger Bestandteil",
+      "en": "Heat-resistant Component",
+      "fr": "Article réfractaire",
+      "ja": "耐熱性部材",
+      "ko": "Heat-resistant Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
     "durability": 80,
     "id": "d9b341e76e1",
     "level": 290,
@@ -7747,6 +8274,40 @@
       "fr": "Moussaka au jhammel",
       "ja": "ジャムメルムサカ",
       "ko": "잠멜 무사카"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "e72eaee6a60",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Low-profile Custom Option",
+      "de": "Unauffälliges Zubehörteil",
+      "en": "Low-profile Custom Option",
+      "fr": "Option de personnalisation discrète",
+      "ja": "低視認性外装オプション",
+      "ko": "Low-profile Custom Option"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 80,
+    "id": "b7db6864c82",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Rarefied Chirashi-zushi",
+      "de": "Chirashi-Sushi (Sammlerstück)",
+      "en": "Rarefied Chirashi-zushi",
+      "fr": "Chirashi-zushi collectionnable",
+      "ja": "収集用のちらし寿司",
+      "ko": "Rarefied Chirashi-zushi"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -7786,6 +8347,23 @@
   },
   {
     "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "d1200050c4a",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Steel Plate Component",
+      "de": "Hilfsmittel für die Stahlplattenproduktion",
+      "en": "Steel Plate Component",
+      "fr": "Composant de plaque de métal",
+      "ja": "鋼板増産部材",
+      "ko": "Steel Plate Component"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
     "difficulty": 2214,
     "durability": 80,
     "id": "c7b2bd171a5",
@@ -7798,6 +8376,91 @@
       "fr": "Pagre en papillote",
       "ja": "カワダイの煮込み",
       "ko": "감성돔 조림"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "4c4975b11a6",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Tavern Materials",
+      "de": "Barzubehörteil",
+      "en": "Tavern Materials",
+      "fr": "Article pour la taverne",
+      "ja": "酒場必需品",
+      "ko": "Tavern Materials"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2103,
+    "durability": 35,
+    "id": "669e83d889a",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Test-fire Target Dummy",
+      "de": "Zielscheibe",
+      "en": "Test-fire Target Dummy",
+      "fr": "Cible de test",
+      "ja": "試射用標的",
+      "ko": "Test-fire Target Dummy"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "bf240e5e4be",
+    "level": 290,
+    "maxQuality": 15843,
+    "name": {
+      "cn": "Unfailing Eye Opener",
+      "de": "Ronitts Muntermacher",
+      "en": "Unfailing Eye Opener",
+      "fr": "Objet pour un réveil brutal",
+      "ja": "目覚めの秘密道具",
+      "ko": "Unfailing Eye Opener"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2546,
+    "durability": 70,
+    "id": "42258959fb8",
+    "level": 290,
+    "maxQuality": 16430,
+    "name": {
+      "cn": "Workshop Expansion Supplies",
+      "de": "Komponenten für eine Werkstattserweiterung",
+      "en": "Workshop Expansion Supplies",
+      "fr": "Composants d'atelier annexe",
+      "ja": "ガレージ拡張用の部材",
+      "ko": "Workshop Expansion Supplies"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 70,
+    "id": "25bffc2484a",
+    "level": 290,
+    "maxQuality": 11736,
+    "name": {
+      "cn": "Workshop Supplies",
+      "de": "Werkstattzubehör",
+      "en": "Workshop Supplies",
+      "fr": "Composants d'atelier mécanique",
+      "ja": "作業場の必需品",
+      "ko": "Workshop Supplies"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -8296,6 +8959,23 @@
   },
   {
     "baseLevel": 71,
+    "difficulty": 3149,
+    "durability": 60,
+    "id": "e46936d8ec6",
+    "level": 390,
+    "maxQuality": 10468,
+    "name": {
+      "cn": "Custom Gathering Tool Components",
+      "de": "Komponenten für ein spezielles Sammlerwerkzeug",
+      "en": "Custom Gathering Tool Components",
+      "fr": "Outils de récolte pour dragon",
+      "ja": "ドラゴン用採集道具部材",
+      "ko": "Custom Gathering Tool Components"
+    },
+    "suggestedCraftsmanship": 1320
+  },
+  {
+    "baseLevel": 71,
     "difficulty": 1574,
     "durability": 40,
     "id": "0ec81dc781b",
@@ -8415,6 +9095,23 @@
   },
   {
     "baseLevel": 72,
+    "difficulty": 3248,
+    "durability": 60,
+    "id": "0767c4fe212",
+    "level": 395,
+    "maxQuality": 10928,
+    "name": {
+      "cn": "Custom Weaving Components",
+      "de": "Komponenten für ein spezielles Weberwerkzeug",
+      "en": "Custom Weaving Components",
+      "fr": "Ustensiles de couture pour dragon",
+      "ja": "ドラゴン用裁縫用具",
+      "ko": "Custom Weaving Components"
+    },
+    "suggestedCraftsmanship": 1388
+  },
+  {
+    "baseLevel": 72,
     "difficulty": 1624,
     "durability": 40,
     "id": "2ea05a7b638",
@@ -8427,6 +9124,23 @@
       "fr": "Sucre de betterave potagère",
       "ja": "ガーデンビートシュガー",
       "ko": "Garden Beet Sugar"
+    },
+    "suggestedCraftsmanship": 1388
+  },
+  {
+    "baseLevel": 72,
+    "difficulty": 3085,
+    "durability": 80,
+    "id": "a8e0ffcd461",
+    "level": 395,
+    "maxQuality": 12977,
+    "name": {
+      "cn": "Rarefied Grilled Rail",
+      "de": "Gegrillte Ralle (Sammlerstück)",
+      "en": "Rarefied Grilled Rail",
+      "fr": "Tranche de râle grillée collectionnable",
+      "ja": "収集用のレイルのグリル",
+      "ko": "Rarefied Grilled Rail"
     },
     "suggestedCraftsmanship": 1388
   },
@@ -8461,6 +9175,23 @@
       "fr": "Salade de féveroles",
       "ja": "ブロードビーンサラダ",
       "ko": "Broad Bean Salad"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 60,
+    "id": "27ba5fce912",
+    "level": 400,
+    "maxQuality": 11249,
+    "name": {
+      "cn": "Custom Crafting Tool Components",
+      "de": "Komponenten für ein spezielles Werkzeug",
+      "en": "Custom Crafting Tool Components",
+      "fr": "Outils d'artisanat pour dragon",
+      "ja": "ドラゴン用職人道具部材",
+      "ko": "Custom Crafting Tool Components"
     },
     "suggestedCraftsmanship": 1457
   },
@@ -8586,6 +9317,23 @@
   {
     "baseLevel": 74,
     "difficulty": 3407,
+    "durability": 60,
+    "id": "b47f06d4756",
+    "level": 403,
+    "maxQuality": 11585,
+    "name": {
+      "cn": "Handpicked Culinary Essentials",
+      "de": "Handverlesene kulinarische Köstlichkeiten",
+      "en": "Handpicked Culinary Essentials",
+      "fr": "Sandwichs pour dragon",
+      "ja": "ドラゴンおもてなし料理必需品",
+      "ko": "Handpicked Culinary Essentials"
+    },
+    "suggestedCraftsmanship": 1498
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
     "durability": 80,
     "id": "e3f0583c3d0",
     "level": 403,
@@ -8597,6 +9345,23 @@
       "fr": "Chausson aux pommes pixies",
       "ja": "ピクシーアップルパイ",
       "ko": "Pixie Apple Pie"
+    },
+    "suggestedCraftsmanship": 1498
+  },
+  {
+    "baseLevel": 74,
+    "difficulty": 3407,
+    "durability": 80,
+    "id": "a9e0cacf5ba",
+    "level": 403,
+    "maxQuality": 14482,
+    "name": {
+      "cn": "Rarefied Spaghetti al Nero",
+      "de": "Tintenschwarze Spaghetti (Sammlerstück)",
+      "en": "Rarefied Spaghetti al Nero",
+      "fr": "Spaghetti al nero collectionnables",
+      "ja": "収集用のスパゲッティ・ネーロ",
+      "ko": "Rarefied Spaghetti al Nero"
     },
     "suggestedCraftsmanship": 1498
   },
@@ -8720,6 +9485,23 @@
     "suggestedCraftsmanship": 1539
   },
   {
+    "baseLevel": 75,
+    "difficulty": 3467,
+    "durability": 60,
+    "id": "66482850c1e",
+    "level": 406,
+    "maxQuality": 11921,
+    "name": {
+      "cn": "Printing Essentials",
+      "de": "Druckutensilien",
+      "en": "Printing Essentials",
+      "fr": "Lot d'imprimerie",
+      "ja": "印刷必需品",
+      "ko": "Printing Essentials"
+    },
+    "suggestedCraftsmanship": 1539
+  },
+  {
     "baseLevel": 76,
     "difficulty": 3526,
     "durability": 80,
@@ -8750,6 +9532,23 @@
       "fr": "Brochette de champignons",
       "ja": "マッシュルームスキュアー",
       "ko": "Mushroom Skewer"
+    },
+    "suggestedCraftsmanship": 1580
+  },
+  {
+    "baseLevel": 76,
+    "difficulty": 3526,
+    "durability": 80,
+    "id": "e63ce22bf53",
+    "level": 409,
+    "maxQuality": 15322,
+    "name": {
+      "cn": "Rarefied Popotoes au Gratin",
+      "de": "Ockertoffel-Gratin (Sammlerstück)",
+      "en": "Rarefied Popotoes au Gratin",
+      "fr": "Gratin de popotos brunes collectionnable",
+      "ja": "収集用のラセットポポトグラタン",
+      "ko": "Rarefied Popotoes au Gratin"
     },
     "suggestedCraftsmanship": 1580
   },
@@ -8978,6 +9777,23 @@
     "baseLevel": 78,
     "difficulty": 3645,
     "durability": 80,
+    "id": "06f1b3f3155",
+    "level": 415,
+    "maxQuality": 16162,
+    "name": {
+      "cn": "Rarefied Espresso con Panna",
+      "de": "Sahne-Espresso (Sammlerstück)",
+      "en": "Rarefied Espresso con Panna",
+      "fr": "Espresso con panna collectionnable",
+      "ja": "収集用のエスプレッソ・コン・パンナ",
+      "ko": "Rarefied Espresso con Panna"
+    },
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 3645,
+    "durability": 80,
     "id": "2b6b4815218",
     "level": 415,
     "maxQuality": 16162,
@@ -9045,6 +9861,74 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 80,
+    "id": "00f01e91218",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Baked Goods Showcase",
+      "de": "Gebäck-Schaukasten",
+      "en": "Baked Goods Showcase",
+      "fr": "Vitrine de viennoiseries",
+      "ja": "ペストリーショーケース",
+      "ko": "Baked Goods Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "d7c096b70ec",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Baker's Show Window",
+      "de": "Gebäck-Schaufenster",
+      "en": "Baker's Show Window",
+      "fr": "Vitrine extérieure de viennoiseries",
+      "ja": "ペストリーショーウィンドウ",
+      "ko": "Baker's Show Window"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "4a5ee5bc512",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Devil's Salad Bowl",
+      "de": "Salat mit verteufelten Eiern",
+      "en": "Devil's Salad Bowl",
+      "fr": "Saladier d'œufs mimosa",
+      "ja": "デビルドエッグズ・サラダボウル",
+      "ko": "Devil's Salad Bowl"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "bdcfda3f64d",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Giant Beaver Burger Set",
+      "de": "Riesenburger-Set",
+      "en": "Giant Beaver Burger Set",
+      "fr": "Hamburger d'abeille géante",
+      "ja": "ジャイアントビーバーガー・セット",
+      "ko": "Giant Beaver Burger Set"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 60,
     "id": "8d03ba2d848",
     "level": 430,
@@ -9056,6 +9940,57 @@
       "fr": "Marmite de ragoût de restauration (2e phase)",
       "ja": "第二次復興用のシチュー",
       "ko": "Grade 2 Skybuilders' Stew"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "add0cea4195",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 3 Skybuilders' Stew",
+      "de": "Federfall-Eintopf",
+      "en": "Grade 3 Skybuilders' Stew",
+      "fr": "Marmite de ragoût de restauration (3e phase)",
+      "ja": "第三次復興用のシチュー",
+      "ko": "Grade 3 Skybuilders' Stew"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "571739822d8",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Grilled Eel Set",
+      "de": "Aal-Set",
+      "en": "Grilled Eel Set",
+      "fr": "Unajû-gozen",
+      "ja": "うな重御膳",
+      "ko": "Grilled Eel Set"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "a8ec6152295",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Homemade Cookie Set",
+      "de": "Tablett mit Keksen",
+      "en": "Homemade Cookie Set",
+      "fr": "Planche à biscuits maison",
+      "ja": "ハンドメイドクッキーボード",
+      "ko": "Homemade Cookie Set"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -9097,6 +10032,23 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "2bd24d1a30b",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Oddly Specific Seed Extract",
+      "de": "Werkstätten-Getreidesamenextrakt",
+      "en": "Oddly Specific Seed Extract",
+      "fr": "Huile de graines d'affinage",
+      "ja": "改良用の種子抽出液",
+      "ko": "Oddly Specific Seed Extract"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "8b08c404cde",
     "level": 430,
     "maxQuality": 18262,
@@ -9130,6 +10082,40 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 80,
+    "id": "384e407173c",
+    "level": 430,
+    "maxQuality": 18262,
+    "name": {
+      "cn": "Rarefied Lemonade",
+      "de": "Limonade (Sammlerstück)",
+      "en": "Rarefied Lemonade",
+      "fr": "Limonade collectionnable",
+      "ja": "収集用のレモネード",
+      "ko": "Rarefied Lemonade"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "b328dd2d7f1",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Shakshouka Pot",
+      "de": "Heiße Tomatenpfanne",
+      "en": "Shakshouka Pot",
+      "fr": "Poêle de chakchouka",
+      "ja": "鉄鍋シャクシュカ",
+      "ko": "Shakshouka Pot"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 60,
     "id": "13a9a966788",
     "level": 430,
@@ -9141,6 +10127,40 @@
       "fr": "Marmite de ragoût de restauration",
       "ja": "復興用のシチュー",
       "ko": "Skybuilders' Stew"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "2e99676cefe",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Sliced Watermelon",
+      "de": "Geschnittene Melone",
+      "en": "Sliced Watermelon",
+      "fr": "Tranches de pastèque",
+      "ja": "カットウォーターメロン",
+      "ko": "Sliced Watermelon"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "23316d482fb",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Takoyaki Boat",
+      "de": "Takoyaki-Grillplatte",
+      "en": "Takoyaki Boat",
+      "fr": "Barquette de takoyaki",
+      "ja": "タコ焼き舟皿盛り",
+      "ko": "Takoyaki Boat"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -9313,6 +10333,42 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "1d374634082",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Oil",
+      "de": "Werkstätten-Öl",
+      "en": "Oddly Specific Oil",
+      "fr": "Huile d'affinage",
+      "ja": "改良用のオイル",
+      "ko": "Oddly Specific Oil"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4343,
+    "durability": 70,
+    "id": "d2edc823c5c",
+    "level": 450,
+    "maxQuality": 23395,
+    "name": {
+      "cn": "Oddly Specific Seed Flour",
+      "de": "Werkstätten-Samenmehl",
+      "en": "Oddly Specific Seed Flour",
+      "fr": "Poudre de graines d'affinage",
+      "ja": "改良用の種子粉",
+      "ko": "Oddly Specific Seed Flour"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2140
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4560,
     "durability": 70,
     "id": "c4e2770343e",
@@ -9408,6 +10464,44 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "eb03322c9b8",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Chili Crab",
+      "de": "Chili-Krabbengericht",
+      "en": "Chili Crab",
+      "fr": "Chili de crabe",
+      "ja": "チリクラブ",
+      "ko": "Chili Crab"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 7414,
+    "durability": 70,
+    "id": "494a7c9a47b",
+    "level": 480,
+    "maxQuality": 46553,
+    "name": {
+      "cn": "Crab Cakes",
+      "de": "Krabbenküchlein",
+      "en": "Crab Cakes",
+      "fr": "Gâteau de crabe",
+      "ja": "クラブケーキ",
+      "ko": "Crab Cakes"
+    },
+    "stars": 3,
+    "suggestedControl": 2195,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 6178,
     "durability": 70,
     "id": "70d581915d6",
@@ -9446,25 +10540,6 @@
   },
   {
     "baseLevel": 80,
-    "difficulty": 9181,
-    "durability": 60,
-    "id": "d4466ca20da",
-    "level": 480,
-    "maxQuality": 64862,
-    "name": {
-      "cn": "Grade 2 Expert Skybuilders' Practice Materials",
-      "de": "Sonderbestelltes Genist-Musterstück",
-      "en": "Grade 2 Expert Skybuilders' Practice Materials",
-      "fr": "Échantillon expérimental pour reconstruction d'Azurée (2e phase)",
-      "ja": "第二次復興事業用の特注習作",
-      "ko": "Grade 2 Expert Skybuilders' Practice Materials"
-    },
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
     "difficulty": 6178,
     "durability": 70,
     "id": "e2a8e6c0bfa",
@@ -9472,7 +10547,7 @@
     "maxQuality": 36208,
     "name": {
       "cn": "Herring Pie (patch 5.2)",
-      "de": "Heringpastete",
+      "de": "Heringspastete",
       "en": "Herring Pie",
       "fr": "Tarte au hareng",
       "ja": "ヘリングパイ",
@@ -9541,6 +10616,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "e7d9c343ab6",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Paste",
+      "de": "Werkstätten-Klebstoff",
+      "en": "Oddly Specific Paste",
+      "fr": "Pâte d'affinage",
+      "ja": "改良用のペースト",
+      "ko": "Oddly Specific Paste"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 6178,
     "durability": 70,
     "id": "7238825b07c",
@@ -9572,25 +10665,6 @@
       "fr": "Harengs marinés",
       "ja": "ヘリングマリネ",
       "ko": "Pickled Herring"
-    },
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 6178,
-    "durability": 70,
-    "id": "7f387cb4920",
-    "level": 480,
-    "maxQuality": 36208,
-    "name": {
-      "cn": "Rank VIII Artisan's Durable Practice Materials (patch 5.2)",
-      "de": "Musterstück VIII (Belastbarkeit: 70)",
-      "en": "Rank VIII Artisan's Durable Practice Materials",
-      "fr": "Échantillon expérimental de niveau 8 [Solidité 70]",
-      "ja": "第8巻級の習作【耐久70】",
-      "ko": "Rank VIII Artisan's Durable Practice Materials"
     },
     "stars": 3,
     "suggestedControl": 2195,
@@ -9645,12 +10719,221 @@
       "cn": "Stuffed Highland Cabbage (patch 5.2)",
       "de": "Krautwickel nach Hochländer Art",
       "en": "Stuffed Highland Cabbage",
-      "fr": "Choux farcis",
+      "fr": "Choux des hautes terres farcis",
       "ja": "高地風挽肉のキャベツ巻き",
       "ko": "Stuffed Highland Cabbage"
     },
     "stars": 3,
     "suggestedControl": 2195,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0f11bd1fead",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Broad Bean Curry",
+      "de": "Bohnencurry",
+      "en": "Broad Bean Curry",
+      "fr": "Curry aux fèves",
+      "ja": "ビーンカレー",
+      "ko": "Broad Bean Curry"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "b67a0e8fc75",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Chicken Fettuccine",
+      "de": "Bandnudeln an Hähnchen-Sahnesoße",
+      "en": "Chicken Fettuccine",
+      "fr": "Fettuccine au poulet",
+      "ja": "チキンフェットゥチーネ",
+      "ko": "Chicken Fettuccine"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "bb7f8b437be",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Golden Pineapple Juice",
+      "de": "Goldananassaft",
+      "en": "Golden Pineapple Juice",
+      "fr": "Jus d'ananas doré",
+      "ja": "ゴールドパインジュース",
+      "ko": "Golden Pineapple Juice"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 11126,
+    "durability": 50,
+    "id": "169462f6983",
+    "level": 510,
+    "maxQuality": 82400,
+    "name": {
+      "cn": "Grade 3 Artisanal Skybuilders' Luncheon",
+      "de": "Sonderbestellter Federfall-Speiseteller",
+      "en": "Grade 3 Artisanal Skybuilders' Luncheon",
+      "fr": "Assiette-repas sur commande de restauration (3e phase)",
+      "ja": "第三次復興用の特注定食プレート",
+      "ko": "Grade 3 Artisanal Skybuilders' Luncheon"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "3caaa1f40a1",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Lemon Muffin",
+      "de": "Zitronenmuffin",
+      "en": "Lemon Muffin",
+      "fr": "Muffin au citron",
+      "ja": "レモンマフィン",
+      "ko": "Lemon Muffin"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "85ec5184db6",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Mist Spinach Quiche",
+      "de": "Dunstspinat-Quiche",
+      "en": "Mist Spinach Quiche",
+      "fr": "Quiche aux épinards brume",
+      "ja": "ミストスピナッチキッシュ",
+      "ko": "Mist Spinach Quiche"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "88781e82b9c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Pineapple Salad",
+      "de": "Goldananassalat",
+      "en": "Pineapple Salad",
+      "fr": "Salade d'ananas",
+      "ja": "パインサラダ",
+      "ko": "Pineapple Salad"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ed556bf0dd4",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Pizza",
+      "de": "Pizza",
+      "en": "Pizza",
+      "fr": "Pizza",
+      "ja": "ピッツァ",
+      "ko": "Pizza"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "96e6dc6650a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Smoked Chicken",
+      "de": "Geräucherte  Hähnchenkeule",
+      "en": "Smoked Chicken",
+      "fr": "Cuisse de poulet fumée",
+      "ja": "スモークチキン",
+      "ko": "Smoked Chicken"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "7204698369a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Twilight Popoto Salad",
+      "de": "Toffelsalat mit Apfel",
+      "en": "Twilight Popoto Salad",
+      "fr": "Salade de popotos aux pommes",
+      "ja": "アップルポポトサラダ",
+      "ko": "Twilight Popoto Salad"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ae6d8b5fa54",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Zefir",
+      "de": "Zefir",
+      "en": "Zefir",
+      "fr": "Zéfirs",
+      "ja": "ゼフィール",
+      "ko": "Zefir"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   }
 ]
