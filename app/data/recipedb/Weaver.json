@@ -18154,7 +18154,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Handelsware",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -22619,6 +22619,40 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "0dfb5c28770",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Apparel Showcase",
+      "de": "Mode-Schaukasten",
+      "en": "Apparel Showcase",
+      "fr": "Vitrine de vêtements",
+      "ja": "アパレルショーケース",
+      "ko": "Apparel Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "17cd2ecead0",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Designer's Show Window",
+      "de": "Mode-Schaufenster",
+      "en": "Designer's Show Window",
+      "fr": "Vitrine extérieure de vêtements",
+      "ja": "アパレルショーウィンドウ",
+      "ko": "Designer's Show Window"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "5cab7d23d67",
     "level": 430,
     "maxQuality": 18262,
@@ -22884,6 +22918,57 @@
       "fr": "Rideau de scène",
       "ja": "ステージカーテン",
       "ko": "Stage Curtain"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0860149bfbd",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Swag Valance",
+      "de": "Prunkvorhang",
+      "en": "Swag Valance",
+      "fr": "Cantonnière",
+      "ja": "スワッグバランスカーテン",
+      "ko": "Swag Valance"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "723151aaa12",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Toy Showcase",
+      "de": "Stofftier-Schaukasten",
+      "en": "Toy Showcase",
+      "fr": "Vitrine de peluches",
+      "ja": "ぬいぐるみショーケース",
+      "ko": "Toy Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "824c5e31cb4",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Toymaker's Show Window",
+      "de": "Stofftier-Schaufenster",
+      "en": "Toymaker's Show Window",
+      "fr": "Vitrine extérieure de peluches",
+      "ja": "ぬいぐるみショーウィンドウ",
+      "ko": "Toymaker's Show Window"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -23926,6 +24011,291 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d8b62f6ab30",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bottoms of Aiming",
+      "de": "Exarchen-Hose des Zielens",
+      "en": "Exarchic Bottoms of Aiming",
+      "fr": "Bas-de-corps de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーボトム",
+      "ko": "Exarchic Bottoms of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "063c39ff1d7",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bottoms of Scouting",
+      "de": "Exarchen-Hose des Spähens",
+      "en": "Exarchic Bottoms of Scouting",
+      "fr": "Bas-de-corps d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトボトム",
+      "ko": "Exarchic Bottoms of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ad4cbc63290",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bottoms of Striking",
+      "de": "Exarchen-Hose des Schlagens",
+      "en": "Exarchic Bottoms of Striking",
+      "fr": "Bas-de-corps d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーボトム",
+      "ko": "Exarchic Bottoms of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c8b1c19cb24",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Coat of Healing",
+      "de": "Exarchen-Mantel der Heilung",
+      "en": "Exarchic Coat of Healing",
+      "fr": "Manteau de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーコート",
+      "ko": "Exarchic Coat of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2a6b8107ecd",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gloves of Healing",
+      "de": "Exarchen-Handschuhe der Heilung",
+      "en": "Exarchic Gloves of Healing",
+      "fr": "Gants de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーグローブ",
+      "ko": "Exarchic Gloves of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0029350ebab",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hood of Aiming",
+      "de": "Exarchen-Haube des Zielens",
+      "en": "Exarchic Hood of Aiming",
+      "fr": "Capuche de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーフード",
+      "ko": "Exarchic Hood of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2019e7e012e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hood of Scouting",
+      "de": "Exarchen-Hauben des Spähens",
+      "en": "Exarchic Hood of Scouting",
+      "fr": "Capuche d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトフード",
+      "ko": "Exarchic Hood of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d5e1b2f5672",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hood of Striking",
+      "de": "Exarchen-Haube des Schlagens",
+      "en": "Exarchic Hood of Striking",
+      "fr": "Capuche d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーフード",
+      "ko": "Exarchic Hood of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "e37c3b0d307",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sash of Aiming",
+      "de": "Exarchen-Schärpe des Zielens",
+      "en": "Exarchic Sash of Aiming",
+      "fr": "Écharpe de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーサッシュ",
+      "ko": "Exarchic Sash of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d66a3366130",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sash of Scouting",
+      "de": "Exarchen-Schärpe des Spähens",
+      "en": "Exarchic Sash of Scouting",
+      "fr": "Écharpe d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトサッシュ",
+      "ko": "Exarchic Sash of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "6d1a7a01c91",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sash of Striking",
+      "de": "Exarchen-Schärpe des Schlagens",
+      "en": "Exarchic Sash of Striking",
+      "fr": "Écharpe d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーサッシュ",
+      "ko": "Exarchic Sash of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "4d97c120650",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Shoes of Healing",
+      "de": "Exarchen-Schuhe der Heilung",
+      "en": "Exarchic Shoes of Healing",
+      "fr": "Chaussures de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーシューズ",
+      "ko": "Exarchic Shoes of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0398ed5063e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Top of Aiming",
+      "de": "Exarchen-Oberteil des Zielens",
+      "en": "Exarchic Top of Aiming",
+      "fr": "Haut-de-corps de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャートップス",
+      "ko": "Exarchic Top of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c0176a289d3",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Top of Scouting",
+      "de": "Exarchen-Oberteil des Spähens",
+      "en": "Exarchic Top of Scouting",
+      "fr": "Haut-de-corps d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトトップス",
+      "ko": "Exarchic Top of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9988bef02b8",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Top of Striking",
+      "de": "Exarchen-Oberteil des Schlagens",
+      "en": "Exarchic Top of Striking",
+      "fr": "Haut-de-corps d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカートップス",
+      "ko": "Exarchic Top of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "ed2404c6959",
@@ -23938,6 +24308,25 @@
       "fr": "Tablier sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注エプロン",
       "ko": "Grade 3 Artisanal Skybuilders' Apron"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "c3053353005",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Saffron Cloth",
+      "de": "Gardeniengefärbtes Tuch",
+      "en": "Saffron Cloth",
+      "fr": "Étoffe de gardénia",
+      "ja": "クチナシ染め布",
+      "ko": "Saffron Cloth"
     },
     "stars": 4,
     "suggestedControl": 2540,

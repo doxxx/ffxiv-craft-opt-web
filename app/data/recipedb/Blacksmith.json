@@ -6427,7 +6427,7 @@
       "cn": "庄园炉",
       "de": "Herrenhaus-Ofen",
       "en": "Manor Oven",
-      "fr": "Fourneau du manoir",
+      "fr": "Fourneau du Manoir",
       "ja": "御用邸の焜炉",
       "ko": "별궁의 풍로"
     },
@@ -11007,6 +11007,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "d8ba35a4fba",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Axe of the Demon",
+      "de": "Axt des Dämons",
+      "en": "Axe of the Demon",
+      "fr": "Hache du Démon",
+      "ja": "アクス・オブ・デモン",
+      "ko": "Axe of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "49b7dc2637a",
     "level": 210,
     "maxQuality": 8298,
@@ -11055,6 +11074,25 @@
       "fr": "Hache de la Table ronde",
       "ja": "アクス・オブ・ラウンド",
       "ko": "기사신의 도끼"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "4d279d1945a",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Blade of the Demon",
+      "de": "Schwert des Dämons",
+      "en": "Blade of the Demon",
+      "fr": "Lame du Démon",
+      "ja": "ブレード・オブ・デモン",
+      "ko": "Blade of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -11159,6 +11197,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "136a426ff31",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Edge of the Demon",
+      "de": "Guillotine des Dämons",
+      "en": "Edge of the Demon",
+      "fr": "Grande épée du Démon",
+      "ja": "エッジ・オブ・デモン",
+      "ko": "Edge of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "354bb991bbf",
     "level": 210,
     "maxQuality": 8298,
@@ -11216,6 +11273,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "65cdbe6c4e9",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Fire of the Demon",
+      "de": "Muskete des Dämons",
+      "en": "Fire of the Demon",
+      "fr": "Feu du Démon",
+      "ja": "ファイア・オブ・デモン",
+      "ko": "Fire of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "c33194b7764",
     "level": 210,
     "maxQuality": 8298,
@@ -11264,6 +11340,25 @@
       "fr": "Feu de la Table ronde",
       "ja": "ファイア・オブ・ラウンド",
       "ko": "기사신의 총"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "b3b48d46803",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Fists of the Demon",
+      "de": "Fäuste des Dämons",
+      "en": "Fists of the Demon",
+      "fr": "Poings du Démon",
+      "ja": "フィスト・オブ・デモン",
+      "ko": "Fists of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -11596,6 +11691,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "2a2b445bd45",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Katana of the Demon",
+      "de": "Katana des Dämons",
+      "en": "Katana of the Demon",
+      "fr": "Katana du Démon",
+      "ja": "鬼神刀【改】",
+      "ko": "Katana of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "958cec617fc",
     "level": 210,
     "maxQuality": 8298,
@@ -11663,6 +11777,25 @@
       "fr": "Poings de la Table ronde",
       "ja": "ナックル・オブ・ラウンド",
       "ko": "기사신의 너클"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "4f840e22cc4",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Points of the Demon",
+      "de": "Dolche des Dämons",
+      "en": "Points of the Demon",
+      "fr": "Pointes du Démon",
+      "ja": "ポインツ・オブ・デモン",
+      "ko": "Points of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -14733,7 +14866,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Handelsware",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -18925,6 +19058,23 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "2594e7272f4",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Armament Showcase",
+      "de": "Rüstungs-Schaukasten",
+      "en": "Armament Showcase",
+      "fr": "Vitrine d'armes",
+      "ja": "アーマリーショーケース",
+      "ko": "Armament Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "ea49f445afe",
     "level": 430,
     "maxQuality": 18262,
@@ -19187,7 +19337,7 @@
       "cn": "Manor Dressing Table",
       "de": "Herrenhaus-Frisiertisch",
       "en": "Manor Dressing Table",
-      "fr": "Coiffeuse du Manoir des Haukke",
+      "fr": "Coiffeuse du Manoir",
       "ja": "御用邸の鏡台",
       "ko": "Manor Dressing Table"
     },
@@ -19258,6 +19408,40 @@
       "fr": "Four de restauration",
       "ja": "復興用の焜炉",
       "ko": "Skybuilders' Oven"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "23c4ba3975c",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Skylight Chandelier",
+      "de": "Tageslicht-Kronleuchter",
+      "en": "Skylight Chandelier",
+      "fr": "Chandelier lumière céleste",
+      "ja": "スカイライト・シャンデリア",
+      "ko": "Skylight Chandelier"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "f404ada2147",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Smith's Show Window",
+      "de": "Rüstungs-Schaufenster",
+      "en": "Smith's Show Window",
+      "fr": "Vitrine extérieure d'armes",
+      "ja": "アーマリーショーウィンドウ",
+      "ko": "Smith's Show Window"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -20321,6 +20505,215 @@
     },
     "stars": 3,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "9d433def648",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Duraluminum Ingot",
+      "de": "Duraluminium-Barren",
+      "en": "Duraluminum Ingot",
+      "fr": "Lingot de duralium",
+      "ja": "ジュラルミンインゴット",
+      "ko": "Duraluminum Ingot"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0147a572231",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Axe",
+      "de": "Exarchen-Axt",
+      "en": "Exarchic Axe",
+      "fr": "Hache de l'exarchat",
+      "ja": "エクサークアクス",
+      "ko": "Exarchic Axe"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "972376b74ad",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Baghnakhs",
+      "de": "Exarchen-Baghnakhs",
+      "en": "Exarchic Baghnakhs",
+      "fr": "Baghnakhs de l'exarchat",
+      "ja": "エクサークバグナウ",
+      "ko": "Exarchic Baghnakhs"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "1cf9148d308",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Blade",
+      "de": "Exarchen-Klinge",
+      "en": "Exarchic Blade",
+      "fr": "Lame de l'exarchat",
+      "ja": "エクサークブレード",
+      "ko": "Exarchic Blade"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "652891db1d1",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Daggers",
+      "de": "Exarchen-Dolche",
+      "en": "Exarchic Daggers",
+      "fr": "Dagues de l'exarchat",
+      "ja": "エクサークダガー",
+      "ko": "Exarchic Daggers"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "7785148b6d5",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Glaives",
+      "de": "Exarchen-Todesringe",
+      "en": "Exarchic Glaives",
+      "fr": "Gladius de l'exarchat",
+      "ja": "エクサークグレイヴ",
+      "ko": "Exarchic Glaives"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "efc342f44d3",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Guillotine",
+      "de": "Exarchen-Guillotine",
+      "en": "Exarchic Guillotine",
+      "fr": "Fendoir de l'exarchat",
+      "ja": "エクサークディバイダー",
+      "ko": "Exarchic Guillotine"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "941488e9255",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gunblade",
+      "de": "Exarchen-Revolverklinge",
+      "en": "Exarchic Gunblade",
+      "fr": "Pistolame de l'exarchat",
+      "ja": "エクサークガンブレード",
+      "ko": "Exarchic Gunblade"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "a59da4c268c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Handgonne",
+      "de": "Exarchen-Donnerbüchse",
+      "en": "Exarchic Handgonne",
+      "fr": "Haquebute de l'exarchat",
+      "ja": "エクサークハンドゴンネ",
+      "ko": "Exarchic Handgonne"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "f66141b5777",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Longbow",
+      "de": "Exarchen-Langbogen",
+      "en": "Exarchic Longbow",
+      "fr": "Arc long de l'exarchat",
+      "ja": "エクサークロングボウ",
+      "ko": "Exarchic Longbow"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ab8da01d03f",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sword",
+      "de": "Exarchen-Schwert",
+      "en": "Exarchic Sword",
+      "fr": "Épée de l'exarchat",
+      "ja": "エクサークソード",
+      "ko": "Exarchic Sword"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   },
   {
     "baseLevel": 80,

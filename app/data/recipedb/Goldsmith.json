@@ -15112,6 +15112,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "2b88649cc2d",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Cane of the Demon",
+      "de": "Stock des Dämons",
+      "en": "Cane of the Demon",
+      "fr": "Canne du Démon",
+      "ja": "ケーン・オブ・デモン",
+      "ko": "Cane of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "6a15f845529",
     "level": 210,
     "maxQuality": 8298,
@@ -15530,6 +15549,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "ad077a38590",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Rapier of the Demon",
+      "de": "Rapier des Dämons",
+      "en": "Rapier of the Demon",
+      "fr": "Rapière du Démon",
+      "ja": "レイピア・オブ・デモン",
+      "ko": "Rapier of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "7341acd3b6b",
     "level": 210,
     "maxQuality": 8298,
@@ -15834,6 +15872,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "ceb79c28965",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Staff of the Demon",
+      "de": "Stab des Dämons",
+      "en": "Staff of the Demon",
+      "fr": "Bâton du Démon",
+      "ja": "スタッフ・オブ・デモン",
+      "ko": "Staff of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "255206ca92c",
     "level": 210,
     "maxQuality": 8298,
@@ -15863,6 +15920,25 @@
       "fr": "Bâton de la Table ronde",
       "ja": "スタッフ・オブ・ラウンド",
       "ko": "기사신의 주술봉"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "c672f14ab44",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Star of the Demon",
+      "de": "Stern des Dämons",
+      "en": "Star of the Demon",
+      "fr": "Étoile du Démon",
+      "ja": "スター・オブ・デモン",
+      "ko": "Star of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -19786,7 +19862,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Handelsware",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -25806,6 +25882,272 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ca001bb664e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Circlet of Healing",
+      "de": "Exarchen-Stirnreif der Heilung",
+      "en": "Exarchic Circlet of Healing",
+      "fr": "Diadème de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーサークレット",
+      "ko": "Exarchic Circlet of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "bdb70c6cc34",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Aiming",
+      "de": "Exarchen-Ohrringe des Zielens",
+      "en": "Exarchic Earrings of Aiming",
+      "fr": "Boucles d'oreilles de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーイヤリング",
+      "ko": "Exarchic Earrings of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "529a501c88c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Casting",
+      "de": "Exarchen-Ohrringe der Magie",
+      "en": "Exarchic Earrings of Casting",
+      "fr": "Boucles d'oreilles d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターイヤリング",
+      "ko": "Exarchic Earrings of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "e5d7a91bedd",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Fending",
+      "de": "Exarchen-Ohrringe der Verteidigung",
+      "en": "Exarchic Earrings of Fending",
+      "fr": "Boucles d'oreilles de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーイヤリング",
+      "ko": "Exarchic Earrings of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "112d6a99cbf",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Healing",
+      "de": "Exarchen-Ohrringe der Heilung",
+      "en": "Exarchic Earrings of Healing",
+      "fr": "Boucles d'oreilles de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーイヤリング",
+      "ko": "Exarchic Earrings of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0280a039872",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Slaying",
+      "de": "Exarchen-Ohrringe des Schlachtens",
+      "en": "Exarchic Earrings of Slaying",
+      "fr": "Boucles d'oreilles d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーイヤリング",
+      "ko": "Exarchic Earrings of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c3f0af2bb9e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Rapier",
+      "de": "Exarchen-Rapier",
+      "en": "Exarchic Rapier",
+      "fr": "Rapière de l'exarchat",
+      "ja": "エクサークレイピア",
+      "ko": "Exarchic Rapier"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "6d003cfbc42",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Aiming",
+      "de": "Exarchen-Ring des Zielens",
+      "en": "Exarchic Ring of Aiming",
+      "fr": "Bague de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーリング",
+      "ko": "Exarchic Ring of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "636b594aff6",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Casting",
+      "de": "Exarchen-Ring der Magie",
+      "en": "Exarchic Ring of Casting",
+      "fr": "Bague d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターリング",
+      "ko": "Exarchic Ring of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "e46f2f85b67",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Fending",
+      "de": "Exarchen-Ring der Verteidigung",
+      "en": "Exarchic Ring of Fending",
+      "fr": "Bague de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーリング",
+      "ko": "Exarchic Ring of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "893cfe9907a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Healing",
+      "de": "Exarchen-Ring der Heilung",
+      "en": "Exarchic Ring of Healing",
+      "fr": "Bague de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーリング",
+      "ko": "Exarchic Ring of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ded82bff74b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Slaying",
+      "de": "Exarchen-Ring des Schlachtens",
+      "en": "Exarchic Ring of Slaying",
+      "fr": "Bague d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーリング",
+      "ko": "Exarchic Ring of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d182d268f4b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Rod",
+      "de": "Exarchen-Stab",
+      "en": "Exarchic Rod",
+      "fr": "Sceptre de l'exarchat",
+      "ja": "エクサークロッド",
+      "ko": "Exarchic Rod"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9e3477dfd1c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Star Globe",
+      "de": "Exarchen-Sternenglobus",
+      "en": "Exarchic Star Globe",
+      "fr": "globe céleste de l'exarchat",
+      "ja": "エクサークスターグローブ",
+      "ko": "Exarchic Star Globe"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "c5b911670b9",
@@ -25818,6 +26160,25 @@
       "fr": "Horloge sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注クロノメーター",
       "ko": "Grade 3 Artisanal Skybuilders' Chronometer"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "956abb9e972",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Solstice Ingot",
+      "de": "Nachtsonnenkristallplatten",
+      "en": "Solstice Ingot",
+      "fr": "Barre solsticiale",
+      "ja": "白夜結晶板",
+      "ko": "Solstice Ingot"
     },
     "stars": 4,
     "suggestedControl": 2540,

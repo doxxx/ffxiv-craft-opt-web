@@ -2407,7 +2407,7 @@
       "cn": "庄园沙发",
       "de": "Herrenhaus-Garnitur",
       "en": "Manor Sofa",
-      "fr": "Fauteuil du manoir",
+      "fr": "Fauteuil du Manoir",
       "ja": "御用邸のソファ",
       "ko": "별궁의 안락의자"
     },
@@ -18489,7 +18489,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Handelsware",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -23822,6 +23822,362 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "fbc9a5f808c",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Bottoms",
+      "de": "Kalbsleder-Bikerhose",
+      "en": "Calfskin Rider's Bottoms",
+      "fr": "Pantalon de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースボトム",
+      "ko": "Calfskin Rider's Bottoms"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "d3deab90784",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Cap",
+      "de": "Kalbsleder-Bikerkappe",
+      "en": "Calfskin Rider's Cap",
+      "fr": "Casquette de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースキャップ",
+      "ko": "Calfskin Rider's Cap"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "b990cdff8cc",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Gloves",
+      "de": "Paar Kalbsleder-Bikerhandschuhe",
+      "en": "Calfskin Rider's Gloves",
+      "fr": "Gants de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースグローブ",
+      "ko": "Calfskin Rider's Gloves"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "bde2c5fc860",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Jacket",
+      "de": "Kalbsleder-Bikerjacke",
+      "en": "Calfskin Rider's Jacket",
+      "fr": "Veste de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースジャケット",
+      "ko": "Calfskin Rider's Jacket"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "cb6e2da123e",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Shoes",
+      "de": "Paar Kalbsleder-Bikerstiefel",
+      "en": "Calfskin Rider's Shoes",
+      "fr": "Chaussures de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースシューズ",
+      "ko": "Calfskin Rider's Shoes"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d967bdbdc05",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Armguards of Aiming",
+      "de": "Exarchen-Armschützer des Zielens",
+      "en": "Exarchic Armguards of Aiming",
+      "fr": "Garde-bras de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーアームガード",
+      "ko": "Exarchic Armguards of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "b6c9001a1ae",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Armguards of Scouting",
+      "de": "Exarchen-Armschützer des Spähens",
+      "en": "Exarchic Armguards of Scouting",
+      "fr": "Garde-bras d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトアームガード",
+      "ko": "Exarchic Armguards of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "de6abb2f6b8",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Armguards of Striking",
+      "de": "Exarchen-Armschützer des Schlagens",
+      "en": "Exarchic Armguards of Striking",
+      "fr": "Garde-bras d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーアームガード",
+      "ko": "Exarchic Armguards of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "dfc35dd512b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Boots of Aiming",
+      "de": "Exarchen-Stiefel des Zielens",
+      "en": "Exarchic Boots of Aiming",
+      "fr": "Bottes de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーブーツ",
+      "ko": "Exarchic Boots of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "85093d25b60",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Boots of Scouting",
+      "de": "Exarchen-Stiefel des Spähens",
+      "en": "Exarchic Boots of Scouting",
+      "fr": "Bottes d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトブーツ",
+      "ko": "Exarchic Boots of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2921bdef70d",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Boots of Striking",
+      "de": "Exarchen-Stiefel des Schlagens",
+      "en": "Exarchic Boots of Striking",
+      "fr": "Bottes d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーブーツ",
+      "ko": "Exarchic Boots of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "4a1025f711f",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Coat of Casting",
+      "de": "Exarchen-Mantel der Magie",
+      "en": "Exarchic Coat of Casting",
+      "fr": "Manteau d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターコート",
+      "ko": "Exarchic Coat of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c3d11fcb794",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gloves of Casting",
+      "de": "Exarchen-Handschuhe der Magie",
+      "en": "Exarchic Gloves of Casting",
+      "fr": "Gants d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターグローブ",
+      "ko": "Exarchic Gloves of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ae356b5a8a0",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hat of Casting",
+      "de": "Exarchen-Hut der Magie",
+      "en": "Exarchic Hat of Casting",
+      "fr": "Chapeau d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターハット",
+      "ko": "Exarchic Hat of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9354d20e30e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hose of Casting",
+      "de": "Exarchen-Hose der Magie",
+      "en": "Exarchic Hose of Casting",
+      "fr": "Fuseau d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターホーズ",
+      "ko": "Exarchic Hose of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "8dab6f8c377",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hose of Fending",
+      "de": "Exarchen-Hose der Verteidigung",
+      "en": "Exarchic Hose of Fending",
+      "fr": "Fuseau de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーホーズ",
+      "ko": "Exarchic Hose of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "700b4f97798",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hose of Healing",
+      "de": "Exarchen-Hose der Heilung",
+      "en": "Exarchic Hose of Healing",
+      "fr": "Fuseau de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーホーズ",
+      "ko": "Exarchic Hose of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0a3544f263b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hose of Maiming",
+      "de": "Exarchen-Hose des Verstümmelns",
+      "en": "Exarchic Hose of Maiming",
+      "fr": "Fuseau d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーホーズ",
+      "ko": "Exarchic Hose of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "852ede19398",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Shoes of Casting",
+      "de": "Exarchen-Schuhe der Magie",
+      "en": "Exarchic Shoes of Casting",
+      "fr": "Chaussures d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターシューズ",
+      "ko": "Exarchic Shoes of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "c58f698c9b9",
@@ -23834,6 +24190,25 @@
       "fr": "Chaise en cuir sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注レザーチェア",
       "ko": "Grade 3 Artisanal Skybuilders' Leather Chair"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "c1db86591dc",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Thylacoleo Leather",
+      "de": "Thylacoleo-Leder",
+      "en": "Thylacoleo Leather",
+      "fr": "Cuir de lion marsupial",
+      "ja": "ティラコレオレザー",
+      "ko": "Thylacoleo Leather"
     },
     "stars": 4,
     "suggestedControl": 2540,

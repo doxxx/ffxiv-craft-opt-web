@@ -10037,12 +10037,12 @@
     "level": 160,
     "maxQuality": 3937,
     "name": {
-      "cn": "管弦乐琴乐谱：武神降临",
+      "cn": "The Hand that Gives the Rose Orchestrion Roll",
       "de": "Notenrolle von „The Hand that Gives the Rose“",
-      "en": "The Hand That Gives the Rose Orchestrion Roll",
+      "en": "The Hand that Gives the Rose Orchestrion Roll",
       "fr": "Rouleau \"The Hand that Gives the Rose\"",
       "ja": "オーケストリオン譜:武神降臨",
-      "ko": "오케스트리온 악보: The Hand That Gives the Rose"
+      "ko": "The Hand that Gives the Rose Orchestrion Roll"
     },
     "stars": 1,
     "suggestedCraftsmanship": 620
@@ -10091,12 +10091,12 @@
     "level": 160,
     "maxQuality": 3937,
     "name": {
-      "cn": "管弦乐琴乐谱：灾厄狂起",
+      "cn": "Woe that Is Madness Orchestrion Roll",
       "de": "Notenrolle von „Woe that Is Madness“",
-      "en": "Woe That Is Madness Orchestrion Roll",
+      "en": "Woe that Is Madness Orchestrion Roll",
       "fr": "Rouleau \"Woe that Is Madness\"",
       "ja": "オーケストリオン譜:狂気なる災厄",
-      "ko": "오케스트리온 악보: Woe That Is Madness"
+      "ko": "Woe that Is Madness Orchestrion Roll"
     },
     "stars": 1,
     "suggestedCraftsmanship": 620
@@ -10770,6 +10770,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "882d235b8da",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Song of the Demon",
+      "de": "Lied des Dämons",
+      "en": "Song of the Demon",
+      "fr": "Chant du Démon",
+      "ja": "ソング・オブ・デモン",
+      "ko": "Song of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "7155b4315b5",
     "level": 210,
     "maxQuality": 8298,
@@ -10799,6 +10818,25 @@
       "fr": "Chant de la Déesse",
       "ja": "ソング・オブ・ゴッデス",
       "ko": "여신의 노래"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "f7e5ded1987",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Word of the Demon",
+      "de": "Wort des Dämons",
+      "en": "Word of the Demon",
+      "fr": "Parole du Démon",
+      "ja": "ワード・オブ・デモン",
+      "ko": "Word of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -13119,7 +13157,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Handelsware",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -15027,6 +15065,23 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "1a3505b6519",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Black Carnation Earring",
+      "de": "Schwarzer Nelken-Ohrring",
+      "en": "Black Carnation Earring",
+      "fr": "Boucle d'oreille œillet noir",
+      "ja": "カーネーションイヤリング:ブラック",
+      "ko": "Black Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "51fcb68bef0",
     "level": 400,
     "maxQuality": 14062,
@@ -15054,6 +15109,23 @@
       "fr": "Barrette jacinthe noire",
       "ja": "ヒヤシンスオーナメント:ブラック",
       "ko": "Black Hyacinth Corsage"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "d308d418542",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Blue Carnation Earring",
+      "de": "Blauer Nelken-Ohrring",
+      "en": "Blue Carnation Earring",
+      "fr": "Boucle d'oreille œillet bleu",
+      "ja": "カーネーションイヤリング:ブルー",
+      "ko": "Blue Carnation Earring"
     },
     "suggestedCraftsmanship": 1457
   },
@@ -15197,6 +15269,23 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "4b89222247f",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Green Carnation Earring",
+      "de": "Grüner Nelken-Ohrring",
+      "en": "Green Carnation Earring",
+      "fr": "Boucle d'oreille œillet vert",
+      "ja": "カーネーションイヤリング:グリーン",
+      "ko": "Green Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "e172173e734",
     "level": 400,
     "maxQuality": 14062,
@@ -15248,6 +15337,23 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "33ebe7190f7",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Orange Carnation Earring",
+      "de": "Oranger Nelken-Ohrring",
+      "en": "Orange Carnation Earring",
+      "fr": "Boucle d'oreille œillet orange",
+      "ja": "カーネーションイヤリング:オレンジ",
+      "ko": "Orange Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "da57c9e3be1",
     "level": 400,
     "maxQuality": 14062,
@@ -15275,6 +15381,23 @@
       "fr": "Barrette jacinthe orange",
       "ja": "ヒヤシンスオーナメント:オレンジ",
       "ko": "Orange Hyacinth Corsage"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "b127b292d46",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Purple Carnation Earring",
+      "de": "Violetter Nelken-Ohrring",
+      "en": "Purple Carnation Earring",
+      "fr": "Boucle d'oreille œillet violet",
+      "ja": "カーネーションイヤリング:パープル",
+      "ko": "Purple Carnation Earring"
     },
     "suggestedCraftsmanship": 1457
   },
@@ -15316,6 +15439,23 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "0f1b8d2b163",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Rainbow Carnation Earring",
+      "de": "Bunter Nelken-Ohrring",
+      "en": "Rainbow Carnation Earring",
+      "fr": "Boucle d'oreille œillet multicolore",
+      "ja": "カーネーションイヤリング:ブレンド",
+      "ko": "Rainbow Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "b5d129b4c58",
     "level": 400,
     "maxQuality": 14062,
@@ -15343,6 +15483,23 @@
       "fr": "Barrette jacinthe multicolore",
       "ja": "ヒヤシンスオーナメント:ブレンド",
       "ko": "Rainbow Hyacinth Corsage"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "23ee0e52d69",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Red Carnation Earring",
+      "de": "Roter Nelken-Ohrring",
+      "en": "Red Carnation Earring",
+      "fr": "Boucle d'oreille œillet rouge",
+      "ja": "カーネーションイヤリング:レッド",
+      "ko": "Red Carnation Earring"
     },
     "suggestedCraftsmanship": 1457
   },
@@ -15384,6 +15541,23 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "c99c3faee3d",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "White Carnation Earring",
+      "de": "Weißer Nelken-Ohrring",
+      "en": "White Carnation Earring",
+      "fr": "Boucle d'oreille œillet blanc",
+      "ja": "カーネーションイヤリング:ホワイト",
+      "ko": "White Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "93fe8e53bcb",
     "level": 400,
     "maxQuality": 14062,
@@ -15411,6 +15585,23 @@
       "fr": "Barrette jacinthe blanche",
       "ja": "ヒヤシンスオーナメント:ホワイト",
       "ko": "White Hyacinth Corsage"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
+    "id": "39f347b3f4a",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Yellow Carnation Earring",
+      "de": "Gelber Nelken-Ohrring",
+      "en": "Yellow Carnation Earring",
+      "fr": "Boucle d'oreille œillet jaune",
+      "ja": "カーネーションイヤリング:イエロー",
+      "ko": "Yellow Carnation Earring"
     },
     "suggestedCraftsmanship": 1457
   },
@@ -15928,6 +16119,40 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "a1cfa71a361",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Art Showcase",
+      "de": "Gemälde-Schaukasten",
+      "en": "Art Showcase",
+      "fr": "Vitrine de tableaux",
+      "ja": "ペインティングショーケース",
+      "ko": "Art Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "ba8ef0bf08e",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Artist's Show Window",
+      "de": "Gemälde-Schaufenster",
+      "en": "Artist's Show Window",
+      "fr": "Vitrine extérieure de tableaux",
+      "ja": "ペインティングショーウィンドウ",
+      "ko": "Artist's Show Window"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "a5ea6077a20",
     "level": 430,
     "maxQuality": 9131,
@@ -15938,6 +16163,23 @@
       "fr": "Pan de mur en briques",
       "ja": "ガーデン・ブリックパーティション",
       "ko": "Brick Garden Wall"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0e04e731250",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Brick Paving",
+      "de": "Viereckiger Ziegelboden",
+      "en": "Brick Paving",
+      "fr": "Terrasse en briques",
+      "ja": "スクウェアペイヴド・ブリック",
+      "ko": "Brick Paving"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -15989,6 +16231,23 @@
       "fr": "Service de table",
       "ja": "ディッシュセット",
       "ko": "Dishware"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "69116107a79",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Florist's Counter",
+      "de": "Floristentheke",
+      "en": "Florist's Counter",
+      "fr": "Présentoir de fleuriste",
+      "ja": "フローリストカウンター",
+      "ko": "Florist's Counter"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -16125,6 +16384,23 @@
       "fr": "Cuisine de briques rouges",
       "ja": "レッドブリックキッチン",
       "ko": "Red Brick Kitchen"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "ea35a404d08",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Rose Trellis",
+      "de": "Rosenspalier",
+      "en": "Rose Trellis",
+      "fr": "Treillis à roses",
+      "ja": "ローズトレリス",
+      "ko": "Rose Trellis"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -16895,6 +17171,80 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "e402c4889ab",
+    "level": 480,
+    "maxQuality": 12931,
+    "name": {
+      "cn": "The Black Wolf Stalks Again Orchestrion Roll",
+      "de": "Notenrolle von „The Black Wolf Stalks Again“",
+      "en": "The Black Wolf Stalks Again Orchestrion Roll",
+      "fr": "Rouleau \"The Black Wolf Stalks Again\"",
+      "ja": "オーケストリオン譜:漆黒の王狼、再び",
+      "ko": "The Black Wolf Stalks Again Orchestrion Roll"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "739f95684a0",
+    "level": 480,
+    "maxQuality": 12931,
+    "name": {
+      "cn": "To the Edge Orchestrion Roll",
+      "de": "Notenrolle von „To the Edge“",
+      "en": "To the Edge Orchestrion Roll",
+      "fr": "Rouleau \"To the Edge\"",
+      "ja": "オーケストリオン譜:To the Edge",
+      "ko": "To the Edge Orchestrion Roll"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "1b42706a959",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Codex",
+      "de": "Exarchen-Kodex",
+      "en": "Exarchic Codex",
+      "fr": "Codex de l'exarchat",
+      "ja": "エクサークコーデックス",
+      "ko": "Exarchic Codex"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0d031a593b9",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Grimoire",
+      "de": "Exarchen-Grimoire",
+      "en": "Exarchic Grimoire",
+      "fr": "Grimoire de l'exarchat",
+      "ja": "エクサークグリモア",
+      "ko": "Exarchic Grimoire"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "323be32daf0",
@@ -16907,6 +17257,196 @@
       "fr": "Parquet teinté sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注タイルフローリング",
       "ko": "Grade 3 Artisanal Skybuilders' Tiled Flooring"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "f3c2e58e0bc",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Dexterity Alkahest",
+      "de": "Visionslösung der Geschicklichkeit IV",
+      "en": "Grade 4 Dexterity Alkahest",
+      "fr": "Eau chimérique de dextérité IV",
+      "ja": "眼力の幻水G4",
+      "ko": "Grade 4 Dexterity Alkahest"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "c619f7f5ff8",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Intelligence Alkahest",
+      "de": "Visionslösung der Intelligenz IV",
+      "en": "Grade 4 Intelligence Alkahest",
+      "fr": "Eau chimérique d'intelligence IV",
+      "ja": "知力の幻水G4",
+      "ko": "Grade 4 Intelligence Alkahest"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "aff779d7492",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Mind Alkahest",
+      "de": "Visionslösung der Willenskraft IV",
+      "en": "Grade 4 Mind Alkahest",
+      "fr": "Eau chimérique d'esprit IV",
+      "ja": "心力の幻水G4",
+      "ko": "Grade 4 Mind Alkahest"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "d481dcd8098",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Strength Alkahest",
+      "de": "Visionslösung der Stärke IV",
+      "en": "Grade 4 Strength Alkahest",
+      "fr": "Eau chimérique de force IV",
+      "ja": "剛力の幻水G4",
+      "ko": "Grade 4 Strength Alkahest"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "aa50f83d1ad",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Dexterity",
+      "de": "Visionsremedium der Geschicklichkeit IV",
+      "en": "Grade 4 Tincture of Dexterity",
+      "fr": "Philtre chimérique de dextérité IV",
+      "ja": "眼力の幻薬G4",
+      "ko": "Grade 4 Tincture of Dexterity"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "4a4aab1031b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Intelligence",
+      "de": "Visionsremedium der Intelligenz IV",
+      "en": "Grade 4 Tincture of Intelligence",
+      "fr": "Philtre chimérique d'intelligence IV",
+      "ja": "知力の幻薬G4",
+      "ko": "Grade 4 Tincture of Intelligence"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "633e024627e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Mind",
+      "de": "Visionsremedium der Willenskraft IV",
+      "en": "Grade 4 Tincture of Mind",
+      "fr": "Philtre chimérique d'esprit IV",
+      "ja": "心力の幻薬G4",
+      "ko": "Grade 4 Tincture of Mind"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "3db2f14f881",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Strength",
+      "de": "Visionsremedium der Stärke IV",
+      "en": "Grade 4 Tincture of Strength",
+      "fr": "Philtre chimérique de force IV",
+      "ja": "剛力の幻薬G4",
+      "ko": "Grade 4 Tincture of Strength"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9dd710b7e55",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Vitality",
+      "de": "Visionsremedium der Konstitution IV",
+      "en": "Grade 4 Tincture of Vitality",
+      "fr": "Philtre chimérique de vitalité IV",
+      "ja": "活力の幻薬G4",
+      "ko": "Grade 4 Tincture of Vitality"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "0a49132c59e",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Vitality Alkahest",
+      "de": "Visionslösung der Konstitution IV",
+      "en": "Grade 4 Vitality Alkahest",
+      "fr": "Eau chimérique de vitalité IV",
+      "ja": "活力の幻水G4",
+      "ko": "Grade 4 Vitality Alkahest"
     },
     "stars": 4,
     "suggestedControl": 2540,

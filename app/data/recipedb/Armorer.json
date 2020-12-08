@@ -3699,7 +3699,7 @@
       "cn": "秘银口罩",
       "de": "Mithril-Mesailvisier",
       "en": "Mythril Mesail",
-      "fr": "Mésail",
+      "fr": "Mézail",
       "ja": "メセイル",
       "ko": "면갑"
     },
@@ -4413,7 +4413,7 @@
       "cn": "钴铁口罩",
       "de": "Koboldeisen-Mesailvisier",
       "en": "Cobalt Mesail",
-      "fr": "Mésail en cobalt",
+      "fr": "Mézail en cobalt",
       "ja": "コバルトメセイル",
       "ko": "코발트 면갑"
     },
@@ -6001,7 +6001,7 @@
       "cn": "庄园圆号",
       "de": "Horn",
       "en": "Manor Marching Horn",
-      "fr": "Cor du manoir",
+      "fr": "Cor du Manoir",
       "ja": "御用邸のホルン",
       "ko": "별궁의 호른"
     },
@@ -10338,6 +10338,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "ae67e1d265d",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Shield of the Demon",
+      "de": "Schild des Dämons",
+      "en": "Shield of the Demon",
+      "fr": "Bouclier du Démon",
+      "ja": "シールド・オブ・デモン",
+      "ko": "Shield of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "45ae9568161",
     "level": 210,
     "maxQuality": 8298,
@@ -13021,7 +13040,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Handelsware",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -13227,7 +13246,7 @@
       "cn": "Grade 2 Skybuilders' Mesail",
       "de": "Genist-Mesailvisier",
       "en": "Grade 2 Skybuilders' Mesail",
-      "fr": "Mésail de restauration (2e phase)",
+      "fr": "Mézail de restauration (2e phase)",
       "ja": "第二次復興用のメセイル",
       "ko": "Grade 2 Skybuilders' Mesail"
     },
@@ -13244,7 +13263,7 @@
       "cn": "Grade 3 Skybuilders' Mesail",
       "de": "Federfall-Mesailvisier",
       "en": "Grade 3 Skybuilders' Mesail",
-      "fr": "Mésail de restauration (3e phase)",
+      "fr": "Mézail de restauration (3e phase)",
       "ja": "第三次復興用のメセイル",
       "ko": "Grade 3 Skybuilders' Mesail"
     },
@@ -16286,7 +16305,7 @@
     "maxQuality": 9131,
     "name": {
       "cn": "Factory Flooring",
-      "de": "Fabrik-Holzboden",
+      "de": "Fabrik-Metallboden",
       "en": "Factory Flooring",
       "fr": "Parquet usine désaffectée",
       "ja": "複製サレタ床板",
@@ -17298,6 +17317,344 @@
     },
     "stars": 3,
     "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "b155e2e8766",
+    "level": 480,
+    "maxQuality": 12931,
+    "name": {
+      "cn": "Trophy of Light",
+      "de": "Krieger-des-Lichts-Trophäe",
+      "en": "Trophy of Light",
+      "fr": "Trophée de la Lumière",
+      "ja": "トロフィー・オブ・ライト",
+      "ko": "Trophy of Light"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "ca99e44a3b8",
+    "level": 480,
+    "maxQuality": 12931,
+    "name": {
+      "cn": "True Barding of Light",
+      "de": "Rossharnisch des Lichts",
+      "en": "True Barding of Light",
+      "fr": "Barde de la Lumière véritable",
+      "ja": "トゥルーバード・オブ・ライト",
+      "ko": "True Barding of Light"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "92fa8258f47",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Duraluminum Ingot",
+      "de": "Duraluminium-Barren",
+      "en": "Duraluminum Ingot",
+      "fr": "Lingot de duralium",
+      "ja": "ジュラルミンインゴット",
+      "ko": "Duraluminum Ingot"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "737c397bcf6",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Emerald Barding",
+      "de": "Smaragd-Rossharnisch",
+      "en": "Emerald Barding",
+      "fr": "Barde Smaragdus",
+      "ja": "エメラルド・バード",
+      "ko": "Emerald Barding"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "4fe2c885e15",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Emerald Weapon Bust",
+      "de": "Smaragd-Waffenbüste",
+      "en": "Emerald Weapon Bust",
+      "fr": "Buste Arme Émeraude",
+      "ja": "エメラルドウェポン・ディスプレイ",
+      "ko": "Emerald Weapon Bust"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "85a5381ec45",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Circlet of Fending",
+      "de": "Exarchen-Stirnreif der Verteidigung",
+      "en": "Exarchic Circlet of Fending",
+      "fr": "Diadème de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーサークレット",
+      "ko": "Exarchic Circlet of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "cee57f1876f",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Circlet of Maiming",
+      "de": "Exarchen-Stirnreif des Verstümmelns",
+      "en": "Exarchic Circlet of Maiming",
+      "fr": "Diadème d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーサークレット",
+      "ko": "Exarchic Circlet of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ef105e7a456",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Coat of Fending",
+      "de": "Exarchen-Mantel der Verteidigung",
+      "en": "Exarchic Coat of Fending",
+      "fr": "Manteau de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーコート",
+      "ko": "Exarchic Coat of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0ad68f8ea15",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gauntlets of Fending",
+      "de": "Exarchen-Panzerhandschuhe der Verteidigung",
+      "en": "Exarchic Gauntlets of Fending",
+      "fr": "Gantelets de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーガントレット",
+      "ko": "Exarchic Gauntlets of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "34e23586560",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gauntlets of Maiming",
+      "de": "Exarchen-Panzerhandschuhe des Verstümmelns",
+      "en": "Exarchic Gauntlets of Maiming",
+      "fr": "Gantelets d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーガントレット",
+      "ko": "Exarchic Gauntlets of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "434c27a8022",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Mail of Maiming",
+      "de": "Exarchen-Rüstung des Verstümmelns",
+      "en": "Exarchic Mail of Maiming",
+      "fr": "Cotte de mailles d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーメイル",
+      "ko": "Exarchic Mail of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9910c69e232",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Casting",
+      "de": "Exarchen-Gürtel der Magie",
+      "en": "Exarchic Plate Belt of Casting",
+      "fr": "Ceinture de plaques d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスタープレートベルト",
+      "ko": "Exarchic Plate Belt of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ec06a583692",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Fending",
+      "de": "Exarchen-Plattengürtel der Verteidigung",
+      "en": "Exarchic Plate Belt of Fending",
+      "fr": "Ceinture de plaques de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダープレートベルト",
+      "ko": "Exarchic Plate Belt of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "f9caad90c24",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Healing",
+      "de": "Exarchen-Gürtel der Heilung",
+      "en": "Exarchic Plate Belt of Healing",
+      "fr": "Ceinture de plaques de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラープレートベルト",
+      "ko": "Exarchic Plate Belt of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "1bdd324931a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Maiming",
+      "de": "Exarchen-Plattengürtel des Verstümmelns",
+      "en": "Exarchic Plate Belt of Maiming",
+      "fr": "Ceinture de plaques d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤープレートベルト",
+      "ko": "Exarchic Plate Belt of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "046d95ee838",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sabatons of Fending",
+      "de": "Exarchen-Bärlatschen der Verteidigung",
+      "en": "Exarchic Sabatons of Fending",
+      "fr": "Sabatons de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーサバトン",
+      "ko": "Exarchic Sabatons of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c740473f34e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sabatons of Maiming",
+      "de": "Exarchen-Bärlatschen des Verstümmelns",
+      "en": "Exarchic Sabatons of Maiming",
+      "fr": "Sabatons d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーサバトン",
+      "ko": "Exarchic Sabatons of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "949719fb270",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Tower Shield",
+      "de": "Exarchen-Turmschild",
+      "en": "Exarchic Tower Shield",
+      "fr": "Pavois de l'exarchat",
+      "ja": "エクサーク・タワーシールド",
+      "ko": "Exarchic Tower Shield"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
   },
   {
     "baseLevel": 80,

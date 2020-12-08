@@ -2815,7 +2815,7 @@
       "cn": "庄园乐谱架",
       "de": "Notenständer",
       "en": "Manor Music Stand",
-      "fr": "Pupitre du manoir",
+      "fr": "Pupitre du Manoir",
       "ja": "御用邸の譜面台",
       "ko": "별궁의 악보대"
     },
@@ -2832,7 +2832,7 @@
       "cn": "庄园演奏椅",
       "de": "Klavierhocker",
       "en": "Manor Music Stool",
-      "fr": "Banc musical du manoir",
+      "fr": "Banc musical du Manoir",
       "ja": "御用邸の演奏椅子",
       "ko": "별궁의 연주용 의자"
     },
@@ -6021,7 +6021,7 @@
       "cn": "庄园案板",
       "de": "Herrenhaus-Tresen",
       "en": "Manor Counter",
-      "fr": "Plan de travail du manoir",
+      "fr": "Plan de travail du Manoir",
       "ja": "御用邸の調理台",
       "ko": "별궁의 조리대"
     },
@@ -6039,7 +6039,7 @@
       "cn": "庄园地板",
       "de": "Herrenhaus-Fußboden",
       "en": "Manor Flooring",
-      "fr": "Parquet du manoir",
+      "fr": "Parquet du Manoir",
       "ja": "御用邸のフローリング",
       "ko": "별궁의 바닥"
     },
@@ -6711,7 +6711,7 @@
       "cn": "庄园大提琴",
       "de": "Cello",
       "en": "Manor Cello",
-      "fr": "Violoncelle du manoir",
+      "fr": "Violoncelle du Manoir",
       "ja": "御用邸のチェロ",
       "ko": "별궁의 첼로"
     },
@@ -6730,7 +6730,7 @@
       "cn": "庄园竖琴",
       "de": "Harfe",
       "en": "Manor Harp",
-      "fr": "Harpe du manoir",
+      "fr": "Harpe du Manoir",
       "ja": "御用邸のハープ",
       "ko": "별궁의 하프"
     },
@@ -6749,7 +6749,7 @@
       "cn": "庄园大键琴",
       "de": "Cembalo",
       "en": "Manor Harpsichord",
-      "fr": "Clavecin du manoir",
+      "fr": "Clavecin du Manoir",
       "ja": "御用邸のハープシコード",
       "ko": "별궁의 하프시코드"
     },
@@ -6768,7 +6768,7 @@
       "cn": "庄园定音鼓",
       "de": "Kesselpauke",
       "en": "Manor Timpani",
-      "fr": "Timbales du manoir",
+      "fr": "Timbales du Manoir",
       "ja": "御用邸のティンパニー",
       "ko": "별궁의 팀파니"
     },
@@ -9867,6 +9867,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "77a02e3bef5",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Bow of the Demon",
+      "de": "Bogen des Dämons",
+      "en": "Bow of the Demon",
+      "fr": "Arc du Démon",
+      "ja": "ボウ・オブ・デモン",
+      "ko": "Bow of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "44984dc90e9",
     "level": 210,
     "maxQuality": 8298,
@@ -10371,6 +10390,25 @@
       "fr": "Pont de bois oriental",
       "ja": "オリエンタルウッドブリッジ",
       "ko": "동방의 나무 다리"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "0d02e8930b0",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Pike of the Demon",
+      "de": "Speer des Dämons",
+      "en": "Pike of the Demon",
+      "fr": "Pique du Démon",
+      "ja": "パイク・オブ・デモン",
+      "ko": "Pike of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -12688,7 +12726,7 @@
     "maxQuality": 15843,
     "name": {
       "cn": "Bespoke Barter Item",
-      "de": "Handelsware",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -15766,7 +15804,7 @@
     "maxQuality": 9131,
     "name": {
       "cn": "Bluebird Mobile",
-      "de": "Blaues Vogel-Mobile",
+      "de": "Blaues Vögelchen-Mobile",
       "en": "Bluebird Mobile",
       "fr": "Mobile oiseau bleu",
       "ja": "ブルーバードモービル",
@@ -15839,6 +15877,23 @@
       "fr": "Lit de restauration (3e phase)",
       "ja": "第三次復興用の寝台",
       "ko": "Grade 3 Skybuilders' Bed"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "c4cbec89925",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Herringbone Flooring",
+      "de": "Fischgräten-Holzboden",
+      "en": "Herringbone Flooring",
+      "fr": "Parquet en chevrons",
+      "ja": "ヘリンボーン・フローリング",
+      "ko": "Herringbone Flooring"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -16026,6 +16081,23 @@
       "fr": "Table de style ancien",
       "ja": "オールドテーブルセット",
       "ko": "Used Banquet Table"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "8c9a6d8906f",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Varied Wood Interior Wall",
+      "de": "Mischholz-Wandvertäfelung",
+      "en": "Varied Wood Interior Wall",
+      "fr": "Revêtement mural en bois variés",
+      "ja": "ランダムウッド・インナーウォール",
+      "ko": "Varied Wood Interior Wall"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -16689,6 +16761,234 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "651a6154762",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Aiming",
+      "de": "Exarchen-Armband des Zielens",
+      "en": "Exarchic Bracelet of Aiming",
+      "fr": "Bracelet de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーブレスレット",
+      "ko": "Exarchic Bracelet of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "062d7093c57",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Casting",
+      "de": "Exarchen-Armband der Magie",
+      "en": "Exarchic Bracelet of Casting",
+      "fr": "Bracelet d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターブレスレット",
+      "ko": "Exarchic Bracelet of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c7f0410bac2",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Fending",
+      "de": "Exarchen-Armband der Verteidigung",
+      "en": "Exarchic Bracelet of Fending",
+      "fr": "Bracelet de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーブレスレット",
+      "ko": "Exarchic Bracelet of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "85424fdaf93",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Healing",
+      "de": "Exarchen-Armband der Heilung",
+      "en": "Exarchic Bracelet of Healing",
+      "fr": "Bracelet de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーブレスレット",
+      "ko": "Exarchic Bracelet of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "db17d0a4301",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Slaying",
+      "de": "Exarchen-Armband des Schlachtens",
+      "en": "Exarchic Bracelet of Slaying",
+      "fr": "Bracelet d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーブレスレット",
+      "ko": "Exarchic Bracelet of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "a3c53d75580",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Cane",
+      "de": "Exarchen-Stock",
+      "en": "Exarchic Cane",
+      "fr": "Canne de l'exarchat",
+      "ja": "エクサークケーン",
+      "ko": "Exarchic Cane"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2569f3ed209",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Aiming",
+      "de": "Exarchen-Halsberge des Zielens",
+      "en": "Exarchic Choker of Aiming",
+      "fr": "Ras de cou de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーチョーカー",
+      "ko": "Exarchic Choker of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2af2cfd24f7",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Casting",
+      "de": "Exarchen-Halsberge der Magie",
+      "en": "Exarchic Choker of Casting",
+      "fr": "Ras de cou d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターチョーカー",
+      "ko": "Exarchic Choker of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c8747ac5526",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Fending",
+      "de": "Exarchen-Halsberge der Verteidigung",
+      "en": "Exarchic Choker of Fending",
+      "fr": "Ras de cou de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーチョーカー",
+      "ko": "Exarchic Choker of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "07c8c7e0728",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Healing",
+      "de": "Exarchen-Halsberge der Heilung",
+      "en": "Exarchic Choker of Healing",
+      "fr": "Ras de cou de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーチョーカー",
+      "ko": "Exarchic Choker of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "f91586965a0",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Slaying",
+      "de": "Exarchen-Halsberge des Schlachtens",
+      "en": "Exarchic Choker of Slaying",
+      "fr": "Ras de cou d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーチョーカー",
+      "ko": "Exarchic Choker of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0a55a6d4557",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Spear",
+      "de": "Exarchen-Speer",
+      "en": "Exarchic Spear",
+      "fr": "Hast de l'exarchat",
+      "ja": "エクサークスピア",
+      "ko": "Exarchic Spear"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "d9c8183da40",
@@ -16701,6 +17001,25 @@
       "fr": "Établi d'orfèvrerie sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注ゴールドワークベンチ",
       "ko": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "fef96f96e9f",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Silver Beech Lumber",
+      "de": "Silberbuchen-Bauholz",
+      "en": "Silver Beech Lumber",
+      "fr": "Madrier de hêtre argenté",
+      "ja": "シルバービーチ材",
+      "ko": "Silver Beech Lumber"
     },
     "stars": 4,
     "suggestedControl": 2540,
