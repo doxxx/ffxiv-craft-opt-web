@@ -1894,12 +1894,29 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 3 Skybuilders' Leather (patch 5.31)",
+      "cn": "第三期重建用的鞣革",
       "de": "Gegerbtes Federfall-Leder",
       "en": "Grade 3 Skybuilders' Leather",
       "fr": "Cuir de restauration (3e phase)",
       "ja": "第三次復興用のなめし革",
       "ko": "Grade 3 Skybuilders' Leather"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "a5b1cc52b27",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Leather (patch 5.41)",
+      "de": "Gegerbtes Himmelsang-Leder",
+      "en": "Grade 4 Skybuilders' Leather",
+      "fr": "Cuir de restauration (4e phase)",
+      "ja": "第四次復興用のなめし革",
+      "ko": "Grade 4 Skybuilders' Leather"
     },
     "suggestedCraftsmanship": 94
   },
@@ -2407,7 +2424,7 @@
       "cn": "庄园沙发",
       "de": "Herrenhaus-Garnitur",
       "en": "Manor Sofa",
-      "fr": "Fauteuil du manoir",
+      "fr": "Fauteuil du Manoir",
       "ja": "御用邸のソファ",
       "ko": "별궁의 안락의자"
     },
@@ -3900,12 +3917,29 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 3 Skybuilders' Leather Straps (patch 5.31)",
+      "cn": "第三期重建用的皮绳",
       "de": "Federfall-Lederriemen",
       "en": "Grade 3 Skybuilders' Leather Straps",
       "fr": "Cordon de cuir de restauration (3e phase)",
       "ja": "第三次復興用の革紐",
       "ko": "Grade 3 Skybuilders' Leather Straps"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "48083c29e1d",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Leather Straps (patch 5.41)",
+      "de": "Himmelsang-Lederriemen",
+      "en": "Grade 4 Skybuilders' Leather Straps",
+      "fr": "Cordon de cuir de restauration (4e phase)",
+      "ja": "第四次復興用の革紐",
+      "ko": "Grade 4 Skybuilders' Leather Straps"
     },
     "suggestedCraftsmanship": 136
   },
@@ -5447,7 +5481,7 @@
     "level": 50,
     "maxQuality": 4114,
     "name": {
-      "cn": "Rarefied Archaeoskin Belt (patch 5.3)",
+      "cn": "收藏用古鸟革腰带",
       "de": "Archaeoleder-Gürtel (Sammlerstück)",
       "en": "Rarefied Archaeoskin Belt",
       "fr": "Ceinture en cuir d'archéornis collectionnable",
@@ -8650,7 +8684,7 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "cn": "Rarefied Archaeoskin Cloche (patch 5.3)",
+      "cn": "收藏用古鸟革钟形帽",
       "de": "Archaeoleder-Strohhut (Sammlerstück)",
       "en": "Rarefied Archaeoskin Cloche",
       "fr": "Chapeau cloche en cuir d'archéornis collectionnable",
@@ -9313,7 +9347,7 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "cn": "Rarefied Wyvernskin Mask (patch 5.3)",
+      "cn": "收藏用飞龙革假面",
       "de": "Wyvernleder-Maske (Sammlerstück)",
       "en": "Rarefied Wyvernskin Mask",
       "fr": "Masque en cuir de wyverne collectionnable",
@@ -9942,7 +9976,7 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "cn": "Rarefied Dhalmelskin Coat (patch 5.3)",
+      "cn": "收藏用长颈驼革外套",
       "de": "Dhalmelleder-Mantel (Sammlerstück)",
       "en": "Rarefied Dhalmelskin Coat",
       "fr": "Manteau en cuir de dhalmel collectionnable",
@@ -10299,7 +10333,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Rarefied Dragonskin Ring (patch 5.3)",
+      "cn": "收藏用巨龙革指环",
       "de": "Drachenleder-Ring (Sammlerstück)",
       "en": "Rarefied Dragonskin Ring",
       "fr": "Bague en cuir de dragon collectionnable",
@@ -11098,12 +11132,29 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 3 Skybuilders' Leather Sack (patch 5.31)",
+      "cn": "第三期重建用的皮袋",
       "de": "Federfall-Lederbeutel",
       "en": "Grade 3 Skybuilders' Leather Sack",
       "fr": "Sac en cuir de restauration (3e phase)",
       "ja": "第三次復興用の革袋",
       "ko": "Grade 3 Skybuilders' Leather Sack"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "39a0f1add00",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Leather Sack (patch 5.41)",
+      "de": "Himmelsang-Lederbeutel",
+      "en": "Grade 4 Skybuilders' Leather Sack",
+      "fr": "Sac en cuir de restauration (4e phase)",
+      "ja": "第四次復興用の革袋",
+      "ko": "Grade 4 Skybuilders' Leather Sack"
     },
     "suggestedCraftsmanship": 587
   },
@@ -11251,7 +11302,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Rarefied Serpentskin Hat (patch 5.3)",
+      "cn": "收藏用安菲瑟龙革宽边帽",
       "de": "Schlangenleder-Hut (Sammlerstück)",
       "en": "Rarefied Serpentskin Hat",
       "fr": "Chapeau en cuir d'amphiptère collectionnable",
@@ -16448,7 +16499,7 @@
     "level": 265,
     "maxQuality": 8581,
     "name": {
-      "cn": "Rarefied Gaganaskin Shoes (patch 5.3)",
+      "cn": "收藏用迦迦纳怪鸟革皮靴",
       "de": "Gaganaleder-Schuhe (Sammlerstück)",
       "en": "Rarefied Gaganaskin Shoes",
       "fr": "Chaussures en cuir de gagana collectionnables",
@@ -16907,7 +16958,7 @@
     "level": 273,
     "maxQuality": 9657,
     "name": {
-      "cn": "Rarefied Gyuki Leather Jacket (patch 5.3)",
+      "cn": "收藏用牛鬼革短衣",
       "de": "Gyukileder-Jacke (Sammlerstück)",
       "en": "Rarefied Gyuki Leather Jacket",
       "fr": "Jaque en cuir de gyuki collectionnable",
@@ -17604,7 +17655,7 @@
     "level": 279,
     "maxQuality": 10389,
     "name": {
-      "cn": "Rarefied Tigerskin Tricorne (patch 5.3)",
+      "cn": "收藏用猛虎革宽边帽",
       "de": "Tigerleder-Dreispitz (Sammlerstück)",
       "en": "Rarefied Tigerskin Tricorne",
       "fr": "Tricorne en cuir de tigre collectionnable",
@@ -18233,7 +18284,7 @@
     "level": 285,
     "maxQuality": 11121,
     "name": {
-      "cn": "Rarefied Marid Leather Corset (patch 5.3)",
+      "cn": "收藏用魔象革围腰",
       "de": "Maridenleder-Korsett (Sammlerstück)",
       "en": "Rarefied Marid Leather Corset",
       "fr": "Corset en cuir de marid collectionnable",
@@ -18420,7 +18471,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Armament Repair Kit (patch 5.3)",
+      "cn": "武器修理的部件",
       "de": "Reparaturwerkzeug",
       "en": "Armament Repair Kit",
       "fr": "Composant de réparation",
@@ -18437,7 +18488,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Automaton Repair Component (patch 5.3)",
+      "cn": "修理自走人偶的部件",
       "de": "Reparaturwerkstoff für Eisenbärte",
       "en": "Automaton Repair Component",
       "fr": "Composant de réparation d'automate",
@@ -18454,7 +18505,7 @@
     "level": 290,
     "maxQuality": 17017,
     "name": {
-      "cn": "Automaton Worker Supplies (patch 5.3)",
+      "cn": "自动化需要的部件",
       "de": "Fließbandkomponenten",
       "en": "Automaton Worker Supplies",
       "fr": "Composants de chaîne de montage",
@@ -18471,7 +18522,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Axle Component (patch 5.3)",
+      "cn": "减轻磨损的部件",
       "de": "Experimentelles Achsenzubehörteil",
       "en": "Axle Component",
       "fr": "Composant d'essieu expérimental",
@@ -18488,8 +18539,8 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Bespoke Barter Item (patch 5.3)",
-      "de": "Tauschware",
+      "cn": "充当货款的商品",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -18505,7 +18556,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Blueprint Supplies (patch 5.3)",
+      "cn": "矮人族绘图的工具",
       "de": "Schreibutensil",
       "en": "Blueprint Supplies",
       "fr": "Ustensile de dessin",
@@ -18522,7 +18573,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Brewery Supplies (patch 5.3)",
+      "cn": "酿造设备的必需品",
       "de": "Brauereikomponenten",
       "en": "Brewery Supplies",
       "fr": "Composants de brasserie",
@@ -18556,7 +18607,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cask Component (patch 5.3)",
+      "cn": "酒桶的部件",
       "de": "Fassbestandteil",
       "en": "Cask Component",
       "fr": "Composant de fût",
@@ -18573,7 +18624,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cooling Device Component (patch 5.3)",
+      "cn": "冷却装置的部件",
       "de": "Kühlmittel",
       "en": "Cooling Device Component",
       "fr": "Article refroidissant",
@@ -18590,7 +18641,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Core Tank Component (patch 5.3)",
+      "cn": "车身重要的部件",
       "de": "Zubehörteil des Zwergenpanzers",
       "en": "Core Tank Component",
       "fr": "Pièce complexe d'automatank",
@@ -18607,7 +18658,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Crystal Cannon Supplies (patch 5.3)",
+      "cn": "主炮的重要部件",
       "de": "Geschützkomponenten",
       "en": "Crystal Cannon Supplies",
       "fr": "Composants de canon",
@@ -18624,7 +18675,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Engine Component (patch 5.3)",
+      "cn": "保护引擎的部件",
       "de": "Hilfsmittel für die Motorwartung",
       "en": "Engine Component",
       "fr": "Composant d'amélioration de moteur",
@@ -18641,7 +18692,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Experimental Plating Component (patch 5.3)",
+      "cn": "试做装甲的部件",
       "de": "Bestandteil der Panzerung des Zwergenpanzers",
       "en": "Experimental Plating Component",
       "fr": "Pièce de renforcement",
@@ -18658,7 +18709,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Eye-catching Custom Option (patch 5.3)",
+      "cn": "气派华丽的外装部件",
       "de": "Auffälliges Zubehörteil",
       "en": "Eye-catching Custom Option",
       "fr": "Option de personnalisation criarde",
@@ -18675,7 +18726,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Filtration Supplies (patch 5.3)",
+      "cn": "提炼实验的用品",
       "de": "Utensil zum Experimentieren mit Zwergensprit",
       "en": "Filtration Supplies",
       "fr": "Ustensile d'expérience de raffinage",
@@ -18913,12 +18964,29 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 3 Skybuilders' Longboots (patch 5.31)",
+      "cn": "第三期重建用的长靴",
       "de": "Federfall-Stiefel",
       "en": "Grade 3 Skybuilders' Longboots",
       "fr": "Bottes de restauration (3e phase)",
       "ja": "第三次復興用の長靴",
       "ko": "Grade 3 Skybuilders' Longboots"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "f0f4fab2f73",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Longboots (patch 5.41)",
+      "de": "Himmelsang-Stiefel",
+      "en": "Grade 4 Skybuilders' Longboots",
+      "fr": "Bottes de restauration (4e phase)",
+      "ja": "第四次復興用の長靴",
+      "ko": "Grade 4 Skybuilders' Longboots"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -18930,7 +18998,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Grooming Kit (patch 5.3)",
+      "cn": "保养胡子的工具",
       "de": "Pflegeprodukt für den Bart",
       "en": "Grooming Kit",
       "fr": "Ustensile d'entretien de barbe",
@@ -18947,7 +19015,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Heat-resistant Component (patch 5.3)",
+      "cn": "耐热性的部件",
       "de": "Hitzebeständiger Bestandteil",
       "en": "Heat-resistant Component",
       "fr": "Article réfractaire",
@@ -18981,7 +19049,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Low-profile Custom Option (patch 5.3)",
+      "cn": "隐秘型外装的部件",
       "de": "Unauffälliges Zubehörteil",
       "en": "Low-profile Custom Option",
       "fr": "Option de personnalisation discrète",
@@ -18998,7 +19066,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Rarefied Gazelleskin Armguards (patch 5.3)",
+      "cn": "收藏用瞪羚革护臂",
       "de": "Gazellenleder-Armschienen (Sammlerstück)",
       "en": "Rarefied Gazelleskin Armguards",
       "fr": "Garde-bras en cuir de gazelle collectionnables",
@@ -19032,7 +19100,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Steel Plate Component (patch 5.3)",
+      "cn": "钢板增产的部件",
       "de": "Hilfsmittel für die Stahlplattenproduktion",
       "en": "Steel Plate Component",
       "fr": "Composant de plaque de métal",
@@ -19066,7 +19134,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Tavern Materials (patch 5.3)",
+      "cn": "酒馆的必需品",
       "de": "Barzubehörteil",
       "en": "Tavern Materials",
       "fr": "Article pour la taverne",
@@ -19083,7 +19151,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Test-fire Target Dummy (patch 5.3)",
+      "cn": "试射用的靶子",
       "de": "Zielscheibe",
       "en": "Test-fire Target Dummy",
       "fr": "Cible de test",
@@ -19100,7 +19168,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Unfailing Eye Opener (patch 5.3)",
+      "cn": "驱散睡意的秘密道具",
       "de": "Ronitts Muntermacher",
       "en": "Unfailing Eye Opener",
       "fr": "Objet pour un réveil brutal",
@@ -19117,7 +19185,7 @@
     "level": 290,
     "maxQuality": 16430,
     "name": {
-      "cn": "Workshop Expansion Supplies (patch 5.3)",
+      "cn": "用于扩张据点的部件",
       "de": "Komponenten für eine Werkstattserweiterung",
       "en": "Workshop Expansion Supplies",
       "fr": "Composants d'atelier annexe",
@@ -19134,7 +19202,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Workshop Supplies (patch 5.3)",
+      "cn": "工作区的必需品",
       "de": "Werkstattzubehör",
       "en": "Workshop Supplies",
       "fr": "Composants d'atelier mécanique",
@@ -20518,7 +20586,7 @@
     "level": 390,
     "maxQuality": 10468,
     "name": {
-      "cn": "Custom Gathering Tool Components (patch 5.3)",
+      "cn": "龙族用采集工具部件",
       "de": "Komponenten für ein spezielles Sammlerwerkzeug",
       "en": "Custom Gathering Tool Components",
       "fr": "Outils de récolte pour dragon",
@@ -20960,7 +21028,7 @@
     "level": 395,
     "maxQuality": 10928,
     "name": {
-      "cn": "Custom Weaving Components (patch 5.3)",
+      "cn": "龙族用缝纫工具",
       "de": "Komponenten für ein spezielles Weberwerkzeug",
       "en": "Custom Weaving Components",
       "fr": "Ustensiles de couture pour dragon",
@@ -21096,7 +21164,7 @@
     "level": 395,
     "maxQuality": 12977,
     "name": {
-      "cn": "Rarefied Smilodonskin Trousers (patch 5.3)",
+      "cn": "收藏用斯剑虎革软甲裤",
       "de": "Smilodonleder-Hose (Sammlerstück)",
       "en": "Rarefied Smilodonskin Trousers",
       "fr": "Pantalon en cuir de smilodon collectionnable",
@@ -21130,7 +21198,7 @@
     "level": 400,
     "maxQuality": 11249,
     "name": {
-      "cn": "Custom Crafting Tool Components (patch 5.3)",
+      "cn": "龙族用工匠工具部件",
       "de": "Komponenten für ein spezielles Werkzeug",
       "en": "Custom Crafting Tool Components",
       "fr": "Outils d'artisanat pour dragon",
@@ -21640,7 +21708,7 @@
     "level": 403,
     "maxQuality": 11585,
     "name": {
-      "cn": "Handpicked Culinary Essentials (patch 5.3)",
+      "cn": "龙族用招待菜肴必需品",
       "de": "Handverlesene kulinarische Köstlichkeiten",
       "en": "Handpicked Culinary Essentials",
       "fr": "Sandwichs pour dragon",
@@ -21657,7 +21725,7 @@
     "level": 403,
     "maxQuality": 14482,
     "name": {
-      "cn": "Rarefied Gliderskin Thighboots (patch 5.3)",
+      "cn": "收藏用绿飘龙革高筒靴",
       "de": "Gleiterleder-Kniestiefel (Sammlerstück)",
       "en": "Rarefied Gliderskin Thighboots",
       "fr": "Cuissardes en cuir de planeur vert collectionnables",
@@ -21878,7 +21946,7 @@
     "level": 406,
     "maxQuality": 11921,
     "name": {
-      "cn": "Printing Essentials (patch 5.3)",
+      "cn": "印刷必需品",
       "de": "Druckutensilien",
       "en": "Printing Essentials",
       "fr": "Lot d'imprimerie",
@@ -21912,7 +21980,7 @@
     "level": 409,
     "maxQuality": 15322,
     "name": {
-      "cn": "Rarefied Atrociraptorskin Cap (patch 5.3)",
+      "cn": "收藏用野蛮盗龙革工作帽",
       "de": "Atrociraptorleder-Kappe (Sammlerstück)",
       "en": "Rarefied Atrociraptorskin Cap",
       "fr": "Casquette en cuir d'atrociraptor collectionnable",
@@ -22354,7 +22422,7 @@
     "level": 415,
     "maxQuality": 16162,
     "name": {
-      "cn": "Rarefied Zonureskin Fingerless Gloves (patch 5.3)",
+      "cn": "收藏用缠尾蛟革半指护手",
       "de": "Zonurenleder-Fingerlinge (Sammlerstück)",
       "en": "Rarefied Zonureskin Fingerless Gloves",
       "fr": "Gants sans doigts en cuir de zonure collectionnables",
@@ -22677,12 +22745,29 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 3 Skybuilders' Overalls (patch 5.31)",
+      "cn": "第三期重建用的工作服",
       "de": "Federfall-Arbeitsmontur",
       "en": "Grade 3 Skybuilders' Overalls",
       "fr": "Habit de travail de restauration (3e phase)",
       "ja": "第三次復興用の作業着",
       "ko": "Grade 3 Skybuilders' Overalls"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "8308192e6ea",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Overalls (patch 5.41)",
+      "de": "Himmelsang-Arbeitsmontur",
+      "en": "Grade 4 Skybuilders' Overalls",
+      "fr": "Habit de travail de restauration (4e phase)",
+      "ja": "第四次復興用の作業着",
+      "ko": "Grade 4 Skybuilders' Overalls"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -22728,7 +22813,7 @@
     "level": 430,
     "maxQuality": 18262,
     "name": {
-      "cn": "Rarefied Swallowskin Coat (patch 5.3)",
+      "cn": "收藏用海燕革长衣",
       "de": "Glaucusleder-Weste (Sammlerstück)",
       "en": "Rarefied Swallowskin Coat",
       "fr": "Manteau en cuir de glaucus collectionnable",
@@ -23275,6 +23360,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "7b674b922d3",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Gaganaskin Strap (patch 5.35)",
+      "de": "Werkstätten-Gagana-Lederriemen",
+      "en": "Oddly Specific Gaganaskin Strap",
+      "fr": "Lanière en cuir de gagana d'affinage",
+      "ja": "改良用のガガナストラップ",
+      "ko": "Oddly Specific Gaganaskin Strap"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "bb8187cd885",
@@ -23337,7 +23440,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Belt of Gathering (patch 5.3)",
+      "cn": "唯美大地腰带",
       "de": "Ästhetischer Gürtel des Eifers",
       "en": "Aesthete's Belt of Gathering",
       "fr": "Ceinture des ressources esthétique",
@@ -23356,7 +23459,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Boots of Crafting (patch 5.3)",
+      "cn": "唯美巧匠筒靴",
       "de": "Ästhetische Stiefel des Handwerks",
       "en": "Aesthete's Boots of Crafting",
       "fr": "Bottes des créations esthétiques",
@@ -23375,7 +23478,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Boots of Gathering (patch 5.3)",
+      "cn": "唯美大地筒靴",
       "de": "Ästhetische Stiefel des Eifers",
       "en": "Aesthete's Boots of Gathering",
       "fr": "Bottes des ressources esthétiques",
@@ -23394,7 +23497,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Doublet of Gathering (patch 5.3)",
+      "cn": "唯美大地工作服",
       "de": "Ästhetisches Wams des Eifers",
       "en": "Aesthete's Doublet of Gathering",
       "fr": "Doublet des ressources esthétique",
@@ -23413,7 +23516,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Fingerless Gloves of Crafting (patch 5.3)",
+      "cn": "唯美巧匠半指手套",
       "de": "Ästhetische Fingerlinge des Handwerks",
       "en": "Aesthete's Fingerless Gloves of Crafting",
       "fr": "Gants sans doigts des créations esthétiques",
@@ -23432,7 +23535,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Halfgloves of Gathering (patch 5.3)",
+      "cn": "唯美大地半指护手",
       "de": "Ästhetische Fingerlinge des Eifers",
       "en": "Aesthete's Halfgloves of Gathering",
       "fr": "Mitaines des ressources esthétiques",
@@ -23451,7 +23554,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Tool Belt (patch 5.3)",
+      "cn": "唯美工具腰带",
       "de": "Ästhetischer Werkzeuggürtel",
       "en": "Aesthete's Tool Belt",
       "fr": "Ceinture à outils esthétique",
@@ -23770,11 +23873,29 @@
     "baseLevel": 80,
     "difficulty": 4943,
     "durability": 70,
+    "id": "e177e170ac8",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Gagana Leather (patch 5.35)",
+      "de": "Werkstätten-Gaganaleder",
+      "en": "Oddly Specific Gagana Leather",
+      "fr": "Cuir de gagana d'affinage",
+      "ja": "改良用のガガナレザー",
+      "ko": "Oddly Specific Gagana Leather"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
     "id": "92b817b0590",
     "level": 480,
     "maxQuality": 25863,
     "name": {
-      "cn": "Southern Seas Shoes (patch 5.3)",
+      "cn": "南洋海滨皮鞋",
       "de": "Südsee-Schuhe",
       "en": "Southern Seas Shoes",
       "fr": "Chaussures des mers du sud",
@@ -23786,18 +23907,412 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "fbc9a5f808c",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Bottoms (patch 5.4)",
+      "de": "Kalbsleder-Bikerhose",
+      "en": "Calfskin Rider's Bottoms",
+      "fr": "Pantalon de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースボトム",
+      "ko": "Calfskin Rider's Bottoms"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "d3deab90784",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Cap (patch 5.4)",
+      "de": "Kalbsleder-Bikerkappe",
+      "en": "Calfskin Rider's Cap",
+      "fr": "Casquette de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースキャップ",
+      "ko": "Calfskin Rider's Cap"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "b990cdff8cc",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Gloves (patch 5.4)",
+      "de": "Paar Kalbsleder-Bikerhandschuhe",
+      "en": "Calfskin Rider's Gloves",
+      "fr": "Gants de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースグローブ",
+      "ko": "Calfskin Rider's Gloves"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "bde2c5fc860",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Jacket (patch 5.4)",
+      "de": "Kalbsleder-Bikerjacke",
+      "en": "Calfskin Rider's Jacket",
+      "fr": "Veste de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースジャケット",
+      "ko": "Calfskin Rider's Jacket"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "cb6e2da123e",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Calfskin Rider's Shoes (patch 5.4)",
+      "de": "Paar Kalbsleder-Bikerstiefel",
+      "en": "Calfskin Rider's Shoes",
+      "fr": "Chaussures de biker en cuir de veau",
+      "ja": "カーフスキン・ライダースシューズ",
+      "ko": "Calfskin Rider's Shoes"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d967bdbdc05",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Armguards of Aiming (patch 5.4)",
+      "de": "Exarchen-Armschützer des Zielens",
+      "en": "Exarchic Armguards of Aiming",
+      "fr": "Garde-bras de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーアームガード",
+      "ko": "Exarchic Armguards of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "b6c9001a1ae",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Armguards of Scouting (patch 5.4)",
+      "de": "Exarchen-Armschützer des Spähens",
+      "en": "Exarchic Armguards of Scouting",
+      "fr": "Garde-bras d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトアームガード",
+      "ko": "Exarchic Armguards of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "de6abb2f6b8",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Armguards of Striking (patch 5.4)",
+      "de": "Exarchen-Armschützer des Schlagens",
+      "en": "Exarchic Armguards of Striking",
+      "fr": "Garde-bras d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーアームガード",
+      "ko": "Exarchic Armguards of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "dfc35dd512b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Boots of Aiming (patch 5.4)",
+      "de": "Exarchen-Stiefel des Zielens",
+      "en": "Exarchic Boots of Aiming",
+      "fr": "Bottes de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーブーツ",
+      "ko": "Exarchic Boots of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "85093d25b60",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Boots of Scouting (patch 5.4)",
+      "de": "Exarchen-Stiefel des Spähens",
+      "en": "Exarchic Boots of Scouting",
+      "fr": "Bottes d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトブーツ",
+      "ko": "Exarchic Boots of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2921bdef70d",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Boots of Striking (patch 5.4)",
+      "de": "Exarchen-Stiefel des Schlagens",
+      "en": "Exarchic Boots of Striking",
+      "fr": "Bottes d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーブーツ",
+      "ko": "Exarchic Boots of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "4a1025f711f",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Coat of Casting (patch 5.4)",
+      "de": "Exarchen-Mantel der Magie",
+      "en": "Exarchic Coat of Casting",
+      "fr": "Manteau d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターコート",
+      "ko": "Exarchic Coat of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c3d11fcb794",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gloves of Casting (patch 5.4)",
+      "de": "Exarchen-Handschuhe der Magie",
+      "en": "Exarchic Gloves of Casting",
+      "fr": "Gants d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターグローブ",
+      "ko": "Exarchic Gloves of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ae356b5a8a0",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hat of Casting (patch 5.4)",
+      "de": "Exarchen-Hut der Magie",
+      "en": "Exarchic Hat of Casting",
+      "fr": "Chapeau d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターハット",
+      "ko": "Exarchic Hat of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9354d20e30e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hose of Casting (patch 5.4)",
+      "de": "Exarchen-Hose der Magie",
+      "en": "Exarchic Hose of Casting",
+      "fr": "Fuseau d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターホーズ",
+      "ko": "Exarchic Hose of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "8dab6f8c377",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hose of Fending (patch 5.4)",
+      "de": "Exarchen-Hose der Verteidigung",
+      "en": "Exarchic Hose of Fending",
+      "fr": "Fuseau de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーホーズ",
+      "ko": "Exarchic Hose of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "700b4f97798",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hose of Healing (patch 5.4)",
+      "de": "Exarchen-Hose der Heilung",
+      "en": "Exarchic Hose of Healing",
+      "fr": "Fuseau de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーホーズ",
+      "ko": "Exarchic Hose of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0a3544f263b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hose of Maiming (patch 5.4)",
+      "de": "Exarchen-Hose des Verstümmelns",
+      "en": "Exarchic Hose of Maiming",
+      "fr": "Fuseau d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーホーズ",
+      "ko": "Exarchic Hose of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "852ede19398",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Shoes of Casting (patch 5.4)",
+      "de": "Exarchen-Schuhe der Magie",
+      "en": "Exarchic Shoes of Casting",
+      "fr": "Chaussures d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターシューズ",
+      "ko": "Exarchic Shoes of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "c58f698c9b9",
     "level": 510,
     "maxQuality": 82400,
     "name": {
-      "cn": "Grade 3 Artisanal Skybuilders' Leather Chair (patch 5.31)",
+      "cn": "第三期重建用的特供皮革椅子",
       "de": "Sonderbestellter Federfall-Ledersessel",
       "en": "Grade 3 Artisanal Skybuilders' Leather Chair",
       "fr": "Chaise en cuir sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注レザーチェア",
       "ko": "Grade 3 Artisanal Skybuilders' Leather Chair"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 12046,
+    "durability": 55,
+    "id": "a7f3abe13af",
+    "level": 510,
+    "maxQuality": 81447,
+    "name": {
+      "cn": "Grade 4 Artisanal Skybuilders' Tool Belt (patch 5.41)",
+      "de": "Sonderbestellter Himmelsang-Werkzeuggürtel",
+      "en": "Grade 4 Artisanal Skybuilders' Tool Belt",
+      "fr": "Ceinture à outils sur commande de restauration (4e phase)",
+      "ja": "第四次復興用の特注ツールベルト",
+      "ko": "Grade 4 Artisanal Skybuilders' Tool Belt"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "c1db86591dc",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Thylacoleo Leather (patch 5.4)",
+      "de": "Thylacoleo-Leder",
+      "en": "Thylacoleo Leather",
+      "fr": "Cuir de lion marsupial",
+      "ja": "ティラコレオレザー",
+      "ko": "Thylacoleo Leather"
     },
     "stars": 4,
     "suggestedControl": 2540,

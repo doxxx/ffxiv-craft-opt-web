@@ -1911,12 +1911,29 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 3 Skybuilders' Alloy (patch 5.31)",
+      "cn": "第三期重建用的合金",
       "de": "Federfall-Legierung",
       "en": "Grade 3 Skybuilders' Alloy",
       "fr": "Alliage métallique de restauration (3e phase)",
       "ja": "第三次復興用の合金",
       "ko": "Grade 3 Skybuilders' Alloy"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "c6499841cc5",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Alloy (patch 5.41)",
+      "de": "Himmelsang-Legierung",
+      "en": "Grade 4 Skybuilders' Alloy",
+      "fr": "Alliage métallique de restauration (4e phase)",
+      "ja": "第四次復興用の合金",
+      "ko": "Grade 4 Skybuilders' Alloy"
     },
     "suggestedCraftsmanship": 94
   },
@@ -4308,12 +4325,29 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 3 Skybuilders' Nails (patch 5.31)",
+      "cn": "第三期重建用的铁钉",
       "de": "Federfall-Eisennägel",
       "en": "Grade 3 Skybuilders' Nails",
       "fr": "Clous de restauration (3e phase)",
       "ja": "第三次復興用の鉄釘",
       "ko": "Grade 3 Skybuilders' Nails"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "3fd81b8da1b",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Nails (patch 5.41)",
+      "de": "Himmelsang-Eisennägel",
+      "en": "Grade 4 Skybuilders' Nails",
+      "fr": "Clous de restauration (4e phase)",
+      "ja": "第四次復興用の鉄釘",
+      "ko": "Grade 4 Skybuilders' Nails"
     },
     "suggestedCraftsmanship": 136
   },
@@ -5787,7 +5821,7 @@
     "level": 50,
     "maxQuality": 4114,
     "name": {
-      "cn": "Rarefied Mythrite Katzbalger (patch 5.3)",
+      "cn": "收藏用灵银斗剑",
       "de": "Mythrit-Katzbalger (Sammlerstück)",
       "en": "Rarefied Mythrite Katzbalger",
       "fr": "Katzbalger en mithrite collectionnable",
@@ -6427,7 +6461,7 @@
       "cn": "庄园炉",
       "de": "Herrenhaus-Ofen",
       "en": "Manor Oven",
-      "fr": "Fourneau du manoir",
+      "fr": "Fourneau du Manoir",
       "ja": "御用邸の焜炉",
       "ko": "별궁의 풍로"
     },
@@ -8047,7 +8081,7 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "cn": "Rarefied Mythrite Pugiones (patch 5.3)",
+      "cn": "收藏用灵银辅剑",
       "de": "Mythrit-Pugiones (Sammlerstück)",
       "en": "Rarefied Mythrite Pugiones",
       "fr": "Pugiones en mithrite collectionnables",
@@ -8302,7 +8336,7 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "cn": "Rarefied Mythrite Halfheart Saw (patch 5.3)",
+      "cn": "收藏用灵银圆手锯",
       "de": "Mythrit-Rundsäge (Sammlerstück)",
       "en": "Rarefied Mythrite Halfheart Saw",
       "fr": "Scie ronde en mithrite collectionnable",
@@ -8591,7 +8625,7 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "cn": "Rarefied Titanium Creasing Knife (patch 5.3)",
+      "cn": "收藏用白钛制革刀",
       "de": "Titan-Rillmesser (Sammlerstück)",
       "en": "Rarefied Titanium Creasing Knife",
       "fr": "Couteau de tanneur en titane collectionnable",
@@ -9288,7 +9322,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Rarefied Titanium Mortar (patch 5.3)",
+      "cn": "收藏用白钛研钵",
       "de": "Titan-Mörser (Sammlerstück)",
       "en": "Rarefied Titanium Mortar",
       "fr": "Mortier en titane collectionnable",
@@ -10019,12 +10053,29 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 3 Skybuilders' Pickaxe (patch 5.31)",
+      "cn": "第三期重建用的鹤嘴锄",
       "de": "Federfall-Spitzhacke",
       "en": "Grade 3 Skybuilders' Pickaxe",
       "fr": "Piochon de restauration (3e phase)",
       "ja": "第三次復興用のピックアクス",
       "ko": "Grade 3 Skybuilders' Pickaxe"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "20c1fc86f3e",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Hatchet (patch 5.41)",
+      "de": "Himmelsang-Handbeil",
+      "en": "Grade 4 Skybuilders' Hatchet",
+      "fr": "Hachette de restauration (4e phase)",
+      "ja": "第四次復興用のハチェット",
+      "ko": "Grade 4 Skybuilders' Hatchet"
     },
     "suggestedCraftsmanship": 587
   },
@@ -10172,7 +10223,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Rarefied Adamantite Bill (patch 5.3)",
+      "cn": "收藏用精金钩斧",
       "de": "Adamantium-Hippe (Sammlerstück)",
       "en": "Rarefied Adamantite Bill",
       "fr": "Vouge en adamantium collectionnable",
@@ -11007,6 +11058,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "d8ba35a4fba",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Axe of the Demon (patch 5.4)",
+      "de": "Axt des Dämons",
+      "en": "Axe of the Demon",
+      "fr": "Hache du Démon",
+      "ja": "アクス・オブ・デモン",
+      "ko": "Axe of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "49b7dc2637a",
     "level": 210,
     "maxQuality": 8298,
@@ -11055,6 +11125,25 @@
       "fr": "Hache de la Table ronde",
       "ja": "アクス・オブ・ラウンド",
       "ko": "기사신의 도끼"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "4d279d1945a",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Blade of the Demon (patch 5.4)",
+      "de": "Schwert des Dämons",
+      "en": "Blade of the Demon",
+      "fr": "Lame du Démon",
+      "ja": "ブレード・オブ・デモン",
+      "ko": "Blade of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -11159,6 +11248,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "136a426ff31",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Edge of the Demon (patch 5.4)",
+      "de": "Guillotine des Dämons",
+      "en": "Edge of the Demon",
+      "fr": "Grande épée du Démon",
+      "ja": "エッジ・オブ・デモン",
+      "ko": "Edge of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "354bb991bbf",
     "level": 210,
     "maxQuality": 8298,
@@ -11216,6 +11324,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "65cdbe6c4e9",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Fire of the Demon (patch 5.4)",
+      "de": "Muskete des Dämons",
+      "en": "Fire of the Demon",
+      "fr": "Feu du Démon",
+      "ja": "ファイア・オブ・デモン",
+      "ko": "Fire of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "c33194b7764",
     "level": 210,
     "maxQuality": 8298,
@@ -11264,6 +11391,25 @@
       "fr": "Feu de la Table ronde",
       "ja": "ファイア・オブ・ラウンド",
       "ko": "기사신의 총"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "b3b48d46803",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Fists of the Demon (patch 5.4)",
+      "de": "Fäuste des Dämons",
+      "en": "Fists of the Demon",
+      "fr": "Poings du Démon",
+      "ja": "フィスト・オブ・デモン",
+      "ko": "Fists of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -11596,6 +11742,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "2a2b445bd45",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Katana of the Demon (patch 5.4)",
+      "de": "Katana des Dämons",
+      "en": "Katana of the Demon",
+      "fr": "Katana du Démon",
+      "ja": "鬼神刀【改】",
+      "ko": "Katana of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "958cec617fc",
     "level": 210,
     "maxQuality": 8298,
@@ -11663,6 +11828,25 @@
       "fr": "Poings de la Table ronde",
       "ja": "ナックル・オブ・ラウンド",
       "ko": "기사신의 너클"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "4f840e22cc4",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Points of the Demon (patch 5.4)",
+      "de": "Dolche des Dämons",
+      "en": "Points of the Demon",
+      "fr": "Pointes du Démon",
+      "ja": "ポインツ・オブ・デモン",
+      "ko": "Points of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -12896,7 +13080,7 @@
     "level": 265,
     "maxQuality": 8581,
     "name": {
-      "cn": "Rarefied High Steel Guillotine (patch 5.3)",
+      "cn": "收藏用硬钢断头剑",
       "de": "Edelstahl-Guillotine (Sammlerstück)",
       "en": "Rarefied High Steel Guillotine",
       "fr": "Fendoir en acier noble collectionnable",
@@ -13474,7 +13658,7 @@
     "level": 273,
     "maxQuality": 9657,
     "name": {
-      "cn": "Rarefied High Steel Claw Hammer (patch 5.3)",
+      "cn": "收藏用硬钢羊角锤",
       "de": "Edelstahl-Klauenhammer (Sammlerstück)",
       "en": "Rarefied High Steel Claw Hammer",
       "fr": "Marteau arrache-clou en acier noble collectionnable",
@@ -13984,7 +14168,7 @@
     "level": 279,
     "maxQuality": 10389,
     "name": {
-      "cn": "Rarefied Doman Iron Uchigatana (patch 5.3)",
+      "cn": "收藏用卸铁打刀",
       "de": "Domaeisen-Uchigatana (Sammlerstück)",
       "en": "Rarefied Doman Iron Uchigatana",
       "fr": "Uchigatana en fer domien collectionnable",
@@ -14528,7 +14712,7 @@
     "level": 285,
     "maxQuality": 11121,
     "name": {
-      "cn": "Rarefied Doman Steel Patas (patch 5.3)",
+      "cn": "收藏用玉钢拳剑",
       "de": "Domastahl-Pata (Sammlerstück)",
       "en": "Rarefied Doman Steel Patas",
       "fr": "Patas en acier domien collectionnables",
@@ -14664,7 +14848,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Armament Repair Kit (patch 5.3)",
+      "cn": "武器修理的部件",
       "de": "Reparaturwerkzeug",
       "en": "Armament Repair Kit",
       "fr": "Composant de réparation",
@@ -14681,7 +14865,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Automaton Repair Component (patch 5.3)",
+      "cn": "修理自走人偶的部件",
       "de": "Reparaturwerkstoff für Eisenbärte",
       "en": "Automaton Repair Component",
       "fr": "Composant de réparation d'automate",
@@ -14698,7 +14882,7 @@
     "level": 290,
     "maxQuality": 17017,
     "name": {
-      "cn": "Automaton Worker Supplies (patch 5.3)",
+      "cn": "自动化需要的部件",
       "de": "Fließbandkomponenten",
       "en": "Automaton Worker Supplies",
       "fr": "Composants de chaîne de montage",
@@ -14715,7 +14899,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Axle Component (patch 5.3)",
+      "cn": "减轻磨损的部件",
       "de": "Experimentelles Achsenzubehörteil",
       "en": "Axle Component",
       "fr": "Composant d'essieu expérimental",
@@ -14732,8 +14916,8 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Bespoke Barter Item (patch 5.3)",
-      "de": "Tauschware",
+      "cn": "充当货款的商品",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -14749,7 +14933,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Blueprint Supplies (patch 5.3)",
+      "cn": "矮人族绘图的工具",
       "de": "Schreibutensil",
       "en": "Blueprint Supplies",
       "fr": "Ustensile de dessin",
@@ -14766,7 +14950,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Brewery Supplies (patch 5.3)",
+      "cn": "酿造设备的必需品",
       "de": "Brauereikomponenten",
       "en": "Brewery Supplies",
       "fr": "Composants de brasserie",
@@ -14783,7 +14967,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cask Component (patch 5.3)",
+      "cn": "酒桶的部件",
       "de": "Fassbestandteil",
       "en": "Cask Component",
       "fr": "Composant de fût",
@@ -14800,7 +14984,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cooling Device Component (patch 5.3)",
+      "cn": "冷却装置的部件",
       "de": "Kühlmittel",
       "en": "Cooling Device Component",
       "fr": "Article refroidissant",
@@ -14817,7 +15001,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Core Tank Component (patch 5.3)",
+      "cn": "车身重要的部件",
       "de": "Zubehörteil des Zwergenpanzers",
       "en": "Core Tank Component",
       "fr": "Pièce complexe d'automatank",
@@ -14834,7 +15018,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Crystal Cannon Supplies (patch 5.3)",
+      "cn": "主炮的重要部件",
       "de": "Geschützkomponenten",
       "en": "Crystal Cannon Supplies",
       "fr": "Composants de canon",
@@ -14851,7 +15035,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Engine Component (patch 5.3)",
+      "cn": "保护引擎的部件",
       "de": "Hilfsmittel für die Motorwartung",
       "en": "Engine Component",
       "fr": "Composant d'amélioration de moteur",
@@ -14885,7 +15069,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Experimental Plating Component (patch 5.3)",
+      "cn": "试做装甲的部件",
       "de": "Bestandteil der Panzerung des Zwergenpanzers",
       "en": "Experimental Plating Component",
       "fr": "Pièce de renforcement",
@@ -14902,7 +15086,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Eye-catching Custom Option (patch 5.3)",
+      "cn": "气派华丽的外装部件",
       "de": "Auffälliges Zubehörteil",
       "en": "Eye-catching Custom Option",
       "fr": "Option de personnalisation criarde",
@@ -14919,7 +15103,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Filtration Supplies (patch 5.3)",
+      "cn": "提炼实验的用品",
       "de": "Utensil zum Experimentieren mit Zwergensprit",
       "en": "Filtration Supplies",
       "fr": "Ustensile d'expérience de raffinage",
@@ -14970,12 +15154,29 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 3 Skybuilders' Crosscut Saw (patch 5.31)",
+      "cn": "第三期重建用的锯子",
       "de": "Federfall-Säge",
       "en": "Grade 3 Skybuilders' Crosscut Saw",
       "fr": "Grande scie de restauration (3e phase)",
       "ja": "第三次復興用の大鋸",
       "ko": "Grade 3 Skybuilders' Crosscut Saw"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "f326bfde0ce",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Crosscut Saw (patch 5.41)",
+      "de": "Himmelsang-Säge",
+      "en": "Grade 4 Skybuilders' Crosscut Saw",
+      "fr": "Grande scie de restauration (4e phase)",
+      "ja": "第四次復興用の大鋸",
+      "ko": "Grade 4 Skybuilders' Crosscut Saw"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -14987,7 +15188,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Grooming Kit (patch 5.3)",
+      "cn": "保养胡子的工具",
       "de": "Pflegeprodukt für den Bart",
       "en": "Grooming Kit",
       "fr": "Ustensile d'entretien de barbe",
@@ -15004,7 +15205,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Heat-resistant Component (patch 5.3)",
+      "cn": "耐热性的部件",
       "de": "Hitzebeständiger Bestandteil",
       "en": "Heat-resistant Component",
       "fr": "Article réfractaire",
@@ -15021,7 +15222,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Low-profile Custom Option (patch 5.3)",
+      "cn": "隐秘型外装的部件",
       "de": "Unauffälliges Zubehörteil",
       "en": "Low-profile Custom Option",
       "fr": "Option de personnalisation discrète",
@@ -15191,7 +15392,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Rarefied Molybdenum Pliers (patch 5.3)",
+      "cn": "收藏用钼钢手钳",
       "de": "Molybdän-Zange (Sammlerstück)",
       "en": "Rarefied Molybdenum Pliers",
       "fr": "Tenailles en molybdène collectionnables",
@@ -15225,7 +15426,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Steel Plate Component (patch 5.3)",
+      "cn": "钢板增产的部件",
       "de": "Hilfsmittel für die Stahlplattenproduktion",
       "en": "Steel Plate Component",
       "fr": "Composant de plaque de métal",
@@ -15242,7 +15443,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Tavern Materials (patch 5.3)",
+      "cn": "酒馆的必需品",
       "de": "Barzubehörteil",
       "en": "Tavern Materials",
       "fr": "Article pour la taverne",
@@ -15259,7 +15460,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Test-fire Target Dummy (patch 5.3)",
+      "cn": "试射用的靶子",
       "de": "Zielscheibe",
       "en": "Test-fire Target Dummy",
       "fr": "Cible de test",
@@ -15276,7 +15477,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Unfailing Eye Opener (patch 5.3)",
+      "cn": "驱散睡意的秘密道具",
       "de": "Ronitts Muntermacher",
       "en": "Unfailing Eye Opener",
       "fr": "Objet pour un réveil brutal",
@@ -15293,7 +15494,7 @@
     "level": 290,
     "maxQuality": 16430,
     "name": {
-      "cn": "Workshop Expansion Supplies (patch 5.3)",
+      "cn": "用于扩张据点的部件",
       "de": "Komponenten für eine Werkstattserweiterung",
       "en": "Workshop Expansion Supplies",
       "fr": "Composants d'atelier annexe",
@@ -15310,7 +15511,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Workshop Supplies (patch 5.3)",
+      "cn": "工作区的必需品",
       "de": "Werkstattzubehör",
       "en": "Workshop Supplies",
       "fr": "Composants d'atelier mécanique",
@@ -15686,8 +15887,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Daggers (patch 5.3)",
-      "de": "Dolche des Schlangengotts",
+      "cn": "青君短刀",
+      "de": "Dolche des Schlangengottes",
       "en": "Seiryu's Sanctified Daggers",
       "fr": "Dagues de Seiryû flamboyantes",
       "ja": "青龍短刀【輝】",
@@ -15704,8 +15905,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Katana (patch 5.3)",
-      "de": "Katana des Schlangengotts",
+      "cn": "青君鳞纹刀",
+      "de": "Katana des Schlangengottes",
       "en": "Seiryu's Sanctified Katana",
       "fr": "Squame de Seiryû flamboyante",
       "ja": "青龍鱗紋刀【輝】",
@@ -15722,8 +15923,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Lance (patch 5.3)",
-      "de": "Lanze des Schlangengotts",
+      "cn": "青君长枪",
+      "de": "Lanze des Schlangengottes",
       "en": "Seiryu's Sanctified Lance",
       "fr": "Lance de Seiryû flamboyante",
       "ja": "青龍長槍【輝】",
@@ -15740,8 +15941,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Longsword (patch 5.3)",
-      "de": "Langschwert des Schlangengotts",
+      "cn": "青君直剑",
+      "de": "Langschwert des Schlangengottes",
       "en": "Seiryu's Sanctified Longsword",
       "fr": "Épée droite de Seiryû flamboyante",
       "ja": "青龍直剣【輝】",
@@ -15758,8 +15959,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Revolver (patch 5.3)",
-      "de": "Revolver des Schlangengotts",
+      "cn": "青君短铳",
+      "de": "Revolver des Schlangengottes",
       "en": "Seiryu's Sanctified Revolver",
       "fr": "Arquebuse de Seiryû flamboyante",
       "ja": "青龍短筒【輝】",
@@ -15776,8 +15977,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Spine (patch 5.3)",
-      "de": "Großschwert des Schlangengotts",
+      "cn": "青君蛇腹剑",
+      "de": "Großschwert des Schlangengottes",
       "en": "Seiryu's Sanctified Spine",
       "fr": "Épine de Seiryû flamboyante",
       "ja": "青龍蛇腹剣【輝】",
@@ -15794,8 +15995,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Tekko (patch 5.3)",
-      "de": "Tekko des Schlangengotts",
+      "cn": "青君手甲剑",
+      "de": "Tekko des Schlangengottes",
       "en": "Seiryu's Sanctified Tekko",
       "fr": "Tekkô tranchants de Seiryû flamboyants",
       "ja": "青龍手甲剣【輝】",
@@ -15812,8 +16013,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified War Axe (patch 5.3)",
-      "de": "Kriegsaxt des Schlangengotts",
+      "cn": "青君战斧",
+      "de": "Kriegsaxt des Schlangengottes",
       "en": "Seiryu's Sanctified War Axe",
       "fr": "Hache de guerre de Seiryû flamboyante",
       "ja": "青龍戦斧【輝】",
@@ -16010,7 +16211,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Chokuto (patch 5.3)",
+      "cn": "朱焰直刀",
       "de": "Chokuto des Feuervogels",
       "en": "Suzaku's Flame-kissed Chokuto",
       "fr": "Chokuto de Suzaku flamboyant",
@@ -16028,7 +16229,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Greataxe (patch 5.3)",
+      "cn": "朱焰大斧",
       "de": "Kriegsaxt des Feuervogels",
       "en": "Suzaku's Flame-kissed Greataxe",
       "fr": "Grande hache de Suzaku flamboyante",
@@ -16046,7 +16247,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Kunai (patch 5.3)",
+      "cn": "朱焰苦无",
       "de": "Kunai des Feuervogels",
       "en": "Suzaku's Flame-kissed Kunai",
       "fr": "Kunai de Suzaku flamboyants",
@@ -16064,7 +16265,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Lance (patch 5.3)",
+      "cn": "朱焰长枪",
       "de": "Lanze des Feuervogels",
       "en": "Suzaku's Flame-kissed Lance",
       "fr": "Lance de Suzaku flamboyante",
@@ -16082,7 +16283,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Longsword (patch 5.3)",
+      "cn": "朱焰直剑",
       "de": "Langschwert des Feuervogels",
       "en": "Suzaku's Flame-kissed Longsword",
       "fr": "Épée droite de Suzaku flamboyante",
@@ -16100,7 +16301,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Odachi (patch 5.3)",
+      "cn": "朱焰大太刀",
       "de": "Odachi des Feuervogels",
       "en": "Suzaku's Flame-kissed Odachi",
       "fr": "Odachi de Suzaku flamboyant",
@@ -16118,7 +16319,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Pinions (patch 5.3)",
+      "cn": "朱焰手甲",
       "de": "Tekko des Feuervogels",
       "en": "Suzaku's Flame-kissed Pinions",
       "fr": "Tekkô de Suzaku flamboyants",
@@ -16136,7 +16337,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Revolver (patch 5.3)",
+      "cn": "朱焰短铳",
       "de": "Revolver des Feuervogels",
       "en": "Suzaku's Flame-kissed Revolver",
       "fr": "Arquebuse de Suzaku flamboyante",
@@ -16154,7 +16355,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Chokuto (patch 5.3)",
+      "cn": "月读命幽夜直刀",
       "de": "Chokuto des Mondlichts",
       "en": "Tsukuyomi's Moonlit Chokuto",
       "fr": "Chokuto de Tsukuyomi flamboyant",
@@ -16172,7 +16373,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Crescents (patch 5.3)",
+      "cn": "月读命幽夜三日月",
       "de": "Mondsicheln des Mondlichts",
       "en": "Tsukuyomi's Moonlit Crescents",
       "fr": "Croissants de lune de Tsukuyomi flamboyants",
@@ -16190,7 +16391,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Greataxe (patch 5.3)",
+      "cn": "月读命幽夜大斧",
       "de": "Kriegsaxt des Mondlichts",
       "en": "Tsukuyomi's Moonlit Greataxe",
       "fr": "Grande hache de Tsukuyomi flamboyante",
@@ -16208,7 +16409,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Kunai (patch 5.3)",
+      "cn": "月读命幽夜苦无",
       "de": "Kunai des Mondlichts",
       "en": "Tsukuyomi's Moonlit Kunai",
       "fr": "Kunai de Tsukuyomi flamboyant",
@@ -16226,7 +16427,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Lance (patch 5.3)",
+      "cn": "月读命幽夜长枪",
       "de": "Lanze des Mondlichts",
       "en": "Tsukuyomi's Moonlit Lance",
       "fr": "Lance de Tsukuyomi flamboyante",
@@ -16244,7 +16445,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Longsword (patch 5.3)",
+      "cn": "月读命幽夜直剑",
       "de": "Langschwert des Mondlichts",
       "en": "Tsukuyomi's Moonlit Longsword",
       "fr": "Épée droite de Tsukuyomi flamboyante",
@@ -16262,7 +16463,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Odachi (patch 5.3)",
+      "cn": "月读命幽夜大太刀",
       "de": "Odachi des Mondlichts",
       "en": "Tsukuyomi's Moonlit Odachi",
       "fr": "Odachi de Tsukuyomi flamboyant",
@@ -16280,7 +16481,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Revolver (patch 5.3)",
+      "cn": "月读命幽夜短铳",
       "de": "Revolver des Mondlichts",
       "en": "Tsukuyomi's Moonlit Revolver",
       "fr": "Mousqueton de Tsukuyomi flamboyant",
@@ -16906,7 +17107,7 @@
     "level": 390,
     "maxQuality": 10468,
     "name": {
-      "cn": "Custom Gathering Tool Components (patch 5.3)",
+      "cn": "龙族用采集工具部件",
       "de": "Komponenten für ein spezielles Sammlerwerkzeug",
       "en": "Custom Gathering Tool Components",
       "fr": "Outils de récolte pour dragon",
@@ -17382,7 +17583,7 @@
     "level": 395,
     "maxQuality": 10928,
     "name": {
-      "cn": "Custom Weaving Components (patch 5.3)",
+      "cn": "龙族用缝纫工具",
       "de": "Komponenten für ein spezielles Weberwerkzeug",
       "en": "Custom Weaving Components",
       "fr": "Ustensiles de couture pour dragon",
@@ -17501,7 +17702,7 @@
     "level": 395,
     "maxQuality": 12977,
     "name": {
-      "cn": "Rarefied Deepgold Anelace (patch 5.3)",
+      "cn": "收藏用深金双刃剑",
       "de": "Dunkelgold-Breitklinge (Sammlerstück)",
       "en": "Rarefied Deepgold Anelace",
       "fr": "Anelace en or incarnat collectionnable",
@@ -17535,7 +17736,7 @@
     "level": 400,
     "maxQuality": 11249,
     "name": {
-      "cn": "Custom Crafting Tool Components (patch 5.3)",
+      "cn": "龙族用工匠工具部件",
       "de": "Komponenten für ein spezielles Werkzeug",
       "en": "Custom Crafting Tool Components",
       "fr": "Outils d'artisanat pour dragon",
@@ -17875,7 +18076,7 @@
     "level": 403,
     "maxQuality": 11585,
     "name": {
-      "cn": "Handpicked Culinary Essentials (patch 5.3)",
+      "cn": "龙族用招待菜肴必需品",
       "de": "Handverlesene kulinarische Köstlichkeiten",
       "en": "Handpicked Culinary Essentials",
       "fr": "Sandwichs pour dragon",
@@ -17892,7 +18093,7 @@
     "level": 403,
     "maxQuality": 14482,
     "name": {
-      "cn": "Rarefied Deepgold Culinary Knife (patch 5.3)",
+      "cn": "收藏用深金厨刀",
       "de": "Dunkelgold-Küchenmesser (Sammlerstück)",
       "en": "Rarefied Deepgold Culinary Knife",
       "fr": "Couteau de cuisine en or incarnat collectionnable",
@@ -18062,7 +18263,7 @@
     "level": 406,
     "maxQuality": 11921,
     "name": {
-      "cn": "Printing Essentials (patch 5.3)",
+      "cn": "印刷必需品",
       "de": "Druckutensilien",
       "en": "Printing Essentials",
       "fr": "Lot d'imprimerie",
@@ -18096,7 +18297,7 @@
     "level": 409,
     "maxQuality": 15322,
     "name": {
-      "cn": "Rarefied Bluespirit Gunblade (patch 5.3)",
+      "cn": "收藏用灵青枪刃",
       "de": "Seelenazurit-Revolverklinge (Sammlerstück)",
       "en": "Rarefied Bluespirit Gunblade",
       "fr": "Pistolame en azuresprit collectionnable",
@@ -18759,7 +18960,7 @@
     "level": 415,
     "maxQuality": 16162,
     "name": {
-      "cn": "Rarefied Titanbronze Pickaxe (patch 5.3)",
+      "cn": "收藏用钛铜鹤嘴锄",
       "de": "Titanbronze-Spitzhacke (Sammlerstück)",
       "en": "Rarefied Titanbronze Pickaxe",
       "fr": "Pioche en bronze titané collectionnable",
@@ -18925,6 +19126,23 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "2594e7272f4",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Armament Showcase (patch 5.4)",
+      "de": "Rüstungs-Schaukasten",
+      "en": "Armament Showcase",
+      "fr": "Vitrine d'armes",
+      "ja": "アーマリーショーケース",
+      "ko": "Armament Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "ea49f445afe",
     "level": 430,
     "maxQuality": 18262,
@@ -19065,7 +19283,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Chandelier (patch 5.3)",
+      "cn": "复制屋顶照明",
       "de": "Fabrik-Deckenleuchte",
       "en": "Factory Chandelier",
       "fr": "Lustre usine désaffectée",
@@ -19082,7 +19300,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Grate (patch 5.3)",
+      "cn": "复制平台",
       "de": "Fabrik-Gerüst",
       "en": "Factory Grate",
       "fr": "Marchepied usine désaffectée",
@@ -19099,7 +19317,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Partition (patch 5.3)",
+      "cn": "复制铁丝网",
       "de": "Fabrik-Maschendraht",
       "en": "Factory Partition",
       "fr": "Grille métallique usine désaffectée",
@@ -19116,7 +19334,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Railing (patch 5.3)",
+      "cn": "复制扶手",
       "de": "Fabrik-Geländer",
       "en": "Factory Railing",
       "fr": "Rampe d'escalier usine désaffectée",
@@ -19133,7 +19351,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Wall Lamp (patch 5.3)",
+      "cn": "复制照明",
       "de": "Fabrik-Lampe",
       "en": "Factory Wall Lamp",
       "fr": "Lampe usine désaffectée",
@@ -19167,12 +19385,29 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 3 Skybuilders' Oven (patch 5.31)",
+      "cn": "第三期重建用的火炉",
       "de": "Federfall-Ofen",
       "en": "Grade 3 Skybuilders' Oven",
       "fr": "Four de restauration (3e phase)",
       "ja": "第三次復興用の焜炉",
       "ko": "Grade 3 Skybuilders' Oven"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "b92694c91f9",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Oven (patch 5.41)",
+      "de": "Himmelsang-Ofen",
+      "en": "Grade 4 Skybuilders' Oven",
+      "fr": "Four de restauration (4e phase)",
+      "ja": "第四次復興用の焜炉",
+      "ko": "Grade 4 Skybuilders' Oven"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -19187,7 +19422,7 @@
       "cn": "庄园梳妆台",
       "de": "Herrenhaus-Frisiertisch",
       "en": "Manor Dressing Table",
-      "fr": "Coiffeuse du Manoir des Haukke",
+      "fr": "Coiffeuse du Manoir",
       "ja": "御用邸の鏡台",
       "ko": "Manor Dressing Table"
     },
@@ -19218,7 +19453,7 @@
     "level": 430,
     "maxQuality": 18262,
     "name": {
-      "cn": "Rarefied Mythril Hatchet (patch 5.3)",
+      "cn": "收藏用矮人银手斧",
       "de": "Edelmithril-Handbeil (Sammlerstück)",
       "en": "Rarefied Mythril Hatchet",
       "fr": "Hachette en mithril noble collectionnable",
@@ -19258,6 +19493,40 @@
       "fr": "Four de restauration",
       "ja": "復興用の焜炉",
       "ko": "Skybuilders' Oven"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "23c4ba3975c",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Skylight Chandelier (patch 5.4)",
+      "de": "Tageslicht-Kronleuchter",
+      "en": "Skylight Chandelier",
+      "fr": "Chandelier lumière céleste",
+      "ja": "スカイライト・シャンデリア",
+      "ko": "Skylight Chandelier"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "f404ada2147",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Smith's Show Window (patch 5.4)",
+      "de": "Rüstungs-Schaufenster",
+      "en": "Smith's Show Window",
+      "fr": "Vitrine extérieure d'armes",
+      "ja": "アーマリーショーウィンドウ",
+      "ko": "Smith's Show Window"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -19680,6 +19949,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "cbc0a3d606f",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Iron Nails (patch 5.35)",
+      "de": "Werkstätten-Eisennägel",
+      "en": "Oddly Specific Iron Nails",
+      "fr": "Clou en fer d'affinage",
+      "ja": "改良用のアイアンネイル",
+      "ko": "Oddly Specific Iron Nails"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4560,
     "durability": 70,
     "id": "95016df2405",
@@ -19781,7 +20068,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Awl (patch 5.3)",
+      "cn": "唯美平斩",
       "de": "Ästhetische Ahle",
       "en": "Aesthete's Awl",
       "fr": "Poinçon esthétique",
@@ -19800,7 +20087,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Claw Hammer (patch 5.3)",
+      "cn": "唯美羊角锤",
       "de": "Ästhetischer Klauenhammer",
       "en": "Aesthete's Claw Hammer",
       "fr": "Marteau arrache-clou esthétique",
@@ -19819,7 +20106,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Cross-pein Hammer (patch 5.3)",
+      "cn": "唯美横头锤",
       "de": "Ästhetischer Kreuzschlaghammer",
       "en": "Aesthete's Cross-pein Hammer",
       "fr": "Marteau à panne croisée esthétique",
@@ -19838,7 +20125,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Culinary Knife (patch 5.3)",
+      "cn": "唯美厨刀",
       "de": "Ästhetisches Küchenmesser",
       "en": "Aesthete's Culinary Knife",
       "fr": "Couteau de cuisine esthétique",
@@ -19857,7 +20144,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's File (patch 5.3)",
+      "cn": "唯美锉刀",
       "de": "Ästhetische Feile",
       "en": "Aesthete's File",
       "fr": "Lime esthétique",
@@ -19876,7 +20163,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Hatchet (patch 5.3)",
+      "cn": "唯美手斧",
       "de": "Ästhetisches Handbeil",
       "en": "Aesthete's Hatchet",
       "fr": "Hachette esthétique",
@@ -19895,7 +20182,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Mallet (patch 5.3)",
+      "cn": "唯美工艺锤",
       "de": "Ästhetischer Fäustel",
       "en": "Aesthete's Mallet",
       "fr": "Massette esthétique",
@@ -19914,7 +20201,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Mortar (patch 5.3)",
+      "cn": "唯美研钵",
       "de": "Ästhetischer Mörser",
       "en": "Aesthete's Mortar",
       "fr": "Mortier esthétique",
@@ -19933,7 +20220,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Pickaxe (patch 5.3)",
+      "cn": "唯美鹤嘴锄",
       "de": "Ästhetische Spitzhacke",
       "en": "Aesthete's Pickaxe",
       "fr": "Pioche esthétique",
@@ -19952,7 +20239,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Pliers (patch 5.3)",
+      "cn": "唯美手钳",
       "de": "Ästhetische Zange",
       "en": "Aesthete's Pliers",
       "fr": "Tenailles esthétiques",
@@ -19971,7 +20258,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Raising Hammer (patch 5.3)",
+      "cn": "唯美圆头锤",
       "de": "Ästhetischer Schlichthammer",
       "en": "Aesthete's Raising Hammer",
       "fr": "Marteau de batteur esthétique",
@@ -19990,7 +20277,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Round Knife (patch 5.3)",
+      "cn": "唯美圆革刀",
       "de": "Ästhetisches Rundmesser",
       "en": "Aesthete's Round Knife",
       "fr": "Couteau arrondi esthétique",
@@ -20009,7 +20296,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Saw (patch 5.3)",
+      "cn": "唯美手锯",
       "de": "Ästhetische Säge",
       "en": "Aesthete's Saw",
       "fr": "Scie esthétique",
@@ -20028,7 +20315,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Scythe (patch 5.3)",
+      "cn": "唯美镰刀",
       "de": "Ästhetische Sense",
       "en": "Aesthete's Scythe",
       "fr": "Faux esthétique",
@@ -20047,7 +20334,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Sledgehammer (patch 5.3)",
+      "cn": "唯美碎石锤",
       "de": "Ästhetischer Vorschlaghammer",
       "en": "Aesthete's Sledgehammer",
       "fr": "Maillet esthétique",
@@ -20288,18 +20575,264 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "5e4bd73a73d",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Iron Ingot (patch 5.35)",
+      "de": "Werkstätten-Eisenbarren",
+      "en": "Oddly Specific Iron Ingot",
+      "fr": "Lingot de fer d'affinage",
+      "ja": "改良用のアイアンインゴット",
+      "ko": "Oddly Specific Iron Ingot"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "9d433def648",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Duraluminum Ingot (patch 5.4)",
+      "de": "Duraluminium-Barren",
+      "en": "Duraluminum Ingot",
+      "fr": "Lingot de duralium",
+      "ja": "ジュラルミンインゴット",
+      "ko": "Duraluminum Ingot"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0147a572231",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Axe (patch 5.4)",
+      "de": "Exarchen-Axt",
+      "en": "Exarchic Axe",
+      "fr": "Hache de l'exarchat",
+      "ja": "エクサークアクス",
+      "ko": "Exarchic Axe"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "972376b74ad",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Baghnakhs (patch 5.4)",
+      "de": "Exarchen-Baghnakhs",
+      "en": "Exarchic Baghnakhs",
+      "fr": "Baghnakhs de l'exarchat",
+      "ja": "エクサークバグナウ",
+      "ko": "Exarchic Baghnakhs"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "1cf9148d308",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Blade (patch 5.4)",
+      "de": "Exarchen-Klinge",
+      "en": "Exarchic Blade",
+      "fr": "Lame de l'exarchat",
+      "ja": "エクサークブレード",
+      "ko": "Exarchic Blade"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "652891db1d1",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Daggers (patch 5.4)",
+      "de": "Exarchen-Dolche",
+      "en": "Exarchic Daggers",
+      "fr": "Dagues de l'exarchat",
+      "ja": "エクサークダガー",
+      "ko": "Exarchic Daggers"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "7785148b6d5",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Glaives (patch 5.4)",
+      "de": "Exarchen-Todesringe",
+      "en": "Exarchic Glaives",
+      "fr": "Gladius de l'exarchat",
+      "ja": "エクサークグレイヴ",
+      "ko": "Exarchic Glaives"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "efc342f44d3",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Guillotine (patch 5.4)",
+      "de": "Exarchen-Guillotine",
+      "en": "Exarchic Guillotine",
+      "fr": "Fendoir de l'exarchat",
+      "ja": "エクサークディバイダー",
+      "ko": "Exarchic Guillotine"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "941488e9255",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gunblade (patch 5.4)",
+      "de": "Exarchen-Revolverklinge",
+      "en": "Exarchic Gunblade",
+      "fr": "Pistolame de l'exarchat",
+      "ja": "エクサークガンブレード",
+      "ko": "Exarchic Gunblade"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "a59da4c268c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Handgonne (patch 5.4)",
+      "de": "Exarchen-Donnerbüchse",
+      "en": "Exarchic Handgonne",
+      "fr": "Haquebute de l'exarchat",
+      "ja": "エクサークハンドゴンネ",
+      "ko": "Exarchic Handgonne"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "f66141b5777",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Longbow (patch 5.4)",
+      "de": "Exarchen-Langbogen",
+      "en": "Exarchic Longbow",
+      "fr": "Arc long de l'exarchat",
+      "ja": "エクサークロングボウ",
+      "ko": "Exarchic Longbow"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ab8da01d03f",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sword (patch 5.4)",
+      "de": "Exarchen-Schwert",
+      "en": "Exarchic Sword",
+      "fr": "Épée de l'exarchat",
+      "ja": "エクサークソード",
+      "ko": "Exarchic Sword"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "72ae3ca15ca",
     "level": 510,
     "maxQuality": 82400,
     "name": {
-      "cn": "Grade 3 Artisanal Skybuilders' Smithing Bench (patch 5.31)",
+      "cn": "第三期重建用的特供铁匠工作台",
       "de": "Sonderbestellte Federfall-Esse",
       "en": "Grade 3 Artisanal Skybuilders' Smithing Bench",
       "fr": "Établi de métallurgie sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注スミシングベンチ",
       "ko": "Grade 3 Artisanal Skybuilders' Smithing Bench"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 12046,
+    "durability": 55,
+    "id": "63b423a555a",
+    "level": 510,
+    "maxQuality": 81447,
+    "name": {
+      "cn": "Grade 4 Artisanal Skybuilders' Chocobo Weathervane (patch 5.41)",
+      "de": "Sonderbestellter Himmelsang-Wetterchocobo",
+      "en": "Grade 4 Artisanal Skybuilders' Chocobo Weathervane",
+      "fr": "Girouette chocobo sur commande de restauration (4e phase)",
+      "ja": "第四次復興用の特注ウェザーチョコボ",
+      "ko": "Grade 4 Artisanal Skybuilders' Chocobo Weathervane"
     },
     "stars": 4,
     "suggestedControl": 2540,

@@ -1384,12 +1384,29 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 3 Skybuilders' Ink (patch 5.31)",
+      "cn": "第三期重建用的墨水",
       "de": "Federfall-Tinte",
       "en": "Grade 3 Skybuilders' Ink",
       "fr": "Encre de restauration (3e phase)",
       "ja": "第三次復興用のインク",
       "ko": "Grade 3 Skybuilders' Ink"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "6ec8aca9655",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Ink (patch 5.41)",
+      "de": "Himmelsang-Tinte",
+      "en": "Grade 4 Skybuilders' Ink",
+      "fr": "Encre de restauration (4e phase)",
+      "ja": "第四次復興用のインク",
+      "ko": "Grade 4 Skybuilders' Ink"
     },
     "suggestedCraftsmanship": 94
   },
@@ -3322,12 +3339,29 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 3 Skybuilders' Plant Oil (patch 5.31)",
+      "cn": "第三期重建用的植物油",
       "de": "Federfall-Pflanzenöl",
       "en": "Grade 3 Skybuilders' Plant Oil",
       "fr": "Huile végétale de restauration (3e phase)",
       "ja": "第三次復興用の植物油",
       "ko": "Grade 3 Skybuilders' Plant Oil"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "cdb40f1ee1e",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Plant Oil (patch 5.41)",
+      "de": "Himmelsang-Pflanzenöl",
+      "en": "Grade 4 Skybuilders' Plant Oil",
+      "fr": "Huile végétale de restauration (4e phase)",
+      "ja": "第四次復興用の植物油",
+      "ko": "Grade 4 Skybuilders' Plant Oil"
     },
     "suggestedCraftsmanship": 136
   },
@@ -4342,7 +4376,7 @@
     "level": 50,
     "maxQuality": 4114,
     "name": {
-      "cn": "Rarefied Archaeoskin Grimoire (patch 5.3)",
+      "cn": "收藏用古鸟革魔导书",
       "de": "Archaeoleder-Grimoire (Sammlerstück)",
       "en": "Rarefied Archaeoskin Grimoire",
       "fr": "Grimoire en cuir d'archéornis collectionnable",
@@ -7371,7 +7405,7 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "cn": "Rarefied Archaeoskin Codex (patch 5.3)",
+      "cn": "收藏用古鸟革魔导典",
       "de": "Archaeoleder-Kodex (Sammlerstück)",
       "en": "Rarefied Archaeoskin Codex",
       "fr": "Codex en cuir d'archéornis collectionnable",
@@ -8289,7 +8323,7 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "cn": "Rarefied Dissolvent (patch 5.3)",
+      "cn": "收藏用炼金溶剂",
       "de": "Lösungsmittel (Sammlerstück)",
       "en": "Rarefied Dissolvent",
       "fr": "Dissolvant collectionnable",
@@ -8493,7 +8527,7 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "cn": "Rarefied Dhalmelskin Codex (patch 5.3)",
+      "cn": "收藏用长颈驼革魔导典",
       "de": "Dhalmelleder-Kodex (Sammlerstück)",
       "en": "Rarefied Dhalmelskin Codex",
       "fr": "Codex en cuir de dhalmel collectionnable",
@@ -8765,7 +8799,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Rarefied Max-Potion (patch 5.3)",
+      "cn": "收藏用顶级恢复药",
       "de": "Maxtrank (Sammlerstück)",
       "en": "Rarefied Max-Potion",
       "fr": "Maxi potion collectionnable",
@@ -9326,12 +9360,29 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 3 Skybuilders' Holy Water (patch 5.31)",
+      "cn": "第三期重建用的圣水",
       "de": "Federfall-Weihwasser",
       "en": "Grade 3 Skybuilders' Holy Water",
       "fr": "Eau sacrée de restauration (3e phase)",
       "ja": "第三次復興用の聖水",
       "ko": "Grade 3 Skybuilders' Holy Water"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "278f49e3076",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Holy Water (patch 5.41)",
+      "de": "Himmelsang-Weihwasser",
+      "en": "Grade 4 Skybuilders' Holy Water",
+      "fr": "Eau sacrée de restauration (4e phase)",
+      "ja": "第四次復興用の聖水",
+      "ko": "Grade 4 Skybuilders' Holy Water"
     },
     "suggestedCraftsmanship": 587
   },
@@ -9666,7 +9717,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Rarefied Book of Aurum Regis (patch 5.3)",
+      "cn": "收藏用皇金之书",
       "de": "Königsgold-Grimoire (Sammlerstück)",
       "en": "Rarefied Book of Aurum Regis",
       "fr": "Livre en aurum regis collectionnable",
@@ -10039,10 +10090,10 @@
     "name": {
       "cn": "管弦乐琴乐谱：武神降临",
       "de": "Notenrolle von „The Hand that Gives the Rose“",
-      "en": "The Hand That Gives the Rose Orchestrion Roll",
+      "en": "The Hand that Gives the Rose Orchestrion Roll",
       "fr": "Rouleau \"The Hand that Gives the Rose\"",
       "ja": "オーケストリオン譜:武神降臨",
-      "ko": "오케스트리온 악보: The Hand That Gives the Rose"
+      "ko": "The Hand that Gives the Rose Orchestrion Roll"
     },
     "stars": 1,
     "suggestedCraftsmanship": 620
@@ -10093,10 +10144,10 @@
     "name": {
       "cn": "管弦乐琴乐谱：灾厄狂起",
       "de": "Notenrolle von „Woe that Is Madness“",
-      "en": "Woe That Is Madness Orchestrion Roll",
+      "en": "Woe that Is Madness Orchestrion Roll",
       "fr": "Rouleau \"Woe that Is Madness\"",
       "ja": "オーケストリオン譜:狂気なる災厄",
-      "ko": "오케스트리온 악보: Woe That Is Madness"
+      "ko": "Woe that Is Madness Orchestrion Roll"
     },
     "stars": 1,
     "suggestedCraftsmanship": 620
@@ -10770,6 +10821,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "882d235b8da",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Song of the Demon (patch 5.4)",
+      "de": "Lied des Dämons",
+      "en": "Song of the Demon",
+      "fr": "Chant du Démon",
+      "ja": "ソング・オブ・デモン",
+      "ko": "Song of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "7155b4315b5",
     "level": 210,
     "maxQuality": 8298,
@@ -10799,6 +10869,25 @@
       "fr": "Chant de la Déesse",
       "ja": "ソング・オブ・ゴッデス",
       "ko": "여신의 노래"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "f7e5ded1987",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Word of the Demon (patch 5.4)",
+      "de": "Wort des Dämons",
+      "en": "Word of the Demon",
+      "fr": "Parole du Démon",
+      "ja": "ワード・オブ・デモン",
+      "ko": "Word of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -11333,7 +11422,7 @@
     "level": 265,
     "maxQuality": 8581,
     "name": {
-      "cn": "Rarefied Koppranickel Index (patch 5.3)",
+      "cn": "收藏用白铜魔导书",
       "de": "Kupfernickel-Index (Sammlerstück)",
       "en": "Rarefied Koppranickel Index",
       "fr": "Index en cupronickel collectionnable",
@@ -11656,7 +11745,7 @@
     "level": 273,
     "maxQuality": 9657,
     "name": {
-      "cn": "Rarefied Reisui (patch 5.3)",
+      "cn": "收藏用灵水",
       "de": "Wunderwasser (Sammlerstück)",
       "en": "Rarefied Reisui",
       "fr": "Émulsion collectionnable",
@@ -12455,7 +12544,7 @@
     "level": 279,
     "maxQuality": 10389,
     "name": {
-      "cn": "Rarefied Tigerskin Grimoire (patch 5.3)",
+      "cn": "收藏用猛虎革魔导书",
       "de": "Tigerleder-Grimoire (Sammlerstück)",
       "en": "Rarefied Tigerskin Grimoire",
       "fr": "Grimoire en cuir de tigre collectionnable",
@@ -12999,7 +13088,7 @@
     "level": 285,
     "maxQuality": 11121,
     "name": {
-      "cn": "Rarefied Growth Formula (patch 5.3)",
+      "cn": "收藏用植物成长剂",
       "de": "Wachstumsformel (Sammlerstück)",
       "en": "Rarefied Growth Formula",
       "fr": "Formule de croissance collectionnable",
@@ -13050,7 +13139,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Armament Repair Kit (patch 5.3)",
+      "cn": "武器修理的部件",
       "de": "Reparaturwerkzeug",
       "en": "Armament Repair Kit",
       "fr": "Composant de réparation",
@@ -13067,7 +13156,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Automaton Repair Component (patch 5.3)",
+      "cn": "修理自走人偶的部件",
       "de": "Reparaturwerkstoff für Eisenbärte",
       "en": "Automaton Repair Component",
       "fr": "Composant de réparation d'automate",
@@ -13084,7 +13173,7 @@
     "level": 290,
     "maxQuality": 17017,
     "name": {
-      "cn": "Automaton Worker Supplies (patch 5.3)",
+      "cn": "自动化需要的部件",
       "de": "Fließbandkomponenten",
       "en": "Automaton Worker Supplies",
       "fr": "Composants de chaîne de montage",
@@ -13101,7 +13190,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Axle Component (patch 5.3)",
+      "cn": "减轻磨损的部件",
       "de": "Experimentelles Achsenzubehörteil",
       "en": "Axle Component",
       "fr": "Composant d'essieu expérimental",
@@ -13118,8 +13207,8 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Bespoke Barter Item (patch 5.3)",
-      "de": "Tauschware",
+      "cn": "充当货款的商品",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -13135,7 +13224,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Blueprint Supplies (patch 5.3)",
+      "cn": "矮人族绘图的工具",
       "de": "Schreibutensil",
       "en": "Blueprint Supplies",
       "fr": "Ustensile de dessin",
@@ -13152,7 +13241,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Brewery Supplies (patch 5.3)",
+      "cn": "酿造设备的必需品",
       "de": "Brauereikomponenten",
       "en": "Brewery Supplies",
       "fr": "Composants de brasserie",
@@ -13169,7 +13258,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cask Component (patch 5.3)",
+      "cn": "酒桶的部件",
       "de": "Fassbestandteil",
       "en": "Cask Component",
       "fr": "Composant de fût",
@@ -13186,7 +13275,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cooling Device Component (patch 5.3)",
+      "cn": "冷却装置的部件",
       "de": "Kühlmittel",
       "en": "Cooling Device Component",
       "fr": "Article refroidissant",
@@ -13203,7 +13292,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Core Tank Component (patch 5.3)",
+      "cn": "车身重要的部件",
       "de": "Zubehörteil des Zwergenpanzers",
       "en": "Core Tank Component",
       "fr": "Pièce complexe d'automatank",
@@ -13220,7 +13309,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Crystal Cannon Supplies (patch 5.3)",
+      "cn": "主炮的重要部件",
       "de": "Geschützkomponenten",
       "en": "Crystal Cannon Supplies",
       "fr": "Composants de canon",
@@ -13254,7 +13343,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Engine Component (patch 5.3)",
+      "cn": "保护引擎的部件",
       "de": "Hilfsmittel für die Motorwartung",
       "en": "Engine Component",
       "fr": "Composant d'amélioration de moteur",
@@ -13271,7 +13360,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Experimental Plating Component (patch 5.3)",
+      "cn": "试做装甲的部件",
       "de": "Bestandteil der Panzerung des Zwergenpanzers",
       "en": "Experimental Plating Component",
       "fr": "Pièce de renforcement",
@@ -13288,7 +13377,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Eye-catching Custom Option (patch 5.3)",
+      "cn": "气派华丽的外装部件",
       "de": "Auffälliges Zubehörteil",
       "en": "Eye-catching Custom Option",
       "fr": "Option de personnalisation criarde",
@@ -13305,7 +13394,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Filtration Supplies (patch 5.3)",
+      "cn": "提炼实验的用品",
       "de": "Utensil zum Experimentieren mit Zwergensprit",
       "en": "Filtration Supplies",
       "fr": "Ustensile d'expérience de raffinage",
@@ -13356,12 +13445,29 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 3 Skybuilders' Soap (patch 5.31)",
+      "cn": "第三期重建用的肥皂",
       "de": "Federfall-Seife",
       "en": "Grade 3 Skybuilders' Soap",
       "fr": "Savon de restauration (3e phase)",
       "ja": "第三次復興用の石鹸",
       "ko": "Grade 3 Skybuilders' Soap"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "15a4cd156bf",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Soap (patch 5.41)",
+      "de": "Himmelsang-Seife",
+      "en": "Grade 4 Skybuilders' Soap",
+      "fr": "Savon de restauration (4e phase)",
+      "ja": "第四次復興用の石鹸",
+      "ko": "Grade 4 Skybuilders' Soap"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -13373,7 +13479,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Grooming Kit (patch 5.3)",
+      "cn": "保养胡子的工具",
       "de": "Pflegeprodukt für den Bart",
       "en": "Grooming Kit",
       "fr": "Ustensile d'entretien de barbe",
@@ -13390,7 +13496,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Heat-resistant Component (patch 5.3)",
+      "cn": "耐热性的部件",
       "de": "Hitzebeständiger Bestandteil",
       "en": "Heat-resistant Component",
       "fr": "Article réfractaire",
@@ -13458,7 +13564,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Low-profile Custom Option (patch 5.3)",
+      "cn": "隐秘型外装的部件",
       "de": "Unauffälliges Zubehörteil",
       "en": "Low-profile Custom Option",
       "fr": "Option de personnalisation discrète",
@@ -13492,7 +13598,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Rarefied Gazelleskin Codex (patch 5.3)",
+      "cn": "收藏用瞪羚革魔导典",
       "de": "Gazellenleder-Kodex (Sammlerstück)",
       "en": "Rarefied Gazelleskin Codex",
       "fr": "Codex en cuir de gazelle collectionnable",
@@ -13526,7 +13632,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Steel Plate Component (patch 5.3)",
+      "cn": "钢板增产的部件",
       "de": "Hilfsmittel für die Stahlplattenproduktion",
       "en": "Steel Plate Component",
       "fr": "Composant de plaque de métal",
@@ -13577,7 +13683,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Tavern Materials (patch 5.3)",
+      "cn": "酒馆的必需品",
       "de": "Barzubehörteil",
       "en": "Tavern Materials",
       "fr": "Article pour la taverne",
@@ -13594,7 +13700,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Test-fire Target Dummy (patch 5.3)",
+      "cn": "试射用的靶子",
       "de": "Zielscheibe",
       "en": "Test-fire Target Dummy",
       "fr": "Cible de test",
@@ -13611,7 +13717,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Unfailing Eye Opener (patch 5.3)",
+      "cn": "驱散睡意的秘密道具",
       "de": "Ronitts Muntermacher",
       "en": "Unfailing Eye Opener",
       "fr": "Objet pour un réveil brutal",
@@ -13628,7 +13734,7 @@
     "level": 290,
     "maxQuality": 16430,
     "name": {
-      "cn": "Workshop Expansion Supplies (patch 5.3)",
+      "cn": "用于扩张据点的部件",
       "de": "Komponenten für eine Werkstattserweiterung",
       "en": "Workshop Expansion Supplies",
       "fr": "Composants d'atelier annexe",
@@ -13645,7 +13751,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Workshop Supplies (patch 5.3)",
+      "cn": "工作区的必需品",
       "de": "Werkstattzubehör",
       "en": "Workshop Supplies",
       "fr": "Composants d'atelier mécanique",
@@ -14003,8 +14109,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Codex (patch 5.3)",
-      "de": "Kodex des Schlangengotts",
+      "cn": "青君文书",
+      "de": "Kodex des Schlangengottes",
       "en": "Seiryu's Sanctified Codex",
       "fr": "Écrit de Seiryû flamboyant",
       "ja": "青龍文書【輝】",
@@ -14021,8 +14127,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Grimoire (patch 5.3)",
-      "de": "Grimoire des Schlangengotts",
+      "cn": "青君经典",
+      "de": "Grimoire des Schlangengottes",
       "en": "Seiryu's Sanctified Grimoire",
       "fr": "Sûtra de Seiryû flamboyant",
       "ja": "青龍経典【輝】",
@@ -14113,7 +14219,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Codex (patch 5.3)",
+      "cn": "朱焰文书",
       "de": "Kodex des Feuervogels",
       "en": "Suzaku's Flame-kissed Codex",
       "fr": "Écrit de Suzaku flamboyant",
@@ -14131,7 +14237,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Grimoire (patch 5.3)",
+      "cn": "朱焰经典",
       "de": "Grimoire des Feuervogels",
       "en": "Suzaku's Flame-kissed Grimoire",
       "fr": "Sûtra de Suzaku flamboyant",
@@ -14149,7 +14255,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Codex (patch 5.3)",
+      "cn": "月读命幽夜文书",
       "de": "Kodex des Mondlichts",
       "en": "Tsukuyomi's Moonlit Codex",
       "fr": "Écrit de Tsukuyomi flamboyant",
@@ -14167,7 +14273,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Grimoire (patch 5.3)",
+      "cn": "月读命幽夜经典",
       "de": "Grimoire des Mondlichts",
       "en": "Tsukuyomi's Moonlit Grimoire",
       "fr": "Sûtra de Tsukuyomi flamboyant",
@@ -14810,7 +14916,7 @@
     "level": 390,
     "maxQuality": 10468,
     "name": {
-      "cn": "Custom Gathering Tool Components (patch 5.3)",
+      "cn": "龙族用采集工具部件",
       "de": "Komponenten für ein spezielles Sammlerwerkzeug",
       "en": "Custom Gathering Tool Components",
       "fr": "Outils de récolte pour dragon",
@@ -14929,7 +15035,7 @@
     "level": 395,
     "maxQuality": 10928,
     "name": {
-      "cn": "Custom Weaving Components (patch 5.3)",
+      "cn": "龙族用缝纫工具",
       "de": "Komponenten für ein spezielles Weberwerkzeug",
       "en": "Custom Weaving Components",
       "fr": "Ustensiles de couture pour dragon",
@@ -14980,7 +15086,7 @@
     "level": 395,
     "maxQuality": 12977,
     "name": {
-      "cn": "Rarefied Alkahest (patch 5.3)",
+      "cn": "收藏用幻水",
       "de": "Visionslösung (Sammlerstück)",
       "en": "Rarefied Alkahest",
       "fr": "Eau chimérique collectionnable",
@@ -15027,11 +15133,28 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "1a3505b6519",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Black Carnation Earring (patch 5.4)",
+      "de": "Schwarzer Nelken-Ohrring",
+      "en": "Black Carnation Earring",
+      "fr": "Boucle d'oreille œillet noir",
+      "ja": "カーネーションイヤリング:ブラック",
+      "ko": "Black Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "51fcb68bef0",
     "level": 400,
     "maxQuality": 14062,
     "name": {
-      "cn": "Black Cosmos Corsage (patch 5.3)",
+      "cn": "黑色秋英头花",
       "de": "Schwarze Cosmeen-Haarspange",
       "en": "Black Cosmos Corsage",
       "fr": "Barrette cosmos noirs",
@@ -15061,11 +15184,28 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "d308d418542",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Blue Carnation Earring (patch 5.4)",
+      "de": "Blauer Nelken-Ohrring",
+      "en": "Blue Carnation Earring",
+      "fr": "Boucle d'oreille œillet bleu",
+      "ja": "カーネーションイヤリング:ブルー",
+      "ko": "Blue Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "2def15d27ba",
     "level": 400,
     "maxQuality": 14062,
     "name": {
-      "cn": "Blue Cosmos Corsage (patch 5.3)",
+      "cn": "蓝色秋英头花",
       "de": "Blaue Cosmeen-Haarspange",
       "en": "Blue Cosmos Corsage",
       "fr": "Barrette cosmos bleus",
@@ -15099,7 +15239,7 @@
     "level": 400,
     "maxQuality": 11249,
     "name": {
-      "cn": "Custom Crafting Tool Components (patch 5.3)",
+      "cn": "龙族用工匠工具部件",
       "de": "Komponenten für ein spezielles Werkzeug",
       "en": "Custom Crafting Tool Components",
       "fr": "Outils d'artisanat pour dragon",
@@ -15197,11 +15337,28 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "4b89222247f",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Green Carnation Earring (patch 5.4)",
+      "de": "Grüner Nelken-Ohrring",
+      "en": "Green Carnation Earring",
+      "fr": "Boucle d'oreille œillet vert",
+      "ja": "カーネーションイヤリング:グリーン",
+      "ko": "Green Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "e172173e734",
     "level": 400,
     "maxQuality": 14062,
     "name": {
-      "cn": "Green Cosmos Corsage (patch 5.3)",
+      "cn": "绿色秋英头花",
       "de": "Grüne Cosmeen-Haarspange",
       "en": "Green Cosmos Corsage",
       "fr": "Barrette cosmos verts",
@@ -15248,11 +15405,28 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "33ebe7190f7",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Orange Carnation Earring (patch 5.4)",
+      "de": "Oranger Nelken-Ohrring",
+      "en": "Orange Carnation Earring",
+      "fr": "Boucle d'oreille œillet orange",
+      "ja": "カーネーションイヤリング:オレンジ",
+      "ko": "Orange Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "da57c9e3be1",
     "level": 400,
     "maxQuality": 14062,
     "name": {
-      "cn": "Orange Cosmos Corsage (patch 5.3)",
+      "cn": "橙色秋英头花",
       "de": "Orange Cosmeen-Haarspange",
       "en": "Orange Cosmos Corsage",
       "fr": "Barrette cosmos orange",
@@ -15282,11 +15456,28 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "b127b292d46",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Purple Carnation Earring (patch 5.4)",
+      "de": "Violetter Nelken-Ohrring",
+      "en": "Purple Carnation Earring",
+      "fr": "Boucle d'oreille œillet violet",
+      "ja": "カーネーションイヤリング:パープル",
+      "ko": "Purple Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "f62429c5a7b",
     "level": 400,
     "maxQuality": 14062,
     "name": {
-      "cn": "Purple Cosmos Corsage (patch 5.3)",
+      "cn": "紫色秋英头花",
       "de": "Violette Cosmeen-Haarspange",
       "en": "Purple Cosmos Corsage",
       "fr": "Barrette cosmos violets",
@@ -15316,11 +15507,28 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "0f1b8d2b163",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Rainbow Carnation Earring (patch 5.4)",
+      "de": "Bunter Nelken-Ohrring",
+      "en": "Rainbow Carnation Earring",
+      "fr": "Boucle d'oreille œillet multicolore",
+      "ja": "カーネーションイヤリング:ブレンド",
+      "ko": "Rainbow Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "b5d129b4c58",
     "level": 400,
     "maxQuality": 14062,
     "name": {
-      "cn": "Rainbow Cosmos Corsage (patch 5.3)",
+      "cn": "混色秋英头花",
       "de": "Bunte Cosmeen-Haarspange",
       "en": "Rainbow Cosmos Corsage",
       "fr": "Barrette cosmos multicolores",
@@ -15350,11 +15558,28 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "23ee0e52d69",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Red Carnation Earring (patch 5.4)",
+      "de": "Roter Nelken-Ohrring",
+      "en": "Red Carnation Earring",
+      "fr": "Boucle d'oreille œillet rouge",
+      "ja": "カーネーションイヤリング:レッド",
+      "ko": "Red Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "0f90ac24c82",
     "level": 400,
     "maxQuality": 14062,
     "name": {
-      "cn": "Red Cosmos Corsage (patch 5.3)",
+      "cn": "红色秋英头花",
       "de": "Rote Cosmeen-Haarspange",
       "en": "Red Cosmos Corsage",
       "fr": "Barrette cosmos rouges",
@@ -15384,11 +15609,28 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "c99c3faee3d",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "White Carnation Earring (patch 5.4)",
+      "de": "Weißer Nelken-Ohrring",
+      "en": "White Carnation Earring",
+      "fr": "Boucle d'oreille œillet blanc",
+      "ja": "カーネーションイヤリング:ホワイト",
+      "ko": "White Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "93fe8e53bcb",
     "level": 400,
     "maxQuality": 14062,
     "name": {
-      "cn": "White Cosmos Corsage (patch 5.3)",
+      "cn": "白色秋英头花",
       "de": "Weiße Cosmeen-Haarspange",
       "en": "White Cosmos Corsage",
       "fr": "Barrette cosmos blancs",
@@ -15418,11 +15660,28 @@
     "baseLevel": 73,
     "difficulty": 3348,
     "durability": 80,
+    "id": "39f347b3f4a",
+    "level": 400,
+    "maxQuality": 14062,
+    "name": {
+      "cn": "Yellow Carnation Earring (patch 5.4)",
+      "de": "Gelber Nelken-Ohrring",
+      "en": "Yellow Carnation Earring",
+      "fr": "Boucle d'oreille œillet jaune",
+      "ja": "カーネーションイヤリング:イエロー",
+      "ko": "Yellow Carnation Earring"
+    },
+    "suggestedCraftsmanship": 1457
+  },
+  {
+    "baseLevel": 73,
+    "difficulty": 3348,
+    "durability": 80,
     "id": "ceae2edcfe4",
     "level": 400,
     "maxQuality": 14062,
     "name": {
-      "cn": "Yellow Cosmos Corsage (patch 5.3)",
+      "cn": "黄色秋英头花",
       "de": "Gelbe Cosmeen-Haarspange",
       "en": "Yellow Cosmos Corsage",
       "fr": "Barrette cosmos jaunes",
@@ -15507,7 +15766,7 @@
     "level": 403,
     "maxQuality": 11585,
     "name": {
-      "cn": "Handpicked Culinary Essentials (patch 5.3)",
+      "cn": "龙族用招待菜肴必需品",
       "de": "Handverlesene kulinarische Köstlichkeiten",
       "en": "Handpicked Culinary Essentials",
       "fr": "Sandwichs pour dragon",
@@ -15524,7 +15783,7 @@
     "level": 403,
     "maxQuality": 14482,
     "name": {
-      "cn": "Rarefied Gliderskin Grimoire (patch 5.3)",
+      "cn": "收藏用绿飘龙革魔导书",
       "de": "Gleiterleder-Grimoire (Sammlerstück)",
       "en": "Rarefied Gliderskin Grimoire",
       "fr": "Grimoire en cuir de planeur vert collectionnable",
@@ -15592,7 +15851,7 @@
     "level": 406,
     "maxQuality": 11921,
     "name": {
-      "cn": "Printing Essentials (patch 5.3)",
+      "cn": "印刷必需品",
       "de": "Druckutensilien",
       "en": "Printing Essentials",
       "fr": "Lot d'imprimerie",
@@ -15643,7 +15902,7 @@
     "level": 409,
     "maxQuality": 15322,
     "name": {
-      "cn": "Rarefied Bluespirit Codex (patch 5.3)",
+      "cn": "收藏用灵青魔导典",
       "de": "Seelenazurit-Kodex (Sammlerstück)",
       "en": "Rarefied Bluespirit Codex",
       "fr": "Codex en azuresprit collectionnable",
@@ -15864,7 +16123,7 @@
     "level": 415,
     "maxQuality": 16162,
     "name": {
-      "cn": "Rarefied Syrup (patch 5.3)",
+      "cn": "收藏用药水",
       "de": "Artisanentrank (Sammlerstück)",
       "en": "Rarefied Syrup",
       "fr": "Potion collectionnable",
@@ -15928,6 +16187,40 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "a1cfa71a361",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Art Showcase (patch 5.4)",
+      "de": "Gemälde-Schaukasten",
+      "en": "Art Showcase",
+      "fr": "Vitrine de tableaux",
+      "ja": "ペインティングショーケース",
+      "ko": "Art Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "ba8ef0bf08e",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Artist's Show Window (patch 5.4)",
+      "de": "Gemälde-Schaufenster",
+      "en": "Artist's Show Window",
+      "fr": "Vitrine extérieure de tableaux",
+      "ja": "ペインティングショーウィンドウ",
+      "ko": "Artist's Show Window"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "a5ea6077a20",
     "level": 430,
     "maxQuality": 9131,
@@ -15938,6 +16231,23 @@
       "fr": "Pan de mur en briques",
       "ja": "ガーデン・ブリックパーティション",
       "ko": "Brick Garden Wall"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0e04e731250",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Brick Paving (patch 5.4)",
+      "de": "Viereckiger Ziegelboden",
+      "en": "Brick Paving",
+      "fr": "Terrasse en briques",
+      "ja": "スクウェアペイヴド・ブリック",
+      "ko": "Brick Paving"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -15995,6 +16305,23 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 80,
+    "id": "69116107a79",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Florist's Counter (patch 5.4)",
+      "de": "Floristentheke",
+      "en": "Florist's Counter",
+      "fr": "Présentoir de fleuriste",
+      "ja": "フローリストカウンター",
+      "ko": "Florist's Counter"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 60,
     "id": "786852285d3",
     "level": 430,
@@ -16017,12 +16344,29 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 3 Skybuilders' Growth Formula (patch 5.31)",
+      "cn": "第三期重建用的植物成长剂",
       "de": "Federfall-Wachstumsformel",
       "en": "Grade 3 Skybuilders' Growth Formula",
       "fr": "Formule de croissance de restauration (3e phase)",
       "ja": "第三次復興用のグロースフォーミュラ",
       "ko": "Grade 3 Skybuilders' Growth Formula"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "c1e2d6771a8",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Growth Formula (patch 5.41)",
+      "de": "Himmelsang-Wachstumsformel",
+      "en": "Grade 4 Skybuilders' Growth Formula",
+      "fr": "Formule de croissance de restauration (4e phase)",
+      "ja": "第四次復興用のグロースフォーミュラ",
+      "ko": "Grade 4 Skybuilders' Growth Formula"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -16051,7 +16395,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Indoor Pond (patch 5.3)",
+      "cn": "室内水塘",
       "de": "Innenteich",
       "en": "Indoor Pond",
       "fr": "Bassin d'intérieur",
@@ -16102,7 +16446,7 @@
     "level": 430,
     "maxQuality": 18262,
     "name": {
-      "cn": "Rarefied Dwarven Mythril Grimoire (patch 5.3)",
+      "cn": "收藏用矮人银魔导书",
       "de": "Zwergisches Edelmithril-Grimoire (Sammlerstück)",
       "en": "Rarefied Dwarven Mythril Grimoire",
       "fr": "Grimoire nain en mithril noble collectionnable",
@@ -16119,12 +16463,29 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Red Brick Kitchen (patch 5.3)",
+      "cn": "户外红砖厨房",
       "de": "Backstein-Küche",
       "en": "Red Brick Kitchen",
       "fr": "Cuisine de briques rouges",
       "ja": "レッドブリックキッチン",
       "ko": "Red Brick Kitchen"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "ea35a404d08",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Rose Trellis (patch 5.4)",
+      "de": "Rosenspalier",
+      "en": "Rose Trellis",
+      "fr": "Treillis à roses",
+      "ja": "ローズトレリス",
+      "ko": "Rose Trellis"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -16518,6 +16879,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "cccb30edae4",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Glue (patch 5.35)",
+      "de": "Werkstätten-Tierleim",
+      "en": "Oddly Specific Glue",
+      "fr": "Glu d'affinage",
+      "ja": "改良用のにかわ",
+      "ko": "Oddly Specific Glue"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 3691,
     "durability": 35,
     "id": "d8cd9a87458",
@@ -16581,7 +16960,7 @@
     "level": 480,
     "maxQuality": 37501,
     "name": {
-      "cn": "Defthand's Dissolvent (patch 5.3)",
+      "cn": "工匠的炼金溶剂",
       "de": "Lösungsmittel des Meisters",
       "en": "Defthand's Dissolvent",
       "fr": "Dissolvant de savoir-faire",
@@ -16600,7 +16979,7 @@
     "level": 480,
     "maxQuality": 12931,
     "name": {
-      "cn": "Eternal Wind - Shadowbringers Orchestrion Roll (patch 5.3)",
+      "cn": "管弦乐琴乐谱：悠久之风　～暗影～",
       "de": "Notenrolle von „Eternal Wind - Shadowbringers“",
       "en": "Eternal Wind - Shadowbringers Orchestrion Roll",
       "fr": "Rouleau \"Eternal Wind - Shadowbringers\"",
@@ -16859,18 +17238,319 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "48b151c003f",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Rubber (patch 5.35)",
+      "de": "Werkstätten-Gummi",
+      "en": "Oddly Specific Rubber",
+      "fr": "Caoutchouc d'affinage",
+      "ja": "改良用のラバー",
+      "ko": "Oddly Specific Rubber"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "e402c4889ab",
+    "level": 480,
+    "maxQuality": 12931,
+    "name": {
+      "cn": "The Black Wolf Stalks Again Orchestrion Roll (patch 5.4)",
+      "de": "Notenrolle von „The Black Wolf Stalks Again“",
+      "en": "The Black Wolf Stalks Again Orchestrion Roll",
+      "fr": "Rouleau \"The Black Wolf Stalks Again\"",
+      "ja": "オーケストリオン譜:漆黒の王狼、再び",
+      "ko": "The Black Wolf Stalks Again Orchestrion Roll"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "739f95684a0",
+    "level": 480,
+    "maxQuality": 12931,
+    "name": {
+      "cn": "管弦乐琴乐谱：末路尽头",
+      "de": "Notenrolle von „To the Edge“",
+      "en": "To the Edge Orchestrion Roll",
+      "fr": "Rouleau \"To the Edge\"",
+      "ja": "オーケストリオン譜:To the Edge",
+      "ko": "To the Edge Orchestrion Roll"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "1b42706a959",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Codex (patch 5.4)",
+      "de": "Exarchen-Kodex",
+      "en": "Exarchic Codex",
+      "fr": "Codex de l'exarchat",
+      "ja": "エクサークコーデックス",
+      "ko": "Exarchic Codex"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0d031a593b9",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Grimoire (patch 5.4)",
+      "de": "Exarchen-Grimoire",
+      "en": "Exarchic Grimoire",
+      "fr": "Grimoire de l'exarchat",
+      "ja": "エクサークグリモア",
+      "ko": "Exarchic Grimoire"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "323be32daf0",
     "level": 510,
     "maxQuality": 82400,
     "name": {
-      "cn": "Grade 3 Artisanal Skybuilders' Tiled Flooring (patch 5.31)",
+      "cn": "第三期重建用的特供铺瓦地板",
       "de": "Sonderbestellter Federfall-Fliesenboden",
       "en": "Grade 3 Artisanal Skybuilders' Tiled Flooring",
       "fr": "Parquet teinté sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注タイルフローリング",
       "ko": "Grade 3 Artisanal Skybuilders' Tiled Flooring"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 12046,
+    "durability": 55,
+    "id": "fc0b4cc6d5e",
+    "level": 510,
+    "maxQuality": 81447,
+    "name": {
+      "cn": "Grade 4 Artisanal Skybuilders' Tincture (patch 5.41)",
+      "de": "Sonderbestelltes Himmelsang-Visionsremedium",
+      "en": "Grade 4 Artisanal Skybuilders' Tincture",
+      "fr": "Philtre chimérique sur commande de restauration (4e phase)",
+      "ja": "第四次復興用の特注幻薬",
+      "ko": "Grade 4 Artisanal Skybuilders' Tincture"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "f3c2e58e0bc",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Dexterity Alkahest (patch 5.4)",
+      "de": "Visionslösung der Geschicklichkeit IV",
+      "en": "Grade 4 Dexterity Alkahest",
+      "fr": "Eau chimérique de dextérité IV",
+      "ja": "眼力の幻水G4",
+      "ko": "Grade 4 Dexterity Alkahest"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "c619f7f5ff8",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Intelligence Alkahest (patch 5.4)",
+      "de": "Visionslösung der Intelligenz IV",
+      "en": "Grade 4 Intelligence Alkahest",
+      "fr": "Eau chimérique d'intelligence IV",
+      "ja": "知力の幻水G4",
+      "ko": "Grade 4 Intelligence Alkahest"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "aff779d7492",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Mind Alkahest (patch 5.4)",
+      "de": "Visionslösung der Willenskraft IV",
+      "en": "Grade 4 Mind Alkahest",
+      "fr": "Eau chimérique d'esprit IV",
+      "ja": "心力の幻水G4",
+      "ko": "Grade 4 Mind Alkahest"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "d481dcd8098",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Strength Alkahest (patch 5.4)",
+      "de": "Visionslösung der Stärke IV",
+      "en": "Grade 4 Strength Alkahest",
+      "fr": "Eau chimérique de force IV",
+      "ja": "剛力の幻水G4",
+      "ko": "Grade 4 Strength Alkahest"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "aa50f83d1ad",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Dexterity (patch 5.4)",
+      "de": "Visionsremedium der Geschicklichkeit IV",
+      "en": "Grade 4 Tincture of Dexterity",
+      "fr": "Philtre chimérique de dextérité IV",
+      "ja": "眼力の幻薬G4",
+      "ko": "Grade 4 Tincture of Dexterity"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "4a4aab1031b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Intelligence (patch 5.4)",
+      "de": "Visionsremedium der Intelligenz IV",
+      "en": "Grade 4 Tincture of Intelligence",
+      "fr": "Philtre chimérique d'intelligence IV",
+      "ja": "知力の幻薬G4",
+      "ko": "Grade 4 Tincture of Intelligence"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "633e024627e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Mind (patch 5.4)",
+      "de": "Visionsremedium der Willenskraft IV",
+      "en": "Grade 4 Tincture of Mind",
+      "fr": "Philtre chimérique d'esprit IV",
+      "ja": "心力の幻薬G4",
+      "ko": "Grade 4 Tincture of Mind"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "3db2f14f881",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Strength (patch 5.4)",
+      "de": "Visionsremedium der Stärke IV",
+      "en": "Grade 4 Tincture of Strength",
+      "fr": "Philtre chimérique de force IV",
+      "ja": "剛力の幻薬G4",
+      "ko": "Grade 4 Tincture of Strength"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9dd710b7e55",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Grade 4 Tincture of Vitality (patch 5.4)",
+      "de": "Visionsremedium der Konstitution IV",
+      "en": "Grade 4 Tincture of Vitality",
+      "fr": "Philtre chimérique de vitalité IV",
+      "ja": "活力の幻薬G4",
+      "ko": "Grade 4 Tincture of Vitality"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "0a49132c59e",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Grade 4 Vitality Alkahest (patch 5.4)",
+      "de": "Visionslösung der Konstitution IV",
+      "en": "Grade 4 Vitality Alkahest",
+      "fr": "Eau chimérique de vitalité IV",
+      "ja": "活力の幻水G4",
+      "ko": "Grade 4 Vitality Alkahest"
     },
     "stars": 4,
     "suggestedControl": 2540,

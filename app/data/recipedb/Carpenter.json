@@ -1673,12 +1673,29 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 3 Skybuilders' Plywood (patch 5.31)",
+      "cn": "第三期重建用的合板",
       "de": "Federfall-Sperrholzplatte",
       "en": "Grade 3 Skybuilders' Plywood",
       "fr": "Bois contreplaqué de restauration (3e phase)",
       "ja": "第三次復興用の合板",
       "ko": "Grade 3 Skybuilders' Plywood"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "8ac91e22360",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Plywood (patch 5.41)",
+      "de": "Himmelsang-Sperrholzplatte",
+      "en": "Grade 4 Skybuilders' Plywood",
+      "fr": "Bois contreplaqué de restauration (4e phase)",
+      "ja": "第四次復興用の合板",
+      "ko": "Grade 4 Skybuilders' Plywood"
     },
     "suggestedCraftsmanship": 94
   },
@@ -2815,7 +2832,7 @@
       "cn": "庄园乐谱架",
       "de": "Notenständer",
       "en": "Manor Music Stand",
-      "fr": "Pupitre du manoir",
+      "fr": "Pupitre du Manoir",
       "ja": "御用邸の譜面台",
       "ko": "별궁의 악보대"
     },
@@ -2832,7 +2849,7 @@
       "cn": "庄园演奏椅",
       "de": "Klavierhocker",
       "en": "Manor Music Stool",
-      "fr": "Banc musical du manoir",
+      "fr": "Banc musical du Manoir",
       "ja": "御用邸の演奏椅子",
       "ko": "별궁의 연주용 의자"
     },
@@ -4104,12 +4121,29 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 3 Skybuilders' Crate (patch 5.31)",
+      "cn": "第三期重建用的木箱",
       "de": "Federfall-Holzkiste",
       "en": "Grade 3 Skybuilders' Crate",
       "fr": "Caisse en bois de restauration (3e phase)",
       "ja": "第三次復興用の木箱",
       "ko": "Grade 3 Skybuilders' Crate"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "526bada3a01",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Crate (patch 5.41)",
+      "de": "Himmelsang-Holzkiste",
+      "en": "Grade 4 Skybuilders' Crate",
+      "fr": "Caisse en bois de restauration (4e phase)",
+      "ja": "第四次復興用の木箱",
+      "ko": "Grade 4 Skybuilders' Crate"
     },
     "suggestedCraftsmanship": 136
   },
@@ -5328,7 +5362,7 @@
     "level": 50,
     "maxQuality": 4114,
     "name": {
-      "cn": "Rarefied Cedar Longbow (patch 5.3)",
+      "cn": "收藏用雪松长弓",
       "de": "Zedern-Langbogen (Sammlerstück)",
       "en": "Rarefied Cedar Longbow",
       "fr": "Arc long en cèdre collectionnable",
@@ -6021,7 +6055,7 @@
       "cn": "庄园案板",
       "de": "Herrenhaus-Tresen",
       "en": "Manor Counter",
-      "fr": "Plan de travail du manoir",
+      "fr": "Plan de travail du Manoir",
       "ja": "御用邸の調理台",
       "ko": "별궁의 조리대"
     },
@@ -6039,7 +6073,7 @@
       "cn": "庄园地板",
       "de": "Herrenhaus-Fußboden",
       "en": "Manor Flooring",
-      "fr": "Parquet du manoir",
+      "fr": "Parquet du Manoir",
       "ja": "御用邸のフローリング",
       "ko": "별궁의 바닥"
     },
@@ -6711,7 +6745,7 @@
       "cn": "庄园大提琴",
       "de": "Cello",
       "en": "Manor Cello",
-      "fr": "Violoncelle du manoir",
+      "fr": "Violoncelle du Manoir",
       "ja": "御用邸のチェロ",
       "ko": "별궁의 첼로"
     },
@@ -6730,7 +6764,7 @@
       "cn": "庄园竖琴",
       "de": "Harfe",
       "en": "Manor Harp",
-      "fr": "Harpe du manoir",
+      "fr": "Harpe du Manoir",
       "ja": "御用邸のハープ",
       "ko": "별궁의 하프"
     },
@@ -6749,7 +6783,7 @@
       "cn": "庄园大键琴",
       "de": "Cembalo",
       "en": "Manor Harpsichord",
-      "fr": "Clavecin du manoir",
+      "fr": "Clavecin du Manoir",
       "ja": "御用邸のハープシコード",
       "ko": "별궁의 하프시코드"
     },
@@ -6768,7 +6802,7 @@
       "cn": "庄园定音鼓",
       "de": "Kesselpauke",
       "en": "Manor Timpani",
-      "fr": "Timbales du manoir",
+      "fr": "Timbales du Manoir",
       "ja": "御用邸のティンパニー",
       "ko": "별궁의 팀파니"
     },
@@ -7541,7 +7575,7 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "cn": "Rarefied Cedar Fishing Rod (patch 5.3)",
+      "cn": "收藏用雪松钓竿",
       "de": "Zedernangelrute (Sammlerstück)",
       "en": "Rarefied Cedar Fishing Rod",
       "fr": "Canne à pêche en cèdre collectionnable",
@@ -7694,7 +7728,7 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "cn": "Rarefied Holy Cedar Spinning Wheel (patch 5.3)",
+      "cn": "收藏用圣雪松纺车",
       "de": "Heiliges Zedern-Spinnrad (Sammlerstück)",
       "en": "Rarefied Holy Cedar Spinning Wheel",
       "fr": "Rouet en cèdre sacré collectionnable",
@@ -8000,7 +8034,7 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "cn": "Rarefied Dark Chestnut Rod (patch 5.3)",
+      "cn": "收藏用暗栗木法杖",
       "de": "Kastanienrute (Sammlerstück)",
       "en": "Rarefied Dark Chestnut Rod",
       "fr": "Sceptre en châtaignier sombre collectionnable",
@@ -8289,7 +8323,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Rarefied Hallowed Chestnut Ring (patch 5.3)",
+      "cn": "收藏用祝圣栗木指环",
       "de": "Geheiligter Kastanien-Ring (Sammlerstück)",
       "en": "Rarefied Hallowed Chestnut Ring",
       "fr": "Bague en châtaignier sanctifié collectionnable",
@@ -8850,12 +8884,29 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 3 Skybuilders' Grinding Wheel (patch 5.31)",
+      "cn": "第三期重建用的泥岩砂轮机",
       "de": "Federfall-Schleifrad",
       "en": "Grade 3 Skybuilders' Grinding Wheel",
       "fr": "Meule de restauration (3e phase)",
       "ja": "第三次復興用のグラインディングホイール",
       "ko": "Grade 3 Skybuilders' Grinding Wheel"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "35ba38f7752",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Spinning Wheel (patch 5.41)",
+      "de": "Himmelsang-Spinnrad",
+      "en": "Grade 4 Skybuilders' Spinning Wheel",
+      "fr": "Rouet de restauration (4e phase)",
+      "ja": "第四次復興用のスピニングホイール",
+      "ko": "Grade 4 Skybuilders' Spinning Wheel"
     },
     "suggestedCraftsmanship": 587
   },
@@ -9020,7 +9071,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Rarefied Birch Signum (patch 5.3)",
+      "cn": "收藏用桦木符杖",
       "de": "Birken-Signum (Sammlerstück)",
       "en": "Rarefied Birch Signum",
       "fr": "Signum en bouleau collectionnable",
@@ -9867,6 +9918,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "77a02e3bef5",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Bow of the Demon (patch 5.4)",
+      "de": "Bogen des Dämons",
+      "en": "Bow of the Demon",
+      "fr": "Arc du Démon",
+      "ja": "ボウ・オブ・デモン",
+      "ko": "Bow of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "44984dc90e9",
     "level": 210,
     "maxQuality": 8298,
@@ -10371,6 +10441,25 @@
       "fr": "Pont de bois oriental",
       "ja": "オリエンタルウッドブリッジ",
       "ko": "동방의 나무 다리"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "0d02e8930b0",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Pike of the Demon (patch 5.4)",
+      "de": "Speer des Dämons",
+      "en": "Pike of the Demon",
+      "fr": "Pique du Démon",
+      "ja": "パイク・オブ・デモン",
+      "ko": "Pike of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -11276,7 +11365,7 @@
     "level": 265,
     "maxQuality": 8581,
     "name": {
-      "cn": "Rarefied Beech Composite Bow (patch 5.3)",
+      "cn": "收藏用山毛榉复合弓",
       "de": "Buchen-Kompositbogen (Sammlerstück)",
       "en": "Rarefied Beech Composite Bow",
       "fr": "Arc composite en hêtre collectionnable",
@@ -11684,7 +11773,7 @@
     "level": 273,
     "maxQuality": 9657,
     "name": {
-      "cn": "Rarefied Larch Necklace (patch 5.3)",
+      "cn": "收藏用落叶松项链",
       "de": "Lärchen-Halsband (Sammlerstück)",
       "en": "Rarefied Larch Necklace",
       "fr": "Collier en mélèze collectionnable",
@@ -12058,7 +12147,7 @@
     "level": 279,
     "maxQuality": 10389,
     "name": {
-      "cn": "Rarefied Pine Cane (patch 5.3)",
+      "cn": "收藏用松木牧杖",
       "de": "Kiefernstock (Sammlerstück)",
       "en": "Rarefied Pine Cane",
       "fr": "Canne en pin collectionnable",
@@ -12432,7 +12521,7 @@
     "level": 285,
     "maxQuality": 11121,
     "name": {
-      "cn": "Rarefied Persimmon Bracelets (patch 5.3)",
+      "cn": "收藏用柿木手链",
       "de": "Kaki-Armreife (Sammlerstück)",
       "en": "Rarefied Persimmon Bracelets",
       "fr": "Bracelets en plaqueminier collectionnables",
@@ -12619,7 +12708,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Armament Repair Kit (patch 5.3)",
+      "cn": "武器修理的部件",
       "de": "Reparaturwerkzeug",
       "en": "Armament Repair Kit",
       "fr": "Composant de réparation",
@@ -12636,7 +12725,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Automaton Repair Component (patch 5.3)",
+      "cn": "修理自走人偶的部件",
       "de": "Reparaturwerkstoff für Eisenbärte",
       "en": "Automaton Repair Component",
       "fr": "Composant de réparation d'automate",
@@ -12653,7 +12742,7 @@
     "level": 290,
     "maxQuality": 17017,
     "name": {
-      "cn": "Automaton Worker Supplies (patch 5.3)",
+      "cn": "自动化需要的部件",
       "de": "Fließbandkomponenten",
       "en": "Automaton Worker Supplies",
       "fr": "Composants de chaîne de montage",
@@ -12670,7 +12759,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Axle Component (patch 5.3)",
+      "cn": "减轻磨损的部件",
       "de": "Experimentelles Achsenzubehörteil",
       "en": "Axle Component",
       "fr": "Composant d'essieu expérimental",
@@ -12687,8 +12776,8 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Bespoke Barter Item (patch 5.3)",
-      "de": "Tauschware",
+      "cn": "充当货款的商品",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -12704,7 +12793,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Blueprint Supplies (patch 5.3)",
+      "cn": "矮人族绘图的工具",
       "de": "Schreibutensil",
       "en": "Blueprint Supplies",
       "fr": "Ustensile de dessin",
@@ -12721,7 +12810,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Brewery Supplies (patch 5.3)",
+      "cn": "酿造设备的必需品",
       "de": "Brauereikomponenten",
       "en": "Brewery Supplies",
       "fr": "Composants de brasserie",
@@ -12755,7 +12844,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cask Component (patch 5.3)",
+      "cn": "酒桶的部件",
       "de": "Fassbestandteil",
       "en": "Cask Component",
       "fr": "Composant de fût",
@@ -12772,7 +12861,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cooling Device Component (patch 5.3)",
+      "cn": "冷却装置的部件",
       "de": "Kühlmittel",
       "en": "Cooling Device Component",
       "fr": "Article refroidissant",
@@ -12789,7 +12878,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Core Tank Component (patch 5.3)",
+      "cn": "车身重要的部件",
       "de": "Zubehörteil des Zwergenpanzers",
       "en": "Core Tank Component",
       "fr": "Pièce complexe d'automatank",
@@ -12806,7 +12895,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Crystal Cannon Supplies (patch 5.3)",
+      "cn": "主炮的重要部件",
       "de": "Geschützkomponenten",
       "en": "Crystal Cannon Supplies",
       "fr": "Composants de canon",
@@ -12840,7 +12929,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Engine Component (patch 5.3)",
+      "cn": "保护引擎的部件",
       "de": "Hilfsmittel für die Motorwartung",
       "en": "Engine Component",
       "fr": "Composant d'amélioration de moteur",
@@ -12857,7 +12946,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Experimental Plating Component (patch 5.3)",
+      "cn": "试做装甲的部件",
       "de": "Bestandteil der Panzerung des Zwergenpanzers",
       "en": "Experimental Plating Component",
       "fr": "Pièce de renforcement",
@@ -12874,7 +12963,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Eye-catching Custom Option (patch 5.3)",
+      "cn": "气派华丽的外装部件",
       "de": "Auffälliges Zubehörteil",
       "en": "Eye-catching Custom Option",
       "fr": "Option de personnalisation criarde",
@@ -12891,7 +12980,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Filtration Supplies (patch 5.3)",
+      "cn": "提炼实验的用品",
       "de": "Utensil zum Experimentieren mit Zwergensprit",
       "en": "Filtration Supplies",
       "fr": "Ustensile d'expérience de raffinage",
@@ -12942,12 +13031,29 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 3 Skybuilders' Stepladder (patch 5.31)",
+      "cn": "第三期重建用的梯子",
       "de": "Federfall-Trittleiter",
       "en": "Grade 3 Skybuilders' Stepladder",
       "fr": "Escabeau de restauration (3e phase)",
       "ja": "第三次復興用の脚立",
       "ko": "Grade 3 Skybuilders' Stepladder"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "dae42ab0e4d",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Stepladder (patch 5.41)",
+      "de": "Himmelsang-Trittleiter",
+      "en": "Grade 4 Skybuilders' Stepladder",
+      "fr": "Escabeau de restauration (4e phase)",
+      "ja": "第四次復興用の脚立",
+      "ko": "Grade 4 Skybuilders' Stepladder"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -12959,7 +13065,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Grooming Kit (patch 5.3)",
+      "cn": "保养胡子的工具",
       "de": "Pflegeprodukt für den Bart",
       "en": "Grooming Kit",
       "fr": "Ustensile d'entretien de barbe",
@@ -12976,7 +13082,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Heat-resistant Component (patch 5.3)",
+      "cn": "耐热性的部件",
       "de": "Hitzebeständiger Bestandteil",
       "en": "Heat-resistant Component",
       "fr": "Article réfractaire",
@@ -12993,7 +13099,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Low-profile Custom Option (patch 5.3)",
+      "cn": "隐秘型外装的部件",
       "de": "Unauffälliges Zubehörteil",
       "en": "Low-profile Custom Option",
       "fr": "Option de personnalisation discrète",
@@ -13010,7 +13116,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Rarefied Zelkova Spinning Wheel (patch 5.3)",
+      "cn": "收藏用榉木纺车",
       "de": "Zelkoven-Spinnrad (Sammlerstück)",
       "en": "Rarefied Zelkova Spinning Wheel",
       "fr": "Rouet en zelkova collectionnable",
@@ -13044,7 +13150,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Steel Plate Component (patch 5.3)",
+      "cn": "钢板增产的部件",
       "de": "Hilfsmittel für die Stahlplattenproduktion",
       "en": "Steel Plate Component",
       "fr": "Composant de plaque de métal",
@@ -13061,7 +13167,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Tavern Materials (patch 5.3)",
+      "cn": "酒馆的必需品",
       "de": "Barzubehörteil",
       "en": "Tavern Materials",
       "fr": "Article pour la taverne",
@@ -13095,7 +13201,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Test-fire Target Dummy (patch 5.3)",
+      "cn": "试射用的靶子",
       "de": "Zielscheibe",
       "en": "Test-fire Target Dummy",
       "fr": "Cible de test",
@@ -13112,7 +13218,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Unfailing Eye Opener (patch 5.3)",
+      "cn": "驱散睡意的秘密道具",
       "de": "Ronitts Muntermacher",
       "en": "Unfailing Eye Opener",
       "fr": "Objet pour un réveil brutal",
@@ -13129,7 +13235,7 @@
     "level": 290,
     "maxQuality": 16430,
     "name": {
-      "cn": "Workshop Expansion Supplies (patch 5.3)",
+      "cn": "用于扩张据点的部件",
       "de": "Komponenten für eine Werkstattserweiterung",
       "en": "Workshop Expansion Supplies",
       "fr": "Composants d'atelier annexe",
@@ -13146,7 +13252,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Workshop Supplies (patch 5.3)",
+      "cn": "工作区的必需品",
       "de": "Werkstattzubehör",
       "en": "Workshop Supplies",
       "fr": "Composants d'atelier mécanique",
@@ -13499,8 +13605,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Greatbow (patch 5.3)",
-      "de": "Langbogen des Schlangengotts",
+      "cn": "青君大弓",
+      "de": "Langbogen des Schlangengottes",
       "en": "Seiryu's Sanctified Greatbow",
       "fr": "Grand arc de Seiryû flamboyant",
       "ja": "青龍大弓【輝】",
@@ -13572,7 +13678,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Cane (patch 5.3)",
+      "cn": "朱焰锡杖",
       "de": "Stock des Feuervogels",
       "en": "Suzaku's Flame-kissed Cane",
       "fr": "Khakkhara de Suzaku flamboyant",
@@ -13837,7 +13943,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Cane (patch 5.3)",
+      "cn": "月读命幽夜锡杖",
       "de": "Stock des Mondlichts",
       "en": "Tsukuyomi's Moonlit Cane",
       "fr": "Khakkhara de Tsukuyomi flamboyant",
@@ -13855,7 +13961,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Greatbow (patch 5.3)",
+      "cn": "月读命幽夜大弓",
       "de": "Langbogen des Mondlichts",
       "en": "Tsukuyomi's Moonlit Greatbow",
       "fr": "Grand arc de Tsukuyomi flamboyant",
@@ -13873,7 +13979,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Rod (patch 5.3)",
+      "cn": "月读命幽夜咒杖",
       "de": "Stab des Mondlichts",
       "en": "Tsukuyomi's Moonlit Rod",
       "fr": "Bâton de Tsukuyomi flamboyant",
@@ -14575,7 +14681,7 @@
     "level": 390,
     "maxQuality": 10468,
     "name": {
-      "cn": "Custom Gathering Tool Components (patch 5.3)",
+      "cn": "龙族用采集工具部件",
       "de": "Komponenten für ein spezielles Sammlerwerkzeug",
       "en": "Custom Gathering Tool Components",
       "fr": "Outils de récolte pour dragon",
@@ -14864,7 +14970,7 @@
     "level": 395,
     "maxQuality": 10928,
     "name": {
-      "cn": "Custom Weaving Components (patch 5.3)",
+      "cn": "龙族用缝纫工具",
       "de": "Komponenten für ein spezielles Weberwerkzeug",
       "en": "Custom Weaving Components",
       "fr": "Ustensiles de couture pour dragon",
@@ -14898,7 +15004,7 @@
     "level": 395,
     "maxQuality": 12977,
     "name": {
-      "cn": "Rarefied White Oak Partisan (patch 5.3)",
+      "cn": "收藏用白橡木游击枪",
       "de": "Weißeichen-Partisane (Sammlerstück)",
       "en": "Rarefied White Oak Partisan",
       "fr": "Pertuisane en chêne blanc collectionnable",
@@ -14966,7 +15072,7 @@
     "level": 400,
     "maxQuality": 11249,
     "name": {
-      "cn": "Custom Crafting Tool Components (patch 5.3)",
+      "cn": "龙族用工匠工具部件",
       "de": "Komponenten für ein spezielles Werkzeug",
       "en": "Custom Crafting Tool Components",
       "fr": "Outils d'artisanat pour dragon",
@@ -15034,7 +15140,7 @@
     "level": 403,
     "maxQuality": 11585,
     "name": {
-      "cn": "Handpicked Culinary Essentials (patch 5.3)",
+      "cn": "龙族用招待菜肴必需品",
       "de": "Handverlesene kulinarische Köstlichkeiten",
       "en": "Handpicked Culinary Essentials",
       "fr": "Sandwichs pour dragon",
@@ -15068,7 +15174,7 @@
     "level": 403,
     "maxQuality": 14482,
     "name": {
-      "cn": "Rarefied Applewood Staff (patch 5.3)",
+      "cn": "收藏用仙果木长杖",
       "de": "Wunderapfel-Stab (Sammlerstück)",
       "en": "Rarefied Applewood Staff",
       "fr": "Bâton en pommier miracle collectionnable",
@@ -15170,7 +15276,7 @@
     "level": 406,
     "maxQuality": 11921,
     "name": {
-      "cn": "Printing Essentials (patch 5.3)",
+      "cn": "印刷必需品",
       "de": "Druckutensilien",
       "en": "Printing Essentials",
       "fr": "Lot d'imprimerie",
@@ -15357,7 +15463,7 @@
     "level": 409,
     "maxQuality": 15322,
     "name": {
-      "cn": "Rarefied White Ash Earrings (patch 5.3)",
+      "cn": "收藏用白梣木耳坠",
       "de": "Weißeschen-Ohrringe (Sammlerstück)",
       "en": "Rarefied White Ash Earrings",
       "fr": "Boucles d'oreilles en frêne blanc collectionnables",
@@ -15646,7 +15752,7 @@
     "level": 415,
     "maxQuality": 16162,
     "name": {
-      "cn": "Rarefied Sandteak Fauchard (patch 5.3)",
+      "cn": "收藏用沙柚木刺枪",
       "de": "Sandteakholz-Fauchard (Sammlerstück)",
       "en": "Rarefied Sandteak Fauchard",
       "fr": "Fauchard en teck des sables collectionnable",
@@ -15748,7 +15854,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Barrel Table (patch 5.3)",
+      "cn": "木桶桌",
       "de": "Fasstisch",
       "en": "Barrel Table",
       "fr": "Table tonneau",
@@ -15765,8 +15871,8 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Bluebird Mobile (patch 5.3)",
-      "de": "Blaues Vogel-Mobile",
+      "cn": "蓝鸟旋转挂饰",
+      "de": "Blaues Vögelchen-Mobile",
       "en": "Bluebird Mobile",
       "fr": "Mobile oiseau bleu",
       "ja": "ブルーバードモービル",
@@ -15833,12 +15939,46 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 3 Skybuilders' Bed (patch 5.31)",
+      "cn": "第三期重建用的睡床",
       "de": "Federfall-Bett",
       "en": "Grade 3 Skybuilders' Bed",
       "fr": "Lit de restauration (3e phase)",
       "ja": "第三次復興用の寝台",
       "ko": "Grade 3 Skybuilders' Bed"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "bf95621df04",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Bed (patch 5.41)",
+      "de": "Himmelsang-Bett",
+      "en": "Grade 4 Skybuilders' Bed",
+      "fr": "Lit de restauration (4e phase)",
+      "ja": "第四次復興用の寝台",
+      "ko": "Grade 4 Skybuilders' Bed"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "c4cbec89925",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Herringbone Flooring (patch 5.4)",
+      "de": "Fischgräten-Holzboden",
+      "en": "Herringbone Flooring",
+      "fr": "Parquet en chevrons",
+      "ja": "ヘリンボーン・フローリング",
+      "ko": "Herringbone Flooring"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -15948,11 +16088,28 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "5d69f0422f2",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Oriental Wooden Deck (patch 5.35)",
+      "de": "Exotische Holzveranda",
+      "en": "Oriental Wooden Deck",
+      "fr": "Terrasse orientale en bois",
+      "ja": "オリエンタルウッドデッキ",
+      "ko": "Oriental Wooden Deck"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "9ec2037ee1a",
     "level": 430,
     "maxQuality": 18262,
     "name": {
-      "cn": "Rarefied Lignum Vitae Grinding Wheel (patch 5.3)",
+      "cn": "收藏用愈疮木砂轮机",
       "de": "Guajakholz-Schleifrad (Sammlerstück)",
       "en": "Rarefied Lignum Vitae Grinding Wheel",
       "fr": "Meule en gaïac collectionnable",
@@ -16016,6 +16173,23 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "8c9a6d8906f",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Varied Wood Interior Wall (patch 5.4)",
+      "de": "Mischholz-Wandvertäfelung",
+      "en": "Varied Wood Interior Wall",
+      "fr": "Revêtement mural en bois variés",
+      "ja": "ランダムウッド・インナーウォール",
+      "ko": "Varied Wood Interior Wall"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "3929be4478c",
     "level": 430,
     "maxQuality": 9131,
@@ -16037,7 +16211,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Wooden Staircase Bookshelf (patch 5.3)",
+      "cn": "木制阶梯书柜",
       "de": "Stufenbücherregal",
       "en": "Wooden Staircase Bookshelf",
       "fr": "Bibliothèque en bois",
@@ -16181,6 +16355,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "4846abb678f",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Cedar Lumber (patch 5.35)",
+      "de": "Werkstätten-Zedern-Bauholz",
+      "en": "Oddly Specific Cedar Lumber",
+      "fr": "Madrier de cèdre d'affinage",
+      "ja": "改良用のシーダー材",
+      "ko": "Oddly Specific Cedar Lumber"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "9f25a343d79",
@@ -16243,7 +16435,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Bracelet of Gathering (patch 5.3)",
+      "cn": "唯美大地手环",
       "de": "Ästhetischer Armreif des Eifers",
       "en": "Aesthete's Bracelet of Gathering",
       "fr": "Bracelet des ressources esthétique",
@@ -16262,7 +16454,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Earrings of Gathering (patch 5.3)",
+      "cn": "唯美大地耳坠",
       "de": "Ästhetische Ohrringe des Eifers",
       "en": "Aesthete's Earrings of Gathering",
       "fr": "Boucles d'oreilles des ressources esthétiques",
@@ -16281,7 +16473,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Fishing Rod (patch 5.3)",
+      "cn": "唯美钓竿",
       "de": "Ästhetische Angelrute",
       "en": "Aesthete's Fishing Rod",
       "fr": "Canne à pêche esthétique",
@@ -16300,7 +16492,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Grinding Wheel (patch 5.3)",
+      "cn": "唯美砂轮机",
       "de": "Ästhetisches Schleifrad",
       "en": "Aesthete's Grinding Wheel",
       "fr": "Meule esthétique",
@@ -16319,7 +16511,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Necklace of Gathering (patch 5.3)",
+      "cn": "唯美大地项链",
       "de": "Ästhetisches Halsband des Eifers",
       "en": "Aesthete's Necklace of Gathering",
       "fr": "Collier des ressources esthétique",
@@ -16338,7 +16530,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Ring of Gathering (patch 5.3)",
+      "cn": "唯美大地指环",
       "de": "Ästhetischer Ring des Eifers",
       "en": "Aesthete's Ring of Gathering",
       "fr": "Bague des ressources esthétique",
@@ -16357,7 +16549,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Spinning Wheel (patch 5.3)",
+      "cn": "唯美纺车",
       "de": "Ästhetisches Spinnrad",
       "en": "Aesthete's Spinning Wheel",
       "fr": "Rouet esthétique",
@@ -16636,18 +16828,302 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "291a61b19e4",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Cedar Plank (patch 5.35)",
+      "de": "Werkstätten-Zedernbrett",
+      "en": "Oddly Specific Cedar Plank",
+      "fr": "Planche de cèdre d'affinage",
+      "ja": "改良用のシーダー板",
+      "ko": "Oddly Specific Cedar Plank"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "651a6154762",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Aiming (patch 5.4)",
+      "de": "Exarchen-Armband des Zielens",
+      "en": "Exarchic Bracelet of Aiming",
+      "fr": "Bracelet de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーブレスレット",
+      "ko": "Exarchic Bracelet of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "062d7093c57",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Casting (patch 5.4)",
+      "de": "Exarchen-Armband der Magie",
+      "en": "Exarchic Bracelet of Casting",
+      "fr": "Bracelet d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターブレスレット",
+      "ko": "Exarchic Bracelet of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c7f0410bac2",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Fending (patch 5.4)",
+      "de": "Exarchen-Armband der Verteidigung",
+      "en": "Exarchic Bracelet of Fending",
+      "fr": "Bracelet de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーブレスレット",
+      "ko": "Exarchic Bracelet of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "85424fdaf93",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Healing (patch 5.4)",
+      "de": "Exarchen-Armband der Heilung",
+      "en": "Exarchic Bracelet of Healing",
+      "fr": "Bracelet de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーブレスレット",
+      "ko": "Exarchic Bracelet of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "db17d0a4301",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bracelet of Slaying (patch 5.4)",
+      "de": "Exarchen-Armband des Schlachtens",
+      "en": "Exarchic Bracelet of Slaying",
+      "fr": "Bracelet d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーブレスレット",
+      "ko": "Exarchic Bracelet of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "a3c53d75580",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Cane (patch 5.4)",
+      "de": "Exarchen-Stock",
+      "en": "Exarchic Cane",
+      "fr": "Canne de l'exarchat",
+      "ja": "エクサークケーン",
+      "ko": "Exarchic Cane"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2569f3ed209",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Aiming (patch 5.4)",
+      "de": "Exarchen-Halsberge des Zielens",
+      "en": "Exarchic Choker of Aiming",
+      "fr": "Ras de cou de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーチョーカー",
+      "ko": "Exarchic Choker of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2af2cfd24f7",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Casting (patch 5.4)",
+      "de": "Exarchen-Halsberge der Magie",
+      "en": "Exarchic Choker of Casting",
+      "fr": "Ras de cou d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターチョーカー",
+      "ko": "Exarchic Choker of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c8747ac5526",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Fending (patch 5.4)",
+      "de": "Exarchen-Halsberge der Verteidigung",
+      "en": "Exarchic Choker of Fending",
+      "fr": "Ras de cou de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーチョーカー",
+      "ko": "Exarchic Choker of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "07c8c7e0728",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Healing (patch 5.4)",
+      "de": "Exarchen-Halsberge der Heilung",
+      "en": "Exarchic Choker of Healing",
+      "fr": "Ras de cou de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーチョーカー",
+      "ko": "Exarchic Choker of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "f91586965a0",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Choker of Slaying (patch 5.4)",
+      "de": "Exarchen-Halsberge des Schlachtens",
+      "en": "Exarchic Choker of Slaying",
+      "fr": "Ras de cou d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーチョーカー",
+      "ko": "Exarchic Choker of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0a55a6d4557",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Spear (patch 5.4)",
+      "de": "Exarchen-Speer",
+      "en": "Exarchic Spear",
+      "fr": "Hast de l'exarchat",
+      "ja": "エクサークスピア",
+      "ko": "Exarchic Spear"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "d9c8183da40",
     "level": 510,
     "maxQuality": 82400,
     "name": {
-      "cn": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench (patch 5.31)",
+      "cn": "第三期重建用的特供金匠工作台",
       "de": "Sonderbestellte Federfall-Goldschmied-Werkbank",
       "en": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench",
       "fr": "Établi d'orfèvrerie sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注ゴールドワークベンチ",
       "ko": "Grade 3 Artisanal Skybuilders' Goldsmithing Bench"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 12046,
+    "durability": 55,
+    "id": "400f37d4047",
+    "level": 510,
+    "maxQuality": 81447,
+    "name": {
+      "cn": "Grade 4 Artisanal Skybuilders' Ice Box (patch 5.41)",
+      "de": "Sonderbestellte Himmelsang-Eiskiste",
+      "en": "Grade 4 Artisanal Skybuilders' Ice Box",
+      "fr": "Glacière sur commande de restauration (4e phase)",
+      "ja": "第四次復興用の特注アイスボックス",
+      "ko": "Grade 4 Artisanal Skybuilders' Ice Box"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "fef96f96e9f",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Silver Beech Lumber (patch 5.4)",
+      "de": "Silberbuchen-Bauholz",
+      "en": "Silver Beech Lumber",
+      "fr": "Madrier de hêtre argenté",
+      "ja": "シルバービーチ材",
+      "ko": "Silver Beech Lumber"
     },
     "stars": 4,
     "suggestedControl": 2540,

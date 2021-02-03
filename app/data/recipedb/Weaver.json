@@ -2064,12 +2064,29 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 3 Skybuilders' Rope (patch 5.31)",
+      "cn": "第三期重建用的草绳",
       "de": "Federfall-Strohseil",
       "en": "Grade 3 Skybuilders' Rope",
       "fr": "Corde de restauration (3e phase)",
       "ja": "第三次復興用の荒縄",
       "ko": "Grade 3 Skybuilders' Rope"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "b6ae887431b",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Rope (patch 5.41)",
+      "de": "Himmelsang-Strohseil",
+      "en": "Grade 4 Skybuilders' Rope",
+      "fr": "Corde de restauration (4e phase)",
+      "ja": "第四次復興用の荒縄",
+      "ko": "Grade 4 Skybuilders' Rope"
     },
     "suggestedCraftsmanship": 94
   },
@@ -4529,12 +4546,29 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 3 Skybuilders' Cloth (patch 5.31)",
+      "cn": "第三期重建用的布料",
       "de": "Federfall-Stoffballen",
       "en": "Grade 3 Skybuilders' Cloth",
       "fr": "Étoffe de restauration (3e phase)",
       "ja": "第三次復興用の生地",
       "ko": "Grade 3 Skybuilders' Cloth"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "6c6b397c05b",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Cloth (patch 5.41)",
+      "de": "Himmelsang-Stoffballen",
+      "en": "Grade 4 Skybuilders' Cloth",
+      "fr": "Étoffe de restauration (4e phase)",
+      "ja": "第四次復興用の生地",
+      "ko": "Grade 4 Skybuilders' Cloth"
     },
     "suggestedCraftsmanship": 136
   },
@@ -6654,7 +6688,7 @@
     "level": 50,
     "maxQuality": 4114,
     "name": {
-      "cn": "Rarefied Rainbow Bolero (patch 5.3)",
+      "cn": "收藏用虹布外套",
       "de": "Regenbogen-Bolero (Sammlerstück)",
       "en": "Rarefied Rainbow Bolero",
       "fr": "Boléro en étoffe arc-en-ciel collectionnable",
@@ -10087,7 +10121,7 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "cn": "Rarefied Rainbow Ribbon (patch 5.3)",
+      "cn": "收藏用虹布缎带",
       "de": "Regenbogen-Schleife (Sammlerstück)",
       "en": "Rarefied Rainbow Ribbon",
       "fr": "Ruban en étoffe arc-en-ciel collectionnable",
@@ -10546,7 +10580,7 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "cn": "Rarefied Holy Rainbow Hat (patch 5.3)",
+      "cn": "收藏用圣虹布草帽",
       "de": "Heiliger Regenbogen-Strohhut (Sammlerstück)",
       "en": "Rarefied Holy Rainbow Hat",
       "fr": "Chapeau en étoffe arc-en-ciel sacrée collectionnable",
@@ -11005,7 +11039,7 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "cn": "Rarefied Ramie Turban (patch 5.3)",
+      "cn": "收藏用青麻包头巾",
       "de": "Ramien-Turban (Sammlerstück)",
       "en": "Rarefied Ramie Turban",
       "fr": "Turban en ramie collectionnable",
@@ -11396,7 +11430,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Rarefied Hallowed Ramie Doublet (patch 5.3)",
+      "cn": "收藏用祝圣青麻工作服",
       "de": "Geheiligte Ramien-Weste (Sammlerstück)",
       "en": "Rarefied Hallowed Ramie Doublet",
       "fr": "Doublet en ramie sanctifiée collectionnable",
@@ -12246,12 +12280,29 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 3 Skybuilders' Broom (patch 5.31)",
+      "cn": "第三期重建用的扫把",
       "de": "Federfall-Besen",
       "en": "Grade 3 Skybuilders' Broom",
       "fr": "Balai de restauration (3e phase)",
       "ja": "第三次復興用のホウキ",
       "ko": "Grade 3 Skybuilders' Broom"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "019ea54bc9d",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Broom (patch 5.41)",
+      "de": "Himmelsang-Besen",
+      "en": "Grade 4 Skybuilders' Broom",
+      "fr": "Balai de restauration (4e phase)",
+      "ja": "第四次復興用のホウキ",
+      "ko": "Grade 4 Skybuilders' Broom"
     },
     "suggestedCraftsmanship": 587
   },
@@ -12399,7 +12450,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Rarefied Chimerical Felt Cyclas (patch 5.3)",
+      "cn": "收藏用奇美纤维斗服",
       "de": "Chimärenfilz-Cyclas (Sammlerstück)",
       "en": "Rarefied Chimerical Felt Cyclas",
       "fr": "Cyclas en feutre chimérique collectionnable",
@@ -16181,7 +16232,7 @@
     "level": 265,
     "maxQuality": 8581,
     "name": {
-      "cn": "Rarefied Bloodhempen Skirt (patch 5.3)",
+      "cn": "收藏用赤麻短裙",
       "de": "Rothanf-Rock (Sammlerstück)",
       "en": "Rarefied Bloodhempen Skirt",
       "fr": "Jupe en akaso collectionnable",
@@ -16946,7 +16997,7 @@
     "level": 273,
     "maxQuality": 9657,
     "name": {
-      "cn": "Rarefied Ruby Cotton Gilet (patch 5.3)",
+      "cn": "收藏用红玉棉布背心",
       "de": "Rubinbaumwoll-Strickjacke (Sammlerstück)",
       "en": "Rarefied Ruby Cotton Gilet",
       "fr": "Gilet sans manches en rubicoton collectionnable",
@@ -17269,7 +17320,7 @@
     "level": 279,
     "maxQuality": 10389,
     "name": {
-      "cn": "Rarefied Kudzu Hat (patch 5.3)",
+      "cn": "收藏用葛布宽边帽",
       "de": "Kudzu-Hut (Sammlerstück)",
       "en": "Rarefied Kudzu Hat",
       "fr": "Chapeau en kudzu collectionnable",
@@ -17728,7 +17779,7 @@
     "level": 285,
     "maxQuality": 11121,
     "name": {
-      "cn": "Rarefied Serge Hose (patch 5.3)",
+      "cn": "收藏用哔叽骑兵裤",
       "de": "Sergen-Hose (Sammlerstück)",
       "en": "Rarefied Serge Hose",
       "fr": "Fuseau en serge collectionnable",
@@ -18085,7 +18136,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Armament Repair Kit (patch 5.3)",
+      "cn": "武器修理的部件",
       "de": "Reparaturwerkzeug",
       "en": "Armament Repair Kit",
       "fr": "Composant de réparation",
@@ -18102,7 +18153,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Automaton Repair Component (patch 5.3)",
+      "cn": "修理自走人偶的部件",
       "de": "Reparaturwerkstoff für Eisenbärte",
       "en": "Automaton Repair Component",
       "fr": "Composant de réparation d'automate",
@@ -18119,7 +18170,7 @@
     "level": 290,
     "maxQuality": 17017,
     "name": {
-      "cn": "Automaton Worker Supplies (patch 5.3)",
+      "cn": "自动化需要的部件",
       "de": "Fließbandkomponenten",
       "en": "Automaton Worker Supplies",
       "fr": "Composants de chaîne de montage",
@@ -18136,7 +18187,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Axle Component (patch 5.3)",
+      "cn": "减轻磨损的部件",
       "de": "Experimentelles Achsenzubehörteil",
       "en": "Axle Component",
       "fr": "Composant d'essieu expérimental",
@@ -18153,8 +18204,8 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Bespoke Barter Item (patch 5.3)",
-      "de": "Tauschware",
+      "cn": "充当货款的商品",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -18170,7 +18221,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Blueprint Supplies (patch 5.3)",
+      "cn": "矮人族绘图的工具",
       "de": "Schreibutensil",
       "en": "Blueprint Supplies",
       "fr": "Ustensile de dessin",
@@ -18187,7 +18238,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Brewery Supplies (patch 5.3)",
+      "cn": "酿造设备的必需品",
       "de": "Brauereikomponenten",
       "en": "Brewery Supplies",
       "fr": "Composants de brasserie",
@@ -18221,7 +18272,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cask Component (patch 5.3)",
+      "cn": "酒桶的部件",
       "de": "Fassbestandteil",
       "en": "Cask Component",
       "fr": "Composant de fût",
@@ -18238,7 +18289,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cooling Device Component (patch 5.3)",
+      "cn": "冷却装置的部件",
       "de": "Kühlmittel",
       "en": "Cooling Device Component",
       "fr": "Article refroidissant",
@@ -18255,7 +18306,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Core Tank Component (patch 5.3)",
+      "cn": "车身重要的部件",
       "de": "Zubehörteil des Zwergenpanzers",
       "en": "Core Tank Component",
       "fr": "Pièce complexe d'automatank",
@@ -18289,7 +18340,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Crystal Cannon Supplies (patch 5.3)",
+      "cn": "主炮的重要部件",
       "de": "Geschützkomponenten",
       "en": "Crystal Cannon Supplies",
       "fr": "Composants de canon",
@@ -18306,7 +18357,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Engine Component (patch 5.3)",
+      "cn": "保护引擎的部件",
       "de": "Hilfsmittel für die Motorwartung",
       "en": "Engine Component",
       "fr": "Composant d'amélioration de moteur",
@@ -18323,7 +18374,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Experimental Plating Component (patch 5.3)",
+      "cn": "试做装甲的部件",
       "de": "Bestandteil der Panzerung des Zwergenpanzers",
       "en": "Experimental Plating Component",
       "fr": "Pièce de renforcement",
@@ -18340,7 +18391,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Eye-catching Custom Option (patch 5.3)",
+      "cn": "气派华丽的外装部件",
       "de": "Auffälliges Zubehörteil",
       "en": "Eye-catching Custom Option",
       "fr": "Option de personnalisation criarde",
@@ -18357,7 +18408,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Filtration Supplies (patch 5.3)",
+      "cn": "提炼实验的用品",
       "de": "Utensil zum Experimentieren mit Zwergensprit",
       "en": "Filtration Supplies",
       "fr": "Ustensile d'expérience de raffinage",
@@ -18408,12 +18459,29 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 3 Skybuilders' Gloves (patch 5.31)",
+      "cn": "第三期重建用的手套",
       "de": "Federfall-Handschuhe",
       "en": "Grade 3 Skybuilders' Gloves",
       "fr": "Gants de restauration (3e phase)",
       "ja": "第三次復興用の手袋",
       "ko": "Grade 3 Skybuilders' Gloves"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "3dd8f5c443a",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Gloves (patch 5.41)",
+      "de": "Himmelsang-Handschuhe",
+      "en": "Grade 4 Skybuilders' Gloves",
+      "fr": "Gants de restauration (4e phase)",
+      "ja": "第四次復興用の手袋",
+      "ko": "Grade 4 Skybuilders' Gloves"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -18425,7 +18493,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Grooming Kit (patch 5.3)",
+      "cn": "保养胡子的工具",
       "de": "Pflegeprodukt für den Bart",
       "en": "Grooming Kit",
       "fr": "Ustensile d'entretien de barbe",
@@ -18442,7 +18510,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Heat-resistant Component (patch 5.3)",
+      "cn": "耐热性的部件",
       "de": "Hitzebeständiger Bestandteil",
       "en": "Heat-resistant Component",
       "fr": "Article réfractaire",
@@ -18459,7 +18527,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Low-profile Custom Option (patch 5.3)",
+      "cn": "隐秘型外装的部件",
       "de": "Unauffälliges Zubehörteil",
       "en": "Low-profile Custom Option",
       "fr": "Option de personnalisation discrète",
@@ -18476,7 +18544,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Rarefied Twinsilk Apron (patch 5.3)",
+      "cn": "收藏用玉绸围裙",
       "de": "Doppelseiden-Schürze (Sammlerstück)",
       "en": "Rarefied Twinsilk Apron",
       "fr": "Tablier en doublesoie collectionnable",
@@ -18578,7 +18646,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Steel Plate Component (patch 5.3)",
+      "cn": "钢板增产的部件",
       "de": "Hilfsmittel für die Stahlplattenproduktion",
       "en": "Steel Plate Component",
       "fr": "Composant de plaque de métal",
@@ -18595,7 +18663,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Tavern Materials (patch 5.3)",
+      "cn": "酒馆的必需品",
       "de": "Barzubehörteil",
       "en": "Tavern Materials",
       "fr": "Article pour la taverne",
@@ -18629,7 +18697,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Test-fire Target Dummy (patch 5.3)",
+      "cn": "试射用的靶子",
       "de": "Zielscheibe",
       "en": "Test-fire Target Dummy",
       "fr": "Cible de test",
@@ -18680,7 +18748,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Unfailing Eye Opener (patch 5.3)",
+      "cn": "驱散睡意的秘密道具",
       "de": "Ronitts Muntermacher",
       "en": "Unfailing Eye Opener",
       "fr": "Objet pour un réveil brutal",
@@ -18697,7 +18765,7 @@
     "level": 290,
     "maxQuality": 16430,
     "name": {
-      "cn": "Workshop Expansion Supplies (patch 5.3)",
+      "cn": "用于扩张据点的部件",
       "de": "Komponenten für eine Werkstattserweiterung",
       "en": "Workshop Expansion Supplies",
       "fr": "Composants d'atelier annexe",
@@ -18714,7 +18782,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Workshop Supplies (patch 5.3)",
+      "cn": "工作区的必需品",
       "de": "Werkstattzubehör",
       "en": "Workshop Supplies",
       "fr": "Composants d'atelier mécanique",
@@ -21093,7 +21161,7 @@
     "level": 390,
     "maxQuality": 10468,
     "name": {
-      "cn": "Custom Gathering Tool Components (patch 5.3)",
+      "cn": "龙族用采集工具部件",
       "de": "Komponenten für ein spezielles Sammlerwerkzeug",
       "en": "Custom Gathering Tool Components",
       "fr": "Outils de récolte pour dragon",
@@ -21144,7 +21212,7 @@
     "level": 395,
     "maxQuality": 10928,
     "name": {
-      "cn": "Custom Weaving Components (patch 5.3)",
+      "cn": "龙族用缝纫工具",
       "de": "Komponenten für ein spezielles Weberwerkzeug",
       "en": "Custom Weaving Components",
       "fr": "Ustensiles de couture pour dragon",
@@ -21297,7 +21365,7 @@
     "level": 395,
     "maxQuality": 12977,
     "name": {
-      "cn": "Rarefied Brightlinen Himation (patch 5.3)",
+      "cn": "收藏用白麻长衫",
       "de": "Weißhanf-Himation (Sammlerstück)",
       "en": "Rarefied Brightlinen Himation",
       "fr": "Himation en lin blanc collectionnable",
@@ -21331,7 +21399,7 @@
     "level": 400,
     "maxQuality": 11249,
     "name": {
-      "cn": "Custom Crafting Tool Components (patch 5.3)",
+      "cn": "龙族用工匠工具部件",
       "de": "Komponenten für ein spezielles Werkzeug",
       "en": "Custom Crafting Tool Components",
       "fr": "Outils d'artisanat pour dragon",
@@ -21535,7 +21603,7 @@
     "level": 403,
     "maxQuality": 11585,
     "name": {
-      "cn": "Handpicked Culinary Essentials (patch 5.3)",
+      "cn": "龙族用招待菜肴必需品",
       "de": "Handverlesene kulinarische Köstlichkeiten",
       "en": "Handpicked Culinary Essentials",
       "fr": "Sandwichs pour dragon",
@@ -21722,7 +21790,7 @@
     "level": 403,
     "maxQuality": 14482,
     "name": {
-      "cn": "Rarefied Iridescent Top (patch 5.3)",
+      "cn": "收藏用虹茧斗上装",
       "de": "Schillerseiden-Oberteil (Sammlerstück)",
       "en": "Rarefied Iridescent Top",
       "fr": "Haut-de-corps en soie iridescente collectionnable",
@@ -21892,7 +21960,7 @@
     "level": 406,
     "maxQuality": 11921,
     "name": {
-      "cn": "Printing Essentials (patch 5.3)",
+      "cn": "印刷必需品",
       "de": "Druckutensilien",
       "en": "Printing Essentials",
       "fr": "Lot d'imprimerie",
@@ -22130,7 +22198,7 @@
     "level": 409,
     "maxQuality": 15322,
     "name": {
-      "cn": "Rarefied Pixie Cotton Hood (patch 5.3)",
+      "cn": "收藏用仙子棉兜帽",
       "de": "Pixiebaumwoll-Haube (Sammlerstück)",
       "en": "Rarefied Pixie Cotton Hood",
       "fr": "Capuche en coton pixie collectionnable",
@@ -22521,7 +22589,7 @@
     "level": 415,
     "maxQuality": 16162,
     "name": {
-      "cn": "Rarefied Ovim Wool Tunic (patch 5.3)",
+      "cn": "收藏用力山羊束腰衣",
       "de": "Ovimwoll-Tunika (Sammlerstück)",
       "en": "Rarefied Ovim Wool Tunic",
       "fr": "Tunique en laine d'ovim collectionnable",
@@ -22619,6 +22687,40 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "0dfb5c28770",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Apparel Showcase (patch 5.4)",
+      "de": "Mode-Schaukasten",
+      "en": "Apparel Showcase",
+      "fr": "Vitrine de vêtements",
+      "ja": "アパレルショーケース",
+      "ko": "Apparel Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "17cd2ecead0",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Designer's Show Window (patch 5.4)",
+      "de": "Mode-Schaufenster",
+      "en": "Designer's Show Window",
+      "fr": "Vitrine extérieure de vêtements",
+      "ja": "アパレルショーウィンドウ",
+      "ko": "Designer's Show Window"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "5cab7d23d67",
     "level": 430,
     "maxQuality": 18262,
@@ -22708,7 +22810,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Floor Sofa (patch 5.3)",
+      "cn": "落地沙发",
       "de": "Bodensofa",
       "en": "Floor Sofa",
       "fr": "Fauteuil de sol",
@@ -22759,12 +22861,29 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 3 Skybuilders' Awning (patch 5.31)",
+      "cn": "第三期重建用的遮蓬",
       "de": "Federfall-Vordach",
       "en": "Grade 3 Skybuilders' Awning",
       "fr": "Auvent de restauration (3e phase)",
       "ja": "第三次復興用のオーニング",
       "ko": "Grade 3 Skybuilders' Awning"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "6f81660bf7d",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Awning (patch 5.41)",
+      "de": "Himmelsang-Vordach",
+      "en": "Grade 4 Skybuilders' Awning",
+      "fr": "Auvent de restauration  (4e phase)",
+      "ja": "第四次復興用のオーニング",
+      "ko": "Grade 4 Skybuilders' Awning"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -22793,7 +22912,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Nomad's Tent (patch 5.3)",
+      "cn": "游牧民的帐篷",
       "de": "Azim-Zelt",
       "en": "Nomad's Tent",
       "fr": "Tente d'inspiration nomade",
@@ -22844,7 +22963,7 @@
     "level": 430,
     "maxQuality": 18262,
     "name": {
-      "cn": "Rarefied Dwarven Cotton Beret (patch 5.3)",
+      "cn": "收藏用矮人棉贝雷帽",
       "de": "Zwergenbaumwoll-Hut (Sammlerstück)",
       "en": "Rarefied Dwarven Cotton Beret",
       "fr": "Béret en coton nain collectionnable",
@@ -22878,12 +22997,63 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Stage Curtain (patch 5.3)",
+      "cn": "舞台幕帘",
       "de": "Bühnenvorhang",
       "en": "Stage Curtain",
       "fr": "Rideau de scène",
       "ja": "ステージカーテン",
       "ko": "Stage Curtain"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "0860149bfbd",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Swag Valance (patch 5.4)",
+      "de": "Prunkvorhang",
+      "en": "Swag Valance",
+      "fr": "Cantonnière",
+      "ja": "スワッグバランスカーテン",
+      "ko": "Swag Valance"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "723151aaa12",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Toy Showcase (patch 5.4)",
+      "de": "Stofftier-Schaukasten",
+      "en": "Toy Showcase",
+      "fr": "Vitrine de peluches",
+      "ja": "ぬいぐるみショーケース",
+      "ko": "Toy Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "824c5e31cb4",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Toymaker's Show Window (patch 5.4)",
+      "de": "Stofftier-Schaufenster",
+      "en": "Toymaker's Show Window",
+      "fr": "Vitrine extérieure de peluches",
+      "ja": "ぬいぐるみショーウィンドウ",
+      "ko": "Toymaker's Show Window"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -23362,6 +23532,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "bd3029cb2f6",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Cloth (patch 5.35)",
+      "de": "Werkstätten-Tuch",
+      "en": "Oddly Specific Cloth",
+      "fr": "Étoffe d'affinage",
+      "ja": "改良用の生地",
+      "ko": "Oddly Specific Cloth"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "93c26191232",
@@ -23424,7 +23612,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Cap of Crafting (patch 5.3)",
+      "cn": "唯美巧匠皮帽",
       "de": "Ästhetische Kappe des Handwerks",
       "en": "Aesthete's Cap of Crafting",
       "fr": "Calotte des créations esthétique",
@@ -23443,7 +23631,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Doublet of Crafting (patch 5.3)",
+      "cn": "唯美巧匠工作服",
       "de": "Ästhetisches Wams des Handwerks",
       "en": "Aesthete's Doublet of Crafting",
       "fr": "Doublet des créations esthétique",
@@ -23462,7 +23650,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Hat of Gathering (patch 5.3)",
+      "cn": "唯美大地工作帽",
       "de": "Ästhetischer Hut des Eifers",
       "en": "Aesthete's Hat of Gathering",
       "fr": "Chapeau des ressources esthétique",
@@ -23481,7 +23669,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Trousers of Crafting (patch 5.3)",
+      "cn": "唯美巧匠软甲裤",
       "de": "Ästhetische Hose des Handwerks",
       "en": "Aesthete's Trousers of Crafting",
       "fr": "Pantalon des créations esthétique",
@@ -23500,7 +23688,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Trousers of Gathering (patch 5.3)",
+      "cn": "唯美大地软甲裤",
       "de": "Ästhetische Hose des Eifers",
       "en": "Aesthete's Trousers of Gathering",
       "fr": "Pantalon des ressources esthétique",
@@ -23838,11 +24026,29 @@
     "baseLevel": 80,
     "difficulty": 4943,
     "durability": 70,
+    "id": "3e98b055df8",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Undyed Woolen Cloth (patch 5.35)",
+      "de": "Werkstätten-Wollballen",
+      "en": "Oddly Specific Undyed Woolen Cloth",
+      "fr": "Étoffe de laine d'affinage",
+      "ja": "改良用の羅紗",
+      "ko": "Oddly Specific Undyed Woolen Cloth"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
     "id": "3915b481498",
     "level": 480,
     "maxQuality": 25863,
     "name": {
-      "cn": "Southern Seas Shirt (patch 5.3)",
+      "cn": "南洋海滨衬衫",
       "de": "Südsee-Hemd",
       "en": "Southern Seas Shirt",
       "fr": "Chemise des mers du sud",
@@ -23860,7 +24066,7 @@
     "level": 480,
     "maxQuality": 25863,
     "name": {
-      "cn": "Southern Seas Skirt (patch 5.3)",
+      "cn": "南洋海滨短裙",
       "de": "Südsee-Rock",
       "en": "Southern Seas Skirt",
       "fr": "Jupe des mers du sud",
@@ -23878,7 +24084,7 @@
     "level": 480,
     "maxQuality": 25863,
     "name": {
-      "cn": "Southern Seas Trousers (patch 5.3)",
+      "cn": "南洋海滨软甲裤",
       "de": "Südsee-Hose",
       "en": "Southern Seas Trousers",
       "fr": "Pantalon des mers du sud",
@@ -23890,18 +24096,341 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d8b62f6ab30",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bottoms of Aiming (patch 5.4)",
+      "de": "Exarchen-Hose des Zielens",
+      "en": "Exarchic Bottoms of Aiming",
+      "fr": "Bas-de-corps de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーボトム",
+      "ko": "Exarchic Bottoms of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "063c39ff1d7",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bottoms of Scouting (patch 5.4)",
+      "de": "Exarchen-Hose des Spähens",
+      "en": "Exarchic Bottoms of Scouting",
+      "fr": "Bas-de-corps d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトボトム",
+      "ko": "Exarchic Bottoms of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ad4cbc63290",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Bottoms of Striking (patch 5.4)",
+      "de": "Exarchen-Hose des Schlagens",
+      "en": "Exarchic Bottoms of Striking",
+      "fr": "Bas-de-corps d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーボトム",
+      "ko": "Exarchic Bottoms of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c8b1c19cb24",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Coat of Healing (patch 5.4)",
+      "de": "Exarchen-Mantel der Heilung",
+      "en": "Exarchic Coat of Healing",
+      "fr": "Manteau de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーコート",
+      "ko": "Exarchic Coat of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2a6b8107ecd",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gloves of Healing (patch 5.4)",
+      "de": "Exarchen-Handschuhe der Heilung",
+      "en": "Exarchic Gloves of Healing",
+      "fr": "Gants de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーグローブ",
+      "ko": "Exarchic Gloves of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0029350ebab",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hood of Aiming (patch 5.4)",
+      "de": "Exarchen-Haube des Zielens",
+      "en": "Exarchic Hood of Aiming",
+      "fr": "Capuche de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーフード",
+      "ko": "Exarchic Hood of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "2019e7e012e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hood of Scouting (patch 5.4)",
+      "de": "Exarchen-Hauben des Spähens",
+      "en": "Exarchic Hood of Scouting",
+      "fr": "Capuche d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトフード",
+      "ko": "Exarchic Hood of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d5e1b2f5672",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Hood of Striking (patch 5.4)",
+      "de": "Exarchen-Haube des Schlagens",
+      "en": "Exarchic Hood of Striking",
+      "fr": "Capuche d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーフード",
+      "ko": "Exarchic Hood of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "e37c3b0d307",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sash of Aiming (patch 5.4)",
+      "de": "Exarchen-Schärpe des Zielens",
+      "en": "Exarchic Sash of Aiming",
+      "fr": "Écharpe de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーサッシュ",
+      "ko": "Exarchic Sash of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d66a3366130",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sash of Scouting (patch 5.4)",
+      "de": "Exarchen-Schärpe des Spähens",
+      "en": "Exarchic Sash of Scouting",
+      "fr": "Écharpe d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトサッシュ",
+      "ko": "Exarchic Sash of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "6d1a7a01c91",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sash of Striking (patch 5.4)",
+      "de": "Exarchen-Schärpe des Schlagens",
+      "en": "Exarchic Sash of Striking",
+      "fr": "Écharpe d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカーサッシュ",
+      "ko": "Exarchic Sash of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "4d97c120650",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Shoes of Healing (patch 5.4)",
+      "de": "Exarchen-Schuhe der Heilung",
+      "en": "Exarchic Shoes of Healing",
+      "fr": "Chaussures de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーシューズ",
+      "ko": "Exarchic Shoes of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0398ed5063e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Top of Aiming (patch 5.4)",
+      "de": "Exarchen-Oberteil des Zielens",
+      "en": "Exarchic Top of Aiming",
+      "fr": "Haut-de-corps de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャートップス",
+      "ko": "Exarchic Top of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c0176a289d3",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Top of Scouting (patch 5.4)",
+      "de": "Exarchen-Oberteil des Spähens",
+      "en": "Exarchic Top of Scouting",
+      "fr": "Haut-de-corps d'éclaireur de l'exarchat",
+      "ja": "エクサーク・スカウトトップス",
+      "ko": "Exarchic Top of Scouting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9988bef02b8",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Top of Striking (patch 5.4)",
+      "de": "Exarchen-Oberteil des Schlagens",
+      "en": "Exarchic Top of Striking",
+      "fr": "Haut-de-corps d'agresseur de l'exarchat",
+      "ja": "エクサーク・ストライカートップス",
+      "ko": "Exarchic Top of Striking"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "ed2404c6959",
     "level": 510,
     "maxQuality": 82400,
     "name": {
-      "cn": "Grade 3 Artisanal Skybuilders' Apron (patch 5.31)",
+      "cn": "第三期重建用的特供围裙",
       "de": "Sonderbestellte Federfall-Schürze",
       "en": "Grade 3 Artisanal Skybuilders' Apron",
       "fr": "Tablier sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注エプロン",
       "ko": "Grade 3 Artisanal Skybuilders' Apron"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 12046,
+    "durability": 55,
+    "id": "cedf3920ac1",
+    "level": 510,
+    "maxQuality": 81447,
+    "name": {
+      "cn": "Grade 4 Artisanal Skybuilders' Vest (patch 5.41)",
+      "de": "Sonderbestellte Himmelsang-Weste",
+      "en": "Grade 4 Artisanal Skybuilders' Vest",
+      "fr": "Gilet sur commande de restauration (4e phase)",
+      "ja": "第四次復興用の特注ベスト",
+      "ko": "Grade 4 Artisanal Skybuilders' Vest"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "c3053353005",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Saffron Cloth (patch 5.4)",
+      "de": "Gardeniengefärbtes Tuch",
+      "en": "Saffron Cloth",
+      "fr": "Étoffe de gardénia",
+      "ja": "クチナシ染め布",
+      "ko": "Saffron Cloth"
     },
     "stars": 4,
     "suggestedControl": 2540,

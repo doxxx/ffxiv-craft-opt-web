@@ -1384,12 +1384,29 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 3 Skybuilders' Steel Plate (patch 5.31)",
+      "cn": "第三期重建用的金属板",
       "de": "Federfall-Metallplatte",
       "en": "Grade 3 Skybuilders' Steel Plate",
       "fr": "Plaque de métal de restauration (3e phase)",
       "ja": "第三次復興用の金属板",
       "ko": "Grade 3 Skybuilders' Steel Plate"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "59b4448a022",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Steel Plate (patch 5.41)",
+      "de": "Himmelsang-Metallplatte",
+      "en": "Grade 4 Skybuilders' Steel Plate",
+      "fr": "Plaque de métal de restauration (4e phase)",
+      "ja": "第四次復興用の金属板",
+      "ko": "Grade 4 Skybuilders' Steel Plate"
     },
     "suggestedCraftsmanship": 94
   },
@@ -3441,12 +3458,29 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 3 Skybuilders' Rivets (patch 5.31)",
+      "cn": "第三期重建用的铆钉",
       "de": "Federfall-Nieten",
       "en": "Grade 3 Skybuilders' Rivets",
       "fr": "Rivets de restauration (3e phase)",
       "ja": "第三次復興用のリベット",
       "ko": "Grade 3 Skybuilders' Rivets"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "551cc00f316",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Rivets (patch 5.41)",
+      "de": "Himmelsang-Nieten",
+      "en": "Grade 4 Skybuilders' Rivets",
+      "fr": "Rivets de restauration (4e phase)",
+      "ja": "第四次復興用のリベット",
+      "ko": "Grade 4 Skybuilders' Rivets"
     },
     "suggestedCraftsmanship": 136
   },
@@ -3699,7 +3733,7 @@
       "cn": "秘银口罩",
       "de": "Mithril-Mesailvisier",
       "en": "Mythril Mesail",
-      "fr": "Mésail",
+      "fr": "Mézail",
       "ja": "メセイル",
       "ko": "면갑"
     },
@@ -4413,7 +4447,7 @@
       "cn": "钴铁口罩",
       "de": "Koboldeisen-Mesailvisier",
       "en": "Cobalt Mesail",
-      "fr": "Mésail en cobalt",
+      "fr": "Mézail en cobalt",
       "ja": "コバルトメセイル",
       "ko": "코발트 면갑"
     },
@@ -4954,7 +4988,7 @@
     "level": 50,
     "maxQuality": 4114,
     "name": {
-      "cn": "Rarefied Mythrite Sallet (patch 5.3)",
+      "cn": "收藏用灵银角盔",
       "de": "Mythrit-Schaller (Sammlerstück)",
       "en": "Rarefied Mythrite Sallet",
       "fr": "Sallet en mithrite collectionnable",
@@ -6001,7 +6035,7 @@
       "cn": "庄园圆号",
       "de": "Horn",
       "en": "Manor Marching Horn",
-      "fr": "Cor du manoir",
+      "fr": "Cor du Manoir",
       "ja": "御用邸のホルン",
       "ko": "별궁의 호른"
     },
@@ -6724,7 +6758,7 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "cn": "Rarefied Mythrite Hauberk (patch 5.3)",
+      "cn": "收藏用灵银锁子铠",
       "de": "Mythrit-Kettenpanzer (Sammlerstück)",
       "en": "Rarefied Mythrite Hauberk",
       "fr": "Haubert en mithrite collectionnable",
@@ -6826,7 +6860,7 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "cn": "Rarefied Mythrite Bladed Lantern Shield (patch 5.3)",
+      "cn": "收藏用灵银双剑机关盾",
       "de": "Mythrit-Laternenschild (Sammlerstück)",
       "en": "Rarefied Mythrite Bladed Lantern Shield",
       "fr": "Bouclier lanterne en mithrite collectionnable",
@@ -7115,7 +7149,7 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "cn": "Rarefied Titanium Frypan (patch 5.3)",
+      "cn": "收藏用白钛煎锅",
       "de": "Titan-Bratpfanne (Sammlerstück)",
       "en": "Rarefied Titanium Frypan",
       "fr": "Poêle à frire en titane collectionnable",
@@ -7778,7 +7812,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Rarefied Titanium Vambraces (patch 5.3)",
+      "cn": "收藏用白钛臂甲",
       "de": "Titan-Unterarmschienen (Sammlerstück)",
       "en": "Rarefied Titanium Vambraces",
       "fr": "Canons d'avant-bras en titane collectionnables",
@@ -8407,12 +8441,29 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 3 Skybuilders' Cookpot (patch 5.31)",
+      "cn": "第三期重建用的吊锅",
       "de": "Federfall-Kochtopf",
       "en": "Grade 3 Skybuilders' Cookpot",
       "fr": "Marmite suspendue de restauration (3e phase)",
       "ja": "第三次復興用のクッキングポット",
       "ko": "Grade 3 Skybuilders' Cookpot"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "67f7bc4bd7a",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Cookpot (patch 5.41)",
+      "de": "Himmelsang-Kochtopf",
+      "en": "Grade 4 Skybuilders' Cookpot",
+      "fr": "Marmite suspendue de restauration (4e phase)",
+      "ja": "第四次復興用のクッキングポット",
+      "ko": "Grade 4 Skybuilders' Cookpot"
     },
     "suggestedCraftsmanship": 587
   },
@@ -8577,7 +8628,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Rarefied Adamantite Scutum (patch 5.3)",
+      "cn": "收藏用精金步兵盾",
       "de": "Adamantium-Turmschild (Sammlerstück)",
       "en": "Rarefied Adamantite Scutum",
       "fr": "Scutum en adamantium collectionnable",
@@ -10338,6 +10389,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "ae67e1d265d",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Shield of the Demon (patch 5.4)",
+      "de": "Schild des Dämons",
+      "en": "Shield of the Demon",
+      "fr": "Bouclier du Démon",
+      "ja": "シールド・オブ・デモン",
+      "ko": "Shield of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "45ae9568161",
     "level": 210,
     "maxQuality": 8298,
@@ -11609,7 +11679,7 @@
     "level": 265,
     "maxQuality": 8581,
     "name": {
-      "cn": "Rarefied High Steel Thermal Alembic (patch 5.3)",
+      "cn": "收藏用硬钢蒸馏器",
       "de": "Edelstahl-Destillierkolben (Sammlerstück)",
       "en": "Rarefied High Steel Thermal Alembic",
       "fr": "Alambic thermique en acier noble collectionnable",
@@ -12051,7 +12121,7 @@
     "level": 273,
     "maxQuality": 9657,
     "name": {
-      "cn": "Rarefied High Steel Plate Belt (patch 5.3)",
+      "cn": "收藏用硬钢护腰带",
       "de": "Edelstahl-Plattengürtel (Sammlerstück)",
       "en": "Rarefied High Steel Plate Belt",
       "fr": "Ceinture de plaques en acier noble collectionnable",
@@ -12442,7 +12512,7 @@
     "level": 279,
     "maxQuality": 10389,
     "name": {
-      "cn": "Rarefied Doman Iron Greaves (patch 5.3)",
+      "cn": "收藏用卸铁胫甲",
       "de": "Domaeisen-Beinschienen (Sammlerstück)",
       "en": "Rarefied Doman Iron Greaves",
       "fr": "Jambards en fer domien collectionnables",
@@ -12833,7 +12903,7 @@
     "level": 285,
     "maxQuality": 11121,
     "name": {
-      "cn": "Rarefied Doman Steel Tabard (patch 5.3)",
+      "cn": "收藏用卸铁短袖罩衣",
       "de": "Domastahl-Wappenrock (Sammlerstück)",
       "en": "Rarefied Doman Steel Tabard",
       "fr": "Tabard en acier domien collectionnable",
@@ -12952,7 +13022,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Armament Repair Kit (patch 5.3)",
+      "cn": "武器修理的部件",
       "de": "Reparaturwerkzeug",
       "en": "Armament Repair Kit",
       "fr": "Composant de réparation",
@@ -12969,7 +13039,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Automaton Repair Component (patch 5.3)",
+      "cn": "修理自走人偶的部件",
       "de": "Reparaturwerkstoff für Eisenbärte",
       "en": "Automaton Repair Component",
       "fr": "Composant de réparation d'automate",
@@ -12986,7 +13056,7 @@
     "level": 290,
     "maxQuality": 17017,
     "name": {
-      "cn": "Automaton Worker Supplies (patch 5.3)",
+      "cn": "自动化需要的部件",
       "de": "Fließbandkomponenten",
       "en": "Automaton Worker Supplies",
       "fr": "Composants de chaîne de montage",
@@ -13003,7 +13073,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Axle Component (patch 5.3)",
+      "cn": "减轻磨损的部件",
       "de": "Experimentelles Achsenzubehörteil",
       "en": "Axle Component",
       "fr": "Composant d'essieu expérimental",
@@ -13020,8 +13090,8 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Bespoke Barter Item (patch 5.3)",
-      "de": "Tauschware",
+      "cn": "充当货款的商品",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -13037,7 +13107,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Blueprint Supplies (patch 5.3)",
+      "cn": "矮人族绘图的工具",
       "de": "Schreibutensil",
       "en": "Blueprint Supplies",
       "fr": "Ustensile de dessin",
@@ -13054,7 +13124,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Brewery Supplies (patch 5.3)",
+      "cn": "酿造设备的必需品",
       "de": "Brauereikomponenten",
       "en": "Brewery Supplies",
       "fr": "Composants de brasserie",
@@ -13071,7 +13141,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cask Component (patch 5.3)",
+      "cn": "酒桶的部件",
       "de": "Fassbestandteil",
       "en": "Cask Component",
       "fr": "Composant de fût",
@@ -13088,7 +13158,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cooling Device Component (patch 5.3)",
+      "cn": "冷却装置的部件",
       "de": "Kühlmittel",
       "en": "Cooling Device Component",
       "fr": "Article refroidissant",
@@ -13105,7 +13175,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Core Tank Component (patch 5.3)",
+      "cn": "车身重要的部件",
       "de": "Zubehörteil des Zwergenpanzers",
       "en": "Core Tank Component",
       "fr": "Pièce complexe d'automatank",
@@ -13122,7 +13192,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Crystal Cannon Supplies (patch 5.3)",
+      "cn": "主炮的重要部件",
       "de": "Geschützkomponenten",
       "en": "Crystal Cannon Supplies",
       "fr": "Composants de canon",
@@ -13139,7 +13209,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Engine Component (patch 5.3)",
+      "cn": "保护引擎的部件",
       "de": "Hilfsmittel für die Motorwartung",
       "en": "Engine Component",
       "fr": "Composant d'amélioration de moteur",
@@ -13156,7 +13226,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Experimental Plating Component (patch 5.3)",
+      "cn": "试做装甲的部件",
       "de": "Bestandteil der Panzerung des Zwergenpanzers",
       "en": "Experimental Plating Component",
       "fr": "Pièce de renforcement",
@@ -13173,7 +13243,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Eye-catching Custom Option (patch 5.3)",
+      "cn": "气派华丽的外装部件",
       "de": "Auffälliges Zubehörteil",
       "en": "Eye-catching Custom Option",
       "fr": "Option de personnalisation criarde",
@@ -13190,7 +13260,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Filtration Supplies (patch 5.3)",
+      "cn": "提炼实验的用品",
       "de": "Utensil zum Experimentieren mit Zwergensprit",
       "en": "Filtration Supplies",
       "fr": "Ustensile d'expérience de raffinage",
@@ -13227,7 +13297,7 @@
       "cn": "第二期重建用的口罩",
       "de": "Genist-Mesailvisier",
       "en": "Grade 2 Skybuilders' Mesail",
-      "fr": "Mésail de restauration (2e phase)",
+      "fr": "Mézail de restauration (2e phase)",
       "ja": "第二次復興用のメセイル",
       "ko": "Grade 2 Skybuilders' Mesail"
     },
@@ -13241,12 +13311,29 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 3 Skybuilders' Mesail (patch 5.31)",
+      "cn": "第三期重建用的口罩",
       "de": "Federfall-Mesailvisier",
       "en": "Grade 3 Skybuilders' Mesail",
-      "fr": "Mésail de restauration (3e phase)",
+      "fr": "Mézail de restauration (3e phase)",
       "ja": "第三次復興用のメセイル",
       "ko": "Grade 3 Skybuilders' Mesail"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "0e382f5bc9f",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Mesail (patch 5.41)",
+      "de": "Himmelsang-Mesailvisier",
+      "en": "Grade 4 Skybuilders' Mesail",
+      "fr": "Mézail de restauration (4e phase)",
+      "ja": "第四次復興用のメセイル",
+      "ko": "Grade 4 Skybuilders' Mesail"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -13258,7 +13345,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Grooming Kit (patch 5.3)",
+      "cn": "保养胡子的工具",
       "de": "Pflegeprodukt für den Bart",
       "en": "Grooming Kit",
       "fr": "Ustensile d'entretien de barbe",
@@ -13275,7 +13362,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Heat-resistant Component (patch 5.3)",
+      "cn": "耐热性的部件",
       "de": "Hitzebeständiger Bestandteil",
       "en": "Heat-resistant Component",
       "fr": "Article réfractaire",
@@ -13309,7 +13396,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Low-profile Custom Option (patch 5.3)",
+      "cn": "隐秘型外装的部件",
       "de": "Unauffälliges Zubehörteil",
       "en": "Low-profile Custom Option",
       "fr": "Option de personnalisation discrète",
@@ -13411,7 +13498,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Rarefied Molybdenum Headgear (patch 5.3)",
+      "cn": "收藏用钼钢头甲",
       "de": "Molybdän-Kopfbedeckung (Sammlerstück)",
       "en": "Rarefied Molybdenum Headgear",
       "fr": "Protège-tête en molybdène collectionnable",
@@ -13445,7 +13532,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Steel Plate Component (patch 5.3)",
+      "cn": "钢板增产的部件",
       "de": "Hilfsmittel für die Stahlplattenproduktion",
       "en": "Steel Plate Component",
       "fr": "Composant de plaque de métal",
@@ -13462,7 +13549,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Tavern Materials (patch 5.3)",
+      "cn": "酒馆的必需品",
       "de": "Barzubehörteil",
       "en": "Tavern Materials",
       "fr": "Article pour la taverne",
@@ -13479,7 +13566,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Test-fire Target Dummy (patch 5.3)",
+      "cn": "试射用的靶子",
       "de": "Zielscheibe",
       "en": "Test-fire Target Dummy",
       "fr": "Cible de test",
@@ -13496,7 +13583,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Unfailing Eye Opener (patch 5.3)",
+      "cn": "驱散睡意的秘密道具",
       "de": "Ronitts Muntermacher",
       "en": "Unfailing Eye Opener",
       "fr": "Objet pour un réveil brutal",
@@ -13513,7 +13600,7 @@
     "level": 290,
     "maxQuality": 16430,
     "name": {
-      "cn": "Workshop Expansion Supplies (patch 5.3)",
+      "cn": "用于扩张据点的部件",
       "de": "Komponenten für eine Werkstattserweiterung",
       "en": "Workshop Expansion Supplies",
       "fr": "Composants d'atelier annexe",
@@ -13530,7 +13617,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Workshop Supplies (patch 5.3)",
+      "cn": "工作区的必需品",
       "de": "Werkstattzubehör",
       "en": "Workshop Supplies",
       "fr": "Composants d'atelier mécanique",
@@ -13830,8 +13917,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Shield (patch 5.3)",
-      "de": "Schild des Schlangengotts",
+      "cn": "青君大盾",
+      "de": "Schild des Schlangengottes",
       "en": "Seiryu's Sanctified Shield",
       "fr": "Bouclier de Seiryû flamboyant",
       "ja": "青龍大盾【輝】",
@@ -13885,7 +13972,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Shield (patch 5.3)",
+      "cn": "朱焰大盾",
       "de": "Schild des Feuervogels",
       "en": "Suzaku's Flame-kissed Shield",
       "fr": "Bouclier de Suzaku flamboyant",
@@ -13979,7 +14066,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Shield (patch 5.3)",
+      "cn": "月读命幽夜之盾",
       "de": "Schild des Mondlichts",
       "en": "Tsukuyomi's Moonlit Shield",
       "fr": "Bouclier de Tsukuyomi flamboyant",
@@ -14415,7 +14502,7 @@
     "level": 390,
     "maxQuality": 10468,
     "name": {
-      "cn": "Custom Gathering Tool Components (patch 5.3)",
+      "cn": "龙族用采集工具部件",
       "de": "Komponenten für ein spezielles Sammlerwerkzeug",
       "en": "Custom Gathering Tool Components",
       "fr": "Outils de récolte pour dragon",
@@ -14738,7 +14825,7 @@
     "level": 395,
     "maxQuality": 10928,
     "name": {
-      "cn": "Custom Weaving Components (patch 5.3)",
+      "cn": "龙族用缝纫工具",
       "de": "Komponenten für ein spezielles Weberwerkzeug",
       "en": "Custom Weaving Components",
       "fr": "Ustensiles de couture pour dragon",
@@ -14959,7 +15046,7 @@
     "level": 395,
     "maxQuality": 12977,
     "name": {
-      "cn": "Rarefied Deepgold Cuirass (patch 5.3)",
+      "cn": "收藏用深金胸甲",
       "de": "Dunkelgold-Kürass (Sammlerstück)",
       "en": "Rarefied Deepgold Cuirass",
       "fr": "Cuirasse en or incarnat collectionnable",
@@ -14993,7 +15080,7 @@
     "level": 400,
     "maxQuality": 11249,
     "name": {
-      "cn": "Custom Crafting Tool Components (patch 5.3)",
+      "cn": "龙族用工匠工具部件",
       "de": "Komponenten für ein spezielles Werkzeug",
       "en": "Custom Crafting Tool Components",
       "fr": "Outils d'artisanat pour dragon",
@@ -15350,7 +15437,7 @@
     "level": 403,
     "maxQuality": 11585,
     "name": {
-      "cn": "Handpicked Culinary Essentials (patch 5.3)",
+      "cn": "龙族用招待菜肴必需品",
       "de": "Handverlesene kulinarische Köstlichkeiten",
       "en": "Handpicked Culinary Essentials",
       "fr": "Sandwichs pour dragon",
@@ -15367,7 +15454,7 @@
     "level": 403,
     "maxQuality": 14482,
     "name": {
-      "cn": "Rarefied Deepgold Wings (patch 5.3)",
+      "cn": "收藏用深金翼冠",
       "de": "Dunkelgold-Schwingen (Sammlerstück)",
       "en": "Rarefied Deepgold Wings",
       "fr": "Diadème en or incarnat collectionnable",
@@ -15503,7 +15590,7 @@
     "level": 406,
     "maxQuality": 11921,
     "name": {
-      "cn": "Printing Essentials (patch 5.3)",
+      "cn": "印刷必需品",
       "de": "Druckutensilien",
       "en": "Printing Essentials",
       "fr": "Lot d'imprimerie",
@@ -15520,7 +15607,7 @@
     "level": 409,
     "maxQuality": 15322,
     "name": {
-      "cn": "Rarefied Bluespirit Gauntlets (patch 5.3)",
+      "cn": "收藏用灵青手铠",
       "de": "Seelenazurit-Panzerhandschuhe (Sammlerstück)",
       "en": "Rarefied Bluespirit Gauntlets",
       "fr": "Gantelets en azuresprit collectionnables",
@@ -16047,7 +16134,7 @@
     "level": 415,
     "maxQuality": 16162,
     "name": {
-      "cn": "Rarefied Titanbronze Tower Shield (patch 5.3)",
+      "cn": "收藏用钛铜塔盾",
       "de": "Titanbronze-Turmschild (Sammlerstück)",
       "en": "Rarefied Titanbronze Tower Shield",
       "fr": "Pavois en bronze titané collectionnable",
@@ -16234,7 +16321,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Automatic Door (patch 5.3)",
+      "cn": "复制自动门",
       "de": "Fabrik-Automatiktür",
       "en": "Factory Automatic Door",
       "fr": "Porte automatique usine désaffectée",
@@ -16251,7 +16338,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Beam (patch 5.3)",
+      "cn": "复制横梁",
       "de": "Fabrik-Balken",
       "en": "Factory Beam",
       "fr": "Poutrelle usine désaffectée",
@@ -16268,7 +16355,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Bench (patch 5.3)",
+      "cn": "复制长椅",
       "de": "Fabrik-Sitzbank",
       "en": "Factory Bench",
       "fr": "Sofa usine désaffectée",
@@ -16285,8 +16372,8 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Flooring (patch 5.3)",
-      "de": "Fabrik-Holzboden",
+      "cn": "复制地板",
+      "de": "Fabrik-Metallboden",
       "en": "Factory Flooring",
       "fr": "Parquet usine désaffectée",
       "ja": "複製サレタ床板",
@@ -16302,7 +16389,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Interior Wall (patch 5.3)",
+      "cn": "复制内墙",
       "de": "Fabrik-Innenwand",
       "en": "Factory Interior Wall",
       "fr": "Mur intérieur usine désaffectée",
@@ -16319,7 +16406,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Factory Staircase (patch 5.3)",
+      "cn": "复制台阶",
       "de": "Fabrik-Treppe",
       "en": "Factory Staircase",
       "fr": "Escalier usine désaffectée",
@@ -16370,7 +16457,7 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 3 Skybuilders' Lamppost (patch 5.31)",
+      "cn": "第三期重建用的街灯",
       "de": "Federfall-Laterne",
       "en": "Grade 3 Skybuilders' Lamppost",
       "fr": "Lampadaire de restauration (3e phase)",
@@ -16382,12 +16469,29 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "a417b5a0789",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Lamppost (patch 5.41)",
+      "de": "Himmelsang-Laterne",
+      "en": "Grade 4 Skybuilders' Lamppost",
+      "fr": "Lampadaire de restauration (4e phase)",
+      "ja": "第四次復興用の街灯",
+      "ko": "Grade 4 Skybuilders' Lamppost"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "0a41d04dc79",
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Oasis Wall-mounted Fountain (patch 5.3)",
+      "cn": "绿洲壁挂喷泉",
       "de": "Oasen-Wandbrunnen",
       "en": "Oasis Wall-mounted Fountain",
       "fr": "Fontaine murale thanalanaise",
@@ -16421,7 +16525,7 @@
     "level": 430,
     "maxQuality": 18262,
     "name": {
-      "cn": "Rarefied Mythril Alembic (patch 5.3)",
+      "cn": "收藏用矮人银蒸馏器",
       "de": "Edelmithril-Destillierkolben (Sammlerstück)",
       "en": "Rarefied Mythril Alembic",
       "fr": "Alambic en mithril noble collectionnable",
@@ -16847,6 +16951,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "b59c21a3b35",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Mythril Rings (patch 5.35)",
+      "de": "Werkstätten-Mithrildraht-Ringe",
+      "en": "Oddly Specific Mythril Rings",
+      "fr": "Anneaux en mithril d'affinage",
+      "ja": "改良用のミスリルリングズ",
+      "ko": "Oddly Specific Mythril Rings"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "90a23792c5d",
@@ -16910,7 +17032,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Alembic (patch 5.3)",
+      "cn": "唯美蒸馏器",
       "de": "Ästhetischer Destillierkolben",
       "en": "Aesthete's Alembic",
       "fr": "Alambic esthétique",
@@ -16929,7 +17051,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Frypan (patch 5.3)",
+      "cn": "唯美煎锅",
       "de": "Ästhetische Bratpfanne",
       "en": "Aesthete's Frypan",
       "fr": "Poêle à frire esthétique",
@@ -16948,7 +17070,7 @@
     "level": 480,
     "maxQuality": 37501,
     "name": {
-      "cn": "Brashgold Plate (patch 5.3)",
+      "cn": "炮铜板",
       "de": "Maschinenbronzeplatte",
       "en": "Brashgold Plate",
       "fr": "Plaque de bronze à canon",
@@ -17265,18 +17387,393 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "e70abfd01e5",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Mythril Plate (patch 5.35)",
+      "de": "Werkstätten-Mithril-Platte",
+      "en": "Oddly Specific Mythril Plate",
+      "fr": "Plaque de mithril d'affinage",
+      "ja": "改良用のミスリルプレート",
+      "ko": "Oddly Specific Mythril Plate"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "b155e2e8766",
+    "level": 480,
+    "maxQuality": 12931,
+    "name": {
+      "cn": "光之奖杯",
+      "de": "Krieger-des-Lichts-Trophäe",
+      "en": "Trophy of Light",
+      "fr": "Trophée de la Lumière",
+      "ja": "トロフィー・オブ・ライト",
+      "ko": "Trophy of Light"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "ca99e44a3b8",
+    "level": 480,
+    "maxQuality": 12931,
+    "name": {
+      "cn": "真·光之鸟甲",
+      "de": "Rossharnisch des Lichts",
+      "en": "True Barding of Light",
+      "fr": "Barde de la Lumière véritable",
+      "ja": "トゥルーバード・オブ・ライト",
+      "ko": "True Barding of Light"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "92fa8258f47",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Duraluminum Ingot (patch 5.4)",
+      "de": "Duraluminium-Barren",
+      "en": "Duraluminum Ingot",
+      "fr": "Lingot de duralium",
+      "ja": "ジュラルミンインゴット",
+      "ko": "Duraluminum Ingot"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "737c397bcf6",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Emerald Barding (patch 5.4)",
+      "de": "Smaragd-Rossharnisch",
+      "en": "Emerald Barding",
+      "fr": "Barde Smaragdus",
+      "ja": "エメラルド・バード",
+      "ko": "Emerald Barding"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5543,
+    "durability": 70,
+    "id": "4fe2c885e15",
+    "level": 510,
+    "maxQuality": 28331,
+    "name": {
+      "cn": "Emerald Weapon Bust (patch 5.4)",
+      "de": "Smaragd-Waffenbüste",
+      "en": "Emerald Weapon Bust",
+      "fr": "Buste Arme Émeraude",
+      "ja": "エメラルドウェポン・ディスプレイ",
+      "ko": "Emerald Weapon Bust"
+    },
+    "stars": 4,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "85a5381ec45",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Circlet of Fending (patch 5.4)",
+      "de": "Exarchen-Stirnreif der Verteidigung",
+      "en": "Exarchic Circlet of Fending",
+      "fr": "Diadème de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーサークレット",
+      "ko": "Exarchic Circlet of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "cee57f1876f",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Circlet of Maiming (patch 5.4)",
+      "de": "Exarchen-Stirnreif des Verstümmelns",
+      "en": "Exarchic Circlet of Maiming",
+      "fr": "Diadème d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーサークレット",
+      "ko": "Exarchic Circlet of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ef105e7a456",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Coat of Fending (patch 5.4)",
+      "de": "Exarchen-Mantel der Verteidigung",
+      "en": "Exarchic Coat of Fending",
+      "fr": "Manteau de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーコート",
+      "ko": "Exarchic Coat of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0ad68f8ea15",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gauntlets of Fending (patch 5.4)",
+      "de": "Exarchen-Panzerhandschuhe der Verteidigung",
+      "en": "Exarchic Gauntlets of Fending",
+      "fr": "Gantelets de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーガントレット",
+      "ko": "Exarchic Gauntlets of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "34e23586560",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Gauntlets of Maiming (patch 5.4)",
+      "de": "Exarchen-Panzerhandschuhe des Verstümmelns",
+      "en": "Exarchic Gauntlets of Maiming",
+      "fr": "Gantelets d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーガントレット",
+      "ko": "Exarchic Gauntlets of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "434c27a8022",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Mail of Maiming (patch 5.4)",
+      "de": "Exarchen-Rüstung des Verstümmelns",
+      "en": "Exarchic Mail of Maiming",
+      "fr": "Cotte de mailles d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーメイル",
+      "ko": "Exarchic Mail of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9910c69e232",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Casting (patch 5.4)",
+      "de": "Exarchen-Gürtel der Magie",
+      "en": "Exarchic Plate Belt of Casting",
+      "fr": "Ceinture de plaques d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスタープレートベルト",
+      "ko": "Exarchic Plate Belt of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ec06a583692",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Fending (patch 5.4)",
+      "de": "Exarchen-Plattengürtel der Verteidigung",
+      "en": "Exarchic Plate Belt of Fending",
+      "fr": "Ceinture de plaques de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダープレートベルト",
+      "ko": "Exarchic Plate Belt of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "f9caad90c24",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Healing (patch 5.4)",
+      "de": "Exarchen-Gürtel der Heilung",
+      "en": "Exarchic Plate Belt of Healing",
+      "fr": "Ceinture de plaques de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラープレートベルト",
+      "ko": "Exarchic Plate Belt of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "1bdd324931a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Plate Belt of Maiming (patch 5.4)",
+      "de": "Exarchen-Plattengürtel des Verstümmelns",
+      "en": "Exarchic Plate Belt of Maiming",
+      "fr": "Ceinture de plaques d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤープレートベルト",
+      "ko": "Exarchic Plate Belt of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "046d95ee838",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sabatons of Fending (patch 5.4)",
+      "de": "Exarchen-Bärlatschen der Verteidigung",
+      "en": "Exarchic Sabatons of Fending",
+      "fr": "Sabatons de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーサバトン",
+      "ko": "Exarchic Sabatons of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c740473f34e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Sabatons of Maiming (patch 5.4)",
+      "de": "Exarchen-Bärlatschen des Verstümmelns",
+      "en": "Exarchic Sabatons of Maiming",
+      "fr": "Sabatons d'abatteur de l'exarchat",
+      "ja": "エクサーク・スレイヤーサバトン",
+      "ko": "Exarchic Sabatons of Maiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "949719fb270",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Tower Shield (patch 5.4)",
+      "de": "Exarchen-Turmschild",
+      "en": "Exarchic Tower Shield",
+      "fr": "Pavois de l'exarchat",
+      "ja": "エクサーク・タワーシールド",
+      "ko": "Exarchic Tower Shield"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "d544a37121a",
     "level": 510,
     "maxQuality": 82400,
     "name": {
-      "cn": "Grade 3 Artisanal Skybuilders' Door (patch 5.31)",
+      "cn": "第三期重建用的特供门",
       "de": "Sonderbestellte Federfall-Tür",
       "en": "Grade 3 Artisanal Skybuilders' Door",
       "fr": "Porte sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注ドア",
       "ko": "Grade 3 Artisanal Skybuilders' Door"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 12046,
+    "durability": 55,
+    "id": "e78845f50ac",
+    "level": 510,
+    "maxQuality": 81447,
+    "name": {
+      "cn": "Grade 4 Artisanal Skybuilders' Company Chest (patch 5.41)",
+      "de": "Sonderbestellte Himmelsang-Gesellschaftstruhe",
+      "en": "Grade 4 Artisanal Skybuilders' Company Chest",
+      "fr": "Coffre de compagnie libre sur commande de restauration (4e phase)",
+      "ja": "第四次復興用の特注カンパニーチェスト",
+      "ko": "Grade 4 Artisanal Skybuilders' Company Chest"
     },
     "stars": 4,
     "suggestedControl": 2540,

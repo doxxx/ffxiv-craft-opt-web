@@ -1605,12 +1605,29 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 3 Skybuilders' Ingot (patch 5.31)",
+      "cn": "第三期重建用的金属锭",
       "de": "Federfall-Rohmetall",
       "en": "Grade 3 Skybuilders' Ingot",
       "fr": "Lingot précieux de restauration (3e phase)",
       "ja": "第三次復興用の地金",
       "ko": "Grade 3 Skybuilders' Ingot"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "a678ae62154",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Ingot (patch 5.41)",
+      "de": "Himmelsang-Rohmetall",
+      "en": "Grade 4 Skybuilders' Ingot",
+      "fr": "Lingot précieux de restauration (4e phase)",
+      "ja": "第四次復興用の地金",
+      "ko": "Grade 4 Skybuilders' Ingot"
     },
     "suggestedCraftsmanship": 94
   },
@@ -5107,12 +5124,29 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 3 Skybuilders' Rings (patch 5.31)",
+      "cn": "第三期重建用的铁环",
       "de": "Federfall-Eisenringe",
       "en": "Grade 3 Skybuilders' Rings",
       "fr": "Anneaux de métal de restauration (3e phase)",
       "ja": "第三次復興用の鉄環",
       "ko": "Grade 3 Skybuilders' Rings"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "2f6923f72b4",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Rings (patch 5.41)",
+      "de": "Himmelsang-Eisenringe",
+      "en": "Grade 4 Skybuilders' Rings",
+      "fr": "Anneaux de métal de restauration (4e phase)",
+      "ja": "第四次復興用の鉄環",
+      "ko": "Grade 4 Skybuilders' Rings"
     },
     "suggestedCraftsmanship": 136
   },
@@ -7487,7 +7521,7 @@
     "level": 50,
     "maxQuality": 4114,
     "name": {
-      "cn": "Rarefied Mythrite Goggles (patch 5.3)",
+      "cn": "收藏用灵银护目镜",
       "de": "Mythrit-Schutzbrille (Sammlerstück)",
       "en": "Rarefied Mythrite Goggles",
       "fr": "Lunettes en mithrite collectionnables",
@@ -11313,7 +11347,7 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "cn": "Rarefied Mythrite Bangle (patch 5.3)",
+      "cn": "收藏用灵银手镯",
       "de": "Mythrit-Armringe (Sammlerstück)",
       "en": "Rarefied Mythrite Bangle",
       "fr": "Joncs en mithrite collectionnables",
@@ -11806,7 +11840,7 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "cn": "Rarefied Mythrite Needle (patch 5.3)",
+      "cn": "收藏用灵银缝针",
       "de": "Mythrit-Nadel (Sammlerstück)",
       "en": "Rarefied Mythrite Needle",
       "fr": "Aiguille en mithrite collectionnable",
@@ -12367,7 +12401,7 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "cn": "Rarefied Hardsilver Monocle (patch 5.3)",
+      "cn": "收藏用硬银单眼镜",
       "de": "Hartsilber-Monokel (Sammlerstück)",
       "en": "Rarefied Hardsilver Monocle",
       "fr": "Monocle en durargent collectionnable",
@@ -12979,7 +13013,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Rarefied Hardsilver Pole (patch 5.3)",
+      "cn": "收藏用硬银玉杖",
       "de": "Hartsilber-Stecken (Sammlerstück)",
       "en": "Rarefied Hardsilver Pole",
       "fr": "Perche en durargent collectionnable",
@@ -14033,12 +14067,29 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 3 Skybuilders' Embroidery Frame (patch 5.31)",
+      "cn": "第三期重建用的裁缝工具",
       "de": "Federfall-Weberzeug",
       "en": "Grade 3 Skybuilders' Embroidery Frame",
       "fr": "Cercle à broder de restauration (3e phase)",
       "ja": "第三次復興用の裁縫道具",
       "ko": "Grade 3 Skybuilders' Embroidery Frame"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "acd62253c4f",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Embroidery Frame (patch 5.41)",
+      "de": "Himmelsang-Weberzeug",
+      "en": "Grade 4 Skybuilders' Embroidery Frame",
+      "fr": "Cercle à broder de restauration (4e phase)",
+      "ja": "第四次復興用の裁縫道具",
+      "ko": "Grade 4 Skybuilders' Embroidery Frame"
     },
     "suggestedCraftsmanship": 587
   },
@@ -14203,7 +14254,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Rarefied Aurum Regis Earrings (patch 5.3)",
+      "cn": "收藏用皇金耳坠",
       "de": "Königsgold-Ohrringe (Sammlerstück)",
       "en": "Rarefied Aurum Regis Earrings",
       "fr": "Pendants d'oreilles en aurum regis collectionnables",
@@ -15112,6 +15163,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "2b88649cc2d",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Cane of the Demon (patch 5.4)",
+      "de": "Stock des Dämons",
+      "en": "Cane of the Demon",
+      "fr": "Canne du Démon",
+      "ja": "ケーン・オブ・デモン",
+      "ko": "Cane of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "6a15f845529",
     "level": 210,
     "maxQuality": 8298,
@@ -15530,6 +15600,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "ad077a38590",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Rapier of the Demon (patch 5.4)",
+      "de": "Rapier des Dämons",
+      "en": "Rapier of the Demon",
+      "fr": "Rapière du Démon",
+      "ja": "レイピア・オブ・デモン",
+      "ko": "Rapier of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "7341acd3b6b",
     "level": 210,
     "maxQuality": 8298,
@@ -15834,6 +15923,25 @@
     "baseLevel": 60,
     "difficulty": 1106,
     "durability": 70,
+    "id": "ceb79c28965",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Staff of the Demon (patch 5.4)",
+      "de": "Stab des Dämons",
+      "en": "Staff of the Demon",
+      "fr": "Bâton du Démon",
+      "ja": "スタッフ・オブ・デモン",
+      "ko": "Staff of the Demon"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
     "id": "255206ca92c",
     "level": 210,
     "maxQuality": 8298,
@@ -15863,6 +15971,25 @@
       "fr": "Bâton de la Table ronde",
       "ja": "スタッフ・オブ・ラウンド",
       "ko": "기사신의 주술봉"
+    },
+    "stars": 3,
+    "suggestedControl": 820,
+    "suggestedCraftsmanship": 850
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 1106,
+    "durability": 70,
+    "id": "c672f14ab44",
+    "level": 210,
+    "maxQuality": 8298,
+    "name": {
+      "cn": "Star of the Demon (patch 5.4)",
+      "de": "Stern des Dämons",
+      "en": "Star of the Demon",
+      "fr": "Étoile du Démon",
+      "ja": "スター・オブ・デモン",
+      "ko": "Star of the Demon"
     },
     "stars": 3,
     "suggestedControl": 820,
@@ -17422,7 +17549,7 @@
     "level": 265,
     "maxQuality": 8581,
     "name": {
-      "cn": "Rarefied Koppranickel Planisphere (patch 5.3)",
+      "cn": "收藏用白铜天星盘",
       "de": "Kupfernickel-Planisphäre (Sammlerstück)",
       "en": "Rarefied Koppranickel Planisphere",
       "fr": "Planisphère en cupronickel collectionnable",
@@ -17881,7 +18008,7 @@
     "level": 273,
     "maxQuality": 9657,
     "name": {
-      "cn": "Rarefied Koppranickel Necklace (patch 5.3)",
+      "cn": "收藏用白铜项链",
       "de": "Kupfernickel-Halsband (Sammlerstück)",
       "en": "Rarefied Koppranickel Necklace",
       "fr": "Collier en cupronickel collectionnable",
@@ -18697,7 +18824,7 @@
     "level": 279,
     "maxQuality": 10389,
     "name": {
-      "cn": "Rarefied Durium Chaplets (patch 5.3)",
+      "cn": "收藏用翠银手甲",
       "de": "Durium-Ringbänder (Sammlerstück)",
       "en": "Rarefied Durium Chaplets",
       "fr": "Chapelets en durium collectionnables",
@@ -19445,7 +19572,7 @@
     "level": 285,
     "maxQuality": 11121,
     "name": {
-      "cn": "Rarefied Durium Rod (patch 5.3)",
+      "cn": "收藏用翠银法杖",
       "de": "Durium-Rute (Sammlerstück)",
       "en": "Rarefied Durium Rod",
       "fr": "Sceptre en durium collectionnable",
@@ -19717,7 +19844,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Armament Repair Kit (patch 5.3)",
+      "cn": "武器修理的部件",
       "de": "Reparaturwerkzeug",
       "en": "Armament Repair Kit",
       "fr": "Composant de réparation",
@@ -19734,7 +19861,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Automaton Repair Component (patch 5.3)",
+      "cn": "修理自走人偶的部件",
       "de": "Reparaturwerkstoff für Eisenbärte",
       "en": "Automaton Repair Component",
       "fr": "Composant de réparation d'automate",
@@ -19751,7 +19878,7 @@
     "level": 290,
     "maxQuality": 17017,
     "name": {
-      "cn": "Automaton Worker Supplies (patch 5.3)",
+      "cn": "自动化需要的部件",
       "de": "Fließbandkomponenten",
       "en": "Automaton Worker Supplies",
       "fr": "Composants de chaîne de montage",
@@ -19768,7 +19895,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Axle Component (patch 5.3)",
+      "cn": "减轻磨损的部件",
       "de": "Experimentelles Achsenzubehörteil",
       "en": "Axle Component",
       "fr": "Composant d'essieu expérimental",
@@ -19785,8 +19912,8 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Bespoke Barter Item (patch 5.3)",
-      "de": "Tauschware",
+      "cn": "充当货款的商品",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -19802,7 +19929,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Blueprint Supplies (patch 5.3)",
+      "cn": "矮人族绘图的工具",
       "de": "Schreibutensil",
       "en": "Blueprint Supplies",
       "fr": "Ustensile de dessin",
@@ -19819,7 +19946,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Brewery Supplies (patch 5.3)",
+      "cn": "酿造设备的必需品",
       "de": "Brauereikomponenten",
       "en": "Brewery Supplies",
       "fr": "Composants de brasserie",
@@ -19836,7 +19963,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cask Component (patch 5.3)",
+      "cn": "酒桶的部件",
       "de": "Fassbestandteil",
       "en": "Cask Component",
       "fr": "Composant de fût",
@@ -19853,7 +19980,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cooling Device Component (patch 5.3)",
+      "cn": "冷却装置的部件",
       "de": "Kühlmittel",
       "en": "Cooling Device Component",
       "fr": "Article refroidissant",
@@ -19870,7 +19997,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Core Tank Component (patch 5.3)",
+      "cn": "车身重要的部件",
       "de": "Zubehörteil des Zwergenpanzers",
       "en": "Core Tank Component",
       "fr": "Pièce complexe d'automatank",
@@ -19887,7 +20014,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Crystal Cannon Supplies (patch 5.3)",
+      "cn": "主炮的重要部件",
       "de": "Geschützkomponenten",
       "en": "Crystal Cannon Supplies",
       "fr": "Composants de canon",
@@ -19904,7 +20031,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Engine Component (patch 5.3)",
+      "cn": "保护引擎的部件",
       "de": "Hilfsmittel für die Motorwartung",
       "en": "Engine Component",
       "fr": "Composant d'amélioration de moteur",
@@ -19921,7 +20048,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Experimental Plating Component (patch 5.3)",
+      "cn": "试做装甲的部件",
       "de": "Bestandteil der Panzerung des Zwergenpanzers",
       "en": "Experimental Plating Component",
       "fr": "Pièce de renforcement",
@@ -19938,7 +20065,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Eye-catching Custom Option (patch 5.3)",
+      "cn": "气派华丽的外装部件",
       "de": "Auffälliges Zubehörteil",
       "en": "Eye-catching Custom Option",
       "fr": "Option de personnalisation criarde",
@@ -19955,7 +20082,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Filtration Supplies (patch 5.3)",
+      "cn": "提炼实验的用品",
       "de": "Utensil zum Experimentieren mit Zwergensprit",
       "en": "Filtration Supplies",
       "fr": "Ustensile d'expérience de raffinage",
@@ -20006,12 +20133,29 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 3 Skybuilders' Stone (patch 5.31)",
+      "cn": "第三期重建用的石材",
       "de": "Federfall-Naturbaustein",
       "en": "Grade 3 Skybuilders' Stone",
       "fr": "Bloc de pierre de restauration (3e phase)",
       "ja": "第三次復興用の石材",
       "ko": "Grade 3 Skybuilders' Stone"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "e565842746b",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Stone (patch 5.41)",
+      "de": "Himmelsang-Naturbaustein",
+      "en": "Grade 4 Skybuilders' Stone",
+      "fr": "Bloc de pierre de restauration (4e phase)",
+      "ja": "第四次復興用の石材",
+      "ko": "Grade 4 Skybuilders' Stone"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -20023,7 +20167,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Grooming Kit (patch 5.3)",
+      "cn": "保养胡子的工具",
       "de": "Pflegeprodukt für den Bart",
       "en": "Grooming Kit",
       "fr": "Ustensile d'entretien de barbe",
@@ -20040,7 +20184,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Heat-resistant Component (patch 5.3)",
+      "cn": "耐热性的部件",
       "de": "Hitzebeständiger Bestandteil",
       "en": "Heat-resistant Component",
       "fr": "Article réfractaire",
@@ -20227,7 +20371,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Low-profile Custom Option (patch 5.3)",
+      "cn": "隐秘型外装的部件",
       "de": "Unauffälliges Zubehörteil",
       "en": "Low-profile Custom Option",
       "fr": "Option de personnalisation discrète",
@@ -20261,7 +20405,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Rarefied Palladium Needle (patch 5.3)",
+      "cn": "收藏用钯金缝针",
       "de": "Palladium-Nadel (Sammlerstück)",
       "en": "Rarefied Palladium Needle",
       "fr": "Aiguille en palladium collectionnable",
@@ -20312,7 +20456,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Steel Plate Component (patch 5.3)",
+      "cn": "钢板增产的部件",
       "de": "Hilfsmittel für die Stahlplattenproduktion",
       "en": "Steel Plate Component",
       "fr": "Composant de plaque de métal",
@@ -20329,7 +20473,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Tavern Materials (patch 5.3)",
+      "cn": "酒馆的必需品",
       "de": "Barzubehörteil",
       "en": "Tavern Materials",
       "fr": "Article pour la taverne",
@@ -20346,7 +20490,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Test-fire Target Dummy (patch 5.3)",
+      "cn": "试射用的靶子",
       "de": "Zielscheibe",
       "en": "Test-fire Target Dummy",
       "fr": "Cible de test",
@@ -20380,7 +20524,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Unfailing Eye Opener (patch 5.3)",
+      "cn": "驱散睡意的秘密道具",
       "de": "Ronitts Muntermacher",
       "en": "Unfailing Eye Opener",
       "fr": "Objet pour un réveil brutal",
@@ -20397,7 +20541,7 @@
     "level": 290,
     "maxQuality": 16430,
     "name": {
-      "cn": "Workshop Expansion Supplies (patch 5.3)",
+      "cn": "用于扩张据点的部件",
       "de": "Komponenten für eine Werkstattserweiterung",
       "en": "Workshop Expansion Supplies",
       "fr": "Composants d'atelier annexe",
@@ -20414,7 +20558,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Workshop Supplies (patch 5.3)",
+      "cn": "工作区的必需品",
       "de": "Werkstattzubehör",
       "en": "Workshop Supplies",
       "fr": "Composants d'atelier mécanique",
@@ -21095,8 +21239,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Cane (patch 5.3)",
-      "de": "Stock des Schlangengotts",
+      "cn": "青君锡杖",
+      "de": "Stock des Schlangengottes",
       "en": "Seiryu's Sanctified Cane",
       "fr": "Khakkhara de Seiryû flamboyant",
       "ja": "青龍錫杖【輝】",
@@ -21113,8 +21257,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Ephemeris (patch 5.3)",
-      "de": "Astrometer des Schlangengotts",
+      "cn": "青君天仪",
+      "de": "Astrometer des Schlangengottes",
       "en": "Seiryu's Sanctified Ephemeris",
       "fr": "Éphéméridosphère de Seiryû flamboyante",
       "ja": "青龍干支【輝】",
@@ -21131,8 +21275,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Rapier (patch 5.3)",
-      "de": "Rapier des Schlangengotts",
+      "cn": "青君细剑",
+      "de": "Rapier des Schlangengottes",
       "en": "Seiryu's Sanctified Rapier",
       "fr": "Rapière de Seiryû flamboyante",
       "ja": "青龍細剣【輝】",
@@ -21149,8 +21293,8 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Seiryu's Sanctified Rod (patch 5.3)",
-      "de": "Stab des Schlangengotts",
+      "cn": "青君咒杖",
+      "de": "Stab des Schlangengottes",
       "en": "Seiryu's Sanctified Rod",
       "fr": "Bâton de Seiryû flamboyant",
       "ja": "青龍呪杖【輝】",
@@ -21221,7 +21365,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Ephemeris (patch 5.3)",
+      "cn": "朱焰天仪",
       "de": "Astrometer des Feuervogels",
       "en": "Suzaku's Flame-kissed Ephemeris",
       "fr": "Éphéméridosphère de Suzaku flamboyante",
@@ -21239,7 +21383,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Greatbow (patch 5.3)",
+      "cn": "朱焰大弓",
       "de": "Langbogen des Feuervogels",
       "en": "Suzaku's Flame-kissed Greatbow",
       "fr": "Grand arc de Suzaku flamboyant",
@@ -21257,7 +21401,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Rapier (patch 5.3)",
+      "cn": "朱焰细剑",
       "de": "Rapier des Feuervogels",
       "en": "Suzaku's Flame-kissed Rapier",
       "fr": "Rapière de Suzaku flamboyante",
@@ -21275,7 +21419,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Suzaku's Flame-kissed Rod (patch 5.3)",
+      "cn": "朱焰咒杖",
       "de": "Stab des Feuervogels",
       "en": "Suzaku's Flame-kissed Rod",
       "fr": "Bâton de Suzaku flamboyant",
@@ -21293,7 +21437,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Ephemeris (patch 5.3)",
+      "cn": "月读命幽夜天仪",
       "de": "Astrometer des Mondlichts",
       "en": "Tsukuyomi's Moonlit Ephemeris",
       "fr": "Éphéméridosphère de Tsukuyomi flamboyante",
@@ -21311,7 +21455,7 @@
     "level": 320,
     "maxQuality": 12511,
     "name": {
-      "cn": "Tsukuyomi's Moonlit Rapier (patch 5.3)",
+      "cn": "月读命幽夜细剑",
       "de": "Rapier des Mondlichts",
       "en": "Tsukuyomi's Moonlit Rapier",
       "fr": "Rapière de Tsukuyomi flamboyante",
@@ -22089,7 +22233,7 @@
     "level": 390,
     "maxQuality": 10468,
     "name": {
-      "cn": "Custom Gathering Tool Components (patch 5.3)",
+      "cn": "龙族用采集工具部件",
       "de": "Komponenten für ein spezielles Sammlerwerkzeug",
       "en": "Custom Gathering Tool Components",
       "fr": "Outils de récolte pour dragon",
@@ -22599,7 +22743,7 @@
     "level": 395,
     "maxQuality": 10928,
     "name": {
-      "cn": "Custom Weaving Components (patch 5.3)",
+      "cn": "龙族用缝纫工具",
       "de": "Komponenten für ein spezielles Weberwerkzeug",
       "en": "Custom Weaving Components",
       "fr": "Ustensiles de couture pour dragon",
@@ -22803,7 +22947,7 @@
     "level": 395,
     "maxQuality": 12977,
     "name": {
-      "cn": "Rarefied Stonegold Degen (patch 5.3)",
+      "cn": "收藏用石金重刺剑",
       "de": "Steingold-Degen (Sammlerstück)",
       "en": "Rarefied Stonegold Degen",
       "fr": "Alfange en or pétré collectionnable",
@@ -22854,7 +22998,7 @@
     "level": 400,
     "maxQuality": 11249,
     "name": {
-      "cn": "Custom Crafting Tool Components (patch 5.3)",
+      "cn": "龙族用工匠工具部件",
       "de": "Komponenten für ein spezielles Werkzeug",
       "en": "Custom Crafting Tool Components",
       "fr": "Outils d'artisanat pour dragon",
@@ -23228,7 +23372,7 @@
     "level": 403,
     "maxQuality": 11585,
     "name": {
-      "cn": "Handpicked Culinary Essentials (patch 5.3)",
+      "cn": "龙族用招待菜肴必需品",
       "de": "Handverlesene kulinarische Köstlichkeiten",
       "en": "Handpicked Culinary Essentials",
       "fr": "Sandwichs pour dragon",
@@ -23279,7 +23423,7 @@
     "level": 403,
     "maxQuality": 14482,
     "name": {
-      "cn": "Rarefied Stonegold Orrery (patch 5.3)",
+      "cn": "收藏用石金太阳仪",
       "de": "Steingold-Orrery (Sammlerstück)",
       "en": "Rarefied Stonegold Orrery",
       "fr": "Planétaire en or pétré collectionnable",
@@ -23500,7 +23644,7 @@
     "level": 406,
     "maxQuality": 11921,
     "name": {
-      "cn": "Printing Essentials (patch 5.3)",
+      "cn": "印刷必需品",
       "de": "Druckutensilien",
       "en": "Printing Essentials",
       "fr": "Lot d'imprimerie",
@@ -23534,7 +23678,7 @@
     "level": 409,
     "maxQuality": 15322,
     "name": {
-      "cn": "Rarefied Manasilver Ear Cuffs (patch 5.3)",
+      "cn": "收藏用魔银耳夹",
       "de": "Manasilber-Ohrringe (Sammlerstück)",
       "en": "Rarefied Manasilver Ear Cuffs",
       "fr": "Bagues d'oreilles en mana-argent collectionnables",
@@ -24333,7 +24477,7 @@
     "level": 415,
     "maxQuality": 16162,
     "name": {
-      "cn": "Rarefied Titanbronze Headgear (patch 5.3)",
+      "cn": "收藏用钛铜头甲",
       "de": "Titanbronze-Kopfbedeckung (Sammlerstück)",
       "en": "Rarefied Titanbronze Headgear",
       "fr": "Protège-tête en bronze titané collectionnable",
@@ -24673,7 +24817,7 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 3 Skybuilders' Brazier (patch 5.31)",
+      "cn": "第三期重建用的篝火台",
       "de": "Federfall-Feuerschale",
       "en": "Grade 3 Skybuilders' Brazier",
       "fr": "Socle à flambeau de restauration (3e phase)",
@@ -24685,12 +24829,29 @@
   {
     "baseLevel": 80,
     "difficulty": 3943,
+    "durability": 60,
+    "id": "9ab60be83ae",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Brazier (patch 5.41)",
+      "de": "Himmelsang-Feuerschale",
+      "en": "Grade 4 Skybuilders' Brazier",
+      "fr": "Socle à flambeau de restauration (4e phase)",
+      "ja": "第四次復興用の篝火台",
+      "ko": "Grade 4 Skybuilders' Brazier"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
     "durability": 80,
     "id": "44173b43bc8",
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Marble Alcove Bed (patch 5.3)",
+      "cn": "大理石壁床",
       "de": "Marmor-Alkoven-Bett",
       "en": "Marble Alcove Bed",
       "fr": "Lit en alcôve en marbre",
@@ -24741,7 +24902,7 @@
     "level": 430,
     "maxQuality": 18262,
     "name": {
-      "cn": "Rarefied Mythril Ring (patch 5.3)",
+      "cn": "收藏用矮人银指环",
       "de": "Edelmithril-Ring (Sammlerstück)",
       "en": "Rarefied Mythril Ring",
       "fr": "Bague en mithril noble collectionnable",
@@ -25352,6 +25513,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "21263e04c67",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Silver Nugget (patch 5.35)",
+      "de": "Werkstätten-Silber-Nugget",
+      "en": "Oddly Specific Silver Nugget",
+      "fr": "Pépite d'argent d'affinage",
+      "ja": "改良用のシルバーナゲット",
+      "ko": "Oddly Specific Silver Nugget"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4560,
     "durability": 70,
     "id": "c0a2bd7dc61",
@@ -25396,7 +25575,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Bracelets of Crafting (patch 5.3)",
+      "cn": "唯美巧匠腕环",
       "de": "Ästhetische Armreife des Handwerks",
       "en": "Aesthete's Bracelets of Crafting",
       "fr": "Bracelets des créations esthétiques",
@@ -25415,7 +25594,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Choker of Crafting (patch 5.3)",
+      "cn": "唯美巧匠项环",
       "de": "Ästhetische Halsberge des Handwerks",
       "en": "Aesthete's Choker of Crafting",
       "fr": "Ras de cou des créations esthétique",
@@ -25434,7 +25613,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Ear Cuffs of Crafting (patch 5.3)",
+      "cn": "唯美巧匠耳夹",
       "de": "Ästhetische Ohrringe des Handwerks",
       "en": "Aesthete's Ear Cuffs of Crafting",
       "fr": "Bagues d'oreilles des créations esthétiques",
@@ -25453,7 +25632,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Needle (patch 5.3)",
+      "cn": "唯美缝针",
       "de": "Ästhetische Nadel",
       "en": "Aesthete's Needle",
       "fr": "Aiguille esthétique",
@@ -25472,7 +25651,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Aesthete's Ring of Crafting (patch 5.3)",
+      "cn": "唯美巧匠戒指",
       "de": "Ästhetischer Ring des Handwerks",
       "en": "Aesthete's Ring of Crafting",
       "fr": "Bague des créations esthétique",
@@ -25752,6 +25931,24 @@
   {
     "baseLevel": 80,
     "difficulty": 4943,
+    "durability": 70,
+    "id": "a2c56402703",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Silver Ingot (patch 5.35)",
+      "de": "Werkstätten-Silberbarren",
+      "en": "Oddly Specific Silver Ingot",
+      "fr": "Lingot d'argent d'affinage",
+      "ja": "改良用のシルバーインゴット",
+      "ko": "Oddly Specific Silver Ingot"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 4943,
     "durability": 35,
     "id": "3ea246bc703",
     "level": 480,
@@ -25770,18 +25967,322 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ca001bb664e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Circlet of Healing (patch 5.4)",
+      "de": "Exarchen-Stirnreif der Heilung",
+      "en": "Exarchic Circlet of Healing",
+      "fr": "Diadème de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーサークレット",
+      "ko": "Exarchic Circlet of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "bdb70c6cc34",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Aiming (patch 5.4)",
+      "de": "Exarchen-Ohrringe des Zielens",
+      "en": "Exarchic Earrings of Aiming",
+      "fr": "Boucles d'oreilles de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーイヤリング",
+      "ko": "Exarchic Earrings of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "529a501c88c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Casting (patch 5.4)",
+      "de": "Exarchen-Ohrringe der Magie",
+      "en": "Exarchic Earrings of Casting",
+      "fr": "Boucles d'oreilles d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターイヤリング",
+      "ko": "Exarchic Earrings of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "e5d7a91bedd",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Fending (patch 5.4)",
+      "de": "Exarchen-Ohrringe der Verteidigung",
+      "en": "Exarchic Earrings of Fending",
+      "fr": "Boucles d'oreilles de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーイヤリング",
+      "ko": "Exarchic Earrings of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "112d6a99cbf",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Healing (patch 5.4)",
+      "de": "Exarchen-Ohrringe der Heilung",
+      "en": "Exarchic Earrings of Healing",
+      "fr": "Boucles d'oreilles de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーイヤリング",
+      "ko": "Exarchic Earrings of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0280a039872",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Earrings of Slaying (patch 5.4)",
+      "de": "Exarchen-Ohrringe des Schlachtens",
+      "en": "Exarchic Earrings of Slaying",
+      "fr": "Boucles d'oreilles d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーイヤリング",
+      "ko": "Exarchic Earrings of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "c3f0af2bb9e",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Rapier (patch 5.4)",
+      "de": "Exarchen-Rapier",
+      "en": "Exarchic Rapier",
+      "fr": "Rapière de l'exarchat",
+      "ja": "エクサークレイピア",
+      "ko": "Exarchic Rapier"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "6d003cfbc42",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Aiming (patch 5.4)",
+      "de": "Exarchen-Ring des Zielens",
+      "en": "Exarchic Ring of Aiming",
+      "fr": "Bague de pisteur de l'exarchat",
+      "ja": "エクサーク・レンジャーリング",
+      "ko": "Exarchic Ring of Aiming"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "636b594aff6",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Casting (patch 5.4)",
+      "de": "Exarchen-Ring der Magie",
+      "en": "Exarchic Ring of Casting",
+      "fr": "Bague d'incantateur de l'exarchat",
+      "ja": "エクサーク・キャスターリング",
+      "ko": "Exarchic Ring of Casting"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "e46f2f85b67",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Fending (patch 5.4)",
+      "de": "Exarchen-Ring der Verteidigung",
+      "en": "Exarchic Ring of Fending",
+      "fr": "Bague de protecteur de l'exarchat",
+      "ja": "エクサーク・ディフェンダーリング",
+      "ko": "Exarchic Ring of Fending"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "893cfe9907a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Healing (patch 5.4)",
+      "de": "Exarchen-Ring der Heilung",
+      "en": "Exarchic Ring of Healing",
+      "fr": "Bague de soigneur de l'exarchat",
+      "ja": "エクサーク・ヒーラーリング",
+      "ko": "Exarchic Ring of Healing"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ded82bff74b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Ring of Slaying (patch 5.4)",
+      "de": "Exarchen-Ring des Schlachtens",
+      "en": "Exarchic Ring of Slaying",
+      "fr": "Bague d'attaquant de l'exarchat",
+      "ja": "エクサーク・アタッカーリング",
+      "ko": "Exarchic Ring of Slaying"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "d182d268f4b",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Rod (patch 5.4)",
+      "de": "Exarchen-Stab",
+      "en": "Exarchic Rod",
+      "fr": "Sceptre de l'exarchat",
+      "ja": "エクサークロッド",
+      "ko": "Exarchic Rod"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "9e3477dfd1c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Exarchic Star Globe (patch 5.4)",
+      "de": "Exarchen-Sternenglobus",
+      "en": "Exarchic Star Globe",
+      "fr": "Globe céleste de l'exarchat",
+      "ja": "エクサークスターグローブ",
+      "ko": "Exarchic Star Globe"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "c5b911670b9",
     "level": 510,
     "maxQuality": 82400,
     "name": {
-      "cn": "Grade 3 Artisanal Skybuilders' Chronometer (patch 5.31)",
+      "cn": "第三期重建用的特供时钟",
       "de": "Sonderbestellter Federfall-Chronometer",
       "en": "Grade 3 Artisanal Skybuilders' Chronometer",
       "fr": "Horloge sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注クロノメーター",
       "ko": "Grade 3 Artisanal Skybuilders' Chronometer"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 12046,
+    "durability": 55,
+    "id": "6682820a071",
+    "level": 510,
+    "maxQuality": 81447,
+    "name": {
+      "cn": "Grade 4 Artisanal Skybuilders' Astroscope (patch 5.41)",
+      "de": "Sonderbestelltes Himmelsang-Astroskop",
+      "en": "Grade 4 Artisanal Skybuilders' Astroscope",
+      "fr": "Astroscope sur commande de restauration (4e phase)",
+      "ja": "第四次復興用の特注アストロスコープ",
+      "ko": "Grade 4 Artisanal Skybuilders' Astroscope"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 5820,
+    "durability": 35,
+    "id": "956abb9e972",
+    "level": 510,
+    "maxQuality": 46746,
+    "name": {
+      "cn": "Solstice Ingot (patch 5.4)",
+      "de": "Nachtsonnenkristallplatten",
+      "en": "Solstice Ingot",
+      "fr": "Barre solsticiale",
+      "ja": "白夜結晶板",
+      "ko": "Solstice Ingot"
     },
     "stars": 4,
     "suggestedControl": 2540,

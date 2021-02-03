@@ -1656,12 +1656,29 @@
     "level": 20,
     "maxQuality": 1263,
     "name": {
-      "cn": "Grade 3 Skybuilders' Hemp Milk (patch 5.31)",
+      "cn": "第三期重建用的麻乳",
       "de": "Federfall-Hanfmilch",
       "en": "Grade 3 Skybuilders' Hemp Milk",
       "fr": "Lait de chanvre de restauration (3e phase)",
       "ja": "第三次復興用のヘンプミルク",
       "ko": "Grade 3 Skybuilders' Hemp Milk"
+    },
+    "suggestedCraftsmanship": 94
+  },
+  {
+    "baseLevel": 20,
+    "difficulty": 74,
+    "durability": 60,
+    "id": "89267d03601",
+    "level": 20,
+    "maxQuality": 1263,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Hemp Milk (patch 5.41)",
+      "de": "Himmelsang-Hanfmilch",
+      "en": "Grade 4 Skybuilders' Hemp Milk",
+      "fr": "Lait de chanvre de restauration (4e phase)",
+      "ja": "第四次復興用のヘンプミルク",
+      "ko": "Grade 4 Skybuilders' Hemp Milk"
     },
     "suggestedCraftsmanship": 94
   },
@@ -3101,12 +3118,29 @@
     "level": 40,
     "maxQuality": 4100,
     "name": {
-      "cn": "Grade 3 Skybuilders' Sesame Cookie (patch 5.31)",
+      "cn": "第三期重建用的芝麻饼干",
       "de": "Federfall-Sesamkeks",
       "en": "Grade 3 Skybuilders' Sesame Cookie",
       "fr": "Biscuit au sésame de restauration (3e phase)",
       "ja": "第三次復興用のセサミクッキー",
       "ko": "Grade 3 Skybuilders' Sesame Cookie"
+    },
+    "suggestedCraftsmanship": 136
+  },
+  {
+    "baseLevel": 40,
+    "difficulty": 138,
+    "durability": 60,
+    "id": "11fa4492afc",
+    "level": 40,
+    "maxQuality": 4100,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Sesame Cookie (patch 5.41)",
+      "de": "Himmelsang-Sesamkeks",
+      "en": "Grade 4 Skybuilders' Sesame Cookie",
+      "fr": "Biscuit au sésame de restauration (4e phase)",
+      "ja": "第四次復興用のセサミクッキー",
+      "ko": "Grade 4 Skybuilders' Sesame Cookie"
     },
     "suggestedCraftsmanship": 136
   },
@@ -3781,7 +3815,7 @@
     "level": 50,
     "maxQuality": 4114,
     "name": {
-      "cn": "Rarefied Dhalmel Gratin (patch 5.3)",
+      "cn": "收藏用千层长颈驼焗野菜",
       "de": "Dhalmel-Gratin (Sammlerstück)",
       "en": "Rarefied Dhalmel Gratin",
       "fr": "Gratin de dhalmel collectionnable",
@@ -4787,7 +4821,7 @@
     "level": 125,
     "maxQuality": 5172,
     "name": {
-      "cn": "Rarefied Sohm Al Tart (patch 5.3)",
+      "cn": "收藏用索姆阿尔栗子蛋糕",
       "de": "Mont Sohm Al-Süßspeise (Sammlerstück)",
       "en": "Rarefied Sohm Al Tart",
       "fr": "Sohm Al aux marrons collectionnable",
@@ -4957,7 +4991,7 @@
     "level": 133,
     "maxQuality": 6042,
     "name": {
-      "cn": "Rarefied Sauteed Porcini (patch 5.3)",
+      "cn": "收藏用煎牛肝菌",
       "de": "Porciniragout (Sammlerstück)",
       "en": "Rarefied Sauteed Porcini",
       "fr": "Bolets sautés collectionnables",
@@ -5110,7 +5144,7 @@
     "level": 139,
     "maxQuality": 6561,
     "name": {
-      "cn": "Rarefied Royal Eggs (patch 5.3)",
+      "cn": "收藏用皇家蒸蛋",
       "de": "Eier Royal (Sammlerstück)",
       "en": "Rarefied Royal Eggs",
       "fr": "Œufs royaux collectionnables",
@@ -5433,7 +5467,7 @@
     "level": 145,
     "maxQuality": 7080,
     "name": {
-      "cn": "Rarefied Peperoncino (patch 5.3)",
+      "cn": "收藏用风味拌细面",
       "de": "Peperoncino (Sammlerstück)",
       "en": "Rarefied Peperoncino",
       "fr": "Pâtes aux piments collectionnables",
@@ -5909,12 +5943,29 @@
     "level": 150,
     "maxQuality": 15702,
     "name": {
-      "cn": "Grade 3 Skybuilders' Tea (patch 5.31)",
+      "cn": "第三期重建用的红茶",
       "de": "Federfall-Schwarztee",
       "en": "Grade 3 Skybuilders' Tea",
       "fr": "Thé de restauration (3e phase)",
       "ja": "第三次復興用の紅茶",
       "ko": "Grade 3 Skybuilders' Tea"
+    },
+    "suggestedCraftsmanship": 587
+  },
+  {
+    "baseLevel": 60,
+    "difficulty": 956,
+    "durability": 60,
+    "id": "c571a4e782f",
+    "level": 150,
+    "maxQuality": 15702,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Tea (patch 5.41)",
+      "de": "Himmelsang-Schwarztee",
+      "en": "Grade 4 Skybuilders' Tea",
+      "fr": "Thé de restauration (4e phase)",
+      "ja": "第四次復興用の紅茶",
+      "ko": "Grade 4 Skybuilders' Tea"
     },
     "suggestedCraftsmanship": 587
   },
@@ -6079,7 +6130,7 @@
     "level": 150,
     "maxQuality": 7851,
     "name": {
-      "cn": "Rarefied Marron Glace (patch 5.3)",
+      "cn": "收藏用栗子冰糕",
       "de": "Glasierte Glanznüsse (Sammlerstück)",
       "en": "Rarefied Marron Glace",
       "fr": "Marrons glacés collectionnables",
@@ -6976,7 +7027,7 @@
     "level": 265,
     "maxQuality": 8581,
     "name": {
-      "cn": "Rarefied Baklava (patch 5.3)",
+      "cn": "收藏用果仁蜜饼",
       "de": "Baklava (Sammlerstück)",
       "en": "Rarefied Baklava",
       "fr": "Baklava collectionnable",
@@ -7282,7 +7333,7 @@
     "level": 273,
     "maxQuality": 9657,
     "name": {
-      "cn": "Rarefied Shorlog (patch 5.3)",
+      "cn": "收藏用牛肉串",
       "de": "Shorlog (Sammlerstück)",
       "en": "Rarefied Shorlog",
       "fr": "Shorlog collectionnable",
@@ -7520,7 +7571,7 @@
     "level": 279,
     "maxQuality": 10389,
     "name": {
-      "cn": "Rarefied Tempura Platter (patch 5.3)",
+      "cn": "收藏用天妇罗拼盘",
       "de": "Tempura-Platte (Sammlerstück)",
       "en": "Rarefied Tempura Platter",
       "fr": "Assortiment de tenpura collectionnable",
@@ -7809,7 +7860,7 @@
     "level": 285,
     "maxQuality": 11121,
     "name": {
-      "cn": "Rarefied Persimmon Pudding (patch 5.3)",
+      "cn": "收藏用柿子布丁",
       "de": "Kakipudding (Sammlerstück)",
       "en": "Rarefied Persimmon Pudding",
       "fr": "Flan aux kakis collectionnable",
@@ -7894,7 +7945,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Armament Repair Kit (patch 5.3)",
+      "cn": "武器修理的部件",
       "de": "Reparaturwerkzeug",
       "en": "Armament Repair Kit",
       "fr": "Composant de réparation",
@@ -7911,7 +7962,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Automaton Repair Component (patch 5.3)",
+      "cn": "修理自走人偶的部件",
       "de": "Reparaturwerkstoff für Eisenbärte",
       "en": "Automaton Repair Component",
       "fr": "Composant de réparation d'automate",
@@ -7928,7 +7979,7 @@
     "level": 290,
     "maxQuality": 17017,
     "name": {
-      "cn": "Automaton Worker Supplies (patch 5.3)",
+      "cn": "自动化需要的部件",
       "de": "Fließbandkomponenten",
       "en": "Automaton Worker Supplies",
       "fr": "Composants de chaîne de montage",
@@ -7945,7 +7996,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Axle Component (patch 5.3)",
+      "cn": "减轻磨损的部件",
       "de": "Experimentelles Achsenzubehörteil",
       "en": "Axle Component",
       "fr": "Composant d'essieu expérimental",
@@ -7962,8 +8013,8 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Bespoke Barter Item (patch 5.3)",
-      "de": "Tauschware",
+      "cn": "充当货款的商品",
+      "de": "Handelsgut",
       "en": "Bespoke Barter Item",
       "fr": "Objet pour le marchand mord",
       "ja": "代金代わりの商品",
@@ -7979,7 +8030,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Blueprint Supplies (patch 5.3)",
+      "cn": "矮人族绘图的工具",
       "de": "Schreibutensil",
       "en": "Blueprint Supplies",
       "fr": "Ustensile de dessin",
@@ -7996,7 +8047,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Brewery Supplies (patch 5.3)",
+      "cn": "酿造设备的必需品",
       "de": "Brauereikomponenten",
       "en": "Brewery Supplies",
       "fr": "Composants de brasserie",
@@ -8013,7 +8064,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cask Component (patch 5.3)",
+      "cn": "酒桶的部件",
       "de": "Fassbestandteil",
       "en": "Cask Component",
       "fr": "Composant de fût",
@@ -8030,7 +8081,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Cooling Device Component (patch 5.3)",
+      "cn": "冷却装置的部件",
       "de": "Kühlmittel",
       "en": "Cooling Device Component",
       "fr": "Article refroidissant",
@@ -8047,7 +8098,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Core Tank Component (patch 5.3)",
+      "cn": "车身重要的部件",
       "de": "Zubehörteil des Zwergenpanzers",
       "en": "Core Tank Component",
       "fr": "Pièce complexe d'automatank",
@@ -8064,7 +8115,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Crystal Cannon Supplies (patch 5.3)",
+      "cn": "主炮的重要部件",
       "de": "Geschützkomponenten",
       "en": "Crystal Cannon Supplies",
       "fr": "Composants de canon",
@@ -8115,7 +8166,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Engine Component (patch 5.3)",
+      "cn": "保护引擎的部件",
       "de": "Hilfsmittel für die Motorwartung",
       "en": "Engine Component",
       "fr": "Composant d'amélioration de moteur",
@@ -8132,7 +8183,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Experimental Plating Component (patch 5.3)",
+      "cn": "试做装甲的部件",
       "de": "Bestandteil der Panzerung des Zwergenpanzers",
       "en": "Experimental Plating Component",
       "fr": "Pièce de renforcement",
@@ -8149,7 +8200,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Eye-catching Custom Option (patch 5.3)",
+      "cn": "气派华丽的外装部件",
       "de": "Auffälliges Zubehörteil",
       "en": "Eye-catching Custom Option",
       "fr": "Option de personnalisation criarde",
@@ -8166,7 +8217,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Filtration Supplies (patch 5.3)",
+      "cn": "提炼实验的用品",
       "de": "Utensil zum Experimentieren mit Zwergensprit",
       "en": "Filtration Supplies",
       "fr": "Ustensile d'expérience de raffinage",
@@ -8217,12 +8268,29 @@
     "level": 290,
     "maxQuality": 32860,
     "name": {
-      "cn": "Grade 3 Skybuilders' All-purpose Infusion (patch 5.31)",
+      "cn": "第三期重建用的药汤",
       "de": "Federfall-Kräuterbad",
       "en": "Grade 3 Skybuilders' All-purpose Infusion",
       "fr": "Tisane de restauration (3e phase)",
       "ja": "第三次復興用の薬湯",
       "ko": "Grade 3 Skybuilders' All-purpose Infusion"
+    },
+    "suggestedCraftsmanship": 1079
+  },
+  {
+    "baseLevel": 70,
+    "difficulty": 2214,
+    "durability": 60,
+    "id": "4aff96a3a54",
+    "level": 290,
+    "maxQuality": 32860,
+    "name": {
+      "cn": "Grade 4 Skybuilders' All-purpose Infusion (patch 5.41)",
+      "de": "Himmelsang-Kräuterbad",
+      "en": "Grade 4 Skybuilders' All-purpose Infusion",
+      "fr": "Tisane de restauration (4e phase)",
+      "ja": "第四次復興用の薬湯",
+      "ko": "Grade 4 Skybuilders' All-purpose Infusion"
     },
     "suggestedCraftsmanship": 1079
   },
@@ -8234,7 +8302,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Grooming Kit (patch 5.3)",
+      "cn": "保养胡子的工具",
       "de": "Pflegeprodukt für den Bart",
       "en": "Grooming Kit",
       "fr": "Ustensile d'entretien de barbe",
@@ -8251,7 +8319,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Heat-resistant Component (patch 5.3)",
+      "cn": "耐热性的部件",
       "de": "Hitzebeständiger Bestandteil",
       "en": "Heat-resistant Component",
       "fr": "Article réfractaire",
@@ -8285,7 +8353,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Low-profile Custom Option (patch 5.3)",
+      "cn": "隐秘型外装的部件",
       "de": "Unauffälliges Zubehörteil",
       "en": "Low-profile Custom Option",
       "fr": "Option de personnalisation discrète",
@@ -8302,7 +8370,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Rarefied Chirashi-zushi (patch 5.3)",
+      "cn": "收藏用散寿司",
       "de": "Chirashi-Sushi (Sammlerstück)",
       "en": "Rarefied Chirashi-zushi",
       "fr": "Chirashi-zushi collectionnable",
@@ -8353,7 +8421,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Steel Plate Component (patch 5.3)",
+      "cn": "钢板增产的部件",
       "de": "Hilfsmittel für die Stahlplattenproduktion",
       "en": "Steel Plate Component",
       "fr": "Composant de plaque de métal",
@@ -8387,7 +8455,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Tavern Materials (patch 5.3)",
+      "cn": "酒馆的必需品",
       "de": "Barzubehörteil",
       "en": "Tavern Materials",
       "fr": "Article pour la taverne",
@@ -8404,7 +8472,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Test-fire Target Dummy (patch 5.3)",
+      "cn": "试射用的靶子",
       "de": "Zielscheibe",
       "en": "Test-fire Target Dummy",
       "fr": "Cible de test",
@@ -8421,7 +8489,7 @@
     "level": 290,
     "maxQuality": 15843,
     "name": {
-      "cn": "Unfailing Eye Opener (patch 5.3)",
+      "cn": "驱散睡意的秘密道具",
       "de": "Ronitts Muntermacher",
       "en": "Unfailing Eye Opener",
       "fr": "Objet pour un réveil brutal",
@@ -8438,7 +8506,7 @@
     "level": 290,
     "maxQuality": 16430,
     "name": {
-      "cn": "Workshop Expansion Supplies (patch 5.3)",
+      "cn": "用于扩张据点的部件",
       "de": "Komponenten für eine Werkstattserweiterung",
       "en": "Workshop Expansion Supplies",
       "fr": "Composants d'atelier annexe",
@@ -8455,7 +8523,7 @@
     "level": 290,
     "maxQuality": 11736,
     "name": {
-      "cn": "Workshop Supplies (patch 5.3)",
+      "cn": "工作区的必需品",
       "de": "Werkstattzubehör",
       "en": "Workshop Supplies",
       "fr": "Composants d'atelier mécanique",
@@ -8965,7 +9033,7 @@
     "level": 390,
     "maxQuality": 10468,
     "name": {
-      "cn": "Custom Gathering Tool Components (patch 5.3)",
+      "cn": "龙族用采集工具部件",
       "de": "Komponenten für ein spezielles Sammlerwerkzeug",
       "en": "Custom Gathering Tool Components",
       "fr": "Outils de récolte pour dragon",
@@ -9101,7 +9169,7 @@
     "level": 395,
     "maxQuality": 10928,
     "name": {
-      "cn": "Custom Weaving Components (patch 5.3)",
+      "cn": "龙族用缝纫工具",
       "de": "Komponenten für ein spezielles Weberwerkzeug",
       "en": "Custom Weaving Components",
       "fr": "Ustensiles de couture pour dragon",
@@ -9135,7 +9203,7 @@
     "level": 395,
     "maxQuality": 12977,
     "name": {
-      "cn": "Rarefied Grilled Rail (patch 5.3)",
+      "cn": "收藏用秧鸡烤肉",
       "de": "Gegrillte Ralle (Sammlerstück)",
       "en": "Rarefied Grilled Rail",
       "fr": "Tranche de râle grillée collectionnable",
@@ -9186,7 +9254,7 @@
     "level": 400,
     "maxQuality": 11249,
     "name": {
-      "cn": "Custom Crafting Tool Components (patch 5.3)",
+      "cn": "龙族用工匠工具部件",
       "de": "Komponenten für ein spezielles Werkzeug",
       "en": "Custom Crafting Tool Components",
       "fr": "Outils d'artisanat pour dragon",
@@ -9322,7 +9390,7 @@
     "level": 403,
     "maxQuality": 11585,
     "name": {
-      "cn": "Handpicked Culinary Essentials (patch 5.3)",
+      "cn": "龙族用招待菜肴必需品",
       "de": "Handverlesene kulinarische Köstlichkeiten",
       "en": "Handpicked Culinary Essentials",
       "fr": "Sandwichs pour dragon",
@@ -9356,11 +9424,11 @@
     "level": 403,
     "maxQuality": 14482,
     "name": {
-      "cn": "Rarefied Spaghetti al Nero (patch 5.3)",
+      "cn": "收藏用黑色肉酱面",
       "de": "Tintenschwarze Spaghetti (Sammlerstück)",
       "en": "Rarefied Spaghetti al Nero",
       "fr": "Spaghetti al nero collectionnables",
-      "ja": "収集用のスパゲッティネーロ",
+      "ja": "収集用のスパゲッティ・ネーロ",
       "ko": "Rarefied Spaghetti al Nero"
     },
     "suggestedCraftsmanship": 1498
@@ -9492,7 +9560,7 @@
     "level": 406,
     "maxQuality": 11921,
     "name": {
-      "cn": "Printing Essentials (patch 5.3)",
+      "cn": "印刷必需品",
       "de": "Druckutensilien",
       "en": "Printing Essentials",
       "fr": "Lot d'imprimerie",
@@ -9543,7 +9611,7 @@
     "level": 409,
     "maxQuality": 15322,
     "name": {
-      "cn": "Rarefied Popotoes au Gratin (patch 5.3)",
+      "cn": "收藏用焗黄新薯",
       "de": "Ockertoffel-Gratin (Sammlerstück)",
       "en": "Rarefied Popotoes au Gratin",
       "fr": "Gratin de popotos brunes collectionnable",
@@ -9781,7 +9849,7 @@
     "level": 415,
     "maxQuality": 16162,
     "name": {
-      "cn": "Rarefied Espresso con Panna (patch 5.3)",
+      "cn": "收藏用浓缩奶油咖啡",
       "de": "Sahne-Espresso (Sammlerstück)",
       "en": "Rarefied Espresso con Panna",
       "fr": "Espresso con panna collectionnable",
@@ -9862,6 +9930,40 @@
     "baseLevel": 80,
     "difficulty": 3943,
     "durability": 80,
+    "id": "00f01e91218",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Baked Goods Showcase (patch 5.4)",
+      "de": "Gebäck-Schaukasten",
+      "en": "Baked Goods Showcase",
+      "fr": "Vitrine de viennoiseries",
+      "ja": "ペストリーショーケース",
+      "ko": "Baked Goods Showcase"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "d7c096b70ec",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Baker's Show Window (patch 5.4)",
+      "de": "Gebäck-Schaufenster",
+      "en": "Baker's Show Window",
+      "fr": "Vitrine extérieure de viennoiseries",
+      "ja": "ペストリーショーウィンドウ",
+      "ko": "Baker's Show Window"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
     "id": "4a5ee5bc512",
     "level": 430,
     "maxQuality": 9131,
@@ -9883,7 +9985,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Giant Beaver Burger Set (patch 5.3)",
+      "cn": "大河狸汉堡组合",
       "de": "Riesenburger-Set",
       "en": "Giant Beaver Burger Set",
       "fr": "Hamburger d'abeille géante",
@@ -9917,12 +10019,63 @@
     "level": 430,
     "maxQuality": 36524,
     "name": {
-      "cn": "Grade 3 Skybuilders' Stew (patch 5.31)",
+      "cn": "第三期重建用的炖菜",
       "de": "Federfall-Eintopf",
       "en": "Grade 3 Skybuilders' Stew",
       "fr": "Marmite de ragoût de restauration (3e phase)",
       "ja": "第三次復興用のシチュー",
       "ko": "Grade 3 Skybuilders' Stew"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 60,
+    "id": "7d60f47ad76",
+    "level": 430,
+    "maxQuality": 36524,
+    "name": {
+      "cn": "Grade 4 Skybuilders' Stew (patch 5.41)",
+      "de": "Himmelsang-Eintopf",
+      "en": "Grade 4 Skybuilders' Stew",
+      "fr": "Marmite de ragoût de restauration (4e phase)",
+      "ja": "第四次復興用のシチュー",
+      "ko": "Grade 4 Skybuilders' Stew"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "571739822d8",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Grilled Eel Set (patch 5.4)",
+      "de": "Aal-Set",
+      "en": "Grilled Eel Set",
+      "fr": "Unajû-gozen",
+      "ja": "うな重御膳",
+      "ko": "Grilled Eel Set"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "a8ec6152295",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Homemade Cookie Set (patch 5.4)",
+      "de": "Tablett mit Keksen",
+      "en": "Homemade Cookie Set",
+      "fr": "Planche à biscuits maison",
+      "ja": "ハンドメイドクッキーボード",
+      "ko": "Homemade Cookie Set"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -9971,7 +10124,7 @@
       "cn": "改良用的种子提取液",
       "de": "Werkstätten-Getreidesamenextrakt",
       "en": "Oddly Specific Seed Extract",
-      "fr": "Sève d'affinage",
+      "fr": "Huile de graines d'affinage",
       "ja": "改良用の種子抽出液",
       "ko": "Oddly Specific Seed Extract"
     },
@@ -10019,12 +10172,29 @@
     "level": 430,
     "maxQuality": 18262,
     "name": {
-      "cn": "Rarefied Lemonade (patch 5.3)",
+      "cn": "收藏用柠檬水",
       "de": "Limonade (Sammlerstück)",
       "en": "Rarefied Lemonade",
       "fr": "Limonade collectionnable",
       "ja": "収集用のレモネード",
       "ko": "Rarefied Lemonade"
+    },
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 3943,
+    "durability": 80,
+    "id": "b328dd2d7f1",
+    "level": 430,
+    "maxQuality": 9131,
+    "name": {
+      "cn": "Shakshouka Pot (patch 5.4)",
+      "de": "Heiße Tomatenpfanne",
+      "en": "Shakshouka Pot",
+      "fr": "Poêle de chakchouka",
+      "ja": "鉄鍋シャクシュカ",
+      "ko": "Shakshouka Pot"
     },
     "suggestedCraftsmanship": 1866
   },
@@ -10053,7 +10223,7 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Sliced Watermelon (patch 5.3)",
+      "cn": "切开的西瓜",
       "de": "Geschnittene Melone",
       "en": "Sliced Watermelon",
       "fr": "Tranches de pastèque",
@@ -10070,11 +10240,11 @@
     "level": 430,
     "maxQuality": 9131,
     "name": {
-      "cn": "Takoyaki Boat (patch 5.3)",
+      "cn": "纸船章鱼烧",
       "de": "Takoyaki-Grillplatte",
       "en": "Takoyaki Boat",
       "fr": "Barquette de takoyaki",
-      "ja": "タコ焼き船皿盛り",
+      "ja": "タコ焼き舟皿盛り",
       "ko": "Takoyaki Boat"
     },
     "suggestedCraftsmanship": 1866
@@ -10248,6 +10418,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4543,
+    "durability": 70,
+    "id": "1d374634082",
+    "level": 450,
+    "maxQuality": 43590,
+    "name": {
+      "cn": "Oddly Specific Oil (patch 5.35)",
+      "de": "Werkstätten-Öl",
+      "en": "Oddly Specific Oil",
+      "fr": "Huile d'affinage",
+      "ja": "改良用のオイル",
+      "ko": "Oddly Specific Oil"
+    },
+    "stars": 2,
+    "suggestedCraftsmanship": 2250
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 4343,
     "durability": 70,
     "id": "d2edc823c5c",
@@ -10367,7 +10555,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Chili Crab (patch 5.3)",
+      "cn": "辣酱炒全蟹",
       "de": "Chili-Krabbengericht",
       "en": "Chili Crab",
       "fr": "Chili de crabe",
@@ -10386,7 +10574,7 @@
     "level": 480,
     "maxQuality": 46553,
     "name": {
-      "cn": "Crab Cakes (patch 5.3)",
+      "cn": "炸蟹饼",
       "de": "Krabbenküchlein",
       "en": "Crab Cakes",
       "fr": "Gâteau de crabe",
@@ -10513,6 +10701,24 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 4943,
+    "durability": 70,
+    "id": "e7d9c343ab6",
+    "level": 480,
+    "maxQuality": 51726,
+    "name": {
+      "cn": "Oddly Specific Paste (patch 5.35)",
+      "de": "Werkstätten-Klebstoff",
+      "en": "Oddly Specific Paste",
+      "fr": "Pâte d'affinage",
+      "ja": "改良用のペースト",
+      "ko": "Oddly Specific Paste"
+    },
+    "stars": 3,
+    "suggestedCraftsmanship": 2480
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 6178,
     "durability": 70,
     "id": "7238825b07c",
@@ -10598,7 +10804,7 @@
       "cn": "高地风味菜肉卷",
       "de": "Krautwickel nach Hochländer Art",
       "en": "Stuffed Highland Cabbage",
-      "fr": "Choux farcis",
+      "fr": "Choux des hautes terres farcis",
       "ja": "高地風挽肉のキャベツ巻き",
       "ko": "Stuffed Highland Cabbage"
     },
@@ -10608,18 +10814,227 @@
   },
   {
     "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "0f11bd1fead",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Broad Bean Curry (patch 5.4)",
+      "de": "Bohnencurry",
+      "en": "Broad Bean Curry",
+      "fr": "Curry aux fèves",
+      "ja": "ビーンカレー",
+      "ko": "Broad Bean Curry"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "b67a0e8fc75",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Chicken Fettuccine (patch 5.4)",
+      "de": "Bandnudeln an Hähnchen-Sahnesoße",
+      "en": "Chicken Fettuccine",
+      "fr": "Fettuccine au poulet",
+      "ja": "チキンフェットゥチーネ",
+      "ko": "Chicken Fettuccine"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "bb7f8b437be",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Golden Pineapple Juice (patch 5.4)",
+      "de": "Goldananassaft",
+      "en": "Golden Pineapple Juice",
+      "fr": "Jus d'ananas doré",
+      "ja": "ゴールドパインジュース",
+      "ko": "Golden Pineapple Juice"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
     "difficulty": 11126,
     "durability": 50,
     "id": "169462f6983",
     "level": 510,
     "maxQuality": 82400,
     "name": {
-      "cn": "Grade 3 Artisanal Skybuilders' Luncheon (patch 5.31)",
+      "cn": "第三期重建用的特供套餐",
       "de": "Sonderbestellter Federfall-Speiseteller",
       "en": "Grade 3 Artisanal Skybuilders' Luncheon",
       "fr": "Assiette-repas sur commande de restauration (3e phase)",
       "ja": "第三次復興用の特注定食プレート",
       "ko": "Grade 3 Artisanal Skybuilders' Luncheon"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 12046,
+    "durability": 55,
+    "id": "154dac07e9c",
+    "level": 510,
+    "maxQuality": 81447,
+    "name": {
+      "cn": "Grade 4 Artisanal Skybuilders' Sorbet (patch 5.41)",
+      "de": "Sonderbestelltes Himmelsang-Sorbet",
+      "en": "Grade 4 Artisanal Skybuilders' Sorbet",
+      "fr": "Sorbet sur commande de restauration (4e phase)",
+      "ja": "第四次復興用の特注ソルベ",
+      "ko": "Grade 4 Artisanal Skybuilders' Sorbet"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "3caaa1f40a1",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Lemon Muffin (patch 5.4)",
+      "de": "Zitronenmuffin",
+      "en": "Lemon Muffin",
+      "fr": "Muffin au citron",
+      "ja": "レモンマフィン",
+      "ko": "Lemon Muffin"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "85ec5184db6",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Mist Spinach Quiche (patch 5.4)",
+      "de": "Dunstspinat-Quiche",
+      "en": "Mist Spinach Quiche",
+      "fr": "Quiche aux épinards brume",
+      "ja": "ミストスピナッチキッシュ",
+      "ko": "Mist Spinach Quiche"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "88781e82b9c",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Pineapple Salad (patch 5.4)",
+      "de": "Goldananassalat",
+      "en": "Pineapple Salad",
+      "fr": "Salade d'ananas",
+      "ja": "パインサラダ",
+      "ko": "Pineapple Salad"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ed556bf0dd4",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Pizza (patch 5.4)",
+      "de": "Pizza",
+      "en": "Pizza",
+      "fr": "Pizza",
+      "ja": "ピッツァ",
+      "ko": "Pizza"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "96e6dc6650a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Smoked Chicken (patch 5.4)",
+      "de": "Geräucherte  Hähnchenkeule",
+      "en": "Smoked Chicken",
+      "fr": "Cuisse de poulet fumée",
+      "ja": "スモークチキン",
+      "ko": "Smoked Chicken"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "7204698369a",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Twilight Popoto Salad (patch 5.4)",
+      "de": "Toffelsalat mit Apfel",
+      "en": "Twilight Popoto Salad",
+      "fr": "Salade de popotos aux pommes",
+      "ja": "アップルポポトサラダ",
+      "ko": "Twilight Popoto Salad"
+    },
+    "stars": 4,
+    "suggestedControl": 2540,
+    "suggestedCraftsmanship": 2620
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 8591,
+    "durability": 70,
+    "id": "ae6d8b5fa54",
+    "level": 510,
+    "maxQuality": 56662,
+    "name": {
+      "cn": "Zefir (patch 5.4)",
+      "de": "Zefir",
+      "en": "Zefir",
+      "fr": "Zéfirs",
+      "ja": "ゼフィール",
+      "ko": "Zefir"
     },
     "stars": 4,
     "suggestedControl": 2540,
