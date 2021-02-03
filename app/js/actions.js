@@ -71,7 +71,7 @@ var AllActions = {
     preparatoryTouch: new Action(   'preparatoryTouch',     'Preparatory Touch',    20,     40,  1.0, 2.0, 0.0, 'immediate',   1,  'All',          71),
     groundwork: new Action(         'groundwork',           'Groundwork',           20,     18,  1.0, 0.0, 3.0, 'immediate',   1,  'All',          72),
     delicateSynthesis: new Action(  'delicateSynthesis',    'Delicate Synthesis',   10,     32,  1.0, 1.0, 1.0, 'immediate',   1,  'All',          76),
-    intensiveSynthesis: new Action( 'intensiveSynthesis',   'Intensive Synthesis',  10,     6,  1.0, 0.0, 3.0, 'immediate',   1,  'All',          78,  true,       true),
+    intensiveSynthesis: new Action( 'intensiveSynthesis',   'Intensive Synthesis',  10,     6,  1.0, 0.0, 4.0, 'immediate',   1,  'All',          78,  true,       true),
     trainedEye: new Action(         'trainedEye',           'Trained Eye',          10,    250,  1.0, 0.0, 0.0, 'immediate',   1,  'All',          80),
 
     // Special Actions - not selectable
