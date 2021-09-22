@@ -127,6 +127,7 @@
   "MACRO_CROSS_ACTION_SETUP": "Macro setup des actions cross-class",
   "MACRO_INCLUDE_CLASS": "Inclure les cross-actions de la classe actuelle dans la génération",
   "MACRO_INCLUDE_LOCK": "Inclure le verrou de macro au début de chaque macro",
+  "MACRO_INCLUDE_TITLE": "Include macro title at the start of each macro",
 
   "INITIAL_GUESS": "Départ renseigné",
   "WORKING_IN_PROGRESS": "Calcul en cours...",
@@ -190,6 +191,7 @@
   "CROSS_CLASS_INFO": "Indique si il faut générer une macro séparée qui active les différentes actions cross-class nécessaires.",
   "CURRENT_CLASS_INFO": "Indique si il faut inclure les actions de la classe actuelle dans la génération de la macro d'activation des actions cross-class.",
   "MACRO_LOCK_INFO": "Indique s'il faut inclure une commande de verrouillage de macro au début de chaque macro.",
+  "MACRO_TITLE_INFO": "Whether to include a title at the start of each macro.",
   "SPECIFY_SEED": "Nombre spécifique",
   "SEED_INFO": "Insérer une valeur spécifique pour reproduire les conditions similaires dans les simulations Monte Carlo.",
   "SPECIFY_SEED_INFO": "Permet de modifier la valeur de base aléatoire utilisée dans les simulations Monte Carlo.",

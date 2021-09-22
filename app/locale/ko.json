@@ -120,6 +120,7 @@
   "MACRO_CROSS_ACTION_SETUP": "보조 기술 장착 매크로",
   "MACRO_INCLUDE_CLASS": "현재 직업의 기술도 보조 기술 매크로에 포함",
   "MACRO_INCLUDE_LOCK": "매크로 첫 줄에 매크로 잠금을 포함하기",
+  "MACRO_INCLUDE_TITLE": "Include macro title at the start of each macro",
 
   "INITIAL_GUESS": "초기값",
   "WORKING_IN_PROGRESS": "조합 탐색 중...",
@@ -185,6 +186,7 @@
   "SPECIFY_SEED": "시드 설정",
   "SEED_INFO": "몬테카를로 예상치 계산 결과를 고정시킵니다.",
   "MACRO_LOCK_INFO": "매크로 첫 줄에 매크로 잠금 명령을 포함합니다.",
+  "MACRO_TITLE_INFO": "Whether to include a title at the start of each macro.",
   "SPECIFY_SEED_INFO": "몬테카를로 계산에 사용되는 시드를 설정합니다.",
   "DEBUG": "디버그",
   "DEBUG_INFO": "추가 정보를 출력합니다.",

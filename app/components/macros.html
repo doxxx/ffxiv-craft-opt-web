@@ -6,6 +6,11 @@
         <input type="checkbox" ng-model="options.includeMacroLock"/>{{ 'MACRO_INCLUDE_LOCK' | translate }}
       </label>
     </div>
+    <div class="controls">
+      <label class="checkbox">
+        <input type="checkbox" ng-model="options.includeMacroTitle"/>{{ 'MACRO_INCLUDE_TITLE' | translate }}
+      </label>
+    </div>
   </div>
 </form>
 <div ng-repeat="macro in macroList track by $index">

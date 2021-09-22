@@ -14,7 +14,8 @@
       scope: {
         sequence: '=',
         cls: '=',
-        options: '='
+        options: '=',
+        recipe: '=',
       },
       controller: controller
     }
@@ -27,6 +28,7 @@
     $scope.$watchCollection('sequence', update);
     $scope.$watch('cls', update);
     $scope.$watchCollection('options', update);
+    $scope.$watch('recipe', update);
 
     update();
 
@@ -38,7 +40,7 @@
       }
 
       var sequenceLines = buildSequenceLines($scope.options, $scope.sequence, extractBuffs());
-      $scope.macroList = buildMacroList($scope.options, sequenceLines);
+      $scope.macroList = buildMacroList($scope.options, $scope.recipe, sequenceLines);
     }
 
     function extractBuffs() {
@@ -94,17 +96,23 @@
       return lines;
     }
 
-    function buildMacroList(options, lines) {
+    function buildMacroList(options, recipe, lines) {
       var macroList = [];
 
       var macroString = '';
       var macroLineCount = 0;
       var macroTime = 0;
       var macroIndex = 1;
+      var macroTitle = recipe;      
 
       if (options.includeMacroLock) {
         macroString += '/macrolock\n';
           macroLineCount++;
+      }
+
+      if (options.includeMacroTitle) {
+        macroString += '/echo Macro for ' + macroTitle + ' started' + '\n';
+        macroLineCount++;
       }
 
       for (var j = 0; j < lines.length; j++) {
