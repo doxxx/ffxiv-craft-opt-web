@@ -65,6 +65,7 @@
     "MACRO_CROSS_ACTION_SETUP": "تمثيل عابر الصف يفعل الماكرو",
     "MACRO_INCLUDE_CLASS": "قم بتضمين تصرفات الفئة الحالية في ماكرو تنشيط التنشيط عبر الفئات",
     "MACRO_INCLUDE_LOCK": "قم بتضمين قفل الماكرو في بداية كل ماكرو",
+    "MACRO_INCLUDE_TITLE": "Include macro title at the start of each macro",
   
     "INITIAL_GUESS": "التخمين الأولي",
     "WORKING_IN_PROGRESS": "يعمل...",
@@ -128,6 +129,7 @@
     "CROSS_CLASS_INFO": "",
     "CURRENT_CLASS_INFO": "ما إذا كنت تريد إنشاء ماكرو منفصل ينشط الإجراءات المتقاطعة الضرورية.",
     "MACRO_LOCK_INFO": "ما إذا كنت تريد تضمين أمر قفل الماكرو في بداية كل ماكرو.",
+    "MACRO_TITLE_INFO": "Whether to include a title at the start of each macro.",
     "SPECIFY_SEED": "تحديد البذور",
     "SEED_INFO": "اضبط هذا على قيمة محددة لإعادة إنتاج نفس الشروط في محاكاة مونت كارلو.",
     "SPECIFY_SEED_INFO": "تمكن من تجاوز البذور العشوائية المستخدمة لمحاكاة مونت كارلو.",
